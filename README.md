@@ -1,4 +1,4 @@
-
+    
 # Seq-Browser <img align="right" src="Seq-Browser_Logo1.png" style="height:100px;" />
 
 A browser for sequencing assays
@@ -14,6 +14,6 @@ Frederick Sanger's invention of DNA sequencing in the 1970s allowed scientists t
 
 In the early 2000s, next-generation sequencing (NGS) methods were developed that quickly expanded the capabilities of genomics research, allowing scientists to sequence the genome of an organism at an unprecedented level of detail. Such technologies have led to the success of large-scale sequencing projects such as The Cancer Genome Atlas (TCGA) and Encyclopedia of DNA Elements (ENCODE), which greatly accelerate the rate of basic and translational biomedical research.
 
-In recent years, there has been a remarkable explosion of different sequencing assays that can profile not just DNA, but also RNA, protein, and/or epigenetic modifications. Whilst most new methods rely on the NGS platform, some may utilise microfluidic systems (to profile single cells), or microscopy-based platforms (to preserve spatial information). Anyhow, such emerging methods are being released to the scientific community at a blinding rate.
+In recent years, there has been a remarkable explosion of different sequencing assays that can profile not just DNA, but also RNA, protein, and/or epigenetic modifications. In addition to utilising NGS platforms, some methods may also utilise microfluidic systems (to sort by single cells), or microscopy-based platforms (to preserve spatial information). Anyhow, such emerging methods are being released to the scientific community at a blinding rate.
 
-We created Seq-Browser to catalogue and maintain an up-to-date database of sequencing methods that can be easily browsed at <website-link>
+Therefore we created Seq-Browser to catalogue and maintain an up-to-date database of sequencing methods that can be easily browsed at <website-link>
