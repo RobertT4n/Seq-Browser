@@ -1,61 +1,62 @@
 body {
-    font-family: system-ui;
-    background: white;
-    color: white;
-    text-align: center;
-  }
+  font-family: system-ui;
+  background: white;
+  color: white;
+  text-align: center;
+}
+
+.div1 {
+      background-color: White; 
+      height: 55px;
+      width: 100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+    }
+
+.div2 {
+  text-align: center;
+  font-size: x-large;
   
-  .div1 {
-        background-color: White; 
-        height: 55px;
-        width: 100%;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-      }
-  
-  .div2 {
-    text-align: center;
-    font-size: x-large;
-    
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: purple;
-    height: 150px;
-    width: 100%;
-  }
-  
-   
-      .div3 {
-        background-color: white; /* Bright Purple */
-        height: 100px;
-        width: 100%;
-      }
-  
-  
-      .div4 {
-        background-color: white; /* Dark Blue */
-        height: 400px;
-        width: 100%;
-      }
-  
-  
-      .div5 {
-        background-color: black; /* Grey */
-        height: 100px;
-        width: 100%;
-       }
-      /* Define the styles for the buttons */
-      .nav-button {
-        background-color: white;
-        color: black;
-        border: none;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  height: 150px;
+  width: 100%;
+}
+
+ 
+    .div3 {
+      background-color: white; /* Bright Purple */
+      height: 100px;
+      width: 100%;
+    }
+
+
+    .div4 {
+      background-color: white; /* Dark Blue */
+      height: 400px;
+      width: 100%;
+    }
+
+
+    .div5 {
+      background-color: black; /* Grey */
+      height: 100px;
+      width: 100%;
+     }
+    /* Define the styles for the buttons */
+    .nav-button {
+      background-color: white;
+      color: black;
+      border: none;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
