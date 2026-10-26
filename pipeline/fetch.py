@@ -8,7 +8,7 @@
 import json
 import sys
 
-from common import BIORXIV, epmc_search, get, jats_to_text, epmc_fulltext
+from common import BIORXIV, FT_STATS, epmc_search, get, jats_to_text, epmc_fulltext
 
 # Europe PMC query restricting PubMed-indexed journal papers to plausibly relevant ones (high recall, cheap)
 JOURNAL_FILTER = ('(ABSTRACT:"sequencing" OR ABSTRACT:"seq" OR ABSTRACT:"single-cell" OR ABSTRACT:"single cell" '
@@ -66,16 +66,19 @@ def get_record(doi):
 
 
 def full_text(rec):
-    """Plain full text if open access, else None."""
-    if rec.get("jatsxml"):
-        try:
-            return jats_to_text(get(rec["jatsxml"], as_json=False))
-        except Exception:
-            return None
-    if rec.get("pmcid"):
-        xml = epmc_fulltext(rec["pmcid"])
-        return jats_to_text(xml) if xml else None
-    return None
+    """Plain full text if open access, else None. Every attempt is tallied in common.FT_STATS (ok / not OA / failed)."""
+    try:
+        if rec.get("jatsxml"):
+            xml = get(rec["jatsxml"], as_json=False)
+        elif rec.get("pmcid"):
+            xml = epmc_fulltext(rec["pmcid"])
+        else:
+            xml = None
+    except Exception:
+        FT_STATS["fulltext_failed"] += 1
+        return None
+    FT_STATS["fulltext_ok" if xml else "not_open_access"] += 1
+    return jats_to_text(xml) if xml else None
 
 
 if __name__ == "__main__":

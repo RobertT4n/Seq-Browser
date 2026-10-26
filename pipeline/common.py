@@ -5,6 +5,7 @@
 import json
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -28,10 +29,17 @@ def get(url, as_json=True, tries=3):
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
                 body = r.read().decode("utf-8", "replace")
             return json.loads(body) if as_json else body
+        except urllib.error.HTTPError as e:
+            if e.code == 404 or i == tries - 1:
+                raise
+            time.sleep((30 if e.code == 429 else 5) * (i + 1))  # rate-limited: back off hard
         except Exception:
             if i == tries - 1:
                 raise
             time.sleep(5 * (i + 1))
+
+
+FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0}  # reported in every step1 summary
 
 
 def epmc_search(query, page_size=25, cursor="*", core=False):
@@ -56,14 +64,19 @@ def epmc_lookup(doi=None, title=None):
 def epmc_fulltext(pmcid):
     """JATS XML full text for an open-access PMC article, or None. Europe PMC first; NCBI PMC as fallback
     (Europe PMC's fullTextXML intermittently 500s on articles that are open access)."""
+    failed = False
     for url in (f"{EPMC}/{pmcid}/fullTextXML",
                 f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id={pmcid.removeprefix('PMC')}&rettype=xml"):
         try:
-            xml = get(url, as_json=False, tries=2)
+            xml = get(url, as_json=False, tries=3)
             if "<body" in xml:
                 return xml
+        except urllib.error.HTTPError as e:
+            failed |= e.code != 404
         except Exception:
-            pass
+            failed = True
+    if failed:
+        raise RuntimeError(f"full text for {pmcid} could not be downloaded")
     return None
 
 
