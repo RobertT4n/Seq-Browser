@@ -30,6 +30,11 @@ resolution:
   - spatial
   - subcellular
 
+temporal:            # OPTIONAL. How the method captures time; leave out for ordinary snapshot assays
+  - metabolic-labeling       # new vs old RNA by nucleotide analogue (e.g. 4sU): scNT-seq, sci-fate, SLAM-seq
+  - longitudinal-sampling    # repeatedly samples the SAME living cells: Live-seq, engineered RNA export
+  - molecular-recording      # cells write a time-stamped record read out later: vault-based recorders
+
 scope:               # GENOMIC coverage only. Selecting a place in a tissue/nucleus is resolution (spatial/subcellular)
   - genome-wide         # e.g. ECHOS = genome-wide histone profile of an optically selected region
   - targeted            # restricted to chosen loci: capture oligos, viewpoints, amplicons

@@ -63,6 +63,8 @@
 // domain colours: first three slots of the validated dark categorical palette (all-pairs CVD-safe). A 4th populated
 // domain needs re-validation before it gets a colour.
 const DCOL = {epigenome: "#3987e5", transcriptome: "#199e70", proteome: "#d95926", genome: "#9085e9"};
+// each domain spans a hue range; its readout lanes take evenly spaced shades along it (lane position + label carry identity too)
+const DRANGE = {epigenome: ["#35c0e8", "#8f6ff0"], transcriptome: ["#22b07a", "#a3cf3f"], proteome: ["#f0a23a", "#e2565e"], genome: ["#d77fd9", "#f08ab8"]};
 const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessibility", "histone-modification": "histone marks",
   "protein-dna-binding": "protein binding", "dna-methylation": "DNA methylation", "replication-timing": "replication timing",
   "rna": "RNA", "nascent-rna": "nascent RNA", "protein": "protein", "dna-sequence": "DNA sequence", "lineage": "lineage"};
@@ -81,15 +83,21 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const used = new Set(nodes.flatMap(n => split(n.readouts)));
   const domains = tax.domains.filter(d => Object.entries(tax.readouts).some(([r, dd]) => dd === d && used.has(r)));
   const W = stage.clientWidth, H = stage.clientHeight;
-  const nLanes = used.size, laneGap = Math.max(90, Math.min(150, (H * 1.15 - 200) / Math.max(nLanes - 1 + (domainsN() - 1) * .5, 1))), domainGap = laneGap * 1.5;
-  function domainsN() { return new Set([...used].map(q => tax.readouts[q])).size; }
-  const laneY = {}, domainSpan = {};
+  // lane height grows with its busiest 2-year window (methods whose first readout is that lane), so crowded lanes get room
+  const busiest = {};
+  nodes.forEach(n => { const q = split(n.readouts)[0], k = `${q}|${Math.floor(n.year / 2)}`; busiest[k] = (busiest[k] || 0) + 1; });
+  const laneH = q => Math.max(80, 26 * Math.max(0, ...Object.entries(busiest).filter(([k]) => k.startsWith(q + "|")).map(([, v]) => v)));
+  const laneY = {}, domainSpan = {}, laneCol = {};
   let y = 120;
   domains.forEach(d => {
     const lanes = Object.entries(tax.readouts).filter(([r, dd]) => dd === d && used.has(r)).map(([r]) => r);
-    domainSpan[d] = [y, y + (lanes.length - 1) * laneGap, lanes];
-    lanes.forEach(r => { laneY[r] = y; y += laneGap; });
-    y += domainGap - laneGap;
+    const y0 = y;
+    lanes.forEach((q, i) => {
+      const h = laneH(q); laneY[q] = y + h / 2; y += h;
+      laneCol[q] = d3.interpolateHcl(...DRANGE[d])(lanes.length > 1 ? i / (lanes.length - 1) : .5);
+    });
+    domainSpan[d] = [y0, y, lanes];
+    y += 70;
   });
   const years = d3.extent(nodes, d => d.year), x = d3.scaleLinear().domain([years[0] - 1, years[1] + 1]).range([230, Math.max(W, 1100) * 1.25]);
   const r = d3.scaleSqrt().domain([0, d3.max(nodes, d => d.citations || 0)]).range([6, 24]);
@@ -131,10 +139,11 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   });
   domains.forEach(d => {
     const [y0, y1, lanes] = domainSpan[d];
-    root.append("text").attr("class", "domain-label").attr("x", 20).attr("y", y0 - 26).attr("fill", DCOL[d]).style("fill", DCOL[d]).text(d.toUpperCase());
+    root.append("text").attr("class", "domain-label").attr("x", 20).attr("y", y0 - 14).style("fill", d3.interpolateHcl(...DRANGE[d])(.5)).text(d.toUpperCase());
     lanes.forEach(q => {
-      root.append("line").attr("class", "lane").attr("x1", 150).attr("x2", x(years[1] + 1)).attr("y1", laneY[q]).attr("y2", laneY[q]);
-      root.append("text").attr("class", "lane-label").attr("x", 20).attr("y", laneY[q] + 4).text(`(${LANE_NAME[q] || q})`);
+      root.append("line").attr("class", "lane").attr("x1", 170).attr("x2", x(years[1] + 1)).attr("y1", laneY[q]).attr("y2", laneY[q]);
+      root.append("circle").attr("cx", 24).attr("cy", laneY[q]).attr("r", 4).attr("fill", laneCol[q]);
+      root.append("text").attr("class", "lane-label").attr("x", 34).attr("y", laneY[q] + 4).text(LANE_NAME[q] || q);
     });
   });
 
@@ -145,23 +154,23 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
 
   const node = root.append("g").selectAll("g").data(nodes).join("g").attr("class", "node").attr("transform", d => `translate(${d.x},${d.y})`);
   node.each(function (d) {
-    const g = d3.select(this), n = d.doms.length;
-    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", DCOL[d.doms[0]]).attr("filter", "url(#glow)");
-    else {  // multi-domain (e.g. histone + RNA): one arc per domain
+    const g = d3.select(this), rs = split(d.readouts), n = rs.length;
+    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", laneCol[rs[0]]).attr("filter", "url(#glow)");
+    else {  // multiomic: one arc per readout, in that readout's lane colour
       g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", "none");
-      const arc = d3.arc().innerRadius(d.r - 1).outerRadius(d.r + 1.5).padAngle(.12);
-      d.doms.forEach((dm, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
-        .attr("fill", DCOL[dm]).attr("filter", "url(#glow)"));
+      const arc = d3.arc().innerRadius(d.r - 1).outerRadius(d.r + 1.5).padAngle(.1);
+      rs.forEach((q, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
+        .attr("fill", laneCol[q]).attr("filter", "url(#glow)"));
     }
-    g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", DCOL[d.doms[0]]);
+    g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", laneCol[rs[0]]);
     g.append("text").attr("x", d.r + 7).attr("y", 4).text(d.name);
   });
 
   // legend
   document.getElementById("legend").innerHTML =
-    domains.map(d => `<span><i class="sw" style="color:${DCOL[d]};border-color:${DCOL[d]}"></i>${d[0].toUpperCase() + d.slice(1)}</span>`).join("") +
+    domains.map(d => `<span><i style="display:inline-block;width:30px;height:10px;border-radius:5px;background:linear-gradient(90deg,${DRANGE[d].join(",")});box-shadow:0 0 8px ${DRANGE[d][0]}"></i>${d[0].toUpperCase() + d.slice(1)}</span>`).join("") +
     `<span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span><span>size = citations</span>` +
-    `<span class="hint">hover to trace a lineage · click to open · scroll to zoom · drag to pan</span>`;
+    `<span class="hint">hover to trace a lineage · click to open · scroll to move · pinch or ctrl+scroll to zoom</span>`;
 
   // hover: highlight every ancestor + descendant, show the card
   const up = new Map(nodes.map(n => [n.id, links.filter(l => l.c === n.id).map(l => l.p)]));
@@ -189,10 +198,15 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     .on("click", (e, d) => location.href = `index.html#${encodeURIComponent(d.id)}`);
 
   // zoom/pan; start fitted to the full canvas
-  const zoom = d3.zoom().scaleExtent([.25, 4]).on("zoom", e => root.attr("transform", e.transform));
-  svg.call(zoom);
-  const bb = root.node().getBBox(), k = Math.min(W / (bb.width + 40), (H - 70) / (bb.height + 30), 1.25);
-  svg.call(zoom.transform, d3.zoomIdentity.translate((W - bb.width * k) / 2 - bb.x * k, 60 + (H - 70 - bb.height * k) / 2 - bb.y * k).scale(k));
+  const bb = root.node().getBBox(), pad = 30, kFit = Math.min(W / (bb.width + 2 * pad), 1.25);
+  const zoom = d3.zoom().scaleExtent([kFit, 4])
+    .translateExtent([[bb.x - pad, bb.y - 70 / kFit], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
+    .on("zoom", e => root.attr("transform", e.transform));
+  zoom.filter(e => (e.type !== "wheel" || e.ctrlKey) && !e.button);  // plain wheel scrolls (below); pinch / ctrl+wheel zooms
+  svg.call(zoom).on("dblclick.zoom", null)
+    .on("wheel.scroll", e => { if (e.ctrlKey) return; e.preventDefault();
+      zoom.translateBy(svg, -e.deltaX / d3.zoomTransform(svg.node()).k, -e.deltaY / d3.zoomTransform(svg.node()).k); });
+  svg.call(zoom.transform, d3.zoomIdentity.translate(-(bb.x - pad) * kFit, 70 - bb.y * kFit).scale(kFit));
 });
 </script>
 </body>
