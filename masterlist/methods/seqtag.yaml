@@ -12,6 +12,7 @@ scope: genome-wide
 chemistry:
 - antibody-tethered-enzyme
 - tn5
+- reverse-transcription
 reference:
   doi: 10.64898/2026.06.02.729594
   year: 2026
@@ -22,4 +23,4 @@ reference:
 links: {}
 source: seed
 added: '2026-10-26'
-needs_review: chemistry tags are a guess; confirm against the protocol
+needs_review: chemistry tags are a guess, and lineage (variant_of / builds_on) is unset; confirm against the protocol

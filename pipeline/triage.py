@@ -53,7 +53,9 @@ def names_in(text, window=300):
 
 def triage(rec, fetch_fulltext=True):
     head = f"{rec.get('title', '')}. {rec.get('abstract', '')}"
-    routes, names = [], names_in(head)
+    routes, names = (["submitted"] if rec.get("submitted") else []), names_in(head)  # submissions are never discarded here
+    if rec.get("submitted_name") and rec["submitted_name"] not in names:
+        names.insert(0, rec["submitted_name"])
     if INTRODUCES.search(head) and ASSAY_WORDS.search(head):
         routes.append("abstract")
     if fetch_fulltext:

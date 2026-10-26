@@ -15,6 +15,7 @@ import yaml
 
 from common import METHODS_DIR, ROOT, TAXONOMY, slug
 
+LINK_FIELDS = ("variant_of", "builds_on")  # lineage: direct modification / combines-or-draws-on
 REQUIRED = ("name", "category", "summary", "readouts", "resolution", "scope", "chemistry", "reference")
 LIST_FIELDS = ("readouts", "resolution", "chemistry")
 REPO = "https://github.com/RobertT4n/Seq-Browser"
@@ -39,19 +40,49 @@ def load():
         errors += [f"{p.name}: {x}" for x in errs]
         e["id"] = p.stem
         entries.append(e)
-    known = {e["id"] for e in entries}
-    for e in entries:  # variant_of must point at an existing entry (warning only: parents may be added later)
-        for v in e.get("variant_of") or []:
-            if v not in known:
-                print(f"warning: {e['id']}.yaml variant_of '{v}' has no entry yet", file=sys.stderr)
+    errors += check_lineage(entries)
     return entries, errors
 
 
-def flat(e, cites):
+def parents(e):
+    return [*(e.get("variant_of") or []), *(e.get("builds_on") or [])]
+
+
+def check_lineage(entries):
+    """Every link must point at an existing entry, with no self-links or cycles. Parent newer than child = warning."""
+    by_id, errs = {e["id"]: e for e in entries}, []
+    for e in entries:
+        for f in LINK_FIELDS:
+            for t in e.get(f) or []:
+                if t == e["id"]:
+                    errs.append(f"{e['id']}.yaml: {f} points at itself")
+                elif t not in by_id:
+                    errs.append(f"{e['id']}.yaml: {f} '{t}' has no entry - add masterlist/methods/{t}.yaml or fix the id")
+                elif (by_id[t]["reference"].get("year") or 0) > (e["reference"].get("year") or 9999):
+                    print(f"warning: {e['id']} ({e['reference'].get('year')}) lists newer parent {t} "
+                          f"({by_id[t]['reference'].get('year')})", file=sys.stderr)
+    state = {}  # cycle check: 1 = on current path, 2 = done
+
+    def visit(i, path):
+        state[i] = 1
+        for t in parents(by_id[i]):
+            if t in by_id and state.get(t) == 1:
+                errs.append("lineage cycle: " + " -> ".join(path + [i, t]))
+            elif t in by_id and not state.get(t):
+                visit(t, path + [i])
+        state[i] = 2
+    for i in by_id:
+        if not state.get(i):
+            visit(i, [])
+    return errs
+
+
+def flat(e, cites, children):
     r = e["reference"]
     return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
-            "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []),
+            "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
+            "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
             "journal": r.get("journal"), "doi": r.get("doi"), "citations": (cites.get(e["id"]) or {}).get("count"),
             "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
@@ -60,12 +91,13 @@ def flat(e, cites):
 
 
 def md_table(rows):
-    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Variant of", "Ref", "Cites", "Summary"]
+    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Lineage", "Ref", "Cites", "Summary"]
     out = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     for f in rows:
         ref = f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})"
         cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["scope"], f["chemistry"],
-                 f["variant_of"], ref, f["citations"], f["summary"]]
+                 "; ".join(x for x in (f["variant_of"] and f"variant of {f['variant_of']}",
+                                       f["builds_on"] and f"builds on {f['builds_on']}") if x), ref, f["citations"], f["summary"]]
         out.append("| " + " | ".join(str(c or "").replace("|", "/") for c in cells) + " |")
     return "\n".join(out)
 
@@ -73,7 +105,11 @@ def md_table(rows):
 def write(entries):
     cpath = ROOT / "masterlist" / "citations.json"
     cites = json.loads(cpath.read_text()) if cpath.exists() else {}
-    rows = sorted((flat(e, cites) for e in entries), key=lambda f: f["name"].lower())
+    children = {}
+    for e in entries:
+        for t in parents(e):
+            children.setdefault(t, []).append(e["id"])
+    rows = sorted((flat(e, cites, children) for e in entries), key=lambda f: f["name"].lower())
     wet, dry = [f for f in rows if f["category"] == "wet"], [f for f in rows if f["category"] == "dry"]
     today = date.today().isoformat()
     md = [f"# Seq-Browser masterlist",
@@ -87,7 +123,14 @@ def write(entries):
           f"",
           f"## Wet-lab methods",
           f"",
-          md_table(wet)]
+          md_table(wet),
+          f"",
+          f"## Lineage (parent -> child)",
+          f"",
+          f"`variant` = child is a direct modification of the parent; `builds on` = child combines or draws on the parent.",
+          f""] + [f"- {p} -> {f['id']} ({kind})" for f in wet for kind, key in (("variant", "variant_of"), ("builds on", "builds_on"))
+                  for p in (f[key].split("; ") if f[key] else [])] + [
+    ]
     if dry:
         md += ["", "## Computational methods (under construction - not yet curated)", "", md_table(dry)]
     (ROOT / "METHODS.md").write_text("\n".join(md) + "\n")

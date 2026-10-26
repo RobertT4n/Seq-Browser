@@ -5,7 +5,9 @@
 #       python pipeline/resolve_refs.py rcmc       # just masterlist/methods/rcmc.yaml
 #INPUT: masterlist/methods/*.yaml with at least reference.doi or reference.title
 
+import re
 import sys
+
 import yaml
 
 from common import METHODS_DIR, epmc_lookup
@@ -21,6 +23,9 @@ def resolve(path):
     hit = epmc_lookup(doi=ref.get("doi"), title=None if ref.get("doi") else ref.get("title"))
     if not hit:
         return "NOT FOUND - check reference.title / reference.doi by hand"
+    norm = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>", "", t or "").lower())
+    if not ref.get("doi") and norm(hit.get("title")) != norm(ref.get("title")):
+        return f"TITLE MISMATCH, nothing written - Europe PMC's best hit was '{hit.get('title')}' ({hit.get('pubYear')}); set reference.doi by hand"
     authors = [a.strip().rstrip(".") for a in hit.get("authorString", "").split(",") if a.strip()]
     found = {"doi": hit.get("doi"), "year": int(hit["pubYear"]) if hit.get("pubYear") else None,
              "journal": hit.get("journalTitle") or hit.get("bookOrReportDetails", {}).get("publisher") or

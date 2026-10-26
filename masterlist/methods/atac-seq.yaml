@@ -8,6 +8,9 @@ resolution:
 scope: genome-wide
 chemistry:
 - tn5
+builds_on:
+- dnase-seq
+- faire-seq
 reference:
   doi: 10.1038/nmeth.2688
   year: 2013

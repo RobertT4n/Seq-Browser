@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a Method</title>
+<meta name="description" content="Suggest a sequencing-based method for Seq-Browser.">
+<link rel="stylesheet" href="style.css">
+<style>
+  form { max-width:760px; display:grid; grid-template-columns:1fr 1fr; gap:14px 18px; margin-top:16px; }
+  label { display:flex; flex-direction:column; gap:4px; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  input[type=text], select, textarea { font:inherit; font-size:15px; text-transform:none; letter-spacing:0; font-weight:400; padding:9px 11px; border:1px solid var(--rule); border-radius:8px; background:var(--panel); color:var(--ink); }
+  textarea { min-height:110px; resize:vertical; }
+  .full { grid-column:1 / -1; }
+  fieldset { border:1px solid var(--rule); border-radius:8px; padding:10px 12px; margin:0; }
+  legend { font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); padding:0 4px; }
+  fieldset label { flex-direction:row; align-items:center; gap:6px; display:inline-flex; margin:3px 14px 3px 0; text-transform:none; letter-spacing:0; font-weight:400; font-size:14px; color:var(--ink); }
+  button { grid-column:1 / -1; justify-self:start; background:var(--accent); color:#fff; border:0; border-radius:8px; padding:10px 18px; font:inherit; font-weight:600; cursor:pointer; }
+  .note { max-width:760px; color:var(--muted); font-size:14px; }
+  @media (max-width:760px) { form { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="">
+  <div><h1>Seq-Browser</h1><p>Suggest a method for the database.</p></div>
+  <nav><a href="index.html">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html" aria-current="page">Submit</a></nav>
+</header>
+<main>
+  <p class="note">Know a sequencing method that's missing? Submissions skip the automatic filter and are checked three times by the classifier before anything is discarded. A curator reviews every one before it is added. Clicking <b>Submit</b> opens a pre-filled GitHub issue; a free GitHub account is needed to post it.</p>
+  <form id="f">
+    <label>Method name *<input type="text" name="name" required placeholder="e.g. Droplet Hi-C"></label>
+    <label>DOI(s) *<input type="text" name="doi" required placeholder="paper and/or preprint"></label>
+    <label>Type<select name="category"><option>Wet-lab assay / protocol</option><option>Computational method</option></select></label>
+    <label>Protocol or code link<input type="text" name="protocol" placeholder="protocols.io / GitHub"></label>
+    <fieldset class="full"><legend>What does it measure?</legend>
+      <label><input type="checkbox" name="readouts" value="3D genome">3D genome</label><label><input type="checkbox" name="readouts" value="Chromatin accessibility">Chromatin accessibility</label>
+      <label><input type="checkbox" name="readouts" value="Histone modifications">Histone modifications</label><label><input type="checkbox" name="readouts" value="Protein-DNA binding">Protein-DNA binding</label>
+      <label><input type="checkbox" name="readouts" value="DNA methylation">DNA methylation</label><label><input type="checkbox" name="readouts" value="RNA">RNA</label>
+      <label><input type="checkbox" name="readouts" value="Protein">Protein</label><label><input type="checkbox" name="readouts" value="Other">Other / not sure</label>
+    </fieldset>
+    <fieldset class="full"><legend>Resolution</legend>
+      <label><input type="checkbox" name="resolution" value="Bulk">Bulk</label><label><input type="checkbox" name="resolution" value="Single-cell">Single-cell</label>
+      <label><input type="checkbox" name="resolution" value="Spatial">Spatial</label><label><input type="checkbox" name="resolution" value="Subcellular">Subcellular</label>
+    </fieldset>
+    <label class="full">Related / parent methods<input type="text" name="parents" placeholder="what it is a variant of or builds on, e.g. in situ Hi-C, 10x scATAC"></label>
+    <label class="full">Notes<textarea name="notes" placeholder="anything a curator should know, e.g. where in the paper the method is introduced"></textarea></label>
+    <button type="submit">Submit on GitHub</button>
+  </form>
+</main>
+<script>
+document.getElementById("f").onsubmit = e => {
+  e.preventDefault();
+  const fd = new FormData(e.target), all = k => fd.getAll(k).join(", ");
+  // issue forms pre-fill text fields by id; checkbox answers are folded into the notes field
+  const extra = [all("readouts") && `Measures: ${all("readouts")}`, all("resolution") && `Resolution: ${all("resolution")}`].filter(Boolean).join("\n");
+  const q = new URLSearchParams({
+    template: "submit-method.yml", title: `[Submission] ${fd.get("name")}`, labels: "submission",
+    name: fd.get("name"), doi: fd.get("doi"), parents: fd.get("parents"), protocol: fd.get("protocol"),
+    notes: [extra, fd.get("notes")].filter(Boolean).join("\n\n"),
+  });
+  window.open(`https://github.com/RobertT4n/Seq-Browser/issues/new?${q}`, "_blank", "noopener");
+};
+</script>
+</body>
+</html>

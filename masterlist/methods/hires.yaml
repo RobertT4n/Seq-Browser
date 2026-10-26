@@ -12,6 +12,10 @@ chemistry:
 - proximity-ligation
 - tn5
 - plate-based
+- reverse-transcription
+builds_on:
+- dip-c
+- single-cell-rna-seq
 reference:
   doi: 10.1126/science.adg3797
   year: 2023

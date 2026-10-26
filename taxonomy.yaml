@@ -46,3 +46,7 @@ chemistry:           # key molecular steps; an assay usually has several
   - imaging-guided-selection
   - long-read-sequencing
   - facs-sorting
+  - reverse-transcription   # any RNA readout
+  - dnase-digestion
+  - organic-extraction      # e.g. FAIRE phenol-chloroform partitioning
+  - microfluidic-chip       # e.g. Fluidigm C1 chambers (not droplets)

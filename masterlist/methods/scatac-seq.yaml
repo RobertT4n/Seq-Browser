@@ -1,0 +1,27 @@
+name: scATAC-seq
+aliases:
+- single-cell ATAC-seq
+category: wet
+summary: ATAC-seq performed on individual cells captured in microfluidic chambers.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- microfluidic-chip
+variant_of:
+- atac-seq
+reference:
+  doi: 10.1038/nature14590
+  year: 2015
+  journal: Nature
+  first_author: Buenrostro JD
+  last_author: Greenleaf WJ
+  pmid: '26083756'
+  pmcid: PMC4685948
+  title: Single-cell chromatin accessibility reveals principles of regulatory variation
+links: {}
+source: seed
+added: '2026-10-26'

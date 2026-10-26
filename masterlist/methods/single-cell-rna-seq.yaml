@@ -1,0 +1,26 @@
+name: single-cell RNA-seq
+aliases:
+- scRNA-seq
+category: wet
+summary: First whole-transcriptome sequencing of a single cell (manually picked cells, plate-based cDNA amplification).
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- rna-seq
+reference:
+  doi: 10.1038/nmeth.1315
+  year: 2009
+  journal: Nat Methods
+  first_author: Tang F
+  last_author: Surani MA
+  pmid: '19349980'
+  title: mRNA-Seq whole-transcriptome analysis of a single cell
+links: {}
+source: seed
+added: '2026-10-26'

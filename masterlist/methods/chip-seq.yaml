@@ -1,0 +1,22 @@
+name: ChIP-seq
+category: wet
+summary: Chromatin immunoprecipitation followed by sequencing to map protein binding or histone marks genome-wide.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1126/science.1141319
+  year: 2007
+  journal: Science
+  first_author: Johnson DS
+  last_author: Wold B
+  pmid: '17540862'
+  title: Genome-wide mapping of in vivo protein-DNA interactions
+links: {}
+source: seed
+added: '2026-10-26'

@@ -1,0 +1,28 @@
+name: sci-CAR
+category: wet
+summary: Combinatorial indexing for joint chromatin accessibility and transcriptome from the same cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- combinatorial-indexing
+builds_on:
+- sci-rna-seq
+- sci-atac-seq
+reference:
+  doi: 10.1126/science.aau0730
+  year: 2018
+  journal: Science
+  first_author: Cao J
+  last_author: Shendure J
+  pmid: '30166440'
+  pmcid: PMC6571013
+  title: Joint profiling of chromatin accessibility and gene expression in thousands of single cells
+links: {}
+source: seed
+added: '2026-10-26'

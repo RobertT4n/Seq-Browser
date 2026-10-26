@@ -1,0 +1,25 @@
+name: Drop-seq
+category: wet
+summary: Cells co-encapsulated with barcoded beads in droplets, giving thousands of single-cell transcriptomes per run.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- single-cell-rna-seq
+reference:
+  doi: 10.1016/j.cell.2015.05.002
+  year: 2015
+  journal: Cell
+  first_author: Macosko EZ
+  last_author: McCarroll SA
+  pmid: '26000488'
+  pmcid: PMC4481139
+  title: Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets
+links: {}
+source: seed
+added: '2026-10-26'

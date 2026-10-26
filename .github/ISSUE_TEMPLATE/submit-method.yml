@@ -1,0 +1,50 @@
+name: Submit a method
+description: Suggest a sequencing-based method for Seq-Browser. Submissions are prioritised in the weekly review.
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks! Every submission is checked by the pipeline and a curator before it is added. Only the method name and a DOI are required.
+  - type: input
+    id: name
+    attributes: {label: Method name, placeholder: "e.g. Droplet Hi-C"}
+    validations: {required: true}
+  - type: input
+    id: doi
+    attributes: {label: DOI(s), description: Paper and/or preprint, comma-separated, placeholder: "10.1038/s41587-024-02447-1"}
+    validations: {required: true}
+  - type: dropdown
+    id: category
+    attributes: {label: Type, options: ["Wet-lab assay / protocol", "Computational method"]}
+  - type: checkboxes
+    id: readouts
+    attributes:
+      label: What does it measure?
+      options:
+        - label: 3D genome
+        - label: Chromatin accessibility
+        - label: Histone modifications
+        - label: Protein-DNA binding
+        - label: DNA methylation
+        - label: RNA
+        - label: Protein
+        - label: Other / not sure
+  - type: checkboxes
+    id: resolution
+    attributes:
+      label: Resolution
+      options:
+        - label: Bulk
+        - label: Single-cell
+        - label: Spatial
+        - label: Subcellular
+  - type: input
+    id: parents
+    attributes: {label: Related / parent methods, description: What it is a variant of or builds on, placeholder: "e.g. in situ Hi-C, 10x scATAC"}
+  - type: input
+    id: protocol
+    attributes: {label: Protocol or code link (optional), placeholder: "protocols.io / GitHub"}
+  - type: textarea
+    id: notes
+    attributes: {label: Notes (optional), description: Anything a curator should know, e.g. where in the paper the method is introduced}

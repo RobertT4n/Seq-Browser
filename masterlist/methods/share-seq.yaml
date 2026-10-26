@@ -1,0 +1,28 @@
+name: SHARE-seq
+category: wet
+summary: Split-pool ligation barcoding of accessibility and transcriptome from the same single cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- split-pool-barcoding
+builds_on:
+- single-cell-rna-seq
+- scatac-seq
+reference:
+  doi: 10.1016/j.cell.2020.09.056
+  year: 2020
+  journal: Cell
+  first_author: Ma S
+  last_author: Buenrostro JD
+  pmid: '33098772'
+  pmcid: PMC7669735
+  title: Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin
+links: {}
+source: seed
+added: '2026-10-26'

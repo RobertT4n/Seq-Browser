@@ -1,0 +1,25 @@
+name: sci-ATAC-seq
+category: wet
+summary: 'First combinatorial-indexing single-cell method: barcoded Tn5 plus PCR indexing across plates.'
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+variant_of:
+- atac-seq
+reference:
+  doi: 10.1126/science.aab1601
+  year: 2015
+  journal: Science
+  first_author: Cusanovich DA
+  last_author: Shendure J
+  pmid: '25953818'
+  pmcid: PMC4836442
+  title: Multiplex single cell profiling of chromatin accessibility by combinatorial cellular indexing
+links: {}
+source: seed
+added: '2026-10-26'

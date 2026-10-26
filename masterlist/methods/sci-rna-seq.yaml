@@ -1,0 +1,27 @@
+name: sci-RNA-seq
+category: wet
+summary: Single-cell transcriptomes by combinatorial cellular indexing, no physical isolation of cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+variant_of:
+- single-cell-rna-seq
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1126/science.aam8940
+  year: 2017
+  journal: Science
+  first_author: Cao J
+  last_author: Shendure J
+  pmid: '28818938'
+  pmcid: PMC5894354
+  title: Comprehensive single-cell transcriptional profiling of a multicellular organism
+links: {}
+source: seed
+added: '2026-10-26'

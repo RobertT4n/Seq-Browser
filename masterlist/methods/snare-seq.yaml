@@ -1,0 +1,28 @@
+name: SNARE-seq
+category: wet
+summary: Droplet-based joint profiling of accessibility and transcriptome by capturing tagmented DNA alongside mRNA.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+- scatac-seq
+reference:
+  doi: 10.1038/s41587-019-0290-0
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Chen S
+  last_author: Zhang K
+  pmid: '31611697'
+  pmcid: PMC6893138
+  title: High-throughput sequencing of the transcriptome and chromatin accessibility in the same cell
+links: {}
+source: seed
+added: '2026-10-26'

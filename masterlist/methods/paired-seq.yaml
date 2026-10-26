@@ -10,6 +10,10 @@ scope: genome-wide
 chemistry:
 - tn5
 - combinatorial-indexing
+- reverse-transcription
+builds_on:
+- sci-rna-seq
+- sci-atac-seq
 reference:
   doi: 10.1038/s41594-019-0323-x
   year: 2019

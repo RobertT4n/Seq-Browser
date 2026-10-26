@@ -1,0 +1,26 @@
+name: CUT&RUN
+category: wet
+summary: Antibody-tethered pA-MNase cleaves around bound sites in permeabilised cells; low background, low input.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- mnase
+builds_on:
+- chip-seq
+reference:
+  doi: 10.7554/elife.21856
+  year: 2017
+  journal: Elife
+  first_author: Skene PJ
+  last_author: Henikoff S
+  pmid: '28079019'
+  pmcid: PMC5310842
+  title: An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites
+links: {}
+source: seed
+added: '2026-10-26'

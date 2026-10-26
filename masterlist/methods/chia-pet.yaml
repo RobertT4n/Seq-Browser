@@ -10,6 +10,9 @@ scope: genome-wide
 chemistry:
 - antibody-pull-down
 - proximity-ligation
+builds_on:
+- 3c
+- chip-seq
 reference:
   doi: 10.1038/nature08497
   year: 2009
