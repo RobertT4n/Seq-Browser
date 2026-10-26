@@ -1,0 +1,58 @@
+{
+ "category": [
+  "wet",
+  "dry"
+ ],
+ "domains": [
+  "epigenome",
+  "transcriptome",
+  "proteome",
+  "genome"
+ ],
+ "readouts": {
+  "3d-genome": "epigenome",
+  "chromatin-accessibility": "epigenome",
+  "histone-modification": "epigenome",
+  "protein-dna-binding": "epigenome",
+  "dna-methylation": "epigenome",
+  "replication-timing": "epigenome",
+  "rna": "transcriptome",
+  "nascent-rna": "transcriptome",
+  "protein": "proteome",
+  "dna-sequence": "genome",
+  "lineage": "genome"
+ },
+ "resolution": [
+  "bulk",
+  "single-cell",
+  "spatial",
+  "subcellular"
+ ],
+ "scope": [
+  "genome-wide",
+  "targeted"
+ ],
+ "chemistry": [
+  "proximity-ligation",
+  "restriction-digest",
+  "mnase",
+  "tn5",
+  "antibody-pull-down",
+  "antibody-tethered-enzyme",
+  "oligo-capture",
+  "bisulfite-or-enzymatic-conversion",
+  "nucleotide-labeling",
+  "split-pool-barcoding",
+  "combinatorial-indexing",
+  "droplet-microfluidics",
+  "plate-based",
+  "cryosectioning",
+  "imaging-guided-selection",
+  "long-read-sequencing",
+  "facs-sorting",
+  "reverse-transcription",
+  "dnase-digestion",
+  "organic-extraction",
+  "microfluidic-chip"
+ ]
+}

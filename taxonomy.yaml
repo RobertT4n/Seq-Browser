@@ -5,18 +5,24 @@ category:            # wet = new assay/protocol; dry = new computational method 
   - wet
   - dry
 
-readouts:            # what molecular layer the assay measures
-  - 3d-genome
-  - chromatin-accessibility
-  - histone-modification
-  - protein-dna-binding     # TF / chromatin-protein occupancy
-  - dna-methylation
-  - rna
-  - nascent-rna
-  - protein
-  - dna-sequence            # genome / copy number / SVs
-  - replication-timing
-  - lineage
+domains:             # top-level grouping, in display order (Family graph bands, colours)
+  - epigenome
+  - transcriptome
+  - proteome           # e.g. CITE-seq, ECCITE-seq, DOGMA-seq (antibody-derived tags)
+  - genome
+
+readouts:            # what molecular layer the assay measures -> its domain. Order within a domain = graph lane order
+  3d-genome: epigenome
+  chromatin-accessibility: epigenome
+  histone-modification: epigenome
+  protein-dna-binding: epigenome   # TF / chromatin-protein occupancy
+  dna-methylation: epigenome
+  replication-timing: epigenome
+  rna: transcriptome
+  nascent-rna: transcriptome
+  protein: proteome
+  dna-sequence: genome             # genome / copy number / SVs
+  lineage: genome
 
 resolution:
   - bulk

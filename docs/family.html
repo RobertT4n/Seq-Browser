@@ -7,33 +7,44 @@
 <meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
 <link rel="stylesheet" href="style.css">
 <style>
-  /* this page is always dark: the graph is designed for it */
-  :root { --bg:#0b0e1a; --panel:#121628; --ink:#e6e8f2; --muted:#8a90ab; --rule:#232946; --accent:#9085e9; --chip:#1a1f36;
-          --f3d:#3987e5; --fepi:#d95926; --ftx:#199e70; --edge:#4a5277; }
-  body { background:radial-gradient(1200px 700px at 30% 20%, #141a33 0%, var(--bg) 60%); min-height:100vh; }
-  header img { filter:brightness(1.05); }
-  .legend { display:flex; flex-wrap:wrap; gap:6px 20px; align-items:center; color:var(--muted); font-size:13px; margin:10px 0 4px; }
+  body { overflow:hidden; }
+  header { max-width:none; padding:14px 24px 12px; }
+  header img { height:44px; } header h1 { font-size:22px; }
+  /* full-bleed dark canvas under the normal site header */
+  #stage { position:fixed; left:0; right:0; bottom:0; top:var(--top, 84px);
+           --sbg:#0b0e1a; --sink:#e6e8f2; --smuted:#8a90ab; --edge:#4a5277;
+           background:radial-gradient(1400px 800px at 30% 25%, #151b36 0%, var(--sbg) 62%); }
+  #g { display:block; width:100%; height:100%; cursor:grab; } #g:active { cursor:grabbing; }
+  .legend { position:absolute; top:14px; left:18px; display:flex; flex-wrap:wrap; gap:6px 18px; align-items:center;
+            color:var(--smuted); font-size:13px; background:rgba(11,14,26,.72); backdrop-filter:blur(6px);
+            border:1px solid #232946; border-radius:10px; padding:8px 14px; max-width:calc(100% - 36px); }
   .legend span { display:inline-flex; align-items:center; gap:7px; }
   .sw { width:12px; height:12px; border-radius:50%; border:2px solid; box-shadow:0 0 8px currentColor; }
-  .ln { width:26px; height:0; border-top:2px solid var(--muted); } .ln.d { border-top-style:dashed; }
-  .hint { color:var(--muted); font-size:13px; margin-left:auto; }
-  #wrap { position:relative; margin-top:8px; border:1px solid var(--rule); border-radius:12px; overflow:hidden;
-          background:linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,0)); }
-  #g { display:block; width:100%; height:calc(100vh - 210px); min-height:520px; cursor:grab; }
-  #g:active { cursor:grabbing; }
-  .band-label { fill:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase; opacity:.7; }
-  .year line { stroke:#1b2140; } .year text { fill:var(--muted); font-size:11px; }
+  .ln { width:26px; height:0; border-top:2px solid var(--smuted); } .ln.d { border-top-style:dashed; }
+  .legend .hint { color:#626984; }
+  .domain-label { fill:var(--sink); font-size:13px; font-weight:650; letter-spacing:.16em; }
+  .lane-label { fill:var(--smuted); font-size:11px; letter-spacing:.04em; }
+  .lane { stroke:#161c36; stroke-dasharray:2 6; }
+  .year line { stroke:#1b2140; } .year text { fill:var(--smuted); font-size:11px; }
   .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; transition:opacity .15s, stroke .15s; }
   .edge.b { stroke-dasharray:4 4; }
   .node .core { fill:#0f1324; stroke-width:2; }
   .node .halo { fill:none; stroke-width:1; stroke-dasharray:3 4; opacity:.55; transform-box:fill-box; transform-origin:center; animation:spin 40s linear infinite; }
-  .node text { fill:var(--ink); font-size:13px; font-weight:500; paint-order:stroke; stroke:var(--bg); stroke-width:4px; stroke-linejoin:round; pointer-events:none; }
+  .node text { fill:var(--sink); font-size:13px; font-weight:500; paint-order:stroke; stroke:var(--sbg); stroke-width:4px; stroke-linejoin:round; pointer-events:none; }
   .node { cursor:pointer; transition:opacity .15s; }
   svg.focus .node:not(.on) { opacity:.16; } svg.focus .edge:not(.on) { opacity:.06; }
   svg.focus .edge.on { stroke:#e6e8f2; opacity:.95; stroke-width:1.8; }
   @keyframes spin { to { transform:rotate(360deg); } }
   @media (prefers-reduced-motion: reduce) { .node .halo { animation:none; } }
-  #tip { max-width:280px; line-height:1.4; }
+  /* hover card: same look as the table's expanded row */
+  #card { position:fixed; z-index:5; width:340px; pointer-events:none; opacity:0; transition:opacity .1s;
+          background:var(--panel); color:var(--ink); border:1px solid var(--rule); border-radius:10px; padding:12px 14px;
+          box-shadow:0 12px 32px rgba(0,0,0,.35); font-size:13px; line-height:1.45; }
+  #card h3 { margin:0 0 6px; font-size:15px; } #card h3 small { color:var(--muted); font-weight:500; }
+  #card dl { display:grid; grid-template-columns:78px 1fr; gap:4px 10px; margin:0; } #card dt { color:var(--muted); } #card dd { margin:0; }
+  #card .ref { margin-top:8px; padding-top:8px; border-top:1px solid var(--rule); color:var(--muted); }
+  #card .ref i { color:var(--ink); font-style:normal; }
+  #card .go { margin-top:6px; color:var(--accent); font-size:12px; }
 </style>
 </head>
 <body>
@@ -42,37 +53,50 @@
   <div><h1>Seq-Browser</h1><p>How sequencing methods descend from one another.</p></div>
   <nav><a href="index.html">Table</a><a href="family.html" aria-current="page">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
-<main>
-  <div class="legend">
-    <span><i class="sw" style="color:var(--f3d);border-color:var(--f3d)"></i>3D genome</span>
-    <span><i class="sw" style="color:var(--fepi);border-color:var(--fepi)"></i>Epigenome (accessibility, histone, binding, methylation)</span>
-    <span><i class="sw" style="color:var(--ftx);border-color:var(--ftx)"></i>Transcriptome</span>
-    <span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span><span>size = citations</span>
-    <span class="hint">Hover to trace a lineage · click to open · scroll to zoom</span>
-  </div>
-  <div id="wrap"><svg id="g" role="img" aria-label="Family graph of sequencing methods"></svg></div>
-</main>
-<div id="tip"></div>
+<div id="stage">
+  <svg id="g" role="img" aria-label="Family graph of sequencing methods"></svg>
+  <div class="legend" id="legend"></div>
+</div>
+<div id="card"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script>
-const FAM = {"3d": {c: "var(--f3d)", label: "3D genome", band: 0}, epi: {c: "var(--fepi)", label: "Epigenome", band: 1}, tx: {c: "var(--ftx)", label: "Transcriptome", band: 2}};
-const famOf = r => r === "3d-genome" ? "3d" : (r === "rna" || r === "nascent-rna") ? "tx" : "epi";
+// domain colours: first three slots of the validated dark categorical palette (all-pairs CVD-safe). A 4th populated
+// domain needs re-validation before it gets a colour.
+const DCOL = {epigenome: "#3987e5", transcriptome: "#199e70", proteome: "#d95926", genome: "#9085e9"};
+const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessibility", "histone-modification": "histone marks",
+  "protein-dna-binding": "protein binding", "dna-methylation": "DNA methylation", "replication-timing": "replication timing",
+  "rna": "RNA", "nascent-rna": "nascent RNA", "protein": "protein", "dna-sequence": "DNA sequence", "lineage": "lineage"};
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const tip = document.getElementById("tip");
+const stage = document.getElementById("stage"), card = document.getElementById("card");
+stage.style.setProperty("--top", document.querySelector("header").offsetHeight + "px");
 
-fetch("methods.json").then(r => r.json()).then(({methods}) => {
-  const nodes = methods.filter(m => m.category === "wet" && m.year).map(m => ({...m, fams: [...new Set(split(m.readouts).map(famOf))]
-    .sort((a, b) => FAM[a].band - FAM[b].band)}));
+Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").then(r => r.json())]).then(([{methods}, tax]) => {
+  const nodes = methods.filter(m => m.category === "wet" && m.year).map(m => ({...m}));
   const byId = new Map(nodes.map(n => [n.id, n]));
   const links = nodes.flatMap(n => [...split(n.variant_of).map(p => ({p, c: n.id, kind: "v"})), ...split(n.builds_on).map(p => ({p, c: n.id, kind: "b"}))])
     .filter(l => byId.has(l.p));
 
-  const svg = d3.select("#g"), W = Math.max(document.getElementById("wrap").clientWidth, 900), H = Math.max(document.getElementById("g").clientHeight, 520);
-  const years = d3.extent(nodes, d => d.year), x = d3.scaleLinear().domain([years[0] - 1, years[1] + 1]).range([70, W * 1.2 - 140]);
-  const bandY = b => 80 + b * (H * 1.5 - 140) / 2;
+  // lanes: one per readout actually used, grouped by domain in taxonomy order
+  const used = new Set(nodes.flatMap(n => split(n.readouts)));
+  const domains = tax.domains.filter(d => Object.entries(tax.readouts).some(([r, dd]) => dd === d && used.has(r)));
+  const W = stage.clientWidth, H = stage.clientHeight;
+  const nLanes = used.size, laneGap = Math.max(90, Math.min(150, (H * 1.15 - 200) / Math.max(nLanes - 1 + (domainsN() - 1) * .5, 1))), domainGap = laneGap * 1.5;
+  function domainsN() { return new Set([...used].map(q => tax.readouts[q])).size; }
+  const laneY = {}, domainSpan = {};
+  let y = 120;
+  domains.forEach(d => {
+    const lanes = Object.entries(tax.readouts).filter(([r, dd]) => dd === d && used.has(r)).map(([r]) => r);
+    domainSpan[d] = [y, y + (lanes.length - 1) * laneGap, lanes];
+    lanes.forEach(r => { laneY[r] = y; y += laneGap; });
+    y += domainGap - laneGap;
+  });
+  const years = d3.extent(nodes, d => d.year), x = d3.scaleLinear().domain([years[0] - 1, years[1] + 1]).range([230, Math.max(W, 1100) * 1.25]);
   const r = d3.scaleSqrt().domain([0, d3.max(nodes, d => d.citations || 0)]).range([6, 24]);
-  nodes.forEach(n => { n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0); n.ty = d3.mean(n.fams, f => bandY(FAM[f].band)); n.x = x(n.year); n.y = n.ty + (Math.random() - .5) * 40; });
+  nodes.forEach(n => {
+    n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
+    n.ty = d3.mean(split(n.readouts), q => laneY[q]); n.x = x(n.year); n.y = n.ty + (Math.random() - .5) * 20;
+  });
 
   // node + its right-hand label as a box; overlapping boxes are pushed apart vertically (x stays pinned to year)
   function labelBoxes(alpha) {
@@ -81,32 +105,38 @@ fetch("methods.json").then(r => r.json()).then(({methods}) => {
       const a = nodes[i], b = nodes[j], [ax0, ax1, ah] = box(a), [bx0, bx1, bh] = box(b);
       if (ax1 < bx0 || bx1 < ax0) continue;
       const dy = b.y - a.y, need = ah + bh;
-      if (Math.abs(dy) < need) { const push = (need - Math.abs(dy)) / 2 * alpha * 1.6, s = dy >= 0 ? 1 : -1; a.y -= push * s; b.y += push * s; }
+      if (Math.abs(dy) < need) { const push = (need - Math.abs(dy)) / 2 * alpha * 1.2, s = dy >= 0 ? 1 : -1; a.y -= push * s; b.y += push * s; }
     }
   }
-  // static layout: x pinned to year, y pulled to the family band(s), collisions keep nodes and labels apart
   const sim = d3.forceSimulation(nodes)
     .force("x", d3.forceX(d => x(d.year)).strength(1))
-    .force("y", d3.forceY(d => d.ty).strength(.12))
-    .force("link", d3.forceLink(links.map(l => ({source: l.p, target: l.c}))).id(d => d.id).strength(.04))
+    .force("y", d3.forceY(d => d.ty).strength(.45))
     .force("collide", d3.forceCollide(d => d.r + 6).iterations(2))
     .force("labels", labelBoxes).stop();
-  for (let i = 0; i < 500; i++) sim.tick();
-  nodes.forEach(n => n.x = x(n.year));  // forces may nudge x; snap back so the year axis stays exact
+  for (let i = 0; i < 600; i++) sim.tick();
+  nodes.forEach(n => n.x = x(n.year));  // snap back so the year axis stays exact
+  for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
 
-  const root = svg.append("g");
-  const defs = svg.append("defs");
-  const glow = defs.append("filter").attr("id", "glow").attr("x", "-60%").attr("y", "-60%").attr("width", "220%").attr("height", "220%");
+  const svg = d3.select("#g"), root = svg.append("g");
+  const glow = svg.append("defs").append("filter").attr("id", "glow").attr("x", "-60%").attr("y", "-60%").attr("width", "220%").attr("height", "220%");
   glow.append("feGaussianBlur").attr("stdDeviation", 3.2).attr("result", "b");
   const mg = glow.append("feMerge"); mg.append("feMergeNode").attr("in", "b"); mg.append("feMergeNode").attr("in", "SourceGraphic");
 
-  // year grid + band labels
+  // year grid, lanes, and "EPIGENOME (3D genome, ...)" style labels on the left
+  const top = d3.min(nodes, n => n.y) - 50, bottom = d3.max(nodes, n => n.y) + 40;
   const yg = root.append("g").attr("class", "year");
-  d3.range(Math.ceil(years[0] / 2) * 2, years[1] + 1, 2).forEach(y => {
-    yg.append("line").attr("x1", x(y)).attr("x2", x(y)).attr("y1", 20).attr("y2", d3.max(nodes, n => n.y) + 40);
-    yg.append("text").attr("x", x(y)).attr("y", 14).attr("text-anchor", "middle").text(y);
+  d3.range(Math.ceil(years[0] / 2) * 2, years[1] + 1, 2).forEach(yr => {
+    yg.append("line").attr("x1", x(yr)).attr("x2", x(yr)).attr("y1", top + 14).attr("y2", bottom);
+    yg.append("text").attr("x", x(yr)).attr("y", top).attr("text-anchor", "middle").text(yr);
   });
-  Object.values(FAM).forEach(f => root.append("text").attr("class", "band-label").attr("x", 10).attr("y", bandY(f.band) - 30).text(f.label));
+  domains.forEach(d => {
+    const [y0, y1, lanes] = domainSpan[d];
+    root.append("text").attr("class", "domain-label").attr("x", 20).attr("y", y0 - 26).attr("fill", DCOL[d]).style("fill", DCOL[d]).text(d.toUpperCase());
+    lanes.forEach(q => {
+      root.append("line").attr("class", "lane").attr("x1", 150).attr("x2", x(years[1] + 1)).attr("y1", laneY[q]).attr("y2", laneY[q]);
+      root.append("text").attr("class", "lane-label").attr("x", 20).attr("y", laneY[q] + 4).text(`(${LANE_NAME[q] || q})`);
+    });
+  });
 
   const edge = root.append("g").selectAll("path").data(links).join("path")
     .attr("class", d => `edge ${d.kind}`)
@@ -115,40 +145,54 @@ fetch("methods.json").then(r => r.json()).then(({methods}) => {
 
   const node = root.append("g").selectAll("g").data(nodes).join("g").attr("class", "node").attr("transform", d => `translate(${d.x},${d.y})`);
   node.each(function (d) {
-    const g = d3.select(this), n = d.fams.length;
-    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", FAM[d.fams[0]].c).attr("filter", "url(#glow)");
-    else {  // multiomic: core split into one arc per family
+    const g = d3.select(this), n = d.doms.length;
+    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", DCOL[d.doms[0]]).attr("filter", "url(#glow)");
+    else {  // multi-domain (e.g. histone + RNA): one arc per domain
       g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", "none");
       const arc = d3.arc().innerRadius(d.r - 1).outerRadius(d.r + 1.5).padAngle(.12);
-      d.fams.forEach((f, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
-        .attr("fill", FAM[f].c).attr("filter", "url(#glow)"));
+      d.doms.forEach((dm, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
+        .attr("fill", DCOL[dm]).attr("filter", "url(#glow)"));
     }
-    g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", FAM[d.fams[0]].c);
+    g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", DCOL[d.doms[0]]);
     g.append("text").attr("x", d.r + 7).attr("y", 4).text(d.name);
   });
 
-  // lineage highlight: every ancestor and descendant of the hovered method
+  // legend
+  document.getElementById("legend").innerHTML =
+    domains.map(d => `<span><i class="sw" style="color:${DCOL[d]};border-color:${DCOL[d]}"></i>${d[0].toUpperCase() + d.slice(1)}</span>`).join("") +
+    `<span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span><span>size = citations</span>` +
+    `<span class="hint">hover to trace a lineage · click to open · scroll to zoom · drag to pan</span>`;
+
+  // hover: highlight every ancestor + descendant, show the card
   const up = new Map(nodes.map(n => [n.id, links.filter(l => l.c === n.id).map(l => l.p)]));
   const down = new Map(nodes.map(n => [n.id, links.filter(l => l.p === n.id).map(l => l.c)]));
   const walk = (id, m, seen = new Set()) => { (m.get(id) || []).forEach(t => { if (!seen.has(t)) { seen.add(t); walk(t, m, seen); } }); return seen; };
+  const names = s => split(s).map(i => esc(byId.get(i)?.name || i)).join(", ");
+  const tags = d => [...split(d.readouts), ...split(d.resolution), d.scope, ...split(d.chemistry)].map(t => `<span class="tag">${esc(t)}</span>`).join("");
   node.on("mouseenter", (e, d) => {
     const on = new Set([d.id, ...walk(d.id, up), ...walk(d.id, down)]);
-    svg.classed("focus", true);
-    node.classed("on", n => on.has(n.id));
-    edge.classed("on", l => on.has(l.p) && on.has(l.c));
-    tip.innerHTML = `<b>${esc(d.name)}</b> · ${d.year}<br>${esc(split(d.readouts).join(", "))} · ${esc(split(d.resolution).join(", "))}<br>` +
-      `${d.citations != null ? d.citations.toLocaleString() + " citations" : ""}${d.variant_of ? `<br>variant of ${esc(split(d.variant_of).map(i => byId.get(i)?.name || i).join(", "))}` : ""}` +
-      `${d.builds_on ? `<br>builds on ${esc(split(d.builds_on).map(i => byId.get(i)?.name || i).join(", "))}` : ""}`;
-    tip.style.opacity = 1;
-  }).on("mousemove", e => { tip.style.left = Math.min(e.clientX + 14, innerWidth - 300) + "px"; tip.style.top = e.clientY + 14 + "px"; })
-    .on("mouseleave", () => { svg.classed("focus", false); node.classed("on", false); edge.classed("on", false); tip.style.opacity = 0; })
+    svg.classed("focus", true); node.classed("on", n => on.has(n.id)); edge.classed("on", l => on.has(l.p) && on.has(l.c));
+    card.innerHTML = `<h3>${esc(d.name)} <small>· ${d.year}</small></h3><dl>
+      <dt>Tags</dt><dd>${tags(d)}</dd>
+      ${d.variant_of ? `<dt>Variant of</dt><dd>${names(d.variant_of)}</dd>` : ""}
+      ${d.builds_on ? `<dt>Builds on</dt><dd>${names(d.builds_on)}</dd>` : ""}
+      ${d.children ? `<dt>Led to</dt><dd>${names(d.children)}</dd>` : ""}
+      <dt>Citations</dt><dd>${d.citations != null ? d.citations.toLocaleString() : "–"}</dd></dl>
+      <div class="ref"><i>${esc(d.title || "")}</i><br>${esc(d.first_author)} … ${esc(d.last_author)}, ${esc(d.journal)} ${d.year}</div>
+      <div class="go">Click to open in the table →</div>`;
+    card.style.opacity = 1;
+  }).on("mousemove", e => {
+    const cw = 356, ch = card.offsetHeight + 16;
+    card.style.left = (e.clientX + cw + 16 > innerWidth ? e.clientX - cw : e.clientX + 16) + "px";
+    card.style.top = Math.min(e.clientY + 16, innerHeight - ch) + "px";
+  }).on("mouseleave", () => { svg.classed("focus", false); node.classed("on", false); edge.classed("on", false); card.style.opacity = 0; })
     .on("click", (e, d) => location.href = `index.html#${encodeURIComponent(d.id)}`);
 
-  // zoom/pan; start fitted to the whole graph
-  const zoom = d3.zoom().scaleExtent([.3, 4]).on("zoom", e => root.attr("transform", e.transform));
+  // zoom/pan; start fitted to the full canvas
+  const zoom = d3.zoom().scaleExtent([.25, 4]).on("zoom", e => root.attr("transform", e.transform));
   svg.call(zoom);
-  const bb = root.node().getBBox(), k = Math.min(W / (bb.width + 60), H / (bb.height + 40), 1.2);
-  svg.call(zoom.transform, d3.zoomIdentity.translate((W - bb.width * k) / 2 - bb.x * k, (H - bb.height * k) / 2 - bb.y * k).scale(k));
+  const bb = root.node().getBBox(), k = Math.min(W / (bb.width + 40), (H - 70) / (bb.height + 30), 1.25);
+  svg.call(zoom.transform, d3.zoomIdentity.translate((W - bb.width * k) / 2 - bb.x * k, 60 + (H - 70 - bb.height * k) / 2 - bb.y * k).scale(k));
 });
 </script>
 </body>
