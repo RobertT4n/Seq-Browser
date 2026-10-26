@@ -64,7 +64,7 @@
 // domain needs re-validation before it gets a colour.
 const DCOL = {epigenome: "#3987e5", transcriptome: "#199e70", proteome: "#d95926", genome: "#9085e9"};
 // each domain spans a hue range; its readout lanes take evenly spaced shades along it (lane position + label carry identity too)
-const DRANGE = {epigenome: ["#35c0e8", "#8f6ff0"], transcriptome: ["#22b07a", "#a3cf3f"], proteome: ["#f0a23a", "#e2565e"], genome: ["#d77fd9", "#f08ab8"]};
+const DRANGE = {epigenome: ["#14d9c4", "#b45cf5"], transcriptome: ["#2bd96f", "#e0e04a"], proteome: ["#ffb02e", "#ff5a4f"], genome: ["#ff7ad9", "#ff9fb0"]};
 const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessibility", "histone-modification": "histone marks",
   "protein-dna-binding": "protein binding", "dna-methylation": "DNA methylation", "replication-timing": "replication timing",
   "rna": "RNA", "nascent-rna": "nascent RNA", "protein": "protein", "dna-sequence": "DNA sequence", "lineage": "lineage"};
@@ -99,7 +99,12 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     domainSpan[d] = [y0, y, lanes];
     y += 70;
   });
-  const years = d3.extent(nodes, d => d.year), x = d3.scaleLinear().domain([years[0] - 1, years[1] + 1]).range([230, Math.max(W, 1100) * 1.25]);
+  // time axis: each year's width grows with how many methods it has, so crowded recent years spread out
+  const years = d3.extent(nodes, d => d.year), perYear = d3.rollup(nodes, v => v.length, d => d.year);
+  const yrs = d3.range(years[0] - 1, years[1] + 2), wts = yrs.map(y => 1 + 1.8 * Math.sqrt(perYear.get(y) || 0));
+  const span = Math.max(W, 1100) * 1.6 - 230, unit = span / d3.sum(wts), xpos = new Map();
+  yrs.reduce((acc, y, i) => { xpos.set(y, acc + wts[i] * unit / 2); return acc + wts[i] * unit; }, 230);
+  const x = y => xpos.get(y);
   const r = d3.scaleSqrt().domain([0, d3.max(nodes, d => d.citations || 0)]).range([6, 24]);
   nodes.forEach(n => {
     n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
@@ -133,7 +138,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   // year grid, lanes, and "EPIGENOME (3D genome, ...)" style labels on the left
   const top = d3.min(nodes, n => n.y) - 50, bottom = d3.max(nodes, n => n.y) + 40;
   const yg = root.append("g").attr("class", "year");
-  d3.range(Math.ceil(years[0] / 2) * 2, years[1] + 1, 2).forEach(yr => {
+  d3.range(years[0], years[1] + 1).filter(yr => x(yr + 1) - x(yr) > 46 || yr % 2 === 0).forEach(yr => {
     yg.append("line").attr("x1", x(yr)).attr("x2", x(yr)).attr("y1", top + 14).attr("y2", bottom);
     yg.append("text").attr("x", x(yr)).attr("y", top).attr("text-anchor", "middle").text(yr);
   });
