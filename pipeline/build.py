@@ -35,13 +35,15 @@ def load():
         for f in ("category", "scope"):
             if e.get(f) and e[f] not in tax[f]:
                 errs.append(f"{f}: unknown value '{e[f]}'")
+        errs += [f"introduces: '{v}' is not one of this entry's readouts" for v in e.get("introduces") or [] if v not in e.get("readouts", [])]
         if not (e.get("reference") or {}).get("doi"):
             errs.append("reference.doi missing (run pipeline/resolve_refs.py)")
         errors += [f"{p.name}: {x}" for x in errs]
         e["id"] = p.stem
         entries.append(e)
     errors += check_lineage(entries)
-    return entries, errors
+    check_inherited_readouts(entries)
+    return entries, tax, errors
 
 
 def parents(e):
@@ -77,14 +79,38 @@ def check_lineage(entries):
     return errs
 
 
-def flat(e, cites, children):
+def ancestors(i, by_id, seen=None):
+    seen = set() if seen is None else seen
+    for t in parents(by_id[i]):
+        if t in by_id and t not in seen:
+            seen.add(t)
+            ancestors(t, by_id, seen)
+    return seen
+
+
+def check_inherited_readouts(entries):
+    """A method with parents should inherit each readout from some ancestor, unless it says it introduces that readout
+    (`introduces: [readout]`). Catches missing links, e.g. a Hi-C + methylation method with no methylation ancestor."""
+    by_id = {e["id"]: e for e in entries}
+    for e in entries:
+        if not parents(e):
+            continue  # roots introduce everything they measure
+        inherited = {r for a in ancestors(e["id"], by_id) for r in by_id[a]["readouts"]}
+        for r in e["readouts"]:
+            if r not in inherited and r not in (e.get("introduces") or []):
+                print(f"warning: {e['id']} measures '{r}' but no ancestor does - add a parent that measures it, "
+                      f"or `introduces: [{r}]` if this method was first", file=sys.stderr)
+
+
+def flat(e, cites, children, tax):
     r = e["reference"]
     return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
+            "domains": "; ".join(dict.fromkeys(tax["readouts"][x] for x in e["readouts"])),
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
             "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
-            "journal": r.get("journal"), "doi": r.get("doi"), "citations": (cites.get(e["id"]) or {}).get("count"),
+            "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "citations": (cites.get(e["id"]) or {}).get("count"),
             "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
             "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
             "needs_review": e.get("needs_review")}
@@ -102,14 +128,14 @@ def md_table(rows):
     return "\n".join(out)
 
 
-def write(entries):
+def write(entries, tax):
     cpath = ROOT / "masterlist" / "citations.json"
     cites = json.loads(cpath.read_text()) if cpath.exists() else {}
     children = {}
     for e in entries:
         for t in parents(e):
             children.setdefault(t, []).append(e["id"])
-    rows = sorted((flat(e, cites, children) for e in entries), key=lambda f: f["name"].lower())
+    rows = sorted((flat(e, cites, children, tax) for e in entries), key=lambda f: f["name"].lower())
     wet, dry = [f for f in rows if f["category"] == "wet"], [f for f in rows if f["category"] == "dry"]
     today = date.today().isoformat()
     md = [f"# Seq-Browser masterlist",
@@ -136,6 +162,7 @@ def write(entries):
     (ROOT / "METHODS.md").write_text("\n".join(md) + "\n")
     docs = ROOT / "docs"
     docs.mkdir(exist_ok=True)
+    (docs / "taxonomy.json").write_text(json.dumps(tax, indent=1))
     (docs / "methods.json").write_text(json.dumps({"updated": today, "methods": rows}, indent=1))
     with (docs / "methods.csv").open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
@@ -152,11 +179,11 @@ def write(entries):
 
 
 if __name__ == "__main__":
-    entries, errors = load()
+    entries, tax, errors = load()
     if errors:
         print("\n".join(errors), file=sys.stderr)
         sys.exit(f"{len(errors)} problem(s) in masterlist - nothing written")
     if "--check" in sys.argv:
         print(f"{len(entries)} entries valid")
     else:
-        print("wrote METHODS.md, docs/methods.json, docs/methods.csv, docs/llms.txt (%d wet, %d dry)" % write(entries))
+        print("wrote METHODS.md, docs/methods.json, docs/methods.csv, docs/llms.txt (%d wet, %d dry)" % write(entries, tax))

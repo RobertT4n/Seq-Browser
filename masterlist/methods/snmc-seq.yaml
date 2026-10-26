@@ -1,0 +1,28 @@
+name: snmC-seq
+aliases:
+- single-nucleus methylcytosine sequencing
+category: wet
+summary: Single-nucleus methylome sequencing with improved throughput, used to classify neuronal subtypes.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- plate-based
+- facs-sorting
+variant_of:
+- scbs-seq
+reference:
+  doi: 10.1126/science.aan3351
+  year: 2017
+  journal: Science
+  first_author: Luo C
+  last_author: Ecker JR
+  pmid: '28798132'
+  pmcid: PMC5570439
+  title: Single-cell methylomes identify neuronal subtypes and regulatory elements in mammalian cortex
+links: {}
+source: seed
+added: '2026-10-26'

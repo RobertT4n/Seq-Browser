@@ -1,0 +1,28 @@
+name: scBS-seq
+aliases:
+- single-cell bisulfite sequencing
+category: wet
+summary: Post-bisulfite adaptor tagging to profile genome-wide DNA methylation in single cells.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- plate-based
+- facs-sorting
+variant_of:
+- wgbs
+reference:
+  doi: 10.1038/nmeth.3035
+  year: 2014
+  journal: Nat Methods
+  first_author: Smallwood SA
+  last_author: Kelsey G
+  pmid: '25042786'
+  pmcid: PMC4117646
+  title: Single-cell genome-wide bisulfite sequencing for assessing epigenetic heterogeneity
+links: {}
+source: seed
+added: '2026-10-26'

@@ -1,0 +1,25 @@
+name: WGBS
+aliases:
+- whole-genome bisulfite sequencing
+- BS-seq
+category: wet
+summary: Bisulfite conversion plus whole-genome sequencing to map DNA methylation at single-base resolution.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/nature08514
+  year: 2009
+  journal: Nature
+  first_author: Lister R
+  last_author: Ecker JR
+  pmid: '19829295'
+  pmcid: PMC2857523
+  title: Human DNA methylomes at base resolution show widespread epigenomic differences
+links: {}
+source: seed
+added: '2026-10-26'

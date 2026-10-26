@@ -1,7 +1,7 @@
 name: SeqTag
 category: wet
-summary: Single-cell multiomics jointly profiling transcriptome, chromatin accessibility and histone modifications. Named
-  in the abstract only, not the title.
+summary: 'Single-cell multiomics: antibody-targeted CUT&Tag (histone marks) + ATAC (accessibility) + RNA from the same cell,
+  with plate-based combinatorial barcoding. Named in the abstract only, not the title.'
 readouts:
 - rna
 - chromatin-accessibility
@@ -13,6 +13,12 @@ chemistry:
 - antibody-tethered-enzyme
 - tn5
 - reverse-transcription
+- combinatorial-indexing
+- plate-based
+builds_on:
+- paired-tag
+- cut-and-tag
+- atac-seq
 reference:
   doi: 10.64898/2026.06.02.729594
   year: 2026
@@ -23,4 +29,3 @@ reference:
 links: {}
 source: seed
 added: '2026-10-26'
-needs_review: chemistry tags are a guess, and lineage (variant_of / builds_on) is unset; confirm against the protocol
