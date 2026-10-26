@@ -1,0 +1,27 @@
+name: Si-scRNA-seq
+category: wet
+summary: Biosilicification encases cells/RNA in a thin silica layer so single-cell transcriptomes survive weeks at room temperature
+  before standard scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- sample-preservation
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1073/pnas.2617730123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Zhou L
+  last_author: Zhu W
+  pmid: '42912787'
+  title: 'Si-scRNA-seq: Enabling ambient-stable single-cell transcriptomics through spatially confined biosilicification'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present spatially confined biosilicification (SCB) ... scRNA-seq performed with biosilicified cells (Si-scRNA-seq)

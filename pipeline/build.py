@@ -17,7 +17,7 @@ from common import METHODS_DIR, ROOT, TAXONOMY, slug
 
 LINK_FIELDS = ("variant_of", "builds_on")  # lineage: direct modification / combines-or-draws-on
 REQUIRED = ("name", "category", "summary", "readouts", "resolution", "scope", "chemistry", "reference")
-LIST_FIELDS = ("readouts", "resolution", "chemistry", "temporal")  # temporal is optional
+LIST_FIELDS = ("readouts", "resolution", "chemistry", "temporal", "perturbation")  # temporal is optional
 REPO = "https://github.com/RobertT4n/Seq-Browser"
 RAW = "https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main"
 
@@ -107,7 +107,7 @@ def flat(e, cites, children, tax):
     return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
             "domains": "; ".join(dict.fromkeys(tax["readouts"][x] for x in e["readouts"])),
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
-            "temporal": "; ".join(e.get("temporal") or []),
+            "temporal": "; ".join(e.get("temporal") or []), "perturbation": "; ".join(e.get("perturbation") or []),
             "chemistry": "; ".join(e.get("chemistry") or []), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),

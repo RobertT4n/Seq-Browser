@@ -1,0 +1,30 @@
+name: High-throughput minigene assay
+aliases:
+- NF1 deep-intronic minigene MPRA
+category: wet
+summary: Saturation-style mutagenesis of an intron cloned into a splicing minigene, with NGS readout of which variants activate
+  pseudoexons.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- minigene-reporter
+- saturation-editing
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+reference:
+  doi: 10.64898/2026.10.20.760351
+  year: 2026
+  journal: bioRxiv
+  first_author: Svobodová E
+  last_author: Kajan Grodecká L
+  title: Decoding pseudoexon activation by deep intronic variants using a high-throughput minigene assay in the  <i>NF1</i>  gene
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we developed a specialized minigene assay by combining high-throughput mutagenesis and next-generation sequencing
+  to evaluate the splicing effect of 501 deep intronic variants
