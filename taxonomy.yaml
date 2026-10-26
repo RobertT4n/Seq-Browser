@@ -24,9 +24,9 @@ resolution:
   - spatial
   - subcellular
 
-scope:
-  - genome-wide
-  - targeted                # capture / viewpoint / region-restricted
+scope:               # GENOMIC coverage only. Selecting a place in a tissue/nucleus is resolution (spatial/subcellular)
+  - genome-wide         # e.g. ECHOS = genome-wide histone profile of an optically selected region
+  - targeted            # restricted to chosen loci: capture oligos, viewpoints, amplicons
 
 chemistry:           # key molecular steps; an assay usually has several
   - proximity-ligation

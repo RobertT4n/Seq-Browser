@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Seq-Browser</title>
+<meta name="description" content="How Seq-Browser finds, classifies and curates sequencing-based assays.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .prose { max-width:780px; } .prose h2 { font-size:18px; margin:28px 0 6px; } .prose p, .prose li { color:var(--ink); }
+  .flow { background:#fff; border:1px solid var(--rule); border-radius:10px; padding:16px; margin:16px 0; }
+  .flow img { width:100%; height:auto; display:block; }
+  dl { display:grid; grid-template-columns:120px 1fr; gap:6px 16px; } dt { font-weight:600; } dd { margin:0; color:var(--muted); }
+  code { background:var(--chip); padding:1px 5px; border-radius:4px; font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="">
+  <div><h1>Seq-Browser</h1><p>How the catalogue is built.</p></div>
+  <nav><a href="index.html">Table</a><a href="analysis.html">Analysis</a><a href="about.html" aria-current="page">About</a></nav>
+</header>
+<main>
+  <div class="flow"><img src="flow.png" alt="Thousands of sequencing papers per week from journals and bioRxiv are web-scraped, filtered and classified into a curated, organised list: LLM-friendly format and an intuitive web browser."></div>
+  <div class="prose">
+    <h2>Why</h2>
+    <p>New sequencing assays appear every week, across bulk, single-cell and spatial genomics, and many are named only deep inside a paper's Results section. Seq-Browser keeps one curated, searchable list of them, readable by people and by language models.</p>
+
+    <h2>How it works</h2>
+    <ol>
+      <li><b>Collect.</b> Every new bioRxiv/medRxiv preprint and every new PubMed journal paper, via their public APIs, with full text where it is open access.</li>
+      <li><b>Filter.</b> Free rule-based triage cuts ~1,200 papers a week to ~100 candidates. It reads abstracts and scans full text for naming phrases (&ldquo;an approach we call&nbsp;&hellip;&rdquo;), which catches methods introduced only in the Results.</li>
+      <li><b>Classify.</b> A language model reads each candidate and decides whether it introduces a new sequencing method, wet-lab or computational, and tags it, quoting the sentence that justifies each call.</li>
+      <li><b>Review.</b> A human approves or rejects each candidate before it enters the list.</li>
+      <li><b>Publish.</b> The approved list rebuilds this website, a Markdown table and JSON/CSV downloads automatically.</li>
+    </ol>
+
+    <h2>Labels</h2>
+    <dl>
+      <dt>Readout</dt><dd>What is measured: 3D genome, RNA, chromatin accessibility, histone modifications, DNA methylation&hellip;</dd>
+      <dt>Resolution</dt><dd>Bulk, single-cell, spatial or subcellular.</dd>
+      <dt>Scope</dt><dd>Genomic coverage: genome-wide, or targeted to chosen loci (capture, viewpoints). Selecting a place in a tissue is resolution, not scope.</dd>
+      <dt>Chemistry</dt><dd>Key molecular steps: proximity ligation, MNase, Tn5, antibody-tethered enzymes, droplets&hellip;</dd>
+      <dt>Variant of</dt><dd>The parent method(s), e.g. RCMC &rarr; Micro-C.</dd>
+    </dl>
+    <p>Computational methods are being collected and will appear once curated.</p>
+
+    <h2>Using it with an LLM</h2>
+    <p>Point your assistant at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a>, which is the whole database in one file, or at <a href="llms.txt">llms.txt</a>. It won't need to search the web.</p>
+
+    <h2>Contribute</h2>
+    <p>Missing a method or spotted a wrong label? Open an issue or pull request on <a href="https://github.com/RobertT4n/Seq-Browser">GitHub</a>. Each method is one small YAML file in <code>masterlist/methods/</code>.</p>
+  </div>
+</main>
+</body>
+</html>

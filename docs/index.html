@@ -6,54 +6,36 @@
 <title>Seq-Browser</title>
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
-<style>
-  :root { --bg:#fafaf8; --panel:#ffffff; --ink:#1d1d1f; --muted:#6b6b70; --rule:#e3e3e0; --accent:#6a3fb5; --accent-soft:#efe8fa; --chip:#f2f2ef; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#141416; --panel:#1c1c1f; --ink:#ececee; --muted:#9a9aa2; --rule:#2e2e33; --accent:#b493f0; --accent-soft:#2c2340; --chip:#26262b; } }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
-  header { max-width:1200px; margin:0 auto; padding:32px 16px 8px; display:flex; gap:16px; align-items:center; }
-  header img { height:56px; }
-  header h1 { margin:0; font-size:26px; letter-spacing:-.01em; }
-  header p { margin:2px 0 0; color:var(--muted); }
-  main { max-width:1200px; margin:0 auto; padding:8px 16px 48px; }
-  .bar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:16px 0 8px; }
-  input[type=search] { flex:1 1 260px; padding:9px 12px; border:1px solid var(--rule); border-radius:8px; background:var(--panel); color:var(--ink); font:inherit; }
-  .count { color:var(--muted); font-size:13px; }
-  .facet { margin:6px 0; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
-  .facet b { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); width:92px; font-weight:600; }
-  .chip { border:1px solid var(--rule); background:var(--chip); color:var(--ink); border-radius:999px; padding:2px 10px; font-size:13px; cursor:pointer; }
-  .chip[aria-pressed=true] { background:var(--accent); border-color:var(--accent); color:#fff; }
-  table { width:100%; border-collapse:collapse; margin-top:12px; background:var(--panel); border:1px solid var(--rule); border-radius:10px; overflow:hidden; }
-  th, td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--rule); vertical-align:top; font-size:14px; }
-  th { font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); font-weight:600; }
-  tr.row { cursor:pointer; } tr.row:hover td { background:var(--accent-soft); }
-  td.name { font-weight:600; white-space:nowrap; } td.name small { display:block; font-weight:400; color:var(--muted); white-space:normal; }
-  .tag { display:inline-block; background:var(--chip); border-radius:5px; padding:0 6px; margin:1px 2px 1px 0; font-size:12px; }
-  tr.detail td { background:var(--bg); font-size:14px; } tr.detail p { margin:4px 0; }
-  a { color:var(--accent); }
-  .llm { margin-top:28px; padding:14px 16px; border:1px dashed var(--rule); border-radius:10px; color:var(--muted); font-size:14px; }
-  @media (max-width:760px) { .hide-sm { display:none; } .facet b { width:100%; } }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <img src="logo.png" alt="">
   <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing-based assays.</p></div>
+  <nav><a href="index.html" aria-current="page">Table</a><a href="analysis.html">Analysis</a><a href="about.html">About</a></nav>
 </header>
 <main>
-  <div class="bar"><input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search"><span class="count" id="count"></span></div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search">
+    <span class="count" id="count"></span>
+    <a class="btn" href="methods.csv" download>Download CSV</a><a class="btn" href="methods.json" download>JSON</a>
+  </div>
   <div id="facets"></div>
   <table>
-    <thead><tr><th>Method</th><th>Readouts</th><th>Resolution</th><th class="hide-sm">Scope</th><th class="hide-sm">Chemistry</th><th>Year</th></tr></thead>
+    <thead><tr>
+      <th class="sort" data-key="name">Method</th><th>Readouts</th><th>Resolution</th>
+      <th class="hide-sm">Scope</th><th class="hide-sm">Chemistry</th><th class="hide-sm">DOI</th>
+      <th class="sort num" data-key="citations">Citations</th><th class="sort num" data-key="year">Year</th>
+    </tr></thead>
     <tbody id="rows"></tbody>
   </table>
-  <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="methods.csv">CSV</a>, <a href="llms.txt">llms.txt</a>.</div>
+  <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>. Citation counts from OpenAlex, refreshed weekly.</div>
 </main>
 <script>
 const FACETS = [["readouts","Readout"],["resolution","Resolution"],["scope","Scope"],["chemistry","Chemistry"]];
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let data = [], on = {}, open = null;
+let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
 
 fetch("methods.json").then(r => r.json()).then(j => {
   data = j.methods.filter(m => m.category === "wet");
@@ -66,6 +48,11 @@ fetch("methods.json").then(r => r.json()).then(j => {
     const s = on[b.dataset.k], v = b.dataset.v; s.has(v) ? s.delete(v) : s.add(v);
     b.setAttribute("aria-pressed", s.has(v)); render();
   });
+  document.querySelectorAll("th.sort").forEach(th => th.onclick = () => {
+    const k = th.dataset.key;
+    sortDir = sortKey === k && sortDir === (k === "name" ? "asc" : "desc") ? (k === "name" ? "desc" : "asc") : (k === "name" ? "asc" : "desc");
+    sortKey = k; render();
+  });
   document.getElementById("q").oninput = render;
   render();
 });
@@ -73,16 +60,22 @@ fetch("methods.json").then(r => r.json()).then(j => {
 function render() {
   const q = document.getElementById("q").value.toLowerCase();
   const rows = data.filter(m =>
-    FACETS.every(([k]) => [...on[k]].every(v => split(m[k]).includes(v))) &&
-    (!q || [m.name, m.aliases, m.summary, m.first_author, m.last_author].join(" ").toLowerCase().includes(q)));
+    // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
+    FACETS.every(([k]) => k === "scope" ? !on[k].size || on[k].has(m.scope) : [...on[k]].every(v => split(m[k]).includes(v))) &&
+    (!q || [m.name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q)));
+  const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
+  rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
+  document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
   document.getElementById("count").textContent = `${rows.length} of ${data.length} methods`;
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
-    <tr class="row" data-id="${m.id}"><td class="name">${esc(m.name)}${m.aliases ? `<small>${esc(m.aliases)}</small>` : ""}</td>
-    <td>${tags(m.readouts)}</td><td>${tags(m.resolution)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm">${tags(m.chemistry)}</td><td>${m.year ?? ""}</td></tr>
-    ${open === m.id ? `<tr class="detail"><td colspan="6"><p>${esc(m.summary)}</p>
-      <p>${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""} · <a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">doi:${esc(m.doi)}</a>
-      ${m.variant_of ? ` · variant of ${split(m.variant_of).map(v => `<a href="#" data-goto="${esc(v)}">${esc(v)}</a>`).join(", ")}` : ""}
+    <tr class="row" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.aliases ? `<small>${esc(m.aliases)}</small>` : ""}</td>
+    <td>${tags(m.readouts)}</td><td>${tags(m.resolution)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm">${tags(m.chemistry)}</td>
+    <td class="hide-sm doi"><a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a></td>
+    <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
+    ${open === m.id ? `<tr class="detail"><td colspan="8"><p>${esc(m.summary)}</p>
+      <p>${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}
+      ${m.variant_of ? ` · variant of ${split(m.variant_of).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}` : ""}
       ${m.protocol ? ` · <a href="${esc(m.protocol)}">protocol</a>` : ""}${m.code ? ` · <a href="${esc(m.code)}">code</a>` : ""}</p></td></tr>` : ""}`).join("");
   document.querySelectorAll("tr.row").forEach(tr => tr.onclick = () => { open = open === tr.dataset.id ? null : tr.dataset.id; render(); });
   document.querySelectorAll("[data-goto]").forEach(a => a.onclick = e => {
