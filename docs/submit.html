@@ -41,7 +41,7 @@
     </fieldset>
     <fieldset class="full"><legend>Resolution</legend>
       <label><input type="checkbox" name="resolution" value="Bulk">Bulk</label><label><input type="checkbox" name="resolution" value="Single-cell">Single-cell</label>
-      <label><input type="checkbox" name="resolution" value="Spatial">Spatial</label><label><input type="checkbox" name="resolution" value="Subcellular">Subcellular</label>
+      <label><input type="checkbox" name="resolution" value="Spatial">Spatial</label><label><input type="checkbox" name="resolution" value="Subcellular">Subcellular</label><label><input type="checkbox" name="resolution" value="Temporal">Temporal</label>
     </fieldset>
     <label class="full">Related / parent methods<input type="text" name="parents" placeholder="what it is a variant of or builds on, e.g. in situ Hi-C, 10x scATAC"></label>
     <label class="full">Notes<textarea name="notes" placeholder="anything a curator should know, e.g. where in the paper the method is introduced"></textarea></label>
@@ -49,17 +49,25 @@
   </form>
 </main>
 <script>
-document.getElementById("f").onsubmit = e => {
+// Submissions go to a Google Form used only as a mailbox (responses land in a Google Sheet the weekly pipeline reads).
+// Visitors never leave this page and need no account.
+const FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfe_usde4JB1zl45D2VWBoCuu-HeVGxjxuIzxkrlgiUQn2BOQ/formResponse";
+const ENTRY = {name: 92676153, doi: 876010685, category: 651749802, protocol: 1264550092, readouts: 1614318311,
+               resolution: 1307065276, parents: 1600325334, notes: 672298552};
+document.getElementById("f").onsubmit = async e => {
   e.preventDefault();
-  const fd = new FormData(e.target), all = k => fd.getAll(k).join(", ");
-  // issue forms pre-fill text fields by id; checkbox answers are folded into the notes field
-  const extra = [all("readouts") && `Measures: ${all("readouts")}`, all("resolution") && `Resolution: ${all("resolution")}`].filter(Boolean).join("\n");
-  const q = new URLSearchParams({
-    template: "submit-method.yml", title: `[Submission] ${fd.get("name")}`, labels: "submission",
-    name: fd.get("name"), doi: fd.get("doi"), parents: fd.get("parents"), protocol: fd.get("protocol"),
-    notes: [extra, fd.get("notes")].filter(Boolean).join("\n\n"),
-  });
-  window.open(`https://github.com/RobertT4n/Seq-Browser/issues/new?${q}`, "_blank", "noopener");
+  const fd = new FormData(e.target), body = new URLSearchParams(), btn = e.target.querySelector("button");
+  for (const [k, id] of Object.entries(ENTRY)) body.append(`entry.${id}`, fd.getAll(k).join(", "));
+  btn.disabled = true; btn.textContent = "Sending…";
+  try {
+    await fetch(FORM, {method: "POST", mode: "no-cors", body});  // opaque response by design; reaching here = sent
+    e.target.outerHTML = `<div class="note" style="max-width:760px;margin-top:16px;padding:16px;border:1px solid var(--rule);border-radius:10px;background:var(--panel)">
+      <b>Thank you!</b> ${fd.get("name").replace(/[<>&]/g, "")} has been submitted and will be prioritized in the next weekly review.
+      <br><a href="submit.html">Submit another</a></div>`;
+  } catch {
+    btn.disabled = false; btn.textContent = "Submit";
+    alert("Couldn't reach the submission service. Please check your connection and try again.");
+  }
 };
 </script>
 </body>
