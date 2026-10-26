@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seq-Browser Analysis</title>
+<meta name="description" content="Overview of the Seq-Browser database: methods over time, publication status, readouts and resolution.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="">
+  <div><h1>Seq-Browser</h1><p>An overview of the database.</p></div>
+  <nav><a href="index.html">Table</a><a href="analysis.html" aria-current="page">Analysis</a><a href="about.html">About</a></nav>
+</header>
+<main>
+  <div class="tiles" id="tiles"></div>
+  <div class="grid">
+    <div class="card"><h2>Methods over time</h2><p class="sub">Cumulative number of methods by publication year</p><div id="c-time"></div></div>
+    <div class="card"><h2>What they measure</h2><p class="sub">Methods per readout (a method can have several)</p><div id="c-readout"></div></div>
+    <div class="card"><h2>Resolution</h2><p class="sub">Methods per resolution level</p><div id="c-res"></div></div>
+    <div class="card"><h2>Most cited</h2><p class="sub">Top 10 by citations (OpenAlex)</p><div id="c-cites"></div></div>
+  </div>
+</main>
+<div id="tip"></div>
+<script>
+const split = s => (s || "").split("; ").filter(Boolean);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tip = document.getElementById("tip");
+function hover(svg) {  // any element with data-tip shows a tooltip on hover
+  svg.querySelectorAll("[data-tip]").forEach(el => {
+    el.onmousemove = e => { tip.textContent = el.dataset.tip; tip.style.left = e.clientX + 12 + "px"; tip.style.top = e.clientY - 28 + "px"; tip.style.opacity = 1; };
+    el.onmouseleave = () => tip.style.opacity = 0;
+  });
+}
+const width = el => Math.max(el.clientWidth, 280);  // draw at the card's real pixel width so text stays 13px
+
+function bars(el, pairs, fmt = v => v) {  // horizontal bars, single hue, value labels at bar end
+  const W = width(el), rowH = 28, left = Math.min(170, W * 0.38), right = 56, max = Math.max(...pairs.map(p => p[1]), 1), H = pairs.length * rowH + 4;
+  const x = v => (W - left - right) * v / max;
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">${pairs.map(([k, v], i) => `
+    <g data-tip="${esc(k)}: ${fmt(v)}"><rect x="0" y="${i * rowH}" width="${W}" height="${rowH}" fill="transparent"/>
+    <text x="${left - 8}" y="${i * rowH + 17}" text-anchor="end" class="lbl">${esc(k)}</text>
+    <rect x="${left}" y="${i * rowH + 6}" width="${Math.max(x(v), 2)}" height="14" rx="3" fill="var(--accent)"/>
+    <text x="${left + x(v) + 6}" y="${i * rowH + 17}">${fmt(v)}</text></g>`).join("")}</svg>`;
+  hover(el);
+}
+
+function cumulative(el, years) {  // step line of cumulative count by year
+  const W = width(el), H = 260, pad = {l: 36, r: 14, t: 10, b: 26};
+  const ys = Object.keys(years).map(Number).sort((a, b) => a - b), y0 = ys[0], y1 = Math.max(ys.at(-1), new Date().getFullYear());
+  let run = 0; const pts = []; for (let y = y0; y <= y1; y++) { run += years[y] || 0; pts.push([y, run]); }
+  const X = y => pad.l + (W - pad.l - pad.r) * (y - y0) / Math.max(y1 - y0, 1), Y = v => H - pad.b - (H - pad.t - pad.b) * v / run;
+  const step = pts.map(([y, v], i) => (i ? `H${X(y)}` : `M${X(y)} ${Y(0)}H${X(y)}`) + `V${Y(v)}`).join("");
+  const ticks = [0, Math.round(run / 2), run], yearTicks = pts.filter(([y]) => (y - y0) % Math.ceil((y1 - y0) / 6 || 1) === 0);
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">
+    ${ticks.map(t => `<line x1="${pad.l}" x2="${W - pad.r}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--grid)"/><text x="${pad.l - 6}" y="${Y(t) + 4}" text-anchor="end">${t}</text>`).join("")}
+    ${yearTicks.map(([y]) => `<text x="${X(y)}" y="${H - 6}" text-anchor="middle">${y}</text>`).join("")}
+    <path d="${step}" fill="none" stroke="var(--accent)" stroke-width="2"/>
+    ${pts.filter(([y]) => years[y]).map(([y, v]) => `<g data-tip="${y}: ${years[y]} new, ${v} total"><circle cx="${X(y)}" cy="${Y(v)}" r="10" fill="transparent"/><circle cx="${X(y)}" cy="${Y(v)}" r="4" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/></g>`).join("")}
+  </svg>`;
+  hover(el);
+}
+
+fetch("methods.json").then(r => r.json()).then(j => {
+  const d = j.methods.filter(m => m.category === "wet");
+  const count = key => { const c = {}; d.forEach(m => split(m[key]).forEach(v => c[v] = (c[v] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
+  const pre = d.filter(m => m.preprint).length, sc = d.filter(m => split(m.resolution).includes("single-cell")).length;
+  const multi = d.filter(m => split(m.readouts).length > 1).length;
+  document.getElementById("tiles").innerHTML = [
+    [d.length, "methods"], [d.length - pre, "published"], [pre, "preprints"], [sc, "single-cell"], [multi, "multiomic (2+ readouts)"]
+  ].map(([v, l]) => `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+  const years = {}; d.forEach(m => m.year && (years[m.year] = (years[m.year] || 0) + 1));
+  cumulative(document.getElementById("c-time"), years);
+  bars(document.getElementById("c-readout"), count("readouts"));
+  bars(document.getElementById("c-res"), count("resolution"));
+  bars(document.getElementById("c-cites"), d.filter(m => m.citations != null).sort((a, b) => b.citations - a.citations).slice(0, 10).map(m => [m.name, m.citations]), v => v.toLocaleString());
+});
+</script>
+</body>
+</html>

@@ -47,30 +47,33 @@ def load():
     return entries, errors
 
 
-def flat(e):
+def flat(e, cites):
     r = e["reference"]
     return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
             "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
-            "journal": r.get("journal"), "doi": r.get("doi"), "summary": e["summary"],
+            "journal": r.get("journal"), "doi": r.get("doi"), "citations": (cites.get(e["id"]) or {}).get("count"),
+            "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
             "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
             "needs_review": e.get("needs_review")}
 
 
 def md_table(rows):
-    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Variant of", "Ref", "Summary"]
+    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Variant of", "Ref", "Cites", "Summary"]
     out = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     for f in rows:
         ref = f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})"
         cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["scope"], f["chemistry"],
-                 f["variant_of"], ref, f["summary"]]
+                 f["variant_of"], ref, f["citations"], f["summary"]]
         out.append("| " + " | ".join(str(c or "").replace("|", "/") for c in cells) + " |")
     return "\n".join(out)
 
 
 def write(entries):
-    rows = sorted((flat(e) for e in entries), key=lambda f: f["name"].lower())
+    cpath = ROOT / "masterlist" / "citations.json"
+    cites = json.loads(cpath.read_text()) if cpath.exists() else {}
+    rows = sorted((flat(e, cites) for e in entries), key=lambda f: f["name"].lower())
     wet, dry = [f for f in rows if f["category"] == "wet"], [f for f in rows if f["category"] == "dry"]
     today = date.today().isoformat()
     md = [f"# Seq-Browser masterlist",

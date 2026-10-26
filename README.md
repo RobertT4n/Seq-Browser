@@ -4,7 +4,9 @@ A browser for sequencing assays: a curated, continuously updated catalogue of se
 
 - **Full database, one file:** [`METHODS.md`](METHODS.md). Point an LLM here instead of making it search the web.
 - **Machine-readable:** [`docs/methods.json`](docs/methods.json), [`docs/methods.csv`](docs/methods.csv), [`docs/llms.txt`](docs/llms.txt)
-- **Website:** `docs/index.html` (GitHub Pages, once public)
+- **Website:** https://robertt4n.github.io/Seq-Browser/ (Table, Analysis, About)
+
+![Seq-Browser flow](docs/flow.png)
 
 ## Rationale
 
