@@ -35,6 +35,19 @@ temporal:            # OPTIONAL. How the method captures time; leave out for ord
   - longitudinal-sampling    # repeatedly samples the SAME living cells: Live-seq, engineered RNA export
   - molecular-recording      # cells write a time-stamped record read out later: vault-based recorders
 
+perturbation:        # OPTIONAL. The method perturbs cells/DNA and reads the effect out by sequencing (screens, reporters)
+  - crispr-knockout
+  - crispr-interference      # CRISPRi
+  - crispr-activation        # CRISPRa
+  - base-editing
+  - prime-editing
+  - saturation-editing       # every possible variant in a region, e.g. saturation genome editing
+  - rna-targeting            # Cas13
+  - reporter-assay           # MPRA, STARR-seq: barcoded reporter libraries
+  - minigene-reporter        # splicing minigenes
+  - transposon-insertion
+  - chemical-perturbation    # drug / compound screens read out by sequencing
+
 scope:               # GENOMIC coverage only. Selecting a place in a tissue/nucleus is resolution (spatial/subcellular)
   - genome-wide         # e.g. ECHOS = genome-wide histone profile of an optically selected region
   - targeted            # restricted to chosen loci: capture oligos, viewpoints, amplicons
@@ -62,3 +75,4 @@ chemistry:           # key molecular steps; an assay usually has several
   - organic-extraction      # e.g. FAIRE phenol-chloroform partitioning
   - microfluidic-chip       # e.g. Fluidigm C1 chambers (not droplets)
   - amplicon-pcr            # targeted PCR amplicons as the library (panels, barcode genes)
+  - sample-preservation     # chemistry that stabilises samples before library prep (e.g. biosilicification)
