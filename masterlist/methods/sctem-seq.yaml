@@ -1,0 +1,32 @@
+name: scTEM-seq
+category: wet
+summary: Single-cell amplicon bisulfite sequencing of SINE Alu elements to estimate global methylation, paired with the transcriptome
+  of the same cell.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+builds_on:
+- scbs-seq
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41598-022-09765-x
+  year: 2022
+  journal: Sci Rep
+  first_author: Hunt KV
+  last_author: Lee HJ
+  pmid: '35388081'
+  pmcid: PMC8986802
+  title: 'scTEM-seq: Single-cell analysis of transposable element methylation to link global epigenetic heterogeneity with
+    transcriptional programs'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present single-cell transposable element methylation sequencing (scTEM-seq) for cost-effective estimation of
+  average DNA methylation levels.

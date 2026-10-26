@@ -1,0 +1,27 @@
+name: snRandom-seq
+category: wet
+summary: Droplet-based single-nucleus total RNA sequencing that uses random primers so that non-polyadenylated RNA and FFPE-archived
+  material can be profiled.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-023-38409-5
+  year: 2023
+  journal: Nat Commun
+  first_author: Xu Z
+  last_author: Wang Y
+  pmid: '37173341'
+  pmcid: PMC10182092
+  title: High-throughput single nucleus total RNA sequencing of formalin-fixed paraffin-embedded tissues by snRandom-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop a droplet-based snRNA sequencing technology (snRandom-seq) for FFPE tissues by capturing full-length
+  total RNAs with random primers.

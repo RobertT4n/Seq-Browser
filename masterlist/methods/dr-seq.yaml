@@ -1,0 +1,30 @@
+name: DR-seq
+category: wet
+summary: Quasilinear amplification of genomic DNA and mRNA from the same cell, separated only after amplification into a DNA
+  library and an mRNA library.
+readouts:
+- rna
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- malbac
+- cel-seq
+reference:
+  doi: 10.1038/nbt.3129
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Dey SS
+  last_author: van Oudenaarden A
+  pmid: '25599178'
+  pmcid: PMC4374170
+  title: Integrated genome and transcriptome sequencing of the same cell
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We describe a quasilinear amplification strategy to quantify genomic DNA and mRNA from the same cell without physically
+  separating the nucleic acids before amplification.

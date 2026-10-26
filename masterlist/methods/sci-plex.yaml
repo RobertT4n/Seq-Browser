@@ -1,0 +1,28 @@
+name: sci-Plex
+category: wet
+summary: Nuclear hashing of sci-RNA-seq libraries to multiplex thousands of chemical perturbations in one single-cell experiment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+variant_of:
+- sci-rna-seq3
+reference:
+  doi: 10.1126/science.aax6234
+  year: 2020
+  journal: Science
+  first_author: Srivatsan SR
+  last_author: Trapnell C
+  pmid: '31806696'
+  pmcid: PMC7289078
+  title: Massively multiplex chemical transcriptomics at single-cell resolution
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce "sci-Plex," which uses "nuclear hashing" to quantify global transcriptional responses to thousands
+  of independent perturbations at single-cell resolution.

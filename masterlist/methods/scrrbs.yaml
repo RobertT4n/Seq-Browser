@@ -1,0 +1,28 @@
+name: scRRBS
+category: wet
+summary: Reduced representation bisulfite sequencing applied to single cells, enriching CpG-rich regions for a single-cell
+  methylome.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1101/gr.161679.113
+  year: 2013
+  journal: Genome Res
+  first_author: Guo H
+  last_author: Tang F
+  pmid: '24179143'
+  pmcid: PMC3847781
+  title: Single-cell methylome landscapes of mouse embryonic stem cells and early embryos analyzed using reduced representation
+    bisulfite sequencing
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we describe a methylome analysis technique that enables single-cell and single-base resolution DNA methylation
+  analysis based on reduced representation bisulfite sequencing (scRRBS).

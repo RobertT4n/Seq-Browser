@@ -1,0 +1,33 @@
+name: scDam&T-seq
+category: wet
+summary: Adds mRNA sequencing to scDamID in the same sorted cell, so protein-DNA contacts and transcription are measured together.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- reverse-transcription
+- facs-sorting
+- plate-based
+variant_of:
+- scdamid
+builds_on:
+- cel-seq2
+reference:
+  doi: 10.1038/s41587-019-0150-y
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Rooijers K
+  last_author: Kind J
+  pmid: '31209373'
+  pmcid: PMC6609448
+  title: Simultaneous quantification of protein-DNA contacts and transcriptomes in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report a method for the simultaneous quantification of protein-DNA contacts by combining single-cell DNA
+  adenine methyltransferase identification (DamID) with messenger RNA sequencing of the same cell (scDam&T-seq).

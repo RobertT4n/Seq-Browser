@@ -1,0 +1,30 @@
+name: plate-scATAC-seq
+category: wet
+summary: Tn5 tagmentation of a cell pool, then single nuclei are sorted into plates, giving scATAC-seq with no per-cell barcoding
+  chemistry.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+- plate-based
+builds_on:
+- atac-seq
+reference:
+  doi: 10.1038/s41467-018-07771-0
+  year: 2018
+  journal: Nat Commun
+  first_author: Chen X
+  last_author: Teichmann SA
+  pmid: '30559361'
+  pmcid: PMC6297232
+  title: A rapid and robust method for single cell chromatin accessibility profiling
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we developed a simple and robust plate-based scATAC-seq method, combining upfront bulk Tn5 tagging with single-nuclei
+  sorting.

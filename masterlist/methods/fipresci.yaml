@@ -1,0 +1,30 @@
+name: FIPRESCI
+category: wet
+summary: Droplet-based 5'-end scRNA-seq that adds combinatorial sample indexing to the droplet system to multiplex very large
+  numbers of cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+- droplet-microfluidics
+builds_on:
+- scifi-rna-seq
+reference:
+  doi: 10.1186/s13059-023-02893-1
+  year: 2023
+  journal: Genome Biol
+  first_author: Li Y
+  last_author: Jiang L
+  pmid: '37024957'
+  pmcid: PMC10078054
+  title: 'FIPRESCI: droplet microfluidics based combinatorial indexing for massive-scale 5''-end single-cell RNA sequencing'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We introduce FIPRESCI, 5'-end single-cell combinatorial indexing RNA-Seq, enabling massive sample multiplexing and
+  increasing the throughput of the droplet microfluidics system by over tenfold.

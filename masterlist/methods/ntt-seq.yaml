@@ -1,0 +1,33 @@
+name: NTT-seq
+category: wet
+summary: Nanobody-tethered Tn5 that binds primary antibodies against several histone marks or DNA-binding proteins, mapping
+  multiple chromatin features in one assay, in bulk or single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+- protein
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+builds_on:
+- cut-and-tag
+- cite-seq
+reference:
+  doi: 10.1038/s41587-022-01588-5
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Stuart T
+  last_author: Raimondi I
+  pmid: '36536150'
+  pmcid: PMC10272075
+  title: Nanobody-tethered transposition enables multifactorial chromatin profiling at single-cell resolution
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce nanobody-tethered transposition followed by sequencing (NTT-seq), an assay capable of measuring
+  the genome-wide presence of up to three histone modifications and protein-DNA binding sites at single-cell resolution.

@@ -1,0 +1,36 @@
+name: scCOOL-seq
+aliases:
+- single-cell COOL-seq
+category: wet
+summary: Measures chromatin state, DNA methylation and copy number from the same single cell, building on the NOMe and bisulfite
+  single-cell approaches.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- scnome-seq
+- scbs-seq
+introduces:
+- dna-sequence
+reference:
+  doi: 10.1038/cr.2017.82
+  year: 2017
+  journal: Cell Res
+  first_author: Guo F
+  last_author: Tang F
+  pmid: '28621329'
+  pmcid: PMC5539349
+  title: Single-cell multi-omics sequencing of mouse early embryos and embryonic stem cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we developed a single-cell multi-omics sequencing technology (single-cell COOL-seq) that can analyze the chromatin
+  state/nucleosome positioning, DNA methylation, copy number variation and ploidy simultaneously from the same individual
+  mammalian cell.

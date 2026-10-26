@@ -1,0 +1,30 @@
+name: PETRI-seq
+category: wet
+summary: Prokaryotic scRNA-seq that uses in situ combinatorial indexing to barcode transcripts from tens of thousands of bacterial
+  cells in one experiment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+builds_on:
+- sci-rna-seq
+- split-seq
+reference:
+  doi: 10.1038/s41564-020-0729-6
+  year: 2020
+  journal: Nat Microbiol
+  first_author: Blattman SB
+  last_author: Tavazoie S
+  pmid: '32451472'
+  pmcid: PMC8330242
+  title: Prokaryotic single-cell RNA sequencing by in situ combinatorial indexing
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present prokaryotic expression profiling by tagging RNA in situ and sequencing (PETRI-seq)-a low-cost,
+  high-throughput prokaryotic scRNA-seq pipeline that overcomes these technical obstacles.

@@ -1,0 +1,32 @@
+name: Spatial-CUT&Tag
+aliases:
+- Spatial C&T
+category: wet
+summary: Tissue-section profiling of histone modifications by in situ CUT&Tag chemistry with microfluidic deterministic barcoding.
+readouts:
+- histone-modification
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- microfluidic-chip
+builds_on:
+- cut-and-tag
+- dbit-seq
+reference:
+  doi: 10.1126/science.abg7216
+  year: 2022
+  journal: Science
+  first_author: Deng Y
+  last_author: Fan R
+  pmid: '35143307'
+  pmcid: PMC7612972
+  title: 'Spatial-CUT&amp;Tag: Spatially resolved chromatin modification profiling at the cellular level'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present spatial-CUT&Tag for spatially resolved genome-wide profiling of histone modifications by combining
+  in situ CUT&Tag chemistry, microfluidic deterministic barcoding, and next-generation sequencing.

@@ -1,0 +1,26 @@
+name: STRT-seq
+category: wet
+summary: Single-cell tagged reverse transcription that barcodes cDNA at the mRNA 5' end, so cells are pooled and sequenced
+  by their 5' ends.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1101/gr.110882.110
+  year: 2011
+  journal: Genome Res
+  first_author: Islam S
+  last_author: Linnarsson S
+  pmid: '21543516'
+  pmcid: PMC3129258
+  title: Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a novel strategy to access such complex samples.

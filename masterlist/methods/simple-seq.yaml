@@ -1,0 +1,25 @@
+name: SIMPLE-seq
+category: wet
+summary: Single-cell method that jointly maps 5mC and 5hmC at base resolution by labeling each modification and recording
+  it as C-to-T signals.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41587-024-02148-9
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Bai D
+  last_author: Yi C
+  pmid: '38336903'
+  title: Simultaneous single-cell analysis of 5mC and 5hmC with SIMPLE-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present SIMPLE-seq, a scalable, base resolution method for joint analysis of 5mC and 5hmC from thousands
+  of single cells.

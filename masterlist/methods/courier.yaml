@@ -1,0 +1,31 @@
+name: COURIER
+aliases:
+- engineered RNA export (Horns 2023)
+- controlled output and uptake of RNA for interrogation, expression, and regulation
+category: wet
+summary: Genetically encoded viral-inspired RNA exporters package barcoded RNA into nanoparticles that cells secrete, allowing
+  non-destructive sampling of living cell populations over time.
+readouts:
+- rna
+resolution:
+- bulk
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2023.06.013
+  year: 2023
+  journal: Cell
+  first_author: Horns F
+  last_author: Elowitz MB
+  pmid: '37437570'
+  pmcid: PMC10528933
+  title: Engineering RNA export for measurement and manipulation of living cells
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: We developed genetically encoded cellular RNA exporters, inspired by viruses, that efficiently package and secrete
+  cargo RNA molecules from mammalian cells within protective nanoparticles.

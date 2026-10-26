@@ -1,0 +1,28 @@
+name: DBiT-seq
+category: wet
+summary: Spatial co-profiling of mRNAs and proteins in fixed tissue sections using microfluidic crossflow barcoding into a
+  2D grid of pixels.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+reference:
+  doi: 10.1016/j.cell.2020.10.026
+  year: 2020
+  journal: Cell
+  first_author: Liu Y
+  last_author: Fan R
+  pmid: '33188776'
+  pmcid: PMC7736559
+  title: High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present deterministic barcoding in tissue for spatial omics sequencing (DBiT-seq) for co-mapping of mRNAs and
+  proteins in a formaldehyde-fixed tissue slide via next-generation sequencing (NGS).

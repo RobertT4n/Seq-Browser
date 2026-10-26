@@ -1,0 +1,32 @@
+name: scNT-seq
+category: wet
+summary: Droplet-based single-cell RNA-seq that chemically marks newly transcribed mRNA with T-to-C substitutions on barcoded
+  beads to profile new and old transcriptomes together.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41592-020-0935-4
+  year: 2020
+  journal: Nat Methods
+  first_author: Qiu Q
+  last_author: Wu H
+  pmid: '32868927'
+  pmcid: PMC8103797
+  title: Massively parallel and time-resolved RNA sequencing in single cells with scNT-seq
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present single-cell metabolically labeled new RNA tagging sequencing (scNT-seq), a method for massively
+  parallel analysis of newly transcribed and pre-existing mRNAs from the same cell.

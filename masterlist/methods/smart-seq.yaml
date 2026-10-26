@@ -1,0 +1,25 @@
+name: SMART-seq
+category: wet
+summary: Template-switching amplification of full-length cDNA from single cells, giving even coverage along transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1038/nbt.2282
+  year: 2012
+  journal: Nat Biotechnol
+  first_author: Ramsköld D
+  last_author: Sandberg R
+  pmid: '22820318'
+  pmcid: PMC3467340
+  title: Full-length mRNA-Seq from single-cell levels of RNA and individual circulating tumor cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a robust mRNA-Seq protocol (Smart-Seq) that is applicable down to single cell levels.

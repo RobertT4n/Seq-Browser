@@ -1,0 +1,30 @@
+name: ZipSeq
+category: wet
+summary: Patterned illumination prints photocaged barcodes ("zipcodes") onto live cells in tissue, linking each transcriptome
+  to its position.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- imaging-guided-selection
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41592-020-0880-2
+  year: 2020
+  journal: Nat Methods
+  first_author: Hu KH
+  last_author: Krummel MF
+  pmid: '32632238'
+  pmcid: PMC7891292
+  title: 'ZipSeq: barcoding for real-time mapping of single cell transcriptomes'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We developed an approach, called 'ZipSeq', that uses patterned illumination and photocaged oligonucleotides to serially
+  print barcodes ('zipcodes') onto live cells in intact tissues, in real time and with an on-the-fly selection of patterns.

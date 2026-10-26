@@ -1,0 +1,24 @@
+name: 10x Chromium Single Cell Multiome ATAC + Gene Expression
+category: wet
+summary: Tn5 tagmentation of nuclei followed by droplet capture of tagged open-chromatin DNA and mRNA on the same beads, giving
+  accessibility and expression per nucleus.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- 10x-chromium-single-cell-atac
+- 10x-chromium-single-cell-3-gene-expression
+reference:
+  url: https://support.10xgenomics.com/single-cell-multiome-atac-gex
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Vendor product page only; no paper introduces this kit.

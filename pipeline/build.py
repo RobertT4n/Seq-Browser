@@ -17,7 +17,7 @@ from common import METHODS_DIR, ROOT, TAXONOMY, slug
 
 LINK_FIELDS = ("variant_of", "builds_on")  # lineage: direct modification / combines-or-draws-on
 REQUIRED = ("name", "category", "summary", "readouts", "resolution", "scope", "chemistry", "reference")
-LIST_FIELDS = ("readouts", "resolution", "chemistry")
+LIST_FIELDS = ("readouts", "resolution", "chemistry", "temporal")  # temporal is optional
 REPO = "https://github.com/RobertT4n/Seq-Browser"
 RAW = "https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main"
 
@@ -36,8 +36,8 @@ def load():
             if e.get(f) and e[f] not in tax[f]:
                 errs.append(f"{f}: unknown value '{e[f]}'")
         errs += [f"introduces: '{v}' is not one of this entry's readouts" for v in e.get("introduces") or [] if v not in e.get("readouts", [])]
-        if not (e.get("reference") or {}).get("doi"):
-            errs.append("reference.doi missing (run pipeline/resolve_refs.py)")
+        if not (e.get("reference") or {}).get("doi") and not (e.get("reference") or {}).get("url"):
+            errs.append("reference needs a doi (run pipeline/resolve_refs.py) or, for kits with no paper, a url")
         errors += [f"{p.name}: {x}" for x in errs]
         e["id"] = p.stem
         entries.append(e)
@@ -107,21 +107,23 @@ def flat(e, cites, children, tax):
     return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
             "domains": "; ".join(dict.fromkeys(tax["readouts"][x] for x in e["readouts"])),
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
+            "temporal": "; ".join(e.get("temporal") or []),
             "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
-            "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "citations": (cites.get(e["id"]) or {}).get("count"),
+            "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "url": r.get("url"), "citations": (cites.get(e["id"]) or {}).get("count"),
             "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
             "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
             "needs_review": e.get("needs_review")}
 
 
 def md_table(rows):
-    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Lineage", "Ref", "Cites", "Summary"]
+    cols = ["Method", "Aliases", "Readouts", "Resolution", "Temporal", "Scope", "Chemistry", "Lineage", "Ref", "Cites", "Summary"]
     out = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     for f in rows:
-        ref = f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})"
-        cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["scope"], f["chemistry"],
+        ref = (f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})" if f["doi"]
+               else f"[{f['url']}]({f['url']})")
+        cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["temporal"], f["scope"], f["chemistry"],
                  "; ".join(x for x in (f["variant_of"] and f"variant of {f['variant_of']}",
                                        f["builds_on"] and f"builds on {f['builds_on']}") if x), ref, f["citations"], f["summary"]]
         out.append("| " + " | ".join(str(c or "").replace("|", "/") for c in cells) + " |")
@@ -169,7 +171,7 @@ def write(entries, tax):
         w.writeheader()
         w.writerows(rows)
     (docs / "llms.txt").write_text(
-        "# Seq-Browser\n\n> A curated, continuously updated table of sequencing-based assays (bulk, single-cell, spatial), "
+        "# Seq-Browser\n\n> A curated, continuously updated table of sequencing-based assays (single-cell, spatial, temporal and more), "
         "tagged by readout, resolution, scope and chemistry, with variant-of links and primary references.\n\n"
         f"- [Full masterlist (Markdown table)]({RAW}/METHODS.md): the whole database in one file\n"
         f"- [methods.json]({RAW}/docs/methods.json): same data, machine-readable\n"

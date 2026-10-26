@@ -1,0 +1,30 @@
+name: Spear-ATAC
+category: wet
+summary: Droplet scATAC-seq modified to also capture sgRNA spacers, so chromatin accessibility can be read out for each CRISPR
+  perturbation.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- 10x-chromium-single-cell-atac
+reference:
+  doi: 10.1038/s41467-021-23213-w
+  year: 2021
+  journal: Nat Commun
+  first_author: Pierce SE
+  last_author: Greenleaf WJ
+  pmid: '34016988'
+  pmcid: PMC8137922
+  title: High-throughput single-cell chromatin accessibility CRISPR screens enable unbiased identification of regulatory networks
+    in cancer
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we report a modified droplet-based single-cell ATAC-seq protocol for perturbing and evaluating dynamic single-cell
+  epigenetic states.

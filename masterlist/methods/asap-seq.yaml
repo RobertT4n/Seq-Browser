@@ -1,0 +1,30 @@
+name: ASAP-seq
+category: wet
+summary: Droplet scATAC-seq combined with antibody-oligo bridging to read surface protein levels from the same single cells.
+readouts:
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+builds_on:
+- scatac-seq
+- cite-seq
+reference:
+  doi: 10.1038/s41587-021-00927-2
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Mimitou EP
+  last_author: Smibert P
+  pmid: '34083792'
+  pmcid: PMC8763625
+  title: Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present ATAC with select antigen profiling by sequencing (ASAP-seq), a tool to simultaneously profile accessible
+  chromatin and protein levels.

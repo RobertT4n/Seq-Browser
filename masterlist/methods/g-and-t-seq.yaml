@@ -1,0 +1,29 @@
+name: G&T-seq
+category: wet
+summary: Physically separates mRNA from genomic DNA in each single cell so the genome and transcriptome of the same cell can
+  be sequenced.
+readouts:
+- rna
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- oligo-capture
+builds_on:
+- smart-seq2
+- malbac
+reference:
+  doi: 10.1038/nmeth.3370
+  year: 2015
+  journal: Nat Methods
+  first_author: Macaulay IC
+  last_author: Voet T
+  pmid: '25915121'
+  title: 'G&amp;T-seq: parallel sequencing of single-cell genomes and transcriptomes'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe G&T-seq, a method for separating and sequencing genomic DNA and full-length mRNA from single cells.

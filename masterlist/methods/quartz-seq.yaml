@@ -1,0 +1,26 @@
+name: Quartz-seq
+category: wet
+summary: Simpler, reproducible and sensitive single-cell RNA-seq method that reveals non-genetic gene-expression heterogeneity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/gb-2013-14-4-r31
+  year: 2013
+  journal: Genome Biol
+  first_author: Sasagawa Y
+  last_author: Ueda HR
+  pmid: '23594475'
+  pmcid: PMC4054835
+  title: 'Quartz-Seq: a highly reproducible and sensitive single-cell RNA sequencing method, reveals non-genetic gene-expression
+    heterogeneity'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: In this study, we report a novel single-cell RNA-seq method called Quartz-Seq that has a simpler protocol and higher
+  reproducibility and sensitivity than existing methods.

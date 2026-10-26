@@ -1,0 +1,29 @@
+name: BuTT-seq
+aliases:
+- Butt-seq
+category: wet
+summary: Bulk nascent-transcript sequencing that uses thermostable group II intron reverse transcriptase to join adapter ligation
+  and reverse transcription, giving libraries from as few as 10,000 cells.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gad.350434.123
+  year: 2023
+  journal: Genes Dev
+  first_author: Yu AD
+  last_author: Rosbash M
+  pmid: '37164645'
+  pmcid: PMC10270195
+  title: 'Butt-seq: a new method for facile profiling of transcription'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We leveraged the template-switching properties of thermostable group II intron reverse transcriptase (TGIRT) and
+  developed Butt-seq (bulk analysis of nascent transcript termini sequencing), which can produce libraries from purified nascent
+  RNA in 6 h and from as few as 10,000 cells.

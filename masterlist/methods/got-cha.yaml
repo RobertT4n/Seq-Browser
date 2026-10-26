@@ -1,0 +1,31 @@
+name: GoT-ChA
+category: wet
+summary: Genotyping of targeted loci alongside single-cell chromatin accessibility, linking somatic mutations to chromatin
+  state.
+readouts:
+- chromatin-accessibility
+- dna-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- tn5
+- droplet-microfluidics
+builds_on:
+- scatac-seq
+- got
+reference:
+  doi: 10.1038/s41586-024-07388-y
+  year: 2024
+  journal: Nature
+  first_author: Izzo F
+  last_author: Landau DA
+  pmid: '38720070'
+  pmcid: PMC11139586
+  title: Mapping genotypes to chromatin accessibility profiles in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, to chart how somatic mutations disrupt epigenetic landscapes in human clonal outgrowths, we developed genotyping
+  of targeted loci with single-cell chromatin accessibility (GoT-ChA).

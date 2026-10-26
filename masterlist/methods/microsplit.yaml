@@ -1,0 +1,29 @@
+name: microSPLiT
+category: wet
+summary: Bacterial version of SPLiT-seq that uses split-pool barcoding to profile transcriptional states of individual Gram-negative
+  and Gram-positive bacteria.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- split-pool-barcoding
+variant_of:
+- split-seq
+reference:
+  doi: 10.1126/science.aba5257
+  year: 2021
+  journal: Science
+  first_author: Kuchina A
+  last_author: Seelig G
+  pmid: '33335020'
+  pmcid: PMC8269303
+  title: Microbial single-cell RNA sequencing by split-pool barcoding
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce microSPLiT (microbial split-pool ligation transcriptomics), a high-throughput scRNA-seq method
+  for Gram-negative and Gram-positive bacteria that can resolve heterogeneous transcriptional states.

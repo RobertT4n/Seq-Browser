@@ -1,0 +1,36 @@
+name: ChAIR
+category: wet
+summary: Droplet-based tri-omic method that captures chromatin accessibility, 3D chromatin contacts and RNA from the same
+  cell by combining restriction digestion, proximity ligation, Tn5 tagmentation and the 10x Multiome system.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- droplet-microfluidics
+- reverse-transcription
+builds_on:
+- single-cell-hi-c
+- scatac-seq
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41592-025-02658-7
+  year: 2025
+  journal: Nat Methods
+  first_author: Chai H
+  last_author: Ruan Y
+  pmid: '40301621'
+  pmcid: PMC12955729
+  title: Tri-omic single-cell mapping of the 3D epigenome and transcriptome in whole mouse brains throughout the lifespan
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report a single-cell method, ChAIR, to map chromatin accessibility, chromatin interactions and RNA expression
+  simultaneously.

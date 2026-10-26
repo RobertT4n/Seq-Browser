@@ -1,0 +1,28 @@
+name: Seq-Well
+category: wet
+summary: Portable scRNA-seq where barcoded capture beads and single cells are sealed in subnanoliter wells under a semipermeable
+  membrane.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- drop-seq
+reference:
+  doi: 10.1038/nmeth.4179
+  year: 2017
+  journal: Nat Methods
+  first_author: Gierahn TM
+  last_author: Shalek AK
+  pmid: '28192419'
+  pmcid: PMC5376227
+  title: 'Seq-Well: portable, low-cost RNA sequencing of single cells at high throughput'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present Seq-Well, a portable, low-cost platform for massively parallel single-cell RNA-seq.

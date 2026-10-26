@@ -1,0 +1,28 @@
+name: BacDrop
+category: wet
+summary: Droplet-based single-cell RNA-seq for bacteria, using ribosomal RNA depletion and combinatorial barcodes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1016/j.cell.2023.01.002
+  year: 2023
+  journal: Cell
+  first_author: Ma P
+  last_author: Hung DT
+  pmid: '36708705'
+  pmcid: PMC10014032
+  title: Bacterial droplet-based single-cell RNA-seq reveals antibiotic-associated heterogeneous cellular states
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We introduce BacDrop, a highly scalable technology for bacterial single-cell RNA sequencing that has overcome many
+  challenges hindering the development of scRNA-seq in bacteria.

@@ -1,0 +1,29 @@
+name: CEL-seq2
+category: wet
+summary: Improved CEL-seq with UMIs and random-primed second-strand chemistry, with a Fluidigm C1 on-chip barcoding implementation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+- microfluidic-chip
+variant_of:
+- cel-seq
+reference:
+  doi: 10.1186/s13059-016-0938-8
+  year: 2016
+  journal: Genome Biol
+  first_author: Hashimshony T
+  last_author: Yanai I
+  pmid: '27121950'
+  pmcid: PMC4848782
+  title: 'CEL-Seq2: sensitive highly-multiplexed single-cell RNA-Seq'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present CEL-Seq2, a modified version of our CEL-Seq method, with threefold higher sensitivity, lower costs,
+  and less hands-on time.

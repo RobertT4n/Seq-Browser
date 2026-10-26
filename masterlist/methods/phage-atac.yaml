@@ -1,0 +1,32 @@
+name: PHAGE-ATAC
+category: wet
+summary: Droplet scATAC-seq in which phage-displayed nanobodies carry barcodes to report surface or intracellular protein
+  alongside accessibility.
+readouts:
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+builds_on:
+- scatac-seq
+- cite-seq
+reference:
+  doi: 10.1038/s41587-021-01065-5
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Fiskin E
+  last_author: Regev A
+  pmid: '34675424'
+  pmcid: PMC10549956
+  title: Single-cell profiling of proteins and chromatin accessibility using PHAGE-ATAC
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: In the present study, we developed PHAGE-ATAC (Assay for Transposase-Accessible Chromatin), a massively parallel
+  droplet-based method that uses phage displaying, engineered, camelid single-domain antibodies ('nanobodies') for simultaneous
+  single-cell measurements of protein levels and chromatin accessibility profiles, and mitochondrial DNA-based clonal tracing.

@@ -1,0 +1,36 @@
+name: Pi-ATAC
+aliases:
+- Protein-indexed ATAC-seq
+- piATAC-seq
+category: wet
+summary: Index flow cytometry records surface and intracellular protein levels per cell, which are then barcoded alongside
+  chromatin accessibility.
+readouts:
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+builds_on:
+- scatac-seq
+introduces:
+- protein
+reference:
+  doi: 10.1038/s41467-018-07115-y
+  year: 2018
+  journal: Nat Commun
+  first_author: Chen X
+  last_author: Chang HY
+  pmid: '30389926'
+  pmcid: PMC6214962
+  title: Joint single-cell DNA accessibility and protein epitope profiling reveals environmental regulation of epigenomic
+    heterogeneity
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce Protein-indexed Assay of Transposase Accessible Chromatin with sequencing (Pi-ATAC) that combines
+  single-cell chromatin and proteomic profiling.

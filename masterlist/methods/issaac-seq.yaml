@@ -1,0 +1,29 @@
+name: ISSAAC-seq
+category: wet
+summary: Joint single-cell chromatin accessibility and gene expression profiling in which Tn5 tags open chromatin and RNA-cDNA
+  hybrids are sequenced in situ.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-022-01601-4
+  year: 2022
+  journal: Nat Methods
+  first_author: Xu W
+  last_author: Chen X
+  pmid: '36109677'
+  title: ISSAAC-seq enables sensitive and flexible multimodal profiling of chromatin accessibility and gene expression in
+    single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop in situ sequencing hetero RNA-DNA-hybrid after assay for transposase-accessible chromatin-sequencing
+  (ISSAAC-seq), a highly sensitive and flexible single-cell multi-omics method to interrogate chromatin accessibility and
+  gene expression from the same single nucleus.

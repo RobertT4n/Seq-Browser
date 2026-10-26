@@ -1,0 +1,24 @@
+name: CITE-seq
+category: wet
+summary: Oligo-barcoded antibodies read out alongside the transcriptome, giving surface-protein and RNA levels per cell.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+reference:
+  doi: 10.1038/nmeth.4380
+  year: 2017
+  journal: Nat Methods
+  first_author: Stoeckius M
+  last_author: Smibert P
+  pmid: '28759029'
+  pmcid: PMC5669064
+  title: Simultaneous epitope and transcriptome measurement in single cells
+links: {}
+source: curator
+added: '2026-10-26'

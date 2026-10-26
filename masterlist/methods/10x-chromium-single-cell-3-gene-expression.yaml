@@ -1,0 +1,22 @@
+name: 10x Chromium Single Cell 3' Gene Expression
+category: wet
+summary: Droplet 3' mRNA counting where gel beads carry cell-barcoded, UMI-tagged oligo-dT primers co-encapsulated with each
+  cell.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  url: https://support.10xgenomics.com/single-cell-gene-expression
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: No paper introduces the v2/v3 chemistry; reference is the vendor support page. The v1 platform paper (Zheng 2017)
+  is a separate entry.

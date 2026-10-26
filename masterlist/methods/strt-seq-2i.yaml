@@ -1,0 +1,29 @@
+name: STRT-seq-2i
+category: wet
+summary: STRT-seq on an addressable 9600-microwell array, with dual-index barcodes and cell sampling by limiting dilution
+  or FACS.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- facs-sorting
+variant_of:
+- strt-seq
+reference:
+  doi: 10.1038/s41598-017-16546-4
+  year: 2017
+  journal: Sci Rep
+  first_author: Hochgerner H
+  last_author: Linnarsson S
+  pmid: '29180631'
+  pmcid: PMC5703850
+  title: 'STRT-seq-2i: dual-index 5'' single cell and nucleus RNA-seq on an addressable microwell array'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present STRT-seq-2i, an addressable 9600-microwell array platform, combining sampling by limiting dilution or
+  FACS, with imaging and high throughput at competitive cost.

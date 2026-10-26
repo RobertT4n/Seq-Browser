@@ -1,0 +1,26 @@
+name: SPATAC-seq
+category: wet
+summary: Split-pool ligation barcoding of Tn5-tagmented chromatin for single-nucleus ATAC profiling at atlas scale.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- split-pool-barcoding
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41556-024-01449-0
+  year: 2024
+  journal: Nat Cell Biol
+  first_author: Sun K
+  last_author: Lan X
+  pmid: '38977847'
+  title: Mapping the chromatin accessibility landscape of zebrafish embryogenesis at single-cell resolution by SPATAC-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: 'Here we present SPATAC-seq: a split-pool ligation-based assay for transposase-accessible chromatin using sequencing.'

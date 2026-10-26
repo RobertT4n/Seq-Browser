@@ -1,0 +1,31 @@
+name: Multi-CUT&Tag
+category: wet
+summary: CUT&Tag with antibody-specific barcodes so several chromatin proteins are mapped in the same cells, in bulk or single-cell
+  format.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1016/j.molcel.2021.09.019
+  year: 2021
+  journal: Mol Cell
+  first_author: Gopalan S
+  last_author: Fazzio TG
+  pmid: '34637755'
+  pmcid: PMC8604773
+  title: Simultaneous profiling of multiple chromatin proteins in the same cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we describe multi-CUT&Tag, an adaptation of CUT&Tag that overcomes these hurdles by using antibody-specific
+  barcodes to simultaneously map multiple proteins in the same cells.

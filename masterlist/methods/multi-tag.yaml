@@ -1,0 +1,28 @@
+name: MulTI-Tag
+category: wet
+summary: Antibody-barcoding CUT&Tag-type assay that maps several histone marks simultaneously in single cells.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41587-022-01522-9
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Meers MP
+  last_author: Henikoff S
+  pmid: '36316484'
+  pmcid: PMC10188359
+  title: Multifactorial profiling of epigenetic landscapes at single-cell resolution using MulTI-Tag
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe Multiple Target Identification by Tagmentation (MulTI-Tag), an antibody barcoding approach for
+  profiling multiple chromatin features simultaneously in single cells.

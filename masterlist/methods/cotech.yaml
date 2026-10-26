@@ -1,0 +1,30 @@
+name: CoTECH
+category: wet
+summary: Combinatorial barcoding that jointly profiles histone-mark occupancy and transcriptome in the same single cells.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- combinatorial-indexing
+- reverse-transcription
+builds_on:
+- cut-and-tag
+- sci-rna-seq
+reference:
+  doi: 10.1038/s41592-021-01129-z
+  year: 2021
+  journal: Nat Methods
+  first_author: Xiong H
+  last_author: He A
+  pmid: '33958790'
+  title: Single-cell joint detection of chromatin occupancy and transcriptome enables higher-dimensional epigenomic reconstructions
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we develop CoTECH, a combinatorial barcoding method allowing high-throughput single-cell joint detection of
+  chromatin occupancy and transcriptome.

@@ -1,0 +1,30 @@
+name: Trac-looping
+category: wet
+summary: Transposase inserts a bivalent linker between interacting regions, capturing chromatin contacts and accessibility
+  without fragmentation or ligation.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+builds_on:
+- atac-seq
+- hi-c
+reference:
+  doi: 10.1038/s41592-018-0107-y
+  year: 2018
+  journal: Nat Methods
+  first_author: Lai B
+  last_author: Zhao K
+  pmid: '30150754'
+  pmcid: PMC7212307
+  title: Trac-looping measures genome structure and chromatin accessibility
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We now report transposase-mediated analysis of chromatin looping (Trac-looping) for simultaneous detection of multiscale
+  genome-wide chromatin interactions among regulatory elements and chromatin accessibility.

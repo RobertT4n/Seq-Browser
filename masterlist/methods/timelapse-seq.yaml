@@ -1,0 +1,31 @@
+name: TimeLapse-seq
+category: wet
+summary: Bulk RNA-seq that chemically recodes 4-thiouridine into cytidine analogs so newly transcribed RNA is marked by U-to-C
+  mutations.
+readouts:
+- rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+builds_on:
+- rna-seq
+reference:
+  doi: 10.1038/nmeth.4582
+  year: 2018
+  journal: Nat Methods
+  first_author: Schofield JA
+  last_author: Simon MD
+  pmid: '29355846'
+  pmcid: PMC5831505
+  title: 'TimeLapse-seq: adding a temporal dimension to RNA sequencing through nucleoside recoding'
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report TimeLapse-seq, which uses oxidative-nucleophilic-aromatic substitution to convert 4-thiouridine into
+  cytidine analogs, yielding apparent U-to-C mutations that mark new transcripts upon sequencing.

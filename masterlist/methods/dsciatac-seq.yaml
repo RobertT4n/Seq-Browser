@@ -1,0 +1,32 @@
+name: dsciATAC-seq
+category: wet
+summary: dscATAC-seq combined with combinatorial indexing to scale single-cell chromatin accessibility profiling to very large
+  cell numbers.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+- combinatorial-indexing
+variant_of:
+- dscatac-seq
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41587-019-0147-6
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Lareau CA
+  last_author: Buenrostro JD
+  pmid: '31235917'
+  pmcid: PMC10299900
+  title: Droplet-based combinatorial indexing for massive-scale single-cell chromatin accessibility
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We further increase the throughput of this platform by combining it with combinatorial indexing (dsciATAC-seq),
+  enabling single-cell studies at a massive scale.

@@ -1,0 +1,27 @@
+name: SPLiT-seq
+category: wet
+summary: Split-pool ligation barcoding labels RNA from fixed cells or nuclei through successive rounds of barcoding, with
+  no single-cell isolation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- split-pool-barcoding
+reference:
+  doi: 10.1126/science.aam8999
+  year: 2018
+  journal: Science
+  first_author: Rosenberg AB
+  last_author: Seelig G
+  pmid: '29545511'
+  pmcid: PMC7643870
+  title: Single-cell profiling of the developing mouse brain and spinal cord with split-pool barcoding
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: To facilitate scalable profiling of single cells, we developed split-pool ligation-based transcriptome sequencing
+  (SPLiT-seq), a single-cell RNA-seq (scRNA-seq) method that labels the cellular origin of RNA through combinatorial barcoding.

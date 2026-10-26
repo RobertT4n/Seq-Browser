@@ -1,0 +1,35 @@
+name: LiMCA
+aliases:
+- Linking mRNA to Chromatin Architecture
+category: wet
+summary: Joint single-cell 3D genome and transcriptome profiling from low input, combining a Hi-C style conformation capture
+  with RNA capture from the same cell.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- hires
+- smart-seq2
+reference:
+  doi: 10.1038/s41592-024-02239-0
+  year: 2024
+  journal: Nat Methods
+  first_author: Wu H
+  last_author: Sunney Xie X
+  pmid: '38622459'
+  pmcid: PMC11166570
+  title: Simultaneous single-cell three-dimensional genome and gene expression profiling uncovers dynamic enhancer connectivity
+    underlying olfactory receptor choice
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present 'Linking mRNA to Chromatin Architecture (LiMCA)', which jointly profiles the 3D genome and transcriptome
+  with exceptional sensitivity and from low-input materials.

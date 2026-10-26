@@ -1,0 +1,29 @@
+name: mcSCRB-seq
+category: wet
+summary: SCRB-seq with polyethylene glycol molecular crowding and Terra polymerase for higher sensitivity and more even cDNA
+  amplification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- scrb-seq
+reference:
+  doi: 10.1038/s41467-018-05347-6
+  year: 2018
+  journal: Nat Commun
+  first_author: Bagnoli JW
+  last_author: Enard W
+  pmid: '30050112'
+  pmcid: PMC6062574
+  title: Sensitive and powerful single-cell RNA sequencing using mcSCRB-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we systematically evaluate experimental conditions of this protocol and find that adding polyethylene glycol
+  considerably increases sensitivity by enhancing cDNA synthesis.

@@ -1,0 +1,32 @@
+name: scDamID
+category: wet
+summary: Dam methyltransferase fused to a lamina protein methylates GATC sites in sorted single cells, mapping nuclear-lamina
+  contacts per cell.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- facs-sorting
+- plate-based
+variant_of:
+- damid
+reference:
+  doi: 10.1016/j.cell.2015.08.040
+  year: 2015
+  journal: Cell
+  first_author: Kind J
+  last_author: van Steensel B
+  pmid: '26365489'
+  pmcid: PMC4583798
+  title: Genome-wide maps of nuclear lamina interactions in single human cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We report a method to map NL contacts genome-wide in single human cells.
+introduces:
+- 3d-genome

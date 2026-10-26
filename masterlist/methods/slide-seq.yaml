@@ -1,0 +1,26 @@
+name: Slide-seq
+category: wet
+summary: RNA from a tissue section is transferred onto DNA-barcoded beads at known positions, giving spatially resolved transcriptomes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1126/science.aaw1219
+  year: 2019
+  journal: Science
+  first_author: Rodriques SG
+  last_author: Macosko EZ
+  pmid: '30923225'
+  pmcid: PMC6927209
+  title: 'Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We developed Slide-seq, a method for transferring RNA from tissue sections onto a surface covered in DNA-barcoded
+  beads with known positions, allowing the locations of the RNA to be inferred by sequencing.

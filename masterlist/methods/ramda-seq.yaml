@@ -1,0 +1,28 @@
+name: RamDA-seq
+aliases:
+- random displacement amplification sequencing
+category: wet
+summary: First full-length total RNA sequencing method for single cells, capturing non-poly(A) RNA with random-primed reverse
+  transcription and displacement amplification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-018-02866-0
+  year: 2018
+  journal: Nat Commun
+  first_author: Hayashi T
+  last_author: Nikaido I
+  pmid: '29434199'
+  pmcid: PMC5809388
+  title: Single-cell full-length total RNA sequencing uncovers dynamics of recursive splicing and enhancer RNAs
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe random displacement amplification sequencing (RamDA-seq), the first full-length total RNA-sequencing
+  method for single cells.

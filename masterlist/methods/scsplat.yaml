@@ -1,0 +1,29 @@
+name: scSPLAT
+category: wet
+summary: Plate-based, pooled single-cell whole-genome bisulfite library preparation using splinted ligation adapter tagging.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- plate-based
+builds_on:
+- wgbs
+- scbs-seq
+reference:
+  doi: 10.1038/s41598-022-09798-2
+  year: 2022
+  journal: Sci Rep
+  first_author: Raine A
+  last_author: Nordlund J
+  pmid: '35388090'
+  pmcid: PMC8986790
+  title: scSPLAT, a scalable plate-based protocol for single cell WGBS library preparation
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Herein, we present a new development in the field of scWGBS library preparation; single cell Splinted Ligation Adapter
+  Tagging (scSPLAT).

@@ -1,0 +1,30 @@
+name: TIP-seq
+aliases:
+- Targeted Insertion of Promoters
+category: wet
+summary: Antibody-tethered Tn5 inserts a T7 promoter at target sites; in vitro transcription amplifies them linearly for single-cell
+  chromatin profiling.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.1083/jcb.202103078
+  year: 2021
+  journal: J Cell Biol
+  first_author: Bartlett DA
+  last_author: Gilbert DM
+  pmid: '34783858'
+  pmcid: PMC8600797
+  title: High-throughput single-cell epigenomic profiling by targeted insertion of promoters (TIP-seq)
+links: {}
+source: curator
+added: '2026-10-26'

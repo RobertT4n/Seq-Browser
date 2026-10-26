@@ -1,0 +1,28 @@
+name: Smart-seq2
+category: wet
+summary: Optimised SMART-seq with improved reverse transcription, template switching and preamplification for higher-yield
+  full-length libraries.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- smart-seq
+reference:
+  doi: 10.1038/nmeth.2639
+  year: 2013
+  journal: Nat Methods
+  first_author: Picelli S
+  last_author: Sandberg R
+  pmid: '24056875'
+  title: Smart-seq2 for sensitive full-length transcriptome profiling in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce Smart-seq2 with improved reverse transcription, template switching and preamplification to increase
+  both yield and length of cDNA libraries generated from individual cells.

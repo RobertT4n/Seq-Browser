@@ -1,0 +1,29 @@
+name: Drop-BS
+category: wet
+summary: Droplet microfluidics encapsulates single cells for bisulfite library construction, profiling DNA methylomes of up
+  to 10,000 cells within about two days.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- droplet-microfluidics
+variant_of:
+- scbs-seq
+reference:
+  doi: 10.1038/s41467-023-40411-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhang Q
+  last_author: Lu C
+  pmid: '37537185'
+  pmcid: PMC10400590
+  title: Droplet-based bisulfite sequencing for high-throughput profiling of single-cell DNA methylomes
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we demonstrate a droplet-based microfluidic technology, Drop-BS, to construct single-cell bisulfite sequencing
+  libraries for DNA methylome profiling.

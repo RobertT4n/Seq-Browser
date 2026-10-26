@@ -1,0 +1,32 @@
+name: snATAC-seq
+aliases:
+- single-nucleus ATAC-seq
+category: wet
+summary: Combinatorial barcoding of Tn5-tagmented nuclei from flash-frozen tissue, giving single-nucleus chromatin accessibility
+  profiles.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41593-018-0079-3
+  year: 2018
+  journal: Nat Neurosci
+  first_author: Preissl S
+  last_author: Ren B
+  pmid: '29434377'
+  pmcid: PMC5862073
+  title: Single-nucleus analysis of accessible chromatin in developing mouse forebrain reveals cell-type-specific transcriptional
+    regulation
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report single-nucleus ATAC-seq, a combinatorial barcoding-assisted single-cell assay for transposase-accessible
+  chromatin that is optimized for use on flash-frozen primary tissue samples.

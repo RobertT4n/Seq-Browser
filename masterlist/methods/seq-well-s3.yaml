@@ -1,0 +1,30 @@
+name: Seq-Well S3
+category: wet
+summary: Seq-Well variant that uses randomly primed second-strand synthesis to recover cDNA that failed template switching,
+  improving per-cell fidelity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+variant_of:
+- seq-well
+reference:
+  doi: 10.1016/j.immuni.2020.09.015
+  year: 2020
+  journal: Immunity
+  first_author: Hughes TK
+  last_author: Shalek AK
+  pmid: '33053333'
+  pmcid: PMC7562821
+  title: Second-Strand Synthesis-Based Massively Parallel scRNA-Seq Reveals Cellular States and Molecular Features of Human
+    Inflammatory Skin Pathologies
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: To address this need, we created Seq-Well S3 ('Second-Strand Synthesis'), a massively parallel scRNA-seq protocol
+  that uses a randomly primed second-strand synthesis to recover complementary DNA (cDNA) molecules that were successfully
+  reverse transcribed.

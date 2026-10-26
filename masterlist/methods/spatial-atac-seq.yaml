@@ -1,0 +1,30 @@
+name: Spatial-ATAC-seq
+category: wet
+summary: Tissue-section chromatin accessibility profiling that combines in situ Tn5 tagmentation with microfluidic deterministic
+  barcoding (DBiT-style).
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- tn5
+- microfluidic-chip
+builds_on:
+- atac-seq
+- dbit-seq
+reference:
+  doi: 10.1038/s41586-022-05094-1
+  year: 2022
+  journal: Nature
+  first_author: Deng Y
+  last_author: Fan R
+  pmid: '35978191'
+  pmcid: PMC9452302
+  title: Spatial profiling of chromatin accessibility in mouse and human tissues
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a method for spatially resolved chromatin accessibility profiling of tissue sections using next-generation
+  sequencing (spatial-ATAC-seq) by combining in situ Tn5 transposition chemistry6 and microfluidic deterministic barcoding5.

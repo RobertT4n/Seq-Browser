@@ -20,6 +20,8 @@ def resolve(path):
     ref = entry.setdefault("reference", {})
     if all(ref.get(f) for f in ("doi", "year", "journal", "first_author")):
         return "ok (already complete)"
+    if ref.get("url") and not ref.get("doi") and not ref.get("title"):
+        return "url-only reference (kit with no paper) - nothing to resolve"
     hit = epmc_lookup(doi=ref.get("doi"), title=None if ref.get("doi") else ref.get("title"))
     if not hit:
         return "NOT FOUND - check reference.title / reference.doi by hand"

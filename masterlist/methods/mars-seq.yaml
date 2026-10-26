@@ -1,0 +1,30 @@
+name: MARS-seq
+category: wet
+summary: Massively parallel scRNA-seq of FACS-sorted cells in barcoded plate wells, used to decompose tissues into cell types
+  without markers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+- facs-sorting
+builds_on:
+- cel-seq
+reference:
+  doi: 10.1126/science.1247651
+  year: 2014
+  journal: Science
+  first_author: Jaitin DA
+  last_author: Amit I
+  pmid: '24531970'
+  pmcid: PMC4412462
+  title: Massively parallel single-cell RNA-seq for marker-free decomposition of tissues into cell types
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We introduce an automated massively parallel single-cell RNA sequencing (RNA-seq) approach for analyzing in vivo
+  transcriptional states in thousands of single cells.

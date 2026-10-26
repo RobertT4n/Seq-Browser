@@ -1,0 +1,30 @@
+name: sci-ATAC-seq3
+category: wet
+summary: Three-level combinatorial indexing in which barcodes are added by split-pool ligation, so standard Tn5 can be used
+  instead of indexed Tn5.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- split-pool-barcoding
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+reference:
+  doi: 10.1126/science.aba7612
+  year: 2020
+  journal: Science
+  first_author: Domcke S
+  last_author: Shendure J
+  pmid: '33184180'
+  pmcid: PMC7785298
+  title: A human cell atlas of fetal chromatin accessibility
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: For chromatin accessibility, we devised a three-level combinatorial indexing assay and applied it to 53 samples
+  representing 15 organs, profiling ~800,000 single cells.

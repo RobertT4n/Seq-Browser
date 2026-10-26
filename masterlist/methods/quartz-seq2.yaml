@@ -1,0 +1,28 @@
+name: Quartz-seq2
+category: wet
+summary: High-throughput version of Quartz-seq with improved reaction steps that convert a larger share of shallow reads into
+  UMI counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+variant_of:
+- quartz-seq
+reference:
+  doi: 10.1186/s13059-018-1407-3
+  year: 2018
+  journal: Genome Biol
+  first_author: Sasagawa Y
+  last_author: Nikaido I
+  pmid: '29523163'
+  pmcid: PMC5845169
+  title: 'Quartz-Seq2: a high-throughput single-cell RNA-sequencing method that effectively uses limited sequence reads'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Our improvements in the reaction steps make it possible to effectively convert initial reads to UMI counts, at a
+  rate of 30-50%, and detect more genes.

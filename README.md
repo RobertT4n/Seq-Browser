@@ -1,6 +1,6 @@
 # Seq-Browser <img align="right" src="Seq-Browser_Logo1.png" style="height:100px;" />
 
-A browser for sequencing assays: a curated, continuously updated catalogue of sequencing-based methods (bulk, single-cell, spatial), tagged by what they measure and how, and readable by both people and LLMs.
+A browser for sequencing assays: a curated, continuously updated catalogue of sequencing-based methods (single-cell, spatial, temporal and more), tagged by what they measure and how, and readable by both people and LLMs.
 
 - **Full database, one file:** [`METHODS.md`](METHODS.md). Point an LLM here instead of making it search the web.
 - **Machine-readable:** [`docs/methods.json`](docs/methods.json), [`docs/methods.csv`](docs/methods.csv), [`docs/llms.txt`](docs/llms.txt)

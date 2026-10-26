@@ -1,0 +1,34 @@
+name: spinDrop
+category: wet
+summary: Droplet platform that sorts droplets by fluorescence and uses picoinjection to add lysis and reverse transcription
+  reagents, raising gene detection and cutting background.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- facs-sorting
+- reverse-transcription
+builds_on:
+- drop-seq
+introduces:
+- nascent-rna
+reference:
+  doi: 10.1038/s41467-023-40322-w
+  year: 2023
+  journal: Nat Commun
+  first_author: De Jonghe J
+  last_author: Hollfelder F
+  pmid: '37553326'
+  pmcid: PMC10409775
+  title: 'spinDrop: a droplet microfluidic platform to maximise single-cell sequencing information content'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we alleviate both bottlenecks using fluorescence-activated droplet sorting to enrich for droplets that contain
+  single viable cells, intact nuclei, fixed cells or target cell types and use reagent addition to droplets by picoinjection
+  to perform multi-step lysis and reverse transcription.

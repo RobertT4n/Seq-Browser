@@ -1,0 +1,27 @@
+name: scCARE-seq
+category: wet
+summary: Single-cell method that jointly captures chromatin conformation and mRNA from the same cell by sequencing.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41594-023-01066-9
+  year: 2023
+  journal: Nat Struct Mol Biol
+  first_author: Qu J
+  last_author: Ding J
+  pmid: '37580628'
+  title: Simultaneous profiling of chromatin architecture and transcription in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we develop a single-cell, multimodal, omics method allowing the simultaneous detection of chromatin architecture
+  and messenger RNA expression by sequencing (single-cell transcriptome sequencing (scCARE-seq)).

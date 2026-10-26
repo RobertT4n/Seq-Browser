@@ -1,0 +1,28 @@
+name: scDNase-seq
+category: wet
+summary: DNase I digestion of single cells with carrier-DNA-assisted library prep maps genome-wide DNase hypersensitive sites
+  in individual cells.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- dnase-digestion
+variant_of:
+- dnase-seq
+reference:
+  doi: 10.1038/nature15740
+  year: 2015
+  journal: Nature
+  first_author: Jin W
+  last_author: Zhao K
+  pmid: '26605532'
+  pmcid: PMC4697938
+  title: Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report an ultrasensitive strategy, called single-cell DNase sequencing (scDNase-seq) for detection of genome-wide
+  DHSs in single cells.

@@ -1,0 +1,18 @@
+name: Illumina Bio-Rad SureCell 3' WTA for ddSEQ
+category: wet
+summary: Commercial droplet-based 3' whole-transcriptome kit for the Bio-Rad ddSEQ instrument; discontinued by the vendor.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+reference:
+  url: https://support.illumina.com/sequencing/sequencing_kits/surecell-wta-3-kit.html
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: No introducing paper found; commercial kit documented by the vendor product page in reference.url.

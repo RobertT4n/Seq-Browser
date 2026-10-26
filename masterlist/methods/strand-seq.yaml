@@ -1,0 +1,27 @@
+name: Strand-seq
+category: wet
+summary: BrdU-labels one parental DNA strand over a single replication round so each single cell's template strands are sequenced
+  separately, mapping sister chromatid exchanges and inversions.
+readouts:
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- plate-based
+reference:
+  doi: 10.1038/nmeth.2206
+  year: 2012
+  journal: Nat Methods
+  first_author: Falconer E
+  last_author: Lansdorp PM
+  pmid: '23042453'
+  pmcid: PMC3580294
+  title: DNA template strand sequencing of single-cells maps genomic rearrangements at high resolution
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We developed Strand-seq to independently sequence parental DNA template strands from single cells, making it possible
+  to map SCEs at orders-of-magnitude greater resolution than was previously possible.

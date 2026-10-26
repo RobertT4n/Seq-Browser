@@ -1,0 +1,31 @@
+name: ECCITE-seq
+category: wet
+summary: CRISPR-compatible CITE-seq extension that adds guide RNA, TCR/BCR and surface-protein capture to scRNA-seq in the
+  same cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- single-cell-rna-seq
+- cite-seq
+reference:
+  doi: 10.1038/s41592-019-0392-0
+  year: 2019
+  journal: Nat Methods
+  first_author: Mimitou EP
+  last_author: Smibert P
+  pmid: '31011186'
+  pmcid: PMC6557128
+  title: Multiplexed detection of proteins, transcriptomes, clonotypes and CRISPR perturbations in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we describe expanded CRISPR-compatible cellular indexing of transcriptomes and epitopes by sequencing (ECCITE-seq)
+  for the high-throughput characterization of at least five modalities of information from each single cell.

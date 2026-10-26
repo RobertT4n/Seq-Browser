@@ -1,0 +1,35 @@
+name: TEA-seq
+category: wet
+summary: Droplet-based trimodal assay that measures RNA, surface epitopes and chromatin accessibility from the same single
+  cells.
+readouts:
+- rna
+- protein
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- tn5
+- droplet-microfluidics
+builds_on:
+- single-cell-rna-seq
+- scatac-seq
+- cite-seq
+reference:
+  doi: 10.7554/eLife.63632
+  year: 2021
+  journal: Elife
+  first_author: Swanson E
+  last_author: Skene PJ
+  pmid: '33835024'
+  pmcid: PMC8034981
+  title: Simultaneous trimodal single-cell measurement of transcripts, epitopes, and chromatin accessibility using TEA-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We extended this approach using a droplet-based multiomics platform to develop a trimodal assay that simultaneously
+  measures transcriptomics (scRNA-seq), epitopes, and chromatin accessibility (scATAC-seq) from thousands of single cells,
+  which we term TEA-seq.

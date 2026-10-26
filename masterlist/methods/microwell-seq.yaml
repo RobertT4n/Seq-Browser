@@ -1,0 +1,25 @@
+name: Microwell-seq
+category: wet
+summary: High-throughput, low-cost scRNA-seq that captures single-cell transcriptomes in simple microwell arrays, used to
+  build a mouse cell atlas.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+reference:
+  doi: 10.1016/j.cell.2018.02.001
+  year: 2018
+  journal: Cell
+  first_author: Han X
+  last_author: Guo G
+  pmid: '29474909'
+  title: Mapping the Mouse Cell Atlas by Microwell-Seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we developed Microwell-seq, a high-throughput and low-cost scRNA-seq platform using simple, inexpensive devices.

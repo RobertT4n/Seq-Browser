@@ -1,0 +1,28 @@
+name: CEL-seq
+category: wet
+summary: Cells are barcoded and pooled before one round of in vitro transcription, giving linear rather than exponential mRNA
+  amplification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1016/j.celrep.2012.08.003
+  year: 2012
+  journal: Cell Rep
+  first_author: Hashimshony T
+  last_author: Yanai I
+  pmid: '22939981'
+  title: 'CEL-Seq: single-cell RNA-Seq by multiplexed linear amplification'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We have developed CEL-Seq, a method for overcoming this limitation by barcoding and pooling samples before linearly
+  amplifying mRNA with the use of one round of in vitro transcription.

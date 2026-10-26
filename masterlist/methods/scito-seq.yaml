@@ -1,0 +1,31 @@
+name: SCITO-seq
+category: wet
+summary: Splint-oligo combinatorial indexing of DNA-barcoded antibodies on commercial microfluidics, giving high-throughput
+  protein profiles and optional transcriptome co-profiling.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- combinatorial-indexing
+- reverse-transcription
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1038/s41592-021-01222-3
+  year: 2021
+  journal: Nat Methods
+  first_author: Hwang B
+  last_author: Ye CJ
+  pmid: '34354295'
+  pmcid: PMC8643207
+  title: 'SCITO-seq: single-cell combinatorial indexed cytometry sequencing'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce SCITO-seq, a workflow that uses splint oligonucleotides (oligos) to enable combinatorially indexed
+  dsc-seq of DNA-barcoded antibodies from over 10^5 cells per reaction using commercial microfluidics.

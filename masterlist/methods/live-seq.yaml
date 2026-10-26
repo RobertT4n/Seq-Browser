@@ -1,0 +1,31 @@
+name: Live-seq
+category: wet
+summary: Fluidic force microscopy extracts cytoplasm from a living cell for RNA-seq while the cell survives, so the same cell
+  can be sampled repeatedly over time.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41586-022-05046-9
+  year: 2022
+  journal: Nature
+  first_author: Chen W
+  last_author: Deplancke B
+  pmid: '35978187'
+  pmcid: PMC9402441
+  title: Live-seq enables temporal transcriptomic recording of single cells
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we established Live-seq, a single-cell transcriptome profiling approach that preserves cell viability during
+  RNA extraction using fluidic force microscopy, thus allowing to couple a cell's ground-state transcriptome to its downstream
+  molecular or phenotypic behaviour.

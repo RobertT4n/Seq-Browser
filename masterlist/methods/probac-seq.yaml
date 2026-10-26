@@ -1,0 +1,29 @@
+name: ProBac-seq
+category: wet
+summary: Hybridises mRNA-specific oligonucleotide probe libraries to bacterial cells, then encapsulates them in droplets for
+  single-cell bacterial transcriptome sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41564-023-01348-4
+  year: 2023
+  journal: Nat Microbiol
+  first_author: McNulty R
+  last_author: Rosenthal AZ
+  pmid: '37012420'
+  pmcid: PMC10159851
+  title: Probe-based bacterial single-cell RNA sequencing predicts toxin regulation
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we developed probe-based bacterial sequencing (ProBac-seq), a method that uses libraries of DNA probes and
+  an existing commercial microfluidic platform to conduct bacterial single-cell RNA sequencing.

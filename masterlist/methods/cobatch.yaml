@@ -1,0 +1,32 @@
+name: CoBATCH
+category: wet
+summary: Antibody-tethered protein A-Tn5 releases indexed chromatin fragments at target sites, then combinatorial barcoding
+  profiles thousands of single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.1016/j.molcel.2019.07.015
+  year: 2019
+  journal: Mol Cell
+  first_author: Wang Q
+  last_author: He A
+  pmid: '31471188'
+  title: CoBATCH for High-Throughput Single-Cell Epigenomic Profiling
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop CoBATCH, combinatorial barcoding and targeted chromatin release, for single-cell profiling of genomic
+  distribution of chromatin-binding proteins in cell culture and tissue.

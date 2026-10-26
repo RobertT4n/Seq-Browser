@@ -1,0 +1,30 @@
+name: Hybrid BAG-seq
+aliases:
+- BAG DNA RNA
+category: wet
+summary: High-throughput multi-omic method that captures genomic DNA and transcripts from the same single nucleus, allowing
+  genome-transcriptome correlation in tumours.
+readouts:
+- dna-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-025-03790-5
+  year: 2025
+  journal: Genome Biol
+  first_author: Li S
+  last_author: Levy D
+  pmid: '41015771'
+  pmcid: PMC12476631
+  title: 'Hybrid BAG-seq: DNA and RNA from the same single nucleus reveals interactions between genomic and transcriptomic
+    landscapes in human tumor samples'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: 'We introduce hybrid BAG-seq: a high-throughput, multi-omic method that simultaneously captures DNA and RNA from
+  single nuclei.'

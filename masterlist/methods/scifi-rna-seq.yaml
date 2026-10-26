@@ -1,0 +1,31 @@
+name: scifi-RNA-seq
+category: wet
+summary: Combinatorial preindexing of permeabilized cells before droplet scRNA-seq, so several cells per droplet are demultiplexed
+  computationally.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+- droplet-microfluidics
+builds_on:
+- sci-rna-seq
+- 10x-chromium-single-cell-3-gene-expression
+reference:
+  doi: 10.1038/s41592-021-01153-z
+  year: 2021
+  journal: Nat Methods
+  first_author: Datlinger P
+  last_author: Bock C
+  pmid: '34059827'
+  pmcid: PMC7612019
+  title: Ultra-high-throughput single-cell RNA sequencing and perturbation screening with combinatorial fluidic indexing
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: To enable cost-effective single-cell sequencing for millions of individual cells, we developed 'single-cell combinatorial
+  fluidic indexing' (scifi).

@@ -1,0 +1,31 @@
+name: ASTAR-seq
+category: wet
+summary: Automated joint profiling of whole-cell transcriptome and chromatin accessibility from the same single cell.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+- scatac-seq
+reference:
+  doi: 10.1101/gr.257840.119
+  year: 2020
+  journal: Genome Res
+  first_author: Xing QR
+  last_author: Loh YH
+  pmid: '32699019'
+  pmcid: PMC7397874
+  title: Parallel bimodal single-cell sequencing of transcriptome and chromatin accessibility
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we developed an automated method with high sensitivity, assay for single-cell transcriptome and accessibility
+  regions (ASTAR-seq), for simultaneous measurement of whole-cell transcriptome and chromatin accessibility within the same
+  single cell.

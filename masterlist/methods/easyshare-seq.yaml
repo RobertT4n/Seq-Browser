@@ -1,0 +1,31 @@
+name: easySHARE-seq
+category: wet
+summary: Streamlined SHARE-seq with an improved barcode that gives reads up to 300 bp and joint ATAC and RNA profiles per
+  nucleus without a dedicated sequencing run.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- split-pool-barcoding
+variant_of:
+- share-seq
+reference:
+  doi: 10.7554/elife.110034
+  year: 2026
+  journal: Elife
+  first_author: Soltys V
+  last_author: Chan YF
+  pmid: '42474448'
+  pmcid: PMC13384510
+  title: Flexible and high-throughput simultaneous profiling of gene expression and chromatin accessibility in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present easySHARE-seq, an improvement on SHARE-seq for the simultaneous measurement of ATAC- and RNA-seq
+  in single cells.

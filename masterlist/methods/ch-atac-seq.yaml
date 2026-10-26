@@ -1,0 +1,30 @@
+name: CH-ATAC-seq
+category: wet
+summary: Combinatorial-indexing scATAC-seq in which the first barcode is added by barcoded Tn5 and later barcodes are added
+  by hybridisation.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+reference:
+  doi: 10.1016/j.devcel.2024.01.015
+  year: 2024
+  journal: Dev Cell
+  first_author: Zhang G
+  last_author: Guo G
+  pmid: '38330939'
+  title: Construction of single-cell cross-species chromatin accessibility landscapes with combinatorial-hybridization-based
+    ATAC-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we developed a combinatorial-hybridization-based method for single-cell assay for transposase-accessible chromatin
+  using sequencing (scATAC-seq) named CH-ATAC-seq, enabling the construction of single-cell accessible chromatin landscapes
+  for zebrafish, Drosophila, and earthworms (Eisenia andrei).

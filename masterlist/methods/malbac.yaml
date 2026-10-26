@@ -1,0 +1,26 @@
+name: MALBAC
+category: wet
+summary: Single-cell whole-genome amplification using multiple annealing and looping cycles to give uniform genome coverage
+  from one cell.
+readouts:
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- plate-based
+reference:
+  doi: 10.1126/science.1229164
+  year: 2012
+  journal: Science
+  first_author: Zong C
+  last_author: Xie XS
+  pmid: '23258894'
+  pmcid: PMC3600412
+  title: Genome-wide detection of single-nucleotide and copy-number variations of a single human cell
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we report on a new amplification method-multiple annealing and looping-based amplification cycles (MALBAC)-that
+  offers high uniformity across the genome.

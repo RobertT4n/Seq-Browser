@@ -1,0 +1,34 @@
+name: scTrio-seq
+category: wet
+summary: Separates each cell's RNA from its nuclear DNA so copy number, DNA methylome and transcriptome come from one cell.
+readouts:
+- dna-sequence
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+builds_on:
+- scrrbs
+- smart-seq2
+introduces:
+- dna-sequence
+reference:
+  doi: 10.1038/cr.2016.23
+  year: 2016
+  journal: Cell Res
+  first_author: Hou Y
+  last_author: Peng J
+  pmid: '26902283'
+  pmcid: PMC4783472
+  title: Single-cell triple omics sequencing reveals genetic, epigenetic, and transcriptomic heterogeneity in hepatocellular
+    carcinomas
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we demonstrate a single-cell triple omics sequencing technique, scTrio-seq, that can be used to simultaneously
+  analyze the genomic copy-number variations (CNVs), DNA methylome, and transcriptome of an individual mammalian cell.

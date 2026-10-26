@@ -1,0 +1,25 @@
+name: CROP-seq
+category: wet
+summary: Pooled CRISPR screens read out by single-cell RNA-seq, with the guide RNA captured as a polyadenylated transcript.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1038/nmeth.4177
+  year: 2017
+  journal: Nat Methods
+  first_author: Datlinger P
+  last_author: Bock C
+  pmid: '28099430'
+  pmcid: PMC5334791
+  title: Pooled CRISPR screening with single-cell transcriptome readout
+links: {}
+source: curator
+added: '2026-10-26'

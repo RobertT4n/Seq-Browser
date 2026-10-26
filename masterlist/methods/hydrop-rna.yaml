@@ -1,0 +1,31 @@
+name: HyDrop-RNA
+category: wet
+summary: Droplet scRNA-seq that adapts the dissolvable hydrogel-bead chemistry and capture sequence to capture mRNA, improving
+  on Drop-seq and inDrop.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+- indrop
+reference:
+  doi: 10.7554/eLife.73971
+  year: 2022
+  journal: Elife
+  first_author: De Rop FV
+  last_author: Aerts S
+  pmid: '35195064'
+  pmcid: PMC8993220
+  title: Hydrop enables droplet-based single-cell ATAC-seq and single-cell RNA-seq using dissolvable hydrogel beads
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: In the third protocol, we adapt both the reaction chemistry and the capture sequence of the barcoded hydrogel bead
+  to capture mRNA, and demonstrate a significant improvement in throughput and sensitivity compared to previous open-source
+  droplet-based scRNA-seq assays (Drop-seq and inDrop).

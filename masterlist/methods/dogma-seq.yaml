@@ -1,0 +1,31 @@
+name: DOGMA-seq
+category: wet
+summary: Trimodal single-cell profiling of chromatin accessibility, transcriptome and surface protein, extending ASAP-seq
+  onto the 10x Multiome.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- asap-seq
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1038/s41587-021-00927-2
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Mimitou EP
+  last_author: Smibert P
+  pmid: '34083792'
+  pmcid: PMC8763625
+  title: Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells
+links: {}
+source: curator
+added: '2026-10-26'

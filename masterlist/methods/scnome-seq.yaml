@@ -1,0 +1,30 @@
+name: scNOMe-seq
+category: wet
+summary: 'NOMe-seq adapted to single cells: a GpC methyltransferase marks accessible DNA, and bisulfite sequencing reads accessibility
+  and methylation together.'
+readouts:
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- scbs-seq
+- nome-seq
+reference:
+  doi: 10.7554/eLife.23203
+  year: 2017
+  journal: Elife
+  first_author: Pott S
+  last_author: Pott S
+  pmid: '28653622'
+  pmcid: PMC5487215
+  title: Simultaneous measurement of chromatin accessibility, DNA methylation, and nucleosome phasing in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here I adapted Nucleosome Occupancy and Methylome-sequencing (NOMe-seq) to measure chromatin accessibility and endogenous
+  DNA methylation in single cells (scNOMe-seq).

@@ -1,0 +1,27 @@
+name: Drop scChIP-seq
+category: wet
+summary: Droplet microfluidics with DNA barcoding to profile histone-mark chromatin landscapes in thousands of single cells.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- droplet-microfluidics
+builds_on:
+- chip-seq
+reference:
+  doi: 10.1038/s41588-019-0424-9
+  year: 2019
+  journal: Nat Genet
+  first_author: Grosselin K
+  last_author: Gérard A
+  pmid: '31152164'
+  title: High-throughput single-cell ChIP-seq identifies heterogeneity of chromatin states in breast cancer
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a high-throughput droplet microfluidics platform to profile chromatin landscapes of thousands of
+  cells at single-cell resolution.

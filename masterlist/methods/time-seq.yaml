@@ -1,0 +1,26 @@
+name: TIME-seq
+category: wet
+summary: Highly multiplexed tagmentation-based targeted methylation sequencing used to build low-cost epigenetic clocks.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- tn5
+reference:
+  doi: 10.1038/s43587-023-00555-2
+  year: 2024
+  journal: Nat Aging
+  first_author: Griffin PT
+  last_author: Sinclair DA
+  pmid: '38200273'
+  pmcid: PMC11332592
+  title: TIME-seq reduces time and cost of DNA methylation measurement for epigenetic clock construction
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we develop tagmentation-based indexing for methylation sequencing (TIME-seq), a highly multiplexed and scalable
+  method for low-cost epigenetic clocks.

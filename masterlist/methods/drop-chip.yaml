@@ -1,0 +1,29 @@
+name: Drop-ChIP
+category: wet
+summary: Microfluidic droplets barcode antibody-enriched chromatin from individual cells, giving per-cell chromatin state
+  maps.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- droplet-microfluidics
+builds_on:
+- chip-seq
+- drop-seq
+reference:
+  doi: 10.1038/nbt.3383
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Rotem A
+  last_author: Bernstein BE
+  pmid: '26458175'
+  pmcid: PMC4636926
+  title: Single-cell ChIP-seq reveals cell subpopulations defined by chromatin state
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we combine microfluidics, DNA barcoding and sequencing to collect chromatin data at single-cell resolution.

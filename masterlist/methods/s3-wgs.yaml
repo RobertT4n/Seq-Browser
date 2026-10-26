@@ -1,0 +1,32 @@
+name: s3-WGS
+category: wet
+summary: Applies the s3 uracil-based adapter switching to single-cell whole-genome sequencing for copy-number and subclonal
+  profiling.
+readouts:
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+builds_on:
+- s3-atac
+introduces:
+- dna-sequence
+reference:
+  doi: 10.1038/s41587-021-00962-z
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Mulqueen RM
+  last_author: Adey AC
+  pmid: '34226710'
+  pmcid: PMC8678206
+  title: High-content single-cell combinatorial indexing
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Application of s3 to single-cell whole-genome sequencing (s3-WGS) and to whole-genome plus chromatin conformation
+  (s3-GCC) yields 148- and 14.8-fold improvements, respectively, in usable reads per cell compared with sci-DNA-sequencing
+  and sci-HiC.

@@ -1,0 +1,31 @@
+name: itChIP-seq
+category: wet
+summary: Chromatin opening, cell indexing and tagmentation are done in one tube, so ChIP-seq can profile histone marks in
+  single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- tn5
+- combinatorial-indexing
+builds_on:
+- chipmentation
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41556-019-0383-5
+  year: 2019
+  journal: Nat Cell Biol
+  first_author: Ai S
+  last_author: He A
+  pmid: '31481796'
+  title: Profiling chromatin states using single-cell itChIP-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present a low-cost, efficient, simultaneous indexing and tagmentation-based ChIP-seq (itChIP-seq) method,
+  compatible with both low cellular input and single cells for profiling chromatin states.

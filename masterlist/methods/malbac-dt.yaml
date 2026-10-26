@@ -1,0 +1,30 @@
+name: MALBAC-DT
+category: wet
+summary: High-precision single-cell RNA-seq used to measure gene-gene expression correlations from steady-state fluctuations
+  within a population.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- malbac
+introduces:
+- rna
+reference:
+  doi: 10.1073/pnas.2206938119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Chapman AR
+  last_author: Xie XS
+  pmid: '36508663'
+  pmcid: PMC9907105
+  title: Correlated gene modules uncovered by high-precision single-cell transcriptomics
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We report a high-precision single-cell RNA-seq method called MALBAC-DT to measure the correlation between any pair
+  of genes in a homogenous cell population.

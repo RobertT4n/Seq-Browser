@@ -1,0 +1,25 @@
+name: sci-RNA-seq3
+category: wet
+summary: Three-level combinatorial indexing (RT, ligation, PCR) scaling sci-RNA-seq to millions of cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+variant_of:
+- sci-rna-seq
+reference:
+  doi: 10.1038/s41586-019-0969-x
+  year: 2019
+  journal: Nature
+  first_author: Cao J
+  last_author: Shendure J
+  pmid: '30787437'
+  pmcid: PMC6434952
+  title: The single-cell transcriptional landscape of mammalian organogenesis
+links: {}
+source: curator
+added: '2026-10-26'

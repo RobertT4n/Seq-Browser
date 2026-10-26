@@ -1,0 +1,31 @@
+name: NASC-seq
+category: wet
+summary: Single-cell RNA-seq using alkylation of newly synthesized RNA to distinguish new from pre-existing transcripts in
+  the same cell.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41467-019-11028-9
+  year: 2019
+  journal: Nat Commun
+  first_author: Hendriks GJ
+  last_author: Sandberg R
+  pmid: '31316066'
+  pmcid: PMC6637240
+  title: NASC-seq monitors RNA synthesis in single cells
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop new transcriptome alkylation-dependent single-cell RNA sequencing (NASC-seq), to monitor newly
+  synthesised and pre-existing RNA simultaneously in single cells.

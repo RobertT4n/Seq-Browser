@@ -1,0 +1,24 @@
+name: SCRB-seq
+category: wet
+summary: Plate-based digital gene-expression scRNA-seq protocol that surveys mRNA from thousands of single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1101/003236
+  year: 2014
+  journal: bioRxiv
+  first_author: Soumillon M
+  last_author: Mikkelsen TS
+  title: Characterization of directed differentiation by high-throughput single-cell RNA-Seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: To enable deep characterization of heterogeneous cell populations, we developed an efficient digital gene expression
+  profiling protocol that enables surveying of mRNA in thousands of single cells at a time.

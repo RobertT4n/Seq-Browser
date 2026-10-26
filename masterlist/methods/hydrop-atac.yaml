@@ -1,0 +1,30 @@
+name: HyDrop-ATAC
+category: wet
+summary: Low-cost droplet scATAC-seq in which custom-oligo hydrogel beads are released into droplets to barcode Tn5-tagged
+  open chromatin.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+builds_on:
+- indrop
+- scatac-seq
+reference:
+  doi: 10.7554/eLife.73971
+  year: 2022
+  journal: Elife
+  first_author: De Rop FV
+  last_author: Aerts S
+  pmid: '35195064'
+  pmcid: PMC8993220
+  title: Hydrop enables droplet-based single-cell ATAC-seq and single-cell RNA-seq using dissolvable hydrogel beads
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: In the second protocol, we demonstrate the use of these beads for HyDrop-ATAC, a low-cost noncommercial scATAC-seq
+  protocol in droplets.

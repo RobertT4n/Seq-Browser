@@ -1,0 +1,29 @@
+name: Delley2021
+category: wet
+summary: Modular recipe for making multifunctional barcode beads for droplet single-cell assays, with each bead functionalised
+  for the target assay.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1038/s41598-021-90255-x
+  year: 2021
+  journal: Sci Rep
+  first_author: Delley CL
+  last_author: Abate AR
+  pmid: '34035349'
+  pmcid: PMC8149635
+  title: Modular barcode beads for microfluidic single cell genomics
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we describe a modular framework that simplifies generation of multifunctional beads and allows their easy
+  extension to new targets.

@@ -1,0 +1,33 @@
+name: scCAT-seq
+category: wet
+summary: Nuclei are tagmented for chromatin accessibility while the cytoplasm is amplified with Smart-seq2, giving both layers
+  from one cell.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- facs-sorting
+- plate-based
+builds_on:
+- smart-seq2
+- scatac-seq
+reference:
+  doi: 10.1038/s41467-018-08205-7
+  year: 2019
+  journal: Nat Commun
+  first_author: Liu L
+  last_author: Xu X
+  pmid: '30692544'
+  pmcid: PMC6349937
+  title: Deconvolution of single-cell multi-omics layers reveals regulatory heterogeneity
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report scCAT-seq, a technique for simultaneously assaying chromatin accessibility and the transcriptome
+  within the same single cell.

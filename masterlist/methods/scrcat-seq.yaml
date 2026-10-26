@@ -1,0 +1,29 @@
+name: scRCAT-seq
+category: wet
+summary: Short-read single-cell method that tags both transcript ends during a modified Smart-seq2 protocol, then tagments
+  and captures the 5' or 3' ends to demarcate isoform boundaries.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- tn5
+variant_of:
+- smart-seq2
+reference:
+  doi: 10.1038/s41467-020-18976-7
+  year: 2020
+  journal: Nat Commun
+  first_author: Hu Y
+  last_author: Liu Y
+  pmid: '33051455'
+  pmcid: PMC7555861
+  title: Single-cell RNA cap and tail sequencing (scRCAT-seq) reveals subtype-specific isoforms differing in transcript demarcation
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce single cell RNA Cap And Tail sequencing (scRCAT-seq), a method to demarcate the boundaries of
+  isoforms based on short-read sequencing, with higher efficiency and lower cost than existing long-read sequencing methods.

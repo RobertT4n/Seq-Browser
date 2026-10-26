@@ -1,0 +1,35 @@
+name: scNMT-seq
+category: wet
+summary: A GpC methyltransferase marks open chromatin before bisulfite conversion, and RNA is split off, giving accessibility,
+  methylation and transcriptome from one cell.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+- plate-based
+variant_of:
+- scmt-seq
+builds_on:
+- scnome-seq
+- smart-seq2
+reference:
+  doi: 10.1038/s41467-018-03149-4
+  year: 2018
+  journal: Nat Commun
+  first_author: Clark SJ
+  last_author: Reik W
+  pmid: '29472610'
+  pmcid: PMC5823944
+  title: scNMT-seq enables joint profiling of chromatin accessibility DNA methylation and transcription in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: scNMT-seq (single-cell nucleosome, methylation and transcription sequencing) uses a GpC methyltransferase to label
+  open chromatin followed by bisulfite and RNA sequencing.

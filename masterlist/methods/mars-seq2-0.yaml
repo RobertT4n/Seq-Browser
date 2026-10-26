@@ -1,0 +1,29 @@
+name: MARS-seq2.0
+category: wet
+summary: Indexed FACS sorting combined with an optimized MARS-seq chemistry using sub-microliter reactions and an error-correcting
+  analysis pipeline.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+- facs-sorting
+variant_of:
+- mars-seq
+reference:
+  doi: 10.1038/s41596-019-0164-4
+  year: 2019
+  journal: Nat Protoc
+  first_author: Keren-Shaul H
+  last_author: Amit I
+  pmid: '31101904'
+  title: 'MARS-seq2.0: an experimental and analytical pipeline for indexed sorting combined with single-cell RNA sequencing'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We developed an integrated pipeline for index sorting and massively parallel single-cell RNA sequencing (MARS-seq2.0)
+  that builds on our previously published MARS-seq approach.

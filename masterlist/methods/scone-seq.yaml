@@ -1,0 +1,27 @@
+name: scONE-seq
+category: wet
+summary: One-tube single-cell whole-genome DNA and RNA amplification that works on frozen tumour samples.
+readouts:
+- dna-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/sciadv.abp8901
+  year: 2023
+  journal: Sci Adv
+  first_author: Yu L
+  last_author: Wu AR
+  pmid: '36598983'
+  pmcid: PMC9812385
+  title: 'scONE-seq: A single-cell multi-omics method enables simultaneous dissection of phenotype and genotype heterogeneity
+    from frozen tumors'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We have developed scONE-seq, a versatile scWGS-RNA-seq method that amplifies single-cell DNA and RNA without separating
+  them from each other and hence is compatible with frozen biobanked samples.

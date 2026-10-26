@@ -1,0 +1,30 @@
+name: Slide-tags
+category: wet
+summary: Nuclei in an intact tissue section are tagged with position barcodes from bead arrays, then profiled with standard
+  single-nucleus assays.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+builds_on:
+- slide-seq
+reference:
+  doi: 10.1038/s41586-023-06837-4
+  year: 2024
+  journal: Nature
+  first_author: Russell AJC
+  last_author: Chen F
+  pmid: '38093010'
+  pmcid: PMC10764288
+  title: Slide-tags enables single-nucleus barcoding for multimodal spatial genomics
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We developed a strategy, Slide-tags, in which single nuclei within an intact tissue section are tagged with spatial
+  barcode oligonucleotides derived from DNA-barcoded beads with known positions.

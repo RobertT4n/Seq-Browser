@@ -1,0 +1,30 @@
+name: txci-ATAC-seq
+category: wet
+summary: Tn5 pre-indexing of nuclei across samples followed by 10x barcoding, scaling scATAC to about 200,000 nuclei per reaction.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+- droplet-microfluidics
+builds_on:
+- sci-atac-seq
+- 10x-chromium-single-cell-atac
+reference:
+  doi: 10.1186/s13059-023-03150-1
+  year: 2024
+  journal: Genome Biol
+  first_author: Zhang H
+  last_author: Cusanovich DA
+  pmid: '38519979'
+  pmcid: PMC10958877
+  title: 'txci-ATAC-seq: a massive-scale single-cell technique to profile chromatin accessibility'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We develop a large-scale single-cell ATAC-seq method by combining Tn5-based pre-indexing with 10× Genomics barcoding,
+  enabling the indexing of up to 200,000 nuclei across multiple samples in a single reaction.

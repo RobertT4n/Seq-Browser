@@ -1,0 +1,28 @@
+name: NOMe-seq
+category: wet
+summary: GpC methyltransferase footprints accessible DNA, then bisulfite sequencing reads accessibility and endogenous CpG
+  methylation together.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- wgbs
+reference:
+  doi: 10.1101/gr.143008.112
+  year: 2012
+  journal: Genome Res
+  first_author: Kelly TK
+  last_author: Jones PA
+  pmid: '22960375'
+  pmcid: PMC3514679
+  title: Genome-wide mapping of nucleosome positioning and DNA methylation within individual DNA molecules
+links: {}
+source: curator
+added: '2026-10-26'
+introduces:
+- chromatin-accessibility

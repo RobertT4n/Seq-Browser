@@ -1,0 +1,30 @@
+name: Slide-seqV2
+category: wet
+summary: Improved Slide-seq with better library generation, bead synthesis and array indexing for much higher RNA capture
+  efficiency.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+variant_of:
+- slide-seq
+reference:
+  doi: 10.1038/s41587-020-0739-1
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Stickels RR
+  last_author: Chen F
+  pmid: '33288904'
+  pmcid: PMC8606189
+  title: Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report Slide-seqV2, which combines improvements in library generation, bead synthesis and array indexing
+  to reach an RNA capture efficiency ~50% that of single-cell RNA-seq data (~10-fold greater than Slide-seq), approaching
+  the detection efficiency of droplet-based single-cell RNA-seq techniques.

@@ -1,0 +1,33 @@
+name: sci-fate
+category: wet
+summary: Combinatorial-indexing single-cell RNA-seq combined with 4-thiouridine labeling to profile whole and newly synthesized
+  transcriptomes in many cells.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- combinatorial-indexing
+- reverse-transcription
+variant_of:
+- sci-rna-seq
+reference:
+  doi: 10.1038/s41587-020-0480-9
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Cao J
+  last_author: Shendure J
+  pmid: '32284584'
+  pmcid: PMC7416490
+  title: Sci-fate characterizes the dynamics of gene expression in single cells
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: In the present study, we present a method for combined single-cell combinatorial indexing and messenger RNA labeling
+  (sci-fate), which uses combinatorial cell indexing and 4-thiouridine labeling of newly synthesized mRNA to concurrently
+  profile the whole and newly synthesized transcriptome in each of many single cells.

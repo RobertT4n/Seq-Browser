@@ -1,0 +1,29 @@
+name: Slide-DNA-seq
+category: wet
+summary: Spatially barcoded DNA capture from tissue sections on bead arrays, used to map clonal copy-number populations in
+  place.
+readouts:
+- dna-sequence
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+variant_of:
+- slide-seq
+introduces:
+- dna-sequence
+reference:
+  doi: 10.1038/s41586-021-04217-4
+  year: 2022
+  journal: Nature
+  first_author: Zhao T
+  last_author: Chen F
+  pmid: '34912115'
+  pmcid: PMC9301586
+  title: Spatial genomics enables multi-modal study of clonal heterogeneity in tissues
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we developed slide-DNA-seq, a method for capturing spatially resolved DNA sequences from intact tissue sections.

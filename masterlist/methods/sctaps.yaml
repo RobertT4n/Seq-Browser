@@ -1,0 +1,28 @@
+name: scTAPS
+category: wet
+summary: Bisulfite-free, plate-based single-cell sequencing of 5mC and 5hmC at single-base resolution using enzymatic conversion.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- plate-based
+reference:
+  doi: 10.1186/s13059-025-03708-1
+  year: 2025
+  journal: Genome Biol
+  first_author: Chen X
+  last_author: Song CX
+  pmid: '40826097'
+  pmcid: PMC12359873
+  title: Direct and bisulfite-free 5-methylcytosine and 5-hydroxymethylcytosine sequencing at single-cell resolution with
+    scTAPS and scCAPS + 
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present direct sequencing methodologies, scTAPS for 5-methylcytosine (5mC) and 5-hydroxymethylcytosine (5hmC)
+  and scCAPS + specifically for 5hmC, enabling quantitative detection of 5mC and 5hmC at single-base resolution and single-cell
+  level.

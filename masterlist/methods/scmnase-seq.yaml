@@ -1,0 +1,29 @@
+name: scMNase-seq
+category: wet
+summary: MNase digests FACS-sorted single cells; sub-nucleosome fragments report accessibility and mononucleosome fragments
+  report nucleosome positions.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- mnase
+- facs-sorting
+variant_of:
+- mnase-seq
+reference:
+  doi: 10.1038/s41596-019-0243-6
+  year: 2020
+  journal: Nat Protoc
+  first_author: Gao W
+  last_author: Zhao K
+  pmid: '31836865'
+  pmcid: PMC10895462
+  title: Genome-wide profiling of nucleosome position and chromatin accessibility in single cells using scMNase-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: This protocol describes single-cell micrococcal nuclease sequencing (scMNase-seq), a method for detecting genome-wide
+  nucleosome positioning and chromatin accessibility simultaneously from a small number of cells or single cells.

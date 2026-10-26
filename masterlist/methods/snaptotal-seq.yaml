@@ -1,0 +1,27 @@
+name: snapTotal-seq
+category: wet
+summary: One-step total-RNA single-cell RNA-seq that captures unspliced as well as spliced transcripts, enabling RNA-velocity
+  kinetic analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41467-024-50291-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Niu Y
+  last_author: Zong C
+  pmid: '39009595'
+  pmcid: PMC11251146
+  title: Single-cell total-RNA profiling unveils regulatory hubs of transcription factors
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: 'Here, we develop a one-step total-RNA chemistry-based single-cell RNA-seq method: snapTotal-seq.'

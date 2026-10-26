@@ -1,0 +1,25 @@
+name: Microbe-seq
+category: wet
+summary: Single microbes are encapsulated in droplets, their genomes amplified and barcoded, then sequenced to recover strain-resolved
+  genomes.
+readouts:
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1126/science.abm1483
+  year: 2022
+  journal: Science
+  first_author: Zheng W
+  last_author: Weitz DA
+  pmid: '35653470'
+  title: High-throughput, single-microbe genomics with strain resolution, applied to a human gut microbiome
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present Microbe-seq, a high-throughput method that yields the genomes of individual microbes from complex microbial
+  communities.

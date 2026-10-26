@@ -1,0 +1,29 @@
+name: s3-ATAC
+category: wet
+summary: Uracil-based symmetrical-strand adapter switching makes combinatorial-indexed transposase libraries yield far more
+  usable reads per cell.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41587-021-00962-z
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Mulqueen RM
+  last_author: Adey AC
+  pmid: '34226710'
+  pmcid: PMC8678206
+  title: High-content single-cell combinatorial indexing
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We develop symmetrical strand sci ('s3'), a uracil-based adapter switching approach that improves the rate of conversion
+  of source DNA into viable sequencing library fragments following tagmentation.

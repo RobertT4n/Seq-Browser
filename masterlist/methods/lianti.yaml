@@ -1,0 +1,26 @@
+name: LIANTI
+category: wet
+summary: Single-cell whole-genome amplification using transposon insertion and linear amplification, giving kilobase-resolution
+  copy-number profiles.
+readouts:
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.1126/science.aak9787
+  year: 2017
+  journal: Science
+  first_author: Chen C
+  last_author: Xie XS
+  pmid: '28408603'
+  pmcid: PMC5538131
+  title: Single-cell whole-genome analyses by Linear Amplification via Transposon Insertion (LIANTI)
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report an improved single-cell WGA method, Linear Amplification via Transposon Insertion (LIANTI), which
+  outperforms existing methods, enabling micro-CNV detection with kilobase resolution.

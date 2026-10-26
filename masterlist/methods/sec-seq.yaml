@@ -1,0 +1,28 @@
+name: SEC-seq
+category: wet
+summary: Hydrogel nanovials capture single cells with their secreted protein, which is tagged and linked to the cell transcriptome.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41565-023-01560-7
+  year: 2024
+  journal: Nat Nanotechnol
+  first_author: Udani S
+  last_author: Di Carlo D
+  pmid: '38082117'
+  pmcid: PMC11452923
+  title: Associating growth factor secretions and transcriptomes of single cells in nanovials using SEC-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, by developing and using secretion-encoded single-cell sequencing (SEC-seq), which exploits hydrogel particles
+  with subnanolitre cavities (nanovials) to capture individual cells and their secretions, we simultaneously measured the
+  secretion of vascular endothelial growth factor A (VEGF-A) and the transcriptome for thousands of individual mesenchymal
+  stromal cells.

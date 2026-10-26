@@ -1,0 +1,25 @@
+name: 10x Chromium 5' Immune Profiling Feature Barcoding
+category: wet
+summary: 5' gene expression plus antibody-oligo surface protein tags in one droplet workflow, with V(D)J receptor libraries
+  from the same cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- 10x-chromium-5-gene-expression
+builds_on:
+- 10x-chromium-single-cell-3-feature-barcoding
+reference:
+  url: https://support.10xgenomics.com/single-cell-vdj/overview/doc/getting-started-immune-profiling-feature-barcoding
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Vendor product page only; no paper introduces this kit. V(D)J receptor sequencing has no readout label in the taxonomy,
+  so it is not tagged.

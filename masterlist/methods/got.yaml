@@ -1,0 +1,31 @@
+name: GoT
+aliases:
+- Genotyping of Transcriptomes
+category: wet
+summary: Targeted amplification of mutation sites from droplet scRNA-seq cDNA links somatic genotype to transcriptional state
+  per cell.
+readouts:
+- rna
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1038/s41586-019-1367-0
+  year: 2019
+  journal: Nature
+  first_author: Nam AS
+  last_author: Landau DA
+  pmid: '31270458'
+  pmcid: PMC6782071
+  title: Somatic mutations and cell identity linked by Genotyping of Transcriptomes
+links: {}
+source: curator
+added: '2026-10-26'
+introduces:
+- dna-sequence

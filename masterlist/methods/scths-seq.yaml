@@ -1,0 +1,27 @@
+name: scTHS-seq
+category: wet
+summary: Transposome hypersensitive-site profiling of single nuclei, run at high throughput alongside droplet snDrop-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+builds_on:
+- scatac-seq
+reference:
+  doi: 10.1038/nbt.4038
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Lake BB
+  last_author: Zhang K
+  pmid: '29227469'
+  pmcid: PMC5951394
+  title: Integrative single-cell analysis of transcriptional and epigenetic states in the human adult brain
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we report improved high-throughput methods for single-nucleus Droplet-based sequencing (snDrop-seq) and single-cell
+  transposome hypersensitive site sequencing (scTHS-seq).

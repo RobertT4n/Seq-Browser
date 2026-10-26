@@ -1,0 +1,30 @@
+name: scifi-ATAC-seq
+category: wet
+summary: Barcoded Tn5 pre-indexing of nuclei before 10x droplet capture, multiplying scATAC throughput about 20-fold.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+- droplet-microfluidics
+builds_on:
+- 10x-chromium-single-cell-atac
+- sci-atac-seq
+reference:
+  doi: 10.1186/s13059-024-03235-5
+  year: 2024
+  journal: Genome Biol
+  first_author: Zhang X
+  last_author: Schmitz RJ
+  pmid: '38589969'
+  pmcid: PMC11003106
+  title: 'scifi-ATAC-seq: massive-scale single-cell chromatin accessibility sequencing using combinatorial fluidic indexing'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present a novel technique called scifi-ATAC-seq, single-cell combinatorial fluidic indexing ATAC-sequencing,
+  which combines a barcoded Tn5 pre-indexing step with droplet-based single-cell ATAC-seq using the 10X Genomics platform.

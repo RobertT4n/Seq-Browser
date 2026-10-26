@@ -1,0 +1,31 @@
+name: CRISPR-sciATAC
+category: wet
+summary: Pooled CRISPR perturbations read out by combinatorial-indexing scATAC-seq, linking each guide to chromatin accessibility
+  in the same cell.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+builds_on:
+- crop-seq
+reference:
+  doi: 10.1038/s41587-021-00902-x
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Liscovitch-Brauer N
+  last_author: Sanjana NE
+  pmid: '33927415'
+  pmcid: PMC8516442
+  title: Profiling the genetic determinants of chromatin accessibility with scalable single-cell CRISPR screens
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a CRISPR-based, single-cell combinatorial indexing assay for transposase-accessible chromatin (CRISPR-sciATAC)
+  to link genetic perturbations to genome-wide chromatin accessibility in a large number of cells.

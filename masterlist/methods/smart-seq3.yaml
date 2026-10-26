@@ -1,0 +1,28 @@
+name: Smart-seq3
+category: wet
+summary: Full-length single-cell RNA-seq with a 5' UMI in the template-switching oligo, so molecules can be counted and assigned
+  to alleles and isoforms.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- smart-seq2
+reference:
+  doi: 10.1038/s41587-020-0497-0
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Hagemann-Jensen M
+  last_author: Sandberg R
+  pmid: '32518404'
+  title: Single-cell RNA counting at allele and isoform resolution using Smart-seq3
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce Smart-seq3, which combines full-length transcriptome coverage with a 5' unique molecular identifier
+  RNA counting strategy that enables in silico reconstruction of thousands of RNA molecules per cell.

@@ -1,0 +1,32 @@
+name: scSLAM-seq
+category: wet
+summary: Single-cell SLAM-seq that uses thiol alkylation of 4sU-labeled RNA to separate new from old transcripts in each cell.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+variant_of:
+- slam-seq
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41586-019-1369-y
+  year: 2019
+  journal: Nature
+  first_author: Erhard F
+  last_author: Dölken L
+  pmid: '31292545'
+  title: scSLAM-seq reveals core features of transcription dynamics in single cells
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce single-cell, thiol-(SH)-linked alkylation of RNA for metabolic labelling sequencing (scSLAM-seq),
+  which integrates metabolic RNA labelling, biochemical nucleoside conversion and scRNA-seq to record transcriptional activity
+  directly by differentiating between new and old RNA for thousands of genes per single cell.

@@ -1,0 +1,26 @@
+name: inDrop
+category: wet
+summary: Barcoded beads co-encapsulated with single cells in droplets tag each cell's mRNA for transcriptome sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2015.04.044
+  year: 2015
+  journal: Cell
+  first_author: Klein AM
+  last_author: Kirschner MW
+  pmid: '26000487'
+  pmcid: PMC4441768
+  title: Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We have developed a high-throughput droplet-microfluidic approach for barcoding the RNA from thousands of individual
+  cells for subsequent analysis by next-generation sequencing.

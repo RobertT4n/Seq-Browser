@@ -1,0 +1,26 @@
+name: scSPRITE
+category: wet
+summary: Split-pool barcoding of crosslinked DNA within single nuclei to map multiway 3D genome contacts.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- split-pool-barcoding
+builds_on:
+- sprite
+reference:
+  doi: 10.1038/s41587-021-00998-1
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Arrastia MV
+  last_author: Guttman M
+  pmid: '34426703'
+  pmcid: PMC11588347
+  title: Single-cell measurement of higher-order 3D genome organization with scSPRITE
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: To address this, we developed 'single-cell split-pool recognition of interactions by tag extension' (scSPRITE).

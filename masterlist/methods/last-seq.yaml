@@ -1,0 +1,27 @@
+name: LAST-seq
+category: wet
+summary: Single-cell RNA-seq that linearly amplifies single-stranded RNA by T7 in vitro transcription, skipping reverse transcription
+  and second-strand synthesis before amplification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-023-03025-5
+  year: 2023
+  journal: Genome Biol
+  first_author: Lyu J
+  last_author: Chen C
+  pmid: '37559123'
+  pmcid: PMC10413806
+  title: 'LAST-seq: single-cell RNA sequencing by direct amplification of single-stranded RNA without prior reverse transcription
+    and second-strand synthesis'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop a new scRNA-seq method, Linearly Amplified Single-stranded-RNA-derived Transcriptome sequencing
+  (LAST-seq), which directly amplifies the original single-stranded RNA molecules without prior RT/SSS.

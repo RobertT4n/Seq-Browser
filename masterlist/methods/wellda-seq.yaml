@@ -1,0 +1,30 @@
+name: wellDA-seq
+category: wet
+summary: Dual-Tn5 tagmentation splits open and closed chromatin into ATAC and DNA libraries, with nanowell chip partitioning
+  to co-profile copy number and accessibility in single cells.
+readouts:
+- dna-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- microfluidic-chip
+builds_on:
+- scatac-seq
+introduces:
+- dna-sequence
+reference:
+  doi: 10.1101/2024.09.06.611519
+  year: 2024
+  journal: bioRxiv
+  first_author: Wang K
+  last_author: Navin N
+  title: Single cell genome and epigenome co-profiling reveals hardwiring and plasticity in breast cancer
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we report wellDA-seq, the first high-genomic resolution, high-throughput method that can simultaneously measure
+  the whole genome and chromatin accessibility profiles of thousands of single cells.

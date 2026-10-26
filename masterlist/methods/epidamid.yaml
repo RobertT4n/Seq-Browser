@@ -1,0 +1,32 @@
+name: EpiDamID
+category: wet
+summary: DamID fused to antibody or reader domains to map histone marks and transcription together in single cells.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- reverse-transcription
+builds_on:
+- scdam-and-t-seq
+introduces:
+- histone-modification
+reference:
+  doi: 10.1016/j.molcel.2022.03.009
+  year: 2022
+  journal: Mol Cell
+  first_author: Rang FJ
+  last_author: Kind J
+  pmid: '35366395'
+  pmcid: PMC9153956
+  title: Single-cell profiling of transcriptome and histone modifications with EpiDamID
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce EpiDamID, an experimental approach to target a diverse set of chromatin types by leveraging the
+  binding specificities of single-chain variable fragment antibodies, engineered chromatin reader domains, and endogenous
+  chromatin-binding proteins.

@@ -1,0 +1,35 @@
+name: scGET-seq
+category: wet
+summary: Single-cell hybrid transposase (Tn5 fused to a H3K9me3-binding chromodomain) that profiles open and closed chromatin
+  plus the genomic sequence in one assay.
+readouts:
+- chromatin-accessibility
+- histone-modification
+- dna-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+variant_of:
+- scatac-seq
+introduces:
+- histone-modification
+- dna-sequence
+reference:
+  doi: 10.1038/s41587-021-01031-1
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Tedesco M
+  last_author: Tonon G
+  pmid: '34635836'
+  title: Chromatin Velocity reveals epigenetic dynamics by single-cell profiling of heterochromatin and euchromatin
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We engineered a hybrid transposase including the chromodomain (CD) of the heterochromatin protein-1α (HP-1α), which
+  is involved in heterochromatin assembly and maintenance through its binding to trimethylation of the lysine 9 on histone
+  3 (H3K9me3), and developed a single-cell method, single-cell genome and epigenome by transposases sequencing (scGET-seq),
+  that, unlike single-cell assay for transposase-accessible chromatin with sequencing (scATAC-seq), comprehensively probes
+  both open and closed chromatin and concomitantly records the underlying genomic sequences.

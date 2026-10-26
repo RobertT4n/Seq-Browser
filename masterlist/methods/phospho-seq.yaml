@@ -1,0 +1,32 @@
+name: Phospho-seq
+category: wet
+summary: Antibody-based profiling of intracellular and phosphorylated proteins alongside scATAC-seq in the same single cells,
+  using DNA-conjugated antibodies.
+readouts:
+- protein
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+builds_on:
+- scatac-seq
+- cite-seq
+reference:
+  doi: 10.1038/s41467-025-56590-7
+  year: 2025
+  journal: Nat Commun
+  first_author: Blair JD
+  last_author: Satija R
+  pmid: '39905064'
+  pmcid: PMC11794950
+  title: 'Phospho-seq: integrated, multi-modal profiling of intracellular protein dynamics in single cells'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present Phospho-seq, an integrated approach that aims to quantify cytoplasmic and nuclear proteins, including
+  those with post-translational modifications, and to connect their activity with cis-regulatory elements and transcriptional
+  targets.

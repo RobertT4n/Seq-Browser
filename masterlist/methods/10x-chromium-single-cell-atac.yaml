@@ -1,0 +1,30 @@
+name: 10x Chromium Single Cell ATAC
+aliases:
+- Chromium scATAC
+category: wet
+summary: Droplet-based scATAC-seq in which nuclei are tagmented in bulk first, then each tagged nucleus is barcoded in a droplet.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- scatac-seq
+reference:
+  doi: 10.1038/s41587-019-0206-z
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Satpathy AT
+  last_author: Chang HY
+  pmid: '31375813'
+  pmcid: PMC7299161
+  title: Massively parallel single-cell chromatin landscapes of human immune cell development and intratumoral T cell exhaustion
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we assess the performance of a massively parallel droplet-based method for mapping transposase-accessible
+  chromatin in single cells using sequencing (scATAC-seq).

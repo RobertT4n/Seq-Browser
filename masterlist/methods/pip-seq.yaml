@@ -1,0 +1,27 @@
+name: PIP-seq
+category: wet
+summary: Particle-templated emulsification encapsulates single cells and barcodes cDNA in uniform droplets with only a vortexer,
+  avoiding microfluidic hardware.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1038/s41587-023-01685-z
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Clark IC
+  last_author: Abate AR
+  pmid: '36879006'
+  pmcid: PMC10635830
+  title: Microfluidics-free single-cell genomics with templated emulsification
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Our approach is based on particle-templated emulsification, which allows single-cell encapsulation and barcoding
+  of cDNA in uniform droplet emulsions with only a vortexer.

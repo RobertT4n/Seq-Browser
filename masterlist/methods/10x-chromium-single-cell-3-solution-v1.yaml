@@ -1,0 +1,28 @@
+name: 10x Chromium Single Cell 3' Solution v1
+category: wet
+summary: First commercial droplet 3' transcriptome kit, using barcoded gel beads and a microfluidic GemCode device to profile
+  tens of thousands of cells per run.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1038/ncomms14049
+  year: 2017
+  journal: Nat Commun
+  first_author: Zheng GX
+  last_author: Bielas JH
+  pmid: '28091601'
+  pmcid: PMC5241818
+  title: Massively parallel digital transcriptional profiling of single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We describe a droplet-based system that enables 3' mRNA counting of tens of thousands of single cells per sample.

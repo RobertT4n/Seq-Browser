@@ -1,0 +1,31 @@
+name: M3-seq
+category: wet
+summary: Single-cell RNA-seq for bacteria that combines in situ reverse transcription with combinatorial plate indexing and
+  post hoc rRNA depletion.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- plate-based
+- reverse-transcription
+builds_on:
+- sci-rna-seq
+reference:
+  doi: 10.1038/s41564-023-01462-3
+  year: 2023
+  journal: Nat Microbiol
+  first_author: Wang B
+  last_author: Gitai Z
+  pmid: '37653008'
+  pmcid: PMC10522482
+  title: Single-cell massively-parallel multiplexed microbial sequencing (M3-seq) identifies rare bacterial populations and
+    profiles phage infection
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we develop massively-parallel, multiplexed, microbial sequencing (M3-seq)-a single-cell RNA-sequencing platform
+  for bacteria that pairs combinatorial cell indexing with post hoc rRNA depletion.

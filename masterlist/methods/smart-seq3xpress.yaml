@@ -1,0 +1,28 @@
+name: Smart-seq3xpress
+category: wet
+summary: Miniaturised, streamlined Smart-seq3 with lower reagent use for high-throughput full-length single-cell RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- smart-seq3
+reference:
+  doi: 10.1038/s41587-022-01311-4
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Hagemann-Jensen M
+  last_author: Sandberg R
+  pmid: '35637418'
+  pmcid: PMC9546772
+  title: Scalable single-cell RNA sequencing from full transcripts with Smart-seq3xpress
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe Smart-seq3xpress, which miniaturizes and streamlines the Smart-seq3 protocol to substantially reduce
+  reagent use and increase cellular throughput.

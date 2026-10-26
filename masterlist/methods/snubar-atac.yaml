@@ -1,0 +1,30 @@
+name: SNuBar-ATAC
+category: wet
+summary: Single-oligo transposome barcoding during tagmentation lets scATAC-seq samples be multiplexed without a pre-labelling
+  step.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- scatac-seq
+reference:
+  doi: 10.1016/j.molcel.2021.09.026
+  year: 2021
+  journal: Mol Cell
+  first_author: Wang K
+  last_author: Navin NE
+  pmid: '34686316'
+  pmcid: PMC8611914
+  title: Simple oligonucleotide-based multiplexing of single-cell chromatin accessibility
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present a transposome-assisted single nucleus barcoding approach for ATAC-seq (SNuBar-ATAC) that utilizes
+  a single oligonucleotide adaptor for multiplexing samples during the existing tagmentation step and does not require a pre-labeling
+  procedure.

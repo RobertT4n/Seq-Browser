@@ -1,0 +1,28 @@
+name: VASA-seq
+category: wet
+summary: Total-RNA single-cell sequencing that fragments and tails all RNA after lysis, so non-polyadenylated and non-coding
+  transcripts are captured.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+- droplet-microfluidics
+reference:
+  doi: 10.1038/s41587-022-01361-8
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Salmen F
+  last_author: van Oudenaarden A
+  pmid: '35760914'
+  pmcid: PMC9750877
+  title: High-throughput total RNA sequencing in single cells using VASA-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We, therefore, developed VASA-seq to detect the total transcriptome in single cells, which is enabled by fragmenting
+  and tailing all RNA molecules subsequent to cell lysis.

@@ -1,0 +1,29 @@
+name: FLASH-seq
+category: wet
+summary: Shortened full-length scRNA-seq protocol derived from Smart-seq3 that removes intermediate purifications for faster,
+  more sensitive libraries.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+variant_of:
+- smart-seq3
+reference:
+  doi: 10.1038/s41587-022-01312-3
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Hahaut V
+  last_author: Picelli S
+  pmid: '35637419'
+  pmcid: PMC9546769
+  title: Fast and highly sensitive full-length single-cell RNA sequencing using FLASH-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: We present FLASH-seq (FS), a full-length single-cell RNA sequencing (scRNA-seq) method with increased sensitivity
+  and reduced hands-on time compared to Smart-seq3.

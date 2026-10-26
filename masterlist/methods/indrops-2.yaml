@@ -1,0 +1,30 @@
+name: inDrops-2
+category: wet
+summary: Open-source, lower-cost version of inDrops that profiles fresh or preserved cells with exponential or linear amplification
+  of barcoded cDNA.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+variant_of:
+- indrop
+reference:
+  doi: 10.1093/nar/gkae1312
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Juzenas S
+  last_author: Mazutis L
+  pmid: '39797728'
+  pmcid: PMC11724362
+  title: 'inDrops-2: a flexible, versatile and cost-efficient droplet microfluidic approach for high-throughput scRNA-seq
+    of fresh and preserved clinical samples'
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Herein, we present inDrops-2, an open-source scRNA-seq technology designed to profile live or preserved cells with
+  a sensitivity matching that of state-of-the-art commercial systems but at a 6-fold lower cost.

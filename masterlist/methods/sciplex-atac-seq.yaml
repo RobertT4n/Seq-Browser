@@ -1,0 +1,30 @@
+name: sciPlex-ATAC-seq
+category: wet
+summary: Combinatorial-indexing scATAC-seq in which unmodified DNA oligo hashes label each sample's nuclei, allowing many
+  specimens to be pooled in one run.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1186/s12864-023-09832-1
+  year: 2023
+  journal: BMC Genomics
+  first_author: Booth GT
+  last_author: Trapnell C
+  pmid: '38049719'
+  pmcid: PMC10696879
+  title: High-capacity sample multiplexing for single cell chromatin accessibility profiling
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe a novel approach, sciPlex-ATAC-seq, which uses unmodified DNA oligos as sample-specific nuclear
+  labels, enabling the concurrent profiling of chromatin accessibility within single nuclei from virtually unlimited specimens
+  or experimental conditions.

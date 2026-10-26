@@ -1,0 +1,25 @@
+name: sc-end5-seq
+category: wet
+summary: Single-cell RNA 5-prime-end sequencing that also detects transcribed enhancers and promoters from the same reads.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1101/2021.04.04.438388
+  year: 2021
+  journal: bioRxiv
+  first_author: Moody J
+  last_author: Hon C
+  title: Profiling of transcribed  <i>cis</i>  -regulatory elements in single cells
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: Here we demonstrate single-cell RNA-5′end-sequencing (sc-end5-seq) methods can detect transcribed CREs (tCREs),
+  enabling simultaneous quantification of gene expression and enhancer activities in a single assay at no extra cost.

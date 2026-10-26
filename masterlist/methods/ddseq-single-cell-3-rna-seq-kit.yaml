@@ -1,0 +1,19 @@
+name: ddSEQ Single-Cell 3' RNA-Seq Kit
+category: wet
+summary: Bio-Rad droplet 3' scRNA-seq kit for the ddSEQ instrument that uses deconvolution oligos to link beads that share
+  a droplet.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+reference:
+  url: https://www.bio-rad.com/3scRNA-seq
+links: {}
+source: scg_lib_structs
+added: '2026-10-26'
+needs_review: true
+evidence: No introducing paper found; commercial kit documented by the vendor product page in reference.url.

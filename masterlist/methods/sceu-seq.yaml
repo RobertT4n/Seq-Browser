@@ -1,0 +1,30 @@
+name: scEU-seq
+category: wet
+summary: Single-cell RNA-seq that labels nascent transcripts with 5-ethynyluridine and separates labeled from preexisting
+  mRNA to measure synthesis and degradation.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1126/science.aax3072
+  year: 2020
+  journal: Science
+  first_author: Battich N
+  last_author: van Oudenaarden A
+  pmid: '32139547'
+  title: Sequencing metabolically labeled transcripts in single cells reveals mRNA turnover strategies
+links: {}
+source: temporal-seed
+added: '2026-10-26'
+needs_review: true
+evidence: Therefore, we developed a method that simultaneously quantifies metabolically labeled and preexisting unlabeled
+  transcripts in thousands of individual cells.
