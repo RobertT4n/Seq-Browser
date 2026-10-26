@@ -15,13 +15,17 @@ import json
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from common import BIORXIV, get
 from fetch import fetch_journals, fetch_preprints
 from submissions import fetch_submissions
 from triage import triage
+
+
+def log(msg):
+    print(f"{datetime.now():%H:%M:%S}  {msg}", flush=True)
 
 
 def check_network():
@@ -46,20 +50,24 @@ def main():
         sys.exit("give --week or both --from and --to (YYYY-MM-DD)")
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     tag = f"step1_{a.start}_{a.end}"
+    log(f"Proc_step1 {a.start} -> {a.end} | out: {out} | threads: {a.threads}")
     check_network()
+    log("internet OK")
 
     t0, failures, counts = time.time(), [], {}
     recs = []
     for label, fn in (("preprints", lambda: fetch_preprints(a.start, a.end)), ("journals", lambda: fetch_journals(a.start, a.end)),
-                      ("submissions", fetch_submissions if a.week else lambda: [])):
+                      ("submissions", (lambda: fetch_submissions(str(out / "submissions_seen.json"))) if a.week else lambda: [])):
+        log(f"collecting {label} ...")
         try:
             got = fn()
         except Exception as e:
             got = []; failures.append(f"{label}: fetch failed: {type(e).__name__}: {e}")
         counts[label] = len(got); recs += got
-        print(f"[{tag}] {label}: {len(got)} records", flush=True)
+        log(f"  {label}: {len(got):,} records")
 
-    kept = []
+    log(f"triage: {len(recs):,} papers (abstract rules + full-text naming scan)")
+    kept, n_ft, last, t1 = [], 0, 0.0, time.time()
     with ThreadPoolExecutor(a.threads) as pool:
         futs = {pool.submit(triage, r): r for r in recs}
         for i, f in enumerate(as_completed(futs), 1):
@@ -68,16 +76,24 @@ def main():
                 t = f.result()
                 if t["flag"]:
                     kept.append(r | {"triage": t})
+                    n_ft += "fulltext-naming" in t["routes"]
+                    if "fulltext-naming" in t["routes"] and "abstract" not in t["routes"]:
+                        log(f"  + full-text-only hit: {', '.join(t['names'][:3])}  <- {r.get('title', '')[:70]}")
             except Exception as e:
                 failures.append(f"triage {r.get('id')}: {type(e).__name__}: {e}")
-            if i % 500 == 0:
-                print(f"[{tag}] triaged {i}/{len(recs)}, kept {len(kept)}", flush=True)
+            now = time.time()
+            if now - last > 30 or i == len(recs):  # heartbeat every ~30 s
+                rate = i / max(now - t1, 1e-6); eta = (len(recs) - i) / max(rate, 1e-6)
+                log(f"  {i:,}/{len(recs):,} ({100 * i / len(recs):.0f}%) | {rate * 60:.0f}/min | ETA {eta / 60:.0f} min | "
+                    f"kept {len(kept)} (full-text {n_ft}) | failures {len(failures)}")
+                last = now
 
     (out / f"{tag}.candidates.jsonl").write_text("".join(json.dumps(r) + "\n" for r in kept))
     summary = {"range": [a.start, a.end], "fetched": counts, "total": len(recs), "kept": len(kept),
                "routes": {k: sum(k in r["triage"]["routes"] for r in kept) for k in ("abstract", "fulltext-naming", "submitted")},
                "failures": failures, "minutes": round((time.time() - t0) / 60, 1)}
     (out / f"{tag}.summary.json").write_text(json.dumps(summary, indent=1))
+    log(f"DONE in {summary['minutes']} min: kept {len(kept)} of {len(recs):,} -> {tag}.candidates.jsonl")
     print(json.dumps(summary, indent=1))
     if failures:
         print(f"WARNING: {len(failures)} failures - see {tag}.summary.json", file=sys.stderr)
