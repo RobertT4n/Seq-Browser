@@ -1,0 +1,116 @@
+#Date: 2026-10-26
+#Purpose: Validate every masterlist entry against taxonomy.yaml, then generate the published outputs:
+#  METHODS.md (one LLM-readable table), docs/methods.json + docs/methods.csv (site + downloads), docs/llms.txt.
+#  Fails loudly (exit 1) on any invalid entry so a bad push never reaches the site.
+#Usage: python pipeline/build.py           # validate + write outputs
+#       python pipeline/build.py --check   # validate only (CI)
+#INPUT: masterlist/methods/*.yaml (one file per method), taxonomy.yaml
+
+import csv
+import json
+import sys
+from datetime import date
+
+import yaml
+
+from common import METHODS_DIR, ROOT, TAXONOMY, slug
+
+REQUIRED = ("name", "category", "summary", "readouts", "resolution", "scope", "chemistry", "reference")
+LIST_FIELDS = ("readouts", "resolution", "chemistry")
+REPO = "https://github.com/RobertT4n/Seq-Browser"
+RAW = "https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main"
+
+
+def load():
+    tax = yaml.safe_load(TAXONOMY.read_text())
+    entries, errors = [], []
+    for p in sorted(METHODS_DIR.glob("*.yaml")):
+        e = yaml.safe_load(p.read_text())
+        errs = [f"missing '{f}'" for f in REQUIRED if not e.get(f)]
+        if e.get("name") and slug(e["name"]) != p.stem:
+            errs.append(f"file name should be {slug(e['name'])}.yaml")
+        for f in LIST_FIELDS:
+            errs += [f"{f}: unknown value '{v}'" for v in e.get(f) or [] if v not in tax[f]]
+        for f in ("category", "scope"):
+            if e.get(f) and e[f] not in tax[f]:
+                errs.append(f"{f}: unknown value '{e[f]}'")
+        if not (e.get("reference") or {}).get("doi"):
+            errs.append("reference.doi missing (run pipeline/resolve_refs.py)")
+        errors += [f"{p.name}: {x}" for x in errs]
+        e["id"] = p.stem
+        entries.append(e)
+    known = {e["id"] for e in entries}
+    for e in entries:  # variant_of must point at an existing entry (warning only: parents may be added later)
+        for v in e.get("variant_of") or []:
+            if v not in known:
+                print(f"warning: {e['id']}.yaml variant_of '{v}' has no entry yet", file=sys.stderr)
+    return entries, errors
+
+
+def flat(e):
+    r = e["reference"]
+    return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
+            "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
+            "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []),
+            "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
+            "journal": r.get("journal"), "doi": r.get("doi"), "summary": e["summary"],
+            "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
+            "needs_review": e.get("needs_review")}
+
+
+def md_table(rows):
+    cols = ["Method", "Aliases", "Readouts", "Resolution", "Scope", "Chemistry", "Variant of", "Ref", "Summary"]
+    out = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
+    for f in rows:
+        ref = f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})"
+        cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["scope"], f["chemistry"],
+                 f["variant_of"], ref, f["summary"]]
+        out.append("| " + " | ".join(str(c or "").replace("|", "/") for c in cells) + " |")
+    return "\n".join(out)
+
+
+def write(entries):
+    rows = sorted((flat(e) for e in entries), key=lambda f: f["name"].lower())
+    wet, dry = [f for f in rows if f["category"] == "wet"], [f for f in rows if f["category"] == "dry"]
+    today = date.today().isoformat()
+    md = [f"# Seq-Browser masterlist",
+          f"",
+          f"Sequencing-based assays, one row per method. Updated {today}. {len(wet)} wet-lab methods"
+          + (f", {len(dry)} computational (under construction)." if dry else "."),
+          f"",
+          f"**For LLMs / tools:** this file is the complete database. Columns use a fixed vocabulary "
+          f"(see `taxonomy.yaml`). `Variant of` gives the parent method's id (lowercase-hyphenated name). "
+          f"Machine-readable copies: `docs/methods.json`, `docs/methods.csv`. Raw URL: {RAW}/METHODS.md",
+          f"",
+          f"## Wet-lab methods",
+          f"",
+          md_table(wet)]
+    if dry:
+        md += ["", "## Computational methods (under construction - not yet curated)", "", md_table(dry)]
+    (ROOT / "METHODS.md").write_text("\n".join(md) + "\n")
+    docs = ROOT / "docs"
+    docs.mkdir(exist_ok=True)
+    (docs / "methods.json").write_text(json.dumps({"updated": today, "methods": rows}, indent=1))
+    with (docs / "methods.csv").open("w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    (docs / "llms.txt").write_text(
+        "# Seq-Browser\n\n> A curated, continuously updated table of sequencing-based assays (bulk, single-cell, spatial), "
+        "tagged by readout, resolution, scope and chemistry, with variant-of links and primary references.\n\n"
+        f"- [Full masterlist (Markdown table)]({RAW}/METHODS.md): the whole database in one file\n"
+        f"- [methods.json]({RAW}/docs/methods.json): same data, machine-readable\n"
+        f"- [Label vocabulary]({RAW}/taxonomy.yaml): allowed values for every tag\n"
+        f"- [Repository]({REPO})\n")
+    return len(wet), len(dry)
+
+
+if __name__ == "__main__":
+    entries, errors = load()
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        sys.exit(f"{len(errors)} problem(s) in masterlist - nothing written")
+    if "--check" in sys.argv:
+        print(f"{len(entries)} entries valid")
+    else:
+        print("wrote METHODS.md, docs/methods.json, docs/methods.csv, docs/llms.txt (%d wet, %d dry)" % write(entries))

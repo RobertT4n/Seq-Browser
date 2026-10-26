@@ -1,0 +1,48 @@
+# Controlled vocabulary for masterlist entries. build.py rejects any value not listed here,
+# so adding a new label = adding it here first (keeps tags consistent across hundreds of entries).
+
+category:            # wet = new assay/protocol; dry = new computational method (dry list is "under construction")
+  - wet
+  - dry
+
+readouts:            # what molecular layer the assay measures
+  - 3d-genome
+  - chromatin-accessibility
+  - histone-modification
+  - protein-dna-binding     # TF / chromatin-protein occupancy
+  - dna-methylation
+  - rna
+  - nascent-rna
+  - protein
+  - dna-sequence            # genome / copy number / SVs
+  - replication-timing
+  - lineage
+
+resolution:
+  - bulk
+  - single-cell
+  - spatial
+  - subcellular
+
+scope:
+  - genome-wide
+  - targeted                # capture / viewpoint / region-restricted
+
+chemistry:           # key molecular steps; an assay usually has several
+  - proximity-ligation
+  - restriction-digest
+  - mnase
+  - tn5
+  - antibody-pull-down      # ChIP-style IP
+  - antibody-tethered-enzyme  # CUT&Tag / CUT&RUN style
+  - oligo-capture
+  - bisulfite-or-enzymatic-conversion
+  - nucleotide-labeling     # EdU, 4sU, ...
+  - split-pool-barcoding
+  - combinatorial-indexing
+  - droplet-microfluidics
+  - plate-based
+  - cryosectioning
+  - imaging-guided-selection
+  - long-read-sequencing
+  - facs-sorting

@@ -1,0 +1,24 @@
+name: ChIA-PET
+category: wet
+summary: Chromatin interactions anchored at sites bound by a chosen protein, via ChIP plus paired-end-tag ligation.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+reference:
+  doi: 10.1038/nature08497
+  year: 2009
+  journal: Nature
+  first_author: Fullwood MJ
+  last_author: Ruan Y
+  pmid: '19890323'
+  pmcid: PMC2774924
+  title: An oestrogen-receptor-alpha-bound human chromatin interactome
+links: {}
+source: seed
+added: '2026-10-26'

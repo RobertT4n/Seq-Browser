@@ -1,0 +1,30 @@
+name: ECHOS
+aliases:
+- ECHOS+
+- Epigenetic CUT&Tag via High-resolution Optical Selection
+category: wet
+summary: CUT&Tag on optically selected regions of tissue or nuclei, giving spatially targeted epigenomic profiles down to
+  sub-micron scale.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry:
+- antibody-tethered-enzyme
+- imaging-guided-selection
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.64898/2026.03.26.714421
+  year: 2026
+  journal: bioRxiv
+  first_author: Cao Q
+  last_author: Chen H
+  title: ECHOS enables spatial epigenome profiling at subcellular resolution
+links: {}
+source: seed
+added: '2026-10-26'
+needs_review: scope/resolution labels inferred from abstract

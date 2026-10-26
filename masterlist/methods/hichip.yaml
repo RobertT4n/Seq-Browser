@@ -1,0 +1,28 @@
+name: HiChIP
+category: wet
+summary: In situ Hi-C followed by ChIP and Tn5 library prep to enrich protein-anchored contacts from low input.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- antibody-pull-down
+- tn5
+variant_of:
+- in-situ-hi-c
+reference:
+  doi: 10.1038/nmeth.3999
+  year: 2016
+  journal: Nat Methods
+  first_author: Mumbach MR
+  last_author: Chang HY
+  pmid: '27643841'
+  pmcid: PMC5501173
+  title: 'HiChIP: efficient and sensitive analysis of protein-directed genome architecture'
+links: {}
+source: seed
+added: '2026-10-26'

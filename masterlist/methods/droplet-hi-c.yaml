@@ -1,0 +1,28 @@
+name: Droplet Hi-C
+category: wet
+summary: In situ Hi-C followed by droplet barcoding on a commercial 10x scATAC kit for tens of thousands of cells per run.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- droplet-microfluidics
+- facs-sorting
+variant_of:
+- in-situ-hi-c
+reference:
+  doi: 10.1038/s41587-024-02447-1
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Chang L
+  last_author: Ren B
+  pmid: '39424717'
+  pmcid: PMC12520981
+  title: Droplet Hi-C enables scalable, single-cell profiling of chromatin architecture in heterogeneous tissues
+links: {}
+source: seed
+added: '2026-10-26'

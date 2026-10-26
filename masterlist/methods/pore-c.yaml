@@ -1,0 +1,23 @@
+name: Pore-C
+category: wet
+summary: Chromatin conformation capture with nanopore reads of full concatemers, capturing multi-way contacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41587-022-01289-z
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Deshpande AS
+  last_author: Imieliński M
+  pmid: '35637420'
+  title: Identifying synergistic high-order 3D chromatin conformations from genome-scale nanopore concatemer sequencing
+links: {}
+source: seed
+added: '2026-10-26'

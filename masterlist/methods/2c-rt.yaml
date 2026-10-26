@@ -1,0 +1,23 @@
+name: 2C-RT
+category: wet
+summary: Replication timing from EdU-labelled S-phase cells sorted by a cell-cycle marker and DNA content, with multiplexed
+  EdU-seq.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- facs-sorting
+reference:
+  doi: 10.64898/2026.10.09.758048
+  year: 2026
+  journal: bioRxiv
+  first_author: Urien B
+  last_author: Lemmens B
+  title: 2C-RT Quantifies Genome-Wide DNA Replication Perturbations and Redefines RIF1-CDC7 Regulation of Replication Timing
+links: {}
+source: seed
+added: '2026-10-26'
+needs_review: labels inferred from Fig. 2 only; confirm chemistry

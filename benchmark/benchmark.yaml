@@ -1,0 +1,41 @@
+# Hold-out set for scoring triage (and later the language-model classifier). Add every tricky paper you meet.
+#   expect.triage      : should the free triage step pass it on? (true for anything the classifier must see)
+#   expect.new_method  : does the paper introduce a new sequencing-based method?
+#   expect.category    : wet | dry (only when new_method is true)
+#   expect.methods     : names the pipeline must extract (case-insensitive match)
+#   where_named        : title | abstract | fulltext - why this case is hard
+
+- doi: 10.64898/2026.06.02.729594
+  note: "SeqTag - title gives no hint; method named only in the abstract"
+  where_named: abstract
+  expect: {triage: true, new_method: true, category: wet, methods: [SeqTag]}
+
+- doi: 10.64898/2026.03.26.714421
+  note: "ECHOS - named in the title"
+  where_named: title
+  expect: {triage: true, new_method: true, category: wet, methods: [ECHOS]}
+
+- doi: 10.64898/2026.10.09.758048
+  note: "2C-RT - named in the title"
+  where_named: title
+  expect: {triage: true, new_method: true, category: wet, methods: [2C-RT]}
+
+- doi: 10.1038/s41467-023-40981-9
+  note: "TOPmentation - abstract is about MLL-AF4 biology; method named only in Results ('an approach we call TOPmentation')"
+  where_named: fulltext
+  expect: {triage: true, new_method: true, category: wet, methods: [TOPmentation]}
+
+- doi: 10.1038/s41587-024-02447-1
+  note: "Droplet Hi-C in title; second method Paired Hi-C hinted in abstract but named only in Results"
+  where_named: fulltext
+  expect: {triage: true, new_method: true, category: wet, methods: [Droplet Hi-C, Paired Hi-C]}
+
+- doi: 10.64898/2026.09.28.755067
+  note: "tRNAZAP - new method, but computational (dry); must be tagged dry, not wet"
+  where_named: title
+  expect: {triage: true, new_method: true, category: dry, methods: [tRNAZAP]}
+
+- doi: 10.64898/2026.10.09.756816
+  note: "Salmon gill study - USES spatial transcriptomics, invents nothing; classifier must reject (triage may pass it)"
+  where_named: none
+  expect: {triage: null, new_method: false, methods: []}

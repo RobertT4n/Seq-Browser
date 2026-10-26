@@ -1,0 +1,26 @@
+name: sci-Hi-C
+category: wet
+summary: Single-cell Hi-C scaled to thousands of cells by combinatorial cellular indexing.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- combinatorial-indexing
+variant_of:
+- single-cell-hi-c
+reference:
+  doi: 10.1038/nmeth.4155
+  year: 2017
+  journal: Nat Methods
+  first_author: Ramani V
+  last_author: Shendure J
+  pmid: '28135255'
+  pmcid: PMC5330809
+  title: Massively multiplex single-cell Hi-C
+links: {}
+source: seed
+added: '2026-10-26'

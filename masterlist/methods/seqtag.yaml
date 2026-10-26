@@ -1,0 +1,25 @@
+name: SeqTag
+category: wet
+summary: Single-cell multiomics jointly profiling transcriptome, chromatin accessibility and histone modifications. Named
+  in the abstract only, not the title.
+readouts:
+- rna
+- chromatin-accessibility
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+reference:
+  doi: 10.64898/2026.06.02.729594
+  year: 2026
+  journal: bioRxiv
+  first_author: Fu B
+  last_author: Zhu C
+  title: The molecular asynchrony of single cells
+links: {}
+source: seed
+added: '2026-10-26'
+needs_review: chemistry tags are a guess; confirm against the protocol

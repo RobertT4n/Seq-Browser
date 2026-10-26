@@ -1,0 +1,23 @@
+name: ATAC-seq
+category: wet
+summary: Tn5 transposase inserts sequencing adapters into accessible chromatin.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.1038/nmeth.2688
+  year: 2013
+  journal: Nat Methods
+  first_author: Buenrostro JD
+  last_author: Greenleaf WJ
+  pmid: '24097267'
+  pmcid: PMC3959825
+  title: Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins
+    and nucleosome position
+links: {}
+source: seed
+added: '2026-10-26'

@@ -1,0 +1,28 @@
+name: Paired-Tag
+category: wet
+summary: Antibody-guided Tn5 tagmentation plus combinatorial indexing for joint histone-mark and transcriptome profiles per
+  nucleus.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- combinatorial-indexing
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41592-021-01060-3
+  year: 2021
+  journal: Nat Methods
+  first_author: Zhu C
+  last_author: Ren B
+  pmid: '33589836'
+  pmcid: PMC7954905
+  title: Joint profiling of histone modifications and transcriptome in single cells from mouse brain
+links: {}
+source: seed
+added: '2026-10-26'

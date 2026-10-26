@@ -1,0 +1,25 @@
+name: Micro-C
+category: wet
+summary: Hi-C variant using MNase instead of restriction enzymes for nucleosome-resolution contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+- proximity-ligation
+variant_of:
+- hi-c
+reference:
+  doi: 10.1016/j.cell.2015.05.048
+  year: 2015
+  journal: Cell
+  first_author: Hsieh TH
+  last_author: Rando OJ
+  pmid: '26119342'
+  pmcid: PMC4509605
+  title: Mapping Nucleosome Resolution Chromosome Folding in Yeast by Micro-C
+links: {}
+source: seed
+added: '2026-10-26'

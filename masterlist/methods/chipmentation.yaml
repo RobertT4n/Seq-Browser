@@ -1,0 +1,24 @@
+name: ChIPmentation
+category: wet
+summary: ChIP-seq with Tn5 tagmentation of bead-bound chromatin for fast, low-input library prep.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- tn5
+reference:
+  doi: 10.1038/nmeth.3542
+  year: 2015
+  journal: Nat Methods
+  first_author: Schmidl C
+  last_author: Bock C
+  pmid: '26280331'
+  pmcid: PMC4589892
+  title: 'ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors'
+links: {}
+source: seed
+added: '2026-10-26'

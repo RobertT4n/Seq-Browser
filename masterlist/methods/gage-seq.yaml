@@ -1,0 +1,25 @@
+name: GAGE-seq
+category: wet
+summary: Combinatorial-indexing joint profiling of chromatin conformation and transcriptome in single cells.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- combinatorial-indexing
+reference:
+  doi: 10.1038/s41588-024-01745-3
+  year: 2024
+  journal: Nat Genet
+  first_author: Zhou T
+  last_author: Ma J
+  pmid: '38744973'
+  pmcid: PMC11323187
+  title: GAGE-seq concurrently profiles multiscale 3D genome organization and gene expression in single cells
+links: {}
+source: seed
+added: '2026-10-26'

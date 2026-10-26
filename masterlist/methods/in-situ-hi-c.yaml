@@ -1,0 +1,25 @@
+name: in situ Hi-C
+category: wet
+summary: Hi-C with digestion and ligation performed in intact nuclei, giving kilobase-resolution maps and loop calls.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+variant_of:
+- hi-c
+reference:
+  doi: 10.1016/j.cell.2014.11.021
+  year: 2014
+  journal: Cell
+  first_author: Rao SS
+  last_author: Aiden EL
+  pmid: '25497547'
+  pmcid: PMC5635824
+  title: A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping
+links: {}
+source: seed
+added: '2026-10-26'

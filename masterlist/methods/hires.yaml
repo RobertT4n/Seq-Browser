@@ -1,0 +1,25 @@
+name: HiRES
+category: wet
+summary: Simultaneous single-cell Hi-C and RNA-seq from the same cell.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- plate-based
+reference:
+  doi: 10.1126/science.adg3797
+  year: 2023
+  journal: Science
+  first_author: Liu Z
+  last_author: Xing D
+  pmid: '37289875'
+  title: Linking genome structures to functions by simultaneous single-cell Hi-C and RNA-seq
+links: {}
+source: seed
+added: '2026-10-26'

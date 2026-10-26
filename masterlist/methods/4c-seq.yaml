@@ -1,0 +1,22 @@
+name: 4C-seq
+category: wet
+summary: Inverse-PCR from a single viewpoint to sequence all of its ligation partners (one-vs-all).
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+reference:
+  doi: 10.1038/nmeth.2173
+  year: 2012
+  journal: Nat Methods
+  first_author: van de Werken HJ
+  last_author: de Laat W
+  pmid: '22961246'
+  title: Robust 4C-seq data analysis to screen for regulatory DNA interactions
+links: {}
+source: seed
+added: '2026-10-26'

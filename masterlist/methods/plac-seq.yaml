@@ -1,0 +1,27 @@
+name: PLAC-seq
+category: wet
+summary: Proximity ligation in nuclei followed by ChIP to capture contacts anchored at marked or bound regions.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- antibody-pull-down
+variant_of:
+- in-situ-hi-c
+reference:
+  doi: 10.1038/cr.2016.137
+  year: 2016
+  journal: Cell Res
+  first_author: Fang R
+  last_author: Ren B
+  pmid: '27886167'
+  pmcid: PMC5143423
+  title: Mapping of long-range chromatin interactions by proximity ligation-assisted ChIP-seq
+links: {}
+source: seed
+added: '2026-10-26'

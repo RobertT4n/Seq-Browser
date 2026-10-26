@@ -1,0 +1,29 @@
+name: TOPmentation
+aliases:
+- Transcription factor-OPtimized ChIPmentation
+category: wet
+summary: Optimised high-throughput ChIPmentation for weakly bound non-histone proteins from ~100,000 cells. Named only in
+  the Results section.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- tn5
+variant_of:
+- chipmentation
+reference:
+  doi: 10.1038/s41467-023-40981-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Crump NT
+  last_author: Milne TA
+  pmid: '37626123'
+  pmcid: PMC10457349
+  title: MLL-AF4 cooperates with PAF1 and FACT to drive high-density enhancer interactions in leukemia
+links: {}
+source: seed
+added: '2026-10-26'

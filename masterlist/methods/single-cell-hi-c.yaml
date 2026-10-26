@@ -1,0 +1,28 @@
+name: single-cell Hi-C
+aliases:
+- scHi-C
+category: wet
+summary: Hi-C performed in individually isolated nuclei to measure contacts in single cells.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- plate-based
+variant_of:
+- hi-c
+reference:
+  doi: 10.1038/nature12593
+  year: 2013
+  journal: Nature
+  first_author: Nagano T
+  last_author: Fraser P
+  pmid: '24067610'
+  pmcid: PMC3869051
+  title: Single-cell Hi-C reveals cell-to-cell variability in chromosome structure
+links: {}
+source: seed
+added: '2026-10-26'

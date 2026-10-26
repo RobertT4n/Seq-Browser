@@ -1,0 +1,26 @@
+name: Methyl-HiC
+category: wet
+summary: In situ Hi-C combined with bisulfite conversion to read contacts and methylation together.
+readouts:
+- 3d-genome
+- dna-methylation
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41592-019-0502-z
+  year: 2019
+  journal: Nat Methods
+  first_author: Li G
+  last_author: Ren B
+  pmid: '31384045'
+  pmcid: PMC6765429
+  title: Joint profiling of DNA methylation and chromatin architecture in single cells
+links: {}
+source: seed
+added: '2026-10-26'

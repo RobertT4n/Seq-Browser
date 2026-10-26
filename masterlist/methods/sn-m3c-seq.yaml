@@ -1,0 +1,27 @@
+name: sn-m3C-seq
+category: wet
+summary: Joint chromatin conformation and DNA methylome from the same single nucleus via bisulfite conversion of 3C libraries.
+readouts:
+- 3d-genome
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- bisulfite-or-enzymatic-conversion
+- plate-based
+- facs-sorting
+reference:
+  doi: 10.1038/s41592-019-0547-z
+  year: 2019
+  journal: Nat Methods
+  first_author: Lee DS
+  last_author: Ecker JR
+  pmid: '31501549'
+  pmcid: PMC6765423
+  title: Simultaneous profiling of 3D genome structure and DNA methylation in single human cells
+links: {}
+source: seed
+added: '2026-10-26'

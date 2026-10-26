@@ -1,0 +1,25 @@
+name: scNanoHi-C
+category: wet
+summary: Single-cell Hi-C read on nanopore so whole ligation concatemers (multi-way contacts) are sequenced.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- long-read-sequencing
+- plate-based
+reference:
+  doi: 10.1038/s41592-023-01978-w
+  year: 2023
+  journal: Nat Methods
+  first_author: Li W
+  last_author: Tang F
+  pmid: '37640936'
+  title: 'scNanoHi-C: a single-cell long-read concatemer sequencing method to reveal high-order chromatin structures within
+    individual cells'
+links: {}
+source: seed
+added: '2026-10-26'

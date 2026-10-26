@@ -1,0 +1,27 @@
+name: Dip-C
+category: wet
+summary: Single-cell Hi-C with transposon-based whole-genome amplification and haplotype imputation for diploid 3D structures.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- plate-based
+variant_of:
+- single-cell-hi-c
+reference:
+  doi: 10.1126/science.aat5641
+  year: 2018
+  journal: Science
+  first_author: Tan L
+  last_author: Xie XS
+  pmid: '30166492'
+  pmcid: PMC6360088
+  title: Three-dimensional genome structures of single diploid human cells
+links: {}
+source: seed
+added: '2026-10-26'

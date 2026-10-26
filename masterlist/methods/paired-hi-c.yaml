@@ -1,0 +1,30 @@
+name: Paired Hi-C
+category: wet
+summary: Droplet Hi-C adapted to the 10x Multiome kit to profile chromatin conformation and transcriptome from the same nucleus.
+  Introduced in the Results section, not the abstract.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- droplet-microfluidics
+- facs-sorting
+variant_of:
+- droplet-hi-c
+reference:
+  doi: 10.1038/s41587-024-02447-1
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Chang L
+  last_author: Ren B
+  pmid: '39424717'
+  pmcid: PMC12520981
+  title: Droplet Hi-C enables scalable, single-cell profiling of chromatin architecture in heterogeneous tissues
+links: {}
+source: seed
+added: '2026-10-26'

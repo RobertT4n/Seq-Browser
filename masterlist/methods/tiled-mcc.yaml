@@ -1,0 +1,29 @@
+name: Tiled-MCC
+aliases:
+- Tiled Micro-Capture-C
+category: wet
+summary: Micro-Capture-C with oligos tiled across a whole region, giving all-vs-all contacts within the captured locus.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- mnase
+- proximity-ligation
+- oligo-capture
+variant_of:
+- micro-capture-c
+reference:
+  doi: 10.1038/s41467-022-29696-5
+  year: 2022
+  journal: Nat Commun
+  first_author: Aljahani A
+  last_author: Oudelaar AM
+  pmid: '35440598'
+  pmcid: PMC9019034
+  title: Analysis of sub-kilobase chromatin topology reveals nano-scale regulatory interactions with variable dependence on
+    cohesin and CTCF
+links: {}
+source: seed
+added: '2026-10-26'

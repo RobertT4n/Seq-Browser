@@ -1,0 +1,24 @@
+name: Paired-seq
+category: wet
+summary: Combinatorial-indexing joint profiling of chromatin accessibility and transcriptome in single nuclei.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+reference:
+  doi: 10.1038/s41594-019-0323-x
+  year: 2019
+  journal: Nat Struct Mol Biol
+  first_author: Zhu C
+  last_author: Ren B
+  pmid: '31695190'
+  pmcid: PMC7231560
+  title: An ultra high-throughput method for single-cell joint analysis of open chromatin and transcriptome
+links: {}
+source: seed
+added: '2026-10-26'

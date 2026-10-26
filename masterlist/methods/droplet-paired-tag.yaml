@@ -1,0 +1,27 @@
+name: Droplet Paired-Tag
+category: wet
+summary: Paired-Tag chemistry moved onto commercial droplet microfluidics for higher throughput and simpler workflow.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- droplet-microfluidics
+variant_of:
+- paired-tag
+reference:
+  doi: 10.1038/s41594-023-01060-1
+  year: 2023
+  journal: Nat Struct Mol Biol
+  first_author: Xie Y
+  last_author: Ren B
+  pmid: '37563440'
+  pmcid: PMC10584685
+  title: Droplet-based single-cell joint profiling of histone modifications and transcriptomes
+links: {}
+source: seed
+added: '2026-10-26'
