@@ -1,0 +1,27 @@
+name: Pheno2Seq
+category: wet
+summary: Images fluorescently stained individual organisms, then links the selected individuals to single-cell transcriptomes
+  to identify candidate genes for life-cycle stages.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.64898/2026.10.21.760831
+  year: 2026
+  journal: bioRxiv
+  first_author: Sterner EG
+  last_author: Katz LA
+  title: Elucidating changes in gene expression driving nuclear dynamics across a foraminiferal life cycle with Pheno2Seq
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: To address this gap, we developed a method, Pheno2Seq, that enables visualization of fluorescently-stained individuals
+  followed by identification of candidate genes through single-cell transcriptome analyses.

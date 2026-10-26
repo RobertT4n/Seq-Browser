@@ -1,0 +1,23 @@
+name: XplainTDA
+category: dry
+summary: Explainable topological data analysis framework that uses perturbation to identify the molecular determinants of
+  persistent-homology structure in single-cell data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.14.759129
+  year: 2026
+  journal: bioRxiv
+  first_author: Giray I
+  last_author: Colomé-Tatché M
+  title: 'XplainTDA: Explaining the topological structure of single-cell multi-omics data through perturbation'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce an explainable topological data analysis framework for single-cell data (XplainTDA) that identifies
+  molecular determinants underlying the topological structure of the data via a perturbation-based approach.

@@ -1,0 +1,23 @@
+name: LRP2
+category: dry
+summary: Nextflow pipeline that combines long-read RNA isoform discovery, protein prediction and DDA/DIA mass-spec evidence
+  for isoform-level proteogenomics.
+readouts:
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag790
+  year: 2026
+  journal: Bioinformatics
+  first_author: Schertzer MD
+  last_author: Sheynkman G
+  pmid: '42922195'
+  title: 'LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present LRP2, a modular, end-to-end long-read proteogenomics pipeline built in Nextflow.

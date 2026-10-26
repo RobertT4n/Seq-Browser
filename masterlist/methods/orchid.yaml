@@ -1,0 +1,23 @@
+name: ORCHID
+category: dry
+summary: Bioinformatic pipeline for hantavirus genomes that performs reference-guided assembly, variant calling and defective
+  viral genome classification from long-read amplicon data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760236
+  year: 2026
+  journal: bioRxiv
+  first_author: Vandenabeele L
+  last_author: Nilsson-Payant BE
+  title: An ONT sequencing framework for hantavirus genome assembly, variant analysis, and defective viral genome characterization
+    from whole-segment amplicons
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We also developed an accompanying bioinformatic pipeline that performs reference-guided assembly of hantavirus genomes,
+  consensus generation, variant calling, and DVG classification using the newly developed ORCHID classification pipeline.

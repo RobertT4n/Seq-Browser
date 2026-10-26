@@ -1,0 +1,24 @@
+name: Carbon-A
+aliases:
+- Carbon-Annotator
+category: dry
+summary: Single-checkpoint encoder model that annotates protein-coding genes directly from eukaryotic genomic sequence.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.20.760448
+  year: 2026
+  journal: bioRxiv
+  first_author: Channing G
+  last_author: Li Q
+  title: 'Carbon-A: Unified Genome Annotation across Eukaryotic Diversity'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We introduce Carbon-Annotator (Carbon-A), a 1.2-billion-parameter encoder model that uses a single checkpoint to
+  annotate protein-coding genes directly from genomic sequences across the breadth of eukaryotic diversity, including mammals,
+  other vertebrates, invertebrates, plants, fungi, and protozoa.

@@ -1,0 +1,26 @@
+name: CellDEEP
+aliases:
+- Cell DiffErential Expression by Pooling
+category: dry
+summary: Differential-expression framework for single-cell RNA-seq that aggregates cells into metacells with configurable
+  pooling before testing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag128
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Cheng Y
+  last_author: Somma D
+  pmid: '42909367'
+  pmcid: PMC13684280
+  title: Cell DiffErential Expression by Pooling (CellDEEP) highlights issues in differential gene expression in scRNA-seq
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: To overcome the noise and bias that other tools have, and allow the user to have more control of the DEG process,
+  we present CellDEEP, which uses a cell aggregation (metacell) approach.

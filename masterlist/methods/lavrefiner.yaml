@@ -1,0 +1,24 @@
+name: LAVrefiner
+category: dry
+summary: Sequence-aware refinement of overlapping structural variants and indels into non-overlapping components, with motif-aware
+  tandem-repeat copy-number estimation, for SNP-style association analysis.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.282617.126
+  year: 2026
+  journal: Genome Res
+  first_author: Xia X
+  last_author: Ye S
+  pmid: '42907153'
+  title: Refining indel- and structural variant-trait associations with LAVrefiner
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present LAVrefiner, a scalable, sequence-aware method that decomposes overlapping sequence-resolved SVs
+  and indels into nonoverlapping refined sequence components and generates genotype matrices compatible with standard SNP-based
+  analyses.

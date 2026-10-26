@@ -1,0 +1,23 @@
+name: TACTIC
+category: dry
+summary: 16S rRNA amplicon analysis tool offering hybrid post-denoising clustering strategies (Taxonomy-Informed and Taxonomy-Agnostic
+  Clustering) to reduce within-species splitting of zOTUs.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.17.759814
+  year: 2026
+  journal: bioRxiv
+  first_author: Pourjam M
+  last_author: Lagkouvardos I
+  title: 'TACTIC: hybrid denoising and clustering for robust 16S amplicon diversity estimates'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: 'We introduce TACTIC, a 16S rRNA amplicon analysis tool that offers operational taxonomic unit (OTU) clustering
+  (UPARSE) and zOTU inference (UNOISE3), as well as two hybrid post-denoising clustering strategies that overcome the limitations
+  of each approach: Taxonomy-Informed Clustering (TIC) and Taxonomy-Agnostic Clustering (TAC).'

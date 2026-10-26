@@ -1,0 +1,26 @@
+name: CDGE
+aliases:
+- conditional differential gene expression analysis
+category: dry
+summary: Knockoff-based conditional differential expression test (GhostKnockoff with lasso) that separates genes with direct
+  effects on a trait from genes whose association is mediated by co-expression.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag784
+  year: 2026
+  journal: Bioinformatics
+  first_author: Gu J
+  last_author: He Z
+  pmid: '42900517'
+  title: Distilling Direct Effects via Conditional Differential Gene Expression Analysis
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: To distinguish direct effect genes, we introduce conditional differential gene expression (CDGE) analysis, a framework
+  that tests for conditional rather than marginal association between each gene and the trait of interest.

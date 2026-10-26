@@ -1,0 +1,28 @@
+name: SPIE-seq
+aliases:
+- Synthetic Perturbation by Inserted Enhancer
+category: wet
+summary: piggyBac insertion of enhancers into clonal lines, read out by allele-specific RNA-seq to map enhancer-promoter target
+  choice.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- rna-seq
+reference:
+  doi: 10.64898/2026.10.23.761042
+  year: 2026
+  journal: bioRxiv
+  first_author: Valgardson J
+  last_author: Wysocka J
+  title: Regulation by partition predicts enhancer target selection in mammalian genomes
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce SPIE-seq (Synthetic Perturbation by Inserted Enhancer), which pairs piggyBac-mediated enhancer
+  insertion with an allele-specific readout of cis-regulatory effects on expression.

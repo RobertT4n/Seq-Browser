@@ -42,6 +42,8 @@ def main():
     ap.add_argument("--from", dest="start"); ap.add_argument("--to", dest="end")
     ap.add_argument("--out", required=True)
     ap.add_argument("--threads", type=int, default=8, help="parallel full-text downloads (keep modest: public APIs)")
+    ap.add_argument("--strict", action="store_true",
+                    help="backfill mode: keep only papers where a method-like NAME was extracted (cuts Proc_step2 load ~6x)")
     a = ap.parse_args()
     if a.week:
         end = date.today(); start = end - timedelta(days=6)
@@ -49,7 +51,7 @@ def main():
     if not (a.start and a.end):
         sys.exit("give --week or both --from and --to (YYYY-MM-DD)")
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
-    tag = f"step1_{a.start}_{a.end}"
+    tag = f"step1_{a.start}_{a.end}" + ("_strict" if a.strict else "")
     log(f"Proc_step1 {a.start} -> {a.end} | out: {out} | threads: {a.threads}")
     check_network()
     log("internet OK")
@@ -74,7 +76,9 @@ def main():
             r = futs[f]
             try:
                 t = f.result()
-                if t["flag"]:
+                # strict (backfill): keep only papers where the extractor found a method-shaped name (it already requires an
+                # internal capital, digit, hyphen or &), plus all user submissions
+                if t["flag"] and (not a.strict or r.get("submitted") or t["names"]):
                     kept.append(r | {"triage": t})
                     n_ft += "fulltext-naming" in t["routes"]
                     if "fulltext-naming" in t["routes"] and "abstract" not in t["routes"]:

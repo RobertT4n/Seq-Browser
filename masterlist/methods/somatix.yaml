@@ -1,0 +1,23 @@
+name: SomatiX
+category: dry
+summary: Deep-learning caller for somatic SNVs from matched tumor-normal long-read DNA sequencing, using an allele-aware pileup
+  representation.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag792
+  year: 2026
+  journal: Bioinformatics
+  first_author: Liu Z
+  last_author: Liu Z
+  pmid: '42928626'
+  title: 'SomatiX: accurate and efficient somatic SNV detection from matched tumor-normal long-read DNA sequencing. '
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present SomatiX, a deep-learning method for somatic SNV detection from matched tumor-normal long-read DNA sequencing
+  data, built on an allele-aware pileup representation.

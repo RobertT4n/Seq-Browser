@@ -1,0 +1,23 @@
+name: GOLDEN
+category: dry
+summary: Allele-aware multitask network that deconvolves spatial transcriptomic spots into target and nontarget fractions
+  to resolve interindividual genetic heterogeneity.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.18.759920
+  year: 2026
+  journal: bioRxiv
+  first_author: Lee S
+  last_author: Paik H
+  title: 'GOLDEN: Gene expression and allele-informed decomposition for genetic heterogeneity in spatial transcriptomic data'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: For deciphering interindividual heterogeneity in ST, we developed GOLDEN (Gene expressiOn and aLlele-informed DEcomposition
+  for geNetic heterogeneity), which involves an allele-aware multitask network that encodes spot-level expressions into shared
+  latent representations.

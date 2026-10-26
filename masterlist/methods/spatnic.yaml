@@ -1,0 +1,24 @@
+name: SPATNIC
+category: dry
+summary: Variational autoencoder that classifies single cells as cancer or normal from their transcriptomes, trained on pathologist-labelled
+  H&E-matched Xenium cells.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.21.760612
+  year: 2026
+  journal: bioRxiv
+  first_author: Sakai SA
+  last_author: Yamashita R
+  title: SPATNIC enables H&E-grounded cancer-cell identification across spatial and single-cell transcriptomic modalities
+    in colorectal cancer
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present SPATNIC, a variational autoencoder that classifies individual cells as cancer or normal, trained
+  on Xenium cells labeled by a pathologist review of matched H&E images.

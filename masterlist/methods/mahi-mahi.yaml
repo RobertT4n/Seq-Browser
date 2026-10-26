@@ -1,0 +1,22 @@
+name: Mahi-mahi
+category: dry
+summary: Tandem repeat genotyper for nanopore reads that reports allele-level repeat length, motif composition and interruptions
+  at disease-associated repeat loci.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.16.26365781
+  year: 2026
+  journal: medRxiv
+  first_author: Gibson SB
+  last_author: Rescheneder P
+  title: Accurate repeat expansion genotyping from whole-genome and real-time targeted nanopore sequencing with Mahi-mahi
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present Mahi-mahi, a tandem repeat genotyper designed for nanopore reads that reports allele-level repeat
+  length, motif composition, interruptions, and read-level flags for systematic basecalling artifacts.

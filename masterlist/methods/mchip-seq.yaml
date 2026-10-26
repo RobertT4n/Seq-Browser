@@ -1,0 +1,28 @@
+name: mChIP-seq
+category: wet
+summary: Multiplexed ChIP-seq that indexes samples in one step and pools them before splitting, so many histone marks and
+  samples are profiled together; extended to cell-free nucleosomes (cf-mChIP-seq).
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+builds_on:
+- chip-seq
+reference:
+  doi: 10.1016/j.crmeth.2026.101641
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Sun C
+  last_author: Xu W
+  pmid: '42913642'
+  title: mChIP-seq for multiplex epigenomic profiling uncovers cancer-specific histone features in cellular and circulating
+    nucleosomes
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present multiplexed chromatin immunoprecipitation sequencing (mChIP-seq), a technology compatible with
+  both cellular and cell-free samples for simultaneously profiling multifactorial epigenetic landscapes on multiple samples.

@@ -1,0 +1,22 @@
+name: hEVO
+category: dry
+summary: Genomic foundation model trained on human haplotypes reconstructed from WGS data, for scoring variants and genome
+  function.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760276
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu Q
+  last_author: Li MJ
+  title: A genomic foundation model for interpreting human genetic diversity
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present hEVO, a genomic foundation model trained on 4.784 billion distinct haplotype sequences reconstructed
+  from whole genome sequencing (WGS) data for 63,809 individuals selected from 550,237 samples across eight cohorts.

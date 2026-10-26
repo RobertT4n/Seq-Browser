@@ -1,0 +1,23 @@
+name: isCORAL
+category: dry
+summary: In silico lineage-tracing method that infers clonal relationships and fate maps from transcriptome snapshots using
+  heritable memory genes, extended to spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760045
+  year: 2026
+  journal: bioRxiv
+  first_author: Lin Y
+  last_author: Lin Y
+  title: 'Virtual lineages: in silico lineage tracing from single-cell and spatial transcriptomes'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce isCORAL, an in silico lineage-tracing framework that reconstructs clonal relationships and maps
+  cell-fate dynamics from transcriptome snapshots alone.

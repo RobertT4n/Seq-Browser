@@ -1,0 +1,29 @@
+name: scEM-seq
+category: wet
+summary: Droplet-based single-cell enzymatic DNA methylome sequencing, with barcode ligation done inside the emulsion and
+  enzymatic (TET-based) conversion after emulsion breaking.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- droplet-microfluidics
+reference:
+  doi: 10.1126/sciadv.aef2844
+  year: 2026
+  journal: Sci Adv
+  first_author: Li G
+  last_author: Ci W
+  pmid: '42913020'
+  pmcid: PMC13693690
+  title: High-throughput droplet-based enzymatic DNA methylome profiling enables single-cell resolution of epigenetic heterogeneity
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present scEM-seq, a droplet-based single-cell enzymatic methylome sequencing method that integrates barcode
+  ligation within a single emulsification step, followed by postemulsion cytosine-to-uracil conversion.
+builds_on:
+- scbs-seq

@@ -1,0 +1,22 @@
+name: RP-DMM
+category: dry
+summary: Replicate-aware ridge-penalized Dirichlet-multinomial test for comparing mutation spectra from error-corrected sequencing
+  data, with a rank-permutation alternative for sparse data.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760182
+  year: 2026
+  journal: bioRxiv
+  first_author: Williams A
+  last_author: Marchetti F
+  title: A robust mutation spectrum analysis framework for high-depth error-corrected sequencing data
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present a replicate-aware Ridge-Penalized Dirichlet-Multinomial (RP-DMM) framework that models biological replicates
+  directly and accounts for overdispersion.

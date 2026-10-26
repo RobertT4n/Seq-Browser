@@ -10,9 +10,21 @@ import sys
 
 import yaml
 
-from common import METHODS_DIR, epmc_lookup
+from common import BIORXIV, METHODS_DIR, epmc_lookup, get
 
-FIELDS = ("doi", "year", "journal", "first_author", "last_author", "pmid", "pmcid", "title")
+FIELDS = ("doi", "year", "journal", "first_author", "last_author", "pmid", "pmcid", "title")  # preprint_doi etc. are kept as-is
+
+
+def biorxiv_lookup(doi):
+    """bioRxiv/medRxiv record shaped like a Europe PMC hit (title, authors, year, journal)."""
+    for server in ("biorxiv", "medrxiv"):
+        c = get(f"{BIORXIV}/details/{server}/{doi}").get("collection") or []
+        if c:
+            r = c[0]
+            return {"doi": doi, "title": r["title"], "pubYear": r["date"][:4], "source": "PPR",
+                    "journalTitle": "bioRxiv" if server == "biorxiv" else "medRxiv",
+                    "authorString": ", ".join(a.strip() for a in r["authors"].split(";") if a.strip())}
+    return None
 
 
 def resolve(path):
@@ -23,6 +35,8 @@ def resolve(path):
     if ref.get("url") and not ref.get("doi") and not ref.get("title"):
         return "url-only reference (kit with no paper) - nothing to resolve"
     hit = epmc_lookup(doi=ref.get("doi"), title=None if ref.get("doi") else ref.get("title"))
+    if not hit and (ref.get("doi") or "").startswith(("10.1101/", "10.64898/")):
+        hit = biorxiv_lookup(ref["doi"])  # brand-new preprints reach Europe PMC days-weeks after bioRxiv
     if not hit:
         return "NOT FOUND - check reference.title / reference.doi by hand"
     norm = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>", "", t or "").lower())

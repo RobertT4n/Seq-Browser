@@ -1,0 +1,23 @@
+name: ONT-LibQC
+category: dry
+summary: Shallow Oxford Nanopore sequencing (a few thousand reads) to QC CUT&RUN and Micro-C libraries for adapters, fragment
+  sizes and biological enrichment before deep sequencing.
+readouts:
+- histone-modification
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760194
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu H
+  last_author: Kim JJ
+  title: 'ONT-LibQC: rapid quality control of chromatin assay libraries using shallow nanopore sequencing'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present ONT-LibQC, a workflow that uses a few thousand Oxford Nanopore Technologies (ONT) sequencing reads
+  to examine finished libraries before deep sequencing.

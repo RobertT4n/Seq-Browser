@@ -27,7 +27,7 @@ def load():
     entries, errors = [], []
     for p in sorted(METHODS_DIR.glob("*.yaml")):
         e = yaml.safe_load(p.read_text())
-        errs = [f"missing '{f}'" for f in REQUIRED if not e.get(f)]
+        errs = [f"missing '{f}'" for f in REQUIRED if not e.get(f) and not (f == "chemistry" and e.get("category") == "dry")]
         if e.get("name") and slug(e["name"]) != p.stem:
             errs.append(f"file name should be {slug(e['name'])}.yaml")
         for f in LIST_FIELDS:
@@ -108,7 +108,7 @@ def flat(e, cites, children, tax):
             "domains": "; ".join(dict.fromkeys(tax["readouts"][x] for x in e["readouts"])),
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
             "temporal": "; ".join(e.get("temporal") or []),
-            "chemistry": "; ".join(e["chemistry"]), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
+            "chemistry": "; ".join(e.get("chemistry") or []), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
             "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "url": r.get("url"), "citations": (cites.get(e["id"]) or {}).get("count"),

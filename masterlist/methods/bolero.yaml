@@ -1,0 +1,24 @@
+name: Bolero
+category: dry
+summary: Sequence-to-function model conditioned on cell-state embeddings that predicts cell-state-specific chromatin accessibility
+  and transcript abundance from DNA sequence.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760026
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu H
+  last_author: Greenberg ME
+  title: Predicting cell-state-specific gene regulation from DNA across species
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We developed Bolero, a sequence-to-function model whose parameters condition on atlas-scale cell-state embeddings
+  and additional biological variables to predict cell-state-specific chromatin accessibility and transcript abundance from
+  DNA.

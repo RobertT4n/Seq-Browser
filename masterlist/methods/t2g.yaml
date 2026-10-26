@@ -1,0 +1,22 @@
+name: T2G
+category: dry
+summary: Converts complete BAM files from transcriptome to genome coordinates while keeping CIGAR strings, tags and RNA modification
+  calls.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.20.760397
+  year: 2026
+  journal: bioRxiv
+  first_author: Rudler DL
+  last_author: Shirokikh NE
+  title: 'T2G: fast and accurate transcriptome to genome BAM liftover for short and long read RNA sequencing'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we describe T2G, which converts complete BAM files from transcriptome to genome coordinates while keeping CIGAR
+  strings, alignment tags and per-base RNA modification calls intact.

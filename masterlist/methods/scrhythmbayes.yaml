@@ -1,0 +1,24 @@
+name: scRhythmBayes
+category: dry
+summary: Probabilistic algorithm that infers cell-level circadian phase and gene-level rhythm-state changes from single-cell
+  transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.64898/2026.10.18.759931
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang
+  last_author: P
+  title: Decoding Cell-level Circadian Phase and Rhythm-state Remodeling in Single-cell Transcriptomes With scRhythmBayes
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present scRhythmBayes, a new probabilistic algorithm for phase-resolved circadian analysis in heterogeneous
+  single-cell transcriptomes.

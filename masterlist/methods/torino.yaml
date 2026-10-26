@@ -1,0 +1,22 @@
+name: Torino
+category: dry
+summary: Non-negative matrix factorization of read coverage across samples to find annotation-free RNA processing patterns
+  such as intron retention.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.21.760529
+  year: 2026
+  journal: bioRxiv
+  first_author: Buen Abad Najar CF
+  last_author: Li Y
+  title: Reference-free isoform discovery links unannotated RNA processing to disease risk
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce Torino, a computational framework that learns patterns of RNA processing directly from population-scale
+  RNA sequencing data

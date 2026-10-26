@@ -1,0 +1,23 @@
+name: rpMeta
+aliases:
+- RNA protein meta-analysis
+category: dry
+summary: R package that jointly calls differentially expressed genes from paired RNA-seq and proteomics by meta-analysis.
+readouts:
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.15.758995
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang X
+  last_author: Wilkerson MD
+  title: Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: To integrate RNA and proteomics, we developed a new method, RNA protein meta-analysis called rpMeta.

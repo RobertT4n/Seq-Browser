@@ -1,0 +1,20 @@
+name: biHash
+category: dry
+summary: Bisulfite-aware rolling k-mer hashing that maps bisulfite-compatible sequence variants to the same hash.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760264
+  year: 2026
+  journal: bioRxiv
+  first_author: wong j
+  last_author: Birol I
+  title: 'biHash: bisulfite-aware recursive nucleotide hashing'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present biHash, a rolling hash algorithm tailored for bisulfite-sequenced data.

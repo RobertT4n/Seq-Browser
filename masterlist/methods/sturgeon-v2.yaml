@@ -1,0 +1,22 @@
+name: Sturgeon V2
+category: dry
+summary: Locally executable CNS tumour classifier for sparse nanopore methylation profiles, retrained on relabeled public
+  reference data with a redesigned architecture.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.26365910
+  year: 2026
+  journal: medRxiv
+  first_author: Vermeulen C
+  last_author: de Ridder J
+  title: 'Sturgeon V2: a clinically applicable CNS tumor classifier trained on relabeled data'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present Sturgeon V2, trained on nearly 10,000 methylation profiles assembled from a range of public repositories
+  and collaborations.

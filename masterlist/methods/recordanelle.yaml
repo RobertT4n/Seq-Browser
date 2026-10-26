@@ -1,0 +1,29 @@
+name: Recordanelle
+category: wet
+summary: Single-component synthetic organelle anchored to mitochondria that sequesters and protects a broad fraction of endogenous
+  mRNAs over days, so transcriptome-wide single-cell RNA histories can be read out later.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41587-026-03327-6
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Reinkemeier CD
+  last_author: Platt RJ
+  pmid: '42907534'
+  title: Recordanelles for transcriptome-wide single-cell RNA recording in human cells
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce the 'recordanelle', a single-component synthetic organelle capable of recording the transcriptome
+  in human cells.

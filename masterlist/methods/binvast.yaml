@@ -1,0 +1,24 @@
+name: BiNVaST
+category: dry
+summary: Dual-branch variational autoencoder with synthetic reference simulation for niche-aware cell typing across high-resolution
+  spatial transcriptomics platforms.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.15.759369
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang J
+  last_author: Li Q
+  title: 'BiNVaST: niche boundary-preserving and synthetic data-guided variational autoencoders for concordant inference across
+    high-resolution spatial transcriptomic platforms'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present BiNVaST, a niche boundary-preserving and dual-branch variational autoencoder fused with statistical
+  simulator for reliable cell typing across multiple spatial platforms.

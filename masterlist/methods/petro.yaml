@@ -1,0 +1,22 @@
+name: PETRO
+category: dry
+summary: Statistical estimator for on-target Perturb-seq effects that tolerates an unknown minority of guides with off-target
+  effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.15.759256
+  year: 2026
+  journal: bioRxiv
+  first_author: Sun Z
+  last_author: Keleş S
+  title: PETRO enables robust estimation of on-target perturbation effects in Perturb-seq
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present PETRO, which recovers the on-target perturbation effect while allowing, for each outcome, an unknown
+  minority of guides to have arbitrary off-target effects.

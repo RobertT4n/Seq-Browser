@@ -17,15 +17,20 @@ builds_on:
 - single-cell-rna-seq
 - nome-seq
 reference:
-  doi: 10.1101/2019.12.11.873398
-  year: 2019
-  journal: bioRxiv
+  doi: 10.1016/j.xgen.2022.100107
+  year: 2022
+  journal: Cell Genom
   first_author: Luo C
   last_author: Ecker JR
-  title: Single nucleus multi-omics links human cortical cell regulatory genome diversity to disease risk variants
+  pmid: '35419551'
+  pmcid: PMC9004682
+  title: Single nucleus multi-omics identifies human cortical cell regulatory genome diversity
+  preprint_doi: 10.1101/2019.12.11.873398
 links: {}
 source: scg_lib_structs
 added: '2026-10-26'
 needs_review: true
 evidence: To comprehensively assess the molecular phenotypes of single cells in tissues, we devised single-nucleus methylCytosine,
   Chromatin accessibility and Transcriptome sequencing (snmC2T-seq) and applied it to post-mortem human frontal cortex tissue.
+aliases:
+- snmCAT-seq

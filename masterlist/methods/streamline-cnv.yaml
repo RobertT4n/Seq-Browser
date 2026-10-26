@@ -1,0 +1,24 @@
+name: Streamline CNV
+aliases:
+- SLCNV
+category: dry
+summary: Nextflow/Docker pipeline for low-pass WGS copy-number analysis, from QC and CNV calling to segmentation, clustering
+  and plots.
+readouts:
+- dna-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.18.753004
+  year: 2026
+  journal: bioRxiv
+  first_author: Ma D
+  last_author: Su XA
+  title: Streamline CNV - A Handy Nextflow Pipeline for Chromosomal Copy Number Variation Analysis
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we developed Streamline CNV (SLCNV) - a user-friendly and flexible copy number analysis pipeline

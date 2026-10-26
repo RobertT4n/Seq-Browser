@@ -1,0 +1,22 @@
+name: LoCoFlow
+category: dry
+summary: Flow-matching framework for single-cell trajectory and fate inference that uses local patch geometry and conditional
+  fate uncertainty.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.15.758594
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu C
+  last_author: Lan X
+  title: 'LoCoFlow: Local-Context Flow Matching for Single-Cell Dynamics and Fate Inference'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We introduce LoCoFlow, a flow-matching framework that combines local point-cloud geometry with conditional fate
+  uncertainty.

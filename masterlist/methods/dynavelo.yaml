@@ -1,0 +1,25 @@
+name: DynaVelo
+category: dry
+summary: Generative neural ODE model that learns joint gene-expression and TF-motif-activity dynamics from single-cell multiome
+  data and supports in silico perturbation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-026-03348-1
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Karbalayghareh A
+  last_author: Leslie CS
+  pmid: '42907533'
+  title: Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B
+    cells
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present DynaVelo, a generative neural ordinary differential equation model that learns the joint dynamics
+  of gene expression and transcription factor (TF) motif activity from single-cell multiome data.

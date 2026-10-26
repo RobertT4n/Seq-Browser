@@ -1,0 +1,25 @@
+name: scGlycoAI
+category: dry
+summary: Interpretable hierarchical machine-learning framework that classifies cell types and infers malignancy-associated
+  glycan states from single-cell glycan and RNA sequencing (scGR-seq) data.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/glycob/cwag100
+  year: 2026
+  journal: Glycobiology
+  first_author: Anh DXT
+  last_author: Tateno H
+  pmid: '42925266'
+  title: 'scGlycoAI: Machine learning analysis of single-cell glycan and RNA sequencing data for cell-type annotation and
+    malignancy-associated glycan discovery'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present scGlycoAI, an interpretable machine learning framework that integrates scGR-seq data for glycan-centered
+  biological discovery.

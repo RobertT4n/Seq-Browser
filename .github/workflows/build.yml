@@ -29,7 +29,7 @@ jobs:
       - run: pip install --no-deps -r requirements.txt
       - name: Refresh citation counts (weekly run only)
         if: github.event_name != 'push'
-        run: python pipeline/update_citations.py
+        run: python pipeline/update_published.py && python pipeline/resolve_refs.py && python pipeline/update_citations.py
       - run: python pipeline/build.py   # fails the run (and publishes nothing) if any entry is invalid
       - name: Commit generated files
         run: |

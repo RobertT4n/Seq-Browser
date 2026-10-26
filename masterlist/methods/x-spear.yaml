@@ -1,0 +1,22 @@
+name: X-SPEAR
+category: dry
+summary: Framework that selects targeted spatial transcriptomics gene panels with DART Boolean gene rules trained on detection-aware
+  reference data, plus probe-level off-target assessment.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.13.756865
+  year: 2026
+  journal: bioRxiv
+  first_author: Patel R
+  last_author: Cheng Y
+  title: 'X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present X-SPEAR, a framework that couples DART marker selection with probe-level off-target assessment.

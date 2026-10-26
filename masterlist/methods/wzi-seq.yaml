@@ -1,0 +1,26 @@
+name: wzi-Seq
+category: wet
+summary: Amplicon sequencing of the Klebsiella capsule gene wzi, used as a molecular barcode to detect and quantify strains
+  in mixed samples.
+readouts:
+- lineage
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/msphere.00329-26
+  year: 2026
+  journal: mSphere
+  first_author: Unverdorben LV
+  last_author: Bachman MA
+  pmid: '42910930'
+  title: A novel technique to characterize &lt;i&gt;Klebsiella pneumoniae&lt;/i&gt; populations indicates that mono-colonization
+    is associated with risk of infection
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: In this study, we developed an amplicon-based sequencing method called wzi-Seq that enables the detection and quantification
+  of Klebsiella strains from complex samples and mixtures using the conserved capsule gene wzi as a molecular barcode.
+chemistry:
+- amplicon-pcr

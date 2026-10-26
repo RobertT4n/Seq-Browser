@@ -1,0 +1,29 @@
+name: Micro-C-TALE
+category: wet
+summary: Micro-C combined with BAC-probe-based targeted enrichment (C-TALE) for high-resolution 3D chromatin contact maps
+  of selected regions.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- mnase
+- proximity-ligation
+- oligo-capture
+variant_of:
+- micro-c
+builds_on:
+- capture-c
+reference:
+  doi: 10.64898/2026.10.21.760768
+  year: 2026
+  journal: bioRxiv
+  first_author: Golberg A
+  last_author: Kaplan N
+  title: 'Micro-C-TALE: BAC-based targeted high-resolution measurement of 3D chromatin interactions'
+links: {}
+source: weekly-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce Micro-C-TALE, a new chromosome conformation capture method that combines Micro-C
