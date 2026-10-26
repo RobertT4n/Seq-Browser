@@ -10,6 +10,10 @@ scope: genome-wide
 chemistry:
 - antibody-pull-down
 - tn5
+variant_of:
+- chip-seq
+builds_on:
+- atac-seq
 reference:
   doi: 10.1038/nmeth.3542
   year: 2015

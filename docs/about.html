@@ -18,7 +18,7 @@
 <header>
   <img src="logo.png" alt="">
   <div><h1>Seq-Browser</h1><p>How the catalogue is built.</p></div>
-  <nav><a href="index.html">Table</a><a href="analysis.html">Analysis</a><a href="about.html" aria-current="page">About</a></nav>
+  <nav><a href="index.html">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html" aria-current="page">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <main>
   <div class="flow"><img src="flow.png" alt="Thousands of sequencing papers per week from journals and bioRxiv are web-scraped, filtered and classified into a curated, organised list: LLM-friendly format and an intuitive web browser."></div>
@@ -41,15 +41,16 @@
       <dt>Resolution</dt><dd>Bulk, single-cell, spatial or subcellular.</dd>
       <dt>Scope</dt><dd>Genomic coverage: genome-wide, or targeted to chosen loci (capture, viewpoints). Selecting a place in a tissue is resolution, not scope.</dd>
       <dt>Chemistry</dt><dd>Key molecular steps: proximity ligation, MNase, Tn5, antibody-tethered enzymes, droplets&hellip;</dd>
-      <dt>Variant of</dt><dd>The parent method(s), e.g. RCMC &rarr; Micro-C.</dd>
+      <dt>Variant of</dt><dd>A direct modification of a parent method, e.g. RCMC &rarr; Micro-C.</dd>
+      <dt>Builds on</dt><dd>Combines or draws on other methods, e.g. SHARE-seq builds on scRNA-seq and scATAC-seq.</dd>
     </dl>
     <p>Computational methods are being collected and will appear once curated.</p>
 
     <h2>Using it with an LLM</h2>
     <p>Point your assistant at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a>, which is the whole database in one file, or at <a href="llms.txt">llms.txt</a>. It won't need to search the web.</p>
 
-    <h2>Contribute</h2>
-    <p>Missing a method or spotted a wrong label? Open an issue or pull request on <a href="https://github.com/RobertT4n/Seq-Browser">GitHub</a>. Each method is one small YAML file in <code>masterlist/methods/</code>.</p>
+    <h2>Missing a method?</h2>
+    <p>Use the <a href="submit.html">Submit</a> page. Submissions skip the automatic filter, are checked three times by the classifier before anything is discarded, and are reviewed by a curator before being added.</p>
   </div>
 </main>
 </body>

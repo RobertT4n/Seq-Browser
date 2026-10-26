@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seq-Browser Family Tree</title>
+<meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* this page is always dark: the graph is designed for it */
+  :root { --bg:#0b0e1a; --panel:#121628; --ink:#e6e8f2; --muted:#8a90ab; --rule:#232946; --accent:#9085e9; --chip:#1a1f36;
+          --f3d:#3987e5; --fepi:#d95926; --ftx:#199e70; --edge:#4a5277; }
+  body { background:radial-gradient(1200px 700px at 30% 20%, #141a33 0%, var(--bg) 60%); min-height:100vh; }
+  header img { filter:brightness(1.05); }
+  .legend { display:flex; flex-wrap:wrap; gap:6px 20px; align-items:center; color:var(--muted); font-size:13px; margin:10px 0 4px; }
+  .legend span { display:inline-flex; align-items:center; gap:7px; }
+  .sw { width:12px; height:12px; border-radius:50%; border:2px solid; box-shadow:0 0 8px currentColor; }
+  .ln { width:26px; height:0; border-top:2px solid var(--muted); } .ln.d { border-top-style:dashed; }
+  .hint { color:var(--muted); font-size:13px; margin-left:auto; }
+  #wrap { position:relative; margin-top:8px; border:1px solid var(--rule); border-radius:12px; overflow:hidden;
+          background:linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,0)); }
+  #g { display:block; width:100%; height:calc(100vh - 210px); min-height:520px; cursor:grab; }
+  #g:active { cursor:grabbing; }
+  .band-label { fill:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase; opacity:.7; }
+  .year line { stroke:#1b2140; } .year text { fill:var(--muted); font-size:11px; }
+  .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; transition:opacity .15s, stroke .15s; }
+  .edge.b { stroke-dasharray:4 4; }
+  .node .core { fill:#0f1324; stroke-width:2; }
+  .node .halo { fill:none; stroke-width:1; stroke-dasharray:3 4; opacity:.55; transform-box:fill-box; transform-origin:center; animation:spin 40s linear infinite; }
+  .node text { fill:var(--ink); font-size:13px; font-weight:500; paint-order:stroke; stroke:var(--bg); stroke-width:4px; stroke-linejoin:round; pointer-events:none; }
+  .node { cursor:pointer; transition:opacity .15s; }
+  svg.focus .node:not(.on) { opacity:.16; } svg.focus .edge:not(.on) { opacity:.06; }
+  svg.focus .edge.on { stroke:#e6e8f2; opacity:.95; stroke-width:1.8; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .node .halo { animation:none; } }
+  #tip { max-width:280px; line-height:1.4; }
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="">
+  <div><h1>Seq-Browser</h1><p>How sequencing methods descend from one another.</p></div>
+  <nav><a href="index.html">Table</a><a href="family.html" aria-current="page">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
+</header>
+<main>
+  <div class="legend">
+    <span><i class="sw" style="color:var(--f3d);border-color:var(--f3d)"></i>3D genome</span>
+    <span><i class="sw" style="color:var(--fepi);border-color:var(--fepi)"></i>Epigenome (accessibility, histone, binding, methylation)</span>
+    <span><i class="sw" style="color:var(--ftx);border-color:var(--ftx)"></i>Transcriptome</span>
+    <span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span><span>size = citations</span>
+    <span class="hint">Hover to trace a lineage · click to open · scroll to zoom</span>
+  </div>
+  <div id="wrap"><svg id="g" role="img" aria-label="Family graph of sequencing methods"></svg></div>
+</main>
+<div id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const FAM = {"3d": {c: "var(--f3d)", label: "3D genome", band: 0}, epi: {c: "var(--fepi)", label: "Epigenome", band: 1}, tx: {c: "var(--ftx)", label: "Transcriptome", band: 2}};
+const famOf = r => r === "3d-genome" ? "3d" : (r === "rna" || r === "nascent-rna") ? "tx" : "epi";
+const split = s => (s || "").split("; ").filter(Boolean);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tip = document.getElementById("tip");
+
+fetch("methods.json").then(r => r.json()).then(({methods}) => {
+  const nodes = methods.filter(m => m.category === "wet" && m.year).map(m => ({...m, fams: [...new Set(split(m.readouts).map(famOf))]
+    .sort((a, b) => FAM[a].band - FAM[b].band)}));
+  const byId = new Map(nodes.map(n => [n.id, n]));
+  const links = nodes.flatMap(n => [...split(n.variant_of).map(p => ({p, c: n.id, kind: "v"})), ...split(n.builds_on).map(p => ({p, c: n.id, kind: "b"}))])
+    .filter(l => byId.has(l.p));
+
+  const svg = d3.select("#g"), W = Math.max(document.getElementById("wrap").clientWidth, 900), H = Math.max(document.getElementById("g").clientHeight, 520);
+  const years = d3.extent(nodes, d => d.year), x = d3.scaleLinear().domain([years[0] - 1, years[1] + 1]).range([70, W * 1.2 - 140]);
+  const bandY = b => 80 + b * (H * 1.5 - 140) / 2;
+  const r = d3.scaleSqrt().domain([0, d3.max(nodes, d => d.citations || 0)]).range([6, 24]);
+  nodes.forEach(n => { n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0); n.ty = d3.mean(n.fams, f => bandY(FAM[f].band)); n.x = x(n.year); n.y = n.ty + (Math.random() - .5) * 40; });
+
+  // node + its right-hand label as a box; overlapping boxes are pushed apart vertically (x stays pinned to year)
+  function labelBoxes(alpha) {
+    const box = n => [n.x - n.r - 4, n.x + n.r + n.lw, Math.max(n.r, 9) + 4];
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j], [ax0, ax1, ah] = box(a), [bx0, bx1, bh] = box(b);
+      if (ax1 < bx0 || bx1 < ax0) continue;
+      const dy = b.y - a.y, need = ah + bh;
+      if (Math.abs(dy) < need) { const push = (need - Math.abs(dy)) / 2 * alpha * 1.6, s = dy >= 0 ? 1 : -1; a.y -= push * s; b.y += push * s; }
+    }
+  }
+  // static layout: x pinned to year, y pulled to the family band(s), collisions keep nodes and labels apart
+  const sim = d3.forceSimulation(nodes)
+    .force("x", d3.forceX(d => x(d.year)).strength(1))
+    .force("y", d3.forceY(d => d.ty).strength(.12))
+    .force("link", d3.forceLink(links.map(l => ({source: l.p, target: l.c}))).id(d => d.id).strength(.04))
+    .force("collide", d3.forceCollide(d => d.r + 6).iterations(2))
+    .force("labels", labelBoxes).stop();
+  for (let i = 0; i < 500; i++) sim.tick();
+  nodes.forEach(n => n.x = x(n.year));  // forces may nudge x; snap back so the year axis stays exact
+
+  const root = svg.append("g");
+  const defs = svg.append("defs");
+  const glow = defs.append("filter").attr("id", "glow").attr("x", "-60%").attr("y", "-60%").attr("width", "220%").attr("height", "220%");
+  glow.append("feGaussianBlur").attr("stdDeviation", 3.2).attr("result", "b");
+  const mg = glow.append("feMerge"); mg.append("feMergeNode").attr("in", "b"); mg.append("feMergeNode").attr("in", "SourceGraphic");
+
+  // year grid + band labels
+  const yg = root.append("g").attr("class", "year");
+  d3.range(Math.ceil(years[0] / 2) * 2, years[1] + 1, 2).forEach(y => {
+    yg.append("line").attr("x1", x(y)).attr("x2", x(y)).attr("y1", 20).attr("y2", d3.max(nodes, n => n.y) + 40);
+    yg.append("text").attr("x", x(y)).attr("y", 14).attr("text-anchor", "middle").text(y);
+  });
+  Object.values(FAM).forEach(f => root.append("text").attr("class", "band-label").attr("x", 10).attr("y", bandY(f.band) - 30).text(f.label));
+
+  const edge = root.append("g").selectAll("path").data(links).join("path")
+    .attr("class", d => `edge ${d.kind}`)
+    .attr("d", d => { const a = byId.get(d.p), b = byId.get(d.c), mx = (a.x + b.x) / 2;
+      return `M${a.x},${a.y} C${mx},${a.y} ${mx},${b.y} ${b.x},${b.y}`; });
+
+  const node = root.append("g").selectAll("g").data(nodes).join("g").attr("class", "node").attr("transform", d => `translate(${d.x},${d.y})`);
+  node.each(function (d) {
+    const g = d3.select(this), n = d.fams.length;
+    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", FAM[d.fams[0]].c).attr("filter", "url(#glow)");
+    else {  // multiomic: core split into one arc per family
+      g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", "none");
+      const arc = d3.arc().innerRadius(d.r - 1).outerRadius(d.r + 1.5).padAngle(.12);
+      d.fams.forEach((f, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
+        .attr("fill", FAM[f].c).attr("filter", "url(#glow)"));
+    }
+    g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", FAM[d.fams[0]].c);
+    g.append("text").attr("x", d.r + 7).attr("y", 4).text(d.name);
+  });
+
+  // lineage highlight: every ancestor and descendant of the hovered method
+  const up = new Map(nodes.map(n => [n.id, links.filter(l => l.c === n.id).map(l => l.p)]));
+  const down = new Map(nodes.map(n => [n.id, links.filter(l => l.p === n.id).map(l => l.c)]));
+  const walk = (id, m, seen = new Set()) => { (m.get(id) || []).forEach(t => { if (!seen.has(t)) { seen.add(t); walk(t, m, seen); } }); return seen; };
+  node.on("mouseenter", (e, d) => {
+    const on = new Set([d.id, ...walk(d.id, up), ...walk(d.id, down)]);
+    svg.classed("focus", true);
+    node.classed("on", n => on.has(n.id));
+    edge.classed("on", l => on.has(l.p) && on.has(l.c));
+    tip.innerHTML = `<b>${esc(d.name)}</b> · ${d.year}<br>${esc(split(d.readouts).join(", "))} · ${esc(split(d.resolution).join(", "))}<br>` +
+      `${d.citations != null ? d.citations.toLocaleString() + " citations" : ""}${d.variant_of ? `<br>variant of ${esc(split(d.variant_of).map(i => byId.get(i)?.name || i).join(", "))}` : ""}` +
+      `${d.builds_on ? `<br>builds on ${esc(split(d.builds_on).map(i => byId.get(i)?.name || i).join(", "))}` : ""}`;
+    tip.style.opacity = 1;
+  }).on("mousemove", e => { tip.style.left = Math.min(e.clientX + 14, innerWidth - 300) + "px"; tip.style.top = e.clientY + 14 + "px"; })
+    .on("mouseleave", () => { svg.classed("focus", false); node.classed("on", false); edge.classed("on", false); tip.style.opacity = 0; })
+    .on("click", (e, d) => location.href = `index.html#${encodeURIComponent(d.id)}`);
+
+  // zoom/pan; start fitted to the whole graph
+  const zoom = d3.zoom().scaleExtent([.3, 4]).on("zoom", e => root.attr("transform", e.transform));
+  svg.call(zoom);
+  const bb = root.node().getBBox(), k = Math.min(W / (bb.width + 60), H / (bb.height + 40), 1.2);
+  svg.call(zoom.transform, d3.zoomIdentity.translate((W - bb.width * k) / 2 - bb.x * k, (H - bb.height * k) / 2 - bb.y * k).scale(k));
+});
+</script>
+</body>
+</html>

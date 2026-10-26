@@ -11,6 +11,9 @@ chemistry:
 - proximity-ligation
 - long-read-sequencing
 - plate-based
+builds_on:
+- single-cell-hi-c
+- pore-c
 reference:
   doi: 10.1038/s41592-023-01978-w
   year: 2023

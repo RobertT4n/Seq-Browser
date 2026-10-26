@@ -29,6 +29,7 @@ triage.py     free rule-based filter (~1,200 papers/week -> ~100): abstract chec
 classify      language model reads each candidate -> structured labels + quoted evidence   [next phase]
    │
 review        weekly pull request; a human approves/rejects each candidate
+              (website submissions join here with priority: no triage discard, 3-pass classifier check)
    │
 masterlist/methods/*.yaml   one file per method (the source of truth)
    │
@@ -44,11 +45,16 @@ Each method is tagged on independent axes; allowed values live in [`taxonomy.yam
 
 Computational (dry) methods are collected but kept "under construction" until curated.
 
-## Adding or fixing a method
+## Submitting a method
 
-1. Add `masterlist/methods/<id>.yaml` (copy an existing one; `<id>` = lowercase-hyphenated name).
-2. Give `reference.doi` or `reference.title`, then `python pipeline/resolve_refs.py <id>` fills in the citation.
-3. `python pipeline/build.py` to validate and regenerate. Commit and push.
+Use the **[Submit page](https://robertt4n.github.io/Seq-Browser/submit.html)**, which opens a pre-filled submission issue. Submissions:
+
+1. are collected by the weekly pipeline (`pipeline/submissions.py`) with priority,
+2. skip triage's discard rules entirely,
+3. are only discarded if three independent classifier passes all reject them,
+4. are reviewed by a curator before anything enters the masterlist.
+
+Please don't open pull requests that edit `masterlist/` directly; they won't be merged.
 
 ## Benchmark
 

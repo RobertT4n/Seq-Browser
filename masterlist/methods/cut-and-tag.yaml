@@ -12,6 +12,10 @@ scope: genome-wide
 chemistry:
 - antibody-tethered-enzyme
 - tn5
+variant_of:
+- cut-and-run
+builds_on:
+- atac-seq
 reference:
   doi: 10.1038/s41467-019-09982-5
   year: 2019
