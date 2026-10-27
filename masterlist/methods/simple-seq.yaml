@@ -9,6 +9,9 @@ resolution:
 scope: genome-wide
 chemistry:
 - bisulfite-or-enzymatic-conversion
+- tn5
+builds_on:
+- taps   # 5mC via TAPS; 5hmC via the Yi lab's hmC-CATCH (not yet in the list), run sequentially
 reference:
   doi: 10.1038/s41587-024-02148-9
   year: 2025
