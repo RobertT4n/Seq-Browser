@@ -74,7 +74,7 @@ const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessi
   "rna": "RNA", "nascent-rna": "nascent RNA", "translation": "translation", "rna-structure": "RNA structure",
   "rna-modification": "RNA modification", "rna-protein-interaction": "RNA-protein binding", "rna-chromatin-interaction": "RNA-chromatin contacts",
   "immune-repertoire": "immune repertoire", "protein": "protein", "glycan": "glycan", "genome-sequence": "genome sequence", "lineage": "lineage",
-  "functional-screen": "screens & reporters", "dna-damage": "DNA damage"};
+  "functional-screen": "screens & reporters", "chromatin-condensability": "condensability", "dna-damage": "DNA damage"};
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stage = document.getElementById("stage"), card = document.getElementById("card");

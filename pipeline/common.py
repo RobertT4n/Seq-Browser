@@ -20,7 +20,7 @@ UA = {"User-Agent": "Seq-Browser/0.1 (https://github.com/RobertT4n/Seq-Browser)"
 # Minimum seconds between requests to one host, shared by every thread of this process. bioRxiv's full-text server 429s
 # hard when several threads (or several array tasks on one cluster IP) hit it at once - backfill 22440566 lost 78% of
 # full texts that way. NCBI allows 3 req/s without an API key.
-MIN_GAP = {"www.biorxiv.org": 1.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1}
+MIN_GAP = {"www.biorxiv.org": 1.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1, "api.openalex.org": 0.12, "api.crossref.org": 0.1}
 _NEXT, _LOCK = {}, threading.Lock()
 
 

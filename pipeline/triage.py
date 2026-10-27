@@ -43,7 +43,7 @@ STOP_NAMES = {"We", "Here", "This", "These", "The", "Our", "It", "In", "Fig", "F
 
 def plausible(name):
     """Method names have an internal capital, a digit, or a hyphen (Hi-C, tRNAZAP, 2C-RT); plain words don't."""
-    return (name.split()[0] not in STOP_NAMES and 2 <= len(name) <= 60
+    return (bool(name.split()) and name.split()[0] not in STOP_NAMES and 2 <= len(name) <= 60
             and bool(re.search(r"(?<=.)[A-Z]|\d|-|&", name)))
 
 

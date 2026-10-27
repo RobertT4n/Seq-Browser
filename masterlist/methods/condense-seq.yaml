@@ -1,0 +1,29 @@
+name: Condense-seq
+category: wet
+summary: Native mononucleosomes from MNase-digested chromatin are condensed with physiological polyamines; sequencing the
+  nucleosomes left in solution versus the input gives genome-wide condensability at single-nucleosome resolution.
+readouts:
+- chromatin-condensability
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+builds_on:
+- mnase-seq
+introduces:
+- chromatin-condensability
+reference:
+  doi: 10.1038/s41586-025-08971-7
+  year: 2025
+  date: '2025-05-07'
+  journal: Nature
+  first_author: Park S
+  last_author: Ha T
+  pmid: '40335690'
+  pmcid: PMC12240700
+  title: Native nucleosomes intrinsically encode genome organization principles
+links: {}
+source: user
+added: '2026-10-27'
+evidence: Using this 'condense-seq' assay, we could determine genome-wide condensability at single-nucleosome resolution.
