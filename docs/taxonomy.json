@@ -7,7 +7,8 @@
   "epigenome",
   "transcriptome",
   "proteome",
-  "genome"
+  "genome",
+  "functional"
  ],
  "readouts": {
   "3d-genome": "epigenome",
@@ -15,12 +16,20 @@
   "histone-modification": "epigenome",
   "protein-dna-binding": "epigenome",
   "dna-methylation": "epigenome",
-  "replication-timing": "epigenome",
   "rna": "transcriptome",
   "nascent-rna": "transcriptome",
+  "translation": "transcriptome",
+  "rna-structure": "transcriptome",
+  "rna-modification": "transcriptome",
+  "rna-protein-interaction": "transcriptome",
+  "rna-chromatin-interaction": "transcriptome",
+  "immune-repertoire": "transcriptome",
   "protein": "proteome",
-  "dna-sequence": "genome",
-  "lineage": "genome"
+  "glycan": "proteome",
+  "genome-sequence": "genome",
+  "lineage": "genome",
+  "replication-timing": "genome",
+  "functional-screen": "functional"
  },
  "resolution": [
   "bulk",
@@ -73,6 +82,7 @@
   "organic-extraction",
   "microfluidic-chip",
   "amplicon-pcr",
-  "sample-preservation"
+  "sample-preservation",
+  "hydrogel-compartmentalization"
  ]
 }

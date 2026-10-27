@@ -16,7 +16,7 @@
 <main>
   <div class="tiles" id="tiles"></div>
   <div class="grid">
-    <div class="card"><h2>Methods over time</h2><p class="sub">Cumulative number of methods by publication year</p><div id="c-time"></div></div>
+    <div class="card"><h2>Methods over time</h2><p class="sub">Cumulative number of methods by publication date</p><div id="c-time"></div></div>
     <div class="card"><h2>What they measure</h2><p class="sub">Methods per readout (a method can have several)</p><div id="c-readout"></div></div>
     <div class="card"><h2>Resolution</h2><p class="sub">Methods per resolution level</p><div id="c-res"></div></div>
     <div class="card"><h2>Most cited</h2><p class="sub">Top 10 by citations (OpenAlex)</p><div id="c-cites"></div></div>
@@ -36,28 +36,45 @@ function hover(svg) {  // any element with data-tip shows a tooltip on hover
 const width = el => Math.max(el.clientWidth, 280);  // draw at the card's real pixel width so text stays 13px
 
 function bars(el, pairs, fmt = v => v) {  // horizontal bars, single hue, value labels at bar end
-  const W = width(el), rowH = 28, left = Math.min(170, W * 0.38), right = 56, max = Math.max(...pairs.map(p => p[1]), 1), H = pairs.length * rowH + 4;
+  const W = width(el), rowH = 28, right = 64, max = Math.max(...pairs.map(p => p[1]), 1), H = pairs.length * rowH + 4;
+  const ctx = document.createElement("canvas").getContext("2d"); ctx.font = `13px ${getComputedStyle(document.body).fontFamily}`;
+  const left = Math.min(Math.max(...pairs.map(([k]) => ctx.measureText(k).width)) + 14, W * 0.45);  // fit the longest label, cap at 45%
+  const fit = k => { if (ctx.measureText(k).width <= left - 12) return k; while (k.length > 1 && ctx.measureText(k + "…").width > left - 12) k = k.slice(0, -1); return k + "…"; };
   const x = v => (W - left - right) * v / max;
   el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">${pairs.map(([k, v], i) => `
     <g data-tip="${esc(k)}: ${fmt(v)}"><rect x="0" y="${i * rowH}" width="${W}" height="${rowH}" fill="transparent"/>
-    <text x="${left - 8}" y="${i * rowH + 17}" text-anchor="end" class="lbl">${esc(k)}</text>
+    <text x="${left - 8}" y="${i * rowH + 17}" text-anchor="end" class="lbl">${esc(fit(k))}</text>
     <rect x="${left}" y="${i * rowH + 6}" width="${Math.max(x(v), 2)}" height="14" rx="3" fill="var(--accent)"/>
     <text x="${left + x(v) + 6}" y="${i * rowH + 17}">${fmt(v)}</text></g>`).join("")}</svg>`;
   hover(el);
 }
 
-function cumulative(el, years) {  // step line of cumulative count by year
-  const W = width(el), H = 260, pad = {l: 36, r: 14, t: 10, b: 26};
-  const ys = Object.keys(years).map(Number).sort((a, b) => a - b), y0 = ys[0], y1 = Math.max(ys.at(-1), new Date().getFullYear());
-  let run = 0; const pts = []; for (let y = y0; y <= y1; y++) { run += years[y] || 0; pts.push([y, run]); }
+function smooth(P) {  // monotone cubic (Fritsch-Carlson) through points: smooth, never overshoots a cumulative count
+  const n = P.length, d = [], m = [];
+  for (let i = 0; i < n - 1; i++) d.push((P[i + 1][1] - P[i][1]) / (P[i + 1][0] - P[i][0]));
+  for (let i = 0; i < n; i++) m.push(i === 0 ? d[0] : i === n - 1 ? d[n - 2] : d[i - 1] * d[i] <= 0 ? 0 : (d[i - 1] + d[i]) / 2);
+  for (let i = 0; i < n - 1; i++) if (d[i] === 0) m[i] = m[i + 1] = 0; else {
+    const a = m[i] / d[i], b = m[i + 1] / d[i], h = Math.hypot(a, b); if (h > 3) { m[i] = 3 * a / h * d[i]; m[i + 1] = 3 * b / h * d[i]; } }
+  return P.map(([x, y], i) => i ? (() => { const [x0, y0] = P[i - 1], h = (x - x0) / 3;
+    return `C${x0 + h} ${y0 + m[i - 1] * h} ${x - h} ${y - m[i] * h} ${x} ${y}`; })() : `M${x} ${y}`).join("");
+}
+
+function cumulative(el, years) {  // smooth cumulative curve; each year's methods are spread across that year (entries have years only)
+  const W = width(el), H = 260, pad = {l: 36, r: 14, t: 10, b: 26}, now = new Date(), yNow = now.getFullYear() + now.getMonth() / 12;
+  const ys = Object.keys(years).map(Number).sort((a, b) => a - b), y0 = ys[0], y1 = Math.max(ys.at(-1) + 1, yNow);
+  let run = 0; const knots = [[y0, 0]];  // knot = (start of next year, total so far)
+  for (let y = y0; y <= ys.at(-1); y++) { run += years[y] || 0; knots.push([Math.min(y + 1, y1), run]); }
   const X = y => pad.l + (W - pad.l - pad.r) * (y - y0) / Math.max(y1 - y0, 1), Y = v => H - pad.b - (H - pad.t - pad.b) * v / run;
-  const step = pts.map(([y, v], i) => (i ? `H${X(y)}` : `M${X(y)} ${Y(0)}H${X(y)}`) + `V${Y(v)}`).join("");
-  const ticks = [0, Math.round(run / 2), run], yearTicks = pts.filter(([y]) => (y - y0) % Math.ceil((y1 - y0) / 6 || 1) === 0);
+  const P = knots.map(([y, v]) => [X(y), Y(v)]), line = smooth(P), area = `${line}L${P.at(-1)[0]} ${Y(0)}L${P[0][0]} ${Y(0)}Z`;
+  const ticks = [0, Math.round(run / 2), run], every = Math.ceil((y1 - y0) / 6) || 1, yearTicks = [];
+  for (let y = Math.ceil(y0 / 5) * 5; y <= y1; y += Math.max(5, every - every % 5)) yearTicks.push(y);
   el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">
+    <defs><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
     ${ticks.map(t => `<line x1="${pad.l}" x2="${W - pad.r}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--grid)"/><text x="${pad.l - 6}" y="${Y(t) + 4}" text-anchor="end">${t}</text>`).join("")}
-    ${yearTicks.map(([y]) => `<text x="${X(y)}" y="${H - 6}" text-anchor="middle">${y}</text>`).join("")}
-    <path d="${step}" fill="none" stroke="var(--accent)" stroke-width="2"/>
-    ${pts.filter(([y]) => years[y]).map(([y, v]) => `<g data-tip="${y}: ${years[y]} new, ${v} total"><circle cx="${X(y)}" cy="${Y(v)}" r="10" fill="transparent"/><circle cx="${X(y)}" cy="${Y(v)}" r="4" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/></g>`).join("")}
+    ${yearTicks.map(y => `<line x1="${X(y)}" x2="${X(y)}" y1="${H - pad.b}" y2="${H - pad.b + 4}" stroke="var(--grid)"/><text x="${X(y)}" y="${H - 6}" text-anchor="middle">${y}</text>`).join("")}
+    <path d="${area}" fill="url(#fade)"/><path d="${line}" fill="none" stroke="var(--accent)" stroke-width="2.25" stroke-linecap="round"/>
+    ${ys.map(y => { const k = knots.find(([x]) => x >= Math.min(y + 1, y1)); return `<g data-tip="${y}: ${years[y]} new, ${k[1]} total"><rect x="${X(y)}" y="${pad.t}" width="${Math.max(X(y + 1) - X(y), 1)}" height="${H - pad.t - pad.b}" fill="transparent"/></g>`; }).join("")}
+    <circle cx="${P.at(-1)[0]}" cy="${P.at(-1)[1]}" r="4" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>
   </svg>`;
   hover(el);
 }

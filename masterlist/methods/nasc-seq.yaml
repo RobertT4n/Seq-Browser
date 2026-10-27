@@ -1,8 +1,10 @@
 name: NASC-seq
+full_name: "New transcriptome alkylation-dependent single-cell RNA sequencing"
 category: wet
 summary: Single-cell RNA-seq using alkylation of newly synthesized RNA to distinguish new from pre-existing transcripts in
   the same cell.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - single-cell
@@ -14,9 +16,11 @@ chemistry:
 - reverse-transcription
 builds_on:
 - single-cell-rna-seq
+- slam-seq
 reference:
   doi: 10.1038/s41467-019-11028-9
   year: 2019
+  date: '2019-07-17'
   journal: Nat Commun
   first_author: Hendriks GJ
   last_author: Sandberg R

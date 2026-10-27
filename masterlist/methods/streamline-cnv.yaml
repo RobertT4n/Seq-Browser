@@ -5,7 +5,7 @@ category: dry
 summary: Nextflow/Docker pipeline for low-pass WGS copy-number analysis, from QC and CNV calling to segmentation, clustering
   and plots.
 readouts:
-- dna-sequence
+- genome-sequence
 resolution:
 - bulk
 - single-cell
@@ -13,6 +13,7 @@ scope: genome-wide
 reference:
   doi: 10.64898/2026.10.18.753004
   year: 2026
+  date: '2026-10-23'
   journal: bioRxiv
   first_author: Ma D
   last_author: Su XA

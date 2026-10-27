@@ -4,7 +4,6 @@ summary: Droplet platform that sorts droplets by fluorescence and uses picoinjec
   reagents, raising gene detection and cutting background.
 readouts:
 - rna
-- nascent-rna
 resolution:
 - single-cell
 scope: genome-wide
@@ -14,11 +13,10 @@ chemistry:
 - reverse-transcription
 builds_on:
 - drop-seq
-introduces:
-- nascent-rna
 reference:
   doi: 10.1038/s41467-023-40322-w
   year: 2023
+  date: '2023-08-08'
   journal: Nat Commun
   first_author: De Jonghe J
   last_author: Hollfelder F

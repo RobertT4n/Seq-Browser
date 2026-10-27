@@ -1,11 +1,12 @@
 name: scGET-seq
+full_name: "Single-cell genome and epigenome by transposases sequencing"
 category: wet
 summary: Single-cell hybrid transposase (Tn5 fused to a H3K9me3-binding chromodomain) that profiles open and closed chromatin
   plus the genomic sequence in one assay.
 readouts:
 - chromatin-accessibility
 - histone-modification
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -15,7 +16,7 @@ variant_of:
 - scatac-seq
 introduces:
 - histone-modification
-- dna-sequence
+- genome-sequence
 reference:
   doi: 10.1038/s41587-021-01031-1
   year: 2022

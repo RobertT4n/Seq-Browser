@@ -1,10 +1,11 @@
 name: G&T-seq
+full_name: "Genome and transcriptome sequencing"
 category: wet
 summary: Physically separates mRNA from genomic DNA in each single cell so the genome and transcriptome of the same cell can
   be sequenced.
 readouts:
 - rna
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -17,6 +18,7 @@ builds_on:
 reference:
   doi: 10.1038/nmeth.3370
   year: 2015
+  date: '2015-04-27'
   journal: Nat Methods
   first_author: Macaulay IC
   last_author: Voet T

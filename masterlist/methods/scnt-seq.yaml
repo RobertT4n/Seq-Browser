@@ -1,8 +1,10 @@
 name: scNT-seq
+full_name: "Single-cell metabolically labeled new RNA tagging sequencing"
 category: wet
 summary: Droplet-based single-cell RNA-seq that chemically marks newly transcribed mRNA with T-to-C substitutions on barcoded
   beads to profile new and old transcriptomes together.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - single-cell
@@ -15,9 +17,11 @@ chemistry:
 - droplet-microfluidics
 builds_on:
 - single-cell-rna-seq
+- timelapse-seq
 reference:
   doi: 10.1038/s41592-020-0935-4
   year: 2020
+  date: '2020-08-31'
   journal: Nat Methods
   first_author: Qiu Q
   last_author: Wu H

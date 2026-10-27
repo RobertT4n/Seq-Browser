@@ -10,19 +10,30 @@ domains:             # top-level grouping, in display order (Family graph bands,
   - transcriptome
   - proteome           # e.g. CITE-seq, ECCITE-seq, DOGMA-seq (antibody-derived tags)
   - genome
+  - functional         # pooled screens and reporter libraries (GeCKO, MPRA, STARR-seq)
 
-readouts:            # what molecular layer the assay measures -> its domain. Order within a domain = graph lane order
-  3d-genome: epigenome
-  chromatin-accessibility: epigenome
-  histone-modification: epigenome
-  protein-dna-binding: epigenome   # TF / chromatin-protein occupancy
-  dna-methylation: epigenome
-  replication-timing: epigenome
-  rna: transcriptome
-  nascent-rna: transcriptome
-  protein: proteome
-  dna-sequence: genome             # genome / copy number / SVs
-  lineage: genome
+readouts:            # WHAT molecular quantity the assay measures -> its domain. Order within a domain = graph lane order.
+  # If none of these describes the measurement, do not force the nearest one: flag it (MISSING_TAG) for the curator.
+  3d-genome: epigenome                  # chromatin contacts / conformation (3C, Hi-C, SPRITE, GAM)
+  chromatin-accessibility: epigenome    # open vs closed chromatin, nucleosome positioning (ATAC, DNase, MNase, NOMe GpC)
+  histone-modification: epigenome       # histone marks (ChIP / CUT&Tag on histone marks)
+  protein-dna-binding: epigenome        # TF / chromatin-protein occupancy on DNA (ChIP, CUT&RUN, DamID)
+  dna-methylation: epigenome            # 5mC / 5hmC on DNA (bisulfite, enzymatic, TAPS)
+  rna: transcriptome                    # steady-state transcript abundance, isoforms, splicing (RNA-seq, scRNA-seq)
+  nascent-rna: transcriptome            # newly made vs pre-existing RNA (metabolic labelling, nascent / run-on)
+  translation: transcriptome            # ribosome occupancy / translatome (Ribo-seq, ribosome footprinting)
+  rna-structure: transcriptome          # RNA secondary/tertiary structure (SHAPE, DMS probing)
+  rna-modification: transcriptome       # chemical marks / editing on RNA (m6A, pseudouridine, A-to-I)
+  rna-protein-interaction: transcriptome  # where proteins bind RNA (CLIP family)
+  rna-chromatin-interaction: transcriptome  # RNAs contacting chromatin / DNA (GRID-seq, MARGI, ChAR-seq)
+  immune-repertoire: transcriptome      # TCR / BCR receptor sequences
+  protein: proteome                     # protein abundance via antibody-oligo tags or similar (CITE-seq ADTs)
+  glycan: proteome                      # cell-surface glycans (lectin-oligo tags)
+  genome-sequence: genome               # genotype, CNV, SVs, assemblies, incl. RNA-virus genomes and strain typing
+  lineage: genome                       # cell lineage / clonal history recorded in cells (barcodes, CRISPR recorders)
+  replication-timing: genome            # when DNA replicates in S phase (copy number of S-phase vs G1 DNA)
+  functional-screen: functional         # abundance of each designed library member (guide, variant, reporter barcode)
+                                        #   after selection/expression; NOT a per-cell transcriptome (Perturb-seq stays rna)
 
 resolution:
   - bulk
@@ -76,3 +87,4 @@ chemistry:           # key molecular steps; an assay usually has several
   - microfluidic-chip       # e.g. Fluidigm C1 chambers (not droplets)
   - amplicon-pcr            # targeted PCR amplicons as the library (panels, barcode genes)
   - sample-preservation     # chemistry that stabilises samples before library prep (e.g. biosilicification)
+  - hydrogel-compartmentalization  # cells isolated by a hydrogel instead of droplets/wells (virtual microfluidics)

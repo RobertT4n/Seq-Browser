@@ -2,7 +2,7 @@ name: scTrio-seq
 category: wet
 summary: Separates each cell's RNA from its nuclear DNA so copy number, DNA methylome and transcriptome come from one cell.
 readouts:
-- dna-sequence
+- genome-sequence
 - dna-methylation
 - rna
 resolution:
@@ -15,10 +15,11 @@ builds_on:
 - scrrbs
 - smart-seq2
 introduces:
-- dna-sequence
+- genome-sequence
 reference:
   doi: 10.1038/cr.2016.23
   year: 2016
+  date: '2016-02-23'
   journal: Cell Res
   first_author: Hou Y
   last_author: Peng J
