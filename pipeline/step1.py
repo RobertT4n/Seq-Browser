@@ -43,6 +43,8 @@ def main():
     ap.add_argument("--from", dest="start"); ap.add_argument("--to", dest="end")
     ap.add_argument("--out", required=True)
     ap.add_argument("--threads", type=int, default=8, help="parallel full-text downloads (keep modest: public APIs)")
+    ap.add_argument("--gate", action="store_true",
+                    help="backfill: download full text only when title/abstract is plainly about sequencing (bioRxiv throttles)")
     ap.add_argument("--strict", action="store_true",
                     help="backfill mode: keep only papers where a method-like NAME was extracted (cuts Proc_step2 load ~6x)")
     a = ap.parse_args()
@@ -73,7 +75,7 @@ def main():
     log(f"triage: {len(recs):,} papers (abstract rules + full-text naming scan)")
     kept, n_ft, last, t1 = [], 0, 0.0, time.time()
     with ThreadPoolExecutor(a.threads) as pool:
-        futs = {pool.submit(triage, r): r for r in recs}
+        futs = {pool.submit(triage, r, True, a.gate): r for r in recs}
         for i, f in enumerate(as_completed(futs), 1):
             r = futs[f]
             try:
@@ -92,7 +94,8 @@ def main():
                 rate = i / max(now - t1, 1e-6); eta = (len(recs) - i) / max(rate, 1e-6)
                 log(f"  {i:,}/{len(recs):,} ({100 * i / len(recs):.0f}%) | {rate * 60:.0f}/min | ETA {eta / 60:.0f} min | "
                     f"kept {len(kept)} (full-text {n_ft}) | failures {len(failures)} | full texts ok/not-OA/failed "
-                    f"{FT_STATS['fulltext_ok']}/{FT_STATS['not_open_access']}/{FT_STATS['fulltext_failed']}")
+                    f"{FT_STATS['fulltext_ok']}/{FT_STATS['not_open_access']}/{FT_STATS['fulltext_failed']}"
+                    + (f" | gated out {FT_STATS['gated_out']}" if a.gate else ""))
                 last = now
 
     (out / f"{tag}.candidates.jsonl").write_text("".join(json.dumps(r) + "\n" for r in kept))
@@ -104,7 +107,8 @@ def main():
     print(json.dumps(summary, indent=1))
     if failures:
         print(f"WARNING: {len(failures)} failures - see {tag}.summary.json", file=sys.stderr)
-    if FT_STATS["fulltext_failed"] > 0.05 * max(1, sum(FT_STATS.values())):  # >5% of full texts lost: rerun this range
+    tried = FT_STATS["fulltext_ok"] + FT_STATS["not_open_access"] + FT_STATS["fulltext_failed"]
+    if FT_STATS["fulltext_failed"] > 0.05 * max(1, tried):  # >5% of full texts lost: rerun this range
         sys.exit(f"FAIL LOUD: {FT_STATS['fulltext_failed']} full-text downloads failed (>5%) - rerun this range later")
 
 

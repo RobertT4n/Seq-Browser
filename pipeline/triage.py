@@ -4,13 +4,15 @@
 #  route B = full text (open access only) contains a naming phrase ("an approach we call X", "creating X, which ...")
 #  near assay words - this is what catches methods buried in Results (TOPmentation, Paired Hi-C).
 #Usage: python pipeline/triage.py data/raw_2026-10-12.jsonl > data/candidates_2026-10-12.jsonl
-#  Or import: triage(record, fetch_fulltext=True) -> {"flag": bool, "routes": [...], "names": [...]}
+#  Or import: triage(record, fetch_fulltext=True, gate=False) -> {"flag": bool, "routes": [...], "names": [...]}
+#  gate=True (backfill): full text only for papers whose title/abstract mentions sequencing (SEQ_WORDS)
 #INPUT: JSONL records from fetch.py
 
 import json
 import re
 import sys
 
+from common import FT_STATS
 from fetch import full_text
 
 INTRODUCES = re.compile(r"\b(?:here,? )?we (?:present|develop(?:ed)?|introduce|report|describe|establish(?:ed)?|devise[d]?|"
@@ -28,6 +30,14 @@ NAMING = [re.compile(p) for p in (
     rf"\b(?i:we (?:present|introduce|developed|develop|report|describe|establish(?:ed)?)) [\"“']?{NAME}[\"”']?[,:(]",
 )]
 ACRONYM = re.compile(r"^\s*\(\s*([A-Za-z0-9][\w&+/-]{1,24})\s*[,;)]")  # "Long Name (ACRO, ..." -> ACRO
+# backfill gate: only download full text when title/abstract is plainly about sequencing (bioRxiv throttles full-text
+# downloads to ~1 per 24 s per IP, so scanning every old paper would take months). Weekly runs scan everything.
+SEQ_WORDS = re.compile(r"sequencing|-seq\b|\bseq\b|transcriptom|epigenom|methylom|chromatin|tagmentation|barcod|"
+                       r"single[- ](?:cell|nucle)|spatial(?:ly)? (?:resolved|transcriptom|omic|profil)|library|\bread[s]?\b|genom|"
+                       # 3D-genome / epigenome papers often never say "sequencing" (TOPmentation's abstract: Micro-Capture-C,
+                       # enhancer-promoter interactions, chromosome domains)
+                       r"\b[\w-]*-C\b|\bHi-?C\b|chromosom|enhancer|promoter|nucleosom|histone|\bChIP|ATAC|CUT&|\bCRISPR|"
+                       r"\bDNA\b.{0,40}\b(?:methylation|damage|accessib)|\bRNA\b.{0,40}\b(?:modification|structure|binding)", re.I)
 STOP_NAMES = {"We", "Here", "This", "These", "The", "Our", "It", "In", "Fig", "Figure", "Supplementary", "Extended", "Data", "Methods"}
 
 
@@ -51,7 +61,7 @@ def names_in(text, window=300):
     return found
 
 
-def triage(rec, fetch_fulltext=True):
+def triage(rec, fetch_fulltext=True, gate=False):
     head = f"{rec.get('title', '')}. {rec.get('abstract', '')}"
     # submissions and watchlist rows (human-picked) are never discarded here
     routes = (["submitted"] if rec.get("submitted") else []) + (["watchlist"] if rec.get("watchlist") else [])
@@ -61,7 +71,9 @@ def triage(rec, fetch_fulltext=True):
             names.insert(0, given)
     if INTRODUCES.search(head) and ASSAY_WORDS.search(head):
         routes.append("abstract")
-    if fetch_fulltext:
+    if fetch_fulltext and gate and not (rec.get("submitted") or rec.get("watchlist") or SEQ_WORDS.search(head)):
+        FT_STATS["gated_out"] += 1  # backfill: not plainly about sequencing, full text not downloaded
+    elif fetch_fulltext:
         body = full_text(rec)
         if body:
             extra = [n for n in names_in(body) if n not in names]

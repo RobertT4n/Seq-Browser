@@ -64,7 +64,7 @@ def get(url, as_json=True, tries=3):
             time.sleep(5 * i)
 
 
-FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0}  # reported in every step1 summary
+FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0, "gated_out": 0}  # reported in every step1 summary
 
 
 def epmc_search(query, page_size=25, cursor="*", core=False):
