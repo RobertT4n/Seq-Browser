@@ -1,0 +1,25 @@
+name: TAPS
+full_name: "TET-assisted pyridine borane sequencing"
+category: wet
+summary: Bisulfite-free base-resolution detection of 5mC and 5hmC; TET oxidation plus pyridine borane reduction converts
+  modified cytosines so they read as T, leaving unmodified C and DNA integrity intact.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on: []
+reference:
+  doi: 10.1038/s41587-019-0041-2
+  year: 2019
+  date: '2019-02-25'
+  journal: Nat Biotechnol
+  first_author: Liu Y
+  last_author: Song CX
+  pmid: '30804537'
+  title: Bisulfite-free direct detection of 5-methylcytosine and 5-hydroxymethylcytosine at base resolution
+links: {}
+source: user
+added: '2026-10-27'

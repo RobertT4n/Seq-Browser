@@ -1,0 +1,27 @@
+name: BACS
+full_name: "2-bromoacrylamide-assisted cyclization sequencing"
+category: wet
+summary: Base-resolution, quantitative mapping of pseudouridine; 2-bromoacrylamide cyclizes pseudouridine so reverse
+  transcription reads it as C, giving stoichiometry at each site across the transcriptome.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on: []
+reference:
+  doi: 10.1038/s41592-024-02439-8
+  year: 2024
+  date: '2024-09-30'
+  journal: Nat Methods
+  first_author: Xu H
+  last_author: Song CX
+  pmid: '39349603'
+  pmcid: PMC11541003
+  title: Absolute quantitative and base-resolution sequencing reveals comprehensive landscape of pseudouridine across the
+    human transcriptome
+links: {}
+source: user
+added: '2026-10-27'

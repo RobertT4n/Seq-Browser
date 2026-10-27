@@ -1,0 +1,28 @@
+name: PER-seq
+full_name: "Polymerase error rate sequencing"
+category: wet
+summary: Measures the misincorporation spectrum of a DNA polymerase in a cell-free reaction at single-molecule resolution;
+  each linear copy of a plasmid-borne target region gets its own barcode, so true errors are told apart from PCR noise.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+builds_on: []
+reference:
+  doi: 10.1038/s41588-024-01945-x
+  year: 2024
+  date: '2024-10-10'
+  journal: Nat Genet
+  first_author: Tomkova M
+  last_author: Kriaucionis S
+  pmid: '39390083'
+  pmcid: PMC11549043
+  title: Human DNA polymerase epsilon is a source of C>T mutations at CpG dinucleotides
+links: {}
+source: user
+added: '2026-10-27'
+evidence: Here we present a new method called polymerase error rate sequencing (PER-seq) to measure the error spectrum of
+  DNA polymerases in isolation.

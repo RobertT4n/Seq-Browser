@@ -1,0 +1,29 @@
+name: Paired-Damage-seq
+category: wet
+summary: Single-cell joint profiling of oxidative and single-stranded DNA damage with the transcriptome; damage sites are
+  labelled by repair enzymes with biotinylated nucleotides, then cells are split-pool barcoded as in Paired-Tag.
+readouts:
+- dna-damage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- split-pool-barcoding
+- reverse-transcription
+builds_on:
+- paired-tag
+introduces:
+- dna-damage
+reference:
+  doi: 10.1038/s41592-025-02634-1
+  year: 2025
+  date: '2025-05-01'
+  journal: Nat Methods
+  first_author: Bai D
+  last_author: Zhu C
+  pmid: '40128289'
+  title: Simultaneous single-cell DNA damage profiling and RNA sequencing by Paired-Damage-seq
+links: {}
+source: user
+added: '2026-10-27'
