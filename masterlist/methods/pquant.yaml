@@ -1,0 +1,23 @@
+name: pQuant
+category: dry
+summary: Homomorphic-encryption algorithm for privacy-preserving gene expression quantification from RNA-seq reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-57393-6
+  year: 2025
+  journal: Nat Commun
+  first_author: Hong S
+  last_author: Gürsoy G
+  pmid: '40064866'
+  pmcid: PMC11894182
+  title: Secure and scalable gene expression quantification with pQuant
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce pQuant, an algorithm that employs homomorphic encryption to ensure privacy-preserving quantification
+  of gene expression from RNA-seq data across public and cloud servers.

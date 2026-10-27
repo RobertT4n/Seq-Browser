@@ -1,0 +1,28 @@
+name: Cap Trap RNA-seq
+category: wet
+summary: Cap trapping followed by long-read MinION sequencing to capture full-length capped transcript starts at short tandem
+  repeats.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41467-021-23143-7
+  year: 2021
+  journal: Nat Commun
+  first_author: Grapotte M
+  last_author: Lecellier CH
+  pmid: '34078885'
+  pmcid: PMC8172540
+  title: Discovery of widespread transcription initiation at microsatellites predictable by sequence-based deep neural network
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'NEW_WET is ~65% sure: Cap Trap is adapted from existing cap-trapping, and the paper''s main contribution is
+  the STR transcription and deep-learning work'
+evidence: To confirm this transcription, we develop Cap Trap RNA-seq, a technology which combines cap trapping and long read
+  MinION sequencing.

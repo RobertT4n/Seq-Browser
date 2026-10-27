@@ -1,0 +1,23 @@
+name: fragScaff
+category: dry
+summary: Scaffolding algorithm that joins genome contigs using co-occurrence of their ends across CPT-seq pools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.178319.114
+  year: 2014
+  journal: Genome Res
+  first_author: Adey A
+  last_author: Shendure J
+  pmid: '25327137'
+  pmcid: PMC4248320
+  title: In vitro, long-range sequence information for de novo genome assembly via transposase contiguity
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: The scaffolding approach described here, termed fragScaff, leverages coincidences between the content of different
+  pools as a source of contiguity information.

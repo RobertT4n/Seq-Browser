@@ -1,0 +1,27 @@
+name: Omni-ATAC
+category: wet
+summary: Optimised ATAC-seq protocol with lower background that also works on archival frozen tissue and 50 um sections.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+variant_of:
+- atac-seq
+reference:
+  doi: 10.1038/nmeth.4396
+  year: 2017
+  journal: Nat Methods
+  first_author: Corces MR
+  last_author: Chang HY
+  pmid: '28846090'
+  pmcid: PMC5623106
+  title: An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present Omni-ATAC, an improved ATAC-seq protocol for chromatin accessibility profiling that works across multiple
+  applications with substantial improvement of signal-to-background ratio and information content.

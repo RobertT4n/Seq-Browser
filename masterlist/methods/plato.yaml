@@ -1,0 +1,26 @@
+name: PLATO
+category: wet
+summary: Affinity-selects a ribosome-displayed open-reading-frame library and sequences the enriched ORFs to map protein and
+  small-molecule interactions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nbt.2539
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Zhu J
+  last_author: Elledge SJ
+  pmid: '23503679'
+  pmcid: PMC4110636
+  title: Protein interaction discovery using parallel analysis of translated ORFs (PLATO)
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'chemistry approximate: reverse transcription of ribosome-displayed mRNA is inferred, not stated in the abstract'
+evidence: Here we describe PLATO, an in vitro method for mapping such interactions by affinity enrichment of a library of
+  full-length open reading frames displayed on ribosomes, followed by massively parallel analysis using DNA sequencing.

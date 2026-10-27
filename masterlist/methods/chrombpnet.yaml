@@ -1,0 +1,23 @@
+name: ChromBPNet
+category: dry
+summary: Deep-learning model of base-resolution chromatin accessibility that removes enzyme (Tn5) bias to reveal TF motif
+  syntax and variant effects.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.25.630221
+  year: 2024
+  journal: bioRxiv
+  first_author: Pampari A
+  last_author: Kundaje A
+  title: 'ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory
+    sequence syntax, transcription factor footprints and regulatory variants'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We introduce ChromBPNet, a deep learning DNA sequence model of base-resolution accessibility profiles that detects,
+  learns and deconvolves assay-specific enzyme biases from regulatory sequence determinants of accessibility

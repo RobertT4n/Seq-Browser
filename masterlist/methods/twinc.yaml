@@ -1,0 +1,24 @@
+name: TwinC
+category: dry
+summary: Interpretable convolutional neural network that predicts trans (inter-chromosomal) contacts from DNA sequence.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-72031-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Jha A
+  last_author: Noble WS
+  pmid: '42009674'
+  pmcid: PMC13280383
+  title: Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable
+  through proximity ligation-dependent (in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation
+  assays.

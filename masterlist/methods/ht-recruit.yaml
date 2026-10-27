@@ -1,0 +1,28 @@
+name: HT-recruit
+category: wet
+summary: Pooled tethering assay that recruits protein-domain libraries to a reporter and reads out activation or repression
+  by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.cell.2020.11.024
+  year: 2020
+  journal: Cell
+  first_author: Tycko J
+  last_author: Bintu L
+  pmid: '33326746'
+  pmcid: PMC8178797
+  title: High-Throughput Discovery and Characterization of Human Transcriptional Effectors
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we develop HT-recruit, a pooled assay where protein libraries are recruited to a reporter, and their transcriptional
+  effects are measured by sequencing.

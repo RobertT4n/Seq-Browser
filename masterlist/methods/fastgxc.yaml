@@ -1,0 +1,26 @@
+name: FastGxC
+category: dry
+summary: Fast context-specific eQTL mapping that uses the correlation structure of multi-tissue bulk and single-cell RNA-seq
+  studies.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2026.101250
+  year: 2026
+  journal: Cell Genom
+  first_author: Krockenberger L
+  last_author: Balliu B
+  pmid: '42155441'
+  pmcid: PMC13261669
+  title: 'FastGxC: Fast and powerful context-specific eQTL mapping in bulk and single-cell data'
+  preprint_doi: 10.1101/2021.06.17.448889
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We introduce FastGxC, a method for efficiently mapping context-specific eQTLs by leveraging correlation structure
+  in multi-tissue bulk and single-cell RNA sequencing studies.

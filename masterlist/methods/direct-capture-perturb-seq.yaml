@@ -12,13 +12,12 @@ perturbation:
 - crispr-knockout
 - crispr-interference
 - crispr-activation
-scope: targeted
+scope: genome-wide
 chemistry:
 - reverse-transcription
 - oligo-capture
-builds_on:
+variant_of:
 - perturb-seq
-- single-cell-rna-seq
 reference:
   doi: 10.1038/s41587-020-0470-y
   year: 2020

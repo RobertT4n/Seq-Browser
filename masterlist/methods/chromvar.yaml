@@ -1,0 +1,22 @@
+name: chromVAR
+category: dry
+summary: Estimates per-cell variation in transcription factor motif accessibility from sparse scATAC-seq data while correcting
+  technical bias.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/110346
+  year: 2017
+  journal: bioRxiv
+  first_author: Schep AN
+  last_author: Greenleaf WJ
+  title: 'ChromVAR: Inferring transcription factor variation from single-cell epigenomic data'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We developed chromVAR, an R package for analyzing sparse chromatin accessibility data by estimating the gain or
+  loss of accessibility within sets of peaks sharing the same motif or annotation while controlling for known technical biases.

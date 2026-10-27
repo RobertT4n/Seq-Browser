@@ -1,0 +1,30 @@
+name: Stitch-seq
+category: wet
+summary: Droplet-based overlap-extension RT-PCR that physically links targeted gene and protein expression to CRISPR perturbation
+  identifiers in single cells, without cell barcoding.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- perturb-seq
+- cite-seq
+reference:
+  doi: 10.64898/2026.04.27.719216
+  year: 2026
+  journal: bioRxiv
+  first_author: Keer FR
+  last_author: Blainey PC
+  title: 'Stitch-seq: Scalable CRISPR gene expression response profiling'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present Stitch-seq, a high-throughput pooled functional genomics sequencing method enabling simultaneous
+  capture of CRISPR perturbations and targeted gene and protein expression across millions of cells.

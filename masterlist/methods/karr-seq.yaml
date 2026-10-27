@@ -1,0 +1,28 @@
+name: KARR-seq
+category: wet
+summary: Crosslinking-based method that traps RNA-RNA contacts and higher-order RNA structure inside cells using kethoxal
+  labelling.
+readouts:
+- rna-rna-interaction
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-023-02109-8
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Wu T
+  last_author: He C
+  pmid: '38238480'
+  pmcid: PMC11255127
+  title: KARR-seq reveals cellular higher-order RNA structures and RNA-RNA interactions
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present KARR-seq, which uses N3-kethoxal labeling and multifunctional chemical crosslinkers to covalently
+  trap and determine RNA-RNA interactions and higher-order RNA structures inside cells

@@ -1,0 +1,27 @@
+name: CELLO-seq
+category: wet
+summary: Long-read single-cell RNA sequencing that reads full-length transcripts to measure allelic, isoform and transposable
+  element expression at unique loci.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1101/2020.10.02.322073
+  year: 2020
+  journal: bioRxiv
+  first_author: Berrens RV
+  last_author: Marioni JC
+  title: Transposable element expression at unique loci in single cells with CELLO-seq
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To resolve this, we introduce CELLO-seq, a novel method and computational framework for performing long-read RNA
+  sequencing at single cell resolution.

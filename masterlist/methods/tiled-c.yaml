@@ -1,0 +1,28 @@
+name: Tiled-C
+category: wet
+summary: Low-input chromosome conformation capture (3C) technique for chromatin architecture at high resolution during in
+  vivo differentiation.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+variant_of:
+- capture-c
+reference:
+  doi: 10.1038/s41467-020-16598-7
+  year: 2020
+  journal: Nat Commun
+  first_author: Oudelaar AM
+  last_author: Hughes JR
+  pmid: '32483172'
+  pmcid: PMC7264236
+  title: Dynamics of the 4D genome during in vivo lineage specification and differentiation
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present Tiled-C, a low-input chromosome conformation capture (3C) technique.

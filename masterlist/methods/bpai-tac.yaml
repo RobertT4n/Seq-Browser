@@ -1,0 +1,24 @@
+name: bpAI-TAC
+category: dry
+summary: Base-pair-resolution sequence-to-activity deep-learning model trained on ATAC-seq Tn5 insertion profiles alongside
+  accessibility.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag122
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Chandra NA
+  last_author: Sasse A
+  pmid: '42542664'
+  pmcid: PMC13427759
+  title: Refining sequence-to-activity models by increasing model resolution
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present bpAI-TAC, a base pair resolution ATAC-seq model, and demonstrate that modeling ATAC-seq profiles
+  alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types.

@@ -1,0 +1,27 @@
+name: CPT-seq
+category: wet
+summary: In vitro transposase-based long-range library in sparse indexed pools that supplies contiguity information for genome
+  scaffolding.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- plate-based
+reference:
+  doi: 10.1101/gr.178319.114
+  year: 2014
+  journal: Genome Res
+  first_author: Adey A
+  last_author: Shendure J
+  pmid: '25327137'
+  pmcid: PMC4248320
+  title: In vitro, long-range sequence information for de novo genome assembly via transposase contiguity
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We describe a method that exploits contiguity preserving transposase sequencing (CPT-seq) to facilitate the scaffolding
+  of de novo genome assemblies.

@@ -1,0 +1,24 @@
+name: scNAT
+category: dry
+summary: Deep learning model that jointly embeds paired scRNA-seq and scTCR-seq profiles in a unified latent space.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03129-y
+  year: 2023
+  journal: Genome Biol
+  first_author: Zhu B
+  last_author: Zhao H
+  pmid: '38111007'
+  pmcid: PMC10726524
+  title: 'scNAT: a deep learning method for integrating paired single-cell RNA and T cell receptor sequencing profiles.'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We developed scNAT, a deep learning method that integrates paired scRNA-seq and scTCR-seq data to represent data
+  in a unified latent space for downstream analysis.

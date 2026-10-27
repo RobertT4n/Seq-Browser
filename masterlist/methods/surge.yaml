@@ -1,0 +1,25 @@
+name: SURGE
+category: dry
+summary: Unsupervised latent-factor discovery of context-specific eQTLs from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03152-z
+  year: 2024
+  journal: Genome Biol
+  first_author: Strober BJ
+  last_author: Battle A
+  pmid: '38254214'
+  pmcid: PMC10801966
+  title: 'SURGE: uncovering context-specific genetic-regulation of gene expression from single-cell RNA sequencing using latent-factor
+    models'
+  preprint_doi: 10.1101/2022.12.22.521678
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We developed SURGE, a method for unsupervised discovery of context-specific expression quantitative trait loci (eQTLs)
+  from single-cell transcriptomic data.

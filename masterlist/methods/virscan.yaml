@@ -1,0 +1,26 @@
+name: VirScan
+category: wet
+summary: Immunoprecipitates antibodies from serum against a phage library displaying all human viral peptides and reads the
+  bound clones by DNA sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1126/science.aaa0698
+  year: 2015
+  journal: Science
+  first_author: Xu GJ
+  last_author: Elledge SJ
+  pmid: '26045439'
+  pmcid: PMC4844011
+  title: Viral immunology. Comprehensive serological profiling of human populations using a synthetic human virome
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present VirScan, a high-throughput method to comprehensively analyze antiviral antibodies using immunoprecipitation
+  and massively parallel DNA sequencing of a bacteriophage library displaying proteome-wide peptides from all human viruses.

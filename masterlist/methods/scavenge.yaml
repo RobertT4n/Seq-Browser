@@ -1,0 +1,23 @@
+name: SCAVENGE
+category: dry
+summary: Network-propagation algorithm that maps GWAS causal variants to relevant cell states in single-cell epigenomic data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01341-y
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Yu F
+  last_author: Sankaran VG
+  pmid: '35668323'
+  pmcid: PMC9646486
+  title: Variant to function mapping at single-cell resolution through network propagation
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: we present SCAVENGE, a computational algorithm that uses network propagation to map causal variants to their relevant
+  cellular context at single-cell resolution.

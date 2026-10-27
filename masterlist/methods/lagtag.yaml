@@ -1,0 +1,29 @@
+name: LagTag
+category: wet
+summary: Records earlier chromatin protein-binding profiles as adenine methylation marks, recovered by tagmentation and sequencing
+  alongside endpoint profiles.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+temporal:
+- molecular-recording
+scope: genome-wide
+chemistry:
+- tn5
+builds_on:
+- damid
+reference:
+  doi: 10.1016/j.cels.2026.101717
+  year: 2026
+  journal: Cell Syst
+  first_author: Takei Y
+  last_author: Elowitz MB
+  pmid: '42685696'
+  pmcid: PMC13540299
+  title: Genome-wide chromatin recording resolves dynamic cell state changes
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present LagTag, a method for recovery of earlier and endpoint chromatin states in the same mammalian cells.

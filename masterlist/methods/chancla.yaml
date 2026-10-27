@@ -1,0 +1,25 @@
+name: CHANCLA
+category: wet
+summary: Multiomic pooled screen of oncohistone variants that reads proliferation, chromatin accessibility and histone modifications.
+readouts:
+- functional-screen
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.64898/2026.04.14.718582
+  year: 2026
+  journal: bioRxiv
+  first_author: Ye Z
+  last_author: Soto-Feliciano YM
+  title: Multiomic screening platform uncovers the impact of histone mutations on chromatin and cell fate
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'Screen platform: confirm which readouts are sequencing-based (histone PTM readout may be non-sequencing). Chemistry
+  tn5 is assumed from the ATAC readout.'
+evidence: To address this gap, we developed CHANCLA, a modular platform for high-throughput functional screening of oncohistones
+  using multiomic phenotypic readouts.

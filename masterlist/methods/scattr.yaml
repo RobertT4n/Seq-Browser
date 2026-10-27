@@ -1,0 +1,23 @@
+name: ScatTR
+category: dry
+summary: Maximum-likelihood, Monte Carlo estimator of copy number for large tandem repeat expansions from short-read data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/gr.280563.125
+  year: 2025
+  journal: Genome Res
+  first_author: Al-Abri R
+  last_author: Gürsoy G
+  pmid: '40841169'
+  pmcid: PMC12667716
+  title: Estimating the size of long tandem repeat expansions from short reads with ScatTR
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce ScatTR, a novel computational method that leverages a maximum likelihood framework to estimate
+  the copy number of large TR expansions from short-read sequencing data.

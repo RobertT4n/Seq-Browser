@@ -1,0 +1,25 @@
+name: V-seq
+category: wet
+summary: Targeted viral genome sequencing by multiplexing tiled virus-specific reverse-transcription primers at the cDNA synthesis
+  step.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+reference:
+  doi: 10.1101/2020.08.15.252510
+  year: 2020
+  journal: bioRxiv
+  first_author: Guo L
+  last_author: Yin Y
+  title: Rapid cost-effective viral genome sequencing by V-seq
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we describe V-seq, an inexpensive, fast, and scalable method that performs targeted viral genome sequencing
+  by multiplexing virus-specific primers at the cDNA synthesis step.

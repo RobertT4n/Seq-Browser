@@ -1,0 +1,28 @@
+name: dTNT-seq
+category: wet
+summary: Dielectrophoresis trapping plus nanowell transfer that loads cells and beads in a sub-Poisson manner for scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1021/acsnano.0c02953
+  year: 2020
+  journal: ACS Nano
+  first_author: Bai Z
+  last_author: Fan R
+  pmid: '32437127'
+  title: An Integrated Dielectrophoresis-Trapping and Nanowell Transfer Approach to Enable Double-Sub-Poisson Single-Cell
+    RNA Sequencing
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present dTNT-seq, an integrated dielectrophoresis (DEP)-trapping-nanowell-transfer (dTNT) approach to perform
+  cell trapping and bead loading both in a sub-Poisson manner to facilitate scRNA-seq.

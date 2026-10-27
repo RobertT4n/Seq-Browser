@@ -1,0 +1,28 @@
+name: CAD-C
+category: wet
+summary: Proximity ligation using an engineered caspase-activated DNase in place of MNase, giving Micro-C-like contact maps
+  and sub-nucleosomal chromosome walks.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- dnase-digestion
+- proximity-ligation
+variant_of:
+- micro-c
+reference:
+  doi: 10.64898/2025.12.22.695891
+  year: 2025
+  journal: bioRxiv
+  first_author: Soroczynski J
+  last_author: Risca VI
+  title: 'CAD-C: An engineered nuclease enables repair-free  <i>in situ</i>  proximity ligation and nucleosome-resolution
+    chromosome walks in human cells'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To overcome these limitations, we engineered a TEV protease-activatable caspase-activated DNase (CAD) to enable
+  an efficient, low-sequence-bias, and high-resolution proximity ligation assay we call CAD-C.

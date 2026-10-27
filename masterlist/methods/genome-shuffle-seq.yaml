@@ -1,0 +1,30 @@
+name: Genome-Shuffle-seq
+category: wet
+summary: Multiplexed generation and sequencing-based mapping of thousands of structural variants in mammalian genomes, with
+  SV identity co-captured in single-cell transcriptomes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1126/science.ado5978
+  year: 2025
+  journal: Science
+  first_author: Pinglay S
+  last_author: Shendure J
+  pmid: '39883753'
+  pmcid: PMC11931979
+  title: Multiplex generation and single-cell analysis of structural variants in mammalian genomes
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: we developed Genome-Shuffle-seq, a method that enables the multiplex generation and mapping of thousands of SVs
+  (deletions, inversions, translocations, and extrachromosomal circles) throughout mammalian genomes.

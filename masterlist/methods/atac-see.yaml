@@ -1,0 +1,28 @@
+name: ATAC-see
+category: wet
+summary: Transposase-mediated in situ imaging of accessible chromatin, followed by cell sorting and sequencing to identify
+  the imaged elements.
+readouts:
+- chromatin-accessibility
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- tn5
+- imaging-guided-selection
+- facs-sorting
+reference:
+  doi: 10.1038/nmeth.4031
+  year: 2016
+  journal: Nat Methods
+  first_author: Chen X
+  last_author: Chang HY
+  pmid: '27749837'
+  pmcid: PMC5509561
+  title: ATAC-see reveals the accessible genome by transposase-mediated imaging and sequencing
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: ATAC-see, a transposase-mediated imaging technology that employs direct imaging of the accessible genome in situ,
+  cell sorting, and deep sequencing to reveal the identity of the imaged elements

@@ -1,0 +1,32 @@
+name: SHARE-TRACE
+category: wet
+summary: SHARE-seq extension that jointly profiles gene expression, chromatin accessibility and clonal barcodes in the same
+  single cells.
+readouts:
+- chromatin-accessibility
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- split-pool-barcoding
+variant_of:
+- share-seq
+reference:
+  doi: 10.1038/s41586-026-10258-4
+  year: 2026
+  journal: Nature
+  first_author: Nagaraja S
+  last_author: Buenrostro JD
+  pmid: '41882356'
+  pmcid: PMC13083248
+  title: Epigenetic memory of colitis promotes tumour growth
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Further, we develop SHARE-TRACE, a method that enables simultaneous profiling of gene expression, chromatin accessibility
+  and clonal history in single cells

@@ -1,0 +1,31 @@
+name: scGESTALT
+category: wet
+summary: Inducible CRISPR-Cas9 barcode lineage recording combined with single-cell RNA-seq to link lineage trees to cell types.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/nbt.4103
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Raj B
+  last_author: Schier AF
+  pmid: '29608178'
+  pmcid: PMC5938111
+  title: Simultaneous single-cell profiling of lineages and cell types in the vertebrate brain
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present scGESTALT, which combines the lineage recording capabilities of GESTALT with cell-type identification
+  by single-cell RNA sequencing.

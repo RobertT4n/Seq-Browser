@@ -1,0 +1,26 @@
+name: multi-target CRISPR
+category: wet
+summary: Cas9 induces double-strand breaks at many endogenous sites by targeting repetitive genomic regions, with amplicon
+  sequencing of the repair outcomes.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/bs.mie.2025.01.011
+  year: 2025
+  journal: Methods Enzymol
+  first_author: Marin-Gonzalez A
+  last_author: Ha T
+  pmid: '40121069'
+  title: Measuring double-strand break repair events in mammalian cells with multi-target CRISPR.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'CONFIDENCE: abstract is a methods-chapter description; novelty may rest on earlier publication, check original
+  tool paper'
+evidence: To address these limitations, we developed multi-target CRISPR, a Cas9-based tool to controllably induce DSBs in
+  high-throughput at endogenous sites, by leveraging repetitive genomic regions.

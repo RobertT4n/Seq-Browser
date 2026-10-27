@@ -1,0 +1,26 @@
+name: SpatialGlue
+category: dry
+summary: Dual-attention graph neural network that integrates spatial location with each omics layer and then across layers
+  to define spatial domains.
+readouts:
+- chromatin-accessibility
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02316-4
+  year: 2024
+  journal: Nat Methods
+  first_author: Long Y
+  last_author: Chen J
+  pmid: '38907114'
+  pmcid: PMC11399094
+  title: Deciphering spatial domains from spatial multi-omics with SpatialGlue.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce SpatialGlue, a graph neural network model with a dual-attention mechanism that deciphers spatial
+  domains by intra-omics integration of spatial location and omics measurement followed by cross-omics integration.

@@ -1,0 +1,29 @@
+name: FD-seq
+category: wet
+summary: Droplet-based single-cell RNA-seq of paraformaldehyde-fixed, stained and sorted cells, preserving mRNA integrity
+  during fixation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- sample-preservation
+- facs-sorting
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1101/2020.09.17.302232
+  year: 2020
+  journal: bioRxiv
+  first_author: Van Phan H
+  last_author: Tay S
+  title: Fixed single-cell RNA sequencing for understanding virus infection and host response
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present FD-seq, a high-throughput method for droplet-based RNA sequencing of paraformaldehyde-fixed, stained
+  and sorted single-cells.

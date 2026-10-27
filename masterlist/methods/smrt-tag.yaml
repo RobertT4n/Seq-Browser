@@ -1,0 +1,26 @@
+name: SMRT-Tag
+category: wet
+summary: PCR-free, low-input PacBio single-molecule library method that uses Tn5 tagmentation to profile variants and CpG
+  methylation on native DNA.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+reference:
+  doi: 10.1101/2022.08.07.502893
+  year: 2022
+  journal: bioRxiv
+  first_author: Nanda AS
+  last_author: Ramani V
+  title: Sensitive multimodal profiling of native DNA by transposase-mediated single-molecule sequencing
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: 'We present SMRT-Tag: a multiplexable, PCR-free approach for constructing low-input, single-molecule Pacific Biosciences
+  (PacBio) sequencing libraries through Tn5 transposition.'

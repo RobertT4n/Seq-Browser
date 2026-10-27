@@ -1,0 +1,21 @@
+name: MitoDrift
+category: dry
+summary: Probabilistic, drift-aware framework that refines single-cell lineage trees built from mitochondrial DNA mutations.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.02.12.705660
+  year: 2026
+  journal: bioRxiv
+  first_author: Gao T
+  last_author: Sankaran VG
+  title: Modeling mitochondrial inheritance enables high-precision single-cell lineage tracing in humans
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present MitoDrift, a probabilistic framework that integrates Wright-Fisher drift dynamics with sparse single-cell
+  measurements to produce confidence-refined lineage trees enriched for accurate clonal relationships.

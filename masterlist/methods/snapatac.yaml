@@ -1,0 +1,22 @@
+name: SnapATAC
+category: dry
+summary: Software package for scATAC-seq analysis, with a Nystrom-based embedding that scales to around a million cells.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-21583-9
+  year: 2021
+  journal: Nat Commun
+  first_author: Fang R
+  last_author: Ren B
+  pmid: '33637727'
+  pmcid: PMC7910485
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce SnapATAC, a software package for analyzing scATAC-seq datasets.

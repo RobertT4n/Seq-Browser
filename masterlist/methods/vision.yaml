@@ -1,0 +1,22 @@
+name: VISION
+category: dry
+summary: Annotates sources of variation in single-cell RNA-seq data directly on the cell-cell similarity manifold and produces
+  an interactive web report.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/403055
+  year: 2018
+  journal: bioRxiv
+  first_author: DeTomaso D
+  last_author: Yosef N
+  title: Functional Interpretation of Single-Cell Similarity Maps
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present VISION, a tool for annotating the sources of variation in single cell RNA-seq data in an automated, unbiased
+  and scalable manner.

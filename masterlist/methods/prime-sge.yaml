@@ -1,0 +1,32 @@
+name: prime-SGE
+category: wet
+summary: Prime-editing libraries install point mutations across genes and score them by sequencing pegRNA abundance under
+  drug selection.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- saturation-editing
+- prime-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+variant_of:
+- saturation-editing
+reference:
+  doi: 10.1016/j.xgen.2026.101167
+  year: 2026
+  journal: Cell Genom
+  first_author: Abadie FMC
+  last_author: Starita LM
+  pmid: '41722572'
+  pmcid: PMC13174216
+  title: A multiplex, prime editing framework for identifying drug resistance variants at scale
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we describe prime-SGE, a prime editing-based framework in which libraries of specific point mutations are
+  installed into genes throughout the genome and then functionally assessed by sequencing of prime editing guide RNAs (pegRNAs)
+  rather than the mutations themselves.

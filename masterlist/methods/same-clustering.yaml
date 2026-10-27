@@ -1,0 +1,23 @@
+name: SAME-clustering
+category: dry
+summary: Ensemble clustering approach for scRNA-seq that aggregates mixture-model results into robust cluster assignments.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz959
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Huh R
+  last_author: Li Y
+  pmid: '31777938'
+  pmcid: PMC6943136
+  title: 'SAME-clustering: Single-cell Aggregated Clustering via Mixture Model Ensemble'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present SAME-clustering, a mixture model-based approach that takes clustering solutions from multiple methods
+  and selects a maximally diverse subset to produce an improved ensemble solution.

@@ -1,0 +1,28 @@
+name: scFTD-seq
+category: wet
+summary: Microchip platform using freeze-thaw cell lysis for portable, highly distributed single-cell 3' mRNA profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+builds_on:
+- microwell-seq
+reference:
+  doi: 10.1093/nar/gky1173
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Dura B
+  last_author: Fan R
+  pmid: '30462277'
+  pmcid: PMC6379653
+  title: 'scFTD-seq: freeze-thaw lysis based, portable approach toward highly distributed single-cell 3'' mRNA profiling.'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present scFTD-seq, a microchip platform for performing single-cell freeze-thaw lysis directly toward 3'
+  mRNA sequencing.

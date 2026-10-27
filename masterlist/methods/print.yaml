@@ -1,0 +1,25 @@
+name: PRINT
+category: dry
+summary: Computational footprinting method that calls multi-scale protein footprints from bulk and single-cell chromatin accessibility
+  data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-024-08443-4
+  year: 2025
+  journal: Nature
+  first_author: Hu Y
+  last_author: Buenrostro JD
+  pmid: '39843737'
+  pmcid: PMC11839466
+  title: Multiscale footprints reveal the organization of cis-regulatory elements
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we developed PRINT, a computational method that identifies footprints of DNA-protein interactions from bulk
+  and single-cell chromatin accessibility data across multiple scales of protein size.

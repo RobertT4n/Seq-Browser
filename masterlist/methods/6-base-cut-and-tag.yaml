@@ -1,0 +1,29 @@
+name: 6-base-CUT&Tag
+category: wet
+summary: CUT&Tag-based method that sequences 5mC and 5hmC simultaneously at target chromatin features such as histone modifications.
+readouts:
+- dna-methylation
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- bisulfite-or-enzymatic-conversion
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41467-026-69429-6
+  year: 2026
+  journal: Nat Commun
+  first_author: Araujo Tavares RC
+  last_author: Balasubramanian S
+  pmid: '41667493'
+  pmcid: PMC13002996
+  title: Sequencing DNA methylation and hydroxymethylation at co-occurring chromatin features
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To address this key question, we report 6-base-CUT&Tag, a method for simultaneous 6-base DNA sequencing at target
+  chromatin features.

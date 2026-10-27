@@ -1,0 +1,25 @@
+name: scPRS
+category: dry
+summary: Graph neural network that computes single-cell-resolved polygenic risk scores by integrating reference single-cell
+  chromatin accessibility profiles.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-025-02725-6
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Zhang S
+  last_author: Snyder MP
+  pmid: '40715455'
+  pmcid: PMC13180658
+  title: Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We introduce scPRS, a graph neural network-based framework that computes single-cell-resolved PRSs by integrating
+  reference single-cell chromatin accessibility profiles.

@@ -1,0 +1,22 @@
+name: ASTRO
+category: dry
+summary: Automated pipeline for whole-transcriptome spatial transcriptomics, optimised for FFPE tissue and non-coding RNAs.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf688
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhang D
+  last_author: Gerstein M
+  pmid: '41495477'
+  pmcid: PMC12866646
+  title: 'ASTRO: Automated Spatial-Transcriptome whole RNA Output'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present ASTRO, an automated pipeline developed to process spatial transcriptomics data.

@@ -1,0 +1,29 @@
+name: snmC-seq2
+category: wet
+summary: Improved single-nucleus methylome library protocol with better read mapping, fewer artifactual reads and higher library
+  complexity than snmC-seq.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- plate-based
+variant_of:
+- snmc-seq
+reference:
+  doi: 10.1038/s41467-018-06355-2
+  year: 2018
+  journal: Nat Commun
+  first_author: Luo C
+  last_author: Ecker JR
+  pmid: '30237449'
+  pmcid: PMC6147798
+  title: Robust single-cell DNA methylome profiling with snmC-seq2.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we report snmC-seq2, which provides improved read mapping, reduced artifactual reads, enhanced throughput,
+  as well as increased library complexity and coverage uniformity compared to snmC-seq.

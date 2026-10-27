@@ -1,0 +1,23 @@
+name: SciPhy
+category: dry
+summary: Bayesian phylogenetic inference tool for sequential CRISPR lineage-tracing data that jointly estimates time-scaled
+  trees and population parameters.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s41467-026-73377-6
+  year: 2026
+  journal: Nat Commun
+  first_author: Seidel S
+  last_author: Stadler T
+  pmid: '42270637'
+  pmcid: PMC13402801
+  title: 'SciPhy: A Bayesian phylogenetic framework using sequential genetic lineage tracing data'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: we introduce SciPhy, a simulation and inference tool implemented in BEAST 2.

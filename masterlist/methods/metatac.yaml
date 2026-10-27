@@ -1,0 +1,28 @@
+name: METATAC
+category: wet
+summary: High-sensitivity single-cell ATAC-seq using multiplexed end-tagging amplification of Tn5-tagged accessible chromatin.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- plate-based
+builds_on:
+- scatac-seq
+reference:
+  doi: 10.1073/pnas.2206450119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wu H
+  last_author: Xie XS
+  pmid: '36161934'
+  pmcid: PMC9546615
+  title: Highly sensitive single-cell chromatin accessibility assay and transcriptome coassay with METATAC
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: we report a high-sensitivity scATAC-seq method, termed multiplexed end-tagging amplification of transposase accessible
+  chromatin (METATAC)

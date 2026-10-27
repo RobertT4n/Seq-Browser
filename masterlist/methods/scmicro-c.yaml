@@ -1,0 +1,30 @@
+name: scMicro-C
+category: wet
+summary: Single-cell Micro-C, an MNase-based 3D genome mapping method with about 5 kb resolution.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- mnase
+- proximity-ligation
+variant_of:
+- micro-c
+builds_on:
+- single-cell-hi-c
+reference:
+  doi: 10.1038/s41588-025-02247-6
+  year: 2025
+  journal: Nat Genet
+  first_author: Wu H
+  last_author: Xie XS
+  pmid: '40603633'
+  pmcid: PMC12283367
+  title: Single-cell Micro-C profiles 3D genome structures at high resolution and characterizes multi-enhancer hubs
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we report single-cell Micro-C (scMicro-C), a micrococcal nuclease-based three-dimensional (3D) genome mapping
+  technique with an improved spatial resolution of 5 kb

@@ -1,0 +1,26 @@
+name: snAP-seq
+category: wet
+summary: Chemically selects abasic sites via their aldehyde group and sequences them to map abasic lesions at single-nucleotide
+  resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1038/s41557-019-0279-9
+  year: 2019
+  journal: Nat Chem
+  first_author: Liu ZJ
+  last_author: Balasubramanian S
+  pmid: '31209299'
+  pmcid: PMC6589398
+  title: Sequencing abasic sites in DNA at single-nucleotide resolution
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'chemistry approximate: no vocabulary tag for aldehyde-reactive probe labelling; oligo-capture is nearest'
+evidence: Here we present snAP-seq, a chemical approach that selectively exploits the reactive aldehyde moiety at abasic sites
+  to reveal their location within DNA at single-nucleotide resolution.

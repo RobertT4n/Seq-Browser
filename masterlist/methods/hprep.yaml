@@ -1,0 +1,23 @@
+name: HPRep
+category: dry
+summary: Reproducibility metric for HiChIP and PLAC-seq datasets that accounts for the unbalanced reads introduced by immunoprecipitation.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/cimb43020082
+  year: 2021
+  journal: Curr Issues Mol Biol
+  first_author: Rosen JD
+  last_author: Li Y
+  pmid: '34563051'
+  pmcid: PMC8929028
+  title: 'HPRep: Quantifying Reproducibility in HiChIP and PLAC-Seq Datasets'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present HPRep, a stratified and weighted correlation metric derived from normalized contact counts, to
+  quantify reproducibility in HiChIP and PLAC-Seq data.

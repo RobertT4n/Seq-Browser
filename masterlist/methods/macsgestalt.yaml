@@ -1,0 +1,31 @@
+name: macsGESTALT
+category: wet
+summary: Inducible CRISPR-Cas9 lineage recorder that captures barcode lineage and transcriptomes from the same single cells.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1016/j.ccell.2021.05.005
+  year: 2021
+  journal: Cancer Cell
+  first_author: Simeonov KP
+  last_author: Lengner CJ
+  pmid: '34115987'
+  pmcid: PMC8782207
+  title: Single-cell lineage tracing of metastatic cancer reveals selection of hybrid EMT states
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present macsGESTALT, an inducible CRISPR-Cas9-based lineage recorder with highly efficient single-cell capture
+  of both transcriptional and phylogenetic information.

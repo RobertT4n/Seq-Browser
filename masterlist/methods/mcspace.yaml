@@ -1,0 +1,24 @@
+name: MCSPACE
+category: dry
+summary: Probabilistic model that infers spatially coherent microbial assemblages and their dynamics from microbiome co-localization
+  data.
+readouts:
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-025-02279-4
+  year: 2025
+  journal: Microbiome
+  first_author: Uppal G
+  last_author: Gerber GK
+  pmid: '41388559'
+  pmcid: PMC12817806
+  title: 'MCSPACE: inferring microbiome spatiotemporal dynamics from high-throughput co-localization data.'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To address these challenges, we developed MCSPACE, a probabilistic AI method that infers, from microbiome co-localization
+  data, spatially coherent assemblages of taxa, their dynamics over time, and their responses to perturbations.

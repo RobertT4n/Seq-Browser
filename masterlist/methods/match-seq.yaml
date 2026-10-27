@@ -1,0 +1,27 @@
+name: match-seq
+category: wet
+summary: Sequencing-based cell proximity tracing in which virus-like particles transfer barcodes from sender to neighbouring
+  receiver cells.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.09.16.752238
+  year: 2026
+  journal: bioRxiv
+  first_author: Du PP
+  last_author: Bassik MC
+  title: <i>In vivo</i>  intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'MISSING_TAG: cell-cell proximity / intercellular barcode-transfer readout; no taxonomy readout describes it.
+  rna is only the read-out carrier.'
+evidence: we developed match-seq, an imaging-free, sequencing-based cell proximity tracing system that uses virus-like particles
+  to transmit barcodes between neighboring cells

@@ -1,0 +1,26 @@
+name: EPI-Clone
+category: wet
+summary: Transgene-free lineage tracing that uses stochastic DNA-methylation epimutations as clonal barcodes, read by targeted
+  single-cell methylation profiling.
+readouts:
+- dna-methylation
+- lineage
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41586-025-09041-8
+  year: 2025
+  journal: Nature
+  first_author: Scherer M
+  last_author: Velten L
+  pmid: '40399669'
+  pmcid: PMC12240852
+  title: Clonal tracing with somatic epimutations reveals dynamics of blood ageing
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To that end, we develop EPI-Clone, a method for transgene-free lineage tracing at scale.

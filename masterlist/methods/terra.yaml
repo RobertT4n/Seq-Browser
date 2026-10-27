@@ -1,0 +1,21 @@
+name: TERRA
+category: dry
+summary: Spatial transcriptomics foundation model pretrained on over 100 million human cells to learn transferable tissue-organisation
+  representations.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.07.29.741565
+  year: 2026
+  journal: bioRxiv
+  first_author: Birk S
+  last_author: Lotfollahi M
+  title: Multi-scale modeling of human tissues from spatial transcriptomics with TERRA
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present TERRA, a foundation model pretrained on 112 million human cells profiled by spatial transcriptomics.

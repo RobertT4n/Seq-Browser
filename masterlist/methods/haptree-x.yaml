@@ -1,0 +1,24 @@
+name: HapTree-X
+category: dry
+summary: Probabilistic haplotype phasing that uses allele-specific expression to link variants on the same chromosome from
+  RNA-seq, exome, genome and 10X data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-18320-z
+  year: 2020
+  journal: Nat Commun
+  first_author: Berger E
+  last_author: Berger B
+  pmid: '32938926'
+  pmcid: PMC7494856
+  title: Improved haplotype inference by exploiting long-range linking and allelic imbalance in RNA-seq datasets.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce HapTree-X, a probabilistic framework that utilizes latent long-range information to reconstruct
+  unspecified haplotypes in diploid and polyploid organisms.

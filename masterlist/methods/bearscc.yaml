@@ -1,0 +1,22 @@
+name: BEARscc
+category: dry
+summary: Tool that assesses the robustness of single-cell clusters using simulated technical replicates.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03608-y
+  year: 2018
+  journal: Nat Commun
+  first_author: Severson DT
+  last_author: Schuster-Böckler B
+  pmid: '29567991'
+  pmcid: PMC5864873
+  title: BEARscc determines robustness of single-cell clusters using simulated technical replicates
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present BEARscc, a tool that uses RNA spike-in controls to simulate experiment-specific technical replicates.

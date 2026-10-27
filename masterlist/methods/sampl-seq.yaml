@@ -1,0 +1,24 @@
+name: SAMPL-seq
+category: wet
+summary: Split-and-pool barcoding that samples microbial composition of micron-scale sub-communities to map spatial co-localization
+  in the gut microbiome.
+readouts:
+- microbial-composition
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- split-pool-barcoding
+reference:
+  doi: 10.1101/2024.10.08.617108
+  year: 2024
+  journal: bioRxiv
+  first_author: Richardson M
+  last_author: Wang HH
+  title: SAMPL-seq reveals micron-scale spatial hubs in the human gut microbiome
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we describe a high-throughput and streamlined method, dubbed SAMPL-seq, that samples microbial composition
+  of micron-scale sub-communities with split-and-pool barcoding to capture spatial colocalization in a complex consortium.

@@ -1,0 +1,27 @@
+name: SAMOSA-ChAAT
+category: wet
+summary: Massively multiplex single-molecule footprinting of reconstituted chromatin and in vivo nucleosomes, mapping nucleosome
+  structure molecule by molecule.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41594-023-01093-6
+  year: 2023
+  journal: Nat Struct Mol Biol
+  first_author: Abdulhay NJ
+  last_author: Ramani V
+  pmid: '37696956'
+  pmcid: PMC10584690
+  title: Nucleosome density shapes kilobase-scale regulation by a mammalian chromatin remodeler
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: 'Here, to address this deficit, we present SAMOSA-ChAAT: a massively multiplex single-molecule footprinting approach
+  to map the primary structure of individual, reconstituted chromatin templates subject to virtually any chromatin-associated
+  reaction.'

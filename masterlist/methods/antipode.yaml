@@ -1,0 +1,22 @@
+name: ANTIPODE
+category: dry
+summary: Deep-learning variational inference framework that integrates single-cell datasets, finds homologous cell types and
+  parcellates differential expression across species.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.10.18.683238
+  year: 2025
+  journal: bioRxiv
+  first_author: Schmitz MT
+  last_author: Pollen AA
+  title: ANTIPODE Provides a Global View of Cell Type Homology and Transcriptomic Divergence in the Developing Mammalian Brain
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present ANTIPODE, a deep-learning variational inference framework that simultaneously integrates single-cell
+  datasets, identifies homologous cell types, and parcellates differential expression across cell types, modules, and covariance.

@@ -1,0 +1,27 @@
+name: multiplex-GAM
+category: wet
+summary: Faster and more affordable version of genome architecture mapping that maps ligation-free chromatin contacts genome-wide.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- cryosectioning
+variant_of:
+- gam
+reference:
+  doi: 10.1038/s41592-023-01903-1
+  year: 2023
+  journal: Nat Methods
+  first_author: Beagrie RA
+  last_author: Pombo A
+  pmid: '37336949'
+  pmcid: PMC10333126
+  title: 'Multiplex-GAM: genome-wide identification of chromatin contacts yields insights overlooked by Hi-C'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we develop multiplex-GAM, a faster and more affordable version of genome architecture mapping (GAM), a ligation-free
+  technique that maps chromatin contacts genome-wide.

@@ -1,0 +1,23 @@
+name: MARVEL
+category: dry
+summary: R package for single-cell alternative splicing analysis of plate- and droplet-based RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac1260
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Wen WX
+  last_author: Thongjuea S
+  pmid: '36631981'
+  pmcid: PMC10018366
+  title: 'MARVEL: an integrated alternative splicing analysis platform for single-cell RNA sequencing data'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present MARVEL, a comprehensive R package for single-cell splicing analysis applicable to RNA sequencing
+  generated from the plate- and droplet-based methods.

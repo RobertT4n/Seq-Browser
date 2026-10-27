@@ -1,0 +1,25 @@
+name: APEX-seq
+category: wet
+summary: Proximity-labelling RNA sequencing that tags RNAs near APEX2 in defined subcellular compartments to map RNA localisation.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2019.05.027
+  year: 2019
+  journal: Cell
+  first_author: Fazal FM
+  last_author: Ting AY
+  pmid: '31230715'
+  pmcid: PMC6786773
+  title: Atlas of Subcellular RNA Localization Revealed by APEX-Seq
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We introduce APEX-seq, a method for RNA sequencing based on direct proximity labeling of RNA using the peroxidase
+  enzyme APEX2.

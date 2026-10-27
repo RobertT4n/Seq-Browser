@@ -1,0 +1,27 @@
+name: OligoFISSEQ
+category: wet
+summary: Fluorescence in situ sequencing of barcoded Oligopaint probes to image many targeted genomic regions and trace chromosome
+  3D paths.
+readouts:
+- 3d-genome
+resolution:
+- subcellular
+scope: targeted
+chemistry:
+- imaging-guided-selection
+reference:
+  doi: 10.1038/s41592-020-0890-0
+  year: 2020
+  journal: Nat Methods
+  first_author: Nguyen HQ
+  last_author: Wu CT
+  pmid: '32719531'
+  pmcid: PMC7537785
+  title: 3D mapping and accelerated super-resolution imaging of the human genome using in situ sequencing
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'chemistry approximate: in-situ sequencing-by-ligation has no vocabulary tag; imaging-guided-selection is nearest.
+  Confirm imaging-based readout belongs in the database'
+evidence: We introduce OligoFISSEQ, a suite of three methods that leverage fluorescence in situ sequencing (FISSEQ) of barcoded
+  Oligopaint probes to enable the rapid visualization of many targeted genomic regions.

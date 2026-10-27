@@ -1,0 +1,28 @@
+name: Swap-seq
+category: wet
+summary: Pooled twin prime-editing deletion screen with flow sorting that measures how endogenous regulatory elements change
+  expression of a nearby gene.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- prime-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+- facs-sorting
+builds_on:
+- pooled-paired-prime-editing-screen
+reference:
+  doi: 10.64898/2026.10.08.756856
+  year: 2026
+  journal: bioRxiv
+  pmcid: PMC13692272
+  title: Systematic mapping of enhancers, silencers, and topological elements with prime editing deletion screens
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we develop Swap-seq, a method that combines pooled twin prime editing with flow-sorting to delete hundreds
+  of endogenous regulatory sequences and measure their quantitative effects on the expression of a nearby gene.

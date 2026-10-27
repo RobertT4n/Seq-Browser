@@ -1,0 +1,29 @@
+name: MNase-SSP
+category: wet
+summary: Single-stranded library preparation for MNase-digested chromatin that enriches short fragments to map nucleosomes
+  and transcription factor occupancy together.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+variant_of:
+- mnase-seq
+reference:
+  doi: 10.1016/j.celrep.2019.02.007
+  year: 2019
+  journal: Cell Rep
+  first_author: Ramani V
+  last_author: Shendure J
+  pmid: '30811994'
+  pmcid: PMC6582983
+  title: High Sensitivity Profiling of Chromatin Structure by MNase-SSP
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we introduce MNase-SSP, a single-stranded sequencing library preparation method for nuclease-digested chromatin
+  that enables simultaneous mapping of TF and nucleosome positions.

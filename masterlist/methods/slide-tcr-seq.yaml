@@ -1,0 +1,33 @@
+name: Slide-TCR-seq
+category: wet
+summary: Slide-seq-based spatial method that co-profiles whole transcriptomes and T cell receptor sequences in intact tissue
+  at 10-micron resolution.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+builds_on:
+- slide-seq
+introduces:
+- immune-repertoire
+reference:
+  doi: 10.1016/j.immuni.2022.09.002
+  year: 2022
+  journal: Immunity
+  first_author: Liu S
+  last_author: Chen F
+  pmid: '36223726'
+  pmcid: PMC9745674
+  title: Spatial maps of T cell receptors and transcriptomes reveal distinct immune niches and interactions in the adaptive
+    immune response
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we developed Slide-TCR-seq, a 10-μm-resolution method, to sequence whole transcriptomes and TCRs within intact
+  tissues.

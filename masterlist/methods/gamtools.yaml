@@ -1,0 +1,21 @@
+name: GAMtools
+category: dry
+summary: Analysis pipeline for genome architecture mapping data covering read mapping, slice assignment, QC and proximity
+  matrices.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/114710
+  year: 2017
+  journal: bioRxiv
+  first_author: Beagrie RA
+  last_author: Schueler M
+  title: 'GAMtools: an automated pipeline for analysis of Genome Architecture Mapping data'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present GAMtools, a pipeline for analysing GAM datasets.

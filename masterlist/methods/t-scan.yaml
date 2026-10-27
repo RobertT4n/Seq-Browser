@@ -1,0 +1,26 @@
+name: T-Scan
+category: wet
+summary: Lentiviral antigen libraries are expressed in target cells, T-cell-recognised cells are sorted with a granzyme B
+  reporter, and the antigens are identified by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.1016/j.cell.2019.07.009
+  year: 2019
+  journal: Cell
+  first_author: Kula T
+  last_author: Elledge SJ
+  pmid: '31398327'
+  pmcid: PMC6939866
+  title: 'T-Scan: A Genome-wide Method for the Systematic Discovery of T Cell Epitopes'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present T-Scan, a high-throughput platform for identification of antigens productively recognized by T
+  cells.

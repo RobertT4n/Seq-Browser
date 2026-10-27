@@ -1,0 +1,24 @@
+name: scMeFormer
+category: dry
+summary: Transformer model that imputes CpG methylation states in single nuclei from low-coverage snmC-seq-type data.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.100774
+  year: 2025
+  journal: Cell Genom
+  first_author: Zhou J
+  last_author: Han S
+  pmid: '39986279'
+  pmcid: PMC11960545
+  title: Deep learning imputes DNA methylation states in single cells and enhances the detection of epigenetic alterations
+    in schizophrenia.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We introduce scMeFormer, a transformer-based deep learning model for imputing DNAm states at each CpG site in single
+  cells.

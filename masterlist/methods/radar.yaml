@@ -1,0 +1,23 @@
+name: RADAR
+category: dry
+summary: Differential-methylation caller for MeRIP-seq that models pre-IP expression and post-IP counts with a random-effect
+  model.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1915-9
+  year: 2019
+  journal: Genome Biol
+  first_author: Zhang Z
+  last_author: Chen M
+  pmid: '31870409'
+  pmcid: PMC6927177
+  title: 'RADAR: differential analysis of MeRIP-seq data with a random effect model'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We develop RADAR, a comprehensive analytical tool for detecting differentially methylated loci in MeRIP-seq data.

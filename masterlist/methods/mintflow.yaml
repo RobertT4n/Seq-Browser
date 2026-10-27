@@ -1,0 +1,22 @@
+name: MintFlow
+category: dry
+summary: Generative AI model that learns how tissue microenvironments shape cell states and predicts reprogramming under perturbation
+  from spatial data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.06.24.661094
+  year: 2025
+  journal: bioRxiv
+  first_author: Akbarnejad A
+  last_author: Lotfollahi M
+  title: Mapping and reprogramming human tissue microenvironments with MintFlow
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: We present MintFlow, a generative AI algorithm that learns how the tissue microenvironment influences cell states
+  and predicts how tissue perturbations can reprogram them.

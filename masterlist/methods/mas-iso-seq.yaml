@@ -1,0 +1,27 @@
+name: MAS-ISO-seq
+category: wet
+summary: Programmable concatenation of cDNAs into single long molecules to multiply long-read isoform sequencing throughput.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+builds_on:
+- rna-seq
+reference:
+  doi: 10.1101/2021.10.01.462818
+  year: 2021
+  journal: bioRxiv
+  first_author: Al’Khafaji AM
+  last_author: Hacohen N
+  title: High-throughput RNA isoform sequencing using programmable cDNA concatenation
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce MAS-ISO-seq, a technique for programmably concatenating cDNAs into single molecules optimal for
+  long-read sequencing, boosting the throughput >15 fold to nearly 40 million cDNA reads per run on the Sequel IIe sequencer.

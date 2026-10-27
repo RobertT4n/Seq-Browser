@@ -1,0 +1,24 @@
+name: MULTI-seq
+category: wet
+summary: Lipid-tagged sample barcodes for multiplexing scRNA-seq samples and identifying doublets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1101/387241
+  year: 2018
+  journal: bioRxiv
+  first_author: McGinnis CS
+  last_author: Gartner ZJ
+  title: 'MULTI-seq: Scalable sample multiplexing for single-cell RNA sequencing using lipid-tagged indices'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: MULTI-seq reagents can barcode any cell type from any species with an accessible plasma membrane.

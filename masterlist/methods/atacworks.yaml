@@ -1,0 +1,25 @@
+name: AtacWorks
+category: dry
+summary: Deep-learning toolkit that denoises ATAC-seq coverage and calls base-pair-resolution peaks from low-input or low-quality
+  data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-21765-5
+  year: 2021
+  journal: Nat Commun
+  first_author: Lal A
+  last_author: Buenrostro JD
+  pmid: '33686069'
+  pmcid: PMC7940635
+  title: Deep learning-based enhancement of epigenomics data with AtacWorks
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we introduce AtacWorks, a deep learning toolkit to denoise sequencing coverage and identify regulatory peaks
+  at base-pair resolution from low cell count, low-coverage, or low-quality ATAC-seq data.

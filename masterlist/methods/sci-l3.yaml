@@ -1,0 +1,27 @@
+name: sci-L3
+category: wet
+summary: Three-level combinatorial-indexing single-cell sequencing with linear amplification, for single-cell genomes and
+  a genome plus transcriptome co-assay.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+reference:
+  doi: 10.1016/j.molcel.2019.08.002
+  year: 2019
+  journal: Mol Cell
+  first_author: Yin Y
+  last_author: Shendure J
+  pmid: '31495564'
+  pmcid: PMC6874760
+  title: High-Throughput Single-Cell Sequencing with Linear Amplification
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we describe sci-L3, a single-cell sequencing method that combines combinatorial indexing (sci-) and linear
+  (L) amplification.

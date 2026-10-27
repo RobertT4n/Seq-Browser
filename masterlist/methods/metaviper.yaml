@@ -1,0 +1,26 @@
+name: metaVIPER
+category: dry
+summary: Infers protein activity from RNA-seq signatures by integrating multiple non-tissue-matched interactomes, for orphan
+  tissues and single cells.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03843-3
+  year: 2018
+  journal: Nat Commun
+  first_author: Ding H
+  last_author: Califano A
+  pmid: '29662057'
+  pmcid: PMC5902599
+  title: Quantitative assessment of protein activity in orphan tissues and single cells using the metaVIPER algorithm
+  preprint_doi: 10.1101/252072
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To address this problem, we introduce metaVIPER, an algorithm designed to assess protein activity in tissue-independent
+  fashion by integrative analysis of multiple, non-tissue-matched interactomes.

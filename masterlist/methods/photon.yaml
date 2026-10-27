@@ -1,0 +1,27 @@
+name: PHOTON
+category: wet
+summary: Spatial transcriptomics that images RNA in situ and then sequences selected regions, giving RNA profiles at subcellular
+  resolution.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-025-59801-3
+  year: 2025
+  journal: Nat Commun
+  first_author: Rajachandran S
+  last_author: Chen H
+  pmid: '40368943'
+  pmcid: PMC12078482
+  title: Subcellular level spatial transcriptomics with PHOTON
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present PHOTON, a method which combines high resolution imaging with high throughput sequencing to achieve
+  spatial transcriptome profiling at subcellular resolution.

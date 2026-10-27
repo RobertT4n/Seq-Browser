@@ -24,6 +24,12 @@ best tags plus `needs_review: "MISSING_TAG: <what is missing>"`, and say so in y
 silent error; a flagged gap is a five-minute fix. (Origin: RAPPL-Seq, a ribosome-profiling method, was once labelled
 `rna` because no translation readout existed.)
 
+## Two lineage/scope rules (origin: direct-capture Perturb-seq was tagged `targeted`, DC-TAP-seq lineage flattened)
+- `scope` describes the method's DEFAULT readout. An optional add-on demonstrated in the same paper (e.g. hybridization
+  target enrichment of a whole-transcriptome library) does not make the method `targeted`.
+- If the paper says it "improves on", "modifies", "extends" or "is a version of" X, that is `variant_of: [x]`. Use
+  `builds_on` only for methods it borrows a component from (a vector, a capture chemistry, a barcoding scheme).
+
 ## Decide one of
 - `NEW_WET`: the paper introduces a new sequencing-based wet-lab assay/protocol (a new library-prep / molecular method,
   or a substantial named modification of one). It must be the paper's own contribution ("we present/develop X").

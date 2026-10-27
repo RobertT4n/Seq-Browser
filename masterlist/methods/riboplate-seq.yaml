@@ -1,0 +1,29 @@
+name: riboPLATE-seq
+category: wet
+summary: Paired PLATE-seq libraries of ribosome-associated and total mRNA from pooled, barcoded samples, using anti-rRNA immunoprecipitation
+  of polysomes.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- plate-based
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-022-09638-3
+  year: 2022
+  journal: Sci Rep
+  first_author: Metz JB
+  last_author: Sims PA
+  pmid: '35383235'
+  pmcid: PMC8983706
+  title: High-throughput translational profiling with riboPLATE-seq
+  preprint_doi: 10.1101/819094
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present riboPLATE-seq, a scalable method for generating paired libraries of ribosome-associated and total
+  mRNA.

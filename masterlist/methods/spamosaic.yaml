@@ -1,0 +1,26 @@
+name: SpaMosaic
+category: dry
+summary: Contrastive-learning and graph neural network tool that integrates spatial multi-omics datasets with partially overlapping
+  modalities and imputes missing modalities.
+readouts:
+- rna
+- protein
+- chromatin-accessibility
+- histone-modification
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02573-3
+  year: 2026
+  journal: Nat Genet
+  first_author: Yan X
+  last_author: Chen J
+  pmid: '42032296'
+  title: Mosaic integration of spatial multi-omics with SpaMosaic.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present SpaMosaic, a tool that uses contrastive learning and graph neural networks to build a modality-agnostic,
+  batch-corrected latent space for spatial domain identification and missing-modality imputation.

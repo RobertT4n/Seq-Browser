@@ -1,0 +1,30 @@
+name: Tri-C
+category: wet
+summary: 3C approach that captures concurrent chromatin interactions among multiple elements on individual alleles and within
+  single cells.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+- oligo-capture
+variant_of:
+- capture-c
+reference:
+  doi: 10.1038/s41588-018-0253-2
+  year: 2018
+  journal: Nat Genet
+  first_author: Oudelaar AM
+  last_author: Hughes JR
+  pmid: '30374068'
+  pmcid: PMC6265079
+  title: Single-allele chromatin interactions identify regulatory hubs in dynamic compartmentalized domains
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: To address this we developed Tri-C, a new chromosome conformation capture (3C) approach, to characterize concurrent
+  chromatin interactions at individual alleles.

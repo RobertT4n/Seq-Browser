@@ -1,0 +1,31 @@
+name: mtscATAC-seq
+category: wet
+summary: Droplet-based single-cell ATAC-seq that also calls mitochondrial DNA mutations, linking clonal lineage to chromatin
+  accessibility.
+readouts:
+- chromatin-accessibility
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- scatac-seq
+reference:
+  doi: 10.1038/s41587-020-0645-6
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Lareau CA
+  last_author: Sankaran VG
+  pmid: '32788668'
+  pmcid: PMC7878580
+  title: Massively parallel single-cell mitochondrial DNA genotyping and chromatin profiling
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce a high-throughput, droplet-based mitochondrial single-cell assay for transposase-accessible chromatin
+  with sequencing (scATAC-seq), a method that combines high-confidence mtDNA mutation calling in thousands of single cells
+  with their concomitant high-quality accessible chromatin profile.

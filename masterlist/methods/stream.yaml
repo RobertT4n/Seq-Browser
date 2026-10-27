@@ -1,0 +1,25 @@
+name: STREAM
+category: dry
+summary: Interactive toolkit that reconstructs and visualises single-cell differentiation trajectories from scRNA-seq and
+  scATAC-seq data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-09670-4
+  year: 2019
+  journal: Nat Commun
+  first_author: Chen H
+  last_author: Pinello L
+  pmid: '31015418'
+  pmcid: PMC6478907
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present STREAM, an interactive pipeline capable of disentangling and visualizing complex branching trajectories
+  from both single-cell transcriptomic and epigenomic data.

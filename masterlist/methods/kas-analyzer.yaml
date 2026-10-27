@@ -1,0 +1,24 @@
+name: KAS-Analyzer
+category: dry
+summary: Open-source analysis framework for KAS-seq and spKAS-seq data covering transcription metrics, SST enhancers and R-loop
+  mapping.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad121
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Lyu R
+  last_author: He C
+  pmid: '37745002'
+  pmcid: PMC10516523
+  title: 'KAS-Analyzer: a novel computational framework for exploring KAS-seq data'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we introduce KAS-Analyzer, the first comprehensive computational framework aimed at streamlining and enhancing
+  the analysis and interpretation of KAS-seq and spKAS-seq data.

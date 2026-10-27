@@ -1,0 +1,29 @@
+name: HiChIRP
+category: wet
+summary: RNA-centred chromosome conformation capture that maps chromatin contacts associated with a specific RNA of interest.
+readouts:
+- 3d-genome
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- restriction-digest
+builds_on:
+- hi-c
+reference:
+  doi: 10.1038/s41592-019-0407-x
+  year: 2019
+  journal: Nat Methods
+  first_author: Mumbach MR
+  last_author: Chang HY
+  pmid: '31133759'
+  pmcid: PMC6638558
+  title: HiChIRP reveals RNA-associated chromosome conformation
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we present HiChIRP, a method leveraging bio-orthogonal chemistry and optimized chromosome conformation capture
+  conditions

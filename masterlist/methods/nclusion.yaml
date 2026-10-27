@@ -1,0 +1,24 @@
+name: NCLUSION
+category: dry
+summary: Nonparametric Bayesian infinite mixture model that clusters scRNA-seq cells and selects marker genes jointly with
+  variational inference.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101329
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Nwizu C
+  last_author: Crawford L
+  pmid: '41825449'
+  pmcid: PMC13030991
+  title: Scalable nonparametric clustering with unified marker gene selection for single-cell RNA-seq data.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: 'Here, we present NCLUSION: a nonparametric infinite mixture model that leverages Bayesian sparse priors to identify
+  marker genes and cluster single-cell expression data simultaneously.'

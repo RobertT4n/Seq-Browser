@@ -1,0 +1,25 @@
+name: DSBCapture
+category: wet
+summary: Captures DNA double-strand breaks in situ with adaptors and maps them at single-nucleotide resolution by sequencing.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1038/nmeth.3960
+  year: 2016
+  journal: Nat Methods
+  first_author: Lensing SV
+  last_author: Balasubramanian S
+  pmid: '27525976'
+  pmcid: PMC5045719
+  title: 'DSBCapture: in situ capture and sequencing of DNA breaks'
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'chemistry approximate: in-situ adaptor ligation and capture has no exact vocabulary tag; oligo-capture is nearest'
+evidence: Here, we present DSBCapture, a sequencing-based method that captures DSBs in situ and directly maps these at single-nucleotide
+  resolution, enabling the study of DSB origin.

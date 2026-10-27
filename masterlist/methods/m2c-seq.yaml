@@ -1,0 +1,28 @@
+name: M2C-seq
+category: wet
+summary: Coassay that pairs METATAC scATAC-seq with MALBAC-DT transcriptomics in the same single cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+builds_on:
+- malbac-dt
+reference:
+  doi: 10.1073/pnas.2206450119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wu H
+  last_author: Xie XS
+  pmid: '36161934'
+  pmcid: PMC9546615
+  title: Highly sensitive single-cell chromatin accessibility assay and transcriptome coassay with METATAC
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: to develop a joint ATAC-RNA assay, termed METATAC and MALBAC-DT coassay by sequencing (M2C-seq)

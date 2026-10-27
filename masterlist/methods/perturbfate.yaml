@@ -1,0 +1,32 @@
+name: PerturbFate
+category: wet
+summary: Combinatorial-indexing single-cell platform that pairs pooled CRISPRi perturbations with nascent and steady-state
+  transcriptome and chromatin readouts.
+readouts:
+- rna
+- nascent-rna
+- chromatin-accessibility
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41586-026-10367-0
+  year: 2026
+  journal: Nature
+  first_author: Xu Z
+  last_author: Cao J
+  pmid: '41986722'
+  pmcid: PMC13233327
+  title: Mapping convergent regulators of melanoma drug resistance by PerturbFate
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here we present PerturbFate, a high-throughput, cost-effective, combinatorial-indexing single-cell platform that
+  enables systematic interrogation of massively parallel CRISPR interference perturbations across the full spectrum of gene
+  regulation

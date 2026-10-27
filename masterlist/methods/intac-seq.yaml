@@ -1,0 +1,32 @@
+name: InTAC-seq
+category: wet
+summary: Simultaneous genome-wide chromatin accessibility and intracellular protein abundance measurement in fixed cells,
+  with protein-based sorting.
+readouts:
+- chromatin-accessibility
+- protein
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+builds_on:
+- atac-seq
+reference:
+  doi: 10.1016/j.crmeth.2022.100188
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Baskar R
+  last_author: Bendall SC
+  pmid: '35463156'
+  pmcid: PMC9017139
+  title: Integrating transcription-factor abundance with chromatin accessibility in human erythroid lineage commitment.
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: 'CONFIDENCE: protein is measured via intracellular antibody staining and sorting, not sequenced; primary readout
+  is chromatin accessibility'
+evidence: In order to link TF protein abundance to changes in TF motif accessibility and open chromatin, we developed InTAC-seq,
+  a method for simultaneous quantification of genome-wide chromatin accessibility and intracellular protein abundance in fixed
+  cells.

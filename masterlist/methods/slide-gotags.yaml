@@ -1,0 +1,36 @@
+name: Slide-GoTags
+category: wet
+summary: Droplet-based single-nucleus spatial method that adds targeted transcript genotyping and TCR sequencing to snRNA-seq
+  from the same tissue slice.
+readouts:
+- rna
+- immune-repertoire
+- genome-sequence
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+- droplet-microfluidics
+- amplicon-pcr
+builds_on:
+- slide-tags
+- got
+reference:
+  doi: 10.1038/s41587-026-03194-1
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Nagler A
+  last_author: Wu CJ
+  pmid: '42486969'
+  title: Single-nucleus multimodal spatial transcriptomics reveals spatial colocalization of neoantigen-expressing tumor cells
+    and cognate T cells
+links: {}
+source: pi-sweep-2026-10-27
+added: '2026-10-27'
+needs_review: true
+evidence: Here, we developed Slide-GoTags, a droplet-based single-nucleus spatial transcriptomics approach that characterizes
+  neoantigen-specific immunity by integrating targeted transcript genotyping and T cell receptor (TCR) sequencing with single-nucleus
+  RNA sequencing from the same slice of frozen tissue.
