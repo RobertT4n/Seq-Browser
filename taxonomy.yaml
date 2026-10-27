@@ -19,6 +19,7 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   histone-modification: epigenome       # histone marks (ChIP / CUT&Tag on histone marks)
   protein-dna-binding: epigenome        # TF / chromatin-protein occupancy on DNA (ChIP, CUT&RUN, DamID)
   dna-methylation: epigenome            # 5mC / 5hmC on DNA (bisulfite, enzymatic, TAPS)
+  chromatin-condensability: epigenome   # how readily native nucleosomes condense (Condense-seq); a biophysical property, not accessibility
   rna: transcriptome                    # steady-state transcript abundance, isoforms, splicing (RNA-seq, scRNA-seq)
   nascent-rna: transcriptome            # newly made vs pre-existing RNA (metabolic labelling, nascent / run-on)
   translation: transcriptome            # ribosome occupancy / translatome (Ribo-seq, ribosome footprinting)
