@@ -26,11 +26,13 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   rna-structure: transcriptome          # RNA secondary/tertiary structure (SHAPE, DMS probing)
   rna-modification: transcriptome       # chemical marks / editing on RNA (m6A, pseudouridine, A-to-I)
   rna-protein-interaction: transcriptome  # where proteins bind RNA (CLIP family)
+  rna-rna-interaction: transcriptome      # RNA-RNA contacts / duplexes between transcripts (KARR-seq)
   rna-chromatin-interaction: transcriptome  # RNAs contacting chromatin / DNA (GRID-seq, MARGI, ChAR-seq)
   immune-repertoire: transcriptome      # TCR / BCR receptor sequences
   protein: proteome                     # protein abundance via antibody-oligo tags or similar (CITE-seq ADTs)
   glycan: proteome                      # cell-surface glycans (lectin-oligo tags)
   genome-sequence: genome               # genotype, CNV, SVs, assemblies, incl. RNA-virus genomes and strain typing
+  microbial-composition: genome         # which microbes are present, e.g. per spatial sub-community (SAMPL-seq)
   lineage: genome                       # cell lineage / clonal history recorded in cells (barcodes, CRISPR recorders)
   replication-timing: genome            # when DNA replicates in S phase (copy number of S-phase vs G1 DNA)
   dna-damage: genome                    # DNA lesions, strand breaks and replication/repair error spectra

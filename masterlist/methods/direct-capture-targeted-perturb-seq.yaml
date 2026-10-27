@@ -14,9 +14,10 @@ scope: targeted
 chemistry:
 - reverse-transcription
 - amplicon-pcr
-builds_on:
+variant_of:
 - tap-seq
-- direct-capture-perturb-seq
+builds_on:
+- direct-capture-perturb-seq   # borrowed its guide capture scaffold (pBA904) and capture strategy
 reference:
   doi: 10.1101/2025.09.16.676677
   year: 2025
