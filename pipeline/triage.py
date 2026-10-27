@@ -73,6 +73,10 @@ def triage(rec, fetch_fulltext=True, gate=False):
         routes.append("abstract")
     if fetch_fulltext and gate and not (rec.get("submitted") or rec.get("watchlist") or SEQ_WORDS.search(head)):
         FT_STATS["gated_out"] += 1  # backfill: not plainly about sequencing, full text not downloaded
+    elif fetch_fulltext and gate and rec.get("published"):
+        # backfill: bioRxiv throttles the cluster IP hard; the journal version's full text (PMC, not throttled) is scanned
+        # in the journal pass for its own month, so the preprint copy is skipped
+        FT_STATS["skipped_published"] += 1
     elif fetch_fulltext:
         body = full_text(rec)
         if body:

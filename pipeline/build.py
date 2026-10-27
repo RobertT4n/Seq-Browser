@@ -7,6 +7,7 @@
 #INPUT: masterlist/methods/*.yaml (one file per method), taxonomy.yaml
 
 import csv
+import html
 import json
 import re
 import sys
@@ -127,6 +128,11 @@ def lint_readouts(entries):
                 print(f"warning: {e['id']} text suggests readout '{r}' but readouts are {e['readouts']} - check the label", file=sys.stderr)
 
 
+def clean(s):
+    """Europe PMC titles carry escaped markup ('m&lt;sup&gt;6&lt;/sup&gt;A'): unescape, then drop tags -> 'm6A'."""
+    return re.sub(r"<[^>]+>", "", html.unescape(html.unescape(s or ""))) or None
+
+
 def flat(e, cites, children, tax):
     r = e["reference"]
     return {"id": e["id"], "name": e["name"], "full_name": e.get("full_name") or "", "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
@@ -136,7 +142,7 @@ def flat(e, cites, children, tax):
             "chemistry": "; ".join(e.get("chemistry") or []), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
             "year": r.get("year"), "date": r.get("date"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
-            "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "url": r.get("url"), "citations": (cites.get(e["id"]) or {}).get("count"),
+            "journal": r.get("journal"), "title": clean(r.get("title")), "doi": r.get("doi"), "url": r.get("url"), "citations": (cites.get(e["id"]) or {}).get("count"),
             "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
             "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
             "needs_review": e.get("needs_review")}

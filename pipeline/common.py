@@ -19,8 +19,9 @@ BIORXIV = "https://api.biorxiv.org"
 UA = {"User-Agent": "Seq-Browser/0.1 (https://github.com/RobertT4n/Seq-Browser)"}
 # Minimum seconds between requests to one host, shared by every thread of this process. bioRxiv's full-text server 429s
 # hard when several threads (or several array tasks on one cluster IP) hit it at once - backfill 22440566 lost 78% of
-# full texts that way. NCBI allows 3 req/s without an API key.
-MIN_GAP = {"www.biorxiv.org": 1.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1, "api.openalex.org": 0.12, "api.crossref.org": 0.1}
+# full texts that way; job 22475737 still lost 32% at 1 req/s, so full texts are now spaced 12 s apart (slow but steady).
+# NCBI allows 3 req/s without an API key.
+MIN_GAP = {"www.biorxiv.org": 12.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1, "api.openalex.org": 0.12, "api.crossref.org": 0.1}
 _NEXT, _LOCK = {}, threading.Lock()
 
 
@@ -64,7 +65,7 @@ def get(url, as_json=True, tries=3):
             time.sleep(5 * i)
 
 
-FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0, "gated_out": 0}  # reported in every step1 summary
+FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0, "gated_out": 0, "skipped_published": 0}  # reported in every step1 summary
 
 
 def epmc_search(query, page_size=25, cursor="*", core=False):

@@ -95,7 +95,7 @@ def main():
                 log(f"  {i:,}/{len(recs):,} ({100 * i / len(recs):.0f}%) | {rate * 60:.0f}/min | ETA {eta / 60:.0f} min | "
                     f"kept {len(kept)} (full-text {n_ft}) | failures {len(failures)} | full texts ok/not-OA/failed "
                     f"{FT_STATS['fulltext_ok']}/{FT_STATS['not_open_access']}/{FT_STATS['fulltext_failed']}"
-                    + (f" | gated out {FT_STATS['gated_out']}" if a.gate else ""))
+                    + (f" | gated out {FT_STATS['gated_out']} | published, journal copy used {FT_STATS['skipped_published']}" if a.gate else ""))
                 last = now
 
     (out / f"{tag}.candidates.jsonl").write_text("".join(json.dumps(r) + "\n" for r in kept))

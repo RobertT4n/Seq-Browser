@@ -17,7 +17,8 @@ JOURNAL_FILTER = ('(ABSTRACT:"sequencing" OR ABSTRACT:"seq" OR ABSTRACT:"single-
 
 def _preprint(r, server):
     return {"id": r["doi"], "doi": r["doi"], "source": server, "title": r["title"], "abstract": r["abstract"],
-            "date": r["date"], "category": r.get("category"), "jatsxml": r.get("jatsxml"), "pmcid": None}
+            "date": r["date"], "category": r.get("category"), "jatsxml": r.get("jatsxml"), "pmcid": None,
+            "published": None if r.get("published") in (None, "", "NA") else r["published"]}  # journal DOI once published
 
 
 def fetch_preprints(start, end, servers=("biorxiv", "medrxiv")):
