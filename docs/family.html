@@ -16,7 +16,7 @@
            background:radial-gradient(1400px 800px at 30% 25%, #151b36 0%, var(--sbg) 62%); }
   #g { display:block; width:100%; height:100%; cursor:grab; } #g:active { cursor:grabbing; }
   .legend { position:absolute; top:14px; left:18px; display:flex; flex-wrap:wrap; gap:6px 18px; align-items:center;
-            color:var(--smuted); font-size:13px; background:rgba(11,14,26,.72); backdrop-filter:blur(6px);
+            color:var(--smuted); font-size:13px; background:rgba(11,14,26,.9);
             border:1px solid #232946; border-radius:10px; padding:8px 14px; max-width:calc(100% - 36px); }
   .legend span { display:inline-flex; align-items:center; gap:7px; }
   .sw { width:12px; height:12px; border-radius:50%; border:2px solid; box-shadow:0 0 8px currentColor; }
@@ -26,28 +26,30 @@
   .lane-label { fill:var(--smuted); font-size:11px; letter-spacing:.04em; }
   .lane { stroke:#1c2344; stroke-dasharray:2 6; }
   .lane-label.empty { fill:#4d5372; }
-  .lhs-bg { fill:rgba(11,14,26,.88); filter:drop-shadow(8px 0 14px rgba(0,0,0,.45)); }
+  .lhs-bg { fill:rgba(11,14,26,.92); }
   .year line.q { stroke:#141a33; stroke-dasharray:1 5; }
   .year line { stroke:#1b2140; } .year text { fill:var(--smuted); font-size:11px; }
   .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; transition:opacity .15s, stroke .15s; }
   .edge.b { stroke-dasharray:4 4; }
   .node .core { fill:#0f1324; stroke-width:2; }
-  .node .halo { fill:none; stroke-width:1; stroke-dasharray:3 4; opacity:.55; transform-box:fill-box; transform-origin:center; animation:spin 40s linear infinite; }
+  .node .halo { fill:none; stroke-width:1; stroke-dasharray:3 4; opacity:.45; }
+  .node .soft { fill:none; stroke-width:6; opacity:.18; }   /* cheap 'glow': a wide faint stroke, no SVG filter */
+  .node .hit { fill:transparent; }
+  .node.pinned .halo { opacity:1; stroke-width:1.6; stroke-dasharray:none; }
   .node text { fill:var(--sink); font-size:13px; font-weight:500; paint-order:stroke; stroke:var(--sbg); stroke-width:4px; stroke-linejoin:round; pointer-events:none; }
   .node { cursor:pointer; transition:opacity .15s; }
   svg.focus .node:not(.on) { opacity:.16; } svg.focus .edge:not(.on) { opacity:.06; }
   svg.focus .edge.on { stroke:#e6e8f2; opacity:.95; stroke-width:1.8; }
-  @keyframes spin { to { transform:rotate(360deg); } }
-  @media (prefers-reduced-motion: reduce) { .node .halo { animation:none; } }
   /* hover card: same look as the table's expanded row */
-  #card { position:fixed; z-index:5; width:340px; pointer-events:none; opacity:0; transition:opacity .1s;
+  #card { position:fixed; z-index:5; width:340px; right:18px; bottom:18px; pointer-events:none; opacity:0; transition:opacity .1s;
           background:var(--panel); color:var(--ink); border:1px solid var(--rule); border-radius:10px; padding:12px 14px;
           box-shadow:0 12px 32px rgba(0,0,0,.35); font-size:13px; line-height:1.45; }
   #card h3 { margin:0 0 6px; font-size:15px; } #card h3 small { color:var(--muted); font-weight:500; }
   #card dl { display:grid; grid-template-columns:78px 1fr; gap:4px 10px; margin:0; } #card dt { color:var(--muted); } #card dd { margin:0; }
   #card .ref { margin-top:8px; padding-top:8px; border-top:1px solid var(--rule); color:var(--muted); }
   #card .ref i { color:var(--ink); font-style:normal; }
-  #card .go { margin-top:6px; color:var(--accent); font-size:12px; }
+  #card .go { margin-top:6px; color:var(--accent); font-size:12px; } #card.pinned { pointer-events:auto; } #card.left { right:auto; left:18px; }
+  #card .go a { color:var(--accent); }
 </style>
 </head>
 <body>
@@ -146,9 +148,6 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
 
   const svg = d3.select("#g"), root = svg.append("g");
-  const glow = svg.append("defs").append("filter").attr("id", "glow").attr("x", "-60%").attr("y", "-60%").attr("width", "220%").attr("height", "220%");
-  glow.append("feGaussianBlur").attr("stdDeviation", 3.2).attr("result", "b");
-  const mg = glow.append("feMerge"); mg.append("feMergeNode").attr("in", "b"); mg.append("feMergeNode").attr("in", "SourceGraphic");
 
   // year grid, lanes, and "EPIGENOME (3D genome, ...)" style labels on the left
   const top = d3.min(nodes, n => n.y) - 50, bottom = d3.max(nodes, n => n.y) + 40;
@@ -182,12 +181,15 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const node = root.append("g").selectAll("g").data(nodes).join("g").attr("class", "node").attr("transform", d => `translate(${d.x},${d.y})`);
   node.each(function (d) {
     const g = d3.select(this), rs = split(d.readouts), n = rs.length;
-    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", laneCol[rs[0]]).attr("filter", "url(#glow)");
+    g.append("rect").attr("class", "hit").attr("x", -d.r - 6).attr("y", -Math.max(d.r, 9) - 4)
+      .attr("width", 2 * d.r + 12 + d.lw).attr("height", 2 * Math.max(d.r, 9) + 8);  // hover/click target: dot + name
+    g.append("circle").attr("class", "soft").attr("r", d.r + 1).attr("stroke", laneCol[rs[0]]);
+    if (n === 1) g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", laneCol[rs[0]]);
     else {  // multiomic: one arc per readout, in that readout's lane colour
       g.append("circle").attr("class", "core").attr("r", d.r).attr("stroke", "none");
       const arc = d3.arc().innerRadius(d.r - 1).outerRadius(d.r + 1.5).padAngle(.1);
       rs.forEach((q, i) => g.append("path").attr("d", arc({startAngle: i * 2 * Math.PI / n, endAngle: (i + 1) * 2 * Math.PI / n}))
-        .attr("fill", laneCol[q]).attr("filter", "url(#glow)"));
+        .attr("fill", laneCol[q]));
     }
     g.append("circle").attr("class", "halo").attr("r", d.r + 5).attr("stroke", laneCol[rs[0]]);
     g.append("text").attr("x", d.r + 7).attr("y", 4).text(d.name);
@@ -200,7 +202,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     `<span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span>` +
     `<span>citations (area) ${[[100, "100"], [1000, "1k"], [5000, "5k"], [cmax, d3.format(".2~s")(cmax).replace("k", "k")]].map(([c, lab]) =>
       `<svg width="${2 * r(c) + 4}" height="${2 * r(cmax) + 6}" style="vertical-align:middle"><circle cx="${r(c) + 2}" cy="${r(cmax) + 3}" r="${r(c)}" fill="none" stroke="#8a90ab" stroke-width="1.5"/></svg>${lab}`).join(" ")}</span>` +
-    `<span class="hint">hover to trace a lineage · click to open · scroll to move through time · pinch or ctrl+scroll to zoom</span>`;
+    `<span class="hint">hover a method to trace its lineage · click to pin it (click again, empty space or Esc to release) · double-click to open in the table · scroll to move through time · pinch or ctrl+scroll to zoom</span>`;
 
   // hover: highlight every ancestor + descendant, show the card
   const up = new Map(nodes.map(n => [n.id, links.filter(l => l.c === n.id).map(l => l.p)]));
@@ -208,9 +210,11 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const walk = (id, m, seen = new Set()) => { (m.get(id) || []).forEach(t => { if (!seen.has(t)) { seen.add(t); walk(t, m, seen); } }); return seen; };
   const names = s => split(s).map(i => esc(byId.get(i)?.name || i)).join(", ");
   const tags = d => [...split(d.readouts), ...split(d.resolution), d.scope, ...split(d.chemistry)].map(t => `<span class="tag">${esc(t)}</span>`).join("");
-  node.on("mouseenter", (e, d) => {
+  let pinned = null;
+  const show = d => {
     const on = new Set([d.id, ...walk(d.id, up), ...walk(d.id, down)]);
     svg.classed("focus", true); node.classed("on", n => on.has(n.id)); edge.classed("on", l => on.has(l.p) && on.has(l.c));
+    node.classed("pinned", n => pinned === n.id);
     card.innerHTML = `<h3>${esc(d.name)} <small>· ${d.year}</small></h3><dl>
       <dt>Tags</dt><dd>${tags(d)}</dd>
       ${d.variant_of ? `<dt>Variant of</dt><dd>${names(d.variant_of)}</dd>` : ""}
@@ -218,14 +222,19 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       ${d.children ? `<dt>Led to</dt><dd>${names(d.children)}</dd>` : ""}
       <dt>Citations</dt><dd>${d.citations != null ? d.citations.toLocaleString() : "–"}</dd></dl>
       <div class="ref"><i>${esc(d.title || "")}</i><br>${esc(d.first_author)} … ${esc(d.last_author)}, ${esc(d.journal)} ${d.year}</div>
-      <div class="go">Click to open in the table →</div>`;
-    card.style.opacity = 1;
-  }).on("mousemove", e => {
-    const cw = 356, ch = card.offsetHeight + 16;
-    card.style.left = (e.clientX + cw + 16 > innerWidth ? e.clientX - cw : e.clientX + 16) + "px";
-    card.style.top = Math.min(e.clientY + 16, innerHeight - ch) + "px";
-  }).on("mouseleave", () => { svg.classed("focus", false); node.classed("on", false); edge.classed("on", false); card.style.opacity = 0; })
-    .on("click", (e, d) => location.href = `index.html#${encodeURIComponent(d.id)}`);
+      <div class="go">${pinned === d.id ? `Pinned · <a href="index.html#${encodeURIComponent(d.id)}">open in the table →</a>` : "Click to pin · double-click to open in the table"}</div>`;
+    card.classList.toggle("pinned", pinned === d.id); card.style.opacity = 1;
+  };
+  const clear = () => { svg.classed("focus", false); node.classed("on", false).classed("pinned", false); edge.classed("on", false);
+    card.style.opacity = 0; card.classList.remove("pinned"); };
+  const release = () => { pinned = null; clear(); };
+  node.on("mouseenter", (e, d) => { if (!pinned) show(d); })
+    .on("mousemove", e => card.classList.toggle("left", e.clientX > innerWidth - 400 && e.clientY > innerHeight - 320))  // dodge the cursor
+    .on("mouseleave", () => { if (!pinned) clear(); })
+    .on("click", (e, d) => { e.stopPropagation(); if (pinned === d.id) { release(); show(d); } else { pinned = d.id; show(d); } })
+    .on("dblclick", (e, d) => { e.stopPropagation(); location.href = `index.html#${encodeURIComponent(d.id)}`; });
+  svg.on("click", () => { if (pinned) release(); });
+  addEventListener("keydown", e => { if (e.key === "Escape" && pinned) release(); });
 
   // zoom/pan: start fitted to the full HEIGHT (all lanes visible), plot starts right of the frozen panel; wheel/trackpad
   // scrolls through time with eased motion, pinch / ctrl+wheel zooms
