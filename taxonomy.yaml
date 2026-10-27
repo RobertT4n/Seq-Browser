@@ -32,6 +32,7 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   genome-sequence: genome               # genotype, CNV, SVs, assemblies, incl. RNA-virus genomes and strain typing
   lineage: genome                       # cell lineage / clonal history recorded in cells (barcodes, CRISPR recorders)
   replication-timing: genome            # when DNA replicates in S phase (copy number of S-phase vs G1 DNA)
+  dna-damage: genome                    # DNA lesions, strand breaks and replication/repair error spectra
   functional-screen: functional         # abundance of each designed library member (guide, variant, reporter barcode)
                                         #   after selection/expression; NOT a per-cell transcriptome (Perturb-seq stays rna)
 
