@@ -1,0 +1,31 @@
+name: Spatial Hi-C-RNA
+category: wet
+summary: Spatially resolved co-mapping of genome-wide chromatin contacts and transcriptomes from the same tissue section.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- hi-c
+- dbit-seq
+reference:
+  doi: 10.1016/j.cell.2026.07.039
+  year: 2026
+  date: '2026-08-25'
+  journal: Cell
+  first_author: Guo P
+  last_author: Deng Y
+  pmid: '42641604'
+  pmcid: PMC13509204
+  title: Integrative spatial profiling of 3D genome organization and gene expression in tissue
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present Spatial Hi-C-RNA, a multimodal platform that simultaneously maps genome-wide chromatin contacts and transcriptomes
+  from the same tissue section at near-single-cell resolution.

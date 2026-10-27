@@ -1,0 +1,33 @@
+name: Saturation-seq
+category: wet
+summary: Single-cell saturation genome editing in a barcoded haploid line, with amplicon and transcriptome sequencing linking
+  each engineered variant to its transcriptional effect.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+perturbation:
+- saturation-editing
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- saturation-editing
+- single-cell-rna-seq
+reference:
+  doi: 10.64898/2026.06.30.735631
+  year: 2026
+  date: '2026-07-04'
+  journal: bioRxiv
+  first_author: Strauss ME
+  last_author: Adams DJ
+  title: Saturation-seq integrates single-cell saturation genome editing and RNA-seq to quantify  <i>NFE2L2</i>  (NRF2) variant
+    effects
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We developed Saturation-seq, a high-throughput platform that combines saturation genome editing with single-cell
+  DNA and RNA profiling to systematically map variant effects.

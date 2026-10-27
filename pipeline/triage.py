@@ -53,9 +53,12 @@ def names_in(text, window=300):
 
 def triage(rec, fetch_fulltext=True):
     head = f"{rec.get('title', '')}. {rec.get('abstract', '')}"
-    routes, names = (["submitted"] if rec.get("submitted") else []), names_in(head)  # submissions are never discarded here
-    if rec.get("submitted_name") and rec["submitted_name"] not in names:
-        names.insert(0, rec["submitted_name"])
+    # submissions and watchlist rows (human-picked) are never discarded here
+    routes = (["submitted"] if rec.get("submitted") else []) + (["watchlist"] if rec.get("watchlist") else [])
+    names = names_in(head)
+    for given in (rec.get("submitted_name"), rec.get("watchlist_name")):
+        if given and given not in names:
+            names.insert(0, given)
     if INTRODUCES.search(head) and ASSAY_WORDS.search(head):
         routes.append("abstract")
     if fetch_fulltext:

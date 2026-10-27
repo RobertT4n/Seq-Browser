@@ -1,0 +1,35 @@
+name: Spatial-CUT&Tag-RNA-seq
+category: wet
+summary: Spatially resolved co-profiling of histone modifications and gene expression on one tissue section, using in situ
+  CUT&Tag with in situ reverse transcription and DBiT barcoding.
+readouts:
+- histone-modification
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- spatial-cut-and-tag
+- dbit-seq
+reference:
+  doi: 10.1038/s41586-023-05795-1
+  year: 2023
+  date: '2023-03-15'
+  journal: Nature
+  first_author: Zhang D
+  last_author: Fan R
+  pmid: '36922587'
+  pmcid: PMC10076218
+  title: Spatial epigenome-transcriptome co-profiling of mammalian tissues
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present two technologies for spatially resolved, genome-wide, joint profiling of the epigenome and transcriptome
+  by cosequencing chromatin accessibility and gene expression, or histone modifications (H3K27me3, H3K27ac or H3K4me3) and
+  gene expression on the same tissue section at near-single-cell resolution.

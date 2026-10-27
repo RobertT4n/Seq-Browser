@@ -1,0 +1,27 @@
+name: XYZeq
+category: wet
+summary: Spatially barcoded single-cell RNA-seq workflow that encodes tissue-position metadata into scRNA-seq libraries.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/sciadv.abg4755
+  year: 2021
+  date: '2021-04-21'
+  journal: Sci Adv
+  first_author: Lee Y
+  last_author: Ye CJ
+  pmid: '33883145'
+  pmcid: PMC8059935
+  title: 'XYZeq: Spatially resolved single-cell RNA sequencing reveals expression heterogeneity in the tumor microenvironment'
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: To better understand how individual cells function within an anatomical space, we developed XYZeq, a workflow that
+  encodes spatial metadata into scRNA-seq libraries.

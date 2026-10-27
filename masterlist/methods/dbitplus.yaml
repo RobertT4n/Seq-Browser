@@ -1,0 +1,33 @@
+name: DBiTplus
+full_name: "Deterministic barcoding in tissue sequencing plus"
+category: wet
+summary: Sequencing-based spatial transcriptomics combined with multiplexed protein imaging on one tissue section, using DBiT
+  barcoding with RNase H-mediated cDNA retrieval.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- dbit-seq
+reference:
+  doi: 10.1038/s41592-025-02948-0
+  year: 2026
+  date: '2026-01-15'
+  journal: Nat Methods
+  first_author: Enninful A
+  last_author: Fan R
+  pmid: '41540123'
+  pmcid: PMC13541625
+  title: Integration of imaging-based and sequencing-based spatial omics mapping on the same tissue section via DBiTplus
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present Deterministic Barcoding in Tissue sequencing plus (DBiTplus), an integrative multimodal spatial
+  omics approach combining sequencing-based spatial transcriptomics and multiplexed protein imaging on the same section, enabling
+  both single-cell-resolution cell typing and transcriptome-wide interrogation of biological pathways.

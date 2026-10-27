@@ -1,0 +1,29 @@
+name: PerturbSpace
+category: wet
+summary: Spatially hashed single-cell multiomics for in vivo CRISPR perturbations, giving transcriptome-wide spatial readouts
+  of gene function on tissue architecture.
+readouts:
+- rna
+resolution:
+- spatial
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.64898/2026.05.25.727765
+  year: 2026
+  date: '2026-05-26'
+  journal: bioRxiv
+  first_author: Nevue AA
+  last_author: Lara-Astiaso D
+  title: Spatially resolved, multimodal in vivo Perturb-seq using antibody-based cell hashing
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: This approach enables the first high-throughput, spatially resolved Perturb-seq analysis across complex tissue architecture
+  in vivo.

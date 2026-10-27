@@ -1,0 +1,33 @@
+name: Direct-Capture Targeted Perturb-seq
+aliases:
+- DC-TAP-seq
+category: wet
+summary: Targeted Perturb-seq with direct capture of guide RNAs, used for highly powered screens of distal element-gene regulatory
+  interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- tap-seq
+- direct-capture-perturb-seq
+reference:
+  doi: 10.1101/2025.09.16.676677
+  year: 2025
+  date: '2025-09-17'
+  journal: bioRxiv
+  first_author: Ray J
+  last_author: Engreitz JM
+  title: A systematic survey of distal element-gene regulatory interactions with Direct-Capture Targeted Perturb-seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We developed a framework for highly powered CRISPR screens, consisting of Direct-Capture Targeted Perturb-seq (DC-TAP-seq),
+  unbiased target selection, and a pipeline accounting for statistical power.

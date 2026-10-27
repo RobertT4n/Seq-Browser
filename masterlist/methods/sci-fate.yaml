@@ -3,6 +3,7 @@ category: wet
 summary: Combinatorial-indexing single-cell RNA-seq combined with 4-thiouridine labeling to profile whole and newly synthesized
   transcriptomes in many cells.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - single-cell
@@ -18,6 +19,7 @@ variant_of:
 reference:
   doi: 10.1038/s41587-020-0480-9
   year: 2020
+  date: '2020-04-13'
   journal: Nat Biotechnol
   first_author: Cao J
   last_author: Shendure J
@@ -31,3 +33,5 @@ needs_review: true
 evidence: In the present study, we present a method for combined single-cell combinatorial indexing and messenger RNA labeling
   (sci-fate), which uses combinatorial cell indexing and 4-thiouridine labeling of newly synthesized mRNA to concurrently
   profile the whole and newly synthesized transcriptome in each of many single cells.
+builds_on:
+- slam-seq

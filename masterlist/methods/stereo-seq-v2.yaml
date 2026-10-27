@@ -1,0 +1,29 @@
+name: Stereo-seq V2
+full_name: "Spatial enhanced resolution omics-sequencing V2"
+category: wet
+summary: Stereo-seq variant that captures total RNA with random primers in situ on FFPE sections.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+variant_of:
+- stereo-seq
+reference:
+  doi: 10.1016/j.cell.2025.08.008
+  year: 2025
+  date: '2025-08-28'
+  journal: Cell
+  first_author: Zhao Y
+  last_author: Xu X
+  pmid: '40882628'
+  title: 'Stereo-seq V2: Spatial mapping of total RNA on FFPE sections with high resolution'
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce Stereo-seq V2, which employs random primers to capture and sequence RNAs in situ on FFPE sections
+  and provides single-cell resolution.

@@ -3,6 +3,7 @@ category: wet
 summary: Bulk RNA-seq that chemically recodes 4-thiouridine into cytidine analogs so newly transcribed RNA is marked by U-to-C
   mutations.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - bulk
@@ -17,6 +18,7 @@ builds_on:
 reference:
   doi: 10.1038/nmeth.4582
   year: 2018
+  date: '2018-01-22'
   journal: Nat Methods
   first_author: Schofield JA
   last_author: Simon MD
@@ -29,3 +31,5 @@ added: '2026-10-26'
 needs_review: true
 evidence: Here we report TimeLapse-seq, which uses oxidative-nucleophilic-aromatic substitution to convert 4-thiouridine into
   cytidine analogs, yielding apparent U-to-C mutations that mark new transcripts upon sequencing.
+introduces:
+- nascent-rna

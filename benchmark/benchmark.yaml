@@ -39,3 +39,8 @@
   note: "Salmon gill study - USES spatial transcriptomics, invents nothing; classifier must reject (triage may pass it)"
   where_named: none
   expect: {triage: null, new_method: false, methods: []}
+
+- doi: 10.64898/2026.10.20.760540
+  note: "RAPPL-Seq - ribosome profiling; must be labelled translation, never plain rna (regression test for the 2026-10 readout split)"
+  where_named: abstract
+  expect: {triage: true, new_method: true, category: wet, methods: [RAPPL-Seq], readouts: {rappl-seq: [translation]}}

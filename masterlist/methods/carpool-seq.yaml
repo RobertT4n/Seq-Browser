@@ -1,0 +1,34 @@
+name: CaRPool-seq
+full_name: "Cas13 RNA Perturb-seq"
+aliases:
+- Cas13 RNA Perturb-seq
+category: wet
+summary: Pooled Cas13d RNA-targeting perturbations on a cleavable CRISPR array with a barcode, read out by single-cell RNA-seq
+  for combinatorial knockdown.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- rna-targeting
+scope: targeted
+chemistry:
+- reverse-transcription
+builds_on:
+- perturb-seq
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41592-022-01705-x
+  year: 2023
+  journal: Nat Methods
+  first_author: Wessels HH
+  last_author: Satija R
+  pmid: '36550277'
+  pmcid: PMC10030154
+  title: Efficient combinatorial targeting of RNA transcripts in single cells with Cas13 RNA Perturb-seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce Cas13 RNA Perturb-seq (CaRPool-seq), which leverages the RNA-targeting CRISPR-Cas13d system and
+  enables efficient combinatorial perturbations alongside multimodal single-cell profiling.

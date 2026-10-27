@@ -24,7 +24,10 @@
   .legend .hint { color:#626984; }
   .domain-label { fill:var(--sink); font-size:13px; font-weight:650; letter-spacing:.16em; }
   .lane-label { fill:var(--smuted); font-size:11px; letter-spacing:.04em; }
-  .lane { stroke:#161c36; stroke-dasharray:2 6; }
+  .lane { stroke:#1c2344; stroke-dasharray:2 6; }
+  .lane-label.empty { fill:#4d5372; }
+  .lhs-bg { fill:rgba(11,14,26,.88); filter:drop-shadow(8px 0 14px rgba(0,0,0,.45)); }
+  .year line.q { stroke:#141a33; stroke-dasharray:1 5; }
   .year line { stroke:#1b2140; } .year text { fill:var(--smuted); font-size:11px; }
   .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; transition:opacity .15s, stroke .15s; }
   .edge.b { stroke-dasharray:4 4; }
@@ -60,14 +63,18 @@
 <div id="card"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script>
-// domain colours: first three slots of the validated dark categorical palette (all-pairs CVD-safe). A 4th populated
-// domain needs re-validation before it gets a colour.
-const DCOL = {epigenome: "#3987e5", transcriptome: "#199e70", proteome: "#d95926", genome: "#9085e9"};
-// each domain spans a hue range; its readout lanes take evenly spaced shades along it (lane position + label carry identity too)
-const DRANGE = {epigenome: ["#14d9c4", "#b45cf5"], transcriptome: ["#2bd96f", "#e0e04a"], proteome: ["#ffb02e", "#ff5a4f"], genome: ["#ff7ad9", "#ff9fb0"]};
+// each domain owns an arc of HCL hue; its lanes are spread evenly along the arc with alternating lightness, so adjacent
+// lanes differ in both hue and brightness (lane position + label carry identity too, colour is a secondary cue)
+const DARC = {epigenome: [185, 315], transcriptome: [100, 168], proteome: [28, 58], genome: [330, 372], functional: [76, 92]};
+const laneColour = (d, i, n) => { const [h0, h1] = DARC[d], t = n > 1 ? i / (n - 1) : .5;
+  return d3.hcl((h0 + (h1 - h0) * t) % 360, 62, i % 2 ? 66 : 80).formatHex(); };
+const domColour = d => laneColour(d, 0, 1);
 const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessibility", "histone-modification": "histone marks",
   "protein-dna-binding": "protein binding", "dna-methylation": "DNA methylation", "replication-timing": "replication timing",
-  "rna": "RNA", "nascent-rna": "nascent RNA", "protein": "protein", "dna-sequence": "DNA sequence", "lineage": "lineage"};
+  "rna": "RNA", "nascent-rna": "nascent RNA", "translation": "translation", "rna-structure": "RNA structure",
+  "rna-modification": "RNA modification", "rna-protein-interaction": "RNA-protein binding", "rna-chromatin-interaction": "RNA-chromatin contacts",
+  "immune-repertoire": "immune repertoire", "protein": "protein", "glycan": "glycan", "genome-sequence": "genome sequence", "lineage": "lineage",
+  "functional-screen": "screens & reporters", "dna-damage": "DNA damage"};
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stage = document.getElementById("stage"), card = document.getElementById("card");
@@ -80,35 +87,43 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     .filter(l => byId.has(l.p));
 
   // lanes: one per readout actually used, grouped by domain in taxonomy order
+  // every readout in the taxonomy gets a lane, even with no methods yet, so the left-hand block stays stable as the list grows
   const used = new Set(nodes.flatMap(n => split(n.readouts)));
-  const domains = tax.domains.filter(d => Object.entries(tax.readouts).some(([r, dd]) => dd === d && used.has(r)));
+  const domains = tax.domains;
   const W = stage.clientWidth, H = stage.clientHeight;
   // lane height grows with its busiest 2-year window (methods whose first readout is that lane), so crowded lanes get room
   const busiest = {};
   nodes.forEach(n => { const q = split(n.readouts)[0], k = `${q}|${Math.floor(n.year / 2)}`; busiest[k] = (busiest[k] || 0) + 1; });
-  const laneH = q => Math.max(80, 26 * Math.max(0, ...Object.entries(busiest).filter(([k]) => k.startsWith(q + "|")).map(([, v]) => v)));
+  const laneH = q => !used.has(q) ? 40 : Math.max(72, 26 * Math.max(0, ...Object.entries(busiest).filter(([k]) => k.startsWith(q + "|")).map(([, v]) => v)));
   const laneY = {}, domainSpan = {}, laneCol = {};
   let y = 120;
   domains.forEach(d => {
-    const lanes = Object.entries(tax.readouts).filter(([r, dd]) => dd === d && used.has(r)).map(([r]) => r);
+    const lanes = Object.entries(tax.readouts).filter(([, dd]) => dd === d).map(([r]) => r);
     const y0 = y;
     lanes.forEach((q, i) => {
       const h = laneH(q); laneY[q] = y + h / 2; y += h;
-      laneCol[q] = d3.interpolateHcl(...DRANGE[d])(lanes.length > 1 ? i / (lanes.length - 1) : .5);
+      laneCol[q] = laneColour(d, i, lanes.length);
     });
     domainSpan[d] = [y0, y, lanes];
-    y += 70;
+    y += 56;
   });
   // time axis: each year's width grows with how many methods it has, so crowded recent years spread out
   const years = d3.extent(nodes, d => d.year), perYear = d3.rollup(nodes, v => v.length, d => d.year);
   const yrs = d3.range(years[0] - 1, years[1] + 2), wts = yrs.map(y => 1 + 1.8 * Math.sqrt(perYear.get(y) || 0));
   const span = Math.max(W, 1100) * 1.6 - 230, unit = span / d3.sum(wts), xpos = new Map();
   yrs.reduce((acc, y, i) => { xpos.set(y, acc + wts[i] * unit / 2); return acc + wts[i] * unit; }, 230);
-  const x = y => xpos.get(y);
-  const r = d3.scaleSqrt().domain([0, d3.max(nodes, d => d.citations || 0)]).range([6, 24]);
+  const yw = new Map(yrs.map((y, i) => [y, wts[i] * unit]));
+  const x = y => xpos.get(y);  // centre of a year (grid labels)
+  const xStart = y => xpos.get(y) - yw.get(y) / 2;
+  // a method sits at its publication date inside its year's slot; year-only entries sit mid-year
+  const frac = n => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(n.date || ""); return m && +m[1] === n.year ? ((+m[2] - 1) * 30.4 + +m[3]) / 366 : .5; };
+  const xDate = n => xStart(n.year) + frac(n) * yw.get(n.year);
+  // area-true: circle AREA is proportional to citations (sqrt radius), wide range so landmark papers stand out
+  const cmax = d3.max(nodes, n => n.citations || 0) || 1, r = c => 3.5 + 24 * Math.sqrt((c || 0) / cmax);
   nodes.forEach(n => {
     n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
-    n.ty = d3.mean(split(n.readouts), q => laneY[q]); n.x = x(n.year); n.y = n.ty + (Math.random() - .5) * 20;
+    n.ty = laneY[split(n.readouts)[0]];  // primary (first-listed) readout decides the lane; arcs show the others
+    n.x = xDate(n); n.y = n.ty + (Math.random() - .5) * 20;
   });
 
   // node + its right-hand label as a box; overlapping boxes are pushed apart vertically (x stays pinned to year)
@@ -122,12 +137,12 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     }
   }
   const sim = d3.forceSimulation(nodes)
-    .force("x", d3.forceX(d => x(d.year)).strength(1))
+    .force("x", d3.forceX(d => xDate(d)).strength(1))
     .force("y", d3.forceY(d => d.ty).strength(.45))
     .force("collide", d3.forceCollide(d => d.r + 6).iterations(2))
     .force("labels", labelBoxes).stop();
   for (let i = 0; i < 600; i++) sim.tick();
-  nodes.forEach(n => n.x = x(n.year));  // snap back so the year axis stays exact
+  nodes.forEach(n => n.x = xDate(n));  // snap back so the time axis stays exact
   for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
 
   const svg = d3.select("#g"), root = svg.append("g");
@@ -138,17 +153,24 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   // year grid, lanes, and "EPIGENOME (3D genome, ...)" style labels on the left
   const top = d3.min(nodes, n => n.y) - 50, bottom = d3.max(nodes, n => n.y) + 40;
   const yg = root.append("g").attr("class", "year");
-  d3.range(years[0], years[1] + 1).filter(yr => x(yr + 1) - x(yr) > 46 || yr % 2 === 0).forEach(yr => {
-    yg.append("line").attr("x1", x(yr)).attr("x2", x(yr)).attr("y1", top + 14).attr("y2", bottom);
-    yg.append("text").attr("x", x(yr)).attr("y", top).attr("text-anchor", "middle").text(yr);
+  d3.range(years[0], years[1] + 1).forEach(yr => {
+    const w = yw.get(yr), labelled = w > 46 || yr % 2 === 0;
+    yg.append("line").attr("x1", xStart(yr)).attr("x2", xStart(yr)).attr("y1", top + 14).attr("y2", bottom).attr("opacity", labelled ? 1 : .5);
+    if (labelled) yg.append("text").attr("x", x(yr)).attr("y", top).attr("text-anchor", "middle").text(yr);
+    if (w > 160) [1, 2, 3].forEach(q => yg.append("line").attr("class", "q").attr("x1", xStart(yr) + q * w / 4).attr("x2", xStart(yr) + q * w / 4)
+      .attr("y1", top + 14).attr("y2", bottom));  // quarter guides in the spread-out recent years
   });
+  // frozen left panel: domain + lane labels follow vertical zoom/pan only; the plot scrolls horizontally underneath
+  const PANEL = 190, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
+  const lhs = svg.append("g").attr("class", "lhs");
   domains.forEach(d => {
     const [y0, y1, lanes] = domainSpan[d];
-    root.append("text").attr("class", "domain-label").attr("x", 20).attr("y", y0 - 14).style("fill", d3.interpolateHcl(...DRANGE[d])(.5)).text(d.toUpperCase());
+    lhs.append("text").attr("class", "domain-label").attr("x", 20).attr("data-y", y0 - 12).style("fill", domColour(d)).text(d.toUpperCase());
     lanes.forEach(q => {
-      root.append("line").attr("class", "lane").attr("x1", 170).attr("x2", x(years[1] + 1)).attr("y1", laneY[q]).attr("y2", laneY[q]);
-      root.append("circle").attr("cx", 24).attr("cy", laneY[q]).attr("r", 4).attr("fill", laneCol[q]);
-      root.append("text").attr("class", "lane-label").attr("x", 34).attr("y", laneY[q] + 4).text(LANE_NAME[q] || q);
+      root.append("line").attr("class", "lane").attr("x1", xStart(years[0] - 1)).attr("x2", x(years[1] + 1)).attr("y1", laneY[q]).attr("y2", laneY[q])
+        .attr("opacity", used.has(q) ? 1 : .45);
+      lhs.append("circle").attr("cx", 26).attr("data-y", laneY[q]).attr("r", 4).attr("fill", laneCol[q]).attr("opacity", used.has(q) ? 1 : .35);
+      lhs.append("text").attr("class", "lane-label" + (used.has(q) ? "" : " empty")).attr("x", 38).attr("data-y", laneY[q] + 4).text(LANE_NAME[q] || q);
     });
   });
 
@@ -173,9 +195,12 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
 
   // legend
   document.getElementById("legend").innerHTML =
-    domains.map(d => `<span><i style="display:inline-block;width:30px;height:10px;border-radius:5px;background:linear-gradient(90deg,${DRANGE[d].join(",")});box-shadow:0 0 8px ${DRANGE[d][0]}"></i>${d[0].toUpperCase() + d.slice(1)}</span>`).join("") +
-    `<span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span><span>size = citations</span>` +
-    `<span class="hint">hover to trace a lineage · click to open · scroll to move · pinch or ctrl+scroll to zoom</span>`;
+    domains.map(d => { const n = Object.values(tax.readouts).filter(x => x === d).length, cs = d3.range(n).map(i => laneColour(d, i, n));
+      return `<span><i style="display:inline-block;width:30px;height:10px;border-radius:5px;background:linear-gradient(90deg,${(cs.length > 1 ? cs : [cs[0], cs[0]]).join(",")})"></i>${d[0].toUpperCase() + d.slice(1)}</span>`; }).join("") +
+    `<span><i class="ln"></i>variant of</span><span><i class="ln d"></i>builds on</span>` +
+    `<span>citations (area) ${[[100, "100"], [1000, "1k"], [5000, "5k"], [cmax, d3.format(".2~s")(cmax).replace("k", "k")]].map(([c, lab]) =>
+      `<svg width="${2 * r(c) + 4}" height="${2 * r(cmax) + 6}" style="vertical-align:middle"><circle cx="${r(c) + 2}" cy="${r(cmax) + 3}" r="${r(c)}" fill="none" stroke="#8a90ab" stroke-width="1.5"/></svg>${lab}`).join(" ")}</span>` +
+    `<span class="hint">hover to trace a lineage · click to open · scroll to move through time · pinch or ctrl+scroll to zoom</span>`;
 
   // hover: highlight every ancestor + descendant, show the card
   const up = new Map(nodes.map(n => [n.id, links.filter(l => l.c === n.id).map(l => l.p)]));
@@ -202,16 +227,32 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   }).on("mouseleave", () => { svg.classed("focus", false); node.classed("on", false); edge.classed("on", false); card.style.opacity = 0; })
     .on("click", (e, d) => location.href = `index.html#${encodeURIComponent(d.id)}`);
 
-  // zoom/pan; start fitted to the full canvas
-  const bb = root.node().getBBox(), pad = 30, kFit = Math.min(W / (bb.width + 2 * pad), 1.25);
-  const zoom = d3.zoom().scaleExtent([kFit, 4])
-    .translateExtent([[bb.x - pad, bb.y - 70 / kFit], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
-    .on("zoom", e => root.attr("transform", e.transform));
-  zoom.filter(e => (e.type !== "wheel" || e.ctrlKey) && !e.button);  // plain wheel scrolls (below); pinch / ctrl+wheel zooms
+  // zoom/pan: start fitted to the full HEIGHT (all lanes visible), plot starts right of the frozen panel; wheel/trackpad
+  // scrolls through time with eased motion, pinch / ctrl+wheel zooms
+  const bb = root.node().getBBox(), pad = 30, topPad = document.getElementById("legend").offsetHeight + 34;
+  // open at a readable size (text >= ~11px); lanes that do not fit scroll vertically, time scrolls sideways
+  const kFit = Math.max(.85, Math.min((H - topPad - pad) / (bb.height + pad), 1.25)), kMin = .45;
+  // left panel stays full size: labels only follow the plot's vertical position
+  const lhsItems = lhs.selectAll("[data-y]");
+  const zoom = d3.zoom().scaleExtent([kMin, 4])
+    .translateExtent([[bb.x - pad - PANEL / kMin, bb.y - topPad / kMin], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
+    .on("zoom", e => { const t = e.transform; root.attr("transform", t);
+      lhsItems.each(function () { const el = d3.select(this), v = +el.attr("data-y") * t.k + t.y; el.attr(this.tagName === "circle" ? "cy" : "y", v); }); });
+  zoom.filter(e => (e.type !== "wheel" || e.ctrlKey) && !e.button);
+  let want = null, raf = 0;  // eased scrolling: wheel sets a target, frames glide toward it
+  const glide = () => { const t = d3.zoomTransform(svg.node()), dx = want[0] - t.x, dy = want[1] - t.y;
+    if (Math.abs(dx) + Math.abs(dy) < .5) { raf = 0; want = null; return; }
+    zoom.translateBy(svg, dx * .22 / t.k, dy * .22 / t.k); const n = d3.zoomTransform(svg.node());
+    if (Math.abs(n.x - t.x) + Math.abs(n.y - t.y) < .05) { raf = 0; want = null; return; }  // hit the edge
+    raf = requestAnimationFrame(glide); };
   svg.call(zoom).on("dblclick.zoom", null)
     .on("wheel.scroll", e => { if (e.ctrlKey) return; e.preventDefault();
-      zoom.translateBy(svg, -e.deltaX / d3.zoomTransform(svg.node()).k, -e.deltaY / d3.zoomTransform(svg.node()).k); });
-  svg.call(zoom.transform, d3.zoomIdentity.translate(-(bb.x - pad) * kFit, 70 - bb.y * kFit).scale(kFit));
+      const t = d3.zoomTransform(svg.node()), tall = bb.height * t.k > H - topPad;
+      // vertical wheel moves through time unless the lanes are taller than the screen (then shift+wheel or horizontal swipe moves time)
+      const dx = e.deltaX || (!tall || e.shiftKey ? e.deltaY : 0), dy = tall && !e.shiftKey && !e.deltaX ? e.deltaY : 0;
+      want = want || [t.x, t.y]; want = [want[0] - dx, want[1] - dy];
+      if (!raf) raf = requestAnimationFrame(glide); }, {passive: false});
+  svg.call(zoom.transform, d3.zoomIdentity.translate(PANEL - (bb.x - pad) * kFit + 10, topPad - bb.y * kFit).scale(kFit));
 });
 </script>
 </body>

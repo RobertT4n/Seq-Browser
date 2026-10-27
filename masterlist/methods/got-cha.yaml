@@ -1,10 +1,11 @@
 name: GoT-ChA
+full_name: "Genotyping of targeted loci with single-cell chromatin accessibility"
 category: wet
 summary: Genotyping of targeted loci alongside single-cell chromatin accessibility, linking somatic mutations to chromatin
   state.
 readouts:
 - chromatin-accessibility
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: targeted
@@ -17,6 +18,7 @@ builds_on:
 reference:
   doi: 10.1038/s41586-024-07388-y
   year: 2024
+  date: '2024-05-08'
   journal: Nature
   first_author: Izzo F
   last_author: Landau DA

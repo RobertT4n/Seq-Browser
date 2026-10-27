@@ -1,12 +1,13 @@
 name: SLAM-seq
+full_name: "Thiol(SH)-linked alkylation for the metabolic sequencing of RNA"
 aliases:
 - thiol(SH)-linked alkylation for metabolic sequencing of RNA
 category: wet
 summary: Labels new RNA with 4-thiouridine, then alkylates the s4U so it is read as a T-to-C change in standard RNA-seq, giving
   transcript-level expression dynamics.
 readouts:
-- rna
 - nascent-rna
+- rna
 resolution:
 - bulk
 temporal:
@@ -22,6 +23,7 @@ introduces:
 reference:
   doi: 10.1038/nmeth.4435
   year: 2017
+  date: '2017-09-25'
   journal: Nat Methods
   first_author: Herzog VA
   last_author: Ameres SL

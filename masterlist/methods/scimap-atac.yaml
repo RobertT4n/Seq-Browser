@@ -1,0 +1,34 @@
+name: sciMAP-ATAC
+aliases:
+- Thornton spatial ATAC
+category: wet
+summary: Spatially resolved single-cell ATAC-seq that combinatorially indexes cells from tissue microbiopsies assigned to
+  positions.
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1038/s41467-021-21515-7
+  year: 2021
+  date: '2021-02-24'
+  journal: Nat Commun
+  first_author: Thornton CA
+  last_author: Adey AC
+  pmid: '33627658'
+  pmcid: PMC7904839
+  title: Spatially mapped single-cell chromatin accessibility
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present single-cell combinatorial indexing on Microbiopsies Assigned to Positions for the Assay for Transposase
+  Accessible Chromatin, or sciMAP-ATAC, as a method for highly scalable, spatially resolved, single-cell profiling of chromatin
+  states.

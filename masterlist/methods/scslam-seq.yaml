@@ -1,7 +1,9 @@
 name: scSLAM-seq
+full_name: "Single-cell thiol(SH)-linked alkylation of RNA for metabolic labelling sequencing"
 category: wet
 summary: Single-cell SLAM-seq that uses thiol alkylation of 4sU-labeled RNA to separate new from old transcripts in each cell.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - single-cell
@@ -18,6 +20,7 @@ builds_on:
 reference:
   doi: 10.1038/s41586-019-1369-y
   year: 2019
+  date: '2019-07-10'
   journal: Nature
   first_author: Erhard F
   last_author: Dölken L

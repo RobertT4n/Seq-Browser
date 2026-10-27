@@ -3,6 +3,7 @@ category: wet
 summary: Single-cell RNA-seq that labels nascent transcripts with 5-ethynyluridine and separates labeled from preexisting
   mRNA to measure synthesis and degradation.
 readouts:
+- nascent-rna
 - rna
 resolution:
 - single-cell
@@ -17,6 +18,7 @@ builds_on:
 reference:
   doi: 10.1126/science.aax3072
   year: 2020
+  date: '2020-03-01'
   journal: Science
   first_author: Battich N
   last_author: van Oudenaarden A
@@ -28,3 +30,5 @@ added: '2026-10-26'
 needs_review: true
 evidence: Therefore, we developed a method that simultaneously quantifies metabolically labeled and preexisting unlabeled
   transcripts in thousands of individual cells.
+introduces:
+- nascent-rna

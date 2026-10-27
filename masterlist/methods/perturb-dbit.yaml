@@ -1,0 +1,32 @@
+name: Perturb-DBiT
+category: wet
+summary: Spatial co-sequencing of total RNA and sgRNAs on the same tissue section, enabling in situ CRISPR screens with large
+  sgRNA panels.
+readouts:
+- rna
+resolution:
+- spatial
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+builds_on:
+- dbit-seq
+- perturb-seq
+reference:
+  doi: 10.1038/s41587-026-03127-y
+  year: 2026
+  date: '2026-06-11'
+  journal: Nat Biotechnol
+  first_author: Baysoy A
+  last_author: Fan R
+  pmid: '42277225'
+  title: Large-scale, spatially resolved panoramic CRISPR screening in native tissue environments using Perturb-DBiT
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present Perturb-DBiT, a method for co-sequencing of spatial total RNA whole transcriptomes and single guide RNAs
+  (sgRNAs) on the same tissue section in situ.

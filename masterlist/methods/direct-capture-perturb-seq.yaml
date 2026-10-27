@@ -1,0 +1,37 @@
+name: Direct-capture Perturb-seq
+aliases:
+- Direct capture Perturb-seq
+category: wet
+summary: Perturb-seq variant in which expressed sgRNAs are sequenced alongside single-cell transcriptomes, enabling combinatorial
+  and multi-guide screens.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+- crispr-interference
+- crispr-activation
+scope: targeted
+chemistry:
+- reverse-transcription
+- oligo-capture
+builds_on:
+- perturb-seq
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41587-020-0470-y
+  year: 2020
+  date: '2020-03-30'
+  journal: Nat Biotechnol
+  first_author: Replogle JM
+  last_author: Adamson B
+  pmid: '32231336'
+  pmcid: PMC7416462
+  title: Combinatorial single-cell CRISPR screens by direct guide RNA capture and targeted sequencing
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present direct-capture Perturb-seq, a versatile screening approach in which expressed sgRNAs are sequenced
+  alongside single-cell transcriptomes.

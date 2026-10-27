@@ -1,0 +1,33 @@
+name: MPRA
+full_name: "Massively parallel reporter assay"
+aliases:
+- Massively parallel reporter assay
+category: wet
+summary: Synthesized regulatory-element libraries with unique barcode tags are cloned into reporter plasmids, and tag expression
+  is measured by high-throughput sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nbt.2137
+  year: 2012
+  date: '2012-02-26'
+  journal: Nat Biotechnol
+  first_author: Melnikov A
+  last_author: Mikkelsen TS
+  pmid: '22371084'
+  pmcid: PMC3297981
+  title: Systematic dissection and optimization of inducible enhancers in human cells using a massively parallel reporter
+    assay
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: In MPRA, microarray-synthesized DNA regulatory elements and unique sequence tags are cloned into plasmids to generate
+  a library of reporter constructs.

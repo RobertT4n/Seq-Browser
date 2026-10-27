@@ -1,0 +1,33 @@
+name: spatial-Mux-seq
+category: wet
+summary: Multimodal spatial profiling of two histone modifications, chromatin accessibility, whole transcriptome and surface
+  proteins on one tissue section.
+readouts:
+- chromatin-accessibility
+- histone-modification
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-024-02576-0
+  year: 2025
+  date: '2025-01-27'
+  journal: Nat Methods
+  first_author: Guo P
+  last_author: Deng Y
+  pmid: '39870864'
+  pmcid: PMC11906265
+  title: Multiplexed spatial mapping of chromatin features, transcriptome and proteins in tissues
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: 'Here we present spatial-Mux-seq, a multimodal spatial technology that allows simultaneous profiling of five different
+  modalities: two histone modifications, chromatin accessibility, whole transcriptome and a panel of proteins at tissue scale
+  and cellular level in a spatially resolved manner.'

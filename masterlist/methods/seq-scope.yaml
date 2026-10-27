@@ -1,0 +1,27 @@
+name: Seq-Scope
+category: wet
+summary: Submicrometer spatial transcriptomics made by solid-phase amplification of randomly barcoded oligonucleotides on
+  an Illumina flow cell.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2021.05.010
+  year: 2021
+  date: '2021-06-10'
+  journal: Cell
+  first_author: Cho CS
+  last_author: Lee JH
+  pmid: '34115981'
+  pmcid: PMC8238917
+  title: Microscopic examination of spatial transcriptome using Seq-Scope
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we report Seq-Scope, a spatial barcoding technology with a resolution comparable to an optical microscope.

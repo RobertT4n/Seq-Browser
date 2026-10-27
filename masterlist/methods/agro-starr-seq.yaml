@@ -1,0 +1,28 @@
+name: Agro-STARR-seq
+category: wet
+summary: Agrobacterium-delivered STARR-seq libraries in Nicotiana benthamiana leaves for in planta genome-wide enhancer screening.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- starr-seq
+reference:
+  doi: 10.1101/2025.10.10.681754
+  year: 2025
+  date: '2025-10-11'
+  journal: bioRxiv
+  first_author: Bao Y
+  last_author: Liu Y
+  title: Agro-STARR-seq enables  <i>in planta</i>  genome-wide enhancer discovery and AI-empowerd enhancer design
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present Agro-STARR-seq, an in planta enhancer screening platform using Agrobacterium-mediated delivery of STARR-seq
+  libraries into Nicotiana benthamiana leaves.

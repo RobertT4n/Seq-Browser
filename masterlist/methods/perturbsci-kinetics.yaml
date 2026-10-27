@@ -1,0 +1,37 @@
+name: PerturbSci-Kinetics
+category: wet
+summary: Combinatorial-indexing single-cell method that profiles whole and nascent transcriptomes together with sgRNA identity
+  across pooled CRISPR perturbations.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+- nucleotide-labeling
+builds_on:
+- sci-rna-seq3
+- perturb-seq
+- sci-fate
+reference:
+  doi: 10.1038/s41587-023-01948-9
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Xu Z
+  last_author: Cao J
+  pmid: '37749268'
+  pmcid: PMC10961254
+  title: Dissecting key regulators of transcriptome kinetics through scalable single-cell RNA profiling of pooled CRISPR screens
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: here we described PerturbSci-Kinetics, a novel combinatorial indexing method for capturing three-layer single-cell
+  readout (i.e., whole transcriptomes, nascent transcriptomes, sgRNA identities) across hundreds of genetic perturbations.

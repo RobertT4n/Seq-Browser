@@ -1,0 +1,37 @@
+name: TAP-seq
+full_name: "Targeted Perturb-seq"
+aliases:
+- Targeted Perturb-seq
+- targeted Perturb-seq
+category: wet
+summary: Single-cell RNA-seq coverage focused on genes of interest, so CRISPR perturbation effects are detected with far fewer
+  sequencing reads.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- perturb-seq
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41592-020-0837-5
+  year: 2020
+  date: '2020-06-01'
+  journal: Nat Methods
+  first_author: Schraivogel D
+  last_author: Steinmetz LM
+  pmid: '32483332'
+  pmcid: PMC7610614
+  title: Targeted Perturb-seq enables genome-scale genetic screens in single cells
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we introduce targeted Perturb-seq (TAP-seq), a sensitive, inexpensive and platform-independent method focusing single-cell
+  RNA-seq coverage on genes of interest

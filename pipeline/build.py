@@ -8,6 +8,7 @@
 
 import csv
 import json
+import re
 import sys
 from datetime import date
 
@@ -28,6 +29,8 @@ def load():
     for p in sorted(METHODS_DIR.glob("*.yaml")):
         e = yaml.safe_load(p.read_text())
         errs = [f"missing '{f}'" for f in REQUIRED if not e.get(f) and not (f == "chemistry" and e.get("category") == "dry")]
+        if re.fullmatch(r"[A-Z][a-z]+(-et-al)?-?\d{4}", e.get("name") or ""):  # e.g. 'Delley2021': a placeholder, not a method name
+            errs.append("name looks like author+year - give the method a real (descriptive) name")
         if e.get("name") and slug(e["name"]) != p.stem:
             errs.append(f"file name should be {slug(e['name'])}.yaml")
         for f in LIST_FIELDS:
@@ -43,6 +46,7 @@ def load():
         entries.append(e)
     errors += check_lineage(entries)
     check_inherited_readouts(entries)
+    lint_readouts(entries)
     return entries, tax, errors
 
 
@@ -102,15 +106,36 @@ def check_inherited_readouts(entries):
                       f"or `introduces: [{r}]` if this method was first", file=sys.stderr)
 
 
+# description keywords that imply a specific readout; an entry whose own text matches but lacks the readout is flagged
+READOUT_LINT = {
+    "translation": r"ribosome[- ]protected|ribosome profiling|ribo-?seq|translatome|ribosome footprint",
+    "rna-structure": r"(?-i:\bSHAPE\b)|structure probing|DMS-?(?:seq|MaPseq)|RNA structure",  # SHAPE case-sensitive (not "shape")
+    "rna-modification": r"\bm6A\b|pseudouridin|\bm5C\b|RNA editing|A-to-I|epitranscriptom",
+    "rna-protein-interaction": r"\bCLIP\b|-CLIP|protein-RNA (?:interaction|crosslink)|RNA-binding protein (?:binding sites|targets)",
+    "rna-chromatin-interaction": r"RNA[- ](?:chromatin|DNA) (?:interaction|contact)|chromatin-associated RNA",
+    "nascent-rna": r"newly (?:synthesi[sz]ed|transcribed)|nascent (?:RNA|transcript)|4sU|4-thiouridine|5-ethynyluridine|metabolic labell?ing",
+    "immune-repertoire": r"\bTCR\b|\bBCR\b|V\(D\)J|immune repertoire",
+}
+
+
+def lint_readouts(entries):
+    import re
+    for e in entries:
+        text = " ".join([e["name"], e.get("summary", ""), e.get("evidence", ""), (e.get("reference") or {}).get("title", "")])
+        for r, pat in READOUT_LINT.items():
+            if re.search(pat, text, re.I) and r not in e["readouts"]:
+                print(f"warning: {e['id']} text suggests readout '{r}' but readouts are {e['readouts']} - check the label", file=sys.stderr)
+
+
 def flat(e, cites, children, tax):
     r = e["reference"]
-    return {"id": e["id"], "name": e["name"], "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
+    return {"id": e["id"], "name": e["name"], "full_name": e.get("full_name") or "", "aliases": "; ".join(e.get("aliases") or []), "category": e["category"],
             "domains": "; ".join(dict.fromkeys(tax["readouts"][x] for x in e["readouts"])),
             "readouts": "; ".join(e["readouts"]), "resolution": "; ".join(e["resolution"]), "scope": e["scope"],
             "temporal": "; ".join(e.get("temporal") or []), "perturbation": "; ".join(e.get("perturbation") or []),
             "chemistry": "; ".join(e.get("chemistry") or []), "variant_of": "; ".join(e.get("variant_of") or []), "builds_on": "; ".join(e.get("builds_on") or []),
             "children": "; ".join(sorted(children.get(e["id"], []))),
-            "year": r.get("year"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
+            "year": r.get("year"), "date": r.get("date"), "first_author": r.get("first_author"), "last_author": r.get("last_author"),
             "journal": r.get("journal"), "title": r.get("title"), "doi": r.get("doi"), "url": r.get("url"), "citations": (cites.get(e["id"]) or {}).get("count"),
             "preprint": (r.get("journal") or "").lower() in ("biorxiv", "medrxiv"), "summary": e["summary"],
             "protocol": (e.get("links") or {}).get("protocol"), "code": (e.get("links") or {}).get("code"),
@@ -123,7 +148,7 @@ def md_table(rows):
     for f in rows:
         ref = (f"{f['first_author']} {f['year']}, {f['journal']}, [doi:{f['doi']}](https://doi.org/{f['doi']})" if f["doi"]
                else f"[{f['url']}]({f['url']})")
-        cells = [f"**{f['name']}**", f["aliases"], f["readouts"], f["resolution"], f["temporal"], f["scope"], f["chemistry"],
+        cells = [f"**{f['name']}**" + (f" ({f['full_name']})" if f["full_name"] else ""), f["aliases"], f["readouts"], f["resolution"], f["temporal"], f["scope"], f["chemistry"],
                  "; ".join(x for x in (f["variant_of"] and f"variant of {f['variant_of']}",
                                        f["builds_on"] and f"builds on {f['builds_on']}") if x), ref, f["citations"], f["summary"]]
         out.append("| " + " | ".join(str(c or "").replace("|", "/") for c in cells) + " |")

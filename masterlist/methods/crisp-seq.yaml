@@ -1,0 +1,30 @@
+name: CRISP-seq
+category: wet
+summary: Pooled CRISPR screens linked to single-cell RNA-seq so that each cell's perturbation and transcriptome are measured
+  together.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1016/j.cell.2016.11.039
+  year: 2016
+  date: '2016-12-01'
+  journal: Cell
+  first_author: Jaitin DA
+  last_author: Amit I
+  pmid: '27984734'
+  title: Dissecting Immune Circuits by Linking CRISPR-Pooled Screens with Single-Cell RNA-Seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present CRISP-seq, an integrated method for massively parallel single-cell RNA sequencing (RNA-seq) and
+  clustered regularly interspaced short palindromic repeats (CRISPR)-pooled screens.

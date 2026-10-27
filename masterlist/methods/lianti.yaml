@@ -1,9 +1,10 @@
 name: LIANTI
+full_name: "Linear amplification via transposon insertion"
 category: wet
 summary: Single-cell whole-genome amplification using transposon insertion and linear amplification, giving kilobase-resolution
   copy-number profiles.
 readouts:
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -12,6 +13,7 @@ chemistry:
 reference:
   doi: 10.1126/science.aak9787
   year: 2017
+  date: '2017-04-01'
   journal: Science
   first_author: Chen C
   last_author: Xie XS

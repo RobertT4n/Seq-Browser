@@ -5,6 +5,7 @@ summary: 5' gene expression plus antibody-oligo surface protein tags in one drop
 readouts:
 - rna
 - protein
+- immune-repertoire
 resolution:
 - single-cell
 scope: genome-wide
@@ -23,3 +24,5 @@ added: '2026-10-26'
 needs_review: true
 evidence: Vendor product page only; no paper introduces this kit. V(D)J receptor sequencing has no readout label in the taxonomy,
   so it is not tagged.
+introduces:
+- immune-repertoire

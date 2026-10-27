@@ -1,0 +1,29 @@
+name: Pooled paired prime editing screen
+aliases:
+- Paired prime editing deletion screens
+category: wet
+summary: Pairs of prime-editing guides create engineered genomic deletions in pooled screens, scored by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- prime-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+builds_on:
+- pooled-prime-editing
+reference:
+  doi: 10.1101/2025.11.03.686307
+  year: 2025
+  date: '2025-11-04'
+  journal: bioRxiv
+  first_author: Weller J
+  last_author: Parts L
+  title: Generating long deletions across the genome with pooled paired prime editing screens
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we performed the first high-throughput paired prime editing deletion screens.

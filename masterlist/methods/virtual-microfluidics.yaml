@@ -1,0 +1,25 @@
+name: Virtual microfluidics
+category: wet
+summary: Cells are embedded in a thin hydrogel that slows diffusion enough to keep each cell's amplified genome in its own
+  local cluster, giving single-cell whole-genome amplification and sequencing without droplets, wells or chips.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- hydrogel-compartmentalization
+builds_on: []
+reference:
+  doi: 10.1038/nmeth.3955
+  year: 2016
+  date: '2016-08-01'
+  journal: Nat Methods
+  first_author: Xu L
+  last_author: Blainey PC
+  pmid: '27479330'
+  pmcid: PMC5007149
+  title: Virtual microfluidics for digital quantification and single-cell sequencing
+links: {}
+source: user
+added: '2026-10-27'

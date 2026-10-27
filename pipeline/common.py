@@ -4,6 +4,7 @@
 
 import json
 import re
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -16,6 +17,21 @@ TAXONOMY = ROOT / "taxonomy.yaml"
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 BIORXIV = "https://api.biorxiv.org"
 UA = {"User-Agent": "Seq-Browser/0.1 (https://github.com/RobertT4n/Seq-Browser)"}
+# Minimum seconds between requests to one host, shared by every thread of this process. bioRxiv's full-text server 429s
+# hard when several threads (or several array tasks on one cluster IP) hit it at once - backfill 22440566 lost 78% of
+# full texts that way. NCBI allows 3 req/s without an API key.
+MIN_GAP = {"www.biorxiv.org": 1.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1}
+_NEXT, _LOCK = {}, threading.Lock()
+
+
+def _wait_turn(url):
+    host = urllib.parse.urlsplit(url).hostname
+    gap = MIN_GAP.get(host, 0)
+    if not gap:
+        return
+    with _LOCK:
+        now = time.time(); slot = max(now, _NEXT.get(host, 0)); _NEXT[host] = slot + gap
+    time.sleep(slot - now)
 
 
 def slug(name):
@@ -24,19 +40,28 @@ def slug(name):
 
 
 def get(url, as_json=True, tries=3):
-    for i in range(tries):
+    tries_429 = 6  # rate limits clear given time: retry those longer than other errors
+    i = 0
+    while True:
+        _wait_turn(url)
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
                 body = r.read().decode("utf-8", "replace")
             return json.loads(body) if as_json else body
         except urllib.error.HTTPError as e:
-            if e.code == 404 or i == tries - 1:
+            i += 1
+            if e.code == 404 or i >= (tries_429 if e.code == 429 else tries):
                 raise
-            time.sleep((30 if e.code == 429 else 5) * (i + 1))  # rate-limited: back off hard
+            if e.code == 429:  # back off hard, honour Retry-After, and slow every thread on this host down
+                wait = max(30 * i, int(e.headers.get("Retry-After") or 0))
+                with _LOCK:
+                    _NEXT[urllib.parse.urlsplit(url).hostname] = time.time() + wait
+            time.sleep(30 * i if e.code == 429 else 5 * i)
         except Exception:
-            if i == tries - 1:
+            i += 1
+            if i >= tries:
                 raise
-            time.sleep(5 * (i + 1))
+            time.sleep(5 * i)
 
 
 FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0}  # reported in every step1 summary

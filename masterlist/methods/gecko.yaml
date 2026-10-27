@@ -1,0 +1,31 @@
+name: GeCKO
+full_name: "Genome-scale CRISPR-Cas9 knockout"
+aliases:
+- Genome-scale CRISPR-Cas9 knockout library
+category: wet
+summary: Genome-scale lentiviral CRISPR-Cas9 knockout library screened in pools for negative and positive selection, read
+  out by guide sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1126/science.1247005
+  year: 2014
+  journal: Science
+  first_author: Shalem O
+  last_author: Zhang F
+  pmid: '24336571'
+  pmcid: PMC4089965
+  title: Genome-scale CRISPR-Cas9 knockout screening in human cells
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we show that lentiviral delivery of a genome-scale CRISPR-Cas9 knockout (GeCKO) library targeting 18,080 genes with
+  64,751 unique guide sequences enables both negative and positive selection screening in human cells.

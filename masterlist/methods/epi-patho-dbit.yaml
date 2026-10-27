@@ -1,0 +1,38 @@
+name: epi-Patho-DBiT
+aliases:
+- spatial-FFPE-ATAC
+- spatial-FFPE-CUT&Tag
+category: wet
+summary: Spatial chromatin accessibility and histone-modification profiling of FFPE tissue sections, using reverse crosslinking
+  followed by DBiT barcoding.
+readouts:
+- chromatin-accessibility
+- histone-modification
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+- microfluidic-chip
+builds_on:
+- patho-dbit
+- spatial-atac-seq
+- spatial-cut-and-tag
+reference:
+  doi: 10.1038/s41467-026-71576-9
+  year: 2026
+  date: '2026-05-01'
+  journal: Nat Commun
+  first_author: Li H
+  last_author: Fan R
+  pmid: '42067542'
+  pmcid: PMC13338050
+  title: Spatially decoding genotype-associated epigenetic landscapes in human lymphoma FFPE tissues via epi-Patho-DBiT
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce epi-Patho-DBiT, a platform that combines reverse crosslinking of FFPE tissues with spatially
+  resolved assays for transposase-accessible chromatin using sequencing (spatial-FFPE-ATAC) or cleavage under targets and
+  tagmentation (spatial-FFPE-CUT&Tag).

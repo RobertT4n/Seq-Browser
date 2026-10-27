@@ -1,0 +1,31 @@
+name: sci-Space
+category: wet
+summary: Single-nucleus spatial transcriptomics in which combinatorial indexing of nuclei from sectioned embryos gives approximate
+  spatial coordinates.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- reverse-transcription
+builds_on:
+- sci-rna-seq
+reference:
+  doi: 10.1126/science.abb9536
+  year: 2021
+  date: '2021-07-01'
+  journal: Science
+  first_author: Srivatsan SR
+  last_author: Trapnell C
+  pmid: '34210887'
+  pmcid: PMC9118175
+  title: Embryo-scale, single-cell spatial transcriptomics
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we introduce sci-Space, which retains single-cell resolution while resolving spatial heterogeneity at larger
+  scales.

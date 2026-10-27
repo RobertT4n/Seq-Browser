@@ -1,0 +1,31 @@
+name: Sprox-seq
+full_name: "Spatial proximity sequencing"
+aliases:
+- spatial proximity sequencing
+category: wet
+summary: Spatial proximity sequencing that profiles surface proteins, protein complexes and mRNAs, recording the tissue location
+  of each molecule.
+readouts:
+- protein
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2026.06.034
+  year: 2026
+  date: '2026-07-16'
+  journal: Cell
+  first_author: Wang H
+  last_author: Tay S
+  pmid: '42462709'
+  title: Spatial proximity sequencing maps developmental dynamics in the germinal center
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We present spatial proximity sequencing (Sprox-seq) for simultaneous profiling of surface proteins, protein complexes,
+  and mRNAs, recording the tissue location of each molecule.

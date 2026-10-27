@@ -1,0 +1,33 @@
+name: Perturb-seq
+aliases:
+- Perturb-Seq
+category: wet
+summary: Pooled CRISPR perturbations read out by single-cell RNA-seq, with each cell's guide identity captured alongside its
+  transcriptome.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1016/j.cell.2016.11.038
+  year: 2016
+  date: '2016-12-01'
+  journal: Cell
+  first_author: Dixit A
+  last_author: Regev A
+  pmid: '27984732'
+  pmcid: PMC5181115
+  title: 'Perturb-Seq: Dissecting Molecular Circuits with Scalable Single-Cell RNA Profiling of Pooled Genetic Screens'
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we develop Perturb-seq, combining single-cell RNA sequencing (RNA-seq) and clustered regularly interspaced
+  short palindromic repeats (CRISPR)-based perturbations to perform many such assays in a pool.

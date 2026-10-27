@@ -1,0 +1,34 @@
+name: Base editing sensor
+aliases:
+- Base-editing sensor libraries
+category: wet
+summary: Modular sensors link sgRNAs to cognate target sites in cis to measure base-editing efficiency and precision for many
+  editor-guide combinations, including pooled base-editing screens.
+readouts:
+- functional-screen
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- base-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41587-021-01172-3
+  year: 2022
+  date: '2022-02-14'
+  journal: Nat Biotechnol
+  first_author: Sánchez-Rivera FJ
+  last_author: Dow LE
+  pmid: '35165384'
+  pmcid: PMC9232935
+  title: Base editing sensor libraries for high-throughput engineering and functional analysis of cancer-associated single
+    nucleotide variants
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we describe modular base-editing-activity 'sensors' that link sgRNAs and cognate target sites in cis and use
+  them to systematically measure the editing efficiency and precision of thousands of sgRNAs paired with functionally distinct
+  base editors.

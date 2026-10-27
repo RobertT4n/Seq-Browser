@@ -4,7 +4,7 @@ summary: Quasilinear amplification of genomic DNA and mRNA from the same cell, s
   library and an mRNA library.
 readouts:
 - rna
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -16,6 +16,7 @@ builds_on:
 reference:
   doi: 10.1038/nbt.3129
   year: 2015
+  date: '2015-01-19'
   journal: Nat Biotechnol
   first_author: Dey SS
   last_author: van Oudenaarden A

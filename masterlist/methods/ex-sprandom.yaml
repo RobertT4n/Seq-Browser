@@ -1,0 +1,29 @@
+name: Ex-spRandom
+category: wet
+summary: Tissue-expansion version of random-primed spatial transcriptomics for sensitive profiling of archival FFPE tissue.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- sprandom-seq
+reference:
+  doi: 10.1002/advs.77219
+  year: 2026
+  date: '2026-08-17'
+  journal: Adv Sci (Weinh)
+  first_author: Zhang S
+  last_author: Wang Y
+  pmid: '42605963'
+  pmcid: PMC13479583
+  title: Highly Sensitive Spatial Host-Microbiome Transcriptomics in FFPE Tissues via Iterative Hydrogel Expansion
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present Ex-spRandom, a highly sensitive platform that overcomes this limitation by directly converting
+  diverse, fragmented RNA biotypes into stably anchored cDNA through the integration of random-primed in situ cDNA synthesis
+  chemistry with interpenetrating polymer network (IPN)-based tissue expansion chemistry.

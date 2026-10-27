@@ -1,9 +1,9 @@
 name: GRID-seq
+full_name: "Global RNA interactions with DNA by deep sequencing"
 category: wet
 summary: In situ ligation of RNA to adjacent chromatin DNA followed by sequencing, mapping the genome-wide RNA-chromatin interactome.
 readouts:
-- rna
-- 3d-genome
+- rna-chromatin-interaction
 resolution:
 - bulk
 scope: genome-wide
@@ -16,6 +16,7 @@ builds_on:
 reference:
   doi: 10.1038/nbt.3968
   year: 2017
+  date: '2017-09-18'
   journal: Nat Biotechnol
   first_author: Li X
   last_author: Fu XD
@@ -29,3 +30,5 @@ needs_review: true
 evidence: Here we report a method to capture in situ global RNA interactions with DNA by deep sequencing (GRID-seq), which
   enables the comprehensive identification of the entire repertoire of chromatin-interacting RNAs and their respective binding
   sites.
+introduces:
+- rna-chromatin-interaction

@@ -1,0 +1,32 @@
+name: MCAP
+full_name: "Massively parallel CRISPR-Cpf1 crRNA array profiling"
+aliases:
+- Massively parallel CRISPR-Cpf1 crRNA array profiling
+category: wet
+summary: Pooled Cas12a crRNA arrays that knock out gene pairs in vivo, with metastatic potential read out from guide abundance
+  to map genetic interactions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41592-019-0371-5
+  year: 2019
+  date: '2019-04-08'
+  journal: Nat Methods
+  first_author: Chow RD
+  last_author: Chen S
+  pmid: '30962622'
+  pmcid: PMC6592845
+  title: In vivo profiling of metastatic double knockouts through CRISPR-Cpf1 screens
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we developed massively parallel CRISPR-Cpf1/Cas12a crRNA array profiling (MCAP), an approach for combinatorial
+  interrogation of double knockouts in vivo.

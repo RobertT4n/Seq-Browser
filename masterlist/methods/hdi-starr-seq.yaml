@@ -1,0 +1,31 @@
+name: HDI-STARR-seq
+category: wet
+summary: STARR-seq in mouse liver in vivo, with plasmid delivery by hydrodynamic tail vein injection and a minimal Albumin
+  promoter.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- starr-seq
+reference:
+  doi: 10.1186/s12864-024-11162-9
+  year: 2024
+  date: '2024-12-24'
+  journal: BMC Genomics
+  first_author: Chang TY
+  last_author: Waxman DJ
+  pmid: '39716078'
+  pmcid: PMC11668083
+  title: 'HDI-STARR-seq: Condition-specific enhancer discovery in mouse liver in vivo'
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We describe HDI-STARR-seq, which combines STARR-seq plasmid library delivery to the liver, by hydrodynamic tail
+  vein injection (HDI), with reporter RNA transcriptional initiation driven by a minimal Albumin promoter

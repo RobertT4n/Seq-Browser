@@ -1,0 +1,33 @@
+name: Spatial-ATAC-Hi-C
+category: wet
+summary: Microfluidic spatial co-profiling of 3D genome organization (Hi-C contacts) and chromatin accessibility on tissue
+  slides.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- tn5
+- microfluidic-chip
+builds_on:
+- hi-c
+- spatial-atac-seq
+reference:
+  doi: 10.1038/s41592-026-03217-4
+  year: 2026
+  date: '2026-09-01'
+  journal: Nat Methods
+  first_author: Wang P
+  last_author: Yue F
+  pmid: '42680843'
+  pmcid: PMC13645645
+  title: Spatial chromatin architecture and accessibility co-profiling of mammalian tissues
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present Spatial-ATAC-Hi-C, a microfluidic-based platform for genome-wide, spatially resolved joint-profiling
+  of 3D genome organization and chromatin accessibility on tissue slides.

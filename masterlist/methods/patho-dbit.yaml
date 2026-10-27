@@ -1,0 +1,33 @@
+name: Patho-DBiT
+full_name: "Pathology-compatible deterministic barcoding in tissue"
+category: wet
+summary: Pathology-compatible spatial whole-transcriptome sequencing of FFPE tissue sections using in situ polyadenylation
+  and DBiT barcoding.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- dbit-seq
+reference:
+  doi: 10.1016/j.cell.2024.09.001
+  year: 2024
+  date: '2024-09-30'
+  journal: Cell
+  first_author: Bai Z
+  last_author: Fan R
+  pmid: '39353436'
+  pmcid: PMC11568911
+  title: Spatially exploring RNA biology in archival formalin-fixed paraffin-embedded tissues
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present pathology-compatible deterministic barcoding in tissue (Patho-DBiT) by combining in situ polyadenylation
+  and computational innovation for spatial whole transcriptome sequencing, tailored to probe the diverse RNA species in clinically
+  archived FFPE samples.

@@ -3,7 +3,7 @@ category: wet
 summary: Dual-Tn5 tagmentation splits open and closed chromatin into ATAC and DNA libraries, with nanowell chip partitioning
   to co-profile copy number and accessibility in single cells.
 readouts:
-- dna-sequence
+- genome-sequence
 - chromatin-accessibility
 resolution:
 - single-cell
@@ -14,10 +14,11 @@ chemistry:
 builds_on:
 - scatac-seq
 introduces:
-- dna-sequence
+- genome-sequence
 reference:
   doi: 10.1101/2024.09.06.611519
   year: 2024
+  date: '2024-09-10'
   journal: bioRxiv
   first_author: Wang K
   last_author: Navin N

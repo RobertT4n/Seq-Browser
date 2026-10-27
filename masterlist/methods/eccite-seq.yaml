@@ -1,10 +1,12 @@
 name: ECCITE-seq
+full_name: "Expanded CRISPR-compatible cellular indexing of transcriptomes and epitopes by sequencing"
 category: wet
 summary: CRISPR-compatible CITE-seq extension that adds guide RNA, TCR/BCR and surface-protein capture to scRNA-seq in the
   same cells.
 readouts:
 - rna
 - protein
+- immune-repertoire
 resolution:
 - single-cell
 scope: genome-wide
@@ -17,6 +19,7 @@ builds_on:
 reference:
   doi: 10.1038/s41592-019-0392-0
   year: 2019
+  date: '2019-04-22'
   journal: Nat Methods
   first_author: Mimitou EP
   last_author: Smibert P
@@ -31,3 +34,5 @@ evidence: Here, we describe expanded CRISPR-compatible cellular indexing of tran
   for the high-throughput characterization of at least five modalities of information from each single cell.
 perturbation:
 - crispr-knockout
+introduces:
+- immune-repertoire

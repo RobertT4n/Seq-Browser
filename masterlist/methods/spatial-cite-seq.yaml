@@ -1,0 +1,32 @@
+name: Spatial-CITE-seq
+category: wet
+summary: Spatially resolved co-mapping of high-plex surface proteins and the whole transcriptome in tissue, extending CITE-seq
+  to the spatial dimension.
+readouts:
+- protein
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- cite-seq
+- dbit-seq
+reference:
+  doi: 10.1038/s41587-023-01676-0
+  year: 2023
+  date: '2023-02-23'
+  journal: Nat Biotechnol
+  first_author: Liu Y
+  last_author: Fan R
+  pmid: '36823353'
+  pmcid: PMC10567548
+  title: High-plex protein and whole transcriptome co-mapping at cellular resolution with spatial CITE-seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: In this study, we extended co-indexing of transcriptomes and epitopes (CITE) to the spatial dimension and demonstrated
+  high-plex protein and whole transcriptome co-mapping.

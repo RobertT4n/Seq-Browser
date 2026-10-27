@@ -1,0 +1,33 @@
+name: AAV-SB-CRISPR
+aliases:
+- AAV-Sleeping Beauty CRISPR screen
+category: wet
+summary: In vivo CRISPR screens using an AAV vector carrying a Sleeping Beauty transposon and sgRNA cassette, so that guide
+  integration gives both editing and a screen readout.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-019-0246-4
+  year: 2019
+  date: '2019-09-23'
+  journal: Nat Biotechnol
+  first_author: Ye L
+  last_author: Chen S
+  pmid: '31548728'
+  pmcid: PMC6834896
+  title: In vivo CRISPR screening in CD8 T cells with AAV-Sleeping Beauty hybrid vectors identifies membrane targets for improving
+    immunotherapy for glioblastoma
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we developed a hybrid genetic screening system where the Sleeping Beauty (SB) transposon and single guide RNA cassette
+  are nested in an adeno-associated virus (AAV).

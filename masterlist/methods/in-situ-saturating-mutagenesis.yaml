@@ -1,0 +1,33 @@
+name: In situ saturating mutagenesis
+aliases:
+- Cas9-mediated in situ saturating mutagenesis
+category: wet
+summary: Pooled Cas9 guide libraries tile an enhancer in its native locus, and sequencing of the guide-edited pools identifies
+  the sequences the enhancer requires.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- saturation-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+builds_on:
+- saturation-editing
+reference:
+  doi: 10.1038/nature15521
+  year: 2015
+  date: '2015-09-16'
+  journal: Nature
+  first_author: Canver MC
+  last_author: Bauer DE
+  pmid: '26375006'
+  pmcid: PMC4644101
+  title: BCL11A enhancer dissection by Cas9-mediated in situ saturating mutagenesis
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we develop pooled clustered regularly interspaced palindromic repeat (CRISPR)-Cas9 guide RNA libraries to perform
+  in situ saturating mutagenesis of the human and mouse enhancers.

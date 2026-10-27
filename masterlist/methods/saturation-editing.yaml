@@ -1,0 +1,34 @@
+name: Saturation editing
+aliases:
+- Saturation genome editing
+- SGE
+category: wet
+summary: Cas9 cleavage combined with multiplex homology-directed repair from a donor library replaces genomic regions with
+  all possible variants, scored by transcript abundance or growth.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- saturation-editing
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+reference:
+  doi: 10.1038/nature13695
+  year: 2014
+  date: '2014-09-01'
+  journal: Nature
+  first_author: Findlay GM
+  last_author: Shendure J
+  pmid: '25141179'
+  pmcid: PMC4156553
+  title: Saturation editing of genomic regions by multiplex homology-directed repair
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we couple CRISPR/Cas9 RNA-guided cleavage with multiplex homology-directed repair using a complex library
+  of donor templates to demonstrate saturation editing of genomic regions.

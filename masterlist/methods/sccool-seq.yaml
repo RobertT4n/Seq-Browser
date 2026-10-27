@@ -7,7 +7,7 @@ summary: Measures chromatin state, DNA methylation and copy number from the same
 readouts:
 - chromatin-accessibility
 - dna-methylation
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -17,10 +17,11 @@ builds_on:
 - scnome-seq
 - scbs-seq
 introduces:
-- dna-sequence
+- genome-sequence
 reference:
   doi: 10.1038/cr.2017.82
   year: 2017
+  date: '2017-06-16'
   journal: Cell Res
   first_author: Guo F
   last_author: Tang F

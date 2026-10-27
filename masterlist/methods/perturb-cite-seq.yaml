@@ -1,0 +1,34 @@
+name: Perturb-CITE-seq
+aliases:
+- Perturb-CITE-sequencing
+category: wet
+summary: Pooled CRISPR-Cas9 perturbations read out by single-cell transcriptome and surface-protein profiling.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+builds_on:
+- cite-seq
+- perturb-seq
+reference:
+  doi: 10.1038/s41588-021-00779-1
+  year: 2021
+  date: '2021-03-01'
+  journal: Nat Genet
+  first_author: Frangieh CJ
+  last_author: Izar B
+  pmid: '33649592'
+  pmcid: PMC8376399
+  title: Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: we developed Perturb-CITE-sequencing (Perturb-CITE-seq), enabling pooled clustered regularly interspaced short palindromic
+  repeat (CRISPR)-Cas9 perturbations with single-cell transcriptome and protein readouts.

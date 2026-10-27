@@ -1,0 +1,29 @@
+name: STARR-seq
+full_name: "Self-transcribing active regulatory region sequencing"
+category: wet
+summary: Random genomic DNA fragments are placed in a reporter so that active enhancers transcribe themselves, and their activity
+  is read out by sequencing the transcribed copies.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/science.1232542
+  year: 2013
+  date: '2013-01-17'
+  journal: Science
+  first_author: Arnold CD
+  last_author: Stark A
+  pmid: '23328393'
+  title: Genome-wide quantitative enhancer activity maps identified by STARR-seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We developed a method termed STARR-seq to directly and quantitatively assess enhancer activity for millions of candidates
+  from arbitrary sources of DNA, which enables screens across entire genomes.

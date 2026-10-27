@@ -1,0 +1,30 @@
+name: CRISPR-GEMM
+full_name: "CRISPR-mediated genetically engineered mouse models"
+category: wet
+summary: Pooled mutagenic CRISPR screens in genetically engineered mouse models, read out by sequencing to find tumor genes
+  that modulate immune checkpoint blockade response.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1158/2159-8290.cd-19-1448
+  year: 2020
+  date: '2020-09-04'
+  journal: Cancer Discov
+  first_author: Wang G
+  last_author: Chen S
+  pmid: '32887696'
+  pmcid: PMC7710536
+  title: CRISPR-GEMM Pooled Mutagenic Screening Identifies KMT2D as a Major Modulator of Immune Checkpoint Blockade
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we performed pooled mutagenic screening with CRISPR-mediated genetically engineered mouse models (CRISPR-GEMM)
+  in ICB settings, and identified KMT2D as a major modulator of ICB response across multiple cancer types.

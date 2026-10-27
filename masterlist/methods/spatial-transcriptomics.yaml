@@ -1,0 +1,26 @@
+name: Spatial Transcriptomics
+category: wet
+summary: Spatial transcriptomics by reverse-transcribing mRNA from tissue sections on an array of spatially barcoded primers.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/science.aaf2403
+  year: 2016
+  date: '2016-07-01'
+  journal: Science
+  first_author: Ståhl PL
+  last_author: Frisén J
+  pmid: '27365449'
+  title: Visualization and analysis of gene expression in tissue sections by spatial transcriptomics
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: By positioning histological sections on arrayed reverse transcription primers with unique positional barcodes, we
+  demonstrate high-quality RNA-sequencing data with maintained two-dimensional positional information from the mouse brain
+  and human breast cancer.

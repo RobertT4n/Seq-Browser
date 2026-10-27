@@ -1,0 +1,32 @@
+name: m6A-ARTR-DBiT
+category: wet
+summary: Spatial mapping of transcriptome-wide N6-methyladenosine (m6A) in tissue sections using reverse-transcription-based
+  detection and DBiT barcoding.
+readouts:
+- rna-modification
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- dbit-seq
+reference:
+  doi: 10.1038/s41592-026-03123-9
+  year: 2026
+  date: '2026-06-09'
+  journal: Nat Methods
+  first_author: Xiao Y
+  last_author: He C
+  pmid: '42265211'
+  title: Spatially resolved m&lt;sup&gt;6&lt;/sup&gt;A profiling using m&lt;sup&gt;6&lt;/sup&gt;A-ARTR-DBiT
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we introduce m6A-ARTR-DBiT, a spatial m6A profiling assay that leverages reverse-transcription-based detection
+  and deterministic barcoding in tissue to map transcriptome-wide m6A distribution while preserving native tissue context.
+introduces:
+- rna-modification

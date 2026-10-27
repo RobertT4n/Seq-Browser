@@ -1,0 +1,33 @@
+name: BALI
+full_name: "Barcoding by activated linkage of indexes"
+aliases:
+- Barcoding by Activated Linkage of Indexes
+category: wet
+summary: Light-directed in situ combinatorial barcoding that writes spatial barcodes onto RNA and chromatin for multiomic
+  NGS profiling of user-defined tissue regions.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- tn5
+- combinatorial-indexing
+reference:
+  doi: 10.1073/pnas.2527896123
+  year: 2026
+  date: '2026-05-18'
+  journal: Proc Natl Acad Sci U S A
+  first_author: Battistoni G
+  last_author: Bressan D
+  pmid: '42150070'
+  pmcid: PMC13214022
+  title: Spatially tunable multiomic sequencing using light-driven combinatorial barcoding of molecules in tissues
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here, we present Barcoding by Activated Linkage of Indexes (BALI), a method that uses light to write combinatorial
+  spatial molecular barcodes directly onto target molecules in situ, enabling multiomic profiling by next generation sequencing.

@@ -1,0 +1,26 @@
+name: Pixel-seq
+category: wet
+summary: Single-cell spatial transcriptomics using stamped polony gels as low-cost barcoded RNA-capture arrays.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2022.10.021
+  year: 2022
+  date: '2022-11-10'
+  journal: Cell
+  first_author: Fu X
+  last_author: Gu L
+  pmid: '36368323'
+  pmcid: PMC9691594
+  title: Polony gels enable amplifiable DNA stamping and spatial transcriptomics of chronic pain
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We leveraged the resolution and RNA capture efficiency of polony gels to develop Pixel-seq, a single-cell spatial

@@ -1,6 +1,6 @@
 #Date: 2026-10-26
 #Purpose: Proc_step1 - everything that needs no language model: collect new papers (bioRxiv/medRxiv + PubMed journals via
-#  Europe PMC) and open website submissions, then triage each with the abstract rules AND a full-text naming scan.
+#  Europe PMC), open website submissions and new rows of curated watchlists (pipeline/watchlists.py), then triage each with the abstract rules AND a full-text naming scan.
 #  Writes the candidates for Proc_step2 (language-model classification, run in Claude Code) plus a summary.
 #  Built for the cluster: full-text downloads run in parallel threads, so it can afford to scan every paper.
 #Usage: python3 $SEQBROWSER_HOME/engine/pipeline/step1.py --week --out $SEQBROWSER_HOME/step1_out
@@ -21,6 +21,7 @@ from pathlib import Path
 from common import BIORXIV, FT_STATS, get
 from fetch import fetch_journals, fetch_preprints
 from submissions import fetch_submissions
+from watchlists import fetch_watchlists
 from triage import triage
 
 
@@ -38,7 +39,7 @@ def check_network():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--week", action="store_true", help="the 7 days ending today, plus open website submissions")
+    ap.add_argument("--week", action="store_true", help="the 7 days ending today, plus open website submissions and new watchlist rows")
     ap.add_argument("--from", dest="start"); ap.add_argument("--to", dest="end")
     ap.add_argument("--out", required=True)
     ap.add_argument("--threads", type=int, default=8, help="parallel full-text downloads (keep modest: public APIs)")
@@ -59,7 +60,8 @@ def main():
     t0, failures, counts = time.time(), [], {}
     recs = []
     for label, fn in (("preprints", lambda: fetch_preprints(a.start, a.end)), ("journals", lambda: fetch_journals(a.start, a.end)),
-                      ("submissions", (lambda: fetch_submissions(str(out / "submissions_seen.json"))) if a.week else lambda: [])):
+                      ("submissions", (lambda: fetch_submissions(str(out / "submissions_seen.json"))) if a.week else lambda: []),
+                      ("watchlists", (lambda: fetch_watchlists(str(out / "watchlists_seen.json"))) if a.week else lambda: [])):
         log(f"collecting {label} ...")
         try:
             got = fn()
@@ -78,7 +80,7 @@ def main():
                 t = f.result()
                 # strict (backfill): keep only papers where the extractor found a method-shaped name (it already requires an
                 # internal capital, digit, hyphen or &), plus all user submissions
-                if t["flag"] and (not a.strict or r.get("submitted") or t["names"]):
+                if t["flag"] and (not a.strict or r.get("submitted") or r.get("watchlist") or t["names"]):
                     kept.append(r | {"triage": t})
                     n_ft += "fulltext-naming" in t["routes"]
                     if "fulltext-naming" in t["routes"] and "abstract" not in t["routes"]:
@@ -95,7 +97,7 @@ def main():
 
     (out / f"{tag}.candidates.jsonl").write_text("".join(json.dumps(r) + "\n" for r in kept))
     summary = {"range": [a.start, a.end], "fetched": counts, "total": len(recs), "kept": len(kept),
-               "routes": {k: sum(k in r["triage"]["routes"] for r in kept) for k in ("abstract", "fulltext-naming", "submitted")},
+               "routes": {k: sum(k in r["triage"]["routes"] for r in kept) for k in ("abstract", "fulltext-naming", "submitted", "watchlist")},
                "fulltext": dict(FT_STATS), "failures": failures, "minutes": round((time.time() - t0) / 60, 1)}
     (out / f"{tag}.summary.json").write_text(json.dumps(summary, indent=1))
     log(f"DONE in {summary['minutes']} min: kept {len(kept)} of {len(recs):,} -> {tag}.candidates.jsonl")

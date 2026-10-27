@@ -42,7 +42,7 @@ fetch("methods.json").then(r => r.json()).then(j => {
   FACETS.forEach(([k]) => on[k] = new Set());
   document.getElementById("facets").innerHTML = FACETS.map(([k, label]) => {
     const vals = [...new Set(data.flatMap(m => split(m[k])))].sort();
-    return `<div class="facet"><b>${label}</b>${vals.map(v => `<button class="chip" data-k="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(v)}</button>`).join("")}</div>`;
+    return `<div class="facet"><b>${label}</b><div class="chips">${vals.map(v => `<button class="chip" data-k="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(v)}</button>`).join("")}</div></div>`;
   }).join("");
   document.querySelectorAll(".chip").forEach(b => b.onclick = () => {
     const s = on[b.dataset.k], v = b.dataset.v; s.has(v) ? s.delete(v) : s.add(v);
@@ -64,18 +64,18 @@ function render() {
   const rows = data.filter(m =>
     // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
     FACETS.every(([k]) => k === "scope" ? !on[k].size || on[k].has(m.scope) : [...on[k]].every(v => split(m[k]).includes(v))) &&
-    (!q || [m.name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q)));
+    (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q)));
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
   rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
   document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
   document.getElementById("count").textContent = `${rows.length} of ${data.length} methods`;
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
-    <tr class="row" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.aliases ? `<small>${esc(m.aliases)}</small>` : ""}</td>
+    <tr class="row" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
     <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
-    ${open === m.id ? `<tr class="detail"><td colspan="8"><p>${esc(m.summary)}</p>
+    ${open === m.id ? `<tr class="detail"><td colspan="8"><p>${esc(m.summary)}</p>${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}
       <p>${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}
       ${[["variant_of", "variant of"], ["builds_on", "builds on"], ["children", "led to"]].filter(([k]) => m[k]).map(([k, lab]) =>
         ` · ${lab} ${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}`).join("")}

@@ -1,4 +1,5 @@
 name: GoT
+full_name: "Genotyping of transcriptomes"
 aliases:
 - Genotyping of Transcriptomes
 category: wet
@@ -6,7 +7,7 @@ summary: Targeted amplification of mutation sites from droplet scRNA-seq cDNA li
   per cell.
 readouts:
 - rna
-- dna-sequence
+- genome-sequence
 resolution:
 - single-cell
 scope: genome-wide
@@ -18,6 +19,7 @@ builds_on:
 reference:
   doi: 10.1038/s41586-019-1367-0
   year: 2019
+  date: '2019-07-03'
   journal: Nature
   first_author: Nam AS
   last_author: Landau DA
@@ -28,4 +30,4 @@ links: {}
 source: curator
 added: '2026-10-26'
 introduces:
-- dna-sequence
+- genome-sequence

@@ -1,0 +1,32 @@
+name: DBiT-GPT
+aliases:
+- spatial-GPT
+category: wet
+summary: Sequencing-based spatial profiling of glycan-binding lectins, proteins and transcripts in archival FFPE tissue, using
+  DNA-encoded lectins with DBiT barcoding.
+readouts:
+- glycan
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- microfluidic-chip
+builds_on:
+- dbit-seq
+reference:
+  doi: 10.64898/2026.07.08.737217
+  year: 2026
+  date: '2026-07-12'
+  journal: bioRxiv
+  first_author: Tian X
+  last_author: Fan R
+  title: Spatial Glyco-Codes Define Human Liver Pathology and Progression
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Using a panel of 30 DNA-encoded lectins recognizing major mammalian glycan motifs and structural classes, sequencing-based
+  spatial-GPT (DBiT-GPT) mapped the spatial glycome, proteome, and transcriptome across 16 human liver specimens
+introduces:
+- glycan

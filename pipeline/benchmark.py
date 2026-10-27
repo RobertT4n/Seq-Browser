@@ -26,3 +26,15 @@ for c in cases:
     print(f"{'PASS' if ok else 'FAIL'}  {c['note'][:70]}\n      routes={t['routes']} names={t['names']}"
           + (f"  MISSING={missing}" if missing else ""))
 print(f"\n{passed}/{len(cases)} benchmark cases pass triage")
+
+# label regression: masterlist entries named in a case must carry the expected readouts
+import yaml as _y
+bad = 0
+for c in cases:
+    for mid, want in (c["expect"].get("readouts") or {}).items():
+        f = ROOT / "masterlist" / "methods" / f"{mid}.yaml"
+        got = _y.safe_load(f.read_text())["readouts"] if f.exists() else None
+        if not got or not set(want) <= set(got):
+            bad += 1
+            print(f"LABEL FAIL  {mid}: expected readouts {want}, has {got}")
+print(f"label checks: {'all pass' if not bad else f'{bad} FAILED'}")

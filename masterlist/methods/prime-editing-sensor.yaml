@@ -1,0 +1,31 @@
+name: Prime editing sensor
+aliases:
+- Prime editing sensor libraries
+category: wet
+summary: Prime-editing guide RNAs are coupled to synthetic copies of their target sites so that installed endogenous variants
+  are scored for functional impact in pooled screens.
+readouts:
+- functional-screen
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- prime-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41587-024-02172-9
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Gould SI
+  last_author: Sánchez Rivera FJ
+  pmid: '38472508'
+  pmcid: PMC12520993
+  title: High-throughput evaluation of genetic variants with prime editing sensor libraries
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: Here we present a high-throughput prime editing sensor strategy that couples prime editing guide RNAs with synthetic
+  versions of their cognate target sites to quantitatively assess the functional impact of endogenous genetic variants.

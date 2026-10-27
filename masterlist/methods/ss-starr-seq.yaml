@@ -1,0 +1,29 @@
+name: Ss-STARR-seq
+category: wet
+summary: STARR-seq variant that identifies silencers genome-wide by measuring the repressive activity of genomic fragments.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- starr-seq
+reference:
+  doi: 10.1038/s41467-025-55852-8
+  year: 2025
+  date: '2025-01-16'
+  journal: Nat Commun
+  first_author: Zhu X
+  last_author: Zhang Y
+  pmid: '39820458'
+  pmcid: PMC11739512
+  title: Uncovering the whole genome silencers of human cells via Ss-STARR-seq
+links: {}
+source: lab-trawl-2026-10-26
+added: '2026-10-26'
+needs_review: true
+evidence: We developed a method called Ss-STARR-seq to directly determine the activity of silencers in the whole genome.
