@@ -19,6 +19,11 @@ from common import METHODS_DIR, ROOT, TAXONOMY, slug
 
 LINK_FIELDS = ("variant_of", "builds_on")  # lineage: direct modification / combines-or-draws-on
 REQUIRED = ("name", "category", "summary", "readouts", "resolution", "scope", "chemistry", "reference")
+CELL_PARTITION = {"droplet-microfluidics", "combinatorial-indexing", "split-pool-barcoding", "plate-based", "microfluidic-chip",
+                  "microwell-array", "spatial-barcode-array", "hydrogel-compartmentalization", "facs-sorting",
+                  "imaging-guided-selection"}
+# partition_unknown: an explicit, greppable opt-out for the rule below - used only when the paper itself does not state
+# how cells are separated (paywalled Methods, etc). Never a default: a missing tag is an error, an acknowledged gap is not.
 LIST_FIELDS = ("readouts", "resolution", "chemistry", "temporal", "perturbation")  # temporal is optional
 REPO = "https://github.com/RobertT4n/Seq-Browser"
 RAW = "https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main"
@@ -27,8 +32,12 @@ RAW = "https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main"
 def load():
     tax = yaml.safe_load(TAXONOMY.read_text())
     entries, errors = [], []
+    rejected = 0
     for p in sorted(METHODS_DIR.glob("*.yaml")):
         e = yaml.safe_load(p.read_text())
+        if e.get("rejected"):  # curated out (not a method, below the bar): kept on disk with its reason, never published
+            rejected += 1
+            continue
         errs = [f"missing '{f}'" for f in REQUIRED if not e.get(f) and not (f == "chemistry" and e.get("category") == "dry")]
         if re.fullmatch(r"[A-Z][a-z]+(-et-al)?-?\d{4}", e.get("name") or ""):  # e.g. 'Delley2021': a placeholder, not a method name
             errs.append("name looks like author+year - give the method a real (descriptive) name")
@@ -40,11 +49,18 @@ def load():
             if e.get(f) and e[f] not in tax[f]:
                 errs.append(f"{f}: unknown value '{e[f]}'")
         errs += [f"introduces: '{v}' is not one of this entry's readouts" for v in e.get("introduces") or [] if v not in e.get("readouts", [])]
+        # invariant (origin: SIMPLE-seq listed no cell-barcoding step): a single-cell assay must say how cells are kept apart
+        if (e.get("category") == "wet" and "single-cell" in (e.get("resolution") or [])
+                and not CELL_PARTITION & set(e.get("chemistry") or []) and not e.get("partition_unknown")):
+            errs.append("single-cell but no cell-partitioning/barcoding chemistry (one of: " + ", ".join(sorted(CELL_PARTITION))
+                        + "). If the paper genuinely does not say, set partition_unknown with the reason you checked.")
         if not (e.get("reference") or {}).get("doi") and not (e.get("reference") or {}).get("url"):
             errs.append("reference needs a doi (run pipeline/resolve_refs.py) or, for kits with no paper, a url")
         errors += [f"{p.name}: {x}" for x in errs]
         e["id"] = p.stem
         entries.append(e)
+    if rejected:
+        print(f"note: {rejected} entr{'y' if rejected == 1 else 'ies'} marked rejected and skipped", file=sys.stderr)
     errors += check_lineage(entries)
     check_inherited_readouts(entries)
     lint_readouts(entries)

@@ -8,15 +8,19 @@ resolution:
 scope: genome-wide
 chemistry:
 - reverse-transcription
+- droplet-microfluidics
 builds_on:
 - single-cell-rna-seq
 reference:
-  doi: 10.1101/387241
-  year: 2018
-  journal: bioRxiv
+  doi: 10.1038/s41592-019-0433-8
+  year: 2019
+  journal: Nat Methods
   first_author: McGinnis CS
   last_author: Gartner ZJ
-  title: 'MULTI-seq: Scalable sample multiplexing for single-cell RNA sequencing using lipid-tagged indices'
+  pmid: '31209384'
+  pmcid: PMC6837808
+  title: 'MULTI-seq: sample multiplexing for single-cell RNA sequencing using lipid-tagged indices'
+  preprint_doi: 10.1101/387241
 links: {}
 source: pi-sweep-2026-10-27
 added: '2026-10-27'

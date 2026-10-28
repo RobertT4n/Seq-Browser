@@ -11,6 +11,8 @@ perturbation:
 scope: genome-wide
 chemistry:
 - reverse-transcription
+- plate-based
+- facs-sorting
 builds_on:
 - single-cell-rna-seq
 reference:

@@ -44,3 +44,16 @@
   note: "RAPPL-Seq - ribosome profiling; must be labelled translation, never plain rna (regression test for the 2026-10 readout split)"
   where_named: abstract
   expect: {triage: true, new_method: true, category: wet, methods: [RAPPL-Seq], readouts: {rappl-seq: [translation]}}
+
+# Label regressions (no triage needed): entries the user caught mislabelled. labels: {id: {field: expected}}
+- doi: 10.1038/s41587-024-02148-9
+  note: "SIMPLE-seq - abstract never names its chemistry; it is combinatorial indexing + Tn5 + TAPS (user caught 2026-10-27)"
+  where_named: abstract
+  expect: {triage: true, new_method: true, category: wet, methods: [SIMPLE-seq],
+           labels: {simple-seq: {chemistry: [combinatorial-indexing, tn5], builds_on: [taps]}}}
+- doi: 10.1038/s41587-020-0470-y
+  note: "direct-capture Perturb-seq - whole transcriptome (target enrichment is an optional add-on); variant of Perturb-seq"
+  where_named: abstract
+  expect: {triage: true, new_method: true, category: wet, methods: [direct-capture Perturb-seq],
+           labels: {direct-capture-perturb-seq: {scope: genome-wide, variant_of: [perturb-seq]},
+                    direct-capture-targeted-perturb-seq: {variant_of: [tap-seq], builds_on: [direct-capture-perturb-seq]}}}

@@ -87,8 +87,11 @@ chemistry:           # key molecular steps; an assay usually has several
   - facs-sorting
   - reverse-transcription   # any RNA readout
   - dnase-digestion
+  - radiation-cleavage      # ionizing radiation cuts DNA; correlated break ends report structure (RICC-seq)
   - organic-extraction      # e.g. FAIRE phenol-chloroform partitioning
   - microfluidic-chip       # e.g. Fluidigm C1 chambers (not droplets)
   - amplicon-pcr            # targeted PCR amplicons as the library (panels, barcode genes)
   - sample-preservation     # chemistry that stabilises samples before library prep (e.g. biosilicification)
   - hydrogel-compartmentalization  # cells isolated by a hydrogel instead of droplets/wells (virtual microfluidics)
+  - microwell-array         # cells settle into an array of picolitre wells with barcoded beads (Seq-Well, Microwell-seq)
+  - spatial-barcode-array   # position-barcoded capture surface / beads; resolution comes from the array (Stereo-seq, Slide-seq)

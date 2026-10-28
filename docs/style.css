@@ -15,8 +15,11 @@ main { max-width:1440px; margin:0 auto; padding:8px 16px 48px; }
 input[type=search] { flex:1 1 260px; padding:9px 12px; border:1px solid var(--rule); border-radius:8px; background:var(--panel); color:var(--ink); font:inherit; }
 .count { color:var(--muted); font-size:13px; }
 .btn { border:1px solid var(--rule); background:var(--panel); color:var(--ink); border-radius:8px; padding:7px 12px; font:inherit; font-size:13px; text-decoration:none; }
-.facet { margin:8px 0; display:grid; grid-template-columns:128px 1fr; gap:6px 12px; align-items:start; }
-.facet b { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:600; padding-top:7px; white-space:nowrap; }
+#facets { border:1px solid var(--rule); border-radius:10px; overflow:hidden; background:var(--panel); margin:10px 0 2px; }
+.facet { display:grid; grid-template-columns:132px 1fr; gap:6px 14px; align-items:start; padding:9px 14px; border-top:1px solid var(--rule); }
+.facet:first-child { border-top:0; }
+.facet:nth-child(even) { background:var(--chip); }   /* alternating bands: each row reads as one facet */
+.facet b { font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); font-weight:700; padding-top:6px; white-space:nowrap; }
 .facet .chips { display:flex; flex-wrap:wrap; gap:6px; min-width:0; }
 .aka { color:var(--muted); font-size:13px; }
 .chip { border:1px solid var(--rule); background:var(--chip); color:var(--ink); border-radius:999px; padding:2px 10px; font-size:13px; cursor:pointer; }
@@ -42,5 +45,5 @@ tr.detail td { background:var(--bg); } tr.detail p { margin:4px 0; }
 .tile .v { font-size:30px; font-weight:650; letter-spacing:-.02em; font-variant-numeric:tabular-nums; } .tile .l { color:var(--muted); font-size:13px; }
 svg text { fill:var(--muted); font-size:13px; } svg .lbl { fill:var(--ink); }
 #tip { position:fixed; pointer-events:none; background:var(--ink); color:var(--bg); font-size:12px; padding:4px 8px; border-radius:6px; opacity:0; transition:opacity .1s; }
-@media (max-width:760px) { .grid { grid-template-columns:1fr; } .hide-sm { display:none; } .facet { grid-template-columns:1fr; } .facet b { padding-top:0; } nav { margin-left:0; } }
+@media (max-width:760px) { .grid { grid-template-columns:1fr; } .hide-sm { display:none; } .facet { grid-template-columns:1fr; padding:8px 10px; } .facet b { padding-top:0; } nav { margin-left:0; } }
 td.chem { min-width:200px; } td.reads { min-width:140px; }

@@ -5,7 +5,7 @@ summary: 3C approach that captures concurrent chromatin interactions among multi
 readouts:
 - 3d-genome
 resolution:
-- single-cell
+- bulk   # single-ALLELE multi-way contacts read in a cell population, not single cells
 scope: targeted
 chemistry:
 - restriction-digest

@@ -1,0 +1,30 @@
+name: RICC-seq
+full_name: "Radiation-induced correlated cleavage sequencing"
+category: wet
+summary: Ionizing radiation cuts DNA in intact nuclei; sequencing the resulting single-stranded fragments and measuring
+  which break ends co-occur reports nucleosome-nucleosome packing at sub-kilobase scale.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- radiation-cleavage
+builds_on: []
+introduces:
+- 3d-genome
+reference:
+  doi: 10.1038/nature20781
+  year: 2017
+  date: '2016-12-26'
+  journal: Nature
+  first_author: Risca VI
+  last_author: Greenleaf WJ
+  pmid: '28024297'
+  pmcid: PMC5526328
+  title: Variable chromatin structure revealed by in situ spatially correlated DNA cleavage mapping
+links: {}
+source: user
+added: '2026-10-28'
+evidence: Here we report the first genome-wide map of chromatin secondary structure, measured by in situ spatially
+  correlated DNA cleavage.

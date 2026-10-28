@@ -1,0 +1,32 @@
+name: HiCAR
+full_name: "Hi-C on accessible regulatory DNA"
+category: wet
+summary: Maps long-range interactions anchored on open chromatin from low-input samples, using Tn5 tagmentation of
+  accessible sites followed by in situ proximity ligation.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- proximity-ligation
+builds_on:
+- atac-seq
+- in-situ-hi-c
+reference:
+  doi: 10.1016/j.molcel.2022.01.023
+  year: 2022
+  date: '2022-02-22'
+  journal: Mol Cell
+  first_author: Wei X
+  last_author: Diao Y
+  pmid: '35196517'
+  pmcid: PMC8934281
+  title: HiCAR is a robust and sensitive method to analyze open-chromatin-associated genome organization
+links: {}
+source: user
+added: '2026-10-27'
+evidence: Here, we report a new method HiCAR (Hi-C on accessible regulatory DNA), which utilizes Tn5 transposase and
+  chromatin proximity ligation, for the analysis of open-chromatin-anchored interactions with low-input cells.

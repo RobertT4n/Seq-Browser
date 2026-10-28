@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+import common
 from common import BIORXIV, FT_STATS, get
 from fetch import fetch_journals, fetch_preprints
 from submissions import fetch_submissions
@@ -43,6 +44,8 @@ def main():
     ap.add_argument("--from", dest="start"); ap.add_argument("--to", dest="end")
     ap.add_argument("--out", required=True)
     ap.add_argument("--threads", type=int, default=8, help="parallel full-text downloads (keep modest: public APIs)")
+    ap.add_argument("--defer", action="store_true",
+                    help="backfill: a throttled bioRxiv full text is queued in <tag>.deferred.jsonl for drain_fulltext.py instead of retried")
     ap.add_argument("--gate", action="store_true",
                     help="backfill: download full text only when title/abstract is plainly about sequencing (bioRxiv throttles)")
     ap.add_argument("--strict", action="store_true",
@@ -54,6 +57,7 @@ def main():
     if not (a.start and a.end):
         sys.exit("give --week or both --from and --to (YYYY-MM-DD)")
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
+    common.FT_CACHE = common.FT_CACHE or str(out / "ft_cache")  # full texts cached per DOI: reruns never refetch
     tag = f"step1_{a.start}_{a.end}" + ("_strict" if a.strict else "")
     log(f"Proc_step1 {a.start} -> {a.end} | out: {out} | threads: {a.threads}")
     check_network()
@@ -75,7 +79,8 @@ def main():
     log(f"triage: {len(recs):,} papers (abstract rules + full-text naming scan)")
     kept, n_ft, last, t1 = [], 0, 0.0, time.time()
     with ThreadPoolExecutor(a.threads) as pool:
-        futs = {pool.submit(triage, r, True, a.gate): r for r in recs}
+        deferred = [] if a.defer else None
+        futs = {pool.submit(triage, r, True, a.gate, deferred): r for r in recs}
         for i, f in enumerate(as_completed(futs), 1):
             r = futs[f]
             try:
@@ -95,10 +100,14 @@ def main():
                 log(f"  {i:,}/{len(recs):,} ({100 * i / len(recs):.0f}%) | {rate * 60:.0f}/min | ETA {eta / 60:.0f} min | "
                     f"kept {len(kept)} (full-text {n_ft}) | failures {len(failures)} | full texts ok/not-OA/failed "
                     f"{FT_STATS['fulltext_ok']}/{FT_STATS['not_open_access']}/{FT_STATS['fulltext_failed']}"
-                    + (f" | gated out {FT_STATS['gated_out']} | published, journal copy used {FT_STATS['skipped_published']}" if a.gate else ""))
+                    + (f" | gated out {FT_STATS['gated_out']} | published, journal copy used {FT_STATS['skipped_published']}" if a.gate else "")
+                    + (f" | deferred {FT_STATS['deferred']}" if a.defer else "") + f" | cached {FT_STATS['cache_hit']}")
                 last = now
 
     (out / f"{tag}.candidates.jsonl").write_text("".join(json.dumps(r) + "\n" for r in kept))
+    if deferred:  # queue for drain_fulltext.py (abstract triage already ran on these; only the full-text scan is pending)
+        (out / f"{tag}.deferred.jsonl").write_text("".join(json.dumps(r) + "\n" for r in deferred))
+        log(f"  {len(deferred)} bioRxiv full texts throttled -> queued in {tag}.deferred.jsonl (not lost; drain_fulltext.py)")
     summary = {"range": [a.start, a.end], "fetched": counts, "total": len(recs), "kept": len(kept),
                "routes": {k: sum(k in r["triage"]["routes"] for r in kept) for k in ("abstract", "fulltext-naming", "submitted", "watchlist")},
                "fulltext": dict(FT_STATS), "failures": failures, "minutes": round((time.time() - t0) / 60, 1)}
@@ -107,7 +116,7 @@ def main():
     print(json.dumps(summary, indent=1))
     if failures:
         print(f"WARNING: {len(failures)} failures - see {tag}.summary.json", file=sys.stderr)
-    tried = FT_STATS["fulltext_ok"] + FT_STATS["not_open_access"] + FT_STATS["fulltext_failed"]
+    tried = FT_STATS["fulltext_ok"] + FT_STATS["not_open_access"] + FT_STATS["fulltext_failed"]  # deferred = pending, not lost
     if FT_STATS["fulltext_failed"] > 0.05 * max(1, tried):  # >5% of full texts lost: rerun this range
         sys.exit(f"FAIL LOUD: {FT_STATS['fulltext_failed']} full-text downloads failed (>5%) - rerun this range later")
 

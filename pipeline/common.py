@@ -2,7 +2,11 @@
 #Purpose: Shared helpers for the Seq-Browser pipeline: paths, slugs, polite HTTP, Europe PMC + bioRxiv API calls.
 #Usage: imported by the other pipeline/*.py scripts; not run directly.
 
+import gzip
+import hashlib
 import json
+import os
+import random
 import re
 import threading
 import time
@@ -17,22 +21,36 @@ TAXONOMY = ROOT / "taxonomy.yaml"
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 BIORXIV = "https://api.biorxiv.org"
 UA = {"User-Agent": "Seq-Browser/0.1 (https://github.com/RobertT4n/Seq-Browser)"}
-# Minimum seconds between requests to one host, shared by every thread of this process. bioRxiv's full-text server 429s
-# hard when several threads (or several array tasks on one cluster IP) hit it at once - backfill 22440566 lost 78% of
-# full texts that way; job 22475737 still lost 32% at 1 req/s, so full texts are now spaced 12 s apart (slow but steady).
-# NCBI allows 3 req/s without an API key.
-MIN_GAP = {"www.biorxiv.org": 12.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1, "api.openalex.org": 0.12, "api.crossref.org": 0.1}
-_NEXT, _LOCK = {}, threading.Lock()
+# Per-host request pacing, shared by every thread of this process, AIMD-style (as in TCP congestion control): the gap
+# between requests starts at MIN_GAP, doubles on every HTTP 429 (up to MAX_GAP) and shrinks 10% after each success, with
+# +-20% jitter so threads do not fire in lockstep. Retry-After is honoured. bioRxiv's full-text server throttles the cluster
+# IP hard (backfill 22440566 lost 78% of full texts at fixed 1 req/s; 22475737 lost 32%); with --defer those requests are
+# not retried inline but queued for pipeline/drain_fulltext.py. NCBI allows 3 req/s without an API key.
+MAX_GAP = 120.0
+MIN_GAP = {"www.biorxiv.org": 3.0, "api.biorxiv.org": 0.5, "eutils.ncbi.nlm.nih.gov": 0.35, "www.ebi.ac.uk": 0.1, "api.openalex.org": 0.12, "api.crossref.org": 0.1}
+_NEXT, _GAP, _LOCK = {}, {}, threading.Lock()
 
 
 def _wait_turn(url):
     host = urllib.parse.urlsplit(url).hostname
-    gap = MIN_GAP.get(host, 0)
-    if not gap:
+    if host not in MIN_GAP:
         return
     with _LOCK:
+        gap = _GAP.setdefault(host, MIN_GAP[host]) * random.uniform(.8, 1.2)
         now = time.time(); slot = max(now, _NEXT.get(host, 0)); _NEXT[host] = slot + gap
     time.sleep(slot - now)
+
+
+def _paced(url, ok, retry_after=0):
+    """AIMD update after a response: success -> gap * 0.9 (not below MIN_GAP); 429 -> gap * 2 (not above MAX_GAP)."""
+    host = urllib.parse.urlsplit(url).hostname
+    if host not in MIN_GAP:
+        return
+    with _LOCK:
+        g = _GAP.get(host, MIN_GAP[host])
+        _GAP[host] = max(MIN_GAP[host], g * .9) if ok else min(MAX_GAP, g * 2)
+        if not ok:
+            _NEXT[host] = max(_NEXT.get(host, 0), time.time() + max(_GAP[host], retry_after))
 
 
 def slug(name):
@@ -40,24 +58,25 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower().replace("&", "-and-").replace("+", "-plus")).strip("-")
 
 
-def get(url, as_json=True, tries=3):
-    tries_429 = 6  # rate limits clear given time: retry those longer than other errors
+def get(url, as_json=True, tries=3, tries_429=6):
+    """GET with pacing. tries_429=1 makes a throttled request fail fast (callers that defer it to a queue)."""
     i = 0
     while True:
         _wait_turn(url)
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
                 body = r.read().decode("utf-8", "replace")
+            _paced(url, True)
             return json.loads(body) if as_json else body
         except urllib.error.HTTPError as e:
             i += 1
+            if e.code == 429:  # slow every thread on this host down (AIMD), honouring Retry-After
+                ra = e.headers.get("Retry-After") or "0"
+                _paced(url, False, int(ra) if ra.isdigit() else 0)
             if e.code == 404 or i >= (tries_429 if e.code == 429 else tries):
                 raise
-            if e.code == 429:  # back off hard, honour Retry-After, and slow every thread on this host down
-                wait = max(30 * i, int(e.headers.get("Retry-After") or 0))
-                with _LOCK:
-                    _NEXT[urllib.parse.urlsplit(url).hostname] = time.time() + wait
-            time.sleep(30 * i if e.code == 429 else 5 * i)
+            if e.code != 429:
+                time.sleep(5 * i)
         except Exception:
             i += 1
             if i >= tries:
@@ -65,7 +84,33 @@ def get(url, as_json=True, tries=3):
             time.sleep(5 * i)
 
 
-FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0, "gated_out": 0, "skipped_published": 0}  # reported in every step1 summary
+FT_STATS = {"fulltext_ok": 0, "not_open_access": 0, "fulltext_failed": 0, "gated_out": 0, "skipped_published": 0,
+            "deferred": 0, "cache_hit": 0}  # reported in every step1 summary
+
+
+# Full-text cache: one gzipped XML per DOI, so retries and reruns never download a paper twice.
+FT_CACHE = os.environ.get("SEQBROWSER_FT_CACHE")
+
+
+def _cache_path(key):
+    return os.path.join(FT_CACHE, hashlib.sha1(key.encode()).hexdigest()[:20] + ".xml.gz") if FT_CACHE and key else None
+
+
+def cache_get(key):
+    p = _cache_path(key)
+    if p and os.path.exists(p):
+        with gzip.open(p, "rt", encoding="utf-8") as fh:
+            return fh.read()
+    return None
+
+
+def cache_put(key, xml):
+    p = _cache_path(key)
+    if p and xml:
+        os.makedirs(FT_CACHE, exist_ok=True)
+        with gzip.open(p + ".tmp", "wt", encoding="utf-8") as fh:
+            fh.write(xml)
+        os.replace(p + ".tmp", p)  # atomic: a killed job never leaves a half-written cache file
 
 
 def epmc_search(query, page_size=25, cursor="*", core=False):

@@ -12,6 +12,8 @@ scope: targeted
 chemistry:
 - bisulfite-or-enzymatic-conversion
 - reverse-transcription
+- plate-based
+- facs-sorting
 builds_on:
 - scbs-seq
 - single-cell-rna-seq

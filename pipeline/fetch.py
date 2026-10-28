@@ -8,7 +8,7 @@
 import json
 import sys
 
-from common import BIORXIV, FT_STATS, epmc_search, get, jats_to_text, epmc_fulltext
+from common import cache_get, cache_put, BIORXIV, FT_STATS, epmc_search, get, jats_to_text, epmc_fulltext
 
 # Europe PMC query restricting PubMed-indexed journal papers to plausibly relevant ones (high recall, cheap)
 JOURNAL_FILTER = ('(ABSTRACT:"sequencing" OR ABSTRACT:"seq" OR ABSTRACT:"single-cell" OR ABSTRACT:"single cell" '
@@ -66,19 +66,31 @@ def get_record(doi):
     return _journal(hits[0]) if hits else None
 
 
-def full_text(rec):
-    """Plain full text if open access, else None. Every attempt is tallied in common.FT_STATS (ok / not OA / failed)."""
+def full_text(rec, defer=None):
+    """Plain full text if open access, else None. Every attempt is tallied in common.FT_STATS.
+    Cached on disk per DOI (common.FT_CACHE). defer: a list -> a throttled bioRxiv download is not retried inline but the
+    record is appended to `defer` (tallied as deferred, not failed) for pipeline/drain_fulltext.py to fetch later."""
+    key = rec.get("doi") or rec.get("id")
+    xml = cache_get(key)
+    if xml:
+        FT_STATS["cache_hit"] += 1
+        return jats_to_text(xml)
     try:
         if rec.get("jatsxml"):
-            xml = get(rec["jatsxml"], as_json=False)
+            xml = get(rec["jatsxml"], as_json=False, **({"tries": 1, "tries_429": 1} if defer is not None else {}))
         elif rec.get("pmcid"):
             xml = epmc_fulltext(rec["pmcid"])
         else:
             xml = None
     except Exception:
-        FT_STATS["fulltext_failed"] += 1
+        if defer is not None and rec.get("jatsxml"):
+            FT_STATS["deferred"] += 1
+            defer.append(rec)
+        else:
+            FT_STATS["fulltext_failed"] += 1
         return None
     FT_STATS["fulltext_ok" if xml else "not_open_access"] += 1
+    cache_put(key, xml)
     return jats_to_text(xml) if xml else None
 
 

@@ -61,7 +61,7 @@ def names_in(text, window=300):
     return found
 
 
-def triage(rec, fetch_fulltext=True, gate=False):
+def triage(rec, fetch_fulltext=True, gate=False, defer=None):
     head = f"{rec.get('title', '')}. {rec.get('abstract', '')}"
     # submissions and watchlist rows (human-picked) are never discarded here
     routes = (["submitted"] if rec.get("submitted") else []) + (["watchlist"] if rec.get("watchlist") else [])
@@ -78,7 +78,7 @@ def triage(rec, fetch_fulltext=True, gate=False):
         # in the journal pass for its own month, so the preprint copy is skipped
         FT_STATS["skipped_published"] += 1
     elif fetch_fulltext:
-        body = full_text(rec)
+        body = full_text(rec, defer)
         if body:
             extra = [n for n in names_in(body) if n not in names]
             if extra:

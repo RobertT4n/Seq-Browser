@@ -27,6 +27,12 @@ silent error; a flagged gap is a five-minute fix. (Origin: RAPPL-Seq, a ribosome
 ## Two lineage/scope rules (origin: direct-capture Perturb-seq was tagged `targeted`, DC-TAP-seq lineage flattened)
 - `scope` describes the method's DEFAULT readout. An optional add-on demonstrated in the same paper (e.g. hybridization
   target enrichment of a whole-transcriptome library) does not make the method `targeted`.
+- Single-cell methods MUST name how cells/nuclei are kept apart (one of the partitioning tags in taxonomy.yaml:
+  droplet-microfluidics, combinatorial-indexing, split-pool-barcoding, plate-based, facs-sorting, microfluidic-chip,
+  microwell-array, spatial-barcode-array, ...). Abstracts often omit it ("scalable", "thousands of cells"): look in the
+  full text / Methods. If you still cannot tell, write the file with your best tags plus
+  `needs_review: "CHEMISTRY: cell partitioning not stated"` - build.py refuses single-cell entries without one.
+  (Origin: SIMPLE-seq, combinatorial indexing, was listed with no partitioning chemistry.)
 - If the paper says it "improves on", "modifies", "extends" or "is a version of" X, that is `variant_of: [x]`. Use
   `builds_on` only for methods it borrows a component from (a vector, a capture chemistry, a barcoding scheme).
 
@@ -49,7 +55,10 @@ A paper can introduce two methods: give one decision row per method.
 Slug = method name lowercased, non-alphanumerics -> "-", "&" -> "-and-". Same format as the examples:
 ```yaml
 name: X
-aliases: [optional]
+full_name: "What the acronym stands for"   # REQUIRED when the name is an acronym/initialism. Take the authors' own
+                                           # expansion from the title/abstract/Methods ("...we call chromatin accessibility
+                                           # ... (ChAIR)"). Omit ONLY if the name is not an acronym (e.g. "Condense-seq").
+aliases: [optional]                        # other NAMES for the method, not the expansion
 category: wet            # or dry
 summary: One plain sentence in your own words.
 readouts: [...]          # taxonomy keys
@@ -67,7 +76,8 @@ added: '2026-10-26'
 needs_review: true
 evidence: "Exact sentence from the abstract that shows the paper introduces this method."
 ```
-Then run `python3 pipeline/resolve_refs.py <slug>`; it must print author/year/journal. Only touch your own new files.
+Then run `python3 pipeline/resolve_refs.py <slug>`; it must print author/year/journal. It also upgrades a preprint DOI to
+its journal version automatically, so if it prints a journal name where you wrote a bioRxiv DOI, that is correct - keep it. Only touch your own new files.
 No git, no other edits.
 
 ## Write your decisions

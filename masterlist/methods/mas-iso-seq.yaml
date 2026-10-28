@@ -10,15 +10,19 @@ scope: genome-wide
 chemistry:
 - reverse-transcription
 - long-read-sequencing
+- droplet-microfluidics
 builds_on:
 - rna-seq
 reference:
-  doi: 10.1101/2021.10.01.462818
-  year: 2021
-  journal: bioRxiv
-  first_author: Al’Khafaji AM
+  doi: 10.1038/s41587-023-01815-7
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Al'Khafaji AM
   last_author: Hacohen N
-  title: High-throughput RNA isoform sequencing using programmable cDNA concatenation
+  pmid: '37291427'
+  pmcid: PMC12236355
+  title: High-throughput RNA isoform sequencing using programmed cDNA concatenation
+  preprint_doi: 10.1101/2021.10.01.462818
 links: {}
 source: pi-sweep-2026-10-27
 added: '2026-10-27'

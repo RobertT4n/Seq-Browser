@@ -31,10 +31,13 @@ print(f"\n{passed}/{len(cases)} benchmark cases pass triage")
 import yaml as _y
 bad = 0
 for c in cases:
-    for mid, want in (c["expect"].get("readouts") or {}).items():
+    checks = [(m, "readouts", w) for m, w in (c["expect"].get("readouts") or {}).items()]
+    checks += [(m, k, w) for m, fields in (c["expect"].get("labels") or {}).items() for k, w in fields.items()]
+    for mid, field, want in checks:
         f = ROOT / "masterlist" / "methods" / f"{mid}.yaml"
-        got = _y.safe_load(f.read_text())["readouts"] if f.exists() else None
-        if not got or not set(want) <= set(got):
+        got = (_y.safe_load(f.read_text()) or {}).get(field) if f.exists() else None
+        ok = (set(want) <= set(got or [])) if isinstance(want, list) else got == want
+        if not ok:
             bad += 1
-            print(f"LABEL FAIL  {mid}: expected readouts {want}, has {got}")
+            print(f"LABEL FAIL  {mid}.{field}: expected {want}, has {got}")
 print(f"label checks: {'all pass' if not bad else f'{bad} FAILED'}")

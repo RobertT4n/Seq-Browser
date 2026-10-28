@@ -10,6 +10,7 @@ scope: genome-wide
 chemistry:
 - bisulfite-or-enzymatic-conversion
 - tn5
+- combinatorial-indexing
 builds_on:
 - taps   # 5mC via TAPS; 5hmC via the Yi lab's hmC-CATCH (not yet in the list), run sequentially
 reference:

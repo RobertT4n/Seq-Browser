@@ -1,0 +1,28 @@
+name: ECHOS+
+category: wet
+summary: Higher-resolution ECHOS that profiles histone modifications in subcellular chromatin domains at sub-micron
+  resolution.
+readouts:
+- histone-modification
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- imaging-guided-selection
+variant_of:
+- echos
+reference:
+  doi: 10.64898/2026.03.26.714421
+  year: 2026
+  date: '2026-03-27'
+  journal: bioRxiv
+  first_author: Cao Q
+  last_author: Chen H
+  title: ECHOS enables spatial epigenome profiling at subcellular resolution
+links: {}
+source: user
+added: '2026-10-28'
+needs_review: "Second method in the ECHOS paper (named only in a later figure) - check tags against the paper."
+evidence: "...(ECHOS+) enables the characterization of the histone modification landscape of chromatin at the sub-micron resolution."

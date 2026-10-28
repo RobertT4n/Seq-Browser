@@ -11,9 +11,13 @@ resolution:
 - spatial
 scope: genome-wide
 chemistry:
+- microfluidic-chip
 - tn5
 - antibody-tethered-enzyme
 - reverse-transcription
+builds_on:
+- dbit-seq   # same deterministic microfluidic-channel barcoding in tissue (20 um device, 100x100 pixels)
+
 reference:
   doi: 10.1038/s41592-024-02576-0
   year: 2025

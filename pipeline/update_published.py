@@ -38,7 +38,7 @@ def upgrade(path):
         return f"{path.stem:<24} still a preprint ({doi})"
     e["reference"] = {"doi": pub, "preprint_doi": doi}
     path.write_text(yaml.safe_dump(e, sort_keys=False, allow_unicode=True, width=120))
-    return f"{path.stem:<24} UPGRADED {doi} -> {pub}: {resolve(path)}"
+    return f"{path.stem:<24} UPGRADED {doi} -> {pub}: {resolve(path, check_published=False)}"
 
 
 if __name__ == "__main__":

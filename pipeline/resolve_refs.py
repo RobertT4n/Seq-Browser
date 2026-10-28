@@ -27,9 +27,18 @@ def biorxiv_lookup(doi):
     return None
 
 
-def resolve(path):
+def resolve(path, check_published=True):
+    """Fill in a reference from Europe PMC. A preprint DOI is upgraded to its journal version FIRST (check_published):
+    every new entry runs through here, so a method published since the preprint can never be filed as a preprint.
+    (Origin: SAMPL-seq was written with its bioRxiv DOI although it was already in Nat Microbiol.)"""
     entry = yaml.safe_load(path.read_text())
     ref = entry.setdefault("reference", {})
+    if check_published and (ref.get("doi") or "").startswith(("10.1101/", "10.64898/")) and not ref.get("preprint_doi"):
+        from update_published import published_doi  # imported here: update_published imports this module
+        pub = published_doi(ref["doi"])
+        if pub:
+            entry["reference"] = ref = {"doi": pub, "preprint_doi": ref["doi"]}  # re-resolve everything from the journal version
+            path.write_text(yaml.safe_dump(entry, sort_keys=False, allow_unicode=True, width=120))
     if all(ref.get(f) for f in ("doi", "year", "journal", "first_author")):
         return "ok (already complete)"
     if ref.get("url") and not ref.get("doi") and not ref.get("title"):

@@ -1,0 +1,28 @@
+name: ChAR-seq
+full_name: "Chromatin-associated RNA sequencing"
+category: wet
+summary: A bridge oligo ligates each chromatin-associated RNA to the DNA it contacts, so one read carries both partners
+  and maps transcriptome-wide RNA-to-DNA contacts.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+builds_on: []
+introduces:
+- rna-chromatin-interaction
+reference:
+  doi: 10.7554/eLife.27024
+  year: 2018
+  journal: eLife
+  first_author: Bell JC
+  last_author: Straight AF
+  pmcid: PMC5962340
+  title: Chromatin-associated RNA sequencing (ChAR-seq) maps genome-wide RNA-to-DNA contacts
+links: {}
+source: user
+added: '2026-10-28'
+evidence: Chromatin-associated RNA sequencing (ChAR-seq) maps genome-wide RNA-to-DNA contacts.

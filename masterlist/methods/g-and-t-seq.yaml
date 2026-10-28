@@ -12,6 +12,8 @@ scope: genome-wide
 chemistry:
 - reverse-transcription
 - oligo-capture
+- plate-based
+- facs-sorting
 builds_on:
 - smart-seq2
 - malbac
