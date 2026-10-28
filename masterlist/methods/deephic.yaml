@@ -1,0 +1,13 @@
+name: DeepHiC
+category: dry
+summary: Generative adversarial network that predicts high-resolution Hi-C contact maps from low-coverage data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007287
+links: {}
+added: '2026-10-28'
+evidence: "Here we develop DeepHiC, a generative adversarial network, to predict high-resolution Hi-C contact maps from low-coverage sequencing data."

@@ -1,0 +1,20 @@
+name: OpTAG-seq
+full_name: "Optical cell tagging sequencing"
+category: wet
+summary: Light-directed chemical tagging of cells at chosen positions within a multicellular sample, then scRNA-seq of the tagged cells to link position and transcriptome.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1002/anie.202113929
+links: {}
+added: '2026-10-28'
+evidence: "With OpTAG, we establish OpTAG-seq, which enables spatially resolved scRNA-seq."
