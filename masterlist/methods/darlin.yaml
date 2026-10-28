@@ -1,0 +1,22 @@
+name: DARLIN
+category: wet
+summary: Inducible Cas9 mouse barcoding line (TdT plus 30 CRISPR target sites at 3 loci) giving massive lineage-barcode diversity, read out per single cell together with transcriptome and epigenome.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+partition_unknown: "Cell paper full text paywalled and bioRxiv blocked (429); abstract does not name the single-cell platform"
+builds_on:
+- scgestalt
+reference:
+  doi: 10.1016/j.cell.2023.09.019
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "DARLIN improves on CARLIN (not in DB); acronym expansion not found in abstract; partition unconfirmed"
+evidence: "Here, we developed DARLIN, an inducible Cas9 barcoding mouse line that utilizes terminal deoxynucleotidyl transferase (TdT) and 30 CRISPR target sites."

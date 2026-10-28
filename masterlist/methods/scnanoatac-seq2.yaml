@@ -1,0 +1,20 @@
+name: scNanoATAC-seq2
+full_name: "Single-cell assay for transposase-accessible chromatin using long-read sequencing, version 2"
+category: wet
+summary: Single-cell long-read ATAC-seq for scarce samples such as early embryos, resolving accessibility at repeats, paralogs and imprinted loci.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+partition_unknown: "Science full text blocked (403); abstract silent"
+reference:
+  doi: 10.1126/science.adp4319
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "parent scNanoATAC-seq/NanoATAC-seq not in DB so no variant_of; partition unconfirmed"
+evidence: "Here, we developed scNanoATAC-seq2, a single-cell assay for transposase-accessible chromatin using long-read sequencing for scarce samples."

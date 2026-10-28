@@ -1,0 +1,15 @@
+name: SciBet
+category: dry
+summary: Fast portable supervised cell-type identifier for scRNA-seq data, deployable in a web client.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-15523-2
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: "We present SciBet, a supervised cell type identifier that accurately predicts cell identity for newly sequenced cells with order-of-magnitude speed advantage."

@@ -1,0 +1,18 @@
+name: DEtail-seq
+full_name: "DNA End tailing and sequencing"
+category: wet
+summary: Maps the 3' ends of meiotic DNA double-strand breaks at near single-nucleotide resolution by end tailing, applied in yeast, mouse and human.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1007/s11427-022-2277-y
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "chemistry tag approximate (end tailing, ligation and PCR; no exact tag)"
+evidence: "Here, we report a novel technique, named DNA End tailing and sequencing (DEtail-seq), which can directly and ultra-efficiently characterize the 3' ends of meiotic DSBs with near single-nucleotide resolution"

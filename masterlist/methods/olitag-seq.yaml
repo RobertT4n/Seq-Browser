@@ -1,0 +1,17 @@
+name: OliTag-seq
+category: wet
+summary: In-cell CRISPR-Cas9 off-target detection that tags breaks with a stable oligonucleotide and uses triple-priming amplification for higher sensitivity than GUIDE-seq.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s42003-024-06360-w
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "parent GUIDE-seq not in DB so no variant_of; acronym expansion not stated"
+evidence: "we introduce OliTag-seq, an in-cellulo assay specifically engineered to enhance the detection of off-target events."

@@ -1,0 +1,32 @@
+name: Plate-C
+full_name: "In-plate chromosome conformation capture"
+category: wet
+summary: Runs chromosome conformation capture entirely in multiwell plates, so thousands of whole-genome architectures
+  can be profiled in a day - enough throughput for a chemical screen of structural modulators.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- chemical-perturbation
+chemistry:
+- restriction-digest
+- proximity-ligation
+- plate-based
+builds_on:
+- in-situ-hi-c
+reference:
+  doi: 10.64898/2026.04.15.718501
+  year: 2026
+  date: '2026-04-17'
+  journal: bioRxiv
+  first_author: Parasar B
+  last_author: Tan L
+  title: Whole-genome 3D architectural screen reveals modulators of brain DNA structure
+links: {}
+source: user
+added: '2026-10-28'
+needs_review: "Preprint; perturbation tag reflects the chemical screen it was built for. Confirm against Methods."
+evidence: Here we present "in-plate chromosome conformation capture" (Plate-C), a high-throughput, cost-effective
+  platform that profiles thousands of whole-genome architectures in a day.

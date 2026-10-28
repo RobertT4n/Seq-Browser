@@ -1,0 +1,20 @@
+name: Joint-Cabernet
+category: wet
+summary: Bisulfite-free single-cell platform profiling 5hmC, 5mC and transcriptome together in the same nuclei.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+partition_unknown: "bioRxiv full text blocked (429), no PMC; abstract silent"
+reference:
+  doi: 10.1101/2025.05.29.656780
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "parent Cabernet not in DB (so no variant_of); acronym/expansion unknown; partition unconfirmed"
+evidence: "We present Joint- Cabernet, a bisulfite-free single-cell platform enabling simultaneous profiling of 5hmC, 5mC, and transcriptomes."

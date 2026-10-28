@@ -1,0 +1,23 @@
+name: scNanoHi-C2
+full_name: "Single-cell input, long-read Hi-C"
+category: wet
+summary: Second-generation single-cell nanopore Hi-C that profiles 3D genome structure and multi-way contacts in individual cells from very small inputs.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- long-read-sequencing
+partition_unknown: "Nature SMB full text paywalled; abstract silent. Parent scNanoHi-C is plate-based"
+variant_of:
+- scnanohi-c
+reference:
+  doi: 10.1038/s41594-025-01604-7
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "partition unconfirmed (likely plate-based like parent)"
+evidence: "Here we present a single-cell input, long-read Hi-C method, termed scNanoHi-C2."

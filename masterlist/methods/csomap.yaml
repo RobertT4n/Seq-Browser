@@ -1,0 +1,15 @@
+name: CSOmap
+category: dry
+summary: Reconstructs cell spatial organization from scRNA-seq by modelling ligand-receptor-mediated self-assembly.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41422-020-0353-2
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: "we present CSOmap, a computational tool to infer cellular interaction de novo from scRNA-seq."

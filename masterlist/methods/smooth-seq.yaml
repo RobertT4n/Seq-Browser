@@ -1,0 +1,22 @@
+name: SMOOTH-seq
+full_name: "Single-molecule real-time sequencing of long fragments amplified through transposon insertion"
+category: wet
+summary: Single-cell whole-genome amplification by transposon insertion read on PacBio long reads to detect SVs and ecDNAs in individual cells.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+- facs-sorting
+builds_on:
+- lianti
+reference:
+  doi: 10.1186/s13059-021-02406-y
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "builds_on lianti inferred from 'transposon insertion' amplification, not stated in abstract; cells mouth-pipetted or FACS-sorted into tubes"
+evidence: "we develop a novel third-generation sequencing platform-based single-cell whole-genome sequencing (scWGS) method named SMOOTH-seq (single-molecule real-time sequencing of long fragments amplified through transposon insertion)."

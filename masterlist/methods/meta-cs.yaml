@@ -1,0 +1,19 @@
+name: META-CS
+full_name: "Multiplexed end-tagging amplification of complementary strands"
+category: wet
+summary: Transposon-based single-cell whole-genome amplification that tags both strands so SNVs must agree on complementary strands, removing nearly all false positives.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+reference:
+  doi: 10.1073/pnas.2013106118
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "single cells mouth-pipetted or FACS sorted into tubes"
+evidence: "Here, we report a single-cell WGA method termed multiplexed end-tagging amplification of complementary strands (META-CS), which eliminates nearly all FPs by virtue of DNA complementarity"

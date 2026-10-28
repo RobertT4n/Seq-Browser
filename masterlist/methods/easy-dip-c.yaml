@@ -1,0 +1,29 @@
+name: Easy Dip-C
+full_name: "Easy diploid chromosome conformation capture"
+category: wet
+summary: Streamlined Dip-C for single-cell diploid 3D genome structure, used alongside Plate-C to add single-cell
+  resolution to the same screen.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- plate-based
+variant_of:
+- dip-c
+reference:
+  doi: 10.64898/2026.04.15.718501
+  year: 2026
+  date: '2026-04-17'
+  journal: bioRxiv
+  first_author: Parasar B
+  last_author: Tan L
+  title: Whole-genome 3D architectural screen reveals modulators of brain DNA structure
+links: {}
+source: user
+added: '2026-10-28'
+needs_review: "Preprint; second method in the Plate-C paper. plate-based inherited from Dip-C - confirm in Methods."
+evidence: accompanied by 6,081 single cells using "easy diploid chromosome conformation capture" (Easy Dip-C)

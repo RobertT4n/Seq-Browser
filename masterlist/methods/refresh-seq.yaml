@@ -1,0 +1,23 @@
+name: Refresh-seq
+full_name: "Restriction fragment ligation-based genome amplification and third-generation sequencing"
+category: wet
+summary: Single-cell long-read whole-genome sequencing using restriction cutting and ligation so both alleles amplify evenly, lowering allele dropout.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- long-read-sequencing
+- facs-sorting
+- plate-based
+builds_on:
+- smooth-seq
+reference:
+  doi: 10.1038/s41421-023-00638-9
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: "Here, we develop a new single-cell whole-genome sequencing method based on third-generation sequencing (TGS) platform named Refresh-seq (restriction fragment ligation-based genome amplification and TGS)."

@@ -1,0 +1,24 @@
+name: scNanoSeq-CUT&Tag
+full_name: "Single-cell long-read CUT&Tag sequencing"
+category: wet
+summary: CUT&Tag adapted to nanopore long-read sequencing to profile histone marks and TF occupancy in single cells, including repeats and allele-specific signal.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- long-read-sequencing
+partition_unknown: "Nature Methods full text paywalled (only references visible); abstract silent"
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41592-024-02453-w
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true: "partition unconfirmed"
+evidence: "Here, we develop scNanoSeq-CUT&Tag, a streamlined method, by adapting modified cleavage under targets and tagmentation (CUT&Tag) to the nanopore sequencing platform for genome-wide chromatin modification profiling within individual cells."

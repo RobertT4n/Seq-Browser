@@ -1,0 +1,19 @@
+name: TRACE-seq
+full_name: "Transposase-assisted RNA/DNA hybrids Co-tagmEntation"
+category: wet
+summary: Tn5 directly tagments RNA/DNA hybrids, giving rapid one-tube low-input RNA-seq library construction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.7554/elife.54919
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: "Results of Transposase-assisted RNA/DNA hybrids Co-tagmEntation (termed 'TRACE-seq') are compared to traditional RNA-seq methods"
