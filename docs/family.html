@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seq-Browser Family Tree</title>
 <meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261028-counter2">
 <style>
   body { overflow:hidden; }
   header { max-width:none; padding:14px 24px 12px; }
@@ -278,6 +278,6 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   svg.call(zoom.transform, d3.zoomIdentity.translate(PANEL - (bb.x - pad) * kFit + 10, topPad - bb.y * kFit).scale(kFit));
 });
 </script>
-<script src="visitor-counter.js" defer></script>
+<script src="visitor-counter.js?v=20261028-counter2" defer></script>
 </body>
 </html>

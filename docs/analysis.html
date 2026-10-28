@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seq-Browser Analysis</title>
 <meta name="description" content="Overview of the Seq-Browser database: methods over time, publication status, readouts and resolution.">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261028-counter2">
 </head>
 <body>
 <header>
@@ -94,6 +94,6 @@ fetch("methods.json").then(r => r.json()).then(j => {
   bars(document.getElementById("c-cites"), d.filter(m => m.citations != null).sort((a, b) => b.citations - a.citations).slice(0, 10).map(m => [m.name, m.citations]), v => v.toLocaleString());
 });
 </script>
-<script src="visitor-counter.js" defer></script>
+<script src="visitor-counter.js?v=20261028-counter2" defer></script>
 </body>
 </html>
