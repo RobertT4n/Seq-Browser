@@ -278,5 +278,6 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   svg.call(zoom.transform, d3.zoomIdentity.translate(PANEL - (bb.x - pad) * kFit + 10, topPad - bb.y * kFit).scale(kFit));
 });
 </script>
+<script src="visitor-counter.js" defer></script>
 </body>
 </html>
