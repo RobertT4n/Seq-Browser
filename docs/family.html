@@ -122,9 +122,23 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const xDate = n => xStart(n.year) + frac(n) * yw.get(n.year);
   // area-true: circle AREA is proportional to citations (sqrt radius), wide range so landmark papers stand out
   const cmax = d3.max(nodes, n => n.citations || 0) || 1, r = c => 3.5 + 24 * Math.sqrt((c || 0) / cmax);
+  // Which lane a method belongs in. A multi-omic method should sit with the field it grew out of, not with whichever
+  // readout happens to be listed first: SeqTag (RNA + accessibility + histone marks, built on Paired-Tag, CUT&Tag and
+  // ATAC-seq) belongs in the histone-marks lane, not RNA. So: of this method's readouts, take the one the most of its
+  // DIRECT parents also measure. Direct, not transitive - every lineage eventually reaches RNA-seq/ChIP-seq roots, which
+  // would drown the signal. Ties and parentless methods fall back to the first-listed (primary) readout.
+  const parentsOf = n => [...split(n.variant_of), ...split(n.builds_on)].filter(p => byId.has(p));
+  function laneReadout(n) {
+    const rs = split(n.readouts), ps = parentsOf(n).map(p => split(byId.get(p).readouts));
+    if (!ps.length) return rs[0];
+    const score = r => ps.filter(a => a.includes(r)).length;
+    const best = Math.max(...rs.map(score));
+    return best === 0 ? rs[0] : rs.find(r => score(r) === best);   // rs order breaks ties, so the primary still wins
+  }
+
   nodes.forEach(n => {
     n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
-    n.ty = laneY[split(n.readouts)[0]];  // primary (first-listed) readout decides the lane; arcs show the others
+    n.ty = laneY[laneReadout(n)];  // lane = the readout its lineage is built on (see laneReadout); arcs show the others
     n.x = xDate(n); n.y = n.ty + (Math.random() - .5) * 20;
   });
 

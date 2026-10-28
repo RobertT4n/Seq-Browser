@@ -10,6 +10,8 @@ resolution:
 scope: genome-wide
 chemistry:
 - bisulfite-or-enzymatic-conversion
+- plate-based
+- facs-sorting
 builds_on:
 - scbs-seq
 - nome-seq

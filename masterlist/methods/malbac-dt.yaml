@@ -1,4 +1,5 @@
 name: MALBAC-DT
+full_name: "Multiple Annealing and Looping Based Amplification Cycles for Digital Transcriptomics"
 category: wet
 summary: High-precision single-cell RNA-seq used to measure gene-gene expression correlations from steady-state fluctuations
   within a population.
@@ -9,6 +10,8 @@ resolution:
 scope: genome-wide
 chemistry:
 - reverse-transcription
+- plate-based
+- facs-sorting
 builds_on:
 - malbac
 introduces:
