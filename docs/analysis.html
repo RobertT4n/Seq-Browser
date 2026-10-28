@@ -94,5 +94,6 @@ fetch("methods.json").then(r => r.json()).then(j => {
   bars(document.getElementById("c-cites"), d.filter(m => m.citations != null).sort((a, b) => b.citations - a.citations).slice(0, 10).map(m => [m.name, m.citations]), v => v.toLocaleString());
 });
 </script>
+<script src="visitor-counter.js" defer></script>
 </body>
 </html>
