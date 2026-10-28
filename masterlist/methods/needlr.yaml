@@ -1,0 +1,24 @@
+name: needLR
+category: dry
+summary: Structural-variant annotation tool using population allele frequencies to prioritize pathogenic SVs from long-read
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag407
+  year: 2026
+  journal: Bioinformatics
+  first_author: Gustafson JA
+  last_author: Miller DE
+  pmid: '42308524'
+  pmcid: PMC13332437
+  title: 'needLR: long-read structural variant annotation with population-scale frequency estimation'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We present needLR, a structural variant (SV) annotation tool that can be used for filtering and prioritization of
+  candidate pathogenic SVs from long-read sequencing data

@@ -1,7 +1,8 @@
 name: NanoStrand-seq
-full_name: "Nanopore sequencing platform-based Strand-seq"
+full_name: Nanopore sequencing platform-based Strand-seq
 category: wet
-summary: Strand-seq on nanopore: BrdU-labelled single-cell template strands are tagmented into long fragments, enabling chromosome-scale phasing and de novo SNP and SV calling.
+summary: 'Strand-seq on nanopore: BrdU-labelled single-cell template strands are tagmented into long fragments, enabling chromosome-scale
+  phasing and de novo SNP and SV calling.'
 readouts:
 - genome-sequence
 resolution:
@@ -16,8 +17,15 @@ variant_of:
 - strand-seq
 reference:
   doi: 10.1038/s41421-024-00694-9
+  year: 2024
+  journal: Cell Discov
+  first_author: Bai X
+  last_author: Tang F
+  pmid: '38977679'
+  pmcid: PMC11231365
+  title: Simultaneous de novo calling and phasing of genetic variants at chromosome-scale using NanoStrand-seq
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
 needs_review: true
-evidence: "we developed a Nanopore sequencing platform-based Strand-seq approach, which we named NanoStrand-seq."
+evidence: we developed a Nanopore sequencing platform-based Strand-seq approach, which we named NanoStrand-seq.

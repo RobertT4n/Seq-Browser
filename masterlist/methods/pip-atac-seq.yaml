@@ -1,0 +1,31 @@
+name: PIP-ATAC-seq
+full_name: Particle-templated Instant Partition single-nucleus assay for transposase-accessible chromatin using sequencing
+category: wet
+summary: Microfluidic-free particle-templated droplet single-nucleus ATAC-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- pip-seq
+builds_on:
+- snatac-seq
+reference:
+  doi: 10.64898/2026.06.29.735326
+  year: 2026
+  journal: bioRxiv
+  first_author: Luo Z
+  last_author: Greenleaf WJ
+  title: A Simple, Cost-Effective, High-Throughput Method for Measuring Chromatin Accessibility and Gene Expression in Single
+    Nuclei
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: 'true'
+evidence: 'We describe microfluidic-free, droplet-based methods for single-nucleus epigenomic measurements: Particle-templated
+  Instant Partition single-nucleus assay for transposase-accessible chromatin using sequencing (PIP-ATAC-seq) and its multiomic
+  version (PIP-Multiome-seq).'

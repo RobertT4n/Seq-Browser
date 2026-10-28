@@ -1,0 +1,25 @@
+name: SaaRclust
+category: dry
+summary: Expectation-maximization model that clusters long reads by chromosome of origin using Strand-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- strand-seq
+reference:
+  doi: 10.1093/bioinformatics/bty290
+  year: 2018
+  journal: Bioinformatics
+  first_author: Ghareghani M
+  last_author: Marschall T
+  pmid: '29949971'
+  pmcid: PMC6022540
+  title: Strand-seq enables reliable separation of long reads by chromosome via expectation maximization
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We introduce a novel latent variable model and a corresponding Expectation Maximization algorithm, termed SaaRclust,
+  and demonstrates its ability to reliably cluster long reads by chromosome.

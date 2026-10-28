@@ -1,0 +1,25 @@
+name: EMBLEM
+full_name: Epigenome and Mitochondrial Barcode of Lineage from Endogenous Mutations
+category: dry
+summary: Infers cell lineage from endogenous mitochondrial DNA variants in ATAC-seq data alongside chromatin profiles.
+readouts:
+- lineage
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.7554/elife.45105
+  year: 2019
+  journal: Elife
+  first_author: Xu J
+  last_author: Chang HY
+  pmid: '30958261'
+  pmcid: PMC6469926
+  title: Single-cell lineage tracing by endogenous mutations enriched in transposase accessible mitochondrial DNA
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we describe EMBLEM, a strategy to track cell lineage using endogenous mitochondrial DNA variants in ATAC-seq
+  data.

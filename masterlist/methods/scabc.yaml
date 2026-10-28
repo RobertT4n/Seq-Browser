@@ -1,0 +1,23 @@
+name: scABC
+category: dry
+summary: R package for unsupervised clustering of single-cell ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-04629-3
+  year: 2018
+  journal: Nat Commun
+  first_author: Zamanighomi M
+  last_author: Wong WH
+  pmid: '29925875'
+  pmcid: PMC6010417
+  title: Unsupervised clustering and epigenetic classification of single cells
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We present scABC, an R package for the unsupervised clustering of single-cell epigenetic data, to classify scATAC-seq
+  data.

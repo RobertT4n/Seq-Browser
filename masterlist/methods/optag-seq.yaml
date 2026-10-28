@@ -1,7 +1,8 @@
 name: OpTAG-seq
-full_name: "Optical cell tagging sequencing"
+full_name: Optical cell tagging sequencing
 category: wet
-summary: Light-directed chemical tagging of cells at chosen positions within a multicellular sample, then scRNA-seq of the tagged cells to link position and transcriptome.
+summary: Light-directed chemical tagging of cells at chosen positions within a multicellular sample, then scRNA-seq of the
+  tagged cells to link position and transcriptome.
 readouts:
 - rna
 resolution:
@@ -15,8 +16,15 @@ builds_on:
 - single-cell-rna-seq
 reference:
   doi: 10.1002/anie.202113929
+  year: 2022
+  journal: Angew Chem Int Ed Engl
+  first_author: Tang Q
+  last_author: Chen X
+  pmid: '34970821'
+  title: Optical Cell Tagging for Spatially Resolved Single-Cell RNA Sequencing
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
-needs_review: true: "Wiley full text not opened; downstream cell isolation/scRNA platform unconfirmed; imaging-guided-selection used as partition tag"
-evidence: "With OpTAG, we establish OpTAG-seq, which enables spatially resolved scRNA-seq."
+needs_review: Wiley full text not opened; downstream cell isolation/scRNA platform unconfirmed; imaging-guided-selection used
+  as partition tag
+evidence: With OpTAG, we establish OpTAG-seq, which enables spatially resolved scRNA-seq.

@@ -1,0 +1,23 @@
+name: ec3D
+category: dry
+summary: Reconstructs 3D structures of extrachromosomal DNA from Hi-C data by Poisson likelihood maximisation.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-67614-7
+  year: 2025
+  journal: Nat Commun
+  first_author: Chowdhury B
+  last_author: Bafna V
+  pmid: '41422275'
+  pmcid: PMC12830899
+  title: Reconstructing the three-dimensional architecture of extrachromosomal DNA with ec3D
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we develop ec3D, a computational method for reconstructing three-dimensional ecDNA structures from Hi-C data.

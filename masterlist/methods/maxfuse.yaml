@@ -1,0 +1,25 @@
+name: MaxFuse
+full_name: Matching X-modality via Fuzzy Smoothed Embedding
+category: dry
+summary: Cross-modal integration of single-cell sequencing and spatial omics data under weak feature linkage.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.01.12.523851
+  year: 2023
+  journal: bioRxiv
+  first_author: Chen S
+  last_author: Ma Z
+  title: Integration of spatial and single-cell data across modalities with weak linkage
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We developed MaxFuse, a cross-modal data integration method that, through iterative co-embedding, data smoothing,
+  and cell matching, leverages all information in each modality to obtain high-quality integration.

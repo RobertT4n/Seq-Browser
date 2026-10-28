@@ -1,6 +1,7 @@
 name: SpaCNA
 category: dry
-summary: Detects copy number alterations from spatial transcriptomics using morphology-aware neighbour aggregation and a hidden Markov random field, including 3D reconstruction.
+summary: Detects copy number alterations from spatial transcriptomics using morphology-aware neighbour aggregation and a hidden
+  Markov random field, including 3D reconstruction.
 readouts:
 - genome-sequence
 - rna
@@ -9,8 +10,15 @@ resolution:
 scope: genome-wide
 reference:
   doi: 10.1038/s41467-026-72284-0
+  year: 2026
+  journal: Nat Commun
+  first_author: Zhang Z
+  last_author: Xi R
+  pmid: '42056094'
+  pmcid: PMC13346761
+  title: Spatial-aware detection of copy number alterations from spatial transcriptomics using SpaCNA
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
 needs_review: true
-evidence: "we present SpaCNA, a computational framework that integrates multi-modal information of ST for robust CNA detection."
+evidence: we present SpaCNA, a computational framework that integrates multi-modal information of ST for robust CNA detection.

@@ -1,0 +1,33 @@
+name: PIP-Multiome-seq
+full_name: Particle-templated Instant Partition single-nucleus Multiome sequencing
+category: wet
+summary: Microfluidic-free particle-templated droplet joint single-nucleus ATAC and RNA profiling.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- pip-atac-seq
+builds_on:
+- pip-seq
+- 10x-chromium-single-cell-multiome-atac-plus-gene-expression
+reference:
+  doi: 10.64898/2026.06.29.735326
+  year: 2026
+  journal: bioRxiv
+  first_author: Luo Z
+  last_author: Greenleaf WJ
+  title: A Simple, Cost-Effective, High-Throughput Method for Measuring Chromatin Accessibility and Gene Expression in Single
+    Nuclei
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: 'We describe microfluidic-free, droplet-based methods for single-nucleus epigenomic measurements: ... PIP-ATAC-seq
+  and its multiomic version (PIP-Multiome-seq).'

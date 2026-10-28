@@ -1,0 +1,32 @@
+name: sciMET-ATAC
+category: wet
+summary: Co-assay of DNA methylation and chromatin accessibility in the same single nuclei using combinatorial indexing.
+readouts:
+- dna-methylation
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- combinatorial-indexing
+- tn5
+variant_of:
+- scimetv3
+builds_on:
+- sci-atac-seq
+reference:
+  doi: 10.1016/j.xgen.2024.100726
+  year: 2025
+  journal: Cell Genom
+  first_author: Nichols RV
+  last_author: Adey AC
+  pmid: '39719707'
+  pmcid: PMC11770211
+  title: Atlas-scale single-cell DNA methylation profiling with sciMETv3
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: 'true'
+evidence: Finally, we introduce sciMET+ATAC to enable high-throughput exploration of the interplay between chromatin accessibility
+  and DNA methylation within the same cell.

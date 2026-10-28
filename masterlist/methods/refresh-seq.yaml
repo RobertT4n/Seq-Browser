@@ -1,7 +1,8 @@
 name: Refresh-seq
-full_name: "Restriction fragment ligation-based genome amplification and third-generation sequencing"
+full_name: Restriction fragment ligation-based genome amplification and third-generation sequencing
 category: wet
-summary: Single-cell long-read whole-genome sequencing using restriction cutting and ligation so both alleles amplify evenly, lowering allele dropout.
+summary: Single-cell long-read whole-genome sequencing using restriction cutting and ligation so both alleles amplify evenly,
+  lowering allele dropout.
 readouts:
 - genome-sequence
 resolution:
@@ -16,8 +17,16 @@ builds_on:
 - smooth-seq
 reference:
   doi: 10.1038/s41421-023-00638-9
+  year: 2024
+  journal: Cell Discov
+  first_author: Wang Y
+  last_author: Tang F
+  pmid: '38443370'
+  pmcid: PMC10915157
+  title: Mapping crossover events of mouse meiotic recombination by restriction fragment ligation-based Refresh-seq
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
 needs_review: true
-evidence: "Here, we develop a new single-cell whole-genome sequencing method based on third-generation sequencing (TGS) platform named Refresh-seq (restriction fragment ligation-based genome amplification and TGS)."
+evidence: Here, we develop a new single-cell whole-genome sequencing method based on third-generation sequencing (TGS) platform
+  named Refresh-seq (restriction fragment ligation-based genome amplification and TGS).

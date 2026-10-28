@@ -1,0 +1,26 @@
+name: click-seq
+category: wet
+summary: Pooled yeast-based growth/activity assay that scores thousands of CYP2C9 missense variants by sequencing sorted variant
+  barcodes.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.ajhg.2021.07.001
+  year: 2021
+  journal: Am J Hum Genet
+  first_author: Amorosi CJ
+  last_author: Dunham MJ
+  pmid: '34314704'
+  pmcid: PMC8456167
+  title: Massively parallel characterization of CYP2C9 variant enzyme activity and abundance
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants.

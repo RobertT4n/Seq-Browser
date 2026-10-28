@@ -1,0 +1,24 @@
+name: IsoRanker
+category: dry
+summary: Long-read transcriptome framework prioritizing non-coding variants via outlier isoform expression, allelic imbalance
+  and NMD.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2026.08.002
+  year: 2026
+  journal: Am J Hum Genet
+  first_author: Cheng YH
+  last_author: Stergachis AB
+  pmid: '42641602'
+  pmcid: PMC13580031
+  title: Long-read transcriptome analysis using IsoRanker for identifying pathogenic variants in Mendelian conditions
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We present IsoRanker, a long-read transcriptome sequencing-based framework that prioritizes functionally relevant
+  variants by detecting genes and isoforms with outlier expression, allelic imbalance, and/or nonsense-mediated decay (NMD).

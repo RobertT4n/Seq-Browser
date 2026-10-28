@@ -1,0 +1,32 @@
+name: PerturbView
+category: wet
+summary: Optical pooled screening where in vitro transcription amplifies perturbation barcodes before in situ sequencing,
+  enabling multiplexed imaging readouts in primary cells and tissue.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- imaging-guided-selection
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1038/s41587-024-02391-0
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Kudo T
+  last_author: Lubeck E
+  pmid: '39375449'
+  title: Multiplexed, image-based pooled screens in primary cells and tissues with PerturbView
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: 'MISSING_TAG: optical pooled screen - image-based phenotype linked to in-situ-sequenced perturbation barcode;
+  no readout tag for imaging phenotypes (functional-screen is nearest)'
+evidence: Here, we develop PerturbView, an OPS technology that leverages in vitro transcription to amplify barcodes before
+  in situ sequencing, enabling screens with highly multiplexed phenotypic readouts across diverse systems, including primary
+  cells and tissues.

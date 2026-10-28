@@ -1,0 +1,25 @@
+name: GAVISUNK
+full_name: Genome Assembly Validation via Inter-SUNK distances in Oxford Nanopore reads
+category: dry
+summary: Pipeline that validates genome assemblies by comparing inter-SUNK distances between HiFi assemblies and raw nanopore
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac714
+  year: 2023
+  journal: Bioinformatics
+  first_author: Dishuck PC
+  last_author: Eichler EE
+  pmid: '36321867'
+  pmcid: PMC9805576
+  title: 'GAVISUNK: genome assembly validation via inter-SUNK distances in Oxford Nanopore reads'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We developed GAVISUNK, an open-source pipeline that detects misassemblies and produces a set of reliable regions
+  genome-wide

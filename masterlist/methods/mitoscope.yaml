@@ -1,0 +1,22 @@
+name: MitoScope
+category: dry
+summary: Scalable long-read workflow to assemble mtDNA, call variants, resolve heteroplasmy and characterize NUMTs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.04.13.718259
+  year: 2026
+  journal: bioRxiv
+  first_author: Zakarian C
+  last_author: Wei C
+  title: Long-read MitoScope reveals tissue-resolved somatic mitochondrial variation and landscape of nuclear-embedded mitochondrial
+    sequences
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we introduce MitoScope, a scalable long-read workflow to assemble mtDNA, perform high-fidelity variant calling,
+  resolve heteroplasmy, and characterize NUMTs

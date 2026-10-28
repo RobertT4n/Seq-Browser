@@ -1,6 +1,7 @@
 name: scDiffEq
 category: dry
-summary: Neural stochastic differential equation framework modelling drift and diffusion of single-cell dynamics, trained on lineage-traced data.
+summary: Neural stochastic differential equation framework modelling drift and diffusion of single-cell dynamics, trained
+  on lineage-traced data.
 readouts:
 - rna
 - lineage
@@ -9,8 +10,14 @@ resolution:
 scope: genome-wide
 reference:
   doi: 10.1101/2023.12.06.570508
+  year: 2023
+  journal: bioRxiv
+  first_author: Vinyard ME
+  last_author: Pinello L
+  title: 'scDiffEq: drift-diffusion modeling of single-cell dynamics with neural stochastic differential equations'
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
 needs_review: true
-evidence: "we introduce scDiffEq, a generative framework for learning neural stochastic differential equations that approximate biology's deterministic and stochastic dynamics."
+evidence: we introduce scDiffEq, a generative framework for learning neural stochastic differential equations that approximate
+  biology's deterministic and stochastic dynamics.

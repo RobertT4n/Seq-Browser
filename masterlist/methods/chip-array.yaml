@@ -1,0 +1,26 @@
+name: ChIP-Array
+category: dry
+summary: Web server combining ChIP-seq/chip binding data with expression data to find direct and indirect targets of a transcription
+  factor.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkr332
+  year: 2011
+  journal: Nucleic Acids Res
+  first_author: Qin J
+  last_author: Wang J
+  pmid: '21586587'
+  pmcid: PMC3125757
+  title: 'ChIP-Array: combinatory analysis of ChIP-seq/chip and microarray gene expression data to discover direct/indirect
+    targets of a transcription factor'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we present ChIP-Array, a web server that integrates ChIP-X and expression data from human, mouse, yeast, fruit
+  fly and Arabidopsis.

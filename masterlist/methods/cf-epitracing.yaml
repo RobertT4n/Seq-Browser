@@ -1,0 +1,28 @@
+name: cf-EpiTracing
+category: wet
+summary: Automated plate-based, two-round barcoded Tn5 tagmentation of antibody-captured cell-free chromatin from small plasma
+  volumes to profile histone modifications.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- tn5
+- plate-based
+reference:
+  doi: 10.1038/s41586-026-10224-0
+  year: 2026
+  journal: Nature
+  first_author: Chen X
+  last_author: He A
+  pmid: '41781618'
+  pmcid: PMC13171458
+  title: Cell-free chromatin state tracing reveals disease origin and therapy responses
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we develop cf-EpiTracing, a highly sensitive automated platform that profiles histone modifications in cell-free
+  DNA from as little as 50 μl of human plasma

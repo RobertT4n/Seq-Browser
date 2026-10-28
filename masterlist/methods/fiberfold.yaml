@@ -1,0 +1,23 @@
+name: FiberFold
+category: dry
+summary: Deep-learning model predicting haplotype-specific 3D genome organization from Fiber-seq single-molecule data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.02.26.640261
+  year: 2025
+  journal: bioRxiv
+  first_author: Dubocanin D
+  last_author: Altemose N
+  title: Integrating Single-Molecule Sequencing and Deep Learning to Predict Haplotype-Specific 3D Chromatin Organization
+    in a Mendelian Condition
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we present FiberFold, a deep learning model that combines convolutional neural networks and transformer architectures
+  to accurately predict cell-type-specific and haplotype-specific 3D genome organization using multi-omic data from a single,
+  long-read sequencing assay, Fiber-seq.

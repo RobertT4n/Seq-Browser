@@ -1,0 +1,23 @@
+name: NovelSeq
+category: dry
+summary: Computational framework to discover content and location of long novel sequence insertions from paired-end sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btq152
+  year: 2010
+  journal: Bioinformatics
+  first_author: Hajirasouliha I
+  last_author: Sahinalp SC
+  pmid: '20385726'
+  pmcid: PMC2865866
+  title: Detection and characterization of novel sequence insertions using paired-end next-generation sequencing
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: 'We present NovelSeq: a computational framework to discover the content and location of long novel sequence insertions
+  using paired-end sequencing data'

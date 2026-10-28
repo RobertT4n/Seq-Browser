@@ -1,0 +1,24 @@
+name: CRISPRpic
+full_name: CRISPR-induced mutation analysis via prefixed index counting
+category: dry
+summary: Fast exact-match algorithm calling CRISPR-induced mutations from amplicon sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa012
+  year: 2020
+  journal: NAR Genom Bioinform
+  first_author: Lee H
+  last_author: Ji HP
+  pmid: '32118203'
+  pmcid: PMC7034628
+  title: 'CRISPRpic: fast and precise analysis for CRISPR-induced mutations via prefixed index counting'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We developed a novel algorithm, named as CRISPRpic, to analyze the sequencing reads for the CRISPR experiments via
+  counting exact-matching and pattern-searching.

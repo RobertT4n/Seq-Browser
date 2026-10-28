@@ -1,0 +1,30 @@
+name: Simul-seq
+category: wet
+summary: Single-tube Tn5 tagmentation of DNA and RNA ligation produces whole-genome and transcriptome libraries from the same
+  small sample.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+builds_on:
+- rna-seq
+reference:
+  doi: 10.1038/nmeth.4028
+  year: 2016
+  journal: Nat Methods
+  first_author: Reuter JA
+  last_author: Snyder MP
+  pmid: '27723755'
+  pmcid: PMC5734913
+  title: 'Simul-seq: combined DNA and RNA sequencing for whole-genome and transcriptome profiling'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we introduce Simul-seq, a technique for the production of high-quality whole-genome and transcriptome sequencing
+  libraries from small quantities of cells or tissues.

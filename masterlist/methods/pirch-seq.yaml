@@ -1,0 +1,32 @@
+name: PIRCh-seq
+full_name: Profiling Interacting RNAs on Chromatin by deep sequencing
+category: wet
+summary: Histone-modification-specific immunoprecipitation of chromatin followed by RNA sequencing to profile chromatin-associated
+  RNAs.
+readouts:
+- rna-chromatin-interaction
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- mnase
+- reverse-transcription
+builds_on:
+- chip-seq
+reference:
+  doi: 10.1186/s13059-019-1880-3
+  year: 2019
+  journal: Genome Biol
+  first_author: Fang J
+  last_author: Chang HY
+  pmid: '31862000'
+  pmcid: PMC6924075
+  title: 'PIRCh-seq: functional classification of non-coding RNAs associated with distinct histone modifications'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We develop PIRCh-seq, a method which enables a comprehensive survey of chromatin-associated RNAs in a histone modification-specific
+  manner.

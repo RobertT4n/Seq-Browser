@@ -1,0 +1,31 @@
+name: PRECISE-seq
+category: wet
+summary: Sortase-mediated contact-dependent proximity labelling of antigen-engaged T cells, followed by paired single-cell
+  RNA and TCR sequencing to link TCR avidity with phenotype.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- facs-sorting
+builds_on:
+- 10x-chromium-5-immune-profiling-feature-barcoding
+reference:
+  doi: 10.1084/jem.20251779
+  year: 2026
+  journal: J Exp Med
+  first_author: Liu S
+  last_author: Xu MM
+  pmid: '42118153'
+  pmcid: PMC13165028
+  title: PRECISE-seq reveals disease-relevant TCR repertoires with phenotypic plasticity
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we develop PRECISE-seq, a method that integrates multi-omics T cell analysis with contact-dependent proximity labeling
+  for rapid screening of disease-relevant T cell repertoires

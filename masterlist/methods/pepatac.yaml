@@ -1,0 +1,23 @@
+name: PEPATAC
+full_name: Portable Encapsulated Projects ATAC-seq pipeline
+category: dry
+summary: Standardised ATAC-seq analysis pipeline with serial alignments, QC plots and summary statistics.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab101
+  year: 2021
+  journal: NAR Genom Bioinform
+  first_author: Smith JP
+  last_author: Sheffield NC
+  pmid: '34859208'
+  pmcid: PMC8632735
+  title: 'PEPATAC: an optimized pipeline for ATAC-seq data analysis with serial alignments'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we present PEPATAC, an ATAC-seq pipeline that is easily applied to ATAC-seq projects of any size.

@@ -1,7 +1,8 @@
 name: GLORI
-full_name: "Glyoxal and nitrite-mediated deamination of unmethylated adenosines"
+full_name: Glyoxal and nitrite-mediated deamination of unmethylated adenosines
 category: wet
-summary: Glyoxal/nitrite chemistry deaminates unmethylated adenosines but spares m6A, giving absolute-quantitative transcriptome-wide m6A maps at single-base resolution.
+summary: Glyoxal/nitrite chemistry deaminates unmethylated adenosines but spares m6A, giving absolute-quantitative transcriptome-wide
+  m6A maps at single-base resolution.
 readouts:
 - rna-modification
 resolution:
@@ -12,8 +13,16 @@ chemistry:
 - reverse-transcription
 reference:
   doi: 10.1038/s41596-023-00937-1
+  year: 2024
+  journal: Nat Protoc
+  first_author: Shen W
+  last_author: Yi C
+  pmid: '38253658'
+  title: GLORI for absolute quantification of transcriptome-wide m&lt;sup&gt;6&lt;/sup&gt;A at single-base resolution
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
-needs_review: true: "this DOI is the Nature Protocols paper; original GLORI paper is Nat Biotechnol 2022; expansion from memory of original, not the abstract"
-evidence: "Recently, we developed GLORI, a sequencing method that enables the production of a globally absolute-quantitative m6A map at single-base resolution."
+needs_review: this DOI is the Nature Protocols paper; original GLORI paper is Nat Biotechnol 2022; expansion from memory of
+  original, not the abstract
+evidence: Recently, we developed GLORI, a sequencing method that enables the production of a globally absolute-quantitative
+  m6A map at single-base resolution.

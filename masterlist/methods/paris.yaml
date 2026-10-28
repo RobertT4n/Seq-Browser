@@ -1,0 +1,30 @@
+name: PARIS
+full_name: Psoralen Analysis of RNA Interactions and Structures
+category: wet
+summary: Reversible psoralen crosslinking and proximity ligation to map RNA duplexes transcriptome-wide in living cells.
+readouts:
+- rna-structure
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- rna-seq
+reference:
+  doi: 10.1016/j.cell.2016.04.028
+  year: 2016
+  journal: Cell
+  first_author: Lu Z
+  last_author: Chang HY
+  pmid: '27180905'
+  pmcid: PMC5029792
+  title: RNA Duplex Map in Living Cells Reveals Higher-Order Transcriptome Structure
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we develop PARIS, a method based on reversible psoralen crosslinking for global mapping of RNA duplexes with
+  near base-pair resolution in living cells.

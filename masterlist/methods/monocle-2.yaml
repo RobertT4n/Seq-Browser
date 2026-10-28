@@ -1,0 +1,23 @@
+name: Monocle 2
+category: dry
+summary: Reversed graph embedding algorithm that learns multi-branch single-cell trajectories without supervision.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4402
+  year: 2017
+  journal: Nat Methods
+  first_author: Qiu X
+  last_author: Trapnell C
+  pmid: '28825705'
+  pmcid: PMC5764547
+  title: Reversed graph embedding resolves complex single-cell trajectories
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We present Monocle 2, an algorithm that uses reversed graph embedding to describe multiple fate decisions in a fully
+  unsupervised manner.

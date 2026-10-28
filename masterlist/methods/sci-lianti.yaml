@@ -1,0 +1,31 @@
+name: sci-LIANTI
+full_name: Single-cell combinatorial indexing linear amplification via transposon insertion
+category: wet
+summary: Combines combinatorial indexing with LIANTI linear amplification for high-coverage, high-throughput single-cell genome
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+builds_on:
+- lianti
+reference:
+  doi: 10.1016/j.molcel.2019.08.002
+  year: 2019
+  journal: Mol Cell
+  first_author: Yin Y
+  last_author: Shendure J
+  pmid: '31495564'
+  pmcid: PMC6874760
+  title: High-Throughput Single-Cell Sequencing with Linear Amplification
+  preprint_doi: 10.1101/338053
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We developed “sci-LIANTI”, a high-throughput, high-coverage single-cell DNA sequencing method that combines single-cell
+  combinatorial indexing (“sci”) and linear amplification via transposon insertion (“LIANTI”).

@@ -1,0 +1,23 @@
+name: PaSCient
+category: dry
+summary: Machine-learning model producing patient-level representations from multi-cellular scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101570
+  year: 2026
+  journal: Cell Syst
+  first_author: Liu T
+  last_author: Heimberg G
+  pmid: '41923638'
+  title: Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level
+    disease states
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: We develop PaSCient, a machine learning model that employs a multi-level representation learning paradigm and provides
+  importance scores at the cell and gene levels.

@@ -1,0 +1,23 @@
+name: scPhere
+category: dry
+summary: Deep generative model embedding scRNA-seq profiles on hyperspheres or hyperbolic space.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-22851-4
+  year: 2021
+  journal: Nat Commun
+  first_author: Ding J
+  last_author: Regev A
+  pmid: '33953202'
+  pmcid: PMC8099904
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we introduce scPhere, a scalable deep generative model to embed cells into low-dimensional hyperspherical
+  or hyperbolic spaces.

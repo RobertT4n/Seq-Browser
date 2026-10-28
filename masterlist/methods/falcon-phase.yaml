@@ -1,0 +1,25 @@
+name: FALCON-Phase
+category: dry
+summary: Uses Hi-C read pairs to extend phase blocks of diploid long-read assemblies to chromosome scale.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- hi-c
+reference:
+  doi: 10.1038/s41467-020-20536-y
+  year: 2021
+  journal: Nat Commun
+  first_author: Kronenberg ZN
+  last_author: Kingan SB
+  pmid: '33911078'
+  pmcid: PMC8081726
+  title: Extended haplotype-phasing of long-read de novo genome assemblies using Hi-C
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we present FALCON-Phase, a phasing tool that uses ultra-long-range Hi-C chromatin interaction data to extend phase
+  blocks of partially-phased diploid assembles to chromosome or scaffold scale.

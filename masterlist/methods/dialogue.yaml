@@ -1,0 +1,24 @@
+name: DIALOGUE
+category: dry
+summary: Finds multicellular programs coordinated across cell types from single-cell or spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01288-0
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Jerby-Arnon L
+  last_author: Regev A
+  pmid: '35513526'
+  pmcid: PMC9547813
+  title: DIALOGUE maps multicellular programs in tissue from single-cell or spatial transcriptomics data
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we describe DIALOGUE, a method to systematically uncover multicellular programs (MCPs)-combinations of coordinated
+  cellular programs in different cell types that form higher-order functional units at the tissue level.

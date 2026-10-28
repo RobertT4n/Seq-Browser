@@ -1,0 +1,24 @@
+name: scAmp
+category: dry
+summary: Probabilistic algorithm detecting extrachromosomal DNA amplification status from single-cell (ATAC) data.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-76417-3
+  year: 2026
+  journal: Nat Commun
+  first_author: Jones MG
+  last_author: Chang HY
+  pmid: '42706270'
+  pmcid: PMC13550473
+  title: scAmp enables focal gene amplification analysis from single-cell data
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: 'we introduce scAmp: a probabilistic algorithm for detecting and analyzing extrachromosomal DNA from single-cell
+  datasets.'

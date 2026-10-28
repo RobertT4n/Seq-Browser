@@ -1,0 +1,31 @@
+name: Retain-seq
+category: wet
+summary: Genome-scale episome library assay that identifies human DNA elements conferring generational retention of plasmids
+  across cell divisions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+builds_on:
+- starr-seq
+reference:
+  doi: 10.1038/s41586-025-09764-8
+  year: 2026
+  journal: Nature
+  first_author: Sankar V
+  last_author: Chang HY
+  pmid: '41261124'
+  pmcid: PMC12727538
+  title: Genetic elements promote retention of extrachromosomal DNA in cancer cells
+  preprint_doi: 10.1101/2025.10.10.681495
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: 'true'
+evidence: We develop Retain-seq, a genome-scale assay that reveals thousands of human retention elements conferring generational
+  persistence to heterologous episomes.

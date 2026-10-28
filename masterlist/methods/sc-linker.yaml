@@ -1,0 +1,24 @@
+name: sc-linker
+category: dry
+summary: Integrates scRNA-seq, epigenomic SNP-to-gene maps and GWAS statistics to infer disease-critical cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01187-9
+  year: 2022
+  journal: Nat Genet
+  first_author: Jagadeesh KA
+  last_author: Regev A
+  pmid: '36175791'
+  pmcid: PMC9910198
+  title: Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human
+    genetics
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we introduce sc-linker, a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and
+  genome-wide association study summary statistics to infer the underlying cell types and processes.

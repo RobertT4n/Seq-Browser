@@ -1,0 +1,33 @@
+name: KAS-ATAC
+full_name: Kethoxal-assisted single-stranded DNA sequencing combined with assay for transposase-accessible chromatin using
+  sequencing
+category: wet
+summary: Combines kethoxal-assisted ssDNA labelling with ATAC to map DNA fragments that are both accessible and single-stranded
+  (actively transcribed).
+readouts:
+- chromatin-accessibility
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- bioorthogonal-conjugation
+builds_on:
+- atac-seq
+reference:
+  doi: 10.1101/gr.279621.124
+  year: 2025
+  journal: Genome Res
+  first_author: Kim SH
+  last_author: Greenleaf WJ
+  pmid: '39572230'
+  pmcid: PMC11789636
+  title: KAS-ATAC reveals the genome-wide single-stranded accessible chromatin landscape of the human genome
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: To this end, we developed KAS-ATAC, a combination of the kethoxal-assisted ssDNA sequencing (KAS-seq) and assay
+  for transposase-accessible chromatin using sequencing (ATAC-seq) methods for mapping single-stranded DNA (and thus active
+  transcription) and chromatin accessibility, respectively.

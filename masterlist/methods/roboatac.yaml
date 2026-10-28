@@ -1,0 +1,26 @@
+name: RoboATAC
+category: wet
+summary: Scalable automated (liquid-handling) ATAC-seq platform for high-throughput accessibility profiling of hundreds of
+  samples.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+variant_of:
+- atac-seq
+reference:
+  doi: 10.1101/2025.07.24.666684
+  year: 2025
+  journal: bioRxiv
+  first_author: Liu BB
+  last_author: Greenleaf WJ
+  title: An automated ATAC-seq method reveals sequence determinants of transcription factor dose response in the open chromatin
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: To address this, we developed RoboATAC, a scalable, automated ATAC-seq platform for high-throughput accessibility
+  profiling.

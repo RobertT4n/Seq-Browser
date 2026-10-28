@@ -1,0 +1,27 @@
+name: Connect-seq
+category: wet
+summary: Retrograde viral tracing of upstream neurons of a defined circuit combined with single-cell RNA-seq of the sorted
+  infected neurons.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- facs-sorting
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1912176117
+  year: 2020
+  journal: Proc Natl Acad Sci U S A
+  first_author: Hanchate NK
+  last_author: Buck LB
+  pmid: '32034095'
+  pmcid: PMC7049128
+  title: Connect-seq to superimpose molecular on anatomical neural circuit maps
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we describe a method, termed "Connect-seq," which combines retrograde viral tracing and single-cell transcriptomics
+  to uncover the molecular identities of upstream neurons in a specific circuit

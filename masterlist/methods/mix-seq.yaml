@@ -1,0 +1,32 @@
+name: MIX-Seq
+category: wet
+summary: Pools many cancer cell lines, perturbs them together, and uses SNP-based demultiplexing of scRNA-seq to read post-perturbation
+  transcriptional responses.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- single-cell-rna-seq
+- 10x-chromium-single-cell-3-gene-expression
+reference:
+  doi: 10.1038/s41467-020-17440-w
+  year: 2020
+  journal: Nat Commun
+  first_author: McFarland JM
+  last_author: Tsherniak A
+  pmid: '32855387'
+  pmcid: PMC7453022
+  title: Multiplexed single-cell transcriptional response profiling to define cancer vulnerabilities and therapeutic mechanism
+    of action
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we develop MIX-Seq, a method for multiplexed transcriptional profiling of post-perturbation responses across
+  a mixture of samples with single-cell resolution, using SNP-based computational demultiplexing of single-cell RNA-sequencing
+  data.

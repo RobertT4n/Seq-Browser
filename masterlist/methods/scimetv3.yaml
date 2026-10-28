@@ -1,0 +1,31 @@
+name: sciMETv3
+category: wet
+summary: Combinatorial-indexing single-cell DNA methylation that yields atlas-scale (>100,000 cell) libraries in one experiment,
+  compatible with capture and enzymatic conversion.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- combinatorial-indexing
+- tn5
+builds_on:
+- wgbs
+- sci-atac-seq
+reference:
+  doi: 10.1016/j.xgen.2024.100726
+  year: 2025
+  journal: Cell Genom
+  first_author: Nichols RV
+  last_author: Adey AC
+  pmid: '39719707'
+  pmcid: PMC11770211
+  title: Atlas-scale single-cell DNA methylation profiling with sciMETv3
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here, we describe sciMETv3, a combinatorial indexing-based technique that enables atlas-scale libraries to be produced
+  in a single experiment.

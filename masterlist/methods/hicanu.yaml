@@ -1,0 +1,24 @@
+name: HiCanu
+category: dry
+summary: Modification of the Canu assembler for accurate assembly of PacBio HiFi reads, resolving segmental duplications and
+  satellites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.263566.120
+  year: 2020
+  journal: Genome Res
+  first_author: Nurk S
+  last_author: Koren S
+  pmid: '32801147'
+  pmcid: PMC7545148
+  title: 'HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads'
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we present HiCanu, a modification of the Canu assembler designed to leverage the full potential of HiFi reads
+  via homopolymer compression, overlap-based error correction, and aggressive false overlap filtering.

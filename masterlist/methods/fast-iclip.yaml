@@ -1,0 +1,30 @@
+name: FAST-iCLIP
+full_name: Fully Automated and Standardized iCLIP
+category: wet
+summary: Improved iCLIP biochemistry plus automated informatics pipeline for RNA-protein interactomes including noncoding
+  and pathogen RNAs.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- rna-seq
+reference:
+  doi: 10.1261/rna.047803.114
+  year: 2015
+  journal: RNA
+  first_author: Flynn RA
+  last_author: Chang HY
+  pmid: '25411354'
+  pmcid: PMC4274633
+  title: Dissecting noncoding and pathogen RNA-protein interactomes
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: Here we present FAST-iCLIP, an integrated pipeline with improved CLIP biochemistry and an automated informatic pipeline
+  for comprehensive analysis across protein coding, noncoding, repetitive, retroviral, and nonhuman transcriptomes.

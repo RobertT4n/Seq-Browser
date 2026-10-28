@@ -1,0 +1,33 @@
+name: CUT&TIME
+full_name: Cleavage Under Targets & Targeted Integration via Methyltransferase Expression
+category: wet
+summary: A hyperactive 6mA methyltransferase pulsed in living cells leaves an indelible mark on accessible chromatin, read
+  later with CUT&Tag-style profiling to record past accessibility, including in single cells.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+temporal:
+- molecular-recording
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- combinatorial-indexing
+builds_on:
+- cut-and-tag
+- damid
+reference:
+  doi: 10.1101/2025.08.29.673195
+  year: 2025
+  journal: bioRxiv
+  first_author: Eldred KC
+  last_author: Henikoff S
+  title: CUT&TIME captures the history of open chromatin in developing neurons
+links: {}
+source: pi-sweep2-2026-10-28
+added: '2026-10-28'
+needs_review: true
+evidence: we developed CUT&TIME, a technique that uses a hyperactive 6-methyl adenosine (6mA) methyltransferase pulsed in
+  living cells to map historical chromatin accessibility genome-wide in single cells

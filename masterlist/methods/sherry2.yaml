@@ -1,5 +1,5 @@
 name: SHERRY2
-full_name: "Sequencing HEteRo RNA-DNA-hYbrid 2"
+full_name: Sequencing HEteRo RNA-DNA-hYbrid 2
 category: wet
 summary: Optimized single-cell RNA-seq that tagments RNA/DNA hybrids with Tn5 without second-strand synthesis or pre-amplification.
 readouts:
@@ -16,8 +16,16 @@ builds_on:
 - trace-seq
 reference:
   doi: 10.1186/s12915-022-01416-x
+  year: 2022
+  journal: BMC Biol
+  first_author: Di L
+  last_author: Huang Y
+  pmid: '36175891'
+  pmcid: PMC9522537
+  title: Rapid and sensitive single-cell RNA sequencing with SHERRY2
 links: {}
 source: pi-sweep2-2026-10-28
 added: '2026-10-28'
-needs_review: true: "parent SHERRY (Tn5 RNA/DNA hybrid tagmentation) is not in DB; builds_on trace-seq is the closest equivalent; full_name expansion from memory"
-evidence: "we present SHERRY2, a specifically optimized protocol for scRNA-seq without second-strand cDNA synthesis."
+needs_review: parent SHERRY (Tn5 RNA/DNA hybrid tagmentation) is not in DB; builds_on trace-seq is the closest equivalent;
+  full_name expansion from memory
+evidence: we present SHERRY2, a specifically optimized protocol for scRNA-seq without second-strand cDNA synthesis.
