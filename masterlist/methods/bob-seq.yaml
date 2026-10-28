@@ -1,0 +1,29 @@
+name: BOB-seq
+full_name: Bioorthogonal barcode sequencing
+category: wet
+summary: Acylation and click chemistry attach barcodes ("bobcodes") at internal positions along RNA, so reverse transcription
+  template-switches onto the tethered barcode; samples are pooled and read with isoform resolution rather than only at 3'
+  ends.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+builds_on: []
+reference:
+  doi: 10.64898/2026.09.22.753383
+  year: 2026
+  journal: bioRxiv
+  first_author: Malik T
+  last_author: Amin ND
+  title: RNA isoform-resolved multiplexed sequencing with bioorthogonal barcoding
+  date: '2026-09-28'
+links: {}
+source: user
+added: '2026-10-28'
+needs_review: Preprint (v0.1 in the paper's own naming); tags from the abstract, confirm against Methods.
+evidence: Here, we repurpose acylation and click chemistries to conjugate bioorthogonal barcodes (bobcodes) directly onto
+  multiple internal positions along cellular RNAs.
