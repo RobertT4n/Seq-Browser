@@ -20,7 +20,7 @@ main { max-width:1440px; margin:0 auto; padding:8px 16px 48px; }
 input[type=search] { flex:1 1 260px; padding:9px 12px; border:1px solid var(--rule); border-radius:8px; background:var(--panel); color:var(--ink); font:inherit; }
 .count { color:var(--muted); font-size:13px; }
 .btn { border:1px solid var(--rule); background:var(--panel); color:var(--ink); border-radius:8px; padding:7px 12px; font:inherit; font-size:13px; text-decoration:none; }
-#facets { border:1px solid var(--rule); border-radius:10px; overflow:hidden; background:var(--panel); margin:10px 0 2px; }
+#facets { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:10px 0 2px; }
 .facet { display:grid; grid-template-columns:132px 1fr; gap:6px 14px; align-items:start; padding:9px 14px; border-top:1px solid var(--rule); }
 .facet:first-child { border-top:0; }
 .facet:nth-child(even) { background:var(--chip); }   /* alternating bands: each row reads as one facet */
@@ -52,3 +52,20 @@ svg text { fill:var(--muted); font-size:13px; } svg .lbl { fill:var(--ink); }
 #tip { position:fixed; pointer-events:none; background:var(--ink); color:var(--bg); font-size:12px; padding:4px 8px; border-radius:6px; opacity:0; transition:opacity .1s; }
 @media (max-width:760px) { .grid { grid-template-columns:1fr; } .hide-sm { display:none; } .facet { grid-template-columns:1fr; padding:8px 10px; } .facet b { padding-top:0; } nav { margin-left:0; } }
 td.chem { min-width:200px; } td.reads { min-width:140px; }
+
+/* dropdown filters, side panel, compare (2026-11-07) */
+details.dd { position:relative; } details.dd summary { list-style:none; cursor:pointer; border:1px solid var(--rule); background:var(--panel); border-radius:8px; padding:7px 12px; font-size:14px; font-weight:500; user-select:none; }
+details.dd summary::-webkit-details-marker { display:none; } details.dd summary::after { content:" ▾"; color:var(--muted); } details.dd[open] summary { border-color:var(--accent); }
+details.dd .n:not(:empty) { margin-left:6px; background:var(--accent); color:#fff; border-radius:999px; padding:0 7px; font-size:12px; }
+.dpanel { position:absolute; z-index:20; top:calc(100% + 4px); left:0; min-width:240px; max-height:320px; overflow:auto; background:var(--panel); border:1px solid var(--rule); border-radius:10px; padding:6px; box-shadow:0 8px 24px rgba(0,0,0,.14); }
+.dpanel label { display:flex; gap:8px; align-items:center; padding:4px 8px; border-radius:6px; font-size:14px; cursor:pointer; white-space:nowrap; } .dpanel label:hover { background:var(--accent-soft); }
+#active { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 0; } #active:empty { display:none; }
+tr.row.sel td { background:var(--accent-soft); }
+#drawer { position:fixed; top:0; right:0; bottom:0; width:min(440px, 100vw); background:var(--panel); border-left:1px solid var(--rule); box-shadow:-8px 0 28px rgba(0,0,0,.14); padding:22px 22px 80px; overflow:auto; transform:translateX(105%); transition:transform .18s; z-index:30; }
+#drawer.on { transform:none; } #drawer h2 { margin:0 28px 2px 0; font-size:21px; } #drawer p { margin:8px 0; } #drawer .meta { color:var(--muted); font-size:13px; }
+.dg { margin:10px 0; } .dg b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-bottom:2px; }
+.x { position:absolute; top:12px; right:14px; border:0; background:none; font-size:26px; line-height:1; cursor:pointer; color:var(--muted); }
+#cmpbar { display:none; position:fixed; left:50%; bottom:16px; transform:translateX(-50%); z-index:25; gap:10px; align-items:center; background:var(--panel); border:1px solid var(--rule); border-radius:12px; padding:8px 14px; box-shadow:0 8px 24px rgba(0,0,0,.18); font-size:14px; } #cmpbar.on { display:flex; }
+#cmp { display:none; position:fixed; inset:0; z-index:40; background:rgba(0,0,0,.45); align-items:center; justify-content:center; padding:20px; } #cmp.on { display:flex; }
+.cbox { position:relative; background:var(--panel); border-radius:12px; padding:20px; max-width:1100px; max-height:90vh; overflow:auto; width:100%; } .cbox table { margin:0; } .cbox th { white-space:normal; }
+@media (max-width:760px) { #cmpbar { width:calc(100vw - 24px); } }
