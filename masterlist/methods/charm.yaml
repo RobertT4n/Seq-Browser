@@ -1,0 +1,29 @@
+name: CHARM
+full_name: Single-cell four-omics sequencing of genome conformation, histone modifications, chromatin accessibility and RNA
+category: wet
+summary: Single-cell method profiling 3D genome conformation, histone modifications, chromatin accessibility and gene expression in the same cell.
+readouts:
+- 3d-genome
+- histone-modification
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- tn5
+- antibody-tethered-enzyme
+- reverse-transcription
+reference:
+  doi: 10.1038/s41586-026-10322-z
+  year: 2026
+  date: '2026-04-01'
+  journal: Nature
+  first_author: Chen Y
+  last_author: Xing D
+  pmid: '41922764'
+  title: Gene regulatory landscape dissected by single-cell four-omics sequencing
+links: {}
+added: '2026-11-08'
+partition_unknown: not stated in the abstract
