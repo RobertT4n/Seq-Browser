@@ -1,0 +1,25 @@
+name: In vivo Perturb-seq
+category: wet
+summary: Perturb-seq run inside the developing mouse brain, with knockouts of autism risk genes read out per cell by single-cell
+  RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1126/science.aaz6063
+  year: 2020
+  journal: Science
+  first_author: Jin X
+  last_author: Arlotta P
+  title: In vivo Perturb-Seq reveals neuronal and glial abnormalities associated with autism risk genes
+links: {}
+added: '2026-11-08'

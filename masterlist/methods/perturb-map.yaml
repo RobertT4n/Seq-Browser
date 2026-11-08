@@ -1,0 +1,25 @@
+name: Perturb-map
+category: wet
+summary: Pooled in vivo CRISPR knockout screening read out by spatial imaging of protein-barcoded perturbed clones and spatial
+  transcriptomics in tumours.
+readouts:
+- protein
+- rna
+resolution:
+- spatial
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- spatial-barcode-array
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1016/j.cell.2022.02.015
+  year: 2022
+  journal: Cell
+  first_author: Dhainaut M
+  last_author: Brown BD
+  title: Spatial CRISPR genomics identifies regulators of the tumor microenvironment
+links: {}
+added: '2026-11-08'

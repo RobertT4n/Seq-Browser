@@ -1,0 +1,25 @@
+name: CRISPRi tiling screen
+category: wet
+summary: CRISPRi guides tiled across regulatory regions near a gene, with sorted cells and guide sequencing used to find the
+  enhancers that control that gene.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- facs-sorting
+- amplicon-pcr
+builds_on:
+- crispri-a-pooled-screening
+reference:
+  doi: 10.1126/science.aag2445
+  year: 2016
+  journal: Science
+  first_author: Fulco CP
+  last_author: Engreitz JM
+  title: Systematic mapping of functional enhancer–promoter connections with CRISPR interference
+links: {}
+added: '2026-11-08'

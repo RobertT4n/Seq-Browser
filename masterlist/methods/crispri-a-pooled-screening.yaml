@@ -1,0 +1,25 @@
+name: CRISPRi/a pooled screening
+aliases:
+- Genome-scale CRISPRi/a
+category: wet
+summary: Pooled genome-scale screens using dCas9 fused to a repressor or activator, with guide abundance counted by sequencing
+  to score gene repression or activation phenotypes.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+- crispr-activation
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.cell.2014.09.029
+  year: 2014
+  journal: Cell
+  first_author: Gilbert LA
+  last_author: Weissman JS
+  title: Genome-Scale CRISPR-Mediated Control of Gene Repression and Activation
+links: {}
+added: '2026-11-08'

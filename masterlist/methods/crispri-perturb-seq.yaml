@@ -1,0 +1,27 @@
+name: CRISPRi Perturb-seq
+aliases:
+- Perturb-seq UPR
+category: wet
+summary: Perturb-seq with dCas9-KRAB gene repression instead of knockout, used to map genetic interactions in the unfolded
+  protein response from single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1016/j.cell.2016.11.048
+  year: 2016
+  journal: Cell
+  first_author: Adamson B
+  last_author: Weissman JS
+  title: A Multiplexed Single-Cell CRISPR Screening Platform Enables Systematic Dissection of the Unfolded Protein Response
+links: {}
+added: '2026-11-08'

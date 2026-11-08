@@ -1,0 +1,25 @@
+name: Combinatorial Perturb-seq
+category: wet
+summary: Perturb-seq with CRISPR activation of single genes and gene pairs, reading single-cell transcriptomes to map genetic
+  interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-activation
+scope: targeted
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1126/science.aax4438
+  year: 2019
+  journal: Science
+  first_author: Norman TM
+  last_author: Weissman JS
+  title: Exploring genetic interaction manifolds constructed from rich single-cell phenotypes
+links: {}
+added: '2026-11-08'

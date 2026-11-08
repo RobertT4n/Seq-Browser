@@ -1,0 +1,25 @@
+name: Mosaic-seq
+category: wet
+summary: Single-cell CRISPRi of many enhancers at once, reading each cell's transcriptome and its enhancer guide set to measure
+  how each enhancer shapes gene expression.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1016/j.molcel.2017.03.007
+  year: 2017
+  journal: Mol Cell
+  first_author: Xie S
+  last_author: Hon GC
+  title: Multiplexed Engineering and Analysis of Combinatorial Enhancer Activity in Single Cells
+links: {}
+added: '2026-11-08'

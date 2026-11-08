@@ -1,0 +1,26 @@
+name: Genome-scale Perturb-seq
+category: wet
+summary: CRISPRi Perturb-seq scaled to every expressed gene in two cell lines, giving a single-cell transcriptome for each
+  knockdown across millions of cells.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- direct-capture-perturb-seq
+- perturb-seq
+reference:
+  doi: 10.1016/j.cell.2022.05.013
+  year: 2022
+  journal: Cell
+  first_author: Replogle JM
+  last_author: Weissman JS
+  title: Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq
+links: {}
+added: '2026-11-08'

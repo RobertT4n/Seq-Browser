@@ -1,0 +1,29 @@
+name: CRISPRi iPSC-neuron screens
+category: wet
+summary: CRISPRi screens in human iPSC-derived neurons with survival, sorting and single-cell RNA readouts to find genes needed
+  in neurons.
+readouts:
+- rna
+- functional-screen
+resolution:
+- bulk
+- single-cell
+perturbation:
+- crispr-interference
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+- amplicon-pcr
+builds_on:
+- crop-seq
+- crispri-a-pooled-screening
+reference:
+  doi: 10.1016/j.neuron.2019.07.014
+  year: 2019
+  journal: Neuron
+  first_author: Tian R
+  last_author: Kampmann M
+  title: CRISPR Interference-Based Platform for Multimodal Genetic Screens in Human iPSC-Derived Neurons
+links: {}
+added: '2026-11-08'
