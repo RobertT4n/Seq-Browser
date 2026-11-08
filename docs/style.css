@@ -83,3 +83,5 @@ details.dd.has summary { border-color:var(--accent); background:var(--panel); }
 
 /* phone view of the family graph: free the screen for the graph itself (2026-11-08) */
 @media (max-width:700px) { body.fam header p, body.fam #legend { display:none; } }
+
+header a.logo { display:block; line-height:0; }
