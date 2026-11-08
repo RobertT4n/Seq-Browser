@@ -27,6 +27,7 @@
   .legend .hint { color:#626984; }
   .domain-label { fill:var(--sink); font-size:13px; font-weight:650; letter-spacing:.16em; }
   .lane-label { fill:var(--smuted); font-size:11px; letter-spacing:.04em; }
+  @media (max-width:700px) { header { padding:8px 14px; gap:10px; } header img { height:34px; } header h1 { font-size:18px; } nav { margin-left:0; width:100%; } nav a { padding:5px 8px; font-size:14px; } .lane-label { font-size:10px; } .domain-label { font-size:11px; } }
   .lane { stroke:#1c2344; stroke-dasharray:2 6; }
   .lane-label.empty { fill:#4d5372; }
   .lhs-bg { fill:rgba(11,14,26,.92); }
@@ -55,7 +56,7 @@
   #card .go a { color:var(--accent); }
 </style>
 </head>
-<body>
+<body class="fam">
 <header>
   <img src="brand/seqbrowser-icon-dark.svg" alt="Seq-Browser logo">
   <div><h1>Seq-Browser</h1><p>How sequencing methods descend from one another.</p></div>
@@ -177,7 +178,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       .attr("y1", top + 14).attr("y2", bottom));  // quarter guides in the spread-out recent years
   });
   // frozen left panel: domain + lane labels follow vertical zoom/pan only; the plot scrolls horizontally underneath
-  const PANEL = 190, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
+  const PANEL = innerWidth < 700 ? 112 : 190, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
   const lhs = svg.append("g").attr("class", "lhs");
   domains.forEach(d => {
     const [y0, y1, lanes] = domainSpan[d];
