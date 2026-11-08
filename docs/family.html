@@ -5,11 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seq-Browser Family Tree</title>
 <meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
-<link rel="stylesheet" href="style.css?v=20261028-counter3">
+<link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=20261108-brand1">
 <style>
+  html, body { background:#0b0e1a; }   /* any unpainted tile shows dark, never white */
   body { overflow:hidden; }
-  header { max-width:none; padding:14px 24px 12px; }
-  header img { height:44px; } header h1 { font-size:22px; }
+  header { max-width:none; margin:0; padding:12px 24px; background:#0b0e1a; border-bottom:1px solid #1c2344; }
+  header img { height:44px; } header h1 { font-size:22px; color:#E8B4E1; } header p { color:#8a90ab; }
+  nav a { color:#e6e8f2; } nav a:hover { background:#1a2040; } nav a[aria-current=page] { background:#6a3fb5; color:#fff; }
   /* full-bleed dark canvas under the normal site header */
   #stage { position:fixed; left:0; right:0; bottom:0; top:var(--top, 84px);
            --sbg:#0b0e1a; --sink:#e6e8f2; --smuted:#8a90ab; --edge:#4a5277;
@@ -29,7 +32,7 @@
   .lhs-bg { fill:rgba(11,14,26,.92); }
   .year line.q { stroke:#141a33; stroke-dasharray:1 5; }
   .year line { stroke:#1b2140; } .year text { fill:var(--smuted); font-size:11px; }
-  .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; transition:opacity .15s, stroke .15s; }
+  .edge { fill:none; stroke:var(--edge); stroke-width:1.4; opacity:.55; }
   .edge.b { stroke-dasharray:4 4; }
   .node .core { fill:#0f1324; stroke-width:2; }
   .node .halo { fill:none; stroke-width:1; stroke-dasharray:3 4; opacity:.45; }
@@ -37,7 +40,7 @@
   .node .hit { fill:transparent; }
   .node.pinned .halo { opacity:1; stroke-width:1.6; stroke-dasharray:none; }
   .node text { fill:var(--sink); font-size:13px; font-weight:500; paint-order:stroke; stroke:var(--sbg); stroke-width:4px; stroke-linejoin:round; pointer-events:none; }
-  .node { cursor:pointer; transition:opacity .15s; }
+  .node { cursor:pointer; }
   svg.focus .node:not(.on) { opacity:.16; } svg.focus .edge:not(.on) { opacity:.06; }
   svg.focus .edge.on { stroke:#e6e8f2; opacity:.95; stroke-width:1.8; }
   /* hover card: same look as the table's expanded row */
@@ -54,7 +57,7 @@
 </head>
 <body>
 <header>
-  <img src="logo.png" alt="">
+  <img src="brand/seqbrowser-icon-dark.svg" alt="Seq-Browser logo">
   <div><h1>Seq-Browser</h1><p>How sequencing methods descend from one another.</p></div>
   <nav><a href="index.html">Table</a><a href="family.html" aria-current="page">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
@@ -259,8 +262,16 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const lhsItems = lhs.selectAll("[data-y]");
   const zoom = d3.zoom().scaleExtent([kMin, 4])
     .translateExtent([[bb.x - pad - PANEL / kMin, bb.y - topPad / kMin], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
-    .on("zoom", e => { const t = e.transform; root.attr("transform", t);
+    .on("zoom", e => { const t = e.transform; root.attr("transform", t); cull(t);
       lhsItems.each(function () { const el = d3.select(this), v = +el.attr("data-y") * t.k + t.y; el.attr(this.tagName === "circle" ? "cy" : "y", v); }); });
+  // viewport culling: only nodes/edges on screen stay in the render tree (a few hundred SVG elements instead of ~1,500), which stops the repaint lag
+  const nodeEls = node.nodes(), edgeEls = edge.nodes(), nb = nodes.map(n => [n.x - n.r - 6, n.x + n.r + n.lw + 8, n.y - n.r - 8, n.y + n.r + 8]),
+    eb = links.map(l => { const a = byId.get(l.p), b = byId.get(l.c); return [Math.min(a.x, b.x), Math.max(a.x, b.x), Math.min(a.y, b.y), Math.max(a.y, b.y)]; });
+  const nOn = nodeEls.map(() => true), eOn = edgeEls.map(() => true);
+  function cull(t) { const w = svg.node().clientWidth || W, h = svg.node().clientHeight || H, m = 60 / t.k,
+      x0 = -t.x / t.k - m, x1 = (w - t.x) / t.k + m, y0 = -t.y / t.k - m, y1 = (h - t.y) / t.k + m, vis = b => b[1] >= x0 && b[0] <= x1 && b[3] >= y0 && b[2] <= y1;
+    nb.forEach((b, i) => { const v = vis(b); if (v !== nOn[i]) { nOn[i] = v; nodeEls[i].style.display = v ? "" : "none"; } });
+    eb.forEach((b, i) => { const v = vis(b); if (v !== eOn[i]) { eOn[i] = v; edgeEls[i].style.display = v ? "" : "none"; } }); }
   zoom.filter(e => (e.type !== "wheel" || e.ctrlKey) && !e.button);
   let want = null, raf = 0;  // eased scrolling: wheel sets a target, frames glide toward it
   const glide = () => { const t = d3.zoomTransform(svg.node()), dx = want[0] - t.x, dy = want[1] - t.y;
