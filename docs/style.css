@@ -69,3 +69,14 @@ tr.row.sel td { background:var(--accent-soft); }
 #cmp { display:none; position:fixed; inset:0; z-index:40; background:rgba(0,0,0,.45); align-items:center; justify-content:center; padding:20px; } #cmp.on { display:flex; }
 .cbox { position:relative; background:var(--panel); border-radius:12px; padding:20px; max-width:1100px; max-height:90vh; overflow:auto; width:100%; } .cbox table { margin:0; } .cbox th { white-space:normal; }
 @media (max-width:760px) { #cmpbar { width:calc(100vw - 24px); } }
+
+/* Elicit-inspired filter panel (own palette): tinted card, small caps captions above pill dropdowns (2026-11-08) */
+#facets { display:flex; flex-wrap:wrap; gap:14px 18px; align-items:flex-end; margin:12px 0 4px; padding:14px 16px 16px; background:var(--accent-soft); border:1px solid var(--rule); border-radius:14px; }
+.fg { display:flex; flex-direction:column; gap:5px; min-width:0; } .fg.end { margin-left:auto; justify-content:flex-end; }
+.cap { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); font-weight:600; padding-left:4px; }
+details.dd summary { border-radius:999px; padding:7px 14px; min-width:128px; display:flex; justify-content:space-between; align-items:center; gap:10px; font-weight:400; }
+details.dd summary::after { content:"▾"; margin:0; font-size:11px; }
+details.dd .sv { color:var(--muted); } details.dd .sv.on { color:var(--accent); font-weight:600; }
+details.dd.has summary { border-color:var(--accent); background:var(--panel); }
+.clr { border:0; background:none; color:var(--muted); font:inherit; font-size:13px; padding:8px 6px; cursor:pointer; text-decoration:underline; text-underline-offset:3px; } .clr:hover { color:var(--accent); }
+@media (max-width:640px) { nav { flex-wrap:wrap; margin-left:0; } nav a { padding:6px 9px; } #facets { gap:10px 12px; } .fg { flex:1 1 42%; } details.dd summary { min-width:0; } .fg.end { flex-basis:100%; margin-left:0; } }

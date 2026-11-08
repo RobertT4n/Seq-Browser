@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261108-brand1">
+<link rel="stylesheet" href="style.css?v=20261108-brand2">
 </head>
 <body>
 <header>
@@ -44,8 +44,8 @@ fetch("methods.json").then(r => r.json()).then(j => {
   FACETS.forEach(([k]) => on[k] = new Set());
   document.getElementById("facets").innerHTML = FACETS.map(([k, label]) => {
     const vals = [...new Set(data.flatMap(m => split(m[k])))].sort();
-    return `<details class="dd" data-k="${k}"><summary>${label}<span class="n" id="n-${k}"></span></summary><div class="dpanel">${vals.map(v => `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(v)}</label>`).join("")}</div></details>`;
-  }).join("") + '<button class="btn" id="clear" type="button">Clear filters</button>';
+    return `<div class="fg"><span class="cap">${label}</span><details class="dd" data-k="${k}"><summary><span class="sv" id="n-${k}">Any</span></summary><div class="dpanel">${vals.map(v => `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(v)}</label>`).join("")}</div></details></div>`;
+  }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
   document.querySelectorAll("#facets input").forEach(b => b.onchange = () => { const s = on[b.dataset.k]; b.checked ? s.add(b.dataset.v) : s.delete(b.dataset.v); render(); });
   document.querySelectorAll("details.dd").forEach(d => d.ontoggle = () => { if (d.open) document.querySelectorAll("details.dd").forEach(o => { if (o !== d) o.open = false; }); });
   document.addEventListener("click", e => { if (!e.target.closest("details.dd")) document.querySelectorAll("details.dd").forEach(o => o.open = false); });
@@ -79,7 +79,7 @@ function render() {
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("");
-  FACETS.forEach(([k]) => { const n = document.getElementById("n-" + k); n.textContent = on[k].size ? on[k].size : ""; });
+  FACETS.forEach(([k]) => { const n = document.getElementById("n-" + k); n.textContent = on[k].size ? (on[k].size === 1 ? [...on[k]][0] : on[k].size + " selected") : "Any"; n.classList.toggle("on", on[k].size > 0); n.closest("details").classList.toggle("has", on[k].size > 0); });
   document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(v)} ×</button>`)).join("");
   document.querySelectorAll("#active .chip").forEach(c => c.onclick = () => { on[c.dataset.rk].delete(c.dataset.rv); const cb = [...document.querySelectorAll("#facets input")].find(x => x.dataset.k === c.dataset.rk && x.dataset.v === c.dataset.rv); if (cb) cb.checked = false; render(); });
   drawer();
