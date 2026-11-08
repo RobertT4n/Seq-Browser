@@ -165,7 +165,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   nodes.forEach(n => n.x = xDate(n));  // snap back so the time axis stays exact
   for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
 
-  const svg = d3.select("#g"), root = svg.append("g");
+  const svg = d3.select("#g"), clipG = svg.append("g"), root = clipG.append("g");
 
   // year grid, lanes, and "EPIGENOME (3D genome, ...)" style labels on the left
   const top = d3.min(nodes, n => n.y) - 50, bottom = d3.max(nodes, n => n.y) + 40;
@@ -179,6 +179,8 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   });
   // frozen left panel: domain + lane labels follow vertical zoom/pan only; the plot scrolls horizontally underneath
   const PANEL = innerWidth < 700 ? 112 : 190, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
+  svg.append("defs").append("clipPath").attr("id", "plotclip").append("rect").attr("x", PANEL).attr("y", 0).attr("width", 1e6).attr("height", 1e6);
+  clipG.attr("clip-path", "url(#plotclip)");  // nothing pokes out under or past the frozen left panel
   const lhs = svg.append("g").attr("class", "lhs");
   domains.forEach(d => {
     const [y0, y1, lanes] = domainSpan[d];
