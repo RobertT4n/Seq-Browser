@@ -6,7 +6,7 @@
 <title>About Seq-Browser</title>
 <meta name="description" content="How Seq-Browser finds, classifies and curates sequencing-based assays.">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish7">
+<link rel="stylesheet" href="style.css?v=20261109-polish9">
 <style>
   .prose { max-width:none; } .prose h2 { font-size:18px; margin:28px 0 6px; } .prose p, .prose li { color:var(--ink); }
   .top { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,6fr); gap:28px; align-items:center; margin:12px 0 8px; }
@@ -16,16 +16,16 @@
   .step h3 i { font-style:normal; width:22px; height:22px; border-radius:50%; background:var(--accent); color:#fff; font-size:12px; display:grid; place-items:center; flex:none; }
   .step p { margin:0; font-size:13.5px; color:var(--muted); text-wrap:pretty; }
   .s1 { grid-area:1/1; } .s2 { grid-area:1/2; } .s3 { grid-area:2/2; } .s4 { grid-area:2/1; }
-  .step::after { position:absolute; color:var(--accent); font-size:20px; line-height:1; font-weight:700; }
-  .s1::after { content:"\2192"; right:-22px; top:50%; transform:translateY(-50%); }
-  .s2::after { content:"\2193"; bottom:-23px; left:50%; transform:translateX(-50%); }
-  .s3::after { content:"\2190"; left:-22px; top:50%; transform:translateY(-50%); }
+  .step::after { position:absolute; color:var(--accent); font-size:20px; font-weight:700; text-align:center; line-height:26px; }
+  .s1::after, .s3::after { top:0; bottom:0; width:30px; display:flex; align-items:center; justify-content:center; line-height:1; }
+  .s1::after { content:"\2192"; right:-30px; } .s3::after { content:"\2190"; left:-30px; }
+  .s2::after { content:"\2193"; left:0; right:0; bottom:-26px; height:26px; }
   .why { max-width:none; margin:14px 0 6px; } .why h2 { font-size:18px; margin:0 0 4px; }
-  @media (max-width:860px) { .top { grid-template-columns:1fr; } .quad { grid-template-columns:1fr; gap:22px; } .s1,.s2,.s3,.s4 { grid-area:auto; } .s1::after,.s2::after,.s3::after { content:"\2193"; left:50%; right:auto; top:auto; bottom:-23px; transform:translateX(-50%); } }
+  @media (max-width:860px) { .top { grid-template-columns:1fr; } .quad { grid-template-columns:1fr; gap:26px; } .s1,.s2,.s3,.s4 { grid-area:auto; } .s1::after,.s2::after,.s3::after { content:"\2193"; top:auto; bottom:-26px; left:0; right:0; width:auto; height:26px; } }
   .flow { margin:0; padding:8px 0; }   /* transparent on the cream page; multiply drops the white of the pasted journal logos */
   .flow img { width:100%; height:auto; display:block; mix-blend-mode:multiply; }
   @media (prefers-color-scheme: dark) { .flow { background:#fff; border:1px solid var(--rule); border-radius:10px; padding:16px; } }
-  dl { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px 32px; margin:8px 0; } dl > div { min-width:0; } dt { font-weight:600; } dd { margin:2px 0 0; color:var(--muted); }
+  dl { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px; margin:10px 0; } dl > div { min-width:0; background:var(--chip); border-radius:8px; padding:10px 14px 12px; } dt { font-size:11px; letter-spacing:.09em; text-transform:uppercase; font-weight:700; color:var(--accent); } dd { margin:4px 0 0; color:var(--ink); font-size:14px; text-wrap:pretty; }
   .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:0 40px; }
   code { background:var(--chip); padding:1px 5px; border-radius:4px; font-size:13px; }
 </style>
