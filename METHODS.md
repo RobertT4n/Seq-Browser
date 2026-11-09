@@ -1,6 +1,6 @@
 # Seq-Browser masterlist
 
-Sequencing-based assays, one row per method. Updated 2026-11-09. 498 wet-lab methods, 342 computational (under construction).
+Sequencing-based assays, one row per method. Updated 2026-11-09. 497 wet-lab methods, 342 computational (under construction).
 
 **For LLMs / tools:** this file is the complete database. Columns use a fixed vocabulary (see `taxonomy.yaml`). `Variant of` gives the parent method's id (lowercase-hyphenated name). Machine-readable copies: `docs/methods.json`, `docs/methods.csv`. Raw URL: https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md
 
@@ -75,7 +75,6 @@ Sequencing-based assays, one row per method. Updated 2026-11-09. 498 wet-lab met
 | **CRISP-seq** |  | rna | single-cell |  | genome-wide | reverse-transcription; plate-based; facs-sorting | builds on single-cell-rna-seq | Jaitin DA 2016, Cell, [doi:10.1016/j.cell.2016.11.039](https://doi.org/10.1016/j.cell.2016.11.039) | 804 | Pooled CRISPR screens linked to single-cell RNA-seq so that each cell's perturbation and transcriptome are measured together. |
 | **CRISPR-GEMM** (CRISPR-mediated genetically engineered mouse models) |  | functional-screen | bulk |  | targeted | amplicon-pcr |  | Wang G 2020, Cancer Discov, [doi:10.1158/2159-8290.cd-19-1448](https://doi.org/10.1158/2159-8290.cd-19-1448) | 142 | Pooled mutagenic CRISPR screens in genetically engineered mouse models, read out by sequencing to find tumor genes that modulate immune checkpoint blockade response. |
 | **CRISPR-sciATAC** (CRISPR single-cell combinatorial indexing ATAC-seq) |  | chromatin-accessibility | single-cell |  | genome-wide | tn5; combinatorial-indexing | variant of sci-atac-seq; builds on crop-seq | Liscovitch-Brauer N 2021, Nat Biotechnol, [doi:10.1038/s41587-021-00902-x](https://doi.org/10.1038/s41587-021-00902-x) | 112 | Pooled CRISPR perturbations read out by combinatorial-indexing scATAC-seq, linking each guide to chromatin accessibility in the same cell. |
-| **CRISPRi iPSC-neuron screens** |  | rna; functional-screen | bulk; single-cell |  | genome-wide | reverse-transcription; droplet-microfluidics; amplicon-pcr | builds on crop-seq; crispri-a-pooled-screening | Tian R 2019, Neuron, [doi:10.1016/j.neuron.2019.07.014](https://doi.org/10.1016/j.neuron.2019.07.014) | 607 | CRISPRi screens in human iPSC-derived neurons with survival, sorting and single-cell RNA readouts to find genes needed in neurons. |
 | **CRISPRi Perturb-seq** | Perturb-seq UPR | rna | single-cell |  | targeted | reverse-transcription; droplet-microfluidics | builds on perturb-seq | Adamson B 2016, Cell, [doi:10.1016/j.cell.2016.11.048](https://doi.org/10.1016/j.cell.2016.11.048) | 1329 | Perturb-seq with dCas9-KRAB gene repression instead of knockout, used to map genetic interactions in the unfolded protein response from single-cell transcriptomes. |
 | **CRISPRi tiling screen** |  | functional-screen | bulk |  | targeted | facs-sorting; amplicon-pcr | builds on crispri-a-pooled-screening | Fulco CP 2016, Science, [doi:10.1126/science.aag2445](https://doi.org/10.1126/science.aag2445) | 707 | CRISPRi guides tiled across regulatory regions near a gene, with sorted cells and guide sequencing used to find the enhancers that control that gene. |
 | **CRISPRi/a pooled screening** | Genome-scale CRISPRi/a | functional-screen | bulk |  | genome-wide | amplicon-pcr |  | Gilbert LA 2014, Cell, [doi:10.1016/j.cell.2014.09.029](https://doi.org/10.1016/j.cell.2014.09.029) | 2795 | Pooled genome-scale screens using dCas9 fused to a repressor or activator, with guide abundance counted by sequencing to score gene repression or activation phenotypes. |
@@ -559,8 +558,6 @@ Sequencing-based assays, one row per method. Updated 2026-11-09. 498 wet-lab met
 - single-cell-rna-seq -> crisp-seq (builds on)
 - sci-atac-seq -> crispr-sciatac (variant)
 - crop-seq -> crispr-sciatac (builds on)
-- crop-seq -> crispri-ipsc-neuron-screens (builds on)
-- crispri-a-pooled-screening -> crispri-ipsc-neuron-screens (builds on)
 - perturb-seq -> crispri-perturb-seq (builds on)
 - crispri-a-pooled-screening -> crispri-tiling-screen (builds on)
 - drop-seq -> crop-seq (builds on)
