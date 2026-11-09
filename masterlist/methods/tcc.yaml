@@ -1,0 +1,25 @@
+name: TCC
+full_name: Tethered conformation capture
+category: wet
+summary: Hi-C variant that ligates crosslinked DNA while tethered to a solid support, lowering random-ligation noise.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+variant_of:
+- hi-c
+reference:
+  doi: 10.1038/nbt.2057
+  year: 2011
+  journal: Nat Biotechnol
+  first_author: Kalhor R
+  last_author: Chen L
+  pmid: '22198700'
+  pmcid: PMC3782096
+  title: Genome architectures revealed by tethered chromosome conformation capture and population-based modeling
+links: {}
+added: '2026-11-09'

@@ -1,0 +1,19 @@
+name: UMI-4C
+full_name: Unique molecular identifier 4C
+category: wet
+summary: 4C with UMI-tagged ligation products for quantitative, multiplexed contact profiling from chosen viewpoints.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+- amplicon-pcr
+variant_of:
+- 4c-seq
+reference:
+  doi: 10.1038/nmeth.3922
+links: {}
+added: '2026-11-09'

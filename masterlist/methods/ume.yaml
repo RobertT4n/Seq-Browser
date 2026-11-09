@@ -1,0 +1,24 @@
+name: UME
+full_name: Unified Multi-Caller Ensemble
+category: dry
+summary: Variant-calling ensemble that recalibrates error profiles across orthogonal callers to correct coverage bias in mixed-coverage
+  whole-genome data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.70150
+  year: 2026
+  journal: Mol Ecol Resour
+  first_author: Vallebueno-Estrada M
+  last_author: Swarts K
+  pmid: '42517306'
+  pmcid: PMC13409675
+  title: Unified Multi-Caller Ensemble (UME) Generates an Unbiased Maize Haplotype Map for Variable Coverage Whole Genome
+    Data
+links: {}
+added: '2026-11-09'
+evidence: We introduce a novel approach called Unified Multi-Caller Ensemble (UME), which enhances variant calling accuracy
+  in low-coverage and mixed-coverage genomic datasets.

@@ -1,0 +1,27 @@
+name: RD-SPRITE
+full_name: RNA and DNA split-pool recognition of interactions by tag extension
+category: wet
+summary: SPRITE extension that barcodes RNA together with DNA in the same complexes, mapping RNA positions within 3D nuclear
+  structure.
+readouts:
+- 3d-genome
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- split-pool-barcoding
+- reverse-transcription
+variant_of:
+- sprite
+reference:
+  doi: 10.1016/j.cell.2021.10.014
+  year: 2021
+  journal: Cell
+  first_author: Quinodoz SA
+  last_author: Guttman M
+  pmid: '34739832'
+  pmcid: PMC9115877
+  title: RNA promotes the formation of spatial compartments in the nucleus
+links: {}
+added: '2026-11-09'

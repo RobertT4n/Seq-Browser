@@ -1,0 +1,25 @@
+name: DNase Hi-C
+category: wet
+summary: Hi-C in which DNase I replaces restriction digestion, giving higher-resolution contact maps independent of restriction-site
+  density.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- dnase-digestion
+variant_of:
+- hi-c
+reference:
+  doi: 10.1038/nmeth.3205
+  year: 2015
+  journal: Nat Methods
+  first_author: Ma W
+  last_author: Duan Z
+  pmid: '25437436'
+  pmcid: PMC4281301
+  title: Fine-scale chromatin interaction maps reveal the cis-regulatory landscape of human lincRNA genes
+links: {}
+added: '2026-11-09'

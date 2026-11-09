@@ -1,0 +1,28 @@
+name: 5C
+full_name: Chromosome conformation capture carbon copy
+category: wet
+summary: 3C library read out with multiplexed ligation-mediated amplification of many primer pairs, mapping all contacts among
+  chosen loci.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+- amplicon-pcr
+variant_of:
+- 3c
+reference:
+  doi: 10.1101/gr.5571506
+  year: 2006
+  journal: Genome Res
+  first_author: Dostie J
+  last_author: Dekker J
+  pmid: '16954542'
+  pmcid: PMC1581439
+  title: 'Chromosome Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between
+    genomic elements'
+links: {}
+added: '2026-11-09'

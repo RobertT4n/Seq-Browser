@@ -1,0 +1,19 @@
+name: Red-C
+full_name: RNA-DNA interactome capture
+category: wet
+summary: Proximity ligation of RNA to DNA via a bridge adapter after restriction digestion, mapping RNA-DNA contacts genome-wide.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- char-seq
+reference:
+  doi: 10.1093/nar/gkaa457
+links: {}
+added: '2026-11-09'

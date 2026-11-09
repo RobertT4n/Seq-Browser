@@ -1,0 +1,25 @@
+name: Alleleauto
+category: dry
+summary: Workflow that identifies true allelic gene pairs in haplotype-resolved diploid assemblies, filtering paralogs by
+  Ks and synteny, and runs allele-specific expression analysis.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+evidence: In this study, we developed Alleleauto, a workflow integrating the parametric 3σ rule and the non-parametric Tukey's
+  method as two complementary outlier detection methods to precisely identify alleles and perform ASE analysis from haplotype-resolved
+  assemblies.
+reference:
+  doi: 10.1016/j.abiote.2026.100056
+  year: 2026
+  journal: aBIOTECH
+  first_author: Shi TL
+  last_author: Mao JF
+  pmid: '42255470'
+  pmcid: PMC13240741
+  title: 'Alleleauto: a pipeline for allele identification and analysis of allele-specific gene expression with haplotype-resolved
+    diploid genome assemblies'
+links: {}
+added: '2026-11-09'

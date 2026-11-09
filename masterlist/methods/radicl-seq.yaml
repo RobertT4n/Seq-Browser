@@ -1,0 +1,19 @@
+name: RADICL-seq
+full_name: RNA and DNA interacting complexes ligated and sequenced
+category: wet
+summary: Proximity ligation of RNA to DNA in intact nuclei with enzymatic chromatin digestion, mapping genome-wide RNA-chromatin
+  contacts.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- grid-seq
+reference:
+  doi: 10.1038/s41467-020-14337-6
+links: {}
+added: '2026-11-09'

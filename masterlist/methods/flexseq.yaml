@@ -1,0 +1,25 @@
+name: FLEXseq
+full_name: Fragment Ligation EXclusive methylation sequencing
+category: wet
+summary: Enriches DNA fragments flanking CCGG sites and sequences them to profile DNA methylation genome-wide from low-input
+  and fragmented DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1093/nar/gkag385
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Yu J
+  last_author: Gu W
+  pmid: '42130071'
+  pmcid: PMC13171454
+  title: Enriched methylomes of low-input and fragmented DNA using fragment ligation EXclusive methylation sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here, we developed Fragment Ligation EXclusive methylation sequencing (FLEXseq), a genome-wide methylation profiler
+  that enriches and sequences the DNA fragments flanking CCGG motifs to cover a broad range of regulatory regions.

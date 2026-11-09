@@ -1,0 +1,21 @@
+name: scTACL
+full_name: topology-aware contrastive learning
+category: dry
+summary: Contrastive-learning model that aligns a cell similarity graph with an embedding graph under a ZINB decoder, for
+  imputation, clustering, batch correction and cell-cell interaction in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag361
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhou M
+  last_author: Zhao Y
+  pmid: '42242168'
+  pmcid: PMC13290474
+  title: 'scTACL: a multitask topology-aware contrastive learning approach for single-cell transcriptomics analysis'
+added: '2026-11-09'
+evidence: In this study, we developed a new method called topology-aware contrastive learning (scTACL).

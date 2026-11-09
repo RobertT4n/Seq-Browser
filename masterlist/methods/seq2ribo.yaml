@@ -1,0 +1,23 @@
+name: seq2ribo
+category: dry
+summary: Hybrid simulation and machine-learning model that predicts ribosome A-site positions from mRNA sequence alone, without
+  Ribo-seq or expression data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag296
+  year: 2026
+  journal: Bioinformatics
+  first_author: Kaynar G
+  last_author: Kingsford C
+  pmid: '42412804'
+  pmcid: PMC13340247
+  title: 'seq2ribo: structure-aware integration of machine learning and simulation to predict ribosome location profiles from
+    RNA sequences'
+links: {}
+added: '2026-11-09'
+evidence: We present seq2ribo, a hybrid simulation and machine learning framework that predicts ribosome A-site locations
+  using only an mRNA sequence as input.

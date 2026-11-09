@@ -1,0 +1,23 @@
+name: iMARGI
+full_name: In situ mapping of RNA-genome interactions
+category: wet
+summary: In situ version of MARGI that ligates RNA to DNA within crosslinked nuclei to map all RNA-chromatin contacts.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41596-019-0229-4
+  year: 2019
+  journal: Nat Protoc
+  first_author: Wu W
+  last_author: Zhong S
+  pmid: '31619811'
+  pmcid: PMC7314528
+  title: Mapping RNA-chromatin interactions by sequencing with iMARGI
+links: {}
+added: '2026-11-09'

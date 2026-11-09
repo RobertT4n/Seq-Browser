@@ -1,0 +1,23 @@
+name: TOFU-MAaPO
+full_name: Taxonomic Or FUnctional Metagenomic Assembly and PrOfiling
+category: dry
+summary: Nextflow pipeline for large-scale metagenome analysis from local or SRA short reads, covering assembly, binning of
+  MAGs, and assembly-free taxonomic profiling.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-74033-9
+  year: 2026
+  journal: Nat Commun
+  first_author: Wacker EM
+  last_author: Ellinghaus D
+  pmid: '42277027'
+  pmcid: PMC13260335
+  title: 'TOFU-MAaPO: fast, scalable and reproducible analysis of large metagenome sequence data from the Sequence Read Archive'
+added: '2026-11-09'
+evidence: We introduce TOFU-MAaPO (Taxonomic Or FUnctional Metagenomic Assembly and PrOfiling), a portable, automated single-command
+  Nextflow pipeline for large-scale analysis of metagenomic short-read sequencing data.

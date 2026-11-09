@@ -1,0 +1,25 @@
+name: Liquid Hi-C
+full_name: Liquid chromatin Hi-C
+category: wet
+summary: Hi-C on chromatin fragmented in solution, probing compartment-dependent interaction dynamics.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- mnase
+variant_of:
+- hi-c
+reference:
+  doi: 10.1038/s41588-021-00784-4
+  year: 2021
+  journal: Nat Genet
+  first_author: Belaghzal H
+  last_author: Dekker J
+  pmid: '33574602'
+  pmcid: PMC7946813
+  title: Liquid chromatin Hi-C characterizes compartment-dependent chromatin interaction dynamics
+links: {}
+added: '2026-11-09'

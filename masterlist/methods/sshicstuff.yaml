@@ -1,0 +1,21 @@
+name: ssHiCstuff
+category: dry
+summary: Rust/Python package that designs annealing oligonucleotides and analyses single-strand DNA-specific Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag417
+  year: 2026
+  journal: Bioinformatics
+  first_author: Mendiboure N
+  last_author: Piazza A
+  pmid: '42330364'
+  pmcid: PMC13318487
+  title: 'ssHiCstuff: a package for the design and analysis of ssDNA-specific Hi-C experiments'
+links: {}
+added: '2026-11-09'
+evidence: We present ssHiCstuff, a Rust- and Python-based package for the design of key reagents for ssHi-C experiments and
+  for the analysis of ssHi-C data.

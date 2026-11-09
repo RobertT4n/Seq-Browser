@@ -1,0 +1,24 @@
+name: SEAGALL
+full_name: Single-cell Explainable Geometry-Aware Graph Attention Learning pipeLine
+category: dry
+summary: Geometry-regularised autoencoder and explainable graph attention network that identifies which molecular features
+  drive single-cell identity across omics data.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04066-2
+  year: 2026
+  journal: Genome Biol
+  first_author: Malagoli G
+  last_author: Colomé-Tatché M
+  pmid: '42026624'
+  pmcid: PMC13238118
+  title: Geometry-aware graph attention networks to explain single-cell chromatin states and gene expression with SEAGALL
+links: {}
+added: '2026-11-09'
+evidence: We present SEAGALL (Single-cell Explainable Geometry-Aware Graph Attention Learning pipeLine), a deep learning method
+  to quantify the impact of molecular features on cellular phenotype.

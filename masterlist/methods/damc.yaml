@@ -1,0 +1,16 @@
+name: DamC
+category: wet
+summary: Dam methylation-based readout of chromatin contacts in living cells, avoiding crosslinking and ligation.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+builds_on:
+- damid
+reference:
+  doi: 10.1038/s41594-019-0231-0
+links: {}
+added: '2026-11-09'

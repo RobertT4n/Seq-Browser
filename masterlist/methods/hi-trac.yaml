@@ -1,0 +1,19 @@
+name: Hi-TrAC
+full_name: Transposase-mediated analysis of chromatin
+category: wet
+summary: Trac-looping derivative that reads chromatin loops among accessible regions at high resolution with low input.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- proximity-ligation
+variant_of:
+- trac-looping
+reference:
+  doi: 10.1038/s41467-022-34276-8
+links: {}
+added: '2026-11-09'

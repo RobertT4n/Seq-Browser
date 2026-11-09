@@ -1,0 +1,31 @@
+name: NaP-TRAP
+full_name: Nascent Peptide Translating Ribosome Affinity Purification
+category: wet
+summary: Reporter-based MPRA that immunoprecipitates epitope-tagged nascent peptides to measure translation and mRNA abundance
+  of each reporter from the same sample.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- mpra
+reference:
+  doi: 10.1002/cpz1.70417
+  year: 2026
+  journal: Curr Protoc
+  first_author: Gupta A
+  last_author: Beaudoin JD
+  pmid: '42455625'
+  pmcid: PMC13372052
+  title: 'NaP-TRAP: A Versatile and Accessible Workflow to Dissect Principles of Translational Regulation and mRNA Stability'
+links: {}
+added: '2026-11-09'
+evidence: Here we present Nascent Peptide Translating Ribosome Affinity Purification (NaP-TRAP), a reporter-based approach
+  that simultaneously measures translation and mRNA abundance.

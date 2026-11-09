@@ -1,0 +1,26 @@
+name: ChIA-Drop
+full_name: Chromatin interaction analysis via droplet-based and barcode-linked sequencing
+category: wet
+summary: Droplet barcoding of single chromatin complexes after ChIP to map multiplex chromatin interactions without proximity
+  ligation.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- droplet-microfluidics
+builds_on:
+- chia-pet
+reference:
+  doi: 10.1038/s41586-019-0949-1
+  year: 2019
+  journal: Nature
+  first_author: Zheng M
+  last_author: Ruan Y
+  pmid: '30778195'
+  pmcid: PMC7001875
+  title: Multiplex chromatin interactions with single-molecule precision
+links: {}
+added: '2026-11-09'

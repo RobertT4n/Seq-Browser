@@ -1,0 +1,22 @@
+name: FOTP
+full_name: first-order transition probability
+category: dry
+summary: Nucleotide transition-probability features at cfDNA fragment ends from low-pass WGS, fed to an SVM for early lung
+  cancer detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1158/1055-9965.epi-25-2034
+  year: 2026
+  journal: Cancer Epidemiol Biomarkers Prev
+  first_author: Ji J
+  last_author: Zhao J
+  pmid: '41931548'
+  title: Early Lung Cancer Detection Using Nucleotide Transition Probabilities in Plasma Cell-Free DNA
+links: {}
+added: '2026-11-09'
+evidence: We developed a novel computational feature, first-order transition probability (FOTP), to capture nucleotide sequential
+  dependencies within cfDNA fragments.

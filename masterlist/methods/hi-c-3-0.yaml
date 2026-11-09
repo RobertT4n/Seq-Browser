@@ -1,0 +1,24 @@
+name: Hi-C 3.0
+category: wet
+summary: Improved Hi-C protocol using two restriction enzymes and dual crosslinking to capture both loops and compartments.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+variant_of:
+- hi-c
+reference:
+  doi: 10.1002/cpz1.198
+  year: 2021
+  journal: Curr Protoc
+  first_author: Lafontaine DL
+  last_author: Gibcus JH
+  pmid: '34286910'
+  pmcid: PMC8362010
+  title: 'Hi-C 3.0: Improved Protocol for Genome-Wide Chromosome Conformation Capture'
+links: {}
+added: '2026-11-09'

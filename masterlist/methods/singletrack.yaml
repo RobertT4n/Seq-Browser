@@ -1,0 +1,22 @@
+name: Singletrack
+category: dry
+summary: Gap-affine and dual gap-affine sequence alignment algorithm that backtraces using a single dynamic-programming matrix,
+  reducing memory and runtime.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag183
+  year: 2026
+  journal: Bioinformatics
+  first_author: López-Villellas L
+  last_author: Marco-Sola S
+  pmid: '41981735'
+  pmcid: PMC13171181
+  title: 'Singletrack: an algorithm for improving memory consumption and performance of gap-affine sequence alignment'
+links: {}
+added: '2026-11-09'
+evidence: We present Singletrack, an efficient algorithm for backtrace gap-affine and dual gap-affine alignments that requires
+  storing a single DP matrix while preserving optimal alignment results.

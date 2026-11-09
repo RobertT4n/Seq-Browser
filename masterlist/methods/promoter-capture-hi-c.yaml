@@ -1,0 +1,24 @@
+name: Promoter Capture Hi-C
+category: wet
+summary: Hi-C library enriched with biotinylated oligos against all promoters, mapping long-range promoter contacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+- oligo-capture
+variant_of:
+- hi-c
+reference:
+  doi: 10.1038/ng.3286
+  year: 2015
+  journal: Nat Genet
+  first_author: Mifsud B
+  last_author: Osborne CS
+  pmid: '25938943'
+  title: Mapping long-range promoter contacts in human cells with high-resolution capture Hi-C
+links: {}
+added: '2026-11-09'

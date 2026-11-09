@@ -1,0 +1,22 @@
+name: MC-4C
+full_name: Multi-contact 4C
+category: wet
+summary: 4C read on long reads so that all contacts of a viewpoint on a single DNA molecule are captured, revealing multi-way
+  hubs.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- proximity-ligation
+- long-read-sequencing
+platform:
+- long-read
+variant_of:
+- 4c-seq
+reference:
+  doi: 10.1038/s41588-018-0161-5
+links: {}
+added: '2026-11-09'

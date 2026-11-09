@@ -1,0 +1,26 @@
+name: D&D-seq
+full_name: docking and deamination followed by sequencing
+category: wet
+summary: Single-cell immuno-tethering method that couples a nanobody to a cytosine base editor so that factor-bound DNA sites
+  are marked by C-to-U editing and read out by sequencing.
+readouts:
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1016/j.cell.2026.05.014
+  year: 2026
+  journal: Cell
+  first_author: Chi WY
+  last_author: Raimondi I
+  pmid: '42242226'
+  pmcid: PMC13366695
+  title: Single-cell mapping of regulatory DNA-protein interactions
+added: '2026-11-09'
+evidence: To address this gap, we developed docking and deamination followed by sequencing (D&D-seq), a single-cell immuno-tethering
+  technology for profiling DNA-protein interactions.
+partition_unknown: not stated in the abstract

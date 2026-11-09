@@ -1,0 +1,21 @@
+name: GeneSEA Explorer
+category: dry
+summary: R Shiny app for differential gene expression that runs several normalisation methods and aggregates the results with
+  Shannon entropy.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/bit.70267
+  year: 2026
+  journal: Biotechnol Bioeng
+  first_author: Gonçalves AM
+  last_author: Osório NS
+  pmid: '42296430'
+  pmcid: PMC13521463
+  title: 'GeneSEA Explorer: An R Shiny Tool for Differential Gene Expression Analysis With Shannon''s Entropy Aggregation'
+added: '2026-11-09'
+evidence: We introduce a novel Shiny application, GeneSEA Explorer, developed to perform DGE and functional enrichment analyses
+  while incorporating several normalization methods.

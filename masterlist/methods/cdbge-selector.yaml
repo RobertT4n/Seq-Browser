@@ -1,0 +1,23 @@
+name: CDBGE selector
+full_name: Cartesian Distance-Based Gene Expression selector
+category: dry
+summary: Distance-based gene-selection algorithm that finds differentially expressed marker genes from mRNA-seq using multidimensional
+  expression distances rather than univariate fold-change and FDR cutoffs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2026.1843796
+  year: 2026
+  journal: Front Immunol
+  first_author: Ye Q
+  last_author: Sarrias MR
+  pmid: '42516394'
+  pmcid: PMC13402154
+  title: A versatile distance-based approach for gene expression selection across diverse biological systems
+links: {}
+added: '2026-11-09'
+evidence: 'we developed a new computational method for gene selection from mRNA-seq data: the Cartesian Distance-Based Gene
+  Expression (CDBGE) selector.'

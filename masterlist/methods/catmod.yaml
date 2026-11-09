@@ -1,0 +1,21 @@
+name: CatMOD
+category: dry
+summary: Ensemble machine-learning framework that detects N6-methyladenosine sites from Nanopore direct RNA sequencing signal
+  and non-signal features, applied to build a wheat m6A atlas.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzag053
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Song M
+  last_author: Ma C
+  pmid: '42384924'
+  title: Decoding RNA N6-Methyladenosine Methylome of Wheat Using Machine Learning and Nanopore Direct RNA Sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here, we present CatMOD, an ensemble machine learning framework for accurate m6A detection in plant DRS data that
+  integrates complementary ionic current signal and non-signal features.
