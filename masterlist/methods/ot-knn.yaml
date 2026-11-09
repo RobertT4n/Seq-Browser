@@ -1,0 +1,21 @@
+name: OT-knn
+category: dry
+summary: Optimal-transport method that aligns spatial transcriptomics slices using spatial k-nearest-neighbour context.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014041
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Song J
+  last_author: Li Q
+  pmid: '42771689'
+  pmcid: PMC13641709
+  title: 'OT-knn: A neighborhood-aware optimal transport framework for aligning spatial transcriptomics data'
+links: {}
+added: '2026-11-08'
+evidence: We introduce OT-knn, a method for ST alignment that integrates local neighborhood information within an optimal
+  transport framework.

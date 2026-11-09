@@ -1,0 +1,22 @@
+name: DiffusionOT
+category: dry
+summary: Optimal-transport and neural-network framework inferring stochastic dynamics and cell-fate landscapes from multi-time-point
+  scRNA-seq snapshots.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.aeb4205
+  year: 2026
+  journal: Sci Adv
+  first_author: Liu J
+  last_author: Li C
+  pmid: '42715336'
+  pmcid: PMC13557085
+  title: Learning stochastic dynamics and cell-fate landscapes from single-cell snapshots via optimal transport
+links: {}
+added: '2026-11-08'
+evidence: Here, we introduce DiffusionOT, a dynamic machine learning framework that infers cellular trajectories from multi-time
+  point single-cell transcriptomics by incorporating stochastic effects.

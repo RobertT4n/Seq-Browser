@@ -1,0 +1,29 @@
+name: Well-TEMP-seq
+category: wet
+summary: Protocol combining T-to-C metabolic RNA labelling with microwell-based single-cell RNA-seq to separate new from pre-existing
+  transcripts in thousands of cells.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- microwell-array
+reference:
+  doi: 10.1002/cpz1.70458
+  year: 2026
+  journal: Curr Protoc
+  first_author: Wang D
+  last_author: Lin S
+  pmid: '42671929'
+  pmcid: PMC13528962
+  title: Massively Parallel Profiling of Single-Cell RNA Dynamics Using Well-TEMP-seq
+links: {}
+added: '2026-11-08'
+evidence: Here, we describe Well-TEMP-seq, a protocol for massively parallel profiling of the temporal dynamics of single-cell
+  gene expression.

@@ -1,0 +1,21 @@
+name: G4Beacon2
+category: dry
+summary: Multilevel ensemble model that predicts genome-wide cell-specific G-quadruplexes from DNA sequence and chromatin
+  accessibility.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280606.125
+  year: 2026
+  journal: Genome Res
+  first_author: Tao T
+  last_author: Sun X
+  pmid: '42772960'
+  title: Multilevel ensemble for genome-wide prediction of cell-specific G-quadruplexes utilizing transformed sequences and
+    enhanced chromatin accessibility with G4Beacon2
+links: {}
+added: '2026-11-08'
+evidence: Here, we present G4Beacon2, a genome-wide cell-specific G4 prediction model based on multilevel ensemble learning.

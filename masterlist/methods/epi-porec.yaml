@@ -1,0 +1,27 @@
+name: Epi-PoreC
+category: wet
+summary: Nanopore long-read method that records chromosome contacts, 6mA accessibility marks and 5mC on the same DNA molecules.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- long-read-sequencing
+builds_on:
+- pore-c
+reference:
+  doi: 10.64898/2026.09.15.751767
+  year: 2026
+  journal: bioRxiv
+  first_author: McKinlay A
+  last_author: Pikaard CS
+  title: 'Epi-PoreC: a nanopore-based method for simultaneous profiling of chromatin conformation, DNA methylation, and chromatin
+    accessibility'
+links: {}
+added: '2026-11-08'
+evidence: Here, we describe Epi-PoreC, an Oxford Nanopore long-read sequencing-based method that combines the chromosome conformation
+  capture method, PoreC with Fiber-seq

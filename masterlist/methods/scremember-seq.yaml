@@ -1,0 +1,30 @@
+name: scReMeMber-Seq
+category: wet
+summary: 'Methylation-based cell-memory recorder: pulse-induced DCM-Polr2b marks past transcription in DNA methylation, read
+  out with scMT-seq alongside the present transcriptome.'
+readouts:
+- dna-methylation
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+builds_on:
+- scmt-seq
+partition_unknown: not stated in the abstract
+  not checked
+reference:
+  doi: 10.64898/2026.09.28.755048
+  year: 2026
+  journal: bioRxiv
+  first_author: Aydin Z
+  last_author: Bally-Cuif L
+  title: Joint recording of past and present transcriptomes reconstructs single-cell trajectories
+links: {}
+added: '2026-11-08'
+evidence: We present scReMeMber-Seq, a methylation-based cell-memory recorder connecting past transcriptional states with
+  present transcriptome and DNA methylome in individual cells.

@@ -1,0 +1,25 @@
+name: HTL-ATAC-seq
+category: wet
+summary: Ultra-high-throughput ligation-based single-cell ATAC-seq applied to a 15-timepoint mouse lung atlas.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+builds_on:
+- scatac-seq
+reference:
+  doi: 10.1038/s41467-026-77870-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Wang X
+  last_author: Wang F
+  pmid: '42901895'
+  pmcid: PMC13683331
+  title: A temporal single cell atlas of dynamic chromatin accessibility during murine lung maturation
+links: {}
+added: '2026-11-08'
+partition_unknown: not stated in the abstract
+evidence: Here we present HTL-ATAC-seq, an ultra-high-throughput, ligation-based single-cell ATAC-seq approach.

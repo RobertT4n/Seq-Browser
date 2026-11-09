@@ -1,0 +1,23 @@
+name: SHISMA
+full_name: SHape-driven inference of significant cell type-specific subnetworks from tiMe series single-cell trAnscriptomics
+category: dry
+summary: Infers significant cell type-specific co-dynamic gene subnetworks from single-cell time-series transcriptomics using
+  shape-based representations and a PPI random walk.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag258
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Collesei A
+  last_author: Spinnato F
+  pmid: '42818593'
+  pmcid: PMC13623514
+  title: 'SHISMA: SHape-driven inference of significant cell type-specific subnetworks from tiMe series single-cell trAnscriptomics'
+links: {}
+added: '2026-11-08'
+evidence: We describe SHISMA, a novel tool to infer significant cell type-specific co-dynamic gene subnetworks, from time
+  series transcriptomic data

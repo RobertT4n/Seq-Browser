@@ -1,0 +1,22 @@
+name: UPM
+full_name: Unified perturbational modeling
+category: dry
+summary: VAE-based virtual-cell predictor that integrates heterogeneous Perturb-seq datasets through gene-channel alignment,
+  shared perturbation encoding and joint embedding.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.25.761625
+  year: 2026
+  journal: bioRxiv
+  first_author: Wei Z
+  last_author: You Y
+  title: How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?
+links: {}
+added: '2026-11-08'
+evidence: 'To this end, we introduce three unification modules into a variational autoencoder (VAE)-based AIVC predictor to
+  address these sources of heterogeneity: gene-channel alignment, shared perturbation encoding, and joint embedding of gene
+  expression and identity.'

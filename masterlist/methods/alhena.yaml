@@ -1,0 +1,21 @@
+name: ALHENA
+category: dry
+summary: H&E image encoder distilled from transcriptomic foundation models trained on paired H&E and Xenium spatial transcriptomics,
+  requiring only H&E at inference.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.20.760439
+  year: 2026
+  journal: bioRxiv
+  first_author: Giraud-Sauveur F
+  last_author: Christodoulidis S
+  title: ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis
+links: {}
+added: '2026-11-08'
+evidence: We present a multi-scale training framework for adapting pretrained H&E encoders from paired H&E and ST, producing
+  ALHENA, which requires only H&E at inference.

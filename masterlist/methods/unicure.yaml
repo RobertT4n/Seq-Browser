@@ -1,0 +1,21 @@
+name: UniCure
+category: dry
+summary: Multi-modal foundation-model framework predicting drug-induced transcriptomic responses for individualised drug ranking.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ccell.2026.07.010
+  year: 2026
+  journal: Cancer Cell
+  first_author: Chen Z
+  last_author: Chen L
+  pmid: '42716007'
+  title: 'UniCure: A multi-modal model for predicting personalized cancer therapy response'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present UniCure, a multi-modal model that combines biological and chemical foundation models to predict
+  drug-induced transcriptomic responses across diverse cell and tissue contexts

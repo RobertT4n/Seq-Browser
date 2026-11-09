@@ -1,0 +1,20 @@
+name: NetDes-Duo
+category: dry
+summary: Method that jointly infers paired dynamical gene regulatory networks for two conditions from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.16.752194
+  year: 2026
+  journal: bioRxiv
+  first_author: Ren A
+  last_author: Lu M
+  title: Joint inference of paired dynamical gene regulatory networks reveals distinct cell-state landscapes of neutrophil
+    reprogramming
+links: {}
+added: '2026-11-08'
+evidence: We introduce NetDes-Duo, a computational method that jointly infers transcription factor regulatory network models
+  for two related conditions using scRNA-seq data.

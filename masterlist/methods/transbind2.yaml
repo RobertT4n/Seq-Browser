@@ -1,0 +1,19 @@
+name: TransBind2
+category: dry
+summary: Protein-aware, multimodal transcription-factor binding predictor with bidirectional cross-attention over DNA and
+  TF features.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.07.749913
+  year: 2026
+  journal: bioRxiv
+  first_author: Basnet S
+  last_author: Cheng J
+  title: 'TransBind2: Improving Transcription Factor-DNA Binding Prediction with Multimodal Data and Bidirectional Cross Attention'
+links: {}
+added: '2026-11-08'
+evidence: Here, we introduce TransBind2, which improves on TransBind in several ways.

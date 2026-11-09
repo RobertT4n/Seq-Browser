@@ -1,0 +1,20 @@
+name: hvantk
+category: dry
+summary: Common data model and plugin framework for annotating and analysing genetic variants, scaling from desktop to HPC
+  clusters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.19.760196
+  year: 2026
+  journal: bioRxiv
+  first_author: Audain E
+  last_author: Hitz M
+  title: 'hvantk: an agentic multi-omics framework for variant annotation and analysis'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present hvantk, a framework that provides a common data model for large-scale annotation and analysis of
+  genetic variants, by extending popular data formats such as Hail MatrixTable and AnnData.

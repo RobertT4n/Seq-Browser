@@ -1,0 +1,20 @@
+name: MOD-scTWAS
+category: dry
+summary: Module-based single-cell TWAS method that jointly predicts genetically regulated expression for genes within co-expression
+  modules.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.24.754034
+  year: 2026
+  journal: bioRxiv
+  first_author: Guo H
+  last_author: Hou L
+  title: 'MOD-scTWAS: Leveraging gene co-expression for single-cell transcriptome-wide association studies'
+links: {}
+added: '2026-11-08'
+evidence: Here, we develop MOD-scTWAS, a module-based method that jointly models GReX for genes within co-expression modules
+  to borrow information across genes.

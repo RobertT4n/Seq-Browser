@@ -1,0 +1,20 @@
+name: Cell-Sign
+category: dry
+summary: Simple classifier that identifies drug treatment and exposure duration in individual cells from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101604
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Ma X
+  last_author: Merten CA
+  pmid: '42759521'
+  title: Revealing therapeutic single-cell transcriptomic signatures using a simple classifier
+links: {}
+added: '2026-11-08'
+evidence: Here, we present Cell-Sign, a detection algorithm that can classify cells according to drug treatments at the single-cell
+  level.

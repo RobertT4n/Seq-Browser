@@ -1,0 +1,26 @@
+name: CHART-seq
+full_name: Combinatorial Heteroduplex Assay via Recombinant Tn5
+category: wet
+summary: Plate-based full-length scRNA-seq that tagments RNA/cDNA heteroduplexes with orthogonally indexed Tn5 complexes and
+  pools up to 96 cells per library.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- tn5
+- plate-based
+- combinatorial-indexing
+reference:
+  doi: 10.64898/2026.09.18.752546
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang W
+  last_author: Zhao X
+  title: Ultra-fast and scalable high-resolution full-length single-cell RNA sequencing using CHART-seq
+links: {}
+added: '2026-11-08'
+evidence: Here we developed CHART-seq (Combinatorial Heteroduplex Assay via Recombinant Tn5), which uses orthogonally indexed
+  Tn5 complexes to tagment RNA/cDNA heteroduplexes and permits early sample pooling.

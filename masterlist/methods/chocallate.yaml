@@ -1,0 +1,21 @@
+name: ChoCallate
+category: dry
+summary: Nextflow pipeline that combines bcftools, FreeBayes and GATK HaplotypeCaller by voting to produce consensus germline
+  variant calls, with coverage-aware filtering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.21758
+  year: 2026
+  journal: PeerJ
+  first_author: Ermolaev A
+  last_author: Divashuk M
+  pmid: '42828029'
+  pmcid: PMC13632679
+  title: 'ChoCallate: a computational pipeline for consensus germline variant calling in genomic sequencing data'
+links: {}
+added: '2026-11-08'
+evidence: To address these limitations we developed ChoCallate, a Nextflow-based pipeline for consensus germline variant calling.

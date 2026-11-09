@@ -1,0 +1,20 @@
+name: AmbientMapper
+category: dry
+summary: Generative model that maps reads competitively against multiple references to estimate and remove ambient chromatin
+  signal.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.11.750809
+  year: 2026
+  journal: bioRxiv
+  first_author: Gomez-Cano F
+  last_author: Marand AP
+  title: Empirical Estimation of Ambient Contamination in Combinatorial Single-Cell Methods Using Multi-Reference Mapping
+links: {}
+added: '2026-11-08'
+evidence: AmbientMapper, a generative model that maps reads competitively against multiple references, learns the ambient
+  profile from empty and low-complexity barcodes

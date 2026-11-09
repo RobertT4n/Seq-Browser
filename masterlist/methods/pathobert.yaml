@@ -1,0 +1,21 @@
+name: PathoBERT
+category: dry
+summary: Hybrid DNABERT-based genomic language model that classifies individual bacterial sequencing reads as pathogenic or
+  not and aggregates reads to genome-level calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.27.754806
+  year: 2026
+  journal: bioRxiv
+  first_author: El-aarag SA
+  last_author: ElHefnawi M
+  title: 'PathoBERT: A Hybrid Attention-Based Genomic Language Model for Read-Level Bacterial Pathogenicity Prediction'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present PathoBERT, a hybrid deep learning framework that integrates a LoRA adapted DNABERT encoder with
+  convolutional feature extraction, a modified Convolutional Block Attention Module (MCBAM), and Multiscale Convolutional
+  Attention (MSCA) for bacterial pathogenicity prediction.

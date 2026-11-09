@@ -1,0 +1,20 @@
+name: EukPan
+category: dry
+summary: Post-annotation pipeline that standardises eukaryotic gene models and separates core and accessory pangenome orthogroups.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.13.751290
+  year: 2026
+  journal: bioRxiv
+  first_author: Seki K
+  last_author: Nagano Y
+  title: The automated eukaryotic pangenome pipeline EukPan reveals accessory genome differentiation beyond core-gene phylogeny
+    in  <i>Aspergillus oryzae</i>
+links: {}
+added: '2026-11-08'
+evidence: We developed EukPan, an automated post-annotation pipeline that standardizes GFF/GTF files, selects representative
+  isoforms, constructs proteomes, infers orthogroups

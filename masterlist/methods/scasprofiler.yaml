@@ -1,0 +1,22 @@
+name: scASprofiler
+category: dry
+summary: Deep convolutional VAE-GAN that imputes sparse splice-junction counts so alternative splicing can be profiled per
+  cell in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag497
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Hu P
+  last_author: Xing Y
+  pmid: '42725920'
+  pmcid: PMC13563674
+  title: 'scASprofiler: profiling single-cell RNA splicing with a deep convolutional generative network'
+links: {}
+added: '2026-11-08'
+evidence: To overcome this, we developed scASprofiler, a tailored deep convolutional generative network designed to decipher
+  AS with single-cell resolution.

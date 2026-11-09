@@ -1,0 +1,22 @@
+name: MCseg
+category: dry
+summary: No-code downloadable platform for cell segmentation and transcript attribution on high-resolution spatial transcriptomics,
+  with a fixed engine found by AI-agent-guided search.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.20.752837
+  year: 2026
+  journal: bioRxiv
+  first_author: Chan C
+  last_author: Lin S
+  title: 'MCseg: reference-guided AI-agent development of a fixed cell segmentation and transcript attribution workflow for
+    spatial transcriptomics'
+links: {}
+added: '2026-11-08'
+evidence: We developed MCseg, a downloadable no-code platform whose fixed segmentation engine was derived by an AI-agent-guided
+  search in which an AI agent iteratively proposed and evaluated combinations of image-processing and segmentation operations
+  against Xenium-derived cell boundaries.

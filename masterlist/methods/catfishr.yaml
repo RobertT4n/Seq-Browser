@@ -1,0 +1,21 @@
+name: CATFISHR
+category: dry
+summary: Semi-automated workflow combining transcriptome similarity, inferred CNV profiles and consensus typing to classify
+  malignant cells in scRNA-seq and Visium data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.22.760906
+  year: 2026
+  journal: bioRxiv
+  first_author: Shukla P
+  last_author: Levesque MP
+  title: 'CATFISHR: integration of transcriptome and inferred CNV profiles for comprehensive malignant cell identification'
+links: {}
+added: '2026-11-08'
+evidence: We developed CATFISHR, a semi-automated workflow that integrates RNA-expression similarity, inferred copy-number
+  variation (CNV) profiles, and consensus cell typing to classify malignant cells relative to high-confidence references.

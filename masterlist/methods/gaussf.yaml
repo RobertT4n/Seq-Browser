@@ -1,0 +1,21 @@
+name: GaussF
+category: dry
+summary: Alignment-free isoform quantification that benchmarks GC-binned k-mer counts against a fixed theoretical Gaussian
+  CDF to correct sequence bias.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.762697
+  year: 2026
+  journal: bioRxiv
+  first_author: Su Q
+  last_author: Lian Q
+  title: 'GaussF: An Unbiased Gaussian Framework for High-Precision Transcript Quantification with a Programmable Self-Benchmark
+    Model'
+links: {}
+added: '2026-11-08'
+evidence: We introduce GaussF, a novel alignment-free methodology specifically designed for precise isoform quantification
+  by directly addressing these biases and the isoform recognition problem without relying on empirical data.

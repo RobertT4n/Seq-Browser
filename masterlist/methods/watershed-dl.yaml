@@ -1,0 +1,22 @@
+name: Watershed-DL
+category: dry
+summary: Deep-learning framework that combines sequence-to-omics variant-effect predictions with RNA-seq and ATAC-seq molecular
+  outliers to prioritise large-effect rare variants.
+readouts:
+- rna
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.24.26366361
+  year: 2026
+  journal: medRxiv
+  first_author: Lake J
+  last_author: Montgomery SB
+  title: Integrating sequence-to-omics predictions and personal multi-omics for rare variant prioritization
+links: {}
+added: '2026-11-08'
+evidence: We present Watershed-DL, a framework that integrates S2O predictions of variant effects from DNA and protein sequence
+  with multi-omic outliers to identify large-effect rare variants.

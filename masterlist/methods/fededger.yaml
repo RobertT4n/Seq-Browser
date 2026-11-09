@@ -1,0 +1,20 @@
+name: FedEdgeR
+category: dry
+summary: Federated, SMPC-protected implementation of edgeR that lets sites run multi-centre differential expression without
+  sharing patient-level counts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.17.752480
+  year: 2026
+  journal: bioRxiv
+  first_author: Song X
+  last_author: Wei Z
+  title: 'FedEdgeR: federated and privacy-preserving edgeR for differential gene expression analysis'
+links: {}
+added: '2026-11-08'
+evidence: We present FedEdgeR, a federated edgeR implementation protected by secure multi-party computation (SMPC), covering
+  IRLS GLM fitting, three-level dispersion estimation, and the likelihood-ratio test.

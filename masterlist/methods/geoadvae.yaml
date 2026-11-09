@@ -1,0 +1,22 @@
+name: GeoAdvAE
+full_name: Geometry-aware adversarial autoencoder
+category: dry
+summary: Adversarial autoencoder that embeds unpaired single-cell morphologies and scRNA-seq profiles into a shared latent
+  space using a Gromov-Wasserstein regularizer.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1177/15578666261492321
+  year: 2026
+  journal: J Comput Biol
+  first_author: Du JT
+  last_author: Lin KZ
+  pmid: '42809409'
+  title: Integrating Morphology and Gene Expression of Neural Cells in Unpaired Single-Cell Data Using GeoAdvAE
+links: {}
+added: '2026-11-08'
+evidence: We present GeoAdvAE, a geometry-aware adversarial autoencoder for diagonal (unpaired) integration of single-cell
+  morphology and single-cell RNA sequencing.

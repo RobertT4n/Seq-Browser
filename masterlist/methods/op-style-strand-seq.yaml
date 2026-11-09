@@ -1,0 +1,29 @@
+name: OP-style Strand-seq
+category: wet
+summary: Microliter-volume, one-pot-style Strand-seq library prep with pooled MNase digestion and protease inactivation in
+  standard well plates.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- plate-based
+- mnase
+- nucleotide-labeling
+variant_of:
+- strand-seq
+reference:
+  doi: 10.1016/j.mex.2026.104157
+  year: 2026
+  journal: MethodsX
+  first_author: Benito E
+  last_author: Korbel JO
+  pmid: '42787775'
+  pmcid: PMC13602216
+  title: 'Resource-efficient Strand-seq library preparation in microliter volumes: a one-pot-style adaptation for standard
+    laboratory infrastructure'
+links: {}
+added: '2026-11-08'
+evidence: Here we describe OP-style Strand-seq, a microliter-volume adaptation retaining the central efficiency principles
+  of the one-pot method

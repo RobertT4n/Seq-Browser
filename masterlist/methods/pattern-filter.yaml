@@ -1,0 +1,22 @@
+name: Pattern-Filter
+category: dry
+summary: Preprocessing tool that removes scRNA-seq reads lacking expected anchor motifs and non-canonical barcode or UMI bases
+  before alignment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281717.125
+  year: 2026
+  journal: Genome Res
+  first_author: Su Q
+  last_author: Lian Q
+  pmid: '42586759'
+  title: Pattern-Filter structural validation of single-cell RNA-seq reads reduces artifactual barcodes and improves biological
+    resolution
+links: {}
+added: '2026-11-08'
+evidence: To resolve this, we developed Pattern-Filter, a universal preprocessing tool that systematically validates read
+  integrity before alignment.

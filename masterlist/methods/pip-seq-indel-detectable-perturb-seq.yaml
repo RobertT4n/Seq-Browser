@@ -1,0 +1,32 @@
+name: PIP-seq (indel-detectable Perturb-seq)
+full_name: Probe-based indel-detectable Perturb-seq
+category: wet
+summary: High-throughput in vivo Perturb-seq on fixed nuclei that reads out guide identity, infers gene editing and profiles
+  transcription with probes.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- oligo-capture
+variant_of:
+- perturb-seq
+reference:
+  doi: 10.1038/s44161-026-00861-z
+  year: 2026
+  journal: Nat Cardiovasc Res
+  first_author: Wang H
+  last_author: Liu J
+  pmid: '42706440'
+  pmcid: PMC13561863
+  title: Spatially guided in vivo single-cell functional genomics of postnatal heart.
+  date: '2026-09-07'
+links: {}
+added: '2026-11-08'
+partition_unknown: not stated in the abstract
+evidence: we developed PIP-seq (probe-based indel-detectable Perturb-seq), a high-throughput platform that detects single
+  guide RNA identity, infers gene editing and profiles transcription from fixed n

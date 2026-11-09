@@ -1,0 +1,19 @@
+name: CellDot
+category: dry
+summary: Optimal-transport decontamination of imaging-based spatial transcriptomics that reassigns or removes misplaced transcripts.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.09.750350
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen Y
+  last_author: Yang C
+  title: Accurate and scalable decontamination of imaging-based spatial transcriptomics via optimal transport
+links: {}
+added: '2026-11-08'
+evidence: Here we present CellDot, an optimal-transport framework that determines the fate of each transcript by retaining
+  it in its host cell

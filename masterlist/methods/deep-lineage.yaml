@@ -1,0 +1,22 @@
+name: Deep Lineage
+category: dry
+summary: Deep-learning method that predicts early fate biases and clone-internal expression from time-series scRNA-seq with
+  matched lineage barcodes.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101759
+  year: 2026
+  journal: Cell Syst
+  first_author: Sadria M
+  last_author: Bader GD
+  pmid: '42950828'
+  title: 'Deep Lineage: Single-cell lineage tracing and fate inference using deep learning'
+links: {}
+added: '2026-11-08'
+evidence: We introduce Deep Lineage, a deep-learning method for analyzing time-series single-cell RNA sequencing with matched
+  lineage tracing data.

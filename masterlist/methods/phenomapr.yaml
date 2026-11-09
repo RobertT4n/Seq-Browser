@@ -1,0 +1,20 @@
+name: PhenoMapR
+category: dry
+summary: Semi-supervised mapping of bulk-derived phenotype expression signatures onto single cells and spatial locations.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.08.749933
+  year: 2026
+  journal: bioRxiv
+  first_author: Benard BA
+  last_author: Gentles AJ
+  title: 'PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data'
+links: {}
+added: '2026-11-08'
+evidence: We introduce PhenoMapR, a semi-supervised method designed to integrate the phenotypic rigor of large-scale bulk
+  expression studies with the cellular and spatial granularity of single-cell and spatial transcriptomics.

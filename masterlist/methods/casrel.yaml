@@ -1,0 +1,21 @@
+name: CASREL
+category: dry
+summary: Ensemble-learning and SHAP framework inferring RNA-binding protein to alternative-splicing associations from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-77627-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Xiang X
+  last_author: Yang X
+  pmid: '42850251'
+  title: Interpretable machine learning enables de novo mapping of cell type-specific RNA splicing regulation from scRNA-seq
+    data
+links: {}
+added: '2026-11-08'
+evidence: Here, we present CASREL, a machine learning framework that reconstructs candidate regulatory circuitry between RNA-binding
+  proteins and alternative splicing directly from single-cell RNA sequencing data

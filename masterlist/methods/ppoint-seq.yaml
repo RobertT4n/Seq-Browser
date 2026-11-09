@@ -1,0 +1,26 @@
+name: pPOINT-seq
+full_name: plant polymerase intact nascent transcript sequencing
+category: wet
+summary: Long-read sequencing of Ser5-phosphorylated Pol II-associated nascent transcripts that reports Pol II position alongside
+  co-transcriptional splicing states.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.10.27.762179
+  year: 2026
+  journal: bioRxiv
+  first_author: Sindalovskaya M
+  last_author: Ding Y
+  title: Single-molecule nascent RNA profiling reveals multiple layers of co-transcriptional splicing and their reprogramming
+    by cold in  <i>Arabidopsis</i>
+links: {}
+added: '2026-11-08'
+evidence: Here, we developed plant polymerase intact nascent transcript sequencing (pPOINT-seq), a long-read sequencing approach
+  for profiling intact Pol II-associated nascent transcripts in Arabidopsis thaliana

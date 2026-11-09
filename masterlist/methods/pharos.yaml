@@ -1,0 +1,20 @@
+name: PHAROS
+category: dry
+summary: Search framework that chains single-drug predictions from a pretrained single-cell perturbation model to find target-directed
+  drug combinations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.08.749477
+  year: 2026
+  journal: bioRxiv
+  first_author: Bezney J
+  last_author: Steinmetz LM
+  title: 'PHAROS: turning single-cell perturbation models into target-directed drug-combination screens'
+links: {}
+added: '2026-11-08'
+evidence: We introduce PHAROS, a framework that turns a pretrained single-cell perturbation model into a target-directed search
+  engine for drug combinations.

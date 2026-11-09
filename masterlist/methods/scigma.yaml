@@ -1,0 +1,23 @@
+name: SCIGMA
+category: dry
+summary: Uncertainty-aware contrastive learning and multiview graph neural networks that integrate up to five spatial omics
+  modalities across platforms.
+readouts:
+- rna
+- protein
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02706-8
+  year: 2026
+  journal: Nat Genet
+  first_author: Chang S
+  last_author: Ma Y
+  pmid: '42693183'
+  title: Scalable, generalizable and uncertainty-aware integration of spatial multiomics across diverse modalities and platforms
+    with SCIGMA
+links: {}
+added: '2026-11-08'
+evidence: We present SCIGMA, a scalable and generalizable deep learning framework for spatial multiomics integration.

@@ -1,0 +1,21 @@
+name: IG-28
+category: dry
+summary: Lightweight isoform identification from bulk and single-cell full-length cDNA reads, integrating with scRNA-seq workflows.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.23.761370
+  year: 2026
+  journal: bioRxiv
+  first_author: Calicchio A
+  last_author: Vollmers C
+  title: IG-28 enables identification and quantification of high-confidence isoforms from large bulk and single-cell full-length
+    cDNA datasets
+links: {}
+added: '2026-11-08'
+evidence: Here, we introduce IG-28 which addresses this challenge with its capability to process and analyze large fl-cDNA
+  datasets fast and using minimal computational resources.

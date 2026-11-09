@@ -1,0 +1,19 @@
+name: QuickSeg
+category: dry
+summary: Exact dynamic-programming copy-number segmentation with a median-based error function for read-depth data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.31.747916
+  year: 2026
+  journal: bioRxiv
+  first_author: Schlotmann B
+  last_author: Weischenfeldt J
+  title: 'QuickSeg: A fast, versatile and accurate algorithm for genomic copy number segmentation using dynamic programming'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present QuickSeg, a fast and versatile methodology that uses an exact dynamic programming algorithm to
+  detect copy number segments using median-based error function.

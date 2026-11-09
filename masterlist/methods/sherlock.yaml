@@ -1,0 +1,20 @@
+name: SHERLOCK
+category: dry
+summary: Interpretable deep generative model that represents perturbation effects as structured causal interventions on a
+  latent baseline cell state.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.25.754573
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang M
+  last_author: Azizi E
+  title: 'SHERLOCK: Structured representation learning and causal inference of downstream perturbation effects'
+links: {}
+added: '2026-11-08'
+evidence: We present SHERLOCK, an interpretable deep generative framework for single-cell perturbation analysis that represents
+  perturbation effects as structured interventions on a latent baseline cellular state.

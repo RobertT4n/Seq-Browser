@@ -1,0 +1,22 @@
+name: scMGFGRN
+category: dry
+summary: Multi-model deep-learning framework for gene regulatory network inference from single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.13.751326
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhong L
+  last_author: Xie M
+  title: Multi-model biological and sequence information fusion for gene regulatory network inference from single-cell transcriptomics
+links: {}
+added: '2026-11-08'
+evidence: We present scMGFGRN, a multi-model deep learning framework that integrates single-cell transcriptomic profiles with
+  GO hierarchical relationships, gene sequences by leveraging denoising auto encoders, graph attention feature extraction
+  and pertained DNA language model to capture multi-source dependencies within multi-model biological knowledge, while its
+  gated multi head attention module effectively identifies informative regulatory signatures and integrate complementary features
+  from different sources to predict accurate gene regulatory networks.

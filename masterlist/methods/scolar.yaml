@@ -1,0 +1,19 @@
+name: scOLAR
+full_name: Ontology-Anchored Open-Set Annotation
+category: dry
+summary: Ontology-guided open-set annotation of scRNA-seq that flags novel cell populations absent from the reference.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.05.749179
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu Y
+  last_author: Ju W
+  title: 'scOLAR: Ontology-Anchored Open-Set Annotation of Single-Cell RNA-seq Data'
+links: {}
+added: '2026-11-08'
+evidence: We present scOLAR, an ontology-guided open-set framework that learns prototypes over the Cell Ontology

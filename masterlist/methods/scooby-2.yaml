@@ -1,0 +1,21 @@
+name: Scooby-2
+category: dry
+summary: Fine-tunes AlphaGenome with a cell-specific decoder to predict single-cell RNA-seq and chromatin-accessibility tracks
+  from DNA sequence.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.762238
+  year: 2026
+  journal: bioRxiv
+  first_author: Hingerl J
+  last_author: Gagneur J
+  title: 'Scooby-2: fine-tuning AlphaGenome for single-cell genomic track prediction'
+links: {}
+added: '2026-11-08'
+evidence: We present Scooby-2, which combines AlphaGenome with a cell-specific decoder to predict single-cell RNA-seq coverage
+  and chromatin-accessibility genomic tracks from DNA sequence.

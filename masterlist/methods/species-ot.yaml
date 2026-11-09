@@ -1,0 +1,23 @@
+name: Species-OT
+category: dry
+summary: Gromov-Wasserstein optimal-transport framework that gives gene-to-gene correspondences and transcriptomic distances
+  between species from bulk or single-cell RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101643
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Tokuta Y
+  last_author: Hiraoka Y
+  pmid: '42950823'
+  title: Geometric inference of cross-species transcriptome correspondence
+links: {}
+added: '2026-11-08'
+evidence: Here, frameworks that translate insights from model organisms into other species would accelerate wet-lab studies,
+  so we develop Species-OT, a cross-species transcriptome analysis framework using Gromov-Wasserstein optimal transport, which
+  quantitatively compares the geometry of transcriptome distributions.

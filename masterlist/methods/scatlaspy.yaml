@@ -1,0 +1,18 @@
+name: scAtlasPy
+category: dry
+summary: Disk-resident computing framework for atlas-scale single-cell analysis (100-million-cell atlases).
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.03.748766
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu H
+  last_author: Gao L
+  title: Atlas-scale single-cell analysis beyond in-memory paradigm with scAtlasPy
+links: {}
+added: '2026-11-08'
+evidence: Here, scAtlasPy decouples scale of atlas from memory capacity by leveraging the disk-resident computing.

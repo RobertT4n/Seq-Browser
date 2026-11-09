@@ -1,0 +1,20 @@
+name: MTHCell
+category: dry
+summary: Multi-view transformer for scRNA-seq cell-type identification that fuses marker knowledge with multi-scale features.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2026.3733404
+  year: 2026
+  journal: IEEE J Biomed Health Inform
+  first_author: Ma T
+  last_author: Wang J
+  pmid: '42726615'
+  title: Multiview Transformer-Based Hierarchical Fusion Model for Cell Type Identification
+links: {}
+added: '2026-11-08'
+evidence: we develop MTHCell, which introduces multi-view biological knowledge encoding and multi-scale feature learning to
+  transformers.

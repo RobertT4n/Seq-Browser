@@ -1,0 +1,20 @@
+name: DeepCelllify
+category: dry
+summary: CNN framework that turns single-cell expression tables into image-like inputs and classifies patients by disease
+  state from their cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2026.1919127
+  journal: Front Bioinform
+  first_author: Oulas A
+  last_author: Spyrou G
+  pmcid: PMC13658557
+  title: Patient classification using single-cell RNA-sequencing data with deep learning convolutional neural networks
+links: {}
+added: '2026-11-08'
+evidence: In this work, we introduce DeepCelllify, a novel deep learning-based framework that harnesses convolutional neural
+  networks (CNNs) to classify patients using their individual cell expression profiles.

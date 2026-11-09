@@ -1,0 +1,22 @@
+name: SingleCellMQC
+category: dry
+summary: R package giving a modality-aware quality-control workflow for scRNA-seq, ADT and TCR/BCR single-cell data.
+readouts:
+- rna
+- protein
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2026.117398
+  year: 2026
+  journal: iScience
+  first_author: Ji D
+  last_author: Zhong W
+  pmid: '42733637'
+  pmcid: PMC13571652
+  title: 'SingleCellMQC: A comprehensive quality control workflow for single-cell multi-omics'
+links: {}
+added: '2026-11-08'
+evidence: Here, we develop SingleCellMQC, an open-source R package that provides a unified QC framework

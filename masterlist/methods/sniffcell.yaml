@@ -1,0 +1,20 @@
+name: SniffCell
+category: dry
+summary: Uses DNA methylation on native long reads to assign somatic variant-supporting reads to cell types in bulk tissue.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.01.26361966
+  year: 2026
+  journal: medRxiv
+  first_author: Fu Y
+  last_author: Sedlazeck FJ
+  title: Cell-type-resolved somatic variant discovery from bulk long-read sequencing
+links: {}
+added: '2026-11-08'
+evidence: Here we developed SniffCell, which uses DNA methylation carried on native long reads to assign somatic variant-supporting
+  molecules to methylation-resolvable cell types.

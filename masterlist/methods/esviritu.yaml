@@ -1,0 +1,22 @@
+name: EsViritu
+category: dry
+summary: Metagenomic virus profiler combining iterative greedy clustering and LCA refinement against a curated pathogen database
+  to reconstruct virus genomes and virome profiles.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.29.755457
+  year: 2026
+  journal: bioRxiv
+  first_author: Tisza MJ
+  last_author: Maresso AW
+  title: <i>EsViritu</i>  is a sensitive and specific profiler for viral pathogen detection and genome recovery in metagenomes
+links: {}
+added: '2026-11-08'
+evidence: Here we present EsViritu, a taxonomic profiler that pairs an iterative greedy clustering algorithm and lowest-common-ancestor
+  taxonomic refinement with a curated Virus Pathogen Database to reconstruct virus genomes and generate virome profiles directly
+  from reads.

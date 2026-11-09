@@ -1,0 +1,23 @@
+name: DRUG-seq-PerturbFormer
+aliases:
+- DPF
+category: dry
+summary: Multi-task deep-learning framework that predicts metabolite perturbation magnitude and direction in T cell transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2026.117527
+  year: 2026
+  journal: iScience
+  first_author: Xu Y
+  last_author: Liu Y
+  pmid: '42823974'
+  pmcid: PMC13626933
+  title: A systematic transcriptomic atlas and predictive framework for metabolite-driven T cell state transitions
+links: {}
+added: '2026-11-08'
+evidence: We develop DRUG-seq-PerturbFormer, a multi-task deep learning framework that quantitatively captures perturbation
+  magnitude and directionality across these states.

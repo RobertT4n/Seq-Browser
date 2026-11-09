@@ -1,0 +1,21 @@
+name: NDreamer
+category: dry
+summary: Neural discrete representation model that removes batch effects and estimates perturbation- or condition-associated
+  signals at single-cell resolution.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag485
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Xiao X
+  last_author: Wang Z
+  pmid: '42734923'
+  pmcid: PMC13573602
+  title: Single-cell-level perturbation-induced and condition-related signal estimation with batch effect removal using NDreamer
+links: {}
+added: '2026-11-08'
+evidence: To address these limitations, we developed NDreamer that combines neural discrete representation learning and matching

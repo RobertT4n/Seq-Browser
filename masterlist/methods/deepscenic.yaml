@@ -1,0 +1,20 @@
+name: DeepSCENIC
+category: dry
+summary: Deep-learning framework that transfers sequence-to-function models to single-cell multiome data for causal GRN inference.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.18.752607
+  year: 2026
+  journal: bioRxiv
+  first_author: Partel G
+  last_author: Aerts S
+  title: 'DeepSCENIC: transfer learning from sequence-to-function models enables causal gene regulatory network inference'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present DeepSCENIC, a deep learning framework that enables causal GRN inference by performing transfer
+  learning from S2F models to single-cell multiome atlases.

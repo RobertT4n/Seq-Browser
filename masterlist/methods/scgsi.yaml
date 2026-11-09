@@ -1,0 +1,22 @@
+name: scGSI
+category: dry
+summary: Graph-guided self-supervised framework integrating paired single-cell multi-omics.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014773
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Chen X
+  last_author: Guo W
+  pmid: '42709872'
+  pmcid: PMC13577519
+  title: 'scGSI: Graph-guided self-supervised integration of paired single-cell multi-omics'
+links: {}
+added: '2026-11-08'
+evidence: To address these challenges, we present scGSI, a graph-guided self-supervised framework for paired single-cell multi-omics
+  integration.

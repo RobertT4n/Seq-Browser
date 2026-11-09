@@ -1,0 +1,20 @@
+name: NexuST
+category: dry
+summary: Hierarchical foundation model that alternates gene-level and cell-level spatial modelling, pretrained on 45.7 million
+  human cells.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.22.753590
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu H
+  last_author: Zhou H
+  title: 'NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics'
+links: {}
+added: '2026-11-08'
+evidence: Here we present NexuST, a hierarchical foundation model that repeatedly interleaves gene-level molecular modelling
+  with cell-level spatial modelling, allowing the two levels to refine one another during end-to-end pretraining.

@@ -1,0 +1,20 @@
+name: GWAS-LOCATE
+category: dry
+summary: Assigns GWAS loci to cell types and brain regions using variation in neuronal enhancer activity.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.18.752151
+  year: 2026
+  journal: bioRxiv
+  first_author: Ramcharan H
+  last_author: Corradin O
+  title: Variation in enhancer activity across brain regions defines neurological disease risk and shapes cellular pathology
+links: {}
+added: '2026-11-08'
+evidence: Finally, we present a new method, GWAS-LOCATE, that leverages variation in enhancer activity across the brain to
+  assign 23,494 GWAS loci to specific cell types and brain regions, including 9.8% linked to MSNs.

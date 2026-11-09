@@ -1,0 +1,22 @@
+name: JEEPERS
+category: dry
+summary: Computational framework that detects and corrects jagged-end-induced methylation errors in cfDNA sequencing data
+  while preserving duplex integrity.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03278-5
+  year: 2026
+  journal: Nat Methods
+  first_author: Wang R
+  last_author: Alizadeh AA
+  pmid: '42957789'
+  title: Enhanced cfDNA methylation profiling by detection and correction of jagged ends
+links: {}
+added: '2026-11-08'
+evidence: Here we present JEEPERS, a framework to detect and correct jagged-end-induced methylation errors while preserving
+  duplex integrity and native methylation patterns.

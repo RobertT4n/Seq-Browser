@@ -1,0 +1,24 @@
+name: scMAC
+category: dry
+summary: LLM-informed single-cell-guided framework that maps bulk TCR repertoires to T cell functional composition through
+  prototype-regularised alignment.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag586
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Qian X
+  last_author: Wang J
+  pmid: '42932841'
+  pmcid: PMC13704796
+  title: 'scMAC: large language model-enhanced single-cell functional priors for completing functional context in bulk T cell
+    receptor repertoires'
+links: {}
+added: '2026-11-08'
+evidence: We present scMAC, a single-cell-guided framework for functional context completion

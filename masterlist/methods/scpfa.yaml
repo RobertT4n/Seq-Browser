@@ -1,0 +1,21 @@
+name: scPFA
+full_name: single-cell phylogenetic factor analysis
+category: dry
+summary: Phylogenetic factor analysis that models single-cell expression programs evolving along lineage trees.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.21.753290
+  year: 2026
+  journal: bioRxiv
+  first_author: Staklinski SJ
+  last_author: Siepel A
+  title: Lineage-informed factor analysis reveals heritable programs of single-cell gene expression
+links: {}
+added: '2026-11-08'
+evidence: To capture this structure, we introduce scPFA, a single-cell phylogenetic factor analysis framework that represents
+  gene expression through a small set of latent factors that evolve along lineages under a phylogenetic prior, capturing correlated
+  structure hidden in present-day observations alone.

@@ -1,0 +1,19 @@
+name: flashscenic
+category: dry
+summary: GPU-batched SCENIC regulon inference for single-cell RNA-seq, with a benchmark of consensus aggregation strategies.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.761795
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhu H
+  last_author: Slonim DK
+  title: 'flashscenic: Accelerated GRN Analysis with RegDiffusion for Large-Scale Single-Cell Data'
+links: {}
+added: '2026-11-08'
+evidence: We present flashscenic, an end-to-end GPU-accelerated framework that resolves these bottlenecks and expands the
+  practical scope of single-cell regulatory genomics.

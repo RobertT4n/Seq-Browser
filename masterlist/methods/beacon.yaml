@@ -1,0 +1,21 @@
+name: BEACON
+category: dry
+summary: Demultiplexing method for droplet-based single-cell data that learns and removes the background count distribution
+  per cell; extended to CITE-seq protein tags.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.26.754667
+  year: 2026
+  journal: bioRxiv
+  first_author: Ji BW
+  last_author: Ji AL
+  title: Accurate and scalable demultiplexing of single-cell RNA sequencing using BEACON
+links: {}
+added: '2026-11-08'
+evidence: Here, we present BEACON, a novel sample demultiplexing method that efficiently learns the background count distribution
+  from data and removes it from individual cells, thereby improving classification accuracy.

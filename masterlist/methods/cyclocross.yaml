@@ -1,0 +1,20 @@
+name: CycloCross
+category: dry
+summary: CycleGAN-based adversarial method that translates scRNA-seq profiles between species without requiring one-to-one
+  ortholog mapping.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.24.754263
+  year: 2026
+  journal: bioRxiv
+  first_author: Hacquard O
+  last_author: Hiraoka Y
+  title: 'CycloCross: Adversarial single-cell RNA-seq data translation across species'
+links: {}
+added: '2026-11-08'
+evidence: To address these challenges, we introduce CycloCross, an adversarial method based on the CycleGAN architecture,
+  designed to translate scRNA-seq data between species without requiring a priori gene correspondences.

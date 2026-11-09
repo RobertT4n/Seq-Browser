@@ -1,0 +1,22 @@
+name: OTTER
+full_name: Orchestrated Transcriptomic, Tumor-xenograft (PDX/CDX), and Epigenomic Reporting Workflow
+category: dry
+summary: Compiled multi-omics workflow that removes murine host reads from xenograft sequencing, including a bisulfite-aware,
+  strand-aware deconvolution engine.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.24.761506
+  year: 2026
+  journal: bioRxiv
+  first_author: Zheng Y
+  last_author: Zhang F
+  title: 'OTTER: Orchestrated Transcriptomic, Tumor-xenograft (PDX/CDX), and Epigenomic Reporting Workflow'
+links: {}
+added: '2026-11-08'
+evidence: We present OTTER, an automated, compiled multi-omics workflow framework that decouples execution into static domain
+  operators, an immutable reference registry, and a native strand-aware edit-distance engine

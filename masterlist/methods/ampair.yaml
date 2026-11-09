@@ -1,0 +1,20 @@
+name: AmPair
+category: dry
+summary: Snakemake pipeline that designs and in silico validates species-level primer pairs for housekeeping-gene amplicon
+  metataxonomics.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.25.746527
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu X
+  last_author: Yang X
+  title: 'AmPair: automating housekeeping-gene primer design for species-level metataxonomics'
+links: {}
+added: '2026-11-08'
+evidence: Here we present AmPair, a Snakemake pipeline that, given a target genus and one or more candidate housekeeping genes,
+  designs and ranks primer pairs

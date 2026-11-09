@@ -1,0 +1,21 @@
+name: ctDNA-BERT
+category: dry
+summary: Transformer that scores individual bisulfite reads from joint CpG methylation, sequence context and fragment end
+  for cell-free tumour DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.761533
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang X
+  last_author: Zhang F
+  title: Xenograft supervision and joint methylation-fragment-end encoding define a reusable molecular scoring layer for cell-free
+    tumor DNA
+links: {}
+added: '2026-11-08'
+evidence: Here we present ctDNA-BERT, a Transformer that scores individual bisulfite reads without predefined differentially
+  methylated regions by jointly encoding CpG methylation state, nucleotide context and the fragment 3' end.

@@ -1,0 +1,24 @@
+name: STRIDE
+full_name: spatial topological representation of interaction distance evaluation
+category: dry
+summary: Graph-based mean-first-passage-time transform of chromatin contact matrices, with a depth-robust similarity metric
+  for comparing Hi-C and single-cell Hi-C libraries.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.78529
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Xu B
+  last_author: Li F
+  pmid: '42949804'
+  pmcid: PMC13715917
+  title: 'STRIDE: A Sequencing Depth Robust Metric for Sparse Chromosome Conformation Capture Data Comparison'
+links: {}
+added: '2026-11-08'
+evidence: Building on this representation, we developed STRIDE (spatial topological representation of interaction distance
+  evaluation), a library similarity metric that does not require dataset-specific parameter optimization.

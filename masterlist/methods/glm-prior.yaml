@@ -1,0 +1,22 @@
+name: GLM-Prior
+category: dry
+summary: Genomic language model fine-tuned to predict TF-target interactions from sequence, providing priors for GRN inference.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-77381-8
+  year: 2026
+  journal: Nat Commun
+  first_author: Skok Gibbs C
+  last_author: Cho K
+  pmid: '42791261'
+  pmcid: PMC13614953
+  title: 'GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference'
+links: {}
+added: '2026-11-08'
+evidence: We present GLM-Prior, a genomic language model fine-tuned to predict transcription factor-target gene interactions
+  from nucleotide sequence.

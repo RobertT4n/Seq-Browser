@@ -1,0 +1,19 @@
+name: LucaCell
+category: dry
+summary: Sequence-centric single-cell foundation model that embeds genes by mRNA sequence rather than fixed gene IDs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.08.750024
+  year: 2026
+  journal: bioRxiv
+  first_author: Sun Y
+  last_author: Wang Z
+  title: 'LucaCell: a sequence-centric foundation model for cross-species single-cell analysis'
+links: {}
+added: '2026-11-08'
+evidence: Here we present LucaCell, a sequence-centric foundation model that represents genes through pre-trained mRNA sequence
+  embeddings

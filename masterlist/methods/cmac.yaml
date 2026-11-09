@@ -1,0 +1,22 @@
+name: CMAC
+full_name: Cardiomyocyte Maturation Age Clock
+category: dry
+summary: Deep-learning transcriptional age clock for cardiomyocytes, built on a batch-invariant scVI latent space across 18
+  murine scRNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.19.752897
+  year: 2026
+  journal: bioRxiv
+  first_author: Quansah KK
+  last_author: Kwon C
+  title: 'CMAC: A deep learning framework for absolute cardiomyocyte transcriptional age estimation'
+links: {}
+added: '2026-11-08'
+evidence: Here, we developed CMAC (Cardiomyocyte Maturation Age Clock), integrating 18 murine single-cell RNA-sequencing datasets
+  spanning embryonic and postnatal timepoints, into a batch-invariant probabilistic atlas using single cell variational inference
+  (scVI) with a 100-dimensional latent representation.

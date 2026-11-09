@@ -1,0 +1,22 @@
+name: CauTrigger
+category: dry
+summary: Hierarchical deep latent variable model with do-calculus that identifies causal triggers and predicts perturbation
+  outcomes across regulatory layers from observational multi-omics data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03274-9
+  year: 2026
+  journal: Nat Methods
+  first_author: Zhang C
+  last_author: Chen L
+  pmid: '42918850'
+  title: 'CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition'
+links: {}
+added: '2026-11-08'
+evidence: Here we present CauTrigger, a hierarchical deep latent variable model that integrates do-calculus to identify potential
+  causal triggers and predict perturbation outcomes across multiple regulatory layers.

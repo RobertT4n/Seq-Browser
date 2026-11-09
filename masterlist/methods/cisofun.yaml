@@ -1,0 +1,21 @@
+name: cIsoFun
+category: dry
+summary: Multiplex heterogeneous network with pretrained ESM-2 and BERT features that predicts cell-type-specific isoform
+  functions from single-cell transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2026.3728504
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Gu T
+  last_author: Yu G
+  pmid: '42664103'
+  title: Cell Type-Specific Isoform Function Prediction by Multiplex Heterogeneous Network
+links: {}
+added: '2026-11-08'
+evidence: We present cIsoFun, a multi-modal fusion framework for cell-type-specific isoform function prediction from single-cell
+  transcriptomics data.

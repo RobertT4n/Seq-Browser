@@ -1,0 +1,22 @@
+name: XChrom
+category: dry
+summary: Deep-learning model that predicts genome-wide chromatin accessibility in unseen cells from DNA sequence and single-cell
+  transcriptome-derived cell identity.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.78456
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Miao Y
+  last_author: Wang Z
+  pmid: '42949763'
+  pmcid: PMC13715924
+  title: 'XChrom: A Cross-Cell Chromatin Accessibility Prediction Model Integrating Genomic Sequence and Cellular Context'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present XChrom, a deep learning framework for genome-wide cross-cell chromatin accessibility prediction
+  that integrates genomic sequence and single-cell transcriptomics-derived cell identity into a unified model.

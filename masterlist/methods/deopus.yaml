@@ -1,0 +1,22 @@
+name: DeOPUS
+full_name: deconvolution via optimized power-transformed unmixing with shrinkage
+category: dry
+summary: Reference-based deconvolution of bulk RNA-seq into cell-type proportions using hierarchical shrinkage and power transformation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag524
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Nguyen H
+  last_author: Nguyen T
+  pmid: '42799697'
+  pmcid: PMC13615545
+  title: 'DeOPUS: cellular deconvolution via optimized power-transformed unmixing with shrinkage'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present deconvolution via optimized power-transformed unmixing with shrinkage (DeOPUS), a reference-based
+  deconvolution method

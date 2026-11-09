@@ -1,0 +1,28 @@
+name: tATAC-see
+full_name: Targeted ATAC-see
+category: wet
+summary: Antibody-tethered Tn5 tagmentation combined with ATAC-see imaging, with salt-tuned tagmentation radius, to profile
+  chromatin around a chosen protein-occupied domain.
+readouts:
+- chromatin-accessibility
+resolution:
+- subcellular
+scope: targeted
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+- imaging-guided-selection
+variant_of:
+- atac-see
+reference:
+  doi: 10.1242/jcs.265012
+  year: 2026
+  journal: J Cell Sci
+  first_author: Kirkland NJ
+  last_author: Levine ZA
+  pmid: '42657785'
+  title: Targeted ATAC-see - a visual assay for target-specific chromatin profiling
+links: {}
+added: '2026-11-08'
+evidence: By integrating the in situ visualization of ATAC-see with antibody-tethered tagmentation, tATAC-see captures chromatin
+  states at defined protein-occupied domains with the simplicity of standard immunofluorescence.

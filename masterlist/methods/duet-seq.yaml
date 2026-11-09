@@ -1,0 +1,28 @@
+name: DUET-seq
+category: wet
+summary: Open-source droplet platform that co-profiles chromatin accessibility and RNA from the same nucleus, using dissolvable
+  dual-linker hydrogel beads and one-step intra-droplet RT-PCR.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- droplet-microfluidics
+reference:
+  doi: 10.1002/advs.77986
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Cheng D
+  last_author: Zhao L
+  pmid: '42801560'
+  pmcid: PMC13616282
+  title: 'DUET-seq: An Open-Source Droplet Platform for High-Fidelity Joint Chromatin and Transcriptome Profiling Reveals
+    Temporal Regulatory Decoupling in Single Cells'
+links: {}
+added: '2026-11-08'
+evidence: Here we present DUET-seq, an open-source droplet microfluidic platform for joint profiling of chromatin accessibility
+  and gene expression from the same nucleus.

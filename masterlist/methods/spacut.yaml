@@ -1,0 +1,22 @@
+name: SpaCut
+category: dry
+summary: Deep-learning cell segmentation that fuses transcript-derived attention with nuclei-guided morphology for subcellular
+  spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.78423
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Li Y
+  last_author: Min W
+  pmid: '42958707'
+  pmcid: PMC13720276
+  title: 'SpaCut: Transcript-Aware Morphology Fusion for Robust Cell Segmentation in Subcellular Spatial Transcriptomics'
+links: {}
+added: '2026-11-08'
+evidence: we propose SpaCut, a unified deep learning framework designed to effectively integrate transcriptomic feature learning
+  with dynamic morphological guidance.

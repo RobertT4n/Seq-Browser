@@ -1,0 +1,21 @@
+name: MeRN
+full_name: Metabolic Representation Net
+category: dry
+summary: Graph-guided variational autoencoder that learns single-cell metabolic states and data-driven pathways from transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.17.751504
+  year: 2026
+  journal: bioRxiv
+  first_author: Lewinsohn DP
+  last_author: Wagner A
+  title: Extracting interpretable single-cell metabolic states with graph-guided representation learning
+links: {}
+added: '2026-11-08'
+evidence: We present Metabolic Representation Net (MeRN), a graph-guided variational autoencoder that leverages prior metabolic
+  knowledge as a topology graph to learn latent representations of metabolic state and reaction activity from single-cell
+  transcriptomes.

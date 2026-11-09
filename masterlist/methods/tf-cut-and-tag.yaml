@@ -1,0 +1,26 @@
+name: TF-CUT&Tag
+full_name: Transcription factor CUT&Tag
+category: wet
+summary: CUT&Tag variant using engineered Tn5 (K160A or K249A) with attenuated DNA-binding, improving recovery of transcription-factor
+  binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.64898/2026.10.27.762201
+  year: 2026
+  journal: bioRxiv
+  first_author: Piper L
+  last_author: Janssens DH
+  title: Engineered Tn5 Variants Enhance CUT&Tag Fidelity for Transcription Factors
+links: {}
+added: '2026-11-08'
+evidence: By comparing the K160A and K249A variants, this TF-CUT&Tag assay provides a physical readout of the local chromatin
+  environment at TF binding sites.

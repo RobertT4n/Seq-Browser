@@ -1,0 +1,22 @@
+name: RECON
+category: dry
+summary: Two-stage deep learning framework that selects a representative ROI from H&E images and reconstructs single-cell
+  transcriptomic or proteomic profiles across the slide.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.25.747122
+  year: 2026
+  journal: bioRxiv
+  first_author: Yang X
+  last_author: Wan G
+  title: RECON infers regions of interest from H&E images and reconstructs whole-slide molecular profiles at single-cell resolution
+links: {}
+added: '2026-11-08'
+evidence: Here we present RECON, a two-stage framework that performs ROI inference and whole-slide molecular reconstruction
+  at single-cell resolution

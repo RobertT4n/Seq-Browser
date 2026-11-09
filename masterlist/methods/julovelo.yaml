@@ -1,0 +1,21 @@
+name: JuloVelo
+category: dry
+summary: Deep-learning RNA velocity model that initialises kinetics from pre-classified gene kinetics patterns and supports
+  multiome promoter accessibility.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.24.761531
+  year: 2026
+  journal: bioRxiv
+  first_author: Tung K
+  last_author: Huang H
+  title: Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo
+links: {}
+added: '2026-11-08'
+evidence: Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to
+  initialize neural network training dramatically improves RNA velocity model performance.

@@ -1,0 +1,19 @@
+name: celltypeEnrich
+category: dry
+summary: Consensus hypergeometric enrichment tool for annotating scRNA-seq cluster cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.15.751735
+  year: 2026
+  journal: bioRxiv
+  first_author: Rutledge S
+  last_author: Tuteja G
+  title: 'celltypeEnrich: a consensus-based scRNA-seq cluster annotation tool'
+links: {}
+added: '2026-11-08'
+evidence: Results We developed celltypeEnrich, a cluster-level annotation tool that uses a hypergeometric test to identify
+  enrichment of cell-type-specific genes from input gene lists.

@@ -1,0 +1,22 @@
+name: DePass
+category: dry
+summary: Graph-learning framework that integrates paired single-cell and spatial multi-omics data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41556-026-02067-8
+  year: 2026
+  journal: Nat Cell Biol
+  first_author: Li W
+  last_author: Zhang H
+  pmid: '42786276'
+  title: The dual-enhanced graph learning framework DePass allows paired data integration in single-cell and spatial multiomics
+links: {}
+added: '2026-11-08'
+evidence: Here we present DePass, a scalable graph learning framework for paired data integration in both single-cell and
+  spatial multi-omics.

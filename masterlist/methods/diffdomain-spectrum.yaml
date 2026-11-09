@@ -1,0 +1,19 @@
+name: DiffDomain-Spectrum
+category: dry
+summary: Spectral statistical test for TADs reorganised between conditions, applied directly to aggregated sparse scHi-C maps.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.15.751728
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhu J
+  last_author: Tian D
+  title: DiffDomain-Spectrum identifies structurally reorganized TADs from sparse aggregated single-cell Hi-C contact maps
+links: {}
+added: '2026-11-08'
+evidence: Here we present DiffDomain-Spectrum, a spectral statistical framework for identifying reorganized TADs between conditions
+  or cell types from aggregated raw scHi-C contact maps

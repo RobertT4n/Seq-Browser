@@ -1,0 +1,30 @@
+name: PEP-seq
+full_name: Prime editing perturb-seq
+category: wet
+summary: Pooled prime-editing screen read out by single-cell transcriptomics, linking programmed variants (eQTLs, premature
+  stop codons) to expression states.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+perturbation:
+- prime-editing
+variant_of:
+- perturb-seq
+builds_on:
+- pooled-prime-editing
+partition_unknown: not stated in the abstract
+  text
+reference:
+  doi: 10.64898/2026.10.28.762453
+  year: 2026
+  journal: bioRxiv
+  first_author: De Jonghe J
+  last_author: Taylor-King JP
+  title: Scalable variant-to-function screens using prime editing perturb-seq
+links: {}
+added: '2026-11-08'
+evidence: Here, we introduce prime editing perturb-seq (PEP-seq), which links programmed mutations to transcriptomic states.

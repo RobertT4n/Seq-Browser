@@ -1,0 +1,21 @@
+name: Subtypist
+category: dry
+summary: Data-driven multiscale iterative algorithm that identifies new cell subtypes in scRNA-seq without reference labels.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag529
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Yao Y
+  last_author: Fan X
+  pmid: '42803632'
+  pmcid: PMC13617580
+  title: Data-driven identification of cell subtypes for single-cell transcriptomic data with Subtypist
+links: {}
+added: '2026-11-08'
+evidence: we propose Subtypist, a fully data-driven multiscale iterative algorithm for cell subtype identification in scRNA-seq
+  data

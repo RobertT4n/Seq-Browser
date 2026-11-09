@@ -1,0 +1,20 @@
+name: PhaSoMix
+category: dry
+summary: Assigns somatic mutations to maternal or paternal haplotypes in admixed cancer genomes using haplotype and ancestry
+  phasing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.02.748867
+  year: 2026
+  journal: bioRxiv
+  first_author: Lefèbvre M
+  last_author: Tarabichi M
+  title: Parent-of-origin phasing of somatic mutations shows equal mutation burden between parental genomes in human cancers
+links: {}
+added: '2026-11-08'
+evidence: Here we present PhaSoMix, a framework exploiting the genetic differentiation between parental haplotypes in admixed
+  cancer patients

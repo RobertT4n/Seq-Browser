@@ -1,0 +1,31 @@
+name: dscNanoATAC
+full_name: droplet-based single-cell Nanopore ATAC-seq
+category: wet
+summary: Droplet-based single-cell long-read (Nanopore) ATAC-seq profiling chromatin accessibility in thousands of cells.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+- droplet-microfluidics
+builds_on:
+- atac-seq
+reference:
+  doi: 10.1038/s41421-026-00928-y
+  year: 2026
+  journal: Cell Discov
+  first_author: Lu J
+  last_author: Li W
+  pmid: '42934226'
+  pmcid: PMC13710847
+  title: A droplet-based long-read single-cell epigenome sequencing method for the high-throughput profiling of multidimensional
+    regulatory elements within individual cells
+links: {}
+added: '2026-11-08'
+evidence: To address this limitation, we developed droplet-based methods for the single-cell profiling of chromatin accessibility
+  (droplet-based single-cell Nanopore ATAC-seq, dscNanoATAC) and histone modifications (droplet-based single-cell NanoCUT&Tag, dscNanoCUT)
+  by combining a commercial microfluidic device and long-read sequencing platform, achieving a throughput of ~5000 cells in
+  a single experiment and significantly reducing the time and costs compared with previous techniques.

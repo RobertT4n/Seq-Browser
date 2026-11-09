@@ -1,0 +1,22 @@
+name: scFLAME
+full_name: single-cell Factor Latent Analysis with Mixture Embeddings
+category: dry
+summary: Probabilistic negative-binomial factor model that jointly performs embedding, clustering, marker-gene identification
+  and hierarchy discovery for scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.04.749363
+  year: 2026
+  journal: bioRxiv
+  first_author: Rao J
+  last_author: Kirk PD
+  title: 'scFLAME: a unified generative model for interpretable clustering, hierarchical structure discovery and marker-gene
+    identification in single-cell RNA-seq data'
+links: {}
+added: '2026-11-08'
+evidence: Here we introduce scFLAME (single-cell Factor Latent Analysis with Mixture Embeddings), a probabilistic generative
+  model that unifies these tasks

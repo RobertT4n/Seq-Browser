@@ -1,0 +1,22 @@
+name: CardioChrom
+category: dry
+summary: Cardiac-specific framework that reconstructs virtual chromatin accessibility, H3K27ac and H3K27me3 profiles from
+  single-nucleus RNA data.
+readouts:
+- chromatin-accessibility
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.18.752723
+  year: 2026
+  journal: bioRxiv
+  first_author: Huang H
+  last_author: Tan Y
+  title: CardioChrom Reconstructs the Human Cardiac Virtual Epigenome from Single-Nucleus Transcriptomes
+links: {}
+added: '2026-11-08'
+evidence: We developed CardioChrom, a cardiac-specialized framework that reconstructs chromatin accessibility, histone H3
+  lysine 27 acetylation (H3K27ac), and histone H3 lysine 27 trimethylation (H3K27me3) from single-nucleus RNA profiles.

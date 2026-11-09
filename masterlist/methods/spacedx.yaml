@@ -1,0 +1,20 @@
+name: SpaceDX
+category: dry
+summary: Attention-based gene-specific spatial weighting that jointly tests subject-level differential expression and localises
+  where it occurs.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.758685
+  year: 2026
+  journal: bioRxiv
+  first_author: Stotzem N
+  last_author: Casale FP
+  title: Joint localization and testing reveals spatial context of differential expression
+links: {}
+added: '2026-11-08'
+evidence: Here we present SpaceDX, a framework that uses gene-specific attention-based spatial weighting to jointly test differential
+  expression and localize the spatial expression patterns contributing to these associations.

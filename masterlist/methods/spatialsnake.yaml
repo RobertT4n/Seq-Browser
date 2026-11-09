@@ -1,0 +1,20 @@
+name: Spatialsnake
+category: dry
+summary: Snakemake and SpatialData workflow for re-analysing processed Visium, Visium HD, Stereo-seq, Xenium and MERFISH outputs,
+  with population selection and clustering modules.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.27.762082
+  year: 2026
+  journal: bioRxiv
+  first_author: Lin Z
+  last_author: Xu S
+  title: 'Spatialsnake: a flexible workflow for spatial transcriptomics analysis across platforms'
+links: {}
+added: '2026-11-08'
+evidence: We developed Spatialsnake, a flexible workflow built on SpatialData and Snakemake for analysing processed outputs
+  from Visium, Visium HD, Stereo-seq, Xenium and MERFISH.

@@ -1,0 +1,22 @@
+name: TS-SNAD
+full_name: tumor-specific splicing neoantigen detection
+category: dry
+summary: Computational framework that predicts tumour-specific neoantigens from novel exon-exon junctions in long-read transcript
+  models.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281467.125
+  year: 2026
+  journal: Genome Res
+  first_author: Shuai Y
+  last_author: Wang X
+  pmid: '42680560'
+  pmcid: PMC13534237
+  title: Long-read sequencing reveals widespread novel splicing and neojunction-derived neoantigens in nasopharyngeal carcinoma
+links: {}
+added: '2026-11-08'
+evidence: we develop a computational framework, tumor-specific splicing neoantigen detection (TS-SNAD)

@@ -1,0 +1,25 @@
+name: ATLAS
+full_name: atlas-scale transcriptome localization using aggregate signatures
+category: wet
+summary: Encodes single-cell-RNA-seq-derived signatures in situ with tens of thousands of oligonucleotide probes and decodes
+  them to map cell types and imputed transcriptomes across sections.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s41592-026-03289-2
+  year: 2026
+  journal: Nat Methods
+  first_author: Hemminger Z
+  last_author: Wollman R
+  pmid: '42963409'
+  title: Spatial single-cell mapping of transcriptional differences across genetic backgrounds in mouse brains
+links: {}
+added: '2026-11-08'
+evidence: Here we introduce atlas-scale transcriptome localization using aggregate signatures (ATLAS), a scalable tissue mapping
+  method that learns transcriptional signatures from single-cell RNA sequencing data, encodes them in situ with tens of thousands
+  of oligonucleotide probes and decodes them to infer cell types and imputed transcriptomes.

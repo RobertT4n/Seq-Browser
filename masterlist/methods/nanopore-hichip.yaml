@@ -1,0 +1,25 @@
+name: Nanopore-HiChIP
+category: wet
+summary: Long-read HiChIP that maps high-order enhancer hubs on each haplotype.
+readouts:
+- 3d-genome
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+- long-read-sequencing
+variant_of:
+- hichip
+reference:
+  doi: 10.64898/2026.09.14.750771
+  year: 2026
+  journal: bioRxiv
+  first_author: Tan J
+  last_author: Sun Y
+  title: High-order enhancer hubs buffer allelic regulatory variation through kinetic compensation
+links: {}
+added: '2026-11-08'
+evidence: We developed Nanopore-HiChIP, a long-read method that maps high-order enhancer hubs on each haplotype.

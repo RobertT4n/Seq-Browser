@@ -1,0 +1,22 @@
+name: scDRP
+category: dry
+summary: Disentangled-representation variational autoencoder with optimal transport for predicting single-cell perturbation
+  responses and individual treatment effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag482
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Sun J
+  last_author: Zhang K
+  pmid: '42932844'
+  pmcid: PMC13704780
+  title: 'scDRP: disentangled representation learning for predicting single-cell responses to perturbations and estimating
+    individual treatment effects'
+links: {}
+added: '2026-11-08'
+evidence: We develop scDRP, a generative framework that leverages disentangled representation learning

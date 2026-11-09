@@ -1,0 +1,21 @@
+name: stFormer
+category: dry
+summary: Transformer foundation model for spatial transcriptomics with a biased cross-attention step that adds spatial ligand
+  genes and lets it learn at single-cell resolution on low-resolution Visium data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101612
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Cao S
+  last_author: Yuan Y
+  pmid: '42815472'
+  title: stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics
+links: {}
+added: '2026-11-08'
+evidence: We introduce stFormer, a transformer model tailored for ST data, which employs the cross-attention module to incorporate
+  spatial ligand genes.

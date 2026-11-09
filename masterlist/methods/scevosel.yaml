@@ -1,0 +1,23 @@
+name: scEvoSel
+category: dry
+summary: Framework that maps population-level selection scores onto single-cell transcriptomic atlases to identify selection-relevant
+  cell types.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msag271
+  year: 2026
+  journal: Mol Biol Evol
+  first_author: Zhao S
+  last_author: Guo Q
+  pmid: '42948897'
+  title: scEvoSel maps evolutionary selection signals onto single-cell transcriptomic atlases to reveal selection-relevant
+    cellular contexts
+links: {}
+added: '2026-11-08'
+evidence: To address this issue, we developed scEvoSel, an analytical framework that integrates population-level selection
+  signals with single-cell RNA sequencing data to identify selection-relevant cell types.

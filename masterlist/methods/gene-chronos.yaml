@@ -1,0 +1,22 @@
+name: Gene-Chronos
+category: dry
+summary: Frozen Geneformer backbone with learnable temporal prompt tokens and a contrastive objective for developmental time
+  inference from single-cell and spatial transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag469
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Liu Y
+  last_author: Tian T
+  pmid: '42696754'
+  pmcid: PMC13544629
+  title: 'Gene-Chronos: parameter-efficient developmental time inference using a pretrained single-cell foundation model'
+links: {}
+added: '2026-11-08'
+evidence: We present Gene-Chronos, a parameter-efficient framework for developmental time inference

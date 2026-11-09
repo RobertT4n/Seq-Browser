@@ -1,0 +1,20 @@
+name: AnnoAudit
+category: dry
+summary: Marker-based protocol with four convergent checks and an ambient-aware step that audits single-cell atlas annotations
+  before re-analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.03.749125
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang L
+  last_author: Gao R
+  title: 'AnnoAudit: a marker-based protocol for auditing single-cell atlas annotations, with a self-audit case'
+links: {}
+added: '2026-11-08'
+evidence: We present AnnoAudit, a marker-based protocol with four convergent checks and an ambient-aware discrimination step
+  (D1) that audits labels before re-analysis.

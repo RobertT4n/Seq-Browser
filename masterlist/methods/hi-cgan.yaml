@@ -1,0 +1,20 @@
+name: Hi-cGAN
+full_name: Hi-C conditional generative adversarial network
+category: dry
+summary: Conditional GAN predicting whole-genome Hi-C interaction matrices from chromatin-factor occupancy tracks.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.30.748103
+  year: 2026
+  journal: bioRxiv
+  first_author: Krauth R
+  last_author: Wolff J
+  title: 'Hi-cGAN: Prediction of Hi-C interaction matrices with conditional generative adversarial networks'
+links: {}
+added: '2026-11-08'
+evidence: Hi-cGAN, a novel approach based on conditional generative adversarial networks, offers a computational alternative
+  to extensive wet-lab work by predicting Hi-C interaction matrices.

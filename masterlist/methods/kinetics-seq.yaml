@@ -1,0 +1,30 @@
+name: Kinetics-seq
+category: wet
+summary: Time-resolved scRNA-seq that combines in vivo metabolic labelling with single-cell transcriptomes to measure RNA
+  synthesis and degradation.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1073/pnas.2534052123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Zhang S
+  last_author: Yang C
+  pmid: '42771508'
+  title: Kinetics-seq enables comprehensive profiling of single-cell RNA kinetics in vivo to reveal dynamic tumor heterogeneity
+links: {}
+added: '2026-11-08'
+partition_unknown: not stated in the abstract
+evidence: Here, we present Kinetics-seq, a time-resolved single-cell method that integrates an in vivo metabolic labeling
+  strategy with scRNA-seq to construct a comprehensive transcriptional kinetic landscape within tissues.

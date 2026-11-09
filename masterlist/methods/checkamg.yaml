@@ -1,0 +1,20 @@
+name: CheckAMG
+category: dry
+summary: Auxiliary viral gene caller that pairs curated annotation-based scoring with a finetuned genome-language model for
+  annotation-independent discovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.23.753886
+  year: 2026
+  journal: bioRxiv
+  first_author: Kosmopoulos JC
+  last_author: Anantharaman K
+  title: 'CheckAMG: Accurate Identification of Auxiliary Viral Genes with Genome- Language Models'
+links: {}
+added: '2026-11-08'
+evidence: Here we present CheckAMG, which pairs annotation-based AVG prediction, curated with a per-gene viral scoring system
+  and ontological mapping of metabolic function, with a finetuned genome-language model for annotation-independent discovery.

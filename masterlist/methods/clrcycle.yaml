@@ -1,0 +1,21 @@
+name: clrcycle
+category: dry
+summary: Circular dimensionality reduction for cyclic compositional data that applies a centred log-ratio transform and learns
+  a Fourier-mode feature ordering.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.22.761053
+  year: 2026
+  journal: bioRxiv
+  first_author: Swarna NP
+  last_author: Pachter L
+  title: Dimensionality Reduction for Cyclic Compositional Data
+links: {}
+added: '2026-11-08'
+evidence: We introduce clrcycle, which applies a centered log-ratio transformation, learns a cyclic feature ordering by maximizing
+  variance captured by the first Fourier mode, and projects samples onto the corresponding cosine and sine coordinates.

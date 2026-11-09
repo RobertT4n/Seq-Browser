@@ -1,0 +1,25 @@
+name: GISMO
+full_name: Gene Identity Score of Mammalian Orthologs
+aliases:
+- GISMO-mis
+category: dry
+summary: Interspecies gene-constraint metrics (gene loss and missense constraint) computed across 462 mammalian genomes to
+  estimate gene essentiality.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02783-9
+  year: 2026
+  journal: Nat Genet
+  first_author: Liao C
+  last_author: Neale BM
+  pmid: '42901987'
+  title: The landscape of gene loss and missense variation across the mammalian tree informs on gene essentiality
+links: {}
+added: '2026-11-08'
+evidence: 'Here we developed two interspecies constraint metrics across 462 mammalian species: Gene Identity Score of Mammalian
+  Orthologs (GISMO), which quantifies gene loss weighted by evolutionary distance to humans, and GISMO-mis, which measures
+  missense constraint using the ratio of missense to synonymous variation across mammals.'

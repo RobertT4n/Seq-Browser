@@ -1,0 +1,21 @@
+name: CoexpressDeconvolve
+category: dry
+summary: Reference-free deconvolution of spot-based spatial transcriptomics into integer cell counts and cell-type expression
+  via topic modelling on a co-expression manifold.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2026.116824
+  year: 2026
+  journal: iScience
+  first_author: Perik-Zavodskaia O
+  last_author: Sennikov S
+  pmid: '42733532'
+  pmcid: PMC13571154
+  title: CoexpressDeconvolve enables reference-free single-cell-resolution deconvolution from spot-based spatial transcriptomics
+links: {}
+added: '2026-11-08'
+evidence: Here we present CoexpressDeconvolve, a reference-free framework

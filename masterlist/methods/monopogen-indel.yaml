@@ -1,0 +1,20 @@
+name: Monopogen-Indel
+category: dry
+summary: Haplotype-aware germline and somatic indel caller for single-cell sequencing data.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.02.748725
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang Z
+  last_author: Dou J
+  title: Single-Cell Indel Detection Enhances Genetic Ancestry and Cellular Lineage Analysis
+links: {}
+added: '2026-11-08'
+evidence: Here, we present Monopogen-Indel, a bioinformatics framework for accurate germline and somatic Indel detection

@@ -1,0 +1,20 @@
+name: fastACCORD
+category: dry
+summary: Scalable partial-correlation estimator for ultrahigh-dimensional multi-omic networks, implemented in PyTorch for
+  CPU and GPU.
+readouts:
+- rna
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.20.753046
+  year: 2026
+  journal: bioRxiv
+  first_author: Lee S
+  last_author: Choi H
+  title: fastACCORD enables ultrahigh-dimensional partial correlation modeling for multi-omic data integration
+links: {}
+added: '2026-11-08'
+evidence: Here we present fastACCORD, a scalable computational framework for ultrahigh-dimensional partial correlation modeling.

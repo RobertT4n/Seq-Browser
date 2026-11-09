@@ -1,0 +1,22 @@
+name: PeakATail
+category: dry
+summary: Precision-first poly(A)-site caller and calibrated differential alternative polyadenylation test for single-cell
+  RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.18.752791
+  year: 2026
+  journal: bioRxiv
+  first_author: Tabat AA
+  last_author: Kaymaz Y
+  title: 'PeakATail: precision-first poly(A)-site calling and calibrated alternative polyadenylation analysis in single-cell
+    RNA-seq'
+links: {}
+added: '2026-11-08'
+evidence: Here we introduce our tool PeakATail, which calls polyadenylation sites from reads still carrying a piece of the
+  tail, ranks them by how many distinct molecules carry that evidence, discards sites where adenosine-rich genomic sequence
+  mimics a tail, and pairs them with a differential test whose error rate is measured, not assumed.

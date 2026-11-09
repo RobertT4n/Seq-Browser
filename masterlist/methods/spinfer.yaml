@@ -1,0 +1,21 @@
+name: SPInfer
+full_name: spatial proteomic inference
+category: dry
+summary: Segmentation and spatial-proteomic inference workflow that adapts Cellpose-SAM for human brain immunofluorescence
+  images.
+readouts:
+- protein
+resolution:
+- spatial
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.22.761199
+  year: 2026
+  journal: bioRxiv
+  first_author: You L
+  last_author: Wang J
+  title: Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale
+links: {}
+added: '2026-11-08'
+evidence: Here, we introduce SPInfer, a workflow for spatial proteomic inference developed using 5,832 manually annotated
+  cell bodies from 120 immunofluorescence images of the human prefrontal cortex.

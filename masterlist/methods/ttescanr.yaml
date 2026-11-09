@@ -1,0 +1,22 @@
+name: tTEscanR
+category: dry
+summary: R package estimating translation efficiency from codon demand and tRNA anticodon availability using transcript and
+  accessibility count matrices.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.08.750101
+  year: 2026
+  journal: bioRxiv
+  first_author: Varas-Sánchez A
+  last_author: Kutter C
+  title: 'tTEscanR: A user-friendly integrative R package for quantifying and visualizing translation efficiency from sequencing
+    data in diverse biological systems'
+links: {}
+added: '2026-11-08'
+evidence: Here, we present tTEscanR, an R package designed to investigate this translational interface.

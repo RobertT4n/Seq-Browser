@@ -1,0 +1,21 @@
+name: ProxiNet
+category: dry
+summary: Spatially supervised framework that learns transcriptomic signatures of cell-cell proximity from spatial reference
+  data and transfers them to dissociated scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.25.754372
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhan Y
+  last_author: Sun N
+  title: ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes
+links: {}
+added: '2026-11-08'
+evidence: Here, we developed ProxiNet, a spatially supervised framework that learns transcriptomic signatures of pairwise
+  cellular proximity from spatial reference datasets and transfers these relationships to dissociated single-cell transcriptomes.

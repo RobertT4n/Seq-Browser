@@ -1,0 +1,22 @@
+name: HisTrader
+category: dry
+summary: Computational method that finds nucleosome-free regions within ChIP-based histone-modification peaks.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101607
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Kirbizakis E
+  last_author: Bailey SD
+  pmid: '42759522'
+  title: HisTrader identifies nucleosome-free regions within ChIP-based profiling of histone post-translational modifications
+links: {}
+added: '2026-11-08'
+evidence: We present HisTrader, a computational approach that identifies nucleosome-free regions (NFRs) within ChIP-based
+  profiling of histone modification peaks, which reduces the target sequence length for motif discovery and genetic variant
+  prioritization.

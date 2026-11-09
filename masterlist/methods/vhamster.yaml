@@ -1,0 +1,21 @@
+name: VHAMSTeR
+full_name: Virus Host Assignment Model using Sequence Transformers and Reading-frames
+category: dry
+summary: Sequence-transformer classifier that predicts the host category of viral genome sequences from fine-tuned genomic
+  language model embeddings plus genome-architecture and protein-homology features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.23.761443
+  year: 2026
+  journal: bioRxiv
+  first_author: Grigson SR
+  last_author: Roux S
+  title: Viral host assignment across the tree of life with VHAMSTeR
+links: {}
+added: '2026-11-08'
+evidence: Here we present VHAMSTeR (Virus Host Assignment Model using Sequence Transformers and Reading-frames), a classification
+  framework that predicts the host of viral sequences across five categories

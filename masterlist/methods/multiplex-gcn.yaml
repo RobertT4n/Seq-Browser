@@ -1,0 +1,21 @@
+name: Multiplex-GCN
+category: dry
+summary: Multi-layer graph convolutional network that integrates deconvolved cell proportions with bulk multi-omics to define
+  tumour-microenvironment subtypes of pancreatic cancer.
+readouts:
+- rna
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.22.761275
+  year: 2026
+  journal: bioRxiv
+  first_author: Bose S
+  last_author: Ahamed SI
+  title: Multiplex-GCN Predicts Clinically Actionable Tumor Microenvironment Subtypes in Pancreatic Cancer
+links: {}
+added: '2026-11-08'
+evidence: To address this, we developed a multi-layered Graph Convolutional Network (GCN) to identify TME-guided PDAC subtypes.

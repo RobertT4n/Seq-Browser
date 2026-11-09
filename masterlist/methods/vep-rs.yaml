@@ -1,0 +1,19 @@
+name: vep-rs
+category: dry
+summary: Rust reimplementation of Ensembl VEP release 115.2 for high-throughput variant consequence annotation, audited term
+  by term against VEP.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.22.753614
+  year: 2026
+  journal: bioRxiv
+  first_author: Porter M
+  last_author: Borkowski R
+  title: 'vep-rs: high-throughput Rust variant annotation with population-scale concordance to Ensembl VEP'
+links: {}
+added: '2026-11-08'
+evidence: We present vep-rs, a Rust reimplementation of Ensembl VEP release 115.2

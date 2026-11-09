@@ -1,0 +1,21 @@
+name: Mamba-GRN
+category: dry
+summary: Mamba-inspired gene embedding and edge-decoding model for held-out gene regulatory edge prediction from expression
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109369
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Wu H
+  last_author: Liu X
+  pmid: '42743800'
+  title: 'Mamba-GRN: A Mamba-inspired framework for no-overlap held-out regulatory edge prediction'
+links: {}
+added: '2026-11-08'
+evidence: We present Mamba-GRN, a compact Mamba-inspired gene representation and edge-decoding framework

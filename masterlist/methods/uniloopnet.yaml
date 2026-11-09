@@ -1,0 +1,24 @@
+name: UniLoopNet
+category: dry
+summary: Multi-task deep-learning framework that predicts chromatin interactions (enhancer-promoter, enhancer-enhancer, CTCF
+  loops, stripes) from DNA sequence.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014911
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Wang S
+  last_author: Shen Y
+  pmid: '42945383'
+  pmcid: PMC13730424
+  title: An extensible deep learning framework for multi-type chromatin interaction prediction through hierarchical adaptation
+    strategies
+links: {}
+added: '2026-11-08'
+evidence: Here, we present UniLoopNet, a multi-task deep learning framework that predicts multiple types of chromatin interactions
+  including enhancer-promoter interactions, enhancer-enhancer interactions, CTCF-mediated loops, and stripe-associated interactions
+  from DNA sequences.

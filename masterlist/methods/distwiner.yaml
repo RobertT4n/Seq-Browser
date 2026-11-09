@@ -1,0 +1,21 @@
+name: DisTwiner
+category: dry
+summary: Subgroup-aware elastic-net logistic regression that weights features by subgroup-specific gene-gene correlation patterns
+  for scRNA-seq classification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.25.761682
+  year: 2026
+  journal: bioRxiv
+  first_author: Costa TM
+  last_author: Vinga S
+  title: Regularized logistic regression-based gene selection for functional analysis of heterogeneous scRNA-seq macrophage
+    populations in muscle aging and regeneration
+links: {}
+added: '2026-11-08'
+evidence: 'Results: We introduce DisTwiner, a subgroup-aware extension of the twiner correlation-based regularization framework
+  for binary classification problems with multiple annotated groups.'

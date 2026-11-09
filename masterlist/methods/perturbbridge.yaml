@@ -1,0 +1,20 @@
+name: PerturbBridge
+category: dry
+summary: Conditional latent Schrodinger bridge model that predicts population-level single-cell transcriptional responses
+  to unseen perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.24.754259
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu Z
+  last_author: Liu X
+  title: 'PerturbBridge: Conditional Latent Schrödinger Bridge for Single-Cell Perturbation Response Prediction'
+links: {}
+added: '2026-11-08'
+evidence: We propose PerturbBridge, a conditional latent Schrodinger Bridge framework that reformulates stochastic population
+  transport over high-dimensional, sparse gene-expression profiles as bridge learning in a compact cell latent space.

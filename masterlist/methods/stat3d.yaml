@@ -1,0 +1,19 @@
+name: STAT3D
+category: dry
+summary: Xenium analysis pipeline with image-tailored 3D cell segmentation that uses the sharpest z-planes to map transcripts
+  to single cells.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag937
+  year: 2026
+  journal: Nucleic Acids Res
+  pmcid: PMC13646825
+  title: STAT3D as a new image-tailored Xenium-based spatial transcriptomics tool for accurately dissecting the tumor microenvironment
+links: {}
+added: '2026-11-08'
+evidence: we introduce STAT3D, a transparent, time-efficient, and customizable pipeline for analyzing whole-tumor biopsy slides

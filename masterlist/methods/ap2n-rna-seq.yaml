@@ -1,0 +1,23 @@
+name: Ap2N-RNA-Seq
+category: wet
+summary: Sequencing method that uses truncated T4 RNA ligase 2 to capture and map Ap2N-capped RNAs.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2608168123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Vopalensky P
+  last_author: Cahova H
+  pmid: '42743287'
+  pmcid: PMC13598233
+  title: Detection and sequencing of Ap&lt;sub&gt;2&lt;/sub&gt;N-capped RNAs in human cells
+links: {}
+added: '2026-11-08'
+evidence: we have developed a sequencing method (Ap2N-RNA Seq) by leveraging the ability of truncated T4 RNA Ligase 2 to selectively
+  ligate Ap2N-capped RNAs to an RNA adaptor

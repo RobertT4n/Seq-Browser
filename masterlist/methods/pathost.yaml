@@ -1,0 +1,21 @@
+name: PatHoST
+category: dry
+summary: Weakly supervised model that learns host transcriptional programs predictive of pathogen presence and reconstructs
+  pathogen spatial distributions.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.759336
+  year: 2026
+  journal: bioRxiv
+  first_author: Di Marco F
+  last_author: de Pretis S
+  title: 'PatHoST: weakly supervised reconstruction of pathogen spatial distributions from host transcriptomes'
+links: {}
+added: '2026-11-08'
+evidence: We developed PatHoST, a weakly supervised computational framework that uses pathogen-derived information to generate
+  silver-standard labels and learns host transcriptional programs predictive of pathogen presence.

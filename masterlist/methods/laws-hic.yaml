@@ -1,0 +1,23 @@
+name: LAWS-HiC
+full_name: Locally Adaptive Weighting and Screening
+category: dry
+summary: Locally adaptive weighting approach that adjusts Hi-C peak p-values using TAD-level spatial dependence.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/mps9050135
+  year: 2026
+  journal: Methods Protoc
+  first_author: Zhou L
+  last_author: Li Y
+  pmid: '42776688'
+  pmcid: PMC13600098
+  title: 'LAWS-HiC: A Locally Adaptive Weighting and Screening (LAWS) Approach to Improve Detection of Long-Range Chromatin
+    Interactions from Hi-C Data'
+links: {}
+added: '2026-11-08'
+evidence: To address this limitation, we introduce LAWS-HiC, a novel computational method based on the Locally Adaptive Weighting
+  and Screening (LAWS) approach.

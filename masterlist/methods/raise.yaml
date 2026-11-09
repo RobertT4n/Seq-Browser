@@ -1,0 +1,21 @@
+name: RAISE
+category: dry
+summary: Framework inferring RNA-binding protein activity from CLIP-seq, sequence motifs and splicing changes in RNA-seq.
+readouts:
+- rna
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-77620-y
+  year: 2026
+  journal: Nat Commun
+  first_author: Liu Y
+  last_author: Feng H
+  pmid: '42864337'
+  title: RAISE quantifies RNA binding protein activity via transcriptomic profiling
+links: {}
+added: '2026-11-08'
+evidence: Here, we present RAISE, a computational framework that integrates multimodal evidence including CLIP-seq, sequence
+  motifs, and splicing alterations derived from RNA-seq data

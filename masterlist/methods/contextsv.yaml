@@ -1,0 +1,23 @@
+name: ContextSV
+category: dry
+summary: Long-read structural-variant caller combining alignment evidence with coverage and SNV allele-frequency copy-number
+  predictions, plus an ML confidence score.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag108
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Perdomo JE
+  last_author: Wang K
+  pmid: '42719292'
+  pmcid: PMC13554283
+  title: Long-read based detection of large copy number variants with potential functional significance using the ContextSV
+    structural variant caller
+links: {}
+added: '2026-11-08'
+evidence: we developed ContextSV, a framework that integrates alignment evidence with copy number predictions derived from
+  sequencing coverage and single-nucleotide variant allele frequencies

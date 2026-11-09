@@ -1,0 +1,22 @@
+name: EXPSO
+category: dry
+summary: PSO-optimised ensemble classifier that predicts plant gene-expression state from histone and accessibility data.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109426
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Sowmya HS
+  last_author: Archak S
+  pmid: '42826576'
+  title: 'EXPSO: A PSO-based ensemble gene expression classifier for plant species using histone and chromatin accessiblity
+    data'
+links: {}
+added: '2026-11-08'
+evidence: Here, we developed EXPSO, a PSO-assisted ensemble learning framework for classifying plant genes into high- and
+  low-expression states using integrated histone modification and chromatin accessibility data.

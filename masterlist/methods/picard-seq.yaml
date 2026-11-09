@@ -1,0 +1,23 @@
+name: PICARD-seq
+category: wet
+summary: Rapid nanopore protocol that uses off-the-shelf Tn5 rapid barcoding and a MinION to sequence pooled whole plasmids,
+  with a benchmark of assembly pipelines.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.09.19.752805
+  year: 2026
+  journal: bioRxiv
+  first_author: Wolters R
+  last_author: Lloyd JPB
+  title: 'Make it so: Rapid and affordable plasmid sequencing on ONT platforms with PICARD-seq'
+links: {}
+added: '2026-11-08'
+evidence: We present PICARD-seq, a rapid nanopore-based protocol that uses off-the-shelf Tn5 rapid barcoding reagents and
+  a MinION to sequence pools of whole plasmids in under a day

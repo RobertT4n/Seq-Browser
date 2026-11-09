@@ -1,0 +1,24 @@
+name: q-intNMF
+category: dry
+summary: Joint non-negative matrix factorisation for integrating paired single-cell gene expression and chromatin accessibility
+  into interpretable regulatory topics.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag104
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Morgans W
+  last_author: Iqbal M
+  pmid: '42694579'
+  pmcid: PMC13539111
+  title: Scalable joint non-negative matrix factorization for paired single cell gene expression and chromatin accessibility
+    data
+links: {}
+added: '2026-11-08'
+evidence: Here, we present a highly efficient method, q-intNMF, for representation and integration of single-cell multi-modal
+  data using joint non-negative matrix factorization

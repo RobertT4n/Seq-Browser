@@ -1,0 +1,23 @@
+name: Cell2space
+category: dry
+summary: Deep learning framework that reconstructs multi-scale spatial organisation of dissociated scRNA-seq cells using spatial
+  transcriptomics references.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag531
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Pan J
+  last_author: Sun D
+  pmid: '42822864'
+  pmcid: PMC13630463
+  title: Stepwise multi-scale reconstruction of cell spatial organization from single-cell RNA sequencing data with Cell2space
+links: {}
+added: '2026-11-08'
+evidence: Here, we present Cell2space, a deep learning framework that integrates scRNA-seq data with ST references to reconstruct
+  multi-scale cellular spatial organization in a stepwise manner.

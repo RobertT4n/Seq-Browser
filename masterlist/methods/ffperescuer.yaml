@@ -1,0 +1,21 @@
+name: FFPERescuer
+category: dry
+summary: Deep unsupervised domain-adaptation autoencoder that reconstructs full gene-expression profiles from degraded FFPE
+  RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.02.748790
+  year: 2026
+  journal: bioRxiv
+  first_author: He l
+  last_author: Wang X
+  title: 'FFPERescuer: deep unsupervised domain adaptation for the reconstruction of gene expression profiles derived from
+    formalin-fixed paraffin-embedded samples'
+links: {}
+added: '2026-11-08'
+evidence: Here, we propose FFPERescuer, a deep learning framework employing unsupervised domain adaptation, to rectify distorted
+  gene expression data.

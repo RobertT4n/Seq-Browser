@@ -1,0 +1,23 @@
+name: FORGE
+full_name: Flow Orchestrated Regulatory Genomics Engine
+category: dry
+summary: Nextflow pipeline for end-to-end single-nucleus multiome analysis, from raw counts and fragments to regulatory network
+  inference.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.10.750690
+  year: 2026
+  journal: bioRxiv
+  first_author: Solano LE
+  last_author: Swarup V
+  title: 'Flow Orchestrated Regulatory Genomics Engine (FORGE): A Configurable Nextflow Pipeline for End-to-End snMultiome
+    Analysis'
+links: {}
+added: '2026-11-08'
+evidence: To address these challenges we developed FORGE, a configureable Nextflow workflow that carries paired data from
+  raw counts and fragments through regulatory network inference

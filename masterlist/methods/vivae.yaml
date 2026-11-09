@@ -1,0 +1,20 @@
+name: ViVAE
+category: dry
+summary: Deep-learning embedding model for scRNA-seq data that improves multi-scale structure preservation relative to existing
+  dimensionality-reduction methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101760
+  year: 2026
+  journal: Cell Syst
+  first_author: Novak D
+  last_author: Saeys Y
+  pmid: '42950829'
+  title: Interpretable models for scRNA-seq data embedding with multi-scale structure preservation
+links: {}
+added: '2026-11-08'
+evidence: 'Second, we introduce ViVAE: a deep-learning model that achieves better multi-scale structure preservation'
