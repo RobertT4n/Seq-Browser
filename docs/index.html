@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish1">
+<link rel="stylesheet" href="style.css?v=20261109-polish2">
 </head>
 <body>
 <header>
@@ -35,6 +35,8 @@
 </main>
 <script>
 const FACETS = [["readouts","Readout"],["resolution","Resolution"],["temporal","Temporal"],["perturbation","Perturbation"],["scope","Scope"],["chemistry","Chemistry"],["platform","Platform"]];
+// combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
+const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
@@ -66,7 +68,7 @@ function render() {
   const q = document.getElementById("q").value.toLowerCase();
   const rows = data.filter(m =>
     // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
-    FACETS.every(([k]) => k === "scope" ? !on[k].size || on[k].has(m.scope) : [...on[k]].every(v => split(m[k]).includes(v))) &&
+    FACETS.every(([k]) => k === "scope" ? !on[k].size || on[k].has(m.scope) : [...on[k]].every(v => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t))) &&
     (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q)));
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
   rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
