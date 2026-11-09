@@ -1,0 +1,33 @@
+name: OPTIMuS PRIME-Del
+full_name: Optimal Paired-edits via T7 Insertions for Multiplexed Screening using PRIME-Del
+aliases:
+- OPTIMuS
+category: wet
+summary: Paired prime editing that programs tagged intronic cCRE deletions while inserting a T7 promoter and barcode, enabling
+  multiplexed deletion screens with optional single-cell RNA-seq readout.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+perturbation:
+- prime-editing
+variant_of:
+- pooled-paired-prime-editing-screen
+reference:
+  doi: 10.64898/2026.10.13.758960
+  year: 2026
+  journal: bioRxiv
+  first_author: Keith A
+  last_author: Shendure J
+  title: Multiplex programming of mappable, molecularly tagged genomic deletions
+links: {}
+added: '2026-11-09'
+evidence: we developed Optimal Paired-edits via T7 Insertions for Multiplexed Screening using PRIME-Del (OPTIMuS PRIME-Del),
+  which leverages paired prime editing to program precise deletions while simultaneously inserting a T7 phage polymerase promoter
+  (T7-P) and a short barcode (BC).
+partition_unknown: not stated in the abstract

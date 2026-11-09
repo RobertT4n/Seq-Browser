@@ -1,0 +1,23 @@
+name: MultiFlow
+category: dry
+summary: Coupled flow-matching model that jointly generates paired single-cell RNA and ATAC profiles and predicts their coordinated
+  perturbation responses in unseen cellular contexts.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.20.746112
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang H
+  last_author: Liu Q
+  title: 'MultiFlow: coupled flow matching for predicting single-cell multiomic perturbation responses in unseen cellular
+    contexts'
+links:
+  github: https://github.com/liuq-lab/MultiFlow
+added: '2026-11-09'
+evidence: Here we present MultiFlow, a coupled flow-matching framework that unifies generation and perturbation prediction
+  of paired gene expression and chromatin accessibility.
