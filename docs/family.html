@@ -6,7 +6,7 @@
 <title>Seq-Browser Family Tree</title>
 <meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish3">
+<link rel="stylesheet" href="style.css?v=20261109-polish4">
 <style>
   html, body { background:#0b0e1a; }   /* any unpainted tile shows dark, never white */
   body { overflow:hidden; }
@@ -180,7 +180,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       .attr("y1", top + 14).attr("y2", bottom));  // quarter guides in the spread-out recent years
   });
   // frozen left panel: domain + lane labels follow vertical zoom/pan only; the plot scrolls horizontally underneath
-  const PANEL = innerWidth < 700 ? 122 : 190, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
+  const PANEL = innerWidth < 700 ? 122 : 170, lhsBg = svg.append("rect").attr("class", "lhs-bg").attr("x", 0).attr("y", 0).attr("width", PANEL).attr("height", "100%");
   svg.append("defs").append("clipPath").attr("id", "plotclip").append("rect").attr("x", PANEL).attr("y", 0).attr("width", 1e6).attr("height", 1e6);
   clipG.attr("clip-path", "url(#plotclip)");  // nothing pokes out under or past the frozen left panel
   svg.select("defs").append("clipPath").attr("id", "lhsclip").append("rect").attr("x", 0).attr("y", 0).attr("width", PANEL - 4).attr("height", 1e6);
@@ -266,8 +266,10 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const kFit = Math.max(.85, Math.min((H - topPad - pad) / (bb.height + pad), 1.25)), kMin = .45;
   // left panel stays full size: labels only follow the plot's vertical position
   const lhsItems = lhs.selectAll("[data-y]");
+  // top of the first domain label (it sits above the first lane, outside the plot's bounding box): open with it clear of the legend
+  const top0 = Math.min(bb.y, d3.min(lhsItems.nodes(), n => +n.getAttribute("data-y")) - 16);
   const zoom = d3.zoom().scaleExtent([kMin, 4])
-    .translateExtent([[bb.x - pad - PANEL / kMin, bb.y - topPad / kMin], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
+    .translateExtent([[bb.x - pad - PANEL / kMin, top0 - topPad / kMin], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
     .on("zoom", e => { const t = e.transform; root.attr("transform", t); cull(t);
       lhsItems.each(function () { const el = d3.select(this), v = +el.attr("data-y") * t.k + t.y; el.attr(this.tagName === "circle" ? "cy" : "y", v); }); });
   // viewport culling: only nodes/edges on screen stay in the render tree (a few hundred SVG elements instead of ~1,500), which stops the repaint lag
@@ -278,6 +280,8 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       x0 = -t.x / t.k - m, x1 = (w - t.x) / t.k + m, y0 = -t.y / t.k - m, y1 = (h - t.y) / t.k + m, vis = b => b[1] >= x0 && b[0] <= x1 && b[3] >= y0 && b[2] <= y1;
     nb.forEach((b, i) => { const v = vis(b); if (v !== nOn[i]) { nOn[i] = v; nodeEls[i].style.display = v ? "" : "none"; } });
     eb.forEach((b, i) => { const v = vis(b); if (v !== eOn[i]) { eOn[i] = v; edgeEls[i].style.display = v ? "" : "none"; } }); }
+  // never pan the plot's left edge away from the label panel: no empty buffer on the left
+  { const base = zoom.constrain(); zoom.constrain((t, ex, te) => { t = base(t, ex, te); const mx = PANEL + 10 - (bb.x - pad) * t.k; return t.x > mx ? d3.zoomIdentity.translate(mx, t.y).scale(t.k) : t; }); }
   zoom.filter(e => (e.type !== "wheel" || e.ctrlKey) && !e.button);
   let want = null, raf = 0;  // eased scrolling: wheel sets a target, frames glide toward it
   const glide = () => { const t = d3.zoomTransform(svg.node()), dx = want[0] - t.x, dy = want[1] - t.y;
@@ -292,7 +296,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       const dx = e.deltaX || (!tall || e.shiftKey ? e.deltaY : 0), dy = tall && !e.shiftKey && !e.deltaX ? e.deltaY : 0;
       want = want || [t.x, t.y]; want = [want[0] - dx, want[1] - dy];
       if (!raf) raf = requestAnimationFrame(glide); }, {passive: false});
-  svg.call(zoom.transform, d3.zoomIdentity.translate(PANEL - (bb.x - pad) * kFit + 10, topPad - bb.y * kFit).scale(kFit));
+  svg.call(zoom.transform, d3.zoomIdentity.translate(PANEL - (bb.x - pad) * kFit + 10, topPad - top0 * kFit).scale(kFit));
 });
 </script>
 <script src="visitor-counter.js?v=20261028-counter3" defer></script>
