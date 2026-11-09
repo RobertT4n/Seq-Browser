@@ -1,0 +1,31 @@
+name: SAMOSA-Tag
+full_name: Single-molecule adenine-methylated oligonucleosome sequencing assay by tagmentation
+category: wet
+summary: Low-input version of SAMOSA that uses Tn5 tagmentation and exogenous adenine methylation to read chromatin accessibility
+  on PacBio single molecules.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- tn5
+- long-read-sequencing
+variant_of:
+- samosa
+builds_on:
+- smrt-tag
+reference:
+  doi: 10.1038/s41588-024-01748-0
+  year: 2024
+  journal: Nat Genet
+  first_author: Nanda AS
+  last_author: Ramani V
+  pmid: '38724748'
+  pmcid: PMC11176058
+  title: Direct transposition of native DNA for sensitive multimodal single-molecule sequencing
+links: {}
+added: '2026-11-09'

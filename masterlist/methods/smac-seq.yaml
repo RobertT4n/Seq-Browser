@@ -1,0 +1,25 @@
+name: SMAC-seq
+full_name: Single-molecule long-read accessibility mapping
+category: wet
+summary: 'Long-range single-molecule mapping of chromatin accessibility: a methyltransferase marks accessible DNA and long
+  reads show the pattern along each molecule.'
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41592-019-0730-2
+  year: 2020
+  journal: Nat Methods
+  first_author: Shipony Z
+  last_author: Greenleaf WJ
+  pmid: '32042188'
+  pmcid: PMC7968351
+  title: Long-range single-molecule mapping of chromatin accessibility in eukaryotes
+links: {}
+added: '2026-11-09'

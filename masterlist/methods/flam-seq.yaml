@@ -1,0 +1,25 @@
+name: FLAM-seq
+full_name: Full-length poly(A) and mRNA sequencing
+category: wet
+summary: Full-length mRNA sequencing that reads the whole transcript including the poly(A) tail on long reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41592-019-0503-y
+  year: 2019
+  journal: Nat Methods
+  first_author: Legnini I
+  last_author: Rajewsky N
+  pmid: '31384046'
+  title: 'FLAM-seq: full-length mRNA sequencing reveals principles of poly(A) tail length control'
+links: {}
+added: '2026-11-09'

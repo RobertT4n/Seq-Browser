@@ -63,6 +63,11 @@ perturbation:        # OPTIONAL. The method perturbs cells/DNA and reads the eff
   - transposon-insertion
   - chemical-perturbation    # drug / compound screens read out by sequencing
 
+platform:            # OPTIONAL. Sequencing platform class, only when the method is built for / demonstrated on long reads
+  - long-read           # umbrella: any long-read platform (always add this when pacbio or nanopore applies)
+  - pacbio              # PacBio SMRT / HiFi
+  - nanopore            # Oxford Nanopore (ONT)
+
 scope:               # GENOMIC coverage only. Selecting a place in a tissue/nucleus is resolution (spatial/subcellular)
   - genome-wide         # e.g. ECHOS = genome-wide histone profile of an optically selected region
   - targeted            # restricted to chosen loci: capture oligos, viewpoints, amplicons

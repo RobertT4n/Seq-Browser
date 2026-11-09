@@ -1,0 +1,23 @@
+name: Nanopore direct RNA sequencing
+category: wet
+summary: Sequences native RNA molecules directly on nanopore arrays, with no reverse transcription or amplification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1038/nmeth.4577
+  year: 2018
+  journal: Nat Methods
+  first_author: Garalde DR
+  last_author: Turner DJ
+  pmid: '29334379'
+  title: Highly parallel direct RNA sequencing on an array of nanopores
+links: {}
+added: '2026-11-09'

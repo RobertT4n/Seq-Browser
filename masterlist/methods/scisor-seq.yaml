@@ -1,0 +1,26 @@
+name: scISOr-Seq
+full_name: Single-cell isoform RNA sequencing
+category: wet
+summary: 'Single-cell isoform sequencing: full-length cDNA from single cells is read on long reads to resolve isoforms per
+  cell type.'
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/nbt.4259
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Gupta I
+  last_author: Tilgner HU
+  pmid: '30320766'
+  title: Single-cell isoform RNA sequencing characterizes isoforms in thousands of cerebellar cells
+links: {}
+added: '2026-11-09'

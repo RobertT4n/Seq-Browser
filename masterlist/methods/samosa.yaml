@@ -1,0 +1,26 @@
+name: SAMOSA
+full_name: Single-molecule adenine methylated oligonucleosome sequencing assay
+category: wet
+summary: 'Single-molecule footprinting of nucleosomes: m6A methylation marks open DNA and PacBio long reads resolve nucleosome
+  positioning on each molecule.'
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.7554/eLife.59404
+  year: 2020
+  journal: Elife
+  first_author: Abdulhay NJ
+  last_author: Ramani V
+  pmid: '33263279'
+  pmcid: PMC7735760
+  title: Massively multiplex single-molecule oligonucleosome footprinting
+links: {}
+added: '2026-11-09'

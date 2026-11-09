@@ -1,0 +1,28 @@
+name: R2C2
+full_name: Rolling circle to concatemeric consensus
+category: wet
+summary: Circularises cDNA and reads it as repeated copies on nanopore, so a consensus corrects errors and gives accurate
+  full-length reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1073/pnas.1806447115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Volden R
+  last_author: Vollmers C
+  pmid: '30201725'
+  pmcid: PMC6166824
+  title: Improving nanopore read accuracy with the R2C2 method enables the sequencing of highly multiplexed full-length single-cell
+    cDNA
+links: {}
+added: '2026-11-09'

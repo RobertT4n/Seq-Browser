@@ -1,0 +1,25 @@
+name: Fiber-seq
+full_name: Chromatin fiber sequencing
+category: wet
+summary: 'Single-molecule chromatin accessibility on long reads: a methyltransferase marks accessible DNA with m6A, read out
+  by PacBio sequencing of the same molecule.'
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1126/science.aaz1646
+  year: 2020
+  journal: Science
+  first_author: Stergachis AB
+  last_author: Stamatoyannopoulos JA
+  pmid: '32587015'
+  title: Single-molecule regulatory architectures captured by chromatin fiber sequencing
+links: {}
+added: '2026-11-09'

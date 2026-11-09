@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-phone1">
+<link rel="stylesheet" href="style.css?v=20261109-phone2">
 </head>
 <body>
 <header>
@@ -34,7 +34,7 @@
   <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>. Citation counts from Crossref, refreshed weekly.</div>
 </main>
 <script>
-const FACETS = [["readouts","Readout"],["resolution","Resolution"],["temporal","Temporal"],["perturbation","Perturbation"],["scope","Scope"],["chemistry","Chemistry"]];
+const FACETS = [["readouts","Readout"],["resolution","Resolution"],["temporal","Temporal"],["perturbation","Perturbation"],["scope","Scope"],["chemistry","Chemistry"],["platform","Platform"]];
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
@@ -120,6 +120,5 @@ function cmpOpen(v) {
 </script>
 <aside id="drawer" aria-label="Method details"></aside><div id="cmpbar"></div><div id="cmp"></div>
 <script src="visitor-counter.js?v=20261028-counter3" defer></script>
-<script>try{if(innerWidth<641)document.getElementById("fwrap").open=false}catch(e){}</script>
 </body>
 </html>

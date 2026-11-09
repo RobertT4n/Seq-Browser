@@ -1,0 +1,26 @@
+name: DiMeLo-seq
+full_name: Directed methylation with long-read sequencing
+category: wet
+summary: Antibody-tethered methyltransferase deposits m6A near a protein of interest and long reads map protein-DNA interactions
+  on single molecules.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- antibody-tethered-enzyme
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41592-022-01475-6
+  year: 2022
+  journal: Nat Methods
+  first_author: Altemose N
+  last_author: Streets A
+  pmid: '35396487'
+  pmcid: PMC9189060
+  title: 'DiMeLo-seq: a long-read, single-molecule method for mapping protein-DNA interactions genome wide'
+links: {}
+added: '2026-11-09'
