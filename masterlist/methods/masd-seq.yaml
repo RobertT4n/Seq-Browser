@@ -1,0 +1,26 @@
+name: MASD-seq
+full_name: Methyltransferase-Assisted Single Duplex sequencing
+category: wet
+summary: Duplex sequencing that links Watson and Crick strands via enzymatic methyl-sequencing and MspI enrichment to detect
+  low-frequency ctDNA mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+reference:
+  doi: 10.1038/s44321-026-00509-2
+  year: 2026
+  journal: EMBO Mol Med
+  first_author: Jiang Z
+  last_author: Wen L
+  pmid: '42618801'
+  pmcid: PMC13658776
+  title: Methyltransferase-assisted single duplex sequencing for detecting circulating tumor DNA
+links: {}
+added: '2026-11-09'
+evidence: To address this, we developed Methyltransferase-Assisted Single Duplex sequencing (MASD-seq), which physically links
+  Watson and Crick strands to enable error correction using double-stranded information within a single read pair.

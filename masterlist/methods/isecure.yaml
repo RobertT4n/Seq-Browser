@@ -1,0 +1,25 @@
+name: iSECURE
+full_name: integrated sequencing-based copy number and methylation analysis in urine
+category: wet
+summary: Single workflow on urine cfDNA that yields copy-number profile, tumour fraction and targeted methylation markers
+  from the same library.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1200/po-25-00882
+  year: 2026
+  journal: JCO Precis Oncol
+  first_author: Beijert IJ
+  last_author: Steenbergen RDM
+  pmid: '42585615'
+  title: Integrated Methylation and Copy Number Analysis for Noninvasive Bladder Cancer Detection in Urine
+links: {}
+added: '2026-11-09'
+evidence: Here, we developed an integrated analysis to assess both SCNA and targeted methylation changes from the same template
+  molecules, which we named the integrated sequencing-based copy number and methylation analysis in urine (iSECURE) method.

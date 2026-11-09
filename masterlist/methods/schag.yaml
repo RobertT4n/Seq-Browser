@@ -1,0 +1,23 @@
+name: scHAG
+full_name: Hypergraph-Attention-Guided Graph Refinement and Feature Decoupling for Single-Cell RNA-seq Clustering
+category: dry
+summary: Deep graph-clustering framework for scRNA-seq combining masked-autoencoder pretraining with hypergraph-attention
+  refinement of neighbour graphs and orthogonal feature decoupling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2026.3738851
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Kong XZ
+  last_author: Li SJ
+  pmid: '42821712'
+  title: Hypergraph-Attention-Guided Graph Refinement and Feature Decoupling for Single-Cell RNA-seq Clustering
+links: {}
+added: '2026-11-09'
+evidence: Thus, we introduce a novel method named Hypergraph-Attention-Guided Graph Refinement and Feature Decoupling for
+  Single-Cell RNA-seq Clustering (scHAG), a deep graph clustering framework that synergizes generative pre-training, dynamic
+  topological refinement, and orthogonal feature decoupling.

@@ -1,0 +1,22 @@
+name: NanoDel
+category: dry
+summary: Long-read pipeline that detects large-scale mitochondrial DNA deletions and their breakpoints without prior information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag684
+  year: 2026
+  journal: Bioinformatics
+  first_author: Fearn C
+  last_author: McGeehan RE
+  pmid: '42745550'
+  pmcid: PMC13637604
+  title: '"NanoDel": identification of large-scale mitochondrial DNA deletions using long-read sequencing'
+links: {}
+added: '2026-11-09'
+evidence: We developed "NanoDel," a LRS pipeline, to sensitively and accurately detect cellular LSMDs.

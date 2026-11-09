@@ -1,0 +1,21 @@
+name: ChIP-wrangler
+category: dry
+summary: Dual spike-in normalisation for ChIP-seq that quantifies signal changes and flags technical artifacts.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02728-2
+  year: 2026
+  journal: Nat Genet
+  first_author: Patel L
+  last_author: Goren A
+  pmid: '42642513'
+  pmcid: PMC13647998
+  title: Improved spike-in normalization clarifies the relationship between active histone modifications and transcription
+links: {}
+added: '2026-11-09'
+evidence: Here we introduce a robust dual spike-in normalization approach for ChIP-seq (ChIP-wrangler), optimize parameters
+  and verify its accuracy in quantifying changes in ChIP-seq signal and detecting technical artifacts.

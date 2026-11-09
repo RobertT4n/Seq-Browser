@@ -1,0 +1,28 @@
+name: VINE-seq
+full_name: vessel isolation and nucleus extraction for sequencing
+aliases:
+- MultiVINE-seq
+category: wet
+summary: Isolates brain vessels and extracts their nuclei for droplet-based single-nucleus RNA and multiome profiling of vascular
+  cells.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- tn5
+reference:
+  doi: 10.1038/s41596-026-01434-x
+  year: 2026
+  journal: Nat Protoc
+  first_author: Oberhauser J
+  last_author: Yang AC
+  pmid: '42693285'
+  title: VINE-seq and MultiVINE-seq for single-nucleus and multiome profiling of the brain vasculature
+links: {}
+added: '2026-11-09'
+evidence: we developed vessel isolation and nucleus extraction for sequencing (VINE-seq) and its advanced iteration, MultiVINE-seq.

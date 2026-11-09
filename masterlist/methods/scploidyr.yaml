@@ -1,0 +1,23 @@
+name: scPloidyR
+category: dry
+summary: Hidden Markov model that jointly models read depth and B-allele frequency to call single-cell copy number from targeted
+  Tapestri panels.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.34133/csbj.0203
+  year: 2026
+  journal: Comput Struct Biotechnol J
+  first_author: Pei D
+  last_author: Schueddig E
+  pmid: '42630349'
+  pmcid: PMC13494159
+  title: Integrative Modeling of Read Depth and B-Allele Frequency Improves Single-Cell Copy Number Calling from Targeted
+    DNA Sequencing Panels
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce scPloidyR, a hidden Markov model (HMM) that jointly models read depth and BAF at amplicon resolution
+  for single-cell copy number calling from Tapestri data.

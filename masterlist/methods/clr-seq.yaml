@@ -1,0 +1,27 @@
+name: CLR-seq
+full_name: C-type lectin receptor sequencing
+category: wet
+summary: Sorting bacteria by binding of fluorescent C-type lectin receptors, then 16S rRNA gene sequencing of the sorted fractions
+  to identify glycan-reactive taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+- amplicon-pcr
+reference:
+  doi: 10.1371/journal.pone.0356059
+  year: 2026
+  journal: PLoS One
+  first_author: Mol J
+  last_author: van Sorge NM
+  pmid: '42594336'
+  pmcid: PMC13472642
+  title: 'CLR-Seq: A pipeline to identify bacterial microbiota species with immune-relevant glycan moieties through human
+    C-type lectin receptor interaction'
+links: {}
+added: '2026-11-09'
+evidence: We established our experimental CLR-sequencing (CLR-seq) pipeline using soluble fluorescently-labeled human macrophage
+  galactose C-type lectin (MGL, CD301) and langerin (CD207).

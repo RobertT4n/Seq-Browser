@@ -1,0 +1,26 @@
+name: CBTi-seq
+full_name: combinational barcoded Tn5 transposon insertion sequencing
+category: wet
+summary: Combinatorial barcoded Tn5 tagmentation of full-length single-cell cDNA for highly multiplexed transcriptome libraries.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1016/j.xpro.2026.104765
+  year: 2026
+  journal: STAR Protoc
+  first_author: He L
+  last_author: Zhao X
+  pmid: '42545848'
+  pmcid: PMC13469961
+  title: Protocol for high-resolution multiplexed sequencing of single-cell full-length transcriptome with CBTi-seq
+links: {}
+added: '2026-11-09'
+evidence: Here, we present combinational barcoded Tn5 transposon insertion sequencing (CBTi-seq), a highly scalable protocol
+  for constructing multiplexed, full-length transcriptome libraries from single cells and micro-region tissues.

@@ -1,0 +1,29 @@
+name: Stereo-XCR-seq
+full_name: Stereo-seq T and B cell receptor sequencing
+category: wet
+summary: Recovers TCR and BCR sequences from Stereo-seq spatial transcriptome cDNA libraries, alongside spatial transcriptomics.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+- amplicon-pcr
+builds_on:
+- stereo-seq
+reference:
+  doi: 10.1038/s41467-026-75405-x
+  year: 2026
+  journal: Nat Commun
+  first_author: Zhan X
+  last_author: Feng Y
+  pmid: '42547508'
+  pmcid: PMC13434001
+  title: Uncovering ectopic GC-like niches for tumor reactive lymphocyte priming in lung adenocarcinoma using Stereo-XCR-seq
+links: {}
+added: '2026-11-09'
+evidence: To address the lack of tools for in situ single-cell T/BCR (XCR) sequencing, we develop Stereo-XCR-seq, an efficient
+  method for retrieving and sequencing TCR and BCR from spatial transcriptome cDNA libraries at subcellular resolution.

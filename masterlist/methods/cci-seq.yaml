@@ -1,0 +1,25 @@
+name: CCI-seq
+full_name: Cell clump combinatorial indexing sequencing
+category: wet
+summary: Single-cell workflow that barcodes cell clumps by combinatorial indexing to map cell-cell interactions across a proximity
+  continuum and their transcriptional consequences.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-026-03237-0
+  year: 2026
+  journal: Nat Methods
+  first_author: Tang L
+  last_author: Zhang QC
+  pmid: '42834226'
+  title: Resolving cell-cell interaction networks and their molecular logic in complex tissues
+links: {}
+added: '2026-11-09'
+evidence: Here we present CCI-seq, a high-throughput method to unbiasedly capture cell-cell interactions across a proximity
+  continuum by combining cell clump combinatorial indexing with single-cell sequencing.

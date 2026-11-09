@@ -1,0 +1,27 @@
+name: IHC/LCM-Seq
+full_name: Immunohistochemistry-guided laser capture microdissection sequencing
+category: wet
+summary: Immunohistochemistry-guided laser capture microdissection of neuronal types in fixed human brain sections, followed
+  by RNA-seq.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-026-76688-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Takács S
+  last_author: Hrabovszky E
+  pmid: '42736279'
+  pmcid: PMC13575109
+  title: Transcriptome profiling of human hypothalamic agouti-related protein and proopiomelanocortin neurons regulating energy
+    homeostasis
+links: {}
+added: '2026-11-09'
+evidence: We present and validate a pioneering 'IHC/LCM-Seq' method for transcriptome profiling of spatially defined neuronal
+  cell types detected with immunohistochemistry in sections of formaldehyde-fixed human brains.

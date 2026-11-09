@@ -1,0 +1,23 @@
+name: HiCPotts
+category: dry
+summary: Bayesian R/Bioconductor package that calls significant chromatin interactions in Hi-C, micro-C and Capture-C data
+  while modelling DNA accessibility, GC and TE bias with a zero-inflated Negative Binomial.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag673
+  year: 2026
+  journal: Bioinformatics
+  first_author: Osuntoki IG
+  last_author: Zabet NR
+  pmid: '42720608'
+  pmcid: PMC13612170
+  title: 'HiCPotts: an R/bioconductor package to identify significant interactions in chromosome conformation capture data
+    and model sources of bias'
+links: {}
+added: '2026-11-09'
+evidence: Here, we present HiCPotts, another Bayesian method based on the HMRF model and the ABC that uses a zero-inflated
+  Negative Binomial distribution instead to model the noise and signal of the data.

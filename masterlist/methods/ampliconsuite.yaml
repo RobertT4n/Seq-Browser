@@ -1,0 +1,22 @@
+name: AmpliconSuite
+category: dry
+summary: Toolkit that detects and classifies focal amplifications, including extrachromosomal DNA, from cancer whole-genome
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03264-x
+  year: 2026
+  journal: Nat Methods
+  first_author: Luebeck J
+  last_author: Bafna V
+  pmid: '42888240'
+  pmcid: PMC13736199
+  title: 'AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes'
+links: {}
+added: '2026-11-09'
+evidence: Here we present AmpliconSuite, a toolkit for focal amplification analysis from cancer whole-genome sequencing that
+  identifies extrachromosomal DNA (ecDNA), breakage-fusion-bridges and other amplification modes.

@@ -1,0 +1,24 @@
+name: tecPCR
+full_name: target enrichment polymerase chain reaction
+category: wet
+summary: Multiplex PCR target enrichment followed by next-generation sequencing, used to validate copy number variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1155/humu/9556416
+  year: 2026
+  journal: Hum Mutat
+  first_author: Zhang LL
+  last_author: Xu GZ
+  pmid: '42732270'
+  pmcid: PMC13570494
+  title: A Novel Technique for Validating Copy Number Variants and Its Application in Familial Exudative Vitreoretinopathy
+links: {}
+added: '2026-11-09'
+evidence: we introduce target enrichment polymerase chain reaction (tecPCR), a novel technique that integrates multiplex polymerase
+  chain reaction (PCR) with next-generation sequencing (NGS) for enhanced CNV validation

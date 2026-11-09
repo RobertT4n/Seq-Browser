@@ -1,0 +1,29 @@
+name: Msc-RRBS
+full_name: Multiplexed single-cell reduced representation bisulfite sequencing
+category: wet
+summary: Streamlined plate-based single-cell RRBS in which lysis, restriction digestion, end repair and adapter ligation all
+  run in one well, giving methylomes of hundreds of cells.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+- plate-based
+- facs-sorting
+variant_of:
+- scrrbs
+reference:
+  doi: 10.1038/s41596-026-01452-9
+  year: 2026
+  journal: Nat Protoc
+  first_author: Liu F
+  last_author: Gu H
+  pmid: '42881293'
+  title: Multiplexed single-cell reduced representation bisulfite sequencing for genome-wide DNA methylation profiling
+links: {}
+added: '2026-11-09'
+evidence: Here, we present multiplexed single-cell RRBS (Msc-RRBS), a streamlined and scalable protocol for parallel DNA methylation
+  profiling of hundreds of individual cells.

@@ -1,0 +1,30 @@
+name: IH-MS2P
+full_name: In-House Multisegment 2-Pool RT-PCR
+category: wet
+summary: Two-pool multisegment RT-PCR amplification of all eight influenza A segments, sequenced on Oxford Nanopore for full-genome
+  recovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.jviromet.2026.115453
+  year: 2027
+  journal: J Virol Methods
+  first_author: Kazemian S
+  last_author: Kyriakis CS
+  pmid: '42710746'
+  title: 'An enhanced multisegment RT-PCR method for influenza A virus sequencing: Improved performance and reduced preparation
+    time over traditional methods'
+links: {}
+added: '2026-11-09'
+evidence: We developed a robust In-house method for IAV full-genome sequencing using the Oxford Nanopore Technologies (ONT)
+  long-read sequencing platform.

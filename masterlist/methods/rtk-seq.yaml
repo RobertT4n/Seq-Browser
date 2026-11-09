@@ -1,0 +1,29 @@
+name: RTK-seq
+full_name: Regulatory Time-Kill Sequencing
+category: wet
+summary: Pooled CRISPRi library of transcription factors subjected to time-resolved antibiotic killing, read out by barcode
+  sequencing to map regulators of persistence.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- amplicon-pcr
+builds_on:
+- crispri-a-pooled-screening
+reference:
+  doi: 10.3389/fmicb.2026.1950209
+  journal: Front Microbiol
+  first_author: Filko A
+  last_author: Zhang F
+  pmcid: PMC13646166
+  title: Regulatory time-kill sequencing maps antibiotic-specific transcriptional control of Escherichia coli persistence
+    at genome scale
+links: {}
+added: '2026-11-09'
+evidence: Here, we develop Regulatory Time-Kill Sequencing (RTK-seq), a high-throughput functional genomics strategy that
+  combines a pooled CRISPR interference (CRISPRi) library targeting transcription factors with time-resolved antibiotic selection
+  and deep barcode sequencing.

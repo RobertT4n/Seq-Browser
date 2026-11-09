@@ -1,0 +1,23 @@
+name: CGAP
+full_name: convolutional discovery of gene anatomy using PRO-seq
+category: dry
+summary: Convolutional neural network with HMM stitching that annotates transcription units from run-on sequencing data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014559
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Munn PR
+  last_author: Danko CG
+  pmid: '42546039'
+  pmcid: PMC13460741
+  title: Accurate de novo transcription unit annotation from run-on and sequencing data
+links: {}
+added: '2026-11-09'
+evidence: We developed a convolutional neural network, called convolutional discovery of gene anatomy using PRO-seq (CGAP),
+  trained to identify different anatomical features of a transcription unit, which were then stitched together into transcript
+  annotations using a hidden Markov model (HMM).

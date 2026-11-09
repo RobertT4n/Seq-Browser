@@ -1,0 +1,27 @@
+name: tMCTA-seq
+full_name: targeted methylated CpG tandem amplification and sequencing
+category: wet
+summary: Targeted methylated CpG tandem amplification of 110 cfDNA methylation sites after bisulfite conversion, for cancer
+  detection from plasma.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.xpro.2026.104791
+  year: 2026
+  journal: STAR Protoc
+  first_author: Jiang Z
+  last_author: Zhou X
+  pmid: '42623237'
+  pmcid: PMC13505419
+  title: Protocol for detecting cancer in blood using targeted DNA methylation
+links: {}
+added: '2026-11-09'
+evidence: Here, we present a protocol for detecting and differentiating colorectal and gastric cancers using plasma cell-free
+  DNA (cfDNA) with targeted methylated CpG tandem amplification and sequencing (tMCTA-seq), a targeted DNA methylation sequencing
+  approach.

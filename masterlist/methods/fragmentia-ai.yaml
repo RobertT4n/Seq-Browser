@@ -1,0 +1,22 @@
+name: Fragmentia-AI
+category: dry
+summary: Mutation-calling-independent transformer classifier that detects cancer from ultra-low-pass cfDNA WGS.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s43556-026-00538-w
+  year: 2026
+  journal: Mol Biomed
+  first_author: Xu Y
+  last_author: Shao Y
+  pmid: '42584731'
+  pmcid: PMC13469060
+  title: Generalizable cancer detection from ultra-low-pass WGS via deep contextual modeling of cfDNA sequences
+links: {}
+added: '2026-11-09'
+evidence: We developed Fragmentia-AI WGS, a mutation-calling-independent framework that uses a transformer-based multiple-instance
+  learning architecture with sequential fine-tuning across tumor fraction (TF) strata to extract latent cancer-associated
+  signals from ULP-WGS data.

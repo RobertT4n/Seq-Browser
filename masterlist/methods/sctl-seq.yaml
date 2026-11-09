@@ -1,0 +1,30 @@
+name: scTL-seq
+full_name: single-cell TimeLapse sequencing
+category: wet
+summary: Single-cell variant of TimeLapse-seq that detects allele-resolved nascent RNA in individual mouse embryos.
+readouts:
+- nascent-rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- plate-based
+variant_of:
+- timelapse-seq
+reference:
+  doi: 10.1038/s41467-026-77750-3
+  year: 2026
+  journal: Nat Commun
+  first_author: Wu Y
+  last_author: Gao Y
+  pmid: '42907457'
+  pmcid: PMC13686978
+  title: Single-cell TimeLapse-seq reveals MTA is an essential retrotransposon orchestrating mouse zygotic genome activation
+links: {}
+added: '2026-11-09'
+evidence: Here, we develop single-cell TimeLapse sequencing (scTL-seq), enabling allele-resolved detection of nascent RNA
+  in individual embryos.

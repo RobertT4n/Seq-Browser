@@ -1,0 +1,25 @@
+name: VNTRtools
+full_name: Variable-number tandem repeat (VNTR) analysis tools
+category: dry
+summary: Software that reconstructs phased, patient-specific MUC1 VNTR haplotypes from targeted long-read amplicon sequencing
+  and calls frameshift variants against a synthetic VNTR reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.kint.2026.06.040
+  year: 2026
+  journal: Kidney Int
+  first_author: Wenzel A
+  last_author: Beck BB
+  pmid: '42498060'
+  title: Targeted VNTR long read sequencing resolves a diagnostic bottleneck in ADTKD and detects de novo ADTKD-MUC1
+links: {}
+added: '2026-11-09'
+evidence: Using a bioinformatic pipeline including newly developed specialized software, VNTRtools, we reconstructed patient-specific
+  complete VNTR haplotypes, generated a synthetic VNTR reference, performed long-read realignment to this reference, and finally
+  performed variant calling.

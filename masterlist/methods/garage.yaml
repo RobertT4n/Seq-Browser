@@ -1,0 +1,22 @@
+name: GARAGE
+full_name: Graph-Attentive RAre-cell aware single-cell data GEneration
+category: dry
+summary: Graph-attention GAN that steers scRNA-seq data synthesis toward under-sampled rare cell types while preserving cell-type
+  proportions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014601
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Ganguly R
+  last_author: Ray S
+  pmid: '42832552'
+  title: A graph-attentive GAN for rare-cell-aware single-cell RNA-seq data generation
+links: {}
+added: '2026-11-09'
+evidence: We introduce GARAGE, a Graph-Attentive RAre-cell aware single-cell data GEneration that augments the generator's
+  input with a small, attention-weighted 'leakage' of real cells in addition to prior noise.

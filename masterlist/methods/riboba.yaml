@@ -1,0 +1,19 @@
+name: RiboBA
+full_name: Bias-aware probabilistic framework for ribosome profiling
+category: dry
+summary: Probabilistic framework that jointly models protocol-induced bias and codon-level occupancy to call translated ORFs
+  from Ribo-seq data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag969
+  year: 2026
+  journal: Nucleic Acids Res
+  pmcid: PMC13662281
+  title: 'RiboBA: a bias-aware probabilistic framework for robust ORF identification across diverse ribosome profiling protocols'
+links: {}
+added: '2026-11-09'
+evidence: Here, we present RiboBA, a bias-aware probabilistic framework for robust ORF identification from Ribo-seq data.

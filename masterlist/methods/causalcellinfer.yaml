@@ -1,0 +1,23 @@
+name: CausalCellInfer
+category: dry
+summary: Computational framework that deconvolves bulk and genotype-imputed transcriptomes into cell-type-specific expression
+  for biobank-scale disease association analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.78197
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Yin L
+  last_author: So HC
+  pmid: '42875726'
+  pmcid: PMC13669230
+  title: 'CausalCellInfer: Prioritizing Cell-Type-Specific Disease Associations From Genetically Predicted Transcriptomes
+    in Biobank Cohorts'
+links: {}
+added: '2026-11-09'
+evidence: We present CausalCellInfer, a scalable computational framework bringing cellular resolution to bulk and genotype-imputed
+  transcriptomes.

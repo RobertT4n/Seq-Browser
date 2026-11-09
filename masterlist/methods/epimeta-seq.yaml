@@ -1,0 +1,25 @@
+name: EpiMeta-seq
+full_name: Epigenetically filtered Metagenomic Sequencing
+category: wet
+summary: HpaII digestion removes unmethylated host cfDNA before metagenomic sequencing, enriching microbial cfDNA for pathogen
+  detection.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1093/clinchem/hvag089
+  year: 2026
+  journal: Clin Chem
+  first_author: Liao T
+  last_author: Gu W
+  pmid: '42551913'
+  title: Enriching Microbial Cell-Free DNA in Clinical Metagenomics Using Epigenetic Filters
+links: {}
+added: '2026-11-09'
+evidence: We developed an epigenetically guided enrichment strategy, termed Epigenetically filtered Metagenomic Sequencing
+  (EpiMeta-seq), to selectively enrich microbial cfDNA based on fundamental differences in DNA methylation between microbial
+  and human genomes.

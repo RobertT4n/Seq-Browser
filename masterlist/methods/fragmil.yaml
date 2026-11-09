@@ -1,0 +1,24 @@
+name: FragMIL
+full_name: Fragment-token multiple-instance learning
+category: dry
+summary: Multiple-instance learning model that treats individual cfDNA fragments (end motif, position, length) as tokens to
+  score cancer from low-coverage whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/cancers18203389
+  year: 2026
+  journal: Cancers (Basel)
+  first_author: Bui TD
+  last_author: Chou TY
+  pmid: '42938921'
+  pmcid: PMC13702332
+  title: 'FragMIL: A Fragment-Token Multiple-Instance Learning Framework for Cancer Detection from Cell-Free DNA Fragmentomics'
+links: {}
+added: '2026-11-09'
+evidence: We developed FragMIL, a fragment-token multiple-instance learning framework that represents each cfDNA molecule
+  as a learnable token integrating end-motif, genomic-position, and fragment-length information, and aggregates thousands
+  of fragment tokens into a patient-level cancer score.

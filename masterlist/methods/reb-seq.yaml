@@ -1,0 +1,24 @@
+name: REB-seq
+full_name: RNA-Editing-Based-RNA-seq
+category: wet
+summary: An RBP fused to ADAR or APOBEC1 marks its bound transcripts with A-to-I or C-to-U edits, which RNA-seq reads out,
+  with machine learning refining target calls.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/gpbjnl/qzag091
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Zhang J
+  last_author: Chen D
+  pmid: '42671340'
+  title: Mapping Allele-specific RBP Binding by a Machine Learning Coupled RNA Editing Strategy in Human Embryonic Stem Cells
+links: {}
+added: '2026-11-09'
+evidence: To achieve this, we developed an inducible strategy termed RNA-Editing-Based-RNA-seq (REB-seq) coupled with machine
+  learning to capture the potential RNA targets bound by the RBPs-of-interest.

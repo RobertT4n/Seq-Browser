@@ -1,0 +1,23 @@
+name: CLIPR
+full_name: Causal linearization via perturbation responses
+category: dry
+summary: Approach that estimates approximate direct causal effects between genes from perturbation-response data under a linear
+  drift assumption.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2602630123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Lorch L
+  last_author: Uhler C
+  pmid: '42848419'
+  pmcid: PMC13663777
+  title: Latent causal diffusions for single-cell perturbation modeling
+links: {}
+added: '2026-11-09'
+evidence: To interpret these learned dynamics, we develop an approach we call causal linearization via perturbation responses
+  (CLIPR), which yields an approximation of the direct causal effects between all genes modeled by the diffusion.
