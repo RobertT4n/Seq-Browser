@@ -1,4 +1,4 @@
-# Seq-Browser <img align="right" src="Seq-Browser_Logo1.png" style="height:100px;" />
+# Seq-Browser <picture><source media="(prefers-color-scheme: dark)" srcset="docs/brand/seqbrowser-logo-text-dark.svg"><img align="right" src="docs/brand/seqbrowser-logo-text.svg" alt="Seq-Browser logo" height="100"></picture>
 
 A browser for sequencing assays: a curated, continuously updated catalogue of sequencing-based methods (single-cell, spatial, temporal and more), tagged by what they measure and how, and readable by both people and LLMs.
 
@@ -6,7 +6,7 @@ A browser for sequencing assays: a curated, continuously updated catalogue of se
 - **Machine-readable:** [`docs/methods.json`](docs/methods.json), [`docs/methods.csv`](docs/methods.csv), [`docs/llms.txt`](docs/llms.txt)
 - **Website:** https://robertt4n.github.io/Seq-Browser/ (Table, Analysis, About)
 
-![Seq-Browser flow](docs/flow.png)
+![Seq-Browser flow](docs/brand/seqbrowser-workflow.svg)
 
 ## Rationale
 
@@ -21,17 +21,21 @@ Seq-Browser catalogues them and keeps the list up to date automatically.
 ## How it works
 
 ```
-Fetch      bioRxiv/medRxiv + Europe PMC (PubMed journals), etc: new papers, full text when open access
-   │
-Triage     free rule-based filter (~1,200 papers/week -> ~100): abstract check + full-text naming scan
-   │        to catch methods named only in Results
-   │
-classify    cheap language model reads each candidate -> structured labels + quoted evidence   [next phase]
-   │
-review        weekly pull request and review
-              
-   │
-masterlist/methods/*.yaml   one file per method (continuously growing ground truth database) -> METHODS.md, docs/methods.json/.csv, llms.txt
+Fetch      bioRxiv/medRxiv + Europe PMC (PubMed journals), etc:
+   |       new papers, full text when open access
+   |
+Triage     free rule-based filter (~1,200 papers/week -> ~100):
+   |       abstract check + full-text naming scan
+   |       to catch methods named only in Results
+   |
+Classify   cheap language model reads each candidate
+   |       -> structured labels + quoted evidence   [next phase]
+   |
+Review     weekly pull request and review
+   |
+Masterlist masterlist/methods/*.yaml: one file per method
+           (continuously growing ground truth database)
+           -> METHODS.md, docs/methods.json/.csv, llms.txt
 ```
 
 
