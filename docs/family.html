@@ -6,7 +6,7 @@
 <title>Seq-Browser Family Tree</title>
 <meta name="description" content="How sequencing methods descend from and build on one another, laid out over time.">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish2">
+<link rel="stylesheet" href="style.css?v=20261109-polish3">
 <style>
   html, body { background:#0b0e1a; }   /* any unpainted tile shows dark, never white */
   body { overflow:hidden; }
@@ -60,7 +60,7 @@
 <body class="fam">
 <header>
   <a class="logo" href="index.html" aria-label="Seq-Browser home"><img src="brand/seqbrowser-icon-dark.svg" alt="Seq-Browser logo"></a>
-  <div><h1>Seq-Browser</h1><p>How sequencing methods descend from one another.</p></div>
+  <div><h1>Seq-Browser</h1><p>What are the relationships of sequencing methods?</p></div>
   <nav><a href="index.html">Table</a><a href="family.html" aria-current="page">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <div id="stage">
@@ -137,6 +137,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
     const rs = split(n.readouts), ps = parentsOf(n).map(p => split(byId.get(p).readouts));
     if (!ps.length) return rs[0];
     const score = r => ps.filter(a => a.includes(r)).length;
+    if (score(rs[0]) === 0) return rs[0];   // the primary readout is new to this lineage (e.g. Paired-Damage-seq: DNA damage), so it takes the method's lane
     const best = Math.max(...rs.map(score));
     return best === 0 ? rs[0] : rs.find(r => score(r) === best);   // rs order breaks ties, so the primary still wins
   }

@@ -7,20 +7,20 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish2">
+<link rel="stylesheet" href="style.css?v=20261109-polish3">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated browser of sequencing-based assays."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
 <header>
   <a class="logo" href="index.html" aria-label="Seq-Browser home"><picture><source media="(prefers-color-scheme: dark)" srcset="brand/seqbrowser-icon-dark.svg"><img src="brand/seqbrowser-icon.svg" alt="Seq-Browser logo"></picture></a>
-  <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing-based assays.</p></div>
+  <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing-based assays</p></div>
   <nav><a href="index.html" aria-current="page">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <main>
   <div class="bar">
     <input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search">
     <span class="count" id="count"></span>
-    <a class="btn" href="methods.csv" download>Download CSV</a><a class="btn" href="methods.json" download>JSON</a>
+    <a class="btn" href="methods.csv" download>Download CSV</a>
   </div>
   <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
   <div id="active"></div>
@@ -35,7 +35,11 @@
   <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>. Citation counts from Crossref, refreshed weekly.</div>
 </main>
 <script>
-const FACETS = [["readouts","Readout"],["resolution","Resolution"],["temporal","Temporal"],["perturbation","Perturbation"],["scope","Scope"],["chemistry","Chemistry"],["platform","Platform"]];
+// _bar / _chem split the chemistry tags: how cells are kept apart (barcoding) vs. what is done to the molecules (chemistry)
+const PART = new Set(["combinatorial-indexing","split-pool-barcoding","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
+const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"]];
+// dropdowns on screen: resolution, over-time and scope share one panel with section headings
+const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]}];
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
 const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
 const split = s => (s || "").split("; ").filter(Boolean);
@@ -44,10 +48,15 @@ let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
 
 fetch("methods.json").then(r => r.json()).then(j => {
   data = j.methods.filter(m => m.category === "wet");
+  data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); });
   FACETS.forEach(([k]) => on[k] = new Set());
-  document.getElementById("facets").innerHTML = FACETS.map(([k, label]) => {
-    const vals = [...new Set(data.flatMap(m => split(m[k])))].sort();
-    return `<div class="fg"><span class="cap">${label}</span><details class="dd" data-k="${k}"><summary><span class="sv" id="n-${k}">Any</span></summary><div class="dpanel">${vals.map(v => `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(v)}</label>`).join("")}</div></details></div>`;
+  const LAB = Object.fromEntries(FACETS);
+  document.getElementById("facets").innerHTML = DDS.map((d, i) => {
+    const body = d.keys.map(k => {
+      const vals = [...new Set(data.flatMap(m => split(m[k])))].sort();
+      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(v)}</label>`).join("");
+    }).join("");
+    return `<div class="fg"><span class="cap">${d.label}</span><details class="dd"><summary><span class="sv" id="n-${i}">Any</span></summary><div class="dpanel">${body}</div></details></div>`;
   }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
   document.querySelectorAll("#facets input").forEach(b => b.onchange = () => { const s = on[b.dataset.k]; b.checked ? s.add(b.dataset.v) : s.delete(b.dataset.v); render(); });
   document.querySelectorAll("details.dd").forEach(d => d.ontoggle = () => { if (d.open) document.querySelectorAll("details.dd").forEach(o => { if (o !== d) o.open = false; }); });
@@ -82,8 +91,8 @@ function render() {
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("");
-  { const k2 = FACETS.filter(([k]) => on[k].size).length; document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
-  FACETS.forEach(([k]) => { const n = document.getElementById("n-" + k); n.textContent = on[k].size ? (on[k].size === 1 ? [...on[k]][0] : on[k].size + " selected") : "Any"; n.classList.toggle("on", on[k].size > 0); n.closest("details").classList.toggle("has", on[k].size > 0); });
+  { const k2 = FACETS.reduce((a, [k]) => a + on[k].size, 0); document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
+  DDS.forEach((d, i) => { const sel = d.keys.flatMap(k => [...on[k]]), n = document.getElementById("n-" + i); n.textContent = sel.length ? (sel.length === 1 ? sel[0] : sel.length + " selected") : "Any"; n.classList.toggle("on", sel.length > 0); n.closest("details").classList.toggle("has", sel.length > 0); });
   document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(v)} ×</button>`)).join("");
   document.querySelectorAll("#active .chip").forEach(c => c.onclick = () => { on[c.dataset.rk].delete(c.dataset.rv); const cb = [...document.querySelectorAll("#facets input")].find(x => x.dataset.k === c.dataset.rk && x.dataset.v === c.dataset.rv); if (cb) cb.checked = false; render(); });
   drawer();
@@ -101,7 +110,7 @@ function drawer() {
   const grp = FACETS.map(([k, lab]) => split(m[k]).length ? `<div class="dg"><b>${lab}</b>${split(m[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "").join("");
   const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("");
   el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
-    <p>${esc(m.summary)}</p>${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
+    <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
     <p class="meta">${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>
     <p class="links">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">Paper</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">Paper</a>` : ""}${m.protocol ? ` · <a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : ""}${m.code ? ` · <a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : ""} · <a href="family.html">Family graph</a></p>
     <button class="btn" id="dcmp" type="button">${cmp.includes(m.id) ? "Remove from compare" : "Add to compare"}</button>`;
