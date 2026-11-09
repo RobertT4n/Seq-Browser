@@ -100,5 +100,6 @@ chemistry:           # key molecular steps; an assay usually has several
   - amplicon-pcr            # targeted PCR amplicons as the library (panels, barcode genes)
   - sample-preservation     # chemistry that stabilises samples before library prep (e.g. biosilicification)
   - hydrogel-compartmentalization  # cells isolated by a hydrogel instead of droplets/wells (virtual microfluidics)
+  - particle-templated-emulsion  # vortexing makes monodisperse emulsions around hydrogel particles; no microfluidic device (PIP-seq; PTE step of magniFIND-seq)
   - microwell-array         # cells settle into an array of picolitre wells with barcoded beads (Seq-Well, Microwell-seq)
   - spatial-barcode-array   # position-barcoded capture surface / beads; resolution comes from the array (Stereo-seq, Slide-seq)
