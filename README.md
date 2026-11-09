@@ -21,22 +21,19 @@ Seq-Browser catalogues them and keeps the list up to date automatically.
 ## How it works
 
 ```
-fetch.py      bioRxiv/medRxiv + Europe PMC (PubMed journals): new papers, full text when open access
+Fetch      bioRxiv/medRxiv + Europe PMC (PubMed journals), etc: new papers, full text when open access
    │
-triage.py     free rule-based filter (~1,200 papers/week -> ~100): abstract check + full-text naming scan
-   │          ("an approach we call X", "creating X, which ...") to catch methods named only in Results
+Triage     free rule-based filter (~1,200 papers/week -> ~100): abstract check + full-text naming scan
+   │        to catch methods named only in Results
    │
-classify      language model reads each candidate -> structured labels + quoted evidence   [next phase]
+classify    cheap language model reads each candidate -> structured labels + quoted evidence   [next phase]
    │
-review        weekly pull request; a human approves/rejects each candidate
-              (website submissions join here with priority: no triage discard, 3-pass classifier check)
+review        weekly pull request and review
+              
    │
-masterlist/methods/*.yaml   one file per method (the source of truth)
-   │
-build.py      validates every entry against taxonomy.yaml -> METHODS.md, docs/methods.json/.csv, llms.txt
+masterlist/methods/*.yaml   one file per method (continuously growing ground truth database) -> METHODS.md, docs/methods.json/.csv, llms.txt
 ```
 
-Any push that changes `masterlist/` rebuilds the outputs automatically (`.github/workflows/build.yml`).
 
 ## Labels
 
@@ -47,15 +44,5 @@ Computational (dry) methods are collected but kept "under construction" until cu
 
 ## Submitting a method
 
-Use the **[Submit page](https://robertt4n.github.io/Seq-Browser/submit.html)**, which opens a pre-filled submission issue. Submissions:
-
-1. are collected by the weekly pipeline (`pipeline/submissions.py`) with priority,
-2. skip triage's discard rules entirely,
-3. are only discarded if three independent classifier passes all reject them,
-4. are reviewed by a curator before anything enters the masterlist.
-
-Please don't open pull requests that edit `masterlist/` directly; they won't be merged.
-
-## Benchmark
-
-`benchmark/benchmark.yaml` holds deliberately hard papers (method named only in Results, dry vs wet, papers that use but don't invent a method). `python pipeline/benchmark.py` scores the pipeline against them; every pipeline change must keep them passing.
+Use the **[Submit page](https://robertt4n.github.io/Seq-Browser/submit.html)**, which opens a pre-filled submission issue. 
+Submissions by this approach are added to the weekly trawl with priority.
