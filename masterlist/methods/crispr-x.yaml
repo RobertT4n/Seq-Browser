@@ -1,0 +1,26 @@
+name: CRISPR-X
+category: wet
+summary: dCas9 with MS2-recruited AID variants generates local mutagenesis around sgRNA targets in endogenous loci, followed
+  by selection and sequencing of enriched variants.
+readouts:
+- functional-screen
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- saturation-editing
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/nmeth.4038
+  year: 2016
+  journal: Nat Methods
+  first_author: Hess GT
+  last_author: Bassik MC
+  pmid: '27798611'
+  pmcid: PMC5557288
+  title: Directed evolution using dCas9-targeted somatic hypermutation in mammalian cells
+links: {}
+added: '2026-11-09'
+evidence: We describe CRISPR-X, a method for directed evolution using dCas9-targeted somatic hypermutation in mammalian cells.

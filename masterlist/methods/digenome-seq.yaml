@@ -1,0 +1,24 @@
+name: Digenome-seq
+full_name: Digested genome sequencing
+category: wet
+summary: Cas9-digested versus undigested genomic DNA is whole-genome sequenced and the vertically aligned read ends reveal
+  in vitro cleavage sites.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/nmeth.3284
+  year: 2015
+  journal: Nat Methods
+  first_author: Kim D
+  last_author: Kim JS
+  pmid: '25664545'
+  title: 'Digenome-seq: genome-wide profiling of CRISPR-Cas9 off-target effects in human cells'
+links: {}
+added: '2026-11-09'
+evidence: We present Digenome-seq, which uses in vitro Cas9-digested human genomic DNA sequenced by whole-genome sequencing
+  to profile off-target effects.

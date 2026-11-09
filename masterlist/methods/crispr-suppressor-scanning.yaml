@@ -1,0 +1,29 @@
+name: CRISPR-suppressor scanning
+aliases:
+- CRISPR-Cas mutagenesis scanning
+category: wet
+summary: Cas9 sgRNAs tiled across essential genes generate in-frame mutants whose enrichment under drug treatment identifies
+  drug targets and resistance mutations.
+readouts:
+- functional-screen
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+- chemical-perturbation
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41467-017-02349-8
+  year: 2018
+  journal: Nat Commun
+  first_author: Neggers JE
+  last_author: Daelemans D
+  pmid: '29402884'
+  pmcid: PMC5799254
+  title: Target identification of small molecules using large-scale CRISPR-Cas mutagenesis scanning of essential genes
+links: {}
+added: '2026-11-09'
+evidence: We describe large-scale CRISPR-Cas mutagenesis scanning of essential genes for target identification of small molecules.

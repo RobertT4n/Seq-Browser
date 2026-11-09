@@ -1,0 +1,25 @@
+name: GUIDE-seq
+full_name: Genome-wide, unbiased identification of DSBs enabled by sequencing
+category: wet
+summary: A blunt double-stranded oligo is captured into Cas9-induced double-strand breaks in living cells, and tag-anchored
+  amplification maps off-target cleavage sites genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+reference:
+  doi: 10.1038/nbt.3117
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Tsai SQ
+  last_author: Joung JK
+  pmid: '25513782'
+  pmcid: PMC4320685
+  title: GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases
+links: {}
+added: '2026-11-09'
+evidence: We describe GUIDE-seq, which enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases.

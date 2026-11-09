@@ -1,0 +1,23 @@
+name: Detect-seq
+category: wet
+summary: Chemical labelling and biotin pull-down of deaminase-generated uracils in genomic DNA maps cytosine base editor off-target
+  edits genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- lesion-excision
+reference:
+  doi: 10.1038/s41592-021-01172-w
+  year: 2021
+  journal: Nat Methods
+  first_author: Lei Z
+  last_author: Yi C
+  pmid: '34099937'
+  title: Detect-seq reveals out-of-protospacer editing and target-strand editing by cytosine base editors
+links: {}
+added: '2026-11-09'
+evidence: Detect-seq reveals out-of-protospacer editing and target-strand editing by cytosine base editors.

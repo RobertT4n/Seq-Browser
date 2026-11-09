@@ -1,0 +1,26 @@
+name: HTGTS
+full_name: High-throughput genome-wide translocation sequencing
+category: wet
+summary: Translocation junctions between a nuclease-induced bait break and other genomic breaks are amplified and sequenced
+  to map nuclease off-targets.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+reference:
+  doi: 10.1038/nbt.3101
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Frock RL
+  last_author: Alt FW
+  pmid: '25503383'
+  pmcid: PMC4320661
+  title: Genome-wide detection of DNA double-stranded breaks induced by engineered nucleases
+links: {}
+added: '2026-11-09'
+evidence: We describe high-throughput genome-wide translocation sequencing for detecting double-stranded breaks induced by
+  engineered nucleases.

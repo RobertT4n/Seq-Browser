@@ -1,0 +1,24 @@
+name: CIRCLE-seq
+full_name: Circularization for in vitro reporting of cleavage effects by sequencing
+category: wet
+summary: Genomic DNA is circularized, digested with Cas9 in vitro, and only the cleaved linearized molecules are sequenced
+  to list nuclease off-target sites.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/nmeth.4278
+  year: 2017
+  journal: Nat Methods
+  first_author: Tsai SQ
+  last_author: Joung JK
+  pmid: '28459458'
+  pmcid: PMC5924695
+  title: 'CIRCLE-seq: a highly sensitive in vitro screen for genome-wide CRISPR-Cas9 nuclease off-targets'
+links: {}
+added: '2026-11-09'
+evidence: We describe CIRCLE-seq, a highly sensitive in vitro screen for genome-wide CRISPR-Cas9 nuclease off-targets.

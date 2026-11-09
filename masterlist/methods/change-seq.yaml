@@ -1,0 +1,28 @@
+name: CHANGE-seq
+full_name: Circularization for high-throughput analysis of nuclease genome-wide effects by sequencing
+category: wet
+summary: Tagmentation-based, high-throughput version of circularized in vitro cleavage profiling that maps Cas9 genome-wide
+  activity across many genomic DNA samples.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- adapter-ligation
+variant_of:
+- circle-seq
+reference:
+  doi: 10.1038/s41587-020-0555-7
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Lazzarotto CR
+  last_author: Tsai SQ
+  pmid: '32541958'
+  pmcid: PMC7652380
+  title: CHANGE-seq reveals genetic and epigenetic effects on CRISPR-Cas9 genome-wide activity
+links: {}
+added: '2026-11-09'
+evidence: Here we present CHANGE-seq, a scalable, automatable tagmentation-based method for measuring the genome-wide activity
+  of Cas9 in vitro.

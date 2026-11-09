@@ -1,0 +1,25 @@
+name: EndoV-seq
+full_name: Endonuclease V sequencing
+category: wet
+summary: Endonuclease V cleaves at inosines made by adenine base editors in purified genomic DNA, and sequencing of cut sites
+  profiles ABE specificity genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+- adapter-ligation
+reference:
+  doi: 10.1038/s41467-018-07988-z
+  year: 2019
+  journal: Nat Commun
+  first_author: Liang P
+  last_author: Songyang Z
+  pmid: '30622278'
+  pmcid: PMC6325126
+  title: Genome-wide profiling of adenine base editor specificity by EndoV-seq
+links: {}
+added: '2026-11-09'
+evidence: We develop EndoV-seq, which uses endonuclease V to profile genome-wide adenine base editor specificity.

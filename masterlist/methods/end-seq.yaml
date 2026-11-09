@@ -1,0 +1,23 @@
+name: END-seq
+category: wet
+summary: Exonuclease trimming and ligation of adapters to blunted DNA ends maps double-strand breaks and the extent of end
+  resection genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1016/j.molcel.2016.06.034
+  year: 2016
+  journal: Mol Cell
+  first_author: Canela A
+  last_author: Nussenzweig A
+  pmid: '27477910'
+  pmcid: PMC6299834
+  title: DNA Breaks and End Resection Measured Genome-wide by End Sequencing
+links: {}
+added: '2026-11-09'
+evidence: We describe END-seq, which measures DNA breaks and end resection genome-wide by end sequencing.

@@ -1,0 +1,23 @@
+name: SITE-seq
+full_name: Selective enrichment and identification of tagged genomic DNA ends by sequencing
+category: wet
+summary: Cas9 ribonucleoprotein cuts purified genomic DNA, cut ends are biotin-tagged and enriched, and sequencing maps cleavage
+  sites across enzyme concentrations.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/nmeth.4284
+  year: 2017
+  journal: Nat Methods
+  first_author: Cameron P
+  last_author: May AP
+  pmid: '28459459'
+  title: Mapping the genomic landscape of CRISPR-Cas9 cleavage
+links: {}
+added: '2026-11-09'
+evidence: We developed SITE-Seq, a biochemical method that maps the genomic landscape of CRISPR-Cas9 cleavage.
