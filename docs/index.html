@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261108-brand3">
+<link rel="stylesheet" href="style.css?v=20261109-phone1">
 </head>
 <body>
 <header>
@@ -21,7 +21,7 @@
     <span class="count" id="count"></span>
     <a class="btn" href="methods.csv" download>Download CSV</a><a class="btn" href="methods.json" download>JSON</a>
   </div>
-  <div id="facets"></div>
+  <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
   <div id="active"></div>
   <table>
     <thead><tr>
@@ -79,6 +79,7 @@ function render() {
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("");
+  { const k2 = FACETS.filter(([k]) => on[k].size).length; document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
   FACETS.forEach(([k]) => { const n = document.getElementById("n-" + k); n.textContent = on[k].size ? (on[k].size === 1 ? [...on[k]][0] : on[k].size + " selected") : "Any"; n.classList.toggle("on", on[k].size > 0); n.closest("details").classList.toggle("has", on[k].size > 0); });
   document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(v)} ×</button>`)).join("");
   document.querySelectorAll("#active .chip").forEach(c => c.onclick = () => { on[c.dataset.rk].delete(c.dataset.rv); const cb = [...document.querySelectorAll("#facets input")].find(x => x.dataset.k === c.dataset.rk && x.dataset.v === c.dataset.rv); if (cb) cb.checked = false; render(); });
@@ -119,5 +120,6 @@ function cmpOpen(v) {
 </script>
 <aside id="drawer" aria-label="Method details"></aside><div id="cmpbar"></div><div id="cmp"></div>
 <script src="visitor-counter.js?v=20261028-counter3" defer></script>
+<script>try{if(innerWidth<641)document.getElementById("fwrap").open=false}catch(e){}</script>
 </body>
 </html>
