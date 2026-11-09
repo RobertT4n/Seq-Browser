@@ -295,7 +295,7 @@
    "summary": "Replication timing from EdU-labelled S-phase cells sorted by a cell-cycle marker and DNA content, with multiplexed EdU-seq.",
    "protocol": null,
    "code": null,
-   "needs_review": "labels inferred from Fig. 2 only; confirm chemistry",
+   "needs_review": null,
    "how": ""
   },
   {
@@ -394,7 +394,7 @@
    "summary": "3C library read out with multiplexed ligation-mediated amplification of many primer pairs, mapping all contacts among chosen loci.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -443,7 +443,7 @@
    "temporal": "",
    "perturbation": "",
    "platform": "",
-   "chemistry": "reverse-transcription",
+   "chemistry": "reverse-transcription; droplet-microfluidics",
    "variant_of": "",
    "builds_on": "",
    "children": "",
@@ -460,7 +460,7 @@
    "summary": "Single-cell BCR sequencing that pairs heavy and light chains with a DNA-barcoded antigen-binding affinity score.",
    "protocol": null,
    "code": null,
-   "needs_review": "CHEMISTRY: cell partitioning not stated in abstract; check Methods",
+   "needs_review": null,
    "how": ""
   },
   {
@@ -1549,7 +1549,7 @@
    "summary": "Hi-C using a bridge linker to join restriction-digested ends in situ, improving efficiency and sensitivity.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -2836,7 +2836,7 @@
    "summary": "Single-cell method profiling 3D genome conformation, histone modifications, chromatin accessibility and gene expression in the same cell.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -2935,7 +2935,7 @@
    "summary": "Droplet barcoding of single chromatin complexes after ChIP to map multiplex chromatin interactions without proximity ligation.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -3133,7 +3133,7 @@
    "summary": "Biotinylated tiling oligos pull down a specific RNA with its chromatin, giving that RNA's genomic binding sites.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -3199,7 +3199,7 @@
    "summary": "Multiplexed FISH imaging that traces the 3D path of chromatin domains in single cells by sequential probe hybridisation.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -3595,7 +3595,7 @@
    "summary": "Perturb-seq with CRISPR activation of single genes and gene pairs, reading single-cell transcriptomes to map genetic interactions.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -3958,7 +3958,7 @@
    "summary": "CRISPRi screens in human iPSC-derived neurons with survival, sorting and single-cell RNA readouts to find genes needed in neurons.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -3991,7 +3991,7 @@
    "summary": "Perturb-seq with dCas9-KRAB gene repression instead of knockout, used to map genetic interactions in the unfolded protein response from single-cell transcriptomes.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -4024,7 +4024,7 @@
    "summary": "CRISPRi guides tiled across regulatory regions near a gene, with sorted cells and guide sequencing used to find the enhancers that control that gene.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -4057,7 +4057,7 @@
    "summary": "Pooled genome-scale screens using dCas9 fused to a repressor or activator, with guide abundance counted by sequencing to score gene repression or activation phenotypes.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -4387,7 +4387,7 @@
    "summary": "Dam methylation-based readout of chromatin contacts in living cells, avoiding crosslinking and ligation.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -5212,7 +5212,7 @@
    "summary": "Hi-C streamlined with a bridge-linker ligation of digested ends and no biotin pull-down, cutting steps and cost.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -5245,7 +5245,7 @@
    "summary": "Sequential FISH imaging of thousands of genomic loci plus RNAs and nuclear markers in single nuclei.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -5278,7 +5278,7 @@
    "summary": "Genome-scale MERFISH imaging of chromatin loci with nascent-RNA readout, tracing 3D genome organisation in single cells.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -5311,7 +5311,7 @@
    "summary": "Hi-C in which DNase I replaces restriction digestion, giving higher-resolution contact maps independent of restriction-site density.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -6994,7 +6994,7 @@
    "summary": "Single-molecule chromatin accessibility on long reads: a methyltransferase marks accessible DNA with m6A, read out by PacBio sequencing of the same molecule.",
    "protocol": null,
    "code": null,
-   "needs_review": "check: added from memory of the literature (Robert asked for more long-read methods); platform and chemistry tags to be confirmed against the paper",
+   "needs_review": null,
    "how": "Intact chromatin is treated with a non-specific N6-adenine methyltransferase (Hia5). It methylates DNA only where nucleosomes are absent, so each accessible stretch of a molecule gets m6A marks. The DNA is then sequenced on PacBio HiFi, which reads m6A directly, so one 10-20 kb read shows nucleosome positions, regulatory elements and transcription-factor footprints together with the underlying sequence and CpG methylation."
   },
   {
@@ -7027,7 +7027,7 @@
    "summary": "Unified platform and inference engine (FiberHMM) converting single-molecule footprinting datasets into a common per-molecule representation.",
    "protocol": null,
    "code": null,
-   "needs_review": "RESOLUTION: single-molecule is not a taxonomy term; bulk and single-cell (scDAF-seq) set; FiberHMM engine not recorded as separate method",
+   "needs_review": null,
    "how": ""
   },
   {
@@ -7192,7 +7192,7 @@
    "summary": "Full-length mRNA sequencing that reads the whole transcript including the poly(A) tail on long reads.",
    "protocol": null,
    "code": null,
-   "needs_review": "check: added from memory of the literature (Robert asked for more long-read methods); platform and chemistry tags to be confirmed against the paper",
+   "needs_review": null,
    "how": ""
   },
   {
@@ -7757,6 +7757,39 @@
    "how": ""
   },
   {
+   "id": "gcla-seq",
+   "name": "GCLA-seq",
+   "full_name": "Glycosylase-Cleavage Ligation-Assisted sequencing",
+   "aliases": "",
+   "category": "wet",
+   "domains": "genome",
+   "readouts": "dna-damage",
+   "resolution": "bulk",
+   "scope": "genome-wide",
+   "temporal": "",
+   "perturbation": "",
+   "platform": "",
+   "chemistry": "lesion-excision; adapter-ligation",
+   "variant_of": "",
+   "builds_on": "",
+   "children": "",
+   "year": 2026,
+   "date": null,
+   "first_author": "Xie NB",
+   "last_author": "Yuan BF",
+   "journal": "Anal Chem",
+   "title": "Genome-Wide Detection of DNA Lesions at Single-Base Resolution Using Glycosylase-Cleavage Ligation-Assisted Sequencing",
+   "doi": "10.1021/acs.analchem.6c04379",
+   "url": null,
+   "citations": null,
+   "preprint": false,
+   "summary": "Glycosylase excision of lesions followed by T4 DNA ligase-based enrichment maps uracil, 8-oxoG and AP sites genome-wide at single-base resolution.",
+   "protocol": null,
+   "code": null,
+   "needs_review": null,
+   "how": ""
+  },
+  {
    "id": "gecko",
    "name": "GeCKO",
    "full_name": "Genome-scale CRISPR-Cas9 knockout",
@@ -8017,7 +8050,7 @@
    "summary": "CRISPRi Perturb-seq scaled to every expressed gene in two cell lines, giving a single-cell transcriptome for each knockdown across millions of cells.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -8611,7 +8644,7 @@
    "summary": "Improved Hi-C protocol using two restriction enzymes and dual crosslinking to capture both loops and compartments.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -8677,7 +8710,7 @@
    "summary": "Imaging method that visualises chromatin folding of loci together with RNA expression in the same cell by sequential FISH.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -8710,7 +8743,7 @@
    "summary": "Trac-looping derivative that reads chromatin loops among accessible regions at high resolution with low input.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -9403,7 +9436,7 @@
    "summary": "Sequences genomic DNA in place inside intact cells after Tn5 tagging and amplification, recovering sequence and 3D position.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -9535,7 +9568,7 @@
    "summary": "In situ version of MARGI that ligates RNA to DNA within crosslinked nuclei to map all RNA-chromatin contacts.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -9733,7 +9766,7 @@
    "summary": "Perturb-seq run inside the developing mouse brain, with knockouts of autism risk genes read out per cell by single-cell RNA-seq.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -10822,7 +10855,7 @@
    "summary": "Hi-C on chromatin fragmented in solution, probing compartment-dependent interaction dynamics.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -10988,6 +11021,39 @@
    "protocol": null,
    "code": null,
    "needs_review": true,
+   "how": ""
+  },
+  {
+   "id": "lotr-seq",
+   "name": "LOTR-Seq",
+   "full_name": "long-read genotyping of transcripts",
+   "aliases": "",
+   "category": "wet",
+   "domains": "genome; transcriptome",
+   "readouts": "genome-sequence; rna",
+   "resolution": "single-cell",
+   "scope": "targeted",
+   "temporal": "",
+   "perturbation": "",
+   "platform": "long-read",
+   "chemistry": "reverse-transcription; long-read-sequencing",
+   "variant_of": "",
+   "builds_on": "",
+   "children": "",
+   "year": 2026,
+   "date": null,
+   "first_author": "Grabek J",
+   "last_author": "Lane SW",
+   "journal": "Blood Adv",
+   "title": "Single-cell long-read genotyping of transcripts reveals discrete mechanisms of clonal evolution in post-MPN AML",
+   "doi": "10.1182/bloodadvances.2025018902",
+   "url": null,
+   "citations": null,
+   "preprint": false,
+   "summary": "Long-read sequencing of full-length cDNA genotypes up to 30 expressed genes per cell, linking mutations to single-cell transcriptomes.",
+   "protocol": null,
+   "code": null,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -11482,7 +11548,7 @@
    "summary": "Proximity ligation of chromatin-associated RNA to genomic DNA through a linker, read out by paired RNA-DNA sequencing.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -11812,7 +11878,7 @@
    "summary": "4C read on long reads so that all contacts of a viewpoint on a single DNA molecule are captured, revealing multi-way hubs.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -13099,7 +13165,7 @@
    "summary": "Single-cell CRISPRi of many enhancers at once, reading each cell's transcriptome and its enhancer guide set to measure how each enhancer shapes gene expression.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -13151,7 +13217,7 @@
    "chemistry": "reverse-transcription",
    "variant_of": "",
    "builds_on": "",
-   "children": "nap-trap",
+   "children": "nap-trap; sc-lentimpra",
    "year": 2012,
    "date": "2012-02-26",
    "first_author": "Melnikov A",
@@ -14419,7 +14485,7 @@
    "summary": "Pooled CRISPR screens read out by microscopy: guides are identified by in situ sequencing in each cell, linking perturbation to imaged phenotype.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -14452,7 +14518,7 @@
    "summary": "Sequential FISH tracing of chromatin folding at kilobase resolution combined with RNA readout in single cells.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -15211,7 +15277,7 @@
    "summary": "Pooled in vivo CRISPR knockout screening read out by spatial imaging of protein-barcoded perturbed clones and spatial transcriptomics in tumours.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -16469,6 +16535,39 @@
    "how": ""
   },
   {
+   "id": "pride-ngs",
+   "name": "PRIDE-NGS",
+   "full_name": "Powerful Recovery and Improved Dimer Elimination",
+   "aliases": "",
+   "category": "wet",
+   "domains": "genome",
+   "readouts": "genome-sequence",
+   "resolution": "bulk",
+   "scope": "targeted",
+   "temporal": "",
+   "perturbation": "",
+   "platform": "",
+   "chemistry": "adapter-ligation",
+   "variant_of": "",
+   "builds_on": "",
+   "children": "",
+   "year": 2026,
+   "date": null,
+   "first_author": "Jeong H",
+   "last_author": "Jung C",
+   "journal": "Clin Chem",
+   "title": "Enhancing Next-Generation Sequencing Sensitivity with High-Recovery Adapter Ligation and Cas9-Mediated Dimer Elimination",
+   "doi": "10.1093/clinchem/hvag052",
+   "url": null,
+   "citations": null,
+   "preprint": false,
+   "summary": "Library-prep strategy that raises adapter ligation efficiency and removes adapter dimers by Cas9 cleanup, improving detection of ultra-low-frequency variants in cfDNA.",
+   "protocol": null,
+   "code": null,
+   "needs_review": null,
+   "how": ""
+  },
+  {
    "id": "primary-t-cell-crispra-i-screens",
    "name": "Primary T cell CRISPRa/i screens",
    "full_name": "",
@@ -16498,7 +16597,7 @@
    "summary": "Genome-wide CRISPR activation and interference screens in primary human T cells, sorted on cytokine output, with single-cell readouts for selected hits.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -16663,7 +16762,7 @@
    "summary": "Hi-C library enriched with biotinylated oligos against all promoters, mapping long-range promoter contacts.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -16993,7 +17092,7 @@
    "summary": "Proximity ligation of RNA to DNA in intact nuclei with enzymatic chromatin digestion, mapping genome-wide RNA-chromatin contacts.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -17092,7 +17191,7 @@
    "summary": "Long biotinylated antisense probes capture a target RNA under stringent conditions to map its genomic contact sites.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -17224,7 +17323,7 @@
    "summary": "SPRITE extension that barcodes RNA together with DNA in the same complexes, mapping RNA positions within 3D nuclear structure.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -17389,7 +17488,7 @@
    "summary": "Proximity ligation of RNA to DNA via a bridge adapter after restriction digestion, mapping RNA-DNA contacts genome-wide.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -18248,6 +18347,39 @@
    "protocol": null,
    "code": null,
    "needs_review": true,
+   "how": ""
+  },
+  {
+   "id": "sc-lentimpra",
+   "name": "sc-lentiMPRA",
+   "full_name": "single-cell lentiviral Massively Parallel Reporter Assay",
+   "aliases": "",
+   "category": "wet",
+   "domains": "functional; transcriptome",
+   "readouts": "functional-screen; rna",
+   "resolution": "single-cell",
+   "scope": "targeted",
+   "temporal": "",
+   "perturbation": "reporter-assay",
+   "platform": "",
+   "chemistry": "reverse-transcription",
+   "variant_of": "mpra",
+   "builds_on": "",
+   "children": "",
+   "year": 2026,
+   "date": null,
+   "first_author": "R\u00fchle J",
+   "last_author": "Velten L",
+   "journal": "Genome Biol",
+   "title": "Lentiviral single-cell MPRA of synthetic enhancers reveals motif affinity-based encoding of cell state specificity",
+   "doi": "10.1186/s13059-026-04186-9",
+   "url": null,
+   "citations": null,
+   "preprint": false,
+   "summary": "Lentiviral MPRA in which barcoded synthetic enhancer reporters are read out together with the transcriptome of single cells during differentiation.",
+   "protocol": null,
+   "code": null,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -24191,6 +24323,39 @@
    "how": ""
   },
   {
+   "id": "spin-seq",
+   "name": "SPIN-Seq",
+   "full_name": "Single-molecule Phenotyping and In-Situ Sequencing",
+   "aliases": "",
+   "category": "wet",
+   "domains": "genome",
+   "readouts": "genome-sequence",
+   "resolution": "single-molecule",
+   "scope": "targeted",
+   "temporal": "",
+   "perturbation": "",
+   "platform": "",
+   "chemistry": "in-situ-hybridization",
+   "variant_of": "",
+   "builds_on": "",
+   "children": "",
+   "year": 2026,
+   "date": null,
+   "first_author": "Hazra JP",
+   "last_author": "Kapanidis AN",
+   "journal": "Nat Commun",
+   "title": "Unraveling single-molecule reactions via multiplexed in-situ DNA sequencing",
+   "doi": "10.1038/s41467-026-77308-3",
+   "url": null,
+   "citations": null,
+   "preprint": false,
+   "summary": "Protein-free DNA method that measures a functional readout on immobilised single DNA molecules, then reads each molecule's sequence by in-situ sequencing-by-transient-hybridization on the same surface.",
+   "protocol": null,
+   "code": null,
+   "needs_review": null,
+   "how": ""
+  },
+  {
    "id": "spindrop",
    "name": "spinDrop",
    "full_name": "",
@@ -25540,7 +25705,7 @@
    "summary": "Hi-C variant that ligates crosslinked DNA while tethered to a solid support, lowering random-ligation noise.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -26332,7 +26497,7 @@
    "summary": "Maps genome position relative to a nuclear compartment such as speckles by tyramide-biotin labelling and sequencing.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {
@@ -26563,7 +26728,7 @@
    "summary": "4C with UMI-tagged ligation products for quantitative, multiplexed contact profiling from chosen viewpoints.",
    "protocol": null,
    "code": null,
-   "needs_review": true,
+   "needs_review": null,
    "how": ""
   },
   {

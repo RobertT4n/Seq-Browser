@@ -1,0 +1,25 @@
+name: GCLA-seq
+full_name: Glycosylase-Cleavage Ligation-Assisted sequencing
+category: wet
+summary: Glycosylase excision of lesions followed by T4 DNA ligase-based enrichment maps uracil, 8-oxoG and AP sites genome-wide
+  at single-base resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+- adapter-ligation
+reference:
+  doi: 10.1021/acs.analchem.6c04379
+  year: 2026
+  journal: Anal Chem
+  first_author: Xie NB
+  last_author: Yuan BF
+  pmid: '42916403'
+  title: Genome-Wide Detection of DNA Lesions at Single-Base Resolution Using Glycosylase-Cleavage Ligation-Assisted Sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce glycosylase-cleavage ligation-assisted sequencing (GCLA-seq), a method for genome-wide mapping
+  of glycosylase-targeted DNA lesions at single-base resolution.

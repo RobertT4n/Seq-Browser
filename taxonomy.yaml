@@ -44,6 +44,7 @@ resolution:
   - single-cell
   - spatial
   - subcellular
+  - single-molecule   # each read is one molecule held in place or tracked (SPIN-Seq)
 
 temporal:            # OPTIONAL. How the method captures time; leave out for ordinary snapshot assays
   - metabolic-labeling       # new vs old RNA by nucleotide analogue (e.g. 4sU): scNT-seq, sci-fate, SLAM-seq
@@ -95,6 +96,8 @@ chemistry:           # key molecular steps; an assay usually has several
   - reverse-transcription   # any RNA readout
   - dnase-digestion
   - radiation-cleavage      # ionizing radiation cuts DNA; correlated break ends report structure (RICC-seq)
+  - adapter-ligation        # ligation of sequencing adapters is the step that defines the method (library-prep methods, PRIDE-NGS)
+  - lesion-excision         # an enzyme (e.g. glycosylase) cuts at a damaged or modified base to expose it (GCLA-seq)
   - organic-extraction      # e.g. FAIRE phenol-chloroform partitioning
   - microfluidic-chip       # e.g. Fluidigm C1 chambers (not droplets)
   - amplicon-pcr            # targeted PCR amplicons as the library (panels, barcode genes)

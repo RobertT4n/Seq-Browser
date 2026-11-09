@@ -1,0 +1,30 @@
+name: LOTR-Seq
+full_name: long-read genotyping of transcripts
+category: wet
+summary: Long-read sequencing of full-length cDNA genotypes up to 30 expressed genes per cell, linking mutations to single-cell
+  transcriptomes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1182/bloodadvances.2025018902
+  year: 2026
+  journal: Blood Adv
+  first_author: Grabek J
+  last_author: Lane SW
+  pmid: '42101375'
+  pmcid: PMC13382927
+  title: Single-cell long-read genotyping of transcripts reveals discrete mechanisms of clonal evolution in post-MPN AML
+links: {}
+added: '2026-11-09'
+evidence: we developed a novel long-read genotyping pipeline of complementary DNA transcripts (long-read genotyping of transcripts
+  [LOTR]-Seq), which can genotype the full length of expressed transcripts from 30 genes at once.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,31 @@
+name: sc-lentiMPRA
+full_name: single-cell lentiviral Massively Parallel Reporter Assay
+category: wet
+summary: Lentiviral MPRA in which barcoded synthetic enhancer reporters are read out together with the transcriptome of single
+  cells during differentiation.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+variant_of:
+- mpra
+reference:
+  doi: 10.1186/s13059-026-04186-9
+  year: 2026
+  journal: Genome Biol
+  first_author: Rühle J
+  last_author: Velten L
+  pmid: '42449439'
+  pmcid: PMC13647567
+  title: Lentiviral single-cell MPRA of synthetic enhancers reveals motif affinity-based encoding of cell state specificity
+links: {}
+added: '2026-11-09'
+evidence: Here we develop a single-cell lentiviral Massively Parallel Reporter Assay (sc-lentiMPRA) that overcomes these limitations
+  and enables parallel quantification of enhancer activity and cellular transcriptome.
+partition_unknown: not stated in the abstract
