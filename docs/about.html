@@ -6,10 +6,23 @@
 <title>About Seq-Browser</title>
 <meta name="description" content="How Seq-Browser finds, classifies and curates sequencing-based assays.">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish5">
+<link rel="stylesheet" href="style.css?v=20261109-polish6">
 <style>
   .prose { max-width:780px; } .prose h2 { font-size:18px; margin:28px 0 6px; } .prose p, .prose li { color:var(--ink); }
-  .flow { margin:16px auto; padding:8px 0; max-width:860px; }   /* transparent on the cream page; multiply drops the white of the pasted journal logos */
+  .top { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,6fr); gap:28px; align-items:center; margin:12px 0 8px; }
+  .quad { display:grid; grid-template-columns:1fr 1fr; gap:26px 30px; position:relative; }
+  .step { background:var(--panel); border:1px solid var(--rule); border-radius:12px; padding:12px 14px 14px; position:relative; min-width:0; }
+  .step h3 { margin:0 0 4px; font-size:15px; display:flex; gap:8px; align-items:center; }
+  .step h3 i { font-style:normal; width:22px; height:22px; border-radius:50%; background:var(--accent); color:#fff; font-size:12px; display:grid; place-items:center; flex:none; }
+  .step p { margin:0; font-size:13.5px; color:var(--muted); text-wrap:pretty; }
+  .s1 { grid-area:1/1; } .s2 { grid-area:1/2; } .s3 { grid-area:2/2; } .s4 { grid-area:2/1; }
+  .step::after { position:absolute; color:var(--accent); font-size:20px; line-height:1; font-weight:700; }
+  .s1::after { content:"\2192"; right:-22px; top:50%; transform:translateY(-50%); }
+  .s2::after { content:"\2193"; bottom:-23px; left:50%; transform:translateX(-50%); }
+  .s3::after { content:"\2190"; left:-22px; top:50%; transform:translateY(-50%); }
+  .why { max-width:1100px; margin:14px 0 6px; } .why h2 { font-size:18px; margin:0 0 4px; }
+  @media (max-width:860px) { .top { grid-template-columns:1fr; } .quad { grid-template-columns:1fr; gap:22px; } .s1,.s2,.s3,.s4 { grid-area:auto; } .s1::after,.s2::after,.s3::after { content:"\2193"; left:50%; right:auto; top:auto; bottom:-23px; transform:translateX(-50%); } }
+  .flow { margin:0; padding:8px 0; }   /* transparent on the cream page; multiply drops the white of the pasted journal logos */
   .flow img { width:100%; height:auto; display:block; mix-blend-mode:multiply; }
   @media (prefers-color-scheme: dark) { .flow { background:#fff; border:1px solid var(--rule); border-radius:10px; padding:16px; } }
   dl { display:grid; grid-template-columns:120px 1fr; gap:6px 16px; } dt { font-weight:600; } dd { margin:0; color:var(--muted); }
@@ -24,19 +37,17 @@
   <nav><a href="index.html">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html" aria-current="page">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <main>
+  <div class="top">
   <div class="flow"><img src="brand/seqbrowser-workflow.svg" alt="Thousands of sequencing papers per week from journals and bioRxiv are collected through their public APIs, filtered and classified into a curated, organised list: LLM-friendly format and an intuitive web browser."></div>
+  <div class="quad">
+    <div class="step s1"><h3><i>1</i>Collect</h3><p>Every new bioRxiv/medRxiv preprint and every new PubMed journal paper, via their public APIs, with full text where it is open access.</p></div>
+    <div class="step s2"><h3><i>2</i>Filter</h3><p>Free rule-based triage cuts ~1,200 papers a week to ~100 candidates. It reads abstracts and scans full text for naming phrases (&ldquo;an approach we call&nbsp;&hellip;&rdquo;), which catches methods introduced only in the Results.</p></div>
+    <div class="step s3"><h3><i>3</i>Classify</h3><p>A language model reads each candidate and decides whether it introduces a new sequencing method, wet-lab or computational, and tags it, quoting the sentence that justifies each call.</p></div>
+    <div class="step s4"><h3><i>4</i>Publish</h3><p>The list rebuilds this website, a Markdown table and JSON/CSV downloads automatically.</p></div>
+  </div>
+  </div>
+  <div class="why"><h2>Why</h2><p>New sequencing assays appear every week, across single-cell, spatial and temporal genomics. Seq-Browser was designed to keep one curated, searchable list of them, easily readable by people and by language models.</p></div>
   <div class="prose">
-    <h2>Why</h2>
-    <p>New sequencing assays appear every week, across single-cell, spatial and temporal genomics. Seq-Browser was designed to keep one curated, searchable list of them, easily readable by people and by language models.</p>
-
-    <h2>How it works</h2>
-    <ol>
-      <li><b>Collect.</b> Every new bioRxiv/medRxiv preprint and every new PubMed journal paper, via their public APIs, with full text where it is open access.</li>
-      <li><b>Filter.</b> Free rule-based triage cuts ~1,200 papers a week to ~100 candidates. It reads abstracts and scans full text for naming phrases (&ldquo;an approach we call&nbsp;&hellip;&rdquo;), which catches methods introduced only in the Results.</li>
-      <li><b>Classify.</b> A language model reads each candidate and decides whether it introduces a new sequencing method, wet-lab or computational, and tags it, quoting the sentence that justifies each call.</li>
-      <li><b>Publish.</b> The list rebuilds this website, a Markdown table and JSON/CSV downloads automatically.</li>
-    </ol>
-
     <h2>Labels</h2>
     <dl>
       <dt>Readout</dt><dd>What is measured: 3D genome, RNA, chromatin accessibility, histone modifications, DNA methylation&hellip;</dd>
