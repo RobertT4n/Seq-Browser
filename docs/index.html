@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish4">
+<link rel="stylesheet" href="style.css?v=20261109-polish5">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated browser of sequencing-based assays."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
@@ -42,6 +42,9 @@ const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolut
 const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]}];
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
 const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
+// platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)
+const PARENT = {pacbio:"long-read", nanopore:"long-read"}, DISP = {"long-read":"Long-read (any)", pacbio:"PacBio", nanopore:"Nanopore"};
+const orderVals = v => [...v.filter(t => !PARENT[t]).flatMap(t => [t, ...v.filter(c => PARENT[c] === t)])];
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
@@ -53,8 +56,8 @@ fetch("methods.json").then(r => r.json()).then(j => {
   const LAB = Object.fromEntries(FACETS);
   document.getElementById("facets").innerHTML = DDS.map((d, i) => {
     const body = d.keys.map(k => {
-      const vals = [...new Set(data.flatMap(m => split(m[k])))].sort();
-      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(v)}</label>`).join("");
+      const vals = orderVals([...new Set(data.flatMap(m => split(m[k])))].sort());
+      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label${PARENT[v] ? ' class="sub"' : ""}><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(DISP[v] || v)}</label>`).join("");
     }).join("");
     return `<div class="fg"><span class="cap">${d.label}</span><details class="dd"><summary><span class="sv" id="n-${i}">Any</span></summary><div class="dpanel">${body}</div></details></div>`;
   }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
@@ -93,7 +96,7 @@ function render() {
 `).join("");
   { const k2 = FACETS.reduce((a, [k]) => a + on[k].size, 0); document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
   DDS.forEach((d, i) => { const sel = d.keys.flatMap(k => [...on[k]]), n = document.getElementById("n-" + i); n.textContent = sel.length ? (sel.length === 1 ? sel[0] : sel.length + " selected") : "Any"; n.classList.toggle("on", sel.length > 0); n.closest("details").classList.toggle("has", sel.length > 0); });
-  document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(v)} ×</button>`)).join("");
+  document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(DISP[v] || v)} ×</button>`)).join("");
   document.querySelectorAll("#active .chip").forEach(c => c.onclick = () => { on[c.dataset.rk].delete(c.dataset.rv); const cb = [...document.querySelectorAll("#facets input")].find(x => x.dataset.k === c.dataset.rk && x.dataset.v === c.dataset.rv); if (cb) cb.checked = false; render(); });
   drawer();
   document.querySelectorAll("tr.row").forEach(tr => tr.onclick = () => { open = open === tr.dataset.id ? null : tr.dataset.id; render(); });
