@@ -1,0 +1,26 @@
+name: ptChIP-seq
+full_name: plastid chromatin immunoprecipitation coupled with high-throughput sequencing
+category: wet
+summary: Optimized ChIP-seq procedure for genome-wide mapping of DNA-binding proteins in plastids, with high-concentration
+  crosslinking and multiplexed Illumina libraries.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1002/cpz1.70490
+  year: 2026
+  journal: Curr Protoc
+  first_author: Palomar VM
+  last_author: Wierzbicki AT
+  pmid: '42965410'
+  pmcid: PMC13723163
+  title: Genome-Wide Analysis of Protein Binding to DNA in Plastids by ptChIP-seq
+links: {}
+added: '2026-11-08'
+evidence: using plastid chromatin immunoprecipitation coupled with high-throughput sequencing (ptChIP-seq)

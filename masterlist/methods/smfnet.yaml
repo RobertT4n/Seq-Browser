@@ -1,0 +1,20 @@
+name: SMFNet
+category: dry
+summary: Generative diffusion model predicting distributions of single-molecule chromatin accessibility profiles from DNA
+  sequence.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.30.762954
+  year: 2026
+  journal: bioRxiv
+  first_author: Schwämmle T
+  last_author: Krebs AR
+  title: SMFNet reveals principles of combinatorial transcription factor assembly
+links: {}
+added: '2026-11-08'
+evidence: we introduce SMFNet, a generative diffusion model that predicts distributions of single-molecule chromatin accessibility
+  profiles from DNA sequence

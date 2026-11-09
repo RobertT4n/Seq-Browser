@@ -1,0 +1,19 @@
+name: FateDriver
+category: dry
+summary: Weakly supervised graph neural network ranking candidate regulators of a cell-fate transition from single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.27.762150
+  year: 2026
+  journal: bioRxiv
+  first_author: Sung J
+  last_author: Lee H
+  title: 'FateDriver: Weakly supervised dual-view graph learning for transition-specific prioritization of candidate regulators
+    in cellular reprogramming'
+links: {}
+added: '2026-11-08'
+evidence: We present FateDriver, a weakly supervised dual-view graph neural network

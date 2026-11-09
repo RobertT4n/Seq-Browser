@@ -1,0 +1,20 @@
+name: CALMeR
+full_name: Context-Aware Long-read MAPQ-based Rescuer
+category: dry
+summary: Context-aware MAPQ filter for long-read RNA-seq that rescues reads whose low MAPQ fits transcript context before
+  transcript quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.761703
+  year: 2026
+  journal: bioRxiv
+  first_author: Parthiban S
+  last_author: Hicks SC
+  title: Transcript quantification using context-aware MAPQ modeling
+links: {}
+added: '2026-11-08'
+evidence: We present CALMeR (Context-Aware Long-read MAPQ-based Rescuer), which conditions MAPQ filtering on transcript properties
