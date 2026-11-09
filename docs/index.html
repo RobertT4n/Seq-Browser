@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-phone2">
+<link rel="stylesheet" href="style.css?v=20261109-polish1">
 </head>
 <body>
 <header>
@@ -29,7 +29,7 @@
       <th class="hide-sm">Scope</th><th class="hide-sm">Chemistry</th><th class="hide-sm">DOI</th>
       <th class="sort num" data-key="citations">Citations</th><th class="sort num" data-key="year">Year</th>
     </tr></thead>
-    <tbody id="rows"></tbody>
+    <tbody id="rows"><tr><td class="loading" colspan="8">Loading methods…</td></tr></tbody>
   </table>
   <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>. Citation counts from Crossref, refreshed weekly.</div>
 </main>
