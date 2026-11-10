@@ -1,0 +1,21 @@
+name: InsituNet
+category: dry
+summary: Cytoscape app that turns in situ sequencing transcript localizations into interactive co-expression networks.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+reference:
+  doi: 10.1016/j.cels.2018.03.010
+  year: 2018
+  journal: Cell Syst
+  first_author: Salamon J
+  last_author: Lynn DJ
+  pmid: '29753646'
+  title: Network Visualization and Analysis of Spatially Aware Gene Expression Data with InsituNet
+links: {}
+added: '2026-11-09'
+evidence: Here, we present InsituNet, an application that converts in situ sequencing data into interactive network-based
+  visualizations, where each unique transcript is a node in the network and edges represent the spatial co-expression relationships
+  between transcripts.

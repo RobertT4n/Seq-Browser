@@ -1,0 +1,22 @@
+name: RLM
+full_name: read-level methylation
+category: dry
+summary: Fast, reference-independent tool that computes read-level methylation statistics from bisulfite sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab663
+  year: 2021
+  journal: Bioinformatics
+  first_author: Hetzel S
+  last_author: Kretzmer H
+  pmid: '34601556'
+  pmcid: PMC8686677
+  title: 'RLM: fast and simplified extraction of read-level methylation metrics from bisulfite sequencing data'
+links: {}
+added: '2026-11-09'
+evidence: To address this, we developed RLM, a fast and scalable tool for the computation of several frequently used read-level
+  methylation statistics.

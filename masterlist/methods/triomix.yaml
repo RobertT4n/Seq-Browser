@@ -1,0 +1,21 @@
+name: TrioMix
+category: dry
+summary: Maximum-likelihood tool that quantifies intrafamilial DNA contamination and Mendelian deviations in trio genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276794.122
+  year: 2022
+  journal: Genome Res
+  first_author: Yoon CJ
+  last_author: Ju YS
+  pmid: '36617634'
+  pmcid: PMC9808622
+  title: Estimation of intrafamilial DNA contamination in family trio genome sequencing using deviation from Mendelian inheritance
+links: {}
+added: '2026-11-09'
+evidence: We developed TrioMix, a maximum likelihood estimation (MLE) framework based on Mendel's law of inheritance, to quantify
+  DNA mixture between family members in genome sequencing data of parent-offspring trios.

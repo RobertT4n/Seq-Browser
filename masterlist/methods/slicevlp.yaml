@@ -1,0 +1,30 @@
+name: SLICeVLP
+full_name: Cas9 virus-like particle delivery paired with VPX-lentiviral sgRNA delivery
+category: wet
+summary: Pairs VPX-lentiviral sgRNA delivery with engineered virus-like-particle Cas9 protein delivery in primary human myeloid
+  cells, enabling knockout, base editing, CRISPRi and pooled loss-of-function screens.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+- base-editing
+- crispr-interference
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-026-03258-2
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Jung H
+  last_author: Carnevale J
+  pmid: '42608566'
+  title: Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells.
+links: {}
+added: '2026-11-09'
+evidence: We developed SLICeVLP, which pairs sgRNA delivery by VPX-lentivirus with Cas9 protein delivery by engineered VLPs,
+  and used it for pooled loss-of-function and Perturb-seq screens in human macrophages.

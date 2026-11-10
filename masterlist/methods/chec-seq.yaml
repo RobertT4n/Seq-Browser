@@ -1,0 +1,25 @@
+name: ChEC-seq
+full_name: chromatin endogenous cleavage sequencing
+category: wet
+summary: MNase fused to a protein of interest cleaves DNA at its binding sites in vivo; time-resolved sequencing of the cleavage
+  maps TF binding kinetics.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+reference:
+  doi: 10.1038/ncomms9733
+  year: 2015
+  journal: Nat Commun
+  first_author: Zentner GE
+  last_author: Henikoff S
+  pmid: '26490019'
+  pmcid: PMC4618392
+  title: ChEC-seq kinetics discriminates transcription factor binding sites by DNA sequence and shape in vivo
+links: {}
+added: '2026-11-09'
+evidence: Here we report the combination of ChEC with high-throughput sequencing (ChEC-seq) to map budding yeast transcription
+  factor (TF) binding.

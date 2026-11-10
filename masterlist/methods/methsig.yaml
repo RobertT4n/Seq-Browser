@@ -1,0 +1,21 @@
+name: MethSig
+category: dry
+summary: Statistical framework that infers DNA methylation cancer driver genes from bisulfite and array data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1158/2159-8290.cd-20-1334
+  year: 2021
+  journal: Cancer Discov
+  first_author: Pan H
+  last_author: Landau DA
+  pmid: '33972312'
+  pmcid: PMC8419066
+  title: Discovery of Candidate DNA Methylation Cancer Driver Genes
+links: {}
+added: '2026-11-09'
+evidence: We developed DNAme driver inference-MethSig-accounting for the varying stochastic hypermethylation rate across the
+  genome and between samples.

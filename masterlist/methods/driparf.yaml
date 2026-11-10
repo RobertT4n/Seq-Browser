@@ -1,0 +1,21 @@
+name: dripARF
+category: dry
+summary: Method that detects differential ribosomal-protein incorporation from ribosome-profiling rRNA fragments.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac484
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Alkan F
+  last_author: Faller WJ
+  pmid: '35687114'
+  pmcid: PMC9458444
+  title: Identifying ribosome heterogeneity using ribosome profiling
+links: {}
+added: '2026-11-09'
+evidence: Here we present dripARF, a method for detecting differential RP incorporation into the ribosome using Ribosome Profiling
+  (Ribo-seq) data.

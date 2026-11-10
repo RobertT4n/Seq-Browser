@@ -1,0 +1,21 @@
+name: eVIP2
+full_name: expression-based variant impact phenotyping
+category: dry
+summary: Software that predicts variant function from RNA-seq expression signatures, with pathway analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009132
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Thornton AM
+  last_author: Brooks AN
+  pmid: '34214079'
+  pmcid: PMC8281988
+  title: 'eVIP2: Expression-based variant impact phenotyping to predict the function of gene variants'
+links: {}
+added: '2026-11-09'
+evidence: We present eVIP2, software that allows for pathway analysis (eVIP Pathways) and usage with RNA-seq data.

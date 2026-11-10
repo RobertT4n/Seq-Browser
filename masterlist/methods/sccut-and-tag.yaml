@@ -1,0 +1,29 @@
+name: scCUT&Tag
+category: wet
+summary: CUT&Tag adapted to nanowell and droplet single-cell platforms to map histone modifications in individual cells.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- microwell-array
+- droplet-microfluidics
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41587-021-00865-z
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Wu SJ
+  last_author: Patel AP
+  pmid: '33846646'
+  pmcid: PMC8277750
+  title: Single-cell CUT&Tag analysis of chromatin modifications in differentiation and tumor progression
+links: {}
+added: '2026-11-09'
+evidence: In this study, we adapted the CUT&Tag method to scalable nanowell and droplet-based single-cell platforms to profile
+  chromatin landscapes in single cells (scCUT&Tag) from complex tissues and during the differentiation of human embryonic
+  stem cells.

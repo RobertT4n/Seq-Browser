@@ -1,0 +1,24 @@
+name: mitoVGP
+category: dry
+summary: Automated pipeline for mitochondrial read identification and complete mitogenome assembly from long and short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02336-9
+  year: 2021
+  journal: Genome Biol
+  first_author: Formenti G
+  last_author: Vertebrate Genomes Project Consortium
+  pmid: '33910595'
+  pmcid: PMC8082918
+  title: Complete vertebrate mitogenomes reveal widespread repeats and gene duplications
+links: {}
+added: '2026-11-09'
+evidence: As part of the Vertebrate Genomes Project (VGP) we develop mitoVGP, a fully automated pipeline for similarity-based
+  identification of mitochondrial reads and de novo assembly of mitochondrial genomes that incorporates both long (> 10 kbp,
+  PacBio or Nanopore) and short (100-300 bp, Illumina) reads.

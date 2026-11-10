@@ -1,0 +1,27 @@
+name: MPRAu
+full_name: massively parallel reporter assay for 3'UTRs
+category: wet
+summary: MPRA tailored to 3'UTR variants, using barcoded reporters to test thousands of variants for regulatory effect.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+variant_of:
+- mpra
+reference:
+  doi: 10.1016/j.cell.2021.08.025
+  year: 2021
+  journal: Cell
+  first_author: Griesemer D
+  last_author: Sabeti PC
+  pmid: '34534445'
+  pmcid: PMC8487971
+  title: Genome-wide functional screen of 3'UTR variants uncovers causal variants for human disease and evolution
+links: {}
+added: '2026-11-09'
+evidence: We developed the massively parallel reporter assay for 3'UTRs (MPRAu) to sensitively assay 12,173 3'UTR variants.

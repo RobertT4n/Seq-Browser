@@ -1,0 +1,27 @@
+name: SWIFT-seq
+full_name: single-cell sequencing workflow to interrogate few tumor cells
+category: wet
+summary: Single-cell RNA and BCR sequencing workflow for the rare circulating tumour cells of myeloma patients, with a sequencing-based
+  CTC enumeration and classifier.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s43018-025-01006-0
+  year: 2025
+  journal: Nat Cancer
+  first_author: Lightbody ED
+  last_author: Ghobrial IM
+  pmid: '40781193'
+  pmcid: PMC13277320
+  title: SWIFT-seq enables comprehensive single-cell transcriptomic profiling of circulating tumor cells in multiple myeloma
+    and its precursors.
+links: {}
+added: '2026-11-09'
+evidence: Here, to address this, we describe a single-cell sequencing workflow to interrogate few tumor cells (SWIFT-seq)
+partition_unknown: not stated in the abstract

@@ -1,0 +1,30 @@
+name: ChIP-BS-seq
+full_name: Sequential ChIP-bisulfite sequencing
+category: wet
+summary: Captures the chromatin fraction bound by a given mark or factor with ChIP, then maps DNA methylation at single-base
+  resolution within that captured fraction.
+readouts:
+- dna-methylation
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- chip-seq
+- wgbs
+reference:
+  doi: 10.1101/gr.133728.111
+  year: 2012
+  journal: Genome Res
+  first_author: Brinkman AB
+  last_author: Stunnenberg HG
+  pmid: '22466170'
+  pmcid: PMC3371717
+  title: Sequential ChIP-bisulfite sequencing enables direct genome-scale investigation of chromatin and DNA methylation cross-talk
+links: {}
+added: '2026-11-09'
+evidence: Here, we present sequential ChIP-bisulfite-sequencing (ChIP-BS-seq) as an approach to quantitatively assess DNA
+  methylation patterns associated with chromatin modifications or chromatin-associated factors directly.

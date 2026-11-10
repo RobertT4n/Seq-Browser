@@ -1,0 +1,26 @@
+name: iscChIC-seq
+full_name: indexing single-cell immunocleavage sequencing
+category: wet
+summary: Combinatorially indexed single-cell ChIC-seq profiling histone modifications across tens of thousands of cells.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- combinatorial-indexing
+reference:
+  doi: 10.1101/gr.260893.120
+  year: 2021
+  journal: Genome Res
+  first_author: Ku WL
+  last_author: Zhao K
+  pmid: '33853847'
+  pmcid: PMC8494230
+  title: Profiling single-cell histone modifications using indexing chromatin immunocleavage sequencing
+links: {}
+added: '2026-11-09'
+evidence: To address these problems, we introduce indexing single-cell immunocleavage sequencing (iscChIC-seq), a multiplex
+  indexing method based on TdT terminal transferase and T4 DNA ligase-mediated barcoding strategy and single-cell ChIC-seq,
+  which is capable of readily analyzing histone modifications across tens of thousands of single cells in one experiment.

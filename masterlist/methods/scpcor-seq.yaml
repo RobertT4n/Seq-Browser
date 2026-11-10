@@ -1,0 +1,28 @@
+name: scPCOR-seq
+full_name: single-cell Profiling of Chromatin Occupancy and RNAs Sequencing
+category: wet
+summary: Single-cell method that profiles histone marks or RNA polymerase II binding together with RNA from the same cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s42003-022-03584-6
+  year: 2022
+  journal: Commun Biol
+  first_author: Pan L
+  last_author: Zhao K
+  pmid: '35804086'
+  pmcid: PMC9270334
+  title: scPCOR-seq enables co-profiling of chromatin occupancy and RNAs in single cells
+links: {}
+added: '2026-11-09'
+evidence: Here, we report a technique, termed scPCOR-seq (single-cell Profiling of Chromatin Occupancy and RNAs Sequencing),
+  for simultaneously profiling genome-wide chromatin protein binding or histone modification marks and RNA expression in the
+  same cell.
+partition_unknown: not stated in the abstract

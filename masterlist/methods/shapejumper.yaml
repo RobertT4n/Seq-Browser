@@ -1,0 +1,22 @@
+name: ShapeJumper
+category: dry
+summary: Pipeline that processes SHAPE-JuMP sequencing data to identify through-space RNA interactions at near-nucleotide
+  resolution.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009632
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Christy TW
+  last_author: Weeks KM
+  pmid: '34905538'
+  pmcid: PMC8670686
+  title: Identifying proximal RNA interactions from cDNA-encoded crosslinks with ShapeJumper
+links: {}
+added: '2026-11-09'
+evidence: Here we introduce ShapeJumper, a bioinformatics pipeline to process SHAPE-JuMP sequencing data and to accurately
+  identify through-space interactions, as observed in complex JuMP datasets.

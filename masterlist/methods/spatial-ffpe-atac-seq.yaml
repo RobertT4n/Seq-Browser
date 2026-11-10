@@ -1,0 +1,26 @@
+name: Spatial FFPE-ATAC-seq
+full_name: Spatial formalin-fixed paraffin-embedded assay for transposase-accessible chromatin sequencing
+category: wet
+summary: In situ chromatin accessibility profiling of archived formalin-fixed paraffin-embedded tissue sections, with reverse
+  crosslinking before Tn5 tagmentation.
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- tn5
+builds_on:
+- spatial-atac-seq
+reference:
+  doi: 10.1038/s41467-025-60882-3
+  year: 2025
+  journal: Nat Commun
+  first_author: Guo P
+  last_author: Deng Y
+  pmid: '40595535'
+  pmcid: PMC12217551
+  title: Spatial profiling of chromatin accessibility in formalin-fixed paraffin-embedded tissues.
+links: {}
+added: '2026-11-09'
+evidence: We introduce spatial FFPE-ATAC-seq, an approach for in situ profiling chromatin accessibility within archived tissues.

@@ -1,0 +1,22 @@
+name: seqPatch
+category: dry
+summary: Empirical-Bayes model that borrows historical SMRT polymerase kinetics from matching sequence contexts to detect
+  DNA modifications with less control coverage.
+readouts:
+- dna-methylation
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1002935
+  year: 2013
+  journal: PLoS Comput Biol
+  first_author: Feng Z
+  last_author: Schadt E
+  pmid: '23516341'
+  pmcid: PMC3597545
+  title: Detecting DNA modifications from SMRT sequencing data by modeling sequence context dependence of polymerase kinetic
+links: {}
+added: '2026-11-09'
+evidence: We develop an Empirical Bayesian hierarchical model for incorporating historical data.

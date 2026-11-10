@@ -1,0 +1,28 @@
+name: PolyG-DS
+full_name: Polyguanine tract-profiling by duplex sequencing
+category: wet
+summary: Duplex-sequencing genotyping of targeted polyguanine tracts to detect clonal expansions and trace cell lineage with
+  ultra-low error rates.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- amplicon-pcr
+reference:
+  doi: 10.1073/pnas.2023373118
+  year: 2021
+  journal: Proc Natl Acad Sci U S A
+  first_author: Zhang Y
+  last_author: Risques RA
+  pmid: '34330826'
+  pmcid: PMC8346827
+  title: 'PolyG-DS: An ultrasensitive polyguanine tract-profiling method to detect clonal expansions and trace cell lineage'
+links: {}
+added: '2026-11-09'
+evidence: To overcome this limitation, we developed PolyG-DS, a next-generation sequencing (NGS) method that combines the
+  error-correction capabilities of duplex sequencing (DS) with enrichment of PolyG loci using CRISPR-Cas9-targeted genomic
+  fragmentation.

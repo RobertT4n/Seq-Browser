@@ -1,0 +1,27 @@
+name: MAPS-PolyA
+full_name: Multiplex Analysis of PolyA-linked Sequences
+category: wet
+summary: 'Multiplexed poly(A) RNA-seq: oligo-dT primed cDNA is captured on beads, second strand is primed with a random adaptor
+  primer, and barcoded libraries keep strand information and reveal polyadenylation sites.'
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- oligo-capture
+reference:
+  doi: 10.1016/j.ygeno.2011.04.003
+  year: 2011
+  journal: Genomics
+  first_author: Fox-Walsh K
+  last_author: Fu XD
+  pmid: '21515359'
+  pmcid: PMC3160523
+  title: 'A multiplex RNA-seq strategy to profile poly(A+) RNA: application to analysis of transcription response and 3''
+    end formation'
+links: {}
+added: '2026-11-09'
+evidence: This method, referred to as Multiplex Analysis of PolyA-linked Sequences (MAPS), preserves strand information, permits
+  rapid identification of potentially new polyadenylation sites, and profiles gene expression in a highly cost effective manner.

@@ -1,0 +1,30 @@
+name: SHM-seq
+full_name: spatial host-microbiome sequencing
+category: wet
+summary: All-sequencing spatial assay that captures host polyadenylated RNA and bacterial 16S sequences together from one
+  tissue section using modified spatially barcoded glass.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+builds_on:
+- 10x-visium
+reference:
+  doi: 10.1038/s41587-023-01988-1
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Lötstedt B
+  last_author: Vickovic S
+  pmid: '37985876'
+  pmcid: PMC11392810
+  title: Spatial host-microbiome sequencing reveals niches in the mouse gut.
+links: {}
+added: '2026-11-09'
+evidence: Here we present spatial host-microbiome sequencing (SHM-seq), an all-sequencing-based approach that captures tissue
+  histology, polyadenylated RNAs and bacterial 16S sequences directly from a tissue by modifying spatially barcoded glass
+  surfaces

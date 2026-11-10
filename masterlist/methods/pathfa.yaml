@@ -1,0 +1,23 @@
+name: PathFA
+full_name: Probabilistic pathway-based multimodal factor analysis
+category: dry
+summary: Bayesian factor analysis over pathways that integrates multimodal profiling data from small cohorts into interpretable
+  pathway-level factors.
+readouts:
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae216
+  year: 2024
+  journal: Bioinformatics
+  first_author: Immer A
+  last_author: Lehmann KV
+  pmid: '38940152'
+  pmcid: PMC11256960
+  title: Probabilistic pathway-based multimodal factor analysis.
+links: {}
+added: '2026-11-09'
+evidence: We develop PathFA, a novel approach for multimodal factor analysis over the space of pathways.

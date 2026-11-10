@@ -1,0 +1,25 @@
+name: MP3-seq
+full_name: massively parallel measurement of protein-protein interactions by sequencing
+category: wet
+summary: Yeast two-hybrid approach in which barcodes tag each protein pair and barcode enrichment by sequencing gives interaction
+  strength for over 100,000 pairs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41589-024-01718-x
+  year: 2024
+  journal: Nat Chem Biol
+  first_author: Baryshev A
+  last_author: Seelig G
+  pmid: '39192093'
+  pmcid: PMC11511666
+  title: Massively parallel measurement of protein-protein interactions by sequencing using MP3-seq.
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce massively parallel PPI measurement by sequencing (MP3-seq), an easy-to-use and highly scalable
+  yeast two-hybrid approach for measuring PPIs.

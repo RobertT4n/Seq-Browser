@@ -1,0 +1,23 @@
+name: ShapeMapper 2
+category: dry
+summary: MaP analysis pipeline that corrects sequence variants, filters basecalls and flags QC problems to call RNA adduct
+  sites accurately.
+readouts:
+- rna-structure
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1261/rna.061945.117
+  year: 2018
+  journal: RNA
+  first_author: Busan S
+  last_author: Weeks KM
+  pmid: '29114018'
+  pmcid: PMC5769742
+  title: Accurate detection of chemical modifications in RNA by mutational profiling (MaP) with ShapeMapper 2
+links: {}
+added: '2026-11-09'
+evidence: We introduce ShapeMapper 2, which integrates careful handling of all classes of adduct-induced sequence changes,
+  sequence variant correction, basecall quality filters, and quality-control warnings.

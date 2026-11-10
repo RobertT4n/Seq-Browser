@@ -1,0 +1,25 @@
+name: nanoCUT&RUN
+category: wet
+summary: CUT&RUN variant in which a GFP nanobody tethers MNase to GFP-tagged chromatin proteins for binding-site mapping.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+variant_of:
+- cut-and-run
+reference:
+  doi: 10.1371/journal.pgen.1010351
+  year: 2022
+  journal: PLoS Genet
+  first_author: Chen T
+  last_author: Rong YS
+  pmid: '36048878'
+  pmcid: PMC9473618
+  title: The nanoCUT&RUN technique visualizes telomeric chromatin in Drosophila
+links: {}
+added: '2026-11-09'
+evidence: Here we develop a modified CUT&RUN technique that we termed nanoCUT&RUN, in which a high affinity nanobody to GFP
+  is used to bring micrococcal nuclease to the binding sites of GFP-tagged chromatin proteins.

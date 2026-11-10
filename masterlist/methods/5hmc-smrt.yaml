@@ -1,0 +1,29 @@
+name: 5hmC-SMRT
+full_name: 5-hydroxymethylcytosine single-molecule real-time sequencing
+category: wet
+summary: Chemically labels 5-hydroxymethylcytosine for affinity enrichment and kinetic signal enhancement, then reads strand-specific,
+  base-resolution 5hmC on PacBio SMRT sequencing.
+readouts:
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/nmeth.1779
+  year: 2011
+  journal: Nat Methods
+  first_author: Song CX
+  last_author: Korlach J
+  pmid: '22101853'
+  pmcid: PMC3646335
+  title: Sensitive and specific single-molecule sequencing of 5-hydroxymethylcytosine
+links: {}
+added: '2026-11-09'
+evidence: We describe strand-specific, base-resolution detection of 5-hydroxymethylcytosine (5-hmC) in genomic DNA with single-molecule
+  sensitivity, combining a bioorthogonal, selective chemical labeling method of 5-hmC with single-molecule, real-time (SMRT)
+  DNA sequencing.

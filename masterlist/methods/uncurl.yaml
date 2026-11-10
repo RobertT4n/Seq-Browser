@@ -1,0 +1,23 @@
+name: UNCURL
+full_name: expansion not stated in abstract
+category: dry
+summary: Non-negative matrix factorization preprocessing for sparse scRNA-seq that handles varying sampling, very large cell
+  numbers and prior knowledge.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty293
+  year: 2018
+  journal: Bioinformatics
+  first_author: Mukherjee S
+  last_author: Kannan S
+  pmid: '29949988'
+  pmcid: PMC6022691
+  title: Scalable preprocessing for sparse scRNA-seq data exploiting prior knowledge
+links: {}
+added: '2026-11-09'
+evidence: Here we present UNCURL, a preprocessing framework based on non-negative matrix factorization for scRNA-seq data,
+  that is able to handle varying sampling distributions, scales to very large cell numbers and can incorporate prior knowledge.

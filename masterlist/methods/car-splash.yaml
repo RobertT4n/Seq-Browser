@@ -1,0 +1,26 @@
+name: CAR-SPLASH
+full_name: Chromatin Associated RNA SPLASH
+category: wet
+summary: Modified SPLASH that captures intramolecular RNA duplexes in chromatin-associated nascent pre-mRNA, used to find
+  structures that sequester splice sites.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2504034122
+  year: 2025
+  journal: Proc Natl Acad Sci U S A
+  first_author: Shenasa H
+  last_author: Bentley DL
+  pmid: '41021809'
+  pmcid: PMC12519161
+  title: CAR-SPLASH identifies nascent pre-mRNA structures implicated in kinetic coupling and alternative splicing.
+links: {}
+added: '2026-11-09'
+evidence: we modified Sequencing of Psoralen Crosslinked, Ligated And Selected Hybrids (SPLASH) for use with Chromatin Associated
+  RNA (CAR)

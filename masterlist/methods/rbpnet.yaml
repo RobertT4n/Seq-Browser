@@ -1,0 +1,22 @@
+name: RBPNet
+category: dry
+summary: Deep learning model that predicts CLIP-seq crosslink distributions from RNA sequence at single-nucleotide resolution,
+  with bias correction and variant-impact scoring.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03015-7
+  year: 2023
+  journal: Genome Biol
+  first_author: Horlacher M
+  last_author: Marsico A
+  pmid: '37542318'
+  pmcid: PMC10403857
+  title: 'Towards in silico CLIP-seq: predicting protein-RNA interaction via sequence-to-signal learning.'
+links: {}
+added: '2026-11-09'
+evidence: We present RBPNet, a novel deep learning method, which predicts CLIP-seq crosslink count distribution from RNA sequence
+  at single-nucleotide resolution.

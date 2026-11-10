@@ -1,0 +1,26 @@
+name: smRandom-seq
+full_name: droplet-based high-throughput single-microbe RNA-seq assay
+category: wet
+summary: Droplet-based single-microbe RNA-seq using random primers for in situ cDNA synthesis, droplet barcoding of single
+  cells and CRISPR-based rRNA depletion.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-023-40137-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Xu Z
+  last_author: Wang Y
+  pmid: '37612289'
+  pmcid: PMC10447461
+  title: Droplet-based high-throughput single microbe RNA sequencing by smRandom-seq.
+links: {}
+added: '2026-11-09'
+evidence: Here, we report a droplet-based high-throughput single-microbe RNA-seq assay (smRandom-seq), using random primers
+  for in situ cDNA generation, droplets for single-microbe barcoding

@@ -1,0 +1,22 @@
+name: TooManyCells
+category: dry
+summary: Graph-based divisive spectral clustering and a graph visualization that show single-cell clades at multiple resolutions
+  instead of one fixed clustering resolution.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-0748-5
+  year: 2020
+  journal: Nat Methods
+  first_author: Schwartz GW
+  last_author: Faryabi RB
+  pmid: '32123397'
+  pmcid: PMC7439807
+  title: TooManyCells identifies and visualizes relationships of single-cell clades
+links: {}
+added: '2026-11-09'
+evidence: We developed TooManyCells, a suite of graph-based algorithms for efficient and unbiased identification and visualization
+  of cell clades.

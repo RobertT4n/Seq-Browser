@@ -1,0 +1,27 @@
+name: Stereo-cell
+full_name: Spatial enhanced-resolution single-cell sequencing
+category: wet
+summary: Single-cell transcriptome profiling in which cells are captured on high-density DNA-nanoball-patterned arrays, with
+  optional imaging and epitope co-profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+builds_on:
+- stereo-seq
+reference:
+  doi: 10.1126/science.adr0475
+  year: 2025
+  journal: Science
+  first_author: Liao S
+  last_author: Xu X
+  pmid: '40839715'
+  title: 'Stereo-cell: Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays.'
+links: {}
+added: '2026-11-09'
+evidence: We present Stereo-cell, a spatial enhanced-resolution single-cell sequencing platform based on high-density DNA
+  nanoball (DNB)-patterned arrays

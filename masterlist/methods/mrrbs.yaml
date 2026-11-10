@@ -1,0 +1,26 @@
+name: mRRBS
+full_name: Gel-free multiplexed reduced representation bisulfite sequencing
+category: wet
+summary: Gel-free, multiplexed RRBS protocol that processes 96 or more samples per week with CpG coverage similar to standard
+  RRBS.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1186/gb-2012-13-10-r92
+  year: 2012
+  journal: Genome Biol
+  first_author: Boyle P
+  last_author: Meissner A
+  pmid: '23034176'
+  pmcid: PMC3491420
+  title: Gel-free multiplexed reduced representation bisulfite sequencing for large-scale DNA methylation profiling
+links: {}
+added: '2026-11-09'
+evidence: To further facilitate the mapping of DNA methylation, we describe a protocol for gel-free multiplexed reduced representation
+  bisulfite sequencing (mRRBS) that reduces the workload dramatically and enables processing of 96 or more samples per week.

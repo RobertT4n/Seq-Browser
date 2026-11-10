@@ -1,0 +1,25 @@
+name: sci-MET
+full_name: single-cell combinatorial indexing for methylation analysis
+category: wet
+summary: Combinatorial-indexing single-cell whole-genome bisulfite sequencing that profiles DNA methylation in thousands of
+  cells per run.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/nbt.4112
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Mulqueen RM
+  last_author: Adey AC
+  pmid: '29644997'
+  pmcid: PMC5938134
+  title: Highly scalable generation of DNA methylation profiles in single cells
+links: {}
+added: '2026-11-09'
+evidence: We present a highly scalable assay for whole-genome methylation profiling of single cells.

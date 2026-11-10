@@ -1,0 +1,26 @@
+name: CellTagging
+category: wet
+summary: Combinatorial cell indexing that uses sequential rounds of cell labelling to record clonal history alongside transcriptome
+  identity in single cells.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41586-018-0744-4
+  year: 2018
+  journal: Nature
+  first_author: Biddy BA
+  last_author: Morris SA
+  pmid: '30518857'
+  pmcid: PMC6635140
+  title: Single-cell mapping of lineage and identity in direct reprogramming
+links: {}
+added: '2026-11-09'
+evidence: Here we present 'CellTagging', a combinatorial cell-indexing methodology that enables parallel capture of clonal
+  history and cell identity, in which sequential rounds of cell labelling enable the construction of multi-level lineage trees.

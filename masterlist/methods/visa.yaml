@@ -1,0 +1,24 @@
+name: VISA
+full_name: Vector Integration Site Analysis
+category: dry
+summary: Web server that maps NGS reads containing a retroviral provirus to the genome and calls unique vector integration
+  sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0653-6
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Hocum JD
+  last_author: Trobridge GD
+  pmid: '26150117'
+  pmcid: PMC4493804
+  title: 'VISA--Vector Integration Site Analysis server: a web-based server to rapidly identify retroviral integration sites
+    from next-generation sequencing'
+links: {}
+added: '2026-11-09'
+evidence: We developed VISA, a vector integration site analysis server, to analyze next-generation sequencing data for retroviral
+  vector integration sites.

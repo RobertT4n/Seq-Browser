@@ -1,0 +1,22 @@
+name: AESTETIK
+category: dry
+summary: Convolutional deep learning model that jointly embeds spatial position, spatial transcriptomics and histology morphology
+  to define spatial domains.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag316
+  year: 2026
+  journal: Bioinformatics
+  first_author: Nonchev K
+  last_author: Rätsch G
+  pmid: '42179160'
+  pmcid: PMC13371760
+  title: Representation learning for multi-modal spatially resolved transcriptomics data.
+links: {}
+added: '2026-11-09'
+evidence: We introduce AESTETIK, a convolutional deep learning model that jointly integrates spatial, transcriptomics, and
+  morphology information to learn accurate spot representations.

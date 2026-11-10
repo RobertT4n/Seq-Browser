@@ -1,0 +1,25 @@
+name: VAMP-seq
+full_name: variant abundance by massively parallel sequencing
+category: wet
+summary: Sorts cells by intracellular protein abundance and sequences the variant library to score the abundance effect of
+  thousands of missense variants.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.1038/s41588-018-0122-z
+  year: 2018
+  journal: Nat Genet
+  first_author: Matreyek KA
+  last_author: Fowler DM
+  pmid: '29785012'
+  pmcid: PMC5980760
+  title: Multiplex assessment of protein variant abundance by massively parallel sequencing
+links: {}
+added: '2026-11-09'
+evidence: We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands
+  of missense variants of a protein on intracellular abundance simultaneously.

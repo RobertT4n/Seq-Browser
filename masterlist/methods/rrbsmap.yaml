@@ -1,0 +1,23 @@
+name: RRBSMAP
+full_name: RRBS mapping tool
+category: dry
+summary: Wildcard short-read aligner for RRBS bisulfite reads that needs no pre- or post-processing steps and scales to large
+  sample sets.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr668
+  year: 2012
+  journal: Bioinformatics
+  first_author: Xi Y
+  last_author: Li W
+  pmid: '22155871'
+  pmcid: PMC3268241
+  title: 'RRBSMAP: a fast, accurate and user-friendly alignment tool for reduced representation bisulfite sequencing'
+links: {}
+added: '2026-11-09'
+evidence: Here, we describe RRBSMAP, a short-read alignment tool that is designed for handling RRBS data in a user-friendly
+  and scalable way.

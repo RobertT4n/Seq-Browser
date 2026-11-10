@@ -1,0 +1,27 @@
+name: NET-seq
+full_name: Native elongating transcript sequencing
+category: wet
+summary: Maps strand-specific RNA polymerase II density at nucleotide resolution by sequencing nascent 3' ends of engaged
+  polymerase; here adapted to human cells.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1016/j.cell.2015.03.010
+  year: 2015
+  journal: Cell
+  first_author: Mayer A
+  last_author: Churchman LS
+  pmid: '25910208'
+  pmcid: PMC4528962
+  title: Native elongating transcript sequencing reveals human transcriptional activity at nucleotide resolution
+links: {}
+added: '2026-11-09'
+evidence: We developed a simple and powerful approach for performing native elongating transcript sequencing (NET-seq) in
+  human cells that globally maps strand-specific Pol II density at nucleotide resolution.

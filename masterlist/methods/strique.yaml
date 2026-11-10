@@ -1,0 +1,27 @@
+name: STRique
+full_name: short tandem repeat identification, quantification and evaluation
+category: dry
+summary: Raw-signal nanopore analysis (signal alignment plus HMM repeat counting) that quantifies STR expansions and their
+  CpG methylation from CRISPR-enriched nanopore reads.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+reference:
+  doi: 10.1038/s41587-019-0293-x
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Giesselmann P
+  last_author: Müller FJ
+  pmid: '31740840'
+  title: Analysis of short tandem repeat expansions and their methylation state with nanopore sequencing
+links: {}
+added: '2026-11-09'
+evidence: Our method, termed STRique for short tandem repeat identification, quantification and evaluation, integrates conventional
+  sequence mapping of nanopore reads with raw signal alignment for the localization of repeat boundaries and a hidden Markov
+  model-based repeat counting mechanism.

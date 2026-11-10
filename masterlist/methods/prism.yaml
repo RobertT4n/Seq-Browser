@@ -1,0 +1,23 @@
+name: PRISM
+full_name: expansion not stated in abstract
+category: dry
+summary: Cosine-distance multidimensional scaling with a centroid-distance term that quantifies cell-to-cell chromatin accessibility
+  variability from scATAC-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2018.00319
+  year: 2018
+  journal: Front Genet
+  first_author: Cai S
+  last_author: Vahedi G
+  pmid: '30158954'
+  pmcid: PMC6103536
+  title: A Cosine Similarity-Based Method to Infer Variability of Chromatin Accessibility at the Single-Cell Level
+links: {}
+added: '2026-11-09'
+evidence: To overcome these difficulties, we developed PRISM, a computational workflow that quantifies cell-to-cell chromatin
+  accessibility variation while controlling for technical biases.

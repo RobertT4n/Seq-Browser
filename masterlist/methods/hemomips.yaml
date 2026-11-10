@@ -1,0 +1,21 @@
+name: HemoMIPs
+category: dry
+summary: Snakemake pipeline for analysing MIP-captured targeted sequencing data and reporting coverage and variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1007956
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Kleinert P
+  last_author: Kircher M
+  pmid: '32497118'
+  pmcid: PMC7297380
+  title: HemoMIPs-Automated analysis and result reporting pipeline for targeted sequencing data
+links: {}
+added: '2026-11-09'
+evidence: We present a fast and efficient workflow to analyze highly imbalanced, targeted next-generation sequencing data
+  generated using molecular inversion probe (MIP) capture.

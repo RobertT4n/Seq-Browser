@@ -1,0 +1,23 @@
+name: Tangram
+category: dry
+summary: Deep-learning method that aligns single-cell and single-nucleus RNA-seq to spatial transcriptomic and imaging data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01264-7
+  year: 2021
+  journal: Nat Methods
+  first_author: Biancalani T
+  last_author: Regev A
+  pmid: '34711971'
+  pmcid: PMC8566243
+  title: Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram
+links: {}
+added: '2026-11-09'
+evidence: To overcome these limitations we present Tangram, a method that aligns sc/snRNA-seq data to various forms of spatial
+  data collected from the same region, including MERFISH, STARmap, smFISH, Spatial Transcriptomics (Visium) and histological
+  images.

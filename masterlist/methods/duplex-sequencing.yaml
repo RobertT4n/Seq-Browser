@@ -1,0 +1,24 @@
+name: Duplex Sequencing
+category: wet
+summary: Tags and sequences each strand of a DNA duplex separately so only mutations present on both strands are called, with
+  a background error rate below one artifactual mutation per billion bases.
+readouts:
+- genome-sequence
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1073/pnas.1208715109
+  year: 2012
+  journal: Proc Natl Acad Sci U S A
+  first_author: Schmitt MW
+  last_author: Loeb LA
+  pmid: '22853953'
+  pmcid: PMC3437896
+  title: Detection of ultra-rare mutations by next-generation sequencing
+links: {}
+added: '2026-11-09'
+evidence: To overcome limitations in sequencing accuracy, we have developed a method termed Duplex Sequencing.

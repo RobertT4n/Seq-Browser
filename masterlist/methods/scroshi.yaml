@@ -1,0 +1,23 @@
+name: scROSHI
+full_name: robust supervised hierarchical identification of single cells
+category: dry
+summary: Training-free hierarchical cell-type classifier that assigns single cells to cell types using previously curated
+  cell-type marker gene lists.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqad058
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Prummer M
+  last_author: Singer F
+  pmid: '37332656'
+  pmcid: PMC10273189
+  title: 'scROSHI: robust supervised hierarchical identification of single cells.'
+links: {}
+added: '2026-11-09'
+evidence: To address these challenges we present scROSHI, which utilizes previously obtained cell type-specific gene lists
+  and does not require training or the existence of annotated data.

@@ -1,0 +1,22 @@
+name: Lambda3
+category: dry
+summary: Local-alignment homology search that handles protein, nucleotide and bisulfite-converted query sequences, for metagenomic
+  and methylation sequence searches.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae097
+  year: 2024
+  journal: Bioinformatics
+  first_author: Hauswedell H
+  last_author: Reinert K
+  pmid: '38485699'
+  pmcid: PMC10955267
+  title: 'Lambda3: homology search for protein, nucleotide, and bisulfite-converted sequences.'
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce Lambda3, a new version of the local alignment application Lambda.

@@ -1,0 +1,25 @@
+name: ARC-seq
+full_name: accurate RNA consensus sequencing
+category: wet
+summary: Barcoded multi-copy cDNA consensus sequencing that removes RT, PCR and sequencing errors to measure transcriptome-wide
+  RNA epimutations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1709166114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Reid-Bayliss KS
+  last_author: Loeb LA
+  pmid: '28798064'
+  pmcid: PMC5584456
+  title: Accurate RNA consensus sequencing for high-fidelity detection of transcriptional mutagenesis-induced epimutations
+links: {}
+added: '2026-11-09'
+evidence: We present a high-throughput, highly accurate RNA sequencing method to measure epimutations with single-molecule
+  sensitivity.

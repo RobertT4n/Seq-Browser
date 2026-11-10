@@ -1,0 +1,25 @@
+name: MASC-seq
+full_name: microarrayed single-cell sequencing
+category: wet
+summary: Microarray-based barcoding of single-cell transcriptomes at low cost per cell, compatible with imaging.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microwell-array
+- reverse-transcription
+reference:
+  doi: 10.1038/ncomms13182
+  year: 2016
+  journal: Nat Commun
+  first_author: Vickovic S
+  last_author: Lundeberg J
+  pmid: '27739429'
+  pmcid: PMC5067491
+  title: Massive and parallel expression profiling using microarrayed single-cell sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here, we present a method enabling massive microarray-based barcoding of expression patterns in single cells, termed
+  MASC-seq.

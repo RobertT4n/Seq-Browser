@@ -1,0 +1,28 @@
+name: CrAAVe-seq
+full_name: CRISPR screening by AAV episome-sequencing
+category: wet
+summary: AAV-delivered pooled CRISPR knockout screen with a Cre-sensitive sgRNA cassette, so guides are expressed only in
+  chosen cell populations within mouse tissue.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41593-025-02043-9
+  year: 2025
+  journal: Nat Neurosci
+  first_author: Ramani B
+  last_author: Kampmann M
+  pmid: '40847019'
+  pmcid: PMC12497649
+  title: 'CRISPR screening by AAV episome-sequencing (CrAAVe-seq): a scalable cell-type-specific in vivo platform uncovers
+    neuronal essential genes.'
+links: {}
+added: '2026-11-09'
+evidence: Here we developed an adeno-associated virus (AAV)-based CRISPR screening platform, CrAAVe-seq, that incorporates
+  a Cre-sensitive sgRNA construct for pooled screening within targeted cell populations in mouse tissues.

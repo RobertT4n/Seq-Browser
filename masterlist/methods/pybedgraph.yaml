@@ -1,0 +1,24 @@
+name: pyBedGraph
+category: dry
+summary: Python package for fast summary statistics over intervals of bedGraph and bigWig coverage tracks.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa061
+  year: 2020
+  journal: Bioinformatics
+  first_author: Zhang HB
+  last_author: Ruan Y
+  pmid: '32044918'
+  pmcid: PMC7214040
+  title: 'pyBedGraph: a python package for fast operations on 1D genomic signal tracks'
+links: {}
+added: '2026-11-09'
+evidence: We developed pyBedGraph, a Python package to quickly obtain summary statistics for a given interval in a bedGraph
+  or a bigWig file.

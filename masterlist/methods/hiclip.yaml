@@ -1,0 +1,30 @@
+name: hiCLIP
+full_name: hybrid iCLIP
+category: wet
+summary: CLIP-based method that proximity-ligates RNA duplexes bound by an RNA-binding protein so both partner sequences are
+  read together, mapping in vivo RNA secondary structure.
+readouts:
+- rna-rna-interaction
+- rna-structure
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/nature14280
+  year: 2015
+  journal: Nature
+  first_author: Sugimoto Y
+  last_author: Ule J
+  pmid: '25799984'
+  pmcid: PMC4376666
+  title: hiCLIP reveals the in vivo atlas of mRNA secondary structures recognized by Staufen 1
+links: {}
+added: '2026-11-09'
+evidence: Here we present hiCLIP, a biochemical technique for transcriptome-wide identification of RNA secondary structures
+  interacting with RNA-binding proteins (RBPs).

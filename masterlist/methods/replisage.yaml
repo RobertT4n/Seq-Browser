@@ -1,0 +1,23 @@
+name: RepliSage
+category: dry
+summary: Stochastic graph-based polymer model of chromatin across the cell cycle, coupling replication-fork progression from
+  single-cell replication timing with loop extrusion and compartmentalisation.
+readouts:
+- 3d-genome
+- replication-timing
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag618
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Korsak S
+  last_author: Plewczynski D
+  pmid: '42328792'
+  pmcid: PMC13284723
+  title: 'RepliSage: a stochastic graph-based framework for 3D chromatin modeling across the cell cycle.'
+links: {}
+added: '2026-11-09'
+evidence: 'we present RepliSage, a multi-scale framework that integrates three fundamental processes shaping chromatin architecture:
+  DNA replication, loop extrusion, and compartmentalization.'

@@ -1,0 +1,33 @@
+name: e2MPRA
+full_name: enrichment followed by epigenomic profiling massively parallel reporter assay
+category: wet
+summary: Lentiviral enrichment of chosen regulatory elements into the genome, then MPRA plus Cut&Tag or ATAC-seq on the same
+  integrated elements, linking regulatory activity to protein binding and epigenetic state.
+readouts:
+- functional-screen
+- chromatin-accessibility
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+- tn5
+- antibody-tethered-enzyme
+builds_on:
+- mpra
+reference:
+  doi: 10.1038/s41467-026-68422-3
+  year: 2026
+  journal: Nat Commun
+  first_author: Zhang Z
+  last_author: Inoue F
+  pmid: '41535307'
+  pmcid: PMC12913623
+  title: Simultaneous epigenomic profiling and regulatory activity measurement using e2MPRA.
+links: {}
+added: '2026-11-09'
+evidence: Here, we develop an enrichment followed by epigenomic profiling massively parallel reporter assay (e2MPRA).

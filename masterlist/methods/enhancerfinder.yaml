@@ -1,0 +1,25 @@
+name: EnhancerFinder
+category: dry
+summary: Two-step multiple-kernel-learning predictor that integrates sequence motifs, conservation and functional-genomics
+  tracks to call developmental enhancers and their tissue specificity.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003677
+  year: 2014
+  journal: PLoS Comput Biol
+  first_author: Erwin GD
+  last_author: Capra JA
+  pmid: '24967590'
+  pmcid: PMC4072507
+  title: Integrating diverse datasets improves developmental enhancer prediction
+links: {}
+added: '2026-11-09'
+evidence: To integrate these different approaches, we developed EnhancerFinder, a two-step method for distinguishing developmental
+  enhancers from the genomic background and then predicting their tissue specificity.
