@@ -50,7 +50,6 @@ temporal:            # OPTIONAL. How the method captures time; leave out for ord
   - metabolic-labeling       # new vs old RNA by nucleotide analogue (e.g. 4sU): scNT-seq, sci-fate, SLAM-seq
   - longitudinal-sampling    # repeatedly samples the SAME living cells: Live-seq, engineered RNA export
   - molecular-recording      # cells write a time-stamped record read out later: vault-based recorders
-  - lineage-tracing          # heritable barcodes/marks (CRISPR scars, integrated barcodes, mtDNA/epigenetic clones) read out with the cell's transcriptome or epigenome to reconstruct cell ancestry: scGESTALT, DARLIN, LARRY, CellTag
 
 perturbation:        # OPTIONAL. The method perturbs cells/DNA and reads the effect out by sequencing (screens, reporters)
   - crispr-knockout
