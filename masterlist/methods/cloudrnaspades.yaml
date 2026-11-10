@@ -1,0 +1,23 @@
+name: cloudrnaSPAdes
+category: dry
+summary: Isoform assembler for bulk barcoded short-read RNA-seq that reconstructs full-length transcripts from barcode-linked
+  reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad781
+  year: 2024
+  journal: Bioinformatics
+  first_author: Meleshko D
+  last_author: Hajirasouliha I
+  pmid: '38262343'
+  pmcid: PMC10868327
+  title: 'cloudrnaSPAdes: isoform assembly using bulk barcoded RNA sequencing data'
+links: {}
+added: '2026-11-09'
+evidence: In order to overcome this challenge, we present an RNA-seq assembler that allows the determination of the expressed
+  isoform per barcode.ResultsIn this article, we present cloudrnaSPAdes, a tool for assembling full-length isoforms from barcoded
+  RNA-seq linked-read data in a reference-free fashion.

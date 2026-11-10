@@ -1,0 +1,27 @@
+name: DAMM-seq
+full_name: Demethylation-Assisted Multiple Methylation sequencing
+category: wet
+summary: Demethylase-assisted sequencing that detects m1A, m3C, m1G and m22G in steady-state and nascent RNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+reference:
+  doi: 10.1016/bs.mie.2023.08.001
+  year: 2023
+  journal: Methods Enzymol
+  first_author: Zhang LS
+  last_author: He C
+  pmid: '37925186'
+  pmcid: PMC10882886
+  title: Base-resolution quantitative DAMM-seq for mapping RNA methylations in tRNA and mitochondrial polycistronic RNA
+links: {}
+added: '2026-11-09'
+evidence: We developed Demethylation-Assisted Multiple Methylation sequencing (DAMM-seq) to simultaneously detect N1-methyladenosine
+  (m1A), N3-methylcytidine (m3C), N1-methylguanosine (m1G) and N2,N2-dimethylguanosine (m22G) methylations in both steady-state
+  RNA and nascent RNA, and discovered that human ALKBH7 demethylates m22G and m1A within mt-Ile and mt-Leu1 pre-tRNA regions,
+  respectively, in mitochondrial polycistronic RNA.

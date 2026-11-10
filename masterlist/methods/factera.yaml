@@ -1,0 +1,23 @@
+name: FACTERA
+full_name: Fusion And Chromosomal Translocation Enumeration and Recovery Algorithm
+category: dry
+summary: Identifies genomic fusions and breakpoints at breakpoint resolution directly from an existing BAM file of targeted
+  paired-end sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu549
+  year: 2014
+  journal: Bioinformatics
+  first_author: Newman AM
+  last_author: Alizadeh AA
+  pmid: '25143292'
+  pmcid: PMC4296148
+  title: 'FACTERA: a practical method for the discovery of genomic rearrangements at breakpoint resolution'
+links: {}
+added: '2026-11-09'
+evidence: For practical and robust de novo identification of genomic fusions and breakpoints from targeted paired-end DNA
+  sequencing data, we developed Fusion And Chromosomal Translocation Enumeration and Recovery Algorithm (FACTERA).

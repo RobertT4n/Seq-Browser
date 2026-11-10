@@ -1,0 +1,25 @@
+name: uCAPP-Seq
+full_name: Urine tumor DNA CAPP-Seq
+category: wet
+summary: Targeted capture sequencing of urine tumor DNA for noninvasive detection and surveillance of bladder cancer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- adapter-ligation
+reference:
+  doi: 10.1158/2159-8290.cd-18-0825
+  year: 2019
+  journal: Cancer Discov
+  first_author: Dudley JC
+  last_author: Diehn M
+  pmid: '30578357'
+  pmcid: PMC6467650
+  title: Detection and Surveillance of Bladder Cancer Using Urine Tumor DNA
+links: {}
+added: '2026-11-09'
+evidence: we present a novel high-throughput sequencing (HTS) method for detection of urine tumor DNA (utDNA) called utDNA
+  CAPP-Seq (uCAPP-Seq)

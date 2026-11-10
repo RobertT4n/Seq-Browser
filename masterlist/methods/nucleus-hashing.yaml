@@ -1,0 +1,28 @@
+name: Nucleus hashing
+category: wet
+summary: Labels nuclei from each sample with sample-barcoded antibodies so samples can be pooled and then demultiplexed in
+  snRNA-seq.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1038/s41467-019-10756-2
+  year: 2019
+  journal: Nat Commun
+  first_author: Gaublomme JT
+  last_author: Regev A
+  pmid: '31266958'
+  pmcid: PMC6606589
+  title: Nuclei multiplexing with barcoded antibodies for single-nucleus genomics
+links: {}
+added: '2026-11-09'
+evidence: Here, we present an approach for multiplexing snRNA-seq, using sample-barcoded antibodies to uniquely label nuclei
+  from distinct samples

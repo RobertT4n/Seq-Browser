@@ -1,0 +1,23 @@
+name: scDT
+full_name: single-cell digital twin
+category: dry
+summary: Single-cell digital twin framework that links cell-type-specific cis-regulatory elements and GWAS loci to candidate
+  drugs in Alzheimer disease.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.01.14.633081
+  year: 2025
+  journal: bioRxiv
+  first_author: Ren Y
+  last_author: Cheng F
+  title: Single-cell digital twins identify drug targets and repurposable medicine in Alzheimer’s disease
+links: {}
+added: '2026-11-09'
+evidence: In this study, we developed a single-cell digital twin (scDT) framework using single-nuclei RNA-seq (1,197,032 nuclei)
+  and ATAC-seq (740,875 nuclei) data from the middle temporal gyrus of 84 donors across 4 degrees of AD neuropathological
+  change (ADNC).

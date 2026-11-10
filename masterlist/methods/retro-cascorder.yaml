@@ -1,0 +1,26 @@
+name: Retro-Cascorder
+category: wet
+summary: Records the relative timing of promoter activity in E. coli by writing retron-derived barcodes into a CRISPR array,
+  read out by Illumina sequencing.
+readouts:
+- lineage
+resolution:
+- bulk
+temporal:
+- molecular-recording
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41596-023-00819-6
+  year: 2023
+  journal: Nat Protoc
+  first_author: Lear SK
+  last_author: Shipman SL
+  pmid: '37059915'
+  pmcid: PMC10631475
+  title: Temporally resolved transcriptional recording in E. coli DNA using a Retro-Cascorder
+links: {}
+added: '2026-11-09'
+evidence: Here we describe an implementation of the Retro-Cascorder in which the relative timing of transcriptional events
+  from multiple promoters of interest is recorded chronologically in Escherichia coli populations over multiple days.

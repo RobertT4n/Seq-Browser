@@ -1,0 +1,23 @@
+name: StereoSiTE
+category: dry
+summary: Analysis framework for spatial transcriptomics that scores cell-cell interaction intensity within cellular neighbourhoods.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae078
+  year: 2024
+  journal: Gigascience
+  first_author: Liu X
+  last_author: Zhang J
+  pmid: '39452614'
+  pmcid: PMC11503478
+  title: 'StereoSiTE: a framework to spatially and quantitatively profile the cellular neighborhood organized iTME'
+links: {}
+added: '2026-11-09'
+evidence: While some algorithms have been developed for ST data, they are often designed for specific tasks, lacking a comprehensive
+  analytical framework for leveraging spatial information.ResultsIn this study, we present StereoSiTE, an analytical framework
+  that combines open-source bioinformatics tools with custom algorithms to accurately infer the functional spatial cell interaction
+  intensity (SCII) within the cellular neighborhood (CN) of interest.

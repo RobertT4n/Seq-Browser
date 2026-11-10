@@ -1,0 +1,24 @@
+name: NanoSPA
+category: dry
+summary: Machine-learning analysis of nanopore direct RNA sequencing that calls m6A and pseudouridine on the same molecules.
+readouts:
+- rna-modification
+resolution:
+- bulk
+platform:
+- long-read
+- nanopore
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-024-02135-0
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Huang S
+  last_author: Pan T
+  pmid: '38321115'
+  pmcid: PMC11300707
+  title: Simultaneous nanopore profiling of mRNA m&lt;sup&gt;6&lt;/sup&gt;A and pseudouridine reveals translation coordination
+links: {}
+added: '2026-11-09'
+evidence: We develop a machine learning-based nanopore direct RNA sequencing method (NanoSPA) that simultaneously analyzes
+  m6A and Ψ in the human transcriptome.

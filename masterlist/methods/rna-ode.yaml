@@ -1,0 +1,20 @@
+name: RNA-ODE
+category: dry
+summary: ODE-based extension of RNA velocity for trajectory and gene regulation inference.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2022.167606
+  year: 2022
+  journal: J Mol Biol
+  first_author: Liu R
+  last_author: Zou J
+  pmid: '35489382'
+  title: Dynamical Systems Model of RNA Velocity Improves Inference of Single-cell Trajectory, Pseudo-time and Gene Regulation
+links: {}
+added: '2026-11-09'
+evidence: In this work, we develop RNA-ODE, a principled computational framework that extends RNA velocity to quantify systems
+  level dynamics and improve single-cell data analysis.

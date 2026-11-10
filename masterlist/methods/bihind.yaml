@@ -1,0 +1,27 @@
+name: BIHIND
+full_name: Bisulfite Incorporation Hindered ligation-based method
+category: wet
+summary: Bisulfite-induced adduct at pseudouridine hinders ligation, giving quantitative detection of pseudouridine sites
+  by qPCR or sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1021/acschembio.4c00387
+  year: 2024
+  journal: ACS Chem Biol
+  first_author: Zhao Y
+  last_author: He C
+  pmid: '39014961'
+  pmcid: PMC12043245
+  title: Pseudouridine Detection and Quantification Using Bisulfite Incorporation Hindered Ligation
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce a Bisulfite Incorporation Hindered ligation-based method (BIHIND), which can detect and quantify
+  Ψ sites on rRNA, mRNA, and noncoding RNA.

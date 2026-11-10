@@ -1,0 +1,26 @@
+name: XR-seq
+full_name: excision repair sequencing
+category: wet
+summary: Isolates the ~30-mer excision fragments released when UV lesions are repaired and sequences them to map global and
+  transcription-coupled repair at nucleotide resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- adapter-ligation
+reference:
+  doi: 10.1101/gad.261271.115
+  year: 2015
+  journal: Genes Dev
+  first_author: Hu J
+  last_author: Sancar A
+  pmid: '25934506'
+  pmcid: PMC4421983
+  title: Genome-wide analysis of human global and transcription-coupled excision repair of UV damage at single-nucleotide
+    resolution
+links: {}
+added: '2026-11-09'
+evidence: We developed a method for genome-wide mapping of DNA excision repair named XR-seq (excision repair sequencing).

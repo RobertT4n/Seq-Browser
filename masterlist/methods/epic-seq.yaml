@@ -1,0 +1,24 @@
+name: EPIC-seq
+category: wet
+summary: Promoter fragmentation entropy in targeted cfDNA sequencing predicts gene expression for tissue-of-origin inference.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+full_name: epigenetic expression inference from cell-free DNA-sequencing
+reference:
+  doi: 10.1038/s41587-022-01222-4
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Esfahani MS
+  last_author: Alizadeh AA
+  pmid: '35361996'
+  pmcid: PMC9337986
+  title: Inferring gene expression from cell-free DNA fragmentation profiles
+links: {}
+added: '2026-11-09'
+evidence: We developed 'epigenetic expression inference from cell-free DNA-sequencing' (EPIC-seq), a method that uses targeted
+  sequencing of promoters of genes of interest.

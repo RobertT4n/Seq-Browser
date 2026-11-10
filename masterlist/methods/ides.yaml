@@ -1,0 +1,25 @@
+name: iDES
+full_name: Integrated digital error suppression
+category: wet
+summary: Combines in silico removal of stereotypical background artifacts with molecular barcoding to improve detection of
+  circulating tumor DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- oligo-capture
+reference:
+  doi: 10.1038/nbt.3520
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Newman AM
+  last_author: Alizadeh AA
+  pmid: '27018799'
+  pmcid: PMC4907374
+  title: Integrated digital error suppression for improved detection of circulating tumor DNA
+links: {}
+added: '2026-11-09'
+evidence: To overcome these limitations, we introduce an approach for integrated digital error suppression (iDES)

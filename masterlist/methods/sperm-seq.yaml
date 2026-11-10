@@ -1,0 +1,23 @@
+name: Sperm-seq
+category: wet
+summary: Single-sperm genome sequencing used to map crossovers and aneuploidy across thousands of gametes.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+reference:
+  doi: 10.1038/s41586-020-2347-0
+  year: 2020
+  journal: Nature
+  first_author: Bell AD
+  last_author: McCarroll SA
+  pmid: '32494014'
+  pmcid: PMC7351608
+  title: Insights into variation in meiosis from 31,228 human sperm genomes
+links: {}
+added: '2026-11-09'
+evidence: we developed Sperm-seq, a way of simultaneously analysing the genomes of thousands of individual sperm.

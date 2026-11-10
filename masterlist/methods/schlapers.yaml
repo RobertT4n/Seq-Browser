@@ -1,0 +1,23 @@
+name: scHLApers
+category: dry
+summary: Pipeline that quantifies single-cell HLA expression using personalised reference genomes, used to map HLA eQTLs across
+  cell states.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-023-01586-6
+  year: 2023
+  journal: Nat Genet
+  first_author: Kang JB
+  last_author: Raychaudhuri S
+  pmid: '38036787'
+  pmcid: PMC10787945
+  title: Mapping the dynamic genetic regulatory architecture of HLA genes at single-cell resolution
+links: {}
+added: '2026-11-09'
+evidence: To mitigate technical confounding, we developed scHLApers, a pipeline to accurately quantify single-cell HLA expression
+  using personalized reference genomes.

@@ -1,0 +1,22 @@
+name: InterCom
+category: dry
+summary: R package for receptor-ligand pair and downstream effect analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-23295-6
+  year: 2021
+  journal: Nat Commun
+  first_author: Gonçalves CA
+  last_author: Grapin-Botton A
+  pmid: '34035279'
+  pmcid: PMC8149728
+  title: A 3D system to model human pancreas development and its reference single-cell transcriptome atlas identify signaling
+    pathways required for progenitor expansion
+links: {}
+added: '2026-11-09'
+evidence: To interrogate cell-cell interactions, we describe InterCom, an R-Package we developed for identifying receptor-ligand
+  pairs and their downstream effects.

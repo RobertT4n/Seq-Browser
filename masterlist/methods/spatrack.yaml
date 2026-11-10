@@ -1,0 +1,21 @@
+name: SpaTrack
+category: dry
+summary: Optimal-transport method that reconstructs differentiation trajectories from spatial transcriptomics using expression
+  and position.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2025.101194
+  year: 2025
+  journal: Cell Syst
+  first_author: Shen X
+  last_author: Qin P
+  pmid: '39904341'
+  title: Inferring cell trajectories of spatial transcriptomics via optimal transport analysis
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce SpaTrack, which leverages optimal transport to reconcile both gene expression and spatial position
+  from spatial transcriptomics into the transition costs, thereby reconstructing cell differentiation.

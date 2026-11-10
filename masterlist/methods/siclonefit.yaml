@@ -1,0 +1,23 @@
+name: SiCloneFit
+category: dry
+summary: Nonparametric Bayesian method that infers clonal populations, clone genotypes and clonal phylogeny from single-cell
+  DNA sequencing data, modelling false positives, false negatives and doublets.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.243121.118
+  year: 2019
+  journal: Genome Res
+  first_author: Zafar H
+  last_author: Nakhleh L
+  pmid: '31628257'
+  pmcid: PMC6836738
+  title: 'SiCloneFit: Bayesian inference of population structure, genotype, and phylogeny of tumor clones from single-cell
+    genome sequencing data'
+links: {}
+added: '2026-11-09'
+evidence: Here, we propose a nonparametric Bayesian method that reconstructs the clonal populations as clusters of single
+  cells, genotypes of each clone, and the evolutionary relationship between the clones

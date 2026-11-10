@@ -1,0 +1,25 @@
+name: Reference-assisted 3D genome assembly
+category: dry
+summary: Assembles a target genome into chromosome-length scaffolds using a related species' reference together with Hi-C
+  and DNA-seq data.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2024.06.002
+  year: 2024
+  journal: Cell
+  first_author: Sandoval-Velasco M
+  last_author: Aiden EL
+  pmid: '38996487'
+  pmcid: PMC12128189
+  title: Three-dimensional genome architecture persists in a 52,000-year-old woolly mammoth skin sample
+  preprint_doi: 10.1101/2023.06.30.547175
+links: {}
+added: '2026-11-09'
+evidence: Next, we developed “reference-assisted 3D genome assembly,” which begins with a reference genome assembly from a
+  related species, and uses Hi-C and DNA-Seq data from a target species to split, order, orient, and correct sequences on
+  the basis of their 3D proximity, yielding accurate chromosome-length scaffolds for the target species.

@@ -1,0 +1,25 @@
+name: AAV-mediated direct in vivo CRISPR screen
+category: wet
+summary: AAV delivery of a sgRNA library into conditional-Cas9 mice generates autochthonous glioblastoma-like tumours, and
+  capture sequencing of the tumours reveals which mutations drive them.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1038/nn.4620
+  year: 2017
+  journal: Nat Neurosci
+  first_author: Chow RD
+  last_author: Chen S
+  pmid: '28805815'
+  pmcid: PMC5614841
+  title: AAV-mediated direct in vivo CRISPR screen identifies functional suppressors in glioblastoma
+links: {}
+added: '2026-11-09'
+evidence: Here we developed an adeno-associated virus-mediated, autochthonous genetic CRISPR screen in glioblastoma

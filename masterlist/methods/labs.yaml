@@ -1,0 +1,26 @@
+name: LABS
+full_name: linear amplification-based bisulfite sequencing
+category: wet
+summary: Linear amplification of bisulfite-converted cell-free DNA genome-wide, giving methylation and copy-number profiles
+  from sub-nanogram input.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1186/s13059-024-03262-2
+  year: 2024
+  journal: Genome Biol
+  first_author: Cui XL
+  last_author: He C
+  pmid: '38877540'
+  pmcid: PMC11177480
+  title: 'LABS: linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA'
+links: {}
+added: '2026-11-09'
+evidence: Here, we report linear amplification-based bisulfite sequencing (LABS), enabling linear amplification of bisulfite-treated
+  DNA fragments in a genome-wide, unbiased fashion, detecting cancer abnormalities with sub-nanogram inputs.

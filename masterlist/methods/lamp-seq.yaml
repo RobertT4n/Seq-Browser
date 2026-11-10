@@ -1,0 +1,25 @@
+name: LAMP-Seq
+category: wet
+summary: Barcoded RT-LAMP of unpurified swabs pooled and read by sequencing for SARS-CoV-2 detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+full_name: reverse transcription loop-mediated isothermal amplification sequencing
+reference:
+  doi: 10.1038/s41587-021-00966-9
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Ludwig KU
+  last_author: Schmid-Burgk JL
+  pmid: '34188222'
+  pmcid: PMC8678193
+  title: LAMP-Seq enables sensitive, multiplexed COVID-19 diagnostics using molecular barcoding
+links: {}
+added: '2026-11-09'
+evidence: Here we present LAMP-Seq, a modified, highly scalable reverse transcription loop-mediated isothermal amplification
+  (RT-LAMP) method.

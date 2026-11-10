@@ -1,0 +1,27 @@
+name: eTAM-seq
+full_name: evolved TadA-assisted N6-methyladenosine sequencing
+category: wet
+summary: Enzymatic deamination of unmodified adenosine, leaving m6A intact, for transcriptome-wide and site-specific m6A quantification
+  from low input.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-022-01587-6
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Xiao YL
+  last_author: Tang W
+  pmid: '36593412'
+  pmcid: PMC10625715
+  title: Transcriptome-wide profiling and quantification of N&lt;sup&gt;6&lt;/sup&gt;-methyladenosine by enzyme-assisted adenosine
+    deamination
+links: {}
+added: '2026-11-09'
+evidence: Here we present evolved TadA-assisted N6-methyladenosine sequencing (eTAM-seq), an enzyme-assisted sequencing technology
+  that detects and quantifies m6A by global adenosine deamination.

@@ -1,0 +1,22 @@
+name: SCGV
+category: dry
+summary: end-to-end pipeline for sparse single-cell DNA copy-number profiling with a genome viewer.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+full_name: single-cell genome viewer
+reference:
+  doi: 10.1200/cci.19.00171
+  year: 2020
+  journal: JCO Clin Cancer Inform
+  first_author: Chorbadjiev L
+  last_author: Krasnitz A
+  pmid: '32432904'
+  pmcid: PMC7265781
+  title: Integrated Computational Pipeline for Single-Cell Genomic Profiling
+links: {}
+added: '2026-11-09'
+evidence: Here we describe a complete pipeline for sparse single-cell genomic data, encompassing all steps of single-nucleus
+  DNA copy-number profiling, from raw sequence processing to clonal structure analysis and visualization.

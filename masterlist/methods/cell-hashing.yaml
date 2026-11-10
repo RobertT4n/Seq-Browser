@@ -1,0 +1,28 @@
+name: Cell Hashing
+category: wet
+summary: Oligo-tagged antibodies against ubiquitous surface proteins label cells from each sample so pooled samples can be
+  demultiplexed and cross-sample doublets detected.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1186/s13059-018-1603-1
+  year: 2018
+  journal: Genome Biol
+  first_author: Stoeckius M
+  last_author: Satija R
+  pmid: '30567574'
+  pmcid: PMC6300015
+  title: Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce Cell Hashing, where oligo-tagged antibodies against ubiquitously expressed surface proteins uniquely
+  label cells from distinct samples, which can be subsequently pooled

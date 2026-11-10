@@ -1,0 +1,22 @@
+name: ClumpSeq
+category: wet
+summary: Sequences clumps of attached cells and infers crypt-villus position from landmark genes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-021-23245-2
+  year: 2021
+  journal: Nat Commun
+  first_author: Manco R
+  last_author: Itzkovitz S
+  pmid: '34031373'
+  pmcid: PMC8144370
+  title: Clump sequencing exposes the spatial expression programs of intestinal secretory cells
+links: {}
+added: '2026-11-09'
+evidence: Here, we present ClumpSeq, an approach for sequencing small clumps of attached cells.

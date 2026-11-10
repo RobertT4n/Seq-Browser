@@ -1,0 +1,27 @@
+name: Div-Seq
+category: wet
+summary: Single-nucleus RNA-seq of EdU-pulse-labelled dividing cells, to profile rare adult newborn neurons.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- facs-sorting
+- reverse-transcription
+reference:
+  doi: 10.1126/science.aad7038
+  year: 2016
+  journal: Science
+  first_author: Habib N
+  last_author: Regev A
+  pmid: '27471252'
+  pmcid: PMC5480621
+  title: 'Div-Seq: Single-nucleus RNA-Seq reveals dynamics of rare adult newborn neurons'
+links: {}
+added: '2026-11-09'
+evidence: Here, we develop Div-Seq, which combines scalable single-nucleus RNA-Seq (sNuc-Seq) with pulse labeling of proliferating
+  cells by 5-ethynyl-2'-deoxyuridine (EdU) to profile individual dividing cells

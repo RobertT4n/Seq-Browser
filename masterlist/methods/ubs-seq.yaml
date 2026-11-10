@@ -1,0 +1,29 @@
+name: UBS-seq
+full_name: Ultrafast bisulfite sequencing
+category: wet
+summary: Concentrated bisulfite at high temperature cuts conversion time about 13-fold, reducing DNA damage for 5mC in DNA
+  and RNA.
+readouts:
+- dna-methylation
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+variant_of:
+- wgbs
+reference:
+  doi: 10.1038/s41587-023-02034-w
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Dai Q
+  last_author: He C
+  pmid: '38168991'
+  pmcid: PMC11217147
+  title: Ultrafast bisulfite sequencing detection of 5-methylcytosine in DNA and RNA
+links: {}
+added: '2026-11-09'
+evidence: We present ultrafast BS-seq (UBS-seq), which uses highly concentrated bisulfite reagents and high reaction temperatures
+  to accelerate the bisulfite reaction by ~13-fold, resulting in reduced DNA damage and lower background noise.

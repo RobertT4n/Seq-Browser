@@ -1,0 +1,20 @@
+name: TranscriptFormer
+category: dry
+summary: Generative foundation models trained on up to 112 million cells for cross-species cell type classification from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/science.aec8514
+  year: 2026
+  journal: Science
+  first_author: Pearce JD
+  last_author: Karaletsos T
+  pmid: '42096520'
+  title: 'TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution'
+links: {}
+added: '2026-11-09'
+evidence: We developed TranscriptFormer, a family of generative foundation models trained on up to 112 million cells spanning
+  1.53 billion years of evolution across 12 species.

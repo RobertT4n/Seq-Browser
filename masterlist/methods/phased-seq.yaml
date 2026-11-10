@@ -1,0 +1,24 @@
+name: PhasED-seq
+category: wet
+summary: Detects ctDNA via multiple phased somatic variants per DNA fragment, improving minimal residual disease sensitivity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+full_name: phased variant enrichment and detection sequencing
+reference:
+  doi: 10.1038/s41587-021-00981-w
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Kurtz DM
+  last_author: Alizadeh AA
+  pmid: '34294911'
+  pmcid: PMC8678141
+  title: Enhanced detection of minimal residual disease by targeted sequencing of phased variants in circulating tumor DNA
+links: {}
+added: '2026-11-09'
+evidence: Here we describe phased variant enrichment and detection sequencing (PhasED-seq), a method that uses multiple somatic
+  mutations in individual DNA fragments to improve the sensitivity of ctDNA detection.

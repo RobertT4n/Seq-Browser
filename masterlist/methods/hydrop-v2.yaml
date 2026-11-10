@@ -1,0 +1,27 @@
+name: HyDrop v2
+category: wet
+summary: Improved custom droplet scATAC-seq method used to build single-cell chromatin accessibility atlases for sequence-to-function
+  modelling.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+variant_of:
+- hydrop-atac
+reference:
+  doi: 10.1038/s41467-026-68742-4
+  year: 2026
+  journal: Nat Commun
+  first_author: Dickmänken H
+  last_author: Aerts S
+  pmid: '41571655'
+  pmcid: PMC12929571
+  title: Evaluating single-cell ATAC-seq atlasing technologies using sequence-to-function modeling
+links: {}
+added: '2026-11-09'
+evidence: We introduce HyDrop v2, an improved custom droplet scATAC-seq method, and perform the first benchmark of scATAC-seq
+  platforms focusing on its capacity to train S2F models and its capacity to yield TF footprints in different species.

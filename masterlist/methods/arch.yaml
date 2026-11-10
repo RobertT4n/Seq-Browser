@@ -1,0 +1,25 @@
+name: ArCH
+full_name: Artifact filtering Clonal Hematopoiesis variant calling pipeline
+category: dry
+summary: End-to-end pipeline that merges four variant callers with artifact filtering to improve low-frequency clonal hematopoiesis
+  calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btae121
+  year: 2024
+  journal: Bioinformatics
+  first_author: Chan ICC
+  last_author: Bolton KL
+  pmid: '38485690'
+  pmcid: PMC11014783
+  title: 'ArCH: improving the performance of clonal hematopoiesis variant calling and interpretation'
+links: {}
+added: '2026-11-09'
+evidence: The lack of well-validated bioinformatic pipelines for CH calling may contribute to lack of reproducibility in studies
+  of CH.ResultsHere, we developed ArCH, an Artifact filtering Clonal Hematopoiesis variant calling pipeline for detecting
+  single nucleotide variants and short insertions/deletions by combining the output of four variant calling tools and filtering
+  based on variant characteristics and sequencing error rate estimation.

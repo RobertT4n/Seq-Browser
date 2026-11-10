@@ -1,0 +1,26 @@
+name: f5C-seq
+full_name: quantitative sequencing of 5-formylcytosine in RNA
+category: wet
+summary: Chemical reduction of 5-formylcytosine to dihydrouracil, read as T in reverse transcription, gives a quantitative
+  C-to-T signature.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+reference:
+  doi: 10.1002/ijch.202300111
+  year: 2024
+  journal: Isr J Chem
+  first_author: Lyu R
+  last_author: Dai Q
+  pmid: '40492241'
+  pmcid: PMC12147524
+  title: A Quantitative Sequencing Method for 5-Formylcytosine in RNA
+links: {}
+added: '2026-11-09'
+evidence: Here we report f5C-seq, a quantitative sequencing method to map f5C transcriptome-wide in HeLa and mouse embryonic
+  stem cells (mESCs).

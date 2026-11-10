@@ -1,0 +1,23 @@
+name: V-Phaser
+category: dry
+summary: Detects rare variants in mixed viral populations by phasing covariation between variants and recalibrating base quality
+  scores with expectation maximisation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1002417
+  year: 2012
+  journal: PLoS Comput Biol
+  first_author: Macalalad AR
+  last_author: Henn MR
+  pmid: '22438797'
+  pmcid: PMC3305335
+  title: Highly sensitive and specific detection of rare variants in mixed viral populations from massively parallel sequence
+    data
+links: {}
+added: '2026-11-09'
+evidence: To address this challenge, we describe V-Phaser, an algorithm able to recognize rare biological variants in mixed
+  populations.

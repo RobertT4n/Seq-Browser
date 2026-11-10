@@ -1,0 +1,26 @@
+name: eSLAC
+full_name: enhanced single-read analysis of tRNA crosstalks
+category: wet
+summary: Extends multiplex small-RNA sequencing (MSR-seq) with detection of pseudouridine, f5C and ac4C, plus a single-read
+  pipeline that maps tRNA modification sites and their crosstalk.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-026-04009-x
+  year: 2026
+  journal: Genome Biol
+  first_author: Assari M
+  last_author: Pan T
+  pmid: '41721424'
+  pmcid: PMC13023127
+  title: Decoding human tRNA modifications and crosstalk by enhanced single-read analysis
+links: {}
+added: '2026-11-09'
+evidence: Results Here, we develop enhanced single-read analysis of tRNA crosstalks (eSLAC), an integrative platform combining
+  multiplex small RNA sequencing (MSR-seq) with expanded detection of pseudouridine (Ψ), 5-formylcytidine (f 5 C), N4-acetylcytidine
+  (ac 4 C), and a single-read analysis pipeline to map modifications and their crosstalk (eSLAC).

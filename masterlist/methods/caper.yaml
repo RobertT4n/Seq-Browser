@@ -1,0 +1,23 @@
+name: CAPER
+full_name: Condition-Associated Pattern Extraction and Recovery
+category: dry
+summary: Separates biological signal from unwanted variation in multi-condition scRNA-seq and recovers cell-type-specific
+  condition responses.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.76186
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Li Y
+  last_author: Sun S
+  pmid: '42328733'
+  pmcid: PMC13336869
+  title: Condition-Associated Pattern Extraction and Recovery From Multi-Condition Single-Cell RNA-seq Data With CAPER
+links: {}
+added: '2026-11-09'
+evidence: Here, we present CAPER, a matrix factorization framework that explicitly disentangles shared biological states from
+  condition-specific variations.

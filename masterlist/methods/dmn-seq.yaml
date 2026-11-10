@@ -1,0 +1,26 @@
+name: DMN-seq
+full_name: DEMETER-assisted 5-Methylcytosine Nicking sequencing
+category: wet
+summary: Uses the 5mC-specific glycosylase DEMETER to nick DNA at methylated cytosines, enriching hypomethylated regions from
+  low-input and cell-free DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+- adapter-ligation
+reference:
+  doi: 10.1186/s13059-026-03991-6
+  year: 2026
+  journal: Genome Biol
+  first_author: Wang Y
+  last_author: He C
+  pmid: '41673887'
+  pmcid: PMC13097799
+  title: DMN-seq enriches DNA hypomethylated regions for biomarker discovery using 5-methylcytosine glycosylase
+links: {}
+added: '2026-11-09'
+evidence: Here, we describe the DEMETER-assisted 5-Methylcytosine Nicking sequencing (DMN-seq) utilizing 5mC-specific glycosylase
+  DEMETER to nick DNA at 5mC sites, enabling 5mC detection at the single-base resolution.

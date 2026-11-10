@@ -1,0 +1,22 @@
+name: Scm6A
+full_name: single-cell m6A quantification
+category: dry
+summary: Machine-learning model that predicts single-cell m6A levels from m6A regulator expression and sequence features.
+readouts:
+- rna-modification
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzae039
+  year: 2024
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Li Y
+  last_author: An S
+  pmid: '39436235'
+  pmcid: PMC12016562
+  title: 'Scm6A: A Fast and Low-cost Method for Quantifying m6A Modifications at the Single-cell Level'
+  preprint_doi: 10.1101/2023.12.14.571511
+links: {}
+added: '2026-11-09'
+evidence: In this study, we introduce Scm  6 A, a machine learning-based approach for single-cell m  6 A quantification.

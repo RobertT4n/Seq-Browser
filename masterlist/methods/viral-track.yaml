@@ -1,0 +1,21 @@
+name: Viral-Track
+category: dry
+summary: computational scan of unmapped scRNA-seq reads for viral RNA.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2020.05.006
+  year: 2020
+  journal: Cell
+  first_author: Bost P
+  last_author: Amit I
+  pmid: '32479746'
+  pmcid: PMC7205692
+  title: Host-Viral Infection Maps Reveal Signatures of Severe COVID-19 Patients
+links: {}
+added: '2026-11-09'
+evidence: We introduce Viral-Track, a computational method that globally scans unmapped single-cell RNA sequencing (scRNA-seq)
+  data for the presence of viral RNA, enabling transcriptional cell sorting of infected versus bystander cells.

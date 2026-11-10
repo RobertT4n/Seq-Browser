@@ -1,0 +1,21 @@
+name: RegFormer
+category: dry
+summary: Single-cell foundation model that integrates gene regulatory networks with Mamba-based state-space modelling of scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-72198-x
+  year: 2026
+  journal: Nat Commun
+  first_author: Hu L
+  last_author: Zhang Y
+  pmid: '42086551'
+  pmcid: PMC13376892
+  title: 'RegFormer: a single-cell foundation model powered by gene regulatory hierarchies'
+links: {}
+added: '2026-11-09'
+evidence: Here, we present RegFormer, a foundation model that integrates gene regulatory networks (GRNs) with Mamba-based
+  state-space modeling, overcoming the scalability and context-length limitations of Transformer architectures.

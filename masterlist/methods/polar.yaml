@@ -1,0 +1,25 @@
+name: POLAR
+category: wet
+summary: ARTIC-style whole-genome SARS-CoV-2 amplification with short-read sequencing and assembly for low-cost diagnosis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+full_name: Pathogen-Oriented Low-Cost Assembly & Re-Sequencing
+reference:
+  doi: 10.1371/journal.pone.0294283
+  year: 2023
+  journal: PLoS One
+  first_author: Adastra PA
+  last_author: Aiden AP
+  pmid: '38032990'
+  pmcid: PMC10688730
+  title: A rapid, low-cost, and highly sensitive SARS-CoV-2 diagnostic based on whole-genome sequencing
+  preprint_doi: 10.1101/2020.04.25.061499
+links: {}
+added: '2026-11-09'
+evidence: Dubbed Pathogen-Oriented Low-Cost Assembly & Re-Sequencing (POLAR), this method amplifies the entirety of the SARS-CoV-2
+  genome.

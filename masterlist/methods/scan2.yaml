@@ -1,0 +1,23 @@
+name: SCAN2
+category: dry
+summary: somatic genotyper for single-neuron WGS (PTA-amplified)
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01180-2
+  year: 2022
+  journal: Nat Genet
+  first_author: Luquette LJ
+  last_author: Park PJ
+  pmid: '36163278'
+  pmcid: PMC9833626
+  title: Single-cell genome sequencing of human neurons identifies somatic point mutation and indel enrichment in regulatory
+    elements
+links: {}
+added: '2026-11-09'
+evidence: We analyzed whole-genome sequencing data from 52 PTA-amplified single neurons using SCAN2, a new genotyper we developed
+  to leverage mutation signatures and allele balance in identifying somatic single-nucleotide variants (SNVs) and small insertions
+  and deletions (indels) in PTA data.

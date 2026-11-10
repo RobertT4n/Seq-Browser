@@ -1,0 +1,24 @@
+name: CopyKAT
+category: dry
+summary: Bayesian segmentation for copy-number profiling from scRNA-seq read depth.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+full_name: copy number karyotyping of aneuploid tumors
+reference:
+  doi: 10.1038/s41587-020-00795-2
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Gao R
+  last_author: Navin NE
+  pmid: '33462507'
+  pmcid: PMC8122019
+  title: Delineating copy number and clonal substructure in human tumors from single-cell transcriptomes
+links: {}
+added: '2026-11-09'
+evidence: To address these challenges, we developed an integrative Bayesian segmentation approach called copy number karyotyping
+  of aneuploid tumors (CopyKAT) to estimate genomic copy number profiles at an average genomic resolution of 5 Mb from read
+  depth in high-throughput single-cell RNA sequencing (scRNA-seq) data.

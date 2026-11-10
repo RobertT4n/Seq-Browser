@@ -1,0 +1,26 @@
+name: snPATHO-seq
+full_name: single-nucleus RNA sequencing of FFPE pathology archives
+category: wet
+summary: Single-nucleus RNA-seq workflow for FFPE tissue whose data match 10x 3' and Flex on fresh or frozen samples, and
+  which pairs with FFPE Visium.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s42003-024-07043-2
+  year: 2024
+  journal: Commun Biol
+  first_author: Wang T
+  last_author: Martelotto LG
+  pmid: '39414943'
+  pmcid: PMC11484811
+  title: snPATHO-seq, a versatile FFPE single-nucleus RNA sequencing method to unlock pathology archives
+links: {}
+added: '2026-11-09'
+evidence: In this study, leveraging a recent advance in single-cell genomic technology, we introduce snPATHO-seq, a versatile
+  method to derive high-quality single-nucleus transcriptomic data from FFPE samples.

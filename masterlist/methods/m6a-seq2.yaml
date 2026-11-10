@@ -1,0 +1,22 @@
+name: m6A-seq2
+category: wet
+summary: Barcoded, pooled m6A immunoprecipitation for site-, gene- and sample-level m6A quantification.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-021-01242-z
+  year: 2021
+  journal: Nat Methods
+  first_author: Dierks D
+  last_author: Schwartz S
+  pmid: '34480159'
+  title: Multiplexed profiling facilitates robust m6A quantification at site, gene and sample resolution
+links: {}
+added: '2026-11-09'
+evidence: Here we develop m6A-seq2, relying on multiplexed m6A-immunoprecipitation of barcoded and pooled samples.

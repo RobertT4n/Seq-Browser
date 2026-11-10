@@ -1,0 +1,26 @@
+name: Zman-seq
+category: wet
+summary: Single-cell transcriptomics with time stamps written into circulating immune cells, so their state changes can be
+  tracked in tissue over days.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2023.11.032
+  year: 2024
+  journal: Cell
+  first_author: Kirschenbaum D
+  last_author: Amit I
+  pmid: '38134933'
+  title: Time-resolved single-cell transcriptomics defines immune trajectories in glioblastoma
+links: {}
+added: '2026-11-09'
+evidence: We present Zman-seq, a single-cell technology recording transcriptomic dynamics across time by introducing time
+  stamps into circulating immune cells, tracking them in tissues for days.

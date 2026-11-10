@@ -1,0 +1,20 @@
+name: CellCap
+category: dry
+summary: Explainable attention and sparse-dictionary model of cell-state-specific responses to single-cell perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2025.101245
+  year: 2025
+  journal: Cell Syst
+  first_author: Xu Y
+  last_author: Babadi M
+  pmid: '40187352'
+  title: Explainable modeling of single-cell perturbation data using attention and sparse dictionary learning
+links: {}
+added: '2026-11-09'
+evidence: In this study, we present CellCap, a deep generative model designed for the end-to-end analysis of single-cell perturbation
+  experiments.

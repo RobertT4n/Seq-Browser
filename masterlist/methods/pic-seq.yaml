@@ -1,0 +1,26 @@
+name: PIC-seq
+full_name: Sequencing physically interacting cells
+category: wet
+summary: Sorts physically interacting cell pairs and profiles them with single-cell RNA-seq to map in situ cell-cell interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- facs-sorting
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41587-020-0442-2
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Giladi A
+  last_author: Amit I
+  pmid: '32152598'
+  title: Dissecting cellular crosstalk by sequencing physically interacting cells
+links: {}
+added: '2026-11-09'
+evidence: we present an approach for sequencing physically interacting cells (PIC-seq), which combines cell sorting of physically
+  interacting cells (PICs) with single-cell RNA-sequencing

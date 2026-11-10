@@ -1,0 +1,25 @@
+name: mpSELEX
+full_name: Multiplexed massively parallel systematic evolution of ligands by exponential enrichment
+category: wet
+summary: Affinity-tagged transcription factors are selected against barcoded random oligonucleotides and the bound sequences
+  are read out by multiplexed sequencing to map binding specificity.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1101/gr.100552.109
+  year: 2010
+  journal: Genome Res
+  first_author: Jolma A
+  last_author: Taipale J
+  pmid: '20378718'
+  pmcid: PMC2877582
+  title: Multiplexed massively parallel SELEX for characterization of human transcription factor binding specificities
+links: {}
+added: '2026-11-09'
+evidence: We describe here a high-throughput method for analyzing transcription factor binding specificity that is based on
+  systematic evolution of ligands by exponential enrichment (SELEX) and massively parallel sequencing.

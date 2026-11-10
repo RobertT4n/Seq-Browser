@@ -1,0 +1,27 @@
+name: PaleoHi-C
+category: wet
+summary: Hi-C protocol adapted to ancient, permafrost-preserved tissue, capturing chromatin contacts from a 52,000-year-old
+  mammoth sample.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+variant_of:
+- hi-c
+reference:
+  doi: 10.1016/j.cell.2024.06.002
+  year: 2024
+  journal: Cell
+  first_author: Sandoval-Velasco M
+  last_author: Aiden EL
+  pmid: '38996487'
+  pmcid: PMC12128189
+  title: Three-dimensional genome architecture persists in a 52,000-year-old woolly mammoth skin sample
+  preprint_doi: 10.1101/2023.06.30.547175
+links: {}
+added: '2026-11-09'
+evidence: We began by creating a modified Hi-C protocol, dubbed PaleoHi-C, optimized for ancient samples, and using it to
+  map chromatin contacts in a woolly mammoth.

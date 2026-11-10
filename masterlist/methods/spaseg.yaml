@@ -1,0 +1,21 @@
+name: SpaSEG
+category: dry
+summary: Unsupervised convolutional deep-learning model for multiple spatially resolved transcriptomics analysis tasks.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03697-1
+  year: 2025
+  journal: Genome Biol
+  first_author: Bai Y
+  last_author: Jin X
+  pmid: '40734184'
+  pmcid: PMC12309169
+  title: 'SpaSEG: unsupervised deep learning for multi-task analysis of spatially resolved transcriptomics'
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce SpaSEG, an unsupervised deep learning model utilizing convolutional neural networks for multiple
+  SRT analysis tasks.

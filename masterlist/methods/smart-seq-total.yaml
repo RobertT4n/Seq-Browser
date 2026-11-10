@@ -1,0 +1,27 @@
+name: Smart-seq-total
+category: wet
+summary: Single-cell total RNA-seq capturing short and long RNAs with UMIs for absolute quantification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- smart-seq
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1073/pnas.2113568118
+  year: 2021
+  journal: Proc Natl Acad Sci U S A
+  first_author: Isakova A
+  last_author: Quake SR
+  pmid: '34911763'
+  pmcid: PMC8713755
+  title: Single-cell quantification of a broad RNA spectrum reveals unique noncoding patterns associated with cell types and
+    states
+links: {}
+added: '2026-11-09'
+evidence: Here we describe Smart-seq-total, a method capable of assaying a broad spectrum of coding and noncoding RNA from
+  a single cell.

@@ -1,0 +1,23 @@
+name: HiDENSEC
+category: dry
+summary: Infers somatic copy number, rearrangements and cancer cell fraction from Hi-C data of heterogeneous tumour samples.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-42651-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Erdmann-Pham DD
+  last_author: Hockemeyer D
+  pmid: '37932252'
+  pmcid: PMC10628133
+  title: Tracing cancer evolution and heterogeneity using Hi-C
+links: {}
+added: '2026-11-09'
+evidence: To address this problem we developed HiDENSEC, a new computational framework for analyzing chromatin conformation
+  capture in heterogeneous samples that can infer somatic copy number alterations, characterize large-scale chromosomal rearrangements,
+  and estimate cancer cell fractions.

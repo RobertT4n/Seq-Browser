@@ -1,0 +1,23 @@
+name: eDMR
+full_name: empirically based differentially methylated regions
+category: dry
+summary: Calls differentially methylated regions from enriched or whole-genome bisulfite sequencing using a bimodal model
+  and a weighted cost function that accounts for CpG spacing.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s5-s10
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Li S
+  last_author: Mason CE
+  pmid: '23735126'
+  pmcid: PMC3622633
+  title: An optimized algorithm for detecting and annotating regional differential methylation
+links: {}
+added: '2026-11-09'
+evidence: Here, we describe an open-source, optimized method for determining empirically based DMRs (eDMR) from high-throughput
+  sequence data that is applicable to enriched whole-genome methylation profiling datasets.

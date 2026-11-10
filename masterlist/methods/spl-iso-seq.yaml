@@ -1,0 +1,32 @@
+name: Spl-ISO-Seq
+full_name: spatial ISOform sequencing
+category: wet
+summary: Spatial long-read isoform sequencing with longer cDNAs, giving near-single-cell resolution of exons and polyadenylation
+  sites in tissue sections.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- single-molecule
+platform:
+- long-read
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41467-025-63301-9
+  year: 2025
+  journal: Nat Commun
+  first_author: Foord C
+  last_author: Tilgner HU
+  pmid: '40883294'
+  pmcid: PMC12397408
+  title: A spatial long-read approach at near-single-cell resolution reveals developmental regulation of splicing and polyadenylation
+    sites in distinct cortical layers and cell types
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce spatial ISOform sequencing (Spl-ISO-Seq), which reveals exons and polyadenylation sites with
+  near-single-cell resolution.

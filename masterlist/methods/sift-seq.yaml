@@ -1,0 +1,26 @@
+name: SIFT-seq
+category: wet
+summary: Sample DNA is tagged before extraction so that contamination introduced later can be recognised and removed bioinformatically.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+full_name: Sample-Intrinsic microbial DNA Found by Tagging and sequencing
+aliases:
+- Coffee-seq
+reference:
+  doi: 10.1038/s41467-022-31654-0
+  year: 2022
+  journal: Nat Commun
+  first_author: Mzava O
+  last_author: De Vlaminck I
+  pmid: '35864089'
+  pmcid: PMC9304412
+  title: A metagenomic DNA sequencing assay that is robust against environmental DNA contamination
+links: {}
+added: '2026-11-09'
+evidence: Here, we present Sample-Intrinsic microbial DNA Found by Tagging and sequencing (SIFT-seq) a metagenomic sequencing
+  assay that is robust against environmental DNA contamination introduced during sample preparation.

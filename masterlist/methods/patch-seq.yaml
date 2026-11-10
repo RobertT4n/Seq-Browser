@@ -1,0 +1,27 @@
+name: Patch-seq
+category: wet
+summary: Whole-cell patch-clamp recording followed by aspiration of the cell contents for full-transcriptome single-cell RNA-seq,
+  linking electrophysiology to molecular identity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- plate-based
+builds_on:
+- smart-seq2
+reference:
+  doi: 10.1038/nbt.3443
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Fuzik J
+  last_author: Harkany T
+  pmid: '26689544'
+  pmcid: PMC4745137
+  title: Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes
+links: {}
+added: '2026-11-09'
+evidence: Here, we present a method for obtaining full transcriptome data from single neocortical pyramidal cells and interneurons
+  after whole-cell patch-clamp recordings in mouse brain slices

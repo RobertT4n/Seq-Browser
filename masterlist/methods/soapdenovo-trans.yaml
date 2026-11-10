@@ -1,0 +1,20 @@
+name: SOAPdenovo-Trans
+category: dry
+summary: De novo transcriptome assembler for short-read RNA-seq, giving higher contiguity and lower redundancy than comparable
+  assemblers on rice and mouse data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu077
+  year: 2014
+  journal: Bioinformatics
+  first_author: Xie Y
+  last_author: Wang J
+  pmid: '24532719'
+  title: 'SOAPdenovo-Trans: de novo transcriptome assembly with short RNA-Seq reads'
+links: {}
+added: '2026-11-09'
+evidence: Here, we present SOAPdenovo-Trans, a de novo transcriptome assembler designed specifically for RNA-Seq.

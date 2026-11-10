@@ -1,0 +1,24 @@
+name: FunGeneTyper
+category: dry
+summary: Deep-learning framework that classifies microbial protein-coding gene sequences by function, such as antibiotic resistance
+  and virulence genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae319
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Zhang G
+  last_author: Ju F
+  pmid: '39007592'
+  pmcid: PMC11247404
+  title: 'Highly accurate classification and discovery of microbial protein-coding gene functions using FunGeneTyper: an extensible
+    deep learning framework'
+links: {}
+added: '2026-11-09'
+evidence: To this end, we developed FunGeneTyper, an extensible framework with two new deep learning models (i.e., FunTrans
+  and FunRep), structured databases, and supporting resources for achieving highly accurate (Accuracy > 0.99, F1-score > 0.97)
+  and fine-grained classification of antibiotic resistance genes (ARGs) and virulence factor genes.

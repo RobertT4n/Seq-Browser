@@ -1,0 +1,26 @@
+name: DroNc-seq
+full_name: Droplet-based single-nucleus RNA-seq
+category: wet
+summary: Droplet-based single-nucleus RNA-seq that profiles archived frozen brain tissue at high throughput.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+builds_on:
+- drop-seq
+reference:
+  doi: 10.1038/nmeth.4407
+  year: 2017
+  journal: Nat Methods
+  first_author: Habib N
+  last_author: Regev A
+  pmid: '28846088'
+  pmcid: PMC5623139
+  title: Massively parallel single-nucleus RNA-seq with DroNc-seq
+links: {}
+added: '2026-11-09'
+evidence: 'Here, we develop DroNc-seq: massively parallel sNuc-seq with droplet technology'

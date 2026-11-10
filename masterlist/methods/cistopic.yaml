@@ -1,0 +1,22 @@
+name: cisTopic
+category: dry
+summary: Probabilistic topic model that jointly finds coaccessible enhancers and cell states from sparse single-cell ATAC-seq
+  data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0367-1
+  year: 2019
+  journal: Nat Methods
+  first_author: Bravo González-Blas C
+  last_author: Aerts S
+  pmid: '30962623'
+  pmcid: PMC6517279
+  title: 'cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data'
+links: {}
+added: '2026-11-09'
+evidence: We present cisTopic, a probabilistic framework used to simultaneously discover coaccessible enhancers and stable
+  cell states from sparse single-cell epigenomics data

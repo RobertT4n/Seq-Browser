@@ -1,0 +1,25 @@
+name: mnSBS
+category: wet
+summary: Sequencing-by-synthesis with mostly natural nucleotides for scRNA-seq libraries on Ultima, benchmarked against Illumina.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+full_name: mostly natural sequencing-by-synthesis
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41587-022-01452-6
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Simmons SK
+  last_author: Levin JZ
+  pmid: '36109685'
+  pmcid: PMC9931582
+  title: Mostly natural sequencing-by-synthesis for scRNA-seq using Ultima sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here we introduce a mostly natural sequencing-by-synthesis (mnSBS) method for single-cell RNA sequencing (scRNA-seq),
+  adapted to the Ultima genomics platform, and systematically benchmark it against current scRNA-seq technology.

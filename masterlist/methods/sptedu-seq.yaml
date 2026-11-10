@@ -1,0 +1,29 @@
+name: SPTEdU-seq
+full_name: Spatial total transcriptomics with EdU tracking sequencing
+category: wet
+summary: Spatial total-transcriptome profiling that co-captures EdU-labelled newborn cells, so proliferation and transcriptional
+  dynamics are read from one tissue without optical imaging.
+readouts:
+- rna
+resolution:
+- spatial
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- spatial-barcode-array
+reference:
+  doi: 10.1016/j.stem.2026.03.001
+  year: 2026
+  journal: Cell Stem Cell
+  first_author: Niu H
+  last_author: Han X
+  pmid: '41895283'
+  title: SPTEdU-seq enables parallel optics-free newborn cell tracking and spatial total transcriptional dynamics in intact
+    microenvironments
+links: {}
+added: '2026-11-09'
+evidence: We developed SPTEdU-seq, integrating spatial total transcriptomics with 5-ethynyl-2'-deoxyuridine tracking to co-profile
+  gene expression and proliferation dynamics.

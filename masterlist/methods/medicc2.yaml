@@ -1,0 +1,23 @@
+name: MEDICC2
+category: dry
+summary: Infers copy-number phylogenies and whole-genome-doubling history from haplotype-specific copy-number profiles, from
+  single-cell or bulk data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02794-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Kaufmann TL
+  last_author: Schwarz RF
+  pmid: '36376909'
+  pmcid: PMC9661799
+  title: 'MEDICC2: whole-genome doubling aware copy-number phylogenies for cancer evolution'
+links: {}
+added: '2026-11-09'
+evidence: We present MEDICC2, a method for inferring evolutionary trees and WGD using haplotype-specific somatic copy-number
+  alterations from single-cell or bulk data.

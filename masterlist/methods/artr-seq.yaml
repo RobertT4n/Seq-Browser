@@ -1,0 +1,25 @@
+name: ARTR-seq
+full_name: reverse transcription-based RBP binding site sequencing
+category: wet
+summary: Antibody-guided in situ reverse transcription maps RNA-binding protein sites from very few cells, without UV crosslinking
+  or immunoprecipitation.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-023-02146-w
+  year: 2024
+  journal: Nat Methods
+  first_author: Xiao Y
+  last_author: He C
+  pmid: '38200227'
+  pmcid: PMC10864177
+  title: Profiling of RNA-binding protein binding sites by in situ reverse transcription-based sequencing
+links: {}
+added: '2026-11-09'
+evidence: Here we present an assay of reverse transcription-based RBP binding site sequencing (ARTR-seq), which relies on
+  in situ reverse transcription of RBP-bound RNAs guided by antibodies to identify RBP binding sites.

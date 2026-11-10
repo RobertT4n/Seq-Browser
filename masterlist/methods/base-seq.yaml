@@ -1,0 +1,25 @@
+name: BAsE-Seq
+full_name: Barcode-directed Assembly for Extra-long Sequences
+category: wet
+summary: Transposes a template-specific barcode onto random fragments of a viral template so short reads can be assembled
+  into multi-kilobase haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- tn5
+reference:
+  doi: 10.1186/preaccept-6768001251451949
+  year: 2014
+  journal: Genome Biol
+  first_author: Hong LZ
+  last_author: Burkholder WF
+  pmid: '25406369'
+  pmcid: PMC4269956
+  title: 'BAsE-Seq: a method for obtaining long viral  haplotypes from short sequence reads'
+links: {}
+added: '2026-11-09'
+evidence: We present a method for obtaining long haplotypes, of over 3 kb in length, using a short-read sequencer, Barcode-directed
+  Assembly for Extra-long Sequences (BAsE-Seq).

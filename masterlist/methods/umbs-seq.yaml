@@ -1,0 +1,27 @@
+name: UMBS-seq
+full_name: Ultra-Mild Bisulfite Sequencing
+category: wet
+summary: Milder bisulfite conversion that reduces DNA degradation and background, improving library yield and complexity for
+  low-input and cell-free DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+variant_of:
+- wgbs
+reference:
+  doi: 10.1038/s41467-025-66033-y
+  year: 2025
+  journal: Nat Commun
+  first_author: Dai Q
+  last_author: He C
+  pmid: '41233368'
+  pmcid: PMC12615686
+  title: Ultra-mild bisulfite outperforms existing methods for 5-methylcytosine detection with low input DNA
+links: {}
+added: '2026-11-09'
+evidence: We present Ultra-Mild Bisulfite Sequencing (UMBS-seq), a method for 5-methylcytosine (5mC) detection that minimizes
+  DNA degradation and background noise.

@@ -1,0 +1,27 @@
+name: CAB-Seq
+full_name: Chemical modification-assisted bisulfite sequencing
+category: wet
+summary: Labels 5-carboxylcytosine by EDC-catalysed amide coupling so it survives bisulfite treatment, enabling base-resolution
+  5caC detection in DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- wgbs
+reference:
+  doi: 10.1021/ja4044856
+  year: 2013
+  journal: J Am Chem Soc
+  first_author: Lu X
+  last_author: He C
+  pmid: '23758547'
+  pmcid: PMC3727251
+  title: Chemical modification-assisted bisulfite sequencing (CAB-Seq) for 5-carboxylcytosine detection in DNA
+links: {}
+added: '2026-11-09'
+evidence: Here, we present a chemical modification-assisted bisulfite sequencing (CAB-Seq) that can detect 5caC with single-base
+  resolution in DNA.

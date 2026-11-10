@@ -1,0 +1,27 @@
+name: HT-ChIP
+full_name: High-throughput chromatin immunoprecipitation
+category: wet
+summary: Automates ChIP-seq on paramagnetic beads in a 96-well format, removing manual washes, gel extraction and precipitation
+  from ChIP through indexed library construction.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1038/nprot.2013.023
+  year: 2013
+  journal: Nat Protoc
+  first_author: Blecher-Gonen R
+  last_author: Amit I
+  pmid: '23429716'
+  title: High-throughput chromatin immunoprecipitation for genome-wide mapping of in vivo protein-DNA interactions and epigenomic
+    states
+links: {}
+added: '2026-11-09'
+evidence: Here we present a protocol for mapping in vivo protein-DNA interactions using a high-throughput chromatin immunoprecipitation
+  (HT-ChIP) approach.

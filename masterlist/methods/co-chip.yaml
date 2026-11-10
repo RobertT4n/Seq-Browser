@@ -1,0 +1,26 @@
+name: co-ChIP
+full_name: Combinatorial indexed chromatin immunoprecipitation
+category: wet
+summary: Combinatorially indexed ChIP that maps genome-wide co-occurrence of two histone modifications on the same nucleosome.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- combinatorial-indexing
+builds_on:
+- chip-seq
+reference:
+  doi: 10.1038/nbt.3652
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Weiner A
+  last_author: Amit I
+  pmid: '27454738'
+  title: Co-ChIP enables genome-wide mapping of histone mark co-occurrence at single-molecule resolution
+links: {}
+added: '2026-11-09'
+evidence: Here we present a genome-wide quantitative method for combinatorial indexed chromatin immunoprecipitation (co-ChIP)
+  to characterize co-occurrence of histone modifications on nucleosomes

@@ -1,0 +1,23 @@
+name: Pan-Mod-seq
+category: wet
+summary: Profiles 16 rRNA modifications in parallel across many samples, used to map modification dynamics across 14 species
+  and growth conditions.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2025.09.014
+  year: 2025
+  journal: Cell
+  first_author: Garcia-Campos MA
+  last_author: Schwartz S
+  pmid: '41130207'
+  pmcid: PMC12698195
+  title: Pan-modification profiling facilitates a cross-evolutionary dissection of the thermoregulated ribosomal epitranscriptome
+links: {}
+added: '2026-11-09'
+evidence: We develop Pan-Mod-seq, permitting inference of 16 distinct modifications across dozens of samples in parallel.

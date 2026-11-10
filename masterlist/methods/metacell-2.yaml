@@ -1,0 +1,21 @@
+name: Metacell-2
+category: dry
+summary: divide-and-conquer metacell algorithm for scalable scRNA-seq grouping.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02667-1
+  year: 2022
+  journal: Genome Biol
+  first_author: Ben-Kiki O
+  last_author: Tanay A
+  pmid: '35440087'
+  pmcid: PMC9019975
+  title: 'Metacell-2: a divide-and-conquer metacell algorithm for scalable scRNA-seq analysis'
+links: {}
+added: '2026-11-09'
+evidence: We introduce Metacell-2, a recursive divide-and-conquer algorithm allowing efficient decomposition of scRNA-seq
+  datasets of any size into small and cohesive groups of cells called metacells.

@@ -1,0 +1,23 @@
+name: SCENIC
+full_name: Single-cell regulatory network inference and clustering
+category: dry
+summary: Computational method that reconstructs gene regulatory networks from single-cell RNA-seq and identifies cell states
+  from regulon activity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4463
+  year: 2017
+  journal: Nat Methods
+  first_author: Aibar S
+  last_author: Aerts S
+  pmid: '28991892'
+  pmcid: PMC5937676
+  title: 'SCENIC: single-cell regulatory network inference and clustering'
+links: {}
+added: '2026-11-09'
+evidence: We present SCENIC, a computational method for simultaneous gene regulatory network reconstruction and cell-state
+  identification from single-cell RNA-seq data

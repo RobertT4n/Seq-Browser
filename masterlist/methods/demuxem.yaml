@@ -1,0 +1,22 @@
+name: DemuxEM
+category: dry
+summary: Computational tool that detects inter-sample multiplets and assigns singlets to their sample of origin in nucleus-hashing
+  snRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-10756-2
+  year: 2019
+  journal: Nat Commun
+  first_author: Gaublomme JT
+  last_author: Regev A
+  pmid: '31266958'
+  pmcid: PMC6606589
+  title: Nuclei multiplexing with barcoded antibodies for single-nucleus genomics
+links: {}
+added: '2026-11-09'
+evidence: We develop DemuxEM, a computational tool that detects inter-sample multiplets and assigns singlets to their sample
+  of origin

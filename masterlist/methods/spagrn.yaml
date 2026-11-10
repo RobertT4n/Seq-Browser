@@ -1,0 +1,20 @@
+name: SpaGRN
+category: dry
+summary: Statistical framework that reconstructs cell-type and domain-specific spatial regulons from spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2025.101243
+  year: 2025
+  journal: Cell Syst
+  first_author: Li Y
+  last_author: Xu M
+  pmid: '40179878'
+  title: 'SpaGRN: Investigating spatially informed regulatory paths for spatially resolved transcriptomics data'
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce SpaGRN, a statistical framework that reconstructs cell-type- or functional-domain-specific, dynamic,
+  and spatial regulons by coupling intracellular spatial regulatory causality with extracellular signaling path information.

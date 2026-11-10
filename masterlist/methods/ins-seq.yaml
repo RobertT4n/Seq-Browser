@@ -1,0 +1,24 @@
+name: INs-seq
+category: wet
+summary: Massively parallel single-cell RNA-seq paired with intracellular protein activity measurements.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2020.06.032
+  year: 2020
+  journal: Cell
+  first_author: Katzenelenbogen Y
+  last_author: Amit I
+  pmid: '32783915'
+  title: Coupled scRNA-Seq and Intracellular Protein Activity Reveal an Immunosuppressive Role of TREM2 in Cancer
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce INs-seq, an integrated technology for massively parallel recording of single-cell RNA sequencing
+  (scRNA-seq) and intracellular protein activity.

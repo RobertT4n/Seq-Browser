@@ -1,0 +1,26 @@
+name: BID-seq
+category: wet
+summary: Bisulfite converts pseudouridine into a reverse-transcription deletion, giving stoichiometric transcriptome-wide
+  maps.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+full_name: bisulfite-induced deletion sequencing
+reference:
+  doi: 10.1038/s41587-022-01505-w
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Dai Q
+  last_author: He C
+  pmid: '36302989'
+  pmcid: PMC10017504
+  title: Quantitative sequencing using BID-seq uncovers abundant pseudouridines in mammalian mRNA at base resolution
+links: {}
+added: '2026-11-09'
+evidence: We report bisulfite-induced deletion sequencing (BID-seq), which uses a bisulfite-mediated reaction to convert pseudouridine
+  stoichiometrically into deletion upon reverse transcription without cytosine deamination.
