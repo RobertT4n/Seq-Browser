@@ -1,0 +1,21 @@
+name: scNovel
+category: dry
+summary: Deep learning network that finds novel rare cell types in single-cell RNA-seq data without prior annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae112
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Zheng C
+  last_author: Li Y
+  pmid: '38555470'
+  pmcid: PMC10981759
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+links: {}
+added: '2026-11-09'
+evidence: In this work, we introduce scNovel, a powerful deep learning-based neural network that specifically focuses on novel
+  rare cell discovery.

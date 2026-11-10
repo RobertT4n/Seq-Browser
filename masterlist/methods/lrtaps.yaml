@@ -1,0 +1,32 @@
+name: lrTAPS
+full_name: long-read TET-assisted pyridine borane sequencing
+category: wet
+summary: Targeted long-read TAPS for base-resolution 5mC and 5hmC across regions up to 10 kb, compatible with Nanopore and
+  PacBio sequencing.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+variant_of:
+- taps
+reference:
+  doi: 10.1186/s13059-020-01969-6
+  year: 2020
+  journal: Genome Biol
+  first_author: Liu Y
+  last_author: Song CX
+  pmid: '32127008'
+  pmcid: PMC7053107
+  title: Accurate targeted long-read DNA methylation and hydroxymethylation sequencing with TAPS
+links: {}
+added: '2026-11-09'
+evidence: We present long-read Tet-assisted pyridine borane sequencing (lrTAPS) for targeted base-resolution sequencing of
+  DNA methylation and hydroxymethylation in regions up to 10 kb from nanogram-level input.

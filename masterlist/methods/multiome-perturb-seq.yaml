@@ -1,0 +1,30 @@
+name: Multiome Perturb-seq
+category: wet
+summary: Pooled CRISPRi screen that measures gene expression and chromatin accessibility from the same single nuclei and assigns
+  each sgRNA to both readouts.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+perturbation:
+- crispr-interference
+scope: targeted
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- perturb-seq
+reference:
+  doi: 10.1016/j.cels.2024.12.002
+  year: 2025
+  journal: Cell Syst
+  first_author: Metzner E
+  last_author: Norman TM
+  pmid: '39689711'
+  pmcid: PMC11738662
+  title: Multiome Perturb-seq unlocks scalable discovery of integrated perturbation effects on the transcriptome and epigenome
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce Multiome Perturb-seq, extending single-cell CRISPR screens to simultaneously measure perturbation-induced
+  changes in gene expression and chromatin accessibility.

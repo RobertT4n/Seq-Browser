@@ -1,0 +1,27 @@
+name: SLICE
+full_name: sgRNA lentiviral infection with Cas9 protein electroporation
+category: wet
+summary: Delivers sgRNAs by lentivirus and Cas9 protein by electroporation into primary human T cells for pooled genome-wide
+  loss-of-function screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.cell.2018.10.024
+  year: 2018
+  journal: Cell
+  first_author: Shifrut E
+  last_author: Marson A
+  pmid: '30449619'
+  pmcid: PMC6689405
+  title: Genome-wide CRISPR Screens in Primary Human T Cells Reveal Key Regulators of Immune Function
+links: {}
+added: '2026-11-09'
+evidence: We developed a new method, single guide RNA (sgRNA) lentiviral infection with Cas9 protein electroporation (SLICE),
+  to identify regulators of stimulation responses in primary human T cells.

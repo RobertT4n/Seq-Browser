@@ -1,0 +1,32 @@
+name: wglrTAPS
+full_name: whole-genome long-read TET-assisted pyridine borane sequencing
+category: wet
+summary: TAPS chemistry combined with PacBio SMRT sequencing for whole-genome, base-resolution 5mC and 5hmC detection on long
+  reads.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+variant_of:
+- taps
+reference:
+  doi: 10.1093/nar/gkac612
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Chen J
+  last_author: Song CX
+  pmid: '35849350'
+  pmcid: PMC9561279
+  title: Whole-genome long-read TAPS deciphers DNA methylation patterns at base resolution using PacBio SMRT sequencing technology
+links: {}
+added: '2026-11-09'
+evidence: By combining our recently developed TET-assisted pyridine borane sequencing (TAPS) method, which enables direct
+  detection of 5-methylcytosine and 5-hydroxymethylcytosine, with PacBio single-molecule real-time sequencing, we present
+  here whole-genome long-read TAPS (wglrTAPS).

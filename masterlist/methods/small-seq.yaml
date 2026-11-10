@@ -1,0 +1,25 @@
+name: Small-seq
+category: wet
+summary: Ligation-based single-cell small-RNA sequencing that captures and counts miRNAs, tRNA fragments and snoRNAs from
+  individual mammalian cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1038/s41596-018-0049-y
+  year: 2018
+  journal: Nat Protoc
+  first_author: Hagemann-Jensen M
+  last_author: Faridani OR
+  pmid: '30250291'
+  title: Small-seq for single-cell small-RNA sequencing
+links: {}
+added: '2026-11-09'
+evidence: We describe Small-seq, a ligation-based method that enables the capture, sequencing, and molecular counting of small
+  RNAs from individual mammalian cells.

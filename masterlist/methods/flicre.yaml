@@ -1,0 +1,27 @@
+name: FLiCRE
+category: wet
+summary: Calcium-activity recorder that stably tags cells with recent intracellular calcium activity in their transcripts,
+  read out by single-cell RNA-seq.
+readouts:
+- rna
+temporal:
+- molecular-recording
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2020.11.015
+  year: 2020
+  journal: Cell
+  first_author: Kim CK
+  last_author: Ting AY
+  pmid: '33308478'
+  pmcid: PMC9839359
+  title: A Molecular Calcium Integrator Reveals a Striatal Cell Type Driving Aversion
+links: {}
+added: '2026-11-09'
+evidence: Here, we report a molecular technology for stable genetic tagging of cells that exhibit activity-related increases
+  in intracellular calcium concentration (FLiCRE).

@@ -1,0 +1,23 @@
+name: HiScanner
+full_name: High-resolution Single-Cell Allelic copy Number callER
+category: dry
+summary: Computational caller for copy-number alterations in single-cell whole-genome sequencing that combines read depth,
+  B-allele frequency and haplotype phasing to detect small CNAs.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-60446-5
+  year: 2025
+  journal: Nat Commun
+  first_author: Zhao Y
+  last_author: Park PJ
+  pmid: '40595464'
+  pmcid: PMC12214996
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce HiScanner (High-resolution Single-Cell Allelic copy Number callER), which combines read depth,
+  B-allele frequency, and haplotype phasing to identify CNAs with high resolution.

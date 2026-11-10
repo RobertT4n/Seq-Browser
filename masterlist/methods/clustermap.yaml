@@ -1,0 +1,24 @@
+name: ClusterMap
+category: dry
+summary: Unsupervised point-pattern clustering of in situ transcriptomic RNA positions by density-peak clustering, resolving
+  subcellular structures, cells and tissue regions in 2D and 3D.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26044-x
+  year: 2021
+  journal: Nat Commun
+  first_author: He Y
+  last_author: Wang X
+  pmid: '34625546'
+  pmcid: PMC8501103
+  title: ClusterMap for multi-scale clustering analysis of spatial gene expression
+links: {}
+added: '2026-11-09'
+evidence: Here, we introduce an unsupervised and annotation-free framework, termed ClusterMap, which incorporates the physical
+  location and gene identity of RNAs, formulates the task as a point pattern analysis problem, and identifies biologically
+  meaningful structures by density peak clustering (DPC).

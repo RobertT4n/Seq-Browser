@@ -1,0 +1,24 @@
+name: UnitedNet
+category: dry
+summary: Explainable multi-task deep neural network that integrates multimodal single-cell data (RNA, chromatin accessibility,
+  protein) for multi-modal integration and cross-modal prediction.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-37477-x
+  year: 2023
+  journal: Nat Commun
+  first_author: Tang X
+  last_author: Liu J
+  pmid: '37137905'
+  pmcid: PMC10156823
+  title: Explainable multi-task learning for multi-modality biological data analysis
+links: {}
+added: '2026-11-09'
+evidence: Here, we present UnitedNet, an explainable multi-task deep neural network capable of integrating different tasks
+  to analyze single-cell multi-modality data.

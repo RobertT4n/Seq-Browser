@@ -1,0 +1,29 @@
+name: iCROP-seq
+full_name: in vivo pooled single-cell CRISPR droplet sequencing
+category: wet
+summary: In vivo pooled CRISPR screen read out by droplet single-cell RNA-seq, used to map T helper 17 cell plasticity in
+  mouse glomerulonephritis and colitis models.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: targeted
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+variant_of:
+- crop-seq
+reference:
+  doi: 10.1126/sciimmunol.add6774
+  year: 2024
+  journal: Sci Immunol
+  first_author: Enk LUB
+  last_author: Krebs CF
+  pmid: '38875317'
+  title: Targeting T cell plasticity in kidney and gut inflammation by pooled single-cell CRISPR screening
+links: {}
+added: '2026-11-09'
+evidence: To uncover molecules driving T cell polarization and plasticity, we established an in vivo pooled scCRISPR droplet
+  sequencing (iCROP-seq) screen and applied it to mouse models of glomerulonephritis and colitis.

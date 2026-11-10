@@ -1,0 +1,23 @@
+name: RefFreeDMA
+full_name: reference-free differential DNA methylation analysis
+category: dry
+summary: Software that builds ad hoc genomes directly from RRBS reads and calls differentially methylated regions between
+  samples without a reference genome.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2015.11.024
+  year: 2015
+  journal: Cell Rep
+  first_author: Klughammer J
+  last_author: Bock C
+  pmid: '26673328'
+  pmcid: PMC4695333
+  title: Differential DNA Methylation Analysis without a Reference Genome
+links: {}
+added: '2026-11-09'
+evidence: Bioinformatically, we developed the RefFreeDMA software to deduce ad hoc genomes directly from RRBS reads and to
+  pinpoint differentially methylated regions between samples or groups of individuals.

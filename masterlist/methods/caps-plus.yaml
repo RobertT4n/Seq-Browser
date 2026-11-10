@@ -1,0 +1,27 @@
+name: CAPS+
+full_name: chemical-assisted pyridine borane sequencing plus
+category: wet
+summary: Chemical oxidation of 5hmC to 5fC and then 5caC, followed by borane reduction, for direct and quantitative base-resolution
+  5hmC mapping with fewer false positives than CAPS.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- taps
+reference:
+  doi: 10.1021/jacs.3c01663
+  year: 2023
+  journal: J Am Chem Soc
+  first_author: Xu H
+  last_author: Song CX
+  pmid: '36961225'
+  pmcid: PMC10080677
+  title: Modular Oxidation of Cytosine Modifications and Their Application in Direct and Quantitative Sequencing of 5-Hydroxymethylcytosine
+links: {}
+added: '2026-11-09'
+evidence: We integrated these two oxidations with borane reduction to develop chemical-assisted pyridine borane sequencing
+  plus (CAPS+), for direct and quantitative mapping of 5hmC.

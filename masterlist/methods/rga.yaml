@@ -1,0 +1,24 @@
+name: RGA
+category: dry
+summary: Long-read variant caller for rDNA loci that finds mostly insertion-deletion variants across the hundreds of ribosomal
+  DNA copies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: targeted
+reference:
+  doi: 10.1016/j.xgen.2024.100629
+  year: 2024
+  journal: Cell Genom
+  first_author: Rothschild D
+  last_author: Barna M
+  pmid: '39111318'
+  pmcid: PMC11480859
+  title: Diversity of ribosomes at the level of rRNA variation associated with human health and disease
+links: {}
+added: '2026-11-09'
+evidence: Here, we developed an algorithm for long-read variant calling, termed RGA, which revealed that variations in human
+  rDNA loci are predominantly insertion-deletion (indel) variants.
