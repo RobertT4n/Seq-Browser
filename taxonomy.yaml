@@ -106,3 +106,31 @@ chemistry:           # key molecular steps; an assay usually has several
   - particle-templated-emulsion  # vortexing makes monodisperse emulsions around hydrogel particles; no microfluidic device (PIP-seq; PTE step of magniFIND-seq)
   - microwell-array         # cells settle into an array of picolitre wells with barcoded beads (Seq-Well, Microwell-seq)
   - spatial-barcode-array   # position-barcoded capture surface / beads; resolution comes from the array (Stereo-seq, Slide-seq)
+
+# ---- Applicability tags (added 2026-11-10; ALL OPTIONAL, omit when the paper does not say - never guess) ----
+throughput:          # cells/nuclei (or equivalent units) profiled in ONE experiment as demonstrated in the paper; single value
+  - lt-1e3
+  - 1e3-1e4
+  - 1e4-1e5
+  - 1e5-1e6
+  - gt-1e6
+input_sample:        # what material the method was run on / is designed for
+  - live-cells
+  - fixed-cells
+  - nuclei
+  - fresh-tissue
+  - ffpe-archival      # FFPE blocks, archival or degraded samples (FFPE-dBIT, PERFF-seq)
+  - low-input          # few cells / picogram input / single molecules
+validated_system:    # first and main systems the method was shown to work in (can list several)
+  - cell-line
+  - primary-cells
+  - tissue-in-vivo
+  - organoid
+species:             # species the method was demonstrated in
+  - human
+  - mouse
+  - other-vertebrate
+  - invertebrate
+  - plant
+  - microbe
+# targets: FREE TEXT list (not validated), epigenome/protein-binding methods only, e.g. [H3K27me3, CTCF, Pol II S2P]

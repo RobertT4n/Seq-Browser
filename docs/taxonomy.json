@@ -102,5 +102,34 @@
   "particle-templated-emulsion",
   "microwell-array",
   "spatial-barcode-array"
+ ],
+ "throughput": [
+  "lt-1e3",
+  "1e3-1e4",
+  "1e4-1e5",
+  "1e5-1e6",
+  "gt-1e6"
+ ],
+ "input_sample": [
+  "live-cells",
+  "fixed-cells",
+  "nuclei",
+  "fresh-tissue",
+  "ffpe-archival",
+  "low-input"
+ ],
+ "validated_system": [
+  "cell-line",
+  "primary-cells",
+  "tissue-in-vivo",
+  "organoid"
+ ],
+ "species": [
+  "human",
+  "mouse",
+  "other-vertebrate",
+  "invertebrate",
+  "plant",
+  "microbe"
  ]
 }
