@@ -1,6 +1,6 @@
 # Seq-Browser masterlist
 
-Sequencing-based assays, one row per method. Updated 2026-11-09. 516 wet-lab methods, 342 computational (under construction).
+Sequencing-based assays, one row per method. Updated 2026-11-10. 516 wet-lab methods, 342 computational (under construction).
 
 **For LLMs / tools:** this file is the complete database. Columns use a fixed vocabulary (see `taxonomy.yaml`). `Variant of` gives the parent method's id (lowercase-hyphenated name). Machine-readable copies: `docs/methods.json`, `docs/methods.csv`. Raw URL: https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md
 
