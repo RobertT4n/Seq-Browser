@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish9">
+<link rel="stylesheet" href="style.css?v=20261109-polish10">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated browser of sequencing-based assays."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
@@ -57,7 +57,7 @@ fetch("methods.json").then(r => r.json()).then(j => {
   document.getElementById("facets").innerHTML = DDS.map((d, i) => {
     const body = d.keys.map(k => {
       const vals = orderVals([...new Set(data.flatMap(m => split(m[k])))].sort());
-      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label${PARENT[v] ? ' class="sub"' : ""}><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(DISP[v] || v)}</label>`).join("");
+      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label${PARENT[v] ? ' class="sub"' : ""}><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(DISP[v] || v)}<span class="n">${data.filter(m => split(m[k]).includes(v)).length}</span></label>`).join("");
     }).join("");
     return `<div class="fg"><span class="cap">${d.label}</span><details class="dd"><summary><span class="sv" id="n-${i}">Any</span></summary><div class="dpanel">${body}</div></details></div>`;
   }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
