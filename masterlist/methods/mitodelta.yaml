@@ -1,0 +1,23 @@
+name: MitoDelta
+category: dry
+summary: Computational pipeline that detects cell-type-specific mtDNA deletions from single-cell RNA sequencing data alone,
+  using alignment and beta-binomial filtering.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s12864-025-11931-0
+  year: 2025
+  journal: BMC Genomics
+  first_author: Nakagawa H
+  last_author: Nikaido I
+  pmid: '40999372'
+  pmcid: PMC12465547
+  title: 'MitoDelta: identifying mitochondrial DNA deletions at cell-type resolution from single-cell RNA sequencing data'
+links: {}
+added: '2026-11-11'
+evidence: Here, we present MitoDelta, a computational pipeline that enables the detection of mtDNA deletions at cell-type
+  resolution solely from single-cell RNA sequencing data.

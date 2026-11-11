@@ -1,0 +1,31 @@
+name: PURE-seq
+full_name: PIP-seq for Rare-cell Enrichment and Sequencing
+category: wet
+summary: Direct FACS sorting of rare cells into PIP-seq reactions for single-cell transcriptome sequencing of ultra-rare cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- facs-sorting
+- reverse-transcription
+builds_on:
+- pip-seq
+species:
+- human
+- mouse
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-025-68146-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Pan S
+  last_author: Abate AR
+  pmid: '41565684'
+  pmcid: PMC12881479
+  title: PURE-seq integrates FACS and PIP-seq for single-cell genomics of ultra-rare cells
+links: {}
+added: '2026-11-11'
+evidence: To address this, we develop PIP-seq for Rare-cell Enrichment and Sequencing (PURE-seq). PURE-seq allows direct FACS
+  sorting of cells into PIP-seq reactions

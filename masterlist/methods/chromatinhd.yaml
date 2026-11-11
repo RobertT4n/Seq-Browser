@@ -1,0 +1,24 @@
+name: ChromatinHD
+category: dry
+summary: Scale-adaptive machine learning models that link single-nucleus chromatin accessibility, without peak-calling, to
+  gene expression and differential accessibility.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-55447-9
+  year: 2025
+  journal: Nat Commun
+  first_author: Saelens W
+  last_author: Deplancke B
+  pmid: '39747019'
+  pmcid: PMC11697365
+  title: ChromatinHD connects single-cell DNA accessibility and conformation to gene expression through scale-adaptive machine
+    learning
+links: {}
+added: '2026-11-11'
+evidence: Here, we develop ChromatinHD, a pair of scale-adaptive models that uses the raw accessibility data, without peak-calling
+  or windows, to link regions to gene expression and determine differentially accessible chromatin

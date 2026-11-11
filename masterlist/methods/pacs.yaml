@@ -1,0 +1,28 @@
+name: PACS
+full_name: PCR-activated cell sorting
+category: wet
+summary: Droplet-based cell sorting that uses TaqMan PCR within single cells to trigger sorting, followed by analysis of the
+  recovered DNA and RNA.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gku606
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Eastburn DJ
+  last_author: Abate AR
+  pmid: '25030902'
+  pmcid: PMC4176366
+  title: Identification and genetic analysis of cancer cells with PCR-activated cell sorting
+links: {}
+added: '2026-11-11'
+evidence: We introduce a new cell sorting technology that robustly sorts based on sequence-specific analysis of cellular nucleic
+  acids. Our approach, PCR-activated cell sorting (PACS), uses TaqMan PCR to detect nucleic acids within single cells and
+  trigger their sorting.

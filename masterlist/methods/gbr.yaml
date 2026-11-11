@@ -1,0 +1,26 @@
+name: GBR
+full_name: graph-based regularization
+category: dry
+summary: Computational genome-annotation method that adds a pairwise Hi-C prior to semi-automated chromatin-state annotation,
+  so loci close in 3D tend to receive the same domain label.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/gr.184341.114
+  year: 2015
+  journal: Genome Res
+  first_author: Libbrecht MW
+  last_author: Noble WS
+  pmid: '25677182'
+  pmcid: PMC4381526
+  title: Joint annotation of chromatin state and chromatin conformation reveals relationships among domain types and identifies
+    domains of cell-type-specific expression
+links: {}
+added: '2026-11-11'
+evidence: We developed a new computational method, called graph-based regularization (GBR), for expressing a pairwise prior
+  that encourages certain pairs of genomic loci to receive the same label in a genome annotation.

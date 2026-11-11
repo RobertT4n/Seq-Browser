@@ -1,0 +1,28 @@
+name: SMiLE-seq
+full_name: selective microfluidics-based ligand enrichment followed by sequencing
+category: wet
+summary: Microfluidics-based protein-DNA interaction assay that enriches DNA ligands bound by a transcription factor and sequences
+  them to derive DNA-binding models.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+species:
+- human
+- mouse
+- invertebrate
+reference:
+  doi: 10.1038/nmeth.4143
+  year: 2017
+  journal: Nat Methods
+  first_author: Isakova A
+  last_author: Deplancke B
+  pmid: '28092692'
+  title: SMiLE-seq identifies binding motifs of single and dimeric transcription factors
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a novel, semiautomated protein-DNA interaction characterization technology, selective microfluidics-based
+  ligand enrichment followed by sequencing (SMiLE-seq).

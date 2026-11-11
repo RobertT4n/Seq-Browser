@@ -1,0 +1,25 @@
+name: RABID-seq
+full_name: rabies barcode interaction detection followed by sequencing
+category: wet
+summary: Barcoded rabies viral tracing combined with single-cell RNA sequencing to identify interacting cell pairs in vivo.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1126/science.abf1230
+  year: 2021
+  journal: Science
+  first_author: Clark IC
+  last_author: Quintana FJ
+  pmid: '33888612'
+  pmcid: PMC8157482
+  title: Barcoded viral tracing of single-cell interactions in central nervous system inflammation
+links: {}
+added: '2026-11-11'
+evidence: we developed rabies barcode interaction detection followed by sequencing (RABID-seq), which combines barcoded viral
+  tracing and single-cell RNA sequencing (scRNA-seq)

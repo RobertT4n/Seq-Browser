@@ -1,0 +1,28 @@
+name: scTF-seq
+full_name: single-cell transcription factor sequencing
+category: wet
+summary: Single-cell method that induces barcoded, doxycycline-inducible transcription factor overexpression and reads out
+  transcriptomes to measure dose-dependent TF effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41588-025-02343-7
+  year: 2025
+  journal: Nat Genet
+  first_author: Liu W
+  last_author: Deplancke B
+  pmid: '41044248'
+  pmcid: PMC12513835
+  title: Dissecting the impact of transcription factor dose on cell reprogramming heterogeneity using scTF-seq
+links: {}
+added: '2026-11-11'
+evidence: we developed single-cell transcription factor sequencing (scTF-seq), a single-cell technique that induces barcoded,
+  doxycycline-inducible TF overexpression and quantifies TF dose-dependent transcriptomic changes

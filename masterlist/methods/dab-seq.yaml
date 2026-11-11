@@ -1,0 +1,27 @@
+name: DAb-seq
+category: wet
+summary: Single-cell method that simultaneously captures DNA genotype and cell-surface protein phenotype from the same cells
+  at high throughput.
+readouts:
+- genome-sequence
+- protein
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- oligo-capture
+throughput: 1e4-1e5
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-021-21810-3
+  year: 2021
+  journal: Nat Commun
+  first_author: Demaree B
+  last_author: Abate AR
+  pmid: '33707421'
+  pmcid: PMC7952600
+  title: Joint profiling of DNA and proteins in single cells to dissect genotype-phenotype associations in leukemia
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce DAb-seq, a technology for simultaneous capture of DNA genotype and cell surface phenotype from
+  single cells at high throughput

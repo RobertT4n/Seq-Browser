@@ -1,0 +1,30 @@
+name: FIND-seq
+full_name: focused interrogation of cells by nucleic acid detection and sequencing
+category: wet
+summary: High-throughput droplet microfluidic cytometry that detects target nucleic acids by PCR, sorts droplets, and sequences
+  the transcriptomes of sorted single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- mouse
+- human
+reference:
+  doi: 10.1038/s41586-022-05613-0
+  year: 2023
+  journal: Nature
+  first_author: Clark IC
+  last_author: Abate AR
+  pmid: '36599367'
+  pmcid: PMC9980163
+  title: Identification of astrocyte regulators by nucleic acid cytometry
+links: {}
+added: '2026-11-11'
+evidence: we developed focused interrogation of cells by nucleic acid detection and sequencing (FIND-seq), a high-throughput
+  microfluidic cytometry method that combines encapsulation of cells in droplets, PCR-based detection of target nucleic acids
+  and droplet sorting
