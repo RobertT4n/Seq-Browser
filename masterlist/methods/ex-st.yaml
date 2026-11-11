@@ -1,0 +1,28 @@
+name: Ex-ST
+full_name: Expansion spatial transcriptomics
+category: wet
+summary: Clears and physically expands tissue before polyA capture on a spatial array, giving higher spatial resolution than
+  the array density alone allows.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-023-01911-1
+  year: 2023
+  journal: Nat Methods
+  first_author: Fan Y
+  last_author: Wang B
+  pmid: '37349575'
+  pmcid: PMC11078125
+  title: Expansion spatial transcriptomics
+links: {}
+added: '2026-11-11'
+evidence: we present expansion spatial transcriptomics to overcome this limitation by clearing and expanding tissue prior
+  to capturing the entire polyadenylated transcriptome

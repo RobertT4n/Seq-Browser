@@ -1,0 +1,28 @@
+name: scFLUENT-seq
+full_name: single-cell full-length EU-labeled nascent RNA sequencing
+category: wet
+summary: Single-cell nascent-RNA sequencing after brief 10-minute EU labelling, showing that individual cells transcribe a
+  small fraction of the genome.
+readouts:
+- nascent-rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2025.09.003
+  year: 2025
+  journal: Cell
+  first_author: Ma S
+  last_author: Shen X
+  pmid: '41015043'
+  title: Single-cell nascent transcription reveals sparse genome usage and plasticity
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: We introduce single-cell full-length EU-labeled nascent RNA sequencing (scFLUENT-seq), a single-cell nascent RNA
+  sequencing method using brief 10-min metabolic labeling to capture genome-wide transcription.

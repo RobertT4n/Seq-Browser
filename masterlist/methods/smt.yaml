@@ -1,0 +1,29 @@
+name: SmT
+full_name: Spatial metaTranscriptomics
+category: wet
+summary: Spatial sequencing on 16S/18S/ITS plus poly-dT arrays profiles host transcriptome and microbiome together at 55 um
+  resolution.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+validated_system:
+- tissue-in-vivo
+species:
+- plant
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1101/2022.07.18.496977
+  year: 2022
+  journal: bioRxiv
+  first_author: Saarenpää S
+  last_author: Giacomello S
+  title: Spatially resolved host-bacteria-fungi interactomes via spatial metatranscriptomics
+links: {}
+added: '2026-11-11'
+evidence: Here, we present Spatial metaTranscriptomics (SmT), a sequencing-based approach that leverages 16S/18S/ITS/poly-d(T)
+  multimodal arrays for simultaneous host transcriptome- and microbiome-wide characterization of tissues at 55-µm resolution.

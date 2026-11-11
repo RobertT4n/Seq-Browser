@@ -1,0 +1,28 @@
+name: HyPR-seq
+full_name: Hybridization of Probes to RNA for sequencing
+category: wet
+summary: Hybridizes DNA probes to chosen RNAs, partitions cells into nanoliter droplets, and sequences PCR-amplified probe
+  amplicons for targeted single-cell expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- oligo-capture
+- droplet-microfluidics
+- amplicon-pcr
+reference:
+  doi: 10.1073/pnas.2010738117
+  year: 2020
+  journal: Proc Natl Acad Sci U S A
+  first_author: Marshall JL
+  last_author: Engreitz JM
+  pmid: '33376219'
+  pmcid: PMC7776864
+  title: 'HyPR-seq: Single-cell quantification of chosen RNAs via hybridization and sequencing of DNA probes'
+  preprint_doi: 10.1101/2020.06.01.128314
+links: {}
+added: '2026-11-11'
+evidence: HyPR-seq involves hybridizing DNA probes to RNA, distributing cells into nanoliter droplets, amplifying the probes
+  with PCR, and sequencing the amplicons to quantify the expression of chosen genes.

@@ -1,0 +1,18 @@
+name: mitobender
+category: dry
+summary: Computational tool that reduces ambient mitochondrial DNA signal in single-cell assays before mtDNA genotyping.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.09.17.675534
+  year: 2025
+  journal: bioRxiv
+  first_author: Salla M
+  last_author: Ludwig LS
+  title: Cryo-mtscATAC-seq for single-cell mitochondrial DNA genotyping and clonal tracing in archived human tissues
+links: {}
+added: '2026-11-11'
+evidence: implemented mitobender, a computational tool to reduce ambient mtDNA in single-cell assays

@@ -1,0 +1,32 @@
+name: DAF-seq
+full_name: Deaminase-Assisted single-molecule chromatin Fiber sequencing
+category: wet
+summary: Deaminase footprinting of single chromosome-length chromatin fibers maps protein co-occupancy and accessibility per
+  haplotype and per cell (scDAF-seq).
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-molecule
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41587-025-02914-3
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Swanson EG
+  last_author: Stergachis AB
+  pmid: '41339527'
+  pmcid: PMC13063407
+  title: Mapping single-cell diploid chromatin fiber architectures using DAF-seq
+links: {}
+added: '2026-11-11'
+evidence: Here we present Deaminase-Assisted single-molecule chromatin Fiber sequencing (DAF-seq), which enables single-molecule
+  footprinting at near-nucleotide resolution while synchronously profiling single-molecule chromatin states and DNA sequence.
+partition_unknown: not stated in the abstract

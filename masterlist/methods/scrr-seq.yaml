@@ -1,0 +1,30 @@
+name: scRR-seq
+full_name: single-cell Repli-RamDA-seq
+aliases:
+- scRepli-RamDA-seq
+category: wet
+summary: Single-cell multi-omics giving DNA replication profiles and full-length total RNA from the same cell, haplotype-specific.
+readouts:
+- rna
+- replication-timing
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- ramda-seq
+reference:
+  doi: 10.1038/s41467-025-64688-1
+  year: 2025
+  journal: Nat Commun
+  first_author: Poonperm R
+  last_author: Takebayashi SI
+  pmid: '41397953'
+  pmcid: PMC12705686
+  title: 'scRepli-RamDA-seq: a multi-omics technology enabling the analysis of gene expression dynamics during S-phase'
+links: {}
+added: '2026-11-11'
+evidence: Here, we introduce single-cell (sc)Repli-RamDA-seq (scRR-seq), a multi-omics method that enables high-resolution
+  DNA replication profiling and full-length total RNA sequencing from the same single cell in a haplotype-specific manner.
+partition_unknown: not stated in the abstract

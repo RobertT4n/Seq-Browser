@@ -1,0 +1,34 @@
+name: TetTCR-SeqHD
+full_name: High-dimensional, tetramer-associated T cell antigen receptor sequencing
+category: wet
+summary: Oligo-barcoded tetramers read out antigen specificity alongside TCR sequence, targeted gene expression and surface
+  protein from tens of thousands of single T cells.
+readouts:
+- immune-repertoire
+- protein
+- rna
+resolution:
+- single-cell
+throughput: 1e4-1e5
+validated_system:
+- primary-cells
+species:
+- human
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41590-021-01073-2
+  year: 2021
+  journal: Nat Immunol
+  first_author: Ma KY
+  last_author: Jiang N
+  pmid: '34811538'
+  pmcid: PMC9184244
+  title: High-throughput and high-dimensional single-cell analysis of antigen-specific CD8&lt;sup&gt;+&lt;/sup&gt; T cells
+links: {}
+added: '2026-11-11'
+evidence: We describe a high-dimensional, tetramer-associated T cell antigen receptor (TCR) sequencing (TetTCR-SeqHD) method
+  to simultaneously profile cognate antigen specificities, TCR sequences, targeted gene expression and surface-protein expression
+  from tens of thousands of single cells.
+partition_unknown: not stated in the abstract

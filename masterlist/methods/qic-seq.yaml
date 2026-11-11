@@ -1,0 +1,29 @@
+name: QIC-seq
+full_name: Quantification of Infection and CRISPR guide sequencing
+category: wet
+summary: Single-cell CRISPR knockout screen read out with virus-inclusive transcriptomics, measuring host-factor dependence
+  and host response to infection.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1371/journal.ppat.1014279
+  year: 2026
+  journal: PLoS Pathog
+  first_author: Dupzyk AJ
+  last_author: Carette JE
+  pmid: '42361119'
+  pmcid: PMC13327515
+  title: Dissecting the host determinants of orthoflavivirus infection using QIC-seq
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: We present a single-cell approach (Quantification of Infection and CRISPR guide sequencing; QIC-seq) that combines
+  CRISPR/Cas9 knockout with virus-inclusive transcriptomics to systematically compare host factor requirements and host transcriptional
+  response to orthoflaviviral challenge.

@@ -1,0 +1,26 @@
+name: MiCA-eMDA
+full_name: Micro-capillary array centrifugal emulsification with emulsion multiple displacement amplification
+category: wet
+summary: High-throughput single-cell whole-genome amplification in centrifugally generated droplets, giving copy-number profiles
+  from a few dozen cells per run.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+throughput: lt-1e3
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1038/s42003-019-0401-y
+  year: 2019
+  journal: Commun Biol
+  first_author: Fu Y
+  last_author: Wang J
+  pmid: '31044172'
+  pmcid: PMC6488574
+  title: High-throughput single-cell whole-genome amplification through centrifugal emulsification and eMDA
+links: {}
+added: '2026-11-11'
+evidence: Here, we integrate a one-step micro-capillary array (MiCA)-based centrifugal droplet generation technique with emulsion
+  multiple displacement amplification (eMDA) and demonstrate a high-throughput scWGA method, MiCA-eMDA.

@@ -1,0 +1,25 @@
+name: STING-seq
+category: wet
+summary: Pooled CRISPR perturbation of noncoding variant loci read out by single-cell transcriptomics to map target genes
+  and trans-regulatory networks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/science.adh7699
+  year: 2023
+  journal: Science
+  first_author: Morris JA
+  last_author: Sanjana NE
+  pmid: '37141313'
+  pmcid: PMC10518238
+  title: Discovery of target genes and pathways at GWAS loci by pooled single-cell CRISPR screens
+  preprint_doi: 10.1101/2021.04.07.438882
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: This platform will enable massively parallel assays to catalog the target genes of human noncoding variants

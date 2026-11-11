@@ -1,0 +1,25 @@
+name: BAR-seq
+category: wet
+summary: Amplicon sequencing of integrated barcode cassettes to track clones of gene-edited cells in bulk populations, with
+  a web application for clonal analysis.
+readouts:
+- lineage
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41596-021-00529-x
+  year: 2021
+  journal: Nat Protoc
+  first_author: Ferrari S
+  last_author: Genovese P
+  pmid: '34031609'
+  title: BAR-Seq clonal tracking of gene-edited cells
+links: {}
+added: '2026-11-11'
+evidence: Here we detail the wet laboratory and bioinformatic BAR-Seq pipeline, a strategy for clonal tracking of cells harboring
+  homology-directed targeted integration of a barcoding cassette.

@@ -1,0 +1,27 @@
+name: scSNV-seq
+full_name: single-cell genotyping and transcriptomics of single nucleotide variants
+category: wet
+summary: Couples single-cell genotyping of SNVs with transcriptomics in the same cells, so CRISPR-screen phenotypes are assigned
+  to exact variants.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-024-03169-y
+  year: 2024
+  journal: Genome Biol
+  first_author: Cooper SE
+  last_author: Bassett AR
+  pmid: '38225637'
+  pmcid: PMC10789043
+  title: 'scSNV-seq: high-throughput phenotyping of single nucleotide variants by coupled single-cell genotyping and transcriptomics'
+links: {}
+added: '2026-11-11'
+evidence: scSNV-seq overcomes this limitation by coupling single-cell genotyping and transcriptomics of the same cells enabling
+  accurate and high-throughput screening of SNVs.
+partition_unknown: not stated in the abstract

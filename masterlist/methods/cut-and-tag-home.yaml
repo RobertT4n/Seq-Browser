@@ -1,0 +1,25 @@
+name: Cut&Tag@Home
+category: wet
+summary: Modified CUT&Tag tagmentation conditions that turn antibody-tethered Tn5 into an ATAC-quality chromatin accessibility
+  assay, run in single PCR tubes.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1101/2020.04.15.043083
+  year: 2020
+  journal: bioRxiv
+  first_author: Henikoff S
+  last_author: Ahmad K
+  title: Efficient chromatin accessibility mapping  <i>in situ</i>  by nucleosome-tethered tagmentation
+links: {}
+added: '2026-11-11'
+evidence: by simply modifying the tagmentation conditions for histone H3K4me2 or H3K4me3 CUT&Tag, antibody-tethered tagmentation
+  of accessible DNA sites is redirected to produce chromatin accessibility maps

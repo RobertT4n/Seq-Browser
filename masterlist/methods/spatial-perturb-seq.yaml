@@ -1,0 +1,33 @@
+name: Spatial Perturb-seq
+category: wet
+summary: In vivo CRISPR knockout screen in intact mouse tissue that reads perturbations and transcriptomes spatially within
+  single cells, compatible with sequencing-based and probe-based spatial platforms.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- reverse-transcription
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s41467-026-69677-6
+  year: 2026
+  journal: Nat Commun
+  first_author: Shen K
+  last_author: Chew WL
+  pmid: '41723140'
+  pmcid: PMC13035813
+  title: 'Spatial perturb-seq: single-cell functional genomics within intact tissue architecture'
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: We develop Spatial Perturb-Seq, an in vivo CRISPR technology that interrogates multiple genes within single cells
+  of intact tissues, compatible with both sequencing-based and probe-based spatial technologies.

@@ -1,0 +1,28 @@
+name: SUPeR-seq
+full_name: single-cell universal poly(A)-independent RNA sequencing
+category: wet
+summary: Single-cell RNA-seq that captures both polyadenylated and non-polyadenylated RNAs, used to profile circular RNAs
+  in mouse preimplantation embryos.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-015-0706-1
+  year: 2015
+  journal: Genome Biol
+  first_author: Fan X
+  last_author: Huang Y
+  pmid: '26201400'
+  pmcid: PMC4511241
+  title: Single-cell RNA-seq transcriptome analysis of linear and circular RNAs in mouse preimplantation embryos
+links: {}
+added: '2026-11-11'
+evidence: Here we develop a single-cell universal poly(A)-independent RNA sequencing (SUPeR-seq) method to sequence both polyadenylated
+  and non-polyadenylated RNAs from individual cells.
+partition_unknown: not stated in the abstract

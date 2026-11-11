@@ -1,0 +1,28 @@
+name: INSTA-seq
+full_name: In Situ Transcriptome Accessibility sequencing
+category: wet
+summary: In situ barcode imaging with bidirectional sequencing chemistry, with barcodes extracted and assembled into longer
+  NGS reads to localise transcript variants in tissue.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+validated_system:
+- tissue-in-vivo
+species:
+- invertebrate
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/722819
+  year: 2019
+  journal: bioRxiv
+  first_author: Fürth D
+  last_author: Lee JH
+  title: In Situ Transcriptome Accessibility Sequencing (INSTA-seq)
+links: {}
+added: '2026-11-11'
+evidence: We solved these problems using a bidirectional sequencing chemistry to efficiently image transcript-specific barcode
+  in situ, which are then extracted and assembled into longer reads using NGS.

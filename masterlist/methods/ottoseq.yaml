@@ -1,0 +1,27 @@
+name: OttoSeq
+category: wet
+summary: Automated optical pooled screen that combines in situ sequencing of guide barcodes with cell painting imaging, completing
+  a genome-wide knockout screen in eight days.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- crispr-knockout
+chemistry:
+- in-situ-hybridization
+variant_of:
+- optical-pooled-screens
+reference:
+  doi: 10.64898/2026.04.15.718742
+  year: 2026
+  journal: bioRxiv
+  first_author: Kirby B
+  last_author: Blainey PC
+  title: The one-week automated genome-wide optical pooled screen
+links: {}
+added: '2026-11-11'
+evidence: Here we present OttoSeq, an automated OPS platform combining the Otto2 fluid handling system with the Brieflow analysis
+  pipeline.
+partition_unknown: not stated in the abstract

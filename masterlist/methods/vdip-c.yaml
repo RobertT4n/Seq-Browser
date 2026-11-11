@@ -1,0 +1,33 @@
+name: vDip-C
+full_name: Virus-enriched Dip-C
+category: wet
+summary: Virus-enriched single-cell mode of Dip-C for 3D genome profiling of cerebellar cells.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+species:
+- human
+- mouse
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+- plate-based
+variant_of:
+- dip-c
+reference:
+  doi: 10.1126/science.adh3253
+  year: 2023
+  journal: Science
+  first_author: Tan L
+  last_author: Deisseroth K
+  pmid: '37676945'
+  pmcid: PMC11059189
+  title: Lifelong restructuring of 3D genome architecture in cerebellar granule cells
+  preprint_doi: 10.1101/2023.02.25.530020
+links: {}
+added: '2026-11-11'
+evidence: by developing our high-resolution single-cell 3D genome assay Dip-C into population-scale (Pop-C) and virus-enriched
+  (vDip-C) modes

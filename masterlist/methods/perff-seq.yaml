@@ -1,0 +1,28 @@
+name: PERFF-seq
+full_name: Programmable Enrichment via RNA Flow-FISH by sequencing
+category: wet
+summary: RNA flow-FISH sorting of cells or nuclei by marker transcript presence or absence, followed by scRNA-seq of the enriched
+  rare subpopulation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- nuclei
+- ffpe-archival
+chemistry:
+- in-situ-hybridization
+- facs-sorting
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.03.27.587039
+  year: 2024
+  journal: bioRxiv
+  first_author: Abay T
+  last_author: Lareau CA
+  title: Transcript-specific enrichment enables profiling rare cell states via scRNA-seq
+links: {}
+added: '2026-11-11'
+evidence: we describe Programmable Enrichment via RNA Flow-FISH by sequencing (PERFF-seq), a scalable assay that enables scRNA-seq
+  profiling of subpopulations from complex cellular mixtures defined by the presence or absence of specific RNA transcripts.

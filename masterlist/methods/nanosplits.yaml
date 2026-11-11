@@ -1,0 +1,29 @@
+name: nanoSPLITS
+full_name: nanodroplet SPlitting for Linked-multimodal Investigations of Trace Samples
+category: wet
+summary: Splits single-cell nanodroplet samples to profile the transcriptome by RNA-seq and the proteome by mass spectrometry
+  from the same cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-54099-z
+  year: 2024
+  journal: Nat Commun
+  first_author: Fulcher JM
+  last_author: Zhu Y
+  pmid: '39638780'
+  pmcid: PMC11621338
+  title: Parallel measurement of transcriptomes and proteomes from same single cells using nanodroplet splitting
+  preprint_doi: 10.1101/2022.05.17.492137
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: we introduce nanoSPLITS (nanodroplet SPlitting for Linked-multimodal Investigations of Trace Samples), an integrated
+  platform that enables global profiling of the transcriptome and proteome from same single cells using RNA sequencing and
+  mass spectrometry-based proteomics

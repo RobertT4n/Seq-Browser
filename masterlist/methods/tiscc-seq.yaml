@@ -1,0 +1,32 @@
+name: TISCC-seq
+category: wet
+summary: Single-cell workflow that engineers TP53 mutations with CRISPR base editors and reads each cell's edited transcript
+  by long-read sequencing alongside short-read transcriptomes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: targeted
+perturbation:
+- base-editing
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-023-01949-8
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Kim HS
+  last_author: Ji HP
+  pmid: '37697151'
+  pmcid: PMC11324510
+  title: Direct measurement of engineered cancer mutations and their transcriptional phenotypes in single cells
+links: {}
+added: '2026-11-11'
+evidence: Here, we developed a high-throughput, multiplexed single-cell technology called TISCC-seq to engineer predesignated
+  mutations in cells using CRISPR base editors
+partition_unknown: not stated in the abstract

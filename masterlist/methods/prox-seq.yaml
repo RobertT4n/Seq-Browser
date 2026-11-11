@@ -1,0 +1,33 @@
+name: Prox-seq
+full_name: Proximity sequencing
+category: wet
+summary: Proximity ligation with single-cell sequencing to measure proteins, protein complexes and mRNAs together in thousands
+  of cells.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e3-1e4
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-022-01684-z
+  year: 2022
+  journal: Nat Methods
+  first_author: Vistain L
+  last_author: Tay S
+  pmid: '36456784'
+  pmcid: PMC11289786
+  title: Quantification of extracellular proteins, protein complexes and mRNAs in single cells by proximity sequencing
+links: {}
+added: '2026-11-11'
+evidence: We present proximity sequencing (Prox-seq) for simultaneous measurement of proteins, protein complexes and mRNAs
+  in thousands of single cells.
+partition_unknown: not stated in the abstract

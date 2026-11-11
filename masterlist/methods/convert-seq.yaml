@@ -1,0 +1,23 @@
+name: Convert-seq
+category: wet
+summary: scRNA-seq combined with pooled ectopic transcription-factor expression, using a strategy that separates exogenous
+  from endogenous transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/600239
+  year: 2019
+  journal: bioRxiv
+  first_author: Luginbühl J
+  last_author: Shin JW
+  title: Decoding neuronal diversity by single-cell Convert-seq
+links: {}
+added: '2026-11-11'
+evidence: Here we present Convert-seq, combining single-cell RNA sequencing (scRNA-seq) and pooled ectopic gene expression
+  with a new strategy to discriminate sequencing reads derived from exogenous and endogenous transcripts.
+partition_unknown: not stated in the abstract

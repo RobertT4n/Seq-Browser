@@ -1,0 +1,24 @@
+name: CINEMA-OT
+full_name: Causal INdependent Effect Module Attribution + Optimal Transport
+category: dry
+summary: Causal inference method that separates confounding variation from perturbation effects in single-cell data and matches
+  counterfactual cell pairs by optimal transport.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02040-5
+  year: 2023
+  journal: Nat Methods
+  first_author: Dong M
+  last_author: van Dijk D
+  pmid: '37919419'
+  pmcid: PMC10630139
+  title: Causal identification of single-cell experimental perturbation effects with CINEMA-OT
+  preprint_doi: 10.1101/2022.07.31.502173
+links: {}
+added: '2026-11-11'
+evidence: we present a causal inference based approach to single-cell perturbation analysis, termed CINEMA-OT (Causal INdependent
+  Effect Module Attribution + Optimal Transport)

@@ -1,0 +1,28 @@
+name: SiC-seq
+full_name: Single-cell genomic sequencing
+category: wet
+summary: 'Droplet-microfluidic single-cell genome sequencing: cells are isolated, fragmented and barcoded in droplets, then
+  pooled for Illumina sequencing; demonstrated on microbial communities.'
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+throughput: 1e4-1e5
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+species:
+- microbe
+reference:
+  doi: 10.1038/nbt.3880
+  year: 2017
+  journal: Nat Biotechnol
+  first_author: Lan F
+  last_author: Abate AR
+  pmid: '28553940'
+  pmcid: PMC5531050
+  title: Single-cell genome sequencing at ultra-high-throughput with microfluidic droplet barcoding
+links: {}
+added: '2026-11-11'
+evidence: Here we present single-cell genomic sequencing (SiC-seq), which uses droplet microfluidics to isolate, fragment,
+  and barcode the genomes of single cells, followed by Illumina sequencing of pooled DNA.

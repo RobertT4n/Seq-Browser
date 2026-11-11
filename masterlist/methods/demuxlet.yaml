@@ -1,0 +1,22 @@
+name: demuxlet
+category: dry
+summary: Computational tool that uses natural genetic variation to assign each droplet's cell to its donor and flag doublets,
+  enabling pooled droplet scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.4042
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Kang HM
+  last_author: Ye CJ
+  pmid: '29227470'
+  pmcid: PMC5784859
+  title: Multiplexed droplet single-cell RNA-sequencing using natural genetic variation
+links: {}
+added: '2026-11-11'
+evidence: Here we describe a computational tool, demuxlet, that harnesses natural genetic variation to determine the sample
+  identity of each droplet containing a single cell

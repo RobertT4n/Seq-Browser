@@ -1,0 +1,37 @@
+name: nanoNOMe
+category: wet
+summary: Long-read nanopore sequencing of NOMe-treated DNA that reads phased CpG methylation, chromatin accessibility and
+  structural variants together.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- long-read-sequencing
+builds_on:
+- nome-seq
+reference:
+  doi: 10.1038/s41592-020-01000-7
+  year: 2020
+  journal: Nat Methods
+  first_author: Lee I
+  last_author: Timp W
+  pmid: '33230324'
+  pmcid: PMC7704922
+  title: Simultaneous profiling of chromatin accessibility and methylation on human cell lines with nanopore sequencing
+  preprint_doi: 10.1101/504993
+links: {}
+added: '2026-11-11'
+evidence: we combine the ability of NOMe-seq to simultaneously evaluate CpG methylation and chromatin accessibility, with
+  long-read nanopore sequencing technology, a method we call nanoNOMe.

@@ -1,0 +1,27 @@
+name: DoTA-seq
+full_name: droplet targeted amplicon sequencing
+category: wet
+summary: Droplet microfluidic amplicon sequencing of target genetic loci in single microbial cells, applied to gut microbiomes.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+species:
+- microbe
+chemistry:
+- droplet-microfluidics
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41592-023-02157-7
+  year: 2024
+  journal: Nat Methods
+  first_author: Lan F
+  last_author: Venturelli OS
+  pmid: '38233503'
+  pmcid: PMC11089590
+  title: Massively parallel single-cell sequencing of diverse microbial populations
+links: {}
+added: '2026-11-11'
+evidence: Here, we show a simple, robust and generalizable method for high-throughput single-cell sequencing of target genetic
+  loci in diverse microbes using simple droplet microfluidics devices (droplet targeted amplicon sequencing; DoTA-seq).

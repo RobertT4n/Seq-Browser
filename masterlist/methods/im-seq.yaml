@@ -1,0 +1,23 @@
+name: Im-seq
+category: wet
+summary: Multimodal droplet barcoding that tracks each microfluidic droplet across imaging and single-cell gene expression,
+  linking phenotype to transcriptome.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.09.01.672798
+  year: 2025
+  journal: bioRxiv
+  first_author: Xu CK
+  last_author: Guck J
+  title: 'Im-seq: Multimodal droplet barcoding enables high-throughput linking of single-cell imaging and gene expression'
+links: {}
+added: '2026-11-11'
+evidence: introducing multimodal droplet barcoding, enabling individual microfluidic droplets to be tracked across both optical
+  and sequencing measurements

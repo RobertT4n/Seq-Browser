@@ -1,0 +1,29 @@
+name: Tn5Prime
+category: wet
+summary: Tn5-based Smart-seq2 variant that captures the 5' ends of transcripts and adds cell identifiers during reverse transcription.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+builds_on:
+- smart-seq2
+reference:
+  doi: 10.1093/nar/gky182
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Cole C
+  last_author: Vollmers C
+  pmid: '29548006'
+  pmcid: PMC6007450
+  title: Tn5Prime, a Tn5 based 5' capture method for single cell RNA-seq
+  preprint_doi: 10.1101/217117
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: Here we present a protocol, Tn5Prime, that takes advantage of the Tn5 transposase based Smartseq2 protocol to create
+  RNA-seq libraries that capture the 5’ end of transcripts.

@@ -1,0 +1,29 @@
+name: Stereo-CITE-seq
+full_name: Cellular Indexing of Transcriptomes and Epitopes by Sequencing on Stereo-seq
+category: wet
+summary: Spatial workflow that co-detects whole-transcriptome mRNAs and antibody-oligo-tagged protein markers on one fresh-frozen
+  tissue section using Stereo-seq arrays.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- oligo-capture
+- reverse-transcription
+builds_on:
+- stereo-seq
+- cite-seq
+reference:
+  doi: 10.1101/2023.04.28.538364
+  year: 2023
+  journal: bioRxiv
+  first_author: Liao S
+  last_author: Xu X
+  title: Integrated Spatial Transcriptomic and Proteomic Analysis of Fresh Frozen Tissue Based on Stereo-seq
+links: {}
+added: '2026-11-11'
+evidence: we combined Cellular Indexing of Transcriptomes and Epitopes by Sequencing (CITE-seq) and Stereo-seq to develop
+  the Stereo-CITE-seq workflow

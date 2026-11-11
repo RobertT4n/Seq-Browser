@@ -1,0 +1,29 @@
+name: Smart-3SEQ
+category: wet
+summary: RNA-seq method for small inputs and FFPE tissue, applied to single cells isolated by laser-capture microdissection
+  from archival tissue.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+input_sample:
+- ffpe-archival
+- low-input
+chemistry:
+- reverse-transcription
+- imaging-guided-selection
+reference:
+  doi: 10.1101/gr.234807.118
+  year: 2019
+  journal: Genome Res
+  first_author: Foley JW
+  last_author: West RB
+  pmid: '31519740'
+  pmcid: PMC6836736
+  title: Gene expression profiling of single cells from archival tissue with laser-capture microdissection and Smart-3SEQ
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a new method, Smart-3SEQ, that accurately quantifies transcript abundance even with small amounts
+  of total RNA and effectively characterizes small samples extracted by laser-capture microdissection (LCM) from FFPE tissue.

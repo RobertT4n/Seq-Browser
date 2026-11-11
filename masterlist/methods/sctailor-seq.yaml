@@ -1,0 +1,34 @@
+name: scTaILoR-seq
+full_name: Single-cell Targeted Isoform Long-Read Sequencing
+category: wet
+summary: Single-cell long-read isoform sequencing with hybridization capture of over a thousand genes, enabling isoform, SNV
+  and allele-imbalance analysis in ovarian cancer.
+readouts:
+- rna
+platform:
+- long-read
+resolution:
+- single-cell
+- single-molecule
+scope: targeted
+species:
+- human
+chemistry:
+- long-read-sequencing
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-51252-6
+  year: 2024
+  journal: Nat Commun
+  first_author: Byrne A
+  last_author: Stephenson W
+  pmid: '39134520'
+  pmcid: PMC11319652
+  title: Single-cell long-read targeted sequencing reveals transcriptional variation in ovarian cancer
+  preprint_doi: 10.1101/2023.07.17.549422
+links: {}
+added: '2026-11-11'
+evidence: We developed Single-cell Targeted Isoform Long-Read Sequencing (scTaILoR-seq), a hybridization capture method which
+  targets over a thousand genes of interest
+partition_unknown: not stated in the abstract

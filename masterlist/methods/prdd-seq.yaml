@@ -1,0 +1,32 @@
+name: PRDD-seq
+full_name: Parallel RNA and DNA analysis after Deep-sequencing
+category: wet
+summary: Joint RNA and somatic-mutation sequencing of single cells in postmortem human cortex, using mutations as lineage
+  markers to reconstruct neuronal lineages and birthdates.
+readouts:
+- rna
+- genome-sequence
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1073/pnas.2006163117
+  year: 2020
+  journal: Proc Natl Acad Sci U S A
+  first_author: Huang AY
+  last_author: Walsh CA
+  pmid: '32522880'
+  pmcid: PMC7322034
+  title: Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human
+    brain
+  preprint_doi: 10.1101/2020.04.19.046904
+links: {}
+added: '2026-11-11'
+evidence: PRDD-seq enables the first-ever simultaneous reconstruction of neuronal cell type, cell lineage, and sequential
+  neuronal formation
+partition_unknown: not stated in the abstract

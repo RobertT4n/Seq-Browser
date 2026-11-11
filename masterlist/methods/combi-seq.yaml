@@ -1,0 +1,32 @@
+name: Combi-seq
+category: wet
+summary: Droplet microfluidics with deterministic combinatorial DNA barcodes reads transcriptome changes for hundreds of drug
+  combinations in single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- chemical-perturbation
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-022-32197-0
+  year: 2022
+  journal: Nat Commun
+  first_author: Mathur L
+  last_author: Merten CA
+  pmid: '35915108'
+  pmcid: PMC9343464
+  title: Combi-seq for multiplexed transcriptome-based profiling of drug combinations using deterministic barcoding in single-cell
+    droplets
+links: {}
+added: '2026-11-11'
+evidence: To address these challenges, we present a scalable microfluidic workflow, called Combi-Seq, to screen hundreds of
+  drug combinations in picoliter-size droplets using transcriptome changes as a readout for drug effects.

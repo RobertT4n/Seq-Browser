@@ -1,0 +1,31 @@
+name: NEAT-seq
+full_name: Nuclear protein Epitope, chromatin Accessibility, and Transcriptome sequencing
+category: wet
+summary: Joint single-cell measurement of nuclear protein abundance (antibody-oligo), chromatin accessibility and transcriptome.
+readouts:
+- protein
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-022-01461-y
+  year: 2022
+  journal: Nat Methods
+  first_author: Chen AF
+  last_author: Greenleaf WJ
+  pmid: '35501385'
+  pmcid: PMC11192021
+  title: 'NEAT-seq: simultaneous profiling of intra-nuclear proteins, chromatin accessibility and gene expression in single
+    cells'
+  preprint_doi: 10.1101/2021.07.29.454078
+links: {}
+added: '2026-11-11'
+evidence: Here, we introduce Nuclear protein Epitope, chromatin Accessibility, and Transcriptome sequencing (NEAT-seq), a
+  technique to simultaneously measure nuclear protein abundance, chromatin accessibility, and the transcriptome in single
+  cells.
+partition_unknown: not stated in the abstract

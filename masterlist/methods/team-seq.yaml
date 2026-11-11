@@ -1,0 +1,26 @@
+name: TEAM-seq
+full_name: T7-assisted enzymatic methyl-sequencing
+category: wet
+summary: Enzymatic-conversion whole-genome 5mC sequencing with T7 polymerase amplification for high genome coverage from single-cell
+  and picogram DNA.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1101/2022.02.23.481567
+  year: 2022
+  journal: bioRxiv
+  first_author: Wang J
+  last_author: Tang C
+  title: High coverage of single cell genomes by T7-assisted enzymatic methyl-sequencing
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: we developed the T7-assisted enzymatic methyl-sequencing method (TEAM-seq), which adopts enzymatic conversion to
+  minimize DNA degradation and T7 polymerase-assisted unbiased amplification.

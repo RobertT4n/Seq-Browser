@@ -1,0 +1,31 @@
+name: FFPE-CUTAC
+full_name: Formalin-Fixed Paraffin-Embedded Cleavage Under Targeted Accessible Chromatin
+category: wet
+summary: CUTAC protocol modified for FFPE tissue to map paused RNA Polymerase II at enhancers and promoters in archival samples.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+input_sample:
+- ffpe-archival
+species:
+- mouse
+targets:
+- paused RNA Polymerase II (RNAPII)
+reference:
+  doi: 10.1038/s41467-023-41666-z
+  year: 2023
+  journal: Nat Commun
+  first_author: Henikoff S
+  last_author: Holland EC
+  pmid: '37739938'
+  pmcid: PMC10516967
+  title: Epigenomic analysis of formalin-fixed paraffin-embedded samples by CUT&Tag
+  preprint_doi: 10.1101/2023.06.20.545743
+links: {}
+added: '2026-11-11'
+evidence: Here we show that simple modifications of our single-tube CUTAC protocol are sufficient to produce high-resolution
+  maps of paused RNA Polymerase II (RNAPII) at enhancers and promoters using FFPE samples.

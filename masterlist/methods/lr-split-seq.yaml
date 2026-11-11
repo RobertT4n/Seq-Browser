@@ -1,0 +1,39 @@
+name: LR-Split-seq
+full_name: long-read Split-seq
+category: wet
+summary: Combinatorial barcoding of single cells and nuclei for long-read sequencing, linking full-length isoforms to cell
+  types.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+platform:
+- long-read
+scope: genome-wide
+input_sample:
+- nuclei
+validated_system:
+- cell-line
+species:
+- mouse
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+- split-pool-barcoding
+variant_of:
+- split-seq
+reference:
+  doi: 10.1186/s13059-021-02505-w
+  year: 2021
+  journal: Genome Biol
+  first_author: Rebboah E
+  last_author: Mortazavi A
+  pmid: '34620214'
+  pmcid: PMC8495978
+  title: Mapping and modeling the genomic basis of differential RNA isoform expression at single-cell resolution with LR-Split-seq
+  preprint_doi: 10.1101/2021.04.26.441522
+links: {}
+added: '2026-11-11'
+evidence: Here, we develop and characterize long-read Split-seq (LR-Split-seq), which uses a combinatorial barcoding-based
+  method for sequencing single cells and nuclei with long reads.

@@ -1,0 +1,32 @@
+name: Tuba-seq
+full_name: tumor barcoding with ultradeep barcode sequencing
+category: wet
+summary: Barcodes individual mouse lung tumors and reads barcode abundance by ultradeep sequencing to quantify tumor growth
+  and tumor-suppressor effects.
+readouts:
+- functional-screen
+- lineage
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1038/nmeth.4297
+  year: 2017
+  journal: Nat Methods
+  first_author: Rogers ZN
+  last_author: Winslow MM
+  pmid: '28530655'
+  pmcid: PMC5495136
+  title: A quantitative and multiplexed approach to uncover the fitness landscape of tumor suppression in vivo
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a method that integrates tumor barcoding with ultradeep barcode sequencing (Tuba-seq) to interrogate
+  tumor-suppressor function in mouse models of human cancer.

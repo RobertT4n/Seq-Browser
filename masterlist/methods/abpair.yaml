@@ -1,0 +1,27 @@
+name: AbPair
+category: wet
+summary: Emulsion-based single-cell barcoding that captures natively paired full-length BCR and TCR sequences, extendable
+  to DNA-labelled antibodies for combined protein and RNA readout.
+readouts:
+- immune-repertoire
+- protein
+- rna
+resolution:
+- single-cell
+scope: targeted
+species:
+- human
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1101/134841
+  year: 2017
+  journal: bioRxiv
+  first_author: Briggs AW
+  last_author: Vigneault F
+  title: Tumor-infiltrating immune repertoires captured by single-cell barcoding in emulsion
+links: {}
+added: '2026-11-11'
+evidence: Our emulsion-based method captures full-length, natively paired B-cell and T-cell receptor (BCR and TCR) sequences
+  from lymphocytes among millions of input cells

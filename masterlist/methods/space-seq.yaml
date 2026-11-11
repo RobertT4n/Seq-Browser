@@ -1,0 +1,30 @@
+name: SPACE-seq
+full_name: SPatial assay for Accessible chromatin, Cell lineages, and gene Expression with sequencing
+category: wet
+summary: Spatial multiomics using polyadenine-tailed epigenomic libraries, so accessible chromatin and gene expression are
+  captured on standard whole-transcriptome spatial reagents.
+readouts:
+- chromatin-accessibility
+- rna
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+species:
+- human
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2424070122
+  year: 2025
+  journal: Proc Natl Acad Sci U S A
+  first_author: Huang YH
+  last_author: Chang HY
+  pmid: '40249782'
+  pmcid: PMC12037033
+  title: Unified molecular approach for spatial epigenome, transcriptome, and cell lineages
+links: {}
+added: '2026-11-11'
+evidence: a method that utilizes polyadenine-tailed epigenomic libraries to enable facile spatial multiomics using standard
+  whole transcriptome reagents

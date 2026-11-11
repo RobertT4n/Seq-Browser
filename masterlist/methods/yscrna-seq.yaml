@@ -1,0 +1,28 @@
+name: yscRNA-seq
+full_name: yeast single-cell RNA-seq
+category: wet
+summary: Strand-specific single-cell RNA-seq for yeast that counts transcript start sites, paired with index sorting to relate
+  RNA content to cell size.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+- facs-sorting
+reference:
+  doi: 10.1038/s41564-018-0346-9
+  year: 2019
+  journal: Nat Microbiol
+  first_author: Nadal-Ribelles M
+  last_author: Steinmetz LM
+  pmid: '30718850'
+  pmcid: PMC6433287
+  title: Sensitive high-throughput single-cell RNA-seq reveals within-clonal transcript correlations in yeast populations
+links: {}
+added: '2026-11-11'
+evidence: Here, we have developed a sensitive, scalable and inexpensive yeast single-cell RNA-seq (yscRNA-seq) method that
+  digitally counts transcript start sites in a strand- and isoform-specific manner.

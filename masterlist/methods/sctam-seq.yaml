@@ -1,0 +1,31 @@
+name: scTAM-seq
+category: wet
+summary: Targeted, bisulfite-free single-cell DNA methylation assay for up to 650 CpGs in up to 10,000 cells, also querying
+  surface protein and somatic mutations.
+readouts:
+- dna-methylation
+- protein
+- genome-sequence
+resolution:
+- single-cell
+throughput: 1e3-1e4
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1186/s13059-022-02796-7
+  year: 2022
+  journal: Genome Biol
+  first_author: Bianchi A
+  last_author: Beekman R
+  pmid: '36307828'
+  pmcid: PMC9615163
+  title: scTAM-seq enables targeted high-confidence analysis of DNA methylation in single cells
+  preprint_doi: 10.1101/2022.04.11.487648
+links: {}
+added: '2026-11-11'
+evidence: We developed scTAM-seq, a targeted bisulfite-free method for profiling up to 650 CpGs in up to 10,000 cells per
+  experiment
+partition_unknown: not stated in the abstract

@@ -1,0 +1,30 @@
+name: sciMETv2
+full_name: single-cell combinatorial indexing for methylation analysis
+category: wet
+summary: Improved sciMET with about 15-fold higher coverage, a robust protocol and minimal adapter contamination for bisulfite-based
+  single-cell methylomes.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- combinatorial-indexing
+- bisulfite-or-enzymatic-conversion
+variant_of:
+- sci-met
+reference:
+  doi: 10.1038/s41467-022-35374-3
+  year: 2022
+  journal: Nat Commun
+  first_author: Nichols RV
+  last_author: Adey AC
+  pmid: '36494343'
+  pmcid: PMC9734657
+  title: High-throughput robust single-cell DNA methylation profiling with sciMETv2
+links: {}
+added: '2026-11-11'
+evidence: Here, we describe a greatly improved version that generates high-coverage profiles (~15-fold increase) using a robust
+  protocol that does not require custom sequencing capabilities

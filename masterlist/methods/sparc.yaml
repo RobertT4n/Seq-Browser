@@ -1,0 +1,29 @@
+name: SPARC
+category: wet
+summary: Single-cell RNA-seq combined with proximity extension assays to co-measure mRNA and 89 intracellular proteins in
+  the same cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+builds_on:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s42003-021-02142-w
+  year: 2021
+  journal: Commun Biol
+  first_author: Reimegård J
+  last_author: Gallant CJ
+  pmid: '34035432'
+  pmcid: PMC8149646
+  title: A combined approach for single-cell mRNA and intracellular protein expression analysis
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: We present SPARC, an approach that combines single-cell RNA-sequencing with proximity extension essays to simultaneously
+  measure global mRNA and 89 intracellular proteins in individual cells.

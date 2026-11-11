@@ -1,0 +1,30 @@
+name: SUM-seq
+full_name: Single-cell Ultra-high-throughput Multiomic sequencing
+category: wet
+summary: Co-assays chromatin accessibility and gene expression in single nuclei with ultra-high multiplexing across hundreds
+  of samples.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- nuclei
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1101/2023.12.26.573253
+  year: 2023
+  journal: bioRxiv
+  first_author: Lobato-Moreno S
+  last_author: Zaugg JB
+  title: Scalable ultra-high-throughput single-cell chromatin and RNA sequencing reveals gene regulatory dynamics linking
+    macrophage polarization to autoimmune disease
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+  not stated)
+evidence: SUM-seq enables profiling hundreds of samples at the million cell scale and outperforms current high-throughput
+  single-cell methods.

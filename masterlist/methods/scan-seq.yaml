@@ -1,0 +1,33 @@
+name: SCAN-seq
+full_name: Single-cell amplification and sequencing of full-length RNAs by Nanopore platform
+category: wet
+summary: Full-length single-cell RNA-seq read out on Nanopore long reads, capturing unannotated transcripts and allele-specific
+  expression.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+species:
+- mouse
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pbio.3001017
+  year: 2020
+  journal: PLoS Biol
+  first_author: Fan X
+  last_author: Tang F
+  pmid: '33378329'
+  pmcid: PMC7773192
+  title: Single-cell RNA-seq analysis of mouse preimplantation embryos by third-generation sequencing
+links: {}
+added: '2026-11-11'
+evidence: We developed a novel scRNA-seq technology based on third-generation sequencing (TGS) platform (single-cell amplification
+  and sequencing of full-length RNAs by Nanopore platform, SCAN-seq).
+partition_unknown: not stated in the abstract

@@ -1,0 +1,32 @@
+name: NanoSINC-seq
+full_name: nanopore sequencing coupled with single-cell integrated nuclear and cytoplasmic RNA sequencing
+category: wet
+summary: Nanopore full-length cDNA sequencing of single-cell nuclear and cytoplasmic RNA fractions to compare isoform diversity
+  between compartments.
+readouts:
+- rna
+resolution:
+- single-cell
+- subcellular
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1126/sciadv.abe0317
+  year: 2021
+  journal: Sci Adv
+  first_author: Oguchi Y
+  last_author: Shintaku H
+  pmid: '33827812'
+  pmcid: PMC8026137
+  title: NanoSINC-seq dissects the isoform diversity in subcellular compartments of single cells
+links: {}
+added: '2026-11-11'
+evidence: we introduced an novel approach, nanopore sequencing coupled with single-cell integrated nuclear and cytoplasmic
+  RNA sequencing
+partition_unknown: not stated in the abstract

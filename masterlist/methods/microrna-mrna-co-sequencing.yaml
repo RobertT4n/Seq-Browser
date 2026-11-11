@@ -1,0 +1,24 @@
+name: microRNA-mRNA co-sequencing
+category: wet
+summary: Half-cell genomics that reads microRNA and mRNA profiles from the same single cell to link microRNA levels to target
+  expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-018-07981-6
+  year: 2019
+  journal: Nat Commun
+  first_author: Wang N
+  last_author: Lu J
+  pmid: '30626865'
+  pmcid: PMC6327095
+  title: Single-cell microRNA-mRNA co-sequencing reveals non-genetic heterogeneity and mechanisms of microRNA regulation
+links: {}
+added: '2026-11-11'
+evidence: Here, we present co-sequencing of microRNAs and mRNAs in the same single cell using a half-cell genomics approach.
+partition_unknown: not stated in the abstract

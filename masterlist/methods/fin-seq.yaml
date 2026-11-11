@@ -1,0 +1,30 @@
+name: FIN-Seq
+full_name: Frozen Immunolabeled Nuclei Sequencing
+category: wet
+summary: Immunolabels nuclei of chosen cell types in frozen archived human tissue, isolates them, and profiles their RNA by
+  bulk RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- ffpe-archival
+- nuclei
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkz968
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Amamoto R
+  last_author: Arlotta P
+  pmid: '31728515'
+  pmcid: PMC7145626
+  title: 'FIN-Seq: transcriptional profiling of specific cell types from frozen archived tissue of the human central nervous
+    system'
+links: {}
+added: '2026-11-11'
+evidence: Here, we developed FIN-Seq (Frozen Immunolabeled Nuclei Sequencing), a method that accomplishes these goals.

@@ -1,0 +1,31 @@
+name: TRAPS-seq
+full_name: time-resolved assessment of single-cell protein secretion by sequencing
+category: wet
+summary: Traps secreted proteins on the cell surface and reads them with oligo-barcoded antibodies alongside transcriptomes
+  in single cells.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+chemistry:
+- oligo-capture
+- reverse-transcription
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1038/s41592-023-01841-y
+  year: 2023
+  journal: Nat Methods
+  first_author: Wu T
+  last_author: Cheow LF
+  pmid: '37037998'
+  title: Time-resolved assessment of single-cell protein secretion by sequencing
+links: {}
+added: '2026-11-11'
+evidence: Released proteins are trapped onto the cell surface and probed by oligonucleotide-barcoded antibodies before being
+  simultaneously sequenced with transcriptomes in single cells.
+partition_unknown: not stated in the abstract

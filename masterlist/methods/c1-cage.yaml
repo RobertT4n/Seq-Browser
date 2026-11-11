@@ -1,0 +1,25 @@
+name: C1 CAGE
+category: wet
+summary: CAGE-based 5' end profiling of single cells in the Fluidigm C1 microfluidic system, with sample multiplexing, detecting
+  TSS and enhancer RNA activity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-018-08126-5
+  year: 2019
+  journal: Nat Commun
+  first_author: Kouno T
+  last_author: Shin JW
+  pmid: '30664627'
+  pmcid: PMC6341120
+  title: C1 CAGE detects transcription start sites and enhancer activity at single-cell resolution
+links: {}
+added: '2026-11-11'
+evidence: We introduce C1 CAGE, a method for the detection of transcript 5'-ends with an original sample multiplexing strategy
+  in the C1 microfluidic system

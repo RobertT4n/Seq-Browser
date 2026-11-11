@@ -1,0 +1,28 @@
+name: Spatial VDJ
+full_name: spatial transcriptomics of variable, diversity, and joining sequences
+category: wet
+summary: Spatial transcriptomics that captures B and T cell receptor sequences from tissue sections, pairing receptor chains
+  and linking clonal expansion to local gene programs.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- spatial
+scope: targeted
+species:
+- human
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1126/science.adf8486
+  year: 2023
+  journal: Science
+  first_author: Engblom C
+  last_author: Frisén J
+  pmid: '38060664'
+  title: Spatial transcriptomics of B cell and T cell receptors reveals lymphocyte clonal dynamics
+links: {}
+added: '2026-11-11'
+evidence: We have developed spatial transcriptomics of variable, diversity, and joining (VDJ) sequences (Spatial VDJ), a method
+  that maps B cell and T cell receptor sequences in human tissue sections

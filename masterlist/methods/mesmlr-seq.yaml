@@ -1,0 +1,31 @@
+name: MeSMLR-seq
+full_name: Methyltransferase treatment followed by single-molecule long-read sequencing
+category: wet
+summary: Methyltransferase footprinting of nucleosomes and accessibility read on single long DNA molecules, mapping chromatin
+  states across genes in yeast.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-molecule
+species:
+- microbe
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.251116.119
+  year: 2019
+  journal: Genome Res
+  first_author: Wang Y
+  last_author: Au KF
+  pmid: '31201211'
+  pmcid: PMC6673713
+  title: Single-molecule long-read sequencing reveals the chromatin basis of gene expression
+  preprint_doi: 10.1101/533158
+links: {}
+added: '2026-11-11'
+evidence: Here we present a new experimental approach MeSMLR-seq (methyltransferase treatment followed by single-molecule
+  long-read sequencing) for long-range mapping of nucleosomes and chromatin accessibility at single DNA molecules, and thus
+  achieve comprehensive-coverage characterization of the corresponding heterogeneity.

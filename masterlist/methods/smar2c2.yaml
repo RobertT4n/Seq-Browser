@@ -1,0 +1,32 @@
+name: Smar2C2
+full_name: Smart-Seq2 Rolling Circle to Concatemeric Consensus
+category: wet
+summary: UMI-tagged Smart-Seq2 variant with rolling-circle concatemeric consensus that maps transcription start and termination
+  sites from as little as 40 pg of total RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- plant
+chemistry:
+- reverse-transcription
+variant_of:
+- smart-seq2
+reference:
+  doi: 10.1111/tpj.15957
+  year: 2022
+  journal: Plant J
+  first_author: Murray A
+  last_author: Schmitz RJ
+  pmid: '36030508'
+  pmcid: PMC9827901
+  title: Simple and accurate transcriptional start site identification using Smar2C2 and examination of conserved promoter
+    features
+links: {}
+added: '2026-11-11'
+evidence: we developed Smart-Seq2 Rolling Circle to Concatemeric Consensus (Smar2C2), which identifies and quantifies TSSs
+  and transcription termination sites

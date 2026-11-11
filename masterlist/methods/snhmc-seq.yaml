@@ -1,0 +1,30 @@
+name: snhmC-seq
+full_name: single-nucleus 5hmC sequencing
+category: wet
+summary: Single-nucleus 5hmC profiling that uses APOBEC3A's differential deamination of 5mC and protected 5hmC, applied to
+  cryopreserved mouse brain nuclei.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- nuclei
+species:
+- mouse
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41587-023-01909-2
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Fabyanic EB
+  last_author: Wu H
+  pmid: '37640946'
+  pmcid: PMC11525041
+  title: Joint single-cell profiling resolves 5mC and 5hmC and reveals their distinct gene regulatory effects
+  preprint_doi: 10.1101/2021.03.23.434325
+links: {}
+added: '2026-11-11'
+evidence: we develop single-nucleus 5hmC sequencing (snhmC-seq) for quantitative and unbiased 5hmC profiling in single cells
+partition_unknown: not stated in the abstract

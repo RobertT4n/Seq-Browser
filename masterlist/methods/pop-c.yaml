@@ -1,0 +1,33 @@
+name: Pop-C
+full_name: Population-scale Dip-C
+category: wet
+summary: Population-level mode of Dip-C that yields 3D genome structures from cell populations, used for life-spanning cerebellar
+  atlases.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+species:
+- human
+- mouse
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+variant_of:
+- dip-c
+reference:
+  doi: 10.1126/science.adh3253
+  year: 2023
+  journal: Science
+  first_author: Tan L
+  last_author: Deisseroth K
+  pmid: '37676945'
+  pmcid: PMC11059189
+  title: Lifelong restructuring of 3D genome architecture in cerebellar granule cells
+  preprint_doi: 10.1101/2023.02.25.530020
+links: {}
+added: '2026-11-11'
+evidence: by developing our high-resolution single-cell 3D genome assay Dip-C into population-scale (Pop-C) and virus-enriched
+  (vDip-C) modes

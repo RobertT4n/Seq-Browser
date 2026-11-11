@@ -1,0 +1,27 @@
+name: SINC-seq
+full_name: single-cell integrated nucRNA and cytRNA-sequencing
+category: wet
+summary: Microfluidic method that physically separates nuclear and cytoplasmic RNA from one cell and makes two RNA-seq libraries
+  per cell.
+readouts:
+- rna
+resolution:
+- single-cell
+- subcellular
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-018-1446-9
+  year: 2018
+  journal: Genome Biol
+  first_author: Abdelmoez MN
+  last_author: Shintaku H
+  pmid: '29871653'
+  pmcid: PMC5989370
+  title: 'SINC-seq: correlation of transient gene expressions between nucleus and cytoplasm reflects single-cell physiology'
+links: {}
+added: '2026-11-11'
+evidence: We report a microfluidic system that physically separates nuclear RNA (nucRNA) and cytoplasmic RNA (cytRNA) from
+  a single cell and enables single-cell integrated nucRNA and cytRNA-sequencing (SINC-seq).

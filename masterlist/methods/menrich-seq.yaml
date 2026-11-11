@@ -1,0 +1,31 @@
+name: mEnrich-seq
+full_name: methylation-guided enrichment sequencing
+category: wet
+summary: Methylation-sensitive restriction digestion depletes host and background DNA so targeted bacterial taxa are enriched
+  before sequencing.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+species:
+- human
+- microbe
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1038/s41592-023-02125-1
+  year: 2024
+  journal: Nat Methods
+  first_author: Cao L
+  last_author: Fang G
+  pmid: '38177508'
+  pmcid: PMC11474163
+  title: 'mEnrich-seq: methylation-guided enrichment sequencing of bacterial taxa of interest from microbiome'
+links: {}
+added: '2026-11-11'
+evidence: The core idea is to exploit the self versus nonself differentiation by natural bacterial DNA methylation and rationally
+  choose methylation-sensitive restriction enzymes, individually or in combination, to deplete host and background taxa while
+  enriching targeted taxa.

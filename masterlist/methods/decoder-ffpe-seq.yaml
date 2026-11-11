@@ -1,0 +1,27 @@
+name: Decoder-FFPE-seq
+category: wet
+summary: Genome-wide spatial RNA sequencing of FFPE sections using dendrimeric DNA coordinate barcodes, blotting-assisted
+  barcoding and probe-based RNA-to-DNA conversion.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+input_sample:
+- ffpe-archival
+species:
+- mouse
+- human
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.09.12.675967
+  year: 2025
+  journal: bioRxiv
+  first_author: Cao J
+  last_author: Yang C
+  title: Decoder-FFPE-seq enables sensitive, genome-wide spatial transcriptomics of archival tissues at single-cell resolution
+links: {}
+added: '2026-11-11'
+evidence: we present a dendrimeric DNA coordinate-barcoding design for FFPE-adapted spatial RNA sequencing (Decoder-FFPE-seq)

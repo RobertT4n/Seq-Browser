@@ -1,0 +1,30 @@
+name: SM-Omics
+full_name: Spatial Multi-Omics
+category: wet
+summary: Fully automated, high-throughput spatial platform that combines spatial transcriptomics with DNA-barcoded antibody
+  protein detection.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- oligo-capture
+- reverse-transcription
+species:
+- mouse
+reference:
+  doi: 10.1038/s41467-022-28445-y
+  year: 2022
+  journal: Nat Commun
+  first_author: Vickovic S
+  last_author: Regev A
+  pmid: '35145087'
+  pmcid: PMC8831571
+  title: SM-Omics is an automated platform for high-throughput spatial multi-omics
+links: {}
+added: '2026-11-11'
+evidence: Here, we advance the application of spatial transcriptomics at scale, by presenting Spatial Multi-Omics (SM-Omics)
+  as a fully automated, high-throughput all-sequencing based platform

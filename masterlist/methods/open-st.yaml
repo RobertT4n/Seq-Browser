@@ -1,0 +1,28 @@
+name: Open-ST
+category: wet
+summary: Open-source sequencing-based spatial transcriptomics for 3D tissue profiling at subcellular resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+species:
+- mouse
+- human
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2024.05.055
+  year: 2024
+  journal: Cell
+  first_author: Schott M
+  last_author: Rajewsky N
+  pmid: '38917789'
+  title: 'Open-ST: High-resolution spatial transcriptomics in 3D'
+  preprint_doi: 10.1101/2023.12.22.572554
+links: {}
+added: '2026-11-11'
+evidence: Here, we report Open-ST, a sequencing-based, open-source experimental and computational resource to address these
+  challenges and to study the molecular organization of tissues in 3D.

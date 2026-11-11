@@ -1,0 +1,33 @@
+name: FB5P-seq
+full_name: FACS-based 5-prime end single-cell RNA-seq
+category: wet
+summary: FACS-sorted 5'-end scRNA-seq that pairs the transcriptome with the BCR or TCR repertoire of phenotypically defined
+  lymphocyte subsets.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- facs-sorting
+- reverse-transcription
+reference:
+  doi: 10.3389/fimmu.2020.00216
+  year: 2020
+  journal: Front Immunol
+  first_author: Attaf N
+  last_author: Milpied P
+  pmid: '32194545'
+  pmcid: PMC7062913
+  title: 'FB5P-seq: FACS-Based 5-Prime End Single-Cell RNA-seq for Integrative Analysis of Transcriptome and Antigen Receptor
+    Repertoire in B and T Cells'
+  preprint_doi: 10.1101/795575
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce FB5P-seq, a FACS-based 5'-end scRNA-seq method for cost-effective integrative analysis of transcriptome
+  and paired BCR or TCR repertoire in phenotypically defined B and T cell subsets.

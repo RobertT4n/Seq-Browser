@@ -1,0 +1,30 @@
+name: SELECT-seq
+full_name: SNP Enrichment Leveraging Cas12a Targeting
+category: wet
+summary: One-pot single-cell workflow combining SNP-specific PCR, Cas12a fluorescence detection and whole-transcriptome amplification,
+  enriching SNP-edited cells before sequencing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.64898/2026.07.07.736965
+  year: 2026
+  journal: bioRxiv
+  first_author: Iwama S
+  last_author: Bassett AR
+  title: SELECT-seq allows Pre-Sequencing Enrichment of SNP Edits in One-Pot Single-Cell Whole-Transcriptome Sequencing
+links: {}
+added: '2026-11-11'
+evidence: We present SELECT-seq (SNP Enrichment Leveraging Cas12a Targeting), a rapid method that allows SNP-specific PCR
+  amplification and Cas12a-mediated fluorescence detection simultaneously with whole-transcriptome amplification.
+partition_unknown: not stated in the abstract

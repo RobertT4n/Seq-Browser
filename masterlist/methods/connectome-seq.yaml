@@ -1,0 +1,29 @@
+name: Connectome-seq
+category: wet
+summary: AAV-delivered engineered synaptic proteins barcode RNA in connected neurons, read out by parallel single-nucleus
+  and single-synaptosome sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+- subcellular
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-026-03026-9
+  year: 2026
+  journal: Nat Methods
+  first_author: Chen D
+  last_author: Zhao BS
+  pmid: '41820665'
+  title: 'Connectome-seq: high-throughput mapping of neuronal connectivity at single-synapse resolution via barcode sequencing'
+links: {}
+added: '2026-11-11'
+evidence: Here we present Connectome-seq, a high-throughput method that combines engineered synaptic proteins, RNA barcoding
+  and parallel single-nucleus and single-synaptosome sequencing to map neuronal connectivity at single-synapse resolution.
+partition_unknown: not stated in the abstract

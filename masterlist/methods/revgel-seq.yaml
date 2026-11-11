@@ -1,0 +1,29 @@
+name: RevGel-seq
+full_name: reversible hydrogel-based single-cell RNA sequencing
+category: wet
+summary: Instrument-free scRNA-seq in which single cells paired with barcoded beads are immobilised in a reversible hydrogel,
+  without wells or droplets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e4-1e5
+validated_system:
+- primary-cells
+chemistry:
+- hydrogel-compartmentalization
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-023-31915-y
+  year: 2023
+  journal: Sci Rep
+  first_author: Komatsu J
+  last_author: Edelstein S
+  pmid: '36964177'
+  pmcid: PMC10039079
+  title: 'RevGel-seq: instrument-free single-cell RNA sequencing using a reversible hydrogel for cell-specific barcoding'
+links: {}
+added: '2026-11-11'
+evidence: Complexes of one cell paired with one barcoded bead are stabilized by a chemical linker and dispersed in a hydrogel
+  in the liquid state.

@@ -1,0 +1,29 @@
+name: DART-seq
+full_name: Droplet Assisted RNA Targeting by single cell sequencing
+category: wet
+summary: Droplet-based single-cell method for multiplexed amplicon sequencing of targeted RNAs alongside transcriptome profiling
+  in the same cells.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- amplicon-pcr
+reference:
+  doi: 10.1038/s41592-018-0259-9
+  year: 2019
+  journal: Nat Methods
+  first_author: Saikia M
+  last_author: De Vlaminck I
+  pmid: '30559431'
+  pmcid: PMC6378878
+  title: Simultaneous multiplexed amplicon sequencing and transcriptome profiling in single cells
+  preprint_doi: 10.1101/328328
+links: {}
+added: '2026-11-11'
+evidence: We describe Droplet Assisted RNA Targeting by single cell sequencing (DART-seq), a versatile technology that enables
+  multiplexed amplicon sequencing and transcriptome profiling in single cells.

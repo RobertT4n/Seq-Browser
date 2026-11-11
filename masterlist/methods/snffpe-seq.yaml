@@ -1,0 +1,30 @@
+name: SnFFPE-Seq
+full_name: single-nucleus RNA-seq of formalin-fixed paraffin-embedded tissue
+category: wet
+summary: Single-nucleus RNA-seq from FFPE tissue after optimised nuclei isolation, shown on archival mouse brain and a human
+  lung adenocarcinoma specimen.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- ffpe-archival
+- nuclei
+species:
+- mouse
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2022.08.25.505257
+  year: 2022
+  journal: bioRxiv
+  first_author: Chung H
+  last_author: Regev A
+  title: 'SnFFPE-Seq: towards scalable single nucleus RNA-Seq of formalin-fixed paraffin-embedded (FFPE) tissue'
+links: {}
+added: '2026-11-11'
+evidence: we optimize methods for isolating intact nuclei and single nucleus RNA-Seq from FFPE tissues in the mouse brain,
+  and demonstrate a pilot application to a human clinical specimen
+partition_unknown: not stated in the abstract

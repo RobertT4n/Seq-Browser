@@ -1,0 +1,30 @@
+name: TAS-Seq
+full_name: terminator-assisted solid-phase cDNA amplification and sequencing
+category: wet
+summary: Terminator and terminal-transferase cDNA amplification on a nanowell/bead scRNA-seq platform with higher gene detection
+  than 10x v2 and Smart-seq2.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- microwell-array
+- reverse-transcription
+reference:
+  doi: 10.1038/s42003-022-03536-0
+  year: 2022
+  journal: Commun Biol
+  first_author: Shichino S
+  last_author: Matsushima K
+  pmid: '35760847'
+  pmcid: PMC9245575
+  title: TAS-Seq is a robust and sensitive amplification method for bead-based scRNA-seq
+  preprint_doi: 10.1101/2021.08.03.454735
+links: {}
+added: '2026-11-11'
+evidence: We developed terminator-assisted solid-phase cDNA amplification and sequencing (TAS-Seq) for scRNA-seq based on
+  a terminator, terminal transferase, and nanowell/bead-based scRNA-seq platform

@@ -1,0 +1,34 @@
+name: SDR-seq
+full_name: Single-cell DNA-RNA sequencing
+category: wet
+summary: Joint single-cell profiling of up to 480 genomic DNA loci and genes, linking variant zygosity to gene expression.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+throughput: 1e3-1e4
+validated_system:
+- cell-line
+- primary-cells
+species:
+- human
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-025-02805-0
+  year: 2025
+  journal: Nat Methods
+  first_author: Lindenhofer D
+  last_author: Steinmetz LM
+  pmid: '40890552'
+  pmcid: PMC12510883
+  title: Functional phenotyping of genomic variants using joint multiomic single-cell DNA-RNA sequencing
+links: {}
+added: '2026-11-11'
+evidence: We developed single-cell DNA-RNA sequencing (SDR-seq) to simultaneously profile up to 480 genomic DNA loci and genes
+  in thousands of single cells, enabling accurate determination of coding and noncoding variant zygosity alongside associated
+  gene expression changes.
+partition_unknown: not stated in the abstract

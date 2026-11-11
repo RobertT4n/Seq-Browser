@@ -1,0 +1,36 @@
+name: Seq-Scope-X
+full_name: Seq-Scope-eXpanded
+category: wet
+summary: Seq-Scope with tissue expansion for submicrometer whole-transcriptome spatial profiling, with an antibody-barcode
+  variant for spatial proteomics.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+- human
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+variant_of:
+- seq-scope
+reference:
+  doi: 10.1038/s41467-026-69346-8
+  year: 2026
+  journal: Nat Commun
+  first_author: Anacleto A
+  last_author: Lee JH
+  pmid: '41667485'
+  pmcid: PMC13000175
+  title: 'Seq-Scope-eXpanded: spatial omics beyond optical resolution'
+  preprint_doi: 10.1101/2025.02.04.636355
+links: {}
+added: '2026-11-11'
+evidence: Here, we present Seq-Scope-X (Seq-Scope-eXpanded), which empowers submicrometer-resolution Seq-Scope with tissue
+  expansion to surpass this limitation.

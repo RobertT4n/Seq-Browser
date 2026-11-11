@@ -1,0 +1,28 @@
+name: STRP-seq
+full_name: Spatial tissue profiling by imaging-free molecular tomography
+category: wet
+summary: Imaging-free spatial RNA-seq that pairs compressive sampling with image reconstruction to localise a low-input RNA-seq
+  protocol within tissue.
+readouts:
+- rna
+resolution:
+- spatial
+species:
+- mouse
+- other-vertebrate
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-021-00879-7
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Schede HH
+  last_author: La Manno G
+  pmid: '33875865'
+  title: Spatial tissue profiling by imaging-free molecular tomography
+  preprint_doi: 10.1101/2020.08.04.235655
+links: {}
+added: '2026-11-11'
+evidence: We implemented this framework to transform a low-input RNA sequencing protocol into an imaging-free spatial transcriptomics
+  technique (STRP-seq) and validated this method with a transcriptome profiling of the murine brain.

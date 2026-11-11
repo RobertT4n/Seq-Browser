@@ -1,0 +1,28 @@
+name: VIPerturb-seq
+category: wet
+summary: Probe-based, fixed-cell Perturb-seq platform with a split-probe strategy for detecting genome-wide CRISPR guides
+  and optional phenotypic pre-enrichment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- crispr-interference
+chemistry:
+- oligo-capture
+- reverse-transcription
+variant_of:
+- perturb-seq
+reference:
+  doi: 10.64898/2026.02.12.705613
+  year: 2026
+  journal: bioRxiv
+  first_author: Bradu A
+  last_author: Satija R
+  title: Genome-wide single-cell perturbation screens with VIPerturb-seq
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce VIPerturb-seq, a platform to facilitate routine genome-wide Perturb-seq experiments using probe-based
+  detection workflows.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,30 @@
+name: MiP-seq
+full_name: multi-omics in situ pairwise sequencing
+category: wet
+summary: In situ pairwise sequencing that detects DNA, RNA, RNA modifications and proteins at subcellular resolution in intact
+  tissue.
+readouts:
+- rna
+- genome-sequence
+- rna-modification
+- protein
+resolution:
+- spatial
+- subcellular
+scope: targeted
+species:
+- mouse
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s41551-024-01205-7
+  year: 2024
+  journal: Nat Biomed Eng
+  first_author: Wu X
+  last_author: Cao G
+  pmid: '38745110'
+  title: Spatial multi-omics at subcellular resolution via high-throughput in situ pairwise sequencing
+links: {}
+added: '2026-11-11'
+evidence: Here we report the development and applicability of multi-omics in situ pairwise sequencing (MiP-seq), a method
+  for the simultaneous detection of DNAs, RNAs, proteins and biomolecules at subcellular resolution.

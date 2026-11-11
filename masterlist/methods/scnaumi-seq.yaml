@@ -1,0 +1,33 @@
+name: ScNaUmi-seq
+full_name: single-cell Nanopore UMI sequencing
+category: wet
+summary: Long-read single-cell transcriptome method combining Oxford Nanopore sequencing with cell barcode and UMI assignment
+  for error-corrected full-length reads.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+- droplet-microfluidics
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-020-17800-6
+  year: 2020
+  journal: Nat Commun
+  first_author: Lebrigand K
+  last_author: Waldmann R
+  pmid: '32788667'
+  pmcid: PMC7423900
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+links: {}
+added: '2026-11-11'
+evidence: We introduce ScNaUmi-seq, an approach that combines the high throughput of Oxford Nanopore sequencing with an accurate
+  cell barcode and UMI assignment strategy.

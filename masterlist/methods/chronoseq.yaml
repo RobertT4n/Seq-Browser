@@ -1,0 +1,25 @@
+name: ChronoSeq
+category: wet
+summary: Automated single-cell RNA-seq platform that combines live-cell sampling with molecular time-barcoding to resolve
+  transcription on a minute timescale.
+readouts:
+- rna
+resolution:
+- single-cell
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.11.15.688181
+  year: 2025
+  journal: bioRxiv
+  first_author: Asthana K
+  last_author: Wang W
+  title: Minute-scale single-cell transcriptomics enables dynamic modeling of cellular behavior
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: By integrating automated live-cell sampling with molecular time-barcoding, ChronoSeq captures rapid transcriptional
+  dynamics with high fidelity.

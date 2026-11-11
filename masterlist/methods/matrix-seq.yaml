@@ -1,0 +1,25 @@
+name: Matrix-seq
+category: wet
+summary: Spatial transcriptomics that barcodes tissue with a deterministic crossflow microfluidic matrix, giving adjustable
+  spot sizes of 10 to 50 micrometres.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1101/2022.08.05.502952
+  year: 2022
+  journal: bioRxiv
+  first_author: Zhao H
+  last_author: Hu A
+  title: 'Matrix-seq: An adjustable-resolution spatial transcriptomics via microfluidic matrix-based barcoding'
+links: {}
+added: '2026-11-11'
+evidence: We presented a microfluidics-based barcoding strategy called Matrix-seq, which gets rid of both precision instruments
+  and the in situ indexing

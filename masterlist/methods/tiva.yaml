@@ -1,0 +1,34 @@
+name: TIVA
+full_name: Transcriptome in vivo analysis
+category: wet
+summary: Photoactivatable tag captures mRNA from individual cells in live tissue for RNA-seq, preserving their microenvironment.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+input_sample:
+- live-cells
+validated_system:
+- tissue-in-vivo
+- primary-cells
+species:
+- mouse
+- human
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.2804
+  year: 2014
+  journal: Nat Methods
+  first_author: Lovatt D
+  last_author: Eberwine J
+  pmid: '24412976'
+  pmcid: PMC3964595
+  title: Transcriptome in vivo analysis (TIVA) of spatially defined single cells in live tissue
+links: {}
+added: '2026-11-11'
+evidence: We engineered a transcriptome in vivo analysis (TIVA) tag, which upon photoactivation enables mRNA capture from
+  single cells in live tissue.
+partition_unknown: not stated in the abstract

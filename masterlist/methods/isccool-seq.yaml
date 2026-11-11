@@ -1,0 +1,32 @@
+name: iscCOOL-seq
+category: wet
+summary: Improved single-cell COOL-seq that jointly profiles DNA methylation, chromatin accessibility and transcriptome in
+  individual mouse oocytes.
+readouts:
+- dna-methylation
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+variant_of:
+- sccool-seq
+reference:
+  doi: 10.1038/s41422-018-0125-4
+  year: 2019
+  journal: Cell Res
+  first_author: Gu C
+  last_author: Guo F
+  pmid: '30560925'
+  pmcid: PMC6355938
+  title: Integrative single-cell analysis of transcriptome, DNA methylome and chromatin accessibility in mouse oocytes
+links: {}
+added: '2026-11-11'
+evidence: we developed an improved scCOOL-seq technique (iscCOOL-seq), which is a multi-omics, single-cell and single-base
+  resolution method with high mapping rates
+partition_unknown: not stated in the abstract

@@ -1,0 +1,33 @@
+name: FLT-seq
+full_name: Single-cell full-length transcript sequencing by sampling
+category: wet
+summary: Long-read single-cell full-length transcript sequencing that resolves isoforms and splicing in individual human and
+  mouse cells.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+species:
+- human
+- mouse
+reference:
+  doi: 10.1186/s13059-021-02525-6
+  year: 2021
+  journal: Genome Biol
+  first_author: Tian L
+  last_author: Ritchie ME
+  pmid: '34763716'
+  pmcid: PMC8582192
+  title: Comprehensive characterization of single-cell full-length isoforms in human and mouse with long-read sequencing
+  preprint_doi: 10.1101/2020.08.10.243543
+links: {}
+added: '2026-11-11'
+evidence: together with the computational pipeline FLAMES to overcome these issues and perform isoform discovery and quantification
+partition_unknown: not stated in the abstract

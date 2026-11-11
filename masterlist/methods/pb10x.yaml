@@ -1,0 +1,33 @@
+name: PB10X
+full_name: Plate-based 10X Genomics-compatible single-cell RNA-sequencing
+category: wet
+summary: Plate-based scRNA-seq built on Smart-seq3xpress whose cDNA feeds standard 10x 5' gene-expression and V(D)J libraries,
+  with indexed FACS sorting into 384-well plates.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- cell-line
+chemistry:
+- plate-based
+- reverse-transcription
+builds_on:
+- smart-seq3xpress
+- 10x-chromium-5-gene-expression
+- 10x-chromium-5-immune-profiling-feature-barcoding
+reference:
+  doi: 10.1186/s12864-025-12286-2
+  year: 2025
+  journal: BMC Genomics
+  first_author: Deserranno K
+  last_author: Van Nieuwerburgh F
+  pmid: '41353535'
+  pmcid: PMC12797766
+  title: Plate-based 10X Genomics-compatible single-cell RNA-sequencing based on Smart-seq3xpress
+links: {}
+added: '2026-11-11'
+evidence: To address these limitations, we developed a plate-based, 10X-compatible (PB10X) scRNA-seq strategy built on the
+  Smart-seq3xpress (SS3X) principle.

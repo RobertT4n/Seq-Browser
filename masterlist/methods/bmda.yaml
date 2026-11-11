@@ -1,0 +1,27 @@
+name: bMDA
+full_name: Barcoded multiple displacement amplification
+category: wet
+summary: Barcoded multiple displacement amplification that tags low-input DNA from spatial microniches in one pot, for copy-number,
+  SNV and SV profiling.
+readouts:
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- spatial-barcode-array
+reference:
+  doi: 10.1038/s41467-023-41019-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Kim J
+  last_author: Kwon S
+  pmid: '37644058'
+  pmcid: PMC10465490
+  title: Barcoded multiple displacement amplification for high coverage sequencing in spatial genomics
+links: {}
+added: '2026-11-11'
+evidence: By incorporating cell barcodes during MDA, bMDA streamlines library preparation in one pot, thereby overcoming a
+  key bottleneck in spatial genomics.

@@ -1,0 +1,23 @@
+name: SnapATAC2
+category: dry
+summary: Python package with a nonlinear dimensionality-reduction algorithm for single-cell omics (scATAC-seq, scRNA-seq,
+  single-cell Hi-C, multi-omics) that scales linearly with cell number.
+readouts:
+- chromatin-accessibility
+- rna
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02139-9
+  year: 2024
+  journal: Nat Methods
+  first_author: Zhang K
+  last_author: Ren B
+  pmid: '38191932'
+  pmcid: PMC10864184
+  title: A fast, scalable and versatile tool for analysis of single-cell omics data
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce a nonlinear dimensionality reduction algorithm, embodied in the Python package SnapATAC2

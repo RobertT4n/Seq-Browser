@@ -1,0 +1,32 @@
+name: ST-FFPE-mIF
+full_name: Spatial transcriptomics with multiplex immunofluorescence in formalin-fixed paraffin-embedded tissue
+category: wet
+summary: Stereo-seq-FFPE spatial transcriptomics combined with eight-plex immunofluorescence on the same FFPE section, with
+  single-cell segmentation.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+input_sample:
+- ffpe-archival
+chemistry:
+- spatial-barcode-array
+builds_on:
+- stereo-seq
+reference:
+  doi: 10.1186/s13059-025-03900-3
+  year: 2025
+  journal: Genome Biol
+  first_author: Zhang X
+  last_author: Zhang J
+  pmid: '41402878'
+  pmcid: PMC12709731
+  title: 'ST-FFPE-mIF: integrating spatial transcriptomics and multiplex immunofluorescence in formalin-fixed paraffin-embedded
+    tissues using Stereo-seq'
+links: {}
+added: '2026-11-11'
+evidence: a protocol that integrates eight-plex immunofluorescence staining with spatial transcriptomics in the same FFPE
+  tissue section.

@@ -1,0 +1,29 @@
+name: scMspJI-seq
+category: wet
+summary: Single-cell method for strand-specific 5mC quantification using MspJI, used to resolve strand-asymmetric demethylation
+  in early mouse and human embryos.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1038/s41467-021-21532-6
+  year: 2021
+  journal: Nat Commun
+  first_author: Sen M
+  last_author: van Oudenaarden A
+  pmid: '33627650'
+  pmcid: PMC7904860
+  title: Strand-specific single-cell methylomics reveals distinct modes of DNA demethylation dynamics during early mammalian
+    development
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: Here, we report a single-cell method (scMspJI-seq) that enables strand-specific quantification of 5mC, allowing
+  us to systematically probe the dynamics of global demethylation.

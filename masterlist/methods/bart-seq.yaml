@@ -1,0 +1,32 @@
+name: BART-Seq
+full_name: Barcode Assembly foR Targeted Sequencing
+category: wet
+summary: Targeted sequencing of transcript cohorts or genomic regions using in silico-designed barcode matrices on invariant
+  primer sets, for bulk samples or single cells.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: targeted
+species:
+- human
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-019-1748-6
+  year: 2019
+  journal: Genome Biol
+  first_author: Uzbas F
+  last_author: Drukker M
+  pmid: '31387612'
+  pmcid: PMC6683345
+  title: 'BART-Seq: cost-effective massively parallelized targeted sequencing for genomics, transcriptomics, and single-cell
+    analysis'
+links: {}
+added: '2026-11-11'
+evidence: We describe a highly sensitive, quantitative, and inexpensive technique for targeted sequencing of transcript cohorts
+  or genomic regions from thousands of bulk samples or single cells in parallel
+partition_unknown: not stated in the abstract
