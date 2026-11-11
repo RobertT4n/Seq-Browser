@@ -103,8 +103,11 @@ header a.logo { display:block; line-height:0; }
   tr.row td { display:block; border:0; padding:0; font-size:13px; }
   tr.row td.name { grid-column:1; grid-row:1; white-space:normal; font-size:15px; }
   tr.row td.name small { font-size:12px; }
-  tr.row td.reads { grid-column:1; grid-row:2; min-width:0; }
-  tr.row td:nth-child(3) { grid-column:2; grid-row:2; text-align:right; }
+  tr.row td.reads { grid-column:1 / -1; grid-row:2; min-width:0; }
+  tr.row td:nth-child(3) { grid-column:1 / -1; grid-row:3; text-align:left; min-width:0; }
+  tr.row td.reads:empty, tr.row td:nth-child(3):empty { display:none; }
+  tr.row td.name small { display:block; overflow-wrap:anywhere; }
+  tr.row .tag { white-space:normal; max-width:100%; overflow-wrap:anywhere; }
   tr.row td.num { grid-row:1; grid-column:2; color:var(--muted); font-size:12px; }
   tr.row td.num:not(:last-child), tr.row td.hide-sm { display:none; }
   tr.row { grid-template-columns:minmax(0,1fr) auto; }
