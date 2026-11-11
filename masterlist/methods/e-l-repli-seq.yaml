@@ -1,0 +1,26 @@
+name: E/L Repli-seq
+full_name: early/late Repli-seq
+category: wet
+summary: Bulk replication timing from BrdU-labelled early and late S-phase cell fractions sorted by flow cytometry, reported
+  as an early-to-late nascent DNA ratio.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- facs-sorting
+- antibody-pull-down
+reference:
+  doi: 10.1038/nprot.2017.148
+  year: 2018
+  journal: Nat Protoc
+  first_author: Marchal C
+  last_author: Gilbert DM
+  pmid: '29599440'
+  pmcid: PMC6044726
+  title: Genome-wide analysis of replication timing by next-generation sequencing with E/L Repli-seq.
+links: {}
+added: '2026-11-11'
+evidence: Here, we describe E/L Repli-seq, an extension of our Repli-chip protocol.

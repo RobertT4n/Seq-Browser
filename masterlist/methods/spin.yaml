@@ -1,0 +1,23 @@
+name: SPIN
+full_name: Spatial Position Inference of the Nuclear genome
+category: dry
+summary: Integrates TSA-seq, DamID and Hi-C data to assign genome regions to 10 spatial nuclear compartmentalization states
+  relative to speckles, lamina and nucleoli.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02253-3
+  year: 2021
+  journal: Genome Biol
+  first_author: Wang Y
+  last_author: Ma J
+  pmid: '33446254'
+  pmcid: PMC7809771
+  title: SPIN reveals genome-wide landscape of nuclear compartmentalization.
+links: {}
+added: '2026-11-11'
+evidence: We report SPIN, an integrative computational method to reveal genome-wide intranuclear chromosome positioning and
+  nuclear compartmentalization relative to multiple nuclear structures.

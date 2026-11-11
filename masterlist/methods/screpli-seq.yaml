@@ -1,0 +1,33 @@
+name: scRepli-seq
+full_name: single-cell replication profiling
+category: wet
+summary: Measures replication timing in single mouse embryonic stem cells from DNA copy number of individually sorted S-phase
+  nuclei.
+readouts:
+- replication-timing
+resolution:
+- single-cell
+scope: genome-wide
+throughput: lt-1e3
+input_sample:
+- nuclei
+validated_system:
+- cell-line
+species:
+- mouse
+chemistry:
+- facs-sorting
+- plate-based
+reference:
+  doi: 10.1038/s41467-017-02800-w
+  year: 2018
+  journal: Nat Commun
+  first_author: Dileep V
+  last_author: Gilbert DM
+  pmid: '29382831'
+  pmcid: PMC5789892
+  title: Single-cell replication profiling to measure stochastic variation in mammalian replication timing.
+links: {}
+added: '2026-11-11'
+evidence: Here we devise a strategy to measure variation in replication timing using DNA copy number in single mouse embryonic
+  stem cells.

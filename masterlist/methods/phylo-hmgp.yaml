@@ -1,0 +1,23 @@
+name: Phylo-HMGP
+full_name: phylogenetic hidden Markov Gaussian processes
+category: dry
+summary: Phylogenetic hidden Markov Gaussian process model that infers evolutionary states of continuous functional genomic
+  signals across species, demonstrated on replication timing in five primates.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2018.05.022
+  year: 2018
+  journal: Cell Syst
+  first_author: Yang Y
+  last_author: Ma J
+  pmid: '29936186'
+  pmcid: PMC6107375
+  title: Continuous-Trait Probabilistic Model for Comparing Multi-species Functional Genomic Data.
+links: {}
+added: '2026-11-11'
+evidence: Here we develop a new model, called phylogenetic hidden Markov Gaussian processes (Phylo-HMGP), to simultaneously
+  infer heterogeneous evolutionary states of functional genomic features in a genome-wide manner.

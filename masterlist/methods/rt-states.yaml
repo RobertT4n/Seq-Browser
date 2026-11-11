@@ -1,0 +1,22 @@
+name: RT States
+category: dry
+summary: Hidden Markov Model with 15 states that combines replication timing profiles from 42 cell types into genome-wide
+  recurrent RT states.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty957
+  year: 2019
+  journal: Bioinformatics
+  first_author: Poulet A
+  last_author: Qin ZS
+  pmid: '30475980'
+  pmcid: PMC6681175
+  title: 'RT states: systematic annotation of the human genome using cell type-specific replication timing programs.'
+links: {}
+added: '2026-11-11'
+evidence: We found that a Hidden Markov Model with 15 hidden states provide a good model to describe these genome-wide RT
+  profiling data.
