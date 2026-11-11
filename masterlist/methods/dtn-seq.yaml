@@ -1,0 +1,27 @@
+name: dTn-Seq
+full_name: droplet transposon-insertion sequencing
+category: wet
+summary: Transposon-insertion (Tn-Seq) fitness screen in which individual mutants are encapsulated in microfluidic droplets
+  so each grows in isolation.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+perturbation:
+- transposon-insertion
+reference:
+  doi: 10.1038/s41467-019-13719-9
+  year: 2019
+  journal: Nat Commun
+  first_author: Thibault D
+  last_author: van Opijnen T
+  pmid: '31844066'
+  pmcid: PMC6914776
+  title: Droplet Tn-Seq combines microfluidics with Tn-Seq for identifying complex single-cell phenotypes
+links: {}
+added: '2026-11-11'
+evidence: Droplet Tn-Seq (dTn-Seq) solves this problem by microfluidics facilitated encapsulation of individual transposon
+  mutants into growth medium-in-oil droplets, thereby enabling isolated growth, free from the influence of the population.

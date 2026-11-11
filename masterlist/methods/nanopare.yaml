@@ -1,0 +1,24 @@
+name: NanoPARE
+full_name: parallel analysis of RNA 5' ends from low-input RNA
+category: wet
+summary: Low-input 5' end sequencing of RNA (nanoPARE) that maps transcription start sites and small-RNA cleavage ends, integrated
+  with matched mRNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.239202.118
+  year: 2018
+  journal: Genome Res
+  first_author: Schon MA
+  last_author: Nodine MD
+  pmid: '30355603'
+  pmcid: PMC6280765
+  title: 'NanoPARE: parallel analysis of RNA 5'' ends from low-input RNA'
+links: {}
+added: '2026-11-11'
+evidence: we developed a next-generation sequencing-based method called nanoPARE and associated software.

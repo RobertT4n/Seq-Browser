@@ -1,0 +1,22 @@
+name: netNMF-sc
+full_name: network-regularized non-negative matrix factorization for single-cell expression
+category: dry
+summary: Network-regularized NMF that uses gene-gene interaction priors to impute dropouts and cluster scRNA-seq cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.251603.119
+  year: 2020
+  journal: Genome Res
+  first_author: Elyanow R
+  last_author: Raphael BJ
+  pmid: '31992614'
+  pmcid: PMC7050525
+  title: 'netNMF-sc: leveraging gene-gene interactions for imputation and dimensionality reduction in single-cell expression
+    analysis'
+links: {}
+added: '2026-11-11'
+evidence: We introduce netNMF-sc, an algorithm for scRNA-seq analysis that leverages information across both cells and genes.

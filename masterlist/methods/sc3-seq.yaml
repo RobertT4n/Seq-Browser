@@ -1,0 +1,27 @@
+name: SC3-seq
+full_name: single-cell mRNA 3-prime end sequencing
+category: wet
+summary: PCR-based 3-prime-end single-cell RNA-seq with spike-in regression for quantitative transcript counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+- human
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1093/nar/gkv134
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Nakamura T
+  last_author: Saitou M
+  pmid: '25722368'
+  pmcid: PMC4482058
+  title: 'SC3-seq: a method for highly parallel and quantitative measurement of single-cell gene expression'
+links: {}
+added: '2026-11-11'
+evidence: We here present single-cell mRNA 3-prime end sequencing (SC3-seq)

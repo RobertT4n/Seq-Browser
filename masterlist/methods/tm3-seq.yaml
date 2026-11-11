@@ -1,0 +1,28 @@
+name: TM3'seq
+full_name: Tagmentation-Mediated 3' Sequencing
+category: wet
+summary: Low-cost 3'-enriched RNA-seq library method that uses Tn5 tagmentation and keeps each sample's identity through processing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- invertebrate
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1534/g3.119.400821
+  year: 2020
+  journal: G3 (Bethesda)
+  first_author: Pallares LF
+  last_author: Ayroles JF
+  pmid: '31676507'
+  pmcid: PMC6945013
+  title: 'TM3''seq: A Tagmentation-Mediated 3'' Sequencing Approach for Improving Scalability of RNAseq Experiments'
+links: {}
+added: '2026-11-11'
+evidence: we have developed TM3'seq, a 3'-enriched library preparation protocol that uses Tn5 transposase and preserves sample
+  identity at each step.

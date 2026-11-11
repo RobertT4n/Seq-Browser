@@ -1,0 +1,28 @@
+name: ScarTrace
+category: wet
+summary: Single-cell sequencing that reads clonal history from barcodes alongside cell type, applied to thousands of cells
+  from adult zebrafish organs.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nature25969
+  year: 2018
+  journal: Nature
+  first_author: Alemany A
+  last_author: van Oudenaarden A
+  pmid: '29590089'
+  title: Whole-organism clone tracing using single-cell sequencing
+added: '2026-11-11'
+evidence: Here we present ScarTrace, a single-cell sequencing strategy that enables the simultaneous quantification of clonal
+  history and cell type for thousands of cells obtained from different organs of the adult zebrafish.
+partition_unknown: not stated in the abstract

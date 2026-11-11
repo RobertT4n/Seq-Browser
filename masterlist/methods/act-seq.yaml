@@ -1,0 +1,28 @@
+name: ACT-seq
+full_name: Antibody-guided Chromatin Tagmentation
+category: wet
+summary: Antibody-tethered Protein A-Tn5 tagments chromatin at the antigen of interest, mapping histone marks and chromatin-binding
+  proteins genome-wide.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+targets:
+- histone tail modifications
+- histone variants
+- chromatin-binding proteins
+reference:
+  doi: 10.21203/rs.2.1708/v1
+  year: 2019
+  journal: Research Square
+  first_author: Carter B
+  last_author: Tang Q
+  title: Antibody-guided Chromatin Tagmentation (ACT-seq)
+added: '2026-11-11'
+evidence: ACT-seq is a streamlined method for mapping genome-wide distributions of histone tail modifications, histone variants,
+  and chromatin-binding proteins in a small number of or single cells.

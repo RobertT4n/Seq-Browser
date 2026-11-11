@@ -1,0 +1,27 @@
+name: NICHE-seq
+category: wet
+summary: Photoactivatable reporters mark cells within an intact niche; labelled cells are profiled by scRNA-seq to reconstruct
+  niche composition.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1126/science.aao4277
+  year: 2017
+  journal: Science
+  first_author: Medaglia C
+  last_author: Amit I
+  pmid: '29217582'
+  pmcid: PMC7234837
+  title: Spatial reconstruction of immune niches by combining photoactivatable reporters and scRNA-seq
+links: {}
+added: '2026-11-11'
+evidence: We developed a method, NICHE-seq, that combines photoactivatable fluorescent reporters, two-photon microscopy, and
+  single-cell RNA sequencing (scRNA-seq) to infer the cellular and molecular composition of niches.

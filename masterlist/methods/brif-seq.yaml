@@ -1,0 +1,25 @@
+name: BRIF-seq
+full_name: Bisulfite-Converted Randomly Integrated Fragments Sequencing
+category: wet
+summary: Single-cell bisulfite methylome method using randomly integrated fragments to improve coverage of highly methylated
+  regions, shown on maize microspores.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1016/j.molp.2019.01.004
+  year: 2019
+  journal: Mol Plant
+  first_author: Li X
+  last_author: Yan J
+  pmid: '30639749'
+  title: 'BRIF-Seq: Bisulfite-Converted Randomly Integrated Fragments Sequencing at the Single-Cell Level'
+links: {}
+added: '2026-11-11'
+partition_unknown: not stated in the abstract
+evidence: we developed bisulfite-converted randomly integrated fragments sequencing (BRIF-seq), a method with high rates of
+  read mapping and genome coverage.

@@ -1,0 +1,29 @@
+name: viscRNA-seq
+category: wet
+summary: Single-cell RNA-seq that captures the host transcriptome together with intracellular viral RNA in the same cell during
+  flavivirus infection.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- plate-based
+- facs-sorting
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.7554/elife.32942
+  year: 2018
+  journal: Elife
+  first_author: Zanini F
+  last_author: Quake SR
+  pmid: '29451494'
+  pmcid: PMC5826272
+  title: Single-cell transcriptional dynamics of flavivirus infection
+added: '2026-11-11'
+evidence: We present viscRNA-Seq (virus-inclusive single cell RNA-Seq), an approach to probe the host transcriptome together
+  with intracellular viral RNA at the single cell level.

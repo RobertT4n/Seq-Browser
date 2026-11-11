@@ -1,0 +1,29 @@
+name: TracerSeq
+category: wet
+summary: Transposon-based lineage barcoding read out with single-cell RNA-seq to reconstruct clonal histories across the zebrafish
+  embryo state landscape.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1126/science.aar4362
+  year: 2018
+  journal: Science
+  first_author: Wagner DE
+  last_author: Klein AM
+  pmid: '29700229'
+  pmcid: PMC6083445
+  title: Single-cell mapping of gene expression landscapes and lineage in the zebrafish embryo
+added: '2026-11-11'
+evidence: We tested how clonally related cells traverse this landscape by developing a transposon-based barcoding approach
+  (TracerSeq) for reconstructing single-cell lineage histories.
+partition_unknown: not stated in the abstract

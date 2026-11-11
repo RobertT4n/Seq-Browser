@@ -1,0 +1,30 @@
+name: Array-seq
+category: wet
+summary: Repurposes large-format oligonucleotide microarrays, whose barcoded probes at known coordinates are converted into
+  mRNA capture probes, for sequencing-based spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+- human
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-024-02501-5
+  year: 2025
+  journal: Nat Methods
+  first_author: Cipurko D
+  last_author: Chevrier N
+  pmid: '39562752'
+  pmcid: PMC11984966
+  title: Repurposing large-format microarrays for scalable spatial transcriptomics.
+links: {}
+added: '2026-11-11'
+evidence: Here, we describe a method, Array-seq, to repurpose classical oligonucleotide microarrays for spatial transcriptomics
+  profiling.

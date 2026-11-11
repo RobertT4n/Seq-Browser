@@ -1,0 +1,33 @@
+name: scWGBS
+full_name: single-cell whole-genome bisulfite sequencing
+category: wet
+summary: FACS-sorted single-cell whole-genome bisulfite sequencing for low-coverage DNA methylation maps across many cells.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- facs-sorting
+- plate-based
+validated_system:
+- cell-line
+species:
+- human
+- mouse
+builds_on:
+- wgbs
+reference:
+  doi: 10.1016/j.celrep.2015.02.001
+  year: 2015
+  journal: Cell Rep
+  first_author: Farlik M
+  last_author: Bock C
+  pmid: '25732828'
+  pmcid: PMC4542311
+  title: Single-cell DNA methylome sequencing and bioinformatic inference of epigenomic cell-state dynamics
+links: {}
+added: '2026-11-11'
+evidence: Here, we describe a whole-genome bisulfite sequencing (WGBS) assay that enables DNA methylation mapping in very
+  small cell populations (μWGBS) and single cells (scWGBS).

@@ -1,0 +1,25 @@
+name: Hi-SCL
+full_name: High-throughput Single-Cell Labeling
+category: wet
+summary: Drop-based microfluidic barcoding of single cells, with barcoded cDNA synthesis inside drops for scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1371/journal.pone.0116328
+  year: 2015
+  journal: PLoS One
+  first_author: Rotem A
+  last_author: Weitz DA
+  pmid: '26000628'
+  pmcid: PMC4441486
+  title: High-Throughput Single-Cell Labeling (Hi-SCL) for RNA-Seq Using Drop-Based Microfluidics
+links: {}
+added: '2026-11-11'
+evidence: High-throughput Single-Cell Labeling (Hi-SCL) in drops is a novel method that uses drop-based libraries of oligonucleotide
+  barcodes to index individual cells in a population.

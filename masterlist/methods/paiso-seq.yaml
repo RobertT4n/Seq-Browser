@@ -1,0 +1,32 @@
+name: PAIso-seq
+full_name: Poly(A) inclusive RNA isoform sequencing
+category: wet
+summary: Full-length RNA isoform sequencing that also reads poly(A) tail length and non-adenosine residues within tails on
+  PacBio.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41467-019-13228-9
+  year: 2019
+  journal: Nat Commun
+  first_author: Liu Y
+  last_author: Lu F
+  pmid: '31757970'
+  pmcid: PMC6876564
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso-seq) reveals wide-spread non-adenosine residues within RNA poly(A)
+    tails
+links: {}
+added: '2026-11-11'
+evidence: Here, we develop a method at single-cell level sensitivity that enables quantification of poly(A) tails along with
+  the full-length cDNA while reading non-adenosine residues within poly(A) tails precisely, which we name poly(A) inclusive
+  RNA isoform sequencing (PAIso-seq).

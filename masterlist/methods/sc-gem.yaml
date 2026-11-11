@@ -1,0 +1,31 @@
+name: sc-GEM
+full_name: single-cell genotyping, gene expression and DNA methylation (expansion inferred from abstract wording, not stated
+  as acronym)
+category: wet
+summary: Single-cell genotyping together with targeted gene expression and DNA methylation on an automated microfluidic platform.
+readouts:
+- rna
+- dna-methylation
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+validated_system:
+- primary-cells
+species:
+- human
+reference:
+  doi: 10.1038/nmeth.3961
+  year: 2016
+  journal: Nat Methods
+  first_author: Cheow LF
+  last_author: Burkholder WF
+  pmid: '27525975'
+  title: Single-cell multimodal profiling reveals cellular epigenetic heterogeneity
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a method to genotype single cells while simultaneously interrogating gene expression and DNA methylation
+  at multiple loci.
