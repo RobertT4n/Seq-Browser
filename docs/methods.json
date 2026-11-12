@@ -911,7 +911,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis; dimensionality-visualization"
+   "task": "spatial-analysis; multimodal-integration; dimensionality-visualization"
   },
   {
    "id": "agro-starr-seq",
@@ -1063,7 +1063,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones; differential-analysis"
+   "task": "differential-analysis"
   },
   {
    "id": "alpaca",
@@ -1215,7 +1215,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "benchmark-infrastructure; metagenomics-taxonomy"
   },
   {
    "id": "ampliconsuite",
@@ -2811,7 +2811,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; preprocessing-qc"
   },
   {
    "id": "bart-seq",
@@ -3305,7 +3305,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "preprocessing-qc"
   },
   {
    "id": "bihind",
@@ -3723,7 +3723,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "bpai-tac",
@@ -3761,7 +3761,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "bpnet",
@@ -4217,7 +4217,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "cap-c",
@@ -4483,7 +4483,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; multimodal-integration"
   },
   {
    "id": "cardiochrom",
@@ -4787,7 +4787,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis; clustering-annotation"
+   "task": "differential-analysis"
   },
   {
    "id": "cautrigger",
@@ -4825,7 +4825,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "perturbation-modelling; regulatory-networks"
+   "task": "perturbation-modelling; regulatory-networks; multimodal-integration"
   },
   {
    "id": "cbti-seq",
@@ -5281,7 +5281,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model; multimodal-integration"
+   "task": "multimodal-integration; foundation-model"
   },
   {
    "id": "cell-sign",
@@ -5433,7 +5433,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; multimodal-integration"
   },
   {
    "id": "cellart",
@@ -5661,7 +5661,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "perturbation-modelling"
+   "task": "perturbation-modelling; dimensionality-visualization; clustering-annotation"
   },
   {
    "id": "celldot",
@@ -5737,7 +5737,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model"
+   "task": "foundation-model; multimodal-integration"
   },
   {
    "id": "cellhint",
@@ -5851,7 +5851,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "cell-communication"
+   "task": "cell-communication; benchmark-infrastructure"
   },
   {
    "id": "cellphonedb-v5",
@@ -6003,7 +6003,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation"
+   "task": "spatial-analysis"
   },
   {
    "id": "cellstaar",
@@ -6725,7 +6725,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "sequence-to-function; foundation-model"
+   "task": "foundation-model; sequence-to-function"
   },
   {
    "id": "chia-drop",
@@ -6839,7 +6839,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "3d-genome-analysis; preprocessing-qc"
+   "task": "3d-genome-analysis; preprocessing-qc; benchmark-infrastructure"
   },
   {
    "id": "chip-array",
@@ -7219,7 +7219,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "chromia",
@@ -7257,7 +7257,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "chrommovie",
@@ -7295,7 +7295,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "trajectory-velocity"
+   "task": "3d-genome-analysis"
   },
   {
    "id": "chromodule",
@@ -7561,7 +7561,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation"
+   "task": "sequence-to-function"
   },
   {
    "id": "cistopic",
@@ -8093,7 +8093,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation"
+   "task": "clustering-annotation; integration"
   },
   {
    "id": "cmchip-seq",
@@ -8511,7 +8511,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "multimodal-integration; benchmark-infrastructure"
   },
   {
    "id": "comrades",
@@ -8929,7 +8929,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "perturbation-modelling; differential-analysis"
   },
   {
    "id": "corset",
@@ -9309,7 +9309,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "cpt-seq",
@@ -10145,7 +10145,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model"
+   "task": "disease-classification"
   },
   {
    "id": "cut-and-run",
@@ -10753,7 +10753,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; differential-analysis"
+   "task": "differential-analysis; preprocessing-qc"
   },
   {
    "id": "dandelion",
@@ -11209,7 +11209,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; trajectory-velocity"
   },
   {
    "id": "deep-lineage",
@@ -11513,7 +11513,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "regulatory-networks; sequence-to-function"
   },
   {
    "id": "deepsem",
@@ -12007,7 +12007,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "3d-genome-analysis; differential-analysis"
   },
   {
    "id": "diffgsp",
@@ -13945,7 +13945,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "trajectory-velocity; perturbation-modelling"
+   "task": "trajectory-velocity; perturbation-modelling; multimodal-integration"
   },
   {
    "id": "e-l-repli-seq",
@@ -14173,7 +14173,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "3d-genome-analysis"
   },
   {
    "id": "eccite-seq",
@@ -14781,7 +14781,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "regulatory-networks; sequence-to-function"
   },
   {
    "id": "enrich2",
@@ -14971,7 +14971,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "multimodal-integration; variants-clones"
+   "task": "variants-clones; multimodal-integration"
   },
   {
    "id": "epic-seq",
@@ -15389,7 +15389,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis; variants-clones"
+   "task": "differential-analysis"
   },
   {
    "id": "evo",
@@ -15921,7 +15921,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "genome-assembly"
+   "task": "genome-assembly; 3d-genome-analysis"
   },
   {
    "id": "falcon-unzip",
@@ -16377,7 +16377,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "integration; preprocessing-qc"
+   "task": "preprocessing-qc; integration"
   },
   {
    "id": "fiber-seq",
@@ -17137,7 +17137,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; regulatory-networks"
+   "task": "preprocessing-qc; regulatory-networks; benchmark-infrastructure"
   },
   {
    "id": "fotp",
@@ -17213,7 +17213,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model"
+   "task": "disease-classification"
   },
   {
    "id": "fragmil",
@@ -17479,7 +17479,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "gage-seq",
@@ -17593,7 +17593,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; 3d-genome-analysis"
+   "task": "3d-genome-analysis; preprocessing-qc"
   },
   {
    "id": "garage",
@@ -17669,7 +17669,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "differential-analysis; trajectory-velocity"
   },
   {
    "id": "gast-seq",
@@ -17821,7 +17821,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "multimodal-integration; clustering-annotation"
+   "task": "3d-genome-analysis"
   },
   {
    "id": "gcla-seq",
@@ -18201,7 +18201,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; differential-analysis"
   },
   {
    "id": "genie-atac",
@@ -18315,7 +18315,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model; regulatory-networks"
+   "task": "foundation-model; sequence-to-function"
   },
   {
    "id": "genome-mappability-score",
@@ -18467,7 +18467,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "3d-genome-analysis"
+   "task": "3d-genome-analysis; preprocessing-qc"
   },
   {
    "id": "genomescope-2-0",
@@ -18847,7 +18847,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "perturbation-modelling; regulatory-networks"
+   "task": "perturbation-modelling; regulatory-networks; differential-analysis"
   },
   {
    "id": "glm-prior",
@@ -18885,7 +18885,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks; foundation-model"
+   "task": "regulatory-networks; sequence-to-function; foundation-model"
   },
   {
    "id": "glori",
@@ -19227,7 +19227,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; differential-analysis"
   },
   {
    "id": "grid-seq",
@@ -20481,7 +20481,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones; modification-calling"
+   "task": "variants-clones; modification-calling; genome-assembly"
   },
   {
    "id": "hires",
@@ -20747,7 +20747,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc"
+   "task": "3d-genome-analysis; preprocessing-qc"
   },
   {
    "id": "hptad",
@@ -21089,7 +21089,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; variants-clones"
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "hybiss",
@@ -22761,7 +22761,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; preprocessing-qc"
+   "task": "preprocessing-qc; differential-analysis; benchmark-infrastructure"
   },
   {
    "id": "iregulon",
@@ -22989,7 +22989,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "trajectory-velocity; variants-clones"
+   "task": "variants-clones; trajectory-velocity"
   },
   {
    "id": "isecure",
@@ -23103,7 +23103,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis; variants-clones"
+   "task": "differential-analysis"
   },
   {
    "id": "isp-platform",
@@ -23711,7 +23711,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "integration"
+   "task": "integration; benchmark-infrastructure"
   },
   {
    "id": "kinetics-seq",
@@ -24091,7 +24091,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; differential-analysis"
   },
   {
    "id": "laws-hic",
@@ -24129,7 +24129,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "3d-genome-analysis"
   },
   {
    "id": "lcd",
@@ -27169,7 +27169,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis; variants-clones"
+   "task": "differential-analysis"
   },
   {
    "id": "metatac",
@@ -27701,7 +27701,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; 3d-genome-analysis"
+   "task": "3d-genome-analysis; preprocessing-qc"
   },
   {
    "id": "microexonator",
@@ -28461,7 +28461,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc"
+   "task": "preprocessing-qc; variants-clones"
   },
   {
    "id": "mitodelta",
@@ -28613,7 +28613,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "genome-assembly; benchmark-infrastructure"
   },
   {
    "id": "mix-seq",
@@ -29297,7 +29297,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "trajectory-velocity; integration"
+   "task": "trajectory-velocity; integration; variants-clones"
   },
   {
    "id": "motrust",
@@ -30399,7 +30399,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "multimodal-integration"
+   "task": "multimodal-integration; dimensionality-visualization"
   },
   {
    "id": "mycoprofiler",
@@ -30437,7 +30437,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "metagenomics-taxonomy; benchmark-infrastructure"
   },
   {
    "id": "mystic-seq",
@@ -31615,7 +31615,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis; cell-communication"
+   "task": "differential-analysis; cell-communication; spatial-analysis"
   },
   {
    "id": "nichefinder",
@@ -31957,7 +31957,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "oligofisseq",
@@ -32071,7 +32071,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; clustering-annotation"
+   "task": "clustering-annotation; trajectory-velocity; benchmark-infrastructure"
   },
   {
    "id": "omni-atac",
@@ -32147,7 +32147,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones; differential-analysis"
+   "task": "modification-calling; differential-analysis"
   },
   {
    "id": "oncogemini",
@@ -32565,7 +32565,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "genome-assembly; variants-clones"
+   "task": "variants-clones; genome-assembly; benchmark-infrastructure"
   },
   {
    "id": "orman",
@@ -33211,7 +33211,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; multimodal-integration"
+   "task": "preprocessing-qc; multimodal-integration; benchmark-infrastructure"
   },
   {
    "id": "paqs-seq",
@@ -33591,7 +33591,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model"
+   "task": "metagenomics-taxonomy; foundation-model"
   },
   {
    "id": "pathos",
@@ -33667,7 +33667,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; metagenomics-taxonomy"
   },
   {
    "id": "pattern-filter",
@@ -33819,7 +33819,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "differential-analysis; preprocessing-qc"
   },
   {
    "id": "pep-seq",
@@ -33895,7 +33895,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "genome-assembly; variants-clones"
+   "task": "genome-assembly; variants-clones; preprocessing-qc"
   },
   {
    "id": "pepatac",
@@ -35795,7 +35795,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "genome-assembly; variants-clones; benchmark-infrastructure"
   },
   {
    "id": "polyg-ds",
@@ -36973,7 +36973,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "pycometh",
@@ -37011,7 +37011,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "differential-analysis; benchmark-infrastructure"
   },
   {
    "id": "pyscenic",
@@ -37049,7 +37049,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "regulatory-networks; clustering-annotation"
   },
   {
    "id": "q-intnmf",
@@ -37999,7 +37999,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; multimodal-integration"
   },
   {
    "id": "recordanelle",
@@ -38189,7 +38189,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "differential-analysis; genome-assembly"
   },
   {
    "id": "refresh-seq",
@@ -39101,7 +39101,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "perturbation-modelling"
+   "task": "perturbation-modelling; clustering-annotation"
   },
   {
    "id": "rna-ode",
@@ -39367,7 +39367,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "rpmeta",
@@ -40773,7 +40773,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; clustering-annotation"
+   "task": "preprocessing-qc; clustering-annotation; differential-analysis"
   },
   {
    "id": "scarches",
@@ -41039,7 +41039,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "benchmark-infrastructure; integration"
   },
   {
    "id": "scattr",
@@ -42483,7 +42483,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation"
+   "task": "clustering-annotation; multimodal-integration"
   },
   {
    "id": "scgsi",
@@ -42559,7 +42559,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "schag",
@@ -42635,7 +42635,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation; preprocessing-qc"
+   "task": "3d-genome-analysis; clustering-annotation; preprocessing-qc"
   },
   {
    "id": "schlapers",
@@ -43813,7 +43813,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "sequence-to-function; modification-calling"
+   "task": "sequence-to-function"
   },
   {
    "id": "scmac",
@@ -44839,7 +44839,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "scooby-2",
@@ -44877,7 +44877,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model; regulatory-networks"
+   "task": "sequence-to-function; foundation-model"
   },
   {
    "id": "scotia",
@@ -45827,7 +45827,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "3d-genome-analysis"
   },
   {
    "id": "sctab",
@@ -45903,7 +45903,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "dimensionality-visualization; integration"
+   "task": "dimensionality-visualization; integration; clustering-annotation"
   },
   {
    "id": "sctailor-seq",
@@ -46359,7 +46359,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "benchmark-infrastructure; integration"
   },
   {
    "id": "scwgbs",
@@ -46891,7 +46891,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "modification-calling; differential-analysis"
   },
   {
    "id": "seqr",
@@ -48335,7 +48335,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; preprocessing-qc"
   },
   {
    "id": "slam-seq",
@@ -48791,7 +48791,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure"
+   "task": "preprocessing-qc"
   },
   {
    "id": "slivar",
@@ -49361,7 +49361,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "smile-seq",
@@ -49551,7 +49551,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; dimensionality-visualization"
   },
   {
    "id": "smrandom-seq",
@@ -49893,7 +49893,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "dimensionality-visualization"
+   "task": "dimensionality-visualization; multimodal-integration; 3d-genome-analysis"
   },
   {
    "id": "snaphic",
@@ -49969,7 +49969,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "differential-analysis"
+   "task": "3d-genome-analysis; differential-analysis"
   },
   {
    "id": "snaphic2",
@@ -50729,7 +50729,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; variants-clones"
+   "task": "variants-clones; preprocessing-qc"
   },
   {
    "id": "somatix",
@@ -50805,7 +50805,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "preprocessing-qc; variants-clones"
+   "task": "preprocessing-qc; variants-clones; clustering-annotation"
   },
   {
    "id": "spac-seq",
@@ -51109,7 +51109,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; preprocessing-qc"
   },
   {
    "id": "spagrn",
@@ -51223,7 +51223,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "integration; spatial-analysis"
+   "task": "integration; spatial-analysis; differential-analysis"
   },
   {
    "id": "spamosaic",
@@ -52097,7 +52097,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; differential-analysis"
   },
   {
    "id": "spatialglue",
@@ -52211,7 +52211,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "clustering-annotation"
+   "task": "clustering-annotation; disease-classification"
   },
   {
    "id": "spatrack",
@@ -52363,7 +52363,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones; preprocessing-qc"
+   "task": "variants-clones; preprocessing-qc; benchmark-infrastructure"
   },
   {
    "id": "spenhance",
@@ -52553,7 +52553,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "3d-genome-analysis; spatial-analysis; multimodal-integration"
   },
   {
    "id": "spin-seq",
@@ -52667,7 +52667,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis"
+   "task": "spatial-analysis; preprocessing-qc"
   },
   {
    "id": "spiral",
@@ -53465,7 +53465,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; spatial-analysis"
+   "task": "spatial-analysis; benchmark-infrastructure"
   },
   {
    "id": "srnamap",
@@ -54643,7 +54643,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "3d-genome-analysis"
+   "task": "3d-genome-analysis; preprocessing-qc"
   },
   {
    "id": "strique",
@@ -56885,7 +56885,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "spatial-analysis; clustering-annotation"
+   "task": "clustering-annotation; spatial-analysis"
   },
   {
    "id": "tiva",
@@ -57151,7 +57151,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "benchmark-infrastructure; clustering-annotation"
+   "task": "metagenomics-taxonomy; genome-assembly; clustering-annotation"
   },
   {
    "id": "toomanycells",
@@ -57493,7 +57493,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function"
   },
   {
    "id": "transcriptformer",
@@ -57531,7 +57531,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "foundation-model"
+   "task": "foundation-model; clustering-annotation"
   },
   {
    "id": "transcriptome-wide-networks",
@@ -58177,7 +58177,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "tuba-seq",
@@ -58253,7 +58253,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "3d-genome-analysis; sequence-to-function"
   },
   {
    "id": "two-sigma",
@@ -58785,7 +58785,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "dimensionality-visualization"
+   "task": "dimensionality-visualization; preprocessing-qc"
   },
   {
    "id": "unicure",
@@ -58861,7 +58861,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "sequence-to-function; 3d-genome-analysis; regulatory-networks"
   },
   {
    "id": "unitednet",
@@ -58937,7 +58937,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks"
+   "task": "3d-genome-analysis; sequence-to-function; regulatory-networks"
   },
   {
    "id": "unseenest",
@@ -59279,7 +59279,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "vasa-seq",
@@ -59811,7 +59811,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; metagenomics-taxonomy"
   },
   {
    "id": "visa",
@@ -59887,7 +59887,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "dimensionality-visualization"
+   "task": "dimensionality-visualization; benchmark-infrastructure"
   },
   {
    "id": "viscrna-seq",
@@ -60571,7 +60571,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks; multimodal-integration"
+   "task": "sequence-to-function; multimodal-integration"
   },
   {
    "id": "xclone",
@@ -60647,7 +60647,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "xpbrew",
@@ -61027,7 +61027,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "variants-clones"
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "cistarget",
@@ -61065,7 +61065,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": "regulatory-networks; variants-clones"
+   "task": "regulatory-networks"
   }
  ]
 }
