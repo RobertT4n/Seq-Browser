@@ -1,0 +1,21 @@
+name: RNA fingerprinting
+category: dry
+summary: Maps single-cell transcriptional responses onto reference perturbation dictionaries to assign query cells to candidate
+  perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2026.09.017
+  year: 2026
+  journal: Cell
+  first_author: Grabski IN
+  last_author: Satija R
+  pmid: '42854686'
+  title: Mapping transcriptional responses to cellular perturbations with RNA fingerprinting
+links: {}
+added: '2026-11-12'
+evidence: We introduce RNA fingerprinting, a statistical framework that maps transcriptional responses from new experiments
+  onto reference perturbation dictionaries.

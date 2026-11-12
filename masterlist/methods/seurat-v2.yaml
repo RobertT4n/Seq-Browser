@@ -1,0 +1,21 @@
+name: Seurat v2
+category: dry
+summary: Integration strategy for aligning scRNA-seq datasets on shared sources of variation across conditions, technologies
+  and species.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.4096
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Butler A
+  last_author: Satija R
+  pmid: '29608179'
+  pmcid: PMC6700744
+  title: Integrating single-cell transcriptomic data across different conditions, technologies, and species
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce an analytical strategy for integrating scRNA-seq data sets based on common sources of variation

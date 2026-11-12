@@ -1,0 +1,22 @@
+name: pySCENIC
+category: dry
+summary: Scalable Python re-implementation of SCENIC for regulon inference and cell-state clustering from scRNA-seq, packaged
+  in containers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+variant_of:
+- scenic
+reference:
+  doi: 10.1038/s41596-020-0336-2
+  year: 2020
+  journal: Nat Protoc
+  first_author: Van de Sande B
+  last_author: Aerts S
+  pmid: '32561888'
+  title: A scalable SCENIC workflow for single-cell gene regulatory network analysis
+links: {}
+added: '2026-11-12'
+evidence: Here we present an improved version of SCENIC with several advances.

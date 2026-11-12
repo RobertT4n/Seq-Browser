@@ -1,0 +1,23 @@
+name: SCENIC+
+full_name: single-cell multiomic inference of enhancers and gene regulatory networks
+category: dry
+summary: Infers enhancer-driven gene regulatory networks from single-cell multiomic data by linking enhancers, candidate TFs
+  and target genes.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-01938-4
+  year: 2023
+  journal: Nat Methods
+  first_author: Bravo González-Blas C
+  last_author: Aerts S
+  pmid: '37443338'
+  pmcid: PMC10482700
+  title: 'SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks'
+links: {}
+added: '2026-11-12'
+evidence: Here we present a method for the inference of enhancer-driven GRNs, called SCENIC+.

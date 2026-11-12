@@ -1,0 +1,25 @@
+name: Seurat v5
+category: dry
+summary: Bridge integration that uses a multiomic dataset as a molecular bridge to map unimodal single-cell data across modalities.
+readouts:
+- rna
+- chromatin-accessibility
+- histone-modification
+- dna-methylation
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01767-y
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Hao Y
+  last_author: Satija R
+  pmid: '37231261'
+  pmcid: PMC10928517
+  title: Dictionary learning for integrative, multimodal and scalable single-cell analysis
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce 'bridge integration', a method to integrate single-cell datasets across modalities using a multiomic
+  dataset as a molecular bridge.

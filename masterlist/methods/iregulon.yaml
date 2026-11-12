@@ -1,0 +1,23 @@
+name: iRegulon
+category: dry
+summary: Reverse-engineers the transcriptional regulatory network underlying a co-expressed gene set using motif and track
+  enrichment.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003731
+  year: 2014
+  journal: PLoS Comput Biol
+  first_author: Janky R
+  last_author: Aerts S
+  pmid: '25058159'
+  pmcid: PMC4109854
+  title: 'iRegulon: from a gene list to a gene regulatory network using large motif and track collections'
+links: {}
+added: '2026-11-12'
+evidence: We developed a computational method, called iRegulon, to reverse-engineer the transcriptional regulatory network
+  underlying a co-expressed gene set using cis-regulatory sequence analysis.

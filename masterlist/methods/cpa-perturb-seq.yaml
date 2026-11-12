@@ -1,0 +1,26 @@
+name: CPA-Perturb-seq
+full_name: Perturb-seq of cleavage and polyadenylation (CPA) regulators
+category: wet
+summary: Multiplexed Perturb-seq screen of 42 cleavage and polyadenylation regulators with a 3' scRNA-seq readout for transcriptome-wide
+  polyA site usage.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2024.06.005
+  year: 2024
+  journal: Cell
+  first_author: Kowalski MH
+  last_author: Satija R
+  pmid: '38925112'
+  pmcid: PMC12052259
+  title: Multiplexed single-cell characterization of alternative polyadenylation regulators
+links: {}
+added: '2026-11-12'
+evidence: we introduce CPA-Perturb-seq, a multiplexed perturbation screen dataset of 42 CPA regulators with a 3' scRNA-seq
+  readout
+partition_unknown: not stated in the abstract

@@ -1,0 +1,20 @@
+name: miloDE
+category: dry
+summary: Cluster-free differential expression testing for scRNA-seq using neighbourhood representations of the cell graph.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03334-3
+  year: 2024
+  journal: Genome Biol
+  first_author: Missarova A
+  last_author: Marioni J
+  pmid: '39026254'
+  pmcid: PMC11256449
+  title: Leveraging neighborhood representations of single-cell data to achieve sensitive DE testing with miloDE
+links: {}
+added: '2026-11-12'
+evidence: we present miloDE-a cluster-free framework for DE testing

@@ -1,0 +1,22 @@
+name: SumRank
+category: dry
+summary: Non-parametric meta-analysis ranking differentially expressed genes by their reproducibility across scRNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-62579-z
+  year: 2025
+  journal: Nat Commun
+  first_author: Nakatsuka N
+  last_author: Satija R
+  pmid: '40796563'
+  pmcid: PMC12344038
+  title: Improving reproducibility of differentially expressed genes in single-cell transcriptomic studies of neurodegenerative
+    diseases through meta-analysis
+links: {}
+added: '2026-11-12'
+evidence: We developed a non-parametric meta-analysis method, SumRank, based on reproducibility of relative differential expression
+  ranks across datasets

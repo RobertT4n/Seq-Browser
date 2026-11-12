@@ -1,0 +1,23 @@
+name: Seurat v4
+category: dry
+summary: Weighted-nearest neighbour analysis that learns the relative utility of each data modality in each cell for multimodal
+  single-cell integration.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2021.04.048
+  year: 2021
+  journal: Cell
+  first_author: Hao Y
+  last_author: Satija R
+  pmid: '34062119'
+  pmcid: PMC8238499
+  title: Integrated analysis of multimodal single-cell data
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce "weighted-nearest neighbor" analysis, an unsupervised framework to learn the relative utility
+  of each data type in each cell

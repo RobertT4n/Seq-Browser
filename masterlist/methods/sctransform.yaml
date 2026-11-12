@@ -1,0 +1,22 @@
+name: sctransform
+category: dry
+summary: Regularised negative binomial regression with Pearson residuals for normalising and variance-stabilising scRNA-seq
+  counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1874-1
+  year: 2019
+  journal: Genome Biol
+  first_author: Hafemeister C
+  last_author: Satija R
+  pmid: '31870423'
+  pmcid: PMC6927181
+  title: Normalization and variance stabilization of single-cell RNA-seq data using regularized negative binomial regression
+links: {}
+added: '2026-11-12'
+evidence: To address this, we present a modeling framework for the normalization and variance stabilization of molecular count
+  data from scRNA-seq experiments.
