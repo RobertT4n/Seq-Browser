@@ -143,3 +143,7 @@ details.how { margin:10px 0; padding:8px 12px; border:1px solid var(--rule); bor
 .dpanel label .n { transition:color .15s, background-color .15s; }
 details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent); font-weight:600; }
 .dpanel label.zero { opacity:.38; cursor:default; } .dpanel label.zero:hover { background:transparent; }
+
+/* switch for computational (dry) tools; nudges when a search also matches hidden tools */
+.drytog { display:flex; gap:6px; align-items:center; font-size:13px; color:var(--muted); cursor:pointer; white-space:nowrap; }
+.drytog.hint { color:var(--accent); font-weight:600; }
