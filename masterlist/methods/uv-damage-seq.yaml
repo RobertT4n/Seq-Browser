@@ -1,0 +1,25 @@
+name: UV Damage-seq
+category: wet
+summary: Immunoprecipitation of UV photoproducts and polymerase stalling maps UV damage formation and repair at single-nucleotide
+  resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- adapter-ligation
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1073/pnas.1706522114
+  year: 2017
+  journal: Proc Natl Acad Sci USA
+  first_author: Hu J
+  last_author: Sancar A
+  title: Dynamic maps of UV damage formation and repair for the human genome
+links: {}
+added: '2026-11-12'
