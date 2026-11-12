@@ -138,3 +138,8 @@ details.how { margin:10px 0; padding:8px 12px; border:1px solid var(--rule); bor
 
 .dpanel label.sub { padding-left:26px; }
 .dpanel label .n { margin-left:auto; padding-left:14px; color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; }
+
+/* live facet counts: options shrink to what is still reachable; zero-result options are dimmed and unclickable */
+.dpanel label .n { transition:color .15s, background-color .15s; }
+.dpanel label .n.ghost { color:var(--accent); font-weight:600; }
+.dpanel label.zero { opacity:.38; cursor:default; } .dpanel label.zero:hover { background:transparent; }

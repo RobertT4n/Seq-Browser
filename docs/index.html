@@ -79,10 +79,18 @@ fetch("methods.json").then(r => r.json()).then(j => {
 
 function render() {
   const q = document.getElementById("q").value.toLowerCase();
-  const rows = data.filter(m =>
-    // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
-    FACETS.every(([k]) => k === "scope" ? !on[k].size || on[k].has(m.scope) : [...on[k]].every(v => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t))) &&
-    (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q)));
+  // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
+  const has = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t);
+  const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
+    (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q));
+  const rows = data.filter(m => pass(m));
+  // live option counts: how many methods you would have if you also picked this option, given everything else selected
+  document.querySelectorAll("#facets label").forEach(l => {
+    const b = l.querySelector("input"), k = b.dataset.k, v = b.dataset.v, n = l.querySelector(".n");
+    const c = b.checked ? rows.length : data.filter(m => pass(m, k, v)).length, base = +n.dataset.base || (n.dataset.base = data.filter(m => has(m, k, v)).length, +n.dataset.base);
+    n.textContent = c; n.classList.toggle("ghost", c < base && c > 0); n.title = c < base ? `${c} of ${base} with current filters` : "";
+    l.classList.toggle("zero", c === 0 && !b.checked); b.disabled = c === 0 && !b.checked;
+  });
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
   rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
   document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
