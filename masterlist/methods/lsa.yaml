@@ -1,0 +1,23 @@
+name: LSA
+full_name: latent strain analysis
+category: dry
+summary: Pre-assembly method that partitions metagenomic reads into eigengenome-defined bins so individual low-abundance genomes
+  can be assembled.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3329
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Cleary B
+  last_author: Alm EJ
+  pmid: '26368049'
+  pmcid: PMC4720164
+  title: Detection of low-abundance bacterial strains in metagenomic datasets by eigengenome partitioning
+links: {}
+added: '2026-11-13'
+evidence: We present latent strain analysis (LSA), a scalable, de novo pre-assembly method that separates reads into biologically
+  informed partitions and thereby enables assembly of individual genomes.

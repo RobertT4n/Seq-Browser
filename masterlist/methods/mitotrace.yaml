@@ -1,0 +1,22 @@
+name: MitoTrace
+category: dry
+summary: R package for analysing mitochondrial genetic variants in bulk and scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: targeted
+reference:
+  doi: 10.3390/genes14061222
+  year: 2023
+  journal: Genes (Basel)
+  first_author: Wang M
+  last_author: Simon LM
+  pmid: '37372402'
+  pmcid: PMC10298143
+  title: 'MitoTrace: A Computational Framework for Analyzing Mitochondrial Variation in Single-Cell RNA Sequencing Data'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce MitoTrace, an R package for the analysis of mitochondrial genetic variation in bulk and scRNAseq
+  data.

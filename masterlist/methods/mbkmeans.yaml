@@ -1,0 +1,21 @@
+name: mbkmeans
+category: dry
+summary: Mini-batch k-means clustering for large single-cell RNA-seq datasets that avoids loading all data into memory.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008625
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Hicks SC
+  last_author: Risso D
+  pmid: '33497379'
+  pmcid: PMC7864438
+  title: 'mbkmeans: Fast clustering for single cell data using mini-batch k-means'
+links: {}
+added: '2026-11-13'
+evidence: To address this problem, we developed the mbkmeans R/Bioconductor package, an open-source implementation of the
+  mini-batch k-means algorithm.

@@ -1,0 +1,24 @@
+name: DEMINING
+category: dry
+summary: Stepwise framework with an embedded deep-learning model (DeepDDR) that separates A-to-I RNA editing sites from DNA
+  mutations in RNA-seq data.
+readouts:
+- rna-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03397-2
+  year: 2024
+  journal: Genome Biol
+  first_author: Fu ZC
+  last_author: Yang L
+  pmid: '39380061'
+  pmcid: PMC11463134
+  title: 'DEMINING: A deep learning model embedded framework to distinguish RNA editing from DNA mutations in RNA sequencing
+    data'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a stepwise computational framework, called DEMINING, to distinguish RNA editing and DNA mutations
+  directly from RNA sequencing datasets, with an embedded deep learning model named DeepDDR.

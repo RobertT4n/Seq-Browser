@@ -1,0 +1,22 @@
+name: DirectRM
+category: dry
+summary: Two-stage neural-network pipeline that detects six RNA modifications from nanopore direct RNA sequencing reads.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64495-8
+  year: 2025
+  journal: Nat Commun
+  first_author: Zhang Y
+  last_author: Chen K
+  pmid: '41145497'
+  pmcid: PMC12559715
+  title: 'DirectRM: integrated detection of landscape and crosstalk between multiple RNA modifications using direct RNA sequencing'
+links: {}
+added: '2026-11-13'
+evidence: By taking the advantages of nanopore direct RNA sequencing, we present DirectRM, enabling simultaneous detection
+  of six abundant modifications (N4-acetylcytidine, 1-methyladenosine, 5-methylcytidine, N7-methlguanosine, N6-methyladenosine,
+  and pseudouridine) in native RNAs.

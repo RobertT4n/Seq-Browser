@@ -1,0 +1,22 @@
+name: GeneMates
+category: dry
+summary: R package that detects horizontal gene co-transfer between bacterial genes while controlling for population structure.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-07019-6
+  year: 2020
+  journal: BMC Genomics
+  first_author: Wan Y
+  last_author: Holt KE
+  pmid: '32972363'
+  pmcid: PMC7513276
+  title: 'GeneMates: an R package for detecting horizontal gene co-transfer between bacteria using gene-gene associations
+    controlled for population structure'
+links: {}
+added: '2026-11-13'
+evidence: Results We have developed a network approach to explore WGS data for evidence of intraspecies HGcoT and have implemented
+  it in R package GeneMates ( github.com/wanyuac/GeneMates ).

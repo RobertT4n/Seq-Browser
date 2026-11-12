@@ -1,0 +1,23 @@
+name: RiNALMo
+full_name: RiboNucleic Acid Language Model
+category: dry
+summary: 650M-parameter RNA language model pretrained on 36M non-coding RNA sequences and applied to RNA structure prediction
+  tasks.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-60872-5
+  year: 2025
+  journal: Nat Commun
+  first_author: Penić RJ
+  last_author: Šikić M
+  pmid: '40593636'
+  pmcid: PMC12219582
+  title: 'RiNALMo: general-purpose RNA language models can generalize well on structure prediction tasks'
+links: {}
+added: '2026-11-13'
+evidence: RiNALMo is the largest RNA language model to date, with 650M parameters pre-trained on 36M non-coding RNA sequences
+  from several databases.

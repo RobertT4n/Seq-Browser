@@ -1,0 +1,22 @@
+name: spaMGCN
+category: dry
+summary: Graph convolutional autoencoder that identifies spatial domains by integrating spatial transcriptomics and spatial
+  epigenomic data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03637-z
+  year: 2025
+  journal: Genome Biol
+  first_author: Zhang T
+  last_author: Wang G
+  pmid: '40495225'
+  pmcid: PMC12150536
+  title: 'spaMGCN: a graph convolutional network with autoencoder for spatial domain identification using multi-scale adaptation'
+links: {}
+added: '2026-11-13'
+evidence: We present spaMGCN, an innovative approach specifically designed for identifying spatial domains

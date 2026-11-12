@@ -1,0 +1,22 @@
+name: SHAPEIT4
+category: dry
+summary: Haplotype phasing method for large genotype and high-coverage sequencing datasets, with sub-linear runtime scaling
+  in sample size.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-13225-y
+  year: 2019
+  journal: Nat Commun
+  first_author: Delaneau O
+  last_author: Dermitzakis ET
+  pmid: '31780650'
+  pmcid: PMC6882857
+  title: Accurate, scalable and integrative haplotype estimation
+links: {}
+added: '2026-11-13'
+evidence: Here we present a method, SHAPEIT4, which substantially improves upon other methods to process large genotype and
+  high coverage sequencing datasets.

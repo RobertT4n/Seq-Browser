@@ -1,0 +1,20 @@
+name: kmindex
+category: dry
+summary: k-mer index enabling sub-second sequence search across thousands of metagenome samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-024-00596-6
+  year: 2024
+  journal: Nat Comput Sci
+  first_author: Lemane T
+  last_author: Peterlongo P
+  pmid: '38413777'
+  title: Indexing and real-time user-friendly queries in terabyte-sized complex genomic datasets with kmindex and ORA
+links: {}
+added: '2026-11-13'
+evidence: We present kmindex, an approach that can index thousands of metagenomes and perform sequence searches in a fraction
+  of a second.

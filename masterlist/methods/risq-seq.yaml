@@ -1,0 +1,25 @@
+name: RiSQ-seq
+full_name: Ribonucleotide Scanning Quantification sequencing
+category: wet
+summary: Quantifies misincorporated ribonucleotides genome-wide in a single sample by background normalisation and an internal
+  standard.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- chemical-cleavage
+reference:
+  doi: 10.1111/gtc.12871
+  year: 2021
+  journal: Genes Cells
+  first_author: Iida T
+  last_author: Kobayashi T
+  pmid: '33993586'
+  pmcid: PMC8453711
+  title: Evaluation of repair activity by quantification of ribonucleotides in the genome
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe a competitive sequencing method, Ribonucleotide Scanning Quantification sequencing (RiSQ-seq),
+  which enables absolute quantification of misincorporated ribonucleotides throughout the genome

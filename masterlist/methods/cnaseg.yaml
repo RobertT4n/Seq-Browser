@@ -1,0 +1,19 @@
+name: CNAseg
+category: dry
+summary: Depth-of-coverage framework that identifies copy number alterations in cancer from second-generation sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btq587
+  year: 2010
+  journal: Bioinformatics
+  first_author: Ivakhno S
+  last_author: Tavaré S
+  pmid: '20966003'
+  title: CNAseg--a novel framework for identification of copy number changes in cancer from second-generation sequencing data
+links: {}
+added: '2026-11-13'
+evidence: We present a novel approach, called CNAseg, to identify CNAs from second-generation sequencing data.

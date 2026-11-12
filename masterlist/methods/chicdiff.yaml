@@ -1,0 +1,21 @@
+name: Chicdiff
+category: dry
+summary: R package that detects differential chromosomal interactions in Capture Hi-C data, with Capture Hi-C-specific normalisation
+  and multiple-testing procedures.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btz450
+  year: 2019
+  journal: Bioinformatics
+  first_author: Cairns J
+  last_author: Spivakov M
+  pmid: '31197313'
+  pmcid: PMC6853696
+  title: 'Chicdiff: a computational pipeline for detecting differential chromosomal interactions in Capture Hi-C data'
+links: null
+added: '2026-11-13'
+evidence: We present Chicdiff, an R package for robust detection of differential interactions in Capture Hi-C data.

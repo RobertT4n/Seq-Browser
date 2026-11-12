@@ -1,0 +1,23 @@
+name: GeneVector
+category: dry
+summary: Vector-space embedding of genes from mutual information between expression, used to derive transcriptional programs
+  from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-39985-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Ceglia N
+  last_author: McPherson A
+  pmid: '37474509'
+  pmcid: PMC10359421
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with
+    GeneVector
+links: {}
+added: '2026-11-13'
+evidence: We describe GeneVector, a scalable framework for dimensionality reduction implemented as a vector space model using
+  mutual information between gene expression.

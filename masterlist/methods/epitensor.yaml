@@ -1,0 +1,22 @@
+name: EpiTensor
+category: dry
+summary: Algorithm that infers 3D spatial associations within TADs from 1D histone-modification, chromatin-accessibility and
+  RNA-seq maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms10812
+  year: 2016
+  journal: Nat Commun
+  first_author: Zhu Y
+  last_author: Wang W
+  pmid: '26960733'
+  pmcid: PMC4792925
+  title: Constructing 3D interaction maps from 1D epigenomes
+links: {}
+added: '2026-11-13'
+evidence: Here we present EpiTensor, an algorithm to identify 3D spatial associations within topologically associating domains
+  (TADs) from 1D maps of histone modifications, chromatin accessibility and RNA-seq.

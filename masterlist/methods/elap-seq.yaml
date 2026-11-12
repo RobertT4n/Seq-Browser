@@ -1,0 +1,29 @@
+name: ELAP-seq
+full_name: Enzymatic Labeling and Pull-down for Sequencing
+category: wet
+summary: Enzyme-mediated propargyl labelling of pseudouridine followed by pull-down and sequencing to map Psi sites transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/s41467-026-70597-8
+  year: 2026
+  journal: Nat Commun
+  first_author: Wang Y
+  last_author: He C
+  pmid: '41872172'
+  pmcid: PMC13171889
+  title: Enzyme-mediated alkynylation enables transcriptome-wide identification of pseudouridine modifications
+links: {}
+added: '2026-11-13'
+evidence: Here, we present ELAP-seq (Enzymatic Labeling and Pull-down for Sequencing) for Ψ detection, which leverages a naturally
+  occurring N1-methyl pseudouridine methyltransferase from Methanocaldococcus jannaschii (Mj1640).

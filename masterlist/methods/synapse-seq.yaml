@@ -1,0 +1,29 @@
+name: Synapse-seq
+category: wet
+summary: In vivo method that routes cell-identifying barcoded mRNAs to synapses via targeting proteins, read out by single-cell
+  and spatial genomics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.02.26.705527
+  year: 2026
+  journal: bioRxiv
+  first_author: Urke A
+  last_author: Macosko EZ
+  title: Protein-guided RNA barcoding links transcriptomes to synaptic architecture
+links: {}
+added: '2026-11-13'
+evidence: We present Synapse-seq, an in vivo strategy in which cell-identifying barcoded mRNAs are routed to subcellular compartments
+  via targeting proteins and detected by single-cell and spatial genomics.

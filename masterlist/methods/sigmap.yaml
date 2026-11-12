@@ -1,0 +1,24 @@
+name: Sigmap
+category: dry
+summary: Streaming mapper that maps nanopore raw signal to reference genomes via k-d tree indexing, for real-time selective
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+- nanopore
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btab264
+  year: 2021
+  journal: Bioinformatics
+  first_author: Zhang H
+  last_author: Aluru S
+  pmid: '34252938'
+  pmcid: PMC8336444
+  title: Real-time mapping of nanopore raw signals
+links: {}
+added: '2026-11-13'
+evidence: In this work, we present a new streaming method that can map nanopore raw signals for real-time selective sequencing.

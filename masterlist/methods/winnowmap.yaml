@@ -1,0 +1,22 @@
+name: Winnowmap
+category: dry
+summary: Long-read mapper using weighted minimizer sampling that down-weights frequent k-mers to improve mapping in repetitive
+  regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa435
+  year: 2020
+  journal: Bioinformatics
+  first_author: Jain C
+  last_author: Phillippy AM
+  pmid: '32657365'
+  pmcid: PMC7355284
+  title: Weighted minimizer sampling improves long read mapping
+links: {}
+added: '2026-11-13'
+evidence: By doing so, the underlying guarantee is lost and accuracy is reduced in repetitive genomic regions.ResultsWe introduce
+  a novel weighted-minimizer sampling algorithm.

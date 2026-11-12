@@ -1,0 +1,24 @@
+name: ctyper
+category: dry
+summary: Pangenome-based genotyping of allele-specific copy number and phased variants in CNV genes from short-read data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41588-025-02346-4
+  year: 2025
+  journal: Nat Genet
+  first_author: Ma W
+  last_author: Chaisson MJP
+  pmid: '41107550'
+  pmcid: PMC12597824
+  title: Genotyping sequence-resolved copy number variation using pangenomes reveals paralog-specific global diversity and
+    expression divergence of duplicated genes.
+links: {}
+added: '2026-11-13'
+evidence: We present ctyper, a method that leverages pangenomes to produce allele-specific copy numbers with locally phased
+  variants from next-generation sequencing samples.

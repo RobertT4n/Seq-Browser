@@ -1,0 +1,20 @@
+name: IMSEQ
+category: dry
+summary: Tool for clonotype assignment from TCR/BCR NGS reads with error-aware V, J and CDR3 identification.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv309
+  year: 2015
+  journal: Bioinformatics
+  first_author: Kuchenbecker L
+  last_author: Robinson PN
+  pmid: '25987567'
+  title: IMSEQ--a fast and error aware approach to immunogenetic sequence analysis
+links: {}
+added: '2026-11-13'
+evidence: Results We present IMSEQ, a method to derive clonotype repertoires from NGS data with sophisticated routines for
+  handling errors stemming from PCR and sequencing artefacts.

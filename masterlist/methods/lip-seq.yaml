@@ -1,0 +1,31 @@
+name: LiP-Seq
+full_name: Live-cell Pick-Seq
+category: wet
+summary: Multiplexed live-cell imaging identifies and retrieves single viable rare cells for transcriptome profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- live-cells
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+reference:
+  doi: 10.1182/bloodadvances.2025016688
+  year: 2026
+  journal: Blood Adv
+  first_author: Xu R
+  last_author: Lane AA
+  pmid: '41855504'
+  pmcid: PMC13234471
+  title: 'Live-cell Pick-Seq (LiP-Seq): Interrogating ultra-rare mantle cell lymphoma persistent cells after CART19 therapy'
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed Live-cell Pick-Seq (LiP-Seq), an advanced platform leveraging multiplexed live-cell imaging to
+  identify and retrieve individual target cells for downstream analysis.

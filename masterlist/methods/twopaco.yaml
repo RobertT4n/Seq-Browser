@@ -1,0 +1,20 @@
+name: TwoPaCo
+category: dry
+summary: Low-memory algorithm that builds the compacted de Bruijn graph directly from many complete genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw609
+  year: 2017
+  journal: Bioinformatics
+  first_author: Minkin I
+  last_author: Medvedev P
+  pmid: '27659452'
+  title: 'TwoPaCo: an efficient algorithm to build the compacted de Bruijn graph from many complete genomes'
+links: {}
+added: '2026-11-13'
+evidence: we present TwoPaCo, a simple and scalable low memory algorithm for the direct construction of the compacted de Bruijn
+  graph

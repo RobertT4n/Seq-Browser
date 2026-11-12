@@ -1,0 +1,24 @@
+name: isONclust
+category: dry
+summary: Greedy, quality-value-aware clustering of long reads by gene family of origin, for de novo transcriptome analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1089/cmb.2019.0299
+  year: 2020
+  journal: J Comput Biol
+  first_author: Sahlin K
+  last_author: Medvedev P
+  pmid: '32181688'
+  pmcid: PMC8884114
+  title: De Novo Clustering of Long-Read Transcriptome Data Using a Greedy, Quality Value-Based Algorithm
+links: {}
+added: '2026-11-13'
+evidence: we develop isONclust, a clustering algorithm that is greedy (to scale) and makes use of quality values

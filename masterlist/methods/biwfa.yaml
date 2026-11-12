@@ -1,0 +1,28 @@
+name: BiWFA
+full_name: Bidirectional wavefront alignment
+category: dry
+summary: Gap-affine pairwise aligner that computes optimal alignments in O(s) memory while keeping wavefront alignment's O(ns)
+  time.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btad074
+  year: 2023
+  journal: Bioinformatics
+  first_author: Marco-Sola S
+  last_author: Moreto M
+  pmid: '36749013'
+  pmcid: PMC9940620
+  title: Optimal gap-affine alignment in O(s) space
+links: {}
+added: '2026-11-13'
+evidence: Notwithstanding these bounds, WFA's O(s2) memory requirements become computationally impractical for genome-scale
+  alignments, leading to a need for further improvement.ResultsIn this article, we present the bidirectional WFA algorithm,
+  the first gap-affine algorithm capable of computing optimal alignments in O(s) memory while retaining WFA's time complexity
+  of O(ns).

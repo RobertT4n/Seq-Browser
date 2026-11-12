@@ -1,0 +1,30 @@
+name: ac4C LACE-seq
+category: wet
+summary: Low-input sequencing method that maps N4-acetylcytidine (ac4C) peaks transcriptome-wide from about 50 mouse oocytes.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1126/sciadv.adp5163
+  year: 2025
+  journal: Sci Adv
+  first_author: Chen L
+  last_author: Fan HY
+  pmid: '39982985'
+  pmcid: PMC11844725
+  title: NAT10-mediated mRNA &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;4&lt;/sup&gt;-acetylation is essential for the translational regulation
+    during oocyte meiotic maturation in mice
+links: {}
+added: '2026-11-13'
+evidence: In this study, we developed a low-input ac<sup>4</sup>C sequencing technology, ac<sup>4</sup>C LACE-seq, and mapped
+  8241 ac<sup>4</sup>C peaks at the whole-transcriptome level using 50 mouse oocytes at the germinal vesicle stage.

@@ -1,0 +1,22 @@
+name: LncPNdeep
+category: dry
+summary: Deep learning lncRNA classifier that fuses nucleotide and peptide embeddings from transcript sequences.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ncrna.2026.06.004
+  year: 2026
+  journal: Noncoding RNA Res
+  first_author: Dai Z
+  last_author: Sung HH
+  pmid: '42621896'
+  pmcid: PMC13488033
+  title: 'LncPNdeep: A long non-coding RNA classifier based on large language model with peptide and nucleotide embedding'
+links: {}
+added: '2026-11-13'
+evidence: To overcome this limitation, we developed LncPNdeep, an integrative deep learning framework that combines nucleotide
+  and peptide embeddings extracted via masked language models, specifically utilizing contextual representations from BigBird,
+  Longformer, and ProtTrans.

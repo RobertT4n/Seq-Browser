@@ -1,0 +1,21 @@
+name: kanpig
+category: dry
+summary: Structural-variant genotyper that uses variant graphs and k-mer vectors on long-read alignment pileups.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-58577-w
+  year: 2025
+  journal: Nat Commun
+  first_author: English AC
+  last_author: Sedlazeck FJ
+  pmid: '40185777'
+  pmcid: PMC11971316
+  title: K-mer analysis of long-read alignment pileups for structural variant genotyping
+links: {}
+added: '2026-11-13'
+evidence: We present a novel method (kanpig) for genotyping SVs that leverages variant graphs and k-mer vectors to rapidly
+  generate accurate SV genotypes.

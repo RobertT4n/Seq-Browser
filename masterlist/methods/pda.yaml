@@ -1,0 +1,23 @@
+name: PDA
+full_name: pause detecting algorithm
+category: dry
+summary: Algorithm that calls RNA polymerase II pause sites from nucleotide-resolution occupancy data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab208
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Gajos M
+  last_author: Mayer A
+  pmid: '33788942'
+  pmcid: PMC8096220
+  title: Conserved DNA sequence features underlie pervasive RNA polymerase pausing
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a pause detecting algorithm (PDA) for nucleotide-resolution occupancy data and a new native elongating
+  transcript sequencing approach, termed nested NET-seq, that strongly reduces artifactual peaks commonly misinterpreted as
+  pausing sites.

@@ -1,0 +1,26 @@
+name: SIMO
+full_name: Spatial Integration of Multi-Omics
+category: dry
+summary: Probabilistic alignment tool that integrates spatial transcriptomics with single-cell multi-omic datasets, including
+  chromatin accessibility and DNA methylation.
+readouts:
+- rna
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-56523-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Yang P
+  last_author: Fan X
+  pmid: '39893194'
+  pmcid: PMC11787318
+  title: Spatial integration of multi-omics single-cell data with SIMO
+links: {}
+added: '2026-11-13'
+evidence: To address this, we develop SIMO, a computational method designed for the Spatial Integration of Multi-Omics datasets
+  through probabilistic alignment.

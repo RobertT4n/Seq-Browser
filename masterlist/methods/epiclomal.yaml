@@ -1,0 +1,22 @@
+name: Epiclomal
+category: dry
+summary: Probabilistic hierarchical mixture model that clusters sparse single-cell DNA methylation data and imputes missing
+  CpG values.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008270
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: P E de Souza C
+  last_author: Shah SP
+  pmid: '32966276'
+  pmcid: PMC7546467
+  title: 'Epiclomal: Probabilistic clustering of sparse single-cell DNA methylation data'
+links: {}
+added: '2026-11-13'
+evidence: We present Epiclomal, a probabilistic clustering method arising from a hierarchical mixture model to simultaneously
+  cluster sparse single-cell DNA methylation data and impute missing values.

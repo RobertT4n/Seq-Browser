@@ -1,0 +1,24 @@
+name: scMMGAN
+full_name: single-cell multi-modal generative adversarial network
+category: dry
+summary: Adversarial framework that integrates single-cell data from multiple modalities into one unified representation.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2022.100577
+  year: 2022
+  journal: Patterns (N Y)
+  first_author: Amodio M
+  last_author: Krishnaswamy S
+  pmid: '36124302'
+  pmcid: PMC9481959
+  title: Single-cell multi-modal GAN reveals spatial patterns in single-cell data from triple-negative breast cancer
+links: {}
+added: '2026-11-13'
+evidence: To advance this goal, we introduce a framework called the single-cell multi-modal generative adversarial network
+  (scMMGAN) that integrates data from multiple modalities into a unified representation in the ambient data space for downstream
+  analysis using a combination of adversarial learning and data geometry techniques.

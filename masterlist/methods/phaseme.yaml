@@ -1,0 +1,22 @@
+name: PhaseME
+category: dry
+summary: Tool that assesses phasing quality and phasing improvement for haplotype-phased variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaa078
+  year: 2020
+  journal: Gigascience
+  first_author: Majidian S
+  last_author: Sedlazeck FJ
+  pmid: '32706368'
+  pmcid: PMC7379178
+  title: 'PhaseME: Automatic rapid assessment of phasing quality and phasing improvement'
+links: {}
+added: '2026-11-13'
+evidence: Nevertheless, state-of-the-art haplotype phasing is currently a black box in which the accuracy and quality of the
+  reconstructed haplotypes are hard to assess.FindingsHere we present PhaseME, a versatile method to provide insights into
+  and improvement of sample phasing results based on linkage data.

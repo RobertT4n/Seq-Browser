@@ -1,0 +1,23 @@
+name: scMitoMut
+category: dry
+summary: R package with a beta-binomial model for calling mitochondrial lineage mutations from single-cell DNA, ATAC and multiome
+  data.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf072
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Sun W
+  last_author: Perié L
+  pmid: '40036721'
+  pmcid: PMC11878546
+  title: scMitoMut for calling mitochondrial lineage-related mutations in single cells
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce scMitoMut, an innovative R package that leverages statistical methodologies to accurately identify
+  mitochondrial lineage-related mutations at the single-cell level.

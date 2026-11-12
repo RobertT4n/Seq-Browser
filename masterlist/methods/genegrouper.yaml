@@ -1,0 +1,20 @@
+name: GeneGrouper
+category: dry
+summary: Command-line tool that groups variant gene clusters across genomes into bins using density-based clustering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab752
+  year: 2022
+  journal: Bioinformatics
+  first_author: McFarland AG
+  last_author: Hartmann EM
+  pmid: '34734968'
+  title: Density-based binning of gene clusters to infer function or evolutionary history using GeneGrouper
+links: {}
+added: '2026-11-13'
+evidence: We developed GeneGrouper, a command-line tool that uses a density-based clustering method to group gene clusters
+  into bins.

@@ -1,0 +1,28 @@
+name: G-HIV
+full_name: Integrated long-read sequencing and automated bioinformatics platform for HIV-1 surveillance
+category: wet
+summary: Long-read (G-seq500) sequencing of HIV-1 plasma samples with an automated pipeline that reports drug-resistance mutations,
+  quasispecies diversity and haplotype networks from raw FASTQ.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+scope: targeted
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.3390/microorganisms14091881
+  year: 2026
+  journal: Microorganisms
+  first_author: Fu P
+  last_author: He M
+  pmid: '42795463'
+  pmcid: PMC13609792
+  title: 'G-HIV: An Integrated Long-Read Sequencing and Automated Bioinformatics Platform for Rapid and Precise HIV-1 Surveillance'
+links: {}
+added: '2026-11-13'
+evidence: We present G-HIV, an integrated platform combining long-read sequencing (G-seq500) with an automated bioinformatics
+  pipeline.

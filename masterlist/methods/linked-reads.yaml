@@ -1,0 +1,28 @@
+name: Linked-Reads
+category: wet
+summary: Barcoded short-read library method from about 1 ng of high-molecular-weight DNA that keeps long-range linkage for
+  haplotype-aware variant and structural variant calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1101/gr.234443.118
+  year: 2019
+  journal: Genome Res
+  first_author: Marks P
+  last_author: Church DM
+  pmid: '30894395'
+  pmcid: PMC6442396
+  title: Resolving the full spectrum of human genome variation using Linked-Reads
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe an approach that retains long range information while maintaining the advantages of short reads.
+  Starting from ~1 ng of high molecular weight DNA, we produce barcoded short-read libraries.

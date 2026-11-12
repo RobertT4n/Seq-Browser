@@ -1,0 +1,22 @@
+name: BCA
+full_name: Between Cluster Analysis
+category: dry
+summary: Supervised linear dimensionality reduction that uses cluster labels to maximise between-cluster variance, for trajectory
+  inference from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf306
+  year: 2025
+  journal: Bioinformatics
+  first_author: Strzalkowski A
+  last_author: Raphael BJ
+  pmid: '40471707'
+  title: 'Between Cluster Analysis: Supervised Dimensionality Reduction for Trajectory Inference'
+links: {}
+added: '2026-11-13'
+evidence: We introduce Between Cluster Analysis (BCA), a supervised linear dimensionality reduction technique that uses cluster
+  labels of cells as prior information

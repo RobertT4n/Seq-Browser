@@ -1,0 +1,23 @@
+name: LineageVAE
+category: dry
+summary: Deep generative model that reconstructs historical cell states and transcriptomes of progenitors shared by barcoded
+  cells.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae520
+  year: 2024
+  journal: Bioinformatics
+  first_author: Majima K
+  last_author: Shimamura T
+  pmid: '39172488'
+  pmcid: PMC11494380
+  title: 'LineageVAE: reconstructing historical cell states and transcriptomes toward unobserved progenitors'
+links: {}
+added: '2026-11-13'
+evidence: To overcome these limitations, we developed LineageVAE, a novel computational methodology that utilizes deep learning
+  based on the property that cells sharing barcodes have identical progenitors.

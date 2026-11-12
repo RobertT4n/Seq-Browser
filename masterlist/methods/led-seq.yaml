@@ -1,0 +1,29 @@
+name: Led-Seq
+full_name: ligation-enhanced double-end sequence-based structure analysis of RNA
+category: wet
+summary: Lead-induced cleavage of unpaired RNA positions with both cleavage products ligated to adapters, so each probing
+  site is read from both ends.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- chemical-cleavage
+- adapter-ligation
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkad312
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Kolberg T
+  last_author: Mörl M
+  pmid: '37114986'
+  pmcid: PMC10287922
+  title: Led-Seq: ligation-enhanced double-end sequence-based structure analysis of RNA
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe Led-Seq, a new approach based on lead-induced cleavage of unpaired RNA positions, where both resulting
+  cleavage products are investigated.

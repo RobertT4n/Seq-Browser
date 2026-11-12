@@ -1,0 +1,29 @@
+name: CP-CSeq
+full_name: Cartesian Pooling-Coordinate Sequencing
+category: wet
+summary: Pools sequence-tagged mutants arrayed in well plates in Cartesian coordinates, so sequencing reports both each clone's
+  identity and its plate location; applied to a BCG transposon mutant library.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+evidence: Here, we describe a robust, easy to implement parallel sequencing-based method (Cartesian Pooling-Coordinate Sequencing
+  or CP-CSeq) that reports both on the identity as well as on the location of sequence-tagged biological entities in well-plate
+  archived clone collections.
+reference:
+  doi: 10.1038/ncomms8106
+  year: 2015
+  journal: Nat Commun
+  first_author: Vandewalle K
+  last_author: Callewaert N
+  pmid: '25960123'
+  pmcid: PMC4432585
+  title: Characterization of genome-wide ordered sequence-tagged Mycobacterium mutant libraries by Cartesian Pooling-Coordinate
+    Sequencing
+links: {}
+added: '2026-11-13'

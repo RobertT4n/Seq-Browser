@@ -1,0 +1,20 @@
+name: ffq
+category: dry
+summary: Command-line tool that retrieves sequence-dataset metadata and raw-data links from accessions or DOIs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac667
+  year: 2023
+  journal: Bioinformatics
+  first_author: Gálvez-Merchán Á
+  last_author: Booeshaghi AS
+  pmid: '36610997'
+  pmcid: PMC9883619
+  title: Metadata retrieval from sequence databases with ffq
+links: {}
+added: '2026-11-13'
+evidence: We present a command-line tool, called ffq, for querying user-generated data and metadata from sequence databases.

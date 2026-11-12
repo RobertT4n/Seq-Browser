@@ -1,0 +1,23 @@
+name: SAGE-net
+category: dry
+summary: Scalable framework for training sequence-to-function models on personal genomes to predict individual gene expression.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41592-026-03124-8
+  year: 2026
+  journal: Nat Methods
+  first_author: Spiro AE
+  last_author: Mostafavi S
+  pmid: '42260311'
+  pmcid: PMC13345963
+  title: A scalable approach to investigating sequence-to-function predictions from personal genomes
+links: {}
+added: '2026-11-13'
+evidence: We introduce SAGE-net, a scalable framework for training and evaluating S2F models using personal genomes.

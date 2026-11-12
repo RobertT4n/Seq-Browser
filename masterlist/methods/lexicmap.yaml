@@ -1,0 +1,24 @@
+name: LexicMap
+category: dry
+summary: Nucleotide alignment tool that queries moderate-length sequences against up to millions of prokaryotic genomes using
+  probe k-mers and a hierarchical seed index.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+evidence: We introduce LexicMap, a nucleotide sequence alignment tool for efficiently querying moderate-length sequences (>250
+  bp) such as a gene, plasmid or long read against up to millions of prokaryotic genomes.
+reference:
+  doi: 10.1038/s41587-025-02812-8
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Shen W
+  last_author: Iqbal Z
+  pmid: '40931109'
+  pmcid: PMC13461342
+  title: Efficient sequence alignment against millions of prokaryotic genomes with LexicMap
+links: {}
+added: '2026-11-13'

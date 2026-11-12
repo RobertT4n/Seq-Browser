@@ -1,0 +1,22 @@
+name: SquiggleNet
+category: dry
+summary: Deep-learning classifier that assigns nanopore reads to human or bacterial origin directly from raw electrical signals,
+  in real time.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02511-y
+  year: 2021
+  journal: Genome Biol
+  first_author: Bao Y
+  last_author: Welch JD
+  pmid: '34706748'
+  pmcid: PMC8548853
+  title: 'SquiggleNet: real-time, direct classification of nanopore signals'
+links: {}
+added: '2026-11-13'
+evidence: We present SquiggleNet, the first deep-learning model that can classify nanopore reads directly from their electrical
+  signals.

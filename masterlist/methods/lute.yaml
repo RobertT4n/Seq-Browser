@@ -1,0 +1,22 @@
+name: lute
+category: dry
+summary: Bioconductor framework that adjusts bulk-RNA cell-type deconvolution for differences in cell size.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-025-11508-x
+  year: 2025
+  journal: BMC Genomics
+  first_author: Maden SK
+  last_author: Hicks SC
+  pmid: '40312738'
+  pmcid: PMC12045009
+  title: 'lute: estimating the cell composition of heterogeneous tissue with varying cell sizes using gene expression'
+links: {}
+added: '2026-11-13'
+evidence: Furthermore, these tools were built on different frameworks with non-uniform input data formats while addressing
+  different types of systematic errors or unwanted bias.ResultsWe present lute, a software tool to accurately deconvolute
+  cell types with varying sizes.

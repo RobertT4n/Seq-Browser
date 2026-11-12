@@ -1,0 +1,23 @@
+name: SRF
+full_name: Satellite Repeat Finder
+category: dry
+summary: Algorithm that reconstructs satellite repeat units and higher-order repeats from accurate reads or assemblies without
+  prior knowledge of repeat structure.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278005.123
+  year: 2023
+  journal: Genome Res
+  first_author: Zhang Y
+  last_author: Li H
+  pmid: '37918962'
+  pmcid: PMC10760446
+  title: De novo reconstruction of satellite repeat units from sequence data
+links: {}
+added: '2026-11-13'
+evidence: Here we describe Satellite Repeat Finder (SRF), a new algorithm for reconstructing satellite repeat units and HORs
+  from accurate reads or assemblies

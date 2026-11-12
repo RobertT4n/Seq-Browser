@@ -1,0 +1,22 @@
+name: MutDens
+category: dry
+summary: Bioinformatic tool that computes single-base substitution mutation density around user-defined genomic positions,
+  adjusted for burden and local composition.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276770.122
+  year: 2022
+  journal: Genome Res
+  first_author: Yu H
+  last_author: Guo Y
+  pmid: '36100435'
+  pmcid: PMC9712630
+  title: Surveying mutation density patterns around specific genomic features
+links: {}
+added: '2026-11-13'
+evidence: Thus, we developed MutDens, a bioinformatic tool for comprehensive analysis of mutation density patterns around
+  genomic features, namely, genomic positions, in humans and model species.

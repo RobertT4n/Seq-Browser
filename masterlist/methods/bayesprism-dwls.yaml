@@ -1,0 +1,22 @@
+name: BayesPrism-DWLS
+category: dry
+summary: Deconvolution framework that jointly infers cell-type proportions and cell-type-specific expression per bulk sample,
+  applied to mouse colon bulk and spatial data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13619-026-00299-5
+  year: 2026
+  journal: Cell Regen
+  first_author: Zhang Z
+  last_author: Chen YG
+  pmid: '42573854'
+  pmcid: PMC13457527
+  title: Integrated inference of cellular compositions and gene expression programs by deconvolution
+links: {}
+added: '2026-11-13'
+evidence: we developed BayesPrism-DWLS, a framework that enables integrated inference of cell-type proportions and cell-type-specific
+  expression at single-sample resolution.

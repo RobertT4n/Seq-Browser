@@ -1,0 +1,22 @@
+name: PERCISTRA
+category: dry
+summary: Pipeline that infers causal links between chromatin accessibility and gene expression from multimodal single-cell
+  data.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.05.23.727396
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen KY
+  last_author: Sakaguchi S
+  title: Massively multiplex multimodal chemical screens at single-cell resolution
+links: {}
+added: '2026-11-13'
+evidence: To systematically decode the regulatory circuitry underlying these responses, we develop MoCAVI, a contrastive analysis
+  framework that disentangles the effect of small molecules from control variation in multimodal measurements, and PERCISTRA,
+  a pipeline that infers causal links between chromatin accessibility and gene expression.

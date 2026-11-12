@@ -1,0 +1,20 @@
+name: MethylSeqNet
+category: dry
+summary: Deep-learning model that conditions pretrained sequence embeddings on CpG methylation to predict gene regulation
+  across cell types and alleles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.06.02.729723
+  year: 2026
+  journal: bioRxiv
+  first_author: Dixon-Luinenburg O
+  last_author: Ioannidis NM
+  title: Epigenetic conditioning improves sequence-based modeling of gene regulation across cell types and alleles
+links: {}
+added: '2026-11-13'
+evidence: We present MethylSeqNet, a model that conditions pretrained sequence embeddings on CpG methylation, a stable epigenetic
+  mark increasingly available from long-read sequencing data.

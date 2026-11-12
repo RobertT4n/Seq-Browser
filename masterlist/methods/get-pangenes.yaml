@@ -1,0 +1,22 @@
+name: get_pangenes
+category: dry
+summary: Identifies pangenes from whole-genome alignments of plant genome assemblies, without bias toward the reference annotation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03071-z
+  year: 2023
+  journal: Genome Biol
+  first_author: Contreras-Moreira B
+  last_author: Dyer S
+  pmid: '37798615'
+  pmcid: PMC10552430
+  title: 'GET_PANGENES: calling pangenes from plant genome alignments confirms presence-absence variation'
+  preprint_doi: 10.1101/2023.01.03.520531
+links: {}
+added: '2026-11-13'
+evidence: Here we present an approach (get_pangenes) to identify and analyze pangenes that is not biased towards the reference
+  annotation.

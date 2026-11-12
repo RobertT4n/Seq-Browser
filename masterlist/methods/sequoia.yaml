@@ -1,0 +1,20 @@
+name: Sequoia
+category: dry
+summary: Pipeline that reconstructs lineage trees from somatic mutations in clonal normal-cell samples using maximum parsimony
+  and likelihood mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41596-024-00962-8
+  year: 2024
+  journal: Nat Protoc
+  first_author: Coorens THH
+  last_author: Campbell PJ
+  pmid: '38396041'
+  title: Reconstructing phylogenetic trees from genome-wide somatic mutations in clonal samples
+links: {}
+added: '2026-11-13'
+evidence: Here we describe Sequoia, our pipeline to reconstruct lineage trees from clones of normal cells.

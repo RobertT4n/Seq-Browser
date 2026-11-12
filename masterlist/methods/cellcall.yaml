@@ -1,0 +1,22 @@
+name: CellCall
+category: dry
+summary: Toolkit inferring cell-cell communication by linking paired ligand-receptor pairs to transcription-factor activity
+  in scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab638
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Zhang Y
+  last_author: Zhao X
+  pmid: '34331449'
+  pmcid: PMC8421219
+  title: 'CellCall: integrating paired ligand-receptor and transcription factor activities for cell-cell communication'
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed CellCall, a toolkit to infer inter- and intracellular communication pathways by integrating paired
+  ligand-receptor and transcription factor (TF) activity.

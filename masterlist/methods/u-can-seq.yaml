@@ -1,0 +1,31 @@
+name: U-CAN-seq
+full_name: Universal Competition Assay by Nanopore Sequencing
+category: wet
+summary: RT-PCR plus commercial nanopore sequencing protocol for competition assays that compare the fitness of untagged RNA
+  virus genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.3390/v16040636
+  year: 2024
+  journal: Viruses
+  first_author: Diaz J
+  last_author: Heise MT
+  pmid: '38675976'
+  pmcid: PMC11054411
+  title: 'U-CAN-seq: A Universal Competition Assay by Nanopore Sequencing'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe a protocol for using reverse transcription PCR in combination with commercial nanopore sequencing
+  services to perform competition assays on untagged RNA viruses.

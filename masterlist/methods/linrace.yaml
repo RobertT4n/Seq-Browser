@@ -1,0 +1,25 @@
+name: LinRace
+full_name: Lineage Reconstruction with asymmetric cell division model
+category: dry
+summary: Integrates lineage barcodes and gene expression under an asymmetric division model to reconstruct cell division trees
+  and ancestral states.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-44173-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Pan X
+  last_author: Zhang X
+  pmid: '38104156'
+  pmcid: PMC10725445
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present LinRace (Lineage Reconstruction with asymmetric cell division model), which integrates lineage
+  barcode and gene expression data using asymmetric cell division model and infers cell lineages and ancestral cell states
+  using Neighbor-Joining and maximum-likelihood heuristics.

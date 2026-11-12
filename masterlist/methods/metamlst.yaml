@@ -1,0 +1,21 @@
+name: MetaMLST
+category: dry
+summary: Reconstructs MLST loci of microbes in metagenomic samples to give strain-level typing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw837
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Zolfo M
+  last_author: Segata N
+  pmid: '27651451'
+  pmcid: PMC5314789
+  title: 'MetaMLST: multi-locus strain-level bacterial typing from metagenomic samples'
+links: {}
+added: '2026-11-13'
+evidence: We introduce MetaMLST, a software tool that reconstructs the MLST loci of microorganisms present in microbial communities
+  from metagenomic data.

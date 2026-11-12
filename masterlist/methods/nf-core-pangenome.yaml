@@ -1,0 +1,22 @@
+name: nf-core/pangenome
+category: dry
+summary: Nextflow (nf-core) pipeline for reference-unbiased pangenome graph construction with resource-aware scheduling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae609
+  year: 2024
+  journal: Bioinformatics
+  first_author: Heumos S
+  last_author: Nahnsen S
+  pmid: '39400346'
+  pmcid: PMC11568064
+  title: Cluster-efficient pangenome graph construction with nf-core/pangenome
+links: {}
+added: '2026-11-13'
+evidence: To date, though, there is no state-of-the-art pipeline allowing for easy deployment, efficient and dynamic use of
+  available resources, and scalable usage at the same time.ResultsTo overcome these limitations, we present nf-core/pangenome,
+  a reference-unbiased approach implemented in Nextflow following nf-core's best practices.

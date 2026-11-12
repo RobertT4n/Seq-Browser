@@ -1,0 +1,24 @@
+name: ARGweaver-D
+category: dry
+summary: Extension of ARGweaver that samples ancestral recombination graphs under a user-defined demographic model with splits
+  and migrations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pgen.1008895
+  year: 2020
+  journal: PLoS Genet
+  first_author: Hubisz MJ
+  last_author: Siepel A
+  pmid: '32760067'
+  pmcid: PMC7410169
+  title: Mapping gene flow between ancient hominins through demography-aware inference of the ancestral recombination graph
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a major extension of the ARGweaver algorithm, called ARGweaver-D, which can infer local genetic
+  relationships under a user-defined demographic model that includes population splits and migration events.

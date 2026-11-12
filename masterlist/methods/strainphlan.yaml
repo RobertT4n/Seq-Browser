@@ -1,0 +1,22 @@
+name: StrainPhlAn
+category: dry
+summary: Metagenomic strain-identification approach that reconstructs dominant sequence variants within species-specific marker
+  genes to profile strain-level population structure.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/gr.216242.116
+  year: 2017
+  journal: Genome Res
+  first_author: Truong DT
+  last_author: Segata N
+  pmid: '28167665'
+  title: Microbial strain-level population structure and genetic diversity from metagenomes
+links: {}
+added: '2026-11-13'
+evidence: We introduce StrainPhlAn, a novel metagenomic strain identification approach, and apply it to characterize the genetic
+  structure of thousands of strains from more than 125 species in more than 1500 gut metagenomes.

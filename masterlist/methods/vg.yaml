@@ -1,0 +1,22 @@
+name: vg
+full_name: variation graph toolkit
+category: dry
+summary: Toolkit for creating, manipulating and mapping reads onto variation graphs that represent population genetic variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.4227
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Garrison E
+  last_author: Durbin R
+  pmid: '30125266'
+  pmcid: PMC6126949
+  title: Variation graph toolkit improves read mapping by representing genetic variation in the reference
+links: {}
+added: '2026-11-13'
+evidence: Here we present vg, a toolkit of computational methods for creating, manipulating, and using these structures as
+  references at the scale of the human genome.

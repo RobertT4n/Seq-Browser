@@ -1,0 +1,22 @@
+name: PSAURON
+full_name: Protein Sequence Assessment Using a Reference ORF Network
+category: dry
+summary: Machine-learning score that assesses whether annotated protein-coding sequences in genomes are genuine.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae189
+  year: 2025
+  journal: NAR Genom Bioinform
+  first_author: Sommer MJ
+  last_author: Salzberg SL
+  pmid: '39781514'
+  pmcid: PMC11704789
+  title: 'PSAURON: a tool for assessing protein annotation across a broad range of species'
+links: {}
+added: '2026-11-13'
+evidence: In this manuscript, we introduce PSAURON (Protein Sequence Assessment Using a Reference ORF Network), a novel software
+  tool developed to help assess the quality of protein-coding gene annotations.

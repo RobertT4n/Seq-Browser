@@ -1,0 +1,21 @@
+name: FateSens
+category: dry
+summary: Sensitivity analysis of scRNA-seq flow maps to identify regulatory genes and fate boundaries in differentiation trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag473
+  year: 2026
+  journal: Bioinformatics
+  first_author: Noman AA
+  last_author: Sashittal P
+  pmid: '42635227'
+  pmcid: PMC13501315
+  title: Sensitivity analysis of cell fate trajectories from single-cell transcriptomics
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce FateSens, a sensitivity-based computational framework for analyzing gene regulatory dynamics
+  using flow maps derived from scRNA-seq data.

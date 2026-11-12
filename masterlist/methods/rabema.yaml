@@ -1,0 +1,21 @@
+name: Rabema
+full_name: Read Alignment BEnchMArk
+category: dry
+summary: Benchmark method and tools for evaluating read mappers against a strict definition of the read mapping problem.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-12-210
+  year: 2011
+  journal: BMC Bioinformatics
+  first_author: Holtgrewe M
+  last_author: Reinert K
+  pmid: '21615913'
+  pmcid: PMC3128034
+  title: A novel and well-defined benchmarking method for second generation read mapping
+links: {}
+added: '2026-11-13'
+evidence: Results We present a new benchmark method, called Rabema (Read Alignment BEnchMArk), for read mappers.

@@ -1,0 +1,29 @@
+name: Cap Trap RNA-seq
+category: wet
+summary: Cap-trapping RNA-seq read out on Oxford Nanopore MinION, capturing capped full-length transcripts to map transcription
+  initiation at microsatellites.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-021-23143-7
+  year: 2021
+  journal: Nat Commun
+  first_author: Grapotte M
+  last_author: Lecellier CH
+  pmid: '34078885'
+  pmcid: PMC8172540
+  title: Discovery of widespread transcription initiation at microsatellites predictable by sequence-based deep neural network
+links: {}
+added: '2026-11-13'
+evidence: To confirm this transcription, we develop Cap Trap RNA-seq, a technology which combines cap trapping and long read
+  MinION sequencing.

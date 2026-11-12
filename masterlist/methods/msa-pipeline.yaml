@@ -1,0 +1,24 @@
+name: msa_pipeline
+category: dry
+summary: Workflow for multiple alignment of diverged plant genomes with repeat masking, tunable parameters and conservation
+  scoring.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1002/tpg2.20204
+  year: 2022
+  journal: Plant Genome
+  first_author: Wu Y
+  last_author: Scheben A
+  pmid: '35416423'
+  pmcid: PMC12807243
+  title: A multiple alignment workflow shows the effect of repeat masking and parameter tuning on alignment in plants
+links: {}
+added: '2026-11-13'
+evidence: We developed the msa_pipeline workflow (https://bitbucket.org/bucklerlab/msa_pipeline) to allow practical and sensitive
+  multiple alignment of diverged plant genomes and calculation of conservation scores with minimal user inputs.

@@ -1,0 +1,25 @@
+name: SLST-Seq
+full_name: UMI-guided single locus sequence typing
+category: wet
+summary: UMI-barcoded single-locus sequence typing of the Cutibacterium acnes marker, reconstructing full-length SLST sequences
+  from low-input skin samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.3389/fcimb.2026.1807759
+  year: 2026
+  journal: Front Cell Infect Microbiol
+  first_author: Orcel E
+  last_author: Saliou A
+  pmid: '42246005'
+  pmcid: PMC13231282
+  title: UMI-guided single locus sequence typing method for phylotyping &lt;i&gt;Cutibacterium acnes&lt;/i&gt; from skin samples
+links: {}
+added: '2026-11-13'
+evidence: SLST-Seq adapts the LUMI-Seq® synthetic long-read sequencing technology to the C. acnes SLST marker, combining unique
+  molecular identifier barcoding with de novo assembly to reconstruct full-length SLST sequences with high accuracy.

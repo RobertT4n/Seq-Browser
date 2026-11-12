@@ -1,0 +1,22 @@
+name: SURVIVOR_ant
+category: dry
+summary: Tool that compares and annotates structural-variant callsets against genes, repeats and reference SV datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.12516.1
+  year: 2017
+  journal: F1000Res
+  first_author: Sedlazeck FJ
+  last_author: Zook JM
+  pmid: '29123647'
+  pmcid: PMC5668921
+  title: Tools for annotation and comparison of structural variation
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce SURVIVOR_ant, a tool that compares types and breakpoints for candidate SVs from different callsets
+  and enables fast comparison of SVs to genomic features such as genes and repetitive regions, as well as to previously established
+  SV datasets such as from the 1000 Genomes Project.

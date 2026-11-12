@@ -1,0 +1,25 @@
+name: CONTENT
+category: dry
+summary: Multi-context transcriptome-wide association method with cross-context false-discovery correction that separates
+  shared and context-specific expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41467-022-33212-0
+  year: 2022
+  journal: Nat Commun
+  first_author: Thompson M
+  last_author: Zaitlen N
+  pmid: '36171194'
+  pmcid: PMC9519579
+  title: Multi-context genetic modeling of transcriptional regulation resolves novel disease loci
+links: {}
+added: '2026-11-13'
+evidence: We introduce CONTENT-a computationally efficient method with proper cross-context false discovery correction that
+  leverages correlation structure across contexts to improve power and generate context-specific and context-shared components
+  of expression.

@@ -1,0 +1,25 @@
+name: WHdenovo
+category: dry
+summary: Pedigree sequence-graph assembler that builds haplotype-resolved diploid assemblies for all members of a family from
+  Illumina and PacBio reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+- pacbio
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz942
+  year: 2020
+  journal: Bioinformatics
+  first_author: Garg S
+  last_author: Church G
+  pmid: '31860070'
+  pmcid: PMC7759745
+  title: A haplotype-aware de novo assembly of related individuals using pedigree sequence graph
+links: {}
+added: '2026-11-13'
+evidence: We present a novel pedigree sequence graph based approach to diploid assembly using accurate Illumina data and long-read
+  Pacific Biosciences (PacBio) data from all related individuals

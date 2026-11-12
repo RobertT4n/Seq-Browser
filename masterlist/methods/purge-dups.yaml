@@ -1,0 +1,20 @@
+name: purge_dups
+category: dry
+summary: Removes haplotypic duplication from primary genome assemblies, fully automatic and pipeline-ready.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa025
+  year: 2020
+  journal: Bioinformatics
+  first_author: Guan D
+  last_author: Durbin R
+  pmid: '31971576'
+  pmcid: PMC7203741
+  title: Identifying and removing haplotypic duplication in primary genome assemblies
+links: {}
+added: '2026-11-13'
+evidence: Moreover, purge_dups is fully automatic and can easily be integrated into assembly pipelines.

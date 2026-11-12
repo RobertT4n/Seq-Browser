@@ -1,0 +1,24 @@
+name: Subsampled open-reference OTU picking
+category: dry
+summary: Algorithm that assigns 16S rRNA amplicon reads to OTUs by subsampling, so most clustering runs in parallel while
+  all reads are still matched against references.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+evidence: We present a performance-optimized algorithm, subsampled open-reference OTU picking, for assigning marker gene (e.g.,
+  16S rRNA) sequences generated on next-generation sequencing platforms to operational taxonomic units (OTUs) for microbial
+  community analysis.
+reference:
+  doi: 10.7717/peerj.545
+  year: 2014
+  journal: PeerJ
+  first_author: Rideout JR
+  last_author: Caporaso JG
+  pmid: '25177538'
+  pmcid: PMC4145071
+  title: Subsampled open-reference clustering creates consistent, comprehensive OTU definitions and scales to billions of
+    sequences
+links: {}
+added: '2026-11-13'

@@ -1,0 +1,22 @@
+name: SeqVerify
+category: dry
+summary: Pipeline that takes raw whole-genome sequencing of a cell line and a list of intended edits, and checks the edits
+  and cell-line integrity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.stemcr.2024.08.004
+  year: 2024
+  journal: Stem Cell Reports
+  first_author: Pierson Smela M
+  last_author: Church GM
+  pmid: '39270651'
+  pmcid: PMC11561455
+  title: 'SeqVerify: An accessible analysis tool for cell line genomic integrity, contamination, and gene editing outcomes'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present SeqVerify, a computational pipeline designed to take raw WGS data and a list of intended genome
+  edits, and verify that the edits are present and that there are no abnormalities.

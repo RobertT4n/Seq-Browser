@@ -1,0 +1,26 @@
+name: Verkko2
+category: dry
+summary: Long-read De Bruijn-graph assembler that adds proximity-ligation data for telomere-to-telomere assembly, phasing
+  and scaffolding.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/gr.280383.124
+  year: 2025
+  journal: Genome Res
+  first_author: Antipov D
+  last_author: Koren S
+  pmid: '40389285'
+  pmcid: PMC12212074
+  title: Verkko2 integrates proximity-ligation data with long-read De Bruijn graphs for efficient telomere-to-telomere genome
+    assembly, phasing, and scaffolding
+links: {}
+added: '2026-11-13'
+evidence: Here we present Verkko2, which implements a more efficient read correction algorithm, improves repeat resolution
+  and gap closing, introduces proximity-ligation-based haplotype phasing and scaffolding, and adds support for multiple long-read
+  data types.

@@ -1,0 +1,24 @@
+name: MetroSCREEN
+category: dry
+summary: Reference-guided framework that infers reaction-level metabolic activity and nominates upstream regulators from bulk
+  and single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-025-01572-z
+  year: 2025
+  journal: Genome Med
+  first_author: Tang K
+  last_author: Wang C
+  pmid: '41420243'
+  pmcid: PMC12717757
+  title: Reference-guided computational framework identifies microenvironment metabolic subtypes and targets using pan-cancer
+    single-cell datasets
+links: {}
+added: '2026-11-13'
+evidence: We developed MetroSCREEN, a reference-guided computational framework that infers reaction-level metabolic flux propensity
+  and nominates upstream regulators from bulk and single-cell transcriptomes.

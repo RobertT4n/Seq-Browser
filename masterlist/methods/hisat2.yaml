@@ -1,0 +1,23 @@
+name: HISAT2
+full_name: Hierarchical Indexing for Spliced Alignment of Transcripts 2
+category: dry
+summary: Graph FM-index aligner for DNA and RNA sequences against a variant-aware human reference.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-019-0201-4
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Kim D
+  last_author: Salzberg SL
+  pmid: '31375807'
+  pmcid: PMC7605509
+  title: Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype
+links: {}
+added: '2026-11-13'
+evidence: We present a method named HISAT2 (hierarchical indexing for spliced alignment of transcripts 2) that can align both
+  DNA and RNA sequences using a graph Ferragina Manzini index.

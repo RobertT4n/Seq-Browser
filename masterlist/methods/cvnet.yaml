@@ -1,0 +1,21 @@
+name: CVNet
+category: dry
+summary: Alignment-free orthology inference framework using composition vectors and Markov clustering, applied to pangenome
+  synteny of 1,200 E. coli genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.00207-26
+  year: 2026
+  journal: mSystems
+  first_author: Lu Y-F
+  last_author: Zhi X-Y
+  pmid: '42294646'
+  pmcid: PMC13386857
+  title: A structural backbone with sequestered plasticity organizes the &lt;i&gt;Escherichia coli&lt;/i&gt; pangenome
+links: {}
+added: '2026-11-13'
+evidence: We developed CVNet, an alignment-free orthology inference framework that uses composition vectors and Markov clustering.

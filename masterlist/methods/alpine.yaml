@@ -1,0 +1,20 @@
+name: alpine
+category: dry
+summary: Estimates sample-specific bias-corrected transcript abundance by modelling fragment sequence bias.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3682
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Love MI
+  last_author: Irizarry RA
+  pmid: '27669167'
+  pmcid: PMC5143225
+  title: Modeling of RNA-seq fragment sequence bias reduces systematic errors in transcript abundance estimation
+links: {}
+added: '2026-11-13'
+evidence: We introduce alpine, a method for estimating sample-specific bias-corrected transcript abundance

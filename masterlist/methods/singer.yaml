@@ -1,0 +1,23 @@
+name: SINGER
+full_name: sampling and inferring of genealogies with recombination
+category: dry
+summary: Scalable posterior sampling of ancestral recombination graphs for hundreds of whole genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-025-02317-9
+  year: 2025
+  journal: Nat Genet
+  first_author: Deng Y
+  last_author: Song YS
+  pmid: '40921789'
+  pmcid: PMC12425808
+  title: Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes
+links: {}
+added: '2026-11-13'
+evidence: Here, to address these challenges, we introduce SINGER (sampling and inferring of genealogies with recombination),
+  a method that accelerates ARG sampling from the posterior distribution by two orders of magnitude, enabling accurate inference
+  and uncertainty quantification for hundreds of whole-genome sequences.

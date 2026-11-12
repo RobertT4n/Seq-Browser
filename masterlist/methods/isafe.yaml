@@ -1,0 +1,23 @@
+name: iSAFE
+full_name: integrated selection of allele favored by evolution
+category: dry
+summary: Statistic that pinpoints the favoured mutation within a positive selective sweep from population-genomic data alone.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4606
+  year: 2018
+  journal: Nat Methods
+  first_author: Akbari A
+  last_author: Bafna V
+  pmid: '29457793'
+  pmcid: PMC6231406
+  title: Identifying the favored mutation in a positive selective sweep
+links: {}
+added: '2026-11-13'
+evidence: We present iSAFE (for "integrated selection of allele favored by evolution"), a method that enables researchers
+  to accurately pinpoint the favored mutation in a large region (∼5 Mbp) by using a statistic derived solely from population
+  genetics signals.

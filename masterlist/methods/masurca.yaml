@@ -1,0 +1,24 @@
+name: MaSuRCA
+full_name: Maryland Super-Read Celera Assembler
+category: dry
+summary: Hybrid genome assembler combining de Bruijn graph and overlap-based strategies for mixed short and long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt476
+  year: 2013
+  journal: Bioinformatics
+  first_author: Zimin AV
+  last_author: Yorke JA
+  pmid: '23990416'
+  pmcid: PMC3799473
+  title: The MaSuRCA genome assembler
+links: {}
+added: '2026-11-13'
+evidence: 'We call our system the Maryland Super-Read Celera Assembler (abbreviated MaSuRCA and pronounced ''mazurka'').ResultsWe
+  evaluate the performance of MaSuRCA against two of the most widely used assemblers for Illumina data, Allpaths-LG and SOAPdenovo2,
+  on two datasets from organisms for which high-quality assemblies are available: the bacterium Rhodobacter sphaeroides and
+  chromosome 16 of the mouse gen'

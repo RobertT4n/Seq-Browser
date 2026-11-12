@@ -1,0 +1,24 @@
+name: SEVA
+full_name: structural and evolutionary feature integration
+category: dry
+summary: Model combining protein language model embeddings with structural and evolutionary features to predict virulence
+  factors and antibiotic resistance genes from genome sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-026-02467-w
+  year: 2026
+  journal: Microbiome
+  first_author: Li K
+  last_author: Zhang X
+  pmid: '42469931'
+  pmcid: PMC13660298
+  title: 'SEVA: structural and evolutionary feature integration for predicting virulence factors and antibiotic resistance
+    genes'
+links: {}
+added: '2026-11-13'
+evidence: To address these challenges, we developed SEVA, an advanced model that integrates protein language models (pLMs)
+  with structural and evolutionary protein features to predict VFs and ARGs from genome sequencing data.

@@ -1,0 +1,22 @@
+name: TH-GRASP
+category: dry
+summary: XGBoost model that predicts genome-wide RNA secondary-structure profiles from RNA sequence, trained on high-throughput
+  probing data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa534
+  year: 2020
+  journal: Bioinformatics
+  first_author: Ke Y
+  last_author: Yang Y
+  pmid: '32467966'
+  title: Accurate prediction of genome-wide RNA secondary structure profile based on extreme gradient boosting
+  preprint_doi: 10.1101/610782
+links: {}
+added: '2026-11-13'
+evidence: In this study, we developed a new method for the prediction of genome-wide RNA secondary structure profile (TH-GRASP)
+  from RNA sequence based on eXtreme Gradient Boosting (XGBoost).

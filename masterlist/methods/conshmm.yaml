@@ -1,0 +1,23 @@
+name: ConsHMM
+category: dry
+summary: Multivariate hidden Markov model that learns de novo conservation states from which species align to and match the
+  reference in a multiple-species alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: Here we present a complementary whole genome annotation approach, ConsHMM, which applies a multivariate hidden Markov
+  model to learn de novo 'conservation states' based on the combinatorial and spatial patterns of which species align to and
+  match a reference genome in a multiple species DNA sequence alignment.
+reference:
+  doi: 10.1038/s42003-019-0488-1
+  year: 2019
+  journal: Commun Biol
+  first_author: Arneson A
+  last_author: Ernst J
+  pmid: '31286065'
+  pmcid: PMC6606595
+  title: Systematic discovery of conservation states for single-nucleotide annotation of the human genome
+links: {}
+added: '2026-11-13'

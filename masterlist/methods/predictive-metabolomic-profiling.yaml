@@ -1,0 +1,22 @@
+name: Predictive metabolomic profiling
+category: dry
+summary: Computational framework that predicts metabolite abundances in microbial communities from amplicon or metagenomic
+  profiles, trained on paired metabolome and metagenome data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-10927-1
+  year: 2019
+  journal: Nat Commun
+  first_author: Mallick H
+  last_author: Huttenhower C
+  pmid: '31316056'
+  pmcid: PMC6637180
+  title: Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe a computational approach to predict potentially unobserved metabolites in new microbial communities,
+  given a model trained on paired metabolomes and metagenomes from the environment of interest.

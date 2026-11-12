@@ -1,0 +1,21 @@
+name: Mumemto
+category: dry
+summary: Tool that computes multi-sequence maximal unique matches across large pangenomes to support synteny, scaffold QC
+  and structural-variation views.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03644-0
+  year: 2025
+  journal: Genome Biol
+  first_author: Shivakumar VS
+  last_author: Langmead B
+  pmid: '40528225'
+  pmcid: PMC12172372
+  title: 'Mumemto: efficient maximal matching across pangenomes'
+links: {}
+added: '2026-11-13'
+evidence: We introduce Mumemto, a tool that computes multi-MUMs and other match types across large pangenomes.

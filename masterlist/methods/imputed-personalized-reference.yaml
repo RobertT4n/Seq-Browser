@@ -1,0 +1,21 @@
+name: Imputed personalized reference
+category: dry
+summary: Alignment framework that genotypes a donor from a read subsample, imputes a diploid personalized reference from a
+  panel, and aligns all reads to it.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280989.125
+  year: 2026
+  journal: Genome Res
+  first_author: Vaddadi K
+  last_author: Langmead B
+  pmid: '41786604'
+  pmcid: PMC13138014
+  title: Minimizing reference bias with an imputed personalized reference
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a new impute-first alignment framework that combines elements of genotype imputation and read alignment.

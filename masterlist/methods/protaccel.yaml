@@ -1,0 +1,22 @@
+name: protaccel
+category: dry
+summary: Extends RNA velocity to joint protein and RNA measurements to infer single-cell state dynamics.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-1945-3
+  year: 2020
+  journal: Genome Biol
+  first_author: Gorin G
+  last_author: Pachter L
+  pmid: '32070398'
+  pmcid: PMC7029606
+  title: Protein velocity and acceleration from single-cell multiomics experiments.
+links: {}
+added: '2026-11-13'
+evidence: we introduce an extension of the RNA velocity method that leverages estimates of unprocessed transcript and protein
+  abundances to extrapolate cell states.

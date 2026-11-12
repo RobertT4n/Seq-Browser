@@ -1,0 +1,20 @@
+name: RaceID
+category: dry
+summary: Algorithm for identifying rare cell types in single-cell RNA-seq populations, applied to mouse intestinal organoids.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nature14966
+  year: 2015
+  journal: Nature
+  first_author: Grün D
+  last_author: van Oudenaarden A
+  pmid: '26287467'
+  title: Single-cell messenger RNA sequencing reveals rare intestinal cell types
+links: {}
+added: '2026-11-13'
+evidence: Since available computational methods can only resolve more abundant cell types, we developed RaceID, an algorithm
+  for rare cell type identification in complex populations of single cells.

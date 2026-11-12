@@ -1,0 +1,23 @@
+name: LINSIGHT
+category: dry
+summary: Computational score predicting noncoding sites where mutations are likely deleterious, combining functional and population
+  genomic data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ng.3810
+  year: 2017
+  journal: Nat Genet
+  first_author: Huang YF
+  last_author: Siepel A
+  pmid: '28288115'
+  pmcid: PMC5395419
+  title: Fast, scalable prediction of deleterious noncoding variants from functional and population genomic data
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce a new computational method, called LINSIGHT, that substantially improves the prediction of noncoding
+  nucleotide sites at which mutations are likely to have deleterious fitness consequences, and which, therefore, are likely
+  to be phenotypically important.

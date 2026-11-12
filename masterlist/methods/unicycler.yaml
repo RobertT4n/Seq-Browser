@@ -1,0 +1,21 @@
+name: Unicycler
+category: dry
+summary: Hybrid assembler that builds bacterial genome assemblies from short and long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1005595
+  year: 2017
+  journal: PLoS Comput Biol
+  first_author: Wick RR
+  last_author: Holt KE
+  pmid: '28594827'
+  pmcid: PMC5481147
+  title: 'Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads'
+links: {}
+added: '2026-11-13'
+evidence: Here we present Unicycler, a new tool for assembling bacterial genomes from a combination of short and long reads,
+  which produces assemblies that are accurate, complete and cost-effective.

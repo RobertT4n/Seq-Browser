@@ -1,0 +1,32 @@
+name: NanoncRNA-Seq
+category: wet
+summary: rRNA-depleted full-length nanopore workflow that profiles poly(A)+ and poly(A)- lncRNA isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s42003-026-10214-y
+  year: 2026
+  journal: Commun Biol
+  first_author: Zhang T
+  last_author: Liu YX
+  pmid: '42204255'
+  pmcid: PMC13493894
+  title: An rRNA-depleted full-length transcriptome strategy using nanopore sequencing for identification of novel lncRNA
+    isoforms
+links: {}
+added: '2026-11-13'
+evidence: We establish an rRNA-depleted full-length transcriptome sequencing workflow (NanoncRNA-Seq), and use it together
+  with Illumina NovaSeq to profile lncRNA isoforms in Saccharomyces cerevisiae under glucose and ethanol-associated physiological
+  states.

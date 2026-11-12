@@ -1,0 +1,20 @@
+name: vcfgl
+category: dry
+summary: Simulator of genotype likelihoods from simulated sequencing reads, with output to VCF/BCF.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf098
+  year: 2025
+  journal: Bioinformatics
+  first_author: Altinkaya I
+  last_author: Korneliussen TS
+  pmid: '40045175'
+  pmcid: PMC11968323
+  title: 'vcfgl: a flexible genotype likelihood simulator for VCF/BCF files'
+links: {}
+added: '2026-11-13'
+evidence: Results We present vcfgl, a versatile tool for simulating genotype likelihoods associated with simulated read data.

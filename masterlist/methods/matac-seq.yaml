@@ -1,0 +1,28 @@
+name: MATAC-Seq
+full_name: Methylation Accessibility of TArgeted Chromatin domain Sequencing
+category: wet
+summary: Methyltransferase-based single-molecule chromatin accessibility at targeted yeast replication origins, read out by
+  nanopore sequencing.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1093/nar/gkad1022
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Chanou A
+  last_author: Hamperl S
+  pmid: '37956271'
+  pmcid: PMC10711542
+  title: Single molecule MATAC-seq reveals key determinants of DNA replication origin efficiency
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed Methylation Accessibility of TArgeted Chromatin domain Sequencing (MATAC-Seq) to determine single-molecule
+  chromatin accessibility of four specific genomic loci.

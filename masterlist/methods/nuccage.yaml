@@ -1,0 +1,24 @@
+name: nucCAGE
+category: wet
+summary: Transcription start site assay for capped RNAs from nuclei, sensitive to low-abundance and unstable enhancer RNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- nuclei
+- low-input
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.05.11.724207
+  year: 2026
+  journal: bioRxiv
+  first_author: Einarsson H
+  last_author: Andersson R
+  title: Mapping active cis-regulatory elements from transcription initiation events
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce nucCAGE, a transcription start site (TSS) assay for profiling nuclear, capped RNAs, and PRIME,
+  a computational framework for identifying active CREs from TSS data.

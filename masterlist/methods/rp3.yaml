@@ -1,0 +1,23 @@
+name: Rp3
+full_name: Ribosome profiling-assisted proteogenomics
+category: dry
+summary: Pipeline integrating ribosome profiling with proteogenomics to give protein-level evidence for microproteins from
+  smORFs missed by Ribo-seq pipelines.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-50301-4
+  year: 2024
+  journal: Nat Commun
+  first_author: Vieira de Souza E
+  last_author: Saghatelian A
+  pmid: '39122697'
+  pmcid: PMC11316118
+  title: 'Rp3: Ribosome profiling-assisted proteogenomics improves coverage and confidence during microprotein discovery'
+links: {}
+added: '2026-11-13'
+evidence: To solve this, we developed Rp3, a pipeline that integrates proteogenomics and Ribosome profiling to provide unambiguous
+  evidence for a subset of microproteins missed by current Ribo-Seq pipelines.

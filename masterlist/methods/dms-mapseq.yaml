@@ -1,0 +1,27 @@
+name: DMS-MaPseq
+full_name: dimethyl sulfate mutational profiling with sequencing
+category: wet
+summary: In vivo DMS probing in which modifications are encoded as mismatches by a thermostable group II intron RT, for genome-wide
+  or targeted RNA structure profiling.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nmeth.4057
+  year: 2017
+  journal: Nat Methods
+  first_author: Zubradt M
+  last_author: Rouskin S
+  pmid: '27819661'
+  pmcid: PMC5508988
+  title: DMS-MaPseq for genome-wide or targeted RNA structure probing in vivo
+links: {}
+added: '2026-11-13'
+evidence: Here we present dimethyl sulfate (DMS) mutational profiling with sequencing (DMS-MaPseq), which encodes DMS modifications
+  as mismatches using a thermostable group II intron reverse transcriptase.

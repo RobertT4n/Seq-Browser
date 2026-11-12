@@ -1,0 +1,25 @@
+name: Nanopore-m6A-Finder
+aliases:
+- NP-mFinder
+category: dry
+summary: XGBoost and random-forest ensemble that calls m6A sites and estimates methylation levels from Guppy-basecalled nanopore
+  direct RNA reads.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2026.1770769
+  year: 2026
+  journal: Front Genet
+  first_author: Yang Y
+  last_author: Jin H
+  pmid: '42095024'
+  pmcid: PMC13143229
+  title: Nanopore-m&lt;sup&gt;6&lt;/sup&gt;A-finder, a novel m&lt;sup&gt;6&lt;/sup&gt;A site caller for Nanopore DRS data
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Nanopore-m<sup>6</sup>A-Finder (NP-mFinder), a reference-free m<sup>6</sup>A prediction computational
+  framework that employs the XGBoost model in the mRNA exonic region and a hard-voting ensemble of XGBoost and random forest
+  models in the poly(A) region.

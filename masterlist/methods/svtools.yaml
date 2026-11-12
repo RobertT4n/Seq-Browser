@@ -1,0 +1,22 @@
+name: svtools
+category: dry
+summary: Population-scale structural variation analysis from whole-genome sequencing of many samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz492
+  year: 2019
+  journal: Bioinformatics
+  first_author: Larson DE
+  last_author: Hall IM
+  pmid: '31218349'
+  pmcid: PMC6853660
+  title: 'svtools: population-scale analysis of structural variation'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a fast and highly scalable software toolkit (svtools) and cloud-based pipeline for assembling high
+  quality SV maps-including deletions, duplications, mobile element insertions, inversions and other rearrangements-in many
+  thousands of human genomes.

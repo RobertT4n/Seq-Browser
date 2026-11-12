@@ -1,0 +1,22 @@
+name: Seedability
+category: dry
+summary: Framework estimating optimal seed k-mer length and shared-seed threshold for sensitive alignment of short and divergent
+  sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad108
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Ayad LAK
+  last_author: Pissis SP
+  pmid: '37621456'
+  pmcid: PMC10444664
+  title: 'Seedability: optimizing alignment parameters for sensitive sequence comparison'
+links: {}
+added: '2026-11-13'
+evidence: To aid this, we present Seedability, a seed-based alignment framework designed for estimating an optimal seed k
+  -mer length (as well as a minimal number of shared seeds) based on a given alignment identity threshold.

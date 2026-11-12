@@ -1,0 +1,31 @@
+name: SSNIP-seq
+full_name: Single-sperm nucleic acid isolation for high-throughput sequencing
+category: wet
+summary: Flow-cytometry protocol that isolates intact haploid sperm nuclei from fresh or frozen testes within about one hour,
+  for DNA or RNA sequencing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- facs-sorting
+- reverse-transcription
+input_sample:
+- nuclei
+species:
+- mouse
+reference:
+  doi: 10.1371/journal.pone.0275168
+  year: 2022
+  journal: PLoS One
+  first_author: Novakovic S
+  last_author: Crismani W
+  pmid: '36173986'
+  pmcid: PMC9521801
+  title: 'SSNIP-seq: A simple and rapid method for isolation of single-sperm nucleic acid for high-throughput sequencing'
+links: {}
+added: '2026-11-13'
+evidence: We developed a simple and reliable method for the isolation of haploid nuclei from fresh and frozen testes.

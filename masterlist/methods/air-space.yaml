@@ -1,0 +1,32 @@
+name: AIR-SPACE
+category: wet
+summary: Spatial transcriptomics combined with paired long-read sequencing of T and B cell receptors within the same tissue
+  section.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- spatial
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2504742123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Jiang S
+  last_author: De Vlaminck I
+  pmid: '41587309'
+  pmcid: PMC12867689
+  title: A temporal and spatial atlas of adaptive immune responses in the lymph node following viral infection
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce AIR-SPACE, an integrative approach that combines high-resolution spatial transcriptomics

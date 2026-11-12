@@ -1,0 +1,30 @@
+name: PARIS2
+full_name: Psoralen Analysis of RNA Interactions and Structures
+category: wet
+summary: Optimised psoralen crosslinking and proximity ligation that maps RNA duplexes and interactions in living cells with
+  far higher efficiency than PARIS.
+readouts:
+- rna-structure
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+variant_of:
+- paris
+reference:
+  doi: 10.1038/s41467-021-22552-y
+  year: 2021
+  journal: Nat Commun
+  first_author: Zhang M
+  last_author: Lu Z
+  pmid: '33879794'
+  pmcid: PMC8058046
+  title: Optimized photochemistry enables efficient analysis of dynamic RNA structuromes and interactomes in genetic and infectious
+    diseases
+links: {}
+added: '2026-11-13'
+evidence: Here, we present PARIS2, a dramatically improved method for RNA duplex determination in vivo with >4000-fold higher
+  efficiency than previous methods.

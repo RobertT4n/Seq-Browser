@@ -1,0 +1,21 @@
+name: RiboTIE
+category: dry
+summary: Transformer model that uses raw ribosome profiling counts to detect translated ORFs.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-56543-0
+  year: 2025
+  journal: Nat Commun
+  first_author: Clauwaert J
+  last_author: Prensner JR
+  pmid: '39894899'
+  pmcid: PMC11788427
+  title: Deep learning to decode sites of RNA translation in normal and cancerous tissues
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce RiboTIE, a transformer model-based approach designed to enhance the analysis of ribosome profiling
+  data.

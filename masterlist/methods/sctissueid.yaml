@@ -1,0 +1,22 @@
+name: scTissueID
+category: dry
+summary: Single-cell annotation pipeline that uses high-confidence reference cells to identify cell and tissue types from
+  scRNA-seq profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0318151
+  year: 2025
+  journal: PLoS One
+  first_author: Liu M
+  last_author: Ge J
+  pmid: '40138334'
+  pmcid: PMC11940611
+  title: High resolution tissue and cell type identification via single cell transcriptomic profiling
+links: null
+added: '2026-11-13'
+evidence: we developed a high sensitive general purpose single cell annotation pipeline, scTissueID, to accurately evaluate
+  the single cell profile quality and precisely determine the cell and tissue types

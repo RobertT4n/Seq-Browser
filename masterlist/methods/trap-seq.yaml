@@ -1,0 +1,31 @@
+name: TRAP-seq
+full_name: Targeted Reporter Anchored Positional Sequencing
+category: wet
+summary: Captures each CRISPR gRNA cassette together with its surrogate target site, so editing efficiency and indel outcomes
+  for thousands of guides are read out in parallel.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- amplicon-pcr
+perturbation:
+- crispr-knockout
+- base-editing
+reference:
+  doi: 10.1101/2020.05.20.103614
+  year: 2020
+  journal: bioRxiv
+  first_author: Xiang X
+  last_author: Luo Y
+  title: Massively parallel quantification of CRISPR editing in cells by TRAP-seq enables better design of Cas9, ABE, CBE
+    gRNAs of high efficiency and accuracy
+links: {}
+added: '2026-11-13'
+evidence: Here we present TRAP-seq, a versatile and scalable approach in which the CRISPR gRNA expression cassette and the
+  corresponding surrogate site are captured by

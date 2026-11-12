@@ -1,0 +1,23 @@
+name: TFXcan
+category: dry
+summary: Correlates genetically predicted transcription factor binding, via the Enpact deep-learning model, with phenotypes
+  to nominate TF-tissue pairs for complex traits.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.xgen.2026.101398
+  year: 2026
+  journal: Cell Genom
+  first_author: Adeluwa T
+  last_author: Im HK
+  pmid: '42945964'
+  title: TFXcan reveals transcription factor programs driving GWAS loci.
+links: {}
+added: '2026-11-13'
+evidence: we present the TFXcan framework, which correlates genetically predicted TF binding with phenotypes to nominate TF-tissue
+  pairs that may regulate complex traits.

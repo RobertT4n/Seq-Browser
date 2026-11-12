@@ -1,0 +1,22 @@
+name: FixItFelix
+category: dry
+summary: Remapping approach plus a corrected GRCh38 reference that fixes falsely duplicated and collapsed regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02863-7
+  year: 2023
+  journal: Genome Biol
+  first_author: Behera S
+  last_author: Sedlazeck FJ
+  pmid: '36810122'
+  pmcid: PMC9942314
+  title: 'FixItFelix: improving genomic analysis by fixing reference errors'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present FixItFelix, an efficient remapping approach, together with a modified version of the GRCh38 reference
+  genome that improves the subsequent analysis across these genes within minutes for an existing alignment file while maintaining
+  the same coordinates.

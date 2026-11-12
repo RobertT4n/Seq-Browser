@@ -1,0 +1,32 @@
+name: nP-TRAP
+full_name: Nascent P-stalk-mediated translating ribosome affinity purification
+category: wet
+summary: 4sU labelling combined with P-stalk antibody ribosome affinity purification, measuring nascent RNA synthesis and
+  translation of the same genes.
+readouts:
+- nascent-rna
+- translation
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkad545
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Imai H
+  last_author: Yamashita A
+  pmid: '37378452'
+  pmcid: PMC10415123
+  title: Simultaneous measurement of nascent transcriptome and translatome using 4-thiouridine metabolic RNA labeling and
+    translating ribosome affinity purification.
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a novel method for the simultaneous assessment of nascent RNA synthesis and translation by combining
+  4-thiouridine (4sU) metabolic RNA labeling and translating ribosome affinity purification (TRAP) using a monoclonal antibody
+  against evolutionarily conserved ribosomal P-stalk proteins.

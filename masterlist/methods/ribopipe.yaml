@@ -1,0 +1,19 @@
+name: RiboPipe
+category: dry
+summary: Imputes codon-resolution Ribo-seq coverage for low-coverage transcripts with a peak-weighted loss.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.03.20.711481
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang Y
+  last_author: Imoto S
+  title: 'RiboPipe: efficient per-transcript codon-resolution ribo-seq coverage imputation for low-coverage transcripts'
+links: {}
+added: '2026-11-13'
+evidence: We present RiboPipe, an efficient framework for per-transcript codon-resolution Ribo-seq coverage imputation for
+  low-coverage transcripts.

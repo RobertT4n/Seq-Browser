@@ -1,0 +1,23 @@
+name: SAMtools mpileup
+category: dry
+summary: Statistical framework for SNP calling, somatic mutation discovery, association testing and population parameter estimation
+  directly from sequencing reads without genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr509
+  year: 2011
+  journal: Bioinformatics
+  first_author: Li H
+  last_author: Li H
+  pmid: '21903627'
+  pmcid: PMC3198575
+  title: A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter
+    estimation from sequencing data
+links: {}
+added: '2026-11-13'
+evidence: We present a statistical framework for calling SNPs, discovering somatic mutations, inferring population genetical
+  parameters and performing association tests directly based on sequencing data

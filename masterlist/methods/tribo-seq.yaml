@@ -1,0 +1,29 @@
+name: tRIBO-seq
+category: wet
+summary: Nanopore direct-RNA method that captures ribosome-associated native tRNAs to report tRNA abundance, modification
+  and fragmentation.
+readouts:
+- rna
+- rna-modification
+- translation
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.03.02.709006
+  year: 2026
+  journal: bioRxiv
+  first_author: Monti M
+  last_author: Novoa EM
+  title: Selective profiling of translationally active tRNAs and their dynamics under stress
+links: {}
+added: '2026-11-13'
+evidence: Here we develop tRIBO-seq, a simple and robust nanopore-based method to selectively capture ribosome-associated
+  native tRNA populations (ribo-tRNAs) from actively translating ribosomes, providing tRNA abundance, modification and fragmentation
+  information from a single experiment.

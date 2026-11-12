@@ -1,0 +1,22 @@
+name: Owl
+category: dry
+summary: Quantifies microsatellite instability genome-wide from PacBio long-read genomes using about 140,000 repeat markers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pcbi.1014423
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Kronenberg Z
+  last_author: Eberle MA
+  pmid: '42685296'
+  pmcid: PMC13585337
+  title: Hunting for microsatellite instability in long-read data with Owl.
+links: {}
+added: '2026-11-13'
+evidence: Here we present Owl, a bioinformatic tool for quantifying MSI from long-read (PacBio) genomic data.

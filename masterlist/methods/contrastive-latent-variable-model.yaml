@@ -1,0 +1,22 @@
+name: Contrastive latent variable model
+category: dry
+summary: Count-based contrastive latent variable models that separate shared and condition-specific transcriptional variation
+  for differential analysis of sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1214/21-aoas1534
+  year: 2022
+  journal: Ann Appl Stat
+  first_author: Jones A
+  last_author: Engelhardt BE
+  pmid: '40994464'
+  pmcid: PMC12456736
+  title: CONTRASTIVE LATENT VARIABLE MODELING WITH APPLICATION TO CASE-CONTROL SEQUENCING EXPERIMENTS
+links: {}
+added: '2026-11-13'
+evidence: Here, we propose contrastive latent variable models designed for count data to create a richer portrait of differential
+  expression in sequencing data.

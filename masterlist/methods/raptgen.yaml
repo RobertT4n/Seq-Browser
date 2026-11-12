@@ -1,0 +1,21 @@
+name: RaptGen
+category: dry
+summary: Variational autoencoder with a profile hidden Markov model decoder that generates aptamer sequences from SELEX sequencing
+  data and supports activity-guided design.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s43588-022-00249-6
+  year: 2022
+  journal: Nat Comput Sci
+  first_author: Iwano N
+  last_author: Hamada M
+  pmid: '38177576'
+  pmcid: PMC10766510
+  title: Generative aptamer discovery using RaptGen
+links: {}
+added: '2026-11-13'
+evidence: Here we developed RaptGen, which is a variational autoencoder for in silico aptamer generation.

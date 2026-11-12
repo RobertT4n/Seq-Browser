@@ -1,0 +1,23 @@
+name: LAVA
+full_name: LOD-aware variant analysis
+category: dry
+summary: Predicts the limit of detection at every genomic position and sample of an NGS assay, so unreliable variant calls
+  can be flagged.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1200/cci.21.00057
+  year: 2021
+  journal: JCO Clin Cancer Inform
+  first_author: Bieler J
+  last_author: Xu Z
+  pmid: '34731027'
+  title: High-Throughput Nucleotide Resolution Predictions of Assay Limitations Increase the Reliability and Concordance of
+    Clinical Tests
+links: {}
+added: '2026-11-13'
+evidence: Our approach, which we name LAVA (LOD-aware variant analysis), reports the LOD for every position and sample interrogated
+  by an NGS assay.

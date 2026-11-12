@@ -1,0 +1,23 @@
+name: BindVAE
+category: dry
+summary: Dirichlet variational autoencoder that decodes multiple transcription factor binding signals and composite motifs
+  from open chromatin regions.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02723-w
+  year: 2022
+  journal: Genome Biol
+  first_author: Kshirsagar M
+  last_author: Leslie C
+  pmid: '35971180'
+  pmcid: PMC9380350
+  title: 'BindVAE: Dirichlet variational autoencoders for de novo motif discovery from accessible chromatin'
+links: {}
+added: '2026-11-13'
+evidence: We present a novel unsupervised deep learning approach called BindVAE, based on Dirichlet variational autoencoders,
+  for jointly decoding multiple TF binding signals from open chromatin regions.

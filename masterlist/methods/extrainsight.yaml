@@ -1,0 +1,24 @@
+name: ExtRaINSIGHT
+category: dry
+summary: Measures purifying selection in coding and noncoding regions from the depletion of rare variants (ultraselection),
+  controlling for mutation rate.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41467-022-31872-6
+  year: 2022
+  journal: Nat Commun
+  first_author: Dukler N
+  last_author: Siepel A
+  pmid: '35879308'
+  pmcid: PMC9314448
+  title: Extreme purifying selection against point mutations in the human genome
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a new method, called ExtRaINSIGHT, for measuring such selection in noncoding as well as coding
+  regions of the human genome.

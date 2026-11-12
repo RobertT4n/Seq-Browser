@@ -1,0 +1,22 @@
+name: GraphReg
+category: dry
+summary: Graph-attention deep learning model that predicts gene expression from 1D epigenomic data or DNA sequence using 3D
+  chromatin-contact graphs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.275870.121
+  year: 2022
+  journal: Genome Res
+  first_author: Karbalayghareh A
+  last_author: Leslie CS
+  pmid: '35396274'
+  pmcid: PMC9104700
+  title: Chromatin interaction-aware gene regulatory modeling with graph attention networks
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a new deep learning approach called GraphReg that exploits 3D interactions from chromosome conformation
+  capture assays to predict gene expression from 1D epigenomic data or genomic DNA sequence.

@@ -1,0 +1,26 @@
+name: RiboWich
+category: wet
+summary: Ribosome profiling library method that ligates adaptors directly to ribosome-embedded RNA fragments and multiplexes
+  at least 96 samples.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/2025.10.17.683053
+  year: 2025
+  journal: bioRxiv
+  first_author: Bruno I
+  last_author: Viero G
+  title: Empowering multiplexed ultra-throughout ribosome profiling with RiboWich
+links: {}
+added: '2026-11-13'
+evidence: To move towards high-throughput and single-cell RiboSeq technologies, we developed RiboWich (  Ribo some sand  Wich
+  ).

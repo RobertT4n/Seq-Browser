@@ -1,0 +1,26 @@
+name: RADIP
+full_name: RNA and DNA interacting complexes ligated and sequenced with immunoprecipitation
+category: wet
+variant_of:
+- radicl-seq
+summary: Extends RADICL-seq with chromatin immunoprecipitation to map RNA-chromatin contacts mediated by one protein, demonstrated
+  with H3K27me3.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- antibody-pull-down
+reference:
+  doi: 10.1101/2024.06.04.597497
+  year: 2024
+  journal: bioRxiv
+  first_author: Shu X
+  last_author: Carninci P
+  title: RADIP technology comprehensively identifies H3K27me3-mediated RNA-chromatin interactions
+links: {}
+added: '2026-11-13'
+evidence: a novel technology that combines RADICL-seq technology with chromatin immunoprecipitation to characterize RNA–chromatin
+  interactions mediated by individual proteins.

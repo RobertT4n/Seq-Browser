@@ -1,0 +1,21 @@
+name: DestinyNet
+category: dry
+summary: Multi-task deep-learning framework for fate clustering, fate flow and fate prediction from lineage-tracing scRNA-seq.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2025.101471
+  year: 2026
+  journal: Patterns (N Y)
+  first_author: Liu Z
+  last_author: Liu W
+  pmid: '42005385'
+  pmcid: PMC13083642
+  title: 'DestinyNet: A deep-learning framework for cell-fate analysis from lineage-tracing single-cell RNA sequencing data'
+links: {}
+added: '2026-11-13'
+evidence: We introduce DestinyNet, a multi-task deep-learning framework addressing three key challenges

@@ -1,0 +1,23 @@
+name: REVEALER
+category: dry
+summary: Computational method that identifies combinations of mutually exclusive genomic alterations correlated with functional
+  phenotypes in cancer genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3527
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Kim JW
+  last_author: Tamayo P
+  pmid: '27088724'
+  pmcid: PMC4868596
+  title: Characterizing genomic alterations in cancer by complementary functional associations
+links: {}
+added: '2026-11-13'
+evidence: We developed REVEALER, a computational method that identifies combinations of mutually exclusive genomic alterations
+  correlated with functional phenotypes, such as the activation or gene dependency of oncogenic pathways or sensitivity to
+  a drug treatment.

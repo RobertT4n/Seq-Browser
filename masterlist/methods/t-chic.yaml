@@ -1,0 +1,33 @@
+name: T-ChIC
+full_name: Transcriptome + Chromatin ImmunoCleavage
+category: wet
+summary: Chromatin immunocleavage of a histone mark and full-length transcript capture from the same single cell.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+targets:
+- H3K4me3
+- H3K27me3
+chemistry:
+- antibody-tethered-enzyme
+- reverse-transcription
+variant_of:
+- scchic-seq
+scope: genome-wide
+partition_unknown: not stated in the abstract
+introduces:
+- rna
+reference:
+  doi: 10.1101/2024.05.09.593364
+  year: 2024
+  journal: bioRxiv
+  first_author: Blotenburg M
+  last_author: van Oudenaarden A
+  title: Detection of histone modifications and full-length transcriptome in single cells identifies sequential epigenetic
+    perceptiveness to lineage commitment
+links: {}
+added: '2026-11-13'
+evidence: we developed T-ChIC (Transcriptome + Chromatin ImmunoCleavage), which detects full-length transcripts and histone
+  modifications in the same single cell

@@ -1,0 +1,24 @@
+name: Trio binning
+category: dry
+summary: Haplotype-resolved assembly that partitions offspring long reads into haplotype sets using parental short reads before
+  assembling each haplotype independently.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/nbt.4277
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Koren S
+  last_author: Phillippy AM
+  pmid: '30346939'
+  pmcid: PMC6476705
+  title: De novo assembly of haplotype-resolved genomes with trio binning
+links: {}
+added: '2026-11-13'
+evidence: Trio binning uses short reads from two parental genomes to first partition long reads from an offspring into haplotype-specific
+  sets.

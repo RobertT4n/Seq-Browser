@@ -1,0 +1,22 @@
+name: BayesTraj
+category: dry
+summary: Semi-supervised Bayesian trajectory inference that uses lineage-topology and marker-gene priors to reconstruct differentiation
+  trajectories from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf454
+  year: 2025
+  journal: Bioinformatics
+  first_author: Wang J
+  last_author: Zhang N
+  pmid: '40802529'
+  pmcid: PMC12410927
+  title: A semi-supervised Bayesian approach for marker gene trajectory inference from single-cell RNA-seq data
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce BayesTraj, a semi-supervised Bayesian framework that incorporates prior knowledge of lineage
+  topology and marker-gene expression to robustly reconstruct differentiation trajectories from scRNA-seq data.

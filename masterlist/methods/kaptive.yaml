@@ -1,0 +1,22 @@
+name: Kaptive
+category: dry
+summary: Software that identifies Klebsiella K-loci from whole-genome data using full locus information and a standardized
+  nomenclature.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000102
+  year: 2016
+  journal: Microb Genom
+  first_author: Wyres KL
+  last_author: Holt KE
+  pmid: '28348840'
+  pmcid: PMC5359410
+  title: Identification of <i>Klebsiella</i> capsule synthesis loci from whole genome data
+links: {}
+added: '2026-11-13'
+evidence: As a solution, we introduce Kaptive , a novel software tool that automates the process of identifying K-loci based
+  on full locus information extracted from whole genome sequences (https://github.com/katholt/Kaptive).

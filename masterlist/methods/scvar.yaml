@@ -1,0 +1,23 @@
+name: scVAR
+category: dry
+summary: Variational autoencoder that learns genetic variation from scRNA-seq reads and fuses it with transcriptomes to resolve
+  cell states.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.3389/fgene.2025.1604484
+  year: 2025
+  journal: Front Genet
+  first_author: Celli L
+  last_author: Merelli I
+  pmid: '41555915'
+  pmcid: PMC12812400
+  title: 'scVAR: integrating genomics and transcriptomics from single-cell RNA-seq -insights from leukemia case studies'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present scVAR, a computational framework that employs variational autoencoders to learn and integrate genetic
+  variation directly from scRNA-seq data.

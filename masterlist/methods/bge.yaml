@@ -1,0 +1,26 @@
+name: BGE
+full_name: blended genome exome
+category: wet
+summary: One DNA library sequenced once to give low-pass whole-genome (1-4x) and deep whole-exome (30-40x) data together.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1038/s41588-026-02669-w
+  year: 2026
+  journal: Nat Genet
+  first_author: Boltz TA
+  last_author: Martin AR
+  pmid: '42420521'
+  pmcid: PMC13447102
+  title: A blended genome and exome sequencing method captures genetic variation in an unbiased and cost-effective manner
+links: {}
+added: '2026-11-13'
+evidence: Here we developed and deployed the blended genome exome (BGE) method, a DNA library approach that generates low-pass
+  whole-genome (1-4× mean depth) and deep whole-exome (30-40× mean depth) data in a single sequencing run.

@@ -1,0 +1,26 @@
+name: devider
+category: dry
+summary: Haplotype reconstruction for small sequences (viruses, genes, AMR loci) in mixtures from long reads, using a positional
+  de Bruijn graph.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+- nanopore
+- pacbio
+scope: targeted
+reference:
+  doi: 10.1101/gr.280510.125
+  year: 2025
+  journal: Genome Res
+  first_author: Shaw J
+  last_author: Li H
+  pmid: '40987526'
+  pmcid: PMC12642997
+  title: Long-read reconstruction of many diverse haplotypes with devider
+links: null
+added: '2026-11-13'
+evidence: Here, we present devider, an algorithm for haplotyping small sequences, such as viruses or genes, from long-read
+  sequencing.

@@ -1,0 +1,33 @@
+name: 5FU-seq
+full_name: 5-fluorouridine-based transient transcriptomics
+category: wet
+summary: Transient 5-fluorouridine labelling that maps nascent transcripts in mouse tissue, and in a transgenic line also
+  active enhancers.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-026-74725-2
+  year: 2026
+  journal: Nat Commun
+  first_author: Feng Y
+  last_author: Basnet H
+  pmid: '42331815'
+  pmcid: PMC13444121
+  title: Fluorouridine labeling enables spatiotemporal mapping of transcriptomes and enhancers in vivo
+links: {}
+added: '2026-11-13'
+evidence: Here, we report a 5-fluorouridine (5-FUd)-based transient transcriptomics method, 5FU-seq, that surpasses standard
+  strategies by enabling higher metabolic incorporation, greater sensitivity, and robust detection across a broad spectrum
+  of transcripts.

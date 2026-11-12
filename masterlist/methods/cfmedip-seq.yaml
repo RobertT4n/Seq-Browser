@@ -1,0 +1,29 @@
+name: cfMeDIP-seq
+full_name: cell-free methylated DNA immunoprecipitation sequencing
+category: wet
+summary: Antibody immunoprecipitation of methylated DNA from small amounts of plasma cell-free DNA, sequenced genome-wide
+  to detect and classify tumours from methylation changes.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41586-018-0703-0
+  year: 2018
+  journal: Nature
+  first_author: Shen SY
+  last_author: De Carvalho DD
+  pmid: '30429608'
+  title: Sensitive tumour detection and classification using plasma cell-free DNA methylomes
+links: {}
+added: '2026-11-13'
+evidence: Here we develop a sensitive, immunoprecipitation-based protocol to analyse the methylome of small quantities of
+  circulating cell-free DNA, and demonstrate the ability to detect large-scale DNA methylation changes that are enriched for
+  tumour-specific patterns.

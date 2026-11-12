@@ -1,0 +1,23 @@
+name: isONcorrect
+category: dry
+summary: Reference-free error correction of Oxford Nanopore cDNA reads that pools all isoforms of a gene.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-020-20340-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Sahlin K
+  last_author: Medvedev P
+  pmid: '33397972'
+  pmcid: PMC7782715
+  title: Error correction enables use of Oxford Nanopore technology for reference-free transcriptome analysis
+links: {}
+added: '2026-11-13'
+evidence: we present a novel computational method to error correct ONT cDNA sequencing data, called isONcorrect

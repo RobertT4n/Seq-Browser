@@ -1,0 +1,24 @@
+name: pyVIPER
+category: dry
+summary: Python, GPU-accelerated implementation of VIPER for protein-activity inference and master-regulator analysis of scRNA-seq
+  data, reported as orders of magnitude faster than the R version.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+variant_of:
+- viper
+reference:
+  doi: 10.1186/s12859-026-06524-x
+  year: 2026
+  journal: BMC Bioinformatics
+  first_author: Wang ALE
+  last_author: Vasciaveo A
+  pmid: '42332576'
+  pmcid: PMC13471495
+  title: 'pyVIPER: a fast and scalable Python package for protein activity estimation and master regulator analysis of single-cell
+    RNA sequencing data'
+links: {}
+added: '2026-11-13'
+evidence: we introduce pyVIPER, a Python-based tool for protein activity inference from transcriptional data.

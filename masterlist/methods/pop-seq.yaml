@@ -1,0 +1,26 @@
+name: POP-seq
+full_name: Protein Occupancy Profile-Sequencing
+category: wet
+summary: Phase-separation method that maps protein occupancy across the whole transcriptome, with a version that needs no
+  crosslinking and no poly-A pulldown.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-020-80846-5
+  year: 2021
+  journal: Sci Rep
+  first_author: Srivastava M
+  last_author: Janga SC
+  pmid: '33441968'
+  pmcid: PMC7806670
+  title: Transcriptome-wide high-throughput mapping of protein-RNA occupancy profiles using POP-seq.
+links: {}
+added: '2026-11-13'
+evidence: We present Protein Occupancy Profile-Sequencing (POP-seq), a phase separation based method in three versions, one
+  of which does not require crosslinking, thus providing unbiased protein occupancy profiles on whole cell transcriptome without
+  the requirement of poly-A pulldown.

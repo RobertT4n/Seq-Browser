@@ -1,0 +1,25 @@
+name: pg-gan
+full_name: Population genetics generative adversarial network
+category: dry
+summary: GAN-based estimator of population-genetic demographic parameters that learns to generate realistic synthetic genomes,
+  applied to 1000 Genomes data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1111/1755-0998.13386
+  year: 2021
+  journal: Mol Ecol Resour
+  first_author: Wang Z
+  last_author: Mathieson S
+  pmid: '33745225'
+  pmcid: PMC8596911
+  title: Automatic inference of demographic parameters using generative adversarial networks
+links: {}
+added: '2026-11-13'
+evidence: Our method, pg-gan, is based on a generative adversarial network that gradually learns to generate realistic synthetic
+  data.

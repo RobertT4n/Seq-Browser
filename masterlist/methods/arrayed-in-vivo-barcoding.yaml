@@ -1,0 +1,29 @@
+name: Arrayed in vivo barcoding
+category: wet
+summary: Pooled plasmid extraction from arrayed in vivo barcoded clones, followed by Oxford Nanopore library prep, for sequence
+  verification of plasmids and demultiplexing of pooled libraries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+throughput: 1e4-1e5
+reference:
+  doi: 10.1093/nar/gkae332
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Li W
+  last_author: Levy SF
+  pmid: '38709890'
+  pmcid: PMC11162764
+  title: Arrayed in vivo barcoding for multiplexed sequence verification of plasmid DNA and demultiplexing of pooled libraries
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop an arrayed in vivo plasmid barcoding platform that enables pooled plasmid extraction and library
+  preparation for Oxford Nanopore sequencing.

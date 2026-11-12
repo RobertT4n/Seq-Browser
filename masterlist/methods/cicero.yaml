@@ -1,0 +1,22 @@
+name: CICERO
+category: dry
+summary: Machine-learning model, built on the ESM2 protein language model, that predicts Cas9 PAM preferences from protein
+  sequence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-69098-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Fang T
+  last_author: Schwank G
+  pmid: '41656299'
+  pmcid: PMC12996302
+  title: Uncovering Cas9 PAM diversity through metagenomic mining and machine learning
+links: {}
+added: '2026-11-13'
+evidence: Here, we present CRISPR-PAMdb, a comprehensive and publicly accessible database compiling Cas9 protein sequences
+  from 3.8 million bacterial and archaeal genomes and PAM profiles from 7.4 million phage and plasmid sequences.

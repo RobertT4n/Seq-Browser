@@ -1,0 +1,25 @@
+name: GEfetch2R
+category: dry
+summary: R package and Docker image that downloads diverse scRNA-seq data types from public repositories, loads them into
+  R and benchmarks format conversion tools.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giag039
+  year: 2026
+  journal: Gigascience
+  first_author: Song Y
+  last_author: Gao J
+  pmid: '41964930'
+  pmcid: PMC13147242
+  title: 'GEfetch2R: fetching single-cell/bulk RNA-seq data from public repositories to R and benchmarking the subsequent
+    format conversion tools'
+links: {}
+added: '2026-11-13'
+evidence: However, no tool can fetch the diverse scRNA-seq data types (raw data, count matrix, and processed object) distributed
+  in various repositories, process and load the downloaded data to R, convert formats between scRNA-seq objects, and benchmark
+  the format conversion tools.FindingsHere, we present GEfetch2R, an R package with Docker image to (i) download diverse scRNA-seq
+  data types, including raw d

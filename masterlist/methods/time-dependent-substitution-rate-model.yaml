@@ -1,0 +1,22 @@
+name: Time-dependent substitution rate model
+category: dry
+summary: Bayesian molecular-clock model in which substitution rates vary through time, applied to viral and ancient DNA sequence
+  alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msz094
+  year: 2019
+  journal: Mol Biol Evol
+  first_author: Membrebe JV
+  last_author: Lemey P
+  pmid: '31004175'
+  pmcid: PMC6657730
+  title: Bayesian Inference of Evolutionary Histories under Time-Dependent Substitution Rates
+links: {}
+added: '2026-11-13'
+evidence: Building on recent insights into time-dependent evolutionary rates, we develop a formal and flexible Bayesian statistical
+  inference approach that accommodates rate variation through time.

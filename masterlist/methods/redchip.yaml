@@ -1,0 +1,27 @@
+name: RedChIP
+full_name: RNA-DNA proximity ligation and chromatin immunoprecipitation
+category: wet
+summary: Combines RNA-DNA proximity ligation with ChIP to map the RNAs that contact genomic sites bound by a chosen protein.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1073/pnas.2116222119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Gavrilov AA
+  last_author: Razin SV
+  pmid: '34969862'
+  pmcid: PMC8742611
+  title: RedChIP identifies noncoding RNAs associated with genomic sites occupied by Polycomb and CTCF proteins
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce RedChIP, a technique combining RNA-DNA proximity ligation and chromatin immunoprecipitation for
+  identifying RNA-chromatin interactions mediated by a particular protein.

@@ -1,0 +1,26 @@
+name: Lead-seq
+category: wet
+summary: Lead(II) acetate cleavage of single-stranded RNA regions followed by sequencing maps transcriptome-wide RNA structure
+  in living Yersinia pseudotuberculosis.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- chemical-cleavage
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkaa404
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Twittenhoff C
+  last_author: Narberhaus F
+  pmid: '32463449'
+  pmcid: PMC7337928
+  title: 'Lead-seq: transcriptome-wide structure probing in vivo using lead(II) ions'
+links: {}
+added: '2026-11-13'
+evidence: This new approach, termed 'Lead-seq', provides structural information independent of base identity.

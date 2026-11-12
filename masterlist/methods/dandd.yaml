@@ -1,0 +1,22 @@
+name: DandD
+category: dry
+summary: Tool that measures how much new sequence each added assembly contributes, using the delta measure estimated from
+  genomic sketches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2024.109054
+  year: 2024
+  journal: iScience
+  first_author: Bonnie JK
+  last_author: Langmead B
+  pmid: '38361606'
+  pmcid: PMC10867639
+  title: 'DandD: Efficient measurement of sequence growth and similarity'
+links: {}
+added: '2026-11-13'
+evidence: We introduce pertinent methods and DandD, a tool addressing how much new sequence is gained when a sequence collection
+  grows.

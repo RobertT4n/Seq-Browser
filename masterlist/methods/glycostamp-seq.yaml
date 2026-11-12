@@ -1,0 +1,33 @@
+name: GlycoStamp-seq
+category: wet
+summary: Couples Ac4ManNAz metabolic glycoengineering with single-cell RNA and TCR sequencing to profile nascent sialoglycan
+  dynamics in tumour immune cells.
+readouts:
+- glycan
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+scope: genome-wide
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-026-78101-y
+  year: 2026
+  journal: Nat Commun
+  first_author: Wu X
+  last_author: Yang R
+  pmid: '43003801'
+  pmcid: PMC13748593
+  title: 'GlycoStamp-seq: Single-cell nascent sialoglycometabolomics captures sialylation dynamics in immune cells of an oxaliplatin-treated
+    bladder cancer mouse model'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present GlycoStamp-seq, a method to profile nascent sialoglycan dynamics by coupling Ac₄ManNAz-based metabolic
+  glycoengineering with single-cell RNA/TCR sequencing (scRNA/TCR-seq) and scDyna-seq.

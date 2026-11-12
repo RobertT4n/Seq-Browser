@@ -1,0 +1,27 @@
+name: PADD-seq
+full_name: Protein-Associated DNA Damage Sequencing
+category: wet
+summary: Runs Damage-seq on ChIP-enriched DNA to map where a protein sits relative to UV and cisplatin lesions at base resolution.
+readouts:
+- dna-damage
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+builds_on:
+- damage-seq
+reference:
+  doi: 10.1093/nar/gkad008
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Zhu Y
+  last_author: Hu J
+  pmid: '36715337'
+  pmcid: PMC10085696
+  title: Genome-wide mapping of protein-DNA damage interaction by PADD-seq
+links: {}
+added: '2026-11-13'
+evidence: To address this issue, we developed a new method named Protein-Associated DNA Damage Sequencing (PADD-seq) that
+  uses Damage-seq to detect damage distribution in chromatin immunoprecipitation-enriched DNA fragments.

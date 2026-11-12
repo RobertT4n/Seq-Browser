@@ -1,0 +1,21 @@
+name: SCORE
+full_name: Smart Consensus Of RNA Expression
+category: dry
+summary: Snakemake-based consensus workflow that combines several differential-expression tools for bacterial RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa681
+  year: 2021
+  journal: Bioinformatics
+  first_author: Wolf SA
+  last_author: Semmler T
+  pmid: '32717040'
+  title: 'SCORE: Smart Consensus Of RNA Expression-a consensus tool for detecting differentially expressed genes in bacteria'
+links: {}
+added: '2026-11-13'
+evidence: We present the Snakemake-based tool Smart Consensus Of RNA Expression (SCORE) which uses a consensus approach founded
+  on a selection of well-established tools for differential gene expression analysis.

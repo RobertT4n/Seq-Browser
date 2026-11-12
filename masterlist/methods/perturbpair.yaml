@@ -1,0 +1,33 @@
+name: PerturbPair
+category: wet
+summary: Pairs parallel Perturb-seq with optical pooled screening over the same macrophage perturbations, so transcriptomic
+  and imaging phenotypes can be compared.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+species:
+- mouse
+chemistry:
+- reverse-transcription
+perturbation:
+- crispr-knockout
+builds_on:
+- perturb-seq
+- optical-pooled-screens
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.05.27.728345
+  year: 2026
+  journal: bioRxiv
+  first_author: Kudo T
+  last_author: Regev A
+  title: Scalable multimodal mapping of macrophage regulatory architecture by integrating optical and transcriptomic pooled
+    screens
+links: {}
+added: '2026-11-13'
+evidence: Here, we present PerturbPair, a platform that combines parallel Perturb-Seq and optical pooled screening (OPS) in
+  primary mouse bone marrow-derived macrophages stimulated with lipopolysaccharide.

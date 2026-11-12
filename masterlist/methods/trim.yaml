@@ -1,0 +1,25 @@
+name: TRIM
+full_name: TCR-RNA Integrating Model
+category: dry
+summary: Multi-modal variational autoencoder that jointly models paired single-cell RNA and TCR sequencing to predict T cell
+  clonality and transcriptional state.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-70505-0
+  year: 2026
+  journal: Nat Commun
+  first_author: He C
+  last_author: Uhler C
+  pmid: '41820396'
+  pmcid: PMC13121706
+  title: Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell
+    response to cancer immunotherapy
+links: {}
+added: '2026-11-13'
+evidence: we present the TCR-RNA Integrating Model (TRIM), a multi-modal variational autoencoder framework that integrates
+  RNA-TCR data and predicts T cell clonality and transcriptional states.

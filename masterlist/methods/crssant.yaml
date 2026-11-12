@@ -1,0 +1,20 @@
+name: CRSSANT
+full_name: cross-linked RNA secondary structure analysis using network techniques
+category: dry
+summary: Python pipeline that groups gapped PARIS reads with network analysis and tests the implied RNA secondary structures
+  with ViennaRNA.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/668491
+  year: 2019
+  journal: bioRxiv
+  first_author: Fischer-Hwang I
+  last_author: Weissman T
+  title: Cross-linked RNA Secondary Structure Analysis using Network Techniques
+links: {}
+added: '2026-11-13'
+evidence: We developed an automated method for producing RNA secondary structure maps using network analysis techniques.

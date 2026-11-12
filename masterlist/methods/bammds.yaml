@@ -1,0 +1,22 @@
+name: bammds
+full_name: BAM multidimensional scaling
+category: dry
+summary: Multidimensional scaling for visualising low-depth sequenced samples against a reference panel of genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu410
+  year: 2014
+  journal: Bioinformatics
+  first_author: Malaspinas AS
+  last_author: Nielsen R
+  pmid: '24974206'
+  pmcid: PMC4184259
+  title: 'bammds: a tool for assessing the ancestry of low-depth whole-genome data using multidimensional scaling (MDS)'
+links: {}
+added: '2026-11-13'
+evidence: Summary We present bammds, a practical tool that allows visualization of samples sequenced by second-generation
+  sequencing when compared with a reference panel of individuals (usually genotypes) using a multidimensional scaling algorithm.

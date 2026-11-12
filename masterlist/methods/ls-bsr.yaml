@@ -1,0 +1,25 @@
+name: LS-BSR
+full_name: large-scale BLAST score ratio
+category: dry
+summary: Pipeline that compares the gene content of hundreds to thousands of bacterial genomes via BLAST score ratios and
+  returns a coding-sequence relatedness matrix.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: Here we present the large-scale BLAST score ratio (LS-BSR) pipeline, which rapidly compares the genetic content
+  of hundreds to thousands of bacterial genomes, and returns a matrix that describes the relatedness of all coding sequences
+  (CDSs) in all genomes surveyed.
+reference:
+  doi: 10.7717/peerj.332
+  year: 2014
+  journal: PeerJ
+  first_author: Sahl JW
+  last_author: Keim P
+  pmid: '24749011'
+  pmcid: PMC3976120
+  title: 'The large-scale blast score ratio (LS-BSR) pipeline: a method to rapidly compare genetic content between bacterial
+    genomes'
+links: {}
+added: '2026-11-13'

@@ -1,0 +1,24 @@
+name: MBGCCA
+category: dry
+summary: Graph contrastive-learning metagenomic binner that combines tetranucleotide and abundance profiles with assembly-graph
+  topology.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/e27090921
+  year: 2025
+  journal: Entropy (Basel)
+  first_author: Wei G
+  last_author: Liu Y
+  pmid: '41008047'
+  pmcid: PMC12468353
+  title: A Graph Contrastive Learning Method for Enhancing Genome Recovery in Complex Microbial Communities
+links: {}
+added: '2026-11-13'
+evidence: To address these limitations, we present MBGCCA, a novel metagenomic binning framework that synergistically integrates
+  graph neural networks (GNNs), contrastive learning, and information-theoretic regularization to enhance binning accuracy,
+  robustness, and biological coherence.

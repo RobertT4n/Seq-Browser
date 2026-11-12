@@ -1,0 +1,25 @@
+name: Normalized Ribo-Seq
+category: wet
+summary: Ribo-seq with a yeast-lysate spike-in added to mammalian lysates so that absolute, not only relative, ribosome density
+  changes can be measured.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.21769/bioprotoc.4323
+  year: 2022
+  journal: Bio Protoc
+  first_author: Hoerth K
+  last_author: Schott J
+  pmid: '35340296'
+  pmcid: PMC8899559
+  title: Normalized Ribo-Seq for Quantifying Absolute Global and Specific Changes in Translation
+links: {}
+added: '2026-11-13'
+evidence: Here, we modified the original ribosome profiling protocol that was first established by Ingolia <i>et al.</i> (2009),
+  by adding small amounts of yeast lysate to the mammalian lysates of interest as a spike-in.

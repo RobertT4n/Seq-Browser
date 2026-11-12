@@ -1,0 +1,26 @@
+name: SIA
+full_name: Selection Inference using the Ancestral recombination graph
+category: dry
+summary: Deep-learning (LSTM) method that infers positive selection coefficients, allele-frequency trajectories and onset
+  time from ancestral recombination graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1093/molbev/msab332
+  year: 2022
+  journal: Mol Biol Evol
+  first_author: Hejase HA
+  last_author: Siepel A
+  pmid: '34888675'
+  pmcid: PMC8789311
+  title: A Deep-Learning Approach for Inference of Selective Sweeps from the Ancestral Recombination Graph
+links: {}
+added: '2026-11-13'
+evidence: 'Coupling the rich information in the ancestral recombination graph (ARG) with a powerful and scalable deep-learning
+  framework, we developed a novel method to detect and quantify positive selection: Selection Inference using the Ancestral
+  recombination graph (SIA).'

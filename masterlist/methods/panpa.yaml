@@ -1,0 +1,22 @@
+name: PanPA
+category: dry
+summary: Builds graphs from multiple sequence alignments of panproteome protein families and aligns DNA or amino acid sequences
+  back to them.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad167
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Dabbaghie F
+  last_author: Kalinina OV
+  pmid: '38145107'
+  pmcid: PMC10748787
+  title: 'PanPA: generation and alignment of panproteome graphs'
+evidence: We present PanPA, a method that takes a set of multiple sequence alignments of protein sequences, indexes them,
+  and builds a graph for each multiple sequence alignment.
+added: '2026-11-13'
+links: null

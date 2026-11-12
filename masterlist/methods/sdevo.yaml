@@ -1,0 +1,23 @@
+name: SDevo
+full_name: State-dependent evolutionary phylodynamic model
+category: dry
+summary: Bayesian state-dependent phylodynamic model that infers spatially varying division rates in tumours from the branching
+  and mutation patterns of multi-region sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41559-023-02000-4
+  year: 2023
+  journal: Nat Ecol Evol
+  first_author: Lewinsohn MA
+  last_author: Feder AF
+  pmid: '36894662'
+  pmcid: PMC10089931
+  title: State-dependent evolutionary models reveal modes of solid tumour growth
+evidence: We develop a Bayesian state-dependent evolutionary phylodynamic model (SDevo) that quantifies these patterns to
+  infer the differential division rates between peripheral and central cells.
+added: '2026-11-13'
+links: null

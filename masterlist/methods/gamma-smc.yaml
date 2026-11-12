@@ -1,0 +1,22 @@
+name: Gamma-SMC
+full_name: Gamma sequentially Markovian coalescent
+category: dry
+summary: Gamma-distribution representation of posterior coalescence times that gives a faster alternative to PSMC for pairwise
+  coalescence inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277665.123
+  year: 2023
+  journal: Genome Res
+  first_author: Schweiger R
+  last_author: Durbin R
+  pmid: '37562965'
+  pmcid: PMC10538485
+  title: Ultrafast genome-wide inference of pairwise coalescence times
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce a new method, Gamma-SMC , which is more than 10 times faster than current methods.

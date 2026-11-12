@@ -1,0 +1,32 @@
+name: OneCell CUT&Tag
+category: wet
+summary: Single-cell CUT&Tag that reads chromatin marks, the full transcriptome and surface markers from the same cell, down
+  to one-cell input.
+readouts:
+- histone-modification
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- reverse-transcription
+partition_unknown: not stated in the abstract
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.1038/s41587-026-03259-1
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Schwager A
+  last_author: Vallot C
+  pmid: '42587135'
+  title: Simultaneous single-cell profiling of chromatin, transcriptome and surface markers with OneCell CUT&amp;Tag captures
+    epigenomic reprogramming
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce OneCell CUT&Tag, a method that provides matched high-resolution epigenome, full-transcriptome
+  and surface marker quantification from every cell, with input as low as one cell, without relying on computational aggregation
+  into metacells.

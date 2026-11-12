@@ -1,0 +1,25 @@
+name: fitCons
+full_name: fitness consequence
+category: dry
+summary: Estimates the probability that a point mutation at each genome position affects fitness, from clustered functional
+  genomic fingerprints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/ng.3196
+  year: 2015
+  journal: Nat Genet
+  first_author: Gulko B
+  last_author: Siepel A
+  pmid: '25599402'
+  pmcid: PMC4342276
+  title: A method for calculating probabilities of fitness consequences for point mutations across the human genome
+links: {}
+added: '2026-11-13'
+evidence: We describe a new computational method for estimating the probability that a point mutation at each position in
+  a genome will influence fitness.

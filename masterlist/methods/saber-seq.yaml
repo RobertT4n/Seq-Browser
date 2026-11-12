@@ -1,0 +1,31 @@
+name: SABER-seq
+category: wet
+summary: CRISPR-Cas recorder that stores Notch signalling as heritable mutations, read out by single-cell transcriptomics
+  in zebrafish brain.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: targeted
+validated_system:
+- tissue-in-vivo
+species:
+- other-vertebrate
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1242/dev.203102
+  year: 2024
+  journal: Development
+  first_author: Siniscalco AM
+  last_author: Raj B
+  pmid: '39575683'
+  pmcid: PMC11701514
+  title: Barcoding Notch signaling in the developing brain
+links: {}
+added: '2026-11-13'
+evidence: We present SABER-seq, a CRISPR-Cas molecular recorder
+partition_unknown: not stated in the abstract

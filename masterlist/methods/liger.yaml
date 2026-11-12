@@ -1,0 +1,23 @@
+name: LIGER
+category: dry
+summary: Integration algorithm that separates shared and dataset-specific features to integrate single-cell multi-omic data
+  (RNA and DNA methylation).
+readouts:
+- rna
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2019.05.006
+  year: 2019
+  journal: Cell
+  first_author: Welch JD
+  last_author: Macosko EZ
+  pmid: '31178122'
+  pmcid: PMC6716797
+  title: Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity
+links: {}
+added: '2026-11-13'
+evidence: To flexibly model single-cell datasets, we developed LIGER, an algorithm that delineates shared and dataset-specific
+  features of cell identity.

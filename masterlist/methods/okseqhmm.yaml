@@ -1,0 +1,22 @@
+name: OKseqHMM
+category: dry
+summary: Toolkit that calls genome-wide replication fork directionality, origins and terminations from Okazaki-fragment sequencing
+  and related datasets.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac1239
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Liu Y
+  last_author: Chen CL
+  pmid: '36629249'
+  pmcid: PMC9976876
+  title: 'OKseqHMM: a genome-wide replication fork directionality analysis toolkit'
+links: {}
+added: '2026-11-13'
+evidence: To study the direction of replication fork movement and TRCs, we developed a bioinformatics toolkit called OKseqHMM
+  (https://github.com/CL-CHEN-Lab/OK-Seq, https://doi.org/10.5281/zenodo.7428883).

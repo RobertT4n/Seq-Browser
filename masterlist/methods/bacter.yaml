@@ -1,0 +1,21 @@
+name: Bacter
+category: dry
+summary: BEAST 2 package for Bayesian inference of bacterial recombination graphs under the ClonalOrigin model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/genetics.116.193425
+  year: 2017
+  journal: Genetics
+  first_author: Vaughan TG
+  last_author: French NP
+  pmid: '28007885'
+  pmcid: PMC5289856
+  title: Inferring Ancestral Recombination Graphs from Bacterial Genomic Data
+links: {}
+added: '2026-11-13'
+evidence: The method is implemented as an open source BEAST 2 package, Bacter, which is available via the project web page
+  at http://tgvaughan.github.io/bacter.

@@ -1,0 +1,22 @@
+name: Count splitting
+category: dry
+summary: Framework that splits Poisson counts so that gene-level tests after latent variable estimation (e.g. cell type or
+  pseudotime) in scRNA-seq keep valid Type 1 error control.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/biostatistics/kxac047
+  year: 2023
+  journal: Biostatistics
+  first_author: Neufeld A
+  last_author: Witten D
+  pmid: '36511385'
+  pmcid: PMC12235260
+  title: Inference after latent variable estimation for single-cell RNA sequencing data
+links: {}
+added: '2026-11-13'
+evidence: In this article, we introduce count splitting, a flexible framework that allows us to carry out valid inference
+  in this setting, for virtually any latent variable estimation technique and inference approach, under a Poisson assumption.

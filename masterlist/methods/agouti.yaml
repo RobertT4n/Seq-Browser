@@ -1,0 +1,22 @@
+name: AGOUTI
+category: dry
+full_name: Annotated Genome Optimization Using Transcriptome Information
+summary: Uses RNA-seq data to scaffold contigs and merge fragmented gene models in short-read genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13742-016-0136-3
+  year: 2016
+  journal: Gigascience
+  first_author: Zhang SV
+  last_author: Hahn MW
+  pmid: '27435057'
+  pmcid: PMC4952227
+  title: 'AGOUTI: improving genome assembly and annotation using transcriptome data.'
+links: {}
+added: '2026-11-13'
+evidence: We present AGOUTI (Annotated Genome Optimization Using Transcriptome Information), a tool that uses RNA sequencing
+  data to simultaneously combine contigs into scaffolds and fragmented gene models into single models.

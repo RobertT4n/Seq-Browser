@@ -1,0 +1,24 @@
+name: Lathe
+category: dry
+summary: Computational workflow for long-read basecalling, assembly, consensus refinement with long or short reads, and genome
+  circularization of gut bacterial genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41596-020-00424-x
+  year: 2021
+  journal: Nat Protoc
+  first_author: Maghini DG
+  last_author: Bhatt AS
+  pmid: '33277629'
+  pmcid: PMC8750633
+  title: Improved high-molecular-weight DNA extraction, nanopore sequencing and metagenomic assembly from the human gut microbiome
+links: {}
+added: '2026-11-13'
+evidence: We also present Lathe ( www.github.com/bhattlab/lathe ), a computational workflow for long-read basecalling, assembly,
+  consensus refinement with long reads or Illumina short reads and genome circularization.

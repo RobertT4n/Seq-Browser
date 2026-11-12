@@ -1,0 +1,28 @@
+name: Graft-seq
+category: wet
+summary: Grafts a known RNA branch onto a modification site, then reads the landing or jumping signal during reverse transcription
+  to map m6A, m6Am and NAD caps at single-base resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.crmeth.2025.101103
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Li T
+  last_author: Liu J
+  pmid: '40645188'
+  pmcid: PMC12296446
+  title: Graft-seq precisely maps RNA modifications via site-specific chemical grafting strategy
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a strategy, termed Graft-seq, which harnesses specific enzymatic and chemical reactions on an
+  RNA modification site to covalently graft a known RNA branch and further utilizes the branch-to-main-chain or main-chain-to-branch
+  landing/jumping site signal during reverse transcription to determine the locations of RNA modifications at single-base
+  resolution.

@@ -1,0 +1,23 @@
+name: FENRIR
+category: dry
+summary: Machine-learning framework that integrates epigenomic and functional genomics datasets to infer tissue-specific enhancer
+  networks and prioritise disease-associated enhancers.
+readouts:
+- chromatin-accessibility
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2021.02.002
+  year: 2021
+  journal: Cell Syst
+  first_author: Chen X
+  last_author: Troyanskaya OG
+  pmid: '33689683'
+  title: Tissue-specific enhancer functional networks for associating distal regulatory regions to disease
+links: {}
+added: '2026-11-13'
+evidence: We present an integrative machine-learning framework, FENRIR, that integrates thousands of disparate epigenetic
+  and functional genomics datasets

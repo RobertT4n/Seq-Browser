@@ -1,0 +1,29 @@
+name: TaDRIM-seq
+category: wet
+summary: Protein G-Tn5 targeting with in situ proximity ligation to profile chromatin-associated RNAs at chosen DNA loci and
+  RNA-RNA contacts in intact nuclei.
+readouts:
+- rna-chromatin-interaction
+- rna-rna-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-53534-5
+  year: 2025
+  journal: Nat Commun
+  first_author: Ding C
+  last_author: Li X
+  pmid: '39929795'
+  pmcid: PMC11811046
+  title: Simultaneous profiling of chromatin-associated RNA at targeted DNA loci and RNA-RNA Interactions through TaDRIM-seq
+links: {}
+added: '2026-11-13'
+evidence: Here, we present TaDRIM-seq, a technique employing Protein G (PG)-Tn5-targeted DNA elements and in situ proximity
+  ligation to concurrently probe caRNAs across diverse genomic regions as well as global RNA-RNA interactions within intact
+  nuclei.

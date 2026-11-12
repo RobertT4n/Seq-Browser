@@ -1,0 +1,23 @@
+name: CRIP
+full_name: CircRNAs Interact with Proteins
+category: dry
+summary: Hybrid CNN-RNN model with codon-based encoding that predicts RBP binding sites on circRNAs from RNA sequence alone.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.070565.119
+  year: 2019
+  journal: RNA
+  first_author: Zhang K
+  last_author: Shen HB
+  pmid: '31537716'
+  pmcid: PMC6859861
+  title: 'CRIP: predicting circRNA-RBP-binding sites using a codon-based encoding and hybrid deep neural networks.'
+links: {}
+added: '2026-11-13'
+evidence: CRIP consists of a stacked codon-based encoding scheme and a hybrid deep learning architecture, in which a convolutional
+  neural network (CNN) learns high-level abstract features and a recurrent neural network (RNN) learns long dependency in
+  the sequences.

@@ -1,0 +1,22 @@
+name: ngsBriggs
+full_name: NGS-based Briggs ancient DNA damage model
+category: dry
+summary: Fast maximum-likelihood estimation of the Briggs ancient DNA post-mortem damage model from sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.14029
+  year: 2025
+  journal: Mol Ecol Resour
+  first_author: Zhao L
+  last_author: Korneliussen TS
+  pmid: '39432055'
+  pmcid: PMC11646307
+  title: 'Revisiting the Briggs Ancient DNA Damage Model: A Fast Maximum Likelihood Method to Estimate Post-Mortem Damage'
+links: {}
+added: '2026-11-13'
+evidence: We present a novel statistical method implemented in a fast multithreaded programme, ngsBriggs that enables rapid
+  quantification of PMD by estimation of the Briggs ancient damage model parameters (Briggs parameters).

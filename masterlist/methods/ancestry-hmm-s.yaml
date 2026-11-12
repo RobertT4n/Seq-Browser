@@ -1,0 +1,23 @@
+name: Ancestry_HMM-S
+full_name: Ancestry hidden Markov model for adaptive introgression
+category: dry
+summary: Hidden Markov model for identifying genes under adaptive introgression and estimating selection strength from population
+  genomic data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msab014
+  year: 2021
+  journal: Mol Biol Evol
+  first_author: Svedberg J
+  last_author: Corbett-Detig R
+  pmid: '33502512'
+  pmcid: PMC8097282
+  title: Inferring Adaptive Introgression Using Hidden Markov Models
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Ancestry_HMM-S, a hidden Markov model-based method for identifying genes undergoing adaptive introgression
+  and quantifying the strength of selection acting on them.

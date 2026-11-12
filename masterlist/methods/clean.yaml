@@ -1,0 +1,21 @@
+name: CLEAN
+category: dry
+summary: Pipeline that removes spike-ins, host DNA, rRNA and other contaminant sequences from short- and long-read data and
+  reports what was removed.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf105
+  year: 2025
+  journal: NAR Genom Bioinform
+  first_author: Lataretu M
+  last_author: Hölzer M
+  pmid: '40708849'
+  pmcid: PMC12288876
+  title: Targeted decontamination of sequencing data with CLEAN
+links: {}
+added: '2026-11-13'
+evidence: We developed CLEAN, a pipeline to remove unwanted sequences from both long- and short-read sequencing techniques.

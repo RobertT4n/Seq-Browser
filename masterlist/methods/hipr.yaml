@@ -1,0 +1,23 @@
+name: HiPR
+full_name: High-throughput probabilistic RNA structure inference
+category: dry
+summary: Probabilistic folding algorithm that combines DMS-seq and DMS-MaPseq structure-probing data for single-nucleotide
+  RNA structure prediction.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.06.004
+  year: 2020
+  journal: Comput Struct Biotechnol J
+  first_author: Kuksa PP
+  last_author: Wang LS
+  pmid: '32637050'
+  pmcid: PMC7327253
+  title: 'HiPR: High-throughput probabilistic RNA structure inference'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe HiPR, a novel method for RNA structure prediction at single-nucleotide resolution that combines
+  high-throughput structure probing data (DMS-seq, DMS-MaPseq) with a novel probabilistic folding algorithm.

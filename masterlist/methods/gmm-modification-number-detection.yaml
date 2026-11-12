@@ -1,0 +1,29 @@
+name: GMM modification-number detection
+full_name: Gaussian mixture model
+category: dry
+summary: Unsupervised Gaussian mixture framework that estimates the number of nucleotide modifications, their current signal
+  levels and mixing proportions from nanopore data.
+readouts:
+- dna-methylation
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btaa601
+  year: 2020
+  journal: Bioinformatics
+  first_author: Ding H
+  last_author: Paten B
+  pmid: '32597959'
+  pmcid: PMC7723331
+  title: Gaussian mixture model-based unsupervised nucleotide modification number detection using nanopore-sequencing readouts
+links: {}
+added: '2026-11-13'
+evidence: Although various algorithms have been developed for nanopore-sequencing-based modification analysis, more detailed
+  characterizations, such as modification numbers, corresponding signal levels and proportions are still lacking.ResultsWe
+  present a framework for the unsupervised determination of the number of nucleotide modifications from nanopore-sequencing
+  readouts.

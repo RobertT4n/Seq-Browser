@@ -1,0 +1,23 @@
+name: EDGE-pro
+full_name: Estimated Degree of Gene Expression in Prokaryotic Genomes
+category: dry
+summary: Software that estimates per-gene expression from RNA-seq of bacterial and archaeal genomes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.4137/ebo.s11250
+  year: 2013
+  journal: Evol Bioinform Online
+  first_author: Magoc T
+  last_author: Salzberg SL
+  pmid: '23531787'
+  pmcid: PMC3603529
+  title: 'EDGE-pro: Estimated Degree of Gene Expression in Prokaryotic Genomes'
+links: {}
+added: '2026-11-13'
+evidence: EDGE-pro (Estimated Degree of Gene Expression in PROkaryotes) processes the raw data from an RNA-seq experiment
+  on a bacterial or archaeal species and produces estimates of the expression levels for each gene in these gene-dense genomes.SoftwareThe
+  EDGE-pro tool is implemented as a pipeline of C++ and Perl programs and is freely available as open-source code at http://www.genomics.jhu.edu/software

@@ -1,0 +1,21 @@
+name: Cuttlefish
+category: dry
+summary: Parallel, low-memory compaction of de Bruijn graphs built from large genome collections.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab309
+  year: 2021
+  journal: Bioinformatics
+  first_author: Khan J
+  last_author: Patro R
+  pmid: '34252958'
+  pmcid: PMC8275350
+  title: 'Cuttlefish: fast, parallel and low-memory compaction of de Bruijn graphs from large-scale genome collections'
+links: {}
+added: '2026-11-13'
+evidence: Results We introduce a new algorithm, implemented in the tool Cuttlefish, to construct the (colored) compacted de
+  Bruijn graph from a collection of one or more genome references.

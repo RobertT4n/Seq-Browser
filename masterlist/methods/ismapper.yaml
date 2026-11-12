@@ -1,0 +1,22 @@
+name: ISMapper
+full_name: Insertion sequence mapper
+category: dry
+summary: Identifies transposase insertion sites in bacterial genomes from short-read sequence data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-015-1860-2
+  year: 2015
+  journal: BMC Genomics
+  first_author: Hawkey J
+  last_author: Holt KE
+  pmid: '26336060'
+  pmcid: PMC4558774
+  title: 'ISMapper: identifying transposase insertion sites in bacterial genomes from short read sequence data'
+links: {}
+added: '2026-11-13'
+evidence: Here we present ISMapper, a mapping-based tool for identification of the site and orientation of IS insertions in
+  bacterial genomes, directly from paired-end short read data.

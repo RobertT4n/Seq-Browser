@@ -1,0 +1,22 @@
+name: WhatsHap Polyphase
+category: dry
+summary: Two-stage polyploid haplotype phasing from long reads that clusters reads and threads haplotypes through the clusters,
+  implemented in WhatsHap.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02158-1
+  year: 2020
+  journal: Genome Biol
+  first_author: Schrinner SD
+  last_author: Klau GW
+  pmid: '32951599'
+  pmcid: PMC7504856
+  title: 'Haplotype threading: accurate polyploid phasing from long reads'
+evidence: We present WHATSHAP POLYPHASE, a novel two-stage approach that addresses these challenges by (i) clustering reads
+  and (ii) threading the haplotypes through the clusters.
+added: '2026-11-13'
+links: null

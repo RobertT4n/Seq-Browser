@@ -1,0 +1,26 @@
+name: InoDREAM
+full_name: Inosine Deep Residual Enhanced Attention Model
+category: dry
+summary: Deep-learning framework trained on REX-seq A-to-I sites that predicts regulatory proteins and cis-elements linked
+  to edited transcripts.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41421-026-00930-4
+  year: 2026
+  journal: Cell Discov
+  first_author: Han S
+  last_author: Weng X
+  pmid: '42982798'
+  pmcid: PMC13737063
+  title: Deciphering the regulatory code of RNA inosine through enzymatic precision mapping and an explainable deep learning
+    model
+links: {}
+added: '2026-11-13'
+evidence: Leveraging the high-confidence A-to-I editing sites identified by REX-seq, we developed InoDREAM, which successfully
+  predicted multiple regulatory proteins that exhibit specific binding affinity to A-to-I edited transcripts while simultaneously
+  identifying disease-associated mutation sites and relevant cis-regulatory elements that are functionally linked to RNA editing
+  events.

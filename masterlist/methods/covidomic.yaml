@@ -1,0 +1,23 @@
+name: COVIDomic
+category: dry
+summary: Cloud multi-omics platform that analyses COVID-19 patient metatranscriptomic data to infer SARS-CoV-2 strain origin
+  and predict severity risk factors.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009183
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Naumov V
+  last_author: Zhavoronkov A
+  pmid: '34260589'
+  pmcid: PMC8312936
+  title: 'COVIDomic: A multi-modal cloud-based platform for identification of risk factors associated with COVID-19 severity'
+links: {}
+added: '2026-11-13'
+evidence: In this article, we introduce COVIDomic, a multi-omics online platform designed to facilitate the analysis and interpretation
+  of the large amount of health data collected from patients with COVID-19.

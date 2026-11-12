@@ -1,0 +1,23 @@
+name: VCF Zarr
+full_name: Variant Call Format (VCF) encoded in Zarr
+category: dry
+summary: Zarr-based encoding of VCF data with conversion software for scalable storage and analysis of biobank-scale variant
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaf049
+  year: 2025
+  journal: Gigascience
+  first_author: Czech E
+  last_author: Kelleher J
+  pmid: '40451243'
+  pmcid: PMC12127038
+  title: Analysis-ready VCF at Biobank scale using Zarr
+links: {}
+added: '2026-11-13'
+evidence: We present the VCF Zarr specification, an encoding of the VCF data model using Zarr, along with fundamental software
+  infrastructure for efficient and reliable conversion at scale.

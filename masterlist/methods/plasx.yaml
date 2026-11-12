@@ -1,0 +1,21 @@
+name: PlasX
+category: dry
+summary: Machine-learning model that identifies plasmids in metagenomes; used to define plasmid systems across human gut metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41564-024-01610-3
+  year: 2024
+  journal: Nat Microbiol
+  first_author: Yu MK
+  last_author: Eren AM
+  pmid: '38443576'
+  pmcid: PMC10914615
+  title: Diverse plasmid systems and their ecology across human gut metagenomes revealed by PlasX and MobMess
+links: {}
+added: '2026-11-13'
+evidence: Here we developed a machine-learning model, PlasX, which identified 68,350 non-redundant plasmids across human gut
+  metagenomes

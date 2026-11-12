@@ -1,0 +1,22 @@
+name: lefser
+category: dry
+summary: R/Bioconductor implementation of the LEfSe metagenomic biomarker discovery algorithm, with changes for performance
+  and accuracy.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae707
+  year: 2024
+  journal: Bioinformatics
+  first_author: Khleborodova A
+  last_author: Oh S
+  pmid: '39585730'
+  pmcid: PMC11665633
+  title: 'lefser: implementation of metagenomic biomarker discovery tool, LEfSe, in R'
+links: null
+added: '2026-11-13'
+evidence: We present the lefser package to provide comparable functionality within the R/Bioconductor ecosystem of statistical
+  analysis tools, with improvements to the original algorithm for performance, accuracy, and reproducibility.

@@ -1,0 +1,23 @@
+name: Severus
+category: dry
+summary: Breakpoint-graph caller for somatic structural variants and complex rearrangements in cancer genomes from long-read
+  sequencing, with matched normals and haplotype-specific calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41587-025-02618-8
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Keskus AG
+  last_author: Kolmogorov M
+  pmid: '40185952'
+  pmcid: PMC12483193
+  title: Severus detects somatic structural variation and complex rearrangements in cancer genomes using long-read sequencing
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Severus, a breakpoint graph-based algorithm for somatic SV calling from long-read cancer sequencing.

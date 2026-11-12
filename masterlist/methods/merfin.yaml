@@ -1,0 +1,22 @@
+name: Merfin
+category: dry
+summary: k-mer-based variant filter that validates variant calls against read k-mers to improve genotyping, assembly evaluation
+  and polishing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01445-y
+  year: 2022
+  journal: Nat Methods
+  first_author: Formenti G
+  last_author: Phillippy AM
+  pmid: '35361932'
+  pmcid: PMC9745813
+  title: 'Merfin: improved variant filtering, assembly evaluation and polishing via k-mer validation'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce Merfin, a k-mer based variant-filtering algorithm for improved accuracy in genotyping and genome
+  assembly polishing.

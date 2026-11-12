@@ -1,0 +1,23 @@
+name: LucaVirus
+category: dry
+summary: Multi-modal nucleotide and protein foundation model for viruses, used to build downstream models for virus discovery,
+  protein annotation and evolvability prediction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nsr/nwag376
+  year: 2026
+  journal: Natl Sci Rev
+  first_author: Pan YF
+  last_author: Shi M
+  pmid: '42500742'
+  pmcid: PMC13397533
+  title: 'Predicting the evolutionary and functional landscapes of viruses with a unified nucleotide-protein language model:
+    LucaVirus'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce LucaVirus, a multi-modal foundation model for viruses, trained on 25.4 billion nucleotide and
+  amino acid tokens covering a vast majority of catalogued viral diversity.

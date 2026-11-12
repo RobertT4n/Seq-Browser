@@ -1,0 +1,23 @@
+name: PhaVa
+category: dry
+summary: Computational tool that identifies DNA inversions from long-read datasets, used to find intragenic invertons in bacterial
+  and archaeal isolate genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41586-024-07970-4
+  year: 2024
+  journal: Nature
+  first_author: Chanin RB
+  last_author: Bhatt AS
+  pmid: '39322669'
+  title: Intragenic DNA inversions expand bacterial coding capacity
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe the development of PhaVa, a computational tool that identifies DNA inversions using long-read
+  datasets.

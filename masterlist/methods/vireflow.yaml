@@ -1,0 +1,22 @@
+name: ViReflow
+category: dry
+summary: Cloud-based pipeline that trims, maps, calls variants and builds consensus genomes from viral amplicon sequencing
+  at scale.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-022-09035-w
+  year: 2022
+  journal: Sci Rep
+  first_author: Moshiri N
+  last_author: Knight R
+  pmid: '35332213'
+  pmcid: PMC8943356
+  title: The ViReflow pipeline enables user friendly large scale viral consensus genome reconstruction
+links: {}
+added: '2026-11-13'
+evidence: We developed ViReflow, a user-friendly viral consensus sequence reconstruction pipeline enabling rapid analysis
+  of viral sequence datasets leveraging Amazon Web Services (AWS) cloud compute resources and the Reflow system.

@@ -1,0 +1,22 @@
+name: Seroplacer
+category: dry
+summary: R package that predicts Salmonella and E. coli serovars from full-length 16S rRNA amplicons by phylogenetic placement.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/msystems.00757-23
+  year: 2024
+  journal: mSystems
+  first_author: Grinevich D
+  last_author: Callahan B
+  pmid: '38319092'
+  pmcid: PMC10949465
+  title: Serovar-level identification of bacterial foodborne pathogens from full-length 16S rRNA gene sequencing
+links: {}
+added: '2026-11-13'
+evidence: We developed a novel algorithm for serotype prediction, implemented as an R package (Seroplacer), which takes as
+  input full-length 16S rRNA gene sequences and outputs serovar predictions after phylogenetic placement into a reference
+  phylogeny.

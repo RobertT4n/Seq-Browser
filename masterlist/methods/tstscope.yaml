@@ -1,0 +1,22 @@
+name: TSTScope
+category: dry
+summary: Interpretable deep-learning framework that joins scRNA-seq and TCR sequencing into a unified CD8 T-cell representation.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.76983
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Cao S
+  last_author: Li Y
+  pmid: '42555209'
+  pmcid: PMC13440375
+  title: TSTScope Unifies Single-Cell Multi-Omics to Identify Functional T Cell States Predictive of Immunotherapy Response
+links: {}
+added: '2026-11-13'
+evidence: we developed TSTScope, an interpretable deep learning framework that integrates single-cell transcriptomic and T-cell
+  receptor sequencing data to generate unified representations

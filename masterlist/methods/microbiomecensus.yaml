@@ -1,0 +1,21 @@
+name: MicrobiomeCensus
+category: dry
+summary: Maximum-likelihood estimator of human population size in a sewage sample from gut-microbiome taxon-abundance deviations.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010472
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Zhang L
+  last_author: Ling F
+  pmid: '36149894'
+  pmcid: PMC9534451
+  title: MicrobiomeCensus estimates human population sizes from wastewater samples based on inter-individual variability in
+    gut microbiomes
+links: {}
+added: '2026-11-13'
+evidence: We present a new algorithm, MicrobiomeCensus, for estimating human population size from sewage samples.

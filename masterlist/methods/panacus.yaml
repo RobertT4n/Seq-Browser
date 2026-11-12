@@ -1,0 +1,23 @@
+name: Panacus
+category: dry
+summary: Fast, exact estimator of pangenome growth and core size from pangenome graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae720
+  year: 2024
+  journal: Bioinformatics
+  first_author: Parmigiani L
+  last_author: Doerr D
+  pmid: '39626271'
+  pmcid: PMC11665632
+  title: 'Panacus: fast and exact pangenome growth and core size estimation'
+links: {}
+added: '2026-11-13'
+evidence: Presently, there is a lack of scalable software able to perform key tasks on pangenomes, such as quantifying universally
+  shared sequence across genomes (the core genome) and measuring the extent of genomic variability as a function of sample
+  size (pangenome growth).ResultsWe introduce Panacus (pangenome-abacus), a tool designed to rapidly perform these tasks and
+  visualize the results in interactive plots.

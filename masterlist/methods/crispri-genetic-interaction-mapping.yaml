@@ -1,0 +1,28 @@
+name: CRISPRi genetic interaction mapping
+category: wet
+summary: Pooled double-sgRNA CRISPRi screens targeting pairs of chromatin regulators, scoring genetic interactions from relative
+  enrichment of sgRNA pairs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- crispr-interference
+chemistry:
+- amplicon-pcr
+builds_on:
+- crispri-a-pooled-screening
+reference:
+  doi: 10.1038/nmeth.4286
+  year: 2017
+  journal: Nat Methods
+  first_author: Du D
+  last_author: Krogan NJ
+  pmid: '28481362'
+  pmcid: PMC5584685
+  title: Genetic interaction mapping in mammalian cells using CRISPR interference
+evidence: We describe a combinatorial CRISPR interference (CRISPRi) screening platform for mapping genetic interactions in
+  mammalian cells.
+added: '2026-11-13'
+links: null

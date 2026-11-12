@@ -1,0 +1,21 @@
+name: Boiler
+category: dry
+summary: Lossy compression of RNA-seq alignments into genomic coverage vectors plus empirical distributions, with queries
+  possible without full decompression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw540
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Pritt J
+  last_author: Langmead B
+  pmid: '27298258'
+  pmcid: PMC5027496
+  title: 'Boiler: lossy compression of RNA-seq alignments using coverage vectors'
+links: {}
+added: '2026-11-13'
+evidence: We describe Boiler, a new software tool for compressing and querying large collections of RNA-seq alignments.

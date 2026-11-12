@@ -1,0 +1,23 @@
+name: ChromNet
+category: dry
+summary: Infers a chromatin network of conditional dependencies among transcription-factor and histone ChIP-seq datasets,
+  applied to all ENCODE ChIP-seq data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-0925-0
+  year: 2016
+  journal: Genome Biol
+  first_author: Lundberg SM
+  last_author: Lee SI
+  pmid: '27139377'
+  pmcid: PMC4852466
+  title: 'ChromNet: Learning the human chromatin network from all ENCODE ChIP-seq data'
+links: null
+added: '2026-11-13'
+evidence: We developed a novel statistical method, ChromNet, to infer a network of these interactions, the chromatin network,
+  by inferring conditional-dependence relationships among a large number of ChIP-seq data sets.

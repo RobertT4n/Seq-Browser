@@ -1,0 +1,22 @@
+name: RiboNN
+category: dry
+summary: Multitask deep convolutional network trained on a translation-efficiency atlas that predicts mRNA translation efficiency
+  from sequence features.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-025-02712-x
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Zheng D
+  last_author: Agarwal V
+  pmid: '40715456'
+  pmcid: PMC12323635
+  title: Predicting the translation efficiency of messenger RNA in mammalian cells
+links: {}
+added: '2026-11-13'
+evidence: We develop RiboNN, a state-of-the-art multitask deep convolutional neural network, and classic machine learning
+  models to predict TEs in hundreds of cell types from sequence-encoded mRNA features.

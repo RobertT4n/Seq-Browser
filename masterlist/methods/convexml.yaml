@@ -1,0 +1,23 @@
+name: ConvexML
+category: dry
+summary: Estimates branch lengths for single-cell CRISPR/Cas9 lineage-tracing trees under an irreversible mutation model,
+  giving time-resolved chronograms.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/sysbio/syaf054
+  year: 2026
+  journal: Syst Biol
+  first_author: Prillo S
+  last_author: Song YS
+  pmid: '40795361'
+  pmcid: PMC12805672
+  title: 'ConvexML: Fast and Accurate Branch Length Estimation under Irreversible Mutation Models, Illustrated through Applications
+    to CRISPR/Cas9-Based Lineage Tracing'
+links: {}
+added: '2026-11-13'
+evidence: In this work, we introduce the first scalable and accurate method to refine any given single-cell tree topology
+  into a single-cell chronogram by estimating its branch lengths.

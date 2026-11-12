@@ -1,0 +1,23 @@
+name: Multiscale PHATE
+category: dry
+summary: Multiscale extension of PHATE that uses diffusion condensation to learn coarse-to-fine cell groupings predictive
+  of disease outcome.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-01186-x
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Kuchroo M
+  last_author: Krishnaswamy S
+  pmid: '35228707'
+  pmcid: PMC10015653
+  title: Multiscale PHATE identifies multimodal signatures of COVID-19
+links: {}
+added: '2026-11-13'
+evidence: We present Multiscale PHATE, a method that sweeps through all levels of data granularity to learn abstracted biological
+  features directly predictive of disease outcome.

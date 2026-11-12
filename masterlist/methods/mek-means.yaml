@@ -1,0 +1,22 @@
+name: meK-means
+full_name: mechanistic K-means
+category: dry
+summary: Mechanistic K-means that clusters cells by shared transcriptional dynamics using nascent and mature mRNA counts.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-024-00689-2
+  year: 2024
+  journal: Nat Comput Sci
+  first_author: Chari T
+  last_author: Pachter L
+  pmid: '39317762'
+  title: Biophysically interpretable inference of cell types from multimodal sequencing data
+links: {}
+added: '2026-11-13'
+evidence: To enable interpretable and consistent cell cluster determination, we present meK-means (mechanistic K-means) which
+  integrates modalities through a unifying model of transcription to learn underlying, shared biophysical states.

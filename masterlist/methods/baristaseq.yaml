@@ -1,0 +1,24 @@
+name: BaristaSeq
+category: wet
+summary: Optimised padlock-probe in situ barcode sequencing, compatible with Illumina chemistry, for reading cellular barcodes
+  with spatial resolution in tissue.
+readouts:
+- lineage
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1093/nar/gkx1206
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Chen X
+  last_author: Zador AM
+  pmid: '29190363'
+  pmcid: PMC5829746
+  title: Efficient in situ barcode sequencing using padlock probe-based BaristaSeq
+links: {}
+added: '2026-11-13'
+evidence: Here we describe BaristaSeq, an optimization of a targeted, padlock probe-based technique for in situ barcode sequencing
+  compatible with Illumina sequencing chemistry.

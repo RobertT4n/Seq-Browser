@@ -1,0 +1,20 @@
+name: Startle
+category: dry
+summary: Maximum-parsimony phylogeny inference for CRISPR-Cas9 lineage tracing data under a star homoplasy model.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2023.11.005
+  year: 2023
+  journal: Cell Syst
+  first_author: Sashittal P
+  last_author: Raphael BJ
+  pmid: '38128483'
+  pmcid: PMC11257033
+  title: 'Startle: A star homoplasy approach for CRISPR-Cas9 lineage tracing'
+links: {}
+added: '2026-11-13'
+evidence: use this characterization to develop an algorithm, "Startle", that computes a maximum parsimony star homoplasy phylogeny.

@@ -1,0 +1,23 @@
+name: scTOP
+full_name: single-cell Type Order Parameters
+category: dry
+summary: Physics-inspired statistical approach that scores cell identity against a reference set of cell types without feature
+  selection or dimensionality reduction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1242/dev.201873
+  year: 2023
+  journal: Development
+  first_author: Yampolskaya M
+  last_author: Mehta P
+  pmid: '37756586'
+  pmcid: PMC10629677
+  title: 'scTOP: physics-inspired order parameters for cellular identification and visualization'
+links: {}
+added: '2026-11-13'
+evidence: 'We present ''single-cell Type Order Parameters'' (scTOP): a statistical, physics-inspired approach for quantifying
+  cell identity given a reference basis of cell types.'

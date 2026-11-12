@@ -1,0 +1,22 @@
+name: VAF phasing
+category: dry
+summary: Phases germline variants using changes in variant allele frequency between paired tumour and normal samples in regions
+  of somatic copy change.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2753-1
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Buckley AR
+  last_author: Schork NJ
+  pmid: '31132991'
+  pmcid: PMC6537421
+  title: Rare variant phasing using paired tumor:normal sequence data
+evidence: Here, we present a novel approach to phasing variants that takes advantage of unique properties of paired tumor:normal
+  sequencing data from cancer studies.
+added: '2026-11-13'
+links: null

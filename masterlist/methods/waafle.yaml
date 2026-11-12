@@ -1,0 +1,21 @@
+name: WAAFLE
+full_name: Workflow to Annotate Assemblies and Find LGT Events
+category: dry
+summary: Computational algorithm that profiles lateral gene transfer events from assembled metagenomes with high specificity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41564-024-01881-w
+  year: 2025
+  journal: Nat Microbiol
+  first_author: Hsu TY
+  last_author: Franzosa EA
+  pmid: '39747694'
+  title: Profiling lateral gene transfer events in the human microbiome using WAAFLE
+links: {}
+added: '2026-11-13'
+evidence: Here we developed, benchmarked and validated a computational algorithm (WAAFLE or Workflow to Annotate Assemblies
+  and Find LGT Events) to profile LGT from assembled metagenomes.

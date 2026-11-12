@@ -1,0 +1,31 @@
+name: RATE-seq
+full_name: RNA approach to equilibrium sequencing
+category: wet
+summary: In vivo metabolic labeling of RNA sampled to approach equilibrium, with exogenous spike-ins, to estimate absolute
+  RNA synthesis and degradation rates.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1261/rna.045104.114
+  year: 2014
+  journal: RNA
+  first_author: Neymotin B
+  last_author: Gresham D
+  pmid: '25161313'
+  pmcid: PMC4174445
+  title: Determination of in vivo RNA kinetics using RATE-seq
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce RNA approach to equilibrium sequencing (RATE-seq), which uses in vivo metabolic labeling of RNA
+  and approach to equilibrium kinetics, to determine absolute RNA degradation and synthesis rates.

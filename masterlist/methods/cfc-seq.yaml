@@ -1,0 +1,28 @@
+name: CFC-seq
+category: wet
+summary: Cap-trapping plus in vitro poly(A) tailing to capture full-length poly(A) and non-poly(A) RNAs with precise transcription
+  start sites, including enhancer RNAs.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1101/2024.10.31.620483
+  year: 2024
+  journal: bioRxiv
+  first_author: Yip CW
+  last_author: Carninci P
+  title: Genomic codes governing enhancer RNA fate
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce CFC-seq, combining cap-trapping and in vitro poly(A)-tailing to sequence poly(A) and non-poly(A)
+  RNAs with precise transcription start site.

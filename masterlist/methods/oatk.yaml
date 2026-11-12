@@ -1,0 +1,23 @@
+name: Oatk
+category: dry
+summary: De novo assembly tool for complex plant organelle genomes using a syncmer-based assembly graph and profile-HMM organelle
+  identification.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03676-6
+  year: 2025
+  journal: Genome Biol
+  first_author: Zhou C
+  last_author: Durbin R
+  pmid: '40775726'
+  pmcid: PMC12329965
+  title: 'Oatk: a de novo assembly tool for complex plant organelle genomes'
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce a novel tool that employs a syncmer-based assembler for rapid assembly graph construction, integrates
+  a profile-HMM database for robust organelle identification, and leverages a new search method to find the best supported
+  path through the assembly graph.

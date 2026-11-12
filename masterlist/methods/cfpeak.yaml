@@ -1,0 +1,22 @@
+name: cfPeak
+category: dry
+summary: Statistical and machine-learning peak caller for fragmented cell-free RNA-seq signal that flags narrow protected
+  regions and supports cancer detection.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03590-x
+  year: 2025
+  journal: Genome Biol
+  first_author: Bao P
+  last_author: Lu ZJ
+  pmid: '40340952'
+  pmcid: PMC12060323
+  title: Peak analysis of cell-free RNA finds recurrently protected narrow regions with clinical potential
+links: {}
+added: '2026-11-13'
+evidence: We present cfPeak, a novel method combining statistics and machine learning models to detect the fragmented cfRNA
+  signals effectively.

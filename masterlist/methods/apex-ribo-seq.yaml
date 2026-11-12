@@ -1,0 +1,23 @@
+name: APEX-Ribo-Seq
+full_name: Ribosome profiling integrated with APEX2-based proximity labeling
+category: wet
+summary: Ribosome profiling after APEX2 proximity labeling, mapping localised translation across subcellular compartments.
+readouts:
+- translation
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.05.26.656194
+  year: 2025
+  journal: bioRxiv
+  first_author: Tomuro K
+  last_author: Iwasaki S
+  title: Sequence features and dynamics of subcellular translation revealed by APEX-Ribo-Seq
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a new method, termed “APEX-Ribo-Seq”, that integrates ribosome profiling (Ribo-Seq) with APEX2-based
+  proximity labeling.

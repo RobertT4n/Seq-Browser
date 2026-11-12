@@ -1,0 +1,34 @@
+name: nano-COP
+full_name: nanopore analysis of co-transcriptional processing
+category: wet
+summary: Direct nanopore sequencing of 4-thiouridine-labelled, fractionated nascent RNA that reports transcription sites,
+  splice isoforms and 3' processing on single molecules.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- long-read-sequencing
+variant_of:
+- net-seq
+evidence: Here we describe nanopore analysis of co-transcriptional processing (nano-COP), a method for probing the timing
+  and patterns of RNA processing. An extension of native elongating transcript sequencing
+reference:
+  doi: 10.1038/s41596-020-00469-y
+  year: 2021
+  journal: Nat Protoc
+  first_author: Drexler HL
+  last_author: Churchman LS
+  pmid: '33514943'
+  pmcid: PMC8713461
+  title: Revealing nascent RNA processing dynamics with nano-COP
+links: {}
+added: '2026-11-13'

@@ -1,0 +1,31 @@
+name: RETrace
+category: wet
+summary: Single-cell microsatellite lineage tracing combined with scRRBS methylation profiling from the same cell, for cell-type
+  inference.
+readouts:
+- lineage
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+builds_on:
+- scrrbs
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/gr.255851.119
+  year: 2020
+  journal: Genome Res
+  first_author: Wei CJ
+  last_author: Zhang K
+  pmid: '32127417'
+  pmcid: PMC7197472
+  title: 'RETrace: simultaneous retrospective lineage tracing and methylation profiling of single cells'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present RETrace, a method for simultaneously capturing both microsatellites and methylation-informative
+  cytosines to characterize both lineage and cell type, respectively, from the same single cell.
+introduces:
+- lineage

@@ -1,0 +1,22 @@
+name: SWALO
+full_name: scaffolding with assembly likelihood optimization
+category: dry
+summary: Scaffolding method that orders and orients contigs by maximizing assembly likelihood from short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab717
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Rahman A
+  last_author: Pachter L
+  pmid: '34417615'
+  pmcid: PMC8599790
+  title: 'SWALO: scaffolding with assembly likelihood optimization'
+links: {}
+added: '2026-11-13'
+evidence: The method is implemented in a tool called Swalo with approximations to make it efficient and applicable to large
+  datasets.

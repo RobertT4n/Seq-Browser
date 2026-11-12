@@ -1,0 +1,22 @@
+name: uDance
+category: dry
+summary: Expandable phylogenomic tree construction for microbial genome collections, avoiding single-marker approaches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01868-8
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Balaban M
+  last_author: Mirarab S
+  pmid: '37500914'
+  pmcid: PMC10818028
+  title: Generation of accurate, expandable phylogenomic trees with uDance
+links: {}
+added: '2026-11-13'
+evidence: We introduce updating trees using divide-and-conquer (uDance), a method that enables updatable genome-wide inference
+  using a divide-and-conquer strategy that refines different parts of the tree independently and can build off of existing
+  trees, with high accuracy and scalability.

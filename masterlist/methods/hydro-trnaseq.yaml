@@ -1,0 +1,28 @@
+name: hydro-tRNAseq
+category: wet
+summary: Partial alkaline hydrolysis of RNA yields fragments that map tRNA gene transcription, leaders, trailers, introns
+  and modification sites.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+- chemical-cleavage
+reference:
+  doi: 10.1016/j.celrep.2017.07.029
+  year: 2017
+  journal: Cell Rep
+  first_author: Gogakos T
+  last_author: Tuschl T
+  pmid: '28793268'
+  pmcid: PMC5564215
+  title: Characterizing Expression and Processing of Precursor and Mature Human tRNAs by Hydro-tRNAseq and PAR-CLIP
+links: {}
+added: '2026-11-13'
+evidence: To address these issues, we developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates
+  fragments amenable for sequencing.

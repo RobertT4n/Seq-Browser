@@ -1,0 +1,24 @@
+name: hifieval
+category: dry
+summary: Command-line tool that measures over- and under-correction by HiFi error-correction algorithms, with assessment in
+  difficult genomic regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+- pacbio
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad631
+  year: 2023
+  journal: Bioinformatics
+  first_author: Guo Y
+  last_author: Li H
+  pmid: '37851384'
+  pmcid: PMC10612404
+  title: Evaluation of haplotype-aware long-read error correction with hifieval
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduced hifieval, a new command-line tool for measuring over- and under-corrections produced by EC algorithms.

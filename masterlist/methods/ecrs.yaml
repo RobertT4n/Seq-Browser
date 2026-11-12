@@ -1,0 +1,24 @@
+name: ECRS
+category: dry
+full_name: Empirical calibrated radiocarbon sampler
+summary: Integrates radiocarbon-date calibration and measurement uncertainty into Bayesian phylogenetic dating of ancient
+  DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.12295
+  year: 2015
+  journal: Mol Ecol Resour
+  first_author: Molak M
+  last_author: Shapiro B
+  pmid: '24964386'
+  pmcid: PMC4270920
+  title: 'Empirical calibrated radiocarbon sampler: a tool for incorporating radiocarbon-date and calibration error into Bayesian
+    phylogenetic analyses of ancient DNA.'
+links: {}
+added: '2026-11-13'
+evidence: This empirical calibrated radiocarbon sampler (ECRS) integrates the age uncertainty for each ancient sequence over
+  the calibrated probability density function estimated for its radiocarbon date and associated error.

@@ -1,0 +1,28 @@
+name: CROWN-seq
+category: wet
+summary: Sequencing method that maps adenosine transcription-start nucleotides and quantifies m6Am stoichiometry for each
+  5' isoform.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.7554/elife.104139
+  year: 2025
+  journal: Elife
+  first_author: Liu JF
+  last_author: Jaffrey SR
+  pmid: '40162895'
+  pmcid: PMC11957539
+  title: Decoding m&lt;sup&gt;6&lt;/sup&gt;Am by simultaneous transcription-start mapping and methylation quantification
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe CROWN-seq, which simultaneously identifies transcription-start nucleotides and quantifies m<sup>6</sup>Am
+  stoichiometry for each 5' isoform that initiates with adenosine.

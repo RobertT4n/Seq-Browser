@@ -1,0 +1,21 @@
+name: Dashing 2
+category: dry
+summary: Genomic sketching method built on SetSketch that keeps k-mer multiplicities for fast similarity estimates across
+  large sequence collections.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277655.123
+  year: 2023
+  journal: Genome Res
+  first_author: Baker DN
+  last_author: Langmead B
+  pmid: '37414575'
+  pmcid: PMC10538361
+  title: Genomic sketching with multiplicities and locality-sensitive hashing using Dashing 2
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe a method called Dashing 2 that builds on the SetSketch data structure.

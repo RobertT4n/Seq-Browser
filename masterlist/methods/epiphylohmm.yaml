@@ -1,0 +1,25 @@
+name: epiPhyloHMM
+category: dry
+summary: Phylogenetic hidden Markov model that identifies multiply aligned cis-regulatory elements directly from raw multispecies
+  ChIP-seq data.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- other-vertebrate
+reference:
+  doi: 10.1093/molbev/msaa073
+  year: 2020
+  journal: Mol Biol Evol
+  first_author: Dukler N
+  last_author: Siepel A
+  pmid: '32176292'
+  pmcid: PMC7306682
+  title: Phylogenetic Modeling of Regulatory Element Turnover Based on Epigenomic Data
+links: {}
+added: '2026-11-13'
+evidence: Our framework includes a phylogenetic hidden Markov model, called epiPhyloHMM, for identifying the locations of
+  multiply aligned CREs, and a combined phylogenetic and generalized linear model, called phyloGLM, for accounting for the
+  influence of a rich set of genomic features in describing their evolutionary dynamics.

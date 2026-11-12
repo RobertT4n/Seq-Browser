@@ -1,0 +1,21 @@
+name: RIPSeeker
+category: dry
+summary: Bioconductor package that uses HMM-based peak calling to identify protein-associated transcripts from RIP-seq data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt142
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Li Y
+  last_author: Zhang Z
+  pmid: '23455476'
+  pmcid: PMC3632129
+  title: 'RIPSeeker: a statistical package for identifying protein-associated transcripts from RIP-seq experiments.'
+links: {}
+added: '2026-11-13'
+evidence: We developed RIPSeeker (http://www.bioconductor.org/packages/2.12/bioc/html/RIPSeeker.html), a free open-source
+  Bioconductor/R package for de novo RIP peak predictions based on HMM.

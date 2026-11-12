@@ -1,0 +1,22 @@
+name: RNA-GPS
+category: dry
+summary: Machine-learning model that predicts high-resolution RNA subcellular localization from sequence motifs and highlights
+  a role for splicing.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.074161.119
+  year: 2020
+  journal: RNA
+  first_author: Wu KE
+  last_author: Zou J
+  pmid: '32220894'
+  pmcid: PMC7297119
+  title: RNA-GPS predicts high-resolution RNA subcellular localization and highlights the role of splicing
+links: {}
+added: '2026-11-13'
+evidence: Here we present RNA-GPS, a new machine learning model that uses nucleotide-level features to predict RNA localization
+  across eight different subcellular locations-the first to provide such a wide range of predictions.

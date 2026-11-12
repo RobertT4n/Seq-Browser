@@ -1,0 +1,22 @@
+name: qcbc
+category: dry
+summary: Modular barcode quantification and quality-control tool for validating barcode designs in sequence census assays.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- kallisto-bustools
+reference:
+  doi: 10.1093/bioadv/vbad181
+  year: 2024
+  journal: Bioinform Adv
+  first_author: Booeshaghi AS
+  last_author: Pachter L
+  pmid: '38213823'
+  pmcid: PMC10783946
+  title: Quantifying orthogonal barcodes for sequence census assays
+links: {}
+added: '2026-11-13'
+evidence: Availability and implementation https://github.com/pachterlab/kb_python, https://github.com/pachterlab/qcbc.

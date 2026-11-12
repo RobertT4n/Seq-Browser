@@ -1,0 +1,24 @@
+name: GraphVelo
+category: dry
+summary: Graph-based machine learning that lifts RNA velocities from existing methods onto the single-cell manifold, extending
+  them to multimodal and spatial data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-62784-w
+  year: 2025
+  journal: Nat Commun
+  first_author: Chen Y
+  last_author: Xing J
+  pmid: '40847023'
+  pmcid: PMC12373899
+  title: GraphVelo allows for accurate inference of multimodal velocities and molecular mechanisms for single cells
+links: {}
+added: '2026-11-13'
+evidence: Here, we present GraphVelo, a graph-based machine learning procedure that uses as input the RNA velocities inferred
+  from existing methods and infers velocity vectors lying in the tangent space of the low-dimensional manifold formed by the
+  single cell data.

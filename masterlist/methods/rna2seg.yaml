@@ -1,0 +1,21 @@
+name: RNA2seg
+category: dry
+summary: Deep-learning cell segmentation model for imaging-based spatial transcriptomics that assigns RNA molecules to cells.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+reference:
+  doi: 10.1186/s13059-025-03908-9
+  year: 2026
+  journal: Genome Biol
+  first_author: Defard T
+  last_author: Walter T
+  pmid: '41618375'
+  pmcid: PMC12934110
+  title: 'RNA2seg: a generalist model for cell segmentation in image-based spatial transcriptomics'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present RNA2seg, a novel segmentation algorithm trained on over 4 million cells from MERFISH and CosMx
+  datasets across seven organs using a teacher-student training scheme.

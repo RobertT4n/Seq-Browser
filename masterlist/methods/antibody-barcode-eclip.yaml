@@ -1,0 +1,29 @@
+name: antibody-barcode eCLIP
+full_name: antibody-barcode enhanced UV crosslinking and immunoprecipitation
+aliases:
+- ABC
+category: wet
+summary: Multiplexed eCLIP in which DNA-barcoded antibodies are proximity-ligated to protein-protected RNA fragments, so several
+  RNA-binding proteins are profiled in one library.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-022-01708-8
+  year: 2023
+  journal: Nat Methods
+  first_author: Lorenz DA
+  last_author: Yeo GW
+  pmid: '36550273'
+  pmcid: PMC9834051
+  title: Multiplexed transcriptome discovery of RNA-binding protein binding sites by antibody-barcode eCLIP
+links: {}
+added: '2026-11-13'
+evidence: We present a new method termed antibody-barcode eCLIP that utilizes DNA-barcoded antibodies and proximity ligation
+  of the DNA oligonucleotides to RBP-protected RNA fragments to interrogate several RBPs simultaneously.

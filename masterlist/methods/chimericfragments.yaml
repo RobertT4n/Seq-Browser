@@ -1,0 +1,21 @@
+name: ChimericFragments
+category: dry
+summary: Julia framework that detects RNA-RNA interactions from chimeric-read RNA-seq (RIL-seq, LIGR-seq, CLASH) using base-pairing
+  complementarity at the ligation site.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae035
+  year: 2024
+  journal: NAR Genom Bioinform
+  first_author: Siemers M
+  last_author: Papenfort K
+  pmid: '38633425'
+  pmcid: PMC11023125
+  title: 'ChimericFragments: computation, analysis and visualization of global RNA networks'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present ChimericFragments, an analysis framework for RNA-seq experiments that produce chimeric RNA molecules.

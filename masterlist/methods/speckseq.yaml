@@ -1,0 +1,27 @@
+name: SpeckSeq
+category: wet
+summary: Barcoded MEFV variant library expressed in cells, ASC speck-positive cells sorted by FACS and variant barcodes sequenced
+  to score pyrin gain-of-function mutations.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- facs-sorting
+validated_system:
+- primary-cells
+species:
+- human
+reference:
+  doi: 10.1084/jem.20251065
+  year: 2026
+  journal: J Exp Med
+  first_author: Bronnec P
+  last_author: Henry T
+  pmid: '41335224'
+  title: SpeckSeq enables high-throughput functional stratification of MEFV variants in autoinflammatory diseases
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed SpeckSeq, a method that combines DNA bar-coding, ASC speck-based single-cell sorting and next-generation
+  sequencing to systematically identify hypermorphic MEFV variants in response to different stimuli.

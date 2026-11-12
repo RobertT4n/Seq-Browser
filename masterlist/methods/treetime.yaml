@@ -1,0 +1,22 @@
+name: TreeTime
+category: dry
+summary: Maximum-likelihood phylodynamic analysis that dates phylogenies and reconstructs spatiotemporal spread from sequence
+  mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/ve/vex042
+  year: 2018
+  journal: Virus Evol
+  first_author: Sagulenko P
+  last_author: Neher RA
+  pmid: '29340210'
+  pmcid: PMC5758920
+  title: 'TreeTime: Maximum-likelihood phylodynamic analysis'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present TreeTime, a Python-based framework for phylodynamic analysis using an approximate Maximum Likelihood
+  approach.

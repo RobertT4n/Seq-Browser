@@ -1,0 +1,24 @@
+name: circAID-p-seq
+category: wet
+summary: PCR-free library preparation for selective 3' phospho-RNA sequencing, demonstrated on ribosome profiling.
+readouts:
+- rna
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkab1158
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Del Piano A
+  last_author: Clamer M
+  pmid: '34850942'
+  pmcid: PMC8887461
+  title: Phospho-RNA sequencing with circAID-p-seq.
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed circAID-p-seq, a PCR-free library preparation for selective 3' phospho-RNA sequencing.

@@ -1,0 +1,22 @@
+name: Chloris
+category: dry
+summary: Bayesian R package that jointly clusters single cells into tumour clones and infers clonal copy-number profiles from
+  scRNA-seq expression and germline SNPs.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/biomtc/ujaf115
+  year: 2025
+  journal: Biometrics
+  first_author: Qiao P
+  last_author: McCarthy DJ
+  pmid: '40888819'
+  title: Bayesian inference for copy number intra-tumoral heterogeneity from single-cell RNA-sequencing data
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop a Bayesian model to utilize single-cell RNA sequencing (scRNA-seq) data for automatic analysis
+  of intra-tumoral clonal structure concerning CNAs, without reliance on prior knowledge.

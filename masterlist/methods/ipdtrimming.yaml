@@ -1,0 +1,22 @@
+name: ipdTrimming
+category: dry
+summary: 6mA-calling pipeline for SMRT long-read footprinting that maps nucleosome and transcription factor occupancy on single
+  DNA molecules.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03592-9
+  year: 2025
+  journal: Genome Biol
+  first_author: Yang W
+  last_author: Dou Y
+  pmid: '40399934'
+  pmcid: PMC12096735
+  title: Revealing long-range heterogeneous organization of nucleoproteins with 6mA footprinting by ipdTrimming
+links: {}
+added: '2026-11-13'
+evidence: Here, we present ipdTrimming, a novel 6mA-calling pipeline that outperforms existing tools in both computational
+  efficiency and accuracy.

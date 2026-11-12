@@ -1,0 +1,21 @@
+name: Juicer
+category: dry
+summary: One-click open-source pipeline that turns raw Hi-C reads into normalised multi-resolution contact maps with loop
+  and domain annotation.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2016.07.002
+  year: 2016
+  journal: Cell Syst
+  first_author: Durand NC
+  last_author: Aiden EL
+  pmid: '27467249'
+  pmcid: PMC5846465
+  title: Juicer Provides a One-Click System for Analyzing Loop-Resolution Hi-C Experiments
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce Juicer, an open-source tool for analyzing terabase-scale Hi-C datasets.

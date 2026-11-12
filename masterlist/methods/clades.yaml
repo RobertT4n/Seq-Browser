@@ -1,0 +1,22 @@
+name: CLADES
+category: dry
+summary: NeuralODE-Gillespie framework that estimates clone-specific differentiation kinetics from LARRY lineage-tracing data.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-63150-6
+  year: 2025
+  journal: Nat Commun
+  first_author: Gao M
+  last_author: Huang Y
+  pmid: '40890121'
+  pmcid: PMC12402506
+  title: 'CLADES: a hybrid NeuralODE-Gillespie approach for unveiling clonal cell fate and differentiation dynamics'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present CLADES, a NeuralODE-based framework to faithfully estimate the clone and population-specific kinetics
+  from both newly generated and publicly available LARRY LT-scSeq data.

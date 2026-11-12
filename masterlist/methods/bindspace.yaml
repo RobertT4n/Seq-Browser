@@ -1,0 +1,21 @@
+name: BindSpace
+category: dry
+summary: Sequence-embedding model that maps DNA sequences and TF labels into a shared space for multiclass transcription factor
+  binding prediction.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0511-y
+  year: 2019
+  journal: Nat Methods
+  first_author: Yuan H
+  last_author: Leslie CS
+  pmid: '31406384'
+  pmcid: PMC6717532
+  title: BindSpace decodes transcription factor binding signals by large-scale sequence embedding
+links: {}
+added: '2026-11-13'
+evidence: We present a prediction model called BindSpace that learns to embed DNA sequences and TF labels into the same space.

@@ -1,0 +1,23 @@
+name: DAESC
+full_name: Differential Allelic Expression using Single-Cell data
+category: dry
+summary: Method for differential allele-specific expression across individuals from scRNA-seq that accounts for non-independence
+  of cells from the same individual and implicit haplotype phasing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-42016-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Qi G
+  last_author: Battle A
+  pmid: '37813843'
+  pmcid: PMC10562474
+  title: Single-cell allele-specific expression analysis reveals dynamic and cell-type-specific regulatory effects
+links: {}
+added: '2026-11-13'
+evidence: We present Differential Allelic Expression using Single-Cell data (DAESC), a powerful method for differential ASE
+  analysis using scRNA-seq from multiple individuals, with statistical behavior confirmed through simulation.

@@ -1,0 +1,22 @@
+name: RAGCell
+category: dry
+summary: Retrieval-augmented framework that uses retrieved reference cells as supervision for single-cell analysis, avoiding
+  costly foundation-model pretraining.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag732
+  year: 2026
+  journal: Bioinformatics
+  first_author: Liu T
+  last_author: Zheng Y
+  pmid: '42826496'
+  pmcid: PMC13675104
+  title: 'RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis'
+links: {}
+added: '2026-11-13'
+evidence: To this end, we introduce RAGCell, a versatile single-cell analysis framework that achieves a double-win in both
+  cost-effectiveness and high performance.

@@ -1,0 +1,28 @@
+name: SisterC
+category: wet
+summary: Hi-C variant that uses BrdU-labelled strands and selective strand destruction to assign contacts as inter- or intra-sister
+  in yeast.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+species:
+- microbe
+builds_on:
+- hi-c
+reference:
+  doi: 10.1038/s41592-020-0930-9
+  year: 2020
+  journal: Nat Methods
+  first_author: Oomen ME
+  last_author: Dekker J
+  pmid: '32968250'
+  pmcid: PMC7541687
+  title: Detecting chromatin interactions between and along sister chromatids with SisterC
+links: {}
+added: '2026-11-13'
+evidence: We describe SisterC, a chromosome conformation capture assay that distinguishes interactions between and along identical
+  sister chromatids.

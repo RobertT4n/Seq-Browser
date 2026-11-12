@@ -1,0 +1,31 @@
+name: scDynaBar
+category: wet
+summary: CRISPR-Cas9 dynamic barcodes that accumulate mutations over time are sequenced with each cell's transcriptome, so
+  barcode divergence records when events happened.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+builds_on:
+- scgestalt
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/gr.280915.125
+  year: 2026
+  journal: Genome Res
+  first_author: Andres-Lopez Y
+  last_author: Hernando-Herraez I
+  pmid: '42067223'
+  pmcid: PMC13445707
+  title: Using CRISPR barcoding as a molecular clock to capture dynamic processes at single-cell resolution
+links: {}
+added: '2026-11-13'
+evidence: Here, we present scDynaBar, a novel approach that combines CRISPR-Cas9 dynamic barcoding with single-cell sequencing.

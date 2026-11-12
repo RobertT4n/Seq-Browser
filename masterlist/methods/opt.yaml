@@ -1,0 +1,24 @@
+name: OPT
+full_name: Off-target Probe Tracker
+category: dry
+summary: Software that flags Xenium gene-panel probes likely to bind off-target genes by aligning probe target sequences.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+reference:
+  doi: 10.7554/elife.107070
+  year: 2026
+  journal: Elife
+  first_author: Hallinan C
+  last_author: Fan J
+  pmid: '42065925'
+  pmcid: PMC13134852
+  title: Evidence of off-target probe binding affecting 10x Genomics Xenium gene panels compromise accuracy of spatial transcriptomic
+    profiling
+links: {}
+added: '2026-11-13'
+evidence: We developed a software tool, Off-target Probe Tracker (OPT), to identify putative off-target binding via alignment
+  of probe target sequences and assessing whether mapped loci corresponded to the intended target gene across multiple reference
+  annotations.

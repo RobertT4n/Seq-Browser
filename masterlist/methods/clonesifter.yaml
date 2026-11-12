@@ -1,0 +1,26 @@
+name: CloneSifter
+category: wet
+summary: CRISPR sgRNA-barcode library plus a sequence-specific retrieval reporter that isolates viable cells of chosen clones
+  from a heterogeneous population, with barcode sequencing tracking clonal fitness.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+validated_system:
+- cell-line
+reference:
+  doi: 10.1186/s12915-020-00911-3
+  year: 2020
+  journal: BMC Biol
+  first_author: Feldman D
+  last_author: Blainey PC
+  pmid: '33234154'
+  pmcid: PMC7687773
+  title: 'CloneSifter: enrichment of rare clones from heterogeneous cell populations'
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop CloneSifter, a methodology for tracking and enriching rare clones throughout their response to
+  selection.

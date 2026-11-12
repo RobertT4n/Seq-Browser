@@ -1,0 +1,24 @@
+name: Baymer
+category: dry
+summary: Regularized Bayesian hierarchical tree model of how local sequence context affects polymorphism probability and germline
+  mutation rates, fitted to population sequence data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pgen.1010807
+  year: 2023
+  journal: PLoS Genet
+  first_author: Adams CJ
+  last_author: Voight BF
+  pmid: '37418489'
+  pmcid: PMC10355397
+  title: Regularized sequence-context mutational trees capture variation in mutation rates across the human genome
+links: {}
+added: '2026-11-13'
+evidence: To address these limitations, we developed Baymer, a regularized Bayesian hierarchical tree model that captures
+  the heterogeneous effect of sequence contexts on polymorphism probabilities.

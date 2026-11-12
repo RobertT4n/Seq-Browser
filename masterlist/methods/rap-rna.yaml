@@ -1,0 +1,31 @@
+name: RAP-RNA
+full_name: RNA antisense purification
+category: wet
+summary: Biotinylated antisense probes purify a target RNA with its RNA partners to map RNA-RNA contacts on nascent pre-mRNAs
+  and chromatin.
+readouts:
+- rna-rna-interaction
+- rna-chromatin-interaction
+resolution:
+- bulk
+chemistry:
+- oligo-capture
+- reverse-transcription
+variant_of:
+- rap
+scope: genome-wide
+introduces:
+- rna-rna-interaction
+reference:
+  doi: 10.1016/j.cell.2014.08.018
+  year: 2014
+  journal: Cell
+  first_author: Engreitz JM
+  last_author: Lander ES
+  pmid: '25259926'
+  pmcid: PMC4177037
+  title: RNA-RNA interactions enable specific targeting of noncoding RNAs to nascent Pre-mRNAs and chromatin sites
+links: {}
+added: '2026-11-13'
+evidence: To identify these contacts, we developed a method based on RNA antisense purification to systematically map RNA-RNA
+  interactions (RAP-RNA) and applied it to investigate two ncRNAs implicated in RNA processing

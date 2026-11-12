@@ -1,0 +1,20 @@
+name: Asset
+category: dry
+summary: Assembly evaluation tool that checks assemblies against multiple long-range sequencing datasets to identify structural
+  misassemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.10.491304
+  year: 2022
+  journal: bioRxiv
+  first_author: Guan D
+  last_author: Durbin R
+  title: Genome sequence assembly evaluation using long-range sequencing data
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a novel assembly evaluation tool, Asset, which evaluates the consistency of a proposed genome assembly
+  with multiple primary long-range data sets, identifying both supported regions and putative structural misassemblies.

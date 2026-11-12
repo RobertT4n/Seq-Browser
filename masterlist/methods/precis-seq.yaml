@@ -1,0 +1,33 @@
+name: PReCIS-seq
+full_name: precision run-on in cell-type-specific in vivo system followed by sequencing
+category: wet
+summary: Cre-inducible GFP tagging of RNA Pol II with run-on and GFP immunoprecipitation, mapping engaged Pol II in chosen
+  cell types of intact mouse tissue.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- nucleotide-labeling
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.devcel.2025.09.017
+  year: 2026
+  journal: Dev Cell
+  first_author: Chovatiya G
+  last_author: Tumbar T
+  pmid: '41118769'
+  pmcid: PMC12666863
+  title: Cell-type-specific RNA polymerase II activity maps in intact tissues provide a gateway to mammalian gene regulatory
+    mechanisms in vivo
+links: {}
+added: '2026-11-13'
+evidence: We developed precision run-on in cell-type-specific in vivo system followed by sequencing (PReCIS-seq), a method
+  combining Cre-inducible GFP tagging of endogenous RNA Pol II with transcriptional run-on and GFP immunoprecipitation, to
+  map transcriptionally engaged RNA Pol II genome-wide in targeted cell types of mouse tissues.

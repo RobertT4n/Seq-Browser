@@ -1,0 +1,23 @@
+name: TemSOMap
+full_name: Temporal dynamics guided Spatial Omics Mapping
+category: dry
+summary: Method that maps lineage-resolved scRNA-seq cells onto spatial transcriptomics spots using expression, lineage and
+  location information.
+readouts:
+- rna
+- lineage
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.31.621331
+  year: 2024
+  journal: bioRxiv
+  first_author: Pan X
+  last_author: Zhang X
+  title: Mapping lineage-resolved scRNA-seq data with spatial transcriptomics using TemSOMap
+links: {}
+added: '2026-11-13'
+evidence: TemSOMap infers a cell-to-spot mapping matrix by minimizing a loss function incorporating gene expression, cell
+  lineage and cell location information.

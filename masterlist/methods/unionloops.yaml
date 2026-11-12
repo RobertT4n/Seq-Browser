@@ -1,0 +1,21 @@
+name: UnionLoops
+category: dry
+summary: Workflow that calls chromatin loops jointly across related Hi-C datasets and flags dataset-specific loops.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04169-w
+  year: 2026
+  journal: Genome Biol
+  first_author: Liu J
+  last_author: Dekker J
+  pmid: '42323656'
+  pmcid: PMC13531967
+  title: 'UnionLoops: a workflow for calling chromatin loops across related Hi-C datasets with improved specificity, precision,
+    and sensitivity'
+links: {}
+added: '2026-11-13'
+evidence: We present UnionLoops, a computational workflow for chromatin loop calling across multiple related samples.

@@ -1,0 +1,30 @@
+name: DEFND-seq
+full_name: joint profiling of DNA and expression following nucleosome depletion
+category: wet
+summary: Nucleosome-depleted nuclei are tagmented and partitioned into droplets for joint mRNA and genomic DNA barcoding.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+- reverse-transcription
+input_sample:
+- nuclei
+throughput: 1e3-1e4
+reference:
+  doi: 10.1038/s41592-024-02579-x
+  year: 2025
+  journal: Nat Methods
+  first_author: Olsen TR
+  last_author: Sims PA
+  pmid: '39939719'
+  pmcid: PMC12272635
+  title: Scalable co-sequencing of RNA and DNA from individual nuclei
+links: {}
+added: '2026-11-13'
+evidence: In DEFND-seq, nuclei are nucleosome-depleted, tagmented and separated into individual droplets for messenger RNA
+  and genomic DNA barcoding.

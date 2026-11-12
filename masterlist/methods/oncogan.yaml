@@ -1,0 +1,22 @@
+name: OncoGAN
+category: dry
+summary: Generative model combining adversarial networks and variational autoencoders that creates synthetic cancer genomes
+  for benchmarking.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.100969
+  year: 2025
+  journal: Cell Genom
+  first_author: Díaz-Navarro A
+  last_author: Stein L
+  pmid: '40803317'
+  pmcid: PMC12648103
+  title: In silico generation of synthetic cancer genomes using generative AI
+links: {}
+added: '2026-11-13'
+evidence: To address this, we developed OncoGAN, a generative AI model combining adversarial networks and variational autoencoders
+  to create realistic synthetic cancer genomes.

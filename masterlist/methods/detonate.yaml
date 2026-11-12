@@ -1,0 +1,26 @@
+name: DETONATE
+aliases:
+- RSEM-EVAL
+category: dry
+summary: Model-based score (RSEM-EVAL) and software for evaluating de novo RNA-seq transcriptome assemblies when no ground
+  truth is available.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- rsem
+reference:
+  doi: 10.1186/s13059-014-0553-5
+  year: 2014
+  journal: Genome Biol
+  first_author: Li B
+  last_author: Dewey CN
+  pmid: '25608678'
+  pmcid: PMC4298084
+  title: Evaluation of de novo transcriptome assemblies from RNA-Seq data
+links: {}
+added: '2026-11-13'
+evidence: To address this challenge, we developed a model-based score, RSEM-EVAL, for evaluating assemblies when the ground
+  truth is unknown.

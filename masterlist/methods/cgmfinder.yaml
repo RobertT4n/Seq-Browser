@@ -1,0 +1,19 @@
+name: CGMFinder
+category: dry
+summary: Graph-based tool that identifies correlated gene modules from high-capture, high-depth ('3H') scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.29.624642
+  year: 2024
+  journal: bioRxiv
+  first_author: Ma W
+  last_author: Xie XS
+  title: CGMFinder Identifies Correlated Gene Modules from 3H scRNA-seq Data
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce CGMFinder, a tool for CGM identification using “3H” scRNA-seq data (High mRNA capture efficiency,
+  High cell numbers, and High sequencing depth).

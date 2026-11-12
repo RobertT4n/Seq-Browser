@@ -1,0 +1,30 @@
+name: STL-seq
+full_name: Start-TimeLapse-seq
+category: wet
+summary: Measures genome-wide kinetics of short capped RNA turnover after blocking pause release, separating pause release
+  from premature termination at paused Pol II sites.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+builds_on:
+- timelapse-seq
+reference:
+  doi: 10.1016/j.molcel.2021.08.019
+  year: 2021
+  journal: Mol Cell
+  first_author: Zimmer JT
+  last_author: Simon MD
+  pmid: '34520723'
+  pmcid: PMC9020433
+  title: STL-seq reveals pause-release and termination kinetics for promoter-proximal paused RNA polymerase II transcripts
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Start-TimeLapse-seq (STL-seq), a method that captures the genome-wide kinetics of short, capped
+  RNA turnover and reveals principles of regulation at the pause site.

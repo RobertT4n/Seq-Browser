@@ -1,0 +1,22 @@
+name: RNAnue
+category: dry
+summary: Pipeline that infers RNA-RNA interactions from direct duplex detection data, scoring hybridisation potential and
+  statistical significance.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab340
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Schäfer RA
+  last_author: Voß B
+  pmid: '34019662'
+  pmcid: PMC8191800
+  title: 'RNAnue: efficient data analysis for RNA-RNA interactomics.'
+links: {}
+added: '2026-11-13'
+evidence: Here we present RNAnue, a general pipeline for the inference of RNA-RNA interactions from DDD experiments that takes
+  into account hybridisation potential and statistical significance to improve prediction accuracy.

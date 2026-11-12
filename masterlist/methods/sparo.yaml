@@ -1,0 +1,33 @@
+name: SPARO
+full_name: simultaneous protein and RNA -omics
+category: wet
+summary: TurboID proximity biotinylation of RNA-interacting proteins, enriching both their RNA and their proteins from the
+  same cells in vitro and in vivo.
+readouts:
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-026-71098-4
+  year: 2026
+  journal: Nat Commun
+  first_author: Ramelow CC
+  last_author: Rangaraju S
+  pmid: '41917013'
+  pmcid: PMC13199526
+  title: Simultaneous profiling of native-state proteomes and transcriptomes of neural cell types using proximity labeling
+links: {}
+added: '2026-11-13'
+evidence: We report a method called simultaneous protein and RNA -omics (SPARO) to capture the cell type-specific transcriptome
+  and proteome simultaneously in vitro using BV2 microglial and HEK293 cell lines and in vivo using astrocytic and neuronal
+  Cre driver mice crossed with Rosa26-TurboID knock-in mice.

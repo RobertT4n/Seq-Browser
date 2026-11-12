@@ -1,0 +1,22 @@
+name: CellPath
+category: dry
+summary: Trajectory inference that combines single-cell expression with RNA velocity to find multiple directed, high-resolution
+  trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2021.100095
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Zhang Z
+  last_author: Zhang X
+  pmid: '35474895'
+  pmcid: PMC9017235
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+links: {}
+added: '2026-11-13'
+evidence: We present CellPath, a method that infers cell trajectories by integrating single-cell gene expression and RNA velocity
+  information.

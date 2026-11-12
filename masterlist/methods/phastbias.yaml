@@ -1,0 +1,24 @@
+name: phastBias
+category: dry
+summary: Probabilistic model and program that detects GC-biased gene conversion tracts jointly with natural selection in nucleotide
+  alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pgen.1003684
+  year: 2013
+  journal: PLoS Genet
+  first_author: Capra JA
+  last_author: Siepel A
+  pmid: '23966869'
+  pmcid: PMC3744432
+  title: A model-based analysis of GC-biased gene conversion in the human and chimpanzee genomes
+links: {}
+added: '2026-11-13'
+evidence: We implemented our model in a computer program, called phastBias, that can accurately detect gBGC tracts about 1
+  kilobase or longer in simulated sequence alignments.

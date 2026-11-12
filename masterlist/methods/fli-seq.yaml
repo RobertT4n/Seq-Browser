@@ -1,0 +1,25 @@
+name: FLI-seq
+full_name: fast-library of inserts
+category: wet
+summary: Library preparation and quantitative readout for pooled CRISPR knockout screens, used to find a nanoparticle uptake
+  transporter.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+perturbation:
+- crispr-knockout
+reference:
+  doi: 10.1101/2020.10.08.332510
+  year: 2020
+  journal: bioRxiv
+  first_author: Nostrand ELV
+  last_author: Yeo GW
+  title: Unbiased identification of nanoparticle cell uptake mechanism via a genome-wide CRISPR/Cas9 knockout screen
+links: {}
+added: '2026-11-13'
+evidence: Enabling this, we developed a methodology termed fast-library of inserts (FLI)-seq for library preparation and quantitative
+  readout of pooled screens that shows improved technical reproducibility and is easier to perform than existing methods.

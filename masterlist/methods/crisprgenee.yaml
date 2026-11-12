@@ -1,0 +1,29 @@
+name: CRISPRgenee
+full_name: CRISPR gene and epigenome engineering
+category: wet
+summary: Paired sgRNAs that simultaneously cleave and repress a target gene, improving loss-of-function screen efficiency
+  and consistency over CRISPRko and CRISPRi.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+- crispr-interference
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.crmeth.2025.101078
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Stadager J
+  last_author: Rathert P
+  pmid: '40499551'
+  pmcid: PMC12272254
+  title: CRISPR GENome and epigenome engineering improves loss-of-function genetic-screening approaches
+links: {}
+added: '2026-11-13'
+evidence: To address this, we introduce CRISPR gene and epigenome engineering (CRISPRgenee), which uses two specific single
+  guide RNAs (sgRNAs) to simultaneously repress and cleave the target gene within the same cell, increasing LOF efficiencies
+  and reproducibility.

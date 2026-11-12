@@ -1,0 +1,31 @@
+name: tARC-seq
+full_name: targeted accurate RNA consensus sequencing
+category: wet
+summary: Targeted version of accurate RNA consensus sequencing that measures SARS-CoV-2 replication-error frequency and spectrum
+  in cell culture and clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+variant_of:
+- arc-seq
+introduces:
+- genome-sequence
+reference:
+  doi: 10.1038/s41564-024-01655-4
+  year: 2024
+  journal: Nat Microbiol
+  first_author: Bradley CC
+  last_author: Herman C
+  pmid: '38649410'
+  pmcid: PMC11384275
+  title: Targeted accurate RNA consensus sequencing (tARC-seq) reveals mechanisms of replication error affecting SARS-CoV-2
+    divergence
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce a targeted accurate RNA consensus sequencing method (tARC-seq) to accurately determine the mutation
+  frequency and types in SARS-CoV-2, both in cell culture and clinical samples.

@@ -1,0 +1,23 @@
+name: Bamgineer
+category: dry
+summary: Python tool that spikes user-defined allele-specific copy-number events into existing exome or targeted BAM files
+  to create ground-truth CNV benchmarks.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1006080
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Samadian S
+  last_author: Pugh TJ
+  pmid: '29590101'
+  pmcid: PMC5891060
+  title: 'Bamgineer: Introduction of simulated allele-specific copy number variants into exome and targeted sequence data
+    sets'
+evidence: we have developed Bamgineer, a tool written in Python to introduce user-defined haplotype-phased allele-specific
+  copy number events into an existing Binary Alignment Mapping (BAM) file
+added: '2026-11-13'
+links: null

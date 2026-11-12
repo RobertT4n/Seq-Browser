@@ -1,0 +1,22 @@
+name: ChromTime
+category: dry
+summary: Computational method that classifies chromatin mark peaks between time points as expanding, contracting or holding
+  steady.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+evidence: To model spatial changes of chromatin mark peaks over time we develop and apply ChromTime, a computational method
+  that predicts peaks to be either expanding, contracting, or holding steady between time points.
+reference:
+  doi: 10.1186/s13059-018-1485-2
+  year: 2018
+  journal: Genome Biol
+  first_author: Fiziev P
+  last_author: Ernst J
+  pmid: '30097049'
+  pmcid: PMC6085762
+  title: 'ChromTime: modeling spatio-temporal dynamics of chromatin marks'
+links: {}
+added: '2026-11-13'

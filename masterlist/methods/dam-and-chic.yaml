@@ -1,0 +1,32 @@
+name: Dam&ChIC
+category: wet
+summary: Single-cell method that labels chromatin with m6A in living cells to record a past state, paired with an antibody-tethered
+  readout of the present state.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- mnase
+- facs-sorting
+- plate-based
+species:
+- mouse
+builds_on:
+- damid
+- scchic-seq
+reference:
+  doi: 10.1038/s41556-025-01687-w
+  year: 2025
+  journal: Nat Cell Biol
+  first_author: Kefalopoulou S
+  last_author: Kind J
+  pmid: '40640501'
+  pmcid: PMC12270907
+  title: Retrospective and multifactorial single-cell profiling reveals sequential chromatin reorganization during X inactivation
+links: {}
+added: '2026-11-13'
+evidence: Here we develop Dam&ChIC, a method that enables retrospective and multifactorial chromatin profiling in single cells.

@@ -1,0 +1,24 @@
+name: WiggleTools
+category: dry
+summary: Multithreaded library that computes summary statistics across large collections of genome-wide signal tracks.
+readouts:
+- histone-modification
+- protein-dna-binding
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt737
+  year: 2014
+  journal: Bioinformatics
+  first_author: Zerbino DR
+  last_author: Flicek P
+  pmid: '24363377'
+  pmcid: PMC3967112
+  title: 'WiggleTools: parallel processing of large collections of genome-wide datasets for visualization and statistical
+    analysis'
+links: {}
+added: '2026-11-13'
+evidence: We describe here a multithreaded library that computes statistics on large numbers of datasets

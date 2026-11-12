@@ -1,0 +1,32 @@
+name: Gel-seq
+category: wet
+summary: Electrophoretic separation of DNA from RNA through polyacrylamide membranes, giving matched genome and transcriptome
+  libraries from one low-input sample.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+validated_system:
+- cell-line
+species:
+- human
+- mouse
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1039/c7lc00430c
+  year: 2017
+  journal: Lab Chip
+  first_author: Hoople GD
+  last_author: Pisano AP
+  pmid: '28660979'
+  title: 'Gel-seq: whole-genome and transcriptome sequencing by simultaneous low-input DNA and RNA library preparation using
+    semi-permeable hydrogel barriers'
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a new device and method, collectively dubbed Gel-seq, that enables researchers to simultaneously
+  sequence both DNA and RNA from the same sample.

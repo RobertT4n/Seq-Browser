@@ -1,0 +1,22 @@
+name: Bracken
+full_name: Bayesian Reestimation of Abundance after Classification with KrakEN
+category: dry
+summary: Estimates species- and genus-level abundance by re-estimating Kraken read-level assignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj-cs.104
+  year: 2017
+  journal: PeerJ Comput Sci
+  first_author: Lu J
+  last_author: Salzberg SL
+  pmid: '40271438'
+  pmcid: PMC12016282
+  title: 'Bracken: estimating species abundance in metagenomics data'
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a fast, accurate new method that computes the abundance at the species level using the reads collected
+  in a metagenomics experiment.

@@ -1,0 +1,25 @@
+name: PLASMA
+full_name: Population Allele-Specific Mapping
+category: dry
+summary: Fine-mapping method that integrates QTL and allele-specific QTL information to identify causal variants for molecular
+  traits.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.ajhg.2019.12.011
+  year: 2020
+  journal: Am J Hum Genet
+  first_author: Wang AT
+  last_author: Gusev A
+  pmid: '32004450'
+  pmcid: PMC7011109
+  title: Allele-Specific QTL Fine Mapping with PLASMA
+links: {}
+added: '2026-11-13'
+evidence: We introduce PLASMA (Population Allele-Specific Mapping), a fine-mapping method that integrates QTL and asQTL information
+  to improve accuracy.

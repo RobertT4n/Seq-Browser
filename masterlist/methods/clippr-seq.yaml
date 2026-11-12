@@ -1,0 +1,33 @@
+name: CLiPPR-seq
+full_name: Cross-Linking Poly(A) Pulldown RNase R Sequencing
+category: wet
+summary: AMT crosslinking and proximity ligation of RNA-RNA duplexes, then circRNA enrichment and deep sequencing, to identify
+  circRNAs that bind mRNAs in intact cells.
+readouts:
+- rna-rna-interaction
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- oligo-capture
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- mouse
+- human
+reference:
+  doi: 10.1093/nar/gkae058
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Singh S
+  last_author: Panda AC
+  pmid: '38324478'
+  pmcid: PMC11014417
+  title: Global identification of mRNA-interacting circular RNAs by CLiPPR-Seq
+links: {}
+added: '2026-11-13'
+evidence: CLiPPR-seq thus represents a novel method for illuminating the myriad of uncharacterized circRNA-mRNA hybrids that
+  may regulate gene expression.

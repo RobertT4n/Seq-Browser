@@ -1,0 +1,22 @@
+name: Tangent normalization
+category: dry
+summary: Tangent normalization for generating somatic copy-number profiles from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac586
+  year: 2022
+  journal: Bioinformatics
+  first_author: Gao GF
+  last_author: Getz G
+  pmid: '36040167'
+  pmcid: PMC9563697
+  title: Tangent normalization for somatic copy-number inference in cancer genome analysis
+links: {}
+added: '2026-11-13'
+evidence: As part of The Cancer Genome Atlas, the Broad Institute Genome Characterization Center developed the Tangent normalization
+  method to generate copy-number profiles using data from single-nucleotide polymorphism (SNP) arrays and whole-exome sequencing
+  (WES) technologies for over 10 000 pairs of tumors and matched normal samples.

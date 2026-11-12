@@ -1,0 +1,24 @@
+name: CASCAT
+category: dry
+summary: Tree-shaped structural causal model with the Markov property that infers a unique cell differentiation trajectory
+  from spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf791
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Yu Y
+  last_author: Li SC
+  pmid: '40829806'
+  pmcid: PMC12362255
+  title: Inferring causal trajectories from spatial transcriptomics using CASCAT
+links: {}
+added: '2026-11-13'
+evidence: In this study, we introduce CASCAT, a tree-shaped structural causal model with the Markovian property integrated
+  to infer a unique cell differentiation trajectory, addressing challenges posed by Markov equivalence in high-dimensional
+  and nonlinear data.

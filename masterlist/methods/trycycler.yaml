@@ -1,0 +1,23 @@
+name: Trycycler
+category: dry
+summary: Consensus tool that merges multiple long-read assemblies of one bacterial genome into a single, more accurate assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s13059-021-02483-z
+  year: 2021
+  journal: Genome Biol
+  first_author: Wick RR
+  last_author: Holt KE
+  pmid: '34521459'
+  pmcid: PMC8442456
+  title: 'Trycycler: consensus long-read assemblies for bacterial genomes'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Trycycler, a tool which produces a consensus assembly from multiple input assemblies of the same
+  genome.

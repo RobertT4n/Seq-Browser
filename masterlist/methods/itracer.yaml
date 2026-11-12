@@ -1,0 +1,33 @@
+name: iTracer
+category: wet
+summary: Lineage recorder that combines reporter barcodes with inducible CRISPR-Cas9 scarring, read out with single-cell and
+  spatial transcriptomics.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+- spatial
+temporal:
+- molecular-recording
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- organoid
+species:
+- human
+reference:
+  doi: 10.1038/s41592-021-01344-8
+  year: 2022
+  journal: Nat Methods
+  first_author: He Z
+  last_author: Treutlein B
+  pmid: '34969984'
+  pmcid: PMC8748197
+  title: Lineage recording in human cerebral organoids
+links: {}
+added: '2026-11-13'
+evidence: Here we establish iTracer, a lineage recorder that combines reporter barcodes with inducible CRISPR-Cas9 scarring
+  and is compatible with single-cell and spatial transcriptomics.

@@ -1,0 +1,21 @@
+name: levioSAM2
+category: dry
+summary: Lift-over tool that translates read alignments and features between genome assemblies using a whole-genome map.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02069-6
+  year: 2024
+  journal: Nat Methods
+  first_author: Chen NC
+  last_author: Langmead B
+  pmid: '38036856'
+  pmcid: PMC11610747
+  title: Improved sequence mapping using a complete reference genome and lift-over
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a method called levioSAM2 that performs fast and accurate lift-over between assemblies using a
+  whole-genome map.

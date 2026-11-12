@@ -1,0 +1,22 @@
+name: SOAPindel
+category: dry
+summary: Indel caller that assigns unmapped read pairs to expected positions and assembles those regions into a de Bruijn
+  graph.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.132480.111
+  year: 2013
+  journal: Genome Res
+  first_author: Li S
+  last_author: Wang J
+  pmid: '22972939'
+  pmcid: PMC3530679
+  title: 'SOAPindel: efficient identification of indels from short paired reads'
+links: {}
+added: '2026-11-13'
+evidence: We present a new approach to indel calling that explicitly exploits that indel differences between a reference and
+  a sequenced sample make the mapping of reads less efficient.

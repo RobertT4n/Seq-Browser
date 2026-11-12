@@ -1,0 +1,29 @@
+name: MPRNA-IP
+full_name: Massively parallel RNA assay combined with immunoprecipitation
+category: wet
+summary: Massively parallel RNA assay with immunoprecipitation that maps the RNA domains and structures needed for protein
+  binding in vivo.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- mprna
+reference:
+  doi: 10.1093/nar/gkae334
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Lee YH
+  last_author: Hwang T
+  pmid: '38726866'
+  pmcid: PMC11162807
+  title: Massively parallel dissection of RNA in RNA-protein interactions in vivo.
+links: {}
+added: '2026-11-13'
+evidence: Here, we present massively parallel RNA assay combined with immunoprecipitation (MPRNA-IP) for in vivo high-throughput
+  dissection of RNA-protein interactions and describe statistical models for identifying RNA domains and parsing the structural
+  contributions of RNA.

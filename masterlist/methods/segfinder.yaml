@@ -1,0 +1,23 @@
+name: SegFinder
+category: dry
+summary: Tool that identifies complete segments of segmented RNA viruses from metagenomic libraries by their co-occurrence
+  at similar abundance.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf358
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Liu X
+  last_author: Shi M
+  pmid: '40702703'
+  pmcid: PMC12286774
+  title: 'SegFinder: an automated tool for identifying complete RNA virus genome segments through co-occurrence in multiple
+    sequenced samples'
+links: {}
+added: '2026-11-13'
+evidence: To address this, we developed a new bioinformatic tool-SegFinder-that identifies virus genome segments based on
+  their common co-occurrence at similar abundance within segmented viruses.

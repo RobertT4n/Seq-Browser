@@ -1,0 +1,21 @@
+name: EB-MoCAVI
+category: dry
+summary: Empirical Bayes variational framework that imputes RNA profiles for perturbations measured only by imaging and denoises
+  sparse transcriptomic estimates using imaging data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.05.27.728345
+  year: 2026
+  journal: bioRxiv
+  first_author: Kudo T
+  last_author: Regev A
+  title: Scalable multimodal mapping of macrophage regulatory architecture by integrating optical and transcriptomic pooled
+    screens
+links: {}
+added: '2026-11-13'
+evidence: To exploit cross-modal relationships, we developed EB-MoCAVI, an empirical Bayesian variational inference framework
+  that both imputes RNA profiles for perturbations measured only by imaging

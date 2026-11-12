@@ -1,0 +1,21 @@
+name: Liftoff
+category: dry
+summary: Lift-over tool that maps gene annotations from a reference genome onto a new or improved assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa1016
+  year: 2021
+  journal: Bioinformatics
+  first_author: Shumate A
+  last_author: Salzberg SL
+  pmid: '33320174'
+  pmcid: PMC8289374
+  title: 'Liftoff: accurate mapping of gene annotations'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe Liftoff, a new genome annotation lift-over tool capable of mapping genes between two assemblies
+  of the same or closely related species.

@@ -1,0 +1,24 @@
+name: Mykrobe
+category: dry
+summary: Predicts Mycobacterium tuberculosis species and antibiotic resistance from whole-genome sequencing reads (Illumina
+  and nanopore) using mutation catalogues and a statistical model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+evidence: Here we present a new tool, Mykrobe, which provides the same functionality based on a new software implementation.
+reference:
+  doi: 10.12688/wellcomeopenres.15603.1
+  year: 2019
+  journal: Wellcome Open Res
+  first_author: Hunt M
+  last_author: Iqbal Z
+  pmid: '32055708'
+  pmcid: PMC7004237
+  title: Antibiotic resistance prediction for &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; from genome sequence data with
+    Mykrobe
+links: {}
+added: '2026-11-13'

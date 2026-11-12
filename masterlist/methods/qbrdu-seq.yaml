@@ -1,0 +1,29 @@
+name: qBrdU-seq
+full_name: quantitative BrdU immunoprecipitation
+category: wet
+summary: Quantitative BrdU immunoprecipitation sequencing that measures origin firing time and initiation rates genome-wide
+  in yeast.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+species:
+- microbe
+reference:
+  doi: 10.1101/gr.196857.115
+  year: 2016
+  journal: Genome Res
+  first_author: Peace JM
+  last_author: Aparicio OM
+  pmid: '26728715'
+  pmcid: PMC4772018
+  title: Quantitative BrdU immunoprecipitation method demonstrates that Fkh1 and Fkh2 are rate-limiting activators of replication
+    origins that reprogram replication timing in G1 phase
+links: {}
+added: '2026-11-13'
+evidence: To overcome this limitation, we developed qBrdU-seq, a quantitative method for BrdU incorporation analysis of replication
+  dynamics

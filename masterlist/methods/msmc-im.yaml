@@ -1,0 +1,25 @@
+name: MSMC-IM
+full_name: Multiple Sequentially Markovian Coalescent with Isolation-Migration model
+category: dry
+summary: Estimates time-dependent gene flow between populations from pairwise coalescence rates computed by MSMC2 on whole-genome
+  sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pgen.1008552
+  year: 2020
+  journal: PLoS Genet
+  first_author: Wang K
+  last_author: Schiffels S
+  pmid: '32150539'
+  pmcid: PMC7082067
+  title: Tracking human population structure through time from whole genome sequences
+links: {}
+added: '2026-11-13'
+evidence: Here we present a novel approach based on the Multiple Sequentially Markovian Coalescent (MSMC) to analyze the separation
+  history between populations. Our approach, called MSMC-IM...

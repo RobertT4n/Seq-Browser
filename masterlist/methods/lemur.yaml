@@ -1,0 +1,23 @@
+name: LEMUR
+full_name: latent embedding multivariate regression
+category: dry
+summary: Models multi-condition single-cell RNA-seq differences in a latent embedding, predicting each cell's expression change
+  from its condition and latent position without committing to discrete clusters.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+evidence: Here, we introduce latent embedding multivariate regression (LEMUR), a model that operates without, or before, commitment
+  to discrete categorization.
+reference:
+  doi: 10.1038/s41588-024-01996-0
+  year: 2025
+  journal: Nat Genet
+  first_author: Ahlmann-Eltze C
+  last_author: Huber W
+  pmid: '39753773'
+  pmcid: PMC11906359
+  title: Analysis of multi-condition single-cell data with latent embedding multivariate regression
+links: {}
+added: '2026-11-13'

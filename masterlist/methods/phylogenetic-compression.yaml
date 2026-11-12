@@ -1,0 +1,22 @@
+name: Phylogenetic compression
+category: dry
+summary: Phylogeny-guided lossless compression of microbial genome collections, plus a BLAST-like search over the compressed
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02625-2
+  year: 2025
+  journal: Nat Methods
+  first_author: Břinda K
+  last_author: Baym M
+  pmid: '40205174'
+  pmcid: PMC13340442
+  title: Efficient and robust search of microbial genomes via phylogenetic compression
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a technique called phylogenetic compression, which uses evolutionary history to guide compression
+  and efficiently search large collections of microbial genomes using existing algorithms and data structures.

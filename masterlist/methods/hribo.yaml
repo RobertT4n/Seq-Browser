@@ -1,0 +1,25 @@
+name: HRIBO
+full_name: High-throughput annotation by Ribo-seq
+category: dry
+summary: Reproducible workflow for bacterial Ribo-seq preprocessing and ORF prediction.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1093/bioinformatics/btaa959
+  year: 2021
+  journal: Bioinformatics
+  first_author: Gelhausen R
+  last_author: Backofen R
+  pmid: '33175953'
+  pmcid: PMC8337001
+  title: 'HRIBO: high-throughput analysis of bacterial ribosome profiling data'
+  preprint_doi: 10.1101/2020.04.27.046219
+links: {}
+added: '2026-11-13'
+evidence: HRIBO (High-throughput annotation by Ribo-seq), a workflow to enable reproducible and high-throughput analysis of
+  bacterial Ribo-seq data.

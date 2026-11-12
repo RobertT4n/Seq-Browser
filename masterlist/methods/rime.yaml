@@ -1,0 +1,22 @@
+name: RIME
+category: dry
+summary: Deep-learning RNA-RNA interaction predictor built on nucleic-acid language-model embeddings, which also shows that
+  low-complexity repeats drive interactions.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-68356-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Setti A
+  last_author: Tartaglia GG
+  pmid: '41571635'
+  pmcid: PMC12905285
+  title: The role of low-complexity repeats in RNA-RNA interactions and a deep learning framework for duplex prediction
+links: {}
+added: '2026-11-13'
+evidence: Recognizing the pivotal role of sequence determinants, we develop RIME, a deep learning model that predicts RRIs
+  by leveraging embeddings from a nucleic acid language model.

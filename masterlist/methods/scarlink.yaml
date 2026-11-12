@@ -1,0 +1,25 @@
+name: SCARlink
+full_name: single-cell ATAC + RNA linking
+category: dry
+summary: Regularised Poisson regression model that links enhancers to target genes and predicts single-cell expression from
+  paired scATAC and scRNA multi-ome data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01689-8
+  year: 2024
+  journal: Nat Genet
+  first_author: Mitra S
+  last_author: Leslie CS
+  pmid: '38514783'
+  pmcid: PMC11018525
+  title: Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin
+    potential analysis
+links: {}
+added: '2026-11-13'
+evidence: We present a gene-level regulatory model, single-cell ATAC + RNA linking (SCARlink), which predicts single-cell
+  gene expression and links enhancers to target genes using multi-ome (scRNA-seq and scATAC-seq co-assay) sequencing data.

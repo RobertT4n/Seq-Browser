@@ -1,0 +1,28 @@
+name: iMUT-seq
+full_name: profiling of DSB-induced mutations (acronym expansion not stated in abstract)
+category: wet
+summary: Targeted high-depth sequencing of mutations at restriction-enzyme-induced double-strand breaks, read at single-nucleotide
+  resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/s41467-023-44167-1
+  year: 2023
+  journal: Nat Commun
+  first_author: Bader AS
+  last_author: Bushell M
+  title: 'iMUT-seq: high-resolution DSB-induced mutation profiling reveals prevalent homologous-recombination dependent mutagenesis'
+links: {}
+added: '2026-11-13'
+evidence: Here we describe iMUT-seq, a technique that profiles DSB-induced mutations at high sensitivity and single-nucleotide
+  resolution around endogenous DSBs, by coupling high-depth sequencing to restriction enzyme-inducible DSBs in human cell
+  lines.

@@ -1,0 +1,31 @@
+name: scRIPT
+full_name: single-cell Rapid Integrated Platform for Tracing
+category: wet
+summary: Rapid RNP-based CRISPR barcoding with fluorescent reporter insertion, sorting of informative cells and short-read
+  library prep for clonal and transcriptome readouts.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- mouse
+chemistry:
+- reverse-transcription
+- facs-sorting
+reference:
+  doi: 10.64898/2026.10.14.759042
+  year: 2026
+  journal: bioRxiv
+  first_author: Cetin R
+  last_author: Grosveld F
+  title: 'scRIPT: a rapid, high-coverage single-cell lineage-tracing method applied to the hematoendothelial differentiation
+    of embryonic stem cells'
+links: {}
+added: '2026-11-13'
+evidence: We developed scRIPT

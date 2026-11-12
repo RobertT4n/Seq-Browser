@@ -1,0 +1,22 @@
+name: SkewIT
+full_name: Skew Index Test
+category: dry
+summary: Single-metric test of GC skew computed for each bacterial genome to analyse replication-strand skew across RefSeq.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008439
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Lu J
+  last_author: Salzberg SL
+  pmid: '33275607'
+  pmcid: PMC7717575
+  title: 'SkewIT: The Skew Index Test for large-scale GC Skew analysis of bacterial genomes'
+links: {}
+added: '2026-11-13'
+evidence: In order to analyze all 15,000+ genomes, we introduce a new method, SkewIT (Skew Index Test), that calculates a
+  single metric representing the degree of GC skew for a genome.

@@ -1,0 +1,27 @@
+name: DEPACE-seq
+full_name: Dual-End PAB-Conjugated Endo IV-Cleaved Sequencing
+category: wet
+summary: Biotin-probe labelling of abasic sites followed by Endo IV cleavage and dual-end library construction for single-nucleotide
+  AP-site mapping.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1093/nar/gkag784
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Wu H
+  last_author: Zhao M
+  pmid: '42559686'
+  pmcid: PMC13443447
+  title: DEPACE-seq enables high-fidelity, single-nucleotide-resolution mapping of abasic sites and characterization of dynamic
+    and long-lived AP landscapes in mammalian genomes
+links: {}
+added: '2026-11-13'
+evidence: Here we present DEPACE-seq (Dual-End PAB-Conjugated Endo IV-Cleaved Sequencing), a robust and easy-to-implement
+  method for precise genome-wide profiling of AP sites.

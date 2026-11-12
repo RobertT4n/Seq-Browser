@@ -1,0 +1,21 @@
+name: MAST
+category: dry
+full_name: Mixtures Across Sites and Trees
+summary: Multi-tree mixture model in IQ-TREE that weights several fixed trees across sites of one concatenated alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/sysbio/syae008
+  year: 2024
+  journal: Syst Biol
+  first_author: Wong TKF
+  last_author: Lanfear R
+  pmid: '38421146'
+  pmcid: PMC11282360
+  title: 'MAST: Phylogenetic Inference with Mixtures Across Sites and Trees.'
+links: {}
+added: '2026-11-13'
+evidence: We implemented the MAST model in a maximum-likelihood framework in the popular phylogenetic software, IQ-TREE.

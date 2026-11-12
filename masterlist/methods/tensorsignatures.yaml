@@ -1,0 +1,22 @@
+name: TensorSignatures
+category: dry
+summary: Algorithm that learns mutational signatures jointly across variant categories and their genomic localisation, applied
+  to PCAWG and HMF cancer genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-23551-9
+  year: 2021
+  journal: Nat Commun
+  first_author: Vöhringer H
+  last_author: Gerstung M
+  pmid: '34131135'
+  pmcid: PMC8206343
+  title: Learning mutational signatures and their multidimensional genomic properties with TensorSignatures
+links: null
+added: '2026-11-13'
+evidence: We present TensorSignatures, an algorithm to learn mutational signatures jointly across different variant categories
+  and their genomic localisation and properties.

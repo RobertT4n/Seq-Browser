@@ -1,0 +1,27 @@
+name: NanoSeq
+full_name: nanorate sequencing
+category: wet
+summary: Duplex sequencing protocol with error rates below five per billion base pairs, reading single DNA molecules to measure
+  somatic mutations in cell populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1038/s41586-021-03477-4
+  year: 2021
+  journal: Nature
+  first_author: Abascal F
+  last_author: Martincorena I
+  pmid: '33911282'
+  title: Somatic mutation landscapes at single-molecule resolution
+links: {}
+added: '2026-11-13'
+evidence: here we developed nanorate sequencing (NanoSeq), a duplex sequencing protocol with error rates of less than five
+  errors per billion base pairs in single DNA molecules from cell populations.

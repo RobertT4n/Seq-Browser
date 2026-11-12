@@ -1,0 +1,30 @@
+name: smartSHAPE
+category: wet
+summary: Low-input RNA structure probing with reduced probing artefacts and more efficient library construction, applied to
+  mouse intestinal macrophages.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- low-input
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+reference:
+  doi: 10.1016/j.fmre.2021.12.007
+  year: 2022
+  journal: Fundam Res
+  first_author: Piao M
+  last_author: Zhang QC
+  pmid: '38933905'
+  pmcid: PMC11197792
+  title: An ultra low-input method for global RNA structure probing uncovers Regnase-1-mediated regulation in macrophages
+links: {}
+added: '2026-11-13'
+evidence: Here, we report smartSHAPE, a new RNA structure probing method that requires very low amounts of RNA input due to
+  the largely reduced artefact of probing signals and increased efficiency of library construction.

@@ -1,0 +1,28 @@
+name: icCITE-plex
+category: wet
+summary: Extends an iCITE-seq style platform to multiplexed chemical screens, jointly profiling RNA and protein responses
+  in single cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+perturbation:
+- chemical-perturbation
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.05.23.727396
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen KY
+  last_author: Sakaguchi S
+  title: Massively multiplex multimodal chemical screens at single-cell resolution
+links: {}
+added: '2026-11-13'
+evidence: We extend existing experimental platforms into icCITE-plex and DOGMA-plex, enabling joint profiling of RNA, protein,
+  and epigenomic responses to thousands of chemical perturbations in parallel.

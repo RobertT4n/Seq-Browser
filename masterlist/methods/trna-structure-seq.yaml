@@ -1,0 +1,27 @@
+name: tRNA structure-seq
+category: wet
+summary: In vivo DMS probing with ultra-processive reverse transcription and mutational profiling maps tRNA secondary structures
+  and natural modifications in E. coli.
+readouts:
+- rna-structure
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1073/pnas.2201237119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Yamagami R
+  last_author: Bevilacqua PC
+  pmid: '35696576'
+  pmcid: PMC9231505
+  title: Genome-wide analysis of the <i>in vivo</i> tRNA structurome reveals RNA structural and modification dynamics under
+    heat stress
+links: {}
+added: '2026-11-13'
+evidence: We introduce "tRNA structure-seq," a new workflow that accurately determines in vivo secondary structures of tRNA.

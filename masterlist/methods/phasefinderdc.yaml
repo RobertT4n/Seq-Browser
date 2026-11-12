@@ -1,0 +1,24 @@
+name: PhaseFinderDC
+category: dry
+summary: Bioinformatic workflow that identifies invertons in metagenomic data and tracks their orientation over time and across
+  growth conditions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-025-02052-7
+  year: 2025
+  journal: Microbiome
+  first_author: Jin X
+  last_author: Pollard KS
+  pmid: '40059174'
+  pmcid: PMC11892184
+  title: Comprehensive profiling of genomic invertons in defined gut microbial community reveals associations with intestinal
+    colonization and surface adhesion
+links: {}
+added: '2026-11-13'
+evidence: Metagenomic sequencing holds promise for detecting inversions without isolation and culturing, but ambiguity in
+  read alignment limits the accuracy of the resulting inverton predictions.ResultsHere, we developed a customized bioinformatic
+  workflow-PhaseFinderDC-to identify and track invertons in metagenomic data.

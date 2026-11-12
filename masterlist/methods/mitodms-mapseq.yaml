@@ -1,0 +1,31 @@
+name: mitoDMS-MaPseq
+full_name: mitochondrial dimethyl sulfate mutational profiling with sequencing
+category: wet
+summary: Mitochondria-specific DMS-MaPseq probing of mitochondrial mRNA structure in cells, analysed with DREEM clustering
+  to resolve folding ensembles.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1126/science.adm9238
+  year: 2024
+  journal: Science
+  first_author: Moran JC
+  last_author: Barrientos A
+  pmid: '39024447'
+  pmcid: PMC11510358
+  title: The human mitochondrial mRNA structurome reveals mechanisms of gene expression
+links: {}
+added: '2026-11-13'
+evidence: In this work, we devised the mitochondrial dimethyl sulfate mutational profiling with sequencing (mitoDMS-MaPseq)
+  method and applied detection of RNA folding ensembles using expectation-maximization (DREEM) clustering to unravel the native
+  mitochondrial messenger RNA (mt-mRNA) structurome in wild-type (WT) and leucine-rich pentatricopeptide repeat-containing
+  protein (LRPPRC)-deficient cells.

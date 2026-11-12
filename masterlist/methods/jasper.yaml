@@ -1,0 +1,22 @@
+name: JASPER
+full_name: Jellyfish-based Assembly Sequence Polisher for Error Reduction
+category: dry
+summary: Genome polisher that corrects consensus errors using k-mer counts from reads, avoiding read alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011032
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Guo A
+  last_author: Zimin AV
+  pmid: '37000853'
+  pmcid: PMC10096238
+  title: 'JASPER: A fast genome polishing tool that improves accuracy of genome assemblies'
+links: {}
+added: '2026-11-13'
+evidence: In this manuscript, we present a novel tool for genome polishing called JASPER (Jellyfish-based Assembly Sequence
+  Polisher for Error Reduction).

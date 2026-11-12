@@ -1,0 +1,24 @@
+name: FLASH
+full_name: Fast Length Adjustment of Short reads
+category: dry
+summary: Tool that merges overlapping paired-end reads to lengthen short reads before assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr507
+  year: 2011
+  journal: Bioinformatics
+  first_author: Magoč T
+  last_author: Salzberg SL
+  pmid: '21903629'
+  pmcid: PMC3198573
+  title: 'FLASH: fast length adjustment of short reads to improve genome assemblies'
+links: {}
+added: '2026-11-13'
+evidence: The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity
+  to generate much longer reads by overlapping and merging read pairs before assembling a genome.ResultsWe present FLASH,
+  a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that
+  are sufficiently short.

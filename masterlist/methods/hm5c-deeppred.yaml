@@ -1,0 +1,22 @@
+name: hm5C-DeepPred
+category: dry
+summary: Deep-learning predictor of RNA 5-hydroxymethylcytosine sites from RNA sequence features, with transformer baselines.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13040-025-00517-x
+  year: 2026
+  journal: BioData Min
+  first_author: Attique M
+  last_author: Alkhalifah T
+  pmid: '41555424'
+  pmcid: PMC12874776
+  title: Deep learning based prediction of RNA 5hmC modifications using composite feature representations and comparative
+    benchmarking with transformer models
+links: {}
+added: '2026-11-13'
+evidence: In this work, we introduce hm5C-DeepPred, which is a deep learning-based model that incorporates composite features
+  including positional, relational and configurational properties of RNA sequences using moment based characteristic features.

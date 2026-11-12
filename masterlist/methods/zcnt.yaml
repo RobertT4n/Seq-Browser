@@ -1,0 +1,23 @@
+name: ZCNT
+full_name: zero-agnostic copy number transformation
+category: dry
+summary: Copy-number phylogeny model that allows amplification or deletion of regions with zero copies, with a closed-form
+  distance.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011590
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Schmidt H
+  last_author: Raphael BJ
+  pmid: '37943952'
+  pmcid: PMC10662746
+  title: A zero-agnostic model for copy number evolution in cancer
+links: {}
+added: '2026-11-13'
+evidence: We introduce the zero-agnostic copy number transformation (ZCNT) model, a simplification of the CNT model that allows
+  the amplification or deletion of regions with zero copies.

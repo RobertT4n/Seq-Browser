@@ -1,0 +1,20 @@
+name: Forseti
+category: dry
+summary: Mechanistic model of the splicing status of single-cell RNA-seq reads.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae207
+  year: 2024
+  journal: Bioinformatics
+  first_author: He D
+  last_author: Patro R
+  pmid: '38940130'
+  pmcid: PMC11256924
+  title: 'Forseti: a mechanistic and predictive model of the splicing status of scRNA-seq reads'
+links: {}
+added: '2026-11-13'
+evidence: Results We develop Forseti, a predictive model to probabilistically assign a splicing status to scRNA-seq reads.

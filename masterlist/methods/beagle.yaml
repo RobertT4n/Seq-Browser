@@ -1,0 +1,23 @@
+name: BEAGLE
+full_name: Broad-platform Evolutionary Analysis General Likelihood Evaluator
+category: dry
+summary: Application programming interface and high-performance library that offloads phylogenetic likelihood calculations
+  to GPUs and multicore CPUs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/sysbio/syr100
+  year: 2012
+  journal: Syst Biol
+  first_author: Ayres DL
+  last_author: Suchard MA
+  pmid: '21963610'
+  pmcid: PMC3243739
+  title: 'BEAGLE: an application programming interface and high-performance computing library for statistical phylogenetics'
+links: {}
+added: '2026-11-13'
+evidence: We present BEAGLE, an application programming interface (API) and library for high-performance statistical phylogenetic
+  inference.

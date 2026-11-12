@@ -1,0 +1,21 @@
+name: DeCiFer
+category: dry
+summary: Estimates cancer cell fraction of SNVs from bulk DNA sequencing while accounting for copy-number effects on SNV multiplicity
+  and loss.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2021.07.006
+  year: 2021
+  journal: Cell Syst
+  first_author: Satas G
+  last_author: Raphael BJ
+  pmid: '34416171'
+  pmcid: PMC8542635
+  title: DeCiFering the elusive cancer cell fraction in tumor heterogeneity and evolution
+links: {}
+added: '2026-11-13'
+evidence: We introduce DeCiFer, an algorithm that overcomes these limitations

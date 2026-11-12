@@ -1,0 +1,22 @@
+name: splinectomeR
+category: dry
+summary: R package that uses smoothing splines to summarise longitudinal microbiome data for group hypothesis tests despite
+  dropout and irregular sampling.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmicb.2018.00785
+  year: 2018
+  journal: Front Microbiol
+  first_author: Shields-Cutler RR
+  last_author: Knights D
+  pmid: '29740416'
+  pmcid: PMC5924793
+  title: SplinectomeR Enables Group Comparisons in Longitudinal Microbiome Studies
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce splinectomeR, an R package that uses smoothing splines to summarize data for straightforward
+  hypothesis testing in longitudinal studies.

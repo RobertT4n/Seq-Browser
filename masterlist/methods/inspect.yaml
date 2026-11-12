@@ -1,0 +1,24 @@
+name: INSPEcT-
+category: dry
+summary: Models premature and mature RNA to infer synthesis, processing and degradation rates from total RNA-seq without nascent
+  RNA labelling.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.260984.120
+  year: 2020
+  journal: Genome Res
+  first_author: Furlan M
+  last_author: Pelizzola M
+  pmid: '32978246'
+  pmcid: PMC7605262
+  title: Genome-wide dynamics of RNA synthesis, processing, and degradation without RNA metabolic labeling
+links: {}
+added: '2026-11-13'
+evidence: We developed INSPEcT-, a computational method based on the mathematical modeling of premature and mature RNA expression
+  that is able to quantify kinetic rates from steady-state or time course total RNA-seq data without requiring any information
+  on nascent transcripts.

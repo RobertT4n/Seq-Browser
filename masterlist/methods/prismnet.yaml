@@ -1,0 +1,23 @@
+name: PrismNet
+category: dry
+summary: Deep-learning tool that combines in vivo RNA structure profiles with RBP binding data to predict condition-specific
+  RBP binding sites.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41422-021-00476-y
+  year: 2021
+  journal: Cell Res
+  first_author: Sun L
+  last_author: Zhang QC
+  pmid: '33623109'
+  pmcid: PMC7900654
+  title: Predicting dynamic cellular protein-RNA interactions by deep learning using in vivo RNA structures
+links: {}
+added: '2026-11-13'
+evidence: Here, after profiling transcriptome-wide in vivo RNA secondary structures in seven cell types, we developed PrismNet,
+  a deep learning tool that integrates experimental in vivo RNA structure data and RBP binding data for matched cells to accurately
+  predict dynamic RBP binding in various cellular conditions.

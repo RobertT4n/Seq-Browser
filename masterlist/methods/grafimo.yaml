@@ -1,0 +1,21 @@
+name: GRAFIMO
+category: dry
+summary: Command-line tool that scans transcription-factor PWMs across pangenome variation graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009444
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Tognon M
+  last_author: Pinello L
+  pmid: '34570769'
+  pmcid: PMC8519448
+  title: 'GRAFIMO: Variant and haplotype aware motif scanning on pangenome graphs'
+links: {}
+added: '2026-11-13'
+evidence: Here we present GRAFIMO (GRAph-based Finding of Individual Motif Occurrences), a command-line tool for the scanning
+  of known TF DNA motifs represented as Position Weight Matrices (PWMs) in VGs.

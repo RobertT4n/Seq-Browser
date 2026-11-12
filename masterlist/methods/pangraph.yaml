@@ -1,0 +1,21 @@
+name: PanGraph
+category: dry
+summary: Scalable pan-genome graph construction for bacterial collections, built from blocks of homologous sequence shared
+  between genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.001034
+  year: 2023
+  journal: Microb Genom
+  first_author: Noll N
+  last_author: Neher RA
+  pmid: '37278719'
+  pmcid: PMC10327495
+  title: '<i>PanGraph</i>: scalable bacterial pan-genome graph construction'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present PanGraph , a Julia-based library and command line interface for aligning whole genomes into a graph.

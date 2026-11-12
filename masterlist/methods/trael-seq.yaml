@@ -1,0 +1,28 @@
+name: TrAEL-seq
+full_name: Transferase-Activated End Ligation sequencing
+category: wet
+summary: Captures single-stranded DNA 3' ends genome-wide at base-pair resolution, labelling replication forks and DNA breaks
+  in yeast and mammalian cells.
+readouts:
+- replication-timing
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pbio.3000886
+  year: 2021
+  journal: PLoS Biol
+  first_author: Kara N
+  last_author: Houseley J
+  pmid: '33760805'
+  pmcid: PMC8021198
+  title: Genome-wide analysis of DNA replication and DNA double-strand breaks using TrAEL-seq
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe Transferase-Activated End Ligation sequencing (TrAEL-seq), a method that captures single-stranded
+  DNA 3' ends genome-wide and with base pair resolution.

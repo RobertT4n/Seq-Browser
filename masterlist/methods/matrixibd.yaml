@@ -1,0 +1,21 @@
+name: MatrixIBD
+category: dry
+summary: Method that reconstructs recent multi-population migration history from identical-by-descent sharing under a structured
+  coalescent model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jgg.2024.02.006
+  year: 2024
+  journal: J Genet Genomics
+  first_author: Zhang W
+  last_author: Ni X
+  pmid: '38423503'
+  title: Reconstruct recent multi-population migration history by using identical-by-descent sharing
+links: null
+added: '2026-11-13'
+evidence: we propose a framework by leveraging IBD sharing in multi-population and develop a method, MatrixIBD, to reconstruct
+  recent multi-population migration history

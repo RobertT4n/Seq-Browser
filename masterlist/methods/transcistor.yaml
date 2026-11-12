@@ -1,0 +1,22 @@
+name: TransCistor
+category: dry
+summary: Statistical framework that calls cis-acting lncRNAs by testing enrichment of perturbation targets among proximal
+  genes at a controlled false discovery rate.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae075
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Dhaka B
+  last_author: Johnson R
+  pmid: '38348970'
+  pmcid: PMC11014264
+  title: Functional identification of cis-regulatory long noncoding RNAs at controlled false discovery rates
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce TransCistor, a framework for defining and identifying cis-lncRNAs based on enrichment of targets
+  amongst proximal genes.

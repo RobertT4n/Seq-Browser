@@ -1,0 +1,23 @@
+name: scExtract
+category: dry
+summary: LLM-driven framework that extracts study context from articles to guide scRNA-seq preprocessing, annotation and prior-informed
+  integration (scanorama-prior, cellhint-prior).
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03639-x
+  year: 2025
+  journal: Genome Biol
+  first_author: Wu Y
+  last_author: Tang F
+  pmid: '40537825'
+  pmcid: PMC12178070
+  title: 'scExtract: leveraging large language models for fully automated single-cell RNA-seq data annotation and prior-informed
+    multi-dataset integration'
+links: {}
+added: '2026-11-13'
+evidence: We present scExtract, a framework leveraging large language models to automate scRNA-seq data analysis from preprocessing
+  to annotation and integration.

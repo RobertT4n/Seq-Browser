@@ -1,0 +1,23 @@
+name: TRIBAL
+full_name: tree inference of B cell clonal lineages
+category: dry
+summary: Algorithm that reconstructs B cell clonal lineage trees from scRNA-seq data, modelling both somatic hypermutation
+  and class switching.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2024.100637
+  year: 2024
+  journal: Cell Genom
+  first_author: Weber LL
+  last_author: Khan AA
+  pmid: '39208795'
+  pmcid: PMC11480863
+  title: Isotype-aware inference of B cell clonal lineage trees from single-cell sequencing data
+links: {}
+added: '2026-11-13'
+evidence: Here, we present tree inference of B cell clonal lineages (TRIBAL), an algorithm designed to optimally reconstruct
+  the evolutionary history of B cell clonal lineages undergoing both SHM and CSR from scRNA-seq data.

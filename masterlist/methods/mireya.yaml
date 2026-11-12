@@ -1,0 +1,21 @@
+name: MIREyA
+category: dry
+summary: Pipeline that predicts miRNA-gene-enhancer trios from an expression dataset to detect miRNA-directed gene activation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.28142.2
+  year: 2021
+  journal: F1000Res
+  first_author: Elizarova A
+  last_author: Medvedeva YA
+  pmid: '34527215'
+  pmcid: PMC8411277
+  title: 'MIREyA: a computational approach to detect miRNA-directed gene activation'
+links: {}
+added: '2026-11-13'
+evidence: Here we present MIREyA, a pipeline developed to predict such miRNA-gene-enhancer trios based on an expression dataset
+  which obviates the need to write custom scripts.

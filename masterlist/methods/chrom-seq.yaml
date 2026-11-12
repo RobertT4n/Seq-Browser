@@ -1,0 +1,24 @@
+name: Chrom-seq
+category: wet
+summary: Chromatin-mark reader fused to APEX2 biotinylates adjacent RNAs, which are pulled down with streptavidin beads and
+  sequenced.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+chemistry:
+- reverse-transcription
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adn1397
+  year: 2024
+  journal: Sci Adv
+  first_author: Fan L
+  last_author: Yan J
+  pmid: '39083617'
+  pmcid: PMC11290522
+  title: Chrom-seq identifies RNAs at chromatin marks
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a method termed Chrom-seq to efficiently capture RNAs associated with various chromatin marks
+  in living cells.

@@ -1,0 +1,23 @@
+name: PhyloWGS
+category: dry
+summary: Method that reconstructs subclonal genotypes and evolutionary history from tumour whole-genome sequencing VAFs and
+  structural variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-015-0602-8
+  year: 2015
+  journal: Genome Biol
+  first_author: Deshwar AG
+  last_author: Morris Q
+  pmid: '25786235'
+  pmcid: PMC4359439
+  title: 'PhyloWGS: reconstructing subclonal composition and evolution from whole-genome sequencing of tumors'
+links: {}
+added: '2026-11-13'
+evidence: We describe a new method, PhyloWGS, which can be applied to whole-genome sequencing data from one or more tumor
+  samples to reconstruct complete genotypes of these subpopulations based on variant allele frequencies (VAFs) of point mutations
+  and population frequencies of structural variations.

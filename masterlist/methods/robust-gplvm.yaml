@@ -1,0 +1,24 @@
+name: Robust GPLVM
+full_name: Gaussian process latent variable model
+category: dry
+summary: Nonlinear latent variable model with heavy-tailed (Student-t) noise and adaptive kernels for low-dimensional embedding
+  of unfiltered scRNA-seq counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03625-z
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Verma A
+  last_author: Engelhardt BE
+  pmid: '32693778'
+  pmcid: PMC7374962
+  title: A robust nonlinear low-dimensional manifold for single cell RNA-seq data
+links: {}
+added: '2026-11-13'
+evidence: We present a nonlinear latent variable model with robust, heavy-tailed error and adaptive kernel learning to estimate
+  low-dimensional nonlinear structure in scRNA-seq data.ResultsGene expression in a single cell is modeled as a noisy draw
+  from a Gaussian process in high dimensions from low-dimensional latent positions.

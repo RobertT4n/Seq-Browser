@@ -1,0 +1,22 @@
+name: DADA
+full_name: Divisive Amplicon Denoising Algorithm
+category: dry
+summary: Denoising algorithm that infers sample genotypes and error parameters from amplicon sequencing data without training
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2105-13-283
+  year: 2012
+  journal: BMC Bioinformatics
+  first_author: Rosen MJ
+  last_author: Holmes SP
+  pmid: '23113967'
+  pmcid: PMC3563472
+  title: Denoising PCR-amplified metagenome data
+evidence: We introduce a new denoising algorithm that we call DADA (Divisive Amplicon Denoising Algorithm).
+added: '2026-11-13'
+links: null

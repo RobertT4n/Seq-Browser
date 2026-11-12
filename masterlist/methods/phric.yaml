@@ -1,0 +1,22 @@
+name: PHRIC
+category: dry
+summary: Pipeline that predicts long-range RNA secondary structures from RIC-seq RNA-RNA contact maps, beyond evolutionarily
+  conserved regions.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.16414
+  year: 2023
+  journal: PeerJ
+  first_author: Margasyuk S
+  last_author: Pervouchine D
+  pmid: '38047033'
+  pmcid: PMC10691357
+  title: Long-range RNA structures in the human transcriptome beyond evolutionarily conserved regions
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a computational pipeline called PHRIC, which is not limited to conserved regions and relies on
+  RNA contacts derived from RNA in situ conformation sequencing (RIC-seq) experiments.

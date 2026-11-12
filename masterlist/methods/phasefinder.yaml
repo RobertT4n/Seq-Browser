@@ -1,0 +1,20 @@
+name: PhaseFinder
+category: dry
+summary: Algorithm that quantifies DNA-inversion phase variation (invertons) across bacterial genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/science.aau5238
+  year: 2019
+  journal: Science
+  first_author: Jiang X
+  last_author: Xavier RJ
+  pmid: '30630933'
+  pmcid: PMC6543533
+  title: Invertible promoters mediate bacterial phase variation, antibiotic resistance, and host adaptation in the gut
+links: {}
+added: '2026-11-13'
+evidence: We developed the PhaseFinder algorithm to quantify DNA inversion-mediated phase variation.

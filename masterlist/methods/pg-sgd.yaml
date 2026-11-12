@@ -1,0 +1,22 @@
+name: PG-SGD
+full_name: Path-Guided Stochastic Gradient Descent
+category: dry
+summary: Graph layout algorithm (path-guided stochastic gradient descent) for visualising large pangenome graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae363
+  year: 2024
+  journal: Bioinformatics
+  first_author: Heumos S
+  last_author: Garrison E
+  pmid: '38960860'
+  pmcid: PMC11227364
+  title: Pangenome graph layout by Path-Guided Stochastic Gradient Descent
+links: {}
+added: '2026-11-13'
+evidence: 'Due to a pangenome graph''s potential excessive size, this is a significant challenge.ResultsIn response, we introduce
+  a novel graph layout algorithm: the Path-Guided Stochastic Gradient Descent (PG-SGD).'

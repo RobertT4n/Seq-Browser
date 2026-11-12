@@ -1,0 +1,28 @@
+name: scPT-seq
+category: wet
+summary: Single-cell RNA assay that reads CRISPR-induced mutations at base-pair resolution alongside transcriptomes in vivo.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- invertebrate
+perturbation:
+- crispr-knockout
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2025.12.23.696319
+  year: 2025
+  journal: bioRxiv
+  first_author: Hawkins JA
+  last_author: Stegle O
+  title: Direct detection of CRISPR mutations and transcriptional responses at single cell resolution  <i>in vivo</i>
+links: {}
+added: '2026-11-13'
+evidence: Here we present scPT-seq, a single-cell RNA assay
+partition_unknown: not stated in the abstract

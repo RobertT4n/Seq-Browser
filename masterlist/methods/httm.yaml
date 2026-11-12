@@ -1,0 +1,29 @@
+name: HTTM
+full_name: High-Throughput Transposon Mutagenesis
+category: wet
+summary: Inexpensive high-throughput transposon mutagenesis protocol giving dense insertion libraries, read by sequencing
+  for gene essentiality in E. coli.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0283990
+  year: 2023
+  journal: PLoS One
+  first_author: Champie A
+  last_author: Rodrigue S
+  pmid: '37040373'
+  pmcid: PMC10089323
+  title: Enabling low-cost and robust essentiality studies with high-throughput transposon mutagenesis (HTTM)
+links: {}
+added: '2026-11-13'
+evidence: Here, we report the development of a robust and inexpensive High-Throughput Transposon Mutagenesis (HTTM) protocol
+  and validate the method using Escherichia coli strain BW25113

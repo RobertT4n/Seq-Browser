@@ -1,0 +1,23 @@
+name: MoFlow
+category: dry
+summary: Deep neural network that infers single-cell gene expression kinetics from multi-omic data within a relay velocity
+  framework.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-67259-6
+  year: 2025
+  journal: Nat Commun
+  first_author: Hong A
+  last_author: Kim K
+  pmid: '41457082'
+  pmcid: PMC12808240
+  title: Multi-omic relay velocity modeling uncovers dynamic chromatin-transcription regulation across cell states
+links: {}
+added: '2026-11-13'
+evidence: To address these limitations, we introduce MoFlow, a deep neural network that integrates multi-omic data within
+  a relay velocity framework.

@@ -1,0 +1,25 @@
+name: Sigmoni
+category: dry
+summary: Compressed r-index classifier that assigns nanopore raw signal to pangenome references after quantizing it into picoamp
+  ranges.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btae213
+  year: 2024
+  journal: Bioinformatics
+  first_author: Shivakumar VS
+  last_author: Langmead B
+  pmid: '38940135'
+  pmcid: PMC11211819
+  title: 'Sigmoni: classification of nanopore signal with a compressed pangenome index'
+links: {}
+added: '2026-11-13'
+evidence: 'We introduce Sigmoni: a rapid, multiclass classification method based on the r-index that scales to references
+  of hundreds of Gbps.'

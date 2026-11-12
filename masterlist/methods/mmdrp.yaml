@@ -1,0 +1,22 @@
+name: MMDRP
+category: dry
+summary: Multi-modal deep learning model for drug response prediction and biomarker discovery from cancer molecular data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbae010
+  year: 2024
+  journal: Bioinform Adv
+  first_author: Taj F
+  last_author: Stein LD
+  pmid: '38371918'
+  pmcid: PMC10872075
+  title: 'MMDRP: drug response prediction and biomarker discovery using multi-modal deep learning'
+links: {}
+added: '2026-11-13'
+evidence: Availability and implementation MMDRP is implemented as an open-source, Python-based, command-line program and is
+  available at https://github.com/LincolnSteinLab/MMDRP.

@@ -1,0 +1,23 @@
+name: colorSV
+full_name: COassembly-based LOng-Range SV caller
+category: dry
+summary: Long-read somatic structural variant caller that calls long-range SVs from joint tumour-normal assembly graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzaf082
+  year: 2025
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Le MK
+  last_author: Li H
+  pmid: '40973068'
+  title: 'colorSV: Long-range Somatic Structural Variation Calling from Matched Tumor-normal Co-assembly Graphs'
+links: null
+added: '2026-11-13'
+evidence: we present colorSV (COassembly-based LOng-Range SV caller), a long-read-based method for calling long-range SVs
+  by examining the local topology of joint assembly graphs

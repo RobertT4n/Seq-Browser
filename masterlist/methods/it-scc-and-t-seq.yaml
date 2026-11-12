@@ -1,0 +1,33 @@
+name: IT-scC&T-seq
+full_name: indexed tagmentation-based single-cell CUT&Tag-sequencing
+category: wet
+summary: Plate-based single-cell CUT&Tag with three rounds of combinatorial barcoding, profiling histone modifications and
+  transcription factors.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- combinatorial-indexing
+- plate-based
+species:
+- mouse
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.1186/s13059-025-03661-z
+  year: 2025
+  journal: Genome Biol
+  first_author: Ma J
+  last_author: Zhou Z
+  pmid: '40624534'
+  pmcid: PMC12235884
+  title: IT-scC&amp;T-seq streamlines scalable, parallel profiling of protein-DNA interactions in single cells
+links: {}
+added: '2026-11-13'
+evidence: We present indexed tagmentation-based single-cell CUT&Tag-sequencing (IT-scC&T-seq), a modular, plate-based strategy
+  using three-round combinatorial barcoding.

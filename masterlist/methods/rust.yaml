@@ -1,0 +1,22 @@
+name: RUST
+full_name: Ribo-seq Unit Step Transformation
+category: dry
+summary: Normalization method for local ribosome footprint density in Ribo-seq that identifies mRNA sequence determinants.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms12915
+  year: 2016
+  journal: Nat Commun
+  first_author: O'Connor PB
+  last_author: Baranov PV
+  pmid: '27698342'
+  pmcid: PMC5059445
+  title: Comparative survey of the relative impact of mRNA features on local ribosome profiling read density
+links: {}
+added: '2026-11-13'
+evidence: Here, to reduce the impact of data heterogeneity we introduce a simple normalization method, Ribo-seq Unit Step
+  Transformation (RUST).

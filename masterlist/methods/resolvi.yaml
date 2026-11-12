@@ -1,0 +1,22 @@
+name: resolVI
+category: dry
+summary: Probabilistic model run after segmentation that corrects molecule misassignment, batch effects and nuisance factors
+  in subcellular spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03212-9
+  year: 2026
+  journal: Nat Methods
+  first_author: Ergen C
+  last_author: Yosef N
+  pmid: '42786290'
+  pmcid: PMC13645626
+  title: 'ResolVI: addressing noise and bias in spatial transcriptomics'
+links: {}
+added: '2026-11-13'
+evidence: Here we develop resolVI, a model that operates downstream of any segmentation algorithm to generate a probabilistic
+  representation, correcting for the misassignment of molecules, as well as for batch effects and other nuisance factors.

@@ -1,0 +1,25 @@
+name: DipAsm
+full_name: diploid assembly
+category: dry
+summary: Diploid assembler that uses long accurate reads and long-range conformation data from one individual to produce chromosome-scale
+  phased assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-020-0711-0
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Garg S
+  last_author: Li H
+  pmid: '33288905'
+  pmcid: PMC7954703
+  title: Chromosome-scale, haplotype-resolved assembly of human genomes
+links: {}
+added: '2026-11-13'
+evidence: We present a method named diploid assembly (DipAsm) that uses long, accurate reads and long-range conformation data
+  for single individuals to generate a chromosome-scale phased assembly within 1 day.

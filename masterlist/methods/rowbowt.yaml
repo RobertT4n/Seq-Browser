@@ -1,0 +1,22 @@
+name: rowbowt
+category: dry
+summary: Pangenome-index genotyper that uses a marker array to infer genotypes from short reads while reducing single-reference
+  bias.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13015-023-00225-3
+  year: 2023
+  journal: Algorithms Mol Biol
+  first_author: Mun T
+  last_author: Langmead B
+  pmid: '37147657'
+  pmcid: PMC10161648
+  title: Pangenomic genotyping with the marker array
+links: {}
+added: '2026-11-13'
+evidence: We present a new method and software tool called rowbowt that applies a pangenome index to the problem of inferring
+  genotypes from short-read sequencing data.

@@ -1,0 +1,22 @@
+name: Ribo-uORF
+category: dry
+rejected: Data resource / database of uORFs, not a new method; curated out by audit 2026-11-13
+summary: Resource and toolset of uORFs called from Ribo-seq datasets, with uORFscan and UTR5var for user data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac1094
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Liu Q
+  last_author: Gregory RI
+  pmid: '36440758'
+  pmcid: PMC9825487
+  title: 'Ribo-uORF: a comprehensive data resource of upstream open reading frames (uORFs) based on ribosome profiling'
+links: {}
+added: '2026-11-13'
+evidence: Finally, uORFscan and UTR5var were developed in Ribo-uORF to precisely identify uORFs and analyze the influence
+  of genetic mutations on uORFs using user-uploaded datasets.

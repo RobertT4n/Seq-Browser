@@ -1,0 +1,22 @@
+name: RCK
+full_name: Reconstructing Cancer Karyotypes
+category: dry
+summary: Reconstructs clone- and haplotype-specific karyotypes of rearranged cancer genomes from bulk tumour DNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.256701.119
+  year: 2020
+  journal: Genome Res
+  first_author: Aganezov S
+  last_author: Raphael BJ
+  pmid: '32887685'
+  pmcid: PMC7545144
+  title: Reconstruction of clone- and haplotype-specific cancer genome karyotypes from bulk tumor samples
+links: {}
+added: '2026-11-13'
+evidence: We introduce a new algorithm, Reconstructing Cancer Karyotypes (RCK), to reconstruct haplotype-specific karyotypes
+  of one or more rearranged cancer genomes from DNA sequencing data from a bulk tumor sample.

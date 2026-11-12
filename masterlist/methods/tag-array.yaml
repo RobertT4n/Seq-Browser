@@ -1,0 +1,22 @@
+name: Tag array
+category: dry
+summary: Run-length compressed tag-array extension of the FM/r-index that annotates BWT positions with graph coordinates for
+  lossless pangenome querying.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13015-026-00301-4
+  year: 2026
+  journal: Algorithms Mol Biol
+  first_author: Eskandar P
+  last_author: Sirén J
+  pmid: '42316246'
+  pmcid: PMC13520286
+  title: Lossless pangenome indexing using tag arrays
+links: {}
+added: '2026-11-13'
+evidence: We present a practical and scalable indexing framework based on tag arrays, which annotate positions in the Burrows-Wheeler
+  transform (BWT) with graph coordinates.

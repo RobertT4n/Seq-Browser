@@ -1,0 +1,21 @@
+name: RiboGraph
+category: dry
+summary: Interactive visualisation tool for ribosome occupancy data at read-length resolution using compact .ribo files.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae369
+  year: 2024
+  journal: Bioinformatics
+  first_author: Chacko J
+  last_author: Cenik C
+  pmid: '38897662'
+  pmcid: PMC11197854
+  title: 'RiboGraph: an interactive visualization system for ribosome profiling data at read length resolution'
+links: {}
+added: '2026-11-13'
+evidence: In this study, we introduce RiboGraph, a dedicated visualization tool designed to work with .ribo files, a specialized
+  and efficient format for ribosome occupancy data.

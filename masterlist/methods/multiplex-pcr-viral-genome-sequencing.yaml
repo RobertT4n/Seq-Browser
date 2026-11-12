@@ -1,0 +1,29 @@
+name: Multiplex PCR viral genome sequencing
+category: wet
+summary: Multiplex PCR enrichment of complete viral coding genomes directly from clinical samples, with library preparation
+  for MinION nanopore and Illumina sequencing and a consensus pipeline.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/nprot.2017.066
+  year: 2017
+  journal: Nat Protoc
+  first_author: Quick J
+  last_author: Loman NJ
+  pmid: '28538739'
+  pmcid: PMC5902022
+  title: Multiplex PCR method for MinION and Illumina sequencing of Zika and other virus genomes directly from clinical samples
+evidence: we present a protocol for generating coding-sequence-complete genomes, comprising an online primer design tool,
+  a novel multiplex PCR enrichment protocol, optimized library preparation methods for the portable MinION sequencer
+added: '2026-11-13'
+links: null

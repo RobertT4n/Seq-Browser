@@ -1,0 +1,30 @@
+name: TRIBE
+full_name: targets of RNA-binding proteins identified by editing
+category: wet
+summary: Fuses an RNA-binding protein to the ADAR editing domain so its RNA targets carry A-to-I edits that are read out by
+  RNA sequencing.
+readouts:
+- rna-protein-interaction
+- rna-modification
+resolution:
+- bulk
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2016.03.007
+  year: 2016
+  journal: Cell
+  first_author: McMahon AC
+  last_author: Rosbash M
+  pmid: '27040499'
+  pmcid: PMC5027142
+  title: 'TRIBE: Hijacking an RNA-Editing Enzyme to Identify Cell-Specific Targets of RNA-Binding Proteins'
+links: {}
+added: '2026-11-13'
+evidence: To address these issues, we developed TRIBE (targets of RNA-binding proteins identified by editing), a technique
+  that couples an RBP to the catalytic domain of the Drosophila RNA-editing enzyme ADAR

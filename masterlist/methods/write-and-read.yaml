@@ -1,0 +1,29 @@
+name: Write-and-Read
+category: wet
+summary: Chemo-enzymatic DNA labelling with synthetic tags (e.g. glucose or azide on 5-hydroxymethylcytosine or adenine) that
+  produces distinct, reproducible nanopore current shifts read directly from native DNA.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- long-read-sequencing
+evidence: Here, we present a versatile "write-and-read" framework, where chemo-enzymatic DNA labeling with unnatural synthetic
+  tags results in predictable electrical fingerprints in nanopore sequencing.
+reference:
+  doi: 10.1021/acsnano.5c12530
+  year: 2025
+  journal: ACS Nano
+  first_author: Bertocchi U
+  last_author: Ebenstein Y
+  pmid: '41182093'
+  pmcid: PMC12613841
+  title: 'Write and Read: Harnessing Synthetic DNA Modifications for Nanopore Sequencing'
+links: {}
+added: '2026-11-13'

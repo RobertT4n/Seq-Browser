@@ -1,0 +1,21 @@
+name: Fulgor
+category: dry
+summary: Fast, compact k-mer index for matching and colour queries over large sequence collections.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13015-024-00251-9
+  year: 2024
+  journal: Algorithms Mol Biol
+  first_author: Fan J
+  last_author: Patro R
+  pmid: '38254124'
+  pmcid: PMC10810250
+  title: 'Fulgor: a fast and compact k-mer index for large-scale matching and color queries'
+links: {}
+added: '2026-11-13'
+evidence: To solve this problem, we describe an efficient colored de Bruijn graph index, arising as the combination of a k-mer
+  dictionary with a compressed inverted index.

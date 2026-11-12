@@ -1,0 +1,21 @@
+name: Ohana
+category: dry
+summary: Maximum-likelihood admixture (STRUCTURE-style, including genotype-likelihood NGS input) and population tree estimation
+  from ancestry components.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx098
+  year: 2017
+  journal: Bioinformatics
+  first_author: Cheng JY
+  last_author: Nielsen R
+  pmid: '28334108'
+  pmcid: PMC6543773
+  title: Fast admixture analysis and population tree estimation for SNP and NGS data
+links: {}
+added: '2026-11-13'
+evidence: The new methods are implemented together with appropriate visualization tools in the software package Ohana.

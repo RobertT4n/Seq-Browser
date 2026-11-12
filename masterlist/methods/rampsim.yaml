@@ -1,0 +1,22 @@
+name: RAmpSim
+category: dry
+summary: Thermodynamic simulator of bait-target hybridisation for generating synthetic capture-based metagenomic sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btag303
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhang A
+  last_author: Yu YW
+  pmid: '42412840'
+  pmcid: PMC13341137
+  title: 'RAmpSim: a thermodynamic simulator for hybridization capture in metagenomic sequencing'
+links: {}
+added: '2026-11-13'
+evidence: We present RAmpSim, a fast simulator that models bait-target hybridization and fragment capture using a thermodynamic
+  nearest-neighbor energy model and Boltzmann-weighted sampling of binding sites.

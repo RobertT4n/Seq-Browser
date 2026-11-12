@@ -1,0 +1,22 @@
+name: ropebwt2
+category: dry
+summary: Algorithm that incrementally builds an FM-index for short and long sequence reads, sorting implicitly in reverse-complement
+  lexicographic order.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu541
+  year: 2014
+  journal: Bioinformatics
+  first_author: Li H
+  last_author: Li H
+  pmid: '25107872'
+  pmcid: PMC4221129
+  title: Fast construction of FM-index for long sequence reads
+links: {}
+added: '2026-11-13'
+evidence: We present a new method to incrementally construct the FM-index for both short and long sequence reads, up to the
+  size of a genome.

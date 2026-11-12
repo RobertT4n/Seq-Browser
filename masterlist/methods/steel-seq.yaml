@@ -1,0 +1,27 @@
+name: STEEL-seq
+full_name: sequence-templated erroneous end-labelling sequencing
+category: wet
+summary: Maps single-stranded DNA breaks by polymerase end-labelling with an engineered error-prone polymerase that marks
+  break sites as mismatches.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1038/s41467-025-62512-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Wenson L
+  last_author: Söderberg O
+  pmid: '40759655'
+  pmcid: PMC12322144
+  title: Precise mapping of single-stranded DNA breaks by sequence-templated erroneous DNA polymerase end-labelling
+links: {}
+added: '2026-11-13'
+evidence: To address this limitation, we develop a method for sequence-templated erroneous end-labelling sequencing (STEEL-seq),
+  which enables the mapping of SSBs.

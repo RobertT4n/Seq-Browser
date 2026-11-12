@@ -1,0 +1,23 @@
+name: MashMap2
+category: dry
+summary: Fast adaptive whole-genome homology mapper that computes local alignment boundaries from k-mer statistics for assembly-to-genome
+  and genome-to-genome mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1093/bioinformatics/bty597
+  year: 2018
+  journal: Bioinformatics
+  first_author: Jain C
+  last_author: Aluru S
+  pmid: '30423094'
+  pmcid: PMC6129286
+  title: A fast adaptive algorithm for computing whole-genome homology maps
+links: {}
+added: '2026-11-13'
+evidence: Implementation of these ideas resulted in a fast and accurate assembly-to-genome and genome-to-genome mapper.

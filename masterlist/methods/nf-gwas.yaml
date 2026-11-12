@@ -1,0 +1,20 @@
+name: nf-gwas
+category: dry
+summary: Nextflow pipeline for reproducible, parallelised biobank-scale genome-wide association studies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae015
+  year: 2024
+  journal: NAR Genom Bioinform
+  first_author: Schönherr S
+  last_author: Forer L
+  pmid: '38327871'
+  pmcid: PMC10849172
+  title: Performing highly parallelized and reproducible GWAS analysis on biobank-scale data
+links: {}
+added: '2026-11-13'
+evidence: Here we present nf-gwas, a Nextflow pipeline to run biobank-scale GWAS analysis.

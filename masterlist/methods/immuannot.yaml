@@ -1,0 +1,23 @@
+name: Immuannot
+category: dry
+summary: Tool that annotates HLA and KIR gene structures in long-read genome assemblies and types gene alleles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+reference:
+  doi: 10.1101/gr.278985.124
+  year: 2024
+  journal: Genome Res
+  first_author: Zhou Y
+  last_author: Li H
+  pmid: '38839374'
+  pmcid: PMC11610593
+  title: Full-resolution HLA and KIR gene annotations for human genome assemblies
+links: null
+added: '2026-11-13'
+evidence: Here, we describe Immuannot, a new computation tool to annotate the gene structures of HLA and KIR genes and to
+  type the allele of each gene.

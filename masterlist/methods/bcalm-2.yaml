@@ -1,0 +1,20 @@
+name: bcalm 2
+category: dry
+summary: Parallel, low-memory compaction of de Bruijn graphs from raw sequencing reads using minimizer-based partitioning.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw279
+  year: 2016
+  journal: Bioinformatics
+  first_author: Chikhi R
+  last_author: Medvedev P
+  pmid: '27307618'
+  pmcid: PMC4908363
+  title: Compacting de Bruijn graphs from sequencing data quickly and in low memory
+links: {}
+added: '2026-11-13'
+evidence: We present an algorithm and a tool bcalm 2 for the compaction of de Bruijn graphs.

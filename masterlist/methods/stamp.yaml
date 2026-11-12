@@ -1,0 +1,25 @@
+name: STAMP
+full_name: Surveying Targets by APOBEC-Mediated Profiling
+category: wet
+summary: APOBEC-mediated profiling of RBP-RNA contacts without UV crosslinking or immunoprecipitation, coupled to single-cell capture; Ribo-STAMP reports ribosome association.
+readouts:
+- rna-protein-interaction
+- translation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-021-01128-0
+  year: 2021
+  journal: Nat Methods
+  first_author: Brannan KW
+  last_author: Yeo GW
+  pmid: '33963355'
+  pmcid: PMC8148648
+  title: Robust single-cell discovery of RNA targets of RNA-binding proteins and ribosomes.
+links: {}
+added: '2026-11-13'
+evidence: To address this gap in understanding, we developed STAMP (Surveying Targets by APOBEC-Mediated Profiling), which efficiently detects RBP-RNA interactions.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,31 @@
+name: Ribo-ITP
+full_name: RIBOsome profiling via isotachophoresis
+category: wet
+summary: Microfluidic isotachophoresis ribosome profiling that isolates ribosome-protected fragments from single or ultra-low-input
+  cells.
+readouts:
+- translation
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+input_sample:
+- low-input
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/s41586-023-06228-9
+  year: 2023
+  journal: Nature
+  first_author: Ozadam H
+  last_author: Cenik C
+  pmid: '37344592'
+  pmcid: PMC10307641
+  title: Single-cell quantification of ribosome occupancy in early mouse development
+links: {}
+added: '2026-11-13'
+evidence: Here, to address this challenge, we developed a novel microfluidic isotachophoresis (ITP) approach, named RIBOsome
+  profiling via ITP (Ribo-ITP), and characterized translation in single oocytes and embryos during early mouse development.

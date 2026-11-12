@@ -1,0 +1,21 @@
+name: KATKA
+category: dry
+summary: Phylogenetic-tree k-mer index that returns the smallest subtree containing all genomes in which a pattern's k-mer
+  occurs, with k set at query time.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/978-3-031-20643-6_14
+  year: 2022
+  journal: Int Symp String Process Inf Retr
+  first_author: Gagie T
+  last_author: Langmead B
+  pmid: '39081858'
+  pmcid: PMC11288484
+  title: 'KATKA: A KRAKEN-like tool with k given at query time'
+links: {}
+added: '2026-11-13'
+evidence: We describe a new tool, KATKA, that stores a phylogenetic tree T such that later, given a pattern P [ 1 .

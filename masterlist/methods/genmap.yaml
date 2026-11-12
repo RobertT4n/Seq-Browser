@@ -1,0 +1,20 @@
+name: GenMap
+category: dry
+summary: Fast tool that computes (k, e)-mappability for every genome position, including across multiple genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa222
+  year: 2020
+  journal: Bioinformatics
+  first_author: Pockrandt C
+  last_author: Reinert K
+  pmid: '32246826'
+  pmcid: PMC7320602
+  title: 'GenMap: ultra-fast computation of genome mappability'
+links: {}
+added: '2026-11-13'
+evidence: Results We present a fast method GenMap to compute the (k, e)-mappability.

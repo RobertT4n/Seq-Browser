@@ -1,0 +1,24 @@
+name: TedSim
+full_name: single-cell temporal dynamics simulator
+category: dry
+summary: Simulator that generates scRNA-seq expression and lineage barcodes together along a simulated cell division tree.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac235
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Pan X
+  last_author: Zhang X
+  pmid: '35412632'
+  pmcid: PMC9071466
+  title: 'TedSim: temporal dynamics simulation of single-cell RNA sequencing data and cell division history'
+links: {}
+added: '2026-11-13'
+evidence: 'Here, we present TedSim (single-cell temporal dynamics simulator), which simulates the cell division events from
+  the root cell to present-day cells, simultaneously generating two data modalities for each single cell: the lineage barcode
+  and gene expression data.'

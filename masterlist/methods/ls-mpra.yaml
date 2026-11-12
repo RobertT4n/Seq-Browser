@@ -1,0 +1,34 @@
+name: LS-MPRA
+full_name: locus-specific massively parallel reporter assay
+category: wet
+summary: Locus-specific massively parallel reporter assay using BAC-based libraries to densely sample genomic regions for
+  cis-regulatory activity.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+- other-vertebrate
+perturbation:
+- reporter-assay
+chemistry:
+- reverse-transcription
+variant_of:
+- mpra
+reference:
+  doi: 10.7554/elife.107565
+  year: 2026
+  journal: Elife
+  first_author: Tulloch AJ
+  last_author: Cepko CL
+  pmid: '41738738'
+  pmcid: PMC12935429
+  title: Massively parallel reporter assay for mapping gene-specific regulatory regions at single-nucleotide resolution
+links: {}
+added: '2026-11-13'
+evidence: LS-MPRA uses BAC-based libraries to densely sample genomic regions, enabling unbiased interrogation of millions
+  of DNA fragments for CRM activity.

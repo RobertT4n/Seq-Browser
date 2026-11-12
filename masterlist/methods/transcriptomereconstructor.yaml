@@ -1,0 +1,22 @@
+name: TranscriptomeReconstructoR
+category: dry
+summary: R package that reconstructs gene and transcript models from full-length RNA-seq, 5' and 3' tag data and optional
+  nascent RNA-seq.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04208-2
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Ivanov M
+  last_author: Marquardt S
+  pmid: '34058980'
+  pmcid: PMC8166035
+  title: 'TrancriptomeReconstructoR: data-driven annotation of complex transcriptomes'
+links: {}
+added: '2026-11-13'
+evidence: We developed TranscriptomeReconstructoR, an R package which implements a pipeline for automated transcriptome annotation.

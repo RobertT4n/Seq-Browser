@@ -1,0 +1,28 @@
+name: CRISPRiSeq
+category: wet
+summary: Pooled-growth CRISPRi sequencing assay that measures pairwise genetic interactions in yeast across multiple growth
+  conditions from barcode fitness readouts.
+readouts:
+- functional-screen
+perturbation:
+- crispr-interference
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1101/gr.246603.118
+  year: 2019
+  journal: Genome Res
+  first_author: Jaffe M
+  last_author: Sherlock G
+  pmid: '30782640'
+  pmcid: PMC6442382
+  title: Improved discovery of genetic interactions using CRISPRiSeq across multiple environments
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a pooled-growth CRISPRi-based sequencing assay for GIs, CRISPRiSeq, which increases throughput
+  such that GIs can be easily assayed across multiple growth conditions.

@@ -1,0 +1,22 @@
+name: TIGON
+category: dry
+summary: Dynamic unbalanced optimal-transport method that reconstructs trajectories, population growth and gene regulatory
+  networks from scRNA-seq time-series snapshots.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-023-00763-w
+  year: 2024
+  journal: Nat Mach Intell
+  first_author: Sha Y
+  last_author: Nie Q
+  pmid: '38274364'
+  pmcid: PMC10805654
+  title: Reconstructing growth and dynamic trajectories from single-cell transcriptomics data
+links: {}
+added: '2026-11-13'
+evidence: Here we present TIGON, a dynamic, unbalanced optimal transport algorithm that reconstructs dynamic trajectories
+  and population growth simultaneously as well as the underlying gene regulatory network from multiple snapshots.

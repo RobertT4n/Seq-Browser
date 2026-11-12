@@ -1,0 +1,34 @@
+name: spatial NT-seq
+full_name: spatial nucleotide-recoding RNA sequencing
+category: wet
+summary: Transgenesis-free metabolic RNA labelling with in situ chemical recoding on spatial platforms, co-mapping new and
+  pre-existing RNA in tissue.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- spatial
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- spatial-barcode-array
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41593-026-02420-y
+  year: 2026
+  journal: Nat Neurosci
+  first_author: Qiu Q
+  last_author: Wu H
+  pmid: '42675226'
+  pmcid: PMC13724279
+  title: Spatial mapping of RNA turnover kinetics in the mouse brain
+links: {}
+added: '2026-11-13'
+evidence: Here we present spatial NT-seq, a method that combines transgenesis-free metabolic RNA labeling with in situ chemical
+  recoding on spatial transcriptomics platforms to co-map newly synthesized and pre-existing RNAs.

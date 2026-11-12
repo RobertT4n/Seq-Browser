@@ -1,0 +1,21 @@
+name: ActiveDriverWGS
+category: dry
+summary: Driver-discovery method that tests cis-regulatory modules across whole tumour genomes for enrichment of SNVs and
+  indels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: We developed a driver discovery method, ActiveDriverWGS, and analyzed 120,788 cis-regulatory modules (CRMs) across
+  1,844 whole tumor genomes from the ICGC-TCGA PCAWG project.
+reference:
+  doi: 10.1016/j.molcel.2019.12.027
+  year: 2020
+  journal: Mol Cell
+  first_author: Zhu H
+  last_author: Reimand J
+  pmid: '31954095'
+  title: Candidate Cancer Driver Mutations in Distal Regulatory Elements and Long-Range Chromatin Interaction Networks
+links: {}
+added: '2026-11-13'

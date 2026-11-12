@@ -1,0 +1,22 @@
+name: easyRNASeq
+category: dry
+summary: Bioconductor R package that simplifies RNA-seq read processing by hiding the chain of required packages behind one
+  function.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts477
+  year: 2012
+  journal: Bioinformatics
+  first_author: Delhomme N
+  last_author: Steinmetz LM
+  pmid: '22847932'
+  pmcid: PMC3463124
+  title: 'easyRNASeq: a bioconductor package for processing RNA-Seq data'
+links: {}
+added: '2026-11-13'
+evidence: We developed 'easyRNASeq', an R package that simplifies the processing of RNA sequencing data, hiding the complex
+  interplay of the required packages behind a single functionality.

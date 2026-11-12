@@ -1,0 +1,22 @@
+name: Phylogenetic Chinese restaurant process
+category: dry
+summary: Bayesian nonparametric clustering that adds phylogenetic dependence between strains to a Chinese restaurant process,
+  to model antigenic clusters of influenza.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/sim.7196
+  year: 2018
+  journal: Stat Med
+  first_author: Cybis GB
+  last_author: Suchard MA
+  pmid: '28098392'
+  pmcid: PMC5515700
+  title: 'Bayesian nonparametric clustering in phylogenetics: modeling antigenic evolution in influenza'
+links: {}
+added: '2026-11-13'
+evidence: We propose a phylogenetic Chinese restaurant process that extends the current process to incorporate the phylogenetic
+  dependency structure between strains in the modeling of antigenic clusters.

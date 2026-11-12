@@ -1,0 +1,21 @@
+name: alevin-fry
+category: dry
+summary: Framework for quantifying single-cell and single-nucleus RNA-seq reads into count matrices, faster and more memory-frugal
+  than comparable tools.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01408-3
+  year: 2022
+  journal: Nat Methods
+  first_author: He D
+  last_author: Patro R
+  pmid: '35277707'
+  pmcid: PMC8933848
+  title: Alevin-fry unlocks rapid, accurate and memory-frugal quantification of single-cell RNA-seq data
+links: {}
+added: '2026-11-13'
+evidence: We introduce the alevin-fry framework for quantifying sc/snRNA-seq data.

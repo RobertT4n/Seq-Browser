@@ -1,0 +1,24 @@
+name: AlphaFISH
+category: wet
+summary: Sequencing-free spatial profiling of host and microbial signals in clinical colorectal biopsies, paired with a transformer
+  model for recurrence prediction.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.64898/2026.09.29.26363734
+  year: 2026
+  journal: medRxiv
+  first_author: Guo F
+  last_author: Shi P
+  title: Cohort-scale Spatial Host-Microbiome Predicts Post-Resection Recurrence in Colorectal Cancer
+links: {}
+added: '2026-11-13'
+evidence: To overcome the barriers, we present AlphaFISH, a platform technology integrating both technical and computational
+  innovations for multi-omics spatial analysis of clinical biopsies at subcellular resolution.

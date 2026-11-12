@@ -1,0 +1,21 @@
+name: HISAT-genotype
+category: dry
+summary: Genotyping software built on HISAT2 for HLA typing, DNA fingerprinting and haplotype-resolved regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-019-0201-4
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Kim D
+  last_author: Salzberg SL
+  pmid: '31375807'
+  pmcid: PMC7605509
+  title: Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype
+links: {}
+added: '2026-11-13'
+evidence: We apply HISAT2 for HLA typing and DNA fingerprinting; both applications form part of the HISAT-genotype software
+  that enables analysis of haplotype-resolved genes or genomic regions.

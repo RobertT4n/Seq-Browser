@@ -1,0 +1,22 @@
+name: Thor-Ribo-Seq
+category: wet
+summary: Low-input ribosome profiling that linearly amplifies ribosome footprints by RNA-templated RNA transcription.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/2023.01.15.524129
+  year: 2023
+  journal: bioRxiv
+  first_author: Mito M
+  last_author: Iwasaki S
+  title: 'Thor-Ribo-Seq: ribosome profiling tailored for low input with RNA-dependent RNA amplification'
+links: {}
+added: '2026-11-13'
+evidence: To overcome this issue, here we developed Thor-Ribo-Seq, a ribosome profiling method tailored for low input.

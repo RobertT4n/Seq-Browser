@@ -1,0 +1,23 @@
+name: hifiasm (ONT)
+category: dry
+summary: Assembly algorithm producing near telomere-to-telomere assemblies from standard Oxford Nanopore simplex reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+- nanopore
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-026-10105-6
+  year: 2026
+  journal: Nature
+  first_author: Cheng H
+  last_author: Li H
+  pmid: '41639459'
+  pmcid: PMC13070018
+  title: Efficient near-telomere-to-telomere assembly of nanopore simplex reads
+links: null
+added: '2026-11-13'
+evidence: Here we introduce hifiasm (ONT), an algorithm that can produce near-T2T assemblies from standard ONT simplex reads

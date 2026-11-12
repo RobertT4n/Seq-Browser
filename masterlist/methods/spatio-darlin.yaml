@@ -1,0 +1,32 @@
+name: Spatio-DARLIN
+category: wet
+summary: In situ lineage tracing in mice that combines the DARLIN barcode lineage-tracing mouse with sequencing-based spatial
+  transcriptomics.
+readouts:
+- lineage
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+builds_on:
+- darlin
+reference:
+  doi: 10.1038/s41592-026-03151-5
+  year: 2026
+  journal: Nat Methods
+  first_author: Gao J
+  last_author: Li L
+  pmid: '42373956'
+  title: Spatio-DARLIN enables robust and efficient in situ lineage tracing in mice at single-cell resolution
+links: {}
+added: '2026-11-13'
+evidence: Here we present Spatio-DARLIN, a versatile method that integrates the high-diversity DARLIN lineage-tracing mouse
+  with sequencing-based spatial transcriptomics.

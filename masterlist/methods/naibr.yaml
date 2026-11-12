@@ -1,0 +1,23 @@
+name: NAIBR
+full_name: Novel Adjacency Identification with Barcoded Reads
+category: dry
+summary: Structural variant caller for linked-read (barcoded short-read) sequencing data using a probabilistic model of barcode
+  signals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx712
+  year: 2018
+  journal: Bioinformatics
+  first_author: Elyanow R
+  last_author: Raphael BJ
+  pmid: '29112732'
+  pmcid: PMC5860216
+  title: Identifying structural variants using linked-read sequencing data
+links: {}
+added: '2026-11-13'
+evidence: We present Novel Adjacency Identification with Barcoded Reads (NAIBR), an algorithm to identify structural variants
+  in linked-read sequencing data.

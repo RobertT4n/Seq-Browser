@@ -1,0 +1,24 @@
+name: QNB
+full_name: quad-negative binomial
+category: dry
+summary: Differential RNA methylation test for small-sample MeRIP-seq count data, modelling IP and input with four negative
+  binomial distributions.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1808-4
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Liu L
+  last_author: Meng J
+  pmid: '28859631'
+  pmcid: PMC5667504
+  title: 'QNB: differential RNA methylation analysis for count-based small-sample sequencing data with a quad-negative binomial
+    model.'
+links: {}
+added: '2026-11-13'
+evidence: We present QNB, a statistical approach for differential RNA methylation analysis with count-based small-sample sequencing
+  data.

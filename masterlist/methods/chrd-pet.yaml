@@ -1,0 +1,27 @@
+name: ChRD-PET
+full_name: chromatin-associated RNA-DNA interaction mapping followed by paired-end-tag sequencing
+category: wet
+summary: Maps promoter-centred chromatin-associated RNA-DNA interactions genome-wide in rice using H3K4me3 pull-down and paired-end-tag
+  sequencing.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- antibody-pull-down
+species:
+- plant
+reference:
+  doi: 10.1038/s41477-021-01089-4
+  year: 2022
+  journal: Nat Plants
+  first_author: Xiao Q
+  last_author: Li X
+  pmid: '35115727'
+  title: The landscape of promoter-centred RNA-DNA interactions in rice
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop an effective method for mapping of chromatin-associated RNA-DNA interactions, followed by paired-end-tag
+  sequencing (ChRD-PET) in rice.

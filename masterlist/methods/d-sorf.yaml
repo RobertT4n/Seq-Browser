@@ -1,0 +1,22 @@
+name: D-sORF
+category: dry
+summary: Machine-learning classifier that predicts coding small ORFs from nucleotide context and start-codon motifs alone.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/biology13080563
+  year: 2024
+  journal: Biology (Basel)
+  first_author: Perdikopanis N
+  last_author: Hatzigeorgiou AG
+  pmid: '39194501'
+  pmcid: PMC11351124
+  title: 'D-sORF: Accurate Ab Initio Classification of Experimentally Detected Small Open Reading Frames (sORFs) Associated
+    with Translational Machinery'
+links: {}
+added: '2026-11-13'
+evidence: We present D-sORF, a machine-learning framework that integrates the statistical nucleotide context and motif information
+  around the start codon to predict coding sORFs.

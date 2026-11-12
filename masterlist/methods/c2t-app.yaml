@@ -1,0 +1,29 @@
+name: C2T-APP
+full_name: Cap to Tail sequencing application
+category: wet
+summary: Single-cell method that reads m7G cap, poly(A) tail structure and expression from intact RNA molecules.
+readouts:
+- rna-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1186/s12915-025-02250-7
+  year: 2025
+  journal: BMC Biol
+  first_author: Yao H
+  last_author: Sun Y
+  pmid: '40437520'
+  pmcid: PMC12121112
+  title: RNA multi-omics in single cells reveal rhythmical RNA reshaping during human and mouse oocyte maturation
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a method named Cap to Tail sequencing application (C2T-APP) and simultaneously characterized
+  the m<sup>7</sup>G cap, poly(A) tail structure, and gene expression level for the intact RNA molecules in single cells.

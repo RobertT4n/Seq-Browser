@@ -1,0 +1,24 @@
+name: ITHindex
+category: dry
+summary: Web platform running 17 intratumor heterogeneity algorithms on somatic mutation, copy-number, transcriptomic, proteomic
+  and methylation data.
+readouts:
+- genome-sequence
+- rna
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pdig.0001654
+  year: 2026
+  journal: PLOS Digit Health
+  first_author: Liu Y
+  last_author: Wen Y
+  pmid: '42664234'
+  pmcid: PMC13524247
+  title: 'ITHindex: An integrated web-based platform for intratumor heterogeneity evaluation'
+links: {}
+added: '2026-11-13'
+evidence: To bridge this gap, we developed ITHindex, a web-based, research-enabling platform that integrates a pragmatic subset
+  of 17 user-accessible ITH algorithms within the R Shiny framework.

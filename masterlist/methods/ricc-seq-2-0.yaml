@@ -1,0 +1,26 @@
+name: RICC-seq 2.0
+full_name: Radiation-induced correlated cleavage with sequencing
+category: wet
+summary: Improved RICC-seq in which ionizing radiation cuts DNA in intact nuclei and co-occurring break ends are sequenced
+  to read out sub-kilobase nucleosome-nucleosome contacts, cross-validated against Micro-C.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- radiation-cleavage
+variant_of:
+- ricc-seq
+reference:
+  doi: 10.64898/2025.12.19.695525
+  year: 2025
+  journal: bioRxiv
+  first_author: Canaj H
+  last_author: Risca VI
+  title: Direct measurement of sub-kilobase chromatin structure reveals that linker histone H1 broadly compacts chromatin,
+    with differential impact amongst epigenetic states
+links: {}
+added: '2026-11-13'
+evidence: We developed an improved version of radiation-induced correlated cleavage with sequencing (RICC-seq), which we term
+  RICC-seq 2.0, and used it in parallel with Micro-C to cross-validate our measurements of chromatin structure.

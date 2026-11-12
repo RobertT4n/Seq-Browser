@@ -1,0 +1,22 @@
+name: genome-sampler
+category: dry
+summary: QIIME 2 plugin and Snakemake workflow that subsamples SARS-CoV-2 genome collections by isolation time, location and
+  viral diversity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: We present genome-sampler, a software package that supports sampling collections of viral genomes across multiple
+  axes including time of genome isolation, location of genome isolation, and viral diversity.
+reference:
+  doi: 10.12688/f1000research.24751.2
+  year: 2020
+  journal: F1000Res
+  first_author: Bolyen E
+  last_author: Caporaso JG
+  pmid: '33500774'
+  pmcid: PMC7814287
+  title: Reproducibly sampling SARS-CoV-2 genomes across time, geography, and viral diversity
+links: {}
+added: '2026-11-13'

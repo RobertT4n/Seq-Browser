@@ -1,0 +1,27 @@
+name: REL-seq
+full_name: RNA elements for subcellular localization by sequencing
+category: wet
+summary: Mutagenesis-coupled reporter library sequenced to find RNA elements that direct transcripts to chromatin, such as
+  the U1 snRNP motif.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- subcellular
+perturbation:
+- reporter-assay
+chemistry:
+- reverse-transcription
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-020-2105-3
+  year: 2020
+  journal: Nature
+  first_author: Yin Y
+  last_author: Shen X
+  pmid: '32238924'
+  pmcid: PMC12018070
+  title: U1 snRNP regulates chromatin retention of noncoding RNAs
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a random, mutagenesis-coupled, high-throughput method that we name 'RNA elements for subcellular
+  localization by sequencing' (mutREL-seq).

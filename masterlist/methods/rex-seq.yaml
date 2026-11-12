@@ -1,0 +1,30 @@
+name: REX-seq
+full_name: RNA inosine sequencing by endonuclease V and XRN-1
+category: wet
+summary: Inosine mapping by combining endonuclease V cleavage with XRN-1 exonuclease digestion, giving transcriptome-wide
+  A-to-I editome profiles.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/s41421-026-00930-4
+  year: 2026
+  journal: Cell Discov
+  first_author: Han S
+  last_author: Weng X
+  pmid: '42982798'
+  pmcid: PMC13737063
+  title: Deciphering the regulatory code of RNA inosine through enzymatic precision mapping and an explainable deep learning
+    model
+links: {}
+added: '2026-11-13'
+evidence: REX-seq combines EndoV cleavage specificity with XRN-1 exonuclease activity to enable comprehensive A-to-I editome
+  profiling while maintaining accurate gene expression quantification.

@@ -1,0 +1,21 @@
+name: mitoSplitter
+category: dry
+summary: Algorithm that demultiplexes pooled scRNA-seq samples using mitochondrial RNA variants.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1073/pnas.2307722120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Lin X
+  last_author: Song J
+  pmid: '37725654'
+  pmcid: PMC10523499
+  title: 'mitoSplitter: A mitochondrial variants-based method for efficient demultiplexing of pooled single-cell RNA-seq'
+links: {}
+added: '2026-11-13'
+evidence: We developed "mitoSplitter," an algorithm that demultiplexes samples using mitochondrial RNA (mtRNA) variants, and
+  demonstrated that mtRNA variants can be used to demultiplex large-scale scRNA-seq data.

@@ -1,0 +1,22 @@
+name: seqwish
+category: dry
+summary: Algorithm that builds a variation graph from sequences and their pairwise alignments without a reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac743
+  year: 2023
+  journal: Bioinformatics
+  first_author: Garrison E
+  last_author: Guarracino A
+  pmid: '36448683'
+  pmcid: PMC9805579
+  title: Unbiased pangenome graphs
+links: {}
+added: '2026-11-13'
+evidence: A scalable, self-contained method to build pangenome graphs without such limitations would be a key step in pangenome
+  construction and manipulation pipelines.ResultsWe design the seqwish algorithm, which builds a variation graph from a set
+  of sequences and alignments between them.

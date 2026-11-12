@@ -1,0 +1,23 @@
+name: CaCTS
+full_name: Cancer Core Transcription factor Specificity
+category: dry
+summary: Algorithm that prioritises candidate master transcription factors from pan-cancer RNA-seq expression without ChIP-seq
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abf6123
+  year: 2021
+  journal: Sci Adv
+  first_author: Reddy J
+  last_author: Lawrenson K
+  pmid: '34818047'
+  pmcid: PMC8612691
+  title: Predicting master transcription factors from pan-cancer expression data
+links: {}
+added: '2026-11-13'
+evidence: We developed the CaCTS (Cancer Core Transcription factor Specificity) algorithm to prioritize candidate MTFs using
+  pan-cancer RNA sequencing data.

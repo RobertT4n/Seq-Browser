@@ -1,0 +1,21 @@
+name: RiboDecode
+category: dry
+summary: Deep learning model trained on large-scale ribosome profiling data that generates mRNA codon sequences for enhanced
+  translation.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64894-x
+  year: 2025
+  journal: Nat Commun
+  first_author: Li Y
+  last_author: Xie Z
+  pmid: '41224770'
+  pmcid: PMC12612108
+  title: Deep generative optimization of mRNA codon sequences for enhanced mRNA translation and therapeutic efficacy
+links: {}
+added: '2026-11-13'
+evidence: Here, we present RiboDecode, a deep learning framework that generates mRNA codon sequences for enhanced mRNA translation.

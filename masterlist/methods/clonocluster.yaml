@@ -1,0 +1,23 @@
+name: ClonoCluster
+category: dry
+summary: Clustering method that combines clonal origin with transcriptome information into hybrid clusters with a tunable
+  weight.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2022.100247
+  year: 2023
+  journal: Cell Genom
+  first_author: Richman LP
+  last_author: Raj A
+  pmid: '36819662'
+  pmcid: PMC9932990
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+links: {}
+added: '2026-11-13'
+evidence: We developed ClonoCluster, a computational method that combines both clone and transcriptome information to create
+  hybrid clusters that weight both kinds of data with a tunable parameter.

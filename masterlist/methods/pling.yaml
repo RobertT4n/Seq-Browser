@@ -1,0 +1,23 @@
+name: pling
+category: dry
+summary: Computes plasmid genetic distances from gene gain/loss and block rearrangements rather than shared k-mers, for plasmid
+  epidemiology.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+evidence: Applying rearrangement distances to enable plasmid epidemiology with pling.
+reference:
+  doi: 10.1099/mgen.0.001300
+  year: 2024
+  journal: Microb Genom
+  first_author: Frolova D
+  last_author: Iqbal Z
+  pmid: '39401066'
+  pmcid: PMC11472880
+  title: Applying rearrangement distances to enable plasmid epidemiology with pling
+links: {}
+added: '2026-11-13'

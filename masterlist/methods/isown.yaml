@@ -1,0 +1,21 @@
+name: ISOWN
+category: dry
+summary: Machine-learning method that identifies somatic SNVs in tumour sequencing without a matched normal sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-017-0446-9
+  year: 2017
+  journal: Genome Med
+  first_author: Kalatskaya I
+  last_author: Stein L
+  pmid: '28659176'
+  pmcid: PMC5490163
+  title: 'ISOWN: accurate somatic mutation identification in the absence of normal tissue controls'
+links: {}
+added: '2026-11-13'
+evidence: In this work, we describe an algorithm to distinguish somatic single nucleotide variants (SNVs) in next-generation
+  sequencing data from germline polymorphisms in the absence of normal samples using a machine learning approach.

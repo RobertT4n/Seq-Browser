@@ -1,0 +1,30 @@
+name: T&T-seq
+full_name: transcriptome and translatome sequencing
+category: wet
+summary: Dual-omics single-cell method that sequences transcriptome and translatome from the same oocyte.
+readouts:
+- rna
+- translation
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-022-32791-2
+  year: 2022
+  journal: Nat Commun
+  first_author: Hu W
+  last_author: Kee K
+  pmid: '36042231'
+  pmcid: PMC9427852
+  title: Single-cell transcriptome and translatome dual-omics reveals potential mechanisms of human oocyte maturation
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed a dual-omics methodology that includes both transcriptome and translatome sequencing (T&T-seq)
+  of single-cell oocyte samples, and we used it to characterize the transcriptomes and translatomes during mouse and human
+  oocyte maturation.

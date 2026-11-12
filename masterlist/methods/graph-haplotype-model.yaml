@@ -1,0 +1,21 @@
+name: Graph haplotype model
+category: dry
+summary: Haplotype likelihood model defined on a variation graph that embeds a reference cohort, with run time linear in haplotype
+  length and sublinear in population size.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx236
+  year: 2017
+  journal: Bioinformatics
+  first_author: Rosen Y
+  last_author: Paten B
+  pmid: '28881971'
+  pmcid: PMC5870562
+  title: Modelling haplotypes with respect to reference cohort variation graphs
+links: {}
+added: '2026-11-13'
+evidence: We present the first haplotype model that operates on a variation graph-embedded population reference cohort.

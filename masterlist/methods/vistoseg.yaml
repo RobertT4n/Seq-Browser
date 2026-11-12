@@ -1,0 +1,22 @@
+name: VistoSeg
+category: dry
+summary: MATLAB pipeline that processes and interactively visualises high-resolution Visium histology and immunofluorescence
+  images for integration with spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1017/s2633903x23000235
+  year: 2023
+  journal: Biol Imaging
+  first_author: Tippani M
+  last_author: Maynard KR
+  pmid: '38510173'
+  pmcid: PMC10951916
+  title: '<i>VistoSeg</i>: Processing utilities for high-resolution images for spatially resolved transcriptomics data'
+links: {}
+added: '2026-11-13'
+evidence: We developed VistoSeg as a MATLAB pipeline to process, analyze and interactively visualize the high-resolution images
+  generated in the Visium platform.

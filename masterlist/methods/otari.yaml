@@ -1,0 +1,22 @@
+name: Otari
+category: dry
+summary: Attention-based graph neural network predicting tissue-specific isoform abundance and isoform-level variant effects
+  from genome sequence and long-read transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.101126
+  year: 2026
+  journal: Cell Genom
+  first_author: Litman A
+  last_author: Troyanskaya OG
+  pmid: '41547351'
+  pmcid: PMC13069856
+  title: Variant-resolved prediction of context-specific isoform variation with a graph-based attention model
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce Otari, an attention-based graph neural network framework trained on the human genomic sequence
+  and long-read transcriptomes across 30 tissue types and brain regions.

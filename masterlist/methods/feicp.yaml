@@ -1,0 +1,20 @@
+name: FEICP
+category: dry
+summary: Pipeline that detects exon-intron circRNAs (EIciRNAs) from high-throughput RNA sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278590.123
+  year: 2024
+  journal: Genome Res
+  first_author: Zhong Y
+  last_author: Chen L
+  pmid: '38609186'
+  pmcid: PMC11067877
+  title: Systematic identification and characterization of exon-intron circRNAs
+links: {}
+added: '2026-11-13'
+evidence: We developed a framework, FEICP, which efficiently detected EIciRNAs from high-throughput sequencing (HTS) data.

@@ -1,0 +1,28 @@
+name: Spatial genomics
+category: wet
+summary: Workflow that maps subclone composition across whole-tumour sections by combining whole-genome sequencing with highly
+  multiplexed base-specific in situ sequencing and single-cell transcriptomics.
+aliases:
+- base-specific in situ sequencing
+readouts:
+- genome-sequence
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- human
+reference:
+  doi: 10.1038/s41586-022-05425-2
+  year: 2022
+  journal: Nature
+  first_author: Lomakin A
+  last_author: Yates LR
+  pmid: '36352222'
+  pmcid: PMC9668746
+  title: Spatial genomics maps the structure, nature and evolution of cancer clones
+links: {}
+added: '2026-11-13'
+evidence: The approach rests on whole-genome sequencing, followed by highly multiplexed base-specific in situ sequencing,
+  single-cell resolved transcriptomics and dedicated algorithms to link these layers.

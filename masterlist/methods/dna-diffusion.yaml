@@ -1,0 +1,22 @@
+name: DNA-Diffusion
+category: dry
+summary: Generative diffusion model trained on cell-type DNA accessibility data to design 200 bp regulatory elements with
+  cell-type-specific activity, validated by STARR-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-025-02441-6
+  year: 2026
+  journal: Nat Genet
+  first_author: DaSilva LF
+  last_author: Pinello L
+  pmid: '41437153'
+  pmcid: PMC13221708
+  title: Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion
+links: null
+added: '2026-11-13'
+evidence: Here we introduce DNA-Diffusion, a generative artificial intelligence framework that uses machine learning trained
+  on DNA accessibility data from diverse cell lines to design compact regulatory elements with cell-type-specific activity.

@@ -1,0 +1,27 @@
+name: SomaGauss-SV
+category: dry
+summary: Somatic structural variant caller for nanopore long-read tumour-blood pairs, benchmarked on paired tumour cell lines
+  and applied to laryngeal cancer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+species:
+- human
+reference:
+  doi: 10.1101/gr.281046.125
+  year: 2026
+  journal: Genome Res
+  first_author: Liu X
+  last_author: Liu J
+  pmid: '41951434'
+  pmcid: PMC13739014
+  title: Nanopore sequencing identifies high-frequency somatic structural variations in laryngeal squamous cell carcinoma
+    genomes
+links: {}
+added: '2026-11-13'
+evidence: Here, we present SomaGauss-SV, a somatic SV detection workflow leveraging nanopore long-read sequencing data.

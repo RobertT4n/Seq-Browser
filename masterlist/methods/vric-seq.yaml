@@ -1,0 +1,26 @@
+name: vRIC-seq
+full_name: virion RNA in situ conformation sequencing
+category: wet
+summary: In situ proximity ligation of RNA inside virions to map intramolecular contacts and model the 3D conformation of
+  the SARS-CoV-2 genome.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-021-22785-x
+  year: 2021
+  journal: Nat Commun
+  first_author: Cao C
+  last_author: Xue Y
+  pmid: '34168138'
+  pmcid: PMC8225788
+  title: The architecture of the SARS-CoV-2 RNA genome inside virion
+links: {}
+added: '2026-11-13'
+evidence: To fill the knowledge gap and facilitate structure-based drug development, we develop a virion RNA in situ conformation
+  sequencing technology, named vRIC-seq, for probing viral RNA genome structure unbiasedly.

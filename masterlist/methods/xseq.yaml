@@ -1,0 +1,23 @@
+name: xseq
+category: dry
+summary: Hierarchical Bayes model that quantifies the impact of somatic mutations on expression profiles, applied to TCGA
+  tumour data sets.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: We present a novel hierarchical Bayes statistical model, xseq, to systematically quantify the impact of somatic
+  mutations on expression profiles.
+reference:
+  doi: 10.1038/ncomms9554
+  year: 2015
+  journal: Nat Commun
+  first_author: Ding J
+  last_author: Shah SP
+  pmid: '26436532'
+  pmcid: PMC4600750
+  title: Systematic analysis of somatic mutations impacting gene expression in 12 tumour types
+links: {}
+added: '2026-11-13'

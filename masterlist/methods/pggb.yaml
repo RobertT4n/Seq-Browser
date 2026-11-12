@@ -1,0 +1,21 @@
+name: PGGB
+full_name: PanGenome Graph Builder
+category: dry
+summary: Pipeline that builds reference-unbiased pangenome graphs from all-to-all alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02430-3
+  year: 2024
+  journal: Nat Methods
+  first_author: Garrison E
+  last_author: Prins P
+  pmid: '39433878'
+  title: Building pangenome graphs
+links: {}
+added: '2026-11-13'
+evidence: In response, we developed the PanGenome Graph Builder, a pipeline for constructing pangenome graphs without bias
+  or exclusion.

@@ -1,0 +1,19 @@
+name: PRICE 2
+category: dry
+summary: Ribo-seq ORF deconvolution method using a generative model with group LASSO to infer active ORFs across runs.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.01.755973
+  year: 2026
+  journal: bioRxiv
+  first_author: Maidhof K
+  last_author: Erhard F
+  title: Robust ORF Deconvolution from Multiple Ribo-seq Datasets with Group LASSO Penalty
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce PRICE 2, a method designed to resolve these challenging translation events by adapting concepts
+  from isoform deconvolution.

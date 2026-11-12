@@ -1,0 +1,29 @@
+name: Lineage sequencing
+category: wet
+summary: Sequences subclonal sample sets derived from sampled single cells, then jointly calls somatic variants across the
+  lineage to assign mutations to lineage segments.
+readouts:
+- genome-sequence
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/gr.238543.118
+  year: 2018
+  journal: Genome Res
+  first_author: Brody Y
+  last_author: Blainey PC
+  pmid: '30459213'
+  pmcid: PMC6280753
+  title: Quantification of somatic mutation flow across individual cell division events by lineage sequencing
+links: {}
+added: '2026-11-13'
+evidence: Here, we present lineage sequencing, a new genome sequencing approach that enables somatic event reconstruction
+  by providing quality somatic mutation call sets with resolution as high as the single-cell level in subject lineages.

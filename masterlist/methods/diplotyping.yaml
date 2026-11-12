@@ -1,0 +1,24 @@
+name: Diplotyping
+category: dry
+summary: Statistical framework for joint haplotype and genotype inference from noisy long reads, validated against Genome-in-a-Bottle
+  high-confidence variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s13059-019-1709-0
+  year: 2019
+  journal: Genome Biol
+  first_author: Ebler J
+  last_author: Paten B
+  pmid: '31159868'
+  pmcid: PMC6547545
+  title: Haplotype-aware diplotyping from noisy long reads
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce a novel statistical framework for the joint inference of haplotypes and genotypes from noisy
+  long reads, which we term diplotyping.

@@ -1,0 +1,21 @@
+name: EpiTrace
+category: dry
+summary: Method that estimates cell age and lineage from the fraction of open clock-like loci in scATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-024-02241-z
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Xiao Y
+  last_author: Zhang Y
+  pmid: '38724668'
+  pmcid: PMC12084158
+  title: Tracking single-cell evolution using clock-like chromatin accessibility loci
+links: {}
+added: '2026-11-13'
+evidence: In this study, we developed a method, called EpiTrace, that counts the fraction of opened clock-like loci from scATAC-seq
+  data to determine cell age and perform lineage tracing in various cell lineages and animal species.

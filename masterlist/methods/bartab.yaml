@@ -1,0 +1,24 @@
+name: BARtab
+category: dry
+summary: Nextflow pipeline and R package (bartools) for extracting, quality-controlling and analysing cellular barcodes from
+  bulk, single-cell and spatial transcriptomics.
+readouts:
+- lineage
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100763
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Holze H
+  last_author: Vassiliadis D
+  pmid: '38670101'
+  pmcid: PMC11133760
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+links: {}
+added: '2026-11-13'
+evidence: Here, we present BARtab, a portable and scalable Nextflow pipeline, and bartools, an open-source R package, designed
+  to provide an integrated end-to-end cellular barcoding analysis toolkit.

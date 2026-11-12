@@ -1,0 +1,22 @@
+name: BrumiR
+category: dry
+summary: Algorithm that discovers microRNAs de novo from small RNA sequencing data without a reference genome, with a reference
+  mapping tool and random-forest filter.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giac093
+  year: 2022
+  journal: Gigascience
+  first_author: Moraga C
+  last_author: Sagot MF
+  pmid: '36283679'
+  pmcid: PMC9596168
+  title: 'BrumiR: A toolkit for de novo discovery of microRNAs from sRNA-seq data'
+links: {}
+added: '2026-11-13'
+evidence: In this context, we developed BrumiR, an algorithm that is able to discover miRNAs directly and exclusively from
+  small RNA (sRNA) sequencing (sRNA-seq) data.

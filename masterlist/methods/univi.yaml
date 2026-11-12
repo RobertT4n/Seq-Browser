@@ -1,0 +1,28 @@
+name: UniVI
+full_name: Unified Variational Inference
+category: dry
+summary: Mixture-of-experts beta-VAE that integrates paired, tri-modal and mosaic single-cell measurements into a shared latent
+  space.
+readouts:
+- rna
+- protein
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281431.125
+  year: 2026
+  journal: Genome Res
+  first_author: Ashford AJ
+  last_author: Demir E
+  pmid: '42749491'
+  pmcid: PMC13629687
+  title: Unifying multimodal single-cell data with a mixture-of-experts β-variational autoencoder framework
+  preprint_doi: 10.1101/2025.02.28.640429
+links: {}
+added: '2026-11-13'
+evidence: UniVI couples modality-specific encoders/de-coders with a shared latent prior and a symmetric cross-modal alignment
+  objective, enabling consistent integration of paired measurements without curated feature-link graphs or pre-annotated reference
+  atlases

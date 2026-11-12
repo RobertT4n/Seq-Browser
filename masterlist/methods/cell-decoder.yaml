@@ -1,0 +1,22 @@
+name: Cell Decoder
+category: dry
+summary: Multi-scale explainable deep-learning model that integrates biological priors to represent and classify cell identity
+  from single-cell omics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03832-y
+  year: 2025
+  journal: Genome Biol
+  first_author: Zhu J
+  last_author: Chang C
+  pmid: '41116184'
+  pmcid: PMC12536527
+  title: 'Cell Decoder: decoding cell identity with multi-scale explainable deep learning'
+links: {}
+added: '2026-11-13'
+evidence: We introduce Cell Decoder, a model that integrates biological prior knowledge to provide a multi-scale representation
+  of cells.

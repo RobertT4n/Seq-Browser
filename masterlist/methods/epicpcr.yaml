@@ -1,0 +1,29 @@
+name: epicPCR
+full_name: Emulsion, Paired Isolation and Concatenation PCR
+category: wet
+summary: Emulsion PCR that links functional genes to phylogenetic marker genes in single cells, read out by sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- amplicon-pcr
+throughput: 1e5-1e6
+species:
+- microbe
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/ismej.2015.124
+  year: 2016
+  journal: ISME J
+  first_author: Spencer SJ
+  last_author: Alm EJ
+  pmid: '26394010'
+  pmcid: PMC4737934
+  title: Massively parallel sequencing of single cells by epicPCR links functional genes with phylogenetic markers
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe epicPCR (Emulsion, Paired Isolation and Concatenation PCR), a new technique that links functional
+  genes and phylogenetic markers in uncultured single cells, providing a throughput of hundreds of thousands of cells with
+  costs comparable to one genomic library preparation.

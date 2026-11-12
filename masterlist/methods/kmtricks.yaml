@@ -1,0 +1,21 @@
+name: kmtricks
+category: dry
+summary: Method for building per-sample Bloom filters from terabase-scale collections of sequencing data by joint k-mer counting.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbac029
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Lemane T
+  last_author: Peterlongo P
+  pmid: '36699393'
+  pmcid: PMC9710589
+  title: 'kmtricks: efficient and flexible construction of Bloom filters for large sequencing data collections'
+links: {}
+added: '2026-11-13'
+evidence: We propose kmtricks, a novel approach for generating Bloom filters from terabase-sized collections of sequencing
+  data.

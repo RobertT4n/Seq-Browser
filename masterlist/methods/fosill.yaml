@@ -1,0 +1,24 @@
+name: Fosill
+category: wet
+summary: Converts fosmid clones into Illumina-compatible paired-end jumping libraries by nicking-based excision of the cloned
+  insert, without physical size selection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1101/gr.138925.112
+  year: 2012
+  journal: Genome Res
+  first_author: Williams LJ
+  last_author: Gnirke A
+  pmid: '22800726'
+  pmcid: PMC3483553
+  title: Paired-end sequencing of Fosmid libraries by Illumina
+links: {}
+added: '2026-11-13'
+evidence: To close this technology gap, we developed Fosill, a method for converting Fosmids to Illumina-compatible jumping
+  libraries.

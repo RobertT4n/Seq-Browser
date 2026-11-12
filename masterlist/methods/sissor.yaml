@@ -1,0 +1,27 @@
+name: SISSOR
+full_name: single-stranded sequencing using microfluidic reactors
+category: wet
+summary: Microfluidic separation of the two DNA strands of one cell, partitioning megabase fragments into nanoliter compartments
+  for haplotype-resolved single-cell genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- microfluidic-chip
+reference:
+  doi: 10.1073/pnas.1707609114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Chu WK
+  last_author: Zhang K
+  pmid: '29078313'
+  pmcid: PMC5703283
+  title: Ultraaccurate genome sequencing and haplotyping of single human cells
+links: {}
+added: '2026-11-13'
+evidence: Here we report a method, which is dubbed SISSOR (single-stranded sequencing using microfluidic reactors), for accurate
+  single-cell genome sequencing and haplotyping.

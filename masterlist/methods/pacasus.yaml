@@ -1,0 +1,22 @@
+name: Pacasus
+category: dry
+summary: Tool that corrects palindromic chimeric artefacts in long reads from whole-genome amplification.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s12864-018-5164-1
+  year: 2018
+  journal: BMC Genomics
+  first_author: Warris S
+  last_author: de Ridder D
+  pmid: '30400848'
+  pmcid: PMC6218980
+  title: Correcting palindromes in long reads after whole-genome amplification
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Pacasus, a tool for correcting such errors.

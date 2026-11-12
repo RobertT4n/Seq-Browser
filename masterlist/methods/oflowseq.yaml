@@ -1,0 +1,32 @@
+name: oFlowSeq
+category: wet
+summary: CRISPR-edited mosaic cerebral organoids are FACS-sorted by cell-type marker and the edited alleles sequenced to measure
+  genotype-to-cell-type enrichment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- organoid
+species:
+- human
+chemistry:
+- facs-sorting
+- amplicon-pcr
+perturbation:
+- crispr-knockout
+reference:
+  doi: 10.1007/s00439-023-02534-4
+  year: 2023
+  journal: Hum Genet
+  first_author: Dawes P
+  last_author: Lim ET
+  pmid: '36877372'
+  pmcid: PMC10807401
+  title: 'oFlowSeq: a quantitative approach to identify protein coding mutations affecting cell type enrichment using mosaic
+    CRISPR-Cas9 edited cerebral organoids'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe a high-throughput, quantitative approach (oFlowSeq) by utilizing CRISPR-Cas9, FACS sorting, and
+  next-generation sequencing.

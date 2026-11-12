@@ -1,0 +1,22 @@
+name: CSI-Microbes
+category: dry
+summary: Pipeline that identifies intracellular microbial reads in scRNA-seq data and tests differential taxon abundance.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adj7402
+  year: 2024
+  journal: Sci Adv
+  first_author: Robinson W
+  last_author: Ruppin E
+  pmid: '38959321'
+  pmcid: PMC11221508
+  title: Identification of intracellular bacteria from multiple single-cell RNA-seq platforms using CSI-Microbes
+links: {}
+added: '2026-11-13'
+evidence: We developed a computational pipeline (CSI-Microbes) for identifying microbial reads from single-cell RNA sequencing
+  (scRNA-seq) data and for analyzing differential abundance of taxa.

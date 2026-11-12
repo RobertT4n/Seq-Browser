@@ -1,0 +1,28 @@
+name: SunCatcher
+category: wet
+summary: Clonal molecular barcoding of single-cell-derived clones, pooled and deconvolved by NGS or qPCR to recover live barcoded
+  cells.
+readouts:
+- lineage
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+validated_system:
+- cell-line
+species:
+- human
+- mouse
+reference:
+  doi: 10.1101/2021.10.13.464251
+  year: 2021
+  journal: bioRxiv
+  first_author: Guo Q
+  last_author: McAllister SS
+  title: 'SunCatcher: Clonal Barcoding with qPCR-Based Detection Enables Functional Analysis of Live Cells and Generation
+    of Custom Combinations of Cells for Research and Discovery'
+links: {}
+added: '2026-11-13'
+evidence: Here, we report a clonal molecular barcoding method, which we term SunCatcher, that enables longitudinal tracking
+  and retrieval of live barcoded cells for further analysis.

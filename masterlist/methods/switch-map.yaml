@@ -1,0 +1,26 @@
+name: Switch-MaP
+full_name: template switching and mutational profiling
+category: wet
+summary: SHAPE probing in which RT templates are added after probing by ligation and template switching, giving reactivities
+  for every nucleotide of a native RNA.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1261/rna.079926.123
+  year: 2024
+  journal: RNA
+  first_author: Hall I
+  last_author: Weidmann CA
+  pmid: '39438135'
+  pmcid: PMC11648929
+  title: Template switching enables chemical probing of native RNA structures
+links: {}
+added: '2026-11-13'
+evidence: In Switch-MaP, RT templates and additional library sequences are added postprobing through ligation and template
+  switching, capturing reactivities for every nucleotide.

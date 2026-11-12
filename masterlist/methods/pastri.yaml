@@ -1,0 +1,22 @@
+name: PASTRI
+full_name: Probabilistic Algorithm for Somatic Tree Inference
+category: dry
+summary: Infers clones and a tumour phylogenetic tree from bulk tumour sequencing data using tree-constrained importance sampling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx270
+  year: 2017
+  journal: Bioinformatics
+  first_author: Satas G
+  last_author: Raphael BJ
+  pmid: '28882002'
+  pmcid: PMC5870673
+  title: Tumor phylogeny inference using tree-constrained importance sampling
+links: {}
+added: '2026-11-13'
+evidence: We introduce PASTRI, a new algorithm for bulk-tumor sequencing data that clusters somatic mutations into clones
+  and infers a phylogenetic tree

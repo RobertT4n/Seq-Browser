@@ -1,0 +1,22 @@
+name: CoPTR
+full_name: Compute PTR
+category: dry
+summary: Computes peak-to-trough ratios from reference genomes and assemblies to estimate microbial growth rates from metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.275533.121
+  year: 2022
+  journal: Genome Res
+  first_author: Joseph TA
+  last_author: Pe'er I
+  pmid: '34987055'
+  pmcid: PMC8896461
+  title: Accurate and robust inference of microbial growth dynamics from metagenomic sequencing reveals personalized growth
+    rates
+links: {}
+added: '2026-11-13'
+evidence: 'Here, we introduce Compute PTR (CoPTR): a tool for computing PTRs from complete reference genomes and assemblies.'

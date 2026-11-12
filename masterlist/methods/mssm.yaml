@@ -1,0 +1,31 @@
+name: MSSM
+full_name: Micro-Scale Spatial Metagenomics
+category: wet
+summary: Couples laser micro-dissection of intestinal tissue sections with ultra-low-input metagenomic libraries to profile
+  spatial microbial communities.
+readouts:
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- cryosectioning
+- imaging-guided-selection
+input_sample:
+- low-input
+validated_system:
+- tissue-in-vivo
+species:
+- other-vertebrate
+reference:
+  doi: 10.1101/2025.09.30.679663
+  year: 2025
+  journal: bioRxiv
+  first_author: Pietroni C
+  last_author: Alberdi A
+  title: 'Micro-scale spatial metagenomics: revealing high-resolution spatial biogeography of gut microbiomes'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce Micro-Scale Spatial Metagenomics (MSSM), a new methodological framework that couples laser micro-dissection
+  of tissue sections, ultra-low-input library preparation, and genome-resolved bioinformatics to reconstruct microbial communities
+  from intestinal microsamples measuring as little as ∼500 µm² (≈100 bacterial cells).

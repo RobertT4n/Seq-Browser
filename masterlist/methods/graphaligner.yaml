@@ -1,0 +1,21 @@
+name: GraphAligner
+category: dry
+summary: Aligns long reads to genome graphs, faster and with less memory than prior tools, and is used for graph-based error
+  correction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02157-2
+  year: 2020
+  journal: Genome Biol
+  first_author: Rautiainen M
+  last_author: Marschall T
+  pmid: '32972461'
+  pmcid: PMC7513500
+  title: 'GraphAligner: rapid and versatile sequence-to-graph alignment'
+evidence: We present GraphAligner, a tool for aligning long reads to genome graphs.
+added: '2026-11-13'
+links: null

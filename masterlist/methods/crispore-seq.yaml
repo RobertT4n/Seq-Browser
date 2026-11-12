@@ -1,0 +1,29 @@
+name: CRISPore-seq
+category: wet
+summary: Pooled single-cell CRISPR perturbation screen with joint short- and long-read transcriptomics that resolves perturbation-driven
+  splicing at isoform level.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+species:
+- human
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2025.11.25.690515
+  year: 2025
+  journal: bioRxiv
+  first_author: Müller S
+  last_author: Sanjana NE
+  title: Transcriptome-wide profiling of alternative splicing regulators with CRISPore-seq
+links: {}
+added: '2026-11-13'
+evidence: To overcome this limitation, we develop CRISPore-seq, which couples massively-parallel CRISPR perturbations with
+  joint short- and long-read transcriptomics.

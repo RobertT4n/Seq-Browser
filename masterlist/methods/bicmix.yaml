@@ -1,0 +1,22 @@
+name: BicMix
+category: dry
+summary: Bayesian biclustering model that recovers latent structure and context-specific gene co-expression networks from
+  gene expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004791
+  year: 2016
+  journal: PLoS Comput Biol
+  first_author: Gao C
+  last_author: Engelhardt BE
+  pmid: '27467526'
+  pmcid: PMC4965098
+  title: Context Specific and Differential Gene Co-expression Networks via Bayesian Biclustering
+links: {}
+added: '2026-11-13'
+evidence: Our biclustering method, BicMix, allows overcomplete representations of the data, computational tractability, and
+  joint modeling of unknown confounders and biological signals.

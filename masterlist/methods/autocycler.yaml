@@ -1,0 +1,21 @@
+name: Autocycler
+category: dry
+summary: Automated consensus assembly of long reads into complete bacterial genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf474
+  year: 2025
+  journal: Bioinformatics
+  first_author: Wick RR
+  last_author: Stinear TP
+  pmid: '40875535'
+  pmcid: PMC12460055
+  title: 'Autocycler: long-read consensus assembly for bacterial genomes'
+links: {}
+added: '2026-11-13'
+evidence: Results We present Autocycler, a command-line tool for generating accurate bacterial genome assemblies by combining
+  multiple alternative long-read assemblies of the same genome.

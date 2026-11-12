@@ -1,0 +1,22 @@
+name: Bayesian random local clocks
+category: dry
+summary: Relaxed molecular-clock method that Bayesian-averages over random local clock models on a phylogeny, implemented
+  in BEAST.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1741-7007-8-114
+  year: 2010
+  journal: BMC Biol
+  first_author: Drummond AJ
+  last_author: Suchard MA
+  pmid: '20807414'
+  pmcid: PMC2949620
+  title: Bayesian random local clocks, or one rate to rule them all
+links: {}
+added: '2026-11-13'
+evidence: We present a new method for relaxing the assumption of a strict molecular clock using Markov chain Monte Carlo to
+  implement Bayesian modeling averaging over random local molecular clocks.

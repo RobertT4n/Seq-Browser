@@ -1,0 +1,21 @@
+name: SNPPar
+category: dry
+summary: Tool that detects and annotates homoplastic SNPs on phylogenetic branches from large microbial whole-genome SNP alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000694
+  year: 2021
+  journal: Microb Genom
+  first_author: Edwards DJ
+  last_author: Holt KE
+  pmid: '34874243'
+  pmcid: PMC8767352
+  title: 'SNPPar: identifying convergent evolution and other homoplasies from microbial whole-genome alignments'
+links: {}
+added: '2026-11-13'
+evidence: Here we present a new tool, SNPPar, for efficient detection and analysis of homoplasic SNPs from large whole genome
+  sequencing datasets (>1000 isolates and/or >100 000 SNPs).

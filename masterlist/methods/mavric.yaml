@@ -1,0 +1,21 @@
+name: MAVRIC
+category: dry
+summary: Nonparametric method that quantifies variance explained by experimental covariates and runs differential analysis
+  on functional-genomics data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/314112
+  year: 2018
+  journal: bioRxiv
+  first_author: Moskowitz DM
+  last_author: Greenleaf WJ
+  title: Nonparametric analysis of contributions to variance in genomics and epigenomics data
+links: {}
+added: '2026-11-13'
+evidence: We present MAVRIC, a nonparametric method to quantify variance explained by experimental covariates and perform
+  differential analysis on arbitrary data types.

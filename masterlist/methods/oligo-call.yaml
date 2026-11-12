@@ -1,0 +1,32 @@
+name: Oligo-CALL
+full_name: Oligonucleotide-inducible CRISPR transcriptional activator-Assisted Lineage Labeling
+category: wet
+summary: Oligonucleotide-induced CRISPR activation writes lineage barcodes that are linked to single-cell transcriptomes for
+  clone tracking.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: targeted
+validated_system:
+- cell-line
+species:
+- human
+perturbation:
+- crispr-activation
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/sciadv.adw9990
+  year: 2025
+  journal: Sci Adv
+  first_author: Liu Y
+  last_author: Gao D
+  pmid: '41202131'
+  pmcid: PMC12594195
+  title: 'Oligo-CALL: A next-generation barcoding platform for studying resistance to targeted therapy'
+links: {}
+added: '2026-11-13'
+evidence: We developed Oligo-CALL
+partition_unknown: not stated in the abstract

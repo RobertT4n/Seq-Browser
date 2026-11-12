@@ -1,0 +1,22 @@
+name: MobMess
+category: dry
+summary: Sequence containment-aware network-partitioning algorithm that groups plasmids into evolutionarily cohesive plasmid
+  systems.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41564-024-01610-3
+  year: 2024
+  journal: Nat Microbiol
+  first_author: Yu MK
+  last_author: Eren AM
+  pmid: '38443576'
+  pmcid: PMC10914615
+  title: Diverse plasmid systems and their ecology across human gut metagenomes revealed by PlasX and MobMess
+links: {}
+added: '2026-11-13'
+evidence: organized them into 1,169 evolutionarily cohesive 'plasmid systems' using our sequence containment-aware network-partitioning
+  algorithm, MobMess.

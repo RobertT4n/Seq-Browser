@@ -1,0 +1,20 @@
+name: MCDP
+category: dry
+summary: Computes P-values for overlap between genome annotations under a Markov-chain null, independent of genome length.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac255
+  year: 2022
+  journal: Bioinformatics
+  first_author: Gafurov A
+  last_author: Medvedev P
+  pmid: '35758770'
+  pmcid: PMC9235476
+  title: Markov chains improve the significance computation of overlapping genome annotations
+links: {}
+added: '2026-11-13'
+evidence: We then present an open-source software tool MCDP that computes the P-values under the Markovian null hypothesis

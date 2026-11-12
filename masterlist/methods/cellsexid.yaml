@@ -1,0 +1,21 @@
+name: CellSexID
+category: dry
+summary: Machine-learning framework that predicts single-cell sex from transcriptomes to infer donor versus recipient cell
+  origin.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2025.101181
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Tai H
+  last_author: Ding J
+  pmid: '40967208'
+  pmcid: PMC12570346
+  title: Computational tracking of cell origins using CellSexID from single-cell transcriptomes
+links: {}
+added: '2026-11-13'
+evidence: We present CellSexID, a computational framework that uses sex as a surrogate marker for cell-origin inference.

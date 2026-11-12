@@ -1,0 +1,21 @@
+name: RNAcontacts
+category: dry
+summary: Pipeline that detects RNA-RNA contacts from RNA proximity ligation data using a two-pass splice-aware alignment.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.32607/actanaturae.11893
+  year: 2023
+  journal: Acta Naturae
+  first_author: Margasyuk SD
+  last_author: Pervouchine DD
+  pmid: '37153509'
+  pmcid: PMC10154773
+  title: 'RNAcontacts: A Pipeline for Predicting Contacts from RNA Proximity Ligation Assays'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present RNAcontacts, a universal pipeline for detecting RNA-RNA contacts in high-throughput RNA proximity
+  ligation assays.

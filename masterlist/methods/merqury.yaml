@@ -1,0 +1,21 @@
+name: Merqury
+category: dry
+summary: Reference-free assembly evaluation that estimates base-level accuracy, completeness and phasing from k-mer comparisons
+  with unassembled reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02134-9
+  year: 2020
+  journal: Genome Biol
+  first_author: Rhie A
+  last_author: Phillippy AM
+  pmid: '32928274'
+  pmcid: PMC7488777
+  title: 'Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies'
+links: {}
+added: '2026-11-13'
+evidence: Here we present Merqury, a novel tool for reference-free assembly evaluation based on efficient k-mer set operations.

@@ -1,0 +1,31 @@
+name: Napu
+category: wet
+summary: Scalable Oxford Nanopore long-read wet-lab and computational protocol for population-scale haplotype-resolved variant
+  and methylation profiling.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+species:
+- human
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41592-023-01993-x
+  year: 2023
+  journal: Nat Methods
+  first_author: Kolmogorov M
+  last_author: Paten B
+  pmid: '37710018'
+  pmcid: PMC11222905
+  title: Scalable Nanopore sequencing of human genomes provides a comprehensive view of haplotype-resolved variation and methylation
+links: {}
+added: '2026-11-13'
+evidence: Here we develop an efficient and scalable wet lab and computational protocol, Napu, for Oxford Nanopore Technologies
+  long-read sequencing that seeks to address those limitations.

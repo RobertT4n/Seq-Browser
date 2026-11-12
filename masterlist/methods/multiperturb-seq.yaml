@@ -1,0 +1,29 @@
+name: MultiPerturb-seq
+category: wet
+summary: Pooled CRISPR screening platform that jointly captures single-nucleus chromatin accessibility, transcriptome and
+  guide RNA using combinatorial indexing with droplet microfluidics.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- droplet-microfluidics
+- reverse-transcription
+input_sample:
+- nuclei
+reference:
+  doi: 10.1038/s41587-024-02475-x
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Yan RE
+  last_author: Sanjana NE
+  pmid: '39572737'
+  title: Pooled CRISPR screens with joint single-nucleus chromatin accessibility and transcriptome profiling
+links: {}
+added: '2026-11-13'
+evidence: Here we develop MultiPerturb-seq, a high-throughput CRISPR screening platform with joint single-nucleus chromatin
+  accessibility, transcriptome and guide RNA capture using combinatorial indexing combined with droplet microfluidics to scale
+  throughput and integrate all three modalities.

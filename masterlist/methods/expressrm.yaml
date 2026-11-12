@@ -1,0 +1,22 @@
+name: ExpressRM
+category: dry
+summary: Multimodal zero-shot framework that predicts condition-specific RNA modification sites from genome and RNA-seq data
+  alone.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf332
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Song Y
+  last_author: Wang Y
+  pmid: '40632498'
+  pmcid: PMC12239634
+  title: Multimodal zero-shot learning of previously unseen epitranscriptomes from RNA-seq data.
+links: {}
+added: '2026-11-13'
+evidence: We present ExpressRM, a multimodal zero-shot learning framework for predicting condition-specific RNA modification
+  sites in previously unseen contexts from genome and RNA-seq data.

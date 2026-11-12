@@ -1,0 +1,20 @@
+name: compleasm
+category: dry
+summary: Faster reimplementation of BUSCO that assesses gene completeness of genome assemblies using miniprot alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad595
+  year: 2023
+  journal: Bioinformatics
+  first_author: Huang N
+  last_author: Li H
+  pmid: '37758247'
+  pmcid: PMC10558035
+  title: 'compleasm: a faster and more accurate reimplementation of BUSCO'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present compleasm, an efficient tool for assessing the completeness of genome assemblies.

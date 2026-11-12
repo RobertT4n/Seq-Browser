@@ -1,0 +1,23 @@
+name: ARGweaver
+category: dry
+summary: Bayesian algorithm that samples ancestral recombination graphs for dozens of complete genomes by threading and hidden
+  Markov models.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1371/journal.pgen.1004342
+  year: 2014
+  journal: PLoS Genet
+  first_author: Rasmussen MD
+  last_author: Siepel A
+  pmid: '24831947'
+  pmcid: PMC4022496
+  title: Genome-wide inference of ancestral recombination graphs
+links: {}
+added: '2026-11-13'
+evidence: We have implemented these methods in a computer program called ARGweaver.

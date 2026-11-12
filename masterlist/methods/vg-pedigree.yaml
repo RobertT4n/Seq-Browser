@@ -1,0 +1,22 @@
+name: VG-Pedigree
+category: dry
+summary: Pedigree-aware workflow that aligns reads to a pangenome graph with Giraffe, calls variants with a retrained DeepTrio
+  model and detects candidate deleterious variants in family quartets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276387.121
+  year: 2022
+  journal: Genome Res
+  first_author: Markello C
+  last_author: Paten B
+  pmid: '35483961'
+  pmcid: PMC9104704
+  title: A complete pedigree-based graph workflow for rare candidate variant analysis
+links: {}
+added: '2026-11-13'
+evidence: We introduce VG-Pedigree, a pedigree-aware workflow based on the pangenome-mapping tool of Giraffe and the variant
+  calling tool DeepTrio using a specially trained model for Giraffe-based alignments.

@@ -1,0 +1,23 @@
+name: phASER
+category: dry
+summary: Phases variants covered by RNA-seq reads, including reads spanning splice junctions, to measure haplotype-specific
+  expression.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms12817
+  year: 2016
+  journal: Nat Commun
+  first_author: Castel SE
+  last_author: Lappalainen T
+  pmid: '27605262'
+  pmcid: PMC5025529
+  title: Rare variant phasing and haplotypic expression from RNA sequencing with phASER
+links: {}
+added: '2026-11-13'
+evidence: Here we present phASER, an accurate approach for phasing variants that are overlapped by sequencing reads, including
+  those from RNA sequencing (RNA-seq), which often span multiple exons due to splicing.

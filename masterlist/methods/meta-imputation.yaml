@@ -1,0 +1,21 @@
+name: Meta-imputation
+category: dry
+summary: Method that combines genotype imputation results from multiple reference panels into one consensus imputed dataset.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2022.04.002
+  year: 2022
+  journal: Am J Hum Genet
+  first_author: Yu K
+  last_author: Abecasis GR
+  pmid: '35508176'
+  pmcid: PMC9247833
+  title: 'Meta-imputation: An efficient method to combine genotype data after imputation with multiple reference panels'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe meta-imputation, a method that allows imputation results generated using different reference panels
+  to be combined into a consensus imputed dataset.

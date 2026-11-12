@@ -1,0 +1,24 @@
+name: CELEBRIMBOR
+category: dry
+summary: Snakemake pangenome pipeline that adjusts the core-gene frequency threshold by genome completeness, for core and
+  accessory gene calling from metagenome-assembled and single-cell amplified genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+evidence: Here, we present CELEBRIMBOR, a Snakemake pangenome analysis pipeline which uses a measure of genome completeness
+  to automatically adjust the frequency threshold at which core genes are identified.
+reference:
+  doi: 10.1093/bioinformatics/btae542
+  year: 2024
+  journal: Bioinformatics
+  first_author: Hellewell J
+  last_author: Lees JA
+  pmid: '39298479'
+  pmcid: PMC11422503
+  title: 'CELEBRIMBOR: core and accessory genes from metagenomes'
+links: {}
+added: '2026-11-13'

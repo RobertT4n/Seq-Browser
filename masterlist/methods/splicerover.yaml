@@ -1,0 +1,20 @@
+name: SpliceRover
+category: dry
+summary: Interpretable convolutional neural network that predicts splice sites from genomic sequence and exposes the sequence
+  features it learned.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: 'SpliceRover: interpretable convolutional neural networks for improved splice site prediction.'
+reference:
+  doi: 10.1093/bioinformatics/bty497
+  year: 2018
+  journal: Bioinformatics
+  first_author: Zuallaert J
+  last_author: De Neve W
+  pmid: '29931149'
+  title: 'SpliceRover: interpretable convolutional neural networks for improved splice site prediction'
+links: {}
+added: '2026-11-13'

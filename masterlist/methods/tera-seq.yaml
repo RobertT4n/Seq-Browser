@@ -1,0 +1,36 @@
+name: TERA-Seq
+full_name: True End-to-end RNA Sequencing
+category: wet
+summary: Direct nanopore sequencing of native RNA with adapters ligated to both ends, recovering true 5' and 3' ends of poly-
+  and non-polyadenylated transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- adapter-ligation
+- long-read-sequencing
+species:
+- human
+validated_system:
+- cell-line
+variant_of:
+- nanopore-direct-rna-sequencing
+reference:
+  doi: 10.1093/nar/gkab713
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Ibrahim F
+  last_author: Mourelatos Z
+  pmid: '34428294'
+  pmcid: PMC8599856
+  title: 'TERA-Seq: true end-to-end sequencing of native RNA molecules for transcriptome characterization'
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop True End-to-end RNA Sequencing (TERA-Seq), a platform that addresses these limitations, permitting
+  more thorough transcriptome characterization.

@@ -1,0 +1,22 @@
+name: Rnnotator
+category: dry
+summary: Automated pipeline for reference-free de novo transcriptome assembly from stranded RNA-seq reads, producing transcript
+  models.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-11-663
+  year: 2010
+  journal: BMC Genomics
+  first_author: Martin J
+  last_author: Wang Z
+  pmid: '21106091'
+  pmcid: PMC3152782
+  title: 'Rnnotator: an automated de novo transcriptome assembly pipeline from stranded RNA-Seq reads'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe Rnnotator, an automated software pipeline that generates transcript models by de novo assembly
+  of RNA-Seq data without the need for a reference genome.

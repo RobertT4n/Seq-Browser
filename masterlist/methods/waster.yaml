@@ -1,0 +1,21 @@
+name: WASTER
+category: dry
+summary: Assembly-free phylogeny estimation directly from low-coverage short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msag073
+  year: 2026
+  journal: Mol Biol Evol
+  first_author: Zhang C
+  last_author: Nielsen R
+  pmid: '41870206'
+  pmcid: PMC13042278
+  title: 'WASTER: Practical de novo Phylogenomics from Low-coverage Short Reads'
+links: {}
+added: '2026-11-13'
+evidence: WASTER provides a fast and efficient solution for phylogeny estimation in cases where genome assembly and/or alignment
+  may bias analyses or is challenging, for example due to low sequencing depth.

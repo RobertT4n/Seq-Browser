@@ -1,0 +1,23 @@
+name: SplitFusion
+category: dry
+summary: Gene-fusion detection method using BWA-MEM split alignments for ultrasensitive calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2025.101174
+  year: 2025
+  journal: Patterns (N Y)
+  first_author: Bian W
+  last_author: Zheng Z
+  pmid: '40041857'
+  pmcid: PMC11873004
+  title: SplitFusion enables ultrasensitive gene fusion detection and reveals fusion variant-associated tumor heterogeneity
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce a fusion detection method named SplitFusion, which is fast by leveraging Burrows-Wheeler Aligner-maximal
+  exact match (BWA-MEM) split alignments, can detect cryptic splice-site fusions (e.g., EML4::ALK v3b and ARv7), call fusions
+  involving highly repetitive gene partners (e.g., CIC::DUX4), and infer frame-ness and exon-boundary alignments for functional
+  prediction and minimizing false positives.

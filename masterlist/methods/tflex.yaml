@@ -1,0 +1,33 @@
+name: TFlex
+category: wet
+summary: Modified Calling Cards transposon-based TF mapping that maps several paralogous and domain-swapped transcription
+  factors together in primary human CD8 T cells.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation   # placeholder: transposon-tagging chemistry has no taxonomy tag (see needs_review)
+targets:
+- TOX
+- TOX2
+- TCF7
+- SOX4
+- RBPJ
+validated_system:
+- primary-cells
+species:
+- human
+reference:
+  doi: 10.1101/2025.10.09.681414
+  year: 2025
+  journal: bioRxiv
+  first_author: Mullins RD
+  last_author: Puram SV
+  title: Scalable transcription factor mapping uncovers the regulatory dynamics of natural and synthetic transcription factors
+    in human T cell states
+links: {}
+added: '2026-11-13'
+evidence: To further scale our TF analysis platform, we modified Calling Cards to create TFlex - a method uniquely suited
+  for multiplexed mapping of paralogous TFs.

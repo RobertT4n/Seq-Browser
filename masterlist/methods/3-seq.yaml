@@ -1,0 +1,23 @@
+name: 3'-seq
+category: wet
+summary: 3' end RNA sequencing method that maps transcript 3' ends across tissues to quantify alternative polyadenylation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gad.229328.113
+  year: 2013
+  journal: Genes Dev
+  first_author: Lianoglou S
+  last_author: Mayr C
+  pmid: '24145798'
+  pmcid: PMC3828523
+  title: Ubiquitously transcribed genes use alternative polyadenylation to achieve tissue-specific expression
+links: {}
+added: '2026-11-13'
+evidence: We developed a sequencing method called 3'-seq to quantitatively map the 3' ends of the transcriptome of diverse
+  human tissues and isogenic transformation systems.

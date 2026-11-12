@@ -1,0 +1,21 @@
+name: lvm-DE
+category: dry
+summary: Bayesian differential-expression framework applied to fitted deep generative models (scVI, scSphere) with FDR control.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2209124120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Boyeau P
+  last_author: Yosef N
+  pmid: '37192164'
+  pmcid: PMC10214125
+  title: An empirical Bayes method for differential expression analysis of single cells with deep generative models
+links: {}
+added: '2026-11-13'
+evidence: Here, we present lvm-DE, a generic Bayesian approach for performing DE predictions from a fitted deep generative
+  model, while controlling the FDR.

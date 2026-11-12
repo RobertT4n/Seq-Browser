@@ -1,0 +1,20 @@
+name: ESS-color
+category: dry
+summary: Tool that compresses colored de Bruijn graphs to disk with better compression than existing tools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13015-024-00254-6
+  year: 2024
+  journal: Algorithms Mol Biol
+  first_author: Rahman A
+  last_author: Medvedev P
+  pmid: '38797858'
+  pmcid: PMC11129398
+  title: Compression algorithm for colored de Bruijn graphs
+links: {}
+added: '2026-11-13'
+evidence: we develop a new tool that compresses colored de Bruijn graphs to disk

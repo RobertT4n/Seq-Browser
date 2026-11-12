@@ -1,0 +1,34 @@
+name: d-MPRA
+full_name: degenerate massively parallel reporter assay
+category: wet
+summary: Degenerate-library reporter assay with systematic mutagenesis to resolve cis-regulatory architecture at single-nucleotide
+  resolution.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+- other-vertebrate
+perturbation:
+- reporter-assay
+chemistry:
+- reverse-transcription
+variant_of:
+- mpra
+reference:
+  doi: 10.7554/elife.107565
+  year: 2026
+  journal: Elife
+  first_author: Tulloch AJ
+  last_author: Cepko CL
+  pmid: '41738738'
+  pmcid: PMC12935429
+  title: Massively parallel reporter assay for mapping gene-specific regulatory regions at single-nucleotide resolution
+links: {}
+added: '2026-11-13'
+evidence: D-MPRA applies systematic mutagenesis to resolve CRM architecture at single-nucleotide resolution, nominating essential
+  bases that may function as TF binding sites or other regulatory elements.

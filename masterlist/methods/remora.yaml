@@ -1,0 +1,30 @@
+name: REMORA
+full_name: RNA-encoded molecular recording in adenosines
+category: wet
+summary: RNA-protein interaction recorder in which an engineered A-to-I deaminase writes edits at bound sites, read by long-read
+  RNA sequencing on single mRNAs.
+readouts:
+- rna-protein-interaction
+- rna-modification
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-023-02046-z
+  year: 2023
+  journal: Nat Methods
+  first_author: Lin Y
+  last_author: Floor SN
+  pmid: '37857907'
+  pmcid: PMC11497829
+  title: RNA molecular recording with an engineered RNA deaminase
+links: {}
+added: '2026-11-13'
+evidence: Using rABE, we present REMORA (RNA-encoded molecular recording in adenosines), wherein deamination by rABE writes
+  a molecular record of RNA-protein interactions.

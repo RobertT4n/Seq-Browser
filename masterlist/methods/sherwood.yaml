@@ -1,0 +1,22 @@
+name: shERWOOD
+category: dry
+summary: Algorithm that predicts from sequence how potently any shRNA will knock down its target, trained on about 250,000
+  shRNA efficacy measurements, and used to build genome-wide shRNA collections for human and mouse.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.molcel.2014.10.025
+  year: 2014
+  journal: Mol Cell
+  first_author: Knott SRV
+  last_author: Hannon GJ
+  pmid: '25435137'
+  pmcid: PMC4272634
+  title: A computational algorithm to predict shRNA potency
+links: {}
+added: '2026-11-13'
+evidence: we developed shERWOOD, an algorithm capable of predicting, for any shRNA, the likelihood that it will elicit potent
+  target knockdown.

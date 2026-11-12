@@ -1,0 +1,21 @@
+name: PCLIPtools
+category: dry
+summary: Lightweight suite that statistically calls high-confidence RNA-protein interaction sites from PAR-CLIP read depth
+  and T-to-C transitions.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag062
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Polash AH
+  last_author: Hafner M
+  pmid: '41631485'
+  pmcid: PMC12865456
+  title: 'PCLIPtools: a robust framework for identifying RNA-protein interaction sites from PAR-CLIP experiments.'
+links: {}
+added: '2026-11-13'
+evidence: Here, we report PCLIPtools, a lightweight, customizable suite for analyzing PAR-CLIP data.

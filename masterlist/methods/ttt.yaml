@@ -1,0 +1,25 @@
+name: TTT
+full_name: trivial tangle traverser
+category: dry
+summary: Algorithm that resolves tangles in assembly graphs by estimating sequence multiplicity from coverage and read-to-graph
+  alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.xgen.2026.101323
+  year: 2026
+  journal: Cell Genom
+  first_author: Antipov D
+  last_author: Koren S
+  pmid: '42561952'
+  pmcid: PMC13477013
+  title: Automatic generation of model sequences for complex regions in assembly graphs with TTT
+links: {}
+added: '2026-11-13'
+evidence: Here, we present the trivial tangle traverser (TTT) algorithm that finds optimized resolutions of assembly graph
+  tangles.

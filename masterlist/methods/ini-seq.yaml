@@ -1,0 +1,28 @@
+name: ini-seq
+full_name: initiation site sequencing
+category: wet
+summary: Maps human DNA replication initiation sites by digoxigenin-dUTP labelling of newly replicated DNA near its start
+  sites, immunoprecipitation and sequencing.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkw760
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Langley AR
+  last_author: Krude T
+  pmid: '27587586'
+  pmcid: PMC5137433
+  title: Genome-wide identification and characterisation of human DNA replication origins by initiation site sequencing (ini-seq)
+links: {}
+added: '2026-11-13'
+evidence: To address this controversy, we describe here an independent high-resolution origin mapping technique that we call
+  initiation site sequencing (ini-seq).

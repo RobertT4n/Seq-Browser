@@ -1,0 +1,26 @@
+name: meCLICK-Seq
+full_name: methylation CLICK-degradation Sequencing
+category: wet
+summary: Click-degrader chemistry that attaches to methyltransferase-installed alkynes on RNA and cleaves them, read out as
+  depletion to map m6A sites transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1021/acscentsci.0c01094
+  year: 2020
+  journal: ACS Cent Sci
+  first_author: Mikutis S
+  last_author: Bernardes GJL
+  pmid: '33376781'
+  pmcid: PMC7760485
+  title: meCLICK-Seq, a Substrate-Hijacking and RNA Degradation Strategy for the Study of RNA Methylation
+links: {}
+added: '2026-11-13'
+evidence: By using these molecules, we have developed the meCLICK-Seq (methylation CLICK-degradation Sequencing) a method
+  to identify RNA modification substrates with high resolution at intronic and intergenic regions.

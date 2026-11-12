@@ -1,0 +1,20 @@
+name: ConDoR
+category: dry
+summary: Tumour phylogeny inference from targeted single-cell DNA sequencing using a copy-number constrained SNV loss model.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s13059-023-03106-5
+  year: 2023
+  journal: Genome Biol
+  first_author: Sashittal P
+  last_author: Raphael BJ
+  pmid: '38037115'
+  pmcid: PMC10688497
+  title: 'ConDoR: tumor phylogeny inference with a copy-number constrained mutation loss model'
+links: {}
+added: '2026-11-13'
+evidence: We derive an algorithm, ConDoR, that infers phylogenies from targeted scDNA-seq data using this model.

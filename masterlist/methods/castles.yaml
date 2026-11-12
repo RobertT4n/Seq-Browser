@@ -1,0 +1,23 @@
+name: CASTLES
+category: dry
+summary: Estimates species-tree branch lengths from estimated gene trees using expected gene-tree branch lengths under the
+  multispecies coalescent.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad221
+  year: 2023
+  journal: Bioinformatics
+  first_author: Tabatabaee Y
+  last_author: Mirarab S
+  pmid: '37387151'
+  pmcid: PMC10311336
+  title: Phylogenomic branch length estimation using quartets
+links: {}
+added: '2026-11-13'
+evidence: We present CASTLES, a new technique for estimating branch lengths on the species tree from estimated gene trees
+  that uses these expected values, and our study shows that CASTLES improves on the most accurate prior methods with respect
+  to both speed and accuracy.

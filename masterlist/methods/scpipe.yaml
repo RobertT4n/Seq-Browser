@@ -1,0 +1,22 @@
+name: scPipe
+category: dry
+summary: 'R/Bioconductor pipeline for scRNA-seq preprocessing: barcode demultiplexing, alignment, UMI-aware gene counting
+  and QC across several protocols.'
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1006361
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Tian L
+  last_author: Ritchie ME
+  pmid: '30096152'
+  pmcid: PMC6105007
+  title: 'scPipe: A flexible R/Bioconductor preprocessing pipeline for single-cell RNA-sequencing data'
+links: null
+added: '2026-11-13'
+evidence: To this end, we developed scPipe, an R/Bioconductor package that integrates barcode demultiplexing, read alignment,
+  UMI-aware gene-level quantification and quality control

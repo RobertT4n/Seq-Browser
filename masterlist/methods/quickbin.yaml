@@ -1,0 +1,22 @@
+name: QuickBin
+category: dry
+summary: CPU-native, marker-free metagenome binning algorithm using a GC-coverage spatial index and early-exit similarity
+  tests.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-026-10782-z
+  year: 2026
+  journal: Commun Biol
+  first_author: Bushnell B
+  last_author: Villada JC
+  pmid: '42642622'
+  pmcid: PMC13507350
+  title: Deployable high-fidelity metagenome binning at scale with QuickBin
+links: {}
+added: '2026-11-13'
+evidence: Here, we present QuickBin, a CPU-native, marker-free binning algorithm designed to recover near-complete, ultra-low-contamination
+  metagenome-assembled genomes (MAGs) efficiently.

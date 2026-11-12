@@ -1,0 +1,33 @@
+name: RNA-DamID
+full_name: RNA DNA adenine methyltransferase identification
+category: wet
+summary: Dam methylase fused to an RNA-binding protein marks lncRNA-bound genomic sites in vivo, read out by methylation-sensitive
+  digestion.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+chemistry:
+- restriction-digest
+builds_on:
+- damid
+scope: genome-wide
+introduces:
+- rna-chromatin-interaction
+reference:
+  doi: 10.1038/s41594-017-0006-4
+  year: 2018
+  journal: Nat Struct Mol Biol
+  first_author: Cheetham SW
+  last_author: Brand AH
+  pmid: '29323275'
+  pmcid: PMC5813796
+  title: RNA-DamID reveals cell-type-specific binding of roX RNAs at chromatin-entry sites
+links: {}
+added: '2026-11-13'
+evidence: To assess the functions of lncRNAs, we developed RNA-DamID, a novel approach that detects lncRNA-genome interactions
+  in a cell-type-specific manner in vivo with high sensitivity and accuracy.

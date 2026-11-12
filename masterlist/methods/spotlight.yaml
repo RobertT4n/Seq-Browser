@@ -1,0 +1,21 @@
+name: SPOTlight
+category: dry
+summary: Seeded NMF regression that deconvolutes spatial transcriptomics spots using single-cell RNA-seq reference profiles.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab043
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Elosua-Bayes M
+  last_author: Heyn H
+  pmid: '33544846'
+  pmcid: PMC8136778
+  title: 'SPOTlight: seeded NMF regression to deconvolute spatial transcriptomics spots with single-cell transcriptomes'
+links: {}
+added: '2026-11-13'
+evidence: Leveraging the strengths of both data types, we developed SPOTlight, a computational tool that enables the integration
+  of ST with scRNA-seq data to infer the location of cell types and states within a complex tissue.

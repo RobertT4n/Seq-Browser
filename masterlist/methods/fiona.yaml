@@ -1,0 +1,20 @@
+name: Fiona
+category: dry
+summary: Parallel read error-correction method for substitution, insertion and deletion errors that estimates its own parameters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu440
+  year: 2014
+  journal: Bioinformatics
+  first_author: Schulz MH
+  last_author: Richard H
+  pmid: '25161220'
+  pmcid: PMC4147893
+  title: 'Fiona: a parallel and automatic strategy for read error correction'
+links: {}
+added: '2026-11-13'
+evidence: Results We present Fiona, a new stand-alone read error-correction method.

@@ -1,0 +1,21 @@
+name: DADA2
+full_name: Divisive Amplicon Denoising Algorithm 2
+category: dry
+summary: Infers exact amplicon sequence variants from Illumina amplicon reads by modelling and correcting sequencing errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/nmeth.3869
+  year: 2016
+  journal: Nat Methods
+  first_author: Callahan BJ
+  last_author: Holmes SP
+  pmid: '27214047'
+  pmcid: PMC4927377
+  title: 'DADA2: High-resolution sample inference from Illumina amplicon data'
+evidence: We present the open-source software package DADA2 for modeling and correcting Illumina-sequenced amplicon errors
+added: '2026-11-13'
+links: null

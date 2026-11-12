@@ -1,0 +1,30 @@
+name: ORACLE-tRNAseq
+full_name: Optimized Reaction for Accurate Capture of Low-input Entities tRNA Sequencing
+category: wet
+summary: Low-input tRNA sequencing method that profiles tRNA pools from as few as five mouse oocytes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41467-026-72603-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Li Y
+  last_author: Zhang Y
+  pmid: '42062277'
+  pmcid: PMC13338051
+  title: Deciphering tRNA repertoires and translation coordination during mouse early embryogenesis by ORACLE-tRNAseq
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop Optimized Reaction for Accurate Capture of Low-input Entities tRNA Sequencing (ORACLE-tRNAseq),
+  enabling robust tRNA profiling from as few as five mouse oocytes.

@@ -1,0 +1,20 @@
+name: RecoverY
+category: dry
+summary: k-mer based selection of Y-specific reads prior to assembly, with the abundance threshold set automatically.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx771
+  year: 2018
+  journal: Bioinformatics
+  first_author: Rangavittal S
+  last_author: Medvedev P
+  pmid: '29194476'
+  pmcid: PMC6030959
+  title: 'RecoverY: k-mer-based read classification for Y-chromosome-specific sequencing and assembly'
+links: {}
+added: '2026-11-13'
+evidence: We develop a method, RecoverY, that selects Y-specific reads

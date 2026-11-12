@@ -1,0 +1,22 @@
+name: xTea
+full_name: x-Transposable element analyzer
+category: dry
+summary: Tool that identifies transposable element insertions from short-read and long-read whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24041-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Chu C
+  last_author: Park PJ
+  pmid: '34158502'
+  pmcid: PMC8219666
+  title: Comprehensive identification of transposable element insertions using multiple sequencing technologies
+links: {}
+added: '2026-11-13'
+evidence: Here, we present xTea (x-Transposable element analyzer), a tool for identifying TE insertions in whole-genome sequencing
+  data.

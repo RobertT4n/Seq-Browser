@@ -1,0 +1,26 @@
+name: in4mer
+category: wet
+summary: Cas12a platform in which arrays of four guide RNAs target the same or different genes for combinatorial knockout
+  screens, read out by guide sequencing (genome-scale Inzolia library).
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+evidence: We develop the in4mer Cas12a platform that uses arrays of four independent guide RNAs targeting the same or different
+  genes.
+reference:
+  doi: 10.1038/s41467-024-47795-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Esmaeili Anvar N
+  last_author: Hart T
+  pmid: '38678031'
+  pmcid: PMC11055879
+  title: Efficient gene knockout and genetic interaction screening using the in4mer CRISPR/Cas12a multiplex knockout platform
+links: {}
+added: '2026-11-13'

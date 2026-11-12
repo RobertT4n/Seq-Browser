@@ -1,0 +1,26 @@
+name: Lec-MACS
+full_name: lectin-based magnetic-activated cell sorting
+category: wet
+summary: Lectin-bound magnetic beads sort CRISPR-perturbed cells by surface glycan level, then guide enrichment is sequenced.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+chemistry:
+- amplicon-pcr
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101507
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Kim J
+  last_author: Wisnovsky S
+  pmid: '42341757'
+  pmcid: PMC13494540
+  title: Rapid discovery of cell-surface glycosylation regulators using a lectin-based magnetic CRISPR screen
+links: {}
+added: '2026-11-13'
+evidence: We developed a lectin-based magnetic-activated cell sorting platform (Lec-MACS) that enables rapid identification
+  of genes controlling expression of specific cell-surface glycans.

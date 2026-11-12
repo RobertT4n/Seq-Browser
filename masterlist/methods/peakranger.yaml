@@ -1,0 +1,22 @@
+name: PeakRanger
+category: dry
+summary: Cloud-enabled peak caller that handles both punctate and broad ChIP-seq peaks.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-12-139
+  year: 2011
+  journal: BMC Bioinformatics
+  first_author: Feng X
+  last_author: Stein L
+  pmid: '21554709'
+  pmcid: PMC3103446
+  title: 'PeakRanger: a cloud-enabled peak caller for ChIP-seq data'
+links: {}
+added: '2026-11-13'
+evidence: In this paper, we introduce PeakRanger, a peak caller software package that works equally well on punctate and broad
+  sites, can resolve closely-spaced peaks, has excellent performance, and is easily customized.

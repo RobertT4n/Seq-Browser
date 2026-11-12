@@ -1,0 +1,22 @@
+name: MashMap
+category: dry
+summary: Fast approximate mapper of long reads to large reference databases, combining minimizer-based mapping with a MinHash
+  identity estimate.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2018.0036
+  year: 2018
+  journal: J Comput Biol
+  first_author: Jain C
+  last_author: Phillippy AM
+  pmid: '29708767'
+  pmcid: PMC6067103
+  title: A Fast Approximate Algorithm for Mapping Long Reads to Large Reference Databases
+links: {}
+added: '2026-11-13'
+evidence: In this article, we combine a fast approximate read mapping algorithm based on minimizers with a novel MinHash identity
+  estimation technique to achieve both scalability and precision.

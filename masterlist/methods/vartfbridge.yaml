@@ -1,0 +1,20 @@
+name: varTFBridge
+category: dry
+summary: Integrates single-molecule FOODIE TF footprinting with AlphaGenome variant-effect prediction to prioritise noncoding
+  variants that rewire TF-mediated regulation.
+readouts:
+- protein-dna-binding
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.03.03.708783
+  year: 2026
+  journal: bioRxiv
+  first_author: Lin J
+  last_author: Zhao Y
+  title: Genome-wide maps of transcription factor footprints identify noncoding variants rewiring gene regulatory networks
+links: {}
+added: '2026-11-13'
+evidence: We introduce varTFBridge, integrating FOODIE footprinting with AlphaGenome variant effect prediction to identify
+  causal noncoding variants altering transcription factor (TF)-mediated regulation.

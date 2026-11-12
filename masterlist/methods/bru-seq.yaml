@@ -1,0 +1,30 @@
+name: Bru-Seq
+full_name: bromouridine labeling and sequencing
+category: wet
+summary: Bromouridine labeling of nascent RNA followed by sequencing to measure genome-wide RNA synthesis.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+species:
+- human
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1219192110
+  year: 2013
+  journal: Proc Natl Acad Sci U S A
+  first_author: Paulsen MT
+  last_author: Ljungman M
+  pmid: '23345452'
+  pmcid: PMC3568384
+  title: Coordinated regulation of synthesis and stability of RNA during the acute TNF-induced proinflammatory response
+links: {}
+added: '2026-11-13'
+evidence: Here, we present bromouride labeling and sequencing (Bru-Seq) and bromouridine pulse-chase and sequencing (BruChase-Seq)
+  to assess genome-wide changes to RNA synthesis and stability in human fibroblasts at homeostasis and after exposure to the
+  proinflammatory tumor necrosis factor (TNF).

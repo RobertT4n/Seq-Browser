@@ -1,0 +1,26 @@
+name: LASSIE
+full_name: Linear Allele-Specific Selection InferencE
+category: dry
+summary: Population-genetic and machine-learning model that estimates allele-specific fitness effects of human single-nucleotide
+  variants from polymorphism data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/gr.245522.118
+  year: 2019
+  journal: Genome Res
+  first_author: Huang YF
+  last_author: Siepel A
+  pmid: '31249063'
+  pmcid: PMC6673719
+  title: Estimation of allele-specific fitness effects across human protein-coding sequences and implications for disease
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce a unified population-genetic and machine-learning model, called Linear Allele-Specific Selection
+  InferencE (LASSIE), for estimating the fitness effects of all observed and potential single-nucleotide variants, based on
+  polymorphism data and predictive genomic features.

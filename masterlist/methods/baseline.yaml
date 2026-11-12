@@ -1,0 +1,29 @@
+name: BASELINE
+category: wet
+summary: Cas12a adenine base editing writes lineage marks into synthetic target arrays, read out with single-cell sequencing
+  for mammalian-scale lineage trees.
+readouts:
+- lineage
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+scope: targeted
+perturbation:
+- base-editing
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkag769
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Winter E
+  last_author: McKenna A
+  pmid: '42549577'
+  pmcid: PMC13434336
+  title: 'BASELINE: a CRISPR base editing platform for mammalian-scale single-cell lineage tracing'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce BASELINE, which uses base editing to generate high-resolution lineage trees in conjunction with
+  single-cell profiling.
+partition_unknown: not stated in the abstract

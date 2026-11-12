@@ -1,0 +1,21 @@
+name: AmpliCoNE
+full_name: Ampliconic Copy Number Estimator
+category: dry
+summary: Estimates copy number of Y ampliconic gene families from read sequencing depth.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1008369
+  year: 2019
+  journal: PLoS Genet
+  first_author: Vegesna R
+  last_author: Makova KD
+  pmid: '31525193'
+  pmcid: PMC6772104
+  title: Dosage regulation, and variation in gene expression and copy number of human Y chromosome ampliconic genes
+links: {}
+added: '2026-11-13'
+evidence: we developed a novel computational tool Ampliconic Copy Number Estimator (AmpliCoNE)

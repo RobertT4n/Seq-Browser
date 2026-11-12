@@ -1,0 +1,24 @@
+name: Endo-bind-n-seq
+category: wet
+summary: RNA bind-n-seq on short random pools, coupled to immunoprecipitation of endogenous RBPs, to derive RNA motifs without
+  recombinant protein.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.26508/lsa.202402782
+  year: 2025
+  journal: Life Sci Alliance
+  first_author: Hanelt TN
+  last_author: Meister G
+  pmid: '39622621'
+  pmcid: PMC11612968
+  title: 'Endo-bind-n-seq: identifying RNA motifs of RNA binding proteins isolated from endogenous sources.'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present an RNA bind-n-seq method that uses short random RNA pools and enables multiple rounds of selection.

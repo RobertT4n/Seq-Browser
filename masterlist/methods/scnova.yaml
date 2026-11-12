@@ -1,0 +1,23 @@
+name: scNOVA
+category: dry
+summary: Haplotype-aware single-cell tool that links structural variants discovered from Strand-seq to gene expression inferred
+  from nucleosome occupancy.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01551-4
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Jeong H
+  last_author: Korbel JO
+  pmid: '36424487'
+  pmcid: PMC10264249
+  title: Functional analysis of structural variants in single cells using Strand-seq
+evidence: We present a computational method, scNOVA, which uses Strand-seq to perform haplotype-aware integration of SV discovery
+  and molecular phenotyping in single cells
+added: '2026-11-13'
+links: null

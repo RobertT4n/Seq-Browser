@@ -1,0 +1,20 @@
+name: DiscoverY
+category: dry
+summary: k-mer based classifier that identifies Y-chromosome contigs in male genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-019-5996-3
+  year: 2019
+  journal: BMC Genomics
+  first_author: Rangavittal S
+  last_author: Medvedev P
+  pmid: '31399045'
+  pmcid: PMC6688218
+  title: 'DiscoverY: a classifier for identifying Y chromosome sequences in male assemblies'
+links: {}
+added: '2026-11-13'
+evidence: We develop a k-mer based method called DiscoverY

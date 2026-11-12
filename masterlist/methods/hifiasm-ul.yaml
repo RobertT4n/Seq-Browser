@@ -1,0 +1,24 @@
+name: hifiasm (UL)
+category: dry
+summary: De novo assembler that combines several sequencing technologies with a double-graph design for near telomere-to-telomere
+  diploid and polyploid assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+platform:
+- long-read
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02269-8
+  year: 2024
+  journal: Nat Methods
+  first_author: Cheng H
+  last_author: Li H
+  pmid: '38730258'
+  pmcid: PMC11214949
+  title: Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph
+links: null
+added: '2026-11-13'
+evidence: Here we present hifiasm (UL), an efficient de novo assembly algorithm combining multiple sequencing technologies
+  to scale up population-wide near telomere-to-telomere assemblies.
