@@ -1,6 +1,6 @@
 name: HELEN
 category: dry
-summary: "Nanopore assembly polishing algorithm, part of a suite with MarginPolish, for polishing long-read genome assemblies."
+summary: Nanopore assembly polishing algorithm, part of a suite with MarginPolish, for polishing long-read genome assemblies.
 readouts:
 - genome-sequence
 resolution:
@@ -10,7 +10,16 @@ platform:
 - long-read
 - nanopore
 reference:
-  doi: 10.1101/715722
+  doi: 10.1038/s41587-020-0503-6
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Shafin K
+  last_author: Paten B
+  pmid: '32686750'
+  pmcid: PMC7483855
+  title: Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes
+  preprint_doi: 10.1101/715722
 links: {}
 added: '2026-11-12'
-evidence: "To assemble these data we introduce new computational tools: Shasta - a de novo long read assembler, and MarginPolish & HELEN - a suite of nanopore assembly polishing algorithms."
+evidence: 'To assemble these data we introduce new computational tools: Shasta - a de novo long read assembler, and MarginPolish
+  & HELEN - a suite of nanopore assembly polishing algorithms.'

@@ -157,3 +157,6 @@ details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--acc
 
 /* the hidden attribute must win over display rules (beta bubble, Task filter) */
 [hidden] { display:none !important; }
+
+/* paper title above the author line in the detail panel */
+.ptitle { margin:10px 0 2px; font-size:14px; font-style:italic; line-height:1.35; color:var(--ink); text-wrap:pretty; }

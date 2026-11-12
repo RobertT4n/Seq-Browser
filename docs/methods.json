@@ -417,7 +417,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "3dpcr",
@@ -1095,13 +1095,13 @@
    "title": "Hybrid assembly with long and short reads improves discovery of gene family expansions",
    "doi": "10.1186/s12864-017-3927-8",
    "url": null,
-   "citations": null,
+   "citations": 62,
    "preprint": false,
    "summary": "Hybrid assembly pipeline combining long reads with short-insert and long-insert short reads to resolve tandem repeats and gene family expansions.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "ambientmapper",
@@ -1291,7 +1291,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; variants-clones"
   },
   {
    "id": "aneva",
@@ -1323,13 +1323,13 @@
    "title": "Genetic regulatory variation in populations informs transcriptome analysis in rare disease",
    "doi": "10.1126/science.aay0256",
    "url": null,
-   "citations": null,
+   "citations": 110,
    "preprint": false,
    "summary": "Statistical framework that quantifies population-level genetic variation in gene dosage from allelic expression data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "aneva-dot",
@@ -1361,13 +1361,13 @@
    "title": "Genetic regulatory variation in populations informs transcriptome analysis in rare disease",
    "doi": "10.1126/science.aay0256",
    "url": null,
-   "citations": null,
+   "citations": 110,
    "preprint": false,
    "summary": "Outlier test that flags genes in an individual affected by a rare regulatory variant, using ANEVA population variance estimates.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "aniann-s",
@@ -1399,13 +1399,13 @@
    "title": "AniAnn's: alignment-free annotation of tandem repeat arrays using fast average nucleotide identity estimates",
    "doi": "10.1093/bioinformatics/btag581",
    "url": null,
-   "citations": null,
+   "citations": 1,
    "preprint": false,
    "summary": "Alignment-free algorithm that annotates tandem repeat arrays from average nucleotide identity between repeat units.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "annoaudit",
@@ -1513,13 +1513,13 @@
    "title": "AnVILWorkflow: A runnable workflow package for Cloud-implemented bioinformatics analysis pipelines",
    "doi": "10.12688/f1000research.155449.1",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": false,
    "summary": "R package that submits and retrieves bioinformatics workflows hosted on the AnVIL cloud platform.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "ap2n-rna-seq",
@@ -1627,13 +1627,13 @@
    "title": "Deciphering the impact of genetic variation on human polyadenylation using APARENT2",
    "doi": "10.1186/s13059-022-02799-4",
    "url": null,
-   "citations": null,
+   "citations": 61,
    "preprint": false,
    "summary": "Residual neural network that infers 3' cleavage and polyadenylation from DNA sequence and generalises to alternative polyadenylation.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "apex-rip",
@@ -1779,13 +1779,13 @@
    "title": "Detection and analysis of complex structural variation in human genomes across populations and in brains of donors with psychiatric disorders",
    "doi": "10.1016/j.cell.2024.09.014",
    "url": null,
-   "citations": null,
+   "citations": 13,
    "preprint": false,
    "summary": "Probabilistic, machine-learning method that detects and reconstructs complex structural variants from standard sequencing datasets.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "arc-well",
@@ -1855,13 +1855,13 @@
    "title": "ARCADIA reveals spatially dependent transcriptional programs through integration of scRNA-seq and spatial proteomics",
    "doi": "10.1093/bioinformatics/btag454",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": false,
    "summary": "Generative framework that integrates scRNA-seq with spatial proteomics without cell barcode pairing or feature correspondence, using archetypes to infer spatially dependent programs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "multimodal-integration; spatial-analysis"
   },
   {
    "id": "arch",
@@ -2051,7 +2051,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "astar-seq",
@@ -2507,7 +2507,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "bacs",
@@ -2621,7 +2621,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation; integration"
   },
   {
    "id": "bamtools",
@@ -2653,13 +2653,13 @@
    "title": "BamTools: a C++ API and toolkit for analyzing and managing BAM files",
    "doi": "10.1093/bioinformatics/btr174",
    "url": null,
-   "citations": null,
+   "citations": 1122,
    "preprint": false,
    "summary": "C++ API and command-line toolkit for reading, filtering, merging and sorting BAM alignment files.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "banc-seq",
@@ -2735,7 +2735,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; 3d-genome-analysis"
   },
   {
    "id": "bar-seq",
@@ -2811,7 +2811,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "bart-seq",
@@ -3115,7 +3115,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "beacon",
@@ -3489,13 +3489,13 @@
    "title": "Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment",
    "doi": "10.1016/j.cell.2018.05.060",
    "url": null,
-   "citations": null,
+   "citations": 1995,
    "preprint": false,
    "summary": "Bayesian clustering and normalisation method for single-cell RNA-seq data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation; preprocessing-qc"
   },
   {
    "id": "bits",
@@ -3527,13 +3527,13 @@
    "title": "Binary Interval Search: a scalable algorithm for counting interval intersections",
    "doi": "10.1093/bioinformatics/bts652",
    "url": null,
-   "citations": null,
+   "citations": 44,
    "preprint": false,
    "summary": "Algorithm that counts intersections between large sets of genome intervals and parallelises Monte Carlo significance tests.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "bl-hi-c",
@@ -3793,13 +3793,13 @@
    "title": "Base-resolution models of transcription-factor binding reveal soft motif syntax.",
    "doi": "10.1038/s41588-021-00782-6",
    "url": null,
-   "citations": null,
+   "citations": 698,
    "preprint": false,
    "summary": "Deep learning model that predicts base-resolution ChIP-nexus binding profiles from DNA sequence and learns soft motif syntax.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "bracer",
@@ -4135,13 +4135,13 @@
    "title": "Ubiquitous heterogeneity and asymmetry of the chromatin environment at regulatory elements",
    "doi": "10.1101/gr.136366.111",
    "url": null,
-   "citations": null,
+   "citations": 182,
    "preprint": false,
    "summary": "Unsupervised pattern-discovery tool that clusters and aggregates chromatin signal profiles around bound transcription factors.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "calmer",
@@ -4217,7 +4217,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "cap-c",
@@ -4629,13 +4629,13 @@
    "title": "Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models",
    "doi": "10.64898/2026.08.13.26360300",
    "url": null,
-   "citations": null,
+   "citations": 3,
    "preprint": true,
    "summary": "Scalable Poisson mixed-model framework that tests genotype-by-context interactions on single-cell read counts to find context-dependent eQTLs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "cat",
@@ -4667,13 +4667,13 @@
    "title": "Comparative Annotation Toolkit (CAT)-simultaneous clade and personal genome annotation",
    "doi": "10.1101/gr.233460.117",
    "url": null,
-   "citations": null,
+   "citations": 154,
    "preprint": false,
    "summary": "Open-source toolkit that annotates clades of genomes simultaneously and identifies orthology relationships.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "catfishr",
@@ -4933,13 +4933,13 @@
    "title": "Recovering rearranged cancer chromosomes from karyotype graphs",
    "doi": "10.1186/s12859-019-3208-4",
    "url": null,
-   "citations": null,
+   "citations": 4,
    "preprint": false,
    "summary": "Algorithm that recovers unambiguous linear or circular rearranged cancer contigs from karyotype graphs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly; variants-clones"
   },
   {
    "id": "ccs",
@@ -4971,7 +4971,7 @@
    "title": "Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome",
    "doi": "10.1038/s41587-019-0217-9",
    "url": null,
-   "citations": null,
+   "citations": 1687,
    "preprint": false,
    "summary": "Single-molecule circular consensus long-read sequencing protocol producing highly accurate (~99.8%) long reads for variant detection and assembly.",
    "protocol": null,
@@ -5091,7 +5091,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "cel-seq",
@@ -5243,7 +5243,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "perturbation-modelling; benchmark-infrastructure"
   },
   {
    "id": "cell-lens",
@@ -6003,7 +6003,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "cellstaar",
@@ -6345,7 +6345,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "cgcorrect",
@@ -7257,7 +7257,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks"
   },
   {
    "id": "chrommovie",
@@ -7333,7 +7333,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "chromvar",
@@ -7669,13 +7669,13 @@
    "title": "A multi-task convolutional deep neural network for variant calling in single molecule sequencing",
    "doi": "10.1038/s41467-019-09025-z",
    "url": null,
-   "citations": null,
+   "citations": 138,
    "preprint": false,
    "summary": "Multi-task convolutional network that calls variant type, zygosity, alternative allele and indel length from aligned reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "click-seq",
@@ -7903,7 +7903,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "clr-seq",
@@ -8201,13 +8201,13 @@
    "title": "Precise detection of de novo single nucleotide variants in human genomes",
    "doi": "10.1073/pnas.1802244115",
    "url": null,
-   "citations": null,
+   "citations": 19,
    "preprint": false,
    "summary": "Coverage-based SNV caller that finds de novo SNVs in family trios from coverage changes of exactly matching unique substrings in short reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "cobatch",
@@ -8277,13 +8277,13 @@
    "title": "Denoising genome-wide histone ChIP-seq with convolutional neural networks",
    "doi": "10.1093/bioinformatics/btx243",
    "url": null,
-   "citations": null,
+   "citations": 56,
    "preprint": false,
    "summary": "Convolutional neural network denoising algorithm that maps suboptimal histone ChIP-seq data to high-quality profiles.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "coexpressdeconvolve",
@@ -8397,7 +8397,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "combi-seq",
@@ -8511,7 +8511,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "comrades",
@@ -8657,13 +8657,13 @@
    "title": "Copy number variation detection and genotyping from exome sequence data",
    "doi": "10.1101/gr.138115.112",
    "url": null,
-   "citations": null,
+   "citations": 601,
    "preprint": false,
    "summary": "Detects rare genic copy number variants and genotypes copy-number polymorphic loci from exome sequencing data using SVD normalization.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "connect-seq",
@@ -8967,7 +8967,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; differential-analysis"
   },
   {
    "id": "cosicc",
@@ -9309,7 +9309,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "cpt-seq",
@@ -9461,7 +9461,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "crest-seq",
@@ -9873,7 +9873,7 @@
    "title": "Mapping multimodal phenotypes to perturbations in cells and tissue with CRISPRmap",
    "doi": "10.1038/s41587-024-02386-x",
    "url": null,
-   "citations": null,
+   "citations": 53,
    "preprint": false,
    "summary": "Optical pooled CRISPR screen that reads guide barcodes in situ by combinatorial hybridization, with multiplexed immunofluorescence.",
    "protocol": null,
@@ -10373,7 +10373,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "d-and-d-seq",
@@ -10473,21 +10473,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2024,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
+   "first_author": "Sarkar A",
+   "last_author": "Koo PK",
+   "journal": "bioRxiv",
    "title": "Designing DNA With Tunable Regulatory Activity Using Discrete Diffusion",
    "doi": "10.1101/2024.05.23.595630",
    "url": null,
-   "citations": null,
-   "preprint": false,
+   "citations": 33,
+   "preprint": true,
    "summary": "Discrete diffusion generative model that designs regulatory DNA with tunable activity through iterative nucleotide substitution.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "d3e",
@@ -10753,7 +10753,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; differential-analysis"
   },
   {
    "id": "dandelion",
@@ -11127,13 +11127,13 @@
    "title": "Joint representation and visualization of derailed cell states with Decipher",
    "doi": "10.1186/s13059-025-03682-8",
    "url": null,
-   "citations": null,
+   "citations": 12,
    "preprint": false,
    "summary": "Deep generative model that jointly represents and visualises gene expression and cell state across normal and perturbed single-cell RNA-seq data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "dimensionality-visualization; perturbation-modelling"
   },
   {
    "id": "decoder-ffpe-seq",
@@ -11203,13 +11203,13 @@
    "title": "Spatiotemporal single-cell profiling reveals T cell clonal dynamics and phenotypic plasticity in human graft-versus-host disease",
    "doi": "10.1038/s41590-026-02631-2",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": false,
    "summary": "Computational tool that resolves temporal dynamics of T cell clones from longitudinal TCR and scRNA/TCR-seq data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "deep-lineage",
@@ -11437,7 +11437,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "deeppolisher",
@@ -11469,13 +11469,13 @@
    "title": "Highly accurate assembly polishing with DeepPolisher",
    "doi": "10.1101/gr.280149.124",
    "url": null,
-   "citations": null,
+   "citations": 18,
    "preprint": false,
    "summary": "Encoder-only transformer that polishes diploid assemblies using PacBio HiFi read alignments.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "deepscenic",
@@ -11551,7 +11551,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks; dimensionality-visualization"
   },
   {
    "id": "degu",
@@ -11583,13 +11583,13 @@
    "title": "Uncertainty-aware genomic deep learning with knowledge distillation",
    "doi": "10.1038/s44387-025-00053-3",
    "url": null,
-   "citations": null,
+   "citations": 12,
    "preprint": false,
    "summary": "Ensemble-distillation method that trains one DNA model to estimate epistemic and optional aleatoric uncertainty for genomic predictions.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "demuxafy",
@@ -11925,13 +11925,13 @@
    "title": "Discovering epistatic feature interactions from neural network models of regulatory DNA sequences",
    "doi": "10.1093/bioinformatics/bty575",
    "url": null,
-   "citations": null,
+   "citations": 90,
    "preprint": false,
    "summary": "Estimates pairwise interactions between sequence features (nucleotides or motifs) in deep networks trained on regulatory DNA sequence.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "dialogue",
@@ -12083,7 +12083,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis; 3d-genome-analysis"
   },
   {
    "id": "diffusionot",
@@ -12197,7 +12197,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "cell-communication"
   },
   {
    "id": "dimelo-seq",
@@ -12273,7 +12273,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "dip-c",
@@ -12343,13 +12343,13 @@
    "title": "Discovery of large genomic inversions using long range information",
    "doi": "10.1186/s12864-016-3444-1",
    "url": null,
-   "citations": null,
+   "citations": 16,
    "preprint": false,
    "summary": "Algorithm that discovers large genomic inversions (>500 kbp) from pooled clone sequencing data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "direct-capture-perturb-seq",
@@ -12767,7 +12767,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "dna-microscopy",
@@ -13141,13 +13141,13 @@
    "title": "Sensitive and fast mapping of di-base encoded reads",
    "doi": "10.1093/bioinformatics/btr303",
    "url": null,
-   "citations": null,
+   "citations": 16,
    "preprint": false,
    "summary": "Read mapper for di-base encoded (SOLiD colour-space) reads that returns all map locations within a distance threshold, aimed at structural-variant delineation.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; variants-clones"
   },
   {
    "id": "driparf",
@@ -13869,7 +13869,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "duplex-sequencing",
@@ -14661,13 +14661,13 @@
    "title": "An encyclopedia of human enhancer-gene regulatory interactions",
    "doi": "10.1038/s41586-026-10781-4",
    "url": null,
-   "citations": null,
+   "citations": 27,
    "preprint": false,
    "summary": "Supervised predictive model of enhancer-gene regulatory links, trained on ENCODE chromatin, 3D-contact and CRISPR perturbation data, used to build a genome-wide enhancer-gene map.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks"
   },
   {
    "id": "end-seq",
@@ -14819,7 +14819,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "epi-clone",
@@ -15427,7 +15427,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "foundation-model; sequence-to-function"
   },
   {
    "id": "evo-2",
@@ -15465,7 +15465,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "foundation-model; sequence-to-function"
   },
   {
    "id": "ex-sprandom",
@@ -15573,13 +15573,13 @@
    "title": "The ExAC browser: displaying reference data information from over 60 000 exomes",
    "doi": "10.1093/nar/gkw971",
    "url": null,
-   "citations": null,
+   "citations": 708,
    "preprint": false,
    "summary": "Open-source web framework for displaying exome-derived population variation and allele frequencies with annotation.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "expansionhunter-denovo",
@@ -15617,7 +15617,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "expso",
@@ -15693,7 +15693,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "f5c-seq",
@@ -15883,7 +15883,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "falcon-phase",
@@ -15959,7 +15959,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "fast-iclip",
@@ -16225,7 +16225,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "fededger",
@@ -16719,7 +16719,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "fixncut",
@@ -16865,13 +16865,13 @@
    "title": "Decoding common and rare noncoding variant effects across cellular and developmental contexts.",
    "doi": "10.1038/s41588-026-02619-6",
    "url": null,
-   "citations": null,
+   "citations": 10,
    "preprint": false,
    "summary": "Lasso-based method that combines evolutionary constraint with deep-learning chromatin-accessibility predictions to prioritise noncoding variants with extreme regulatory effects.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "flash-seq",
@@ -17397,13 +17397,13 @@
    "title": "Integrative annotation of variants from 1092 humans: application to cancer genomics",
    "doi": "10.1126/science.1235587",
    "url": null,
-   "citations": null,
+   "citations": 351,
    "preprint": false,
    "summary": "Computational tool that scores noncoding variants from polymorphism patterns in functionally annotated regions to nominate candidate cancer drivers.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "g-and-t-seq",
@@ -17891,13 +17891,13 @@
    "title": "Recurrent noncoding regulatory mutations in pancreatic ductal adenocarcinoma",
    "doi": "10.1038/ng.3861",
    "url": null,
-   "citations": null,
+   "citations": 68,
    "preprint": false,
    "summary": "Clustering method that finds recurrently mutated noncoding regulatory regions in somatic whole-genome data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "gecko",
@@ -18347,13 +18347,13 @@
    "title": "Genomic dark matter: the reliability of short read mapping illustrated by the genome mappability score",
    "doi": "10.1093/bioinformatics/bts330",
    "url": null,
-   "citations": null,
+   "citations": 123,
    "preprint": false,
    "summary": "Per-position genome mappability measure (weighted probability that a read maps uniquely) and an analyser that computes it genome-wide to flag regions hard to resequence.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "genome-scale-perturb-seq",
@@ -18461,13 +18461,13 @@
    "title": "GenomeDISCO: a concordance score for chromosome conformation capture experiments using random walks on contact map graphs",
    "doi": "10.1093/bioinformatics/bty164",
    "url": null,
-   "citations": null,
+   "citations": 135,
    "preprint": false,
    "summary": "Concordance score for Hi-C contact maps that smooths maps by random walks on the contact graph before comparison.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "genomescope-2-0",
@@ -18499,13 +18499,13 @@
    "title": "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes",
    "doi": "10.1038/s41467-020-14998-3",
    "url": null,
-   "citations": null,
+   "citations": 3042,
    "preprint": false,
    "summary": "k-mer mixture model that estimates size, heterozygosity and repeat content of heterozygous and polyploid genomes from raw reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "geoadvae",
@@ -18613,13 +18613,13 @@
    "title": "Phased nanopore assembly with Shasta and modular graph phasing with GFAse",
    "doi": "10.1101/gr.278268.123",
    "url": null,
-   "citations": null,
+   "citations": 15,
    "preprint": false,
    "summary": "Modular tool that extends phasing of Oxford Nanopore assemblies to the chromosome scale.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "gia",
@@ -18657,7 +18657,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "gibd",
@@ -18727,13 +18727,13 @@
    "title": "Interactive analysis and assessment of single-cell copy-number variations",
    "doi": "10.1038/nmeth.3578",
    "url": null,
-   "citations": null,
+   "citations": 275,
    "preprint": false,
    "summary": "Open-source web platform that builds single-cell copy-number profiles from mapped reads and infers phylogenetic trees of cells.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "gismo",
@@ -18771,7 +18771,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "glib",
@@ -18847,7 +18847,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "perturbation-modelling; regulatory-networks"
   },
   {
    "id": "glm-prior",
@@ -18955,13 +18955,13 @@
    "title": "A genomic mutational constraint map using variation in 76,156 human genomes",
    "doi": "10.1038/s41586-023-06045-0",
    "url": null,
-   "citations": null,
+   "citations": 1595,
    "preprint": false,
    "summary": "Refined mutational model and genome-wide constraint map for non-coding regions, built from gnomAD variation in 76,156 genomes.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "golden",
@@ -19037,7 +19037,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "got",
@@ -19183,13 +19183,13 @@
    "title": "Graphasing: phasing diploid genome assembly graphs with single-cell strand sequencing",
    "doi": "10.1186/s13059-024-03409-1",
    "url": null,
-   "citations": null,
+   "citations": 12,
    "preprint": false,
    "summary": "Workflow that combines the Strand-seq phase signal with assembly-graph topology to produce chromosome-scale haplotypes.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "graphcompass",
@@ -19303,7 +19303,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "guide-seq",
@@ -19487,13 +19487,13 @@
    "title": "Scaling accurate genetic variant discovery to tens of thousands of samples",
    "doi": "10.1101/201178",
    "url": null,
-   "citations": null,
+   "citations": 1781,
    "preprint": true,
    "summary": "Assembly-based variant caller giving per-sample genotype likelihoods with joint calling across all samples, scaling to tens of thousands of samples.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "hdi-starr-seq",
@@ -19593,21 +19593,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2020,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
-   "doi": "10.1101/715722",
+   "first_author": "Shafin K",
+   "last_author": "Paten B",
+   "journal": "Nat Biotechnol",
+   "title": "Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes",
+   "doi": "10.1038/s41587-020-0503-6",
    "url": null,
-   "citations": null,
+   "citations": 542,
    "preprint": false,
    "summary": "Nanopore assembly polishing algorithm, part of a suite with MarginPolish, for polishing long-read genome assemblies.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "hemomips",
@@ -19715,13 +19715,13 @@
    "title": "Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data",
    "doi": "10.1038/nmeth.2474",
    "url": null,
-   "citations": null,
+   "citations": 4029,
    "preprint": false,
    "summary": "Hierarchical assembly workflow that builds microbial genomes from SMRT long reads using preassembled reads and consensus.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "hi-c",
@@ -19987,7 +19987,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "hic-lego",
@@ -20253,7 +20253,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "hicpotts",
@@ -20475,13 +20475,13 @@
    "title": "Himito: a graph-based toolkit for mitochondrial genome analysis using long reads",
    "doi": "10.1038/s41467-026-77418-y",
    "url": null,
-   "citations": null,
+   "citations": 1,
    "preprint": false,
    "summary": "Graph-based toolkit that filters NUMT reads, assembles mtDNA haplotypes, calls variants and profiles 5mC from long reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; modification-calling"
   },
   {
    "id": "hires",
@@ -20671,7 +20671,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "host-selective-pma-pcr",
@@ -20785,7 +20785,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "ht-chip",
@@ -20975,7 +20975,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "hts2",
@@ -21051,7 +21051,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis; benchmark-infrastructure"
   },
   {
    "id": "hvantk",
@@ -21197,13 +21197,13 @@
    "title": "Genome-wide mapping and assembly of structural variant breakpoints in the mouse genome",
    "doi": "10.1101/gr.102970.109",
    "url": null,
-   "citations": null,
+   "citations": 263,
    "preprint": false,
    "summary": "Algorithm that localises structural-variant breakpoints from paired-end mapping and assembles breakpoint sequences genome-wide.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "hydra-multi",
@@ -21235,13 +21235,13 @@
    "title": "Population-based structural variation discovery with Hydra-Multi",
    "doi": "10.1093/bioinformatics/btu771",
    "url": null,
-   "citations": null,
+   "citations": 20,
    "preprint": false,
    "summary": "Multisample structural-variant caller that scales SV discovery to hundreds or thousands of human genomes on commodity hardware.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "hydrop-v2",
@@ -21425,13 +21425,13 @@
    "title": "HYSYS: have you swapped your samples?",
    "doi": "10.1093/bioinformatics/btw685",
    "url": null,
-   "citations": null,
+   "citations": 21,
    "preprint": false,
    "summary": "Method that tests for sample swaps and contamination in cancer sequencing cohorts using concordance of homozygous SNPs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "i-cistarget",
@@ -21507,7 +21507,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "dimensionality-visualization"
   },
   {
    "id": "icrop-seq",
@@ -21659,7 +21659,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "ifc-seq",
@@ -22533,7 +22533,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks; perturbation-modelling"
   },
   {
    "id": "insta-seq",
@@ -22831,13 +22831,13 @@
    "title": "Jasmine and Iris: population-scale structural variant comparison and analysis",
    "doi": "10.1038/s41592-022-01753-3",
    "url": null,
-   "citations": null,
+   "citations": 145,
    "preprint": false,
    "summary": "Structural-variant refinement tool presented with Jasmine for comparing and genotyping SV callsets across samples.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "iriseq",
@@ -23293,7 +23293,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "jasmine",
@@ -23325,13 +23325,13 @@
    "title": "Jasmine and Iris: population-scale structural variant comparison and analysis",
    "doi": "10.1038/s41592-022-01753-3",
    "url": null,
-   "citations": null,
+   "citations": 145,
    "preprint": false,
    "summary": "Structural-variant comparison tool that refines and merges SV callsets using a proximity graph for population analysis.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "jeepers",
@@ -23439,13 +23439,13 @@
    "title": "Multi-sample, multi-platform isoform quantification using empirical Bayes",
    "doi": "10.1101/2025.02.08.637184",
    "url": null,
-   "citations": null,
+   "citations": 2,
    "preprint": true,
    "summary": "Hierarchical empirical-Bayes model that jointly quantifies transcript isoforms from multi-sample short-read and long-read RNA-seq.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "julovelo",
@@ -24237,13 +24237,13 @@
    "title": "Annotation-free quantification of RNA splicing using LeafCutter",
    "doi": "10.1038/s41588-017-0004-9",
    "url": null,
-   "citations": null,
+   "citations": 814,
    "preprint": false,
    "summary": "Annotation-free quantification of intron splicing from short-read RNA-seq, for differential splicing and sQTL mapping.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "leaflet",
@@ -24275,13 +24275,13 @@
    "title": "Investigating RNA splicing as a source of cellular diversity using a binomial mixture model",
    "doi": "10.1101/2023.10.17.562774",
    "url": null,
-   "citations": null,
+   "citations": 3,
    "preprint": true,
    "summary": "Probabilistic mixture model that infers splicing-driven cell states from single-cell splice junction counts without cell-type labels.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "lianti",
@@ -24579,13 +24579,13 @@
    "title": "Locityper: targeted genotyping of complex polymorphic genes",
    "doi": "10.1101/2024.05.03.592358",
    "url": null,
-   "citations": null,
+   "citations": 8,
    "preprint": true,
    "summary": "Genotyping tool for structurally polymorphic loci that aligns reads to locus haplotypes and selects the likeliest haplotype pair.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "locoflow",
@@ -24647,21 +24647,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2026,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
+   "first_author": "Huang N",
+   "last_author": "Human Pangenome Reference Consortium",
+   "journal": "Nat Methods",
+   "title": "SNP calling, haplotype phasing and allele-specific analysis with long RNA-seq reads",
    "doi": "10.1038/s41592-026-03045-6",
    "url": null,
-   "citations": null,
+   "citations": 7,
    "preprint": false,
    "summary": "Tool for joint SNP calling, haplotype phasing and allele-specific splicing analysis from long-read RNA-seq.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "longphase-to",
@@ -24769,13 +24769,13 @@
    "title": "Transcriptome variation in human tissues revealed by long-read sequencing",
    "doi": "10.1038/s41586-022-05035-y",
    "url": null,
-   "citations": null,
+   "citations": 350,
    "preprint": false,
    "summary": "Computational package for allele-specific analysis of long-read RNA-seq to map genetic effects on transcript structure.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "lotr-seq",
@@ -24921,13 +24921,13 @@
    "title": "LRSim: A Linked-Reads Simulator Generating Insights for Better Genome Partitioning",
    "doi": "10.1016/j.csbj.2017.10.002",
    "url": null,
-   "citations": null,
+   "citations": 41,
    "preprint": false,
    "summary": "Simulator of 10x-style linked-read sequencing data that emulates library preparation, barcodes and partitioning.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "lrtaps",
@@ -25035,13 +25035,13 @@
    "title": "LUMPY: a probabilistic framework for structural variant discovery",
    "doi": "10.1186/gb-2014-15-6-r84",
    "url": null,
-   "citations": null,
+   "citations": 1543,
    "preprint": false,
    "summary": "Probabilistic framework that jointly integrates read-pair, split-read, read-depth and prior signals to discover structural variants across samples.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "m2c-seq",
@@ -25339,13 +25339,13 @@
    "title": "The discovery of integrated gene networks for autism and related disorders",
    "doi": "10.1101/gr.178855.114",
    "url": null,
-   "citations": null,
+   "citations": 252,
    "preprint": false,
    "summary": "Computational method integrating protein-protein interactions with expression to find network modules enriched for de novo mutations.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "magnifind-seq",
@@ -25787,21 +25787,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2020,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
-   "doi": "10.1101/715722",
+   "first_author": "Shafin K",
+   "last_author": "Paten B",
+   "journal": "Nat Biotechnol",
+   "title": "Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes",
+   "doi": "10.1038/s41587-020-0503-6",
    "url": null,
-   "citations": null,
+   "citations": 542,
    "preprint": false,
    "summary": "Nanopore assembly polishing algorithm, part of a suite with HELEN, for polishing long-read genome assemblies.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "mars-seq",
@@ -26205,21 +26205,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2019,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
-   "doi": "10.1101/555797",
+   "first_author": "Esposito D",
+   "last_author": "Rubin AF",
+   "journal": "Genome Biol",
+   "title": "MaveDB: an open-source platform to distribute and interpret data from multiplexed assays of variant effect",
+   "doi": "10.1186/s13059-019-1845-6",
    "url": null,
-   "citations": null,
+   "citations": 271,
    "preprint": false,
    "summary": "Application that retrieves, visualises and contextualises multiplexed assay of variant effect maps, companion to the MaveDB repository.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "maxfuse",
@@ -26447,7 +26447,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "multimodal-integration; dimensionality-visualization"
   },
   {
    "id": "mchip-seq",
@@ -26707,13 +26707,13 @@
    "title": "MEM-based pangenome indexing for k-mer queries",
    "doi": "10.21203/rs.3.rs-5363291/v1",
    "url": null,
-   "citations": null,
+   "citations": 1,
    "preprint": false,
    "summary": "Pangenome index built on maximal exact matches that answers k-mer presence and conservation queries of arbitrary length.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "menrich-seq",
@@ -27125,13 +27125,13 @@
    "title": "Metassembler: merging and optimizing de novo genome assemblies",
    "doi": "10.1186/s13059-015-0764-4",
    "url": null,
-   "citations": null,
+   "citations": 115,
    "preprint": false,
    "summary": "Algorithm that merges multiple de novo genome assemblies of one genome into a single superior sequence.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "metastaar",
@@ -27397,7 +27397,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "modification-calling"
   },
   {
    "id": "mia-sig",
@@ -27701,7 +27701,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; 3d-genome-analysis"
   },
   {
    "id": "microexonator",
@@ -28075,13 +28075,13 @@
    "title": "Pangenome graph construction from genome alignments with Minigraph-Cactus",
    "doi": "10.1038/s41587-023-01793-w",
    "url": null,
-   "citations": null,
+   "citations": 360,
    "preprint": false,
    "summary": "Pangenome graph construction pipeline that builds graphs directly from whole-genome alignments of assemblies.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "mint-block",
@@ -28195,7 +28195,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; differential-analysis"
   },
   {
    "id": "mip-seq",
@@ -28265,7 +28265,7 @@
    "title": "MIPSTR: a method for multiplex genotyping of germline and somatic STR variation across many individuals",
    "doi": "10.1101/gr.182212.114",
    "url": null,
-   "citations": null,
+   "citations": 34,
    "preprint": false,
    "summary": "Targeted capture of STR loci with single-molecule molecular inversion probes, combined with a mapping strategy, for multiplex STR genotyping across many individuals.",
    "protocol": null,
@@ -28911,13 +28911,13 @@
    "title": "Modbamtools: Analysis of single-molecule epigenetic data for long-range profiling, heterogeneity, and clustering",
    "doi": "10.1101/2022.07.07.499188",
    "url": null,
-   "citations": null,
+   "citations": 25,
    "preprint": true,
    "summary": "Technology-agnostic tool to visualise, compare and analyse base-modification (methylation) data in BAM files from nanopore or PacBio.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "modification-calling"
   },
   {
    "id": "moddotplot",
@@ -28949,13 +28949,13 @@
    "title": "ModDotPlot - Rapid and interactive visualization of complex repeats",
    "doi": "10.1101/2024.04.15.589623",
    "url": null,
-   "citations": null,
+   "citations": 8,
    "preprint": true,
    "summary": "Alignment-free, interactive dot-plot viewer that approximates identity with k-mer containment for repeat arrays.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "modular-barcode-beads",
@@ -29519,13 +29519,13 @@
    "title": "Deciphering regulatory DNA sequences and noncoding genetic variants using neural network models of massively parallel reporter assays",
    "doi": "10.1371/journal.pone.0218073",
    "url": null,
-   "citations": null,
+   "citations": 90,
    "preprint": false,
    "summary": "Convolutional neural network that predicts and interprets regulatory activity of DNA sequences measured by massively parallel reporter assays.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "mpranalyze",
@@ -29709,13 +29709,13 @@
    "title": "mrsFAST-Ultra: a compact, SNP-aware mapper for high performance sequencing applications.",
    "doi": "10.1093/nar/gku370",
    "url": null,
-   "citations": null,
+   "citations": 58,
    "preprint": false,
    "summary": "Compact, SNP-aware short-read aligner that reports multiple mapping loci per read efficiently.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "mrvi",
@@ -29747,13 +29747,13 @@
    "title": "Deep generative modeling of sample-level heterogeneity in single-cell genomics.",
    "doi": "10.1038/s41592-025-02808-x",
    "url": null,
-   "citations": null,
+   "citations": 40,
    "preprint": false,
    "summary": "Deep generative model that stratifies samples into groups and evaluates cellular and molecular differences between groups in single-cell cohort data without predefined cell states.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "integration; differential-analysis"
   },
   {
    "id": "msc-rrbs",
@@ -29899,13 +29899,13 @@
    "title": "MTSplice predicts effects of genetic variants on tissue-specific splicing",
    "doi": "10.1186/s13059-021-02273-7",
    "url": null,
-   "citations": null,
+   "citations": 62,
    "preprint": false,
    "summary": "Model that predicts tissue-specific effects of genetic variants on cassette-exon splicing across 56 human tissues.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "muat",
@@ -30507,13 +30507,13 @@
    "title": "Impact and characterization of serial structural variations across humans and great apes",
    "doi": "10.1038/s41467-024-52027-9",
    "url": null,
-   "citations": null,
+   "citations": 12,
    "preprint": false,
    "summary": "Method that infers repeat-mediated series of structural variants in long-read genome assemblies.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "nanocorr",
@@ -30545,13 +30545,13 @@
    "title": "Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome",
    "doi": "10.1101/gr.191395.115",
    "url": null,
-   "citations": null,
+   "citations": 340,
    "preprint": false,
    "summary": "Hybrid error-correction algorithm for Oxford Nanopore reads using complementary short reads, enabling accurate de novo assembly.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; genome-assembly"
   },
   {
    "id": "nanocut-and-run",
@@ -31495,13 +31495,13 @@
    "title": "Accurate detection of complex structural variations using single-molecule sequencing",
    "doi": "10.1038/s41592-018-0001-7",
    "url": null,
-   "citations": null,
+   "citations": 1644,
    "preprint": false,
    "summary": "Long-read aligner that improves alignment sensitivity and precision in repeat-rich regions.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "niche-seq",
@@ -32185,7 +32185,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "online-inmf",
@@ -32223,7 +32223,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "multimodal-integration; integration"
   },
   {
    "id": "ont-libqc",
@@ -32597,13 +32597,13 @@
    "title": "ORMAN: optimal resolution of ambiguous RNA-Seq multimappings in the presence of novel isoforms",
    "doi": "10.1093/bioinformatics/btt591",
    "url": null,
-   "citations": null,
+   "citations": 14,
    "preprint": false,
    "summary": "Combinatorial optimisation method that assigns multimapping RNA-seq reads to the minimum set of transcript products per gene.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "ot-knn",
@@ -33129,13 +33129,13 @@
    "title": "Panagram reveals pangenome architectures underlying trait variation in plants and animals",
    "doi": "10.64898/2026.10.21.760756",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": true,
    "summary": "Alignment-free pangenome analysis framework that compares genomes by pan-k-mer profiles to link sequence variation to traits.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "panedta",
@@ -33167,13 +33167,13 @@
    "title": "Differences in activity and stability drive transposable element variation in tropical and temperate maize",
    "doi": "10.1101/gr.278131.123",
    "url": null,
-   "citations": null,
+   "citations": 50,
    "preprint": false,
    "summary": "Optimized open-source algorithm for de novo transposable element annotation across pan-genomes.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "panpipes",
@@ -33281,13 +33281,13 @@
    "title": "Paragraph: a graph-based structural variant genotyper for short-read sequence data",
    "doi": "10.1186/s13059-019-1909-7",
    "url": null,
-   "citations": null,
+   "citations": 174,
    "preprint": false,
    "summary": "Graph-based structural-variant genotyper for short-read data that models SVs with sequence graphs and SV annotations.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "paris",
@@ -33357,13 +33357,13 @@
    "title": "Parliament2: Accurate structural variant calling at scale",
    "doi": "10.1093/gigascience/giaa145",
    "url": null,
-   "citations": null,
+   "citations": 100,
    "preprint": false,
    "summary": "Consensus structural-variant framework that combines multiple SV callers on short-read data, optimised for parallel, low-cost runs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "parmigiano",
@@ -33395,13 +33395,13 @@
    "title": "An empirical Bayes framework for burden and dispersion association tests helps prioritize rare variants associated with Alzheimer\u2019s disease",
    "doi": "10.64898/2026.06.15.26354742",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": true,
    "summary": "Empirical Bayes framework that learns functional-annotation weights for existing rare-variant association tests to prioritise variants in coding and noncoding regions.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "pascient",
@@ -33629,7 +33629,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "pathost",
@@ -34041,13 +34041,13 @@
    "title": "Perseus: lineage-aware refinement of Kraken2 taxonomic classification for long read metagenomes",
    "doi": "10.1093/bioinformatics/btag687",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": false,
    "summary": "Lineage-aware confidence estimation that refines Kraken2 taxonomic calls on long-read metagenomic reads and contigs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "metagenomics-taxonomy"
   },
   {
    "id": "pertpy",
@@ -34582,44 +34582,6 @@
    "task": "perturbation-modelling"
   },
   {
-   "id": "pext",
-   "name": "pext",
-   "full_name": "proportion expressed across transcripts",
-   "aliases": "",
-   "category": "dry",
-   "domains": "transcriptome",
-   "readouts": "rna",
-   "resolution": "bulk",
-   "scope": "genome-wide",
-   "temporal": "",
-   "perturbation": "",
-   "platform": "",
-   "throughput": "",
-   "input_sample": "",
-   "validated_system": "",
-   "species": "human",
-   "targets": "",
-   "chemistry": "",
-   "variant_of": "",
-   "builds_on": "",
-   "children": "",
-   "year": 2020,
-   "date": null,
-   "first_author": "Cummings BB",
-   "last_author": "MacArthur DG",
-   "journal": "Nature",
-   "title": "Transcript expression-aware annotation improves rare variant interpretation",
-   "doi": "10.1038/s41586-020-2329-2",
-   "url": null,
-   "citations": null,
-   "preprint": false,
-   "summary": "Transcript-level annotation metric (proportion expressed across transcripts) that summarises isoform expression per variant to filter likely false pLoF calls.",
-   "protocol": null,
-   "code": null,
-   "how": "",
-   "task": ""
-  },
-  {
    "id": "phage-atac",
    "name": "PHAGE-ATAC",
    "full_name": "",
@@ -34687,13 +34649,13 @@
    "title": "Highly accurate assembly polishing with DeepPolisher",
    "doi": "10.1101/gr.280149.124",
    "url": null,
-   "citations": null,
+   "citations": 18,
    "preprint": false,
    "summary": "Phasing step that uses ultralong ONT reads to phase alignments and introduce heterozygous edits in falsely homozygous regions.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "pharos",
@@ -35409,13 +35371,13 @@
    "title": "Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models",
    "doi": "10.1038/s41467-026-74807-1",
    "url": null,
-   "citations": null,
+   "citations": 5,
    "preprint": false,
    "summary": "Attribution method that decodes which bases of a sequence model contribute to a readout at a given coordinate, applied to MNase-seq nucleosome models.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "pixel-seq",
@@ -35529,7 +35491,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "plastic",
@@ -36055,13 +36017,13 @@
    "title": "Poretools: a toolkit for analyzing nanopore sequence data",
    "doi": "10.1093/bioinformatics/btu555",
    "url": null,
-   "citations": null,
+   "citations": 398,
    "preprint": false,
    "summary": "Python toolkit (command-line and API) for quality control, format conversion and exploration of MinION nanopore FAST5 datasets.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "ppoint-seq",
@@ -36625,13 +36587,13 @@
    "title": "Predicting expression-altering promoter mutations with deep learning",
    "doi": "10.1126/science.ads7373",
    "url": null,
-   "citations": null,
+   "citations": 89,
    "preprint": false,
    "summary": "Deep neural network that identifies noncoding promoter variants predicted to dysregulate gene expression.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "proportion-expressed-across-transcripts",
@@ -36663,13 +36625,13 @@
    "title": "Transcript expression-aware annotation improves rare variant interpretation.",
    "doi": "10.1038/s41586-020-2329-2",
    "url": null,
-   "citations": null,
+   "citations": 196,
    "preprint": false,
    "summary": "Transcript-level annotation metric that quantifies isoform expression for variants, used to filter falsely annotated loss-of-function variants.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "prox-seq",
@@ -36929,13 +36891,13 @@
    "title": "Genetic background shapes AI-predicted variant effects",
    "doi": "10.64898/2026.04.04.715328",
    "url": null,
-   "citations": null,
+   "citations": 2,
    "preprint": true,
    "summary": "Framework that predicts clinical variant effects across human haplotype backgrounds using deep-learning models.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "pybedgraph",
@@ -37195,13 +37157,13 @@
    "title": "Quake: quality-aware detection and correction of sequencing errors",
    "doi": "10.1186/gb-2010-11-11-r116",
    "url": null,
-   "citations": null,
+   "citations": 444,
    "preprint": false,
    "summary": "Program that detects and corrects sequencing errors using quality values and nucleotide-specific miscall rates.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "quantilfy",
@@ -37575,13 +37537,13 @@
    "title": "RaGOO: fast and accurate reference-guided scaffolding of draft genomes",
    "doi": "10.1186/s13059-019-1829-6",
    "url": null,
-   "citations": null,
+   "citations": 660,
    "preprint": false,
    "summary": "Reference-guided tool that orders and orients draft-assembly contigs into pseudomolecules using Minimap2 alignments.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "ragtag",
@@ -37605,21 +37567,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2022,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
+   "first_author": "Alonge M",
+   "last_author": "Soyk S",
+   "journal": "Genome Biol",
+   "title": "Automated assembly scaffolding using RagTag elevates a new tomato system for high-throughput genome editing",
    "doi": "10.1186/s13059-022-02823-7",
    "url": null,
-   "citations": null,
+   "citations": 1060,
    "preprint": false,
    "summary": "Toolset that automates genome assembly scaffolding and patching.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "raise",
@@ -37695,7 +37657,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "ramda-seq",
@@ -38411,13 +38373,13 @@
    "title": "Genome-wide characterization of centromeric satellites from multiple mammalian genomes",
    "doi": "10.1101/gr.111278.110",
    "url": null,
-   "citations": null,
+   "citations": 87,
    "preprint": false,
    "summary": "Computational method that finds higher-order repeat structures in unassembled whole-genome shotgun reads to identify centromeric satellites.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "replisage",
@@ -38493,7 +38455,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks"
   },
   {
    "id": "residualbind",
@@ -38531,7 +38493,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "restriction-circle-sv-genotyping",
@@ -38721,7 +38683,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks"
   },
   {
    "id": "rga",
@@ -39057,13 +39019,13 @@
    "title": "The impact of rare variation on gene expression across tissues",
    "doi": "10.1038/nature24267",
    "url": null,
-   "citations": null,
+   "citations": 270,
    "preprint": false,
    "summary": "Bayesian model that uses expression data to predict regulatory effects of rare non-coding variants.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "rlm",
@@ -39323,13 +39285,13 @@
    "title": "Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression",
    "doi": "10.1016/j.ajhg.2017.09.009",
    "url": null,
-   "citations": null,
+   "citations": 135,
    "preprint": false,
    "summary": "Regression-based polygenic model that prioritises trait-relevant cell types and genes from GWAS summary statistics and expression data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "rp-dmm",
@@ -39399,13 +39361,13 @@
    "title": "Profiling variable-number tandem repeat variation across populations using repeat-pangenome graphs",
    "doi": "10.1038/s41467-021-24378-0",
    "url": null,
-   "citations": null,
+   "citations": 53,
    "preprint": false,
    "summary": "Repeat-pangenome graph data structure and software for estimating VNTR composition from short reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "rpmeta",
@@ -39519,7 +39481,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "rt-states",
@@ -39969,13 +39931,13 @@
    "title": "Samovar: Single-Sample Mosaic Single-Nucleotide Variant Calling with Linked Reads",
    "doi": "10.1016/j.isci.2019.05.037",
    "url": null,
-   "citations": null,
+   "citations": 10,
    "preprint": false,
    "summary": "Random-forest-scored mosaic SNV caller for linked-read whole-genome sequencing from a single sample.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "sampl-seq",
@@ -40051,7 +40013,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "samt-seq",
@@ -40121,13 +40083,13 @@
    "title": "Sapling: accelerating suffix array queries with learned data models",
    "doi": "10.1093/bioinformatics/btaa911",
    "url": null,
-   "citations": null,
+   "citations": 23,
    "preprint": false,
    "summary": "Sequence-alignment algorithm that augments the suffix array with a learned piecewise linear model to speed queries.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "saturation-editing",
@@ -40653,13 +40615,13 @@
    "title": "Accurate de novo and transmitted indel detection in exome-capture data using microassembly",
    "doi": "10.1038/nmeth.3069",
    "url": null,
-   "citations": null,
+   "citations": 185,
    "preprint": false,
    "summary": "Micro-assembly INDEL caller for exome-capture data that searches de Bruijn graphs across exons and handles repeats.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "scamp",
@@ -41457,7 +41419,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "sccool-seq",
@@ -41983,13 +41945,13 @@
    "title": "Mapping enhancer-gene regulatory interactions from single-cell data",
    "doi": "10.1038/s41588-026-02695-8",
    "url": null,
-   "citations": null,
+   "citations": 9,
    "preprint": false,
    "summary": "Classification models that predict enhancer-gene regulatory links from single-cell ATAC-seq or multiome RNA plus ATAC-seq data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks; multimodal-integration"
   },
   {
    "id": "sceems",
@@ -42021,13 +41983,13 @@
    "title": "Machine Learning-Based Prediction of Cell-type Resolved Brain eQTLs Enhances Discovery of Variants Explaining Alzheimer\u2019s Disease Heritability",
    "doi": "10.64898/2025.12.03.25341562",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": true,
    "summary": "Predictive models that identify cell-type-specific eQTLs from genomic features and use them as priors in fine-mapping and eMAGMA.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "scem-seq",
@@ -43465,13 +43427,13 @@
    "title": "Scikit-ribo Enables Accurate Estimation and Robust Modeling of Translation Dynamics at Codon Resolution",
    "doi": "10.1016/j.cels.2017.12.007",
    "url": null,
-   "citations": null,
+   "citations": 52,
    "preprint": false,
    "summary": "Open-source Ribo-seq package for A-site prediction and codon-level translation efficiency estimation.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "scimap-atac",
@@ -44003,7 +43965,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "scmd",
@@ -44041,7 +44003,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "spatial-analysis"
   },
   {
    "id": "scmeformer",
@@ -46543,13 +46505,13 @@
    "title": "Uncovering the Mechanistic Landscape of Regulatory DNA with Deep Learning",
    "doi": "10.1101/2025.10.07.681052",
    "url": null,
-   "citations": null,
+   "citations": 6,
    "preprint": true,
    "summary": "Deep-learning and attribution framework that maps how mutations preserve, disrupt or create transcription-factor binding sites in regulatory DNA.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function; regulatory-networks"
   },
   {
    "id": "sec-seq",
@@ -46885,13 +46847,13 @@
    "title": "Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment",
    "doi": "10.1016/j.cell.2018.05.060",
    "url": null,
-   "citations": null,
+   "citations": 1995,
    "preprint": false,
    "summary": "Preprocessing pipeline for single-cell RNA-seq data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "seqpatch",
@@ -46961,13 +46923,13 @@
    "title": "seqr: A web-based analysis and collaboration tool for rare disease genomics",
    "doi": "10.1002/humu.24366",
    "url": null,
-   "citations": null,
+   "citations": 84,
    "preprint": false,
    "summary": "Open-source web platform for family-based rare disease variant filtering, annotation and collaborative causal-variant identification.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "seqtag",
@@ -47417,13 +47379,13 @@
    "title": "Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes",
    "doi": "10.1038/s41587-020-0503-6",
    "url": null,
-   "citations": null,
+   "citations": 542,
    "preprint": false,
    "summary": "De novo long-read assembler for human genomes from nanopore reads, built to run in hours on a single node.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "sherlock",
@@ -47727,7 +47689,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "sift-seq",
@@ -48364,16 +48326,16 @@
    "first_author": null,
    "last_author": null,
    "journal": null,
-   "title": "Skyhawk: An Artificial Neural Network-based discriminator for reviewing clinically significant genomic variants",
-   "doi": "10.1101/311985",
+   "title": null,
+   "doi": "10.1504/IJCBDD.2020.113818",
    "url": null,
-   "citations": null,
+   "citations": 1,
    "preprint": false,
    "summary": "Artificial neural network that mimics expert review to reject false-positive genomic variant calls and flag the rest for manual review.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "slam-seq",
@@ -48487,7 +48449,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "slicevlp",
@@ -48829,7 +48791,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "slivar",
@@ -48867,7 +48829,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "sm-omics",
@@ -49317,13 +49279,13 @@
    "title": "Improved marker detection for rare population in single-cell transcriptomics through text mining-inspired scoring approach",
    "doi": "10.1101/2025.11.10.687759",
    "url": null,
-   "citations": null,
+   "citations": 0,
    "preprint": true,
    "summary": "R/Bioconductor package that finds cell-type markers in imbalanced scRNA-seq using TF-IDF with a Gaussian mixture model, and scores gene sets.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "clustering-annotation"
   },
   {
    "id": "smc-seq",
@@ -49589,7 +49551,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "spatial-analysis"
   },
   {
    "id": "smrandom-seq",
@@ -49735,13 +49697,13 @@
    "title": "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes",
    "doi": "10.1038/s41467-020-14998-3",
    "url": null,
-   "citations": null,
+   "citations": 3042,
    "preprint": false,
    "summary": "Visualisation of heterozygous k-mer pairs that estimates ploidy and genome structure from reads.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "smudgeplots",
@@ -49773,13 +49735,13 @@
    "title": "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes",
    "doi": "10.1038/s41467-020-14998-3",
    "url": null,
-   "citations": null,
+   "citations": 3042,
    "preprint": false,
    "summary": "Method that infers ploidy and genome structure from heterozygous k-mer pairs.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "sn-m3c-seq",
@@ -49969,7 +49931,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "snaphic-d",
@@ -50045,7 +50007,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "3d-genome-analysis"
   },
   {
    "id": "snaptotal-seq",
@@ -50305,13 +50267,13 @@
    "title": "Accurate detection of complex structural variations using single-molecule sequencing",
    "doi": "10.1038/s41592-018-0001-7",
    "url": null,
-   "citations": null,
+   "citations": 1644,
    "preprint": false,
    "summary": "Structural variant caller for long-read data that filters false events and works on low-coverage data.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "snisor-seq",
@@ -50729,7 +50691,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "somalier",
@@ -50767,7 +50729,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc; variants-clones"
   },
   {
    "id": "somatix",
@@ -52395,13 +52357,13 @@
    "title": "SpeedSeq: ultra-fast personal genome analysis and interpretation",
    "doi": "10.1038/nmeth.3505",
    "url": null,
-   "citations": null,
+   "citations": 580,
    "preprint": false,
    "summary": "Open-source genome analysis platform that runs alignment, duplicate removal, variant calling and annotation of a 50X human genome in under 24 hours.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; preprocessing-qc"
   },
   {
    "id": "spenhance",
@@ -52933,7 +52895,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "splatter",
@@ -52971,7 +52933,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "splisosm",
@@ -53009,7 +52971,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "spatial-analysis"
   },
   {
    "id": "split-seq",
@@ -53079,13 +53041,13 @@
    "title": "SplitMEM: a graphical algorithm for pan-genome analysis with suffix skips",
    "doi": "10.1093/bioinformatics/btu756",
    "url": null,
-   "citations": null,
+   "citations": 115,
    "preprint": false,
    "summary": "Algorithm that builds the compressed de Bruijn graph of a pan-genome directly from suffix-tree maximal exact matches, using suffix skips.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "splitread",
@@ -53117,13 +53079,13 @@
    "title": "Detection of structural variants and indels within exome data",
    "doi": "10.1038/nmeth.1810",
    "url": null,
-   "citations": null,
+   "citations": 103,
    "preprint": false,
    "summary": "Detects structural variants and indels from 1 bp to 1 Mbp in exome data using end-anchored read placements and clustering of unanchored ends.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "splitthreader",
@@ -53155,13 +53117,13 @@
    "title": "SplitThreader: Exploration and analysis of rearrangements in cancer genomes",
    "doi": "10.1101/087981",
    "url": null,
-   "citations": null,
+   "citations": 15,
    "preprint": true,
    "summary": "Web application that builds a sequence graph of genomic rearrangements in cancer genomes and categorises variants.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "spots",
@@ -53383,13 +53345,13 @@
    "title": "Pan-genomic matching statistics for targeted nanopore sequencing",
    "doi": "10.1016/j.isci.2021.102696",
    "url": null,
-   "citations": null,
+   "citations": 46,
    "preprint": false,
    "summary": "Streaming matching-statistics index for targeted nanopore sequencing that signals the sequencer to eject non-target molecules.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "squid",
@@ -53427,7 +53389,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "sequence-to-function"
   },
   {
    "id": "squidiff",
@@ -53459,13 +53421,13 @@
    "title": "Squidiff: predicting cellular development and responses to perturbations using a diffusion model",
    "doi": "10.1038/s41592-025-02877-y",
    "url": null,
-   "citations": null,
+   "citations": 45,
    "preprint": false,
    "summary": "Diffusion-model generative framework that predicts single-cell transcriptomic changes across cell types, perturbations and time.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "perturbation-modelling; trajectory-velocity"
   },
   {
    "id": "squidpy",
@@ -53801,13 +53763,13 @@
    "title": "StainedGlass: interactive visualization of massive tandem repeat structures with identity heatmaps",
    "doi": "10.1093/bioinformatics/btac018",
    "url": null,
-   "citations": null,
+   "citations": 174,
    "preprint": false,
    "summary": "Snakemake tool that visualises identity and orientation of multi-megabase tandem repeats in genome assemblies as interactive, publication-quality heatmaps.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "starfysh",
@@ -53831,21 +53793,21 @@
    "variant_of": "",
    "builds_on": "",
    "children": "",
-   "year": null,
+   "year": 2025,
    "date": null,
-   "first_author": null,
-   "last_author": null,
-   "journal": null,
-   "title": null,
+   "first_author": "He S",
+   "last_author": "Azizi E",
+   "journal": "Nat Biotechnol",
+   "title": "Starfysh integrates spatial transcriptomic and histologic data to reveal heterogeneous tumor-immune hubs",
    "doi": "10.1038/s41587-024-02173-8",
    "url": null,
-   "citations": null,
+   "citations": 82,
    "preprint": false,
    "summary": "Deep generative toolbox that combines archetypal analysis, cell-type markers and histology to characterise tissue cell states in spatial transcriptomics without a single-cell reference.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "spatial-analysis"
   },
   {
    "id": "starmap-plus",
@@ -53997,7 +53959,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "perturbation-modelling"
   },
   {
    "id": "stedge",
@@ -54561,7 +54523,7 @@
    "title": "Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM",
    "doi": "10.1038/s41467-019-09670-4",
    "url": null,
-   "citations": 286,
+   "citations": 287,
    "preprint": false,
    "summary": "Interactive toolkit that reconstructs and visualises single-cell differentiation trajectories from scRNA-seq and scATAC-seq data.",
    "protocol": null,
@@ -54643,7 +54605,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "stride",
@@ -54757,7 +54719,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "strp-seq",
@@ -55175,7 +55137,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "superstr",
@@ -55213,7 +55175,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "supertranscripts",
@@ -55251,7 +55213,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "surge",
@@ -55327,7 +55289,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "svanumt",
@@ -55365,7 +55327,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "svaretro",
@@ -55403,7 +55365,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "svbyeye",
@@ -55435,13 +55397,13 @@
    "title": "SVbyEye: a visual tool to characterize structural variation among whole-genome assemblies.",
    "doi": "10.1093/bioinformatics/btaf332",
    "url": null,
-   "citations": null,
+   "citations": 48,
    "preprint": false,
    "summary": "R package that visualises and annotates sequence-to-sequence alignments between genome assemblies to characterise structural variation.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "svclone",
@@ -55473,13 +55435,13 @@
    "title": "Inferring structural variant cancer cell fraction",
    "doi": "10.1038/s41467-020-14351-8",
    "url": null,
-   "citations": null,
+   "citations": 49,
    "preprint": false,
    "summary": "Computational method that infers the cancer cell fraction of structural variant breakpoints from whole-genome sequencing.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "svcollector",
@@ -55511,7 +55473,7 @@
    "title": "SVCollector: Optimized sample selection for validating and long-read resequencing of structural variants",
    "doi": "10.1101/342386",
    "url": null,
-   "citations": null,
+   "citations": 5,
    "preprint": true,
    "summary": "Open-source tool that selects samples to maximise structural-variant discovery or validation in long-read resequencing or PCR follow-up.",
    "protocol": null,
@@ -55853,13 +55815,13 @@
    "title": "Scalable automated reanalysis of genomic data in research and clinical rare disease cohorts",
    "doi": "10.1101/2025.05.19.25327921",
    "url": null,
-   "citations": null,
+   "citations": 12,
    "preprint": true,
    "summary": "Automated, iterative reanalysis tool that re-filters rare-disease genomic data to find new diagnoses.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "tamc-seq",
@@ -56347,13 +56309,13 @@
    "title": "Teaser: Individualized benchmarking and optimization of read mapping results for NGS data",
    "doi": "10.1186/s13059-015-0803-1",
    "url": null,
-   "citations": null,
+   "citations": 28,
    "preprint": false,
    "summary": "Tool that benchmarks an ensemble of read mappers and parameter settings on a user's own data to choose the best configuration.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure; preprocessing-qc"
   },
   {
    "id": "tecpcr",
@@ -56581,7 +56543,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "tidyseurat",
@@ -56619,7 +56581,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "tiled-c",
@@ -57151,7 +57113,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "tofu-maapo",
@@ -57601,13 +57563,13 @@
    "title": "Co-expression networks reveal the tissue-specific regulation of transcription and splicing",
    "doi": "10.1101/gr.216721.116",
    "url": null,
-   "citations": null,
+   "citations": 172,
    "preprint": false,
    "summary": "Framework that combines total gene expression and relative isoform levels into a single sparse co-expression network.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks"
   },
   {
    "id": "transposonultimate",
@@ -57759,7 +57721,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; benchmark-infrastructure"
   },
   {
    "id": "trfermikit",
@@ -57797,7 +57759,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "trgt",
@@ -57835,7 +57797,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; modification-calling"
   },
   {
    "id": "trgt-denovo",
@@ -57867,13 +57829,13 @@
    "title": "TRGT-denovo: accurate detection of  de novo  tandem repeat mutations",
    "doi": "10.1101/2024.07.16.600745",
    "url": null,
-   "citations": null,
+   "citations": 6,
    "preprint": true,
    "summary": "Calls de novo tandem repeat mutations (expansions, contractions, compositional changes) in family trios from PacBio HiFi reads by interrogating read evidence.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "tri-c",
@@ -58329,7 +58291,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "two-sigma-g",
@@ -58367,7 +58329,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "txci-atac-seq",
@@ -58551,13 +58513,13 @@
    "title": "Umap and Bismap: quantifying genome and methylome mappability",
    "doi": "10.1093/nar/gky677",
    "url": null,
-   "citations": null,
+   "citations": 52,
    "preprint": false,
    "summary": "Software that identifies uniquely mappable regions of a genome, with a Bismap extension for the bisulfite-converted genome.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "umbs-seq",
@@ -58741,13 +58703,13 @@
    "title": "Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED",
    "doi": "10.1038/s41587-020-0731-9",
    "url": null,
-   "citations": null,
+   "citations": 255,
    "preprint": false,
    "summary": "Open-source mapper that matches streaming raw nanopore signal to a reference for real-time targeted sequencing.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "preprocessing-qc"
   },
   {
    "id": "uncalled4",
@@ -58779,13 +58741,13 @@
    "title": "Uncalled4 improves nanopore DNA and RNA modification detection via fast and accurate signal alignment",
    "doi": "10.1038/s41592-025-02631-4",
    "url": null,
-   "citations": null,
+   "citations": 62,
    "preprint": false,
    "summary": "Toolkit for nanopore signal alignment and modification detection, with a banded signal-alignment algorithm and k-mer pore-model training.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "modification-calling"
   },
   {
    "id": "uncurl",
@@ -59007,13 +58969,13 @@
    "title": "Quantifying unobserved protein-coding variants in human populations provides a roadmap for large-scale sequencing projects",
    "doi": "10.1038/ncomms13293",
    "url": null,
-   "citations": null,
+   "citations": 41,
    "preprint": false,
    "summary": "Algorithm that estimates the frequency distribution of protein-coding variants, including unseen rare variants, from exome cohorts.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "upm",
@@ -59235,13 +59197,13 @@
    "title": "VAMPIRE: Analyzing variation and motif pattern in tandem repeats",
    "doi": "10.1101/2025.06.15.659631",
    "url": null,
-   "citations": null,
+   "citations": 1,
    "preprint": true,
    "summary": "k-mer-based tool for reference-free discovery, annotation and quantification of tandem repeats in long-read assemblies.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "genome-assembly"
   },
   {
    "id": "variant-effects",
@@ -59273,7 +59235,7 @@
    "title": "Rewriting regulatory DNA to dissect and reprogram gene expression",
    "doi": "10.1016/j.cell.2025.03.034",
    "url": null,
-   "citations": null,
+   "citations": 43,
    "preprint": false,
    "summary": "Flow-sorting CRISPR targeting screen that introduces designed edits to endogenous regulatory DNA and measures their effects on gene expression.",
    "protocol": null,
@@ -59393,7 +59355,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "vcfexpress",
@@ -59431,7 +59393,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "vdip-c",
@@ -59849,7 +59811,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "visa",
@@ -60115,7 +60077,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "voomqwb",
@@ -60153,7 +60115,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "wages",
@@ -60223,13 +60185,13 @@
    "title": "Transcriptomic signatures across human tissues identify functional rare genetic variation",
    "doi": "10.1126/science.aaz5900",
    "url": null,
-   "citations": null,
+   "citations": 158,
    "preprint": false,
    "summary": "Probabilistic model integrating multitissue gene expression, allele-specific expression and splicing to predict functional rare variants.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "differential-analysis"
   },
   {
    "id": "watershed-dl",
@@ -60299,13 +60261,13 @@
    "title": "Integration of transcriptomics and long-read genomics prioritizes structural variants in rare disease",
    "doi": "10.1101/gr.279323.124",
    "url": null,
-   "citations": null,
+   "citations": 14,
    "preprint": false,
    "summary": "Probabilistic model that integrates expression data with SV annotations to prioritise functional rare structural variants from long-read genomes.",
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones; multimodal-integration"
   },
   {
    "id": "webprinses",
@@ -60571,7 +60533,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "spatial-analysis"
   },
   {
    "id": "xchrom",
@@ -60685,7 +60647,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "variants-clones"
   },
   {
    "id": "xpbrew",
@@ -60799,7 +60761,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "benchmark-infrastructure"
   },
   {
    "id": "xr-seq",
@@ -61103,7 +61065,7 @@
    "protocol": null,
    "code": null,
    "how": "",
-   "task": ""
+   "task": "regulatory-networks; variants-clones"
   }
  ]
 }
