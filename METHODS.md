@@ -1,6 +1,6 @@
 # Seq-Browser masterlist
 
-Sequencing-based assays, one row per method. Updated 2026-11-12. 826 wet-lab methods, 1117 computational (under construction).
+Sequencing-based assays, one row per method. Updated 2026-11-12. 827 wet-lab methods, 1117 computational (under construction).
 
 **For LLMs / tools:** this file is the complete database. Columns use a fixed vocabulary (see `taxonomy.yaml`). `Variant of` gives the parent method's id (lowercase-hyphenated name). Machine-readable copies: `docs/methods.json`, `docs/methods.csv`. Raw URL: https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md
 
@@ -582,6 +582,7 @@ Sequencing-based assays, one row per method. Updated 2026-11-12. 826 wet-lab met
 | **scFTD-seq** |  | rna | single-cell |  | genome-wide | microfluidic-chip; reverse-transcription | builds on microwell-seq | Dura B 2019, Nucleic Acids Res, [doi:10.1093/nar/gky1173](https://doi.org/10.1093/nar/gky1173) | 274 | Microchip platform using freeze-thaw cell lysis for portable, highly distributed single-cell 3' mRNA profiling. |
 | **scGESTALT** |  | lineage; rna | single-cell | molecular-recording | targeted | reverse-transcription; amplicon-pcr; droplet-microfluidics | builds on single-cell-rna-seq | Raj B 2018, Nat Biotechnol, [doi:10.1038/nbt.4103](https://doi.org/10.1038/nbt.4103) | 642 | Inducible CRISPR-Cas9 barcode lineage recording combined with single-cell RNA-seq to link lineage trees to cell types. |
 | **scGET-seq** (Single-cell genome and epigenome by transposases sequencing) |  | chromatin-accessibility; histone-modification; genome-sequence | single-cell |  | genome-wide | tn5; droplet-microfluidics | variant of scatac-seq | Tedesco M 2022, Nat Biotechnol, [doi:10.1038/s41587-021-01031-1](https://doi.org/10.1038/s41587-021-01031-1) | 127 | Single-cell hybrid transposase (Tn5 fused to a H3K9me3-binding chromodomain) that profiles open and closed chromatin plus the genomic sequence in one assay. |
+| **scHiCAR** (single-cell Hi-C with assay for transposase-accessible chromatin and RNA sequencing) |  | rna; chromatin-accessibility; 3d-genome | single-cell |  | genome-wide | tn5; proximity-ligation; split-pool-barcoding; combinatorial-indexing; reverse-transcription | builds on hicar | Wei X 2026, Nat Biotechnol, [doi:10.1038/s41587-026-03013-7](https://doi.org/10.1038/s41587-026-03013-7) |  | Plate-based combinatorial barcoding method that profiles mRNA, open chromatin and chromosome conformation from the same single cells, enriching long-range interactions anchored at candidate cis-regulatory elements. |
 | **sci-ATAC-seq** (Single-cell combinatorial indexing ATAC-seq) |  | chromatin-accessibility | single-cell |  | genome-wide | tn5; combinatorial-indexing | variant of atac-seq | Cusanovich DA 2015, Science, [doi:10.1126/science.aab1601](https://doi.org/10.1126/science.aab1601) | 1337 | First combinatorial-indexing single-cell method: barcoded Tn5 plus PCR indexing across plates. |
 | **sci-ATAC-seq3** (Single-cell combinatorial indexing ATAC-seq 3) |  | chromatin-accessibility | single-cell |  | genome-wide | tn5; split-pool-barcoding; combinatorial-indexing | variant of sci-atac-seq | Domcke S 2020, Science, [doi:10.1126/science.aba7612](https://doi.org/10.1126/science.aba7612) | 458 | Three-level combinatorial indexing in which barcodes are added by split-pool ligation, so standard Tn5 can be used instead of indexed Tn5. |
 | **sci-CAR** (Single-cell combinatorial indexing chromatin accessibility and mRNA) |  | chromatin-accessibility; rna | single-cell |  | genome-wide | tn5; reverse-transcription; combinatorial-indexing | builds on sci-rna-seq; sci-atac-seq | Cao J 2018, Science, [doi:10.1126/science.aau0730](https://doi.org/10.1126/science.aau0730) | 985 | Combinatorial indexing for joint chromatin accessibility and transcriptome from the same cells. |
@@ -1154,6 +1155,7 @@ Sequencing-based assays, one row per method. Updated 2026-11-12. 826 wet-lab met
 - microwell-seq -> scftd-seq (builds on)
 - single-cell-rna-seq -> scgestalt (builds on)
 - scatac-seq -> scget-seq (variant)
+- hicar -> schicar (builds on)
 - atac-seq -> sci-atac-seq (variant)
 - sci-atac-seq -> sci-atac-seq3 (variant)
 - sci-rna-seq -> sci-car (builds on)

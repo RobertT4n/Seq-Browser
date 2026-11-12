@@ -1,0 +1,33 @@
+name: scHiCAR
+full_name: single-cell Hi-C with assay for transposase-accessible chromatin and RNA sequencing
+category: wet
+summary: Plate-based combinatorial barcoding method that profiles mRNA, open chromatin and chromosome conformation from the same single cells, enriching long-range interactions anchored at candidate cis-regulatory elements.
+readouts:
+- rna
+- chromatin-accessibility
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- proximity-ligation
+- split-pool-barcoding
+- combinatorial-indexing
+- reverse-transcription
+throughput: gt-1e6
+species:
+- mouse
+builds_on:
+- hicar
+reference:
+  doi: 10.1038/s41587-026-03013-7
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Wei X
+  last_author: Diao Y
+  pmid: '41714417'
+  title: Trimodal single-cell profiling of transcriptome, epigenome and 3D genome in complex tissues with scHiCAR
+links: {}
+added: '2026-11-12'
+evidence: scHiCAR (single-cell Hi-C with assay for transposase-accessible chromatin and RNA sequencing), a plate-based combinatorial barcoding method that simultaneously profiles mRNA, open chromatin and chromosome conformation capture from the same cells.
