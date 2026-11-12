@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261112-0136">
+<link rel="stylesheet" href="style.css?v=20261112-0440">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
@@ -102,7 +102,8 @@ function render() {
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
   rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
   document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
-  document.getElementById("count").textContent = `${rows.length} of ${pool.length} methods` + (hiddenDry ? ` · ${hiddenDry} computational tool${hiddenDry > 1 ? "s" : ""} also match` : "");
+  document.getElementById("count").innerHTML = `${rows.length} of ${pool.length} methods` + (hiddenDry ? ` · <button type="button" class="showdry" id="showdry">${hiddenDry} computational tool${hiddenDry > 1 ? "s" : ""} also match: show</button>` : "");
+  { const b = document.getElementById("showdry"); if (b) b.onclick = () => { document.getElementById("kind").value = "all"; render(); }; }
   document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `

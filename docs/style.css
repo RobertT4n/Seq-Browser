@@ -160,3 +160,4 @@ details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--acc
 
 /* paper title above the author line in the detail panel */
 .ptitle { margin:10px 0 2px; font-size:14px; font-style:italic; line-height:1.35; color:var(--ink); text-wrap:pretty; }
+.showdry { font:inherit; font-size:inherit; color:var(--accent); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; font-weight:600; }
