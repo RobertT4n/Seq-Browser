@@ -154,3 +154,6 @@ details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--acc
 .pre.exp { background:var(--accent-soft); color:var(--accent); border-color:transparent; opacity:.8; }
 @media (prefers-color-scheme: dark) { .pre.comp { background:#1b2a47; color:#8fb4f5; border-color:#34507f; } .beta { background:#1f3050; color:#9dbcf5; } }
 .drytog select { font:inherit; font-size:13px; padding:3px 22px 3px 8px; border:1px solid var(--rule); border-radius:8px; background:var(--panel); color:var(--ink); }
+
+/* the hidden attribute must win over display rules (beta bubble, Task filter) */
+[hidden] { display:none !important; }
