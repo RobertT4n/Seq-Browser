@@ -149,7 +149,7 @@ details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--acc
 .drytog.hint { color:var(--accent); font-weight:600; }
 
 /* experimental vs computational tags, and the beta bubble */
-.beta { display:inline-block; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; vertical-align:middle; margin-left:4px; padding:1px 6px; border-radius:999px; background:#2f6fdc; color:#fff; }
+.beta { display:inline-block; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; vertical-align:middle; margin-left:4px; padding:1px 6px; border-radius:999px; background:#e3edfc; color:#2a5cb8; }
 .pre.comp { background:#e3edfc; color:#1f4fae; border-color:#9dbcf0; }
 .pre.exp { background:var(--accent-soft); color:var(--accent); border-color:transparent; opacity:.8; }
-@media (prefers-color-scheme: dark) { .pre.comp { background:#1b2a47; color:#8fb4f5; border-color:#34507f; } .beta { background:#4a86ee; } }
+@media (prefers-color-scheme: dark) { .pre.comp { background:#1b2a47; color:#8fb4f5; border-color:#34507f; } .beta { background:#1f3050; color:#9dbcf5; } }
