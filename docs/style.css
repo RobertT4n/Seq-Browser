@@ -141,5 +141,5 @@ details.how { margin:10px 0; padding:8px 12px; border:1px solid var(--rule); bor
 
 /* live facet counts: options shrink to what is still reachable; zero-result options are dimmed and unclickable */
 .dpanel label .n { transition:color .15s, background-color .15s; }
-.dpanel label .n.ghost { color:var(--accent); font-weight:600; }
+details.dd .n.ghost:not(:empty) { background:var(--accent-soft); color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent); font-weight:600; }
 .dpanel label.zero { opacity:.38; cursor:default; } .dpanel label.zero:hover { background:transparent; }
