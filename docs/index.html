@@ -4,23 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seq-Browser</title>
-<meta name="description" content="A curated, continuously updated browser of sequencing-based assays.">
+<meta name="description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css?v=20261109-polish10">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated browser of sequencing-based assays."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
 <header>
   <a class="logo" href="index.html" aria-label="Seq-Browser home"><picture><source media="(prefers-color-scheme: dark)" srcset="brand/seqbrowser-icon-dark.svg"><img src="brand/seqbrowser-icon.svg" alt="Seq-Browser logo"></picture></a>
-  <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing-based assays</p></div>
+  <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing assays and analysis tools <span class="beta" title="Computational tools are new and less complete than the sequencing assays">beta</span></p></div>
   <nav><a href="index.html" aria-current="page">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <main>
   <div class="bar">
     <input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search">
     <span class="count" id="count"></span>
-    <label class="drytog"><input type="checkbox" id="dry"> Include computational tools</label>
+    <label class="drytog"><input type="checkbox" id="dry"> Include computational tools <span class="beta">beta</span></label>
     <a class="btn" href="methods.csv" download>Download CSV</a>
   </div>
   <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
@@ -102,7 +102,7 @@ function render() {
   document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
-    <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre">computational</span>' : ""}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
+    <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("dry").checked ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
     <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
@@ -125,7 +125,7 @@ function drawer() {
   el.classList.toggle("on", !!m); if (!m) { el.innerHTML = ""; return; }
   const grp = FACETS.map(([k, lab]) => split(m[k]).length ? `<div class="dg"><b>${lab}</b>${split(m[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "").join("");
   const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("");
-  el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre">computational</span>' : ""}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
+  el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("dry").checked ? '<span class="pre exp">experimental</span>' : "")}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
     <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
     <p class="meta">${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>
     <p class="links">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">Paper</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">Paper</a>` : ""}${m.protocol ? ` · <a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : ""}${m.code ? ` · <a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : ""} · <a href="family.html">Family graph</a></p>
