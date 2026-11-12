@@ -50,7 +50,7 @@ const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
 
-fetch("methods.json").then(r => r.json()).then(j => {
+fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
   data = j.methods;   // wet and dry; the "Include computational tools" switch decides what is shown
   data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); });
   FACETS.forEach(([k]) => on[k] = new Set());
@@ -60,6 +60,7 @@ fetch("methods.json").then(r => r.json()).then(j => {
       const vals = orderVals([...new Set(data.flatMap(m => split(m[k])))].sort());
       return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label${PARENT[v] ? ' class="sub"' : ""}><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(DISP[v] || v)}<span class="n">${data.filter(m => split(m[k]).includes(v)).length}</span></label>`).join("");
     }).join("");
+    if (!body) return "";   // a filter with no values yet (e.g. stale cached data) is not shown
     return `<div class="fg"><span class="cap">${d.label}</span><details class="dd"><summary><span class="sv" id="n-${i}">Any</span></summary><div class="dpanel">${body}</div></details></div>`;
   }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
   document.querySelectorAll("#facets input").forEach(b => b.onchange = () => { const s = on[b.dataset.k]; b.checked ? s.add(b.dataset.v) : s.delete(b.dataset.v); render(); });
