@@ -1,0 +1,18 @@
+name: scVI
+category: dry
+summary: Variational autoencoder with a zero-inflated negative binomial likelihood for normalisation, batch correction, clustering
+  and differential expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0229-2
+  year: 2018
+  journal: Nat Methods
+  first_author: Lopez R
+  last_author: Yosef N
+  title: Deep generative modeling for single-cell transcriptomics
+links: {}
+added: '2026-11-12'

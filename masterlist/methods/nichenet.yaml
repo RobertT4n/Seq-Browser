@@ -1,0 +1,18 @@
+name: NicheNet
+category: dry
+summary: Predicts which ligands from sender cells drive expression changes in receiver cells by linking ligands to target
+  genes through prior-knowledge networks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0667-5
+  year: 2019
+  journal: Nat Methods
+  first_author: Browaeys R
+  last_author: Saeys Y
+  title: 'NicheNet: modeling intercellular communication by linking ligands to target genes'
+links: {}
+added: '2026-11-12'

@@ -1,0 +1,22 @@
+name: OG-seq
+full_name: 8-oxoG sequencing
+category: wet
+summary: Selective chemical biotinylation of 8-oxoG and pull-down maps oxidative lesions across the genome at low resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- mouse
+reference:
+  doi: 10.1021/jacs.6b12604
+  year: 2017
+  journal: J Am Chem Soc
+  first_author: Ding Y
+  last_author: Burrows CJ
+  title: Sequencing the mouse genome for the oxidatively modified base 8-oxo-7,8-dihydroguanine by OG-Seq
+links: {}
+added: '2026-11-12'

@@ -1,0 +1,22 @@
+name: click-code-seq
+category: wet
+summary: Glycosylase excision and click-coded nucleotide gap filling maps 8-oxoG at single-nucleotide resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+- adapter-ligation
+species:
+- microbe
+reference:
+  doi: 10.1021/jacs.8b03715
+  year: 2018
+  journal: J Am Chem Soc
+  first_author: Wu J
+  last_author: Sturla SJ
+  title: Nucleotide-resolution genome-wide mapping of oxidative DNA damage by click-code-Seq
+links: {}
+added: '2026-11-12'

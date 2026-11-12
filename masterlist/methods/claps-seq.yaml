@@ -1,0 +1,26 @@
+name: CLAPS-seq
+full_name: Chemical Labeling And Polymerase Stalling sequencing
+category: wet
+summary: Biotin labelling of 8-oxoG followed by streptavidin capture and polymerase stalling maps oxidative lesions at single-nucleotide
+  resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkab1022
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: An J
+  last_author: Hu J
+  title: Genome-wide analysis of 8-oxo-7,8-dihydro-2'-deoxyguanosine at single-nucleotide resolution unveils reduced occurrence
+    of oxidative damage at G-quadruplex sites
+links: {}
+added: '2026-11-12'
