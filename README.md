@@ -10,11 +10,11 @@ A browser for sequencing assays: a curated, continuously updated catalogue of se
 
 ## Rationale
 
-Frederick Sanger's invention of DNA sequencing in the 1970s allowed scientists to "read" the genome. This method called Sanger sequencing utilized the concept of dideoxy chain termination to sequence DNA and lead to the sequencing of the entire human genome in 2003, costing $3B USD.
+Frederick Sanger's invention of DNA sequencing in the 1970s allowed scientists to "read" the genome. This method, Sanger sequencing, utilized the concept of dideoxy chain termination to sequence DNA, leading to the sequencing of the entire human genome in 2003, costing $3B USD.
 
 In the early 2000s, next-generation sequencing (NGS) methods were developed that quickly expanded the capabilities of genomics research, allowing scientists to sequence the genome of an organism at an unprecedented level of detail. Such technologies have led to the success of large-scale sequencing projects such as The Cancer Genome Atlas (TCGA) and Encyclopedia of DNA Elements (ENCODE), which greatly accelerate the rate of basic and translational biomedical research.
 
-In recent years, there has been a remarkable explosion of different sequencing assays that can profile not just DNA, but also RNA, protein, and/or epigenetic modifications. In addition to utilising NGS platforms, some methods may also utilise microfluidic systems (to sort by single cells), or microscopy-based platforms (to preserve spatial information). Such emerging methods are being released to the scientific community at a blinding rate, and new ones are often only named deep inside a paper's Results.
+In recent years, there has been a remarkable explosion of different sequencing assays that can profile not just DNA, but also RNA, protein, and/or epigenetic modifications. In addition to utilising NGS platforms, some methods may also utilise microfluidic systems (to sort by single cells), or microscopy-based platforms (to preserve spatial information). Such emerging methods are being released to the scientific community at a blinding rate.
 
 Seq-Browser catalogues them and keeps the list up to date automatically.
 
