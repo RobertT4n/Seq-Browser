@@ -1,0 +1,21 @@
+name: Decipher
+category: dry
+summary: Deep generative model that jointly represents and visualises gene expression and cell state across normal and perturbed
+  single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s13059-025-03682-8
+  year: 2025
+  journal: Genome Biol
+  first_author: Nazaret A
+  last_author: Azizi E
+  pmid: '40702544'
+  pmcid: PMC12285193
+  title: Joint representation and visualization of derailed cell states with Decipher
+added: '2026-11-12'
+evidence: Here, we present Decipher, a deep generative model that characterizes derailed cell-state trajectories.

@@ -1,0 +1,25 @@
+name: MPRA-DragoNN
+full_name: Massively parallel reporter assay (MPRA) convolutional neural network framework (name as given; expansion of DragoNN
+  not in abstract)
+category: dry
+summary: Convolutional neural network that predicts and interprets regulatory activity of DNA sequences measured by massively
+  parallel reporter assays.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+links: {}
+reference:
+  doi: 10.1371/journal.pone.0218073
+  year: 2019
+  journal: PLoS One
+  first_author: Movva R
+  last_author: Kundaje A
+  pmid: '31206543'
+  pmcid: PMC6576758
+  title: Deciphering regulatory DNA sequences and noncoding genetic variants using neural network models of massively parallel
+    reporter assays
+added: '2026-11-12'
+evidence: We present MPRA-DragoNN, a convolutional neural network (CNN)-based framework to predict and interpret the regulatory
+  activity of DNA sequences as measured by MPRAs.

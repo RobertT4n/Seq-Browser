@@ -1,0 +1,20 @@
+name: Biscuit
+category: dry
+summary: Bayesian clustering and normalisation method for single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1016/j.cell.2018.05.060
+  year: 2018
+  journal: Cell
+  first_author: Azizi E
+  last_author: Pe'er D
+  pmid: '29961579'
+  pmcid: PMC6348010
+  title: Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment
+added: '2026-11-12'
+evidence: We developed a preprocessing pipeline, SEQC, and a Bayesian clustering and normalization method, Biscuit

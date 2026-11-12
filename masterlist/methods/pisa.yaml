@@ -1,0 +1,23 @@
+name: PISA
+full_name: Pairwise influence by sequence attribution
+category: dry
+summary: Attribution method that decodes which bases of a sequence model contribute to a readout at a given coordinate, applied
+  to MNase-seq nucleosome models.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-74807-1
+  year: 2026
+  journal: Nat Commun
+  first_author: McAnany CE
+  last_author: Zeitlinger J
+  pmid: '42401553'
+  pmcid: PMC13469612
+  title: Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce pairwise influence by sequence attribution (PISA), which uses attribution to combinatorially
+  decode which bases contributed to the readout at a specific genomic coordinate.

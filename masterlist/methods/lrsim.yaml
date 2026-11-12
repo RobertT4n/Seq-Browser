@@ -1,0 +1,23 @@
+name: LRSim
+category: dry
+summary: Simulator of 10x-style linked-read sequencing data that emulates library preparation, barcodes and partitioning.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2017.10.002
+  year: 2017
+  journal: Comput Struct Biotechnol J
+  first_author: Luo R
+  last_author: Schatz MC
+  pmid: '29213995'
+  pmcid: PMC5711661
+  title: 'LRSim: A Linked-Reads Simulator Generating Insights for Better Genome Partitioning'
+  preprint_doi: 10.1101/103549
+links: {}
+added: '2026-11-12'
+evidence: Based on this, we introduce LRSim that simulates linked reads by emulating the library preparation and sequencing
+  process with fine control of 1) the number of simulated variants; 2) the linked-read characteristics; and 3) the Illumina
+  reads profile.

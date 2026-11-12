@@ -1,0 +1,23 @@
+name: AnVILWorkflow
+full_name: Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL) workflow R package
+category: dry
+summary: R package that submits and retrieves bioinformatics workflows hosted on the AnVIL cloud platform.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.12688/f1000research.155449.1
+  year: 2024
+  journal: F1000Res
+  first_author: Oh S
+  last_author: Waldron L
+  pmid: '39669685'
+  pmcid: PMC11635187
+  title: 'AnVILWorkflow: A runnable workflow package for Cloud-implemented bioinformatics analysis pipelines'
+added: '2026-11-12'
+evidence: We present the AnVILWorkflow R package, which enables the convenient execution of bioinformatics workflows hosted
+  on AnVIL directly from an R environment.

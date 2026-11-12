@@ -1,0 +1,21 @@
+name: dipSeq
+category: dry
+summary: Algorithm that discovers large genomic inversions (>500 kbp) from pooled clone sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s12864-016-3444-1
+  year: 2017
+  journal: BMC Genomics
+  first_author: Eslami Rasekh M
+  last_author: Alkan C
+  pmid: '28073353'
+  pmcid: PMC5223412
+  title: Discovery of large genomic inversions using long range information
+  preprint_doi: 10.1101/015156
+added: '2026-11-12'
+evidence: we developed a novel algorithm, dipSeq, to discover large inversions (>500 Kbp)

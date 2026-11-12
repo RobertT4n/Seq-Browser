@@ -1,0 +1,23 @@
+name: HGAP
+full_name: Hierarchical Genome-Assembly Process
+category: dry
+summary: Hierarchical assembly workflow that builds microbial genomes from SMRT long reads using preassembled reads and consensus.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/nmeth.2474
+  year: 2013
+  journal: Nat Methods
+  first_author: Chin CS
+  last_author: Korlach J
+  pmid: '23644548'
+  title: Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data
+links: {}
+added: '2026-11-12'
+evidence: We present a hierarchical genome-assembly process (HGAP) for high-quality de novo microbial genome assemblies

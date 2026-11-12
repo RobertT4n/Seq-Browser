@@ -1,0 +1,22 @@
+name: Sniffles
+category: dry
+summary: Structural variant caller for long-read data that filters false events and works on low-coverage data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41592-018-0001-7
+  year: 2018
+  journal: Nat Methods
+  first_author: Sedlazeck FJ
+  last_author: Schatz MC
+  pmid: '29713083'
+  pmcid: PMC5990442
+  title: Accurate detection of complex structural variations using single-molecule sequencing
+links: {}
+added: '2026-11-12'
+evidence: Addressing this need, we introduce open-source methods

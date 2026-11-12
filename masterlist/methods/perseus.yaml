@@ -1,0 +1,24 @@
+name: Perseus
+category: dry
+summary: Lineage-aware confidence estimation that refines Kraken2 taxonomic calls on long-read metagenomic reads and contigs.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btag687
+  year: 2026
+  journal: Bioinformatics
+  first_author: Nguyen MH
+  last_author: Schatz MC
+  pmid: '42747298'
+  pmcid: PMC13633669
+  title: 'Perseus: lineage-aware refinement of Kraken2 taxonomic classification for long read metagenomes'
+  preprint_doi: 10.64898/2026.03.06.710148
+links: {}
+added: '2026-11-12'
+evidence: We present Perseus , a lineage-aware confidence estimation framework for taxonomic classification that models the
+  spatial distribution and hierarchical consistency of k-mer evidence along sequences

@@ -1,0 +1,21 @@
+name: DecompTCR
+category: dry
+summary: Computational tool that resolves temporal dynamics of T cell clones from longitudinal TCR and scRNA/TCR-seq data.
+readouts:
+- immune-repertoire
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41590-026-02631-2
+  year: 2026
+  journal: Nat Immunol
+  first_author: Shi L
+  last_author: Reshef R
+  pmid: '42754741'
+  title: Spatiotemporal single-cell profiling reveals T cell clonal dynamics and phenotypic plasticity in human graft-versus-host
+    disease
+links: {}
+added: '2026-11-12'
+evidence: We developed DecompTCR to resolve temporal dynamics

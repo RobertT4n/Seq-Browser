@@ -1,0 +1,22 @@
+name: drFAST
+category: dry
+summary: Read mapper for di-base encoded (SOLiD colour-space) reads that returns all map locations within a distance threshold,
+  aimed at structural-variant delineation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr303
+  year: 2011
+  journal: Bioinformatics
+  first_author: Hormozdiari F
+  last_author: Alkan C
+  pmid: '21586516'
+  pmcid: PMC3129524
+  title: Sensitive and fast mapping of di-base encoded reads
+links: {}
+added: '2026-11-12'
+evidence: We present drFAST, a read mapper designed for di-base encoded 'color-space' sequences generated with the AB SOLiD
+  platform.

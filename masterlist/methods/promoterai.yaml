@@ -1,0 +1,22 @@
+name: PromoterAI
+category: dry
+summary: Deep neural network that identifies noncoding promoter variants predicted to dysregulate gene expression.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1126/science.ads7373
+  year: 2025
+  journal: Science
+  first_author: Jaganathan K
+  last_author: Farh KK
+  pmid: '40440429'
+  title: Predicting expression-altering promoter mutations with deep learning
+links: {}
+added: '2026-11-12'
+evidence: In this work, we describe PromoterAI, a deep neural network that accurately identifies noncoding promoter variants
+  that dysregulate gene expression.

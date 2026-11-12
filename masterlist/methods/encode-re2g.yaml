@@ -1,0 +1,24 @@
+name: ENCODE-rE2G
+category: dry
+summary: Supervised predictive model of enhancer-gene regulatory links, trained on ENCODE chromatin, 3D-contact and CRISPR
+  perturbation data, used to build a genome-wide enhancer-gene map.
+readouts:
+- chromatin-accessibility
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s41586-026-10781-4
+  year: 2026
+  journal: Nature
+  first_author: Gschwind AR
+  last_author: Engreitz JM
+  pmid: '42457959'
+  pmcid: PMC13471189
+  title: An encyclopedia of human enhancer-gene regulatory interactions
+added: '2026-11-12'
+evidence: Using this framework, we develop ENCODE-rE2G, a predictive model achieving state-of-the-art performance across several
+  prediction tasks, demonstrating that iterative perturbations and supervised machine learning can build increasingly accurate
+  predictive models of enhancer regulation.

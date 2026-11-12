@@ -1,0 +1,24 @@
+name: ARCADIA
+full_name: ARchetype-based Clustering and Alignment with Dual Integrative Autoencoders
+category: dry
+summary: Generative framework that integrates scRNA-seq with spatial proteomics without cell barcode pairing or feature correspondence,
+  using archetypes to infer spatially dependent programs.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag454
+  year: 2026
+  journal: Bioinformatics
+  first_author: Rozenman B
+  last_author: Azizi E
+  pmid: '42635210'
+  pmcid: PMC13501332
+  title: ARCADIA reveals spatially dependent transcriptional programs through integration of scRNA-seq and spatial proteomics
+links: {}
+added: '2026-11-12'
+evidence: We present ARCADIA (ARchetype-based Clustering and Alignment with Dual Integrative Autoencoders), a generative framework
+  for cross-modal integration that operates without cell barcode pairing and does not assume direct feature-to-feature correspondence.

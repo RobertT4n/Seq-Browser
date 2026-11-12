@@ -1,0 +1,24 @@
+name: CAGT
+full_name: Clustered AGgregation Tool
+category: dry
+summary: Unsupervised pattern-discovery tool that clusters and aggregates chromatin signal profiles around bound transcription
+  factors.
+readouts:
+- histone-modification
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1101/gr.136366.111
+  year: 2012
+  journal: Genome Res
+  first_author: Kundaje A
+  last_author: Sidow A
+  pmid: '22955985'
+  pmcid: PMC3431490
+  title: Ubiquitous heterogeneity and asymmetry of the chromatin environment at regulatory elements
+added: '2026-11-12'
+evidence: We developed a new method for unsupervised pattern discovery, the Clustered AGgregation Tool (CAGT)

@@ -1,0 +1,22 @@
+name: GECCO
+full_name: Genomic Enrichment Computational Clustering Operation
+category: dry
+summary: Clustering method that finds recurrently mutated noncoding regulatory regions in somatic whole-genome data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ng.3861
+  year: 2017
+  journal: Nat Genet
+  first_author: Feigin ME
+  last_author: Tuveson DA
+  pmid: '28481342'
+  pmcid: PMC5659388
+  title: Recurrent noncoding regulatory mutations in pancreatic ductal adenocarcinoma
+links: {}
+added: '2026-11-12'
+evidence: Here we describe GECCO (Genomic Enrichment Computational Clustering Operation) to analyze somatic noncoding alterations
+  in 308 pancreatic ductal adenocarcinomas (PDAs) and identify commonly mutated regulatory regions.

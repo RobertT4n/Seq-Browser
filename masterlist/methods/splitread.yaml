@@ -1,0 +1,22 @@
+name: Splitread
+category: dry
+summary: Detects structural variants and indels from 1 bp to 1 Mbp in exome data using end-anchored read placements and clustering
+  of unanchored ends.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/nmeth.1810
+  year: 2011
+  journal: Nat Methods
+  first_author: Karakoc E
+  last_author: Eichler EE
+  pmid: '22179552'
+  pmcid: PMC3269549
+  title: Detection of structural variants and indels within exome data
+links: {}
+added: '2026-11-12'
+evidence: We report an algorithm to detect structural variation and indels from 1 base pair (bp) to 1 Mbp within exome sequence
+  data sets.

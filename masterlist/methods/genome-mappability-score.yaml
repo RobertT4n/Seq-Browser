@@ -1,0 +1,24 @@
+name: Genome Mappability Score
+aliases:
+- GMS
+- Genome Mappability Analyzer
+category: dry
+summary: Per-position genome mappability measure (weighted probability that a read maps uniquely) and an analyser that computes
+  it genome-wide to flag regions hard to resequence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/bts330
+  year: 2012
+  journal: Bioinformatics
+  first_author: Lee H
+  last_author: Schatz MC
+  pmid: '22668792'
+  pmcid: PMC3413383
+  title: 'Genomic dark matter: the reliability of short read mapping illustrated by the genome mappability score'
+added: '2026-11-12'
+evidence: Here, we present the Genome Mappability Score (GMS) as a novel measure of the complexity of resequencing a genome.

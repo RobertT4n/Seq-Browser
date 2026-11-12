@@ -1,0 +1,25 @@
+name: Umap
+aliases:
+- Bismap
+category: dry
+summary: Software that identifies uniquely mappable regions of a genome, with a Bismap extension for the bisulfite-converted
+  genome.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky677
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Karimzadeh M
+  last_author: Hoffman MM
+  pmid: '30169659'
+  pmcid: PMC6237805
+  title: 'Umap and Bismap: quantifying genome and methylome mappability'
+links: {}
+added: '2026-11-12'
+evidence: We introduce the Umap software for identifying uniquely mappable regions of any genome. Its Bismap extension identifies
+  mappability of the bisulfite-converted genome.

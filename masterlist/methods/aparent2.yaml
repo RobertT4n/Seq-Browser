@@ -1,0 +1,22 @@
+name: APARENT2
+category: dry
+summary: Residual neural network that infers 3' cleavage and polyadenylation from DNA sequence and generalises to alternative
+  polyadenylation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02799-4
+  year: 2022
+  journal: Genome Biol
+  first_author: Linder J
+  last_author: Seelig G
+  pmid: '36335397'
+  pmcid: PMC9636789
+  title: Deciphering the impact of genetic variation on human polyadenylation using APARENT2
+links: {}
+added: '2026-11-12'
+evidence: We introduce a residual neural network model, APARENT2, that can infer 3'-cleavage and polyadenylation from DNA
+  sequence more accurately than any previous model.

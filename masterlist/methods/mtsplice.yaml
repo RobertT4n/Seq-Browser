@@ -1,0 +1,22 @@
+name: MTSplice
+full_name: Multi-tissue Splicing
+category: dry
+summary: Model that predicts tissue-specific effects of genetic variants on cassette-exon splicing across 56 human tissues.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02273-7
+  year: 2021
+  journal: Genome Biol
+  first_author: Cheng J
+  last_author: Gagneur J
+  pmid: '33789710'
+  pmcid: PMC8011109
+  title: MTSplice predicts effects of genetic variants on tissue-specific splicing
+links: {}
+added: '2026-11-12'
+evidence: We develop the free and open-source model Multi-tissue Splicing (MTSplice) to predict the effects of genetic variants
+  on splicing of cassette exons in 56 human tissues.

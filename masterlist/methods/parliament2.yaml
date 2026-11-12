@@ -1,0 +1,22 @@
+name: Parliament2
+category: dry
+summary: Consensus structural-variant framework that combines multiple SV callers on short-read data, optimised for parallel,
+  low-cost runs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaa145
+  year: 2020
+  journal: Gigascience
+  first_author: Zarate S
+  last_author: Sedlazeck FJ
+  pmid: '33347570'
+  pmcid: PMC7751401
+  title: 'Parliament2: Accurate structural variant calling at scale'
+links: {}
+added: '2026-11-12'
+evidence: We present Parliament2, a consensus SV framework that leverages multiple best-in-class methods to identify high-quality
+  SVs from short-read DNA sequence data at scale.

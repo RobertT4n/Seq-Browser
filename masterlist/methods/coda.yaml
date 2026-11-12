@@ -1,0 +1,21 @@
+name: Coda
+category: dry
+summary: Convolutional neural network denoising algorithm that maps suboptimal histone ChIP-seq data to high-quality profiles.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx243
+  year: 2017
+  journal: Bioinformatics
+  first_author: Koh PW
+  last_author: Kundaje A
+  pmid: '28881977'
+  pmcid: PMC5870713
+  title: Denoising genome-wide histone ChIP-seq with convolutional neural networks
+links: {}
+added: '2026-11-12'
+evidence: We introduce a convolutional denoising algorithm, Coda, that uses convolutional neural networks to learn a mapping
+  from suboptimal to high-quality histone ChIP-seq data.

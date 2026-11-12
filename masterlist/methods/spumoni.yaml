@@ -1,0 +1,26 @@
+name: SPUMONI
+category: dry
+summary: Streaming matching-statistics index for targeted nanopore sequencing that signals the sequencer to eject non-target
+  molecules.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.isci.2021.102696
+  year: 2021
+  journal: iScience
+  first_author: Ahmed O
+  last_author: Langmead B
+  pmid: '34195571'
+  pmcid: PMC8237286
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+  preprint_doi: 10.1101/2021.03.23.436610
+links: {}
+added: '2026-11-12'
+evidence: We present a novel method called SPUMONI, which enables rapid and accurate targeted sequencing with the help of
+  efficient pangenome indexes.

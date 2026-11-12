@@ -1,0 +1,22 @@
+name: Paragraph
+category: dry
+summary: Graph-based structural-variant genotyper for short-read data that models SVs with sequence graphs and SV annotations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1186/s13059-019-1909-7
+  year: 2019
+  journal: Genome Biol
+  first_author: Chen S
+  last_author: Eberle MA
+  pmid: '31856913'
+  pmcid: PMC6921448
+  title: 'Paragraph: a graph-based structural variant genotyper for short-read sequence data'
+links: {}
+added: '2026-11-12'
+evidence: We introduce Paragraph, an accurate genotyper that models SVs using sequence graphs and SV annotations.

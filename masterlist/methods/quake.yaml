@@ -1,0 +1,20 @@
+name: Quake
+category: dry
+summary: Program that detects and corrects sequencing errors using quality values and nucleotide-specific miscall rates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/gb-2010-11-11-r116
+  year: 2010
+  journal: Genome Biol
+  first_author: Kelley DR
+  last_author: Salzberg SL
+  pmid: '21114842'
+  pmcid: PMC3156955
+  title: 'Quake: quality-aware detection and correction of sequencing errors'
+added: '2026-11-12'
+evidence: We introduce Quake, a program to detect and correct errors in DNA sequencing reads.

@@ -1,0 +1,24 @@
+name: Shasta
+category: dry
+summary: De novo long-read assembler for human genomes from nanopore reads, built to run in hours on a single node.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-020-0503-6
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Shafin K
+  last_author: Paten B
+  pmid: '32686750'
+  pmcid: PMC7483855
+  title: Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes
+links: {}
+added: '2026-11-12'
+evidence: To enable rapid human genome assembly, we present Shasta, a de novo long-read assembler, and polishing algorithms
+  named MarginPolish and HELEN.

@@ -1,0 +1,22 @@
+name: BPNet
+category: dry
+summary: Deep learning model that predicts base-resolution ChIP-nexus binding profiles from DNA sequence and learns soft motif
+  syntax.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-021-00782-6
+  year: 2021
+  journal: Nat Genet
+  first_author: Avsec Ž
+  last_author: Zeitlinger J
+  pmid: '33603233'
+  pmcid: PMC8812996
+  title: Base-resolution models of transcription-factor binding reveal soft motif syntax.
+links: {}
+added: '2026-11-12'
+evidence: We introduce a deep learning model, BPNet, that uses DNA sequence to predict base-resolution chromatin immunoprecipitation
+  (ChIP)-nexus binding profiles of pluripotency TFs.

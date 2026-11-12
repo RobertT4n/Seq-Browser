@@ -1,0 +1,22 @@
+name: UnseenEst
+category: dry
+summary: Algorithm that estimates the frequency distribution of protein-coding variants, including unseen rare variants, from
+  exome cohorts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/ncomms13293
+  year: 2016
+  journal: Nat Commun
+  first_author: Zou J
+  last_author: MacArthur DG
+  pmid: '27796292'
+  pmcid: PMC5095512
+  title: Quantifying unobserved protein-coding variants in human populations provides a roadmap for large-scale sequencing
+    projects
+links: {}
+added: '2026-11-12'
+evidence: We developed a new algorithm, UnseenEst, and applied it to the exomes of 60,706 individuals

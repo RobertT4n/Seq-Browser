@@ -1,0 +1,22 @@
+name: ORMAN
+full_name: Optimal Resolution of Multimapping Ambiguity of RNA-Seq Reads
+category: dry
+summary: Combinatorial optimisation method that assigns multimapping RNA-seq reads to the minimum set of transcript products
+  per gene.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btt591
+  year: 2014
+  journal: Bioinformatics
+  first_author: Dao P
+  last_author: Sahinalp SC
+  pmid: '24130305'
+  title: 'ORMAN: optimal resolution of ambiguous RNA-Seq multimappings in the presence of novel isoforms'
+added: '2026-11-12'
+evidence: We introduce ORMAN ( O ptimal R esolution of M ultimapping A mbiguity of R N A-Seq Reads), which aims to compute
+  the minimum number of potential transcript products

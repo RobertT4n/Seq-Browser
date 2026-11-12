@@ -1,0 +1,22 @@
+name: LUMPY
+category: dry
+summary: Probabilistic framework that jointly integrates read-pair, split-read, read-depth and prior signals to discover structural
+  variants across samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2014-15-6-r84
+  year: 2014
+  journal: Genome Biol
+  first_author: Layer RM
+  last_author: Hall IM
+  pmid: '24970577'
+  pmcid: PMC4197822
+  title: 'LUMPY: a probabilistic framework for structural variant discovery'
+links: {}
+added: '2026-11-12'
+evidence: We present LUMPY, a novel SV discovery framework that naturally integrates multiple SV signals jointly across multiple
+  samples.

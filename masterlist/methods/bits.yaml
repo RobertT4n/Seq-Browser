@@ -1,0 +1,22 @@
+name: BITS
+full_name: Binary Interval Search
+category: dry
+summary: Algorithm that counts intersections between large sets of genome intervals and parallelises Monte Carlo significance
+  tests.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/bts652
+  year: 2013
+  journal: Bioinformatics
+  first_author: Layer RM
+  last_author: Quinlan AR
+  pmid: '23129298'
+  pmcid: PMC3530906
+  title: 'Binary Interval Search: a scalable algorithm for counting interval intersections'
+added: '2026-11-12'
+evidence: We introduce the Binary Interval Search (BITS) algorithm, a novel and scalable approach to interval set intersection.

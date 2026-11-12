@@ -1,0 +1,24 @@
+name: FLARE
+full_name: Functional Lasso Analysis of Regulatory Evolution
+category: dry
+summary: Lasso-based method that combines evolutionary constraint with deep-learning chromatin-accessibility predictions to
+  prioritise noncoding variants with extreme regulatory effects.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02619-6
+  year: 2026
+  journal: Nat Genet
+  first_author: Marderstein AR
+  last_author: Montgomery SB
+  pmid: '42298188'
+  pmcid: PMC13335522
+  title: Decoding common and rare noncoding variant effects across cellular and developmental contexts.
+links: {}
+added: '2026-11-12'
+evidence: Leveraging these insights, we developed FLARE (Functional Lasso Analysis of Regulatory Evolution), which integrates
+  evolutionary constraint to prioritize noncoding variants with extreme regulatory effects.

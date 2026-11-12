@@ -1,0 +1,26 @@
+name: PHARAOH
+full_name: PHAsing Reads in Areas Of Homozygosity
+category: dry
+summary: Phasing step that uses ultralong ONT reads to phase alignments and introduce heterozygous edits in falsely homozygous
+  regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.280149.124
+  year: 2025
+  journal: Genome Res
+  first_author: Mastoras M
+  last_author: plus the Human Pangenome Reference Consortium
+  pmid: '40389286'
+  pmcid: PMC12212083
+  title: Highly accurate assembly polishing with DeepPolisher
+links: {}
+added: '2026-11-12'
+evidence: Our pipeline introduces a method, PHAsing Reads in Areas Of Homozygosity (PHARAOH), which uses ultralong Oxford
+  Nanopore Technologies (ONT) data to ensure alignments are accurately phased

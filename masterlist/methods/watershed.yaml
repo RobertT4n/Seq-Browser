@@ -1,0 +1,23 @@
+name: Watershed
+category: dry
+summary: Probabilistic model integrating multitissue gene expression, allele-specific expression and splicing to predict functional
+  rare variants.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/science.aaz5900
+  year: 2020
+  journal: Science
+  first_author: Ferraro NM
+  last_author: Battle A
+  pmid: '32913073'
+  pmcid: PMC7646251
+  title: Transcriptomic signatures across human tissues identify functional rare genetic variation
+links: {}
+added: '2026-11-12'
+evidence: We developed Watershed, a probabilistic model that integrates multiple genomic and transcriptomic signals to predict
+  variant function, validated these predictions in additional cohorts and through experimental assays.

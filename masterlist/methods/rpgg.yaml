@@ -1,0 +1,22 @@
+name: RPGG
+full_name: repeat-pangenome graph
+category: dry
+summary: Repeat-pangenome graph data structure and software for estimating VNTR composition from short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41467-021-24378-0
+  year: 2021
+  journal: Nat Commun
+  first_author: Lu TY
+  last_author: Chaisson MJP
+  pmid: '34253730'
+  pmcid: PMC8275641
+  title: Profiling variable-number tandem repeat variation across populations using repeat-pangenome graphs
+links: {}
+added: '2026-11-12'
+evidence: We solve VNTR mapping for short reads with a repeat-pangenome graph (RPGG), a data structure that encodes both the
+  population diversity and repeat structure of VNTR loci from multiple haplotype-resolved assemblies.

@@ -1,0 +1,26 @@
+name: pext
+full_name: proportion expressed across transcripts
+category: dry
+summary: Transcript-level annotation metric (proportion expressed across transcripts) that summarises isoform expression per
+  variant to filter likely false pLoF calls.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41586-020-2329-2
+  year: 2020
+  journal: Nature
+  first_author: Cummings BB
+  last_author: MacArthur DG
+  pmid: '32461655'
+  pmcid: PMC7334198
+  title: Transcript expression-aware annotation improves rare variant interpretation
+  preprint_doi: 10.1101/554444
+links: {}
+added: '2026-11-12'
+evidence: Here, we develop a transcript-level annotation metric, the proportion expressed across transcripts (pext), which
+  summarizes isoform quantifications for variants.

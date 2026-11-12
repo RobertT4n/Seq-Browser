@@ -1,0 +1,16 @@
+name: Skyhawk
+category: dry
+summary: Artificial neural network that mimics expert review to reject false-positive genomic variant calls and flag the rest
+  for manual review.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/311985
+  title: 'Skyhawk: An Artificial Neural Network-based discriminator for reviewing clinically significant genomic variants'
+links: {}
+added: '2026-11-12'
+evidence: We developed Skyhawk, an artificial neural network-based discriminator that mimics the process of expert review
+  on clinically significant genomics variants.

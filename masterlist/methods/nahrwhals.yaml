@@ -1,0 +1,24 @@
+name: NAHRwhals
+category: dry
+summary: Method that infers repeat-mediated series of structural variants in long-read genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+species:
+- human
+reference:
+  doi: 10.1038/s41467-024-52027-9
+  year: 2024
+  journal: Nat Commun
+  first_author: Höps W
+  last_author: Sedlazeck FJ
+  pmid: '39266513'
+  pmcid: PMC11393467
+  title: Impact and characterization of serial structural variations across humans and great apes
+links: {}
+added: '2026-11-12'
+evidence: a method to infer repeat-mediated series of SVs in long-read genomic assemblies

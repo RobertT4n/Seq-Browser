@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261109-polish10">
+<link rel="stylesheet" href="style.css?v=20261112-0130">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
@@ -40,7 +40,7 @@
 const PART = new Set(["combinatorial-indexing","split-pool-barcoding","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","particle-templated-emulsion","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
 const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"],["task","Task"]];
 // dropdowns on screen: resolution, over-time and scope share one panel with section headings
-const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]},{label:"Task",keys:["task"]}];
+const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]},{label:"Computational task",keys:["task"]}];
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
 const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
 // platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)

@@ -1,0 +1,23 @@
+name: Himito
+category: dry
+summary: Graph-based toolkit that filters NUMT reads, assembles mtDNA haplotypes, calls variants and profiles 5mC from long
+  reads.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-026-77418-y
+  year: 2026
+  journal: Nat Commun
+  first_author: Su H
+  last_author: Garimella KV
+  pmid: '42860410'
+  title: 'Himito: a graph-based toolkit for mitochondrial genome analysis using long reads'
+links: {}
+added: '2026-11-12'
+evidence: We developed Himito, a graph-based toolkit for analyzing mitochondrial genome using long reads

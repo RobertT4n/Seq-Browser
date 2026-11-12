@@ -1,0 +1,26 @@
+name: Nanocorr
+category: dry
+summary: Hybrid error-correction algorithm for Oxford Nanopore reads using complementary short reads, enabling accurate de
+  novo assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.191395.115
+  year: 2015
+  journal: Genome Res
+  first_author: Goodwin S
+  last_author: McCombie WR
+  pmid: '26447147'
+  pmcid: PMC4617970
+  title: Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome
+  preprint_doi: 10.1101/013490
+links: {}
+added: '2026-11-12'
+evidence: With this new method we were able to perform a hybrid error correction of the nanopore reads using complementary
+  MiSeq data and produce a de novo assembly that is highly contiguous and accurate.

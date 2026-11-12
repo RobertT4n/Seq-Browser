@@ -1,0 +1,20 @@
+name: CASTIE
+category: dry
+summary: Scalable Poisson mixed-model framework that tests genotype-by-context interactions on single-cell read counts to
+  find context-dependent eQTLs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.13.26360300
+  year: 2026
+  journal: medRxiv
+  first_author: Liu YC
+  last_author: Zhou W
+  title: Scalable context-dependent single-cell eQTL mapping reveals disease-relevant regulatory variation beyond static models
+links: {}
+added: '2026-11-12'
+evidence: We present CASTIE, a scalable Poisson mixed-model framework that directly models sparse single-cell read counts
+  and enables genome-wide testing of genotype-by-context interactions without pre-screening for static effects.

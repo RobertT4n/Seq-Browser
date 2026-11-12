@@ -1,0 +1,22 @@
+name: SVclone
+category: dry
+summary: Computational method that infers the cancer cell fraction of structural variant breakpoints from whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s41467-020-14351-8
+  year: 2020
+  journal: Nat Commun
+  first_author: Cmero M
+  last_author: PCAWG Consortium
+  pmid: '32024845'
+  pmcid: PMC7002525
+  title: Inferring structural variant cancer cell fraction
+  preprint_doi: 10.1101/172486
+added: '2026-11-12'
+evidence: We present SVclone, a computational method for inferring the cancer cell fraction of structural variant breakpoints
+  from whole-genome sequencing data.

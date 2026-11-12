@@ -1,0 +1,24 @@
+name: HC-RCM
+full_name: GATK HaplotypeCaller with Reference Confidence Model
+category: dry
+summary: Assembly-based variant caller giving per-sample genotype likelihoods with joint calling across all samples, scaling
+  to tens of thousands of samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/201178
+  year: 2017
+  journal: bioRxiv
+  first_author: Poplin R
+  last_author: Banks E
+  title: Scaling accurate genetic variant discovery to tens of thousands of samples
+links: {}
+added: '2026-11-12'
+evidence: We describe here a novel assembly-based approach to variant calling, the GATK HaplotypeCaller (HC) and Reference
+  Confidence Model (RCM), that determines genotype likelihoods independently per-sample but performs joint calling across
+  all samples within a project simultaneously.

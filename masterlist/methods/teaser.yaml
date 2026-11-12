@@ -1,0 +1,22 @@
+name: Teaser
+category: dry
+summary: Tool that benchmarks an ensemble of read mappers and parameter settings on a user's own data to choose the best configuration.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s13059-015-0803-1
+  year: 2015
+  journal: Genome Biol
+  first_author: Smolka M
+  last_author: Sedlazeck FJ
+  pmid: '26494581'
+  pmcid: PMC4618857
+  title: 'Teaser: Individualized benchmarking and optimization of read mapping results for NGS data'
+  preprint_doi: 10.1101/025858
+added: '2026-11-12'
+evidence: Here we present Teaser, which assists in these choices through rapid automated benchmarking of different mappers
+  and parameter settings for individualized data.

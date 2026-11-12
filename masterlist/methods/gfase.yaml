@@ -1,0 +1,23 @@
+name: GFAse
+category: dry
+summary: Modular tool that extends phasing of Oxford Nanopore assemblies to the chromosome scale.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+links: {}
+reference:
+  doi: 10.1101/gr.278268.123
+  year: 2024
+  journal: Genome Res
+  first_author: Lorig-Roach R
+  last_author: Paten B
+  pmid: '38627094'
+  pmcid: PMC11067879
+  title: Phased nanopore assembly with Shasta and modular graph phasing with GFAse
+added: '2026-11-12'
+evidence: a modular tool for extending phasing to the chromosome scale called GFAse

@@ -1,0 +1,20 @@
+name: CCR
+category: dry
+summary: Algorithm that recovers unambiguous linear or circular rearranged cancer contigs from karyotype graphs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3208-4
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Aganezov S
+  last_author: Schatz MC
+  pmid: '31842730'
+  pmcid: PMC6915857
+  title: Recovering rearranged cancer chromosomes from karyotype graphs
+links: {}
+added: '2026-11-12'
+evidence: and describe a novel algorithm CCR capable of solving CCCP in polynomial time.

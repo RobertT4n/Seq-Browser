@@ -1,0 +1,22 @@
+name: Graphasing
+category: dry
+summary: Workflow that combines the Strand-seq phase signal with assembly-graph topology to produce chromosome-scale haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- strand-seq
+reference:
+  doi: 10.1186/s13059-024-03409-1
+  year: 2024
+  journal: Genome Biol
+  first_author: Henglin M
+  last_author: Marschall T
+  pmid: '39390579'
+  pmcid: PMC11466045
+  title: 'Graphasing: phasing diploid genome assembly graphs with single-cell strand sequencing'
+links: {}
+added: '2026-11-12'
+evidence: a workflow which synthesizes the global phase signal of Strand-seq with assembly graph topology

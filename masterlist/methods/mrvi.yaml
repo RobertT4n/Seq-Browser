@@ -1,0 +1,23 @@
+name: MrVI
+full_name: multi-resolution variational inference
+category: dry
+summary: Deep generative model that stratifies samples into groups and evaluates cellular and molecular differences between
+  groups in single-cell cohort data without predefined cell states.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02808-x
+  year: 2025
+  journal: Nat Methods
+  first_author: Boyeau P
+  last_author: Yosef N
+  pmid: '41083897'
+  pmcid: PMC12615264
+  title: Deep generative modeling of sample-level heterogeneity in single-cell genomics.
+links: {}
+added: '2026-11-12'
+evidence: We present multi-resolution variational inference (MrVI), a deep generative model designed to realize the potential
+  of cohort studies at the single-cell level.

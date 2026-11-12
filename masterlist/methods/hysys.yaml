@@ -1,0 +1,22 @@
+name: HYSYS
+category: dry
+summary: Method that tests for sample swaps and contamination in cancer sequencing cohorts using concordance of homozygous
+  SNPs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw685
+  year: 2017
+  journal: Bioinformatics
+  first_author: Schröder J
+  last_author: Papenfuss AT
+  pmid: '28003257'
+  pmcid: PMC5408803
+  title: 'HYSYS: have you swapped your samples?'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce a simple method, HYSYS, to estimate the relatedness of samples and test for sample swaps and
+  contamination.

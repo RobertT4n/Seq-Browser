@@ -1,0 +1,20 @@
+name: Sapling
+category: dry
+summary: Sequence-alignment algorithm that augments the suffix array with a learned piecewise linear model to speed queries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btaa911
+  year: 2021
+  journal: Bioinformatics
+  first_author: Kirsche M
+  last_author: Schatz MC
+  pmid: '33107913'
+  title: 'Sapling: accelerating suffix array queries with learned data models'
+added: '2026-11-12'
+evidence: Here, we present Sapling, an algorithm for sequence alignment, which uses a learned data model to augment the suffix
+  array and enable faster queries.

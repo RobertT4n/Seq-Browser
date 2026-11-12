@@ -1,0 +1,22 @@
+name: SVbyEye
+category: dry
+summary: R package that visualises and annotates sequence-to-sequence alignments between genome assemblies to characterise
+  structural variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf332
+  year: 2025
+  journal: Bioinformatics
+  first_author: Porubsky D
+  last_author: Eichler EE
+  pmid: '40478668'
+  pmcid: PMC12198750
+  title: 'SVbyEye: a visual tool to characterize structural variation among whole-genome assemblies.'
+links: {}
+added: '2026-11-12'
+evidence: We developed SVbyEye, an open-source R package to visualize and annotate sequence-to-sequence alignments along with
+  various functionalities to process these alignments.

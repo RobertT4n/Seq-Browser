@@ -1,0 +1,23 @@
+name: proportion expressed across transcripts
+category: dry
+summary: Transcript-level annotation metric that quantifies isoform expression for variants, used to filter falsely annotated
+  loss-of-function variants.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-020-2329-2
+  year: 2020
+  journal: Nature
+  first_author: Cummings BB
+  last_author: MacArthur DG
+  pmid: '32461655'
+  pmcid: PMC7334198
+  title: Transcript expression-aware annotation improves rare variant interpretation.
+links: {}
+added: '2026-11-12'
+evidence: We develop a transcript-level annotation metric known as the 'proportion expressed across transcripts', which quantifies
+  isoform expression for variants.

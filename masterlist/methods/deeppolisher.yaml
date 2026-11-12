@@ -1,0 +1,21 @@
+name: DeepPolisher
+category: dry
+summary: Encoder-only transformer that polishes diploid assemblies using PacBio HiFi read alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280149.124
+  year: 2025
+  journal: Genome Res
+  first_author: Mastoras M
+  last_author: plus the Human Pangenome Reference Consortium
+  pmid: '40389286'
+  pmcid: PMC12212083
+  title: Highly accurate assembly polishing with DeepPolisher
+links: {}
+added: '2026-11-12'
+evidence: an encoder-only transformer model for assembly polishing called DeepPolisher, which predicts corrections to the
+  underlying sequence using Pacific Biosciences (PacBio) HiFi read alignments to a diploid assembly

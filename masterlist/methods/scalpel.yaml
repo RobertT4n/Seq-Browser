@@ -1,0 +1,24 @@
+name: Scalpel
+category: dry
+summary: Micro-assembly INDEL caller for exome-capture data that searches de Bruijn graphs across exons and handles repeats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+reference:
+  doi: 10.1038/nmeth.3069
+  year: 2014
+  journal: Nat Methods
+  first_author: Narzisi G
+  last_author: Schatz MC
+  pmid: '25128977'
+  pmcid: PMC4180789
+  title: Accurate de novo and transmitted indel detection in exome-capture data using microassembly
+  preprint_doi: 10.1101/001370
+links: {}
+added: '2026-11-12'
+evidence: We present a new open-source algorithm, Scalpel, for sensitive and specific discovery of INDELs in exome-capture
+  data.

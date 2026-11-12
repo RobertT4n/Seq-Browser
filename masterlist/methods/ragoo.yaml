@@ -1,0 +1,23 @@
+name: RaGOO
+full_name: Reference-guided contig ordering and orienting
+category: dry
+summary: Reference-guided tool that orders and orients draft-assembly contigs into pseudomolecules using Minimap2 alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1829-6
+  year: 2019
+  journal: Genome Biol
+  first_author: Alonge M
+  last_author: Schatz MC
+  pmid: '31661016'
+  pmcid: PMC6816165
+  title: 'RaGOO: fast and accurate reference-guided scaffolding of draft genomes'
+  preprint_doi: 10.1101/519637
+links: {}
+added: '2026-11-12'
+evidence: We present RaGOO, an open-source reference-guided contig ordering and orienting tool that leverages the speed and
+  sensitivity of Minimap2 to accurately achieve chromosome-scale assemblies in just minutes.

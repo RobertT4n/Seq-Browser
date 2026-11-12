@@ -1,0 +1,24 @@
+name: LORALS
+category: dry
+summary: Computational package for allele-specific analysis of long-read RNA-seq to map genetic effects on transcript structure.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41586-022-05035-y
+  year: 2022
+  journal: Nature
+  first_author: Glinos DA
+  last_author: Cummings BB
+  pmid: '35922509'
+  pmcid: PMC10337767
+  title: Transcriptome variation in human tissues revealed by long-read sequencing
+links: {}
+added: '2026-11-12'
+evidence: We developed a new computational package, LORALS, to analyse the genetic effects of rare and common variants on
+  the transcriptome by allele-specific analysis of long reads.

@@ -1,0 +1,21 @@
+name: mrsFAST-Ultra
+category: dry
+summary: Compact, SNP-aware short-read aligner that reports multiple mapping loci per read efficiently.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku370
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Hach F
+  last_author: Sahinalp SC
+  pmid: '24810850'
+  pmcid: PMC4086126
+  title: 'mrsFAST-Ultra: a compact, SNP-aware mapper for high performance sequencing applications.'
+links: {}
+added: '2026-11-12'
+evidence: For this purpose we introduce mrsFAST-Ultra, a fast, cache oblivious, SNP-aware aligner that can handle the multi-mapping
+  of HTS reads very efficiently.

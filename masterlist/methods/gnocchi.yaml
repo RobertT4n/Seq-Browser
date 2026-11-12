@@ -1,0 +1,25 @@
+name: Gnocchi
+full_name: genomic non-coding constraint of haploinsufficient variation
+category: dry
+summary: Refined mutational model and genome-wide constraint map for non-coding regions, built from gnomAD variation in 76,156
+  genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41586-023-06045-0
+  year: 2024
+  journal: Nature
+  first_author: Chen S
+  last_author: Karczewski KJ
+  pmid: '38057664'
+  pmcid: PMC11629659
+  title: A genomic mutational constraint map using variation in 76,156 human genomes
+links: {}
+added: '2026-11-12'
+evidence: use it to build a genomic constraint map for the whole genome (genomic non-coding constraint of haploinsufficient
+  variation (Gnocchi))

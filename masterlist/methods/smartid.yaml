@@ -1,0 +1,21 @@
+name: smartid
+category: dry
+summary: R/Bioconductor package that finds cell-type markers in imbalanced scRNA-seq using TF-IDF with a Gaussian mixture
+  model, and scores gene sets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.11.10.687759
+  year: 2025
+  journal: bioRxiv
+  first_author: Chen J
+  last_author: Tan CW
+  title: Improved marker detection for rare population in single-cell transcriptomics through text mining-inspired scoring
+    approach
+links: {}
+added: '2026-11-12'
+evidence: accurately identifies markers from even imbalanced data across batches by employing a modified Term Frequency-Inverse
+  Document Frequency approach with Gaussian Mixture Model

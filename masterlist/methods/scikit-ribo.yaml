@@ -1,0 +1,22 @@
+name: Scikit-ribo
+category: dry
+summary: Open-source Ribo-seq package for A-site prediction and codon-level translation efficiency estimation.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2017.12.007
+  year: 2018
+  journal: Cell Syst
+  first_author: Fang H
+  last_author: Schatz MC
+  pmid: '29361467'
+  pmcid: PMC5832574
+  title: Scikit-ribo Enables Accurate Estimation and Robust Modeling of Translation Dynamics at Codon Resolution
+links: {}
+added: '2026-11-12'
+evidence: Addressing these issues, we present Scikit-ribo (https://github.com/schatzlab/scikit-ribo), an open-source analysis
+  package for accurate genome-wide A-site prediction and translation efficiency (TE) estimation from Ribo-seq and RNA sequencing
+  data.

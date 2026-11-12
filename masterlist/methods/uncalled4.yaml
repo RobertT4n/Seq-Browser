@@ -1,0 +1,28 @@
+name: Uncalled4
+category: dry
+summary: Toolkit for nanopore signal alignment and modification detection, with a banded signal-alignment algorithm and k-mer
+  pore-model training.
+readouts:
+- rna-modification
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+species:
+- human
+reference:
+  doi: 10.1038/s41592-025-02631-4
+  year: 2025
+  journal: Nat Methods
+  first_author: Kovaka S
+  last_author: Schatz MC
+  pmid: '40155722'
+  pmcid: PMC11978507
+  title: Uncalled4 improves nanopore DNA and RNA modification detection via fast and accurate signal alignment
+  preprint_doi: 10.1101/2024.03.05.583511
+links: {}
+added: '2026-11-12'
+evidence: We present Uncalled4, a toolkit for nanopore signal alignment, analysis, and visualization.

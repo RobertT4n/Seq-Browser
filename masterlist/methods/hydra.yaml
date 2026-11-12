@@ -1,0 +1,24 @@
+name: HYDRA
+category: dry
+summary: Algorithm that localises structural-variant breakpoints from paired-end mapping and assembles breakpoint sequences
+  genome-wide.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+reference:
+  doi: 10.1101/gr.102970.109
+  year: 2010
+  journal: Genome Res
+  first_author: Quinlan AR
+  last_author: Hall IM
+  pmid: '20308636'
+  pmcid: PMC2860164
+  title: Genome-wide mapping and assembly of structural variant breakpoints in the mouse genome
+links: {}
+added: '2026-11-12'
+evidence: We have developed an algorithm (HYDRA) to localize SV breakpoints by paired-end mapping, and a general approach
+  for the genome-wide assembly and interpretation of breakpoint sequences.

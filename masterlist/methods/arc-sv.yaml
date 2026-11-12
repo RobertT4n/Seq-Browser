@@ -1,0 +1,25 @@
+name: ARC-SV
+category: dry
+summary: Probabilistic, machine-learning method that detects and reconstructs complex structural variants from standard sequencing
+  datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.cell.2024.09.014
+  year: 2024
+  journal: Cell
+  first_author: Zhou B
+  last_author: Urban AE
+  pmid: '39353437'
+  pmcid: PMC11608572
+  title: Detection and analysis of complex structural variation in human genomes across populations and in brains of donors
+    with psychiatric disorders
+links: {}
+added: '2026-11-12'
+evidence: We developed ARC-SV, a probabilistic and machine-learning-based method that enables accurate detection and reconstruction
+  of cxSVs from standard datasets.

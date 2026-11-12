@@ -1,0 +1,24 @@
+name: TRGT-denovo
+full_name: Tandem Repeat Genotyping Tool, de novo
+category: dry
+summary: Calls de novo tandem repeat mutations (expansions, contractions, compositional changes) in family trios from PacBio
+  HiFi reads by interrogating read evidence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2024.07.16.600745
+  year: 2024
+  journal: bioRxiv
+  first_author: Mokveld T
+  last_author: Eberle MA
+  title: 'TRGT-denovo: accurate detection of  <i>de novo</i>  tandem repeat mutations'
+links: {}
+added: '2026-11-12'
+evidence: We developed TRGT-denovo, a computational method designed to accurately identify all types of de novo TR mutations—including
+  expansions, contractions, and compositional changes— within family trios.

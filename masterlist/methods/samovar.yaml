@@ -1,0 +1,22 @@
+name: Samovar
+category: dry
+summary: Random-forest-scored mosaic SNV caller for linked-read whole-genome sequencing from a single sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1016/j.isci.2019.05.037
+  year: 2019
+  journal: iScience
+  first_author: Darby CA
+  last_author: Schatz MC
+  pmid: '31271967'
+  pmcid: PMC6609817
+  title: 'Samovar: Single-Sample Mosaic Single-Nucleotide Variant Calling with Linked Reads'
+  preprint_doi: 10.1101/560532
+added: '2026-11-12'
+evidence: We present Samovar, a mosaic single-nucleotide variant (SNV) caller for linked-read whole-genome shotgun sequencing
+  data.

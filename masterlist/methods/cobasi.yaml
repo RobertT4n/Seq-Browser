@@ -1,0 +1,23 @@
+name: COBASI
+full_name: coverage-based single nucleotide variant identification
+category: dry
+summary: Coverage-based SNV caller that finds de novo SNVs in family trios from coverage changes of exactly matching unique
+  substrings in short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1802244115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Gómez-Romero L
+  last_author: Palacios R
+  pmid: '29735690'
+  pmcid: PMC6003530
+  title: Precise detection of de novo single nucleotide variants in human genomes
+links: {}
+added: '2026-11-12'
+evidence: In this study, we present a unique approach, coverage-based single nucleotide variant identification (COBASI), which
+  allows the exploration of the entire genome using second-generation short sequence reads without extensive computing requirements.

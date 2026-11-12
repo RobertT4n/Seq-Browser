@@ -1,0 +1,22 @@
+name: RIVER
+full_name: RNA-informed variant effect on regulation
+category: dry
+summary: Bayesian model that uses expression data to predict regulatory effects of rare non-coding variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nature24267
+  year: 2017
+  journal: Nature
+  first_author: Li X
+  last_author: Montgomery SB
+  pmid: '29022581'
+  pmcid: PMC5877409
+  title: The impact of rare variation on gene expression across tissues
+links: {}
+added: '2026-11-12'
+evidence: we developed RIVER (RNA-informed variant effect on regulation), a Bayesian statistical model that incorporates expression
+  data to predict a regulatory effect for rare variants

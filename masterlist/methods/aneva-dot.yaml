@@ -1,0 +1,24 @@
+name: ANEVA-DOT
+full_name: ANEVA Dosage Outlier Test
+category: dry
+summary: Outlier test that flags genes in an individual affected by a rare regulatory variant, using ANEVA population variance
+  estimates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/science.aay0256
+  year: 2019
+  journal: Science
+  first_author: Mohammadi P
+  last_author: Lappalainen T
+  pmid: '31601707'
+  pmcid: PMC6814274
+  title: Genetic regulatory variation in populations informs transcriptome analysis in rare disease
+  preprint_doi: 10.1101/632794
+links: {}
+added: '2026-11-12'
+evidence: We next used ANEVA variance estimates in a Dosage Outlier Test (ANEVA-DOT) to identify genes in an individual that
+  are affected by a rare regulatory variant with an unusually strong effect.

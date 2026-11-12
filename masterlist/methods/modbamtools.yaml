@@ -1,0 +1,24 @@
+name: modbamtools
+category: dry
+summary: Technology-agnostic tool to visualise, compare and analyse base-modification (methylation) data in BAM files from
+  nanopore or PacBio.
+readouts:
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1101/2022.07.07.499188
+  year: 2022
+  journal: bioRxiv
+  first_author: Razaghi R
+  last_author: Timp W
+  title: 'Modbamtools: Analysis of single-molecule epigenetic data for long-range profiling, heterogeneity, and clustering'
+links: {}
+added: '2026-11-12'
+evidence: we developed a technology-agnostic tool, modbamtools to visualize, manipulate and compare base modification/methylation
+  data in a fast and robust way

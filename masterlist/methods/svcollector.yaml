@@ -1,0 +1,20 @@
+name: SVCollector
+category: dry
+summary: Open-source tool that selects samples to maximise structural-variant discovery or validation in long-read resequencing
+  or PCR follow-up.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1101/342386
+  year: 2018
+  journal: bioRxiv
+  first_author: Sedlazeck FJ
+  last_author: Schatz MC
+  title: 'SVCollector: Optimized sample selection for validating and long-read resequencing of structural variants'
+added: '2026-11-12'
+evidence: Here we present SVCollector, an open-source method that optimally selects samples to maximize variant discovery
+  and validation using long read resequencing or PCR-based validation.

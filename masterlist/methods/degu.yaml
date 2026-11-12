@@ -1,0 +1,25 @@
+name: DEGU
+full_name: Distilling Ensembles for Genomic Uncertainty-aware models
+category: dry
+summary: Ensemble-distillation method that trains one DNA model to estimate epistemic and optional aleatoric uncertainty for
+  genomic predictions.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s44387-025-00053-3
+  year: 2026
+  journal: NPJ Artif Intell
+  first_author: Zhou J
+  last_author: Koo PK
+  pmid: '41523993'
+  pmcid: PMC12779563
+  title: Uncertainty-aware genomic deep learning with knowledge distillation
+  preprint_doi: 10.1101/2024.11.13.623485
+links: {}
+added: '2026-11-12'
+evidence: DEGU distills the predictions of an ensemble of DNNs into a single model, capturing both the average of the ensemble’s
+  predictions and the variability across them, with the latter representing epistemic (or model-based) uncertainty.

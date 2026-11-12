@@ -1,0 +1,24 @@
+name: Alpaca
+category: dry
+summary: Hybrid assembly pipeline combining long reads with short-insert and long-insert short reads to resolve tandem repeats
+  and gene family expansions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s12864-017-3927-8
+  year: 2017
+  journal: BMC Genomics
+  first_author: Miller JR
+  last_author: Silverstein KAT
+  pmid: '28724409'
+  pmcid: PMC5518131
+  title: Hybrid assembly with long and short reads improves discovery of gene family expansions
+links: {}
+added: '2026-11-12'
+evidence: We developed a hybrid assembly pipeline called "Alpaca" that can operate on 20X long-read coverage plus about 50X
+  short-insert and 50X long-insert short-read coverage.

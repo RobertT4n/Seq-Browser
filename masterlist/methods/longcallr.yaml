@@ -1,0 +1,15 @@
+name: longcallR
+category: dry
+summary: "Tool for joint SNP calling, haplotype phasing and allele-specific splicing analysis from long-read RNA-seq."
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41592-026-03045-6
+links: {}
+added: '2026-11-12'
+evidence: "Here we introduce longcallR for joint single-nucleotide polymorphism calling, haplotype phasing and allele-specific analysis, which achieves high accuracy on benchmark datasets."

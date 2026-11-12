@@ -1,0 +1,20 @@
+name: Leaflet
+category: dry
+summary: Probabilistic mixture model that infers splicing-driven cell states from single-cell splice junction counts without
+  cell-type labels.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.17.562774
+  year: 2023
+  journal: bioRxiv
+  first_author: Isaev K
+  last_author: Knowles DA
+  title: Investigating RNA splicing as a source of cellular diversity using a binomial mixture model
+links: {}
+added: '2026-11-12'
+evidence: Leaflet is a probabilistic mixture model designed to infer AS-driven cell states without the need for cell type
+  labels.

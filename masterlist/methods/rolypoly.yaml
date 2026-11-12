@@ -1,0 +1,23 @@
+name: RolyPoly
+category: dry
+summary: Regression-based polygenic model that prioritises trait-relevant cell types and genes from GWAS summary statistics
+  and expression data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1016/j.ajhg.2017.09.009
+  year: 2017
+  journal: Am J Hum Genet
+  first_author: Calderon D
+  last_author: Pritchard JK
+  pmid: '29106824'
+  pmcid: PMC5673624
+  title: Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression
+added: '2026-11-12'
+evidence: we present RolyPoly, a regression-based polygenic model that can prioritize trait-relevant cell types and genes
+  from GWAS summary statistics and gene expression data.

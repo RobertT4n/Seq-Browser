@@ -1,0 +1,24 @@
+name: SEAM
+full_name: Systematic Explanation of Attribution-based Mechanisms
+category: dry
+summary: Deep-learning and attribution framework that maps how mutations preserve, disrupt or create transcription-factor
+  binding sites in regulatory DNA.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+- invertebrate
+reference:
+  doi: 10.1101/2025.10.07.681052
+  year: 2025
+  journal: bioRxiv
+  first_author: Seitz EE
+  last_author: Koo PK
+  title: Uncovering the Mechanistic Landscape of Regulatory DNA with Deep Learning
+links: {}
+added: '2026-11-12'
+evidence: a computational framework that combines deep learning with explainable AI to map the mechanistic impact of genetic
+  mutations

@@ -1,0 +1,26 @@
+name: CoNIFER
+full_name: copy number inference from exome reads
+category: dry
+summary: Detects rare genic copy number variants and genotypes copy-number polymorphic loci from exome sequencing data using
+  SVD normalization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+reference:
+  doi: 10.1101/gr.138115.112
+  year: 2012
+  journal: Genome Res
+  first_author: Krumm N
+  last_author: Eichler EE
+  pmid: '22585873'
+  pmcid: PMC3409265
+  title: Copy number variation detection and genotyping from exome sequence data
+links: {}
+added: '2026-11-12'
+evidence: We developed a novel method using singular value decomposition (SVD) normalization to discover rare genic copy number
+  variants (CNVs) as well as genotype copy number polymorphic (CNP) loci with high sensitivity and specificity from exome
+  sequencing data.

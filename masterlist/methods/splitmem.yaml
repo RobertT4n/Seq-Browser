@@ -1,0 +1,23 @@
+name: splitMEM
+category: dry
+summary: Algorithm that builds the compressed de Bruijn graph of a pan-genome directly from suffix-tree maximal exact matches,
+  using suffix skips.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu756
+  year: 2014
+  journal: Bioinformatics
+  first_author: Marcus S
+  last_author: Schatz MC
+  pmid: '25398610'
+  pmcid: PMC4253837
+  title: 'SplitMEM: a graphical algorithm for pan-genome analysis with suffix skips'
+links: {}
+added: '2026-11-12'
+evidence: We explore deep topological relationships between suffix trees and compressed de Bruijn graphs and introduce an
+  algorithm, splitMEM, that directly constructs the compressed de Bruijn graph in time and space linear to the total number
+  of genomes for a given maximum genome size.

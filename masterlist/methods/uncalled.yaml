@@ -1,0 +1,26 @@
+name: UNCALLED
+category: dry
+summary: Open-source mapper that matches streaming raw nanopore signal to a reference for real-time targeted sequencing.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+links: {}
+reference:
+  doi: 10.1038/s41587-020-0731-9
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Kovaka S
+  last_author: Schatz MC
+  pmid: '33257863'
+  pmcid: PMC8567335
+  title: Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED
+  preprint_doi: 10.1101/2020.02.03.931923
+added: '2026-11-12'
+evidence: Here we present UNCALLED ( github.com/skovaka/UNCALLED ), an open-source mapper that rapidly matches streaming nanopore
+  current signals to a reference sequence.

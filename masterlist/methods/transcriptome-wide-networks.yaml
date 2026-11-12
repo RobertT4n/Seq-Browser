@@ -1,0 +1,21 @@
+name: Transcriptome-Wide Networks
+category: dry
+summary: Framework that combines total gene expression and relative isoform levels into a single sparse co-expression network.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1101/gr.216721.116
+  year: 2017
+  journal: Genome Res
+  first_author: Saha A
+  last_author: Battle A
+  pmid: '29021288'
+  pmcid: PMC5668942
+  title: Co-expression networks reveal the tissue-specific regulation of transcription and splicing
+added: '2026-11-12'
+evidence: First, we developed a framework called Transcriptome-Wide Networks (TWNs) for combining total expression and relative
+  isoform levels into a single sparse network

@@ -1,0 +1,25 @@
+name: MAGI
+full_name: merging affected genes into integrated networks
+category: dry
+summary: Computational method integrating protein-protein interactions with expression to find network modules enriched for
+  de novo mutations.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/gr.178855.114
+  year: 2015
+  journal: Genome Res
+  first_author: Hormozdiari F
+  last_author: Eichler EE
+  pmid: '25378250'
+  pmcid: PMC4317170
+  title: The discovery of integrated gene networks for autism and related disorders
+links: {}
+added: '2026-11-12'
+evidence: We developed a computational method, termed MAGI (merging affected genes into integrated networks), that simultaneously
+  integrates protein-protein interactions and RNA-seq expression profiles during brain development to discover "modules" enriched
+  for de novo mutations in probands.

@@ -1,0 +1,21 @@
+name: MEMO
+full_name: Maximal Exact Match Ordered
+category: dry
+summary: Pangenome index built on maximal exact matches that answers k-mer presence and conservation queries of arbitrary
+  length.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.21203/rs.3.rs-5363291/v1
+  year: 2024
+  journal: Research Square
+  first_author: Hwang S
+  last_author: Langmead B
+  title: MEM-based pangenome indexing for k-mer queries
+links: {}
+added: '2026-11-12'
+evidence: We present Maximal Exact Match Ordered (MEMO), a pangenome indexing method based on maximal exact matches (MEMs)
+  between sequences.

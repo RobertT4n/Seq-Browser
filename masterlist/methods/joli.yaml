@@ -1,0 +1,22 @@
+name: JOLI
+category: dry
+summary: Hierarchical empirical-Bayes model that jointly quantifies transcript isoforms from multi-sample short-read and long-read
+  RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2025.02.08.637184
+  year: 2025
+  journal: bioRxiv
+  first_author: Talukder A
+  last_author: Knowles DA
+  title: Multi-sample, multi-platform isoform quantification using empirical Bayes
+links: {}
+added: '2026-11-12'
+evidence: To address these limitations, we introduce JOLI , a hierarchical model that leverages multi-sample learning to enhance
+  transcript quantification by jointly integrating SR and LR sequencing data.

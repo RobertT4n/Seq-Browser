@@ -1,0 +1,23 @@
+name: scEEMS
+full_name: single-cell Enhanced Expression Modifier Scores
+category: dry
+summary: Predictive models that identify cell-type-specific eQTLs from genomic features and use them as priors in fine-mapping
+  and eMAGMA.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.64898/2025.12.03.25341562
+  year: 2025
+  journal: medRxiv
+  first_author: Lakhani CM
+  last_author: Knowles DA
+  title: Machine Learning-Based Prediction of Cell-type Resolved Brain eQTLs Enhances Discovery of Variants Explaining Alzheimer’s
+    Disease Heritability
+added: '2026-11-12'
+evidence: we developed predictive models, called single-cell Enhanced Expression Modifier Scores (scEEMS), to identify cell
+  type-specific eQTLs

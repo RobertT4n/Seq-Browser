@@ -1,0 +1,29 @@
+name: Clairvoyante
+category: dry
+summary: Multi-task convolutional network that calls variant type, zygosity, alternative allele and indel length from aligned
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+species:
+- human
+reference:
+  doi: 10.1038/s41467-019-09025-z
+  year: 2019
+  journal: Nat Commun
+  first_author: Luo R
+  last_author: Schatz MC
+  pmid: '30824707'
+  pmcid: PMC6397153
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+  preprint_doi: 10.1101/310458
+links: {}
+added: '2026-11-12'
+evidence: we developed Clairvoyante, a multi-task five-layer convolutional neural network model for predicting variant type
+  (SNP or indel), zygosity, alternative allele and indel length from aligned reads.

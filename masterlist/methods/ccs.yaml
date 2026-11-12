@@ -1,0 +1,32 @@
+name: CCS
+full_name: circular consensus sequencing
+category: wet
+summary: Single-molecule circular consensus long-read sequencing protocol producing highly accurate (~99.8%) long reads for
+  variant detection and assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+species:
+- human
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41587-019-0217-9
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Wenger AM
+  last_author: Hunkapiller MW
+  pmid: '31406327'
+  pmcid: PMC6776680
+  title: Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome
+  preprint_doi: 10.1101/519025
+links: {}
+added: '2026-11-12'
+evidence: We developed a protocol based on single-molecule, circular consensus sequencing (CCS) to generate highly-accurate
+  (99.8%) long reads averaging 13.5 kb and applied it to sequence the well-characterized human HG002/NA24385.

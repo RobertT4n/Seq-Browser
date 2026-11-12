@@ -1,0 +1,21 @@
+name: Smudgeplot
+category: dry
+summary: Visualisation of heterozygous k-mer pairs that estimates ploidy and genome structure from reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-14998-3
+  year: 2020
+  journal: Nat Commun
+  first_author: Ranallo-Benavidez TR
+  last_author: Schatz MC
+  pmid: '32188846'
+  pmcid: PMC7080791
+  title: GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes
+links: {}
+added: '2026-11-12'
+evidence: We also present a method called Smudgeplot (https://github.com/KamilSJaron/smudgeplot) to visualize and estimate
+  the ploidy and genome structure of a genome by analyzing heterozygous k-mer pairs.

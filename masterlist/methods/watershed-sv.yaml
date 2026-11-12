@@ -1,0 +1,25 @@
+name: Watershed-SV
+category: dry
+summary: Probabilistic model that integrates expression data with SV annotations to prioritise functional rare structural
+  variants from long-read genomes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279323.124
+  year: 2025
+  journal: Genome Res
+  first_author: Jensen TD
+  last_author: Battle A
+  pmid: '40113264'
+  pmcid: PMC12047269
+  title: Integration of transcriptomics and long-read genomics prioritizes structural variants in rare disease
+  preprint_doi: 10.1101/2024.03.22.24304565
+links: {}
+added: '2026-11-12'
+evidence: To prioritize candidate functional SVs, we developed Watershed-SV, a probabilistic model that integrates expression
+  data with SV-specific genomic annotations, which significantly outperforms baseline models that do not incorporate expression
+  data.
