@@ -20,7 +20,7 @@
   <div class="bar">
     <input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search">
     <span class="count" id="count"></span>
-    <label class="drytog">Show <select id="kind" aria-label="Show experimental or computational methods"><option value="wet">Experimental</option><option value="dry">Computational</option><option value="all">Both</option></select> <span class="beta">beta</span></label>
+    <label class="drytog">Show <select id="kind" aria-label="Show experimental or computational methods"><option value="wet">Experimental</option><option value="dry">Computational (beta)</option><option value="all">Both</option></select> <span class="beta" id="betab" hidden>beta</span></label>
     <a class="btn" href="methods.csv" download>Download CSV</a>
   </div>
   <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
@@ -87,6 +87,7 @@ function render() {
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
     (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q));
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
+  document.getElementById("betab").hidden = kind !== "dry";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
   { const g = document.querySelectorAll("#facets .fg")[6]; if (g) g.hidden = !dryOn; }   // the Task filter only exists for computational tools
   const rows = pool.filter(m => pass(m));
