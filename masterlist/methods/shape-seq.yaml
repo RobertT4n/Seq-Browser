@@ -1,0 +1,26 @@
+name: SHAPE-Seq
+full_name: Selective 2'-hydroxyl acylation analyzed by primer extension sequencing
+category: wet
+summary: SHAPE chemical probing combined with multiplexed paired-end sequencing of primer-extension products to read RNA secondary
+  and tertiary structure at single-nucleotide resolution.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1106501108
+  year: 2011
+  journal: Proc Natl Acad Sci U S A
+  first_author: Lucks JB
+  last_author: Arkin AP
+  pmid: '21642531'
+  pmcid: PMC3131332
+  title: Multiplexed RNA structure characterization with selective 2'-hydroxyl acylation analyzed by primer extension sequencing
+    (SHAPE-Seq)
+links: {}
+added: '2026-11-12'
+evidence: We have developed a high-throughput technique, SHAPE-Seq, that can simultaneously measure quantitative, single nucleotide-resolution
+  secondary and tertiary structural information for hundreds of RNA molecules of arbitrary sequence.

@@ -1,0 +1,27 @@
+name: Degradome sequencing
+category: wet
+summary: Transcriptome-wide sampling of the 5' ends of polyadenylated uncapped mRNAs to detect and quantify small-RNA-directed
+  cleavage targets without prediction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1016/j.cub.2008.04.042
+  year: 2008
+  journal: Curr Biol
+  first_author: Addo-Quaye C
+  last_author: Axtell MJ
+  pmid: '18472421'
+  pmcid: PMC2583427
+  title: Endogenous siRNA and miRNA targets identified by sequencing of the Arabidopsis degradome
+links: {}
+added: '2026-11-12'
+evidence: Here, we present a transcriptome-wide experimental method, called "degradome sequencing," to directly detect cleaved
+  miRNA targets without relying on predictions or overexpression.

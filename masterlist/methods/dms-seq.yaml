@@ -1,0 +1,28 @@
+name: DMS-seq
+category: wet
+summary: In vivo dimethyl sulfate modification of unpaired A and C followed by deep sequencing to probe RNA structure genome-wide
+  at single-nucleotide resolution.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nature12894
+  year: 2014
+  journal: Nature
+  first_author: Rouskin S
+  last_author: Weissman JS
+  pmid: '24336214'
+  pmcid: PMC3966492
+  title: Genome-wide probing of RNA structure reveals active unfolding of mRNA structures in vivo
+links: {}
+added: '2026-11-12'
+evidence: Here we present an approach for globally monitoring RNA structure in native conditions in vivo with single-nucleotide
+  precision. This method is based on in vivo modification with dimethyl sulphate (DMS), which reacts with unpaired adenine
+  and cytosine residues, followed by deep sequencing to monitor modifications.

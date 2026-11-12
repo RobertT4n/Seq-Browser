@@ -1,0 +1,33 @@
+name: eCLIP
+full_name: Enhanced CLIP
+category: wet
+summary: Streamlined CLIP protocol with size-matched input controls and far less PCR amplification, used for large-scale ENCODE
+  profiling of RBPs.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- adapter-ligation
+variant_of:
+- hits-clip
+reference:
+  doi: 10.1038/nmeth.3810
+  year: 2016
+  journal: Nat Methods
+  first_author: Van Nostrand EL
+  last_author: Yeo GW
+  pmid: '27018577'
+  pmcid: PMC4887338
+  title: Robust transcriptome-wide discovery of RNA-binding protein binding sites with enhanced CLIP (eCLIP)
+links: {}
+added: '2026-11-12'
+evidence: We have developed an enhanced CLIP (eCLIP) protocol that decreases requisite amplification by ~1,000-fold, decreasing
+  discarded PCR duplicate reads by ~60% while maintaining single-nucleotide binding resolution.

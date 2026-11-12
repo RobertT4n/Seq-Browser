@@ -1,0 +1,28 @@
+name: iCLIP
+full_name: Individual-nucleotide resolution UV cross-linking and immunoprecipitation
+category: wet
+summary: CLIP variant whose cDNA truncation at the crosslink site is captured by circularisation, giving individual-nucleotide
+  resolution maps of protein-RNA binding.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- hits-clip
+reference:
+  doi: 10.1038/nsmb.1838
+  year: 2010
+  journal: Nat Struct Mol Biol
+  first_author: König J
+  last_author: Ule J
+  pmid: '20601959'
+  pmcid: PMC3000544
+  title: iCLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution
+links: {}
+added: '2026-11-12'
+evidence: Here, we developed individual-nucleotide resolution UV cross-linking and immunoprecipitation (iCLIP) to study the
+  role of hnRNP C in splicing regulation.

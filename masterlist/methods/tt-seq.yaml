@@ -1,0 +1,32 @@
+name: TT-seq
+full_name: Transient transcriptome sequencing
+category: wet
+summary: Short 4sU labelling pulse followed by fragmentation and purification of labelled RNA to map the transient transcriptome
+  and estimate RNA synthesis and degradation rates.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1126/science.aad9841
+  year: 2016
+  journal: Science
+  first_author: Schwalb B
+  last_author: Cramer P
+  pmid: '27257258'
+  title: TT-seq maps the human transient transcriptome
+links: {}
+added: '2026-11-12'
+evidence: We developed transient transcriptome sequencing (TT-seq), a protocol that uniformly maps the entire range of RNA-producing
+  units and estimates rates of RNA synthesis and degradation.

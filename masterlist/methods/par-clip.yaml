@@ -1,0 +1,29 @@
+name: PAR-CLIP
+full_name: Photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation
+category: wet
+summary: Cell-based crosslinking with 4-thiouridine so that crosslink sites appear as T-to-C transitions in cDNA, mapping
+  RBP and miRNP binding sites transcriptome-wide.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- hits-clip
+reference:
+  doi: 10.1016/j.cell.2010.03.009
+  year: 2010
+  journal: Cell
+  first_author: Hafner M
+  last_author: Tuschl T
+  pmid: '20371350'
+  pmcid: PMC2861495
+  title: Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP
+links: {}
+added: '2026-11-12'
+evidence: The crosslinked sites are revealed by thymidine to cytidine transitions in the cDNAs prepared from immunopurified
+  RNPs of 4-thiouridine-treated cells.

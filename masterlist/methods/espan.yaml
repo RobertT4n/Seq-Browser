@@ -1,0 +1,29 @@
+name: eSPAN
+full_name: Enrichment and sequencing of protein-associated nascent DNA
+category: wet
+summary: ChIP of a replication-fork protein followed by sequencing of the associated nascent DNA, revealing association with
+  leading versus lagging strands genome-wide.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- antibody-pull-down
+- adapter-ligation
+reference:
+  doi: 10.1016/j.molcel.2014.09.017
+  year: 2014
+  journal: Mol Cell
+  first_author: Yu C
+  last_author: Zhang Z
+  pmid: '25449133'
+  pmcid: PMC4362665
+  title: Strand-specific analysis shows protein binding at replication forks and PCNA unloading from lagging strands when
+    forks stall
+links: {}
+added: '2026-11-12'
+evidence: Here we describe a method, eSPAN (enrichment and sequencing of protein-associated nascent DNA), which reveals the
+  genome-wide association of proteins with leading and lagging strands of DNA replication forks.

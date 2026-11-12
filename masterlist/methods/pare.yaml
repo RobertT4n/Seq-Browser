@@ -1,0 +1,27 @@
+name: PARE
+full_name: Parallel analysis of RNA ends
+category: wet
+summary: Sequencing of the 5' ends of polyadenylated, uncapped mRNA decay products to identify miRNA-directed cleavage sites
+  and target RNAs transcriptome-wide.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/nbt1417
+  year: 2008
+  journal: Nat Biotechnol
+  first_author: German MA
+  last_author: Green PJ
+  pmid: '18542052'
+  title: Global identification of microRNA-target RNA pairs by parallel analysis of RNA ends
+links: {}
+added: '2026-11-12'
+evidence: We directly sequenced >28,000,000 signatures from the 5' ends of polyadenylated products of miRNA-mediated mRNA
+  decay, isolated from inflorescence tissue of Arabidopsis thaliana, to discover novel miRNA-target RNA pairs.

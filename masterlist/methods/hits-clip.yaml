@@ -1,0 +1,30 @@
+name: HITS-CLIP
+full_name: High-throughput sequencing of RNA isolated by crosslinking immunoprecipitation
+category: wet
+summary: UV crosslinking and immunoprecipitation of an RNA-binding protein followed by high-throughput sequencing to map protein-RNA
+  binding sites genome-wide in vivo.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1038/nature07488
+  year: 2008
+  journal: Nature
+  first_author: Licatalosi DD
+  last_author: Darnell RB
+  pmid: '18978773'
+  pmcid: PMC2597294
+  title: HITS-CLIP yields genome-wide insights into brain alternative RNA processing
+links: {}
+added: '2026-11-12'
+evidence: Here we develop a genome-wide means of mapping protein-RNA binding sites in vivo, by high-throughput sequencing
+  of RNA isolated by crosslinking immunoprecipitation (HITS-CLIP).

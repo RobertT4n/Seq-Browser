@@ -1,0 +1,26 @@
+name: CAGE
+full_name: Cap analysis gene expression
+category: wet
+summary: Sequencing of concatenated tags from the first 20 nucleotides of 5' mRNA ends to profile transcriptional start points
+  and promoter usage.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2136655100
+  year: 2003
+  journal: Proc Natl Acad Sci U S A
+  first_author: Shiraki T
+  last_author: Hayashizaki Y
+  pmid: '14663149'
+  pmcid: PMC307644
+  title: Cap analysis gene expression for high-throughput analysis of transcriptional starting point and identification of
+    promoter usage
+links: {}
+added: '2026-11-12'
+evidence: We introduce cap analysis gene expression (CAGE), which is based on preparation and sequencing of concatamers of
+  DNA tags deriving from the initial 20 nucleotides from 5' end mRNAs.

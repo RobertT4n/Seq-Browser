@@ -1,0 +1,26 @@
+name: Illumina/Solexa sequencing
+category: wet
+summary: Massively parallel short-read sequencing in which single DNA molecules are amplified in situ on a flat surface and
+  read by sequencing-by-synthesis with fluorescent reversible terminators, shown by re-sequencing a human genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/nature07517
+  year: 2008
+  journal: Nature
+  first_author: Bentley DR
+  last_author: Smith AJ
+  pmid: '18987734'
+  pmcid: PMC2581791
+  title: Accurate whole human genome sequencing using reversible terminator chemistry
+links: {}
+added: '2026-11-12'
+evidence: Single molecules of DNA are attached to a flat surface, amplified in situ and used as templates for synthetic sequencing
+  with fluorescent reversible terminator deoxyribonucleotides.
