@@ -1,0 +1,18 @@
+name: kallisto bustools
+category: dry
+summary: Modular pseudoalignment workflow (kallisto + bustools) that turns single-cell RNA-seq reads into count matrices with
+  constant memory.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-00870-2
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Melsted P
+  last_author: Pachter L
+  title: Modular, efficient and constant-memory single-cell RNA-seq preprocessing
+links: {}
+added: '2026-11-12'

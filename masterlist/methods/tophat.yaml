@@ -1,0 +1,17 @@
+name: TopHat
+category: dry
+summary: Spliced aligner that maps RNA-seq reads and discovers splice junctions using Bowtie.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btp120
+  year: 2009
+  journal: Bioinformatics
+  first_author: Trapnell C
+  last_author: Salzberg SL
+  title: 'TopHat: discovering splice junctions with RNA-Seq'
+links: {}
+added: '2026-11-12'
