@@ -49,4 +49,4 @@ Computational (dry) methods are collected but kept "under construction" until cu
 ## Submitting a method
 
 Use the **[Submit page](https://robertt4n.github.io/Seq-Browser/submit.html)**, which opens a pre-filled submission issue. 
-Submissions by this approach are added to the weekly trawl with priority.
+Submissions by this approach are added to the weekly trawl with priority. If you have suggestions to improve this resource, please please contact me on [Twitter](https://x.com/RobertT4n) or [LinkedIn](https://www.linkedin.com/in/robert-tan-597a57147/). Thank you :).
