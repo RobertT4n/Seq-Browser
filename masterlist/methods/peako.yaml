@@ -1,0 +1,20 @@
+name: peaKO
+category: dry
+summary: Computational method that optimises motif discovery in ChIP-seq using paired wild-type and knockout controls.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad031
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Denisko D
+  last_author: Hoffman MM
+  pmid: '37033469'
+  pmcid: PMC10074035
+  title: Motif elucidation in ChIP-seq datasets with a knockout control
+links: {}
+added: '2026-11-12'
+evidence: We introduce peaKO-a computational method to automatically optimize motif analyses with KO controls

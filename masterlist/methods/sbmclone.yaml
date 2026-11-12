@@ -1,0 +1,21 @@
+name: SBMClone
+category: dry
+summary: Method for identifying tumour clones from sparse single-cell mutation data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa449
+  year: 2020
+  journal: Bioinformatics
+  first_author: Myers MA
+  last_author: Raphael BJ
+  pmid: '32657385'
+  pmcid: PMC7355247
+  title: Identifying tumor clones in sparse single-cell mutation data
+links: {}
+added: '2026-11-12'
+evidence: However, these technologies have ultra-low sequencing coverage (ResultsWe introduce SBMClone, a method to infer
+  clusters of cells, or clones, that share groups of somatic single-nucleotide mutations.

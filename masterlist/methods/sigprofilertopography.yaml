@@ -1,0 +1,23 @@
+name: SigProfilerTopography
+category: dry
+summary: Python package that tests how chromatin, histone marks, TF binding, replication and transcription shape the activity
+  of mutational processes.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03612-8
+  year: 2025
+  journal: Genome Biol
+  first_author: Otlu B
+  last_author: Alexandrov LB
+  pmid: '40394581'
+  pmcid: PMC12093824
+  title: Evaluating topography of mutational signatures with SigProfilerTopography.
+links: {}
+added: '2026-11-12'
+evidence: Here, we present SigProfilerTopography, a Python package that allows evaluating the effect of chromatin organization,
+  histone modifications, transcription factor binding, DNA replication, and DNA transcription on the activities of different
+  mutational processes.

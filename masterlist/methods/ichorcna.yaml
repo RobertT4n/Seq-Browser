@@ -1,0 +1,22 @@
+name: ichorCNA
+category: dry
+summary: Software that quantifies tumour content and copy number in cfDNA from low-coverage sequencing without prior tumour
+  mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-017-00965-y
+  year: 2017
+  journal: Nat Commun
+  first_author: Adalsteinsson VA
+  last_author: Meyerson M
+  pmid: '29109393'
+  pmcid: PMC5673918
+  title: Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors
+links: {}
+added: '2026-11-12'
+evidence: Here we report ichorCNA, software that quantifies tumor content in cfDNA from 0.1× coverage whole-genome sequencing
+  data without prior knowledge of tumor mutations.

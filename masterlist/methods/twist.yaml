@@ -1,0 +1,22 @@
+name: TWiST
+category: dry
+summary: Trajectory-based TWAS that models the effect of gene expression on a trait as a pseudotemporal curve from single-cell
+  eQTL data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.101060
+  year: 2026
+  journal: Cell Genom
+  first_author: Qi G
+  last_author: Sun W
+  pmid: '41187759'
+  pmcid: PMC12926191
+  title: Transcriptome-wide association studies at cell-state level using single-cell eQTL data.
+links: {}
+added: '2026-11-12'
+evidence: We present TWiST, a statistical method for TWAS at cell-state resolution using single-cell expression quantitative
+  trait locus (eQTL) data.

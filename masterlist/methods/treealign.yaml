@@ -1,0 +1,24 @@
+name: TreeAlign
+category: dry
+summary: Integrates independently sampled single-cell DNA and RNA data to define subclones and their allele-specific expression
+  effects.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-46710-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Shi H
+  last_author: Shah SP
+  pmid: '38509111'
+  pmcid: PMC10954741
+  title: Allele-specific transcriptional effects of subclonal copy number alterations enable genotype-phenotype mapping in
+    cancer cells
+links: {}
+added: '2026-11-12'
+evidence: We develop TreeAlign, which computationally integrates independently sampled single-cell DNA and RNA sequencing
+  data from the same cell population.

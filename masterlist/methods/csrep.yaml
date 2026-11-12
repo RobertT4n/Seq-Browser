@@ -1,0 +1,20 @@
+name: CSREP
+category: dry
+summary: Framework that summarises and compares chromatin state annotations across groups of samples.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac722
+  year: 2023
+  journal: Bioinformatics
+  first_author: Vu H
+  last_author: Ernst J
+  pmid: '36342196'
+  pmcid: PMC9805555
+  title: A framework for group-wise summarization and comparison of chromatin state annotations
+links: {}
+added: '2026-11-12'
+evidence: Results We developed CSREP, which takes as input chromatin state annotations for a group of samples.

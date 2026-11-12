@@ -1,0 +1,89 @@
+# Task labels for computational tools added in the third 2026-11-12 sweep round.
+{absolute: [variants-clones], acidbio: [benchmark-infrastructure], agnostos: [benchmark-infrastructure],
+  anise: [genome-assembly], armor: [preprocessing-qc, differential-analysis, benchmark-infrastructure],
+  ascot: [differential-analysis], bact-builder: [genome-assembly], basil: [variants-clones,
+    genome-assembly], batchsvg: [spatial-analysis], bcftools-roh: [variants-clones],
+  bedtk: [benchmark-infrastructure], bighorn: [regulatory-networks], biisq: [preprocessing-qc],
+  biobakery-3: [metagenomics-taxonomy], bivi: [dimensionality-visualization], breakinator: [
+    preprocessing-qc], bsmooth: [differential-analysis, preprocessing-qc], c-side: [
+    differential-analysis, spatial-analysis], calicost: [variants-clones, spatial-analysis],
+  carta: [trajectory-velocity, variants-clones], cellassign: [clustering-annotation],
+  cello: [clustering-annotation], cellrouter: [trajectory-velocity], cellspace: [
+    dimensionality-visualization], chi-cnn: [3d-genome-analysis], chorumm: [differential-analysis],
+  chromactivity: [regulatory-networks], chromgene: [clustering-annotation], cnvpytor: [
+    variants-clones], colord: [preprocessing-qc], constrains: [metagenomics-taxonomy,
+    variants-clones], contaminationx: [preprocessing-qc], conterminator: [benchmark-infrastructure,
+    preprocessing-qc], contest: [preprocessing-qc], copulacci: [cell-communication,
+    spatial-analysis], corticall: [variants-clones], countsimqc: [preprocessing-qc],
+  crema: [regulatory-networks], crsp: [benchmark-infrastructure], csrep: [differential-analysis],
+  cytomod: [regulatory-networks], cytovi: [dimensionality-visualization], da-seq: [
+    differential-analysis], dbgfm: [benchmark-infrastructure], decontam: [preprocessing-qc],
+  deepsomatic: [variants-clones], deju: [differential-analysis], derfinder: [differential-analysis],
+  deseq2: [differential-analysis], detin: [variants-clones], dexseq: [differential-analysis],
+  digital-microbe: [benchmark-infrastructure], dpgp: [clustering-annotation], dragen: [
+    variants-clones], dreg: [regulatory-networks], driverpower: [differential-analysis],
+  drprg: [variants-clones], espresso: [variants-clones], fastani: [metagenomics-taxonomy],
+  fastbe: [variants-clones], fermi: [genome-assembly, variants-clones], ffperase: [
+    variants-clones], flowgramfixer: [preprocessing-qc], galba: [genome-assembly],
+  gaston-mix: [spatial-analysis], gatk-gcnv: [variants-clones], gbcd: [dimensionality-visualization],
+  gbstools: [variants-clones], gecsi: [regulatory-networks], gem: [variants-clones],
+  genecover: [clustering-annotation], gentb: [variants-clones], giotto: [spatial-analysis],
+  glimpse2: [variants-clones], gotcloud: [variants-clones, preprocessing-qc], gpmap-tools: [
+    sequence-to-function], gscreend: [differential-analysis, perturbation-modelling],
+  gustaf: [variants-clones], haplosaurus: [benchmark-infrastructure], hatchet2: [
+    variants-clones], hi-recomb: [3d-genome-analysis, variants-clones], hic-dc: [
+    3d-genome-analysis, differential-analysis], hic-dc-plus: [3d-genome-analysis,
+    differential-analysis], hic2self: [3d-genome-analysis], hoodscanr: [spatial-analysis],
+  htseq: [preprocessing-qc, benchmark-infrastructure], htseq-clip: [preprocessing-qc],
+  humann: [metagenomics-taxonomy], humann2: [metagenomics-taxonomy], hybracter: [
+    genome-assembly], ichorcna: [variants-clones], igloo: [genome-assembly], impact: [
+    regulatory-networks], integrated-diffusion: [multimodal-integration, dimensionality-visualization],
+  jbrowse-connect: [benchmark-infrastructure], karp: [metagenomics-taxonomy], karyoscope: [
+    variants-clones], laml-pro: [variants-clones], lancet2: [variants-clones], leaf: [
+    variants-clones], lorbin: [metagenomics-taxonomy], lr-kallisto: [preprocessing-qc],
+  lucaprot: [metagenomics-taxonomy], machina: [variants-clones], magic: [preprocessing-qc],
+  map3c: [3d-genome-analysis, preprocessing-qc], mars: [clustering-annotation, integration],
+  matador: [disease-classification], mave-nn: [sequence-to-function], mebocost: [
+    cell-communication], medipipe: [preprocessing-qc, benchmark-infrastructure], mehendi: [
+    differential-analysis], metamdbg: [genome-assembly], metaphlan-4: [metagenomics-taxonomy],
+  methphaser: [variants-clones], mgefinder: [variants-clones], minicore: [clustering-annotation],
+  mirtarrnaseq: [regulatory-networks, differential-analysis], misa: [metagenomics-taxonomy],
+  mochi: [metagenomics-taxonomy], monalisa: [regulatory-networks], mpathic: [sequence-to-function],
+  multivi: [multimodal-integration, integration], mutect: [variants-clones], netsig: [
+    variants-clones], ng-meta-profiler: [metagenomics-taxonomy, preprocessing-qc],
+  ngless: [benchmark-infrastructure, metagenomics-taxonomy], nnovae: [metagenomics-taxonomy],
+  onconpc: [disease-classification], outbreak-info: [metagenomics-taxonomy, benchmark-infrastructure],
+  pandora: [variants-clones], paste2: [spatial-analysis, integration], perm-seq: [
+    preprocessing-qc], pert: [variants-clones], phylosub: [variants-clones], poreover: [
+    preprocessing-qc], pregame: [clustering-annotation], probabilistic-gene-expression-barcode: [
+    clustering-annotation, integration], prober: [modification-calling], proovframe: [
+    genome-assembly, preprocessing-qc], protect: [variants-clones, benchmark-infrastructure],
+  prsem: [preprocessing-qc], puffaligner: [preprocessing-qc], pypolca: [genome-assembly],
+  qcatch: [preprocessing-qc], qiime-2: [metagenomics-taxonomy, benchmark-infrastructure],
+  qplot: [preprocessing-qc], ragout-2: [genome-assembly], rail-rna: [preprocessing-qc],
+  raptor: [benchmark-infrastructure], raresim: [benchmark-infrastructure], rctd: [
+    spatial-analysis], read2tree: [benchmark-infrastructure], recount3: [benchmark-infrastructure,
+    preprocessing-qc], referee: [genome-assembly], reindeer: [benchmark-infrastructure],
+  resic: [variants-clones], residpca: [dimensionality-visualization, clustering-annotation],
+  rm2: [differential-analysis], rna-seqc-2: [preprocessing-qc], safe-clustering: [
+    clustering-annotation], sapphire: [variants-clones], sbmclone: [variants-clones],
+  scarlet: [variants-clones], scdrs: [differential-analysis], scent: [regulatory-networks],
+  sclong: [foundation-model], seabase: [regulatory-networks, benchmark-infrastructure],
+  seek: [benchmark-infrastructure], seqgl: [regulatory-networks], serratus: [metagenomics-taxonomy,
+    benchmark-infrastructure], shapeit5: [variants-clones], sigprofilertopography: [
+    differential-analysis], siid: [spatial-analysis, integration], slimm: [metagenomics-taxonomy],
+  snaptron: [benchmark-infrastructure], sniffles2: [variants-clones], spatialmnn: [
+    spatial-analysis, integration], splicecov: [preprocessing-qc], spotsweeper: [
+    preprocessing-qc], stpipe: [preprocessing-qc], str-fm: [variants-clones], strainy: [
+    genome-assembly, metagenomics-taxonomy], stringtie2: [preprocessing-qc], strong: [
+    genome-assembly, metagenomics-taxonomy], strspy: [variants-clones], structured-in-silico-nano-dissection: [
+    spatial-analysis], svaba: [variants-clones], svcollector: [variants-clones], svdss: [
+    variants-clones], svhound: [variants-clones], t1k: [variants-clones], tbtamr: [
+    variants-clones], tcri: [variants-clones, multimodal-integration], tiebrush: [
+    preprocessing-qc], tinga: [trajectory-velocity], tipp2: [metagenomics-taxonomy],
+  tophat2: [preprocessing-qc], tracksig: [variants-clones], trajectorynet: [trajectory-velocity],
+  transigner: [preprocessing-qc], trawlerweb: [regulatory-networks], treealign: [
+    variants-clones, multimodal-integration], twist: [differential-analysis, trajectory-velocity],
+  typhi-mykrobe: [variants-clones], vimcca: [multimodal-integration, dimensionality-visualization],
+  virtual-chip-seq: [regulatory-networks], whereswalker: [variants-clones], winpca: [
+    dimensionality-visualization]}

@@ -1,0 +1,21 @@
+name: HUMAnN
+category: dry
+summary: Infers gene-family and pathway abundance of a microbial community directly from metagenomic short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1002358
+  year: 2012
+  journal: PLoS Comput Biol
+  first_author: Abubucker S
+  last_author: Huttenhower C
+  pmid: '22719234'
+  pmcid: PMC3374609
+  title: Metabolic reconstruction for metagenomic data and its application to the human microbiome
+links: {}
+added: '2026-11-12'
+evidence: We subsequently applied this method, HUMAnN, to the microbial communities of 649 metagenomes drawn from seven primary
+  body sites on 102 individuals as part of the Human Microbiome Project (HMP).

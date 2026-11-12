@@ -1,0 +1,21 @@
+name: countsimQC
+category: dry
+summary: Generates a stand-alone quality report comparing synthetic count data with the experimental data they mimic.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx631
+  year: 2018
+  journal: Bioinformatics
+  first_author: Soneson C
+  last_author: Robinson MD
+  pmid: '29028961'
+  pmcid: PMC5860609
+  title: Towards unified quality verification of synthetic count data with countsimQC
+links: {}
+added: '2026-11-12'
+evidence: We describe countsimQC, which provides a straightforward way to generate a stand-alone report that shows the main
+  characteristics of (e.g.

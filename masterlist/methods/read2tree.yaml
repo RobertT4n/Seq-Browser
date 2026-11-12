@@ -1,0 +1,22 @@
+name: Read2Tree
+category: dry
+summary: Assembly-free pipeline that turns raw sequencing reads into groups of corresponding genes for phylogenetic tree inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01753-4
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Dylus D
+  last_author: Dessimoz C
+  pmid: '37081138'
+  pmcid: PMC10791578
+  title: Inference of phylogenetic trees directly from raw sequencing reads using Read2Tree
+links: {}
+added: '2026-11-12'
+evidence: To overcome these challenges, we present Read2Tree, which directly processes raw sequencing reads into groups of
+  corresponding genes and bypasses traditional steps in phylogeny inference, such as genome assembly, annotation and all-versus-all
+  sequence comparisons, while retaining accuracy.

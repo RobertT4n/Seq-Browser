@@ -1,0 +1,23 @@
+name: DriverPower
+category: dry
+summary: Software that combines mutational-burden and functional-impact tests to find cancer driver mutations in coding and
+  non-coding sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-13929-1
+  year: 2020
+  journal: Nat Commun
+  first_author: Shuai S
+  last_author: PCAWG Consortium
+  pmid: '32024818'
+  pmcid: PMC7002750
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+links: {}
+added: '2026-11-12'
+evidence: Here, as part of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium, which aggregated whole genome
+  sequencing data from 2658 cancers across 38 tumour types, we describe DriverPower, a software package that uses mutational
+  burden and functional impact evidence to identify driver mutations in coding and non-coding sites within cancer whole genomes.

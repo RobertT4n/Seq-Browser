@@ -1,0 +1,22 @@
+name: pRSEM
+full_name: prior-enhanced RSEM
+category: dry
+summary: Prior-enhanced RSEM that uses ChIP-seq data to improve isoform-level quantification from RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.199174.115
+  year: 2016
+  journal: Genome Res
+  first_author: Liu P
+  last_author: Dewey CN
+  pmid: '27405803'
+  pmcid: PMC4971760
+  title: Integrative analysis with ChIP-seq advances the limits of transcript quantification from RNA-seq
+links: {}
+added: '2026-11-12'
+evidence: To improve quantification accuracy in such difficult cases, we developed a novel computational method, prior-enhanced
+  RSEM (pRSEM), which uses a complementary data type in addition to RNA-seq data.

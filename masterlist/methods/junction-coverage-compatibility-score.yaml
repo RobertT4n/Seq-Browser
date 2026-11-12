@@ -1,0 +1,22 @@
+name: Junction coverage compatibility score
+category: dry
+summary: Score comparing observed splice-junction read coverage with coverage predicted from transcript abundances.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.26508/lsa.201800175
+  year: 2019
+  journal: Life Sci Alliance
+  first_author: Soneson C
+  last_author: Robinson MD
+  pmid: '30655364'
+  pmcid: PMC6337739
+  title: A junction coverage compatibility score to quantify the reliability of transcript abundance estimates and annotation
+    catalogs
+links: {}
+added: '2026-11-12'
+evidence: Here, we present the junction coverage compatibility score, which provides a way to evaluate the reliability of
+  transcript-level abundance estimates

@@ -1,0 +1,24 @@
+name: NanoPsu
+category: dry
+summary: Machine-learning prediction of quantitative pseudouridine levels from nanopore native RNA reads.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-021-02557-y
+  year: 2021
+  journal: Genome Biol
+  first_author: Huang S
+  last_author: Pan T
+  pmid: '34872593'
+  pmcid: PMC8646010
+  title: Interferon inducible pseudouridine modification in human mRNA by quantitative nanopore profiling
+links: {}
+added: '2026-11-12'
+evidence: We develop a nanopore native RNA sequencing method for quantitative Ψ prediction (NanoPsu) that utilizes native
+  content training, machine learning modeling, and single-read linkage analysis.

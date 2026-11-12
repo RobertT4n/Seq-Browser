@@ -1,0 +1,21 @@
+name: fastBE
+category: dry
+summary: Scalable regression-based phylogenetic inference from multi-sample bulk DNA sequencing of tumours.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012631
+  year: 2024
+  journal: PLoS Comput Biol
+  first_author: Schmidt H
+  last_author: Raphael BJ
+  pmid: '39630782'
+  pmcid: PMC11661639
+  title: A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors
+links: {}
+added: '2026-11-12'
+evidence: Using our algorithm for this regression sub-problem, we develop fastBE, a simple method for phylogenetic inference
+  from multi-sample bulk DNA sequencing data.

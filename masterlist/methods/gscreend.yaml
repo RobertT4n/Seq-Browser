@@ -1,0 +1,21 @@
+name: gscreend
+category: dry
+summary: Statistical test for pooled CRISPR screen count ratios that models asymmetric gRNA depletion to improve hit detection.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-1939-1
+  year: 2020
+  journal: Genome Biol
+  first_author: Imkeller K
+  last_author: Huber W
+  pmid: '32122365'
+  pmcid: PMC7052974
+  title: 'gscreend: modelling asymmetric count ratios in CRISPR screens to decrease experiment size and improve phenotype
+    detection'
+links: {}
+added: '2026-11-12'
+evidence: The method is implemented in the R package gscreend, which is available at http://bioconductor.org/packages/gscreend.

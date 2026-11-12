@@ -1,0 +1,20 @@
+name: Copulacci
+category: dry
+summary: Gaussian-copula count model for inferring ligand-receptor cell-cell interactions in spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae219
+  year: 2024
+  journal: Bioinformatics
+  first_author: Sarkar H
+  last_author: Raphael BJ
+  pmid: '38940134'
+  pmcid: PMC11211854
+  title: A count-based model for delineating cell-cell interactions in spatial transcriptomics data
+links: {}
+added: '2026-11-12'
+evidence: We introduce Copulacci, a count-based model for inferring CCIs from SRT data.

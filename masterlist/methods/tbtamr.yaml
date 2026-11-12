@@ -1,0 +1,22 @@
+name: tbtAMR
+category: dry
+summary: Clinical-grade pipeline that predicts M. tuberculosis lineage and antimicrobial susceptibility from short-read or
+  VCF data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.landig.2025.100939
+  year: 2025
+  journal: Lancet Digit Health
+  first_author: Horan KA
+  last_author: Sherry NL
+  pmid: '41436327'
+  title: 'Bringing tuberculosis genomics to the clinic: development and validation of a comprehensive pipeline to predict
+    antimicrobial susceptibility from genomic data, accredited to ISO standards'
+links: {}
+added: '2026-11-12'
+evidence: We developed tbtAMR, a flexible yet comprehensive data-driven tool for analysis of M tuberculosis genomic data,
+  including inference of phenotypic susceptibility and lineage calling.

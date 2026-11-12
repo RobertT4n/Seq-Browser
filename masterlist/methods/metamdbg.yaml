@@ -1,0 +1,20 @@
+name: metaMDBG
+category: dry
+summary: Metagenome assembler for PacBio HiFi reads using minimizer-space de Bruijn graphs and abundance-based filtering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01983-6
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Benoit G
+  last_author: Quince C
+  pmid: '38168989'
+  pmcid: PMC11392814
+  title: High-quality metagenome assembly from long accurate reads with metaMDBG
+links: {}
+added: '2026-11-12'
+evidence: We introduce metaMDBG, a metagenomics assembler for PacBio HiFi reads.

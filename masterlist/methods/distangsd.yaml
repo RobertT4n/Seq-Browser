@@ -1,0 +1,21 @@
+name: distAngsd
+category: dry
+summary: Method for inferring genetic distances from noisy diploid sequencing data without hard genotype calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msac119
+  year: 2022
+  journal: Mol Biol Evol
+  first_author: Zhao L
+  last_author: Korneliussen TS
+  pmid: '35647675'
+  pmcid: PMC9234764
+  title: 'distAngsd: Fast and Accurate Inference of Genetic Distances for Next-Generation Sequencing Data'
+links: {}
+added: '2026-11-12'
+evidence: 'In order to address this problem, we describe two new probabilistic approaches for estimating genetic distances:
+  distAngsd-geno and distAngsd-nuc, both implemented in a software suite named distAngsd.'

@@ -1,0 +1,24 @@
+name: FMGAN
+full_name: Feature Mapping GAN
+category: dry
+summary: Conditional generative adversarial network that predicts hard-to-obtain molecular measurements from easy-to-obtain
+  features.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2021.100288
+  year: 2021
+  journal: Patterns (N Y)
+  first_author: Amodio M
+  last_author: Krishnaswamy S
+  pmid: '34286302'
+  pmcid: PMC8276014
+  title: 'Generating hard-to-obtain information from easy-to-obtain information: Applications in drug discovery and clinical
+    inference'
+  preprint_doi: 10.1101/2020.08.20.259598
+links: {}
+added: '2026-11-12'
+evidence: we present a conditional Generative Adversarial Network (cGAN) framework we call the Feature Mapping GAN (FMGAN)

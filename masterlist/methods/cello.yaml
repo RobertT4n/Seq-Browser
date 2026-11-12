@@ -1,0 +1,20 @@
+name: CellO
+category: dry
+summary: Machine-learning classifier that annotates human single-cell RNA-seq clusters with Cell Ontology terms.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2020.101913
+  year: 2021
+  journal: iScience
+  first_author: Bernstein MN
+  last_author: Dewey CN
+  pmid: '33364592'
+  pmcid: PMC7753962
+  title: 'CellO: comprehensive and hierarchical cell type classification of human cells with the Cell Ontology'
+links: {}
+added: '2026-11-12'
+evidence: In this work, we present CellO, a machine learning-based tool for annotating human RNA-seq data with the Cell Ontology.

@@ -1,0 +1,19 @@
+name: MARS
+category: dry
+summary: Meta-learning method that annotates known and discovers novel cell types across heterogeneous scRNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-00979-3
+  year: 2020
+  journal: Nat Methods
+  first_author: Brbić M
+  last_author: Leskovec J
+  pmid: '33077966'
+  title: 'MARS: discovering novel cell types across heterogeneous single-cell experiments'
+links: {}
+added: '2026-11-12'
+evidence: Here we present MARS, a meta-learning approach for identifying and annotating known as well as new cell types.

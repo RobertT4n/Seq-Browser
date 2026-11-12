@@ -1,0 +1,21 @@
+name: ChromGene
+category: dry
+summary: Mixture-of-HMMs method that annotates genes by combinatorial epigenomic patterns across gene bodies and flanks.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03041-5
+  year: 2023
+  journal: Genome Biol
+  first_author: Jaroszewicz A
+  last_author: Ernst J
+  pmid: '37679846'
+  pmcid: PMC10486095
+  title: 'ChromGene: gene-based modeling of epigenomic data'
+links: {}
+added: '2026-11-12'
+evidence: We present ChromGene, a method based on a mixture of learned hidden Markov models, to annotate genes based on multiple
+  epigenomic maps across the gene body and flanks.

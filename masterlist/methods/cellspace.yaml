@@ -1,0 +1,21 @@
+name: CellSpace
+category: dry
+summary: Sequence-informed embedding of scATAC-seq cells and DNA k-mers in a shared space.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02274-x
+  year: 2024
+  journal: Nat Methods
+  first_author: Tayyebi Z
+  last_author: Leslie CS
+  pmid: '38724693'
+  pmcid: PMC11166566
+  title: Scalable and unbiased sequence-informed embedding of single-cell ATAC-seq data with CellSpace
+links: {}
+added: '2026-11-12'
+evidence: Here we present CellSpace, an efficient and scalable sequence-informed embedding algorithm for scATAC-seq that learns
+  a mapping of DNA k-mers and cells to the same space, to address this limitation.

@@ -1,0 +1,22 @@
+name: Random-effects substitution models
+category: dry
+summary: Random-effects extensions of continuous-time Markov substitution models with an approximate likelihood gradient for
+  scalable Hamiltonian Monte Carlo phylogenetic inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/sysbio/syae019
+  year: 2024
+  journal: Syst Biol
+  first_author: Magee AF
+  last_author: Suchard MA
+  pmid: '38712512'
+  pmcid: PMC11498053
+  title: Random-Effects Substitution Models for Phylogenetics via Scalable Gradient Approximations
+links: {}
+added: '2026-11-12'
+evidence: In this paper, we present random-effects substitution models that extend common continuous-time Markov chain models
+  into a richer class of processes

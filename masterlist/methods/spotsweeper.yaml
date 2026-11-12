@@ -1,0 +1,22 @@
+name: SpotSweeper
+category: dry
+summary: Spatially aware QC that uses local neighbourhoods to flag outlier spots and regional histological artifacts in spatial
+  transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02713-3
+  year: 2025
+  journal: Nat Methods
+  first_author: Totty M
+  last_author: Guo B
+  pmid: '40481362'
+  pmcid: PMC12258134
+  title: 'SpotSweeper: spatially aware quality control for spatial transcriptomics.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce SpotSweeper, a spatially aware QC method that leverages local neighborhoods to correct for spatial
+  confounding in order to identify both local outliers and regional artifacts in SRT.

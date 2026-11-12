@@ -1,0 +1,20 @@
+name: MUMmer4
+category: dry
+summary: Genome sequence aligner (nucmer) using a 48-bit suffix array and parallel query processing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1005944
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Marçais G
+  last_author: Zimin A
+  pmid: '29373581'
+  pmcid: PMC5802927
+  title: 'MUMmer4: A fast and versatile genome alignment system'
+links: {}
+added: '2026-11-12'
+evidence: In this paper we describe MUMmer4, a substantially improved version of MUMmer

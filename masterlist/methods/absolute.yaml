@@ -1,0 +1,22 @@
+name: ABSOLUTE
+category: dry
+summary: Computational method that infers tumour purity and malignant-cell ploidy, and detects subclonal and homozygous somatic
+  alterations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2203
+  year: 2012
+  journal: Nat Biotechnol
+  first_author: Carter SL
+  last_author: Getz G
+  pmid: '22544022'
+  pmcid: PMC4383288
+  title: Absolute quantification of somatic DNA alterations in human cancer.
+links: {}
+added: '2026-11-12'
+evidence: We describe a computational method that infers tumor purity and malignant cell ploidy directly from analysis of
+  somatic DNA alterations.

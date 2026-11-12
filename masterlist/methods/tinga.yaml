@@ -1,0 +1,21 @@
+name: TinGa
+category: dry
+summary: Growing-Neural-Gas trajectory-inference model that fits cell-development trajectories, including disconnected graphs,
+  from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa463
+  year: 2020
+  journal: Bioinformatics
+  first_author: Todorov H
+  last_author: Saeys Y
+  pmid: '32657409'
+  pmcid: PMC7355244
+  title: 'TinGa: fast and flexible trajectory inference with Growing Neural Gas.'
+links: {}
+added: '2026-11-12'
+evidence: In this work, we present TinGa, a new TI model that is fast and flexible, and that is based on Growing Neural Graphs.

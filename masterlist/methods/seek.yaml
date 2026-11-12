@@ -1,0 +1,23 @@
+name: SEEK
+full_name: search-based exploration of expression compendia
+category: dry
+summary: Query-based search engine that prioritises datasets and co-regulated genes across large transcriptomic compendia.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3249
+  year: 2015
+  journal: Nat Methods
+  first_author: Zhu Q
+  last_author: Troyanskaya OG
+  pmid: '25581801'
+  pmcid: PMC4768301
+  title: Targeted exploration and analysis of large cross-platform human transcriptomic compendia
+links: {}
+added: '2026-11-12'
+evidence: We present SEEK (search-based exploration of expression compendia; http://seek.princeton.edu/), a query-based search
+  engine for very large transcriptomic data collections, including thousands of human data sets from many different microarray
+  and high-throughput sequencing platforms.

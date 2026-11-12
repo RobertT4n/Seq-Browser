@@ -1,0 +1,22 @@
+name: SAFE-clustering
+full_name: Single-cell Aggregated From Ensemble clustering
+category: dry
+summary: Ensemble consensus clustering that aggregates SC3, CIDR, Seurat and t-SNE + k-means results for scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty793
+  year: 2019
+  journal: Bioinformatics
+  first_author: Yang Y
+  last_author: Li Y
+  pmid: '30202935'
+  pmcid: PMC6477982
+  title: 'SAFE-clustering: Single-cell Aggregated (from Ensemble) clustering for single-cell RNA-seq data'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present SAFE-clustering, single-cell aggregated (From Ensemble) clustering, a flexible, accurate and robust
+  method for clustering scRNA-Seq data.

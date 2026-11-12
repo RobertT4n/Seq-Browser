@@ -1,0 +1,21 @@
+name: Machine Boss
+category: dry
+summary: Software for prototyping hidden Markov model automata for bioinformatic sequence analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa633
+  year: 2021
+  journal: Bioinformatics
+  first_author: Silvestre-Ryan J
+  last_author: Holmes I
+  pmid: '32683444'
+  pmcid: PMC8034524
+  title: 'Machine Boss: rapid prototyping of bioinformatic automata'
+links: {}
+added: '2026-11-12'
+evidence: We present Machine Boss, a software tool implementing not just inference and parameter-fitting algorithms, but also
+  a set of operations for manipulating and combining automata.

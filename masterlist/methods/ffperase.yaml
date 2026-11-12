@@ -1,0 +1,21 @@
+name: FFPErase
+category: dry
+summary: Machine-learning framework that filters SNV and indel artifacts from FFPE whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-65654-7
+  year: 2025
+  journal: Nat Commun
+  first_author: Domenico D
+  last_author: Papaemmanuil E
+  pmid: '41309586'
+  pmcid: PMC12661053
+  title: Enabling whole genome sequencing analysis from FFPE specimens in clinical oncology
+links: {}
+added: '2026-11-12'
+evidence: We develop FFPErase, a machine learning framework that filters SNV/indel artifacts and delivers clinical grade variant
+  reporting allowing accurate quantification of clinically relevant biomarkers.

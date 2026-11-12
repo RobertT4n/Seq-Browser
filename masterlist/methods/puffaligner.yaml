@@ -1,0 +1,22 @@
+name: PuffAligner
+category: dry
+summary: Fast, memory-efficient read aligner built on the Pufferfish index, with sensitivity similar to Bowtie2.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab408
+  year: 2021
+  journal: Bioinformatics
+  first_author: Almodaresi F
+  last_author: Patro R
+  pmid: '34117875'
+  pmcid: PMC9502150
+  title: 'PuffAligner: a fast, efficient and accurate aligner based on the Pufferfish index.'
+links: {}
+added: '2026-11-12'
+evidence: In this article, we introduce PuffAligner, a fast, accurate and versatile aligner built on top of the Pufferfish
+  index.

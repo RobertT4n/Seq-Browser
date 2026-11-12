@@ -1,0 +1,21 @@
+name: Conterminator
+category: dry
+summary: All-against-all sequence comparison tool that detects and removes mislabelled entries in genome reference databases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02023-1
+  year: 2020
+  journal: Genome Biol
+  first_author: Steinegger M
+  last_author: Salzberg SL
+  pmid: '32398145'
+  pmcid: PMC7218494
+  title: 'Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank'
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe Conterminator, an efficient method to detect and remove incorrectly labeled sequences by an exhaustive
+  all-against-all sequence comparison.

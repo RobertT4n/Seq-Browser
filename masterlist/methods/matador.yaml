@@ -1,0 +1,21 @@
+name: MATADOR
+category: dry
+summary: Tumour-agnostic classifier of cfDNA fragmentation at myeloma-specific chromatin-accessible regions defined from snATAC-seq.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1182/bloodadvances.2026022335
+  year: 2026
+  journal: Blood Adv
+  first_author: Bajaj P
+  last_author: Coffey DG
+  pmid: '42837666'
+  title: Chromatin-informed cell-free DNA approach for detection of clinically measurable disease in multiple myeloma
+links: {}
+added: '2026-11-12'
+evidence: Here, we developed MATADOR, a myeloma-specific, tumor-agnostic framework that leverages cfDNA fragmentation patterns
+  at a fixed set of myeloma-specific chromatin-accessible regulatory regions.

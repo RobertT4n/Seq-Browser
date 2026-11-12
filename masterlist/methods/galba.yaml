@@ -1,0 +1,21 @@
+name: GALBA
+category: dry
+summary: Automated gene-annotation pipeline combining miniprot protein alignments with AUGUSTUS for eukaryotic genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05449-z
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Brůna T
+  last_author: Hoff KJ
+  pmid: '37653395'
+  pmcid: PMC10472564
+  title: 'Galba: genome annotation with miniprot and AUGUSTUS'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce GALBA, a fully automated pipeline that utilizes miniprot, a rapid protein-to-genome aligner,
+  in combination with AUGUSTUS to predict genes with high accuracy.

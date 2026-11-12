@@ -1,0 +1,23 @@
+name: SIID
+full_name: Spatial Integration for Imputation and Deconvolution
+category: dry
+summary: Algorithm that jointly imputes and deconvolves gene expression across paired spatial transcriptomics datasets from
+  different platforms.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280555.125
+  year: 2025
+  journal: Genome Res
+  first_author: Zheng H
+  last_author: Raphael BJ
+  pmid: '41249066'
+  pmcid: PMC12667712
+  title: Joint imputation and deconvolution of gene expression across spatial transcriptomics platforms
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce Spatial Integration for Imputation and Deconvolution (SIID), an algorithm to reconstruct a latent
+  spatial gene expression matrix from a pair of observations from different SRT technologies.

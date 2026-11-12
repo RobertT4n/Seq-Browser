@@ -1,0 +1,22 @@
+name: MuTect
+category: dry
+summary: Bayesian somatic point-mutation caller with tuned filters for very low allele-fraction variants in impure or heterogeneous
+  cancer samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2514
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Cibulskis K
+  last_author: Getz G
+  pmid: '23396013'
+  pmcid: PMC3833702
+  title: Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples.
+links: {}
+added: '2026-11-12'
+evidence: Here we present MuTect, a method that applies a Bayesian classifier to detect somatic mutations with very low allele
+  fractions, requiring only a few supporting reads, followed by carefully tuned filters that ensure high specificity.

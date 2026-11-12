@@ -1,0 +1,24 @@
+name: ARMOR
+full_name: Automated Reproducible MOdular Workflow for Preprocessing and Differential Analysis of RNA-seq Data
+category: dry
+summary: End-to-end modular RNA-seq workflow from raw reads through quantification and differential expression to browser-based
+  exploration.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/g3.119.400185
+  year: 2019
+  journal: G3 (Bethesda)
+  first_author: Orjuela S
+  last_author: Soneson C
+  pmid: '31088905'
+  pmcid: PMC6643886
+  title: 'ARMOR: An <u>A</u>utomated <u>R</u>eproducible <u>MO</u>dular Workflow for Preprocessing and Differential Analysis
+    of <u>R</u>NA-seq Data'
+links: {}
+added: '2026-11-12'
+evidence: We present ARMOR, which performs an end-to-end RNA-seq data analysis, from raw read files, via quality checks, alignment
+  and quantification, to differential expression testing, geneset analysis and browser-based exploration of the data.

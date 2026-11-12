@@ -1,0 +1,22 @@
+name: Virtual ChIP-seq
+category: dry
+summary: Predicts transcription factor binding in new cell types by learning from gene expression and binding data.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02690-2
+  year: 2022
+  journal: Genome Biol
+  first_author: Karimzadeh M
+  last_author: Hoffman MM
+  pmid: '35681170'
+  pmcid: PMC9185870
+  title: 'Virtual ChIP-seq: predicting transcription factor binding by learning from the transcriptome'
+links: {}
+added: '2026-11-12'
+evidence: We developed Virtual ChIP-seq, which predicts binding of individual TFs in new cell types, integrating learned associations
+  with gene expression and binding, TF binding sites from other cell types, and chromatin accessibility data in the new cell
+  type.

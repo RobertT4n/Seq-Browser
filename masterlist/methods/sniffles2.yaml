@@ -1,0 +1,21 @@
+name: Sniffles2
+category: dry
+summary: Structural variant caller for long-read data using repeat-aware clustering and consensus-based filtering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-02024-y
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Smolka M
+  last_author: Sedlazeck FJ
+  pmid: '38168980'
+  pmcid: PMC11217151
+  title: Detection of mosaic and population-level structural variants with Sniffles2
+links: {}
+added: '2026-11-12'
+evidence: Here we present Sniffles2, which improves over current methods by implementing a repeat aware clustering coupled
+  with a fast consensus sequence and coverage-adaptive filtering.

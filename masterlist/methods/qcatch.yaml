@@ -1,0 +1,23 @@
+name: QCatch
+category: dry
+summary: Python tool that generates interactive HTML quality-control reports for single-cell quantification outputs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag184
+  year: 2026
+  journal: Bioinformatics
+  first_author: Gao Y
+  last_author: Patro R
+  pmid: '41987571'
+  pmcid: PMC13171171
+  title: 'QCatch: a framework for quality control assessment and analysis of single-cell sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: While tools like alevin-fry and simpleaf (and augmented execution context for the alevin-fry), offer flexibility
+  and computational efficiency to process single-cell data, this ecosystem will further benefit from a standardized QC reporting
+  tailored for its outputs.ResultsWe introduce QCatch, a Python-based command-line tool that generates comprehensive and interactive
+  HTML QC reports designed specifically for single-cell quantification results.

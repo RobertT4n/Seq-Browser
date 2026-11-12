@@ -1,0 +1,21 @@
+name: CRSP
+full_name: Comparative RNA-Seq Pipeline
+category: dry
+summary: Pipeline that quantifies gene expression without a sequenced genome or species-matched reference transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2022.107795
+  year: 2023
+  journal: Comput Biol Chem
+  first_author: Toh H
+  last_author: Jiang P
+  pmid: '36436489'
+  title: A Nile rat transcriptomic landscape across 22 organs by ultra-deep sequencing and comparative RNA-seq pipeline (CRSP)
+links: {}
+added: '2026-11-12'
+evidence: Here, we developed a Comparative RNA-Seq Pipeline (CRSP), integrating a comparative species strategy independent
+  of a specific sequenced genome or species-matched reference transcripts.

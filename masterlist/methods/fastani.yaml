@@ -1,0 +1,22 @@
+name: FastANI
+full_name: Fast average nucleotide identity
+category: dry
+summary: Alignment-free approximate-mapping estimator of average nucleotide identity between genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-07641-9
+  year: 2018
+  journal: Nat Commun
+  first_author: Jain C
+  last_author: Aluru S
+  pmid: '30504855'
+  pmcid: PMC6269478
+  title: High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries
+links: {}
+added: '2026-11-12'
+evidence: To scale to available genomes and beyond, we present FastANI, a new method to estimate ANI using alignment-free
+  approximate sequence mapping.

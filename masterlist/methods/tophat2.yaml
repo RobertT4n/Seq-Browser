@@ -1,0 +1,20 @@
+name: TopHat2
+category: dry
+summary: Spliced RNA-seq aligner that handles variable-length indels, fusion breaks and known-transcript mapping.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2013-14-4-r36
+  year: 2013
+  journal: Genome Biol
+  first_author: Kim D
+  last_author: Salzberg SL
+  pmid: '23618408'
+  pmcid: PMC4053844
+  title: 'TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions'
+links: {}
+added: '2026-11-12'
+evidence: In this paper, we describe TopHat2, which incorporates many significant enhancements to TopHat.

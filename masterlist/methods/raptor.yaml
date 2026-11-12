@@ -1,0 +1,22 @@
+name: Raptor
+category: dry
+summary: Space-efficient pre-filter that uses winnowed minimizers and compressed interleaved Bloom filters to search large
+  nucleotide collections.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2021.102782
+  year: 2021
+  journal: iScience
+  first_author: Seiler E
+  last_author: Reinert K
+  pmid: '34337360'
+  pmcid: PMC8313605
+  title: 'Raptor: A fast and space-efficient pre-filter for querying very large collections of nucleotide sequences'
+links: {}
+added: '2026-11-12'
+evidence: We present Raptor, a system for approximately searching many queries such as next-generation sequencing reads or
+  transcripts in large collections of nucleotide sequences.

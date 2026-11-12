@@ -1,0 +1,21 @@
+name: mehenDi
+category: dry
+summary: Differential testing on a data-driven tree of transcript groups, selecting nodes with signal while controlling abundance
+  uncertainty.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279981.124
+  year: 2025
+  journal: Genome Res
+  first_author: Singh NP
+  last_author: Patro R
+  pmid: '40841168'
+  pmcid: PMC12487820
+  title: Tree-based differential testing using inferential uncertainty for RNA-seq
+links: {}
+added: '2026-11-12'
+evidence: We introduce mehenDi, which utilizes the tree structure from TreeTerminus for differential testing.

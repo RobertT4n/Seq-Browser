@@ -1,0 +1,23 @@
+name: StringTie3
+category: dry
+summary: Transcript assembler for total RNA-seq with a nascent mode that separates nascent from mature transcripts and a refined
+  long-read polyadenylation filter.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03080-3
+  year: 2026
+  journal: Nat Methods
+  first_author: Shinder I
+  last_author: Pertea M
+  pmid: '42157005'
+  pmcid: PMC13250942
+  title: StringTie3 improves total RNA-seq assembly by resolving nascent and mature transcripts
+links: {}
+added: '2026-11-12'
+evidence: Here, we present StringTie3, a major update to the widely used StringTie assembler, specifically designed for total
+  RNA-seq.

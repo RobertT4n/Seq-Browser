@@ -1,0 +1,21 @@
+name: DEWSeq
+category: dry
+summary: Bioconductor package for calling RBP binding sites in eCLIP data with replicate and input information.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad998
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Schwarzl T
+  last_author: Tartaglia GG
+  pmid: '37962298'
+  pmcid: PMC10783507
+  title: Improved discovery of RNA-binding protein binding sites in eCLIP data using DEWSeq
+links: {}
+added: '2026-11-12'
+evidence: Here, we present the R/Bioconductor package DEWSeq that makes use of replicate information and size-matched input
+  controls.

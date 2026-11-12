@@ -1,0 +1,24 @@
+name: FuFiHLA
+category: dry
+summary: Full-field HLA allele typing from PacBio HiFi and Nanopore long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btag231
+  year: 2026
+  journal: Bioinformatics
+  first_author: Hu J
+  last_author: Zhou Y
+  pmid: '42085485'
+  pmcid: PMC13221240
+  title: 'FuFiHLA: a tool for full-field HLA typing from long-read data'
+links: {}
+added: '2026-11-12'
+evidence: We developed FuFiHLA, a lightweight open-source software, to type HLA alleles.

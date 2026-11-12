@@ -1,0 +1,23 @@
+name: CREMA
+category: dry
+summary: Models gene expression and chromatin activity per cell in multiome data to recover cis-regulatory circuits without
+  peak calling.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad1166
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Zhang Z
+  last_author: Sealfon SC
+  pmid: '38084892'
+  pmcid: PMC10810203
+  title: Peak-agnostic high-resolution cis-regulatory circuitry mapping using single cell multiome data.
+links: {}
+added: '2026-11-12'
+evidence: We present CREMA, a framework that recovers the full cis-regulatory circuitry by modeling gene expression and chromatin
+  activity in individual cells without peak-calling or cell type labeling constraints.

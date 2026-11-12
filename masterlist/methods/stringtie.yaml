@@ -1,0 +1,21 @@
+name: StringTie
+category: dry
+summary: Network-flow transcript assembler for RNA-seq reads, with optional de novo assembly.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3122
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Pertea M
+  last_author: Salzberg SL
+  pmid: '25690850'
+  pmcid: PMC4643835
+  title: StringTie enables improved reconstruction of a transcriptome from RNA-seq reads
+links: {}
+added: '2026-11-12'
+evidence: We introduce StringTie, a computational method that applies a network flow algorithm originally developed in optimization
+  theory, together with optional de novo assembly, to assemble these complex data sets into transcripts.

@@ -1,0 +1,23 @@
+name: ProTECT
+full_name: Prediction of T-Cell Epitopes for Cancer Therapy
+category: dry
+summary: End-to-end pipeline that calls mutations from raw tumour sequencing and ranks neoepitopes by predicted immunogenicity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2020.483296
+  year: 2020
+  journal: Front Immunol
+  first_author: Rao AA
+  last_author: Haussler D
+  pmid: '33244314'
+  pmcid: PMC7683782
+  title: ProTECT-Prediction of T-Cell Epitopes for Cancer Therapy
+links: {}
+added: '2026-11-12'
+evidence: We present ProTECT, a fully automated, reproducible, scalable, and efficient end-to-end analysis pipeline to identify
+  and rank therapeutically relevant tumor neoepitopes in terms of potential immunogenicity starting directly from raw patient
+  sequencing data, or from pre-processed data.

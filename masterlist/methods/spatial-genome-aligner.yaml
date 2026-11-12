@@ -1,0 +1,22 @@
+name: Spatial genome aligner
+category: dry
+summary: Aligns multiplexed DNA FISH signals to a DNA polymer model to trace chromatin fibers and chromosome ploidy from imaging
+  data (imaging input, no sequencing readout).
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01568-9
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Jia BB
+  last_author: Ren B
+  pmid: '36593410'
+  pmcid: PMC10344783
+  title: A spatial genome aligner for resolving chromatin architectures from multiplexed DNA FISH
+links: {}
+added: '2026-11-12'
+evidence: Here we report a spatial genome aligner that parses true chromatin signal from noise by aligning signals to a DNA
+  polymer model.

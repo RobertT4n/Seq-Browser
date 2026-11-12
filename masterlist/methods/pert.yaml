@@ -1,0 +1,22 @@
+name: PERT
+category: dry
+summary: Probabilistic method that infers cell-specific replication timing and copy number from single-cell whole-genome sequencing.
+readouts:
+- replication-timing
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-52544-7
+  year: 2024
+  journal: Nat Commun
+  first_author: Weiner AC
+  last_author: McPherson A
+  pmid: '39353885'
+  pmcid: PMC11445576
+  title: Inferring replication timing and proliferation dynamics from single-cell DNA sequencing data
+links: {}
+added: '2026-11-12'
+evidence: We developed a probabilistic method, PERT, for simultaneous inference of cell-specific replication and copy number
+  states from single-cell whole genome sequencing (scWGS) data.

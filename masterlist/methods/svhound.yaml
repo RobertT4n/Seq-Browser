@@ -1,0 +1,21 @@
+name: SVhound
+category: dry
+summary: Tool that predicts genomic regions likely to harbour undetected structural variant alleles, based on a population-level
+  SV dataset.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05046-6
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Paulin LF
+  last_author: Sedlazeck FJ
+  pmid: '36670361'
+  pmcid: PMC9854228
+  title: 'SVhound: detection of regions that harbor yet undetected structural variation'
+links: {}
+added: '2026-11-12'
+evidence: To achieve this we developed SVhound

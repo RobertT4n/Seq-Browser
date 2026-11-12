@@ -1,0 +1,21 @@
+name: ancIBD
+category: dry
+summary: HMM-based detection of identity-by-descent segments in ancient human DNA using imputed genotype probabilities.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-023-01582-w
+  year: 2024
+  journal: Nat Genet
+  first_author: Ringbauer H
+  last_author: Reich D
+  pmid: '38123640'
+  pmcid: PMC10786714
+  title: Accurate detection of identity-by-descent segments in human ancient DNA
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce ancIBD, a method for identifying IBD segments in ancient human DNA (aDNA) using a hidden Markov
+  model and imputed genotype probabilities.

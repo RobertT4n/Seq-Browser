@@ -1,0 +1,24 @@
+name: dREG
+full_name: discriminative regulatory-element detection from GRO-seq
+category: dry
+summary: Machine-learning method that identifies active transcriptional regulatory elements from GRO-seq data without cap
+  enrichment.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3329
+  year: 2015
+  journal: Nat Methods
+  first_author: Danko CG
+  last_author: Siepel A
+  pmid: '25799441'
+  pmcid: PMC4507281
+  title: Identification of active transcriptional regulatory elements from GRO-seq data
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce discriminative regulatory-element detection from GRO-seq (dREG), a sensitive machine learning
+  method that uses support vector regression to identify active TREs from GRO-seq data without requiring cap-based enrichment
+  (https://github.com/Danko-Lab/dREG/).

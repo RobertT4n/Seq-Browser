@@ -1,0 +1,21 @@
+name: GBCD
+full_name: generalized binary covariance decomposition
+category: dry
+summary: Matrix decomposition of single-cell tumour expression into patient-specific, dataset-specific and shared components.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01997-z
+  year: 2025
+  journal: Nat Genet
+  first_author: Liu Y
+  last_author: Stephens M
+  pmid: '39747597'
+  pmcid: PMC12035913
+  title: Dissecting tumor transcriptional heterogeneity from single-cell RNA-seq data by generalized binary covariance decomposition
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce a statistical method, generalized binary covariance decomposition (GBCD), to address this problem.

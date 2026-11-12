@@ -1,0 +1,23 @@
+name: SeqGL
+category: dry
+summary: De novo motif discovery that uses k-mer features with group-lasso regularisation to extract TF sequence signals from
+  ChIP-, DNase- and ATAC-seq profiles.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004271
+  year: 2015
+  journal: PLoS Comput Biol
+  first_author: Setty M
+  last_author: Leslie CS
+  pmid: '26016777'
+  pmcid: PMC4446265
+  title: SeqGL Identifies Context-Dependent Binding Signals in Genome-Wide Regulatory Element Maps
+links: {}
+added: '2026-11-12'
+evidence: We present SeqGL, a novel de novo motif discovery algorithm to identify multiple TF sequence signals from ChIP-,
+  DNase-, and ATAC-seq profiles.

@@ -1,0 +1,20 @@
+name: biVI
+category: dry
+summary: Variational autoencoder that combines scVI with transcription and splicing kinetics for bimodal scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02365-9
+  year: 2024
+  journal: Nat Methods
+  first_author: Carilli M
+  last_author: Pachter L
+  pmid: '39054391'
+  title: Biophysical modeling with variational autoencoders for bimodal, single-cell RNA sequencing data
+links: {}
+added: '2026-11-12'
+evidence: Here we present biVI, which combines the variational autoencoder framework of scVI with biophysical models describing
+  the transcription and splicing kinetics of RNA molecules.

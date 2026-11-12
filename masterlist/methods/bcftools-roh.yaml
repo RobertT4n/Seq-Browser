@@ -1,0 +1,21 @@
+name: BCFtools/RoH
+category: dry
+summary: HMM extension of BCFtools that detects runs of homozygosity (autozygosity) from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw044
+  year: 2016
+  journal: Bioinformatics
+  first_author: Narasimhan V
+  last_author: Durbin R
+  pmid: '26826718'
+  pmcid: PMC4892413
+  title: 'BCFtools/RoH: a hidden Markov model approach for detecting autozygosity from next-generation sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: we present and evaluate BCFtools/RoH, an extension to the BCFtools software package, that detects regions of autozygosity
+  in sequencing data

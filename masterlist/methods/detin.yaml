@@ -1,0 +1,22 @@
+name: deTiN
+category: dry
+summary: Estimates tumour-in-normal contamination and reclassifies discarded variants as somatic to improve somatic variant
+  calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0036-9
+  year: 2018
+  journal: Nat Methods
+  first_author: Taylor-Weiner A
+  last_author: Getz G
+  pmid: '29941871'
+  pmcid: PMC6528031
+  title: 'DeTiN: overcoming tumor-in-normal contamination'
+links: {}
+added: '2026-11-12'
+evidence: To overcome this limitation, we developed deTiN, a method that estimates the tumor-in-normal (TiN) contamination
+  level and, in cases affected by contamination, improves sensitivity by reclassifying initially discarded variants as somatic.

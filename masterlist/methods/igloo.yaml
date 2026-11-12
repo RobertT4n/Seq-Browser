@@ -1,0 +1,28 @@
+name: IGLoo
+category: dry
+summary: Analyses and reassembles immunoglobulin heavy-chain loci in lymphoblastoid cell lines from PacBio HiFi data, characterising
+  somatic V(D)J recombination.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+species:
+- human
+reference:
+  doi: 10.1016/j.crmeth.2025.101033
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Lin MJ
+  last_author: Safonova Y
+  pmid: '40315852'
+  pmcid: PMC12146632
+  title: IGLoo enables comprehensive analysis and assembly of immunoglobulin heavy-chain loci in lymphoblastoid cell lines
+    using PacBio high-fidelity reads.
+links: {}
+added: '2026-11-12'
+evidence: To address this, we introduce IGLoo, a software tool that analyzes sequence data and assemblies derived from LCLs,
+  characterizing somatic V(D)J recombination events and identifying breakpoints and missing IG genes in the assemblies.

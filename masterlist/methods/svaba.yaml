@@ -1,0 +1,21 @@
+name: SvABA
+category: dry
+summary: Local-assembly method for genome-wide detection of structural variants and indels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.221028.117
+  year: 2018
+  journal: Genome Res
+  first_author: Wala JA
+  last_author: Beroukhim R
+  pmid: '29535149'
+  pmcid: PMC5880247
+  title: 'SvABA: genome-wide detection of structural variants and indels by local assembly'
+links: {}
+added: '2026-11-12'
+evidence: We describe SvABA, an efficient and accurate method for detecting SVs from short-read sequencing data using genome-wide
+  local assembly with low memory and computing requirements.

@@ -1,0 +1,23 @@
+name: PROBer
+category: dry
+summary: Statistical model and software that estimates isoform abundances and isoform-specific modification profiles from
+  sequencing-based toeprinting assays.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2017.04.007
+  year: 2017
+  journal: Cell Syst
+  first_author: Li B
+  last_author: Pachter L
+  pmid: '28501650'
+  pmcid: PMC5758053
+  title: PROBer Provides a General Toolkit for Analyzing Sequencing-Based Toeprinting Assays.
+links: {}
+added: '2026-11-12'
+evidence: We introduce PROBer, a statistical model and associated software, that addresses this challenge for the analysis
+  of toeprinting assays.

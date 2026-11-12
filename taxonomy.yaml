@@ -156,4 +156,9 @@ task:
   - genome-assembly           # assembly, scaffolding, centromere / repeat annotation of genomes
   - sequence-to-function      # models predicting molecular function or signal from DNA / RNA sequence
   - disease-classification    # classifying disease or tumour type, or detecting cancer, from sequencing signal (cfDNA, methylation)
+  - transcript-quantification # RNA-seq read-to-transcript work: transcript assembly, isoform/gene quantification, alternative splicing / polyadenylation, translation (ribosome profiling) analysis
+  - population-genetics       # ancestry, identity-by-descent, phasing, imputation, selection, phylogenetics and molecular evolution from sequence data
+  - read-alignment            # aligners and mapping of reads or whole genomes
+  - genome-visualization      # genome browsers and visual inspection of alignments, variants or phylogeographic results
+  - peak-calling-signal       # ChIP-seq / ATAC-seq peak calling, nucleosome-free regions and other signal-track processing
 # targets: FREE TEXT list (not validated), epigenome/protein-binding methods only, e.g. [H3K27me3, CTCF, Pol II S2P]

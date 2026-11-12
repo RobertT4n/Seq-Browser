@@ -1,0 +1,22 @@
+name: DPGP
+full_name: Dirichlet process Gaussian process mixture model
+category: dry
+summary: Dirichlet process Gaussian process mixture model that clusters gene expression time series.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1005896
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: McDowell IC
+  last_author: Engelhardt BE
+  pmid: '29337990'
+  pmcid: PMC5786324
+  title: Clustering gene expression time series data using an infinite Gaussian process mixture model
+links: {}
+added: '2026-11-12'
+evidence: Here, we present a nonparametric model-based method, Dirichlet process Gaussian process mixture model (DPGP), which
+  jointly models data clusters with a Dirichlet process and temporal dependencies with Gaussian processes.

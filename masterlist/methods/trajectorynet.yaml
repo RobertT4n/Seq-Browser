@@ -1,0 +1,20 @@
+name: TrajectoryNet
+category: dry
+summary: Dynamic optimal-transport network that models cellular trajectories from cross-sectional single-cell measurements.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2002.04461
+  year: 2020
+  journal: Proc Mach Learn Res
+  first_author: Tong A
+  last_author: Krishnaswamy S
+  pmid: '34337419'
+  pmcid: PMC8320749
+  title: 'TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics'
+links: {}
+added: '2026-11-12'
+evidence: To address this issue, we establish a link between continuous normalizing flows and dynamic optimal transport

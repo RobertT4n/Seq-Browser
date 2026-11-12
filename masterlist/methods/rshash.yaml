@@ -1,0 +1,22 @@
+name: RSHash
+full_name: Rank-Select Hash
+category: dry
+summary: Compressed static k-mer index using rank-select bitvectors and layered minimizers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag440
+  year: 2026
+  journal: Bioinformatics
+  first_author: Schulte-Mattler J
+  last_author: Reinert K
+  pmid: '42635238'
+  pmcid: PMC13501323
+  title: 'RSHash: a fast and space-efficient hash table for k-mers'
+links: {}
+added: '2026-11-12'
+evidence: we describe a simple, compressed, static data structure for k-mers that answers lookup and can be extended for supporting
+  locate.

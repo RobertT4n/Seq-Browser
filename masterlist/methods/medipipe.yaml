@@ -1,0 +1,21 @@
+name: MEDIPIPE
+category: dry
+summary: End-to-end pipeline for quality control and analysis of cfMeDIP-seq data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad423
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zeng Y
+  last_author: He HH
+  pmid: '37402621'
+  pmcid: PMC10348834
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present the MEDIPIPE, which provides a one-stop solution for cfMeDIP-seq data quality control, methylation
+  quantification, and sample aggregation.

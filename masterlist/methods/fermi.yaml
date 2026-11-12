@@ -1,0 +1,21 @@
+name: fermi
+category: dry
+summary: De novo unitig assembler for Illumina reads that calls SNPs and INDELs by mapping unitigs to a reference, for resequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts280
+  year: 2012
+  journal: Bioinformatics
+  first_author: Li H
+  last_author: Li H
+  pmid: '22569178'
+  pmcid: PMC3389770
+  title: Exploring single-sample SNP and INDEL calling with whole-genome de novo assembly.
+links: {}
+added: '2026-11-12'
+evidence: we developed a de novo assembler, fermi, that assembles Illumina short reads into unitigs while preserving most
+  of information of the input reads.

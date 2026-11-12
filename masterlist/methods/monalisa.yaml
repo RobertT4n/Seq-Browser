@@ -1,0 +1,23 @@
+name: monaLisa
+category: dry
+summary: R/Bioconductor package that finds transcription-factor motifs whose sequence enrichment tracks experimental profiles
+  such as ChIP, accessibility or methylation changes.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac102
+  year: 2022
+  journal: Bioinformatics
+  first_author: Machlab D
+  last_author: Stadler MB
+  pmid: '35199152'
+  pmcid: PMC9048699
+  title: 'monaLisa: an R/Bioconductor package for identifying regulatory motifs'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present monaLisa, an R/Bioconductor package that implements approaches to identify relevant transcription
+  factors from experimental data.

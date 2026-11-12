@@ -1,0 +1,22 @@
+name: Probabilistic gene expression barcode
+category: dry
+summary: Probabilistic latent-variable reference method that annotates cell types in scRNA-seq data and accounts for batch
+  effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/biostatistics/kxac021
+  year: 2022
+  journal: Biostatistics
+  first_author: Grabski IN
+  last_author: Irizarry RA
+  pmid: '35770795'
+  pmcid: PMC9802389
+  title: A probabilistic gene expression barcode for annotation of cell types from single-cell RNA-seq data
+links: {}
+added: '2026-11-12'
+evidence: Here, we present a statistical approach that leverages public data sets to combine information across thousands
+  of genes, uses a latent variable model to define cell-type-specific barcodes

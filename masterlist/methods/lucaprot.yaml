@@ -1,0 +1,20 @@
+name: LucaProt
+category: dry
+summary: Deep-learning method that finds divergent RNA virus RdRP sequences in metatranscriptomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2024.09.027
+  year: 2024
+  journal: Cell
+  first_author: Hou X
+  last_author: Shi M
+  pmid: '39389057'
+  title: Using artificial intelligence to document the hidden RNA virosphere
+links: {}
+added: '2026-11-12'
+evidence: We developed a deep learning algorithm, termed LucaProt, to discover highly divergent RNA-dependent RNA polymerase
+  (RdRP) sequences in 10,487 metatranscriptomes generated from diverse global ecosystems.

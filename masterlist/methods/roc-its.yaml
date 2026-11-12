@@ -1,0 +1,32 @@
+name: RoC-ITS
+full_name: rolling-circle amplification of a 16S-ITS construct
+category: wet
+summary: Nanopore protocol that rolling-circle amplifies a 16S-ITS construct to profile microbial community composition at
+  subspecies resolution.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+reference:
+  doi: 10.1038/s43705-022-00183-8
+  year: 2022
+  journal: ISME Commun
+  first_author: Rusch DB
+  last_author: Hahn MW
+  pmid: '37938727'
+  pmcid: PMC9723582
+  title: High-resolution phylogenetic and population genetic analysis of microbial communities with RoC-ITS
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe a novel protocol (RoC-ITS) that uses the single-molecule Nanopore sequencing platform to assay
+  the composition of microbial communities at the subspecies designation.

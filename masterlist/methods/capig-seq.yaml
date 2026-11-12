@@ -1,0 +1,28 @@
+name: CapIG-seq
+category: wet
+summary: Hybrid-capture sequencing of immunoglobulin V and J ends, plus translocation and mutation baits, for myeloma genomics.
+readouts:
+- immune-repertoire
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.26508/lsa.202201543
+  year: 2023
+  journal: Life Sci Alliance
+  first_author: Chow S
+  last_author: Pugh TJ
+  pmid: '36328595'
+  pmcid: PMC9644417
+  title: Myeloma immunoglobulin rearrangement and translocation detection through targeted capture sequencing
+links: {}
+added: '2026-11-12'
+evidence: Here, we report a hybrid-capture approach (CapIG-seq) targeting the 3' and 5' ends of the V and J segments of all
+  immunoglobulin loci that enable the efficient detection of V(D)J rearrangements.

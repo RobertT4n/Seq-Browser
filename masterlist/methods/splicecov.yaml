@@ -1,0 +1,24 @@
+name: SpliceCOV
+category: dry
+summary: Supervised filter that keeps likely genuine splice sites and transcript boundaries from RNA-seq coverage and junction
+  features before transcriptome assembly.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+reference:
+  doi: 10.3390/genes17101307
+  year: 2026
+  journal: Genes (Basel)
+  first_author: Hoh C
+  last_author: Pertea M
+  pmid: '42938423'
+  pmcid: PMC13704264
+  title: 'SpliceCOV: Supervised Filtering of RNA-Seq-Derived Transcript Features Improves Transcriptome Assembly.'
+links: {}
+added: '2026-11-12'
+evidence: We present SpliceCOV, a supervised framework for filtering RNA-Seq-derived transcript features.

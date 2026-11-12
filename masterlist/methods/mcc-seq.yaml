@@ -1,0 +1,27 @@
+name: MCC-Seq
+full_name: methylC-capture sequencing
+category: wet
+summary: Capture sequencing of functional methylomes that also reports genetic variants, for large-scale EWAS.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/ncomms8211
+  year: 2015
+  journal: Nat Commun
+  first_author: Allum F
+  last_author: Grundberg E
+  pmid: '26021296'
+  pmcid: PMC4544751
+  title: Characterization of functional methylomes by next-generation capture sequencing identifies novel disease-associated
+    variants
+links: {}
+added: '2026-11-12'
+evidence: To overcome this limitation, we present here a new customizable, cost-effective approach, methylC-capture sequencing
+  (MCC-Seq), for sequencing functional methylomes, while simultaneously providing genetic variation information.

@@ -1,0 +1,22 @@
+name: RSEM
+category: dry
+summary: Software for gene and isoform abundance quantification from RNA-seq with or without a reference genome, with credibility
+  intervals.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-12-323
+  year: 2011
+  journal: BMC Bioinformatics
+  first_author: Li B
+  last_author: Dewey CN
+  pmid: '21816040'
+  pmcid: PMC3163565
+  title: 'RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome'
+links: {}
+added: '2026-11-12'
+evidence: We present RSEM, an user-friendly software package for quantifying gene and isoform abundances from single-end or
+  paired-end RNA-Seq data.

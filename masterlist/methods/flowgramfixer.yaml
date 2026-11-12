@@ -1,0 +1,21 @@
+name: FlowgramFixer
+category: dry
+summary: Algorithm that converts Ion Torrent flowgrams into reads using neighbouring-flow signal information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt212
+  year: 2013
+  journal: Bioinformatics
+  first_author: Golan D
+  last_author: Medvedev P
+  pmid: '23813003'
+  pmcid: PMC3694666
+  title: Using state machines to model the Ion Torrent sequencing process and to improve read error rates
+links: {}
+added: '2026-11-12'
+evidence: Despite the advantages, however, Ion Torrent read accuracy remains a significant concern.ResultsWe present FlowgramFixer,
+  a new algorithm for converting flowgrams into reads.

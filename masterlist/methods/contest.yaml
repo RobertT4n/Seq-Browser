@@ -1,0 +1,21 @@
+name: ContEst
+category: dry
+summary: Tool that estimates cross-individual sample contamination in next-generation sequencing data, shipped as a GATK module.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr446
+  year: 2011
+  journal: Bioinformatics
+  first_author: Cibulskis K
+  last_author: Getz G
+  pmid: '21803805'
+  pmcid: PMC3167057
+  title: 'ContEst: estimating cross-contamination of human samples in next-generation sequencing data.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present ContEst, a tool for estimating the level of cross-individual contamination in next-generation sequencing
+  data.

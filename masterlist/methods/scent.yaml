@@ -1,0 +1,24 @@
+name: SCENT
+full_name: single-cell enhancer target gene mapping
+category: dry
+summary: Nonparametric method that maps enhancer-gene links per cell type from paired single-cell RNA and ATAC data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41588-024-01682-1
+  year: 2024
+  journal: Nat Genet
+  first_author: Sakaue S
+  last_author: Raychaudhuri S
+  pmid: '38594305'
+  pmcid: PMC11456345
+  title: Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles
+links: {}
+added: '2026-11-12'
+evidence: Here we developed a nonparametric statistical method, SCENT (single-cell enhancer target gene mapping)

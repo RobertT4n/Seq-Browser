@@ -1,0 +1,25 @@
+name: OncoNPC
+full_name: Oncology NGS-based primary cancer-type classifier
+category: dry
+summary: Machine-learning classifier that predicts primary cancer type from targeted NGS tumour profiles, for cancer of unknown
+  primary.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+reference:
+  doi: 10.1038/s41591-023-02482-6
+  year: 2023
+  journal: Nat Med
+  first_author: Moon I
+  last_author: Gusev A
+  pmid: '37550415'
+  pmcid: PMC11484892
+  title: Machine learning for genetics-based classification and treatment response prediction in cancer of unknown primary.
+links: {}
+added: '2026-11-12'
+evidence: We developed OncoNPC, a machine-learning classifier trained on targeted next-generation sequencing (NGS) data from
+  36,445 tumors across 22 cancer types from three institutions.

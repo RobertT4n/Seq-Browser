@@ -1,0 +1,21 @@
+name: NetSig
+category: dry
+summary: Statistic that combines protein interaction networks with tumour exome data to identify candidate cancer driver genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4514
+  year: 2018
+  journal: Nat Methods
+  first_author: Horn H
+  last_author: Lage K
+  pmid: '29200198'
+  pmcid: PMC5985961
+  title: 'NetSig: network-based discovery from cancer genomes'
+links: {}
+added: '2026-11-12'
+evidence: We developed a robust statistic (NetSig) that integrates protein interaction networks with data from 4,742 tumor
+  exomes.

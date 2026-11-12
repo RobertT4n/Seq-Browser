@@ -1,0 +1,21 @@
+name: DRAGEN
+category: dry
+summary: Multigenome-mapping, hardware-accelerated variant caller detecting SNVs, indels, STRs, SVs and CNVs from raw reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-024-02382-1
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Behera S
+  last_author: Sedlazeck FJ
+  pmid: '39455800'
+  pmcid: PMC12022141
+  title: Comprehensive genome analysis and variant detection at scale using DRAGEN
+links: {}
+added: '2026-11-12'
+evidence: Here we present DRAGEN, which uses multigenome mapping with pangenome references, hardware acceleration and machine
+  learning-based variant detection

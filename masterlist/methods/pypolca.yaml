@@ -1,0 +1,20 @@
+name: Pypolca
+category: dry
+summary: Short-read polisher for Oxford Nanopore bacterial genome assemblies, with default and careful parameter settings.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.001254
+  year: 2024
+  journal: Microb Genom
+  first_author: Bouras G
+  last_author: Wick RR
+  pmid: '38833287'
+  pmcid: PMC11261834
+  title: How low can you go? Short-read polishing of Oxford Nanopore bacterial genome assemblies
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce Pypolca (with default and careful parameters) and Polypolish v0.6.0 (with a new careful parameter).

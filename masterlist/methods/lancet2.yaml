@@ -1,0 +1,21 @@
+name: Lancet2
+category: dry
+summary: Somatic small-variant caller using joint multi-sample local assembly graphs and explainable machine-learning filtering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag036
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Musunuri RL
+  last_author: Narzisi G
+  pmid: '41972010'
+  pmcid: PMC13064521
+  title: 'Lancet2: Improved and accelerated somatic variant calling with joint multi-sample local assembly graphs'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present Lancet2, an open-source somatic variant caller designed to improve detection of small variants
+  in short-read sequencing data.

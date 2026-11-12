@@ -1,0 +1,21 @@
+name: DEJU
+full_name: differential exon-junction usage
+category: dry
+summary: Differential splicing workflow that jointly summarises exon and exon-junction read counts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06210-4
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Pham MT
+  last_author: Chen Y
+  pmid: '40707876'
+  pmcid: PMC12288301
+  title: Incorporating exon-exon junction reads enhances differential splicing detection
+links: {}
+added: '2026-11-12'
+evidence: Results We present a new workflow for differential splicing analysis, called differential exon-junction usage (DEJU).

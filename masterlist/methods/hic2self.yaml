@@ -1,0 +1,22 @@
+name: HiC2Self
+category: dry
+summary: Self-supervised denoising of bulk and single-cell Hi-C contact maps from low-coverage data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adu8060
+  year: 2026
+  journal: Sci Adv
+  first_author: Yang R
+  last_author: Leslie CS
+  pmid: '42490438'
+  pmcid: PMC13394478
+  title: 'HiC2Self: Self-supervised denoising for bulk and single-cell Hi-C contact maps'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce HiC2Self, a self-supervised framework for denoising Hi-C contact maps that requires only low-coverage
+  data as input.

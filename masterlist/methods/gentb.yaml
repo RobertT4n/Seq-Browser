@@ -1,0 +1,23 @@
+name: GenTB
+full_name: Translational Genomics platform for Tuberculosis
+category: dry
+summary: Web application that predicts tuberculosis drug resistance from sequencing data using random forest and neural network
+  models.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-021-00953-4
+  year: 2021
+  journal: Genome Med
+  first_author: Gröschel MI
+  last_author: Farhat MR
+  pmid: '34461978'
+  pmcid: PMC8407037
+  title: 'GenTB: A user-friendly genome-based predictor for tuberculosis resistance powered by machine learning'
+links: {}
+added: '2026-11-12'
+evidence: We present Translational Genomics platform for Tuberculosis (GenTB), a free and open web-based application to predict
+  antibiotic resistance from next-generation sequence data.

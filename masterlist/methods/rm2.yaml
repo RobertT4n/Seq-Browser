@@ -1,0 +1,21 @@
+name: RM2
+category: dry
+summary: Statistical model of mutational enrichment or depletion in classes of genomic elements across whole cancer genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02318-x
+  year: 2021
+  journal: Genome Biol
+  first_author: Lee CA
+  last_author: Reimand J
+  pmid: '33941236'
+  pmcid: PMC8091793
+  title: Functional and genetic determinants of mutation rate variability in regulatory elements of cancer genomes
+links: {}
+added: '2026-11-12'
+evidence: We develop RM2, a statistical model that quantifies mutational enrichment or depletion in classes of genomic elements
+  through genetic, trinucleotide and megabase-scale effects.

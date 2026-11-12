@@ -1,0 +1,22 @@
+name: MethPhaser
+category: dry
+summary: Extends SNV-based haplotype phasing using haplotype-specific methylation signals from Oxford Nanopore reads.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-49588-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Fu Y
+  last_author: Sedlazeck FJ
+  pmid: '38909018'
+  pmcid: PMC11193733
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+links: {}
+added: '2026-11-12'
+evidence: To overcome this limitation, we designed MethPhaser, a method that utilizes methylation signals from Oxford Nanopore
+  Technologies to extend Single Nucleotide Variation (SNV)-based phasing.

@@ -1,0 +1,23 @@
+name: WheresWalker
+category: dry
+summary: Mapping-by-sequencing algorithm that finds the mutation-containing interval in forward-genetic screens and supports
+  positional cloning.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1011702
+  year: 2025
+  journal: PLoS Genet
+  first_author: Feltes M
+  last_author: Farber SA
+  pmid: '40658698'
+  pmcid: PMC12273961
+  title: 'Phenotype to genotype: A new and rapid approach using whole-genome sequencing'
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe WheresWalker, a modern mapping-by-sequencing algorithm that identifies a mutation-containing interval
+  and then supports positional cloning to shrink the interval, which drastically reduces the number of potential candidates,
+  allowing for extremely rapid mutation identification.

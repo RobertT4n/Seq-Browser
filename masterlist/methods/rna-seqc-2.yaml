@@ -1,0 +1,25 @@
+name: RNA-SeQC 2
+full_name: RNA-seq quality control and quantification
+category: dry
+summary: Reimplementation of RNA-SeQC that scales RNA-seq quality control and quantification to large cohorts and adds metrics
+  for many protocols.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- rna-seqc
+reference:
+  doi: 10.1093/bioinformatics/btab135
+  year: 2021
+  journal: Bioinformatics
+  first_author: Graubert A
+  last_author: Getz G
+  pmid: '33677499'
+  pmcid: PMC8479667
+  title: 'RNA-SeQC 2: efficient RNA-seq quality control and quantification for large cohorts'
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe RNA-SeQC 2, an efficient reimplementation of RNA-SeQC (DeLuca et al., 2012) that adds multiple
+  metrics designed to characterize sample quality across a wide range of RNA-seq protocols.

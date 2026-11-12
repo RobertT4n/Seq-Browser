@@ -1,0 +1,21 @@
+name: HATCHet2
+category: dry
+summary: Infers haplotype- and clone-specific copy-number aberrations jointly from multiple bulk tumour samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03267-x
+  year: 2024
+  journal: Genome Biol
+  first_author: Myers MA
+  last_author: Raphael BJ
+  pmid: '38773520'
+  pmcid: PMC11110434
+  title: 'HATCHet2: clone- and haplotype-specific copy number inference from bulk tumor sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: We introduce HATCHet2, an algorithm to identify haplotype- and clone-specific CNAs simultaneously from multiple
+  bulk samples.

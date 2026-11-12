@@ -1,0 +1,27 @@
+name: LB-Seq
+full_name: Liquid Biopsy Sequencing
+category: wet
+summary: Hybrid-capture sequencing of cell-free DNA for somatic mutation detection in myeloma, with a low-frequency variant
+  filter.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1038/ncomms15086
+  year: 2017
+  journal: Nat Commun
+  first_author: Kis O
+  last_author: Pugh TJ
+  pmid: '28492226'
+  pmcid: PMC5437268
+  title: Circulating tumour DNA sequence analysis as an alternative to multiple myeloma bone marrow aspirates
+links: {}
+added: '2026-11-12'
+evidence: We report here a hybrid-capture-based Liquid Biopsy Sequencing (LB-Seq) method used to sequence all protein-coding
+  exons of KRAS, NRAS, BRAF, EGFR and PIK3CA in 64 cfDNA specimens from 53 myeloma patients to >20,000 × median coverage.

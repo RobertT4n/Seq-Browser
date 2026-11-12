@@ -1,0 +1,24 @@
+name: VIMCCA
+full_name: Variational-assisted multi-view canonical correlation analysis
+category: dry
+summary: Variational deep-learning multi-view CCA that integrates paired multimodal single-cell data into a shared latent
+  representation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad005
+  year: 2023
+  journal: Bioinformatics
+  first_author: Wang Y
+  last_author: Hu J
+  pmid: '36622018'
+  pmcid: PMC9857983
+  title: A multi-view latent variable model reveals cellular heterogeneity in complex tissues for paired multimodal single-cell
+    data
+links: {}
+added: '2026-11-12'
+evidence: Here, we present VIMCCA, a computational framework based on variational-assisted multi-view canonical correlation
+  analysis to integrate paired multimodal single-cell data.

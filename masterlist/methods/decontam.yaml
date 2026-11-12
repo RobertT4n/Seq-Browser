@@ -1,0 +1,22 @@
+name: decontam
+category: dry
+summary: R package that statistically identifies and removes contaminant sequences in marker-gene and metagenomic data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-018-0605-2
+  year: 2018
+  journal: Microbiome
+  first_author: Davis NM
+  last_author: Callahan BJ
+  pmid: '30558668'
+  pmcid: PMC6298009
+  title: Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data
+links: {}
+added: '2026-11-12'
+evidence: 'Here we introduce decontam ( https://github.com/benjjneb/decontam ), an open-source R package that implements a
+  statistical classification procedure that identifies contaminants in MGS data based on two widely reproduced patterns: contaminants
+  appear at higher frequencies in low-concentration samples and are often found in negative controls.'

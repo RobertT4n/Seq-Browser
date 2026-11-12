@@ -1,0 +1,21 @@
+name: RAREsim
+category: dry
+summary: Rare-variant simulation algorithm whose parameters come from real sequencing data, reproducing singleton and doubleton
+  distributions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2022.02.009
+  year: 2022
+  journal: Am J Hum Genet
+  first_author: Null M
+  last_author: Hendricks AE
+  pmid: '35298919'
+  pmcid: PMC9069075
+  title: 'RAREsim: A simulation method for very rare genetic variants'
+links: {}
+added: '2026-11-12'
+evidence: We present RAREsim, a flexible and accurate rare-variant simulation algorithm.

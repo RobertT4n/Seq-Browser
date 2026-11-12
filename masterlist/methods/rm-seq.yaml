@@ -1,0 +1,26 @@
+name: RM-seq
+full_name: resistance mutation sequencing
+category: wet
+summary: Amplicon-based barcoded deep sequencing for detecting antibiotic resistance mutations in bacterial populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1186/s13073-018-0572-z
+  year: 2018
+  journal: Genome Med
+  first_author: Guérillot R
+  last_author: Howden BP
+  pmid: '30165908'
+  pmcid: PMC6117896
+  title: Comprehensive antibiotic-linked mutation assessment by resistance mutation sequencing (RM-seq)
+links: {}
+added: '2026-11-12'
+evidence: Here we present RM-seq, a new amplicon-based deep sequencing workflow based on a molecular barcoding technique adapted
+  from Low Error Amplicon sequencing (LEA-seq).

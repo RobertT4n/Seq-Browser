@@ -1,0 +1,21 @@
+name: Referee
+category: dry
+summary: Program that gives each position of a haploid assembly a Phred-like quality score from diploid genotype quality.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gbe/evz088
+  year: 2019
+  journal: Genome Biol Evol
+  first_author: Thomas GWC
+  last_author: Hahn MW
+  pmid: '31028392'
+  pmcid: PMC6535810
+  title: 'Referee: Reference Assembly Quality Scores'
+links: {}
+added: '2026-11-12'
+evidence: Here we present Referee, a program that uses diploid genotype quality information in order to annotate a haploid
+  assembly with a quality score for every position.

@@ -1,0 +1,23 @@
+name: Chromap
+category: dry
+summary: Fast aligner and preprocessor for chromatin profiling data, including bulk ChIP-seq/Hi-C and single-cell ATAC-seq.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26865-w
+  year: 2021
+  journal: Nat Commun
+  first_author: Zhang H
+  last_author: Li H
+  pmid: '34772935'
+  pmcid: PMC8589834
+  title: Fast alignment and preprocessing of chromatin profiles with Chromap
+links: {}
+added: '2026-11-12'
+evidence: Here we present Chromap, an ultrafast method for aligning and preprocessing high throughput chromatin profiles.

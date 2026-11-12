@@ -1,0 +1,21 @@
+name: MAVE-NN
+category: dry
+summary: Python neural-network package that infers genotype-phenotype maps from multiplex assays of variant effect.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-022-02661-7
+  year: 2022
+  journal: Genome Biol
+  first_author: Tareen A
+  last_author: Kinney JB
+  pmid: '35428271'
+  pmcid: PMC9011994
+  title: 'MAVE-NN: learning genotype-phenotype maps from multiplex assays of variant effect'
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce MAVE-NN, a neural-network-based Python package that implements a broadly applicable information-theoretic
+  framework for learning genotype-phenotype maps-including biophysically interpretable models-from MAVE datasets.

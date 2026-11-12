@@ -1,0 +1,21 @@
+name: PoreOver
+category: dry
+summary: Improves nanopore basecalling accuracy by consensus-aligning the probability profiles of two neural-network basecallers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02255-1
+  year: 2021
+  journal: Genome Biol
+  first_author: Silvestre-Ryan J
+  last_author: Holmes I
+  pmid: '33468205'
+  pmcid: PMC7814537
+  title: Pair consensus decoding improves accuracy of neural network basecallers for nanopore sequencing
+links: {}
+added: '2026-11-12'
+evidence: We develop a general computational approach for improving the accuracy of basecalling with Oxford Nanopore's 1D2
+  and related sequencing protocols.

@@ -1,0 +1,22 @@
+name: CalicoST
+category: dry
+summary: Infers allele-specific copy-number aberrations and tumour phylogeography from spatially resolved transcriptomics.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02438-9
+  year: 2024
+  journal: Nat Methods
+  first_author: Ma C
+  last_author: Raphael BJ
+  pmid: '39478176'
+  pmcid: PMC11621028
+  title: Inferring allele-specific copy number aberrations and tumor phylogeography from spatially resolved transcriptomics
+links: {}
+added: '2026-11-12'
+evidence: We introduce CalicoST, an algorithm to simultaneously infer allele-specific copy number aberrations (CNAs) and reconstruct
+  spatial tumor evolution, or phylogeography, from SRT data.

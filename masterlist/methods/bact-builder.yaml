@@ -1,0 +1,24 @@
+name: Bact-Builder
+category: dry
+summary: Pipeline that uses consensus building to generate gap-closed, highly accurate bacterial genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-022-34853-x
+  year: 2022
+  journal: Nat Commun
+  first_author: Chitale P
+  last_author: Alland D
+  pmid: '36400796'
+  pmcid: PMC9673877
+  title: A comprehensive update to the Mycobacterium tuberculosis H37Rv reference genome
+  preprint_doi: 10.1101/2022.07.15.500236
+links: {}
+added: '2026-11-12'
+evidence: We developed Bact-Builder, a pipeline that leverages consensus building to generate complete and highly accurate
+  gap-closed bacterial genomes

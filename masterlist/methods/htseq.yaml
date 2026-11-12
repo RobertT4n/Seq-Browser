@@ -1,0 +1,20 @@
+name: HTSeq
+category: dry
+summary: Python library and htseq-count tool for working with high-throughput sequencing data and counting reads per gene.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu638
+  year: 2015
+  journal: Bioinformatics
+  first_author: Anders S
+  last_author: Huber W
+  pmid: '25260700'
+  pmcid: PMC4287950
+  title: HTSeq--a Python framework to work with high-throughput sequencing data
+links: {}
+added: '2026-11-12'
+evidence: We present HTSeq, a Python library to facilitate the rapid development of such scripts.

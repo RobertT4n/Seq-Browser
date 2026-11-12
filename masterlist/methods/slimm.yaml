@@ -1,0 +1,22 @@
+name: SLIMM
+full_name: Species Level Identification of Microorganisms from Metagenomes
+category: dry
+summary: Metagenomic profiler that uses reference-genome coverage to remove unlikely genomes and assign reads at species level.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.3138
+  year: 2017
+  journal: PeerJ
+  first_author: Dadi TH
+  last_author: Reinert K
+  pmid: '28367376'
+  pmcid: PMC5372838
+  title: 'SLIMM: species level identification of microorganisms from metagenomes'
+links: {}
+added: '2026-11-12'
+evidence: We present a new method Species Level Identification of Microorganisms from Metagenomes (SLIMM) which addresses
+  the above issues by using coverage information of reference genomes to remove unlikely genomes from the analysis

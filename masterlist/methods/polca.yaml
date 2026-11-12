@@ -1,0 +1,23 @@
+name: POLCA
+full_name: POLishing by Calling Alternatives
+category: dry
+summary: Assembly polishing tool that corrects long-read consensus sequences with short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1371/journal.pcbi.1007981
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Zimin AV
+  last_author: Salzberg SL
+  pmid: '32589667'
+  pmcid: PMC7347232
+  title: The genome polishing tool POLCA makes fast and accurate corrections in genome assemblies
+links: {}
+added: '2026-11-12'
+evidence: In this report, we present the assembly polishing tool POLCA (POLishing by Calling Alternatives)

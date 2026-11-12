@@ -1,0 +1,24 @@
+name: ResidPCA
+full_name: residual principal-component analysis
+category: dry
+summary: Residual PCA that identifies cell states while explicitly modelling cell-type heterogeneity, applied to scRNA-seq
+  and snATAC-seq.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xhgg.2025.100538
+  year: 2026
+  journal: HGG Adv
+  first_author: Carver S
+  last_author: Gusev A
+  pmid: '41157948'
+  pmcid: PMC12720097
+  title: Discovery of disease-associated cellular states using ResidPCA in single-cell RNA and ATAC sequencing data.
+links: {}
+added: '2026-11-12'
+evidence: we introduce residual principal-component analysis (ResidPCA), a robust method for identifying cell states that
+  explicitly models cell-type heterogeneity.

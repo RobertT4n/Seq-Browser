@@ -1,0 +1,21 @@
+name: Hi-reComb
+category: dry
+summary: Estimates recombination maps from bulk gamete Hi-C sequencing, with joint assessment of large structural variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/genetics/iyaf150
+  year: 2026
+  journal: Genetics
+  first_author: Malinsky M
+  last_author: Durbin R
+  pmid: '40744628'
+  pmcid: PMC7618151
+  title: 'Hi-reComb: constructing recombination maps from bulk gamete Hi-C sequencing'
+links: {}
+added: '2026-11-12'
+evidence: we present Hi-reComb, a new method and software for estimation of recombination maps from bulk gamete chromosome
+  conformation capture sequencing (Hi-C).

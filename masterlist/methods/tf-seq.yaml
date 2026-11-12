@@ -1,0 +1,30 @@
+name: TF-seq
+full_name: transcription factor activity sequencing
+category: wet
+summary: Parallel synthetic-enhancer reporter assay reading transcriptome and transcription factor activity from over 40 pathways.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.cels.2016.04.011
+  year: 2016
+  journal: Cell Syst
+  first_author: O'Connell DJ
+  last_author: Xavier RJ
+  pmid: '27211859'
+  pmcid: PMC5032147
+  title: Simultaneous Pathway Activity Inference and Gene Expression Analysis Using RNA Sequencing
+links: {}
+added: '2026-11-12'
+evidence: We present a parallel reporter assay, transcription factor activity sequencing (TF-seq), built on synthetic DNA
+  enhancer elements, which enables parallel measurements in primary cells of the transcriptome and transcription factor activity
+  from more than 40 signaling pathways.

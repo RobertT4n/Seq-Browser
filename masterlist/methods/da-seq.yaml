@@ -1,0 +1,21 @@
+name: DA-seq
+category: dry
+summary: Multiscale method for detecting differentially abundant cell subpopulations between two scRNA-seq samples without
+  relying on clusters.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2100293118
+  year: 2021
+  journal: Proc Natl Acad Sci U S A
+  first_author: Zhao J
+  last_author: Kluger Y
+  pmid: '34001664'
+  pmcid: PMC8179149
+  title: Detection of differentially abundant cell subpopulations in scRNA-seq data
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce DA-seq, a targeted approach for identifying DA subpopulations not restricted to clusters.

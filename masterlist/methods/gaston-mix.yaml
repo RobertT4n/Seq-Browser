@@ -1,0 +1,21 @@
+name: GASTON-Mix
+category: dry
+summary: Spatial mixture-of-experts model that jointly identifies spatial domains and continuous expression gradients.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf254
+  year: 2025
+  journal: Bioinformatics
+  first_author: Chitra U
+  last_author: Raphael BJ
+  pmid: '40662777'
+  pmcid: PMC12261403
+  title: 'GASTON-Mix: a unified model of spatial gradients and domains using spatial mixture-of-experts'
+links: {}
+added: '2026-11-12'
+evidence: Results We introduce GASTON-Mix, a machine learning algorithm to identify both spatial domains and spatial gradients
+  within each domain from SRT data.

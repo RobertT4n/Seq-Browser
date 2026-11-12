@@ -1,0 +1,20 @@
+name: BatchSVG
+category: dry
+summary: Method to identify spatially variable genes while flagging those biased by batch or slide effects.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag522
+  year: 2026
+  journal: Bioinformatics
+  first_author: Shah K
+  last_author: Hicks SC
+  pmid: '42461016'
+  pmcid: PMC13412158
+  title: 'BatchSVG: identifying batch-biased genes in the application of spatially variable gene detection'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce BatchSVG, a tool to identify batch-biased genes SVGs.

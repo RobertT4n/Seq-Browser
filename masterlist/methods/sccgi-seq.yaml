@@ -1,0 +1,32 @@
+name: scCGI-seq
+full_name: Single-cell CpG island methylation sequencing
+category: wet
+summary: Restriction-digest and multiple displacement amplification method that profiles CpG island methylation in single
+  cells.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+throughput: lt-1e3
+validated_system:
+- cell-line
+species:
+- human
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1093/nar/gkx026
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Han L
+  last_author: Pan X
+  pmid: '28126923'
+  pmcid: PMC5605247
+  title: Bisulfite-independent analysis of CpG island methylation enables genome-scale stratification of single cells
+links: {}
+added: '2026-11-12'
+evidence: Here we report a novel method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq),
+  combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection
+  of methylated CGIs.

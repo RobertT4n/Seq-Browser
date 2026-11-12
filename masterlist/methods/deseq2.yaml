@@ -1,0 +1,21 @@
+name: DESeq2
+category: dry
+summary: Shrinkage-based differential analysis of count data, stabilising dispersion and fold-change estimates for RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-014-0550-8
+  year: 2014
+  journal: Genome Biol
+  first_author: Love MI
+  last_author: Anders S
+  pmid: '25516281'
+  pmcid: PMC4302049
+  title: Moderated estimation of fold change and  dispersion for RNA-seq data with DESeq2
+links: {}
+added: '2026-11-12'
+evidence: We present DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions
+  and fold changes to improve stability and interpretability of estimates.

@@ -1,0 +1,24 @@
+name: GECSI
+full_name: Gene Expression-based Chromatin State Imputation
+category: dry
+summary: Ensemble of multi-class logistic regressions that imputes chromatin state annotations from gene expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1186/s13059-026-04209-5
+  year: 2026
+  journal: Genome Biol
+  first_author: Fu J
+  last_author: Ernst J
+  pmid: '42958318'
+  pmcid: PMC13721437
+  title: 'GECSI: large-scale chromatin state imputation from gene expression'
+links: {}
+added: '2026-11-12'
+evidence: we develop Gene Expression-based Chromatin State Imputation (GECSI), which uses an ensemble of multi-class logistic
+  regression classifiers to predict chromatin state annotations from gene expression data.

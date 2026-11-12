@@ -1,0 +1,27 @@
+name: MEM
+full_name: microbial-enrichment method
+category: wet
+summary: Host-DNA depletion that enriches microbial DNA from host-rich samples so that shotgun metagenomes and genomes can
+  be recovered from tissue biopsies.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1038/s41592-023-02025-4
+  year: 2023
+  journal: Nat Methods
+  first_author: Wu-Woods NJ
+  last_author: Ismagilov RF
+  pmid: '37828152'
+  pmcid: PMC10885704
+  title: Microbial-enrichment method enables high-throughput metagenomic characterization from host-rich samples
+links: {}
+added: '2026-11-12'
+evidence: Here we describe a microbial-enrichment method (MEM), which we demonstrate on a wide range of sample types, including
+  saliva, stool, intestinal scrapings, and intestinal mucosal biopsies.

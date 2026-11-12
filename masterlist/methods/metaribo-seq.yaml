@@ -1,0 +1,27 @@
+name: MetaRibo-Seq
+category: wet
+summary: Ribosome profiling applied directly to microbiome and fecal samples to measure translation of many uncultured microbes
+  at once.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/s41467-020-17081-z
+  year: 2020
+  journal: Nat Commun
+  first_author: Fremin BJ
+  last_author: Bhatt AS
+  pmid: '32601270'
+  pmcid: PMC7324362
+  title: MetaRibo-Seq measures translation in microbiomes.
+links: {}
+added: '2026-11-12'
+evidence: we develop MetaRibo-Seq, a method for simultaneous ribosome profiling of tens to hundreds of organisms in microbiome
+  samples

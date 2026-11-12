@@ -1,0 +1,21 @@
+name: COMPASS
+category: dry
+summary: Pan-cancer transformer that predicts immunotherapy response from bulk tumour transcriptomes via immune concepts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41591-026-04502-7
+  year: 2026
+  journal: Nat Med
+  first_author: Shen W
+  last_author: Zitnik M
+  pmid: '42399673'
+  pmcid: PMC13472881
+  title: Generalizable AI predicts immunotherapy outcomes across cancers and treatments
+links: {}
+added: '2026-11-12'
+evidence: Here we present COMPASS, a pan-cancer foundation model that predicts immunotherapy response from bulk tumor transcriptomes
+  using a concept bottleneck transformer.

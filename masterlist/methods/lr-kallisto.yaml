@@ -1,0 +1,22 @@
+name: lr-kallisto
+category: dry
+summary: Adapts kallisto bulk and single-cell quantification to long-read transcript isoform quantification, improved by exome
+  capture.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1013692
+  year: 2025
+  journal: PLoS Comput Biol
+  first_author: Loving RK
+  last_author: Pachter L
+  pmid: '41325434'
+  pmcid: PMC12680354
+  title: Long-read sequencing transcriptome quantification with lr-kallisto
+links: {}
+added: '2026-11-12'
+evidence: To perform quantifications we developed lr-kallisto, which adapts the kallisto bulk and single-cell RNA-seq quantification
+  methods for long-read technologies.

@@ -1,0 +1,22 @@
+name: MISA
+full_name: MIxed Sample Analysis tool
+category: dry
+summary: Method that resolves the two constituents of a mixed sample and places them phylogenetically from k-mer Jaccard distances.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa489
+  year: 2020
+  journal: Bioinformatics
+  first_author: Balaban M
+  last_author: Mirarab S
+  pmid: '32657414'
+  pmcid: PMC7355250
+  title: Phylogenetic double placement of mixed samples
+links: {}
+added: '2026-11-12'
+evidence: We test the resulting method, called MIxed Sample Analysis tool (MISA), on a varied set of simulated and biological
+  datasets.

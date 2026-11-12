@@ -1,0 +1,20 @@
+name: LorBin
+category: dry
+summary: Unsupervised binner that reconstructs metagenome-assembled genomes from long-read metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64916-8
+  year: 2025
+  journal: Nat Commun
+  first_author: Xue W
+  last_author: Wei Z
+  pmid: '41136439'
+  pmcid: PMC12552423
+  title: 'LorBin: efficient binning of long-read metagenomes by multiscale adaptive clustering and evaluation'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present LorBin, an unsupervised binner specially designed to reconstruct MAGs in natural microbiomes.

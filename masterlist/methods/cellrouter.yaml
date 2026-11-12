@@ -1,0 +1,21 @@
+name: CellRouter
+category: dry
+summary: Flow-network platform that reconstructs cell-state transition trajectories from single-cell omics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03214-y
+  year: 2018
+  journal: Nat Commun
+  first_author: Lummertz da Rocha E
+  last_author: Daley GQ
+  pmid: '29497036'
+  pmcid: PMC5832860
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+links: {}
+added: '2026-11-12'
+evidence: Here, we present CellRouter, a multifaceted single-cell analysis platform that identifies complex cell-state transition
+  trajectories by using flow networks to explore the subpopulation structure of multi-dimensional, single-cell omics data.

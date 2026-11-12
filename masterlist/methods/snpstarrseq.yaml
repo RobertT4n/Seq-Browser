@@ -1,0 +1,30 @@
+name: snpSTARRseq
+category: wet
+summary: Reporter-based assay that measures how non-coding GWAS SNPs alter enhancer activity, with longer inserts and more
+  variants tested per locus.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+perturbation:
+- reporter-assay
+species:
+- human
+variant_of:
+- starr-seq
+reference:
+  doi: 10.1093/nar/gkac1198
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Morova T
+  last_author: Lack NA
+  pmid: '36546757'
+  pmcid: PMC9943666
+  title: Optimized high-throughput screening of non-coding variants identified from genome-wide association studies
+links: {}
+added: '2026-11-12'
+evidence: To functionally interrogate the activity of such variants we developed snpSTARRseq, a high-throughput experimental
+  method that can interrogate the functional impact of hundreds to thousands of non-coding variants on enhancer activity.

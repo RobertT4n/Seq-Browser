@@ -1,0 +1,24 @@
+name: MGW
+full_name: Manifold Gromov-Wasserstein
+category: dry
+summary: Aligns spatial multi-omics datasets across arbitrary modalities using Riemannian metrics and Gromov-Wasserstein optimal
+  transport.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag220
+  year: 2026
+  journal: Bioinformatics
+  first_author: Halmos P
+  last_author: Raphael BJ
+  pmid: '42412825'
+  pmcid: PMC13340267
+  title: Riemannian metric learning for alignment of spatial multiomics
+links: {}
+added: '2026-11-12'
+evidence: We introduce Manifold Gromov-Wasserstein (MGW), a metric-learning framework

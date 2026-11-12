@@ -1,0 +1,20 @@
+name: MONI
+category: dry
+summary: Tool that finds maximal exact matches between reads and a genome collection using an r-index with thresholds.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2021.0445
+  year: 2022
+  journal: J Comput Biol
+  first_author: Rossi M
+  last_author: Boucher C
+  pmid: '35041518'
+  pmcid: PMC8902461
+  title: Finding Maximal Exact Matches Using the r-Index
+links: {}
+added: '2026-11-12'
+evidence: In this article, we present the tool that implements this solution, which we call MONI.

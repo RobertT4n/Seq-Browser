@@ -1,0 +1,23 @@
+name: spatialMNN
+full_name: spatial mutual nearest neighbors
+category: dry
+summary: Integrates multiple spatial transcriptomics samples through a spatial kNN and mutual-nearest-neighbour graph to identify
+  spatial domains.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf403
+  year: 2025
+  journal: Bioinformatics
+  first_author: Zhou H
+  last_author: Hicks SC
+  pmid: '40713795'
+  pmcid: PMC12317746
+  title: Spatial mutual nearest neighbors for spatial transcriptomics data.
+links: {}
+added: '2026-11-12'
+evidence: Here, we present spatialMNN, an algorithm that integrates multiple spatial transcriptomic samples and identifies
+  spatial domains.

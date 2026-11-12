@@ -1,0 +1,21 @@
+name: BigHorn
+category: dry
+summary: Computational inference of lncRNA-DNA interactions linking lncRNAs to coordinated regulation of their targets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.100927
+  year: 2025
+  journal: Cell Genom
+  first_author: Chiu HS
+  last_author: Sumazin P
+  pmid: '40628267'
+  pmcid: PMC12367320
+  title: Coordinated regulation by lncRNAs results in tight lncRNA-target couplings
+links: {}
+added: '2026-11-12'
+evidence: We developed BigHorn to computationally infer lncRNA-DNA interactions that mediate transcription and chromatin-remodeling
+  factor activity.

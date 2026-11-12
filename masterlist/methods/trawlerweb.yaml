@@ -1,0 +1,24 @@
+name: TrawlerWeb
+category: dry
+summary: Web interface for de novo motif discovery on DNA sequences from NGS datasets, adding direct BED input and matched
+  backgrounds.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4630-0
+  year: 2018
+  journal: BMC Genomics
+  first_author: Dang LT
+  last_author: Ramialison M
+  pmid: '29621972'
+  pmcid: PMC5887194
+  title: 'TrawlerWeb: an online de novo motif discovery tool for next-generation sequencing datasets'
+links: {}
+added: '2026-11-12'
+evidence: Results We present TrawlerWeb, a web-based version of the Trawler_standalone tool (Nat Methods 4:563-5, 2007; Nat
+  Protoc 5:323-34, 2010), to allow for the identification of enriched motifs in DNA sequences obtained from next-generation
+  sequencing experiments in order to predict their TFBS composition.

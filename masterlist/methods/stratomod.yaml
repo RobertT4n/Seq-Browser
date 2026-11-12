@@ -1,0 +1,21 @@
+name: StratoMod
+category: dry
+summary: Interpretable machine-learning model predicting germline variant-calling recall and errors across genomic contexts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-06981-1
+  year: 2024
+  journal: Commun Biol
+  first_author: Dwarshuis N
+  last_author: Zook JM
+  pmid: '39397114'
+  pmcid: PMC11471861
+  title: 'StratoMod: predicting sequencing and variant calling errors with interpretable machine learning'
+links: {}
+added: '2026-11-12'
+evidence: We present StratoMod, which addresses this problem using an interpretable machine-learning classifier to predict
+  germline variant calling errors in a data-driven manner.

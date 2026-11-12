@@ -1,0 +1,22 @@
+name: GBStools
+category: dry
+summary: Statistical method that estimates and removes allelic-dropout errors caused by restriction-site polymorphisms in
+  reduced-representation sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pgen.1005631
+  year: 2016
+  journal: PLoS Genet
+  first_author: Cooke TF
+  last_author: Kenny EE
+  pmid: '26828719'
+  pmcid: PMC4734769
+  title: 'GBStools: A Statistical Method for Estimating Allelic Dropout in Reduced Representation Sequencing Data'
+links: {}
+added: '2026-11-12'
+evidence: We developed a statistical method to remove errors caused by restriction site polymorphisms, implemented in the
+  software package GBStools.

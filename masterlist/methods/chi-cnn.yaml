@@ -1,0 +1,24 @@
+name: chi-CNN
+aliases:
+- χ-CNN
+category: dry
+summary: Convolutional neural network that predicts high-resolution sources of Hi-C interactions from DNase-seq and ChIP-seq
+  data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz843
+  year: 2020
+  journal: Bioinformatics
+  first_author: Jaroszewicz A
+  last_author: Ernst J
+  pmid: '31742318'
+  pmcid: PMC7425030
+  title: An integrative approach for fine-mapping chromatin interactions
+links: {}
+added: '2026-11-12'
+evidence: To predict the sources of Hi-C-identified interactions at a high resolution (e.g. 100 bp), we developed a computational
+  method that integrates data from DNase-seq and ChIP-seq of TFs and histone marks.

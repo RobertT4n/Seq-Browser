@@ -1,0 +1,20 @@
+name: riboHMM
+category: dry
+summary: Infers translated coding sequences, including novel upstream ORFs, from ribosome footprint data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7554/elife.13328
+  year: 2016
+  journal: Elife
+  first_author: Raj A
+  last_author: Pritchard JK
+  pmid: '27232982'
+  pmcid: PMC4940163
+  title: Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling.
+links: {}
+added: '2026-11-12'
+evidence: We describe riboHMM, a new method that uses ribosome footprint data to accurately infer translated sequences.

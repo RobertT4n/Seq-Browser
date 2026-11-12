@@ -1,0 +1,23 @@
+name: GotCloud
+category: dry
+summary: Pipeline for alignment, variant calling, machine-learning filtering and genotyping of population-scale sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.176552.114
+  year: 2015
+  journal: Genome Res
+  first_author: Jun G
+  last_author: Kang HM
+  pmid: '25883319'
+  pmcid: PMC4448687
+  title: An efficient and scalable analysis framework for variant extraction and refinement from population-scale DNA sequence
+    data
+links: {}
+added: '2026-11-12'
+evidence: We present GotCloud, a pipeline for efficiently detecting and genotyping high-quality variants from large-scale
+  sequencing data.

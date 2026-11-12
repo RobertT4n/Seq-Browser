@@ -1,0 +1,21 @@
+name: CellAssign
+category: dry
+summary: Probabilistic marker-gene model that annotates single-cell RNA-seq into predefined or de novo cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0529-1
+  year: 2019
+  journal: Nat Methods
+  first_author: Zhang AW
+  last_author: Shah SP
+  pmid: '31501550'
+  pmcid: PMC7485597
+  title: Probabilistic cell-type assignment of single-cell RNA-seq for tumor microenvironment profiling
+links: {}
+added: '2026-11-12'
+evidence: To overcome these issues, we present CellAssign, a probabilistic model that leverages prior knowledge of cell-type
+  marker genes to annotate single-cell RNA sequencing data into predefined or de novo cell types.

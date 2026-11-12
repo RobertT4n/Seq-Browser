@@ -1,0 +1,23 @@
+name: QPLOT
+category: dry
+summary: Automated tool that produces quality metrics and graphical summaries for sequencing run and alignment data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1155/2013/865181
+  year: 2013
+  journal: Biomed Res Int
+  first_author: Li B
+  last_author: Abecasis GR
+  pmid: '24319692'
+  pmcid: PMC3844194
+  title: 'QPLOT: a quality assessment tool for next generation sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: Importantly, since NGS technologies and protocols are rapidly evolving, with constantly changing steps ranging from
+  sample preparation to data processing software updates, it is important to enable researchers to routinely assess the quality
+  of sequencing and alignment data prior to downstream analyses.ResultsHere we describe QPLOT, an automated tool that can
+  facilitate the quality assessment of sequencing run performance.

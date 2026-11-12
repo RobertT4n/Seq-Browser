@@ -1,0 +1,23 @@
+name: Gustaf
+full_name: Generic mUlti-SpliT Alignment Finder
+category: dry
+summary: Multi-split alignment tool that detects and classifies structural variants of 30 bp and larger.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu431
+  year: 2014
+  journal: Bioinformatics
+  first_author: Trappe K
+  last_author: Reinert K
+  pmid: '25028727'
+  title: 'Gustaf: Detecting and correctly classifying SVs in the NGS twilight zone'
+links: {}
+added: '2026-11-12'
+evidence: SV detection tools usually exhibit low agreement, are often geared toward certain types or size ranges of variation
+  and struggle to correctly classify the type and exact size of SVs.ResultsWe present Gustaf (Generic mUlti-SpliT Alignment
+  Finder), a sound generic multi-split SV detection tool that detects and classifies deletions, inversions, dispersed duplications
+  and translocations of ≥ 30 bp.

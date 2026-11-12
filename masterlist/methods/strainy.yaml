@@ -1,0 +1,21 @@
+name: Strainy
+category: dry
+summary: Algorithm for strain-level metagenome assembly and haplotype phasing from Nanopore and PacBio reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02424-1
+  year: 2024
+  journal: Nat Methods
+  first_author: Kazantseva E
+  last_author: Kolmogorov M
+  pmid: '39327484'
+  pmcid: PMC13005716
+  title: 'Strainy: phasing and assembly of strain haplotypes from long-read metagenome sequencing'
+links: {}
+added: '2026-11-12'
+evidence: Here we present Strainy, an algorithm for strain-level metagenome assembly and phasing from Nanopore and PacBio
+  reads.

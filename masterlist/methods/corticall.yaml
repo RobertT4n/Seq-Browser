@@ -1,0 +1,22 @@
+name: Corticall
+category: dry
+summary: Graph-based variant caller that combines multisample coloured de Bruijn graphs with long-read haplotypes and reference
+  data to detect de novo mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.255505.119
+  year: 2020
+  journal: Genome Res
+  first_author: Garimella KV
+  last_author: McVean G
+  pmid: '32817236'
+  pmcid: PMC7462078
+  title: Detection of simple and complex de novo mutations with multiple reference sequences
+links: {}
+added: '2026-11-12'
+evidence: Here we present Corticall, a graph-based method that combines the advantages of multiple technologies and prior
+  data sources to detect arbitrary classes of genetic variant.

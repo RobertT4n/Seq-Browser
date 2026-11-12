@@ -1,0 +1,22 @@
+name: MultiVI
+category: dry
+summary: Probabilistic model that integrates multiome and single-modality single-cell data into a joint representation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-01909-9
+  year: 2023
+  journal: Nat Methods
+  first_author: Ashuach T
+  last_author: Yosef N
+  pmid: '37386189'
+  pmcid: PMC10406609
+  title: 'MultiVI: deep generative model for the integration of multimodal data'
+links: {}
+added: '2026-11-12'
+evidence: Here we present MultiVI, a probabilistic model to analyze such multiomic data and leverage it to enhance single-modality
+  datasets.

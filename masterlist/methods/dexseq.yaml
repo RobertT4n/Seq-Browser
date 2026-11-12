@@ -1,0 +1,20 @@
+name: DEXSeq
+category: dry
+summary: GLM-based statistical test for differential exon usage from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.133744.111
+  year: 2012
+  journal: Genome Res
+  first_author: Anders S
+  last_author: Huber W
+  pmid: '22722343'
+  pmcid: PMC3460195
+  title: Detecting differential usage of exons from RNA-seq data
+links: {}
+added: '2026-11-12'
+evidence: We present DEXSeq, a statistical method to test for differential exon usage in RNA-seq data.

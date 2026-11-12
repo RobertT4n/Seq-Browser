@@ -1,0 +1,29 @@
+name: scMTR-seq
+full_name: single-cell multitargets and mRNA sequencing
+category: wet
+summary: Single-cell method that profiles six histone modifications together with the transcriptome in the same cells.
+readouts:
+- histone-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1126/sciadv.adu3308
+  year: 2025
+  journal: Sci Adv
+  first_author: Wang Y
+  last_author: Rugg-Gunn PJ
+  pmid: '40768587'
+  pmcid: PMC12327464
+  title: Combinatorial profiling of multiple histone modifications and transcriptome in single cells using scMTR-seq
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe single-cell multitargets and mRNA sequencing (scMTR-seq), a high-throughput method that enables
+  simultaneous profiling of six histone modifications and transcriptome in single cells.

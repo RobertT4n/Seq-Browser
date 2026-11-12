@@ -1,0 +1,22 @@
+name: PreGame
+category: dry
+summary: Machine-learning classifier that identifies tumour-reactive gamma-delta T cells from single-cell CITE-seq data.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-026-11055-9
+  year: 2026
+  journal: Nature
+  first_author: St Paul M
+  last_author: Mak TW
+  pmid: '42749802'
+  pmcid: PMC13736537
+  title: Identification of broadly tumour-reactive γδ TCRs from multiple myeloma
+links: {}
+added: '2026-11-12'
+evidence: Here we present PreGame, a machine-learning algorithm capable of identifying tumour-reactive γδ T cells from single-cell
+  CITE sequencing data.

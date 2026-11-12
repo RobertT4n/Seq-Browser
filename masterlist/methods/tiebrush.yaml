@@ -1,0 +1,23 @@
+name: TieBrush
+category: dry
+summary: Aggregates and summarises mapped reads across thousands of RNA-seq or DNA-seq samples for visual and computational
+  inspection.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab342
+  year: 2021
+  journal: Bioinformatics
+  first_author: Varabyou A
+  last_author: Pertea M
+  pmid: '33964128'
+  pmcid: PMC8545345
+  title: 'TieBrush: an efficient method for aggregating and summarizing mapped reads across large datasets'
+links: {}
+added: '2026-11-12'
+evidence: In this work, we present TieBrush, a software package designed to process very large sequencing datasets (RNA, whole-genome,
+  exome, etc.) into a form that enables quick visual and computational inspection.

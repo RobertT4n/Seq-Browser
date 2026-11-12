@@ -1,0 +1,20 @@
+name: scLong
+category: dry
+summary: Billion-parameter single-cell transcriptomic foundation model with long-range gene context.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-69102-y
+  year: 2026
+  journal: Nat Commun
+  first_author: Bai D
+  last_author: Xing E
+  pmid: '41639087'
+  pmcid: PMC12982784
+  title: 'scLong: a billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics'
+links: {}
+added: '2026-11-12'
+evidence: To address these limitations, we present scLong, a billion-parameter foundation model pretrained on 48 million cells.

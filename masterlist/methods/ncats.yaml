@@ -1,0 +1,35 @@
+name: nCATS
+full_name: nanopore Cas9-targeted sequencing
+category: wet
+summary: Cas9-guided targeted nanopore sequencing that ligates adapters to cut chromosomal DNA, reporting SNVs, SVs and CpG
+  methylation.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+chemistry:
+- adapter-ligation
+- long-read-sequencing
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/s41587-020-0407-5
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Gilpatrick T
+  last_author: Timp W
+  pmid: '32042167'
+  pmcid: PMC7145730
+  title: Targeted nanopore sequencing with Cas9-guided adapter ligation
+links: {}
+added: '2026-11-12'
+evidence: In the present study, we describe nanopore Cas9-targeted sequencing (nCATS), an enrichment strategy that uses targeted
+  cleavage of chromosomal DNA with Cas9 to ligate adapters for nanopore sequencing.

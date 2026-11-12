@@ -1,0 +1,32 @@
+name: D-NAscent
+full_name: detection of nucleotide analog signal currents on extremely long nanopore traces
+category: wet
+summary: Nanopore method that detects BrdU-labelled bases on ultra-long reads to map replication-fork movement and origins
+  on single DNA molecules.
+readouts:
+- replication-timing
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+reference:
+  doi: 10.1038/s41592-019-0394-y
+  year: 2019
+  journal: Nat Methods
+  first_author: Müller CA
+  last_author: Nieduszynski CA
+  pmid: '31011185'
+  pmcid: PMC7617212
+  title: Capturing the dynamics of genome replication on individual ultra-long nanopore sequence reads
+links: {}
+added: '2026-11-12'
+evidence: We report a sequencing method for the measurement of replication fork movement on single molecules by detecting
+  nucleotide analog signal currents on extremely long nanopore traces (D-NAscent).

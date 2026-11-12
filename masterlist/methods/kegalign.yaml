@@ -1,0 +1,20 @@
+name: KegAlign
+category: dry
+summary: GPU-enabled pairwise genome aligner with diagonal partitioning, aiming at lastZ-level sensitivity for divergent genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03830-0
+  year: 2025
+  journal: Genome Biol
+  first_author: Gulhan AB
+  last_author: Nekrutenko A
+  pmid: '41250219'
+  pmcid: PMC12621372
+  title: 'KegAlign: optimizing pairwise alignments with diagonal partitioning'
+links: {}
+added: '2026-11-12'
+evidence: Here, we develop KegAlign, an optimized GPU-enabled pairwise aligner.

@@ -1,0 +1,21 @@
+name: recount3
+category: dry
+summary: Monorail uniform-processing pipeline and R packages for querying large public RNA-seq collections.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02533-6
+  year: 2021
+  journal: Genome Biol
+  first_author: Wilks C
+  last_author: Langmead B
+  pmid: '34844637'
+  pmcid: PMC8628444
+  title: 'recount3: summaries and queries for large-scale RNA-seq expression and splicing'
+links: {}
+added: '2026-11-12'
+evidence: We present recount3, a resource consisting of over 750,000 publicly available human and mouse RNA sequencing (RNA-seq)
+  samples uniformly processed by our new Monorail analysis pipeline.

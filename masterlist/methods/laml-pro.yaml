@@ -1,0 +1,24 @@
+name: LAML-Pro
+full_name: Lineage Analysis via Maximum Likelihood with PRobabilistic Observations
+category: dry
+summary: Maximum-likelihood algorithm that jointly infers cell genotypes and cell lineage trees from genome-editing lineage-tracing
+  data.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag219
+  year: 2026
+  journal: Bioinformatics
+  first_author: Chu G
+  last_author: Raphael BJ
+  pmid: '42412792'
+  pmcid: PMC13341131
+  title: 'LAML-Pro: joint maximum likelihood inference of cell genotypes and cell lineage trees'
+links: {}
+added: '2026-11-12'
+evidence: For example, using fluorescence based-imaging to measure edits results in a high fraction (≈25%-50%) of uncertain
+  or erroneous genotypes.ResultsWe introduce Lineage Analysis via Maximum Likelihood with PRobabilistic Observations (LAML-Pro),
+  an algorithm that jointly infers cell genotypes and a cell lineage tree.

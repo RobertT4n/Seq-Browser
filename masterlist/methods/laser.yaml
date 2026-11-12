@@ -1,0 +1,22 @@
+name: LASER
+category: dry
+summary: Server for estimating individual genetic ancestry by placing sequenced or genotyped samples in a common ancestry
+  space.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx075
+  year: 2017
+  journal: Bioinformatics
+  first_author: Taliun D
+  last_author: Wang C
+  pmid: '28200055'
+  pmcid: PMC5870850
+  title: 'LASER server: ancestry tracing with genotypes or sequence reads'
+links: {}
+added: '2026-11-12'
+evidence: we developed LASER to estimate individual ancestry by placing either sezquenced or genotyped samples in a common
+  ancestry space

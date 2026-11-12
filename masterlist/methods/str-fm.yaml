@@ -1,0 +1,23 @@
+name: STR-FM
+full_name: short tandem repeat profiling using flank-based mapping
+category: dry
+summary: Pipeline that types short tandem repeat alleles from short-read sequencing data by flank-based mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.185892.114
+  year: 2015
+  journal: Genome Res
+  first_author: Fungtammasan A
+  last_author: Makova KD
+  pmid: '25823460'
+  pmcid: PMC4417121
+  title: Accurate typing of short tandem repeats from genome-wide sequencing data and its applications
+links: {}
+added: '2026-11-12'
+evidence: Here, we developed STR-FM, short tandem repeat profiling using flank-based mapping, a computational pipeline that
+  can detect the full spectrum of STR alleles from short-read data, can adapt to emerging read-mapping algorithms, and can
+  be applied to heterogeneous genetic samples (e.g., tumors, viruses, and genomes of organelles).

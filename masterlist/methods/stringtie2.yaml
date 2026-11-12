@@ -1,0 +1,20 @@
+name: StringTie2
+category: dry
+summary: Reference-guided transcript assembler for short and long reads, with methods for the high error rate of long reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1910-1
+  year: 2019
+  journal: Genome Biol
+  first_author: Kovaka S
+  last_author: Pertea M
+  pmid: '31842956'
+  pmcid: PMC6912988
+  title: Transcriptome assembly from long-read RNA-seq alignments with StringTie2
+links: {}
+added: '2026-11-12'
+evidence: Here we present StringTie2, a reference-guided transcriptome assembler that works with both short and long reads.

@@ -1,0 +1,21 @@
+name: Acidbio
+category: dry
+summary: Verification system that tests bioinformatics tools for correct handling of genomics file-format edge cases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac327
+  year: 2022
+  journal: Bioinformatics
+  first_author: Niu YN
+  last_author: Hoffman MM
+  pmid: '35575355'
+  pmcid: PMC9237710
+  title: Assessing and assuring interoperability of a genomics file format
+links: {}
+added: '2026-11-12'
+evidence: At worst, interoperability issues could lead to undetected errors in scientific results.ResultsWe developed a new
+  verification system, Acidbio, which tests for correct behavior in bioinformatics software packages.

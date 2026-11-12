@@ -1,0 +1,22 @@
+name: RCTD
+full_name: robust cell type decomposition
+category: dry
+summary: Decomposes spatial-transcriptomics spots into cell-type mixtures using single-cell RNA-seq reference profiles.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-00830-w
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Cable DM
+  last_author: Irizarry RA
+  pmid: '33603203'
+  pmcid: PMC8606190
+  title: Robust decomposition of cell type mixtures in spatial transcriptomics
+links: {}
+added: '2026-11-12'
+evidence: we develop robust cell type decomposition (RCTD), a computational method that leverages cell type profiles learned
+  from single-cell RNA-seq

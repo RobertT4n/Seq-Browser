@@ -1,0 +1,21 @@
+name: PASTE2
+category: dry
+summary: Partial alignment and 3D reconstruction of multislice spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277670.123
+  year: 2023
+  journal: Genome Res
+  first_author: Liu X
+  last_author: Raphael BJ
+  pmid: '37553263'
+  pmcid: PMC10538490
+  title: Partial alignment of multislice spatially resolved transcriptomics data
+links: {}
+added: '2026-11-12'
+evidence: We introduce PASTE2, a method for partial alignment and 3D reconstruction of multislice SRT data sets, allowing
+  only partial overlap between aligned slices and/or slice-specific cell types.

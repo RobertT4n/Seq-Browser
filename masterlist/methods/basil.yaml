@@ -1,0 +1,20 @@
+name: BASIL
+category: dry
+summary: Detects insertion breakpoints in paired HTS reads to enable targeted assembly of large novel insertions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv051
+  year: 2015
+  journal: Bioinformatics
+  first_author: Holtgrewe M
+  last_author: Reinert K
+  pmid: '25649620'
+  title: Methods for the detection and assembly of novel sequence in high-throughput sequencing data
+links: {}
+added: '2026-11-12'
+evidence: 'We present approaches for detecting insertion breakpoints and targeted assembly of large insertions from HTS paired
+  data: BASIL and ANISE.'

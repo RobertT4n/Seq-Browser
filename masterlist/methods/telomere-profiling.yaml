@@ -1,0 +1,29 @@
+name: Telomere Profiling
+category: wet
+summary: Nanopore-based method measuring chromosome end-specific telomere length at near single-nucleotide resolution.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1126/science.ado0431
+  year: 2024
+  journal: Science
+  first_author: Karimian K
+  last_author: Greider CW
+  pmid: '38603523'
+  pmcid: PMC12425158
+  title: Human telomere length is chromosome end-specific and conserved across individuals
+links: {}
+added: '2026-11-12'
+evidence: We developed a nanopore-based method, which we call Telomere Profiling, to determine telomere length at nearly single-nucleotide
+  resolution.

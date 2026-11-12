@@ -1,0 +1,21 @@
+name: SCARLET
+category: dry
+summary: Single-cell tumour phylogeny inference that accounts for copy-number-driven SNV loss and sequencing errors.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2020.04.001
+  year: 2020
+  journal: Cell Syst
+  first_author: Satas G
+  last_author: Raphael BJ
+  pmid: '32864481'
+  pmcid: PMC7451135
+  title: 'SCARLET: Single-cell tumor phylogeny inference with copy-number constrained mutation losses.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce SCARLET, an algorithm that infers tumor phylogenies from single-cell DNA sequencing data while
+  accounting for both CNA-driven loss of SNVs and sequencing errors.

@@ -1,0 +1,22 @@
+name: SVDSS
+full_name: SV discovery with sample-specific strings
+category: dry
+summary: Discovers structural variants from long reads using sample-specific strings in hard-to-call regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01674-1
+  year: 2023
+  journal: Nat Methods
+  first_author: Denti L
+  last_author: Chikhi R
+  pmid: '36550274'
+  title: 'SVDSS: structural variation discovery in hard-to-call genomic regions using sample-specific strings from accurate
+    long reads'
+links: {}
+added: '2026-11-12'
+evidence: Here we present SV discovery with sample-specific strings (SVDSS)-a method for discovery of SVs from long-read sequencing
+  technologies

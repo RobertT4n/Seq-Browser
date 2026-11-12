@@ -1,0 +1,20 @@
+name: Rail-RNA
+category: dry
+summary: Cloud-enabled spliced aligner that analyses many RNA-seq samples at once and outputs splicing and coverage products.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw575
+  year: 2017
+  journal: Bioinformatics
+  first_author: Nellore A
+  last_author: Langmead B
+  pmid: '27592709'
+  pmcid: PMC5860083
+  title: 'Rail-RNA: scalable analysis of RNA-seq splicing and coverage'
+links: {}
+added: '2026-11-12'
+evidence: We describe Rail-RNA, a cloud-enabled spliced aligner that analyzes many samples at once.

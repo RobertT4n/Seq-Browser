@@ -1,0 +1,21 @@
+name: PhyloSub
+category: dry
+summary: Bayesian nonparametric model that infers tumour subclonal phylogeny and lineage frequencies from somatic SNV frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-35
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Jiao W
+  last_author: Morris Q
+  pmid: '24484323'
+  pmcid: PMC3922638
+  title: Inferring clonal evolution of tumors from single nucleotide somatic mutations
+links: {}
+added: '2026-11-12'
+evidence: we introduce a new statistical model, PhyloSub, that infers the phylogeny and genotype of the major subclonal lineages
+  represented in the population of cancer cells.

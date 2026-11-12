@@ -1,0 +1,21 @@
+name: ConStrains
+category: dry
+summary: Identifies conspecific strains from SNP patterns in universal genes in metagenomic data and reconstructs strain phylogenies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3319
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Luo C
+  last_author: Gevers D
+  pmid: '26344404'
+  pmcid: PMC4676274
+  title: ConStrains identifies microbial strains in metagenomic datasets.
+links: {}
+added: '2026-11-12'
+evidence: We present ConStrains, an open-source algorithm that identifies conspecific strains from metagenomic sequence data
+  and reconstructs the phylogeny of these strains in microbial communities.

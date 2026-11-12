@@ -1,0 +1,20 @@
+name: DeepSomatic
+category: dry
+summary: Deep-learning somatic small-variant caller for short-read and long-read data, released with the CASTLE benchmark.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-025-02839-x
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Park J
+  last_author: Shafin K
+  pmid: '41102444'
+  title: Accurate somatic small variant discovery for multiple sequencing technologies with DeepSomatic
+links: {}
+added: '2026-11-12'
+evidence: We present DeepSomatic, a deep-learning method for detecting somatic small nucleotide variations and insertions
+  and deletions from both short-read and long-read data.

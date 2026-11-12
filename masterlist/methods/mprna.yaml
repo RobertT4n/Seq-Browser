@@ -1,0 +1,28 @@
+name: MPRNA
+full_name: massively parallel RNA assay
+category: wet
+summary: Massively parallel assay of barcoded RNA segments that identifies sequences driving nuclear enrichment after fractionation.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.15252/embj.201798452
+  year: 2018
+  journal: EMBO J
+  first_author: Shukla CJ
+  last_author: Rinn JL
+  pmid: '29335281'
+  pmcid: PMC5852646
+  title: High-throughput identification of RNA nuclear enrichment sequences
+links: {}
+added: '2026-11-12'
+evidence: Massively parallel reporter assays have greatly enhanced the understanding of noncoding DNA elements en masse Here,
+  we present a massively parallel RNA assay (MPRNA) that can assay 10,000 or more RNA segments for RNA-based functionality.

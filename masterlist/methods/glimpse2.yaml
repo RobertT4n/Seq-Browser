@@ -1,0 +1,23 @@
+name: GLIMPSE2
+category: dry
+summary: Low-coverage genotype imputation tool that scales sublinearly with sample and marker number while staying accurate
+  for ancient and modern genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-023-01438-3
+  year: 2023
+  journal: Nat Genet
+  first_author: Rubinacci S
+  last_author: Delaneau O
+  pmid: '37386250'
+  pmcid: PMC10335927
+  title: Imputation of low-coverage sequencing data from 150,119 UK Biobank genomes
+  preprint_doi: 10.1101/2022.11.28.518213
+links: {}
+added: '2026-11-12'
+evidence: we introduce GLIMPSE v2.0.0 (GLIMPSE2), a major improvement of GLIMPSE, that scales sublinearly in both the number
+  of samples and markers

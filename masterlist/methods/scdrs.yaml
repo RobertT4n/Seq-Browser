@@ -1,0 +1,23 @@
+name: scDRS
+full_name: single-cell disease relevance score
+category: dry
+summary: Approach that scores individual cells in scRNA-seq data for excess expression of GWAS-implicated disease genes, independent
+  of cell-type annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01167-z
+  year: 2022
+  journal: Nat Genet
+  first_author: Zhang MJ
+  last_author: Price AL
+  pmid: '36050550'
+  pmcid: PMC9891382
+  title: Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data
+links: {}
+added: '2026-11-12'
+evidence: We introduce single-cell disease relevance score (scDRS), an approach that links scRNA-seq with polygenic disease
+  risk at single-cell resolution, independent of annotated cell types.

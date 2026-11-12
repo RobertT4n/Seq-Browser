@@ -1,0 +1,20 @@
+name: Cytomod
+category: dry
+summary: Creates modified genomic sequences and extends TF motif models to a custom alphabet with cytosine modifications.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03070-0
+  year: 2024
+  journal: Genome Biol
+  first_author: Viner C
+  last_author: Hoffman MM
+  pmid: '38191487'
+  pmcid: PMC10773111
+  title: Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet
+links: {}
+added: '2026-11-12'
+evidence: We develop Cytomod to create modified genomic sequences

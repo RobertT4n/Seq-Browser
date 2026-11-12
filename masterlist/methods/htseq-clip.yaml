@@ -1,0 +1,21 @@
+name: htseq-clip
+category: dry
+summary: Python toolset that preprocesses iCLIP and eCLIP data into crosslink-site count matrices and summary metrics.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac747
+  year: 2023
+  journal: Bioinformatics
+  first_author: Sahadevan S
+  last_author: Schwarzl T
+  pmid: '36394253'
+  pmcid: PMC9825771
+  title: 'htseq-clip: a toolset for the preprocessing of eCLIP/iCLIP datasets'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce htseq-clip, a python package developed for preprocessing, extracting and summarizing crosslink
+  site counts from i/eCLIP experimental data.

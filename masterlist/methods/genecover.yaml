@@ -1,0 +1,23 @@
+name: geneCover
+category: dry
+summary: Label-free combinatorial selection of a minimally redundant marker gene panel from gene-gene correlations, for scRNA-seq
+  and spatial data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280539.125
+  year: 2025
+  journal: Genome Res
+  first_author: Wang A
+  last_author: Younes L
+  pmid: '41224531'
+  pmcid: PMC12667715
+  title: Label-free selection of marker genes in single-cell and spatial transcriptomics with geneCover.
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce geneCover, a label-free combinatorial method that selects an optimal panel of minimally redundant
+  marker genes based on gene-gene correlations.

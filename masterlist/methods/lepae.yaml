@@ -1,0 +1,22 @@
+name: LEPAE
+full_name: Learning Evidence of Pairwise Association from Epigenomic and TF binding data
+category: dry
+summary: Neural-network score for pairwise association between genomic windows learned from epigenomic and TF-binding data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag024
+  year: 2026
+  journal: Bioinformatics
+  first_author: Kwon SB
+  last_author: Ernst J
+  pmid: '41557834'
+  pmcid: PMC12910503
+  title: Learning a pairwise epigenomic and transcription factor binding association score across the human genome
+links: {}
+added: '2026-11-12'
+evidence: We developed Learning Evidence of Pairwise Association from Epigenomic and TF binding data (LEPAE).

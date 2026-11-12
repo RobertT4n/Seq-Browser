@@ -1,0 +1,21 @@
+name: HiC-DC
+category: dry
+summary: Hurdle negative-binomial model that assigns P values to chromatin interactions in high-resolution Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms15454
+  year: 2017
+  journal: Nat Commun
+  first_author: Carty M
+  last_author: Leslie CS
+  pmid: '28513628'
+  pmcid: PMC5442359
+  title: An integrated model for detecting significant chromatin interactions from high-resolution Hi-C data
+links: {}
+added: '2026-11-12'
+evidence: Here we present HiC-DC, a principled method to estimate the statistical significance (P values) of chromatin interactions
+  from Hi-C experiments.

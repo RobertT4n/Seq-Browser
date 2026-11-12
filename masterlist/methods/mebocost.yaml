@@ -1,0 +1,21 @@
+name: MEBOCOST
+category: dry
+summary: Algorithm detecting metabolite-mediated cell-cell communication from scRNA-seq with flux balance analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf569
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Zheng R
+  last_author: Chen K
+  pmid: '40568942'
+  pmcid: PMC12199156
+  title: MEBOCOST maps metabolite-mediated intercellular communications using single-cell RNA-seq
+links: {}
+added: '2026-11-12'
+evidence: To fill this gap, we developed MEBOCOST, an algorithm built on scRNA-seq and metabolic flux balance analysis to
+  detect mCCC among single cells.

@@ -1,0 +1,29 @@
+name: MultiMMR
+full_name: Integrative DNA sequencing and methylation panel
+category: wet
+summary: Targeted panel that assesses mismatch-repair deficiency from promoter methylation, mutations, copy number, LOH and
+  MSI using one DNA aliquot.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1016/j.jmoldx.2020.11.006
+  year: 2021
+  journal: J Mol Diagn
+  first_author: Oldfield LE
+  last_author: Pugh TJ
+  pmid: '33259954'
+  title: An Integrative DNA Sequencing and Methylation Panel to Assess Mismatch Repair Deficiency
+links: {}
+added: '2026-11-12'
+evidence: we developed an integrated targeted sequencing protocol (termed MultiMMR) that tests for promoter methylation, mutations,
+  copy number alterations, copy neutral loss of heterozygosity, and microsatellite instability from a single aliquot of DNA.

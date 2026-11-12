@@ -1,0 +1,22 @@
+name: CoLoRd
+category: dry
+summary: Compression algorithm for third-generation long-read sequencing data that reduces size without changing downstream
+  accuracy.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01432-3
+  year: 2022
+  journal: Nat Methods
+  first_author: Kokot M
+  last_author: Deorowicz S
+  pmid: '35347321'
+  pmcid: PMC9337911
+  title: 'CoLoRd: compressing long reads'
+links: {}
+added: '2026-11-12'
+evidence: We present CoLoRd, an algorithm able to reduce the size of third-generation sequencing data by an order of magnitude
+  without affecting the accuracy of downstream analyses.

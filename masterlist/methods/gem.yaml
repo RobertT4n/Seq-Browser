@@ -1,0 +1,23 @@
+name: GEM
+full_name: Genomic and Epigenomic informed Mutation rate
+category: dry
+summary: Somatic mutation-burden statistic from whole-genome sequencing that uses external genomic and epigenomic data to
+  separate artifacts from true somatic mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64236-x
+  year: 2025
+  journal: Nat Commun
+  first_author: Weinstock JS
+  last_author: Arvanitis M
+  pmid: '41102182'
+  pmcid: PMC12532822
+  title: Genetic determinants and genomic consequences of non-leukemogenic somatic point mutations.
+links: {}
+added: '2026-11-12'
+evidence: we develop a novel statistical method, the Genomic and Epigenomic informed Mutation (GEM) rate, that uses external
+  genomic and epigenomic data sources to distinguish artifactual signals from true somatic mutations

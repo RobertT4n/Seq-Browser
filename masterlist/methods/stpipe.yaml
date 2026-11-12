@@ -1,0 +1,26 @@
+name: stPipe
+category: dry
+summary: R/Bioconductor pipeline for preprocessing sequencing-based spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf167
+  year: 2025
+  journal: NAR Genom Bioinform
+  first_author: Xu Y
+  last_author: Ritchie ME
+  pmid: '41278534'
+  pmcid: PMC12639247
+  title: 'stPipe: a flexible and streamlined R/Bioconductor pipeline for preprocessing sequencing-based spatial transcriptomics
+    data'
+links: {}
+added: '2026-11-12'
+evidence: To address the need for simpler, open-source solutions that deal with sequencing-based spatial transcriptomics (sST)
+  data from different platforms, we present stPipe, a comprehensive and modular preprocessing pipeline for all current mainstream
+  sST platforms. stPipe is implemented as an R/Bioconductor package that handles various analysis steps, including (i) data
+  processing from raw FASTQ files to create a spatially resolved gene count matrix; (ii) the collation of relevant quality
+  control metrics to ensure unwanted artifacts can be filtered; and (iii) the adoption of standardized data storage containers
+  to allow results to be easily passed on to a wide range of downstream analysis packages.

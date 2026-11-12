@@ -1,0 +1,21 @@
+name: REINDEER
+category: dry
+summary: Index of k-mer presence and abundance across large collections of sequencing datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa487
+  year: 2020
+  journal: Bioinformatics
+  first_author: Marchet C
+  last_author: Chikhi R
+  pmid: '32657392'
+  pmcid: PMC7355249
+  title: 'REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets'
+links: {}
+added: '2026-11-12'
+evidence: Motivation In this work we present REINDEER, a novel computational method that performs indexing of sequences and
+  records their abundances across a collection of datasets.

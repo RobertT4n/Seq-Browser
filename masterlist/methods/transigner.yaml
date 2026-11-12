@@ -1,0 +1,21 @@
+name: TranSigner
+category: dry
+summary: Assigns long RNA-seq reads to transcripts using read-to-transcript compatibility scores and a guided EM to estimate
+  abundances.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03723-2
+  year: 2025
+  journal: Genome Biol
+  first_author: Ji HJ
+  last_author: Pertea M
+  pmid: '40877901'
+  pmcid: PMC12392579
+  title: Enhancing transcriptome expression quantification through accurate assignment of long RNA sequencing reads with TranSigner
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce TranSigner, a tool designed to provide read-level support for transcripts in a given transcriptome.

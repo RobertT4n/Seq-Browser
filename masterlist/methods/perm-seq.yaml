@@ -1,0 +1,23 @@
+name: Perm-seq
+category: dry
+summary: Prior-enhanced read allocation for ChIP-seq that assigns multi-mapping reads in repetitive and segmental-duplication
+  regions.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004491
+  year: 2015
+  journal: PLoS Comput Biol
+  first_author: Zeng X
+  last_author: Keleş S
+  pmid: '26484757'
+  pmcid: PMC4618727
+  title: 'Perm-seq: Mapping Protein-DNA Interactions in Segmental Duplication and Highly Repetitive Regions of Genomes with
+    Prior-Enhanced Read Mapping'
+links: {}
+added: '2026-11-12'
+evidence: We developed Perm-seq, a prior-enhanced read allocation method for ChIP-seq experiments, that can allocate multi-mapping
+  reads in highly repetitive regions of the genomes with high accuracy.

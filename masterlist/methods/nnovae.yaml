@@ -1,0 +1,24 @@
+name: NNoVAE
+full_name: Nearest Neighbours and Variational Autoencoders
+category: dry
+summary: Hierarchical species assignment of Anopheles from k-mer profiles of targeted amplicon panel sequences, combining
+  nearest-neighbour and variational-autoencoder steps.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- invertebrate
+reference:
+  doi: 10.7554/elife.78775
+  year: 2022
+  journal: Elife
+  first_author: Boddé M
+  last_author: Lawniczak MKN
+  pmid: '36222650'
+  pmcid: PMC9648975
+  title: High-resolution species assignment of <i>Anopheles</i> mosquitoes using <i>k</i>-mer distances on targeted sequences.
+links: {}
+added: '2026-11-12'
+evidence: Here, we present NNoVAE, a method using Nearest Neighbours (NN) and Variational Autoencoders (VAE)

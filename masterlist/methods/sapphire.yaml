@@ -1,0 +1,21 @@
+name: SAPPHIRE
+category: dry
+summary: Population-scale haplotype phasing method that uses read-level information to improve rare-variant phasing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1011092
+  year: 2024
+  journal: PLoS Genet
+  first_author: Wertenbroek R
+  last_author: Delaneau O
+  pmid: '38959269'
+  pmcid: PMC11251608
+  title: Improving population scale statistical phasing with whole-genome sequencing data
+links: {}
+added: '2026-11-12'
+evidence: In this study we introduce SAPPHIRE, a new method that leverages whole-genome sequencing data to enhance the precision
+  of haplotype calls produced by statistical phasing.

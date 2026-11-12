@@ -1,0 +1,21 @@
+name: IsoCon
+category: dry
+summary: High-precision method that uses long PacBio Iso-Seq reads to reconstruct end-to-end transcripts of multigene families
+  and assign them to gene copies.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41467-018-06910-x
+  year: 2018
+  journal: Nat Commun
+  first_author: Sahlin K
+  last_author: Medvedev P
+  pmid: '30389934'
+  pmcid: PMC6214943
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+links: {}
+added: '2026-11-12'
+evidence: We present IsoCon, a high-precision method using long PacBio Iso-Seq reads to tackle this challenge.

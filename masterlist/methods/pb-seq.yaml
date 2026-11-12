@@ -1,0 +1,29 @@
+name: PB-seq
+full_name: protein/DNA binding followed by high-throughput sequencing
+category: wet
+summary: In vitro protein/DNA binding on naked genomic DNA followed by sequencing, mapping a transcription factor's binding
+  energy landscape.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- invertebrate
+targets:
+- Drosophila Heat Shock Factor (HSF)
+reference:
+  doi: 10.1371/journal.pgen.1002610
+  year: 2012
+  journal: PLoS Genet
+  first_author: Guertin MJ
+  last_author: Lis JT
+  pmid: '22479205'
+  pmcid: PMC3315474
+  title: Accurate prediction of inducible transcription factor binding intensities in vivo
+links: {}
+added: '2026-11-12'
+evidence: To disentangle these influences, we developed an experimental approach, called protein/DNA binding followed by high-throughput
+  sequencing (PB-seq), that allows the binding energy landscape to be characterized genome-wide in the absence of chromatin.

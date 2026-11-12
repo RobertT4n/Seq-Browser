@@ -1,0 +1,21 @@
+name: Carta
+category: dry
+summary: Algorithm that infers an optimal cell differentiation map from single-cell lineage tracing data.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02903-z
+  year: 2026
+  journal: Nat Methods
+  first_author: Sashittal P
+  last_author: Raphael BJ
+  pmid: '41360958'
+  pmcid: PMC12982130
+  title: Inferring cell differentiation maps from lineage tracing data
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce a quantitative framework to evaluate cell differentiation maps and develop an algorithm, called
+  Carta, that infers an optimal differentiation map from single-cell lineage tracing data.

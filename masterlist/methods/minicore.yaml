@@ -1,0 +1,20 @@
+name: minicore
+category: dry
+summary: Open-source k-means++ and k-means library for sparse scRNA-seq count data with several distance measures.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1145/3459930.3469523
+  year: 2021
+  journal: ACM BCB
+  first_author: Baker DN
+  last_author: Langmead B
+  pmid: '34778889'
+  pmcid: PMC8586878
+  title: Fast and memory-efficient scRNA-seq <i>k</i>-means clustering with various distances
+links: {}
+added: '2026-11-12'
+evidence: We describe new methods and a new open source library, minicore

@@ -1,0 +1,23 @@
+name: BayesPeak
+category: dry
+summary: R/Bioconductor package for genome-wide ChIP-seq peak calling using a Bayesian model, with posterior summarisation
+  and parallel processing.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btq685
+  year: 2011
+  journal: Bioinformatics
+  first_author: Cairns J
+  last_author: Tavaré S
+  pmid: '21245054'
+  pmcid: PMC3042177
+  title: BayesPeak--an R package for analysing ChIP-seq data.
+links: {}
+added: '2026-11-12'
+evidence: In this note we present BayesPeak, an R package for genome-wide peak-calling that provides a flexible implementation
+  of the BayesPeak algorithm and is compatible with downstream BioConductor packages.

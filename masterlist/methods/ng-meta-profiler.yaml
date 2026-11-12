@@ -1,0 +1,21 @@
+name: NG-meta-profiler
+category: dry
+summary: Fast, reproducible metagenome profiler built on NGLess for preprocessing, mapping and taxonomic and functional profiling.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-019-0684-8
+  year: 2019
+  journal: Microbiome
+  first_author: Coelho LP
+  last_author: Bork P
+  pmid: '31159881'
+  pmcid: PMC6547473
+  title: 'NG-meta-profiler: fast processing of metagenomes using NGLess, a domain-specific language'
+links: {}
+added: '2026-11-12'
+evidence: Using this framework, we developed NG-meta-profiler, a fast profiler for metagenomes which performs sequence preprocessing,
+  mapping to bundled databases, filtering of the mapping results, and profiling (taxonomic and functional).

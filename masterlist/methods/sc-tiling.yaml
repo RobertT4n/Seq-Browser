@@ -1,0 +1,26 @@
+name: sc-Tiling
+category: wet
+summary: Single-cell CRISPR gene-tiling screen read out by droplet scRNA-seq to map regulatory regions within a gene.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- crispr-knockout
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-021-24324-0
+  year: 2021
+  journal: Nat Commun
+  first_author: Yang L
+  last_author: Chen CW
+  pmid: '34210975'
+  pmcid: PMC8249386
+  title: High-resolution characterization of gene function using single-cell CRISPR tiling screen
+links: {}
+added: '2026-11-12'
+evidence: Here, we present "sc-Tiling," which integrates a CRISPR gene-tiling screen with single-cell transcriptomic and protein
+  structural analyses.

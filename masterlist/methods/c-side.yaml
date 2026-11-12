@@ -1,0 +1,23 @@
+name: C-SIDE
+full_name: cell type-specific inference of differential expression
+category: dry
+summary: Identifies cell type-specific differential expression in spatial transcriptomics while accounting for the locations
+  of other cell types.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01575-3
+  year: 2022
+  journal: Nat Methods
+  first_author: Cable DM
+  last_author: Chen F
+  pmid: '36050488'
+  pmcid: PMC10463137
+  title: Cell type-specific inference of differential expression in spatial transcriptomics
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce a statistical method, cell type-specific inference of differential expression (C-SIDE), that
+  identifies cell type-specific DE in spatial transcriptomics, accounting for localization of other cell types.

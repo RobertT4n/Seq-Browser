@@ -1,0 +1,22 @@
+name: mirTarRnaSeq
+category: dry
+summary: R/Bioconductor package for statistical analysis of miRNA-mRNA target relationships in RNA-seq cohorts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08558-w
+  year: 2022
+  journal: BMC Genomics
+  first_author: Movassagh M
+  last_author: Paulson JN
+  pmid: '35698050'
+  pmcid: PMC9191533
+  title: 'mirTarRnaSeq: An R/Bioconductor Statistical Package for miRNA-mRNA Target Identification and Interaction Analysis'
+links: {}
+added: '2026-11-12'
+evidence: We introduce mirTarRnaSeq, an R/Bioconductor package for quantitative assessment of miRNA-mRNA relationships within
+  sample cohorts. mirTarRnaSeq is a statistical package to explore predicted or pre-hypothesized miRNA-mRNA relationships
+  following target prediction.We present two use cases applying mirTarRnaSeq.

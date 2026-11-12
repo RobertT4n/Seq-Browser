@@ -1,0 +1,25 @@
+name: LECIF
+full_name: Learning Evidence of Conservation from Integrated Functional genomic annotations
+category: dry
+summary: Neural-network score of human-mouse functional conservation learned from epigenomic, TF-binding and transcriptomic
+  data.
+readouts:
+- histone-modification
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-22653-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Kwon SB
+  last_author: Ernst J
+  pmid: '33941776'
+  pmcid: PMC8093196
+  title: Learning a genome-wide score of human-mouse conservation at the functional genomics level
+links: {}
+added: '2026-11-12'
+evidence: The method, Learning Evidence of Conservation from Integrated Functional genomic annotations (LECIF), trains neural
+  networks to generate this score for the human and mouse genomes.

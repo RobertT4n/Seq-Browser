@@ -1,0 +1,19 @@
+name: proovframe
+category: dry
+summary: Corrects frameshifts from small indels in long-read assemblies and raw reads using protein-to-nucleotide alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.08.23.457338
+  year: 2021
+  journal: bioRxiv
+  first_author: Hackl T
+  last_author: Fischer MG
+  title: 'proovframe: frameshift-correction for long-read (meta)genomics'
+links: {}
+added: '2026-11-12'
+evidence: Here we present proovframe , a software implementing an alternative approach to overcome frameshift errors in long-read
+  assemblies and raw long reads.
