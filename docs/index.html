@@ -20,7 +20,7 @@
   <div class="bar">
     <input type="search" id="q" placeholder="Search methods, aliases, authors, summaries…" aria-label="Search">
     <span class="count" id="count"></span>
-    <label class="drytog"><input type="checkbox" id="dry"> Include computational tools <span class="beta">beta</span></label>
+    <label class="drytog">Show <select id="kind" aria-label="Show experimental or computational methods"><option value="wet">Experimental</option><option value="dry">Computational</option><option value="all">Both</option></select> <span class="beta">beta</span></label>
     <a class="btn" href="methods.csv" download>Download CSV</a>
   </div>
   <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
@@ -73,7 +73,7 @@ fetch("methods.json").then(r => r.json()).then(j => {
     sortKey = k; render();
   });
   document.getElementById("q").oninput = render;
-  document.getElementById("dry").onchange = render;
+  document.getElementById("kind").onchange = render;
   const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h);
   if (t) { document.getElementById("q").value = t.name; open = t.id; }
   render();
@@ -85,7 +85,7 @@ function render() {
   const has = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t);
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
     (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q));
-  const dryOn = document.getElementById("dry").checked, pool = data.filter(m => dryOn || m.category === "wet");
+  const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
   { const g = document.querySelectorAll("#facets .fg")[6]; if (g) g.hidden = !dryOn; }   // the Task filter only exists for computational tools
   const rows = pool.filter(m => pass(m));
@@ -104,7 +104,7 @@ function render() {
   document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
-    <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("dry").checked ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
+    <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
     <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
@@ -127,7 +127,7 @@ function drawer() {
   el.classList.toggle("on", !!m); if (!m) { el.innerHTML = ""; return; }
   const grp = FACETS.map(([k, lab]) => split(m[k]).length ? `<div class="dg"><b>${lab}</b>${split(m[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "").join("");
   const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("");
-  el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("dry").checked ? '<span class="pre exp">experimental</span>' : "")}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
+  el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
     <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
     <p class="meta">${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>
     <p class="links">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">Paper</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">Paper</a>` : ""}${m.protocol ? ` · <a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : ""}${m.code ? ` · <a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : ""} · <a href="family.html">Family graph</a></p>

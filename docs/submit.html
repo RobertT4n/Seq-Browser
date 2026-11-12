@@ -31,15 +31,18 @@
 <main>
   <p class="note">Missing a method? Submissions are prioritized in the weekly collection and classification (see <a href="about.html">About</a>).</p>
   <form id="f">
-    <label>Method name *<input type="text" name="name" required placeholder="e.g. Droplet Hi-C"></label>
+    <label>Method name *<input type="text" name="name" id="nm" required placeholder="e.g. Droplet Hi-C"></label>
     <label>DOI(s) *<input type="text" name="doi" required placeholder="paper and/or preprint"></label>
-    <label>Type<select name="category"><option>Wet-lab assay / protocol</option><option>Computational method</option></select></label>
+    <label>Type<select name="category" id="cat"><option>Wet-lab assay / protocol</option><option>Computational method</option></select></label>
     <label>Protocol or code link<input type="text" name="protocol" placeholder="protocols.io / GitHub"></label>
-    <fieldset class="full"><legend>What does it measure?</legend>
+    <fieldset class="full"><legend id="rl">What does it measure?</legend>
       <label><input type="checkbox" name="readouts" value="3D genome">3D genome</label><label><input type="checkbox" name="readouts" value="Chromatin accessibility">Chromatin accessibility</label>
       <label><input type="checkbox" name="readouts" value="Histone modifications">Histone modifications</label><label><input type="checkbox" name="readouts" value="Protein-DNA binding">Protein-DNA binding</label>
       <label><input type="checkbox" name="readouts" value="DNA methylation">DNA methylation</label><label><input type="checkbox" name="readouts" value="RNA">RNA</label>
       <label><input type="checkbox" name="readouts" value="Protein">Protein</label><label><input type="checkbox" name="readouts" value="Other">Other / not sure</label>
+    </fieldset>
+    <fieldset class="full" id="taskfs" hidden><legend>What does it do?</legend>
+      <label><input type="checkbox" name="task" value="preprocessing-qc">Preprocessing / quality control</label><label><input type="checkbox" name="task" value="integration">Integration / batch correction</label><label><input type="checkbox" name="task" value="multimodal-integration">Multimodal integration</label><label><input type="checkbox" name="task" value="clustering-annotation">Clustering / cell-type annotation</label><label><input type="checkbox" name="task" value="trajectory-velocity">Trajectory / RNA velocity</label><label><input type="checkbox" name="task" value="regulatory-networks">Regulatory networks</label><label><input type="checkbox" name="task" value="cell-communication">Cell-cell communication</label><label><input type="checkbox" name="task" value="spatial-analysis">Spatial analysis</label><label><input type="checkbox" name="task" value="perturbation-modelling">Perturbation modelling</label><label><input type="checkbox" name="task" value="variants-clones">Variants / clones</label><label><input type="checkbox" name="task" value="differential-analysis">Differential analysis</label><label><input type="checkbox" name="task" value="foundation-model">Foundation model</label><label><input type="checkbox" name="task" value="dimensionality-visualization">Embedding / visualisation</label><label><input type="checkbox" name="task" value="benchmark-infrastructure">Benchmark / infrastructure</label><label><input type="checkbox" name="task" value="3d-genome-analysis">3D genome analysis</label><label><input type="checkbox" name="task" value="modification-calling">Modification calling</label><label><input type="checkbox" name="task" value="metagenomics-taxonomy">Metagenomics / taxonomy</label><label><input type="checkbox" name="task" value="genome-assembly">Genome assembly</label><label><input type="checkbox" name="task" value="sequence-to-function">Sequence-to-function</label><label><input type="checkbox" name="task" value="disease-classification">Disease classification</label><label><input type="checkbox" name="task" value="other">Other / not sure</label>
     </fieldset>
     <fieldset class="full"><legend>Resolution</legend>
       <label><input type="checkbox" name="resolution" value="Bulk">Bulk</label><label><input type="checkbox" name="resolution" value="Single-cell">Single-cell</label>
@@ -56,9 +59,19 @@
 const FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfe_usde4JB1zl45D2VWBoCuu-HeVGxjxuIzxkrlgiUQn2BOQ/formResponse";
 const ENTRY = {name: 92676153, doi: 876010685, category: 651749802, protocol: 1264550092, readouts: 1614318311,
                resolution: 1307065276, parents: 1600325334, notes: 672298552};
+// computational methods: "what data does it analyse" instead of "what does it measure", plus a task list
+const cat = document.getElementById("cat"), setType = () => {
+  const comp = cat.value.startsWith("Comp");
+  document.getElementById("rl").textContent = comp ? "What data does it analyse?" : "What does it measure?";
+  document.getElementById("nm").placeholder = comp ? "e.g. Diffusion pseudotime" : "e.g. Droplet Hi-C";
+  document.getElementById("taskfs").hidden = !comp;
+};
+cat.onchange = setType; setType();
 document.getElementById("f").onsubmit = async e => {
   e.preventDefault();
   const fd = new FormData(e.target), body = new URLSearchParams(), btn = e.target.querySelector("button");
+  const tasks = fd.getAll("task");   // the mailbox form has no task field, so tasks travel at the start of the notes
+  if (cat.value.startsWith("Comp") && tasks.length) fd.set("notes", `Task: ${tasks.join(", ")}\n` + (fd.get("notes") || ""));
   for (const [k, id] of Object.entries(ENTRY)) body.append(`entry.${id}`, fd.getAll(k).join(", "));
   btn.disabled = true; btn.textContent = "Sending…";
   try {
