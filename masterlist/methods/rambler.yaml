@@ -1,0 +1,26 @@
+name: RAmbler
+full_name: Repeat Assembler
+category: dry
+summary: Reference-guided assembler for complex repeats built from PacBio HiFi reads, using single-copy k-mer barcodes to
+  cluster reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+links: {}
+reference:
+  doi: 10.1101/gr.279308.124
+  year: 2025
+  journal: Genome Res
+  first_author: Chakravarty S
+  last_author: Lonardi S
+  pmid: '40037839'
+  pmcid: PMC12047272
+  title: RAmbler resolves complex repeats in human Chromosomes 8, 19, and X
+added: '2026-11-12'
+evidence: we introduce RAmbler (Repeat Assembler), a reference-guided assembler specialized for the assembly of complex repetitive
+  regions exclusively from Pacific Biosciences (PacBio) HiFi reads.

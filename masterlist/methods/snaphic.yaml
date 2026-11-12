@@ -1,0 +1,22 @@
+name: SnapHiC
+full_name: Single-Nucleus Analysis Pipeline for Hi-C
+category: dry
+summary: Pipeline that identifies chromatin loops from single-cell Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01231-2
+  year: 2021
+  journal: Nat Methods
+  first_author: Yu M
+  last_author: Hu M
+  pmid: '34446921'
+  pmcid: PMC8440170
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe Single-Nucleus Analysis Pipeline for Hi-C (SnapHiC), a method that can identify chromatin loops
+  at high resolution and accuracy from scHi-C data.

@@ -1,0 +1,21 @@
+name: trfermikit
+category: dry
+summary: Detects deletions larger than 50 bp in VNTRs from Illumina reads by assembly-based calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab805
+  year: 2022
+  journal: Bioinformatics
+  first_author: McHale P
+  last_author: Quinlan AR
+  pmid: '34864893'
+  pmcid: PMC8826174
+  title: 'trfermikit: a tool to discover VNTR-associated deletions'
+links: {}
+added: '2026-11-12'
+evidence: We present trfermikit, a software tool designed to detect deletions larger than 50 bp occurring in Variable Number
+  Tandem Repeats using Illumina DNA sequencing reads.

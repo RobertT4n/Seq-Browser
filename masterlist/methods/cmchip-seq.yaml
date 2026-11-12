@@ -1,0 +1,29 @@
+name: cmChIP-Seq
+category: wet
+summary: CRISPR and microhomology-mediated end joining epitope-tagging of endogenous transcription factors for ChIP-seq without
+  suitable antibodies.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1021/acssynbio.6b00358
+  year: 2017
+  journal: ACS Synth Biol
+  first_author: Xiong X
+  last_author: Zhao H
+  pmid: '28215080'
+  pmcid: PMC5536957
+  title: A Scalable Epitope Tagging Approach for High Throughput ChIP-Seq Analysis
+links: {}
+added: '2026-11-12'
+evidence: To overcome this limitation, we developed an efficient and scalable strategy named cmChIP-Seq that combines the
+  clustered regularly interspaced short palindromic repeats (CRISPR) technology with microhomology mediated end joining (MMEJ)
+  to genetically engineer a TF with an epitope tag.

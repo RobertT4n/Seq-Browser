@@ -1,0 +1,20 @@
+name: Coloc-stats
+category: dry
+summary: Web service that tests colocalization of genomic region-sets with several statistical methods in parallel.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky474
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Simovski B
+  last_author: Sandve GK
+  pmid: '29873782'
+  pmcid: PMC6030976
+  title: 'Coloc-stats: a unified web interface to perform colocalization analysis of genomic features.'
+links: {}
+added: '2026-11-12'
+evidence: We developed the Coloc-stats web service

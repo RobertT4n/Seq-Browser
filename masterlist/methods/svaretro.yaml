@@ -1,0 +1,22 @@
+name: svaRetro
+category: dry
+summary: R package that annotates retrotransposed transcript insertions in structural-variant calls from any caller.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.46471/gigabyte.70
+  year: 2022
+  journal: GigaByte
+  first_author: Dong R
+  last_author: Papenfuss AT
+  pmid: '36824522'
+  pmcid: PMC9694029
+  title: 'svaRetro and svaNUMT: modular packages for annotating retrotransposed transcripts and nuclear integration of mitochondrial
+    DNA in genome sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present svaRetro and svaNUMT; R packages that provide functions for annotating novel genomic events, such
+  as nonreference retrocopied transcripts and nuclear integration of mitochondrial DNA.

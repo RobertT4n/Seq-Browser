@@ -1,0 +1,22 @@
+name: STRling
+category: dry
+summary: k-mer counting approach that recovers informative reads and calls short tandem repeat expansions at known and novel
+  loci.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02826-4
+  year: 2022
+  journal: Genome Biol
+  first_author: Dashnow H
+  last_author: Quinlan AR
+  pmid: '36517892'
+  pmcid: PMC9753380
+  title: 'STRling: a k-mer counting approach that detects short tandem repeat expansions at known and novel loci.'
+links: {}
+added: '2026-11-12'
+evidence: We developed STRling to efficiently count k-mers to recover informative reads and call expansions at known and novel
+  STR loci

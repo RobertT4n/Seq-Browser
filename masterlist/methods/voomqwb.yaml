@@ -1,0 +1,22 @@
+name: voomQWB
+full_name: voomWithQualityWeights using a blocked design
+category: dry
+summary: voomWithQualityWeights applied with a blocked design to handle heteroscedastic groups in pseudo-bulk scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02949-2
+  year: 2023
+  journal: Genome Biol
+  first_author: You Y
+  last_author: Law CW
+  pmid: '37147723'
+  pmcid: PMC10160736
+  title: Modeling group heteroscedasticity in single-cell RNA-seq pseudo-bulk data
+links: {}
+added: '2026-11-12'
+evidence: Since most bulk RNA-seq methods assume equal group variances, we introduce two new approaches that account for heteroscedastic
+  groups, namely voomByGroup and voomWithQualityWeights using a blocked design (voomQWB).

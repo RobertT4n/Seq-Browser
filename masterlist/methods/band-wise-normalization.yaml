@@ -1,0 +1,22 @@
+name: Band-wise normalization
+category: dry
+summary: Band-wise normalization and batch correction for Hi-C contact maps, removing technical unwanted variation across
+  samples.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae217
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Fletez-Brant K
+  last_author: Hansen KD
+  pmid: '38711367'
+  pmcid: PMC11074651
+  title: Removing unwanted variation between samples in Hi-C experiments.
+links: {}
+added: '2026-11-12'
+evidence: We present band-wise normalization and batch correction, a method for normalization and batch correction of Hi-C
+  data

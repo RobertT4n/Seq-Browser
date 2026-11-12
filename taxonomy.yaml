@@ -82,6 +82,7 @@ chemistry:           # key molecular steps; an assay usually has several
   - antibody-tethered-enzyme  # CUT&Tag / CUT&RUN style
   - oligo-capture
   - in-situ-hybridization   # labelled probes hybridise to RNA/DNA in fixed tissue and are decoded by imaging (FISH, MERFISH, ATLAS)
+  - chemical-cleavage      # non-enzymatic cleavage of chromatin/DNA by a small molecule (MPE-Fe(II) in MPE-seq); added 2026-11-12
   - bisulfite-or-enzymatic-conversion
   - nucleotide-labeling     # EdU, 4sU, ...
   - bioorthogonal-conjugation  # acylation / click chemistry attaches barcodes directly onto RNA or DNA (BOB-seq)

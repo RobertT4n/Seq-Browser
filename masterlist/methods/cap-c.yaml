@@ -1,0 +1,28 @@
+name: CAP-C
+full_name: chemical-crosslinking assisted proximity capture
+category: wet
+summary: Chemical-crosslinker-based chromatin conformation capture giving sub-kilobase contact maps with low background.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41587-020-0643-8
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: You Q
+  last_author: He C
+  pmid: '32839564'
+  pmcid: PMC8274026
+  title: Direct DNA crosslinking with CAP-C uncovers transcription-dependent chromatin organization at high resolution
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce chemical-crosslinking assisted proximity capture (CAP-C), a method that uses multifunctional chemical
+  crosslinkers with defined sizes to capture chromatin contacts.

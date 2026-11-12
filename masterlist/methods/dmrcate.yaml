@@ -1,0 +1,20 @@
+name: DMRcate
+category: dry
+summary: Expanded DMRcate that calls differentially methylated regions from whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab637
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Peters TJ
+  last_author: Clark SJ
+  pmid: '34320181'
+  pmcid: PMC8565305
+  title: Calling differentially methylated regions from whole genome bisulphite sequencing with DMRcate
+links: {}
+added: '2026-11-12'
+evidence: introduce an expanded version of DMRcate

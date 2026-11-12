@@ -1,0 +1,28 @@
+name: CREST-seq
+full_name: cis-regulatory element scan by tiling-deletion and sequencing
+category: wet
+summary: Tiles deletions across a locus and reads out their pooled effects to map functional cis-regulatory elements.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/nmeth.4264
+  year: 2017
+  journal: Nat Methods
+  first_author: Diao Y
+  last_author: Ren B
+  pmid: '28417999'
+  pmcid: PMC5490986
+  title: A tiling-deletion-based genetic screen for cis-regulatory element identification in mammalian cells
+links: {}
+added: '2026-11-12'
+evidence: Here we report a high-throughput method, cis-regulatory element scan by tiling-deletion and sequencing (CREST-seq),
+  for the unbiased discovery and functional assessment of cis-regulatory sequences in the genome.

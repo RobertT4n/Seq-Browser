@@ -1,0 +1,21 @@
+name: SnapHiC2
+category: dry
+summary: Single-cell Hi-C loop caller using a sliding-window approximation for imputation, with lower memory and runtime.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.05.046
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Li X
+  last_author: Hu M
+  pmid: '35685374'
+  pmcid: PMC9168059
+  title: 'SnapHiC2: A computationally efficient loop caller for single cell Hi-C data'
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce SnapHiC2, which adapts a sliding window approximation when imputing missing contacts in each single
+  cell and reduces both memory usage and computational time by 70%.

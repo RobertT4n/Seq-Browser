@@ -1,0 +1,22 @@
+name: Smoother
+category: dry
+summary: Framework that adds positional priors to non-spatial models for imputation, deconvolution and dimensionality reduction
+  of spatial omics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03138-x
+  year: 2023
+  journal: Genome Biol
+  first_author: Su J
+  last_author: Rabadan R
+  pmid: '38110959'
+  pmcid: PMC10726548
+  title: 'Smoother: a unified and modular framework for incorporating structural dependency in spatial omics data'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce Smoother, a unified framework that integrates positional information into non-spatial models
+  via modular priors and losses.

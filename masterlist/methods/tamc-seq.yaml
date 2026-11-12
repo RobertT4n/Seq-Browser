@@ -1,0 +1,23 @@
+name: TAmC-Seq
+category: wet
+summary: Azide-tags 5-methylcytosine enzymatically, then biotin click-labels it for affinity enrichment and genome-wide mapping.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1038/ncomms2527
+  year: 2013
+  journal: Nat Commun
+  first_author: Zhang L
+  last_author: He C
+  pmid: '23443545'
+  pmcid: PMC3679896
+  title: Tet-mediated covalent labelling of 5-methylcytosine for its genome-wide detection and sequencing
+links: {}
+added: '2026-11-12'
+evidence: Here we present an approach, TAmC-Seq, which selectively tags 5-methylcytosine with an azide functionality that
+  can be further labelled with a biotin for affinity purification, detection and genome-wide mapping.

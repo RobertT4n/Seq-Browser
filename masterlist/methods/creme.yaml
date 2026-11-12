@@ -1,0 +1,23 @@
+name: CREME
+full_name: cis-regulatory element model explanations
+category: dry
+summary: In silico perturbation toolkit that interprets a genomic deep neural network (Enformer) to find cis-regulatory elements
+  that enhance or silence gene expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01923-3
+  year: 2024
+  journal: Nat Genet
+  first_author: Toneyan S
+  last_author: Koo PK
+  pmid: '39284975'
+  pmcid: PMC12065635
+  title: Interpreting cis-regulatory interactions from large-scale deep neural networks
+links: {}
+added: '2026-11-12'
+evidence: Here we present cis-regulatory element model explanations (CREME), an in silico perturbation toolkit that interprets
+  the rules of gene regulation learned by a genomic DNN.

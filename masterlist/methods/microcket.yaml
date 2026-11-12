@@ -1,0 +1,21 @@
+name: Microcket
+category: dry
+summary: Package that maps Hi-C, Micro-C and related 3D-genome reads and extracts interacting pairs using a read-stitch strategy.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s42003-024-06382-4
+  year: 2024
+  journal: Commun Biol
+  first_author: Zhao Y
+  last_author: Sun K
+  pmid: '38824179'
+  pmcid: PMC11144199
+  title: Accelerating 3D genomics data analysis with Microcket
+added: '2026-11-12'
+evidence: Here we present Microcket, a package for mapping and extracting interacting pairs from 3D genomics data, including
+  Hi-C, Micro-C, and derivant protocols.

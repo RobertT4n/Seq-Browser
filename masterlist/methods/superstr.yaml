@@ -1,0 +1,21 @@
+name: superSTR
+category: dry
+summary: Alignment-free method for detecting STR expansions in short-read DNA and RNA sequencing data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s41598-022-17267-z
+  year: 2022
+  journal: Sci Rep
+  first_author: Fearnley LG
+  last_author: Bahlo M
+  pmid: '35907931'
+  pmcid: PMC9338934
+  title: Detection of repeat expansions in large next generation DNA and RNA sequencing data without alignment
+added: '2026-11-12'
+evidence: We present superSTR, an ultrafast method that does not require alignment.

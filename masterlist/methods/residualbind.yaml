@@ -1,0 +1,22 @@
+name: ResidualBind
+category: dry
+summary: Convolutional network predicting RNA-protein binding from sequence, benchmarked on RNAcompete data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008925
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Koo PK
+  last_author: Paul SB
+  pmid: '33983921'
+  pmcid: PMC8118286
+  title: 'Global importance analysis: An interpretability method to quantify importance of genomic features in deep neural
+    networks'
+links: {}
+added: '2026-11-12'
+evidence: We first introduce a convolutional network, we call ResidualBind, and benchmark its performance against previous
+  methods on RNAcompete data.

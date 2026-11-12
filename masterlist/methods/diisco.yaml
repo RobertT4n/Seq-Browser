@@ -1,0 +1,22 @@
+name: DIISCO
+category: dry
+summary: Bayesian Gaussian-process framework that infers time-resolved cell-cell interactions from time-series scRNA-seq with
+  receptor-ligand priors.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279126.124
+  year: 2024
+  journal: Genome Res
+  first_author: Park C
+  last_author: Azizi E
+  pmid: '39237300'
+  pmcid: PMC11529839
+  title: A Bayesian framework for inferring dynamic intercellular interactions from time-series single-cell data
+links: {}
+added: '2026-11-12'
+evidence: We introduce DIISCO, a Bayesian framework designed to characterize the temporal dynamics of cellular interactions
+  using single-cell RNA-sequencing data from multiple time points.

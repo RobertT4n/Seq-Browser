@@ -1,0 +1,21 @@
+name: SIS-seq
+category: wet
+summary: Clonal multi-omics in which sibling daughter cells of one clone are assayed in parallel, one sister for RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.immuni.2021.03.012
+  year: 2021
+  journal: Immunity
+  first_author: Tian L
+  last_author: Naik SH
+  pmid: '33862015'
+  title: Clonal multi-omics reveals Bcor as a negative regulator of emergency dendritic cell development
+links: {}
+added: '2026-11-12'
+evidence: We developed clonal multi-omics, in which daughters of a clone act as surrogates of the founder

@@ -1,0 +1,21 @@
+name: superTranscripts
+category: dry
+summary: Data-driven transcriptome reference in which each multi-isoform gene is one sequence, built with the Lace software.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1284-1
+  year: 2017
+  journal: Genome Biol
+  first_author: Davidson NM
+  last_author: Oshlack A
+  pmid: '28778180'
+  pmcid: PMC5543425
+  title: 'SuperTranscripts: a data driven reference for analysis and visualisation of transcriptomes'
+links: {}
+added: '2026-11-12'
+evidence: Here we present superTranscripts, a substitute for a reference genome, where each gene with multiple transcripts
+  is represented by a single sequence.

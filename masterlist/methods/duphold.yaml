@@ -1,0 +1,22 @@
+name: duphold
+category: dry
+summary: Annotates structural variant calls with depth-of-coverage information to add or remove confidence in copy-number-changing
+  events.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz040
+  year: 2019
+  journal: Gigascience
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '31222198'
+  pmcid: PMC6479422
+  title: 'Duphold: scalable, depth-based annotation and curation of high-confidence structural variant calls'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present "duphold," a new method to efficiently annotate SV calls with sequence depth information that can
+  add (or remove) confidence to SVs that are predicted to affect copy number.

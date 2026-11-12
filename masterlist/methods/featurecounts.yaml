@@ -1,0 +1,22 @@
+name: featureCounts
+category: dry
+summary: Fast read-summarization program that counts RNA or genomic DNA sequencing reads per genomic feature, using chromosome
+  hashing and feature blocking.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt656
+  year: 2014
+  journal: Bioinformatics
+  first_author: Liao Y
+  last_author: Shi W
+  pmid: '24227677'
+  title: 'featureCounts: an efficient general purpose program for assigning sequence reads to genomic features'
+links: {}
+added: '2026-11-12'
+evidence: We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or
+  genomic DNA sequencing experiments.

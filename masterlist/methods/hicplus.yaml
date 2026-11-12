@@ -1,0 +1,21 @@
+name: HiCPlus
+category: dry
+summary: Deep convolutional neural network that enhances low-resolution Hi-C matrices.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03113-2
+  year: 2018
+  journal: Nat Commun
+  first_author: Zhang Y
+  last_author: Yue F
+  pmid: '29467363'
+  pmcid: PMC5821732
+  title: Enhancing Hi-C data resolution with deep convolutional neural network HiCPlus
+links: {}
+added: '2026-11-12'
+evidence: Here we develop HiCPlus, a computational approach based on deep convolutional neural network, to infer high-resolution
+  Hi-C interaction matrices from low-resolution Hi-C data.

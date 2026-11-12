@@ -1,0 +1,23 @@
+name: HiC-ACT
+full_name: HiC aggregated Cauchy test (ACT)-based approach
+category: dry
+summary: Post-processing step that aggregates neighbouring Hi-C interaction statistics with an aggregated Cauchy test to detect
+  chromatin interactions.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2021.01.009
+  year: 2021
+  journal: Am J Hum Genet
+  first_author: Lagler TM
+  last_author: Li Y
+  pmid: '33545029'
+  pmcid: PMC7895999
+  title: 'HiC-ACT: improved detection of chromatin interactions from Hi-C data via aggregated Cauchy test'
+links: {}
+added: '2026-11-12'
+evidence: Here, we develop HiC-ACT, an aggregated Cauchy test (ACT)-based approach, to improve the detection of chromatin
+  interactions by post-processing results from methods assuming independence.

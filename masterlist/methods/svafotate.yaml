@@ -1,0 +1,22 @@
+name: SVAFotate
+category: dry
+summary: Software that annotates structural variant calls with allele frequencies from existing SV datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05008-y
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Nicholas TJ
+  last_author: Quinlan AR
+  pmid: '36384437'
+  pmcid: PMC9670370
+  title: Annotation of structural variants with reported allele frequencies and related metrics from multiple datasets using
+    SVAFotate
+links: {}
+added: '2026-11-12'
+evidence: We introduce SVAFotate, a software tool that enables the annotation of SVs with variant allele frequency and related
+  information from existing SV datasets.

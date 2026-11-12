@@ -1,0 +1,22 @@
+name: cellsig
+category: dry
+summary: Bayesian sparse multilevel model for cell-type signature selection from heterogeneous pseudobulk and bulk RNA-seq
+  with non-overlapping gene sets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad685
+  year: 2023
+  journal: Bioinformatics
+  first_author: Al Kamran Khan MA
+  last_author: Mangiola S
+  pmid: '37952182'
+  pmcid: PMC10692870
+  title: cellsig plug-in enhances CIBERSORTx signature selection for multidataset transcriptomes with sparse multilevel modelling
+links: {}
+added: '2026-11-12'
+evidence: Here, we present cellsig, a Bayesian sparse multilevel model designed to improve signature estimation by adjusting
+  data for multilevel effects and modelling for gene-set sparsity.

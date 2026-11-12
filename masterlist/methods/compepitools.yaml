@@ -1,0 +1,23 @@
+name: compEpiTools
+category: dry
+summary: R/Bioconductor companion package that scores, annotates and integrates methylPipe output with other epigenomics data.
+readouts:
+- dna-methylation
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s12859-015-0742-6
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Kishore K
+  last_author: Pelizzola M
+  pmid: '26415965'
+  pmcid: PMC4587815
+  title: 'methylPipe and compEpiTools: a suite of R packages for the integrative analysis of epigenomics data'
+added: '2026-11-12'
+evidence: The latter, compEpiTools, seamlessly incorporates the results obtained with methylPipe and supports their integration
+  with other epigenomics data.

@@ -1,0 +1,22 @@
+name: IDPlot
+category: dry
+summary: Open-source workflow that measures pairwise identity and locates recombination breakpoints among coronavirus genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gbe/evac161
+  year: 2022
+  journal: Genome Biol Evol
+  first_author: Goldstein SA
+  last_author: Elde NC
+  pmid: '36477201'
+  pmcid: PMC9730504
+  title: Extensive Recombination-driven Coronavirus Diversification Expands the Pool of Potential Pandemic Pathogens
+  preprint_doi: 10.1101/2021.02.03.429646
+links: {}
+added: '2026-11-12'
+evidence: To compare dynamics of recombination between related sequences, we developed an open-source computational workflow
+  (IDPlot) to measure nucleotide identity, locate recombination breakpoints, and infer phylogenetic relationships.

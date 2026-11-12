@@ -1,0 +1,21 @@
+name: FALCON-Unzip
+category: dry
+summary: Haplotype-phasing extension of FALCON that produces correctly phased diploid assemblies from SMRT reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4035
+  year: 2016
+  journal: Nat Methods
+  first_author: Chin CS
+  last_author: Schatz MC
+  pmid: '27749838'
+  pmcid: PMC5503144
+  title: Phased diploid genome assembly with single-molecule real-time sequencing
+  preprint_doi: 10.1101/056887
+links: {}
+added: '2026-11-12'
+evidence: we introduce the open-source FALCON and FALCON-Unzip algorithms

@@ -1,0 +1,21 @@
+name: hts-nim
+category: dry
+summary: Nim library for fast, scripting-style analysis of high-throughput sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty358
+  year: 2018
+  journal: Bioinformatics
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '29718142'
+  pmcid: PMC7190653
+  title: 'hts-nim: scripting high-performance genomic analyses.'
+links: {}
+added: '2026-11-12'
+evidence: We present hts-nim, a high-performance library written in the Nim programming language that provides a simple, scripting-like
+  syntax without sacrificing performance.

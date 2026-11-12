@@ -1,0 +1,23 @@
+name: DeepMR
+full_name: Deep Mendelian Randomization
+category: dry
+summary: Method that estimates causal relationships between genomic marks learned by deep learning sequence models, combining
+  Mendelian randomization with in silico mutagenesis.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1371/journal.pcbi.1009880
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Malina S
+  last_author: Knowles DA
+  pmid: '36265006'
+  pmcid: PMC9624391
+  title: 'Deep mendelian randomization: Investigating the causal knowledge of genomic deep learning models'
+added: '2026-11-12'
+evidence: Here, we describe Deep Mendelian Randomization (DeepMR), a method for estimating causal relationships between genomic
+  marks learned by genomic DL models.

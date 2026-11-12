@@ -1,0 +1,26 @@
+name: CRISPRpath
+category: wet
+summary: Pooled CRISPRi and CRISPRn screen that characterises cis-regulatory elements of several genes in one pathway in parallel.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+perturbation:
+- crispr-interference
+- crispr-knockout
+reference:
+  doi: 10.1126/sciadv.abi4360
+  year: 2021
+  journal: Sci Adv
+  first_author: Ren X
+  last_author: Shen Y
+  pmid: '34524848'
+  pmcid: PMC8443183
+  title: Parallel characterization of cis-regulatory elements for multiple genes using CRISPRpath.
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe CRISPRpath, a scalable screening strategy for parallelly characterizing CREs of genes linked to
+  the same biological pathway and converging phenotypes.

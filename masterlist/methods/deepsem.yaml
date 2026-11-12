@@ -1,0 +1,21 @@
+name: DeepSEM
+category: dry
+summary: Deep generative neural-network structural equation model that jointly infers gene regulatory networks and scRNA-seq
+  representations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-021-00099-8
+  year: 2021
+  journal: Nat Comput Sci
+  first_author: Shu H
+  last_author: Ma J
+  pmid: '38217125'
+  title: Modeling gene regulatory networks using neural network architectures
+links: {}
+added: '2026-11-12'
+evidence: Here we propose DeepSEM, a deep generative model that can jointly infer GRNs and biologically meaningful representation
+  of single-cell RNA sequencing (scRNA-seq) data.

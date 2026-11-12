@@ -1,0 +1,38 @@
+name: GoT-Splice
+full_name: Genotyping of Transcriptomes (GoT) with long-read single-cell splicing profiling
+category: wet
+summary: Single-cell long-read transcriptome profiling combined with GoT genotyping and CITE-seq to measure splicing per somatic-mutation
+  genotype.
+readouts:
+- rna
+- genome-sequence
+- protein
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+species:
+- human
+validated_system:
+- primary-cells
+builds_on:
+- got
+- cite-seq
+reference:
+  doi: 10.1101/2022.06.08.495292
+  year: 2022
+  journal: bioRxiv
+  first_author: Gaiti F
+  last_author: Landau DA
+  title: Single-cell multi-omics defines the cell-type specific impact of splicing aberrations in human hematopoietic clonal
+    outgrowths
+links: {}
+partition_unknown: not stated in the abstract
+added: '2026-11-12'
+evidence: To overcome these limitations, we developed GoT-Splice by integrating Genotyping of Transcriptomes (GoT) with enhanced
+  efficiency long-read single-cell transcriptome profiling, as well as proteogenomics (with CITE-seq).

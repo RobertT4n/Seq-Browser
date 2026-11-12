@@ -1,0 +1,22 @@
+name: Corset
+category: dry
+summary: Hierarchically clusters de novo transcriptome contigs into genes using shared reads and expression, then summarises
+  counts for differential expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-014-0410-6
+  year: 2014
+  journal: Genome Biol
+  first_author: Davidson NM
+  last_author: Oshlack A
+  pmid: '25063469'
+  pmcid: PMC4165373
+  title: 'Corset: enabling differential gene expression analysis for de novo assembled transcriptomes'
+links: {}
+added: '2026-11-12'
+evidence: Here we present Corset, a method that hierarchically clusters contigs using shared reads and expression, then summarizes
+  read counts to clusters, ready for statistical testing.

@@ -1,0 +1,21 @@
+name: MINTIE
+category: dry
+summary: Reference-free RNA-seq pipeline that combines de novo transcript assembly with differential expression to find novel
+  structural and splice variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s13059-021-02507-8
+  year: 2021
+  journal: Genome Biol
+  first_author: Cmero M
+  last_author: Davidson NM
+  pmid: '34686194'
+  pmcid: PMC8532352
+  title: 'MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data'
+added: '2026-11-12'
+evidence: To identify all types of variants in transcriptomes we developed MINTIE, an integrated pipeline for RNA-seq data.

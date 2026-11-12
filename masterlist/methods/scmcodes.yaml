@@ -1,0 +1,19 @@
+name: scMCodes
+category: dry
+summary: Predicts brain cell types from DNA methylation status at a small set of genomic sites.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.30.518285
+  year: 2022
+  journal: bioRxiv
+  first_author: Tian W
+  last_author: Ecker JR
+  title: Epigenomic complexity of the human brain revealed by single-cell DNA methylomes and 3D genome structures
+links: {}
+added: '2026-11-12'
+evidence: With these resources, we developed scMCodes that reliably predict brain cell types using their methylation status
+  at select genomic sites.

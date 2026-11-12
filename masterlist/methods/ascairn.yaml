@@ -1,0 +1,19 @@
+name: ascairn
+category: dry
+summary: Infers centromere haplogroups from rare k-mers in short-read whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2026.08.053
+  year: 2026
+  journal: Cell
+  first_author: Shiraishi Y
+  last_author: Ogawa S
+  pmid: '42869020'
+  title: Rare k-mers reveal centromere haplogroups underlying human diversity and cancer translocations
+links: {}
+added: '2026-11-12'
+evidence: We developed ascairn to infer these haplogroups from short-read whole-genome sequencing (WGS) data.

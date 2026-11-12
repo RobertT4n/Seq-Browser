@@ -1,0 +1,22 @@
+name: GLiMMIRS
+category: dry
+summary: Generalized linear modelling framework for testing enhancer-enhancer interactions and enhancer-gene effects from
+  single-cell CRISPR perturbation data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2024.100672
+  year: 2024
+  journal: Cell Genom
+  first_author: Zhou JL
+  last_author: McVicker G
+  pmid: '39406234'
+  pmcid: PMC11605691
+  title: Analysis of single-cell CRISPR perturbations indicates that enhancers predominantly act multiplicatively.
+links: {}
+added: '2026-11-12'
+evidence: we developed a generalized linear modeling framework, GLiMMIRS, for interrogating enhancer effects from single-cell
+  CRISPR experiments

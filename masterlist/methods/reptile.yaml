@@ -1,0 +1,24 @@
+name: REPTILE
+full_name: regulatory element prediction based on tissue-specific local epigenetic marks
+category: dry
+summary: Predicts enhancer locations from histone modification and whole-genome DNA methylation profiles.
+readouts:
+- histone-modification
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1618353114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: He Y
+  last_author: Ecker JR
+  pmid: '28193886'
+  pmcid: PMC5338528
+  title: Improved regulatory element prediction based on tissue-specific local epigenomic signatures
+links: {}
+added: '2026-11-12'
+evidence: Here, we present an algorithm, regulatory element prediction based on tissue-specific local epigenetic marks (REPTILE),
+  which integrates histone modification and whole-genome cytosine DNA methylation profiles to identify the precise location
+  of enhancers.

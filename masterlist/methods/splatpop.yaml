@@ -1,0 +1,21 @@
+name: splatPop
+category: dry
+summary: Simulates population-scale scRNA-seq data with known expression QTLs and batch, group and conditional effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02546-1
+  year: 2021
+  journal: Genome Biol
+  first_author: Azodi CB
+  last_author: McCarthy DJ
+  pmid: '34911537'
+  pmcid: PMC8672480
+  title: 'splatPop: simulating population scale single-cell RNA sequencing data.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present splatPop, a model for flexible, reproducible, and well-documented simulation of population-scale
+  scRNA-seq data with known expression quantitative trait loci.

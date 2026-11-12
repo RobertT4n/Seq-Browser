@@ -1,0 +1,21 @@
+name: Ximmer
+category: dry
+summary: End-to-end system for evaluating, tuning and running exome CNV callers, with simulation and curation tools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/gigascience/giy112
+  year: 2018
+  journal: Gigascience
+  first_author: Sadedin SP
+  last_author: Oshlack A
+  pmid: '30192941'
+  pmcid: PMC6177737
+  title: 'Ximmer: a system for improving accuracy and consistency of CNV calling from exome data.'
+links: {}
+added: '2026-11-12'
+evidence: We present Ximmer, a tool that supports an end-to-end process for evaluating, tuning, and running analysis methods
+  for detection of CNVs in germline samples

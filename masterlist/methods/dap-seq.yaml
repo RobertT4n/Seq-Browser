@@ -1,0 +1,26 @@
+name: DAP-seq
+full_name: DNA affinity purification sequencing
+category: wet
+summary: Affinity-purified in vitro-expressed transcription factors are bound to a native genomic DNA library and the bound
+  DNA is sequenced to map genome-wide binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/nprot.2017.055
+  year: 2017
+  journal: Nat Protoc
+  first_author: Bartlett A
+  last_author: Ecker JR
+  pmid: '28726847'
+  pmcid: PMC5576341
+  title: Mapping genome-wide transcription-factor binding sites using DAP-seq
+links: {}
+added: '2026-11-12'
+evidence: To enable low-cost, high-throughput generation of cistrome and epicistrome maps for any organism, we developed DNA
+  affinity purification sequencing (DAP-seq), a transcription factor (TF)-binding site (TFBS) discovery assay that couples
+  affinity-purified TFs with next-generation sequencing of a genomic DNA library.

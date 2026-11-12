@@ -1,0 +1,20 @@
+name: Damsel
+category: dry
+summary: Bioconductor R package for quantification, testing and visualisation of DamID sequencing binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae695
+  year: 2024
+  journal: Bioinformatics
+  first_author: Page CG
+  last_author: Oshlack A
+  pmid: '39558607'
+  pmcid: PMC11604169
+  title: 'Damsel: analysis and visualisation of DamID sequencing in R'
+links: {}
+added: '2026-11-12'
+evidence: Damsel is the first Bioconductor package to provide an end to end analysis for DamID sequencing data within R.

@@ -1,0 +1,20 @@
+name: FIREcaller
+category: dry
+summary: R package that detects frequently interacting regions (FIREs) and super-FIREs from Hi-C contact matrices.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.12.026
+  year: 2021
+  journal: Comput Struct Biotechnol J
+  first_author: Crowley C
+  last_author: Li Y
+  pmid: '33489005'
+  pmcid: PMC7788093
+  title: 'FIREcaller: Detecting frequently interacting regions from Hi-C data'
+links: {}
+added: '2026-11-12'
+evidence: In this work, we present FIREcaller, a stand-alone, user-friendly R package for detecting FIREs from Hi-C data.

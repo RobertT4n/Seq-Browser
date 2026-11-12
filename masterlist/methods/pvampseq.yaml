@@ -1,0 +1,28 @@
+name: PvAmpSeq
+full_name: Plasmodium vivax amplicon sequencing
+category: wet
+summary: Amplicon sequencing assay targeting 11 SNP-rich regions of Plasmodium vivax, used to classify recurrent infections
+  by relatedness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+links: {}
+reference:
+  doi: 10.1016/j.isci.2026.115799
+  year: 2026
+  journal: iScience
+  first_author: Rosado J
+  last_author: Ruybal-Pesántez S
+  pmid: '42111217'
+  pmcid: PMC13157095
+  title: Understanding &lt;i&gt;Plasmodium vivax&lt;/i&gt; recurrent infections using an amplicon deep sequencing assay, identity-by-descent
+    and model-based classification
+added: '2026-11-12'
+evidence: We developed P. vivax AmpSeq (PvAmpSeq), an amplicon sequencing assay targeting 11 single-nucleotide polymorphism
+  (SNP)-rich genomic regions.

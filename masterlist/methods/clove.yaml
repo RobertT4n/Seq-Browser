@@ -1,0 +1,21 @@
+name: CLOVE
+category: dry
+summary: Integrates results from breakpoint or SV callers and classifies each genomic fusion as a structural variation event.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1760-3
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Schröder J
+  last_author: Papenfuss AT
+  pmid: '28728542'
+  pmcid: PMC5520322
+  title: 'CLOVE: classification of genomic fusions into structural variation events.'
+links: {}
+added: '2026-11-12'
+evidence: We present CLOVE, an algorithm for integrating the results of multiple breakpoint or SV callers and classifying
+  the results as a particular SV.

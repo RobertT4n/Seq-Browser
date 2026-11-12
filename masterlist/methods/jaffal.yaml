@@ -1,0 +1,21 @@
+name: JAFFAL
+category: dry
+summary: Fusion-gene caller for long-read transcriptome sequencing that reports full-length fusion isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02588-5
+  year: 2022
+  journal: Genome Biol
+  first_author: Davidson NM
+  last_author: Oshlack A
+  pmid: '34991664'
+  pmcid: PMC8739696
+  title: 'JAFFAL: detecting fusion genes with long-read transcriptome sequencing.'
+links: {}
+added: '2026-11-12'
+evidence: Here we present JAFFAL, to identify fusions from long-read transcriptome sequencing

@@ -1,0 +1,22 @@
+name: RFECS
+full_name: Random Forest based Enhancer identification from Chromatin States
+category: dry
+summary: Random-forest classifier that predicts enhancers from combinations of histone modification profiles.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1002968
+  year: 2013
+  journal: PLoS Comput Biol
+  first_author: Rajagopal N
+  last_author: Ren B
+  pmid: '23526891'
+  pmcid: PMC3597546
+  title: 'RFECS: a random-forest based algorithm for enhancer identification from chromatin state'
+links: {}
+added: '2026-11-12'
+evidence: We developed a Random-Forest based algorithm, RFECS (Random Forest based Enhancer identification from Chromatin
+  States) to integrate histone modification profiles for identification of enhancers

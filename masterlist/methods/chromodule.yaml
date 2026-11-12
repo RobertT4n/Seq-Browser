@@ -1,0 +1,21 @@
+name: ChroModule
+category: dry
+summary: Machine-learning method that annotates epigenetic states from histone-modification data across cell types.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt143
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Won KJ
+  last_author: Wang W
+  pmid: '23482391'
+  pmcid: PMC3632130
+  title: Comparative annotation of functional regions in the human genome using epigenomic data
+links: {}
+added: '2026-11-12'
+evidence: We developed a machine-learning method called ChroModule to annotate the epigenetic states in eight ENCyclopedia
+  Of DNA Elements cell types.

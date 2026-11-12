@@ -1,0 +1,23 @@
+name: MCFA
+full_name: multi-set correlation and factor analysis
+category: dry
+summary: Unsupervised integration of multi-omics datasets into shared and private factors.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2023.100359
+  year: 2023
+  journal: Cell Genom
+  first_author: Brown BC
+  last_author: Lappalainen T
+  pmid: '37601969'
+  pmcid: PMC10435377
+  title: Multiset correlation and factor analysis enables exploration of multi-omics data
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce multi-set correlation and factor analysis (MCFA), an unsupervised integration method tailored
+  to the unique challenges of high-dimensional genomics data

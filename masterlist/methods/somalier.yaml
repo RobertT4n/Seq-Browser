@@ -1,0 +1,21 @@
+name: Somalier
+category: dry
+summary: Tool that builds small genotype sketches directly from alignments to check relatedness and detect sample swaps.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s13073-020-00761-2
+  year: 2020
+  journal: Genome Med
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '32664994'
+  pmcid: PMC7362544
+  title: 'Somalier: rapid relatedness estimation for cancer and germline studies using efficient genome sketches'
+added: '2026-11-12'
+evidence: we have developed Somalier, a tool that operates directly on alignments and does not require jointly called germline
+  variants

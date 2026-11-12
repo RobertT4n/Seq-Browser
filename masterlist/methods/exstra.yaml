@@ -1,0 +1,22 @@
+name: exSTRa
+full_name: expanded short tandem repeat algorithm
+category: dry
+summary: Detects tandem repeat expansions from whole-exome or whole-genome short-read data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2018.10.015
+  year: 2018
+  journal: Am J Hum Genet
+  first_author: Tankard RM
+  last_author: Bahlo M
+  pmid: '30503517'
+  pmcid: PMC6288141
+  title: Detecting Expansions of Tandem Repeats in Cohorts Sequenced with Short-Read Sequencing Data
+links: {}
+added: '2026-11-12'
+evidence: We developed exSTRa (expanded short tandem repeat algorithm), a method that uses either WES or WGS to identify repeat
+  expansions.

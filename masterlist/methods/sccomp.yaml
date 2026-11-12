@@ -1,0 +1,22 @@
+name: sccomp
+category: dry
+summary: Statistical method for differential composition and variability analysis of single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2203828120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Mangiola S
+  last_author: Papenfuss AT
+  pmid: '37549298'
+  pmcid: PMC10438834
+  title: 'sccomp: Robust differential composition and variability analysis for single-cell data'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce sccomp, a method for differential composition and variability analyses that jointly models data
+  count distribution, compositionality, group-specific variability, and proportion mean-variability association, being aware
+  of outliers.

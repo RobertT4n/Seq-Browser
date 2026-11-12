@@ -1,0 +1,20 @@
+name: VIRUSBreakend
+category: dry
+summary: Detects viral DNA presence and genomic integration from whole-genome data using single breakends.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab343
+  year: 2021
+  journal: Bioinformatics
+  first_author: Cameron DL
+  last_author: Papenfuss AT
+  pmid: '33973999'
+  pmcid: PMC8504616
+  title: 'VIRUSBreakend: Viral Integration Recognition Using Single Breakends'
+links: {}
+added: '2026-11-12'
+evidence: Here, we describe VIRUSBreakend, a high-speed tool that identifies viral DNA presence and genomic integration.

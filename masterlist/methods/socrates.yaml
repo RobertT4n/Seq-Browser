@@ -1,0 +1,22 @@
+name: Socrates
+full_name: SOft Clip re-alignment To idEntify Structural variants
+category: dry
+summary: Detects somatic genomic rearrangements in tumours by re-aligning soft-clipped reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt767
+  year: 2014
+  journal: Bioinformatics
+  first_author: Schröder J
+  last_author: Papenfuss AT
+  pmid: '24389656'
+  pmcid: PMC3982158
+  title: 'Socrates: identification of genomic rearrangements in tumour genomes by re-aligning soft clipped reads'
+links: {}
+added: '2026-11-12'
+evidence: In this article, we present Socrates (SOft Clip re-alignment To idEntify Structural variants), a highly efficient
+  and effective method for detecting genomic rearrangements in tumours that uses only split-read data.

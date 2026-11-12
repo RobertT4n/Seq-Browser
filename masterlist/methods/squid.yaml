@@ -1,0 +1,21 @@
+name: SQUID
+category: dry
+summary: Interpretability framework that builds surrogate models to explain cis-regulatory mechanisms in genomic deep neural
+  networks.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-024-00851-5
+  year: 2024
+  journal: Nat Mach Intell
+  first_author: Seitz EE
+  last_author: Koo PK
+  pmid: '39950082'
+  pmcid: PMC11823438
+  title: Interpreting &lt;i&gt;cis&lt;/i&gt;-regulatory mechanisms from genomic deep neural networks using surrogate models
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce SQUID, a genomic DNN interpretability framework based on domain-specific surrogate modeling.

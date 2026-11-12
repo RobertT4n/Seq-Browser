@@ -1,0 +1,21 @@
+name: TWO-SIGMA-G
+category: dry
+summary: Mixed-effects competitive gene set test for scRNA-seq that adjusts for inter-gene correlation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac084
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Van Buren E
+  last_author: Wu D
+  pmid: '35325048'
+  pmcid: PMC9271221
+  title: 'TWO-SIGMA-G: a new competitive gene set testing framework for scRNA-seq data accounting for inter-gene and cell-cell
+    correlation'
+links: {}
+added: '2026-11-12'
+evidence: We propose TWO-SIGMA-G, a competitive gene set test for scRNA-seq data.

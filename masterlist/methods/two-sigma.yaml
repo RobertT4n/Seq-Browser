@@ -1,0 +1,22 @@
+name: TWO-SIGMA
+full_name: TWO-component SInGle cell Model-based Association method
+category: dry
+summary: Two-part mixed-effects model for single-cell differential expression that models drop-out and mean expression separately.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/gepi.22361
+  year: 2021
+  journal: Genet Epidemiol
+  first_author: Van Buren E
+  last_author: Li Y
+  pmid: '32989764'
+  pmcid: PMC8570615
+  title: 'TWO-SIGMA: A novel two-component single cell model-based association method for single-cell RNA-seq data'
+links: {}
+added: '2026-11-12'
+evidence: In this paper, we develop TWO-SIGMA, a TWO-component SInGle cell Model-based Association method for differential
+  expression (DE) analyses in single-cell RNA-seq (scRNA-seq) data.

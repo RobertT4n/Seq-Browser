@@ -1,0 +1,25 @@
+name: TRGT
+full_name: Tandem Repeat Genotyping Tool
+category: dry
+summary: Genotypes tandem repeats from PacBio HiFi reads, reporting allele consensus sequences, methylation levels and supporting
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41587-023-02057-3
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Dolzhenko E
+  last_author: Eberle MA
+  pmid: '38168995'
+  pmcid: PMC11921810
+  title: Characterization and visualization of tandem repeats at genome scale
+links: {}
+added: '2026-11-12'
+evidence: Here we introduce the Tandem Repeat Genotyping Tool (TRGT) and an accompanying TR database.

@@ -1,0 +1,22 @@
+name: slivar
+category: dry
+summary: Software for rapid variant filtering of VCF files and for estimating expected candidate variant counts in rare-disease
+  studies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s41525-021-00227-3
+  year: 2021
+  journal: NPJ Genom Med
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '34267211'
+  pmcid: PMC8282602
+  title: Effective variant filtering and expected candidate variant yield in studies of rare human disease
+added: '2026-11-12'
+evidence: The slivar software we developed to establish and rapidly apply these filters to VCF files is available at https://github.com/brentp/slivar
+  under an MIT license

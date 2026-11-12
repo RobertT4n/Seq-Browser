@@ -1,0 +1,22 @@
+name: inspre
+full_name: inverse sparse regression
+category: dry
+summary: Inverse sparse regression method that learns causal gene networks from large-scale perturb-seq intervention data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64353-7
+  year: 2025
+  journal: Nat Commun
+  first_author: Brown BC
+  last_author: Knowles DA
+  pmid: '41173850'
+  pmcid: PMC12579002
+  title: Large-scale causal discovery using interventional data sheds light on gene network structure in k562 cells
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce inverse sparse regression (inspre), an approach to learning causal networks that leverages large-scale
+  intervention-response data.

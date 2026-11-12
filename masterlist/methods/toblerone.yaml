@@ -1,0 +1,21 @@
+name: Toblerone
+category: dry
+summary: Pseudoalignment-based detection of exon deletions from RNA-seq, using a transcriptome reference of deletion isoforms;
+  applied to IKZF1 in B-ALL.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.129490.1
+  year: 2023
+  journal: F1000Res
+  first_author: Lonsdale A
+  last_author: Oshlack A
+  pmid: '37767021'
+  pmcid: PMC10521068
+  title: 'Toblerone: detecting exon deletion events in cancer using RNA-seq'
+links: {}
+added: '2026-11-12'
+evidence: In this work we developed a method for detecting exon deletions in genes using RNA-seq with application to IKZF1.

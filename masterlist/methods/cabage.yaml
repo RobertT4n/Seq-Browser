@@ -1,0 +1,31 @@
+name: CaBagE
+full_name: Cas9-based Background Elimination
+category: wet
+summary: Cas9 binds and protects target fragments from exonuclease digestion, then targeted DNA is sequenced on Oxford Nanopore
+  long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- human
+reference:
+  doi: 10.1371/journal.pone.0241253
+  year: 2021
+  journal: PLoS One
+  first_author: Wallace AD
+  last_author: Quinlan AR
+  pmid: '33830997'
+  pmcid: PMC8031414
+  title: 'CaBagE: A Cas9-based Background Elimination strategy for targeted, long-read DNA sequencing'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present CaBagE, a method for target enrichment that is efficient and useful for sequencing large, structurally
+  complex targets.

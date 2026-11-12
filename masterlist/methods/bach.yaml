@@ -1,0 +1,22 @@
+name: BACH
+full_name: Bayesian 3D constructor for Hi-C data
+category: dry
+summary: Bayesian probabilistic method that infers consensus 3D chromosome structure from Hi-C data; BACH-MIX variant models
+  structural variation across a population.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1002893
+  year: 2013
+  journal: PLoS Comput Biol
+  first_author: Hu M
+  last_author: Liu JS
+  pmid: '23382666'
+  pmcid: PMC3561073
+  title: Bayesian inference of spatial organizations of chromosomes
+links: {}
+added: '2026-11-12'
+evidence: Here we describe a novel Bayesian probabilistic approach, denoted as

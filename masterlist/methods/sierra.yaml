@@ -1,0 +1,21 @@
+name: Sierra
+category: dry
+summary: Computational pipeline detecting differential transcript usage from polyA-captured scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02071-7
+  year: 2020
+  journal: Genome Biol
+  first_author: Patrick R
+  last_author: Lo KK
+  pmid: '32641141'
+  pmcid: PMC7341584
+  title: 'Sierra: discovery of differential transcript usage from polyA-captured single-cell RNA-seq data.'
+links: {}
+added: '2026-11-12'
+evidence: We present a computational pipeline, Sierra, that readily detects differential transcript usage from data generated
+  by commonly used polyA-captured scRNA-seq technology

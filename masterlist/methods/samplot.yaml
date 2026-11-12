@@ -1,0 +1,22 @@
+name: Samplot
+category: dry
+summary: Tool that draws read-depth and alignment images to visually validate and filter structural variant calls, with an
+  ML filter.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02380-5
+  year: 2021
+  journal: Genome Biol
+  first_author: Belyeu JR
+  last_author: Layer RM
+  pmid: '34034781'
+  pmcid: PMC8145817
+  title: 'Samplot: a platform for structural variant visual validation and automated filtering'
+links: {}
+added: '2026-11-12'
+evidence: We present Samplot, a tool for creating images that display the read depth and sequence alignments necessary to
+  adjudicate purported SVs across samples and sequencing technologies.

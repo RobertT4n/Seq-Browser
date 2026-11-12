@@ -1,0 +1,21 @@
+name: Canary
+category: dry
+summary: Single-program clinical amplicon pipeline from FASTQ to annotated VCF.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1950-z
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Doig KD
+  last_author: Fox SB
+  pmid: '29246107'
+  pmcid: PMC5732437
+  title: 'Canary: an atomic pipeline for clinical amplicon assays'
+links: {}
+added: '2026-11-12'
+evidence: Here we present Canary, a single program that can be run on a laptop, which takes FASTQ files from amplicon assays
+  through to an annotated VCF file ready for clinical analysis.

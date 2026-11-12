@@ -1,0 +1,27 @@
+name: Super-resolution ribosome profiling
+category: wet
+summary: Ribosome profiling protocol whose footprints map mostly to the main reading frame, giving frame-resolved translation
+  profiles.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+species:
+- plant
+reference:
+  doi: 10.1073/pnas.1614788113
+  year: 2016
+  journal: Proc Natl Acad Sci U S A
+  first_author: Hsu PY
+  last_author: Benfey PN
+  pmid: '27791167'
+  pmcid: PMC5111709
+  title: Super-resolution ribosome profiling reveals unannotated translation events in <i>Arabidopsis</i>
+links: {}
+added: '2026-11-12'
+evidence: Here, we report a protocol applied to Arabidopsis that maps over 90% of the footprints to the main reading frame
+  and thus offers super-resolution profiles for individual transcripts to precisely define translated regions.

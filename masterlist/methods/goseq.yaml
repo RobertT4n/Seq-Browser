@@ -1,0 +1,20 @@
+name: GOseq
+category: dry
+summary: Gene Ontology enrichment method for RNA-seq that corrects for transcript-length selection bias.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2010-11-2-r14
+  year: 2010
+  journal: Genome Biol
+  first_author: Young MD
+  last_author: Oshlack A
+  pmid: '20132535'
+  pmcid: PMC2872874
+  title: 'Gene ontology analysis for RNA-seq: accounting for selection bias'
+links: {}
+added: '2026-11-12'
+evidence: We present GOseq, an application for performing Gene Ontology (GO) analysis on RNA-seq data.

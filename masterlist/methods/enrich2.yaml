@@ -1,0 +1,21 @@
+name: Enrich2
+category: dry
+summary: Statistical framework and software for deep mutational scanning that models sampling error and replicate consistency
+  per variant.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1272-5
+  year: 2017
+  journal: Genome Biol
+  first_author: Rubin AF
+  last_author: Fowler DM
+  pmid: '28784151'
+  pmcid: PMC5547491
+  title: A statistical framework for analyzing deep mutational scanning data
+links: {}
+added: '2026-11-12'
+evidence: We implemented our model in Enrich2, software that can empower researchers analyzing deep mutational scanning data.

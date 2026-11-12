@@ -1,0 +1,23 @@
+name: BAMM-SC
+full_name: Bayesian mixture model for single-cell sequencing
+category: dry
+summary: Bayesian hierarchical mixture model that clusters scRNA-seq cells from multiple individuals while accounting for
+  batch effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s41467-019-09639-3
+  year: 2019
+  journal: Nat Commun
+  first_author: Sun Z
+  last_author: Chen W
+  pmid: '30967541'
+  pmcid: PMC6456731
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+added: '2026-11-12'
+evidence: Here, we develop a Bayesian mixture model for single-cell sequencing (BAMM-SC) method to cluster scRNA-seq data
+  from multiple individuals simultaneously.

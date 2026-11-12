@@ -1,0 +1,22 @@
+name: Splatter
+category: dry
+summary: Bioconductor package for simulating scRNA-seq data through a common interface to multiple simulation methods, including
+  the Splat gamma-Poisson model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1305-0
+  year: 2017
+  journal: Genome Biol
+  first_author: Zappia L
+  last_author: Oshlack A
+  pmid: '28899397'
+  pmcid: PMC5596896
+  title: 'Splatter: simulation of single-cell RNA sequencing data'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present the Splatter Bioconductor package for simple, reproducible, and well-documented simulation of scRNA-seq
+  data.

@@ -1,0 +1,21 @@
+name: DIMM-SC
+full_name: Dirichlet mixture model
+category: dry
+summary: Dirichlet mixture model that clusters droplet-based scRNA-seq UMI count data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx490
+  year: 2018
+  journal: Bioinformatics
+  first_author: Sun Z
+  last_author: Chen W
+  pmid: '29036318'
+  pmcid: PMC6454475
+  title: 'DIMM-SC: a Dirichlet mixture model for clustering droplet-based single cell transcriptomic data'
+links: {}
+added: '2026-11-12'
+evidence: We developed DIMM-SC, a Dirichlet Mixture Model for clustering droplet-based Single Cell transcriptomic data.

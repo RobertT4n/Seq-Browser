@@ -1,0 +1,26 @@
+name: GLIB
+full_name: glucosylation, periodate oxidation, biotinylation
+category: wet
+summary: Enzymatic and chemical isolation of 5-hydroxymethylcytosine-containing DNA fragments for genome-wide mapping.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+species:
+- mouse
+reference:
+  doi: 10.1038/nature10102
+  year: 2011
+  journal: Nature
+  first_author: Pastor WA
+  last_author: Rao A
+  pmid: '21552279'
+  pmcid: PMC3124347
+  title: Genome-wide mapping of 5-hydroxymethylcytosine in embryonic stem cells
+links: {}
+added: '2026-11-12'
+evidence: The first approach, termed GLIB (glucosylation, periodate oxidation, biotinylation) uses a combination of enzymatic
+  and chemical steps to isolate DNA fragments containing as few as a single 5hmC.

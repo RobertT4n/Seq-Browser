@@ -1,0 +1,21 @@
+name: SuperFreq
+category: dry
+summary: Cancer exome pipeline that calls SNVs and CNAs and tracks clones without a matched normal sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1007603
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Flensburg C
+  last_author: Majewski IJ
+  pmid: '32053599'
+  pmcid: PMC7043783
+  title: 'SuperFreq: Integrated mutation detection and clonal tracking in cancer'
+links: {}
+added: '2026-11-12'
+evidence: We developed SuperFreq, a cancer exome sequencing analysis pipeline that integrates identification of somatic single
+  nucleotide variants (SNVs) and copy number alterations (CNAs) and clonal tracking for both.

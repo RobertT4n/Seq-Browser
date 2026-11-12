@@ -1,0 +1,24 @@
+name: scMD
+full_name: single cell Methylation Deconvolution
+category: dry
+summary: Cellular deconvolution framework that builds DNA methylation signatures from single-cell methylation data to estimate
+  cell-type fractions in bulk samples.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1038/s42003-023-05690-5
+  year: 2024
+  journal: Commun Biol
+  first_author: Cai M
+  last_author: Wang J
+  pmid: '38168620'
+  pmcid: PMC10762261
+  title: scMD facilitates cell type deconvolution using single-cell DNA methylation references
+added: '2026-11-12'
+evidence: we introduce scMD (single cell Methylation Deconvolution), a cellular deconvolution framework to reliably estimate
+  cell type fractions from tissue-level DNAm data.

@@ -1,0 +1,22 @@
+name: Slinker
+category: dry
+summary: Pipeline that assembles sample-specific superTranscripts so RNA-seq reads can show novel splicing events outside
+  annotated exons.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.74836.1
+  year: 2021
+  journal: F1000Res
+  first_author: Schmidt B
+  last_author: Oshlack A
+  pmid: '35035899'
+  pmcid: PMC8749905
+  title: 'Slinker: Visualising novel splicing events in RNA-Seq data'
+links: {}
+added: '2026-11-12'
+evidence: Here we present Slinker, a bioinformatics pipeline written in Python and Bpipe that uses a data-driven approach
+  to assemble sample-specific superTranscripts.

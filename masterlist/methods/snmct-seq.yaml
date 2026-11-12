@@ -1,0 +1,30 @@
+name: snmCT-seq
+full_name: single-nucleus methylcytosine and transcriptome sequencing
+category: wet
+summary: Multi-omic single-nucleus method measuring DNA methylation and transcriptome from the same nucleus without physically
+  separating DNA and RNA.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+input_sample:
+- nuclei
+species:
+- human
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/434845
+  year: 2018
+  journal: bioRxiv
+  first_author: Luo C
+  last_author: Ecker JR
+  title: Multi-omic profiling of transcriptome and DNA methylome in single nuclei with molecular partitioning
+links: {}
+added: '2026-11-12'
+evidence: Here we describe single-nucleus methylcytosine and transcriptome sequencing (snmCT-seq), a multi-omic method that
+  requires no physical separation of DNA and RNA molecules.

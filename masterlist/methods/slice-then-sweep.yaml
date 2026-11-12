@@ -1,0 +1,21 @@
+name: slice-then-sweep
+category: dry
+summary: Parallel algorithm that finds the genomic intervals common to N interval sets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/jproc.2015.2461494
+  year: 2017
+  journal: Proc IEEE Inst Electr Electron Eng
+  first_author: Layer RM
+  last_author: Quinlan AR
+  pmid: '30333632'
+  pmcid: PMC6188649
+  title: A parallel algorithm for <i>N</i>-way interval set intersection
+links: {}
+added: '2026-11-12'
+evidence: To solve this problem, we present a novel "slice-then-sweep" algorithm that, given N interval sets, efficiently
+  reveals the subset of intervals that are common to all N sets.

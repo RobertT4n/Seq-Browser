@@ -1,0 +1,26 @@
+name: CrY2H-seq
+category: wet
+summary: Massively multiplexed yeast two-hybrid method in which a Cre reporter and NGS identify interacting protein pairs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1038/nmeth.4343
+  year: 2017
+  journal: Nat Methods
+  first_author: Wanamaker SA
+  last_author: Ecker JR
+  pmid: '28650476'
+  pmcid: PMC5564216
+  title: 'CrY2H-seq: a massively multiplexed assay for deep-coverage interactome mapping'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present a massively multiplexed yeast two-hybrid method, CrY2H-seq, which uses a Cre recombinase interaction
+  reporter to intracellularly fuse the coding sequences of two interacting proteins and next-generation DNA sequencing to
+  identify these interactions en masse.

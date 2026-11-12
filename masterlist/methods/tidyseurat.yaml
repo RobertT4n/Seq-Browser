@@ -1,0 +1,21 @@
+name: tidyseurat
+category: dry
+summary: R adapter that presents Seurat single-cell objects as tibbles for tidyverse-based manipulation and plotting.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btab404
+  year: 2021
+  journal: Bioinformatics
+  first_author: Mangiola S
+  last_author: Papenfuss AT
+  pmid: '34028547'
+  pmcid: PMC9502154
+  title: Interfacing Seurat with the R tidy universe
+added: '2026-11-12'
+evidence: To provide Seurat with a tidyverse-oriented interface without compromising efficiency, we developed tidyseurat,
+  a lightweight adapter to the tidyverse.

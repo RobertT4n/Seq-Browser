@@ -1,0 +1,27 @@
+name: TAB-seq
+full_name: Tet-assisted bisulfite sequencing
+category: wet
+summary: Tet oxidation followed by bisulfite conversion to map 5hmC at base resolution and quantify 5hmC and 5mC.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- wgbs
+reference:
+  doi: 10.1016/j.cell.2012.04.027
+  year: 2012
+  journal: Cell
+  first_author: Yu M
+  last_author: He C
+  pmid: '22608086'
+  pmcid: PMC3589129
+  title: Base-resolution analysis of 5-hydroxymethylcytosine in the mammalian genome.
+links: {}
+added: '2026-11-12'
+evidence: We here present a genome-wide approach, Tet-assisted bisulfite sequencing (TAB-Seq), that when combined with traditional
+  bisulfite sequencing can be used for mapping 5hmC at base resolution and quantifying the relative abundance of 5hmC as well
+  as 5mC.

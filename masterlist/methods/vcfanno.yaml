@@ -1,0 +1,22 @@
+name: vcfanno
+category: dry
+summary: Command-line tool that annotates VCF variants with attributes from many annotation files using a chromosome-sweeping
+  algorithm.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+reference:
+  doi: 10.1186/s13059-016-0973-5
+  year: 2016
+  journal: Genome Biol
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '27250555'
+  pmcid: PMC4888505
+  title: 'Vcfanno: fast, flexible annotation of genetic variants'
+added: '2026-11-12'
+evidence: Here we describe vcfanno, which flexibly extracts and summarizes attributes from multiple annotation files and integrates
+  the annotations within the INFO column of the original VCF file.

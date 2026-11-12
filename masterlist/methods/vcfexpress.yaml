@@ -1,0 +1,21 @@
+name: vcfexpress
+category: dry
+summary: Rust toolset with Lua user expressions to filter and format VCF/BCF variant files, nearly as fast as BCFtools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf097
+  year: 2025
+  journal: Bioinformatics
+  first_author: Pedersen BS
+  last_author: Quinlan AR
+  pmid: '40037622'
+  pmcid: PMC11904302
+  title: 'Vcfexpress: flexible, rapid user-expressions to filter and format VCFs'
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce vcfexpress, a new, high-performance toolset for the analysis of VCF files, written in the Rust
+  programming language.
