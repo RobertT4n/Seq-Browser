@@ -133,4 +133,26 @@ species:             # species the method was demonstrated in
   - invertebrate
   - plant
   - microbe
+# ---- Computational tools only (added 2026-11-12; beta). What the tool DOES with the data. Up to 2 per tool, in masterlist/dry_tasks.yaml ----
+task:
+  - preprocessing-qc          # cell calling, doublets, ambient RNA, normalisation, quality control, read processing
+  - integration               # batch correction, atlas / dataset integration, reference mapping
+  - multimodal-integration    # joins several modalities (RNA+ATAC+protein, spatial+scRNA) into one representation
+  - clustering-annotation     # clustering, cell-type / state annotation, label transfer
+  - trajectory-velocity       # pseudotime, RNA velocity, fate and dynamics
+  - regulatory-networks       # gene regulatory networks, TF activity, enhancer-gene links, motif analysis
+  - cell-communication        # ligand-receptor, cell-cell interaction, niches
+  - spatial-analysis          # spatial domains, deconvolution, spatial mapping, subcellular localisation
+  - perturbation-modelling    # predicting or analysing perturbation / drug / CRISPR responses
+  - variants-clones           # SNV / CNV calling, clonality, lineage tracing, genotyping from sequencing
+  - differential-analysis     # differential expression / accessibility / abundance, QTL, association testing
+  - foundation-model          # large pretrained models of cells or genomes
+  - dimensionality-visualization  # embeddings, representation learning, visualisation
+  - benchmark-infrastructure  # benchmarks, frameworks, data structures, databases, atlases, pipelines
+  - 3d-genome-analysis        # Hi-C and contact-map tools: structure prediction, domains, loops, contact-map enhancement
+  - modification-calling      # calling base modifications (m6A, 5mC...) or RNA structure from nanopore, bisulfite or chemical-probing data
+  - metagenomics-taxonomy     # species / taxonomic / virus / microbial profiling from sequencing reads
+  - genome-assembly           # assembly, scaffolding, centromere / repeat annotation of genomes
+  - sequence-to-function      # models predicting molecular function or signal from DNA / RNA sequence
+  - disease-classification    # classifying disease or tumour type, or detecting cancer, from sequencing signal (cfDNA, methylation)
 # targets: FREE TEXT list (not validated), epigenome/protein-binding methods only, e.g. [H3K27me3, CTCF, Pol II S2P]

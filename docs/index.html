@@ -38,9 +38,9 @@
 <script>
 // _bar / _chem split the chemistry tags: how cells are kept apart (barcoding) vs. what is done to the molecules (chemistry)
 const PART = new Set(["combinatorial-indexing","split-pool-barcoding","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","particle-templated-emulsion","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
-const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"]];
+const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"],["task","Task"]];
 // dropdowns on screen: resolution, over-time and scope share one panel with section headings
-const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]}];
+const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]},{label:"Task",keys:["task"]}];
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
 const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
 // platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)
@@ -86,6 +86,8 @@ function render() {
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
     (!q || [m.name, m.full_name, m.aliases, m.summary, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q));
   const dryOn = document.getElementById("dry").checked, pool = data.filter(m => dryOn || m.category === "wet");
+  if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
+  { const g = document.querySelectorAll("#facets .fg")[6]; if (g) g.hidden = !dryOn; }   // the Task filter only exists for computational tools
   const rows = pool.filter(m => pass(m));
   const hiddenDry = dryOn || !(q || FACETS.some(([k]) => on[k].size)) ? 0 : data.filter(m => m.category === "dry" && pass(m)).length;
   // live option counts: how many methods you would have if you also picked this option, given everything else selected
@@ -103,7 +105,7 @@ function render() {
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
     <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("dry").checked ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
-    <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${tags(m.chemistry)}</td>
+    <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("");
