@@ -1,0 +1,21 @@
+name: XClone
+category: dry
+summary: Statistical method that detects haplotype-aware copy number alterations from scRNA-seq using neighbourhood and gene-graph
+  smoothing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-51026-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Huang R
+  last_author: Huang Y
+  pmid: '39107346'
+  pmcid: PMC11303794
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+links: {}
+added: '2026-11-11'
+evidence: we present a statistical method, XClone, that strengthens the signals of read depth and allelic imbalance

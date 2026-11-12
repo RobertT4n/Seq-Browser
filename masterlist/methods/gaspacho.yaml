@@ -1,0 +1,25 @@
+name: GASPACHO
+full_name: GAuSsian Processes for Association mapping leveraging Cell HeterOgeneity
+category: dry
+summary: Gaussian-process statistical approach that maps dynamic eQTLs across a transcriptional trajectory without pseudobulk.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-023-01421-y
+  year: 2023
+  journal: Nat Genet
+  first_author: Kumasaka N
+  last_author: Teichmann SA
+  pmid: '37308670'
+  pmcid: PMC10260404
+  title: Mapping interindividual dynamics of innate immune response at single-cell resolution
+  preprint_doi: 10.1101/2021.09.01.457774
+links: {}
+added: '2026-11-11'
+evidence: We developed GASPACHO (GAuSsian Processes for Association mapping leveraging Cell HeterOgeneity), the first statistical
+  approach designed to identify dynamic eQTLs across a transcriptional trajectory of cell populations, without aggregating
+  single-cell data into pseudo-bulk.

@@ -1,0 +1,22 @@
+name: Demuxafy
+category: dry
+summary: Consensus framework combining multiple demultiplexing and doublet-detection tools for pooled scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03224-8
+  year: 2024
+  journal: Genome Biol
+  first_author: Neavin D
+  last_author: Powell JE
+  pmid: '38622708'
+  pmcid: PMC11020463
+  title: 'Demuxafy: improvement in droplet assignment by integrating multiple single-cell demultiplexing and doublet detection
+    methods'
+links: {}
+added: '2026-11-11'
+evidence: We develop Demuxafy, a framework to enhance donor assignment and doublet removal through the consensus intersection
+  of multiple demultiplexing and doublet detecting methods.

@@ -1,0 +1,26 @@
+name: scDALI
+category: dry
+summary: Computational framework combining cell states with allelic read counts to estimate cell-state-specific genetic effects
+  in single-cell data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+- invertebrate
+reference:
+  doi: 10.1186/s13059-021-02593-8
+  year: 2022
+  journal: Genome Biol
+  first_author: Heinen T
+  last_author: Stegle O
+  pmid: '34991671'
+  pmcid: PMC8734213
+  title: 'scDALI: modeling allelic heterogeneity in single cells reveals context-specific genetic regulation'
+links: {}
+added: '2026-11-11'
+evidence: Here, we develop scDALI, a versatile computational framework that integrates information on cellular states with
+  allelic quantifications of single-cell sequencing data

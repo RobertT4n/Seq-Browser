@@ -1,0 +1,23 @@
+name: scPoli
+full_name: single-cell population level integration
+category: dry
+summary: Open-world generative learner for population-level single-cell integration, label transfer and sample-level variation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02035-2
+  year: 2023
+  journal: Nat Methods
+  first_author: De Donno C
+  last_author: Theis FJ
+  pmid: '37813989'
+  pmcid: PMC10630133
+  title: Population-level integration of single-cell datasets enables multi-scale analysis across samples
+links: {}
+added: '2026-11-11'
+evidence: Here we present single-cell population level integration (scPoli), an open-world learner that incorporates generative
+  models to learn sample and cell representations for data integration, label transfer and reference mapping.

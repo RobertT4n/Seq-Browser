@@ -1,0 +1,21 @@
+name: cell2location
+category: dry
+summary: Bayesian model that maps fine-grained cell types in spatial transcriptomic data by integrating single-cell reference
+  profiles.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-01139-4
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Kleshchevnikov V
+  last_author: Bayraktar OA
+  pmid: '35027729'
+  title: Cell2location maps fine-grained cell types in spatial transcriptomics
+links: {}
+added: '2026-11-11'
+evidence: Here we present сell2location, a Bayesian model that can resolve fine-grained cell types in spatial transcriptomic
+  data and create comprehensive cellular maps of diverse tissues.

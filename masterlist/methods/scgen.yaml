@@ -1,0 +1,23 @@
+name: scGen
+category: dry
+summary: VAE with latent-space vector arithmetic that predicts single-cell perturbation and infection responses.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+- mouse
+reference:
+  doi: 10.1038/s41592-019-0494-8
+  year: 2019
+  journal: Nat Methods
+  first_author: Lotfollahi M
+  last_author: Theis FJ
+  pmid: '31363220'
+  title: scGen predicts single-cell perturbation responses
+links: {}
+added: '2026-11-11'
+evidence: Here, we present scGen (https://github.com/theislab/scgen), a model combining variational autoencoders and latent
+  space vector arithmetics for high-dimensional single-cell gene expression data.

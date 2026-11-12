@@ -1,0 +1,24 @@
+name: scMoMaT
+category: dry
+summary: Matrix tri-factorization method for mosaic integration of single-cell multi-omics that also reports cluster-specific
+  multi-modal bio-markers.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-36066-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhang Z
+  last_author: Zhang X
+  pmid: '36693837'
+  pmcid: PMC9873790
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+links: {}
+added: '2026-11-11'
+evidence: We propose scMoMaT, a method that is able to integrate single cell multi-omics data under the mosaic integration
+  scenario using matrix tri-factorization.

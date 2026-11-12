@@ -1,0 +1,20 @@
+name: CellHermes
+category: dry
+summary: Biological language model built on LLMs that integrates transcriptomic and PPI-network data as question-answer pairs
+  for representation, prediction and explanation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.11.07.687322
+  year: 2025
+  journal: bioRxiv
+  first_author: Gao Y
+  last_author: Liu Q
+  title: 'Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes'
+links: {}
+added: '2026-11-11'
+evidence: Here we present CellHermes, a biological language model that leverages pretrained large language models (LLMs) to
+  integrate multimodal forms of omics data

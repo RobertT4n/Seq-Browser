@@ -1,0 +1,24 @@
+name: Clifti-GPT
+category: dry
+summary: Privacy-preserving federated framework that fine-tunes and runs scGPT-based inference via secure multi-party computation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13040-026-00582-w
+  year: 2026
+  journal: BioData Min
+  first_author: Bakhtiari M
+  last_author: Baumbach J
+  pmid: '42557585'
+  pmcid: PMC13445909
+  title: 'Clifti-GPT: privacy-preserving federated fine-tuning and transferable inference of foundation models on clinical
+    single-cell data'
+links: {}
+added: '2026-11-11'
+evidence: We introduce Clifti-GPT, a privacy-preserving federated framework based on secure multi-party computation (SMPC)
+  that enables collaborative model training and transferable inference, where zero-shot predictions are performed across decentralized
+  clinical repositories by securely aggregating local statistics rather than transferring data embeddings, without sharing
+  patient data, clinical-level statistics, or models.

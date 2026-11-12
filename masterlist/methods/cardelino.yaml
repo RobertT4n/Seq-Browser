@@ -1,0 +1,22 @@
+name: cardelino
+category: dry
+summary: Computational method inferring clonal tree and clone of origin of single cells from scRNA-seq variant alleles integrated
+  with exome-derived trees.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-0766-3
+  year: 2020
+  journal: Nat Methods
+  first_author: McCarthy DJ
+  last_author: Teichmann SA
+  pmid: '32203388'
+  title: 'Cardelino: computational integration of somatic clonal substructure and single-cell transcriptomes'
+links: {}
+added: '2026-11-11'
+evidence: a computational method for inferring the clonal tree configuration and the clone of origin of individual cells assayed
+  using single-cell RNA-seq (scRNA-seq)

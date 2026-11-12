@@ -1,0 +1,20 @@
+name: SpatialDE
+category: dry
+summary: Statistical test that identifies genes with spatial expression patterns from spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4636
+  year: 2018
+  journal: Nat Methods
+  first_author: Svensson V
+  last_author: Stegle O
+  pmid: '29553579'
+  pmcid: PMC6350895
+  title: 'SpatialDE: identification of spatially variable genes'
+links: {}
+added: '2026-11-11'
+evidence: Here we describe SpatialDE, a statistical test to identify genes with spatial patterns of expression variation

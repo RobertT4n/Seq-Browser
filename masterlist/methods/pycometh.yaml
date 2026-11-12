@@ -1,0 +1,21 @@
+name: pycoMeth
+category: dry
+summary: Toolbox for storing (MetH5) and differentially testing DNA methylation calls from Nanopore reads.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02917-w
+  year: 2023
+  journal: Genome Biol
+  first_author: Snajder R
+  last_author: Bonder MJ
+  pmid: '37081487'
+  pmcid: PMC10120131
+  title: 'pycoMeth: a toolbox for differential methylation testing from Nanopore methylation calls'
+links: {}
+added: '2026-11-11'
+evidence: We present pycoMeth, a toolbox to store, manage and analyze DNA methylation calls from long-read sequencing data
+  obtained using the Oxford Nanopore Technologies sequencing platform.

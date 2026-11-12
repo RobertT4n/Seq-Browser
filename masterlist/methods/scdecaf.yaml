@@ -1,0 +1,19 @@
+name: scDECAF
+category: dry
+summary: Statistical learning algorithm (scDECAF) using gene-set vector representations to annotate cell types and programs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.08.556842
+  year: 2023
+  journal: bioRxiv
+  first_author: Hediyeh-zadeh S
+  last_author: Davis MJ
+  title: Identification of cell types, states and programs by learning gene set representations
+links: {}
+added: '2026-11-11'
+evidence: Here we present scDECAF, a statistical learning algorithm to identify cell types, states and programs in single-cell
+  gene expression data

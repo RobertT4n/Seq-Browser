@@ -1,0 +1,22 @@
+name: mvTCR
+category: dry
+summary: Multimodal generative model that fuses transcriptome and TCR sequences into a shared single-cell representation.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-49806-9
+  year: 2024
+  journal: Nat Commun
+  first_author: Drost F
+  last_author: Schubert B
+  pmid: '38956082'
+  pmcid: PMC11220149
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+links: {}
+added: '2026-11-11'
+evidence: we develop the multimodal generative model mvTCR to fuse modality-specific information across transcriptome and
+  TCR into a shared representation

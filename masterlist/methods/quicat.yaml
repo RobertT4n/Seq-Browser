@@ -1,0 +1,24 @@
+name: QuiCAT
+full_name: Quick Clonal Analysis Toolkit
+category: dry
+summary: Python framework for extracting, clustering and mapping synthetic lineage tags from sequencing data.
+readouts:
+- lineage
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaf607
+  year: 2025
+  journal: Bioinformatics
+  first_author: Lucarelli D
+  last_author: Theis FJ
+  pmid: '41217759'
+  pmcid: PMC12684725
+  title: 'QuiCAT: a scalable and flexible framework for mapping synthetic sequences'
+links: {}
+added: '2026-11-11'
+evidence: we developed Quick Clonal Analysis Toolkit (QuiCAT), an end-to-end Python-based package that streamlines the extraction,
+  clustering, and analysis of synthetic tags from sequencing data

@@ -1,0 +1,20 @@
+name: CellRank
+category: dry
+summary: Single-cell fate mapping that combines trajectory inference with RNA velocity to predict fate probabilities.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01346-6
+  year: 2022
+  journal: Nat Methods
+  first_author: Lange M
+  last_author: Theis FJ
+  pmid: '35027767'
+  pmcid: PMC8828480
+  title: CellRank for directed single-cell fate mapping
+links: {}
+added: '2026-11-11'
+evidence: Here, we present CellRank

@@ -1,0 +1,23 @@
+name: drug2cell
+category: dry
+summary: Druggable target prediction tool that combines single-cell profiles with drug-target interactions to score drug effects
+  per cell type.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-023-06311-1
+  year: 2023
+  journal: Nature
+  first_author: Kanemaru K
+  last_author: Teichmann SA
+  pmid: '37438528'
+  pmcid: PMC10371870
+  title: Spatially resolved multiomics of human cardiac niches
+  preprint_doi: 10.1101/2023.01.30.526202
+links: {}
+added: '2026-11-11'
+evidence: We introduce a druggable target prediction tool, drug2cell, which leverages single-cell profiles and drug-target
+  interactions

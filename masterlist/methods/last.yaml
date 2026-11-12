@@ -1,0 +1,30 @@
+name: LaST
+full_name: large-area spatial transcriptomic
+category: wet
+summary: Large-area in situ single-cell spatial transcriptomic map quantifying gene expression across mouse and human cortex
+  by in situ detection.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+partition_unknown: not stated in the abstract
+species:
+- mouse
+- human
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s41593-020-0602-1
+  year: 2020
+  journal: Nat Neurosci
+  first_author: Bayraktar OA
+  last_author: Rowitch DH
+  pmid: '32203496'
+  pmcid: PMC7116562
+  title: Astrocyte layers in the mammalian cerebral cortex revealed by a single-cell in situ transcriptomic map
+links: {}
+added: '2026-11-11'
+evidence: we developed a high-content pipeline, the large-area spatial transcriptomic (LaST) map, which can quantify single-cell
+  gene expression in situ

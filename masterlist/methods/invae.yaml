@@ -1,0 +1,18 @@
+name: inVAE
+category: dry
+summary: Conditionally invariant VAE that separates biological from technical variation for single-cell reference mapping.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.06.627196
+  year: 2024
+  journal: bioRxiv
+  first_author: Aliee H
+  last_author: Theis FJ
+  title: 'inVAE: Conditionally invariant representation learning for generating multivariate single-cell reference maps'
+links: {}
+added: '2026-11-11'
+evidence: a conditionally invariant deep generative model based on variational autoencoders

@@ -1,0 +1,23 @@
+name: IFC-seq
+full_name: imaging flow cytometry (IFC) gene expression prediction
+category: dry
+summary: Machine-learning method (IFC-seq) that predicts per-cell gene expression for imaging flow cytometry data from a transcriptomics
+  reference.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa926
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Chlis NK
+  last_author: Theis FJ
+  pmid: '33119742'
+  pmcid: PMC7672460
+  title: Predicting single-cell gene expression profiles of imaging flow cytometry data with machine learning
+links: {}
+added: '2026-11-11'
+evidence: We introduce IFC-seq, a machine learning methodology for predicting the expression profile of every cell in an imaging
+  flow cytometry experiment

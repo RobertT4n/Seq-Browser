@@ -1,0 +1,22 @@
+name: scLVM
+full_name: single-cell latent variable model
+category: dry
+summary: Latent variable model that accounts for hidden factors such as cell cycle to reveal scRNA-seq subpopulations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3102
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Buettner F
+  last_author: Stegle O
+  pmid: '25599176'
+  title: Computational analysis of cell-to-cell heterogeneity in single-cell RNA-sequencing data reveals hidden subpopulations
+    of cells
+links: {}
+added: '2026-11-11'
+evidence: We show that our single-cell latent variable model (scLVM) allows the identification of otherwise undetectable subpopulations
+  of cells that correspond to different stages during the differentiation of naive T cells into T helper 2 cells.

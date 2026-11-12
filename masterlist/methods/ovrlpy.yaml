@@ -1,0 +1,21 @@
+name: ovrlpy
+category: dry
+summary: Computational tool that uses 3D transcript localisation to flag overlapping cells, tissue folds and bad segmentation
+  in imaging-based spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-026-03004-8
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Tiesmeyer S
+  last_author: Ishaque N
+  pmid: '41667711'
+  title: Identifying 3D signal overlaps in spatial transcriptomics data with ovrlpy
+links: {}
+added: '2026-11-11'
+evidence: Here we present a computational tool called ovrlpy that identifies overlapping cells, tissue folds and inaccurate
+  cell segmentation by analyzing transcript localization in three dimensions.

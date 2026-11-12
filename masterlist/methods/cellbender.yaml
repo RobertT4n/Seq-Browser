@@ -1,0 +1,19 @@
+name: CellBender
+category: dry
+summary: Deep generative model that removes systematic background noise from droplet-based single-cell RNA data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-01943-7
+  year: 2023
+  journal: Nat Methods
+  first_author: Fleming SJ
+  last_author: Babadi M
+  pmid: '37550580'
+  title: Unsupervised removal of systematic background noise from droplet-based single-cell experiments using CellBender
+links: {}
+added: '2026-11-11'
+evidence: Here we develop a deep generative model based on the phenomenology of noise generation in droplet-based assays.

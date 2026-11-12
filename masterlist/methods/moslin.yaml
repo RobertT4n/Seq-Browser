@@ -1,0 +1,25 @@
+name: moslin
+category: dry
+summary: Fused Gromov-Wasserstein model that couples single cells across time points using lineage and gene expression.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- invertebrate
+- other-vertebrate
+reference:
+  doi: 10.1186/s13059-024-03422-4
+  year: 2024
+  journal: Genome Biol
+  first_author: Lange M
+  last_author: Nitzan M
+  pmid: '39434128'
+  pmcid: PMC11492637
+  title: Mapping lineage-traced cells across time points with moslin
+links: {}
+added: '2026-11-11'
+evidence: we present moslin, a Gromov-Wasserstein-based model to couple cellular profiles across time points based on lineage
+  and gene expression information

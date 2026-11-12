@@ -1,0 +1,22 @@
+name: MetaMap
+category: dry
+summary: Pipeline re-inspecting non-human RNA-seq reads for microbial and viral transcripts across public disease datasets.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giy070
+  year: 2018
+  journal: Gigascience
+  first_author: Simon LM
+  last_author: Theis FJ
+  pmid: '29901703'
+  pmcid: PMC6025204
+  title: 'MetaMap: an atlas of metatranscriptomic reads in human disease-related RNA-seq data'
+links: {}
+added: '2026-11-11'
+evidence: We developed a bioinformatic pipeline to screen existing human RNA-seq datasets for the presence of microbial and
+  viral reads by re-inspecting the non-human-mapping read fraction.

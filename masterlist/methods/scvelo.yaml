@@ -1,0 +1,20 @@
+name: scVelo
+category: dry
+summary: Likelihood-based dynamical model of splicing kinetics that generalises RNA velocity to transient cell states.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-020-0591-3
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Bergen V
+  last_author: Theis FJ
+  pmid: '32747759'
+  title: Generalizing RNA velocity to transient cell states through dynamical modeling
+links: {}
+added: '2026-11-11'
+evidence: Here we present scVelo, a method that overcomes these limitations by solving the full transcriptional dynamics of
+  splicing kinetics using a likelihood-based dynamical model.

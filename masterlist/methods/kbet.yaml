@@ -1,0 +1,21 @@
+name: kBET
+full_name: k-nearest neighbour batch effect test
+category: dry
+summary: Quantitative k-nearest-neighbour test of batch effects in single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0254-1
+  year: 2019
+  journal: Nat Methods
+  first_author: Büttner M
+  last_author: Theis FJ
+  pmid: '30573817'
+  title: A test metric for assessing single-cell RNA-seq batch correction
+  preprint_doi: 10.1101/200345
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a k-nearest neighbour batch effect test (kBET,

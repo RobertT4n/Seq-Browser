@@ -1,0 +1,24 @@
+name: BraCeR
+full_name: Reconstruction of B-cell receptor sequences and clonality inference from single-cell RNA-sequencing
+category: dry
+summary: Reconstructs paired full-length B-cell receptor sequences and infers clonality from scRNA-seq data.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0082-3
+  year: 2018
+  journal: Nat Methods
+  first_author: Lindeman I
+  last_author: Stubbington MJT
+  pmid: '30065371'
+  title: 'BraCeR: B-cell-receptor reconstruction and clonality inference from single-cell RNA-seq'
+  preprint_doi: 10.1101/185504
+links: {}
+added: '2026-11-11'
+evidence: Here we report BraCeR (freely available at  https://github.com/teichlab/bracer/ ), an extension of TraCeR [1], for
+  reconstruction of paired full-length B-cell receptor sequences and inference of clonality from scRNA-seq data (  Supplementary
+  Note 1 ).

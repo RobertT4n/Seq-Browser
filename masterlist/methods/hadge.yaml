@@ -1,0 +1,23 @@
+name: hadge
+full_name: hashing deconvolution combined with genotype information
+category: dry
+summary: Nextflow pipeline (hadge) combining hashing and genotype-based methods to deconvolve donors in multiplexed single-cell
+  data.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03249-z
+  year: 2024
+  journal: Genome Biol
+  first_author: Curion F
+  last_author: Theis FJ
+  pmid: '38671451'
+  pmcid: PMC11055383
+  title: 'hadge: a comprehensive pipeline for donor deconvolution in single-cell studies'
+links: {}
+added: '2026-11-11'
+evidence: We develop hadge (hashing deconvolution combined with genotype information), a Nextflow pipeline

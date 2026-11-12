@@ -1,0 +1,20 @@
+name: simiRa
+category: dry
+summary: Tool comparing enriched functional categories of microRNA and RBP CLIP-seq target sets to infer cooperation.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1080/15476286.2015.1068496
+  year: 2015
+  journal: RNA Biol
+  first_author: Preusse M
+  last_author: Theis F
+  pmid: '26383775'
+  pmcid: PMC4615630
+  title: 'SimiRa: A tool to identify coregulation between microRNAs and RNA-binding proteins'
+links: {}
+added: '2026-11-11'
+evidence: we developed simiRa, a tool that compares enriched functional categories such as pathways and GO terms

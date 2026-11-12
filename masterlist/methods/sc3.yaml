@@ -1,0 +1,21 @@
+name: SC3
+full_name: single-cell consensus clustering
+category: dry
+summary: Consensus clustering tool for scRNA-seq that combines multiple clustering solutions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4236
+  year: 2017
+  journal: Nat Methods
+  first_author: Kiselev VY
+  last_author: Hemberg M
+  pmid: '28346451'
+  pmcid: PMC5410170
+  title: 'SC3: consensus clustering of single-cell RNA-seq data'
+links: {}
+added: '2026-11-11'
+evidence: We present single-cell consensus clustering (SC3), a user-friendly tool for unsupervised clustering

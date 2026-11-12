@@ -1,0 +1,20 @@
+name: scCausalVI
+category: dry
+summary: Causality-aware generative model (scCausalVI) separating intrinsic cell states from treatment effects in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2025.101443
+  year: 2025
+  journal: Cell Syst
+  first_author: An S
+  last_author: Wan L
+  pmid: '41197632'
+  pmcid: PMC12616520
+  title: scCausalVI disentangles single-cell perturbation responses with causality-aware generative model
+links: {}
+added: '2026-11-11'
+evidence: Here, we present scCausalVI, a causality-aware generative model designed to disentangle these sources of variation

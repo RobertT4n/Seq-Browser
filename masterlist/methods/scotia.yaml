@@ -1,0 +1,23 @@
+name: SCOTIA
+full_name: spatially constrained optimal transport interaction analysis
+category: dry
+summary: Optimal-transport model of cell-cell ligand-receptor interactions using spatial distance and expression in spatial
+  transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01890-9
+  year: 2024
+  journal: Nat Genet
+  first_author: Shiau C
+  last_author: Hwang WL
+  pmid: '39227743'
+  pmcid: PMC11816915
+  title: Spatially resolved analysis of pancreatic cancer identifies therapy-associated remodeling of the tumor microenvironment
+links: {}
+added: '2026-11-11'
+evidence: We developed spatially constrained optimal transport interaction analysis (SCOTIA), an optimal transport model with
+  a cost function that includes both spatial distance and ligand-receptor gene expression.

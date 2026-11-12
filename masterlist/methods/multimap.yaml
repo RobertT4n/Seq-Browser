@@ -1,0 +1,23 @@
+name: MultiMAP
+category: dry
+summary: Dimensionality reduction and integration algorithm for multimodal single-cell and spatial datasets.
+readouts:
+- rna
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02565-y
+  year: 2021
+  journal: Genome Biol
+  first_author: Jain MS
+  last_author: Teichmann SA
+  pmid: '34930412'
+  pmcid: PMC8686224
+  title: 'MultiMAP: dimensionality reduction and integration of multimodal data'
+links: {}
+added: '2026-11-11'
+evidence: We introduce MultiMAP, a novel algorithm for dimensionality reduction and integration.

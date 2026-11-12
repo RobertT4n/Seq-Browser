@@ -1,0 +1,21 @@
+name: CellDISECT
+category: dry
+summary: Mixture-of-experts variational autoencoder that disentangles multi-covariate single-cell expression and predicts
+  counterfactual responses.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.06.03.657578
+  year: 2025
+  journal: bioRxiv
+  first_author: Megas S
+  last_author: Lotfollahi M
+  title: Integrating multi-covariate disentanglement with counterfactual analysis on synthetic data enables cell type discovery
+    and counterfactual predictions
+links: {}
+added: '2026-11-11'
+evidence: We present CellDISECT, a novel method combining disentangled representations and causal inference for multi-batch,
+  multi-covariate single-cell data analysis.

@@ -1,0 +1,21 @@
+name: DeepCpG
+category: dry
+summary: Deep neural network that predicts missing CpG methylation states in single cells from sequence context.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1189-z
+  year: 2017
+  journal: Genome Biol
+  first_author: Angermueller C
+  last_author: Stegle O
+  pmid: '28395661'
+  pmcid: PMC5387360
+  title: 'DeepCpG: accurate prediction of single-cell DNA methylation states using deep learning'
+links: {}
+added: '2026-11-11'
+evidence: We report DeepCpG, a computational approach based on deep neural networks to predict methylation states in single
+  cells.

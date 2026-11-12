@@ -1,0 +1,34 @@
+name: NTVE
+full_name: non-destructive transcriptomics by vesicular export
+category: wet
+summary: Live-cell method that packages stabilised RNA reporter barcodes and endogenous transcripts into virus-like particles
+  for repeated sequencing of RNA expression over time.
+readouts:
+- rna
+resolution:
+- bulk
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- live-cells
+validated_system:
+- cell-line
+species:
+- human
+- mouse
+reference:
+  doi: 10.1038/s41467-026-72072-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Armbrust N
+  last_author: Westmeyer GG
+  pmid: '42034633'
+  pmcid: PMC13121718
+  title: Non-destructive transcriptomics via vesicular export
+links: {}
+added: '2026-11-11'
+evidence: Here, we present non-destructive transcriptomics by vesicular export (NTVE), a platform for multi-time-point monitoring
+  of RNA expression dynamics in living cells

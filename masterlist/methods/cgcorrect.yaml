@@ -1,0 +1,20 @@
+name: cgCorrect
+category: dry
+summary: Statistical framework that corrects cell-size (cell-growth) confounding in single-cell transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1088/1478-3975/aa609a
+  year: 2017
+  journal: Phys Biol
+  first_author: Blasi T
+  last_author: Theis FJ
+  pmid: '28198357'
+  title: 'cgCorrect: a method to correct for confounding cell-cell variation due to cell growth in single-cell transcriptomics'
+links: {}
+added: '2026-11-11'
+evidence: We present cgCorrect, a statistical framework to correct for differences in cell size that are due to cell growth
+  in single-cell transcriptomics data.

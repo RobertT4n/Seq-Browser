@@ -1,0 +1,20 @@
+name: souporcell
+category: dry
+summary: Genotype-based clustering of scRNA-seq cells with doublet and ambient-RNA estimation, without reference genotypes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-0820-1
+  year: 2020
+  journal: Nat Methods
+  first_author: Heaton H
+  last_author: Lawniczak MKN
+  pmid: '32366989'
+  pmcid: PMC7617080
+  title: 'Souporcell: robust clustering of single-cell RNA-seq data by genotype without reference genotypes'
+links: {}
+added: '2026-11-11'
+evidence: Here we develop souporcell, a method to cluster cells using the genetic variants detected within the scRNA-seq reads.

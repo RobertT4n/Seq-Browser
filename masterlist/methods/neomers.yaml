@@ -1,0 +1,23 @@
+name: neomers
+category: dry
+summary: Neomer-based cfDNA classifier that detects cancer from tumour-specific 13-17 nt sequences absent from healthy genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s43856-025-01067-3
+  year: 2025
+  journal: Commun Med (Lond)
+  first_author: Georgakopoulos-Soares I
+  last_author: Ahituv N
+  pmid: '40841759'
+  pmcid: PMC12371106
+  title: Leveraging sequences missing from the human genome to diagnose cancer
+links: {}
+added: '2026-11-11'
+evidence: we developed a prediction model based on neomers, DNA sequences 13-17 nucleotides in length that are predominantly
+  absent from the genomes of healthy individuals

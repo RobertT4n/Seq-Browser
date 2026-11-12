@@ -1,0 +1,21 @@
+name: StabMap
+category: dry
+summary: Mosaic single-cell data integration that maps cells via shortest paths on a topology inferred from shared features.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01766-z
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Ghazanfar S
+  last_author: Marioni JC
+  pmid: '37231260'
+  pmcid: PMC10869270
+  title: Stabilized mosaic single-cell data integration using unshared features
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce StabMap, a mosaic data integration technique that stabilizes mapping of single-cell data by exploiting
+  the non-overlapping features.

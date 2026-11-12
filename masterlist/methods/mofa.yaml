@@ -1,0 +1,24 @@
+name: MOFA
+full_name: Multi-Omics Factor Analysis
+category: dry
+summary: Factor-analysis framework for unsupervised integration of multi-omics data sets including mutations, RNA and methylation.
+readouts:
+- rna
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.20178124
+  year: 2018
+  journal: Mol Syst Biol
+  first_author: Argelaguet R
+  last_author: Stegle O
+  pmid: '29925568'
+  pmcid: PMC6010767
+  title: Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics data sets
+links: {}
+added: '2026-11-11'
+evidence: We present Multi-Omics Factor Analysis (MOFA), a computational method for discovering the principal sources of variation
+  in multi-omics data sets

@@ -1,0 +1,23 @@
+name: RegVelo
+category: dry
+summary: Deep learning model that jointly learns splicing kinetics and gene regulatory relationships for RNA velocity and
+  in silico perturbation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2026.04.022
+  year: 2026
+  journal: Cell
+  first_author: Wang W
+  last_author: Theis FJ
+  pmid: '42119563'
+  title: 'RegVelo: Gene-regulatory-informed dynamics of single cells'
+  preprint_doi: 10.1101/2024.12.11.627935
+links: {}
+added: '2026-11-11'
+evidence: To integrate these two currently disconnected fields, we present RegVelo, an end-to-end dynamic, interpretable,
+  and actionable deep learning model that learns a joint model of splicing kinetics and gene regulatory relationships and
+  allows us to perform in silico perturbation predictions.

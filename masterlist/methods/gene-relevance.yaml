@@ -1,0 +1,22 @@
+name: gene relevance
+category: dry
+summary: Local and global gene relevance scores that identify genes driving positions in nonlinear low-dimensional scRNA-seq
+  embeddings.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa198
+  year: 2020
+  journal: Bioinformatics
+  first_author: Angerer P
+  last_author: Marr C
+  pmid: '32207520'
+  pmcid: PMC7520047
+  title: Automatic identification of relevant genes from low-dimensional embeddings of single-cell RNA-seq data
+links: {}
+added: '2026-11-11'
+evidence: In this article, we introduce the concepts of local and global gene relevance to compute an equivalent of principal
+  component analysis loadings for non-linear low-dimensional embeddings.

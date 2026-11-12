@@ -1,0 +1,22 @@
+name: CPA
+full_name: compositional perturbation autoencoder
+category: dry
+summary: Compositional autoencoder predicting single-cell transcriptional responses to unseen perturbation combinations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.202211517
+  year: 2023
+  journal: Mol Syst Biol
+  first_author: Lotfollahi M
+  last_author: Theis FJ
+  pmid: '37154091'
+  pmcid: PMC10258562
+  title: Predicting cellular responses to complex perturbations in high-throughput screens
+links: {}
+added: '2026-11-11'
+evidence: CPA learns to in silico predict transcriptional perturbation response at the single-cell level for unseen dosages,
+  cell types, time points, and species.

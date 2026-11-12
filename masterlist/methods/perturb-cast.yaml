@@ -1,0 +1,31 @@
+name: PERTURB-CAST
+category: wet
+summary: In vivo perturbation mapping on Visium spatial transcriptomics using RNA-templated ligation probes, read out with
+  transcriptome-wide phenotyping in the same section.
+readouts:
+- functional-screen
+- rna
+resolution:
+- spatial
+reference:
+  doi: 10.1038/s41551-025-01437-1
+  year: 2026
+  journal: Nat Biomed Eng
+  first_author: Breinig M
+  last_author: Tschaharganeh DF
+  pmid: '40721510'
+  pmcid: PMC12823398
+  title: Integrated in vivo combinatorial functional genomics and spatial transcriptomics of tumours to decode genotype-to-phenotype
+    relationships
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+scope: genome-wide
+chemistry:
+- oligo-capture
+- spatial-barcode-array
+- reverse-transcription
+links: {}
+added: '2026-11-11'
+evidence: we developed PERTURB-CAST, a method to streamline the identification of perturbations at the tissue level

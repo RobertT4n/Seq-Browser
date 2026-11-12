@@ -1,0 +1,22 @@
+name: Panpipes
+category: dry
+summary: Workflow suite for multimodal single-cell and spatial transcriptomic QC, integration and reference mapping.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.11.532085
+  year: 2023
+  journal: bioRxiv
+  first_author: Curion F
+  last_author: Dendrou CA
+  title: 'Panpipes: a pipeline for multiomic single-cell and spatial transcriptomic data analysis'
+links: {}
+added: '2026-11-11'
+evidence: Here, we present Panpipes, a set of computational workflows designed to automate multimodal single-cell and spatial
+  transcriptomic analyses

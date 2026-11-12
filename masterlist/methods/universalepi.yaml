@@ -1,0 +1,22 @@
+name: UniversalEPI
+category: dry
+summary: Attention-based deep ensemble predicting enhancer-promoter interactions from DNA sequence and ATAC-seq.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag485
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Grover A
+  last_author: Boeva V
+  pmid: '42165138'
+  pmcid: PMC13191297
+  title: 'UniversalEPI: robust prediction of cell type-specific and differential chromatin interactions from DNA sequence
+    and chromatin accessibility'
+links: {}
+added: '2026-11-11'
+evidence: We developed and validated UniversalEPI, an attention-based deep ensemble model that predicts EPIs up to 2 Mb apart
+  using only DNA sequence and chromatin accessibility (ATAC-seq) data.

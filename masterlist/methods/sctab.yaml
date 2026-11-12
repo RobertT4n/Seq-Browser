@@ -1,0 +1,20 @@
+name: scTab
+category: dry
+summary: Tabular neural-network model for automated cell-type annotation of scRNA-seq data across tissues.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-51059-5
+  year: 2024
+  journal: Nat Commun
+  first_author: Fischer F
+  last_author: Theis FJ
+  pmid: '39098889'
+  pmcid: PMC11298532
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+links: {}
+added: '2026-11-11'
+evidence: Here, we propose scTab, an automated cell type prediction model specific to tabular data

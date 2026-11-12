@@ -1,0 +1,22 @@
+name: scooby
+category: dry
+summary: Sequence-to-profile model that predicts single-cell RNA coverage and ATAC insertion tracks using a cell-specific
+  decoder on Borzoi.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02854-5
+  year: 2025
+  journal: Nat Methods
+  first_author: Hingerl JC
+  last_author: Gagneur J
+  pmid: '41125796'
+  pmcid: PMC12615262
+  title: 'scooby: modeling multimodal genomic profiles from DNA sequence at single-cell resolution'
+links: {}
+added: '2026-11-11'
+evidence: Here, we introduce scooby, a framework to model genomic profiles of single-cell RNA-sequencing coverage

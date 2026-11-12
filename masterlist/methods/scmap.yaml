@@ -1,0 +1,20 @@
+name: scmap
+category: dry
+summary: Method for projecting cells from one scRNA-seq dataset onto cell types or individual cells of another.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4644
+  year: 2018
+  journal: Nat Methods
+  first_author: Kiselev VY
+  last_author: Hemberg M
+  pmid: '29608555'
+  title: 'scmap: projection of single-cell RNA-seq data across data sets'
+links: {}
+added: '2026-11-11'
+evidence: Here we present scmap (http://bioconductor.org/packages/scmap; web version at http://www.sanger.ac.uk/science/tools/scmap),
+  a method for projecting cells from an scRNA-seq data set onto cell types or individual cells from other experiments.

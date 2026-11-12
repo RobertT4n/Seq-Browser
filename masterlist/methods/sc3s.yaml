@@ -1,0 +1,20 @@
+name: SC3s
+category: dry
+summary: Streaming k-means based consensus clustering that scales single-cell clustering to millions of cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05085-z
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Quah FX
+  last_author: Hemberg M
+  pmid: '36503522'
+  pmcid: PMC9743492
+  title: 'SC3s: efficient scaling of single cell consensus clustering to millions of cells'
+links: {}
+added: '2026-11-11'
+evidence: Here, we present a highly efficient k-means based approach

@@ -1,0 +1,19 @@
+name: SageNet
+category: dry
+summary: Graph neural network that spatially reconstructs dissociated single-cell data using spatial references.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.04.14.488419
+  year: 2022
+  journal: bioRxiv
+  first_author: Heidari E
+  last_author: Ghazanfar S
+  title: Supervised spatial inference of dissociated single-cell data with SageNet
+links: {}
+added: '2026-11-11'
+evidence: To address this challenge, we developed SageNet, a graph neural network approach that spatially reconstructs dissociated
+  single cell data using one or more spatial references.

@@ -1,0 +1,21 @@
+name: FedscGen
+category: dry
+summary: Federated scRNA-seq batch-effect correction built on scGen with secure multiparty computation and a FeatureCloud
+  app.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03684-6
+  year: 2025
+  journal: Genome Biol
+  first_author: Bakhtiari M
+  last_author: Baumbach J
+  pmid: '40696440'
+  pmcid: PMC12285155
+  title: 'FedscGen: privacy-preserving federated batch effect correction of single-cell RNA sequencing data'
+links: {}
+added: '2026-11-11'
+evidence: We present FedscGen, a privacy-preserving communication-efficient federated method built upon the scGen model

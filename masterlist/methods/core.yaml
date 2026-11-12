@@ -1,0 +1,21 @@
+name: CoRe
+category: dry
+summary: R package identifying core-fitness genes from joint analysis of multiple pooled CRISPR-Cas9 screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-021-08129-5
+  year: 2021
+  journal: BMC Genomics
+  first_author: Vinceti A
+  last_author: Iorio F
+  pmid: '34789150'
+  pmcid: PMC8597285
+  title: 'CoRe: a robustly benchmarked R package for identifying core-fitness genes in genome-wide pooled CRISPR-Cas9 screens'
+links: {}
+added: '2026-11-11'
+evidence: 'We have developed CoRe: an R package implementing existing and novel methods for the identification of core-fitness
+  genes'

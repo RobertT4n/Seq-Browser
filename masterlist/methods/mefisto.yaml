@@ -1,0 +1,24 @@
+name: MEFISTO
+category: dry
+summary: Factor-analysis toolbox for multimodal data in which samples have known spatial or temporal dependencies.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01343-9
+  year: 2022
+  journal: Nat Methods
+  first_author: Velten B
+  last_author: Stegle O
+  pmid: '35027765'
+  pmcid: PMC8828471
+  title: Identifying temporal and spatial patterns of variation from multimodal data using MEFISTO
+links: {}
+added: '2026-11-11'
+evidence: Here we present MEFISTO, a flexible and versatile toolbox for modeling high-dimensional data when spatial or temporal
+  dependencies between the samples are known.

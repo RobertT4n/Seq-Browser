@@ -1,0 +1,20 @@
+name: DPT
+full_name: Diffusion pseudotime
+category: dry
+summary: Diffusion random-walk pseudotime estimator for ordering differentiating cells and detecting branch points.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3971
+  year: 2016
+  journal: Nat Methods
+  first_author: Haghverdi L
+  last_author: Theis FJ
+  pmid: '27571553'
+  title: Diffusion pseudotime robustly reconstructs lineage branching
+links: {}
+added: '2026-11-11'
+evidence: We describe an efficient way to robustly estimate this order according to diffusion pseudotime (DPT)

@@ -1,0 +1,29 @@
+name: STEER-seq
+full_name: Single-cell Transgene Expression via Exchange Recombination sequencing
+category: wet
+summary: Virus-free Bxb1 recombinase-based pooled ORF screen with barcode tracking, read out by single-cell RNA and joint
+  chromatin accessibility sequencing.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.10.08.757551
+  year: 2026
+  journal: bioRxiv
+  first_author: Migliori V
+  last_author: Bassett AR
+  title: 'STEER-seq: a recombinase based platform for pooled multimodal single-cell perturbation screening'
+links: {}
+partition_unknown: not stated in the abstract
+added: '2026-11-11'
+evidence: We present STEER-seq (Single-cell Transgene Expression via Exchange Recombination sequencing), a virus-free platform
+  for pooled ORF gain-of-function screening in human induced pluripotent stem cells (hiPSCs).

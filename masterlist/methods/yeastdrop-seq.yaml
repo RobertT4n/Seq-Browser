@@ -1,0 +1,29 @@
+name: yeastDrop-Seq
+category: wet
+summary: Drop-seq variant optimised for yeast cells to count mRNA molecules per individual cell.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- microbe
+variant_of:
+- drop-seq
+reference:
+  doi: 10.1038/s42003-021-02320-w
+  year: 2021
+  journal: Commun Biol
+  first_author: Urbonaite G
+  last_author: Acar M
+  pmid: '34193958'
+  pmcid: PMC8245502
+  title: A yeast-optimized single-cell transcriptomics platform elucidates how mycophenolic acid and guanine alter global
+    mRNA levels
+links: {}
+added: '2026-11-11'
+evidence: Here we present yeastDrop-Seq, a yeast-optimized platform for quantifying the number of distinct mRNA molecules
+  in a cell-specific manner in individual yeast cells.

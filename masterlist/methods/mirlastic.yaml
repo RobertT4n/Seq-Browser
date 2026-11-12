@@ -1,0 +1,24 @@
+name: miRlastic
+category: dry
+summary: Elastic-net regression that infers miRNA-target interactions from matched miRNA and mRNA expression and annotates
+  target gene sets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms161226230
+  year: 2015
+  journal: Int J Mol Sci
+  first_author: Sass S
+  last_author: Theis FJ
+  pmid: '26694379'
+  pmcid: PMC4691172
+  title: MicroRNA-Target Network Inference and Local Network Enrichment Analysis Identify Two microRNA Clusters with Distinct
+    Functions in Head and Neck Squamous Cell Carcinoma
+links: {}
+added: '2026-11-11'
+evidence: We here present a novel method "miRlastic", which infers miRNA-target interactions using transcriptomic data as
+  well as prior knowledge and performs functional annotation of target genes by exploiting the local structure of the inferred
+  network.

@@ -1,0 +1,21 @@
+name: Milo
+category: dry
+summary: Differential abundance testing on single-cell data by assigning cells to overlapping kNN-graph neighbourhoods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-01033-z
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Dann E
+  last_author: Marioni JC
+  pmid: '34594043'
+  pmcid: PMC7617075
+  title: Differential abundance testing on single-cell data using k-nearest neighbor graphs
+links: {}
+added: '2026-11-11'
+evidence: Here we present Milo, a scalable statistical framework that performs differential abundance testing by assigning
+  cells to partially overlapping neighborhoods on a k-nearest neighbor graph.

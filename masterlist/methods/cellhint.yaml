@@ -1,0 +1,20 @@
+name: CellHint
+category: dry
+summary: Predictive clustering-tree tool that harmonises cell types and integrates scRNA-seq datasets across references.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2023.11.026
+  year: 2023
+  journal: Cell
+  first_author: Xu C
+  last_author: Teichmann SA
+  pmid: '38134877'
+  title: Automatic cell-type harmonization and integration across Human Cell Atlas datasets
+links: {}
+added: '2026-11-11'
+evidence: Here, we present CellHint, a predictive clustering tree-based tool to resolve cell-type differences in annotation
+  resolution and technical biases across datasets.

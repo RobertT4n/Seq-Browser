@@ -1,0 +1,21 @@
+name: BatchBench
+category: dry
+summary: Modular pipeline for comparing scRNA-seq batch-correction methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab004
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Chazarra-Gil R
+  last_author: Hemberg M
+  pmid: '33524142'
+  pmcid: PMC8053088
+  title: Flexible comparison of batch correction methods for single-cell RNA-seq using BatchBench
+links: {}
+added: '2026-11-11'
+evidence: Here, we present BatchBench (https://github.com/cellgeni/batchbench), a modular and flexible pipeline for comparing
+  batch correction methods for single-cell RNA-seq data.

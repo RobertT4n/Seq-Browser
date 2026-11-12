@@ -1,0 +1,23 @@
+name: multiDGD
+category: dry
+summary: Scalable deep generative model that learns joint representations of transcriptome and chromatin accessibility.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53340-z
+  year: 2024
+  journal: Nat Commun
+  first_author: Schuster V
+  last_author: Teichmann SA
+  pmid: '39567490'
+  pmcid: PMC11579284
+  title: 'multiDGD: A versatile deep generative model for multi-omics data'
+  preprint_doi: 10.1101/2023.08.23.554420
+links: {}
+added: '2026-11-11'
+evidence: We present multiDGD, a scalable deep generative model providing a probabilistic framework to learn shared representations
+  of transcriptome and chromatin accessibility.

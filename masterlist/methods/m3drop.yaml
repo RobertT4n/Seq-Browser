@@ -1,0 +1,20 @@
+name: M3Drop
+category: dry
+summary: R package for feature selection in scRNA-seq that uses dropout patterns to identify informative genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty1044
+  year: 2019
+  journal: Bioinformatics
+  first_author: Andrews TS
+  last_author: Hemberg M
+  pmid: '30590489'
+  pmcid: PMC6691329
+  title: 'M3Drop: dropout-based feature selection for scRNASeq'
+links: {}
+added: '2026-11-11'
+evidence: We present M3Drop, an R package that implements popular existing feature selection methods and two novel methods

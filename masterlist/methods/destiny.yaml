@@ -1,0 +1,19 @@
+name: destiny
+category: dry
+summary: R/Bioconductor diffusion-map package with a single-cell noise model and nearest-neighbour approximation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv715
+  year: 2016
+  journal: Bioinformatics
+  first_author: Angerer P
+  last_author: Buettner F
+  pmid: '26668002'
+  title: 'destiny: diffusion maps for large-scale single-cell data in R'
+links: {}
+added: '2026-11-11'
+evidence: Here we present destiny, an efficient R implementation of the diffusion map algorithm.

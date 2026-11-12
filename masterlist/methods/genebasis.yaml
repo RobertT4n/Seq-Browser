@@ -1,0 +1,20 @@
+name: geneBasis
+category: dry
+summary: Iterative unsupervised selection of targeted gene panels from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s13059-021-02548-z
+  year: 2021
+  journal: Genome Biol
+  first_author: Missarova A
+  last_author: Marioni JC
+  pmid: '34872616'
+  pmcid: PMC8650258
+  title: 'geneBasis: an iterative approach for unsupervised selection of targeted gene panels from scRNA-seq'
+links: {}
+added: '2026-11-11'
+evidence: We introduce an iterative approach, geneBasis, for selecting an optimal gene panel

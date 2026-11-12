@@ -1,0 +1,22 @@
+name: Dandelion
+category: dry
+summary: Computational pipeline for single-cell V(D)J (adaptive immune receptor) analysis with AIR feature space for differential
+  usage and pseudotime.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01734-7
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Suo C
+  last_author: Teichmann SA
+  pmid: '37055623'
+  pmcid: PMC10791579
+  title: Dandelion uses the single-cell adaptive immune receptor repertoire to explore lymphocyte developmental origins
+links: {}
+added: '2026-11-11'
+evidence: Here we introduce Dandelion, a computational pipeline for scVDJ-seq analysis.

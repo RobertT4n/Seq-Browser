@@ -1,0 +1,26 @@
+name: BANC-seq
+full_name: binding affinities to native chromatin by sequencing
+category: wet
+summary: Measures absolute transcription factor binding affinities across the genome by titrating a tagged factor on isolated
+  nuclei.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+input_sample:
+- nuclei
+reference:
+  doi: 10.1038/s41587-023-01715-w
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Neikes HK
+  last_author: Vermeulen M
+  pmid: '36973556'
+  title: Quantification of absolute transcription factor binding affinities in the native chromatin context using BANC-seq
+links: {}
+added: '2026-11-11'
+evidence: Here, we report a method called binding affinities to native chromatin by sequencing (BANC-seq) to determine absolute
+  apparent binding affinities of transcription factors to native DNA across the genome.

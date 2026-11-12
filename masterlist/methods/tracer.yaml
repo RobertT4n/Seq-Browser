@@ -1,0 +1,23 @@
+name: TraCeR
+category: dry
+summary: Computational reconstruction of full-length paired TCR sequences and clonal relationships from T-cell single-cell
+  RNA-seq.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3800
+  year: 2016
+  journal: Nat Methods
+  first_author: Stubbington MJT
+  last_author: Teichmann SA
+  pmid: '26950746'
+  pmcid: PMC4835021
+  title: T cell fate and clonality inference from single-cell transcriptomes
+links: {}
+added: '2026-11-11'
+evidence: We developed TraCeR, a computational method to reconstruct full-length, paired T cell receptor (TCR) sequences from
+  T lymphocyte single-cell RNA sequence data.
