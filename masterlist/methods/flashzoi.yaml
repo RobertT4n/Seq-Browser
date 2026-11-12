@@ -1,0 +1,23 @@
+name: Flashzoi
+category: dry
+summary: Borzoi variant that uses rotary positional encodings and FlashAttention-2 for over 3-fold faster training and inference
+  at similar accuracy.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- borzoi
+reference:
+  doi: 10.1093/bioinformatics/btaf467
+  year: 2025
+  journal: Bioinformatics
+  first_author: Hingerl JC
+  last_author: Gagneur J
+  pmid: '40905959'
+  pmcid: PMC12457734
+  title: 'Flashzoi: an enhanced Borzoi for accelerated genomic analysis.'
+links: {}
+added: '2026-11-12'
+evidence: We present Flashzoi, an enhanced Borzoi model that leverages rotary positional encodings and FlashAttention-2.

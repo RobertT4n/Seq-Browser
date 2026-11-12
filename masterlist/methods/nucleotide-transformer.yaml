@@ -1,0 +1,25 @@
+name: Nucleotide Transformer
+category: dry
+summary: Family of DNA foundation transformers (50 million to 2.5 billion parameters) pre-trained on human and other genomes
+  and fine-tuned for molecular phenotype prediction.
+readouts:
+- chromatin-accessibility
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02523-z
+  year: 2025
+  journal: Nat Methods
+  first_author: Dalla-Torre H
+  last_author: Pierrot T
+  pmid: '39609566'
+  pmcid: PMC11810778
+  title: 'Nucleotide Transformer: building and evaluating robust foundation models for human genomics.'
+links: {}
+added: '2026-11-12'
+evidence: Here, we present an extensive study of foundation models pre-trained on DNA sequences, named Nucleotide Transformer,
+  ranging from 50 million up to 2.5 billion parameters and integrating information from 3,202 human genomes and 850 genomes
+  from diverse species.

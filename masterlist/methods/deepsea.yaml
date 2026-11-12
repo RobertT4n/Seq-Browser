@@ -1,0 +1,25 @@
+name: DeepSEA
+category: dry
+summary: Deep learning model that learns a regulatory sequence code from chromatin-profiling data to predict chromatin effects
+  of single-nucleotide sequence changes.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3547
+  year: 2015
+  journal: Nat Methods
+  first_author: Zhou J
+  last_author: Troyanskaya OG
+  pmid: '26301843'
+  pmcid: PMC4768299
+  title: Predicting effects of noncoding variants with deep learning-based sequence model.
+links: {}
+added: '2026-11-12'
+evidence: To predict the noncoding-variant effects de novo from sequence, we developed a deep learning-based algorithmic framework,
+  DeepSEA (http://deepsea.princeton.edu/), that directly learns a regulatory sequence code from large-scale chromatin-profiling
+  data, enabling prediction of chromatin effects of sequence alterations with single-nucleotide sensitivity.

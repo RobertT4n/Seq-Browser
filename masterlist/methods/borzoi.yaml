@@ -1,0 +1,24 @@
+name: Borzoi
+category: dry
+summary: Deep learning model that predicts cell- and tissue-specific RNA-seq coverage from DNA sequence and scores variant
+  effects on transcription, splicing and polyadenylation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- enformer
+reference:
+  doi: 10.1038/s41588-024-02053-6
+  year: 2025
+  journal: Nat Genet
+  first_author: Linder J
+  last_author: Kelley DR
+  pmid: '39779956'
+  pmcid: PMC11985352
+  title: Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation.
+links: {}
+added: '2026-11-12'
+evidence: Here, we introduce Borzoi, a model that learns to predict cell-type-specific and tissue-specific RNA-seq coverage
+  from DNA sequence.

@@ -1,0 +1,22 @@
+name: Puffin
+category: dry
+summary: Explainable deep learning model that predicts base-pair resolution transcription initiation at human promoters from
+  sequence.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/science.adj0116
+  year: 2024
+  journal: Science
+  first_author: Dudnyk K
+  last_author: Zhou J
+  pmid: '38662817'
+  pmcid: PMC11223672
+  title: Sequence basis of transcription initiation in the human genome.
+links: {}
+added: '2026-11-12'
+evidence: By predicting transcription initiation at base-pair resolution from sequences with a deep learning-inspired explainable
+  model called Puffin, we show that a small set of simple rules can explain transcription initiation at most human promoters.

@@ -1,0 +1,20 @@
+name: Xpresso
+category: dry
+summary: Convolutional neural network that predicts steady-state mRNA levels from promoter sequence and mRNA-stability features.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2020.107663
+  year: 2020
+  journal: Cell Rep
+  first_author: Agarwal V
+  last_author: Shendure J
+  pmid: '32433972'
+  title: Predicting mRNA Abundance Directly from Genomic Sequence Using Deep Convolutional Neural Networks.
+links: {}
+added: '2026-11-12'
+evidence: This model, termed Xpresso, more than doubles the accuracy of alternative sequence-based models and isolates rules
+  as predictive as models relying on chromatic immunoprecipitation sequencing (ChIP-seq) data.

@@ -1,0 +1,22 @@
+name: DanQ
+category: dry
+summary: Hybrid convolutional and bidirectional LSTM network that predicts non-coding DNA function from sequence.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw226
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Quang D
+  last_author: Xie X
+  pmid: '27084946'
+  pmcid: PMC4914104
+  title: 'DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences.'
+links: {}
+added: '2026-11-12'
+evidence: To address this need, we propose DanQ, a novel hybrid convolutional and bi-directional long short-term memory recurrent
+  neural network framework for predicting non-coding function de novo from sequence.

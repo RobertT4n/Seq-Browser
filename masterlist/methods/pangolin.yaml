@@ -1,0 +1,21 @@
+name: Pangolin
+category: dry
+summary: Deep learning model that predicts splice site strength across tissues from DNA sequence and scores splicing effects
+  of variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02664-4
+  year: 2022
+  journal: Genome Biol
+  first_author: Zeng T
+  last_author: Li YI
+  pmid: '35449021'
+  pmcid: PMC9022248
+  title: Predicting RNA splicing from DNA sequence using Pangolin.
+links: {}
+added: '2026-11-12'
+evidence: Here, we present Pangolin, a deep learning model to predict splice site strength in multiple tissues.

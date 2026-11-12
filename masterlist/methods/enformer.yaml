@@ -1,0 +1,24 @@
+name: Enformer
+category: dry
+summary: Deep learning model that integrates sequence context up to 100 kb to predict gene expression and enhancer-promoter
+  interactions from DNA sequence.
+readouts:
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01252-x
+  year: 2021
+  journal: Nat Methods
+  first_author: Avsec Ž
+  last_author: Kelley DR
+  pmid: '34608324'
+  pmcid: PMC8490152
+  title: Effective gene expression prediction from sequence by integrating long-range interactions.
+links: {}
+added: '2026-11-12'
+evidence: Here, we report substantially improved gene expression prediction accuracy from DNA sequences through the use of
+  a deep learning architecture, called Enformer, that is able to integrate information from long-range interactions (up to
+  100 kb away) in the genome.

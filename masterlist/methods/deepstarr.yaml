@@ -1,0 +1,21 @@
+name: DeepSTARR
+category: dry
+summary: Deep learning model that predicts enhancer activity from DNA sequence in Drosophila S2 cells and supports de novo
+  enhancer design.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01048-5
+  year: 2022
+  journal: Nat Genet
+  first_author: de Almeida BP
+  last_author: Stark A
+  pmid: '35551305'
+  title: DeepSTARR predicts enhancer activity from DNA sequence and enables the de novo design of synthetic enhancers.
+links: {}
+added: '2026-11-12'
+evidence: Here, we built a deep-learning model, DeepSTARR, to quantitatively predict the activities of thousands of developmental
+  and housekeeping enhancers directly from DNA sequence in Drosophila melanogaster S2 cells.

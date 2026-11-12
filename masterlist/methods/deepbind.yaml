@@ -1,0 +1,22 @@
+name: DeepBind
+category: dry
+summary: Deep learning approach that learns the sequence specificities of DNA- and RNA-binding proteins from experimental
+  data.
+readouts:
+- protein-dna-binding
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3300
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Alipanahi B
+  last_author: Frey BJ
+  pmid: '26213851'
+  title: Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning.
+links: {}
+added: '2026-11-12'
+evidence: We call this approach DeepBind and have built a stand-alone software tool that is fully automatic and handles millions
+  of sequences per experiment.

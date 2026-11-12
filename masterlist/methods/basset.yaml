@@ -1,0 +1,22 @@
+name: Basset
+category: dry
+summary: Convolutional neural network that predicts DNA accessibility from sequence, trained on DNase-seq across 164 cell
+  types.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.200535.115
+  year: 2016
+  journal: Genome Res
+  first_author: Kelley DR
+  last_author: Rinn JL
+  pmid: '27197224'
+  pmcid: PMC4937568
+  title: 'Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks.'
+links: {}
+added: '2026-11-12'
+evidence: We introduce the open source package Basset to apply CNNs to learn the functional activity of DNA sequences from
+  genomics data.

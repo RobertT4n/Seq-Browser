@@ -1,0 +1,22 @@
+name: Saluki
+category: dry
+summary: Statistical models trained on genetic and biochemical features, using a consensus compendium of mRNA decay datasets,
+  to predict mRNA half-life.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02811-x
+  year: 2022
+  journal: Genome Biol
+  first_author: Agarwal V
+  last_author: Kelley DR
+  pmid: '36419176'
+  pmcid: PMC9684954
+  title: The genetic and biochemical determinants of mRNA degradation rates in mammals.
+links: {}
+added: '2026-11-12'
+evidence: We trained substantially improved statistical models based upon genetic and biochemical features to better predict
+  half-life.

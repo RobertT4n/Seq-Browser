@@ -1,0 +1,21 @@
+name: Akita
+category: dry
+summary: Convolutional neural network that predicts 3D genome folding (chromatin contact maps) from DNA sequence alone.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-0958-x
+  year: 2020
+  journal: Nat Methods
+  first_author: Fudenberg G
+  last_author: Pollard KS
+  pmid: '33046897'
+  pmcid: PMC8211359
+  title: Predicting 3D genome folding from DNA sequence with Akita.
+links: {}
+added: '2026-11-12'
+evidence: Here we present a convolutional neural network, Akita, that accurately predicts genome folding from DNA sequence
+  alone.
