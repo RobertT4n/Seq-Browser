@@ -1,0 +1,37 @@
+name: ScISOr-ATAC
+full_name: Single-Cell-ISOform-RNA sequencing coupled with the Assay-for-Transposase-Accessible-Chromatin
+category: wet
+summary: Long-read single-cell isoform RNA sequencing coupled with ATAC measures splicing and chromatin accessibility in the
+  same frozen brain cells.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- single-molecule
+platform:
+- long-read
+scope: genome-wide
+species:
+- human
+- other-vertebrate
+chemistry:
+- long-read-sequencing
+- tn5
+- reverse-transcription
+partition_unknown: not stated in the abstract
+builds_on:
+- scisor-seq
+- scatac-seq
+reference:
+  doi: 10.1101/2024.02.24.581897
+  year: 2024
+  journal: bioRxiv
+  first_author: Hu W
+  last_author: Tilgner HU
+  title: ScISOr-ATAC reveals convergent and divergent splicing and chromatin specificities between matched cell types across
+    cortical regions, evolution, and in Alzheimer’s Disease
+links: {}
+added: '2026-10-26'
+evidence: Hence, we devised Single-Cell-ISOform-RNA sequencing coupled with the Assay-for-Transposase-Accessible-Chromatin
+  (ScISOr-ATAC).

@@ -1,0 +1,21 @@
+name: CLASH
+full_name: Chromatin Loop Across-sample Score Harmonizer
+category: dry
+summary: Method that harmonises Hi-C loop calls across samples so loop strengths can be compared between individuals.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.06.01.729143
+  year: 2026
+  journal: bioRxiv
+  first_author: Ranparia V
+  last_author: Chaisson MJ
+  title: CLASH (Chromatin Loop Across-sample Score Harmonizer) quantifies the relative contributions of genetic variation,
+    methylation, and CTCF occupancy on chromatin loop strength across individuals
+links: {}
+added: '2026-11-13'
+evidence: Next, we developed CLASH (Chromatin Loop Across-sample Score Harmonizer) to harmonize loop calls across samples
+  and enable robust comparisons of loop strengths across individuals.

@@ -1,0 +1,24 @@
+name: ZEN
+full_name: Zone Equalisation Normalisation
+category: dry
+summary: Normalisation that rescales genomic signal by variance within enriched regions to align replicates and samples.
+readouts:
+- histone-modification
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag622
+  year: 2026
+  journal: Bioinformatics
+  first_author: Wilson T
+  last_author: Hughes JR
+  pmid: '42625369'
+  pmcid: PMC13537529
+  title: Zone equalisation normalisation for improved alignment of epigenetic signal
+links: {}
+added: '2026-11-13'
+evidence: Results We introduce Zone Equalisation Normalisation (ZEN), a novel approach designed to improve cross-sample signal
+  alignment of genomic data.

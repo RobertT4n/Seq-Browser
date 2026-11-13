@@ -1,0 +1,22 @@
+name: pertTF
+category: dry
+summary: Transformer-based single-cell genetic perturbation model trained on knockout scRNA-seq data to predict expression
+  and cell-state outcomes of unseen perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.03.12.711379
+  year: 2026
+  journal: bioRxiv
+  first_author: Su Y
+  last_author: Li W
+  title: 'pertTF: context-aware AI modeling for genome-scale and cross-system perturbation prediction'
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce pertTF, a transformer-based single-cell genetic perturbation model. pertTF was trained from a
+  unique dataset capturing single cell expressions profiles of 30 full gene knockouts across 14 relevant cell types during
+  human pancreatic development and beta-cell differentiation. pertTF outperforms current methods in predicting expression
+  changes of perturbing unseen genes in unseen cellular contexts.

@@ -1,0 +1,23 @@
+name: HMC
+full_name: Homologous Missense Constraint
+category: dry
+summary: Per-position genetic constraint score for missense variants, built by aggregating population-variation signals across
+  protein homologues.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/2022.02.16.22271023
+  year: 2022
+  journal: medRxiv
+  first_author: Zhang X
+  last_author: Ware JS
+  title: Genetic constraint at single amino acid resolution improves missense variant prioritisation and gene discovery
+links: {}
+added: '2026-11-13'
+evidence: Here we present the Homologous Missense Constraint (HMC) score, which measures genetic constraint at quasi single
+  amino-acid resolution by aggregating signals across protein homologues.

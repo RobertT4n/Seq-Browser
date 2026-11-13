@@ -1,0 +1,32 @@
+name: scEC&T-seq
+full_name: single-cell extrachromosomal circular DNA and transcriptome sequencing
+category: wet
+summary: Parallel sequencing of extrachromosomal circular DNAs and full-length mRNA from the same single cell.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+builds_on:
+- g-and-t-seq
+reference:
+  doi: 10.1038/s41588-023-01386-y
+  year: 2023
+  journal: Nat Genet
+  first_author: Chamorro González R
+  last_author: Henssen AG
+  pmid: '37142849'
+  pmcid: PMC10181933
+  title: Parallel sequencing of extrachromosomal circular DNAs and transcriptomes in single cancer cells
+links: {}
+added: '2026-11-13'
+evidence: Here we describe single-cell extrachromosomal circular DNA and transcriptome sequencing (scEC&T-seq), a method for
+  parallel sequencing of circular DNAs and full-length mRNA from single cells.

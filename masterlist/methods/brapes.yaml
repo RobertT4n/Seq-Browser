@@ -1,0 +1,23 @@
+name: BRAPeS
+full_name: BCR Reconstruction Algorithm for Paired-end Single cells
+category: dry
+summary: Algorithm that reconstructs B-cell receptor sequences from short-read paired-end single-cell RNA-seq.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.26508/lsa.201900371
+  year: 2019
+  journal: Life Sci Alliance
+  first_author: Afik S
+  last_author: Yosef N
+  pmid: '31451449'
+  pmcid: PMC6709718
+  title: Reconstructing B-cell receptor sequences from short-read single-cell RNA sequencing with BRAPeS
+links: {}
+added: '2026-11-13'
+evidence: We present BRAPeS ("BCR Reconstruction Algorithm for Paired-end Single cells" ), an algorithm for reconstructing
+  BCRs from short-read paired-end single-cell RNA sequencing.

@@ -1,0 +1,27 @@
+name: eWGA
+full_name: emulsion whole-genome amplification
+category: wet
+summary: Single-cell whole-genome amplification performed in about 1e5 picolitre emulsion droplets so each reaction saturates,
+  giving uniform coverage for CNV and SNV calling.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry: []
+chemistry_unknown: no taxonomy tag for emulsion multiple displacement amplification
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1073/pnas.1513988112
+  year: 2015
+  journal: Proc Natl Acad Sci U S A
+  first_author: Fu Y
+  last_author: Huang Y
+  pmid: '26340991'
+  pmcid: PMC4586872
+  title: Uniform and accurate single-cell sequencing based on emulsion whole-genome amplification
+links: {}
+added: '2026-11-13'
+evidence: Here, we report emulsion WGA (eWGA) to overcome these problems.

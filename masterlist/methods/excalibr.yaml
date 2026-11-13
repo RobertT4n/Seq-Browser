@@ -1,0 +1,22 @@
+name: ExCALIBR
+full_name: Experimental score CALIBRator
+category: dry
+summary: Semi-supervised framework that calibrates high-throughput functional assay scores to variant-specific probabilities
+  of pathogenicity.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.04.29.651326
+  year: 2025
+  journal: bioRxiv
+  first_author: Zeiberg D
+  last_author: Radivojac P
+  title: Gene-based calibration of high-throughput functional assays for clinical variant classification
+links: {}
+added: '2026-11-13'
+evidence: To address this problem, we introduce a semi-supervised framework for calibrating experimental assay data and propose
+  Experimental score CALIBRator (ExCALIBR), a method that jointly models pathogenic, benign, synonymous, and population variants
+  using skew normal mixtures to produce variant-specific probabilities of pathogenicity.

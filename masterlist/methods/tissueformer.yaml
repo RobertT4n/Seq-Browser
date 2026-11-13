@@ -1,0 +1,21 @@
+name: TissueFormer
+category: dry
+summary: Foundation model with linear-complexity whole-slide attention, pretrained on paired histopathology and spatial transcriptomics
+  at single-cell resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.07.31.741265
+  year: 2026
+  journal: bioRxiv
+  first_author: Wu Q
+  last_author: Uhler C
+  title: Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce TissueFormer, a framework for pretraining foundation models with linear rather than quadratic
+  computational complexity

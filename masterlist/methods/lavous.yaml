@@ -1,0 +1,21 @@
+name: LaVOUS
+category: dry
+summary: Lineage-aware probabilistic framework that models single-cell expression counts on lineage trees with Brownian/Ornstein-Uhlenbeck
+  dynamics and variational inference.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.06.25.734628
+  year: 2026
+  journal: bioRxiv
+  first_author: Xing J
+  last_author: Siepel A
+  title: Lineage-aware stochastic modeling reveals gene-expression dynamics in development and disease
+links: {}
+added: '2026-11-13'
+evidence: Here we present LaVOUS, a lineage-aware probabilistic framework for modeling sparse single-cell gene-expression
+  counts on reconstructed lineage trees.

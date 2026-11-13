@@ -1,0 +1,21 @@
+name: OnClass
+category: dry
+summary: Algorithm that classifies cells into Cell Ontology terms, including cell types absent from the training data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-25725-x
+  year: 2021
+  journal: Nat Commun
+  first_author: Wang S
+  last_author: Altman RB
+  pmid: '34548483'
+  pmcid: PMC8455606
+  title: Leveraging the Cell Ontology to classify unseen cell types
+links: {}
+added: '2026-11-13'
+evidence: Here, we present OnClass, an algorithm and accompanying software for automatically classifying cells into cell types
+  that are part of the controlled vocabulary that forms the Cell Ontology.

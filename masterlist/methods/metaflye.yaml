@@ -1,0 +1,22 @@
+name: metaFlye
+category: dry
+summary: Long-read metagenome assembler based on repeat graphs.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-00971-x
+  year: 2020
+  journal: Nat Methods
+  first_author: Kolmogorov M
+  last_author: Pevzner PA
+  pmid: '33020656'
+  pmcid: PMC10699202
+  title: 'metaFlye: scalable long-read metagenome assembly using repeat graphs'
+links: {}
+added: '2026-11-13'
+evidence: Here we present metaFlye, which addresses important long-read metagenomic assembly challenges, such as uneven bacterial
+  composition and intra-species heterogeneity.

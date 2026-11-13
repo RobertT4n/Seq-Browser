@@ -1,0 +1,26 @@
+name: CRISPR-CATCH
+full_name: CRISPR-Cas9 Assisted Targeting of CHromosome segments
+category: wet
+summary: Targeted purification of megabase-sized ecDNA by in vitro Cas9 cutting of agarose-entrapped DNA and pulsed-field
+  gel electrophoresis, followed by sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: gel-based purification has no tag
+reference:
+  doi: 10.1038/s41588-022-01190-0
+  year: 2022
+  journal: Nat Genet
+  first_author: Hung KL
+  last_author: Chang HY
+  pmid: '36253572'
+  pmcid: PMC9649439
+  title: Targeted profiling of human extrachromosomal DNA by CRISPR-CATCH
+  preprint_doi: 10.1101/2021.11.28.470285
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a method for targeted purification of megabase-sized ecDNA by combining in-vitro CRISPR-Cas9 treatment
+  and pulsed field gel electrophoresis of agarose-entrapped genomic DNA (CRISPR-CATCH).

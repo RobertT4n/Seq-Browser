@@ -1,0 +1,30 @@
+name: FOODIE
+full_name: footprinting with deaminase
+category: wet
+summary: 'Footprinting with deaminase: single-molecule and single-cell reads after enzymatic deamination reveal transcription-factor
+  binding fraction and cooperativity at near single-base resolution.'
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+- single-molecule
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1073/pnas.2423270121
+  year: 2024
+  journal: Proc Natl Acad Sci U S A
+  first_author: He R
+  last_author: Xie XS
+  pmid: '39689177'
+  pmcid: PMC11670102
+  title: Genome-wide single-cell and single-molecule footprinting of transcription factors with deaminase
+links: {}
+added: '2026-11-13'
+evidence: Here, we report a technique to measure TFs' binding sites on the human genome with a near single-base resolution
+  by footprinting with deaminase (FOODIE) on a single-molecule and single-cell basis.

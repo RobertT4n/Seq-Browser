@@ -1,0 +1,24 @@
+name: OUTRIDER
+full_name: OUTlier in RNA-Seq fInDER
+category: dry
+summary: Statistical method that detects aberrantly expressed genes (outliers) in RNA-seq data with automatic control for
+  confounders.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.ajhg.2018.10.025
+  year: 2018
+  journal: Am J Hum Genet
+  first_author: Brechtmann F
+  last_author: Gagneur J
+  pmid: '30503520'
+  pmcid: PMC6288422
+  title: 'OUTRIDER: A Statistical Method for Detecting Aberrantly Expressed Genes in RNA Sequencing Data'
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe OUTRIDER (Outlier in RNA-Seq Finder), an algorithm developed to address these issues.

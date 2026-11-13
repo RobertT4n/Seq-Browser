@@ -1,0 +1,24 @@
+name: ECC sequencing
+full_name: error-correction code sequencing
+category: wet
+summary: Fluorogenic sequencing-by-synthesis with dual-base reactions that create redundant degenerate reads, enabling information-theory
+  error correction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: no taxonomy tag for sequencing-by-synthesis platform chemistry (cf. 454 pyrosequencing)
+reference:
+  doi: 10.1038/nbt.3982
+  year: 2017
+  journal: Nat Biotechnol
+  first_author: Chen Z
+  last_author: Huang Y
+  pmid: '29106407'
+  title: Highly accurate fluorogenic DNA sequencing with information theory-based error correction
+links: {}
+added: '2026-11-13'
+evidence: Here we present error-correction code (ECC) sequencing, a method to greatly improve sequencing accuracy by combining
+  fluorogenic sequencing-by-synthesis (SBS) with an information theory-based error-correction algorithm.

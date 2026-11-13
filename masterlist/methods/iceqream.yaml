@@ -1,0 +1,21 @@
+name: IceQream
+category: dry
+summary: Quantitative model explaining chromatin accessibility with directly interpretable physical transcription-factor components.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-63925-x
+  year: 2025
+  journal: Nat Commun
+  first_author: Bercovich A
+  last_author: Tanay A
+  pmid: '41068106'
+  pmcid: PMC12511641
+  title: 'IceQream: Quantitative chromosome accessibility analysis using physical TF models'
+links: {}
+added: '2026-11-13'
+evidence: Here we develop IceQream (IQ), a modelling strategy and inference algorithm for regressing accessibility from sequences
+  using physical models of transcription factor (TF) binding.

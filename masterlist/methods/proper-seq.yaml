@@ -1,0 +1,28 @@
+name: ProPer-seq
+category: wet
+summary: Barcode-free perturb-seq using multiplexed custom DNA probe panels on fixed cells to read out transcriptomes and
+  synthetic transgenes.
+readouts:
+- rna
+- functional-screen
+resolution:
+- single-cell
+input_sample:
+- fixed-cells
+scope: targeted
+chemistry_unknown: probe chemistry not described in abstract
+partition_unknown: not stated in the abstract
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.64898/2026.02.04.703058
+  year: 2026
+  journal: bioRxiv
+  first_author: Swinderman JT
+  last_author: Gilbert LA
+  title: Scalable probe-based single-cell transcriptional profiling for virtual cell perturbation mapping and synthetic biology
+    phenotyping
+links: {}
+added: '2026-11-13'
+evidence: We developed ProPer-seq, a perturb-seq method that uses multiplexed custom DNA probe panels to measure and phenotype
+  synthetic biology perturbations at single-cell resolution without barcodes, including multidomain proteins and sgRNAs.

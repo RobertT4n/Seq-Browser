@@ -1,0 +1,24 @@
+name: scip-ATAC-seq
+category: wet
+summary: Improved sci-ATAC-seq that uses the small-molecule inhibitor Pitstop 2 to get more information per cell.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+variant_of:
+- sci-atac-seq
+reference:
+  doi: 10.1101/637256
+  year: 2019
+  journal: bioRxiv
+  first_author: Mulqueen RM
+  last_author: Adey AC
+  title: Improved single-cell ATAC-seq reveals chromatin dynamics of  <i>in vitro</i>  corticogenesis
+links: {}
+added: '2026-11-13'
+evidence: Here, we report an improved sci-assay for transposase accessible chromatin by sequencing (ATAC-seq), which utilizes
+  the small molecule inhibitor Pitstop 2™ (scip-ATAC-seq) 3 .

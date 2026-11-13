@@ -1,0 +1,24 @@
+name: Ladder-seq
+category: wet
+summary: RNA-seq in which transcripts are separated by length before sequencing so length information improves isoform quantification
+  and assembly.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-021-01136-7
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Ringeling FR
+  last_author: Canzar S
+  pmid: '35013600'
+  pmcid: PMC11332977
+  title: Partitioning RNAs by length improves transcriptome reconstruction from short-read RNA-seq data
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce Ladder-seq, an approach that separates transcripts according to their lengths before sequencing
+  and uses the additional information to improve the quantification and assembly of transcripts.

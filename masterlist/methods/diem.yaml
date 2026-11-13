@@ -1,0 +1,23 @@
+name: DIEM
+full_name: Debris Identification using Expectation Maximization
+category: dry
+summary: Semi-supervised classifier that quantifies ambient-RNA contamination and filters debris droplets in droplet-based
+  snRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-020-67513-5
+  year: 2020
+  journal: Sci Rep
+  first_author: Alvarez M
+  last_author: Pajukanta P
+  pmid: '32620816'
+  pmcid: PMC7335186
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+links: {}
+added: '2026-11-13'
+evidence: We present a novel approach to quantify contamination and filter droplets in snRNA-seq experiments, called Debris
+  Identification using Expectation Maximization (DIEM).

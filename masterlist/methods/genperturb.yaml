@@ -1,0 +1,23 @@
+name: GenPerturb
+category: dry
+summary: Framework using pretrained genomic sequence models to link Perturb-seq transcriptional responses to cis-regulatory
+  elements and TF motifs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.64898/2026.07.01.735806
+  year: 2026
+  journal: bioRxiv
+  first_author: Shihashi T
+  last_author: Nikaido I
+  title: 'GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models'
+links: {}
+added: '2026-11-13'
+evidence: Existing approaches rely on indirect post hoc analyses or external epigenomic annotations, making it difficult to
+  connect gene-level responses to specific regulatory element Results We present GenPerturb, a framework that leverages pretrained
+  sequence-to-expression models to link perturbation-induced expression changes to candidate cis-regulatory elements.

@@ -1,0 +1,22 @@
+name: CCLONE
+full_name: Cancer Cell Labelling On Noisy Expression
+category: dry
+summary: Identifies cancer cells in scRNA-seq data from calling single-nucleotide variants.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae512
+  year: 2024
+  journal: Bioinformatics
+  first_author: Marot-Lassauzaie V
+  last_author: Haghverdi L
+  pmid: '39163479'
+  pmcid: PMC11379463
+  title: Identifying cancer cells from calling single-nucleotide variants in scRNA-seq data
+links: {}
+added: '2026-10-26'
+evidence: To address these challenges, we develop CCLONE (Cancer Cell Labelling On Noisy Expression), an interpretable tool
+  adapted to handle the uncertainty and sparsity of SNVs called from scRNA-seq data.

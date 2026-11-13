@@ -1,0 +1,23 @@
+name: CLEVER-seq
+full_name: chemical-labeling-enabled C-to-T conversion sequencing
+category: wet
+summary: Single-cell, single-base-resolution 5-formylcytosine sequencing from selective chemical labelling of 5fC and C-to-T conversion during amplification.
+readouts:
+- dna-methylation
+- dna-5fc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract describes chemical labelling of 5fC and C-to-T conversion; library-prep steps not read from the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.stem.2017.02.013
+  year: 2017
+  journal: Cell Stem Cell
+  first_author: Zhu C
+  last_author: Yi C
+  title: Single-Cell 5-Formylcytosine Landscapes of Mammalian Early Embryos and ESCs at Single-Base Resolution
+links: {}
+added: '2026-11-13'
+evidence: we present "CLEVER-seq" (chemical-labeling-enabled C-to-T conversion sequencing), a single-cell, single-base resolution 5fC-sequencing technology

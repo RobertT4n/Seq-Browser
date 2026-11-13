@@ -1,0 +1,31 @@
+name: dscHi-C
+full_name: droplet-based single-cell Hi-C
+category: wet
+summary: Droplet-microfluidic high-throughput single-cell Hi-C, with a multiome version that co-assays the transcriptome.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e4-1e5
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- proximity-ligation
+- droplet-microfluidics
+reference:
+  doi: 10.1038/s41421-025-00770-8
+  year: 2025
+  journal: Cell Discov
+  first_author: Wu H
+  last_author: Xie XS
+  pmid: '39837831'
+  pmcid: PMC11751028
+  title: Droplet-based high-throughput 3D genome structure mapping of single cells with simultaneous transcriptomics
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce a high-throughput single-cell Hi-C (dscHi-C) approach and its transcriptome co-assay (dscHi-C-multiome)
+  using droplet microfluidics.

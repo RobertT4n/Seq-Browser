@@ -1,0 +1,19 @@
+name: plantGREP
+category: dry
+summary: Deep-learning model trained on large-scale plant enhancer activity data that predicts enhancer strength and motifs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.04.26.720828
+  year: 2026
+  journal: bioRxiv
+  first_author: Jores T
+  last_author: Queitsch C
+  title: Massively parallel characterization and deep learning of enhancers in plant genomes
+links: {}
+added: '2026-10-26'
+evidence: Enabled by the massive scale of the data, we developed plantGREP, a deep learning model that predicts enhancer strength
+  and identifies the underlying functional sequence motifs.

@@ -1,0 +1,27 @@
+name: MPT scDNA-seq
+full_name: multi-patient-targeted single-cell DNA sequencing
+category: wet
+summary: Bulk exome sequencing across a patient cohort defines a pooled custom mutation panel for targeted single-cell DNA
+  sequencing on a microfluidic platform.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+species:
+- human
+chemistry:
+- microfluidic-chip
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.xgen.2022.100215
+  year: 2023
+  journal: Cell Genom
+  first_author: Leighton J
+  last_author: Navin NE
+  pmid: '36777188'
+  pmcid: PMC9903705
+  title: Reconstructing mutational lineages in breast cancer by multi-patient-targeted single-cell DNA sequencing
+links: {}
+added: '2026-10-26'
+evidence: To overcome this issue, we developed a multi-patient-targeted (MPT) scDNA-seq method.

@@ -1,0 +1,22 @@
+name: EpiBERT
+category: dry
+summary: Multi-modal transformer that learns generalisable representations of genomic sequence and chromatin accessibility
+  to predict regulatory activity in unseen cell types.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.100762
+  year: 2025
+  journal: Cell Genom
+  first_author: Javed N
+  last_author: Bernstein BE
+  pmid: '39884279'
+  pmcid: PMC11872434
+  title: A multi-modal transformer for cell type-agnostic regulatory predictions
+links: {}
+added: '2026-11-13'
+evidence: Here, we present EpiBERT, a multi-modal transformer that learns generalizable representations of genomic sequence
+  and cell type-specific chromatin accessibility through a masked accessibility-based pre-training objective.

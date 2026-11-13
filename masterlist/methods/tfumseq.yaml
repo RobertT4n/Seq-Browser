@@ -1,0 +1,30 @@
+name: TFUMseq
+full_name: Temporal FUnctional Metagenomics sequencing
+category: wet
+summary: Heterologous expression libraries built from metagenomic DNA are tracked over time in vivo by deep sequencing to
+  find genes that raise fitness in the mouse gut.
+readouts:
+- functional-screen
+resolution:
+- bulk
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+species:
+- microbe
+- mouse
+chemistry_unknown: Library cloning and read-out chemistry (expression-library clone tracking by deep sequencing) has no fitting
+  taxonomy tag; amplicon details not stated in abstract
+reference:
+  doi: 10.15252/msb.20145866
+  year: 2015
+  journal: Mol Syst Biol
+  first_author: Yaung SJ
+  last_author: Gerber GK
+  pmid: '26148351'
+  pmcid: PMC4380924
+  title: Improving microbial fitness in the mammalian gut   by in vivo temporal functional metagenomics
+links: {}
+added: '2026-10-26'
+evidence: We present Temporal FUnctional Metagenomics sequencing (TFUMseq), a platform to functionally mine bacterial genomes
+  for genes that contribute to fitness of commensal bacteria in vivo.

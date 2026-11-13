@@ -1,0 +1,24 @@
+name: CAVA
+full_name: Clinical Annotation of VAriants
+aliases:
+- CSN
+category: dry
+summary: Variant annotation tool (with the CSN nomenclature) for clinical next-generation sequencing analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-015-0195-6
+  year: 2015
+  journal: Genome Med
+  first_author: Münz M
+  last_author: Rahman N
+  pmid: '26315209'
+  pmcid: PMC4551696
+  title: 'CSN and CAVA: variant annotation tools for rapid, robust next-generation sequencing analysis in the clinical setting'
+links: {}
+added: '2026-11-13'
+evidence: To deliver high-throughput CSN annotation we created CAVA (Clinical Annotation of VAriants), a fast, lightweight
+  tool designed for easy incorporation into NGS pipelines.

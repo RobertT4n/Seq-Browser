@@ -1,0 +1,21 @@
+name: pC-SAC
+category: dry
+summary: Probabilistically constrained self-avoiding chromatin model that reconstructs high-resolution 3D genome structures
+  from low-resolution Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf289
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Angel JC
+  last_author: Gürsoy G
+  pmid: '40226920'
+  pmcid: PMC11995266
+  title: 'pC-SAC: A method for high-resolution 3D genome reconstruction from low-resolution Hi-C data'
+links: {}
+added: '2026-11-13'
+evidence: We introduce pC-SAC (probabilistically Cons

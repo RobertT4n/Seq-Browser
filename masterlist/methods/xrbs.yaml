@@ -1,0 +1,28 @@
+name: XRBS
+full_name: extended-representation bisulfite sequencing
+category: wet
+summary: Reduced-representation bisulfite sequencing extended to cover regulatory elements (promoters, enhancers, CTCF sites),
+  with barcoding before conversion for multiplexing and single-cell use.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41587-021-00910-x
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Shareef SJ
+  last_author: Bernstein BE
+  pmid: '33958785'
+  pmcid: PMC8434949
+  title: Extended-representation bisulfite sequencing of gene regulatory elements in multiplexed samples and single cells
+links: {}
+added: '2026-11-13'
+evidence: Here we present an extended-representation bisulfite sequencing (XRBS) method for targeted profiling of DNA methylation.

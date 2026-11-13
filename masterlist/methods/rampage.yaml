@@ -1,0 +1,30 @@
+name: RAMPAGE
+full_name: RNA Annotation and Mapping of Promoters for the Analysis of Gene Expression
+category: wet
+summary: Promoter-activity profiling by 5-prime-complete cDNA sequencing with paired-end reads for transcription start site
+  and transcript connectivity.
+readouts:
+- rna
+resolution:
+- bulk
+species:
+- invertebrate
+scope: genome-wide
+chemistry:
+- reverse-transcription
+builds_on:
+- cage
+reference:
+  doi: 10.1101/gr.139618.112
+  year: 2013
+  journal: Genome Res
+  first_author: Batut P
+  last_author: Gingeras TR
+  pmid: '22936248'
+  pmcid: PMC3530677
+  title: High-fidelity promoter profiling reveals widespread alternative promoter usage and transposon-driven developmental
+    gene expression
+links: {}
+added: '2026-11-13'
+evidence: We introduce RAMPAGE, a novel promoter activity profiling approach that combines extremely specific 5'-complete
+  cDNA sequencing with an integrated data analysis workflow, to address the limitations of current techniques.

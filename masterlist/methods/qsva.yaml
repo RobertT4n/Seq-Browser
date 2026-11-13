@@ -1,0 +1,23 @@
+name: qSVA
+full_name: quality surrogate variable analysis
+category: dry
+summary: Framework that estimates and removes the confounding effect of RNA quality in RNA-seq differential expression analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1617384114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Jaffe AE
+  last_author: Weinberger DR
+  pmid: '28634288'
+  pmcid: PMC5502589
+  title: qSVA framework for RNA quality correction in differential expression analysis
+links: {}
+added: '2026-11-13'
+evidence: Using RNA-seq data from molecular degradation experiments of human primary tissues, we introduce a method-quality
+  surrogate variable analysis (qSVA)-as a framework for estimating and removing the confounding effect of RNA quality in differential
+  expression analysis.

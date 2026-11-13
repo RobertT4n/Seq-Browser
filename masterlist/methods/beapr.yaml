@@ -1,0 +1,24 @@
+name: BEAPR
+category: dry
+summary: Computational approach that identifies allele-specific RNA-binding-protein binding events in eCLIP-seq data, modelling
+  crosslinking-induced sequence preferences.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41467-019-09292-w
+  year: 2019
+  journal: Nat Commun
+  first_author: Yang EW
+  last_author: Xiao X
+  pmid: '30902979'
+  pmcid: PMC6430814
+  title: Allele-specific binding of RNA-binding proteins reveals functional genetic variants in the RNA
+links: {}
+added: '2026-11-13'
+evidence: We developed a new computational approach, called BEAPR, to identify allele-specific binding (ASB) events in eCLIP-Seq
+  data.

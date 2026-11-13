@@ -1,0 +1,27 @@
+name: Death-seq
+category: wet
+summary: Positive-selection genome-wide CRISPR screen optimised to find enhancers and mechanisms of cell death, including
+  in senescent cells.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+species:
+- human
+chemistry_unknown: sgRNA read-out chemistry not stated in abstract
+reference:
+  doi: 10.1016/j.cmet.2023.08.008
+  year: 2023
+  journal: Cell Metab
+  first_author: Colville A
+  last_author: Rando TA
+  pmid: '37699398'
+  pmcid: PMC10597643
+  title: Death-seq identifies regulators of cell death and senolytic therapies
+links: {}
+added: '2026-10-26'
+evidence: Here, we establish "Death-seq," a positive-selection CRISPR screen optimized to identify enhancers and mechanisms
+  of cell death.

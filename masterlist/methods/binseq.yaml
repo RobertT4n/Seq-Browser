@@ -1,0 +1,21 @@
+name: BINSEQ
+category: dry
+summary: Family of binary formats for nucleotide sequences that enable parallel high-throughput processing of sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014181
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Teyssier N
+  last_author: Dobin A
+  pmid: '42207819'
+  pmcid: PMC13232939
+  title: 'BINSEQ: A family of high-performance binary formats for nucleotide sequences'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present BINSEQ, a family of simple binary formats that enable high-throughput parallel processing of sequencing
+  data.

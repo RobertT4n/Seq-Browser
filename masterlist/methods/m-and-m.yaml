@@ -1,0 +1,26 @@
+name: M&M
+full_name: integration of MeDIP-seq and MRE-seq
+category: dry
+summary: Statistical framework that integrates MeDIP-seq and MRE-seq data to detect differentially methylated regions, benchmarked
+  against WGBS.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/gr.156539.113
+  year: 2013
+  journal: Genome Res
+  first_author: Zhang B
+  last_author: Wang T
+  pmid: '23804400'
+  pmcid: PMC3759728
+  title: Functional DNA methylation differences between tissues, cell types, and across individuals discovered using the M&M
+    algorithm
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a novel integrative statistical framework M&M (for integration of MeDIP-seq and MRE-seq)

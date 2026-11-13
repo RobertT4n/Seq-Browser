@@ -1,0 +1,22 @@
+name: Skipper
+category: dry
+summary: End-to-end workflow that turns raw CLIP-seq reads into annotated RNA-binding sites using a beta-binomial enrichment
+  framework over partitioned transcript windows.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2023.100317
+  year: 2023
+  journal: Cell Genom
+  first_author: Boyle EA
+  last_author: Yeo GW
+  pmid: '37388912'
+  pmcid: PMC10300551
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+links: {}
+added: '2026-11-13'
+evidence: we introduce Skipper, an end-to-end workflow that converts unprocessed reads into annotated binding sites using
+  an improved statistical framework.

@@ -1,0 +1,20 @@
+name: zingeR
+category: dry
+summary: Observation-weight method that makes bulk RNA-seq differential expression tools robust to zero inflation in single-cell
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/157982
+  year: 2017
+  journal: bioRxiv
+  first_author: Van den Berge K
+  last_author: Clement L
+  title: 'zingeR: unlocking RNA-seq tools for zero-inflation and single cell applications'
+links: {}
+added: '2026-11-13'
+evidence: We introduce zingeR, a zero-inflated negative binomial model that identifies excess zero counts and generates observation
+  weights to unlock bulk RNA-seq pipelines for zero-inflation, boosting performance in scRNA-seq differential expression analysis.

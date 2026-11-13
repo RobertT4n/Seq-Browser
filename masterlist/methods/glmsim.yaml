@@ -1,0 +1,20 @@
+name: GLMsim
+category: dry
+summary: GLM-based scRNA-seq simulator that models batch and biological effects together.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.20.586030
+  year: 2024
+  journal: bioRxiv
+  first_author: Wang J
+  last_author: Speed TP
+  title: 'GLMsim: a GLM-based single cell RNA-seq simulator incorporating batch and biological effects'
+links: {}
+added: '2026-11-13'
+evidence: Here we present GLMsim, the first single cell RNA-seq simulator to simultaneously capture the library size, biology
+  and unwanted variation and their associations via a generalized linear model, and to simulate data resembling the original
+  experimental data in these respects.

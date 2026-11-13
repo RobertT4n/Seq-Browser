@@ -1,0 +1,22 @@
+name: scSLIDE
+full_name: single-cell sample-level embeddings
+category: dry
+summary: Framework of sample-level embeddings of single-cell data for reconstructing developmental and disease progression
+  across samples.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2026.10.018
+  year: 2026
+  journal: Cell
+  first_author: Jiang L
+  last_author: Satija R
+  pmid: '43003088'
+  title: Reconstructing developmental and disease progression with sample-level embeddings
+links: {}
+added: '2026-11-13'
+evidence: Here, we present scSLIDE (single-cell sample-level inference using density estimation), a framework that transforms
+  each sample's single-cell data into a compact profile describing where its cells are distributed in high-dimensional space.

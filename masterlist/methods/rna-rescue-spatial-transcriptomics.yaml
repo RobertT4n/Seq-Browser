@@ -1,0 +1,32 @@
+name: RNA-Rescue Spatial Transcriptomics
+category: wet
+summary: Visium-based workflow that improves mRNA recovery from fresh-frozen tissue with moderate to low RNA quality.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+input_sample:
+- fresh-tissue
+species:
+- human
+- mouse
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+- cryosectioning
+variant_of:
+- 10x-visium
+reference:
+  doi: 10.1038/s41467-023-36071-5
+  year: 2023
+  journal: Nat Commun
+  first_author: Mirzazadeh R
+  last_author: Lundeberg J
+  pmid: '36720873'
+  pmcid: PMC9889806
+  title: Spatially resolved transcriptomic profiling of degraded and challenging fresh frozen samples
+links: {}
+added: '2026-11-13'
+evidence: We present RNA-Rescue Spatial Transcriptomics (RRST), a workflow designed to improve mRNA recovery from fresh frozen
+  specimens with moderate to low RNA quality.

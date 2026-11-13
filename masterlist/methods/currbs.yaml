@@ -1,0 +1,24 @@
+name: cuRRBS
+full_name: customised Reduced Representation Bisulfite Sequencing
+category: dry
+summary: Computational method that finds optimal restriction-enzyme combinations and size selection for customised reduced-representation
+  bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx814
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Martin-Herranz DE
+  last_author: Stubbs TM
+  pmid: '29036576'
+  pmcid: PMC5714207
+  title: 'cuRRBS: simple and robust evaluation of enzyme combinations for reduced representation approaches'
+links: {}
+added: '2026-11-13'
+evidence: Herein, we present customised Reduced Representation Bisulfite Sequencing (cuRRBS), a novel and easy-to-use computational
+  method that solves this problem.

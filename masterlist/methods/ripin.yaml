@@ -1,0 +1,31 @@
+name: RIPIN
+full_name: Rapid Inhibition and Permanent Inactivation of Nucleases
+category: wet
+summary: Rapid RNase inhibition followed by slow chemical inactivation stabilises tissue RNA so MERFISH spatial transcriptomics
+  gives high-quality data across tissues.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: targeted
+species:
+- human
+- mouse
+chemistry:
+- sample-preservation
+- in-situ-hybridization
+builds_on:
+- merfish
+reference:
+  doi: 10.64898/2026.09.07.749899
+  year: 2026
+  journal: bioRxiv
+  first_author: Cadinu P
+  last_author: Moffitt JR
+  title: RNA-aware tissue preservation workflows for high-quality spatial transcriptomics
+links: {}
+added: '2026-10-26'
+evidence: In parallel, we introduce an RNA-aware pan-tissue preservation approach, Rapid Inhibition and Permanent Inactivation
+  of Nucleases (RIPIN), that rapidly stabilizes samples with a broad-spectrum RNase inhibitor while permitting slow, chemical
+  inactivation.

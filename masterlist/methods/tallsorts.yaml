@@ -1,0 +1,22 @@
+name: TALLSorts
+category: dry
+summary: Machine-learning classifier that assigns T-cell acute lymphoblastic leukaemia subtype from bulk RNA-seq expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1182/bloodadvances.2023010385
+  year: 2023
+  journal: Blood Adv
+  first_author: Gu A
+  last_author: Oshlack A
+  pmid: '37903323'
+  pmcid: PMC10758738
+  title: 'TALLSorts: a T-cell acute lymphoblastic leukemia subtype classifier using RNA-seq expression data'
+  preprint_doi: 10.1101/2023.04.05.535648
+links: {}
+added: '2026-11-13'
+evidence: Here we present TALLSorts, a machine-learning bioinformatic tool which classifies T-ALL samples by using bulk RNA
+  sequencing (RNA-seq) data.

@@ -1,0 +1,22 @@
+name: DASH
+category: dry
+summary: Machine-learning algorithm that detects HLA loss of heterozygosity with sub-clonal sensitivity from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-29203-w
+  year: 2022
+  journal: Nat Commun
+  first_author: Pyke RM
+  last_author: Boyle SM
+  pmid: '35414054'
+  pmcid: PMC9005524
+  title: A machine learning algorithm with subclonal sensitivity reveals widespread pan-cancer human leukocyte antigen loss
+    of heterozygosity
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop DASH (Deletion of Allele-Specific HLAs), a machine learning-based algorithm to detect HLA LOH from
+  paired tumor-normal sequencing data.

@@ -1,0 +1,25 @@
+name: R2D2
+full_name: Reconstructing RNA Dynamics from Data
+category: dry
+summary: Predicts RNA secondary and tertiary structures and reconstructs cotranscriptional folding pathways from cotranscriptional
+  SHAPE-Seq data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.molcel.2020.12.017
+  year: 2021
+  journal: Mol Cell
+  first_author: Yu AM
+  last_author: Lucks JB
+  pmid: '33453165'
+  pmcid: PMC8061711
+  title: Computationally reconstructing cotranscriptional RNA folding from experimental data reveals rearrangement of non-native
+    folding intermediates
+  preprint_doi: 10.1101/379222
+links: {}
+added: '2026-10-26'
+evidence: Here we present a method, Reconstructing RNA Dynamics from Data (R2D2), to uncover details of cotranscriptional
+  folding pathways by predicting RNA secondary and tertiary structures from cotranscriptional SHAPE-Seq data.

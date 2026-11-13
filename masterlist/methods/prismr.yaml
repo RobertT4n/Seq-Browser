@@ -1,0 +1,23 @@
+name: PRISMR
+category: dry
+summary: Polymer-physics model fitted to Hi-C data that predicts how structural variants change chromatin folding and enhancer-promoter
+  contacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- hi-c
+reference:
+  doi: 10.1038/s41588-018-0098-8
+  year: 2018
+  journal: Nat Genet
+  first_author: Bianco S
+  last_author: Nicodemi M
+  pmid: '29662163'
+  title: Polymer physics predicts the effects of structural variants on chromatin architecture
+links: {}
+added: '2026-11-13'
+evidence: Here we present a polymer-physics-based approach (PRISMR) to model 3D chromatin folding and to predict enhancer-promoter
+  contacts.

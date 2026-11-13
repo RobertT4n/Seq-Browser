@@ -1,0 +1,29 @@
+name: SPACE-Tag
+category: wet
+summary: Spatial CUT&Tag converts mark-associated DNA into polyadenylated RNA by T7 linear amplification so it enters standard
+  spatial transcriptomics workflows.
+readouts:
+- histone-modification
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+- reverse-transcription
+- spatial-barcode-array
+variant_of:
+- spatial-cut-and-tag
+reference:
+  doi: 10.64898/2026.11.06.764689
+  year: 2026
+  journal: bioRxiv
+  first_author: Yan C
+  last_author: Vickovic S
+  title: SPACE-Tag Enables High-Throughput Spatial Chromatin Profiling With CUT&Tag
+links: {}
+added: '2026-10-26'
+evidence: We developed SPACE-Tag, a spatial CUT&Tag framework that converts epigenetic marks-associated DNA into polyadenylated
+  RNA through T7-based linear amplification, enabling direct integration with standard spatial transcriptomic workflows.

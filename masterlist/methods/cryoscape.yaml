@@ -1,0 +1,30 @@
+name: CryoSCAPE
+full_name: Cryopreservation for Scalable Cellular And Proteomic Exploration
+category: wet
+summary: Direct cryopreservation of whole blood preserves immune cells for later fixed single-cell RNA-seq and functional
+  assays at 60-sample scale.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- sample-preservation
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1186/s12967-024-06010-z
+  year: 2025
+  journal: J Transl Med
+  first_author: Heubeck AT
+  last_author: Skene PJ
+  pmid: '39754129'
+  pmcid: PMC11697465
+  title: 'CryoSCAPE: Scalable immune profiling using cryopreserved whole blood for multi-omic single cell and functional assays'
+links: {}
+added: '2026-10-26'
+evidence: We present CryoSCAPE (Cryopreservation for Scalable Cellular And Proteomic Exploration), a scalable method for immune
+  studies of human PBMC with multi-omic single cell assays using direct cryopreservation of whole blood.

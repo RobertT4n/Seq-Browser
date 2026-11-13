@@ -1,0 +1,22 @@
+name: eXpress
+category: dry
+summary: Streaming probabilistic algorithm that assigns ambiguously mapping sequenced fragments to quantify molecules in real
+  time.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.2251
+  year: 2013
+  journal: Nat Methods
+  first_author: Roberts A
+  last_author: Pachter L
+  pmid: '23160280'
+  pmcid: PMC3880119
+  title: Streaming fragment assignment for real-time analysis of sequencing experiments
+links: {}
+added: '2026-11-13'
+evidence: We present eXpress, a software package for efficient probabilistic assignment of ambiguously mapping sequenced fragments.
+  eXpress uses a streaming algorithm with linear run time and constant memory use.

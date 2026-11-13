@@ -1,0 +1,21 @@
+name: MPAC
+category: dry
+summary: Ensemble of machine-learning models trained on MPRA data to predict cis-regulatory effects of non-coding variants.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- mpra
+reference:
+  doi: 10.1101/2025.04.16.648420
+  year: 2025
+  journal: bioRxiv
+  first_author: Butts JC
+  last_author: Reilly SK
+  title: Identifying non-coding variant effects at scale via machine learning models of cis-regulatory reporter assays
+links: {}
+added: '2026-10-26'
+evidence: Here we present MPAC, an ensemble of machine-learning models trained on MPRA data that provides accurate and scalable
+  prediction of the cis-regulatory impact of non-coding variants.

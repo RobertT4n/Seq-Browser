@@ -1,0 +1,22 @@
+name: SEMPER
+category: dry
+summary: Multimodal representation-learning model aligning protein language-model embeddings with protein-protein interaction
+  networks from 442 human brain cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.64898/2026.11.10.765762
+  year: 2026
+  journal: bioRxiv
+  first_author: Dong A
+  last_author: Zitnik M
+  title: Multimodal protein representations across human brain cell types
+links: {}
+added: '2026-11-13'
+evidence: we introduce SEMPER, a multimodal representation learning model that aligns protein language model representations
+  with protein-protein interaction networks from 442 cell types of the adult human brain

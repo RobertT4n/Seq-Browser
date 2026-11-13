@@ -1,0 +1,31 @@
+name: GTAC
+full_name: Genotyping with the Assay for Transposase-Accessible Chromatin
+category: wet
+summary: Single-cell ATAC that adds multiplexed amplicon genotyping of several loci, linking somatic mutations to chromatin
+  accessibility in the same cell.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- tn5
+- amplicon-pcr
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.stem.2023.04.012
+  year: 2023
+  journal: Cell Stem Cell
+  first_author: Turkalj S
+  last_author: Vyas P
+  pmid: '37146586'
+  title: GTAC enables parallel genotyping of multiple genomic loci with chromatin accessibility profiling in single cells
+links: {}
+added: '2026-11-13'
+evidence: To address this, we developed Genotyping with the Assay for Transposase-Accessible Chromatin (GTAC), enabling accurate
+  mutation detection at multiple amplified loci, coupled with robust chromatin accessibility readout.

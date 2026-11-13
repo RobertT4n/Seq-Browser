@@ -1,0 +1,26 @@
+name: mOTUs3
+category: dry
+summary: Metagenome profiler giving species-level taxonomic profiles using marker genes extended with >600,000 metagenome-assembled
+  genomes; works without reference genomes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+variant_of:
+- motus2
+reference:
+  doi: 10.1186/s40168-022-01410-z
+  year: 2022
+  journal: Microbiome
+  first_author: Ruscheweyh HJ
+  last_author: Sunagawa S
+  pmid: '36464731'
+  pmcid: PMC9721005
+  title: Cultivation-independent genomes greatly expand taxonomic-profiling capabilities of mOTUs across various environments
+links: {}
+added: '2026-11-13'
+evidence: We present mOTUs3, a command line tool that enables the profiling of metagenomes for >33,000 species-level operational
+  taxonomic units.

@@ -1,0 +1,27 @@
+name: 3'T-fill
+category: wet
+summary: Poly(A) stretches are filled in with unlabeled dTTP so sequencing starts right after the tail into the 3'UTR, mapping
+  polyadenylation sites and quantifying RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gks1249
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Wilkening S
+  last_author: Steinmetz LM
+  pmid: '23295673'
+  pmcid: PMC3597643
+  title: An efficient method for genome-wide polyadenylation site mapping and RNA quantification
+links: {}
+added: '2026-10-26'
+evidence: Here, we present a method to identify poly(A) sites in a genome-wide and strand-specific manner. This method, termed
+  3'T-fill, initially fills in the poly(A) stretch with unlabeled dTTPs, allowing sequencing to start directly after the poly(A)
+  tail into the 3'-untranslated regions (UTR).

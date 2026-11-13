@@ -1,0 +1,28 @@
+name: oxBS-Seq
+full_name: Oxidative bisulfite sequencing
+category: wet
+summary: Selective chemical oxidation of 5hmC to 5fC before bisulfite conversion gives quantitative single-base maps of 5hmC.
+readouts:
+- dna-5hmc
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1126/science.1220671
+  year: 2012
+  journal: Science
+  first_author: Booth MJ
+  last_author: Balasubramanian S
+  pmid: '22539555'
+  title: Quantitative sequencing of 5-methylcytosine and 5-hydroxymethylcytosine at single-base resolution
+links: {}
+added: '2026-10-26'
+evidence: We introduce oxidative bisulfite sequencing (oxBS-Seq), the first method for quantitative mapping of 5hmC in genomic
+  DNA at single-nucleotide resolution.
+builds_on:
+- wgbs

@@ -1,0 +1,27 @@
+name: REFLEX
+category: wet
+summary: In situ RT with sample-multiplexing barcodes merged into the 10x FLEX workflow captures paired-chain TCR sequences
+  plus transcriptome in millions of single T cells.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+- droplet-microfluidics
+reference:
+  doi: 10.1101/2025.10.24.684243
+  year: 2025
+  journal: bioRxiv
+  first_author: Hart MR
+  last_author: Skene PJ
+  title: REFLEX, a Novel Immune Profiling Assay, Combining TCR Repertoire and Multiome at Massively Scalable Single-cell Resolution
+    to Catapult Exploration of T-cell Derived Immunity
+links: {}
+added: '2026-10-26'
+evidence: We present "REFLEX", a novel single-cell method enabling highly scalable, cost-efficient, multiomic profiling with
+  paired-chain TCR sequencing.

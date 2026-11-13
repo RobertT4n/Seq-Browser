@@ -1,0 +1,24 @@
+name: Nanocompore
+category: dry
+summary: Compares a sample against a modification-free control in nanopore direct RNA sequencing data to detect RNA modifications
+  at single-molecule resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-27393-3
+  year: 2021
+  journal: Nat Commun
+  first_author: Leger A
+  last_author: Kouzarides T
+  pmid: '34893601'
+  pmcid: PMC8664944
+  title: RNA modifications detection by comparative Nanopore direct RNA sequencing
+  preprint_doi: 10.1101/843136
+links: {}
+added: '2026-10-26'
+evidence: We developed and validated Nanocompore, a robust analytical framework to evaluate the presence of modifications
+  in DRS data.

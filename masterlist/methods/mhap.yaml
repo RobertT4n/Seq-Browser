@@ -1,0 +1,21 @@
+name: MHAP
+full_name: MinHash Alignment Process
+category: dry
+summary: Locality-sensitive-hashing overlapper for noisy single-molecule long reads that enables assembly of large genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3238
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Berlin K
+  last_author: Phillippy AM
+  pmid: '26006009'
+  title: Assembling large genomes with single-molecule sequencing and locality-sensitive hashing
+links: {}
+added: '2026-11-13'
+evidence: Integrating MHAP with the Celera Assembler enabled reference-grade de novo assemblies of Saccharomyces cerevisiae,
+  Arabidopsis thaliana, Drosophila melanogaster and a human hydatidiform mole cell line (CHM1) from SMRT sequencing.

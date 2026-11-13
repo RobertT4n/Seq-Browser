@@ -1,0 +1,28 @@
+name: TL-seq
+full_name: transcript leader sequencing
+category: wet
+summary: Enzymatic capture of m7G-capped mRNA 5' ends maps transcript leaders genome-wide; a polysome-fractionation variant
+  (TATL-seq) assays their translation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+- oligo-capture
+reference:
+  doi: 10.1101/gr.150342.112
+  year: 2013
+  journal: Genome Res
+  first_author: Arribere JA
+  last_author: Gilbert WV
+  pmid: '23580730'
+  pmcid: PMC3668365
+  title: Roles for transcript leaders in translation and mRNA decay revealed by transcript leader sequencing
+links: {}
+added: '2026-10-26'
+evidence: To map TL boundaries genome-wide, we developed TL-sequencing (TL-seq), a technique combining enzymatic capture of
+  m(7)G-capped mRNA 5' ends with high-throughput sequencing.

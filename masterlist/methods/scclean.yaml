@@ -1,0 +1,28 @@
+name: scCLEAN
+full_name: single-cell CRISPRclean
+category: wet
+summary: CRISPR/Cas9 cleavage removes abundant uninformative cDNA from scRNA-seq libraries so reads shift to lower-abundance
+  transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+variant_of:
+- single-cell-rna-seq
+reference:
+  doi: 10.1038/s41467-025-59880-2
+  year: 2025
+  journal: Nat Commun
+  first_author: Pandey AC
+  last_author: Topol EJ
+  pmid: '40389438'
+  pmcid: PMC12089397
+  title: A CRISPR/Cas9-based enhancement of high-throughput single-cell transcriptomics
+links: {}
+added: '2026-10-26'
+evidence: Here we introduce single-cell CRISPRclean (scCLEAN), a molecular method that globally recomposes scRNAseq libraries,
+  providing a benefit that cannot be recapitulated with deeper sequencing.

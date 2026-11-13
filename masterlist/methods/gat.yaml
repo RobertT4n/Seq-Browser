@@ -1,0 +1,23 @@
+name: GAT
+full_name: Genomic Association Test
+category: dry
+summary: Simulation-based tool that tests whether sets of genomic intervals overlap more than expected under a density-aware
+  null model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt343
+  year: 2013
+  journal: Bioinformatics
+  first_author: Heger A
+  last_author: Lunter G
+  pmid: '23782611'
+  pmcid: PMC3722528
+  title: 'GAT: a simulation framework for testing the association of genomic intervals'
+links: {}
+added: '2026-11-13'
+evidence: Summary We present Genomic Association Test (GAT), a tool for estimating the significance of overlap between multiple
+  sets of genomic intervals.

@@ -1,0 +1,28 @@
+name: beCasKAS
+category: wet
+summary: Detects base-editor off-targets in cells by KAS-seq-style labelling of Cas9-dependent R-loop unwinding together with
+  deaminase editing of the same genomic DNA.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- primary-cells
+species:
+- human
+chemistry: []
+chemistry_unknown: abstract does not state labelling chemistry
+builds_on:
+- kas-seq
+reference:
+  doi: 10.1101/2025.09.25.678665
+  year: 2025
+  journal: bioRxiv
+  first_author: Wang T
+  last_author: Greenleaf WJ
+  title: Sensitive, direct detection of non-coding off-target base editor unwinding and editing in primary cells
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop and deploy a direct, in cellulo sequencing assay that simultaneously measures both Cas9-mediated
+  unwinding and deaminase editing of genomic DNA (beCasKAS).

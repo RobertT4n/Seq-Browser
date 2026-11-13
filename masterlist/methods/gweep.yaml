@@ -1,0 +1,25 @@
+name: GwEEP
+full_name: genome-wide epigenetic efficiency profiling
+category: dry
+summary: Hidden Markov model that converts genome-wide hairpin bisulfite data into quantitative efficiencies of Dnmts and
+  Tets.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2022.100187
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Kyriakopoulos C
+  last_author: Giehr P
+  pmid: '35475220'
+  pmcid: PMC9017147
+  title: A comprehensive approach for genome-wide efficiency profiling of DNA modifying enzymes
+links: {}
+added: '2026-11-13'
+evidence: We present GwEEP (genome-wide epigenetic efficiency profiling) a versatile approach to infer dynamic efficiencies
+  of DNA modifying enzymes.

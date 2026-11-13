@@ -1,0 +1,24 @@
+name: fCI
+full_name: f-divergence Cut-out Index
+category: dry
+summary: Statistical model that identifies differentially expressed genes jointly across transcriptomic, proteomic and integrated
+  proteogenomic data, including time courses.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw157
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Tang S
+  last_author: Steen J
+  pmid: '26980280'
+  pmcid: PMC4889934
+  title: f-divergence cutoff index to simultaneously identify differential expression in the integrated transcriptome and
+    proteome
+links: {}
+added: '2026-11-13'
+evidence: We present fCI (f-divergence Cut-out Index), a model capable of simultaneously identifying DEGs from continuous
+  and discrete transcriptomic, proteomic and integrated proteogenomic data.

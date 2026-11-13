@@ -1,0 +1,20 @@
+name: Exai-1
+category: dry
+summary: Multi-modal transformer foundation model that combines RNA sequence embeddings with cfRNA abundance data for liquid
+  biopsy.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.03.26.645557
+  year: 2025
+  journal: bioRxiv
+  first_author: Karimzadeh M
+  last_author: Goodarzi H
+  title: A multi-modal cell-free RNA language model for liquid biopsy applications
+links: {}
+added: '2026-11-13'
+evidence: We introduce Exai-1, a multi-modal, transformer-based generative foundation model that integrates RNA sequence embeddings
+  with cfRNA abundance data to capture biologically meaningful representations of circulating RNAs.

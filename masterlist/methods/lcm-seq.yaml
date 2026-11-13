@@ -1,0 +1,30 @@
+name: LCM-seq
+full_name: laser capture microscopy coupled with Smart-seq2
+category: wet
+summary: Laser capture microdissection coupled with Smart-seq2 for transcriptome profiling of small, spatially defined cell
+  populations.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+species:
+- human
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+builds_on:
+- smart-seq2
+reference:
+  doi: 10.1038/ncomms12139
+  year: 2016
+  journal: Nat Commun
+  first_author: Nichterwitz S
+  last_author: Hedlund E
+  pmid: '27387371'
+  pmcid: PMC4941116
+  title: Laser capture microscopy coupled with Smart-seq2 for precise spatial transcriptomic profiling
+links: {}
+added: '2026-11-13'
+evidence: Here we report a robust and highly efficient strategy for LCM coupled with full-length mRNA-sequencing (LCM-seq)
+  developed for single-cell transcriptomics.

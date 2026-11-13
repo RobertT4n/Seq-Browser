@@ -1,0 +1,20 @@
+name: VESPA-SS
+category: dry
+summary: Somatic structural variant caller that uses tumour-specific strings against a draft composite germline reference
+  from long-read tumour-normal data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.06.764802
+  year: 2026
+  journal: bioRxiv
+  first_author: Monti DC
+  last_author: Hormozdiari F
+  title: Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference
+links: {}
+added: '2026-11-13'
+evidence: Building on the concept of specific strings, previously applied to germline SV discovery, we introduce VESPA-SS,
+  a novel approach for detecting somatic SVs from paired tumor-normal long-read whole-genome sequencing data.

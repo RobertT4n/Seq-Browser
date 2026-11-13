@@ -1,0 +1,28 @@
+name: totalVI
+full_name: Total Variational Inference
+category: dry
+summary: Probabilistic framework for joint analysis of CITE-seq RNA and surface-protein data, modelling protein background
+  and batch effects.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- cite-seq
+- scvi
+reference:
+  doi: 10.1038/s41592-020-01050-x
+  year: 2021
+  journal: Nat Methods
+  first_author: Gayoso A
+  last_author: Yosef N
+  pmid: '33589839'
+  pmcid: PMC7954949
+  title: Joint probabilistic modeling of single-cell multi-omic data with totalVI
+links: {}
+added: '2026-10-26'
+evidence: Here we present Total Variational Inference (totalVI), a framework for end-to-end joint analysis of CITE-seq data
+  that probabilistically represents the data as a composite of biological and technical factors, including protein background
+  and batch effects.

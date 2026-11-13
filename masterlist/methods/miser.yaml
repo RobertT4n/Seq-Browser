@@ -1,0 +1,23 @@
+name: MisER
+full_name: local-realignment method for misaligned exons
+category: dry
+summary: Local realignment of misaligned small exons in nanopore RNA-seq for quantifying microexon-containing isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad810
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Liu Z
+  last_author: Wei W
+  pmid: '37843096'
+  pmcid: PMC10639058
+  title: Identification and quantification of small exon-containing isoforms in long-read RNA sequencing data
+links: {}
+added: '2026-10-26'
+evidence: Thus, we develop a local-realignment method for misaligned exons (MisER), which remaps reads with misaligned exons
+  to the transcript references.

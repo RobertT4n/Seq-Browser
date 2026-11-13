@@ -1,0 +1,21 @@
+name: SymSim
+category: dry
+summary: Simulator that models intrinsic, extrinsic and technical variation in single-cell RNA-seq to benchmark analysis methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-10500-w
+  year: 2019
+  journal: Nat Commun
+  first_author: Zhang X
+  last_author: Yosef N
+  pmid: '31197158'
+  pmcid: PMC6565723
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+links: {}
+added: '2026-11-13'
+evidence: Here, we present SymSim, a simulator that explicitly models the processes that give rise to data observed in single
+  cell RNA-Seq experiments.

@@ -1,0 +1,20 @@
+name: Affinity Distillation
+category: dry
+summary: Extracts thermodynamic TF binding affinity models from deep-learning models trained on in vivo binding data.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.05.11.540401
+  year: 2023
+  journal: bioRxiv
+  first_author: Alexandari AM
+  last_author: Kundaje A
+  title: <i>De novo</i>  distillation of thermodynamic affinity from deep learning regulatory sequence models of  <i>in vivo</i>  protein-DNA
+    binding
+links: {}
+added: '2026-10-26'
+evidence: To reconcile these complementary models of in vitro and in vivo TF binding, we developed Affinity Distillation (AD),
+  a method that extracts thermodynamic affinity.

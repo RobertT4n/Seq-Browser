@@ -1,0 +1,21 @@
+name: COSIGT
+full_name: COsine SImilarity-based GenoTyper
+category: dry
+summary: Genotyper that infers structural genotypes at complex loci by matching low-coverage short-read patterns to pangenome
+  haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.02.05.704023
+  year: 2026
+  journal: bioRxiv
+  first_author: Bolognini D
+  last_author: Soranzo N
+  title: Population-scalable genotyping from low-coverage sequencing data using pangenome graphs
+links: {}
+added: '2026-11-13'
+evidence: We present COSIGT (COsine SImilarity-based GenoTyper), a method that infers structural genotypes by matching short-read
+  coverage patterns to pangenome haplotypes using cosine similarity.

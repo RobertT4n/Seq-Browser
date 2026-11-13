@@ -1,0 +1,29 @@
+name: CRISPR-KOALA
+full_name: CRISPR-Knock Out and Activation Linked Assay
+category: wet
+summary: Bidirectional (knockout plus activation) pooled CRISPR screening in immune-competent mouse cancer models, used on
+  all genes of frequently altered chromosome arms.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-knockout
+- crispr-activation
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry_unknown: screen readout chemistry not described in the abstract
+reference:
+  doi: 10.21203/rs.3.rs-4941895/v1
+  year: 2024
+  journal: Research Square
+  first_author: Schramek D
+  last_author: Wrana J
+  title: Aneuploidy drives the acquisition of cancer-specific driver genes
+links: {}
+added: '2026-11-13'
+evidence: we develop a CRISPR-Knock Out and Activation Linked Assay (CRISPR-KOALA), enabling high-throughput bidirectional
+  genetic screens in immune-competent mouse models of cancer.

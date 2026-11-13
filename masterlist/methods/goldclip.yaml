@@ -1,0 +1,31 @@
+name: GoldCLIP
+full_name: Gel-omitted Ligation-dependent CLIP
+category: wet
+summary: CLIP variant that omits all gel purification and radioactive labelling, using ligation-dependent library prep for
+  PTB-RNA binding maps.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- hits-clip
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1016/j.gpb.2018.04.003
+  year: 2018
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Gu J
+  last_author: Yu Y
+  pmid: '29709556'
+  pmcid: PMC6112358
+  title: 'GoldCLIP: Gel-omitted Ligation-dependent CLIP'
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce a super-efficient CLIP method (GoldCLIP) that omits all gel purification steps.

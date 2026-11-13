@@ -1,0 +1,22 @@
+name: SVision
+category: dry
+summary: Deep-learning multi-object-recognition framework that detects and characterises complex structural variants from
+  long-read data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01609-w
+  year: 2022
+  journal: Nat Methods
+  first_author: Lin J
+  last_author: Ye K
+  pmid: '36109679'
+  pmcid: PMC9985066
+  title: 'SVision: a deep learning approach to resolve complex structural variants'
+links: {}
+added: '2026-11-13'
+evidence: We developed SVision, a deep-learning-based multi-object-recognition framework, to automatically detect and haracterize
+  CSVs from long-read sequencing data.

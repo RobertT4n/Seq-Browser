@@ -1,0 +1,22 @@
+name: MaxComp
+category: dry
+summary: Method that predicts single-cell A/B chromatin compartments from single-cell 3D chromosome structures.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1013114
+  year: 2025
+  journal: PLoS Comput Biol
+  first_author: Zhan Y
+  last_author: Alber F
+  pmid: '40408515'
+  pmcid: PMC12133197
+  title: 'MaxComp: Predicting single-cell chromatin compartments from 3D chromosome structures'
+links: {}
+added: '2026-11-13'
+evidence: To address this, we present MaxComp, an unsupervised method, for inferring single-cell A/B compartments based on
+  3D geometric considerations in single-cell chromosome structures-derived either from multiplexed FISH-omics imaging or 3D
+  structure models derived from Hi-C data.

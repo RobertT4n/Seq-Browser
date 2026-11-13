@@ -1,0 +1,26 @@
+name: HT-RNA-Recruit
+category: wet
+summary: High-throughput recruitment assay that tethers tiled protein domains from RNA-binding proteins to a reporter mRNA
+  to find post-transcriptional regulatory effectors.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+species:
+- human
+chemistry: []
+chemistry_unknown: abstract does not state selection/readout chemistry (e.g. sorting, barcode sequencing)
+reference:
+  doi: 10.1101/2024.07.19.604317
+  year: 2024
+  journal: bioRxiv
+  first_author: Thurm AR
+  last_author: Bintu L
+  title: High-throughput discovery of regulatory effector domains in human RNA-binding proteins
+links: {}
+added: '2026-11-13'
+evidence: We develop and use a high-throughput recruitment assay (HT-RNA-Recruit) to identify regulatory domains within human
+  RBPs by recruiting over 30,000 protein tiles from 367 RBPs to a reporter mRNA.

@@ -1,0 +1,26 @@
+name: schmC-CATCH
+full_name: single-cell 5hmC chemical-assisted C-to-T conversion-enabled sequencing
+category: wet
+summary: Single-cell 5hmC chemical-assisted C-to-T conversion sequencing that gives base-resolution genome-wide hydroxymethylomes
+  of mouse gametes and preimplantation embryos.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- single-cell
+scope: genome-wide
+partition_unknown: not stated in the abstract
+species:
+- mouse
+chemistry_unknown: 5hmC chemical labelling and C-to-T conversion chemistry not in the chemistry taxonomy
+reference:
+  doi: 10.1016/j.celrep.2025.115520
+  year: 2025
+  journal: Cell Rep
+  first_author: Bai D
+  last_author: Yi C
+  pmid: '40186870'
+  title: Single-cell 5-hydroxymethylcytosine landscapes of mouse early embryos at single-base resolution
+links: {}
+added: '2026-11-13'
+evidence: we develop single-cell 5-hydroxymethylcytosine (5hmC) chemical-assisted C-to-T conversion-enabled sequencing (schmC-CATCH)

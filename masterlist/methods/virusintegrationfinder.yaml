@@ -1,0 +1,24 @@
+name: VirusIntegrationFinder
+aliases:
+- CTAT-VIF
+category: dry
+summary: Tool (CTAT-VIF) that detects viral insertions in the human genome and virus-human chimeric transcripts from DNA and
+  RNA sequencing data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.03.10.642430
+  year: 2025
+  journal: bioRxiv
+  first_author: Haas BJ
+  last_author: Al’Khafaji A
+  title: Pathogenic Viruses, Genome Integrations, and Viral::Human Chimeric Transcripts Detected by VirusIntegrationFinder
+    Across >30k Human Tumor and Normal Samples
+links: {}
+added: '2026-11-13'
+evidence: In this study, we developed VirusIntegrationFinder (CTAT-VIF), a tool for surveying human genome insertions of various
+  human viruses using both DNA and RNA sequencing data.

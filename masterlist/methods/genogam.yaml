@@ -1,0 +1,21 @@
+name: GenoGAM
+full_name: Genome-wide Generalized Additive Model
+category: dry
+summary: Genome-wide generalized additive model for ChIP-seq that estimates differential occupancy without binning or window
+  choices.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx150
+  year: 2017
+  journal: Bioinformatics
+  first_author: Stricker G
+  last_author: Gagneur J
+  pmid: '28369277'
+  title: 'GenoGAM: genome-wide generalized additive models for ChIP-Seq analysis'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present GenoGAM (Genome-wide Generalized Additive Model), which brings the well-established

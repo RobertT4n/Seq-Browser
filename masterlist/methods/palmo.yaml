@@ -1,0 +1,23 @@
+name: PALMO
+category: dry
+summary: Platform of five modules for analysing longitudinal bulk and single-cell multi-omics data, including variance decomposition
+  and outlier detection.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-37432-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Vasaikar SV
+  last_author: Li XJ
+  pmid: '36973282'
+  pmcid: PMC10041512
+  title: A comprehensive platform for analyzing longitudinal multi-omics data
+links: {}
+added: '2026-10-26'
+evidence: We present PALMO (https://github.com/aifimmunology/PALMO), a platform that contains five analytical modules to examine
+  longitudinal bulk and single-cell multi-omics data from multiple perspectives.

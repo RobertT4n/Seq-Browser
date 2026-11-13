@@ -1,0 +1,20 @@
+name: TALON
+category: dry
+summary: Platform-independent pipeline for discovering and quantifying transcript isoforms from PacBio and Nanopore long-read
+  transcriptomes (ENCODE4).
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1101/672931
+  year: 2019
+  journal: bioRxiv
+  first_author: Wyman D
+  last_author: Mortazavi A
+  title: A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification
+links: {}
+added: '2026-10-26'
+evidence: Here we introduce TALON, the ENCODE4 pipeline for platform-independent analysis of long-read transcriptomes.

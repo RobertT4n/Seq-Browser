@@ -1,0 +1,35 @@
+name: CARLIN
+full_name: CRISPR Array Repair LINeage tracing
+category: wet
+summary: Inducible CRISPR/Cas9 mouse line generating up to 44,000 transcribed barcodes to read out cell lineage and transcriptome
+  together in single cells.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+temporal:
+- molecular-recording
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2020.04.048
+  year: 2020
+  journal: Cell
+  first_author: Bowling S
+  last_author: Camargo FD
+  pmid: '32413320'
+  pmcid: PMC7529102
+  title: An Engineered CRISPR-Cas9 Mouse Line for Simultaneous Readout of Lineage Histories and Gene Expression Profiles in
+    Single Cells
+  preprint_doi: 10.1101/797597
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe the CARLIN (for C RISPR A rray R epair LIN eage tracing) mouse line and corresponding analysis
+  tools that can be used to simultaneously interrogate the lineage and transcriptomic information of single cells in vivo.

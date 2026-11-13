@@ -1,0 +1,21 @@
+name: BAMboozle
+category: dry
+summary: Tool that removes donor genetic variation from human sequence alignments so data can be shared openly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26152-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Ziegenhain C
+  last_author: Sandberg R
+  pmid: '34711808'
+  pmcid: PMC8553849
+  title: BAMboozle removes genetic variation from human sequence data for open data sharing
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed BAMboozle, a versatile tool to eliminate critical types of sensitive genetic information in human
+  sequence data by reverting aligned reads to the genome reference sequence.

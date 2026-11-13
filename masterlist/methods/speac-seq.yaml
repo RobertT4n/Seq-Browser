@@ -1,0 +1,28 @@
+name: SPEAC-seq
+full_name: Systematic Perturbation of Encapsulated Associated Cells followed by sequencing
+category: wet
+summary: 'Droplet-microfluidic pooled CRISPR screening of cell-cell interactions: co-cultured perturbed cells are encapsulated
+  and droplets sorted on fluorescent reporter readouts before guide sequencing.'
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-knockout
+chemistry:
+- droplet-microfluidics
+- facs-sorting
+reference:
+  doi: 10.1038/s41596-024-01056-1
+  year: 2025
+  journal: Nat Protoc
+  first_author: Faust Akl C
+  last_author: Quintana FJ
+  pmid: '39327538'
+  pmcid: PMC11805652
+  title: Droplet-based functional CRISPR screening of cell-cell interactions by SPEAC-seq
+links: {}
+added: '2026-11-13'
+evidence: Systematic perturbation of encapsulated associated cells followed by sequencing (SPEAC-seq) combines genome-wide
+  CRISPR libraries, cell coculture in droplets and microfluidic droplet sorting based on functional read-outs

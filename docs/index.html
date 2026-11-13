@@ -81,7 +81,7 @@ fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
     const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], {type: "text/csv"})); a.download = "seq-browser-filtered.csv"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   };
   document.getElementById("kind").onchange = render;
-  const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h);
+  const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h || (m.accession || "").toLowerCase() === h.toLowerCase());
   if (t) { document.getElementById("q").value = t.name; open = t.id; }
   render();
 });
@@ -91,7 +91,7 @@ function render() {
   // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
   const has = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t);
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
-    (!q || [m.name, m.full_name, m.aliases, m.summary, m.title, m.first_author, m.last_author, m.doi].join(" ").toLowerCase().includes(q));
+    (!q || [m.name, m.full_name, m.aliases, m.summary, m.title, m.first_author, m.last_author, m.doi, m.accession].join(" ").toLowerCase().includes(q));
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
   document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry / task" : "Chemistry";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
@@ -143,10 +143,11 @@ function drawer() {
     <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
     ${m.title ? `<p class="ptitle">${esc(m.title)}</p>` : ""}
     <p class="meta">${pl ? `<a href="${esc(pl)}" target="_blank" rel="noopener">` : ""}${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}${pl ? "</a>" : ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>${seeAlso}
-    <p class="links">${[m.protocol ? `<a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : "", m.code ? `<a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : "", m.category === "dry" ? "" : '<a href="family.html">Family graph</a>', '<a href="#" id="dlink">Copy link to this entry</a>'].filter(Boolean).join(" · ")}</p>
+    <p class="links">${[m.protocol ? `<a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : "", m.code ? `<a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : "", m.category === "dry" ? "" : '<a href="family.html">Family graph</a>', '<a href="#" id="dlink">Copy link</a>'].filter(Boolean).join(" · ")}</p>
+    <p class="meta">Accession <b>${esc(m.accession)}</b> · cite a method in your methods section by its paper DOI plus this ID</p>
     <button class="btn" id="dcmp" type="button">${cmp.includes(m.id) ? "Remove from compare" : "Add to compare"}</button>`;
   document.getElementById("dx").onclick = () => { open = null; render(); };
-  document.getElementById("dlink").onclick = e => { e.preventDefault(); const u = location.origin + location.pathname + "#" + m.id; history.replaceState(null, "", "#" + m.id); (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => e.target.textContent = "Link copied", () => e.target.textContent = "Link is now in the address bar"); };
+  document.getElementById("dlink").onclick = e => { e.preventDefault(); const u = location.origin + location.pathname + "#" + m.accession; history.replaceState(null, "", "#" + m.accession); (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => e.target.textContent = "Link copied", () => e.target.textContent = "Link is now in the address bar"); };
   document.getElementById("dcmp").onclick = () => { const i = cmp.indexOf(m.id); i >= 0 ? cmp.splice(i, 1) : cmp.length < 3 ? cmp.push(m.id) : alert("Compare holds up to 3 methods."); cmpBar(); drawer(); };
   el.querySelectorAll("[data-goto]").forEach(a => a.onclick = e => { e.preventDefault(); const t = data.find(d => d.id === a.dataset.goto); if (t) { document.getElementById("q").value = t.name; open = t.id; render(); } });
 }

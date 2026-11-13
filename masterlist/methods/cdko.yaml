@@ -1,0 +1,29 @@
+name: CDKO
+full_name: CRISPR-based double knockout
+category: wet
+summary: Paired sgRNA libraries are cloned and sequenced to score pairwise genetic interactions from double knockouts, used
+  to find synergistic drug-target pairs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+species:
+- human
+chemistry_unknown: Paired-sgRNA library cloning/sequencing chemistry not detailed in abstract
+reference:
+  doi: 10.1038/nbt.3834
+  year: 2017
+  journal: Nat Biotechnol
+  first_author: Han K
+  last_author: Bassik MC
+  pmid: '28319085'
+  pmcid: PMC5557292
+  title: Synergistic drug combinations for cancer identified in a CRISPR screen for pairwise genetic interactions
+links: {}
+added: '2026-10-26'
+evidence: Here we introduce a CRISPR-based double knockout (CDKO) system that improves the efficiency of combinatorial genetic
+  screening using an effective strategy for cloning and sequencing paired single guide RNA (sgRNA) libraries and a robust
+  statistical scoring method for calculating genetic interactions (GIs) from CRISPR-deleted gene pairs.

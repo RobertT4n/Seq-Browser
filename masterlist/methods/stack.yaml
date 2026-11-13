@@ -1,0 +1,19 @@
+name: STACK
+category: dry
+summary: Single-cell foundation model that learns in context to transfer across cell states, conditions and tasks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.01.09.698608
+  year: 2026
+  journal: bioRxiv
+  first_author: Dong M
+  last_author: Roohani YH
+  title: 'Stack: In-Context Learning of Single-Cell Biology'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present STACK, a foundation model trained on 149 million uniformly preprocessed human single cells that
+  leverages tabular attention to generate representations for each cell informed by the cells in its context.

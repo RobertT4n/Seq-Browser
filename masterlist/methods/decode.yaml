@@ -1,0 +1,21 @@
+name: DECODE
+full_name: DEciphering Cancer Origin from DNA Evolution
+category: dry
+summary: Mutation clustering method that accounts for sample-specific sequencing coverage and calling bias to estimate tumour
+  clonality and expansion mode.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.06.15.732415
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen Y
+  last_author: Dinh KN
+  title: Accurate detection of tumor clonality and ongoing expansion mode from genomic data
+links: {}
+added: '2026-11-13'
+evidence: We developed DECODE ( De ciphering C ancer O rigin from D NA E volution), a novel mutation clustering method that
+  incorporates the impact of sample-specific sequencing coverage and mutation calling biases.

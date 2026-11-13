@@ -1,0 +1,31 @@
+name: Nascent CUT&Tag
+category: wet
+summary: CUT&Tag profiling of transcription-factor binding on newly synthesised DNA to track chromatin reassembly after replication.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- invertebrate
+targets:
+- GAF
+- PHO
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+variant_of:
+- cut-and-tag
+reference:
+  doi: 10.1101/2025.10.13.682212
+  year: 2025
+  journal: bioRxiv
+  first_author: Wooten M
+  last_author: Henikoff S
+  title: Nascent CUT&Tag captures transcription factor binding after chromatin duplication
+links: {}
+added: '2026-11-13'
+evidence: To track chromatin reassembly on newly synthesized DNA, we developed Nascent CUT&Tag, a chromatin profiling method
+  that directly measures transcription factor (TF) binding on nascent chromatin.

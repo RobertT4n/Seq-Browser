@@ -1,0 +1,30 @@
+name: iPAR-CLIP
+full_name: in vivo PAR-CLIP
+category: wet
+summary: In vivo PAR-CLIP in C. elegans gives nucleotide-resolution transcriptome-wide binding sites of the RBP GLD-1.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- invertebrate
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- nucleotide-labeling
+variant_of:
+- par-clip
+reference:
+  doi: 10.1016/j.molcel.2011.11.009
+  year: 2011
+  journal: Mol Cell
+  first_author: Jungkamp AC
+  last_author: Rajewsky N
+  pmid: '22152485'
+  pmcid: PMC3253457
+  title: In vivo and transcriptome-wide identification of RNA binding protein target sites
+links: {}
+added: '2026-10-26'
+evidence: Here, we establish iPAR-CLIP (in vivo PAR-CLIP) to determine, at nucleotide resolution, transcriptome-wide binding
+  sites of GLD-1, a conserved, germline-specific translational repressor in C. elegans.

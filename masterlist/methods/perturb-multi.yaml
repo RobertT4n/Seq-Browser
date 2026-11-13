@@ -1,0 +1,34 @@
+name: Perturb-Multi
+full_name: Perturb-Multimodal
+category: wet
+summary: Paired imaging and single-cell sequencing of pooled genetic perturbations in intact tissue, linking each perturbation
+  to gene expression, morphology and full transcriptomic response.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- in-situ-hybridization
+- reverse-transcription
+partition_unknown: not stated in the abstract
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1016/j.cell.2025.05.022
+  year: 2025
+  journal: Cell
+  first_author: Saunders RA
+  last_author: Zhuang X
+  pmid: '40513557'
+  pmcid: PMC12324982
+  title: 'Perturb-Multimodal: A platform for pooled genetic screens with imaging and sequencing in intact mammalian tissue'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Perturb-Multimodal (Perturb-Multi), a paired imaging and sequencing method to construct large-scale,
+  multimodal genotype-phenotype maps in tissues with pooled genetic perturbations.

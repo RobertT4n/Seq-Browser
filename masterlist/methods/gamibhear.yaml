@@ -1,0 +1,24 @@
+name: GAMIBHEAR
+category: dry
+summary: R tool that reconstructs genome-wide haplotypes from Genome Architecture Mapping data using a GAM-specific probabilistic
+  model of haplotype capture.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- gam
+reference:
+  doi: 10.1093/bioinformatics/btab238
+  year: 2021
+  journal: Bioinformatics
+  first_author: Markowski J
+  last_author: Schwarz RF
+  pmid: '33830196'
+  pmcid: PMC8504635
+  title: 'GAMIBHEAR: whole-genome haplotype reconstruction from Genome Architecture Mapping data'
+links: {}
+added: '2026-11-13'
+evidence: Results We present GAMIBHEAR, a tool for accurate haplotype reconstruction from GAM data.

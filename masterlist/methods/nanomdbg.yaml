@@ -1,0 +1,23 @@
+name: nanoMDBG
+category: dry
+summary: Metagenome assembler for Oxford Nanopore reads.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-69760-y
+  year: 2026
+  journal: Nat Commun
+  first_author: Benoit G
+  last_author: Quince C
+  pmid: '41792155'
+  pmcid: PMC13087279
+  title: High-quality metagenome assembly from nanopore reads with nanoMDBG
+  preprint_doi: 10.1101/2025.04.22.649928
+links: {}
+added: '2026-11-13'
+evidence: We present nanoMDBG, an evolution of the metaMDBG HiFi assembler, designed to support newer ONT sequencing data
+  through a novel pre-processing step that performs fast and accurate error correction in minimizer-space.

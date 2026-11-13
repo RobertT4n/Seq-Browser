@@ -1,0 +1,24 @@
+name: scvi-tools
+category: dry
+summary: Python library that implements probabilistic single-cell omics models under a standardised interface linked to Scanpy,
+  Seurat and Bioconductor.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- scvi
+reference:
+  doi: 10.1038/s41587-021-01206-w
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Gayoso A
+  last_author: Yosef N
+  pmid: '35132262'
+  title: A Python library for probabilistic analysis of single-cell omics data
+  preprint_doi: 10.1101/2021.04.28.441833
+links: {}
+added: '2026-10-26'
+evidence: To address this issue, we developed scvi-tools (https://scvi-tools.org), a Python package that implements a variety
+  of leading probabilistic methods.

@@ -1,0 +1,27 @@
+name: CoCUT&Tag
+category: wet
+summary: Nanobody-targeted CUT&Tag with synthetic antigen-peptide repeats measures co-occupancy of two chromatin features
+  on the same DNA molecule in single cells.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+species:
+- human
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.04.27.721191
+  year: 2026
+  journal: bioRxiv
+  first_author: Sun W
+  last_author: Janssens DH
+  title: CoCUT&Tag maps linked chromatin states at single-molecule, single-cell resolution
+links: {}
+added: '2026-10-26'
+evidence: Here, we present CoCUT&Tag, which uses synthetic antigen-peptide repeats paired with nanobodies to enhance Tn5 transposase
+  targeting and enable single-cell measurement of the co-occupancy of two chromatin features on the same DNA molecule.

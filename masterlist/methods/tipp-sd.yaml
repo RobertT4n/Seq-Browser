@@ -1,0 +1,25 @@
+name: TIPP-SD
+full_name: TIPP for Species Detection
+category: dry
+summary: Species-detection method for microbiome samples that uses a modified TIPP3 phylogenetic placement with a tunable
+  support threshold.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pcbi.1014347
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Shen C
+  last_author: Warnow T
+  pmid: '42207845'
+  pmcid: PMC13229341
+  title: 'TIPP-SD: A new method for species detection in microbiomes'
+  preprint_doi: 10.1101/2025.08.27.672749
+links: {}
+added: '2026-11-13'
+evidence: we present TIPP-SD (i.e., TIPP for Species Detection), a new technique for species detection in a microbiome sample.

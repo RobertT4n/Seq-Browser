@@ -1,0 +1,30 @@
+name: MAbID
+category: wet
+summary: Antibody-DNA conjugates barcode chromatin at epitope sites so many histone modifications and chromatin proteins are
+  profiled together in one reaction, down to single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+partition_unknown: not stated in the abstract
+species:
+- human
+- mouse
+chemistry_unknown: antibody-DNA conjugate barcoding chemistry not stated in the abstract
+reference:
+  doi: 10.1038/s41592-023-02090-9
+  year: 2024
+  journal: Nat Methods
+  first_author: Lochs SJA
+  last_author: Kind J
+  pmid: '38049699'
+  pmcid: PMC10776404
+  title: Combinatorial single-cell profiling of major chromatin types with MAbID
+  preprint_doi: 10.1101/2023.01.18.524584
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce MAbID, a method that combines genomic profiling of many histone modifications and chromatin-binding
+  proteins in a single reaction.

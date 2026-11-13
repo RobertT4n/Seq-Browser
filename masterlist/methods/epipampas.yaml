@@ -1,0 +1,21 @@
+name: EpiPAMPAS
+category: dry
+summary: Statistical method that detects intra-protein epistasis from multiple sequence alignments via parsimonious ancestral
+  state reconstruction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.13.628430
+  year: 2024
+  journal: bioRxiv
+  first_author: Dabbaghie F
+  last_author: Kalinina O
+  title: 'EpiPAMPAS: Rapid detection of intra-protein epistasis via parsimonious ancestral state reconstruction and counting
+    mutations'
+links: {}
+added: '2026-11-13'
+evidence: In this work we introduce EpiPAMPAS, a statistical method that is based on multiple sequence alignments (MSA) and
+  detecting mutations in the same direction on a dendrogram instead of a phylogenetic tree using the Sankoff algorithm.

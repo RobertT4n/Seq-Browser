@@ -1,0 +1,21 @@
+name: edgePython
+category: dry
+summary: Python port of edgeR extended with a negative binomial-gamma mixed model and dispersion shrinkage for multi-subject
+  single-cell differential analysis.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.02.16.706223
+  year: 2026
+  journal: bioRxiv
+  first_author: Pachter L
+  last_author: Pachter L
+  title: Differential analysis of genomics count data with edge*
+links: {}
+added: '2026-11-13'
+evidence: We present edgePython, a Python port of edgeR 4.8.2 that extends the framework with a negative binomial–gamma mixed
+  model for multi-subject single-cell analysis and empirical Bayes shrinkage of cell-level dispersion.

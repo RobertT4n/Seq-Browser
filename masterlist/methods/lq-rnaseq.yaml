@@ -1,0 +1,29 @@
+name: LQ-RNAseq
+full_name: low-quantity RNA sequencing
+category: wet
+summary: Amplification- and ligation-free RNA sequencing in which first-strand cDNA is polyA-tailed and sequenced directly
+  as single molecules from subnanogram RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.102129.109
+  year: 2010
+  journal: Genome Res
+  first_author: Ozsolak F
+  last_author: Milos PM
+  pmid: '20133332'
+  pmcid: PMC2847755
+  title: Digital transcriptome profiling from attomole-level RNA samples
+links: {}
+added: '2026-11-13'
+evidence: Here, we present low-quantity RNA sequencing (LQ-RNAseq), a high-throughput sequencing-based technique allowing
+  whole transcriptome surveys from subnanogram RNA quantities in an amplification/ligation-free manner.

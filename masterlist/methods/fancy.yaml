@@ -1,0 +1,22 @@
+name: FANCY
+category: dry
+summary: Regression tool that estimates the number of privacy-leaking variants in RNA-seq, ATAC-seq and ChIP-seq reads without
+  explicit genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa661
+  year: 2021
+  journal: Bioinformatics
+  first_author: Gürsoy G
+  last_author: Gerstein M
+  pmid: '32726397'
+  pmcid: PMC7850135
+  title: 'FANCY: fast estimation of privacy risk in functional genomics data'
+links: {}
+added: '2026-11-13'
+evidence: we present FANCY, a tool that rapidly estimates number of leaking variants from raw RNA-Seq, ATAC-Seq and ChIP-Seq
+  reads, without explicit genotyping.

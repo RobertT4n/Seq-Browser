@@ -1,0 +1,21 @@
+name: STAR
+category: dry
+summary: Ultrafast splice-aware aligner for RNA-seq reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts635
+  year: 2013
+  journal: Bioinformatics
+  first_author: Dobin A
+  last_author: Gingeras TR
+  pmid: '23104886'
+  pmcid: PMC3530905
+  title: 'STAR: ultrafast universal RNA-seq aligner'
+links: {}
+added: '2026-11-13'
+evidence: In addition to unbiased de novo detection of canonical junctions, STAR can discover non-canonical splices and chimeric
+  (fusion) transcripts, and is also capable of mapping full-length RNA sequences.

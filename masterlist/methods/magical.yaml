@@ -1,0 +1,26 @@
+name: MAGICAL
+category: dry
+summary: Hierarchical Bayesian model that uses paired scRNA-seq and scATAC-seq from different conditions to map disease-associated
+  TFs, chromatin sites and genes as regulatory circuits.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s43588-023-00476-5
+  year: 2023
+  journal: Nat Comput Sci
+  first_author: Chen X
+  last_author: Sealfon SC
+  pmid: '37974651'
+  pmcid: PMC10653299
+  title: Mapping disease regulatory circuits at cell-type resolution from single-cell multiomics data
+  preprint_doi: 10.1101/2022.12.06.22282077
+links: {}
+added: '2026-11-13'
+evidence: We describe MAGICAL, a hierarchical Bayesian approach that leverages paired scRNA-seq and scATAC-seq data from different
+  conditions to map disease-associated transcription factors, chromatin sites, and genes as regulatory circuits.

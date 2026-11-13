@@ -1,0 +1,29 @@
+name: VELCRO-IP RNA-seq
+category: wet
+summary: Species-adapted ribosomal expansion segments are engineered and immunoprecipitated to map mRNA regions that associate
+  with ribosomes through the expansion segment.
+readouts:
+- translation
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1016/j.celrep.2020.108629
+  year: 2021
+  journal: Cell Rep
+  first_author: Leppek K
+  last_author: Barna M
+  pmid: '33472078'
+  pmcid: PMC8270675
+  title: VELCRO-IP RNA-seq reveals ribosome expansion segment function in translation genome-wide
+  preprint_doi: 10.1101/2020.07.01.179515
+links: {}
+added: '2026-10-26'
+evidence: 'Here, we develop VELCRO-IP RNA-seq: a versatile methodology to generate species-adapted ESs and map specific mRNA
+  regions across the transcriptome that preferentially associate with ESs.'

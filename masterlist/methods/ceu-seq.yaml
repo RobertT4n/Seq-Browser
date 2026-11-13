@@ -1,0 +1,28 @@
+name: CeU-Seq
+full_name: N3-CMC-enriched pseudouridine sequencing
+category: wet
+summary: Pseudouridine mapping by selective N3-CMC chemical labelling and pulldown, identifying thousands of Psi sites in
+  human and mouse transcriptomes.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1038/nchembio.1836
+  year: 2015
+  journal: Nat Chem Biol
+  first_author: Li X
+  last_author: Yi C
+  pmid: '26075521'
+  title: Chemical pulldown reveals dynamic pseudouridylation of the mammalian transcriptome
+links: {}
+added: '2026-11-13'
+evidence: We developed N3-CMC-enriched pseudouridine sequencing (CeU-Seq), a selective chemical labeling and pulldown method,
+  to identify 2,084 Ψ sites within 1,929 human transcripts

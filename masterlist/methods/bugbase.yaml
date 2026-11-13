@@ -1,0 +1,22 @@
+name: BugBase
+category: dry
+summary: Algorithm that predicts organism-level functional pathway coverage and microbiome phenotypes (oxygen tolerance, Gram
+  staining, pathogenicity) from shotgun or marker-gene data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1101/133462
+  year: 2017
+  journal: bioRxiv
+  first_author: Ward T
+  last_author: Knights D
+  title: BugBase predicts organism-level microbiome phenotypes
+links: {}
+added: '2026-11-13'
+evidence: Here we present BugBase, an algorithm that predicts organism-level coverage of functional pathways as well as biologically
+  interpretable phenotypes

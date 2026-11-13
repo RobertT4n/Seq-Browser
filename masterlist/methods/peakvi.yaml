@@ -1,0 +1,22 @@
+name: PeakVI
+category: dry
+summary: Deep generative model for single-cell chromatin accessibility data that handles sparsity, noise and batch effects.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- scvi
+reference:
+  doi: 10.1016/j.crmeth.2022.100182
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Ashuach T
+  last_author: Yosef N
+  pmid: '35475224'
+  pmcid: PMC9017241
+  title: 'PeakVI: A deep generative model for single-cell chromatin accessibility analysis'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present PeakVI, a probabilistic framework that leverages deep neural networks to analyze scATAC-seq data.

@@ -1,0 +1,32 @@
+name: STAG-seq
+full_name: Sensitive Transcriptomics And Genotyping by sequencing
+category: wet
+summary: Single-cell platform that measures genomic DNA genotype and RNA transcripts in the same cell, combined with base
+  editing to phenotype variants.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- base-editing
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2025.03.12.642879
+  year: 2025
+  journal: bioRxiv
+  first_author: Liu K
+  last_author: Xavier RJ
+  title: Sensitive Transcriptomics and Genotyping reveals function of genetic variants in immunity
+links: {}
+added: '2026-11-13'
+evidence: Here, we developed Sensitive Transcriptomics And Genotyping by sequencing (STAG-seq), a high-throughput platform
+  designed to define mechanistic genotype-phenotype relationships through simultaneous single-cell measurements of genomic
+  DNA and RNA transcripts.

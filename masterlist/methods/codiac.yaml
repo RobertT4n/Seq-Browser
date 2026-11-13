@@ -1,0 +1,25 @@
+name: CODIAC
+full_name: Cell Organization and Disturbance-mapping using Image-Activated Cell-profiling
+category: wet
+summary: Pools of fluorescently tagged endogenous proteins are sorted by image-activated sorting into image-defined bins to
+  read each protein's localisation fingerprint.
+readouts:
+- protein-localization
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- imaging-guided-selection
+- amplicon-pcr
+reference:
+  doi: 10.64898/2026.08.06.742695
+  year: 2026
+  journal: bioRxiv
+  first_author: Krause MES
+  last_author: Steinmetz LM
+  title: Cell organization and disturbance-mapping using image activated cell-profiling (CODIAC)
+links: {}
+added: '2026-10-26'
+evidence: Here we introduce CODIAC (Cell Organization and Disturbance-mapping using Image-Activated Cell-profiling), which
+  couples image-enabled cell sorting (ICS) with improved Cas12a-assisted endogenous PCR tagging and machine-learning-guided
+  gating to profile pools of fluorescently tagged proteins.

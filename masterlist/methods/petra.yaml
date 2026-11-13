@@ -1,0 +1,29 @@
+name: PETRA
+full_name: Prime Editing of Transcribed Regulatory elements to Assay expression
+category: wet
+summary: Prime-edited variants delivered into transcribed regions (5'UTRs) are scored for effects on mRNA expression by amplicon
+  sequencing.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- prime-editing
+scope: targeted
+species:
+- human
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.11.18.689114
+  year: 2025
+  journal: bioRxiv
+  first_author: Reyes MA
+  last_author: Findlay GM
+  title: 'PETRA: Prime editing of transcribed regulatory elements to assay expression'
+links: {}
+added: '2026-10-26'
+evidence: Here, we present PETRA (Prime Editing of Transcribed Regulatory elements to Assay expression), a multiplexed genome
+  editing method to quantify the effects of regulatory variants at scale.

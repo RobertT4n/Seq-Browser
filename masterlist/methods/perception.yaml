@@ -1,0 +1,23 @@
+name: PERCEPTION
+full_name: PERsonalized Single-Cell Expression-Based Planning for Treatments In ONcology
+category: dry
+summary: Pipeline that trains drug-response models on matched bulk and single-cell cell-line profiles to predict patient treatment
+  response from tumour scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43018-024-00756-7
+  year: 2024
+  journal: Nat Cancer
+  first_author: Sinha S
+  last_author: Ruppin E
+  pmid: '38637658'
+  pmcid: PMC13447014
+  title: PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors
+links: {}
+added: '2026-11-13'
+evidence: To address this issue, we developed PERCEPTION (PERsonalized Single-Cell Expression-Based Planning for Treatments
+  In ONcology), a precision oncology computational pipeline.

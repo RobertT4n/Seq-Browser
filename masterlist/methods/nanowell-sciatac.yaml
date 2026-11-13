@@ -1,0 +1,34 @@
+name: Nanowell sciATAC
+category: wet
+summary: Combinatorial-indexing sciATAC in which the PCR indexing stage is done on a 5,184-nanowell chip, giving atlas-scale
+  cell throughput at lower per-cell cost.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e5-1e6
+validated_system:
+- tissue-in-vivo
+species:
+- mouse
+chemistry:
+- tn5
+- combinatorial-indexing
+- microwell-array
+variant_of:
+- sci-atac-seq
+reference:
+  doi: 10.1101/gr.276655.122
+  year: 2023
+  journal: Genome Res
+  first_author: O'Connell BL
+  last_author: Adey AC
+  pmid: '36792372'
+  pmcid: PMC10069466
+  title: Atlas-scale single-cell chromatin accessibility using nanowell-based combinatorial indexing
+links: {}
+added: '2026-11-13'
+evidence: Here we present advancements in single-cell combinatorial indexed Assay for Transposase Accessible Chromatin (sciATAC)
+  to measure chromatin accessibility that leverage nanowell chips to achieve atlas-scale cell throughput (>10 5 cells) at
+  low cost.

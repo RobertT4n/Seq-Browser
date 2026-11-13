@@ -1,0 +1,21 @@
+name: HaploClique
+category: dry
+summary: Method that reconstructs viral quasispecies haplotypes via maximal clique enumeration.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003515
+  year: 2014
+  journal: PLoS Comput Biol
+  first_author: Töpfer A
+  last_author: Beerenwinkel N
+  pmid: '24675810'
+  pmcid: PMC3967922
+  title: Viral quasispecies assembly via maximal clique enumeration
+links: {}
+added: '2026-11-13'
+evidence: We present HaploClique, a computational approach to reconstruct the structure of a viral quasispecies from next-generation
+  sequencing data as obtained from bulk sequencing of mixed virus samples.

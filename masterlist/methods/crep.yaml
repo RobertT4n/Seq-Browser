@@ -1,0 +1,22 @@
+name: CREP
+full_name: Cis-Regulatory Element Predictor
+category: dry
+summary: Fine-tuned Enformer model that predicts discrete cis-regulatory element annotations from DNA sequence.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- enformer
+reference:
+  doi: 10.64898/2026.06.05.730309
+  year: 2026
+  journal: bioRxiv
+  first_author: Stranieri N
+  last_author: Hughes JR
+  title: 'CREP: Cis-Regulatory Element Predictor Based on Fine-Tuned Enformer'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present CREP ( Cis -Regulatory Element Predictor), a fine-tuned version of Enformer trained to predict
+  regulatory element identity from sequence using REgulamentary-derived annotations across multiple human cell-types.

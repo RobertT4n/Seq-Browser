@@ -1,0 +1,23 @@
+name: PBA
+full_name: population balance analysis
+category: dry
+summary: Population balance analysis infers cell dynamics from single-cell snapshots using spectral graph theory under stated
+  constraints.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1714723115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Weinreb C
+  last_author: Klein AM
+  pmid: '29463712'
+  pmcid: PMC5878004
+  title: Fundamental limits on dynamic inference from single-cell snapshots
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe the aspects of gene expression dynamics that cannot be inferred from a static snapshot alone and
+  identify assumptions necessary to constrain a unique solution for cell dynamics from static snapshots.

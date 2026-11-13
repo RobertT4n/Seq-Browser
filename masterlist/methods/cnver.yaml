@@ -1,0 +1,21 @@
+name: CNVer
+category: dry
+summary: Algorithm that detects copy number variants by combining depth of coverage with paired-end mapping in a donor graph.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.106344.110
+  year: 2010
+  journal: Genome Res
+  first_author: Medvedev P
+  last_author: Brudno M
+  pmid: '20805290'
+  pmcid: PMC2963824
+  title: Detecting copy number variation with mated short reads
+links: {}
+added: '2026-11-13'
+evidence: Our algorithm, called CNVer, combines this information within a unified computational framework called the donor
+  graph, allowing us to better mitigate the sequencing biases that cause uneven local coverage and accurately predict CNVs.

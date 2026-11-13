@@ -1,0 +1,29 @@
+name: ESCAPE
+full_name: Endogenous Site-specific Competition Assays using Prime Editors
+category: wet
+summary: Prime editing creates cysteine-to-serine substitutions in many targets and allele-frequency resistance scores quantify
+  which covalent-ligand effects are site-specific.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- prime-editing
+- chemical-perturbation
+species:
+- human
+validated_system:
+- cell-line
+chemistry_unknown: allele-frequency readout chemistry not described in the abstract
+reference:
+  doi: 10.64898/2026.07.28.741261
+  year: 2026
+  journal: bioRxiv
+  first_author: Tse JE
+  last_author: Li H
+  title: 'ESCAPE: assigning site-specific activity to covalent ligands in cells by prime editing'
+links: {}
+added: '2026-11-13'
+evidence: Here we describe ESCAPE (Endogenous Site-specific Competition Assays using Prime Editors), a platform for the site-resolved
+  functional analysis of covalent ligands in cells.

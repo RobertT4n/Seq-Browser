@@ -1,0 +1,27 @@
+name: iiCLIP
+full_name: improved individual nucleotide resolution CLIP
+category: wet
+summary: Improved iCLIP protocol that goes from UV crosslinking to sequencing libraries in four days with high motif specificity.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+variant_of:
+- iclip
+reference:
+  doi: 10.1101/2021.08.27.457890
+  year: 2021
+  journal: bioRxiv
+  first_author: Lee FCY
+  last_author: Ule J
+  title: An improved iCLIP protocol
+links: {}
+added: '2026-10-26'
+evidence: Here we describe an improved individual nucleotide resolution CLIP protocol (iiCLIP), which can be completed within
+  4 days from UV crosslinking to libraries for sequencing.

@@ -1,0 +1,24 @@
+name: clue
+category: dry
+summary: Reference-free framework for multiplexed single-cell sequencing that demultiplexes donors by SNP clustering (freemuxlet)
+  without reference genotypes or sample barcodes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+aliases:
+- freemuxlet
+reference:
+  doi: 10.1101/2023.05.29.542756
+  year: 2023
+  journal: bioRxiv
+  first_author: Hartoularos GC
+  last_author: Ye CJ
+  title: Reference-free multiplexed single-cell sequencing identifies genetic modifiers of the human immune response
+links: {}
+added: '2026-11-13'
+evidence: Here we introduce the clue framework, a novel approach to encode mux-seq experiments that eliminates the need for
+  reference genotypes and experimental barcoding.

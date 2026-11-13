@@ -1,0 +1,24 @@
+name: BLASR
+full_name: Basic Local Alignment with Successive Refinement
+category: dry
+summary: Aligner for single-molecule sequencing reads of tens of kilobases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-13-238
+  year: 2012
+  journal: BMC Bioinformatics
+  first_author: Chaisson MJ
+  last_author: Tesler G
+  pmid: '22988817'
+  pmcid: PMC3572422
+  title: 'Mapping single molecule sequencing reads using basic local alignment with successive refinement (BLASR): application
+    and theory'
+links: {}
+added: '2026-11-13'
+evidence: Results We describe the method BLASR (Basic Local Alignment with Successive Refinement) for mapping Single Molecule
+  Sequencing (SMS) reads that are thousands of bases long, with divergence between the read and genome dominated by insertion
+  and deletion error.

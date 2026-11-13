@@ -1,0 +1,22 @@
+name: CPM
+full_name: Cell Population Mapping
+category: dry
+summary: Deconvolution algorithm that uses reference scRNA-seq profiles to infer cell composition of bulk samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0355-5
+  year: 2019
+  journal: Nat Methods
+  first_author: Frishberg A
+  last_author: Gat-Viks I
+  pmid: '30886410'
+  pmcid: PMC6443043
+  title: Cell composition analysis of bulk genomics using single-cell data
+links: {}
+added: '2026-11-13'
+evidence: We introduce Cell Population Mapping (CPM), a deconvolution algorithm in which reference scRNA-seq profiles are
+  leveraged to infer the composition of cell types and states from bulk transcriptome data ('scBio' CRAN R-package).

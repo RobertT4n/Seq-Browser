@@ -1,0 +1,26 @@
+name: BRB-seq
+full_name: Bulk RNA Barcoding and sequencing
+category: wet
+summary: Early-multiplexed bulk RNA-seq that barcodes many samples before pooling to make 3-prime-enriched libraries at low
+  cost.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-019-1671-x
+  year: 2019
+  journal: Genome Biol
+  first_author: Alpern D
+  last_author: Deplancke B
+  pmid: '30999927'
+  pmcid: PMC6474054
+  title: 'BRB-seq: ultra-affordable high-throughput transcriptomics enabled by bulk RNA barcoding and sequencing'
+  preprint_doi: 10.1101/256594
+links: {}
+added: '2026-11-13'
+evidence: Here, we present a novel approach, Bulk RNA Barcoding and sequencing (BRB-seq), that combines the multiplexing-driven
+  cost-effectiveness of a single-cell RNA-seq workflow with the performance of a bulk RNA-seq procedure.

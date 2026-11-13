@@ -1,0 +1,20 @@
+name: TreeVAE
+category: dry
+summary: Probabilistic variational-autoencoder framework that estimates ancestral transcriptional states from paired lineage-tracing
+  and scRNA-seq data.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.05.28.446021
+  year: 2021
+  journal: bioRxiv
+  first_author: Ouardini K
+  last_author: Yosef N
+  title: Reconstructing unobserved cellular states from paired single-cell lineage tracing and transcriptomics data
+links: {}
+added: '2026-11-13'
+evidence: 'To address this, we introduce TreeVAE: a probabilistic framework for estimating ancestral transcriptional states.'

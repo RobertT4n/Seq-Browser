@@ -1,0 +1,21 @@
+name: CHAMOIS
+category: dry
+summary: Machine-learning tool that predicts chemical properties of secondary metabolites from protein domains annotated in
+  biosynthetic gene clusters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1101/2025.03.13.642868
+  year: 2025
+  journal: bioRxiv
+  first_author: Larralde M
+  last_author: Zeller G
+  title: Machine learning inference of natural product chemistry across biosynthetic gene cluster types
+links: {}
+added: '2026-11-13'
+evidence: Here, we present CHAMOIS, a machine learning tool inferring metabolite properties from protein domains in BGCs.

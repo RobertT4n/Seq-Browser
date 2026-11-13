@@ -1,0 +1,22 @@
+name: VALERIE
+category: dry
+summary: R package that visualizes alternative-splicing events across single cells and tests percent-spliced-in differences
+  between cell groups.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008195
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Wen WX
+  last_author: Thongjuea S
+  pmid: '32898151'
+  pmcid: PMC7500686
+  title: 'VALERIE: Visual-based inspection of alternative splicing events at single-cell resolution'
+links: {}
+added: '2026-11-13'
+evidence: We present VALERIE (Visualising alternative splicing events from single-cell ribonucleic acid-sequencing experiments),
+  an R package for visualising alternative splicing events at single-cell resolution.

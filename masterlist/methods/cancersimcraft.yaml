@@ -1,0 +1,20 @@
+name: cancerSimCraft
+category: dry
+summary: Multi-resolution simulator of cancer genomes (CNV, SNV, WGD) at clonal and single-cell level with ground-truth tracking
+  for benchmarking scDNA-seq tools.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.11.627708
+  year: 2024
+  journal: bioRxiv
+  first_author: Jin H
+  last_author: Chen K
+  title: 'cancerSimCraft: A Multi-resolution Cancer Genome Simulator with Comprehensive Ground Truth Tracking'
+links: {}
+added: '2026-10-26'
+evidence: Here we present cancerSimCraft, a comprehensive framework for simulating cancer genome data at both clonal and single-cell
+  resolution.

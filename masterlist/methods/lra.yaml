@@ -1,0 +1,23 @@
+name: lra
+category: dry
+summary: Aligner for long reads and megabase contigs using sparse dynamic programming.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009078
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Ren J
+  last_author: Chaisson MJP
+  pmid: '34153026'
+  pmcid: PMC8248648
+  title: 'lra: A long read aligner for sequences and contigs'
+  preprint_doi: 10.1101/2020.11.15.383273
+links: {}
+added: '2026-11-13'
+evidence: Because previous implementations of SDP used a linear-cost gap function that does not accurately model variation,
+  and implementations of alignment that have a convex gap penalty are either inefficient or use heuristics, we developed a
+  method, lra, that uses SDP with a convex-cost gap penalty.

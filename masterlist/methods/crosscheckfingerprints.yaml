@@ -1,0 +1,22 @@
+name: CrosscheckFingerprints
+category: dry
+summary: Tool using linkage disequilibrium fingerprints to quantify sample relatedness and detect swapped or mislabelled sequencing
+  datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-17453-5
+  year: 2020
+  journal: Nat Commun
+  first_author: Javed N
+  last_author: Shoresh N
+  pmid: '32728101'
+  pmcid: PMC7391710
+  title: Detecting sample swaps in diverse NGS data types using linkage disequilibrium
+links: {}
+added: '2026-11-13'
+evidence: We present CrosscheckFingerprints (Crosscheck), a tool for quantifying sample-relatedness and detecting incorrectly
+  paired sequencing datasets from different donors.

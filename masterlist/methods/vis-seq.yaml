@@ -1,0 +1,33 @@
+name: VIS-seq
+full_name: variant in situ sequencing
+category: wet
+summary: 'Pooled image-based variant screening: variant barcodes are read by in situ sequencing in each cell, linking ~3,000
+  variants to high-dimensional morphological phenotypes.'
+readouts:
+- functional-screen
+resolution:
+- single-cell
+scope: targeted
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+  step
+builds_on:
+- optical-pooled-screens
+reference:
+  doi: 10.1016/j.cell.2026.04.031
+  year: 2026
+  journal: Cell
+  first_author: Pendyala S
+  last_author: Fowler DM
+  pmid: '42127894'
+  pmcid: PMC13235708
+  title: Image-based, pooled phenotyping reveals multidimensional, disease-specific variant effects
+links: {}
+added: '2026-11-13'
+evidence: We developed variant in situ sequencing (VIS-seq), a pooled, image-based method measuring variant effects on molecular
+  and cellular phenotypes in diverse cell types.

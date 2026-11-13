@@ -1,0 +1,30 @@
+name: ccMPRA
+full_name: Capture-C MPRA
+category: wet
+summary: Capture-C combined with MPRA reads promoter-CRE chromatin interactions and the regulatory activity of the CREs together
+  with their target promoters.
+readouts:
+- 3d-genome
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- proximity-ligation
+- oligo-capture
+builds_on:
+- capture-c
+- mpra
+reference:
+  doi: 10.1101/2025.06.11.658967
+  year: 2025
+  journal: bioRxiv
+  first_author: Arnould C
+  last_author: Ahituv N
+  title: 'Capture-C MPRA: A high-throughput method to simultaneously characterize promoter interactions and regulatory activity'
+links: {}
+added: '2026-10-26'
+evidence: Here, we developed a novel technology called Capture-C MPRA (ccMPRA) that combines both technologies and can simultaneously
+  obtain chromatin interactions and measure CRE activity alongside their target promoters.

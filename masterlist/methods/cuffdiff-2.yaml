@@ -1,0 +1,24 @@
+name: Cuffdiff 2
+category: dry
+summary: Algorithm that estimates transcript-level expression with a model of measurement variability for differential analysis
+  of RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- cufflinks
+reference:
+  doi: 10.1038/nbt.2450
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Trapnell C
+  last_author: Pachter L
+  pmid: '23222703'
+  pmcid: PMC3869392
+  title: Differential analysis of gene regulation at transcript resolution with RNA-seq
+links: {}
+added: '2026-11-13'
+evidence: We present Cuffdiff 2, an algorithm that estimates expression at transcript-level resolution and controls for variability
+  evident across replicate libraries.

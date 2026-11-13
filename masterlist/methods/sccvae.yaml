@@ -1,0 +1,22 @@
+name: SCCVAE
+full_name: Single Cell Causal Variational Autoencoder
+category: dry
+summary: Variational causal-inference model that learns Perturb-seq effects and generalizes to unseen perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1013194
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Liu E
+  last_author: Uhler C
+  pmid: '41628222'
+  pmcid: PMC12885384
+  title: Learning genetic perturbation effects with variational causal inference
+  preprint_doi: 10.1101/2025.06.05.657988
+links: {}
+added: '2026-11-13'
+evidence: Single Cell Causal Variational

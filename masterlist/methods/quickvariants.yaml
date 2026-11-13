@@ -1,0 +1,24 @@
+name: QuickVariants
+category: dry
+summary: Fast bioinformatics tool that summarizes variant information from read alignments and calls point mutations and indels,
+  aimed at microbial sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1186/s12915-024-01891-4
+  year: 2024
+  journal: BMC Biol
+  first_author: Gaston JM
+  last_author: Zhang AN
+  pmid: '38644496'
+  pmcid: PMC11034086
+  title: Fast and accurate variant identification tool for sequencing-based studies
+links: {}
+added: '2026-11-13'
+evidence: We present QuickVariants, a bioinformatics tool that effectively summarizes variant information from read alignments
+  and identifies variants.

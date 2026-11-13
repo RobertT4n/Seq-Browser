@@ -1,0 +1,26 @@
+name: LFR
+full_name: Long fragment read
+category: wet
+summary: Long fragment read library prep from ~100 pg of DNA from 10 to 20 cells yields whole-genome sequence with long haplotype
+  contigs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry_unknown: Library chemistry (dilution of long fragments, per-well amplification and barcoding) not described in abstract
+reference:
+  doi: 10.1038/nature11236
+  year: 2012
+  journal: Nature
+  first_author: Peters BA
+  last_author: Drmanac R
+  pmid: '22785314'
+  pmcid: PMC3397394
+  title: Accurate whole-genome sequencing and haplotyping from 10 to 20 human cells
+links: {}
+added: '2026-10-26'
+evidence: Here we describe a low-cost DNA sequencing and haplotyping process, long fragment read (LFR) technology, which is
+  similar to sequencing long single DNA molecules without cloning or separation of metaphase chromosomes.

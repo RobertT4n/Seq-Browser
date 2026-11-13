@@ -1,0 +1,19 @@
+name: SCORPIUS
+category: dry
+summary: Trajectory inference method that orders single cells along a developmental path and identifies modules along it.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/079509
+  year: 2016
+  journal: bioRxiv
+  first_author: Cannoodt R
+  last_author: Saeys Y
+  title: SCORPIUS improves trajectory inference and identifies novel modules in dendritic cell development
+links: {}
+added: '2026-11-13'
+evidence: We introduce SCORPIUS, a method which can effectively reconstruct an ordering of individual cells without any prior
+  information about the dynamic process.

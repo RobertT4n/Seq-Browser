@@ -1,0 +1,23 @@
+name: SPAdes
+category: dry
+summary: Genome assembly algorithm designed for single-cell and multicell sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2012.0021
+  year: 2012
+  journal: J Comput Biol
+  first_author: Bankevich A
+  last_author: Pevzner PA
+  pmid: '22506599'
+  pmcid: PMC3342519
+  title: 'SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing'
+links: {}
+added: '2026-11-13'
+evidence: We describe SPAdes, a new assembler for both single-cell and standard (multicell) assembly, and demonstrate that
+  it improves on the recently released E+V-SC assembler (specialized for single-cell data) and on popular assemblers Velvet
+  and SoapDeNovo (for multicell data).

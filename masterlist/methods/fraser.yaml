@@ -1,0 +1,23 @@
+name: FRASER
+category: dry
+summary: Algorithm that detects aberrant splicing, including intron retention, in RNA-seq data while controlling for latent
+  confounders.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41467-020-20573-7
+  year: 2021
+  journal: Nat Commun
+  first_author: Mertes C
+  last_author: Gagneur J
+  pmid: '33483494'
+  pmcid: PMC7822922
+  title: Detection of aberrant splicing events in RNA-seq data using FRASER
+links: {}
+added: '2026-11-13'
+evidence: Here, we develop FRASER, an algorithm to detect aberrant splicing from RNA sequencing data.

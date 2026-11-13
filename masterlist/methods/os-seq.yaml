@@ -1,0 +1,28 @@
+name: OS-Seq
+full_name: oligonucleotide-selective sequencing
+category: wet
+summary: Targeted resequencing where the sequencer's immobilised primer lawn captures target DNA and then primes sequencing,
+  so capture and sequencing happen on the same surface.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1038/nbt.1996
+  year: 2011
+  journal: Nat Biotechnol
+  first_author: Myllykangas S
+  last_author: Ji HP
+  pmid: '22020387'
+  pmcid: PMC4336783
+  title: Efficient targeted resequencing of human germline and cancer genomes by oligonucleotide-selective sequencing
+links: {}
+added: '2026-11-13'
+evidence: We describe an approach for targeted genome resequencing, called oligonucleotide-selective sequencing (OS-Seq),
+  in which we modify the immobilized lawn of oligonucleotide primers of a next-generation DNA sequencer to function as both
+  a capture and sequencing substrate.

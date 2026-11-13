@@ -1,0 +1,24 @@
+name: CoPhasing
+category: dry
+summary: Strategy that phases SNV-free GAM reads by proximity to haplotype-informative reads, giving haplotype-resolved 3D
+  genome maps in SNV-sparse human genomes.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- gam
+reference:
+  doi: 10.64898/2026.06.16.732681
+  year: 2026
+  journal: bioRxiv
+  first_author: Markowski J
+  last_author: Schwarz RF
+  title: Haplotype-resolved genome architecture mapping uncovers pervasive structural heterogeneity between human homologous
+    chromosomes
+links: {}
+added: '2026-11-13'
+evidence: Here, we present CoPhasing, a strategy that leverages the intrinsic haplotype fidelity of Genome Architecture Mapping
+  (GAM), a ligation-free method that inherently captures haplotype-matched genomic neighborhoods in thin nuclear slices.

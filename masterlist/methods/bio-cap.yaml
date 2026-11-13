@@ -1,0 +1,27 @@
+name: Bio-CAP
+full_name: biotinylated CxxC affinity purification
+category: wet
+summary: Biotinylated CxxC affinity purification that isolates non-methylated CpG-rich DNA (CpG islands) for qPCR or sequencing
+  from nanogram inputs.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry_unknown: CxxC-domain affinity purification is not a chemistry tag in the taxonomy
+reference:
+  doi: 10.1093/nar/gkr1207
+  year: 2012
+  journal: Nucleic Acids Res
+  first_author: Blackledge NP
+  last_author: Klose RJ
+  pmid: '22156374'
+  pmcid: PMC3287171
+  title: 'Bio-CAP: a versatile and highly sensitive technique to purify and characterise regions of non-methylated DNA'
+links: {}
+added: '2026-11-13'
+evidence: Here we describe a new CAP approach, called biotinylated CAP (Bio-CAP), which eliminates the requirement for specialized
+  equipment while dramatically improving and simplifying the CxxC-based DNA affinity purification.

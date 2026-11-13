@@ -1,0 +1,31 @@
+name: LIMe-Hi-C
+full_name: Lamina-Inducible Methylation and Hi-C
+category: wet
+summary: Jointly measures chromosome conformation, DNA methylation and nuclear lamina contact in the same cells.
+readouts:
+- 3d-genome
+- dna-methylation
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+chemistry_unknown: How the lamin-induced methylation (Dam) is read out alongside Hi-C ligation is not stated in the abstract
+builds_on:
+- damid
+- methyl-hic
+reference:
+  doi: 10.1038/s41467-022-31857-5
+  year: 2022
+  journal: Nat Commun
+  first_author: Siegenfeld AP
+  last_author: Liau BB
+  pmid: '35859152'
+  pmcid: PMC9300685
+  title: Polycomb-lamina antagonism partitions heterochromatin at the nuclear periphery
+  preprint_doi: 10.1101/2022.04.28.489608
+links: {}
+added: '2026-10-26'
+evidence: Here we developed an approach termed Lamina-Inducible Methylation and Hi-C (LIMe-Hi-C) that jointly measures chromosome
+  conformation, DNA methylation, and nuclear lamina positioning.

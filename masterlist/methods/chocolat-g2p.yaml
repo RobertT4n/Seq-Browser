@@ -1,0 +1,31 @@
+name: CHOCOLAT-G2P
+category: wet
+summary: Pairs multiplex in vivo functional genomics with spatial transcriptomics by reusing RNA-templated ligation probes
+  of a commercial platform to read genotype and transcriptome from one tissue section.
+readouts:
+- rna
+- functional-screen
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+- oligo-capture
+- spatial-barcode-array
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.05.14.593940
+  year: 2024
+  journal: bioRxiv
+  first_author: Breinig M
+  last_author: Tschaharganeh DF
+  title: Integrated combinatorial functional genomics and spatial transcriptomics of tumors decodes genotype to phenotype
+    relationships
+links: {}
+added: '2026-11-13'
+evidence: we present CHOCOLAT-G2P, a scalable approach that integrates multiplex in vivo functional genomics with spatial
+  transcriptomics.

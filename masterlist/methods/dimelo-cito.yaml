@@ -1,0 +1,30 @@
+name: DiMeLo-cito
+category: wet
+summary: Single-tube, wash-free version of DiMeLo-seq that maps protein-DNA interactions by long-read sequencing from as few
+  as 100,000 cells, including mitotic cells.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+scope: genome-wide
+species:
+- human
+chemistry:
+- antibody-tethered-enzyme
+- long-read-sequencing
+variant_of:
+- dimelo-seq
+reference:
+  doi: 10.1101/2025.03.11.642717
+  year: 2025
+  journal: bioRxiv
+  first_author: Gamarra N
+  last_author: Altemose N
+  title: 'DiMeLo-cito: a one-tube protocol for mapping protein-DNA interactions reveals CTCF bookmarking in mitosis'
+links: {}
+added: '2026-10-26'
+evidence: To address this, we developed DiMeLo-cito, a single-tube, wash-free protocol that maximizes the yield and quality
+  of genomic DNA obtained for long-read sequencing.

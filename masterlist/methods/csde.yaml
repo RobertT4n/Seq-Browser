@@ -1,0 +1,21 @@
+name: CSDE
+full_name: Corrected Spatial Differential Expression
+category: dry
+summary: Method building on prediction-powered inference that uses a small set of expert-validated cells to correct spatial
+  differential expression for preprocessing errors.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.01.15.699786
+  year: 2026
+  journal: bioRxiv
+  first_author: Boyeau P
+  last_author: Yosef N
+  title: Mitigating Bias in Spatial Transcriptomic Pipelines via Human Feedback
+links: {}
+added: '2026-11-13'
+evidence: We introduce Corrected Spatial Differential Expression (CSDE), a method that builds on Prediction-Powered Inference
+  to leverage a small set of expert-validated data points (cells) to account for uncertainty due to preprocessing errors.

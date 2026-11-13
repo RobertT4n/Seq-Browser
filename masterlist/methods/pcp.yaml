@@ -1,0 +1,29 @@
+name: PCP
+full_name: Proximity Copy Paste
+category: wet
+summary: Proximity tagging that assigns shared DNA barcodes to molecules (e.g. nucleosomes) associated in 3D, reading nucleosome
+  connectivity and multi-way contacts on single chromatin fibres.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- single-molecule
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry_unknown: proximity-tagging barcode-copy mechanism not described in abstract and not in the chemistry taxonomy
+reference:
+  doi: 10.1016/j.molcel.2025.06.018
+  year: 2025
+  journal: Mol Cell
+  first_author: Delamarre A
+  last_author: Whitehouse I
+  pmid: '40680724'
+  pmcid: PMC12492374
+  title: Chromatin architecture mapping by multiplex proximity tagging
+  preprint_doi: 10.1101/2024.11.12.623258
+links: {}
+added: '2026-11-13'
+evidence: we developed a novel proximity-tagging method which assigns unique DNA barcodes to molecules that associate in 3D
+  space. Using this method – Proximity Copy Paste (PCP)

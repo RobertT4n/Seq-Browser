@@ -1,0 +1,22 @@
+name: INLAomics
+category: dry
+summary: Hierarchical Bayesian model that links spatial transcriptomics to spatial protein abundance for gene-protein networks
+  and protein prediction.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.05.02.651831
+  year: 2025
+  journal: bioRxiv
+  first_author: Arnroth L
+  last_author: Vickovic S
+  title: INLAomics for Scalable and Interpretable Spatial Multiomic Data Integration
+links: {}
+added: '2026-10-26'
+evidence: To address these limitations, we developed INLAomics, a multivariate hierarchical Bayesian framework that models
+  protein abundance in tissue sections by leveraging histological features and latent spatial factors inferred from spatial
+  transcriptomics data.
