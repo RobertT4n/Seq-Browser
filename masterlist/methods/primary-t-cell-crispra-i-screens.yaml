@@ -3,8 +3,8 @@ category: wet
 summary: Genome-wide CRISPR activation and interference screens in primary human T cells, sorted on cytokine output, with
   single-cell readouts for selected hits.
 readouts:
-- rna
 - functional-screen
+- rna
 resolution:
 - bulk
 - single-cell
@@ -12,14 +12,18 @@ perturbation:
 - crispr-interference
 - crispr-activation
 scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
 chemistry:
 - facs-sorting
 - reverse-transcription
 - droplet-microfluidics
 - amplicon-pcr
 builds_on:
-- crispri-a-pooled-screening
-- crop-seq
+- direct-capture-perturb-seq
+- perturb-seq
 reference:
   doi: 10.1126/science.abj4008
   year: 2022

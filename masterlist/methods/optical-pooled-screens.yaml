@@ -11,8 +11,13 @@ resolution:
 perturbation:
 - crispr-knockout
 scope: targeted
+species:
+- human
+validated_system:
+- cell-line
 chemistry:
-- imaging-guided-selection
+- reverse-transcription
+partition_unknown: not stated in the abstract
 reference:
   doi: 10.1016/j.cell.2019.09.016
   year: 2019

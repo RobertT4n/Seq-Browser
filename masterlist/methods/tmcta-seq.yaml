@@ -12,17 +12,19 @@ chemistry:
 - bisulfite-or-enzymatic-conversion
 - amplicon-pcr
 reference:
-  doi: 10.1016/j.xpro.2026.104791
+  doi: 10.1016/j.isci.2025.114342
   year: 2026
-  journal: STAR Protoc
+  journal: iScience
   first_author: Jiang Z
   last_author: Zhou X
-  pmid: '42623237'
-  pmcid: PMC13505419
-  title: Protocol for detecting cancer in blood using targeted DNA methylation
+  pmid: '41509908'
+  pmcid: PMC12774679
+  title: A targeted DNA methylation method for detecting gastrointestinal cancer in circulating cell-free DNA
+previous_reference_doi: 10.1016/j.xpro.2026.104791
 links: {}
 added: '2026-11-09'
-evidence: Here, we present a protocol for detecting and differentiating colorectal and gastric cancers using plasma cell-free
-  DNA (cfDNA) with targeted methylated CpG tandem amplification and sequencing (tMCTA-seq), a targeted DNA methylation sequencing
-  approach.
-reference_review: "better origin iScience 10.1016/j.isci.2025.114342 (this DOI is a STAR Protocols chapter); audit 4"
+evidence: we developed targeted methylated CpG tandem amplification and sequencing (tMCTA-seq), a PCR-based method utilizing
+  a set of locus-specific primers with a universal CGCGCGG primer, and targeted a panel of 110 loci.
+reference_review: 'resolved 2026-11-13: reference repointed to the iScience origin paper 10.1016/j.isci.2025.114342 (abstract
+  and full text verified: bisulfite + PCR, 110 loci, 448 plasma samples); the STAR Protocols chapter 10.1016/j.xpro.2026.104791
+  is kept as previous_reference_doi; no retag needed'

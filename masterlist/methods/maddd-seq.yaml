@@ -1,0 +1,24 @@
+name: MADDD-seq
+full_name: Mutation And DNA Damage Detection-seq
+category: wet
+summary: Massively parallel sequencing assay that detects O6-methylguanine lesions and mutations in one run, tracking both through DNA repair and mutagenesis time courses.
+readouts:
+- dna-damage
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1093/nar/gkae632
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Vermulst M
+  last_author: Bielas JH
+  pmid: '39149908'
+  pmcid: PMC11381349
+  title: MADDD-seq, a novel massively parallel sequencing tool for simultaneous detection of DNA damage and mutations.
+links: {}
+added: '2026-11-09'
+evidence: In this study, we describe a massively parallel sequencing tool termed Mutation And DNA Damage Detection-seq (MADDD-seq) that is capable of detecting O6-methyl guanine lesions and mutations simultaneously, with a single assay.

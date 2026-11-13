@@ -1,0 +1,22 @@
+name: SLAC
+full_name: SingLe-read Analysis of Crosstalks
+category: dry
+summary: Single-read tRNA-seq analysis that links modification, fragmentation and aminoacylation status on individual tRNA molecules.
+readouts:
+- rna-modification
+- rna
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac1185
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Hernandez-Alias X
+  last_author: Pan T
+  pmid: '36537222'
+  pmcid: PMC9943672
+  title: Single-read tRNA-seq analysis reveals coordination of tRNA modification and aminoacylation and fragmentation
+links: {}
+added: '2026-11-09'
+evidence: Our method, SingLe-read Analysis of Crosstalks (SLAC), reveals tRNAome-wide networks of modifications, aminoacylation, and fragmentation.

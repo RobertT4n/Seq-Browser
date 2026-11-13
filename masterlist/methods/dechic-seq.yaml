@@ -1,0 +1,26 @@
+name: DeChIC-seq
+full_name: DNA Deaminase-based Chromatin Immuno-Conversion sequencing
+category: wet
+summary: Antibody-tethered protein A-DddAtox deaminase converts C-to-U near bound chromatin, recording histone-mark and TF occupancy without immunoprecipitation, with a single-cell extension.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41422-026-01275-z
+  year: 2026
+  journal: Cell Res
+  first_author: Shi Z
+  last_author: Liu X
+  pmid: '42443520'
+  title: Genome-wide profiling of histone modifications and transcription factor binding at single-cell resolution by DeChIC-seq
+links: {}
+added: '2026-11-09'
+evidence: Here, we establish DeChIC-seq (DNA Deaminase-based Chromatin Immuno-Conversion sequencing), a conversion-based strategy that uses a protein A-DddAtox fusion to directly record protein-DNA interactions by inducing localized C-to-U conversions near antibody-bound chromatin.

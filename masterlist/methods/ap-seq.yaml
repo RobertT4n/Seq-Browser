@@ -1,21 +1,34 @@
 name: AP-seq
-full_name: Abasic-site sequencing
+full_name: Apurinic-site sequencing
 category: wet
-summary: Chemical tagging of abasic sites maps them at single-nucleotide resolution genome-wide.
+summary: Biotin-tagging of apurinic (AP) sites with an aldehyde-reactive probe, then streptavidin pull-down of fragmented
+  DNA, maps AP-site damage at about 250 bp resolution genome-wide.
 readouts:
 - dna-damage
 resolution:
 - bulk
 scope: genome-wide
-chemistry:
-- adapter-ligation
+species:
+- human
+validated_system:
+- cell-line
+chemistry_unknown: aldehyde-reactive-probe biotin tagging plus streptavidin pull-down has no taxonomy tag (MISSING_TAG candidate);
+  adapter-ligation removed, it described snAP-seq
 reference:
-  doi: 10.1038/s41557-019-0279-9
-  year: 2019
-  journal: Nat Chem
-  first_author: Liu ZJ
-  last_author: Balasubramanian S
-  title: Sequencing abasic sites in DNA at single-nucleotide resolution
+  doi: 10.1186/s13059-018-1582-2
+  year: 2018
+  journal: Genome Biol
+  first_author: Poetsch AR
+  last_author: Luscombe NM
+  pmid: '30526646'
+  pmcid: PMC6284305
+  title: Genomic landscape of oxidative DNA damage and repair reveals regioselective protection from mutagenesis
+previous_reference_doi: 10.1038/s41557-019-0279-9
+shared_doi: same Genome Biol 2018 paper also introduces the 8-oxoG arm, filed as ogg1-ap-seq
 links: {}
 added: '2026-11-12'
-reference_review: "this DOI describes snAP-seq; AP-seq origin is 10.1186/s13059-018-1582-2; audit 4"
+evidence: we developed a novel method, AP-seq, capable of mapping apurinic sites and 8-oxo-7,8-dihydroguanine bases at approximately
+  250-bp resolution on a genome-wide scale.
+reference_review: 'resolved 2026-11-13: reference repointed to the AP-seq origin paper 10.1186/s13059-018-1582-2 (Poetsch
+  2018, abstract and full text verified); the old DOI 10.1038/s41557-019-0279-9 is snAP-seq, already its own entry snap-seq,
+  so no new file was needed'

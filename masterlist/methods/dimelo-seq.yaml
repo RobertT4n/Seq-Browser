@@ -5,12 +5,21 @@ summary: Antibody-tethered methyltransferase deposits m6A near a protein of inte
   on single molecules.
 readouts:
 - protein-dna-binding
+- histone-modification
+- dna-methylation
 resolution:
 - bulk
 - single-molecule
 scope: genome-wide
 platform:
 - long-read
+- nanopore
+- pacbio
+species:
+- human
+validated_system:
+- cell-line
+targets: [LMNB1, CTCF, CENP-A]
 chemistry:
 - antibody-tethered-enzyme
 - long-read-sequencing

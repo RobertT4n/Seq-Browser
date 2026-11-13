@@ -9,6 +9,11 @@ resolution:
 perturbation:
 - crispr-interference
 scope: genome-wide
+throughput: gt-1e6
+species:
+- human
+validated_system:
+- cell-line
 chemistry:
 - reverse-transcription
 - droplet-microfluidics

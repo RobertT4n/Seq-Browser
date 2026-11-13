@@ -6,14 +6,20 @@ summary: Perturb-seq with dCas9-KRAB gene repression instead of knockout, used t
   protein response from single-cell transcriptomes.
 readouts:
 - rna
+- functional-screen
 resolution:
 - single-cell
 perturbation:
 - crispr-interference
-scope: targeted
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
 chemistry:
 - reverse-transcription
 - droplet-microfluidics
+- facs-sorting
 builds_on:
 - perturb-seq
 reference:

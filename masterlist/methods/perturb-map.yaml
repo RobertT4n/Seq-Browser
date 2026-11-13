@@ -3,17 +3,20 @@ category: wet
 summary: Pooled in vivo CRISPR knockout screening read out by spatial imaging of protein-barcoded perturbed clones and spatial
   transcriptomics in tumours.
 readouts:
-- protein
+- functional-screen
 - rna
 resolution:
 - spatial
 perturbation:
 - crispr-knockout
 scope: targeted
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
 chemistry:
 - spatial-barcode-array
-builds_on:
-- perturb-seq
+- reverse-transcription
 reference:
   doi: 10.1016/j.cell.2022.02.015
   year: 2022

@@ -5,10 +5,16 @@ summary: Low-input version of SAMOSA that uses Tn5 tagmentation and exogenous ad
   on PacBio single molecules.
 readouts:
 - chromatin-accessibility
+- dna-methylation
 resolution:
 - bulk
 - single-molecule
 scope: genome-wide
+species:
+- human
+input_sample:
+- nuclei
+- low-input
 platform:
 - long-read
 - pacbio

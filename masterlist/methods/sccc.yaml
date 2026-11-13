@@ -1,0 +1,18 @@
+name: scCC
+full_name: single-cell calling cards
+category: wet
+summary: Single-cell assay that records TF-transposase insertions in self-reporting transposons, linking gene expression to TF binding sites in the same cells.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2020.06.037
+links: {}
+added: '2026-11-09'
+evidence: We present self-reporting transposons (SRTs) and use them in single-cell calling cards (scCC), a novel assay for simultaneously measuring gene expression and mapping TFBS in single cells.

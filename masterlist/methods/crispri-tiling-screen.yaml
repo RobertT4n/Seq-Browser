@@ -1,7 +1,7 @@
 name: CRISPRi tiling screen
 category: wet
-summary: CRISPRi guides tiled across regulatory regions near a gene, with sorted cells and guide sequencing used to find the
-  enhancers that control that gene.
+summary: CRISPRi guides tiled across ~1.3 Mb of noncoding sequence around MYC and GATA1, with guide representation counted by
+  sequencing after cell growth to find the enhancers that control those genes.
 readouts:
 - functional-screen
 resolution:
@@ -9,9 +9,11 @@ resolution:
 perturbation:
 - crispr-interference
 scope: targeted
-chemistry:
-- facs-sorting
-- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+chemistry_unknown: "guide library prep not described in the main text (sgRNA representation sequenced before/after growth); earlier facs-sorting tag removed because the paper's screen is growth-based"
 builds_on:
 - crispri-a-pooled-screening
 reference:

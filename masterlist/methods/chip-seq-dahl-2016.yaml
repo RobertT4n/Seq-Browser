@@ -1,0 +1,37 @@
+name: μChIP-seq (Dahl 2016)
+full_name: Micro-scale chromatin immunoprecipitation and sequencing
+category: wet
+summary: Micro-scale ChIP-seq that profiles histone H3 lysine methylation and acetylation from very few cells, used on mouse
+  oocytes and early embryos.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+validated_system:
+- primary-cells
+species:
+- mouse
+targets:
+- H3K4me3
+- H3K27ac
+chemistry:
+- antibody-pull-down
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1038/nature19360
+  year: 2016
+  journal: Nature
+  first_author: Dahl JA
+  last_author: Klungland A
+  pmid: '27626377'
+  pmcid: PMC6283663
+  title: Broad histone H3K4me3 domains in mouse oocytes modulate maternal-to-zygotic transition
+links: {}
+added: '2026-11-13'
+evidence: We developed a micro-scale chromatin immunoprecipitation and sequencing (μChIP-seq) method, which we used to profile
+  genome-wide histone H3 lysine methylation (H3K4me3) and acetylation (H3K27ac) in mouse immature and metaphase II oocytes
+  and in 2-cell and 8-cell embryos.

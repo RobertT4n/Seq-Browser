@@ -8,10 +8,15 @@ resolution:
 - single-cell
 perturbation:
 - crispr-knockout
-scope: targeted
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
 chemistry:
 - reverse-transcription
 - droplet-microfluidics
+- facs-sorting
 builds_on:
 - perturb-seq
 reference:

@@ -1,0 +1,18 @@
+name: CRISPR-DS
+full_name: CRISPR/Cas9 targeted genome fragmentation with Duplex Sequencing
+category: wet
+summary: Cas9 cleavage produces uniform-length fragments of target regions for size-selected enrichment and Duplex Sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+variant_of:
+- duplex-sequencing
+reference:
+  doi: 10.1101/gr.235291.118
+links: {}
+added: '2026-11-09'
+evidence: we developed a targeted genome fragmentation approach based on CRISPR/Cas9 digestion that produces DNA fragments of similar length.
