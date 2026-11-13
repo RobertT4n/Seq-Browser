@@ -21,7 +21,7 @@
     <input type="search" id="q" placeholder="Search methods, aliases, paper titles, authors, summaries…" aria-label="Search">
     <span class="count" id="count"></span>
     <label class="drytog">Show <select id="kind" aria-label="Show experimental or computational methods"><option value="wet">Experimental</option><option value="dry">Computational (beta)</option><option value="all">Both</option></select> <span class="beta" id="betab" hidden>beta</span></label>
-    <a class="btn" href="methods.csv" download>Download CSV</a>
+    <button class="btn" id="dl" type="button" title="Downloads exactly the methods currently shown, with your filters applied">Download CSV</button>
   </div>
   <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
   <div id="active"></div>
@@ -33,7 +33,8 @@
     </tr></thead>
     <tbody id="rows"><tr><td class="loading" colspan="8">Loading methods…</td></tr></tbody>
   </table>
-  <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>. Citation counts from Crossref, refreshed regularly.</div>
+  <div class="llm" id="upd"></div>
+  <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>, <a href="methods.csv" download>full CSV</a>. Citation counts from Crossref, refreshed regularly.</div>
 </main>
 <script>
 // _bar / _chem split the chemistry tags: how cells are kept apart (barcoding) vs. what is done to the molecules (chemistry)
@@ -44,14 +45,14 @@ const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["pe
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
 const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
 // platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)
-const PARENT = {pacbio:"long-read", nanopore:"long-read"}, DISP = {"long-read":"Long-read (any)", pacbio:"PacBio", nanopore:"Nanopore"};
+const PARENT = {pacbio:"long-read", nanopore:"long-read", "dna-6ma":"dna-methylation", "dna-5fc":"dna-methylation"}, DISP = {"long-read":"Long-read (any)", pacbio:"PacBio", nanopore:"Nanopore", "dna-methylation":"DNA methylation (any)", "dna-6ma":"6mA", "dna-5fc":"5fC"};
 const orderVals = v => [...v.filter(t => !PARENT[t]).flatMap(t => [t, ...v.filter(c => PARENT[c] === t)])];
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
 
 fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
-  data = j.methods;   // wet and dry; the "Include computational tools" switch decides what is shown
+  data = j.methods; window._upd = j.updated; { const u = document.getElementById("upd"); if (u && j.updated) u.textContent = "Last updated " + j.updated + ". Entries are found by automated paper scans, then classified and curated; each one links to its source paper."; }   // wet and dry; the "Include computational tools" switch decides what is shown
   data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); });
   FACETS.forEach(([k]) => on[k] = new Set());
   const LAB = Object.fromEntries(FACETS);
@@ -74,6 +75,11 @@ fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
     sortKey = k; render();
   });
   document.getElementById("q").oninput = render;
+  document.getElementById("dl").onclick = () => {   // export what is on screen: current search, filters and Show setting
+    const cols = Object.keys(data[0]).filter(k => !k.startsWith("_")), q = v => { v = v == null ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+    const csv = [cols.join(","), ...(window._rows || []).map(m => cols.map(k => q(m[k])).join(","))].join("\n");
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], {type: "text/csv"})); a.download = "seq-browser-filtered.csv"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
   document.getElementById("kind").onchange = render;
   const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h);
   if (t) { document.getElementById("q").value = t.name; open = t.id; }
@@ -89,8 +95,8 @@ function render() {
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
   document.getElementById("betab").hidden = kind !== "dry";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
-  { const g = document.querySelectorAll("#facets .fg")[6]; if (g) g.hidden = !dryOn; }   // the Task filter only exists for computational tools
-  const rows = pool.filter(m => pass(m));
+  { const g = document.querySelectorAll("#facets .fg"); if (g[6]) g[6].hidden = !dryOn; [3,4,5].forEach(i => { if (g[i]) g[i].hidden = kind === "dry"; }); }   // barcoding, chemistry, platform have no meaning for computational-only view   // the Task filter only exists for computational tools
+  const rows = pool.filter(m => pass(m)); window._rows = rows;
   const hiddenDry = dryOn || !(q || FACETS.some(([k]) => on[k].size)) ? 0 : data.filter(m => m.category === "dry" && pass(m)).length;
   // live option counts: how many methods you would have if you also picked this option, given everything else selected
   document.querySelectorAll("#facets label").forEach(l => {
@@ -105,6 +111,7 @@ function render() {
   document.getElementById("count").innerHTML = `${rows.length} of ${pool.length} methods` + (hiddenDry ? ` · <button type="button" class="showdry" id="showdry">${hiddenDry} computational tool${hiddenDry > 1 ? "s" : ""} also match: show</button>` : "");
   { const b = document.getElementById("showdry"); if (b) b.onclick = () => { document.getElementById("kind").value = "all"; render(); }; }
   document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
+  { const b = document.getElementById("dl"); if (b) b.textContent = `Download CSV (${rows.length})`; }
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
     <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
@@ -129,10 +136,11 @@ function drawer() {
   const el = document.getElementById("drawer"), m = data.find(d => d.id === open);
   el.classList.toggle("on", !!m); if (!m) { el.innerHTML = ""; return; }
   const grp = FACETS.map(([k, lab]) => split(m[k]).length ? `<div class="dg"><b>${lab}</b>${split(m[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "").join("");
-  const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("");
+  const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("") + (m.see_also ? `<div class="dg"><b>See also</b>${m.see_also.split("; ").map(x => { const d = (x.match(/doi:(\S+)/) || [])[1]; return d ? `<a href="https://doi.org/${esc(d)}" target="_blank" rel="noopener">${esc(x.replace(/ ?doi:\S+/, ""))}</a>` : esc(x); }).join(", ")}</div>` : "");
   el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
     <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
     ${m.title ? `<p class="ptitle">${esc(m.title)}</p>` : ""}
+    <p class="meta">ID <code>${esc(m.id)}</code> · <a href="#${esc(m.id)}">permalink</a> (cite the paper by DOI; this ID is a stable link to this entry)</p>
     <p class="meta">${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>
     <p class="links">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">Paper</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">Paper</a>` : ""}${m.protocol ? ` · <a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : ""}${m.code ? ` · <a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : ""} · <a href="family.html">Family graph</a></p>
     <button class="btn" id="dcmp" type="button">${cmp.includes(m.id) ? "Remove from compare" : "Add to compare"}</button>`;

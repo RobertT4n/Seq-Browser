@@ -69,7 +69,7 @@
 <body class="fam">
 <header>
   <a class="logo" href="index.html" aria-label="Seq-Browser home"><img src="brand/seqbrowser-icon-dark.svg" alt="Seq-Browser logo"></a>
-  <div><h1>Seq-Browser</h1><p>What are the relationships of sequencing methods? (sequencing assays only; computational tools are not shown)</p></div>
+  <div><h1>Seq-Browser</h1><p>How sequencing assays descend from each other: one circle per method, left to right by year, in a lane for what it measures, sized by citations. Lines link a method to its parent. Experimental assays only.</p></div>
   <nav><a href="index.html">Table</a><a href="family.html" aria-current="page">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
 </header>
 <div id="stage">
@@ -91,7 +91,7 @@ const LANE_NAME = {"3d-genome": "3D genome", "chromatin-accessibility": "accessi
   "rna": "RNA", "nascent-rna": "nascent RNA", "translation": "translation", "rna-structure": "RNA structure",
   "rna-modification": "RNA modification", "rna-protein-interaction": "RNA-protein binding", "rna-chromatin-interaction": "RNA-chromatin contacts",
   "immune-repertoire": "immune repertoire", "protein": "protein", "glycan": "glycan", "genome-sequence": "genome sequence", "lineage": "lineage",
-  "functional-screen": "screens & reporters", "chromatin-condensability": "condensability", "rna-rna-interaction": "RNA-RNA contacts", "microbial-composition": "microbial composition", "dna-damage": "DNA damage"};
+  "functional-screen": "screens & reporters", "chromatin-condensability": "condensability", "rna-rna-interaction": "RNA-RNA contacts", "microbial-composition": "microbial composition", "dna-damage": "DNA damage", "dna-6ma": "6mA", "dna-5fc": "5fC", "histone-turnover": "histone turnover", "raman-spectrum": "Raman", "protein-localization": "protein localization", "replication-timing": "replication timing"};
 const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stage = document.getElementById("stage"), card = document.getElementById("card");

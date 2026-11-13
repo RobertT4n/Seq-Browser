@@ -1,0 +1,24 @@
+name: DR-6mA-seq
+full_name: Direct-Read 6mA sequencing
+category: wet
+summary: Antibody-free base-resolution mapping of DNA N6-methyladenine from misincorporation signatures.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: library prep is not described in the abstract; not yet read from the full text
+reference:
+  doi: 10.1016/j.molcel.2023.12.021
+  year: 2024
+  journal: Mol Cell
+  first_author: Feng X
+  last_author: He C
+  pmid: '38215754'
+  pmcid: PMC10872247
+  title: Sequencing of N6-methyl-deoxyadenosine at single-base resolution across the mammalian genome
+links: {}
+added: '2026-11-13'
+evidence: We present Direct-Read 6mA sequencing (DR-6mA-seq), an antibody-independent method, to measure 6mA at base resolution.

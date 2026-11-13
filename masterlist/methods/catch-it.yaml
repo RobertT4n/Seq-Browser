@@ -1,0 +1,31 @@
+name: CATCH-IT
+full_name: Covalent Attachment of Tagged Histones to Capture and Identify Turnover
+category: wet
+summary: Metabolic labelling of newly made histones, click capture of the tagged histones, and sequencing of the associated chromatin to measure genome-wide nucleosome turnover.
+readouts:
+- histone-turnover
+resolution:
+- bulk
+scope: genome-wide
+temporal:
+- metabolic-labeling
+chemistry:
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1126/science.1186777
+  year: 2010
+  journal: Science
+  first_author: Deal RB
+  last_author: Henikoff S
+  pmid: '20508129'
+  pmcid: PMC2879085
+  title: Genome-wide kinetics of nucleosome turnover determined by metabolic labeling of histones
+see_also:
+- doi: 10.1016/b978-0-12-391938-0.00007-0
+  year: 2012
+  journal: Methods Enzymol
+  first_author: Deal RB
+  note: step-by-step protocol chapter
+links: {}
+added: '2026-11-13'
+evidence: we describe a direct method for measuring nucleosome turnover using metabolic labelling of histones (Deal 2010); the 2012 chapter names it CATCH-IT.

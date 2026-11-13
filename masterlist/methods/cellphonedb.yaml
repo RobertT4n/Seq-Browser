@@ -7,13 +7,21 @@ resolution:
 - single-cell
 scope: genome-wide
 reference:
-  doi: 10.1038/s41596-020-0292-x
+  doi: 10.1038/s41586-018-0698-6
+  year: 2018
+  journal: Nature
+  first_author: Vento-Tormo R
+  last_author: Teichmann SA
+  pmid: '30429548'
+  pmcid: PMC7612850
+  title: Single-cell reconstruction of the early maternal-fetal interface in humans
+previous_reference_doi: 10.1038/s41596-020-0292-x
+see_also:
+- doi: 10.1038/s41596-020-0292-x
   year: 2020
   journal: Nat Protoc
   first_author: Efremova M
-  last_author: Vento-Tormo R
-  pmid: '32103204'
-  title: 'CellPhoneDB: inferring cell-cell communication from combined expression of multi-subunit ligand-receptor complexes'
+  note: CellPhoneDB protocol paper
 links: {}
 added: '2026-11-11'
 evidence: and a statistical tool to predict the probability of cell-cell interactions via these pairs
