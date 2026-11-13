@@ -18,7 +18,10 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   chromatin-accessibility: epigenome    # open vs closed chromatin, nucleosome positioning (ATAC, DNase, MNase, NOMe GpC)
   histone-modification: epigenome       # histone marks (ChIP / CUT&Tag on histone marks)
   protein-dna-binding: epigenome        # TF / chromatin-protein occupancy on DNA (ChIP, CUT&RUN, DamID)
-  dna-methylation: epigenome            # DNA base modifications. Parent tag: 5mC / 5hmC on DNA (bisulfite, enzymatic, TAPS); specific modifications below are tagged in ADDITION
+  dna-methylation: epigenome            # PARENT tag for any DNA base modification; always add the specific tag(s) below as well (bisulfite, enzymatic, TAPS, nanopore...)
+  dna-5mc: epigenome                    # 5-methylcytosine (includes bisulfite-type reads that cannot separate 5mC from 5hmC: tag both)
+  dna-5hmc: epigenome                   # 5-hydroxymethylcytosine
+
   dna-6ma: epigenome                    # N6-methyladenine on DNA (sub-filter of dna-methylation)
   dna-5fc: epigenome                    # 5-formylcytosine on DNA (sub-filter of dna-methylation; CLEVER-seq)
   histone-turnover: epigenome           # nucleosome / histone exchange and turnover kinetics (CATCH-IT)

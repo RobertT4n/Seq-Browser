@@ -1,0 +1,21 @@
+name: CellPhoneDB v2
+category: dry
+summary: Ligand-receptor repository and statistical test predicting cell-cell interaction probability from single-cell transcriptomes (multi-subunit complexes), as a step-by-step protocol.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+variant_of:
+- cellphonedb
+reference:
+  doi: 10.1038/s41596-020-0292-x
+  year: 2020
+  journal: Nat Protoc
+  first_author: Efremova M
+  last_author: Vento-Tormo R
+  pmid: '32103204'
+  title: 'CellPhoneDB: inferring cell-cell communication from combined expression of multi-subunit ligand-receptor complexes'
+links: {}
+added: '2026-11-13'
+evidence: CellPhoneDB v2 is the version described by the 2020 Nature Protocols paper.
