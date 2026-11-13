@@ -1,0 +1,21 @@
+name: Qtip
+category: dry
+summary: Tool that predicts read-alignment mapping quality by simulating tandem reads of known origin.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1290-3
+  year: 2017
+  journal: Genome Biol
+  first_author: Langmead B
+  last_author: Langmead B
+  pmid: '28806977'
+  pmcid: PMC5557537
+  title: A tandem simulation framework for predicting mapping quality
+  preprint_doi: 10.1101/103952
+links: {}
+added: '2026-11-13'
+evidence: We implement this in an accurate and low-overhead tool called Qtip, which is compatible with popular aligners.

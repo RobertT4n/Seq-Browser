@@ -1,0 +1,22 @@
+name: ELOPER
+full_name: elongation of paired-end reads
+category: dry
+summary: Pre-processing tool that elongates paired-end reads by considering both ends simultaneously to improve de novo genome
+  assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt169
+  year: 2013
+  journal: Bioinformatics
+  first_author: Silver DH
+  last_author: Yanai I
+  pmid: '23603334'
+  title: 'ELOPER: elongation of paired-end reads as a pre-processing tool for improved de novo genome assembly'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present ELOPER, a pre-processing tool for pair-end sequences that produces a better read library for assembly
+  programs.<h4>Results</h4>ELOPER proceeds by simultaneously considering both ends of paired reads generating elongated reads.

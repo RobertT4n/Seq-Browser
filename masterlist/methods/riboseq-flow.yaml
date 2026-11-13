@@ -1,0 +1,21 @@
+name: riboseq-flow
+category: dry
+summary: Nextflow pipeline for processing and quality control of ribosome profiling experiments.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/wellcomeopenres.21000.1
+  year: 2024
+  journal: Wellcome Open Res
+  first_author: Iosub IA
+  last_author: Ule J
+  pmid: '38846930'
+  pmcid: PMC11153996
+  title: 'Riboseq-flow: A streamlined, reliable pipeline for ribosome profiling data analysis and quality control'
+links: {}
+added: '2026-11-13'
+evidence: We introduce a new Nextflow DSL2 pipeline, riboseq-flow, designed for processing and comprehensive quality control
+  of ribosome profiling experiments.

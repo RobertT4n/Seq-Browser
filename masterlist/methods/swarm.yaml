@@ -1,0 +1,22 @@
+name: Swarm
+category: dry
+summary: Federated cloud framework that moves computation to data for large-scale variant analysis across genomic datasets
+  on different cloud platforms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008977
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Bahmani A
+  last_author: Pan C
+  pmid: '33979321'
+  pmcid: PMC8143397
+  title: 'Swarm: A federated cloud framework for large-scale variant analysis'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Swarm, a framework for federated computation that promotes minimal data motion and facilitates
+  crosstalk between genomic datasets stored on various cloud platforms.

@@ -1,0 +1,15 @@
+name: Parse Biosciences Evercode
+category: wet
+summary: Instrument-free split-pool combinatorial barcoding kits for single-cell or single-nucleus whole-transcriptome profiling of fixed samples, scaling to 1 million cells and 384 samples.
+readouts: [rna]
+resolution: [single-cell]
+scope: genome-wide
+chemistry: [split-pool-barcoding, reverse-transcription, sample-preservation]
+builds_on: [split-seq]
+aliases: [Evercode WT]
+input_sample: [fixed-cells, nuclei]
+reference:
+  url: https://www.parsebiosciences.com/products/evercode-wt-mega/
+links: {}
+added: '2026-11-13'
+evidence: Vendor product page only; no paper introduces this kit.

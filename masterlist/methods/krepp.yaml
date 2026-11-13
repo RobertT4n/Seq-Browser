@@ -1,0 +1,24 @@
+name: krepp
+category: dry
+summary: Alignment-free k-mer method that estimates read distances and places reads from anywhere in the genome on an ultra-large
+  reference phylogeny.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-03999-y
+  year: 2026
+  journal: Genome Biol
+  first_author: Şapcı AOB
+  last_author: Mirarab S
+  pmid: '41723514'
+  pmcid: PMC13032499
+  title: 'krepp: a k-mer-based maximum pseudo-likelihood method for estimating read distances and genome-wide phylogenetic
+    placement'
+links: {}
+added: '2026-11-13'
+evidence: We introduce krepp, an alignment-free k-mer-based method that enables placing reads from anywhere on the genome
+  on an ultra-large reference phylogeny (e.g., 123,853 leaves).

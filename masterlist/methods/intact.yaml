@@ -1,0 +1,33 @@
+name: INTACT
+full_name: isolation of nuclei tagged in specific cell types
+category: wet
+summary: Affinity isolation of biotin-tagged nuclei from a specific cell type, used for cell-type-specific expression (cDNA)
+  and ChIP chromatin profiling in plants.
+readouts:
+- rna
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- antibody-pull-down
+species:
+- plant
+input_sample:
+- nuclei
+reference:
+  doi: 10.1038/nprot.2010.175
+  year: 2011
+  journal: Nat Protoc
+  first_author: Deal RB
+  last_author: Henikoff S
+  pmid: '21212783'
+  pmcid: PMC7219316
+  title: The INTACT method for cell type-specific gene expression and chromatin profiling in Arabidopsis thaliana
+links: {}
+added: '2026-11-13'
+evidence: We developed a method called INTACT (isolation of nuclei tagged in specific cell types) that allows affinity-based
+  isolation of nuclei from individual cell types of a tissue, thereby circumventing the problems associated with mechanical
+  purification techniques.

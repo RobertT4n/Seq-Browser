@@ -1,0 +1,24 @@
+name: OligoSeq
+category: wet
+summary: Nanopore workflow that combines AmpliSeq and RevSeq to sequence single-stranded DNA oligonucleotides and resolve
+  their reference sequence from basecall frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.1371/journal.pone.0355056
+  year: 2026
+  journal: PLoS One
+  first_author: Ramirez-Garcia R
+  last_author: Heinis T
+  pmid: '42691118'
+  pmcid: PMC13541252
+  title: 'OligoSeq: Rapid nanopore-sequencing of single-stranded oligonucleotides'
+links: {}
+added: '2026-11-08'
+evidence: To address this gap, OligoSeq is presented as an innovative approach that integrates two complementary techniques

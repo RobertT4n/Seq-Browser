@@ -1,0 +1,20 @@
+name: scVIVA
+category: dry
+summary: Deep generative model that embeds cell states using both a cell's own and its neighbours' expression in spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.06.01.657182
+  year: 2025
+  journal: bioRxiv
+  first_author: Levy N
+  last_author: Yosef N
+  title: 'scVIVA: a probabilistic framework for representation of cells and their environments in spatial transcriptomics'
+links: {}
+added: '2026-11-13'
+evidence: Here, we introduce scVIVA, a deep generative model that leverages both cell-intrinsic and neighboring gene expression
+  profiles to output stochastic embeddings of cell states as well as normalized gene expression profiles.

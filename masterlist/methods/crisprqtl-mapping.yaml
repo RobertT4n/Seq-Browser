@@ -1,0 +1,30 @@
+name: crisprQTL mapping
+category: wet
+summary: Single-cell CRISPRi screen in which each cell receives many random gRNAs and enhancer-gene links are tested like
+  eQTLs from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- crispr-interference
+chemistry:
+- reverse-transcription
+throughput: 1e4-1e5
+species:
+- human
+validated_system:
+- cell-line
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/314344
+  year: 2018
+  journal: bioRxiv
+  first_author: Gasperini M
+  last_author: Shendure J
+  title: crisprQTL mapping as a genome-wide association framework for cellular genetic screens
+links: {}
+added: '2026-11-13'
+evidence: Here, we present crisprQTL mapping, a framework in which large numbers of CRISPR/Cas9 perturbations are introduced
+  to each cell on an isogenic background, followed by single-cell RNA-seq (scRNA-seq).

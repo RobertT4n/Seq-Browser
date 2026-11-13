@@ -1,0 +1,19 @@
+name: IsoQuant
+category: dry
+summary: Reference-based tool for accurate novel isoform discovery from Oxford Nanopore long reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.21203/rs.3.rs-1571850/v1
+  year: 2022
+  journal: Research Square
+  first_author: Prjibelski A
+  last_author: Tilgner H
+  title: 'IsoQuant: a tool for accurate novel isoform discovery with long reads'
+links: {}
+added: '2026-11-13'
+evidence: Here we present IsoQuant - a reference-based tool that accurately discovers novel transcripts with at least 3-fold
+  lower false positive rate and 1.8-fold increase in F1-score compared to other tools for Oxford Nanopore data.

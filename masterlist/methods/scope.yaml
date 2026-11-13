@@ -1,0 +1,20 @@
+name: SCOPE
+full_name: Spatial reConstruction via Oligonucleotide Proximity Encoding
+category: wet
+summary: 'Optics-free spatial reconstruction: relative positions of DNA-barcoded beads are inferred from sequenced chimeric
+  molecules formed between diffusing sender and tethered receiver oligonucleotides.'
+readouts:
+- spatial-position
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: proximity-encoding chemistry has no tag
+builds_on:
+- dna-microscopy
+reference:
+  doi: 10.1101/2024.08.06.606834
+links: {}
+added: '2026-11-13'
+evidence: To address this challenge, we developed SCOPE (Spatial reConstruction via Oligonucleotide Proximity Encoding), an
+  optics-free, DNA microscopy-inspired method.

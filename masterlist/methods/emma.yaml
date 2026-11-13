@@ -1,0 +1,23 @@
+name: EMMA
+full_name: Extending Multiple alignments using MAFFT-add
+category: dry
+summary: Method that adds unaligned sequences into an existing multiple sequence alignment given a constraint alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13015-023-00247-x
+  year: 2023
+  journal: Algorithms Mol Biol
+  first_author: Shen C
+  last_author: Warnow T
+  pmid: '38062452'
+  pmcid: PMC10704716
+  title: 'EMMA: a new method for computing multiple sequence alignments given a constraint subset alignment'
+  preprint_doi: 10.1101/2023.06.12.544642
+links: {}
+added: '2026-11-13'
+evidence: <h4>Results</h4>  We present EMMA (Extending Multiple alignments using MAFFT-add) for the problem of adding a set
+  of unaligned sequences into a multiple sequence alignment (i.e., a constraint alignment).

@@ -1,10 +1,12 @@
 name: REL-seq
+aliases:
+- mutREL-seq
 full_name: RNA elements for subcellular localization by sequencing
 category: wet
 summary: Mutagenesis-coupled reporter library sequenced to find RNA elements that direct transcripts to chromatin, such as
   the U1 snRNP motif.
 readouts:
-- rna-chromatin-interaction
+- rna
 resolution:
 - subcellular
 perturbation:

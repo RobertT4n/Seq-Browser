@@ -4,12 +4,13 @@ category: wet
 summary: TurboID proximity labelling with affinity purification that yields both the genomic loci and the interacting proteome
   of a chromatin protein.
 readouts:
+- protein-localization
 - protein-dna-binding
 resolution:
 - bulk
 scope: genome-wide
-chemistry:
-- antibody-pull-down
+chemistry: []
+chemistry_unknown: TurboID proximity labelling with streptavidin capture has no chemistry tag
 reference:
   doi: 10.1126/sciadv.ady4151
   year: 2025

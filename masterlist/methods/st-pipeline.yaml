@@ -1,0 +1,23 @@
+name: ST Pipeline
+category: dry
+summary: Automated pipeline that processes Spatial Transcriptomics RNA-seq reads into spatially mapped unique-transcript count
+  matrices.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+builds_on:
+- spatial-transcriptomics
+reference:
+  doi: 10.1093/bioinformatics/btx211
+  year: 2017
+  journal: Bioinformatics
+  first_author: Navarro JF
+  last_author: Ståhl PL
+  pmid: '28398467'
+  title: 'ST Pipeline: an automated pipeline for spatial mapping of unique transcripts'
+links: {}
+added: '2026-11-13'
+evidence: Here we present a pipeline to automatically and efficiently process RNA-seq data obtained from spatial transcriptomics
+  experiments to generate datasets for downstream analysis.

@@ -1,0 +1,14 @@
+name: ScaleBio QuantumScale Single Cell RNA
+category: wet
+summary: Instrument-free combinatorial-indexing kits (Quantum Barcoding with ScalePlex sample multiplexing) for single-cell RNA profiling from tens of thousands to millions of cells.
+readouts: [rna]
+resolution: [single-cell]
+scope: genome-wide
+chemistry: [combinatorial-indexing, reverse-transcription]
+aliases: [Scale Bio Quantum, QuantumScale]
+builds_on: [sci-rna-seq3]
+reference:
+  url: https://www.10xgenomics.com/products/scale/single-cell-rna-sequencing-kit
+links: {}
+added: '2026-11-13'
+evidence: Vendor product page only; no paper introduces this kit.

@@ -1,0 +1,29 @@
+name: PAT-seq
+full_name: Poly(A)-Test RNA-sequencing
+category: wet
+summary: Targeted 3-prime sequencing of polyadenylated RNA that includes the full native poly(A) tail to report expression,
+  polyadenylation sites and adenylation state.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+validated_system:
+- cell-line
+reference:
+  doi: 10.1261/rna.048355.114
+  year: 2015
+  journal: RNA
+  first_author: Harrison PF
+  last_author: Beilharz TH
+  pmid: '26092945'
+  pmcid: PMC4509939
+  title: 'PAT-seq: a method to study the integration of 3''-UTR dynamics with gene expression in the eukaryotic transcriptome'
+links: {}
+added: '2026-11-13'
+evidence: To integrate gene expression with dynamics in poly(A) tail length and adenylation site, we developed a targeted
+  next-generation sequencing approach, Poly(A)-Test RNA-sequencing.

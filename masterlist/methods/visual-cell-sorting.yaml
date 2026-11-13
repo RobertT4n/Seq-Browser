@@ -1,0 +1,28 @@
+name: Visual Cell Sorting
+category: wet
+summary: Microscope-based method that photoactivates cells by visual phenotype and sorts them by FACS so phenotype can be
+  linked to variant abundance or transcriptome.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- facs-sorting
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1101/856476
+  year: 2019
+  journal: bioRxiv
+  first_author: Hasle N
+  last_author: Fowler DM
+  title: 'Visual Cell Sorting: A High-throughput, Microscope-based Method to Dissect Cellular Heterogeneity'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Visual Cell Sorting, a method that physically separates hundreds of thousands of live cells based
+  on their visual phenotype.

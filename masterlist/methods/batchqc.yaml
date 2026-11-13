@@ -1,0 +1,22 @@
+name: BatchQC
+category: dry
+summary: Interactive Bioconductor pipeline that evaluates the impact of batch effects in genomic datasets and applies adjustment
+  tools.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw538
+  year: 2016
+  journal: Bioinformatics
+  first_author: Manimaran S
+  last_author: Johnson WE
+  pmid: '27540268'
+  pmcid: PMC5167063
+  title: 'BatchQC: interactive software for evaluating sample and batch effects in genomic data'
+links: {}
+added: '2026-11-13'
+evidence: We present a software pipeline, BatchQC, which addresses these issues using interactive visualizations and statistics
+  that evaluate the impact of batch effects in a genomic dataset.

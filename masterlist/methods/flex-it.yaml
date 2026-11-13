@@ -1,0 +1,22 @@
+name: Flex-It
+category: dry
+summary: Genomic genotyping scheme for Shigella flexneri implemented in Mykrobe, giving lineage and serotype genotypes from
+  genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- mykrobe
+reference:
+  doi: 10.64898/2026.04.17.719127
+  year: 2026
+  journal: bioRxiv
+  first_author: Hawkey J
+  last_author: Ingle DJ
+  title: 'Flex-It: A global standardised genotyping framework for  <i>Shigella flexneri</i>'
+links: {}
+added: '2026-11-13'
+evidence: Here, we present Flex-It, a genomic framework and genotyping scheme implemented in Mykrobe for S. flexneri serotypes
+  1-5, X & Y.

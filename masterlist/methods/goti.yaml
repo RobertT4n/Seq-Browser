@@ -1,0 +1,30 @@
+name: GOTI
+full_name: genome-wide off-target analysis by two-cell embryo injection
+category: wet
+summary: Edit one blastomere of a two-cell mouse embryo, sort edited vs unedited cells and compare whole-genome sequences
+  to detect genome-editing off-target variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+- base-editing
+scope: genome-wide
+chemistry:
+- facs-sorting
+species:
+- mouse
+reference:
+  doi: 10.1038/s41596-020-0361-1
+  year: 2020
+  journal: Nat Protoc
+  first_author: Zuo E
+  last_author: Yang H
+  pmid: '32796939'
+  pmcid: PMC8190672
+  title: GOTI, a method to identify genome-wide off-target effects of genome editing in mouse embryos
+links: {}
+added: '2026-11-13'
+evidence: We developed a method called GOTI (genome-wide off-target analysis by two-cell embryo injection) to detect off-target
+  mutations by editing one blastomere of two-cell mouse embryos using either CRISPR-Cas9 or base editors.

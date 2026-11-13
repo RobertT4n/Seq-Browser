@@ -1,0 +1,15 @@
+name: 10x Chromium Flex (Fixed RNA Profiling)
+category: wet
+summary: Probe-based single-cell gene expression assay in which RNA probes hybridize to RNA in fixed cells or nuclei before droplet partitioning, with Cell Ranger analysis.
+readouts: [rna]
+resolution: [single-cell]
+scope: genome-wide
+chemistry: [droplet-microfluidics, sample-preservation]
+chemistry_unknown: probe hybridization/ligation chemistry not read from the vendor page (page fetch rate-limited)
+aliases: [Flex Gene Expression, Fixed RNA Profiling]
+input_sample: [fixed-cells]
+reference:
+  url: https://www.10xgenomics.com/support/flex-gene-expression
+links: {}
+added: '2026-11-13'
+evidence: Vendor product page only; no paper introduces this kit.
