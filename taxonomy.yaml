@@ -37,6 +37,7 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   immune-repertoire: transcriptome      # TCR / BCR receptor sequences
   protein: proteome                     # protein abundance via antibody-oligo tags or similar (CITE-seq ADTs)
   protein-localization: proteome        # which proteins sit near a bait or in a compartment (proximity labelling: TurboID, APEX); RNA localisation stays rna + subcellular
+  receptor-ligand: proteome             # which ligand / antigen a receptor binds (TCR-pMHC, antibody-antigen, GPCR-ligand specificity), read out by sequencing (ENTER-seq)
   glycan: proteome                      # cell-surface glycans (lectin-oligo tags)
   genome-sequence: genome               # genotype, CNV, SVs, assemblies, incl. RNA-virus genomes and strain typing
   microbial-composition: genome         # which microbes are present, e.g. per spatial sub-community (SAMPL-seq)

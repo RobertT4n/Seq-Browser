@@ -1,0 +1,31 @@
+name: miCLIP (m6A)
+full_name: m6A individual-nucleotide-resolution cross-linking and immunoprecipitation
+aliases:
+- m6A-miCLIP
+category: wet
+summary: m6A antibody crosslinking induces mutational signatures at modified adenosines, locating m6A and m6Am at single-nucleotide
+  resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+builds_on:
+- iclip
+reference:
+  doi: 10.1038/nmeth.3453
+  year: 2015
+  journal: Nat Methods
+  first_author: Linder B
+  last_author: Jaffrey SR
+  pmid: '26121403'
+  pmcid: PMC4487409
+  title: Single-nucleotide-resolution mapping of m6A and m6Am throughout the transcriptome
+links: {}
+evidence: Here we developed m6A individual-nucleotide-resolution cross-linking and immunoprecipitation (miCLIP) and used it
+  to demonstrate that antibodies to m6A can induce specific mutational signatures at m6A residues after ultraviolet light-induced
+  antibody-RNA cross-linking and reverse transcription.
+added: '2026-11-13'

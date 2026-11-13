@@ -1,0 +1,31 @@
+name: miCLIP (Hussain)
+full_name: methylation individual-nucleotide-resolution cross-linking and immunoprecipitation
+aliases:
+- NSun2 miCLIP
+category: wet
+summary: iCLIP adapted to map cytosine-5 methylation sites of the RNA methyltransferase NSun2 across tRNAs, mRNAs and ncRNAs.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+variant_of:
+- iclip
+species:
+- human
+reference:
+  doi: 10.1016/j.celrep.2013.06.029
+  year: 2013
+  journal: Cell Rep
+  first_author: Hussain S
+  last_author: Frye M
+  pmid: '23871666'
+  pmcid: PMC3730056
+  title: NSun2-mediated cytosine-5 methylation of vault noncoding RNA determines its processing into regulatory small RNAs
+links: {}
+evidence: Here, we describe miCLIP as an additional approach for identifying RNA methylation sites in transcriptomes. miCLIP
+  is a customized version of the individual-nucleotide-resolution crosslinking and immunoprecipitation (iCLIP) method.
+added: '2026-11-13'

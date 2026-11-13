@@ -1,0 +1,29 @@
+name: CiBER-seq
+full_name: CRISPRi with barcoded expression reporter sequencing
+category: wet
+summary: Pooled CRISPRi guide library linked to barcoded reporters so each perturbation's effect on a transcriptional, translational
+  or protein-level phenotype is read by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-interference
+- reporter-assay
+chemistry_unknown: barcode library-prep steps not stated in abstract
+species:
+- microbe
+reference:
+  doi: 10.1126/science.abb9662
+  year: 2020
+  journal: Science
+  first_author: Muller R
+  last_author: Ingolia NT
+  pmid: '33303588'
+  pmcid: PMC7819735
+  title: CiBER-seq dissects genetic networks by quantitative CRISPRi profiling of expression phenotypes
+links: {}
+evidence: We addressed this challenge by profiling transcriptional, translational, and posttranslational reporters using CRISPR
+  interference (CRISPRi) with barcoded expression reporter sequencing (CiBER-seq).
+added: '2026-11-13'

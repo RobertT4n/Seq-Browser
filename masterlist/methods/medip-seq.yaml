@@ -1,0 +1,32 @@
+name: MeDIP-seq
+full_name: Methylated DNA immunoprecipitation sequencing
+category: wet
+summary: Anti-5-methylcytosine immunoprecipitation of genomic DNA read out by high-throughput sequencing to map DNA methylation
+  genome-wide.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1186/1471-2164-11-137
+  year: 2010
+  journal: BMC Genomics
+  first_author: Ruike Y
+  last_author: Tsujimoto G
+  pmid: '20181289'
+  pmcid: PMC2838848
+  title: Genome-wide analysis of aberrant methylation in human breast cancer cells using methyl-DNA immunoprecipitation combined
+    with high-throughput sequencing
+links: {}
+evidence: Here, we performed methylated DNA immunoprecipitation combined with high-throughput sequencing (MeDIP-seq) to obtain
+  whole-genome DNA methylation profiles for eight human breast cancer cell (BCC) lines and for normal human mammary epithelial
+  cells (HMEC).
+added: '2026-11-13'

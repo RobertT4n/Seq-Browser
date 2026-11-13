@@ -1,0 +1,31 @@
+name: MARSALA
+full_name: Mutated allele revealed by sequencing with aneuploidy and linkage analyses
+category: wet
+summary: Embryo preimplantation diagnosis using MALBAC whole-genome amplification to detect single-gene mutations, aneuploidy
+  and linkage in one NGS procedure.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+partition_unknown: not stated in the abstract
+builds_on:
+- malbac
+species:
+- human
+reference:
+  doi: 10.1073/pnas.1523297113
+  year: 2015
+  journal: Proc Natl Acad Sci U S A
+  first_author: Yan L
+  last_author: Xie XS
+  pmid: '26712022'
+  pmcid: PMC4702982
+  title: Live births after simultaneous avoidance of monogenic diseases and chromosome abnormality by next-generation sequencing
+    with linkage analyses
+links: {}
+evidence: This method, called 'mutated allele revealed by sequencing with aneuploidy and linkage analyses' (MARSALA), involves
+  multiple annealing and looping-based amplification cycles (MALBAC) for single-cell whole-genome amplification.
+added: '2026-11-13'

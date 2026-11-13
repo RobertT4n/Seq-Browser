@@ -1,0 +1,28 @@
+name: TraDIS
+full_name: Transposon directed insertion-site sequencing
+category: wet
+summary: Illumina sequencing from the transposon into flanking DNA maps insertion sites of a million-mutant library, assaying
+  every gene at once.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+chemistry_unknown: library-prep steps (fragmentation, adapter/PCR) not stated in abstract
+species:
+- microbe
+reference:
+  doi: 10.1101/gr.097097.109
+  year: 2009
+  journal: Genome Res
+  first_author: Langridge GC
+  last_author: Turner AK
+  pmid: '19826075'
+  pmcid: PMC2792183
+  title: Simultaneous assay of every Salmonella Typhi gene using one million transposon mutants
+links: {}
+evidence: With this method, which we have called TraDIS (transposon directed insertion-site sequencing), we have been able
+  to map 370,000 unique transposon insertion sites to the Salmonella enterica serovar Typhi chromosome.
+added: '2026-11-13'

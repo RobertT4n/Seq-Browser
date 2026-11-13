@@ -1,0 +1,26 @@
+name: TIF-seq
+full_name: Transcript isoform sequencing
+category: wet
+summary: Sequencing both the 5' and 3' ends of the same full-length RNA molecule to define complete transcript isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1038/nature12121
+  year: 2013
+  journal: Nature
+  first_author: Pelechano V
+  last_author: Steinmetz LM
+  pmid: '23615609'
+  pmcid: PMC3705217
+  title: Extensive transcriptional heterogeneity revealed by isoform profiling
+links: {}
+evidence: Here, by jointly determining both transcript ends for millions of RNA molecules, we reveal an extensive layer of
+  isoform diversity previously hidden among overlapping RNA molecules.
+added: '2026-11-13'

@@ -1,0 +1,21 @@
+name: ENTER-seq
+full_name: engineered receptor-ligand interaction (ENTER) read out by RNA sequencing
+category: wet
+summary: Engineered lentiviral cell entry reports receptor-ligand specificity (TCR-MHC, antibody-antigen), read out in single
+  cells by RNA sequencing with TCR clonality and cell state.
+readouts:
+- receptor-ligand
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2022.11.016
+links: {}
+added: '2026-11-13'
+evidence: Here, we describe lentiviral-mediated cell entry by engineered receptor-ligand interaction (ENTER) to display ligand
+  proteins, deliver payloads, and record receptor specificity.

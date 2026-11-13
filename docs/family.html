@@ -265,6 +265,9 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const names = s => split(s).map(i => esc(byId.get(i)?.name || i)).join(", ");
   const tags = d => [...split(d.readouts), ...split(d.resolution), d.scope, ...split(d.chemistry)].map(t => `<span class="tag">${esc(t)}</span>`).join("");
   let pinned = null;
+  // the info card sits on the opposite half of the screen from the method it describes, so the method stays visible
+  const placeCard = id => { const el = nodeEls[nodes.findIndex(n => n.id === id)]; if (!el) return; const r = el.getBoundingClientRect(), cx = r.left + r.width / 2;
+    card.classList.toggle("left", cx > innerWidth / 2); };
   const show = d => {
     const on = new Set([d.id, ...walk(d.id, up), ...walk(d.id, down)]);
     svg.classed("focus", true); node.classed("on", n => on.has(n.id)); edge.classed("on", l => on.has(l.p) && on.has(l.c));
@@ -277,13 +280,12 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
       <dt>Citations</dt><dd>${d.citations != null ? d.citations.toLocaleString() : "–"}</dd></dl>
       <div class="ref"><i>${esc(d.title || "")}</i><br>${esc(d.first_author)} … ${esc(d.last_author)}, ${esc(d.journal)} ${d.year}</div>
       <div class="go">${pinned === d.id ? `Pinned · <a href="index.html#${encodeURIComponent(d.id)}">open in the table →</a>` : "Click to pin · double-click to open in the table"}</div>`;
-    card.classList.toggle("pinned", pinned === d.id); card.style.opacity = 1;
+    card.classList.toggle("pinned", pinned === d.id); card.style.opacity = 1; placeCard(d.id);
   };
   const clear = () => { svg.classed("focus", false); node.classed("on", false).classed("pinned", false); edge.classed("on", false);
     card.style.opacity = 0; card.classList.remove("pinned"); };
   const release = () => { pinned = null; clear(); };
   node.on("mouseenter", (e, d) => { if (!pinned) show(d); })
-    .on("mousemove", e => card.classList.toggle("left", e.clientX > innerWidth - 400 && e.clientY > innerHeight - 320))  // dodge the cursor
     .on("mouseleave", () => { if (!pinned) clear(); })
     .on("click", (e, d) => { e.stopPropagation(); if (pinned === d.id) { release(); show(d); } else { pinned = d.id; show(d); } })
     .on("dblclick", (e, d) => { e.stopPropagation(); location.href = `index.html#${encodeURIComponent(d.id)}`; });
@@ -301,7 +303,7 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const top0 = Math.min(bb.y, d3.min(lhsItems.nodes(), n => +n.getAttribute("data-y")) - 16);
   const zoom = d3.zoom().scaleExtent([kMin, 4])
     .translateExtent([[bb.x - pad - PANEL / kMin, top0 - topPad / kMin], [bb.x + bb.width + pad, bb.y + bb.height + pad]])
-    .on("zoom", e => { const t = e.transform; root.attr("transform", t); cull(t); declutterSoon(t);
+    .on("zoom", e => { const t = e.transform; root.attr("transform", t); cull(t); declutterSoon(t); if (pinned) placeCard(pinned);
       lhsItems.each(function () { const el = d3.select(this), v = +el.attr("data-y") * t.k + t.y; el.attr(this.tagName === "circle" ? "cy" : "y", v); }); });
   // viewport culling: only nodes/edges on screen stay in the render tree (a few hundred SVG elements instead of ~1,500), which stops the repaint lag
   const nodeEls = node.nodes(), edgeEls = edge.nodes(), nb = nodes.map(n => [n.x - n.r - 6, n.x + n.r + n.lw + 8, n.y - n.r - 8, n.y + n.r + 8]),
