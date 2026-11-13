@@ -1,0 +1,20 @@
+name: Computational array reconstruction
+category: wet
+summary: Imaging-free spatial transcriptomics - the positions of spatial barcodes are reconstructed from molecular diffusion
+  and dimensionality reduction instead of being decoded by imaging, scaling to centimeter-sized tissues.
+readouts:
+- rna
+- spatial-position
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not describe the capture chemistry
+builds_on:
+- dna-microscopy
+reference:
+  doi: 10.1038/s41587-025-02612-0
+links: {}
+added: '2026-11-13'
+evidence: We present an imaging-free approach that reconstructs spatial barcode locations using molecular diffusion and dimensionality
+  reduction.

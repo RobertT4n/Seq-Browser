@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seq-Browser</title>
+<meta name="description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools.">
+<link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
+<link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=20261112-0440">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html" aria-label="Seq-Browser home"><picture><source media="(prefers-color-scheme: dark)" srcset="brand/seqbrowser-icon-dark.svg"><img src="brand/seqbrowser-icon.svg" alt="Seq-Browser logo"></picture></a>
+  <div><h1>Seq-Browser</h1><p>A curated, continuously updated catalogue of sequencing assays and analysis tools</p></div>
+  <nav><a href="index.html" aria-current="page">Table</a><a href="family.html">Family</a><a href="analysis.html">Analysis</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav>
+</header>
+<main>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search methods, aliases, paper titles, authors, summaries…" aria-label="Search">
+    <span class="count" id="count"></span>
+    <label class="drytog">Show <select id="kind" aria-label="Show experimental or computational methods"><option value="wet">Experimental</option><option value="dry">Computational (beta)</option><option value="all">Both</option></select> <span class="beta" id="betab" hidden>beta</span></label>
+    <button class="btn" id="dl" type="button" title="Downloads exactly the methods currently shown, with your filters applied">Download CSV</button>
+  </div>
+  <details id="fwrap" class="fw" open><summary>Filters <span id="fcount"></span></summary><div id="facets"></div></details>
+  <div id="active"></div>
+  <table>
+    <thead><tr>
+      <th class="sort" data-key="name">Method</th><th>Readouts</th><th>Resolution</th>
+      <th class="hide-sm">Scope</th><th class="hide-sm" id="chemhead">Chemistry</th><th class="hide-sm">DOI</th>
+      <th class="sort num" data-key="citations">Citations</th><th class="sort num" data-key="year">Year</th>
+    </tr></thead>
+    <tbody id="rows"><tr><td class="loading" colspan="8">Loading methods…</td></tr></tbody>
+  </table>
+  <div class="llm" id="upd"></div>
+  <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>, <a href="methods.csv" download>full CSV</a>. Citation counts from Crossref, refreshed regularly.</div>
+</main>
+<script>
+// _bar / _chem split the chemistry tags: how cells are kept apart (barcoding) vs. what is done to the molecules (chemistry)
+const PART = new Set(["combinatorial-indexing","split-pool-barcoding","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","particle-templated-emulsion","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
+const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"],["task","Task"]];
+// dropdowns on screen: resolution, over-time and scope share one panel with section headings
+const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]},{label:"Computational task",keys:["task"]}];
+// combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
+const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
+// platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)
+const PARENT = {pacbio:"long-read", nanopore:"long-read", "dna-5mc":"dna-methylation", "dna-5hmc":"dna-methylation", "dna-5fc":"dna-methylation", "dna-6ma":"dna-methylation"}, DISP = {"spatial-position":"Spatial position (barcode-reconstructed, no imaging)", "long-read":"Long-read (any)", pacbio:"PacBio", nanopore:"Nanopore", "dna-methylation":"DNA methylation (any)", "dna-5mc":"5mC", "dna-5hmc":"5hmC", "dna-5fc":"5fC", "dna-6ma":"6mA"};
+const orderVals = v => [...v.filter(t => !PARENT[t]).flatMap(t => [t, ...v.filter(c => PARENT[c] === t)])];
+const split = s => (s || "").split("; ").filter(Boolean);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
+
+fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
+  data = j.methods; window._upd = j.updated; { const u = document.getElementById("upd"); if (u && j.updated) u.textContent = "Last updated " + j.updated + ". Entries are found by automated paper scans, then classified and curated; each one links to its source paper."; }   // wet and dry; the "Include computational tools" switch decides what is shown
+  data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); });
+  FACETS.forEach(([k]) => on[k] = new Set());
+  const LAB = Object.fromEntries(FACETS);
+  document.getElementById("facets").innerHTML = DDS.map((d, i) => {
+    const body = d.keys.map(k => {
+      const vals = orderVals([...new Set(data.flatMap(m => split(m[k])))].sort());
+      return (d.keys.length > 1 ? `<div class="sec">${LAB[k]}</div>` : "") + vals.map(v => `<label${PARENT[v] ? ' class="sub"' : ""}><input type="checkbox" data-k="${k}" data-v="${esc(v)}"> ${esc(DISP[v] || v)}<span class="n">${data.filter(m => split(m[k]).includes(v)).length}</span></label>`).join("");
+    }).join("");
+    if (!body) return "";   // a filter with no values yet (e.g. stale cached data) is not shown
+    return `<div class="fg"><span class="cap">${d.label}</span><details class="dd"><summary><span class="sv" id="n-${i}">Any</span></summary><div class="dpanel">${body}</div></details></div>`;
+  }).join("") + '<div class="fg end"><button class="clr" id="clear" type="button">Clear filters</button></div>';
+  document.querySelectorAll("#facets input").forEach(b => b.onchange = () => { const s = on[b.dataset.k]; b.checked ? s.add(b.dataset.v) : s.delete(b.dataset.v); render(); });
+  document.querySelectorAll("details.dd").forEach(d => d.ontoggle = () => { if (d.open) document.querySelectorAll("details.dd").forEach(o => { if (o !== d) o.open = false; }); });
+  document.addEventListener("click", e => { if (!e.target.closest("details.dd")) document.querySelectorAll("details.dd").forEach(o => o.open = false); });
+  document.getElementById("clear").onclick = () => { FACETS.forEach(([k]) => on[k].clear()); document.querySelectorAll("#facets input").forEach(b => b.checked = false); render(); };
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { open = null; cmpOpen(false); render(); } });
+  document.querySelectorAll("th.sort").forEach(th => th.onclick = () => {
+    const k = th.dataset.key;
+    sortDir = sortKey === k && sortDir === (k === "name" ? "asc" : "desc") ? (k === "name" ? "desc" : "asc") : (k === "name" ? "asc" : "desc");
+    sortKey = k; render();
+  });
+  document.getElementById("q").oninput = render;
+  document.getElementById("dl").onclick = () => {   // export what is on screen: current search, filters and Show setting
+    const cols = Object.keys(data[0]).filter(k => !k.startsWith("_")), q = v => { v = v == null ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+    const csv = [cols.join(","), ...(window._rows || []).map(m => cols.map(k => q(m[k])).join(","))].join("\n");
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], {type: "text/csv"})); a.download = "seq-browser-filtered.csv"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+  document.getElementById("kind").onchange = render;
+  const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h || (m.accession || "").toLowerCase() === h.toLowerCase());
+  if (t) { document.getElementById("q").value = t.name; open = t.id; }
+  render();
+});
+
+function render() {
+  const q = document.getElementById("q").value.toLowerCase();
+  // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
+  const has = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t);
+  const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? (k === xk ? m.scope === xv : !on[k].size || on[k].has(m.scope)) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) &&
+    (!q || [m.name, m.full_name, m.aliases, m.summary, m.title, m.first_author, m.last_author, m.doi, m.accession].join(" ").toLowerCase().includes(q));
+  const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
+  document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry / task" : "Chemistry";   // the beta bubble belongs to the computational view only
+  if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
+  { const g = document.querySelectorAll("#facets .fg"); if (g[6]) g[6].hidden = !dryOn; [3,4,5].forEach(i => { if (g[i]) g[i].hidden = kind === "dry"; }); }   // barcoding, chemistry, platform have no meaning for computational-only view   // the Task filter only exists for computational tools
+  const rows = pool.filter(m => pass(m)); window._rows = rows;
+  const hiddenDry = dryOn || !(q || FACETS.some(([k]) => on[k].size)) ? 0 : data.filter(m => m.category === "dry" && pass(m)).length;
+  // live option counts: how many methods you would have if you also picked this option, given everything else selected
+  document.querySelectorAll("#facets label").forEach(l => {
+    const b = l.querySelector("input"), k = b.dataset.k, v = b.dataset.v, n = l.querySelector(".n");
+    const c = b.checked ? rows.length : pool.filter(m => pass(m, k, v)).length, base = pool.filter(m => has(m, k, v)).length;
+    n.textContent = c; n.classList.toggle("ghost", c < base && c > 0); n.title = c < base ? `${c} of ${base} with current filters` : "";
+    l.classList.toggle("zero", c === 0 && !b.checked); b.disabled = c === 0 && !b.checked;
+  });
+  const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
+  rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
+  document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
+  document.getElementById("count").innerHTML = `${rows.length} of ${pool.length} methods` + (hiddenDry ? ` · <button type="button" class="showdry" id="showdry">${hiddenDry} computational tool${hiddenDry > 1 ? "s" : ""} also match: show</button>` : "");
+  { const b = document.getElementById("showdry"); if (b) b.onclick = () => { document.getElementById("kind").value = "all"; render(); }; }
+  document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
+  { const b = document.getElementById("dl"); if (b) b.textContent = `Download CSV (${rows.length})`; }
+  const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
+  document.getElementById("rows").innerHTML = rows.map(m => `
+    <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
+    <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
+    <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
+    <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
+`).join("");
+  { const k2 = FACETS.reduce((a, [k]) => a + on[k].size, 0); document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
+  DDS.forEach((d, i) => { const sel = d.keys.flatMap(k => [...on[k]]), n = document.getElementById("n-" + i); n.textContent = sel.length ? (sel.length === 1 ? sel[0] : sel.length + " selected") : "Any"; n.classList.toggle("on", sel.length > 0); n.closest("details").classList.toggle("has", sel.length > 0); });
+  document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(DISP[v] || v)} ×</button>`)).join("");
+  document.querySelectorAll("#active .chip").forEach(c => c.onclick = () => { on[c.dataset.rk].delete(c.dataset.rv); const cb = [...document.querySelectorAll("#facets input")].find(x => x.dataset.k === c.dataset.rk && x.dataset.v === c.dataset.rv); if (cb) cb.checked = false; render(); });
+  drawer();
+  document.querySelectorAll("tr.row").forEach(tr => tr.onclick = () => { open = open === tr.dataset.id ? null : tr.dataset.id; render(); });
+  document.querySelectorAll("[data-goto]").forEach(a => a.onclick = e => {
+    e.preventDefault(); const t = data.find(m => m.id === a.dataset.goto);
+    if (t) { document.getElementById("q").value = t.name; open = t.id; render(); }
+  });
+}
+
+const cmp = [];
+function drawer() {
+  const el = document.getElementById("drawer"), m = data.find(d => d.id === open);
+  el.classList.toggle("on", !!m); if (!m) { el.innerHTML = ""; return; }
+  const grp = FACETS.map(([k, lab]) => split(m[k]).length ? `<div class="dg"><b>${lab}</b>${split(m[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "").join("");
+  const lin = [["variant_of", "Variant of"], ["builds_on", "Builds on"], ["children", "Led to"]].filter(([k]) => m[k]).map(([k, lab]) => `<div class="dg"><b>${lab}</b>${split(m[k]).map(v => `<a href="#" data-goto="${esc(v)}">${esc((data.find(d => d.id === v) || {name: v}).name)}</a>`).join(", ")}</div>`).join("");
+  const seeAlso = m.see_also ? `<div class="dg"><b>See also</b>${m.see_also.split("; ").map(x => { const d = (x.match(/doi:(\S+)/) || [])[1]; return d ? `<a href="https://doi.org/${esc(d)}" target="_blank" rel="noopener">${esc(x.replace(/ ?doi:\S+/, ""))}</a>` : esc(x); }).join("<br>")}</div>` : "";
+  const pl = m.doi ? "https://doi.org/" + m.doi : m.url || "";
+  el.innerHTML = `<button class="x" id="dx" type="button" aria-label="Close">×</button><h2>${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}</h2>${m.full_name ? `<p class="aka">${esc(m.full_name)}</p>` : ""}
+    <p>${esc(m.summary)}</p>${m.how ? `<details class="how" open><summary>How it works</summary><p>${esc(m.how)}</p></details>` : ""}${m.aliases ? `<p class="aka">Also called: ${esc(m.aliases)}</p>` : ""}${grp}${lin}
+    ${m.title ? `<p class="ptitle">${esc(m.title)}</p>` : ""}
+    <p class="meta">${pl ? `<a href="${esc(pl)}" target="_blank" rel="noopener">` : ""}${m.first_author ? `${esc(m.first_author)} … ${esc(m.last_author)}, <i>${esc(m.journal)}</i> ${m.year ?? ""}` : `Vendor page: ${esc(pl.replace(/^https?:\/\//, "").replace(/^www\./, "").slice(0, 60))}`}${pl ? "</a>" : ""}${m.citations != null ? ` · ${m.citations.toLocaleString()} citations` : ""}</p>${seeAlso}
+    <p class="links">${[m.protocol ? `<a href="${esc(m.protocol)}" target="_blank" rel="noopener">Protocol</a>` : "", m.code ? `<a href="${esc(m.code)}" target="_blank" rel="noopener">Code</a>` : "", m.category === "dry" ? "" : '<a href="family.html">Family graph</a>', '<a href="#" id="dlink">Copy link</a>'].filter(Boolean).join(" · ")}</p>
+    <p class="meta">Accession <b>${esc(m.accession)}</b> · cite a method in your methods section by its paper DOI plus this ID</p>
+    <button class="btn" id="dcmp" type="button">${cmp.includes(m.id) ? "Remove from compare" : "Add to compare"}</button>`;
+  document.getElementById("dx").onclick = () => { open = null; render(); };
+  document.getElementById("dlink").onclick = e => { e.preventDefault(); const u = location.origin + location.pathname + "#" + m.accession; history.replaceState(null, "", "#" + m.accession); (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => e.target.textContent = "Link copied", () => e.target.textContent = "Link is now in the address bar"); };
+  document.getElementById("dcmp").onclick = () => { const i = cmp.indexOf(m.id); i >= 0 ? cmp.splice(i, 1) : cmp.length < 3 ? cmp.push(m.id) : alert("Compare holds up to 3 methods."); cmpBar(); drawer(); };
+  el.querySelectorAll("[data-goto]").forEach(a => a.onclick = e => { e.preventDefault(); const t = data.find(d => d.id === a.dataset.goto); if (t) { document.getElementById("q").value = t.name; open = t.id; render(); } });
+}
+function cmpBar() {
+  const b = document.getElementById("cmpbar"); b.classList.toggle("on", cmp.length > 0);
+  b.innerHTML = `<span>Compare: ${cmp.map(id => esc(data.find(d => d.id === id).name)).join(" · ")}</span><button class="btn" id="cgo" type="button" ${cmp.length < 2 ? "disabled" : ""}>Open (${cmp.length})</button><button class="btn" id="cclr" type="button">Clear</button>`;
+  document.getElementById("cgo").onclick = () => cmpOpen(true); document.getElementById("cclr").onclick = () => { cmp.length = 0; cmpBar(); drawer(); };
+}
+function cmpOpen(v) {
+  const el = document.getElementById("cmp"); el.classList.toggle("on", v && cmp.length > 1); if (!v || cmp.length < 2) return;
+  const ms = cmp.map(id => data.find(d => d.id === id)), row = (lab, f) => `<tr><th>${lab}</th>${ms.map(m => `<td>${f(m)}</td>`).join("")}</tr>`, tg = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
+  el.innerHTML = `<div class="cbox"><button class="x" id="cx" type="button" aria-label="Close">×</button><table><thead><tr><th></th>${ms.map(m => `<th>${esc(m.name)}</th>`).join("")}</tr></thead><tbody>${row("Full name", m => esc(m.full_name || ""))}${row("Summary", m => esc(m.summary))}${FACETS.map(([k, lab]) => row(lab, m => tg(m[k]))).join("")}${row("Year", m => m.year ?? "")}${row("Citations", m => m.citations != null ? m.citations.toLocaleString() : "–")}${row("Paper", m => m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">${esc(m.doi)}</a>` : "")}</tbody></table></div>`;
+  document.getElementById("cx").onclick = () => cmpOpen(false); el.onclick = e => { if (e.target === el) cmpOpen(false); };
+}
+</script>
+<aside id="drawer" aria-label="Method details"></aside><div id="cmpbar"></div><div id="cmp"></div>
+<script src="visitor-counter.js?v=20261028-counter3" defer></script>
+</body>
+</html>

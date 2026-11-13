@@ -1,6 +1,6 @@
 # Seq-Browser masterlist
 
-Sequencing-based assays, one row per method. Updated 2026-11-13. 1130 wet-lab methods, 1789 computational (under construction).
+Sequencing-based assays, one row per method. Updated 2026-11-13. 1131 wet-lab methods, 1789 computational (under construction).
 
 **For LLMs / tools:** this file is the complete database. Columns use a fixed vocabulary (see `taxonomy.yaml`). `Variant of` gives the parent method's id (lowercase-hyphenated name). Machine-readable copies: `docs/methods.json`, `docs/methods.csv`. Raw URL: https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md
 
@@ -166,6 +166,7 @@ Sequencing-based assays, one row per method. Updated 2026-11-13. 1130 wet-lab me
 | **Collide-seq** `SBW0491` |  | rna | single-cell |  | genome-wide | reverse-transcription |  | Hersbach BA 2022, Mol Syst Biol, [doi:10.15252/msb.202211129](https://doi.org/10.15252/msb.202211129) | 28 | Single-cell protocol using combinatorial, traceable reprogramming-factor expression to analyse multiple fate conversions at once. |
 | **Combi-seq** `SBW0492` |  | rna | single-cell |  | genome-wide | droplet-microfluidics; reverse-transcription |  | Mathur L 2022, Nat Commun, [doi:10.1038/s41467-022-32197-0](https://doi.org/10.1038/s41467-022-32197-0) | 25 | Droplet microfluidics with deterministic combinatorial DNA barcodes reads transcriptome changes for hundreds of drug combinations in single cells. |
 | **Combinatorial Perturb-seq** `SBW0270` |  | rna | single-cell |  | genome-wide | reverse-transcription; droplet-microfluidics | builds on perturb-seq | Norman TM 2019, Science, [doi:10.1126/science.aax4438](https://doi.org/10.1126/science.aax4438) | 465 | Perturb-seq with CRISPR activation of single genes and gene pairs, reading single-cell transcriptomes to map genetic interactions. |
+| **Computational array reconstruction** `SBW1131` |  | rna; spatial-position | spatial |  | genome-wide |  (unknown) | builds on dna-microscopy | None None, None, [doi:10.1038/s41587-025-02612-0](https://doi.org/10.1038/s41587-025-02612-0) |  | Imaging-free spatial transcriptomics - the positions of spatial barcodes are reconstructed from molecular diffusion and dimensionality reduction instead of being decoded by imaging, scaling to centimeter-sized tissues. |
 | **COMRADES** (cross-linking of matched RNAs and deep sequencing) `SBW0213` |  | rna-structure; rna-rna-interaction | bulk |  | genome-wide | reverse-transcription |  | Ziv O 2018, Nat Methods, [doi:10.1038/s41592-018-0121-0](https://doi.org/10.1038/s41592-018-0121-0) | 201 | Cross-linking of matched RNAs and deep sequencing to capture in vivo RNA conformations and RNA-RNA interactions. |
 | **Condense-seq** `SBW0732` |  | chromatin-condensability | bulk |  | genome-wide | mnase | builds on mnase-seq | Park S 2025, Nature, [doi:10.1038/s41586-025-08971-7](https://doi.org/10.1038/s41586-025-08971-7) | 39 | Native mononucleosomes from MNase-digested chromatin are condensed with physiological polyamines; sequencing the nucleosomes left in solution versus the input gives genome-wide condensability at single-nucleosome resolution. |
 | **CondenSeq** `SBW0733` |  | functional-screen | subcellular |  | targeted | in-situ-hybridization (unverified) |  | Kappel K 2025, Nat Methods, [doi:10.1038/s41592-025-02726-y](https://doi.org/10.1038/s41592-025-02726-y) | 13 | Pooled imaging with in situ sequencing that reads protein-sequence library identity inside nuclei while imaging condensate formation, to measure sequence determinants at scale. |
@@ -1197,6 +1198,7 @@ Sequencing-based assays, one row per method. Updated 2026-11-13. 1130 wet-lab me
 - sci-atac-seq -> cobatch (variant)
 - cut-and-tag -> cobatch (builds on)
 - perturb-seq -> combinatorial-perturb-seq (builds on)
+- dna-microscopy -> computational-array-reconstruction (builds on)
 - mnase-seq -> condense-seq (builds on)
 - cut-and-tag -> cotech (builds on)
 - sci-rna-seq -> cotech (builds on)
