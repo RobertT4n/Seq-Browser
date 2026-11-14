@@ -1,0 +1,29 @@
+name: SIP-HAVA-seq
+category: wet
+summary: Duplex-sequencing-based mutation detection with an error rate below about 1e-10 that starts from as little as 50
+  pg DNA, used to measure stem-cell mutation accrual.
+readouts:
+- dna-damage
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+input_sample:
+- low-input
+species:
+- invertebrate
+chemistry_unknown: library chemistry not stated in abstract
+reference:
+  doi: 10.1101/gr.200501.115
+  year: 2016
+  journal: Genome Res
+  first_author: Taylor PH
+  last_author: Cinquin O
+  pmid: '27803194'
+  pmcid: PMC5088601
+  title: Quantification of in vivo progenitor mutation accrual with ultra-low error rate and minimal input DNA using SIP-HAVA-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we report a mutation detection technique, based on the "duplex sequencing" principle, with an error rate below
+  ~10 -10  and that can start from as little as 50 pg DNA.

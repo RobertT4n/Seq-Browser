@@ -1,0 +1,31 @@
+name: RECAP-seq
+full_name: Restriction Enzyme-based CpG-methylated fragment AmPlification sequencing
+category: wet
+summary: BstUI digestion of EM-seq libraries at CGCG motifs enriches hypermethylated CpG-island fragments for cfDNA cancer
+  detection.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+reference:
+  doi: 10.1038/s41598-025-24708-y
+  year: 2025
+  journal: Sci Rep
+  first_author: Shin D
+  last_author: Bang D
+  pmid: '41258415'
+  pmcid: PMC12630582
+  title: 'RECAP-seq: restriction enzyme-based CpG-methylated fragment amplification for early cancer detection'
+links: {}
+added: '2026-11-14'
+evidence: To address these limitations, we developed Restriction Enzyme-based CpG-methylated fragment AmPlification sequencing
+  (RECAP-seq) to selectively enrich hypermethylated fragments from existing Enzymatic Methyl-seq (EM-seq) libraries.

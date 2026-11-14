@@ -1,0 +1,26 @@
+name: UPA-seq
+category: wet
+summary: RNA-seq of RNA recovered from the aqueous phase after UV irradiation and phenol-chloroform extraction; RNAs crosslinked
+  to proteins are lost, flagging candidate functional lncRNAs.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- organic-extraction
+- reverse-transcription
+reference:
+  doi: 10.1261/rna.067611.118
+  year: 2018
+  journal: RNA
+  first_author: Komatsu T
+  last_author: Nakagawa S
+  pmid: '30232101'
+  pmcid: PMC6239193
+  title: 'UPA-seq: prediction of functional lncRNAs using differential sensitivity to UV crosslinking'
+links: {}
+added: '2026-11-14'
+evidence: Assuming that some lncRNAs function as large ribonucleoprotein complexes and thus are easily crosslinked to proteins
+  upon UV irradiation, we performed RNA-seq analyses of RNAs recovered from the aqueous phase after UV irradiation and phenol-chloroform
+  extraction (UPA-seq).

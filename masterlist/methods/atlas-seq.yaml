@@ -1,0 +1,34 @@
+name: ATLAS-seq
+full_name: Aptamer-based T Lymphocyte Activity Screening and SEQuencing
+category: wet
+summary: Microfluidic single-cell screen that isolates T cells activated by antigen (aptamer sensor for IFN-gamma secretion)
+  and sequences their RNA and TCRs to find antigen-reactive TCRs.
+readouts:
+- receptor-ligand
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+input_sample:
+- live-cells
+validated_system:
+- primary-cells
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-54675-3
+  year: 2025
+  journal: Nat Commun
+  first_author: Luo S
+  last_author: Lin L
+  pmid: '39746936'
+  pmcid: PMC11696065
+  title: 'ATLAS-seq: a microfluidic single-cell TCR screen for antigen-reactive TCRs'
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop a microfluidic single-cell screening method for antigen-reactive T cells named ATLAS-seq (Aptamer-based
+  T Lymphocyte Activity Screening and SEQuencing).

@@ -1,0 +1,28 @@
+name: MAGNET-seq
+full_name: Multiplex Amplification and tarGeted eNrichment of sElecTed sequences
+category: wet
+summary: Targeted multiplex PCR followed by hybrid capture to enrich tens of target regions with higher on-target rate than
+  multiplex PCR alone.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry:
+- amplicon-pcr
+- oligo-capture
+reference:
+  doi: 10.1371/journal.pone.0325385
+  year: 2025
+  journal: PLoS One
+  first_author: Lee D
+  last_author: Bang D
+  pmid: '40465784'
+  pmcid: PMC12136444
+  title: 'MAGNET-seq: A tandem PCR and hybrid capture method for enhanced target enrichment'
+links: {}
+added: '2026-11-14'
+evidence: We developed MAGNET-seq (Multiplex Amplification and tarGeted eNrichment of sElecTed sequences), a streamlined method
+  that integrates targeted multiplex PCR with hybrid capture.

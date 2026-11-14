@@ -1,0 +1,23 @@
+name: TELLBASE
+full_name: TELL-seq barcode-assisted scaffold assembler
+category: dry
+summary: Scaffold assembler that uses TELL-seq barcode-linked reads to assemble bacterial genomes and plasmids.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1093/bib/bbaf504
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Li Y
+  last_author: Jiang N
+  pmid: '41016011'
+  pmcid: PMC12476840
+  title: 'TELLBASE: a novel tool of TELL-seq barcode-assisted scaffold assembler for bacterial genomes'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present TELL-seq barcode-assisted scaffold assembler (TELLBASE)

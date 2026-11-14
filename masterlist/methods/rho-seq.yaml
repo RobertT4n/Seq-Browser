@@ -1,0 +1,28 @@
+name: Rho-seq
+full_name: Rhodamine sequencing
+category: wet
+summary: Rhodamine labelling of dihydrouridine (and other modifications) blocks reverse transcription, mapping modified RNA
+  nucleotides at single-nucleotide resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+chemistry_unknown: Rhodamine chemical labelling has no fitting taxonomy tag
+reference:
+  doi: 10.1016/j.molcel.2021.11.003
+  year: 2022
+  journal: Mol Cell
+  first_author: Finet O
+  last_author: Hermand D
+  pmid: '34798057'
+  pmcid: PMC8792297
+  title: Transcription-wide mapping of dihydrouridine reveals that mRNA dihydrouridylation is required for meiotic chromosome
+    segregation
+links: {}
+added: '2026-11-14'
+evidence: Rho-Seq relies on specific rhodamine-labeling of a subset of modified nucleotides that hinders reverse transcription.

@@ -1,0 +1,29 @@
+name: Phospho-RNA-seq
+category: wet
+summary: Small RNA-seq modified by T4 polynucleotide kinase treatment so that mRNA and lncRNA fragments lacking a 5' phosphate
+  or carrying a 3' phosphate are captured from plasma.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.15252/embj.2019101695
+  year: 2019
+  journal: EMBO J
+  first_author: Giraldez MD
+  last_author: Tewari M
+  pmid: '31053596'
+  pmcid: PMC6545557
+  title: 'Phospho-RNA-seq: a modified small RNA-seq method that reveals circulating mRNA and lncRNA fragments as potential
+    biomarkers in human plasma'
+links: {}
+added: '2026-11-14'
+evidence: These fragments were revealed using a modified protocol ("phospho-RNA-seq") incorporating RNA treatment with T4-polynucleotide
+  kinase, which we compared with standard small RNA-seq for sequencing synthetic RNAs with varied 5' and 3' ends, as well
+  as human plasma exRNA Analyzing phospho-RNA-seq data using a custom, high-stringency bioinformatic pipeline, we identified
+  mRNA/lncRNA transcriptome fingerprints in plasma, including tissue-specific gene sets.

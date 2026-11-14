@@ -1,0 +1,20 @@
+name: CNV-seq
+category: dry
+summary: Statistical model detecting copy number variation from shotgun sequencing by comparing read depth between two genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-10-80
+  year: 2009
+  journal: BMC Bioinformatics
+  first_author: Xie C
+  last_author: Tammi MT
+  pmid: '19267900'
+  pmcid: PMC2667514
+  title: CNV-seq, a new method to detect copy number variation using high-throughput sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a method to detect copy number variation using shotgun sequencing, CNV-seq.

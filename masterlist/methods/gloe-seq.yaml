@@ -1,0 +1,30 @@
+name: GLOE-Seq
+full_name: genome-wide ligation of 3'-OH ends followed by sequencing
+category: wet
+summary: Ligation of adapters to free 3'-OH ends maps single-strand breaks, lesions and Okazaki fragments at nucleotide resolution
+  genome-wide.
+readouts:
+- dna-damage
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- microbe
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1016/j.molcel.2020.03.027
+  year: 2020
+  journal: Mol Cell
+  first_author: Sriramachandran AM
+  last_author: Ulrich HD
+  pmid: '32320643'
+  pmcid: PMC7276987
+  title: Genome-wide Nucleotide-Resolution Mapping of DNA Replication Patterns, Single-Strand Breaks, and Lesions by GLOE-Seq
+links: {}
+added: '2026-11-14'
+evidence: We now present a technique based on genome-wide ligation of 3'-OH ends followed by sequencing (GLOE-Seq) and an
+  associated computational pipeline designed for capturing SSBs but versatile enough to be applied to any lesion convertible
+  into a free 3'-OH terminus.

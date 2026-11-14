@@ -1,0 +1,25 @@
+name: TeloPCR-seq
+category: wet
+summary: PCR-based deep sequencing of terminal telomere sequences from tens of thousands of individual telomeres.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1002/1873-3468.12444
+  year: 2016
+  journal: FEBS Lett
+  first_author: Bennett HW
+  last_author: King MC
+  pmid: '27714790'
+  pmcid: PMC5561429
+  title: 'TeloPCR-seq: a high-throughput sequencing approach for telomeres'
+links: {}
+added: '2026-11-14'
+evidence: We have developed a high-throughput sequencing approach that enables us to determine terminal telomere sequences
+  from tens of thousands of individual Schizosaccharomyces pombe telomeres.

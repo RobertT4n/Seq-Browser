@@ -1,0 +1,31 @@
+name: Aba-Seq
+full_name: AbaSI coupled with sequencing
+category: wet
+summary: The 5hmC-specific restriction enzyme AbaSI cuts at modified sites, and the cut ends are sequenced to map 5hmC at
+  high resolution without chemical conversion.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1016/j.celrep.2013.01.001
+  year: 2013
+  journal: Cell Rep
+  first_author: Sun Z
+  last_author: Zheng Y
+  pmid: '23352666'
+  pmcid: PMC3743234
+  title: High-resolution enzymatic mapping of genomic 5-hydroxymethylcytosine in mouse embryonic stem cells
+links: {}
+added: '2026-11-14'
+evidence: Aba-Seq (DNA modification-dependent restriction endonuclease AbaSI coupled with sequencing) provides a cost-effective
+  and non-chemical based method for the high-resolution mapping of genomic 5-hydroxymethylcytosine (5hmC).

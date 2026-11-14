@@ -1,0 +1,26 @@
+name: repli-ATAC-seq
+category: wet
+summary: ATAC-seq on EdU-labelled replicated DNA isolated from tagmented fragments, profiling accessibility after replication
+  from 100,000 cells.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- tn5
+- nucleotide-labeling
+reference:
+  doi: 10.1016/j.molcel.2019.06.035
+  year: 2019
+  journal: Mol Cell
+  first_author: Stewart-Morgan KR
+  last_author: Groth A
+  pmid: '31348880'
+  title: Transcription Restart Establishes Chromatin Accessibility after DNA Replication
+links: {}
+added: '2026-11-14'
+evidence: Here, we present repli-ATAC-seq, a protocol to profile accessible chromatin genome-wide on replicated DNA starting
+  from 100,000 cells.

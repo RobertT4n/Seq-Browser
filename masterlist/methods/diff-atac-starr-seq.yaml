@@ -1,0 +1,34 @@
+name: Diff-ATAC-STARR-seq
+category: wet
+summary: ATAC-STARR-seq applied in vivo to different brain structures with differential analysis to find tissue-specific active
+  enhancers.
+readouts:
+- functional-screen
+- chromatin-accessibility
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+input_sample:
+- fresh-tissue
+species:
+- mouse
+chemistry:
+- tn5
+chemistry_unknown: Reporter delivery and library chemistry not stated in abstract
+builds_on:
+- starr-seq
+- atac-seq
+reference:
+  doi: 10.1248/bpb.b22-00400
+  year: 2022
+  journal: Biol Pharm Bull
+  first_author: Nagayasu K
+  last_author: Kaneko S
+  pmid: '36184520'
+  title: 'Diff-ATAC-STARR-Seq: A Method for Genome-Wide Functional Screening of Enhancer Activity in Vivo'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we describe a novel method for genome-wide functional screening of enhancer activity in vivo with
+  minimal handling.

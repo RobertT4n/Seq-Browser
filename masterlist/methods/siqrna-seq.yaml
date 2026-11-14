@@ -1,0 +1,29 @@
+name: siqRNA-seq
+full_name: spike-in-independent quantitative RNA-seq
+category: wet
+summary: Total nucleic acid single-stranded library prep that profiles gDNA and cDNA equally, using gDNA as internal control
+  for spike-in-free quantitative RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s12864-024-10650-2
+  year: 2024
+  journal: BMC Genomics
+  first_author: Wang Z
+  last_author: Xu W
+  pmid: '39080556'
+  pmcid: PMC11290086
+  title: siqRNA-seq is a spike-in-independent technique for quantitative mapping of mRNA landscape
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel quantitative RNA sequencing method independent of spike-ins or cell counting, named siqRNA-seq,
+  which can be used to quantitatively profile gene expression by utilizing gDNA as an internal control.

@@ -1,0 +1,27 @@
+name: ALE-seq
+full_name: amplification of LTRs of extrachromosomal linear DNAs
+category: wet
+summary: Amplification of LTRs of extrachromosomal linear DNAs detects pre-integration intermediates of LTR retrotransposons
+  to find active elements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry: []
+chemistry_unknown: library chemistry not stated in the batch abstract
+reference:
+  doi: 10.1038/s41477-018-0320-9
+  year: 2019
+  journal: Nat Plants
+  first_author: Cho J
+  last_author: Paszkowski J
+  pmid: '30531940'
+  pmcid: PMC6366555
+  title: Sensitive detection of pre-integration intermediates of long terminal repeat retrotransposons in crop plants
+links: {}
+added: '2026-11-14'
+evidence: ALE-seq is a method devised to identify pre-integration intermediates of LTR retrotransposons called extrachromosomal
+  linear DNA, which can be used to predict retrotransposition activity.

@@ -1,0 +1,28 @@
+name: TAC-seq
+full_name: Targeted Allele Counting by sequencing
+category: wet
+summary: UMI-based targeted sequencing that counts original molecules of selected mRNAs, microRNAs and cell-free DNA.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry:
+- reverse-transcription
+chemistry_unknown: targeted enrichment/UMI chemistry not described in the abstract
+reference:
+  doi: 10.1038/s41525-018-0072-5
+  year: 2018
+  journal: NPJ Genom Med
+  first_author: Teder H
+  last_author: Krjutškov K
+  pmid: '30588329'
+  pmcid: PMC6299075
+  title: 'TAC-seq: targeted DNA and RNA sequencing for precise biomarker molecule counting'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a robust and cost-effective TAC-seq (Targeted Allele Counting by sequencing) method that uses UMIs
+  to estimate the original molecule counts of mRNAs, microRNAs, and cell-free DNA.

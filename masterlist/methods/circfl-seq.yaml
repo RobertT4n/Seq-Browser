@@ -1,0 +1,30 @@
+name: circFL-seq
+full_name: Full-length circRNA sequencing
+category: wet
+summary: Full-length circRNA sequencing using rolling-circle reverse transcription and nanopore long reads to resolve circRNA
+  isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.7554/elife.69457
+  year: 2021
+  journal: Elife
+  first_author: Liu Z
+  last_author: Yang E
+  pmid: '34647522'
+  pmcid: PMC8550772
+  title: circFL-seq reveals full-length circular RNAs with rolling circular reverse transcription and nanopore sequencing
+links: {}
+added: '2026-11-14'
+evidence: Recently, we have developed a full-length circRNA sequencing method (circFL-seq) and computational pipeline, to
+  profile ordinary and fusion circRNA at the isoform level.

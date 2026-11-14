@@ -1,0 +1,29 @@
+name: CReVIS-seq
+full_name: CRISPR-enhanced Viral Integration Site Sequencing
+category: wet
+summary: Fragmented genomic DNA is circularised in vitro and cut at the viral sequence by Cas9/sgRNA so integration sites
+  are sequenced without PCR enrichment bias.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1016/j.omtm.2020.10.012
+  year: 2021
+  journal: Mol Ther Methods Clin Dev
+  first_author: Kim HS
+  last_author: Hur JK
+  pmid: '33768124'
+  pmcid: PMC7961857
+  title: 'CReVIS-Seq: A highly accurate and multiplexable method for genome-wide mapping of lentiviral integration sites'
+links: {}
+added: '2026-11-14'
+evidence: In order to address this issue, we developed an alternative method for genome-wide mapping of viral insertion sites,
+  named CReVIS-seq (CRISPR-enhanced Viral Integration Site Sequencing).

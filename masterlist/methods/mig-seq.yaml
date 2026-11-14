@@ -1,0 +1,28 @@
+name: MIG-seq
+full_name: Multiplexed ISSR Genotyping by sequencing
+category: wet
+summary: PCR-based reduced-representation library using multiplexed inter-simple sequence repeat primers, with no restriction
+  digestion, for SNP discovery and genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/srep16963
+  year: 2015
+  journal: Sci Rep
+  first_author: Suyama Y
+  last_author: Matsuki Y
+  pmid: '26593239'
+  pmcid: PMC4655332
+  title: 'MIG-seq: an effective PCR-based method for genome-wide single-nucleotide polymorphism genotyping using the next-generation
+    sequencing platform'
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a PCR-based procedure to construct reduced representation libraries without RE digestion steps,
+  representing de novo single-nucleotide polymorphism discovery, and its genotyping using next-generation sequencing.

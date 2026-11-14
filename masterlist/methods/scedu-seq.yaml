@@ -1,0 +1,27 @@
+name: scEdU-seq
+full_name: single-cell 5-ethynyl-2'-deoxyuridine sequencing
+category: wet
+summary: Sequencing of EdU-labelled nascent DNA in single cells to measure DNA replication speed across S phase.
+readouts:
+- replication-timing
+resolution:
+- single-cell
+scope: genome-wide
+temporal:
+- metabolic-labeling
+chemistry:
+- nucleotide-labeling
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41592-024-02308-4
+  year: 2024
+  journal: Nat Methods
+  first_author: van den Berg J
+  last_author: van Oudenaarden A
+  pmid: '38886577'
+  pmcid: PMC11239516
+  title: Quantifying DNA replication speeds in single cells by scEdU-seq
+links: {}
+added: '2026-11-14'
+evidence: To accurately measure DNA replication speeds, we developed single-cell 5-ethynyl-2'-deoxyuridine sequencing to detect
+  nascent replicated DNA.

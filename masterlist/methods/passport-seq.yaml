@@ -1,0 +1,28 @@
+name: PASSPORT-seq
+category: wet
+summary: Pooled reporter bioassay with sequencing readout that tests hundreds of variants in miRNA binding sites (mirSNPs)
+  in parallel for functional effect.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+species:
+- human
+chemistry: []
+chemistry_unknown: reporter library construction and readout chemistry not stated in the abstract
+reference:
+  doi: 10.3389/fgene.2018.00219
+  year: 2018
+  journal: Front Genet
+  first_author: Ipe J
+  last_author: Skaar TC
+  pmid: '29963077'
+  pmcid: PMC6013768
+  title: 'PASSPORT-seq: A Novel High-Throughput Bioassay to Functionally Test Polymorphisms in Micro-RNA Target Sites'
+links: {}
+added: '2026-11-14'
+evidence: We developed a novel high-throughput bioassay, PASSPORT-seq, that can functionally test in parallel 100s of these
+  variants in miRNA binding sites (mirSNPs).

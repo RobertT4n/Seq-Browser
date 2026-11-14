@@ -1,0 +1,28 @@
+name: BSR-seq
+full_name: Bulked segregant RNA-seq
+category: wet
+summary: Bulked segregant analysis using RNA-seq reads of pooled mutant and wild-type siblings to map causal loci and profile
+  expression without prior markers.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1371/journal.pone.0036406
+  year: 2012
+  journal: PLoS One
+  first_author: Liu S
+  last_author: Schnable PS
+  pmid: '22586469'
+  pmcid: PMC3346754
+  title: Gene mapping via bulked segregant RNA-Seq (BSR-Seq)
+links: {}
+added: '2026-11-14'
+evidence: We have developed a modification of BSA (BSR-Seq) that makes use of RNA-Seq reads to efficiently map genes even
+  in populations for which no polymorphic markers have been previously identified.

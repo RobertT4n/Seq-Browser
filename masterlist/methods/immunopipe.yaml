@@ -1,0 +1,22 @@
+name: Immunopipe
+category: dry
+summary: Flexible pipeline for joint analysis of scRNA-seq and scTCR-seq data.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf063
+  year: 2025
+  journal: NAR Genom Bioinform
+  first_author: Wang P
+  last_author: Li Y
+  pmid: '40391086'
+  pmcid: PMC12086537
+  title: 'Immunopipe: a comprehensive and flexible scRNA-seq and scTCR-seq data analysis pipeline'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present immunopipe, a comprehensive and flexible pipeline to perform integrated analysis of scRNA-seq and
+  scTCR-seq data.

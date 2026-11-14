@@ -1,0 +1,24 @@
+name: MethylCap-seq
+category: wet
+summary: Capture of methylated DNA with the MBD domain of MeCP2, eluted by a salt gradient and sequenced to map genome-wide
+  DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: affinity-capture (MBD protein) chemistry has no matching taxonomy tag
+reference:
+  doi: 10.1016/j.ymeth.2010.06.012
+  year: 2010
+  journal: Methods
+  first_author: Brinkman AB
+  last_author: Stunnenberg HG
+  pmid: '20542119'
+  title: Whole-genome DNA methylation profiling using MethylCap-seq
+links: {}
+added: '2026-11-14'
+evidence: The approach consists of the capture of methylated DNA using the MBD domain of MeCP2, and subsequent next-generation
+  sequencing of eluted DNA.

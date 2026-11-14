@@ -1,0 +1,21 @@
+name: ASPeak
+full_name: Abundance sensitive peak detection algorithm
+category: dry
+summary: Peak-calling algorithm for RIP-seq data that accounts for wide variation in RNA abundance.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt428
+  year: 2013
+  journal: Bioinformatics
+  first_author: Kucukural A
+  last_author: Cenik C
+  pmid: '23929032'
+  pmcid: PMC3777114
+  title: 'ASPeak: an abundance sensitive peak detection algorithm for RIP-Seq'
+links: {}
+added: '2026-11-14'
+evidence: ASPeak is implemented in Perl as a complete pipeline that takes bedGraph files as input.

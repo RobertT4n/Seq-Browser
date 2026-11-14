@@ -1,0 +1,30 @@
+name: NA-seq
+category: wet
+summary: Restriction-enzyme digestion of accessible chromatin followed by sequencing to map accessible DNA elements from small
+  cell numbers.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1016/j.devcel.2009.02.002
+  year: 2009
+  journal: Dev Cell
+  first_author: Gargiulo G
+  last_author: Minucci S
+  pmid: '19289091'
+  title: 'NA-Seq: a discovery tool for the analysis of chromatin structure and dynamics during differentiation'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a method based on restriction enzymes and next-generation sequencing for identifying accessible
+  DNA elements using a small amount of starting material, and use it to examine myeloid differentiation of primary human CD34+
+  cells.

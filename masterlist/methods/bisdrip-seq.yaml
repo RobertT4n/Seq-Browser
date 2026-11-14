@@ -1,0 +1,27 @@
+name: bisDRIP-seq
+category: wet
+summary: Bisulfite-based DNA:RNA immunoprecipitation sequencing that maps promoter R-loops at near-nucleotide resolution.
+readouts:
+- rna-chromatin-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.7554/elife.28306
+  year: 2017
+  journal: Elife
+  first_author: Dumelie JG
+  last_author: Jaffrey SR
+  pmid: '29072160'
+  pmcid: PMC5705216
+  title: Defining the location of promoter-associated R-loops at near-nucleotide resolution using bisDRIP-seq
+links: {}
+added: '2026-11-14'
+evidence: To resolve this issue, we developed a bisulfite-based approach, bisDRIP-seq, to map R-loops across the genome at
+  near-nucleotide resolution in MCF-7 cells.

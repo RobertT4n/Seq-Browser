@@ -1,0 +1,25 @@
+name: tagRNA-seq
+category: wet
+summary: RNA-seq variant with tags that distinguish primary from processed transcripts in bacteria (5' end mapping).
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+chemistry_unknown: tagging chemistry not stated in abstract
+reference:
+  doi: 10.1261/rna.048470.114
+  year: 2015
+  journal: RNA
+  first_author: Innocenti N
+  last_author: Aurell E
+  pmid: '25737579'
+  title: 'Whole-genome mapping of 5'' RNA ends in bacteria by tagged sequencing: a comprehensive view in Enterococcus faecalis'
+links: {}
+added: '2026-11-14'
+evidence: We recently reported on a novel variant of RNA-seq coined "tagRNA-seq" introduced for the purpose of distinguishing
+  primary from processed transcripts in bacteria.

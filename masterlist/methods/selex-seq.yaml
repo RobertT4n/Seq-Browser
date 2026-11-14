@@ -1,0 +1,27 @@
+name: SELEX-seq
+category: wet
+summary: In vitro SELEX of DNA libraries bound by transcription factor complexes with high-throughput sequencing and modelling
+  to give relative binding affinities.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+targets:
+- Hox
+- Exd
+chemistry: []
+chemistry_unknown: SELEX selection chemistry has no matching taxonomy tag
+reference:
+  doi: 10.1016/j.cell.2011.10.053
+  year: 2011
+  journal: Cell
+  first_author: Slattery M
+  last_author: Mann RS
+  pmid: '22153072'
+  pmcid: PMC3319069
+  title: Cofactor binding evokes latent differences in DNA binding specificity between Hox proteins
+links: {}
+added: '2026-11-14'
+evidence: To test this hypothesis we developed a new experimental and computational platform, termed SELEX-seq, to characterize
+  DNA-binding specificities of Hox-based multiprotein complexes.

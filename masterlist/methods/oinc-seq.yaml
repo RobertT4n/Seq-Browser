@@ -1,0 +1,28 @@
+name: OINC-seq
+full_name: Oxidation-Induced Nucleotide Conversion sequencing
+category: wet
+summary: Photo-controlled oxidation of RNA near a localized bait protein is read as reverse-transcriptase mutations, quantifying
+  subcellular RNA localization without enrichment.
+readouts:
+- rna
+resolution:
+- subcellular
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkaf139
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Lo HG
+  last_author: Taliaferro JM
+  pmid: '40037712'
+  pmcid: PMC11879412
+  title: Quantification of subcellular RNA localization through direct detection of RNA oxidation
+links: {}
+added: '2026-11-14'
+evidence: To streamline the analysis of localized RNA populations, we developed Oxidation-Induced Nucleotide Conversion sequencing
+  (OINC-seq).

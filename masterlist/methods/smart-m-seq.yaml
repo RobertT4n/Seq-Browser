@@ -1,0 +1,33 @@
+name: SMaRT M-Seq
+full_name: Single Molecule Real-Time Sequencing of the M protein
+category: wet
+summary: Inverse PCR on circularized cDNA with long-read sequencing recovers full-length variable regions of the monoclonal
+  M protein from patients.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- pacbio
+species:
+- human
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+- amplicon-pcr
+reference:
+  doi: 10.1002/ajh.26684
+  year: 2022
+  journal: Am J Hematol
+  first_author: Cascino P
+  last_author: Nuvolone M
+  pmid: '35997169'
+  title: 'Single-molecule real-time sequencing of the M protein: Toward personalized medicine in monoclonal gammopathies'
+links: {}
+added: '2026-11-14'
+evidence: To address these limitations, we have recently developed a novel method, termed Single Molecule Real-Time Sequencing
+  of the M protein (SMaRT M-Seq), which combines the unbiased amplification of expressed immunoglobulin genes via inverse
+  PCR from circularized cDNA with long-read DNA sequencing, followed by bioinformatic and immunogenetic analyses.

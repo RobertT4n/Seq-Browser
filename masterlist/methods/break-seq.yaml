@@ -1,0 +1,27 @@
+name: Break-seq
+category: wet
+summary: In-gel labelling and capture of DNA double-strand breaks from agarose-embedded cells, followed by Illumina library
+  construction, maps breaks genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+- human
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1101/gr.180497.114
+  year: 2015
+  journal: Genome Res
+  first_author: Hoffman EA
+  last_author: Feng W
+  pmid: '25609572'
+  pmcid: PMC4352882
+  title: Break-seq reveals hydroxyurea-induced chromosome fragility as a result of unscheduled conflict between DNA replication
+    and transcription
+links: {}
+added: '2026-11-14'
+evidence: We describe a genome-wide DNA double-strand break (DSB) mapping technique, Break-seq.

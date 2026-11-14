@@ -1,0 +1,32 @@
+name: DO-RIP-seq
+full_name: digestion optimized RIP-seq
+category: wet
+summary: RIP-seq with optimised nuclease digestion that locates RNA-binding-protein sites and quantifies binding strength
+  on a continuous metric across the transcriptome.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+targets:
+- HuR/ELAVL1
+reference:
+  doi: 10.1261/rna.058115.116
+  year: 2017
+  journal: RNA
+  first_author: Nicholson CO
+  last_author: Keene JD
+  pmid: '27742911'
+  pmcid: PMC5159647
+  title: Quantifying RNA binding sites transcriptome-wide using DO-RIP-seq
+links: {}
+added: '2026-11-14'
+evidence: In this study, we compare current procedures and present digestion optimized (DO)-RIP-seq, a simple method that
+  locates and quantifies RBP binding sites using a continuous metric.

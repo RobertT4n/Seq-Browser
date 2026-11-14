@@ -1,0 +1,28 @@
+name: Image-seq
+category: wet
+summary: Single-cell RNA-seq of cells isolated from imaging-defined tissue locations, so spatial position is preserved.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- imaging-guided-selection
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-022-01673-2
+  year: 2022
+  journal: Nat Methods
+  first_author: Haase C
+  last_author: Lin CP
+  pmid: '36424441'
+  pmcid: PMC9718684
+  title: 'Image-seq: spatially resolved single-cell sequencing guided by in situ and in vivo imaging'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Image-seq, a technology that provides single-cell transcriptional data on cells that are isolated
+  from specific spatial locations under image guidance, thus preserving the spatial information of the target cells.

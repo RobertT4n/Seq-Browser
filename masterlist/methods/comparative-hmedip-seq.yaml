@@ -1,0 +1,32 @@
+name: comparative hMeDIP-seq
+category: wet
+summary: hMeDIP-seq in which differently barcoded input DNA samples are pooled into one immunoprecipitation to compare 5hmC
+  between samples quantitatively.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- medip-seq
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1093/nar/gkt091
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Tan L
+  last_author: Shi YG
+  pmid: '23408859'
+  pmcid: PMC3627583
+  title: Genome-wide comparison of DNA hydroxymethylation in mouse embryonic stem cells and neural progenitor cells by a new
+    comparative hMeDIP-seq method
+links: {}
+added: '2026-11-14'
+evidence: Here, we report a new comparative hMeDIP-seq method, which involves barcoding different input DNA samples at the
+  start and then performing hMeDIP-seq for multiple samples in one hMeDIP reaction.

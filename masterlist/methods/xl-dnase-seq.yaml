@@ -1,0 +1,33 @@
+name: XL-DNase-seq
+full_name: cross-link DNase-seq
+category: wet
+summary: DNase-seq with mild cross-linking that improves footprints of dynamic transcription factors.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- mouse
+chemistry:
+- dnase-digestion
+variant_of:
+- dnase-seq
+reference:
+  doi: 10.1186/s13072-019-0277-6
+  year: 2019
+  journal: Epigenetics Chromatin
+  first_author: Oh KS
+  last_author: Sung MH
+  pmid: '31164146'
+  pmcid: PMC6547507
+  title: 'XL-DNase-seq: improved footprinting of dynamic transcription factors'
+links: {}
+added: '2026-11-14'
+evidence: However, accurate inference of protein occupancy requires higher-resolution footprinting analysis where major hurdles
+  exist, including the sequence bias of nucleases and the short-lived chromatin binding of many transcription factors (TFs)
+  with consequent lack of footprints.ResultsHere we introduce an assay termed cross-link (XL)-DNase-seq, designed to capture
+  chromatin interactions of dynamic TFs.

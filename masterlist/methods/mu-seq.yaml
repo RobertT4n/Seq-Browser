@@ -1,0 +1,28 @@
+name: Mu-seq
+full_name: Mutant-seq
+category: wet
+summary: High-throughput sequencing of Mutator transposon insertion flanks in pooled maize families to map and identify transposon-induced
+  mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- plant
+perturbation:
+- transposon-insertion
+chemistry: []
+chemistry_unknown: library chemistry not stated in abstract
+reference:
+  doi: 10.1371/journal.pone.0077172
+  year: 2013
+  journal: PLoS One
+  first_author: McCarty DR
+  last_author: Koch KE
+  pmid: '24194867'
+  pmcid: PMC3806735
+  title: 'Mu-seq: sequence-based mapping and identification of transposon induced mutations'
+links: {}
+added: '2026-11-14'
+evidence: Here we present Mu-seq (Mutant-seq), a high-throughput NextGen sequencing method for harnessing high-copy transposons.

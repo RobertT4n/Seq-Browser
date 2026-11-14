@@ -1,0 +1,29 @@
+name: atKAS-seq
+full_name: adapter-tagged KAS-seq
+category: wet
+summary: KAS-seq variant that adds sequencing adapters by random N9 tagging and complementary strand synthesis, avoiding the
+  costly Accel-NGS Methyl-seq kit.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- bioorthogonal-conjugation
+- adapter-ligation
+variant_of:
+- kas-seq
+reference:
+  doi: 10.1007/s10142-024-01349-4
+  year: 2024
+  journal: Funct Integr Genomics
+  first_author: Liu X
+  last_author: Hu L
+  pmid: '38526630'
+  title: Exploring transient global transcriptional changes induced by ascorbic acid revealed via atKAS-seq profiling
+links: {}
+added: '2026-11-14'
+evidence: This study introduces an optimized iteration of the KAS-seq technique, referred to as adapter-tagged KAS-seq (atKAS-seq),
+  incorporating an adapter tagging strategy.

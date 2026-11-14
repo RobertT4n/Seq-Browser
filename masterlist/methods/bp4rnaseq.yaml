@@ -1,0 +1,22 @@
+name: BP4RNAseq
+full_name: babysitter package for RNA-seq data analyses
+category: dry
+summary: Automated R pipeline wrapping alignment-based and alignment-free RNA-seq quantification for public and new data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa832
+  year: 2021
+  journal: Bioinformatics
+  first_author: Sun S
+  last_author: Wang G
+  pmid: '32976573'
+  title: 'BP4RNAseq: a babysitter package for retrospective and newly generated RNA-seq data analyses using both alignment-based
+    and alignment-free quantification method'
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop the R package BP4RNAseq, which integrates the state-of-art tools from both alignment-based and
+  alignment-free quantification workflows.

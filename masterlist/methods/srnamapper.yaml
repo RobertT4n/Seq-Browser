@@ -1,0 +1,22 @@
+name: srnaMapper
+category: dry
+summary: Exhaustive read mapper for short-RNA sequencing reads that retrieves all hits with arbitrary errors and handles end
+  editing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05048-4
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Zytnicki M
+  last_author: Gaspin C
+  pmid: '36401177'
+  pmcid: PMC9675193
+  title: 'srnaMapper: an optimal mapping tool for sRNA-Seq reads'
+links: {}
+added: '2026-11-14'
+evidence: In this work, we present a new tool, srnaMapper, that exhaustively maps these reads with all these features in mind,
+  and is most efficient when applied to reads no longer than 50 base pairs.

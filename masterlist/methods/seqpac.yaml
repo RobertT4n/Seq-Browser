@@ -1,0 +1,22 @@
+name: Seqpac
+category: dry
+summary: R package for small-RNA-seq analysis that keeps counts at the level of full read sequences rather than annotated
+  features, so results stay traceable to raw data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad144
+  year: 2023
+  journal: Bioinformatics
+  first_author: Skog S
+  last_author: Nätt D
+  pmid: '36944267'
+  pmcid: PMC10085512
+  title: 'Seqpac: a framework for sRNA-seq analysis in R using sequence-based counts'
+links: {}
+added: '2026-11-14'
+evidence: We present a strategy for sRNA-seq analysis that preserves the integrity of the raw sequence making the data lineage
+  fully traceable.

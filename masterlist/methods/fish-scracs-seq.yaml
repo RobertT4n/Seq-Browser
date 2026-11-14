@@ -1,0 +1,31 @@
+name: FISH-scRACS-seq
+full_name: fluorescence-in-situ-hybridization-guided single-cell Raman-activated sorting and sequencing
+category: wet
+summary: FISH identifies cells of a target taxon, single-cell Raman spectra identify those actively metabolising a substrate,
+  and sorted single cells are sequenced for one-cell genomes.
+readouts:
+- genome-sequence
+- raman-spectrum
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- microbe
+input_sample:
+- live-cells
+chemistry:
+- in-situ-hybridization
+- imaging-guided-selection
+reference:
+  doi: 10.1016/j.xinn.2024.100759
+  year: 2025
+  journal: Innovation (Camb)
+  first_author: Jing X
+  last_author: Xu J
+  pmid: '40098675'
+  pmcid: PMC11910816
+  title: Phylogeny-metabolism dual-directed single-cell genomics for dissecting and mining ecosystem function by FISH-scRACS-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduced a phylogeny-metabolism dual-directed single-cell genomics approach called fluorescence-in situ-hybridization-guided
+  single-cell Raman-activated sorting and sequencing (FISH-scRACS-seq).

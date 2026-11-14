@@ -1,0 +1,22 @@
+name: SCCNAInfer
+category: dry
+summary: Infers absolute copy number per cell from shallow single-cell DNA sequencing, correcting ploidy estimation using
+  subclonal signals.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae454
+  year: 2024
+  journal: Bioinformatics
+  first_author: Zhang L
+  last_author: Mallory X
+  pmid: '39067018'
+  pmcid: PMC11286278
+  title: 'SCCNAInfer: a robust and accurate tool to infer the absolute copy number on scDNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We developed SCCNAInfer, a computational tool that utilizes the subclonal signal inside the tumor cells to more
+  accurately infer each cell's ploidy and CNAs.

@@ -1,0 +1,22 @@
+name: IAOseq
+full_name: Inferring Abundance of Overlapping genes using RNA-seq
+category: dry
+summary: Tool that uses read distributions along transcripts to quantify expression of overlapping genes from standard RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-16-s1-s3
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Sun H
+  last_author: Li Y
+  pmid: '25707673'
+  pmcid: PMC4331702
+  title: 'IAOseq: inferring abundance of overlapping genes using RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We developed a new tool (IAOseq) that is based on reads distributions along the transcribed regions to identify
+  the expression levels of overlapping genes from standard RNA-seq data.

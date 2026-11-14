@@ -1,0 +1,34 @@
+name: snCED-seq
+full_name: cryogenic enzymatic dissociation with snRandom-seq
+category: wet
+summary: Cryogenic enzymatic dissociation extracts nuclei from FFPE tissue in high yield for snRandom-seq single-nucleus RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- ffpe-archival
+- nuclei
+species:
+- mouse
+- human
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- sample-preservation
+builds_on:
+- snrandom-seq
+reference:
+  doi: 10.1038/s41467-025-59464-0
+  year: 2025
+  journal: Nat Commun
+  first_author: Guo Y
+  last_author: Zhao X
+  pmid: '40316516'
+  pmcid: PMC12048618
+  title: 'snCED-seq: high-fidelity cryogenic enzymatic dissociation of nuclei for single-nucleus RNA-seq of FFPE tissues'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a cryogenic enzymatic dissociation (CED) strategy for rapid, high-yield and fidelity nuclei extraction
+  from FFPE samples and validate its utility with snRandom-seq (snCED-seq) using male C57/BL6 mice.

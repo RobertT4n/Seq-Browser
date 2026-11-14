@@ -1,0 +1,27 @@
+name: SiMSen-Seq
+full_name: Simple, multiplexed, PCR-based barcoding of DNA enables sensitive mutation detection using sequencing
+category: wet
+summary: Hairpin-protected barcoded adapter primers add molecular barcodes in a few PCR steps, giving consensus reads that
+  detect variants below 0.1% frequency.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+input_sample:
+- low-input
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1093/nar/gkw224
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Ståhlberg A
+  last_author: Godfrey TE
+  pmid: '27060140'
+  pmcid: PMC4914102
+  title: Simple, multiplexed, PCR-based barcoding of DNA enables sensitive mutation detection in liquid biopsies using sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here, we report an extremely simple and fast method for introduction of barcodes into DNA libraries made from 5
+  ng of DNA.

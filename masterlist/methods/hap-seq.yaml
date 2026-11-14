@@ -1,0 +1,22 @@
+name: Hap-seq
+category: dry
+summary: Dynamic-programming haplotype phasing and imputation algorithm that uses low-coverage sequencing reads and a reference
+  panel.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2012.0091
+  year: 2013
+  journal: J Comput Biol
+  first_author: He D
+  last_author: Eskin E
+  pmid: '23383995'
+  pmcid: PMC3576919
+  title: 'Hap-seq: an optimal algorithm for haplotype phasing with imputation using sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We show that our method requires only low sequencing coverage and can reconstruct haplotypes containing both common
+  and rare alleles with higher accuracy compared to the state-of-the-art imputation methods.

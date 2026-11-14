@@ -1,0 +1,24 @@
+name: HMST-Seq-Analyzer
+category: dry
+summary: Python tool for differential 5mC and 5hmC analysis (DMR calling, annotation, QC) on HMST-seq, WGBS and RRBS data.
+readouts:
+- dna-5mc
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.09.038
+  year: 2020
+  journal: Comput Struct Biotechnol J
+  first_author: Farooq A
+  last_author: Wang J
+  pmid: '33163148'
+  pmcid: PMC7593523
+  title: 'HMST-Seq-Analyzer: A new python tool for differential methylation and hydroxymethylation analysis in various DNA
+    methylation sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We present HMST-Seq-Analyzer as a comprehensive and robust method for performing simultaneous differential methylation
+  analysis on 5mC and 5hmC data sets.

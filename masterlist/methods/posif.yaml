@@ -1,0 +1,23 @@
+name: POSIF
+full_name: Prediction Of sRNAs using Isolation Forest
+category: dry
+summary: Isolation-forest-based tool for de novo identification of small non-coding RNAs from bacterial sRNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1177/11779322241263674
+  year: 2024
+  journal: Bioinform Biol Insights
+  first_author: Maity U
+  last_author: R Hegde S
+  pmid: '39091283'
+  pmcid: PMC11292719
+  title: Devising Isolation Forest-Based Method to Investigate the sRNAome of <i>Mycobacterium tuberculosis</i> Using sRNA-seq
+    Data
+links: {}
+added: '2026-11-14'
+evidence: We developed an Isolation Forest algorithm-based method and the tool Prediction Of sRNAs using Isolation Forest
+  for the de novo identification of sRNAs from available bacterial sRNA-seq data (http://posif.ibab.ac.in/).

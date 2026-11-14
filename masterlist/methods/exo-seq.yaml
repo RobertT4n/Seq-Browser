@@ -1,0 +1,27 @@
+name: Exo-seq
+category: wet
+summary: Genome-wide annotation of transcription start sites (5' RNA ends), paired with RNaseH-seq for 3' ends, applied to
+  the Drosophila transcriptome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- invertebrate
+shared_doi: Exo-seq and RNaseH-seq are two assays in one paper
+chemistry_unknown: 5' end capture chemistry not stated in abstract
+reference:
+  doi: 10.1093/nar/gkx133
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Afik S
+  last_author: Kadener S
+  pmid: '28335028'
+  pmcid: PMC5499799
+  title: Defining the 5΄ and 3΄ landscape of the Drosophila transcriptome with Exo-seq and RNaseH-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we present a simple and straightforward approach for genome-wide annotation of 5΄- and 3΄-RNA ends.

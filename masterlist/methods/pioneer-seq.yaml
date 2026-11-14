@@ -1,0 +1,28 @@
+name: Pioneer-seq
+category: wet
+summary: A library of thousands of nucleosomes carrying TF binding site variants at all orientations is used to read TF nucleosome
+  binding by sequencing.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+targets:
+- OCT4
+- SOX2
+- KLF4
+- c-MYC
+chemistry: []
+chemistry_unknown: in vitro nucleosome library binding and readout steps not described in the abstract
+reference:
+  doi: 10.1371/journal.pgen.1011813
+  year: 2025
+  journal: PLoS Genet
+  first_author: Tsompana M
+  last_author: Buck MJ
+  pmid: '40811719'
+  pmcid: PMC12370185
+  title: Defining transcription factor nucleosome binding with Pioneer-seq
+links: {}
+added: '2026-11-14'
+evidence: To comprehensively examine TF nucleosome binding, we developed Pioneer-Seq.

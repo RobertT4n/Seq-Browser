@@ -1,0 +1,24 @@
+name: m6A-REF-seq
+full_name: m6A-sensitive RNA-endoribonuclease-facilitated sequencing
+category: wet
+summary: Antibody-independent single-nucleotide m6A mapping using MazF endonuclease recognition of m6A at ACA motifs.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+chemistry_unknown: MazF endonuclease digestion has no fitting taxonomy tag
+reference:
+  doi: 10.1126/sciadv.aax0250
+  year: 2019
+  journal: Sci Adv
+  first_author: Zhang Z
+  last_author: Luo GZ
+  pmid: '31281898'
+  pmcid: PMC6609220
+  title: Single-base mapping of m<sup>6</sup>A by an antibody-independent method
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce m6A-REF-seq, a powerful and straightforward method to identify m6A at single-nucleotide resolution.

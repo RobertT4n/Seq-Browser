@@ -1,0 +1,22 @@
+name: Neighbor-seq
+category: dry
+summary: Infers direct cell-cell interaction architecture and ligand-receptor signalling from the undissociated cell multiplets
+  in single-cell sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac333
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Ghaddar B
+  last_author: De S
+  pmid: '35536255'
+  pmcid: PMC9371920
+  title: Reconstructing physical cell interaction networks from single-cell data using Neighbor-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed Neighbor-seq, a method to identify and annotate the architecture of direct cell-cell interactions and
+  relevant ligand-receptor signaling from the undissociated cell fractions in massively parallel single cell sequencing data.

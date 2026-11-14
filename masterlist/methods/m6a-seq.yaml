@@ -1,0 +1,30 @@
+name: m6A-seq
+category: wet
+summary: Antibody-mediated capture of m6A-containing RNA fragments and sequencing to map the m6A methylome transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+aliases:
+- MeRIP-seq
+species:
+- human
+- mouse
+targets:
+- m6A
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1038/nature11112
+  year: 2012
+  journal: Nature
+  first_author: Dominissini D
+  last_author: Rechavi G
+  pmid: '22575960'
+  title: Topology of the human and mouse m6A RNA methylomes revealed by m6A-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we present the human and mouse m(6)A modification landscape in a transcriptome-wide manner, using a novel approach,
+  m(6)A-seq, based on antibody-mediated capture and massively parallel sequencing.

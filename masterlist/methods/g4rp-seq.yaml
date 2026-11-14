@@ -1,0 +1,28 @@
+name: G4RP-seq
+full_name: G4-RNA-specific precipitation sequencing
+category: wet
+summary: G-quadruplex RNA-specific precipitation with a biotinylated BioTASQ probe after crosslinking, coupled to sequencing
+  to profile folded G4-RNAs.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+chemistry_unknown: Affinity capture with a G4-specific probe has no fitting taxonomy tag
+reference:
+  doi: 10.1038/s41467-018-07224-8
+  year: 2018
+  journal: Nat Commun
+  first_author: Yang SY
+  last_author: Monchaud D
+  pmid: '30413703'
+  pmcid: PMC6226477
+  title: Transcriptome-wide identification of transient RNA G-quadruplexes in human cells
+links: {}
+added: '2026-11-14'
+evidence: Here we describe in detail a G4-RNA-specific precipitation (G4RP) protocol, which enables the transcriptomic profiling
+  of G4-RNAs.

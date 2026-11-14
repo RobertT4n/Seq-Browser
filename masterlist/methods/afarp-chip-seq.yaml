@@ -1,0 +1,34 @@
+name: aFARP-ChIP-seq
+category: wet
+summary: Atlantis dsDNase-based ChIP-seq that profiles histone modifications and transcription factor binding from as few
+  as 100 cells with multiplexing.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+targets:
+- H3K4me3
+- H3K27ac
+chemistry:
+- antibody-pull-down
+- dnase-digestion
+reference:
+  doi: 10.1080/15592294.2019.1621139
+  year: 2019
+  journal: Epigenetics
+  first_author: Liu W
+  last_author: Zheng Y
+  pmid: '31169445'
+  pmcid: PMC6691993
+  title: aFARP-ChIP-seq, a convenient and reliable method for genome profiling in as few as 100 cells with a capability for
+    multiplexing ChIP-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we present an Atlantis dsDNase-based technology, aFARP-ChIP-seq, that provides accurate profiling of genome-wide
+  histone modifications in as few as 100 cells.

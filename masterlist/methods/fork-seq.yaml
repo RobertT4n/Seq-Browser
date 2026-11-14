@@ -1,0 +1,30 @@
+name: FORK-seq
+category: wet
+summary: Nanopore sequencing of BrdU pulse-chased replication intermediates maps replication fork direction, initiation and
+  termination events on single DNA molecules.
+readouts:
+- replication-timing
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+chemistry:
+- long-read-sequencing
+- nucleotide-labeling
+reference:
+  doi: 10.1186/s13059-020-02013-3
+  year: 2020
+  journal: Genome Biol
+  first_author: Hennion M
+  last_author: Hyrien O
+  pmid: '32456659'
+  pmcid: PMC7251829
+  title: 'FORK-seq: replication landscape of the Saccharomyces cerevisiae genome by nanopore sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe FORK-seq, a nanopore sequencing method to map replication of single DNA molecules at 200-nucleotide
+  resolution.

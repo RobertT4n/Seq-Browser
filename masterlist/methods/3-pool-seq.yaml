@@ -1,0 +1,29 @@
+name: 3'Pool-seq
+category: wet
+summary: Low-cost 3'-end-focused bulk RNA-seq with dual-indexed pooling in 96-well plates and tagmentation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+- tn5
+- plate-based
+reference:
+  doi: 10.1186/s12864-020-6478-3
+  year: 2020
+  journal: BMC Genomics
+  first_author: Sholder G
+  last_author: Xi HS
+  pmid: '31959126'
+  pmcid: PMC6971924
+  title: '3''Pool-seq: an optimized cost-efficient and scalable method of whole-transcriptome gene expression profiling'
+links: {}
+added: '2026-11-14'
+evidence: 'To address this, we developed 3''Pool-seq: a simple, cost-effective, and scalable RNA-seq method that focuses sequencing
+  to the 3''-end of mRNA.'

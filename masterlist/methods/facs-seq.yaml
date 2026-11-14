@@ -1,0 +1,31 @@
+name: FACS-seq
+category: wet
+summary: Reporter library of all possible translation initiation site sequences sorted by fluorescence and sequenced to measure
+  start-codon recognition efficiency.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.15252/msb.20145136
+  year: 2014
+  journal: Mol Syst Biol
+  first_author: Noderer WL
+  last_author: Wang CL
+  pmid: '25170020'
+  pmcid: PMC4299517
+  title: Quantitative analysis of mammalian translation initiation sites by FACS-seq
+links: {}
+added: '2026-11-14'
+evidence: An approach combining fluorescence-activated cell sorting and high-throughput DNA sequencing (FACS-seq) was employed
+  to determine the efficiency of start codon recognition for all possible translation initiation sites (TIS) utilizing AUG
+  start codons.

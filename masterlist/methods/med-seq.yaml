@@ -1,0 +1,31 @@
+name: MeD-seq
+full_name: Methylated DNA Sequencing
+category: wet
+summary: Methylation-dependent restriction enzyme LpnPI cuts at methylated CpG sites; the short fragments are sequenced for
+  genome-wide DNA methylation profiling, usable on low-input cfDNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+input_sample:
+- low-input
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1101/gr.222885.117
+  year: 2018
+  journal: Genome Res
+  first_author: Boers R
+  last_author: Gribnau J
+  pmid: '29222086'
+  pmcid: PMC5749185
+  title: Genome-wide DNA methylation profiling using the methylation-dependent restriction enzyme LpnPI
+links: {}
+added: '2026-11-14'
+evidence: Methylated DNA Sequencing (MeD-seq), which is compatible with low cfDNA levels and has an extensive genome-wide
+  coverage.

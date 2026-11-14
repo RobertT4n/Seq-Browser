@@ -1,0 +1,26 @@
+name: SSR-seq
+full_name: simple sequence repeat sequencing
+category: wet
+summary: Multiplex PCR with barcoding and Illumina sequencing genotypes hundreds of individuals at many custom microsatellite
+  loci, returning sequence rather than only fragment length.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1002/ece3.4533
+  year: 2018
+  journal: Ecol Evol
+  first_author: Šarhanová P
+  last_author: Blattner FR
+  pmid: '30519409'
+  pmcid: PMC6262739
+  title: 'SSR-seq: Genotyping of microsatellites using next-generation sequencing reveals higher level of polymorphism as
+    compared to traditional fragment size scoring'
+links: {}
+added: '2026-11-14'
+evidence: Here, an NGS strategy is described that allows to genotype hundreds of individuals at many custom-designed SSR loci
+  simultaneously, combining multiplex PCR, barcoding, and Illumina sequencing.

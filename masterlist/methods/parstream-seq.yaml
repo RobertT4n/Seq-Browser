@@ -1,0 +1,22 @@
+name: ParStream-seq
+category: dry
+summary: Streaming access that splits sequence data from a remote repository into packets and aligns them in parallel across
+  cores, avoiding storing the full dataset.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2018.11.014
+  year: 2019
+  journal: Genomics
+  first_author: Mondal S
+  last_author: Khatua S
+  pmid: '30448525'
+  title: 'ParStream-seq: An improved method of handling next generation sequence data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce streaming access technique 'ParStream-seq' that splits the bulk sequence data, accessed from
+  a remote repository into short manageable packets followed by executing their alignment process in parallel in each of the
+  compute core.

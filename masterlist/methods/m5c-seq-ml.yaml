@@ -1,0 +1,20 @@
+name: m5C-Seq ML
+category: dry
+summary: Machine-learning predictor of RNA 5-methylcytosine sites from nucleotide sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2024.109087
+  year: 2024
+  journal: Comput Biol Med
+  first_author: Abbas Z
+  last_author: Chong KT
+  pmid: '39232403'
+  title: 'm5C-Seq: Machine learning-enhanced profiling of RNA 5-methylcytosine modifications'
+links: {}
+added: '2026-11-14'
+evidence: This study introduces m5C-Seq, an ensemble learning approach for RNA modification profiling, designed to address
+  these issues.

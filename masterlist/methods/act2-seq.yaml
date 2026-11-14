@@ -1,0 +1,25 @@
+name: ACT2-seq
+category: wet
+summary: Concurrently profiles two or three histone marks or chromatin proteins in one sample and maps their co-occupancy.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not state the tagmentation/antibody-tethering chemistry; ACT-seq lineage (id act-seq) not
+  stated
+reference:
+  doi: 10.1186/s13578-021-00711-4
+  year: 2021
+  journal: Cell Biosci
+  first_author: Carter B
+  last_author: Zhao K
+  pmid: '34863284'
+  pmcid: PMC8642990
+  title: Concurrent mapping of multiple epigenetic marks and co-occupancy using ACT2-seq
+links: {}
+added: '2026-11-14'
+evidence: To address this issue, we have developed a technique termed ACT2-seq that is capable of concurrently profiling multiple
+  epigenetic marks in a single biological sample.

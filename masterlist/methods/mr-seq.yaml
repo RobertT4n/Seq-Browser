@@ -1,0 +1,29 @@
+name: MR-seq
+full_name: measure a single-cell transcriptome repeatedly
+category: wet
+summary: Single-cell RNA-seq in which each cell is measured twice to estimate technical variation and call differential genes
+  between two cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+throughput: lt-1e3
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.scib.2017.01.029
+  year: 2017
+  journal: Sci Bull (Beijing)
+  first_author: Yang L
+  last_author: Tang F
+  pmid: '36659282'
+  title: 'MR-seq: measuring a single cell''s transcriptome repeatedly by RNA-seq'
+links: {}
+added: '2026-11-14'
+evidence: We described a novel single-cell RNA-seq technique called MR-seq (measure a single-cell transcriptome repeatedly),
+  which permits statistically assessing the technical variation and identifying the differentially expressed genes between
+  just two single cells by measuring each single cell twice.

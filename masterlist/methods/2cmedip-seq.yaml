@@ -1,0 +1,31 @@
+name: 2cMeDIP-seq
+category: wet
+summary: Carrier-assisted MeDIP-seq that uses methylated mimic and dUTP-DNA carriers to profile DNA methylation from as few
+  as 10-1000 cells.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.3390/ijms232213984
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Hu C
+  last_author: Zhao X
+  pmid: '36430462'
+  pmcid: PMC9692998
+  title: '2cChIP-seq and 2cMeDIP-seq: The Carrier-Assisted Methods for Epigenomic Profiling of Small Cell Numbers or Single
+    Cells'
+links: {}
+shared_doi: Same paper introduces both 2cChIP-seq and 2cMeDIP-seq
+added: '2026-11-14'
+evidence: Using this strategy, we generated high-quality epigenomic profiles of histone modifications or DNA methylation in
+  10-1000 cells.

@@ -1,0 +1,29 @@
+name: Geo-seq
+full_name: geographical position sequencing
+category: wet
+summary: Laser capture microdissection of cryosections combined with low-input RNA-seq to give spatially resolved transcriptomes
+  from small cell groups.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- cryosectioning
+- imaging-guided-selection
+- reverse-transcription
+input_sample:
+- fresh-tissue
+- low-input
+reference:
+  doi: 10.1016/j.devcel.2016.02.020
+  year: 2016
+  journal: Dev Cell
+  first_author: Peng G
+  last_author: Jing N
+  pmid: '27003939'
+  title: Spatial Transcriptome for the Molecular Annotation of Lineage Fates and Cell Identity in Mid-gastrula Mouse Embryo
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe how to use Geo-seq, a method that combines laser capture microdissection (LCM) and single-cell
+  RNA-seq technology.

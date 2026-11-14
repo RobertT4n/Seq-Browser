@@ -1,0 +1,27 @@
+name: CAP-STRUCTURE-seq
+category: wet
+summary: STRUCTURE-seq modified with enrichment of intact capped mRNAs via a terminator exonuclease, capturing in vivo RNA
+  structure before cleavage.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+chemistry_unknown: Chemical probing step not stated in abstract
+reference:
+  doi: 10.1093/nar/gkaa577
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Yang M
+  last_author: Ding Y
+  pmid: '32652041'
+  pmcid: PMC7470952
+  title: Intact RNA structurome reveals mRNA structure-mediated regulation of miRNA cleavage in vivo
+links: {}
+added: '2026-11-14'
+evidence: In this method, we introduce a new experimental procedure called CAP-STRUCTURE-seq, a modified STRUCTURE-Seq approach
+  combining with the enrichment of in intact mRNAs by the use of terminator exonuclease.

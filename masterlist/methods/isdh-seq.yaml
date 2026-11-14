@@ -1,0 +1,28 @@
+name: ISDH-seq
+full_name: in situ DNase I hypersensitivity sequencing
+category: wet
+summary: In situ DNase I hypersensitivity sequencing on 50-200 K nuclei to map open chromatin, shown in rice.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- nuclei
+species:
+- plant
+chemistry:
+- dnase-digestion
+reference:
+  doi: 10.1111/pbi.70069
+  year: 2025
+  journal: Plant Biotechnol J
+  first_author: Li Z
+  last_author: Zhang W
+  pmid: '40167027'
+  pmcid: PMC12205894
+  title: 'ISDH-seq: a robust methodology for profiling and characterization of open chromatin'
+links: {}
+added: '2026-11-14'
+evidence: We here report the development of an in situ DNase I hypersensitivity sequencing (ISDH-seq) for the efficient characterization
+  of open chromatin, which can be applicable to 50-200 K nuclei.

@@ -1,0 +1,27 @@
+name: m6A-CLIP-seq
+full_name: m6A crosslinking immunoprecipitation sequencing
+category: wet
+summary: UV crosslinking of an m6A antibody to poly(A) mRNA with immunoprecipitation maps m6A at high resolution from about
+  1 ug of mRNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1101/gad.269415.115
+  year: 2015
+  journal: Genes Dev
+  first_author: Ke S
+  last_author: Darnell RB
+  pmid: '26404942'
+  title: A majority of m6A residues are in the last exons, allowing the potential for 3' UTR regulation
+links: {}
+added: '2026-11-14'
+evidence: We present here a protocol for m6A crosslinking immunoprecipitation sequencing (m6A-CLIP-seq), which profiles m6A
+  on mRNA at high resolution from as little as 1 μg of poly(A)-selected mRNA.

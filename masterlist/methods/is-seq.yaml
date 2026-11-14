@@ -1,0 +1,27 @@
+name: IS-seq
+category: wet
+summary: Illumina sequencing of IS6110 insertion flanks with combinatorial sample multiplexing to map insertion sites across
+  hundreds of M. tuberculosis isolates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry: []
+chemistry_unknown: library chemistry for flank amplification not stated in abstract
+reference:
+  doi: 10.1186/1471-2164-13-249
+  year: 2012
+  journal: BMC Genomics
+  first_author: Reyes A
+  last_author: Del Portillo P
+  pmid: '22703188'
+  pmcid: PMC3443423
+  title: 'IS-seq: a novel high throughput survey of in vivo IS6110 transposition in multiple Mycobacterium tuberculosis genomes'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present IS-seq, a novel method that combines high-throughput sequencing using Illumina technology with
+  efficient combinatorial sample multiplexing to simultaneously probe 519 clinical isolates, identifying almost all the flanking
+  regions of the element in a single experiment.

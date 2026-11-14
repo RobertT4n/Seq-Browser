@@ -1,0 +1,32 @@
+name: 2cChIP-seq
+category: wet
+summary: Carrier-assisted ChIP-seq that adds modified-histone mimics and dUTP-containing DNA carriers to recover histone-mark
+  profiles from 10-1000 cells.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+chemistry:
+- antibody-pull-down
+- tn5
+reference:
+  doi: 10.3390/ijms232213984
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Hu C
+  last_author: Zhao X
+  pmid: '36430462'
+  pmcid: PMC9692998
+  title: '2cChIP-seq and 2cMeDIP-seq: The Carrier-Assisted Methods for Epigenomic Profiling of Small Cell Numbers or Single
+    Cells'
+links: {}
+shared_doi: Same paper introduces both 2cChIP-seq and 2cMeDIP-seq
+added: '2026-11-14'
+evidence: Here, we developed a new technique by supplementing carrier materials of both chemically modified mimics with epigenetic
+  marks and dUTP-containing DNA fragments during conventional ChIP procedures (hereafter referred to as 2cChIP-seq), thus
+  dramatically improving immunoprecipitation efficiency and reducing DNA loss of low-input ChIP-seq samples.

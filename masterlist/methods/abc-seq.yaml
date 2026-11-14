@@ -1,0 +1,25 @@
+name: ABC-seq
+category: wet
+summary: Small-RNA library prep using two randomized adapters and successive structure-differentiated enzymatic reactions
+  to suppress adapter dimers and add UMIs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- restriction-digest
+- reverse-transcription
+reference:
+  doi: 10.1002/anie.202423208
+  year: 2025
+  journal: Angew Chem Int Ed Engl
+  first_author: Yu H
+  last_author: Zhao Y
+  pmid: '40347453'
+  title: ABC-seq Expands Small RNAs Profiling with Successive Nucleic Acid Structure-Differentiated Enzymatic Recognition
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop ABC-seq, a general strategy to enhance smRNA recognition through successive structure-differentiated
+  recognition.

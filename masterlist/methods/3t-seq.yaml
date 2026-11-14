@@ -1,0 +1,21 @@
+name: 3t-seq
+category: dry
+summary: Automatic RNA-seq analysis that jointly quantifies single-copy genes, transposable elements and tRNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae467
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Tabaro F
+  last_author: Boulard M
+  pmid: '39322626'
+  pmcid: PMC11424182
+  title: '3t-seq: automatic gene expression analysis of single-copy genes, transposable elements, and tRNAs from RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present 3t-seq, a Snakemake pipeline for integrated differential expression analysis of transcripts from
+  single-copy genes, TEs, and tRNA.

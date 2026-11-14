@@ -1,0 +1,25 @@
+name: 5XP-seq
+category: wet
+summary: Small-RNA library prep that tags 5'-phosphorylated RNAs while remaining open to all 5'-terminal modifications, separating
+  5'P from other small RNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1080/15476286.2020.1861770
+  year: 2021
+  journal: RNA Biol
+  first_author: Kugelberg U
+  last_author: Öst A
+  pmid: '33382953'
+  pmcid: PMC8594926
+  title: '5´XP sRNA-seq: efficient identification of transcripts with and without 5´ phosphorylation reveals evolutionary
+    conserved small RNA'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe 5XP-seq that outlines a novel strategy that captures a more complete picture of sRNA.

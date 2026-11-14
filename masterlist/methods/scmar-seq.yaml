@@ -1,0 +1,28 @@
+name: scMAR-Seq
+category: wet
+summary: Single-cell genomics of microbes selected by radioisotope-tracked in situ metabolic activity using microfluidics
+  and high-throughput sorting.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- microbe
+chemistry: []
+chemistry_unknown: Labelling, sorting and amplification chemistry not stated in abstract
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1128/msystems.00998-23
+  year: 2023
+  journal: mSystems
+  first_author: Lo H-Y
+  last_author: Kaster A-K
+  pmid: '37982643'
+  pmcid: PMC10734494
+  title: 'scMAR-Seq: a novel workflow for targeted single-cell genomics of microorganisms using radioactive labeling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel approach that combines highly sensitive radioisotope tracking, microfluidics, high-throughput
+  sorting, and single-cell genomics to simultaneously detect and identify individual microbial cells based solely on their
+  in situ metabolic activity, without prior information on community structure.

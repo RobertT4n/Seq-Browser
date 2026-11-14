@@ -1,0 +1,24 @@
+name: NSR-seq
+full_name: Not-so-random primer sequencing
+category: wet
+summary: Not-so-random hexamer primers for cDNA synthesis that exclude abundant host rRNA and globin transcripts and enrich
+  target-organism transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.1360
+  year: 2009
+  journal: Nat Methods
+  first_author: Armour CD
+  last_author: Raymond CK
+  pmid: '19668204'
+  title: Digital transcriptome profiling using selective hexamer priming for cDNA synthesis
+links: {}
+added: '2026-11-14'
+evidence: We report here the application of RNA sequencing to clinical isolates of P. falciparum, using not-so-random (NSR)
+  primers to successfully exclude human ribosomal RNA and globin transcripts and enrich for parasite transcripts.

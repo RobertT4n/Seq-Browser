@@ -1,0 +1,21 @@
+name: EBSeq-HMM
+category: dry
+summary: Empirical Bayes mixture model with an auto-regressive hidden Markov model for differential expression across ordered
+  RNA-seq conditions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv193
+  year: 2015
+  journal: Bioinformatics
+  first_author: Leng N
+  last_author: Kendziorski C
+  pmid: '25847007'
+  pmcid: PMC4528625
+  title: 'EBSeq-HMM: a Bayesian approach for identifying gene-expression changes in ordered RNA-seq experiments'
+links: {}
+added: '2026-11-14'
+evidence: We propose an empirical Bayes mixture modeling approach called EBSeq-HMM.

@@ -1,0 +1,29 @@
+name: Lasy-Seq
+full_name: low-cost and easy RNA-Seq
+category: wet
+summary: Sample-indexed reverse transcription at high temperature (suppressing rRNA priming) followed by pooling and tagmentation
+  gives low-cost RNA-seq without mRNA enrichment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+- tn5
+reference:
+  doi: 10.1038/s41598-019-43600-0
+  year: 2019
+  journal: Sci Rep
+  first_author: Kamitani M
+  last_author: Nagano AJ
+  pmid: '31068632'
+  pmcid: PMC6506593
+  title: 'Lasy-Seq: a high-throughput library preparation method for RNA-Seq and its application in the analysis of plant
+    responses to fluctuating temperatures'
+links: {}
+added: '2026-11-14'
+evidence: We named this protocol low-cost and easy RNA-Seq (Lasy-Seq) and used it to investigate temperature responses in
+  Arabidopsis thaliana.

@@ -1,0 +1,23 @@
+name: CATT
+category: dry
+summary: Computational method that detects TCR CDR3 sequences with micro-assembly, error correction and Bayesian inference
+  from TCR-seq, RNA-seq and single-cell data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa432
+  year: 2020
+  journal: Bioinformatics
+  first_author: Chen SY
+  last_author: Guo AY
+  pmid: '32399561'
+  title: An ultra-sensitive T-cell receptor detection method for TCR-Seq and RNA-Seq data
+links: {}
+added: '2026-11-14'
+evidence: Due to the high diversity of CDR3 and technological limitation, accurate characterization of CDR3 repertoires remains
+  a great challenge.ResultsWe propose a computational method named CATT for ultra-sensitive and precise TCR CDR3 sequences
+  detection.

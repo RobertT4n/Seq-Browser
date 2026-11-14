@@ -1,0 +1,32 @@
+name: LACE-seq
+full_name: linear amplification of complementary DNA ends and sequencing
+category: wet
+summary: CLIP-style mapping of RNA-binding protein sites in very low-input cells (down to single oocytes) using linear amplification
+  of cDNA ends.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+validated_system:
+- primary-cells
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1038/s41556-021-00696-9
+  year: 2021
+  journal: Nat Cell Biol
+  first_author: Su R
+  last_author: Xue Y
+  pmid: '34108658'
+  title: Global profiling of RNA-binding protein target sites by LACE-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, by coupling RBP-mediated reverse transcription termination with linear amplification of complementary DNA
+  ends and sequencing, we present the LACE-seq method for identifying RBP-regulated RNA networks at or near the single-oocyte
+  level.

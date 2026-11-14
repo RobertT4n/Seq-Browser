@@ -1,0 +1,32 @@
+name: Hammer-seq
+full_name: hairpin-assisted mapping of methylation of replicated DNA
+category: wet
+summary: EdU-labelled replicated DNA is purified and hairpin-bisulfite sequenced to read parent and daughter strand methylation
+  on the same molecule.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41588-020-0661-y
+  year: 2020
+  journal: Nat Genet
+  first_author: Wang Q
+  last_author: Xie W
+  pmid: '32690947'
+  title: Imprecise DNMT1 activity coupled with neighbor-guided correction enables robust yet flexible epigenetic inheritance
+links: {}
+added: '2026-11-14'
+evidence: Hammer-seq offers the unique advantage of simultaneously measuring the methylation status of parent and daughter
+  strands within a single DNA molecule.

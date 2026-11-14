@@ -1,0 +1,21 @@
+name: MeRIP-PF
+full_name: MeRIP peak finder
+category: dry
+summary: Perl pipeline for high-resolution peak finding of m6A regions in MeRIP-seq data with FDR estimation and gene annotation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2013.01.002
+  year: 2013
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Li Y
+  last_author: Yu J
+  pmid: '23434047'
+  pmcid: PMC4357668
+  title: 'MeRIP-PF: an easy-to-use pipeline for high-resolution peak-finding in MeRIP-Seq data'
+links: {}
+added: '2026-11-14'
+evidence: MeRIP-PF is implemented in Perl and is freely available at http://software.big.ac.cn/MeRIP-PF.html.

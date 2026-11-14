@@ -1,0 +1,22 @@
+name: BIMMER
+category: dry
+summary: Hidden Markov model that identifies differentially methylated regions from MBDCap-seq data of normal and cancer samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s12-s6
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Mao Z
+  last_author: Huang Y
+  pmid: '25474268'
+  pmcid: PMC4243086
+  title: 'BIMMER: a novel algorithm for detecting differential DNA methylation regions from MBDCap-seq data'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we proposed BIMMER, a Hidden Markov Model (HMM) for differential Methylation Regions (DMRs) identification,
+  where HMMs were proposed to model the methylation status in normal and cancer samples in the first

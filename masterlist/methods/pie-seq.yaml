@@ -1,0 +1,30 @@
+name: PIE-seq
+full_name: Protein-RNA Interaction with dual-deaminase Editing and Sequencing
+category: wet
+summary: RBPs are fused to C-to-U and A-to-I base editors so that editing marks the RNAs they bind, read out in bulk or single
+  cells.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+species:
+- human
+- mouse
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-023-39054-8
+  year: 2023
+  journal: Nat Commun
+  first_author: Ruan X
+  last_author: Zhang X
+  pmid: '37280234'
+  pmcid: PMC10244410
+  title: 'PIE-seq: identifying RNA-binding protein targets by dual RNA-deaminase editing and sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here we present PIE-Seq to investigate Protein-RNA Interaction with dual-deaminase Editing and Sequencing by conjugating
+  C-to-U and A-to-I base editors to RBPs.

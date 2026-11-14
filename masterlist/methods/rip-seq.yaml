@@ -1,0 +1,29 @@
+name: RIP-seq
+category: wet
+summary: Immunoprecipitation of a protein complex followed by sequencing of its associated RNAs to define the transcriptome
+  bound by that complex.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2010.12.011
+  year: 2010
+  journal: Mol Cell
+  first_author: Zhao J
+  last_author: Lee JT
+  pmid: '21172659'
+  pmcid: PMC3021903
+  title: Genome-wide identification of polycomb-associated RNAs by RIP-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we develop a RIP-seq method to capture the PRC2 transcriptome and identify a genome-wide pool of >9000 PRC2-interacting
+  RNAs in embryonic stem cells.

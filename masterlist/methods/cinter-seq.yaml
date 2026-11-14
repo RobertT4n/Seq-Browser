@@ -1,0 +1,30 @@
+name: CINTER-seq
+full_name: sequencing of the cellular interactome
+category: wet
+summary: Photocatalytic labelling captures cells physically interacting with a target cell in living mice, followed by multiplexed
+  sequencing of the captured cellular interactome.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1016/j.immuni.2025.06.011
+  year: 2025
+  journal: Immunity
+  first_author: Deng T
+  last_author: Li JP
+  pmid: '40675160'
+  title: 'CINTER-seq: Chemical profiling reveals interaction-dependent cell landscapes and gene signatures in vivo'
+links: {}
+added: '2026-11-14'
+evidence: Furthermore, we introduce sequencing of the cellular interactome (CINTER-seq), a quantitative approach for multiplexed
+  indexing of the captured cellular interactome, enabled by the simultaneous ex situ sequencing of multidimensional parameters.
+partition_unknown: not stated in the abstract

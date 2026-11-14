@@ -1,0 +1,22 @@
+name: SwarnSeq
+category: dry
+summary: Statistical model for differential expression in scRNA-seq that accounts for the molecular capture process behind
+  dropout events.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2021.02.014
+  year: 2021
+  journal: Genomics
+  first_author: Das S
+  last_author: Rai SN
+  pmid: '33662531'
+  pmcid: PMC10150572
+  title: 'SwarnSeq: An improved statistical approach for differential expression analysis of single-cell RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: So, we develop, SwarnSeq, an improved method for DE, and other downstream analysis that considers the molecular
+  capture process in scRNA-seq data modeling.

@@ -1,0 +1,31 @@
+name: nMOWChIP-seq
+category: wet
+summary: Low-input ChIP-seq optimised for non-histone targets (Pol II, transcription factors, enzymes) from 1,000-50,000 cells.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+targets:
+- Pol II
+- EGR1
+- MEF2C
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1093/nargab/lqac030
+  year: 2022
+  journal: NAR Genom Bioinform
+  first_author: Liu Z
+  last_author: Lu C
+  pmid: '35402909'
+  pmcid: PMC8988714
+  title: 'nMOWChIP-seq: low-input genome-wide mapping of non-histone targets'
+links: {}
+added: '2026-11-14'
+evidence: Here we optimized a low-input chromatin immunoprecipitation followed by sequencing (ChIP-seq) technology for profiling
+  RNA polymerase II (Pol II), transcription factor (TF), and enzyme binding at the genome scale.

@@ -1,0 +1,27 @@
+name: CoDE-seq
+category: wet
+summary: Whole-exome sequencing augmented with probes distributed across the genome so that copy-number variants and point
+  mutations are detected in one step.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1016/j.molmet.2018.05.005
+  year: 2018
+  journal: Mol Metab
+  first_author: Montagne L
+  last_author: Bonnefond A
+  pmid: '29784605'
+  pmcid: PMC6026315
+  title: CoDE-seq, an augmented whole-exome sequencing, enables the accurate detection of CNVs and mutations in Mendelian
+    obesity and intellectual disability
+links: {}
+added: '2026-11-14'
+evidence: We aimed to develop a method (CoDE-seq) enabling the accurate detection of both CNVs and point mutations in one
+  step.MethodsCoDE-seq is based on an augmented WES method, using probes distributed uniformly throughout the genome.

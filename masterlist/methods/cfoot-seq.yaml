@@ -1,0 +1,27 @@
+name: cFOOT-seq
+category: wet
+summary: Cytosine-deaminase footprinting (dsDNA deaminase SsdAtox) converts accessible cytosines to uracil to quantify TF
+  binding in open and closed chromatin from few cells.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/procel/pwaf071
+  year: 2025
+  journal: Protein Cell
+  first_author: Wang H
+  last_author: Zhang JM
+  pmid: '40795153'
+  pmcid: PMC12698189
+  title: Genome-wide investigation of transcription factor footprints and dynamics using cFOOT-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed cFOOT-seq, a cytosine deaminase-based TF footprinting assay, for high-resolution, quantitative genome-wide
+  assessment of TF binding in both open and closed chromatin regions, even with small cell numbers.

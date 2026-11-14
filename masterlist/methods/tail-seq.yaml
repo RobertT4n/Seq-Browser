@@ -1,0 +1,27 @@
+name: TAIL-seq
+category: wet
+summary: Sequencing of the very 3 prime end of mRNA molecules to measure poly(A) tail length and 3 prime end modifications
+  such as uridylation genome-wide.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2014.02.007
+  year: 2014
+  journal: Mol Cell
+  first_author: Chang H
+  last_author: Kim VN
+  pmid: '24582499'
+  title: 'TAIL-seq: genome-wide determination of poly(A) tail length and 3'' end modifications'
+links: {}
+added: '2026-11-14'
+evidence: We here develop a method, TAIL-seq, to sequence the very end of mRNA molecules.

@@ -1,0 +1,29 @@
+name: cfMBD-seq
+category: wet
+summary: Ultra-low-input cell-free DNA methylation profiling by methyl-CpG binding protein capture with methylated filler
+  DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry: []
+chemistry_unknown: Methyl-binding-protein capture has no fitting taxonomy tag
+reference:
+  doi: 10.1080/15592294.2021.1896984
+  year: 2022
+  journal: Epigenetics
+  first_author: Huang J
+  last_author: Wang L
+  pmid: '33724157'
+  pmcid: PMC8920199
+  title: Cell-free DNA methylome profiling by MBD-seq with ultra-low input
+links: {}
+added: '2026-11-14'
+evidence: Here, we report an enrichment-based ultra-low input cfDNA methylation profiling method using methyl-CpG binding
+  proteins capture, termed cfMBD-seq.

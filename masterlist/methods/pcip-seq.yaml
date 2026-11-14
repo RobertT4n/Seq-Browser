@@ -1,0 +1,27 @@
+name: PCIP-seq
+category: wet
+summary: Long-read sequencing that captures both the insertion site of an integrated viral genome and the viral genome sequence
+  itself.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1186/s13059-021-02307-0
+  year: 2021
+  journal: Genome Biol
+  first_author: Artesi M
+  last_author: Durkin K
+  pmid: '33823910'
+  pmcid: PMC8025556
+  title: 'PCIP-seq: simultaneous sequencing of integrated viral genomes and their insertion sites with long reads'
+links: {}
+added: '2026-11-14'
+evidence: We develop PCIP-seq, a method that leverages long reads to identify insertion sites and sequence their associated
+  viral genome.

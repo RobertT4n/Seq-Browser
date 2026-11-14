@@ -1,0 +1,25 @@
+name: Frac-seq
+category: wet
+summary: Polysome fractionation followed by RNA-seq to measure isoform-specific recruitment of mRNAs to polyribosomes.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+chemistry_unknown: fractionation step has no matching chemistry tag
+reference:
+  doi: 10.1101/gr.148585.112
+  year: 2013
+  journal: Genome Res
+  first_author: Sterne-Weiler T
+  last_author: Sanford JR
+  pmid: '23783272'
+  pmcid: PMC3787259
+  title: Frac-seq reveals isoform-specific recruitment to polyribosomes
+links: {}
+added: '2026-11-14'
+evidence: Studying Isoform-Specific mRNA Recruitment to Polyribosomes with Frac-seq.

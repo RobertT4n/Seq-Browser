@@ -1,0 +1,36 @@
+name: PCL-seq
+full_name: photocleavage and ligation sequencing
+category: wet
+summary: Photocleavable barcoded oligonucleotides and ligation adapters index regions of a tissue section chosen by microscope
+  illumination, giving spatial transcriptomes from frozen or FFPE tissue.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+species:
+- mouse
+input_sample:
+- fresh-tissue
+- ffpe-archival
+validated_system:
+- tissue-in-vivo
+chemistry:
+- cryosectioning
+- imaging-guided-selection
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.279906.124
+  year: 2025
+  journal: Genome Res
+  first_author: Dong X
+  last_author: Shi W
+  pmid: '40764053'
+  pmcid: PMC12401048
+  title: High-resolution spatial transcriptomics in fixed tissue using a cost-effective PCL-seq workflow
+links: {}
+added: '2026-11-14'
+evidence: Here, we present photocleavage and ligation sequencing (PCL-seq), a spatial indexing method utilizing a light-controlled
+  DNA labeling strategy applied to tissue sections.

@@ -1,0 +1,32 @@
+name: sCRilecs-seq
+full_name: subsets of CRISPR interference libraries extracted by fluorescence activated cell sorting coupled to next generation
+  sequencing
+category: wet
+summary: Genome-wide CRISPRi screen in bacteria where cells are sorted by FACS on a phenotype such as cell size and guides
+  are read out by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.7554/elife.75607
+  year: 2022
+  journal: Elife
+  first_author: Dewachter L
+  last_author: Veening JW
+  pmid: '35748540'
+  pmcid: PMC9363119
+  title: Amoxicillin-resistant <i>Streptococcus pneumoniae</i> can be resensitized by targeting the mevalonate pathway as
+    indicated by sCRilecs-seq
+links: {}
+added: '2026-11-14'
+evidence: To do so, we developed a genome-wide, single-cell based, gene silencing screen using CRISPR interference called
+  sCRilecs-seq (subsets of CRISPR interference libraries extracted by fluorescence activated cell sorting coupled to next
+  generation sequencing).

@@ -1,0 +1,29 @@
+name: LIBRA-seq
+full_name: linking B cell receptor to antigen specificity through sequencing
+category: wet
+summary: B cells are mixed with DNA-barcoded antigens so that antigen barcodes and paired BCR sequences are recovered together
+  by single-cell sequencing.
+readouts:
+- receptor-ligand
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.cell.2019.11.003
+  year: 2019
+  journal: Cell
+  first_author: Setliff I
+  last_author: Georgiev IS
+  pmid: '31787378'
+  pmcid: PMC7158953
+  title: High-Throughput Mapping of B Cell Receptor Sequences to Antigen Specificity
+links: {}
+added: '2026-11-14'
+evidence: Here, we present LIBRA-seq (linking B cell receptor to antigen specificity through sequencing), a technology for
+  high-throughput mapping of paired heavy- and light-chain BCR sequences to their cognate antigen specificities.

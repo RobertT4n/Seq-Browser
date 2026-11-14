@@ -1,0 +1,25 @@
+name: INDUCE-seq
+category: wet
+summary: Digital sequencing of DNA double-strand breaks using an NGS flow-cell enrichment step, detecting endogenous and induced
+  breaks with low background.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: Abstract does not name the break-capture chemistry
+reference:
+  doi: 10.1038/s41467-022-31702-9
+  year: 2022
+  journal: Nat Commun
+  first_author: Dobbs FM
+  last_author: Reed SH
+  pmid: '35810156'
+  pmcid: PMC9271039
+  title: Precision digital mapping of endogenous and induced genomic DNA breaks by INDUCE-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we describe INDUCE-seq, which overcomes these problems, detecting simultaneously the presence of low-level
+  endogenous DSBs caused by physiological processes, and higher-level recurrent breaks induced by restriction enzymes or CRISPR-Cas
+  nucleases.

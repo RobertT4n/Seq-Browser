@@ -1,0 +1,24 @@
+name: Translator
+category: dry
+summary: Transfer-learning approach that learns chromatin interaction patterns from high-quality reference scATAC-seq to improve
+  cell representations in low-quality target scATAC-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2021.0596
+  year: 2022
+  journal: J Comput Biol
+  first_author: Xu S
+  last_author: Zhang J
+  pmid: '35584295'
+  pmcid: PMC9464368
+  title: 'Translator: A <i>Trans</i>fer <i>L</i>earning Approach to Facilitate Single-Cell <i>AT</i>AC-Seq Data Analysis fr<i>o</i>m
+    <i>R</i>eference Dataset'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present Translator, an efficient transfer learning approach to capture generalizable chromatin
+  interactions from high-quality (HQ) reference scATAC-seq data to obtain robust cell representations in low-to-moderate quality
+  target scATAC-seq data.

@@ -1,0 +1,22 @@
+name: LFCseq
+category: dry
+summary: Nonparametric approach to differential expression analysis of RNA-seq data based on log fold change.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-s10-s7
+  year: 2014
+  journal: BMC Genomics
+  first_author: Lin B
+  last_author: Chen X
+  pmid: '25560842'
+  pmcid: PMC4304217
+  title: 'LFCseq: a nonparametric approach for differential expression analysis of RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Through extensive simulation study and RNA-seq real data analysis, we demonstrate that the proposed approach could
+  well rank the differentially expressed genes ahead of non-differentially expressed genes, thereby achieving a much improved
+  overall performance for differential expression analysis.

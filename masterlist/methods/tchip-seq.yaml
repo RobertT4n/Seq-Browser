@@ -1,0 +1,28 @@
+name: TChIP-seq
+full_name: tandem chromatin immunoprecipitation sequencing
+category: wet
+summary: Chromatin is first purified through a tagged core histone expressed in the cell type of interest, then ChIP-seq gives
+  cell-type-specific histone modification maps from mixed tissue.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+builds_on:
+- chip-seq
+reference:
+  doi: 10.1038/s41598-018-19494-9
+  year: 2018
+  journal: Sci Rep
+  first_author: Mito M
+  last_author: Nakagawa S
+  pmid: '29348483'
+  pmcid: PMC5773701
+  title: Cell Type-Specific Survey of Epigenetic Modifications by Tandem Chromatin Immunoprecipitation Sequencing
+links: {}
+added: '2026-11-14'
+evidence: To address the cell type-specific chromatin state in a genome-wide manner, we recently developed tandem chromatin
+  immunoprecipitation sequencing (tChIP-Seq), which is based on the selective purification of chromatin by tagged core histone
+  proteins from cell types of interest, followed by ChIP-Seq.

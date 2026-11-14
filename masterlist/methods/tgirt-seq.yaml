@@ -1,0 +1,30 @@
+name: TGIRT-seq
+full_name: thermostable group II intron reverse transcriptase sequencing
+category: wet
+summary: RNA-seq using thermostable group II intron reverse transcriptase with template-switching adapter addition to profile
+  all RNA biotypes including structured RNAs from small inputs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1261/rna.039743.113
+  year: 2013
+  journal: RNA
+  first_author: Mohr S
+  last_author: Lambowitz AM
+  pmid: '23697550'
+  pmcid: PMC3683930
+  title: Thermostable group II intron reverse transcriptase fusion proteins and their use in cDNA synthesis and next-generation
+    RNA sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe an RNA-seq protocol using Thermostable Group II Intron Reverse Transcriptases (TGIRTs), which
+  have high fidelity, processivity, and strand-displacement activity, as well as a proficient template-switching activity
+  that enables efficient and seamless RNA-seq adapter addition.

@@ -1,0 +1,29 @@
+name: COBRA-seq
+full_name: Combined Bisulfite Restriction Analysis sequencing
+category: wet
+summary: Reduced-representation methylome profiling that digests bisulfite-converted DNA with a restriction enzyme (e.g. TaqI)
+  and sequences the fragments, with PCR or linear amplification.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+input_sample:
+- low-input
+reference:
+  doi: 10.3390/genes6041140
+  year: 2015
+  journal: Genes (Basel)
+  first_author: Varinli H
+  last_author: Ross JP
+  pmid: '26512698'
+  pmcid: PMC4690032
+  title: 'COBRA-Seq: Sensitive and Quantitative Methylome Profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce COBRA-seq, a genome wide reduced methylome method that requires minimal DNA input (0.1-1.0 mg)
+  and can either use PCR or linear amplification to amplify the sequencing library.

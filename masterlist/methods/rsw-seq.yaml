@@ -1,0 +1,23 @@
+name: rSW-seq
+full_name: Recursive Smith-Waterman-seq
+category: dry
+summary: Recursive Smith-Waterman algorithm that detects copy number alterations in a tumor genome versus matched control
+  from single-end sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-11-432
+  year: 2010
+  journal: BMC Bioinformatics
+  first_author: Kim TM
+  last_author: Park PJ
+  pmid: '20718989'
+  pmcid: PMC2939611
+  title: 'rSW-seq: algorithm for detection of copy number alterations in deep sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We further refine the algorithm to develop rSW-seq, (recursive Smith-Waterman-seq) to identify alterations in a
+  complex configuration, which are commonly observed in the human cancer genome.

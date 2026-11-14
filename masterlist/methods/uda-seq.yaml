@@ -1,0 +1,35 @@
+name: UDA-seq
+full_name: universal droplet microfluidics-based combinatorial indexing
+category: wet
+summary: Universal workflow adding a post-indexing combinatorial step to droplet microfluidics so existing single-cell multimodal
+  assays (RNA+VDJ, RNA+chromatin, RNA+CRISPR) reach massive scale.
+readouts:
+- rna
+- chromatin-accessibility
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e5-1e6
+species:
+- human
+input_sample:
+- fresh-tissue
+chemistry:
+- droplet-microfluidics
+- combinatorial-indexing
+- reverse-transcription
+- tn5
+reference:
+  doi: 10.1038/s41592-024-02586-y
+  year: 2025
+  journal: Nat Methods
+  first_author: Li Y
+  last_author: Jiang L
+  pmid: '39833568'
+  pmcid: PMC12165859
+  title: 'UDA-seq: universal droplet microfluidics-based combinatorial indexing for massive-scale multimodal single-cell sequencing'
+links: {}
+added: '2026-11-14'
+evidence: To address this, we introduce UDA-seq, a universal workflow that integrates a post-indexing step to enhance throughput
+  and systematically adapt existing droplet-based single-cell multimodal methods.

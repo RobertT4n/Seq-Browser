@@ -1,0 +1,28 @@
+name: a6A-seq
+full_name: N6-allyladenosine-based metabolic labelling and sequencing
+category: wet
+summary: Metabolic labelling of mRNA with N6-allyladenosine; iodination makes cyclized A that causes RT misincorporation,
+  so labelled RNA is detected by mutation without pull-down.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+temporal:
+- metabolic-labeling
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1016/j.fmre.2023.04.010
+  year: 2023
+  journal: Fundam Res
+  first_author: Shu X
+  last_author: Liu J
+  pmid: '38933292'
+  pmcid: PMC11197751
+  title: 'a<sup>6</sup>A-seq: <i>N</i> <sup>6</sup>-allyladenosine-based cellular messenger RNA metabolic labelling and sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here we developed an a6A-seq method, which takes advantage of N6-allyladenosine (a6A) metabolic labelling on cellular
+  mRNAs and profiles them in an immunoprecipitation-free and mutation-based manner.

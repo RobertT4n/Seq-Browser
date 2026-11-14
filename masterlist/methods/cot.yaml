@@ -1,0 +1,20 @@
+name: CoT
+category: dry
+summary: Transformer-autoencoder method that jointly infers tumor clones and their copy number profiles from scDNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae187
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Liu F
+  last_author: Yu Z
+  pmid: '38670159'
+  pmcid: PMC11052634
+  title: 'CoT: a transformer-based method for inferring tumor clonal copy number substructure from scDNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce a new bioinformatics method called CoT for deciphering clonal copy number substructure.

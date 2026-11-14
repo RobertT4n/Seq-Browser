@@ -1,0 +1,27 @@
+name: HaCeD-Seq
+full_name: haplotype count from eDNA
+category: wet
+summary: Counts mitochondrial D-loop haplotypes in environmental DNA to estimate fish population abundance; later improved
+  with UMI tags.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- other-vertebrate
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1007/s10126-019-09926-6
+  year: 2019
+  journal: Mar Biotechnol (NY)
+  first_author: Yoshitake K
+  last_author: Watabe S
+  pmid: '31758428'
+  title: 'HaCeD-Seq: a Novel Method for Reliable and Easy Estimation About the Fish Population Using Haplotype Count from
+    eDNA'
+links: {}
+added: '2026-11-14'
+evidence: We previously developed a novel analytical method called HaCeD-Seq (Haplotype Count from eDNA), which focuses on
+  the mitochondrial D-loop sequence.

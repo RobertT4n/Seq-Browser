@@ -1,0 +1,29 @@
+name: NTD-seq
+full_name: Naegleria TET-assisted deaminase sequencing
+category: wet
+summary: Naegleria TET oxidises 5mC to 5moC and an engineered A3A deaminates only unmodified cytosine, giving bisulfite-free
+  base-resolution 5mC maps.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1007/s11427-024-2702-8
+  year: 2025
+  journal: Sci China Life Sci
+  first_author: Wang M
+  last_author: Yuan BF
+  pmid: '40418523'
+  title: Bisulfite-free whole-genome mapping of 5-methylcytosine at single-base resolution by NTD-seq
+links: {}
+added: '2026-11-14'
+evidence: In this study, we develop a novel Naegleria TET-assisted deaminase sequencing (NTD-seq) method for the base-resolution
+  and quantitative detection of 5mC in genomic DNA.

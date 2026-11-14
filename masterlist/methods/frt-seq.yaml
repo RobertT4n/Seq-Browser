@@ -1,0 +1,25 @@
+name: FRT-seq
+full_name: Flowcell reverse transcription sequencing
+category: wet
+summary: Amplification-free strand-specific transcriptome sequencing in which poly(A) RNA is reverse transcribed directly
+  on the Illumina flowcell.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.1417
+  year: 2010
+  journal: Nat Methods
+  first_author: Mamanova L
+  last_author: Turner DJ
+  pmid: '20081834'
+  pmcid: PMC2861772
+  title: 'FRT-seq: amplification-free, strand-specific transcriptome sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We report an alternative approach to transcriptome sequencing for the Illumina Genome Analyzer, in which the reverse
+  transcription reaction takes place on the flowcell.

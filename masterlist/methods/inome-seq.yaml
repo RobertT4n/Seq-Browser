@@ -1,0 +1,35 @@
+name: iNOMe-seq
+full_name: in vivo Nucleosome Occupancy and Methylome sequencing
+category: wet
+summary: An m5C methyltransferase marks accessible GpC cytosines in living plant tissue, giving simultaneous chromatin accessibility,
+  nucleosome occupancy, protein-binding sites and DNA methylation.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- nome-seq
+species:
+- plant
+validated_system:
+- tissue-in-vivo
+chemistry: []
+chemistry_unknown: conversion/readout chemistry not stated in abstract
+reference:
+  doi: 10.1186/s13059-025-03760-x
+  year: 2025
+  journal: Genome Biol
+  first_author: Hussain N
+  last_author: Gutierrez-Marcos J
+  pmid: '41126326'
+  pmcid: PMC12542186
+  title: 'iNOME-seq: in vivo simultaneous genome-wide mapping of chromatin accessibility, nucleosome positioning, DNA-binding
+    protein sites, and DNA methylation in Arabidopsis'
+links: {}
+added: '2026-11-14'
+evidence: We present iNOMe-seq, a novel method for in vivo simultaneous profiling of chromatin accessibility, nucleosome occupancy,
+  DNA-binding protein sites, and DNA methylation in living tissues.

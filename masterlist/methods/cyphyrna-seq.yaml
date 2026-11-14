@@ -1,0 +1,29 @@
+name: cyPhyRNA-seq
+full_name: 2',3' cyclic phosphates and 5' hydroxyl ends RNA sequencing
+category: wet
+summary: Ligase-based capture of RNAs with 2',3'-cyclic phosphate and 5'-hydroxyl ends detects active self-cleaving ribozyme
+  fragments transcriptome-wide.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1080/15476286.2021.1999105
+  year: 2021
+  journal: RNA Biol
+  first_author: Olzog VJ
+  last_author: Weinberg CE
+  pmid: '34906034'
+  pmcid: PMC8782182
+  title: 'cyPhyRNA-seq: a genome-scale RNA-seq method to detect active self-cleaving ribozymes by capturing RNAs with 2'',3''
+    <u>cy</u>clic <u>p</u>hosphates and 5'' <u>hy</u>droxyl ends'
+links: {}
+added: '2026-11-14'
+evidence: We developed a transcriptome-wide method, called cyPhyRNA-seq, to screen for ribozyme cleavage fragments in total
+  RNA extract.

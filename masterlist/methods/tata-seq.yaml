@@ -1,0 +1,30 @@
+name: TATA-seq
+full_name: target transcript amplification and sequencing
+category: wet
+summary: Antibody-recruited oligo carrying a T7 promoter drives in situ reverse transcription and T7 linear amplification
+  of RNA inside membrane-less organelles.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- reverse-transcription
+chemistry_unknown: antibody-tethered T7-promoter oligo with in situ RT and T7 amplification has no matching tag
+reference:
+  doi: 10.1261/rna.080670.125
+  year: 2025
+  journal: RNA
+  first_author: Li J
+  last_author: Hu L
+  pmid: '40750353'
+  pmcid: PMC12439595
+  title: Profiling RNA subcellular localization in situ by TATA-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce target transcript amplification and sequencing (TATA-seq), a novel strategy for precisely profiling
+  RNA in membrane-less organelles via in situ targeted transcription and linear amplification.

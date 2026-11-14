@@ -1,0 +1,23 @@
+name: ReliefSeq
+category: dry
+summary: Gene-wise adaptive-K nearest-neighbour feature selection that finds gene-gene interactions and main effects in mRNA-Seq
+  expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0081527
+  year: 2013
+  journal: PLoS One
+  first_author: McKinney BA
+  last_author: Oberg AL
+  pmid: '24339943'
+  pmcid: PMC3858248
+  title: 'ReliefSeq: a gene-wise adaptive-K nearest-neighbor feature selection tool for finding gene-gene interactions and
+    main effects in mRNA-Seq gene expression data'
+links: {}
+added: '2026-11-14'
+evidence: ReliefSeq is an attractive tool for inclusion in the suite of tools used for analysis of mRNA-Seq data; it has power
+  to detect both main effects and interaction effects.

@@ -1,0 +1,28 @@
+name: circTAIL-seq
+category: wet
+summary: Targeted method that profiles the heterogeneous 3' tail populations of a chosen transcript by deep sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+species:
+- microbe
+chemistry_unknown: circularisation/ligation steps not stated in abstract
+reference:
+  doi: 10.1261/rna.054494.115
+  year: 2016
+  journal: RNA
+  first_author: Gazestani VH
+  last_author: Zimmer SL
+  pmid: '26759453'
+  pmcid: PMC4748824
+  title: circTAIL-seq, a targeted method for deep analysis of RNA 3' tails, reveals transcript-specific differences by multiple
+    metrics
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a targeted approach, termed circTAIL-seq, to quantify both major and subtle differences of heterogeneous
+  tail populations.

@@ -1,0 +1,23 @@
+name: AbsCN-seq
+category: dry
+summary: Statistical method that estimates tumour purity, ploidy and absolute copy numbers from exome or genome sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt759
+  year: 2014
+  journal: Bioinformatics
+  first_author: Bao L
+  last_author: Messer K
+  pmid: '24389661'
+  pmcid: PMC6280749
+  title: 'AbsCN-seq: a statistical method to estimate tumor purity, ploidy and absolute copy numbers from next-generation
+    sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: we aim to develop a simple and robust algorithm to infer purity, ploidy and absolute copy numbers in whole numbers
+  for tumor cells from sequencing data.

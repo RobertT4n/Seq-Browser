@@ -1,0 +1,28 @@
+name: RIPiT-seq
+full_name: RNA:protein immunoprecipitation in tandem sequencing
+category: wet
+summary: Tandem immunoprecipitation of ribonucleoprotein complexes with sequencing of the protected RNA footprints, able to
+  separate sites of RNPs with overlapping protein composition.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2012.10.007
+  year: 2012
+  journal: Cell
+  first_author: Singh G
+  last_author: Moore MJ
+  pmid: '23084401'
+  pmcid: PMC3522173
+  title: The cellular EJC interactome reveals higher-order mRNP structure and an EJC-SR protein nexus
+links: {}
+added: '2026-11-14'
+evidence: RNA:protein immunoprecipitation in tandem (RIPiT) yields highly specific RNA footprints of cellular RNPs isolated
+  via two sequential purifications; the resulting RNA footprints can then be identified by high-throughput sequencing (Seq).

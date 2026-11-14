@@ -1,0 +1,27 @@
+name: ReCappable-seq
+category: wet
+summary: Enzymatic exchange of 5-prime m7G caps and triphosphates with a selectable tag to map TSSs of both Pol II and non-Pol
+  II transcripts at single-nucleotide resolution.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- reverse-transcription
+chemistry_unknown: Enzymatic cap/triphosphate tag-exchange has no fitting taxonomy tag
+reference:
+  doi: 10.1101/gr.275784.121
+  year: 2022
+  journal: Genome Res
+  first_author: Yan B
+  last_author: Ettwiller L
+  pmid: '34815308'
+  pmcid: PMC8744680
+  title: Comprehensive determination of transcription start sites derived from all RNA polymerases using ReCappable-seq
+links: {}
+added: '2026-11-14'
+evidence: To address this limitation, we developed ReCappable-seq, which comprehensively identifies TSS for both Pol II and
+  non-Pol II transcripts at single-nucleotide resolution.

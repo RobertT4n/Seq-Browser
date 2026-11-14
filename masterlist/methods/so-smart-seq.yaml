@@ -1,0 +1,31 @@
+name: So-Smart-seq
+full_name: Strand-optimized Smart-seq
+category: wet
+summary: Strand-optimized Smart-seq capturing polyadenylated and non-polyadenylated RNA, including repeats, from single preimplantation
+  embryos with ribosomal cDNA depletion.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+variant_of:
+- smart-seq
+species:
+- mouse
+input_sample:
+- low-input
+chemistry:
+- reverse-transcription
+- plate-based
+reference:
+  doi: 10.1016/j.molcel.2024.02.013
+  year: 2024
+  journal: Mol Cell
+  first_author: Wei C
+  last_author: Lee JT
+  pmid: '38458200'
+  pmcid: PMC11031340
+  title: Imprinted X chromosome inactivation at the gamete-to-embryo transition
+links: {}
+added: '2026-11-14'
+evidence: Strand-optimized Smart-seq (So-Smart-seq) can capture a comprehensive transcriptome from low-input samples.

@@ -1,0 +1,26 @@
+name: MORE-RNAseq
+full_name: mobile element-originated read enrichment from RNA-seq data
+category: dry
+summary: Pipeline quantifying expression of retrotransposition-capable LINE-1 elements from standard RNA-seq data using curated
+  L1 references.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+reference:
+  doi: 10.3389/fbinf.2025.1575346
+  year: 2025
+  journal: Front Bioinform
+  first_author: Nakachi Y
+  last_author: Iwamoto K
+  pmid: '40475058'
+  pmcid: PMC12138260
+  title: 'MORE-RNAseq: a pipeline for quantifying retrotransposition-capable LINE1 expression based on RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We developed mobile element-originated read enrichment from RNA-seq data (MORE-RNAseq), a pipeline for calculating
+  expression of rc-L1s using manually curated L1 references in humans and mice.

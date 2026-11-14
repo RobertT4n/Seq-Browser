@@ -1,0 +1,26 @@
+name: CapZyme-seq
+category: wet
+summary: 5'-RNA-seq that differentially detects and quantifies NAD-capped (and other non-canonical initiating nucleotide capped)
+  RNA versus uncapped 5'-triphosphate RNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2018.03.014
+  year: 2018
+  journal: Mol Cell
+  first_author: Vvedenskaya IO
+  last_author: Nickels BE
+  pmid: '29681497'
+  pmcid: PMC5935523
+  title: CapZyme-Seq Comprehensively Defines Promoter-Sequence Determinants for RNA 5' Capping with NAD<sup/>
+links: {}
+added: '2026-11-14'
+evidence: We recently reported ″CapZyme-seq,″ a 5'-RNA-seq method that enables the differential detection and quantitation
+  of relative yields of NCIN-capped RNA and uncapped 5'-triphosphate RNA.

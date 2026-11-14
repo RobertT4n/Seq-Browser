@@ -1,0 +1,24 @@
+name: AlkAniline-Seq
+category: wet
+summary: Alkaline heat and aniline cleave RNA at abasic sites of m7G, m3C, D and ho5C, leaving a 5'-phosphate that allows
+  selective adapter ligation for single-nucleotide mapping.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1002/anie.201810946
+  year: 2018
+  journal: Angew Chem Int Ed Engl
+  first_author: Marchand V
+  last_author: Motorin Y
+  pmid: '30370969'
+  title: 'AlkAniline-Seq: Profiling of m<sup>7</sup> G and m<sup>3</sup> C RNA Modifications at Single Nucleotide Resolution'
+links: {}
+added: '2026-11-14'
+evidence: 'AlkAniline-Seq is a highly efficient and fast method to map simultaneously two different RNA modifications: 7-methyl-guanosine
+  (m7G) and 3-methyl-cytosine (m3C) in RNA.'

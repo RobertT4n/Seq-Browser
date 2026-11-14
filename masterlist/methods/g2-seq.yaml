@@ -1,0 +1,26 @@
+name: G2-seq
+category: wet
+summary: Flow-sorted G2 cells are sequenced and read depth is compared with G1 to find genomic regions that are last to finish
+  replicating.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.3791/56286
+  year: 2018
+  journal: J Vis Exp
+  first_author: Foss EJ
+  last_author: Bedalov A
+  pmid: '29630039'
+  pmcid: PMC5933243
+  title: 'G2-seq: A High Throughput Sequencing-based Technique for Identifying Late Replicating Regions of the Genome'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe how we have extended a technique that has been used to monitor replication initiation to instead
+  identify those regions of the genome last to complete replication.

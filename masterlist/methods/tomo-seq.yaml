@@ -1,0 +1,26 @@
+name: Tomo-seq
+category: wet
+summary: Cryosections of an embryo or tissue are sequenced individually by RNA-seq to give genome-wide expression along spatial
+  axes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- cryosectioning
+- reverse-transcription
+species:
+- other-vertebrate
+reference:
+  doi: 10.1016/j.cell.2014.09.038
+  year: 2014
+  journal: Cell
+  first_author: Junker JP
+  last_author: van Oudenaarden A
+  pmid: '25417113'
+  title: Genome-wide RNA Tomography in the zebrafish embryo
+links: {}
+added: '2026-11-14'
+evidence: The tomo-seq technique is based on cryosectioning of an embryo or tissue of interest and performing RNA-seq on individual
+  sections.

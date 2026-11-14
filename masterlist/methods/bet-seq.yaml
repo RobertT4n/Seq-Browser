@@ -1,0 +1,25 @@
+name: BET-seq
+full_name: Binding Energy Topography by sequencing
+category: wet
+summary: MITOMI microfluidic purification of TF-bound DNA at equilibrium followed by sequencing measures relative binding
+  energies of up to a million DNA sequences for one transcription factor.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- microfluidic-chip
+reference:
+  doi: 10.1073/pnas.1715888115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Le DD
+  last_author: Fordyce PM
+  pmid: '29588420'
+  pmcid: PMC5910820
+  title: Comprehensive, high-resolution binding energy landscapes reveal context dependencies of transcription factor binding
+links: {}
+added: '2026-11-14'
+evidence: BET-seq employs the Mechanically Induced Trapping of Molecular Interactions (MITOMI) platform to purify DNA bound
+  to a TF at equilibrium followed by high coverage sequencing to reveal relative differences in binding energy for each sequence.

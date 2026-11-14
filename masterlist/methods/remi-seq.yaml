@@ -1,0 +1,32 @@
+name: REMI-seq
+full_name: restriction enzyme-mediated integration sequencing
+category: wet
+summary: Tn-seq-style mapping of restriction-enzyme-mediated insertion sites to build and screen a genome-wide mutant resource
+  in Dictyostelium.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+variant_of:
+- tn-seq
+species:
+- microbe
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1186/s12915-021-01108-y
+  year: 2021
+  journal: BMC Biol
+  first_author: Gruenheit N
+  last_author: Thompson CRL
+  pmid: '34429112'
+  pmcid: PMC8386026
+  title: Mutant resources for functional genomics in Dictyostelium discoideum using REMI-seq technology
+links: {}
+added: '2026-11-14'
+evidence: We describe REMI-seq, an adaptation of Tn-seq, which allows high throughput, en masse, and quantitative identification
+  of the genomic site of insertion of a drug resistance marker after restriction enzyme-mediated integration.

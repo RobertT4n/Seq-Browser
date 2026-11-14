@@ -1,0 +1,32 @@
+name: ITR-seq
+full_name: inverted terminal repeat sequencing
+category: wet
+summary: Maps AAV inverted-terminal-repeat insertions at nuclease-induced double-strand breaks to identify off-target editing
+  sites in vivo.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1186/s12864-020-6655-4
+  year: 2020
+  journal: BMC Genomics
+  first_author: Breton C
+  last_author: Wilson JM
+  pmid: '32183699'
+  pmcid: PMC7076944
+  title: ITR-Seq, a next-generation sequencing assay, identifies genome-wide DNA editing sites in vivo following adeno-associated
+    viral vector-mediated genome editing
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a next-generation sequencing assay that detects insertions of specific AAV vector sequences called
+  inverted terminal repeats (ITRs).

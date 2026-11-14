@@ -1,0 +1,29 @@
+name: miniBac-seq
+category: wet
+summary: Strand-specific bacterial RNA-seq library preparation that works from sub-nanogram total RNA, down to a single-cell
+  equivalent amount.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- microbe
+chemistry:
+- reverse-transcription
+chemistry_unknown: Abstract does not state the library-prep chemistry beyond strand-specific RNA-seq
+reference:
+  doi: 10.1111/1462-2920.16169
+  year: 2022
+  journal: Environ Microbiol
+  first_author: Wang T
+  last_author: Liu J
+  pmid: '36053758'
+  title: Profiling of bacterial transcriptome from ultra-low input with MiniBac-seq
+links: {}
+added: '2026-11-14'
+evidence: To address this issue, we developed miniBac-seq, a strand-specific method for high-quality library construction
+  from sub-nanogram of total RNA, which is 100-fold lower than the current benchmark kit and dramatically reduces preparation
+  cost.

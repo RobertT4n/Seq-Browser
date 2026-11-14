@@ -1,0 +1,27 @@
+name: Spike-Seq
+category: wet
+summary: Nested-PCR amplicon sequencing of the full SARS-CoV-2 S gene from wastewater to identify Spike variants and estimate
+  their frequency.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1016/j.scitotenv.2023.169747
+  year: 2024
+  journal: Sci Total Environ
+  first_author: Adamopoulos PG
+  last_author: Scorilas A
+  pmid: '38159750'
+  title: 'Spike-Seq: An amplicon-based high-throughput sequencing approach for the sensitive detection and characterization
+    of SARS-CoV-2 genetic variations in environmental samples'
+links: {}
+added: '2026-11-14'
+evidence: In the present study, we introduce Spike-Seq, a custom amplicon-based approach for the S gene sequencing of SARS-CoV-2
+  in wastewater samples, which enables not only the accurate identification of the existing Spike-related genetic markers,
+  but also the estimation of their frequency in the investigated samples.

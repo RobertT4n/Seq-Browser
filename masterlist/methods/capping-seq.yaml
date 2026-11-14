@@ -1,0 +1,29 @@
+name: Capping-seq
+category: wet
+summary: Transcription start site mapping in bacteria by capture of capped primary transcripts followed by PacBio SMRT sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+species:
+- microbe
+platform:
+- long-read
+- pacbio
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1016/j.gene.2022.146827
+  year: 2022
+  journal: Gene
+  first_author: Liu F
+  last_author: Liu ZF
+  pmid: '35995114'
+  title: Genome-wide transcription start site mapping in the facultative intracellular pathogen Brucella melitensis by Capping-seq
+links: {}
+added: '2026-11-14'
+evidence: To improve annotation and explore potential functional sites, we proposed a novel genome-wide method called Capping-seq
+  for transcription start site (TSS) mapping in B. melitensis.

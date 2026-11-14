@@ -1,0 +1,27 @@
+name: CRISPR-Tag-seq
+category: wet
+summary: A double-stranded oligo Tag integrates into Cas-nuclease-induced double-strand breaks and is traced by one-step library
+  prep to profile off-target sites.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+reference:
+  doi: 10.1038/s42003-021-02351-3
+  year: 2021
+  journal: Commun Biol
+  first_author: Huang H
+  last_author: Rong Z
+  pmid: '34215845'
+  pmcid: PMC8253812
+  title: 'Tag-seq: a convenient and scalable method for genome-wide specificity assessment of CRISPR/Cas nucleases'
+links: {}
+added: '2026-11-14'
+evidence: Here we present an easy alternative method for CRISPR off-target detection by tracing the integrated oligonucleotide
+  Tag using next-generation-sequencing (CRISPR-Tag-seq, or Tag-seq).

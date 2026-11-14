@@ -1,0 +1,33 @@
+name: SMAdd-seq
+full_name: small-molecule adduct sequencing
+category: wet
+summary: Angelicin photoadducts label accessible linker DNA in nuclei or intact cells and are read from nanopore current signals,
+  giving single-molecule chromatin accessibility and nucleosome maps.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+validated_system:
+- cell-line
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1093/nar/gkaf671
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Bai G
+  last_author: Brooks AN
+  pmid: '40682816'
+  pmcid: PMC12276009
+  title: 'SMAdd-seq: probing chromatin accessibility with small molecule DNA intercalation and nanopore sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a nanopore-based sequencing technique called small-molecule adduct sequencing (SMAdd-seq), where
+  we profile chromatin accessibility by treating nuclei or intact cells with a small molecule, angelicin.

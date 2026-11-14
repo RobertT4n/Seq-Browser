@@ -1,0 +1,31 @@
+name: EBS-seq
+full_name: Enrichment-Based Sequencing for 5hmC
+category: wet
+summary: Selective labelling and pull-down of 5hmC combined with deamination of C and 5mC gives enrichment-based 5hmC detection
+  at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1186/s13148-023-01451-7
+  year: 2023
+  journal: Clin Epigenetics
+  first_author: Lee J
+  last_author: Bang D
+  pmid: '36859282'
+  pmcid: PMC9979530
+  title: 'EBS-seq: enrichment-based method for accurate analysis of 5-hydroxymethylcytosine at single-base resolution'
+links: {}
+added: '2026-11-14'
+evidence: EBS-seq uses selective labeling of 5hmC, deamination of cytosine and 5-methylcytosine, pull-down of labeled 5hmC,
+  and C-to-T conversion during DNA amplification.

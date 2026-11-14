@@ -1,0 +1,28 @@
+name: Keth-seq
+category: wet
+summary: N3-kethoxal labels single-stranded guanines in RNA in live cells, and the labelling pattern is read out by sequencing
+  to map transcriptome-wide secondary structure.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- live-cells
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41589-019-0459-3
+  year: 2020
+  journal: Nat Chem Biol
+  first_author: Weng X
+  last_author: He C
+  pmid: '32015521'
+  pmcid: PMC7182492
+  title: Keth-seq for transcriptome-wide RNA structure mapping
+links: {}
+added: '2026-11-14'
+evidence: We report a new N3-kethoxal reagent that allows fast and reversible labeling of single-stranded guanine bases in
+  live cells.

@@ -1,0 +1,28 @@
+name: MoNSTR-seq
+full_name: Mutation analysis via Next-generation DNA Sequencing of T-DNA Regions
+category: wet
+summary: RAD-seq adaptation using two restriction enzymes and custom adapters to enrich both T-DNA insertion borders and locate
+  insertions in fungal mutant genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1111/lam.12817
+  year: 2018
+  journal: Lett Appl Microbiol
+  first_author: Zaccaron M
+  last_author: Bluhm BH
+  pmid: '29108115'
+  title: MoNSTR-seq, a restriction site-associated DNA sequencing technique to characterize Agrobacterium-mediated transfer-DNA
+    insertions in Phomopsis longicolla
+links: {}
+added: '2026-11-14'
+evidence: In this study, a novel, high-throughput adaptation of RAD-seq termed MoNSTR-seq (Mutation analysis via Next-generation
+  DNA Sequencing of T-DNA Regions) was developed to determine the genomic location of T-DNA insertions in P. longicolla mutants.

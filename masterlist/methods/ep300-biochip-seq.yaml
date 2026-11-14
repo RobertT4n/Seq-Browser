@@ -1,0 +1,32 @@
+name: Ep300 bioChIP-seq
+category: wet
+summary: Cre-directed, lineage-specific biotinylation of Ep300 followed by streptavidin pulldown and sequencing to map cell
+  type-specific enhancers in mice.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+targets:
+- Ep300
+variant_of:
+- chip-seq
+chemistry_unknown: streptavidin pulldown of biotinylated protein has no matching chemistry tag
+reference:
+  doi: 10.7554/elife.22039
+  year: 2017
+  journal: Elife
+  first_author: Zhou P
+  last_author: Pu WT
+  pmid: '28121289'
+  pmcid: PMC5295818
+  title: Mapping cell type-specific transcriptional enhancers using high affinity, lineage-specific Ep300 bioChIP-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed a lineage-selective method to map transcriptional enhancers, regulatory genomic regions that activate
+  transcription, in mice.

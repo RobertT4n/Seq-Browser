@@ -1,0 +1,20 @@
+name: Threshold-seq
+category: dry
+summary: R package that sets a read-count threshold separating real short RNAs from background in deep-sequencing datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx073
+  year: 2017
+  journal: Bioinformatics
+  first_author: Magee R
+  last_author: Rigoutsos I
+  pmid: '28203700'
+  pmcid: PMC5870860
+  title: 'Threshold-seq: a tool for determining the threshold in short RNA-seq datasets'
+links: {}
+added: '2026-11-14'
+evidence: We present 'Threshold-seq,' a new approach for determining thresholds in deep-sequencing datasets of short RNA transcripts.

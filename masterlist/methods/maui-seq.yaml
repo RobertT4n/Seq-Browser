@@ -1,0 +1,25 @@
+name: MAUI-seq
+full_name: metabarcoding using amplicons with unique molecular identifiers
+category: wet
+summary: Amplicon sequencing with unique molecular identifiers to remove PCR and sequencing errors and chimeras in metabarcoding.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1111/1755-0998.13294
+  year: 2021
+  journal: Mol Ecol Resour
+  first_author: Fields B
+  last_author: Young JPW
+  pmid: '33171018'
+  title: 'MAUI-seq: Metabarcoding using amplicons with unique molecular identifiers to improve error correction'
+links: {}
+added: '2026-11-14'
+evidence: We have developed a multiplexed HTAS method, MAUI-seq, which uses unique molecular identifiers (UMIs) to improve
+  error correction by exploiting variation among sequences associated with a single UMI.

@@ -1,0 +1,28 @@
+name: Direct 16S rRNA-seq
+category: wet
+summary: Sequences 16S rRNA from bacterial communities directly, without primer- or PCR-dependent steps, to assess diversity
+  and activity per taxon.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+chemistry_unknown: other library-prep steps not stated in abstract
+reference:
+  doi: 10.1038/srep32165
+  year: 2016
+  journal: Sci Rep
+  first_author: Rosselli R
+  last_author: Squartini A
+  pmid: '27577787'
+  pmcid: PMC5006002
+  title: 'Direct 16S rRNA-seq from bacterial communities: a PCR-independent approach to simultaneously assess microbial diversity
+    and functional activity potential of each taxon'
+links: {}
+added: '2026-11-14'
+evidence: To overcome these drawbacks we propose an approach of direct sequencing of 16S ribosomal RNA without any primer-
+  or PCR-dependent step.

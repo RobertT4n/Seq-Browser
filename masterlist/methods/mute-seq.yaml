@@ -1,0 +1,28 @@
+name: MUTE-seq
+full_name: Mutation tagging by CRISPR-based Ultra-precise Targeted Elimination in Sequencing
+category: wet
+summary: Engineered high-fidelity FnCas9-AF2 cleaves perfectly matched wild-type DNA so low-frequency mutant alleles in cfDNA
+  are enriched before sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+chemistry: []
+chemistry_unknown: library prep chemistry not stated in abstract
+reference:
+  doi: 10.1002/adma.202505208
+  year: 2025
+  journal: Adv Mater
+  first_author: Ye S
+  last_author: Hur JW
+  pmid: '40842147'
+  pmcid: PMC12651102
+  title: 'MUTE-Seq: An Ultrasensitive Method for Detecting Low-Frequency Mutations in cfDNA With Engineered Advanced-Fidelity
+    FnCas9'
+links: {}
+added: '2026-11-14'
+evidence: MUTE-Seq leverages FnCas9-AF2 for the enrichment of mutant DNA through the exclusive cleavage of perfectly matched
+  wild-type DNA, allowing for sensitive detection of low-frequency cancer-associated mutant alleles.

@@ -1,0 +1,23 @@
+name: QTL-BSA
+full_name: QTL-bulked segregant analysis and visualization pipeline
+category: dry
+summary: Pipeline for identifying and visualising candidate QTLs from QTL-seq bulked-segregant whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1007/s12539-019-00344-9
+  year: 2019
+  journal: Interdiscip Sci
+  first_author: Wu S
+  last_author: Gao Q
+  pmid: '31388943'
+  title: 'QTL-BSA: A Bulked Segregant Analysis and Visualization Pipeline for QTL-seq'
+links: {}
+added: '2026-11-14'
+evidence: Hence, we developed a tool named QTL-BSA (QTL-bulked segregant analysis and visualization pipeline), which could
+  facilitate the rapid identification and visualization of candidate QTLs from QTL-seq.

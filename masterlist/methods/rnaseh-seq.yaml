@@ -1,0 +1,28 @@
+name: RNaseH-seq
+category: wet
+summary: Genome-wide annotation of cleavage and polyadenylation sites (3' RNA ends) that discriminates true sites from internal
+  poly(A) tracts; companion to Exo-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- invertebrate
+shared_doi: Exo-seq and RNaseH-seq are two assays in one paper
+chemistry_unknown: 3' end capture chemistry not stated in abstract
+reference:
+  doi: 10.1093/nar/gkx133
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Afik S
+  last_author: Kadener S
+  pmid: '28335028'
+  pmcid: PMC5499799
+  title: Defining the 5΄ and 3΄ landscape of the Drosophila transcriptome with Exo-seq and RNaseH-seq
+links: {}
+added: '2026-11-14'
+evidence: Our approach reliably discerns bona fide PAS from false PAS that arise due to internal poly(A) tracts, a common
+  problem with current PAS annotation methods.

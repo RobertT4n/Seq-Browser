@@ -1,0 +1,29 @@
+name: RIL-seq
+full_name: RNA interaction by ligation and sequencing
+category: wet
+summary: Hfq co-immunoprecipitation, proximity ligation of bound RNAs and sequencing of chimeric fragments map sRNA-target
+  pairs in bacteria.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2016.07.026
+  year: 2016
+  journal: Mol Cell
+  first_author: Melamed S
+  last_author: Margalit H
+  pmid: '27588604'
+  pmcid: PMC5145812
+  title: Global Mapping of Small RNA-Target Interactions in Bacteria
+links: {}
+added: '2026-11-14'
+evidence: To enable transcriptome-wide mapping of bacterial sRNA-target pairs, we developed RIL-seq (RNA interaction by ligation
+  and sequencing).

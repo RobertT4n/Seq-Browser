@@ -1,0 +1,32 @@
+name: FLEP-seq
+full_name: full-length elongating and polyadenylated RNA sequencing
+category: wet
+summary: Long-read sequencing of full-length nascent RNA reports Pol II position, splicing status, polyadenylation site and
+  poly(A) tail length on single transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+species:
+- plant
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1038/s41477-020-0688-1
+  year: 2020
+  journal: Nat Plants
+  first_author: Jia J
+  last_author: Zhai J
+  pmid: '32541953'
+  title: Post-transcriptional splicing of nascent RNA contributes to widespread intron retention in plants
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a detailed protocol for this method called FLEP-seq (full-length elongating and polyadenylated
+  RNA sequencing) that is applicable to plants.

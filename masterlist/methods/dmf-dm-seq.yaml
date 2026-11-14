@@ -1,0 +1,30 @@
+name: DMF-DM-seq
+full_name: Digital-Microfluidics Enabled Dual-Modality Sequencing
+category: wet
+summary: Digital-microfluidics device that isolates single cells, separates mRNA from miRNA magnetically and builds both libraries
+  on chip.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.4c03378
+  year: 2024
+  journal: Anal Chem
+  first_author: Chen Y
+  last_author: Yang C
+  pmid: '39038243'
+  title: 'DMF-DM-seq: Digital-Microfluidics Enabled Dual-Modality Sequencing of Single-Cell mRNA and microRNA with High Integration,
+    Sensitivity, and Automation'
+links: {}
+added: '2026-11-14'
+evidence: Here, we reported DMF-DM-seq, a highly integrated, sensitive, and automated platform for single-cell mRNA and microRNA
+  (miRNA) co-sequencing based on digital microfluidics.

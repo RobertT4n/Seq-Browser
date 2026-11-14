@@ -1,0 +1,26 @@
+name: Rfoot-seq
+category: wet
+summary: Concentrated RNase treatment of lysate without crosslinking keeps footprints of stable RNA-protein complexes, enabling
+  low-input ribosome profiling and mapping of non-ribosomal RNPs.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.276139.121
+  year: 2022
+  journal: Genome Res
+  first_author: Li Q
+  last_author: Ji Z
+  pmid: '35193938'
+  pmcid: PMC8896460
+  title: Low-input RNase footprinting for simultaneous quantification of cytosolic and mitochondrial translation
+links: {}
+added: '2026-11-14'
+evidence: We describe a low-input RNase footprinting approach for the rapid quantification of ribosome-protected fragments
+  with as few as 1000 cultured cells.

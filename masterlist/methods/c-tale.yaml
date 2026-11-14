@@ -1,0 +1,24 @@
+name: C-TALE
+full_name: Chromatin TArget Ligation Enrichment
+category: wet
+summary: Hi-C/3C libraries are enriched by hybridisation to BAC-derived biotinylated baits in two rounds, giving a cheap many-versus-all
+  contact map of a chosen region.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- proximity-ligation
+- oligo-capture
+reference:
+  doi: 10.1016/j.ymeth.2019.06.022
+  year: 2020
+  journal: Methods
+  first_author: Golov AK
+  last_author: Gavrilov AA
+  pmid: '31252062'
+  title: C-TALE, a new cost-effective method for targeted enrichment of Hi-C/3C-seq libraries
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a new protocol of this kind, C-TALE (Chromatin TArget Ligation Enrichment).

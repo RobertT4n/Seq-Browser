@@ -1,0 +1,29 @@
+name: Optimized Repli-seq
+category: wet
+summary: Single-tube Repli-seq with direct cell sorting into lysis buffer for replication-timing profiling from low-input
+  samples.
+readouts:
+- replication-timing
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry:
+- facs-sorting
+chemistry_unknown: Labelling and library chemistry not stated in abstract
+reference:
+  doi: 10.1007/s10577-022-09703-7
+  year: 2022
+  journal: Chromosome Res
+  first_author: Rivera-Mulia JC
+  last_author: Martinez-Cifuentes S
+  pmid: '35781769'
+  pmcid: PMC10124313
+  title: 'Optimized Repli-seq: improved DNA replication timing analysis by next-generation sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed an improved method to measure RT genome-wide that enables high-resolution analysis of low input
+  samples.

@@ -1,0 +1,28 @@
+name: mime-seq
+full_name: microRNome by methylation-dependent sequencing
+category: wet
+summary: Cell-type-specific 3-prime 2-prime-O-methylation of miRNAs by a genetically encoded methyltransferase allows chemoselective
+  sequencing of miRNAs from defined cells without sorting.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+species:
+- invertebrate
+- mouse
+chemistry:
+- reverse-transcription
+chemistry_unknown: chemoselective small-RNA cloning of 2-prime-O-methylated miRNAs not described in the abstract
+reference:
+  doi: 10.1038/nmeth.4610
+  year: 2018
+  journal: Nat Methods
+  first_author: Alberti C
+  last_author: Cochella L
+  pmid: '29481550'
+  pmcid: PMC5886366
+  title: Cell-type specific sequencing of microRNAs from complex animal tissues
+links: {}
+added: '2026-11-14'
+evidence: Here, we present mime-seq 2.0 for profiling miRNAs from specific mouse cell types.

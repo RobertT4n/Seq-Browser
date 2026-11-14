@@ -1,0 +1,24 @@
+name: S1-seq
+category: wet
+summary: S1 nuclease removes the single-stranded tails of resected DNA double-strand breaks and sequencing the resulting ssDNA-to-dsDNA
+  junctions maps where end resection stopped, genome-wide.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: S1 nuclease digestion step has no taxonomy chemistry tag
+reference:
+  doi: 10.1126/science.aak9704
+  year: 2017
+  journal: Science
+  first_author: Mimitou EP
+  last_author: Keeney S
+  pmid: '28059759'
+  pmcid: PMC5234563
+  title: A global view of meiotic double-strand break end resection
+links: {}
+added: '2026-11-14'
+evidence: We developed a next-generation sequencing assay, termed S1-seq, to study DNA end resection genome-wide at high-spatial
+  resolution during yeast meiotic recombination.
