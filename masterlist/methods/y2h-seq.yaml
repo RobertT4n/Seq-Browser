@@ -1,0 +1,27 @@
+name: Y2H-seq
+full_name: Yeast two-hybrid sequencing
+category: wet
+summary: Yeast two-hybrid interaction screening read out by short-read sequencing with a quantitative scoring readout, used
+  to map the human protein methyltransferase interactome.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1038/nmeth.2397
+  year: 2013
+  journal: Nat Methods
+  first_author: Weimann M
+  last_author: Stelzl U
+  pmid: '23455924'
+  title: A Y2H-seq approach defines the human protein methyltransferase interactome
+links: {}
+added: '2026-11-14'
+evidence: To accelerate high-density interactome mapping, we developed a yeast two-hybrid interaction screening approach involving
+  short-read second-generation sequencing (Y2H-seq) with improved sensitivity and a quantitative scoring readout allowing
+  rapid interaction validation.

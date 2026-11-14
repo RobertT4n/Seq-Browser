@@ -1,0 +1,30 @@
+name: HTML-PCR
+full_name: Homopolymer Tail-Mediated Ligation PCR
+category: wet
+summary: Homopolymer-tail-mediated ligation PCR that adds user-defined end sequences to nanogram-scale DNA for cloning and
+  massively parallel sequencing library construction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- microbe
+input_sample:
+- low-input
+reference:
+  doi: 10.2144/000113981
+  year: 2013
+  journal: Biotechniques
+  first_author: Lazinski DW
+  last_author: Camilli A
+  pmid: '23311318'
+  pmcid: PMC3605734
+  title: 'Homopolymer tail-mediated ligation PCR: a streamlined and highly efficient method for DNA cloning and library construction'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe an improved method, called homopolymer tail-mediated ligation PCR (HTML-PCR), that requires very
+  little starting template, minimal hands-on effort, is cost-effective, and is suited for use in high-throughput and robotic
+  methodologies.

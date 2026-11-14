@@ -1,0 +1,23 @@
+name: ICC
+full_name: Indel and Carryforward Correction
+category: dry
+summary: Error-correction approach for 454 pyrosequencing data that removes indel and carryforward errors to detect low-frequency
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btt434
+  year: 2013
+  journal: Bioinformatics
+  first_author: Deng W
+  last_author: Mullins JI
+  pmid: '23900188'
+  pmcid: PMC3777116
+  title: 'Indel and Carryforward Correction (ICC): a new analysis approach for processing 454 pyrosequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We developed a new approach, referred to as Indel and Carryforward Correction (ICC), to correct 454 pyrosequencing
+  errors

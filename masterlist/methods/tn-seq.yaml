@@ -1,0 +1,29 @@
+name: Tn-seq
+full_name: Transposon sequencing
+category: wet
+summary: Saturated Mariner transposon insertion library is selected and insertion-flanking regions are sequenced en masse
+  to measure each mutant's fitness and genetic interactions genome-wide.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+species:
+- microbe
+chemistry: []
+chemistry_unknown: library-prep steps for sequencing insertion flanks not stated in abstract
+reference:
+  doi: 10.1038/nmeth.1377
+  year: 2009
+  journal: Nat Methods
+  first_author: van Opijnen T
+  last_author: Camilli A
+  pmid: '19767758'
+  pmcid: PMC2957483
+  title: 'Tn-seq: high-throughput parallel sequencing for fitness and genetic interaction studies in microorganisms'
+links: {}
+added: '2026-11-14'
+evidence: Here we present a method (Tn-seq) for accurately determining quantitative genetic interactions on a genome-wide
+  scale in microorganisms.

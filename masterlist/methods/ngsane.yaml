@@ -1,0 +1,23 @@
+name: NGSANE
+full_name: Next Generation Sequencing ANalysis for Enterprises
+category: dry
+summary: Lightweight bash-based high-performance-computing framework for setting up and running NGS analysis pipelines.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu036
+  year: 2014
+  journal: Bioinformatics
+  first_author: Buske FA
+  last_author: Bauer DC
+  pmid: '24470576'
+  pmcid: PMC4016703
+  title: 'NGSANE: a lightweight production informatics framework for high-throughput data analysis'
+links: {}
+added: '2026-11-14'
+evidence: Here we present Next Generation Sequencing ANalysis for Enterprises (NGSANE), a Linux-based, high-performance-computing-enabled
+  framework that minimizes overhead for set up and processing of new projects, yet maintains full flexibility of custom scripting
+  when processing raw sequence data.

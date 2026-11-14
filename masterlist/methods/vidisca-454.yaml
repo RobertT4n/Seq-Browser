@@ -1,0 +1,30 @@
+name: VIDISCA-454
+full_name: Virus discovery cDNA-AFLP with 454 high-throughput sequencing
+aliases:
+- VIDISCA
+category: wet
+summary: Restriction-site cDNA-AFLP virus discovery with rRNA-avoiding reverse transcription, read out by 454 sequencing directly
+  from clinical swabs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- restriction-digest
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1371/journal.pone.0016118
+  year: 2011
+  journal: PLoS One
+  first_author: de Vries M
+  last_author: van der Hoek L
+  pmid: '21283679'
+  pmcid: PMC3025933
+  title: A sensitive assay for virus discovery in respiratory clinical samples
+links: {}
+added: '2026-11-14'
+evidence: Further improvement of the VIDISCA sensitivity was obtained by high throughput sequencing (VIDISCA-454).

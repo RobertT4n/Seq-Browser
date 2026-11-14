@@ -1,0 +1,22 @@
+name: cDPCoA
+full_name: constrained Double Principal Coordinates Analysis
+category: dry
+summary: Extends DPCoA to include external variables so phylogeny-aware ordination of microbial 16S communities can enforce
+  a priori groupings or remove confounders.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.12300
+  year: 2015
+  journal: Mol Ecol Resour
+  first_author: Dray S
+  last_author: Aguirre de Cárcer D
+  pmid: '24974884'
+  title: 'Considering external information to improve the phylogenetic comparison of microbial communities: a new approach
+    based on constrained Double Principal Coordinates Analysis (cDPCoA)'
+links: {}
+added: '2026-11-14'
+evidence: In this work, we extend DPCoA to integrate the information of external variables measured on communities.

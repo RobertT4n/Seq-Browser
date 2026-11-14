@@ -1,0 +1,27 @@
+name: BIPES
+full_name: Barcoded Illumina paired-end sequencing
+category: wet
+summary: Barcoded 16S V6 amplicons are sequenced from both ends on Illumina and the paired reads overlapped to raise tag accuracy
+  for microbial diversity surveys.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1038/ismej.2010.160
+  year: 2011
+  journal: ISME J
+  first_author: Zhou HW
+  last_author: Zou F
+  pmid: '20962877'
+  pmcid: PMC3105743
+  title: BIPES, a cost-effective high-throughput method for assessing microbial diversity
+links: {}
+added: '2026-11-14'
+evidence: We developed a barcoded Illumina paired-end (PE) sequencing (BIPES) method that sequences each 16S V6 tag from both
+  ends on the Illumina HiSeq 2000, and the PE reads are then overlapped to obtain the V6 tag.

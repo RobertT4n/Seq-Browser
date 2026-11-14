@@ -1,0 +1,30 @@
+name: VITA
+full_name: Vector integration tag analysis
+category: wet
+summary: MmeI-cleaved 21 bp genomic tags from vector-host junction fragments are concatenated and sequenced to map lentiviral
+  integration sites at high throughput.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkl716
+  year: 2006
+  journal: Nucleic Acids Res
+  first_author: Mantovani J
+  last_author: Perea J
+  pmid: '17028098'
+  pmcid: PMC1636494
+  title: A high throughput method for genome-wide analysis of retroviral integration
+links: {}
+added: '2026-11-14'
+evidence: To efficiently analyze high numbers of lentiviral insertion sites in the DNA of transduced cells, we developed an
+  improved high-throughput method called vector integration tag analysis (VITA).

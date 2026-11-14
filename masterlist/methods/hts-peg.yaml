@@ -1,0 +1,25 @@
+name: HTS-PEG
+full_name: High Throughput Sequencing of the Paired-Ends of Genomic libraries
+category: wet
+summary: Parallel pyrosequencing of the paired ends of BAC or fosmid genomic libraries to build ultra-scaffolds, replacing
+  Sanger end sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not describe the library-prep steps
+reference:
+  doi: 10.1371/journal.pone.0052257
+  year: 2012
+  journal: PLoS One
+  first_author: Zhou S
+  last_author: Xu A
+  pmid: '23284958'
+  pmcid: PMC3527410
+  title: 'HTS-PEG: a method for high throughput sequencing of the paired-ends of genomic libraries'
+links: {}
+added: '2026-11-14'
+evidence: Here we report a new strategy to sequence the paired-ends of genomic libraries with parallel pyrosequencing, using
+  a Chinese amphioxus (Branchiostoma belcheri) BAC library as an example.

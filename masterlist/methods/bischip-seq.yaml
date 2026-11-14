@@ -1,0 +1,35 @@
+name: BisChIP-seq
+full_name: bisulfite sequencing of chromatin immunoprecipitated DNA
+category: wet
+summary: Bisulfite sequencing of histone-mark ChIP DNA to read DNA methylation directly on H3K27me3-marked DNA, including
+  allele-specific status.
+readouts:
+- histone-modification
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+targets:
+- H3K27me3
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/gr.132076.111
+  year: 2012
+  journal: Genome Res
+  first_author: Statham AL
+  last_author: Clark SJ
+  pmid: '22466171'
+  pmcid: PMC3371705
+  title: Bisulfite sequencing of chromatin immunoprecipitated DNA (BisChIP-seq) directly informs methylation status of histone-modified
+    DNA
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a novel technique based on high-throughput sequencing of bisulfite-treated chromatin immunoprecipitated
+  DNA (BisChIP-seq), which can directly interrogate genetic and epigenetic processes that occur in normal and diseased cells.

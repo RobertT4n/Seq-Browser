@@ -1,0 +1,21 @@
+name: RNAseg
+category: dry
+summary: Algorithm that predicts prokaryotic transcriptional units from dRNA-seq data by separating transcribed from untranscribed
+  segments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-122
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Bischler T
+  last_author: Voß B
+  pmid: '24780064'
+  pmcid: PMC4016656
+  title: Transcript mapping based on dRNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: We present RNAseg, an algorithm for the prediction of transcriptional units based on dRNA-seq data.

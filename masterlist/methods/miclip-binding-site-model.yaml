@@ -1,0 +1,21 @@
+name: MiClip binding-site model
+category: dry
+summary: Model-based caller that assigns probability scores to protein-RNA binding sites from HITS-CLIP and PAR-CLIP data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0093248
+  year: 2014
+  journal: PLoS One
+  first_author: Wang T
+  last_author: Xiao G
+  pmid: '24714572'
+  pmcid: PMC3979666
+  title: A model-based approach to identify binding sites in CLIP-Seq data
+links: {}
+added: '2026-11-14'
+evidence: Here we present a novel model-based approach (MiClip) to identify high-confidence protein-RNA binding sites from
+  CLIP-seq datasets.

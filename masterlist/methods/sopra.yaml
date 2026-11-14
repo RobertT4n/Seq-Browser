@@ -1,0 +1,22 @@
+name: SOPRA
+full_name: Scaffolding algorithm for paired reads via statistical optimization
+category: dry
+summary: Scaffolding tool that selects a consistent set of mate-pair constraints between contigs by optimisation to assemble
+  short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-11-345
+  year: 2010
+  journal: BMC Bioinformatics
+  first_author: Dayarian A
+  last_author: Sengupta AM
+  pmid: '20576136'
+  pmcid: PMC2909219
+  title: 'SOPRA: Scaffolding algorithm for paired reads via statistical optimization'
+links: {}
+added: '2026-11-14'
+evidence: We have developed SOPRA, a tool designed to exploit the mate pair/paired-end information for assembly of short reads.

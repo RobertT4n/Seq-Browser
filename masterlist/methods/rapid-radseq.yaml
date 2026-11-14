@@ -1,0 +1,24 @@
+name: RApiD-RADseq
+full_name: RAD-seq paired-end de novo assembly package RApiD
+category: dry
+summary: Method assembling paired-end RAD-seq reads into contigs flanking restriction sites for marker design without a reference
+  genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- other-vertebrate
+reference:
+  doi: 10.1093/bioinformatics/btr346
+  year: 2011
+  journal: Bioinformatics
+  first_author: Willing EM
+  last_author: Dreyer C
+  pmid: '21712251'
+  title: Paired-end RAD-seq for de novo assembly and marker design without available reference
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a method for de novo assembly of paired-end RAD-seq data in order to produce extended contigs flanking
+  a restriction site.

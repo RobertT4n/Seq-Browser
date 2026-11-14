@@ -1,0 +1,26 @@
+name: PFOR
+full_name: progressive filtering of overlapping small RNAs
+category: dry
+summary: Algorithm that assembles viroid and viroid-like circular RNA genomes from deep-sequenced small RNAs without needing
+  homology to known pathogens.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1073/pnas.1117815109
+  year: 2012
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wu Q
+  last_author: Ding SW
+  pmid: '22345560'
+  pmcid: PMC3309787
+  title: Homology-independent discovery of replicating pathogenic circular RNAs by deep sequencing and a new computational
+    algorithm
+links: {}
+added: '2026-11-14'
+evidence: Our approach involves analyzing the sequences of the total small RNAs of the infected plants obtained by deep sequencing
+  with a unique computational algorithm, progressive filtering of overlapping small RNAs (PFOR).

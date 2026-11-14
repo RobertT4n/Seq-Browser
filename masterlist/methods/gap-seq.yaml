@@ -1,0 +1,24 @@
+name: GAP-Seq
+full_name: Genome-wide analysis of palindrome formation by sequencing
+category: wet
+summary: S1-nuclease-treated Cot0 snap-back DNA (GAPF) coupled to sequencing to identify DNA palindromes and their junctions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: snap-back renaturation plus S1 nuclease digestion has no matching chemistry tag
+reference:
+  doi: 10.1186/1471-2164-15-394
+  year: 2014
+  journal: BMC Genomics
+  first_author: Yang H
+  last_author: Strathern J
+  pmid: '24885769'
+  pmcid: PMC4057610
+  title: 'GAP-Seq: a method for identification of DNA palindromes'
+links: {}
+added: '2026-11-14'
+evidence: We developed a new protocol to identify palindromes that couples the S1 nuclease treated Cot0 DNA (GAPF) with high-throughput
+  sequencing (GAP-Seq).

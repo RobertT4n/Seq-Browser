@@ -1,0 +1,21 @@
+name: BiasAway
+category: dry
+summary: Generates composition-matched background sequences for TF binding site over-representation analysis of ChIP-Seq peaks,
+  alongside topological motif enrichment.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-472
+  year: 2014
+  journal: BMC Genomics
+  first_author: Worsley Hunt R
+  last_author: Wasserman WW
+  pmid: '24927817'
+  pmcid: PMC4082612
+  title: Improving analysis of transcription factor binding sites within ChIP-Seq data based on topological motif enrichment
+links: {}
+added: '2026-11-14'
+evidence: We introduce the BiasAway background generating software to resolve the problem.

@@ -1,0 +1,26 @@
+name: RainDrop BS-seq
+category: wet
+summary: Targeted bisulfite sequencing using microdroplet-based multiplex PCR amplification of hundreds of loci.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- droplet-microfluidics
+- amplicon-pcr
+reference:
+  doi: 10.1101/gr.116863.110
+  year: 2011
+  journal: Genome Res
+  first_author: Komori HK
+  last_author: Salomon DR
+  pmid: '21757609'
+  pmcid: PMC3202290
+  title: Application of microdroplet PCR for large-scale targeted bisulfite sequencing
+links: {}
+added: '2026-11-14'
+evidence: We present a systematic assessment of RainDrop BS-seq, a novel method for large-scale, targeted bisulfite sequencing
+  using microdroplet-based PCR amplification coupled with next-generation sequencing.

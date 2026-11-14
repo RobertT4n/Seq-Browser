@@ -1,0 +1,28 @@
+name: QSS
+full_name: Quantitative Single-letter Sequencing
+category: wet
+summary: A PCR amplicon is sequenced with one dideoxy nucleotide so diagnostic electropherogram peaks quantify the frequencies
+  of many known allelic variants in one tube.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1186/1471-2164-9-85
+  year: 2008
+  journal: BMC Genomics
+  first_author: Monsion B
+  last_author: Blanc S
+  pmid: '18291029'
+  pmcid: PMC2276495
+  title: 'Quantitative Single-letter Sequencing: a method for simultaneously monitoring numerous known allelic variants in
+    single DNA samples'
+links: {}
+added: '2026-11-14'
+evidence: Quantitative Single-letter Sequencing (QSS) begins with a single PCR amplification step using a pair of primers
+  flanking the polymorphic region of interest.

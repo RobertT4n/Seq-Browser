@@ -1,0 +1,22 @@
+name: CSAR
+full_name: ChIP-seq Analysis in R
+category: dry
+summary: R package that computes single-nucleotide enrichment and permutation-based FDR thresholds to call protein-bound regions
+  in ChIP-seq data while resisting PCR artefacts.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1746-4811-7-11
+  year: 2011
+  journal: Plant Methods
+  first_author: Muiño JM
+  last_author: Krajewski P
+  pmid: '21554688'
+  pmcid: PMC3114017
+  title: 'ChIP-seq Analysis in R (CSAR): An R package for the statistical detection of protein-bound genomic regions'
+links: {}
+added: '2026-11-14'
+evidence: We present here an R package for the statistical analysis of ChIP-seq experiments.

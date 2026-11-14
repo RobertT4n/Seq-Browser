@@ -1,0 +1,27 @@
+name: PFOR2
+full_name: progressive filtering of overlapping small RNAs, version 2
+category: dry
+summary: Faster C++ successor of PFOR that also finds replicating circular RNAs (viroids) from deep sequencing of long RNAs,
+  not just small RNAs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- pfor
+species:
+- plant
+reference:
+  doi: 10.1371/journal.ppat.1004553
+  year: 2014
+  journal: PLoS Pathog
+  first_author: Zhang Z
+  last_author: Wu Q
+  pmid: '25503469'
+  pmcid: PMC4263765
+  title: Discovery of replicating circular RNAs by RNA-seq and computational algorithms
+links: {}
+added: '2026-11-14'
+evidence: Here we report the development of PFOR2 that adopted parallel programming in the C++ language and was 3 to 8 times
+  faster than PFOR.

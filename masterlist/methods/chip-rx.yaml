@@ -1,0 +1,28 @@
+name: ChIP-Rx
+full_name: ChIP with reference exogenous genome
+category: wet
+summary: ChIP-seq spiked with a defined quantity of reference exogenous epigenome so histone-mark occupancy can be compared
+  quantitatively across samples.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/j.celrep.2014.10.018
+  year: 2014
+  journal: Cell Rep
+  first_author: Orlando DA
+  last_author: Guenther MG
+  pmid: '25437568'
+  title: Quantitative ChIP-Seq normalization reveals global modulation of the epigenome
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a method called ChIP with reference exogenous genome (ChIP-Rx) that allows one to perform genome-wide
+  quantitative comparisons of histone modification status across cell populations using defined quantities of a reference
+  epigenome.

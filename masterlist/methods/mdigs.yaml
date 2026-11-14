@@ -1,0 +1,26 @@
+name: MDiGS
+full_name: Multiplexed direct genomic selection
+category: wet
+summary: Multiplexed targeted sequencing and CNV detection using pooled biotinylated BAC capture of large genomic regions
+  across 96 samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: pooled biotinylated-BAC hybridization capture has no matching chemistry tag
+reference:
+  doi: 10.1093/nar/gku218
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Alvarado DM
+  last_author: Gurnett CA
+  pmid: '24682816'
+  pmcid: PMC4041413
+  title: 'Multiplexed direct genomic selection (MDiGS): a pooled BAC capture approach for highly accurate CNV and SNP/INDEL
+    detection'
+links: {}
+added: '2026-11-14'
+evidence: MDiGS combines biotinylated bacterial artificial chromosome (BAC) capture and multiplexed pooled capture for SNP/INDEL
+  and CNV detection of 96 multiplexed samples on a single MiSeq run.

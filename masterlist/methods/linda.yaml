@@ -1,0 +1,26 @@
+name: LinDA
+full_name: linear DNA amplification
+category: wet
+summary: Single-tube high-fidelity linear amplification of picogram ChIP DNA so ChIP-seq and reChIP-seq work from a few thousand
+  cells.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/nmeth.1626
+  year: 2011
+  journal: Nat Methods
+  first_author: Shankaranarayanan P
+  last_author: Gronemeyer H
+  pmid: '21642965'
+  title: Single-tube linear DNA amplification (LinDA) for robust ChIP-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a high-fidelity, single-tube linear DNA amplification method (LinDA) for ChIP-seq and reChIP-seq
+  with picogram DNA amounts obtained from a few thousand cells.

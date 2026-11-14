@@ -1,0 +1,28 @@
+name: Two-enzyme GBS
+category: wet
+summary: Genotyping-by-sequencing variant using two restriction enzymes for complexity reduction, applied to build SNP/tag
+  maps in barley and wheat without a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+species:
+- plant
+variant_of:
+- gbs
+reference:
+  doi: 10.1371/journal.pone.0032253
+  year: 2012
+  journal: PLoS One
+  first_author: Poland JA
+  last_author: Jannink JL
+  pmid: '22389690'
+  pmcid: PMC3289635
+  title: Development of high-density genetic maps for barley and wheat using a novel two-enzyme genotyping-by-sequencing approach
+links: {}
+added: '2026-11-14'
+evidence: We developed a novel two-enzyme GBS protocol and genotyped bi-parental barley and wheat populations to develop a
+  genetically anchored reference map of identified SNPs and tags.

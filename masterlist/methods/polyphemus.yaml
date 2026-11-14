@@ -1,0 +1,22 @@
+name: POLYPHEMUS
+category: dry
+summary: R package that annotates TSS, summarizes Pol II ChIP-seq enrichment over TSS and gene bodies, and normalizes profiles
+  non-linearly across samples.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkr1205
+  year: 2012
+  journal: Nucleic Acids Res
+  first_author: Mendoza-Parra MA
+  last_author: Gronemeyer H
+  pmid: '22156059'
+  pmcid: PMC3287170
+  title: 'POLYPHEMUS: R package for comparative analysis of RNA polymerase II ChIP-seq profiles by non-linear normalization'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe the R-package POLYPHEMUS, which integrates TSS annotation with PolII enrichment over TSSs and
+  coding regions, and normalizes signal intensity profiles.

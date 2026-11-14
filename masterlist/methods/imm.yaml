@@ -1,0 +1,23 @@
+name: IMM
+full_name: iterating median of M-values
+category: dry
+summary: RNA-seq library-size normalization that iterates the median of M-values to improve differential-expression detection
+  over TMM.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1756-0381-7-15
+  year: 2014
+  journal: BioData Min
+  first_author: Zhou Y
+  last_author: Zhang B
+  pmid: '25285156'
+  pmcid: PMC4181730
+  title: An iteration normalization and test method for differential expression analysis of RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: In this paper, we develop a normalization method based on iterating median of M-values (IMM) for detecting the differentially
+  expressed (DE) genes.

@@ -1,0 +1,21 @@
+name: DRAW+SneakPeek
+category: dry
+summary: DRAW automates DNA resequencing workflow (QC, alignment, variant calling) on cloud compute and SneakPeek provides
+  an interface to review its quality metrics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt422
+  year: 2013
+  journal: Bioinformatics
+  first_author: Lin CF
+  last_author: Wang LS
+  pmid: '23943636'
+  pmcid: PMC3777113
+  title: 'DRAW+SneakPeek: analysis workflow and quality metric management for DNA-seq experiments'
+links: {}
+added: '2026-11-14'
+evidence: We report our new DRAW+SneakPeek software for DNA-seq analysis.

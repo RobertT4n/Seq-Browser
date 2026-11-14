@@ -1,0 +1,21 @@
+name: JointSLM
+category: dry
+summary: Depth-of-coverage algorithm that detects common copy number variants across multiple sequenced samples simultaneously.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkr068
+  year: 2011
+  journal: Nucleic Acids Res
+  first_author: Magi A
+  last_author: Torricelli F
+  pmid: '21321017'
+  pmcid: PMC3105418
+  title: Detecting common copy number variants in high-throughput sequencing data by using JointSLM algorithm
+links: {}
+added: '2026-11-14'
+evidence: We developed a novel algorithm (JointSLM) that allows to detect common CNVs among individuals by analysing DOC data
+  from multiple samples simultaneously.

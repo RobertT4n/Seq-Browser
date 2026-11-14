@@ -1,0 +1,27 @@
+name: CLIP-PE
+full_name: Cre-LoxP Inverse PCR Paired-End
+category: wet
+summary: Mate-pair library construction that circularizes large DNA fragments by Cre-LoxP recombination and enriches both
+  ends by inverse PCR, giving inserts up to 22 kb.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1371/journal.pone.0029437
+  year: 2012
+  journal: PLoS One
+  first_author: Peng Z
+  last_author: Chen F
+  pmid: '22253722'
+  pmcid: PMC3253782
+  title: Generation of long insert pairs using a Cre-LoxP Inverse PCR approach
+links: {}
+added: '2026-11-14'
+evidence: We developed a new approach, Cre-LoxP Inverse PCR Paired-End (CLIP-PE), which exploits the advantages of (1) Cre-LoxP
+  recombination system to efficiently circularize large DNA fragments, (2) inverse PCR to enrich for the desired products
+  that contain both ends of the large DNA fragments, and (3) the use of restriction enzymes to introduce a recognizable junction
+  site.

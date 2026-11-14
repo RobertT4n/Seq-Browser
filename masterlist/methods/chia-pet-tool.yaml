@@ -1,0 +1,26 @@
+name: ChIA-PET Tool
+category: dry
+summary: Software package that processes ChIA-PET paired-end tag data from linker filtering and mapping to peak and interaction
+  calling and genome-browser display.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- chia-pet
+reference:
+  doi: 10.1186/gb-2010-11-2-r22
+  year: 2010
+  journal: Genome Biol
+  first_author: Li G
+  last_author: Sung WK
+  pmid: '20181287'
+  pmcid: PMC2872882
+  title: ChIA-PET tool for comprehensive chromatin interaction analysis with paired-end tag sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here we present ChIA-PET Tool, a software package for automatic processing of ChIA-PET sequence data, including
+  linker filtering, mapping tags to reference genomes, identifying protein binding sites and chromatin interactions, and displaying
+  the results on a graphical genome browser.

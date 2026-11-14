@@ -1,0 +1,25 @@
+name: GCLS
+full_name: global clustering lincRNA identification method
+category: dry
+summary: Global clustering of diffuse Pol II and H3K4me3 ChIP-seq signals to call putative lincRNAs, compared with the local
+  clustering method SICER.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0024051
+  year: 2011
+  journal: PLoS One
+  first_author: Garmire LX
+  last_author: Subramaniam S
+  pmid: '21980340'
+  pmcid: PMC3184070
+  title: A global clustering algorithm to identify long intergenic non-coding RNA--with applications in mouse macrophages
+links: {}
+added: '2026-11-14'
+evidence: We present a novel global clustering approach to enrich diffuse CHIP-Seq signals of RNA polymerase II and histone
+  3 lysine 4 trimethylation (H3K4Me3) and apply it to identify putative long intergenic non-coding RNAs (lincRNAs) in macrophage
+  cells.

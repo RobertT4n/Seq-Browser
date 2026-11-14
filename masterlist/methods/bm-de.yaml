@@ -1,0 +1,23 @@
+name: BM-DE
+full_name: Bayesian method of calling differential expression
+category: dry
+summary: Bayesian differential-expression caller that models position-level RNA-seq read counts and works without biological
+  replicates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.4137/cin.s7473
+  year: 2011
+  journal: Cancer Inform
+  first_author: Lee J
+  last_author: Müller P
+  pmid: '21863128'
+  pmcid: PMC3153162
+  title: On differential gene expression using RNA-Seq data
+links: {}
+added: '2026-11-14'
+evidence: We present a Bayesian method of calling differential expression (BM-DE) that directly models the position-level
+  read counts.

@@ -1,0 +1,22 @@
+name: Wellington
+category: dry
+summary: DNase-seq footprinting algorithm that uses strand-specific read imbalance around protein-DNA interactions to identify
+  occupied transcription factor binding sites, implemented in pyDNase.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt850
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Piper J
+  last_author: Ott S
+  pmid: '24071585'
+  pmcid: PMC3834841
+  title: 'Wellington: a novel method for the accurate identification of digital genomic footprints from DNase-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Our study introduces a novel algorithm, Wellington, which considers the imbalance in this strand-specific information
+  to efficiently identify DNA footprints.

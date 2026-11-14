@@ -1,0 +1,29 @@
+name: SPI-seq
+full_name: Single-strand DNA-associated Protein Immunoprecipitation followed by sequencing
+category: wet
+summary: Strand-specific ChIP-seq compatible with single-stranded DNA that maps Rad52-bound ssDNA to locate genomic hotspots
+  of DNA damage.
+readouts:
+- dna-damage
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+targets:
+- Rad52
+variant_of: []
+reference:
+  doi: 10.1101/gr.146357.112
+  year: 2013
+  journal: Genome Res
+  first_author: Zhou ZX
+  last_author: Du LL
+  pmid: '23249883'
+  pmcid: PMC3613587
+  title: Mapping genomic hotspots of DNA damage by a single-strand-DNA-compatible and strand-specific ChIP-seq method
+links: {}
+added: '2026-11-14'
+evidence: We developed single-strand DNA (ssDNA)-associated protein immunoprecipitation followed by sequencing (SPI-seq) to
+  map genomic hotspots of DNA damage.

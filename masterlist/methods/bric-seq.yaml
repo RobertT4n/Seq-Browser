@@ -1,0 +1,30 @@
+name: BRIC-seq
+full_name: 5'-bromo-uridine immunoprecipitation chase-deep sequencing analysis
+category: wet
+summary: Genome-wide RNA half-life measurement by chasing the decrease of BrU-labelled RNAs, immunoprecipitated and deep sequenced
+  over time.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+- reverse-transcription
+temporal:
+- metabolic-labeling
+reference:
+  doi: 10.1101/gr.130559.111
+  year: 2012
+  journal: Genome Res
+  first_author: Tani H
+  last_author: Akimitsu N
+  pmid: '22369889'
+  pmcid: PMC3337439
+  title: Genome-wide determination of RNA stability reveals hundreds of short-lived noncoding transcripts in mammals
+links: {}
+added: '2026-11-14'
+evidence: BRIC-seq enables the determination of genome-wide RNA stability by chasing chronological decreases of BrU-labeled
+  RNAs under physiologically undisturbed conditions.

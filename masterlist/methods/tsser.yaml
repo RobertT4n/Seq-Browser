@@ -1,0 +1,21 @@
+name: TSSer
+category: dry
+summary: Probabilistic method that automatically infers transcription start sites in bacterial genomes from dRNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt752
+  year: 2014
+  journal: Bioinformatics
+  first_author: Jorjani H
+  last_author: Zavolan M
+  pmid: '24371151'
+  title: 'TSSer: an automated method to identify transcription start sites in prokaryotic genomes from differential RNA sequencing
+    data'
+links: {}
+added: '2026-11-14'
+evidence: In this work, we present a computational method called 'TSSer' that enables the automatic inference of TSSs from
+  dRNA-seq data.

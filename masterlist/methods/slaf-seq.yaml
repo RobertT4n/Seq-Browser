@@ -1,0 +1,27 @@
+name: SLAF-seq
+full_name: Specific-locus amplified fragment sequencing
+category: wet
+summary: Reduced-representation genotyping method with pre-designed restriction digestion schemes and a double barcode system
+  for large-scale SNP discovery by deep sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+- other-vertebrate
+reference:
+  doi: 10.1371/journal.pone.0058700
+  year: 2013
+  journal: PLoS One
+  first_author: Sun X
+  last_author: Zheng H
+  pmid: '23527008'
+  pmcid: PMC3602454
+  title: 'SLAF-seq: an efficient method of large-scale de novo SNP discovery and genotyping using high-throughput sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We call it specific-locus amplified fragment sequencing (SLAF-seq).

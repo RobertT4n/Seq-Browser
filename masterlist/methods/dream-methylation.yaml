@@ -1,0 +1,32 @@
+name: DREAM methylation
+full_name: Digital Restriction Enzyme Analysis of Methylation
+aliases:
+- DREAM
+category: wet
+summary: Next-generation sequencing of methylation-specific signatures made by sequential SmaI and XmaI digestion of genomic
+  DNA, reporting about 150,000 CpG sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- human
+reference:
+  doi: 10.4161/epi.22552
+  year: 2012
+  journal: Epigenetics
+  first_author: Jelinek J
+  last_author: Issa JP
+  pmid: '23075513'
+  pmcid: PMC3528692
+  title: Conserved DNA methylation patterns in healthy blood cells and extensive changes in leukemia measured by a new quantitative
+    technique
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a simple method, Digital Restriction Enzyme Analysis of Methylation (DREAM), based on next generation
+  sequencing analysis of methylation-specific signatures created by sequential digestion of genomic DNA with SmaI and XmaI
+  enzymes.

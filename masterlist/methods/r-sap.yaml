@@ -1,0 +1,21 @@
+name: R-SAP
+category: dry
+summary: Automated multi-threaded RNA-seq pipeline that classifies transcript classes and quantifies expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gks047
+  year: 2012
+  journal: Nucleic Acids Res
+  first_author: Mittal VK
+  last_author: McDonald JF
+  pmid: '22287631'
+  pmcid: PMC3351179
+  title: 'R-SAP: a multi-threading computational pipeline for the characterization of high-throughput RNA-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We present here a user-friendly and fully automated RNA-Seq analysis pipeline (R-SAP) with built-in multi-threading
+  capability to analyze and quantitate high-throughput RNA-Seq datasets.

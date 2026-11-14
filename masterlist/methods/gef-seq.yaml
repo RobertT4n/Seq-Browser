@@ -1,0 +1,31 @@
+name: GeF-seq
+full_name: Genome Footprinting by high-throughput sequencing
+category: wet
+summary: In vivo DNase I digestion of genomic DNA combined with ChIP-seq to resolve protein binding sites at footprint resolution.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- dnase-digestion
+- antibody-pull-down
+species:
+- microbe
+builds_on:
+- chip-seq
+- dnase-seq
+reference:
+  doi: 10.1093/dnares/dst013
+  year: 2013
+  journal: DNA Res
+  first_author: Chumsakul O
+  last_author: Ishikawa S
+  pmid: '23580539'
+  pmcid: PMC3738160
+  title: High-resolution mapping of in vivo genomic transcription factor binding sites using in situ DNase I footprinting
+    and ChIP-seq
+links: {}
+added: '2026-11-14'
+evidence: 'Here, we describe a new method: Genome Footprinting by high-throughput sequencing (GeF-seq), which combines in
+  vivo DNase I digestion of genomic DNA with ChIP coupled with high-throughput sequencing.'

@@ -1,0 +1,22 @@
+name: seq2HLA
+category: dry
+summary: Maps standard RNA-Seq reads to an HLA allele database to infer HLA class I and II type and locus-specific expression.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gm403
+  year: 2012
+  journal: Genome Med
+  first_author: Boegel S
+  last_author: Sahin U
+  pmid: '23259685'
+  pmcid: PMC4064318
+  title: HLA typing from RNA-Seq sequence reads
+links: {}
+added: '2026-11-14'
+evidence: We present a method, seq2HLA, for obtaining an individual's human leukocyte antigen (HLA) class I and II type and
+  expression using standard next generation sequencing RNA-Seq data.

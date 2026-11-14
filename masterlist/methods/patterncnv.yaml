@@ -1,0 +1,21 @@
+name: PatternCNV
+category: dry
+summary: Copy-number-variation caller for exome sequencing data with built-in QC and no need for a paired reference per sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu363
+  year: 2014
+  journal: Bioinformatics
+  first_author: Wang C
+  last_author: Asmann YW
+  pmid: '24876377'
+  pmcid: PMC4155258
+  title: 'PatternCNV: a versatile tool for detecting copy number changes from exome sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Despite the existence of several CNV detection tools, there is still a great need for a sensitive and an accurate
+  CNV-calling algorithm with built-in QC steps, and does not require a paired reference for each sample.

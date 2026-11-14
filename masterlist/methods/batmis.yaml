@@ -1,0 +1,21 @@
+name: BatMis
+full_name: Basic Alignment tool for Mismatches
+category: dry
+summary: Burrows-Wheeler seed-and-extend aligner that exactly maps short reads to a reference allowing k mismatches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts339
+  year: 2012
+  journal: Bioinformatics
+  first_author: Tennakoon C
+  last_author: Sung WK
+  pmid: '22689389'
+  title: 'BatMis: a fast algorithm for k-mismatch mapping'
+links: {}
+added: '2026-11-14'
+evidence: we introduce Basic Alignment tool for Mismatches (BatMis)--an efficient method to align short reads to a reference
+  allowing k mismatches.

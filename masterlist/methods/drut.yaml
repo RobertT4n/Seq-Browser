@@ -1,0 +1,22 @@
+name: DRUT
+full_name: Discovery and Reconstruction of Unannotated Transcripts
+category: dry
+summary: Annotation-guided framework that improves transcript discovery, assembly and abundance estimation from RNA-seq in
+  partially annotated genomes, enhancing assemblers such as Cufflinks.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3233/isb-2012-0459
+  year: 2011
+  journal: In Silico Biol
+  first_author: Mangul S
+  last_author: Zelikovsky A
+  pmid: '23202426'
+  title: Improved transcriptome quantification and reconstruction from RNA-Seq reads using partial annotations
+links: {}
+added: '2026-11-14'
+evidence: Our method, referred as Discovery and Reconstruction of Unannotated Transcripts (DRUT), can be used to enhance existing
+  transcriptome assemblers, such as Cufflinks, as well as to accurately estimate the transcript frequencies.

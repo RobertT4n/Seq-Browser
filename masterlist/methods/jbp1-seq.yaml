@@ -1,0 +1,30 @@
+name: JBP1-seq
+full_name: J-binding protein 1 sequencing
+category: wet
+summary: Pull-down of beta-glucosylated 5hmC DNA with an in vivo biotinylated recombinant JBP1 on magnetic beads and Nextera
+  library prep for genome-wide 5hmC profiling.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry:
+- tn5
+reference:
+  doi: 10.1016/j.ygeno.2014.08.023
+  year: 2014
+  journal: Genomics
+  first_author: Cui L
+  last_author: Jia XY
+  pmid: '25218799'
+  title: 'JBP1-seq: a fast and efficient method for genome-wide profiling of 5hmC'
+links: {}
+added: '2026-11-14'
+evidence: We developed a novel approach, J-binding protein 1 sequencing (JBP1-seq), that combines the benefits of an improved
+  recombinant JBP1 protein, Nextera-based library construction, and next-generation sequencing (NGS) for genome-wide profiling
+  of 5-hydroxymethylcytosine (5hmC).

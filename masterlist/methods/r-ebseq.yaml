@@ -1,0 +1,22 @@
+name: R-EBSeq
+category: dry
+summary: Hierarchical empirical Bayes differential expression method for RNA-seq combining Cufflinks FPKM with the EBArrays
+  framework, supporting more than pairwise comparisons.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/bios3030238
+  year: 2013
+  journal: Biosensors (Basel)
+  first_author: Wesolowski S
+  last_author: Rempala GA
+  pmid: '25506422'
+  pmcid: PMC4263583
+  title: A Comparison of Methods for RNA-Seq Differential Expression Analysis and a New Empirical Bayes Approach
+links: {}
+added: '2026-11-14'
+evidence: we propose an hierarchical, empirical Bayes approach (R-EBSeq) that combines the Cufflinks model for generating
+  relative transcript abundance measurements, known as FPKM with the EBArrays framework

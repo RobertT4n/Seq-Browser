@@ -1,0 +1,23 @@
+name: CNCI
+full_name: Coding-noncoding index
+category: dry
+summary: Classifies transcripts as protein-coding or noncoding from sequence composition alone, without annotation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt646
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Sun L
+  last_author: Zhao Y
+  pmid: '23892401'
+  pmcid: PMC3783192
+  title: Utilizing sequence intrinsic composition to classify protein-coding and long non-coding transcripts
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a de novo approach named coding-noncoding index (CNCI), a powerful signature tool by profiling
+  adjoining nucleotide triplets (ANT) to effectively distinguish between protein-coding and noncoding sequences independently
+  of known annotations.

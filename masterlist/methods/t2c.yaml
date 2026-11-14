@@ -1,0 +1,30 @@
+name: T2C
+full_name: Targeted Chromatin Capture
+category: wet
+summary: Selected large genomic regions are probed by chromatin conformation capture at single restriction-fragment resolution
+  with far less sequencing than Hi-C.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+species:
+- mouse
+- human
+chemistry:
+- proximity-ligation
+- restriction-digest
+reference:
+  doi: 10.1186/1756-8935-7-10
+  year: 2014
+  journal: Epigenetics Chromatin
+  first_author: Kolovos P
+  last_author: Knoch TA
+  pmid: '25031611'
+  pmcid: PMC4100494
+  title: 'Targeted Chromatin Capture (T2C): a novel high resolution high throughput method to detect genomic interactions
+    and regulatory elements'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a new technique termed Targeted Chromatin Capture (T2C), to interrogate large selected regions
+  of the genome.

@@ -1,0 +1,28 @@
+name: SplinkBES
+full_name: Splinkerette-based BAC end sequencing
+category: wet
+summary: Restriction digestion and splinkerette adaptor ligation allow PCR of BAC ends, giving long end sequences by bidirectional
+  sequencing and assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.2144/000113122
+  year: 2009
+  journal: Biotechniques
+  first_author: Cavagnaro PF
+  last_author: Simon PW
+  pmid: '19737131'
+  title: 'SplinkBES: a splinkerette-based method for generating long end sequences from large insert DNA libraries'
+links: {}
+added: '2026-11-14'
+evidence: We report on the development of a novel splinkerette-based method for generating long end sequences from large insert
+  library clones, using a carrot (Daucus carota L.) BAC library as a model.

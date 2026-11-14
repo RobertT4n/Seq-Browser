@@ -1,0 +1,20 @@
+name: VARiD
+category: dry
+summary: Hidden Markov model variant caller that jointly uses SOLiD colour-space and letter-space reads to call SNPs and micro-indels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btq184
+  year: 2010
+  journal: Bioinformatics
+  first_author: Dalca AV
+  last_author: Brudno M
+  pmid: '20529926'
+  pmcid: PMC2881369
+  title: 'VARiD: a variation detection framework for color-space and letter-space platforms'
+links: {}
+added: '2026-11-14'
+evidence: We present VARiD--a probabilistic method for variation detection from both letter- and color-space reads simultaneously.

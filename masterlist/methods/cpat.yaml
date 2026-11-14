@@ -1,0 +1,23 @@
+name: CPAT
+full_name: Coding-Potential Assessment Tool
+category: dry
+summary: Alignment-free logistic regression tool that separates coding from noncoding transcripts using ORF size, ORF coverage,
+  Fickett score and hexamer bias.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt006
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Wang L
+  last_author: Li W
+  pmid: '23335781'
+  pmcid: PMC3616698
+  title: 'CPAT: Coding-Potential Assessment Tool using an alignment-free logistic regression model'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel alignment-free method, Coding Potential Assessment Tool (CPAT), which rapidly recognizes
+  coding and noncoding transcripts from a large pool of candidates.

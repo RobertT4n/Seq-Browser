@@ -1,0 +1,23 @@
+name: SpliceFinder
+category: dry
+summary: Splice-site prediction procedure that integrates ANNOVAR, MutationTaster and splice-site predictors to find intronic
+  splice-site point mutations in exome and RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/mgg3.23
+  year: 2013
+  journal: Mol Genet Genomic Med
+  first_author: Spinelli R
+  last_author: Gambacorti-Passerini C
+  pmid: '24498620'
+  pmcid: PMC3865592
+  title: Identification of novel point mutations in splicing sites integrating whole-exome and RNA-seq data in myeloproliferative
+    diseases
+links: {}
+added: '2026-11-14'
+evidence: To identify novel splicing variants from exome sequencing data, we developed a bioinformatics splice-site prediction
+  procedure to analyze next-generation sequencing (NGS) data (SpliceFinder).

@@ -1,0 +1,24 @@
+name: PANDORA-DE
+category: dry
+summary: Combines several RNA-seq differential-expression algorithms by weighting each by its performance on realistic simulated
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+aliases:
+- PANDORA
+reference:
+  doi: 10.1093/nar/gku1273
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Moulos P
+  last_author: Hatzis P
+  pmid: '25452340'
+  pmcid: PMC4344485
+  title: Systematic integration of RNA-Seq statistical algorithms for accurate detection of differential gene expression patterns
+links: {}
+added: '2026-11-14'
+evidence: We present a new method (PANDORA) that combines multiple algorithms toward a summarized result, more efficiently
+  reflecting true experimental outcomes.

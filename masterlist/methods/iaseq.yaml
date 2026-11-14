@@ -1,0 +1,21 @@
+name: iASeq
+category: dry
+summary: Bayesian hierarchical mixture model that jointly analyses multiple ChIP-seq datasets to detect allele-specific protein-DNA
+  binding.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-13-681
+  year: 2012
+  journal: BMC Genomics
+  first_author: Wei Y
+  last_author: Ji H
+  pmid: '23194258'
+  pmcid: PMC3576346
+  title: 'iASeq: integrative analysis of allele-specificity of protein-DNA interactions in multiple ChIP-seq datasets'
+links: {}
+added: '2026-11-14'
+evidence: We develop a new method iASeq to address this issue by jointly analyzing multiple ChIP-seq datasets.

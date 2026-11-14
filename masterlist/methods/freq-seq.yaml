@@ -1,0 +1,26 @@
+name: FREQ-Seq
+category: wet
+summary: Two-round PCR amplicon sequencing with a bar-coded bridging primer system that counts reads to determine allele frequencies
+  in mixed microbial populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0047959
+  year: 2012
+  journal: PLoS One
+  first_author: Chubiz LM
+  last_author: Marx CJ
+  pmid: '23118913'
+  pmcid: PMC3485326
+  title: 'FREQ-Seq: a rapid, cost-effective, sequencing-based method to determine allele frequencies directly from mixed populations'
+links: {}
+added: '2026-11-14'
+evidence: Here we present a rapid, cost-effective method (FREQ-Seq) that leverages Illumina next-generation sequencing for
+  localized, quantitative allele frequency detection.

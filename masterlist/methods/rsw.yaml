@@ -1,0 +1,23 @@
+name: RSW
+full_name: Read-Split-Walk
+category: dry
+summary: Pipeline that splits RNA-seq reads and walks along them to find short non-canonical splice regions such as the 26
+  nt Ire1a-dependent Xbp1 intron.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0100864
+  year: 2014
+  journal: PLoS One
+  first_author: Bai Y
+  last_author: Sartor MA
+  pmid: '24991935'
+  pmcid: PMC4084626
+  title: Novel bioinformatics method for identification of genome-wide non-canonical spliced regions using RNA-Seq data
+links: {}
+added: '2026-11-14'
+evidence: We developed a bioinformatics approach called the Read-Split-Walk (RSW) pipeline, and evaluated it using two Ire1α
+  heterozygous and two Ire1α-null samples.

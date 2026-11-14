@@ -1,0 +1,32 @@
+name: DrugTargetSeqR
+category: wet
+summary: Identifies physiological drug targets by sequencing drug-resistant human cell clones, computationally finding mutations
+  and confirming them with CRISPR-Cas9 editing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- chemical-perturbation
+- crispr-knockout
+species:
+- human
+validated_system:
+- cell-line
+chemistry: []
+chemistry_unknown: library-prep chemistry not stated in abstract
+reference:
+  doi: 10.1038/nchembio.1551
+  year: 2014
+  journal: Nat Chem Biol
+  first_author: Kasap C
+  last_author: Kapoor TM
+  pmid: '24929528'
+  pmcid: PMC4123312
+  title: 'DrugTargetSeqR: a genomics- and CRISPR-Cas9-based method to analyze drug targets'
+links: {}
+added: '2026-11-14'
+evidence: To identify physiological targets of drugs and bioactive small molecules, we developed an approach, named DrugTargetSeqR,
+  which combines high-throughput sequencing, computational mutation discovery and clustered regularly interspaced short palindromic
+  repeats (CRISPR)-Cas9-based genome editing.

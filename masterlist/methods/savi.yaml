@@ -1,0 +1,23 @@
+name: SAVI
+full_name: Statistical Algorithm for Variant Frequency Identification
+category: dry
+summary: Bayesian method with iteratively derived empirical priors to estimate allele frequencies and compare them between
+  related sequenced samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1752-0509-7-s2-s2
+  year: 2013
+  journal: BMC Syst Biol
+  first_author: Trifonov V
+  last_author: Rabadan R
+  pmid: '24564980'
+  pmcid: PMC3851977
+  title: 'SAVI: a statistical algorithm for variant frequency identification'
+links: {}
+added: '2026-11-14'
+evidence: We present a method, Statistical Algorithm for Variant Frequency Identification (SAVI), to estimate the frequency
+  of alleles in a set of samples.

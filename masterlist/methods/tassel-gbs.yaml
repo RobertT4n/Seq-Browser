@@ -1,0 +1,21 @@
+name: TASSEL-GBS
+category: dry
+summary: Bioinformatics pipeline for calling SNPs from genotyping-by-sequencing data in many individuals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0090346
+  year: 2014
+  journal: PLoS One
+  first_author: Glaubitz JC
+  last_author: Buckler ES
+  pmid: '24587335'
+  pmcid: PMC3938676
+  title: 'TASSEL-GBS: a high capacity genotyping by sequencing analysis pipeline'
+links: {}
+added: '2026-11-14'
+evidence: Herein we describe a bioinformatics pipeline, TASSEL-GBS, designed for the efficient processing of raw GBS sequence
+  data into SNP genotypes.

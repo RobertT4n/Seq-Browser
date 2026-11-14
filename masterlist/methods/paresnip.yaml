@@ -1,0 +1,23 @@
+name: PAREsnip
+category: dry
+summary: Software that searches degradome (PARE) data for targets of all small RNAs from high-throughput sequencing of a sRNAome.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- pare
+reference:
+  doi: 10.1093/nar/gks277
+  year: 2012
+  journal: Nucleic Acids Res
+  first_author: Folkes L
+  last_author: Moulton V
+  pmid: '22467211'
+  pmcid: PMC3401462
+  title: 'PAREsnip: a tool for rapid genome-wide discovery of small RNA/target interactions evidenced through degradome sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a new software tool called PAREsnip that allows users to search for potential targets of all sRNAs
+  obtained from high-throughput sequencing experiments.

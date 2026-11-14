@@ -1,0 +1,22 @@
+name: MethylSig
+category: dry
+summary: Pipeline and statistical test for differential DNA methylation from whole-genome bisulfite and RRBS data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu339
+  year: 2014
+  journal: Bioinformatics
+  first_author: Park Y
+  last_author: Sartor MA
+  pmid: '24836530'
+  pmcid: PMC4147891
+  title: 'MethylSig: a whole genome DNA methylation analysis pipeline'
+links: {}
+added: '2026-11-14'
+evidence: We present a statistical analysis package, methylSig, to analyse genome-wide methylation differences between samples
+  from different treatments or disease groups.

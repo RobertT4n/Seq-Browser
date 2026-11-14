@@ -1,0 +1,27 @@
+name: long march
+category: wet
+summary: Iterative Type IIS restriction cleavage and adapter ligation of an amplicon library yields nested, offset sub-libraries
+  that extend contig length and coverage in short-read sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+- amplicon-pcr
+reference:
+  doi: 10.1371/journal.pone.0003495
+  year: 2008
+  journal: PLoS One
+  first_author: Sorber K
+  last_author: DeRisi JL
+  pmid: '18941527'
+  pmcid: PMC2566813
+  title: 'The long march: a sample preparation technique that enhances contig length and coverage by high-throughput short-read
+    sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We present here a simple sample preparation method termed the "long march" that increases both contig lengths and
+  target sequence coverage using high-throughput short-read technologies.

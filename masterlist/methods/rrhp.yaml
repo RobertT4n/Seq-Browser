@@ -1,0 +1,28 @@
+name: RRHP
+full_name: Reduced Representation 5-Hydroxymethylcytosine Profiling
+category: wet
+summary: Beta-glucosyltransferase blocks restriction digestion at the adapter-ligation junction so only fragments with glucosylated
+  5hmC at the junction are sequenced, mapping 5hmC at single-site resolution.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1186/s13059-014-0456-5
+  year: 2014
+  journal: Genome Biol
+  first_author: Petterson A
+  last_author: Jia XY
+  pmid: '25248841'
+  pmcid: PMC4212096
+  title: 'RRHP: a tag-based approach for 5-hydroxymethylcytosine mapping at single-site resolution'
+links: {}
+added: '2026-11-14'
+evidence: We present an approach called Reduced Representation 5-Hydroxymethylcytosine Profiling (RRHP) to map 5hmC sites
+  at single-base resolution by exploiting the use of beta-glucosyltransferase to inhibit enzymatic digestion at the junction
+  where adapters are ligated to a genomic library.

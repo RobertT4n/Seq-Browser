@@ -1,0 +1,28 @@
+name: QIS-Seq
+full_name: Quantitative Interactor Screen Sequencing
+category: wet
+summary: Yeast two-hybrid interaction screening read out by next-generation sequencing to quantify enrichment of each interactor
+  relative to library frequency and stickiness.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1186/1471-2164-13-8
+  year: 2012
+  journal: BMC Genomics
+  first_author: Lewis JD
+  last_author: Guttman DS
+  pmid: '22230763'
+  pmcid: PMC3320541
+  title: Quantitative Interactor Screening with next-generation Sequencing (QIS-Seq) identifies Arabidopsis thaliana MLO2
+    as a target of the Pseudomonas syringae type III effector HopZ2
+links: {}
+added: '2026-11-14'
+evidence: Here we describe the application of next-generation sequencing to yeast two-hybrid interaction screens and develop
+  Quantitative Interactor Screen Sequencing (QIS-Seq).

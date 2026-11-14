@@ -1,0 +1,23 @@
+name: CAP-miRSeq
+category: dry
+summary: 'Comprehensive pipeline for miRNA-seq data: preprocessing, alignment, miRNA quantification, novel miRNA prediction,
+  differential expression and variant calling.'
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-423
+  year: 2014
+  journal: BMC Genomics
+  first_author: Sun Z
+  last_author: Kocher JP
+  pmid: '24894665'
+  pmcid: PMC4070549
+  title: 'CAP-miRSeq: a comprehensive analysis pipeline for microRNA sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We developed a Comprehensive Analysis Pipeline for microRNA Sequencing data (CAP-miRSeq) that integrates read pre-processing,
+  alignment, mature/precursor/novel miRNA detection and quantification, data visualization, variant detection in miRNA coding
+  region, and more flexible differential expression analysis between experimental conditions.

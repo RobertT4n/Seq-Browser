@@ -1,0 +1,27 @@
+name: MIRA
+full_name: Methylated-CpG island recovery assay
+category: wet
+summary: A recombinant MBD2B/MBD3L1 methyl-CpG-binding complex pulls down methylated double-stranded genomic DNA, which is
+  read out by microarray or sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: MBD2b/MBD3L1 protein-affinity capture of methylated DNA has no chemistry tag; the seminal paper detects methylation by PCR, sequencing/microarray readouts come from later protocols
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/labinvest.3700311
+  year: 2005
+  journal: Lab Invest
+  first_author: Rauch T
+  last_author: Pfeifer GP
+  pmid: '16025148'
+  title: 'Methylated-CpG island recovery assay: a new technique for the rapid detection of methylated-CpG islands in cancer'
+links: {}
+added: '2026-11-14'
+evidence: The methylated-CpG island recovery assay (MIRA) exploits the intrinsic specificity and the high affinity of a methylated-CpG-binding
+  protein complex (MBD2B and MBD3L1) to methylated CpG dinucleotides in genomic DNA.

@@ -1,0 +1,27 @@
+name: GBS
+full_name: genotyping-by-sequencing
+category: wet
+summary: Restriction-enzyme complexity reduction followed by multiplexed sequencing of the resulting tags to genotype many
+  samples cheaply, including species without a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+species:
+- plant
+reference:
+  doi: 10.1371/journal.pone.0019379
+  year: 2011
+  journal: PLoS One
+  first_author: Elshire RJ
+  last_author: Mitchell SE
+  pmid: '21573248'
+  pmcid: PMC3087801
+  title: A robust, simple genotyping-by-sequencing (GBS) approach for high diversity species
+links: {}
+added: '2026-11-14'
+evidence: Here, we report a procedure for constructing GBS libraries based on reducing genome complexity with restriction
+  enzymes (REs).

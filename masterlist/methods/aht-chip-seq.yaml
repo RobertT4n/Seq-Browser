@@ -1,0 +1,25 @@
+name: AHT-ChIP-seq
+full_name: Automated high-throughput ChIP-seq
+category: wet
+summary: Fully automated robotic 96-well ChIP-seq protocol that runs about 400 experiments in five days.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1186/gb-2013-14-11-r124
+  year: 2013
+  journal: Genome Biol
+  first_author: Aldridge S
+  last_author: Odom DT
+  pmid: '24200198'
+  pmcid: PMC4053851
+  title: 'AHT-ChIP-seq: a completely automated robotic protocol for high-throughput chromatin immunoprecipitation'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a protocol for automated high-throughput (AHT) ChIP-seq.

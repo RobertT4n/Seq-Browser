@@ -1,0 +1,23 @@
+name: WemIQ
+full_name: weighted-log-likelihood expectation maximization method on isoform quantification
+category: dry
+summary: Isoform quantification for RNA-seq that removes read-sampling bias with a weighted EM algorithm and generalized Poisson
+  bias model.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu757
+  year: 2015
+  journal: Bioinformatics
+  first_author: Zhang J
+  last_author: Chen L
+  pmid: '25406327'
+  pmcid: PMC4380033
+  title: 'WemIQ: an accurate and robust isoform quantification method for RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We present a weighted-log-likelihood expectation maximization method on isoform quantification (WemIQ).

@@ -1,0 +1,23 @@
+name: HMS
+full_name: Hybrid Motif Sampler
+category: dry
+summary: Bayesian motif-discovery algorithm for ChIP-Seq data that uses sequencing depth and intra-motif dependency to refine
+  transcription factor binding site motifs.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkp1180
+  year: 2010
+  journal: Nucleic Acids Res
+  first_author: Hu M
+  last_author: Qin ZS
+  pmid: '20056654'
+  pmcid: PMC2853110
+  title: On the detection and refinement of transcription factor binding sites using ChIP-Seq data
+links: {}
+added: '2026-11-14'
+evidence: We introduce a novel computational algorithm named Hybrid Motif Sampler (HMS), specifically designed for TFBS motif
+  discovery in ChIP-Seq data.

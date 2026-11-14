@@ -1,0 +1,22 @@
+name: TSSAR
+full_name: TSS annotation regime for dRNA-seq data
+category: dry
+summary: Automated annotation of transcription start sites from bacterial dRNA-seq data, replacing manual inspection.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-89
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Amman F
+  last_author: Findeiß S
+  pmid: '24674136'
+  pmcid: PMC4098767
+  title: 'TSSAR: TSS annotation regime for dRNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Hitherto, dRNA-seq data were analyzed by visualizing the sequencing reads mapped to the reference genome and manually
+  annotating reliable positions.

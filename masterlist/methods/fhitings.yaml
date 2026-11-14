@@ -1,0 +1,23 @@
+name: FHiTINGS
+full_name: Fungal high-throughput taxonomic identification tool for use with next-generation sequencing
+category: dry
+summary: Open-source program that parses BLASTn output to classify fungal ITS sequences from next-generation sequencing ecology
+  studies.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/jobm.201200507
+  year: 2014
+  journal: J Basic Microbiol
+  first_author: Dannemiller KC
+  last_author: Peccia J
+  pmid: '23765392'
+  title: Fungal high-throughput taxonomic identification tool for use with next-generation sequencing (FHiTINGS)
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe an open source software program "FHiTINGS" that utilizes the output of a BLASTn (blastall) search
+  to rapidly identify, classify, and parse internal transcribed spacer (ITS) DNA sequences produced in fungal ecology studies
+  that utilize next-generation DNA sequencing.

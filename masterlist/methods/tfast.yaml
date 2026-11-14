@@ -1,0 +1,22 @@
+name: TFAST
+category: dry
+summary: Java tool that analyses afSELEX-seq data, calling peaks and comparing peak characteristics between cycles to define
+  transcription factor binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0042761
+  year: 2012
+  journal: PLoS One
+  first_author: Reiss DJ
+  last_author: Mobley HL
+  pmid: '22956994'
+  pmcid: PMC3430675
+  title: A novel approach for transcription factor analysis using SELEX with high-throughput sequencing (TFAST)
+links: {}
+added: '2026-11-14'
+evidence: Here, we present original software, TFAST, designed to analyze afSELEX-seq data, validated against our previously
+  generated afSELEX-seq dataset and a model dataset.

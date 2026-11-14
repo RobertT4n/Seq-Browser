@@ -1,0 +1,22 @@
+name: RUM
+full_name: RNA-Seq Unified Mapper
+category: dry
+summary: BLAT-based RNA-seq alignment pipeline that detects splice junctions and novel features, benchmarked against other
+  aligners with a new RNA-seq simulator.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr427
+  year: 2011
+  journal: Bioinformatics
+  first_author: Grant GR
+  last_author: Pierce EA
+  pmid: '21775302'
+  pmcid: PMC3167048
+  title: Comparative analysis of RNA-Seq alignment algorithms and the RNA-Seq unified mapper (RUM)
+links: {}
+added: '2026-11-14'
+evidence: This pipeline, the RNA-Seq Unified Mapper (RUM), performs comparably to the best currently available tools.

@@ -1,0 +1,25 @@
+name: PDD
+full_name: Probe-Directed Degradation
+category: wet
+summary: 'Probe-directed degradation: DNA oligo hybridisation to single-stranded cDNA libraries and duplex-specific nuclease
+  digestion remove rRNA or other unwanted sequences.'
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/1471-2164-15-401
+  year: 2014
+  journal: BMC Genomics
+  first_author: Archer SK
+  last_author: Preiss T
+  pmid: '24886553'
+  pmcid: PMC4045971
+  title: Selective and flexible depletion of problematic sequences from RNA-seq libraries at the cDNA stage
+links: {}
+added: '2026-11-14'
+evidence: Here we describe Probe-Directed Degradation (PDD), an approach that employs hybridisation to DNA oligonucleotides
+  at the single-stranded cDNA library stage and digestion with Duplex-Specific Nuclease (DSN).
