@@ -26,6 +26,11 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   dna-5fc: epigenome                    # 5-formylcytosine on DNA (sub-filter of dna-methylation; CLEVER-seq)
   histone-turnover: epigenome           # nucleosome / histone exchange and turnover kinetics (CATCH-IT)
   chromatin-condensability: epigenome   # how readily native nucleosomes condense (Condense-seq); a biophysical property, not accessibility
+  r-loop: epigenome                     # DNA:RNA hybrids / R-loops mapped by sequencing (DRIP-seq, R-ChIP, bisDRIP-seq)
+  dna-secondary-structure: epigenome    # non-B DNA structure: G-quadruplexes, single-stranded DNA, triplexes (G4 mapping, ssDNA-seq, PDAL-seq)
+  dna-supercoiling: epigenome           # genome-wide DNA supercoiling / torsional state (psoralen pull-down, Psora-seq)
+  dna-4mc: epigenome                    # N4-methylcytosine on DNA (sub-filter of dna-methylation; bacterial 4mC mapping)
+  adp-ribosylation: epigenome           # site-specific ADP-ribosylation on chromatin mapped by sequencing (Click-ChIP)
   rna: transcriptome                    # steady-state transcript abundance, isoforms, splicing (RNA-seq, scRNA-seq)
   nascent-rna: transcriptome            # newly made vs pre-existing RNA (metabolic labelling, nascent / run-on)
   translation: transcriptome            # ribosome occupancy / translatome (Ribo-seq, ribosome footprinting)
@@ -34,17 +39,22 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   rna-protein-interaction: transcriptome  # where proteins bind RNA (CLIP family)
   rna-rna-interaction: transcriptome      # RNA-RNA contacts / duplexes between transcripts (KARR-seq)
   rna-chromatin-interaction: transcriptome  # RNAs contacting chromatin / DNA (GRID-seq, MARGI, ChAR-seq)
+  small-molecule-rna-binding: transcriptome  # where small molecules / drugs bind RNA, read out by sequencing (Chem-CLIP)
+  rna-degradation: transcriptome        # RNA cleavage / decay products and degradation intermediates (PARE, degradome-seq)
   immune-repertoire: transcriptome      # TCR / BCR receptor sequences
   protein: proteome                     # protein abundance via antibody-oligo tags or similar (CITE-seq ADTs)
   protein-localization: proteome        # which proteins sit near a bait or in a compartment (proximity labelling: TurboID, APEX); RNA localisation stays rna + subcellular
   receptor-ligand: proteome             # which ligand / antigen a receptor binds (TCR-pMHC, antibody-antigen, GPCR-ligand specificity), read out by sequencing (ENTER-seq)
   glycan: proteome                      # cell-surface glycans (lectin-oligo tags)
+  protein-protein-interaction: proteome # which proteins bind each other, read out by sequencing barcodes (Y2H-seq, BiFC-seq, PPI-seq)
   genome-sequence: genome               # genotype, CNV, SVs, assemblies, incl. RNA-virus genomes and strain typing
   microbial-composition: genome         # which microbes are present, e.g. per spatial sub-community (SAMPL-seq)
   lineage: genome                       # cell lineage / clonal history recorded in cells (barcodes, CRISPR recorders)
   spatial-position: genome              # relative positions of cells / beads reconstructed from sequenced barcode proximity, with no tissue imaging (DNA microscopy, SCOPE)
   replication-timing: genome            # when DNA replicates in S phase (copy number of S-phase vs G1 DNA)
+  replication-dynamics: genome          # replication origins, fork direction and progression, nascent DNA (OK-seq, ini-seq, D-NAscent); timing stays replication-timing
   dna-damage: genome                    # DNA lesions, strand breaks and replication/repair error spectra
+  cell-cell-contact: functional         # which cells touch or connect (synaptic / proximity barcode transfer: Connectome-seq, MATCH-seq, CINTER-seq)
   raman-spectrum: functional            # label-free vibrational (Raman) cell biochemistry paired with sequencing (RamanOmics)
   functional-screen: functional         # abundance of each designed library member (guide, variant, reporter barcode)
                                         #   after selection/expression; NOT a per-cell transcriptome (Perturb-seq stays rna)
@@ -170,5 +180,7 @@ task:
   - population-genetics       # ancestry, identity-by-descent, phasing, imputation, selection, phylogenetics and molecular evolution from sequence data
   - read-alignment            # aligners and mapping of reads or whole genomes
   - genome-visualization      # genome browsers and visual inspection of alignments, variants or phylogeographic results
+  - phenotype-prediction      # predicting age, phenotype or clinical state from sequencing signal (aging clocks, single-cell age models)
+  - metabolic-modelling       # metabolic flux / network inference from expression data
   - peak-calling-signal       # ChIP-seq / ATAC-seq peak calling, nucleosome-free regions and other signal-track processing
 # targets: FREE TEXT list (not validated), epigenome/protein-binding methods only, e.g. [H3K27me3, CTCF, Pol II S2P]
