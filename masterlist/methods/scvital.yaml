@@ -1,0 +1,20 @@
+name: scVital
+category: dry
+summary: Variational autoencoder with a discriminator that embeds scRNA-seq data from different species into a shared latent
+  space, with a new latent space similarity score.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.20.629285
+  year: 2024
+  journal: bioRxiv
+  first_author: Rub J
+  last_author: Betel D
+  title: A deep-learning tool for species-agnostic integration of cancer cell states
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop scVital, a computational tool that uses a variational autoencoder and discriminator to embed scRNA-seq
+  data into a species-agnostic latent space to overcome batch effect and identify cell states shared between species.

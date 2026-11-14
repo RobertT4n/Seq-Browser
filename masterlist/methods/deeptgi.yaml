@@ -1,0 +1,23 @@
+name: DeepTGI
+category: dry
+summary: Self-attention deep learning framework predicting transcription factor-gene interactions and gene regulatory networks
+  from single-cell or bulk expression.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae639
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Liu Y
+  last_author: Wang J
+  pmid: '39679439'
+  pmcid: PMC11647272
+  title: A self-attention-driven deep learning framework for inference of transcriptional gene regulatory networks
+links: {}
+added: '2026-11-14'
+evidence: we introduce a deep learning framework, DeepTGI, that encodes gene expression profiles from single-cell and/or bulk
+  transcriptomic data and predicts TGIs with high accuracy.

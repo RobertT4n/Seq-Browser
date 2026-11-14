@@ -1,0 +1,22 @@
+name: CellTran
+category: dry
+summary: Statistical approach using paired-gene expression correlations to detect transition cells from scRNA-seq data without
+  reconstructing regulatory networks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100913
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Wang Y
+  last_author: Chen K
+  pmid: '39644902'
+  pmcid: PMC11704623
+  title: A statistical approach for systematic identification of transition cells from scRNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: We present CellTran, a statistical approach utilizing paired-gene expression correlations to detect transition cells
+  from scRNA-seq data without explicitly resolving gene regulatory networks.

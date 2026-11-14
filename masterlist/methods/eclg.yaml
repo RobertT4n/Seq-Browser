@@ -1,0 +1,22 @@
+name: ECLG
+full_name: Enriched Cell-Leaf Graph
+category: dry
+summary: Graph neural network embedding of scRNA-seq cells that combines a random-forest gene-interaction graph with a cell
+  kNN graph.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2025.109880
+  year: 2025
+  journal: Comput Biol Med
+  first_author: Goudarzi HT
+  last_author: Pouyan MB
+  pmid: '39999494'
+  title: Enhanced single-cell RNA-seq embedding through gene expression and data-driven gene-gene interaction integration
+links: {}
+added: '2026-11-14'
+evidence: These graphs are then combined into an Enriched Cell-Leaf Graph (ECLG), which serves as input for a graph neural
+  network to compute cell embeddings.

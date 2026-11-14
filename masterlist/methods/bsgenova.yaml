@@ -1,0 +1,22 @@
+name: bsgenova
+category: dry
+summary: Bayesian multinomial SNP caller for bisulfite-sequencing data, with a bundled methylation extractor.
+readouts:
+- genome-sequence
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05821-7
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Feng Y
+  last_author: Gao F
+  pmid: '38840038'
+  pmcid: PMC11151569
+  title: 'bsgenova: an accurate, robust, and fast genotype caller for bisulfite-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce bsgenova, a novel SNP caller tailored for bisulfite sequencing data, employing a Bayesian multinomial
+  model.

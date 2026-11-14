@@ -1,0 +1,23 @@
+name: HPC-GVCW
+full_name: high-performance computing genome variant calling workflow
+category: dry
+summary: Open-source workflow that parallelises GATK SNP calling across supercomputers and desktops for large resequencing
+  panels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12915-024-01820-5
+  year: 2024
+  journal: BMC Biol
+  first_author: Zhou Y
+  last_author: Wing RA
+  pmid: '38273258'
+  pmcid: PMC10809545
+  title: A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset
+links: {}
+added: '2026-11-14'
+evidence: Here we report an open-source high-performance computing genome variant calling workflow (HPC-GVCW) for GATK that
+  can run on multiple computing platforms from supercomputers to desktop machines.

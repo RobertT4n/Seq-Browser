@@ -1,0 +1,23 @@
+name: RNA-SeqEZPZ
+category: dry
+summary: Point-and-click bulk RNA-seq pipeline (bash/SLURM or Nextflow) from QC and alignment to differential expression and
+  pathway analysis with a Shiny visualiser.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaf133
+  year: 2026
+  journal: Gigascience
+  first_author: Taslim C
+  last_author: Theisen ER
+  pmid: '41222189'
+  pmcid: PMC12857227
+  title: 'RNA-SeqEZPZ: a point-and-click pipeline for comprehensive transcriptomics analysis with interactive visualizations'
+  preprint_doi: 10.1101/2024.12.20.629844
+links: {}
+added: '2026-11-14'
+evidence: we developed RNA-SeqEZPZ, an automated pipeline with a user-friendly point-and-click interface, enabling rigorous
+  and reproducible RNA-Seq analysis without requiring programming or bioinformatics expertise.

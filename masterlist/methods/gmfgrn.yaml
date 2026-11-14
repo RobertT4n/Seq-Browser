@@ -1,0 +1,22 @@
+name: GMFGRN
+category: dry
+summary: Graph-neural-network matrix factorization that learns gene embeddings from scRNA-seq to predict transcription factor-gene
+  regulatory links.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad529
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Li S
+  last_author: Yu DJ
+  pmid: '38261340'
+  pmcid: PMC10805180
+  title: 'GMFGRN: a matrix factorization and graph neural network approach for gene regulatory network inference'
+links: {}
+added: '2026-11-14'
+evidence: we present a novel method, termed GMFGRN, for accurate graph neural network (GNN)-based GRN inference from scRNA-seq
+  data.

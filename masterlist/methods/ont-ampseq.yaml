@@ -1,0 +1,23 @@
+name: ONT-AmpSeq
+category: dry
+summary: Pipeline turning Oxford Nanopore amplicon reads into taxonomically annotated OTU tables through filtering, clustering
+  and polishing.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1002/2211-5463.13868
+  year: 2024
+  journal: FEBS Open Bio
+  first_author: Schacksen PS
+  last_author: Nielsen JL
+  pmid: '39109544'
+  pmcid: PMC11532972
+  title: 'Complete pipeline for Oxford Nanopore Technology amplicon sequencing (ONT-AmpSeq): from pre-processing to creating
+    an operational taxonomic unit table'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce ONT-AmpSeq, a user-friendly pipeline designed for processing amplicon sequencing data generated
+  from Oxford Nanopore Technology (ONT) devices.

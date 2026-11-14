@@ -1,0 +1,21 @@
+name: ImmuneMirror
+category: dry
+summary: Random-forest pipeline and web server that predicts and prioritises neoantigens from tumour whole-exome and RNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae024
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Chuwdhury GS
+  last_author: Dai W
+  pmid: '38343325'
+  pmcid: PMC10859690
+  title: 'ImmuneMirror: A machine learning-based integrative pipeline and web server for neoantigen prediction'
+links: {}
+added: '2026-11-14'
+evidence: We developed ImmuneMirror as a stand-alone open-source pipeline and a web server incorporating a balanced random
+  forest model for neoantigen prediction and prioritization.

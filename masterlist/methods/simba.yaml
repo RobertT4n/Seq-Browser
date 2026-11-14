@@ -1,0 +1,29 @@
+name: SIMBA
+full_name: Systematic Intracellular Motif Binding Analysis
+category: wet
+summary: Yeast growth assay where peptide-domain binding blocks a growth-arrest signal, read by competitive growth and deep
+  sequencing to quantify binding strength of thousands of SLiM variants.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: growth-selection assay; no taxonomy chemistry tag stated
+species:
+- microbe
+reference:
+  doi: 10.1016/j.jbc.2025.108225
+  year: 2025
+  journal: J Biol Chem
+  first_author: Subbanna MS
+  last_author: Pryciak PM
+  pmid: '39864625'
+  pmcid: PMC11879687
+  title: A quantitative intracellular peptide-binding assay reveals recognition determinants and context dependence of short
+    linear motifs
+  preprint_doi: 10.1101/2024.10.30.621084
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a novel functional assay for measuring SLiM binding, called Systematic Intracellular Motif Binding
+  Analysis (SIMBA).

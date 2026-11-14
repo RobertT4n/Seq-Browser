@@ -1,0 +1,31 @@
+name: CTLR-Seq
+full_name: CRISPR/Cas9-targeted long-read sequencing
+category: wet
+summary: In vitro Cas9 cutting plus pulse-field gel isolation of large intact genomic regions, sequenced amplification-free
+  on long reads to resolve segmental duplications and rearrangements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+species:
+- human
+reference:
+  doi: 10.1073/pnas.2322834121
+  year: 2024
+  journal: Proc Natl Acad Sci U S A
+  first_author: Zhou B
+  last_author: Urban AE
+  pmid: '39042694'
+  pmcid: PMC11295037
+  title: Resolving the 22q11.2 deletion using CTLR-Seq reveals chromosomal rearrangement mechanisms and individual variance
+    in breakpoints
+links: {}
+added: '2026-11-14'
+evidence: We developed a generally applicable method, CRISPR/Cas9-targeted long-read sequencing (CTLR-Seq), to resolve, haplotype-specifically,
+  the large and complex regions in the human genome that had been previously impenetrable to sequencing analysis.

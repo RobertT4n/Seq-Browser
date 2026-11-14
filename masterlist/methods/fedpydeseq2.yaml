@@ -1,0 +1,21 @@
+name: FedPyDESeq2
+category: dry
+summary: Federated-learning implementation of the DESeq2 differential expression pipeline for siloed bulk RNA-seq data without
+  sharing raw data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- deseq2
+reference:
+  doi: 10.1101/2024.12.06.627138
+  year: 2024
+  journal: bioRxiv
+  first_author: Muzellec B
+  last_author: Marchand T
+  title: 'FedPyDESeq2: a federated framework for bulk RNA-seq differential expression analysis'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce FedPyDESeq2, a software for differential expression analysis (DEA) on siloed bulk RNA-seq.

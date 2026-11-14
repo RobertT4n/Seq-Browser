@@ -1,0 +1,25 @@
+name: MUDI
+full_name: multiomic data integration
+category: dry
+summary: Integrates single-cell Hi-C and scRNA-seq data to define 3D-regulated cell subpopulations (topologically integrated
+  subpopulations).
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-52440-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Zhou Y
+  last_author: Jin VX
+  pmid: '39333113'
+  pmcid: PMC11436782
+  title: Integration of scHi-C and scRNA-seq data defines distinct 3D-regulated and biological-context dependent cell subpopulations
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop a computational method, a multiomic data integration (MUDI) algorithm, which integrates scHi-C
+  and scRNA-seq data to precisely define the 3D-regulated and biological-context dependent cell subpopulations or topologically
+  integrated subpopulations (TISPs).

@@ -1,0 +1,22 @@
+name: CITEViz
+category: dry
+summary: R-Shiny app for interactive flow-cytometry-like gating of cell populations in Seurat-processed CITE-seq data.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05762-1
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Kong GL
+  last_author: Maxson JE
+  pmid: '38566005'
+  pmcid: PMC10988918
+  title: 'CITEViz: interactively classify cell populations in CITE-Seq via a flow cytometry-like gating workflow using R-Shiny'
+links: {}
+added: '2026-11-14'
+evidence: To streamline the gating process, we developed CITEViz which allows users to interactively gate cells in Seurat-processed
+  CITE-Seq data.

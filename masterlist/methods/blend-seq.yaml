@@ -1,0 +1,22 @@
+name: blend-seq
+full_name: Blended Length Genome Sequencing
+category: dry
+summary: Workflow combining 30x short reads with about 4x long reads to improve SNP, structural variant and phasing discovery
+  in a single sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.01.621515
+  year: 2024
+  journal: bioRxiv
+  first_author: Magner R
+  last_author: Banks E
+  title: 'Blended Length Genome Sequencing (blend-seq): Combining Short Reads with Low-Coverage Long Reads to Maximize Variant
+    Discovery'
+links: {}
+added: '2026-11-14'
+evidence: We introduce blend-seq, a workflow for combining data from traditional short-read sequencing pipelines with low-coverage
+  long reads, to improve variant discovery for single samples.

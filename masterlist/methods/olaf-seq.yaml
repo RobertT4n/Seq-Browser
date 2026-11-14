@@ -1,0 +1,32 @@
+name: OLAF-Seq
+full_name: overlapping linkers on adjacent fragments sequencing
+category: wet
+summary: Long-read library construction in which Cas9-nickase-cut targeted long DNA fragments keep adjacent-fragment overlaps,
+  enriching targets and retaining phasing information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+species:
+- human
+chemistry:
+- long-read-sequencing
+- adapter-ligation
+reference:
+  doi: 10.1038/s41598-024-56402-w
+  year: 2024
+  journal: Sci Rep
+  first_author: Uppuluri L
+  last_author: Xiao M
+  pmid: '38448490'
+  pmcid: PMC10917763
+  title: A long-read sequencing strategy with overlapping linkers on adjacent fragments (OLAF-Seq) for targeted resequencing
+    and enrichment
+links: {}
+added: '2026-11-14'
+evidence: In this report, we present OLAF-Seq, a novel strategy to construct a long-read sequencing library such that adjacent
+  fragments are linked with end-terminal duplications.

@@ -1,0 +1,33 @@
+name: UP-ChIP
+full_name: Ultrasensitive Plant ChIP-seq
+category: wet
+summary: Native ChIP-seq with Tn5 tagmentation-based library construction for low-input profiling of histone modifications
+  and Pol II in plant tissues.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+- fresh-tissue
+- nuclei
+species:
+- plant
+chemistry:
+- antibody-pull-down
+- tn5
+reference:
+  doi: 10.1111/nph.20125
+  year: 2024
+  journal: New Phytol
+  first_author: Zhu D
+  last_author: Wu Z
+  pmid: '39279041'
+  title: A simple, robust, cost-effective, and low-input ChIP-seq method for profiling histone modifications and Pol II in
+    plants
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed an Ultrasensitive Plant ChIP-seq (UP-ChIP) method based on native ChIP-seq combined with Tn5
+  tagmentation-based library construction strategy.

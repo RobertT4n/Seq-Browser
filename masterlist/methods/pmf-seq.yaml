@@ -1,0 +1,27 @@
+name: PMF-seq
+full_name: permeabilized-cell mitochondrial function sequencing
+category: wet
+summary: Pooled CRISPR screen in permeabilized cells where mitochondrial bioenergetic state is probed, cells are sorted by
+  flow cytometry on the readout, and guides are sequenced.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-knockout
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.1038/s42255-024-00994-0
+  year: 2024
+  journal: Nat Metab
+  first_author: To TL
+  last_author: Mootha VK
+  pmid: '38413804'
+  pmcid: PMC11052718
+  title: 'PMF-seq: a highly scalable screening strategy for linking genetics to mitochondrial bioenergetics'
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce permeabilized-cell mitochondrial function sequencing (PMF-seq) to combine strengths of these two
+  approaches to connect genes to detailed bioenergetic phenotypes.

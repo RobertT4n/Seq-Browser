@@ -1,0 +1,23 @@
+name: scMI
+full_name: single-cell Multi-omics Integration
+category: dry
+summary: Heterogeneous graph embedding with inter-type attention that integrates scRNA-seq and scATAC-seq without motif databases.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae711
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Cai L
+  last_author: Ma J
+  pmid: '39800872'
+  pmcid: PMC11725394
+  title: Integrating scRNA-seq and scATAC-seq with inter-type attention heterogeneous graph neural networks
+links: {}
+added: '2026-11-14'
+evidence: we introduce single-cell Multi-omics Integration (scMI), a heterogeneous graph embedding method that encodes both
+  cells and modality features from single-cell RNA-seq and ATAC-seq data into a shared latent space

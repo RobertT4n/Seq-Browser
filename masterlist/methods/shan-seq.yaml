@@ -1,0 +1,25 @@
+name: SHAN-seq
+full_name: simple high-accuracy end-sequencing
+category: wet
+summary: End-sequencing method that maps type II topoisomerase cleavage complexes (enzyme-bound double-strand breaks) on DNA
+  in vitro at single-nucleotide resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not state library-prep chemistry
+reference:
+  doi: 10.1093/nar/gkae638
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Morgan IL
+  last_author: Neuman KC
+  pmid: '39106172'
+  pmcid: PMC11381365
+  title: Highly sensitive mapping of in vitro type II topoisomerase DNA cleavage sites with SHAN-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed a simple high-accuracy end-sequencing (SHAN-seq) method to sensitively map type II topo cleavage complexes
+  on DNA in vitro.

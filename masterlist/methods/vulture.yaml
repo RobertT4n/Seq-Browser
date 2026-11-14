@@ -1,0 +1,22 @@
+name: Vulture
+category: dry
+summary: Scalable cloud pipeline that calls microbial and viral reads in public scRNA-seq data for host-microbe meta-analysis.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giad117
+  year: 2024
+  journal: Gigascience
+  first_author: Chen J
+  last_author: Ho JWK
+  pmid: '38195165'
+  pmcid: PMC10776309
+  title: 'Vulture: cloud-enabled scalable mining of microbial reads in public scRNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce Vulture, a scalable cloud-based pipeline that performs microbial calling for single-cell RNA sequencing
+  (scRNA-seq) data, enabling meta-analysis of host-microbial studies from the public domain.

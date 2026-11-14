@@ -1,0 +1,30 @@
+name: Decoder-seq
+full_name: dendrimeric DNA coordinate barcoding design for spatial RNA sequencing
+category: wet
+summary: Spatial RNA-seq on arrays built from dendrimeric DNA nanosubstrates with microfluidic coordinate barcoding, giving
+  about ten-fold higher capture-DNA density.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- spatial-barcode-array
+- microfluidic-chip
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-023-02086-y
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Cao J
+  last_author: Yang C
+  pmid: '38228777'
+  title: Decoder-seq enhances mRNA capture efficiency in spatial RNA sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here we report a dendrimeric DNA coordinate barcoding design for spatial RNA sequencing (Decoder-seq), which offers
+  both high sensitivity and high resolution.

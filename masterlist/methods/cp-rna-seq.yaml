@@ -1,0 +1,26 @@
+name: cP-RNA-seq
+full_name: cyclic-phosphate RNA sequencing
+category: wet
+summary: Periodate treatment after phosphatase removes the 3' ends of all small RNAs except those with a 2',3'-cyclic phosphate,
+  so only tRNA halves and other cP-RNAs are ligated, amplified and sequenced.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1510077112
+  year: 2015
+  journal: Proc Natl Acad Sci U S A
+  first_author: Honda S
+  last_author: Kirino Y
+  pmid: '26124144'
+  pmcid: PMC4517238
+  title: Sex hormone-dependent tRNA halves enhance cell proliferation in breast and prostate cancers
+links: {}
+added: '2026-11-14'
+evidence: We developed a method named "cP-RNA-seq" that selectively amplifies and sequences tRNA halves and other cP-containing
+  sncRNAs.

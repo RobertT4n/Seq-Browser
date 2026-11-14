@@ -1,0 +1,38 @@
+name: SUPSETS
+full_name: Suppression PCR-based selective enrichment sequencing
+category: wet
+summary: Multiplex suppression PCR on plasma cell-free DNA followed by nanopore sequencing to identify sepsis pathogens and
+  antimicrobial resistance genes.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+input_sample:
+- low-input
+species:
+- human
+- microbe
+reference:
+  doi: 10.3390/ijms25105463
+  year: 2024
+  journal: Int J Mol Sci
+  first_author: Sonntag M
+  last_author: Sohn K
+  pmid: '38791501'
+  pmcid: PMC11121775
+  title: Suppression PCR-Based Selective Enrichment Sequencing for Pathogen and Antimicrobial Resistance Detection on Cell-Free
+    DNA in Sepsis-A Targeted, Blood Culture-Independent Approach for Rapid Pathogen and Resistance Diagnostics in Septic Patients
+links: {}
+added: '2026-11-14'
+evidence: we developed a suppression PCR-based selective enrichment sequencing approach (SUPSETS), providing a molecular method
+  combining multiplex suppression PCR with Nanopore sequencing to identify most common sepsis-causative pathogens and AMRs
+  using plasma cell-free DNA.

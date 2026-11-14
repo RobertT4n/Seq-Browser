@@ -1,0 +1,27 @@
+name: CMS-seq
+full_name: Capillary-based Microdissection System sequencing
+category: wet
+summary: Capillary-based microdissection of tissue micro-regions followed by transcriptome sequencing for spatial profiling
+  of small regions of interest.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+chemistry_unknown: library-prep chemistry not stated in abstract; only reverse transcription implied by the RNA readout
+reference:
+  doi: 10.1016/j.jpba.2024.116656
+  year: 2025
+  journal: J Pharm Biomed Anal
+  first_author: Ye K
+  last_author: Zhao X
+  pmid: '39756152'
+  title: Acquisition and transcriptomic analysis of tissue micro-regions using a capillary-based method
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop an efficient capillary-based microdissection system (CMS) for precisely isolating targeted samples
+  from tissue sections.

@@ -1,0 +1,27 @@
+name: MuT-seq
+full_name: Mu-Tn5-seq
+category: wet
+summary: Tn5-based isolation of Mutator transposon insertion tags in maize, recovering more germinal insertions with far less
+  sequencing than the earlier method.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+species:
+- plant
+chemistry:
+- tn5
+reference:
+  doi: 10.1111/jipb.13637
+  year: 2024
+  journal: J Integr Plant Biol
+  first_author: Liang L
+  last_author: Song R
+  pmid: '38450982'
+  title: Expansion and improvement of ChinaMu by MuT-seq and chromosome-level assembly of the Mu-starter genome
+links: {}
+added: '2026-11-14'
+evidence: We developed a new Mu-tag isolation method Mu-Tn5-seq (MuT-seq).

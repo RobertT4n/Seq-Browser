@@ -1,0 +1,24 @@
+name: HiFiBGC
+category: dry
+summary: Command-line workflow that detects biosynthetic gene clusters in PacBio HiFi metagenomes from an ensemble of three
+  HiFi metagenome assemblies plus unassembled reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12864-024-10950-7
+  year: 2024
+  journal: BMC Genomics
+  first_author: Yadav A
+  last_author: Subramanian S
+  pmid: '39550535'
+  pmcid: PMC11569603
+  title: 'HiFiBGC: an ensemble approach for improved biosynthetic gene cluster detection in PacBio HiFi-read metagenomes'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present HiFiBGC, a command-line-based workflow to identify BGCs in PacBio HiFi metagenomes.

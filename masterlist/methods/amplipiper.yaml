@@ -1,0 +1,23 @@
+name: AmpliPiper
+category: dry
+summary: 'Automated pipeline for Oxford Nanopore multilocus amplicon-seq DNA barcoding: demultiplexing, haplotype consensus,
+  species identification, phylogenetics and species delimitation.'
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.12.11.628038
+  year: 2024
+  journal: bioRxiv
+  first_author: Bertelli A
+  last_author: Kapun M
+  title: 'AmpliPiper: A versatile amplicon-seq analysis tool for multilocus DNA barcoding'
+links: {}
+added: '2026-11-14'
+evidence: we present AmpliPiper, an automated and user-friendly software pipeline which carries out bioinformatics analyses
+  of multilocus amplicon-seq data generated with Oxford Nanopore (ONT) sequencing.

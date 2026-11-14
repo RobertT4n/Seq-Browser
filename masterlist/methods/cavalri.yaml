@@ -1,0 +1,23 @@
+name: CAVaLRi
+full_name: Clinical Assessment of Variants by Likelihood Ratios
+category: dry
+summary: Likelihood-ratio algorithm that prioritises candidate diagnostic germline disease genes from exome/genome variants,
+  genotypes and clinical phenotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1155/2024/6411444
+  year: 2024
+  journal: Hum Mutat
+  first_author: Schuetz RJ
+  last_author: White P
+  pmid: '40225936'
+  pmcid: PMC11918498
+  title: 'CAVaLRi: An Algorithm for Rapid Identification of Diagnostic Germline Variation'
+links: {}
+added: '2026-11-14'
+evidence: we present Clinical Assessment of Variants by Likelihood Ratios (CAVaLRi), which employ a modified likelihood ratio
+  (LR) framework to assign diagnostic probabilities to candidate germline disease genes.

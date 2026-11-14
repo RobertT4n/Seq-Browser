@@ -1,0 +1,24 @@
+name: STGAT
+full_name: Spatial Transcriptomics Graph Attention Network
+category: dry
+summary: Graph attention network trained on spatial transcriptomics that estimates spot-level gene expression and tumour status
+  from whole-slide images and bulk RNA-seq.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae316
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Baul S
+  last_author: Zhang W
+  pmid: '38960406'
+  pmcid: PMC11221891
+  title: 'Integrating spatial transcriptomics and bulk RNA-seq: predicting gene expression with enhanced resolution through
+    graph attention networks'
+links: {}
+added: '2026-11-14'
+evidence: we present STGAT (Spatial Transcriptomics Graph Attention Network), a novel approach leveraging Graph Attention
+  Networks (GAT) to discern spatial dependencies among spots.

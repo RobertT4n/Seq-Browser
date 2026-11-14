@@ -1,0 +1,22 @@
+name: MSIQ
+full_name: joint modeling of multiple RNA-seq samples for accurate Isoform Quantification
+category: dry
+summary: Bayesian model that jointly quantifies isoforms across multiple RNA-seq samples while weighting samples by quality.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1214/17-aoas1100
+  year: 2018
+  journal: Ann Appl Stat
+  first_author: Li WV
+  last_author: Li JJ
+  pmid: '29731954'
+  pmcid: PMC5935499
+  title: 'MSIQ: JOINT MODELING OF MULTIPLE RNA-SEQ SAMPLES FOR ACCURATE ISOFORM QUANTIFICATION'
+links: {}
+added: '2026-11-14'
+evidence: we develop a method, which we call "joint modeling of multiple RNA-seq samples for accurate isoform quantification"
+  (MSIQ), for more accurate and robust isoform quantification by integrating multiple RNA-seq samples under a Bayesian framework.

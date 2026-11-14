@@ -1,0 +1,28 @@
+name: DMF-ChIP-seq
+full_name: digital microfluidics ChIP-seq
+category: wet
+summary: Digital-microfluidic chip that automates cell pretreatment, antibody binding, pA-Tn5 tagmentation and amplification
+  for low-input profiling of DNA-protein interactions.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+reference:
+  doi: 10.1021/acsami.4c11280
+  year: 2024
+  journal: ACS Appl Mater Interfaces
+  first_author: Li M
+  last_author: Yang C
+  pmid: '39303213'
+  title: DMF-ChIP-seq for Highly Sensitive and Integrated Epigenomic Profiling of Low-Input Cells
+links: {}
+added: '2026-11-14'
+evidence: To address these problems, we developed DMF-ChIP-seq that builds on digital microfluidic (DMF) technology to profile
+  genome-wide DPIs in a highly efficient, cost-effective, and user-friendly way.

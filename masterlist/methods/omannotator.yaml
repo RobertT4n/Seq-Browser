@@ -1,0 +1,22 @@
+name: OMAnnotator
+category: dry
+summary: Builds a consensus genome annotation by repurposing the OMA orthology algorithm to integrate gene predictions from
+  several sources, using evolutionary information as tie-breaker.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag015
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Bates S
+  last_author: Nevers Y
+  pmid: '41736999'
+  pmcid: PMC12927413
+  title: 'OMAnnotator: a novel approach to building an annotated consensus genome sequence'
+  preprint_doi: 10.1101/2024.12.04.626846
+links: {}
+added: '2026-11-14'
+evidence: Here, we present OMAnnotator, a novel approach to building a consensus annotation.

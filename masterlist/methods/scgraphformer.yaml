@@ -1,0 +1,23 @@
+name: scGraphformer
+category: dry
+summary: Transformer-based graph neural network that learns a cell-cell relational network directly from scRNA-seq data for
+  cell type classification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-07154-w
+  year: 2024
+  journal: Commun Biol
+  first_author: Fan X
+  last_author: Heng PA
+  pmid: '39511415'
+  pmcid: PMC11543810
+  title: 'scGraphformer: unveiling cellular heterogeneity and interactions in scRNA-seq data using a scalable graph transformer
+    network'
+links: {}
+added: '2026-11-14'
+evidence: We introduce scGraphformer, a transformer-based GNN that transcends these limitations by learning an all-encompassing
+  cell-cell relational network directly from scRNA-seq data.

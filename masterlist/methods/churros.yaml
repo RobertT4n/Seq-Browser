@@ -1,0 +1,22 @@
+name: Churros
+category: dry
+summary: Docker-based end-to-end pipeline for large-scale ChIP-seq and other epigenomic data, including T2T-genome support.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/dnares/dsad026
+  year: 2024
+  journal: DNA Res
+  first_author: Wang J
+  last_author: Nakato R
+  pmid: '38102723'
+  pmcid: PMC11389749
+  title: 'Churros: a Docker-based pipeline for large-scale epigenomic analysis'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Churros, an end-to-end epigenomic analysis pipeline that is environmentally independent and optimized
+  for handling large-scale data.

@@ -1,0 +1,32 @@
+name: TELSeq
+full_name: Target-Enriched Long-read Sequencing
+category: wet
+summary: Probe-based enrichment of antimicrobial resistance genes and mobile elements from metagenomic DNA followed by long-read
+  sequencing to recover their genomic context.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- pacbio
+chemistry:
+- oligo-capture
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.1186/s40168-022-01368-y
+  year: 2022
+  journal: Microbiome
+  first_author: Slizovskiy IB
+  last_author: Noyes NR
+  pmid: '36324140'
+  pmcid: PMC9628182
+  title: Target-enriched long-read sequencing (TELSeq) contextualizes antimicrobial resistance genes in metagenomes
+links: {}
+added: '2026-11-14'
+evidence: we present a method for comprehensive and accurate reconstruction of antimicrobial resistance genes (ARGs) and MGEs
+  from metagenomic DNA, termed target-enriched long-read sequencing (TELSeq).

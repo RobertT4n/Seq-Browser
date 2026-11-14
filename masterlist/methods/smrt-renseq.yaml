@@ -1,0 +1,31 @@
+name: SMRT RenSeq
+full_name: Single-molecule real-time sequencing of resistance gene enrichment sequencing
+category: wet
+summary: Sequence capture of plant NLR resistance genes combined with PacBio SMRT sequencing to assemble complete R genes
+  and loci de novo.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- pacbio
+chemistry:
+- oligo-capture
+- long-read-sequencing
+species:
+- plant
+reference:
+  doi: 10.1038/nbt.3540
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Witek K
+  last_author: Jones JD
+  pmid: '27111721'
+  title: Accelerated cloning of a potato late blight-resistance gene using RenSeq and SMRT sequencing
+links: {}
+added: '2026-11-14'
+evidence: We combine resistance (R) gene sequence capture (RenSeq) with single-molecule real-time (SMRT) sequencing (SMRT
+  RenSeq) to clone Rpi-amr3i.

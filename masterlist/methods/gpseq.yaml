@@ -1,0 +1,29 @@
+name: GPSeq
+full_name: Genomic loci Positioning by Sequencing
+category: wet
+summary: Gradual restriction digestion of chromatin from the nuclear lamina inward, then sequencing of cut sites, to infer
+  each locus's radial distance from the lamina.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/s41587-020-0519-y
+  year: 2020
+  journal: Nat Biotechnol
+  first_author: Girelli G
+  last_author: Bienko M
+  pmid: '32451505'
+  pmcid: PMC7610410
+  title: GPSeq reveals the radial organization of chromatin in the cell nucleus
+links: {}
+added: '2026-11-14'
+evidence: Here we describe genomic loci positioning by sequencing (GPSeq), a genome-wide method for inferring distances to
+  the nuclear lamina all along the nuclear radius.

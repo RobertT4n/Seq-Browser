@@ -1,0 +1,26 @@
+name: Psora-seq
+full_name: psoralen affinity purification with genomic sequencing
+category: wet
+summary: Pull-down of biotinylated-psoralen-bound DNA with streptavidin beads followed by sequencing to map genomic DNA supercoiling
+  at about 1 kb resolution.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: biotin-psoralen crosslink and streptavidin pull-down have no taxonomy chemistry tag
+chemistry: []
+reference:
+  doi: 10.1093/nar/gkac244
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Visser BJ
+  last_author: Bates D
+  pmid: '35420137'
+  pmcid: PMC9071471
+  title: Psoralen mapping reveals a bacterial genome supercoiling landscape dominated by transcription
+links: {}
+added: '2026-11-14'
+evidence: This method, psoralen affinity purification with genomic sequencing (Psora-seq), utilizes biotinylated psoralen
+  and streptavidin-conjugated magnetic beads to facilitate efficient pull-down of psoralen-bound DNA, followed by deep sequencing
+  to identify and quantify supercoiling at 1 kb resolution.

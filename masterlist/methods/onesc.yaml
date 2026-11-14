@@ -1,0 +1,22 @@
+name: OneSC
+category: dry
+summary: Computational platform that infers and simulates gene regulatory networks to recapitulate cell state transitions
+  from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae703
+  year: 2024
+  journal: Bioinformatics
+  first_author: Peng D
+  last_author: Cahan P
+  pmid: '39570626'
+  pmcid: PMC11630913
+  title: 'OneSC: a computational platform for recapitulating cell state transitions'
+links: {}
+added: '2026-11-14'
+evidence: Here we present OneSC, a platform that can simulate cell state transitions using systems of stochastic differential
+  equations govern by a regulatory network of core transcription factors (TFs).

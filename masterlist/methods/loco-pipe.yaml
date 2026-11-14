@@ -1,0 +1,21 @@
+name: loco-pipe
+category: dry
+summary: Snakemake pipeline running standard population-genomic analyses on low-coverage whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbae098
+  year: 2024
+  journal: Bioinform Adv
+  first_author: Zhou ZT
+  last_author: Sudmant PH
+  pmid: '39006965'
+  pmcid: PMC11246161
+  title: 'loco-pipe: an automated pipeline for population genomics with low-coverage whole-genome sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We developed loco-pipe, a Snakemake pipeline that seamlessly streamlines a set of essential population genomic analyses
+  for low-coverage whole genome sequencing (lcWGS) data.

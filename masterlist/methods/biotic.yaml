@@ -1,0 +1,23 @@
+name: BIOTIC
+category: dry
+summary: Bayesian framework integrating single-cell multi-omics to infer transcription factor activity and refine cell identity.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf013
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Cao L
+  last_author: Wang Y
+  pmid: '39833103'
+  pmcid: PMC11745546
+  title: 'BIOTIC: a Bayesian framework to integrate single-cell multi-omics for transcription factor activity inference and
+    improve identity characterization of cells'
+links: {}
+added: '2026-11-14'
+evidence: we introduce BIOTIC, an advanced Bayesian model with a well-established gene regulation structure that harnesses
+  the power of single-cell multi-omics data

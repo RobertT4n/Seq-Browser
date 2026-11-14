@@ -1,0 +1,24 @@
+name: MFE-GSB
+full_name: minimum free energy-based Gaussian Self-Benchmarking
+category: dry
+summary: Corrects co-existing k-mer biases in RNA-seq data by fitting a Gaussian model across minimum-free-energy categories
+  of RNA secondary structure.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae532
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Su Q
+  last_author: Lian Q
+  pmid: '39428128'
+  pmcid: PMC11491153
+  title: Enhancing RNA-seq analysis by addressing all co-existing biases using a self-benchmarking approach with 2D structural
+    insights
+links: {}
+added: '2026-11-14'
+evidence: 'We introduce a groundbreaking approach: the minimum free energy-based Gaussian Self-Benchmarking (MFE-GSB) framework,
+  designed to combat the myriad of biases inherent in RNA-seq data.'

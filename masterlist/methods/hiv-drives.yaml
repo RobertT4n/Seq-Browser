@@ -1,0 +1,22 @@
+name: HIV-DRIVES
+category: dry
+summary: NGS bioinformatics pipeline that identifies HIV drug-resistance variants and supports surveillance from short-read
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/acmi.0.000815.v3
+  year: 2024
+  journal: Access Microbiol
+  first_author: Kanyerezi S
+  last_author: Mboowa G
+  pmid: '39130735'
+  pmcid: PMC11316571
+  title: 'HIV-DRIVES: HIV drug resistance identification, variant evaluation, and surveillance pipeline'
+links: {}
+added: '2026-11-14'
+evidence: Here we present HIV-DRIVES (HIV Drug Resistance Identification, Variant Evaluation, and Surveillance), an NGS-HIVDR
+  bioinformatics pipeline that has been developed and validated using Illumina short reads, FASTA, and Sanger ab1.seq files.

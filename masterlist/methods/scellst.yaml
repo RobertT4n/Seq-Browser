@@ -1,0 +1,21 @@
+name: sCellST
+category: dry
+summary: Multiple-instance learning model that predicts single-cell gene expression from H&E cell images using spatial transcriptomics
+  as reference.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.07.622225
+  year: 2024
+  journal: bioRxiv
+  first_author: Chadoutaud L
+  last_author: Walter T
+  title: 'sCellST: a Multiple Instance Learning approach to predict single-cell gene expression from H&E images using spatial
+    transcriptomics'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present sCellST, a multipleinstance learning model that predicts GE by leveraging cell morphology alone,
+  achieving remarkable predictive accuracy.

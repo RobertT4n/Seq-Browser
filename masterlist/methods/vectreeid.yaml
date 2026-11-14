@@ -1,0 +1,24 @@
+name: VecTreeID
+category: dry
+summary: Pipeline for short-read amplicon sequencing of dipteran disease vectors using BLAST plus EPA-ng placement for taxonomic
+  identification, blood meals, infection and resistance mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1111/1755-0998.14088
+  year: 2025
+  journal: Mol Ecol Resour
+  first_author: Lima-Cordón R
+  last_author: Neafsey DE
+  pmid: '39963041'
+  pmcid: PMC12225702
+  title: A Short-Read Amplicon Sequencing Protocol and Bioinformatic Pipeline for Ecological Surveillance of Dipteran Disease
+    Vectors
+links: {}
+added: '2026-11-14'
+evidence: We present a standardised informatic pipeline for analysis of DNA barcoding data from dipteran vectors, VecTreeID,
+  that uses short-read amplicon sequencing (AmpSeq) coupled with sequence similarity assessment (BLAST) and an evolutionary
+  placement algorithm (EPA-ng) to achieve vector taxonomic identification.

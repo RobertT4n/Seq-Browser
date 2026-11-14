@@ -1,0 +1,23 @@
+name: Improve-RRBS
+category: dry
+summary: Python tool that detects and hides non-trimmed 3' end-repair cytosines in RRBS reads to remove false-positive differentially
+  methylated sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbae076
+  year: 2024
+  journal: Bioinform Adv
+  first_author: Fóthi Á
+  last_author: Aranyi T
+  pmid: '38846137'
+  pmcid: PMC11154647
+  title: 'Improve-RRBS: a novel tool to correct the 3'' trimming of reduced representation sequencing reads'
+links: {}
+added: '2026-11-14'
+evidence: we developed improve-RRBS, which efficiently identifies and hides these cytosines from methylation calling with
+  a false positive rate of maximum 0.5%.

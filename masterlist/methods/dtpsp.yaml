@@ -1,0 +1,20 @@
+name: DTPSP
+category: dry
+summary: Deep-learning framework that selects the most informative time points for time-series bulk or single-cell studies
+  and imputes data for unsampled time points.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.18.629276
+  year: 2024
+  journal: bioRxiv
+  first_author: Hijazin M
+  last_author: Ding J
+  title: 'DTPSP: A Deep Learning Framework for Optimized Time Point Selection in Time-Series Single-Cell Studies'
+links: {}
+added: '2026-11-14'
+evidence: we present DTPSP, a deep learning framework designed to identify the most informative time points in any time-series
+  study, enabling resource-efficient and targeted analyses.

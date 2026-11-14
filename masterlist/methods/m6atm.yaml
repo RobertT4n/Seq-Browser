@@ -1,0 +1,26 @@
+name: m6ATM
+full_name: m6A Transcriptome-wide Mapper
+category: dry
+summary: Deep-learning pipeline that predicts single-base m6A sites from Nanopore direct RNA sequencing current signals.
+readouts:
+- rna-modification
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae529
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Yu B
+  last_author: Ueda H
+  pmid: '39438075'
+  pmcid: PMC11495873
+  title: 'm6ATM: a deep learning framework for demystifying the m6A epitranscriptome with Nanopore long-read RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce the m6A Transcriptome-wide Mapper (m6ATM), a novel Python-based computational pipeline that applies
+  deep neural networks to predict m6A sites at a single-base resolution using DRS data.

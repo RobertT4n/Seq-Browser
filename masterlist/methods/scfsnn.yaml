@@ -1,0 +1,22 @@
+name: scFSNN
+category: dry
+summary: Neural-network feature selection for scRNA-seq classification that controls false discovery rate and adaptively sets
+  the number of genes kept.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-024-10160-1
+  year: 2024
+  journal: BMC Genomics
+  first_author: Peng M
+  last_author: Lin B
+  pmid: '38459442'
+  pmcid: PMC10924397
+  title: 'scFSNN: a feature selection method based on neural network for single-cell RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: In this paper, we present a feature selection method based on neural network (scFSNN) to solve classification problem
+  for the scRNA-seq data.

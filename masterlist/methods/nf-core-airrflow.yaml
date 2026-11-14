@@ -1,0 +1,22 @@
+name: nf-core/airrflow
+category: dry
+summary: Nextflow workflow for end-to-end bulk and single-cell BCR/TCR repertoire processing built on the Immcantation framework.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012265
+  year: 2024
+  journal: PLoS Comput Biol
+  first_author: Gabernet G
+  last_author: Kleinstein SH
+  pmid: '39058741'
+  pmcid: PMC11305553
+  title: 'nf-core/airrflow: An adaptive immune receptor repertoire analysis workflow employing the Immcantation framework'
+links: {}
+added: '2026-11-14'
+evidence: To address this need, we developed nf-core/airrflow, an end-to-end bulk and single-cell AIRR-seq processing workflow
+  which integrates the Immcantation Framework following BCR and TCR sequencing data analysis best practices.

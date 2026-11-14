@@ -1,0 +1,23 @@
+name: eccDNA-pipe
+category: dry
+summary: End-to-end pipeline for identifying, analysing and visualising extrachromosomal circular DNA from WGS, Circle-seq
+  or Circulome-seq short- or long-read data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae034
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Fang M
+  last_author: Qu K
+  pmid: '38349061'
+  pmcid: PMC10862650
+  title: 'eccDNA-pipe: an integrated pipeline for identification, analysis and visualization of extrachromosomal circular
+    DNA from high-throughput sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce eccDNA-pipe, an accessible software package that offers a user-friendly pipeline for conducting
+  eccDNA analysis starting from raw sequencing data.

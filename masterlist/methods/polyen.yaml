@@ -1,0 +1,21 @@
+name: PolyEN
+category: dry
+summary: Regression model that learns continuous expression-over-time representations and integrates genes to predict chronological
+  age from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012632
+  year: 2024
+  journal: PLoS Comput Biol
+  first_author: Song Q
+  last_author: Bar-Joseph Z
+  pmid: '39700255'
+  pmcid: PMC11741621
+  title: Predicting lung aging using scRNA-Seq data
+links: {}
+added: '2026-11-14'
+evidence: we developed PolyEN, a new regression model which learns continuous representation for expression over time.

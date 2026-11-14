@@ -1,0 +1,24 @@
+name: OCRClassifier
+full_name: Open Chromatin Region Classifier
+category: dry
+summary: Combines control charts and machine learning to classify cfDNA-seq regions into open, partially open and closed chromatin
+  despite noisy training labels.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2024.1400228
+  year: 2024
+  journal: Front Genet
+  first_author: Lai X
+  last_author: Wang J
+  pmid: '39698466'
+  pmcid: PMC11652186
+  title: 'OCRClassifier: integrating statistical control chart into machine learning framework for better detecting open chromatin
+    regions'
+links: {}
+added: '2026-11-14'
+evidence: we present OCRClassifier, a novel framework that combines control charts and machine learning to address the impact
+  of high-proportion noisy labels in the training set and classify the chromatin open states into three classes accurately.

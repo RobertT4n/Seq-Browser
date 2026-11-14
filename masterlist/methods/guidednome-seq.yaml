@@ -1,0 +1,31 @@
+name: guidedNOMe-seq
+full_name: Guided nucleosome occupancy and methylome sequencing
+category: wet
+summary: Cas9-liberated custom regions of interest are enriched before NOMe-seq to read nucleosome occupancy and TF binding
+  at single-allele resolution.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- chemical-cleavage
+variant_of:
+- nome-seq
+reference:
+  doi: 10.1186/s12864-024-10625-3
+  year: 2024
+  journal: BMC Genomics
+  first_author: Schwaiger M
+  last_author: Kaaij LJT
+  pmid: '39075377'
+  pmcid: PMC11288131
+  title: guidedNOMe-seq quantifies chromatin states at single allele resolution for hundreds of custom regions in parallel
+links: {}
+added: '2026-11-14'
+evidence: To overcome this limitation, we introduce guidedNOMe-seq, where we combine NOMe profiling with large scale sgRNA
+  synthesis and Cas9-mediated region-of-interest (ROI) liberation.

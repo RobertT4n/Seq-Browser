@@ -1,0 +1,23 @@
+name: ATLAS tumor classifier
+full_name: AI tumor lineage and site
+category: dry
+summary: Gradient-boosted models predicting tumour site of origin and lineage from RNA expression, platform-independent and
+  validated on metastatic samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-05981-5
+  year: 2024
+  journal: Commun Biol
+  first_author: Rydzewski NR
+  last_author: Zhao SG
+  pmid: '38480799'
+  pmcid: PMC10937974
+  title: A platform-independent AI tumor lineage and site (ATLAS) classifier
+links: {}
+added: '2026-11-14'
+evidence: Utilizing gradient-boosted machine learning, we developed ATLAS, a pair of separate AI Tumor Lineage and Site-of-origin
+  models from RNA expression data on 8249 tumor samples.

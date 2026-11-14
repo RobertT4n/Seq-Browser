@@ -1,0 +1,32 @@
+name: SM-PATseq
+full_name: single-molecule poly(A) tail sequencing
+category: wet
+summary: Long-read cDNA sequencing that primes first strand from an oligo-dT 3-prime splint adaptor to measure transcriptome-wide
+  poly(A) tail length and non-A bases at nucleotide resolution.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- reverse-transcription
+- adapter-ligation
+- long-read-sequencing
+reference:
+  doi: 10.7554/elife.59186
+  year: 2020
+  journal: Elife
+  first_author: Mattijssen S
+  last_author: Maraia RJ
+  pmid: '32744499'
+  pmcid: PMC7413741
+  title: Single molecule poly(A) tail-seq shows LARP4 opposes deadenylation throughout mRNA lifespan with most impact on short
+    tails
+links: {}
+added: '2026-11-14'
+evidence: We developed the single-molecule poly(A) tail sequencing method, SM-PATseq, to assay tail lengths of the whole transcriptome
+  at nucleotide resolution using long-read sequencing.

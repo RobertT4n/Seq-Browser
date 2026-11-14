@@ -1,0 +1,30 @@
+name: PROFIT-seq
+full_name: PROgrammable Full-length Isoform Transcriptome sequencing
+category: wet
+summary: Combinatorial reverse transcription captures polyA, non-polyA and circular RNAs, with programmable real-time control
+  that enriches chosen transcripts during long-read sequencing while keeping whole-transcriptome quantification.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41556-024-01537-1
+  year: 2024
+  journal: Nat Cell Biol
+  first_author: Zhang J
+  last_author: Zhao F
+  pmid: '39443694'
+  pmcid: PMC11628399
+  title: Real-time and programmable transcriptome sequencing with PROFIT-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we describe programmable full-length isoform transcriptome sequencing (PROFIT-seq), a method that enriches
+  target transcripts while maintaining unbiased quantification of the whole transcriptome.

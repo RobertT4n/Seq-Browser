@@ -1,0 +1,22 @@
+name: scDecouple
+category: dry
+summary: Separates true per-gRNA cellular response from cluster-level infected-proportion bias in scCRISPR-seq data by iterative
+  maximum likelihood.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae011
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Meng Q
+  last_author: Zhang X
+  pmid: '38324621'
+  pmcid: PMC10849189
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+links: {}
+added: '2026-11-14'
+evidence: We developed scDecouple to decouple true cellular response of perturbation from the influence of infected proportion
+  bias.

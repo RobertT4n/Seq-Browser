@@ -1,0 +1,23 @@
+name: SAKit
+full_name: Sequencing Analysis Kit
+category: dry
+summary: Pipeline combining long- and short-read RNA-seq to detect large and small variants and predict the resulting novel
+  proteins.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720024500227
+  year: 2024
+  journal: J Bioinform Comput Biol
+  first_author: Li Y
+  last_author: Fei C
+  pmid: '39573833'
+  title: 'SAKit: An all-in-one analysis pipeline for identifying novel proteins resulting from variant events at both large
+    and small scales'
+links: {}
+added: '2026-11-14'
+evidence: We present the development of Sequencing Analysis Kit (SAKit), a bioinformatics pipeline for hybrid sequencing analysis
+  integrating long-read and short-read RNA sequencing data.

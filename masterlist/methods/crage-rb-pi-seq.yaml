@@ -1,0 +1,30 @@
+name: CRAGE-RB-PI-seq
+full_name: chassis-independent recombinase assisted genome engineering with randomly-barcoded promoter-library insertion sequencing
+category: wet
+summary: Barcoded promoter-library insertion into bacteria, with targeted amplification of barcoded transcripts to measure
+  promoter activities during plant-root colonization.
+readouts:
+- rna
+resolution:
+- bulk
+temporal:
+- longitudinal-sampling
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+perturbation:
+- reporter-assay
+reference:
+  doi: 10.1101/2024.11.19.624340
+  year: 2024
+  journal: bioRxiv
+  first_author: Honda T
+  last_author: Yoshikuni Y
+  title: CRAGE-RB-PI-seq enables transcriptional profiling of rhizobacteria during plant-root colonization
+links: {}
+added: '2026-11-14'
+evidence: we developed randomly-barcoded promoter-library insertion sequencing (RB-PI-seq) and combined it with chassis-independent
+  recombinase assisted genome engineering (CRAGE)

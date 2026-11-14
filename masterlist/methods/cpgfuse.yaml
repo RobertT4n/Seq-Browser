@@ -1,0 +1,20 @@
+name: CpGFuse
+category: dry
+summary: Fused-feature model that imputes CpG methylation states in single cells from other cells of the same type.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf063
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Park S
+  last_author: Tayara H
+  pmid: '39968737'
+  pmcid: PMC11836533
+  title: 'CpGFuse: a holistic approach for accurate identification of methylation states of DNA CpG sites'
+links: {}
+added: '2026-11-14'
+evidence: we introduce CpGFuse, a novel methodology that combines information from diverse genomic features.

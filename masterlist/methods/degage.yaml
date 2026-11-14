@@ -1,0 +1,22 @@
+name: DEGage
+category: dry
+summary: Differential-expression test for scRNA-seq that uses the difference of two negative binomial distributions for the
+  p-value.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278843.123
+  year: 2024
+  journal: Genome Res
+  first_author: Petrany A
+  last_author: Chen Y
+  pmid: '39406498'
+  pmcid: PMC11529838
+  title: Theoretical framework for the difference of two negative binomial distributions and its application in comparative
+    analysis of sequencing data
+links: {}
+added: '2026-11-14'
+evidence: we introduce DEGage, a computational method for detecting differentially expressed genes (DEGs) in scRNA-seq data.

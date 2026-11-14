@@ -1,0 +1,32 @@
+name: SMRT-UMI
+full_name: Single molecule real-time sequencing of cDNA templates tagged with unique molecular identifiers
+category: wet
+summary: PacBio sequencing of UMI-tagged PCR amplicons from cDNA with an optimized protocol that limits PCR recombination
+  and yields accurate consensus sequences per template, processed by PORPIDpipeline.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- pacbio
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1093/ve/veae019
+  year: 2024
+  journal: Virus Evol
+  first_author: Westfall DH
+  last_author: Mullins JI
+  pmid: '38765465'
+  pmcid: PMC11099545
+  title: Optimized SMRT-UMI protocol produces highly accurate sequence datasets from diverse populations-Application to HIV-1
+    quasispecies
+links: {}
+added: '2026-11-14'
+evidence: The Pacific Biosciences single molecule real-time platform was used to sequence polymerase-chain reaction (PCR)
+  amplicons derived from cDNA templates tagged with unique molecular identifiers (SMRT-UMI).

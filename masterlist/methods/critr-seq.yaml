@@ -1,0 +1,28 @@
+name: CRITR-seq
+full_name: CRISPR with Transcriptional Readout
+category: wet
+summary: CRISPR screen in which each guide sequence is linked to activity at a promoter of interest, read out by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: abstract does not describe library-prep chemistry; check Methods
+perturbation:
+- crispr-knockout
+chemistry: []
+reference:
+  doi: 10.1073/pnas.2515564122
+  year: 2025
+  journal: Proc Natl Acad Sci U S A
+  first_author: Vicary AC
+  last_author: Russell AB
+  pmid: '40864651'
+  pmcid: PMC12415228
+  title: CRISPR with Transcriptional Readout reveals influenza transcription is modulated by NELF and can precipitate an interferon
+    response
+  preprint_doi: 10.1101/2024.11.14.623683
+links: {}
+added: '2026-11-14'
+evidence: we developed CRISPR with Transcriptional Readout (CRITR-seq). CRITR-seq is a method linking CRISPR guide sequence
+  to activity at a promoter of interest.

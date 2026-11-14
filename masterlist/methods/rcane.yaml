@@ -1,0 +1,20 @@
+name: RCANE
+category: dry
+summary: Deep learning model that predicts genome-wide somatic copy number aberrations from RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.03.621681
+  year: 2024
+  journal: bioRxiv
+  first_author: Ge C
+  last_author: Li H
+  title: 'RCANE: A Deep Learning Algorithm for Whole-genome Pan-Cancer Somatic Copy Number Aberration Prediction using RNA-seq
+    Data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce RCANE, a deep learning-based method designed to predict genome-wide SCNAs across various cancer types
+  using RNA-seq data.

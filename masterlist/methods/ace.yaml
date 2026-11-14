@@ -1,0 +1,21 @@
+name: ACE
+category: dry
+summary: Contrastive-learning framework for mosaic integration of single-cell multi-omics datasets with unequal modality coverage,
+  with alignment (ACE-align) and regression (ACE-spec) strategies.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.28.625798
+  year: 2024
+  journal: bioRxiv
+  first_author: Yan X
+  last_author: Li M
+  title: 'ACE: a versatile contrastive learning framework for single-cell mosaic integration'
+links: {}
+added: '2026-11-14'
+evidence: 'Here, we present ACE, a mosaic integration framework that assembles two types of strategies to handle this problem:
+  modality-alignment based strategy (ACE-align) and regression-based strategy (ACE-spec).'

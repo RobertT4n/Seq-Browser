@@ -1,0 +1,23 @@
+name: pathMap
+category: dry
+summary: K-mer-graph read mapper for long noisy reads that treats chaining as iterative longest-path selection for higher
+  sensitivity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae107
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Wei ZG
+  last_author: Wu FX
+  pmid: '38517696'
+  pmcid: PMC10959152
+  title: 'pathMap: a path-based mapping tool for long noisy reads with high sensitivity'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present pathMap, a novel k-mer graph-based mapper that is specifically designed for mapping SMS
+  reads with high sensitivity.

@@ -1,0 +1,23 @@
+name: ConDecon
+category: dry
+summary: Clustering-independent deconvolution that estimates cell abundances along continuous cell states in bulk tissue using
+  scRNA-seq reference.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100905
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Aubin RG
+  last_author: Camara PG
+  pmid: '39561717'
+  pmcid: PMC11705773
+  title: Clustering-independent estimation of cell abundances in bulk tissues using single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: We present ConDecon, a clustering-independent method for inferring the likelihood for each cell in a single-cell
+  dataset to be present in a bulk tissue.

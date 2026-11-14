@@ -1,0 +1,27 @@
+name: dpMIG-seq
+full_name: degenerate oligonucleotide primer MIG-seq
+category: wet
+summary: PCR-based NGS library preparation from unpurified plant DNA using MIG-seq primers whose repeat segment is replaced
+  by degenerate oligonucleotides.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1111/tpj.16708
+  year: 2024
+  journal: Plant J
+  first_author: Nishimura K
+  last_author: Nakazaki T
+  pmid: '38459738'
+  title: 'Degenerate oligonucleotide primer MIG-seq: an effective PCR-based method for high-throughput genotyping'
+links: {}
+added: '2026-11-14'
+evidence: This innovation, named degenerate oligonucleotide primer MIG-seq (dpMIG-seq), enabled a streamlined protocol for
+  constructing dpMIG-seq libraries from unpurified DNA, which was implemented stably in several crop species, including fruit
+  trees.

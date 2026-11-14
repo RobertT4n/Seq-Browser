@@ -1,0 +1,22 @@
+name: ComBat-ref
+category: dry
+summary: Batch-effect correction for RNA-seq counts that picks the lowest-dispersion batch as reference and adjusts other
+  batches toward it using a negative binomial model.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2024.12.010
+  year: 2025
+  journal: Comput Struct Biotechnol J
+  first_author: Zhang X
+  last_author: Zhang X
+  pmid: '39802213'
+  pmcid: PMC11718288
+  title: Highly effective batch effect correction method for RNA-seq count data
+links: {}
+added: '2026-11-14'
+evidence: we introduce ComBat-ref, a refined batch effect correction method designed to enhance the statistical power and
+  reliability of differential expression analysis in RNA-seq data.

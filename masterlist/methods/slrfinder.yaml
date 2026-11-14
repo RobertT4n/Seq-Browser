@@ -1,0 +1,21 @@
+name: SLRfinder
+category: dry
+summary: Detects candidate sex-linked regions from population sequencing data using linkage disequilibrium clustering, heterozygosity
+  and divergence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.13985
+  year: 2024
+  journal: Mol Ecol Resour
+  first_author: Yi X
+  last_author: Merilä J
+  pmid: '38850116'
+  title: 'SLRfinder: A method to detect candidate sex-linked regions with linkage disequilibrium clustering'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present SLRfinder, a method to identify candidate SLRs using linkage disequilibrium (LD) clustering, heterozygosity
+  and genetic divergence.

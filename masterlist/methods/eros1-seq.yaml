@@ -1,0 +1,25 @@
+name: eROS1-seq
+full_name: engineered ROS1 sequencing
+category: wet
+summary: 'Bisulfite-free base-resolution 5mC sequencing: an engineered ROS1 glycosylase/lyase excises 5mC, dTTP is incorporated,
+  and 5mC reads as T.'
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+reference:
+  doi: 10.1021/acs.analchem.4c05030
+  year: 2024
+  journal: Anal Chem
+  first_author: Gang FY
+  last_author: Yuan BF
+  pmid: '39681302'
+  title: Bisulfite-Free and Quantitative Detection of DNA Methylation at Single-Base Resolution by eROS1-seq
+links: {}
+added: '2026-11-14'
+evidence: we introduced a method termed engineered ROS1 sequencing (eROS1-seq) for bisulfite-free and quantitative detection
+  of 5mC in DNA at single-base resolution.

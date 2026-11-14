@@ -1,0 +1,22 @@
+name: MiRIx
+full_name: microbiome response index
+category: dry
+summary: Antibiotic-specific index that quantifies and predicts microbiome response to antibiotics from 16S or shotgun metagenomic
+  data using bacterial phenotype databases.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msphere.00488-24
+  year: 2024
+  journal: mSphere
+  first_author: Tu V
+  last_author: Bittinger K
+  pmid: '39230261'
+  pmcid: PMC11423569
+  title: A quantitative approach to measure and predict microbiome response to antibiotics
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce such a method, which takes the form of a microbiome response index (MiRIx) for each antibiotic.

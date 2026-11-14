@@ -1,0 +1,28 @@
+name: Dyna-vivo-seq
+category: wet
+summary: In vivo metabolic RNA labeling combined with scRNA-seq to profile new versus old RNA at single-cell level.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-024-54202-4
+  year: 2024
+  journal: Nat Commun
+  first_author: Yin K
+  last_author: Yang C
+  pmid: '39543112'
+  pmcid: PMC11564529
+  title: Dyna-vivo-seq unveils cellular RNA dynamics during acute kidney injury via in vivo metabolic RNA labeling-based scRNA-seq
+links: {}
+added: '2026-11-14'
+evidence: we introduce Dyna-vivo-seq, a strategy that enables time-resolved dynamic transcription profiling in vivo at the
+  single-cell level by examining new and old RNAs.

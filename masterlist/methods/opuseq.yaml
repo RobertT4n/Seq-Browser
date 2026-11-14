@@ -1,0 +1,25 @@
+name: OPUSeq
+full_name: One-Pot double-stranded UMI Sequencing
+category: wet
+summary: Library preparation that adds double-stranded unique molecular identifiers in the same reaction as library PCR to
+  detect very low-frequency DNA variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: dsUMI incorporation during library PCR; no matching taxonomy chemistry tag stated in abstract
+reference:
+  doi: 10.1093/nargab/lqac048
+  year: 2022
+  journal: NAR Genom Bioinform
+  first_author: Alekseenko A
+  last_author: Pelechano V
+  pmid: '35769342'
+  pmcid: PMC9235115
+  title: OPUSeq simplifies detection of low-frequency DNA variants and uncovers fragmentase-associated artifacts
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel method, one-pot dsUMI sequencing (OPUSeq), which allows incorporation of dsUMIs in the
+  same reaction as the library PCR.

@@ -1,0 +1,29 @@
+name: RAG-seq
+full_name: NSR-primed and Transposase Tagmentation-mediated Strand-specific Total RNA Sequencing
+category: wet
+summary: Strand-specific total-RNA sequencing of single cells combining not-so-random primers, DASH rRNA depletion and Tn5
+  tagmentation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+- tn5
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1093/gpbjnl/qzae072
+  year: 2024
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Xu P
+  last_author: Yu Y
+  pmid: '39388199'
+  pmcid: PMC11658833
+  title: 'RAG-seq: NSR-primed and Transposase Tagmentation-mediated Strand-specific Total RNA Sequencing in Single Cells'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present RAG-seq, an innovative strand-specific total RNA sequencing technique that combines not-so-random
+  (NSR) primers with Tn5 transposase-mediated tagmentation.

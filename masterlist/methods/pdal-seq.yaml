@@ -1,0 +1,26 @@
+name: PDAL-seq
+full_name: permanganate/S1 footprinting with direct adapter ligation and sequencing
+category: wet
+summary: Permanganate traps single-stranded DNA at non-B structures, S1 nuclease cuts there, and adapters are ligated directly
+  to the cut ends for sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1016/bs.mie.2023.12.003
+  year: 2024
+  journal: Methods Enzymol
+  first_author: Lahnsteiner A
+  last_author: Makova KD
+  pmid: '38521584'
+  title: In vivo detection of DNA secondary structures using permanganate/S1 footprinting with direct adapter ligation and
+    sequencing (PDAL-Seq)
+links: {}
+added: '2026-11-14'
+evidence: Here we describe an updated version of a technique permanganate/S1 nuclease footprinting, which uses potassium permanganate
+  to trap single-stranded DNA regions as found in many non-B structures, in combination with S1 nuclease digest and adapter
+  ligation to detect g

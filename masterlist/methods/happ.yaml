@@ -1,0 +1,24 @@
+name: HAPP
+full_name: High-Accuracy Pipeline for Processing deep metabarcoding data
+category: dry
+summary: High-accuracy pipeline for deep metabarcoding data with chimera removal, taxonomic annotation, OTU clustering and
+  a new noise filter (NEEAT).
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1013558
+  year: 2025
+  journal: PLoS Comput Biol
+  first_author: Sundh J
+  last_author: Ronquist F
+  pmid: '41202092'
+  pmcid: PMC12622834
+  title: 'HAPP: High-accuracy pipeline for processing deep metabarcoding data'
+  preprint_doi: 10.1101/2024.12.20.629441
+links: {}
+added: '2026-11-14'
+evidence: We introduce HAPP, a high-accuracy pipeline for processing deep metabarcoding data, leveraging data richness to
+  enhance the signal-to-noise-ratio.

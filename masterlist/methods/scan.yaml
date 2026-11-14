@@ -1,0 +1,31 @@
+name: SCAN
+category: wet
+summary: Nanopore-based decision-support assay estimating chromosome proportions for common aneuploidies by DNA amplification,
+  barcoding, nanopore sequencing and machine learning.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+species:
+- human
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+reference:
+  doi: 10.1186/s40246-024-00690-w
+  year: 2024
+  journal: Hum Genomics
+  first_author: Schack AK
+  last_author: Krych L
+  pmid: '39578906'
+  pmcid: PMC11583562
+  title: 'SCAN: a nanopore-based, cost effective decision-supporting tool for mass screening of aneuploidies'
+links: {}
+added: '2026-11-14'
+evidence: Here we present SCAN, a novel, non-invasive, and cost-effective decision-support tool utilizing nanopore sequencing
+  for estimating proportions of chromosomes responsible for the most common aneuploidies.

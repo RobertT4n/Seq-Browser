@@ -1,0 +1,29 @@
+name: DEPICT-seq
+full_name: Double Emulsion PCR-Initiated Cell sorting and Transcriptomic Sequencing
+category: wet
+summary: Fixed cells are sorted by double-emulsion digital PCR on nucleic acid markers, then profiled by full-length single-cell
+  transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- facs-sorting
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.4c03075
+  year: 2024
+  journal: Anal Chem
+  first_author: Bao K
+  last_author: Zhang J
+  pmid: '39287475'
+  pmcid: PMC11483345
+  title: 'DEPICT-seq: Single-Cell Transcriptomic Analysis of Rare Cell Subsets Isolated via Nucleic Acid Cytometry'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Double Emulsion PCR-Initiated Cell sorting and Transcriptomic Sequencing (DEPICT-seq), a high-throughput
+  droplet nucleic acid cytometry method that integrates batch cell fixation for cellular information preservation, double
+  emulsion digital PCR-based cell sorting to target nucleic acid markers of interest, and in-depth full-length transcriptomic
+  analyses at single-cell resolution.

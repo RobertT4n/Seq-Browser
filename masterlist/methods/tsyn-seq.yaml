@@ -1,0 +1,31 @@
+name: Tsyn-seq
+full_name: T-synapse reporter sequencing
+category: wet
+summary: Screens a tumour cDNA library for antigens recognised by a T-cell receptor using dual-reporter T cell-APC synapses,
+  flow-sorting and deep sequencing of enriched antigens.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- reporter-assay
+chemistry:
+- facs-sorting
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1158/2326-6066.cir-23-0467
+  year: 2024
+  journal: Cancer Immunol Res
+  first_author: Jin Y
+  last_author: Jenq RR
+  pmid: '38363296'
+  pmcid: PMC11065584
+  title: 'Tsyn-Seq: a T-cell Synapse-Based Antigen Identification Platform'
+links: {}
+added: '2026-11-14'
+evidence: productively interacting T cell-APC aggregates were detected by dual-reporter activity and enriched by flow sorting
+  followed by antigen identification quantified by deep sequencing (Tsyn-seq).

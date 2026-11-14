@@ -1,0 +1,21 @@
+name: DreaM
+full_name: Deduplication of Reads for Enhanced and Accurate Mapping
+category: dry
+summary: Pipeline that removes PCR duplicates and trims reads before mapping to improve peak detection in repetitive regions
+  such as centromeres.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.11.12.623194
+  year: 2024
+  journal: bioRxiv
+  first_author: Kumar S
+  last_author: Esashi F
+  title: 'DreaM: A Computational Pipeline for Enhanced Short-Read Sequence Analysis in Repetitive Genomic Regions'
+links: {}
+added: '2026-11-14'
+evidence: we developed DreaM (Deduplication of Reads for Enhanced and Accurate Mapping), a computational pipeline that prioritises
+  the preprocessing of raw sequencing data.

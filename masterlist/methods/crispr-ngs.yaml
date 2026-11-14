@@ -1,0 +1,26 @@
+name: CRISPR-NGS
+full_name: CRISPR-Cas9-modified next-generation sequencing for antibiotic resistance gene enrichment
+category: wet
+summary: Cas9-based enrichment during library preparation raises the detection of low-abundance antibiotic resistance genes
+  in wastewater metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: abstract does not state the library-prep steps (Cas9 cleavage step has no taxonomy tag)
+species:
+- microbe
+reference:
+  doi: 10.1016/j.watres.2024.123056
+  year: 2025
+  journal: Water Res
+  first_author: Mao Y
+  last_author: Nguyen TH
+  pmid: '39756219'
+  title: Enhanced detection for antibiotic resistance genes in wastewater samples using a CRISPR-enriched metagenomic method
+links: {}
+added: '2026-11-14'
+evidence: We developed a CRISPR-Cas9-modified next-generation sequencing (NGS) method to enrich the targeted ARGs during library
+  preparation.

@@ -1,0 +1,21 @@
+name: NNICE
+category: dry
+summary: Quantile-regression deep neural network that deconvolves bulk RNA-seq into cell-type fractions with uncertainty.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-024-65053-w
+  year: 2024
+  journal: Sci Rep
+  first_author: Jin YW
+  last_author: Liu Q
+  pmid: '38890415'
+  pmcid: PMC11189483
+  title: 'NNICE: a deep quantile neural network algorithm for expression deconvolution'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we developed a quantile regression and deep learning-based method called Neural Network Immune Contexture
+  Estimator (NNICE) to estimate the cell type abundance and its uncertainty by automatically deconvolving bulk RNA-seq data.
