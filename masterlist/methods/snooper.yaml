@@ -1,0 +1,22 @@
+name: SNooPer
+category: dry
+summary: Random Forest classifier trained on data-specific known true and error variants to call somatic variants from low-pass
+  sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-3281-2
+  year: 2016
+  journal: BMC Genomics
+  first_author: Spinella JF
+  last_author: Sinnett D
+  pmid: '27842494'
+  pmcid: PMC5109690
+  title: 'SNooPer: a machine learning-based method for somatic variant identification from low-pass next-generation sequencing'
+links: {}
+added: '2026-11-14'
+evidence: For these reasons, we developed SNooPer, a versatile machine learning approach that uses Random Forest classification
+  models to accurately call somatic variants in low-depth sequencing data.

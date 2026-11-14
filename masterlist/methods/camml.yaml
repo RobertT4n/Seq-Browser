@@ -1,0 +1,16 @@
+name: CAMML
+full_name: Cell-typing using variance Adjusted Mahalanobis distances with Multi-Labeling
+category: dry
+summary: Multi-label cell typing for scRNA-seq scoring each cell against weighted cell-type gene sets with variance-adjusted
+  Mahalanobis distances.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1142/9789811250477_0019
+links: {}
+added: '2026-11-14'
+evidence: To address this, we developed a new scRNA-seq cell-typing method, Cell-typing using variance Adjusted Mahalanobis
+  distances with Multi-Labeling (CAMML).

@@ -1,0 +1,25 @@
+name: Strand-shift profile
+full_name: Strand-shift profile (SSP)
+aliases:
+- SSP
+category: dry
+summary: Peak-calling-free quality assessment of ChIP-seq data that quantifies signal-to-noise and peak reliability from read
+  strand shifts.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty137
+  year: 2018
+  journal: Bioinformatics
+  first_author: Nakato R
+  last_author: Shirahige K
+  pmid: '29528371'
+  title: Sensitive and robust assessment of ChIP-seq read distribution using a strand-shift profile
+links: {}
+added: '2026-11-14'
+evidence: We developed a quality-assessment tool for ChIP-seq data, strand-shift profile (SSP), which quantifies S/N and peak
+  reliability without peak calling.

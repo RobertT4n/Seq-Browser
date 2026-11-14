@@ -1,0 +1,29 @@
+name: SPLAT
+full_name: SPlinted Ligation Adapter Tagging
+category: wet
+summary: Whole-genome bisulphite library preparation that ligates adapters to bisulphite-converted single-stranded DNA using
+  a splint oligo.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+variant_of:
+- wgbs
+reference:
+  doi: 10.1093/nar/gkw1110
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Raine A
+  last_author: Nordlund J
+  pmid: '27899585'
+  pmcid: PMC5389478
+  title: SPlinted Ligation Adapter Tagging (SPLAT), a novel library preparation method for whole genome bisulphite sequencing
+links: {}
+added: '2026-11-14'
+evidence: we present a novel approach for quick and cost effective WGBS library preparation that is based on splinted adaptor
+  tagging (SPLAT) of bisulphite-converted single-stranded DNA.

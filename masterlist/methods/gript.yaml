@@ -1,0 +1,26 @@
+name: GRIPT
+full_name: Gene Ranking, Identification and Prediction Tool
+category: dry
+summary: Case-control analysis tool that ranks and predicts disease genes for Mendelian disease from next-generation sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+task:
+- differential-analysis
+- variants-clones
+reference:
+  doi: 10.1186/s13059-018-1579-x
+  year: 2018
+  journal: Genome Biol
+  first_author: Wang J
+  last_author: Chen R
+  pmid: '30477545'
+  pmcid: PMC6258408
+  title: 'GRIPT: a novel case-control analysis method for Mendelian disease gene discovery'
+links: {}
+added: '2026-11-14'
+evidence: we developed a novel method, the Gene Ranking, Identification and Prediction Tool (GRIPT), for performing case-control
+  analysis of NGS data.

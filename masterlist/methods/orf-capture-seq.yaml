@@ -1,0 +1,30 @@
+name: ORF Capture-Seq
+category: wet
+summary: Targeted full-length isoform sequencing that uses collections of cloned ORFs as capture probes to enrich transcripts
+  of chosen genes before long-read sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+species:
+- human
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-020-16174-z
+  year: 2020
+  journal: Nat Commun
+  first_author: Sheynkman GM
+  last_author: Vidal M
+  pmid: '32393825'
+  pmcid: PMC7214433
+  title: ORF Capture-Seq as a versatile method for targeted identification of full-length isoforms
+links: {}
+added: '2026-11-14'
+evidence: Here, we present ORF Capture-Seq (OCS), a flexible method that addresses both challenges for targeted full-length
+  isoform sequencing applications using collections of cloned ORFs as probes.

@@ -1,0 +1,24 @@
+name: Diff-seq
+category: wet
+summary: Surveyor endonuclease cleaves mismatches in cross-annealed DNA pools so sequencing libraries are enriched for variant
+  sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: mismatch-specific endonuclease (Surveyor) cleavage enrichment has no fitting taxonomy tag; library chemistry
+  not stated in abstract
+reference:
+  doi: 10.1093/nar/gky022
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Aggeli D
+  last_author: Sherlock G
+  pmid: '29361139'
+  pmcid: PMC5909455
+  title: 'Diff-seq: A high throughput sequencing-based mismatch detection assay for DNA variant enrichment and discovery'
+links: {}
+added: '2026-11-14'
+evidence: We have developed Diff-seq, a sequencing-based mismatch detection assay for SNP discovery without the requirement
+  for specialized nucleic-acid reagents.

@@ -1,0 +1,28 @@
+name: CRISPRi-seq
+category: wet
+summary: Inducible CRISPR interference system for genome-wide fitness testing of Streptococcus pneumoniae in one sequencing
+  step, applied in a mouse pneumonia model.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-interference
+species:
+- microbe
+chemistry_unknown: library-prep chemistry not stated in abstract
+reference:
+  doi: 10.1016/j.chom.2020.10.001
+  year: 2021
+  journal: Cell Host Microbe
+  first_author: Liu X
+  last_author: Veening JW
+  pmid: '33120116'
+  pmcid: PMC7855995
+  title: Exploration of Bacterial Bottlenecks and Streptococcus pneumoniae Pathogenesis by CRISPRi-Seq
+links: {}
+added: '2026-11-14'
+evidence: we developed an inducible CRISPR interference system that enables genome-wide fitness testing in one sequencing
+  step (CRISPRi-seq).
+_nr: Distinct from existing crispriseq (yeast pairwise genetic interactions, Jaffe 2019); chemistry not stated in abstract

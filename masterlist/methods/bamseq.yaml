@@ -1,0 +1,27 @@
+name: BAmSeq
+full_name: Biotinylated amplicon sequencing
+category: wet
+summary: PCR amplicon NGS libraries are made with biotinylated primers so the original source DNA can be recovered afterwards.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+input_sample:
+- low-input
+- ffpe-archival
+reference:
+  doi: 10.1016/j.plabm.2018.e00108
+  year: 2018
+  journal: Pract Lab Med
+  first_author: Cravero K
+  last_author: Park BH
+  pmid: '30140723'
+  pmcid: PMC6104457
+  title: 'Biotinylated amplicon sequencing: A method for preserving DNA samples of limited quantity'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe biotinylated amplicon sequencing (BAmSeq), a method that allows for the creation of PCR amplicon
+  based next-generation sequencing (NGS) libraries while retaining the original source DNA.

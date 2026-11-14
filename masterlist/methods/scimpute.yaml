@@ -1,0 +1,20 @@
+name: scImpute
+category: dry
+summary: Statistical method that identifies likely dropout zeros in scRNA-seq data and imputes only those values.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03405-7
+  year: 2018
+  journal: Nat Commun
+  first_author: Li WV
+  last_author: Li JJ
+  pmid: '29520097'
+  pmcid: PMC5843666
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: We introduce scImpute, a statistical method to accurately and robustly impute the dropouts in scRNA-seq data.

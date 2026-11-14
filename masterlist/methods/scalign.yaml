@@ -1,0 +1,21 @@
+name: scAlign
+category: dry
+summary: Unsupervised deep learning method for scRNA-seq alignment, integration and rare cell identification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1766-4
+  year: 2019
+  journal: Genome Biol
+  first_author: Johansen N
+  last_author: Quon G
+  pmid: '31412909'
+  pmcid: PMC6693154
+  title: 'scAlign: a tool for alignment, integration, and rare cell identification from scRNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We present scAlign, an unsupervised deep learning method for data integration that can incorporate partial, overlapping,
+  or a complete set of cell labels, and estimate per-cell differences in gene expression across datasets.

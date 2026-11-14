@@ -1,0 +1,32 @@
+name: INC-Seq
+full_name: Intramolecular-ligated Nanopore Consensus Sequencing
+category: wet
+summary: Nanopore strategy that builds consensus from repeated copies of one molecule to give long, accurate single-molecule
+  reads, shown on 16S rRNA amplicons.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+reference:
+  doi: 10.1186/s13742-016-0140-7
+  year: 2016
+  journal: Gigascience
+  first_author: Li C
+  last_author: Nagarajan N
+  pmid: '27485345'
+  pmcid: PMC4970289
+  title: 'INC-Seq: accurate single molecule reads using nanopore sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We developed the Intramolecular-ligated Nanopore Consensus Sequencing (INC-Seq) as a strategy for obtaining long
+  and accurate nanopore reads, starting with low input DNA.

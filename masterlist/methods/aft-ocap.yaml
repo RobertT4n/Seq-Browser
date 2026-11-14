@@ -1,0 +1,24 @@
+name: AFT-OCAP
+full_name: alkynyl-functionalized trimethylpiperidine enrichment of O-GlcNAc chromatin-associated proteins
+category: wet
+summary: Chemical derivatisation of azide-labelled O-GlcNAc chromatin-associated protein-DNA complexes with an alkynyl AFT
+  reagent for enrichment, then MS and DNA sequencing of their binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+targets:
+- O-GlcNAc chromatin-associated proteins
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1016/j.talanta.2021.123167
+links: {}
+added: '2026-11-14'
+evidence: we developed a chemical enrichment method (AFT-OCAP) for simultaneously profiling OCAPs and mapping their binding
+  DNA via mass spectrometry (MS) analysis and DNA sequencing.

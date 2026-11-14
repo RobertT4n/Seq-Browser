@@ -1,0 +1,26 @@
+name: Holo-Seq
+full_name: Single-cell holo-transcriptome sequencing
+category: wet
+summary: Single-cell RNA-seq that keeps strand information and captures small RNAs and mRNAs together from one cell.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1186/s13059-018-1553-7
+  year: 2018
+  journal: Genome Biol
+  first_author: Xiao Z
+  last_author: Jia J
+  pmid: '30333049'
+  pmcid: PMC6193298
+  title: 'Holo-Seq: single-cell sequencing of holo-transcriptome'
+links: {}
+added: '2026-11-14'
+evidence: we introduce a single-cell holo-transcriptome sequencing (Holo-Seq) that overcomes all three hurdles.

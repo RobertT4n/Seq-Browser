@@ -1,0 +1,27 @@
+name: BSEx-seq
+full_name: Bulked segregant exome sequencing
+category: dry
+summary: Mapping-and-candidate-gene pipeline that compares exome sequence of mutant and normal F2 DNA pools to find deletion
+  mutants in maize.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+task:
+- variants-clones
+species:
+- plant
+reference:
+  doi: 10.1016/j.gpb.2018.02.003
+  year: 2018
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Jia S
+  last_author: Holding D
+  pmid: '30743052'
+  pmcid: PMC6411947
+  title: An Exome-seq Based Tool for Mapping and Selection of Candidate Genes in Maize Deletion Mutants
+links: {}
+added: '2026-11-14'
+evidence: we developed a mapping and gene identification pipeline, bulked segregant exome sequencing (BSEx-seq), to map mutants
+  with kernel phenotypes

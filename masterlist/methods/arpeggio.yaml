@@ -1,0 +1,26 @@
+name: ARPEGGIO
+full_name: Automated Reproducible Polyploid EpiGenetic GuIdance workflOw
+category: dry
+summary: Automated workflow for whole-genome bisulfite data from allopolyploids, classifying reads to parental subgenomes
+  and calling differential methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- wgbs
+reference:
+  doi: 10.1186/s12864-021-07845-2
+  year: 2021
+  journal: BMC Genomics
+  first_author: Milosavljevic S
+  last_author: Robinson MD
+  pmid: '34273949'
+  pmcid: PMC8285871
+  title: 'ARPEGGIO: Automated Reproducible Polyploid EpiGenetic GuIdance workflOw'
+links: {}
+added: '2026-11-14'
+evidence: 'we developed the Automated Reproducible Polyploid EpiGenetic GuIdance workflOw (ARPEGGIO): the first workflow for
+  the analysis of epigenetic data in polyploids.'

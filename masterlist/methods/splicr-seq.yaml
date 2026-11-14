@@ -1,0 +1,30 @@
+name: SPLiCR-seq
+full_name: SPLicing regulator identification through CRISPR screening
+category: wet
+summary: Pooled CRISPR screening platform that reads out RNA splicing outcomes directly for each genetic perturbation instead
+  of using a fluorescent splicing reporter.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry_unknown: Library and read-out chemistry (how splicing outcome is linked to each guide) not stated in abstract; check
+  Methods
+reference:
+  doi: 10.1038/s41467-025-67633-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Ying Q
+  last_author: Tian R
+  pmid: '41419745'
+  pmcid: PMC12830819
+  title: 'SPLiCR-seq: A CRISPR-Based Screening Platform for RNA splicing Identifies Novel Regulators of IRE1α-XBP1 Signaling
+    Under ER Stress'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present SPLiCR-seq (SPLicing regulator identification through CRISPR screening), a high-throughput CRISPR
+  screening platform that enables direct measurement of RNA splicing outcomes for pooled genetic perturbations, overcoming
+  limitations of traditional fluorescence-based approaches.

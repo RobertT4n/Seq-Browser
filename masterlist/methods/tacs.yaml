@@ -1,0 +1,32 @@
+name: TACS
+full_name: TdT-assisted adenylate connector-mediated ssDNA ligation
+category: wet
+summary: Terminal transferase adds adenylates to ssDNA 3' ends so RNA ligase can attach an adaptor, replacing a random-priming
+  round in PBAT low-input whole-genome bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+variant_of:
+- wgbs
+input_sample:
+- low-input
+reference:
+  doi: 10.1093/nar/gkz435
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Miura F
+  last_author: Ito T
+  pmid: '31114914'
+  pmcid: PMC6736019
+  title: Highly efficient single-stranded DNA ligation technique improves low-input whole-genome bisulfite sequencing by post-bisulfite
+    adaptor tagging
+links: {}
+added: '2026-11-14'
+evidence: To overcome this limitation, we developed terminal deoxyribonucleotidyl transferase (TdT)-assisted adenylate connector-mediated
+  ssDNA (TACS) ligation as an alternative to random priming.

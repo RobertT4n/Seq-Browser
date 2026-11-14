@@ -1,0 +1,23 @@
+name: VERSE
+full_name: Virus intEgration sites through iterative Reference SEquence customization
+category: dry
+summary: Detects virus integration sites in host genomes from NGS data by iteratively customizing the virus reference to the
+  sample's own sequence variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-015-0126-6
+  year: 2015
+  journal: Genome Med
+  first_author: Wang Q
+  last_author: Zhao Z
+  pmid: '25699093'
+  pmcid: PMC4333248
+  title: 'VERSE: a novel approach to detect virus integration in host genomes through reference genome customization'
+links: {}
+added: '2026-11-14'
+evidence: To tackle these challenges and improve our capability to identify cryptic virus-host fusions, we present a new approach
+  that detects Virus intEgration sites through iterative Reference SEquence customization (VERSE).

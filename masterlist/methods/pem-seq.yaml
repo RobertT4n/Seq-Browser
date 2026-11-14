@@ -1,0 +1,27 @@
+name: PEM-seq
+full_name: primer-extension-mediated sequencing
+category: wet
+summary: Primer-extension-based sequencing assay that quantifies the full spectrum of DNA double-strand-break repair outcomes
+  at genome-editing-induced and endogenous breaks.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+- mouse
+chemistry_unknown: library chemistry (primer extension, PCR) not stated in the protocol abstract; origin paper not read
+reference:
+  doi: 10.1038/s41421-019-0088-8
+  year: 2019
+  journal: Cell Discov
+  first_author: Yin J
+  last_author: Hu J
+  pmid: '30937179'
+  pmcid: PMC6434046
+  title: Optimizing genome editing strategy by primer-extension-mediated sequencing
+links: {}
+added: '2026-11-14'
+evidence: PEM-seq presents a full spectrum of repair outcomes for both genome-editing-induced and endogenous DSBs in mouse
+  and human cells.

@@ -1,0 +1,22 @@
+name: MarcoPolo
+category: dry
+summary: Finds differentially expressed marker genes in scRNA-seq data without depending on prior clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac216
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Kim C
+  last_author: Han B
+  pmid: '35420135'
+  pmcid: PMC9262626
+  title: 'MarcoPolo: a method to discover differentially expressed genes in single-cell RNA-seq data without depending on
+    prior clustering'
+links: {}
+added: '2026-11-14'
+evidence: To overcome these limitations, we propose MarcoPolo, a method that identifies informative DEGs independently of
+  prior clustering.

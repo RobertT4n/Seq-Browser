@@ -1,0 +1,24 @@
+name: PATOPA
+full_name: Probabilistic Approach for estimating the Temporal Order of Pathway mutations by leveraging functional Annotations
+category: dry
+summary: Maximum-likelihood method inferring the temporal order of somatic mutations at pathway level, weighting mutations
+  by functional impact.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3218-2
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Wang M
+  last_author: Wang C
+  pmid: '31791231'
+  pmcid: PMC6889196
+  title: A probabilistic method for leveraging functional annotations to enhance estimation of the temporal order of pathway
+    mutations during carcinogenesis
+links: {}
+added: '2026-11-14'
+evidence: we develop a Probabilistic Approach for estimating the Temporal Order of Pathway mutations by leveraging functional
+  Annotations of mutations (PATOPA)

@@ -1,0 +1,23 @@
+name: Xrare
+category: dry
+summary: Machine-learning model combining phenotype similarity (ERIC) and genetic features to prioritise causative variants
+  in rare disease.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41436-019-0439-8
+  year: 2019
+  journal: Genet Med
+  first_author: Li Q
+  last_author: Wong WH
+  pmid: '30675030'
+  pmcid: PMC6752318
+  title: 'Xrare: a machine learning method jointly modeling phenotypes and genetic evidence for rare disease diagnosis'
+links: {}
+added: '2026-11-14'
+evidence: we present a novel method called Xrare for the prioritization of causative gene variants in rare disease diagnosis.

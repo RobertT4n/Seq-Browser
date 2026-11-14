@@ -1,0 +1,22 @@
+name: PairedFB
+category: dry
+summary: Full hierarchical Bayesian model for paired RNA-seq counts that allows heterogeneous treatment effects and controls
+  FDR.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty731
+  year: 2019
+  journal: Bioinformatics
+  first_author: Bian Y
+  last_author: Qiu J
+  pmid: '30753300'
+  pmcid: PMC7963077
+  title: 'PairedFB: a full hierarchical Bayesian model for paired RNA-seq data with heterogeneous treatment effects'
+links: {}
+added: '2026-11-14'
+evidence: we present a full hierarchical Bayesian model for the paired RNA-seq count data that accounts for variation of treatment
+  effects among pairs and controls the FDR through the posterior expected FDR.

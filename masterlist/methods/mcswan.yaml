@@ -1,0 +1,23 @@
+name: McSwan
+category: dry
+summary: Joint site-frequency-spectrum method that detects and dates hard selective sweeps across multiple population genomes
+  without haplotype phasing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+task:
+- population-genetics
+reference:
+  doi: 10.1111/1755-0998.12957
+  year: 2019
+  journal: Mol Ecol Resour
+  first_author: Tournebize R
+  last_author: Manel S
+  pmid: '30358170'
+  title: 'McSwan: A joint site frequency spectrum method to detect and date selective sweeps across multiple population genomes'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce McSwan, a method to detect and date past and recent natural selection events in the case of a
+  hard sweep.

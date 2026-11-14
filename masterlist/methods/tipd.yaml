@@ -1,0 +1,22 @@
+name: TIPD
+full_name: trajectory inference method based on probability distribution
+category: dry
+summary: Trajectory inference for scRNA-seq that combines signalling entropy with clustering results to describe population
+  heterogeneity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-021-00445-4
+  year: 2021
+  journal: Interdiscip Sci
+  first_author: Xie J
+  last_author: Wang J
+  pmid: '34109565'
+  title: 'TIPD: A Probability Distribution-Based Method for Trajectory Inference from Single-Cell RNA-Seq Data'
+links: {}
+added: '2026-11-14'
+evidence: We develop a novel trajectory inference method-based probability distribution (TIPD) to describe the heterogeneity
+  of cell population.

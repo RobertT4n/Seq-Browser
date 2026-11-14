@@ -1,0 +1,22 @@
+name: scHGR
+category: dry
+summary: Automated scRNA-seq cell annotation tool that builds gene-regulatory-relationship-based cell communication graphs
+  for graph learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278439.123
+  year: 2024
+  journal: Genome Res
+  first_author: Zhao M
+  last_author: Guo F
+  pmid: '39134412'
+  pmcid: PMC11368180
+  title: A gene regulatory network-aware graph learning method for cell identity annotation in single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: Therefore, we propose scHGR, an automated annotation tool designed to leverage gene regulatory relationships in
+  constructing gene-mediated cell communication graphs for single-cell transcriptome data.

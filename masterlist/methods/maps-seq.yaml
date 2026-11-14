@@ -1,0 +1,32 @@
+name: MAPS-seq
+full_name: magnetic bead-assisted parallel single-cell gene expression sequencing
+category: wet
+summary: Microwell-based single-cell RNA-seq in which magnetic beads capture mRNA and samples are pooled before reverse transcription.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microwell-array
+- oligo-capture
+- reverse-transcription
+throughput: lt-1e3
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s12276-020-0433-x
+  year: 2020
+  journal: Exp Mol Med
+  first_author: Park M
+  last_author: Lee JH
+  pmid: '32404928'
+  pmcid: PMC7272464
+  title: 'MAPS-seq: magnetic bead-assisted parallel single-cell gene expression profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce magnetic bead-assisted parallel single-cell gene expression sequencing (MAPS-seq), a microwell-based
+  method that pools samples before the reverse transcription step, increasing the ease of sample preparation and reducing
+  reagent waste.

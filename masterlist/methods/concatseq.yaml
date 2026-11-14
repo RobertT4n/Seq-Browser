@@ -1,0 +1,29 @@
+name: ConcatSeq
+category: wet
+summary: Library preparation that concatenates pools of short DNA fragments into long templates to raise throughput of single-molecule
+  long-read sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+- adapter-ligation
+platform:
+- long-read
+- pacbio
+evidence: Here, we present a novel strategy for sequencing library preparation, dubbed ConcatSeq, which increases the throughput
+  of SMS platforms by generating long concatenated templates from pools of short DNA molecules.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1038/s41598-017-05503-w
+  year: 2017
+  journal: Sci Rep
+  first_author: Schlecht U
+  last_author: Berka J
+  pmid: '28701704'
+  pmcid: PMC5507877
+  title: 'ConcatSeq: A method for increasing throughput of single molecule sequencing by concatenating short DNA fragments'

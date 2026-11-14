@@ -1,0 +1,20 @@
+name: JAX-CNV
+category: dry
+summary: Whole-genome-sequencing copy number variant caller with clinical-grade accuracy intended to replace chromosomal microarray.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2021.06.003
+  year: 2022
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Lee WP
+  last_author: Zhang C
+  pmid: '35085778'
+  pmcid: PMC10225484
+  title: 'JAX-CNV: A Whole-genome Sequencing-based Algorithm for Copy Number Detection at Clinical Grade Level'
+links: {}
+added: '2026-11-14'
+evidence: JAX-CNV is thus developed for CNV detection from WGS data.

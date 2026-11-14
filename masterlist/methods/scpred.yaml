@@ -1,0 +1,22 @@
+name: scPred
+category: dry
+summary: Supervised single-cell classifier using feature selection on reduced dimensions and machine learning for cell-type
+  assignment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1862-5
+  year: 2019
+  journal: Genome Biol
+  first_author: Alquicira-Hernandez J
+  last_author: Powell JE
+  pmid: '31829268'
+  pmcid: PMC6907144
+  title: 'scPred: accurate supervised method for cell-type classification from single-cell RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present scPred, a new generalizable method that is able to provide highly accurate classification of single
+  cells

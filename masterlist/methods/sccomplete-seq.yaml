@@ -1,0 +1,25 @@
+name: scComplete-seq
+category: wet
+summary: Extension of droplet-based scRNA-seq that also captures non-polyadenylated RNAs (histone RNAs, enhancer RNAs) in
+  single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkaf699
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Dinçaslan FB
+  last_author: Cheow LF
+  pmid: '40682827'
+  pmcid: PMC12276002
+  title: Automated high-throughput profiling of single-cell total transcriptome with scComplete-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed scComplete-seq, a method that enhances existing droplet-based single-cell mRNA sequencing to provide
+  insights into the nonpolyadenylated transcriptome.

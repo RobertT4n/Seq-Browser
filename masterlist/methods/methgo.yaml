@@ -1,0 +1,23 @@
+name: MethGo
+category: dry
+summary: 'Python tool for whole-genome and reduced-representation bisulfite sequencing analysis: coverage, methylation levels
+  by genomic element and TFBS, plus SNP and CNV calling.'
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-16-s12-s11
+  year: 2015
+  journal: BMC Genomics
+  first_author: Liao WW
+  last_author: Chen PY
+  pmid: '26680022'
+  pmcid: PMC4682368
+  title: 'MethGo: a comprehensive tool for analyzing whole-genome bisulfite sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Here we developed MethGo, a software tool designed for the analysis of data from whole-genome bisulfite sequencing
+  (WGBS) and reduced representation bisulfite sequencing (RRBS).

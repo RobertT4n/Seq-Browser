@@ -1,0 +1,25 @@
+name: CIRDES
+full_name: Capture Interacting RNA and Deep Sequencing
+category: wet
+summary: Tiled antisense probes capture a target RNA and its interacting partners from formaldehyde-crosslinked cells, followed
+  by library construction and sequencing.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1039/c9an01054h
+  year: 2019
+  journal: Analyst
+  first_author: Li YT
+  last_author: Yin D
+  pmid: '31441461'
+  title: 'CIRDES: an efficient genome-wide method for in vivo RNA-RNA interactome analysis'
+links: {}
+added: '2026-11-14'
+evidence: we developed an efficient, genome-wide method, Capture Interacting RNA and Deep Sequencing (CIRDES) for in vivo
+  capturing of the RNA interactome.

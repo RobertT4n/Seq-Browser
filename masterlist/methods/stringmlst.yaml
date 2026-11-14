@@ -1,0 +1,21 @@
+name: stringMLST
+category: dry
+summary: Assembly- and alignment-free k-mer hash-table tool that types bacterial isolates by multilocus sequence typing directly
+  from raw reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw586
+  year: 2017
+  journal: Bioinformatics
+  first_author: Gupta A
+  last_author: Rishishwar L
+  pmid: '27605103'
+  title: 'stringMLST: a fast k-mer based tool for multilocus sequence typing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present stringMLST, an assembly- and alignment-free, lightweight, platform-independent program capable
+  of rapidly typing bacterial isolates directly from raw sequence reads.

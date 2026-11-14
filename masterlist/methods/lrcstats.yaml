@@ -1,0 +1,24 @@
+name: LRCstats
+category: dry
+summary: Measures accuracy of long-read error-correction tools using simulator-provided read alignments, without remapping
+  corrected reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btx489
+  year: 2017
+  journal: Bioinformatics
+  first_author: La S
+  last_author: Chauve C
+  pmid: '29036421'
+  title: LRCstats, a tool for evaluating long reads correction methods
+links: {}
+added: '2026-11-14'
+evidence: We introduce LRCstats, a tool that measures the accuracy of long reads correction tools.

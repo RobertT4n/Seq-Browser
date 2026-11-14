@@ -1,0 +1,30 @@
+name: PANDORA-seq
+full_name: panoramic RNA display by overcoming RNA modification aborted sequencing
+category: wet
+summary: Small RNA sequencing with combinatorial enzymatic treatment removing RNA modifications that block adapter ligation
+  and reverse transcription.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/s41556-021-00652-7
+  year: 2021
+  journal: Nat Cell Biol
+  first_author: Shi J
+  last_author: Chen Q
+  pmid: '33820973'
+  pmcid: PMC8236090
+  title: PANDORA-seq expands the repertoire of regulatory small RNAs by overcoming RNA modifications
+links: {}
+added: '2026-11-14'
+evidence: Here, we present PANDORA-seq (panoramic RNA display by overcoming RNA modification aborted sequencing), employing
+  a combinatorial enzymatic treatment to remove key RNA modifications that block adapter ligation and reverse transcription.

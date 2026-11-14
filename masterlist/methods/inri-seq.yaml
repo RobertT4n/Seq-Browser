@@ -1,0 +1,27 @@
+name: INRI-seq
+full_name: In vitro Ribo-seq
+category: wet
+summary: Cell-free in vitro Ribo-seq on a customisable synthetic transcriptome to map translation initiation and antisense
+  off-target effects without extracting ribosomes from cells.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkac838
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Hör J
+  last_author: Vogel J
+  pmid: '36229039'
+  pmcid: PMC9825163
+  title: INRI-seq enables global cell-free analysis of translation initiation and off-target effects of antisense inhibitors
+links: {}
+added: '2026-11-14'
+evidence: Here, we have developed in vitro Ribo-seq (INRI-seq), a cell-free method to analyze the translational landscape
+  of a fully customizable synthetic transcriptome.

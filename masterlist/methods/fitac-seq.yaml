@@ -1,0 +1,31 @@
+name: FiTAc-seq
+full_name: Fixed-tissue ChIP-seq for H3K27 acetylation profiling
+category: wet
+summary: ChIP-seq for H3K27ac in FFPE tissue using extended heating in higher detergent instead of proteinase K, giving enhancer
+  and super-enhancer maps from archives.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- ffpe-archival
+species:
+- human
+targets:
+- H3K27ac
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1038/s41596-020-0340-6
+  year: 2020
+  journal: Nat Protoc
+  first_author: Font-Tello A
+  last_author: Long HW
+  pmid: '32591768'
+  title: 'FiTAc-seq: fixed-tissue ChIP-seq for H3K27ac profiling and super-enhancer analysis of FFPE tissues'
+links: {}
+added: '2026-11-14'
+evidence: FiTAc-seq is a modified protocol that replaces the proteinase K digestion applied in FiT-seq with extended heating
+  at 65 °C in a higher concentration of detergent and a minimized sonication step, to produce robust genome-wide H3K27ac maps
+  from clinical samples.

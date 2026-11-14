@@ -1,0 +1,26 @@
+name: CrossHub
+category: dry
+summary: Software for multi-way analysis of TCGA data that links TF-gene co-expression, miRNA-mRNA pairs and promoter methylation
+  to gene expression regulation.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv1478
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Krasnov GS
+  last_author: Kudryavtseva AV
+  pmid: '26773058'
+  pmcid: PMC4838350
+  title: 'CrossHub: a tool for multi-way analysis of The Cancer Genome Atlas (TCGA) in the context of gene expression regulation
+    mechanisms'
+links: {}
+added: '2026-11-14'
+evidence: 'We developed CrossHub software, which enables two-way identification of most possible TF-gene interactions: on
+  the basis of ENCODE ChIP-Seq binding evidence or Jaspar prediction and co-expression according to the data of The Cancer
+  Genome Atlas (TCGA) project, the largest cancer omics resource.'

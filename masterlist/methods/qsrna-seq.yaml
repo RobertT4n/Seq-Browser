@@ -1,0 +1,27 @@
+name: QsRNA-seq
+category: wet
+summary: Gel-free small RNA library preparation that separates fragments shorter than 100 nt and allows UMIs for quantifying
+  miRNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- invertebrate
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-018-1495-0
+  year: 2018
+  journal: Genome Biol
+  first_author: Fishman A
+  last_author: Lamm AT
+  pmid: '30107842'
+  pmcid: PMC6090667
+  title: 'QsRNA-seq: a method for high-throughput profiling and quantifying small RNAs'
+links: {}
+added: '2026-11-14'
+evidence: We developed QsRNA-seq, a method for preparation of sRNA libraries for high-throughput sequencing that overcomes
+  this difficulty by enabling a gel-free separation of fragments shorter than 100 nt that differ only by 20 nt in length.

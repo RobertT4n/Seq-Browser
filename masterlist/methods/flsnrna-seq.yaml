@@ -1,0 +1,34 @@
+name: FlsnRNA-seq
+full_name: Full-length single-nucleus RNA sequencing
+category: wet
+summary: Protoplasting-free full-length single-nucleus RNA profiling in plants using isolated nuclei with 10x Genomics and
+  Nanopore long reads.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- long-read-sequencing
+input_sample:
+- nuclei
+species:
+- plant
+reference:
+  doi: 10.1186/s13059-021-02288-0
+  year: 2021
+  journal: Genome Biol
+  first_author: Long Y
+  last_author: Zhai J
+  pmid: '33608047'
+  pmcid: PMC7893963
+  title: 'FlsnRNA-seq: protoplasting-free full-length single-nucleus RNA profiling in plants'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a protoplasting-free approach, flsnRNA-seq, for large-scale full-length RNA profiling at a single-nucleus
+  level in plants using isolated nuclei.

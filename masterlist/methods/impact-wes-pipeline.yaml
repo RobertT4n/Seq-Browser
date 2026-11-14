@@ -1,0 +1,24 @@
+name: IMPACT (WES pipeline)
+full_name: Integrating Molecular Profiles with Actionable Therapeutics
+category: dry
+summary: Whole-exome sequencing pipeline that calls somatic variants and copy-number changes, predicts drugs against deleterious
+  variants and analyses tumour heterogeneity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/jamia/ocw022
+  year: 2016
+  journal: J Am Med Inform Assoc
+  first_author: Hintzsche J
+  last_author: Tan AC
+  pmid: '27026619'
+  pmcid: PMC4926746
+  title: 'IMPACT: a whole-exome sequencing analysis pipeline for integrating molecular profiles with actionable therapeutics
+    in clinical samples'
+links: {}
+added: '2026-11-14'
+evidence: Here we develop and implement the Integrating Molecular Profiles with Actionable Therapeutics (IMPACT) analysis
+  pipeline, linking variants detected from whole-exome sequencing (WES) to actionable therapeutics.

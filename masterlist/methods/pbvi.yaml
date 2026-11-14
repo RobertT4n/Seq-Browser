@@ -1,0 +1,23 @@
+name: PBVI
+full_name: Position-Based Variant Identification
+category: dry
+summary: Low-level mosaic variant caller for unmatched samples using position-specific empirical distributions of alternate
+  nucleotides from a control dataset.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-021-04090-y
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Dudley JN
+  last_author: Biesecker LG
+  pmid: '33832433'
+  pmcid: PMC8028235
+  title: Low-level variant calling for non-matched samples using a position-based and nucleotide-specific approach
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a method for Position-Based Variant Identification (PBVI) that uses empirically-derived distributions
+  of alternate nucleotides from a control dataset.

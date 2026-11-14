@@ -1,0 +1,23 @@
+name: RNentropy
+category: dry
+summary: Information-theory method that finds genes with significant expression variation across any number of RNA-seq conditions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky055
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Zambelli F
+  last_author: Pavesi G
+  pmid: '29390085'
+  pmcid: PMC5934672
+  title: 'RNentropy: an entropy-based tool for the detection of significant variation of gene expression across multiple RNA-Seq
+    experiments'
+links: {}
+added: '2026-11-14'
+evidence: In this work we present RNentropy, a methodology based on information theory devised for this task, which given
+  expression estimates from any number of RNA-Seq samples and conditions identifies genes or transcripts with a significant
+  variation of expression across all the conditions studied, together with the samples in which they are over- or under-expressed.

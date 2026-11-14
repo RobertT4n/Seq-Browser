@@ -1,0 +1,28 @@
+name: MH-seq
+full_name: MNase hypersensitivity sequencing
+category: wet
+summary: MNase digestion-based mapping of open chromatin in Arabidopsis that also captures regions inaccessible to DNase I
+  or Tn5.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+species:
+- plant
+reference:
+  doi: 10.1186/s13059-020-1927-5
+  year: 2020
+  journal: Genome Biol
+  first_author: Zhao H
+  last_author: Jiang J
+  pmid: '32014062'
+  pmcid: PMC6996174
+  title: Genome-wide MNase hypersensitivity assay unveils distinct classes of open chromatin associated with H3K27me3 and
+    DNA methylation in Arabidopsis thaliana
+links: {}
+added: '2026-11-14'
+evidence: We develop a technique, named MNase hypersensitivity sequencing (MH-seq), to identify genomic regions associated
+  with open chromatin in Arabidopsis thaliana.

@@ -1,0 +1,32 @@
+name: TRACE-Seq (HSPC clonal tracking)
+full_name: Tracking Recombination Alleles in Clonal Engraftment using sequencing
+category: wet
+summary: Barcoded AAV6 donor libraries with silent-mutation barcodes mark each gene-targeted HSPC clone so its engraftment
+  can be followed by sequencing.
+readouts:
+- lineage
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- primary-cells
+- tissue-in-vivo
+species:
+- human
+- mouse
+chemistry_unknown: library-prep/readout chemistry for the barcode alleles not stated in abstract
+reference:
+  doi: 10.1038/s41467-020-20792-y
+  year: 2021
+  journal: Nat Commun
+  first_author: Sharma R
+  last_author: Majeti R
+  pmid: '33473139'
+  pmcid: PMC7817666
+  title: The TRACE-Seq method tracks recombination alleles and identifies clonal reconstitution dynamics of gene targeted
+    human hematopoietic stem cells
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe Tracking Recombination Alleles in Clonal Engraftment using sequencing (TRACE-Seq), a methodology
+  that utilizes barcoded AAV6 donor template libraries, carrying in-frame silent mutations or semi-randomized nucleotides
+  outside the coding region, to track the in vivo lineage contribution of gene-targeted HSPC clones.

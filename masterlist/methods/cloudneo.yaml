@@ -1,0 +1,23 @@
+name: CloudNeo
+category: dry
+summary: Cloud-based workflow identifying patient-specific tumor neoantigens from next-generation sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+evidence: We present CloudNeo, a cloud-based computational workflow for identifying patient-specific tumor neoantigens from
+  next generation sequencing data.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btx375
+  year: 2017
+  journal: Bioinformatics
+  first_author: Bais P
+  last_author: Chuang JH
+  pmid: '28605406'
+  pmcid: PMC5870764
+  title: 'CloudNeo: a cloud pipeline for identifying patient-specific tumor neoantigens'

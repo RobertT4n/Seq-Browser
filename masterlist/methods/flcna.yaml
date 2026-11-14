@@ -1,0 +1,23 @@
+name: FLCNA
+category: dry
+summary: Fused-lasso model that jointly detects copy number aberrations and clusters subclones in single-cell DNA sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278098.123
+  year: 2024
+  journal: Genome Res
+  first_author: Qin F
+  last_author: Xiao F
+  pmid: '38290978'
+  pmcid: PMC10903939
+  title: A statistical learning method for simultaneous copy number estimation and subclone clustering with single-cell sequencing
+    data
+links: {}
+added: '2026-11-14'
+evidence: we developed a subclone clustering method based on a fused lasso model, referred to as FLCNA, which can simultaneously
+  detect CNAs in single-cell DNA sequencing (scDNA-seq) data.

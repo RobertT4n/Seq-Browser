@@ -1,0 +1,20 @@
+name: MIXnorm
+category: dry
+summary: Normalisation of RNA-seq data from FFPE samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa153
+  year: 2020
+  journal: Bioinformatics
+  first_author: Yin S
+  last_author: Xie Y
+  pmid: '32134470'
+  pmcid: PMC7267832
+  title: 'MIXnorm: normalizing RNA-seq data from formalin-fixed paraffin-embedded samples'
+links: {}
+added: '2026-11-14'
+evidence: Results We proposed a new normalization method, labeled MIXnorm, for FFPE RNA-seq data.

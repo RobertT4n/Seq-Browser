@@ -1,0 +1,28 @@
+name: MSAP-Seq
+full_name: Methylation Sensitive Amplification Polymorphism Sequencing
+category: wet
+summary: MSAP DNA methylation profiling of CCGG sites read out by high-throughput sequencing instead of gels.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+evidence: We improved the MSAP-based approach by replacing the conventional separation of amplicons on polyacrylamide gels
+  with direct, high-throughput sequencing using Next Generation Sequencing (NGS) and automated data analysis.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.3389/fpls.2017.02056
+  year: 2017
+  journal: Front Plant Sci
+  first_author: Chwialkowska K
+  last_author: Kwasniewski M
+  pmid: '29250096'
+  pmcid: PMC5714927
+  title: Methylation Sensitive Amplification Polymorphism Sequencing (MSAP-Seq)-A Method for High-Throughput Analysis of Differentially
+    Methylated CCGG Sites in Plants with Large Genomes

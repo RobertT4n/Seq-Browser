@@ -1,0 +1,29 @@
+name: SMURF-seq
+category: wet
+summary: Random ligation concatenates short DNA fragments into long molecules so a long-read sequencer reads many fragments
+  per read for copy-number profiling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- adapter-ligation
+- long-read-sequencing
+reference:
+  doi: 10.1186/s13059-019-1732-1
+  year: 2019
+  journal: Genome Biol
+  first_author: Prabakar RK
+  last_author: Smith AD
+  pmid: '31287019'
+  pmcid: PMC6615205
+  title: 'SMURF-seq: efficient copy number profiling on long-read sequencers'
+links: {}
+added: '2026-11-14'
+evidence: We present SMURF-seq, a protocol to efficiently sequence short DNA molecules on a long-read sequencer by randomly
+  ligating them to form long molecules.

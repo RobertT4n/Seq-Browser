@@ -1,0 +1,22 @@
+name: F-Seq2
+category: dry
+summary: Kernel-density peak caller for ATAC-seq, DNase-seq and ChIP-seq that supports control datasets and ranks peaks with
+  a dynamic Poisson test.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab012
+  year: 2021
+  journal: NAR Genom Bioinform
+  first_author: Zhao N
+  last_author: Boyle AP
+  pmid: '33655209'
+  pmcid: PMC7902237
+  title: 'F-Seq2: improving the feature density based peak caller with dynamic statistics'
+links: {}
+added: '2026-11-14'
+evidence: To address these limitations, we present F-Seq2, which combines kernel density estimation and a dynamic 'continuous'
+  Poisson test to account for local biases and accurately rank candidate peaks.

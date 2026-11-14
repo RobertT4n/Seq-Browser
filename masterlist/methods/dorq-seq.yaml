@@ -1,0 +1,24 @@
+name: DORQ-seq
+category: wet
+summary: Hybridization-based transfer of tRNA isoacceptor composition into a cDNA mixture, avoiding reverse transcription,
+  for high-throughput tRNA pool quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: cDNA hybridization-based tRNA pool quantification; no matching tag and no reverse transcription
+reference:
+  doi: 10.1093/nar/gkae765
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Kristen M
+  last_author: Helm M
+  pmid: '39258547'
+  pmcid: PMC11472062
+  title: 'DORQ-seq: high-throughput quantification of femtomol tRNA pools by combination of cDNA hybridization and Deep sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Rather than by reverse transcription, quantitative information on the isoacceptor composition of a tRNA pool is
+  transferred to a cDNA mixture in a single step procedure, thereby omitting all enzymatic conversations except for the subsequent
+  barcoding PCR.

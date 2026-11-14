@@ -1,0 +1,31 @@
+name: UV-ChIP-seq
+full_name: High-intensity UV laser ChIP-seq
+category: wet
+summary: ChIP-seq using high-intensity UV laser photocrosslinking of protein-DNA contacts in living cells instead of chemical
+  crosslinking.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+targets:
+- BCL6
+evidence: Here we present the ChIP-seq technique based on photochemical crosslinking of protein-DNA interactions by high-intensity
+  ultraviolet (UV) laser irradiation in living mammalian cells (UV-ChIP-seq).
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1038/s41467-017-01251-7
+  year: 2017
+  journal: Nat Commun
+  first_author: Steube A
+  last_author: Saluz HP
+  pmid: '29101361'
+  pmcid: PMC5670203
+  title: High-intensity UV laser ChIP-seq for the study of protein-DNA interactions in living cells

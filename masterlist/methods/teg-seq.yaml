@@ -1,0 +1,26 @@
+name: TEG-seq
+full_name: Target-enriched GUIDE-seq
+category: wet
+summary: Target-enriched version of GUIDE-seq adapted to Ion Torrent that maps Cas9 off-target cleavage sites with less nonspecific
+  amplification.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+variant_of:
+- guide-seq
+reference:
+  doi: 10.2144/btn-2018-0105
+  year: 2018
+  journal: Biotechniques
+  first_author: Tang PZ
+  last_author: Chesnut JD
+  pmid: '30114933'
+  title: 'TEG-seq: an ion torrent-adapted NGS workflow for in cellulo mapping of CRISPR specificity'
+links: {}
+added: '2026-11-14'
+evidence: In an attempt to improve it, we developed target-enriched GUIDE-seq (TEG-seq).

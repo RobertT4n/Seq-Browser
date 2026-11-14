@@ -1,0 +1,27 @@
+name: Compressed Perturb-seq
+category: wet
+summary: Perturb-seq variant measuring multiple random perturbations per cell or multiple cells per droplet and computationally
+  decompressing the data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+variant_of:
+- perturb-seq
+reference:
+  doi: 10.1038/s41587-023-01964-9
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Yao D
+  last_author: Cleary B
+  pmid: '37872410'
+  pmcid: PMC11035494
+  title: Scalable genetic screening for regulatory circuits using compressed Perturb-seq
+links: {}
+added: '2026-11-14'
+evidence: In this study, we modified the design of Perturb-seq by incorporating algorithms applied to random, low-dimensional
+  observations.

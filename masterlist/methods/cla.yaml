@@ -1,0 +1,23 @@
+name: CLA
+full_name: Contig-Layout-Authenticator
+category: dry
+summary: Pipeline that orders and scaffolds reference-sorted bacterial contigs using paired reads and flags probable misassemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0155459
+  year: 2016
+  journal: PLoS One
+  first_author: Shaik S
+  last_author: Ahmed N
+  pmid: '27248146'
+  pmcid: PMC4889084
+  title: 'Contig-Layout-Authenticator (CLA): A Combinatorial Approach to Ordering and Scaffolding of Bacterial Contigs for
+    Comparative Genomics and Molecular Epidemiology'
+links: {}
+added: '2026-11-14'
+evidence: we developed Contig-Layout-Authenticator (CLA). The CLA pipeline can scaffold reference-sorted contigs based on
+  paired reads, resulting in better assembled genomes.

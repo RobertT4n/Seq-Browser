@@ -1,0 +1,22 @@
+name: SingleCellNet
+category: dry
+summary: Classifier that assigns query scRNA-seq cells to cell types learned from reference single-cell data, across platforms
+  and species.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2019.06.004
+  year: 2019
+  journal: Cell Syst
+  first_author: Tan Y
+  last_author: Cahan P
+  pmid: '31377170'
+  pmcid: PMC6715530
+  title: 'SingleCellNet: A Computational Tool to Classify Single Cell RNA-Seq Data Across Platforms and Across Species'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe our tool, SingleCellNet, which addresses these issues and enables the classification of query
+  single-cell RNA-seq data in comparison to reference single-cell RNA-seq data.

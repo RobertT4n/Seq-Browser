@@ -1,0 +1,22 @@
+name: VCF2CAPS
+category: dry
+summary: Software that designs CAPS (PCR-RFLP) markers from SNPs, MNPs and indels in VCF files from NGS experiments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008980
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Wesołowski W
+  last_author: Szklarczyk M
+  pmid: '34014924'
+  pmcid: PMC8186816
+  title: VCF2CAPS-A high-throughput CAPS marker design from VCF files and its test-use on a genotyping-by-sequencing (GBS)
+    dataset
+links: {}
+added: '2026-11-14'
+evidence: we present VCF2CAPS-a new software for identification of restriction endonucleases that recognize SNP/MNP/indel-containing
+  sequences from NGS experiments

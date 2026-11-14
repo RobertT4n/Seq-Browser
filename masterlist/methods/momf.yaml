@@ -1,0 +1,23 @@
+name: MOMF
+category: dry
+summary: Multi-omics matrix factorization that estimates cell-type composition of bulk RNA-seq using scRNA-seq cell-type expression
+  references.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/cells8101161
+  year: 2019
+  journal: Cells
+  first_author: Sun X
+  last_author: Yang S
+  pmid: '31569701'
+  pmcid: PMC6830085
+  title: An Efficient and Flexible Method for Deconvoluting Bulk RNA-Seq Data with Single-Cell RNA-Seq Data
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a computationally statistical method, referring to Multi-Omics Matrix Factorization (MOMF), to
+  estimate the cell-type compositions of bulk RNA sequencing (RNA-seq) data by leveraging cell type-specific gene expression
+  levels from single-cell RNA sequencing (scRNA-seq) data.

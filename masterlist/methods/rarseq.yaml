@@ -1,0 +1,27 @@
+name: RARseq
+full_name: restriction site associated RNA sequencing
+category: wet
+summary: RNA-seq based genotyping-by-sequencing in which double-stranded cDNA is digested with restriction enzymes to produce
+  libraries of transcribed SNP markers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- restriction-digest
+- reverse-transcription
+reference:
+  doi: 10.1371/journal.pone.0134855
+  year: 2015
+  journal: PLoS One
+  first_author: Alabady MS
+  last_author: Malmberg RL
+  pmid: '26241739'
+  pmcid: PMC4524703
+  title: Development of Transcriptomic Markers for Population Analysis Using Restriction Site Associated RNA Sequencing (RARseq)
+links: {}
+added: '2026-11-14'
+evidence: We describe restriction site associated RNA sequencing (RARseq), an RNAseq-based genotype by sequencing (GBS) method.

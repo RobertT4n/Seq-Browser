@@ -1,0 +1,21 @@
+name: GIbPSs
+category: dry
+summary: Toolkit for reference-free genotyping from RAD, ddRAD and GBS data that handles paired-end reads and discards loci
+  affected by indels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.12510
+  year: 2016
+  journal: Mol Ecol Resour
+  first_author: Hapke A
+  last_author: Thiele D
+  pmid: '26858004'
+  title: 'GIbPSs: a toolkit for fast and accurate analyses of genotyping-by-sequencing data without a reference genome'
+links: {}
+added: '2026-11-14'
+evidence: We present GIbPSs, a new genotyping toolkit for the analysis of data from various protocols such as RAD, double-digest
+  RAD, GBS, and two-enzyme GBS without a reference genome.

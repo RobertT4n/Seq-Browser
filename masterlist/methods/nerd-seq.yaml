@@ -1,0 +1,28 @@
+name: NERD-seq
+category: wet
+summary: Nanopore direct RNA sequencing variant that captures non-polyadenylated non-coding RNAs alongside polyadenylated
+  transcripts for epitranscriptome profiling.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1186/s13059-024-03375-8
+  year: 2024
+  journal: Genome Biol
+  first_author: Saville L
+  last_author: Zovoilis A
+  pmid: '39198865'
+  pmcid: PMC11351768
+  title: 'NERD-seq: a novel approach of Nanopore direct RNA sequencing that expands representation of non-coding RNAs'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present NERD-seq, which enables detection of multiple non-coding RNAs, excluded by the standard approach,
+  alongside natively polyadenylated transcripts.

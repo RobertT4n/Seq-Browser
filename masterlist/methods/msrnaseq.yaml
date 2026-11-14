@@ -1,0 +1,28 @@
+name: msRNAseq
+full_name: medium-sized RNA-sequencing
+category: wet
+summary: Modified RNA-seq protocol with a computational pipeline that captures medium-sized (50-300 nt) non-coding RNAs, including
+  POLIII-driven transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+reference:
+  doi: 10.1080/15476286.2020.1871216
+  year: 2021
+  journal: RNA Biol
+  first_author: Zorn P
+  last_author: Köhn M
+  pmid: '33404286'
+  pmcid: PMC8583065
+  title: Identification and initial characterization of POLIII-driven transcripts by msRNA-sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here we describe msRNA-sequencing (msRNAseq), a modified protocol that associated with a computational analyses
+  pipeline identified about ~1800 msRNA loci.

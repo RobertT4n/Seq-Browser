@@ -1,0 +1,32 @@
+name: CIDER-Seq
+full_name: Circular DNA Enrichment sequencing
+category: wet
+summary: PCR-free enrichment of viral-sized circular DNA followed by single-molecule long-read sequencing and de-concatenation
+  yields full-length virus genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+chemistry:
+- long-read-sequencing
+species:
+- plant
+reference:
+  doi: 10.1093/nar/gky914
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Mehta D
+  last_author: Vanderschuren H
+  pmid: '30357413'
+  pmcid: PMC6344846
+  title: A new full-length circular DNA sequencing method for viral-sized genomes reveals that RNAi transgenic plants provoke
+    a shift in geminivirus populations in the field
+links: {}
+added: '2026-11-14'
+evidence: We present a new method, CIDER-Seq (Circular DNA Enrichment sequencing) for the unbiased enrichment and long-read
+  sequencing of viral-sized circular DNA molecules.

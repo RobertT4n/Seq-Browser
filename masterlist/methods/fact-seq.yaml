@@ -1,0 +1,34 @@
+name: FACT-seq
+full_name: FFPE tissue with antibody-guided chromatin tagmentation with sequencing
+category: wet
+summary: Histone-modification profiling in FFPE tissue using a T7-pA-Tn5 fusion and T7 in vitro transcription, from ~4,000
+  nuclei.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-tethered-enzyme
+species:
+- human
+input_sample:
+- ffpe-archival
+- low-input
+targets:
+- H3K27ac
+reference:
+  doi: 10.1093/nar/gkab813
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Zhao L
+  last_author: Chen X
+  pmid: '34534335'
+  pmcid: PMC8643707
+  title: 'FACT-seq: profiling histone modifications in formalin-fixed paraffin-embedded samples with low cell numbers'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present FFPE tissue with antibody-guided chromatin tagmentation with sequencing (FACT-seq), the first highly
+  sensitive method to efficiently profile histone modifications in FFPE tissues by combining a novel fusion protein of hyperactive
+  Tn5 transposase and protein A (T7-pA-Tn5) transposition and T7 in vitro transcription.

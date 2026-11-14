@@ -1,0 +1,24 @@
+name: LoDEI
+full_name: local differential editing index
+category: dry
+summary: Detects transcriptome-wide differential A-to-I RNA editing between conditions from RNA-seq with a sliding-window
+  index and empirical q value.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53298-y
+  year: 2024
+  journal: Nat Commun
+  first_author: Torkler P
+  last_author: Heise T
+  pmid: '39443485'
+  pmcid: PMC11500352
+  title: 'LoDEI: a robust and sensitive tool to detect transcriptome-wide differential A-to-I editing in RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce the local differential editing index (LoDEI) to detect differential A-to-I editing in RNA-seq datasets
+  using a sliding-window approach coupled with an empirical q value calculation that detects more A-to-I editing sites at
+  the same false-discovery rate compared to existing methods.

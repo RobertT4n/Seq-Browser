@@ -1,0 +1,23 @@
+name: NT-seq
+category: wet
+summary: Chemical-conversion sequencing that maps 6mA, 4mC and 5mC DNA methylation simultaneously in bacterial genomes.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry_unknown: Conversion chemistry is described only as "chemical-based" in the abstract
+reference:
+  doi: 10.1186/s13059-022-02689-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Li X
+  last_author: Wu TP
+  pmid: '35637459'
+  pmcid: PMC9150344
+  title: 'NT-seq: a chemical-based sequencing method for genomic methylome profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present NT-seq for mapping all three types of methylation simultaneously.

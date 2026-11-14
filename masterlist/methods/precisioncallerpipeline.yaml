@@ -1,0 +1,15 @@
+name: PrecisionCallerPipeline
+category: dry
+summary: Open variant-calling pipeline for Precision ID mtDNA whole-genome panel Ion Torrent data, aligned to the correct
+  rCRS with lower heteroplasmy thresholds.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms222112031
+links: {}
+added: '2026-11-14'
+evidence: Here, we present an alternative customizable pipeline, the PrecisionCallerPipeline (PCP), for processing samples
+  with the correct rCRS output after Ion Torrent sequencing with the Precision ID library kit.

@@ -1,0 +1,26 @@
+name: SPaRTAN
+full_name: Single-cell Proteomic and RNA based Transcription factor Activity Network
+category: dry
+summary: Links cell-surface receptor levels from CITE-seq to transcription factor activity using cis-regulatory information.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- cite-seq
+reference:
+  doi: 10.1093/nar/gkab745
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Ma X
+  last_author: Osmanbeyoglu HU
+  pmid: '34500467'
+  pmcid: PMC8464045
+  title: SPaRTAN, a computational framework for linking cell-surface receptors to transcriptional regulators
+links: {}
+added: '2026-11-14'
+evidence: We present SPaRTAN (Single-cell Proteomic and RNA based Transcription factor Activity Network), a computational
+  method to link cell-surface receptors to transcription factors (TFs) by exploiting cellular indexing of transcriptomes and
+  epitopes by sequencing (CITE-seq) datasets with cis-regulatory information.

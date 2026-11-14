@@ -1,0 +1,25 @@
+name: NGMLST
+full_name: Next-generation multilocus sequence typing
+category: wet
+summary: Multiplexed amplicon sequencing protocol that types 96 or more isolates in one next-generation sequencing run.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+shared_doi: Same chapter also describes the companion analysis software MLSTEZ (separate dry entry)
+reference:
+  doi: 10.1007/978-1-4939-6442-0_14
+  year: 2017
+  journal: Methods Mol Biol
+  first_author: Chen Y
+  last_author: Perfect JR
+  pmid: '27822866'
+  title: Efficient, Cost-Effective, High-Throughput, Multilocus Sequencing Typing (MLST) Method, NGMLST, and the Analytical
+    Software Program MLSTEZ
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a new MLST method that uses next-generation sequencing, a multiplexing protocol, and appropriate
+  analytical software to provide accurate, rapid, and economical MLST genotyping of 96 or more isolates in a single assay.

@@ -1,0 +1,22 @@
+name: EPIG-Seq
+full_name: extracting patterns and identifying genes for RNA-Seq
+category: dry
+summary: Count-based software that extracts expression patterns and clusters co-expressed genes across experimental conditions
+  from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-2584-7
+  year: 2016
+  journal: BMC Genomics
+  first_author: Li J
+  last_author: Bushel PR
+  pmid: '27004791'
+  pmcid: PMC4804494
+  title: 'EPIG-Seq: extracting patterns and identifying co-expressed genes from RNA-Seq data'
+links: {}
+added: '2026-11-14'
+evidence: We adapted our extracting patterns and identifying genes methodology for RNA-Seq (EPIG-Seq) count data.

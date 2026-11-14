@@ -1,0 +1,23 @@
+name: BUSseq
+full_name: Batch effects correction with Unknown Subtypes for scRNA-seq data
+category: dry
+summary: Bayesian hierarchical model that jointly corrects batch effects, clusters cell types, imputes dropouts and detects
+  DE genes in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-16905-2
+  year: 2020
+  journal: Nat Commun
+  first_author: Song F
+  last_author: Wei Y
+  pmid: '32612268'
+  pmcid: PMC7330047
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+links: {}
+added: '2026-11-14'
+evidence: We develop Batch effects correction with Unknown Subtypes for scRNA-seq data (BUSseq), which is an interpretable
+  Bayesian hierarchical model that closely follows the data-generating mechanism of scRNA-seq experiments.

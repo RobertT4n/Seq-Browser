@@ -1,0 +1,22 @@
+name: scCDC
+category: dry
+summary: Detects the genes that cause ambient-RNA contamination in sc/snRNA-seq and corrects expression only for those genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03284-w
+  year: 2024
+  journal: Genome Biol
+  first_author: Wang W
+  last_author: Wang C
+  pmid: '38783325'
+  pmcid: PMC11112958
+  title: 'scCDC: a computational method for gene-specific contamination detection and correction in single-cell and single-nucleus
+    RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop scCDC as the first method to detect the contamination-causing genes and only correct expression
+  levels of these genes, some of which are cell-type markers.

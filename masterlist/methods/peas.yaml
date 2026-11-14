@@ -1,0 +1,26 @@
+name: PEAS
+full_name: Predicting Enhancers from ATAC-Seq data
+category: dry
+summary: Neural network that infers enhancers from ATAC-seq open chromatin regions by combining accessibility features with
+  sequence features.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+task:
+- peak-calling-signal
+- sequence-to-function
+reference:
+  doi: 10.1038/s41598-018-34420-9
+  year: 2018
+  journal: Sci Rep
+  first_author: Thibodeau A
+  last_author: Ucar D
+  pmid: '30375457'
+  pmcid: PMC6207744
+  title: A neural network based model effectively predicts enhancers from clinical ATAC-seq samples
+links: {}
+added: '2026-11-14'
+evidence: We developed a neural network-based model, Predicting Enhancers from ATAC-Seq data (PEAS), to effectively infer
+  enhancers from clinical ATAC-seq samples

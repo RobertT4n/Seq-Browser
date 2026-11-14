@@ -1,0 +1,21 @@
+name: COSINE
+category: dry
+summary: Non-seeding aligner for long noisy reads that compares k-mer distribution similarity between sequence stretches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+evidence: Here, we present COSINE, a conceptually new method designed specifically for aligning long reads contaminated by
+  a high level of errors.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1093/nar/gkx511
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Afshar PT
+  last_author: Wong WH
+  pmid: '28586438'
+  pmcid: PMC5737678
+  title: 'COSINE: non-seeding method for mapping long noisy sequences'

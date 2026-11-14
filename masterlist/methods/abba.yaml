@@ -1,0 +1,24 @@
+name: ABBA
+category: dry
+summary: Bayesian smoothing approach that detects differentially methylated regions from whole-genome bisulfite sequencing,
+  adapting to CpG correlation structure and distance between sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/genetics.116.195008
+  year: 2017
+  journal: Genetics
+  first_author: Rackham OJ
+  last_author: Petretto E
+  pmid: '28213474'
+  pmcid: PMC5378105
+  title: A Bayesian Approach for Analysis of Whole-Genome Bisulfite Sequencing Data Identifies Disease-Associated Changes
+    in DNA Methylation
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel Bayesian smoothing approach (called ABBA) to detect differentially methylated regions (DMRs)
+  from whole-genome bisulfite sequencing (WGBS).

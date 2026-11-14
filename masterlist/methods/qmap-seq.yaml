@@ -1,0 +1,28 @@
+name: QMAP-Seq
+full_name: Quantitative and Multiplexed Analysis of Phenotype by Sequencing
+category: wet
+summary: Pooled chemical-genetic profiling in mammalian cells in which pools of genetically perturbed cell lines are drug-treated
+  and quantified by sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- chemical-perturbation
+validated_system:
+- cell-line
+chemistry_unknown: library-prep chemistry not stated in abstract
+reference:
+  doi: 10.1038/s41467-020-19553-8
+  year: 2020
+  journal: Nat Commun
+  first_author: Brockway S
+  last_author: Mendillo ML
+  pmid: '33184288'
+  pmcid: PMC7661543
+  title: Quantitative and multiplexed chemical-genetic phenotyping in mammalian cells with QMAP-Seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop Quantitative and Multiplexed Analysis of Phenotype by Sequencing (QMAP-Seq), which leverages next-generation
+  sequencing for pooled high-throughput chemical-genetic profiling.

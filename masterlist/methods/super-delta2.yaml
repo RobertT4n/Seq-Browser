@@ -1,0 +1,22 @@
+name: Super-delta2
+category: dry
+summary: Differential expression pipeline for multi-group RNA-seq comparisons using a trimmed, bias-corrected normalisation
+  with ANOVA F-test and post-hoc tests.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab155
+  year: 2021
+  journal: Bioinformatics
+  first_author: Cui Z
+  last_author: Qiu X
+  pmid: '33693477'
+  pmcid: PMC12536915
+  title: 'Super-delta2: an enhanced differential expression analysis procedure for multi-group comparisons of RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We developed super-delta2, a differential gene expression analysis pipeline designed for multi-group comparisons
+  for RNA-seq data.

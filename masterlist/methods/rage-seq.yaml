@@ -1,0 +1,33 @@
+name: RAGE-seq
+full_name: Repertoire and Gene Expression by Sequencing
+category: wet
+summary: Targeted long-read capture of TCR/BCR transcripts from droplet-barcoded single-cell libraries, paired with short-read
+  transcriptomes, to give full-length antigen receptor sequences and gene expression per cell.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+species:
+- human
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-019-11049-4
+  year: 2019
+  journal: Nat Commun
+  first_author: Singh M
+  last_author: Swarbrick A
+  pmid: '31311926'
+  pmcid: PMC6635368
+  title: High-throughput targeted long-read single cell sequencing reveals the clonal and transcriptional landscape of lymphocytes
+links: {}
+added: '2026-11-14'
+evidence: We show that Repertoire and Gene Expression by Sequencing (RAGE-Seq) can generate accurate full-length antigen receptor
+  sequences at nucleotide resolution, infer B-cell clonal evolution and identify alternatively spliced BCR transcripts.

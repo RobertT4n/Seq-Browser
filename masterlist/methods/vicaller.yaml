@@ -1,0 +1,23 @@
+name: VIcaller
+category: dry
+summary: Platform that screens whole-genome sequencing data for clonal viral integrations from any characterised virus to
+  find oncoviruses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1101/gr.242529.118
+  year: 2019
+  journal: Genome Res
+  first_author: Chen X
+  last_author: Li D
+  pmid: '30872350'
+  title: A virome-wide clonal integration analysis platform for discovering cancer viral etiology
+links: {}
+added: '2026-11-14'
+evidence: we developed VIcaller, a novel platform for identifying viral integrations that are derived from any characterized
+  viruses and shared by a large proportion of tumor cells using whole-genome sequencing (WGS) data.

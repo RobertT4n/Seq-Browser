@@ -1,0 +1,27 @@
+name: MVRSION
+full_name: Multiple 16S Variable Region Species-Level IdentificatiON
+category: wet
+summary: Multi-amplicon 16S rRNA sequencing across several variable regions with a custom algorithm for species-level taxonomic
+  assignment.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1016/j.mimet.2018.09.019
+  year: 2018
+  journal: J Microbiol Methods
+  first_author: Schriefer AE
+  last_author: Head RD
+  pmid: '30273610'
+  pmcid: PMC6375304
+  title: A multi-amplicon 16S rRNA sequencing and analysis method for improved taxonomic profiling of bacterial communities
+links: {}
+added: '2026-11-14'
+evidence: The method combines high-throughput microfluidics for PCR amplification, short read DNA sequencing, and a custom
+  algorithm named MVRSION (Multiple 16S Variable Region Species-Level IdentificatiON) for optimizing taxonomic assignment.

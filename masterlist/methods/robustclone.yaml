@@ -1,0 +1,20 @@
+name: RobustClone
+category: dry
+summary: Robust PCA method for tumour clone and evolution inference from error-prone single-cell sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa172
+  year: 2020
+  journal: Bioinformatics
+  first_author: Chen Z
+  last_author: Ma L
+  pmid: '32159762'
+  title: 'RobustClone: a robust PCA method for tumor clone and evolution inference from single-cell sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Results To infer the clonal evolution in tumor from the error-prone SCS data, we developed an efficient computational
+  framework, termed RobustClone.

@@ -1,0 +1,23 @@
+name: FStitch
+full_name: Fast Read Stitcher
+category: dry
+summary: Annotation-agnostic hidden Markov model and logistic regression algorithm that detects transcribed regions from GRO-seq
+  nascent RNA data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2016.2520919
+  year: 2017
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Azofeifa JG
+  last_author: Dowell RD
+  pmid: '26829802'
+  pmcid: PMC5667649
+  title: An Annotation Agnostic Algorithm for Detecting Nascent RNA Transcripts in GRO-Seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a new algorithm, Fast Read Stitcher (FStitch), that takes advantage of two popular machine-learning
+  techniques, hidden Markov models and logistic regression, to classify which regions of the genome are transcribed.

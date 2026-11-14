@@ -1,0 +1,22 @@
+name: scDD
+category: dry
+summary: Statistical framework detecting differential expression distributions (multimodality, shifts in proportions) between
+  conditions in scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-1077-y
+  year: 2016
+  journal: Genome Biol
+  first_author: Korthauer KD
+  last_author: Kendziorski C
+  pmid: '27782827'
+  pmcid: PMC5080738
+  title: A statistical approach for identifying differential distributions in single-cell RNA-seq experiments
+links: {}
+added: '2026-11-14'
+evidence: We present a novel method to characterize differences in expression in the presence of distinct expression states
+  within and among biological conditions.

@@ -1,0 +1,23 @@
+name: VirTect
+category: dry
+summary: Bioinformatic method that detects viral sequences in tumour RNA-seq data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1002/1878-0261.12435
+  year: 2019
+  journal: Mol Oncol
+  first_author: Khan A
+  last_author: Zhong JF
+  pmid: '30597724'
+  pmcid: PMC6441885
+  title: Detection of human papillomavirus in cases of head and neck squamous cell carcinoma by RNA-seq and VirTect
+links: {}
+added: '2026-11-14'
+evidence: We developed a bioinformatic method called VirTect for detecting viruses in neoplastic human tissues using RNA-seq
+  data.

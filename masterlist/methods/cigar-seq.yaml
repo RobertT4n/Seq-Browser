@@ -1,0 +1,32 @@
+name: CIGAR-seq
+full_name: CRISPR integrated gRNA and reporter sequencing
+category: wet
+summary: Pooled CRISPR screen with reporters read out by sequencing for RNA modification level, used to find regulators of
+  mRNA modifications (identified NSUN6 as an m5C methyltransferase).
+readouts:
+- rna-modification
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- crispr-knockout
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.15252/msb.202010025
+  year: 2020
+  journal: Mol Syst Biol
+  first_author: Fang L
+  last_author: Chen W
+  pmid: '33251765'
+  pmcid: PMC7701898
+  title: CIGAR-seq, a CRISPR/Cas-based method for unbiased screening of novel mRNA modification regulators
+links: {}
+added: '2026-11-14'
+evidence: Here, we report such a method combining pooled CRISPR screen and reporters with RNA modification readout, termed
+  CRISPR integrated gRNA and reporter sequencing (CIGAR-seq).

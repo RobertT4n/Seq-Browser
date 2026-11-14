@@ -1,0 +1,17 @@
+name: CHIT
+full_name: combined haplotype interaction test
+category: dry
+summary: Allele-specific test for association between molecular quantitative traits (e.g. RNA-seq expression) and genotype-by-phenotype
+  interaction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab554
+links: {}
+added: '2026-11-14'
+evidence: We develop a novel statistical method, the combined haplotype interaction test (CHIT), which tests for association
+  between molecular quantitative traits and phenotype-genotype interactions by modeling the total read counts and allele-specific
+  reads in a target region.

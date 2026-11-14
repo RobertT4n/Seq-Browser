@@ -1,0 +1,22 @@
+name: ICAclust
+category: dry
+summary: Two-step clustering of temporal RNA-seq gene expression combining independent component analysis with hierarchical
+  clustering.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+evidence: Using temporal simulated and real RNA-seq data set we present a methodology (ICAclust) that jointly considers independent
+  components analysis (ICA) and a hierarchical method for clustering GETS.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1371/journal.pone.0181195
+  year: 2017
+  journal: PLoS One
+  first_author: Nascimento M
+  last_author: Serão NVL
+  pmid: '28715507'
+  pmcid: PMC5513449
+  title: Independent Component Analysis (ICA) based-clustering of temporal RNA-seq data

@@ -1,0 +1,24 @@
+name: CompTIS
+full_name: comparative TIS
+category: dry
+summary: Unsupervised-learning framework (PCA and clustering) for comparing multiple transposon insertion sequencing screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1128/msphere.00031-19
+  year: 2019
+  journal: mSphere
+  first_author: Hubbard TP
+  last_author: Waldor MK
+  pmid: '30787116'
+  pmcid: PMC6382967
+  title: Unsupervised Learning Approach for Comparing Multiple Transposon Insertion Sequencing Studies
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a post hoc analytic framework, comparative TIS (CompTIS), which utilizes unsupervised learning
+  to enable meta-analysis of multiple TIS data sets.

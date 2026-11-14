@@ -1,0 +1,22 @@
+name: scGNN
+full_name: single-cell graph neural network
+category: dry
+summary: Graph neural network framework for scRNA-seq imputation, clustering and cell-cell relationship modelling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-22197-x
+  year: 2021
+  journal: Nat Commun
+  first_author: Wang J
+  last_author: Xu D
+  pmid: '33767197'
+  pmcid: PMC7994447
+  title: scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses
+links: {}
+added: '2026-11-14'
+evidence: We introduce the scGNN (single-cell graph neural network) to provide a hypothesis-free deep learning framework for
+  scRNA-Seq analyses.

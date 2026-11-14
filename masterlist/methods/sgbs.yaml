@@ -1,0 +1,28 @@
+name: sGBS
+full_name: spiked genotyping-by-sequencing
+category: wet
+summary: Spikes barcoded targeted amplicons of known alleles into reduced-representation GBS libraries so single-marker genotypes
+  and a whole-genome profile come from one sequencing run.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1186/s12864-015-1404-9
+  year: 2015
+  journal: BMC Genomics
+  first_author: Rife TW
+  last_author: Poland JA
+  pmid: '25880848'
+  pmcid: PMC4404221
+  title: 'Spiked GBS: a unified, open platform for single marker genotyping and whole-genome profiling'
+links: {}
+added: '2026-11-14'
+evidence: We have developed spiked genotyping-by-sequencing (sGBS), which combines targeted amplicon sequencing with reduced
+  representation genotyping-by-sequencing.

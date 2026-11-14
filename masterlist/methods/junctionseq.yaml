@@ -1,0 +1,24 @@
+name: JunctionSeq
+category: dry
+summary: R/Bioconductor method that detects differential usage of exons and splice junctions (including novel junctions) in
+  RNA-seq data and visualises the results.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- dexseq
+reference:
+  doi: 10.1093/nar/gkw501
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Hartley SW
+  last_author: Mullikin JC
+  pmid: '27257077'
+  pmcid: PMC5009739
+  title: Detection and visualization of differential splicing in RNA-Seq data with JunctionSeq
+links: {}
+added: '2026-11-14'
+evidence: We introduce JunctionSeq, a new method that builds on the statistical techniques used by the well-established DEXSeq
+  package to detect differential usage of both exonic regions and splice junctions.

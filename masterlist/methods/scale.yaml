@@ -1,0 +1,22 @@
+name: SCALE
+full_name: Single-Cell ATAC-seq analysis via Latent feature Extraction
+category: dry
+summary: Deep generative model with a Gaussian mixture prior that learns latent features from sparse scATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12630-7
+  year: 2019
+  journal: Nat Commun
+  first_author: Xiong L
+  last_author: Zhang QC
+  pmid: '31594952'
+  pmcid: PMC6783552
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a method for analyzing scATAC-seq data, called Single-Cell ATAC-seq analysis via Latent feature
+  Extraction (SCALE).

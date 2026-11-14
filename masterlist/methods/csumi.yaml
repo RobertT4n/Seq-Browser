@@ -1,0 +1,23 @@
+name: CSUMI
+full_name: component selection using mutual information
+category: dry
+summary: Hybrid method using a mutual-information statistic to relate PCA components of RNA-seq data to biological and technical
+  sources of variation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2015.0085
+  year: 2015
+  journal: J Comput Biol
+  first_author: Simmons S
+  last_author: Berger B
+  pmid: '26098139'
+  pmcid: PMC4523039
+  title: Discovering What Dimensionality Reduction Really Tells Us About RNA-Seq Data
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce a hybrid approach--component selection using mutual information (CSUMI)--that uses a mutual information--based
+  statistic to reinterpret the results of PCA in a biologically meaningful way.

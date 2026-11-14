@@ -1,0 +1,27 @@
+name: CAST-Seq
+full_name: chromosomal aberrations analysis by single targeted linker-mediated PCR sequencing
+category: wet
+summary: Linker-mediated PCR sequencing assay that identifies and quantifies chromosomal rearrangements caused by on-target
+  and off-target nuclease activity in gene-edited cells.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: linker-mediated PCR has no matching chemistry tag
+validated_system:
+- primary-cells
+species:
+- human
+reference:
+  doi: 10.1016/j.stem.2021.02.002
+  year: 2021
+  journal: Cell Stem Cell
+  first_author: Turchiano G
+  last_author: Cathomen T
+  pmid: '33626327'
+  title: Quantitative evaluation of chromosomal rearrangements in gene-edited human stem cells by CAST-Seq
+links: {}
+added: '2026-11-14'
+evidence: Here we describe chromosomal aberrations analysis by single targeted linker-mediated PCR sequencing (CAST-Seq),
+  a preclinical assay to identify and quantify chromosomal aberrations.

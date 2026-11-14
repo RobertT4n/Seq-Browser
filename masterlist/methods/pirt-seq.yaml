@@ -1,0 +1,29 @@
+name: PIRT-Seq
+full_name: Protein Identification through Reporter Transposon-Sequencing
+category: wet
+summary: Transposon insertion sequencing with a translation reporter to find translated open reading frames across a bacterial
+  genome independent of annotation.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+perturbation:
+- transposon-insertion
+chemistry_unknown: Library chemistry not stated in abstract
+reference:
+  doi: 10.1093/nar/gkaf774
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Goodall ECA
+  last_author: Henderson IR
+  pmid: '40808296'
+  pmcid: PMC12350097
+  title: 'PIRT-Seq: a high-resolution whole-genome assay to identify protein-coding genes'
+links: {}
+added: '2026-11-14'
+evidence: 'We present this method (Protein Identification through Reporter Transposon-Sequencing: PIRT-Seq) as a complementary
+  method to whole cell proteomics and ribosome trapping for condition-dependent identification of protein CDSs, and as a high-throughput
+  method for testing conditional gene expression.'

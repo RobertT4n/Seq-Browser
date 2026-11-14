@@ -1,0 +1,26 @@
+name: ME-Scan-SVA
+full_name: mobile element scanning for SVA
+category: wet
+summary: Nested SVA-specific PCR enrichment of the 5' end of SVA retrotransposons and flanking DNA, sequenced to find polymorphic
+  SVA insertions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1186/s13100-016-0072-x
+  year: 2016
+  journal: Mob DNA
+  first_author: Ha H
+  last_author: Xing J
+  pmid: '27478512'
+  pmcid: PMC4967303
+  title: Identification of polymorphic SVA retrotransposons using a mobile element scanning method for SVA (ME-Scan-SVA)
+links: {}
+added: '2026-11-14'
+evidence: we developed a mobile element scanning (ME-Scan) protocol we called ME-Scan-SVA.

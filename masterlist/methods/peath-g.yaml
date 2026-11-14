@@ -1,0 +1,20 @@
+name: PEATH/G
+category: dry
+summary: GPU-parallelized probabilistic evolutionary algorithm with toggling for fast single-individual haplotyping from NGS
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2019.103421
+  year: 2019
+  journal: Comput Biol Med
+  first_author: Na JC
+  last_author: Shin SY
+  pmid: '31499396'
+  title: Fast single individual haplotyping method using GPGPU
+links: {}
+added: '2026-11-14'
+evidence: Here, we parallelized the PEATH method (PEATH/G) using general-purpose computing on GPU (GPGPU).

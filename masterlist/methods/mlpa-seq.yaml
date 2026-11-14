@@ -1,0 +1,33 @@
+name: MLPA-seq
+full_name: Multiplex Ligation-dependent Probe Amplification sequencing
+category: wet
+summary: Multiplex ligation-dependent probe amplification read out by sequencing instead of size resolution, giving scalable
+  amplicon-based copy-number counts from low-input and FFPE DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+input_sample:
+- ffpe-archival
+- low-input
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0143006
+  year: 2015
+  journal: PLoS One
+  first_author: Kondrashova O
+  last_author: Taylor GR
+  pmid: '26569395'
+  pmcid: PMC4646639
+  title: High-Throughput Amplicon-Based Copy Number Detection of 11 Genes in Formalin-Fixed Paraffin-Embedded Ovarian Tumour
+    Samples by MLPA-Seq
+links: {}
+added: '2026-11-14'
+evidence: By switching from a size-resolved format, to a sequence-resolved format we developed a scalable, high-throughput,
+  quantitative assay.

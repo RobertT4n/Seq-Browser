@@ -1,0 +1,27 @@
+name: msGBS
+full_name: multispecies genotyping by sequencing
+category: wet
+summary: Genotyping-by-sequencing reads mapped to a multispecies meta-reference to quantify relative species abundance in
+  mixed plant root samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: GBS library preparation not detailed in abstract
+species:
+- plant
+reference:
+  doi: 10.1111/1755-0998.13278
+  year: 2021
+  journal: Mol Ecol Resour
+  first_author: Wagemaker CAM
+  last_author: de Kroon H
+  pmid: '33058506'
+  pmcid: PMC8246947
+  title: 'msGBS: A new high-throughput approach to quantify the relative species abundance in root samples of multispecies
+    plant communities'
+links: {}
+added: '2026-11-14'
+evidence: Here we present a novel methodology, multispecies genotyping by sequencing (msGBS), as a next step to tackle this
+  challenge.

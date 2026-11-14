@@ -1,0 +1,20 @@
+name: PopMLST
+full_name: population multi-locus sequence typing
+category: wet
+summary: Amplicon sequencing of polymorphic strain-identifying loci to count strains and their relative abundance within a
+  bacterial population from clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1172/jci.insight.152472
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a population-level method for enumerating and measuring the relative abundance of strains called
+  population multi-locus sequence typing (PopMLST).

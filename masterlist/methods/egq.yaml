@@ -1,0 +1,21 @@
+name: EGQ
+full_name: Expected Genotype Quality
+category: dry
+summary: Expected genotype quality framework and R script for diploidizing tetraploid genotyping-by-sequencing VCF calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3835/plantgenome2019.01.0002
+  year: 2019
+  journal: Plant Genome
+  first_author: Matias FI
+  last_author: Endelman JB
+  pmid: '33016594'
+  pmcid: PMC12810024
+  title: Expected Genotype Quality and Diploidized Marker Data from Genotyping-by-Sequencing of Urochloa spp. Tetraploids
+links: {}
+added: '2026-11-14'
+evidence: We developed an R script to convert tetraploid GBS data in variant call format (VCF) into diploidized genotype calls

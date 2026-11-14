@@ -1,0 +1,23 @@
+name: pipeComp
+category: dry
+summary: R framework for benchmarking multi-step analysis pipelines, applied to scRNA-seq preprocessing from filtering to
+  clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02136-7
+  year: 2020
+  journal: Genome Biol
+  first_author: Germain PL
+  last_author: Robinson MD
+  pmid: '32873325'
+  pmcid: PMC7465801
+  title: pipeComp, a general framework for the evaluation of computational pipelines, reveals performant single cell RNA-seq
+    preprocessing tools
+links: {}
+added: '2026-11-14'
+evidence: We present pipeComp (https://github.com/plger/pipeComp), a flexible R framework for pipeline comparison handling
+  interactions between analysis steps and relying on multi-level evaluation metrics.

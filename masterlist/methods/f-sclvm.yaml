@@ -1,0 +1,24 @@
+name: f-scLVM
+full_name: factorial single-cell latent variable model
+category: dry
+summary: Factorial latent variable model that uses pathway annotations to infer interpretable factors behind scRNA-seq heterogeneity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+variant_of:
+- sclvm
+reference:
+  doi: 10.1186/s13059-017-1334-8
+  year: 2017
+  journal: Genome Biol
+  first_author: Buettner F
+  last_author: Stegle O
+  pmid: '29115968'
+  pmcid: PMC5674756
+  title: 'f-scLVM: scalable and versatile factor analysis for single-cell RNA-seq'
+links: {}
+added: '2026-11-14'
+evidence: We here describe f-scLVM (factorial single-cell latent variable model), a method based on factor analysis that uses
+  pathway annotations to guide the inference of interpretable factors underpinning the heterogeneity.

@@ -1,0 +1,24 @@
+name: OmicVerse
+category: dry
+summary: Framework bridging bulk and single-cell sequencing, including BulkTrajBlend, which uses a Beta-VAE and graph neural
+  networks to recover cells omitted from single-cell data via bulk RNA-seq deconvolution.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-50194-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Zeng Z
+  last_author: Du H
+  pmid: '39013860'
+  pmcid: PMC11252408
+  title: 'OmicVerse: a framework for bridging and deepening insights across bulk and single-cell sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce the single cell trajectory blending from Bulk RNA-seq (BulkTrajBlend) algorithm, a component
+  of the OmicVerse suite that leverages a Beta-Variational AutoEncoder for data deconvolution and graph neural networks for
+  the discovery of overlapping communities.

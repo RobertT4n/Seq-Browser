@@ -1,0 +1,30 @@
+name: PHLI-seq
+full_name: phenotype-based high-throughput laser-aided isolation and sequencing
+category: wet
+summary: Phenotype-guided laser isolation of single cells or small cell groups from tissue for genome-wide sequencing, mapping
+  genomic landscapes to tumour positions.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- human
+chemistry:
+- imaging-guided-selection
+reference:
+  doi: 10.1186/s13059-018-1543-9
+  year: 2018
+  journal: Genome Biol
+  first_author: Kim S
+  last_author: Kwon S
+  pmid: '30296938'
+  pmcid: PMC6176506
+  title: 'PHLI-seq: constructing and visualizing cancer genomic maps in 3D by phenotype-based high-throughput laser-aided
+    isolation and sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe PHLI-seq, a novel approach that enables high-throughput isolation and genome-wide sequence analysis
+  of single cells or small numbers of cells to construct genomic maps within cancer tissue in relation to the images or phenotypes
+  of the cells.

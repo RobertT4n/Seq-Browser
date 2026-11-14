@@ -1,0 +1,29 @@
+name: SPET
+full_name: Single Primer Enrichment Technology
+category: wet
+summary: Customisable targeted RNA-sequencing enrichment using single primers, used to detect gene fusions from fresh-frozen
+  and FFPE RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+input_sample:
+- ffpe-archival
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1371/journal.pone.0128916
+  year: 2015
+  journal: PLoS One
+  first_author: Scolnick JA
+  last_author: Amorese DA
+  pmid: '26132974'
+  pmcid: PMC4488430
+  title: An Efficient Method for Identifying Gene Fusions by Targeted RNA Sequencing from Fresh Frozen and FFPE Samples
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a method, Single Primer Enrichment Technology (SPET), for targeted RNA sequencing that is customizable
+  to any target genes, is simple to use, and efficiently detects gene fusions.

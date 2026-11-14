@@ -1,0 +1,23 @@
+name: RIMS-seq
+full_name: rapid identification of methylase specificity
+category: wet
+summary: Standard Illumina-style shotgun sequencing of bacterial genomes that simultaneously reveals m5C methylase target
+  motifs.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry: []
+chemistry_unknown: abstract does not state the conversion chemistry
+reference:
+  doi: 10.1093/nar/gkab705
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a new method called RIMS-seq (rapid identification of methylase specificity) to simultaneously
+  sequence bacterial genomes and determine m5C methylase specificities using a simple experimental protocol that closely resembles
+  the DNA-seq protocol for Illumina.

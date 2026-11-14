@@ -1,0 +1,32 @@
+name: CapTrap-seq
+category: wet
+summary: cDNA library prep combining cap-trapping with oligo(dT) priming to capture 5-prime capped full-length transcripts
+  for long-read sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+- nanopore
+species:
+- human
+- mouse
+reference:
+  doi: 10.1038/s41467-024-49523-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Carbonell-Sala S
+  last_author: Guigó R
+  pmid: '38937428'
+  title: 'CapTrap-seq: a platform-agnostic and quantitative approach for high-fidelity full-length RNA sequencing'
+links: {}
+added: '2026-11-14'
+evidence: To address this limitation, we develop CapTrap-seq, a cDNA library preparation method, which combines the Cap-trapping
+  strategy with oligo(dT) priming to detect 5' capped, full-length transcripts.

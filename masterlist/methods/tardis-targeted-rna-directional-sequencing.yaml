@@ -1,0 +1,26 @@
+name: TARDIS (targeted RNA directional sequencing)
+full_name: targeted-RNA directional sequencing
+category: wet
+summary: Hybridization-based method that interrogates chosen subsets of RNAs for rare-RNA discovery regardless of length,
+  polyA status or biogenesis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1038/nprot.2015.120
+  year: 2015
+  journal: Nat Protoc
+  first_author: Portal MM
+  last_author: Gronemeyer H
+  pmid: '26513670'
+  title: TARDIS, a targeted RNA directional sequencing method for rare RNA discovery
+links: {}
+added: '2026-11-14'
+evidence: Herein we present targeted-RNA directional sequencing (TARDIS), a hybridization-based method that allows subsets
+  of RNAs contained within the transcriptome to be interrogated independently of transcript length, function, the presence
+  or absence of poly-A tracts, or the mechanism of biogenesis.

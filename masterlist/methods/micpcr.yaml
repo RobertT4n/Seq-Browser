@@ -1,0 +1,27 @@
+name: micPCR
+full_name: micelle PCR
+category: wet
+summary: Micelle-PCR 16S rRNA amplicon sequencing with an internal calibrator to give absolute-abundance microbiota profiles
+  and subtract contaminants.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1038/srep45536
+  year: 2017
+  journal: Sci Rep
+  first_author: Boers SA
+  last_author: Jansen R
+  pmid: '28378789'
+  pmcid: PMC5381217
+  title: Novel micelle PCR-based method for accurate, sensitive and quantitative microbiota profiling
+links: {}
+added: '2026-11-14'
+evidence: we report on a novel approach employing micelle PCR (micPCR) in combination with an internal calibrator that allows
+  for standardization of microbiota profiles via their absolute abundances.

@@ -1,0 +1,25 @@
+name: KPNN
+full_name: Knowledge-primed neural networks
+category: dry
+summary: Neural networks whose nodes and edges follow biological signalling and regulatory networks, for interpretable deep
+  learning on single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02100-5
+  year: 2020
+  journal: Genome Biol
+  first_author: Fortelny N
+  last_author: Bock C
+  pmid: '32746932'
+  pmcid: PMC7397672
+  title: Knowledge-primed neural networks enable biologically interpretable deep learning on single-cell sequencing data
+links: {}
+added: '2026-11-14'
+evidence: Here we demonstrate deep learning on biological networks, where every node has a molecular equivalent, such as a
+  protein or gene, and every edge has a mechanistic interpretation, such as a regulatory interaction along a signaling pathway.<h4>Results</h4>With
+  knowledge-primed neural networks (KPNNs), we exploit the ability of deep learning algorithms to assign meaningful weights
+  in multi-layered networks, resulting in a widely applicable approach for interpretable deep learning.

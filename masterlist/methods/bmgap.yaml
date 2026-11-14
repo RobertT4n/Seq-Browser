@@ -1,0 +1,26 @@
+name: BMGAP
+full_name: Bacterial Meningitis Genomic Analysis Platform
+category: dry
+summary: Web-accessible pipeline that assembles bacterial meningitis pathogen genomes and performs species identification,
+  MLST and capsule typing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.3389/fgene.2020.601870
+  year: 2020
+  journal: Front Genet
+  first_author: Buono SA
+  last_author: Wang X
+  pmid: '33324449'
+  pmcid: PMC7726215
+  title: Web-Based Genome Analysis of Bacterial Meningitis Pathogens for Public Health Applications Using the Bacterial Meningitis
+    Genomic Analysis Platform (BMGAP)
+links: {}
+added: '2026-11-14'
+evidence: 'Here, we present the Bacterial Meningitis Genomic Analysis Platform (BMGAP): a secure, web-accessible informatics
+  platform that facilitates automated analysis of WGS data in public health laboratories.'

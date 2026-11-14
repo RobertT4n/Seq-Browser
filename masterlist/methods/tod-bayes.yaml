@@ -1,0 +1,25 @@
+name: TOD-Bayes
+full_name: naive Bayes algorithm for tissue origin diagnosis
+category: dry
+summary: Naive Bayes classifier of tissue origin of synchronous multifocal tumors from RNA-seq expression of about 1000 feature
+  genes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+evidence: To address this problem and assist in more precise diagnosis, we developed a computational approach for tissue origin
+  diagnosis based on naive Bayes algorithm (TOD-Bayes) using ubiquitous RNA-Seq data.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1002/ijc.31054
+  year: 2018
+  journal: Int J Cancer
+  first_author: Jiang W
+  last_author: Fang W
+  pmid: '28921531'
+  title: A naive Bayes algorithm for tissue origin diagnosis (TOD-Bayes) of synchronous multifocal tumors in the hepatobiliary
+    and pancreatic system

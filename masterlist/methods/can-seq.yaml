@@ -1,0 +1,27 @@
+name: Can-Seq
+full_name: Candidate gene-Sequencing
+category: wet
+summary: PCR amplification of pooled known and candidate genes from bulked mutant DNA followed by deep sequencing to find
+  new alleles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1186/s13007-020-0555-0
+  year: 2020
+  journal: Plant Methods
+  first_author: Cao J
+  last_author: Carroll BJ
+  pmid: '32082406'
+  pmcid: PMC7017465
+  title: 'Can-Seq: a PCR and DNA sequencing strategy for identifying new alleles of known and candidate genes'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a strategy called Candidate gene-Sequencing (Can-Seq) for rapidly identifying and filtering out
+  mutants carrying new alleles of known and candidate genes.

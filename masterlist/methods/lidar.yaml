@@ -1,0 +1,28 @@
+name: LIDAR
+full_name: Ligation-independent detection of all types of RNA
+category: wet
+summary: Quasi-random priming with template switching builds libraries from RNAs of any length and any 3 prime modification,
+  without adapter ligation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2024.07.008
+  year: 2024
+  journal: Mol Cell
+  first_author: Scacchetti A
+  last_author: Bonasio R
+  pmid: '39096899'
+  pmcid: PMC11455606
+  title: A ligation-independent sequencing method reveals tRNA-derived RNAs with blocked 3' termini
+links: {}
+added: '2026-11-14'
+evidence: We developed a method that combines quasi-random priming with template switching to construct sequencing libraries
+  from RNA molecules of any length and with any type of 3' modifications, allowing for the sequencing of virtually all RNA
+  species.

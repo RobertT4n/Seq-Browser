@@ -1,0 +1,26 @@
+name: TRIMD
+full_name: Transcriptome Resolution through Integration of Multi-platform Data
+category: dry
+summary: Approach integrating PacBio Iso-Seq, Illumina RNA-seq and deepCAGE data to resolve polyadenylated transcript structures
+  in a compact viral genome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/nar/gkw629
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: O'Grady T
+  last_author: Flemington EK
+  pmid: '27407110'
+  pmcid: PMC5062983
+  title: Global transcript structure resolution of high gene density genomes through multi-platform data integration
+links: {}
+added: '2026-11-14'
+evidence: Our method, Transcriptome Resolution through Integration of Multi-platform Data (TRIMD), identifies nearly 300 novel
+  EBV transcripts, quadrupling the size of the annotated viral transcriptome.

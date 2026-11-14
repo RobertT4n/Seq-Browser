@@ -1,0 +1,22 @@
+name: scISR
+full_name: single-cell Imputation via Subspace Regression
+category: dry
+summary: Imputation method that recovers dropout values in scRNA-seq data using subspace regression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-022-06500-4
+  year: 2022
+  journal: Sci Rep
+  first_author: Tran D
+  last_author: Nguyen T
+  pmid: '35177662'
+  pmcid: PMC8854597
+  title: A novel method for single-cell data imputation using subspace regression
+links: {}
+added: '2026-11-14'
+evidence: we develop a novel imputation method, named single-cell Imputation via Subspace Regression (scISR), that can reliably
+  recover the dropout values of scRNA-seq data.

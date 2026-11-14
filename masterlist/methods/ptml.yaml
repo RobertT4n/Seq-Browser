@@ -1,0 +1,24 @@
+name: PTML
+full_name: Predicted total mutation load
+category: dry
+summary: Algorithm that predicts total tumour mutation load from the mutations in a small gene set covered by clinical NGS
+  panels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12916-016-0705-4
+  year: 2016
+  journal: BMC Med
+  first_author: Roszik J
+  last_author: Woodman SE
+  pmid: '27776519'
+  pmcid: PMC5078889
+  title: Novel algorithmic approach predicts tumor mutation load and correlates with immunotherapy clinical outcomes using
+    a defined gene mutation set
+links: {}
+added: '2026-11-14'
+evidence: We developed a method to accurately derive the predicted total mutation load (PTML) within individual tumors from
+  a small set of genes that can be used in clinical next generation sequencing (NGS) panels.

@@ -1,0 +1,28 @@
+name: TORNADO-seq
+full_name: targeted organoid sequencing
+category: wet
+summary: Targeted RNA-seq of large gene signatures for drug screens in intestinal organoids.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- chemical-perturbation
+validated_system:
+- organoid
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.celrep.2021.109026
+  year: 2021
+  journal: Cell Rep
+  first_author: Norkin M
+  last_author: Huelsken J
+  pmid: '33882314'
+  title: High-content, targeted RNA-seq screening in organoids for drug discovery in colorectal cancer
+links: {}
+added: '2026-11-14'
+evidence: We develop targeted organoid sequencing (TORNADO-seq), a high-throughput, high-content drug discovery platform that
+  uses targeted RNA-seq to monitor the expression of large gene signatures for the detailed evaluation of cellular phenotypes
+  in organoids.

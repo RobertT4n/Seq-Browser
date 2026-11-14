@@ -1,0 +1,24 @@
+name: SNARE-seq2
+full_name: Single-nucleus chromatin accessibility and mRNA expression sequencing 2
+category: wet
+summary: Combinatorial-indexing version of SNARE-seq that jointly profiles chromatin accessibility and mRNA in hundreds of
+  thousands of single nuclei or cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- combinatorial-indexing
+- split-pool-barcoding
+variant_of:
+- snare-seq
+reference:
+  doi: 10.1038/s41596-021-00507-3
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a single-nucleus chromatin accessibility and mRNA expression sequencing 2 (SNARE-seq2) assay,
+  implemented with cellular combinatorial indexing.

@@ -1,0 +1,30 @@
+name: STRIPE-seq
+full_name: Survey of TRanscription Initiation at Promoter Elements with high-throughput sequencing
+category: wet
+summary: Simple 5-hour library protocol that sequences capped RNA 5' ends from as little as 50 ng total RNA to map transcription
+  start sites and quantify transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.261545.120
+  year: 2020
+  journal: Genome Res
+  first_author: Policastro RA
+  last_author: Zentner GE
+  pmid: '32660958'
+  pmcid: PMC7370879
+  title: Simple and efficient profiling of transcription initiation and transcript levels with STRIPE-seq
+links: {}
+added: '2026-11-14'
+evidence: We present Survey of TRanscription Initiation at Promoter Elements with high-throughput sequencing (STRIPE-seq),
+  a simple, rapid, and cost-effective protocol for sequencing capped RNA 5' ends from as little as 50 ng total RNA.

@@ -1,0 +1,29 @@
+name: NicE-seq
+full_name: nicking enzyme assisted sequencing
+category: wet
+summary: Nicking-enzyme based open chromatin profiling for native and formaldehyde-fixed cells, reporting accessible sites
+  at single-nucleotide resolution.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- fixed-cells
+- live-cells
+validated_system:
+- cell-line
+chemistry_unknown: Nicking-enzyme labelling and capture has no fitting taxonomy tag
+reference:
+  doi: 10.1186/s13059-017-1247-6
+  year: 2017
+  journal: Genome Biol
+  first_author: Ponnaluri VKC
+  last_author: Pradhan S
+  pmid: '28655330'
+  pmcid: PMC5488340
+  title: 'NicE-seq: high resolution open chromatin profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe NicE-seq (nicking enzyme assisted sequencing) for high-resolution open chromatin profiling on
+  both native and formaldehyde-fixed cells.

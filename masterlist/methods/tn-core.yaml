@@ -1,0 +1,27 @@
+name: Tn-Core
+category: dry
+summary: Toolbox that integrates Tn-seq gene essentiality data with constraint-based metabolic models to interpret Tn-seq
+  datasets and find data gaps.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+task:
+- benchmark-infrastructure
+perturbation:
+- transposon-insertion
+species:
+- microbe
+reference:
+  doi: 10.1021/acssynbio.8b00432
+  year: 2019
+  journal: ACS Synth Biol
+  first_author: diCenzo GC
+  last_author: Fondi M
+  pmid: '30525460'
+  title: 'Tn-Core: A Toolbox for Integrating Tn-seq Gene Essentiality Data and Constraint-Based Metabolic Modeling'
+links: {}
+added: '2026-11-14'
+evidence: Integrating these highly complementary experimental and in silico approaches has the potential to yield a highly
+  comprehensive understanding of the core networks of a cell.

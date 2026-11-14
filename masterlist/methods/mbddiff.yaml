@@ -1,0 +1,21 @@
+name: MBDDiff
+category: dry
+summary: R package for differential DNA methylation quantification designed specifically for MBDCap-seq data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-2794-z
+  year: 2016
+  journal: BMC Genomics
+  first_author: Liu Y
+  last_author: Chen Y
+  pmid: '27556923'
+  pmcid: PMC5001203
+  title: 'MBDDiff: an R package designed specifically for processing MBDcap-seq datasets'
+links: {}
+added: '2026-11-14'
+evidence: In this paper we developed an algorithm, MBDDiff, designed specifically for datasets derived from MBDCap-seq.

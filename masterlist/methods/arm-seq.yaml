@@ -1,0 +1,26 @@
+name: ARM-seq
+full_name: AlkB-facilitated RNA methylation sequencing
+category: wet
+summary: Pretreatment of small RNA with AlkB demethylase removes m1A, m3C and m1G so they stop blocking reverse transcription,
+  giving a comparative map of tRNA and tRNA-fragment methylation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.3508
+  year: 2015
+  journal: Nat Methods
+  first_author: Cozen AE
+  last_author: Lowe TM
+  pmid: '26237225'
+  pmcid: PMC4553111
+  title: 'ARM-seq: AlkB-facilitated RNA methylation sequencing reveals a complex landscape of modified tRNA fragments'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe AlkB-facilitated RNA methylation sequencing (ARM-seq), which uses pretreatment with Escherichia
+  coli AlkB to demethylate N(1)-methyladenosine (m(1)A), N(3)-methylcytidine (m(3)C) and N(1)-methylguanosine (m(1)G), all
+  commonly found in tRNAs.

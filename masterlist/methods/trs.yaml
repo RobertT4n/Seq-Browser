@@ -1,0 +1,25 @@
+name: TRS
+full_name: Termini by Read Starts
+category: dry
+summary: Computational pipeline that infers bacterial transcript 3-prime termini from the read-start pile-up in RNAtag-seq
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-023-43534-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Bar A
+  last_author: Margalit H
+  pmid: '38030608'
+  pmcid: PMC10687069
+  title: 'TRS: a method for determining transcript termini from RNAtag-seq sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We present TRS (Termini by Read Starts), a computational pipeline exploiting this property to identify 3' termini
+  in RNAtag-seq data, and show that the identified 3' termini are highly reliable.

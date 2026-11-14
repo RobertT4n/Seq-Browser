@@ -1,0 +1,32 @@
+name: plant-RRBS
+full_name: plant reduced representation bisulfite sequencing
+category: wet
+summary: RRBS adapted to plants using double restriction digest, end repair, adapter ligation, bisulfite conversion and PCR
+  to profile cytosine methylation across the genome.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+- bisulfite-or-enzymatic-conversion
+species:
+- plant
+reference:
+  doi: 10.1186/s12870-017-1070-y
+  year: 2017
+  journal: BMC Plant Biol
+  first_author: Schmidt M
+  last_author: Van Lijsebettens M
+  pmid: '28683715'
+  pmcid: PMC5501559
+  title: Plant-RRBS, a bisulfite and next-generation sequencing-based methylome profiling method enriching for coverage of
+    cytosine positions
+links: {}
+added: '2026-11-14'
+evidence: We established an effective methylome profiling method in plants, termed plant-reduced representation bisulfite
+  sequencing (plant-RRBS), using optimized double restriction endonuclease digestion, fragment end repair, adapter ligation,
+  followed by bisulfite conversion, PCR amplification and NGS.

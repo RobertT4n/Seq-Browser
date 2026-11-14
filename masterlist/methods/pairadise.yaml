@@ -1,0 +1,25 @@
+name: PAIRADISE
+full_name: Paired Replicate Analysis of Allelic Differential Splicing Events
+category: dry
+summary: Statistical method that detects allele-specific alternative splicing by treating the two alleles of an individual
+  as pairs and individuals sharing a heterozygous SNP as replicates in RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1016/j.ajhg.2020.07.005
+  year: 2020
+  journal: Am J Hum Genet
+  first_author: Demirdjian L
+  last_author: Xing Y
+  pmid: '32781045'
+  pmcid: PMC7477012
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+links: {}
+added: '2026-11-14'
+evidence: We introduce PAIRADISE (Paired Replicate Analysis of Allelic Differential Splicing Events), a method for detecting
+  allele-specific alternative splicing (ASAS) from RNA-seq data.

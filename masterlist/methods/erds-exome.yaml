@@ -1,0 +1,21 @@
+name: ERDS-exome
+full_name: Estimation by Read Depth with Single-nucleotide variants from exome sequencing data
+category: dry
+summary: Hybrid copy number variant caller for whole-exome sequencing combining read depth and SNV information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+evidence: In the present study, we describe a novel method, Estimation by Read Depth (RD) with Single-nucleotide variants
+  from exome sequencing data (ERDS-exome).
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1109/tcbb.2017.2758779
+  year: 2020
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Tan R
+  last_author: Wang Y
+  pmid: '28981421'
+  title: 'ERDS-exome: a Hybrid Approach for Copy Number Variant Detection from Whole-exome Sequencing Data'

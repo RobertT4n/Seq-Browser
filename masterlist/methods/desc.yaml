@@ -1,0 +1,22 @@
+name: DESC
+category: dry
+summary: Unsupervised deep embedding algorithm that clusters scRNA-seq data by iterative self-learning while removing batch
+  effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-15851-3
+  year: 2020
+  journal: Nat Commun
+  first_author: Li X
+  last_author: Li M
+  pmid: '32393754'
+  pmcid: PMC7214470
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+links: {}
+added: '2026-11-14'
+evidence: We present DESC, an unsupervised deep embedding algorithm that clusters scRNA-seq data by iteratively optimizing
+  a clustering objective function.

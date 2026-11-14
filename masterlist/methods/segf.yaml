@@ -1,0 +1,22 @@
+name: SEGF
+full_name: Single-end gene fusion
+category: dry
+summary: Fusion gene detection from single-end DNA-seq data by combining BLAST and SOAP alignment with stringent filters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes9070331
+  year: 2018
+  journal: Genes (Basel)
+  first_author: Xu H
+  last_author: Xu S
+  pmid: '30004447'
+  pmcid: PMC6070977
+  title: 'SEGF: A Novel Method for Gene Fusion Detection from Single-End Next-Generation Sequencing Data'
+links: {}
+added: '2026-11-14'
+evidence: we developed a novel fusion gene analyzing method called single-end gene fusion (SEGF) by starting with single-end
+  DNA-seq data.

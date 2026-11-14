@@ -1,0 +1,25 @@
+name: SGZ
+full_name: Somatic-germline-zygosity
+category: dry
+summary: Predicts somatic vs germline origin and zygosity or sub-clonal state of variants from deep tumour sequencing without
+  a matched normal.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1005965
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Sun JX
+  last_author: Yelensky R
+  pmid: '29415044'
+  pmcid: PMC5832436
+  title: A computational approach to distinguish somatic vs. germline origin of genomic alterations from deep sequencing of
+    cancer specimens without a matched normal
+links: {}
+added: '2026-11-14'
+evidence: We introduce SGZ (somatic-germline-zygosity), a computational method for predicting somatic vs. germline origin
+  and homozygous vs. heterozygous or sub-clonal state of variants identified from deep massively parallel sequencing (MPS)
+  of cancer specimens.

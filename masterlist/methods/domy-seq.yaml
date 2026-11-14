@@ -1,0 +1,29 @@
+name: DoMY-Seq
+full_name: Protein Domain mapping using Yeast 2 Hybrid-Next Generation Sequencing
+category: wet
+summary: Yeast two-hybrid selection of ORF fragment libraries followed by sequencing of interacting fragments to map protein-protein
+  interaction domains at high resolution.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1074/jbc.ra120.014284
+  year: 2021
+  journal: J Biol Chem
+  first_author: Castel P
+  last_author: McCormick F
+  pmid: '33410398'
+  pmcid: PMC7949039
+  title: 'DoMY-Seq: A yeast two-hybrid-based technique for precision mapping of protein-protein interaction motifs'
+links: {}
+added: '2026-11-14'
+evidence: Next-generation sequencing is then subsequently employed to read and map the sequence of the interacting fragment,
+  yielding a high-resolution plot of the binding interface.
+_nr: 'MISSING_TAG: readout is protein-protein interaction interface mapping; no taxonomy readout for protein-protein interaction
+  (functional-screen used as placeholder)'

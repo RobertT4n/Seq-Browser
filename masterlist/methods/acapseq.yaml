@@ -1,0 +1,29 @@
+name: ACAPseq
+full_name: Affinity Capture of Polyribosomes followed by RNA sequencing
+category: wet
+summary: Polyribosomes are captured on an immobilised protein bait through their nascent polypeptides and the enriched mRNAs
+  are sequenced to find protein-protein interaction partners.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+input_sample:
+- fresh-tissue
+reference:
+  doi: 10.7554/elife.40982
+  year: 2018
+  journal: Elife
+  first_author: Peng X
+  last_author: Nathans J
+  pmid: '30345971'
+  pmcid: PMC6197854
+  title: Affinity capture of polyribosomes followed by RNAseq (ACAPseq), a discovery platform for protein-protein interactions
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a novel platform - Affinity Capture of Polyribosomes followed by RNA sequencing (ACAPseq) - for
+  identifying PPIs.

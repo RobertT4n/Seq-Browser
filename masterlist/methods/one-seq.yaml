@@ -1,0 +1,28 @@
+name: ONE-seq
+category: wet
+summary: One-step chemo-enzymatic biotinylation, streptavidin capture and NudC elution selectively recover NAD-capped RNAs
+  for transcriptome-wide and gene-specific profiling.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+chemistry_unknown: biotinylation, streptavidin capture and NudC elution steps have no chemistry tag
+reference:
+  doi: 10.1093/nar/gkac1136
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Niu K
+  last_author: Liu N
+  pmid: '36477375'
+  pmcid: PMC9881147
+  title: 'ONE-seq: epitranscriptome and gene-specific profiling of NAD-capped RNA'
+links: {}
+added: '2026-11-14'
+evidence: ONE-seq has been optimized to use only one-step chemo-enzymatic biotinylation, followed by streptavidin capture
+  and the nudix phosphohydrolase NudC-catalyzed elution, to specifically recover NAD-capped RNAs for epitranscriptome and
+  gene-specific analyses.

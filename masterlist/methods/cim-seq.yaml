@@ -1,0 +1,27 @@
+name: CIM-seq
+full_name: cell interaction by multiplet sequencing
+category: wet
+summary: RNA sequencing of incompletely dissociated cell multiplets followed by computational deconvolution into constituent
+  cell types to map physical cell-cell interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41592-021-01196-2
+  year: 2021
+  journal: Nat Methods
+  first_author: Andrews N
+  last_author: Enge M
+  pmid: '34253926'
+  title: An unsupervised method for physical cell interaction profiling of complex tissues
+links: {}
+added: '2026-11-14'
+evidence: Here we develop cell interaction by multiplet sequencing (CIM-seq), an unsupervised and high-throughput method to
+  analyze direct physical cell-cell interactions between cell types present in a tissue.

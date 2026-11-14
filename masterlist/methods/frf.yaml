@@ -1,0 +1,22 @@
+name: FRF
+full_name: forward random field
+category: dry
+summary: Forward random field method for disease risk prediction from sequencing data, predicting phenotype from subjects
+  with similar genotypes and selecting genes and similarity measures adaptively.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep21120
+  year: 2016
+  journal: Sci Rep
+  first_author: Wen Y
+  last_author: Lu Q
+  pmid: '26892725'
+  pmcid: PMC4759688
+  title: Risk Prediction Modeling of Sequencing Data Using a Forward Random Field Method
+links: {}
+added: '2026-11-14'
+evidence: In this paper, we develop a forward random field method (FRF) for risk prediction modeling using sequencing data.

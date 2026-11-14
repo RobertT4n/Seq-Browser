@@ -1,0 +1,32 @@
+name: MIAA
+full_name: multiplexed integrated accessibility assay
+category: wet
+summary: Assay that measures chromatin accessibility of synthetic oligonucleotide libraries integrated into a low-accessibility
+  genomic locus, to test how sequence motifs determine cell type-specific accessibility.
+readouts:
+- chromatin-accessibility
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry_unknown: accessibility readout chemistry not stated in abstract
+reference:
+  doi: 10.1101/gr.263228.120
+  year: 2020
+  journal: Genome Res
+  first_author: Hammelman J
+  last_author: Sherwood RI
+  pmid: '32973041'
+  pmcid: PMC7605270
+  title: Identification of determinants of differential chromatin accessibility through a massively parallel genome-integrated
+    reporter assay
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce the multiplexed integrated accessibility assay (MIAA), an assay that measures chromatin accessibility
+  of synthetic oligonucleotide sequence libraries integrated into a controlled genomic context with low native accessibility.

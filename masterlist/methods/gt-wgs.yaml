@@ -1,0 +1,20 @@
+name: GT-WGS
+category: dry
+summary: Distributed AWS cloud system for fast, low-cost whole-genome sequencing analysis, consistent with GATK best practice.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-017-4334-x
+  year: 2018
+  journal: BMC Genomics
+  first_author: Wang Y
+  last_author: Wu C
+  pmid: '29363427'
+  pmcid: PMC5780748
+  title: 'GT-WGS: an efficient and economic tool for large-scale WGS analyses based on the AWS cloud service'
+links: {}
+added: '2026-11-14'
+evidence: We developed a distributed system, GT-WGS, for large-scale WGS analyses utilizing the Amazon Web Services (AWS).

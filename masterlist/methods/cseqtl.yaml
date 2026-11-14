@@ -1,0 +1,21 @@
+name: CSeQTL
+category: dry
+summary: Statistical method mapping cell type-specific eQTLs from bulk RNA-seq count data using allele-specific expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-38795-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Little P
+  last_author: Sun W
+  pmid: '37231002'
+  pmcid: PMC10212972
+  title: A computational method for cell type-specific expression quantitative trait loci mapping using bulk RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: To address this issue, we have developed a statistical method called CSeQTL that allows for ct-eQTL mapping using
+  bulk RNA-seq count data while taking advantage of allele-specific expression.

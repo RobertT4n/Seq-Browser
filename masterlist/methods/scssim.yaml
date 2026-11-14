@@ -1,0 +1,22 @@
+name: SCSsim
+category: dry
+summary: Simulator of single-cell genome sequencing data that models MALBAC whole-genome amplification, allele dropout and
+  variation.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz713
+  year: 2020
+  journal: Bioinformatics
+  first_author: Yu Z
+  last_author: Li A
+  pmid: '31584615'
+  pmcid: PMC7703785
+  title: 'SCSsim: an integrated tool for simulating single-cell genome sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We develop a new software package (SCSsim) that can efficiently simulate SCS datasets in a parallel fashion with
+  minimal user intervention.

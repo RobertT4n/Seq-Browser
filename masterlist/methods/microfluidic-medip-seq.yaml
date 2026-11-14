@@ -1,0 +1,32 @@
+name: Microfluidic MeDIP-seq
+category: wet
+summary: Microfluidic methylated DNA immunoprecipitation sequencing for methylomes from as little as 0.5 ng DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- microfluidic-chip
+input_sample:
+- low-input
+species:
+- mouse
+variant_of:
+- medip-seq
+reference:
+  doi: 10.1039/c8an02271b
+  year: 2019
+  journal: Analyst
+  first_author: Zhu Y
+  last_author: Lu C
+  pmid: '30631869'
+  pmcid: PMC6411450
+  title: Microfluidic MeDIP-seq for low-input methylomic analysis of mammary tumorigenesis in mice
+links: {}
+added: '2026-11-14'
+evidence: we developed an ultrasensitive microfluidics-based methylated DNA immunoprecipitation followed by next-generation
+  sequencing (MeDIP-seq) technology for profiling methylomes using as little as 0.5 ng DNA (or ∼100 cells) with 1.5 h on-chip
+  process for immunoprecipitation.

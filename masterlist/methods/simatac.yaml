@@ -1,0 +1,22 @@
+name: simATAC
+category: dry
+summary: R package that simulates scATAC-seq count matrices resembling real data in library size, sparsity and accessibility
+  signal, for benchmarking.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02270-w
+  year: 2021
+  journal: Genome Biol
+  first_author: Navidi Z
+  last_author: Wang B
+  pmid: '33663563'
+  pmcid: PMC7934446
+  title: 'simATAC: a single-cell ATAC-seq simulation framework'
+links: {}
+added: '2026-11-14'
+evidence: We hereby present the simATAC framework, an R package that generates scATAC-seq count matrices that highly resemble
+  real scATAC-seq datasets in library size, sparsity, and chromatin accessibility signals.

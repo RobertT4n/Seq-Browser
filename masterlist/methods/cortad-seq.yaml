@@ -1,0 +1,31 @@
+name: CORTAD-seq
+full_name: Concurrent RNA and Targeted DNA sequencing
+category: wet
+summary: Concurrent sequencing of the transcriptome and targeted genomic regions from the same single cell on an automated
+  commercial single-cell isolation platform.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1373/clinchem.2018.295717
+  year: 2019
+  journal: Clin Chem
+  first_author: Kong SL
+  last_author: Hillmer AM
+  pmid: '30523199'
+  title: Concurrent Single-Cell RNA and Targeted DNA Sequencing on an Automated Platform for Comeasurement of Genomic and
+    Transcriptomic Signatures
+links: {}
+added: '2026-11-14'
+evidence: We developed a new method for concurrent sequencing of the transcriptome and targeted genomic regions (CORTAD-seq)
+  within the same single cell on an automated microfluidic platform.

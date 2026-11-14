@@ -1,0 +1,22 @@
+name: AlphaFamImpute
+category: dry
+summary: Imputation package that calls, phases and imputes genome-wide genotypes in outbred full-sib families from low-coverage
+  genotype-by-sequencing and SNP array data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa499
+  year: 2020
+  journal: Bioinformatics
+  first_author: Whalen A
+  last_author: Hickey JM
+  pmid: '32467963'
+  pmcid: PMC7520044
+  title: 'AlphaFamImpute: high-accuracy imputation in full-sib families from genotype-by-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present AlphaFamImpute, an algorithm specifically designed to exploit the genetic structure of full-sib
+  families.

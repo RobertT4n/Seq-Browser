@@ -1,0 +1,21 @@
+name: SCCLRR
+full_name: Single-Cell Clustering via Low-Rank Representation
+category: dry
+summary: Clustering method for scRNA-seq data that learns a robust similarity matrix with a low-rank representation model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2020.2991172
+  year: 2021
+  journal: IEEE J Biomed Health Inform
+  first_author: Zhang W
+  last_author: Zou X
+  pmid: '32356764'
+  title: 'SCCLRR: A Robust Computational Method for Accurate Clustering Single Cell RNA-Seq Data'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we propose a new cell type detection method by learning a robust and accurate similarity matrix,
+  named SCCLRR.

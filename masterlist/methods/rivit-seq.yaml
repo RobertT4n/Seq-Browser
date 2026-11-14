@@ -1,0 +1,27 @@
+name: RIViT-seq
+full_name: Regulon identification by in vitro transcription-sequencing
+category: wet
+summary: In vitro transcription with purified sigma factors plus RNA-seq identifies the regulon (target genes) of transcription
+  factors.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-022-31191-w
+  year: 2022
+  journal: Nat Commun
+  first_author: Otani H
+  last_author: Mouncey NJ
+  pmid: '35715393'
+  pmcid: PMC9205884
+  title: RIViT-seq enables systematic identification of regulons of transcriptional machineries
+links: {}
+added: '2026-11-14'
+evidence: Here, we demonstrate regulon identification by in vitro transcription-sequencing (RIViT-seq) that enables systematic
+  identification of regulons of transcription factors by combining an in vitro transcription assay and RNA-sequencing.

@@ -1,0 +1,25 @@
+name: JEMGE
+full_name: Joint Evolutionary Model for the Genome and the Epigenome
+category: dry
+summary: Likelihood framework that tests whether interspecies histone-mark changes depend on local DNA substitutions or indels.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+task:
+- population-genetics
+targets:
+- H3K4me3
+reference:
+  doi: 10.1371/journal.pcbi.1006673
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Lu J
+  last_author: Zhong S
+  pmid: '30586383'
+  pmcid: PMC6324829
+  title: A likelihood approach to testing hypotheses on the co-evolution of epigenome and genome
+links: {}
+added: '2026-11-14'
+evidence: we refer to as a class of Joint Evolutionary Model for the Genome and the Epigenome (JEMGE)

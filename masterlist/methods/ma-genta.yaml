@@ -1,0 +1,25 @@
+name: MA-GenTA
+full_name: microbial abundances from genome tagged analysis
+category: wet
+summary: Microbiome profiling by single-primer extension with a multiplexed genome-derived probe pool, then sequencing.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry_unknown: single-primer extension with a multiplexed oligonucleotide probe pool; no matching chemistry tag in taxonomy
+reference:
+  doi: 10.1128/msphere.01325-20
+  year: 2021
+  journal: mSphere
+  first_author: Benjamino J
+  last_author: Adams MD
+  pmid: '33827913'
+  pmcid: PMC8546724
+  title: Genome-Based Targeted Sequencing as a Reproducible Microbial Community Profiling Assay
+links: {}
+added: '2026-11-14'
+evidence: We present an approach based on a single-primer extension reaction using a highly multiplexed oligonucleotide probe
+  pool.

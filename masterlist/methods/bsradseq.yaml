@@ -1,0 +1,30 @@
+name: bsRADseq
+full_name: bisulfite-converted restriction site associated DNA sequencing
+category: wet
+summary: Reduced-representation DNA methylation profiling that bisulfite-converts RAD (restriction site associated DNA) libraries,
+  usable without a reference genome in non-model species.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+species:
+- plant
+- other-vertebrate
+reference:
+  doi: 10.1111/mec.13550
+  year: 2016
+  journal: Mol Ecol
+  first_author: Trucchi E
+  last_author: Paun O
+  pmid: '26818626'
+  pmcid: PMC4949719
+  title: 'BsRADseq: screening DNA methylation in natural populations of non-model species'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce bisulfite-converted restriction site associated DNA sequencing (bsRADseq), an approach to quantify
+  the level of DNA methylation differentiation across multiple individuals.

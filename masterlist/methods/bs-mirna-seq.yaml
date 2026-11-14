@@ -1,0 +1,27 @@
+name: BS-miRNA-seq
+category: wet
+summary: Bisulphite sequencing of small RNAs to map 5-(hydroxy)methylcytosine in human microRNAs, with the MAmBA analysis
+  pipeline.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+reference:
+  doi: 10.1080/15476286.2021.1927423
+  year: 2021
+  journal: RNA Biol
+  first_author: Carissimi C
+  last_author: Fulci V
+  pmid: '33980133'
+  pmcid: PMC8648262
+  title: Bisulphite miRNA-seq reveals widespread CpG and non-CpG 5-(hydroxy)methyl-Cytosine in human microRNAs
+links: {}
+added: '2026-11-14'
+evidence: We describe the first high-throughput NGS-based method (BS-miRNA-seq) and an analysis pipeline (MAmBA) to attain
+  high-resolution mapping of (hydroxy)-methyl-5-cytosine ((h)m5C) modifications in human miRNAs.

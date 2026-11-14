@@ -1,0 +1,32 @@
+name: RACE-Seq
+full_name: Rapid Amplification of cDNA Ends sequencing
+category: wet
+summary: RACE (rapid amplification of cDNA ends) of selected lncRNA loci coupled with long-read sequencing to extend transcript
+  5' and 3' ends and discover full-length isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1038/ncomms12339
+  year: 2016
+  journal: Nat Commun
+  first_author: Lagarde J
+  last_author: Harrow J
+  pmid: '27531712'
+  pmcid: PMC4992054
+  title: Extension of human lncRNA transcripts by RACE coupled with long-read high-throughput sequencing (RACE-Seq)
+links: {}
+added: '2026-11-14'
+evidence: Here we describe RACE-Seq, an experimental workflow designed to address this based on RACE (rapid amplification
+  of cDNA ends) and long-read RNA sequencing.

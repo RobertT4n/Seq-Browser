@@ -1,0 +1,26 @@
+name: PPiSeq
+full_name: protein-protein interaction sequencing
+category: wet
+summary: Pooled yeast DHFR protein-fragment complementation assay with double barcodes, so each protein pair's interaction
+  strength is scored by barcode sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry_unknown: abstract does not describe library-prep chemistry (barcode amplicon sequencing assumed but not stated)
+species:
+- microbe
+reference:
+  doi: 10.1038/ncomms15586
+  year: 2017
+  journal: Nat Commun
+  first_author: Schlecht U
+  last_author: Levy SF
+  pmid: '28541284'
+  pmcid: PMC5458509
+  title: A scalable double-barcode sequencing platform for characterization of dynamic protein-protein interactions
+links: {}
+added: '2026-11-14'
+evidence: we develop a highly parallel protein-protein interaction sequencing (PPiSeq) platform that uses a novel double barcoding
+  system in conjunction with the dihydrofolate reductase protein-fragment complementation assay in Saccharomyces cerevisiae.

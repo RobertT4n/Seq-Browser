@@ -1,0 +1,29 @@
+name: spatial ATAC
+category: wet
+summary: Transposase-accessible chromatin profiling in tissue sections combined with barcoded solid-phase capture for spatially
+  resolved epigenomics (distinct from Deng et al. Spatial-ATAC-seq).
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+species:
+- mouse
+- human
+chemistry:
+- tn5
+- spatial-barcode-array
+- cryosectioning
+reference:
+  doi: 10.1038/s41587-022-01603-9
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Llorens-Bobadilla E
+  last_author: Ståhl PL
+  pmid: '36604544'
+  pmcid: PMC10421738
+  title: Solid-phase capture and profiling of open chromatin by spatial ATAC
+links: {}
+added: '2026-11-14'
+evidence: We introduce spatial ATAC, a method that integrates transposase-accessible chromatin profiling in tissue sections
+  with barcoded solid-phase capture to perform spatially resolved epigenomics.

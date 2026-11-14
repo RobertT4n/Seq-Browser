@@ -1,0 +1,27 @@
+name: ATL-XR-seq
+full_name: dA-tailing and adaptor ligation excision repair sequencing
+category: wet
+summary: XR-seq adaptation that captures excised repair products by 3' dA-tailing and 5' adapter ligation, avoiding immunoprecipitation
+  of damaged DNA.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+variant_of:
+- xr-seq
+reference:
+  doi: 10.1016/j.jbc.2022.101863
+  year: 2022
+  journal: J Biol Chem
+  first_author: Wu S
+  last_author: Hu J
+  pmid: '35339490'
+  pmcid: PMC9034098
+  title: A new technique for genome-wide mapping of nucleotide excision repair without immunopurification of damaged DNA
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a newly developed adaptation called dA-tailing and adaptor ligation (ATL)-XR-seq, a relatively
+  simple XR-seq method that avoids the use of immunoprecipitation targeting damaged DNA.

@@ -1,0 +1,32 @@
+name: HIPSD&R-seq
+full_name: HIgh-throughPut Single-cell Dna and Rna-seq
+category: wet
+summary: Modified 10x scATAC/multiome workflow profiling low-coverage DNA copy number and RNA in thousands of single cells,
+  optionally with combinatorial indexing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e4-1e5
+species:
+- human
+chemistry:
+- droplet-microfluidics
+- combinatorial-indexing
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1186/s13059-024-03450-0
+  year: 2024
+  journal: Genome Biol
+  first_author: Otoničar J
+  last_author: Ernst A
+  pmid: '39696535'
+  pmcid: PMC11657747
+  title: HIPSD&amp;R-seq enables scalable genomic copy number and transcriptome profiling
+links: {}
+added: '2026-11-14'
+evidence: We propose HIPSD&R-seq (HIgh-throughPut Single-cell Dna and Rna-seq), a scalable yet simple and accessible assay
+  to profile low-coverage DNA and RNA in thousands of cells in parallel.

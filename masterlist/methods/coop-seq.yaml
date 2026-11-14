@@ -1,0 +1,27 @@
+name: Coop-seq
+full_name: cooperativity by sequencing
+category: wet
+summary: In vitro assay that measures transcription-factor cooperativity parameters for hundreds of DNA sequence variants
+  in parallel in one experiment.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+targets:
+- Sox
+- POU (Oct4, Brn2, Brn4, Oct6)
+chemistry_unknown: Binding-assay and library chemistry not stated in abstract
+reference:
+  doi: 10.1093/nar/gkw1198
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Chang YK
+  last_author: Jauch R
+  pmid: '27915232'
+  pmcid: PMC5314778
+  title: Quantitative profiling of selective Sox/POU pairing on hundreds of sequences in parallel by Coop-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed Coop-seq (cooperativity by sequencing) that is capable of efficiently and accurately determining the
+  cooperativity parameters for hundreds of different DNA sequences in a single experiment.

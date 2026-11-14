@@ -1,0 +1,24 @@
+name: SCSit
+category: dry
+summary: Preprocessing tool that identifies SPLiT-seq combinatorial barcodes and UMIs and labels reads faster and with more
+  retained reads than the original pipeline.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- split-seq
+reference:
+  doi: 10.1016/j.csbj.2021.08.021
+  year: 2021
+  journal: Comput Struct Biotechnol J
+  first_author: Luan MW
+  last_author: Xie SQ
+  pmid: '34471500'
+  pmcid: PMC8383061
+  title: 'SCSit: A high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq'
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop a high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq (SCSit), which
+  can directly identify combinatorial barcodes and UMI of cell types and obtain more labeled reads

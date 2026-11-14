@@ -1,0 +1,23 @@
+name: MoAIMS
+full_name: model-based analysis and inference of MeRIP-Seq
+category: dry
+summary: R tool that calls enriched regions in MeRIP-Seq data with a mixture negative-binomial model and infers signal proportion
+  for treatment comparisons.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3430-0
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Zhang Y
+  last_author: Hamada M
+  pmid: '32171255'
+  pmcid: PMC7071693
+  title: 'MoAIMS: efficient software for detection of enriched regions of MeRIP-Seq'
+links: {}
+added: '2026-11-14'
+evidence: We developed a software named "model-based analysis and inference of MeRIP-Seq (MoAIMS)" to detect enriched regions
+  of MeRIP-Seq and infer signal proportion based on a mixture negative-binomial model.

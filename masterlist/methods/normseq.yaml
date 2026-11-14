@@ -1,0 +1,21 @@
+name: NORMSEQ
+category: dry
+summary: Tool for evaluating, selecting and visualizing RNA-seq normalization methods.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad429
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Scheepbouwer C
+  last_author: Gómez-Martín C
+  pmid: '37216599'
+  pmcid: PMC10320083
+  title: 'NORMSEQ: a tool for evaluation, selection and visualization of RNA-Seq normalization methods'
+links: {}
+added: '2026-11-14'
+evidence: To address this, we developed NormSeq, a free web-server tool to systematically assess the performance of normalization
+  methods in a given dataset.

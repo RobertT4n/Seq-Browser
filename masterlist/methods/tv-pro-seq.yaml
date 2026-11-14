@@ -1,0 +1,24 @@
+name: TV-PRO-seq
+full_name: Time-variant precision nuclear run-on and sequencing
+category: wet
+summary: PRO-seq extension that estimates genome-wide RNA polymerase pausing times at single-base resolution.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+variant_of:
+- pro-seq
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.crmeth.2021.100083
+links: {}
+added: '2026-11-14'
+evidence: We present here the time-variant precision nuclear run-on and sequencing (TV-PRO-seq) assay, an extension of the
+  standard PRO-seq that allows us to estimate genome-wide pausing times at single-base resolution.

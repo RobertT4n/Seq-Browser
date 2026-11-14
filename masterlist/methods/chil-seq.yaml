@@ -1,0 +1,33 @@
+name: ChIL-seq
+full_name: Chromatin integration labelling followed by sequencing
+aliases:
+- ChIL
+category: wet
+summary: Immunoprecipitation-free epigenomic profiling that amplifies genomic sequences next to the target molecule before
+  cell lysis, working from 100-1,000 cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+throughput: lt-1e3
+input_sample:
+- low-input
+targets:
+- histone modifications
+- DNA-binding factors
+chemistry_unknown: Abstract does not name the integration/amplification chemistry
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41556-018-0248-3
+  year: 2019
+  journal: Nat Cell Biol
+  first_author: Harada A
+  last_author: Ohkawa Y
+  pmid: '30532068'
+  title: A chromatin integration labelling method enables epigenomic profiling with lower input
+links: {}
+added: '2026-11-14'
+evidence: we established an immunoprecipitation-free epigenomic profiling method named chromatin integration labelling (ChIL)

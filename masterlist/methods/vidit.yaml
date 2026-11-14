@@ -1,0 +1,26 @@
+name: ViDiT
+category: wet
+summary: Customizable, very low-cost PCR-based library preparation method for virus discovery, viral genome sequencing and
+  microbiome profiling.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: library prep steps only described as PCR-based in abstract
+reference:
+  doi: 10.1139/cjm-2018-0097
+  year: 2018
+  journal: Can J Microbiol
+  first_author: Verhoeven JTP
+  last_author: Lang AS
+  pmid: '29671336'
+  title: 'ViDiT-CACTUS: an inexpensive and versatile library preparation and sequence analysis method for virus discovery
+    and other microbiology applications'
+links: {}
+added: '2026-11-14'
+shared_doi: ViDiT (wet) and CACTUS (dry) are two methods in one paper
+evidence: To answer these necessities, we developed ViDiT, a customizable, PCR-based, extremely low-cost (less than US$5 per
+  sample), and versatile library preparation method, and CACTUS, an analysis pipeline designed to rely on cloud computing
+  power to generate high-quality data from ViDiT-based experiments without the need of expensive servers.

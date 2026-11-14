@@ -1,0 +1,27 @@
+name: ULI-NChIP-seq
+full_name: Ultra-low-input micrococcal nuclease-based native ChIP sequencing
+category: wet
+summary: Micrococcal-nuclease native ChIP adapted to as few as 1,000 cells to give genome-wide histone-mark maps from rare
+  populations.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- mnase
+- antibody-pull-down
+reference:
+  doi: 10.1038/ncomms7033
+  year: 2015
+  journal: Nat Commun
+  first_author: Brind'Amour J
+  last_author: Lorincz MC
+  pmid: '25607992'
+  title: An ultra-low-input native ChIP-seq protocol for genome-wide profiling of rare cell populations
+links: {}
+added: '2026-11-14'
+evidence: Here, we present an ultra-low-input micrococcal nuclease-based native ChIP (ULI-NChIP) and sequencing method to
+  generate genome-wide histone mark profiles with high resolution from as few as 10(3) cells.

@@ -1,0 +1,22 @@
+name: Seq2Fun
+category: dry
+summary: Ultrafast tool that translates RNA-seq reads to protein fragments and assigns them to KEGG orthologs without transcriptome
+  assembly, for nonmodel organisms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.269894.120
+  year: 2021
+  journal: Genome Res
+  first_author: Liu P
+  last_author: Xia J
+  pmid: '33731361'
+  pmcid: PMC8015844
+  title: Ultrafast functional profiling of RNA-seq data for nonmodel organisms
+links: {}
+added: '2026-11-14'
+evidence: To address this challenge, we have developed Seq2Fun, a novel, all-in-one, ultrafast tool to directly perform functional
+  quantification of RNA-seq reads without transcriptome de novo assembly.

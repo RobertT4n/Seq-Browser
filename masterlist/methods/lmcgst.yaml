@@ -1,0 +1,27 @@
+name: LmCGST
+full_name: Listeria monocytogenes Core-Genome Sequence Typer
+category: dry
+summary: Pipeline that types Listeria monocytogenes isolates from raw sequencing reads using a high-confidence core genome,
+  a typing database and phylogenetic analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1186/s12866-015-0526-1
+  year: 2015
+  journal: BMC Microbiol
+  first_author: Pightling AW
+  last_author: Pagotto F
+  pmid: '26490433'
+  pmcid: PMC4618880
+  title: 'The Listeria monocytogenes Core-Genome Sequence Typer (LmCGST): a bioinformatic pipeline for molecular characterization
+    with next-generation sequence data'
+links: {}
+added: '2026-11-14'
+evidence: Finally, we created a pipeline (LmCGST; https://sourceforge.net/projects/lmcgst/files/) that takes in raw next-generation
+  sequencing reads, calculates a subject HCC profile, compares it to an expandable database, assigns a sequence type, and
+  performs a phylogenetic analysis.

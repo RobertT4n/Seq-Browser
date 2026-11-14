@@ -1,0 +1,32 @@
+name: scFFPE-ATAC
+category: wet
+summary: High-throughput single-cell chromatin accessibility assay for FFPE samples using FFPE-adapted Tn5, DNA damage repair
+  and in vitro transcription.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- human
+- mouse
+input_sample:
+- ffpe-archival
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-025-66170-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Yadav RP
+  last_author: Chen X
+  pmid: '41238550'
+  pmcid: PMC12618699
+  title: scFFPE-ATAC enables high-throughput single cell chromatin accessibility profiling in formalin-fixed paraffin-embedded
+    samples
+links: {}
+added: '2026-11-14'
+evidence: We present scFFPE-ATAC, a high-throughput single-cell chromatin accessibility assay for FFPE samples that integrates
+  an FFPE-adapted Tn5 transposase, ultra-high-throughput DNA barcoding (>56 million barcodes per run), T7 promoter-mediated
+  DNA damage repair, and in vitro transcription.

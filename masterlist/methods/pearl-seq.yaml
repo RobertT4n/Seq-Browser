@@ -1,0 +1,28 @@
+name: PEARL-seq
+full_name: Photoaffinity Evaluation of RNA Ligation-Sequencing
+category: wet
+summary: Photoaffinity labeling of small-molecule ligands on RNA followed by ligation-based sequencing to locate small-molecule
+  binding sites within RNA targets.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1021/acschembio.0c00357
+  year: 2020
+  journal: ACS Chem Biol
+  first_author: Mukherjee H
+  last_author: Petter JC
+  pmid: '32804474'
+  title: 'PEARL-seq: A Photoaffinity Platform for the Analysis of Small Molecule-RNA Interactions'
+links: {}
+added: '2026-11-14'
+evidence: This technique, termed Photoaffinity Evaluation of RNA Ligation-Sequencing (PEARL-seq), enables the rapid identification
+  of small molecule binding locations within their RNA targets and can provide information on ligand selectivity across multiple
+  different RNAs.
+_nr: 'MISSING_TAG: readout is small-molecule (ligand)-RNA binding sites; no taxonomy readout for small-molecule-RNA interaction
+  (rna-protein-interaction used as placeholder)'

@@ -1,0 +1,24 @@
+name: AMULET
+full_name: ATAC-seq MULtiplet Estimation Tool
+category: dry
+summary: Read-count method that detects multiplets in snATAC-seq by counting regions with more than two uniquely aligned reads.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1186/s13059-021-02469-x
+  year: 2021
+  journal: Genome Biol
+  first_author: Thibodeau A
+  last_author: Ucar D
+  pmid: '34465366'
+  pmcid: PMC8408950
+  title: 'AMULET: a novel read count-based method for effective multiplet detection from single nucleus ATAC-seq data'
+links: {}
+added: '2026-11-14'
+evidence: AMULET (ATAC-seq MULtiplet Estimation Tool) enumerates regions with greater than two uniquely aligned reads across
+  the genome to effectively detect multiplets.

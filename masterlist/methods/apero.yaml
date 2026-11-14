@@ -1,0 +1,23 @@
+name: APERO
+category: dry
+summary: Detects bacterial small RNAs from paired-end RNA-seq by analysing fragment boundaries to infer transcript 5-prime
+  and 3-prime ends.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkz485
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Leonard S
+  last_author: Reverchon S
+  pmid: '31147705'
+  pmcid: PMC6735904
+  title: 'APERO: a genome-wide approach for identifying bacterial small RNAs from RNA-Seq data'
+links: {}
+added: '2026-11-14'
+evidence: We present APERO, a new algorithm to detect small transcripts from paired-end bacterial RNA-seq data.

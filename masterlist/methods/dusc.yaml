@@ -1,0 +1,22 @@
+name: DUSC
+full_name: deep unsupervised single-cell clustering
+category: dry
+summary: Hybrid deep clustering approach for robust cell type profiling from noisy scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.074427.119
+  year: 2020
+  journal: RNA
+  first_author: Srinivasan S
+  last_author: Korkin D
+  pmid: '32532794'
+  pmcid: PMC7491323
+  title: A hybrid deep clustering approach for robust cell type profiling using single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: To address this, we developed a new hybrid approach, deep unsupervised single-cell clustering (DUSC), which integrates
+  feature generation based on a deep learning architecture ... with a model-based clustering algorithm.

@@ -1,0 +1,23 @@
+name: A2Sign
+full_name: Agnostic Algorithms for Signatures
+category: dry
+summary: Non-negative tensor factorization approach that derives cell-type molecular signatures from bulk transcriptomic data
+  without prior cell-type knowledge, ahead of deconvolution.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab773
+  year: 2022
+  journal: Bioinformatics
+  first_author: Boldina G
+  last_author: Augé F
+  pmid: '34788798'
+  title: 'A2Sign: Agnostic Algorithms for Signatures-a universal method for identifying molecular signatures from transcriptomic
+    datasets prior to cell-type deconvolution'
+links: {}
+added: '2026-11-14'
+evidence: 'We present a new approach, A2Sign: Agnostic Algorithms for Signatures, based on a non-negative tensor factorization
+  (NTF)'

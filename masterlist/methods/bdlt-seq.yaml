@@ -1,0 +1,26 @@
+name: BdLT-Seq
+full_name: Barcode decay Lineage Tracing-Seq
+category: wet
+summary: Episome-encoded barcodes that decay with cell division give a directional lineage tree while capturing each cell
+  transcriptome.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-023-36744-1
+  year: 2023
+  journal: Nat Commun
+  first_author: Shlyakhtina Y
+  last_author: Portal MM
+  pmid: '36841849'
+  pmcid: PMC9968323
+  title: BdLT-Seq as a barcode decay-based method to unravel lineage-linked transcriptome plasticity
+links: {}
+added: '2026-11-14'
+evidence: To fill this void, here we develop a lineage-tracing technology termed Barcode decay Lineage Tracing-Seq.

@@ -1,0 +1,33 @@
+name: FANS-ATAC-seq
+full_name: Fluorescence-activated nuclei sorting ATAC-seq
+category: wet
+summary: ATAC-seq applied to nuclei sorted by FANS to map open chromatin and TF-binding sites in plant genomes from fewer
+  than 50,000 nuclei.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- facs-sorting
+input_sample:
+- nuclei
+- low-input
+species:
+- plant
+variant_of:
+- atac-seq
+reference:
+  doi: 10.1093/nar/gkw1179
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Lu Z
+  last_author: Schmitz RJ
+  pmid: '27903897'
+  pmcid: PMC5389718
+  title: Combining ATAC-seq with nuclei sorting for discovery of cis-regulatory regions in plant genomes
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe an assay combining ATAC-seq with fluorescence-activated nuclei sorting (FANS) to identify and
+  map open chromatin and TF-binding sites in plant genomes.

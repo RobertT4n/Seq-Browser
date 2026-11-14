@@ -1,0 +1,23 @@
+name: SinQC
+full_name: Single-cell RNA-seq Quality Control
+category: dry
+summary: Method and software that detects technical artifacts in scRNA-seq samples by combining gene expression patterns with
+  data quality information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw176
+  year: 2016
+  journal: Bioinformatics
+  first_author: Jiang P
+  last_author: Stewart R
+  pmid: '27153613'
+  pmcid: PMC4978927
+  title: Quality control of single-cell RNA-seq by SinQC
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present 'Single-cell RNA-seq Quality Control' (SinQC), a method and software tool to detect technical
+  artifacts in scRNA-seq samples by integrating both gene expression patterns and data quality information.

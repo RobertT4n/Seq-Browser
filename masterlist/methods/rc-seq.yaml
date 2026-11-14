@@ -1,0 +1,30 @@
+name: RC-Seq
+full_name: RNA self-circularization sequencing
+category: wet
+summary: RNA self-circularization library prep with random priming and gel-free purification for picogram-input small RNA-seq,
+  demonstrated on nuclear Ago2 CLIP.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkv213
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Chu Y
+  last_author: Corey DR
+  pmid: '25813040'
+  pmcid: PMC4477644
+  title: Intramolecular circularization increases efficiency of RNA sequencing and enables CLIP-Seq of nuclear RNA from human
+    cells
+links: {}
+added: '2026-11-14'
+evidence: This RNA self-circularization approach to RNA sequencing (RC-Seq) allows data to be obtained using small amounts
+  of input RNA that cannot be sequenced by standard methods.

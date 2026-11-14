@@ -1,0 +1,23 @@
+name: MiFi
+full_name: Microbe Finder
+category: dry
+summary: Web application that detects known pathogen species and strains in raw metagenomic sequence data using validated
+  e-probes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/plants10020250
+  year: 2021
+  journal: Plants (Basel)
+  first_author: Espindola AS
+  last_author: Cardwell KF
+  pmid: '33525397'
+  pmcid: PMC7912148
+  title: 'Microbe Finder (MiFi<sup>®</sup>): Implementation of an Interactive Pathogen Detection Tool in Metagenomic Sequence
+    Data'
+links: {}
+added: '2026-11-14'
+evidence: To overcome constraints to most sequencing-based diagnostic pipelines today, we have developed Microbe Finder (MiFi).

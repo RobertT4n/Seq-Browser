@@ -1,0 +1,33 @@
+name: LIFE-Seq
+full_name: Large Integrated DNA Fragment Enrichment Sequencing
+category: wet
+summary: Enriches large transgene-associated DNA fragments from GMO genomes with universal tiling probes and reads them with
+  PacBio to resolve integration sites and structures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- pacbio
+species:
+- plant
+chemistry:
+- oligo-capture
+- long-read-sequencing
+reference:
+  doi: 10.1111/pbi.13776
+  year: 2022
+  journal: Plant Biotechnol J
+  first_author: Zhang H
+  last_author: Yang L
+  pmid: '34990051'
+  pmcid: PMC9055813
+  title: 'LIFE-Seq: a universal Large Integrated DNA Fragment Enrichment Sequencing strategy for deciphering the transgene
+    integration of genetically modified organisms'
+links: {}
+added: '2026-11-14'
+evidence: Herein, we developed a universal Large Integrated DNA Fragments Enrichment strategy combined with PacBio Sequencing
+  (LIFE-Seq) for deciphering transgene integration in GMOs.

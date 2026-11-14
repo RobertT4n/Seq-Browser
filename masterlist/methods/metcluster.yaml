@@ -1,0 +1,21 @@
+name: MeTCluster
+category: dry
+summary: Hierarchical graphical-model algorithm that clusters m6A peaks in MeRIP-seq data by their degree of enrichment.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-2913-x
+  year: 2016
+  journal: BMC Genomics
+  first_author: Cui X
+  last_author: Huang Y
+  pmid: '27556597'
+  pmcid: PMC5001242
+  title: A hierarchical model for clustering m(6)A methylation peaks in MeRIP-seq data
+links: {}
+added: '2026-11-14'
+evidence: We developed a novel algorithm and an open source R package for uncovering the potential types of m(6)A methylation
+  by clustering the degree of m(6)A methylation peaks in MeRIP-Seq data.

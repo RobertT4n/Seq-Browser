@@ -1,0 +1,24 @@
+name: FSQN
+full_name: feature specific quantile normalization
+category: dry
+summary: Feature-specific quantile normalisation that removes platform bias so RNA-seq data can be classified with models
+  trained on microarray data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty026
+  year: 2018
+  journal: Bioinformatics
+  first_author: Franks JM
+  last_author: Whitfield ML
+  pmid: '29360996'
+  pmcid: PMC5972664
+  title: Feature specific quantile normalization enables cross-platform classification of molecular subtypes using gene expression
+    data
+links: {}
+added: '2026-11-14'
+evidence: Multiple analyses show that feature specific quantile normalization (FSQN) successfully removes platform-based bias
+  from RNA-seq data, regardless of feature scaling or machine learning algorithm.

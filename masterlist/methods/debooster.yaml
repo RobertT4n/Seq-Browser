@@ -1,0 +1,23 @@
+name: DeBooster
+category: dry
+summary: Deep boosting machine-learning model of RNA-binding-protein sequence preferences that predicts binding targets from
+  CLIP-seq data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx492
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Li S
+  last_author: Zeng J
+  pmid: '28575488'
+  pmcid: PMC5737578
+  title: A deep boosting based approach for capturing the sequence binding preferences of RNA-binding proteins from high-throughput
+    CLIP-seq data
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop a deep boosting based machine learning approach, called DeBooster, to accurately model the binding
+  sequence preferences and identify the corresponding binding targets of RBPs from CLIP-seq data.

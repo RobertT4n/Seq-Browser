@@ -1,0 +1,21 @@
+name: 4Cin
+category: dry
+summary: Builds 3D models and virtual Hi-C maps of a genomic locus from a few 4C-seq or Capture-C-like experiments.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1006030
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Irastorza-Azcarate I
+  last_author: Devos DP
+  pmid: '29522512'
+  pmcid: PMC5862518
+  title: '4Cin: A computational pipeline for 3D genome modeling and virtual Hi-C analyses from 4C data'
+links: {}
+added: '2026-11-14'
+evidence: We present 4Cin, a method to generate 3D models and derive virtual Hi-C (vHi-C) heat maps of genomic loci based
+  on 4C-seq or any kind of 4C-seq-like data, such as those derived from NG Capture-C.

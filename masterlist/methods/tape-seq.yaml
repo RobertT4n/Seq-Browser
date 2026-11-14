@@ -1,0 +1,28 @@
+name: TAPE-seq
+full_name: TAgmentation of Prime Editor sequencing
+category: wet
+summary: Cell-based tagmentation assay that uses prime editors directly to nominate genome-wide off-target editing sites.
+readouts:
+- dna-damage
+resolution:
+- bulk
+perturbation:
+- prime-editing
+scope: genome-wide
+validated_system:
+- cell-line
+chemistry:
+- tn5
+reference:
+  doi: 10.1038/s41467-022-35743-y
+  year: 2022
+  journal: Nat Commun
+  first_author: Kwon J
+  last_author: Lee JK
+  pmid: '36581624'
+  pmcid: PMC9800413
+  title: TAPE-seq is a cell-based method for predicting genome-wide off-target effects of prime editor
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present a cell-based assay, named TAgmentation of Prime Editor sequencing (TAPE-seq), that provides
+  genome-wide off-target candidates for PEs.

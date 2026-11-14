@@ -1,0 +1,22 @@
+name: scFEA
+full_name: single-cell flux estimation analysis
+category: dry
+summary: Graph neural network model that infers cell-wise metabolic flux from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.271205.120
+  year: 2021
+  journal: Genome Res
+  first_author: Alghamdi N
+  last_author: Zhang C
+  pmid: '34301623'
+  pmcid: PMC8494226
+  title: A graph neural network model to estimate cell-wise metabolic flux using single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: we developed a novel computational method, namely, single-cell flux estimation analysis (scFEA), to infer the cell-wise
+  fluxome from single-cell RNA-sequencing (scRNA-seq) data

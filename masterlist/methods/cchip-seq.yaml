@@ -1,0 +1,36 @@
+name: cChIP-seq
+full_name: carrier ChIP-seq
+category: wet
+summary: ChIP-seq scaled down to about 10,000 cells by adding a DNA-free histone carrier so the IP reaction scale stays constant.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+input_sample:
+- low-input
+species:
+- human
+validated_system:
+- cell-line
+targets:
+- H3K4me3
+- H3K4me1
+- H3K27me3
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1186/s12864-015-2285-7
+  year: 2015
+  journal: BMC Genomics
+  first_author: Valensisi C
+  last_author: Hawkins RD
+  pmid: '26692029'
+  pmcid: PMC4687106
+  title: 'cChIP-seq: a robust small-scale method for investigation of histone modifications'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a robust, yet facile method, which we named carrier ChIP-seq (cChIP-seq), for use on limited cell
+  amounts.

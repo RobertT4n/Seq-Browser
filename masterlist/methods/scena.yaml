@@ -1,0 +1,17 @@
+name: SCENA
+full_name: Single-cell Clustering by Enhancing Network Affinity
+category: dry
+summary: Consensus clustering of scRNA-seq data using multiple gene sets and enhanced cell-cell network affinity, with GPU
+  acceleration.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab236
+links: {}
+added: '2026-11-14'
+evidence: 'Here, we present a novel unsupervised method for Single-cell Clustering by Enhancing Network Affinity (SCENA),
+  which mainly employed three strategies: selecting multiple gene sets, enhancing local affinity among cells and clustering
+  of consensus matrices.'

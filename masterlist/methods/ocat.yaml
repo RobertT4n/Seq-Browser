@@ -1,0 +1,23 @@
+name: OCAT
+full_name: One Cell At a Time
+category: dry
+summary: Machine learning method that sparsely encodes single-cell expression to integrate multiple large scRNA-seq datasets
+  without highly variable gene selection.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02659-1
+  year: 2022
+  journal: Genome Biol
+  first_author: Wang CX
+  last_author: Wang B
+  pmid: '35443717'
+  pmcid: PMC9019955
+  title: 'One Cell At a Time (OCAT): a unified framework to integrate and analyze single-cell RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We propose OCAT, One Cell At a Time, a machine learning method that sparsely encodes single-cell gene expression
+  to integrate data from multiple sources without highly variable gene selection.

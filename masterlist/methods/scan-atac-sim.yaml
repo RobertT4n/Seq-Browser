@@ -1,0 +1,21 @@
+name: SCAN-ATAC-Sim
+category: dry
+summary: Simulates scATAC-seq data with known cell-type labels by down-sampling bulk ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa1039
+  year: 2021
+  journal: Bioinformatics
+  first_author: Chen Z
+  last_author: Gerstein M
+  pmid: '33471102'
+  pmcid: PMC8289380
+  title: 'SCAN-ATAC-Sim: a scalable and efficient method for simulating single-cell ATAC-seq data from bulk-tissue experiments'
+links: {}
+added: '2026-11-14'
+evidence: we introduce an efficient and scalable scATAC-seq simulation method (SCAN-ATAC-Sim) that down-samples bulk ATAC-seq
+  data

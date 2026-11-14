@@ -1,0 +1,23 @@
+name: NGScopy
+category: dry
+summary: Copy-number algorithm for targeted NGS samples with sparse coverage, detecting large-scale and small intragenic CNVs
+  without a same-patient germline sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0129280
+  year: 2015
+  journal: PLoS One
+  first_author: Zhao X
+  last_author: Moschos SJ
+  pmid: '26076459'
+  pmcid: PMC4468211
+  title: Combined Targeted DNA Sequencing in Non-Small Cell Lung Cancer (NSCLC) Using UNCseq and NGScopy, and RNA Sequencing
+    Using UNCqeR for the Detection of Genetic Aberrations in NSCLC
+links: {}
+added: '2026-11-14'
+evidence: In addition, we developed a novel algorithm, NGScopy, designed for samples with sparse sequencing coverage to detect
+  large-scale copy number variations (CNV), similar to human SNP Array 6.0 as well as small-scale intragenic CNV.

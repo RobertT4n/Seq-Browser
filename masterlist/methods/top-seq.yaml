@@ -1,0 +1,29 @@
+name: TOP-seq
+full_name: Tethered Oligonucleotide-Primed Sequencing
+category: wet
+summary: Covalent tagging of unmodified CG sites followed by non-homologous polymerase priming at the tag directly yields
+  adjoining regions for single-CG-resolution DNA methylation mapping.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- microbe
+chemistry_unknown: abstract describes covalent tagging of unmodified CG + non-homologous priming; no matching chemistry tag
+reference:
+  doi: 10.1016/j.molcel.2016.12.012
+  year: 2017
+  journal: Mol Cell
+  first_author: Staševskij Z
+  last_author: Klimašauskas S
+  pmid: '28111014'
+  pmcid: PMC5291818
+  title: 'Tethered Oligonucleotide-Primed Sequencing, TOP-Seq: A High-Resolution Economical Approach for DNA Epigenome Profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe an alternative epigenome profiling approach, named TOP-seq, which is based on covalent tagging
+  of individual unmodified CG sites followed by non-homologous priming of the DNA polymerase action at these sites to directly
+  produce adjoining regions for their sequencing and precise genomic mapping.

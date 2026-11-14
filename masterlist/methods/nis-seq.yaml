@@ -1,0 +1,31 @@
+name: NIS-seq
+full_name: Nuclear In-Situ Sequencing
+category: wet
+summary: Optical pooled CRISPR screening that generates bright in-situ sequencing signal from nuclear genomic DNA by transcribing
+  many sgRNA copies from an inserted inverted phage promoter.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+species:
+- human
+- mouse
+chemistry_unknown: In situ sequencing of sgRNA copies made from a phage promoter has no fitting taxonomy chemistry tag
+partition_unknown: not stated in the abstract
+  in the taxonomy
+reference:
+  doi: 10.1038/s41587-024-02516-5
+  year: 2025
+  journal: Nat Biotechnol
+  first_author: Fandrey CI
+  last_author: Schmid-Burgk JL
+  pmid: '39702735'
+  pmcid: PMC12339361
+  title: NIS-Seq enables cell-type-agnostic optical perturbation screening
+links: {}
+added: '2026-11-14'
+evidence: Nuclear In-Situ Sequencing (NIS-Seq) expands this technology by creating bright sequencing signals directly from
+  nuclear genomic DNA to screen nucleated cells at high density and high library complexity.

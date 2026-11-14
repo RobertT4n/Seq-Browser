@@ -1,0 +1,26 @@
+name: Decode-seq
+category: wet
+summary: RNA-seq with molecular barcoding that profiles many biological replicates simultaneously to improve differential
+  expression analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+reference:
+  doi: 10.1186/s13059-020-01966-9
+  year: 2020
+  journal: Genome Biol
+  first_author: Li Y
+  last_author: Tu Q
+  pmid: '32200760'
+  pmcid: PMC7087377
+  title: 'Decode-seq: a practical approach to improve differential gene expression analysis'
+links: {}
+added: '2026-11-14'
+evidence: We describe an easy and effective RNA-seq approach using molecular barcoding to enable profiling of a large number
+  of replicates simultaneously.

@@ -1,0 +1,29 @@
+name: NG-TAS
+full_name: Next Generation-Targeted Amplicon Sequencing
+category: wet
+summary: Multiplex amplicon panel and pipeline for cost-effective mutation profiling of low-input cell-free DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+input_sample:
+- low-input
+species:
+- human
+reference:
+  doi: 10.1186/s13073-018-0611-9
+  year: 2019
+  journal: Genome Med
+  first_author: Gao M
+  last_author: Caldas C
+  pmid: '30609936'
+  pmcid: PMC6320579
+  title: 'Next Generation-Targeted Amplicon Sequencing (NG-TAS): an optimised protocol and computational pipeline for cost-effective
+    profiling of circulating tumour DNA'
+links: {}
+added: '2026-11-14'
+evidence: 'We describe here a fast, flexible and cost-effective method to profile multiple genes simultaneously in low input
+  cell-free DNA (cfDNA): Next Generation-Targeted Amplicon Sequencing (NG-TAS).'

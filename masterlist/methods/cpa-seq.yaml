@@ -1,0 +1,29 @@
+name: CPA-seq
+full_name: Cap-Clip acid pyrophosphatase, T4 polynucleotide kinase and AlkB/AlkB(D135S)-facilitated small ncRNA sequencing
+category: wet
+summary: Small ncRNA sequencing with Cap-Clip, PNK and AlkB treatments to capture RNAs with diverse termini and methylated
+  nucleosides.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/s41421-021-00265-2
+  year: 2021
+  journal: Cell Discov
+  first_author: Wang H
+  last_author: Huang P
+  pmid: '33867522'
+  pmcid: PMC8053708
+  title: CPA-seq reveals small ncRNAs with methylated nucleosides and diverse termini
+links: {}
+added: '2026-11-14'
+evidence: Here we develop Cap-Clip acid pyrophosphatase (Cap-Clip), T4 polynucleotide kinase (PNK) and AlkB/AlkB(D135S)-facilitated
+  small ncRNA sequencing (CPA-seq) to detect and quantify sRNAs with terminus multiplicities and nucleoside methylations.

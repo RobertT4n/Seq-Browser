@@ -1,0 +1,22 @@
+name: DBH
+full_name: de Bruijn graph-based heuristic
+category: dry
+summary: De Bruijn graph-based heuristic with a new seed selection strategy for clustering large-scale 16S rRNA sequences
+  into OTUs.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jtbi.2017.04.019
+  year: 2017
+  journal: J Theor Biol
+  first_author: Wei ZG
+  last_author: Zhang SW
+  pmid: '28454900'
+  title: 'DBH: A de Bruijn graph-based heuristic method for clustering large-scale 16S rRNA sequences into OTUs'
+links: {}
+added: '2026-11-14'
+evidence: we present a de Bruijn graph-based heuristic clustering method (DBH) for clustering massive 16S rRNA sequences into
+  OTUs by introducing a novel seed selection strategy and greedy clustering approach.

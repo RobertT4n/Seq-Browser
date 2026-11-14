@@ -1,0 +1,22 @@
+name: IntAPT
+full_name: integrated assembly of phenotype-specific transcripts
+category: dry
+summary: Bayesian method that assembles phenotype-specific transcript isoforms from multiple RNA-seq profiles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa852
+  year: 2021
+  journal: Bioinformatics
+  first_author: Shi X
+  last_author: Xuan J
+  pmid: '33016988'
+  pmcid: PMC8097681
+  title: 'IntAPT: integrated assembly of phenotype-specific transcripts from multiple RNA-seq profiles'
+links: {}
+added: '2026-11-14'
+evidence: We present a Bayesian method, integrated assembly of phenotype-specific transcripts (IntAPT), that identifies phenotype-specific
+  isoforms from multiple RNA-seq profiles.

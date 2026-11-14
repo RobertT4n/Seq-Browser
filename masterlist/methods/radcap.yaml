@@ -1,0 +1,27 @@
+name: RADcap
+category: wet
+summary: Sequence capture of candidate SNP loci identified by dual-digest RADseq (3RAD), with a library prep that identifies
+  PCR duplicates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- oligo-capture
+- adapter-ligation
+species:
+- plant
+reference:
+  doi: 10.1111/1755-0998.12566
+  year: 2016
+  journal: Mol Ecol Resour
+  first_author: Hoffberg SL
+  last_author: Glenn TC
+  pmid: '27416967'
+  title: 'RADcap: sequence capture of dual-digest RADseq libraries with identifiable duplicates and reduced missing data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce RADcap, an approach that combines the major benefits of RADseq (low cost with specific start
+  positions) with those of sequence capture (repeatable sequencing of specific loci).

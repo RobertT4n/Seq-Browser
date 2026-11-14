@@ -1,0 +1,16 @@
+name: REBET
+full_name: removal of batch effect and testing
+category: dry
+summary: Estimates the number of cell clusters in scRNA-seq by treating clusters as batches and testing how well batch-effect
+  removal mixes cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab204
+links: {}
+added: '2026-11-14'
+evidence: We developed a new method, namely, removal of batch effect and testing (REBET), for determining the number of cell
+  clusters.

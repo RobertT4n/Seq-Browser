@@ -1,0 +1,33 @@
+name: HiCAR-Seq
+full_name: High-throughput CellulAr RNA Sequencing
+category: wet
+summary: Plate-based 3' mRNA-seq in which oligo-dT reverse transcription and sample-barcoded PCR are done per well, so each
+  sample library can be quality-checked before pooling and tagmentation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- plate-based
+- reverse-transcription
+- tn5
+input_sample:
+- low-input
+species:
+- human
+- mouse
+reference:
+  doi: 10.1002/cpmb.123
+  year: 2020
+  journal: Curr Protoc Mol Biol
+  first_author: Veeranagouda Y
+  last_author: Didier M
+  pmid: '32735043'
+  title: 'High-Throughput Cellular RNA Sequencing (HiCAR-Seq): Cost-Effective, High-Throughput 3'' mRNA-Seq Method Enabling
+    Individual Sample Quality Control'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe an HTR method called High-throughput CellulAr RNA Sequencing (HiCAR-Seq).
+_nr: 'NAME COLLISION: unrelated to HiCAR (chromatin accessibility + contacts); Current Protocols paper is the method''s origin
+  paper'

@@ -1,0 +1,26 @@
+name: Hydro-Seq
+category: wet
+summary: Hydrodynamic single-cell barcoding scRNA-seq technique that captures circulating tumor cells while removing contaminating
+  blood cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-019-10122-2
+  year: 2019
+  journal: Nat Commun
+  first_author: Cheng YH
+  last_author: Yoon E
+  pmid: '31092822'
+  pmcid: PMC6520360
+  title: Hydro-Seq enables contamination-free high-throughput single-cell RNA-sequencing for circulating tumor cells
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Hydro-Seq, a scalable hydrodynamic scRNA-seq barcoding technique, for high-throughput CTC analysis.

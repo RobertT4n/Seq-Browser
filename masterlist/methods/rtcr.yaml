@@ -1,0 +1,23 @@
+name: RTCR
+full_name: Recover TCR
+category: dry
+summary: Pipeline that corrects PCR and sequencing errors with an adaptive statistical model to recover complete T cell receptor
+  repertoires from sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw339
+  year: 2016
+  journal: Bioinformatics
+  first_author: Gerritsen B
+  last_author: de Boer RJ
+  pmid: '27324198'
+  pmcid: PMC5048062
+  title: 'RTCR: a pipeline for complete and accurate recovery of T cell repertoires from high throughput sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We devised a pipeline, called Recover TCR (RTCR), that accurately recovers TCR sequences, including rare TCR sequences,
+  from HTS data (including barcoded data) even at low coverage.

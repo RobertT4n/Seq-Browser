@@ -1,0 +1,24 @@
+name: pVAC-Seq
+full_name: personalized Variant Antigens by Cancer Sequencing
+category: dry
+summary: Computational workflow that integrates tumour DNA and RNA sequencing mutation and expression data to identify candidate
+  tumour neoantigens.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-016-0264-5
+  year: 2016
+  journal: Genome Med
+  first_author: Hundal J
+  last_author: Griffith M
+  pmid: '26825632'
+  pmcid: PMC4733280
+  title: 'pVAC-Seq: A genome-guided in silico approach to identifying tumor neoantigens'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a flexible, streamlined computational workflow for identification of personalized Variant Antigens
+  by Cancer Sequencing (pVAC-Seq) that integrates tumor mutation and expression data (DNA- and RNA-Seq).

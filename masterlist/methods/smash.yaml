@@ -1,0 +1,24 @@
+name: SMASH
+full_name: short multiply aggregated sequence homologies
+category: wet
+summary: Random fragmentation of genomic DNA creates chimeric reads whose multiple mappable tags are binned and segmented
+  into low-cost genome copy-number profiles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: Library chemistry (random fragmentation to chimeric reads) has no fitting taxonomy tag
+reference:
+  doi: 10.1101/gr.201491.115
+  year: 2016
+  journal: Genome Res
+  first_author: Wang Z
+  last_author: Levy D
+  pmid: '27197213'
+  pmcid: PMC4889966
+  title: SMASH, a fragmentation and sequencing method for genomic copy number analysis
+links: {}
+added: '2026-11-14'
+evidence: As an alternative, we have developed a next-generation sequencing-based method for CNV analysis termed SMASH, for
+  short multiply aggregated sequence homologies.

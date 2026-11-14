@@ -1,0 +1,32 @@
+name: RT-MLPSeq
+full_name: Reverse Transcription-Multiple Ligation-dependent Probe Sequencing
+category: wet
+summary: Targeted transcript quantification from FFPE RNA by RT-MLPA read out with next-generation sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+input_sample:
+- ffpe-archival
+- low-input
+species:
+- human
+variant_of:
+- mlpa-seq
+evidence: Here we developed a high-throughput method, Reverse Transcription-Multiple Ligation-dependent Probe Sequencing (RT-MLPSeq),
+  to determine expression levels of multiple transcripts in FFPE samples.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.18632/oncotarget.17551
+  year: 2017
+  journal: Oncotarget
+  first_author: Wang J
+  last_author: Gao J
+  pmid: '28545022'
+  pmcid: PMC5542250
+  title: A high-throughput method to detect RNA profiling by integration of RT-MLPA with next generation sequencing technology

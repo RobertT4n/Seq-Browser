@@ -1,0 +1,22 @@
+name: AIAP
+full_name: ATAC-seq Integrative Analysis Package
+category: dry
+summary: Package that computes quality control metrics and integrative analysis for ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2020.06.025
+  year: 2021
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Liu S
+  last_author: Zhang B
+  pmid: '34273560'
+  pmcid: PMC9040017
+  title: 'AIAP: A Quality Control and Integrative Analysis Package to Improve ATAC-seq Data Analysis'
+links: {}
+added: '2026-11-14'
+evidence: We incorporated these QC tests into our recently developed ATAC-seq Integrative Analysis Package (AIAP) to provide
+  a complete ATAC-seq analysis system, including quality assurance, improved peak calling, and downstream differential analysis.

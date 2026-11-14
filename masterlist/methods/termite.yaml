@@ -1,0 +1,25 @@
+name: TERMITe
+category: dry
+summary: Pipeline that identifies stable bacterial 3-prime RNA ends from either Term-seq protocol and annotates termination
+  efficiency using matched RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkaf553
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Kosiński JG
+  last_author: Żywicki M
+  pmid: '40586304'
+  pmcid: PMC12207403
+  title: Characterization of bacterial intrinsic transcription terminators identified with TERMITe-a novel method for comprehensive
+    analysis of Term-seq data
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe TERMITe, a novel method for the identification of stable 3' RNA ends based on bacterial Term-seq
+  data.

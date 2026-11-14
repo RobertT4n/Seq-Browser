@@ -1,0 +1,28 @@
+name: REBELseq
+full_name: Restriction Enzyme Based Enriched L1Hs Sequencing
+category: wet
+summary: Restriction-enzyme-based library construction enriches human-specific Ta-subfamily LINE-1 insertions for sequencing
+  and bioinformatic insertion calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+species:
+- human
+reference:
+  doi: 10.1534/g3.119.400613
+  year: 2020
+  journal: G3 (Bethesda)
+  first_author: Reiner BC
+  last_author: Berrettini WH
+  pmid: '32132168'
+  pmcid: PMC7202019
+  title: 'Restriction Enzyme Based Enriched L1Hs Sequencing (REBELseq): A Scalable Technique for Detection of Ta Subfamily
+    L1Hs in the Human Genome'
+links: {}
+added: '2026-11-14'
+evidence: we present REBELseq as a method for the construction of Ta subfamily L1Hs-enriched next-generation sequencing libraries
+  and bioinformatic identification.

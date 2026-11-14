@@ -1,0 +1,24 @@
+name: IMDP
+full_name: InDel Markers Development Platform
+category: dry
+summary: Graphical pipeline platform that identifies genome-wide InDel markers from assembled genome alignments or re-sequencing
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1111/jipb.12354
+  year: 2015
+  journal: J Integr Plant Biol
+  first_author: Lü Y
+  last_author: Yuan Z
+  pmid: '25809845'
+  title: Development of genome-wide insertion/deletion markers in rice based on graphic pipeline platform
+links: {}
+added: '2026-11-14'
+evidence: We developed an end-to-end computational solution (InDel Markers Development Platform, IMDP) to identify genome-wide
+  InDel markers under a graphic pipeline environment.

@@ -1,0 +1,23 @@
+name: CLEAR
+full_name: coverage-based limiting-cell experiment analysis for RNA-seq
+category: dry
+summary: Coverage-based workflow that selects reliably quantifiable transcripts in limiting-cell RNA-seq data before differential
+  expression analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12967-020-02247-6
+  year: 2020
+  journal: J Transl Med
+  first_author: Walker LA
+  last_author: Yan P
+  pmid: '32039730'
+  pmcid: PMC7008572
+  title: 'CLEAR: coverage-based limiting-cell experiment analysis for RNA-seq'
+links: {}
+added: '2026-11-14'
+evidence: Herein, we present CLEAR, a workflow that identifies reliably quantifiable transcripts in lcRNA-seq data for differentially
+  expressed genes (DEG) analysis.

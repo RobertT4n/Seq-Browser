@@ -1,0 +1,31 @@
+name: Flura-seq
+full_name: fluorouracil-labeled RNA sequencing
+category: wet
+summary: Cytosine deaminase converts fluorocytosine to fluorouracil to metabolically label RNA in rare cell populations in
+  situ for purification and sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+- cell-line
+species:
+- mouse
+- human
+reference:
+  doi: 10.7554/elife.43627
+  year: 2019
+  journal: Elife
+  first_author: Basnet H
+  last_author: Massagué J
+  pmid: '30912515'
+  pmcid: PMC6440742
+  title: Flura-seq identifies organ-specific metabolic adaptations during early metastatic colonization
+links: {}
+added: '2026-11-14'
+evidence: We developed fluorouracil-labeled RNA sequencing (Flura-seq) for in situ analysis with high sensitivity.

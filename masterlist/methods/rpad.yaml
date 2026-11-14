@@ -1,0 +1,29 @@
+name: RPAD
+full_name: RNase R treatment followed by Polyadenylation and poly(A)+ RNA Depletion
+category: wet
+summary: Circular RNA isolation that removes linear RNA by RNase R, polyadenylation and poly(A)+ depletion before sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+evidence: Here, we describe a novel method for the isolation of highly pure circRNA populations involving RNase R treatment
+  followed by Polyadenylation and poly(A)+ RNA Depletion (RPAD), which removes linear RNA to near completion.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1093/nar/gkx297
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Panda AC
+  last_author: Gorospe M
+  pmid: '28444238'
+  pmcid: PMC5499592
+  title: High-purity circular RNA isolation method (RPAD) reveals vast collection of intronic circRNAs

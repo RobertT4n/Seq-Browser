@@ -1,0 +1,24 @@
+name: Fast-GBS v2.0
+category: dry
+summary: Second generation of the Fast-GBS genotyping-by-sequencing pipeline adding paired-end read processing, missing-data
+  imputation and genotype summary statistics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- fast-gbs
+reference:
+  doi: 10.1139/gen-2020-0077
+  year: 2020
+  journal: Genome
+  first_author: Torkamaneh D
+  last_author: Belzile F
+  pmid: '33006480'
+  title: 'Fast-GBS v2.0: an analysis toolkit for genotyping-by-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present the second generation of Fast-GBS (v2.0) that offers several new options (e.g., processing paired-end
+  reads and imputation of missing data) and features (e.g., summary statistics of genotypes) to improve the GBS data analysis
+  process.

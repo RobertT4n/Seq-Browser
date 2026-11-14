@@ -1,0 +1,29 @@
+name: RIC-seq
+full_name: RNA in situ conformation sequencing
+category: wet
+summary: In situ proximity ligation of RNA fragments held together by RNA-binding proteins to map intra- and intermolecular
+  RNA-RNA contacts genome-wide.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41586-020-2249-1
+  year: 2020
+  journal: Nature
+  first_author: Cai Z
+  last_author: Xue Y
+  pmid: '32499643'
+  title: RIC-seq for global in situ profiling of RNA-RNA spatial interactions
+links: {}
+added: '2026-11-14'
+evidence: Here, by coupling proximity ligation mediated by RNA-binding proteins with deep sequencing, we report an RNA in
+  situ conformation sequencing (RIC-seq) technology for the global profiling of intra- and intermolecular RNA-RNA interactions.

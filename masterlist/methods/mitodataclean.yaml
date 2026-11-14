@@ -1,0 +1,23 @@
+name: mitoDataclean
+category: dry
+summary: Random-forest package that detects cross-contamination in mitochondrial DNA sequencing data, estimates contamination
+  level and flags contamination-derived variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/ijc.33927
+  year: 2022
+  journal: Int J Cancer
+  first_author: Su L
+  last_author: Xing J
+  pmid: '35001369'
+  title: 'mitoDataclean: A machine learning approach for the accurate identification of cross-contamination-derived tumor
+    mitochondrial DNA mutations'
+links: {}
+added: '2026-11-14'
+evidence: In our study, we present mitoDataclean, a random-forest-based machine learning package for accurate identification
+  of cross-contamination, evaluation of contamination levels and detection of contamination-derived variants in mtDNA sequencing
+  data.

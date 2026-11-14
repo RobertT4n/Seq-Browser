@@ -1,0 +1,25 @@
+name: DSBS
+full_name: double strand bisulfite sequencing
+category: wet
+summary: Hairpin adapter locks Watson and Crick strands together before bisulfite treatment so one paired-end read gives SNVs
+  and methylation together.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+reference:
+  doi: 10.1093/bib/bbab201
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop double strand bisulfite sequencing (DSBS) for genome-wide accurate identification of SNVs and DNA
+  methylation simultaneously at a single-base resolution by using one dataset.

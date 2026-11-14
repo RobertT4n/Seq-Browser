@@ -1,0 +1,31 @@
+name: scCOLOR-seq
+full_name: single-cell corrected long-read sequencing
+category: wet
+summary: Single-cell cDNA nanopore sequencing with barcodes and UMIs built from dimeric nucleotides so that errors can be
+  detected and corrected.
+readouts:
+- rna
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+platform:
+- long-read
+- nanopore
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41587-021-00965-w
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Philpott M
+  last_author: Cribbs AP
+  pmid: '34211161'
+  pmcid: PMC8668430
+  title: Nanopore sequencing of single-cell transcriptomes with scCOLOR-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we describe single-cell corrected long-read sequencing (scCOLOR-seq), which enables error correction of barcode
+  and unique molecular identifier oligonucleotide sequences and permits standalone cDNA nanopore sequencing of single cells.

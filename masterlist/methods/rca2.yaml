@@ -1,0 +1,22 @@
+name: RCA2
+category: dry
+summary: Supervised clustering that combines reference projection with graph-based clustering to reduce batch effects in scalable
+  scRNA-seq analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab632
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Schmidt F
+  last_author: Prabhakar S
+  pmid: '34320202'
+  pmcid: PMC8344557
+  title: 'RCA2: a scalable supervised clustering algorithm that reduces batch effects in scRNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present RCA2, the first algorithm to combine reference projection (batch effect robustness) with graph-based
+  clustering (scalability).

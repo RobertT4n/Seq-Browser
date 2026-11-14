@@ -1,0 +1,30 @@
+name: iscDNase-seq
+full_name: indexing single-cell DNase sequencing
+category: wet
+summary: Three-layer indexing of DNase-digested chromatin ends with TdT and T4 ligase to profile DNase hypersensitive sites
+  in over 15,000 single cells per experiment.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+throughput: 1e4-1e5
+species:
+- human
+chemistry:
+- dnase-digestion
+- adapter-ligation
+- combinatorial-indexing
+reference:
+  doi: 10.1093/nar/gkab102
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Gao W
+  last_author: Zhao K
+  pmid: '33693880'
+  pmcid: PMC8191781
+  title: Multiplex indexing approach for the detection of DNase I hypersensitive sites in single cells
+links: {}
+added: '2026-11-14'
+evidence: This new technique, termed indexing single-cell DNase sequencing (iscDNase-seq), employs the activities of terminal
+  DNA transferase (TdT) and T4 DNA ligase to add unique cell barcodes to DNase-digested chromatin ends.

@@ -1,0 +1,25 @@
+name: qDSB-Seq
+full_name: Quantitative DSB sequencing
+category: wet
+summary: Spike-in DSBs induced by a site-specific endonuclease calibrate DSB-labelling sequencing data to give absolute DSB
+  frequencies per cell.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: 'abstract: spike-in DSBs by site-specific endonuclease plus DSB labeling (e.g. i-BLESS); no matching chemistry
+  tag'
+reference:
+  doi: 10.1038/s41467-019-10332-8
+  year: 2019
+  journal: Nat Commun
+  first_author: Zhu Y
+  last_author: Rowicka M
+  pmid: '31127121'
+  pmcid: PMC6534554
+  title: qDSB-Seq is a general method for genome-wide quantification of DNA double-strand breaks using sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here we propose quantitative DSB sequencing (qDSB-Seq), a method providing both DSB frequencies per cell and their
+  precise genomic coordinates.

@@ -1,0 +1,24 @@
+name: Vireo-bulk
+category: dry
+summary: Deconvolves pooled bulk RNA-seq by genotype reference to quantify donor abundance over differentiation and call donor-specific
+  DE genes (part of Vireo Suite).
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-48282-5
+  year: 2024
+  journal: Nat Commun
+  first_author: Cheng C
+  last_author: Zhang J
+  pmid: '38729950'
+  pmcid: PMC11087505
+  title: Multiplexed bulk and single-cell RNA-seq hybrid enables cost-efficient disease modeling with chimeric organoids
+links: {}
+added: '2026-11-14'
+evidence: we introduce a computational method in our Vireo Suite, Vireo-bulk, to effectively deconvolve pooled bulk RNA-seq
+  data by genotype reference, and thereby quantify donor abundance over the course of differentiation and identify differentially
+  expressed genes among donors.

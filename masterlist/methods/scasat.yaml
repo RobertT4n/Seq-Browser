@@ -1,0 +1,22 @@
+name: Scasat
+full_name: single-cell ATAC-seq analysis tool
+category: dry
+summary: Complete pipeline for classifying cells from single-cell ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky950
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Baker SM
+  last_author: Rattray M
+  pmid: '30335168'
+  pmcid: PMC6344856
+  title: Classifying cells with Scasat, a single-cell ATAC-seq analysis tool
+links: {}
+added: '2026-11-14'
+evidence: This paper presents Scasat (single-cell ATAC-seq analysis tool), a complete pipeline to process scATAC-seq data
+  with simple steps.

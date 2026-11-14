@@ -1,0 +1,22 @@
+name: groHMM
+category: dry
+summary: R tool that uses a two-state hidden Markov model to define transcription unit boundaries de novo from GRO-seq data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0656-3
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Chae M
+  last_author: Kraus WL
+  pmid: '26173492'
+  pmcid: PMC4502638
+  title: 'groHMM: a computational tool for identifying unannotated and cell type-specific transcription units from global
+    run-on sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present groHMM, a computational tool in R, which defines the boundaries of transcription units de novo
+  using a two state hidden-Markov model (HMM).

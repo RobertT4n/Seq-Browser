@@ -1,0 +1,28 @@
+name: fCLIP-seq
+full_name: formaldehyde crosslinking, immunoprecipitation, and sequencing
+category: wet
+summary: CLIP variant using reversible formaldehyde crosslinking and improved ligation to map dsRNA-binding protein sites
+  such as DROSHA cleavage at single-nucleotide resolution.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- adapter-ligation
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1016/j.ymeth.2018.06.004
+  year: 2019
+  journal: Methods
+  first_author: Kim B
+  last_author: Kim VN
+  pmid: '29902563'
+  title: 'fCLIP-seq for transcriptomic footprinting of dsRNA-binding proteins: Lessons from DROSHA'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a high-throughput sequencing method that allows the mapping of in vivo DROSHA cleavage sites at
+  single nucleotide resolution, termed formaldehyde crosslinking, immunoprecipitation, and sequencing (fCLIP-seq).

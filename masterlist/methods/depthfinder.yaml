@@ -1,0 +1,20 @@
+name: DepthFinder
+category: dry
+summary: Tool estimating the read depth needed per sample for reduced-representation (restriction-site-associated) sequencing
+  genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz473
+  year: 2020
+  journal: Bioinformatics
+  first_author: Torkamaneh D
+  last_author: Belzile F
+  pmid: '31173057'
+  title: 'DepthFinder: a tool to determine the optimal read depth for reduced-representation sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Herein we describe a bioinformatics tool, DepthFinder, designed to estimate the required read counts for RSAS methods.

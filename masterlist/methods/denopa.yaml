@@ -1,0 +1,15 @@
+name: deNOPA
+full_name: decoding nucleosome organization profile based on ATAC-seq data
+category: dry
+summary: ATAC-seq toolkit predicting nucleosome positions from sparse data by using short fragment reads usually discarded.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab469
+links: {}
+added: '2026-11-14'
+evidence: In the present work, we introduce a novel ATAC-seq analysis toolkit, named decoding nucleosome organization profile
+  based on ATAC-seq data (deNOPA), to predict nucleosome positions.

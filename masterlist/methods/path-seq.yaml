@@ -1,0 +1,27 @@
+name: Path-seq
+category: wet
+summary: Method to sequence tiny amounts of Mycobacterium tuberculosis transcripts within up to million-fold excess host RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- tissue-in-vivo
+species:
+- microbe
+- mouse
+chemistry_unknown: abstract does not describe the enrichment chemistry
+reference:
+  doi: 10.15252/msb.20188584
+  year: 2019
+  journal: Mol Syst Biol
+  first_author: Peterson EJ
+  last_author: Baliga NS
+  pmid: '30833303'
+  pmcid: PMC6398593
+  title: Path-seq identifies an essential mycolate remodeling program for mycobacterial host adaptation
+links: {}
+added: '2026-11-14'
+evidence: Here, we report a new technology (Path-seq) to sequence miniscule amounts of MTB transcripts within up to million-fold
+  excess host RNA

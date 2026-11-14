@@ -1,0 +1,21 @@
+name: PRICE
+category: dry
+summary: Computational method that models Ribo-seq noise to resolve overlapping short ORFs and non-canonical translation initiation.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4631
+  year: 2018
+  journal: Nat Methods
+  first_author: Erhard F
+  last_author: Dölken L
+  pmid: '29529017'
+  pmcid: PMC6152898
+  title: Improved Ribo-seq enables identification of cryptic translation events
+links: {}
+added: '2026-11-14'
+evidence: PRICE (https://github.com/erhard-lab/price) is a computational method that models experimental noise to enable researchers
+  to accurately resolve overlapping sORFs and noncanonical translation initiation.

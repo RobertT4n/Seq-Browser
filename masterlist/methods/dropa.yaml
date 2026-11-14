@@ -1,0 +1,21 @@
+name: DROPA
+category: dry
+summary: Tool that annotates DRIP-seq R-loop peaks to genes using gene expression information to resolve missing strand information.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3009-9
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Russo M
+  last_author: Capranico G
+  pmid: '31387525'
+  pmcid: PMC6685255
+  title: 'DROPA: DRIP-seq optimized peak annotator'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce DRIP-seq Optimized Peak Annotator (DROPA), a new tool for gene annotation of R-loop peaks based
+  on gene expression information.

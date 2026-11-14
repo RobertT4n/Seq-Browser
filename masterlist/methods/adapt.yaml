@@ -1,0 +1,28 @@
+name: ADAPT
+full_name: Adaptive Dynamic Artificial Poly-ligand Targeting
+category: wet
+summary: A library of single-stranded oligonucleotides enriched for binding plasma exosomes is used as an affinity probe set
+  whose recovered sequences give quantitative signatures for patient classification.
+readouts:
+- protein
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: abstract describes ssODN affinity selection and sequencing of recovered ssODNs, no library-prep chemistry
+  given
+input_sample:
+- low-input
+species:
+- human
+reference:
+  doi: 10.1038/srep42741
+  year: 2017
+  journal: Sci Rep
+  first_author: Domenyuk V
+  last_author: Spetzler D
+  pmid: '28218293'
+  pmcid: PMC5316983
+  title: Plasma Exosome Profiling of Cancer Patients by a Next Generation Systems Biology Approach
+links: {}
+added: '2026-11-14'
+evidence: 'We describe an approach that fulfils this criterion: Adaptive Dynamic Artificial Poly-ligand Targeting (ADAPT).'

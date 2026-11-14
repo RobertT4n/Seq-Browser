@@ -1,0 +1,21 @@
+name: MeTDiff
+category: dry
+summary: Statistical tool predicting differential m6A methylation sites from MeRIP-seq data with a likelihood ratio test that
+  models read variation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2015.2403355
+  year: 2018
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Cui X
+  last_author: Huang Y
+  pmid: '29610101'
+  title: 'MeTDiff: A Novel Differential RNA Methylation Analysis for MeRIP-Seq Data'
+links: {}
+added: '2026-11-14'
+evidence: We present in this paper, MeTDiff, a novel computational tool for predicting differential m6A methylation sites
+  from Methylated RNA immunoprecipitation sequencing (MeRIP-Seq) data.

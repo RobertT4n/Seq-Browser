@@ -1,0 +1,15 @@
+name: AECT
+full_name: Autoencoder of cfDNA TSS
+category: dry
+summary: Deep-learning autoencoder that imputes TSS coverage profiles from shallow cell-free DNA sequencing for cancer screening.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmed.2021.684238
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a deep-learning pipeline designed for TSS coverage profiles generated from shallow cfDNA sequencing
+  called the Autoencoder of cfDNA TSS (AECT) coverage profile.

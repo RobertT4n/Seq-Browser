@@ -1,0 +1,27 @@
+name: Duplex Proximity Sequencing
+aliases:
+- Pro-Seq
+- Proximity-Sequencing
+category: wet
+summary: Library construction that physically links multiple copies of each cfDNA template so they seed one sequencing cluster,
+  lowering error without redundant barcoded reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: Abstract does not name the linking chemistry; scope (targeted vs genome-wide) not stated
+reference:
+  doi: 10.1371/journal.pone.0204265
+  year: 2018
+  journal: PLoS One
+  first_author: Pel J
+  last_author: Marziali A
+  pmid: '30278055'
+  pmcid: PMC6168144
+  title: 'Duplex Proximity Sequencing (Pro-Seq): A method to improve DNA sequencing accuracy without the cost of molecular
+    barcoding redundancy'
+links: {}
+added: '2026-11-14'
+evidence: Named Proximity-Sequencing (Pro-Seq), the method merges multiple copies of each template into a single sequencing
+  read by physically linking the molecular copies so they seed a single sequencing cluster.

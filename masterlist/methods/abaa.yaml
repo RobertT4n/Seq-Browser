@@ -1,0 +1,25 @@
+name: ABAA
+full_name: Abundance-Base Alternative Approach
+category: dry
+summary: Pipeline step that detects and filters non-specific amplicons in fungal metabarcoding sequencing datasets.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+shared_doi: HCK and ABAA are two components described in the same paper
+reference:
+  doi: 10.3389/fmicb.2021.640693
+  year: 2021
+  journal: Front Microbiol
+  first_author: Mlaga KD
+  last_author: Droit A
+  pmid: '34025601'
+  pmcid: PMC8134036
+  title: 'HCK and ABAA: A Newly Designed Pipeline to Improve Fungi Metabarcoding Analysis'
+links: {}
+added: '2026-11-14'
+evidence: Abundance-Base Alternative Approach (ABAA) pipeline to detect and filter non-specific amplicons in fungi metabarcoding
+  sequencing datasets

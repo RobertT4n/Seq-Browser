@@ -1,0 +1,23 @@
+name: damidseq_pipeline
+category: dry
+summary: Perl pipeline that automatically normalizes and reduces background in DamID-seq datasets from FASTQ to binding profiles.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- damid
+reference:
+  doi: 10.1093/bioinformatics/btv386
+  year: 2015
+  journal: Bioinformatics
+  first_author: Marshall OJ
+  last_author: Brand AH
+  pmid: '26112292'
+  pmcid: PMC4595905
+  title: 'damidseq_pipeline: an automated pipeline for processing DamID sequencing datasets'
+links: {}
+added: '2026-11-14'
+evidence: We describe here damidseq_pipeline, a software pipeline that performs automatic normalization and background reduction
+  on multiple DamID-seq FASTQ datasets.

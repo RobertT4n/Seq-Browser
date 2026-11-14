@@ -1,0 +1,29 @@
+name: LC-FACSeq
+full_name: limited-cell FACS sequencing
+category: wet
+summary: Rare FACS-sorted cell populations are sequenced with multigene panels to characterise clonal evolution in leukemia
+  residual disease.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- human
+input_sample:
+- low-input
+reference:
+  doi: 10.1172/jci.insight.134973
+  year: 2020
+  journal: JCI Insight
+  first_author: Hu EY
+  last_author: Byrd JC
+  pmid: '32554930'
+  pmcid: PMC7406301
+  title: LC-FACSeq is a method for detecting rare clones in leukemia
+links: {}
+added: '2026-11-14'
+evidence: we describe limited-cell FACS sequencing (LC-FACSeq), a reproducible, highly sensitive method of characterizing
+  clonal evolution in rare cells relevant to different types of acute and chronic leukemias.

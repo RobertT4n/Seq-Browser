@@ -1,0 +1,24 @@
+name: CAFU
+full_name: Comprehensive Assembly and Functional annotation of Unmapped RNA-Seq data
+category: dry
+summary: Galaxy framework that assembles, species-assigns and functionally annotates transcripts from RNA-seq reads that do
+  not map to the reference genome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbz018
+  year: 2020
+  journal: Brief Bioinform
+  first_author: Chen S
+  last_author: Ma C
+  pmid: '30815667'
+  pmcid: PMC7299299
+  title: 'CAFU: a Galaxy framework for exploring unmapped RNA-Seq data'
+links: {}
+added: '2026-11-14'
+evidence: To fill this gap, we present Comprehensive Assembly and Functional annotation of Unmapped RNA-Seq data (CAFU), a
+  Galaxy-based framework that can facilitate the large-scale analysis of unmapped RNA sequencing (RNA-Seq) reads from single-
+  and mixed-species samples.

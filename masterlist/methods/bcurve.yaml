@@ -1,0 +1,16 @@
+name: BCurve
+category: dry
+summary: Bayesian curve credible-band approach for detecting differentially methylated regions from BS-seq or microarray data
+  with covariate adjustment.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/978-1-0716-1994-0_13
+links: {}
+added: '2026-11-14'
+evidence: In this chapter, we describe a Bayesian curve credible bands approach and the accompanying software, BCurve, for
+  detecting differentially methylated regions for data generated from either microarray or BS-Seq.

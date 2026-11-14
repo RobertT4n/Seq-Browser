@@ -1,0 +1,24 @@
+name: DSS
+full_name: Dispersion Shrinkage for Sequencing
+category: dry
+summary: Bioconductor package for differential methylation analysis of bisulfite sequencing data under general experimental
+  designs, using beta-binomial regression with arcsine link.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw026
+  year: 2016
+  journal: Bioinformatics
+  first_author: Park Y
+  last_author: Wu H
+  pmid: '26819470'
+  pmcid: PMC12157722
+  title: Differential methylation analysis for BS-seq data under general experimental design
+links: {}
+added: '2026-11-14'
+evidence: We present a novel statistical model to detect differentially methylated loci from BS-seq data under general experimental
+  design, based on a beta-binomial regression model with 'arcsine' link function.

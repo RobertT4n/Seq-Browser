@@ -1,0 +1,28 @@
+name: DNTR-seq
+full_name: direct nuclear tagmentation and RNA sequencing
+category: wet
+summary: Joint whole-genome (direct nuclear tagmentation) and mRNA sequencing of the same single cell, with individually addressable
+  libraries.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.molcel.2020.09.025
+  year: 2020
+  journal: Mol Cell
+  first_author: Zachariadis V
+  last_author: Enge M
+  pmid: '33068522'
+  title: A Highly Scalable Method for Joint Whole-Genome Sequencing and Gene-Expression Profiling of Single Cells
+links: {}
+added: '2026-11-14'
+evidence: we developed direct nuclear tagmentation and RNA sequencing (DNTR-seq), which enables whole-genome and mRNA sequencing
+  jointly in single cells.
+_nr: 'CHEMISTRY: cell partitioning not stated in abstract'

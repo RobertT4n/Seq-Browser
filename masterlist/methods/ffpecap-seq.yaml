@@ -1,0 +1,26 @@
+name: FFPEcap-seq
+category: wet
+summary: Enzymatic enrichment of 5-prime capped RNAs combined with template switching to make 5-prime-end RNA-seq libraries
+  from FFPE specimens.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- ffpe-archival
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gr.249656.119
+  year: 2019
+  journal: Genome Res
+  first_author: Vahrenkamp JM
+  last_author: Gertz J
+  pmid: '31649055'
+  pmcid: PMC6836741
+  title: 'FFPEcap-seq: a method for sequencing capped RNAs in formalin-fixed paraffin-embedded samples'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present FFPEcap-seq, a method specifically designed for sequencing capped 5' ends of RNA derived from FFPE
+  samples.

@@ -1,0 +1,24 @@
+name: SECAPR
+full_name: Sequence Capture Processor
+category: dry
+summary: Pipeline turning raw sequence-capture reads into multiple sequence alignments for phylogenetic and phylogeographic
+  analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7717/peerj.5175
+  year: 2018
+  journal: PeerJ
+  first_author: Andermann T
+  last_author: Antonelli A
+  pmid: '30023140'
+  pmcid: PMC6047508
+  title: SECAPR-a bioinformatics pipeline for the rapid and user-friendly processing of targeted enriched Illumina sequences,
+    from raw reads to alignments
+links: {}
+added: '2026-11-14'
+evidence: we introduce the Sequence Capture Processor (SECAPR) pipeline for processing raw sequencing data into multiple sequence
+  alignments for downstream phylogenetic and phylogeographic analyses.

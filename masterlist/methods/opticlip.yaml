@@ -1,0 +1,21 @@
+name: optiCLIP
+category: dry
+summary: Computational framework that calls Ago2 CLIP-seq binding sites by peak overlap reproducibility across replicates.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab198
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Serra F
+  last_author: Trabucchi M
+  pmid: '33823551'
+  pmcid: PMC8216473
+  title: Systemic CLIP-seq analysis and game theory approach to model microRNA mode of binding
+links: {}
+added: '2026-11-14'
+evidence: To characterize the modes of miRNA-binding, we developed a novel computational framework, called optiCLIP, which
+  considers the reproducibility of the identified peaks among replicates based on the peak overlap.

@@ -1,0 +1,22 @@
+name: AASRA
+full_name: anchor alignment-based small RNA annotation
+category: dry
+summary: Anchor-alignment pipeline that annotates all known small noncoding RNA species at once, including sncRNA variants,
+  from small RNA-seq reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/biolre/ioab062
+  year: 2021
+  journal: Biol Reprod
+  first_author: Tang C
+  last_author: Yan W
+  pmid: '33787835'
+  pmcid: PMC8256102
+  title: 'AASRA: an anchor alignment-based small RNA annotation pipeline†'
+links: {}
+added: '2026-11-14'
+evidence: Here, we report a novel anchor alignment-based small RNA annotation (AASRA) software package

@@ -1,0 +1,26 @@
+name: MP3RNA-seq
+full_name: massively parallel 3' end RNA sequencing
+category: wet
+summary: 3-prime end RNA-seq with sample barcodes added at reverse transcription so hundreds of samples pool early; also yields
+  genotypes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1111/jipb.13077
+  year: 2021
+  journal: J Integr Plant Biol
+  first_author: Chen J
+  last_author: Lai J
+  pmid: '33559966'
+  title: 'MP3RNA-seq: Massively parallel 3'' end RNA sequencing for high-throughput gene expression profiling and genotyping'
+links: {}
+added: '2026-11-14'
+evidence: Here we describe a massively parallel 3' end RNA-seq (MP3RNA-seq) method that introduces unique sample barcodes
+  during reverse transcription to permit sample pooling immediately following this initial step.

@@ -1,0 +1,26 @@
+name: sTM-Seq
+full_name: Simultaneous targeted methylation sequencing
+category: wet
+summary: Rapid protocol for parallel targeted methylation sequencing of many loci in many samples with 5mC/5hmC distinction,
+  using universal barcoding primers.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1002/cphg.81
+  year: 2019
+  journal: Curr Protoc Hum Genet
+  first_author: Asmus N
+  last_author: Alisch RS
+  pmid: '30620135'
+  title: Simultaneous Targeted Methylation Sequencing (sTM-Seq)
+links: {}
+added: '2026-11-14'
+evidence: we present a rapid and robust protocol for the parallel examination of multiple methylated sequences that we have
+  termed simultaneous targeted methylation sequencing (sTM-Seq).

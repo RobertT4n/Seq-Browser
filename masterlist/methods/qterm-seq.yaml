@@ -1,0 +1,29 @@
+name: qTerm-Seq
+full_name: quantitative Term-Seq
+category: wet
+summary: Modified Term-Seq that identifies terminator sequences in a randomized library and measures each terminator's termination
+  efficiency.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/synbio/ysz026
+  year: 2019
+  journal: Synth Biol (Oxf)
+  first_author: Hudson AJ
+  last_author: Wieden HJ
+  pmid: '32995547'
+  pmcid: PMC7445774
+  title: Rapid generation of sequence-diverse terminator libraries and their parameterization using quantitative Term-Seq
+links: {}
+added: '2026-11-14'
+evidence: a modified quantitative Term-Seq (qTerm-Seq) method to simultaneously identify terminator sequences and measure
+  their termination efficiencies (TEs)

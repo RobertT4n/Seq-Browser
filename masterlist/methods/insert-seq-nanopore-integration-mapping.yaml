@@ -1,0 +1,29 @@
+name: INSERT-seq (nanopore integration mapping)
+category: wet
+summary: Targeted amplification of integrated DNA with UMI PCR-bias correction and nanopore long reads maps genome-engineering
+  insertions, including in repeats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+reference:
+  doi: 10.1186/s13059-022-02778-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Ivančić D
+  last_author: Güell M
+  pmid: '36284361'
+  pmcid: PMC9594898
+  title: INSERT-seq enables high-resolution mapping of genomically integrated DNA using Nanopore sequencing
+links: {}
+added: '2026-11-14'
+evidence: We develop INSERT-seq, a method that combines targeted amplification of integrated DNA, UMI-based correction of
+  PCR bias and Oxford Nanopore long-read sequencing for robust analysis of DNA integration.

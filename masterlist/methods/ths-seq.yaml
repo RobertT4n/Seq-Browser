@@ -1,0 +1,27 @@
+name: THS-seq
+full_name: transposome hypersensitive sites sequencing
+category: wet
+summary: Chromatin accessibility assay combining linear amplification by in vitro transcription with an engineered Tn5 super-mutant
+  for low input.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+input_sample:
+- low-input
+reference:
+  doi: 10.1186/s13059-016-0882-7
+  year: 2016
+  journal: Genome Biol
+  first_author: Sos BC
+  last_author: Zhang K
+  pmid: '26846207'
+  pmcid: PMC4743176
+  title: Characterization of chromatin accessibility with a transposome hypersensitive sites sequencing (THS-seq) assay
+links: {}
+added: '2026-11-14'
+evidence: We present a transposome hypersensitive sites sequencing assay for highly sensitive characterization of chromatin
+  accessibility.

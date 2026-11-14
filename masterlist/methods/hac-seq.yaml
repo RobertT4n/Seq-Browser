@@ -1,0 +1,29 @@
+name: HAC-seq
+full_name: Hydrazine-Aniline Cleavage sequencing
+category: wet
+summary: Hydrazine-aniline cleavage at m3C sites maps 3-methylcytidine in RNA at single-nucleotide resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry:
+- reverse-transcription
+- chemical-cleavage
+reference:
+  doi: 10.1093/nar/gkaa1186
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Cui J
+  last_author: Gregory RI
+  pmid: '33313824'
+  pmcid: PMC7969016
+  title: Nucleotide resolution profiling of m3C RNA modification by HAC-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a m3C-specific technique, Hydrazine-Aniline Cleavage sequencing (HAC-seq), to profile the m3C
+  methylome at single-nucleotide resolution.

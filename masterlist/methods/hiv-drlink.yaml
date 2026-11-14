@@ -1,0 +1,23 @@
+name: HIV-DRLink
+category: dry
+summary: Program that reports HIV-1 drug resistance mutation frequencies and their genetic linkage on the same genomes by
+  parsing Stanford HIV Database Sierra output from single-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1089/aid.2020.0109
+  year: 2020
+  journal: AIDS Res Hum Retroviruses
+  first_author: Shao W
+  last_author: Kearney MF
+  pmid: '32683881'
+  pmcid: PMC7699007
+  title: 'Short Communication: HIV-DRLink: A Tool for Reporting Linked HIV-1 Drug Resistance Mutations in Large Single-Genome
+    Data Sets Using the Stanford HIV Database'
+links: {}
+added: '2026-11-14'
+evidence: we report the HIV-DRLink program, a research tool that provides resistance mutation frequencies as well as their
+  genetic linkage by parsing and summarizing the Sierra output from the Stanford HIV Database.

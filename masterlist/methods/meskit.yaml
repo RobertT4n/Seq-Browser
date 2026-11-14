@@ -1,0 +1,22 @@
+name: MesKit
+category: dry
+summary: R/Bioconductor package for intra-tumour heterogeneity, metastatic route and mutational signature analysis of multi-region
+  tumour sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giab036
+  year: 2021
+  journal: Gigascience
+  first_author: Liu M
+  last_author: Zhao Q
+  pmid: '34018555'
+  pmcid: PMC8138830
+  title: 'MesKit: a tool kit for dissecting cancer evolution of multi-region tumor biopsies through somatic alterations'
+links: {}
+added: '2026-11-14'
+evidence: we present MesKit, an R/Bioconductor package that can assist in characterizing genetic ITH and tracing the evolutionary
+  history of tumors based on somatic alterations detected by MRS

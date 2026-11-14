@@ -1,0 +1,26 @@
+name: MAGenTA Tn-seq
+category: dry
+summary: 'Galaxy suite for complete Tn-Seq analysis: per-gene fitness, sliding windows, bottleneck correction, statistics
+  and visualization.'
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+species:
+- microbe
+evidence: Here, we present MAGenTA, a suite of analysis tools which accurately calculate the growth rate for each disrupted
+  gene in the genome to enable the discovery of new leads for gene function.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btx320
+  year: 2017
+  journal: Bioinformatics
+  first_author: McCoy KM
+  last_author: van Opijnen T
+  pmid: '28498899'
+  pmcid: PMC5860071
+  title: 'MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization'

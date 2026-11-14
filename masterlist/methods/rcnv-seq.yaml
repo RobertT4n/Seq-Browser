@@ -1,0 +1,27 @@
+name: rCNV-seq
+full_name: rapid CNV-sequencing
+category: wet
+summary: PCR-free low-pass whole-genome sequencing of amniocyte DNA for rapid detection of clinically significant copy number
+  variants in prenatal samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: PCR-free library preparation steps not described in the abstract
+input_sample:
+- low-input
+species:
+- human
+reference:
+  doi: 10.3390/life11020098
+  year: 2021
+  journal: Life (Basel)
+  first_author: Zhou X
+  last_author: Liu J
+  pmid: '33525582'
+  pmcid: PMC7911416
+  title: A Rapid PCR-Free Next-Generation Sequencing Method for the Detection of Copy Number Variations in Prenatal Samples
+links: {}
+added: '2026-11-14'
+evidence: In this study, we developed and validated rapid CNV-sequencing (rCNV-seq) for clinical application in prenatal diagnosis.

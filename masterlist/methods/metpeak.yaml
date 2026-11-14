@@ -1,0 +1,22 @@
+name: MeTPeak
+category: dry
+summary: Graphical-model peak caller that models replicate variance and read dependency to detect m6A sites in MeRIP-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+variant_of: []
+reference:
+  doi: 10.1093/bioinformatics/btw281
+  year: 2016
+  journal: Bioinformatics
+  first_author: Cui X
+  last_author: Huang Y
+  pmid: '27307641'
+  pmcid: PMC4908365
+  title: A novel algorithm for calling mRNA m6A peaks by modeling biological variances in MeRIP-seq data
+links: {}
+added: '2026-11-14'
+evidence: We propose a novel, graphical model-based peak calling method, MeTPeak, for transcriptome-wide detection of m(6)A
+  sites from MeRIP-seq data.

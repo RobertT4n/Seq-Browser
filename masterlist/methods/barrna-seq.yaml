@@ -1,0 +1,31 @@
+name: barRNA-seq
+full_name: barcodelet single-cell RNA sequencing
+category: wet
+summary: Single-cell RNA-seq in which cells receive RNA barcodelets that record which combination of signalling treatments
+  they got.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- cell-line
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.stem.2020.04.020
+  year: 2020
+  journal: Cell Stem Cell
+  first_author: Yeo GHT
+  last_author: Sherwood RI
+  pmid: '32459995'
+  pmcid: PMC7398619
+  title: A Multiplexed Barcodelet Single-Cell RNA-Seq Approach Elucidates Combinatorial Signaling Pathways that Drive ESC
+    Differentiation
+links: {}
+added: '2026-11-14'
+evidence: Here we describe barcodelet single-cell RNA sequencing (barRNA-seq), which enables systematic exploration of cellular
+  perturbations by tagging individual cells with RNA "barcodelets" to identify them on the basis of the treatments they receive.

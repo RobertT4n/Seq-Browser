@@ -1,0 +1,30 @@
+name: DIP-SC-seq
+full_name: DNA immunoprecipitation semiconductor sequencing
+category: wet
+summary: Antibody enrichment of modified DNA (shown for 5hmC) sequenced on the Ion Proton semiconductor platform to map genome-wide
+  modification patterns quickly from low input.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/srep09778
+  year: 2015
+  journal: Sci Rep
+  first_author: Thomson JP
+  last_author: Meehan RR
+  pmid: '25985418'
+  pmcid: PMC4435000
+  title: DNA immunoprecipitation semiconductor sequencing (DIP-SC-seq) as a rapid method to generate genome wide epigenetic
+    signatures
+links: {}
+added: '2026-11-14'
+evidence: Here we present a rapid and cost effective method of generating genome wide DNA modification maps utilising commercially
+  available semiconductor based technology (DNA immunoprecipitation semiconductor sequencing; "DIP-SC-seq") on the Ion Proton
+  sequencer.

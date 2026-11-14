@@ -1,0 +1,23 @@
+name: BSAseq
+category: dry
+summary: Web-based workflow with a probabilistic model that estimates the region linked to a causal mutation from bulked segregant
+  F2 sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1093/bioinformatics/btaa709
+  year: 2021
+  journal: Bioinformatics
+  first_author: Wang L
+  last_author: Xin Z
+  pmid: '32777814'
+  title: 'BSAseq: an interactive and integrated web-based workflow for identification of causal mutations in bulked F2 populations'
+links: {}
+added: '2026-11-14'
+evidence: we developed the BSAseq workflow, which includes an automated bioinformatics analysis pipeline with a probabilistic
+  model for estimating the linked region

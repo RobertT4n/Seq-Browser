@@ -1,0 +1,22 @@
+name: MRFscRNAseq
+category: dry
+summary: Markov random field model that uses gene networks and cell-type dependencies to call cell-type-specific differentially
+  expressed genes in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04412-0
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Li H
+  last_author: Zhao H
+  pmid: '34702190'
+  pmcid: PMC8549347
+  title: A Markov random field model for network-based differential expression analysis of single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: We develop MRFscRNAseq, which is based on a Markov random field (MRF) model to appropriately accommodate gene network
+  information as well as dependencies among cell types to identify cell-type specific DEGs.

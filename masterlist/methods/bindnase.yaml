@@ -1,0 +1,22 @@
+name: BinDNase
+category: dry
+summary: Discriminative model that predicts transcription factor binding sites from DNase I hypersensitivity (DNase-seq) data
+  using binned cleavage patterns.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv294
+  year: 2015
+  journal: Bioinformatics
+  first_author: Kähärä J
+  last_author: Lähdesmäki H
+  pmid: '25957350'
+  title: 'BinDNase: a discriminatory approach for transcription factor binding prediction using DNase I hypersensitivity data'
+links: {}
+added: '2026-11-14'
+evidence: Recent studies have shown that genome-wide sequencing data on open chromatin sites from a DNase I hypersensitivity
+  experiments (DNase-seq) has a great potential to map the TF-DNA interaction sites.

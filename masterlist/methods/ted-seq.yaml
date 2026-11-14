@@ -1,0 +1,25 @@
+name: TED-seq
+full_name: Tail-end displacement sequencing
+category: wet
+summary: Transcriptome-wide profiling of mRNA poly(A) tail lengths by sequencing the tail-end region.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1016/j.celrep.2018.08.084
+  year: 2018
+  journal: Cell Rep
+  first_author: Woo YM
+  last_author: Kwak H
+  pmid: '30257221'
+  title: TED-Seq Identifies the Dynamics of Poly(A) Length during ER Stress
+links: {}
+added: '2026-11-14'
+evidence: we developed tail-end displacement sequencing (TED-seq) for an efficient transcriptome-wide profiling of poly(A)
+  lengths

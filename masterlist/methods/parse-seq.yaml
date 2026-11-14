@@ -1,0 +1,34 @@
+name: ParSE-seq
+full_name: Parallel Splice Effect Sequencing
+category: wet
+summary: Barcoded minigene plasmids in pooled cells quantify the effect of each variant on RNA splicing, calibrated against
+  ClinVar controls.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+scope: targeted
+validated_system:
+- cell-line
+- primary-cells
+species:
+- human
+perturbation:
+- minigene-reporter
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-52474-4
+  year: 2024
+  journal: Nat Commun
+  first_author: O'Neill MJ
+  last_author: Glazer AM
+  pmid: '39333091'
+  pmcid: PMC11437130
+  title: 'ParSE-seq: a calibrated multiplexed assay to facilitate the clinical classification of putative splice-altering
+    variants'
+links: {}
+added: '2026-11-14'
+evidence: To address this, we introduce Parallel Splice Effect Sequencing (ParSE-seq), a multiplexed assay to quantify variant
+  effects on RNA splicing.

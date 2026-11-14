@@ -1,0 +1,24 @@
+name: PLIT
+category: dry
+summary: Alignment-free tool that identifies long non-coding RNAs in plant RNA-seq transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+task:
+- sequence-to-function
+species:
+- plant
+reference:
+  doi: 10.1016/j.compbiomed.2018.12.014
+  year: 2019
+  journal: Comput Biol Med
+  first_author: Deshpande S
+  last_author: England M
+  pmid: '30665012'
+  title: 'PLIT: An alignment-free computational tool for identification of long non-coding RNAs in plant transcriptomic datasets'
+links: {}
+added: '2026-11-14'
+evidence: However, accurate identification of lncRNAs in RNA-seq datasets is crucial for exploring their characteristic functions
+  in the genome as most coding potential computation (CPC) tools fail to accurately identify them in transcriptomic data.

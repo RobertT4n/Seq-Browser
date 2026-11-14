@@ -1,0 +1,31 @@
+name: PAT-Seq (polyA-tagging)
+full_name: polyA-tagging and sequencing
+category: wet
+summary: Tissue-specific polyA-tagging isolates mRNA from individual C. elegans somatic tissues, sequenced to map transcriptomes
+  and polyadenylation sites at single-base resolution.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s12915-015-0116-6
+  year: 2015
+  journal: BMC Biol
+  first_author: Blazie SM
+  last_author: Mangone M
+  pmid: '25601023'
+  pmcid: PMC4343181
+  title: Comparative RNA-Seq analysis reveals pervasive tissue-specific alternative polyadenylation in Caenorhabditis elegans
+    intestine and muscles
+links: {}
+added: '2026-11-14'
+evidence: Here we developed a new method, polyA-tagging and sequencing (PAT-Seq) to isolate high-quality tissue-specific mRNA
+  from Caenorhabditis elegans intestine, pharynx and body muscle tissues and study changes in their tissue-specific transcriptomes
+  and 3'UTRomes.

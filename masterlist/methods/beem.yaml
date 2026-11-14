@@ -1,0 +1,23 @@
+name: BEEM
+category: dry
+summary: Expectation-maximization approach that jointly estimates biomass and infers generalized Lotka-Volterra ecological
+  models from longitudinal microbiome sequencing data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-019-0729-z
+  year: 2019
+  journal: Microbiome
+  first_author: Li C
+  last_author: Nagarajan N
+  pmid: '31439018'
+  pmcid: PMC6706891
+  title: An expectation-maximization algorithm enables accurate ecological modeling using longitudinal microbiome sequencing
+    data
+links: {}
+added: '2026-11-14'
+evidence: We present a new computational approach that resolves this key limitation in the inference of generalized Lotka-Volterra
+  models (gLVMs) by coupling biomass estimation and model inference with an expectation-maximization algorithm (BEEM).

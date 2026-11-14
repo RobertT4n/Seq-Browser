@@ -1,0 +1,24 @@
+name: Achim spatial mapping
+category: dry
+summary: Assigns single-cell RNA-seq cells to tissue locations by comparing their specificity-weighted mRNA profiles with
+  a positional gene-expression atlas.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- invertebrate
+reference:
+  doi: 10.1038/nbt.3209
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Achim K
+  last_author: Marioni JC
+  pmid: '25867922'
+  title: High-throughput spatial mapping of single-cell RNA-seq data to tissue of origin
+links: {}
+added: '2026-11-14'
+evidence: Our approach is based on comparing complete, specificity-weighted mRNA profiles of a cell with positional gene expression
+  profiles derived from a gene expression atlas.

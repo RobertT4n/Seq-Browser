@@ -1,0 +1,26 @@
+name: NEXSON
+full_name: Nuclei EXtraction by SONication
+category: wet
+summary: Ultrasound-based nuclei extraction (Nuclei EXtraction by SONication) that standardises ChIP-seq across cell types
+  and down to about 10,000 cells.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1093/nar/gkv1495
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Arrigoni L
+  last_author: Bönisch U
+  pmid: '26704968'
+  pmcid: PMC4838356
+  title: 'Standardizing chromatin research: a simple and universal method for ChIP-seq'
+links: {}
+added: '2026-11-14'
+evidence: 'We established an ultrasound-based nuclei extraction method (NEXSON: Nuclei EXtraction by SONication) that is highly
+  effective across various organisms, cell types and cell numbers.'

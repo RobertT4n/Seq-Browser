@@ -1,0 +1,20 @@
+name: CAM
+category: dry
+summary: Quality-control pipeline for MNase-seq data giving QC measures and nucleosome organization profiles.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+evidence: Here we developed CAM, which is a comprehensive QC pipeline for MNase-seq data.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1371/journal.pone.0182771
+  year: 2017
+  journal: PLoS One
+  first_author: Hu S
+  last_author: Zhang Y
+  pmid: '28787030'
+  pmcid: PMC5546596
+  title: 'CAM: A quality control pipeline for MNase-seq data'

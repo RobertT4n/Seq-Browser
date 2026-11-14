@@ -1,0 +1,28 @@
+name: CapStarr-seq
+category: wet
+summary: Couples capture of chosen genomic regions to STARR-seq to measure enhancer activity quantitatively at selected loci
+  in mammalian cells.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- reporter-assay
+species:
+- mouse
+chemistry:
+- oligo-capture
+builds_on:
+- starr-seq
+reference:
+  doi: 10.1038/ncomms7905
+  year: 2015
+  journal: Nat Commun
+  first_author: Vanhille L
+  last_author: Spicuglia S
+  pmid: '25872643'
+  title: High-throughput and quantitative assessment of enhancer activity in mammals by CapStarr-seq
+links: {}
+added: '2026-11-14'
+evidence: Here we develop CapStarr-Seq, a novel high-throughput strategy to quantitatively assess enhancer activity in mammals.

@@ -1,0 +1,23 @@
+name: ROP
+full_name: Read Origin Protocol
+category: dry
+summary: Tool that assigns the source (human, repeats, circRNA, microbial, immune receptors) of reads in RNA-seq, including
+  normally unmapped reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-018-1403-7
+  year: 2018
+  journal: Genome Biol
+  first_author: Mangul S
+  last_author: Zaitlen N
+  pmid: '29548336'
+  pmcid: PMC5857127
+  title: 'ROP: dumpster diving in RNA-sequencing to find the source of 1 trillion reads across diverse adult human tissues'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Read Origin Protocol (ROP), a tool for discovering the source of all reads originating from complex
+  RNA molecules.

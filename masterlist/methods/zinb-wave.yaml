@@ -1,0 +1,22 @@
+name: ZINB-WaVE
+category: dry
+summary: Zero-inflated negative binomial model giving low-dimensional scRNA-seq representations that account for dropouts
+  and batch effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-017-02554-5
+  year: 2018
+  journal: Nat Commun
+  first_author: Risso D
+  last_author: Vert JP
+  pmid: '29348443'
+  pmcid: PMC5773593
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a general and flexible zero-inflated negative binomial model (ZINB-WaVE), which leads to low-dimensional
+  representations of the data that account for zero inflation (dropouts), over-dispersion, and the count nature of the data.

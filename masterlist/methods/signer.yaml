@@ -1,0 +1,21 @@
+name: signeR
+category: dry
+summary: Empirical Bayesian treatment of non-negative matrix factorisation that estimates mutational signatures and chooses
+  the number of signatures by model selection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw572
+  year: 2017
+  journal: Bioinformatics
+  first_author: Rosales RA
+  last_author: da Silva IT
+  pmid: '27591080'
+  title: 'signeR: an empirical Bayesian approach to mutational signature discovery'
+links: {}
+added: '2026-11-14'
+evidence: Here we present a new method for the statistical estimation of mutational signatures based on an empirical Bayesian
+  treatment of the NMF model.

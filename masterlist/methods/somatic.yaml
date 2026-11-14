@@ -1,0 +1,22 @@
+name: SOMatic
+category: dry
+summary: Package that builds chromatin and expression self-organizing maps from scATAC-seq and scRNA-seq and links them to
+  draft regulatory networks.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1006555
+  year: 2019
+  journal: PLoS Comput Biol
+  first_author: Jansen C
+  last_author: Mortazavi A
+  pmid: '31682608'
+  pmcid: PMC6855564
+  title: Building gene regulatory networks from scATAC-seq and scRNA-seq using Linked Self Organizing Maps
+links: {}
+added: '2026-11-14'
+evidence: Our SOMatic package generates chromatin and gene expression SOMs separately and combines them using a linking function.

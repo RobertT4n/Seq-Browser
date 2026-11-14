@@ -1,0 +1,30 @@
+name: ALaP-seq
+full_name: APEX-mediated chromatin labeling and purification sequencing
+category: wet
+summary: APEX-mediated biotin labelling and purification of chromatin next to PML bodies maps which genomic regions sit near
+  the body.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- mouse
+chemistry_unknown: APEX biotin labelling / streptavidin purification has no chemistry tag in taxonomy
+builds_on:
+- apex-seq
+reference:
+  doi: 10.1016/j.molcel.2020.04.004
+  year: 2020
+  journal: Mol Cell
+  first_author: Kurihara M
+  last_author: Miyanari Y
+  pmid: '32353257'
+  title: Genomic Profiling by ALaP-Seq Reveals Transcriptional Regulation by PML Bodies through DNMT3A Exclusion
+links: {}
+added: '2026-11-14'
+evidence: We developed APEX-mediated chromatin labeling and purification (ALaP) to identify the genomic regions proximal to
+  PML bodies.

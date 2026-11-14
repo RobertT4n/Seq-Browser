@@ -1,0 +1,24 @@
+name: TIPS
+full_name: Trajectory inference of pathway significance
+category: dry
+summary: 'Trajectory inference of pathway significance: scores which pathways and genes drive a scRNA-seq trajectory and when
+  they change along pseudotime.'
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab124
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Zheng Z
+  last_author: Ni Q
+  pmid: '34370020'
+  pmcid: PMC8425418
+  title: 'TIPS: trajectory inference of pathway significance through pseudotime comparison for functional assessment of single-cell
+    RNAseq data'
+links: {}
+added: '2026-11-14'
+evidence: we present a simplified approach for trajectory inference of pathway significance (TIPS) that leverages existing
+  knowledgebases of functional pathways and other gene lists to provide further mechanistic insights into a biological process.

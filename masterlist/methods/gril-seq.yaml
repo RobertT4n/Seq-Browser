@@ -1,0 +1,30 @@
+name: GRIL-seq
+full_name: Global small non-coding RNA target identification by ligation and sequencing
+category: wet
+summary: T4 RNA ligase expressed in bacteria ligates sRNAs to the ends of base-paired target transcripts in vivo, and sequencing
+  the chimaeras identifies direct sRNA targets.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/nmicrobiol.2016.239
+  year: 2016
+  journal: Nat Microbiol
+  first_author: Han K
+  last_author: Lory S
+  pmid: '28005055'
+  pmcid: PMC5567838
+  title: GRIL-seq provides a method for identifying direct targets of bacterial small regulatory RNA by in vivo proximity
+    ligation
+links: {}
+added: '2026-11-14'
+evidence: The technique, referred to as global small non-coding RNA target identification by ligation and sequencing (GRIL-seq),
+  is based on preferential ligation of sRNAs to the ends of base-paired targets in bacteria co-expressing T4 RNA ligase, followed
+  by sequencing to identify the chimaeras.

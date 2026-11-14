@@ -1,0 +1,22 @@
+name: DISMISS
+category: dry
+summary: Software that infers strand-specific (asymmetric versus symmetric) DNA methylation from existing MeDIP-seq data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1158-7
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Niazi U
+  last_author: Swain MT
+  pmid: '27473283'
+  pmcid: PMC4966778
+  title: 'DISMISS: detection of stranded methylation in MeDIP-Seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce DISMISS, a new software package that detects strand-associated DNA methylation from existing MeDIP-Seq
+  analyses.

@@ -1,0 +1,23 @@
+name: IntMTQ
+full_name: platform-integrated model for transcript quantification
+category: dry
+summary: Model that improves RNA-seq isoform quantification by integrating mRNA expression measured on other platforms such
+  as NanoString.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz932
+  year: 2020
+  journal: Bioinformatics
+  first_author: Sun J
+  last_author: Zhang W
+  pmid: '31834359'
+  pmcid: PMC7178424
+  title: Platform-integrated mRNA isoform quantification
+links: {}
+added: '2026-11-14'
+evidence: In this project, we developed a platform-integrated model for transcript quantification (IntMTQ) to improve the
+  performance of RNA-Seq on isoform expression estimation.

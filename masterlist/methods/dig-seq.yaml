@@ -1,0 +1,29 @@
+name: DIG-seq
+full_name: Digenome-seq using chromatin DNA
+category: wet
+summary: Digenome-seq run on cell-free chromatin DNA, compared with histone-free DNA, to profile Cas9 off-target cleavage
+  in a chromatin context.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+chemistry:
+- adapter-ligation
+variant_of:
+- digenome-seq
+reference:
+  doi: 10.1101/gr.236620.118
+  year: 2018
+  journal: Genome Res
+  first_author: Kim D
+  last_author: Kim JS
+  pmid: '30413470'
+  pmcid: PMC6280750
+  title: 'DIG-seq: a genome-wide CRISPR off-target profiling method using chromatin DNA'
+links: {}
+added: '2026-11-14'
+evidence: We next performed Digenome-seq using cell-free chromatin DNA (now termed DIG-seq) and histone-free genomic DNA in
+  parallel and found that only a subset of sites, cleaved in histone-free DNA, were cut in chromatin DNA.

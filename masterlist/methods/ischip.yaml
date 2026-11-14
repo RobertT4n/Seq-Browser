@@ -1,0 +1,20 @@
+name: isChIP
+category: dry
+summary: ChIP-seq simulation program that generates synthetic reads from an a-priori known binding template.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa352
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Subkhankulova T
+  last_author: Orlov YL
+  pmid: '33320934'
+  title: 'Novel ChIP-seq simulating program with superior versatility: isChIP'
+links: {}
+added: '2026-11-14'
+evidence: Computer simulation of the ChIP-seq process based on 'a-priory known binding template' can contribute to a drastically
+  reduce the number of wet lab experiments

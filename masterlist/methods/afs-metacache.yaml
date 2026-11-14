@@ -1,0 +1,23 @@
+name: AFS-MetaCache
+full_name: All-Food-Sequencing MetaCache
+category: dry
+summary: Alignment-free k-mer method (with a Spark version, MetaCacheSpark) for detecting and quantifying species composition
+  in shotgun metagenomic food samples.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3429-6
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Kobus R
+  last_author: Schmidt B
+  pmid: '32164527'
+  pmcid: PMC7069206
+  title: A big data approach to metagenomics for all-food-sequencing
+links: {}
+added: '2026-11-14'
+evidence: We introduce an alignment-free k-mer based method for detection and quantification of species composition in food
+  and other complex biological matters.

@@ -1,0 +1,26 @@
+name: IMPLICON
+category: wet
+summary: High-throughput bisulfite amplicon method measuring DNA methylation at imprinting control regions with base-level
+  resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1093/nar/gkaa567
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Klobučar T
+  last_author: Eckersley-Maslin M
+  pmid: '32621604'
+  pmcid: PMC7498334
+  title: 'IMPLICON: an ultra-deep sequencing method to uncover DNA methylation at imprinted regions'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present IMPLICON, a high-throughput method measuring DNA methylation levels at imprinted regions with base-pair
+  resolution and over 1000-fold coverage.

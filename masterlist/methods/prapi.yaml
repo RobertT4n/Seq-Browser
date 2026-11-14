@@ -1,0 +1,26 @@
+name: PRAPI
+full_name: post-transcriptional regulation analysis pipeline for Iso-Seq
+category: dry
+summary: One-stop pipeline for Iso-Seq data analysing alternative initiation, splicing, polyadenylation, antisense transcripts
+  and circRNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btx830
+  year: 2018
+  journal: Bioinformatics
+  first_author: Gao Y
+  last_author: Gu L
+  pmid: '29280994'
+  title: 'PRAPI: post-transcriptional regulation analysis pipeline for Iso-Seq'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a one-stop solution for Iso-Seq analysis, called PRAPI to analyze alternative transcription initiation
+  (ATI), alternative splicing (AS), alternative cleavage and polyadenylation (APA), natural antisense transcripts (NAT), and
+  circular RNAs (circRNAs) comprehensively.

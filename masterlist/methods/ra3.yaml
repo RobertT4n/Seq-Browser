@@ -1,0 +1,22 @@
+name: RA3
+full_name: Reference-guided Approach for the Analysis of single-cell chromatin Accessibility data
+category: dry
+summary: Reference-guided model for single-cell chromatin accessibility data using bulk and annotated scCAS references.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-22495-4
+  year: 2021
+  journal: Nat Commun
+  first_author: Chen S
+  last_author: Lin Z
+  pmid: '33846355'
+  pmcid: PMC8041798
+  title: RA3 is a reference-guided approach for epigenetic characterization of single cells
+links: {}
+added: '2026-11-14'
+evidence: Here, we present RA3 (Reference-guided Approach for the Analysis of single-cell chromatin Accessibility data), which
+  utilizes the information in massive existing bulk chromatin accessibility and annotated scCAS data.

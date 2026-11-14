@@ -1,0 +1,22 @@
+name: ClusterTAD
+category: dry
+summary: Unsupervised clustering method that detects topologically associated domains from Hi-C contact data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+evidence: Here, we formulate the TAD identification problem as an unsupervised machine learning (clustering) problem, and
+  develop a new TAD identification method called ClusterTAD.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1186/s12859-017-1931-2
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Oluwadare O
+  last_author: Cheng J
+  pmid: '29137603'
+  pmcid: PMC5686814
+  title: 'ClusterTAD: an unsupervised machine learning approach to detecting topologically associated domains of chromosomes
+    from Hi-C data'

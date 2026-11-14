@@ -1,0 +1,25 @@
+name: HetMappS
+full_name: Heterozygous Mapping Strategy
+category: dry
+summary: Modular pipeline that builds high-resolution genetic maps from genotyping-by-sequencing markers in highly heterozygous
+  species, correcting heterozygote undercalling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1371/journal.pone.0134880
+  year: 2015
+  journal: PLoS One
+  first_author: Hyma KE
+  last_author: Cadle-Davidson L
+  pmid: '26244767'
+  pmcid: PMC4526651
+  title: 'Heterozygous Mapping Strategy (HetMappS) for High Resolution Genotyping-By-Sequencing Markers: A Case Study in Grapevine'
+links: {}
+added: '2026-11-14'
+evidence: To overcome these issues, we developed a publicly available, modular approach called HetMappS, which functions independently
+  of parental genotypes and corrects for genotyping errors associated with heterozygosity.

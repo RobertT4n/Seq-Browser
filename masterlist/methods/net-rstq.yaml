@@ -1,0 +1,23 @@
+name: Net-RSTQ
+full_name: Network-based method for RNA-Seq-based Transcript Quantification
+category: dry
+summary: RNA-seq isoform quantification that uses a protein domain-domain interaction network as Dirichlet priors on neighbouring
+  isoform abundances.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004465
+  year: 2015
+  journal: PLoS Comput Biol
+  first_author: Zhang W
+  last_author: Kuang R
+  pmid: '26699225'
+  pmcid: PMC4689380
+  title: Network-Based Isoform Quantification with RNA-Seq Data for Cancer Transcriptome Analysis
+links: {}
+added: '2026-11-14'
+evidence: We introduce a Network-based method for RNA-Seq-based Transcript Quantification (Net-RSTQ) to integrate protein
+  domain-domain interaction network with short read alignments for transcript abundance estimation.

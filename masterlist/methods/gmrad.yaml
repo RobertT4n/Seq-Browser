@@ -1,0 +1,21 @@
+name: gmRAD
+category: dry
+summary: De novo SNP genotype calling pipeline for RADseq data from a two-parent genetic mapping population, producing data
+  for linkage mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bby114
+  year: 2020
+  journal: Brief Bioinform
+  first_author: Yao D
+  last_author: Tong C
+  pmid: '30445432'
+  title: 'gmRAD: an integrated SNP calling pipeline for genetic mapping with RADseq across a hybrid population'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present an integrated pipeline called gmRAD for generating single nucleotide polymorphism (SNP) genotypes
+  from RADseq data, de novo, across a genetic mapping population derived by crossing two parents.

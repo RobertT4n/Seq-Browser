@@ -1,0 +1,21 @@
+name: Fast-GBS
+category: dry
+summary: Genotyping-by-sequencing bioinformatics pipeline that calls SNPs, MNPs and indels with modest computing resources.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1431-9
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Torkamaneh D
+  last_author: Belzile F
+  pmid: '28049422'
+  pmcid: PMC5210301
+  title: 'Fast-GBS: a new pipeline for the efficient and highly accurate calling of SNPs from genotyping-by-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: Herein we describe a new GBS bioinformatics pipeline, Fast-GBS, designed to provide highly accurate genotyping,
+  to require modest computing resources and to offer ease of use.

@@ -1,0 +1,26 @@
+name: SPAAC-NAD-seq
+full_name: strain-promoted azide-alkyne cycloaddition NAD-capped RNA sequencing
+category: wet
+summary: Copper-free click chemistry capture and sequencing of NAD+-capped transcripts, preserving full-length RNA.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2025595118
+  year: 2021
+  journal: Proc Natl Acad Sci U S A
+  first_author: Hu H
+  last_author: Chen X
+  pmid: '33753511'
+  pmcid: PMC8020637
+  title: SPAAC-NAD-seq, a sensitive and accurate method to profile NAD<sup>+</sup>-capped transcripts
+links: {}
+added: '2026-11-14'
+evidence: We developed an NAD-RNA capture scheme utilizing the copper-free, strain-promoted azide-alkyne cycloaddition reaction
+  (SPAAC).

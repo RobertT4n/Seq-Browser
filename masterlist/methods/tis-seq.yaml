@@ -1,0 +1,27 @@
+name: TIS-Seq
+full_name: Transposon Insertion Site Sequencing
+category: wet
+summary: Sequencing method that identifies PiggyBac transposon insertion sites and relative mutant abundances in a mutant
+  pool.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not describe the library chemistry
+perturbation:
+- transposon-insertion
+evidence: Here, we present the method for transposon insertion site sequencing (TIS-Seq) for high-throughput identification
+  of TIS in transposon mutants.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1002/cpmb.47
+  year: 2017
+  journal: Curr Protoc Mol Biol
+  first_author: Veeranagouda Y
+  last_author: Didier M
+  pmid: '28967994'
+  title: 'Transposon Insertion Site Sequencing (TIS-Seq): An Efficient and High-Throughput Method for Determining Transposon
+    Insertion Site(s) and Their Relative Abundances in a PiggyBac Transposon Mutant Pool by Next-Generation Sequencing'

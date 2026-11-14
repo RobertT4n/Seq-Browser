@@ -1,0 +1,32 @@
+name: NanoAmpli-Seq
+category: wet
+summary: Full-length 16S rRNA amplicon workflow on nanopore that adds consensus-read processing (chopSeq, nanoClust) for accurate
+  profiling of mixed microbial communities.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- microbe
+reference:
+  doi: 10.1093/gigascience/giy140
+  year: 2018
+  journal: Gigascience
+  first_author: Calus ST
+  last_author: Pinto AJ
+  pmid: '30476081'
+  pmcid: PMC6298384
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we introduce an amplicon sequencing workflow, i.e., NanoAmpli-Seq, that builds on the intramolecular-ligated
+  nanopore consensus sequencing (INC-Seq) approach

@@ -1,0 +1,24 @@
+name: EQP
+full_name: exon quantification pipeline
+category: dry
+summary: Alignment and counting pipeline estimating gene, exon and exon-exon junction expression from reads consistent with
+  the splicing pattern.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw538
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Schuierer S
+  last_author: Roma G
+  pmid: '27302131'
+  pmcid: PMC5027495
+  title: 'The exon quantification pipeline (EQP): a comprehensive approach to the quantification of gene, exon and junction
+    expression from RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We present an integrated alignment workflow and a simple counting-based approach to derive estimates for gene, exon
+  and exon-exon junction expression.

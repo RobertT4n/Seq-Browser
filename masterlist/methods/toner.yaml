@@ -1,0 +1,23 @@
+name: ToNER
+full_name: Transformation of Nucleotide Enrichment Ratios
+category: dry
+summary: Statistical tool that models enrichment between enriched and unenriched RNA-seq libraries to call RNA 5' end sites
+  (Cappable-seq, dRNA-seq).
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0178483
+  year: 2017
+  journal: PLoS One
+  first_author: Promworn Y
+  last_author: Piriyapongsa J
+  pmid: '28542466'
+  pmcid: PMC5444824
+  title: 'ToNER: A tool for identifying nucleotide enrichment signals in feature-enriched RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We present Transformation of Nucleotide Enrichment Ratios (ToNER), a tool for statistical modeling of enrichment
+  from RNA-seq data obtained from enriched and unenriched libraries.

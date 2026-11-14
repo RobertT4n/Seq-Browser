@@ -1,0 +1,23 @@
+name: RDI
+full_name: Repertoire Dissimilarity Index
+category: dry
+summary: Non-parametric bootstrapped method that quantifies differences in V, D and J gene segment usage between lymphocyte
+  receptor repertoires.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1556-5
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Bolen CR
+  last_author: Davis MM
+  pmid: '28264647'
+  pmcid: PMC5340033
+  title: The Repertoire Dissimilarity Index as a method to compare lymphocyte receptor repertoires
+links: {}
+added: '2026-11-14'
+evidence: This method, referred to as the Repertoire Dissimilarity Index (RDI), uses a bootstrapped subsampling approach to
+  account for variance in sequencing depth.

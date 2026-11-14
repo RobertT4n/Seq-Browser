@@ -1,0 +1,26 @@
+name: Biological chromodynamics
+category: wet
+summary: Calibrated ChIP-seq that spikes defined numbers of Candida glabrata cells into S. cerevisiae samples to measure absolute
+  protein occupancy.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkv670
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Hu B
+  last_author: Nasmyth K
+  pmid: '26130708'
+  pmcid: PMC4787748
+  title: 'Biological chromodynamics: a general method for measuring protein occupancy across the genome by calibrating ChIP-seq'
+links: {}
+added: '2026-11-14'
+evidence: To do this, we tagged with the same epitope orthologous proteins in Saccharomyces cerevisiae and Candida glabrata,
+  whose sequences have diverged to a degree that most DNA fragments longer than 50 bp are unique to just one species.

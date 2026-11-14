@@ -1,0 +1,24 @@
+name: Extru-seq
+category: wet
+summary: Genome-wide Cas9 off-target site prediction that keeps cell-based chromatin context while allowing in vitro-style
+  cleavage.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: abstract does not state how cells are extruded or how cleaved sites are captured
+reference:
+  doi: 10.1186/s13059-022-02842-4
+  year: 2023
+  journal: Genome Biol
+  first_author: Kwon J
+  last_author: Lee JK
+  pmid: '36627653'
+  pmcid: PMC9832775
+  title: 'Extru-seq: a method for predicting genome-wide Cas9 off-target sites with advantages of both cell-based and in vitro
+    approaches'
+links: {}
+added: '2026-11-14'
+evidence: We present a novel genome-wide off-target prediction method named Extru-seq and compare it with cell-based (GUIDE-seq),
+  in vitro (Digenome-seq), and in silico methods using promiscuous guide RNAs with large numbers of valid off-target sites.

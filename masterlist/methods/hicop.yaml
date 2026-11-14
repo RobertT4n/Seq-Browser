@@ -1,0 +1,26 @@
+name: HiCoP
+full_name: Hi-C of Column Purified chromatin
+category: wet
+summary: Open chromatin is enriched by column-purifying crosslinked fragmented chromatin (CoP-seq) and combined with Hi-C
+  to map interactions of accessible regulatory regions.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+reference:
+  doi: 10.1186/s13072-020-00348-6
+  year: 2020
+  journal: Epigenetics Chromatin
+  first_author: Zhang Y
+  last_author: Hao B
+  pmid: '32611439'
+  pmcid: PMC7329539
+  title: HiCoP, a simple and robust method for detecting interactions of regulatory regions
+links: {}
+added: '2026-11-14'
+evidence: We integrated the CoP-seq and Hi-C technique (HiCoP) to detect interactions of accessible chromatin regions, which
+  represent active cis-regulatory elements in cells.

@@ -1,0 +1,28 @@
+name: quaddRAD
+full_name: quaddRAD (quadruple-indexed double-digest RAD)
+category: wet
+summary: Double-digest RAD-seq protocol with additional barcodes and random bases that identify PCR duplicates and allow large-scale
+  multiplexing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- adapter-ligation
+species:
+- other-vertebrate
+reference:
+  doi: 10.1111/mec.14077
+  year: 2017
+  journal: Mol Ecol
+  first_author: Franchini P
+  last_author: Meyer A
+  pmid: '28247584'
+  title: 'quaddRAD: a new high-multiplexing and PCR duplicate removal ddRAD protocol produces novel evolutionary insights
+    in a nonradiating cichlid lineage'
+links: {}
+added: '2026-11-14'
+evidence: We developed a new, more time- and cost-efficient double-digest RAD paired-end protocol (quaddRAD) that simplifies
+  and speeds up the identification of PCR duplicates and permits large-scale multiplexing.

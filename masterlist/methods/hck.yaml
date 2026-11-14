@@ -1,0 +1,24 @@
+name: HCK
+full_name: Hierarchical Clustering with Kraken
+category: dry
+summary: Classifier for fungal ITS1 amplicons from metabarcoding data that combines hierarchical clustering with Kraken.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+shared_doi: HCK and ABAA are two components described in the same paper
+reference:
+  doi: 10.3389/fmicb.2021.640693
+  year: 2021
+  journal: Front Microbiol
+  first_author: Mlaga KD
+  last_author: Droit A
+  pmid: '34025601'
+  pmcid: PMC8134036
+  title: 'HCK and ABAA: A Newly Designed Pipeline to Improve Fungi Metabarcoding Analysis'
+links: {}
+added: '2026-11-14'
+evidence: we present a novel approach, Hierarchical Clustering with Kraken (HCK), to classify ITS1 amplicons

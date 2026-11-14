@@ -1,0 +1,27 @@
+name: DRUG-seq
+full_name: Digital RNA with pertUrbation of Genes
+category: wet
+summary: Miniaturised multiplexed RNA-seq in plate wells that profiles compound-induced transcriptome changes at about 1/100th
+  the library cost.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- chemical-perturbation
+chemistry:
+- plate-based
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-018-06500-x
+  year: 2018
+  journal: Nat Commun
+  first_author: Ye C
+  last_author: Kaykas A
+  pmid: '30333485'
+  pmcid: PMC6192987
+  title: DRUG-seq for miniaturized high-throughput transcriptome profiling in drug discovery
+links: {}
+added: '2026-11-14'
+evidence: DRUG-seq captures transcriptional changes detected in standard RNA-seq at 1/100th the cost.

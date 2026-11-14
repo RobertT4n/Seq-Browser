@@ -1,0 +1,23 @@
+name: GB-eaSy
+category: dry
+summary: Automated, parallelised genotyping-by-sequencing workflow built from standard genomics tools for SNP calling on low-coverage
+  polyploid crop data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-2000-6
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Wickland DP
+  last_author: Hudson ME
+  pmid: '29281959'
+  pmcid: PMC5745977
+  title: A comparison of genotyping-by-sequencing analysis methods on low-coverage crop datasets shows advantages of a new
+    workflow, GB-eaSy
+links: {}
+added: '2026-11-14'
+evidence: To address issues identified with existing methods, we developed GB-eaSy, a GBS bioinformatics workflow that incorporates
+  widely used genomics tools, parallelization and automation to increase the accuracy and accessibility of GBS data analysis.

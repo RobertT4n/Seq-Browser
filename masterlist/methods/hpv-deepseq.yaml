@@ -1,0 +1,23 @@
+name: HPV DeepSeq
+category: dry
+summary: Automated CLC Genomics Workbench workflows with a customised papillomavirus reference database for taxonomic profiling
+  and visualisation of HPV virome NGS data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/pathogens10081026
+  year: 2021
+  journal: Pathogens
+  first_author: Shen-Gunther J
+  last_author: Wang Y
+  pmid: '34451490'
+  pmcid: PMC8398645
+  title: 'HPV DeepSeq: An Ultra-Fast Method of NGS Data Analysis and Visualization Using Automated Workflows and a Customized
+    Papillomavirus Database in CLC Genomics Workbench'
+links: {}
+added: '2026-11-14'
+evidence: we developed and tested automated workflows for HPV taxonomic profiling and visualization using a customized papillomavirus
+  database in the CLC Microbial Genomics Module.

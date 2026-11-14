@@ -1,0 +1,22 @@
+name: dropEst
+category: dry
+summary: Flexible pipeline for estimating molecular counts from droplet-based scRNA-seq data, with barcode, UMI and quality-control
+  handling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-018-1449-6
+  year: 2018
+  journal: Genome Biol
+  first_author: Petukhov V
+  last_author: Kharchenko PV
+  pmid: '29921301'
+  pmcid: PMC6010209
+  title: 'dropEst: pipeline for accurate estimation of molecular counts in droplet-based single-cell RNA-seq experiments'
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe a flexible pipeline for processing droplet-based transcriptome data that implements barcode corrections,
+  classification of cell quality, and diagnostic information about the droplet libraries.

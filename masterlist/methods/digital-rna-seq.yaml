@@ -1,0 +1,26 @@
+name: digital-RNA-seq
+full_name: digital microfluidics-based single-cell RNA sequencing
+category: wet
+summary: Automated single-cell RNA-seq on a digital microfluidics chip where passive dispensing creates single-cell subdroplets
+  and nanoliter reactions are run in oil.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+  tag in taxonomy.yaml (not droplet-microfluidics in the Drop-seq sense)
+reference:
+  doi: 10.1021/acs.analchem.0c01613
+  year: 2020
+  journal: Anal Chem
+  first_author: Xu X
+  last_author: Yang C
+  pmid: '32425041'
+  title: A Highly Sensitive, Accurate, and Automated Single-Cell RNA Sequencing Platform with Digital Microfluidics
+links: {}
+added: '2026-11-14'
+evidence: Here we report a digital microfluidics-based single-cell RNA sequencing (digital-RNA-seq) for simple, efficient,
+  and low-cost single-cell mRNA measurements.

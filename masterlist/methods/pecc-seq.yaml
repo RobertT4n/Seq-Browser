@@ -1,0 +1,27 @@
+name: PECC-Seq
+full_name: Paired-End and Complementary Consensus Sequencing
+category: wet
+summary: PCR-free duplex consensus sequencing that uses shear points as endogenous barcodes to correct errors and detect ultra-rare
+  genome-wide mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1007/s00204-020-02832-0
+  year: 2020
+  journal: Arch Toxicol
+  first_author: You X
+  last_author: Suzuki T
+  pmid: '32737516'
+  title: Detection of genome-wide low-frequency mutations with Paired-End and Complementary Consensus Sequencing (PECC-Seq)
+    revealed end-repair-derived artifacts as residual errors
+links: {}
+added: '2026-11-14'
+evidence: we developed the Paired-End and Complementary Consensus Sequencing (PECC-Seq), a PCR-free duplex consensus sequencing
+  approach.

@@ -1,0 +1,22 @@
+name: IDseq
+category: dry
+summary: Open-source cloud pipeline and web service for metagenomic pathogen detection that filters host reads, assembles,
+  and assigns reads and contigs to taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaa111
+  year: 2020
+  journal: Gigascience
+  first_author: Kalantar KL
+  last_author: DeRisi JL
+  pmid: '33057676'
+  pmcid: PMC7566497
+  title: IDseq-An open source cloud-based pipeline and analysis service for metagenomic pathogen detection and monitoring
+links: {}
+added: '2026-11-14'
+evidence: We present IDseq, an open source cloud-based metagenomics pipeline and service for global pathogen detection and
+  monitoring (https://idseq.net).

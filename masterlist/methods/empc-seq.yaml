@@ -1,0 +1,27 @@
+name: EmPC-seq
+full_name: background error model-coupled precision nuclear run-on circular-sequencing
+category: wet
+summary: Nuclear run-on capture of nascent RNA, circular sequencing for error correction and a background error model to find
+  loci with elevated transcription errors.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+chemistry_unknown: nuclear run-on and circular-sequencing steps have no matching chemistry tag; abstract does not name the
+  labelling chemistry
+reference:
+  doi: 10.1016/j.jmb.2020.04.011
+  year: 2020
+  journal: J Mol Biol
+  first_author: Cheung PP
+  last_author: Huang X
+  pmid: '32325070'
+  title: Identifying Transcription Error-Enriched Genomic Loci Using Nuclear Run-on Circular-Sequencing Coupled with Background
+    Error Modeling
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe background error model-coupled precision nuclear run-on circular-sequencing (EmPC-seq) to discern
+  genomic regions enriched for transcription misincorporations.

@@ -1,0 +1,21 @@
+name: STRsearch
+category: dry
+summary: End-to-end pipeline for targeted short-tandem-repeat genotyping from massively parallel sequencing data, translating
+  results into standard STR nomenclature.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s41065-020-00120-6
+  year: 2020
+  journal: Hereditas
+  first_author: Wang D
+  last_author: Shi Y
+  pmid: '32172688'
+  pmcid: PMC7075041
+  title: 'STRsearch: a new pipeline for targeted profiling of short tandem repeats in massively parallel sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we developed a new end-to-end pipeline called STRsearch for STR-MPS data analysis.

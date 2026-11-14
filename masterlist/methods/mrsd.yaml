@@ -1,0 +1,24 @@
+name: MRSD
+full_name: minimum required sequencing depth
+category: dry
+summary: Gene- and tissue-specific metric estimating the RNA-seq depth needed to reach a chosen coverage of a gene, to judge
+  feasibility of detecting mis-splicing in Mendelian disease.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2021.12.014
+  year: 2022
+  journal: Am J Hum Genet
+  first_author: Rowlands CF
+  last_author: Ellingford JM
+  pmid: '35065709'
+  pmcid: PMC8874219
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian
+    disease'
+links: {}
+added: '2026-11-14'
+evidence: We have derived a metric, minimum required sequencing depth (MRSD), that estimates the depth of sequencing required
+  from RNA sequencing to achieve user-specified sequencing coverage of a gene, transcript, or group of genes.

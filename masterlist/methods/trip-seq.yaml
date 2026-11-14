@@ -1,0 +1,28 @@
+name: tRIP-seq
+full_name: targeted RNA immunoprecipitation sequencing
+category: wet
+summary: RNA immunoprecipitation sequencing that maps protein-RNA interaction sites (e.g. FUS on RNAPII-bound nascent RNA)
+  from thousands of cells.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.15252/embr.201949890
+  year: 2020
+  journal: EMBO Rep
+  first_author: Masuda A
+  last_author: Ohno K
+  pmid: '32189459'
+  pmcid: PMC7202220
+  title: tRIP-seq reveals repression of premature polyadenylation by co-transcriptional FUS-U1 snRNP assembly
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop the targeted RNA immunoprecipitation sequencing (tRIP-seq) method that detects protein-RNA interaction
+  sites in thousands of cells.

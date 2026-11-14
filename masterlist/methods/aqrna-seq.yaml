@@ -1,0 +1,29 @@
+name: AQRNA-seq
+full_name: absolute quantification RNA-sequencing
+category: wet
+summary: Small-RNA library prep minimising capture, ligation and amplification biases so read count tracks copy number.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- microbe
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1038/s41587-021-00874-y
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Hu JF
+  last_author: Cao B
+  pmid: '33859402'
+  pmcid: PMC8355021
+  title: Quantitative mapping of the cellular small RNA landscape with AQRNA-seq
+links: {}
+added: '2026-11-14'
+evidence: We present a method, absolute quantification RNA-sequencing (AQRNA-seq), that minimizes biases and provides a direct,
+  linear correlation between sequencing read count and copy number for all small RNAs in a sample.

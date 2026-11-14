@@ -1,0 +1,30 @@
+name: MAESTER
+category: wet
+summary: Mitochondrial-transcriptome enrichment added to standard 3-prime scRNA-seq libraries raises mtDNA coverage over 50-fold
+  so lineage-informative variants can be called per cell.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+validated_system:
+- primary-cells
+species:
+- human
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41587-022-01210-8
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Miller TE
+  last_author: van Galen P
+  pmid: '35210612'
+  pmcid: PMC9288977
+  title: Mitochondrial variant enrichment from high-throughput single-cell RNA sequencing resolves clonal populations
+links: {}
+added: '2026-11-14'
+evidence: Here, we combine common 3' single-cell RNA-sequencing protocols with mitochondrial transcriptome enrichment to increase
+  coverage by more than 50-fold, enabling high-confidence mutation detection.

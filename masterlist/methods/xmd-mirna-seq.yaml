@@ -1,0 +1,30 @@
+name: xMD-miRNA-seq
+full_name: expression microdissection miRNA small RNA sequencing
+category: wet
+summary: Expression microdissection of specific cell types from FFPE tissue followed by low-input small RNA-seq to estimate
+  in vivo miRNA expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- ffpe-archival
+- low-input
+species:
+- human
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-018-28198-z
+  year: 2018
+  journal: Sci Rep
+  first_author: Rosenberg AZ
+  last_author: Halushka MK
+  pmid: '29955168'
+  pmcid: PMC6023933
+  title: xMD-miRNA-seq to generate near in vivo miRNA expression estimates in colon epithelial cells
+links: {}
+added: '2026-11-14'
+evidence: We introduce expression microdissection miRNA small RNA sequencing (xMD-miRNA-seq), a method to isolate cells directly
+  from formalin fixed paraffin-embedded (FFPE) tissues.

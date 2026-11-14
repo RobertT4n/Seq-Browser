@@ -1,0 +1,23 @@
+name: Phenoxome
+category: dry
+summary: Phenotype-driven network model that filters and prioritises variants in clinical exomes for diagnosis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+reference:
+  doi: 10.1038/s41431-018-0328-7
+  year: 2019
+  journal: Eur J Hum Genet
+  first_author: Wu C
+  last_author: Sarmady M
+  pmid: '30626929'
+  pmcid: PMC6460638
+  title: 'Rapid and accurate interpretation of clinical exomes using Phenoxome: a computational phenotype-driven approach'
+links: {}
+added: '2026-11-14'
+evidence: we developed Phenoxome, a robust phenotype-driven model that adopts a network-based approach to facilitate automated
+  variant prioritization.

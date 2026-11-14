@@ -1,0 +1,27 @@
+name: BrAD-seq
+full_name: Breath Adapter Directional sequencing
+category: wet
+summary: Strand-specific mRNA-seq library prep that ligates adapters to the terminal breathing of double-stranded cDNA ends,
+  giving a fast, simple directional protocol.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.3389/fpls.2015.00366
+  year: 2015
+  journal: Front Plant Sci
+  first_author: Townsley BT
+  last_author: Sinha NR
+  pmid: '26052336'
+  pmcid: PMC4441129
+  title: 'BrAD-seq: Breath Adapter Directional sequencing: a streamlined, ultra-simple and fast library preparation protocol
+    for strand specific mRNA library construction'
+links: {}
+added: '2026-11-14'
+evidence: Here we report a novel method for the production of strand specific RNA-seq libraries utilizing the terminal breathing
+  of double-stranded cDNA to capture and incorporate a sequencing adapter.

@@ -1,0 +1,28 @@
+name: MRASeq
+full_name: Multiplex Restriction Amplicon Sequencing
+category: wet
+summary: Genotyping platform that reduces genome complexity by PCR of amplicons flanked by restriction-site primers, then
+  barcodes them for multiplexed sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1111/pbi.13192
+  year: 2020
+  journal: Plant Biotechnol J
+  first_author: Bernardo A
+  last_author: Bai G
+  pmid: '31199572'
+  pmcid: PMC6920337
+  title: 'Multiplex restriction amplicon sequencing: a novel next-generation sequencing-based marker platform for high-throughput
+    genotyping'
+links: {}
+added: '2026-11-14'
+evidence: We developed such a technology, designated as Multiplex Restriction Amplicon Sequencing (MRASeq), which reduces
+  genome complexity by polymerase chain reaction (PCR) amplification of amplicons flanked by restriction sites.

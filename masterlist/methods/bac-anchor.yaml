@@ -1,0 +1,26 @@
+name: BAC-anchor
+category: wet
+summary: Low-cost high-throughput sequencing of BAC insert ends carrying restriction sites, mapping paired reads with large
+  internal gaps for physical mapping and assembly of polyploid genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+reference:
+  doi: 10.1111/pbi.13203
+  year: 2020
+  journal: Plant Biotechnol J
+  first_author: Yang X
+  last_author: Li G
+  pmid: '31254434'
+  pmcid: PMC6953197
+  title: A high-throughput BAC end analysis protocol (BAC-anchor) for profiling genome assembly and physical mapping
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a highly efficient and low-cost BAC end analysis protocol, named BAC-anchor, to identify paired-end
+  reads containing large internal gaps.

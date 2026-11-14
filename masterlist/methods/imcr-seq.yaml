@@ -1,0 +1,28 @@
+name: IMCR-seq
+full_name: Induro-RT mediated circRNA-sequencing
+category: wet
+summary: Circular RNA sequencing that uses rolling-circle reverse transcription by a group II intron RT, avoiding rRNA depletion
+  and RNase R.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.1093/nar/gkae465
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Unlu I
+  last_author: Sun Z
+  pmid: '38850158'
+  pmcid: PMC11260445
+  title: Induro-RT mediated circRNA-sequencing (IMCR-seq) enables comprehensive profiling of full-length and long circular
+    RNAs from low input total RNA
+links: {}
+added: '2026-11-14'
+evidence: In this context, we introduce a novel circRNA sequencing method called Induro-RT mediated circRNA-sequencing (IMCR-seq),
+  which relies on a group II intron reverse transcriptase with robust rolling circle reverse transcription activity.

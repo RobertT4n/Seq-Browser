@@ -1,0 +1,23 @@
+name: VECTORseq
+full_name: virally encoded connectivity transgenic overlay RNA sequencing
+category: wet
+summary: Retrogradely infecting viruses expressing transgenes are read as mRNA barcodes in scRNA-seq to assign projection
+  targets to neurons.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.celrep.2021.110131
+links: {}
+added: '2026-11-14'
+evidence: VECTORseq repurposes commercial retrogradely infecting viruses typically used to express functional transgenes (e.g.,
+  recombinases and fluorescent proteins) by treating viral transgene mRNA as barcodes within single-cell datasets.

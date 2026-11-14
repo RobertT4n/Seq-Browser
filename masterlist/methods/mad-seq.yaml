@@ -1,0 +1,28 @@
+name: MAD-seq
+full_name: mosaic aneuploidy detection by massively parallel sequencing
+category: wet
+summary: Capture assay that detects low-level mosaic chromosomal aneuploidy and loss of heterozygosity from targeted sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1101/gr.226282.117
+  year: 2018
+  journal: Genome Res
+  first_author: Kong Y
+  last_author: Greally JM
+  pmid: '29773658'
+  pmcid: PMC6028128
+  title: Detecting, quantifying, and discriminating the mechanism of mosaic chromosomal aneuploidies using MAD-seq
+links: {}
+added: '2026-11-14'
+shared_doi: MAD-seq (wet) and MADSEQ (dry) are two methods in one paper
+evidence: We describe the mosaic aneuploidy detection by massively parallel sequencing (MAD-seq) capture assay and the MADSEQ
+  analytical approach that allow low (<10%) levels of mosaicism for chromosomal aneuploidy or regional loss of heterozygosity
+  to be detected, assigned to a meiotic or mitotic origin, and quantified as a proportion of the cells in the sample.

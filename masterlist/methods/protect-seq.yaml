@@ -1,0 +1,26 @@
+name: Protect-seq
+category: wet
+summary: Sequencing of chromatin that resists nuclease digestion marks heterochromatin and lamina-associated domains.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+chemistry_unknown: nuclease and library chemistry not stated in abstract
+reference:
+  doi: 10.1093/nar/gkz1150
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Spracklin G
+  last_author: Pradhan S
+  pmid: '31819993'
+  pmcid: PMC7026637
+  title: 'Protect-seq: genome-wide profiling of nuclease inaccessible domains reveals physical properties of chromatin'
+links: {}
+added: '2026-11-14'
+evidence: Here we report a new method, Protect-seq, aimed at identifying regions of heterochromatin via resistance to nuclease
+  degradation followed by next-generation sequencing (NGS).

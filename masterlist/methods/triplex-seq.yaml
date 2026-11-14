@@ -1,0 +1,16 @@
+name: Triplex-seq
+category: wet
+summary: Deep-sequencing assay mapping which members of a ssDNA triplex-forming oligo library bind a given dsDNA triplex target
+  site in vitro.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry_unknown: in vitro oligo-library triplex selection; library handling and sequencing steps not stated in the abstract
+reference:
+  doi: 10.1021/acssynbio.1c00122
+links: {}
+added: '2026-11-14'
+evidence: We present Triplex-seq, a deep-sequencing method that systematically maps the interaction space between an oligo
+  library of ssDNA triplex-forming oligos (TFOs) and a particular dsDNA triplex target site (TTS).

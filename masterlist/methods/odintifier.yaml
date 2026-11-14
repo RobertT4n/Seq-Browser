@@ -1,0 +1,26 @@
+name: Odintifier
+category: dry
+summary: Haplotype-phasing method to identify organellar-derived insertions in nuclear sequence and assemble organelle genomes
+  from modern and ancient shotgun sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- other-vertebrate
+- plant
+reference:
+  doi: 10.1186/s12859-015-0682-1
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Samaniego Castruita JA
+  last_author: Gilbert MT
+  pmid: '26216337'
+  pmcid: PMC4517485
+  title: Odintifier--A computational method for identifying insertions of organellar origin from modern and ancient high-throughput
+    sequencing data based on haplotype phasing
+links: {}
+added: '2026-11-14'
+evidence: We present a bioinformatic method that uses phasing algorithms to reconstruct both source and inserted organelle
+  sequences.

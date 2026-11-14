@@ -1,0 +1,17 @@
+name: MGcount
+full_name: Multi-Graph count
+category: dry
+summary: Total-RNA-seq quantification tool that resolves multi-mapping and multi-overlapping reads in non-coding transcripts
+  using hierarchical assignment and graph aggregation.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04544-3
+links: {}
+added: '2026-11-14'
+evidence: Here we present Multi-Graph count (MGcount), a total-RNA-seq quantification tool combining two strategies for handling
+  ambiguous alignments.

@@ -1,0 +1,26 @@
+name: QTG-seq
+full_name: Quantitative trait gene sequencing
+category: dry
+summary: Mapping strategy that partitions a QTL into a near-qualitative trait, sequences bulked segregant pools and applies
+  a new algorithm to fine-map and identify candidate genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+task:
+- variants-clones
+- differential-analysis
+species:
+- plant
+reference:
+  doi: 10.1016/j.molp.2018.12.018
+  year: 2019
+  journal: Mol Plant
+  first_author: Zhang H
+  last_author: Li L
+  pmid: '30597214'
+  title: QTG-Seq Accelerates QTL Fine Mapping through QTL Partitioning and Whole-Genome Sequencing of Bulked Segregant Samples
+links: {}
+added: '2026-11-14'
+evidence: Here, we devised a new method, named quantitative trait gene sequencing (QTG-seq), to accelerate QTL fine-mapping.

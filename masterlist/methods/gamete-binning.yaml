@@ -1,0 +1,25 @@
+name: Gamete binning
+category: dry
+summary: Uses single-cell sequencing of haploid gametes to split WGS reads into haplotype-specific sets for chromosome-level
+  haplotype-resolved assembly.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- plant
+reference:
+  doi: 10.1186/s13059-020-02235-5
+  year: 2020
+  journal: Genome Biol
+  first_author: Campoy JA
+  last_author: Schneeberger K
+  pmid: '33372615'
+  pmcid: PMC7771071
+  title: 'Gamete binning: chromosome-level and haplotype-resolved genome assembly enabled by high-throughput single-cell sequencing
+    of gamete genomes'
+links: {}
+added: '2026-11-14'
+evidence: To address this, we developed gamete binning, a method based on single-cell sequencing of haploid gametes enabling
+  separation of the whole-genome sequencing reads into haplotype-specific reads sets.

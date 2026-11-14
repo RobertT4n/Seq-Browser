@@ -1,0 +1,27 @@
+name: BacCapSeq
+full_name: Bacterial capture sequencing
+category: wet
+summary: Probe-capture enrichment (4.2 million oligos covering bacterial species, resistance and virulence genes) that boosts
+  bacterial reads for sequencing-based diagnosis.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry_unknown: Abstract says probe-set capture but no taxonomy tag for hybridisation capture is stated/used
+reference:
+  doi: 10.1128/mbio.02007-18
+  year: 2018
+  journal: mBio
+  first_author: Allicock OM
+  last_author: Lipkin WI
+  pmid: '30352937'
+  pmcid: PMC6199491
+  title: 'BacCapSeq: a Platform for Diagnosis and Characterization of Bacterial Infections'
+links: {}
+added: '2026-11-14'
+evidence: The system uses a probe set comprised of 4.2 million oligonucleotides based on the Pathosystems Resource Integration
+  Center (PATRIC) database

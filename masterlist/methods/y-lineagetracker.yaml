@@ -1,0 +1,22 @@
+name: Y-LineageTracker
+category: dry
+summary: Framework for Y-chromosome haplogroup assignment, Y-STR analysis and paternal lineage inference from NGS data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04057-z
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Chen H
+  last_author: Xu S
+  pmid: '33750289'
+  pmcid: PMC7941695
+  title: 'Y-LineageTracker: a high-throughput analysis framework for Y-chromosomal next-generation sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We developed Y-LineageTracker, a high-throughput analysis framework that not only utilizes state-of-the-art methodologies
+  to automatically determine NRY haplogroups and identify microsatellite variants of Y-chromosome on a fine scale, but also
+  optimizes comprehensive Y-DNA analysis methods for NGS data.

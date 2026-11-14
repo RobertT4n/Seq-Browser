@@ -1,0 +1,22 @@
+name: PhISCS-BnB
+full_name: "phylogeny inference using SCS via branch and bound"
+category: dry
+summary: Branch and bound algorithm for perfect tumour phylogeny reconstruction from single-cell sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa464
+  year: 2020
+  journal: Bioinformatics
+  first_author: Sadeqi Azer E
+  last_author: Sahinalp SC
+  pmid: '32657358'
+  pmcid: PMC7355310
+  title: 'PhISCS-BnB: a fast branch and bound algorithm for the perfect tumor phylogeny reconstruction problem'
+links: {}
+added: '2026-11-14'
+evidence: Results We introduce PhISCS-BnB (phylogeny inference using SCS via branch and bound), a branch and bound algorithm
+  to compute the most likely perfect phylogeny on an input genotype matrix extracted from an SCS dataset.

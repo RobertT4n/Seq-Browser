@@ -1,0 +1,28 @@
+name: Slic-seq
+category: wet
+summary: Endonuclease V cleavage at inosine combined with periodate treatment enriches inosine-containing RNA to map A-to-I
+  editing sites transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkad604
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Wei Q
+  last_author: Zhou X
+  pmid: '37470992'
+  pmcid: PMC10484733
+  title: Transcriptome-wide profiling of A-to-I RNA editing by Slic-seq
+links: {}
+added: '2026-11-14'
+evidence: In this context, we developed a new method based on the highly selective cleavage activity of Endonuclease V against
+  Inosine and the universal activity of sodium periodate against all RNAs to enrich the inosine-containing RNA and accurately
+  identify the editing sites.

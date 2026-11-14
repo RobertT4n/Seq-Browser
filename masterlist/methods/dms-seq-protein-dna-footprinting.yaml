@@ -1,0 +1,23 @@
+name: DMS-seq (protein-DNA footprinting)
+category: wet
+summary: Genomic footprinting by in vivo dimethyl sulfate treatment of cells, mapping protein-DNA interactions and nucleosome
+  centers.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: abstract does not state how DMS modification is converted into sequencing fragments
+evidence: Here, we describe a genomic footprinting method, dimethyl sulfate sequencing (DMS-seq), which exploits the cell-permeable
+  nature of DMS to obviate the need for nuclear isolation.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1016/j.celrep.2017.09.035
+  year: 2017
+  journal: Cell Rep
+  first_author: Umeyama T
+  last_author: Ito T
+  pmid: '28978481'
+  title: DMS-Seq for In Vivo Genome-wide Mapping of Protein-DNA Interactions and Nucleosome Centers

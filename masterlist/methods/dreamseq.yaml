@@ -1,0 +1,23 @@
+name: DREAMSeq
+category: dry
+summary: Differential expression method for RNA-seq that models underdispersion as well as equi- and over-dispersion.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+task:
+- differential-analysis
+reference:
+  doi: 10.3389/fgene.2018.00588
+  year: 2018
+  journal: Front Genet
+  first_author: Gao Z
+  last_author: Tang W
+  pmid: '30559761'
+  pmcid: PMC6284200
+  title: 'DREAMSeq: An Improved Method for Analyzing Differentially Expressed Genes in RNA-seq Data'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we reported that in addition to equidispersion and overdispersion, RNA-seq data also displays underdispersion
+  characteristics

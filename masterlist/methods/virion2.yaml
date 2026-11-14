@@ -1,0 +1,32 @@
+name: VirION2
+category: wet
+summary: Short- plus long-read viral metagenomics workflow with optimised low-input long-read library prep and error correction.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+species:
+- microbe
+input_sample:
+- low-input
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.7717/peerj.11088
+  year: 2021
+  journal: PeerJ
+  first_author: Zablocki O
+  last_author: Temperton B
+  pmid: '33850654'
+  pmcid: PMC8018248
+  title: 'VirION2: a short- and long-read sequencing and informatics workflow to study the genomic diversity of viruses in
+    nature'
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce VirION2, an integrated short- and long-read metagenomic wet-lab and informatics pipeline that
+  updates our previous method (VirION) to further enhance the utility of long-read viral metagenomics.

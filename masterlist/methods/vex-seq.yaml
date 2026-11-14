@@ -1,0 +1,28 @@
+name: Vex-seq
+full_name: variant exon sequencing
+category: wet
+summary: Massively parallel minigene assay measuring the effect of 2059 genetic variants on pre-mRNA splicing of 110 alternative
+  exons.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+perturbation:
+- minigene-reporter
+chemistry_unknown: Library prep not stated in abstract
+reference:
+  doi: 10.1186/s13059-018-1437-x
+  year: 2018
+  journal: Genome Biol
+  first_author: Adamson SI
+  last_author: Graveley BR
+  pmid: '29859120'
+  pmcid: PMC5984807
+  title: 'Vex-seq: high-throughput identification of the impact of genetic variation on pre-mRNA splicing efficiency'
+links: {}
+added: '2026-11-14'
+evidence: This method, called variant exon sequencing (Vex-seq), yields data that reinforce known mechanisms of pre-mRNA splicing,
+  identifies variants that impact pre-mRNA splicing, and will be useful for increasing our understanding of genome function.

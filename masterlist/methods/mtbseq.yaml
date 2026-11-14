@@ -1,0 +1,26 @@
+name: MTBseq
+category: dry
+summary: 'Pipeline for whole-genome sequencing data of Mycobacterium tuberculosis complex isolates: variant calling, resistance
+  annotation and lineage/outbreak classification.'
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+task:
+- variants-clones
+species:
+- microbe
+reference:
+  doi: 10.7717/peerj.5895
+  year: 2018
+  journal: PeerJ
+  first_author: Kohl TA
+  last_author: Niemann S
+  pmid: '30479891'
+  pmcid: PMC6238766
+  title: 'MTBseq: a comprehensive pipeline for whole genome sequence analysis of <i>Mycobacterium tuberculosis</i> complex
+    isolates'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present MTBseq, a bioinformatics pipeline for next-generation genome sequence data analysis of MTBC isolates.

@@ -1,0 +1,23 @@
+name: ChINN
+full_name: Chromatin interaction neural network
+category: dry
+summary: Neural network that predicts chromatin interactions between open chromatin regions from DNA sequence alone.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02453-5
+  year: 2021
+  journal: Genome Biol
+  first_author: Cao F
+  last_author: Fullwood MJ
+  pmid: '34399797'
+  pmcid: PMC8365954
+  title: 'Chromatin interaction neural network (ChINN): a machine learning-based method for predicting chromatin interactions
+    from DNA sequences'
+links: {}
+added: '2026-11-14'
+evidence: We develop a computational method, chromatin interaction neural network (ChINN), to predict chromatin interactions
+  between open chromatin regions using only DNA sequences.

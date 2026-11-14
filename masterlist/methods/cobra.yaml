@@ -1,0 +1,24 @@
+name: CoBRA
+full_name: Containerized Bioinformatics workflow for Reproducible ChIP/ATAC-seq Analysis
+category: dry
+summary: Containerised workflow that quantifies ChIP-seq and ATAC-seq peaks and runs clustering, differential peak calling,
+  motif and pathway analysis.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2020.11.007
+  year: 2021
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Qiu X
+  last_author: Long HW
+  pmid: '34284136'
+  pmcid: PMC9039557
+  title: 'CoBRA: Containerized Bioinformatics Workflow for Reproducible ChIP/ATAC-seq Analysis'
+links: {}
+added: '2026-11-14'
+evidence: Here we present Containerized Bioinformatics workflow for Reproducible ChIP/ATAC-seq Analysis (CoBRA), a modularized
+  computational workflow which quantifies ChIP-seq and ATAC-seq peak regions

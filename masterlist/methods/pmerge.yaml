@@ -1,0 +1,22 @@
+name: PMERGE
+category: dry
+summary: Network-based filter that identifies paralogous sequence variants in de novo RAD-seq data by sequence similarity
+  of fragments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/ece3.4219
+  year: 2018
+  journal: Ecol Evol
+  first_author: Nadukkalam Ravindran P
+  last_author: Beiko RG
+  pmid: '30073062'
+  pmcid: PMC6065343
+  title: 'PMERGE: Computational filtering of paralogous sequences from RAD-seq data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce a network-based approach, PMERGE that connects fragments based on their DNA sequence similarity
+  to identify probable PSVs.

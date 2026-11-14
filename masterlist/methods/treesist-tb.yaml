@@ -1,0 +1,23 @@
+name: Treesist-TB
+category: dry
+summary: Customised decision-tree machine-learning approach that predicts Mycobacterium tuberculosis drug resistance from
+  whole-genome variants and discovers new resistance mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08291-4
+  year: 2022
+  journal: BMC Genomics
+  first_author: Deelder W
+  last_author: Clark TG
+  pmid: '35016609'
+  pmcid: PMC8753810
+  title: A modified decision tree approach to improve the prediction and mutation discovery for drug resistance in Mycobacterium
+    tuberculosis
+links: {}
+added: '2026-11-14'
+evidence: We developed a customized decision tree approach, called Treesist-TB, that performs TB drug resistance prediction
+  by extracting and evaluating genomic variants across multiple studies.

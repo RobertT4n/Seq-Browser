@@ -1,0 +1,23 @@
+name: RiboDiPA
+full_name: Ribo-seq Differential Pattern Analysis
+category: dry
+summary: R package that tests for differences in codon-level ribosome footprint occupancy patterns across conditions in Ribo-seq
+  data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa1049
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Li K
+  last_author: Wang JP
+  pmid: '33211868'
+  pmcid: PMC7708064
+  title: 'RiboDiPA: a novel tool for differential pattern analysis in Ribo-seq data'
+links: {}
+added: '2026-11-14'
+evidence: In this work, we develop a novel approach together with an R package, RiboDiPA, for Differential Pattern Analysis
+  of Ribo-seq data.

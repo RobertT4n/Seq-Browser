@@ -1,0 +1,27 @@
+name: rG4-seq
+full_name: RNA G-quadruplex sequencing
+category: wet
+summary: Transcriptome-wide profiling of RNA G-quadruplexes by reverse-transcriptase stalling coupled to sequencing.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1038/nmeth.3965
+  year: 2016
+  journal: Nat Methods
+  first_author: Kwok CK
+  last_author: Balasubramanian S
+  pmid: '27571552'
+  title: rG4-seq reveals widespread formation of G-quadruplex structures in the human transcriptome
+links: {}
+added: '2026-11-14'
+evidence: We introduce RNA G-quadruplex sequencing (rG4-seq), a transcriptome-wide RNA G-quadruplex (rG4) profiling method
+  that couples rG4-mediated reverse transcriptase stalling with next-generation sequencing.

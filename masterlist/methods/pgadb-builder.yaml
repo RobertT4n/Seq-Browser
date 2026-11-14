@@ -1,0 +1,22 @@
+name: PGAdb-builder
+category: dry
+summary: Web service that builds a bacterial pan-genome allele database from genomes to support whole-genome multilocus sequence
+  typing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep36213
+  year: 2016
+  journal: Sci Rep
+  first_author: Liu YY
+  last_author: Chen CC
+  pmid: '27824078'
+  pmcid: PMC5099940
+  title: 'PGAdb-builder: A web service tool for creating pan-genome allele database for molecular fine typing'
+links: {}
+added: '2026-11-14'
+evidence: We present a free web service tool, PGAdb-builder (http://wgmlstdb.imst.nsysu.edu.tw), for the construction of bacterial
+  PGAdb.

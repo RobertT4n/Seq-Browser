@@ -1,0 +1,23 @@
+name: Originator
+category: dry
+summary: Separates scRNA-seq cells by genetic origin and distinguishes blood-contamination immune cells from tissue-resident
+  cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03495-9
+  year: 2025
+  journal: Genome Biol
+  first_author: Unjitwattana T
+  last_author: Garmire LX
+  pmid: '40069819'
+  pmcid: PMC11895284
+  title: Single-cell RNA-seq data have prevalent blood contamination but can be rescued by Originator, a computational tool
+    separating single-cell RNA-seq by genetic and contextual information
+links: {}
+added: '2026-11-14'
+evidence: We propose a new computational framework, Originator, which deciphers single cells by genetic origin and separates
+  immune cells of blood contamination from those of expected tissue-resident cells.

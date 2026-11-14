@@ -1,0 +1,28 @@
+name: MIPP-Seq
+full_name: Multiple Independent Primer PCR Sequencing
+category: wet
+summary: Ultra-deep sequencing of multiple independent PCR amplicons to detect and quantify very low-frequency mosaic mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+input_sample:
+- low-input
+species:
+- human
+reference:
+  doi: 10.1186/s12920-021-00893-3
+  year: 2021
+  journal: BMC Med Genomics
+  first_author: Doan RN
+  last_author: Walsh CA
+  pmid: '33579278'
+  pmcid: PMC7881461
+  title: 'MIPP-Seq: ultra-sensitive rapid detection and validation of low-frequency mosaic mutations'
+links: {}
+added: '2026-11-14'
+evidence: To overcome these limitations, we developed Multiple Independent Primer PCR Sequencing (MIPP-Seq) which combines
+  the power of ultra-deep sequencing and truly independent assays.

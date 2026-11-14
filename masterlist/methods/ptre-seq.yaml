@@ -1,0 +1,27 @@
+name: PTRE-seq
+full_name: Post-transcriptional regulatory element sequencing
+category: wet
+summary: Massively parallel reporter assay that measures how 3'UTR elements bound by miRNAs and RNA-binding proteins affect
+  RNA stability and translation.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-017-02745-0
+  year: 2018
+  journal: Nat Commun
+  first_author: Cottrell KA
+  last_author: Djuranovic S
+  pmid: '29352242'
+  pmcid: PMC5775260
+  title: PTRE-seq reveals mechanism and interactions of RNA binding proteins and miRNAs
+links: {}
+added: '2026-11-14'
+evidence: We describe post-transcriptional regulatory element sequencing (PTRE-seq), a massively parallel method for assaying
+  the target sequences of miRNAs and RBPs.

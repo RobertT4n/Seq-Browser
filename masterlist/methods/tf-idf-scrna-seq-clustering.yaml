@@ -1,0 +1,22 @@
+name: TF-IDF scRNA-seq clustering
+full_name: Term Frequency - Inverse Document Frequency based scRNA-seq clustering
+category: dry
+summary: Clustering of scRNA-seq data using the TF-IDF transformation from text analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4922-4
+  year: 2018
+  journal: BMC Genomics
+  first_author: Moussa M
+  last_author: Măndoiu II
+  pmid: '30367575'
+  pmcid: PMC6101073
+  title: Single cell RNA-seq data clustering using TF-IDF based methods
+links: {}
+added: '2026-11-14'
+evidence: We present novel computational approaches for clustering scRNA-seq data based on the Term Frequency - Inverse Document
+  Frequency (TF-IDF) transformation

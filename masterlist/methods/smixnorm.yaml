@@ -1,0 +1,23 @@
+name: SMIXnorm
+category: dry
+summary: Faster normalisation of FFPE RNA-seq data adapting MIXnorm, with an integrated tool for FF and FFPE normalisation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+variant_of:
+- mixnorm
+reference:
+  doi: 10.3389/fgene.2021.650795
+  year: 2021
+  journal: Front Genet
+  first_author: Yin S
+  last_author: Xie Y
+  pmid: '33841507'
+  pmcid: PMC8024626
+  title: 'SMIXnorm: Fast and Accurate RNA-Seq Data Normalization for Formalin-Fixed Paraffin-Embedded Samples'
+links: {}
+added: '2026-11-14'
+evidence: We developed a new normalization method for FFPE RNA-seq data, named SMIXnorm, based on a simplified two-component
+  mixture model compared to MIXnorm to facilitate computation.

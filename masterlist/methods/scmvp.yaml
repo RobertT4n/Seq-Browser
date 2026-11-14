@@ -1,0 +1,25 @@
+name: scMVP
+full_name: single-cell Multi-View Profiler
+category: dry
+summary: Multi-modal deep generative model of paired scRNA-seq and scATAC-seq data giving joint latent representations, imputation
+  and clustering.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02595-6
+  year: 2022
+  journal: Genome Biol
+  first_author: Li G
+  last_author: Liu Q
+  pmid: '35022082'
+  pmcid: PMC8756637
+  title: A deep generative model for multi-view profiling of single-cell RNA-seq and ATAC-seq data
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a multi-modal deep generative model, the single-cell Multi-View Profiler (scMVP), which is designed
+  for handling sequencing data that simultaneously measure gene expression and chromatin accessibility in the same cell, including
+  SNARE-seq, sci-CAR, Paired-seq, SHARE-seq, and Multiome from 10X Genomics.

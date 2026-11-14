@@ -1,0 +1,23 @@
+name: VAM
+full_name: Variance-adjusted Mahalanobis
+category: dry
+summary: Variance-adjusted Mahalanobis gene set scoring that gives each cell its own pathway score from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa582
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Frost HR
+  last_author: Frost HR
+  pmid: '32633778'
+  pmcid: PMC7498348
+  title: 'Variance-adjusted Mahalanobis (VAM): a fast and accurate method for cell-specific gene set scoring'
+links: {}
+added: '2026-11-14'
+evidence: To address this challenge, we developed a new gene set testing method, Variance-adjusted Mahalanobis (VAM), that
+  integrates with the Seurat framework and can accommodate the technical noise, sparsity and large sample sizes characteristic
+  of scRNA-seq data.

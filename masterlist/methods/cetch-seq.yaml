@@ -1,0 +1,30 @@
+name: CETCh-seq
+full_name: CRISPR epitope tagging ChIP-seq
+category: wet
+summary: CRISPR/Cas9 knock-in of an epitope tag on an endogenous transcription factor so ChIP-seq can be done without a ChIP-grade
+  antibody.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+validated_system:
+- cell-line
+species:
+- human
+- mouse
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1101/gr.193540.115
+  year: 2015
+  journal: Genome Res
+  first_author: Savic D
+  last_author: Myers RM
+  pmid: '26355004'
+  pmcid: PMC4579343
+  title: 'CETCh-seq: CRISPR epitope tagging ChIP-seq of DNA-binding proteins'
+links: {}
+added: '2026-11-14'
+evidence: We used clustered regularly interspaced short palindromic repeats (CRISPR)/Cas9-based genome editing technology
+  to develop CRISPR epitope tagging ChIP-seq (CETCh-seq) of DNA-binding proteins.

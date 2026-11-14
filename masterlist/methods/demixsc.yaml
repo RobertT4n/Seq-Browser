@@ -1,0 +1,25 @@
+name: DeMixSC
+category: dry
+summary: Bulk deconvolution framework that uses a small matched bulk/single-cell benchmark set to correct platform discrepancy
+  in cell-type ratio estimation.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.278822.123
+  year: 2025
+  journal: Genome Res
+  first_author: Guo S
+  last_author: Wang W
+  pmid: '39586714'
+  pmcid: PMC11789644
+  title: A deconvolution framework that uses single-cell sequencing plus a small benchmark data set for accurate analysis
+    of cell type ratios in complex tissue samples
+links: {}
+added: '2026-11-14'
+evidence: To address this, we utilize an experimental design to match inter-platform biological signals, hence revealing the
+  technological discrepancy, and then develop a deconvolution framework called DeMixSC using this well-matched, that is, benchmark,
+  data.

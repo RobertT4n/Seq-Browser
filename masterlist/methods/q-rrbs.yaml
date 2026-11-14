@@ -1,0 +1,30 @@
+name: Q-RRBS
+full_name: quantitative reduced representation bisulfite sequencing
+category: wet
+summary: RRBS with unique molecular identifiers so PCR duplicates are removed, enabling quantitative methylome profiling from
+  single cells or ultra-trace input.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1080/15592294.2015.1075690
+  year: 2015
+  journal: Epigenetics
+  first_author: Wang K
+  last_author: Sun ZS
+  pmid: '26213102'
+  pmcid: PMC4622980
+  title: 'Q-RRBS: a quantitative reduced representation bisulfite sequencing method for single-cell methylome analyses'
+links: {}
+added: '2026-11-14'
+evidence: For quantifying the effects of duplication-induced artifacts on methylome profiling when using ultra-trace amounts
+  of starting material, we developed a novel method, namely quantitative RRBS (Q-RRBS), in which PCR-induced duplication is
+  excluded through the use of unique molecular identifiers (UMIs).

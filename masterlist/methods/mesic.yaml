@@ -1,0 +1,23 @@
+name: MeSiC
+category: dry
+summary: Random-forest regression model that estimates 5mC levels at single-CpG resolution from MeDIP-seq signal and genomic
+  features.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep14699
+  year: 2015
+  journal: Sci Rep
+  first_author: Xiao Y
+  last_author: Li X
+  pmid: '26424089'
+  pmcid: PMC4589794
+  title: 'MeSiC: A Model-Based Method for Estimating 5 mC Levels at Single-CpG Resolution from MeDIP-seq'
+links: {}
+added: '2026-11-14'
+evidence: We developed a Random Forest Regression (RFR) model method, MeSiC, to estimate DNA methylation levels at single-base
+  resolution.

@@ -1,0 +1,22 @@
+name: NIMBus
+full_name: negative binomial regression based Integrative Method for mutation Burden Analysis
+category: dry
+summary: Negative binomial regression framework that integrates genomic covariates (replication timing, chromatin, ENCODE
+  data) to find regions with excess somatic mutation burden in cancer whole genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03758-1
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Zhang J
+  last_author: Gerstein M
+  pmid: '33092526'
+  pmcid: PMC7580035
+  title: 'NIMBus: a negative binomial regression based Integrative Method for mutation Burden Analysis'
+links: {}
+added: '2026-11-14'
+evidence: 'NIMBus: a negative binomial regression based Integrative Method for mutation Burden Analysis.'

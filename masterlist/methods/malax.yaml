@@ -1,0 +1,24 @@
+name: MALAX
+full_name: Mixed model Association via a Laplace ApproXimation
+category: dry
+summary: Mixed-model association test for bisulfite-sequencing methylation count data using a Laplace approximation, allowing
+  multiple variance components.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+evidence: We present a new method, Mixed model Association via a Laplace ApproXimation (MALAX), that is more computationally
+  efficient than MACAU and allows to model multiple variance components.
+added: '2026-11-14'
+links: {}
+reference:
+  doi: 10.1093/bioinformatics/btx248
+  year: 2017
+  journal: Bioinformatics
+  first_author: Weissbrod O
+  last_author: Halperin E
+  pmid: '28881982'
+  pmcid: PMC5870555
+  title: Association testing of bisulfite-sequencing methylation data via a Laplace approximation

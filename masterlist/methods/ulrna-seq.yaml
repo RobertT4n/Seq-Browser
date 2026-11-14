@@ -1,0 +1,21 @@
+name: ulRNA-seq
+full_name: ultralow input RNA sequencing
+category: wet
+summary: SMART-based RNA-seq library protocol optimised (Maxima H Minus RT, rN-modified TSO) for ultralow-input RNA down to
+  0.5 pg.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+species:
+- mouse
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1186/s12864-021-08132-w
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a highly sensitive library construction protocol for ultralow input RNA sequencing (ulRNA-seq).

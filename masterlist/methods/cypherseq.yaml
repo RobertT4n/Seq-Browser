@@ -1,6 +1,7 @@
 name: CypherSeq
 category: wet
-summary: Circularised DNA with double-stranded barcodes and rolling-circle target enrichment that detects rare variants down to about 2.4e-7 per base pair.
+summary: Circularised DNA with double-stranded barcodes and rolling-circle target enrichment that detects rare variants down
+  to about 2.4e-7 per base pair.
 readouts:
 - genome-sequence
 resolution:
@@ -10,6 +11,14 @@ chemistry:
 - adapter-ligation
 reference:
   doi: 10.1093/nar/gkv915
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Gregory MT
+  last_author: Bielas JH
+  pmid: '26384417'
+  pmcid: PMC4756847
+  title: Targeted single molecule mutation detection with massively parallel sequencing
 links: {}
 added: '2026-11-09'
-evidence: Here we describe a method, termed CypherSeq, which combines double-stranded barcoding error correction and rolling circle amplification (RCA)-based target enrichment to vastly improve NGS-based rare variant detection.
+evidence: Here we describe a method, termed CypherSeq, which combines double-stranded barcoding error correction and rolling
+  circle amplification (RCA)-based target enrichment to vastly improve NGS-based rare variant detection.

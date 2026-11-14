@@ -1,0 +1,24 @@
+name: delta-bitscore
+category: dry
+summary: Hidden-Markov-model profile method (DBS) that flags orthologous bacterial proteins whose amino-acid divergence likely
+  changes function.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+aliases:
+- DBS
+reference:
+  doi: 10.1093/bioinformatics/btw518
+  year: 2016
+  journal: Bioinformatics
+  first_author: Wheeler NE
+  last_author: Gardner PP
+  pmid: '27503221'
+  pmcid: PMC5181535
+  title: A profile-based method for identifying functional divergence of orthologous genes in bacterial genomes
+links: {}
+added: '2026-11-14'
+evidence: We present a hidden Markov model based approach we call delta-bitscore (DBS) for identifying orthologous proteins
+  that have diverged at the amino acid sequence level in a way that is likely to impact biological function.

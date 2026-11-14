@@ -1,0 +1,26 @@
+name: DART-seq (m6A)
+full_name: Deamination adjacent to RNA modification targets
+category: wet
+summary: 'Antibody-free m6A mapping: APOBEC1 fused to the m6A-binding YTH domain deaminates C-to-U next to m6A sites, read
+  out by standard RNA-seq.'
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- reverse-transcription
+reference:
+  doi: 10.1038/s41592-019-0570-0
+  year: 2019
+  journal: Nat Methods
+  first_author: Meyer KD
+  last_author: Meyer KD
+  pmid: '31548708'
+  pmcid: PMC6884681
+  title: 'DART-seq: an antibody-free method for global m<sup>6</sup>A detection'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present DART-seq (deamination adjacent to RNA modification targets), an antibody-free method for detecting
+  m6A sites.

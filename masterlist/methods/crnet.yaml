@@ -1,0 +1,23 @@
+name: CRNET
+category: dry
+summary: Bayesian two-stage Gibbs sampler inferring functional regulatory networks from ChIP-seq and time-course RNA-seq data.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx827
+  year: 2018
+  journal: Bioinformatics
+  first_author: Chen X
+  last_author: Xuan J
+  pmid: '29280996'
+  pmcid: PMC5946876
+  title: 'CRNET: an efficient sampling approach to infer functional regulatory networks by integrating large-scale ChIP-seq
+    and time-course RNA-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We developed an efficient Bayesian integration method (CRNET) for FRN inference using a two-stage Gibbs sampler
+  to estimate iteratively hidden TF activities and the posterior probabilities of binding events.

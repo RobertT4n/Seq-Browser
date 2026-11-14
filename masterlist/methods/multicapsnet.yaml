@@ -1,0 +1,15 @@
+name: MultiCapsNet
+category: dry
+summary: Interpretable capsule-network classifier that integrates modular inputs (e.g. TF and PPI priors) to classify cells
+  and variant calls with per-source importance scores.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.767602
+links: {}
+added: '2026-11-14'
+evidence: Here, we present MultiCapsNet (https://github.com/wanglf19/MultiCapsNet), a new deep learning model built on CapsNet
+  and scCapsNet, which possesses the merits such as easy data integration and high model interpretability.

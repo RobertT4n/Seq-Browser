@@ -1,0 +1,22 @@
+name: swDMR
+category: dry
+summary: Sliding-window tool for calling differentially methylated regions from whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0132866
+  year: 2015
+  journal: PLoS One
+  first_author: Wang Z
+  last_author: Huang D
+  pmid: '26176536'
+  pmcid: PMC4503785
+  title: 'swDMR: A Sliding Window Approach to Identify Differentially Methylated Regions Based on Whole Genome Bisulfite Sequencing'
+links: {}
+added: '2026-11-14'
+evidence: In this study, we present swDMR (http://sourceforge.net/projects/swDMR/) for the comprehensive analysis of DMRs
+  from whole genome methylation profiles by a sliding window approach.

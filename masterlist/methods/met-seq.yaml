@@ -1,0 +1,29 @@
+name: Met-Seq
+full_name: metabolite-coupled transposon sequencing
+category: wet
+summary: Transposon-mutant library sorted by FACS on a metabolite biosensor signal, then sequenced to link genes to intracellular
+  metabolite levels.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+species:
+- microbe
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.1128/msystems.00933-20
+  year: 2021
+  journal: mSystems
+  first_author: Glanville DG
+  last_author: Ulijasz AT
+  pmid: '33531406'
+  pmcid: PMC7857532
+  title: A High-Throughput Method for Identifying Novel Genes That Influence Metabolic Pathways Reveals New Iron and Heme
+    Regulation in Pseudomonas aeruginosa
+links: {}
+added: '2026-11-14'
+evidence: we devised an omic-based approach we dubbed "Met-Seq," for metabolite-coupled transposon sequencing.

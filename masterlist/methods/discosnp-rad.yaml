@@ -1,0 +1,21 @@
+name: DiscoSnp-RAD
+category: dry
+summary: Reference-free de novo detection of small variants for RAD-Seq population genomics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.9291
+  year: 2020
+  journal: PeerJ
+  first_author: Gauthier J
+  last_author: Peterlongo P
+  pmid: '32566401'
+  pmcid: PMC7293188
+  title: 'DiscoSnp-RAD: de novo detection of small variants for RAD-Seq population genomics'
+links: {}
+added: '2026-11-14'
+evidence: We present an original method, DiscoSnp-RAD, that avoids this pitfall since variants are detected by exploiting
+  specific parts of the assembly graph built from the reads, hence preventing all-vs-all read alignments.

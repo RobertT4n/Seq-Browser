@@ -1,0 +1,21 @@
+name: NovoPM-MSI
+category: dry
+summary: Detects microsatellite instability status from targeted NGS data using a sample instability score over mononucleotide
+  loci.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3892/ol.2020.11702
+  year: 2020
+  journal: Oncol Lett
+  first_author: Zhao L
+  last_author: Zheng X
+  pmid: '32724444'
+  pmcid: PMC7377088
+  title: A robust method for the rapid detection of microsatellite instability in colorectal cancer
+links: {}
+added: '2026-11-14'
+evidence: We developed a NovoPM-MSI method to detect MSI status based on NGS data.

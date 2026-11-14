@@ -1,0 +1,23 @@
+name: SMAP
+category: dry
+summary: Streamlined RRBS analysis pipeline covering alignment, differentially methylated regions, allele-specific methylation
+  and SNP detection.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13742-015-0070-9
+  year: 2015
+  journal: Gigascience
+  first_author: Gao S
+  last_author: Sørensen KD
+  pmid: '26140213'
+  pmcid: PMC4488126
+  title: 'SMAP: a streamlined methylation analysis pipeline for bisulfite sequencing'
+links: {}
+added: '2026-11-14'
+evidence: To streamline the data processing of DNA methylation from multiple RRBS samples, we present a flexible pipeline
+  named SMAP.

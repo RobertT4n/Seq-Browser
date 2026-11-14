@@ -1,0 +1,29 @@
+name: rPRO-seq
+full_name: rapid PRO-seq
+category: wet
+summary: Single-day precision nuclear run-on sequencing protocol with better ligation and no adapter dimers, working from
+  5,000 cells.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+species:
+- mouse
+variant_of:
+- pro-seq
+reference:
+  doi: 10.1016/j.molcel.2025.06.029
+  year: 2025
+  journal: Mol Cell
+  first_author: Cingaram PKR
+  last_author: Shiekhattar R
+  pmid: '40712588'
+  title: Enhancing transcriptome mapping with rapid PRO-seq profiling of nascent RNA
+links: {}
+added: '2026-11-14'
+evidence: To overcome these limitations, we developed rapid PRO-seq (rPRO-seq), enabling efficient transcriptome mapping within
+  a single day (∼12 h), increasing ligation efficiency, abolishing adapter dimers, and reducing sample loss and RNA degradation.

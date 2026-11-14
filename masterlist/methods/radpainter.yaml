@@ -1,0 +1,24 @@
+name: RADpainter
+category: dry
+summary: Program inferring a nearest-neighbour haplotype coancestry matrix from RADseq data, packaged with fineRADstructure
+  clustering for population inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+aliases:
+- fineRADstructure
+reference:
+  doi: 10.1093/molbev/msy023
+  year: 2018
+  journal: Mol Biol Evol
+  first_author: Malinsky M
+  last_author: Falush D
+  pmid: '29474601'
+  pmcid: PMC5913677
+  title: 'RADpainter and fineRADstructure: Population Inference from RADseq Data'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present RADpainter, a new program designed to infer the coancestry matrix from restriction-site-associated
+  DNA sequencing (RADseq) data.

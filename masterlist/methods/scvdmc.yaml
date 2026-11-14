@@ -1,0 +1,23 @@
+name: scVDMC
+full_name: variance-driven multitask clustering of single-cell RNA-seq data
+category: dry
+summary: Variance-driven multitask clustering that jointly clusters single cells across several scRNA-seq experiments with
+  shared cell-type markers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1006053
+  year: 2018
+  journal: PLoS Comput Biol
+  first_author: Zhang H
+  last_author: Tolar J
+  pmid: '29630593'
+  pmcid: PMC5908193
+  title: A multitask clustering approach for single-cell RNA-seq analysis in Recessive Dystrophic Epidermolysis Bullosa
+links: {}
+added: '2026-11-14'
+evidence: In this paper, we introduce a method of variance-driven multitask clustering of single-cell RNA-seq data (scVDMC)
+  that utilizes multiple single-cell populations from biological replicates or different samples.

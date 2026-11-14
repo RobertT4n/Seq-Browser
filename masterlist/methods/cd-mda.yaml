@@ -1,0 +1,23 @@
+name: cd-MDA
+full_name: centrifugal-driven droplet multiple displacement amplification
+category: wet
+summary: Centrifugal droplet generation from a 5 uL sample for droplet whole-genome amplification of single cells before sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1021/acs.analchem.9b02786
+  year: 2019
+  journal: Anal Chem
+  first_author: Li X
+  last_author: Yang C
+  pmid: '31571488'
+  title: Centrifugal-Driven Droplet Generation Method with Minimal Waste for Single-Cell Whole Genome Amplification
+links: {}
+added: '2026-11-14'
+evidence: Single-cell centrifugal-driven droplet MDA (cd-MDA) has also been conducted for single-cell sequencing, achieving
+  uniform amplification and broad genomic coverage.

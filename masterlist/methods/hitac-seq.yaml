@@ -1,0 +1,25 @@
+name: HITAC-seq
+full_name: Highly-parallel Indexed Tagmentation-reads Assembled Consensus sequencing
+category: wet
+summary: Barcoding and assembly system that tagments indexed plasmid or DNA-fragment samples and assembles consensus sequences
+  of up to 10 kb as a Sanger alternative.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.1016/j.jgg.2021.05.009
+  year: 2021
+  journal: J Genet Genomics
+  first_author: Gao X
+  last_author: Lai J
+  pmid: '34417123'
+  title: HITAC-seq enables high-throughput cost-effective sequencing of plasmids and DNA fragments with identity
+links: {}
+added: '2026-11-14'
+evidence: Here, we report a complete set of novel barcoding and assembling system, Highly-parallel Indexed Tagmentation-reads
+  Assembled Consensus sequencing (HITAC-seq), that could massively sequence and track the identities of each individual sequencing
+  sample.

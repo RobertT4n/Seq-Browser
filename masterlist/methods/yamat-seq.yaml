@@ -1,0 +1,26 @@
+name: YAMAT-seq
+full_name: Y-shaped Adapter-ligated MAture TRNA sequencing
+category: wet
+summary: Y-shaped adapter ligation with T4 RNA ligase 2 to mature tRNAs, then cDNA amplification, for efficient high-throughput
+  tRNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkx005
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Shigematsu M
+  last_author: Kirino Y
+  pmid: '28108659'
+  pmcid: PMC5605243
+  title: 'YAMAT-seq: an efficient method for high-throughput sequencing of mature transfer RNAs'
+links: {}
+added: '2026-11-14'
+evidence: We report the development of Y-shaped Adapter-ligated MAture TRNA sequencing (YAMAT-seq), an efficient and convenient
+  method for high-throughput sequencing of mature tRNAs.

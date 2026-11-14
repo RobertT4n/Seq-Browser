@@ -1,0 +1,27 @@
+name: RiboFR-Seq
+full_name: Ribosomal RNA gene flanking region sequencing
+category: wet
+summary: Captures 16S rRNA variable regions together with flanking protein-coding genes, linking amplicon profiles to metagenomic
+  contigs.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+chemistry_unknown: abstract does not state the capture chemistry (library construction details not given)
+reference:
+  doi: 10.1093/nar/gkw165
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Zhang Y
+  last_author: Zhao F
+  pmid: '26984526'
+  pmcid: PMC4889936
+  title: 'RiboFR-Seq: a novel approach to linking 16S rRNA amplicon profiles to metagenomes'
+links: {}
+added: '2026-11-14'
+evidence: Here we propose a novel approach, RiboFR-Seq (Ribosomal RNA gene flanking region sequencing), for capturing both
+  ribosomal RNA variable regions and their flanking protein-coding genes simultaneously.

@@ -1,0 +1,28 @@
+name: mfA
+full_name: multifraction amplification
+category: wet
+summary: Single-cell copy-number profiling in which a cell's DNA is split into several fractions before amplification, and
+  fragment presence across fractions is counted digitally.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: abstract does not describe the library chemistry
+partition_unknown: not stated in the abstract
+input_sample:
+- low-input
+reference:
+  doi: 10.1021/acsami.7b03146
+  year: 2017
+  journal: ACS Appl Mater Interfaces
+  first_author: Li C
+  last_author: Huang Y
+  pmid: '28337907'
+  title: Single-Cell-Based Platform for Copy Number Variation Profiling through Digital Counting of Amplified Genomic DNA
+    Fragments
+links: {}
+added: '2026-11-14'
+evidence: We develop a novel single-cell-based platform through digital counting of amplified genomic DNA fragments, named
+  multifraction amplification (mfA), to detect the copy number variations (CNVs) in a single cell.

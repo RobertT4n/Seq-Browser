@@ -1,0 +1,22 @@
+name: ABEMUS
+full_name: Adaptive Base Error Model in Ultra-deep Sequencing data
+category: dry
+summary: Platform-specific, data-informed detection of somatic SNVs in cell-free DNA from deep sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa016
+  year: 2020
+  journal: Bioinformatics
+  first_author: Casiraghi N
+  last_author: Romanel A
+  pmid: '31922552'
+  pmcid: PMC7203757
+  title: 'ABEMUS: platform-specific and data-informed detection of somatic SNVs in cfDNA'
+links: {}
+added: '2026-11-14'
+evidence: We present a computational methodology, called Adaptive Base Error Model in Ultra-deep Sequencing data (ABEMUS),
+  which combines platform-specific genetic knowledge and empirical signal to readily detect and quantify somatic SNVs in cfDNA.
