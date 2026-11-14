@@ -1,0 +1,22 @@
+name: DiffChIPL
+category: dry
+summary: Differential peak analysis method for ChIP-seq data with biological replicates, built on limma.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac498
+  year: 2022
+  journal: Bioinformatics
+  first_author: Chen Y
+  last_author: Lei EP
+  pmid: '35809062'
+  pmcid: PMC9438959
+  title: 'DiffChIPL: a differential peak analysis method for high-throughput sequencing data with biological replicates based
+    on limma'
+links: {}
+added: '2026-11-14'
+evidence: To improve differential analysis of ChIP-seq, we present a novel Differential analysis method for ChIP-seq based
+  on Limma (DiffChIPL).

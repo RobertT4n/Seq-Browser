@@ -1,0 +1,21 @@
+name: simCAS
+category: dry
+summary: Embedding-based simulator of single-cell chromatin accessibility sequencing data with ground-truth labels for benchmarking.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad453
+  year: 2023
+  journal: Bioinformatics
+  first_author: Li C
+  last_author: Zhang X
+  pmid: '37494428'
+  pmcid: PMC10394124
+  title: 'simCAS: an embedding-based method for simulating single-cell chromatin accessibility sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We present simCAS, an embedding-based simulator, for generating high-fidelity scCAS data from both cell- and peak-wise
+  embeddings.

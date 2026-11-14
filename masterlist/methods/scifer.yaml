@@ -1,0 +1,23 @@
+name: SCIFER
+full_name: Single Cell Implementation to Find Expressed Retrotransposons
+category: dry
+summary: Quantifies LINE-1 mRNA expression at single-locus resolution in scRNA-seq data by unique alignment and cell-barcode
+  extraction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13100-022-00276-0
+  year: 2022
+  journal: Mob DNA
+  first_author: Stow EC
+  last_author: Belancio V
+  pmid: '36028901'
+  pmcid: PMC9413895
+  title: 'SCIFER: approach for analysis of LINE-1 mRNA expression in single cells at a single locus resolution'
+links: {}
+added: '2026-11-14'
+evidence: We introduce a method to quantify expression of mobile elements at the single-locus resolution in scRNA-Seq datasets
+  called Single Cell Implementation to Find Expressed Retrotransposons (SCIFER).

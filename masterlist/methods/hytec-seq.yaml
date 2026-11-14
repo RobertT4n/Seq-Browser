@@ -1,0 +1,30 @@
+name: HYTEC-seq
+full_name: HYbridization- and Tag-based Error-Corrected sequencing
+category: wet
+summary: Hybridization capture combined with molecular tags and a dedicated variant caller to detect low-frequency ctDNA mutations
+  on Ion Torrent sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+input_sample:
+- low-input
+species:
+- human
+reference:
+  doi: 10.1038/s41598-022-09698-5
+  year: 2022
+  journal: Sci Rep
+  first_author: Tjensvoll K
+  last_author: Nordgård O
+  pmid: '35388068'
+  pmcid: PMC8986848
+  title: Novel hybridization- and tag-based error-corrected method for sensitive ctDNA mutation detection using ion semiconductor
+    sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here we describe our newly developed sensitive method for ctDNA detection on the Ion Torrent sequencing platform,
+  which we call HYbridization- and Tag-based Error-Corrected sequencing (HYTEC-seq).

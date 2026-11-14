@@ -1,0 +1,21 @@
+name: QuasiFlow
+category: dry
+summary: Nextflow pipeline for reproducible local analysis of NGS-based HIV-1 drug resistance testing data, including minority
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbac089
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Ssekagiri A
+  last_author: Ssemwanga D
+  pmid: '36699347'
+  pmcid: PMC9722223
+  title: 'QuasiFlow: a Nextflow pipeline for analysis of NGS-based HIV-1 drug resistance data'
+links: {}
+added: '2026-11-14'
+evidence: We present QuasiFlow, a pipeline for reproducible analysis of NGS-based HIVDR testing data

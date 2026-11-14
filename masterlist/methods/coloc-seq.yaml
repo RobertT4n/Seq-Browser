@@ -1,0 +1,30 @@
+name: CoLoC-seq
+full_name: controlled level of contamination coupled to deep sequencing
+category: wet
+summary: Tracks transcript depletion along an RNase gradient with or without organelle membranes to infer which RNAs are truly
+  inside an organelle.
+readouts:
+- rna
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkac1183
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Jeandard D
+  last_author: Smirnov A
+  pmid: '36537202'
+  pmcid: PMC9943681
+  title: CoLoC-seq probes the global topology of organelle transcriptomes
+links: {}
+added: '2026-11-14'
+evidence: Here we introduce Controlled Level of Contamination coupled to deep sequencing (CoLoC-seq) as a new subcellular
+  transcriptomics approach that efficiently bypasses this caveat.

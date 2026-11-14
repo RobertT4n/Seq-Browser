@@ -1,0 +1,22 @@
+name: NMFTL
+full_name: non-negative matrix factorization and transfer learning
+category: dry
+summary: Imputes dropout zeros in scRNA-seq counts using graph-regularized non-negative matrix factorization with transfer
+  learning from an additional dataset.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720023500294
+  year: 2023
+  journal: J Bioinform Comput Biol
+  first_author: Zhu J
+  last_author: Yang Y
+  pmid: '38248911'
+  title: Imputation for Single-cell RNA-seq Data with Non-negative Matrix Factorization and Transfer Learning
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a method that integrates non-negative matrix factorization and transfer learning (NMFTL) to impute
+  the scRNA-seq data.

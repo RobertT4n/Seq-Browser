@@ -1,0 +1,24 @@
+name: HMMPolish
+category: dry
+summary: Polishes errors in protein-coding regions of third-generation-sequenced RNA virus genomes using profile HMMs of protein
+  families.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bib/bbad264
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Yu R
+  last_author: Sun Y
+  pmid: '37478372'
+  pmcid: PMC10516367
+  title: 'HMMPolish: a coding region polishing tool for TGS-sequenced RNA viruses'
+links: {}
+added: '2026-11-14'
+evidence: we developed a novel pipeline, HMMPolish, for correcting (polishing) errors in protein-coding regions of known RNA
+  viruses.

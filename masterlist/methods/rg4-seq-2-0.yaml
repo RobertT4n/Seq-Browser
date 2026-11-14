@@ -1,0 +1,34 @@
+name: rG4-seq 2.0
+full_name: RNA G-quadruplex sequencing 2.0
+category: wet
+summary: Redesigned rG4-seq library prep with a deoxyuridine-containing ssDNA adapter that removes gel purification and works
+  from as little as 10 ng RNA.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- adapter-ligation
+input_sample:
+- low-input
+validated_system:
+- cell-line
+species:
+- human
+variant_of:
+- rg4-seq
+reference:
+  doi: 10.1186/s12915-022-01448-3
+  year: 2022
+  journal: BMC Biol
+  first_author: Zhao J
+  last_author: Kwok CK
+  pmid: '36372875'
+  pmcid: PMC9661767
+  title: Enhanced transcriptome-wide RNA G-quadruplex sequencing for low RNA input samples with rG4-seq 2.0
+links: {}
+added: '2026-11-14'
+evidence: We developed rG4-seq 2.0 by introducing a new ssDNA adapter containing deoxyuridine during library preparation to
+  enhance library quality with no gel purification step

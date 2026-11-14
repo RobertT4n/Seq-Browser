@@ -1,0 +1,21 @@
+name: valiDrops
+category: dry
+summary: Automated quality control for single-cell and single-nucleus RNA-seq that selects high-quality barcodes and flags
+  dead cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqad101
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Kavaliauskaite G
+  last_author: Madsen JGS
+  pmid: '38025048'
+  pmcid: PMC10657416
+  title: Automatic quality control of single-cell and single-nucleus RNA-seq using valiDrops
+links: {}
+added: '2026-11-14'
+evidence: Here, we present valiDrops, an automated method to identify high-quality barcodes and flag dead cells.

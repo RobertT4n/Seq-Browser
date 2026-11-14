@@ -1,0 +1,20 @@
+name: IGSimpute
+category: dry
+summary: Interpretable scRNA-seq imputation method with an instance-wise gene selection layer.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad124
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Xu K
+  last_author: Zhang L
+  pmid: '37039664'
+  title: Accurate and interpretable gene expression imputation on scRNA-seq data using IGSimpute
+links: {}
+added: '2026-11-14'
+evidence: Here, we present IGSimpute, an accurate and interpretable imputation method for recovering missing values in scRNA-seq
+  data with an interpretable instance-wise gene selection layer (GSL).

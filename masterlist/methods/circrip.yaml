@@ -1,0 +1,20 @@
+name: circRIP
+category: dry
+summary: Algorithm that identifies circRNA-RBP interactions genome-wide from RIP-seq data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac186
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Dong X
+  last_author: He C
+  pmid: '35641157'
+  title: 'circRIP: an accurate tool for identifying circRNA-RBP interactions'
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a unique algorithm, circRIP, for identifying circRNA-RBP interactions from RNA immunoprecipitation
+  sequencing (RIP-Seq) data.

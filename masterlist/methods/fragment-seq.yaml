@@ -1,0 +1,25 @@
+name: fragment-seq
+category: wet
+summary: Characterizes single-cell transcriptomes from multiple spatially distinct tissue microenvironments in parallel.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry: []
+partition_unknown: not stated in the abstract
+chemistry_unknown: Abstract does not state library chemistry
+reference:
+  doi: 10.1038/s41467-023-43005-8
+  year: 2023
+  journal: Nat Commun
+  first_author: Handler K
+  last_author: Moor AE
+  pmid: '38012149'
+  pmcid: PMC10681997
+  title: Fragment-sequencing unveils local tissue microenvironments at single-cell resolution
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce fragment-sequencing (fragment-seq), a method that enables the characterization of single-cell
+  transcriptomes within multiple spatially distinct tissue microenvironments.

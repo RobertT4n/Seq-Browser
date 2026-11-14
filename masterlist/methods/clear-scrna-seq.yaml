@@ -1,0 +1,25 @@
+name: CLEAR scRNA-seq
+full_name: Contrastive LEArning framework for scRNA-seq
+aliases:
+- CLEAR
+category: dry
+summary: Self-supervised contrastive representation learning for scRNA-seq that handles batch effects and dropout for clustering,
+  visualisation and pseudotime.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac377
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Han W
+  last_author: Li Y
+  pmid: '36089561'
+  pmcid: PMC9487595
+  title: Self-supervised contrastive learning for integrative single cell RNA-seq data analysis
+links: {}
+added: '2026-11-14'
+evidence: We present a novel self-supervised Contrastive LEArning framework for single-cell ribonucleic acid (RNA)-sequencing
+  (CLEAR) data representation and the downstream analysis.

@@ -1,0 +1,21 @@
+name: tncRNA Toolkit
+category: dry
+summary: Pipeline that identifies tRNA-derived non-coding RNA classes (tRF-5, tRF-3, tRF-1, tRH) from small RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.mex.2022.101991
+  year: 2023
+  journal: MethodsX
+  first_author: Zahra S
+  last_author: Kumar S
+  pmid: '36632599'
+  pmcid: PMC9826945
+  title: '<i>tncRNA Toolkit</i>: A pipeline for convenient identification of RNA (tRNA)-derived non-coding RNAs'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a pipeline 'tncRNA Toolkit' for accurately identifying tncRNAs using small RNA sequencing (sRNA-seq)
+  data

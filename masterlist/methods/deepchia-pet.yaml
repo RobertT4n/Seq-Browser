@@ -1,0 +1,22 @@
+name: DeepChIA-PET
+category: dry
+summary: Deep dilated residual network that predicts protein-mediated ChIA-PET chromatin interactions from Hi-C and ChIP-seq
+  data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011307
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Liu T
+  last_author: Wang Z
+  pmid: '37440599'
+  pmcid: PMC10368233
+  title: 'DeepChIA-PET: Accurately predicting ChIA-PET from Hi-C and ChIP-seq with deep dilated networks'
+links: {}
+added: '2026-11-14'
+evidence: 'Here we present DeepChIA-PET, a supervised deep learning approach that can accurately predict ChIA-PET interactions
+  by learning the latent relationships between ChIA-PET and two widely used data types: Hi-C and ChIP-seq.'

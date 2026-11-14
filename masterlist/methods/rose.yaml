@@ -1,0 +1,29 @@
+name: ROSE
+full_name: Run-off transcription/RNA-sequencing
+category: wet
+summary: In vitro run-off transcription from genomic DNA with RNA polymerase and a sigma factor, followed by sequencing of
+  native transcript 5' ends to map bacterial promoters genome-wide.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.3390/microorganisms11061388
+  year: 2023
+  journal: Microorganisms
+  first_author: Schmidt P
+  last_author: Kalinowski J
+  pmid: '37374890'
+  pmcid: PMC10301672
+  title: Characterization of Bacterial Transcriptional Regulatory Networks in <i>Escherichia coli</i> through Genome-Wide
+    In Vitro Run-Off Transcription/RNA-seq (ROSE)
+links: {}
+added: '2026-11-14'
+evidence: This method, called ROSE (run-off transcription/RNA-sequencing), only requires chromosomal DNA, ribonucleotides,
+  RNA polymerase (RNAP) core enzyme, and a specific sigma factor, recognizing the corresponding promoters, which have to be
+  analyzed.

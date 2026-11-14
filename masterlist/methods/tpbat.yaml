@@ -1,0 +1,30 @@
+name: tPBAT
+full_name: TACS-ligation post-bisulfite adaptor tagging
+category: wet
+summary: Bisulfite sequencing library prep that ligates adaptors to bisulfite-converted DNA with a single-strand DNA ligation
+  (TACS ligation) instead of repeated random priming, for low-input methylomes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+input_sample:
+- low-input
+reference:
+  doi: 10.1093/nar/gkz435
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Miura F
+  last_author: Ito T
+  pmid: '31114914'
+  pmcid: PMC6736019
+  title: Highly efficient single-stranded DNA ligation technique improves low-input whole-genome bisulfite sequencing by post-bisulfite
+    adaptor tagging
+links: {}
+added: '2026-11-14'
+evidence: To resolve these problems, we developed a unique single-strand DNA ligation technique, termed TACS ligation, and
+  established a new protocol called tPBAT.

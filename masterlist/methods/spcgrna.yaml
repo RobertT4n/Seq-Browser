@@ -1,0 +1,28 @@
+name: SPCgRNA
+full_name: solid-phase chemoenzymatic method for glycosylated RNAs
+category: wet
+summary: Solid-phase chemoenzymatic capture of glycosylated RNAs, followed by RNA-seq to identify which small RNAs are glycosylated.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+chemistry_unknown: capture chemistry details not stated in abstract
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1021/acs.analchem.3c01630
+  year: 2023
+  journal: Anal Chem
+  first_author: Li J
+  last_author: Yang S
+  pmid: '37524653'
+  title: 'Novel Approach to Enriching Glycosylated RNAs: Specific Capture of GlycoRNAs via Solid-Phase Chemistry'
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop a solid-phase chemoenzymatic method (SPCgRNA) for targeting glycosylated RNAs, by which glycosylated
+  RNA substrates can be specifically recognized.

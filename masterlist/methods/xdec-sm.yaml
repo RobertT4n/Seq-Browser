@@ -1,0 +1,23 @@
+name: XDec-SM
+full_name: XDec Simplex Mapping
+category: dry
+summary: Reference-optional deconvolution of bulk RNA-seq tumour profiles that maps tumours and constituent cell states onto
+  a low-dimensional space.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011365
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Murillo OD
+  last_author: Milosavljevic A
+  pmid: '37578979'
+  pmcid: PMC10449115
+  title: Deconvolution of cancer cell states by the XDec-SM method
+links: {}
+added: '2026-11-14'
+evidence: we developed the XDec Simplex Mapping (XDec-SM) reference-optional deconvolution method that maps tumors and the
+  states of constituent cells onto a biologically interpretable low-dimensional space.

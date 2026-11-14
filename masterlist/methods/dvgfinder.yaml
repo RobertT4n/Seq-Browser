@@ -1,0 +1,22 @@
+name: DVGfinder
+category: dry
+summary: Metasearch tool that wraps ViReMa-a and DI-tector and filters false positives with a gradient boosting classifier
+  to find defective viral genomes in RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v14051114
+  year: 2022
+  journal: Viruses
+  first_author: Olmo-Uceda MJ
+  last_author: Elena SF
+  pmid: '35632855'
+  pmcid: PMC9144107
+  title: 'DVGfinder: A Metasearch Tool for Identifying Defective Viral Genomes in RNA-Seq Data'
+links: {}
+added: '2026-11-14'
+evidence: We present a metasearch tool, DVGfinder, that wraps the two most commonly used DVG search algorithms in a single
+  workflow for the identification of the DVGs in HTS data.

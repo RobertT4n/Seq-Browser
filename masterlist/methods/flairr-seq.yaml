@@ -1,0 +1,33 @@
+name: FLAIRR-seq
+full_name: near-full-length adaptive immune receptor repertoire sequencing
+category: wet
+summary: 5-prime RACE targeted amplification plus PacBio single-molecule sequencing to read near-full-length antibody heavy
+  chain transcripts including the constant region.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+- amplicon-pcr
+platform:
+- long-read
+- pacbio
+species:
+- human
+reference:
+  doi: 10.4049/jimmunol.2200825
+  year: 2023
+  journal: J Immunol
+  first_author: Ford EE
+  last_author: Smith ML
+  pmid: '37027017'
+  pmcid: PMC10152037
+  title: 'FLAIRR-Seq: A Method for Single-Molecule Resolution of Near Full-Length Antibody H Chain Repertoires'
+links: {}
+added: '2026-11-14'
+evidence: In this article, we present the near-full-length AIRR-seq (FLAIRR-seq) method that uses targeted amplification by
+  5' RACE, combined with single-molecule, real-time sequencing to generate highly accurate (99.99%) human Ab H chain transcripts.

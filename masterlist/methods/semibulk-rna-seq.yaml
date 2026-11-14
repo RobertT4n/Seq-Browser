@@ -1,0 +1,28 @@
+name: semibulk RNA-seq
+aliases:
+- sbRNA-seq
+category: wet
+summary: Droplet microfluidics co-encapsulates a barcoded bead with a small cell aggregate (semibulk) to give transcriptomes
+  of local cellular neighbourhoods.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-022-19391-2
+  year: 2022
+  journal: Sci Rep
+  first_author: Muto K
+  last_author: Seki M
+  pmid: '36097044'
+  pmcid: PMC9468030
+  title: Semibulk RNA-seq analysis as a convenient method for measuring gene expression statuses in a local cellular environment
+links: {}
+added: '2026-11-14'
+evidence: We utilized a microfluidic device specifically designed for the experiments to encapsulate both a barcoded bead
+  and a cell aggregate (a semibulk) into a single droplet.

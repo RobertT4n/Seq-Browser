@@ -1,0 +1,22 @@
+name: BiocMAP
+category: dry
+summary: GPU-accelerated Bioconductor-friendly pipeline for whole-genome bisulfite sequencing alignment and methylation extraction.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05461-3
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Eagles NJ
+  last_author: Collado-Torres L
+  pmid: '37704947'
+  pmcid: PMC10498615
+  title: 'BiocMAP: a Bioconductor-friendly, GPU-accelerated pipeline for bisulfite-sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: We present BiocMAP, a Bioconductor-friendly methylation analysis pipeline consisting of two modules, to address
+  the above concerns.

@@ -1,0 +1,33 @@
+name: picoMeRIP-seq
+full_name: Picogram-scale m6A RNA immunoprecipitation and sequencing
+category: wet
+summary: Optimized m6A RNA immunoprecipitation with improved sample recovery that maps m6A from picogram RNA inputs, down
+  to single zebrafish zygotes, mouse oocytes and embryos.
+readouts:
+- rna-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+input_sample:
+- low-input
+species:
+- other-vertebrate
+- mouse
+reference:
+  doi: 10.1038/s41587-023-01831-7
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Li Y
+  last_author: Dahl JA
+  pmid: '37349523'
+  pmcid: PMC10739642
+  title: Single-cell m&lt;sup&gt;6&lt;/sup&gt;A mapping in vivo using picoMeRIP-seq
+links: {}
+added: '2026-11-14'
+partition_unknown: not stated in the abstract
+evidence: Through optimized sample recovery and signal-to-noise ratio, we developed picogram-scale m6A RNA immunoprecipitation
+  and sequencing (picoMeRIP-seq) for studying m6A in vivo in single cells and scarce cell types using standard laboratory
+  equipment.

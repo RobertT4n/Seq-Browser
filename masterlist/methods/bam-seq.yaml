@@ -1,0 +1,28 @@
+name: BaM-seq
+full_name: bacterial-multiplexed-seq
+category: wet
+summary: Simple barcoding of many bacterial RNA samples to cut the time and cost of RNA-seq library preparation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+shared_doi: BaM-seq and TBaM-seq are two methods presented in the same paper
+reference:
+  doi: 10.1093/nargab/lqad017
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Johnson GE
+  last_author: Li GW
+  pmid: '36879903'
+  pmcid: PMC9985320
+  title: BaM-seq and TBaM-seq, highly multiplexed and targeted RNA-seq protocols for rapid, low-cost library generation from
+    bacterial samples
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe bacterial-multiplexed-seq (BaM-seq), an approach that enables simple barcoding of many bacterial
+  RNA samples that decreases the time and cost of library preparation.

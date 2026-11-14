@@ -1,0 +1,23 @@
+name: scGNGI
+full_name: single cell Gauss-Newton Gene expression Imputation
+category: dry
+summary: Low-rank matrix completion that imputes dropout values in scRNA-seq expression matrices while accounting for cell
+  heterogeneity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.952649
+  year: 2022
+  journal: Front Genet
+  first_author: Huang M
+  last_author: Sakurai T
+  pmid: '35910201'
+  pmcid: PMC9329700
+  title: Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity
+links: {}
+added: '2026-11-14'
+evidence: we develop a novel method, called single cell Gauss-Newton Gene expression Imputation (scGNGI), to impute the scRNA-seq
+  expression matrices by using a low-rank matrix completion.

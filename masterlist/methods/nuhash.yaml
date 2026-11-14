@@ -1,0 +1,34 @@
+name: NuHash
+full_name: nucleus hashing
+category: wet
+summary: Nucleus hashing with oligonucleotide-conjugated antibodies against nuclear pore complex proteins to multiplex samples
+  in snATAC-seq.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+partition_unknown: not stated in the abstract
+input_sample:
+- nuclei
+species:
+- human
+- mouse
+builds_on:
+- snatac-seq
+- cell-hashing
+reference:
+  doi: 10.1186/s13072-023-00486-7
+  year: 2023
+  journal: Epigenetics Chromatin
+  first_author: Bera BS
+  last_author: Suzuki M
+  pmid: '37118773'
+  pmcid: PMC10142415
+  title: An optimized approach for multiplexing single-nuclear ATAC-seq using oligonucleotide-conjugated antibodies
+links: {}
+added: '2026-11-14'
+evidence: We developed a simple nucleus hashing method using oligonucleotide-conjugated antibodies recognizing nuclear pore
+  complex proteins, NuHash, to perform snATAC-seq library preparations by multiplexing.

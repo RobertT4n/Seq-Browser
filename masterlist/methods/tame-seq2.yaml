@@ -1,0 +1,25 @@
+name: TaME-seq2
+full_name: tagmentation-assisted multiplex PCR enrichment sequencing, version 2
+category: wet
+summary: Tagmentation-assisted multiplex PCR enrichment sequencing of viral genomes (HPV, extended to SARS-CoV-2) that reports
+  consensus sequence, low-frequency variants and chromosomal integration.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- tn5
+- amplicon-pcr
+reference:
+  doi: 10.1186/s12985-023-02002-5
+  year: 2023
+  journal: Virol J
+  first_author: Hesselberg Løvestad A
+  last_author: Rounge TB
+  pmid: '36890572'
+  pmcid: PMC9993372
+  title: 'TaME-seq2: tagmentation-assisted multiplex PCR enrichment sequencing for viral genomic profiling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present TaME-seq2 with an updated laboratory workflow and bioinformatics pipeline.

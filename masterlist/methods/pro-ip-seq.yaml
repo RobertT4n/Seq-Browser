@@ -1,0 +1,29 @@
+name: PRO-IP-seq
+full_name: Precision Run-On coupled to Immuno-Precipitation sequencing
+category: wet
+summary: Run-on nascent RNA sequencing combined with immunoprecipitation of Pol II to read modification states of engaged
+  Pol II at nucleotide resolution.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- antibody-pull-down
+- reverse-transcription
+variant_of:
+- pro-seq
+reference:
+  doi: 10.1038/s41467-023-42715-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Vihervaara A
+  last_author: Lis JT
+  pmid: '37923726'
+  pmcid: PMC10624850
+  title: PRO-IP-seq tracks molecular modifications of engaged Pol II complexes at nucleotide resolution
+links: {}
+added: '2026-11-14'
+evidence: Here, we develop Precision Run-On coupled to Immuno-Precipitation sequencing (PRO-IP-seq), which double-selects
+  nascent RNAs and transcription complexes, and track phosphorylation of Pol II C-terminal domain (CTD) at nucleotide-resolution.

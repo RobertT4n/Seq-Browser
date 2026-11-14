@@ -1,0 +1,36 @@
+name: scMPRA
+full_name: single-cell massively parallel reporter assay
+category: wet
+summary: Reporter-library assay read out by single-cell sequencing that measures cis-regulatory activity across several cell
+  types at once.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+- tissue-in-vivo
+species:
+- human
+- mouse
+builds_on:
+- mpra
+reference:
+  doi: 10.1038/s41588-022-01278-7
+  year: 2023
+  journal: Nat Genet
+  first_author: Zhao S
+  last_author: Cohen BA
+  pmid: '36635387'
+  pmcid: PMC9931678
+  title: A single-cell massively parallel reporter assay detects cell-type-specific gene regulation
+links: {}
+added: '2026-11-14'
+evidence: To address this problem, we developed a single-cell massively parallel reporter assay (scMPRA) to measure the activity
+  of libraries of cis-regulatory sequences (CRSs) across multiple cell types simultaneously.

@@ -1,0 +1,26 @@
+name: CLT-seq
+full_name: central limit theorem-managed RNA-seq
+category: wet
+summary: Anchor-free oligo(dT) priming gives normally distributed poly(T) lengths from which poly(A)-tail length profiles
+  are reconstructed on Illumina.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1093/bib/bbad374
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Su Q
+  last_author: Gou D
+  pmid: '37874949'
+  title: CLT-seq as a universal homopolymer-sequencing concept reveals poly(A)-tail-tuned ncRNA regulation
+links: {}
+added: '2026-11-14'
+evidence: we introduce central limit theorem (CLT)-managed RNA-seq (CLT-seq), a simple and straightforward homopolymer-sequencing
+  method.

@@ -1,0 +1,21 @@
+name: LZGraphs
+category: dry
+summary: Python package that encodes a T-cell receptor beta repertoire as a graph using Lempel-Ziv 76 string compression,
+  enabling generation probability, diversity and feature inference.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad426
+  year: 2023
+  journal: Bioinformatics
+  first_author: Konstantinovsky T
+  last_author: Yaari G
+  pmid: '37417959'
+  pmcid: PMC10348835
+  title: A novel approach to T-cell receptor beta chain (TCRB) repertoire encoding using lossless string compression
+links: {}
+added: '2026-11-14'
+evidence: We introduce a novel approach to TCRB repertoire encoding and analysis, leveraging the Lempel-Ziv 76 algorithm.

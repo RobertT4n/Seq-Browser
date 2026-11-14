@@ -1,0 +1,29 @@
+name: ASIS-Seq
+full_name: adaptive sampling insertion site sequencing
+category: wet
+summary: Nanopore adaptive-sampling enrichment that locates transgene integration sites in the host genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- mouse
+reference:
+  doi: 10.1007/978-1-0716-2990-1_5
+  year: 2023
+  journal: Methods Mol Biol
+  first_author: Yu C
+  last_author: Roose-Girma M
+  pmid: '36995666'
+  title: 'ASIS-Seq: Transgene Insertion Site Mapping by Nanopore Adaptive Sampling'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present a method that we call Adaptive Sampling Insertion Site Sequencing (ASIS-Seq) to locate transgene
+  integration sites using targeted sequencing on Oxford Nanopore Technologies' (ONT) sequencers.

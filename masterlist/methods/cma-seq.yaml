@@ -1,0 +1,24 @@
+name: CMA-seq
+full_name: chromosome analysis by medium coverage whole genome sequencing
+category: dry
+summary: Bioinformatic algorithm that detects absence of homozygosity from about five-fold whole-genome sequencing in prenatal
+  diagnosis.
+reference:
+  doi: 10.3390/diagnostics13030560
+  year: 2023
+  journal: Diagnostics (Basel)
+  first_author: Lü Y
+  last_author: Qi Q
+  pmid: '36766665'
+  pmcid: PMC9914714
+  title: Evaluation and Analysis of Absence of Homozygosity (AOH) Using Chromosome Analysis by Medium Coverage Whole Genome
+    Sequencing (CMA-seq) in Prenatal Diagnosis
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+added: '2026-11-14'
+evidence: In this study, we developed and optimized a new bioinformatic algorithm based on the assessment of minimum sequencing
+  coverage, optimal bin size, the Z-score threshold of four types of allele count and the frequency for accurate genotyping.

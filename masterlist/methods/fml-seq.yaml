@@ -1,0 +1,29 @@
+name: FML-seq
+full_name: fragmentation at methylated loci and sequencing
+category: wet
+summary: Low-cost library protocol that fragments DNA at methylated loci to profile cytosine methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: fragmentation enzyme/chemistry not stated in abstract
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.26508/lsa.202302326
+  year: 2023
+  journal: Life Sci Alliance
+  first_author: Foley JW
+  last_author: West RB
+  pmid: '37775270'
+  pmcid: PMC10546043
+  title: Cost-effective DNA methylation profiling by FML-seq
+links: {}
+added: '2026-11-14'
+evidence: We introduce fragmentation at methylated loci and sequencing (FML-seq), a sequencing library protocol that greatly
+  reduces all these costs.

@@ -1,0 +1,24 @@
+name: RaScALL
+full_name: Rapid Screening of RNA-seq data for prognostically significant genomic alterations in ALL
+category: dry
+summary: k-mer based tool that rapidly detects prognostic fusions, SNVs and focal deletions in acute lymphoblastic leukaemia
+  directly from RNA-seq reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pgen.1010300
+  year: 2022
+  journal: PLoS Genet
+  first_author: Rehn J
+  last_author: White DL
+  pmid: '36251721'
+  pmcid: PMC9612819
+  title: 'RaScALL: Rapid (Ra) screening (Sc) of RNA-seq data for prognostically significant genomic alterations in acute lymphoblastic
+    leukaemia (ALL)'
+links: {}
+added: '2026-11-14'
+evidence: Here we present RaScALL, an implementation of the k-mer based variant detection tool km, capable of identifying
+  more than 100 prognostically significant lesions observed in ALL

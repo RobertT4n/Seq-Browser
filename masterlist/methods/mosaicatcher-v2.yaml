@@ -1,0 +1,24 @@
+name: MosaiCatcher v2
+category: dry
+summary: Snakemake workflow for quality control, structural variation detection, genotyping and reporting from single-cell
+  Strand-seq data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- strand-seq
+reference:
+  doi: 10.1093/bioinformatics/btad633
+  year: 2023
+  journal: Bioinformatics
+  first_author: Weber T
+  last_author: Korbel J
+  pmid: '37851409'
+  pmcid: PMC10628386
+  title: 'MosaiCatcher v2: a single-cell structural variations detection and analysis reference framework based on Strand-seq'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present MosaiCatcher v2, a standardized workflow and reference framework for single-cell SV detection using
+  Strand-seq.

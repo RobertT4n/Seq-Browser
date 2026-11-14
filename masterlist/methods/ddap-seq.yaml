@@ -1,0 +1,30 @@
+name: dDAP-seq
+full_name: double DNA affinity purification sequencing
+category: wet
+summary: DAP-seq extension that maps binding sites of transcription factor heterodimers on endogenous genomic DNA.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: Abstract does not describe library chemistry
+species:
+- plant
+targets:
+- bZIP heterodimers
+variant_of:
+- dap-seq
+reference:
+  doi: 10.1038/s41467-023-38096-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Li M
+  last_author: Huang SC
+  pmid: '37147307'
+  pmcid: PMC10163045
+  title: Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors
+links: {}
+added: '2026-11-14'
+evidence: To address this gap, we present the double DNA Affinity Purification-sequencing (dDAP-seq) technique that maps heterodimer
+  binding sites on endogenous genomic DNA.

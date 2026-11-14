@@ -1,0 +1,24 @@
+name: iSKIM
+full_name: intrahost SARS-CoV-2 k-mer identification method
+category: dry
+summary: K-mer based screening of public SARS-CoV-2 sequencing runs to identify intrahost mutations belonging to lineages
+  of concern.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v14102128
+  year: 2022
+  journal: Viruses
+  first_author: Thommana A
+  last_author: Conte MA
+  pmid: '36298683'
+  pmcid: PMC9609618
+  title: Intrahost SARS-CoV-2 k-mer Identification Method (iSKIM) for Rapid Detection of Mutations of Concern Reveals Emergence
+    of Global Mutation Patterns
+links: {}
+added: '2026-11-14'
+evidence: We developed iSKIM ("intrahost SARS-CoV-2 k-mer identification method") to relatively quickly and efficiently screen
+  the many SARS-CoV-2 datasets to identify intrahost mutations belonging to lineages of concern.

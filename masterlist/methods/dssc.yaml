@@ -1,0 +1,24 @@
+name: DSSC
+full_name: Deep Spatially constrained Single-cell Clustering
+category: dry
+summary: Deep clustering of spatially resolved scRNA-seq data that uses spatial coordinates and marker-gene constraints to
+  guide an autoencoder.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276477.121
+  year: 2022
+  journal: Genome Res
+  first_author: Lin X
+  last_author: Wei Z
+  pmid: '36198490'
+  pmcid: PMC9712636
+  title: A model-based constrained deep learning clustering approach for spatially resolved single-cell data
+links: {}
+added: '2026-11-14'
+evidence: we develop a deep learning approach for clustering sp-scRNA-seq data, named Deep Spatially constrained Single-cell
+  Clustering (DSSC)

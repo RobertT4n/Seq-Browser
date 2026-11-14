@@ -1,0 +1,30 @@
+name: TCM-seq
+full_name: transcriptome changes of Chinese medicine perturbations profiled by multiplexed RNA-seq
+category: wet
+summary: High-throughput, low-cost multiplexed RNA-seq workflow for profiling transcriptome responses of many cell-line samples
+  to Chinese medicine perturbations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+species:
+- human
+reference:
+  doi: 10.1016/j.jpha.2023.02.009
+  year: 2023
+  journal: J Pharm Anal
+  first_author: Cheng J
+  last_author: Fan X
+  pmid: '37181291'
+  pmcid: PMC10173292
+  title: High-throughput transcriptional profiling of perturbations by <i>Panax ginseng</i> saponins and <i>Panax notoginseng</i>
+    saponins using TCM-seq
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed an approach that simultaneously profiles transcriptome changes for multiplexed samples using
+  RNA-seq (TCM-seq), a high-throughput, low-cost workflow to molecularly evaluate CM perturbations.

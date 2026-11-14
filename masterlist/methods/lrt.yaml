@@ -1,0 +1,23 @@
+name: LRT
+category: dry
+summary: Computational framework that combines scRNA-seq trajectories with scTCR-seq clonotypes to find clonotype clusters
+  with distinct differentiation bias.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011300
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Xie J
+  last_author: Chung D
+  pmid: '37428794'
+  pmcid: PMC10358952
+  title: 'LRT: Integrative analysis of scRNA-seq and scTCR-seq data to investigate clonal differentiation heterogeneity'
+links: {}
+added: '2026-11-14'
+evidence: We developed LRT, a computational framework for the integrative analysis of scTCR-seq and scRNA-seq data to explore
+  clonal differentiation trajectory heterogeneity.

@@ -1,0 +1,24 @@
+name: MethylScore
+category: dry
+summary: Pipeline that segments plant genomes into methylation states and calls differentially methylated regions from population-scale
+  WGBS data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1017/qpb.2022.14
+  year: 2022
+  journal: Quant Plant Biol
+  first_author: Hüther P
+  last_author: Becker C
+  pmid: '37077980'
+  pmcid: PMC10095865
+  title: MethylScore, a pipeline for accurate and context-aware identification of differentially methylated regions from population-scale
+    plant whole-genome bisulfite sequencing data
+links: {}
+added: '2026-11-14'
+evidence: Here, we present MethylScore, a pipeline to analyse WGBS data and to account for the substantially more complex
+  and variable nature of plant DNA methylation.

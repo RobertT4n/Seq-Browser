@@ -1,0 +1,24 @@
+name: OutSingle
+full_name: Outlier detection using Singular Value Decomposition
+category: dry
+summary: Near-instant detection of expression outliers in RNA-seq count data using SVD with an optimal hard threshold for
+  confounder control.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad142
+  year: 2023
+  journal: Bioinformatics
+  first_author: Salkovic E
+  last_author: Bensmail H
+  pmid: '36945891'
+  pmcid: PMC10089674
+  title: 'OutSingle: a novel method of detecting and injecting outliers in RNA-Seq count data using the optimal hard threshold
+    for singular values'
+links: {}
+added: '2026-11-14'
+evidence: In this article, we present OutSingle (Outlier detection using Singular Value Decomposition), an almost instantaneous
+  way of detecting outliers in RNA-Seq GE data.

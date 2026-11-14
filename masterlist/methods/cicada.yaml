@@ -1,0 +1,23 @@
+name: CIcADA
+full_name: Cell type-specific Interaction Analysis using Doublets in scRNA-seq
+category: dry
+summary: Pipeline that treats scRNA-seq doublets as in-situ juxtacrine cell-cell interactions and compares them with synthetic
+  doublets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad120
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Schiebout C
+  last_author: Frost HR
+  pmid: '37745004'
+  pmcid: PMC10516525
+  title: Cell type-specific interaction analysis using doublets in scRNA-seq
+links: {}
+added: '2026-11-14'
+evidence: We developed Cell type-specific Interaction Analysis using Doublets in scRNA-seq (CIcADA) as a pipeline for identifying
+  and analyzing biologically meaningful doublets in scRNA-seq data.

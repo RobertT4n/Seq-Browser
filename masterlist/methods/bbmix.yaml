@@ -1,0 +1,23 @@
+name: BBmix
+category: dry
+summary: Bayesian beta-binomial mixture model that learns read-count distributions per genotype to call genotypes from RNA-seq
+  while accounting for allele-specific expression.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad393
+  year: 2023
+  journal: Bioinformatics
+  first_author: Vigorito E
+  last_author: Wallace C
+  pmid: '37338536'
+  pmcid: PMC10318392
+  title: 'BBmix: a Bayesian beta-binomial mixture model for accurate genotyping from RNA-sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Bayesian beta-binomial mixture model (BBmix), a Bayesian beta-binomial mixture model that first
+  learns the expected distribution of read counts for each genotype, and then deploys those learned parameters to call genotypes
+  probabilistically.

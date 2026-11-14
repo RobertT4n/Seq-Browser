@@ -1,0 +1,20 @@
+name: rsRNAfinder
+category: dry
+summary: Snakemake pipeline to identify, classify and quantify rRNA-derived small RNAs from small RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.mex.2023.102494
+  year: 2024
+  journal: MethodsX
+  first_author: Kalakoti G
+  last_author: Kumar S
+  pmid: '38089152'
+  pmcid: PMC10711234
+  title: Comprehensive profiling of rRNA-derived small RNAs in <i>Arabidopsis thaliana</i> using rsRNAfinder pipeline
+links: {}
+added: '2026-11-14'
+evidence: To bridge this gap, we introduce 'rsRNAfinder' a specialized pipeline designed within the Snakemake framework.

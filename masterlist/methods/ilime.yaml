@@ -1,0 +1,26 @@
+name: iLIME
+full_name: intramolecular ligation method
+category: wet
+summary: T4 RNA ligase 1 circularizes pre-miRNAs so they can be quantified by PCR and have their ends sequenced, separately
+  from parental pri-miRNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1261/rna.079101.122
+  year: 2022
+  journal: RNA
+  first_author: Le MN
+  last_author: Nguyen TA
+  pmid: '35487691'
+  pmcid: PMC9202589
+  title: Intramolecular ligation method (iLIME) for pre-miRNA quantification and sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed the intramolecular ligation method (iLIME) to quantify and sequence pre-miRNAs specifically.

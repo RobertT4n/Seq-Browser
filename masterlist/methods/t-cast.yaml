@@ -1,0 +1,31 @@
+name: T-CAST
+full_name: TALEN-specific CAST-Seq
+category: wet
+summary: CAST-Seq adaptation that identifies TALEN-mediated off-target sites and translocations and predicts the TALEN pairing
+  conformation behind off-target cleavage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: linker-mediated PCR has no matching chemistry tag
+validated_system:
+- primary-cells
+species:
+- human
+variant_of:
+- cast-seq
+reference:
+  doi: 10.3389/fgeed.2023.1130736
+  year: 2023
+  journal: Front Genome Ed
+  first_author: Rhiel M
+  last_author: Cornu TI
+  pmid: '36890979'
+  pmcid: PMC9986454
+  title: 'T-CAST: An optimized CAST-Seq pipeline for TALEN confirms superior safety and efficacy of obligate-heterodimeric
+    scaffolds'
+links: {}
+added: '2026-11-14'
+evidence: We describe the implementation and validation of TALEN-specific CAST-Seq (T-CAST), a pipeline based on CAST-Seq
+  that identifies TALEN-mediated off-target effects.

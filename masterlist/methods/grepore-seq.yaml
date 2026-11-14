@@ -1,0 +1,32 @@
+name: GREPore-seq
+full_name: grepping reads of nanopore amplicon sequencing
+category: wet
+summary: Pooled nanopore sequencing of barcoded long-range PCR products, with a read-grepping pipeline, to quantify CRISPR/Cas9
+  editing outcomes including large insertions and deletions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.gpb.2022.06.002
+  year: 2023
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Quan ZJ
+  last_author: Zhang XB
+  pmid: '35752289'
+  pmcid: PMC11082256
+  title: 'GREPore-seq: A Robust Workflow to Detect Changes After Gene Editing Through Long-range PCR and Nanopore Sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Recognizing the high error rates of Oxford nanopore sequencing, we developed a novel pipeline to capture the barcoded
+  sequences by grepping reads of nanopore amplicon sequencing (GREPore-seq).

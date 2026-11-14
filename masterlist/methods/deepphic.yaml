@@ -1,0 +1,23 @@
+name: DeepPHiC
+category: dry
+summary: Supervised multi-modal deep learning model that predicts tissue- and cell-type-specific promoter-enhancer and promoter-promoter
+  chromatin interactions.
+reference:
+  doi: 10.1093/bioinformatics/btac801
+  year: 2023
+  journal: Bioinformatics
+  first_author: Agarwal A
+  last_author: Chen L
+  pmid: '36495179'
+  pmcid: PMC9825766
+  title: 'DeepPHiC: predicting promoter-centered chromatin interactions using a novel deep learning approach'
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+added: '2026-11-14'
+evidence: We develop a supervised multi-modal deep learning model, which utilizes a comprehensive set of features such as
+  genomic sequence, epigenetic signal, anchor distance, evolutionary features and DNA structural features to predict tissue/cell
+  type-specific PE and PP interactions.

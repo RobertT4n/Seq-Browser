@@ -1,0 +1,28 @@
+name: Capture MRE-seq
+full_name: capture methylation-sensitive restriction enzyme sequencing
+category: wet
+summary: MRE-seq protocol redesigned to preserve unmethylated CpG information in highly degraded (FFPE) DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+input_sample:
+- ffpe-archival
+variant_of: []
+reference:
+  doi: 10.1007/978-1-0716-2950-5_6
+  year: 2023
+  journal: Methods Mol Biol
+  first_author: Xing X
+  last_author: Wang T
+  pmid: '37041441'
+  title: Capture Methylation-Sensitive Restriction Enzyme Sequencing (Capture MRE-Seq) for Methylation Analysis of Highly
+    Degraded DNA Samples
+links: {}
+added: '2026-11-14'
+evidence: Here, we describe Capture MRE-seq, a new MRE-seq protocol tailored to preserving unmethylated CpG information when
+  using samples with highly degraded DNA.

@@ -1,0 +1,25 @@
+name: CHEX-seq
+category: wet
+summary: Light-activatable 3-prime blocked probes prime copying of single-stranded genomic DNA in situ in individual cells,
+  mapping the single-stranded chromatin landscape.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+partition_unknown: not stated in the abstract
+chemistry_unknown: Abstract does not state library chemistry beyond light-activatable probe priming
+reference:
+  doi: 10.1038/s41467-023-43158-6
+  year: 2023
+  journal: Nat Commun
+  first_author: Lu Y
+  last_author: Eberwine J
+  pmid: '37963886'
+  pmcid: PMC10645931
+  title: CHEX-seq detects single-cell genomic single-stranded DNA with catalytical potential
+links: {}
+added: '2026-11-14'
+evidence: CHEX-seq uses 3'-terminal blocked, light-activatable probes to prime the copying of ssDNA into complementary DNA
+  that is sequenced, thereby reporting the genome-wide single-stranded chromatin landscape.

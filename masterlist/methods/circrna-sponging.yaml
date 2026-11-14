@@ -1,0 +1,25 @@
+name: circRNA-sponging
+category: dry
+summary: Nextflow pipeline that detects circRNAs from RNA-seq backsplice junctions, quantifies them against linear isoforms
+  and predicts circRNA-miRNA sponging networks using miRNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad093
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Hoffmann M
+  last_author: List M
+  pmid: '37485422'
+  pmcid: PMC10359604
+  title: 'circRNA-sponging: a pipeline for extensive analysis of circRNA expression and their role in miRNA sponging'
+links: {}
+added: '2026-11-14'
+evidence: We developed circRNA-sponging, a nextflow pipeline that (i) identifies circRNAs via backsplicing junctions detected
+  in RNA-seq data, (ii) quantifies their expression values in relation to their linear counterparts spliced from the same
+  gene, (iii) performs differential expression analysis, (iv) identifies and quantifies miRNA expression from miRNA-sequencing
+  (miRNA-seq) data, (v) predicts miRNA binding sites on circRNAs, (vi) systematically investigates potential circRNA-miRNA
+  sponging events.

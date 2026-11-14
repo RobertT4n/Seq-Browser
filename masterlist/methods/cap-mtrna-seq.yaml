@@ -1,0 +1,26 @@
+name: CAP mtRNA-seq
+full_name: capture-based mtRNA seq
+category: wet
+summary: Capture-based targeted sequencing of the whole mitochondrial transcriptome with strand-specific libraries and rRNA
+  depletion.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.3c03741
+  year: 2023
+  journal: Anal Chem
+  first_author: Wang Z
+  last_author: Xing J
+  pmid: '37937716'
+  title: A High-Efficiency Capture-Based NGS Approach for Comprehensive Analysis of Mitochondrial Transcriptome
+links: {}
+added: '2026-11-14'
+evidence: Based on these insights, we developed a highly efficient approach specifically suitable for targeted sequencing
+  of whole mitochondrial transcriptome, termed capture-based mtRNA seq (CAP), in which strand-specific library construction
+  and optimal rRNA depletion were applied.

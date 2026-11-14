@@ -1,0 +1,29 @@
+name: AIDmut-Seq
+full_name: TF-directed activation-induced cytidine deaminase mutagenesis sequencing
+category: wet
+summary: A TF is fused to AID so that C-to-T conversions accumulate near its binding sites, which are then read out by whole-genome
+  sequencing and SNP profiling.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: no fitting chemistry tag (in vivo TF-AID fusion mutagenesis, read by whole-genome sequencing)
+species:
+- microbe
+validated_system:
+- cell-line
+reference:
+  doi: 10.1128/spectrum.03783-22
+  year: 2023
+  journal: Microbiol Spectr
+  first_author: Li F
+  last_author: Jin F
+  pmid: '36533916'
+  pmcid: PMC9927353
+  title: 'AIDmut-Seq: a Three-Step Method for Detecting Protein-DNA Binding Specificity'
+links: {}
+added: '2026-11-14'
+evidence: we developed a method based on TF-directed activation-induced cytidine deaminase (AID) mutagenesis in combination
+  with genome sequencing, called AIDmut-Seq, to detect TF targets on the genome

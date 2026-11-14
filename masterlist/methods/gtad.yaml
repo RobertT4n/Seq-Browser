@@ -1,0 +1,22 @@
+name: GTAD
+category: dry
+summary: Graph attention network that deconvolves spatial transcriptomics spots into cell-type composition using integrated
+  scRNA-seq and ST data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad469
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Zhang T
+  last_author: Zhang D
+  pmid: '38127088'
+  pmcid: PMC10734610
+  title: 'GTAD: a graph-based approach for cell spatial composition inference from integrated scRNA-seq and ST-seq data'
+links: {}
+added: '2026-11-14'
+evidence: We introduce GTAD, a method utilizing the Graph Attention Network for deconvolution of integrated scRNA-seq and
+  ST-seq data.

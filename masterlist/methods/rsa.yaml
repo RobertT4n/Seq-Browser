@@ -1,0 +1,32 @@
+name: RSA
+full_name: region-specific amplification
+category: wet
+summary: Enrichment of a ~1 Mb target region for nanopore sequencing by Y-adaptor ligation, single primer extension and universal-primer
+  amplification, used to find 22q11.2 deletion breakpoints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- adapter-ligation
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- human
+reference:
+  doi: 10.3389/fgene.2022.959883
+  year: 2022
+  journal: Front Genet
+  first_author: Lei YQ
+  last_author: Wang XR
+  pmid: '36386847'
+  pmcid: PMC9659874
+  title: A method of large DNA fragment enrichment for nanopore sequencing in region 22q11.2
+links: {}
+added: '2026-11-14'
+evidence: RSA introduces universal primers into the target region DNA by a Y-shaped adaptor ligation and a single primer extension

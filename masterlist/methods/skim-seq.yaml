@@ -1,0 +1,25 @@
+name: skim-seq
+category: wet
+summary: High-throughput whole-genome skim-sequencing with low-volume Nextera chemistry and dual-index barcoding of up to
+  960 samples per library for genotyping and detecting introgressions or translocations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- plant
+reference:
+  doi: 10.1038/s41598-022-19858-2
+  year: 2022
+  journal: Sci Rep
+  first_author: Adhikari L
+  last_author: Poland J
+  pmid: '36266371'
+  pmcid: PMC9584886
+  title: A high-throughput skim-sequencing approach for genotyping, dosage estimation and identifying translocations
+links: {}
+added: '2026-11-14'
+evidence: we developed a skim-seq method and combined up to 960 samples in one multiplex library using dual index barcoding

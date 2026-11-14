@@ -1,0 +1,23 @@
+name: GenomicSuperSignature
+category: dry
+summary: Replicable axes of variation from 44,890 public RNA-seq profiles let new transcriptomic datasets be compared to public
+  databases and annotated.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-31411-3
+  year: 2022
+  journal: Nat Commun
+  first_author: Oh S
+  last_author: Davis S
+  pmid: '35760813'
+  pmcid: PMC9237024
+  title: GenomicSuperSignature facilitates interpretation of RNA-seq experiments through robust, efficient comparison to public
+    databases
+links: {}
+added: '2026-11-14'
+evidence: Functionality to associate new datasets with RAVs, extract interpretable annotations, and provide intuitive visualization
+  are implemented as the GenomicSuperSignature R/Bioconductor package.

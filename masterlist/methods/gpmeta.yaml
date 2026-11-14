@@ -1,0 +1,20 @@
+name: GPMeta
+category: dry
+summary: GPU-accelerated classifier for ultrarapid pathogen identification from metagenomic sequencing data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad092
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Wang X
+  last_author: He Z
+  pmid: '36917170'
+  title: 'GPMeta: a GPU-accelerated method for ultrarapid pathogen identification from metagenomic sequences'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present GPMeta, a novel GPU-accelerated approach to ultrarapid pathogen identification from complex mNGS
+  data, allowing users to bypass this limitation.

@@ -1,0 +1,30 @@
+name: scGBS
+full_name: single-cell genotyping-by-sequencing
+category: wet
+summary: Single-cell DNA is amplified, size-reduced by restriction digestion and genotyped by sequencing to give haplotypes
+  and copy-number profiles with the haplarithmisis algorithm.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+partition_unknown: not stated in the abstract
+validated_system:
+- primary-cells
+species:
+- human
+- other-vertebrate
+reference:
+  doi: 10.1093/nar/gkac134
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Masset H
+  last_author: Vermeesch JR
+  pmid: '35212381'
+  pmcid: PMC9226495
+  title: Single-cell genome-wide concurrent haplotyping and copy-number profiling through genotyping-by-sequencing
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a novel sequencing-based methodology to haplotype and copy-number profile single cells.

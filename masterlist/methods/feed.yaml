@@ -1,0 +1,22 @@
+name: FEED
+full_name: Feature sElection method based on gene Expression Decomposition
+category: dry
+summary: Feature selection for scRNA-seq that decomposes gene expression into Gaussian components and ranks genes by distribution-based
+  correlation to improve clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad389
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Zhang C
+  last_author: Li HD
+  pmid: '37935617'
+  title: 'FEED: a feature selection method based on gene expression decomposition for single cell clustering'
+links: {}
+added: '2026-11-14'
+evidence: we present a Feature sElection method based on gene Expression Decomposition (FEED) of scRNA-seq data, which selects
+  informative genes to enhance clustering performance.

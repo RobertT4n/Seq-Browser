@@ -1,0 +1,25 @@
+name: FREQ-Seq2
+category: wet
+summary: Paired-barcode amplicon sequencing that quantifies allele frequencies in pooled samples at up to 2,304-sample throughput.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1093/g3journal/jkad162
+  year: 2023
+  journal: G3 (Bethesda)
+  first_author: Zhao R
+  last_author: Emerson JJ
+  pmid: '37494033'
+  pmcid: PMC10542570
+  title: 'FREQ-Seq2: a method for precise high-throughput combinatorial quantification of allele frequencies'
+links: {}
+added: '2026-11-14'
+evidence: We present a precise, efficient, and economical method (FREQ-Seq2) for quantifying the relative frequencies of different
+  alleles at loci of interest in mixed population samples.

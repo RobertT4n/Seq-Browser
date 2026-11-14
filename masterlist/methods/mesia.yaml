@@ -1,0 +1,22 @@
+name: MESIA
+full_name: multi-epigenome sample integration approach for precise peak calling
+category: dry
+summary: Shell-script method that integrates replicate ATAC-seq samples by reproducibility to determine optimal peaks.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-023-47948-2
+  year: 2023
+  journal: Sci Rep
+  first_author: Park SG
+  last_author: Ryoo HM
+  pmid: '38012291'
+  pmcid: PMC10681995
+  title: 'MESIA: multi-epigenome sample integration approach for precise peak calling'
+links: {}
+added: '2026-11-14'
+evidence: We developed multi-epigenome sample integration approach for precise peak calling (MESIA), which integrates replication
+  with high representativeness and reproducibility in multi-sample replication and determines the optimal peak.

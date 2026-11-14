@@ -1,0 +1,29 @@
+name: TBaM-seq
+full_name: targeted-bacterial-multiplexed-seq
+category: wet
+summary: BaM-seq variant that enriches a chosen gene panel from multiplexed bacterial RNA samples for differential expression
+  with over 100-fold coverage enrichment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- microbe
+shared_doi: BaM-seq and TBaM-seq are two methods presented in the same paper
+reference:
+  doi: 10.1093/nargab/lqad017
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Johnson GE
+  last_author: Li GW
+  pmid: '36879903'
+  pmcid: PMC9985320
+  title: BaM-seq and TBaM-seq, highly multiplexed and targeted RNA-seq protocols for rapid, low-cost library generation from
+    bacterial samples
+links: {}
+added: '2026-11-14'
+evidence: We also present targeted-bacterial-multiplexed-seq (TBaM-seq) that allows for differential expression analysis of
+  specific gene panels with over 100-fold enrichment in read coverage.

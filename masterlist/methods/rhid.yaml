@@ -1,0 +1,23 @@
+name: rHID
+full_name: raw high-confidence identification
+category: dry
+summary: Joint variant-calling framework for population-scale sequencing that combines GATK and Freebayes calls with error-aware
+  probabilities and FDR control.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40104-023-00923-3
+  year: 2023
+  journal: J Anim Sci Biotechnol
+  first_author: Xie S
+  last_author: Murdoch BM
+  pmid: '37779189'
+  pmcid: PMC10544426
+  title: A computational framework for improving genetic variants identification from 5,061 sheep sequencing data
+links: {}
+added: '2026-11-14'
+evidence: In this study, we developed a computational framework for joint calling genetic variants from 5,061 sheep by incorporating
+  the sequencing error and optimizing mutual support information from multiple samples' data.

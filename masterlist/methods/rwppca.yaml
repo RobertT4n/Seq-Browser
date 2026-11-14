@@ -1,0 +1,22 @@
+name: RWPPCA
+full_name: joint L2,p-norm and random walk graph constrained PCA
+category: dry
+summary: PCA variant combining random-walk graph regularisation with an L2,p-norm sparsity constraint for cell-type identification
+  in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1080/10255842.2023.2188106
+  year: 2024
+  journal: Comput Methods Biomech Biomed Engin
+  first_author: Wang TG
+  last_author: Wang J
+  pmid: '36912759'
+  title: Joint L<sub>2,p</sub>-norm and random walk graph constrained PCA for single-cell RNA-seq data
+links: {}
+added: '2026-11-14'
+evidence: Therefore, we present a novel method in this paper called joint L2,p-norm and random walk graph constrained PCA
+  (RWPPCA).

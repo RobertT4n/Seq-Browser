@@ -1,0 +1,21 @@
+name: ITDetect
+category: dry
+summary: Detects FLT3 internal tandem duplications from NGS data including exome and targeted panel sequencing.
+reference:
+  doi: 10.1186/s12859-023-05173-8
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Lee S
+  last_author: Yun H
+  pmid: '36823555'
+  pmcid: PMC9951415
+  title: 'ITDetect: a method to detect internal tandem duplication of FMS-like tyrosine kinase (FLT3) from next-generation
+    sequencing data with high sensitivity and clinical application'
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+links: {}
+added: '2026-11-14'
+evidence: Here, we introduce ITDetect, an efficient FLT3-ITD detection approach that uses NGS data.

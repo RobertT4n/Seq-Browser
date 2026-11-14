@@ -1,0 +1,22 @@
+name: HASCAD
+full_name: HArmonized single-cell RNA-seq Cell type Assisted Deconvolution
+category: dry
+summary: Deep neural network that estimates immune cell-type fractions in bulk RNA-seq, trained on batch-harmonized scRNA-seq
+  reference data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-023-01674-w
+  year: 2023
+  journal: BMC Med Genomics
+  first_author: Chiu YJ
+  last_author: Huang YH
+  pmid: '37907883'
+  pmcid: PMC10619225
+  title: HArmonized single-cell RNA-seq Cell type Assisted Deconvolution (HASCAD)
+links: {}
+added: '2026-11-14'
+evidence: We developed a deep neural network (DNN) model, HASCAD, to predict the cell fractions of up to 15 immune cell types.

@@ -1,0 +1,33 @@
+name: Universal Surface Biotinylation
+full_name: Universal Surface Biotinylation
+aliases:
+- USB
+category: wet
+summary: Cell-surface proteins are biotinylated and labelled with DNA-tagged streptavidin so samples can be multiplexed as
+  hashtags in single-cell RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+species:
+- mouse
+reference:
+  doi: 10.1093/dnares/dsac017
+  year: 2022
+  journal: DNA Res
+  first_author: Sugimoto M
+  last_author: Abe K
+  pmid: '35652718'
+  pmcid: PMC9202638
+  title: 'Universal Surface Biotinylation: a simple, versatile and cost-effective sample multiplexing method for single-cell
+    RNA-seq analysis'
+links: {}
+added: '2026-11-14'
+evidence: To overcome this issue, we developed a universal labelling technique, Universal Surface Biotinylation (USB), which
+  does not depend on specific cell surface proteins.

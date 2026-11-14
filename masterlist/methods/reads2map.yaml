@@ -1,0 +1,22 @@
+name: Reads2Map
+category: dry
+summary: Workflow that runs combinations of SNP callers, genotype callers and linkage-map builders on genotyping-by-sequencing
+  data to build and compare linkage maps.
+reference:
+  doi: 10.1093/gigascience/giad092
+  year: 2022
+  journal: Gigascience
+  first_author: Taniguti CH
+  last_author: Garcia AAF
+  pmid: '37889010'
+  pmcid: PMC10603770
+  title: Developing best practices for genotyping-by-sequencing analysis in the construction of linkage maps
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+links: {}
+added: '2026-11-14'
+evidence: We developed and used the Reads2Map workflow to build linkage maps with simulated and empirical GBS data of diploid
+  outcrossing populations.

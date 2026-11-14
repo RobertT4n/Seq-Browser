@@ -1,0 +1,21 @@
+name: SPCS
+full_name: spatial and pattern combined smoothing
+category: dry
+summary: Two-factor kNN smoothing that uses both transcriptome and spatial neighbours to denoise spatial transcriptomics expression.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac116
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Liu Y
+  last_author: Johnson TS
+  pmid: '35380614'
+  pmcid: PMC9116229
+  title: 'SPCS: a spatial and pattern combined smoothing method for spatial transcriptomic expression'
+links: {}
+added: '2026-11-14'
+evidence: we present a novel two-factor smoothing technique, spatial and pattern combined smoothing (SPCS)

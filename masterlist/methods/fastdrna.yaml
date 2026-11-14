@@ -1,0 +1,22 @@
+name: FASTdRNA
+category: dry
+summary: Snakemake workflow for Oxford Nanopore direct RNA sequencing that covers basecalling, mapping, counting, poly(A)
+  length, RNA modification prediction and alternative splicing.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad099
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Chen X
+  last_author: Li B
+  pmid: '37521311'
+  pmcid: PMC10375421
+  title: 'FASTdRNA: a workflow for the analysis of ONT direct RNA sequencing'
+links: {}
+added: '2026-11-14'
+evidence: We present a novel workflow, called FASTdRNA, to manipulate dRNA-seq data efficiently.

@@ -1,0 +1,28 @@
+name: SPTCR-seq
+full_name: spatially resolved T cell receptor sequencing
+category: wet
+summary: Spatially resolved TCR sequencing combining target enrichment with long-read sequencing to recover full-length TCRs
+  from tissue.
+readouts:
+- immune-repertoire
+resolution:
+- spatial
+- single-molecule
+scope: targeted
+platform:
+- long-read
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41467-023-43201-6
+  year: 2023
+  journal: Nat Commun
+  first_author: Benotmane JK
+  last_author: Heiland DH
+  pmid: '37973846'
+  pmcid: PMC10654577
+  title: High-sensitive spatially resolved T cell receptor sequencing with SPTCR-seq
+links: {}
+added: '2026-11-14'
+evidence: We present spatially resolved T cell receptor sequencing (SPTCR-seq), which integrates optimized target enrichment
+  and long-read sequencing for highly sensitive TCR sequencing.

@@ -1,0 +1,26 @@
+name: MGA-seq
+full_name: multiple genetic abnormality sequencing
+category: wet
+summary: Sequencing of proximity-ligated genomic fragments in one tube to detect SVs, CNVs, SNPs, HSRs and ecDNA.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+reference:
+  doi: 10.1186/s13059-023-03081-x
+  year: 2023
+  journal: Genome Biol
+  first_author: Lin D
+  last_author: Cao G
+  pmid: '37904244'
+  pmcid: PMC10614391
+  title: 'MGA-seq: robust identification of extrachromosomal DNA and genetic variants using multiple genetic abnormality sequencing'
+links: {}
+added: '2026-11-14'
+evidence: we develop a simple and efficient method - multiple genetic abnormality sequencing (MGA-Seq) - to simultaneously
+  detect structural variation, copy number variation, single-nucleotide polymorphism, homogeneously staining regions, and
+  extrachromosomal DNA (ecDNA) from a single tube.

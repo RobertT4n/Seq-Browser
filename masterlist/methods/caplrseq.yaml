@@ -1,0 +1,34 @@
+name: CAPLRseq
+full_name: capture and ultradeep long-read RNA sequencing
+category: wet
+summary: Capture-based target enrichment of patient RNA followed by Oxford Nanopore long-read sequencing of 123 hereditary
+  cancer transcripts to find splicing and expression defects.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+platform:
+- long-read
+- nanopore
+scope: targeted
+chemistry:
+- long-read-sequencing
+- oligo-capture
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1136/jmg-2022-108931
+  year: 2023
+  journal: J Med Genet
+  first_author: Schwenk V
+  last_author: Wolf DA
+  pmid: '36593122'
+  pmcid: PMC10423559
+  title: Transcript capture and ultradeep long-read RNA sequencing (CAPLRseq) to diagnose HNPCC/Lynch syndrome
+links: {}
+added: '2026-11-14'
+evidence: We developed and applied capture-based target enrichment from patient RNA samples combined with Oxford Nanopore
+  long-read sequencing for the analysis of 123 hereditary cancer transcripts (capture and ultradeep long-read RNA sequencing
+  (CAPLRseq)).

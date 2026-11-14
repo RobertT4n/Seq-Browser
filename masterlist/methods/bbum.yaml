@@ -1,0 +1,24 @@
+name: BBUM
+full_name: Bi-beta-uniform mixture model
+category: dry
+summary: Statistical mixture model that separates primary ZSWIM8-dependent miRNA degradation substrates from background signal
+  in differential small-RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05306-z
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Wang PY
+  last_author: Bartel DP
+  pmid: '37170259'
+  pmcid: PMC10176919
+  title: A statistical approach for identifying primary substrates of ZSWIM8-mediated microRNA degradation in small-RNA sequencing
+    data
+links: {}
+added: '2026-11-14'
+evidence: This method uses a bi-beta-uniform mixture (BBUM) model to separate primary from background signal components, leveraging
+  the expectation that primary signal is restricted to upregulation and not downregulation upon loss of ZSWIM8.

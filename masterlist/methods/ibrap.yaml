@@ -1,0 +1,23 @@
+name: IBRAP
+full_name: Integrated Benchmarking scRNA-seq Analytical Pipeline
+category: dry
+summary: Pipeline with interchangeable scRNA-seq analysis components and benchmarking metrics to find the best pipeline combination
+  per dataset.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad061
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Knight CH
+  last_author: Wang J
+  pmid: '36847692'
+  pmcid: PMC10025434
+  title: 'IBRAP: integrated benchmarking single-cell RNA-sequencing analytical pipeline'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP), which contains a suite of analytical
+  components that can be interchanged throughout the pipeline alongside multiple benchmarking metrics.

@@ -1,0 +1,21 @@
+name: CellDialog
+category: dry
+summary: Framework that curates high-confidence ligand-receptor interactions and scores cell-cell communication strength from
+  scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2023.3333828
+  year: 2023
+  journal: IEEE J Biomed Health Inform
+  first_author: Peng L
+  last_author: Chen X
+  pmid: '37976192'
+  title: 'CellDialog: A Computational Framework for Ligand-receptor-mediated Cell-cell Communication Analysis III'
+links: {}
+added: '2026-11-14'
+evidence: Here, we developed a computational framework named CellDialog to reconstruct an intercellular connectivity network
+  based on the combined expression of ligands and receptors involved in sender and receiver cells.

@@ -1,0 +1,23 @@
+name: APAIQ
+full_name: alternative polyadenylation identification and quantification
+category: dry
+summary: Tool that identifies polyadenylation sites and quantifies their usage transcriptome-wide from standard RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277177.122
+  year: 2023
+  journal: Genome Res
+  first_author: Long Y
+  last_author: Gao X
+  pmid: '37117035'
+  pmcid: PMC10234309
+  title: Accurate transcriptome-wide identification and quantification of alternative polyadenylation from RNA-seq data with
+    APAIQ
+links: {}
+added: '2026-11-14'
+evidence: Here we developed a tool for APA identification and quantification (APAIQ) from RNA-seq data, which can accurately
+  identify PAS and quantify PAU in a transcriptome-wide manner.

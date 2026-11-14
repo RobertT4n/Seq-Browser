@@ -1,0 +1,33 @@
+name: Nano3P-seq
+full_name: Nanopore 3' end-capture sequencing
+category: wet
+summary: Template-switching nanopore cDNA sequencing from the RNA 3' end that reports abundance, poly(A) tail length and tail
+  composition per read without PCR or adapter ligation.
+readouts:
+- rna
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species:
+- mouse
+- other-vertebrate
+reference:
+  doi: 10.1038/s41592-022-01714-w
+  year: 2023
+  journal: Nat Methods
+  first_author: Begik O
+  last_author: Novoa EM
+  pmid: '36536091'
+  pmcid: PMC9834059
+  title: 'Nano3P-seq: transcriptome-wide analysis of gene expression and tail dynamics using end-capture nanopore cDNA sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here we develop Nanopore 3' end-capture sequencing (Nano3P-seq), a method that relies on nanopore cDNA sequencing
+  to simultaneously quantify RNA abundance, tail composition, and tail length dynamics at per-read resolution

@@ -1,0 +1,22 @@
+name: GSFA
+full_name: guided sparse factor analysis
+category: dry
+summary: Bayesian sparse factor analysis that infers latent gene modules and perturbation effects in single-cell CRISPR screens.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02017-4
+  year: 2023
+  journal: Nat Methods
+  first_author: Zhou Y
+  last_author: He X
+  pmid: '37770710'
+  pmcid: PMC10630124
+  title: A new Bayesian factor analysis method improves detection of genes and biological processes affected by perturbations
+    in single-cell CRISPR screening
+links: {}
+added: '2026-11-14'
+evidence: We developed a statistical method for such data, called guided sparse factor analysis (GSFA).

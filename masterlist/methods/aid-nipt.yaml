@@ -1,0 +1,23 @@
+name: aiD-NIPT
+full_name: artificial intelligence algorithm using cell-free DNA fragment distance for non-invasive prenatal testing
+category: dry
+summary: CNN-based NIPT that detects fetal trisomies 21/18/13 from cfDNA fragment-distance rather than fragment-count features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.999587
+  year: 2022
+  journal: Front Genet
+  first_author: Lee J
+  last_author: Ki CS
+  pmid: '36523771'
+  pmcid: PMC9745024
+  title: Development and performance evaluation of an artificial intelligence algorithm using cell-free DNA fragment distance
+    for non-invasive prenatal testing (aiD-NIPT)
+links: {}
+added: '2026-11-14'
+evidence: we developed a novel NIPT method using cfDNA fragment distance (FD) and convolutional neural network-based artificial
+  intelligence algorithm (aiD-NIPT)

@@ -1,0 +1,21 @@
+name: msPIPE
+category: dry
+summary: End-to-end pipeline for WGBS DNA methylation analysis and visualisation from raw reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04925-2
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Kim H
+  last_author: Kim J
+  pmid: '36123620'
+  pmcid: PMC9487059
+  title: 'msPIPE: a pipeline for the analysis and visualization of whole-genome bisulfite sequencing data'
+links: {}
+added: '2026-11-14'
+evidence: msPIPE is a new end-to-end pipeline designed for methylation calling, profiling, and various types of downstream DNA methylation analyses, leading to the creation of publication-quality figures.

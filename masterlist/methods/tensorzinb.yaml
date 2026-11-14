@@ -1,0 +1,22 @@
+name: TensorZINB
+category: dry
+summary: TensorFlow-based solver for zero-inflated negative binomial models for scRNA-seq differential expression, with hurdle/zero-inflated
+  model comparison.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad272
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Cui T
+  last_author: Wang T
+  pmid: '37507115'
+  pmcid: PMC10516395
+  title: A comprehensive assessment of hurdle and zero-inflated models for single cell RNA-sequencing analysis
+links: {}
+added: '2026-11-14'
+evidence: we developed a Python-based package (TensorZINB) to solve the zero-inflated negative binomial (ZINB) model using
+  the TensorFlow deep learning framework.

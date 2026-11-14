@@ -1,0 +1,30 @@
+name: STArS
+full_name: STrain-Amplicon-Seq
+category: wet
+summary: Targeted nanopore amplicon sequencing of ten SARS-CoV-2 ARTIC-derived amplicons for combined diagnostics and strain
+  genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/biomethods/bpac020
+  year: 2022
+  journal: Biol Methods Protoc
+  first_author: Maestri S
+  last_author: Delledonne M
+  pmid: '36046362'
+  pmcid: PMC9422081
+  title: STArS (STrain-Amplicon-Seq), a targeted nanopore sequencing workflow for SARS-CoV-2 diagnostics and genotyping
+links: {}
+added: '2026-11-14'
+evidence: Starting from the well-established ARTIC protocol coupled to nanopore sequencing, in this work, we developed STArS
+  (STrain-Amplicon-Seq), a cost/time-effective sequencing-based workflow for both SARS-CoV-2 diagnostics and genotyping.

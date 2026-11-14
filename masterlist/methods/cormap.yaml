@@ -1,0 +1,24 @@
+name: CoRMAP
+full_name: Comparative RNA-Seq Metadata Analysis Pipeline
+category: dry
+summary: Meta-analysis pipeline that compares RNA-seq expression across datasets and species using de novo assembly and orthogroup
+  assignment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04972-9
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Sheng Y
+  last_author: Heyland A
+  pmid: '36207678'
+  pmcid: PMC9547434
+  title: Comparative transcriptomics analysis pipeline for the meta-analysis of phylogenetically divergent datasets (CoRMAP)
+links: {}
+added: '2026-11-14'
+evidence: We introduce Comparative RNA-Seq Metadata Analysis Pipeline (CoRMAP), a meta-analysis tool to retrieve comparative
+  gene expression data from any RNA-Seq dataset using de novo assembly, standardized gene expression tools and the implementation
+  of OrthoMCL, a gene orthology search algorithm.

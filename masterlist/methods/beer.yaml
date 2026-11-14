@@ -1,0 +1,22 @@
+name: BEER
+full_name: Bayesian Enrichment Estimation in R
+category: dry
+summary: R package that quantifies peptide antibody reactivity from PhIP-Seq data with a hierarchical Bayesian model.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac555
+  year: 2022
+  journal: Bioinformatics
+  first_author: Chen A
+  last_author: Ruczinski I
+  pmid: '35959988'
+  pmcid: PMC9525010
+  title: Detecting and quantifying antibody reactivity in PhIP-Seq data with BEER
+links: {}
+added: '2026-11-14'
+evidence: Here, we present BEER (Bayesian Enrichment Estimation in R), a software package specifically developed for the quantification
+  of peptide reactivity from PhIP-Seq experiments.

@@ -1,0 +1,23 @@
+name: WAT3R
+full_name: Workflow for Association of T-cell receptors from 3' single-cell RNA-seq
+category: dry
+summary: Pipeline that recovers TRA and TRB variable-region sequences from TCR-enriched 3' scRNA-seq cDNA and links them to
+  cell barcodes and transcriptomes.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac382
+  year: 2022
+  journal: Bioinformatics
+  first_author: Ainciburu M
+  last_author: van Galen P
+  pmid: '35674381'
+  pmcid: PMC9272805
+  title: 'WAT3R: recovery of T-cell receptor variable regions from 3'' single-cell RNA-sequencing'
+links: {}
+added: '2026-11-14'
+evidence: Here, we present an analysis pipeline to process TCR variable regions enriched from 3' scRNA-seq cDNA.
