@@ -1,0 +1,27 @@
+name: TAF-ChIP
+full_name: Tagmentation-assisted fragmentation ChIP
+category: wet
+summary: Tagmentation-assisted fragmentation ChIP-seq that gives high-quality histone profiles from low cell numbers.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- antibody-pull-down
+- tn5
+reference:
+  doi: 10.26508/lsa.201900318
+  year: 2019
+  journal: Life Sci Alliance
+  first_author: Akhtar J
+  last_author: Berger C
+  pmid: '31331983'
+  pmcid: PMC6653780
+  title: 'TAF-ChIP: an ultra-low input approach for genome-wide chromatin immunoprecipitation assay'
+evidence: Here, we present a tagmentation-assisted fragmentation ChIP (TAF-ChIP) and sequencing method to generate high-quality
+  histone profiles from low cell numbers.
+links: {}
+added: '2026-11-14'

@@ -1,0 +1,25 @@
+name: R-ChIP
+aliases:
+- R-loop ChIP
+category: wet
+summary: ChIP-seq with a catalytically inactive RNase H that binds R-loops in vivo, mapping R-loops genome-wide at precision.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/j.molcel.2017.10.008
+  year: 2017
+  journal: Mol Cell
+  first_author: Chen L
+  last_author: Fu XD
+  pmid: '29104020'
+  pmcid: PMC5957070
+  title: R-ChIP Using Inactive RNase H Reveals Dynamic Coupling of R-loops with Transcriptional Pausing at Gene Promoters
+evidence: To enable precision analysis of R-loops in vivo, we develop an RNase-H-based approach; this reveals predominant
+  R-loop formation near gene promoters.
+links: {}
+added: '2026-11-14'

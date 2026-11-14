@@ -1,0 +1,28 @@
+name: TLC-CLIP
+full_name: Tailing and ligation of cDNA CLIP
+category: wet
+summary: CLIP with a fully bead-based library prep (cDNA tailing and ligation) that profiles RNA-protein interactions from
+  as few as 1000 cells.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- low-input
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- adapter-ligation
+reference:
+  doi: 10.1093/nar/gkad466
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Ernst C
+  last_author: Trono D
+  pmid: '37283087'
+  title: Efficient and sensitive profiling of RNA-protein interactions using TLC-CLIP
+evidence: Herein, we present an improved library preparation strategy for crosslinking and immunoprecipitation (CLIP) that
+  is based on tailing and ligation of cDNA molecules (TLC).
+links: {}
+added: '2026-11-14'

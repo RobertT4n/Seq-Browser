@@ -1,0 +1,31 @@
+name: LDIR-CLIP
+full_name: Low-dose ionizing radiation crosslinking immunoprecipitation
+category: wet
+summary: CLIP using low-dose ionizing radiation as the crosslinker, with RNase protection and sequencing to profile HuR-bound
+  RNAs.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.3390/biology12121533
+  year: 2023
+  journal: Biology (Basel)
+  first_author: Lee JW
+  last_author: Son TG
+  pmid: '38132359'
+  pmcid: PMC10740889
+  title: Low-Dose Ionizing Radiation-Crosslinking Immunoprecipitation (LDIR-CLIP) Identified Irradiation-Sensitive RNAs for
+    RNA-Binding Protein HuR-Mediated Decay
+evidence: Here, we developed a method to profile RNA species crosslinked to an RNA-binding protein, namely, human antigen
+  R (HuR), using LDIR and high-throughput RNA sequencing.
+links: {}
+added: '2026-11-14'

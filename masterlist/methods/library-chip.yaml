@@ -1,0 +1,25 @@
+name: Library-ChIP
+category: wet
+summary: ChIP-seq of Cas protein occupancy across a library of DNA sequence variants in a native prokaryotic host to define
+  binding specificity.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/bs.mie.2018.10.019
+  year: 2019
+  journal: Methods Enzymol
+  first_author: Wade JT
+  last_author: Wade JT
+  pmid: '30691640'
+  title: High-throughput determination of in vivo DNA sequence preferences for Cas protein binding using Library-ChIP
+evidence: Here, I describe Library-ChIP, a high-throughput method for measuring Cas protein occupancy at many DNA sequence
+  variants in a native prokaryotic host.
+links: {}
+added: '2026-11-14'

@@ -1,0 +1,28 @@
+name: Carbon copy ChIP
+aliases:
+- 2C-ChIP
+category: wet
+summary: ChIP combined with ligation-mediated amplification and deep sequencing to quantify ChIP signal across defined genomic
+  regions in a high-throughput way.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+- amplicon-pcr
+reference:
+  doi: 10.1186/s12864-019-5532-5
+  year: 2019
+  journal: BMC Genomics
+  first_author: Wang XQD
+  last_author: Dostie J
+  pmid: '30819105'
+  pmcid: PMC6394006
+  title: '2C-ChIP: measuring chromatin immunoprecipitation signal from defined genomic regions with deep sequencing'
+evidence: Here, we present carbon copy-ChIP (2C-ChIP), a versatile, inexpensive, and high-throughput technique to quantitatively
+  measure the abundance of DNA sequences in ChIP samples.
+links: {}
+added: '2026-11-14'

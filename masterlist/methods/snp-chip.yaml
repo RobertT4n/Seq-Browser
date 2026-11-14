@@ -1,0 +1,29 @@
+name: SNP-ChIP
+category: wet
+summary: ChIP-seq spike-in normalisation that uses intra-species SNPs so spike-in material comes from the same species, allowing
+  quantitative between-sample comparison.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+builds_on:
+- chip-seq
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1186/s12864-018-5368-4
+  year: 2019
+  journal: BMC Genomics
+  first_author: Vale-Silva LA
+  last_author: Hochwagen A
+  pmid: '30654749'
+  pmcid: PMC6337847
+  title: 'SNP-ChIP: a versatile and tag-free method to quantify changes in protein binding across the genome'
+evidence: Here, we introduce SNP-ChIP, a method that leverages small-scale intra-species polymorphisms, mainly SNPs, for quantitative
+  spike-in normalization of ChIP-seq results.
+links: {}
+added: '2026-11-14'

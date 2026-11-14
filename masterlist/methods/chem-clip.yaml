@@ -1,0 +1,30 @@
+name: Chem-CLIP
+category: wet
+summary: Covalent small-molecule probes crosslink to RNA targets and binding sites are read out by RT stops or nanopore sequencing
+  mutations.
+readouts:
+- rna-structure
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1093/nar/gkaf231
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Yang X
+  last_author: Disney MD
+  pmid: '40156856'
+  pmcid: PMC11952968
+  title: Mapping small molecule-RNA binding sites via Chem-CLIP synergized with capillary electrophoresis and nanopore sequencing
+evidence: 'The nucleotides where cross-linking occurred were elucidated by using two different platforms: (i) automated capillary
+  electrophoresis that identified a binding site by impeding reverse transcriptase, or "RT stops"; and (ii) nanopore sequencing
+  where the cross-link produces mutations.'
+links: {}
+added: '2026-11-14'

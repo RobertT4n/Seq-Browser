@@ -1,0 +1,28 @@
+name: DFF-ChIP
+full_name: DNA Fragmentation Factor ChIP
+category: wet
+summary: ChIP in which DNA is digested with human DNA Fragmentation Factor before immunoprecipitation, giving precise Pol
+  II complex and neighbouring nucleosome positions.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- chip-seq
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1038/s41467-022-29739-x
+  year: 2022
+  journal: Nat Commun
+  first_author: Spector BM
+  last_author: Price DH
+  pmid: '35422111'
+  pmcid: PMC9010409
+  title: Differences in RNA polymerase II complexes and their interactions with surrounding chromatin on human and cytomegalovirus
+    genomes
+evidence: Recently, we introduced a chromatin immunoprecipitation (ChIP) technique utilizing the human DNA Fragmentation Factor
+  (DFF) to digest the DNA prior to immunoprecipitation (DFF-ChIP).
+links: {}
+added: '2026-11-14'

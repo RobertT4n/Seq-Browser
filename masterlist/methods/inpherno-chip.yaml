@@ -1,0 +1,23 @@
+name: InPheRNo-ChIP
+category: dry
+summary: Probabilistic graphical model integrating RNA-seq, TF ChIP-seq and phenotype labels to reconstruct phenotype-relevant
+  gene regulatory networks.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae592
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Su C
+  last_author: Emad A
+  pmid: '39535258'
+  pmcid: PMC11558691
+  title: Deciphering lineage-relevant gene regulatory networks during endoderm formation by InPheRNo-ChIP
+evidence: We developed InPheRNo-ChIP, a computational framework that integrates multimodal data, including RNA-seq, transcription
+  factor (TF)-specific ChIP-seq, and phenotypic labels, to reconstruct phenotype-relevant GRNs associated with endoderm development.
+links: {}
+added: '2026-11-14'

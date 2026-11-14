@@ -1,0 +1,39 @@
+name: Micro-C-ChIP
+category: wet
+summary: Micro-C combined with chromatin immunoprecipitation to map histone-mark-specific 3D genome organisation at nucleosome
+  resolution.
+readouts:
+- 3d-genome
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+targets:
+- H3K4me3
+- H3K27me3
+variant_of:
+- micro-c
+builds_on:
+- chip-seq
+validated_system:
+- cell-line
+chemistry:
+- mnase
+- proximity-ligation
+- antibody-pull-down
+reference:
+  doi: 10.1038/s41467-025-64350-w
+  year: 2025
+  journal: Nat Commun
+  first_author: Metelova M
+  last_author: Krietenstein N
+  pmid: '41125591'
+  pmcid: PMC12546738
+  title: Deciphering histone mark-specific fine-scale chromatin organization at high resolution with Micro-C-ChIP
+evidence: We introduce Micro-C-ChIP, a strategy combining Micro-C with chromatin immunoprecipitation to map 3D genome organization
+  at nucleosome resolution for defined histone modifications.
+links: {}
+added: '2026-11-14'

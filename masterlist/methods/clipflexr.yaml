@@ -1,0 +1,21 @@
+name: CLIPflexR
+category: dry
+summary: Universal software package for analysis of CLIP data, used to build AGO1/AGO2 small RNA target maps in mosquito.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.chom.2021.03.004
+  year: 2021
+  journal: Cell Host Microbe
+  first_author: Rozen-Gagnon K
+  last_author: Rice CM
+  pmid: '33794184'
+  pmcid: PMC8699793
+  title: Argonaute-CLIP delineates versatile, functional RNAi networks in Aedes aegypti, a major vector of human viruses
+evidence: We applied AGO-crosslinking immunoprecipitation (AGO-CLIP) for both AGO1 and AGO2, and we developed a universal
+  software package for CLIP analysis (CLIPflexR).
+links: {}
+added: '2026-11-14'
