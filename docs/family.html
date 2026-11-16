@@ -129,17 +129,23 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   nodes.forEach(n => { const q = split(n.readouts)[0], k = `${q}|${Math.floor(n.year / 2)}`; busiest[k] = (busiest[k] || 0) + 1; });
   const laneH = q => !used.has(q) ? 40 : Math.max(72, 26 * Math.max(0, ...Object.entries(busiest).filter(([k]) => k.startsWith(q + "|")).map(([, v]) => v)));
   const laneY = {}, domainSpan = {}, laneCol = {};
-  let y = 120;
-  domains.forEach(d => {
-    const lanes = Object.entries(tax.readouts).filter(([, dd]) => dd === d).map(([r]) => r);
-    const y0 = y;
-    lanes.forEach((q, i) => {
-      const h = laneH(q); laneY[q] = y + h / 2; y += h;
-      laneCol[q] = laneColour(d, i, lanes.length);
+  // lays the lanes out top to bottom with a given height per lane; called twice: first with the estimate above, then again
+  // with the REAL vertical spread of each lane after the simulation (the estimate over-allocates crowded lanes: it assumes
+  // every method in a 2-year window stacks in one column, but they spread across the window's width)
+  function placeLanes(heightOf) {
+    let y = 120;
+    domains.forEach(d => {
+      const lanes = Object.entries(tax.readouts).filter(([, dd]) => dd === d).map(([r]) => r);
+      const y0 = y;
+      lanes.forEach((q, i) => {
+        const h = heightOf(q); laneY[q] = y + h / 2; y += h;
+        laneCol[q] = laneColour(d, i, lanes.length);
+      });
+      domainSpan[d] = [y0, y, lanes];
+      y += 56;
     });
-    domainSpan[d] = [y0, y, lanes];
-    y += 56;
-  });
+  }
+  placeLanes(laneH);
   // time axis: each year's width grows with how many methods it has, so crowded recent years spread out
   const years = d3.extent(nodes, d => d.year), perYear = d3.rollup(nodes, v => v.length, d => d.year);
   const yrs = d3.range(years[0] - 1, years[1] + 2), wts = yrs.map(y => 1 + 1.8 * Math.sqrt(perYear.get(y) || 0));
@@ -170,7 +176,8 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
 
   nodes.forEach(n => {
     n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
-    n.ty = laneY[laneReadout(n)];  // lane = the readout its lineage is built on (see laneReadout); arcs show the others
+    n.lane = laneReadout(n);
+    n.ty = laneY[n.lane];  // lane = the readout its lineage is built on (see laneReadout); arcs show the others
     n.x = xDate(n); n.y = n.ty + (Math.random() - .5) * 20;
   });
 
@@ -197,6 +204,14 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   for (let i = 0; i < 600; i++) sim.tick();
   nodes.forEach(n => n.x = xDate(n));  // snap back so the time axis stays exact
   for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
+  // second pass: shrink each lane to the vertical room its methods actually use, then move the methods with their lane
+  {
+    const ext = {};
+    nodes.forEach(n => { const e = ext[n.lane] || (ext[n.lane] = [Infinity, -Infinity]); e[0] = Math.min(e[0], n.y - Math.max(n.r, 9)); e[1] = Math.max(e[1], n.y + Math.max(n.r, 9)); });
+    const old = { ...laneY };
+    placeLanes(q => used.has(q) && ext[q] ? Math.max(72, ext[q][1] - ext[q][0] + 56) : (used.has(q) ? 72 : 40));
+    nodes.forEach(n => { const e = ext[n.lane]; n.y += laneY[n.lane] - (e[0] + e[1]) / 2; });
+  }
 
   const svg = d3.select("#g"), clipG = svg.append("g"), root = clipG.append("g");
 
