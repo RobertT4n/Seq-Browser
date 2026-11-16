@@ -67,7 +67,7 @@ fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
   document.querySelectorAll("#facets input").forEach(b => b.onchange = () => { const s = on[b.dataset.k]; b.checked ? s.add(b.dataset.v) : s.delete(b.dataset.v); render(); });
   document.querySelectorAll("details.dd").forEach(d => d.ontoggle = () => { if (d.open) document.querySelectorAll("details.dd").forEach(o => { if (o !== d) o.open = false; }); });
   document.addEventListener("click", e => { if (!e.target.closest("details.dd")) document.querySelectorAll("details.dd").forEach(o => o.open = false); });
-  document.getElementById("clear").onclick = () => { FACETS.forEach(([k]) => on[k].clear()); document.querySelectorAll("#facets input").forEach(b => b.checked = false); render(); };
+  document.getElementById("clear").onclick = () => { FACETS.forEach(([k]) => on[k].clear()); document.querySelectorAll("#facets input").forEach(b => b.checked = false); document.getElementById("q").value = ""; if (location.hash) history.replaceState(null, "", location.pathname + location.search); open = null; render(); };   // also clears the typed search and any permalink
   document.addEventListener("keydown", e => { if (e.key === "Escape") { open = null; cmpOpen(false); render(); } });
   document.querySelectorAll("th.sort").forEach(th => th.onclick = () => {
     const k = th.dataset.key;
