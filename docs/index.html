@@ -82,7 +82,7 @@ fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
   };
   document.getElementById("kind").onchange = render;
   const h = decodeURIComponent(location.hash.slice(1)), t = data.find(m => m.id === h || (m.accession || "").toLowerCase() === h.toLowerCase());
-  if (t) { document.getElementById("q").value = t.name; open = t.id; }
+  if (t) { document.getElementById("q").value = t.name; open = t.id; document.getElementById("kind").value = t.category === "dry" ? "dry" : "wet"; }   // a computational permalink must switch Show to Computational, else the row is hidden
   render();
 });
 
