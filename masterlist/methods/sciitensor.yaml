@@ -1,0 +1,20 @@
+name: SCIITensor
+category: dry
+summary: Uses tensor decomposition of spatial transcriptomics data to identify tumor microenvironment modules with spatially
+  resolved intercellular interactions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.21.595103
+  year: 2024
+  journal: bioRxiv
+  first_author: Huang H
+  last_author: Liu X
+  title: 'SCIITensor: A tensor decomposition based algorithm to construct actionable TME modules with spatially resolved intercellular
+    communications'
+added: '2026-11-15'
+evidence: SCIITensor quantifies interactions between proximal cells and uses non-negative Tucker decomposition to identify
+  spatial interactions and tumor microenvironment patterns.

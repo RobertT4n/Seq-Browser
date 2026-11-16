@@ -1,0 +1,25 @@
+name: digital droplet multiple displacement amplification
+category: wet
+summary: Amplifies low-input DNA molecules in droplets to improve sequencing coverage uniformity.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1093/nar/gkv1493
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Sidore AM
+  last_author: Abate AR
+  pmid: '26704978'
+  pmcid: PMC4838355
+  title: Enhanced sequencing coverage with digital droplet multiple displacement amplification
+added: '2026-11-15'
+evidence: DNA molecules are isolated in picoliter droplets for amplification, and the method was demonstrated on genomes from
+  single Escherichia coli cells.

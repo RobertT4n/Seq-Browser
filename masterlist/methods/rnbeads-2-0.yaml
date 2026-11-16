@@ -1,0 +1,21 @@
+name: RnBeads 2.0
+category: dry
+summary: Provides analysis workflows for DNA methylation microarrays and bisulfite sequencing, including interpretation of
+  methylation differences.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1664-9
+  year: 2019
+  journal: Genome Biol
+  first_author: Müller F
+  last_author: Bock C
+  pmid: '30871603'
+  pmcid: PMC6419383
+  title: 'RnBeads 2.0: comprehensive analysis of DNA methylation data'
+added: '2026-11-15'
+evidence: RnBeads 2.0 implements start-to-finish workflows for Infinium microarrays and various types of bisulfite sequencing.

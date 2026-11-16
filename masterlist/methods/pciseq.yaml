@@ -1,0 +1,21 @@
+name: pciSeq
+full_name: probabilistic cell typing by in situ sequencing
+category: dry
+summary: Identifies and spatially maps cell types using multiplexed in situ RNA detection and prior single-cell RNA-seq classifications.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s41592-019-0631-4
+  year: 2020
+  journal: Nat Methods
+  first_author: Qian X
+  last_author: Nilsson M
+  pmid: '31740815'
+  pmcid: PMC6949128
+  title: Probabilistic cell typing enables fine mapping of closely related cell types in situ
+added: '2026-11-15'
+evidence: pciSeq uses previous scRNA-seq classification with multiplexed in situ RNA detection to identify cell types in tissue.

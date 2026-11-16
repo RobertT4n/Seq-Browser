@@ -1,0 +1,17 @@
+name: Sharq
+category: dry
+summary: Processes plate-based single-cell RNA-seq reads into gene expression tables and produces plate quality-control reports.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/250811
+  year: 2018
+  journal: bioRxiv
+  first_author: Candelli T
+  last_author: Holstege F
+  title: Sharq, A versatile preprocessing and QC pipeline for Single Cell RNA-seq
+added: '2026-11-15'
+evidence: Sharq trims reads, assigns them to features, uses barcode and UMI information, and reports plate diagnostics.

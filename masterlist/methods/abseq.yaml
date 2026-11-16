@@ -1,0 +1,23 @@
+name: Abseq
+category: wet
+summary: Quantifies single-cell proteins using DNA-tagged antibodies and microfluidic barcoding.
+readouts:
+- protein
+resolution:
+- single-cell
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1038/srep44447
+  year: 2017
+  journal: Sci Rep
+  first_author: Shahi P
+  last_author: Abate AR
+  pmid: '28290550'
+  pmcid: PMC5349531
+  title: 'Abseq: Ultrahigh-throughput single cell protein profiling with droplet microfluidic barcoding'
+added: '2026-11-15'
+evidence: Sequence-tagged antibodies detect epitopes of interest and are read out using microfluidic barcoding and DNA sequencing.

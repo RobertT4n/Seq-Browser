@@ -1,0 +1,13 @@
+name: STORM
+full_name: Spatial Transcriptomics and Histology Representation Model
+category: dry
+summary: Integrates spatial transcriptomics and histology to represent tissue and predict spatial gene expression.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2604.03630
+added: '2026-11-15'
+evidence: STORM integrates morphology, gene expression and spatial context and predicts spatial gene expression from H&E images.

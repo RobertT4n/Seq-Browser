@@ -1,0 +1,19 @@
+name: SVCFit
+category: dry
+summary: Estimates the cellular prevalence of somatic structural variants from bulk whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.02.01.636056
+  year: 2025
+  journal: bioRxiv
+  first_author: Liu Y
+  last_author: Karchin R
+  title: Longitudinal structural variant phylogenies define tumor evolution under therapeutic selection pressure in metastatic
+    prostate cancer
+added: '2026-11-15'
+evidence: SVCFit estimates the cellular prevalence of deletions, duplications and inversions without prior knowledge of tumor
+  purity.

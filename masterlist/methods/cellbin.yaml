@@ -1,0 +1,18 @@
+name: CellBin
+category: dry
+summary: Processes images and Stereo-seq data to generate single-cell spatial gene expression profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.02.28.530414
+  year: 2023
+  journal: bioRxiv
+  first_author: Li M
+  last_author: Li Y
+  title: 'CellBin: a highly accurate single-cell gene expression processing pipeline for high-resolution spatial transcriptomics'
+added: '2026-11-15'
+evidence: CellBin includes image stitching and registration, tissue and nuclei segmentation, and molecule labeling.

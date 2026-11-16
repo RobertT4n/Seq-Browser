@@ -1,0 +1,27 @@
+name: ME-seq
+category: wet
+summary: Jointly profiles DNA methylation, gene expression and chromatin accessibility in single nuclei at scale.
+readouts:
+- dna-methylation
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.01.30.702946
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhu B
+  last_author: Ma S
+  title: Early microglial priming in Alzheimer’s disease revealed by ME-seq
+added: '2026-11-15'
+evidence: ME-seq simultaneously profiles DNA methylation, gene expression and chromatin accessibility, producing over 400,000
+  single-nucleus profiles from mouse brain.
+partition_unknown: not stated in the abstract

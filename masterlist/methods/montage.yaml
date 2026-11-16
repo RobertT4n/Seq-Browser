@@ -1,0 +1,21 @@
+name: MONTAGE
+category: dry
+summary: Reconstructs and analyzes spatial communities and functional enrichment gradients from transcriptomic atlases.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.04.30.651486
+  year: 2025
+  journal: bioRxiv
+  first_author: Zhang W
+  last_author: Plevritis SK
+  title: 'MONTAGE: A Computation Framework to Identify Spatially Resolved Functional Enrichment Gradients in the Tissue Microenvironment
+    via Spatial Communities'
+added: '2026-11-15'
+evidence: MONTAGE generates a spatial-community gene signature matrix and reconstructs tissue maps reflecting gradients of
+  functional enrichment.

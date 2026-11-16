@@ -1,0 +1,25 @@
+name: TRiP
+full_name: translating ribosome affinity purification and ribosome profiling
+category: wet
+summary: Measures cell-type-specific ribosome occupancy of mRNA at nucleotide resolution.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/169425
+  year: 2017
+  journal: bioRxiv
+  first_author: Eacker SM
+  last_author: Dawson VL
+  title: Experience-dependent translational state defined by cell type-specific ribosome profiling
+added: '2026-11-15'
+evidence: TRiP combines translating ribosome affinity purification and ribosome profiling to measure occupancy in mouse CA1
+  pyramidal cells.

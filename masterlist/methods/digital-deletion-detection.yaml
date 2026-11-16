@@ -1,0 +1,27 @@
+name: Digital Deletion Detection
+category: wet
+summary: Digital Deletion Detection enriches and partitions mitochondrial genomes to quantify rare deletions and sequence
+  their breakpoints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1111/acel.12146
+  year: 2014
+  journal: Aging Cell
+  first_author: Taylor SD
+  last_author: Bielas JH
+  pmid: '23911137'
+  pmcid: PMC4068027
+  title: Targeted enrichment and high-resolution digital profiling of mitochondrial DNA deletions in human brain
+added: '2026-11-15'
+evidence: The method combines targeted enrichment, droplet digital PCR of partitioned genomes, and massively parallel sequencing
+  of deletion breakpoints.
+chemistry_unknown: not stated in abstract

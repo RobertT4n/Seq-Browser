@@ -1,0 +1,19 @@
+name: KAS-pipe2
+category: dry
+summary: Analyzes KAS-seq and spKAS-seq data to assess transcriptional activity and map R-loops.
+readouts:
+- dna-secondary-structure
+- r-loop
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.08.10.503490
+  year: 2022
+  journal: bioRxiv
+  first_author: Lyu R
+  last_author: Chen M
+  title: 'KAS-pipe2: a flexible toolkit for exploring KAS-seq and spKAS-seq data'
+added: '2026-11-15'
+evidence: KAS-pipe2 supports quality control, alignment, differential RNA polymerase activity analysis, and high-resolution
+  R-loop mapping.

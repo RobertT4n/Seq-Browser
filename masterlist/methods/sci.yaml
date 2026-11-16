@@ -1,0 +1,21 @@
+name: SCI
+full_name: Sub-Compartment Identifier
+category: dry
+summary: Predicts nuclear genomic subcompartments from Hi-C interaction data using graph embedding and unsupervised learning.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-14974-x
+  year: 2020
+  journal: Nat Commun
+  first_author: Ashoor H
+  last_author: Li S
+  pmid: '32127534'
+  pmcid: PMC7054322
+  title: Graph embedding and unsupervised learning predict genomic sub-compartments from HiC chromatin interaction data
+added: '2026-11-15'
+evidence: SCI uses graph embedding followed by unsupervised learning to predict subcompartments from Hi-C chromatin interaction
+  data.

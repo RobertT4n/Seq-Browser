@@ -1,0 +1,20 @@
+name: SCimilarity
+category: dry
+summary: Learns a representation of single-cell RNA profiles to search large atlases for transcriptionally similar cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-024-08411-y
+  year: 2025
+  journal: Nature
+  first_author: Heimberg G
+  last_author: Regev A
+  pmid: '39566551'
+  pmcid: PMC11864978
+  title: A cell atlas foundation model for scalable search of similar human cells
+added: '2026-11-15'
+evidence: SCimilarity learns a unified representation that enables queries for cells transcriptionally similar to an input
+  profile or state.

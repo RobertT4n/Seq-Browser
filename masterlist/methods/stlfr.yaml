@@ -1,0 +1,26 @@
+name: stLFR
+full_name: single-tube long fragment read
+category: wet
+summary: Cobarcodes subfragments of long DNA molecules on microbeads to support sequencing, phasing, and assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1101/gr.245126.118
+  year: 2019
+  journal: Genome Res
+  first_author: Wang O
+  last_author: Peters BA
+  pmid: '30940689'
+  pmcid: PMC6499310
+  title: Efficient and unique cobarcoding of second-generation sequencing reads from long DNA molecules enabling cost-effective
+    and accurate sequencing, haplotyping, and de novo assembly
+added: '2026-11-15'
+evidence: Microbead surfaces enable barcoding reactions that assign the same barcode to subfragments of long DNA molecules.
+chemistry_unknown: not stated in abstract

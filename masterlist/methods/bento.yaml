@@ -1,0 +1,22 @@
+name: Bento
+category: dry
+summary: Analyzes subcellular spatial transcriptomics data to identify domains, localization patterns, and gene colocalization.
+readouts:
+- rna
+resolution:
+- subcellular
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1186/s13059-024-03217-7
+  year: 2024
+  journal: Genome Biol
+  first_author: Mah CK
+  last_author: Yeo GW
+  pmid: '38566187'
+  pmcid: PMC11289963
+  title: 'Bento: a toolkit for subcellular analysis of spatial transcriptomics data'
+added: '2026-11-15'
+evidence: Bento uses molecular coordinates and segmentation boundaries to define subcellular domains, annotate localization
+  patterns, and quantify gene colocalization.

@@ -1,0 +1,22 @@
+name: Split-flow
+category: dry
+summary: Classifies multiplexed single cells into quality strata using agreement among demultiplexing and doublet detection
+  methods.
+readouts:
+- rna
+- protein
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.05.10.724135
+  year: 2026
+  journal: bioRxiv
+  first_author: Sen E
+  last_author: Rippe K
+  title: Disagreement between demultiplexing methods reveals structured cell quality gradients in multiplexed single-cell
+    data
+added: '2026-11-15'
+evidence: Split-flow runs hashing-based and SNP-based demultiplexing and transcriptome-based doublet detection, then classifies
+  cells by concordance.

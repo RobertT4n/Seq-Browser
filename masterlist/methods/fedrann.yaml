@@ -1,0 +1,22 @@
+name: FEDRANN
+category: dry
+summary: Detects long-read overlaps for genome assembly using dimensionality reduction and approximate nearest-neighbor search.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/gigascience/giag048
+  year: 2026
+  journal: Gigascience
+  first_author: Zhang JY
+  last_author: Dong Y
+  pmid: '42102720'
+  pmcid: PMC13201080
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+added: '2026-11-15'
+evidence: FEDRANN constructs overlap graphs from long reads and was integrated into an assembler to reconstruct human whole
+  genomes.

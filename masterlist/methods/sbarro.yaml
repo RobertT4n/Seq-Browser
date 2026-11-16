@@ -1,0 +1,29 @@
+name: SBARRO
+full_name: Synaptic Barcode Analysis by Retrograde Rabies Read Out
+category: wet
+summary: Uses barcoded rabies virus and single-cell RNA sequencing to identify directional monosynaptic partners and their
+  transcriptomes.
+readouts:
+- cell-cell-contact
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system: []
+reference:
+  doi: 10.1038/s41467-022-34334-1
+  year: 2022
+  journal: Nat Commun
+  first_author: Saunders A
+  last_author: McCarroll SA
+  pmid: '36384944'
+  pmcid: PMC9668842
+  title: Ascertaining cells' synaptic connections and RNA expression simultaneously with barcoded rabies virus libraries
+added: '2026-11-15'
+evidence: Barcoded rabies virus paths reveal relationships between starter postsynaptic cells and presynaptic partners alongside
+  genome-wide RNA profiles.
+partition_unknown: not stated in the abstract

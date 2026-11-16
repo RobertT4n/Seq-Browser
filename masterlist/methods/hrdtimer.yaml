@@ -1,0 +1,17 @@
+name: HRDTimer
+category: dry
+summary: Infers the onset of homologous recombination deficiency-driven mutagenesis before cancer diagnosis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.10.17.683157
+  year: 2025
+  journal: bioRxiv
+  first_author: Andreopoulos M
+  last_author: Glodzik D
+  title: Timing the onset of homologous recombination deficiency before breast cancer diagnosis
+added: '2026-11-15'
+evidence: HRDTimer infers the onset of HRD-driven mutagenesis prior to cancer diagnosis.

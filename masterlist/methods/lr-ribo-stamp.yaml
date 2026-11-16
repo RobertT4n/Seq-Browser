@@ -1,0 +1,31 @@
+name: LR-Ribo-STAMP
+full_name: long-read Ribo-STAMP
+category: wet
+summary: Combines RNA editing and long-read sequencing to profile translation and transcript abundance at gene and isoform
+  resolution.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system:
+- cell-line
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.279176.124
+  year: 2024
+  journal: Genome Res
+  first_author: Jagannatha P
+  last_author: Yeo GW
+  pmid: '38906680'
+  pmcid: PMC11610582
+  title: Long-read Ribo-STAMP simultaneously measures transcription and translation with isoform resolution
+added: '2026-11-15'
+evidence: LR-Ribo-STAMP uses long-read sequencing and RNA-base editing to simultaneously profile translation and transcription
+  at gene and isoform levels.

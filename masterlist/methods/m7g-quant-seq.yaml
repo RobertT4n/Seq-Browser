@@ -1,0 +1,27 @@
+name: m7G-quant-seq
+category: wet
+summary: Quantifies internal m7G at single-base resolution in human cytoplasmic tRNAs using chemical treatment and reverse
+  transcription signatures.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1021/acschembio.2c00792
+  year: 2022
+  journal: ACS Chem Biol
+  first_author: Zhang LS
+  last_author: He C
+  pmid: '36398936'
+  pmcid: PMC9764283
+  title: 'm<sup>7</sup>G-quant-seq: Quantitative Detection of RNA Internal <i>N</i><sup>7</sup>-Methylguanosine'
+added: '2026-11-15'
+evidence: Chemical reduction and depurination produce abasic sites whose reverse transcription variation patterns quantify
+  m7G in tRNAs from HeLa and HEK293T cells.

@@ -1,0 +1,31 @@
+name: eTAM-seq-v2
+category: wet
+summary: Profiles transcriptome-wide m6A using an evolved adenosine deaminase for control-free calling from low RNA input.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+input_sample:
+- low-input
+builds_on:
+- etam-seq
+reference:
+  doi: 10.1101/2025.05.11.653357
+  year: 2025
+  journal: bioRxiv
+  first_author: He EM
+  last_author: Tang W
+  title: Advanced eTAM-seq enables high-fidelity, low-input  <i>N</i>  <sup>6</sup>  -methyladenosine profiling in human cells
+    and embryonic mouse tissues
+added: '2026-11-15'
+evidence: eTAM-seq-v2 replaces the first-generation enzyme with TadA8r and profiles m6A in human cell lines and embryonic
+  mouse tissues.

@@ -1,0 +1,25 @@
+name: DNBelab C4
+category: wet
+summary: Uses a portable microfluidic device for high-throughput single-cell transcriptome profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/818450
+  year: 2019
+  journal: bioRxiv
+  first_author: Liu C
+  last_author: Liu L
+  title: A portable and cost-effective microfluidic system for massively parallel single-cell transcriptome profiling
+added: '2026-11-15'
+evidence: The portable negative-pressure device profiles single-cell transcription and was used to examine heterogeneity in
+  mouse lung and cerebral cortex.
+partition_unknown: not stated in the abstract

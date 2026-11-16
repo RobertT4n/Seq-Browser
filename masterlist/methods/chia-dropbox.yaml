@@ -1,0 +1,20 @@
+name: ChIA-DropBox
+category: dry
+summary: Reconstructs and refines multiplex chromatin interaction complexes from ChIA-Drop sequencing reads and visualizes
+  them.
+readouts:
+- 3d-genome
+resolution:
+- single-molecule
+scope: genome-wide
+builds_on:
+- chia-drop
+reference:
+  doi: 10.1101/613034
+  year: 2019
+  journal: bioRxiv
+  first_author: Tian SZ
+  last_author: Ruan Y
+  title: 'ChIA-DropBox: a novel analysis and visualization pipeline for multiplex chromatin interactions'
+added: '2026-11-15'
+evidence: ChIA-DropBox groups reads by droplet barcode, refines chromatin complexes and prepares contact maps for visualization.

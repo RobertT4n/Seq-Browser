@@ -1,0 +1,31 @@
+name: CellTag-multi
+category: wet
+summary: CellTag-multi captures heritable barcodes in single-cell RNA-seq and chromatin accessibility assays to trace cell
+  lineages across modalities.
+readouts:
+- lineage
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- tn5
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41587-023-01931-4
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Jindal K
+  last_author: Morris SA
+  pmid: '37749269'
+  pmcid: PMC11180607
+  title: Single-cell lineage capture across genomic modalities with CellTag-multi reveals fate-specific gene regulatory changes
+added: '2026-11-15'
+evidence: Direct capture of heritable random barcodes enables clonal tracking in both single-cell RNA-seq and single-cell
+  ATAC-seq.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,28 @@
+name: SCoTCH-seq
+full_name: Strand-Coupled Tandem Cytosine Hydroxymethylation and methylation sequencing
+category: wet
+summary: Quantifies 5-methylcytosine and 5-hydroxymethylcytosine across both strands of the same DNA fragment at base resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system: []
+chemistry: []
+reference:
+  doi: 10.1073/pnas.2512204122
+  year: 2025
+  journal: Proc Natl Acad Sci U S A
+  first_author: Hardwick JS
+  last_author: Balasubramanian S
+  pmid: '40743391'
+  pmcid: PMC12337322
+  title: SCoTCH-seq reveals that 5-hydroxymethylcytosine encodes regulatory information across DNA strands
+added: '2026-11-15'
+evidence: SCoTCH-seq sequences genomes together with mC and hmC on both strands of the same DNA fragment.
+chemistry_unknown: not stated in abstract

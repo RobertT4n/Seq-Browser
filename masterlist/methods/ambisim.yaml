@@ -1,0 +1,20 @@
+name: ambisim
+category: dry
+summary: Simulates genotype-aware joint single-nucleus RNA and ATAC sequencing reads with controllable ambient contamination.
+readouts:
+- rna
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.02.06.636969
+  year: 2025
+  journal: bioRxiv
+  first_author: Li T
+  last_author: Zaitlen N
+  title: The impact of ambient contamination on demultiplexing methods for single-nucleus multiome experiments
+added: '2026-11-15'
+evidence: ambisim generates realistic joint snRNA/snATAC data while controlling ambient molecule proportions for demultiplexing
+  evaluations.

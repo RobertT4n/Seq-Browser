@@ -1,0 +1,29 @@
+name: nano-hmC-Seal
+category: wet
+summary: Chemically labels and captures DNA 5hmC for genome-wide profiling from rare cell populations.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- mouse
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.molcel.2016.06.028
+  year: 2016
+  journal: Mol Cell
+  first_author: Han D
+  last_author: He C
+  pmid: '27477909'
+  pmcid: PMC4992443
+  title: A Highly Sensitive and Robust Method for Genome-wide 5hmC Profiling of Rare Cell Populations
+added: '2026-11-15'
+evidence: The method profiles 5hmC genome-wide using DNA isolated from approximately 1,000 cells and was applied to purified
+  murine AML stem cells.
+chemistry_unknown: not stated in abstract

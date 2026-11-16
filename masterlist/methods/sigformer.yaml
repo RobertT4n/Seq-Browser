@@ -1,0 +1,17 @@
+name: SigFormer
+category: dry
+summary: Decomposes single-sample somatic mutation profiles into mutational signature exposures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.01.20.700228
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang Y
+  last_author: Zong C
+  title: 'SigFormer: an Attention-Based Framework for Robust Single-Sample Mutational Signature Decomposition'
+added: '2026-11-15'
+evidence: SigFormer uses cross-attention between a reference input and a sample mutation profile to recover signature exposures.

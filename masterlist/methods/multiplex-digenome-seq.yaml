@@ -1,0 +1,24 @@
+name: multiplex Digenome-seq
+category: wet
+summary: Profiles genome-wide cleavage specificity of multiple CRISPR-Cas9 nucleases in a single cell-free DNA experiment.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1101/gr.199588.115
+  year: 2016
+  journal: Genome Res
+  first_author: Kim D
+  last_author: Kim JS
+  pmid: '26786045'
+  pmcid: PMC4772022
+  title: Genome-wide target specificities of CRISPR-Cas9 nucleases revealed by multiplex Digenome-seq
+added: '2026-11-15'
+evidence: Human genomic DNA was digested with multiple sgRNAs and Cas9, then whole-genome sequenced to identify cleavage patterns.
+chemistry_unknown: not stated in abstract

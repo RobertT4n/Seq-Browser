@@ -1,0 +1,26 @@
+name: ReBuilT
+full_name: recovery after bisulfite treatment
+category: wet
+summary: Rebuilds bisulfite-damaged DNA library fragments to enable PCR-free methylation sequencing from low DNA input.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1371/journal.pone.0152322
+  year: 2016
+  journal: PLoS One
+  first_author: McInroy GR
+  last_author: Balasubramanian S
+  pmid: '27031619'
+  pmcid: PMC4816320
+  title: Enhanced Methylation Analysis by Recovery of Unsequenceable Fragments
+added: '2026-11-15'
+evidence: ReBuilT enables PCR-free bisulfite sequencing from low nanogram quantities of genomic DNA.

@@ -1,0 +1,21 @@
+name: VRP assembler
+full_name: vehicle routing problem assembler
+category: dry
+summary: Performs haplotype-resolved genome assembly by formulating the task as a vehicle routing problem.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.crmeth.2024.100754
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Chen Y
+  last_author: Xu X
+  pmid: '38614089'
+  pmcid: PMC11133727
+  title: Haplotype-resolved assembly of diploid and polyploid genomes using quantum computing
+added: '2026-11-15'
+evidence: The VRP assembler transforms haplotype-resolved assembly into a vehicle routing problem and was used for local assembly
+  of the human MHC region.

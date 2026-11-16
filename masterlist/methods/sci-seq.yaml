@@ -1,0 +1,29 @@
+name: SCI-seq
+full_name: single-cell combinatorial indexed sequencing
+category: wet
+summary: SCI-seq uses combinatorial indexing to generate single-cell genome libraries for detecting somatic copy-number variants.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+species:
+- human
+- other-vertebrate
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nmeth.4154
+  year: 2017
+  journal: Nat Methods
+  first_author: Vitak SA
+  last_author: Adey A
+  pmid: '28135258'
+  pmcid: PMC5908213
+  title: Sequencing thousands of single-cell genomes with combinatorial indexing
+added: '2026-11-15'
+evidence: SCI-seq generated low-pass libraries for 16,698 single cells from cultured cell lines, primate cortex, and human
+  adenocarcinomas.

@@ -1,0 +1,19 @@
+name: cell2fate
+category: dry
+summary: Uses a Bayesian RNA velocity model to infer transcriptional dynamics and decompose them into interpretable modules.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-025-02608-3
+  year: 2025
+  journal: Nat Methods
+  first_author: Aivazidis A
+  last_author: Bayraktar OA
+  pmid: '40032996'
+  pmcid: PMC11978503
+  title: Cell2fate infers RNA velocity modules to improve cell fate prediction
+added: '2026-11-15'
+evidence: cell2fate linearizes the velocity ordinary differential equations and decomposes RNA velocity solutions into modules.

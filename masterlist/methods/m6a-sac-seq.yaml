@@ -1,0 +1,31 @@
+name: m6A-SAC-seq
+full_name: m6A-selective allyl chemical labeling and sequencing
+category: wet
+summary: m6A-SAC-seq quantitatively maps RNA m6A modification stoichiometry across the transcriptome at single-nucleotide
+  resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41587-022-01243-z
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Hu L
+  last_author: He C
+  pmid: '35288668'
+  pmcid: PMC9378555
+  title: m&lt;sup&gt;6&lt;/sup&gt;A RNA modifications are measured at single-base resolution across the mammalian transcriptome
+added: '2026-11-15'
+evidence: The method maps m6A stoichiometry transcriptome-wide at single-nucleotide resolution using approximately 30 ng of
+  input RNA.

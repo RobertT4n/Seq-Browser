@@ -1,0 +1,21 @@
+name: CIMA-CLM
+category: dry
+summary: Predicts chromatin accessibility and evaluates noncoding variant effects using chromatin sequences and gene expression.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/science.adt3130
+  year: 2026
+  journal: Science
+  first_author: Yin J
+  last_author: Liu C
+  pmid: '41505528'
+  title: Chinese Immune Multi-Omics Atlas
+added: '2026-11-15'
+evidence: CIMA-CLM predicted chromatin accessibility and evaluated noncoding variant effects from chromatin sequences and
+  gene expression.

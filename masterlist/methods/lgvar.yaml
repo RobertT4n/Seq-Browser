@@ -1,0 +1,18 @@
+name: LGvar
+category: dry
+summary: Detects large structural variants in population-scale and cross-species genome assemblies while accounting for sequence
+  divergence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.28.747789
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhou F
+  last_author: Mao Y
+  title: Cross-species discovery of large structural variants reveals distinct evolutionary dynamics in primates
+added: '2026-11-15'
+evidence: LGvar identifies large deletions, insertions, inversions and complex rearrangements in divergent genome assemblies.

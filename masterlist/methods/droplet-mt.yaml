@@ -1,0 +1,26 @@
+name: Droplet-MT
+category: wet
+summary: Jointly profiles single-cell transcriptomes and methylomes to link molecular states with clonal organization.
+readouts:
+- rna
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.10.08.757494
+  year: 2026
+  journal: bioRxiv
+  first_author: Shao J
+  last_author: Wang S
+  title: Scalable methylome-transcriptome profiling resolves clonal organization in human hematopoiesis
+added: '2026-11-15'
+evidence: Droplet-MT jointly profiles transcriptomes and methylomes at approximately 10,000 cells per library and was applied
+  to healthy blood and acute myeloid leukemia.
+partition_unknown: not stated in the abstract

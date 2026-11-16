@@ -1,0 +1,26 @@
+name: SABER-IMC
+category: wet
+summary: DNA-based signal amplification extends imaging mass cytometry to low-abundance protein markers in tissue.
+readouts:
+- protein
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry: []
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-023-01976-y
+  year: 2023
+  journal: Nat Methods
+  first_author: Hosogane T
+  last_author: Bodenmiller B
+  pmid: '37653118'
+  pmcid: PMC10482679
+  title: DNA-barcoded signal amplification for imaging mass cytometry enables sensitive and highly multiplexed tissue imaging
+added: '2026-11-15'
+evidence: SABER-IMC imaged 18 amplified and 20 unamplified markers in the human melanoma tumor immune microenvironment.
+chemistry_unknown: not stated in abstract

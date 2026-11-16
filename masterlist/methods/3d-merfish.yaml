@@ -1,0 +1,27 @@
+name: 3D MERFISH
+category: wet
+summary: Images RNA in individual cells throughout thick tissue sections using optimized MERFISH and confocal optical sectioning.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.7554/elife.90029
+  year: 2024
+  journal: Elife
+  first_author: Fang R
+  last_author: Zhuang X
+  pmid: '39727221'
+  pmcid: PMC11677232
+  title: Three-dimensional single-cell transcriptome imaging of thick tissues
+added: '2026-11-15'
+evidence: 3D MERFISH was demonstrated on mouse brain sections up to 200 µm thick.
+partition_unknown: not stated in the abstract

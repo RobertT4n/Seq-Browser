@@ -1,0 +1,18 @@
+name: G4SCOPE
+category: dry
+summary: Predicts chromatin-associated G-quadruplex occupancy and quantitative CUT&Tag profiles from DNA sequence.
+readouts:
+- dna-secondary-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.28.748631
+  year: 2026
+  journal: bioRxiv
+  first_author: Sarvar A
+  last_author: Aparicio S
+  title: G4SCOPE identifies sequence features and epigenetic contexts of chromatin G-quadruplexes
+added: '2026-11-15'
+evidence: G4SCOPE models chromatin-associated G4 occupancy and reconstructs high-resolution CUT&Tag profiles directly from
+  primary DNA sequence.

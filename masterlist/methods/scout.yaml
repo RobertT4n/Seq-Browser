@@ -1,0 +1,20 @@
+name: SCOUT
+full_name: single-cell Ornstein-Uhlenbeck trees
+category: dry
+summary: Models gene expression evolution along single-cell lineage trees to distinguish neutral drift from selection.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.11.12.688020
+  year: 2025
+  journal: bioRxiv
+  first_author: Stuart H
+  last_author: McKenna A
+  title: 'SCOUT: Ornstein–Uhlenbeck modelling of gene expression evolution on single-cell lineage trees'
+added: '2026-11-15'
+evidence: SCOUT integrates lineage and transcriptomic data using Ornstein-Uhlenbeck processes to classify gene expression
+  dynamics.

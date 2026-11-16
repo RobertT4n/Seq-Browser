@@ -1,0 +1,31 @@
+name: inCITE-seq
+full_name: intranuclear cellular indexing of transcriptomes and epitopes
+category: wet
+summary: inCITE-seq jointly measures intranuclear protein levels and transcriptomes across individual nuclei.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- nuclei
+reference:
+  doi: 10.1038/s41592-021-01278-1
+  year: 2021
+  journal: Nat Methods
+  first_author: Chung H
+  last_author: Regev A
+  pmid: '34608310'
+  pmcid: PMC8532076
+  title: Joint single-cell measurements of nuclear proteins and RNA in vivo
+added: '2026-11-15'
+evidence: The method measures multiplexed intranuclear protein levels and transcriptomes in parallel across thousands of nuclei.
+partition_unknown: not stated in the abstract

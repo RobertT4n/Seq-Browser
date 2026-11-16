@@ -1,0 +1,26 @@
+name: Perturb-ME
+full_name: Perturb-seq with Marker Enrichment
+category: wet
+summary: Perturb-ME combines genome-scale CRISPR screening, phenotype-based enrichment, and multimodal single-cell profiling.
+readouts:
+- rna
+- protein
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+reference:
+  doi: 10.64898/2026.08.17.745330
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang H
+  last_author: Regev A
+  title: 'Perturb-ME: Scalable mechanism discovery from phenotype-enriched genome-wide screens'
+added: '2026-11-15'
+evidence: Perturb-ME profiled melanoma cells with low and high MHC-I surface expression using matched RNA, surface-protein,
+  and guide measurements.
+partition_unknown: not stated in the abstract

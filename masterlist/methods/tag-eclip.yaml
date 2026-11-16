@@ -1,0 +1,23 @@
+name: TAG-eCLIP
+category: wet
+summary: Profiles RNA binding by endogenously tagged proteins using tag-specific antibodies and eCLIP.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/j.ymeth.2016.12.007
+  year: 2017
+  journal: Methods
+  first_author: Van Nostrand EL
+  last_author: Yeo GW
+  pmid: '28003131'
+  pmcid: PMC5411315
+  title: CRISPR/Cas9-mediated integration enables TAG-eCLIP of endogenously tagged RNA binding proteins
+added: '2026-11-15'
+evidence: TAG-eCLIP uses tag-specific antibodies to obtain binding profiles of endogenously tagged RNA-binding proteins.

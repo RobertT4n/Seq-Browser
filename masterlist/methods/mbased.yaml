@@ -1,0 +1,21 @@
+name: MBASED
+full_name: meta-analysis based allele-specific expression detection
+category: dry
+summary: Detects gene-level allele-specific expression from RNA-seq data by aggregating information across variant loci.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-014-0405-3
+  year: 2014
+  journal: Genome Biol
+  first_author: Mayba O
+  last_author: Zhang Z
+  pmid: '25315065'
+  pmcid: PMC4165366
+  title: 'MBASED: allele-specific expression detection in cancer tissues and cell lines'
+added: '2026-11-15'
+evidence: MBASED aggregates information across multiple single nucleotide variation loci to measure allele-specific expression
+  even without prior phasing.

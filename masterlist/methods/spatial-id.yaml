@@ -1,0 +1,21 @@
+name: Spatial-ID
+category: dry
+summary: Assigns cell types in spatial transcriptomics by combining reference single-cell RNA-seq data with spatial information.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-35288-0
+  year: 2022
+  journal: Nat Commun
+  first_author: Shen R
+  last_author: Yao J
+  pmid: '36496406'
+  pmcid: PMC9741613
+  title: 'Spatial-ID: a cell typing method for spatially resolved transcriptomics via transfer learning and spatial embedding'
+added: '2026-11-15'
+evidence: Spatial-ID combines reference single-cell RNA-seq knowledge with spatial information to annotate cell types.

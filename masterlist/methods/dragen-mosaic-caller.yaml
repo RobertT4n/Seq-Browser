@@ -1,0 +1,18 @@
+name: DRAGEN mosaic caller
+category: dry
+summary: Detects low-variant-allele-fraction mosaic SNVs and indels from bulk sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.02.03.26345450
+  year: 2026
+  journal: medRxiv
+  first_author: Behera S
+  last_author: Sedlazeck FJ
+  title: Scalable and comprehensive mosaic variant calling using DRAGEN
+added: '2026-11-15'
+evidence: The hardware-accelerated DRAGEN mosaic caller identifies mosaic SNVs and indels down to approximately 1–2% variant
+  allele fraction.

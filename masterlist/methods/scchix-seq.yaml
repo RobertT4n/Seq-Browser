@@ -1,0 +1,25 @@
+name: scChIX-seq
+full_name: single-cell chromatin immunocleavage and unmixing sequencing
+category: wet
+summary: scChIX-seq multiplexes histone marks in single cells and computationally deconvolves their profiles.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+species: []
+validated_system: []
+reference:
+  doi: 10.1038/s41587-022-01560-3
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Yeung J
+  last_author: van Oudenaarden A
+  pmid: '36593403'
+  pmcid: PMC10264247
+  title: scChIX-seq infers dynamic relationships between histone modifications in single cells
+added: '2026-11-15'
+evidence: The framework multiplexes two histone marks in single cells and uses training profiles to deconvolve the signal.
+partition_unknown: not stated in the abstract

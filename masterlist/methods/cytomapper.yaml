@@ -1,0 +1,20 @@
+name: cytomapper
+category: dry
+summary: Visualizes pixel- and cell-level measurements from highly multiplexed imaging.
+readouts:
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa1061
+  year: 2021
+  journal: Bioinformatics
+  first_author: Eling N
+  last_author: Bodenmiller B
+  pmid: '33367748'
+  pmcid: PMC8023672
+  title: 'cytomapper: an R/Bioconductor package for visualization of highly multiplexed imaging data'
+added: '2026-11-15'
+evidence: cytomapper visualizes pixel- and cell-level information and supports hierarchical gating based on marker expression.

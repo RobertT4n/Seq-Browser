@@ -1,0 +1,18 @@
+name: Flipper
+category: dry
+summary: Detects differential RNA-binding protein binding from eCLIP counts using input controls and hierarchical normalization.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.03.13.711628
+  year: 2026
+  journal: bioRxiv
+  first_author: Flanagan K
+  last_author: Yeo GW
+  title: 'Flipper: An advanced framework for identifying differential RNA binding behavior with eCLIP data'
+added: '2026-11-15'
+evidence: Flipper adapts DESeq2 for differential analysis of eCLIP count data, incorporating input controls and hierarchical
+  normalization.

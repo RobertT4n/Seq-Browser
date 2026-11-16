@@ -1,0 +1,19 @@
+name: iMAP
+category: dry
+summary: Integrates single-cell RNA-seq datasets by removing batch effects with autoencoders and adversarial networks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02280-8
+  year: 2021
+  journal: Genome Biol
+  first_author: Wang D
+  last_author: Zhang Z
+  pmid: '33602306'
+  pmcid: PMC7891139
+  title: 'iMAP: integration of multiple single-cell datasets by adversarial paired transfer networks'
+added: '2026-11-15'
+evidence: iMAP is an unsupervised batch-effect removal framework based on deep autoencoders and generative adversarial networks.

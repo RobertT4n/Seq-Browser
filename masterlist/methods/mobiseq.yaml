@@ -1,0 +1,25 @@
+name: MobiSeq
+category: wet
+summary: Enriches transposable elements by PCR and sequences their flanking regions for genome-wide SNP discovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- other-vertebrate
+validated_system: []
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1111/1755-0998.12984
+  year: 2019
+  journal: Mol Ecol Resour
+  first_author: Rey-Iglesia A
+  last_author: Hansen AJ
+  pmid: '30575257'
+  title: 'MobiSeq: De novo SNP discovery in model and non-model species through sequencing the flanking region of transposable
+    elements'
+added: '2026-11-15'
+evidence: PCR enrichment of transposable elements and sequencing of flanking regions yielded hundreds of thousands of loci
+  across mammalian genomes.

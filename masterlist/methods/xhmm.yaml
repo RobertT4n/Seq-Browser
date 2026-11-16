@@ -1,0 +1,21 @@
+name: XHMM
+full_name: exome hidden Markov model
+category: dry
+summary: Normalizes exome sequencing depth and uses a hidden Markov model to discover and genotype copy-number variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.ajhg.2012.08.005
+  year: 2012
+  journal: Am J Hum Genet
+  first_author: Fromer M
+  last_author: Purcell SM
+  pmid: '23040492'
+  pmcid: PMC3484655
+  title: Discovery and statistical genotyping of copy-number variation from whole-exome sequencing depth
+added: '2026-11-15'
+evidence: XHMM uses principal-component analysis to normalize exome read depth and a hidden Markov model to discover exon-resolution
+  copy-number variation.

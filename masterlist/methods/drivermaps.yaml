@@ -1,0 +1,20 @@
+name: driverMAPS
+full_name: Model-based Analysis of Positive Selection
+category: dry
+summary: Identifies candidate cancer driver genes by modeling positive selection and heterogeneous background mutation processes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-11284-9
+  year: 2019
+  journal: Nat Commun
+  first_author: Zhao S
+  last_author: He X
+  pmid: '31363082'
+  pmcid: PMC6667447
+  title: Detailed modeling of positive selection improves detection of cancer driver genes
+added: '2026-11-15'
+evidence: driverMAPS models positive selection at single-base resolution alongside heterogeneous background mutational processes.

@@ -1,0 +1,28 @@
+name: BALT-seq
+full_name: bisulfite-assisted labeling by thiol sequencing
+category: wet
+summary: Chemoselectively labels hydroxymethylcytosine in DNA and RNA for profiling and enrichment.
+readouts:
+- dna-methylation
+- dna-5hmc
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.09.14.751533
+  year: 2026
+  journal: bioRxiv
+  first_author: Li J
+  last_author: He C
+  title: A One-Step Chemoselective Strategy for Hydroxymethylcytosine Sequencing in DNA and RNA
+added: '2026-11-15'
+evidence: A biotin-thioether handle is installed on hydroxymethylcytosine in DNA or RNA, producing genome-wide DNA 5hmC profiles
+  and enriching modified RNA transcripts.

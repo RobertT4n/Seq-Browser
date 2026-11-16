@@ -1,0 +1,26 @@
+name: PAIR-MaP
+category: wet
+summary: Detects RNA base-pairing interactions in cells through single-molecule correlated chemical probing.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+- microbe
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1905491116
+  year: 2019
+  journal: Proc Natl Acad Sci U S A
+  first_author: Mustoe AM
+  last_author: Weeks KM
+  pmid: '31744869'
+  pmcid: PMC6900531
+  title: RNA base-pairing complexity in living cells visualized by correlated chemical probing
+added: '2026-11-15'
+evidence: PAIR-MaP uses correlated chemical probing to detect base-pairing interactions and resolve multiple RNA structures
+  in cells.

@@ -1,0 +1,21 @@
+name: DeepLoop
+category: dry
+summary: Corrects bias and enhances sparse Hi-C signals to map chromatin interactions, including loops in single cells.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01116-w
+  year: 2022
+  journal: Nat Genet
+  first_author: Zhang S
+  last_author: Jin F
+  pmid: '35817982'
+  pmcid: PMC10082397
+  title: DeepLoop robustly maps chromatin interactions from sparse allele-resolved or single-cell Hi-C data at kilobase resolution
+added: '2026-11-15'
+evidence: DeepLoop performs bias correction followed by deep-learning-based signal enhancement for interaction mapping from
+  low-depth Hi-C data.

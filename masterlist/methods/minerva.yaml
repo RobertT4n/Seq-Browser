@@ -1,0 +1,18 @@
+name: Minerva
+category: dry
+summary: Uses genome language models to predict pairwise interactions and identify noncoding elements in microbial sequences.
+readouts:
+- genome-sequence
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.22.753630
+  year: 2026
+  journal: bioRxiv
+  first_author: Li DB
+  last_author: Hie BL
+  title: Coevolutionary mining of prokaryotic non-coding elements with a genome language model
+added: '2026-11-15'
+evidence: Minerva predicts base pairing, monomeric protein contacts, and repetitive sequence motifs directly from sequence.

@@ -1,0 +1,21 @@
+name: UCE
+full_name: universal cell embedding
+category: dry
+summary: Learns a shared representation of cells across tissues and species for single-cell analysis and annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-026-10689-z
+  year: 2026
+  journal: Nature
+  first_author: Rosen Y
+  last_author: Leskovec J
+  pmid: '42420460'
+  pmcid: PMC13441871
+  title: Universal cell embedding provides a foundation model for cell biology
+added: '2026-11-15'
+evidence: UCE is a self-supervised foundation model that creates a unified latent space representing cells across diverse
+  tissues and species.

@@ -1,0 +1,13 @@
+name: scVision
+category: dry
+summary: Uses a vision foundation model on gene-expression images to represent and annotate single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2607.14163
+added: '2026-11-15'
+evidence: scVision places co-expressed genes near one another in a shared layout and pretrains a vision transformer on images
+  of cell transcriptomes.

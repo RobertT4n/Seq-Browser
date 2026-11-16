@@ -1,0 +1,20 @@
+name: Rfoot
+category: dry
+summary: Identifies and maps nonribosomal RNA-protein complexes from ribosome profiling data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3441
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Ji Z
+  last_author: Struhl K
+  pmid: '26900662'
+  pmcid: PMC4824641
+  title: Transcriptome-scale RNase-footprinting of RNA-protein complexes
+added: '2026-11-15'
+evidence: Rfoot analyzes ribosome profiling data to identify native nonribosomal RNA-protein complexes and map RNase-protected
+  regions.

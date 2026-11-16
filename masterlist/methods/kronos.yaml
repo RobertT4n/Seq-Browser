@@ -1,0 +1,13 @@
+name: KRONOS
+category: dry
+summary: Learns pretrained representations of spatial proteomics images for tasks including cell phenotyping and region classification.
+readouts:
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2506.03373
+added: '2026-11-15'
+evidence: KRONOS was trained on image patches covering 175 protein markers and supports cell phenotyping and region classification.

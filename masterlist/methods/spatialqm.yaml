@@ -1,0 +1,21 @@
+name: SpatialQM
+category: dry
+summary: Evaluates technical quality metrics and imputes cell annotations for imaging-based spatial transcriptomics datasets.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s41587-025-02811-9
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Plummer JT
+  last_author: Martelotto LG
+  pmid: '41339526'
+  pmcid: PMC13368583
+  title: Standardized metrics for assessment and reproducibility of imaging-based spatial transcriptomics datasets
+added: '2026-11-15'
+evidence: SpatialQM enables evaluation across technical metrics and direct imputation of cell annotations in imaging-based
+  spatial transcriptomics.

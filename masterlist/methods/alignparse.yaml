@@ -1,0 +1,23 @@
+name: alignparse
+category: dry
+summary: Aligns long sequencing reads to known targets and extracts user-defined sequence features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.21105/joss.01915
+  year: 2019
+  journal: J Open Source Softw
+  first_author: Crawford KHD
+  last_author: Bloom JD
+  pmid: '31897449'
+  pmcid: PMC6939853
+  title: 'alignparse: A Python package for parsing complex features from high-throughput long-read sequencing'
+  preprint_doi: 10.1101/850404
+added: '2026-11-15'
+evidence: alignparse aligns reads to user-defined targets and parses features such as mutations, molecular identifiers and
+  cell barcodes.

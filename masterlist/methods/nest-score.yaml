@@ -1,0 +1,19 @@
+name: NEST-Score
+category: dry
+summary: Evaluates brain organoid differentiation propensities across cell lines and protocols and compares them with in vivo
+  references.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2025.116168
+  year: 2025
+  journal: Cell Rep
+  first_author: Naas J
+  last_author: Knoblich JA
+  pmid: '40864552'
+  title: Quantitative profiling of human brain organoid cell diversity across four protocols and multiple cell lines
+added: '2026-11-15'
+evidence: NEST-Score evaluates cell-line- and protocol-driven differentiation propensities and comparisons to in vivo references.

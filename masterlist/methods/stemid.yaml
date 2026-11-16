@@ -1,0 +1,19 @@
+name: StemID
+category: dry
+summary: Predicts stem cell identity from single-cell transcriptomes using a derived lineage tree and transcriptome composition.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.stem.2016.05.010
+  year: 2016
+  journal: Cell Stem Cell
+  first_author: Grün D
+  last_author: van Oudenaarden A
+  pmid: '27345837'
+  pmcid: PMC4985539
+  title: De Novo Prediction of Stem Cell Identity using Single-Cell Transcriptome Data
+added: '2026-11-15'
+evidence: StemID uses lineage-tree topology and transcriptome composition to identify stem cells among detectable cell types.

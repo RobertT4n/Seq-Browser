@@ -1,0 +1,19 @@
+name: CellOracle
+category: dry
+summary: Infers gene regulatory networks from single-cell transcriptome and epigenome profiles and simulates transcription
+  factor perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.02.17.947416
+  year: 2020
+  journal: bioRxiv
+  first_author: Kamimoto K
+  last_author: Morris SA
+  title: 'CellOracle: Dissecting cell identity via network inference and in silico gene perturbation'
+added: '2026-11-15'
+evidence: CellOracle integrates single-cell transcriptome and epigenome profiles to infer regulatory networks and simulate
+  gene expression changes after transcription factor perturbation.

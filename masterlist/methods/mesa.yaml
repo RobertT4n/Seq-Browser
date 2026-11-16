@@ -1,0 +1,24 @@
+name: MESA
+full_name: Microfluidic droplet Enrichment for Sequence Analysis
+category: wet
+summary: Enriches selected genomic regions by identifying and sorting microfluidic droplets containing target DNA fragments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- droplet-microfluidics
+reference:
+  doi: 10.1093/nar/gkv297
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Eastburn DJ
+  last_author: Abate AR
+  pmid: '25873629'
+  pmcid: PMC4513844
+  title: Microfluidic droplet enrichment for targeted sequencing
+added: '2026-11-15'
+evidence: Genomic fragments are isolated in droplets, tested by TaqMan PCR and sorted to enrich five targeted genomic loci.

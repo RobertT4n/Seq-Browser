@@ -1,0 +1,26 @@
+name: I2b-RAD
+full_name: improved 2b-RAD
+category: wet
+summary: Improves restriction-site associated DNA genotyping by pooling samples during library preparation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+validated_system: []
+reference:
+  doi: 10.1186/1471-2164-15-956
+  year: 2014
+  journal: BMC Genomics
+  first_author: Guo Y
+  last_author: Zhang H
+  pmid: '25373334'
+  pmcid: PMC4236440
+  title: An improved 2b-RAD approach (I2b-RAD) offering genotyping tested by a rice (Oryza sativa L.) F2 population
+added: '2026-11-15'
+evidence: The improved library workflow includes digestion, ligation, pooling, PCR, and size selection and was validated by
+  genotyping a rice F2 population.

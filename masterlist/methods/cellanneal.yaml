@@ -1,0 +1,13 @@
+name: cellanneal
+category: dry
+summary: Deconvolves bulk RNA sequencing data using simulated annealing to optimize a gene-expression correlation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2110.08209
+added: '2026-11-15'
+evidence: cellanneal deconvolves bulk RNA sequencing data by optimizing Spearman correlation between experimental and computational
+  mixture expression vectors.

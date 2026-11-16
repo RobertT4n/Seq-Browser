@@ -1,0 +1,26 @@
+name: m6A-label-seq
+category: wet
+summary: m6A-label-seq uses metabolic labeling to identify mRNA m6A sites across the transcriptome at base resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41589-020-0526-9
+  year: 2020
+  journal: Nat Chem Biol
+  first_author: Shu X
+  last_author: Liu J
+  pmid: '32341503'
+  title: A metabolic labeling method detects m&lt;sup&gt;6&lt;/sup&gt;A transcriptome-wide at single base resolution
+added: '2026-11-15'
+evidence: Cells fed a methionine analog incorporate an allyl group at presumed m6A sites, which are detected through reverse-transcription
+  misincorporation.

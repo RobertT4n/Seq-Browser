@@ -1,0 +1,25 @@
+name: LOCL-TL
+full_name: LOV-domain-controlled ligase for translation localization
+category: wet
+summary: LOCL-TL monitors translation at defined subcellular locations with codon resolution.
+readouts:
+- translation
+resolution:
+- subcellular
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1016/j.cell.2025.08.002
+  year: 2025
+  journal: Cell
+  first_author: Luo J
+  last_author: Weissman JS
+  pmid: '40876456'
+  pmcid: PMC12650760
+  title: Proximity-specific ribosome profiling reveals the logic of localized mitochondrial translation
+added: '2026-11-15'
+evidence: The optogenetic approach was applied to translation localized at the outer mitochondrial membrane.
+chemistry_unknown: not stated in abstract

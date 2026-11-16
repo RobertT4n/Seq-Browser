@@ -1,0 +1,25 @@
+name: RING-MaP
+full_name: RNA interaction groups by mutational profiling
+category: wet
+summary: Uses correlated chemical modifications on individual RNA strands to infer RNA interactions and distinct structural
+  conformations.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.1407306111
+  year: 2014
+  journal: Proc Natl Acad Sci U S A
+  first_author: Homan PJ
+  last_author: Weeks KM
+  pmid: '25205807'
+  pmcid: PMC4183288
+  title: Single-molecule correlated chemical probing of RNA
+added: '2026-11-15'
+evidence: Multiple chemically modified sites on single RNA strands are sequenced and analyzed for correlated interactions.

@@ -1,0 +1,19 @@
+name: Sashimi plots
+category: dry
+summary: Visualizes aligned RNA-seq reads to compare exon usage across samples or conditions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btv034
+  year: 2015
+  journal: Bioinformatics
+  first_author: Katz Y
+  last_author: Burge CB
+  pmid: '25617416'
+  pmcid: PMC4542614
+  title: Quantitative visualization of alternative exon expression from RNA-seq data
+added: '2026-11-15'
+evidence: Sashimi plots provide quantitative visualization of aligned RNA-seq reads and comparison of exon usage.

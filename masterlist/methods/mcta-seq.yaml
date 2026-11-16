@@ -1,0 +1,29 @@
+name: MCTA-Seq
+full_name: methylated CpG tandems amplification and sequencing
+category: wet
+summary: MCTA-Seq detects hypermethylated CpG islands across circulating cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/cr.2015.126
+  year: 2015
+  journal: Cell Res
+  first_author: Wen L
+  last_author: Peng J
+  pmid: '26516143'
+  pmcid: PMC4650428
+  title: Genome-scale detection of hypermethylated CpG islands in circulating cell-free DNA of hepatocellular carcinoma patients
+added: '2026-11-15'
+evidence: MCTA-Seq detects thousands of hypermethylated CpG islands simultaneously in circulating cell-free DNA.
+chemistry_unknown: not stated in abstract

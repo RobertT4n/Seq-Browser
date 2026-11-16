@@ -1,0 +1,19 @@
+name: VaQuERo
+full_name: variant quantification in sewage pipeline designed for robustness
+category: dry
+summary: Quantifies the abundance of predefined SARS-CoV-2 variants in complex wastewater sequencing samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01387-y
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Amman F
+  last_author: Bergthaler A
+  pmid: '35851376'
+  title: Viral variant-resolved wastewater surveillance of SARS-CoV-2 at national scale
+added: '2026-11-15'
+evidence: VaQuERo deduced the spatiotemporal abundance of predefined variants from complex wastewater samples.

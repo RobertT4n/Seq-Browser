@@ -1,0 +1,19 @@
+name: CellFishing.jl
+category: dry
+summary: Searches single-cell RNA sequencing atlases for cells similar to a query and identifies noteworthy query-cell genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1639-x
+  year: 2019
+  journal: Genome Biol
+  first_author: Sato K
+  last_author: Nikaido I
+  pmid: '30744683'
+  pmcid: PMC6371477
+  title: 'CellFishing.jl: an ultrafast and scalable cell search method for single-cell RNA sequencing'
+added: '2026-11-15'
+evidence: CellFishing.jl searches atlas-scale datasets for similar cells and detects noteworthy genes of query cells.

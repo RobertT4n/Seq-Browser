@@ -1,0 +1,27 @@
+name: ViCAR
+full_name: viewpoint HiCAR
+category: wet
+summary: Captures chromatin interactions at antibody-recognized features including folded G-quadruplexes and histone marks.
+readouts:
+- 3d-genome
+- dna-secondary-structure
+- histone-modification
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1186/s13059-024-03377-6
+  year: 2024
+  journal: Genome Biol
+  first_author: Flynn SM
+  last_author: Balasubramanian S
+  pmid: '39227991'
+  pmcid: PMC11370281
+  title: Improved simultaneous mapping of epigenetic features and 3D chromatin structure via ViCAR
+added: '2026-11-15'
+evidence: ViCAR directly captures chromatin interactions at folded G-quadruplexes using antibodies and is also demonstrated
+  with histone marks.

@@ -1,0 +1,31 @@
+name: 5′ETS/45S CISH
+category: wet
+summary: Chromogenic in situ hybridization detects a ribosomal RNA precursor as a measure of RNA polymerase I activity in
+  tissue.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- human
+validated_system:
+- tissue-in-vivo
+- cell-line
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1158/1541-7786.mcr-16-0246
+  year: 2017
+  journal: Mol Cancer Res
+  first_author: Guner G
+  last_author: De Marzo AM
+  pmid: '28119429'
+  pmcid: PMC5802390
+  title: Novel Assay to Detect RNA Polymerase I Activity <i>In Vivo</i>
+added: '2026-11-15'
+evidence: The assay detects the 5′ external transcribed spacer of 45S precursor rRNA in FFPE human tissues, with signal restricted
+  to the nucleolus.

@@ -1,0 +1,21 @@
+name: CellCartographer
+category: dry
+summary: Uses chromatin accessibility and transcriptomics data to design and iteratively refine pooled transcription-factor
+  screens for cell-type conversion.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2025.115726
+  year: 2025
+  journal: Cell Rep
+  first_author: Appleton E
+  last_author: Church G
+  pmid: '40382774'
+  title: Machine-guided cell-fate engineering
+added: '2026-11-15'
+evidence: CellCartographer uses chromatin accessibility and transcriptomics data to design multiplex TF pooled-screening experiments
+  for cell-type conversions.

@@ -1,0 +1,26 @@
+name: redBS-Seq
+full_name: reduced bisulfite sequencing
+category: wet
+summary: Quantifies DNA 5-formylcytosine at single-base resolution by chemical reduction followed by bisulfite treatment.
+readouts:
+- dna-methylation
+- dna-5fc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system: []
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/nchem.1893
+  year: 2014
+  journal: Nat Chem
+  first_author: Booth MJ
+  last_author: Balasubramanian S
+  pmid: '24755596'
+  pmcid: PMC4188980
+  title: Quantitative sequencing of 5-formylcytosine in DNA at single-base resolution
+added: '2026-11-15'
+evidence: Selective reduction of 5fC to 5hmC followed by bisulfite treatment enables quantitative decoding of 5fC.

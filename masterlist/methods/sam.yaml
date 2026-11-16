@@ -1,0 +1,20 @@
+name: SAM
+full_name: self-assembling manifold
+category: dry
+summary: Iteratively selects relevant features to improve dimensionality reduction of single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.7554/elife.48994
+  year: 2019
+  journal: Elife
+  first_author: Tarashansky AJ
+  last_author: Wang B
+  pmid: '31524596'
+  pmcid: PMC6795480
+  title: Self-assembling manifolds in single-cell RNA sequencing data
+added: '2026-11-15'
+evidence: SAM uses iterative soft feature selection to quantify gene relevance and improve dimensionality reduction.

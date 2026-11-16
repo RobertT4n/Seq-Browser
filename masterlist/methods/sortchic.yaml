@@ -1,0 +1,33 @@
+name: sortChIC
+full_name: sort-assisted single-cell chromatin immunocleavage
+category: wet
+summary: sortChIC maps histone modifications in single cells to study chromatin dynamics during hematopoiesis.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- facs-sorting
+- antibody-tethered-enzyme
+species:
+- mouse
+validated_system:
+- primary-cells
+targets:
+- H3K4me1
+- H3K4me3
+- H3K27me3
+- H3K9me3
+reference:
+  doi: 10.1038/s41588-022-01260-3
+  year: 2023
+  journal: Nat Genet
+  first_author: Zeller P
+  last_author: van Oudenaarden A
+  pmid: '36539617'
+  pmcid: PMC9925381
+  title: Single-cell sortChIC identifies hierarchical chromatin dynamics during hematopoiesis
+added: '2026-11-15'
+evidence: sortChIC mapped active and repressive histone modifications in mouse bone marrow, including joint profiling of H3K4me1
+  and H3K9me3.

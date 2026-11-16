@@ -1,0 +1,20 @@
+name: MapMyCells
+category: dry
+summary: Maps single-cell datasets to hierarchical reference brain taxonomies for cell identity annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101650
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Daniel SF
+  last_author: Hawrylycz M
+  pmid: '43020063'
+  title: 'MapMyCells: High-performance mapping of cell-by-gene data to reference brain taxonomies'
+added: '2026-11-15'
+evidence: MapMyCells maps diverse single-cell omics datasets to reference taxonomies and supports transcriptomic, epigenomic,
+  and spatial datasets.

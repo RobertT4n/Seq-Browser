@@ -1,0 +1,19 @@
+name: Peakachu
+category: dry
+summary: Predicts chromatin loops from genome-wide contact maps using supervised random forest classification.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-17239-9
+  year: 2020
+  journal: Nat Commun
+  first_author: Salameh TJ
+  last_author: Yue F
+  pmid: '32647330'
+  pmcid: PMC7347923
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+added: '2026-11-15'
+evidence: Peakachu predicts chromatin loops from genome-wide contact maps and identifies short-range interactions.

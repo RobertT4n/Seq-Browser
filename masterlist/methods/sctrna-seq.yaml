@@ -1,0 +1,27 @@
+name: sctRNA-seq
+full_name: single-cell translatome and RNA sequencing
+category: wet
+summary: sctRNA-seq profiles mRNA and tRNA abundance together in single cells and can be combined with protein profiling.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.11.11.765974
+  year: 2026
+  journal: bioRxiv
+  first_author: Kida LC
+  last_author: Lareau CA
+  title: Single-cell transfer RNA sequencing reveals principles of translational regulation
+added: '2026-11-15'
+evidence: The assay profiles transcriptome-wide mRNA and tRNA abundance simultaneously and was used for tri-modal profiling
+  of primary human T cells.
+partition_unknown: not stated in the abstract

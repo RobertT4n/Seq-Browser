@@ -1,0 +1,14 @@
+name: lineage inpainting
+category: dry
+summary: Models cell-state dynamics across lineage trees using lineage context and generative modeling.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2610.40447
+added: '2026-11-15'
+evidence: Lineage inpainting uses lineage context with tree-structured transformers and stochastic interpolants to model cell-state
+  dynamics.

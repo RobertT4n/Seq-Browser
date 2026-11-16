@@ -1,0 +1,26 @@
+name: SHAPE-JuMP
+full_name: selective 2'-hydroxyl acylation analyzed by primer extension and juxtaposed merged pairs
+category: wet
+summary: Maps RNA tertiary contacts by chemically linking proximal nucleotides and sequencing cDNA produced by a jumping reverse
+  transcriptase.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.biochem.1c00270
+  year: 2021
+  journal: Biochemistry
+  first_author: Christy TW
+  last_author: Weeks KM
+  pmid: '34121404'
+  pmcid: PMC8256721
+  title: Direct Mapping of Higher-Order RNA Interactions by SHAPE-JuMP
+added: '2026-11-15'
+evidence: An engineered reverse transcriptase jumps across chemically linked nucleotides, producing sequence deletions that
+  report their positions.

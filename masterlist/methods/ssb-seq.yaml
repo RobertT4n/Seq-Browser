@@ -1,0 +1,25 @@
+name: SSB-Seq
+category: wet
+summary: Maps DNA single-strand breaks across the genome.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry: []
+reference:
+  doi: 10.3390/ijms150713111
+  year: 2014
+  journal: Int J Mol Sci
+  first_author: Baranello L
+  last_author: Levens D
+  pmid: '25056547'
+  pmcid: PMC4139894
+  title: DNA break mapping reveals topoisomerase II activity genome-wide
+added: '2026-11-15'
+evidence: SSB-Seq maps single-strand breaks genome-wide and was tested in human colon cancer cells.
+chemistry_unknown: not stated in abstract

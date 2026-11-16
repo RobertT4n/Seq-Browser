@@ -1,0 +1,22 @@
+name: Deconwolf
+category: dry
+summary: Deconvolves widefield fluorescence microscopy images to improve detection of crowded molecular targets.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- spatial
+- subcellular
+scope: targeted
+reference:
+  doi: 10.1038/s41592-024-02294-7
+  year: 2024
+  journal: Nat Methods
+  first_author: Wernersson E
+  last_author: Bienko M
+  pmid: '38844629'
+  pmcid: PMC11239506
+  title: Deconwolf enables high-performance deconvolution of widefield fluorescence microscopy images
+added: '2026-11-15'
+evidence: Deconwolf improves transcript detection in spatial transcriptomics images and chromosome tracing with fluorescent
+  Oligopaint probes.

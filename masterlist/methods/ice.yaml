@@ -1,0 +1,20 @@
+name: ICE
+full_name: iterative correction and eigenvector decomposition
+category: dry
+summary: Corrects systematic biases in Hi-C data and decomposes contact maps to study chromosome organization.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.2148
+  year: 2012
+  journal: Nat Methods
+  first_author: Imakaev M
+  last_author: Mirny LA
+  pmid: '22941365'
+  pmcid: PMC3816492
+  title: Iterative correction of Hi-C data reveals hallmarks of chromosome organization
+added: '2026-11-15'
+evidence: ICE combines iterative bias correction with eigenvector decomposition of genome-wide Hi-C contact maps.

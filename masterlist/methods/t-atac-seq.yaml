@@ -1,0 +1,29 @@
+name: T-ATAC-seq
+full_name: transcript-indexed ATAC-seq
+category: wet
+summary: Combines T cell receptor sequencing with single-cell ATAC-seq to link T cell clonotypes to chromatin accessibility.
+readouts:
+- chromatin-accessibility
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+chemistry:
+- tn5
+reference:
+  doi: 10.1038/s41591-018-0008-8
+  year: 2018
+  journal: Nat Med
+  first_author: Satpathy AT
+  last_author: Chang HY
+  pmid: '29686426'
+  pmcid: PMC5948148
+  title: Transcript-indexed ATAC-seq for precision immune profiling
+added: '2026-11-15'
+evidence: The approach combines sequencing of TCR-encoding genes with ATAC-seq at the single-cell level.
+partition_unknown: not stated in the abstract

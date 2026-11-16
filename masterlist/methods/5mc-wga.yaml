@@ -1,0 +1,27 @@
+name: 5mC-WGA
+full_name: 5mC-specific whole-genome amplification
+category: wet
+summary: Preserves DNA 5mC during whole-genome amplification for 5mC-specific methylome profiling from limited input.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species: []
+validated_system: []
+input_sample:
+- low-input
+reference:
+  doi: 10.1021/jacs.9b12707
+  year: 2020
+  journal: J Am Chem Soc
+  first_author: Liu C
+  last_author: He C
+  pmid: '32077696'
+  pmcid: PMC7216556
+  title: DNA 5-Methylcytosine-Specific Amplification and Sequencing
+added: '2026-11-15'
+evidence: The method retains 5mC during DNA amplification with limited 5hmC interference and input down to 10 pg.
+chemistry_unknown: not stated in abstract

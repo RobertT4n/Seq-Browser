@@ -1,0 +1,29 @@
+name: CISI
+full_name: Composite In Situ Imaging
+category: wet
+summary: CISI uses composite imaging measurements and computational decompression to recover spatial gene expression with
+  fewer imaging cycles.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41587-021-00883-x
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Cleary B
+  last_author: Regev A
+  pmid: '33859401'
+  pmcid: PMC8355028
+  title: Compressed sensing for highly efficient imaging transcriptomics
+added: '2026-11-15'
+evidence: CISI recovered spatial abundance of 37 genes from 11 composite measurements across 12 mouse brain sections.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,21 @@
+name: DeepDynamics
+category: dry
+summary: Combines a single-cell reference atlas with bulk RNA-seq cohorts to infer cell-subpopulation and clinicopathological
+  dynamics along trajectories.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2025.12.15.694345
+  year: 2025
+  journal: bioRxiv
+  first_author: Haddad Y
+  last_author: Habib N
+  title: DeepDynamics resolves cell-subtype and clinicopathological dynamics from bulk RNA-seq to identify mediators of Alzheimer’s
+    disease risk
+added: '2026-11-15'
+evidence: DeepDynamics combines a smaller sc/snRNA-seq reference atlas with larger bulk RNA-seq cohorts to infer dynamics
+  along annotated trajectories.

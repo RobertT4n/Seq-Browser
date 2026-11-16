@@ -1,0 +1,24 @@
+name: KnowYourCG
+category: dry
+summary: Screens base-level DNA methylation data against biological and technical knowledgebases to aid interpretation of
+  sparse methylomes.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adw3027
+  year: 2025
+  journal: Sci Adv
+  first_author: Goldberg DC
+  last_author: Zhou W
+  pmid: '41134907'
+  pmcid: PMC12551721
+  title: 'KnowYourCG: Facilitating base-level sparse methylome interpretation'
+added: '2026-11-15'
+evidence: KnowYourCG screens diverse influences at individual bases across datasets including single-cell methylomes, spatial
+  methylation maps, and 5hmC profiles.

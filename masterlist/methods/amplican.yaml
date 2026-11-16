@@ -1,0 +1,20 @@
+name: ampliCan
+category: dry
+summary: Quantifies and visualizes genome-editing events in amplicon sequencing experiments while accounting for artifacts
+  and controls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/gr.244293.118
+  year: 2019
+  journal: Genome Res
+  first_author: Labun K
+  last_author: Valen E
+  pmid: '30850374'
+  pmcid: PMC6499316
+  title: Accurate analysis of genuine CRISPR editing events with ampliCan
+added: '2026-11-15'
+evidence: ampliCan quantifies insertions, deletions, HDR repair, and targeted base editing in amplicon sequencing experiments.

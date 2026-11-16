@@ -1,0 +1,25 @@
+name: TTISS
+full_name: tagmentation-based tag integration site sequencing
+category: wet
+summary: Profiles double-strand breaks to compare the cleavage specificity of Cas9 variants.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species: []
+validated_system: []
+reference:
+  doi: 10.1016/j.molcel.2020.02.023
+  year: 2020
+  journal: Mol Cell
+  first_author: Schmid-Burgk JL
+  last_author: Zhang F
+  pmid: '32187529'
+  pmcid: PMC7370240
+  title: Highly Parallel Profiling of Cas9 Variant Specificity
+added: '2026-11-15'
+evidence: TTISS is a tagmentation-based method for analyzing double-strand breaks that was applied to eight Cas9 variants
+  across 59 targets.

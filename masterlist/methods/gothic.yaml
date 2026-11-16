@@ -1,0 +1,19 @@
+name: GOTHiC
+category: dry
+summary: Corrects biases in Hi-C data and assigns significance to chromatin interactions using a binomial model.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0174744
+  year: 2017
+  journal: PLoS One
+  first_author: Mifsud B
+  last_author: Luscombe NM
+  pmid: '28379994'
+  pmcid: PMC5381888
+  title: GOTHiC, a probabilistic model to resolve complex biases and to identify real interactions in Hi-C data
+added: '2026-11-15'
+evidence: The model corrects biases of known and unknown origin and yields a p-value for each interaction.

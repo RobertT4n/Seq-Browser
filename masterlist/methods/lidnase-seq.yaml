@@ -1,0 +1,26 @@
+name: liDNase-seq
+full_name: low-input DNase I sequencing
+category: wet
+summary: Maps DNase I-hypersensitive chromatin in low-input samples such as early mouse embryos.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- dnase-digestion
+reference:
+  doi: 10.1016/j.cell.2016.05.050
+  year: 2016
+  journal: Cell
+  first_author: Lu F
+  last_author: Zhang Y
+  pmid: '27259149'
+  pmcid: PMC6625655
+  title: Establishing Chromatin Regulatory Landscape during Mouse Preimplantation Development
+added: '2026-11-15'
+evidence: liDNase-seq generated DNase I-hypersensitive site maps of mouse embryos from the one-cell to morula stages.

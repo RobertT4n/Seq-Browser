@@ -1,0 +1,13 @@
+name: SynCellNet
+category: dry
+summary: Generates phenotype-conditioned synthetic single-cell gene expression profiles using a structured representation
+  of gene interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-026-64435-6
+added: '2026-11-15'
+evidence: SynCellNet synthesizes phenotype-conditioned Genomaps and transforms them back into gene expression values.

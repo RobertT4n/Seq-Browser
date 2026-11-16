@@ -1,0 +1,30 @@
+name: corrFISH
+full_name: correlation FISH
+category: wet
+summary: Resolves dense temporal barcodes in sequential hybridization experiments to quantify transcripts in cells and tissue
+  sections.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nmeth.3895
+  year: 2016
+  journal: Nat Methods
+  first_author: Coskun AF
+  last_author: Cai L
+  pmid: '27271198'
+  pmcid: PMC4965285
+  title: Dense transcript profiling in single cells by image correlation decoding
+added: '2026-11-15'
+evidence: corrFISH quantified highly expressed ribosomal protein genes in single cultured cells and mouse thymus sections.
+partition_unknown: not stated in the abstract

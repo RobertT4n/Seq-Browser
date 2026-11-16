@@ -1,0 +1,24 @@
+name: Modulator
+category: dry
+summary: Estimates RNA modification stoichiometry and identifies transcript-, allele- and condition-associated differences
+  from nanopore direct RNA reads.
+readouts:
+- rna-modification
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.10.15.759385
+  year: 2026
+  journal: bioRxiv
+  first_author: Nelson TM
+  last_author: Mason CE
+  title: Modulator Resolves Transcript-, Allele-, and Condition-associated RNA Modification Differences from Direct RNA Sequencing
+added: '2026-11-15'
+evidence: Modulator groups reads into fragmentforms, estimates per-base modification stoichiometry and classifies differences
+  by transcript, allele or condition.

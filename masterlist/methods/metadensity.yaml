@@ -1,0 +1,20 @@
+name: Metadensity
+category: dry
+summary: Produces background-normalized metagene plots of RNA-binding protein CLIP signals around transcript features.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbac083
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Her HL
+  last_author: Yeo GW
+  pmid: '36388152'
+  pmcid: PMC9653213
+  title: 'Metadensity: a background-aware python pipeline for summarizing CLIP signals on various transcriptomic sites'
+added: '2026-11-15'
+evidence: Metadensity normalizes CLIP libraries with background controls and averages signal around user-defined transcript
+  features.

@@ -1,0 +1,27 @@
+name: LCS-WGA
+category: wet
+summary: Amplifies single-cell genomes to profile spontaneous DNA damage-associated single-nucleotide variants.
+readouts:
+- dna-damage
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+chemistry: []
+reference:
+  doi: 10.1126/sciadv.abf3329
+  year: 2021
+  journal: Sci Adv
+  first_author: Zhu Q
+  last_author: Zong C
+  pmid: '34215579'
+  pmcid: PMC11060043
+  title: Single-cell damagenome profiling unveils vulnerable genes and functional pathways in human genome toward DNA damage
+added: '2026-11-15'
+evidence: LCS-WGA captures spontaneous DNA damage in single cells and was used to examine damage-associated single-nucleotide
+  variants in human neurons.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

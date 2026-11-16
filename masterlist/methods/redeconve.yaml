@@ -1,0 +1,20 @@
+name: Redeconve
+category: dry
+summary: Deconvolves spatial transcriptomics data at single-cell resolution using single-cell RNA-seq reference data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-43600-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhou Z
+  last_author: Ren X
+  pmid: '38040768'
+  pmcid: PMC10692090
+  title: Spatial transcriptomics deconvolution at single-cell resolution using Redeconve
+added: '2026-11-15'
+evidence: Redeconve deconvolves spatial transcriptomics data at single-cell resolution to interpret nuanced cell states.

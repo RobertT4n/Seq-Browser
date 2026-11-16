@@ -1,0 +1,19 @@
+name: SIPMeta
+category: dry
+summary: Produces average Hi-C and HiChIP plots while correcting a visualization artifact using Manhattan distance.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.257832.119
+  year: 2020
+  journal: Genome Res
+  first_author: Rowley MJ
+  last_author: Corces VG
+  pmid: '32127418'
+  pmcid: PMC7111518
+  title: Analysis of Hi-C data using SIP effectively identifies loops in organisms from <i>C. elegans</i> to mammals
+added: '2026-11-15'
+evidence: SIPMeta accounts for Manhattan distance to correct a common visualization artifact in average Hi-C and HiChIP plots.

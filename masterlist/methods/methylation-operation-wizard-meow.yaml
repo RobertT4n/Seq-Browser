@@ -1,0 +1,15 @@
+name: Methylation Operation Wizard (MeOW)
+category: dry
+summary: Identifies and prioritizes differentially methylated regions genome-wide from long-read sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.48550/arxiv.2402.17182
+added: '2026-11-15'
+evidence: MeOW accepts per-nucleotide methylated CpG counts or BAM files containing modified base tags to identify differentially
+  methylated regions.

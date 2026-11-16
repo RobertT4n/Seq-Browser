@@ -1,0 +1,20 @@
+name: IterCluster
+category: dry
+summary: Clusters linked-read barcodes from the same genomic region to improve sequence depth and genome assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.8431
+  year: 2020
+  journal: PeerJ
+  first_author: Weng J
+  last_author: Drmanac R
+  pmid: '32231869'
+  pmcid: PMC7100596
+  title: 'IterCluster: a barcode clustering algorithm for long fragment read analysis'
+added: '2026-11-15'
+evidence: IterCluster clusters barcodes using k-mer frequency features and Markov clustering and improved de novo human genome
+  assembly.

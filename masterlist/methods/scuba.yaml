@@ -1,0 +1,21 @@
+name: SCUBA
+full_name: single-cell clustering using bifurcation analysis
+category: dry
+summary: Reconstructs lineage relationships and models differentiation dynamics from single-cell gene expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1408993111
+  year: 2014
+  journal: Proc Natl Acad Sci U S A
+  first_author: Marco E
+  last_author: Yuan GC
+  pmid: '25512504'
+  pmcid: PMC4284553
+  title: Bifurcation analysis of single-cell gene expression data reveals epigenetic landscape
+added: '2026-11-15'
+evidence: SCUBA extracts lineage relationships and models dynamic changes associated with cell differentiation from single-cell
+  gene expression data.

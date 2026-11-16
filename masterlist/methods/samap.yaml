@@ -1,0 +1,22 @@
+name: SAMap
+category: dry
+summary: Maps single-cell transcriptomic atlas manifolds across species to identify homologous cell types and shared expression
+  programs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+builds_on:
+- sam
+reference:
+  doi: 10.7554/elife.66747
+  year: 2021
+  journal: Elife
+  first_author: Tarashansky AJ
+  last_author: Wang B
+  pmid: '33944782'
+  pmcid: PMC8139856
+  title: Mapping single-cell atlases throughout Metazoa unravels cell type evolution
+added: '2026-11-15'
+evidence: SAMap builds on SAM to map cell atlas manifolds across species and identify homologous cell types.

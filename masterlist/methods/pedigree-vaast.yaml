@@ -1,0 +1,21 @@
+name: pedigree-VAAST
+category: dry
+summary: Identifies disease genes in pedigrees by combining sequence-based linkage, functional prediction and rare-variant
+  association.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2895
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Hu H
+  last_author: Huff CD
+  pmid: '24837662'
+  pmcid: PMC4157619
+  title: A unified test of linkage analysis and rare-variant association for analysis of pedigree sequence data
+added: '2026-11-15'
+evidence: pVAAST combines linkage information with functional prediction and rare-variant case-control association in a unified
+  statistical framework.

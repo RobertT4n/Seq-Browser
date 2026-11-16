@@ -1,0 +1,27 @@
+name: scAPEX-seq
+full_name: single-cell APEX-seq
+category: wet
+summary: scAPEX-seq combines proximity labeling with droplet RNA-seq to map subcellular transcriptomes in individual cells.
+readouts:
+- rna
+resolution:
+- single-cell
+- subcellular
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.03.17.712496
+  year: 2026
+  journal: bioRxiv
+  first_author: Xue A
+  last_author: Ting AY
+  title: Subcellular transcriptome sequencing with single cell APEX-seq identifies regulators of cell-cell interactions
+added: '2026-11-15'
+evidence: APEX integration with droplet-based RNA-seq captured endoplasmic reticulum-associated transcripts from thousands
+  of individual cells.

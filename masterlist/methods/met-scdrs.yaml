@@ -1,0 +1,18 @@
+name: met-scDRS
+category: dry
+summary: Integrates polygenic risk with single-cell methylation data to score the disease relevance of individual cells.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.03.11.642615
+  year: 2025
+  journal: bioRxiv
+  first_author: Li X
+  last_author: Pasaniuc B
+  title: Integration of polygenic risk with single cell methylation profiles for depression
+added: '2026-11-15'
+evidence: met-scDRS combines disease polygenic risk with single-cell methylation profiles to assign a disease relevance score
+  to each cell.

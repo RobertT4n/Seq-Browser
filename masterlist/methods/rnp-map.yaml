@@ -1,0 +1,27 @@
+name: RNP-MaP
+full_name: ribonucleoprotein networks analyzed by mutational profiling
+category: wet
+summary: Maps cooperative protein interactions on individual RNA molecules using chemical crosslinking and mutational profiling.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+- mouse
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41587-020-0709-7
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Weidmann CA
+  last_author: Weeks KM
+  pmid: '33077962'
+  pmcid: PMC7956044
+  title: Analysis of RNA-protein networks with RNP-MaP defines functional hubs on RNA
+added: '2026-11-15'
+evidence: A heterobifunctional crosslinker fixes interacting proteins on RNA, and read-through reverse transcription maps
+  multiple bound proteins.

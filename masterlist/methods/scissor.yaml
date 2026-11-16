@@ -1,0 +1,19 @@
+name: Scissor
+category: dry
+summary: Identifies single-cell subpopulations associated with phenotypes using bulk-omics and clinical data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.21203/rs.3.rs-493014/v1
+  year: 2021
+  journal: Research Square
+  first_author: Sun D
+  last_author: Xia Z
+  title: Phenotype-guided subpopulation identification from single-cell sequencing data
+added: '2026-11-15'
+evidence: Scissor uses disease phenotypes and bulk-omics datasets to identify phenotype-associated subpopulations in single-cell
+  data.

@@ -1,0 +1,33 @@
+name: two-layer DNA seqFISH+
+category: wet
+summary: Two-layer DNA seqFISH+ maps genomic loci, nascent transcripts, and subnuclear structures in individual cells.
+readouts:
+- 3d-genome
+- nascent-rna
+- histone-modification
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: genome-wide
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+targets:
+- H3K27me3
+- H4K20me3
+reference:
+  doi: 10.1038/s41586-025-08838-x
+  year: 2025
+  journal: Nature
+  first_author: Takei Y
+  last_author: Cai L
+  pmid: '40205045'
+  title: Spatial multi-omics reveals cell-type-specific nuclear compartments
+added: '2026-11-15'
+evidence: The method simultaneously maps 100,049 genomic loci, nascent transcripts for 17,856 genes, and subnuclear structures
+  in single cells.
+partition_unknown: not stated in the abstract

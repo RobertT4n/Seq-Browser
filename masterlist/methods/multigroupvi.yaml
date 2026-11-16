@@ -1,0 +1,17 @@
+name: multiGroupVI
+category: dry
+summary: Decomposes grouped single-cell RNA-seq data into shared and group-specific factors of variation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.12.13.520349
+  year: 2022
+  journal: bioRxiv
+  first_author: Weinberger E
+  last_author: Regev A
+  title: Disentangling shared and group-specific variations in single-cell transcriptomics data with multiGroupVI
+added: '2026-11-15'
+evidence: multiGroupVI is a deep generative model that decomposes grouped scRNA-seq data into shared and group-specific factors.

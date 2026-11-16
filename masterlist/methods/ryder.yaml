@@ -1,0 +1,22 @@
+name: Ryder
+category: dry
+summary: Normalizes epigenomic signal tracks across samples using stable internal reference regions.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag753
+  year: 2026
+  journal: Bioinformatics
+  first_author: Cao Y
+  last_author: Zhao K
+  pmid: '42878397'
+  pmcid: PMC13694111
+  title: 'Ryder: epigenome normalization using a two-tier model and internal reference regions'
+added: '2026-11-15'
+evidence: Ryder uses stable internal reference regions to correct genome-wide technical artifacts and was demonstrated across
+  DNase-seq, CUT&RUN, ATAC-seq, MNase-seq, and ChIP-seq.

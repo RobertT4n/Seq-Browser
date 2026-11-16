@@ -1,0 +1,21 @@
+name: Modeling immuno-OligoSTORM
+category: dry
+summary: Integrates super-resolution imaging, Hi-C and MNase-seq data to model gene folding at nucleosome resolution.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41594-022-00839-y
+  year: 2022
+  journal: Nat Struct Mol Biol
+  first_author: Neguembor MV
+  last_author: Cosma MP
+  pmid: '36220894'
+  pmcid: PMC9627188
+  title: MiOS, an integrated imaging and computational strategy to model gene folding with nucleosome resolution
+added: '2026-11-15'
+evidence: The method combines immuno-OligoSTORM imaging with Hi-C contact frequencies and deconvoluted micrococcal nuclease-sequencing
+  information.

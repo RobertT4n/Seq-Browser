@@ -1,0 +1,25 @@
+name: itChIP
+full_name: simultaneous indexing and tagmentation-based ChIP-seq
+category: wet
+summary: Profiles histone modifications and chromatin protein binding in low-input and single-cell samples using simultaneous
+  indexing and tagmentation.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- tn5
+reference:
+  doi: 10.21203/rs.2.11366/v1
+  year: 2019
+  journal: Research Square
+  first_author: Ai S
+  last_author: He A
+  title: ItChIP-simultaneous indexing and tagmentation-based ChIP-seq
+added: '2026-11-15'
+evidence: Single-cell itChIP combines chromatin opening, cellular indexing and chromatin tagmentation in one tube.
+partition_unknown: not stated in the abstract

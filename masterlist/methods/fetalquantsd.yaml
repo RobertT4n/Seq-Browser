@@ -1,0 +1,20 @@
+name: FetalQuantSD
+category: dry
+summary: Quantifies fetal DNA fraction in maternal plasma from maternal genotypes and shallow sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/npjgenmed.2016.13
+  year: 2016
+  journal: NPJ Genom Med
+  first_author: Jiang P
+  last_author: Chan KCA
+  pmid: '29263813'
+  pmcid: PMC5685300
+  title: 'FetalQuant<sup>SD</sup>: accurate quantification of fetal DNA fraction by shallow-depth sequencing of maternal plasma
+    DNA'
+added: '2026-11-15'
+evidence: Fetal DNA fraction is calculated from non-maternal alleles at SNPs where the mother is homozygous.

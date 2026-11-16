@@ -1,0 +1,21 @@
+name: kin correlation analysis
+category: dry
+summary: Infers cell-state transition dynamics from lineage trees and endpoint cell-state measurements.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2016.10.015
+  year: 2016
+  journal: Cell Syst
+  first_author: Hormoz S
+  last_author: Elowitz MB
+  pmid: '27883889'
+  pmcid: PMC5142829
+  title: Inferring Cell-State Transition Dynamics from Lineage Trees and Endpoint Single-Cell Measurements
+added: '2026-11-15'
+evidence: The authors combined lineage trees from time-lapse imaging with endpoint RNA-FISH measurements to infer mouse embryonic
+  stem-cell state transitions.

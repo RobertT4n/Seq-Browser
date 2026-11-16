@@ -1,0 +1,23 @@
+name: Census-seq
+category: wet
+summary: Associates donor genotypes with cellular traits by measuring donor DNA before and after sorting or selection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1101/2020.06.29.174383
+  year: 2020
+  journal: bioRxiv
+  first_author: Mitchell JM
+  last_author: McCarroll SA
+  title: Mapping genetic effects on cellular phenotypes with “cell villages”
+added: '2026-11-15'
+evidence: Census-seq quantifies each donor's DNA in pooled cell villages before and after sorting or selection for cellular
+  traits.
+chemistry_unknown: not stated in abstract

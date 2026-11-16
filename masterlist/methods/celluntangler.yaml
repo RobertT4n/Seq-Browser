@@ -1,0 +1,20 @@
+name: CellUntangler
+category: dry
+summary: Disentangles distinct biological signals in single-cell RNA-seq data using a deep generative model with multiple
+  latent subspaces.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.101073
+  year: 2026
+  journal: Cell Genom
+  first_author: Chen S
+  last_author: Ding J
+  pmid: '41330382'
+  pmcid: PMC12903416
+  title: 'CellUntangler: Separating distinct biological signals in single-cell data with deep generative models'
+added: '2026-11-15'
+evidence: CellUntangler embeds cells into multiple subspaces to separate signals such as cell cycle and cell type.

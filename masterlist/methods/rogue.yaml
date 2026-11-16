@@ -1,0 +1,19 @@
+name: ROGUE
+category: dry
+summary: Quantifies the purity of cell clusters using an entropy-based statistic for single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-16904-3
+  year: 2020
+  journal: Nat Commun
+  first_author: Liu B
+  last_author: Zhang Z
+  pmid: '32572028'
+  pmcid: PMC7308400
+  title: An entropy-based metric for assessing the purity of single cell populations
+added: '2026-11-15'
+evidence: ROGUE assesses the purity of identified clusters across simulated and real single-cell RNA-seq datasets.

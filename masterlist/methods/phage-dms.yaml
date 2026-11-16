@@ -1,0 +1,25 @@
+name: Phage-DMS
+category: wet
+summary: Phage-DMS combines phage peptide library immunoprecipitation with deep mutational scanning to map antibody epitopes.
+readouts:
+- receptor-ligand
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.1016/j.isci.2020.101622
+  year: 2020
+  journal: iScience
+  first_author: Garrett ME
+  last_author: Overbaugh J
+  pmid: '33089110'
+  pmcid: PMC7566095
+  title: 'Phage-DMS: A Comprehensive Method for Fine Mapping of Antibody Epitopes'
+added: '2026-11-15'
+evidence: Phage libraries encoding amino acid variants of HIV Envelope were used to identify antibody escape sites.

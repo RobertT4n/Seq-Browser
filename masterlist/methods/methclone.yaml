@@ -1,0 +1,13 @@
+name: methclone
+category: dry
+summary: Identifies genomic loci with changes in epiallele clonality from DNA methylation sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/preaccept-3452801621370693
+added: '2026-11-15'
+evidence: methclone analyzes genome-wide DNA methylation sequencing data to identify loci with large changes in epiallele
+  clonality.

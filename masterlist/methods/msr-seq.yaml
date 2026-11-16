@@ -1,0 +1,25 @@
+name: MSR-seq
+category: wet
+summary: Multiplexes small RNA sequencing to investigate cellular small RNA and mRNA responses and tRNA modifications.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-022-30261-3
+  year: 2022
+  journal: Nat Commun
+  first_author: Watkins CP
+  last_author: Pan T
+  pmid: '35513407'
+  pmcid: PMC9072684
+  title: A multiplex platform for small RNA sequencing elucidates multifaceted tRNA stress response and translational regulation
+added: '2026-11-15'
+evidence: The multiplex small RNA sequencing method investigates small RNA and mRNA responses and identifies an m3C tRNA modification
+  associated with stress.

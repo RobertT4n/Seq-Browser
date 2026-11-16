@@ -1,0 +1,21 @@
+name: LULU
+category: dry
+summary: Curates amplicon-derived community data by removing erroneous operational taxonomic units using sequence similarity
+  and co-occurrence.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41467-017-01312-x
+  year: 2017
+  journal: Nat Commun
+  first_author: Frøslev TG
+  last_author: Hansen AJ
+  pmid: '29084957'
+  pmcid: PMC5662604
+  title: Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates
+added: '2026-11-15'
+evidence: LULU removes erroneous OTUs from amplified marker-gene data and was validated using plant ITS2 metabarcoding and
+  field surveys.

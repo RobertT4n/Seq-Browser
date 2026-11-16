@@ -1,0 +1,23 @@
+name: txtools
+category: dry
+summary: Processes and visualizes nucleotide-level RNA-seq signals for analyses including RNA modifications, structure, and
+  protein interactions.
+readouts:
+- rna-modification
+- rna-structure
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae203
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Garcia-Campos MA
+  last_author: Schwartz S
+  pmid: '38512053'
+  pmcid: PMC11077046
+  title: 'txtools: an R package facilitating analysis of RNA modifications, structures, and interactions'
+added: '2026-11-15'
+evidence: txtools produces transcript-coordinate tables of mismatches, deletions, and read starts and ends and supports epitranscriptomic,
+  structural, and RNA-protein interaction analyses.

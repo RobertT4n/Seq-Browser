@@ -1,0 +1,25 @@
+name: SHAPE-MaP
+full_name: selective 2'-hydroxyl acylation analyzed by primer extension and mutational profiling
+category: wet
+summary: Infers RNA secondary structure from chemical acylation sites recorded as mutations during cDNA synthesis.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.3029
+  year: 2014
+  journal: Nat Methods
+  first_author: Siegfried NA
+  last_author: Weeks KM
+  pmid: '25028896'
+  pmcid: PMC4259394
+  title: RNA motif discovery by SHAPE and mutational profiling (SHAPE-MaP)
+added: '2026-11-15'
+evidence: SHAPE acylation sites are encoded as noncomplementary nucleotides during cDNA synthesis and measured by sequencing.

@@ -1,0 +1,19 @@
+name: MetaPGN
+category: dry
+summary: Constructs and visualizes annotated pangenome networks from microbial genomes or metagenomic assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/gigascience/giy121
+  year: 2018
+  journal: Gigascience
+  first_author: Peng Y
+  last_author: Li J
+  pmid: '30277499'
+  pmcid: PMC6251982
+  title: 'MetaPGN: a pipeline for construction and graphical visualization of annotated pangenome networks'
+added: '2026-11-15'
+evidence: MetaPGN constructs pangenome networks of genes and genomic adjacencies for a targeted taxon.

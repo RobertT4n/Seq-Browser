@@ -1,0 +1,21 @@
+name: methylKit
+category: dry
+summary: Analyzes genome-wide methylation and hydroxymethylation sequencing profiles, including differential methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2012-13-10-r87
+  year: 2012
+  journal: Genome Biol
+  first_author: Akalin A
+  last_author: Mason CE
+  pmid: '23034086'
+  pmcid: PMC3491415
+  title: 'methylKit: a comprehensive R package for the analysis of genome-wide DNA methylation profiles'
+added: '2026-11-15'
+evidence: methylKit analyzes genome-wide cytosine profiles from methylation and hydroxymethylation sequencing experiments.

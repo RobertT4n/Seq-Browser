@@ -1,0 +1,13 @@
+name: HistoPlexer
+category: dry
+summary: Predicts spatial protein multiplex maps from hematoxylin and eosin histopathology images.
+readouts:
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.5167/uzh-281056
+added: '2026-11-15'
+evidence: HistoPlexer generates spatially resolved protein multiplexes from standard histopathology images and predicts multiple
+  tumor and immune markers.

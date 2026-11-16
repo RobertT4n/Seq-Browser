@@ -1,0 +1,27 @@
+name: DA-6mA-seq
+full_name: DpnI-Assisted N6-methylAdenine sequencing
+category: wet
+summary: Uses DpnI cleavage to identify DNA 6mA sites at base resolution.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.1038/ncomms11301
+  year: 2016
+  journal: Nat Commun
+  first_author: Luo GZ
+  last_author: He C
+  pmid: '27079427'
+  pmcid: PMC4835550
+  title: Characterization of eukaryotic DNA N(6)-methyladenine by a highly sensitive restriction enzyme-assisted sequencing
+added: '2026-11-15'
+evidence: DpnI cleaves methylated adenine sites in duplex DNA, and the method was applied to Chlamydomonas, Plasmodium, and
+  Penicillium.

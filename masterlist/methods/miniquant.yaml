@@ -1,0 +1,22 @@
+name: miniQuant
+category: dry
+summary: Combines long and short RNA-sequencing reads to improve gene isoform quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41587-025-02633-9
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Li H
+  last_author: Au KF
+  pmid: '40461779'
+  pmcid: PMC12346831
+  title: Improving gene isoform quantification with miniQuant
+added: '2026-11-15'
+evidence: miniQuant ranks genes affected by ambiguous read alignments and combines long and short reads in a gene- and data-specific
+  manner.

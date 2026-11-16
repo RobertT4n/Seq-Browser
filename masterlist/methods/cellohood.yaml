@@ -1,0 +1,20 @@
+name: Cellohood
+category: dry
+summary: Uses a set transformer autoencoder to identify and interpret spatial cellular neighborhoods at multiple levels.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.11.10.687184
+  year: 2025
+  journal: bioRxiv
+  first_author: Możejko M
+  last_author: Szczurek E
+  title: 'Cellohood: multi-granular discovery of cellular neighborhoods with a permutation-invariant set transformer auto-encoder'
+added: '2026-11-15'
+evidence: Cellohood encodes groups of spatially co-localized cells and detects neighborhoods in spatial transcriptomics and
+  CODEX data.

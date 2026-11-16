@@ -1,0 +1,26 @@
+name: ChromE-seq
+category: wet
+summary: Jointly profiles chromatin conformation and transcription in single cells.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.10.07.757425
+  year: 2026
+  journal: bioRxiv
+  first_author: Liao Z
+  last_author: Ma S
+  title: Disrupted chromatin architecture blocks B lymphopoiesis in Down syndrome
+added: '2026-11-15'
+evidence: ChromE-seq jointly profiles chromatin conformation and transcription and was integrated with other data in an atlas
+  of human fetal liver cells.
+partition_unknown: not stated in the abstract

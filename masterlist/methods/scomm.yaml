@@ -1,0 +1,22 @@
+name: scOMM
+full_name: single-cell Omics Multimodal Mapping
+category: dry
+summary: Maps multimodal single-cell data to align cell identities and support comparisons across datasets.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04002-4
+  year: 2026
+  journal: Genome Biol
+  first_author: Acera-Mateos M
+  last_author: Mereu E
+  pmid: '41821037'
+  pmcid: PMC12983708
+  title: Systematic evaluation of single-cell multimodal data integration enhances cell type resolution and discovery of clinically
+    relevant states in complex tissues
+added: '2026-11-15'
+evidence: scOMM was developed to align cell identities for comparisons integrating scRNA-seq, snRNA-seq and snATAC-seq.

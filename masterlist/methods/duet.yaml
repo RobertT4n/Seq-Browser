@@ -1,0 +1,29 @@
+name: DUET
+full_name: iDentification and qUantification sEparaTion
+category: wet
+summary: DUET barcodes single-cell proteins and separates their isoforms to quantify protein abundance and post-translational
+  modification states.
+readouts:
+- protein
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.1038/s42003-020-01132-8
+  year: 2020
+  journal: Commun Biol
+  first_author: Zhang Y
+  last_author: Cai L
+  pmid: '32747637'
+  pmcid: PMC7400673
+  title: Detecting protein and post-translational modifications in single cells with iDentification and qUantification sEparaTion
+    (DUET)
+added: '2026-11-15'
+evidence: Oligonucleotide-tagged proteins from single yeast cells were separated by gel electrophoresis and sequenced to quantify
+  H2B and H2Bub.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

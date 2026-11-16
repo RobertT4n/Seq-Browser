@@ -1,0 +1,26 @@
+name: red-m1A-seq
+full_name: reduction-based m1A sequencing
+category: wet
+summary: Detects RNA m1A using chemical reduction to improve reverse transcription mutation and readthrough signatures.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1261/rna.079966.124
+  year: 2024
+  journal: RNA
+  first_author: Pajdzik K
+  last_author: He C
+  pmid: '38531647'
+  pmcid: PMC11019740
+  title: Chemical manipulation of m<sup>1</sup>A mediates its detection in human tRNA
+added: '2026-11-15'
+evidence: Reduction improved mutation and readthrough rates, enabling detection of known and new m1A sites in human small
+  RNA.

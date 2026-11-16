@@ -1,0 +1,20 @@
+name: slncky
+category: dry
+summary: Discovers long noncoding RNAs from RNA-seq data and prioritizes them using evolutionary constraint.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-0880-9
+  year: 2016
+  journal: Genome Biol
+  first_author: Chen J
+  last_author: Garber M
+  pmid: '26838501'
+  pmcid: PMC4739325
+  title: Evolutionary analysis across mammals reveals distinct classes of long non-coding RNAs
+added: '2026-11-15'
+evidence: slncky produces a set of lncRNAs from RNA-seq data and uses evolutionary constraint to prioritize them.

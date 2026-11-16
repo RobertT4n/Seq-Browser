@@ -1,0 +1,26 @@
+name: MeRIP-Seq
+full_name: methylated RNA immunoprecipitation sequencing
+category: wet
+summary: Maps m6A across the transcriptome by combining methylated RNA immunoprecipitation with sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2012.05.003
+  year: 2012
+  journal: Cell
+  first_author: Meyer KD
+  last_author: Jaffrey SR
+  pmid: '22608085'
+  pmcid: PMC3383396
+  title: Comprehensive analysis of mRNA methylation reveals enrichment in 3' UTRs and near stop codons
+added: '2026-11-15'
+evidence: The method combines m6A-specific methylated RNA immunoprecipitation with next-generation sequencing for transcriptome-wide
+  m6A localization.

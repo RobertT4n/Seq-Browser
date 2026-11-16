@@ -1,0 +1,20 @@
+name: ChatMDV
+category: dry
+summary: Translates natural language requests into reproducible code and interactive visualizations for biological data analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giag073
+  year: 2026
+  journal: Gigascience
+  first_author: Kiourlappou M
+  last_author: Taylor S
+  pmid: '42319798'
+  pmcid: PMC13452166
+  title: 'ChatMDV: reducing technical barriers in bioinformatics analysis using large language models'
+added: '2026-11-15'
+evidence: ChatMDV combines retrieval-augmented generation and language models to turn user queries into Python code and interactive
+  output.

@@ -1,0 +1,28 @@
+name: low-input multiple methylation sequencing
+category: wet
+summary: Profiles RNA modification patterns in plasma cell-free RNA from human and microbiome sources.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- microbe
+validated_system: []
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41587-025-02731-8
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Ju CW
+  last_author: He C
+  pmid: '40629040'
+  pmcid: PMC13621429
+  title: Modifications of microbiome-derived cell-free RNA in plasma discriminates colorectal cancer samples
+added: '2026-11-15'
+evidence: The method profiles modification patterns in plasma cfRNA and detects diverse human- and microbiome-derived transfer
+  and small noncoding RNAs.

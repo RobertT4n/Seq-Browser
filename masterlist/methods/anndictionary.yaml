@@ -1,0 +1,21 @@
+name: AnnDictionary
+category: dry
+summary: Enables parallel analysis of AnnData objects with large language models for tasks including cell-type and gene-set
+  annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-64511-x
+  year: 2025
+  journal: Nat Commun
+  first_author: Crowley G
+  last_author: Quake SR
+  pmid: '41152246'
+  pmcid: PMC12569162
+  title: Benchmarking cell type and gene set annotation by large language models with AnnDictionary
+added: '2026-11-15'
+evidence: AnnDictionary supports parallel analysis of multiple AnnData objects and was used to benchmark cell-type and gene-set
+  annotation by large language models.

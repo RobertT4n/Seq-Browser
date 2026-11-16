@@ -1,0 +1,28 @@
+name: UURNA-seq
+full_name: ultra-throughput and ultra-sensitivity single-nucleus total RNA sequencing
+category: wet
+summary: Profiles coding and noncoding RNA at single-nucleus resolution for large-scale tissue atlases.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- nuclei
+reference:
+  doi: 10.64898/2026.07.14.738381
+  year: 2026
+  journal: bioRxiv
+  first_author: Han X
+  last_author: Guo G
+  title: Constructing a full-length single-nucleus transcriptomic atlas of the obese mouse by UURNA-seq
+added: '2026-11-15'
+evidence: UURNA-seq detects mRNAs and additional noncoding RNAs at single-nucleus resolution and was used to construct a multi-tissue
+  obesity atlas.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,17 @@
+name: SOCAM
+category: dry
+summary: Annotates single-cell transcriptomic data with an ontology-aware classifier.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.01.13.699356
+  year: 2026
+  journal: bioRxiv
+  first_author: Magre N
+  last_author: Fleming SJ
+  title: A supervised ontology-aware cell annotation method for single-cell transcriptomic data
+added: '2026-11-15'
+evidence: SOCAM combines ontology-aware probability propagation with a logistic regression model trained on human cells.

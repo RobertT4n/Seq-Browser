@@ -1,0 +1,19 @@
+name: Cas-Analyzer
+category: dry
+summary: Analyzes sequencing data to assess mutations induced by programmable nucleases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btw561
+  year: 2017
+  journal: Bioinformatics
+  first_author: Park J
+  last_author: Bae S
+  pmid: '27559154'
+  pmcid: PMC5254075
+  title: 'Cas-analyzer: an online tool for assessing genome editing results using NGS data'
+added: '2026-11-15'
+evidence: Cas-Analyzer analyzes NGS data for genome editing with single or paired programmable nucleases.

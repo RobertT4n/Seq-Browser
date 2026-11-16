@@ -1,0 +1,20 @@
+name: BCFtools/liftover
+category: dry
+summary: Converts variant coordinates and associated annotations between genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae038
+  year: 2024
+  journal: Bioinformatics
+  first_author: Genovese G
+  last_author: McCarroll SA
+  pmid: '38261650'
+  pmcid: PMC10832354
+  title: 'BCFtools/liftover: an accurate and comprehensive tool to convert genetic variants across genome assemblies'
+added: '2026-11-15'
+evidence: BCFtools/liftover converts variants between assemblies with support for indels, multiallelic variants, and annotation
+  updates.

@@ -1,0 +1,24 @@
+name: complementary long padlock probes
+category: wet
+summary: Captures both strands of selected genomic targets using complementary long padlock probes to improve variant detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1186/gm454
+  year: 2013
+  journal: Genome Med
+  first_author: Shen P
+  last_author: Scharfe C
+  pmid: '23718862'
+  pmcid: PMC3706973
+  title: Multiplex target capture with double-stranded DNA probes
+added: '2026-11-15'
+evidence: Each complementary long padlock probe selectively captures one strand of a genomic target through circularization,
+  and two probes per target increase variant detection sensitivity.

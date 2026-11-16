@@ -1,0 +1,19 @@
+name: peakC
+category: dry
+summary: Identifies chromatin interaction peaks in 4C, Capture-C, and promoter capture Hi-C data using a non-parametric method.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gky443
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Geeven G
+  last_author: de Wit E
+  pmid: '29800273'
+  pmcid: PMC6125690
+  title: 'peakC: a flexible, non-parametric peak calling package for 4C and Capture-C data'
+added: '2026-11-15'
+evidence: peakC uses a rank-products-based non-parametric peak caller for one-vs-all chromosome capture experiments.

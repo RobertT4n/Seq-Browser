@@ -1,0 +1,12 @@
+name: dnaHNet
+category: dry
+summary: Models genomic sequences with a tokenizer-free autoregressive foundation model using adaptive hierarchical chunking.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2602.10603
+added: '2026-11-15'
+evidence: dnaHNet was pretrained on prokaryotic genomes and evaluated on protein variant fitness and gene essentiality prediction.

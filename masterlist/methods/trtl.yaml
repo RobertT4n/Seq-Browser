@@ -1,0 +1,26 @@
+name: TRTL
+full_name: targeted reverse transcription-linker
+category: wet
+summary: TRTL enriches user-defined transcript panels and variable immune receptor transcripts in single-cell RNA workflows.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+- combinatorial-indexing
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.02.06.703342
+  year: 2026
+  journal: bioRxiv
+  first_author: Vaikunthan M
+  last_author: McFaline-Figueroa JL
+  title: A modular transcript enrichment strategy for scalable, atlas-aligned, and clonotype-resolved single-cell transcriptomics
+added: '2026-11-15'
+evidence: TRTL was applied with combinatorial indexing RNA-seq to mouse brain and can capture variable TCR and BCR sequences.

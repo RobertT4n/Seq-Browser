@@ -1,0 +1,25 @@
+name: LEAD-m6A-seq
+category: wet
+summary: Detects and compares m6A levels at selected RNA sites by sequencing cDNA extension products.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+reference:
+  doi: 10.1002/anie.202007266
+  year: 2021
+  journal: Angew Chem Int Ed Engl
+  first_author: Wang Y
+  last_author: He C
+  pmid: '32970916'
+  pmcid: PMC7902341
+  title: LEAD-m<sup>6</sup> A-seq for Locus-Specific Detection of N<sup>6</sup> -Methyladenosine and Quantification of Differential
+    Methylation
+added: '2026-11-15'
+evidence: The method builds on SELECT and couples cDNA extension at selected sites to sequencing to evaluate m6A and differential
+  methylation.

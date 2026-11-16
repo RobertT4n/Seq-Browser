@@ -1,0 +1,29 @@
+name: INSCRIBE
+full_name: IN situ Sensitive Capture of RNA-protein Interactions in Biological Environments
+category: wet
+summary: Maps endogenous RNA-protein interactions in fixed samples by directing an RNA-labeling APOBEC1-nanobody fusion to
+  a selected protein.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+chemistry: []
+reference:
+  doi: 10.1038/s41467-024-50363-4
+  year: 2024
+  journal: Nat Commun
+  first_author: Liang Q
+  last_author: Yeo GW
+  pmid: '39152130'
+  pmcid: PMC11329496
+  title: High-sensitivity in situ capture of endogenous RNA-protein interactions in fixed cells and primary tissues
+added: '2026-11-15'
+evidence: INSCRIBE identifies RNA-binding sites in fixed HEK293T cells and mouse brain tissue using targeted in situ RNA labeling.
+chemistry_unknown: not stated in abstract

@@ -1,0 +1,25 @@
+name: MAZTER-seq
+category: wet
+summary: Quantitatively profiles RNA m6A at single-nucleotide resolution using differential RNase cleavage.
+readouts:
+- rna-modification
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2019.06.013
+  year: 2019
+  journal: Cell
+  first_author: Garcia-Campos MA
+  last_author: Schwartz S
+  pmid: '31257032'
+  title: Deciphering the "m<sup>6</sup>A Code" via Antibody-Independent Quantitative Profiling
+added: '2026-11-15'
+evidence: MAZTER-seq uses differential RNase cleavage to quantify m6A at 16%–25% of expressed sites and tracks its dynamics
+  in yeast gametogenesis and mammalian differentiation.

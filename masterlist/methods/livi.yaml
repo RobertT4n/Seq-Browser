@@ -1,0 +1,21 @@
+name: LIVI
+full_name: Latent Interaction Variational Inference
+category: dry
+summary: Maps trans genetic effects at single-cell resolution using a sparse variational autoencoder and donor-level association
+  testing.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.02.04.703363
+  year: 2026
+  journal: bioRxiv
+  first_author: Vagiaki D
+  last_author: Stegle O
+  title: Mapping  <i>trans</i>  -eQTLs at single-cell resolution using Latent Interaction Variational Inference
+added: '2026-11-15'
+evidence: LIVI decomposes gene expression into cell-state- and donor-specific variation to enable donor-level association
+  testing at single-cell resolution.

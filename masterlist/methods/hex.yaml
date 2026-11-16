@@ -1,0 +1,20 @@
+name: HEX
+full_name: H&E to protein expression
+category: dry
+summary: Predicts spatial protein expression profiles from histopathology images.
+readouts:
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41591-025-04060-4
+  year: 2026
+  journal: Nat Med
+  first_author: Li Z
+  last_author: Li R
+  pmid: '41491099'
+  pmcid: PMC12823406
+  title: AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer
+added: '2026-11-15'
+evidence: HEX generates virtual spatial proteomics profiles from standard histopathology slides.

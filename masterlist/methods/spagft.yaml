@@ -1,0 +1,23 @@
+name: SpaGFT
+full_name: Spatial Graph Fourier Transform
+category: dry
+summary: Uses graph signal processing to represent and analyze spatial transcriptomics and proteomics data.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-51590-5
+  year: 2024
+  journal: Nat Commun
+  first_author: Chang Y
+  last_author: Ma Q
+  pmid: '39209833'
+  pmcid: PMC11362340
+  title: Graph Fourier transform for spatial omics representation and analyses of complex organs
+added: '2026-11-15'
+evidence: SpaGFT identifies spatially variable genes and detects subcellular features in spatial proteomics data.

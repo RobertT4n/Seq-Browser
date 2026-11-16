@@ -1,0 +1,28 @@
+name: RollFISH
+category: wet
+summary: Combines single-molecule RNA FISH with rolling circle amplification to quantify spatially distributed RNA biomarkers
+  in tissue.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+species:
+- human
+validated_system:
+- cell-line
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s42003-018-0218-0
+  year: 2018
+  journal: Commun Biol
+  first_author: Wu C
+  last_author: Nilsson M
+  pmid: '30511022'
+  pmcid: PMC6262000
+  title: RollFISH achieves robust quantification of single-molecule RNA biomarkers in paraffin-embedded tumor tissue samples
+added: '2026-11-15'
+evidence: RollFISH combines smFISH specificity with rolling circle amplification to quantify biomarkers in cell lines and
+  FFPE tumor samples.

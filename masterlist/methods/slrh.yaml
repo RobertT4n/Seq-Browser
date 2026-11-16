@@ -1,0 +1,21 @@
+name: SLRH
+full_name: statistically aided, long-read haplotyping
+category: dry
+summary: Uses a statistical algorithm and short-read sequencing of long genomic fragments to phase human genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2833
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Kuleshov V
+  last_author: Snyder M
+  pmid: '24561555'
+  pmcid: PMC4073643
+  title: Whole-genome haplotyping using long reads and statistical methods
+added: '2026-11-15'
+evidence: SLRH uses partially phased information from long genomic fragments analyzed by short-read sequencing to phase single-nucleotide
+  variants.

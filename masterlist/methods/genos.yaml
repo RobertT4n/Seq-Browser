@@ -1,0 +1,21 @@
+name: Genos
+category: dry
+summary: Models long human genomic sequences and predicts effects of noncoding variation on RNA expression.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaf132
+  year: 2025
+  journal: Gigascience
+  first_author: Lin A
+  last_author: Wang Z
+  pmid: '41122975'
+  pmcid: PMC12755919
+  title: 'Genos: a human-centric genomic foundation model'
+added: '2026-11-15'
+evidence: Genos is a genomic foundation model trained on human assemblies that simulates effects of noncoding variants on
+  RNA expression.

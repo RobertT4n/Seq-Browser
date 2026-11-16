@@ -1,0 +1,19 @@
+name: PE-Analyzer
+category: dry
+summary: Analyzes high-throughput sequencing data to summarize prime editing outcomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkab319
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Hwang GH
+  last_author: Bae S
+  pmid: '33939828'
+  pmcid: PMC8265102
+  title: 'PE-Designer and PE-Analyzer: web-based design and analysis tools for CRISPR prime editing'
+added: '2026-11-15'
+evidence: PE-Analyzer accepts sequencing data and summarizes mutation-related information in tables and interactive graphs.

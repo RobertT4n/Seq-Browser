@@ -1,0 +1,28 @@
+name: scStereo-seq
+full_name: single-cell spatial enhanced resolution omics sequencing
+category: wet
+summary: Profiles spatial transcriptomes at single-cell resolution in Arabidopsis leaves.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- plant
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.devcel.2022.04.011
+  year: 2022
+  journal: Dev Cell
+  first_author: Xia K
+  last_author: Xu X
+  pmid: '35512702'
+  title: The single-cell stereo-seq reveals region-specific cell subtypes and transcriptome profiling in Arabidopsis leaves
+added: '2026-11-15'
+evidence: scStereo-seq produced single-cell spatial transcriptome profiles of Arabidopsis leaves and distinguished upper and
+  lower epidermal cells.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,20 @@
+name: FLSHclust
+full_name: fast locality-sensitive hashing-based clustering
+category: dry
+summary: Clusters massive sequence datasets to support discovery of diverse microbial systems.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/science.adi1910
+  year: 2023
+  journal: Science
+  first_author: Altae-Tran H
+  last_author: Zhang F
+  pmid: '37995242'
+  pmcid: PMC10910872
+  title: Uncovering the functional diversity of rare CRISPR-Cas systems with deep terascale clustering
+added: '2026-11-15'
+evidence: FLSHclust performs deep clustering on massive datasets and was incorporated into a CRISPR discovery pipeline.

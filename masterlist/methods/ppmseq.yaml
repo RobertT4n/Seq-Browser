@@ -1,0 +1,23 @@
+name: ppmSeq
+full_name: paired plus-minus sequencing
+category: wet
+summary: ppmSeq captures both strands of DNA molecules through emulsion PCR to improve duplex sequencing recovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species: []
+validated_system: []
+reference:
+  doi: 10.1101/2025.08.11.669689
+  year: 2025
+  journal: bioRxiv
+  first_author: Cheng AP
+  last_author: Landau D
+  title: Paired plus-minus sequencing is an ultra-high throughput and accurate method for dual strand sequencing of DNA molecules
+added: '2026-11-15'
+evidence: Both strands are partitioned and clonally amplified on sequencing beads so that they contribute to a single sequencing
+  read.
+chemistry_unknown: not stated in abstract

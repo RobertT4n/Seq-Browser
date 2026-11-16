@@ -1,0 +1,27 @@
+name: Multiple-Annealing-and-Tailing-based Quantitative scRNA-seq in Droplets
+category: wet
+summary: This droplet-based RNA sequencing platform profiles transcriptomes of individual neurites, primarily synaptosomes.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41587-022-01635-1
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Niu M
+  last_author: Zong C
+  pmid: '36646931'
+  title: Droplet-based transcriptome profiling of individual synapses
+added: '2026-11-15'
+evidence: The platform profiled individual synaptosomes from mouse and human brain samples and detected transcript splicing
+  within synapses.

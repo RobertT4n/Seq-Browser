@@ -1,0 +1,20 @@
+name: SCASL
+full_name: single-cell clustering based on alternative splicing landscapes
+category: dry
+summary: Classifies cell identities using alternative splicing patterns in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-46480-9
+  year: 2024
+  journal: Nat Commun
+  first_author: Xiang X
+  last_author: Yang X
+  pmid: '38461306'
+  pmcid: PMC10925056
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+added: '2026-11-15'
+evidence: SCASL addresses sparse and biased single-cell splicing coverage and classifies cells using their splicing landscapes.

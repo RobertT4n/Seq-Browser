@@ -1,0 +1,19 @@
+name: BPCells
+category: dry
+summary: Enables scalable single-cell RNA-seq and ATAC-seq analysis using disk-backed computation and compressed data formats.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.03.27.645853
+  year: 2025
+  journal: bioRxiv
+  first_author: Parks B
+  last_author: Greenleaf W
+  title: Scalable high-performance single cell data analysis with BPCells
+added: '2026-11-15'
+evidence: BPCells provides disk-backed algorithms and compressed formats for single-cell RNA-seq and ATAC-seq data, including
+  normalization and PCA.
