@@ -1,0 +1,21 @@
+name: simPIC
+category: dry
+summary: Simulates single-cell ATAC-seq count data across individuals and populations with cell group, batch, and genotype
+  effects.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04199-4
+  year: 2026
+  journal: Genome Biol
+  first_author: Chugh S
+  last_author: McCarthy DJ
+  pmid: '42928215'
+  pmcid: PMC13700425
+  title: 'simPIC: flexible simulation of single-cell ATAC-seq paired-insertion counts from individuals to populations'
+added: '2026-11-15'
+evidence: simPIC models cell groups, batch effects, and genotype-dependent accessibility variation to evaluate population-scale
+  methods.

@@ -1,0 +1,20 @@
+name: sortscore
+category: dry
+summary: Scores and visualizes variant activity from sorted reporter assay counts with normalization across samples, replicates,
+  and tiled oligos.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btag664
+  year: 2026
+  journal: Bioinformatics
+  first_author: Chitwood C
+  last_author: Baldridge D
+  pmid: '42684039'
+  pmcid: PMC13682839
+  title: 'sortscore: Sort-seq MAVE scoring and visualization using Python'
+added: '2026-11-15'
+evidence: sortscore computes activity scores directly from observed binned counts and provides normalization and heatmaps.

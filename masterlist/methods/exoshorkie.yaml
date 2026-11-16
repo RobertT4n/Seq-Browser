@@ -1,0 +1,19 @@
+name: ExoShorkie
+category: dry
+summary: Predicts RNA-seq coverage of exogenous genomic sequences in yeast using transfer learning.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag369
+  year: 2026
+  journal: Bioinformatics
+  first_author: Mandl J
+  last_author: Orenstein Y
+  pmid: '42635208'
+  pmcid: PMC13501306
+  title: 'ExoShorkie: predicting RNA-seq coverage of exogenous genomes in yeast by transfer learning'
+added: '2026-11-15'
+evidence: ExoShorkie extends Shorkie through transfer learning across exogenous RNA-seq datasets.

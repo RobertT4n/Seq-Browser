@@ -1,0 +1,20 @@
+name: scFANCL
+category: dry
+summary: Clusters single-cell RNA-seq data using dual contrastive learning with filtering of likely false-negative cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-026-13179-8
+  year: 2026
+  journal: BMC Genomics
+  first_author: Choi G
+  last_author: Oh M
+  pmid: '42464099'
+  pmcid: PMC13563771
+  title: 'scFANCL: Dual contrastive learning with false-negative correction at cell level for single-cell RNA-seq clustering'
+added: '2026-11-15'
+evidence: scFANCL uses a cosine-similarity threshold to exclude likely same-type cells from the negative pool during contrastive
+  learning.

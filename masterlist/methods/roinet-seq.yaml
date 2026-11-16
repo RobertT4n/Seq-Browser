@@ -1,0 +1,28 @@
+name: ROInet-seq
+full_name: regions-of-interest network sequencing
+category: wet
+summary: Uses barcoded rabies virus and targeted barcode sequencing to map brain-wide monosynaptic inputs to individual neurons.
+readouts:
+- cell-cell-contact
+resolution:
+- spatial
+- single-cell
+scope: targeted
+species: []
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.crmeth.2026.101512
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Lin Z
+  last_author: Zeisel A
+  pmid: '42413505'
+  pmcid: PMC13615506
+  title: Mapping brain-wide monosynaptic inputs to single neurons with ROInet-seq
+added: '2026-11-15'
+evidence: ROInet-seq combines fluorescent imaging of fixed tissue sections with targeted barcode sequencing to map single-neuron
+  networks.
+partition_unknown: not stated in the abstract

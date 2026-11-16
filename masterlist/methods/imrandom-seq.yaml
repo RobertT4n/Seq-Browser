@@ -1,0 +1,32 @@
+name: imRandom-seq
+full_name: in situ microfluidic Random-seq
+category: wet
+summary: Profiles total RNA in FFPE specimens at bulk, single-nucleus and spatial resolution using random primers and in situ
+  microfluidics.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1038/s41467-026-74203-9
+  year: 2026
+  journal: Nat Commun
+  first_author: Chen H
+  last_author: Wang Y
+  pmid: '42331802'
+  pmcid: PMC13470330
+  title: Automated in situ microfluidic Random-seq for robust single-nucleus and spatial total RNA profiling of diverse FFPE
+    specimens
+added: '2026-11-15'
+evidence: imRandom-seq uses random primers and an in situ microfluidic workflow for bulk, single-nucleus and spatial total
+  RNA profiling of FFPE specimens.
+partition_unknown: not stated in the abstract

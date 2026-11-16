@@ -1,0 +1,21 @@
+name: scATAnno
+category: dry
+summary: Annotates single-cell ATAC-seq cell types by integrating query data with reference atlases and scoring annotation
+  uncertainty.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzaf108
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Jiang Y
+  last_author: Qiu X
+  pmid: '41284927'
+  pmcid: PMC13568823
+  title: 'scATAnno: Automated Cell Type Annotation for Single-cell ATAC-seq Data'
+added: '2026-11-15'
+evidence: scATAnno annotates scATAC-seq data using reference atlases and uncertainty scores that detect populations distinct
+  from reference cell types.

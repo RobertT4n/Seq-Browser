@@ -1,0 +1,20 @@
+name: MLRR-ATV
+full_name: Robust Manifold Nonnegative Low-Rank Representation with Adaptive Total-Variation Regularization
+category: dry
+summary: Clusters single-cell RNA-seq data using a manifold-aware low-rank representation with adaptive total-variation regularization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3432740
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Wang GF
+  last_author: Liu JX
+  pmid: '39046863'
+  title: 'MLRR-ATV: A Robust Manifold Nonnegative Low-Rank Representation With Adaptive Total-Variation Regularization for
+    scRNA-seq Data Clustering'
+added: '2026-11-15'
+evidence: MLRR-ATV uses adaptive total-variation regularization to reduce noise and learns linear and nonlinear manifold structures.

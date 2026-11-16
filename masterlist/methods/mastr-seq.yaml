@@ -1,0 +1,30 @@
+name: MASTR-seq
+full_name: multiplexed analysis of short tandem repeats with sequencing
+category: wet
+summary: Measures targeted short tandem repeat genotypes and DNA methylation at single-allele resolution using multiplexed
+  long-read sequencing.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species: []
+validated_system: []
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.crmeth.2026.101341
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Su C
+  last_author: Phillips-Cremins JE
+  pmid: '41850290'
+  pmcid: PMC13030959
+  title: MASTR-seq enables multiplexed analysis of short tandem repeats with sequencing
+added: '2026-11-15'
+evidence: MASTR-seq combines Cas9-mediated target enrichment and long-read sequencing to measure STR genotype and DNA methylation
+  at single-allele resolution.

@@ -1,0 +1,21 @@
+name: scIRT
+category: dry
+summary: Imputes dropout events and reduces dimensionality in single-cell RNA-seq data using SMOTE and non-negative matrix
+  factorization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms27031173
+  year: 2026
+  journal: Int J Mol Sci
+  first_author: Mou Y
+  last_author: Ji G
+  pmid: '41683604'
+  pmcid: PMC12897353
+  title: 'scIRT: Imputation and Dimensionality Reduction for Single-Cell RNA-Seq Data by Combining NMF with SMOTE'
+added: '2026-11-15'
+evidence: scIRT combines an adaptation of SMOTE for missing-data imputation with non-negative matrix factorization for dimensionality
+  reduction.

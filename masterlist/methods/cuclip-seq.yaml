@@ -1,0 +1,26 @@
+name: CuCLIP-seq
+full_name: CuAAC-Crosslinking and Immunoprecipitation Sequencing
+category: wet
+summary: Covalently crosslinks RNA-binding proteins to their RNA substrates and enriches the RNAs for sequencing.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-026-72350-7
+  year: 2026
+  journal: Nat Commun
+  first_author: Wang X
+  last_author: Yang Y
+  pmid: '42031762'
+  pmcid: PMC13315716
+  title: Novel CuCLIP-seq for in situ covalently captured protein-binding RNAs
+added: '2026-11-15'
+evidence: CuCLIP-seq uses a CuAAC reaction to crosslink RNA-binding proteins and RNA, followed by streptavidin-mediated enrichment
+  and sequencing.

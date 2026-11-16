@@ -1,0 +1,20 @@
+name: scTELL
+full_name: single-cell Transposable Element Locus-Level analysis
+category: dry
+summary: Quantifies chromatin accessibility at individual transposable element loci from single-cell ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13100-026-00395-y
+  year: 2026
+  journal: Mob DNA
+  first_author: Jeong K
+  last_author: Kim K
+  pmid: '41731605'
+  pmcid: PMC13037063
+  title: 'scTELL: a single-cell ATAC-seq tool for locus-specific transposable element identification in chromatin accessibility'
+added: '2026-11-15'
+evidence: scTELL uses a distance-weighted scoring scheme to quantify accessibility at individual transposable element loci.

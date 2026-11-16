@@ -1,0 +1,23 @@
+name: phage Tn-seq
+category: wet
+summary: Uses transposon mutagenesis and sequencing to assign phage gene essentiality.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- tn5
+reference:
+  doi: 10.1038/s41564-026-02486-1
+  year: 2026
+  journal: Nat Microbiol
+  first_author: Kyte N
+  last_author: Fineran PC
+  pmid: '42791353'
+  title: Defining the essential genome of diverse phages with phage Tn-seq
+added: '2026-11-15'
+evidence: Phage Tn-seq uses Tn5 transposon mutagenesis, anti-CRISPR-based selection and deep sequencing to assign gene essentiality
+  across diverse phages.

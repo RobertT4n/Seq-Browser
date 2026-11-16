@@ -1,0 +1,26 @@
+name: AviTag-seq
+category: wet
+summary: Uses AAV inverted terminal repeats as capture tags to map genome-editing off-target events and AAV integration sites.
+readouts:
+- dna-damage
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s42003-026-10298-6
+  year: 2026
+  journal: Commun Biol
+  first_author: Li JX
+  last_author: Zhang XB
+  pmid: '42174157'
+  pmcid: PMC13473653
+  title: AviTag-seq unifies nucleotide-resolution maps of CRISPR off-targets and AAV vector integrations
+added: '2026-11-15'
+evidence: AviTag-seq captures off-target events from prime and base editors and mapped AAV integration sites in mouse liver.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

@@ -1,0 +1,19 @@
+name: scGMB
+category: dry
+summary: Classifies cell types from single-cell RNA-seq data using graph convolution and a Mamba state-space model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1049/syb2.70079
+  year: 2026
+  journal: IET Syst Biol
+  first_author: Gong L
+  last_author: Xu S
+  pmid: '42372769'
+  pmcid: PMC13314036
+  title: 'scGMB: A scRNA-seq Cell Classification Method Combining GCN and Mamba'
+added: '2026-11-15'
+evidence: scGMB combines a cell graph with selective state-space models to extract gene expression features for cell classification.

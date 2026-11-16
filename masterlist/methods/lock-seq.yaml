@@ -1,0 +1,31 @@
+name: LOCK-seq
+full_name: LOng-read sequencing of Captured Kilo-base targets
+category: wet
+summary: Enriches genomic regions for long-read sequencing to characterize knock-in alleles and donor integrations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- oligo-capture
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1093/nar/gkag237
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Sentmanat MF
+  last_author: Cui X
+  pmid: '41954981'
+  pmcid: PMC13062780
+  title: Efficient multi-kilobase knock-ins in mice and cell lines using CRISPR/Cas9 and rAAV donors with unbiased whole-genome
+    characterization by LOCK-seq
+added: '2026-11-15'
+evidence: LOCK-seq enriches relevant genomic regions by hybridization and detects precise knock-ins, insert imprecision, donor
+  concatenation, and random donor integrations.

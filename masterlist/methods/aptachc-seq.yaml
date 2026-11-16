@@ -1,0 +1,28 @@
+name: AptaChC-seq
+full_name: Aptamer-Guided Chromatin Cleavage with Sequencing
+category: wet
+summary: Profiles transcription factor binding sites using aptamer-directed Tn5 tagmentation without antibodies.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- tn5
+targets:
+- FOXM1
+- RELA
+- RBPJ
+reference:
+  doi: 10.1021/acs.analchem.5c08028
+  year: 2026
+  journal: Anal Chem
+  first_author: Teng X
+  last_author: Li J
+  pmid: '41824296'
+  title: Antibody-Free and Rapid Profiling of Transcription Factor Binding Sites by Aptamer-Guided Chromatin Cleavage and
+    Sequencing (AptaChC-Seq)
+added: '2026-11-15'
+evidence: AptaChC-seq uses aptamer-directed Tn5 transposome tagmentation and was applied to FOXM1, RELA, and RBPJ.

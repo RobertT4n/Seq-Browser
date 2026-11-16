@@ -1,0 +1,20 @@
+name: DepthDiff
+category: dry
+summary: Enhances low-depth single-cell RNA-seq expression profiles using a depth-conditional model trained with diffusion
+  denoising.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/biology15151223
+  year: 2026
+  journal: Biology (Basel)
+  first_author: Hou X
+  last_author: Wang G
+  pmid: '42589091'
+  pmcid: PMC13465486
+  title: 'DepthDiff: Restoring Low-Depth Single-Cell RNA-Seq Signals via Diffusion Denoising'
+added: '2026-11-15'
+evidence: DepthDiff learns a supervised residual mapping from low-depth expression profiles to paired high-depth references.

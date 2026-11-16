@@ -1,0 +1,21 @@
+name: EnsembleRegNet
+category: dry
+summary: Infers transcription factor-target gene relationships from single-cell RNA-seq data using an interpretable deep learning
+  framework.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2025.108702
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Alawad DM
+  last_author: Hoque MT
+  pmid: '41043336'
+  pmcid: PMC12871948
+  title: 'EnsembleRegNet: Interpretable deep learning for transcriptional network inference from single-cell RNA-seq'
+added: '2026-11-15'
+evidence: EnsembleRegNet integrates an ensemble encoder-decoder and multilayer perceptron with motif enrichment and regulon
+  activity scoring.

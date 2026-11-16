@@ -1,0 +1,19 @@
+name: scTrimClust
+category: dry
+summary: Identifies cells with non-representative expression profiles within single-cell RNA-seq clusters.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag082
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Ruff S
+  last_author: Jung K
+  pmid: '42038519'
+  pmcid: PMC13105839
+  title: 'scTrimClust: a fast approach to robust scRNA-seq analysis using trimmed cell clusters'
+added: '2026-11-15'
+evidence: The method marks cells as extreme when their nearest-neighbor distance exceeds a cluster-specific quantile threshold.

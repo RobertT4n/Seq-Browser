@@ -1,0 +1,22 @@
+name: scMapNet
+category: dry
+summary: Annotates cell types in single-cell RNA-seq data using marker-informed image transformations and self-supervised
+  vision models.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jare.2025.10.056
+  year: 2026
+  journal: J Adv Res
+  first_author: Yu Z
+  last_author: Pan J
+  pmid: '41161490'
+  pmcid: PMC13316550
+  title: 'scMapNet: Marker-based cell type annotation of scRNA-seq data via vision transfer learning with tabular-to-image
+    transformations'
+added: '2026-11-15'
+evidence: scMapNet uses treemap transformations, masked autoencoders and vision transformers to learn marker information and
+  from unlabeled data.

@@ -1,0 +1,21 @@
+name: MitoClipSplice
+category: dry
+summary: Identifies mitochondrial RNA cleavage sites from soft-clipped reads in strand-specific RNA-seq data.
+readouts:
+- rna-degradation
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbag429
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Yuan Q
+  last_author: Zhou K
+  pmid: '42561155'
+  pmcid: PMC13446511
+  title: 'MitoClipSplice: a machine learning framework for resolving mitochondrial RNA cleavage sites from strand-specific
+    RNA-seq soft-clips'
+added: '2026-11-15'
+evidence: A random forest model uses features of soft-clipped reads to identify high-confidence mitochondrial RNA cleavage
+  sites.

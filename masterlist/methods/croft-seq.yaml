@@ -1,0 +1,24 @@
+name: CROFT-Seq
+full_name: CRISPR nuclease off-target detection by sequencing
+category: wet
+summary: Detects Cas9 off-target cleavage sites genome-wide in vitro.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species: []
+validated_system: []
+reference:
+  doi: 10.1093/synbio/ysag006
+  year: 2026
+  journal: Synth Biol (Oxf)
+  first_author: Toliusis P
+  last_author: Zaremba M
+  pmid: '42170219'
+  pmcid: PMC13189167
+  title: Off-target detection of CRISPR-Cas9 nuclease &lt;i&gt;in vitro&lt;/i&gt; with CROFT-Seq
+added: '2026-11-15'
+evidence: CROFT-Seq is an assay for genome-wide detection of Cas9 off-target sites in vitro.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

@@ -1,0 +1,27 @@
+name: ULI-rG4-seq
+full_name: Ultra-low-input rG4-seq
+category: wet
+summary: Maps RNA G-quadruplex structures in ultra-low-input samples.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system:
+- primary-cells
+chemistry: []
+input_sample:
+- low-input
+reference:
+  doi: 10.1093/nar/gkag040
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Meng TG
+  last_author: Sun QY
+  pmid: '41591846'
+  pmcid: PMC12839539
+  title: Ultra-low-input rG4-seq reveals the RNA G-quadruplex regulome in gene expression and genome integrity
+added: '2026-11-15'
+evidence: ULI-rG4-seq detects RNA G-quadruplexes at approximately 140 bp resolution in samples as small as 100 oocytes.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

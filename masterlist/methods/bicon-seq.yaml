@@ -1,0 +1,24 @@
+name: bicon-seq
+full_name: biotinylated-isoxazole-mediated precipitation of condensome and RNA sequencing
+category: wet
+summary: Profiles condensate-associated RNAs by precipitating condensates and sequencing their RNA.
+readouts:
+- rna
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s44318-026-00926-6
+  year: 2026
+  journal: EMBO J
+  first_author: Allram M
+  last_author: Grebien F
+  pmid: '42875649'
+  title: Uncovering essential RNA components of fusion oncoprotein condensates using bicon-seq
+added: '2026-11-15'
+evidence: Bicon-seq globally profiles condensate-associated RNAs from cellular samples and quantifies changes in RNA solubility.

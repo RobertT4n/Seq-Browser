@@ -1,0 +1,19 @@
+name: exomePeak2
+category: dry
+summary: Calls RNA modification peaks and tests differential methylation in MeRIP-seq data while accounting for GC bias and
+  variable immunoprecipitation efficiency.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzag019
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Zhou J
+  last_author: Meng J
+  pmid: '41776836'
+  title: Comprehensive Epitranscriptome Analysis from MeRIP-seq Data with exomePeak2
+added: '2026-11-15'
+evidence: exomePeak2 analyzes transcriptome-wide m6A MeRIP-seq data and can also handle similar assays for other RNA modifications.

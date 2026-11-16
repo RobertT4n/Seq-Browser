@@ -1,0 +1,24 @@
+name: GraphChIAr
+category: dry
+summary: Predicts genome-wide protein-mediated chromatin interaction strengths at enhanced resolution using Hi-C, ChIP-seq
+  and genomic sequence data.
+readouts:
+- 3d-genome
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag305
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Dong H
+  last_author: Du PF
+  pmid: '42289051'
+  pmcid: PMC13376144
+  title: 'GraphChIAr: genome-wide super-resolution reconstruction of protein-mediated remote chromatin interactions by augmenting
+    hi-C interaction maps with multiple ChIP-seq profiles'
+added: '2026-11-15'
+evidence: GraphChIAr augments Hi-C contact maps with ChIP-seq profiles and genomic sequence information to estimate remote
+  chromatin interactions.

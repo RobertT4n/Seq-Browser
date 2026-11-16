@@ -1,0 +1,21 @@
+name: ChromAcS
+category: dry
+summary: Provides a graphical pipeline for paired-end ATAC-seq analysis from quality control through accessibility and regulatory
+  analyses.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-026-06382-7
+  year: 2026
+  journal: BMC Bioinformatics
+  first_author: Hossain M
+  last_author: Islam ABMMK
+  pmid: '41639613'
+  pmcid: PMC12973882
+  title: 'ChromAcS: an automated and flexible GUI for end-to-end reproducible ATAC-seq analysis across multiple species'
+added: '2026-11-15'
+evidence: ChromAcS performs quality control, alignment, peak calling, differential accessibility analysis, motif enrichment
+  and regulatory network analysis.

@@ -1,0 +1,21 @@
+name: PhysInfer
+category: dry
+summary: Infers transcriptional burst size and frequency from single-cell RNA-seq snapshots using a physics-constrained neural
+  network.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014904
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Zeng X
+  last_author: Wang H
+  pmid: '43013695'
+  title: 'PhysInfer: A physics-constrained neural network for adaptive inference of transcriptional bursting from single-cell
+    RNA-seq'
+added: '2026-11-15'
+evidence: PhysInfer uses a physics-informed loss and adaptive model selection to infer burst size and frequency from static
+  data.

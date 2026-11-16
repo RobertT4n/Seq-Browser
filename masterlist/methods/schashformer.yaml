@@ -1,0 +1,19 @@
+name: scHashFormer
+category: dry
+summary: Uses learned hash-based tokenization and a graph Transformer to cluster single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag402
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Lu Z
+  last_author: Liang J
+  pmid: '42525856'
+  pmcid: PMC13418868
+  title: 'scHashFormer: a hash-driven graph transformer for scalable scRNA-seq clustering'
+added: '2026-11-15'
+evidence: A learned hash encoder groups similar cells into buckets from which token sequences are constructed for clustering.

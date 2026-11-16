@@ -1,0 +1,20 @@
+name: APAdeg
+category: dry
+summary: Detects differentially expressed genes in APA-seq data using gene-level and polyadenylation-site-specific read counts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag295
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Sarker B
+  last_author: Xu C
+  pmid: '42242679'
+  pmcid: PMC13235742
+  title: APAdeg enhances differentially expressed gene inference by leveraging site-specific signals in APA-seq data
+added: '2026-11-15'
+evidence: APAdeg combines total gene counts and site-specific counts in a generalized linear mixed model for differential
+  expression analysis.

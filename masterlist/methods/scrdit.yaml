@@ -1,0 +1,20 @@
+name: scRDiT
+full_name: scRNA-seq Diffusion Transformer
+category: dry
+summary: Generates simulated single-cell RNA-seq samples from real datasets using diffusion transformers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-025-00688-5
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Dong S
+  last_author: Lei J
+  pmid: '39982678'
+  title: 'scRDiT: Generating Single-cell RNA-seq Data by Diffusion Transformers and Accelerating Sampling'
+added: '2026-11-15'
+evidence: scRDiT learns features from real scRNA-seq samples and generates virtual data using diffusion models and accelerated
+  sampling.

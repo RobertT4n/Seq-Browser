@@ -1,0 +1,21 @@
+name: MAJEC
+full_name: Momentum Accelerated Junction Enhanced Counting
+category: dry
+summary: Jointly quantifies genes, transcript isoforms, and individual transposable element loci from RNA-seq alignments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag737
+  year: 2026
+  journal: Bioinformatics
+  first_author: Lim TY
+  last_author: Firestone AJ
+  pmid: '42834519'
+  pmcid: PMC13676384
+  title: 'MAJEC: unified gene, isoform, and locus-level transposable element quantification from RNA-seq'
+added: '2026-11-15'
+evidence: MAJEC uses splice junction evidence and an expectation-maximization framework to distinguish genic from transposable
+  element-derived reads.

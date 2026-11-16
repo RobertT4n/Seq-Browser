@@ -1,0 +1,21 @@
+name: AutoGERN
+category: dry
+summary: Infers gene regulatory networks from single-cell RNA-seq data using graph neural networks with explicit link modeling
+  and architecture search.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag143
+  year: 2026
+  journal: Bioinformatics
+  first_author: Wang J
+  last_author: Luo X
+  pmid: '41871930'
+  pmcid: PMC13064981
+  title: 'AutoGERN: single-cell RNA-seq gene regulatory network inference via explicit link modeling and adaptive architectures'
+added: '2026-11-15'
+evidence: AutoGERN learns link embeddings to score gene-gene regulatory associations and uses architecture search to adapt
+  to dataset distributions.

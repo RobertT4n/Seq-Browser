@@ -1,0 +1,27 @@
+name: GLASS-seq
+full_name: Gel-anchored, Ligation-Assisted, Scalable Spatial sequencing
+category: wet
+summary: Profiles predefined RNA targets in spatial regions using ligated probes anchored in a hydrogel and sequenced with
+  regional barcodes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.bios.2026.118973
+  year: 2026
+  journal: Biosens Bioelectron
+  first_author: Chen L
+  last_author: Tang AH
+  pmid: '42379044'
+  title: 'GLASS-seq: a gel-anchored, ligation-assisted, scalable biosensing platform for low-cost regional spatial transcriptomics'
+added: '2026-11-15'
+evidence: Target-specific split probes are ligated upon RNA recognition, immobilized in a hydrogel and indexed by spatial
+  barcodes.

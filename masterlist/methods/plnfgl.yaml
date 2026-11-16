@@ -1,0 +1,23 @@
+name: PLNFGL
+full_name: Poisson Log-Normal Fused Graphical Lasso
+category: dry
+summary: Jointly estimates condition-specific gene networks from single-cell RNA-seq data using a Poisson log-normal graphical
+  model.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag485
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhai W
+  last_author: Ji J
+  pmid: '42398025'
+  pmcid: PMC13384064
+  title: 'PLNFGL: joint estimation of multi-condition gene networks from single-cell RNA-seq data'
+added: '2026-11-15'
+evidence: PLNFGL estimates condition-specific precision matrices and was applied to single-cell RNA-seq and spatial transcriptomics
+  data.

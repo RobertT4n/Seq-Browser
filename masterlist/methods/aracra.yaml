@@ -1,0 +1,20 @@
+name: ARACRA
+category: dry
+summary: Automates RNA-seq analysis from raw reads through differential expression and dose-response modeling for chemical
+  risk assessment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.34133/csbj.0186
+  year: 2026
+  journal: Comput Struct Biotechnol J
+  first_author: Sharma S
+  last_author: Kumar V
+  pmid: '42620692'
+  pmcid: PMC13486726
+  title: 'ARACRA: Automated RNA-seq Analysis for Chemical Risk Assessment'
+added: '2026-11-15'
+evidence: ARACRA processes raw FASTQ files through expression quantification, differential analysis, and dose-response modeling.

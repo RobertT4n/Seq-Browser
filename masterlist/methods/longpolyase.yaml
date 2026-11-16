@@ -1,0 +1,25 @@
+name: LongPolyASE
+category: dry
+summary: Analyzes allele-specific gene and isoform expression in diploid and polyploid organisms using long-read RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1186/s13007-026-01569-8
+  year: 2026
+  journal: Plant Methods
+  first_author: Nolte N
+  last_author: Petek M
+  pmid: '42482259'
+  pmcid: PMC13673704
+  title: 'LongPolyASE: an end-to-end framework for allele-specific gene and isoform analysis in polyploids using long-read
+    RNA-seq'
+added: '2026-11-15'
+evidence: LongPolyASE combines isoform discovery, haplotype-level quantification, and statistical testing of allelic imbalance
+  and isoform usage.

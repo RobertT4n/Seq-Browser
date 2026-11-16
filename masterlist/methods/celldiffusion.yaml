@@ -1,0 +1,19 @@
+name: CellDiffusion
+category: dry
+summary: Integrates single-cell transcriptomic datasets using diffusion and cell-specific batch correction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.aed4155
+  year: 2026
+  journal: Sci Adv
+  first_author: Liu YC
+  last_author: Zhang C
+  pmid: '42886809'
+  pmcid: PMC13674473
+  title: 'CellDiffusion: Enhancing scRNA-seq data integration with accurate inference of cell-cell association'
+added: '2026-11-15'
+evidence: CellDiffusion learns a cell-cell attention network to identify corresponding populations across batches.

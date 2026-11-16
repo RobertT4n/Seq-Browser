@@ -1,0 +1,21 @@
+name: SeqExpressionAnalyser
+category: dry
+summary: Provides an interactive RNA-seq pipeline from FASTQ quality control and alignment to differential gene expression
+  analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1177/11779322251385931
+  year: 2026
+  journal: Bioinform Biol Insights
+  first_author: Esskhayry S
+  last_author: Lamzouri A
+  pmid: '41602550'
+  pmcid: PMC12833196
+  title: 'SeqExpressionAnalyser: An R Package for Automated End-to-End RNA-Seq Analysis From Reads to Differential Expression'
+added: '2026-11-15'
+evidence: The R package accepts FASTQ files and performs quality control, filtering, alignment, read counting and differential
+  expression analysis.

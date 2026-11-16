@@ -1,0 +1,28 @@
+name: iGOF-Perturb-seq
+category: wet
+summary: Profiles transcription factor gain-of-function effects in astrocytes in vivo using Perturb-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+builds_on:
+- perturb-seq
+reference:
+  doi: 10.1126/science.adw2156
+  year: 2026
+  journal: Science
+  first_author: Zhang L
+  last_author: Zhou H
+  pmid: '42024736'
+  title: Mapping transcription factor functions in astrocytes using in vivo gain-of-function Perturb-seq
+added: '2026-11-15'
+evidence: The authors developed an in vivo gain-of-function Perturb-seq platform to build a functional atlas of approximately
+  1,000 transcription factors in astrocytes.
+partition_unknown: not stated in the abstract

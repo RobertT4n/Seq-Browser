@@ -1,0 +1,27 @@
+name: nbLIBRA-seq
+category: wet
+summary: Links heavy-chain antibody sequences to antigen specificity to discover antigen-specific nanobodies in alpaca samples.
+readouts:
+- receptor-ligand
+- immune-repertoire
+resolution:
+- single-cell
+scope: targeted
+species:
+- other-vertebrate
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.crmeth.2026.101605
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Leonard S
+  last_author: Voss K
+  pmid: '42753740'
+  title: Development and application of nbLIBRA-seq for high-throughput discovery of antigen-specific nanobodies
+added: '2026-11-15'
+evidence: The authors adapted LIBRA-seq to immunized alpacas and recovered antigen-specific heavy-chain-expressing B cells
+  using multiple antigens.
+partition_unknown: not stated in the abstract

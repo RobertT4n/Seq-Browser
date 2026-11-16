@@ -1,0 +1,21 @@
+name: TopClust
+category: dry
+summary: Identifies single-cell RNA-seq clusters and their core cells using topological analysis of a high-dimensional density
+  map.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.bpj.2026.04.010
+  year: 2026
+  journal: Biophys J
+  first_author: Hu C
+  last_author: Shao Z
+  pmid: '41981916'
+  pmcid: PMC13332111
+  title: 'TopClust: Topological-based analysis of scRNA-seq data for data-driven identification of clusters and core cluster
+    cells'
+added: '2026-11-15'
+evidence: TopClust identifies summit cells and core peak cells in a density map constructed using shared nearest neighbors.

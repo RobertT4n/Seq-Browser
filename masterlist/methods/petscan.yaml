@@ -1,0 +1,22 @@
+name: PETScan
+category: dry
+summary: Tests genome-wide associations between chromatin accessibility peaks and RNA transcripts using score tests and negative
+  binomial models.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf672
+  year: 2026
+  journal: Bioinformatics
+  first_author: Hao Y
+  last_author: Zou F
+  pmid: '41719189'
+  pmcid: PMC12930850
+  title: 'PETScan: score-based genome-wide association analysis of RNA-Seq and ATAC-Seq data'
+added: '2026-11-15'
+evidence: PETScan combines score tests, negative binomial models, and empirical permutation to identify associated gene-peak
+  pairs.

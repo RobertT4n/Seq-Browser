@@ -1,0 +1,31 @@
+name: TAR-seq
+full_name: T Cell Antigenic Recognition Sequencing
+category: wet
+summary: Uses single-cell RNA and TCR sequencing to identify antigen-responsive clonotypes and characterize their cellular
+  states.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+validated_system:
+- primary-cells
+reference:
+  doi: 10.3389/fimmu.2026.1823042
+  year: 2026
+  journal: Front Immunol
+  first_author: Chaunzwa M
+  last_author: Bimber BN
+  pmid: '42558731'
+  pmcid: PMC13438159
+  title: T cell antigenic recognition sequencing (TAR-seq) enables precise characterization of vaccine-elicited cellular immunity
+    ex vivo and &lt;i&gt;in vivo&lt;/i&gt;
+added: '2026-11-15'
+evidence: The method uses scRNA/TCR-seq to identify responding TCRs and then uses those TCRs as molecular barcodes to identify
+  antigen-specific cells in unsorted data.
+partition_unknown: not stated in the abstract

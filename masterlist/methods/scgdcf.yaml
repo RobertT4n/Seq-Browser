@@ -1,0 +1,19 @@
+name: scGDCF
+full_name: Graphical Deep Clustering with Fused Common Information
+category: dry
+summary: Clusters single-cell RNA-seq data by combining sparse feature representations with cell graph topology.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2026.3698076
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Dong Y
+  last_author: Zhang X
+  pmid: '42224333'
+  title: 'scGDCF: Graphical Deep Clustering With Fused Common Information for Single-Cell RNA-Seq Data'
+added: '2026-11-15'
+evidence: scGDCF extracts common information from feature and topological structure data and uses adaptive attention for clustering.

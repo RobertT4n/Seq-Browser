@@ -1,0 +1,22 @@
+name: InspectorORF
+category: dry
+summary: Visualizes ribosome profiling and RNA-seq reads alongside optional complementary evidence to help inspect predicted
+  open reading frames.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag031
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Ward EL
+  last_author: Aspden JL
+  pmid: '41695263'
+  pmcid: PMC12904772
+  title: 'InspectorORF: a tool for visualizing Ribo-Seq and additional genomic or transcriptomic data'
+added: '2026-11-15'
+evidence: InspectorORF plots ribosome profiling and RNA-seq reads across transcripts or open reading frames, with optional
+  proteomic and long-read data.

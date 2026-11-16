@@ -1,0 +1,21 @@
+name: DisTAL-Seq
+category: dry
+summary: Adapts the DISCOVER-Seq analysis pipeline to identify TALEN on- and off-target DNA double-strand breaks.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+builds_on:
+- discover-seq
+reference:
+  doi: 10.1016/j.omtn.2026.102883
+  year: 2026
+  journal: Mol Ther Nucleic Acids
+  first_author: Kobel L
+  last_author: Kontarakis Z
+  pmid: '41883584'
+  pmcid: PMC13010107
+  title: 'DisTAL-Seq: A TALEN-specific adaptation of DISCOVER-Seq for off-target profiling'
+added: '2026-11-15'
+evidence: DisTAL-Seq adapts DISCOVER-Seq with alignment logic tailored to TALEN binding and cleavage properties.

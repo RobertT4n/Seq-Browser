@@ -1,0 +1,26 @@
+name: URMD-Seq
+full_name: Ultra-Rare Mutation Detection-Sequencing
+category: wet
+summary: Uses molecularly labeled amplicons to detect ultra-rare mutations in the mitochondrial DNA control region.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.mito.2026.102134
+  year: 2026
+  journal: Mitochondrion
+  first_author: Li ZES
+  last_author: Côté HCF
+  pmid: '41687757'
+  title: 'URMD-Seq: A high-throughput method for scalable detection of ultra-rare mutations in the human mitochondrial genome'
+added: '2026-11-15'
+evidence: URMD-Seq uses degenerate primers to label individual mitochondrial DNA molecules and generates amplicons for sequencing
+  of the mitochondrial control region.

@@ -1,0 +1,21 @@
+name: DeepSAP
+category: dry
+summary: Improves RNA-seq alignment by combining transcriptome-guided genomic alignment with transformer-based splice-junction
+  scoring.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04100-3
+  year: 2026
+  journal: Genome Biol
+  first_author: Berakdar F
+  last_author: Vats P
+  pmid: '42104452'
+  pmcid: PMC13347891
+  title: 'DeepSAP: improved RNA-seq alignment by integrating transcriptome guidance with transformer-based splice junction
+    scoring'
+added: '2026-11-15'
+evidence: DeepSAP integrates GSNAP's transcriptome-guided alignment with transformer-based splice-junction scoring.

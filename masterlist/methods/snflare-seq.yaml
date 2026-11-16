@@ -1,0 +1,31 @@
+name: snFLARE-seq
+category: wet
+summary: Profiles single-nucleus transcriptomes from formalin-fixed paraffin-embedded prostate cancer specimens.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- nuclei
+- ffpe-archival
+reference:
+  doi: 10.1038/s41467-026-69347-7
+  year: 2026
+  journal: Nat Commun
+  first_author: He D
+  last_author: Li Z
+  pmid: '41651840'
+  pmcid: PMC12992566
+  title: Analysis of the transcriptomic and metabolomic landscape of prostate cancer with different anatomical origins using
+    snFLARE-seq and mxFRIZNGRND
+added: '2026-11-15'
+evidence: The authors refined snFLARE-seq for single-nucleus sequencing to investigate transcriptomes in FFPE prostate cancer
+  specimens.
+partition_unknown: not stated in the abstract

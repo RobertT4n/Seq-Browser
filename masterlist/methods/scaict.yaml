@@ -1,0 +1,22 @@
+name: scAICT
+category: dry
+summary: Integrates unpaired single-cell RNA-seq and ATAC-seq data to infer cell correspondences and predict molecular profiles
+  across modalities.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/biology15201797
+  year: 2026
+  journal: Biology (Basel)
+  first_author: Wang X
+  last_author: Meng L
+  pmid: '42939398'
+  pmcid: PMC13701718
+  title: 'scAICT: Adversarial Integration and Contrastive Translation for Unpaired scRNA-Seq and scATAC-Seq'
+added: '2026-11-15'
+evidence: Inferred pseudo-pairs supervise bidirectional cross-modal prediction after integration of unpaired expression and
+  accessibility data.

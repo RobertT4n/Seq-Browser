@@ -1,0 +1,19 @@
+name: scALGSL
+category: dry
+summary: Annotates cell types in single-cell RNA-seq data using active learning, graph optimization, and cell-state features.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2026.3693722
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Du ZH
+  last_author: Huang YA
+  pmid: '42133522'
+  title: 'scALGSL: Active Learning and Graph Structure Learning for Cell Type Annotation From Single-Cell RNA-Seq Data'
+added: '2026-11-15'
+evidence: scALGSL combines graph-guided selection of training samples, learnable graph refinement, and a cell-state auxiliary
+  pathway.

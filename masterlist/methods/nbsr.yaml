@@ -1,0 +1,20 @@
+name: NBSR
+full_name: Negative Binomial Softmax Regression
+category: dry
+summary: Tests differential microRNA expression using a negative binomial softmax regression model.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/biostatistics/kxag012
+  year: 2026
+  journal: Biostatistics
+  first_author: Jun SH
+  last_author: McCall MN
+  pmid: '42187009'
+  pmcid: PMC13202216
+  title: 'NBSR: a Negative Binomial Softmax Regression model for microRNA-seq data analysis'
+added: '2026-11-15'
+evidence: NBSR models microRNA relative abundance and supports differential expression inference across experimental conditions.

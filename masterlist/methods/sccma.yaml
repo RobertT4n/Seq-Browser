@@ -1,0 +1,18 @@
+name: scCMA
+category: dry
+summary: Learns single-cell RNA-seq embeddings using contrastive learning and a masked reconstruction autoencoder.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-026-00822-x
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Chen X
+  last_author: Fang Z
+  pmid: '41806153'
+  title: scCMA: A Contrastive Masked Autoencoder Framework for Robust Representation Learning of scRNA-seq Data
+added: '2026-11-15'
+evidence: scCMA combines a contrastive module with a masked autoencoder to generate cell embeddings and mitigate batch effects.

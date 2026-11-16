@@ -1,0 +1,21 @@
+name: GFETM
+full_name: Genome foundation embedded topic model
+category: dry
+summary: Models single-cell chromatin accessibility by combining sequence embeddings from a genome foundation model with an
+  embedded topic model.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101563
+  year: 2026
+  journal: Cell Syst
+  first_author: Fan Y
+  last_author: Li Y
+  pmid: '41932342'
+  title: 'GFETM: Genome foundation-based embedded topic model for scATAC-seq modeling'
+added: '2026-11-15'
+evidence: GFETM integrates sequence embeddings from open chromatin regions and captures cell-state-specific transcription
+  factor activity.

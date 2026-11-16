@@ -1,0 +1,19 @@
+name: GeneExt
+category: dry
+summary: Refines gene annotations using single-cell RNA-seq data to improve expression quantification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag094
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zolotarov G
+  last_author: Sebé-Pedrós A
+  pmid: '41769841'
+  pmcid: PMC12970594
+  title: 'GeneExt: a gene model extension tool for enhanced single-cell RNA-seq analysis'
+added: '2026-11-15'
+evidence: GeneExt extends and homogenizes gene annotations, addressing inaccurate annotation of gene 3' ends.

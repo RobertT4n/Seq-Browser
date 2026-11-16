@@ -1,0 +1,28 @@
+name: ValveCCI-seq
+category: wet
+summary: Pairs cells in a microfluidic platform and profiles their transcriptomes in droplets while preserving cell-pair identities.
+readouts:
+- rna
+- immune-repertoire
+- receptor-ligand
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.5c06978
+  year: 2026
+  journal: Anal Chem
+  first_author: Wang M
+  last_author: Cao X
+  pmid: '41996195'
+  title: 'ValveCCI-seq: An Advanced Microfluidic Approach for Deciphering Cell-Cell Interactions'
+added: '2026-11-15'
+evidence: ValveCCI-seq profiles coencapsulated cell pairs within droplets and identified tumor antigens and their cognate
+  TCR sequences in a Jurkat and T2 cell model.

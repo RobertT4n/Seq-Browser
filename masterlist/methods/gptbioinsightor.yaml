@@ -1,0 +1,19 @@
+name: GPTBioInsightor
+category: dry
+summary: Uses a large language model to annotate cell types, states, and pathway activities with explanatory evidence.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag025
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Huang S
+  last_author: Heeschen C
+  pmid: '41822384'
+  pmcid: PMC12975716
+  title: GPTBioInsightor-leveraging large language models for transparent scRAN-seq cell type annotations
+added: '2026-11-15'
+evidence: GPTBioInsightor provides cell annotations alongside explanations, confidence scores, and literature-based evidence.

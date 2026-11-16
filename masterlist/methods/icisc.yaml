@@ -1,0 +1,22 @@
+name: ICIsc
+category: dry
+summary: Predicts immune checkpoint inhibitor response from transcriptomic patient representations and drug sequence embeddings.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/bioengineering13020187
+  year: 2026
+  journal: Bioengineering (Basel)
+  first_author: Jin Z
+  last_author: Chen L
+  pmid: '41749727'
+  pmcid: PMC12937945
+  title: 'ICIsc: A Deep Learning Framework for Predicting Immune Checkpoint Inhibitor Response by Integrating scRNA-Seq and
+    Protein Language Models'
+added: '2026-11-15'
+evidence: ICIsc uses transcriptomic profiles for patient representations and protein language model embeddings of inhibitor
+  sequences for response prediction.

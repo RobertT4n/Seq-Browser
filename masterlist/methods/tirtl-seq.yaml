@@ -1,0 +1,27 @@
+name: TIRTL-seq
+full_name: throughput-intensive rapid TCR library sequencing
+category: wet
+summary: Generates parallel TCR libraries for paired repertoire sequencing and clonal frequency estimation.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+reference:
+  doi: 10.1038/s41592-025-02907-9
+  year: 2026
+  journal: Nat Methods
+  first_author: Pogorelyy MV
+  last_author: Thomas PG
+  pmid: '41286199'
+  pmcid: PMC12791010
+  title: 'TIRTL-seq: deep, quantitative and affordable paired TCR repertoire sequencing'
+added: '2026-11-15'
+evidence: TIRTL-seq generates hundreds of TCR libraries in 384-well plates and is scalable from a single cell to millions
+  of T cells per sample.
+partition_unknown: not stated in the abstract

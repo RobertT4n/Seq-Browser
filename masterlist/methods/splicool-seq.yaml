@@ -1,0 +1,31 @@
+name: SpliCOOL-seq
+full_name: single-cell split-pool ligation-based multi-omics sequencing technology
+category: wet
+summary: Profiles DNA methylation and chromatin accessibility across the genome in the same individual cells.
+readouts:
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- split-pool-barcoding
+- combinatorial-indexing
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1002/ctm2.70584
+  year: 2026
+  journal: Clin Transl Med
+  first_author: Shen Q
+  last_author: Fan X
+  pmid: '41603298'
+  pmcid: PMC12848781
+  title: High-throughput single-cell DNA methylation and chromatin accessibility co-profiling with SpliCOOL-seq
+added: '2026-11-15'
+evidence: The method combines in situ GpC methylation, Tn5 tagmentation and split-pool combinatorial barcoding to profile
+  whole-genome DNA methylation and chromatin accessibility in thousands of cells.

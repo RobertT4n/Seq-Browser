@@ -1,0 +1,20 @@
+name: CSCN
+full_name: Cell-Specific Causal Network
+category: dry
+summary: Infers directed cell-specific gene regulatory networks from single-cell RNA-seq data using causal discovery.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag480
+  year: 2026
+  journal: Bioinformatics
+  first_author: Wang M
+  last_author: Chen J
+  pmid: '42378449'
+  pmcid: PMC13387158
+  title: 'CSCN: inference of cell-specific causal networks using single-cell RNA-seq data'
+added: '2026-11-15'
+evidence: CSCN uses conditional independence testing to infer sparse, directed gene regulatory graphs for individual cells.

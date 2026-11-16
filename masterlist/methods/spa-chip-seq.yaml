@@ -1,0 +1,24 @@
+name: spa-ChIP-seq
+category: wet
+summary: Automates a single-pot ChIP-seq workflow for scalable profiling of DNA-associated proteins.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species: []
+validated_system: []
+reference:
+  doi: 10.1101/gr.281320.125
+  year: 2026
+  journal: Genome Res
+  first_author: Cao Y
+  last_author: Goren A
+  pmid: '41386983'
+  pmcid: PMC12758389
+  title: Automated chromatin profiling with spa-ChIP-seq uncovers the impacts of condition variations
+added: '2026-11-15'
+evidence: The fully automated single-pot ChIP-seq implementation processes eight to 96 samples from cross-linked cells to
+  sequencing-ready libraries.

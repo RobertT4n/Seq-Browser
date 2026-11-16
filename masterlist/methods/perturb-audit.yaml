@@ -1,0 +1,20 @@
+name: Perturb-Audit
+category: dry
+summary: Audits molecular collisions and suppresses background to improve guide assignment in Perturb-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1097/bs9.0000000000000306
+  year: 2026
+  journal: Blood Sci
+  first_author: Song X
+  last_author: Zhu P
+  pmid: '42578098'
+  pmcid: PMC13456771
+  title: Characterizing and mitigating cross-library PCR chimeras in Perturb-seq using Perturb-Audit
+added: '2026-11-15'
+evidence: Perturb-Audit combines molecule-level collision auditing with statistical background suppression to improve sgRNA
+  assignment.

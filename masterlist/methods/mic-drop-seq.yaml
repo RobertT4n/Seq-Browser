@@ -1,0 +1,30 @@
+name: MIC-Drop-seq
+category: wet
+summary: Combines CRISPR gene disruption in zebrafish embryos with multiplexed single-cell RNA sequencing to profile mutant
+  phenotypes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+perturbation:
+- crispr-knockout
+reference:
+  doi: 10.1038/s41467-026-70989-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Carey CM
+  last_author: Gagnon JA
+  pmid: '41922342'
+  pmcid: PMC13216532
+  title: 'MIC-Drop-seq: scalable single-cell phenotyping of mutant vertebrate embryos'
+added: '2026-11-15'
+evidence: MIC-Drop-seq combines high-throughput CRISPR gene disruption in zebrafish embryos with multiplexed single-cell RNA
+  sequencing.
+partition_unknown: not stated in the abstract

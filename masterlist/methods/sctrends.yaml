@@ -1,0 +1,21 @@
+name: scTrends
+category: dry
+summary: Classifies and quantifies gene expression trends along an existing single-cell pseudotime trajectory.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-026-12987-2
+  year: 2026
+  journal: BMC Genomics
+  first_author: Qing J
+  last_author: Wu J
+  pmid: '42218405'
+  pmcid: PMC13435386
+  title: 'scTrends: automated classification and strength quantification of gene expression trends along pseudotime in single-cell
+    RNA-seq'
+added: '2026-11-15'
+evidence: scTrends models pseudotime-binned expression profiles and assigns genes to temporal trend categories without inferring
+  pseudotime.

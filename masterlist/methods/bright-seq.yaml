@@ -1,0 +1,28 @@
+name: BRIGHT-seq
+full_name: Base Replacement for Integrated Genome-wide Methylation and Hydroxymethylation Tracking Sequencing
+category: wet
+summary: Directly detects 5mC and 5hmC at single-base resolution within the same DNA molecule.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system: []
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/nsr/nwag353
+  year: 2026
+  journal: Natl Sci Rev
+  first_author: Xue X
+  last_author: Weng X
+  pmid: '42483395'
+  pmcid: PMC13386502
+  title: Simultaneous single-base resolution profiling of 5mC and 5hmC using BRIGHT-seq
+added: '2026-11-15'
+evidence: Enzymatic and chemical treatments convert 5mC to adenine and 5hmC to thymine for simultaneous detection.

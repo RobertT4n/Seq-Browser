@@ -1,0 +1,29 @@
+name: HIV-seq
+category: wet
+summary: Adds HIV-targeting capture sequences to single-cell RNA sequencing to improve detection of HIV transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+chemistry:
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-026-68797-3
+  year: 2026
+  journal: Nat Commun
+  first_author: Frouard J
+  last_author: Yukl SA
+  pmid: '41776157'
+  pmcid: PMC12957429
+  title: HIV-seq reveals gene expression differences between HIV-transcribing cells from viremic and suppressed people with
+    HIV
+added: '2026-11-15'
+evidence: Spiking capture sequences targeting conserved HIV regions into scRNA-seq doubled the mean number of HIV reads per
+  cell from people with HIV.
+partition_unknown: not stated in the abstract

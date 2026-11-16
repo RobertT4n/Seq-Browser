@@ -1,0 +1,19 @@
+name: SIEVEseq
+category: dry
+summary: Tests differences in gene expression mean, variability, and skewness between conditions using RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/dnares/dsag012
+  year: 2026
+  journal: DNA Res
+  first_author: Li H
+  last_author: Khang TF
+  pmid: '42522708'
+  pmcid: PMC13479321
+  title: 'SIEVEseq: unified differential expression, variability, and skewness analyses using RNA-Seq data'
+added: '2026-11-15'
+evidence: SIEVEseq provides a unified statistical framework for differential expression, variability, and skewness analysis.

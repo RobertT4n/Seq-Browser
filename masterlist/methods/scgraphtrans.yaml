@@ -1,0 +1,20 @@
+name: scGraphTrans
+category: dry
+summary: Uses pathway-guided graph learning and domain adaptation to annotate cell types and infer communication from single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2026.3733126
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Li YC
+  last_author: You ZH
+  pmid: '42721175'
+  title: 'ScGraphTrans: Pathway-Guided Graph Learning and Domain Adaptation for Cell Type Annotation in Single-Cell RNA-seq'
+added: '2026-11-15'
+evidence: scGraphTrans uses pathway activity pseudo-labels and aligns cell embeddings across patients to support annotation
+  and communication inference.

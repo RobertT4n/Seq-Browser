@@ -1,0 +1,30 @@
+name: FINE-EM-seq
+category: wet
+summary: Uses nicking enzyme-assisted isothermal amplification to prepare low-input whole-genome methylation libraries.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.cellin.2026.100324
+  year: 2026
+  journal: Cell Insight
+  first_author: Ding C
+  last_author: Hu Z
+  pmid: '42058509'
+  pmcid: PMC13123379
+  title: 'FINE-EM-seq: a rapid isothermal amplification method enabling comprehensive methylome profiling of zebrafish early
+    embryos'
+added: '2026-11-15'
+evidence: FINE uses a nicking enzyme-assisted strand displacement reaction to amplify methylation libraries from sub-nanogram
+  inputs and was applied to zebrafish embryos.

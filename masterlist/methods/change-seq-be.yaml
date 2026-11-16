@@ -1,0 +1,26 @@
+name: CHANGE-seq-BE
+category: wet
+summary: Selectively sequences base-editor-modified genomic DNA to identify guide-dependent off-target mutations genome-wide.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry: []
+perturbation:
+- base-editing
+reference:
+  doi: 10.1038/s41587-025-02948-7
+  year: 2026
+  journal: Nat Biotechnol
+  first_author: Lazzarotto CR
+  last_author: Tsai SQ
+  pmid: '41482541'
+  pmcid: PMC13479990
+  title: Sensitive and unbiased genome-wide profiling of base-editor-induced off-target activity using CHANGE-seq-BE
+added: '2026-11-15'
+evidence: CHANGE-seq-BE selectively sequences base-editor-modified genomic DNA in vitro to identify genome-wide off-target
+  mutations.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

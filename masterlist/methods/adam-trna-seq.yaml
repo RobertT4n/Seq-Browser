@@ -1,0 +1,23 @@
+name: ADAM-tRNA-seq
+category: dry
+summary: Demultiplexes nanopore tRNA reads and maps them hierarchically to improve tRNA quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkag022
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Alarcon R
+  last_author: Ignatova Z
+  pmid: '41574434'
+  pmcid: PMC12828228
+  title: 'ADAM-tRNA-seq: an optimized approach for demultiplexing and enhanced hierarchal mapping in direct tRNA sequencing'
+added: '2026-11-15'
+evidence: The framework uses adapter-embedded RNA barcodes for demultiplexing and classifies reads at isodecoder, isoacceptor,
+  or isotype levels to improve quantification.

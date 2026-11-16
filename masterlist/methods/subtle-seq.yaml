@@ -1,0 +1,27 @@
+name: Subtle-seq
+full_name: Subtelomere Enrichment-sequencing
+category: wet
+summary: Enriches telomere-containing sequences to detect rare telomere-healing events and chromosome fragmentation in Paramecium.
+readouts:
+- genome-sequence
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.1093/nar/gkag298
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Matsubara R
+  last_author: Nowacki M
+  pmid: '41978260'
+  pmcid: PMC13076228
+  title: Subtle-seq reveals frequent ageing-associated chromosome fragmentation on nucleosome core DNA
+added: '2026-11-15'
+evidence: Subtle-seq enriches telomere-containing sequences and detects rare telomere-healing events associated with chromosome
+  fragmentation.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

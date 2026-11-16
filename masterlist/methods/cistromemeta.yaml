@@ -1,0 +1,21 @@
+name: CistromeMeta
+category: dry
+summary: Extracts and standardizes ChIP-seq metadata from GEO XML records using a large language model.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag380
+  year: 2026
+  journal: Bioinformatics
+  first_author: Piccaro N
+  last_author: Meyer C
+  pmid: '42287723'
+  pmcid: PMC13294451
+  title: 'CistromeMeta: a large language model powered tool for automated ChIP-seq metadata extraction'
+added: '2026-11-15'
+evidence: CistromeMeta extracts metadata describing targets, histone marks, cell lines, tissues, and disease states and validates
+  terms against biological databases.

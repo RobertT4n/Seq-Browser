@@ -1,0 +1,27 @@
+name: Well-ST-seq
+category: wet
+summary: Uses spatially barcoded bead arrays to profile tissue transcripts at near-cellular resolution.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- combinatorial-indexing
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acs.analchem.6c01070
+  year: 2026
+  journal: Anal Chem
+  first_author: Yu N
+  last_author: Yang B
+  pmid: '42246548'
+  title: 'Well-ST-seq: Cost-Effective and Near-Cellular Spatial Transcriptomics Using Deterministic Barcoded Bead Arrays'
+added: '2026-11-15'
+evidence: Well-ST-seq uses microwell-assembled bead carriers and combinatorial microfluidic indexing to generate spatial barcode
+  arrays for mouse tissue profiling.

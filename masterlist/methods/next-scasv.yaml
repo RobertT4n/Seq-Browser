@@ -1,0 +1,21 @@
+name: NEXT-scASV
+category: dry
+summary: Calls allele-specific variants and evaluates allelic imbalance from 5-prime single-cell RNA-seq data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giag042
+  year: 2026
+  journal: Gigascience
+  first_author: Shevtsov A
+  last_author: Medvedeva YA
+  pmid: '41947412'
+  pmcid: PMC13148397
+  title: 'NEXT-scASV: a Nextflow pipeline for allele-specific variant calling from single-cell RNA-seq data'
+added: '2026-11-15'
+evidence: NEXT-scASV automates alignment, quality control, variant calling and statistical evaluation of allelic imbalance
+  without requiring prior genotyping.

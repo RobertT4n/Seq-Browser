@@ -1,0 +1,20 @@
+name: ERAPID
+category: dry
+summary: Analyzes public RNA-seq count matrices for differential expression and prioritizes candidate biomarker genes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2026.01.001
+  year: 2026
+  journal: Methods
+  first_author: Park J
+  last_author: Kang K
+  pmid: '41500484'
+  title: 'ERAPID: an end‑to‑end RNA‑seq analysis pipeline for integrative candidate biomarker discovery with applications
+    to neuropsychiatric disorders'
+added: '2026-11-15'
+evidence: ERAPID combines metadata harmonization, batch correction, differential expression, gene set enrichment and literature-based
+  gene prioritization.

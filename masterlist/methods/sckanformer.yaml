@@ -1,0 +1,22 @@
+name: scKanFormer
+category: dry
+summary: Annotates cell types in large single-cell RNA-seq datasets using a supervised transformer framework with biologically
+  informed attention.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014607
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Yuan L
+  last_author: Huang DS
+  pmid: '42599963'
+  pmcid: PMC13489525
+  title: 'scKanFormer: A Transformer-KAN framework with biologically informed attention for cell type annotation in large-scale
+    scRNA-seq data'
+added: '2026-11-15'
+evidence: scKanFormer combines biological information, local and global attention, and Kolmogorov-Arnold Networks for cell
+  type annotation.

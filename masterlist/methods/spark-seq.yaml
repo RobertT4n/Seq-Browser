@@ -1,0 +1,26 @@
+name: SPARK-seq
+full_name: single-cell perturbation-driven aptamer recognition and kinetics sequencing
+category: wet
+summary: Combines single-cell RNA and aptamer sequencing with surface protein perturbation to identify aptamer targets and
+  characterize binding kinetics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+reference:
+  doi: 10.1126/science.adv6127
+  year: 2026
+  journal: Science
+  first_author: Luo G
+  last_author: Tan W
+  pmid: '41477891'
+  title: 'SPARK-seq: A high-throughput platform for aptamer discovery and kinetic profiling'
+added: '2026-11-15'
+evidence: SPARK-seq mapped 5,535 aptamers to eight surface proteins and provided kinetic information for prioritizing aptamers
+  with slow dissociation rates.
+partition_unknown: not stated in the abstract

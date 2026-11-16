@@ -1,0 +1,20 @@
+name: CausalGenDiff
+category: dry
+summary: Integrates single-cell RNA-seq and spatial transcriptomics using diffusion and autoregressive processes.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jbi.2025.104966
+  year: 2026
+  journal: J Biomed Inform
+  first_author: Sadia RT
+  last_author: Cheng Q
+  pmid: '41354118'
+  title: 'CausalGenDiff: Generative causal diffusion bridges scRNA-seq and spatial transcriptomics'
+added: '2026-11-15'
+evidence: CausalGenDiff extends a causal attention transformer for high-dimensional gene expression and incorporates VAE-based
+  pretraining and fine-tuning.

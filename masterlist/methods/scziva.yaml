@@ -1,0 +1,19 @@
+name: scZiva
+category: dry
+summary: Imputes likely technical dropouts in single-cell RNA-seq data using a zero-inflated variational autoencoder.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-026-06422-2
+  year: 2026
+  journal: BMC Bioinformatics
+  first_author: Vo LT
+  last_author: Nguyen AQ
+  pmid: '41857511'
+  pmcid: PMC13122936
+  title: 'scZiva: imputation method for single-cell RNA-seq data with zero-inflated variational autoencoder'
+added: '2026-11-15'
+evidence: scZiva models dropout uncertainty and local gene dependencies to selectively recover likely technical zeros.

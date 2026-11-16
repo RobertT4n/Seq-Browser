@@ -1,0 +1,20 @@
+name: scDBic
+category: dry
+summary: Biclusters single-cell RNA-seq data to identify cell groups and their key genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag095
+  year: 2026
+  journal: Bioinformatics
+  first_author: Tang X
+  last_author: Lan C
+  pmid: '41746287'
+  pmcid: PMC13012890
+  title: 'scDBic: a novel deep learning-based biclustering algorithm for analyzing scRNA-seq data'
+added: '2026-11-15'
+evidence: scDBic combines autoencoder-based cell clustering, gene clustering, and a reverse strategy to identify key gene
+  clusters.

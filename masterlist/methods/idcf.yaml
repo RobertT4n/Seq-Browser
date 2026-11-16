@@ -1,0 +1,23 @@
+name: iDCF
+full_name: Interpretable Deconvolution of Cell Fractions
+category: dry
+summary: Deconvolves cell-type proportions from bulk transcriptomic profiles using a neural network informed by pathways and
+  protein interaction networks.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014727
+  year: 2026
+  journal: PLoS Comput Biol
+  first_author: Guo H
+  last_author: Lyu Q
+  pmid: '42658881'
+  pmcid: PMC13552964
+  title: 'iDCF: Interpretable deconvolution of cell fractions via biologically-informed deep learning using scRNA-seq data'
+added: '2026-11-15'
+evidence: iDCF combines a standard deep network with a sparse neural network masked by pathway definitions and protein-protein
+  interaction networks.

@@ -1,0 +1,31 @@
+name: Plaque-2-seq
+category: wet
+summary: Sequences bacteriophage genomes directly from individual plaques using low-input library preparation and nanopore
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+input_sample:
+- low-input
+reference:
+  doi: 10.1099/mgen.0.001672
+  year: 2026
+  journal: Microb Genom
+  first_author: Michniewski S
+  last_author: Millard A
+  pmid: '42030178'
+  pmcid: PMC13108922
+  title: 'Rolling out &lt;i&gt;Plaque-2-seq&lt;/i&gt;: a single plaque sequencing approach enabling rapid, low-cost sequencing
+    of phages directly from plaques'
+added: '2026-11-15'
+evidence: Plaque-2-seq combines low-input transposase-based library preparation, amplification, nanopore sequencing, and phage-specific
+  assembly.

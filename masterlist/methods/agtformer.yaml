@@ -1,0 +1,19 @@
+name: AGTformer
+full_name: Synergistic Global Transformer and Adaptive Graph Gating for Accurate scRNA-seq Clustering
+category: dry
+summary: Clusters single-cell RNA-seq data using adaptive graph edge weighting and global transformer refinement.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109239
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Dang Y
+  last_author: Liu B
+  pmid: '42435485'
+  title: 'AGTformer: Synergistic global transformer and adaptive graph gating for Accurate scRNA-seq clustering'
+added: '2026-11-15'
+evidence: AGTformer combines adaptive edge reweighting with global latent-space modeling to learn representations for clustering.

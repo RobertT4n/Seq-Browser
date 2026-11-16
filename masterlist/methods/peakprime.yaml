@@ -1,0 +1,20 @@
+name: PeakPrime
+category: dry
+summary: Designs primers for targeted enrichment of transcripts using coverage peaks from 3'-end RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbag080
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Poma-Soto F
+  last_author: Vandesompele J
+  pmid: '41919010'
+  pmcid: PMC13034549
+  title: 'PeakPrime: a peak-guided primer design pipeline for target enrichment in 3''-end RNA-seq'
+added: '2026-11-15'
+evidence: The pipeline identifies high-coverage regions, designs cDNA primers, and screens their specificity for targeted
+  3'-end RNA-seq.

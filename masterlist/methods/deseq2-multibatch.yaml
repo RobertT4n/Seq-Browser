@@ -1,0 +1,19 @@
+name: DESeq2-MultiBatch
+category: dry
+summary: Corrects RNA-seq gene counts for batch effects and their interactions with biological variables.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1139/gen-2025-0049
+  year: 2026
+  journal: Genome
+  first_author: Roy J
+  last_author: Torkamaneh D
+  pmid: '41861386'
+  title: 'DESeq2-MultiBatch: batch correction for multi-factorial RNA-seq experiments'
+added: '2026-11-15'
+evidence: DESeq2-MultiBatch uses DESeq2 model estimates to correct raw gene counts for experimental batch effects, including
+  interactions.

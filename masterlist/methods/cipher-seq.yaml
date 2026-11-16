@@ -1,0 +1,28 @@
+name: CIPHER-seq
+full_name: Cytokine Intracellular Protein High-throughput Expression with RNA-sequencing
+category: wet
+summary: Simultaneously quantifies intracellular proteins and transcriptomes in single immune cells.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species: []
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41598-026-44946-y
+  year: 2026
+  journal: Sci Rep
+  first_author: Bhalgat A
+  last_author: Taylor J
+  pmid: '41951681'
+  pmcid: PMC13061944
+  title: CIPHER-seq enables intracellular multimodal profiling of cytokine responses in single immune cells
+added: '2026-11-15'
+evidence: CIPHER-seq enables simultaneous quantification of intracellular proteins and transcriptomes and was applied to stimulated
+  PBMCs.
+partition_unknown: not stated in the abstract

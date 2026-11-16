@@ -1,0 +1,19 @@
+name: MAJIQ-CLIN
+full_name: Modeling Alternative Junction Inclusion Quantification for Clinical Applications
+category: dry
+summary: Identifies patient-specific RNA splicing aberrations by comparing patient RNA-seq data with a control cohort.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gim.2026.102628
+  year: 2026
+  journal: Genet Med
+  first_author: Aicher JK
+  last_author: Barash Y
+  pmid: '42267532'
+  title: 'MAJIQ-CLIN: A novel tool to help identify Mendelian disease-causing variants from RNA-seq data'
+added: '2026-11-15'
+evidence: MAJIQ-CLIN detects local splicing variations that deviate in a patient or are unique to that patient.

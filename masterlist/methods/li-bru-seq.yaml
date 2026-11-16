@@ -1,0 +1,28 @@
+name: Li-BrU-seq
+category: wet
+summary: Uses 5-bromouridine labeling to profile nascent RNA from low-input samples.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+species: []
+validated_system: []
+temporal:
+- metabolic-labeling
+input_sample:
+- low-input
+reference:
+  doi: 10.1021/acschembio.5c01011
+  year: 2026
+  journal: ACS Chem Biol
+  first_author: Huang YF
+  last_author: Zhang Z
+  pmid: '41773915'
+  title: 'Li-BrU-seq: A Low-Input and Simplified Metabolic Labeling Method for Nascent RNA Sequencing'
+added: '2026-11-15'
+evidence: Li-BrU-seq is a 5-bromouridine-based strategy that profiles RNA from as little as 500 ng total RNA or approximately
+  25,000 cells.

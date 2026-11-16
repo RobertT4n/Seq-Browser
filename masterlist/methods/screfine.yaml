@@ -1,0 +1,19 @@
+name: scREFINE
+category: dry
+summary: Refines pretrained single-cell embeddings using limited labels and neighborhood regularization for cell clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109535
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Sadik S
+  last_author: Progga ZT
+  pmid: '43025064'
+  title: 'scREFINE: Label-efficient refinement of frozen scGPT embeddings for single-cell RNA-seq clustering'
+added: '2026-11-15'
+evidence: A refinement head maps cells into a clustering space using 5% labeled cells and structural guidance from unlabeled
+  cells.

@@ -1,0 +1,28 @@
+name: CIN-seq
+category: wet
+summary: Profiles genomic and transcriptomic features of rare chromosomal instability phenotypes in individual cells.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+input_sample:
+- live-cells
+reference:
+  doi: 10.1002/advs.202514238
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Su PR
+  last_author: Chien MP
+  pmid: '42037178'
+  pmcid: PMC13325660
+  title: Unraveling the Molecular Mechanisms Underlying Spontaneous Multipolar Mitosis Through CIN-seq
+added: '2026-11-15'
+evidence: CIN-seq is a targeted single-cell multiomics method used to study spontaneous multipolar mitosis and its genomic
+  and transcriptomic consequences.
+partition_unknown: not stated in the abstract

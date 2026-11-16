@@ -1,0 +1,20 @@
+name: scDEBGCL
+category: dry
+summary: Learns low-dimensional cell embeddings from single-cell RNA-seq using bipartite graph contrastive learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12915-026-02598-4
+  year: 2026
+  journal: BMC Biol
+  first_author: Wang J
+  last_author: Zheng CH
+  pmid: '41981652'
+  pmcid: PMC13188691
+  title: 'scDEBGCL: a deep embedding approach based on bipartite graph contrastive learning for single-cell RNA-seq data'
+added: '2026-11-15'
+evidence: scDEBGCL converts an expression matrix to a cell-gene graph and combines contrastive learning with graph and data
+  reconstruction.

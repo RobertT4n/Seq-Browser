@@ -1,0 +1,18 @@
+name: scCADI
+category: dry
+summary: Uses a conditional diffusion model to impute single-cell RNA-seq expression while incorporating cell metadata.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-026-00881-0
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Yan J
+  last_author: Guo F
+  pmid: '42853537'
+  title: 'scCADI: Cell-Aware Diffusion Model for Single-Cell RNA-seq Imputation'
+added: '2026-11-15'
+evidence: scCADI integrates observed data and metadata as conditional priors to guide expression recovery.

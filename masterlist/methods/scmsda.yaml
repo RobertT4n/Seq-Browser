@@ -1,0 +1,20 @@
+name: scMSDA
+category: dry
+summary: Clusters single-cell RNA-seq data using multi-view representation learning with semantic and distribution alignment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-025-00801-8
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Jiang C
+  last_author: Liang C
+  pmid: '41686408'
+  title: 'scMSDA: A Novel Multi-View Fusion Framework for Single-Cell RNA-seq Data Clustering with Semantic and Distribution
+    Alignment'
+added: '2026-11-15'
+evidence: scMSDA combines adaptive-negative contrastive learning, centroid refinement and optimal transport-based alignment
+  for clustering.

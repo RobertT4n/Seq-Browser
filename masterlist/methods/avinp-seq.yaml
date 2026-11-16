@@ -1,0 +1,28 @@
+name: AviNP-seq
+category: wet
+summary: Uses nanopore sequencing, one-end-sufficient ligation and Cas9 linearization to assess AAV genome integrity, tandems
+  and impurities.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+species: []
+validated_system: []
+reference:
+  doi: 10.1177/10430342261454324
+  year: 2026
+  journal: Hum Gene Ther
+  first_author: Li GH
+  last_author: Zhang XB
+  pmid: '42283432'
+  title: 'AviNP-Seq: A Blindspot-Free Single-Molecule Framework for Unmasking AAV Genome Heterogeneity and Determining Packaging
+    Limits'
+added: '2026-11-15'
+evidence: AviNP-seq uses one-end-sufficient ligation and Cas9-RNP linearization to profile AAV genome integrity, tandem structures
+  and plasmid impurities.

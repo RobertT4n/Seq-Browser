@@ -1,0 +1,18 @@
+name: DoTT-ML
+category: dry
+summary: Detects and compares transcriptional readthrough between conditions using RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109039
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Levin M
+  last_author: Zhou Y
+  pmid: '41930502'
+  title: 'DoTT-ML: Condition-aware detection of transcriptional readthrough from RNA-seq with optional ML-based prioritization'
+added: '2026-11-15'
+evidence: DoTT-ML extends gene annotations downstream and applies differential analysis, with optional machine-learning prioritization.

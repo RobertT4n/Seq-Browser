@@ -1,0 +1,23 @@
+name: optoRibo-seq
+category: wet
+summary: Uses photoactivatable proximity labeling of ribosomes to profile translation in specified subcellular locations.
+readouts:
+- translation
+resolution:
+- subcellular
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1073/pnas.2519235123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wang R
+  last_author: Zou P
+  pmid: '42160336'
+  title: OptoRibo-seq for spatiotemporally resolved mapping of the local protein translatome
+added: '2026-11-15'
+evidence: Photoactivatable enzyme-mediated proximity labeling of ribosomes enabled mapping of the endoplasmic reticulum-proximal
+  translatome.

@@ -1,0 +1,23 @@
+name: HistoMap
+category: dry
+summary: Reconstructs single-cell expression profiles from bulk RNA-seq and maps them to tissue coordinates using transcriptomic
+  references and histology.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms27125259
+  year: 2026
+  journal: Int J Mol Sci
+  first_author: He J
+  last_author: Cao L
+  pmid: '42352990'
+  title: 'HistoMap: Reconstructing Spatially Resolved Single-Cell Profiles from Bulk RNA-Seq to Decipher the Immune-Excluded
+    Microenvironment in Colon Cancer'
+added: '2026-11-15'
+evidence: HistoMap uses a variational autoencoder to reconstruct cell profiles and a histological vision transformer to map
+  cells to tissue coordinates.

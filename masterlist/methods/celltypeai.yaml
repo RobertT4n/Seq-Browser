@@ -1,0 +1,20 @@
+name: CellTypeAI
+category: dry
+summary: Annotates cell types in single-cell RNA-seq data using locally hosted generative AI and retrieval augmented generation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag425
+  year: 2026
+  journal: Bioinformatics
+  first_author: Daw RH
+  last_author: Grainger JR
+  pmid: '42635202'
+  pmcid: PMC13501282
+  title: 'CellTypeAI: cell annotation for scRNA-seq using local generative-AI'
+added: '2026-11-15'
+evidence: CellTypeAI uses local generative AI models enhanced by retrieval augmented generation for tissue-context-dependent
+  cell annotation.

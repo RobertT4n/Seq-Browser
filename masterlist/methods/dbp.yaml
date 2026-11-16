@@ -1,0 +1,21 @@
+name: DBP
+full_name: Deep Beta Process
+category: dry
+summary: Extracts interpretable factors from single-cell transcriptomic data while adaptively selecting their number and correcting
+  batch effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzaf117
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Liu R
+  last_author: Ying X
+  pmid: '41298306'
+  pmcid: PMC13686767
+  title: 'DBP: Adaptive and Interpretable Factor Analysis for Single-cell RNA-seq Data with Deep Beta Processes'
+added: '2026-11-15'
+evidence: DBP uses a stick-breaking Beta process for factor selection and adversarial learning for batch correction.

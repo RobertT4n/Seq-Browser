@@ -1,0 +1,19 @@
+name: SPAE
+full_name: Sinusoidal and Piecewise AutoEncoder
+category: dry
+summary: Characterizes cell cycle dynamics and cell states in single-cell RNA-seq data using a piecewise autoencoder.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzag074
+  year: 2026
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Yi J
+  last_author: Zhou X
+  pmid: '42525388'
+  title: 'SPAE: Deciphering Cell Cycle Dynamics and Cell States in Single-cell RNA-seq Data'
+added: '2026-11-15'
+evidence: SPAE characterizes cell cycle dynamics and can facilitate removal of cell cycle effects from gene expression data.

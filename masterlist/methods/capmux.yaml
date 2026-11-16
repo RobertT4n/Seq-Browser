@@ -1,0 +1,21 @@
+name: CapMux
+category: dry
+summary: Demultiplexes split-pool single-cell RNA-seq reads into sample-resolved outputs using barcode layouts and sub-library
+  indices.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2026.1846065
+  year: 2026
+  journal: Front Bioinform
+  first_author: Baronas D
+  last_author: Baronas D
+  pmid: '42369763'
+  pmcid: PMC13303704
+  title: 'CapMux: a Snakemake pipeline for early demultiplexing of split-pool scRNA-seq data into sample-resolved outputs'
+added: '2026-11-15'
+evidence: CapMux processes BCL or FASTQ files and reconstructs sample identity using sub-library indices and experiment-specific
+  barcoding plate layouts.

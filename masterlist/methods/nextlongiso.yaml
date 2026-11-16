@@ -1,0 +1,24 @@
+name: NextLongIso
+category: dry
+summary: Integrates transcript discovery and analyses of isoform and transcript regulation from long-read RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btag518
+  year: 2026
+  journal: Bioinformatics
+  first_author: Tan J
+  last_author: Sun Y
+  pmid: '42544764'
+  pmcid: PMC13439700
+  title: 'NextLongIso: a comprehensive Nextflow pipeline for multi-dimensional long-read RNA-seq analysis'
+added: '2026-11-15'
+evidence: NextLongIso analyzes alternative splicing, isoform switching, transcript boundaries, and transposable element-associated
+  transcription in PacBio and ONT datasets.

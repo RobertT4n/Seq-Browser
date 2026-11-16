@@ -1,0 +1,19 @@
+name: scZGA
+category: dry
+summary: Clusters single-cell RNA-seq data using a zero-inflated negative binomial model and graph-based representations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-026-06503-2
+  year: 2026
+  journal: BMC Bioinformatics
+  first_author: Kan Y
+  last_author: Zhou Z
+  pmid: '42215865'
+  pmcid: PMC13425930
+  title: 'scZGA: a novel model based on ZINB distribution and graph attention for scRNA-seq data clustering'
+added: '2026-11-15'
+evidence: scZGA combines a ZINB model, a correlation-based graph autoencoder, and a self-optimizing clustering algorithm.

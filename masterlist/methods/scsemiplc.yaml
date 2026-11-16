@@ -1,0 +1,21 @@
+name: scSemiPLC
+category: dry
+summary: Annotates single-cell RNA-seq data using semi-supervised learning with clustering-derived pseudo-labels.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.00223-25
+  year: 2026
+  journal: mSystems
+  first_author: Ma Q
+  last_author: Li W
+  pmid: '41358754'
+  pmcid: PMC12817951
+  title: 'scSemiPLC: a semi-supervised learning framework for annotating single-cell RNA-Seq data by generating pseudo-labels
+    through clustering'
+added: '2026-11-15'
+evidence: scSemiPLC uses existing labels to guide clustering and applies pseudo-labels and consistency regularization to unlabeled
+  cells.

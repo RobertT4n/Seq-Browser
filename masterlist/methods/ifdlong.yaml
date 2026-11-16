@@ -1,0 +1,23 @@
+name: IFDlong
+category: dry
+summary: Detects and quantifies isoform and fusion transcripts from bulk or single-cell long-read RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s13059-026-04023-z
+  year: 2026
+  journal: Genome Biol
+  first_author: Wang W
+  last_author: Liu S
+  pmid: '41851882'
+  pmcid: PMC13113378
+  title: 'IFDlong: a model-based isoform and fusion detector for accurate annotation and quantification of long-read RNA-seq
+    data'
+added: '2026-11-15'
+evidence: IFDlong annotates long reads, identifies novel isoforms, quantifies expression and profiles fusion transcripts.

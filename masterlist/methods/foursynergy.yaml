@@ -1,0 +1,19 @@
+name: fourSynergy
+category: dry
+summary: Calls near-bait 4C-seq chromatin interactions using a weighted ensemble of existing analysis tools.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13040-026-00596-4
+  year: 2026
+  journal: BioData Min
+  first_author: Wind SM
+  last_author: Walter C
+  pmid: '42596013'
+  pmcid: PMC13474968
+  title: 'fourSynergy: ensemble-based interaction calling on 4C-seq data using gradient-free optimization'
+added: '2026-11-15'
+evidence: fourSynergy optimizes weights for a voting ensemble of 4C-seq interaction-calling algorithms.

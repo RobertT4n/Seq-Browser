@@ -1,0 +1,28 @@
+name: HTGTS-TCR-seq
+full_name: high-throughput Genome-wide translocation sequencing-based TCR sequencing
+category: wet
+summary: Enriches and sequences TCR rearrangements to quantify repertoire diversity in mouse and human T cells.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+species:
+- mouse
+- human
+validated_system:
+- primary-cells
+chemistry: []
+reference:
+  doi: 10.1002/advs.202509497
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Luo R
+  last_author: Dai HQ
+  pmid: '41144713'
+  pmcid: PMC12822386
+  title: HTGTS-TCR-Seq for Profiling of Mouse and Human T-Cell Receptor α and β Gene Rearrangements and Diversity
+added: '2026-11-15'
+evidence: HTGTS-TCR-seq uses a limited set of J or V region primers to enrich V(D)J recombination products, including productive
+  and nonproductive rearrangements.
+chemistry_unknown: chemistry tags not assigned from the abstract (Codex draft); needs review

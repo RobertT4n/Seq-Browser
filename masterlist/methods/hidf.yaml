@@ -1,0 +1,23 @@
+name: HIDF
+full_name: Hierarchical Iterative Deconvolution Framework
+category: dry
+summary: Deconvolves spatial transcriptomics data using a hierarchical single-cell reference to infer spatial distributions
+  of cell types and subtypes.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.202514073
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Zou Z
+  last_author: Luo J
+  pmid: '41387270'
+  pmcid: PMC12948217
+  title: 'HIDF: Integrating Tree-Structured scRNA-seq Heterogeneity for Hierarchical Deconvolution of Spatial Transcriptomics'
+added: '2026-11-15'
+evidence: HIDF uses cluster-tree-guided iterative optimization and spatial and cross-level regularization to resolve cellular
+  heterogeneity.

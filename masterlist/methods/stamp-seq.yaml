@@ -1,0 +1,32 @@
+name: Stamp-seq
+category: wet
+summary: Uses spatial barcodes on a sequencing chip to map single-nucleus transcriptomes and BCR clonotypes in tissue.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+input_sample:
+- nuclei
+reference:
+  doi: 10.1038/s41421-025-00861-6
+  year: 2026
+  journal: Cell Discov
+  first_author: Pan Y
+  last_author: Tian C
+  pmid: '41644517'
+  pmcid: PMC12877202
+  title: Integrating single-nucleus barcoding with spatial transcriptomics via Stamp-seq to reveal immunotherapy response-enhancing
+    functional modules in NSCLC
+added: '2026-11-15'
+evidence: Stamp-seq labels single nuclei with spatial barcodes on a high-density sequencing chip and was used to spatially
+  resolve BCR clonotypes.

@@ -1,0 +1,19 @@
+name: DiTSim
+category: dry
+summary: Simulates single-cell ATAC-seq data with known cell-type annotations using diffusion transformers.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-025-00773-9
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Dong S
+  last_author: Chen S
+  pmid: '41120648'
+  title: 'DiTSim: A Diffusion-Transformers Based Single-Cell ATAC-seq Data Simulator'
+added: '2026-11-15'
+evidence: DiTSim fits the distribution of real scATAC-seq datasets and synthesizes annotated samples for evaluating analysis
+  pipelines.

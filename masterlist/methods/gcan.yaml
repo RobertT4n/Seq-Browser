@@ -1,0 +1,18 @@
+name: GCAN
+category: dry
+summary: Learns single-cell RNA-seq representations using adaptive feature selection and a hybrid graph autoencoder for clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2026.109295
+  year: 2026
+  journal: Comput Biol Chem
+  first_author: Bai J
+  last_author: Xu L
+  pmid: '42594572'
+  title: 'GCAN: A data feature learning method for scRNA-seq data'
+added: '2026-11-15'
+evidence: GCAN combines adaptive highly variable gene selection with local and global graph-based modeling.

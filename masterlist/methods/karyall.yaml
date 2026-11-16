@@ -1,0 +1,22 @@
+name: KaryALL
+category: dry
+summary: Classifies selected B-ALL ploidy states and chromosome 21 gains using RNA-seq-derived features.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/hem3.70366
+  year: 2026
+  journal: Hemasphere
+  first_author: Wolgast N
+  last_author: Bastian L
+  pmid: '42007446'
+  pmcid: PMC13084704
+  title: 'IntegrateALL: An end-to-end RNA-seq analysis pipeline for multilevel data extraction and interpretable subtype classification
+    in B-precursor ALL'
+added: '2026-11-15'
+evidence: KaryALL uses normalized expression and minor-allele-frequency features to distinguish selected ploidy states and
+  chromosome 21 gains.

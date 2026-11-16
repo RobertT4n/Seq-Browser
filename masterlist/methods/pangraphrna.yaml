@@ -1,0 +1,20 @@
+name: PanGraphRNA
+category: dry
+summary: Analyzes RNA-seq data against graph pangenome references through a collection of workflows.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/jipb.70231
+  year: 2026
+  journal: J Integr Plant Biol
+  first_author: Bu Y
+  last_author: Ma C
+  pmid: '41858069'
+  pmcid: PMC13327034
+  title: 'PanGraphRNA: An efficient and flexible bioinformatics platform for graph pangenome-based RNA-seq data analysis'
+added: '2026-11-15'
+evidence: PanGraphRNA provides modules for constructing and applying graph pangenomes and improved read alignment and gene
+  expression quantification in Arabidopsis datasets.

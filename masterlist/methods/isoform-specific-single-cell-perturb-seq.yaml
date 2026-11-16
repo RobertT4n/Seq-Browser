@@ -1,0 +1,28 @@
+name: Isoform-Specific single-cell Perturb-Seq
+category: wet
+summary: Uses promoter-specific CRISPR interference and single-cell transcriptomics to study alternative promoter function.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system: []
+perturbation:
+- crispr-interference
+reference:
+  doi: 10.1093/nar/gkag118
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: King HE
+  last_author: Weatheritt RJ
+  pmid: '41728950'
+  pmcid: PMC12926921
+  title: Isoform-specific single-cell perturb-seq reveals distinct functions of alternative promoters in drug response
+added: '2026-11-15'
+evidence: The method leverages selective targeting of individual promoters within the same gene to analyze alternative promoter
+  function.
+partition_unknown: not stated in the abstract

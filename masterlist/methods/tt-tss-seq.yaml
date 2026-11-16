@@ -1,0 +1,28 @@
+name: TT-TSS-seq
+category: wet
+summary: Maps and quantifies transcription initiation sites in nascent RNA using transient metabolic labeling and optimized
+  TSS sequencing.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+species: []
+validated_system: []
+temporal:
+- metabolic-labeling
+reference:
+  doi: 10.1101/gr.280726.125
+  year: 2026
+  journal: Genome Res
+  first_author: Elgood Hunt E
+  last_author: van Werven FJ
+  pmid: '41702708'
+  pmcid: PMC12951945
+  title: Mapping and quantifying nascent transcript start sites using TT-TSS-seq
+added: '2026-11-15'
+evidence: TT-TSS-seq combines transient transcriptome sequencing with TSS sequencing to map initiation sites from nascent
+  transcripts.

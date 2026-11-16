@@ -1,0 +1,20 @@
+name: RAGER
+category: dry
+summary: Provides an automated workflow for joint analysis of RNA-seq and ATAC-seq data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0349941
+  year: 2026
+  journal: PLoS One
+  first_author: Liu Y
+  last_author: Lu L
+  pmid: '42172220'
+  pmcid: PMC13196991
+  title: 'RAGER: A user-friendly computational platform for integrated analysis of RNA-Seq and ATAC-seq data'
+added: '2026-11-15'
+evidence: RAGER integrates bioinformatics tools in an automated workflow for transcriptome and chromatin accessibility analysis.

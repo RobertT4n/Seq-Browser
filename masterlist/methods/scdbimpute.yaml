@@ -1,0 +1,18 @@
+name: scDBImpute
+category: dry
+summary: Imputes single-cell RNA-seq dropout values using combined linear and nonlinear branches.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2025.3636928
+  year: 2026
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Zhang L
+  last_author: Liu H
+  pmid: '41289139'
+  title: 'scDBImpute: Dual-Branch Imputation for Single-Cell RNA-Seq Data Dropouts'
+added: '2026-11-15'
+evidence: scDBImpute combines linear and nonlinear pipelines to recover expression values affected by dropouts.

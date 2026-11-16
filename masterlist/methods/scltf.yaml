@@ -1,0 +1,21 @@
+name: scLTF
+full_name: Single-cell Louvain-Transformer Framework for Large-scale Clustering
+category: dry
+summary: Combines Louvain clustering and Transformer-based self-training to cluster large single-cell RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0359153
+  year: 2026
+  journal: PLoS One
+  first_author: Yuan H
+  last_author: Fan M
+  pmid: '42784630'
+  pmcid: PMC13606938
+  title: 'scLTF: A self-training clustering framework for large-scale single-cell RNA-Seq data'
+added: '2026-11-15'
+evidence: scLTF selects representative cells from preliminary Louvain clusters and iteratively optimizes clustering with a
+  Transformer.

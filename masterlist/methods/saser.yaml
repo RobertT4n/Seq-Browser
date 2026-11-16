@@ -1,0 +1,21 @@
+name: saseR
+category: dry
+summary: Prioritizes expression and transcript usage outliers and detects aberrant splicing in bulk RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-03973-8
+  year: 2026
+  journal: Genome Biol
+  first_author: Segers A
+  last_author: Clement L
+  pmid: '41709279'
+  pmcid: PMC13019952
+  title: 'saseR: juggling offsets unlocks RNA-seq tools for fast and scalable differential usage, aberrant splicing and expression
+    retrieval'
+added: '2026-11-15'
+evidence: saseR prioritizes expression and usage outliers and is evaluated for aberrant splicing detection in short- and long-read
+  applications.

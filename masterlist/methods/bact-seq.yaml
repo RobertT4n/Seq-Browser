@@ -1,0 +1,31 @@
+name: BacT-Seq
+category: wet
+summary: Uses nanopore whole-genome sequencing of positive blood cultures to identify pathogens and predict antimicrobial
+  susceptibility.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/diagnostics16010133
+  year: 2026
+  journal: Diagnostics (Basel)
+  first_author: Azami ME
+  last_author: Santiago-Allexant E
+  pmid: '41515628'
+  pmcid: PMC12785933
+  title: 'BacT-Seq, a Nanopore-Based Whole-Genome Sequencing Workflow Prototype for Rapid and Accurate Pathogen Identification
+    and Resistance Prediction from Positive Blood Cultures: A Feasibility Study'
+added: '2026-11-15'
+evidence: BacT-Seq combines optimized DNA isolation from positive blood cultures with nanopore sequencing for pathogen identification
+  and antimicrobial susceptibility prediction.

@@ -1,0 +1,29 @@
+name: FIRST-seq
+category: wet
+summary: Uses nanopore cDNA sequencing and reverse-transcription signatures to profile RNA modifications and structure.
+readouts:
+- rna-modification
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-026-04115-w
+  year: 2026
+  journal: Genome Biol
+  first_author: Begik O
+  last_author: Novoa EM
+  pmid: '42218558'
+  pmcid: PMC13435471
+  title: 'FIRST-seq: a nanopore-based cDNA sequencing platform for RNA modification and structure profiling'
+added: '2026-11-15'
+evidence: FIRST-seq analyzes reverse-transcription signatures with nanopore cDNA sequencing and, coupled with DMS probing,
+  detects modifications and recapitulates RNA structures.

@@ -1,0 +1,27 @@
+name: SEPARATE-Seq
+category: wet
+summary: Distinguishes vascular from intratissue immune cells alongside single-cell RNA sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-026-72247-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Bardet PMR
+  last_author: Laoui D
+  pmid: '42026061'
+  pmcid: PMC13315217
+  title: Multiomics immune profiling of a patient-relevant orthotopic lung cancer model using SEPARATE-Seq
+added: '2026-11-15'
+evidence: SEPARATE-Seq enables partitioning of vascular and intratissue immune cells along with scRNA-seq and was applied
+  to an orthotopic lung cancer mouse model.
+partition_unknown: not stated in the abstract

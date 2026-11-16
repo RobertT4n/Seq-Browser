@@ -1,0 +1,21 @@
+name: ADInteractome
+category: dry
+summary: Infers Alzheimer's disease-associated gene interactions from neural networks trained on single-nucleus RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag601
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Wu Y
+  last_author: Xu Z
+  pmid: '42969854'
+  pmcid: PMC13725928
+  title: 'ADInteractome: discovering Alzheimer''s disease-associated gene interactions from single-nucleus RNA-seq data through
+    neural interaction states'
+added: '2026-11-15'
+evidence: ADInteractome extracts interaction patterns from neural networks trained to classify cells from Alzheimer's disease
+  and non-disease donors.

@@ -1,0 +1,20 @@
+name: Souporcell3
+category: dry
+summary: Demultiplexes pooled single-cell RNA-seq data using genotype-based clustering and iterative refinement.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag117
+  year: 2026
+  journal: Bioinformatics
+  first_author: Weerakoon M
+  last_author: Heaton H
+  pmid: '41808435'
+  pmcid: PMC13012599
+  title: 'Souporcell3: robust demultiplexing for high-donor single-cell RNA-seq datasets'
+added: '2026-11-15'
+evidence: An enhanced version of souporcell demultiplexes up to 64 donors using K-Harmonic Means and iterative cluster refinement.

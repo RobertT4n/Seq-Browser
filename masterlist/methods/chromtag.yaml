@@ -1,0 +1,23 @@
+name: ChromTag
+category: dry
+summary: Provides interactive differential peak analysis, functional interpretation, and visualization for CUT&Tag and ChIP-seq
+  profiling data.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2026.1805772
+  year: 2026
+  journal: Front Bioinform
+  first_author: Xu S
+  last_author: Yang J
+  pmid: '42428152'
+  pmcid: PMC13346215
+  title: 'ChromTag: an interactive R-shiny platform for analysis and visualization of CUT&amp;Tag and ChIP-seq peak profiling
+    data'
+added: '2026-11-15'
+evidence: ChromTag analyzes preprocessed peak count matrices with differential peak detection, gene annotation, enrichment
+  analysis, and visualization.

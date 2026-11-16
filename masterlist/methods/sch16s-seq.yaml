@@ -1,0 +1,29 @@
+name: scH16S-seq
+full_name: single-cell host-bacterial 16S co-sequencing
+category: wet
+summary: Couples single-cell host transcriptomes with bacterial 16S signals to identify bacterial signal-enriched host-cell
+  states.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1002/advs.78127
+  year: 2026
+  journal: Adv Sci (Weinh)
+  first_author: Li Y
+  last_author: Wu X
+  pmid: '42814413'
+  pmcid: PMC13626163
+  title: scH16S-Seq Maps Klebsiella pneumoniae-Associated Myeloid States and Reveals a CD38-NAD Immunometabolic Axis That
+    Impairs Lysosomal Acidification in Sepsis
+added: '2026-11-15'
+evidence: ScH16S-seq couples host transcriptomes with barcode-resolved bacterial 16S-derived UMI signals.
+partition_unknown: not stated in the abstract

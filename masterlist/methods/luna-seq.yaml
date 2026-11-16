@@ -1,0 +1,32 @@
+name: LUNa-seq
+full_name: lentiviral UMI-guided Nanopore sequencing
+category: wet
+summary: Reconstructs targeted lentiviral sequences and estimates rare sequence composition using UMI tagging, nested PCR
+  and nanopore sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- human
+validated_system: []
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12864-026-13026-w
+  year: 2026
+  journal: BMC Genomics
+  first_author: Zhang YY
+  last_author: Zhang XB
+  pmid: '42995534'
+  pmcid: PMC13741733
+  title: LUNa-seq enables selective single-end UMI tagging for high-fidelity long-amplicon reconstruction and rare-species
+    detection
+added: '2026-11-15'
+evidence: LUNa-seq combines single-end UMI tagging with three-round nested PCR and was validated across lentiviral constructs
+  and human cell types.

@@ -1,0 +1,20 @@
+name: cellGeometry
+category: dry
+summary: Deconvolves bulk RNA-seq samples using single-cell reference signatures and non-negative geometric projection.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-75762-7
+  year: 2026
+  journal: Nat Commun
+  first_author: Lau R
+  last_author: Lewis MJ
+  pmid: '42642367'
+  pmcid: PMC13507090
+  title: 'cellGeometry: ultra-fast single-cell deconvolution of bulk RNA-Seq using a geometric solution'
+added: '2026-11-15'
+evidence: cellGeometry uses non-negative geometric deconvolution and was validated against bulk RNA blood and tissue samples.

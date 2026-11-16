@@ -1,0 +1,21 @@
+name: PipeSeq
+category: dry
+summary: Automates RNA-seq processing from read alignment and transcript assembly through differential gene expression analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.18699/vjgb-26-34
+  year: 2026
+  journal: Vavilovskii Zhurnal Genet Selektsii
+  first_author: Nerezenko AM
+  last_author: Chekunova EM
+  pmid: '42111799'
+  pmcid: PMC13150742
+  title: Development and validation of the PipeSeq program for RNA-seq data analysis in the Chlamydomonas reinhardtii as a
+    model
+added: '2026-11-15'
+evidence: PipeSeq combines read alignment, transcript assembly, transcript counting and statistical analysis of differential
+  gene expression.

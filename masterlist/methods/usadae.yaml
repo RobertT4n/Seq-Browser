@@ -1,0 +1,21 @@
+name: USADAE
+full_name: UnSupervised Adversarial Deconfounding AutoEncoder
+category: dry
+summary: Separates latent biological signals from hidden confounders in RNA-seq data using an adversarial autoencoder.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag261
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Chen X
+  last_author: Liu X
+  pmid: '42218722'
+  pmcid: PMC13222517
+  title: 'USADAE: a deep learning approach to disentangle hidden covariates in RNA-seq data'
+added: '2026-11-15'
+evidence: USADAE encodes RNA-seq data into biological and confounder latent spaces to support corrected differential expression
+  and eQTL analysis.

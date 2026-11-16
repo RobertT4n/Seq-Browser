@@ -1,0 +1,37 @@
+name: fCUT&Tag-Seq
+full_name: fungal Cleavage Under Targets and Tagmentation-Sequencing
+category: wet
+summary: Profiles histone modifications and chromatin-binding proteins in fungi using an optimized CUT&Tag protocol.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+input_sample:
+- nuclei
+targets:
+- H3K9me3
+- H3K27me3
+- H3K4me3
+- H3K18ac
+- Gcn5
+reference:
+  doi: 10.1002/mlf2.70060
+  year: 2026
+  journal: mLife
+  first_author: Wang H
+  last_author: Shan CM
+  pmid: '42079449'
+  pmcid: PMC13131329
+  title: 'fCUT&amp;Tag-Seq: An optimized CUT&amp;Tag-based method for high-resolution profiling of histone modifications and
+    chromatin-binding proteins in fungi'
+added: '2026-11-15'
+evidence: The protocol uses protoplast preparation and nuclear extraction and was applied to histone marks and Gcn5 in fungal
+  species.

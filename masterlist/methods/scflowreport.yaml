@@ -1,0 +1,21 @@
+name: scFlowReport
+category: dry
+summary: Coordinates comparative downstream analyses of annotated single-cell RNA-seq data and compiles the results into a
+  report.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/biom16091288
+  year: 2026
+  journal: Biomolecules
+  first_author: Park N
+  last_author: Kim J
+  pmid: '42793120'
+  pmcid: PMC13604200
+  title: 'scFlowReport: A Reproducible Workflow for Comparative Downstream Biological Analysis of Single-Cell RNA-seq Data'
+added: '2026-11-15'
+evidence: The workflow runs differential expression, enrichment, regulon export, and cell-cell communication analyses under
+  a shared comparison.

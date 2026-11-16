@@ -1,0 +1,20 @@
+name: DeSCENT
+category: dry
+summary: Generates reference-informed cellular expression profiles from bulk RNA-seq and combines them with bulk representations
+  for cancer survival prediction.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag810
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhao Y
+  last_author: He Y
+  pmid: '42993079'
+  title: 'DeSCENT: Deconvolutional Single-Cell RNA-seq Enhances Transcriptome-based Cancer Survival Analysis'
+added: '2026-11-15'
+evidence: DeSCENT combines reference-informed cellular profiles and bulk RNA-seq representations for survival prediction.

@@ -1,0 +1,20 @@
+name: FFixR
+category: dry
+summary: Filters formalin-induced artifacts from RNA-seq variant calls using a machine learning model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag405
+  year: 2026
+  journal: Bioinformatics
+  first_author: Livne O
+  last_author: Yizhak K
+  pmid: '42340671'
+  pmcid: PMC13335478
+  title: 'FFixR: a machine learning framework for accurate somatic mutation calling from FFPE RNA-seq data in cancer'
+added: '2026-11-15'
+evidence: FFixR uses allele-specific read counts, variant features, and mutational signature probabilities to filter FFPE-induced
+  artifacts.
