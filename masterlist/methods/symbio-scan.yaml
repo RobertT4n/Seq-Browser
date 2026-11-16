@@ -1,0 +1,23 @@
+name: SYMBIO-SCAN
+category: dry
+summary: Recovers nearly full-length bacterial symbiont 16S rRNA gene sequences from long reads for identification and phylogenetic
+  analysis.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.10.26.761872
+  year: 2026
+  journal: bioRxiv
+  first_author: Croci C
+  last_author: Castelli M
+  title: SYMBIO-SCAN, a full-length 16S rRNA gene-based workflow optimized for bacterial symbiont detection and discovery
+    from long read sequencing
+added: '2026-11-15'
+evidence: The workflow recovered nearly full-length 16S rRNA gene sequences of symbionts from long reads for identification
+  and phylogenetic analyses.

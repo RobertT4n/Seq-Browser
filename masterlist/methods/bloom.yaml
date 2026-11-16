@@ -1,0 +1,19 @@
+name: BLOOM
+category: dry
+summary: Generates developmental cell-expression distributions at queried stages using temporal context and developmental
+  and regulatory priors.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.761895
+  year: 2026
+  journal: bioRxiv
+  first_author: Liang Z
+  last_author: Yu L
+  title: 'BLOOM: Biologically Informed Flow Matching for Transcriptomic Virtual Embryo Modeling'
+added: '2026-11-15'
+evidence: BLOOM uses conditional flow matching to generate cell-expression distributions at developmental stages in either
+  temporal direction.

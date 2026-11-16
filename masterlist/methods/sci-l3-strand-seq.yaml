@@ -1,0 +1,26 @@
+name: sci-L3-Strand-seq
+category: wet
+summary: Uses combinatorial indexing and linear amplification of DNA template strands to map mitotic crossovers and genome
+  instability in single cells.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- combinatorial-indexing
+reference:
+  doi: 10.1093/nar/gkag119
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Chovanec P
+  last_author: Yin Y
+  pmid: '41674384'
+  pmcid: PMC12895072
+  title: High-throughput mapping of spontaneous mitotic crossover and genome instability events with sci-L3-Strand-seq
+added: '2026-11-15'
+evidence: The method combines combinatorial indexing with linear amplification for single-cell DNA template strand sequencing
+  and distinguishes mitotic crossover outcomes.

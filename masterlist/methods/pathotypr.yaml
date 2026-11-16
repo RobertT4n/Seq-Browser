@@ -1,0 +1,19 @@
+name: Pathotypr
+category: dry
+summary: Classifies tuberculosis lineages and detects resistance markers from sequencing reads or assemblies without alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3201/eid3211.261074
+  year: 2026
+  journal: Emerg Infect Dis
+  first_author: Ruiz-Rodriguez P
+  last_author: Coscollá M
+  pmid: '42912449'
+  pmcid: PMC13715872
+  title: Alignment-Free Tool for Assemblies and Reads in Genomic Surveillance of Tuberculosis
+added: '2026-11-15'
+evidence: Pathotypr uses 2,145 markers derived from 26,813 genomes to improve lineage coverage and detect resistance markers.

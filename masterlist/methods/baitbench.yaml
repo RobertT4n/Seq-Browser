@@ -1,0 +1,18 @@
+name: BaitBench
+category: dry
+summary: Designs, assesses and simulates hybridization capture probes and tracks simulated reads to identify sources of errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.24.761557
+  year: 2026
+  journal: bioRxiv
+  first_author: Infante AM
+  last_author: Cross ST
+  title: 'BaitBench: a comprehensive tool for building, assessing, and predicting outcomes for hybrid capture enrichment probes'
+added: '2026-11-15'
+evidence: BaitBench integrates probe design, assessment and capture simulation, tracking simulated reads to report sources
+  of false positives and false negatives.

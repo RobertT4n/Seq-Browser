@@ -1,0 +1,21 @@
+name: ntRoot
+category: dry
+summary: Infers human global and local ancestry from genome assemblies or sequencing reads using an alignment-free variant
+  reference framework.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbaf287
+  year: 2025
+  journal: Bioinform Adv
+  first_author: Warren RL
+  last_author: Birol I
+  pmid: '41383407'
+  pmcid: PMC12695050
+  title: 'ntRoot: computational inference of human ancestry at scale from genomic data'
+added: '2026-11-15'
+evidence: ntRoot uses a Bloom filter to query genomic inputs against a variant reference panel and infer global and local
+  ancestry.

@@ -1,0 +1,23 @@
+name: DirectClean
+category: dry
+summary: Preprocesses Oxford Nanopore direct-cDNA reads by removing artifacts and splitting recoverable chimeric reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nargab/lqag132
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Guo Q
+  last_author: Yang R
+  pmid: '42966957'
+  pmcid: PMC13722937
+  title: 'DirectClean: artifact-aware preprocessing and read rescue for Oxford Nanopore direct-cDNA transcriptome sequencing'
+added: '2026-11-15'
+evidence: DirectClean integrates strand orientation, artifact removal and junction-level splitting of recoverable chimeric
+  reads.

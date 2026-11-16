@@ -1,0 +1,19 @@
+name: Collapsed Site Coalescent
+category: dry
+summary: Models genealogies of paired paralogous sites to support inference of interlocus gene conversion and adaptive divergence
+  between segmental duplicates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.23.761411
+  year: 2026
+  journal: bioRxiv
+  first_author: LeMay S
+  last_author: Harpak A
+  title: Collapsed Site Coalescent Facilitates Detection of Adaptive Divergences Between Segmental Duplicates
+added: '2026-11-15'
+evidence: The model treats each pair of paralogous sites as a collapsed pseudo-site and supports estimation of interlocus
+  gene conversion parameters from population samples.

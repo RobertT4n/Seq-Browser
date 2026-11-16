@@ -1,0 +1,19 @@
+name: GESV
+full_name: Genome-Edited Sequence Variants
+category: dry
+summary: Extracts and profiles edited sequence variants directly from genome-editing amplicon data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1007/s11032-026-01736-8
+  year: 2026
+  journal: Mol Breed
+  first_author: Hu P
+  last_author: Xie K
+  pmid: '42948207'
+  title: 'GESV: a bioinformatic pipeline for genome editing sequence variants analysis'
+added: '2026-11-15'
+evidence: GESV processes amplicon reads into unique sequences, filters potential errors and calls sequence modifications.

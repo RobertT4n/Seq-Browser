@@ -1,0 +1,18 @@
+name: RNA-SpecFlow
+category: dry
+summary: Generates histology images conditioned on RNA representations using spectral fusion across feature scales.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.26.761914
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu Y
+  last_author: He W
+  title: 'RNA-SpecFlow: RNA-Conditioned Spectral Flow for Histology Synthesis'
+added: '2026-11-15'
+evidence: RNA-SpecFlow conditions a histology generator on RNA representations and modulates low- and high-frequency feature
+  bands.
