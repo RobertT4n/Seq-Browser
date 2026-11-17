@@ -1,0 +1,19 @@
+name: VCF.Filter
+category: dry
+summary: Supports interactive filtering and annotation of genetic variants to prioritize disease-linked candidates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx425
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Müller H
+  last_author: Bock C
+  pmid: '28520890'
+  pmcid: PMC5570181
+  title: 'VCF.Filter: interactive prioritization of disease-linked genetic variants from sequencing data'
+added: '2026-11-15'
+evidence: VCF.Filter provides interactive variant filtering and annotation for genome, exome and panel sequencing data.

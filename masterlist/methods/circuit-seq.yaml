@@ -1,0 +1,28 @@
+name: Circuit-seq
+category: wet
+summary: Uses DNA transposition and nanopore sequencing to assemble and characterize plasmids.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+species: []
+validated_system: []
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1021/acssynbio.2c00126
+  year: 2022
+  journal: ACS Synth Biol
+  first_author: Emiliani FE
+  last_author: McKenna A
+  pmid: '35695379'
+  pmcid: PMC9295152
+  title: Multiplexed Assembly and Annotation of Synthetic Biology Constructs Using Long-Read Nanopore Sequencing
+added: '2026-11-15'
+evidence: Circuit-seq uses DNA transposition and Oxford Nanopore sequencing to generate full-length plasmid assemblies and
+  characterize epigenetic marks.

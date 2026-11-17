@@ -1,0 +1,25 @@
+name: SupTag
+full_name: Suppression Tagging
+category: wet
+summary: SupTag suppresses reverse-transcription-primer-derived byproduct DNA during poly-A tagging for whole-transcript amplification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.08.19.670999
+  year: 2025
+  journal: bioRxiv
+  first_author: Sasagawa Y
+  last_author: Nikaido I
+  title: Elucidation of the mechanism of byproduct DNA synthesis in whole-transcript amplification by poly-A tagging and development
+    of its specific suppression
+added: '2026-11-15'
+evidence: SupTag suppresses byproduct DNA formation during poly-A tagging, a whole-transcript amplification method used in
+  single-cell RNA-seq.
+partition_unknown: not stated in the abstract

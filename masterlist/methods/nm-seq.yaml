@@ -1,0 +1,24 @@
+name: Nm-seq
+category: wet
+summary: Maps RNA 2′-O-methylation sites transcriptome-wide at base precision using differential periodate reactivity.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system: []
+chemistry: []
+reference:
+  doi: 10.1038/nmeth.4294
+  year: 2017
+  journal: Nat Methods
+  first_author: Dai Q
+  last_author: He C
+  pmid: '28504680'
+  pmcid: PMC5712428
+  title: Nm-seq maps 2'-O-methylation sites in human mRNA with base precision
+added: '2026-11-15'
+evidence: Nm-seq uses differential reactivity to periodate oxidation to map thousands of Nm sites in human mRNA.
+chemistry_unknown: not stated in abstract

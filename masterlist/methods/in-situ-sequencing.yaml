@@ -1,0 +1,26 @@
+name: in situ sequencing
+category: wet
+summary: Performs targeted sequencing of RNA fragments in morphologically preserved cells and tissue.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- spatial
+scope: targeted
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.2563
+  year: 2013
+  journal: Nat Methods
+  first_author: Ke R
+  last_author: Nilsson M
+  pmid: '23852452'
+  title: In situ sequencing for RNA analysis in preserved tissue and cells
+added: '2026-11-15'
+evidence: The method enabled targeted RNA analysis, point mutation detection and multiplexed expression profiling in human
+  breast cancer tissue sections.

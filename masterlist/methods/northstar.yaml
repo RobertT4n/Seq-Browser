@@ -1,0 +1,19 @@
+name: northstar
+category: dry
+summary: Annotates known cell types in single-cell transcriptomic data while identifying novel cell states.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-020-71805-1
+  year: 2020
+  journal: Sci Rep
+  first_author: Zanini F
+  last_author: Quake SR
+  pmid: '32943655'
+  pmcid: PMC7499423
+  title: Northstar enables automatic classification of known and novel cell types from tumor samples
+added: '2026-11-15'
+evidence: northstar classifies cells using published data while identifying new cell states such as malignancies.

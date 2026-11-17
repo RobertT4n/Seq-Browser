@@ -1,0 +1,21 @@
+name: TRoLR
+full_name: Tandem Repeat outliers identified with Long Reads
+category: dry
+summary: Identifies and prioritizes tandem repeat expansion outliers from haplotype-resolved long-read genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.04.30.26352103
+  year: 2026
+  journal: medRxiv
+  first_author: Gibson SB
+  last_author: Miller DE
+  title: Genome-wide detection and clinical prioritization of tandem repeat outliers using long-read sequencing
+added: '2026-11-15'
+evidence: TRoLR identifies outlier expansions relative to population distributions and prioritizes them by genomic location
+  and comparison to known pathogenic loci.

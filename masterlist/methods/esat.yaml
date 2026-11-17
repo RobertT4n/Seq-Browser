@@ -1,0 +1,21 @@
+name: ESAT
+full_name: End Sequence Analysis Toolkit
+category: dry
+summary: Analyzes bulk and single-cell RNA end-sequencing data to extract transcript and cell-type information.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.207902.116
+  year: 2016
+  journal: Genome Res
+  first_author: Derr A
+  last_author: Garber M
+  pmid: '27470110'
+  pmcid: PMC5052061
+  title: End Sequence Analysis Toolkit (ESAT) expands the extractable information from single-cell RNA-seq data
+added: '2026-11-15'
+evidence: ESAT detected a shift to shorter 3-prime isoforms and identified cell types in single-cell end-sequencing data.

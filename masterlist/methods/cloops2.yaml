@@ -1,0 +1,19 @@
+name: cLoops2
+category: dry
+summary: Analyzes chromatin interaction data with modules for calling, comparing, annotating and visualizing loops.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1233
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Cao Y
+  last_author: Zhao K
+  pmid: '34928392'
+  pmcid: PMC8754654
+  title: 'cLoops2: a full-stack comprehensive analytical tool for chromatin interactions'
+added: '2026-11-15'
+evidence: cLoops2 includes modules for peak calling, loop calling, differential loop calling and loop annotation.

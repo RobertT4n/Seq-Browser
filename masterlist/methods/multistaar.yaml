@@ -1,0 +1,21 @@
+name: MultiSTAAR
+category: dry
+summary: Tests associations between rare variants and multiple traits in whole-genome sequencing studies using functional
+  annotations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-024-00764-8
+  year: 2025
+  journal: Nat Comput Sci
+  first_author: Li X
+  last_author: Lin X
+  pmid: '39920506'
+  pmcid: PMC11981678
+  title: A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies
+added: '2026-11-15'
+evidence: MultiSTAAR jointly analyzes multiple traits while accounting for relatedness, population structure and phenotype
+  correlations.

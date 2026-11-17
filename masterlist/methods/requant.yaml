@@ -1,0 +1,25 @@
+name: ReQuant
+category: dry
+summary: Imputes k-mer modification models from limited training contexts to support DNA modification calling from nanopore
+  current data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaf323
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Straver R
+  last_author: de Ridder J
+  pmid: '40347136'
+  pmcid: PMC12065109
+  title: 'ReQuant: improved base modification calling by k-mer value imputation'
+added: '2026-11-15'
+evidence: ReQuant imputes modification models from limited k-mer training data and was evaluated on methylation and glucosylation
+  calling.

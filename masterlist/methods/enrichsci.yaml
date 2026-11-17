@@ -1,0 +1,29 @@
+name: EnrichSci
+category: wet
+summary: Combines RNA FISH-guided enrichment with combinatorial indexing to profile target cell types by single-nucleus RNA
+  sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+- combinatorial-indexing
+- reverse-transcription
+reference:
+  doi: 10.1016/j.xgen.2025.101101
+  year: 2026
+  journal: Cell Genom
+  first_author: Liao A
+  last_author: Cao J
+  pmid: '41386229'
+  pmcid: PMC12985360
+  title: Transcript-guided targeted cell enrichment for scalable single-nucleus RNA sequencing
+added: '2026-11-15'
+evidence: EnrichSci combines hybridization chain reaction RNA FISH with combinatorial indexing and was applied to oligodendrocytes
+  in aging mouse brain.

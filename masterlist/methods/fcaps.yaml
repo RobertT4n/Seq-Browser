@@ -1,0 +1,19 @@
+name: FCAPS
+full_name: Fetal Copy-number Analysis through Maternal Plasma Sequencing
+category: dry
+summary: Detects large fetal chromosomal deletions and duplications from low-coverage maternal plasma whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/pd.4110
+  year: 2013
+  journal: Prenat Diagn
+  first_author: Chen S
+  last_author: Zhang X
+  pmid: '23592436'
+  title: A method for noninvasive detection of fetal large deletions/duplications by low coverage massively parallel sequencing
+added: '2026-11-15'
+evidence: FCAPS combines GC-bias correction, binary segmentation and dynamic thresholds to detect fetal deletions and duplications.

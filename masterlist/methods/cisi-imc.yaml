@@ -1,0 +1,19 @@
+name: CISI-IMC
+category: dry
+summary: Reconstructs spatial protein expression from composite imaging mass cytometry channels using compressed sensing.
+readouts:
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-66629-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Hosogane T
+  last_author: Bodenmiller B
+  pmid: '41309632'
+  pmcid: PMC12748953
+  title: Compressed sensing expands the multiplexity of imaging mass cytometry
+added: '2026-11-15'
+evidence: CISI-IMC recovers spatial expression of 16 marker proteins from images of eight composite channels.

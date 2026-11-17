@@ -1,0 +1,28 @@
+name: eeTAPS
+full_name: endonuclease enrichment TAPS
+category: wet
+summary: Enriches TAPS-converted methylated CpG sites for genome-wide DNA methylation detection at single-CpG resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system: []
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- taps
+reference:
+  doi: 10.1093/nar/gkab291
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Cheng J
+  last_author: Song CX
+  pmid: '33905495'
+  pmcid: PMC8287915
+  title: Endonuclease enrichment TAPS for cost-effective genome-wide base-resolution DNA methylation detection
+added: '2026-11-15'
+evidence: eeTAPS uses dihydrouracil-cleaving endonuclease digestion of TAPS-converted DNA to enrich methylated CpG sites.

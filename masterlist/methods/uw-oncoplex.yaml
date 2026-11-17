@@ -1,0 +1,29 @@
+name: UW-OncoPlex
+category: wet
+summary: Deeply sequences a targeted set of cancer genes to detect mutations, copy-number changes and rearrangements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry: []
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1016/j.jmoldx.2013.08.004
+  year: 2014
+  journal: J Mol Diagn
+  first_author: Pritchard CC
+  last_author: Walsh T
+  pmid: '24189654'
+  pmcid: PMC3873496
+  title: Validation and implementation of targeted capture and sequencing for the detection of actionable mutation, copy number
+    variation, and gene rearrangement in clinical cancer specimens
+added: '2026-11-15'
+evidence: UW-OncoPlex provided deep sequencing of 194 clinically relevant genes and was validated on clinical tumor specimens,
+  including FFPE samples.
+chemistry_unknown: not stated in abstract

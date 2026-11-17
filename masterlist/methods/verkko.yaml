@@ -1,0 +1,25 @@
+name: Verkko
+category: dry
+summary: Assembles phased diploid genomes by integrating accurate long reads, ultra-long reads and haplotype markers in a
+  graph.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1038/s41587-023-01662-6
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Rautiainen M
+  last_author: Koren S
+  pmid: '36797493'
+  pmcid: PMC10427740
+  title: Telomere-to-telomere assembly of diploid chromosomes with Verkko
+added: '2026-11-15'
+evidence: Verkko progressively simplifies an assembly graph using ultra-long reads and haplotype-specific markers to produce
+  phased diploid assemblies.

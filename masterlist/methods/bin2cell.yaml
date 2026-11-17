@@ -1,0 +1,21 @@
+name: Bin2cell
+category: dry
+summary: Reconstructs cells from high-resolution Visium HD bins using morphology segmentation and gene expression.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae546
+  year: 2024
+  journal: Bioinformatics
+  first_author: Polański K
+  last_author: Yayon N
+  pmid: '39250728'
+  pmcid: PMC11419951
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+added: '2026-11-15'
+evidence: Bin2cell reconstructs cells from 2 µm bins by combining morphology image segmentation with gene expression information.

@@ -1,0 +1,29 @@
+name: PALINCODE
+category: wet
+summary: Uses stochastic ternary CRISPR edits to record cell lineage in the genome for later sequencing.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+scope: targeted
+temporal:
+- molecular-recording
+species:
+- human
+validated_system:
+- cell-line
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.04.16.718941
+  year: 2026
+  journal: bioRxiv
+  first_author: Fathi M
+  last_author: McKenna A
+  title: 'PALINCODE: Recording cell lineage with ternary palindromic CRISPR bits'
+added: '2026-11-15'
+evidence: PALINCODE writes ternary CRISPR states over time and jointly reads lineage history and gene expression in a melanoma
+  model.
+partition_unknown: not stated in the abstract

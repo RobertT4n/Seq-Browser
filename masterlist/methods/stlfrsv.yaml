@@ -1,0 +1,20 @@
+name: stLFRsv
+category: dry
+summary: Detects and reconstructs germline structural variants using co-barcoded reads and haplotype phasing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.636239
+  year: 2021
+  journal: Front Genet
+  first_author: Guo J
+  last_author: Zhu H
+  pmid: '33815469'
+  pmcid: PMC8012683
+  title: 'stLFRsv: A Germline Structural Variant Analysis Pipeline Using Co-barcoded Reads'
+added: '2026-11-15'
+evidence: stLFRsv identifies abnormal gaps between co-barcoded reads to detect breakpoints and reconstruct complex structural
+  variants.

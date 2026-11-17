@@ -1,0 +1,19 @@
+name: SGAE
+category: dry
+summary: Identifies spatial domains in transcriptomics data using a Siamese graph autoencoder.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae003
+  year: 2024
+  journal: Gigascience
+  first_author: Cao L
+  last_author: Fang S
+  pmid: '38373745'
+  pmcid: PMC10939418
+  title: Deciphering spatial domains from spatially resolved transcriptomics with Siamese graph autoencoder
+added: '2026-11-15'
+evidence: SGAE constructs a graph from gene expression and spatial information to capture spatial patterns and generate clusters.

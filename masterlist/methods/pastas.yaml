@@ -1,0 +1,25 @@
+name: PASTAS
+full_name: Pooled AAV-CRISPR Screen with Targeted Amplicon Sequencing
+category: wet
+summary: Screens genetic drivers in vivo by sequencing CRISPR-generated variants at targeted loci in tumors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1101/153643
+  year: 2017
+  journal: bioRxiv
+  first_author: Wang G
+  last_author: Chen S
+  title: Pooled AAV-CRISPR Screen with Targeted Amplicon Sequencing
+added: '2026-11-15'
+evidence: An AAV-CRISPR library generated mouse liver tumors whose Cas9-generated variants were read out by molecular inversion
+  probe sequencing.

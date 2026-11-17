@@ -1,0 +1,29 @@
+name: FEST
+full_name: Functional Expansion of Specific T cells
+category: wet
+summary: Identifies antigen-specific T-cell clonotypes by sequencing T-cell receptors after short-term peptide stimulation.
+readouts:
+- immune-repertoire
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system:
+- primary-cells
+chemistry: []
+reference:
+  doi: 10.1158/2326-6066.cir-18-0129
+  year: 2018
+  journal: Cancer Immunol Res
+  first_author: Danilova L
+  last_author: Smith KN
+  pmid: '29895573'
+  pmcid: PMC6072595
+  title: 'The Mutation-Associated Neoantigen Functional Expansion of Specific T Cells (MANAFEST) Assay: A Sensitive Platform
+    for Monitoring Antitumor Immunity'
+added: '2026-11-15'
+evidence: FEST combines T-cell receptor sequencing of peptide-stimulated cultures with analysis of antigen-specific clonotypic
+  expansions.
+chemistry_unknown: not stated in abstract

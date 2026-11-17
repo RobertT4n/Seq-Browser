@@ -1,0 +1,30 @@
+name: ChIATAC
+category: wet
+summary: Combines proximity ligation and transposase accessibility profiling to map interactions between open chromatin loci
+  from low cell inputs.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+species:
+- invertebrate
+- human
+validated_system:
+- primary-cells
+chemistry:
+- proximity-ligation
+- tn5
+reference:
+  doi: 10.1038/s41467-023-35879-5
+  year: 2023
+  journal: Nat Commun
+  first_author: Chai H
+  last_author: Ruan Y
+  pmid: '36639381'
+  pmcid: PMC9839710
+  title: ChIATAC is an efficient strategy for multi-omics mapping of 3D epigenomes from low-cell inputs
+added: '2026-11-15'
+evidence: ChIATAC combines proximity ligation in ChIA-PET with transposase accessibility in ATAC-seq and was applied to primary
+  human T cells.

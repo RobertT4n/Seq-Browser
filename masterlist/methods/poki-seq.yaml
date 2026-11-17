@@ -1,0 +1,28 @@
+name: PoKI-seq
+full_name: pooled knockin sequencing
+category: wet
+summary: Combines pooled barcoded knockin screening with single-cell transcriptomics to measure cell abundance and state.
+readouts:
+- rna
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2020.03.039
+  year: 2020
+  journal: Cell
+  first_author: Roth TL
+  last_author: Marson A
+  pmid: '32302591'
+  pmcid: PMC7219528
+  title: Pooled Knockin Targeting for Genome Engineering of Cellular Immunotherapies
+added: '2026-11-15'
+evidence: PoKI-seq combines single-cell transcriptome analysis with pooled knockin screening in primary human T cells.
+partition_unknown: not stated in the abstract

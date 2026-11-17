@@ -1,0 +1,27 @@
+name: cfTAPS
+category: wet
+summary: Adapts TAPS to profile whole-genome DNA methylation and fragmentation in circulating cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system: []
+chemistry:
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- taps
+reference:
+  doi: 10.1126/sciadv.abh0534
+  year: 2021
+  journal: Sci Adv
+  first_author: Siejka-Zielińska P
+  last_author: Song CX
+  pmid: '34516908'
+  pmcid: PMC8442905
+  title: Cell-free DNA TAPS provides multimodal information for early cancer detection
+added: '2026-11-15'
+evidence: cfTAPS optimizes TAPS for whole-genome cell-free methylomes and provides methylation and DNA fragmentation information.

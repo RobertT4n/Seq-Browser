@@ -1,0 +1,19 @@
+name: Expedition
+category: dry
+summary: Detects and characterizes alternative splicing patterns in single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.molcel.2017.06.003
+  year: 2017
+  journal: Mol Cell
+  first_author: Song Y
+  last_author: Yeo GW
+  pmid: '28673540'
+  pmcid: PMC5540791
+  title: Single-Cell Alternative Splicing Analysis with Expedition Reveals Splicing Dynamics during Neuron Differentiation
+added: '2026-11-15'
+evidence: Expedition combines splice graph traversal, Bayesian assignment of modalities and visualization of modality changes.

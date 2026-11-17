@@ -1,0 +1,26 @@
+name: TIF-Seq2
+category: wet
+summary: Sequences paired 5′ and 3′ ends of individual RNA molecules to define transcript isoforms and boundaries.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkaa691
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Wang J
+  last_author: Pelechano V
+  pmid: '32816037'
+  pmcid: PMC7544212
+  title: TIF-Seq2 disentangles overlapping isoforms in complex human transcriptomes
+added: '2026-11-15'
+evidence: TIF-Seq2 simultaneously sequences both ends of individual RNA molecules and identified unannotated isoforms in K562
+  cells.

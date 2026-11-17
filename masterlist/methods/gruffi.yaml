@@ -1,0 +1,19 @@
+name: Gruffi
+category: dry
+summary: Identifies and filters stressed cells from organoid single-cell RNA sequencing datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.15252/embj.2022111118
+  year: 2022
+  journal: EMBO J
+  first_author: Vértesy Á
+  last_author: Knoblich JA
+  pmid: '35919947'
+  pmcid: PMC9433936
+  title: 'Gruffi: an algorithm for computational removal of stressed cells from brain organoid transcriptomic datasets'
+added: '2026-11-15'
+evidence: Gruffi uses granular functional filtering to identify and remove stressed cells from organoid scRNA-seq datasets.

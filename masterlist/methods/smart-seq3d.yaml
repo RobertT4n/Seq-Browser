@@ -1,0 +1,29 @@
+name: Smart-seq3D
+full_name: diffusion Smart-seq3
+category: wet
+summary: Combines dye diffusion and single-cell transcriptome profiling to infer cell positions along the spheroid core-periphery
+  axis.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-024-83989-x
+  year: 2025
+  journal: Sci Rep
+  first_author: Cougnoux A
+  last_author: Hausser J
+  pmid: '39885179'
+  pmcid: PMC11782488
+  title: Diffusion Smart-seq3 of breast cancer spheroids to explore spatial tumor biology and test evolutionary principles
+    of tumor heterogeneity
+added: '2026-11-15'
+evidence: Smart-seq3D combines dye diffusion, Smart-seq3xpress and probabilistic inference to profile single-cell transcriptomes
+  and positions in spheroids.
+partition_unknown: not stated in the abstract

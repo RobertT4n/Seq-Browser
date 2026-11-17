@@ -1,0 +1,21 @@
+name: SpEx
+full_name: Spatial Gene Expression
+category: dry
+summary: Predicts gene expression using a model that incorporates protein-mediated spatial chromatin interactions.
+readouts:
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-023-38865-5
+  year: 2023
+  journal: Sci Rep
+  first_author: Chiliński M
+  last_author: Plewczynski D
+  pmid: '37474564'
+  pmcid: PMC10359366
+  title: Enhanced performance of gene expression predictive models with protein-mediated spatial chromatin interactions
+added: '2026-11-15'
+evidence: SpEx adds cohesin-, CTCF- and RNAPOL2-mediated ChIA-PET interactions to a gene expression prediction model.

@@ -1,0 +1,21 @@
+name: NGseqBasic
+category: dry
+summary: Processes chromatin accessibility and ChIP sequencing data through mapping and quality control and produces visualisation
+  tracks.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/393413
+  year: 2018
+  journal: bioRxiv
+  first_author: Telenius J
+  last_author: Hughes JR
+  title: NGseqBasic - a single-command UNIX tool for ATAC-seq, DNaseI-seq, Cut-and-Run, and ChIP-seq data mapping, high-resolution
+    visualisation, and quality control
+added: '2026-11-15'
+evidence: NGseqBasic performs quality control, trimming and mapping for ATAC, DNaseI and ChIP sequencing data and produces
+  a UCSC data hub.

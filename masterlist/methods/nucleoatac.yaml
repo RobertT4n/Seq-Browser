@@ -1,0 +1,20 @@
+name: NucleoATAC
+category: dry
+summary: Uses ATAC-seq fragment patterns to infer nucleosome positions and occupancy.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.192294.115
+  year: 2015
+  journal: Genome Res
+  first_author: Schep AN
+  last_author: Greenleaf WJ
+  pmid: '26314830'
+  pmcid: PMC4617971
+  title: Structured nucleosome fingerprints enable high-resolution mapping of chromatin architecture within regulatory regions
+added: '2026-11-15'
+evidence: NucleoATAC uses the fragment-length and position fingerprint around nucleosomes to determine nucleosome positions
+  and occupancy.

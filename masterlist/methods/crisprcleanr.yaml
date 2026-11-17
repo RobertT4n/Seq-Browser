@@ -1,0 +1,22 @@
+name: CRISPRcleanR
+category: dry
+summary: Corrects gene-independent responses in CRISPR-Cas9 knockout screens to reduce false-positive essentiality calls.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- crispr-knockout
+reference:
+  doi: 10.1186/s12864-018-4989-y
+  year: 2018
+  journal: BMC Genomics
+  first_author: Iorio F
+  last_author: Garnett MJ
+  pmid: '30103702'
+  pmcid: PMC6088408
+  title: Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting
+added: '2026-11-15'
+evidence: CRISPRcleanR segments guide RNA fold changes across the genome to identify and correct gene-independent targeting
+  responses.

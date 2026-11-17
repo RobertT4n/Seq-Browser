@@ -1,0 +1,22 @@
+name: BASiCS
+full_name: Bayesian Analysis of Single-Cell Sequencing data
+category: dry
+summary: Uses a Bayesian model to separate technical and biological variability in single-cell gene expression and identify
+  variable genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004333
+  year: 2015
+  journal: PLoS Comput Biol
+  first_author: Vallejos CA
+  last_author: Richardson S
+  pmid: '26107944'
+  pmcid: PMC4480965
+  title: 'BASiCS: Bayesian Analysis of Single-Cell Sequencing Data'
+added: '2026-11-15'
+evidence: BASiCS estimates cell-specific normalization constants and decomposes expression-count variability into technical
+  and biological components.

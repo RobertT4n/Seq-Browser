@@ -1,0 +1,29 @@
+name: smHCR
+full_name: single-molecule hybridization chain reaction
+category: wet
+summary: Amplifies in situ fluorescence signals to image individual mRNAs in cells and deep within tissues.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1242/dev.138560
+  year: 2016
+  journal: Development
+  first_author: Shah S
+  last_author: Cai L
+  pmid: '27342713'
+  pmcid: PMC5004914
+  title: Single-molecule RNA detection at depth by hybridization chain reaction and tissue hydrogel embedding and clearing
+added: '2026-11-15'
+evidence: smHCR detected individual mRNAs in cell culture and zebrafish embryos and, with tissue clearing, in thick brain
+  slices.
+partition_unknown: not stated in the abstract

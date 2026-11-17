@@ -1,0 +1,23 @@
+name: AgIn
+category: dry
+summary: Combines PacBio sequencing kinetic information across neighboring CpG sites to infer methylation in repetitive elements.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btw360
+  year: 2016
+  journal: Bioinformatics
+  first_author: Suzuki Y
+  last_author: Morishita S
+  pmid: '27318202'
+  pmcid: PMC5039925
+  title: 'AgIn: measuring the landscape of CpG methylation of individual repetitive elements'
+added: '2026-11-15'
+evidence: AgIn combines kinetic information from neighboring CpG sites to improve confidence in their methylation states.

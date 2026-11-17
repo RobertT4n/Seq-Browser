@@ -1,0 +1,28 @@
+name: RNA SPOTs
+full_name: RNA sequential probing of targets
+category: wet
+summary: Profiles transcriptome-scale mRNA abundance using multiplexed single-molecule fluorescence in situ hybridization.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/nmeth.4500
+  year: 2017
+  journal: Nat Methods
+  first_author: Eng CL
+  last_author: Cai L
+  pmid: '29131163'
+  pmcid: PMC5819366
+  title: Profiling the transcriptome with RNA SPOTs
+added: '2026-11-15'
+evidence: RNA SPOTs scaled up multiplexed smFISH to profile 10,212 mRNAs in mouse fibroblast and embryonic stem cells.
+partition_unknown: not stated in the abstract

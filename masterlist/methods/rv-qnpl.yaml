@@ -1,0 +1,21 @@
+name: RV-QNPL
+full_name: rare variant quantitative nonparametric linkage
+category: dry
+summary: Tests rare-variant minor-allele sharing in pedigrees to map loci linked to quantitative traits.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41431-020-0703-z
+  year: 2020
+  journal: Eur J Hum Genet
+  first_author: Zhao L
+  last_author: Leal SM
+  pmid: '32740652'
+  pmcid: PMC7785016
+  title: A quantitative trait rare variant nonparametric linkage method with application to age-at-onset of Alzheimer's disease
+added: '2026-11-15'
+evidence: RV-QNPL evaluates minor-allele sharing and was applied to Alzheimer disease age-at-onset data in whole-genome-sequenced
+  pedigrees.

@@ -1,0 +1,29 @@
+name: reporter-ChIP-nexus
+category: wet
+summary: Measures RNA polymerase II occupancy on transfected reporter plasmids to assess how promoter sequences affect pausing.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+species:
+- invertebrate
+validated_system:
+- cell-line
+chemistry:
+- antibody-pull-down
+perturbation:
+- reporter-assay
+builds_on:
+- chip-nexus
+reference:
+  doi: 10.7554/elife.41461
+  year: 2019
+  journal: Elife
+  first_author: Shao W
+  last_author: Zeitlinger J
+  pmid: '31021316'
+  pmcid: PMC6483594
+  title: Reporter-ChIP-nexus reveals strong contribution of the <i>Drosophila</i> initiator sequence to RNA polymerase pausing
+added: '2026-11-15'
+evidence: ChIP-nexus captured endogenous Pol II pausing on transfected plasmids in Drosophila cells.

@@ -1,0 +1,24 @@
+name: GenapSys
+category: wet
+summary: Sequences DNA using electronic detection of individual base incorporations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- microbe
+- human
+validated_system:
+- cell-line
+chemistry: []
+reference:
+  doi: 10.1101/604553
+  year: 2019
+  journal: bioRxiv
+  first_author: Esfandyarpour H
+  last_author: Davis RW
+  title: High accuracy DNA sequencing on a small, scalable platform via electrical detection of single base incorporations
+added: '2026-11-15'
+evidence: The platform sequenced microbial genomes and targeted human DNA using electronic detection of single base incorporations.
+chemistry_unknown: not stated in abstract

@@ -1,0 +1,20 @@
+name: scGOAT-seq
+category: wet
+summary: Profiles functional glycan states with DNA-barcoded lectins alongside single-cell transcriptomes.
+readouts:
+- glycan
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/jimmun/vkag141.1626
+added: '2026-11-15'
+evidence: scGOAT-seq integrates DNA-barcoded recombinant human lectins with transcriptomic profiling and was applied to PBMCs.
+partition_unknown: not stated in the abstract

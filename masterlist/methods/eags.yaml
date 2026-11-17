@@ -1,0 +1,20 @@
+name: EAGS
+full_name: efficient and adaptive Gaussian smoothing
+category: dry
+summary: Imputes spatial transcriptomics expression profiles using adaptive weights derived from spatial and expression patterns.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giad097
+  year: 2024
+  journal: Gigascience
+  first_author: Lv T
+  last_author: Xu X
+  pmid: '38373746'
+  pmcid: PMC10939424
+  title: 'EAGS: efficient and adaptive Gaussian smoothing applied to high-resolved spatial transcriptomics'
+added: '2026-11-15'
+evidence: EAGS uses spatial and expression information to create adaptive smoothing weights and restore gene expression profiles.

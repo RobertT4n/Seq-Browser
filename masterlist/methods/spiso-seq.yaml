@@ -1,0 +1,28 @@
+name: spISO-seq
+full_name: sparse isoform sequencing
+category: wet
+summary: Uses droplet partitions containing sparse cDNA molecules to sequence RNA isoforms and analyze splicing coordination.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system: []
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/gr.230516.117
+  year: 2018
+  journal: Genome Res
+  first_author: Tilgner H
+  last_author: Snyder M
+  pmid: '29196558'
+  pmcid: PMC5793787
+  title: Microfluidic isoform sequencing shows widespread splicing coordination in the human transcriptome
+added: '2026-11-15'
+evidence: The droplet-based method sequences partitions of 10–200 molecules and requires less than 1 ng of input cDNA.

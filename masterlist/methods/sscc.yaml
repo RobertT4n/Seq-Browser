@@ -1,0 +1,20 @@
+name: SSCC
+full_name: Spearman subsampling-clustering-classification
+category: dry
+summary: Clusters large single-cell RNA sequencing datasets using subsampling, random projection and feature construction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2018.10.003
+  year: 2019
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Ren X
+  last_author: Zhang Z
+  pmid: '31202000'
+  pmcid: PMC6624216
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-scale Single Cell RNA-seq Data'
+added: '2026-11-15'
+evidence: SSCC is a clustering framework for large-scale scRNA-seq data based on random projection and feature construction.

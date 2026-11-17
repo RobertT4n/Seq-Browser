@@ -1,0 +1,26 @@
+name: SurfaceChIP-seq
+category: wet
+summary: A low-input microfluidic assay profiles genome-wide histone modifications in parallel.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry: []
+reference:
+  doi: 10.1126/sciadv.aar8187
+  year: 2018
+  journal: Sci Adv
+  first_author: Ma S
+  last_author: Lu C
+  pmid: '29675472'
+  pmcid: PMC5906078
+  title: Low-input and multiplexed microfluidic assay reveals epigenomic variation across cerebellum and prefrontal cortex
+added: '2026-11-15'
+evidence: SurfaceChIP-seq profiles genome-wide histone modifications using 30 to 100 cells per assay and was applied to nuclei
+  from mouse brain.
+chemistry_unknown: not stated in abstract

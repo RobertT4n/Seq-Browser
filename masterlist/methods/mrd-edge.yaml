@@ -1,0 +1,21 @@
+name: MRD-EDGE
+category: dry
+summary: Detects circulating tumor DNA variants from plasma whole-genome sequencing to monitor residual disease and tumor
+  burden.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41591-024-03040-4
+  year: 2024
+  journal: Nat Med
+  first_author: Widman AJ
+  last_author: Landau DA
+  pmid: '38877116'
+  pmcid: PMC7616143
+  title: Ultrasensitive plasma-based monitoring of tumor burden using machine-learning-guided signal enrichment
+added: '2026-11-15'
+evidence: MRD-EDGE uses machine-learning-guided enrichment to detect circulating tumor DNA single-nucleotide and copy-number
+  variants in plasma WGS.

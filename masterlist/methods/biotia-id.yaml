@@ -1,0 +1,21 @@
+name: BIOTIA-ID
+category: dry
+summary: Detects urinary pathogens and resistance markers from metagenomic sequencing data using a diagnostic pipeline.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/spectrum.02026-25
+  year: 2026
+  journal: Microbiol Spectr
+  first_author: Couto-Rodriguez M
+  last_author: Nagy-Szakal D
+  pmid: '42012213'
+  pmcid: PMC13227982
+  title: Analytical validation of a highly accurate and reliable next-generation sequencing-based urine assay
+added: '2026-11-15'
+evidence: BIOTIA-ID is an NGS-based urine diagnostic pipeline that uses machine learning to identify pathogens and resistance
+  markers.

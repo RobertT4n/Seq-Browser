@@ -1,0 +1,20 @@
+name: IMonitor
+full_name: Immune Monitor
+category: dry
+summary: Analyses T-cell and B-cell receptor repertoires using sequence realignment and correction of sequencing and PCR errors.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1534/genetics.115.176735
+  year: 2015
+  journal: Genetics
+  first_author: Zhang W
+  last_author: Liu X
+  pmid: '26297338'
+  pmcid: PMC4596662
+  title: 'IMonitor: A Robust Pipeline for TCR and BCR Repertoire Analysis'
+added: '2026-11-15'
+evidence: IMonitor uses realignment to identify V(D)J genes and alleles and corrects PCR and sequencing errors.

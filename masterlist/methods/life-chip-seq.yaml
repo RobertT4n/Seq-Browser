@@ -1,0 +1,24 @@
+name: LIFE-ChIP-seq
+full_name: low-input fluidized-bed enabled chromatin immunoprecipitation followed by sequencing
+category: wet
+summary: An automated microfluidic platform runs parallel low-input ChIP assays for histone modifications.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1021/acs.analchem.8b01541
+  year: 2018
+  journal: Anal Chem
+  first_author: Murphy TW
+  last_author: Lu C
+  pmid: '29842781'
+  pmcid: PMC6019315
+  title: Microfluidic Low-Input Fluidized-Bed Enabled ChIP-seq Device for Automated and Parallel Analysis of Histone Modifications
+added: '2026-11-15'
+evidence: LIFE-ChIP-seq runs multiple ChIP assays on histone marks with as few as 50 cells per assay.

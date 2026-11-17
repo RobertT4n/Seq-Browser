@@ -1,0 +1,21 @@
+name: GateID
+category: dry
+summary: Uses single-cell transcriptomics and FACS index sorting to identify gates that enrich chosen cell types using native
+  cellular properties.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cell.2019.08.006
+  year: 2019
+  journal: Cell
+  first_author: Baron CS
+  last_author: van Oudenaarden A
+  pmid: '31585086'
+  pmcid: PMC6863042
+  title: Cell Type Purification by Single-Cell Transcriptome-Trained Sorting
+added: '2026-11-15'
+evidence: GateID combines single-cell transcriptomics with FACS index sorting to purify cell types using properties such as
+  size, granularity and mitochondrial content.

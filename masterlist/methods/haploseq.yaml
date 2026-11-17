@@ -1,0 +1,27 @@
+name: HaploSeq
+category: wet
+summary: Uses proximity ligation and sequencing to reconstruct chromosome-scale haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+- human
+validated_system:
+- cell-line
+chemistry:
+- proximity-ligation
+reference:
+  doi: 10.1038/nbt.2728
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Selvaraj S
+  last_author: Ren B
+  pmid: '24185094'
+  pmcid: PMC4180835
+  title: Whole-genome haplotype reconstruction using proximity-ligation and shotgun sequencing
+added: '2026-11-15'
+evidence: Proximity-ligation data enabled reconstruction of chromosome-spanning haplotypes in hybrid mouse cells and a human
+  genome.

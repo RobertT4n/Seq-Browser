@@ -1,0 +1,21 @@
+name: FamSeq
+full_name: Family-Based Sequencing Program
+category: dry
+summary: Calls variants from family sequencing data by combining Mendelian transmission information with sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1222158110
+  year: 2013
+  journal: Proc Natl Acad Sci U S A
+  first_author: Peng G
+  last_author: Wang W
+  pmid: '23426633'
+  pmcid: PMC3593912
+  title: Rare variant detection using family-based sequencing analysis
+added: '2026-11-15'
+evidence: FamSeq integrates Mendelian transmission information and raw sequencing reads to identify variants that would otherwise
+  be missed.

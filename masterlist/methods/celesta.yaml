@@ -1,0 +1,21 @@
+name: CELESTA
+category: dry
+summary: Identifies cell types in multiplexed imaging data using protein marker expression and spatial information.
+readouts:
+- protein
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-022-01498-z
+  year: 2022
+  journal: Nat Methods
+  first_author: Zhang W
+  last_author: Plevritis SK
+  pmid: '35654951'
+  pmcid: PMC9728133
+  title: Identification of cell types in multiplexed in situ images by combining protein expression and spatial information
+    using CELESTA
+added: '2026-11-15'
+evidence: CELESTA identifies each cell's type from its marker expression profile and, when needed, spatial information.

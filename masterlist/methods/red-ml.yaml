@@ -1,0 +1,21 @@
+name: RED-ML
+full_name: RNA Editing Detection based on Machine learning
+category: dry
+summary: Detects RNA editing sites from RNA sequencing alignments using machine learning and assigns confidence scores.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/gix012
+  year: 2017
+  journal: Gigascience
+  first_author: Xiong H
+  last_author: Lee LJ
+  pmid: '28328004'
+  pmcid: PMC5467039
+  title: 'RED-ML: a novel, effective RNA editing detection method based on machine learning'
+added: '2026-11-15'
+evidence: RED-ML accepts a BAM file, optionally uses matched genomic variants, and reports RNA editing sites with confidence
+  scores.

@@ -1,0 +1,27 @@
+name: SPIDR
+full_name: split-and-pool identification of RBP targets
+category: wet
+summary: Uses split-pool processing to map binding sites of many RNA-binding proteins simultaneously.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- split-pool-barcoding
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2025.06.042
+  year: 2025
+  journal: Cell
+  first_author: Wolin E
+  last_author: Jovanovic M
+  pmid: '40701149'
+  pmcid: PMC12396178
+  title: SPIDR enables multiplexed mapping of RNA-protein interactions and uncovers a mechanism for selective translational
+    suppression upon cell stress
+added: '2026-11-15'
+evidence: SPIDR is a multiplexed split-pool method that profiles single-nucleotide binding sites of dozens of RNA-binding
+  proteins.

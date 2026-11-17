@@ -1,0 +1,23 @@
+name: scNanoSeq
+category: wet
+summary: scNanoSeq detects somatic mutations in single tumor cells to characterize cancer evolution.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system: []
+chemistry: []
+reference:
+  doi: 10.1101/2023.10.09.561356
+  year: 2023
+  journal: bioRxiv
+  first_author: Niu M
+  last_author: Zong C
+  title: Characterization of Cancer Evolution Landscape Based on Accurate Detection of Somatic Mutations in Single Tumor Cells
+added: '2026-11-15'
+evidence: The authors developed scNanoSeq chemistry and profiled 842 single cells from 21 human breast cancer samples.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

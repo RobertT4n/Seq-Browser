@@ -1,0 +1,24 @@
+name: ScoMAP
+full_name: Single-Cell Omics Mapping into spatial Axes using Pseudotime ordering
+category: dry
+summary: Integrates single-cell transcriptomic and chromatin accessibility atlases into a tissue-like spatial latent space
+  to study gene regulation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.20209438
+  year: 2020
+  journal: Mol Syst Biol
+  first_author: Bravo González-Blas C
+  last_author: Aerts S
+  pmid: '32431014'
+  pmcid: PMC7237818
+  title: Identification of genomic enhancers through spatial integration of single-cell transcriptomics and epigenomics
+added: '2026-11-15'
+evidence: ScoMAP spatially integrates independent single-cell RNA-seq and ATAC-seq atlases into a virtual space mimicking
+  the tissue and supports enhancer-to-gene inference.

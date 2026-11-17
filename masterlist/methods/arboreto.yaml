@@ -1,0 +1,19 @@
+name: Arboreto
+category: dry
+summary: Scales gene regulatory network inference from large expression datasets using algorithms including GRNBoost2.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty916
+  year: 2019
+  journal: Bioinformatics
+  first_author: Moerman T
+  last_author: Aerts S
+  pmid: '30445495'
+  title: 'GRNBoost2 and Arboreto: efficient and scalable inference of gene regulatory networks'
+added: '2026-11-15'
+evidence: Arboreto scales regulatory network inference algorithms and includes GRNBoost2 and an improved implementation of
+  GENIE3.

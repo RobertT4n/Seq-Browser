@@ -1,0 +1,22 @@
+name: IGenotyper
+category: dry
+summary: Characterizes haplotype-specific variation in the immunoglobulin heavy chain locus from targeted long-read sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.3389/fimmu.2020.02136
+  year: 2020
+  journal: Front Immunol
+  first_author: Rodriguez OL
+  last_author: Watson CT
+  pmid: '33072076'
+  pmcid: PMC7539625
+  title: A Novel Framework for Characterizing Genomic Haplotype Diversity in the Human Immunoglobulin Heavy Chain Locus
+added: '2026-11-15'
+evidence: Targeted long-read sequencing combined with IGenotyper produced haplotype-specific assemblies, genotypes and gene
+  annotations of the human IGH locus.

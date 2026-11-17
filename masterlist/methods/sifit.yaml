@@ -1,0 +1,19 @@
+name: SiFit
+category: dry
+summary: Infers tumor phylogenies from noisy single-cell sequencing data using a finite-sites model.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1311-2
+  year: 2017
+  journal: Genome Biol
+  first_author: Zafar H
+  last_author: Nakhleh L
+  pmid: '28927434'
+  pmcid: PMC5606061
+  title: 'SiFit: inferring tumor trees from single-cell sequencing data under finite-sites models'
+added: '2026-11-15'
+evidence: SiFit uses a finite-sites model to infer tumor phylogenies from noisy single-cell sequencing data.

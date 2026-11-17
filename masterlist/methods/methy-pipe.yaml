@@ -1,0 +1,21 @@
+name: Methy-Pipe
+category: dry
+summary: Aligns whole-genome bisulfite sequencing reads and analyzes methylation densities and differentially methylated regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0100360
+  year: 2014
+  journal: PLoS One
+  first_author: Jiang P
+  last_author: Sun H
+  pmid: '24945300'
+  pmcid: PMC4063866
+  title: 'Methy-Pipe: an integrated bioinformatics pipeline for whole genome bisulfite sequencing data analysis'
+added: '2026-11-15'
+evidence: Methy-Pipe aligns bisulfite sequencing reads and identifies differentially methylated regions with a sliding-window
+  approach.

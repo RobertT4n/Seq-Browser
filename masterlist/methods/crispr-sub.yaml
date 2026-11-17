@@ -1,0 +1,20 @@
+name: CRISPR-Sub
+category: dry
+summary: Detects Cas9-mediated substitution mutations by statistically comparing sequencing data from treated and mock-treated
+  samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.csbj.2020.06.026
+  year: 2020
+  journal: Comput Struct Biotechnol J
+  first_author: Hwang GH
+  last_author: Bae S
+  pmid: '32670508'
+  pmcid: PMC7338987
+  title: 'CRISPR-sub: Analysis of DNA substitution mutations caused by CRISPR-Cas9 in human cells'
+added: '2026-11-15'
+evidence: CRISPR-Sub compares mock- and CRISPR-treated samples to detect substitution hotspots in target sequences.

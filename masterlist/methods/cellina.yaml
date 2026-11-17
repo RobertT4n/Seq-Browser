@@ -1,0 +1,14 @@
+name: Cellina
+category: dry
+summary: Predicts cellular expression under simulated changes to a cell's spatial neighborhood.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.48550/arxiv.2606.08493
+added: '2026-11-15'
+evidence: Cellina separates a cell's intrinsic state from its spatial context to predict responses to in-silico neighborhood
+  perturbations.

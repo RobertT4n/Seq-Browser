@@ -1,0 +1,21 @@
+name: DeepMEL
+category: dry
+summary: Predicts melanoma enhancer activity and analyzes enhancer sequence logic using a model trained on cross-species chromatin
+  accessibility data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.260844.120
+  year: 2020
+  journal: Genome Res
+  first_author: Minnoye L
+  last_author: Aerts S
+  pmid: '32732264'
+  pmcid: PMC7706731
+  title: Cross-species analysis of enhancer logic using deep learning
+added: '2026-11-15'
+evidence: DeepMEL was trained on chromatin accessibility data from melanoma samples across six species and used to analyze
+  enhancer architectures and binding sites.

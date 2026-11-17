@@ -1,0 +1,18 @@
+name: scPLATE-seq
+category: wet
+summary: A plate-based library preparation method profiles single-cell 3′ transcriptomes using UMIs and pre-amplification
+  pooling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- plate-based
+- reverse-transcription
+reference:
+  doi: 10.17504/protocols.io.s4hegt6
+added: '2026-11-15'
+evidence: The method allows plate-based 3′ single-cell RNA-seq with UMIs and uses pre-amplification pooling and mRNA enrichment.

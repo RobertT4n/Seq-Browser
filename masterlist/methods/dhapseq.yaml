@@ -1,0 +1,26 @@
+name: dHapSeq
+full_name: digital PCR haplotype sequencing
+category: wet
+summary: Phases targeted DNA variants by amplifying and fusing pairs of regions from individual molecules in droplets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system: []
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1093/clinchem/hvae076
+  year: 2024
+  journal: Clin Chem
+  first_author: Gai W
+  last_author: Chan KCA
+  pmid: '38873917'
+  title: Universal Targeted Haplotyping by Droplet Digital PCR Sequencing and Its Applications in Noninvasive Prenatal Testing
+    and Pharmacogenetics Analysis
+added: '2026-11-15'
+evidence: DNA molecules are compartmentalized into droplets, where two target regions are amplified and fused for sequencing
+  and allele phasing.

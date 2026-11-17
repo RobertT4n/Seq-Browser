@@ -1,0 +1,19 @@
+name: ccAFv2
+category: dry
+summary: Classifies cell cycle and quiescent-like states from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.16.589816
+  year: 2024
+  journal: bioRxiv
+  first_author: O‘Connor SA
+  last_author: Plaisier CL
+  title: Classifying cell cycle states and a quiescent-like G0 state using single-cell transcriptomics
+added: '2026-11-15'
+evidence: ccAFv2 classifies six cell cycle states and a quiescent-like G0 state and was applied to cell, nuclei and spatial
+  transcriptomics data.

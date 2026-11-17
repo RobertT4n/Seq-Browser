@@ -1,0 +1,21 @@
+name: SAMstrt
+category: dry
+summary: Tests differential expression in single-cell RNA-seq using spike-in normalization and estimated absolute transcript
+  counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt511
+  year: 2013
+  journal: Bioinformatics
+  first_author: Katayama S
+  last_author: Kere J
+  pmid: '23995393'
+  pmcid: PMC3810855
+  title: 'SAMstrt: statistical test for differential expression in single-cell transcriptome with spike-in normalization'
+added: '2026-11-15'
+evidence: SAMstrt extends SAMseq with spike-in normalization and statistical testing based on estimated absolute transcript
+  numbers per cell.

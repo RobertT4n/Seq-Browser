@@ -1,0 +1,30 @@
+name: Tn5mC-seq
+category: wet
+summary: Uses tagmentation to prepare whole-genome bisulfite sequencing libraries from low-input DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- tn5
+- bisulfite-or-enzymatic-conversion
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/gr.136242.111
+  year: 2012
+  journal: Genome Res
+  first_author: Adey A
+  last_author: Shendure J
+  pmid: '22466172'
+  pmcid: PMC3371708
+  title: Ultra-low-input, tagmentation-based whole-genome bisulfite sequencing
+added: '2026-11-15'
+evidence: Tn5mC-seq adapts tagmentation for whole-genome bisulfite sequencing and was demonstrated on a human lymphoblastoid
+  cell line.

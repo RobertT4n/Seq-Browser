@@ -1,0 +1,19 @@
+name: RNA velocity
+category: dry
+summary: Estimates the future transcriptional state of individual cells from unspliced and spliced mRNA abundances.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-018-0414-6
+  year: 2018
+  journal: Nature
+  first_author: La Manno G
+  last_author: Kharchenko PV
+  pmid: '30089906'
+  pmcid: PMC6130801
+  title: RNA velocity of single cells
+added: '2026-11-15'
+evidence: RNA velocity is estimated by distinguishing unspliced and spliced mRNAs in single-cell RNA sequencing data.

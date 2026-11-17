@@ -1,0 +1,22 @@
+name: LAMPRA
+category: dry
+summary: Aggregates sequence-model predictions of somatic variant effects into patient-gene disruption profiles across molecular
+  modalities.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.15.26363174
+  year: 2026
+  journal: medRxiv
+  first_author: Nayak A
+  last_author: Georgakopoulos-Soares I
+  title: Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes
+added: '2026-11-15'
+evidence: Predictions from AlphaGenome and AlphaMissense were aggregated into patient-gene profiles capturing transcription,
+  accessibility, transcription factor binding and splicing.

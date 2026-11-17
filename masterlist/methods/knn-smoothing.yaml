@@ -1,0 +1,19 @@
+name: kNN-smoothing
+full_name: k-nearest neighbor smoothing
+category: dry
+summary: Reduces noise in single-cell RNA-seq profiles by aggregating transcript counts from similar cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/217737
+  year: 2017
+  journal: bioRxiv
+  first_author: Wagner F
+  last_author: Yanai I
+  title: K-nearest neighbor smoothing for high-throughput single-cell RNA-Seq data
+added: '2026-11-15'
+evidence: kNN-smoothing identifies nearest neighbors using partially smoothed expression profiles and aggregates their transcript
+  counts.

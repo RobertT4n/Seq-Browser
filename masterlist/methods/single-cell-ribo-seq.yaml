@@ -1,0 +1,25 @@
+name: Single-cell Ribo-seq
+category: wet
+summary: Profiles ribosome occupancy in individual cells to measure translation at single-codon resolution.
+readouts:
+- translation
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system:
+- primary-cells
+chemistry: []
+reference:
+  doi: 10.1038/s41586-021-03887-4
+  year: 2021
+  journal: Nature
+  first_author: VanInsberghe M
+  last_author: van Oudenaarden A
+  pmid: '34497418'
+  title: Single-cell Ribo-seq reveals cell cycle-dependent translational pausing
+added: '2026-11-15'
+evidence: The authors increased assay sensitivity to enable single-cell ribosome profiling and demonstrated applicability
+  to rare primary enteroendocrine cells.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

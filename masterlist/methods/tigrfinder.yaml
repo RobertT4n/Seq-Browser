@@ -1,0 +1,17 @@
+name: TIGRFinder
+category: dry
+summary: Identifies tandem interspaced guide RNA arrays in genomic and metagenomic data using sequence motifs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.09.750476
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu P
+  last_author: Zhang F
+  title: RNA-guided transcriptional repression by TIGR-Tas systems
+added: '2026-11-15'
+evidence: The motif-based TIGRFinder pipeline identified 6,685 TIGR arrays from genomic and metagenomic data.

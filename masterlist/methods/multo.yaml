@@ -1,0 +1,22 @@
+name: MULTo
+full_name: Minimum Unique Length Tool
+category: dry
+summary: Represents genome and transcriptome mappability by calculating the shortest unique sequence length at each coordinate.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0053822
+  year: 2013
+  journal: PLoS One
+  first_author: Storvall H
+  last_author: Sandberg R
+  pmid: '23349747'
+  pmcid: PMC3548888
+  title: Efficient and comprehensive representation of uniqueness for next-generation sequencing by minimum unique length
+    analyses
+added: '2026-11-15'
+evidence: MULTo identifies the shortest length required for each genomic coordinate to become unique in the genome and transcriptome.

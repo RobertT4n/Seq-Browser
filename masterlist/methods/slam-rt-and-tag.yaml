@@ -1,0 +1,29 @@
+name: SLAM-RT&Tag
+category: wet
+summary: Combines RNA metabolic labeling with RT&Tag to quantify transcript dynamics within nuclear compartments.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+temporal:
+- metabolic-labeling
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2025.02.012
+  year: 2025
+  journal: Mol Cell
+  first_author: Khyzha N
+  last_author: Henikoff S
+  pmid: '40073862'
+  pmcid: PMC12052203
+  title: Profiling transcriptome composition and dynamics within nuclear compartments using SLAM-RT&amp;Tag
+added: '2026-11-15'
+evidence: SLAM-RT&Tag combines RNA metabolic labeling with RT&Tag to quantify transcript dynamics within nuclear compartments.

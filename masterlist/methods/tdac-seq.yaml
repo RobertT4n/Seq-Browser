@@ -1,0 +1,33 @@
+name: TDAC-seq
+full_name: targeted deaminase-accessible chromatin sequencing
+category: wet
+summary: Uses a DNA deaminase, targeted PCR and long-read sequencing to profile chromatin accessibility on individual chromatin
+  fibers.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+perturbation:
+- base-editing
+species:
+- human
+validated_system:
+- primary-cells
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41592-025-02811-2
+  year: 2025
+  journal: Nat Methods
+  first_author: Roh H
+  last_author: Liau BB
+  pmid: '40935921'
+  pmcid: PMC12825449
+  title: Coupling CRISPR scanning with targeted chromatin accessibility profiling using a double-stranded DNA deaminase
+added: '2026-11-15'
+evidence: TDAC-seq profiles accessibility at endogenous loci through targeted PCR and long-read sequencing and was combined
+  with CRISPR and base-editing screens in human HSPCs.

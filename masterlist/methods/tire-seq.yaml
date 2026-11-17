@@ -1,0 +1,28 @@
+name: TIRE-seq
+full_name: Turbocapture Integrated RNA Expression Sequencing
+category: wet
+summary: TIRE-seq integrates mRNA purification into library preparation to profile gene expression from crude cell lysates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system:
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41598-025-98282-8
+  year: 2025
+  journal: Sci Rep
+  first_author: O'Keeffe P
+  last_author: Brown DV
+  pmid: '40316593'
+  pmcid: PMC12048512
+  title: TIRE-seq simplifies transcriptomics via integrated RNA capture and library preparation
+added: '2026-11-15'
+evidence: TIRE-seq integrates mRNA purification into library preparation and captured transcriptional changes in stimulated
+  human T cells.

@@ -1,0 +1,26 @@
+name: HIVID
+full_name: high-throughput Viral Integration Detection
+category: wet
+summary: Enriches HBV-containing DNA fragments with probes and sequences them to identify viral integration breakpoints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1016/j.ygeno.2013.07.002
+  year: 2013
+  journal: Genomics
+  first_author: Li W
+  last_author: Zhang X
+  pmid: '23867110'
+  title: 'HIVID: an efficient method to detect HBV integration using low coverage sequencing'
+added: '2026-11-15'
+evidence: HBV probes enriched fragments that were sequenced to detect integration breakpoints in hepatocellular carcinoma
+  genomes.

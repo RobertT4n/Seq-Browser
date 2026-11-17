@@ -1,0 +1,28 @@
+name: sciMET-cap
+category: wet
+summary: Adds target enrichment to sciMET to reduce the sequencing burden of single-cell DNA methylation analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: targeted
+species:
+- human
+validated_system:
+- primary-cells
+- tissue-in-vivo
+chemistry: []
+reference:
+  doi: 10.1186/s13059-024-03306-7
+  year: 2024
+  journal: Genome Biol
+  first_author: Acharya SN
+  last_author: Adey AC
+  pmid: '38987810'
+  pmcid: PMC11234687
+  title: 'sciMET-cap: high-throughput single-cell methylation analysis with a reduced sequencing burden'
+added: '2026-11-15'
+evidence: sciMET-cap uses target enrichment with sciMET and was characterized on human PBMCs and brain.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

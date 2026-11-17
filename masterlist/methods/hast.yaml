@@ -1,0 +1,20 @@
+name: HAST
+full_name: Haplotype-resolved Assembly for Synthetic long reads using a Trio-binning strategy
+category: dry
+summary: Assembles parent-specific haplotypes by classifying synthetic long reads using parental information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab068
+  year: 2021
+  journal: Bioinformatics
+  first_author: Xu M
+  last_author: Fan G
+  pmid: '33538292'
+  pmcid: PMC8613828
+  title: Accurate haplotype-resolved assembly reveals the origin of structural variants for human trios
+added: '2026-11-15'
+evidence: HAST classifies reads as maternal or paternal and independently assembles the parent-specific haplotypes.

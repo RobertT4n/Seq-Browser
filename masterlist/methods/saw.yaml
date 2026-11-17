@@ -1,0 +1,20 @@
+name: SAW
+full_name: Stereo-seq Analysis Workflow
+category: dry
+summary: Processes Stereo-seq spatial transcriptomics data into spatially resolved gene expression matrices and clusters.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.46471/gigabyte.111
+  year: 2024
+  journal: GigaByte
+  first_author: Gong C
+  last_author: Xu X
+  pmid: '38434930'
+  pmcid: PMC10905255
+  title: 'SAW: an efficient and accurate data analysis workflow for Stereo-seq spatial transcriptomics'
+added: '2026-11-15'
+evidence: SAW includes mRNA spatial position reconstruction, genome alignment, gene expression matrix generation and clustering.

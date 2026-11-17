@@ -1,0 +1,20 @@
+name: ChIA-PET2
+category: dry
+summary: Processes ChIA-PET reads through alignment, quality control, peak calling and chromatin loop calling.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw809
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Li G
+  last_author: Zhang MQ
+  pmid: '27625391'
+  pmcid: PMC5224499
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+added: '2026-11-15'
+evidence: ChIA-PET2 analyzes ChIA-PET data from raw sequencing reads to chromatin loops and can call allele-specific interactions.

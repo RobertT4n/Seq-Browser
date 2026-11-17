@@ -1,0 +1,21 @@
+name: scfind
+category: dry
+summary: Enables fast searches of single-cell atlases to evaluate marker genes and identify cell-type-specific genes.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01076-9
+  year: 2021
+  journal: Nat Methods
+  first_author: Lee JTH
+  last_author: Hemberg M
+  pmid: '33649586'
+  pmcid: PMC7116898
+  title: Fast searches of large collections of single-cell data using scfind
+added: '2026-11-15'
+evidence: scfind supports marker-gene searches and in-silico gating and can combine single-cell ATAC-seq with transcriptome
+  data.

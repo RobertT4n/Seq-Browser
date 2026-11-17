@@ -1,0 +1,21 @@
+name: CellRegMap
+full_name: Cell Regulatory Map
+category: dry
+summary: Tests and quantifies context-specific genetic effects on gene expression in single cells.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.15252/msb.202110663
+  year: 2022
+  journal: Mol Syst Biol
+  first_author: Cuomo ASE
+  last_author: Stegle O
+  pmid: '35972065'
+  pmcid: PMC9380406
+  title: 'CellRegMap: a statistical framework for mapping context-specific regulatory variants using scRNA-seq'
+added: '2026-11-15'
+evidence: CellRegMap identifies genotype-context interactions of known eQTL variants using scRNA-seq data.

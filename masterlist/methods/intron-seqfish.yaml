@@ -1,0 +1,30 @@
+name: intron seqFISH
+category: wet
+summary: Images nascent transcription sites for thousands of genes in single cells using multiplexed in situ hybridization.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- cell-line
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1016/j.cell.2018.05.035
+  year: 2018
+  journal: Cell
+  first_author: Shah S
+  last_author: Cai L
+  pmid: '29887381'
+  pmcid: PMC6046268
+  title: Dynamics and Spatial Genomics of the Nascent Transcriptome by Intron seqFISH
+added: '2026-11-15'
+evidence: Intron seqFISH imaged nascent transcription sites for 10,421 genes in single cells, followed by mRNA and lncRNA
+  seqFISH.
+partition_unknown: not stated in the abstract

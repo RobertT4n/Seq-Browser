@@ -1,0 +1,27 @@
+name: Hi-Culfite
+category: wet
+summary: Combines Hi-C and whole-genome bisulfite sequencing to measure chromatin contacts and DNA methylation together.
+readouts:
+- 3d-genome
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- proximity-ligation
+- bisulfite-or-enzymatic-conversion
+builds_on:
+- hi-c
+- wgbs
+reference:
+  doi: 10.1101/481283
+  year: 2018
+  journal: bioRxiv
+  first_author: Stamenova EK
+  last_author: Aiden EL
+  title: The Hi-Culfite assay reveals relationships between chromatin contacts and DNA methylation state
+added: '2026-11-15'
+evidence: Hi-Culfite combines Hi-C and WGBS to determine chromatin contacts and DNA methylation simultaneously.

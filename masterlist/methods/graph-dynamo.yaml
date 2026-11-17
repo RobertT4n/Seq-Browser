@@ -1,0 +1,18 @@
+name: Graph-Dynamo
+category: dry
+summary: Models cellular state transition dynamics from single-cell expression and RNA velocity data using graph-based methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.24.559170
+  year: 2023
+  journal: bioRxiv
+  first_author: Zhang Y
+  last_author: Xing J
+  title: 'Graph-Dynamo: Learning stochastic cellular state transition dynamics from single cell data'
+added: '2026-11-15'
+evidence: Graph-Dynamo projects RNA velocity vectors onto the expression data manifold and models state transitions with a
+  graph Fokker-Planck equation.

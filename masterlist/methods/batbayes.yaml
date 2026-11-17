@@ -1,0 +1,19 @@
+name: BATBayes
+category: dry
+summary: Analyses single-cell transcript isoform data to study variation in polyadenylation site usage.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.20156198
+  year: 2015
+  journal: Mol Syst Biol
+  first_author: Velten L
+  last_author: Steinmetz LM
+  pmid: '26040288'
+  pmcid: PMC4501847
+  title: Single-cell polyadenylation site mapping reveals 3' isoform choice variability
+added: '2026-11-15'
+evidence: BATBayes is a statistical framework for analysing single-cell isoform data, applied to polyadenylation site usage.

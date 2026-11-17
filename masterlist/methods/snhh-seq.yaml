@@ -1,0 +1,30 @@
+name: snHH-seq
+category: wet
+summary: Profiles total RNA in single nuclei from clinically frozen samples using random primers and droplet microfluidics.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+input_sample:
+- nuclei
+reference:
+  doi: 10.1002/advs.202304755
+  year: 2024
+  journal: Adv Sci (Weinh)
+  first_author: Chen H
+  last_author: Guo G
+  pmid: '38010945'
+  pmcid: PMC10837386
+  title: Pan-Cancer Single-Nucleus Total RNA Sequencing Using snHH-Seq
+added: '2026-11-15'
+evidence: snHH-seq combines random primers and preindexing in droplets to detect total RNA in single nuclei from frozen clinical
+  samples.

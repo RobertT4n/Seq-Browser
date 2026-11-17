@@ -1,0 +1,28 @@
+name: in vivo multiomic Perturb-seq
+category: wet
+summary: Captures nuclear transcripts and guide RNAs to link in vivo CRISPR perturbations with single-nucleus transcriptomic
+  and chromatin profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system:
+- tissue-in-vivo
+chemistry:
+- oligo-capture
+- reverse-transcription
+input_sample:
+- nuclei
+reference:
+  doi: 10.64898/2026.03.15.711739
+  year: 2026
+  journal: bioRxiv
+  first_author: Zheng X
+  last_author: Jin X
+  title: <i>In vivo</i>  multiomic Perturb-seq with enhanced nuclear gRNA capture
+added: '2026-11-15'
+evidence: Nuclear transcript anchoring and guide-specific capture enable perturbation-resolved single-nucleus transcriptomic
+  and chromatin readouts.
+partition_unknown: not stated in the abstract

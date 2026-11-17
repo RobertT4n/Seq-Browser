@@ -1,0 +1,23 @@
+name: Cas12a-Capture
+category: wet
+summary: Uses guide-directed Cas12a cleavage and selective adapter ligation to create targeted sequencing libraries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1089/crispr.2021.0140
+  year: 2022
+  journal: CRISPR J
+  first_author: Mighell TL
+  last_author: O'Roak BJ
+  pmid: '35833801'
+  pmcid: PMC9419982
+  title: 'Cas12a-Capture: A Novel, Low-Cost, and Scalable Method for Targeted Sequencing'
+added: '2026-11-15'
+evidence: Cas12a-Capture directs in vitro DNA cleavage with guide RNAs and selectively ligates adapters to the resulting overhangs.

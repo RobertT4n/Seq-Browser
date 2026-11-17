@@ -1,0 +1,21 @@
+name: VAT
+full_name: Variant Annotation Tool
+category: dry
+summary: Functionally annotates personal genome variants at the transcript level and summarizes their effects across individuals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts368
+  year: 2012
+  journal: Bioinformatics
+  first_author: Habegger L
+  last_author: Gerstein M
+  pmid: '22743228'
+  pmcid: PMC3426844
+  title: 'VAT: a computational framework to functionally annotate variants in personal genomes within a cloud-computing environment'
+added: '2026-11-15'
+evidence: VAT annotates variants from multiple personal genomes at the transcript level and provides summary statistics across
+  genes and individuals.

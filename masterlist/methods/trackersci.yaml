@@ -1,0 +1,31 @@
+name: TrackerSci
+category: wet
+summary: Combines newborn-cell labeling and combinatorial indexing to profile transcriptomes and chromatin landscapes of proliferating
+  progenitor cells.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- mouse
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- nucleotide-labeling
+- combinatorial-indexing
+- reverse-transcription
+reference:
+  doi: 10.1016/j.cell.2023.08.042
+  year: 2023
+  journal: Cell
+  first_author: Lu Z
+  last_author: Cao J
+  pmid: '37774676'
+  pmcid: PMC10545416
+  title: Tracking cell-type-specific temporal dynamics in human and mouse brains
+added: '2026-11-15'
+evidence: TrackerSci combines newborn cell labeling and combinatorial indexing to characterize transcriptomes and chromatin
+  landscapes in mouse and human brains.

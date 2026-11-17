@@ -1,0 +1,22 @@
+name: FEMER
+full_name: FEtal MEthylome Reconstructor
+category: dry
+summary: Reconstructs the placental methylome from genome-wide bisulfite sequencing and fragment-size analysis of maternal
+  plasma DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/pd.5214
+  year: 2018
+  journal: Prenat Diagn
+  first_author: Sun K
+  last_author: Sun H
+  pmid: '29334402'
+  title: 'Noninvasive reconstruction of placental methylome from maternal plasma DNA: Potential for prenatal testing and monitoring'
+added: '2026-11-15'
+evidence: FEMER uses genome-wide bisulfite sequencing and size-based analysis of maternal plasma DNA to reconstruct the placental
+  methylome.

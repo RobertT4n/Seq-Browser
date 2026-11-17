@@ -1,0 +1,23 @@
+name: Picky
+category: dry
+summary: Detects diverse genomic structural variants from nanopore long-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41592-018-0002-6
+  year: 2018
+  journal: Nat Methods
+  first_author: Gong L
+  last_author: Wei CL
+  pmid: '29713081'
+  pmcid: PMC5990454
+  title: Picky comprehensively detects high-resolution structural variants in nanopore long reads
+added: '2026-11-15'
+evidence: Picky was used to detect structural variants of diverse architecture and genome-wide breakpoints in a breast cancer
+  model.

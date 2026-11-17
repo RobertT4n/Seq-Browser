@@ -1,0 +1,21 @@
+name: RnBeads
+category: dry
+summary: Provides a workflow for large-scale analysis and interpretation of DNA methylation data from multiple assay types.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3115
+  year: 2014
+  journal: Nat Methods
+  first_author: Assenov Y
+  last_author: Bock C
+  pmid: '25262207'
+  pmcid: PMC4216143
+  title: Comprehensive analysis of DNA methylation data with RnBeads
+added: '2026-11-15'
+evidence: RnBeads supports whole-genome and reduced-representation bisulfite sequencing, Infinium microarrays and other high-resolution
+  methylation protocols.

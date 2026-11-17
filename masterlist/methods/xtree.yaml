@@ -1,0 +1,21 @@
+name: XTree
+category: dry
+summary: Aligns short and long sequencing reads to large whole-genome reference databases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.64898/2025.12.22.696015
+  year: 2025
+  journal: bioRxiv
+  first_author: Al-Ghalith GA
+  last_author: Tierney BT
+  title: XTree enables memory-efficient, accurate short and long sequence alignment to millions of genomes across the tree
+    of life
+added: '2026-11-15'
+evidence: XTree is a k-mer-based aligner for sequencing reads against whole-genome databases containing up to millions of
+  genomes.

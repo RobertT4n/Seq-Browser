@@ -1,0 +1,19 @@
+name: Portal
+category: dry
+summary: Integrates large single-cell datasets by learning harmonized representations with adversarial domain translation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-022-00251-y
+  year: 2022
+  journal: Nat Comput Sci
+  first_author: Zhao J
+  last_author: Yang C
+  pmid: '38177826'
+  title: Adversarial domain translation networks for integrating large-scale atlas-level single-cell datasets
+added: '2026-11-15'
+evidence: Portal learns harmonized representations of datasets and integrates datasets across samples, platforms and data
+  types.

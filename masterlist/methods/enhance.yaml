@@ -1,0 +1,17 @@
+name: ENHANCE
+category: dry
+summary: Denoises single-cell RNA-seq expression values using cell aggregation and principal component analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/655365
+  year: 2019
+  journal: bioRxiv
+  first_author: Wagner F
+  last_author: Yanai I
+  title: Accurate denoising of single-cell RNA-Seq data using unbiased principal component analysis
+added: '2026-11-15'
+evidence: ENHANCE uses cell aggregation to mitigate expression-dependent PCA bias and recover denoised expression values.

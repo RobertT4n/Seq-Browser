@@ -1,0 +1,20 @@
+name: Mako
+category: dry
+summary: Detects complex structural variants in paired-end short-read sequencing data using graph-based pattern growth.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2021.03.007
+  year: 2022
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Lin J
+  last_author: Ye K
+  pmid: '34224879'
+  pmcid: PMC9510932
+  title: 'Mako: A Graph-based Pattern Growth Approach to Detect Complex Structural Variants'
+added: '2026-11-15'
+evidence: Mako represents potential breakpoint connections as a graph and detects complex structural variants without predefined
+  models.

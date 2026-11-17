@@ -1,0 +1,22 @@
+name: ActivePathways
+category: dry
+summary: Integrates evidence from multiple omics datasets to identify enriched pathways and associated genes.
+readouts:
+- genome-sequence
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-13983-9
+  year: 2020
+  journal: Nat Commun
+  first_author: Paczkowska M
+  last_author: PCAWG Consortium
+  pmid: '32024846'
+  pmcid: PMC7002665
+  title: Integrative pathway enrichment analysis of multivariate omics data
+added: '2026-11-15'
+evidence: ActivePathways discovers enriched pathways across datasets and was applied to genomic, transcriptomic and ChIP-seq
+  data.

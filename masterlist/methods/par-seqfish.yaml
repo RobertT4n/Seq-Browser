@@ -1,0 +1,27 @@
+name: par-seqFISH
+full_name: parallel sequential fluorescence in situ hybridization
+category: wet
+summary: Images bacterial transcriptomes at single-cell resolution to study spatial gene expression in microbial communities.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- microbe
+validated_system: []
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1126/science.abi4882
+  year: 2021
+  journal: Science
+  first_author: Dar D
+  last_author: Newman DK
+  pmid: '34385369'
+  pmcid: PMC8454218
+  title: Spatial transcriptomics of planktonic and sessile bacterial populations at single-cell resolution
+added: '2026-11-15'
+evidence: par-seqFISH was applied to Pseudomonas aeruginosa biofilms to follow mRNA composition in space and time.
+partition_unknown: not stated in the abstract

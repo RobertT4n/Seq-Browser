@@ -1,0 +1,20 @@
+name: PGA
+category: dry
+summary: Identifies novel peptides in tandem mass spectrometry data using customised protein databases derived from RNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1133-3
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Wen B
+  last_author: Liu S
+  pmid: '27316337'
+  pmcid: PMC4912784
+  title: 'PGA: an R/Bioconductor package for identification of novel peptides using a customized database derived from RNA-Seq'
+added: '2026-11-15'
+evidence: PGA constructs customised protein databases from RNA-seq data and uses them to identify novel peptides in MS/MS
+  data.

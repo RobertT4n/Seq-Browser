@@ -1,0 +1,21 @@
+name: Reference Coverage Profiles
+category: dry
+summary: Identifies copy number variants in individual genomes by normalizing sequencing coverage against precomputed multi-genome
+  profiles and segmenting it.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2015.00045
+  year: 2015
+  journal: Front Genet
+  first_author: Glusman G
+  last_author: Hood L
+  pmid: '25741365'
+  pmcid: PMC4330915
+  title: Identification of copy number variants in whole-genome data using Reference Coverage Profiles
+added: '2026-11-15'
+evidence: Normalization of scaled coverage to reference profiles followed by hidden Markov model segmentation enables detection
+  of copy number variants and large deletions.

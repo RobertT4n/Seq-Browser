@@ -1,0 +1,26 @@
+name: HK model 2
+category: dry
+summary: Detects multiple DNA base modifications from single-molecule real-time sequencing data using a hybrid neural network.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s42003-025-08009-8
+  year: 2025
+  journal: Commun Biol
+  first_author: Hu X
+  last_author: Lo YMD
+  pmid: '40229481'
+  pmcid: PMC11997116
+  title: Transformer-based deep learning for accurate detection of multiple base modifications using single molecule real-time
+    sequencing
+added: '2026-11-15'
+evidence: HK model 2 combines convolutional and transformer layers to detect 5mC, 5hmC and 6mA.

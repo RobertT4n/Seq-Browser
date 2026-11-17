@@ -1,0 +1,20 @@
+name: PanGenie
+category: dry
+summary: Genotypes diverse genetic variants using short-read k-mer counts and a haplotype-resolved pangenome reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-022-01043-w
+  year: 2022
+  journal: Nat Genet
+  first_author: Ebler J
+  last_author: Marschall T
+  pmid: '35410384'
+  pmcid: PMC9005351
+  title: Pangenome-based genome inference allows efficient and accurate genotyping across a wide spectrum of variant classes
+added: '2026-11-15'
+evidence: PanGenie combines a haplotype-resolved pangenome reference with k-mer counts from short-read sequencing to genotype
+  a wide spectrum of genetic variation.

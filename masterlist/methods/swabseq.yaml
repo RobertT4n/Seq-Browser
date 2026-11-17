@@ -1,0 +1,25 @@
+name: SwabSeq
+category: wet
+summary: Detects and quantifies SARS-CoV-2 RNA by sequencing pooled, sample-barcoded nasal or saliva specimens.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- microbe
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41551-021-00754-5
+  year: 2021
+  journal: Nat Biomed Eng
+  first_author: Bloom JS
+  last_author: Arboleda VA
+  pmid: '34211145'
+  pmcid: PMC10810734
+  title: Massively scaled-up testing for SARS-CoV-2 RNA via next-generation sequencing of pooled and barcoded nasal and saliva
+    samples
+added: '2026-11-15'
+evidence: Sequencing pooled, barcoded nasal or saliva samples with a synthetic RNA standard enabled SARS-CoV-2 testing.

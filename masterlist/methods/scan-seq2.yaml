@@ -1,0 +1,29 @@
+name: SCAN-seq2
+category: wet
+summary: Profiles full-length transcripts and isoforms in single cells using third-generation sequencing.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+species: []
+validated_system:
+- cell-line
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41421-022-00500-4
+  year: 2023
+  journal: Cell Discov
+  first_author: Liao Y
+  last_author: Tang F
+  pmid: '36631434'
+  pmcid: PMC9834245
+  title: High-throughput and high-sensitivity full-length single-cell RNA-seq analysis on third-generation sequencing platform
+added: '2026-11-15'
+evidence: SCAN-seq2 profiled 5,472 cells from nine cell lines and identified full-length RNA isoforms and TCR and BCR rearrangements.
+partition_unknown: not stated in the abstract

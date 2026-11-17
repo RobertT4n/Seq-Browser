@@ -1,0 +1,21 @@
+name: BatMeth
+category: dry
+summary: Maps bisulfite sequencing reads to a reference genome using mismatch filtering and two indexes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2012-13-10-r82
+  year: 2012
+  journal: Genome Biol
+  first_author: Lim JQ
+  last_author: Sung WK
+  pmid: '23034162'
+  pmcid: PMC3491410
+  title: 'BatMeth: improved mapper for bisulfite sequencing reads on DNA methylation'
+added: '2026-11-15'
+evidence: BatMeth integrates mismatch counting and filtering with mapping onto two indexes to improve unique mapping of bisulfite
+  sequencing reads.

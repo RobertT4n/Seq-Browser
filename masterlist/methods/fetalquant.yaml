@@ -1,0 +1,18 @@
+name: FetalQuant
+category: dry
+summary: Estimates the fraction of fetal DNA in maternal plasma directly from targeted sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bts549
+  year: 2012
+  journal: Bioinformatics
+  first_author: Jiang P
+  last_author: Sun H
+  pmid: '22962347'
+  title: 'FetalQuant: deducing fractional fetal DNA concentration from massively parallel sequencing of DNA in maternal plasma'
+added: '2026-11-15'
+evidence: FetalQuant uses a maximum-likelihood mixture model to estimate fetal DNA concentration without prior genotype information.

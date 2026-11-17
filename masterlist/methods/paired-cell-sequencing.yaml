@@ -1,0 +1,29 @@
+name: paired-cell sequencing
+category: wet
+summary: Uses gene expression in one cell of an attached pair to infer tissue coordinates and spatial expression patterns
+  for the other.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nbt.4231
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Halpern KB
+  last_author: Itzkovitz S
+  pmid: '30222169'
+  pmcid: PMC6546596
+  title: Paired-cell sequencing enables spatial gene expression mapping of liver endothelial cells
+added: '2026-11-15'
+evidence: mRNA from attached mouse cell pairs was sequenced, and hepatocyte expression was used to infer liver endothelial
+  cell positions.
+partition_unknown: not stated in the abstract

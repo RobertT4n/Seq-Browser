@@ -1,0 +1,28 @@
+name: FloChIP
+category: wet
+summary: An automated microfluidic platform performs individual or sequential ChIP-seq for histone marks and transcription
+  factors.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- antibody-pull-down
+- tn5
+reference:
+  doi: 10.1073/pnas.1913261117
+  year: 2020
+  journal: Proc Natl Acad Sci U S A
+  first_author: Dainese R
+  last_author: Deplancke B
+  pmid: '32461370'
+  pmcid: PMC7306797
+  title: A parallelized, automated platform enabling individual or sequential ChIP of histone marks and transcription factors
+added: '2026-11-15'
+evidence: FloChIP supports multiplexed ChIP on histone marks and transcription factors and uses on-chip chromatin tagmentation.

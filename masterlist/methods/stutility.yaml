@@ -1,0 +1,20 @@
+name: STUtility
+category: dry
+summary: Aligns, annotates and visualizes spatial transcriptomics data and images across tissue sections in three dimensions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-06832-3
+  year: 2020
+  journal: BMC Genomics
+  first_author: Bergenstråhle J
+  last_author: Lundeberg J
+  pmid: '32664861'
+  pmcid: PMC7386244
+  title: Seamless integration of image and molecular analysis for spatial transcriptomics workflows
+added: '2026-11-15'
+evidence: STUtility processes Visium data, aligns multiple tissue sections and visualizes the combined data in a 3D model
+  framework.

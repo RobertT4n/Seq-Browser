@@ -1,0 +1,22 @@
+name: RV-NPL
+full_name: rare variant non-parametric linkage
+category: dry
+summary: Analyzes rare-variant allele sharing among affected relatives to map loci linked to complex traits.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2019.09.006
+  year: 2019
+  journal: Am J Hum Genet
+  first_author: Zhao L
+  last_author: Leal SM
+  pmid: '31585107'
+  pmcid: PMC6817540
+  title: A Rare Variant Nonparametric Linkage Method for Nuclear and Extended Pedigrees with Application to Late-Onset Alzheimer
+    Disease via WGS Data
+added: '2026-11-15'
+evidence: RV-NPL estimates minor-allele sharing among affected relative pairs and was applied to whole-genome sequence data
+  from Alzheimer disease pedigrees.

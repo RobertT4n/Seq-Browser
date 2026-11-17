@@ -1,0 +1,21 @@
+name: FISHFactor
+category: dry
+summary: Models spatial transcript coordinates to identify subcellular expression patterns and spatial gene clusters.
+readouts:
+- rna
+resolution:
+- subcellular
+- spatial
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad183
+  year: 2023
+  journal: Bioinformatics
+  first_author: Walter FC
+  last_author: Velten B
+  pmid: '37039825'
+  pmcid: PMC10176502
+  title: 'FISHFactor: a probabilistic factor model for spatial transcriptomics data with subcellular resolution'
+added: '2026-11-15'
+evidence: FISHFactor combines spatial non-negative factor analysis with a Poisson point process likelihood for gene-annotated
+  molecule coordinates.

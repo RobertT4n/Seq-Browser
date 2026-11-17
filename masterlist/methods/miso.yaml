@@ -1,0 +1,23 @@
+name: MISO
+full_name: MultI-modal Spatial Omics
+category: dry
+summary: Integrates multimodal spatial omics data for feature extraction and clustering to identify spatial domains.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02574-2
+  year: 2025
+  journal: Nat Methods
+  first_author: Coleman K
+  last_author: Li M
+  pmid: '39815104'
+  pmcid: PMC12139046
+  title: Resolving tissue complexity by multimodal spatial omics modeling with MISO
+added: '2026-11-15'
+evidence: MISO integrates multiple spatial omics modalities and identifies spatial domains, including in subcellular-resolution
+  datasets.

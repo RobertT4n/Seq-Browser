@@ -1,0 +1,28 @@
+name: bacterial-MERFISH
+category: wet
+summary: Combines volumetric expansion and multiplexed RNA FISH to profile spatial transcript organization in individual bacteria.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: targeted
+species:
+- microbe
+validated_system: []
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1126/science.adr0932
+  year: 2025
+  journal: Science
+  first_author: Sarfatis A
+  last_author: Moffitt JR
+  pmid: '39847624'
+  pmcid: PMC12278067
+  title: Highly multiplexed spatial transcriptomics in bacteria
+added: '2026-11-15'
+evidence: Bacterial-MERFISH combines 1000-fold volumetric expansion with MERFISH to profile thousands of operons in individual
+  bacteria.
+partition_unknown: not stated in the abstract

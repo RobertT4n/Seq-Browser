@@ -1,0 +1,24 @@
+name: ELIGOS
+full_name: epitranscriptional landscape inferring from glitches of ONT signals
+category: dry
+summary: Detects RNA modification sites from differences in base-specific error rates in native nanopore RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaa620
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Jenjaroenpun P
+  last_author: Nookaew I
+  pmid: '32710622'
+  pmcid: PMC7826254
+  title: Decoding the epitranscriptional landscape from native RNA sequences
+added: '2026-11-15'
+evidence: ELIGOS uses differences in the percent error of specific bases between native RNA and a reference to predict RNA
+  modification sites.

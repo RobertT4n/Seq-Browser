@@ -1,0 +1,18 @@
+name: GeneCodeq
+category: dry
+summary: Adjusts sequencing quality scores to improve their compressibility while preserving or improving genotyping accuracy.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw385
+  year: 2016
+  journal: Bioinformatics
+  first_author: Greenfield DL
+  last_author: Rrustemi A
+  pmid: '27354700'
+  title: 'GeneCodeq: quality score compression and improved genotyping using a Bayesian framework'
+added: '2026-11-15'
+evidence: GeneCodeq uses a corpus of k-mers to reduce quality-score entropy and can improve genotyping accuracy.

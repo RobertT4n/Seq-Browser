@@ -1,0 +1,19 @@
+name: peakzilla
+category: dry
+summary: Identifies closely spaced transcription factor binding sites at high resolution from ChIP-seq data.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt470
+  year: 2013
+  journal: Bioinformatics
+  first_author: Bardet AF
+  last_author: Stark A
+  pmid: '23980024'
+  pmcid: PMC3799470
+  title: Identification of transcription factor binding sites from ChIP-seq data at high resolution
+added: '2026-11-15'
+evidence: peakzilla resolves individual transcription factor binding sites even when they are closely spaced.

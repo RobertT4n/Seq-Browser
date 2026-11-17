@@ -1,0 +1,21 @@
+name: Celcomen
+category: dry
+summary: Models intra- and inter-cellular regulation and predicts spatial transcriptomic responses to perturbations.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-69856-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Megas S
+  last_author: Teichmann SA
+  pmid: '41851134'
+  pmcid: PMC13149852
+  title: 'Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling'
+added: '2026-11-15'
+evidence: Celcomen uses a generative graph neural network to disentangle regulatory programs and generate post-perturbation
+  counterfactual spatial transcriptomics.

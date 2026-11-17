@@ -1,0 +1,34 @@
+name: scEpi2-seq
+category: wet
+summary: Simultaneously profiles DNA methylation and histone modifications in single cells and individual molecules.
+readouts:
+- dna-methylation
+- dna-5mc
+- histone-modification
+resolution:
+- single-cell
+- single-molecule
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+chemistry: []
+targets:
+- H3K27me3
+reference:
+  doi: 10.1038/s41592-025-02847-4
+  year: 2025
+  journal: Nat Methods
+  first_author: Geisenberger C
+  last_author: van Oudenaarden A
+  pmid: '40999097'
+  pmcid: PMC12510880
+  title: Single-cell multi-omic detection of DNA methylation and histone modifications reconstructs the dynamics of epigenomic
+    maintenance
+added: '2026-11-15'
+evidence: scEpi2-seq provides single-cell and single-molecule readouts of DNA methylation and histone modifications and was
+  applied to mouse intestine.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

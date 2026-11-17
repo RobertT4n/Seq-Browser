@@ -1,0 +1,23 @@
+name: MINES
+full_name: m6A Identification using Nanopore Sequencing
+category: dry
+summary: Calls RNA m6A sites at individual coordinates from direct nanopore RNA sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1261/rna.072785.119
+  year: 2020
+  journal: RNA
+  first_author: Lorenz DA
+  last_author: Yeo GW
+  pmid: '31624092'
+  pmcid: PMC6913132
+  title: Direct RNA sequencing enables m<sup>6</sup>A detection in endogenous transcript isoforms at base-specific resolution
+added: '2026-11-15'
+evidence: MINES uses a trained random forest classifier to annotate m6A sites from direct RNA nanopore sequencing.

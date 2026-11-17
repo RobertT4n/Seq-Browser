@@ -1,0 +1,15 @@
+name: pgMAP
+category: dry
+summary: Maps guide RNA sequencing reads from dual-targeting CRISPR screens and reports paired-guide counts and quality metrics.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.48550/arxiv.2306.00944
+  year: 2023
+  journal: arXiv
+  title: 'pgMAP: a pipeline to enable guide RNA read mapping from dual-targeting CRISPR screens'
+added: '2026-11-15'
+evidence: pgMAP produces a dual gRNA read-count table and quality metrics including correctly paired reads and library coverage.

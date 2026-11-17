@@ -1,0 +1,17 @@
+name: Moana
+category: dry
+summary: Builds hierarchical cell-type classifiers from single-cell RNA sequencing datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/456129
+  year: 2018
+  journal: bioRxiv
+  first_author: Wagner F
+  last_author: Yanai I
+  title: 'Moana: A robust and scalable cell type classification framework for single-cell RNA-Seq data'
+added: '2026-11-15'
+evidence: Moana constructs cell-type classifiers from heterogeneous scRNA-seq datasets and applies them to new datasets.

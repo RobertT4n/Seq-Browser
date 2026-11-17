@@ -1,0 +1,24 @@
+name: mVseq
+full_name: multiplex viral sequencing assay
+category: wet
+summary: Uses multiplex PCR and sequencing to detect 20 transplant-relevant DNA viruses in clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species: []
+validated_system: []
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1373/jalm.2017.024521
+  year: 2018
+  journal: J Appl Lab Med
+  first_author: Tan SK
+  last_author: Scharfe C
+  pmid: '31245786'
+  pmcid: PMC6594177
+  title: Transplant Virus Detection Using Multiplex Targeted Sequencing
+added: '2026-11-15'
+evidence: A single-tube multiplex PCR amplifies conserved viral genomic regions for sequencing without prior viral enrichment.

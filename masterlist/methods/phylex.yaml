@@ -1,0 +1,22 @@
+name: PhylEx
+category: dry
+summary: Integrates bulk DNA sequencing and single-cell RNA sequencing to reconstruct clonal trees, genotypes and expression
+  profiles.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.02.16.431009
+  year: 2021
+  journal: bioRxiv
+  first_author: Jun S
+  last_author: Lagergren J
+  title: 'PhylEx: Accurate reconstruction of clonal structure via integrated analysis of bulk DNA-seq and single cell RNA-seq
+    data'
+added: '2026-11-15'
+evidence: PhylEx reconstructs clonal trees, assigns single cells to clones and generates clonal genotypes from integrated
+  bulk DNA-seq and scRNA-seq.

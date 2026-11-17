@@ -1,0 +1,28 @@
+name: MID-RRBS
+full_name: microfluidic diffusion-based reduced representative bisulfite sequencing
+category: wet
+summary: A microfluidic bisulfite sequencing method profiles DNA methylation from low-input samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41551-018-0204-3
+  year: 2018
+  journal: Nat Biomed Eng
+  first_author: Ma S
+  last_author: Lu C
+  pmid: '29963329'
+  pmcid: PMC6023403
+  title: Cell-type-specific brain methylomes profiled via ultralow-input microfluidics
+added: '2026-11-15'
+evidence: MID-RRBS uses a microfluidic device for efficient bisulfite conversion and was used to analyse genome-wide methylation
+  in sorted mouse brain nuclei.

@@ -1,0 +1,22 @@
+name: HMM-Flagger
+category: dry
+summary: Detects structural errors in haplotype-resolved genome assemblies using mapped-read coverage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.64898/2026.02.27.708355
+  year: 2026
+  journal: bioRxiv
+  first_author: Asri M
+  last_author: Paten B
+  title: Evaluating genome assemblies with HMM-Flagger
+added: '2026-11-15'
+evidence: HMM-Flagger classifies coverage anomalies as erroneous blocks, false duplications or collapsed blocks using a hidden
+  Markov model.

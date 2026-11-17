@@ -1,0 +1,20 @@
+name: SEraster
+category: dry
+summary: Aggregates cellular spatial omics data into pixels to make downstream spatial analyses more scalable.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae412
+  year: 2024
+  journal: Bioinformatics
+  first_author: Aihara G
+  last_author: Fan J
+  pmid: '38902953'
+  pmcid: PMC11226864
+  title: 'SEraster: a rasterization preprocessing framework for scalable spatial omics data analysis'
+added: '2026-11-15'
+evidence: SEraster aggregates cellular information into spatial pixels before analyses including spatially variable gene expression.

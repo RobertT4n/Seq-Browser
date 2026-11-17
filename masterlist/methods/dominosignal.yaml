@@ -1,0 +1,19 @@
+name: dominoSignal
+category: dry
+summary: Tests for condition-dependent differences in cell signaling inferred from single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag089
+  year: 2026
+  journal: Bioinformatics
+  first_author: Mitchell JT
+  last_author: Fertig EJ
+  pmid: '41746282'
+  pmcid: PMC12998610
+  title: Differential cell signaling testing for cell-cell communication inference from single-cell data by dominoSignal
+added: '2026-11-15'
+evidence: dominoSignal compiles active signaling linkages across subjects and tests them for condition-dependent differences.

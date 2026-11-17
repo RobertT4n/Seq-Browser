@@ -1,0 +1,28 @@
+name: seqFISH+
+category: wet
+summary: Images transcriptome-scale mRNA expression and subcellular localization in single cells within tissues.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: genome-wide
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1038/s41586-019-1049-y
+  year: 2019
+  journal: Nature
+  first_author: Eng CL
+  last_author: Cai L
+  pmid: '30911168'
+  pmcid: PMC6544023
+  title: Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH
+added: '2026-11-15'
+evidence: seqFISH+ imaged mRNAs for 10,000 genes in single cells in mouse brain and revealed subcellular localization patterns.
+partition_unknown: not stated in the abstract

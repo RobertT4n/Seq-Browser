@@ -1,0 +1,26 @@
+name: DM-tRNA-seq
+category: wet
+summary: Removes tRNA base methylations and uses a processive reverse transcriptase to enable quantitative tRNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system:
+- cell-line
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.3478
+  year: 2015
+  journal: Nat Methods
+  first_author: Zheng G
+  last_author: Pan T
+  pmid: '26214130'
+  pmcid: PMC4624326
+  title: Efficient and quantitative high-throughput tRNA sequencing
+added: '2026-11-15'
+evidence: Engineered demethylases and a thermostable group II intron reverse transcriptase enabled quantitative tRNA sequencing
+  in HEK293T cells.

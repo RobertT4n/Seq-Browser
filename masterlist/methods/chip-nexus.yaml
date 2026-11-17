@@ -1,0 +1,27 @@
+name: ChIP-nexus
+full_name: chromatin immunoprecipitation experiments with nucleotide resolution through exonuclease, unique barcode and single
+  ligation
+category: wet
+summary: Maps transcription factor binding genome-wide at nucleotide resolution using an optimized ChIP-exo protocol.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- invertebrate
+validated_system: []
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1038/nbt.3121
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: He Q
+  last_author: Zeitlinger J
+  pmid: '25751057'
+  pmcid: PMC4390430
+  title: ChIP-nexus enables improved detection of in vivo transcription factor binding footprints
+added: '2026-11-15'
+evidence: ChIP-nexus applied to human TBP and three Drosophila proteins improved binding-site resolution and specificity.

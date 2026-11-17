@@ -1,0 +1,22 @@
+name: SDip
+category: dry
+summary: Uses a read overlap graph to assemble haplotypes and call structural variants in targeted segmental duplications.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2020.02.25.964445
+  year: 2020
+  journal: bioRxiv
+  first_author: Heller D
+  last_author: Garg S
+  title: 'SDip: A novel graph-based approach to haplotype-aware assembly based structural variant calling in targeted segmental
+    duplications sequencing'
+added: '2026-11-15'
+evidence: SDip uses differences in overlapping PacBio HiFi reads to build phased assemblies for structural variant calling
+  in duplicated regions.

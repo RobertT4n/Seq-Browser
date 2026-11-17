@@ -1,0 +1,33 @@
+name: uCoTarget
+category: wet
+summary: Uses split-pool barcoding to jointly profile multiple epigenetic proteins in single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system: []
+chemistry:
+- split-pool-barcoding
+targets:
+- H3K27ac
+- H3K4me3
+- H3K4me1
+- H3K36me3
+- H3K27me3
+- RUNX1
+reference:
+  doi: 10.1126/sciadv.adi3664
+  year: 2024
+  journal: Sci Adv
+  first_author: Xiong H
+  last_author: He A
+  pmid: '38170774'
+  pmcid: PMC10796078
+  title: Single-cell joint profiling of multiple epigenetic proteins and gene transcription
+added: '2026-11-15'
+evidence: uCoTarget uses split-pool barcoding for single-cell profiling of multiple epigenetic proteins, including five histone
+  modifications.

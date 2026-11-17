@@ -1,0 +1,19 @@
+name: HiCUP
+category: dry
+summary: Maps and quality-controls Hi-C and Capture Hi-C sequencing data while removing artefacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.7334.1
+  year: 2015
+  journal: F1000Res
+  first_author: Wingett S
+  last_author: Andrews S
+  pmid: '26835000'
+  pmcid: PMC4706059
+  title: 'HiCUP: pipeline for mapping and processing Hi-C data'
+added: '2026-11-15'
+evidence: HiCUP maps Hi-C and Capture Hi-C data to a reference genome, removes artefacts and produces a quality control report.

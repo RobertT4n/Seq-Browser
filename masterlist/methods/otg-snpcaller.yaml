@@ -1,0 +1,20 @@
+name: OTG-snpcaller
+category: dry
+summary: Calls single-nucleotide polymorphisms from Ion Proton sequencing data using an optimised TMAP and GATK pipeline.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0097507
+  year: 2014
+  journal: PLoS One
+  first_author: Zhu P
+  last_author: Xu X
+  pmid: '24824529'
+  pmcid: PMC4019570
+  title: 'OTG-snpcaller: an optimized pipeline based on TMAP and GATK for SNP calling from ion torrent data'
+added: '2026-11-15'
+evidence: OTG-snpcaller combines optimised processing with TMAP and GATK to call SNPs from Proton data and was evaluated on
+  captured exomes.

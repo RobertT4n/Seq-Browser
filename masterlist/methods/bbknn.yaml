@@ -1,0 +1,20 @@
+name: BBKNN
+category: dry
+summary: Integrates single-cell transcriptomics datasets by aligning batches with a graph-based algorithm.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz625
+  year: 2020
+  journal: Bioinformatics
+  first_author: Polański K
+  last_author: Park JE
+  pmid: '31400197'
+  pmcid: PMC9883685
+  title: 'BBKNN: fast batch alignment of single cell transcriptomes'
+added: '2026-11-15'
+evidence: BBKNN is a graph-based data integration algorithm developed to combine single-cell datasets while removing batch
+  effects.

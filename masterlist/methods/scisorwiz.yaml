@@ -1,0 +1,21 @@
+name: ScisorWiz
+category: dry
+summary: Visualises differential isoform expression across cell types from single-cell long-read RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btac340
+  year: 2022
+  journal: Bioinformatics
+  first_author: Stein AN
+  last_author: Tilgner HU
+  pmid: '35604081'
+  pmcid: PMC9237735
+  title: 'ScisorWiz: visualizing differential isoform expression in single-cell long-read data'
+added: '2026-11-15'
+evidence: ScisorWiz visualises specific genes across cell types and highlights alternative exons and single-nucleotide variants.

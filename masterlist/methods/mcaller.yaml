@@ -1,0 +1,23 @@
+name: mCaller
+category: dry
+summary: Detects DNA N6-methyladenine from nanopore sequencing current signals using a neural network.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-019-08289-9
+  year: 2019
+  journal: Nat Commun
+  first_author: McIntyre ABR
+  last_author: Mason CE
+  pmid: '30718479'
+  pmcid: PMC6362088
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+added: '2026-11-15'
+evidence: mCaller improves N6-methyladenine detection using deviations between measured and expected nanopore current values.

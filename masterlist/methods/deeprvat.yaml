@@ -1,0 +1,20 @@
+name: DeepRVAT
+full_name: deep rare variant association testing
+category: dry
+summary: Integrates rare-variant annotations and phenotypes to support gene discovery and trait prediction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41588-024-01919-z
+  year: 2024
+  journal: Nat Genet
+  first_author: Clarke B
+  last_author: Stegle O
+  pmid: '39322779'
+  pmcid: PMC11525182
+  title: Integration of variant annotations using deep set networks boosts rare variant association testing
+added: '2026-11-15'
+evidence: DeepRVAT learns a trait-agnostic gene impairment score from rare-variant annotations and phenotypes.
