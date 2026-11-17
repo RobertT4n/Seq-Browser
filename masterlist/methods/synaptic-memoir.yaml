@@ -1,0 +1,33 @@
+name: Synaptic MEMOIR
+full_name: memory with engineered mutagenesis with optical in situ readout (synaptic)
+category: wet
+summary: Continuous mutagenesis generates protein barcodes that are transported to synapses so synapses can be matched to
+  cell-body barcodes by optical imaging, mapping neuronal projections at single-synapse resolution.
+readouts:
+- cell-cell-contact
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: targeted
+chemistry: []
+chemistry_unknown: protein barcodes read by optical imaging (no sequencing and no in-situ-hybridization step); no matching
+  chemistry tag
+partition_unknown: not stated in the abstract
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+builds_on:
+- memoir
+reference:
+  doi: 10.1101/2025.11.25.690442
+  year: 2025
+  journal: bioRxiv
+  first_author: Tischbirek CH
+  last_author: Cai L
+  title: 'Synaptic MEMOIR: mapping individual synapses of neurons with protein barcodes'
+links: {}
+added: '2026-11-16'
+evidence: Synaptic MEMOIR enables imaging of neuronal projections in animal brains with single-synapse resolution; projection
+  mapping of 113 neurons in the Drosophila melanogaster optic lobe.

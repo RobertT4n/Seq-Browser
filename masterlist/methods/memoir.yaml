@@ -1,0 +1,29 @@
+name: MEMOIR
+full_name: memory by engineered mutagenesis with optical in situ readout
+category: wet
+summary: CRISPR-Cas9 target arrays accumulate scratch-pad mutations as a heritable lineage record that is read out in single cells by smFISH imaging in situ, not by sequencing.
+readouts:
+- lineage
+resolution:
+- single-cell
+- spatial
+temporal:
+- molecular-recording
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/nature20777
+  year: 2017
+  journal: Nature
+  first_author: Frieda KL
+  last_author: Cai L
+  title: Synthetic recording and in situ readout of lineage information in single cells
+links: {}
+added: '2026-11-16'
+evidence: Here we describe a synthetic system that enables cells to record lineage information and event histories in the genome in a format that can be subsequently read out in single cells in situ.

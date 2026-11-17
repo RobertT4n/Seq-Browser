@@ -1,0 +1,35 @@
+name: intMEMOIR
+full_name: integrase-editable memory by engineered mutagenesis with optical in situ readout
+category: wet
+summary: Serine-integrase array of three-state memory elements records lineage as up to 59,049 digital states, read out by imaging in situ together with spatial position and gene expression.
+readouts:
+- lineage
+- rna
+resolution:
+- single-cell
+- spatial
+temporal:
+- molecular-recording
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- mouse
+- invertebrate
+validated_system:
+- cell-line
+- tissue-in-vivo
+builds_on:
+- memoir
+reference:
+  doi: 10.1126/science.abb3099
+  year: 2021
+  journal: Science
+  first_author: Chow KK
+  last_author: Elowitz MB
+  title: Imaging cell lineage with a synthetic digital recording system
+  preprint_doi: 10.1101/2020.02.21.958678
+links: {}
+added: '2026-11-16'
+evidence: intMEMOIR allowed in situ reconstruction of lineage relationships in cultured mouse cells and flies, and simultaneous analysis of single-cell clonal history, spatial position, and gene expression in Drosophila brain sections.
