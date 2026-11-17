@@ -1,0 +1,13 @@
+name: hormone2cell
+category: dry
+summary: Predicts hormone-producing and hormone-receiving cell types from single-cell or single-nucleus expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.5281/zenodo.18665077
+added: '2026-11-15'
+evidence: hormone2cell uses a hormone-receptor reference and expression-based filtering and scoring to predict hormone production
+  and reception across cell types.

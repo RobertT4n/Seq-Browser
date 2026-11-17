@@ -1,0 +1,20 @@
+name: Chimera
+category: dry
+summary: Aligns single-cell atlases across species and compares orthologous gene expression patterns with protein sequence
+  conservation.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.11.766029
+  year: 2026
+  journal: bioRxiv
+  first_author: Inecik K
+  last_author: Theis F
+  title: 'Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation'
+added: '2026-11-15'
+evidence: Chimera aligns single-cell atlases across species and reports evidence for shared expression patterns relative to
+  protein identity for one-to-one orthologs.

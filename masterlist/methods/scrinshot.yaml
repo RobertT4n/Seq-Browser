@@ -1,0 +1,30 @@
+name: SCRINSHOT
+full_name: Single-Cell Resolution IN Situ Hybridization On Tissues
+category: wet
+summary: Multiplexed in situ detection of padlock probes maps RNA expression in individual cells in tissue sections.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+species:
+- mouse
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- in-situ-hybridization
+reference:
+  doi: 10.1371/journal.pbio.3000675
+  year: 2020
+  journal: PLoS Biol
+  first_author: Sountoulidis A
+  last_author: Samakovlis C
+  pmid: '33216742'
+  pmcid: PMC7717588
+  title: SCRINSHOT enables spatial mapping of cell states in tissue sections with single-cell resolution
+added: '2026-11-15'
+evidence: Padlock probes hybridize directly to mRNA, are circularized and amplified, and are detected sequentially to profile
+  thousands of cells in tissue sections.
+partition_unknown: not stated in the abstract

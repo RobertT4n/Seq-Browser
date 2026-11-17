@@ -1,0 +1,30 @@
+name: AIR-seq
+full_name: analog intrinsic recoding sequencing
+category: wet
+summary: N4-hydroxycytidine marks newly synthesized RNA with sequencing mismatches to measure RNA dynamics in bulk and single
+  cells.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+temporal:
+- metabolic-labeling
+species: []
+validated_system: []
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.07.27.741041
+  year: 2026
+  journal: bioRxiv
+  first_author: Hansen LN
+  last_author: Churchman LS
+  title: Analog intrinsic recoding measures RNA dynamics without chemical conversion
+added: '2026-11-15'
+evidence: N4-hydroxycytidine marks newly synthesized RNA with C-to-T and T-to-C mismatches in standard RNA-seq libraries,
+  enabling bulk and single-cell RNA dynamics measurements.
+partition_unknown: not stated in the abstract

@@ -1,0 +1,21 @@
+name: deepC
+category: dry
+summary: Predicts three-dimensional genome folding and the effects of genetic variation from megabase-scale DNA sequence.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-020-0960-3
+  year: 2020
+  journal: Nat Methods
+  first_author: Schwessinger R
+  last_author: Hughes JR
+  pmid: '33046896'
+  pmcid: PMC7610627
+  title: 'DeepC: predicting 3D genome folding using megabase-scale transfer learning'
+added: '2026-11-15'
+evidence: deepC is a transfer-learning neural network that predicts genome folding, domain boundaries, and effects of structural
+  and single-base variants from DNA sequence.

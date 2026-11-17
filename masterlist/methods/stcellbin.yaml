@@ -1,0 +1,23 @@
+name: STCellbin
+category: dry
+summary: Aligns cell boundary images with spatial expression maps to generate single-cell gene expression profiles from Stereo-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.46471/gigabyte.110
+  year: 2024
+  journal: GigaByte
+  first_author: Zhang B
+  last_author: Xu X
+  pmid: '38434932'
+  pmcid: PMC10905256
+  title: Generating single-cell gene expression profiles for high-resolution spatial transcriptomics based on cell boundary
+    images
+added: '2026-11-15'
+evidence: STCellbin aligns membrane or wall staining images with spatial gene expression maps and segments cell boundaries
+  to improve single-cell profiles.

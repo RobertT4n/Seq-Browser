@@ -1,0 +1,20 @@
+name: Mudskipper
+category: dry
+summary: Analyzes multiplexed CLIP data to identify RNA-binding protein interactions and remove nonspecific signals.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2024.100603
+  year: 2024
+  journal: Cell Genom
+  first_author: Her H
+  last_author: Yeo GW
+  pmid: '38955188'
+  pmcid: PMC11639743
+  title: Mudskipper detects combinatorial RNA binding protein interactions in multiplexed CLIP data
+added: '2026-11-15'
+evidence: Mudskipper combines a Dirichlet multinomial mixture model with softmasking to identify and remove nonspecific protein-RNA
+  interactions in multiplexed CLIP data.

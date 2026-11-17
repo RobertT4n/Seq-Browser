@@ -1,0 +1,22 @@
+name: SMRT-SV
+category: dry
+summary: Uses an assembly-based approach to discover structural variants and indels from long-read haploid genome sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/gr.214007.116
+  year: 2017
+  journal: Genome Res
+  first_author: Huddleston J
+  last_author: Eichler EE
+  pmid: '27895111'
+  pmcid: PMC5411763
+  title: Discovery and genotyping of structural variation from long-read haploid genome sequence data
+added: '2026-11-15'
+evidence: SMRT-SV used an assembly-based approach to assess two haploid human genomes for structural variants and indels.

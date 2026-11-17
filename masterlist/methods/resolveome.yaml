@@ -1,0 +1,29 @@
+name: ResolveOME
+category: wet
+summary: Primary template-directed amplification and full-transcript RNA-seq jointly profile genome variation and gene expression
+  in individual cells.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2022.04.29.489440
+  year: 2022
+  journal: bioRxiv
+  first_author: Marks JR
+  last_author: West JA
+  title: Unifying comprehensive genomics and transcriptomics in individual cells to illuminate oncogenic and drug resistance
+    mechanisms
+added: '2026-11-15'
+evidence: ResolveOME combines primary template-directed amplification for complete-genome single-nucleotide variation assessment
+  with full-transcript RNA-seq in individual cells.
+partition_unknown: not stated in the abstract

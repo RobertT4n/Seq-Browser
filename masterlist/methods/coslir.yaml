@@ -1,0 +1,22 @@
+name: COSLIR
+full_name: COvariance restricted Sparse LInear Regression
+category: dry
+summary: Reconstructs gene regulatory networks governing cell-state transitions from cross-sectional measurements at consecutive
+  time points.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-024-62850-1
+  year: 2024
+  journal: Sci Rep
+  first_author: Wan R
+  last_author: Ge H
+  pmid: '38811747'
+  pmcid: PMC11137113
+  title: Unveiling gene regulatory networks during cellular state transitions without linkage across time points
+added: '2026-11-15'
+evidence: COSLIR reconstructs regulatory networks using the first and second moments of samples from consecutive time points
+  and was applied to single-cell RT-PCR and RNA-seq data.

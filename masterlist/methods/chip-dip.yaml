@@ -1,0 +1,31 @@
+name: ChIP-DIP
+full_name: chromatin immunoprecipitation done in parallel
+category: wet
+summary: Parallel chromatin immunoprecipitation maps hundreds of DNA-associated proteins and histone modifications across
+  the genome in one experiment.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system:
+- primary-cells
+- cell-line
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1038/s41588-024-02000-5
+  year: 2024
+  journal: Nat Genet
+  first_author: Perez AA
+  last_author: Guttman M
+  pmid: '39587360'
+  pmcid: PMC12136341
+  title: ChIP-DIP maps binding of hundreds of proteins to DNA simultaneously and identifies diverse gene regulatory elements
+added: '2026-11-15'
+evidence: ChIP-DIP generates genome-wide maps of pools of more than 160 DNA-associated proteins, including modified histones,
+  chromatin regulators, and transcription factors.

@@ -1,0 +1,21 @@
+name: IGV
+full_name: Integrative Genomics Viewer
+category: dry
+summary: An IGV module visualizes RNA chemical probing data and secondary structure models alongside genomic data tracks.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1261/rna.060194.116
+  year: 2017
+  journal: RNA
+  first_author: Busan S
+  last_author: Weeks KM
+  pmid: '28428329'
+  pmcid: PMC5473135
+  title: Visualization of RNA structure models within the Integrative Genomics Viewer
+added: '2026-11-15'
+evidence: The module displays chemical probing reactivities, structural entropies, and base-pair secondary structure models
+  in the context of linear genomic tracks.

@@ -1,0 +1,19 @@
+name: StereoMM
+category: dry
+summary: Integrates spatial gene expression, tissue images, and positions to identify spatial regions and characterize tissues.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf210
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Luo B
+  last_author: Zhang J
+  pmid: '40407386'
+  pmcid: PMC12100622
+  title: 'StereoMM: a graph fusion model for integrating spatial transcriptomic data and pathological images'
+added: '2026-11-15'
+evidence: StereoMM uses attention and a graph autoencoder to integrate omics data, histological images, and spatial locations.

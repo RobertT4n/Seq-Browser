@@ -1,0 +1,28 @@
+name: subcellular TimeLapse-seq
+category: wet
+summary: Measures RNA flow and degradation rates across subcellular compartments in human and mouse cells.
+readouts:
+- rna
+- rna-degradation
+resolution:
+- subcellular
+scope: genome-wide
+species:
+- human
+- mouse
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2024.06.008
+  year: 2024
+  journal: Mol Cell
+  first_author: Ietswaart R
+  last_author: Churchman LS
+  pmid: '38964322'
+  pmcid: PMC11315470
+  title: Genome-wide quantification of RNA flow across subcellular compartments reveals determinants of the mammalian transcript
+    life cycle
+added: '2026-11-15'
+evidence: The method measures rates of RNA release from chromatin, nuclear export, polysome loading, and degradation in the
+  nucleus and cytoplasm.

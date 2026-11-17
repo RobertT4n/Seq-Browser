@@ -1,0 +1,21 @@
+name: ChromaFold
+category: dry
+summary: Predicts cell-type-specific three-dimensional chromatin contact maps from single-cell chromatin accessibility data.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53628-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Gao VR
+  last_author: Leslie CS
+  pmid: '39487131'
+  pmcid: PMC11530433
+  title: ChromaFold predicts the 3D contact map from single-cell chromatin accessibility
+added: '2026-11-15'
+evidence: ChromaFold predicts contact maps using pseudobulk accessibility, co-accessibility across metacells, and a CTCF motif
+  track derived for analysis of scATAC-seq data.

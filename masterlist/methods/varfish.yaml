@@ -1,0 +1,21 @@
+name: VarFish
+category: dry
+summary: Supports quality control, annotation, filtering, and prioritization of DNA variants for research and rare disease
+  diagnostics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa241
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Holtgrewe M
+  last_author: Beule D
+  pmid: '32338743'
+  pmcid: PMC7319464
+  title: 'VarFish: comprehensive DNA variant analysis for diagnostics and research'
+added: '2026-11-15'
+evidence: VarFish processes variant call files and annotates variants with population frequencies, molecular impact, and database
+  information to support filtering and prioritization.

@@ -1,0 +1,20 @@
+name: dms_tools
+category: dry
+summary: Infers and visualizes the effects of mutations from deep mutational scanning counts before and after selection.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-015-0590-4
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Bloom JD
+  last_author: Bloom JD
+  pmid: '25990960'
+  pmcid: PMC4491876
+  title: Software for the analysis and visualization of deep mutational scanning data
+added: '2026-11-15'
+evidence: dms_tools uses a likelihood-based treatment of mutation counts to infer amino acid preferences and their changes
+  under different selection pressures.

@@ -1,0 +1,24 @@
+name: Opto-CLIP
+category: wet
+summary: Optogenetics combined with cell-type-specific FMRP-CLIP and RiboTag measures changes in RNA binding and ribosome-associated
+  RNA after neuronal activation.
+readouts:
+- rna-protein-interaction
+- translation
+resolution:
+- subcellular
+scope: genome-wide
+species: []
+validated_system: []
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.08.13.607210
+  year: 2024
+  journal: bioRxiv
+  first_author: Singer RA
+  last_author: Darnell RB
+  title: Opto-CLIP reveals dynamic FMRP regulation of mRNAs upon CA1 neuronal activation
+added: '2026-11-15'
+evidence: Opto-CLIP integrates optogenetics with FMRP-CLIP and RiboTag in CA1 neurons to track FMRP binding and ribosome-associated
+  RNA profiles after activation.

@@ -1,0 +1,20 @@
+name: spatiAlign
+category: dry
+summary: Integrates spatial transcriptomics sections using gene expression and spatial location to support joint analysis.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae042
+  year: 2024
+  journal: Gigascience
+  first_author: Zhang C
+  last_author: Li Y
+  pmid: '39028588'
+  pmcid: PMC11258913
+  title: 'spatiAlign: an unsupervised contrastive learning model for data integration of spatially resolved transcriptomics'
+added: '2026-11-15'
+evidence: spatiAlign uses measured gene expression and cell locations to integrate multiple tissue sections in embeddings
+  and reconstructed expression space.

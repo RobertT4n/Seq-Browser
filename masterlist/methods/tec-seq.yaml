@@ -1,0 +1,26 @@
+name: TEC-Seq
+full_name: targeted error correction sequencing
+category: wet
+summary: Targeted error-corrected sequencing detects sequence changes in circulating cell-free DNA for early cancer detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+species:
+- human
+validated_system: []
+chemistry: []
+reference:
+  doi: 10.1126/scitranslmed.aan2415
+  year: 2017
+  journal: Sci Transl Med
+  first_author: Phallen J
+  last_author: Velculescu VE
+  pmid: '28814544'
+  pmcid: PMC6714979
+  title: Direct detection of early-stage cancers using circulating tumor DNA
+added: '2026-11-15'
+evidence: TEC-Seq was used to examine 58 cancer-related genes in plasma and detected somatic mutations in patients with early-stage
+  cancers.
+chemistry_unknown: not stated in abstract

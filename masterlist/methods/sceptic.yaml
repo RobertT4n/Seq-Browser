@@ -1,0 +1,21 @@
+name: Sceptic
+category: dry
+summary: Uses a supervised support vector machine to predict pseudotime from time-series single-cell data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03679-3
+  year: 2025
+  journal: Genome Biol
+  first_author: Li G
+  last_author: Noble WS
+  pmid: '40676652'
+  pmcid: PMC12273354
+  title: 'Sceptic: pseudotime analysis for time-series single-cell sequencing and imaging data'
+added: '2026-11-15'
+evidence: Sceptic performs supervised pseudotime analysis across single-cell data types, including scRNA-seq, scATAC-seq,
+  and single-nucleus images.

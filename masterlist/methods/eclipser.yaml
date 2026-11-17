@@ -1,0 +1,21 @@
+name: ECLIPSER
+category: dry
+summary: Integrates GWAS loci, QTL mappings, and single-cell expression data to identify cell types and genes associated with
+  complex traits.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.24.469720
+  year: 2021
+  journal: bioRxiv
+  first_author: Rouhana JM
+  last_author: Segrè AV
+  title: 'ECLIPSER: identifying causal cell types and genes for complex traits through single cell enrichment of e/sQTL-mapped
+    genes in GWAS loci'
+added: '2026-11-15'
+evidence: ECLIPSER maps genes to GWAS loci using expression and splicing QTLs and tests for enrichment of cell-type-specific
+  expression.

@@ -1,0 +1,29 @@
+name: ExSeq
+full_name: expansion sequencing
+category: wet
+summary: Expansion microscopy enables in situ sequencing and spatial mapping of RNA at nanoscale resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+species:
+- mouse
+- human
+validated_system:
+- tissue-in-vivo
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1126/science.aax2656
+  year: 2021
+  journal: Science
+  first_author: Alon S
+  last_author: Boyden ES
+  pmid: '33509999'
+  pmcid: PMC7900882
+  title: 'Expansion sequencing: Spatially precise in situ transcriptomics in intact biological systems'
+added: '2026-11-15'
+evidence: Untargeted ExSeq read thousands of genes in mouse brain, while targeted ExSeq mapped RNAs in neuronal dendrites
+  and spines and in a human breast cancer biopsy.
