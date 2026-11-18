@@ -13,7 +13,7 @@
     </a>
   </div>`;
   // Keep the counter outside the table body that search, sorting and expansion replace.
-  const llm = document.querySelector('main > .llm');
+  const llm = document.getElementById('upd') || document.querySelector('main > .llm');
   if (llm) llm.insertAdjacentElement('afterend', footer);
   else document.body.appendChild(footer);
 })();
