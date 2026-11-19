@@ -93,6 +93,7 @@
 </div>
 <div id="card"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="family_layout.js?v=20261119-1"></script>
 <script>
 // each domain owns an arc of HCL hue; its lanes are spread evenly along the arc with alternating lightness, so adjacent
 // lanes differ in both hue and brightness (lane position + label carry identity too, colour is a secondary cue)
@@ -177,38 +178,13 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   nodes.forEach(n => {
     n.doms = split(n.domains); n.lw = n.name.length * 7 + 10; n.r = r(n.citations || 0);
     n.lane = laneReadout(n);
-    n.ty = laneY[n.lane];  // lane = the readout its lineage is built on (see laneReadout); arcs show the others
-    n.x = xDate(n); n.y = n.ty + (Math.random() - .5) * 20;
+    n.x = xDate(n);
   });
-
-  // node + its right-hand label as a box; overlapping boxes are pushed apart vertically (x stays pinned to year)
-  let sorted = null;
-  function labelBoxes(alpha) {
-    const box = n => [n.x - n.r - 4, n.x + n.r + n.lw, Math.max(n.r, 9) + 4];
-    // sweep-and-prune: nodes stay pinned near their year, so sort by x and stop scanning once the next box starts past this one's end
-    // (was a full all-pairs scan every tick, which is what made the page take ~10 s to open)
-    const order = sorted || (sorted = nodes.slice().sort((p, q) => p.x - q.x));
-    for (let i = 0; i < order.length; i++) for (let j = i + 1; j < order.length; j++) {
-      const a = order[i], b = order[j], [ax0, ax1, ah] = box(a), [bx0, bx1, bh] = box(b);
-      if (bx0 > ax1 + 40) break;
-      if (ax1 < bx0 || bx1 < ax0) continue;
-      const dy = b.y - a.y, need = ah + bh;
-      if (Math.abs(dy) < need) { const push = (need - Math.abs(dy)) / 2 * alpha * 1.2, s = dy >= 0 ? 1 : -1; a.y -= push * s; b.y += push * s; }
-    }
-  }
-  const sim = d3.forceSimulation(nodes)
-    .force("x", d3.forceX(d => xDate(d)).strength(1))
-    .force("y", d3.forceY(d => d.ty).strength(.45))
-    .force("collide", d3.forceCollide(d => d.r + 6).iterations(2))
-    .force("labels", labelBoxes).stop();
-  for (let i = 0; i < 600; i++) sim.tick();
-  nodes.forEach(n => n.x = xDate(n));  // snap back so the time axis stays exact
-  for (let i = 0; i < 40; i++) labelBoxes(1);  // final pass: separate any labels that still touch
-  // second pass: shrink each lane to the vertical room its methods actually use, then move the methods with their lane
+  // Pack fixed-date circles in each lane, then size lanes from the actual spread. Labels are handled separately at each zoom.
   {
-    const ext = {};
-    nodes.forEach(n => { const e = ext[n.lane] || (ext[n.lane] = [Infinity, -Infinity]); e[0] = Math.min(e[0], n.y - Math.max(n.r, 9)); e[1] = Math.max(e[1], n.y + Math.max(n.r, 9)); });
-    const old = { ...laneY };
+    const ext = {}, groups = d3.group(nodes, n => n.lane);
+    groups.forEach(group => packFamilyLane(group));
+    nodes.forEach(n => { const e = ext[n.lane] || (ext[n.lane] = [Infinity, -Infinity]); e[0] = Math.min(e[0], n.y - n.r - 6); e[1] = Math.max(e[1], n.y + n.r + 6); });
     placeLanes(q => used.has(q) && ext[q] ? Math.max(72, ext[q][1] - ext[q][0] + 56) : (used.has(q) ? 72 : 40));
     nodes.forEach(n => { const e = ext[n.lane]; n.y += laneY[n.lane] - (e[0] + e[1]) / 2; });
   }
@@ -333,11 +309,13 @@ Promise.all([fetch("methods.json").then(r => r.json()), fetch("taxonomy.json").t
   const prio = nodes.map((_, i) => i).sort((a, b) => (nodes[b].citations || 0) - (nodes[a].citations || 0)), labOn = nodes.map(() => true);
   let dRaf = 0, dT = null;
   function declutter() { dRaf = 0; const t = dT, grid = new Map(), C = 60, put = (b, f) => { for (let gx = Math.floor(b[0] / C); gx <= Math.floor(b[1] / C); gx++) for (let gy = Math.floor(b[2] / C); gy <= Math.floor(b[3] / C); gy++) f(`${gx},${gy}`); };
+    // Hidden labels must never cover another method's circle.
+    nodes.forEach((n, i) => { if (!nOn[i]) return; const x = n.x * t.k + t.x, y = n.y * t.k + t.y, r = (n.r + 4) * t.k, b = [x-r, x+r, y-r, y+r]; put(b, k => { (grid.get(k) || grid.set(k, []).get(k)).push(b); }); });
     for (const i of prio) { if (!nOn[i]) continue; const n = nodes[i], sx = (n.x + n.r + 7) * t.k + t.x, sy = n.y * t.k + t.y,
         b = [sx, sx + n.name.length * 6.8 * t.k, sy - 8 * t.k, sy + 8 * t.k]; let hit = false;
       put(b, k => { if (!hit) for (const o of grid.get(k) || []) if (!(o[1] < b[0] || b[1] < o[0] || o[3] < b[2] || b[3] < o[2])) { hit = true; break; } });
       if (!hit) put(b, k => { (grid.get(k) || grid.set(k, []).get(k)).push(b); });
-      if (labOn[i] === hit) { labOn[i] = !hit; nodeEls[i].classList.toggle("nolabel", hit); } } }
+      if (labOn[i] === hit) { labOn[i] = !hit; nodeEls[i].classList.toggle("nolabel", hit); nodeEls[i].querySelector('.hit').setAttribute('width', 2 * n.r + 12 + (hit ? 0 : n.lw)); } } }
   const declutterSoon = t => { dT = t; if (!dRaf) dRaf = requestAnimationFrame(declutter); };
   // never pan the plot's left edge away from the label panel: no empty buffer on the left
   { const base = zoom.constrain(); zoom.constrain((t, ex, te) => { t = base(t, ex, te); const mx = PANEL + 10 - (bb.x - pad) * t.k; return t.x > mx ? d3.zoomIdentity.translate(mx, t.y).scale(t.k) : t; }); }
