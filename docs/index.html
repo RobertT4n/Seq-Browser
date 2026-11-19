@@ -8,6 +8,30 @@
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css?v=20261112-0440">
+<style>
+@media (min-width:641px) {
+  main > table { table-layout:fixed; }
+  main > table td.name { white-space:normal; overflow-wrap:anywhere; }
+  main > table td.chem, main > table td.reads { min-width:0; }
+  main > table .tag { max-width:100%; white-space:normal; overflow-wrap:anywhere; }
+  main > table td.doi a { max-width:100%; }
+  main > table th { white-space:normal; overflow-wrap:normal; }
+}
+@media (min-width:761px) and (max-width:1100px) {
+  main > table th { font-size:10px; letter-spacing:0; padding-inline:5px; }
+  main > table td { padding-inline:5px; }
+}
+@media (min-width:761px) {
+  main > table th:nth-child(1) { width:29%; }
+  main > table th:nth-child(2) { width:13%; }
+  main > table th:nth-child(3) { width:10%; }
+  main > table th:nth-child(4) { width:9%; }
+  main > table th:nth-child(5) { width:15%; }
+  main > table th:nth-child(6) { width:11%; }
+  main > table th:nth-child(7) { width:8%; }
+  main > table th:nth-child(8) { width:5%; }
+}
+</style>
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser"><meta property="og:description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
 </head>
 <body>
@@ -122,7 +146,7 @@ function render() {
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
   document.getElementById("rows").innerHTML = rows.map(m => `
     <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
-    <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm" style="white-space:nowrap">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
+    <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("") || '<tr><td colspan="8">No matching methods. Try fewer search words, remove a filter, or <button type="button" class="showdry" id="empty-clear">clear search and filters</button>.</td></tr>';
