@@ -1,0 +1,24 @@
+name: AptamerRunner
+category: dry
+summary: An algorithm clusters aptamer sequences or structures and visualizes ranked candidates from sequencing-based selections.
+readouts:
+- genome-sequence
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.omtn.2024.102358
+  year: 2024
+  journal: Mol Ther Nucleic Acids
+  first_author: Ruiz-Ciancio D
+  last_author: Thiel WH
+  pmid: '39507401'
+  pmcid: PMC11539416
+  title: 'AptamerRunner: An accessible aptamer structure prediction and clustering algorithm for visualization of selected
+    aptamers'
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): input is aptamer sequences (SELEX output), not genomic sequence; taxonomy has no aptamer-sequence readout. Curated out pending a scope decision.'
+added: '2026-11-21'
+evidence: AptamerRunner clusters aptamer sequences or structures and displays networks alongside ranking data such as fold
+  enrichment.

@@ -1,0 +1,23 @@
+name: HarmoDecon
+category: dry
+summary: Deep learning model that estimates cell type proportions in spatial transcriptomic spots while addressing biases
+  across spots, samples and platforms.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf451
+  year: 2025
+  journal: Bioinformatics
+  first_author: Wang Z
+  last_author: Zhang L
+  pmid: '40796171'
+  pmcid: PMC12417081
+  title: Mitigation of multi-scale biases in cell-type deconvolution for spatially resolved transcriptomics using HarmoDecon
+  preprint_doi: 10.1101/2024.10.02.616209
+links: {}
+added: '2026-11-21'
+evidence: HarmoDecon uses pseudo-spots derived from scRNA-seq data for spatial cell type deconvolution.

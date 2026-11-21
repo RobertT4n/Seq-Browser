@@ -1,0 +1,23 @@
+name: MethylSeqLogo
+category: dry
+summary: An extension of sequence logos displays DNA methylation and under-represented dimers at transcription factor binding
+  sites.
+readouts:
+- dna-methylation
+- dna-5mc
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-024-05896-2
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Hsu FM
+  last_author: Horton P
+  pmid: '39385066'
+  pmcid: PMC11462690
+  title: 'MethylSeqLogo: DNA methylation smart sequence logos'
+links: {}
+added: '2026-11-21'
+evidence: MethylSeqLogo adds methylation and under-represented dimer information to sequence logos for sets of binding sites.

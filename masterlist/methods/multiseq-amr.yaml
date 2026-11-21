@@ -1,0 +1,29 @@
+name: MultiSeq-AMR
+category: wet
+summary: An amplicon sequencing workflow identifies bacterial and fungal species and antimicrobial resistance genes in bloodstream
+  infection samples.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1099/mgen.0.001383
+  year: 2025
+  journal: Microb Genom
+  first_author: Sajib MSI
+  last_author: Forde T
+  pmid: '40178523'
+  pmcid: PMC12452178
+  title: 'MultiSeq-AMR: a modular amplicon-sequencing workflow for rapid detection of bloodstream infection and antimicrobial
+    resistance markers'
+  preprint_doi: 10.1101/2024.10.25.24316117
+links: {}
+added: '2026-11-21'
+evidence: MultiSeq-AMR identifies bacterial and fungal species and a set of 91 antimicrobial resistance genes using amplicon
+  sequencing.

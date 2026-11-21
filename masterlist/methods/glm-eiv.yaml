@@ -1,0 +1,23 @@
+name: GLM-EIV
+full_name: GLM-based errors-in-variables
+category: dry
+summary: An errors-in-variables model analyzes single-cell CRISPR screens while accounting for noisy predictors and confounding
+  variables.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/biostatistics/kxae010
+  year: 2024
+  journal: Biostatistics
+  first_author: Barry T
+  last_author: Katsevich E
+  pmid: '38649751'
+  pmcid: PMC11471999
+  title: Exponential family measurement error models for single-cell CRISPR screens
+links: {}
+added: '2026-11-21'
+evidence: GLM-EIV extends errors-in-variables modeling to exponential family responses and noisy predictors in single-cell
+  CRISPR screens.

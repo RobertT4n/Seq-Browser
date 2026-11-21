@@ -1,0 +1,37 @@
+name: GO-TEN
+full_name: Genotyping Of Transcriptomes Enhanced with Nanopore sequencing
+category: wet
+summary: Targeted cDNA sequencing combined with single-nucleus RNA sequencing enables concurrent genotyping and transcriptional
+  analysis.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1073/pnas.2509622122
+  year: 2025
+  journal: Proc Natl Acad Sci U S A
+  first_author: Bizzotto S
+  last_author: Walsh CA
+  pmid: '40674414'
+  pmcid: PMC12305027
+  title: Cell-type-informed genotyping of mosaic focal epilepsies reveals cell-autonomous and non-cell-autonomous disease-associated
+    transcriptional programs
+  preprint_doi: 10.1101/2024.10.01.615793
+links: {}
+added: '2026-11-21'
+evidence: GO-TEN combines targeted cDNA sequencing with single-nucleus RNA sequencing for concurrent genotyping and transcriptional
+  analysis in human cortical tissue.

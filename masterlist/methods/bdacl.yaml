@@ -1,0 +1,22 @@
+name: BDACL
+full_name: Biological-noise Decoupling Autoencoder and Central-cross Loss
+category: dry
+summary: An autoencoder-based model corrects batch effects in single-cell RNA-seq data using clustering and a central-cross
+  loss.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2024.108261
+  year: 2024
+  journal: Comput Biol Chem
+  first_author: Di Z
+  last_author: Ji H
+  pmid: '39461162'
+  title: Batch effects correction in scRNA-seq based on biological-noise decoupling autoencoder and central-cross loss
+links: {}
+added: '2026-11-21'
+evidence: BDACL reconstructs data with an autoencoder and uses relationships within and between batches and a central-cross
+  loss to correct batch effects.

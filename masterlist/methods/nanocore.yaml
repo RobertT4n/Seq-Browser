@@ -1,0 +1,26 @@
+name: NanoCore
+category: dry
+summary: A genomic surveillance method calculates and visualizes core-genome-based distances between bacterial isolates from
+  sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1128/msystems.01080-24
+  year: 2024
+  journal: mSystems
+  first_author: Fuchs SA
+  last_author: Dilthey AT
+  pmid: '39373471'
+  pmcid: PMC11575142
+  title: 'NanoCore: core-genome-based bacterial genomic surveillance and outbreak detection in healthcare facilities from
+    Nanopore and Illumina data'
+links: {}
+added: '2026-11-21'
+evidence: NanoCore calculates cgMLST-like sample distances directly from unassembled Nanopore reads and also supports Illumina
+  data.

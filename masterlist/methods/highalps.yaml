@@ -1,0 +1,28 @@
+name: HighALPS
+full_name: ultra-High-throughput Amplicon Library Preparation and Sequencing
+category: wet
+summary: A highly multiplexed amplicon library preparation protocol profiles microbial communities using bacterial 16S and
+  fungal ITS markers.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1128/msystems.00023-26
+  year: 2026
+  journal: mSystems
+  first_author: Flörl L
+  last_author: Bokulich NA
+  pmid: '41665368'
+  pmcid: PMC13011336
+  title: 'HighALPS: ultra-high-throughput marker-gene amplicon library preparation and sequencing on the Illumina NextSeq
+    and NovaSeq Platforms'
+  preprint_doi: 10.1101/2024.10.10.617643
+links: {}
+added: '2026-11-21'
+evidence: HighALPS is designed for 16S rRNA gene and fungal ITS sequencing and was validated using mock communities.

@@ -1,0 +1,21 @@
+name: scMultiNODE
+category: dry
+summary: Integration model that aligns single-cell gene expression and chromatin accessibility measurements across time to
+  model cell development.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.27.620531
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhang J
+  last_author: Singh R
+  title: 'scMultiNODE: Recovering Developmental Dynamics in Weakly Resolved Modalities through Multi-Modal Integration'
+links: {}
+added: '2026-11-21'
+evidence: scMultiNODE integrates gene expression and chromatin accessibility from multiple timepoints without prior cell-to-cell
+  correspondence.

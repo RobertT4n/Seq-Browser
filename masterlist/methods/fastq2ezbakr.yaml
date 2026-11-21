@@ -1,0 +1,22 @@
+name: fastq2EZbakR
+category: dry
+summary: A Snakemake pipeline preprocesses nucleotide recoding RNA sequencing datasets and assigns reads to genomic features.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1013179
+  year: 2025
+  journal: PLoS Comput Biol
+  first_author: Vock IW
+  last_author: Simon MD
+  pmid: '40609070'
+  pmcid: PMC12251217
+  title: Expanding and improving analyses of nucleotide recoding RNA-seq experiments with the EZbakR suite
+  preprint_doi: 10.1101/2024.10.14.617411
+links: {}
+added: '2026-11-21'
+evidence: fastq2EZbakR provides flexible preprocessing of nucleotide recoding RNA-seq datasets and assigns reads to features
+  including genes, exons, and splice junctions.

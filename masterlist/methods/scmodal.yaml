@@ -1,0 +1,24 @@
+name: scMODAL
+category: dry
+summary: Deep learning framework that aligns single-cell multi-omics datasets using links between features.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-60333-z
+  year: 2025
+  journal: Nat Commun
+  first_author: Wang G
+  last_author: Zhao H
+  pmid: '40442129'
+  pmcid: PMC12122792
+  title: 'scMODAL: a general deep learning framework for comprehensive single-cell multi-omics data alignment with feature
+    links'
+  preprint_doi: 10.1101/2024.10.01.616142
+links: {}
+added: '2026-11-21'
+evidence: scMODAL aligns single-cell multi-omics datasets using known positively correlated features and preserves feature
+  topology.

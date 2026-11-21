@@ -1,0 +1,19 @@
+name: assessPool
+category: dry
+summary: An R and Bash pipeline for population genomic analysis of pooled sequencing data, with a focus on population structure.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.09.617480
+  year: 2024
+  journal: bioRxiv
+  first_author: Freel EB
+  last_author: Toonen RJ
+  title: 'assessPool: a flexible pipeline for population genomic analyses of pooled sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: assessPool accepts SNP calls and a reference sequence and calculates locus-by-locus pairwise FST and associated
+  Fisher test values.

@@ -1,0 +1,20 @@
+name: TERRACE
+category: dry
+summary: Algorithm that assembles full-length circular RNAs from paired-end total RNA-seq data using splice graphs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279106.124
+  year: 2024
+  journal: Genome Res
+  first_author: Zahin T
+  last_author: Shao M
+  pmid: '39060030'
+  pmcid: PMC11529859
+  title: Accurate assembly of circular RNAs with TERRACE
+links: {}
+added: '2026-11-21'
+evidence: TERRACE assembles full-length circRNAs from paired-end total RNA-seq data using a splice graph.

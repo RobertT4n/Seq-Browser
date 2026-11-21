@@ -1,0 +1,20 @@
+name: CANVAR
+category: dry
+summary: Python script that annotates sequencing variants using ClinVar database information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/mgg3.70020
+  year: 2024
+  journal: Mol Genet Genomic Med
+  first_author: Vestergaard LK
+  last_author: Høgdall EV
+  pmid: '39382066'
+  pmcid: PMC11462301
+  title: 'CANVAR: A Tool for Clinical Annotation of Variants Using ClinVar Databases'
+links: {}
+added: '2026-11-21'
+evidence: CANVAR annotates variants identified by next-generation sequencing with information from ClinVar.

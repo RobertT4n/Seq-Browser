@@ -1,0 +1,24 @@
+name: LEGEND
+category: dry
+summary: Computational method that integrates single-cell and spatial transcriptomic data to identify co-expressed gene groups
+  across cell types and tissue domains.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzaf056
+  year: 2025
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Deng T
+  last_author: Sun X
+  pmid: '40591483'
+  pmcid: PMC12715406
+  title: 'LEGEND: Identifying Co-expressed Genes in Multimodal Transcriptomic Sequencing Data'
+  preprint_doi: 10.1101/2024.10.27.620451
+links: {}
+added: '2026-11-21'
+evidence: LEGEND integrates scRNA-seq and spatial transcriptomic data to identify co-expressed genes at cell type and tissue
+  domain levels.

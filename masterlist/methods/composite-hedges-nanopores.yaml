@@ -1,0 +1,25 @@
+name: Composite Hedges Nanopores
+category: dry
+summary: A codec system encodes and recovers digital data stored in DNA using nanopore sequencing with correction of insertion
+  and deletion errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-53455-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Zhao X
+  last_author: Li Y
+  pmid: '39477940'
+  pmcid: PMC11525716
+  title: Composite Hedges Nanopores codec system for rapid and portable DNA data readout with high INDEL-Correction
+links: {}
+added: '2026-11-21'
+evidence: Composite Hedges Nanopores uses a degenerate eight-letter alphabet and recovers text and image data from nanopore
+  sequencing.

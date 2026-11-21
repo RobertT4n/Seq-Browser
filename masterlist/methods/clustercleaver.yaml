@@ -1,0 +1,23 @@
+name: clusterCleaver
+category: dry
+summary: A computational package identifies candidate surface markers that distinguish transcriptomic subpopulations in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41540-024-00441-6
+  year: 2024
+  journal: NPJ Syst Biol Appl
+  first_author: Gardner AL
+  last_author: Brock A
+  pmid: '39420005'
+  pmcid: PMC11487074
+  title: Computational identification of surface markers for isolating distinct subpopulations from heterogeneous cancer cell
+    populations
+links: {}
+added: '2026-11-21'
+evidence: clusterCleaver uses statistical distance to identify surface markers unique to transcriptomic subpopulations for
+  potential FACS isolation.

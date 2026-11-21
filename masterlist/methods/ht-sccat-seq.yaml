@@ -1,0 +1,31 @@
+name: HT-scCAT-seq
+full_name: high throughput single-cell chromatin accessibility and transcriptome sequencing
+category: wet
+summary: Simultaneously profiles chromatin accessibility and transcriptomes in single cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s13059-025-03652-0
+  year: 2025
+  journal: Genome Biol
+  first_author: Deng Q
+  last_author: Liu C
+  pmid: '40598278'
+  pmcid: PMC12220359
+  title: Deciphering gene regulatory programs in mouse embryonic skin through single-cell multiomics analysis
+  preprint_doi: 10.1101/2024.10.11.617797
+links: {}
+added: '2026-11-21'
+evidence: HT-scCAT-seq simultaneously profiles transcriptome and chromatin accessibility and was used to study embryonic mouse
+  skin.

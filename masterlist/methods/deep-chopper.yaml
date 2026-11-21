@@ -1,0 +1,23 @@
+name: Deep-Chopper
+category: dry
+summary: A genomic language model identifies and removes adapter sequences from nanopore direct RNA reads to eliminate chimeric
+  artifacts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.10.23.619929
+  year: 2024
+  journal: bioRxiv
+  first_author: Li Y
+  last_author: Yang R
+  title: A Genomic Language Model for Chimera Artifact Detection in Nanopore Direct RNA Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Deep-Chopper identifies and removes adapter sequences from base-called direct RNA sequencing long reads without
+  raw signal or alignment information.

@@ -1,0 +1,20 @@
+name: scCTS
+category: dry
+summary: Statistical model that identifies cell type-specific marker genes from population-level single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03410-8
+  year: 2024
+  journal: Genome Biol
+  first_author: Chen L
+  last_author: Wu H
+  pmid: '39402623'
+  pmcid: PMC11472465
+  title: 'scCTS: identifying the cell type-specific marker genes from population-level single-cell RNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: scCTS identifies cell type-specific genes in scRNA-seq datasets containing multiple donors.

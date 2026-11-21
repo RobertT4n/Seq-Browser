@@ -1,0 +1,18 @@
+name: SC-MAMBA2
+category: dry
+summary: A bidirectional state-space foundation model represents long single-cell transcriptome sequences for downstream analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.30.615775
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhao Y
+  last_author: Lai L
+  title: 'SC-MAMBA2: Leveraging State-Space Models for Efficient Single-Cell Ultra-Long Transcriptome Modeling'
+links: {}
+added: '2026-11-21'
+evidence: SC-MAMBA2 uses a bidirectional MAMBA2 architecture and was pretrained on over 57 million cells.

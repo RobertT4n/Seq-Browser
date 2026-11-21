@@ -1,0 +1,23 @@
+name: stImpute
+category: dry
+summary: A graph neural network imputes spatial transcriptomics gene expression using reference single-cell RNA-seq and a
+  protein language model-derived gene network.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s42003-024-06964-2
+  year: 2024
+  journal: Commun Biol
+  first_author: Zeng Y
+  last_author: Yang Y
+  pmid: '39369061'
+  pmcid: PMC11455941
+  title: Imputing spatial transcriptomics through gene network constructed from protein language model
+links: {}
+added: '2026-11-21'
+evidence: stImpute matches spatial cells to reference scRNA-seq cells and imputes expression using a gene network derived
+  from ESM-2 embeddings.

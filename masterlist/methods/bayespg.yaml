@@ -1,0 +1,21 @@
+name: BayesPG
+category: dry
+summary: A Bayesian model that jointly analyzes single-cell RNA and protein abundance while accounting for technical variation
+  to infer biological differences.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.08.617313
+  year: 2024
+  journal: bioRxiv
+  first_author: Khan S
+  last_author: Slavov N
+  title: Inferring post-transcriptional regulation within and across cell types in human testis
+links: {}
+added: '2026-11-21'
+evidence: BayesPG jointly models RNA and protein data and estimates consensus levels and relative protein-to-mRNA ratios across
+  cell types.

@@ -1,0 +1,24 @@
+name: mcRigor
+category: dry
+summary: A statistical method detects heterogeneous metacells and optimizes metacell partitioning parameters in single-cell
+  data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-63626-5
+  year: 2025
+  journal: Nat Commun
+  first_author: Liu P
+  last_author: Li JJ
+  pmid: '41022768'
+  pmcid: PMC12480752
+  title: 'mcRigor: a statistical method to enhance the rigor of metacell partitioning in single-cell data analysis'
+  preprint_doi: 10.1101/2024.10.30.621093
+links: {}
+added: '2026-11-21'
+evidence: mcRigor uses a feature-correlation statistic and double permutation to detect dubious metacells and optimize partitioning
+  methods.

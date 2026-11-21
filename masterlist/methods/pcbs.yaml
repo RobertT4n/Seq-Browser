@@ -1,0 +1,22 @@
+name: PCBS
+full_name: Principal Component BiSulfite
+category: dry
+summary: An R package analyzes whole-genome bisulfite sequencing data to identify differential methylation at loci and regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae593
+  year: 2024
+  journal: Bioinformatics
+  first_author: Lande K
+  last_author: Williams AE
+  pmid: '39365707'
+  pmcid: PMC11471259
+  title: 'PCBS: an R package for fast and accurate analysis of bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PCBS identifies differentially methylated loci and regions in whole-genome bisulfite sequencing data.

@@ -1,0 +1,23 @@
+name: SigTFB
+full_name: Signatures of TF Binding
+category: dry
+summary: A deep learning method detects and quantifies cell-type-specific DNA binding signatures at known transcription factor
+  binding sites.
+readouts:
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12864-024-10859-1
+  year: 2024
+  journal: BMC Genomics
+  first_author: Awdeh A
+  last_author: Perkins TJ
+  pmid: '39402535'
+  pmcid: PMC11472444
+  title: Identifying transcription factors with cell-type specific DNA binding signatures
+links: {}
+added: '2026-11-21'
+evidence: SigTFB detects cell-type specificity in known transcription factor binding sites using ENCODE ChIP-seq data.

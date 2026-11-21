@@ -1,0 +1,35 @@
+name: DEMINERS
+category: wet
+summary: A multiplexed nanopore direct RNA sequencing toolkit combines an experimental workflow with barcode classification
+  and basecalling to profile transcripts and RNA features.
+readouts:
+- rna
+- rna-modification
+- microbial-composition
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-025-03536-3
+  year: 2025
+  journal: Genome Biol
+  first_author: Song J
+  last_author: Chen L
+  pmid: '40155949'
+  pmcid: PMC11954306
+  title: DEMINERS enables clinical metagenomics and comparative transcriptomic analysis by increasing throughput and accuracy
+    of nanopore direct RNA sequencing
+  preprint_doi: 10.1101/2024.10.15.618384
+links: {}
+added: '2026-11-21'
+evidence: DEMINERS combines RNA multiplexing, barcode classification and basecalling to estimate transcript levels, poly(A)
+  lengths, mutations and RNA modification heterogeneity at single-read level.

@@ -1,0 +1,20 @@
+name: Path2Space
+category: dry
+summary: A deep learning approach that predicts spatial gene expression from histopathology slides and infers tumor microenvironment
+  cell-type abundances.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.16.618609
+  year: 2024
+  journal: bioRxiv
+  first_author: Shulman ED
+  last_author: Ruppin E
+  title: AI-Driven Spatial Transcriptomics Unlocks Large-Scale Breast Cancer Biomarker Discovery from Histopathology
+links: {}
+added: '2026-11-21'
+evidence: Path2Space predicts spatial expression of over 4,300 genes from histopathology slides and infers cell-type abundances
+  from the predicted expression.

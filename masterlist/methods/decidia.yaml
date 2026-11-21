@@ -1,0 +1,25 @@
+name: DECIDIA
+full_name: deep-learning-based approach for early cancer interception and diagnosis
+category: dry
+summary: A deep learning approach that classifies cancer and predicts cancer type from bisulfite-treated plasma cell-free
+  DNA sequencing fragments.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/1878-0261.13745
+  year: 2024
+  journal: Mol Oncol
+  first_author: Liu J
+  last_author: Li X
+  pmid: '39380154'
+  pmcid: PMC11547222
+  title: Transformer-based representation learning and multiple-instance learning for cancer diagnosis exclusively from raw
+    sequencing fragments of bisulfite-treated plasma cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: DECIDIA uses transformer-based fragment representations and multiple-instance learning to diagnose cancer from bisulfite-treated
+  cell-free DNA fragments.

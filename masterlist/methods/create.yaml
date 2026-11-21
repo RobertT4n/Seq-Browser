@@ -1,0 +1,25 @@
+name: CREATE
+category: dry
+summary: A multimodal deep learning model identifies and classifies cell-type-specific cis-regulatory elements from sequence,
+  accessibility, and chromatin interaction data.
+readouts:
+- chromatin-accessibility
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-59780-5
+  year: 2025
+  journal: Nat Commun
+  first_author: Cui X
+  last_author: Jiang R
+  pmid: '40382355'
+  pmcid: PMC12085597
+  title: 'CREATE: cell-type-specific cis-regulatory element identification via discrete embedding'
+  preprint_doi: 10.1101/2024.10.02.616391
+links: {}
+added: '2026-11-21'
+evidence: CREATE uses genomic sequences, chromatin accessibility, and chromatin interaction data to extract discrete CRE embeddings
+  and classify multiple CRE classes.

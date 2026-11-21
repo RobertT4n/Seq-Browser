@@ -1,0 +1,19 @@
+name: LYCEUM
+category: dry
+summary: Machine learning caller for copy number variants in low-coverage ancient genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.28.620589
+  year: 2024
+  journal: bioRxiv
+  first_author: Yılmaz MA
+  last_author: Çiçek AE
+  title: 'LYCEUM: Learning to call copy number variants on low coverage ancient genomes'
+links: {}
+added: '2026-11-21'
+evidence: LYCEUM is a machine learning-based CNV caller trained for ancient DNA using whole-genome and high-coverage ancient
+  DNA data.

@@ -1,0 +1,22 @@
+name: QHistone
+category: dry
+summary: A predictive database that uses histone modification profiles to infer protein-associated epigenomic profiles and
+  synergistic regulatory activities.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53565-y
+  year: 2024
+  journal: Nat Commun
+  first_author: Hsieh CH
+  last_author: Chen PY
+  pmid: '39448614'
+  pmcid: PMC11502919
+  title: Predicting protein synergistic effect in Arabidopsis using epigenome profiling
+links: {}
+added: '2026-11-21'
+evidence: QHistone uses 1,534 ChIP-seq datasets for 27 histone modifications in Arabidopsis to predict protein profiles and
+  synergistic regulatory activities.

@@ -1,0 +1,19 @@
+name: VizCNV
+category: dry
+summary: Interactive platform for inspecting copy number variant calls using short-read genome sequencing signals and trio
+  information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.27.620363
+  year: 2024
+  journal: bioRxiv
+  first_author: Du H
+  last_author: Carvalho CMB
+  title: 'VizCNV: An integrated platform for concurrent phased BAF and CNV analysis with trio genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: VizCNV displays read depth, phased B-allele frequency and other structural variant signals and filters trio genomes.

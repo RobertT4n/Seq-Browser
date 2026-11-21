@@ -1,0 +1,24 @@
+name: SeqTagger
+category: dry
+summary: Tool for demultiplexing barcoded nanopore direct RNA sequencing datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.279290.124
+  year: 2025
+  journal: Genome Res
+  first_author: Pryszcz LP
+  last_author: Novoa EM
+  pmid: '39880590'
+  pmcid: PMC12047232
+  title: Rapid and accurate demultiplexing of direct RNA nanopore sequencing data with SeqTagger
+  preprint_doi: 10.1101/2024.10.29.620808
+links: {}
+added: '2026-11-21'
+evidence: SeqTagger demultiplexes direct RNA sequencing datasets and supports up to 96 barcodes.

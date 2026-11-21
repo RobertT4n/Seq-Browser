@@ -1,0 +1,18 @@
+name: sv-channels
+category: dry
+summary: A deep learning model that filters genomic deletion calls using read information at structural variant sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.17.618894
+  year: 2024
+  journal: bioRxiv
+  first_author: Santuari L
+  last_author: de Ridder J
+  title: 'sv-channels: filtering genomic deletions using one-dimensional convolutional neural networks'
+links: {}
+added: '2026-11-21'
+evidence: sv-channels reduces false positives in Manta deletion callsets while maintaining recall comparable to Manta.

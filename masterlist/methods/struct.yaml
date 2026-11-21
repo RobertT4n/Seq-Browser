@@ -1,0 +1,20 @@
+name: STRUCT
+full_name: Statistical Testing of RNA Units with Covariation Traits
+category: dry
+summary: Statistical method that identifies conserved RNA structures from raw sequencing data using sequence covariation.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.03.616574
+  year: 2024
+  journal: bioRxiv
+  first_author: Wang JF
+  last_author: Salzman J
+  title: 'STRUCT: a statistical approach to identify RNA secondary structures from raw sequencing data, bypassing multiple
+    sequence alignment'
+links: {}
+added: '2026-11-21'
+evidence: STRUCT identifies conserved RNA structures from raw sequencing data without assembly or multiple sequence alignment.

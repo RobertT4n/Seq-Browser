@@ -1,0 +1,23 @@
+name: scChat
+category: dry
+summary: An LLM-powered co-pilot combines quantitative analysis and retrieved context to interpret single-cell RNA sequencing
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/aic.70285
+  year: 2026
+  journal: AIChE J
+  first_author: Chiu HH
+  last_author: Li C
+  pmid: '41959856'
+  pmcid: PMC13061372
+  title: 'scChat: A Large Language Model-Powered Co-Pilot for Contextualized Single-Cell RNA Sequencing Analysis'
+  preprint_doi: 10.1101/2024.10.01.616063
+links: {}
+added: '2026-11-21'
+evidence: scChat combines quantitative algorithms, retrieval-augmented generation, and a multi-agent architecture to support
+  cell type annotation and biological interpretation.

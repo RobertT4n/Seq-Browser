@@ -1,0 +1,26 @@
+name: ex-zd
+category: dry
+summary: Lossless and lossy compression methods for raw nanopore sequencing signal data.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.280090.124
+  year: 2025
+  journal: Genome Res
+  first_author: Jayasooriya K
+  last_author: Deveson IW
+  pmid: '40374535'
+  pmcid: PMC12212073
+  title: A new compression strategy to reduce the size of nanopore sequencing data
+  preprint_doi: 10.1101/2024.10.02.616377
+links: {}
+added: '2026-11-21'
+evidence: ex-zd compresses raw nanopore signal, with lossy reduction tested against downstream basecalling and DNA methylation
+  detection.

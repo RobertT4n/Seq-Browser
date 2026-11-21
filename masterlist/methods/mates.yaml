@@ -1,0 +1,22 @@
+name: MATES
+category: dry
+summary: Deep learning approach that allocates multi-mapping reads to transposable element loci for single-cell quantification
+  across omics modalities.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53114-7
+  year: 2024
+  journal: Nat Commun
+  first_author: Wang R
+  last_author: Ding J
+  pmid: '39394211'
+  pmcid: PMC11470080
+  title: 'MATES: a deep learning-based model for locus-specific quantification of transposable elements in single cell'
+links: {}
+added: '2026-11-21'
+evidence: MATES allocates multi-mapping reads to specific transposable element loci using adjacent read alignments and was
+  applied to diverse single-cell omics datasets.

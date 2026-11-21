@@ -1,0 +1,21 @@
+name: GraffiTE
+category: dry
+summary: Pipeline that uses graph genomes to identify and genotype polymorphic transposable element insertions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53294-2
+  year: 2024
+  journal: Nat Commun
+  first_author: Groza C
+  last_author: Goubert C
+  pmid: '39414821'
+  pmcid: PMC11484939
+  title: A unified framework to analyze transposable element insertion polymorphisms using graph genomes
+links: {}
+added: '2026-11-21'
+evidence: GraffiTE identifies polymorphic mobile elements from assemblies or long reads and genotypes them using short or
+  long reads.

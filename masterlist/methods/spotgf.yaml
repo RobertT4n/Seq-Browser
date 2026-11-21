@@ -1,0 +1,21 @@
+name: SpotGF
+category: dry
+summary: An optimal transport-based gene filtering algorithm denoises spatial transcriptomics data by identifying spatial
+  diffusion patterns.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2024.09.005
+  year: 2024
+  journal: Cell Syst
+  first_author: Du L
+  last_author: Zhang B
+  pmid: '39378875'
+  title: 'SpotGF: Denoising spatially resolved transcriptomics data using an optimal transport-based gene filtering algorithm'
+links: {}
+added: '2026-11-21'
+evidence: SpotGF quantifies diffusion patterns and filters widespread expression genes as noise while preserving raw sequencing
+  data.

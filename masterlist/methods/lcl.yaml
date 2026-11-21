@@ -1,0 +1,22 @@
+name: LCL
+full_name: Lineage-aware Contrastive Learning
+category: dry
+summary: A contrastive learning framework that uses lineage barcodes to isolate lineage-specific signals and predict future
+  cell-type composition.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.28.620670
+  year: 2024
+  journal: bioRxiv
+  first_author: Yang SJ
+  last_author: Lin KZ
+  title: Leveraging Lineage Barcodes as Natural Augmentations for Contrastive Learning of Cell Fate in scRNA-seq Data
+links: {}
+added: '2026-11-21'
+evidence: LCL treats inheritable lineage barcodes as a natural data augmentation and predicts future cell-type compositions
+  from early time points.

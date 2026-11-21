@@ -1,0 +1,24 @@
+name: ChIPbinner
+category: dry
+summary: An R package bins the genome into uniform windows to analyze broad histone modification signals and differences between
+  samples.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06103-6
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Padilla R
+  last_author: Majewski J
+  pmid: '40128719'
+  pmcid: PMC11934474
+  title: 'ChIPbinner: an R package for analyzing broad histone marks binned in uniform windows from ChIP-Seq or CUT&amp;RUN/TAG
+    data'
+  preprint_doi: 10.1101/2024.10.02.616288
+links: {}
+added: '2026-11-21'
+evidence: ChIPbinner divides the genome into uniform windows and identifies differential clusters of bins for broad histone
+  modifications.

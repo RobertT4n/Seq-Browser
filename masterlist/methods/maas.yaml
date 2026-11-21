@@ -1,0 +1,26 @@
+name: MAAS
+full_name: Multimodal-based Analysis of scATAC-Seq data
+category: dry
+summary: A multimodal analysis method that integrates scATAC-seq accessibility and genomic variants to identify tumor cell
+  subpopulations and reconstruct their lineages.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-026-01599-w
+  year: 2026
+  journal: Genome Med
+  first_author: Xiong K
+  last_author: Li L
+  pmid: '41530870'
+  pmcid: PMC12888741
+  title: Multimodal-based analysis of single-cell ATAC-seq data enables highly accurate delineation of clinically relevant
+    tumor cell subpopulations
+  preprint_doi: 10.1101/2024.10.11.617736
+links: {}
+added: '2026-11-21'
+evidence: MAAS integrates chromatin accessibility, copy number variations and single-nucleotide variants through multimodal
+  matrix factorization.

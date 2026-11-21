@@ -1,0 +1,22 @@
+name: IRescue
+full_name: Interspersed Repeats single-cell quantifier
+category: dry
+summary: Software that estimates transposable element subfamily expression in single-cell RNA-seq data using UMI deduplication
+  and multi-mapping read redistribution.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae793
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Polimeni B
+  last_author: Bodega B
+  pmid: '39271103'
+  pmcid: PMC11514465
+  title: 'IRescue: uncertainty-aware quantification of transposable elements expression at single cell level'
+links: {}
+added: '2026-11-21'
+evidence: IRescue estimates TE subfamily expression at single-cell resolution using UMI deduplication and expectation maximization.

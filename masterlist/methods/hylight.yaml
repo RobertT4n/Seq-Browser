@@ -1,0 +1,22 @@
+name: HyLight
+category: dry
+summary: Metagenome assembly approach that combines short reads with low-coverage long reads to reconstruct individual microbial
+  strains.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-52907-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Kang X
+  last_author: Schönhuth A
+  pmid: '39375348'
+  pmcid: PMC11458758
+  title: 'HyLight: Strain aware assembly of low coverage metagenomes'
+links: {}
+added: '2026-11-21'
+evidence: HyLight uses strain-resolved overlap graphs and complementary short- and long-read data to reconstruct strains in
+  microbial communities.

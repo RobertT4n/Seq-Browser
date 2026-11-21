@@ -1,0 +1,25 @@
+name: SWITCH
+category: wet
+summary: Targeted whole-genome amplification enriches Chlamydia trachomatis DNA for sequencing directly from clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1093/infdis/jiae163
+  year: 2024
+  journal: J Infect Dis
+  first_author: Chen W
+  last_author: Zhao W
+  pmid: '38547503'
+  title: Revealing the Genetic Diversity of Chinese Chlamydia trachomatis Strains Directly From Clinical Samples Through Selective
+    Whole Genome Amplification
+links: {}
+added: '2026-11-21'
+evidence: SWITCH combines phi29 DNA polymerase-mediated amplification with designed primers to enrich the C. trachomatis genome
+  before whole-genome sequencing.

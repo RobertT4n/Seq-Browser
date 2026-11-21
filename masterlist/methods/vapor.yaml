@@ -1,0 +1,21 @@
+name: VAPOR
+category: dry
+summary: A variational autoencoder with transport operators disentangles co-occurring processes in single-cell or spatial
+  gene expression dynamics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.27.620534
+  year: 2024
+  journal: bioRxiv
+  first_author: Sheng J
+  last_author: Wang D
+  title: 'VAPOR: A variational autoencoder with transport operators to disentangle cellular gene expression dynamics of co-occurring
+    biological processes in time and space'
+links: {}
+added: '2026-11-21'
+evidence: VAPOR learns latent cell states from gene expression and decomposes their dynamics into process-specific components.

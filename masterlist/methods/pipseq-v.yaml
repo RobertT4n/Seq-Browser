@@ -1,0 +1,23 @@
+name: PIPseq V
+category: wet
+summary: A single-cell gene expression workflow counts transcripts using intrinsic molecular identifiers derived from captured
+  transcript sequences.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- particle-templated-emulsion
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.10.04.616561
+  year: 2024
+  journal: bioRxiv
+  first_author: Fontanez KM
+  last_author: Meltzer RH
+  title: Intrinsic molecular identifiers enable robust molecular counting in single-cell sequencing
+links: {}
+added: '2026-11-21'
+evidence: PIPseq V uses intrinsic molecular identifiers derived from randomly fragmented captured transcripts to count individual
+  transcript copies in cells.

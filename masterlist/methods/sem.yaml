@@ -1,0 +1,22 @@
+name: SEM
+full_name: size-based expectation maximization
+category: dry
+summary: A nucleosome-calling package that estimates nucleosome positions and subtypes from MNase-seq fragment sizes.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279138.124
+  year: 2024
+  journal: Genome Res
+  first_author: Yang J
+  last_author: Mahony S
+  pmid: '38886069'
+  pmcid: PMC11529872
+  title: Size-based expectation maximization for characterizing nucleosome positions and subtypes
+links: {}
+added: '2026-11-21'
+evidence: SEM uses a hierarchical Gaussian mixture model to estimate nucleosome positions and identify subtypes from protected
+  fragment distributions.

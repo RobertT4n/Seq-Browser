@@ -1,0 +1,20 @@
+name: IDEIS
+category: dry
+summary: Software that quantifies CD45 isoforms from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.3389/fimmu.2024.1446931
+  year: 2024
+  journal: Front Immunol
+  first_author: Michalik J
+  last_author: Stepanek O
+  pmid: '39445006'
+  pmcid: PMC11496083
+  title: 'IDEIS: a tool to identify PTPRC/CD45 isoforms from single-cell transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: IDEIS uses single-cell transcriptomic data to quantify CD45 isoforms and was evaluated on human and mouse datasets.

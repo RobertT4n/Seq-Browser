@@ -1,0 +1,23 @@
+name: scCompare
+category: dry
+summary: A pipeline compares single-cell RNA-seq datasets by mapping cells to annotated transcriptomic signatures and identifying
+  unmatched cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1177/11779322241280866
+  year: 2024
+  journal: Bioinform Biol Insights
+  first_author: Wilkinson DC
+  last_author: Bushel PR
+  pmid: '39376245'
+  pmcid: PMC11457179
+  title: A Strategy to Compare Single-Cell RNA Sequencing Data Sets Provides Phenotypic Insight into Cellular Heterogeneity
+    Underlying Biological Similarities and Differences Between Samples
+links: {}
+added: '2026-11-21'
+evidence: scCompare transfers phenotypic identities by correlation-based mapping and allows cells distinct from known phenotypes
+  to remain unmapped.

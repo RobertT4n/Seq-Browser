@@ -1,0 +1,20 @@
+name: PIRA
+full_name: Probabilistic Iterative Read Assignment
+category: dry
+summary: Computational method that determines plasmid copy numbers from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.04.616653
+  year: 2024
+  journal: bioRxiv
+  first_author: Maddamsetti R
+  last_author: You L
+  title: Scaling laws of plasmids across the microbial tree of life
+links: {}
+added: '2026-11-21'
+evidence: PIRA enables rapid determination of plasmid copy numbers and was applied to microbial genomes with linked short-read
+  data.

@@ -1,0 +1,19 @@
+name: Epi-PRS
+category: dry
+summary: Polygenic risk prediction approach that uses a pretrained genomic language model to impute epigenomic signals from
+  personal diploid sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.04.24314860
+  year: 2024
+  journal: medRxiv
+  first_author: Zeng W
+  last_author: Wong WH
+  title: How to improve polygenic prediction from whole-genome sequencing data by leveraging predicted epigenomic features?
+links: {}
+added: '2026-11-21'
+evidence: Epi-PRS transforms genotypes into imputed epigenomic signals and estimates genetic risk from those signals.

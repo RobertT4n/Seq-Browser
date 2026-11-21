@@ -1,0 +1,35 @@
+name: spatial-scERA
+full_name: spatial single-cell enhancer-reporter assays
+category: wet
+summary: Single-cell reporter sequencing and spatial reconstruction map the activity of candidate enhancers in a multicellular
+  organism.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+- spatial
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/nar/gkaf684
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Alberti B
+  last_author: Ghavi-Helm Y
+  pmid: '40694852'
+  pmcid: PMC12282952
+  title: 'Spatial-scERA: a method for reconstructing spatial single-cell enhancer activity in multicellular organisms'
+  preprint_doi: 10.1101/2024.10.02.616294
+links: {}
+added: '2026-11-21'
+evidence: Spatial-scERA combines massively parallel reporter assays, single-cell RNA sequencing and optimal transport to reconstruct
+  enhancer activity in Drosophila embryos.

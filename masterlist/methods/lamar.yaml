@@ -1,0 +1,20 @@
+name: LAMAR
+category: dry
+summary: A transformer-based RNA foundation model is fine-tuned to predict multiple aspects of RNA regulation from sequence.
+readouts:
+- rna
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.10.12.617732
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhou H
+  last_author: Wang Z
+  title: A foundation language model to decipher diverse regulation of RNAs
+links: {}
+added: '2026-11-21'
+evidence: LAMAR was fine-tuned to predict mRNA translation efficiency, mRNA half-life, splice sites, and internal ribosome
+  entry sites.
