@@ -1,0 +1,19 @@
+name: SCAPE-APA
+category: dry
+summary: Estimates alternative polyadenylation events in large single-cell RNA-seq datasets using an accelerated mixture model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.12688/openreseurope.18673.1
+  year: 2024
+  journal: Open Research Europe
+  first_author: Cheng G
+  last_author: Cheng L
+  title: 'SCAPE-APA: a package for estimating alternative polyadenylation events from scRNA-seq data'
+  preprint_doi: 10.1101/2024.03.12.584547
+links: {}
+added: '2026-11-21'
+evidence: SCAPE-APA reimplements SCAPE with read binning and an updated mixture model to estimate alternative polyadenylation.

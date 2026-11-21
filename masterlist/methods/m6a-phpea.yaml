@@ -1,0 +1,25 @@
+name: m6A-PHPEA
+full_name: proximity hybridization followed by primer exchange amplification
+category: wet
+summary: m6A-PHPEA images selected RNA m6A sites in individual cells using proximity hybridization and primer exchange amplification.
+readouts:
+- rna-modification
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1021/acsnano.4c08407
+  year: 2024
+  journal: ACS Nano
+  first_author: Song M
+  last_author: Tan W
+  title: Multiplexed In Situ Imaging of Site-Specific m6A Methylation with Proximity Hybridization Followed by Primer Exchange
+    Amplification (m6A-PHPEA)
+links: {}
+added: '2026-11-21'
+evidence: The method uses DNA hybridization and an m6A antibody to image three distinct methylation sites concurrently in
+  multiple cell types.

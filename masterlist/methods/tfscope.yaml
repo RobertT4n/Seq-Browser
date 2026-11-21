@@ -1,0 +1,20 @@
+name: TFscope
+category: dry
+summary: A machine learning approach identifies sequence features that explain differences in transcription factor binding
+  between two ChIP-seq experiments.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03321-8
+  year: 2024
+  journal: Genome Biology
+  first_author: Romero R
+  last_author: Bréhélin L
+  title: 'TFscope: systematic analysis of the sequence features involved in the binding preferences of transcription factors'
+links: {}
+added: '2026-11-21'
+evidence: TFscope identifies sequence features explaining binding differences between two ChIP-seq experiments targeting the
+  same or similar transcription factors.

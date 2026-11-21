@@ -1,0 +1,28 @@
+name: scRICA-seq
+full_name: single-cell RNA isoform and chromatin accessibility sequencing
+category: wet
+summary: scRICA-seq jointly profiles RNA isoforms and chromatin accessibility in single cells.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- organoid
+reference:
+  doi: 10.1038/s41467-024-52335-0
+  year: 2024
+  journal: Nature Communications
+  first_author: Zhang S
+  last_author: Hu Y
+  title: Simultaneous profiling of RNA isoforms and chromatin accessibility of single cells of human retinal organoids
+links: {}
+added: '2026-11-21'
+evidence: scRICA-seq profiles isoforms and chromatin accessibility for up to 10,000 single cells per run and was applied to
+  human retinal organoids.

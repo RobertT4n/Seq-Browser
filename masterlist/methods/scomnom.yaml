@@ -1,0 +1,19 @@
+name: scOmnom
+category: dry
+summary: Semi-automated single-cell RNA-seq workflow linking quality control, integration, clustering, annotation, and downstream
+  analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.13.758797
+  year: 2026
+  journal: bioRxiv
+  first_author: Hu
+  last_author: K. H. M
+  title: 'scOmnom: scalable end-to-end single-cell RNA-seq analysis with auditable resolution selection'
+links: {}
+added: '2026-11-21'
+evidence: scOmnom connects analysis stages and retains clustering and annotation decisions as linked analysis states.

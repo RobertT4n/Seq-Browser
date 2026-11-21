@@ -1,0 +1,29 @@
+name: scPRIME-seq
+category: wet
+summary: Simultaneously profiles the transcriptome, genome and DNA methylome of individual cells.
+readouts:
+- rna
+- genome-sequence
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.10.07.757464
+  year: 2026
+  journal: bioRxiv
+  first_author: Li
+  last_author: Z
+  title: scPRIME-seq uncovers synchronized multimodal molecular collapse facilitated by pre-neoplastic epigenetic burden in
+    prostate cancer
+links: {}
+added: '2026-11-21'
+evidence: The platform was applied to 436,908 cells from prostate cancers and benign tissues for simultaneous transcriptome,
+  genome and DNA methylome profiling.

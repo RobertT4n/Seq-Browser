@@ -1,0 +1,20 @@
+name: scHolography
+category: dry
+summary: Reconstructs single-cell spatial neighborhoods and supports three-dimensional tissue visualization from spatial and
+  single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03299-3
+  year: 2024
+  journal: Genome Biology
+  first_author: Fu YC
+  last_author: Yi R
+  title: 'scHolography: a computational method for single-cell spatial neighborhood reconstruction and analysis'
+links: {}
+added: '2026-11-21'
+evidence: scHolography projects transcriptomes into space to infer spatial relationships among cells and define neighborhoods.

@@ -1,0 +1,21 @@
+name: scHiCyclePred
+category: dry
+summary: A prediction model uses multiscale chromatin interaction features from single-cell Hi-C data to predict cell cycle
+  phases.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-06626-3
+  year: 2024
+  journal: Communications Biology
+  first_author: Wu Y
+  last_author: Wu H
+  title: 'scHiCyclePred: a deep learning framework for predicting cell cycle phases from single-cell Hi-C data using multi-scale
+    interaction information'
+links: {}
+added: '2026-11-21'
+evidence: scHiCyclePred extracts multiscale 3D chromatin structure features from single-cell Hi-C data to predict cell cycle
+  phases.

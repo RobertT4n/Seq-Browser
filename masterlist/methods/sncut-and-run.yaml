@@ -1,0 +1,28 @@
+name: snCUT&RUN
+full_name: single-nucleus CUT&RUN
+category: wet
+summary: Single-nucleus CUT&RUN profiles histone modifications in patient-derived head and neck cancer cell lines.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2024.02.14.580230
+  year: 2024
+  journal: bioRxiv
+  first_author: Womerley
+  last_author: L. F
+  title: Deciphering the function of intrinsic and genomics-driven epigenetic heterogeneity in head and neck cancer progression
+    with single-nucleus CUT&RUN
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes a single-nucleus CUT&RUN assay for profiling histone modifications in patient-derived tumor
+  cell lines.

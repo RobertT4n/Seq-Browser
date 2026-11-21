@@ -1,0 +1,21 @@
+name: CHAI
+full_name: consensus Clustering tHrough similArIty matrix integratIon for single cell type identification
+category: dry
+summary: Combines clustering results from multiple methods to identify cell types in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae411
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Lodi MK
+  last_author: Ghosh P
+  title: 'CHAI: consensus clustering through similarity matrix integration for cell-type identification'
+  preprint_doi: 10.1101/2024.03.19.585758
+links: {}
+added: '2026-11-21'
+evidence: CHAI aggregates results from seven clustering methods and was also demonstrated with spatial transcriptomics data.

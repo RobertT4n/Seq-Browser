@@ -1,0 +1,19 @@
+name: phyloDS
+category: dry
+summary: Comparative RNA-seq framework that tests differential splice-junction usage across species while accounting for phylogeny.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.05.756841
+  year: 2026
+  journal: bioRxiv
+  first_author: Liehrmann
+  last_author: E
+  title: 'phyloDS: phylogeny-aware differential splicing across species, beyond reference annotations'
+links: {}
+added: '2026-11-21'
+evidence: phyloDS defines orthologous splice junctions on multiple sequence alignments and tests differential usage with a
+  phylogenetic model.

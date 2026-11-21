@@ -1,0 +1,28 @@
+name: polK-seq
+full_name: polymerase κ sequencing
+category: wet
+summary: polK-seq captures DNA synthesized by polymerase κ to map its activity across the genome.
+readouts:
+- replication-dynamics
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1073/pnas.2403130121
+  year: 2024
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Torres MC
+  last_author: Spratt TE
+  title: Activity of DNA polymerase κ across the genome in human fibroblasts
+  preprint_doi: 10.1101/2024.02.22.581598
+links: {}
+added: '2026-11-21'
+evidence: A polymerase κ-specific nucleotide substrate is incorporated into DNA, biotinylated by click chemistry, and isolated
+  for sequencing.

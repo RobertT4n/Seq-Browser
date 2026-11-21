@@ -1,0 +1,20 @@
+name: SpaTopic
+category: dry
+summary: Integrates single-cell and spatial transcriptomics to identify tumour spatial domains and their cellular composition.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adp4942
+  year: 2024
+  journal: Science Advances
+  first_author: Zhang Y
+  last_author: Chen D
+  title: 'SpaTopic: A statistical learning framework for exploring tumor spatial architecture from spatially resolved transcriptomic
+    data'
+links: {}
+added: '2026-11-21'
+evidence: SpaTopic combines spot clustering and cell-type deconvolution using topic modeling to identify spatial domains.

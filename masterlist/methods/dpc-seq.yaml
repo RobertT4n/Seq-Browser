@@ -1,0 +1,25 @@
+name: DPC-seq
+category: wet
+summary: DPC-seq maps the genome-wide distribution of DNA-protein crosslinks.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41556-024-01401-2
+  year: 2024
+  journal: Nature Cell Biology
+  first_author: Oka Y
+  last_author: Ogi T
+  title: Endogenous aldehyde-induced DNA–protein crosslinks are resolved by transcription-coupled repair
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes DPC-seq as a high-throughput sequencing technique measuring the genome-wide distribution
+  of DNA-protein crosslinks.

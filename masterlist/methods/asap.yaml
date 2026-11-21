@@ -1,0 +1,22 @@
+name: ASAP
+full_name: Annotating Single-cell data by Approximate Pseudobulk estimation
+category: dry
+summary: Approximates topic models for scalable single-cell RNA-seq analysis and joint analysis with bulk data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.26508/lsa.202402713
+  year: 2024
+  journal: Life Science Alliance
+  first_author: Subedi S
+  last_author: Park YP
+  title: A scalable approach to topic modelling in single-cell data by approximate pseudobulk projection
+  preprint_doi: 10.1101/2024.02.21.581497
+links: {}
+added: '2026-11-21'
+evidence: ASAP uses approximate pseudobulk estimation for single-cell topic modelling and integrates single-cell and bulk
+  data.

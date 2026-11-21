@@ -1,0 +1,24 @@
+name: EpiFLAIR
+category: dry
+summary: Assigns long-range chromatin states across genes and integrates them with isoform-level transcriptional outputs.
+readouts:
+- chromatin-accessibility
+- rna
+- nascent-rna
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.10.08.757737
+  year: 2026
+  journal: bioRxiv
+  first_author: Bai
+  last_author: A. N
+  title: Multi-omic long-read sequencing reveals nucleosome control of transcriptional fidelity at the isoform level
+links: {}
+added: '2026-11-21'
+evidence: EpiFLAIR assigns discrete chromatin states across entire genes and integrates them with isoform-level transcriptional
+  outputs.

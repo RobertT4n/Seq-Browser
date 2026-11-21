@@ -1,0 +1,28 @@
+name: ULI-ssDRIP-seq
+full_name: ultra-low input single-stranded DNA-RNA immunoprecipitation sequencing
+category: wet
+summary: An ultra-low-input sequencing method maps global R-loops using as few as 1,000 cells.
+readouts:
+- r-loop
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.cellin.2024.100179
+  year: 2024
+  journal: Cell Insight
+  first_author: Xu W
+  last_author: Sun Q
+  title: ULI-ssDRIP-seq revealed R-loop dynamics during vertebrate early embryogenesis
+links: {}
+added: '2026-11-21'
+evidence: ULI-ssDRIP-seq maps global R-loops with as few as 1,000 cells and was used to study zebrafish gametes and early
+  embryos.

@@ -1,0 +1,19 @@
+name: Tinted de Bruijn Graph
+category: dry
+summary: Indexes sequencing datasets to retrieve reads containing a specified k-mer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbaf111
+  year: 2024
+  journal: Bioinformatics Advances
+  first_author: Vandamme L
+  last_author: Limasset A
+  title: 'K2R: Tinted de Bruijn graphs implementation for efficient read extraction from sequencing datasets'
+  preprint_doi: 10.1101/2024.02.15.580442
+links: {}
+added: '2026-11-21'
+evidence: The Tinted de Bruijn Graph treats each read as a distinct source and is implemented in the K2R index.

@@ -1,0 +1,18 @@
+name: MMGAT
+category: dry
+summary: Graph attention network identifies transcription factor motifs in ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05774-x
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Wu X
+  last_author: Wang Y
+  title: 'MMGAT: a graph attention network framework for ATAC-seq motifs finding'
+links: {}
+added: '2026-11-21'
+evidence: MMGAT finds ATAC-seq motifs using attention coefficients and k-mer co-occurrence probabilities.

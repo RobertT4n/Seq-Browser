@@ -1,0 +1,20 @@
+name: BacSC
+category: dry
+summary: Processes bacterial single-cell RNA-seq data with adaptive quality control, clustering and differential expression
+  analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.22.600071
+  year: 2024
+  journal: bioRxiv
+  first_author: Ostner
+  last_author: C. L
+  title: 'BacSC: A general workflow for bacterial single-cell RNA sequencing data analysis'
+links: {}
+added: '2026-11-21'
+evidence: BacSC performs data-adaptive quality control, variance stabilization, clustering and differential gene expression
+  testing.

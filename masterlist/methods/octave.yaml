@@ -1,0 +1,18 @@
+name: OCTAVE
+category: dry
+summary: Evaluates histology-based spatial gene expression predictions at multiple spatial scales.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.25.754484
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang
+  last_author: Q
+  title: 'Octave: Scale-resolved Evaluation of Spatial Gene Expression Prediction from Histology'
+links: {}
+added: '2026-11-21'
+evidence: OCTAVE filters predictions and measurements into spatial bands and scores their agreement in each band.

@@ -1,0 +1,24 @@
+name: MIJAMP
+full_name: MIJAMP Is Just A MethylBED Parser
+category: dry
+summary: Discovers methylated DNA motifs from nanopore-derived methylation data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/jimb/kuaf022
+  year: 2024
+  journal: Journal of Industrial Microbiology and Biotechnology
+  first_author: Tidwell AK
+  last_author: Alexander WG
+  title: Discovering methylated DNA motifs in bacterial nanopore sequencing data with MIJAMP
+  preprint_doi: 10.1101/2024.08.14.607972
+links: {}
+added: '2026-11-21'
+evidence: MIJAMP discovers methylated motifs from Modkit output or other methylBED data and validates motifs against genome-wide
+  methylation data.

@@ -1,0 +1,22 @@
+name: CLIPPR
+category: dry
+summary: Meta-model that combines single-cell models, RNA-inferred copy number signals, and a bulk transcriptomic model to
+  classify cancer subgroups.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s11060-024-04710-6
+  year: 2024
+  journal: Journal of Neuro-Oncology
+  first_author: Shetty A
+  last_author: Harmanci AS
+  title: Leveraging single-cell sequencing to classify and characterize tumor subgroups in bulk RNA-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: CLIPPR combines top-performing single-cell models, RNA-inferred CNV signals, and an initial bulk model for meningioma
+  classification.

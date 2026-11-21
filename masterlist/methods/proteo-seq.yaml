@@ -1,0 +1,29 @@
+name: Proteo-Seq
+category: wet
+summary: Proteo-Seq routes cytoplasmic proteins and nuclei from the same cells to proteomics and single-nucleus chromatin
+  accessibility profiling.
+readouts:
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microwell-array
+- tn5
+species:
+- human
+validated_system:
+- cell-line
+- organoid
+reference:
+  doi: 10.64898/2026.10.15.759447
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang
+  last_author: A. E
+  title: Same-cell mapping of epigenetic regulatory state to functional proteomic output
+links: {}
+added: '2026-11-21'
+evidence: A two-layer microwell device archives cytoplasmic proteins while transferring intact nuclei into an indexed array
+  for snATAC-seq.

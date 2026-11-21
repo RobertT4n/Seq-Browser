@@ -1,0 +1,19 @@
+name: tombRaider
+category: dry
+summary: Removes sequence artefacts and pseudogenes from metabarcoding data to improve species and haplotype recovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2024.08.23.609468
+  year: 2024
+  journal: bioRxiv
+  first_author: Jeunen
+  last_author: N
+  title: tombRaider - improved species and haplotype recovery from metabarcoding data through artefact and pseudogene exclusion
+links: {}
+added: '2026-11-21'
+evidence: tombRaider filters metabarcoding data using criteria including sequence similarity, co-occurrence, taxonomic assignment,
+  and stop codons.

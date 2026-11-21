@@ -1,0 +1,18 @@
+name: ST-DISTAL
+category: dry
+summary: Dual-branch graph convolutional framework for cell-type deconvolution of spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.27.754868
+  year: 2026
+  journal: bioRxiv
+  first_author: Abir
+  last_author: W
+  title: 'ST-DISTAL: Dual-Branch Graph Convolution with Distributional Alignment for Cell-Type Deconvolution'
+links: {}
+added: '2026-11-21'
+evidence: ST-DISTAL combines spatial graph convolution and spectral filtering to model local and global spatial structure.

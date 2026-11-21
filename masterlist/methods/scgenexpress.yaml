@@ -1,0 +1,18 @@
+name: scGeneXpress
+category: dry
+summary: Detects expressed genes in single-cell populations using gene-specific reference distributions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae494
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Jung S
+  last_author: del Sol A
+  title: Detecting expressed genes in cell populations at the single-cell level with scGeneXpress
+links: {}
+added: '2026-11-21'
+evidence: scGeneXpress detects expressed genes in single-cell RNA-seq populations using gene-specific reference distributions.

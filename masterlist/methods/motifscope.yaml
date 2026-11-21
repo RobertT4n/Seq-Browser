@@ -1,0 +1,21 @@
+name: MotifScope
+category: dry
+summary: Discovers and visualizes tandem-repeat motifs across sequencing reads and genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.279278.124
+  year: 2024
+  journal: Genome Research
+  first_author: Zhang Y
+  last_author: Holstege H
+  title: Multisample motif discovery and visualization for tandem repeats
+  preprint_doi: 10.1101/2024.03.06.583591
+links: {}
+added: '2026-11-21'
+evidence: MotifScope uses a de novo k-mer approach to discover tandem-repeat motifs and compare reads or assemblies.

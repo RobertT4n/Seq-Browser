@@ -1,0 +1,26 @@
+name: QMS-Seq
+full_name: Quantitative Mutational Scan Sequencing
+category: wet
+summary: Quantitative sequencing compares antibiotic-selected mutations across bacterial strains and genetic backgrounds.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- chemical-perturbation
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/2024.07.19.604246
+  year: 2024
+  journal: bioRxiv
+  first_author: Jago
+  last_author: M
+  title: High-throughput method rapidly characterizes hundreds of novel antibiotic resistance mutations
+links: {}
+added: '2026-11-21'
+evidence: QMS-Seq compared four E. coli strains exposed to antibiotics and quantified mutation frequency at single-base-pair
+  resolution.

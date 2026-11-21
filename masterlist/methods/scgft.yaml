@@ -1,0 +1,21 @@
+name: scGFT
+full_name: single-cell Generative Fourier Transformer
+category: dry
+summary: Train-free generative model that augments single-cell RNA-seq data by synthesizing cells with expression profiles
+  resembling those in observed datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-025-07552-8
+  year: 2025
+  journal: Communications Biology
+  first_author: Nouri N
+  last_author: Nouri N
+  title: Single-cell RNA-seq data augmentation using generative Fourier transformer
+  preprint_doi: 10.1101/2024.07.09.602768
+links: {}
+added: '2026-11-21'
+evidence: scGFT is a train-free, cell-centric model that synthesizes cells preserving characteristics of scRNA-seq data.

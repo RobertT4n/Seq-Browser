@@ -1,0 +1,18 @@
+name: Mugen-UMAP
+category: dry
+summary: Visualizes and clusters single-cell somatic mutation data using UMAP.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s12859-024-05928-x
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Li T
+  last_author: Rodrigo AG
+  title: 'Mugen-UMAP: UMAP visualization and clustering of mutated genes in single-cell DNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: Mugen-UMAP processes single-cell somatic SNV annotations and visualizes UMAP projections for identifying clusters.

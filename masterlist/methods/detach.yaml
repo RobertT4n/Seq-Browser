@@ -1,0 +1,21 @@
+name: DETACH
+category: dry
+summary: Identifies a gene expression signature that improves prediction of melanoma immunotherapy response.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2024.109926
+  year: 2024
+  journal: iScience
+  first_author: Wang B
+  last_author: Ruppin E
+  title: Decoupling the correlation between cytotoxic and exhausted T lymphocyte states enhances melanoma immunotherapy response
+    prediction
+links: {}
+added: '2026-11-21'
+evidence: DETACH identifies a gene set whose expression pinpoints melanoma patients with low correlation between cytotoxic
+  and exhausted T-cell signatures.

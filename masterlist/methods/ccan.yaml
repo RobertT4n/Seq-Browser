@@ -1,0 +1,21 @@
+name: CCAN
+full_name: Cell Cycle-Aware Network
+category: dry
+summary: Integrates single-cell RNA-seq and ATAC-seq data while removing cell-cycle effects and preserving cell-type variation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.202401815
+  year: 2024
+  journal: Advanced Science
+  first_author: Liu J
+  last_author: Zhou X
+  title: A Cell Cycle‐Aware Network for Data Integration and Label Transferring of Single‐Cell RNA‐Seq and ATAC‐Seq
+  preprint_doi: 10.1101/2024.01.31.578213
+links: {}
+added: '2026-11-21'
+evidence: CCAN integrates paired and unpaired scRNA-seq and scATAC-seq data and transfers cell-type labels.

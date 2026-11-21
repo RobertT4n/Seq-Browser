@@ -1,0 +1,25 @@
+name: Well-Paired-Seq2
+category: wet
+summary: Well-Paired-Seq2 captures cells and nuclei for sensitive single-cell transcriptome profiling, including low-RNA-content
+  samples.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1021/acs.analchem.3c05785
+  year: 2024
+  journal: Analytical Chemistry
+  first_author: Yin K
+  last_author: Yang C
+  title: 'Well-Paired-Seq2: High-Throughput and High-Sensitivity Strategy for Characterizing Low RNA-Content Cell/Nucleus
+    Transcriptomes'
+links: {}
+added: '2026-11-21'
+evidence: The method uses size-exclusion and quasi-static hydrodynamics for cell capture and profiles frozen clinical samples.

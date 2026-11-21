@@ -1,0 +1,23 @@
+name: SLUR(M)-py
+category: dry
+summary: SLURM-based platform for parallel processing of paired-end sequencing data from genomic and chromatin assays.
+readouts:
+- genome-sequence
+- histone-modification
+- protein-dna-binding
+- chromatin-accessibility
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1080/17501911.2025.2568368
+  year: 2025
+  journal: Epigenomics
+  first_author: Roth C
+  last_author: Steadman CR
+  title: 'SLUR(M)-py: a SLURM powered Pythonic pipeline for parallel processing of 3D (Epi)genomic profiles'
+  preprint_doi: 10.1101/2024.05.18.594827
+links: {}
+added: '2026-11-21'
+evidence: SLUR(M)-py automates SLURM processing for whole-genome, ChIP-seq, ATAC-seq, and Hi-C paired-end data.

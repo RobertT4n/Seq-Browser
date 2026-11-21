@@ -1,0 +1,21 @@
+name: PRIMITI
+full_name: PRedictive model for the Identification of novel MIRNA-Target mRNA Interactions
+category: dry
+summary: Machine learning model uses CLIP-seq and expression data to predict miRNA-target mRNA interactions and repression.
+readouts:
+- rna-rna-interaction
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2024.06.030
+  year: 2024
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Uthayopas K
+  last_author: Ascher DB
+  title: 'PRIMITI: A computational approach for accurate prediction of miRNA-target mRNA interaction'
+  preprint_doi: 10.1101/2024.04.26.591419
+links: {}
+added: '2026-11-21'
+evidence: PRIMITI characterizes functional target sites in 3′ UTRs and predicts miRNA-target mRNA repression activity.

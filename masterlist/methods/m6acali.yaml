@@ -1,0 +1,19 @@
+name: m6ACali
+category: dry
+summary: Machine learning framework that calibrates MeRIP-seq m6A profiles by identifying nonspecific antibody-enrichment
+  peaks.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae280
+  year: 2024
+  journal: Nucleic Acids Research
+  first_author: Ye H
+  last_author: Wei Z
+  title: 'm6ACali: machine learning-powered calibration for accurate m6A detection in MeRIP-Seq'
+links: {}
+added: '2026-11-21'
+evidence: m6ACali identifies nonspecific binding peaks in new MeRIP-seq datasets without paired in-vitro-transcribed controls.

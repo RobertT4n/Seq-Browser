@@ -1,0 +1,20 @@
+name: LongStrain
+category: dry
+summary: Jointly estimates microbial strain proportions and genome-wide variants from longitudinal metagenomic samples.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/spectrum.01431-24
+  year: 2024
+  journal: Microbiology Spectrum
+  first_author: Zhou B
+  last_author: Li H
+  title: An integrated strain-level analytic pipeline utilizing longitudinal metagenomic data
+links: {}
+added: '2026-11-21'
+evidence: LongStrain models strain proportions and shared haplotypes across repeated samples and outputs strain-specific proportions
+  and SNVs.

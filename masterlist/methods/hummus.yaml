@@ -1,0 +1,21 @@
+name: HuMMuS
+category: dry
+summary: Infers regulatory mechanisms from paired or unpaired single-cell multi-omics data.
+readouts:
+- rna
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae143
+  year: 2024
+  journal: Bioinformatics
+  first_author: Trimbour R
+  last_author: Cantini L
+  title: Molecular mechanisms reconstruction from single-cell multi-omics data with HuMMuS
+links: {}
+added: '2026-11-21'
+evidence: HuMMuS predicts transcription factor targets, binding motifs and regulatory regions and was applied to mouse brain
+  snmC-seq, scATAC-seq and scRNA-seq data.

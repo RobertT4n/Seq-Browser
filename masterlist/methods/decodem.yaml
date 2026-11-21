@@ -1,0 +1,23 @@
+name: DECODEM
+full_name: DEcoupling Cell-type-specific Outcomes using DEconvolution and Machine learning
+category: dry
+summary: Uses deconvolution and machine learning to associate cell-type-specific expression in bulk transcriptomes with clinical
+  response.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.canlet.2025.218101
+  year: 2026
+  journal: Cancer Letters
+  first_author: Dhruba SR
+  last_author: Ruppin E
+  title: Enhanced prediction of breast cancer patient response to chemotherapy by integrating deconvolved expression patterns
+    of immune, stromal and tumor cells
+  preprint_doi: 10.1101/2024.06.14.598770
+links: {}
+added: '2026-11-21'
+evidence: DECODEM associates deconvolved cell-type expression with clinical response and was validated in single-cell cohorts.

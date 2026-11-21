@@ -1,0 +1,26 @@
+name: KAS-ATAC-seq
+full_name: Kethoxal-Assisted Single-stranded DNA Assay for Transposase-Accessible Chromatin with Sequencing
+category: wet
+summary: KAS-ATAC-seq measures single-stranded DNA within accessible chromatin peaks to characterize transcriptionally active
+  regulatory elements.
+readouts:
+- dna-secondary-structure
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- mouse
+reference:
+  doi: 10.1038/s41467-024-50680-8
+  year: 2024
+  journal: Nature Communications
+  first_author: Lyu R
+  last_author: He C
+  title: Quantitative analysis of cis-regulatory elements in transcription with KAS-ATAC-seq
+  preprint_doi: 10.1101/2024.02.29.582869
+links: {}
+added: '2026-11-21'
+evidence: The method measures ssDNA levels within proximal and distal ATAC-seq peaks and was applied during mouse neural differentiation.

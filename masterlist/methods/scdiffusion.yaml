@@ -1,0 +1,19 @@
+name: scDiffusion
+category: dry
+summary: Generates synthetic single-cell RNA-seq data under controlled combinations of conditions using a diffusion model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae518
+  year: 2024
+  journal: Bioinformatics
+  first_author: Luo E
+  last_author: Zhang X
+  title: 'scDiffusion: conditional generation of high-quality single-cell data using diffusion model'
+links: {}
+added: '2026-11-21'
+evidence: scDiffusion combines a diffusion model and foundation model with classifiers that guide generation under multiple
+  conditions.

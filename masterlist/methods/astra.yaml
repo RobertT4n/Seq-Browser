@@ -1,0 +1,19 @@
+name: ASTRA
+category: dry
+summary: Pretrained model that reconstructs high-resolution spatial gene expression from histology and measured RNA without
+  section-specific fitting.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.30.755663
+  year: 2026
+  journal: bioRxiv
+  first_author: Ye
+  last_author: Q
+  title: ASTRA enables zero-shot super-resolution of spatial transcriptomics across capture geometries
+links: {}
+added: '2026-11-21'
+evidence: ASTRA reconstructs expression from histology and measured RNA by zero-shot inference across capture geometries.

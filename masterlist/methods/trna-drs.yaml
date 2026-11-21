@@ -1,0 +1,31 @@
+name: tRNA-DRS
+category: wet
+summary: Uses direct nanopore RNA sequencing to profile tRNA abundance and modification signals simultaneously.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- reverse-transcription
+- long-read-sequencing
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.10.04.754913
+  year: 2026
+  journal: bioRxiv
+  first_author: Dai
+  last_author: T
+  title: A direct RNA sequencing workflow for simultaneous profiling of tRNA abundance and modifications in mouse liver
+links: {}
+added: '2026-11-21'
+evidence: The workflow used small-RNA enrichment, splint-adapter ligation and nanopore sequencing with modification-aware
+  basecalling to characterize tRNAs in mouse liver.

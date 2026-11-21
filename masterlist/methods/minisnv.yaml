@@ -1,0 +1,22 @@
+name: miniSNV
+category: dry
+summary: Calls and genotypes single nucleotide variants from Oxford Nanopore long reads using population variant backgrounds
+  and read-based phasing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae473
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Cui M
+  last_author: Liu B
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: miniSNV uses read pileup, read-based phasing and consensus generation to identify and genotype SNVs in ONT reads.

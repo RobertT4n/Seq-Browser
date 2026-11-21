@@ -1,0 +1,19 @@
+name: DirectHRD
+category: dry
+summary: Classifies homologous recombination deficiency from whole-genome sequencing scars.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf313
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Liu R
+  last_author: Adalsteinsson VA
+  title: DirectHRD enables sensitive scar-based classification of homologous recombination deficiency
+  preprint_doi: 10.1101/2024.06.21.600073
+links: {}
+added: '2026-11-21'
+evidence: DirectHRD is a whole-genome sequencing scar-based classifier that detects HRD in cell-free DNA.

@@ -1,0 +1,19 @@
+name: scBOLT
+category: dry
+summary: Infers Boolean regulatory networks from single-cell transcriptomes across experimental conditions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.02.756175
+  year: 2026
+  journal: bioRxiv
+  first_author: Roncalli
+  last_author: L
+  title: Scalable and semi-automated Boolean network inference from multi-condition single-cell transcriptomes with scBOLT
+links: {}
+added: '2026-11-21'
+evidence: scBOLT is a semi-automated framework for Boolean constraint engineering and logical model inference from multi-condition
+  single-cell transcriptomes.

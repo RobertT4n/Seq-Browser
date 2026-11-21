@@ -1,0 +1,24 @@
+name: 5mCAdpBS-Seq
+category: wet
+summary: Premethylated adapters ligated before bisulfite conversion enable less biased methylation profiling of ultrashort
+  single-stranded cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/nar/gkae276
+  year: 2024
+  journal: Nucleic Acids Research
+  first_author: Cheng JC
+  last_author: Wong DTW
+  title: Single-stranded pre-methylated 5mC adapters uncover the methylation profile of plasma ultrashort Single-stranded
+    cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: Premethylated single-stranded adapters are ligated to heat-denatured cell-free DNA before bisulfite conversion.

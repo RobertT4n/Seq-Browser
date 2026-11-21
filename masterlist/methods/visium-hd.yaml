@@ -1,0 +1,30 @@
+name: Visium HD
+category: wet
+summary: A probe-based spatial transcriptomics workflow profiles whole-transcriptome expression at single-cell scale in tissue
+  sections.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1101/2024.06.04.597233
+  year: 2024
+  journal: bioRxiv
+  first_author: Oliveira
+  last_author: S. E. B
+  title: Characterization of immune cell populations in the tumor microenvironment of colorectal cancer using high definition
+    spatial profiling
+links: {}
+added: '2026-11-21'
+evidence: The probe-based workflow enables whole-transcriptome analysis at single-cell scale and was applied to human colorectal
+  tissues.

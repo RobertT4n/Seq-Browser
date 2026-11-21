@@ -1,0 +1,26 @@
+name: polymerase κ sequencing
+category: wet
+summary: A polymerase κ-specific nucleotide substrate labels newly synthesized DNA for genome-wide mapping of polymerase activity.
+readouts:
+- replication-dynamics
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1073/pnas.2403130121
+  year: 2024
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Torres MC
+  last_author: Spratt TE
+  title: Activity of DNA polymerase κ across the genome in human fibroblasts
+links: {}
+added: '2026-11-21'
+evidence: DNA containing the polymerase κ-specific substrate EBndG is biotinylated, isolated and sequenced to generate genome-wide
+  maps.

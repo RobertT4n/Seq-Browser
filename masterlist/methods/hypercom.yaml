@@ -1,0 +1,19 @@
+name: HyperCom
+category: dry
+summary: Infers cell-resolved communication from ligand and receptor expression in single-cell transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.30.755742
+  year: 2026
+  journal: bioRxiv
+  first_author: Moy
+  last_author: P. F
+  title: 'HyperCom: a hypergraph-based method to infer cell-resolved cell-cell communication'
+links: {}
+added: '2026-11-21'
+evidence: HyperCom builds a hypergraph from known ligand-receptor interactions and individual-cell expression to score sender
+  and receiver cells.

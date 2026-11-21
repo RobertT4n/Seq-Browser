@@ -1,0 +1,18 @@
+name: HiC2MicroC
+category: dry
+summary: Diffusion-model method that predicts Micro-C-like chromatin contact maps from Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012136
+  year: 2024
+  journal: PLOS Computational Biology
+  first_author: Liu T
+  last_author: Wang Z
+  title: Learning Micro-C from Hi-C with diffusion models
+links: {}
+added: '2026-11-21'
+evidence: HiC2MicroC learns to predict Micro-C from Hi-C using a denoising diffusion probabilistic model.

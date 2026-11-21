@@ -1,0 +1,19 @@
+name: tauFisher
+category: dry
+summary: Predicts circadian time from a single bulk or single-cell pseudobulk transcriptomic sample.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-48041-6
+  year: 2024
+  journal: Nature Communications
+  first_author: Duan J
+  last_author: Andersen B
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: tauFisher predicts circadian time by finding correlations between rhythmic genes within a transcriptomic sample.

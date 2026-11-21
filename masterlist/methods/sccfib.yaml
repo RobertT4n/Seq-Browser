@@ -1,0 +1,18 @@
+name: scCFIB
+category: dry
+summary: Clusters single-cell RNA-seq data using information bottleneck optimization and cross-view information fusion.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae511
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Lou Z
+  last_author: Tian Z
+  title: Clustering scRNA-seq data with the cross-view collaborative information fusion strategy
+links: {}
+added: '2026-11-21'
+evidence: scCFIB constructs two views from the original features and applies collaborative information fusion for cell clustering.

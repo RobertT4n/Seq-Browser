@@ -1,0 +1,22 @@
+name: GRASS-MIL
+category: dry
+summary: Graph multiple-instance learning framework that predicts phenotypes from spatial cellular neighborhoods and attributes
+  predictions to those neighborhoods.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.08.757722
+  year: 2026
+  journal: bioRxiv
+  first_author: Rabuzin
+  last_author: V
+  title: 'GRASS-MIL: graph-based representation and discovery of phenotype-associated spatial structures with multiple instance
+    learning'
+links: {}
+added: '2026-11-21'
+evidence: GRASS-MIL predicts phenotypes across platforms and decomposes each prediction into contributions from local cellular
+  neighborhoods.

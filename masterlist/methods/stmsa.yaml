@@ -1,0 +1,22 @@
+name: stMSA
+full_name: SpaTial Multi-Slice/omics Analysis
+category: dry
+summary: A deep graph contrastive learning model integrates spatial datasets while retaining tissue patterns and correcting
+  batch effects.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280584.125
+  year: 2025
+  journal: Genome Research
+  first_author: Shu H
+  last_author: Wang T
+  title: Efficient integration of spatial omics data for joint domain detection, matching, and alignment with stMSA
+  preprint_doi: 10.1101/2024.07.29.605604
+links: {}
+added: '2026-11-21'
+evidence: stMSA produces batch-corrected representations and integrates spatial proteomics and transcriptomics data.

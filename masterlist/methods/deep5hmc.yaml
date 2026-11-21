@@ -1,0 +1,22 @@
+name: Deep5hmC
+category: dry
+summary: Predicts genome-wide 5-hydroxymethylcytosine from DNA sequence and histone modification information.
+readouts:
+- dna-methylation
+- dna-5hmc
+- histone-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae528
+  year: 2024
+  journal: Bioinformatics
+  first_author: Ma X
+  last_author: Chen L
+  title: 'Deep5hmC: predicting genome-wide 5-hydroxymethylcytosine landscape via a multimodal deep learning model'
+  preprint_doi: 10.1101/2024.03.04.583444
+links: {}
+added: '2026-11-21'
+evidence: Deep5hmC integrates DNA sequence and histone modification information to predict genome-wide 5hmC.

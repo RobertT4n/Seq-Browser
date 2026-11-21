@@ -1,0 +1,19 @@
+name: PARM
+category: dry
+summary: Cell-type-specific deep learning model trained on reporter assays to predict promoter activity from DNA sequence.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.07.09.602649
+  year: 2024
+  journal: bioRxiv
+  first_author: Barbadilla-Martinez
+  last_author: B
+  title: The regulatory grammar of human promoters uncovered by MPRA-trained deep learning
+links: {}
+added: '2026-11-21'
+evidence: PARM is trained on massively parallel reporter assays of human promoter sequences and predicts promoter activity
+  throughout the genome.

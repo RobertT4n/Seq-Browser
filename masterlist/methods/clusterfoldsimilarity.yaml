@@ -1,0 +1,22 @@
+name: ClusterFoldSimilarity
+category: dry
+summary: Quantifies similarity between cell populations across independent datasets and identifies shared markers.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf042
+  year: 2025
+  journal: NAR Genomics and Bioinformatics
+  first_author: González-Velasco O
+  last_author: Brors B
+  title: Identifying similar populations across independent single cell studies without data integration
+  preprint_doi: 10.1101/2024.09.27.615367
+links: {}
+added: '2026-11-21'
+evidence: ClusterFoldSimilarity matches conserved cell phenotypes across datasets, including single-cell RNA-seq, ATAC-seq,
+  and proteomics.

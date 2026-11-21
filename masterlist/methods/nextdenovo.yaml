@@ -1,0 +1,21 @@
+name: NextDenovo
+category: dry
+summary: Tool corrects errors in noisy long reads and assembles genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-024-03252-4
+  year: 2024
+  journal: Genome Biology
+  first_author: Hu J
+  last_author: Wang S
+  title: 'NextDenovo: an efficient error correction and accurate assembly tool for noisy long reads'
+links: {}
+added: '2026-11-21'
+evidence: NextDenovo was applied to assemble 35 human genomes from nanopore long reads.

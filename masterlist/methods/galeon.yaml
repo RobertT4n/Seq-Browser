@@ -1,0 +1,18 @@
+name: GALEON
+category: dry
+summary: A bioinformatics tool identifies and visualizes physically clustered gene family members in chromosome-level genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae439
+  year: 2024
+  journal: Bioinformatics
+  first_author: Pisarenco VA
+  last_author: Rozas J
+  title: 'GALEON: a comprehensive bioinformatic tool to analyse and visualize gene clusters in complete genomes'
+links: {}
+added: '2026-11-21'
+evidence: GALEON identifies gene clusters using physical distances among gene family members and genome-wide gene density.

@@ -1,0 +1,19 @@
+name: STAVelo
+category: dry
+summary: Graph attention framework that infers RNA velocity from spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.02.756177
+  year: 2026
+  journal: bioRxiv
+  first_author: Li
+  last_author: S
+  title: 'STAVelo: deciphering spatiotemporal cellular dynamics via spatial RNA velocity inference from spatial transcriptomics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: STAVelo models spatial information and infers RNA velocity from representations of transcriptional kinetic parameters.

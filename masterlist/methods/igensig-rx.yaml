@@ -1,0 +1,20 @@
+name: iGenSig-Rx
+category: dry
+summary: Models cancer therapeutic response using interpretable genomic signatures and clinical trial data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05835-1
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Lee S
+  last_author: Wang XS
+  title: 'iGenSig-Rx: an integral genomic signature based white-box tool for modeling cancer therapeutic responses using multi-omics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: iGenSig-Rx models therapeutic response using genomic features and was evaluated across four HER2-targeted therapy
+  trials.

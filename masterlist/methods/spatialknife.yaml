@@ -1,0 +1,22 @@
+name: SpatialKNife
+category: dry
+summary: Detects and analyzes spatial domains in single-cell spatial transcriptomics data to investigate tissue microenvironments.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012854
+  year: 2025
+  journal: PLOS Computational Biology
+  first_author: Sakai SA
+  last_author: Yamashita R
+  title: 'SpatialKNifeY (SKNY): Extending from spatial domain to surrounding area to identify microenvironment features with
+    single-cell spatial omics data'
+  preprint_doi: 10.1101/2024.06.18.599475
+links: {}
+added: '2026-11-21'
+evidence: SpatialKNife identifies tumor spatial domains, clusters them, estimates trajectories, and extends the analysis to
+  the tumor microenvironment.

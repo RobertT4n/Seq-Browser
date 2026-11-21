@@ -1,0 +1,21 @@
+name: vAMPirus
+category: dry
+summary: Workflow for processing viral amplicon sequencing data and producing abundance, taxonomy, phylogeny, and diversity
+  results.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1111/1755-0998.13978
+  year: 2024
+  journal: Molecular Ecology Resources
+  first_author: Veglia AJ
+  last_author: Correa AMS
+  title: '<scp>vAMPirus</scp>: A versatile amplicon processing and analysis program for studying viruses'
+links: {}
+added: '2026-11-21'
+evidence: vAMPirus processes raw DNA and RNA virus amplicon libraries to produce sequence abundance, taxonomic classifications,
+  phylogenies, and community diversity metrics.

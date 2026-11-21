@@ -1,0 +1,21 @@
+name: scMOCHA
+full_name: Single-Cell Mitochondrial Omics for Cellular Heteroplasmy Analysis
+category: dry
+summary: A computational framework identifies mitochondrial DNA variants and heteroplasmy at single-cell resolution from scRNA-seq
+  data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.11.758340
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu
+  last_author: L
+  title: Single-cell variant landscape of the human mitochondrial genome reveals cell type-specific functions and disease
+    mechanisms
+links: {}
+added: '2026-11-21'
+evidence: scMOCHA resolves single-cell mitochondrial DNA heteroplasmy directly from standard scRNA-seq data.

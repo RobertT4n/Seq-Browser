@@ -1,0 +1,29 @@
+name: NanoTag
+category: wet
+summary: An anti-GFP nanobody-Tn5 fusion maps GFP-tagged chromatin-associated proteins without conventional IgG antibodies.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2024.07.12.603224
+  year: 2024
+  journal: bioRxiv
+  first_author: Dimitriu
+  last_author: I. M
+  title: NanoTag - an IgG-free method for mapping DNA-protein interactions
+links: {}
+added: '2026-11-21'
+evidence: NanoTag uses an anti-GFP nanobody-Tn5 fusion and was demonstrated on GFP-tagged targets in mouse embryonic stem
+  cells.
+targets:
+- TAF3
+- Nanog
+- CTCF

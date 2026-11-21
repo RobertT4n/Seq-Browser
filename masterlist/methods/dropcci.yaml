@@ -1,0 +1,29 @@
+name: DropCCI
+category: wet
+summary: DropCCI transfers antigen-associated barcodes to T cells in droplets for single-cell profiling of antigen specificity,
+  transcriptomes and genomes.
+readouts:
+- receptor-ligand
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- bioorthogonal-conjugation
+- reverse-transcription
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.bios.2024.116815
+  year: 2025
+  journal: Biosensors and Bioelectronics
+  first_author: Wang S
+  last_author: Liu Y
+  title: High-throughput and multimodal profiling of antigen-specific T cells with a droplet-based cell-cell interaction screening
+    platform
+links: {}
+added: '2026-11-21'
+evidence: Antigen-loaded presenting cells and barcodes are encapsulated in droplets, where modified T cells capture barcodes
+  before single-cell omics sequencing.

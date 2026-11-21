@@ -1,0 +1,19 @@
+name: ColImpute
+category: dry
+summary: Jointly imputes missing scRNA-seq expression values and clusters cell subtypes while preserving cluster structure.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3404013
+  year: 2024
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Gao H
+  last_author: Wu S
+  title: Collaborative Structure-Preserved Missing Data Imputation for Single-Cell RNA-Seq Clustering
+links: {}
+added: '2026-11-21'
+evidence: ColImpute integrates a cluster structure-preserving imputation module and a subspace clustering module in one optimization
+  framework.

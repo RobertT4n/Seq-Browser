@@ -1,0 +1,24 @@
+name: EDA-seq
+full_name: engineered deaminase-assisted sequencing
+category: wet
+summary: EDA-seq quantifies cytosine, 5mC, and 5hmC at the same selected genomic sites using an engineered deaminase.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1039/d4sc00930d
+  year: 2024
+  journal: Chemical Science
+  first_author: Xie NB
+  last_author: Yuan BF
+  title: Simultaneous detection of 5-methylcytosine and 5-hydroxymethylcytosine at specific genomic loci by engineered deaminase-assisted
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: An engineered APOBEC3A deaminates C, 5mC, and 5hmC at different rates to quantify them at particular genomic locations.

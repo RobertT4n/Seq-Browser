@@ -1,0 +1,18 @@
+name: fastEmu
+category: dry
+summary: Scalable method for testing differential microbial abundance by approximating radEmu's test statistic.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.08.757531
+  year: 2026
+  journal: bioRxiv
+  first_author: Teichman
+  last_author: A. D
+  title: Scalable fold-change estimation from microbial metagenomics
+links: {}
+added: '2026-11-21'
+evidence: fastEmu uses a data-driven subset of taxa to approximate the computationally expensive test statistic.

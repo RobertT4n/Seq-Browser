@@ -1,0 +1,22 @@
+name: muBind
+category: dry
+summary: Deep learning model that predicts genomic counts from DNA sequence features, cell activities, and cell relationships
+  to interpret regulatory dynamics.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.07.605876
+  year: 2024
+  journal: bioRxiv
+  first_author: Ibarra
+  last_author: F. J
+  title: Learning sequence-based regulatory dynamics in single-cell genomics
+links: {}
+added: '2026-11-21'
+evidence: muBind predicts counts using sequence features and cell graphs and identifies regulators in scATAC-seq and scRNA-seq
+  examples.

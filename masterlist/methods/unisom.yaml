@@ -1,0 +1,19 @@
+name: UNISOM
+category: dry
+summary: Workflow detects and classifies variants associated with clonal hematopoiesis from whole-genome and whole-exome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.22.590586
+  year: 2024
+  journal: bioRxiv
+  first_author: Tian
+  last_author: E. W
+  title: Unified somatic calling and machine learning-based classification enhance the discovery of clonal hematopoiesis of
+    indeterminate potential
+links: {}
+added: '2026-11-21'
+evidence: UNISOM combines a variant meta-caller with machine learning models that classify variants as CHIP, germline or artifact.

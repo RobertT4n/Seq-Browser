@@ -1,0 +1,18 @@
+name: SCIntRuler
+category: dry
+summary: Provides a statistical metric to guide whether and how to integrate multiple single-cell RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae537
+  year: 2024
+  journal: Bioinformatics
+  first_author: Lyu Y
+  last_author: Li Z
+  title: 'SCIntRuler: guiding the integration of multiple single-cell RNA-seq datasets with a novel statistical metric'
+links: {}
+added: '2026-11-21'
+evidence: SCIntRuler helps researchers decide whether integration is necessary and select an appropriate integration method.

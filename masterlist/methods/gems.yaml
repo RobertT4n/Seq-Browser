@@ -1,0 +1,23 @@
+name: GEMS
+full_name: GWAS Effect Mechanisms via Sequence-to-Function
+category: dry
+summary: Associates individual GWAS variants with disease-relevant cell types using predicted chromatin accessibility and
+  RNA effects.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.14.759213
+  year: 2026
+  journal: bioRxiv
+  first_author: Xie
+  last_author: K
+  title: 'GEMS (GWAS Effect Mechanisms via Sequence-to-Function): Unveiling cell type-specific mechanisms for GWAS variants'
+links: {}
+added: '2026-11-21'
+evidence: GEMS trains classifiers on ATAC-seq and RNA-seq variant effect predictions and uses attribution to associate variants
+  with cell types.

@@ -1,0 +1,20 @@
+name: SFUMATO
+full_name: Segmentation-Free Uncertainty Mapping and Analysis of Transcriptomic Organisation
+category: dry
+summary: Uses Bayesian probabilistic clustering to map spatial transcriptomic components and their uncertainty.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.25.754409
+  year: 2026
+  journal: bioRxiv
+  first_author: Giustolisi
+  last_author: C
+  title: 'SFUMATO: Bayesian probabilistic clustering for uncertainty-aware spatialtranscriptomics analysis and mapping'
+links: {}
+added: '2026-11-21'
+evidence: SFUMATO infers posterior probabilities over transcriptional components at each spatial location.

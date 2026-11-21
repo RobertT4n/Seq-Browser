@@ -1,0 +1,18 @@
+name: scGHOST
+category: dry
+summary: Method uses graph embedding to annotate 3D genome subcompartments in individual cells.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02230-9
+  year: 2024
+  journal: Nature Methods
+  first_author: Xiong K
+  last_author: Ma J
+  title: 'scGHOST: identifying single-cell 3D genome subcompartments'
+links: {}
+added: '2026-11-21'
+evidence: scGHOST identifies single-cell subcompartments from scHi-C data and contact maps derived from 3D genome imaging.

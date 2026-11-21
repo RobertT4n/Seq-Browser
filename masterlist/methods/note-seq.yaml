@@ -1,0 +1,31 @@
+name: NOTE-seq
+category: wet
+summary: NOTE-seq simultaneously profiles regular and newly synthesized RNA in single cells using 4-thiouridine labeling and
+  chemical conversion.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- droplet-microfluidics
+- reverse-transcription
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/2024.08.22.609222
+  year: 2024
+  journal: bioRxiv
+  first_author: Lyu
+  last_author: C
+  title: A convenient single-cell newly synthesized transcriptome assay reveals gene expression dynamics during early-stage
+    T-cell activation
+links: {}
+added: '2026-11-21'
+evidence: NOTE-seq combines 4-thiouridine labeling and chemical conversion with a 10X Genomics workflow to profile regular
+  and newly synthesized transcriptomes.

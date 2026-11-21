@@ -1,0 +1,20 @@
+name: GeneLLM
+category: dry
+summary: Interprets plasma cell-free RNA sequences for cancer detection and biomarker discovery.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-74411-3
+  year: 2026
+  journal: Nature Communications
+  first_author: Deng S
+  last_author: Wang P
+  title: Decoding cancer circulating transcriptomic signatures with language models
+  preprint_doi: 10.1101/2024.06.29.601341
+links: {}
+added: '2026-11-21'
+evidence: GeneLLM directly interprets plasma cfRNA sequences for multi-cancer detection and identifies candidate biomarkers
+  from unannotated regions.

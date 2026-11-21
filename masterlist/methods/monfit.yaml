@@ -1,0 +1,21 @@
+name: MONFIT
+category: dry
+summary: Integrates time-series single-cell RNA-seq with bulk proteomics and metabolomics using matrix factorization.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/narmme/ugae012
+  year: 2024
+  journal: NAR Molecular Medicine
+  first_author: Mihajlović K
+  last_author: Pržulj N
+  title: 'MONFIT: multi-omics factorization-based integration of time-series data sheds light on Parkinson’s disease'
+  preprint_doi: 10.1101/2024.06.03.597147
+links: {}
+added: '2026-11-21'
+evidence: MONFIT integrates time-series single-cell RNA-seq with bulk proteomics and metabolomics data.

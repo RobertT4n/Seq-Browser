@@ -1,0 +1,24 @@
+name: PRIM-seq
+full_name: Protein-RNA Interaction Mapping by sequencing
+category: wet
+summary: PRIM-seq identifies RNA-binding proteins and their associated RNAs by converting RNA-protein pairs into chimeric
+  DNA sequences.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1101/2024.09.04.611288
+  year: 2024
+  journal: bioRxiv
+  first_author: Qi
+  last_author: S
+  title: Genome-Wide Mapping of RNA-Protein Associations via Sequencing
+links: {}
+added: '2026-11-21'
+evidence: PRIM-seq converts each RNA-protein pair into a unique chimeric DNA sequence decoded by sequencing.

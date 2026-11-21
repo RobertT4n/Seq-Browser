@@ -1,0 +1,20 @@
+name: RGAST
+category: dry
+summary: Integrates spatial proximity and gene expression to reconstruct cell-cell communication networks from spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.09.607420
+  year: 2024
+  journal: bioRxiv
+  first_author: Gong
+  last_author: Z
+  title: 'RGAST: Relational Graph Attention Network for Spatial Transcriptome Analysis'
+links: {}
+added: '2026-11-21'
+evidence: RGAST uses a relational graph attention network to reconstruct multi-scale cell-cell communication networks from
+  spatial and transcriptional profiles.

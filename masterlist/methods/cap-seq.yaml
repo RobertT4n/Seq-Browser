@@ -1,0 +1,26 @@
+name: CAP-seq
+category: wet
+summary: CAP-seq uses hydrogel encapsulation and long reads to recover genomes from thousands of individual microbes.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- hydrogel-compartmentalization
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+reference:
+  doi: 10.1101/2024.09.10.612220
+  year: 2024
+  journal: bioRxiv
+  first_author: Li
+  last_author: Y
+  title: High-coverage, massively parallel sequencing of single-cell genomes with CAP-seq
+links: {}
+added: '2026-11-21'
+evidence: CAP-seq combines hydrogel-based semi-permeable encapsulation with minimal microfluidics to recover single-amplified
+  microbial genomes using long reads.

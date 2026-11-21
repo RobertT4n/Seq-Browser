@@ -1,0 +1,18 @@
+name: STMask
+category: dry
+summary: Learns spatial transcriptomics representations using masked graph autoencoding and contrastive learning.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.30.596562
+  year: 2024
+  journal: bioRxiv
+  first_author: Min
+  last_author: S
+  title: Dimensionality Reduction and Denoising of Spatial Transcriptomics Data Using Dual-Channel Masked Graph Autoencoder
+links: {}
+added: '2026-11-21'
+evidence: STMask combines masking with a graph autoencoder and graph contrastive learning for spatial transcriptomics analysis.

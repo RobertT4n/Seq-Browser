@@ -1,0 +1,23 @@
+name: BacScan
+category: wet
+summary: Phage display, immunoprecipitation and sequencing identify immunogenic bacterial proteins across serotypes.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- microbe
+reference:
+  doi: 10.3389/fimmu.2024.1392456
+  year: 2024
+  journal: Frontiers in Immunology
+  first_author: Dong J
+  last_author: Tao P
+  title: 'BacScan: a novel genome-wide strategy for uncovering broadly immunogenic proteins in bacteria'
+links: {}
+added: '2026-11-21'
+evidence: BacScan uses bacterial-specific serum, phage display, immunoprecipitation and sequencing to identify highly immunogenic
+  proteins, and was validated with Streptococcus suis.

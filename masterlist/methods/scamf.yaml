@@ -1,0 +1,19 @@
+name: scAMF
+full_name: Single-cell Analysis via Manifold Fitting
+category: dry
+summary: Denoises single-cell RNA-seq data through manifold fitting to improve clustering and visualization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2400002121
+  year: 2024
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Yao Z
+  last_author: Yau ST
+  title: 'Single-cell analysis via manifold fitting: A framework for RNA clustering and beyond'
+links: {}
+added: '2026-11-21'
+evidence: scAMF unfolds the distribution of gene expression vectors to improve cell similarity assessments.

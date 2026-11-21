@@ -1,0 +1,18 @@
+name: AEon
+category: dry
+summary: Estimates an individual's fractional ancestral population membership from genomic variant data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.18.599246
+  year: 2024
+  journal: bioRxiv
+  first_author: Warren
+  last_author: M
+  title: 'AEon: A global genetic ancestry estimation tool'
+links: {}
+added: '2026-11-21'
+evidence: AEon estimates global ancestry and admixture directly from VCF or BCF input.

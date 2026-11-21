@@ -1,0 +1,19 @@
+name: BayesAge
+category: dry
+summary: Estimates epigenetic age from bulk bisulfite sequencing using a maximum likelihood model of methylation counts.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2024.1329144
+  year: 2024
+  journal: Frontiers in Bioinformatics
+  first_author: Mboning L
+  last_author: Pellegrini M
+  title: 'BayesAge: A maximum likelihood algorithm to predict epigenetic age'
+links: {}
+added: '2026-11-21'
+evidence: BayesAge models count-based bulk bisulfite sequencing data to infer age and estimate error bounds.

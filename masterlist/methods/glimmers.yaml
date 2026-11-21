@@ -1,0 +1,22 @@
+name: GLIMMERS
+full_name: glioma molecular markers exploration using long-read sequencing
+category: dry
+summary: Tool analyzes nanopore copy number data and generates reports to support glioma classification and grading.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioadv/vbae058
+  year: 2024
+  journal: Bioinformatics Advances
+  first_author: Thongrattana W
+  last_author: Jenjaroenpun P
+  title: 'GLIMMERS: glioma molecular markers exploration using long-read sequencing'
+links: {}
+added: '2026-11-21'
+evidence: GLIMMERS automatically analyzes nanopore-based CNV data and generates simplified reports.

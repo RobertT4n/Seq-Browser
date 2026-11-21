@@ -1,0 +1,21 @@
+name: PADIT-seq
+full_name: protein affinity to DNA by in vitro transcription and RNA sequencing
+category: wet
+summary: PADIT-seq measures transcription factor binding preferences across all 10-base DNA sequences in vitro.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.03.05.583629
+  year: 2024
+  journal: bioRxiv
+  first_author: Khetan
+  last_author: M. L
+  title: Overlapping binding sites underlie TF genomic occupancy
+links: {}
+added: '2026-11-21'
+evidence: PADIT-seq assays binding preferences of human transcription factors HOXD13 and EGR1 to all 10-bp DNA sequences.

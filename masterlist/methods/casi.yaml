@@ -1,0 +1,20 @@
+name: CASi
+category: dry
+summary: Analyzes single-cell RNA-seq data across timepoints to annotate cells, visualize population changes and identify
+  temporal differential expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-024-58566-x
+  year: 2024
+  journal: Scientific Reports
+  first_author: Wang Y
+  last_author: Li Z
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CASi supports cross-timepoint cell annotation, discovery of potentially novel cell types and identification of temporal
+  differentially expressed genes.

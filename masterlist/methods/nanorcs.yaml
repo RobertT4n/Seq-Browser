@@ -1,0 +1,29 @@
+name: NanoRCS
+full_name: Nanopore Rolling Circle Amplification-enhanced Consensus Sequencing
+category: wet
+summary: NanoRCS uses nanopore consensus sequencing of amplified cell-free DNA to profile tumor variants, copy number alterations,
+  and fragmentomics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.279144.124
+  year: 2025
+  journal: Genome Research
+  first_author: Chen LT
+  last_author: de Ridder J
+  title: Nanopore-based consensus sequencing enables accurate multimodal tumor cell-free DNA profiling
+  preprint_doi: 10.1101/2024.02.16.580684
+links: {}
+added: '2026-11-21'
+evidence: NanoRCS combines rolling circle amplification and genome-wide nanopore consensus sequencing to measure SNVs, CNAs,
+  and fragmentomics.

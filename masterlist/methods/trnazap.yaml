@@ -1,0 +1,21 @@
+name: tRNAZAP
+category: dry
+summary: Analyzes nanopore ionic current signals to classify tRNAs and support reference-guided alignment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.09.28.755067
+  year: 2026
+  journal: bioRxiv
+  first_author: Daneshwar Kakhaki
+  last_author: M
+  title: 'tRNAZAP: Deep learning toolkit for nanopore tRNA signal analysis'
+links: {}
+added: '2026-11-21'
+evidence: tRNAZAP segments adapter and tRNA regions and classifies tRNAs directly from raw ionic current signals.

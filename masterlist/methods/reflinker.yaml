@@ -1,0 +1,20 @@
+name: refLinker
+category: dry
+summary: Infers chromosomal haplotypes from cancer Hi-C data despite large copy-number alterations.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.02.583108
+  year: 2024
+  journal: bioRxiv
+  first_author: Brunette
+  last_author: C.-Z
+  title: Haplotype-resolved karyotype construction from Hi-C data using refLinker
+links: {}
+added: '2026-11-21'
+evidence: refLinker determines chromosomal haplotypes using cancer Hi-C data and is robust to deletions, duplications and
+  amplification.

@@ -1,0 +1,21 @@
+name: ENEO
+category: dry
+summary: Computational approach that identifies cancer neoantigens from tumor-only RNA-seq using a Bayesian model.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf026
+  year: 2025
+  journal: NAR Genomics and Bioinformatics
+  first_author: Tatoni D
+  last_author: D’Aurizio R
+  title: Efficient and effective identification of cancer neoantigens from tumor only RNA-seq
+  preprint_doi: 10.1101/2024.08.08.607127
+links: {}
+added: '2026-11-21'
+evidence: ENEO detects neoantigens from tumor RNA-seq without a matched control and identifies mutated peptides resulting
+  from expressed genomic alterations.

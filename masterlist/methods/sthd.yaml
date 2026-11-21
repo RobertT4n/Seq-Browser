@@ -1,0 +1,22 @@
+name: STHD
+full_name: probabilistic cell typing of single Spots in whole Transcriptome spatial data with High Definition
+category: dry
+summary: Infers cell types at individual spots in high-resolution spatial transcriptomics data using count statistics and
+  reference single-cell data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03608-4
+  year: 2025
+  journal: Genome Biology
+  first_author: Sun C
+  last_author: Zhang Y
+  title: 'STHD: probabilistic cell typing of single spots in whole transcriptome spatial data with high definition'
+  preprint_doi: 10.1101/2024.06.20.599803
+links: {}
+added: '2026-11-21'
+evidence: STHD models expression at individual spots to infer cell types without cell segmentation or spot aggregation.

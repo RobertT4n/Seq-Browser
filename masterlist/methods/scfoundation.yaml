@@ -1,0 +1,19 @@
+name: scFoundation
+category: dry
+summary: Pretrains a large model on human single-cell transcriptomes for diverse downstream analyses.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02305-7
+  year: 2024
+  journal: Nature Methods
+  first_author: Hao M
+  last_author: Song L
+  title: Large-scale foundation model on single-cell transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: scFoundation was pretrained on over 50 million human single-cell transcriptomic profiles and evaluated on multiple
+  analysis tasks.

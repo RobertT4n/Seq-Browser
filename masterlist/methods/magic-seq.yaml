@@ -1,0 +1,29 @@
+name: MAGIC-seq
+full_name: microfluidics-assisted grid chips for spatial transcriptome sequencing
+category: wet
+summary: MAGIC-seq uses microfluidic grid chips and spatial combinatorial indexing to profile transcripts across tissue sections.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- microfluidic-chip
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41588-024-01906-4
+  year: 2024
+  journal: Nature Genetics
+  first_author: Zhu J
+  last_author: Zhao F
+  title: Custom microfluidic chip design enables cost-effective three-dimensional spatiotemporal transcriptomics with a wide
+    field of view
+links: {}
+added: '2026-11-21'
+evidence: MAGIC-seq combines carbodiimide chemistry, spatial combinatorial indexing and microfluidics to profile tissue sections
+  at near single-cell resolution.

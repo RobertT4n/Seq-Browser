@@ -1,0 +1,18 @@
+name: TaxaNorm
+category: dry
+summary: Normalizes microbiome taxa counts while allowing sequencing-depth effects to vary across taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05918-z
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Wang Z
+  last_author: Motsinger-Reif A
+  title: 'Taxanorm: a novel taxa-specific normalization approach for microbiome data'
+links: {}
+added: '2026-11-21'
+evidence: TaxaNorm uses a zero-inflated negative binomial model with taxon-specific sequencing-depth effects.

@@ -1,0 +1,21 @@
+name: GeNA
+full_name: Genotype-Neighborhood Associations
+category: dry
+summary: Identifies genetic variants associated with the abundance of cell states in high-dimensional single-cell data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01909-1
+  year: 2024
+  journal: Nature Genetics
+  first_author: Rumker L
+  last_author: Raychaudhuri S
+  title: Identifying genetic variants that influence the abundance of cell states in single-cell data
+links: {}
+added: '2026-11-21'
+evidence: GeNA identifies cell-state abundance quantitative trait loci and was applied to single-cell RNA-seq profiles from
+  969 individuals.

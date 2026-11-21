@@ -1,0 +1,21 @@
+name: CAST
+full_name: cross-sample alignment of spatial omics
+category: dry
+summary: Aligns and compares spatial omics samples at single-cell resolution across technologies and modalities.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02410-7
+  year: 2024
+  journal: Nature Methods
+  first_author: Tang Z
+  last_author: Wang X
+  title: Search and match across spatial omics samples at single-cell resolution
+links: {}
+added: '2026-11-21'
+evidence: CAST searches and matches spatial molecular features across samples and reconstructs spatially resolved single-cell
+  multi-omic profiles.

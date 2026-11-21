@@ -1,0 +1,27 @@
+name: axonal BARseq
+category: wet
+summary: Axonal BARseq reads nucleic acid barcodes by in situ RNA sequencing to map individual neuronal projections.
+readouts:
+- cell-cell-contact
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-024-52756-x
+  year: 2024
+  journal: Nature Communications
+  first_author: Yuan L
+  last_author: Zador AM
+  title: Massive multiplexing of spatially resolved single neuron projections with axonal BARseq
+links: {}
+added: '2026-11-21'
+evidence: In situ RNA sequencing of barcodes enabled mapping of long-range projections of more than 8,000 auditory cortex
+  neurons in one mouse.

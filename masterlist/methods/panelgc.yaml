@@ -1,0 +1,19 @@
+name: panelGC
+category: dry
+summary: Metric and tool that quantifies and monitors GC-associated coverage bias in hybridization capture panel sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbae442
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Cheng X
+  last_author: Jones SJM
+  title: 'Enhancing clinical genomic accuracy with panelGC: a novel metric and tool for quantifying and monitoring GC biases
+    in hybridization capture panel sequencing'
+links: {}
+added: '2026-11-21'
+evidence: panelGC quantifies GC biases in hybridization capture sequencing data and flags potential procedural anomalies.

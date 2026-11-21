@@ -1,0 +1,29 @@
+name: POLAR-seq
+full_name: Pool of Long Amplified Reads sequencing
+category: wet
+summary: Long-range PCR and nanopore sequencing identify gene content, structural variation and relative abundance of pooled
+  combinatorial genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.06.06.597521
+  year: 2024
+  journal: bioRxiv
+  first_author: Ciurkot
+  last_author: T
+  title: Combinatorial Design Testing in Genomes with POLAR-seq
+links: {}
+added: '2026-11-21'
+evidence: Target regions up to 35 kb are amplified from pooled genomic DNA and sequenced to identify individual genotypes
+  and their abundance.

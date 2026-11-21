@@ -1,0 +1,20 @@
+name: RBET
+full_name: Reference-based Batch Effect Testing
+category: dry
+summary: Evaluates batch correction methods for single-cell transcriptomic data using reference genes and distribution comparisons.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.26.595911
+  year: 2024
+  journal: bioRxiv
+  first_author: Hu
+  last_author: H
+  title: RBET guides case-specific choice of batch correction methods for single-cell transcriptomic data with overcorrection
+    awareness and large batch effect robustness
+links: {}
+added: '2026-11-21'
+evidence: RBET evaluates batch correction with sensitivity to overcorrection and robustness to large batch effects.

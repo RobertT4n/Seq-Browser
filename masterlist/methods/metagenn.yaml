@@ -1,0 +1,21 @@
+name: MetageNN
+category: dry
+summary: Neural network classifier uses k-mer profiles to assign taxonomy to error-prone long reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12859-024-05760-3
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Peres da Silva R
+  last_author: Nagarajan N
+  title: 'MetageNN: a memory-efficient neural network taxonomic classifier robust to sequencing errors and missing genomes'
+links: {}
+added: '2026-11-21'
+evidence: MetageNN is a memory-efficient long-read taxonomic classifier robust to sequencing errors and missing genomes.

@@ -1,0 +1,30 @@
+name: scCAPS+
+category: wet
+summary: scCAPS+ directly profiles DNA 5-hydroxymethylcytosine at single-base and single-cell resolution.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s13059-025-03708-1
+  year: 2025
+  journal: Genome Biology
+  first_author: Chen X
+  last_author: Song CX
+  title: Direct and bisulfite-free 5-methylcytosine and 5-hydroxymethylcytosine sequencing at single-cell resolution with
+    scTAPS and scCAPS +
+  preprint_doi: 10.1101/2024.02.12.579864
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes scCAPS+ as a direct, 5hmC-specific sequencing method and reports its use in mouse cells and
+  hippocampus.

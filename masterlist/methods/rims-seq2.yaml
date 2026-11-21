@@ -1,0 +1,27 @@
+name: RIMS-seq2
+category: wet
+summary: Controlled cytosine deamination adds regional methylation information to genome sequencing libraries while preserving
+  variant calling.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+reference:
+  doi: 10.1101/gr.278294.123
+  year: 2024
+  journal: Genome Research
+  first_author: Yan B
+  last_author: Ettwiller L
+  title: Simultaneous assessment of human genome and methylome data in a single experiment using limited deamination of methylated
+    cytosine
+links: {}
+added: '2026-11-21'
+evidence: RIMS-seq2 simultaneously sequences genomes and overlays methylation information using a controlled deamination step
+  in whole- or targeted-genome libraries.

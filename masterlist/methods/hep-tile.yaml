@@ -1,0 +1,26 @@
+name: HEP-TILE
+category: wet
+summary: HEP-TILE enriches hepatitis B virus genomes by tiled amplicon PCR for whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.09.11.24313306
+  year: 2024
+  journal: medRxiv
+  first_author: Lumley
+  last_author: P. C
+  title: Whole genome sequencing of hepatitis B virus (HBV) using tiled amplicon (HEP-TILE) and probe-based enrichment on
+    Illumina and Nanopore platforms
+links: {}
+added: '2026-11-21'
+evidence: HEP-TILE amplified full HBV genomes at the lowest viral load tested, and its PCR products were sequenced on Nanopore
+  and Illumina platforms.

@@ -1,0 +1,22 @@
+name: VILOCA
+category: dry
+summary: Calls mutations and reconstructs local viral haplotypes from sequencing reads using their quality scores.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1101/2024.06.06.597712
+  year: 2024
+  journal: bioRxiv
+  first_author: Fuhrmann
+  last_author: N
+  title: 'VILOCA: Sequencing quality-aware haplotype reconstruction and mutation calling for short- and long-read data'
+links: {}
+added: '2026-11-21'
+evidence: VILOCA reconstructs local haplotypes and calls mutations from short- and long-read viral sequencing data.

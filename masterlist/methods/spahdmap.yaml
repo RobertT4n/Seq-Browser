@@ -1,0 +1,19 @@
+name: SpaHDmap
+category: dry
+summary: Integrates spatial transcriptomics and histology images to produce interpretable high-resolution embeddings.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.12.612666
+  year: 2024
+  journal: bioRxiv
+  first_author: Tang
+  last_author: R
+  title: Interpretable high-resolution dimension reduction of spatial transcriptomics data by DeepFuseNMF
+links: {}
+added: '2026-11-21'
+evidence: SpaHDmap combines non-negative matrix factorization with a multimodal fusion encoder-decoder to identify high-resolution
+  embeddings.

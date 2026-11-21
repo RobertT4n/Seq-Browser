@@ -1,0 +1,23 @@
+name: LongSom
+category: dry
+summary: Calls somatic variants from long-read single-cell RNA sequencing to reconstruct tumor clonal heterogeneity.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.279281.124
+  year: 2025
+  journal: Genome Research
+  first_author: Dondi A
+  last_author: Beerenwinkel N
+  title: De novo detection of somatic variants in high-quality long-read single-cell RNA sequencing data
+  preprint_doi: 10.1101/2024.03.06.583775
+links: {}
+added: '2026-11-21'
+evidence: LongSom calls somatic SNVs, copy-number alterations, and gene fusions from long-read single-cell RNA sequencing
+  data.

@@ -1,0 +1,19 @@
+name: scPRAM
+category: dry
+summary: Attention-based method that predicts single-cell gene expression responses to perturbations, including in unseen
+  cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae265
+  year: 2024
+  journal: Bioinformatics
+  first_author: Jiang Q
+  last_author: Jiang R
+  title: scPRAM accurately predicts single-cell gene expression perturbation response based on attention mechanism
+links: {}
+added: '2026-11-21'
+evidence: scPRAM aligns cell states before and after perturbation and predicts expression responses using attention mechanisms.

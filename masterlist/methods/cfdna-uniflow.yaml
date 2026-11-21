@@ -1,0 +1,21 @@
+name: cfDNA UniFlow
+category: dry
+summary: Preprocesses cell-free DNA sequencing data with error correction, quality control, copy number analysis, and coverage
+  analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae102
+  year: 2024
+  journal: GigaScience
+  first_author: Röner S
+  last_author: Kircher M
+  title: 'cfDNA UniFlow: a unified preprocessing pipeline for cell-free DNA data from liquid biopsies'
+  preprint_doi: 10.1101/2024.06.01.24308210
+links: {}
+added: '2026-11-21'
+evidence: cfDNA UniFlow processes raw genome sequencing data and includes sequencing error correction, filtering, quality
+  control, and copy number alteration detection.

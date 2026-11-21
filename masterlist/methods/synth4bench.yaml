@@ -1,0 +1,20 @@
+name: synth4bench
+category: dry
+summary: Generates controlled synthetic genomics datasets for benchmarking tumor-only somatic variant callers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2026.1858375
+  year: 2026
+  journal: Frontiers in Bioinformatics
+  first_author: Fragkouli SC
+  last_author: Psomopoulos F
+  title: 'Synth4bench: generating synthetic data for benchmarking tumor-only somatic variant calling algorithms'
+  preprint_doi: 10.1101/2024.03.07.582313
+links: {}
+added: '2026-11-21'
+evidence: Synth4bench creates synthetic ground-truth datasets to evaluate tumor-only somatic variant callers across sequencing
+  parameters.

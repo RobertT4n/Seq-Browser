@@ -1,0 +1,22 @@
+name: miRTalk
+category: dry
+summary: Probabilistic framework that infers extracellular vesicle-derived miRNA-mediated cell communication from single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03566-x
+  year: 2025
+  journal: Genome Biology
+  first_author: Shao X
+  last_author: Fan X
+  title: Extracellular vesicle-derived miRNA-mediated cell–cell communication inference for single-cell transcriptomic data
+    with miRTalk
+  preprint_doi: 10.1101/2024.07.07.602386
+links: {}
+added: '2026-11-21'
+evidence: miRTalk uses a probabilistic model and a database of extracellular vesicle-derived miRNA-target associations to
+  infer communication from scRNA-seq data.

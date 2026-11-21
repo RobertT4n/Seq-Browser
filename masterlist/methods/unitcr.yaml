@@ -1,0 +1,20 @@
+name: UniTCR
+category: dry
+summary: Integrates T-cell receptor sequences and single-cell transcriptomes in a shared representation.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2024.100553
+  year: 2024
+  journal: Cell Genomics
+  first_author: Gao Y
+  last_author: Liu Q
+  title: Unified cross-modality integration and analysis of T cell receptors and T cell transcriptomes by low-resource-aware
+    representation learning
+links: {}
+added: '2026-11-21'
+evidence: UniTCR embeds TCR and transcriptome modalities in a common latent space for T-cell analysis.

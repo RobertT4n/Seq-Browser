@@ -1,0 +1,20 @@
+name: dScaff
+full_name: Digital Scaffolding
+category: dry
+summary: Scaffolds de novo genome assemblies using reference scaffolds or chromosomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.23.614313
+  year: 2024
+  journal: bioRxiv
+  first_author: Constantin
+  last_author: A. C
+  title: dScaff - an automatic bioinformatics framework for scaffolding draft de novo assemblies based on reference genome
+    data
+links: {}
+added: '2026-11-21'
+evidence: dScaff performs reference-based scaffolding of de novo assemblies and was demonstrated on a Drosophila suzukii genome.

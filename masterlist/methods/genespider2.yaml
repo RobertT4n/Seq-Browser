@@ -1,0 +1,18 @@
+name: GeneSPIDER2
+category: dry
+summary: Simulates single-cell data with genetic perturbations and supports gene regulatory network benchmarking and analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae121
+  year: 2024
+  journal: NAR Genomics and Bioinformatics
+  first_author: Garbulowski M
+  last_author: Sonnhammer ELL
+  title: 'GeneSPIDER2: large scale GRN simulation and benchmarking with perturbed single-cell data'
+links: {}
+added: '2026-11-21'
+evidence: GeneSPIDER2 generates large regulatory networks and simulated single-cell data based on genetic perturbations.

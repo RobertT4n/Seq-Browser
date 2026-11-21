@@ -1,0 +1,21 @@
+name: scPLAN
+category: dry
+summary: Annotates and integrates single-cell RNA-seq datasets using hierarchical cell-type labels and refines labels at different
+  levels of detail.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae305
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Guo Q
+  last_author: Deng M
+  title: 'scPLAN: a hierarchical computational framework for single transcriptomics data annotation, integration and cell-type
+    label refinement'
+links: {}
+added: '2026-11-21'
+evidence: scPLAN uses a hierarchical cell-type reference to annotate cells and integrate datasets with different annotation
+  depths.

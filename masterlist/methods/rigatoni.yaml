@@ -1,0 +1,20 @@
+name: RIGATonI
+full_name: Rapid Identification of Genomic Alterations in Tumors affecting lymphocyte Infiltration
+category: dry
+summary: Uses paired histology and bulk RNA sequencing data to investigate tumor immune infiltration and associated gene activity.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.02.583103
+  year: 2024
+  journal: bioRxiv
+  first_author: Vella
+  last_author: S
+  title: Rapid Identification of Genomic Alterations in Tumors affecting lymphocyte Infiltration (RIGATonI)
+links: {}
+added: '2026-11-21'
+evidence: The Immunity Module was trained on pathologist-reviewed histology slides and paired bulk RNA sequencing data to
+  detect levels of immune infiltration.

@@ -1,0 +1,21 @@
+name: TransMetaSegmentation
+category: dry
+summary: Integrates spatial transcriptomics and mass spectrometry imaging to segment and type cells and assign metabolites
+  to cell types.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.12.598521
+  year: 2024
+  journal: bioRxiv
+  first_author: Wang
+  last_author: A
+  title: 'TransMetaSegmentation (TMS): a transcriptome-based segmentation method for spatial metabolomic data'
+links: {}
+added: '2026-11-21'
+evidence: TransMetaSegmentation integrates MALDI imaging with single-cell spatial transcriptomics to define cell boundaries
+  and types and allocate metabolites.

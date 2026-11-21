@@ -1,0 +1,22 @@
+name: STEP
+full_name: Spatial Transcriptomics Embedding Procedure
+category: dry
+summary: Model combines transcriptional, batch and spatial information to identify cell types and spatial domains across transcriptomics
+  samples.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.15.589470
+  year: 2024
+  journal: bioRxiv
+  first_author: Li
+  last_author: X
+  title: 'STEP: Spatial Transcriptomics Embedding Procedure for Multi-scale Biological Heterogeneities Revelation in Multiple
+    Samples'
+links: {}
+added: '2026-11-21'
+evidence: STEP combines a Transformer and variational autoencoder backbone with batch-effect and spatial models.

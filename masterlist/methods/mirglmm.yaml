@@ -1,0 +1,20 @@
+name: miRglmm
+category: dry
+summary: Uses a generalized linear mixed model of isomiR counts to estimate differential miRNA expression and isomiR usage.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03549-y
+  year: 2025
+  journal: Genome Biology
+  first_author: Baran AM
+  last_author: McCall MN
+  title: 'miRglmm: a generalized linear mixed model of isomiR-level counts improves estimation of miRNA-level differential
+    expression and uncovers variable differential expression between isomiRs'
+  preprint_doi: 10.1101/2024.05.03.592274
+links: {}
+added: '2026-11-21'
+evidence: miRglmm models isomiR-level counts to detect differential miRNA expression or differential isomiR usage.

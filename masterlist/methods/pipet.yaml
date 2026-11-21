@@ -1,0 +1,20 @@
+name: PIPET
+category: dry
+summary: Identifies phenotype-associated single-cell subpopulations using expression signatures derived from bulk data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae260
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Ruan X
+  last_author: Yan F
+  title: 'PIPET: predicting relevant subpopulations in single-cell data using phenotypic information from bulk data'
+links: {}
+added: '2026-11-21'
+evidence: PIPET derives phenotype feature vectors from differentially expressed genes in bulk data and compares them with
+  single-cell data.

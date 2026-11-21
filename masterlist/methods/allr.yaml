@@ -1,0 +1,22 @@
+name: ALLR
+full_name: Annotation of human lncRNAs using Long-Read sequencing
+category: dry
+summary: Identifies and quantifies long noncoding RNAs from long-read sequencing and annotates their potential functional
+  roles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.10.15.759235
+  year: 2026
+  journal: bioRxiv
+  first_author: Bhattacharya
+  last_author: L
+  title: SF3B1 mutation generates novel peptides from long non-coding RNAs
+links: {}
+added: '2026-11-21'
+evidence: ALLR is a computational workflow to identify and quantify lncRNAs and annotate their potential roles.

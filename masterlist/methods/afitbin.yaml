@@ -1,0 +1,19 @@
+name: AFITBin
+category: dry
+summary: Bins metagenomic contigs using an aggregate l-mer frequency statistic and matrix factorization.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05859-7
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Darabi A
+  last_author: Eslahchi C
+  title: 'AFITbin: a metagenomic contig binning method using aggregate l-mer frequency based on initial and terminal nucleotides'
+links: {}
+added: '2026-11-21'
+evidence: AFITBin performs metagenomic binning using the AFIT contig statistic and a matrix factorization method.

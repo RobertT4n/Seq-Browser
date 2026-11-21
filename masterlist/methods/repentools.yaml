@@ -1,0 +1,20 @@
+name: RepEnTools
+category: dry
+summary: Package analyzes genome-wide repeat enrichment in ChIP-seq and similar chromatin pull-down data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13100-024-00315-y
+  year: 2024
+  journal: Mobile DNA
+  first_author: Choudalakis M
+  last_author: Jeltsch A
+  title: 'RepEnTools: an automated repeat enrichment analysis package for ChIP-seq data reveals hUHRF1 Tandem-Tudor domain
+    enrichment in young repeats'
+links: {}
+added: '2026-11-21'
+evidence: RepEnTools provides a workflow for repeat enrichment analysis from raw files to tabular and graphical outputs.

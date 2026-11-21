@@ -1,0 +1,30 @@
+name: LILAP
+full_name: low-input PacBio sequencing
+category: wet
+summary: A low-input, amplification-free library method uses Tn5 tagmentation and DNA circularization for PacBio genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- long-read-sequencing
+species:
+- invertebrate
+- microbe
+input_sample:
+- low-input
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41467-024-49992-6
+  year: 2024
+  journal: Nature Communications
+  first_author: Jia H
+  last_author: Zhang YE
+  title: Low-input PacBio sequencing generates high-quality individual fly genomes and characterizes mutational processes
+links: {}
+added: '2026-11-21'
+evidence: LILAP uses 100 ng of DNA and generated near-complete individual fly genomes and complete Wolbachia assemblies.

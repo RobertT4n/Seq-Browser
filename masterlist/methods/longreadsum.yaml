@@ -1,0 +1,25 @@
+name: LongReadSum
+category: dry
+summary: Quality-control tool that summarizes long-read sequencing metrics, base modifications, and nanopore signal intensity.
+readouts:
+- genome-sequence
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1016/j.csbj.2025.01.019
+  year: 2025
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Perdomo JE
+  last_author: Wang K
+  title: 'LongReadSum: A fast and flexible quality control and signal summarization tool for long-read sequencing data'
+  preprint_doi: 10.1101/2024.08.05.606643
+links: {}
+added: '2026-11-21'
+evidence: LongReadSum reports read, base, alignment, and base modification metrics and summarizes Oxford Nanopore signal intensity.

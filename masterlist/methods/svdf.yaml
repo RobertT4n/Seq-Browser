@@ -1,0 +1,22 @@
+name: SVDF
+category: dry
+summary: Structural variant caller for long-read data that combines learning-based noise filtering with signature-adaptive
+  clustering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bib/bbae336
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Hu H
+  last_author: Jiang T
+  title: 'SVDF: enhancing structural variation detect from long-read sequencing via automatic filtering strategies'
+links: {}
+added: '2026-11-21'
+evidence: SVDF uses learning-based noise filtering and structural variant signature-adaptive clustering to reduce false-positive
+  events in long-read data.

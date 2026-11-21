@@ -1,0 +1,19 @@
+name: LAML
+full_name: Lineage Analysis via Maximum Likelihood
+category: dry
+summary: Infers time-scaled cell lineage trees from CRISPR-induced mutations using a model of mixed-type missing data.
+readouts:
+- lineage
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1101/2024.03.05.583638
+  year: 2024
+  journal: bioRxiv
+  first_author: Mai
+  last_author: B
+  title: Maximum Likelihood Inference of Time-scaled Cell Lineage Trees with Mixed-type Missing Data
+links: {}
+added: '2026-11-21'
+evidence: LAML estimates tree topology, branch lengths, and missing-data parameters from dynamic lineage tracing data.

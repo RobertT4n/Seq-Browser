@@ -1,0 +1,29 @@
+name: TaLon-SeqMD
+full_name: targeted long-read sequencing of Mendelian disease genes
+category: wet
+summary: TaLon-SeqMD uses adaptive long-read sequencing to enrich disease-associated regions and resolve variants and base
+  modifications.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+reference:
+  doi: 10.1172/jci.insight.183902
+  year: 2024
+  journal: JCI Insight
+  first_author: Nakamichi K
+  last_author: Mustafi D
+  title: Targeted long-read sequencing enriches disease-relevant genomic regions of interest to provide complete Mendelian
+    disease diagnostics
+links: {}
+added: '2026-11-21'
+evidence: Adaptive sequencing enriched disease-causing regions and enabled haplotype-resolved variant calling alongside epigenetic
+  base modification detection.

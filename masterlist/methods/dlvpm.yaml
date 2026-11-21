@@ -1,0 +1,25 @@
+name: DLVPM
+full_name: Deep Latent Variable Path Modelling
+category: dry
+summary: Models relationships among cancer data modalities using deep learning and latent variable path modelling.
+readouts:
+- genome-sequence
+- dna-methylation
+- rna
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-025-01052-4
+  year: 2025
+  journal: Nature Machine Intelligence
+  first_author: Ing A
+  last_author: Korbel JO
+  title: Integrating multimodal cancer data using deep latent variable path modelling
+  preprint_doi: 10.1101/2024.06.13.598616
+links: {}
+added: '2026-11-21'
+evidence: DLVPM mapped dependencies among SNV, methylation, miRNA-seq, RNA-seq and histology data and was also applied to
+  single-cell and spatial data.

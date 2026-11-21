@@ -1,0 +1,19 @@
+name: CAraCAl
+full_name: CAMML with the integration of chromatin accessibility
+category: dry
+summary: Annotates cell types from single-cell chromatin accessibility data using cell-type-specific gene-set scores.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05833-3
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Schiebout C
+  last_author: Frost HR
+  title: 'CAraCAl: CAMML with the integration of chromatin accessibility'
+links: {}
+added: '2026-11-21'
+evidence: CAraCAl scores cells for enrichment of cell-type-specific gene sets based on projected gene activity from scATAC-seq.

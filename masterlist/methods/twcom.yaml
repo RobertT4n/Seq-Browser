@@ -1,0 +1,20 @@
+name: TWCOM
+category: dry
+summary: An R package infers cell-cell communication from spatially resolved transcriptomics using a Tweedie distribution-based
+  model.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbae101
+  year: 2024
+  journal: Bioinformatics Advances
+  first_author: Wu D
+  last_author: Datta S
+  title: 'TWCOM: an R package for inference of cell–cell communication on spatially resolved transcriptomics data'
+links: {}
+added: '2026-11-21'
+evidence: TWCOM infers cell-cell communication from both single-cell-resolution and spot-based spatial transcriptomics data.

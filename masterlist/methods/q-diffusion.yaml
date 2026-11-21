@@ -1,0 +1,20 @@
+name: q-diffusion
+category: dry
+summary: Framework captures gene coexpression structure in single-cell transcriptomics for analyses including clustering and
+  spatial segmentation.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-06104-w
+  year: 2024
+  journal: Communications Biology
+  first_author: Marmarelis MG
+  last_author: Ver Steeg G
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: q-diffusion captures coexpression across a gene library and was applied to cell clustering and spatial segmentation.

@@ -1,0 +1,20 @@
+name: MetaKSSD
+category: dry
+summary: Uses sketch operations for metagenomic taxonomic profiling and searching large collections of profiles.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-025-00855-0
+  year: 2025
+  journal: Nature Computational Science
+  first_author: Yi H
+  last_author: Chang Q
+  title: 'MetaKSSD: boosting the scalability of the reference taxonomic marker database and the performance of metagenomic
+    profiling using sketch operations'
+  preprint_doi: 10.1101/2024.06.21.600011
+links: {}
+added: '2026-11-21'
+evidence: MetaKSSD uses sketches to construct a reference taxonomic marker database and profile metagenomes.

@@ -1,0 +1,20 @@
+name: ClonoDeconv
+category: dry
+summary: Framework that estimates paired T-cell receptor clonotype frequencies from bulk TCR sequencing using a single-cell
+  reference.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.13.758550
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: T
+  title: 'ClonoDeconv: reference-based α - β paired recurrent clonotype proportion estimation from bulk-TCR sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ClonoDeconv estimates shared paired clonotype abundances from bulk TCR data using a paired single-cell reference.

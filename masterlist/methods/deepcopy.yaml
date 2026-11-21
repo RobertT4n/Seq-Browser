@@ -1,0 +1,20 @@
+name: DeepCopy
+category: dry
+summary: Calls haplotype-specific copy numbers from single-cell DNA sequencing using an evolutionary model and deep reinforcement
+  learning.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.08.583988
+  year: 2024
+  journal: bioRxiv
+  first_author: Ivanovic
+  last_author: M
+  title: Evolution-Aware Deep Reinforcement Learning for Single-Cell DNA Copy Number Calling
+links: {}
+added: '2026-11-21'
+evidence: DeepCopy jointly estimates copy number profiles and evolutionary model parameters from single-cell DNA sequencing
+  data.

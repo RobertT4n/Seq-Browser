@@ -1,0 +1,20 @@
+name: spline-DV
+category: dry
+summary: Statistical framework for detecting differences in cell-to-cell gene expression variability between experimental
+  conditions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.08.607086
+  year: 2024
+  journal: bioRxiv
+  first_author: Gatlin
+  last_author: J. J
+  title: 'Beyond Differential Expression: Embracing Cell-to-Cell Variability in Single-Cell Gene Expression Data Analysis'
+links: {}
+added: '2026-11-21'
+evidence: spline-DV identifies genes with significantly increased or decreased expression variability between cells from two
+  conditions.

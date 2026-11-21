@@ -1,0 +1,26 @@
+name: SIGNAL-seq
+full_name: Split-pool Indexing siG-Nalling AnaLysis by sequencing
+category: wet
+summary: SIGNAL-seq jointly measures RNA and protein post-translational modifications in fixed single cells using split-pool
+  barcoding.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- split-pool-barcoding
+- combinatorial-indexing
+- reverse-transcription
+input_sample:
+- fixed-cells
+reference:
+  doi: 10.1101/2024.02.23.581433
+  year: 2024
+  journal: bioRxiv
+  first_author: Opzoomer
+  last_author: C. J
+  title: 'SIGNAL-seq: Multimodal Single-cell Inter- and Intra-cellular Signalling Analysis'
+links: {}
+added: '2026-11-21'
+evidence: SIGNAL-seq simultaneously measures RNA and post-translational modifications in fixed single cells from 3D models.

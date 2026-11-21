@@ -1,0 +1,19 @@
+name: CNVeil
+category: dry
+summary: Estimates copy-number profiles and identifies tumor subclones from single-cell DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.02.21.581409
+  year: 2024
+  journal: bioRxiv
+  first_author: Yuan
+  last_author: X. M
+  title: CNVeil enables accurate and robust tumor subclone identification and copy number estimation from single-cell DNA
+    sequencing data
+links: {}
+added: '2026-11-21'
+evidence: CNVeil corrects sequencing bias, clusters cells into subclones and infers copy-number segmentation.

@@ -1,0 +1,19 @@
+name: CopyVAE
+category: dry
+summary: Variational autoencoder framework that infers copy number variations from single-cell RNA-seq data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae284
+  year: 2024
+  journal: Bioinformatics
+  first_author: Kurt S
+  last_author: Lagergren J
+  title: 'CopyVAE: a variational autoencoder-based approach for copy number variation inference using single-cell transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: CopyVAE detects CNVs from single-cell RNA-sequencing data.

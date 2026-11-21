@@ -1,0 +1,26 @@
+name: Dual Tn-seq
+full_name: dual transposon sequencing
+category: wet
+summary: Dual Tn-seq combines barcoded transposon-site sequencing with Cre-lox to assay fitness and genetic interactions among
+  double mutants.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/2024.09.24.614635
+  year: 2024
+  journal: bioRxiv
+  first_author: Zik
+  last_author: L. T
+  title: Dual transposon sequencing (Dual Tn-seq) to probe genome-wide genetic interactions
+links: {}
+added: '2026-11-21'
+evidence: Dual Tn-seq assessed approximately 68% of possible double-mutant combinations in Streptococcus pneumoniae.

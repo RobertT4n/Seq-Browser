@@ -1,0 +1,22 @@
+name: SimReadUntil
+category: dry
+summary: Simulates an Oxford Nanopore sequencer and its ReadUntil interface to benchmark selective sequencing algorithms.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btae199
+  year: 2024
+  journal: Bioinformatics
+  first_author: Mordig M
+  last_author: Kahles A
+  title: SimReadUntil for benchmarking selective sequencing algorithms on ONT devices
+links: {}
+added: '2026-11-21'
+evidence: SimReadUntil distributes full reads to simulated channels and plays them back with support for rejecting reads and
+  stopping data delivery.

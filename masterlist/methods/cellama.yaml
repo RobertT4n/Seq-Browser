@@ -1,0 +1,22 @@
+name: CELLama
+full_name: Cell Embedding Leverage Language Model Abilities
+category: dry
+summary: Foundation model framework that embeds single-cell and spatial transcriptomic data for cell typing and spatial analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.08.593094
+  year: 2024
+  journal: bioRxiv
+  first_author: Choi
+  last_author: D
+  title: 'CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model
+    Abilities'
+links: {}
+added: '2026-11-21'
+evidence: CELLama transforms gene expression and metadata into sentences for cellular embeddings and supports cell typing
+  and spatial context analysis.

@@ -1,0 +1,20 @@
+name: GGE
+full_name: General Gene Expression
+category: dry
+summary: Deep meta-learning framework for classifying human transcriptomes with limited labeled samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.27.754054
+  year: 2026
+  journal: bioRxiv
+  first_author: Yankovitz
+  last_author: I
+  title: 'GGE: General-purpose deep meta-learning for classification of human transcriptomes with limited data'
+links: {}
+added: '2026-11-21'
+evidence: GGE learns an initialization across biomedical prediction objectives that improves classification on new datasets
+  with few labeled samples.

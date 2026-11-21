@@ -1,0 +1,21 @@
+name: Spike Screen
+category: wet
+summary: Spike Screen pools samples and sequences amplified SARS-CoV-2 spike genes to monitor variant frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1093/bib/bbae263
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Suljič A
+  last_author: Korva M
+  title: Efficient SARS-CoV-2 variant detection and monitoring with Spike Screen next-generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: The strategy combines sample pooling and selective spike gene amplification to identify variant signature mutations.

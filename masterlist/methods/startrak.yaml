@@ -1,0 +1,21 @@
+name: StarTrak
+full_name: SpaTial Analysis for lineage ReconsTRuction with somatic vAriant calling and tracKing
+category: dry
+summary: Calls somatic variants and reconstructs cell lineages at single-pixel spatial resolution.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.16.759405
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang
+  last_author: M
+  title: Determining cellular phylogeny and migration at high resolution in spatial genomics
+links: {}
+added: '2026-11-21'
+evidence: StarTrak integrates mutational evidence, spatial proximity, histology and transcriptomic states for variant calling
+  and lineage reconstruction.

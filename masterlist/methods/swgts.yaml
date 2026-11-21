@@ -1,0 +1,19 @@
+name: SWGTS
+category: dry
+summary: Removes host sequences from microbial sequencing reads during data transfer.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae332
+  year: 2024
+  journal: Bioinformatics
+  first_author: Spohr P
+  last_author: Dilthey A
+  title: SWGTS—a platform for stream-based host DNA depletion
+links: {}
+added: '2026-11-21'
+evidence: SWGTS is a client-server application for transfer and stream-based host depletion of sequencing reads.

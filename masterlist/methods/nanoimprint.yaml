@@ -1,0 +1,25 @@
+name: NanoImprint
+category: dry
+summary: Reports methylation patterns at 14 imprinted regions to support interpretation and diagnosis of common imprinting
+  disorders.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1111/ahg.12556
+  year: 2024
+  journal: Annals of Human Genetics
+  first_author: Bækgaard CH
+  last_author: Larsen MJ
+  title: 'NanoImprint: A DNA methylation tool for clinical interpretation and diagnosis of common imprinting disorders using
+    nanopore long‐read sequencing'
+links: {}
+added: '2026-11-21'
+evidence: NanoImprint produces tables and phased plots of methylation frequencies at 14 clinically relevant imprinted regions
+  from nanopore sequencing.

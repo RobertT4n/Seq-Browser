@@ -1,0 +1,27 @@
+name: B3E-seq
+category: wet
+summary: B3E-seq recovers paired full-length B-cell receptor variable regions from 3'-barcoded single-cell RNA-seq libraries.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- other-vertebrate
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s42003-024-06823-0
+  year: 2024
+  journal: Communications Biology
+  first_author: Morgan DM
+  last_author: Christopher Love J
+  title: Full-length single-cell BCR sequencing paired with RNA sequencing reveals convergent responses to pneumococcal vaccination
+links: {}
+added: '2026-11-21'
+evidence: The method recovers paired, full-length BCR variable region sequences from 3'-barcoded scRNA-seq libraries and was
+  applied to vaccinated infant rhesus macaques.

@@ -1,0 +1,19 @@
+name: NetMap
+category: dry
+summary: Pipeline that jointly infers cell-level gene regulatory networks and clusters cells by shared regulatory programs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.04.756614
+  year: 2026
+  journal: bioRxiv
+  first_author: Hartebrodt
+  last_author: D. B
+  title: Concurrent de novo inference of cell types and gene regulatory networks with NetMap
+links: {}
+added: '2026-11-21'
+evidence: NetMap jointly infers cell-level regulatory networks and clusters cells, and can assign cell types using marker
+  genes.

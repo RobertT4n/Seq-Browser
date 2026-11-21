@@ -1,0 +1,23 @@
+name: IBSEP
+category: dry
+summary: Integrates bulk and single-cell RNA-seq summary statistics to prioritize cell-type-specific expression quantitative
+  trait loci.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2024.12.018
+  year: 2025
+  journal: The American Journal of Human Genetics
+  first_author: Yu X
+  last_author: Xiao J
+  title: A unified framework for cell-type-specific eQTL prioritization by integrating bulk and scRNA-seq data
+  preprint_doi: 10.1101/2024.05.27.24307972
+links: {}
+added: '2026-11-21'
+evidence: IBSEP uses a Bayesian hierarchical model to combine bulk and single-cell RNA-seq summary statistics for cell-type-specific
+  eQTL prioritization.

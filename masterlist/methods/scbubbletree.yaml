@@ -1,0 +1,19 @@
+name: scBubbletree
+category: dry
+summary: Visualizes clusters of single-cell transcriptomes as dendrograms with quantitative summaries of cluster properties.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05927-y
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Kitanovski S
+  last_author: Hoffmann D
+  title: 'scBubbletree: computational approach for visualization of single cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: scBubbletree displays transcriptomic clusters as bubbles at dendrogram tips and stacks additional cluster-associated
+  information.

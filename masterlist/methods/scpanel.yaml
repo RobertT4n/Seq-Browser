@@ -1,0 +1,20 @@
+name: scPanel
+category: dry
+summary: Selects sparse gene panels from single-cell RNA sequencing data for patient classification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae482
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Xie Y
+  last_author: Petretto E
+  title: 'scPanel: a tool for automatic identification of sparse gene panels for generalizable patient classification using
+    scRNA-seq datasets'
+  preprint_doi: 10.1101/2024.04.09.588647
+links: {}
+added: '2026-11-21'
+evidence: scPanel identifies minimal gene panels and aggregates cell-level prediction probabilities for patient classification.

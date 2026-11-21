@@ -1,0 +1,19 @@
+name: scVIC
+category: dry
+summary: Models single-cell RNA-seq heterogeneity while accounting for dropout and batch effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbae086
+  year: 2024
+  journal: Bioinformatics Advances
+  first_author: Xiong J
+  last_author: Wan L
+  title: 'scVIC: deep generative modeling of heterogeneity for scRNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: scVIC models biological heterogeneity and technical variability and was evaluated for clustering and handling batch
+  effects.

@@ -1,0 +1,22 @@
+name: LETSmix
+category: dry
+summary: Deconvolves spatial transcriptomics spots using spatial context and domain adaptation to single-cell reference data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-025-01442-8
+  year: 2025
+  journal: Genome Medicine
+  first_author: Zhan Y
+  last_author: Li X
+  title: 'LETSmix: a spatially informed and learning-based domain adaptation method for cell-type deconvolution in spatial
+    transcriptomics'
+  preprint_doi: 10.1101/2024.04.27.591425
+links: {}
+added: '2026-11-21'
+evidence: LETSmix estimates cell-type proportions in spatial transcriptomics data using spatial correlations and reference
+  scRNA-seq data.

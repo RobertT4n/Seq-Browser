@@ -1,0 +1,20 @@
+name: RETCHER
+full_name: REconstructing Tumor Clonal Heterogeneity and Evolutionary Relationships
+category: dry
+summary: Reconstructs tumor clonal heterogeneity and phylogenetic relationships from bulk DNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae516
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Wang Z
+  last_author: Tao S
+  title: Reconstructing tumor clonal heterogeneity and evolutionary relationships based on tumor DNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: RETCHER considers mutation multiplicity and reconstruction uncertainty to infer tumor subclones and evolutionary
+  relationships.

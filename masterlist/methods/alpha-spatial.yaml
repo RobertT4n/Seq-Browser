@@ -1,0 +1,20 @@
+name: Alpha Spatial
+category: dry
+summary: Predicts cell-level spatial gene expression from histology using language-conditioned biological context.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.08.756444
+  year: 2026
+  journal: bioRxiv
+  first_author: YANG
+  last_author: Y
+  title: 'Alpha Spatial: Language-guided prediction of single-cell spatial gene expression from histology'
+links: {}
+added: '2026-11-21'
+evidence: Alpha Spatial predicts cell-level gene expression from histology while learning from different tissues and gene
+  panels.

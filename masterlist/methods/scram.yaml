@@ -1,0 +1,20 @@
+name: SCRAM
+full_name: single cell rule association mining
+category: dry
+summary: Annotates individual cells to characterize cell identities in human glioma.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ccell.2024.08.009
+  year: 2024
+  journal: Cancer Cell
+  first_author: Curry RN
+  last_author: Serin Harmanci A
+  title: Integrated electrophysiological and genomic profiles of single cells reveal spiking tumor cells in human glioma
+links: {}
+added: '2026-11-21'
+evidence: SCRAM was developed to annotate each cell individually and revealed neuronal and oligodendrocyte precursor features
+  in hybrid cells.

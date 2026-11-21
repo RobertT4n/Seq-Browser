@@ -1,0 +1,22 @@
+name: EAP
+full_name: Epigenomic Analysis Platform
+category: dry
+summary: Cloud-based platform analyzes large ChIP-seq and ATAC-seq datasets and produces figures and tables.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2025.11.026
+  year: 2025
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Zheng G
+  last_author: Shao Z
+  title: 'EAP: A versatile cloud-based platform for efficient quantitative analysis of large-scale ChIP/ATAC-seq datasets'
+  preprint_doi: 10.1101/2024.03.31.587470
+links: {}
+added: '2026-11-21'
+evidence: EAP analyzes large-scale ChIP/ATAC-seq datasets and automatically generates figures and tabular results.

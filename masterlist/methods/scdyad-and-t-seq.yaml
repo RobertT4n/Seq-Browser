@@ -1,0 +1,25 @@
+name: scDyad&T-seq
+category: wet
+summary: scDyad&T-seq jointly profiles DNA 5mC and 5hmC at CpG dyads and the transcriptome in single cells.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41594-024-01291-w
+  year: 2024
+  journal: Nature Structural &amp; Molecular Biology
+  first_author: Chialastri A
+  last_author: Dey SS
+  title: Combinatorial quantification of 5mC and 5hmC at individual CpG dyads and the transcriptome in single cells reveals
+    modulators of DNA methylation maintenance fidelity
+links: {}
+added: '2026-11-21'
+evidence: The authors scaled Dyad-seq down to jointly profile genome-wide methylation and the transcriptome in single cells.

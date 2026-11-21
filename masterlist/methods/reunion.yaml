@@ -1,0 +1,23 @@
+name: REUNION
+category: dry
+summary: Predicts transcription factor binding and regulatory associations from single-cell expression and chromatin accessibility
+  data.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae234
+  year: 2024
+  journal: Bioinformatics
+  first_author: Yang Y
+  last_author: Pe’er D
+  title: 'REUNION: transcription factor binding prediction and regulatory association inference from single-cell multi-omics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: REUNION predicts genome-wide transcription factor binding and cis-region–transcription factor–gene associations
+  using single-cell multi-omics data.

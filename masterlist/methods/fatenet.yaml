@@ -1,0 +1,20 @@
+name: FateNet
+category: dry
+summary: Predicts cell fate decision points and explores differentiation using dynamical systems and deep learning on single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae525
+  year: 2024
+  journal: Bioinformatics
+  first_author: Sadria M
+  last_author: Bury TM
+  title: 'FateNet: an integration of dynamical systems and deep learning for cell fate prediction'
+links: {}
+added: '2026-11-21'
+evidence: FateNet predicts cell decision occurrence and uses in-silico perturbations to identify genes and pathways governing
+  hematopoietic differentiation.

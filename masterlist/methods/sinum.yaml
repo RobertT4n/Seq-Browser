@@ -1,0 +1,19 @@
+name: SINUM
+full_name: SIngle-cell Network Using Mutual information
+category: dry
+summary: Infers cell-specific gene association networks from single-cell RNA-seq data using mutual information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05895-3
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Chang LY
+  last_author: Lin CY
+  title: Inference of single-cell network using mutual information for scRNA-seq data analysis
+links: {}
+added: '2026-11-21'
+evidence: SINUM estimates mutual information between gene pairs to construct networks for individual cells.

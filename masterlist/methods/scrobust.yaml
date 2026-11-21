@@ -1,0 +1,19 @@
+name: scRobust
+category: dry
+summary: Predicts spatial gene expression using spatial transcriptomics and single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae586
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Park S
+  last_author: Lee H
+  title: Robust self-supervised learning strategy to tackle the inherent sparsity in single-cell RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: SpaDiT uses scRNA-seq as a prior and shared genes to predict expression in spatial transcriptomics data.

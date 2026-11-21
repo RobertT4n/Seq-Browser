@@ -1,0 +1,19 @@
+name: iLLMAC
+full_name: instruction-tuned LLM for assessment of cancer
+category: dry
+summary: An instruction-tuned language model detects cancer from cell-free DNA end-motif profiles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae430
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Liu J
+  last_author: Li X
+  title: Large language model produces high accurate diagnosis of cancer from end-motif profiles of cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: iLLMAC detects cancer using plasma cell-free DNA sequencing end-motif profiles.

@@ -1,0 +1,21 @@
+name: CMS classifier
+full_name: Consensus Molecular Subtypes classifier
+category: dry
+summary: Classifies colorectal tumours into consensus molecular subtypes using whole-transcriptome sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41416-024-02826-0
+  year: 2024
+  journal: British Journal of Cancer
+  first_author: Chowdhury S
+  last_author: Shen JP
+  title: Consensus molecular subtyping of metastatic colorectal cancer expands biomarker-directed therapeutic benefit for
+    patients with CMS1 and CMS2 tumors
+links: {}
+added: '2026-11-21'
+evidence: The whole-transcriptome sequencing-based CMS classifier was trained with an SVM and validated in an independent
+  blinded dataset.

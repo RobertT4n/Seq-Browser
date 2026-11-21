@@ -1,0 +1,29 @@
+name: scIRES-seq
+category: wet
+summary: Links immunophenotype, genetic variation, DNA methylation and gene expression in individual circulating tumour cells.
+readouts:
+- protein
+- genome-sequence
+- dna-methylation
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.10.07.757279
+  year: 2026
+  journal: bioRxiv
+  first_author: Kubitz
+  last_author: M
+  title: scIRES-seq reveals multimodal molecular heterogeneity in CTCs from small cell cervical cancer
+links: {}
+added: '2026-11-21'
+evidence: The framework links immunophenotype, genetic variation, epigenomic profiles and gene expression within individual
+  cells and was applied to circulating tumour cells from a patient.

@@ -1,0 +1,20 @@
+name: CellContrast
+category: dry
+summary: Reconstructs spatial relationships among single cells using a spatial transcriptomics reference and contrastive learning.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2024.101022
+  year: 2024
+  journal: Patterns
+  first_author: Li S
+  last_author: Huang Y
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+links: {}
+added: '2026-11-21'
+evidence: CellContrast trains on spatial transcriptomics data to represent nearby cells similarly and reconstruct spatial
+  relationships in single-cell data.

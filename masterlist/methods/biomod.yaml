@@ -1,0 +1,20 @@
+name: BioMod
+category: dry
+summary: A single-cell foundation model represents gene expression using biological modules for tasks including cell-type
+  annotation and perturbation-response prediction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.12.758490
+  year: 2026
+  journal: bioRxiv
+  first_author: Meng
+  last_author: J
+  title: 'BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling'
+links: {}
+added: '2026-11-21'
+evidence: BioMod is pretrained on approximately 73 million human cells and replaces gene-level inputs with representations
+  of biological modules.

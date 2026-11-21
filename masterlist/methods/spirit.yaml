@@ -1,0 +1,20 @@
+name: SPiRiT
+category: dry
+summary: Predicts spatial single-cell gene expression from histology images using an explainable vision transformer.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1101/2024.06.12.598686
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhao
+  last_author: S
+  title: Inferring single-cell spatial gene expression with tissue morphology via explainable deep learning
+links: {}
+added: '2026-11-21'
+evidence: SPiRiT predicts spatial single-cell gene expression from matched H&E image tiles and was evaluated using Xenium
+  datasets.

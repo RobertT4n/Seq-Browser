@@ -1,0 +1,23 @@
+name: scCAFE
+category: dry
+summary: Integrates nanopore-based methylation classifiers for rapid brain tumour classification and molecular profiling.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1002/advs.202416432
+  year: 2025
+  journal: Advanced Science
+  first_author: Wang F
+  last_author: Li X
+  title: Unveiling Multi‐Scale Architectural Features in Single‐Cell Hi‐C Data Using scCAFE
+  preprint_doi: 10.1101/2024.09.10.611762
+links: {}
+added: '2026-11-21'
+evidence: ROBIN integrates three methylation classifiers to support intraoperative classification and next-day molecular profiling.

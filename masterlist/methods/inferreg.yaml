@@ -1,0 +1,21 @@
+name: InferReg
+category: dry
+summary: Pipeline that infers and ranks tissue-specific transcription factor regulons using expression, motif enrichment,
+  and a graph convolutional network.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s42994-024-00176-2
+  year: 2024
+  journal: aBIOTECH
+  first_author: Dai H
+  last_author: Gao J
+  title: Inference and prioritization of tissue-specific regulons in Arabidopsis and Oryza
+links: {}
+added: '2026-11-21'
+evidence: InferReg combines co-expression patterns, transcription factor binding site enrichment, and a graph convolutional
+  network trained with ChIP-seq-supported positive samples.

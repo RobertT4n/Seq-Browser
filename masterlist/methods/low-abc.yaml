@@ -1,0 +1,19 @@
+name: Low-ABC
+category: dry
+summary: Infers past population demographic processes from low-coverage whole-genome data using genotype likelihoods.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.01.606209
+  year: 2024
+  journal: bioRxiv
+  first_author: Vizzari
+  last_author: A
+  title: 'Low-ABC: a robust demographic Inference from low-coverage whole-genome data through ABC'
+links: {}
+added: '2026-11-21'
+evidence: Low-ABC compares observed and simulated genetic variation using genotype likelihoods to account for uncertainty
+  from low sequencing coverage.

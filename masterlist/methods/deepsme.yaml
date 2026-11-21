@@ -1,0 +1,25 @@
+name: DeepSME
+category: dry
+summary: Alignment-free nanopore basecaller that decodes digital information concealed using 5hmC substitutions in DNA.
+readouts:
+- dna-methylation
+- dna-5hmc
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-025-59357-2
+  year: 2025
+  journal: Nature Communications
+  first_author: Fan Q
+  last_author: Li Y
+  title: De novo non-canonical nanopore basecalling enables private communication using heavily-modified DNA data at single-molecule
+    level
+  preprint_doi: 10.1101/2024.08.15.606762
+links: {}
+added: '2026-11-21'
+evidence: DeepSME uses a deep learning basecaller to decode text and images concealed in DNA with 5hmC substitutions.

@@ -1,0 +1,21 @@
+name: CellBridge
+category: dry
+summary: Multimodal contrastive learning framework that transfers spatial molecular information to pathology images for cell
+  classification.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.20.760347
+  year: 2026
+  journal: bioRxiv
+  first_author: Ogut
+  last_author: M
+  title: Fine-Grained and Reliable Cell Classification from Pathology Images
+links: {}
+added: '2026-11-21'
+evidence: CellBridge is pretrained on paired H&E images and spatial profiles and assigns cell labels at different levels of
+  specificity.

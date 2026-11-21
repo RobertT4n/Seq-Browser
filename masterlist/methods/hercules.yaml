@@ -1,0 +1,22 @@
+name: HERCULES
+full_name: High-throughput Epidemiological Reconstruction and Clustering for Uncovering Lineages from Environmental SARS-CoV-2
+category: dry
+summary: Identifies and quantifies SARS-CoV-2 mutations and lineages from long-read sequencing of a Spike gene fragment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1101/2024.08.27.24312690
+  year: 2024
+  journal: medRxiv
+  first_author: Garcia
+  last_author: K
+  title: Unsupervised detection of SARS-CoV-2 mutations and lineages in Norwegian wastewater samples using long-read sequencing
+links: {}
+added: '2026-11-21'
+evidence: HERCULES uses long-read sequencing of a single 1 kb Spike fragment to identify mutations and lineages without database-guided
+  deconvolution.

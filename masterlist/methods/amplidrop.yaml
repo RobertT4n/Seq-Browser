@@ -1,0 +1,23 @@
+name: AmpliDrop
+category: wet
+summary: Single-copy barcodes are amplified and used to tag cellular content in a compartmentalized reaction for single-cell
+  transcriptome and chromatin accessibility profiling.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2024.08.13.607508
+  year: 2024
+  journal: bioRxiv
+  first_author: Garcia-Bassets I
+  last_author: Chen Z
+  title: Single-Molecule Barcoding Technology for Single-Cell Genomics
+links: {}
+added: '2026-11-21'
+evidence: AmpliDrop captures transcriptomes and chromatin accessibility using compartmentalized barcoding reactions.

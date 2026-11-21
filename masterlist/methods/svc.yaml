@@ -1,0 +1,22 @@
+name: SVC
+full_name: Spatially and Virtually Embedded Cell Model
+category: dry
+summary: Vision Transformer model that learns and predicts subcellular transcript localization from spatial transcriptomics
+  data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.07.757371
+  year: 2026
+  journal: bioRxiv
+  first_author: Wan
+  last_author: X
+  title: 'SVC: A Vision Transformer-based Spatially and Virtually Embedded Cell Model for Deciphering Subcellular Spatial
+    Transcriptomic Heterogeneity'
+links: {}
+added: '2026-11-21'
+evidence: SVC predicts cell-specific subcellular transcript localization and supports imputation of unmeasured genes.

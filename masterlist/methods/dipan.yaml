@@ -1,0 +1,19 @@
+name: DIPAN
+category: dry
+summary: Predicts neoantigens derived from intronic polyadenylation using RNA sequencing data and MHC binding prediction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2024.05.008
+  year: 2024
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Liu X
+  last_author: Yang Y
+  title: 'DIPAN: Detecting personalized intronic polyadenylation derived neoantigens from RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: DIPAN combines intronic polyadenylation detection, protein fragmentation, and MHC binding prediction to predict
+  neoantigens.

@@ -1,0 +1,20 @@
+name: COCOA
+category: dry
+summary: Deep neural network that infers fine-scale chromatin compartment patterns from histone modification signals.
+readouts:
+- 3d-genome
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzae091
+  year: 2024
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Li K
+  last_author: Li L
+  title: 'COCOA: A Framework for Fine-scale Mapping of Cell-type-specific Chromatin Compartments Using Epigenomic Information'
+  preprint_doi: 10.1101/2024.05.11.593669
+links: {}
+added: '2026-11-21'
+evidence: COCOA uses six histone modification signals to infer fine-scale chromatin compartment patterns.

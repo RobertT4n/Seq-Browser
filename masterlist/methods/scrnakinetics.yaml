@@ -1,0 +1,19 @@
+name: scRNAkinetics
+category: dry
+summary: Estimates relative transcription, splicing and degradation kinetics for individual cells and genes from single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.21.595179
+  year: 2024
+  journal: bioRxiv
+  first_author: Chen
+  last_author: H
+  title: Inferring Single-Cell RNA Kinetics from Various Biological Priors
+links: {}
+added: '2026-11-21'
+evidence: scRNAkinetics fits RNA kinetic parameters for each cell using pseudotime derived from biological priors.

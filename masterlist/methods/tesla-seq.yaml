@@ -1,0 +1,26 @@
+name: TESLA-seq
+full_name: TargEted SingLe cell Activation
+category: wet
+summary: TESLA-seq combines CRISPR activation with targeted single-cell RNA sequencing to identify genes responsive to enhancer
+  perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-activation
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2024.09.12.612198
+  year: 2024
+  journal: bioRxiv
+  first_author: Vucicevic
+  last_author: U
+  title: Sensitive dissection of a genomic regulatory landscape using bulk and targeted single-cell activation
+links: {}
+added: '2026-11-21'
+evidence: TESLA-seq combines CRISPRa screening with targeted single-cell RNA-seq to read out the effects of hundreds of enhancers
+  on genes in a locus.

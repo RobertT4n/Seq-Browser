@@ -1,0 +1,19 @@
+name: scCube
+category: dry
+summary: Simulates spatially resolved transcriptomics data with configurable spatial and technical variability.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-49445-0
+  year: 2024
+  journal: Nature Communications
+  first_author: Qian J
+  last_author: Cheng Y
+  title: Simulating multiple variability in spatially resolved transcriptomics with scCube
+links: {}
+added: '2026-11-21'
+evidence: scCube supports reference-based simulations preserving spatial expression patterns and reference-free simulations
+  with varying spatial properties.

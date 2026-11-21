@@ -1,0 +1,19 @@
+name: IIMI
+category: dry
+summary: Uses machine learning to diagnose plant viral infections from high-throughput sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae501
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Ning H
+  last_author: Zhang X
+  title: Diagnostics of viral infections using high-throughput genome sequencing data
+links: {}
+added: '2026-11-21'
+evidence: IIMI uses data-driven parameter selection and filters artifact-affected regions to diagnose infections from 1,583
+  plant viruses.

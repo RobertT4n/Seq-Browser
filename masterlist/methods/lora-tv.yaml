@@ -1,0 +1,20 @@
+name: LoRA-TV
+full_name: Low Rank Approximation with Total Variation
+category: dry
+summary: Method that clusters tumor cells using single-cell sequencing read-depth profiles, low-rank optimization, and smoothing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae277
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Duan J
+  last_author: Wu X
+  title: 'LoRA-TV: read depth profile-based clustering of tumor cells in single-cell sequencing'
+links: {}
+added: '2026-11-21'
+evidence: LoRA-TV aggregates shared genomic signatures in single-cell read-depth profiles using low-rank optimization and
+  robust smoothing.

@@ -1,0 +1,27 @@
+name: PIg-seq
+full_name: Paired Immunoglobulin Sequencing
+category: wet
+summary: Profiles bacterial gene expression associated with IgA binding in the mouse gut.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+- microbe
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.10.05.756684
+  year: 2026
+  journal: bioRxiv
+  first_author: Sauers
+  last_author: K. Z
+  title: Paired sequencing of IgA-bound bacteria reveals widespread associations between adaptive immunity and gut microbiome
+    gene expression
+links: {}
+added: '2026-11-21'
+evidence: PIg-seq identifies bacterial transcriptional responses associated with IgA binding in the mouse gut.

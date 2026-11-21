@@ -1,0 +1,22 @@
+name: SMODER
+category: dry
+summary: Deconvolves spatial multi-omics data using RNA to anchor cell identity while incorporating additional molecular modalities.
+readouts:
+- rna
+- protein
+- chromatin-accessibility
+- histone-modification
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.09.757940
+  year: 2026
+  journal: bioRxiv
+  first_author: Bai
+  last_author: w
+  title: Deciphering Spatial Cellular Organization through RNA-Anchored Multi-Omics Deconvolution
+links: {}
+added: '2026-11-21'
+evidence: SMODER estimates cell-type compositions across spatial locations using RNA and complementary protein, accessibility
+  or histone modification data.

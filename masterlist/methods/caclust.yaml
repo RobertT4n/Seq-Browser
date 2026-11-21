@@ -1,0 +1,23 @@
+name: CaClust
+category: dry
+summary: Integrates exome, single-cell RNA, and B-cell receptor sequencing to infer tumor clones and map cells to them.
+readouts:
+- genome-sequence
+- immune-repertoire
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03417-1
+  year: 2024
+  journal: Genome Biology
+  first_author: Oksza-Orzechowski K
+  last_author: Szczurek E
+  title: 'CaClust: linking genotype to transcriptional heterogeneity of follicular lymphoma using BCR and exomic variants'
+  preprint_doi: 10.1101/2024.04.24.590966
+links: {}
+added: '2026-11-21'
+evidence: CaClust integrates deep whole-exome, single-cell RNA, and B-cell receptor sequencing to infer clone genotypes and
+  cell-to-clone mapping.

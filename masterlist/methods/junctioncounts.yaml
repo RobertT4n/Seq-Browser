@@ -1,0 +1,19 @@
+name: junctionCounts
+category: dry
+summary: Identifies and quantifies simple and complex pairwise alternative splicing events from RNA-seq junction reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.02.20.581203
+  year: 2024
+  journal: bioRxiv
+  first_author: Ritter
+  last_author: J
+  title: The evolutionary dynamics of alternative splicing during primate neuronal differentiation
+links: {}
+added: '2026-11-21'
+evidence: junctionCounts captures pairwise alternative splicing events and quantifies them using exon-exon and exon-intron
+  junction reads.

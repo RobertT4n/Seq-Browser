@@ -1,0 +1,19 @@
+name: scDrug+
+category: dry
+summary: A pipeline predicts drug responses from single-cell transcriptomic profiles and drug molecular structures.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.biopha.2024.117070
+  year: 2024
+  journal: Biomedicine &amp; Pharmacotherapy
+  first_author: Sun YY
+  last_author: Juan HF
+  title: 'scDrug+: predicting drug-responses using single-cell transcriptomics and molecular structure'
+links: {}
+added: '2026-11-21'
+evidence: scDrug+ integrates single-cell analysis with drug-response prediction and uses molecular structures to predict responses
+  to new drugs.

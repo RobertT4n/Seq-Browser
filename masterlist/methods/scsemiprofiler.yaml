@@ -1,0 +1,22 @@
+name: scSemiProfiler
+category: dry
+summary: A computational framework combines bulk sequencing with single-cell data from selected samples to infer single-cell
+  profiles across cohorts.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-50150-1
+  year: 2024
+  journal: Nature Communications
+  first_author: Wang J
+  last_author: Ding J
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and
+    active learning'
+links: {}
+added: '2026-11-21'
+evidence: scSemiProfiler fuses bulk sequencing data with targeted single-cell sequencing from selected representative samples
+  to infer single-cell profiles.

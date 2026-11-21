@@ -1,0 +1,29 @@
+name: CheC-PLS
+full_name: chromosome conformation by proximity labeling and long-read sequencing
+category: wet
+summary: Protein-tethered Dam methyltransferase marks nearby DNA for long-read analysis of chromosome organization.
+readouts:
+- protein-dna-binding
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.jgg.2026.05.004
+  year: 2026
+  journal: Journal of Genetics and Genomics
+  first_author: Xu K
+  last_author: Rog O
+  title: Decoding chromosome organization using proximity labeling and long-read sequencing
+  preprint_doi: 10.1101/2024.05.31.596864
+links: {}
+added: '2026-11-21'
+evidence: CheC-PLS tethers Dam methyltransferase to a protein of interest and uses nanopore reads to identify methylated bases
+  indicative of proximity.

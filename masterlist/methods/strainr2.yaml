@@ -1,0 +1,20 @@
+name: StrainR2
+category: dry
+summary: Tool that estimates strain-level abundances in synthetic microbial communities from shotgun metagenomic reads and
+  reference genomes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.08.607172
+  year: 2024
+  journal: bioRxiv
+  first_author: Heber
+  last_author: J. E
+  title: StrainR2 accurately deconvolutes strain-level abundances in synthetic microbial communities
+links: {}
+added: '2026-11-21'
+evidence: StrainR2 uses shotgun metagenomic sequencing and k-mer-based normalization to resolve abundances of closely related
+  strains.

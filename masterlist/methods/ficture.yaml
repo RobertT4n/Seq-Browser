@@ -1,0 +1,20 @@
+name: FICTURE
+full_name: Factor Inference of Cartographic Transcriptome at Ultra-high REsolution
+category: dry
+summary: Infers pixel-level spatial factors from high-resolution transcriptomics data without cell segmentation.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02415-2
+  year: 2024
+  journal: Nature Methods
+  first_author: Si Y
+  last_author: Kang HM
+  title: 'FICTURE: scalable segmentation-free analysis of submicron-resolution spatial transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: FICTURE is a segmentation-free spatial factorization method compatible with sequencing-based and imaging-based spatial
+  transcriptomics.

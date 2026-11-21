@@ -1,0 +1,22 @@
+name: phiXXer
+category: dry
+summary: Assembles nanopore reads and trims vector sequence to produce linear fosmid insert sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1128/aem.00243-24
+  year: 2024
+  journal: Applied and Environmental Microbiology
+  first_author: Chuzel L
+  last_author: Taron CH
+  title: High-throughput nanopore DNA sequencing of large insert fosmid clones directly from bacterial colonies
+  preprint_doi: 10.1101/2024.02.05.578990
+links: {}
+added: '2026-11-21'
+evidence: phiXXer facilitates de novo read assembly and vector trimming to generate a linear sequence of the fosmid insert.

@@ -1,0 +1,30 @@
+name: cycleHCR
+category: wet
+summary: cycleHCR uses multicycle DNA barcoding and hybridization chain reaction to image RNA and protein targets in thick
+  specimens.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+- primary-cells
+reference:
+  doi: 10.1126/science.adq2084
+  year: 2025
+  journal: Science
+  first_author: Gandin V
+  last_author: Liu ZJ
+  title: Deep-tissue transcriptomics and subcellular imaging at high spatial resolution
+  preprint_doi: 10.1101/2024.05.17.594641
+links: {}
+added: '2026-11-21'
+evidence: The authors imaged 254 RNA targets in whole mouse embryos and subcellular protein structures in primary mouse embryonic
+  fibroblasts.

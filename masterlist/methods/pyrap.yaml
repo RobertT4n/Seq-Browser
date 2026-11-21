@@ -1,0 +1,19 @@
+name: pyRAP
+full_name: python Rend-seq Annotation Pipeline
+category: dry
+summary: Pipeline analyzes bacterial Rend-seq data to annotate transcript boundaries and isoforms genome-wide.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.001239
+  year: 2024
+  journal: Microbial Genomics
+  first_author: Lawaetz AC
+  last_author: Denham EL
+  title: Genome-wide annotation of transcript boundaries using bacterial Rend-seq datasets
+links: {}
+added: '2026-11-21'
+evidence: pyRAP analyzes Rend-seq datasets to resolve transcript boundaries genome-wide.

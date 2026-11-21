@@ -1,0 +1,22 @@
+name: ProtAlign-ARG
+category: dry
+summary: Combines protein language model embeddings and alignment scores to detect and classify antibiotic resistance genes
+  from DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-025-14545-4
+  year: 2025
+  journal: Scientific Reports
+  first_author: Ahmed S
+  last_author: Zhang L
+  title: 'ProtAlign-ARG: antibiotic resistance gene characterization integrating protein language models and alignment-based
+    scoring'
+  preprint_doi: 10.1101/2024.03.20.585944
+links: {}
+added: '2026-11-21'
+evidence: ProtAlign-ARG combines a pretrained protein language model with alignment-based scoring for antibiotic resistance
+  gene classification.

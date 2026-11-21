@@ -1,0 +1,19 @@
+name: ANNA16
+full_name: Artificial Neural Network Approximator for 16S rRNA gene copy number
+category: dry
+summary: Predicts 16S rRNA gene copy number directly from 16S gene sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41598-024-64658-5
+  year: 2024
+  journal: Scientific Reports
+  first_author: Miao J
+  last_author: Lin Y
+  title: Deep learning for predicting 16S rRNA gene copy number
+links: {}
+added: '2026-11-21'
+evidence: ANNA16 estimates 16S rRNA gene copy number values directly from 16S gene sequence strings.

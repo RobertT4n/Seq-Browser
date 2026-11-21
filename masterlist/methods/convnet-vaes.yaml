@@ -1,0 +1,21 @@
+name: ConvNet-VAEs
+category: dry
+summary: Uses convolutional variational autoencoders to integrate single-cell multimodal epigenomic profiles.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae705
+  year: 2024
+  journal: Bioinformatics
+  first_author: Gao C
+  last_author: Welch JD
+  title: Integrating single-cell multimodal epigenomic data using 1D convolutional neural networks
+  preprint_doi: 10.1101/2024.02.16.580655
+links: {}
+added: '2026-11-21'
+evidence: ConvNet-VAEs integrates single-cell profiles of histone modifications and chromatin accessibility and performs dimension
+  reduction and batch correction.

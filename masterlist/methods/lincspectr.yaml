@@ -1,0 +1,19 @@
+name: LincSpectr
+category: dry
+summary: Deep neural network integrates single-cell transcriptomic and electrophysiological features for cross-modal prediction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.29.587341
+  year: 2024
+  journal: bioRxiv
+  first_author: Furumichi
+  last_author: T
+  title: A deep generative model integrating single-cell time-frequency characteristics transformed from electrophysiological
+    data with transcriptomic features
+links: {}
+added: '2026-11-21'
+evidence: LincSpectr integrates transcriptomic features with electrophysiological time-frequency features from Patch-seq.

@@ -1,0 +1,23 @@
+name: PECAT
+full_name: Phased Error Correction and Assembly Tool
+category: dry
+summary: Assembler uses haplotype-aware error correction to reconstruct diploid genomes from noisy long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1038/s41467-024-47349-7
+  year: 2024
+  journal: Nature Communications
+  first_author: Nie F
+  last_author: Wang J
+  title: De novo diploid genome assembly using long noisy reads
+links: {}
+added: '2026-11-21'
+evidence: PECAT assembles diploid genomes using Nanopore R9, PacBio CLR or Nanopore R10 reads.

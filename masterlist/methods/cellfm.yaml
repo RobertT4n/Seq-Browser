@@ -1,0 +1,19 @@
+name: CellFM
+category: dry
+summary: Learns representations of human cells using a foundation model pretrained on single-cell transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-59926-5
+  year: 2025
+  journal: Nature Communications
+  first_author: Zeng Y
+  last_author: Yang Y
+  title: 'CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells'
+  preprint_doi: 10.1101/2024.06.04.597369
+links: {}
+added: '2026-11-21'
+evidence: CellFM is a single-cell foundation model developed using a dataset of approximately 100 million human cells.

@@ -1,0 +1,23 @@
+name: hifimeth
+category: dry
+summary: Graph convolutional network that calls single-molecule 5mC from PacBio circular consensus sequencing data using neighboring
+  CpG information.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2024.08.14.607879
+  year: 2024
+  journal: bioRxiv
+  first_author: Chen
+  last_author: C.-L
+  title: High accuracy methylation identification tools on single molecular level for PacBio HiFi data
+links: {}
+added: '2026-11-21'
+evidence: hifimeth uses a 400 bp context with neighboring CpGs to improve CCS-based 5mC calls at the single-molecule level.

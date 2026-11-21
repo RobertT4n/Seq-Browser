@@ -1,0 +1,18 @@
+name: Floria
+category: dry
+summary: Recovers bacterial strain haplotypes from short- or long-read metagenomic sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae252
+  year: 2024
+  journal: Bioinformatics
+  first_author: Shaw J
+  last_author: Yu YW
+  title: 'Floria: fast and accurate strain haplotyping in metagenomes'
+links: {}
+added: '2026-11-21'
+evidence: Floria uses read clustering and a strain-preserving network flow model to recover strain haplotypes.

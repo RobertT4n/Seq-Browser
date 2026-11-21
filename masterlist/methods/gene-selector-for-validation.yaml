@@ -1,0 +1,20 @@
+name: Gene Selector for Validation
+category: dry
+summary: Software selects stable reference genes and variable candidate genes from quantitative transcriptome data for RT-qPCR
+  validation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-024-10511-y
+  year: 2024
+  journal: BMC Genomics
+  first_author: de Brito MWD
+  last_author: Mesquita RD
+  title: 'RNA-seq validation: software for selection of reference and variable candidate genes for RT-qPCR'
+links: {}
+added: '2026-11-21'
+evidence: GSV identifies reference and variable candidate genes and filters candidates according to the RT-qPCR assay detection
+  limit.

@@ -1,0 +1,23 @@
+name: LINGER
+full_name: Lifelong neural network for gene regulation
+category: dry
+summary: Infers gene regulatory networks from single-cell expression and chromatin accessibility data using external bulk
+  data and motif information.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-024-02182-7
+  year: 2024
+  journal: Nature Biotechnology
+  first_author: Yuan Q
+  last_author: Duren Z
+  title: Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data
+links: {}
+added: '2026-11-21'
+evidence: LINGER infers regulatory networks from paired single-cell gene expression and chromatin accessibility data with
+  atlas-scale external bulk data.

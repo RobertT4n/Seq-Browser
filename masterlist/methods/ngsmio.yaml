@@ -1,0 +1,25 @@
+name: NGSmIO
+full_name: mouse-IO NGS-based assay
+category: wet
+summary: A sequencing panel quantifies expression of 1,080 tumor microenvironment-related genes in mouse tumor models.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0303171
+  year: 2024
+  journal: PLOS ONE
+  first_author: Xue J
+  last_author: Li QX
+  title: An NGS-based assay for accurate detection and quantification of immune gene expression in mouse tumor models
+links: {}
+added: '2026-11-21'
+evidence: The assay detects and quantifies mRNA expression of 1,080 tumor microenvironment-related genes in mouse tumor models.

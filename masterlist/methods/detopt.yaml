@@ -1,0 +1,21 @@
+name: DETOPT
+category: dry
+summary: Places copy-number-affected single-nucleotide variants on tumor progression trees using multi-sample bulk sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2024.03.10.584318
+  year: 2024
+  journal: bioRxiv
+  first_author: Wu
+  last_author: S
+  title: Determining Optimal Placement of Copy Number Aberration Impacted Single Nucleotide Variants in a Tumor Progression
+    History
+links: {}
+added: '2026-11-21'
+evidence: DETOPT places SNVs affected by copy number aberrations on tumor progression trees while minimizing distortion of
+  observed variant allele frequencies.

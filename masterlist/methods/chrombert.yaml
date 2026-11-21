@@ -1,0 +1,18 @@
+name: ChromBERT
+category: dry
+summary: Uses a pretrained BERT-based model to discover recurring patterns in chromatin state annotations.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.07.25.605219
+  year: 2024
+  journal: bioRxiv
+  first_author: Lee
+  last_author: R
+  title: 'ChromBERT: Uncovering Chromatin State Motifs in the Human Genome Using a BERT-based Approach'
+links: {}
+added: '2026-11-21'
+evidence: ChromBERT was pretrained on chromatin state annotations and extracts high-attention state patterns as motifs.

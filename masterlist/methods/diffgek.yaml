@@ -1,0 +1,21 @@
+name: diffGEK
+full_name: Differential Gene Expression Kinetics
+category: dry
+summary: Compares gene expression kinetics across conditions while allowing rates to vary smoothly along a differentiation
+  trajectory.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf316
+  year: 2025
+  journal: Bioinformatics
+  first_author: Barile M
+  last_author: Gottgens B
+  title: 'diffGEK: differential gene expression kinetics'
+  preprint_doi: 10.1101/2024.08.21.608952
+links: {}
+added: '2026-11-21'
+evidence: diffGEK identifies genes with altered transcription, splicing, or degradation rates between biological conditions.

@@ -1,0 +1,24 @@
+name: FAP-seq
+category: wet
+summary: FAP-seq uses near-infrared light-activated proximity labeling to analyze localized RNA in live cells.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- live-cells
+reference:
+  doi: 10.1093/nar/gkae125
+  year: 2024
+  journal: Nucleic Acids Research
+  first_author: Li L
+  last_author: Li Y
+  title: Symmetry-breaking malachite green as a near-infrared light-activated fluorogenic photosensitizer for RNA proximity
+    labeling
+links: {}
+added: '2026-11-21'
+evidence: FAP-seq uses a fluorogen activating protein and a malachite green photosensitizer for light-inducible RNA proximity
+  labeling.

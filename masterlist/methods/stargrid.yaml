@@ -1,0 +1,18 @@
+name: STARgrid
+category: dry
+summary: Open-source pipeline that converts Visium HD sequencing reads and images into tissue-registered count matrices.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.09.757882
+  year: 2026
+  journal: bioRxiv
+  first_author: Hung
+  last_author: K. Y
+  title: 'STARgrid: an open-source pipeline from Visium HD sequencing reads to count matrices'
+links: {}
+added: '2026-11-21'
+evidence: STARgrid processes Visium HD FASTQ files and images to produce count matrices registered to tissue.

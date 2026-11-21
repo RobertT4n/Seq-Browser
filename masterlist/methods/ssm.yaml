@@ -1,0 +1,21 @@
+name: SSM
+full_name: Serial Similarity Matrix
+category: dry
+summary: Method that uses long terminal repeat retrotransposon similarities to assign polyploid genome assemblies to subgenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/hr/uhaf132
+  year: 2025
+  journal: Horticulture Research
+  first_author: Lyu H
+  last_author: Yu Q
+  title: Deciphering octoploid strawberry evolution with serial LTR similarity matrices for subgenome partition
+  preprint_doi: 10.1101/2024.07.31.606053
+links: {}
+added: '2026-11-21'
+evidence: SSM identifies subgenome-specific LTRs and assigns chromosomes to subgenomes, including when diploid progenitor
+  genomes are unknown.

@@ -1,0 +1,28 @@
+name: Tango-seq
+category: wet
+summary: Tango-seq combines genetic circuit tracing with single-cell transcriptomics to identify neurons downstream of selected
+  neurons.
+readouts:
+- rna
+- cell-cell-contact
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2024.05.22.595372
+  year: 2024
+  journal: bioRxiv
+  first_author: Ehrlich
+  last_author: J
+  title: 'Tango-seq: overlaying transcriptomics on connectomics to identify neurons downstream of Drosophila clock neurons'
+links: {}
+added: '2026-11-21'
+evidence: Synaptically downstream Drosophila neurons were labeled with a nuclear reporter, purified, and subjected to single-cell
+  sequencing.

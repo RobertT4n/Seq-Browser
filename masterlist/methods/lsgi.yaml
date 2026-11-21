@@ -1,0 +1,20 @@
+name: LSGI
+full_name: Local Spatial Gradient Inference
+category: dry
+summary: Identifies interpretable local gene-expression gradients in spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.19.585725
+  year: 2024
+  journal: bioRxiv
+  first_author: Liang
+  last_author: K
+  title: Interpretable Spatial Gradient Analysis for Spatial Transcriptomics Data
+links: {}
+added: '2026-11-21'
+evidence: LSGI identifies spatial locations with prominent transcriptomic gradients using non-negative matrix factorization
+  and linear regression.

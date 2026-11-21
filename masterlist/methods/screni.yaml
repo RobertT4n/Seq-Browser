@@ -1,0 +1,22 @@
+name: ScReNI
+full_name: single-cell regulatory network inference
+category: dry
+summary: Integrates single-cell RNA-seq and chromatin accessibility data to infer cell-specific regulatory networks.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzaf060
+  year: 2025
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Xu X
+  last_author: Wang J
+  title: 'ScReNI: Single-cell Regulatory Network Inference Through Integrating scRNA-seq and scATAC-seq Data'
+  preprint_doi: 10.1101/2024.09.10.612385
+links: {}
+added: '2026-11-21'
+evidence: ScReNI uses k-nearest neighbors and random forests to infer networks from paired or unpaired scRNA-seq and scATAC-seq
+  datasets.

@@ -1,0 +1,18 @@
+name: fast-scBatch
+category: dry
+summary: Corrects batch effects in single-cell RNA-seq expression matrices using a neural network-assisted algorithm.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.25.600557
+  year: 2024
+  journal: bioRxiv
+  first_author: Chen
+  last_author: T
+  title: 'Fast-scBatch: Batch Effect Correction Using Neural Network-Driven Distance Matrix Adjustment'
+links: {}
+added: '2026-11-21'
+evidence: fast-scBatch corrects batch effects in scRNA-seq data and outputs a corrected expression matrix.

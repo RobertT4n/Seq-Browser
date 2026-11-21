@@ -1,0 +1,19 @@
+name: CelFiE-ISH
+category: dry
+summary: Estimates cell-type proportions in bulk samples using DNA methylation haplotypes observed within sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-024-03275-x
+  year: 2024
+  journal: Genome Biology
+  first_author: Unterman I
+  last_author: Berman BP
+  title: 'CelFiE-ISH: a probabilistic model for multi-cell type deconvolution from single-molecule DNA methylation haplotypes'
+links: {}
+added: '2026-11-21'
+evidence: CelFiE-ISH uses within-read methylation haplotype information to deconvolve mixed samples.

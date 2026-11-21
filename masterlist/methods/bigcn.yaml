@@ -1,0 +1,21 @@
+name: BiGCN
+full_name: Bi-Graph Convolutional Network
+category: dry
+summary: Imputes single-cell gene expression using graphs of cell similarity and gene co-expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.05.588342
+  year: 2024
+  journal: bioRxiv
+  first_author: Inoue
+  last_author: R
+  title: 'BiGCN: Leveraging Cell and Gene Similarities for Single-cell Transcriptome Imputation with Bi-Graph Convolutional
+    Networks'
+links: {}
+added: '2026-11-21'
+evidence: BiGCN combines embeddings from cell similarity and gene co-expression graph convolutional networks to impute scRNA-seq
+  data.

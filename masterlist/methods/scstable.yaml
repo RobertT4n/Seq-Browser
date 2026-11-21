@@ -1,0 +1,19 @@
+name: scStable
+category: dry
+summary: Assesses single-cell RNA-seq analysis stability using synthetic samples with bulk-derived between-sample variation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.01.755876
+  year: 2026
+  journal: bioRxiv
+  first_author: Jiang
+  last_author: J. J
+  title: 'scStable: assessing scRNA-seq analysis stability under bulk-derived between-sample variation'
+links: {}
+added: '2026-11-21'
+evidence: scStable generates synthetic samples that preserve cell-level heterogeneity while incorporating bulk-derived between-sample
+  variation.

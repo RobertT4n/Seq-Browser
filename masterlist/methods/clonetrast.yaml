@@ -1,0 +1,19 @@
+name: CloneTrast
+category: dry
+summary: Supervised contrastive learning framework that infers T-cell clonal organization from single-cell gene expression.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.06.757206
+  year: 2026
+  journal: bioRxiv
+  first_author: Shorer
+  last_author: K
+  title: Revealing pan-cancer clonal niches of T cells from single-cell RNA sequencing using contrastive learning
+links: {}
+added: '2026-11-21'
+evidence: CloneTrast trains on paired single-cell RNA and TCR profiles but requires only RNA profiles at inference.

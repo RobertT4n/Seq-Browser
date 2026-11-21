@@ -1,0 +1,21 @@
+name: INSPIRE
+category: dry
+summary: Integrates multiple spatial transcriptomics datasets and identifies interpretable spatial factors and gene programs.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-026-02579-x
+  year: 2026
+  journal: Nature Genetics
+  first_author: Zhao J
+  last_author: Zhao H
+  title: Interpretable, flexible and spatially aware integration of multiple spatial transcriptomics datasets from diverse
+    sources
+  preprint_doi: 10.1101/2024.09.23.614539
+links: {}
+added: '2026-11-21'
+evidence: INSPIRE uses graph neural networks, adversarial learning, and non-negative matrix factorization to integrate and
+  interpret spatial transcriptomics data.

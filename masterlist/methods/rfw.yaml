@@ -1,0 +1,20 @@
+name: RFW
+full_name: Reference based functional profile inference on WMS
+category: dry
+summary: Infers microbial functional abundance from metagenomic taxonomic profiles and genome annotations.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.19.585660
+  year: 2024
+  journal: bioRxiv
+  first_author: Mi
+  last_author: X
+  title: RFW captures species-level full profile of metagenomic functions via integrating genome annotation information
+links: {}
+added: '2026-11-21'
+evidence: RFW uses genome function annotations and whole-metagenome shotgun taxonomic profiles to infer microbial functional
+  abundance.

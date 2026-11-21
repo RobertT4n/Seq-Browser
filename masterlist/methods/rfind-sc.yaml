@@ -1,0 +1,19 @@
+name: RFind-sc
+category: dry
+summary: Maps single cells onto interpretable biological axes defined by external gene signatures or perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.21.759514
+  year: 2026
+  journal: bioRxiv
+  first_author: Murano
+  last_author: T
+  title: RFind-sc maps single cells onto biological axes defined by external gene signatures
+links: {}
+added: '2026-11-21'
+evidence: RFind-sc compares each cell with external references and places it on axes defined by expression signatures, gene
+  sets or genetic perturbations.

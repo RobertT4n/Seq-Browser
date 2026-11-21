@@ -1,0 +1,19 @@
+name: mouse-Geneformer
+category: dry
+summary: Pretrains a Geneformer model on mouse single-cell transcriptomes for downstream tasks including cell type classification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1011420
+  year: 2025
+  journal: PLOS Genetics
+  first_author: Ito K
+  last_author: Yamashita T
+  title: 'Mouse-Geneformer: A deep learning model for mouse single-cell transcriptome and its cross-species utility'
+  preprint_doi: 10.1101/2024.09.09.611960
+links: {}
+added: '2026-11-21'
+evidence: mouse-Geneformer was pretrained on 21 million mouse scRNA-seq profiles and fine-tuned for cell type classification.

@@ -1,0 +1,23 @@
+name: SpaDiT
+full_name: Nanopore Autosomal Short Tandem Repeat Analysis
+category: dry
+summary: Analyzes germline short tandem repeat markers from nanopore sequencing without requiring an allele sequence reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae571
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Li X
+  last_author: Min W
+  title: 'SpaDiT: diffusion transformer for spatial gene expression prediction using scRNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: NASTRA analyzes autosomal STR markers from noisy nanopore reads and was evaluated for cell line authentication and
+  paternity testing.

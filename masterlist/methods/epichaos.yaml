@@ -1,0 +1,19 @@
+name: epiCHAOS
+category: dry
+summary: Metric quantifies cell-to-cell epigenomic heterogeneity within single-cell datasets.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03446-w
+  year: 2024
+  journal: Genome Biology
+  first_author: Kelly K
+  last_author: Plass C
+  title: 'EpiCHAOS: a metric to quantify epigenomic heterogeneity in single-cell data'
+  preprint_doi: 10.1101/2024.04.24.590899
+links: {}
+added: '2026-11-21'
+evidence: epiCHAOS is a quantitative metric of cell-to-cell heterogeneity applicable to any single-cell epigenomics data type.

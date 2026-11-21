@@ -1,0 +1,19 @@
+name: bcRflow
+category: dry
+summary: Characterizes B cell receptor repertoires from non-targeted transcriptomic data using a portable Nextflow pipeline.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae137
+  year: 2024
+  journal: NAR Genomics and Bioinformatics
+  first_author: Schlegel BT
+  last_author: Rajasundaram D
+  title: 'bcRflow: a Nextflow pipeline for characterizing B cell receptor repertoires from non-targeted transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: bcRflow extracts and characterizes BCR repertoires from non-targeted transcriptomic data and was demonstrated on
+  bulk samples.

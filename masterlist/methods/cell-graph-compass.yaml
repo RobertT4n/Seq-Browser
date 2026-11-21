@@ -1,0 +1,20 @@
+name: Cell-Graph Compass
+category: dry
+summary: Learns single-cell representations with a graph-based foundation model incorporating transcriptomic and other gene
+  information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.04.597354
+  year: 2024
+  journal: bioRxiv
+  first_author: Fang
+  last_author: x
+  title: 'Cell-Graph Compass: Modeling Single Cells with Graph Structure Foundation Model'
+links: {}
+added: '2026-11-21'
+evidence: Cell-Graph Compass was pretrained on 50 million human single-cell sequencing data points and incorporates transcriptional
+  profiles and gene relationships.

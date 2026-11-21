@@ -1,0 +1,18 @@
+name: SCEPTRE low-MOI
+category: dry
+summary: Tests associations between perturbations and count outcomes in low-MOI single-cell CRISPR screens.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03254-2
+  year: 2024
+  journal: Genome Biology
+  first_author: Barry T
+  last_author: Katsevich E
+  title: Robust differential expression testing for single-cell CRISPR screens at low multiplicity of infection
+links: {}
+added: '2026-11-21'
+evidence: SCEPTRE low-MOI addresses sparsity, confounding and model misspecification in perturbation association testing.

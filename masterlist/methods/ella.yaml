@@ -1,0 +1,22 @@
+name: ELLA
+full_name: subcellular expression localization analysis
+category: dry
+summary: Models subcellular mRNA localization and detects spatially variable genes in high-resolution spatial transcriptomics
+  data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.23.614515
+  year: 2024
+  journal: bioRxiv
+  first_author: Wang
+  last_author: X
+  title: 'ELLA: Modeling Subcellular Spatial Variation of Gene Expression within Cells in High-Resolution Spatial Transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: ELLA uses a cellular coordinate system and a nonhomogeneous Poisson process to characterize subcellular expression
+  patterns.

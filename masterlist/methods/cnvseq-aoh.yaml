@@ -1,0 +1,20 @@
+name: CNVseq-AOH
+category: dry
+summary: Predicts regions of absent heterozygosity from ultra-low-depth whole-genome sequencing using haplotype information
+  and a recurrent neural network.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-024-10400-4
+  year: 2024
+  journal: BMC Genomics
+  first_author: Tang F
+  last_author: Song L
+  title: Recurrent neural network for predicting absence of heterozygosity from low pass WGS with ultra-low depth
+links: {}
+added: '2026-11-21'
+evidence: CNVseq-AOH combines population-based haplotypes, sliding windows and a recurrent neural network to detect absence
+  of heterozygosity in low-pass whole-genome sequencing.

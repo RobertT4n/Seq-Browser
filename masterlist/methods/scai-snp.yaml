@@ -1,0 +1,20 @@
+name: scAI-SNP
+category: dry
+summary: Tool that infers donor ancestry from ancestry-informative SNPs observed in single-cell genomics data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s44330-025-00029-4
+  year: 2025
+  journal: BMC Methods
+  first_author: Hong SC
+  last_author: Hormoz S
+  title: 'scAI-SNP: a method for inferring ancestry from single-cell data'
+  preprint_doi: 10.1101/2024.05.14.594208
+links: {}
+added: '2026-11-21'
+evidence: scAI-SNP uses ancestry-informative SNPs to estimate the contribution of 26 population groups to a single-cell dataset
+  donor's ancestry.

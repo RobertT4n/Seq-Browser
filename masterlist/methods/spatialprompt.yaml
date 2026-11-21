@@ -1,0 +1,22 @@
+name: SpatialPrompt
+category: dry
+summary: Deconvolves spatial transcriptomics spots and identifies domains using spatial coordinates and a single-cell RNA-seq
+  reference.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-06349-5
+  year: 2024
+  journal: Communications Biology
+  first_author: Swain AK
+  last_author: Yadav P
+  title: 'SpatialPrompt: spatially aware scalable and accurate tool for spot deconvolution and domain identification in spatial
+    transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: SpatialPrompt integrates gene expression, spatial location, and a single-cell reference to infer cell-type proportions
+  of spatial spots.

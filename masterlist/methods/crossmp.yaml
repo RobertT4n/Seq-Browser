@@ -1,0 +1,21 @@
+name: CrossMP
+category: dry
+summary: A neural network and web portal predict single-cell RNA or chromatin accessibility profiles from the other modality.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/genes15070882
+  year: 2024
+  journal: Genes
+  first_author: Lyu Z
+  last_author: Joshi T
+  title: 'CrossMP: Enabling Cross-Modality Translation between Single-Cell RNA-Seq and Single-Cell ATAC-Seq through Web-Based
+    Portal'
+links: {}
+added: '2026-11-21'
+evidence: CrossMP predicts between transcriptome and chromatin profiles using paired human single-cell RNA-seq and ATAC-seq
+  datasets.

@@ -1,0 +1,22 @@
+name: BIT
+full_name: Bayesian Identification of Transcriptional Regulators
+category: dry
+summary: Identifies transcriptional regulators by comparing epigenomic profiles with a transcriptional regulator binding library
+  using a Bayesian model.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-60269-4
+  year: 2025
+  journal: Nature Communications
+  first_author: Lu Z
+  last_author: Wang X
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+  preprint_doi: 10.1101/2024.06.02.597061
+links: {}
+added: '2026-11-21'
+evidence: BIT assesses genome-wide consistency between user-provided epigenomic profiles and a library of regulator ChIP-seq
+  data.

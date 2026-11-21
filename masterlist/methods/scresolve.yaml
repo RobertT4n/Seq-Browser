@@ -1,0 +1,20 @@
+name: scResolve
+category: dry
+summary: Recovers spatially resolved single-cell expression profiles from multicellular spatial transcriptomics measurements.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100864
+  year: 2024
+  journal: Cell Reports Methods
+  first_author: Chen H
+  last_author: Lugo-Martinez J
+  title: Recovering single-cell expression profiles from spatial transcriptomics with scResolve
+links: {}
+added: '2026-11-21'
+evidence: scResolve restores expression profiles of individual cells at their locations from spatial measurements containing
+  mixtures of cells.

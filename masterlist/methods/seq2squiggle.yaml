@@ -1,0 +1,22 @@
+name: seq2squiggle
+category: dry
+summary: Uses a transformer model to simulate nanopore sequencing signals from nucleotide sequences.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btae744
+  year: 2024
+  journal: Bioinformatics
+  first_author: Beslic D
+  last_author: Körber N
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+  preprint_doi: 10.1101/2024.08.12.607296
+links: {}
+added: '2026-11-21'
+evidence: seq2squiggle is a non-autoregressive model that generates nanopore sequencing signals from nucleotide sequences.

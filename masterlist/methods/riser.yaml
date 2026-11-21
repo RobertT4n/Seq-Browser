@@ -1,0 +1,22 @@
+name: RISER
+category: dry
+summary: Selects RNA molecules for enrichment or depletion during direct nanopore sequencing using real-time signal classification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-48673-8
+  year: 2024
+  journal: Nature Communications
+  first_author: Sneddon A
+  last_author: Eyras E
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+links: {}
+added: '2026-11-21'
+evidence: RISER identifies RNA classes from nanopore signals with deep learning and communicates selective rejection decisions
+  to sequencing hardware.

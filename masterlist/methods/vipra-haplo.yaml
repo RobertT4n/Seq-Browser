@@ -1,0 +1,18 @@
+name: ViPRA-Haplo
+category: dry
+summary: Reconstructs strain-specific viral haplotypes de novo from paired-end sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3374595
+  year: 2024
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Li W
+  last_author: Acharya R
+  title: 'ViPRA-Haplo: <i>De Novo</i> Reconstruction of Viral Populations Using Paired End Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: ViPRA-Haplo uses paired-read information and contig refinement to reconstruct viral haplotypes.

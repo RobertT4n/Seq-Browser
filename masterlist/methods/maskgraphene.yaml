@@ -1,0 +1,19 @@
+name: MaskGraphene
+category: dry
+summary: Learns batch-corrected joint embeddings of spatial transcriptomics slices while preserving their geometry.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.02.21.581387
+  year: 2024
+  journal: bioRxiv
+  first_author: Hu
+  last_author: X. M
+  title: 'MaskGraphene: Advancing joint embedding, clustering, and batch correction for spatial transcriptomics using graph-based
+    self-supervised learning'
+links: {}
+added: '2026-11-21'
+evidence: MaskGraphene integrates gene expression and spatial location into joint embeddings and corrects batch effects.

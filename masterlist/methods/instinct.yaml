@@ -1,0 +1,21 @@
+name: INSTINCT
+full_name: multi-sample INtegration of Spatial chromaTIN accessibility sequencing data via stochastiC domain Translation
+category: dry
+summary: Integrates spatial chromatin accessibility datasets across samples using stochastic domain translation to reduce
+  noise and batch effects.
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-56535-0
+  year: 2025
+  journal: Nature Communications
+  first_author: Liu Y
+  last_author: Jiang R
+  title: 'INSTINCT: Multi-sample integration of spatial chromatin accessibility sequencing data via stochastic domain translation'
+  preprint_doi: 10.1101/2024.05.26.595944
+links: {}
+added: '2026-11-21'
+evidence: INSTINCT integrates multiple spATAC-seq samples and removes complex noise and batch effects.

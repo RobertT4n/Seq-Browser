@@ -1,0 +1,22 @@
+name: BaseNet
+category: dry
+summary: Decodes nanopore sequencing signals into base sequences using transformer models.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.csbj.2024.09.016
+  year: 2024
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Li Q
+  last_author: Lou J
+  title: 'BaseNet: A transformer-based toolkit for nanopore sequencing signal decoding'
+  preprint_doi: 10.1101/2024.06.02.597014
+links: {}
+added: '2026-11-21'
+evidence: BaseNet uses autoregressive and non-autoregressive transformers for nanopore signal decoding.

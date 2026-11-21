@@ -1,0 +1,20 @@
+name: multi-label alignment
+category: dry
+summary: Aligns sequences to annotated de Bruijn graphs using scores that account for sample similarity and changing node
+  length.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae226
+  year: 2024
+  journal: Bioinformatics
+  first_author: Mustafa H
+  last_author: Kahles A
+  title: Label-guided seed-chain-extend alignment on annotated De Bruijn graphs
+links: {}
+added: '2026-11-21'
+evidence: Multi-label alignment introduces label-change and node-length-change operations to improve alignment on annotated
+  de Bruijn graphs.

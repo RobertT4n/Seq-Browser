@@ -1,0 +1,21 @@
+name: sciRED
+full_name: Single-Cell Interpretable REsidual Decomposition
+category: dry
+summary: Decomposes scRNA-seq data into interpretable factors while accounting for known confounders.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-57157-2
+  year: 2025
+  journal: Nature Communications
+  first_author: Pouyabahar D
+  last_author: Bader GD
+  title: Interpretable single-cell factor decomposition using sciRED
+  preprint_doi: 10.1101/2024.08.01.605536
+links: {}
+added: '2026-11-21'
+evidence: sciRED removes known confounding effects, rotates factors, maps them to covariates, and identifies associated genes
+  and biological processes.

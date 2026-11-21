@@ -1,0 +1,22 @@
+name: IMMUNOTAR
+category: dry
+summary: Prioritizes candidate cancer immunotherapy surface targets by combining RNA-seq or proteomics data with database-derived
+  features.
+readouts:
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf060
+  year: 2025
+  journal: Bioinformatics
+  first_author: Shraim R
+  last_author: Sacan A
+  title: ImmunoTar—integrative prioritization of cell surface targets for cancer immunotherapy
+  preprint_doi: 10.1101/2024.06.04.597422
+links: {}
+added: '2026-11-21'
+evidence: IMMUNOTAR integrates user-provided RNA-sequencing or proteomics data with database features to prioritize surface
+  proteins.

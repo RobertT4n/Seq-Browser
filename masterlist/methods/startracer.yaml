@@ -1,0 +1,18 @@
+name: starTracer
+category: dry
+summary: Identifies and ranks marker genes in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-024-06790-6
+  year: 2024
+  journal: Communications Biology
+  first_author: Zhang F
+  last_author: Li X
+  title: starTracer is an accelerated approach for precise marker gene identification in single-cell RNA-Seq analysis
+links: {}
+added: '2026-11-21'
+evidence: starTracer produces a marker matrix with genes ranked by their potential to serve as markers.

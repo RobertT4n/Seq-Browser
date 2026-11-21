@@ -1,0 +1,22 @@
+name: WarpDemuX
+full_name: Functional Unit State IdentificatiON in WSIs
+category: dry
+summary: A web application combines spatial omics data with histology images for analysis and visualization of functional
+  tissue units.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-59102-9
+  year: 2025
+  journal: Nature Communications
+  first_author: van der Toorn W
+  last_author: von Kleist M
+  title: Demultiplexing and barcode-specific adaptive sampling for nanopore direct RNA sequencing
+  preprint_doi: 10.1101/2024.07.22.604276
+links: {}
+added: '2026-11-21'
+evidence: FUSION aggregates molecular data for histology-defined tissue units and was demonstrated on 10x Visium spatial transcriptomics
+  data.

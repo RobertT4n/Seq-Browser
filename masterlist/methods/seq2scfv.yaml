@@ -1,0 +1,23 @@
+name: Seq2scFv
+category: dry
+summary: Analyzes long-read sequences of single-chain antibody fragments from display libraries, including variable-domain
+  annotation and enrichment.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1080/19420862.2024.2408344
+  year: 2024
+  journal: mAbs
+  first_author: Bachmann Salvy M
+  last_author: Arpat B
+  title: 'Seq2scFv: a toolkit for the comprehensive analysis of display libraries from long-read sequencing platforms'
+  preprint_doi: 10.1101/2024.07.04.602016
+links: {}
+added: '2026-11-21'
+evidence: Seq2scFv characterizes V(D)J recombination in paired heavy and light chain variable regions and quantifies sequences
+  across selection rounds.

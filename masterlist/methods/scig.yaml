@@ -1,0 +1,20 @@
+name: SCIG
+category: dry
+summary: Identifies cell identity genes using genetic sequence signatures and single-cell gene expression.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.27.609808
+  year: 2024
+  journal: bioRxiv
+  first_author: Arulsamy
+  last_author: K
+  title: Machine Learning Uncovers Vascular Endothelial Cell Identity Genes by Expression Regulation Features in Single Cells
+links: {}
+added: '2026-11-21'
+evidence: SCIG combines genetic sequence signatures with scRNA-seq expression to identify cell identity genes without comparison
+  to other cells.

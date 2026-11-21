@@ -1,0 +1,22 @@
+name: STAN
+full_name: Spatially informed Transcription factor Activity Network
+category: dry
+summary: Predicts spatially informed transcription factor activities by integrating gene expression, spatial coordinates,
+  morphology, and regulatory priors.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf1473
+  year: 2026
+  journal: Nucleic Acids Research
+  first_author: Zhang L
+  last_author: Osmanbeyoglu HU
+  title: STAN, a computational framework for inferring spatially informed transcription factor activity
+  preprint_doi: 10.1101/2024.06.26.600782
+links: {}
+added: '2026-11-21'
+evidence: STAN predicts spot-specific TF activities using TF-target priors, mRNA expression, spatial coordinates, and imaging
+  features.

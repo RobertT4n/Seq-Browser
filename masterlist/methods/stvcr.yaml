@@ -1,0 +1,22 @@
+name: stVCR
+category: dry
+summary: Reconstructs cell differentiation, proliferation, and spatial migration from time-series spatial transcriptomics
+  snapshots.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-026-03010-3
+  year: 2026
+  journal: Nature Methods
+  first_author: Peng Q
+  last_author: Li T
+  title: 'stVCR: spatiotemporal dynamics of single cells'
+  preprint_doi: 10.1101/2024.06.02.596937
+links: {}
+added: '2026-11-21'
+evidence: stVCR combines dynamical optimal transport and spatial alignment to reconstruct continuous cell development and
+  migration.

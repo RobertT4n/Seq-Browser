@@ -1,0 +1,28 @@
+name: NanoRanger
+full_name: nanopore-based rapid acquisition of neighboring genomic regions
+category: wet
+summary: A nanopore sequencing strategy acquires large genomic regions to resolve rearrangement breakpoints at single-base
+  resolution.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.medj.2024.07.003
+  year: 2024
+  journal: Med
+  first_author: Zhang Y
+  last_author: Li M
+  title: NanoRanger enables rapid single-base-pair resolution of genomic disorders
+links: {}
+added: '2026-11-21'
+evidence: NanoRanger rapidly acquires large genomic regions of interest and identified breakpoints in familial cases at single-base-pair
+  resolution.

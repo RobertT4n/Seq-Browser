@@ -1,0 +1,20 @@
+name: Auto-MuRCiS
+category: dry
+summary: Docker-packaged analysis tool for multiplex, randomized CRISPR interference sequencing data.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/mra.00356-24
+  year: 2024
+  journal: Microbiology Resource Announcements
+  first_author: Myers KS
+  last_author: Donohue TJ
+  title: 'Auto-MuRCiS: a streamlined software package for analysis of multiplex, randomized CRISPR interference sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: Auto-MuRCiS provides a rapid, user-friendly analysis tool for MuRCiS data identifying combinations of gene knockouts
+  that influence microbial processes.

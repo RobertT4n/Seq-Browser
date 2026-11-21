@@ -1,0 +1,25 @@
+name: CITR-seq
+category: wet
+summary: CITR-seq profiles paired T-cell receptor chains at high throughput in individual T cells.
+readouts:
+- immune-repertoire
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2024.09.05.611437
+  year: 2024
+  journal: bioRxiv
+  first_author: Peters
+  last_author: Y. F
+  title: Genetic determinants of distinct CD8+ α/β-TCR repertoires in the genus Mus
+links: {}
+added: '2026-11-21'
+evidence: CITR-seq is an instrument-free single-cell TCR sequencing method with greater than 88% pairing precision.

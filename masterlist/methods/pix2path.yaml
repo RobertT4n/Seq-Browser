@@ -1,0 +1,21 @@
+name: Pix2Path
+category: dry
+summary: Integrates spatial transcriptomics and digital pathology to score pathological risk and study links between gene
+  expression and tissue pathology.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.18.608468
+  year: 2024
+  journal: bioRxiv
+  first_author: Fu
+  last_author: Y
+  title: 'Pix2Path: Integrating Spatial Transcriptomics and Digital Pathology with Deep Learning to Score Pathological Risk
+    and Link Gene Expression to Disease Mechanisms'
+links: {}
+added: '2026-11-21'
+evidence: Pix2Path uses conditional generative adversarial networks to assess pathological risk and support spatial in silico
+  gene perturbation.

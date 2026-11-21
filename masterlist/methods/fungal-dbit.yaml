@@ -1,0 +1,25 @@
+name: fungal-DBiT
+category: wet
+summary: Maps host and fungal RNA expression simultaneously in tissue sections with spatial resolution.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+- microbe
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.10.19.760099
+  year: 2026
+  journal: bioRxiv
+  first_author: Yu
+  last_author: Y
+  title: Spatially resolved host-fungal transcriptomics profiling by fungal-DBiT
+links: {}
+added: '2026-11-21'
+evidence: The platform maps host and fungal RNAs directly in tissue sections, including in a mouse fungal infection model.

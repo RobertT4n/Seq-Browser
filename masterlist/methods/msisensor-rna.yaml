@@ -1,0 +1,20 @@
+name: MSIsensor-RNA
+category: dry
+summary: Detects microsatellite instability status from bulk or single-cell expression of MSI-associated genes.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzae004
+  year: 2024
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Jia P
+  last_author: Ye K
+  title: 'MSIsensor-RNA: Microsatellite Instability Detection for Bulk and Single-cell Gene Expression Data'
+links: {}
+added: '2026-11-21'
+evidence: MSIsensor-RNA detects MSI status from expression values and was demonstrated on bulk and single-cell expression
+  data.

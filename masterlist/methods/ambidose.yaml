@@ -1,0 +1,20 @@
+name: AmbiDose
+category: dry
+summary: Removes ambient RNA contamination from single-cell and single-nucleus RNA-seq counts using cell-specific removal
+  budgets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.09.27.754849
+  year: 2026
+  journal: bioRxiv
+  first_author: Li
+  last_author: S
+  title: 'AmbiDose: per-cell removal budgets for ambient RNA contamination'
+links: {}
+added: '2026-11-21'
+evidence: AmbiDose combines an ambient profile from empty droplets with cell-specific removal budgets and protection of lineage-enriched
+  genes.

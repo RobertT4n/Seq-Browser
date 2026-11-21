@@ -1,0 +1,23 @@
+name: NanoML-5moU
+category: dry
+summary: Machine learning framework detects and quantifies 5-methoxyuridine in individual nanopore direct RNA sequencing reads.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.2174/0113892029288843240402042529
+  year: 2024
+  journal: Current Genomics
+  first_author: Li J
+  last_author: Zhang Y
+  title: 'Detection and Quantification of 5moU RNA Modification from Direct
+
+    RNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: NanoML-5moU detects and quantifies 5moU at the read level in in vitro-transcribed mRNA data.

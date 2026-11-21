@@ -1,0 +1,19 @@
+name: UnCoVar
+category: dry
+summary: A reproducible workflow for viral variant calling and lineage assignment demonstrated on SARS-CoV-2.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-024-10539-0
+  year: 2024
+  journal: BMC Genomics
+  first_author: Thomas A
+  last_author: Meyer F
+  title: 'UnCoVar: a reproducible and scalable workflow for transparent and robust virus variant calling and lineage assignment
+    using SARS-CoV-2 as an example'
+links: {}
+added: '2026-11-21'
+evidence: UnCoVar is a reproducible SARS-CoV-2 typing workflow evaluated on patient samples sequenced across multiple platforms.

@@ -1,0 +1,21 @@
+name: simAdaptor
+category: dry
+summary: Extends single-cell simulators with spatial variables to generate spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03505-w
+  year: 2025
+  journal: Genome Biology
+  first_author: Liang X
+  last_author: Yang JYH
+  title: Multi-task benchmarking of spatially resolved gene expression simulation models
+  preprint_doi: 10.1101/2024.05.29.596418
+links: {}
+added: '2026-11-21'
+evidence: simAdaptor incorporates spatial variables into single-cell simulators, enabling comparisons with spatially aware
+  simulators.

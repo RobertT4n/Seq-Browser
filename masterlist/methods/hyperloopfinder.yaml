@@ -1,0 +1,19 @@
+name: HyperloopFinder
+category: dry
+summary: Identifies statistically significant multi-way chromatin contacts by modeling polymer looping and technical biases.
+readouts:
+- 3d-genome
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae341
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Wang W
+  last_author: Gao L
+  title: Statistical modeling and significance estimation of multi-way chromatin contacts with HyperloopFinder
+links: {}
+added: '2026-11-21'
+evidence: HyperloopFinder estimates the significance of multi-way contacts while jointly modeling random polymer looping and
+  technical biases.

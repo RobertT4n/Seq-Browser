@@ -1,0 +1,21 @@
+name: dHICA
+full_name: deep histone imputation using chromatin accessibility
+category: dry
+summary: Predicts histone modification tracks from DNA sequence and chromatin accessibility using deep learning.
+readouts:
+- histone-modification
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae459
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Wen W
+  last_author: Wang Z
+  title: 'dHICA: a deep transformer-based model enables accurate histone imputation from chromatin accessibility'
+links: {}
+added: '2026-11-21'
+evidence: dHICA combines DNA sequences and chromatin accessibility data to predict multiple histone modification tracks.

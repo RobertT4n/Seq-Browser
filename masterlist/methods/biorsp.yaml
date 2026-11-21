@@ -1,0 +1,20 @@
+name: BioRSP
+full_name: Biological Radar Scanning Plots
+category: dry
+summary: Quantifies how a foreground subset is distributed across a two-dimensional data embedding.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.25.599250
+  year: 2024
+  journal: bioRxiv
+  first_author: Yao
+  last_author: J. Y
+  title: Detecting Data Embedding Spatial Patterns and Identifying Biomarkers with BioRSP
+links: {}
+added: '2026-11-21'
+evidence: BioRSP summarizes radial enrichment within angular windows and was demonstrated on a human kidney single-nucleus
+  reference.

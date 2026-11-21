@@ -1,0 +1,20 @@
+name: GRouNdGAN
+category: dry
+summary: Simulates single-cell RNA-seq data and transcription factor perturbations using a gene regulatory network-guided
+  generative model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-48516-6
+  year: 2024
+  journal: Nature Communications
+  first_author: Zinati Y
+  last_author: Emad A
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+links: {}
+added: '2026-11-21'
+evidence: GRouNdGAN uses a user-defined gene regulatory network to simulate single-cell datasets and in silico transcription
+  factor knockouts.

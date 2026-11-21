@@ -1,0 +1,21 @@
+name: bioIB
+category: dry
+summary: Information bottleneck framework that creates interpretable compressed representations of single-cell RNA-seq data
+  for a chosen biological signal.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101571
+  year: 2026
+  journal: Cell Systems
+  first_author: Dubnov S
+  last_author: Nitzan M
+  title: Identifying maximally informative signal-aware representations of single-cell data using the information bottleneck
+  preprint_doi: 10.1101/2024.05.22.595292
+links: {}
+added: '2026-11-21'
+evidence: Given labels for a signal of interest, bioIB generates weighted gene clusters that compress the data while retaining
+  signal-specific information.

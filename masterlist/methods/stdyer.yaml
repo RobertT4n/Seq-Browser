@@ -1,0 +1,20 @@
+name: stDyer
+category: dry
+summary: Deep learning framework that uses dynamic graph embeddings to cluster spatial transcriptomic units into domains.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03503-y
+  year: 2025
+  journal: Genome Biology
+  first_author: Xu K
+  last_author: Zhang L
+  title: stDyer enables spatial domain clustering with dynamic graph embedding
+  preprint_doi: 10.1101/2024.05.08.593252
+links: {}
+added: '2026-11-21'
+evidence: stDyer combines a Gaussian mixture variational autoencoder with graph attention networks to learn representations
+  and cluster spatial units.

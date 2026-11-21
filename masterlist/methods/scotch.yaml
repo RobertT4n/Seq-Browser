@@ -1,0 +1,24 @@
+name: SCOTCH
+full_name: Single-Cell Omics for Transcriptome CHaracterization
+category: dry
+summary: Pipeline reconstructs and quantifies transcript isoforms from long-read single-cell RNA sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1038/s41467-026-72665-5
+  year: 2026
+  journal: Nature Communications
+  first_author: Xu Z
+  last_author: Wang K
+  title: 'SCOTCH: isoform-level characterization of gene expression through long-read single-cell RNA sequencing'
+  preprint_doi: 10.1101/2024.04.29.590597
+links: {}
+added: '2026-11-21'
+evidence: SCOTCH supports Nanopore and PacBio data and reconstructs novel transcripts through iterative clustering.

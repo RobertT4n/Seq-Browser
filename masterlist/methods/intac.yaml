@@ -1,0 +1,30 @@
+name: IntAC
+full_name: integrase with anti-CRISPR
+category: wet
+summary: IntAC improves pooled CRISPR knockout screening by suppressing early Cas9 activity during guide expression.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- invertebrate
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-025-61692-3
+  year: 2025
+  journal: Nature Communications
+  first_author: Viswanatha R
+  last_author: Perrimon N
+  title: Higher resolution pooled genome-wide CRISPR knockout screening in Drosophila cells using integration and anti-CRISPR
+    (IntAC)
+  preprint_doi: 10.1101/2024.09.19.613976
+links: {}
+added: '2026-11-21'
+evidence: Co-transfection of an anti-CRISPR plasmid suppresses early Cas9 activity and enables a higher-precision Drosophila
+  fitness screen.

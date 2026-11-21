@@ -1,0 +1,20 @@
+name: StarTrail
+category: dry
+summary: Gradient-based method that detects spatial boundaries and genes with sharp expression changes in spatial omics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1080/01621459.2026.2654225
+  year: 2026
+  journal: Journal of the American Statistical Association
+  first_author: Chen J
+  last_author: Li D
+  title: Investigating Spatial Dynamics in Spatial Omics Data with StarTrail
+  preprint_doi: 10.1101/2024.05.08.593025
+links: {}
+added: '2026-11-21'
+evidence: StarTrail defines rapidly changing regions and detects genes with drastic expression changes at localized or disjoint
+  boundaries.

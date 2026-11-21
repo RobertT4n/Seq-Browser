@@ -1,0 +1,24 @@
+name: SAVANA
+category: dry
+summary: A long-read computational method jointly analyzes somatic structural variants, copy number aberrations, tumor purity
+  and ploidy.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.07.25.604944
+  year: 2024
+  journal: bioRxiv
+  first_author: Elrick
+  last_author: I
+  title: 'SAVANA: reliable analysis of somatic structural variants and copy number aberrations in clinical samples using long-read
+    sequencing'
+links: {}
+added: '2026-11-21'
+evidence: SAVANA analyzes somatic structural variants and copy number aberrations using long-read sequencing and exploits
+  phasing information.

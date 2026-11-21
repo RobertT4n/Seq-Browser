@@ -1,0 +1,19 @@
+name: scGAAC
+category: dry
+summary: Clusters single-cell RNA-seq data using a graph attention autoencoder to capture relationships between cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2024.06.010
+  year: 2024
+  journal: Methods
+  first_author: Zhang L
+  last_author: Zheng H
+  title: 'scGAAC: A graph attention autoencoder for clustering single-cell RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: scGAAC uses an attention-based graph convolutional autoencoder to extract representations and cluster single-cell
+  gene expression data.

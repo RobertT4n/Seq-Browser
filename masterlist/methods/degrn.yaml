@@ -1,0 +1,21 @@
+name: DEGRN
+full_name: Deep learning on Expression for Gene Regulatory Network
+category: dry
+summary: Deep learning model that predicts gene regulatory interactions from bulk and single-cell RNA-seq expression data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/plants13091276
+  year: 2024
+  journal: Plants
+  first_author: Guo C
+  last_author: Wang X
+  title: Identification of Novel Regulators of Leaf Senescence Using a Deep Learning Model
+links: {}
+added: '2026-11-21'
+evidence: DEGRN uses bulk RNA-seq and scRNA-seq expression data from Arabidopsis to infer interactions involving transcription
+  factors and other genes.

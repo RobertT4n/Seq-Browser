@@ -1,0 +1,21 @@
+name: OTVelo
+category: dry
+summary: Infers dynamic gene regulatory networks from time-stamped single-cell expression data using optimal transport estimates
+  of gene velocity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012476
+  year: 2025
+  journal: PLOS Computational Biology
+  first_author: Zhao W
+  last_author: Singh R
+  title: Optimal transport reveals dynamic gene regulatory networks via gene velocity estimation
+  preprint_doi: 10.1101/2024.09.12.612590
+links: {}
+added: '2026-11-21'
+evidence: OTVelo estimates gene velocities using optimal transport and infers regulation using time-lagged correlation and
+  Granger causality.

@@ -1,0 +1,20 @@
+name: SpaGDA
+category: dry
+summary: Transfers knowledge from reference single-cell RNA-seq data to impute spatial gene expression and identify cell types.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae576
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Shen R
+  last_author: Yuan J
+  title: Graph domain adaptation–based framework for gene expression enhancement and cell type identification in large-scale
+    spatially resolved transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: SpaGDA uses graph domain adaptation for expression imputation and cell type identification in spatial transcriptomics.

@@ -1,0 +1,21 @@
+name: Crescendo
+category: dry
+summary: Corrects spatial transcriptomics expression counts for technical variation across samples and technologies.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.03.07.583997
+  year: 2024
+  journal: bioRxiv
+  first_author: Millard
+  last_author: I
+  title: Integrating spatial transcriptomics count data with Crescendo improves visualization and detection of spatial gene
+    patterns
+links: {}
+added: '2026-11-21'
+evidence: Crescendo corrects gene expression counts for technical confounders and integrates spatial transcriptomics with
+  scRNA-seq data.

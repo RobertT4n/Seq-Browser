@@ -1,0 +1,21 @@
+name: iSORT
+category: dry
+summary: Uses transfer learning to reconstruct cellular spatial organization from single-cell RNA-seq and spatial transcriptomics
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012991
+  year: 2025
+  journal: PLOS Computational Biology
+  first_author: Tan Y
+  last_author: Shi J
+  title: Transfer learning of multicellular organization via single-cell and spatial transcriptomics
+  preprint_doi: 10.1101/2024.02.28.582493
+links: {}
+added: '2026-11-21'
+evidence: iSORT maps gene expression to spatial locations using scRNA-seq data and spatial transcriptomics reference slices.

@@ -1,0 +1,19 @@
+name: DeepDecon
+category: dry
+summary: Estimates cancer cell fractions in bulk RNA sequencing data using single-cell expression information.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2024.100969
+  year: 2024
+  journal: Patterns
+  first_author: Huang J
+  last_author: Sun F
+  title: DeepDecon accurately estimates cancer cell fractions in bulk RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: DeepDecon uses single-cell gene expression information to predict the fraction of cancer cells in bulk tissues.

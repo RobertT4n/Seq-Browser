@@ -1,0 +1,18 @@
+name: PM-profiler
+category: dry
+summary: Profiles microbial communities and assigns taxonomy to amplicon short reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/spectrum.00695-24
+  year: 2024
+  journal: Microbiology Spectrum
+  first_author: Shi H
+  last_author: Su X
+  title: 'PM-profiler: a high-resolution and fast tool for taxonomy annotation of amplicon-based microbiome'
+links: {}
+added: '2026-11-21'
+evidence: PM-profiler profiles amplicon short reads and provides species-level taxonomic annotation.

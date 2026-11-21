@@ -1,0 +1,29 @@
+name: HiDEF-seq
+full_name: Hairpin Duplex Enhanced Fidelity sequencing
+category: wet
+summary: Single-molecule long-read sequencing detects DNA mismatches and cytosine deamination on individual strands.
+readouts:
+- dna-damage
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41586-024-07532-8
+  year: 2024
+  journal: Nature
+  first_author: Liu MH
+  last_author: Evrony GD
+  title: DNA mismatch and damage patterns revealed by single-molecule sequencing
+links: {}
+added: '2026-11-21'
+evidence: HiDEF-seq achieves single-molecule fidelity for base substitutions in either or both DNA strands and detects cytosine
+  deamination.

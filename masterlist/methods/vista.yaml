@@ -1,0 +1,23 @@
+name: VISTA
+category: dry
+summary: Predicts unobserved gene expression in subcellular spatial transcriptomics by jointly modeling spatial and single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s42003-025-09479-6
+  year: 2026
+  journal: Communications Biology
+  first_author: Liu T
+  last_author: Zhao H
+  title: VISTA uncovers missing gene expression and spatial-induced information for spatial transcriptomic data analysis
+  preprint_doi: 10.1101/2024.08.26.609718
+links: {}
+added: '2026-11-21'
+evidence: VISTA jointly models scRNA-seq and subcellular spatial transcriptomics data to impute unobserved genes with uncertainty
+  quantification.

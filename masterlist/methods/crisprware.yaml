@@ -1,0 +1,19 @@
+name: CRISPRware
+category: dry
+summary: Designs context-specific guide RNA libraries using sequencing data and accounting for genetic variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-025-11775-8
+  year: 2025
+  journal: BMC Genomics
+  first_author: Malekos E
+  last_author: Carpenter S
+  title: 'CRISPRware: a software package for contextual gRNA library design'
+  preprint_doi: 10.1101/2024.06.18.599405
+links: {}
+added: '2026-11-21'
+evidence: CRISPRware uses sequencing data and genetic variation to design context-specific and allele-specific guides.

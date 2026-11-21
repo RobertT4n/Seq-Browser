@@ -1,0 +1,24 @@
+name: scSGS
+category: dry
+summary: An adapter-barcoding and demultiplexing approach processes nanopore direct RNA signals and enables barcode-specific
+  adaptive sampling.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s42003-025-07530-0
+  year: 2025
+  journal: Communications Biology
+  first_author: Gupta S
+  last_author: Cai JJ
+  title: Gene function revealed at the moment of stochastic gene silencing
+  preprint_doi: 10.1101/2024.07.16.603770
+links: {}
+added: '2026-11-21'
+evidence: WarpDemuX processes raw nanopore signals for demultiplexing and enables real-time enrichment through barcode-specific
+  adaptive sampling.

@@ -1,0 +1,19 @@
+name: scShiba
+category: dry
+summary: Analyzes alternative RNA splicing at the cluster level using pseudobulk single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf098
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Kubota N
+  last_author: Zheng S
+  title: 'Shiba: a versatile computational method for systematic identification of differential RNA splicing across platforms'
+  preprint_doi: 10.1101/2024.05.30.596331
+links: {}
+added: '2026-11-21'
+evidence: scShiba applies Shiba's pseudobulk approach to analyze splicing at the single-cell cluster level.

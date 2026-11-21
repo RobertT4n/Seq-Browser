@@ -1,0 +1,20 @@
+name: OVAAnno
+category: dry
+summary: Open-set domain adaptation method that annotates known cell types and detects unknown types in single-cell chromatin
+  accessibility data.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae370
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Lin Y
+  last_author: Dai Z
+  title: Detecting novel cell type in single-cell chromatin accessibility data via open-set domain adaptation
+links: {}
+added: '2026-11-21'
+evidence: OVAAnno detects known and unknown cell types in scATAC-seq data and also performs well on scRNA-seq data.

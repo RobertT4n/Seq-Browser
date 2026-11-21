@@ -1,0 +1,25 @@
+name: TECSAS
+full_name: Transformer of Epigenetics to Chromatin Structural AnnotationS
+category: dry
+summary: A transformer predicts chromatin subcompartments and associations with nuclear bodies from epigenomic and RNA-seq
+  data.
+readouts:
+- histone-modification
+- protein-dna-binding
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1012326
+  year: 2025
+  journal: PLOS Computational Biology
+  first_author: Dodero-Rojas E
+  last_author: Onuchic JN
+  title: 'Epigenetics is all you need: A transformer to decode chromatin structural compartments from the epigenome'
+  preprint_doi: 10.1101/2024.07.17.603864
+links: {}
+added: '2026-11-21'
+evidence: TECSAS uses histone modification, transcription factor binding and RNA-seq data to predict chromatin subcompartment
+  annotations.

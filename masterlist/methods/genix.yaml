@@ -1,0 +1,20 @@
+name: GENIX
+full_name: gene expression network importance examination
+category: dry
+summary: Compares single-cell gene association networks to identify signature genes associated with interventions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100794
+  year: 2024
+  journal: Cell Reports Methods
+  first_author: Nouri N
+  last_author: Savova V
+  title: GENIX enables comparative network analysis of single-cell RNA sequencing to reveal signatures of therapeutic interventions
+links: {}
+added: '2026-11-21'
+evidence: GENIX constructs gene association networks and compares their topology to identify signature genes missed by classical
+  differential expression analysis.

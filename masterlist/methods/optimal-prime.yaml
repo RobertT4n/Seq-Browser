@@ -1,0 +1,19 @@
+name: Optimal Prime
+category: dry
+summary: Uses machine learning to design primers for targeted detection of alternative splicing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkae1260
+  year: 2024
+  journal: Nucleic Acids Research
+  first_author: Yang K
+  last_author: Choi PS
+  title: Machine learning-optimized targeted detection of alternative splicing
+  preprint_doi: 10.1101/2024.09.20.614162
+links: {}
+added: '2026-11-21'
+evidence: Optimal Prime was trained on the performance of thousands of primer sequences to design primers for LSV-seq.

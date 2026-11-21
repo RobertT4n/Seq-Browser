@@ -1,0 +1,22 @@
+name: ALBIS
+full_name: A muLti-resolution Biological In-silico Simulator for spatial transcriptomics
+category: dry
+summary: Simulator that generates spatial transcriptomics data at multiple resolutions from an in silico three-dimensional
+  tissue.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.06.757026
+  year: 2026
+  journal: bioRxiv
+  first_author: Matthias
+  last_author: S. C
+  title: 'ALBIS: simulation of multi-resolution and multi-dimensional spatial transcriptomics data'
+links: {}
+added: '2026-11-21'
+evidence: ALBIS defines spatially structured cell populations and initializes individual mRNA molecules in three-dimensional
+  space.

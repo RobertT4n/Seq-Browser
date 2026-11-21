@@ -1,0 +1,23 @@
+name: ANASFV
+full_name: analysis of an ASFV
+category: dry
+summary: Provides a workflow for African swine fever virus genome assembly, polishing, and quality assessment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1099/mgen.0.001455
+  year: 2025
+  journal: Microbial Genomics
+  first_author: Li K
+  last_author: Li R
+  title: 'ANASFV: a workflow for African swine fever virus whole-genome analysis'
+  preprint_doi: 10.1101/2024.07.08.602471
+links: {}
+added: '2026-11-21'
+evidence: ANASFV includes reference-aided polishing of nanopore errors and a genome quality assessment system.

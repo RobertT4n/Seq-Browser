@@ -1,0 +1,19 @@
+name: VelvetSDE
+category: dry
+summary: Uses neural stochastic differential equations to simulate distributions of single-cell developmental trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2024.04.004
+  year: 2024
+  journal: Cell Systems
+  first_author: Maizels RJ
+  last_author: Briscoe J
+  title: Reconstructing developmental trajectories using latent dynamical systems and time-resolved transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: VelvetSDE simulates trajectory distributions that capture decision boundaries between alternative fates and fate-specific
+  gene expression.

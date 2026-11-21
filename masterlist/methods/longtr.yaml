@@ -1,0 +1,22 @@
+name: LongTR
+category: dry
+summary: Tool for genotyping tandem repeats from high-fidelity long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1186/s13059-024-03319-2
+  year: 2024
+  journal: Genome Biology
+  first_author: Ziaei Jam H
+  last_author: Gymrek M
+  title: 'LongTR: genome-wide profiling of genetic variation at tandem repeats from long reads'
+links: {}
+added: '2026-11-21'
+evidence: LongTR genotypes tandem repeats from high-fidelity long reads from PacBio and Oxford Nanopore Technologies.

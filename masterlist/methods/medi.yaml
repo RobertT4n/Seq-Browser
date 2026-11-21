@@ -1,0 +1,21 @@
+name: MEDI
+full_name: Metagenomic Estimation of Dietary Intake
+category: dry
+summary: Estimates dietary and nutrient intake from food-derived DNA in stool metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42255-025-01220-1
+  year: 2025
+  journal: Nature Metabolism
+  first_author: Diener C
+  last_author: Gibbons SM
+  title: Metagenomic estimation of dietary intake from human stool
+  preprint_doi: 10.1101/2024.02.02.578701
+links: {}
+added: '2026-11-21'
+evidence: MEDI quantifies dietary intake using food-derived DNA in stool metagenomes and converts organism abundances into
+  a nutrient representation.

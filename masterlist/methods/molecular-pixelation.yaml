@@ -1,0 +1,25 @@
+name: Molecular Pixelation
+category: wet
+summary: Molecular Pixelation reconstructs the spatial arrangement of cell-surface proteins in individual cells from DNA sequencing.
+readouts:
+- protein
+resolution:
+- single-cell
+- subcellular
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41592-024-02268-9
+  year: 2024
+  journal: Nature Methods
+  first_author: Karlsson F
+  last_author: Fredriksson S
+  title: 'Molecular pixelation: spatial proteomics of single cells by sequencing'
+links: {}
+added: '2026-11-21'
+evidence: Antibody-oligonucleotide conjugates and sequence-unique DNA pixels are used to reconstruct spatial networks for
+  76 proteins per cell.

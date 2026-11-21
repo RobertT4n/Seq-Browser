@@ -1,0 +1,19 @@
+name: DeepGSEA
+category: dry
+summary: Explainable neural network approach for identifying enriched gene sets in single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae434
+  year: 2024
+  journal: Bioinformatics
+  first_author: Xiong G
+  last_author: Zhang A
+  title: 'DeepGSEA: explainable deep gene set enrichment analysis for single-cell transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: DeepGSEA uses interpretable prototype-based neural networks and gene-set significance tests to identify enriched
+  sets.

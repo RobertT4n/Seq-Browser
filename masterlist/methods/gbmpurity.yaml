@@ -1,0 +1,19 @@
+name: GBMPurity
+category: dry
+summary: Estimates the purity of IDH-wildtype primary glioblastoma from bulk RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/neuonc/noaf026
+  year: 2025
+  journal: Neuro-Oncology
+  first_author: Thomas MPH
+  last_author: Stead LF
+  title: 'GBMPurity: A machine learning tool for estimating glioblastoma tumor purity from bulk RNA-sequencing data'
+  preprint_doi: 10.1101/2024.07.11.602650
+links: {}
+added: '2026-11-21'
+evidence: GBMPurity is a deep learning model trained on simulated pseudobulk tumours to estimate glioblastoma purity.

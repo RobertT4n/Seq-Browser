@@ -1,0 +1,21 @@
+name: CLERA
+category: dry
+summary: Learns low-dimensional representations and sparse dynamical models to identify gene programs and regulatory interactions
+  from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaf048
+  year: 2025
+  journal: NAR Genomics and Bioinformatics
+  first_author: Sadria M
+  last_author: Swaroop V
+  title: Discovering governing equations of biological systems through representation learning and sparse model discovery
+  preprint_doi: 10.1101/2024.09.19.613953
+links: {}
+added: '2026-11-21'
+evidence: CLERA combines a supervised autoencoder with sparse nonlinear dynamics to reconstruct gene expression dynamics and
+  generate interaction networks.

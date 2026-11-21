@@ -1,0 +1,20 @@
+name: TissuePlot
+category: dry
+summary: Visualizes molecular, cellular, and tissue-level spatial data using transparent hexagonal tessellation.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.14.607906
+  year: 2024
+  journal: bioRxiv
+  first_author: Khawatmi
+  last_author: H
+  title: 'TissuePlot: A Multi-Scale Interactive Visualization Tool for Spatial Data'
+links: {}
+added: '2026-11-21'
+evidence: TissuePlot uses transparent hexagonal tessellation to display cell composition or gene-level data without obscuring
+  the underlying cell image.

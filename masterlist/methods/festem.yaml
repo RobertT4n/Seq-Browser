@@ -1,0 +1,18 @@
+name: Festem
+category: dry
+summary: Statistical method that directly selects cell-type marker genes for downstream single-cell clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100810
+  year: 2024
+  journal: Cell Reports Methods
+  first_author: Chen Z
+  last_author: Xi R
+  title: Directly selecting cell-type marker genes for single-cell clustering analyses
+links: {}
+added: '2026-11-21'
+evidence: Festem selects marker genes with heterogeneous distributions across cells that are informative for clustering.

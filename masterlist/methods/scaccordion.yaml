@@ -1,0 +1,21 @@
+name: scACCorDiON
+full_name: single-cell Analysis of Cell-Cell Communication in Disease clusters using Optimal transport in Directed Networks
+category: dry
+summary: Clusters patient-specific cell-cell communication graphs using optimal transport distances.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf288
+  year: 2025
+  journal: Bioinformatics
+  first_author: Nagai JS
+  last_author: Costa IG
+  title: 'scACCorDiON: a clustering approach for explainable patient level cell–cell communication graph analysis'
+  preprint_doi: 10.1101/2024.08.07.606989
+links: {}
+added: '2026-11-21'
+evidence: The method uses optimal transport and a k-barycenter algorithm to cluster directed weighted cell-cell communication
+  graphs from scRNA-seq cohorts.

@@ -1,0 +1,21 @@
+name: PreTSA
+category: dry
+summary: Efficiently models temporal and spatial gene expression patterns in large single-cell and spatial transcriptomics
+  datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-03994-3
+  year: 2026
+  journal: Genome Biology
+  first_author: Zhuang H
+  last_author: Ji Z
+  title: 'PreTSA: computationally efficient modeling of temporal and spatial gene expression patterns'
+  preprint_doi: 10.1101/2024.03.20.585926
+links: {}
+added: '2026-11-21'
+evidence: PreTSA models temporal and spatial expression patterns in datasets comprising millions of cells.

@@ -1,0 +1,23 @@
+name: GeneSurfer
+category: dry
+summary: Provides an interactive interface for exploring and annotating localized gene co-expression in three-dimensional
+  spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2025.112713
+  year: 2025
+  journal: iScience
+  first_author: Li C
+  last_author: Lelieveldt B
+  title: GeneSurfer enables transcriptome-wide exploration and annotation of gene co-expression modules in 3D spatial transcriptomics
+    data
+  preprint_doi: 10.1101/2024.07.05.602230
+links: {}
+added: '2026-11-21'
+evidence: GeneSurfer clusters genes by spatial local co-expression and renders their average expression across slices in three
+  dimensions.

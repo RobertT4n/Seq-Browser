@@ -1,0 +1,21 @@
+name: SCOTE
+full_name: Spatial COvariance TEnsors
+category: dry
+summary: Quantifies spatial relationships between molecular features across length scales and spatial omics platforms.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.09.757915
+  year: 2026
+  journal: bioRxiv
+  first_author: Ilin
+  last_author: S. W
+  title: Scale-resolved correlation functions unify spatial omics across platforms and resolutions
+links: {}
+added: '2026-11-21'
+evidence: SCOTE computes spatial relationships for feature pairs across length scales using molecule coordinates or binned
+  counts.

@@ -1,0 +1,19 @@
+name: InfoHiC
+category: dry
+summary: Predicts cancer genome folding from whole-genome sequencing and structural variant contig assemblies.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s44320-024-00065-2
+  year: 2024
+  journal: Molecular Systems Biology
+  first_author: Lee Y
+  last_author: Lee H
+  title: Prediction of the 3D cancer genome from whole-genome sequencing using InfoHiC
+links: {}
+added: '2026-11-21'
+evidence: InfoHiC predicts the 3D cancer genome directly from whole-genome sequencing using structural variant contigs.

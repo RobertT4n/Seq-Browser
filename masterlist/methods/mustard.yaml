@@ -1,0 +1,20 @@
+name: MUSTARD
+category: dry
+summary: Uses trajectory-guided dimensionality reduction to reveal gene expression variation across cells and samples.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag192
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhuang H
+  last_author: Shi P
+  title: Trajectory-guided dimensionality reduction for multi-sample single-cell RNA-seq data reveals biologically relevant
+    sample-level heterogeneity
+  preprint_doi: 10.1101/2024.09.14.613024
+links: {}
+added: '2026-11-21'
+evidence: MUSTARD decomposes multi-sample single-cell RNA-seq data to reveal variation along trajectories and across samples.

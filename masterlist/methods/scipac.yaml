@@ -1,0 +1,18 @@
+name: SCIPAC
+category: dry
+summary: Quantifies associations between individual cells in single-cell data and a phenotype, with a p-value for each association.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03263-1
+  year: 2024
+  journal: Genome Biology
+  first_author: Gan D
+  last_author: Li J
+  title: 'SCIPAC: quantitative estimation of cell-phenotype associations'
+links: {}
+added: '2026-11-21'
+evidence: SCIPAC estimates the association between each cell and a phenotype and provides a p-value.

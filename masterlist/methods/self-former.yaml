@@ -1,0 +1,20 @@
+name: SELF-Former
+category: dry
+summary: Reconstructs spatial origins of single-cell RNA-seq profiles using gene representations and spatial correlation constraints.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae523
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Chen T
+  last_author: Wong HS
+  title: 'SELF-Former: multi-scale gene filtration transformer for single-cell spatial reconstruction'
+links: {}
+added: '2026-11-21'
+evidence: SELF-Former uses multi-scale gene representations, spatial correlation constraints, and gene filtration for spatial
+  reconstruction.

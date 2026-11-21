@@ -1,0 +1,27 @@
+name: Context-Seq
+category: wet
+summary: Context-Seq uses CRISPR-Cas9 targeted long-read sequencing to examine antibiotic resistance genes and their genomic
+  context.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.09.12.612745
+  year: 2024
+  journal: bioRxiv
+  first_author: Fuhrmeister
+  last_author: A. J
+  title: 'Context-Seq: CRISPR-Cas9 Targeted Nanopore Sequencing for Transmission Dynamics of Antimicrobial Resistance'
+links: {}
+added: '2026-11-21'
+evidence: Context-Seq targets antibiotic resistance genes and their genomic context with long reads to investigate resistance
+  elements shared between animals and humans.

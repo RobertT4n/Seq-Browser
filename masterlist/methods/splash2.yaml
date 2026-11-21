@@ -1,0 +1,20 @@
+name: SPLASH2
+category: dry
+summary: Detects regulated sequence variation from raw sequencing reads using scalable k-mer counting.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-024-02381-2
+  year: 2024
+  journal: Nature Biotechnology
+  first_author: Kokot M
+  last_author: Deorowicz S
+  title: Scalable and unsupervised discovery from raw sequencing reads using SPLASH2
+links: {}
+added: '2026-11-21'
+evidence: SPLASH2 detects regulated sequence variation and was demonstrated on single-cell and bulk RNA-seq data, including
+  alternative splicing and circular RNA.

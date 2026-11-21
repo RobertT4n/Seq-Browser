@@ -1,0 +1,19 @@
+name: GuaCAMOLE
+category: dry
+summary: Corrects GC-dependent bias in metagenomic sequencing to estimate microbial species abundances.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-65530-4
+  year: 2025
+  journal: Nature Communications
+  first_author: Holcik L
+  last_author: Pflug FG
+  title: Genomic GC bias correction improves species abundance estimation from metagenomic data
+  preprint_doi: 10.1101/2024.09.20.614100
+links: {}
+added: '2026-11-21'
+evidence: GuaCAMOLE estimates sequencing efficiency across GC contents within a sample and outputs corrected species abundances.

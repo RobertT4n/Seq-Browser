@@ -1,0 +1,20 @@
+name: SeqLengthPlot
+category: dry
+summary: Profiles sequence lengths in nucleotide and protein FASTA files, producing statistics, filtered sequences, and plots.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.07.597948
+  year: 2024
+  journal: bioRxiv
+  first_author: Dominguez-Perez
+  last_author: M. V
+  title: 'SeqLengthPlot: An easy-to-use Python-based Tool for Visualizing and Retrieving Sequence Lengths from fasta files
+    with a Tunable Splitting Point'
+links: {}
+added: '2026-11-21'
+evidence: SeqLengthPlot summarizes and filters nucleotide and protein FASTA sequences by a user-defined length and generates
+  plots.

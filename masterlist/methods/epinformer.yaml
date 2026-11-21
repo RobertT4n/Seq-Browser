@@ -1,0 +1,22 @@
+name: EPInformer
+category: dry
+summary: Deep learning framework that predicts gene expression using promoter and enhancer sequences, epigenomic signals,
+  and chromatin contacts.
+readouts:
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.01.606099
+  year: 2024
+  journal: bioRxiv
+  first_author: Lin
+  last_author: L
+  title: 'EPInformer: A Scalable Deep Learning Framework for Gene Expression Prediction by Integrating Promoter-enhancer Sequences
+    with Multimodal Epigenomic Data'
+links: {}
+added: '2026-11-21'
+evidence: EPInformer integrates promoter-enhancer interactions, sequences, epigenomic signals, and chromatin contacts to predict
+  gene expression.

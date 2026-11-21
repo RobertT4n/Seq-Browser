@@ -1,0 +1,25 @@
+name: SOSTAR
+full_name: iSofOrmS annoTAtoR
+category: dry
+summary: Assembles, quantifies and annotates isoforms from targeted long-read RNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1186/s12864-024-10741-0
+  year: 2024
+  journal: BMC Genomics
+  first_author: Aucouturier C
+  last_author: Leman R
+  title: Fine mapping of RNA isoform diversity using an innovative targeted long-read RNA sequencing protocol with novel dedicated
+    bioinformatics pipeline
+links: {}
+added: '2026-11-21'
+evidence: SOSTAR is a pipeline for assembling, quantifying and annotating isoforms from long-read sequencing of a captured
+  gene panel.

@@ -1,0 +1,22 @@
+name: MPAQT
+full_name: Multi-Platform Aggregation and Quantification of Transcripts
+category: dry
+summary: Probabilistic framework that quantifies transcript isoforms from short reads alone or jointly with long reads.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2024.07.11.603067
+  year: 2024
+  journal: bioRxiv
+  first_author: Apostolides
+  last_author: H. S
+  title: Accurate isoform quantification by joint short- and long-read RNA-sequencing
+links: {}
+added: '2026-11-21'
+evidence: MPAQT models platform-specific data generation and biases to quantify transcripts in bulk and single-cell data.

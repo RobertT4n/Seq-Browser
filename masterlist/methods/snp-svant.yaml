@@ -1,0 +1,20 @@
+name: SNP-SVant
+category: dry
+summary: Computational workflow that predicts and annotates SNPs and structural variants in organisms without benchmarked
+  variant sets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/cpz1.1046
+  year: 2024
+  journal: Current Protocols
+  first_author: Gunasekaran D
+  last_author: Nobile CJ
+  title: 'SNP‐SVant: A Computational Workflow to Predict and Annotate Genomic Variants in Organisms Lacking Benchmarked Variants'
+links: {}
+added: '2026-11-21'
+evidence: SNP-SVant uses multiple rounds of statistical recalibration to improve variant prediction when benchmarked variants
+  are unavailable.

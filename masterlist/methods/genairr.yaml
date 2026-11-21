@@ -1,0 +1,20 @@
+name: GenAIRR
+category: dry
+summary: Simulates immunoglobulin sequences and their ground truths for benchmarking immune-receptor sequence analysis.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbae556
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Konstantinovsky T
+  last_author: Yaari G
+  title: An unbiased comparison of immunoglobulin sequence aligners
+  preprint_doi: 10.1101/2024.06.12.598680
+links: {}
+added: '2026-11-21'
+evidence: GenAIRR generates immunoglobulin sequences with ground truths that capture V(D)J recombination, somatic hypermutation
+  and sequence corruptions.

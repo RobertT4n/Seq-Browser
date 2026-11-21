@@ -1,0 +1,22 @@
+name: DRAM
+full_name: deaminase and reader protein assisted RNA methylation analysis
+category: wet
+summary: DRAM maps RNA 5-methylcytosine using reader proteins fused to deaminases that edit neighboring bases.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.7554/elife.98166.5
+  year: 2025
+  journal: eLife
+  first_author: Zhou J
+  last_author: Li Z
+  title: Transcriptome-wide identification of 5-methylcytosine by deaminase and reader protein-assisted sequencing
+  preprint_doi: 10.1101/2024.04.17.589933
+links: {}
+added: '2026-11-21'
+evidence: DRAM fuses deaminases to m5C reader proteins to identify methylation sites through neighboring deamination events.

@@ -1,0 +1,26 @@
+name: InducTn-seq
+category: wet
+summary: InducTn-seq uses inducible transposon mutagenesis for genome-scale quantitative bacterial fitness screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1038/s41564-025-01975-z
+  year: 2025
+  journal: Nature Microbiology
+  first_author: Basta DW
+  last_author: Waldor MK
+  title: Inducible transposon mutagenesis identifies bacterial fitness determinants during infection in mice
+  preprint_doi: 10.1101/2024.05.21.595064
+links: {}
+added: '2026-11-21'
+evidence: Inducible mutagenesis generates diverse transposon mutants and enables quantitative fitness measurements across
+  bacterial genes.

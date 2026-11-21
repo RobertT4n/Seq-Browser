@@ -1,0 +1,19 @@
+name: KMAP
+full_name: Kmer Manifold Approximation and Projection
+category: dry
+summary: Detects k-mer patterns in DNA sequences and projects them into two dimensions for visualization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.12.589197
+  year: 2024
+  journal: bioRxiv
+  first_author: Fu
+  last_author: L
+  title: 'KMAP: Kmer Manifold Approximation and Projection for visualizing DNA sequences'
+links: {}
+added: '2026-11-21'
+evidence: KMAP detects k-mer patterns and visualizes them in two dimensions, including motifs in HT-SELEX and ChIP-seq datasets.

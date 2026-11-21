@@ -1,0 +1,25 @@
+name: NEMO
+full_name: NEural network for mapping MOdifications in nanopore long-reads
+category: dry
+summary: Identifies angelicin modifications in nanopore reads to analyze chromatin accessibility and nucleosome occupancy.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaf671
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Bai G
+  last_author: Brooks AN
+  title: 'SMAdd-seq: probing chromatin accessibility with small molecule DNA intercalation and nanopore sequencing'
+  preprint_doi: 10.1101/2024.03.20.585815
+links: {}
+added: '2026-11-21'
+evidence: NEMO identified angelicin modifications and called expected nucleosome occupancy patterns at bulk and single-molecule
+  levels.

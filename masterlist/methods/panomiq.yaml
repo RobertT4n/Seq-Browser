@@ -1,0 +1,19 @@
+name: PANOMIQ
+category: dry
+summary: Integrates whole-genome, whole-exome, and microbiome sequencing analyses in a modular pipeline.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.17.613203
+  year: 2024
+  journal: bioRxiv
+  first_author: Srivastava
+  last_author: D
+  title: 'PANOMIQ: A Unified Approach to Whole-Genome, Exome, and Microbiome Data Analysis'
+links: {}
+added: '2026-11-21'
+evidence: PANOMIQ combines variant calling for WGS and WES with tools for characterizing microbial communities.

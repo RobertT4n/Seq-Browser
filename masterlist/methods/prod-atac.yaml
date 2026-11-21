@@ -1,0 +1,24 @@
+name: PROD-ATAC
+category: wet
+summary: A pooled protein-coding variant library and single-cell ATAC assay reveal variant effects on chromatin accessibility.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41587-024-02347-4
+  year: 2024
+  journal: Nature Biotechnology
+  first_author: Frenkel M
+  last_author: Raman S
+  title: Large-scale discovery of chromatin dysregulation induced by oncofusions and other protein-coding variants
+links: {}
+added: '2026-11-21'
+evidence: A pooled variant library is expressed in a cell line, and single-cell ATAC resolves each variant's effect on the
+  chromatin landscape.

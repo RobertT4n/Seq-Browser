@@ -1,0 +1,22 @@
+name: IGNITE
+full_name: Inference of Gene Networks using Inverse kinetic Theory and Experiments
+category: dry
+summary: Framework that infers directed, weighted gene regulatory networks from unperturbed single-cell RNA sequencing and
+  predicts expression after genetic perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014067
+  year: 2026
+  journal: PLOS Computational Biology
+  first_author: Corridori C
+  last_author: Martello G
+  title: Unveiling gene perturbation effects through gene regulatory networks inference from single-cell transcriptomic data
+  preprint_doi: 10.1101/2024.05.10.593314
+links: {}
+added: '2026-11-21'
+evidence: IGNITE infers directed, weighted, signed networks from unperturbed scRNA-seq data and uses them to generate expression
+  data for genetic perturbations.

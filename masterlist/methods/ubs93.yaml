@@ -1,0 +1,21 @@
+name: UBS93
+full_name: Universal Breast cancer Subtyping 93
+category: dry
+summary: Assigns molecular breast cancer subtypes to bulk tumor samples and individual cells.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.02.597060
+  year: 2024
+  journal: bioRxiv
+  first_author: Li
+  last_author: J
+  title: The Universal Breast cancer Subtyping 93 finds that claudin-low breast cancer may originate from basal breast cancer
+links: {}
+added: '2026-11-21'
+evidence: UBS93 enables molecular subtyping of bulk tumor samples and individual breast cancer cells and was applied to single-cell
+  RNA-seq data.

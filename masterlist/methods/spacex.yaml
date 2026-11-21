@@ -1,0 +1,18 @@
+name: SpaCEX
+category: dry
+summary: Learns context-aware gene embeddings from spatial transcriptomics data using spatially co-expressed gene groups.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.07.598026
+  year: 2024
+  journal: bioRxiv
+  first_author: Sun
+  last_author: H
+  title: Learning context-aware, distributed gene representations in spatial transcriptomics with SpaCEX
+links: {}
+added: '2026-11-21'
+evidence: SpaCEX generates gene embeddings from spatial transcriptomics data by exploiting spatially co-expressed gene groups.

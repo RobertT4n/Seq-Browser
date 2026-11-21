@@ -1,0 +1,20 @@
+name: CosGeneGate
+category: dry
+summary: Model that selects nonredundant marker genes using cell-type classification accuracy and cell-type-specific expression
+  patterns.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae626
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Liu T
+  last_author: Zhao H
+  title: CosGeneGate selects multi-functional and credible biomarkers for single-cell analysis
+  preprint_doi: 10.1101/2024.05.22.595428
+links: {}
+added: '2026-11-21'
+evidence: CosGeneGate combines marker selection based on cell-type classification accuracy and marker gene expression specificity.

@@ -1,0 +1,22 @@
+name: NiCo
+category: dry
+summary: Integrates spatial transcriptomics with matched single-cell RNA-seq data to infer how spatial niches influence cell
+  states.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-54973-w
+  year: 2024
+  journal: Nature Communications
+  first_author: Agrawal A
+  last_author: Grün D
+  title: NiCo identifies extrinsic drivers of cell state modulation by niche covariation analysis
+  preprint_doi: 10.1101/2024.09.08.611848
+links: {}
+added: '2026-11-21'
+evidence: NiCo integrates single-cell resolution spatial transcriptomics with matched single-cell RNA-seq reference data to
+  infer niche influence on cell state.

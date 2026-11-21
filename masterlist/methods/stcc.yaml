@@ -1,0 +1,18 @@
+name: STCC
+category: dry
+summary: Aggregates clustering results from multiple tools to detect spatial transcriptomics domains.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.02.25.581996
+  year: 2024
+  journal: bioRxiv
+  first_author: Hu
+  last_author: X
+  title: 'STCC: consensus clustering enhances spatial domain detection for spatial transcriptomics data'
+links: {}
+added: '2026-11-21'
+evidence: STCC is a consensus clustering framework that combines spatial domain detection results from existing tools.

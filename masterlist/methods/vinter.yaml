@@ -1,0 +1,19 @@
+name: VINTER
+category: dry
+summary: Generative vision-language model that combines histology, gene expression, and spatial neighborhoods to annotate
+  tissue.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.01.752251
+  year: 2026
+  journal: bioRxiv
+  first_author: Wu
+  last_author: K
+  title: 'VINTER: a generative vision-language model for annotating and interrogating spatial tissues'
+links: {}
+added: '2026-11-21'
+evidence: VINTER reads histology, measured gene expression, and spatial neighborhood together to assign tissue class probabilities.

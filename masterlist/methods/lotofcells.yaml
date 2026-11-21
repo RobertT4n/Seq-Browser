@@ -1,0 +1,19 @@
+name: LotOfCells
+category: dry
+summary: R package that visualizes and tests differences in cell proportions across conditions and other single-cell metadata.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.05.23.595582
+  year: 2024
+  journal: bioRxiv
+  first_author: Gonzalez-Velasco
+  last_author: O
+  title: 'LotOfCells: data visualization and statistics of single cell metadata'
+links: {}
+added: '2026-11-21'
+evidence: LotOfCells tests proportion changes across ordered stages and computes a divergence score for global changes in
+  cell proportions.

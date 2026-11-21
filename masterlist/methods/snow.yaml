@@ -1,0 +1,19 @@
+name: SNOW
+full_name: SiNgle cell flOW map
+category: dry
+summary: Decomposes single-cell RNA-seq time series into time-dependent and time-independent components.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.08.29.610389
+  year: 2024
+  journal: bioRxiv
+  first_author: Xu
+  last_author: R
+  title: Variational inference of single cell time series
+links: {}
+added: '2026-11-21'
+evidence: SNOW constructs latent spaces, removes batch effects, and generates single-cell time series.

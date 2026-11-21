@@ -1,0 +1,25 @@
+name: DiDS selection
+category: wet
+summary: DiDS selection uses digitally identified DNA templates to select cell-surface protein-binding aptamers from individual
+  cells.
+readouts:
+- receptor-ligand
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1021/jacs.4c03129
+  year: 2024
+  journal: Journal of the American Chemical Society
+  first_author: Wu X
+  last_author: Tan W
+  title: Efficient Strategy to Discover DNA Aptamers Against Low Abundance Cell Surface Proteins in Scarce Samples
+links: {}
+added: '2026-11-21'
+evidence: The single-round, single-cell selection method uses a molecular identification card for each DNA template to identify
+  aptamer candidates.

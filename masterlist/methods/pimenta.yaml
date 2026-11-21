@@ -1,0 +1,22 @@
+name: PIMENTA
+full_name: PIpeline for MEtabarcoding through Nanopore Technology used for Authentication
+category: dry
+summary: Processes nanopore DNA metabarcoding data to identify taxa in mixed samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.02.14.580249
+  year: 2024
+  journal: bioRxiv
+  first_author: van der Vorst
+  last_author: R
+  title: 'PIMENTA: PIpeline for MEtabarcoding through Nanopore Technology used for Authentication'
+links: {}
+added: '2026-11-21'
+evidence: PIMENTA processes nanopore metabarcoding data through preprocessing, clustering, reclustering and taxonomic identification.

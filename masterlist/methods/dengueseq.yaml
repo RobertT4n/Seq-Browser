@@ -1,0 +1,22 @@
+name: DengueSeq
+category: wet
+summary: DengueSeq uses serotype-specific or combined amplicon schemes to sequence whole dengue virus genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1186/s12864-024-10350-x
+  year: 2024
+  journal: BMC Genomics
+  first_author: Vogels CBF
+  last_author: Grubaugh ND
+  title: 'DengueSeq: a pan-serotype whole genome amplicon sequencing protocol for dengue virus'
+links: {}
+added: '2026-11-21'
+evidence: The protocol enables whole-genome sequencing of all four dengue virus serotypes using primer schemes validated on
+  virus stocks and clinical specimens.

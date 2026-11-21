@@ -1,0 +1,21 @@
+name: PAGER-scFGA
+full_name: Pathways, Annotated Gene Lists, and Gene Signatures Electronic Repository for Single-Cell Functional Genomics Analysis
+category: dry
+summary: Tool integrates gene-set enrichment and functional annotation into single-cell analysis pipelines to characterize
+  cell groups and trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2024.1336135
+  year: 2024
+  journal: Frontiers in Bioinformatics
+  first_author: Huang F
+  last_author: Yue Z
+  title: 'PAGER-scFGA: unveiling cell functions and molecular mechanisms in cell trajectories through single-cell functional
+    genomics analysis'
+links: {}
+added: '2026-11-21'
+evidence: PAGER-scFGA uses differentially expressed genes from cell clusters to infer functions through enriched gene sets.

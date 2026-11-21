@@ -1,0 +1,22 @@
+name: SLAFIT
+category: dry
+summary: Reconstructs haplotypes to infer linkage and fitness while incorporating structural variant detection from third-generation
+  sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.10.11.758307
+  year: 2026
+  journal: bioRxiv
+  first_author: Abdullah
+  last_author: Y
+  title: 'SLAFIT: Viral fitness inference and structural variant detection from TGS data'
+links: {}
+added: '2026-11-21'
+evidence: SLAFIT reconstructs genome-wide haplotypes and frequencies to infer SNVs and linkage disequilibrium, and estimates
+  fitness from time-series data.

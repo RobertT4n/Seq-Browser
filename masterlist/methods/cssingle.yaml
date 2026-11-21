@@ -1,0 +1,24 @@
+name: CSsingle
+category: dry
+summary: Method integrates single-cell RNA sequencing with bulk or spatial transcriptomics to deconvolve cell composition
+  using cell size correction.
+readouts:
+- rna
+resolution:
+- bulk
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag410
+  year: 2026
+  journal: Nucleic Acids Research
+  first_author: Shen W
+  last_author: Zhou XM
+  title: 'CSsingle: a unified tool for robust decomposition of bulk and spatial transcriptomic data across diverse single-cell
+    references'
+  preprint_doi: 10.1101/2024.04.07.588458
+links: {}
+added: '2026-11-21'
+evidence: CSsingle applies cell size correction using ERCC spike-in controls and integrates bulk and spatial transcriptomics
+  with scRNA-seq.

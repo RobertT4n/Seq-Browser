@@ -1,0 +1,19 @@
+name: AIGS
+category: dry
+summary: Selects informative genes and measures cell similarity to support clustering and visualization of single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.09.01.610665
+  year: 2024
+  journal: bioRxiv
+  first_author: Ni
+  last_author: B
+  title: Interpretable scRNA-seq Analysis with Intelligent Gene Selection
+links: {}
+added: '2026-11-21'
+evidence: AIGS selects genes using normalized mutual information and improves clustering and multi-resolution visualization.

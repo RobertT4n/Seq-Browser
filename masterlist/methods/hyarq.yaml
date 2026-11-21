@@ -1,0 +1,22 @@
+name: HyARQ
+category: dry
+summary: Processes and quality-controls allele-specific read counts across RNA-seq, MOA-seq, ATAC-seq and ChIP-seq assays.
+readouts:
+- rna
+- chromatin-accessibility
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.16.759667
+  year: 2026
+  journal: bioRxiv
+  first_author: Deb
+  last_author: J. L
+  title: 'HyARQ: a Snakemake workflow for allele-specific read counting and quality control in F1 hybrids'
+links: {}
+added: '2026-11-21'
+evidence: HyARQ performs assay-specific preprocessing, parental-genome mapping, filtering, counting and quality control across
+  four assay types.

@@ -1,0 +1,21 @@
+name: Hist2Cell
+category: dry
+summary: Predicts transcriptional cell types and their spatial distributions from histology images using a vision graph-transformer.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.101137
+  year: 2026
+  journal: Cell Genomics
+  first_author: Zhao W
+  last_author: Yu L
+  title: 'Hist2Cell: Deciphering fine-grained cellular architectures from histology images'
+  preprint_doi: 10.1101/2024.02.17.580852
+links: {}
+added: '2026-11-21'
+evidence: Hist2Cell predicts fine-grained transcriptional cell types from histology images after training on spatial transcriptome
+  datasets.

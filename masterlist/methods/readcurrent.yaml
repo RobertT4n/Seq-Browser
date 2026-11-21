@@ -1,0 +1,22 @@
+name: ReadCurrent
+category: dry
+summary: Deep learning tool that classifies nanopore current signals to select target DNA for sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae435
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Fan K
+  last_author: Ni M
+  title: 'ReadCurrent: a VDCNN-based tool for fast and accurate nanopore selective sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ReadCurrent uses electric currents and a modified very deep convolutional neural network for nanopore selective
+  sequencing.

@@ -1,0 +1,27 @@
+name: LIFT-seq
+category: wet
+summary: Laser-induced forward transfer isolates tissue microregions for full-length mRNA sequencing and spatial expression
+  profiling.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0305977
+  year: 2024
+  journal: PLOS ONE
+  first_author: Ye K
+  last_author: Zhao X
+  title: Spatial transcriptomic profiling of isolated microregions in tissue sections utilizing laser-induced forward transfer
+links: {}
+added: '2026-11-21'
+evidence: LIFT-seq combines laser-induced forward transfer with full-length mRNA sequencing and identified region-specific
+  expression in mouse cortex and hippocampus.

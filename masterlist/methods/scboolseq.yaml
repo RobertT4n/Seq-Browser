@@ -1,0 +1,20 @@
+name: scBoolSeq
+category: dry
+summary: Method that links single-cell RNA-seq distributions and Boolean gene activation states for binarization and synthetic
+  data generation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011620
+  year: 2024
+  journal: PLOS Computational Biology
+  first_author: Magaña-López G
+  last_author: Paulevé L
+  title: 'scBoolSeq: Linking scRNA-seq statistics and Boolean dynamics'
+links: {}
+added: '2026-11-21'
+evidence: scBoolSeq fits gene-dependent dropout models and uses learned distributions to binarize scRNA-seq data or generate
+  synthetic data from Boolean traces.

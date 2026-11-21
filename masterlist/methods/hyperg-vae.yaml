@@ -1,0 +1,19 @@
+name: HyperG-VAE
+category: dry
+summary: Hypergraph variational autoencoder infers gene regulatory networks and gene modules from single-cell RNA sequencing
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.01.586509
+  year: 2024
+  journal: bioRxiv
+  first_author: su
+  last_author: w
+  title: Inferring gene regulatory networks by hypergraph variational autoencoder
+links: {}
+added: '2026-11-21'
+evidence: HyperG-VAE uses cell and gene encoders to infer regulatory networks and identify gene modules.

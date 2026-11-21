@@ -1,0 +1,19 @@
+name: RedeHist
+category: dry
+summary: Predicts spatial transcriptomics at single-cell resolution from histology images using single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.06.17.599464
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhong
+  last_author: X
+  title: Spatial Transcriptomics Prediction from Histology Images at Single-cell Resolution using RedeHist
+links: {}
+added: '2026-11-21'
+evidence: RedeHist integrates scRNA-seq data to predict spatial transcriptomics from histology images at single-cell resolution.

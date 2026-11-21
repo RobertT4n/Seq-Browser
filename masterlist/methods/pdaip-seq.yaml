@@ -1,0 +1,26 @@
+name: pDAIP-seq
+full_name: protein-DNA adduct immunoprecipitation followed by sequencing
+category: wet
+summary: pDAIP-seq immunoprecipitates protein-DNA adducts to map endogenous topoisomerase cleavage complexes across the genome.
+readouts:
+- protein-dna-binding
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.64898/2026.09.30.755763
+  year: 2026
+  journal: bioRxiv
+  first_author: Li
+  last_author: C
+  title: Genome-wide mapping of endogenous topoisomerase cleavage complexes reveals TOP1 at the interface of DNA topological
+    regulation and genome instability
+links: {}
+added: '2026-11-21'
+evidence: pDAIP-seq profiles endogenous topoisomerase cleavage complexes genome-wide without stabilization by topoisomerase
+  poisons.
