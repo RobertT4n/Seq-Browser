@@ -1,0 +1,19 @@
+name: CRISP
+category: dry
+summary: CRISP characterizes interactions between biological signals in single-cell and spatial gene expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.03.763866
+  year: 2026
+  journal: bioRxiv
+  first_author: Sasson J
+  last_author: Nitzan M
+  title: Uncovering cross-signal interactions in single-cell and spatial omics
+added: '2026-11-21'
+evidence: CRISP uses probabilistic signal-specific projections to recover interactions and identify associated cell populations
+  and genes.

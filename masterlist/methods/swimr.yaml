@@ -1,0 +1,22 @@
+name: SWIMR
+full_name: Spatially Weighted Integration for Multi-Reference deconvolution
+category: dry
+summary: A statistical framework deconvolves spatial transcriptomics using multiple single-cell references and spatial correlations.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1012345
+  year: 2026
+  journal: PLoS Genet
+  first_author: Zhao P
+  last_author: Zhou X
+  pmid: '42970540'
+  pmcid: PMC13726986
+  title: Enhancing cell type deconvolution in spatial transcriptomics through incorporating multiple reference panels
+added: '2026-11-21'
+evidence: SWIMR integrates multiple scRNA-seq references while modeling cell-type proportions and reference weights across
+  spatial locations.

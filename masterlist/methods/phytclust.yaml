@@ -1,0 +1,19 @@
+name: PhytClust
+category: dry
+summary: A threshold-free algorithm partitions rooted phylogenetic trees into monophyletic clusters by optimizing within-cluster
+  dispersion.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msag277
+  year: 2026
+  journal: Mol Biol Evol
+  first_author: Ganesan K
+  last_author: Schwarz RF
+  pmid: '42993896'
+  title: 'PhytClust: Efficient and Optimal Monophyletic Partitioning of Rooted Phylogenetic Trees'
+added: '2026-11-21'
+evidence: PhytClust partitions trees into monophyletic subtrees using within-cluster dispersion and a cluster-validity index.

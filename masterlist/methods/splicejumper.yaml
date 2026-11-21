@@ -1,0 +1,21 @@
+name: SpliceJumper
+category: dry
+summary: Identifies splice junctions and aligns paired-end RNA-seq reads using a classification-based approach.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-16-S17-S10
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Chu C
+  last_author: Wu Y
+  pmid: '26678515'
+  pmcid: PMC4674845
+  title: 'SpliceJumper: a classification-based approach for calling splicing junctions from RNA-seq data'
+links:
+  code: https://github.com/Reedwarbler/SpliceJumper
+added: '2026-11-17'
+evidence: We present a classification based approach for calling splicing junctions from RNA-seq data, which is implemented in the program SpliceJumper.

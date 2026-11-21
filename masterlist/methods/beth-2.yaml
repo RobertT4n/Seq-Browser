@@ -1,0 +1,20 @@
+name: Beth-2
+category: dry
+summary: A computational framework predicts emerging SARS-CoV-2 mutations using within-host sequencing and between-host fitness
+  patterns.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2536820123
+  year: 2026
+  journal: Proc Natl Acad Sci U S A
+  first_author: Su S
+  last_author: Wang MH
+  pmid: '42993566'
+  title: Predicting key viral mutations from within-host deep sequencing data
+added: '2026-11-21'
+evidence: Beth-2 analyzes within-host viral genome deep sequencing data and fitness patterns to infer mutations with fitness
+  potential.

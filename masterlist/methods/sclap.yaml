@@ -1,0 +1,23 @@
+name: scLAP
+full_name: single-cell Liver-adapted Alignment and Pseudo-pairing
+category: dry
+summary: Aligns and pseudo-pairs single-cell RNA and chromatin accessibility profiles using a liver-adapted shared latent
+  representation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms27219888
+  year: 2026
+  journal: Int J Mol Sci
+  first_author: Li H
+  last_author: Yang H
+  pmid: '43028133'
+  pmcid: PMC13764276
+  title: 'scLAP: A Liver-Adapted Contrastive Shared-Latent Framework for Pseudo-Pairing Single-Cell Transcriptomes and Chromatin
+    Accessibility Profiles'
+added: '2026-11-21'
+evidence: scLAP uses a contrastive shared-latent framework for cross-study RNA-ATAC pseudo-pairing.

@@ -1,0 +1,19 @@
+name: GMP-Cor
+category: dry
+summary: Metric that quantifies transcriptional dysregulation through gene-gene correlation patterns in sparse single-cell
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.02.763672
+  year: 2026
+  journal: bioRxiv
+  first_author: Gutfreund A
+  last_author: Balaban NQ
+  title: 'GMP-Cor: Quantifying Transcriptional Dysregulation in Antibiotic Tolerance and Persistence'
+added: '2026-11-21'
+evidence: GMP-Cor analyzes gene-gene correlations in sparse single-cell data and detects reduced correlations in disrupted
+  bacterial cells.

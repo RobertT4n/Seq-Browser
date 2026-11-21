@@ -1,0 +1,27 @@
+name: combined-FISH
+category: wet
+summary: Combined DNA and rRNA fluorescence in situ hybridization quantifies resistance-gene copies in taxonomically identified
+  individual bacteria.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.64898/2026.11.10.765748
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang G
+  last_author: Musat N
+  title: Single-cell imaging links antibiotic resistance gene copy number and bacterial host identity
+added: '2026-11-21'
+evidence: Direct-geneFISH and CARD-FISH jointly visualize and quantify resistance genes in taxonomically identified single
+  cells.
+partition_unknown: not stated in the abstract

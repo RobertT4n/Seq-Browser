@@ -1,0 +1,19 @@
+name: MorphoProt
+category: dry
+summary: Predicts spatial protein abundance from RNA expression, multiscale histology, and tissue neighborhoods.
+readouts:
+- protein
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.04.764238
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu L
+  last_author: Zhang K
+  title: 'MorphoProt: RNA-Conditioned Integration of Multiscale Histology for Spatial Protein Inference'
+added: '2026-11-21'
+evidence: MorphoProt jointly predicts spatial protein abundance using RNA-guided attention over histological fields and neighborhood
+  information.

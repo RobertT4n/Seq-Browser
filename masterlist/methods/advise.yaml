@@ -1,0 +1,20 @@
+name: ADVISE
+full_name: Alzheimer's Disease Variational Isolation of Signal Embeddings
+category: dry
+summary: ADVISE disentangles Alzheimer's disease progression-associated transcriptional signals from background variation
+  and prioritizes contributing genes and pathways.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.02.763789
+  year: 2026
+  journal: bioRxiv
+  first_author: Li AW
+  last_author: Lee S
+  title: Disentangling Context-Specific Alzheimer’s Disease Progression Signatures through an Explainable AI Framework
+added: '2026-11-21'
+evidence: ADVISE uses separate latent representations to isolate Braak stage-associated signals in single-nucleus RNA-seq
+  data.

@@ -1,0 +1,19 @@
+name: CellChat Hotspot
+category: dry
+summary: Filters genes and cells by functional context to improve interpretation of inferred cell-cell communication networks.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.09.765280
+  year: 2026
+  journal: bioRxiv
+  first_author: Monaco D
+  last_author: De Summa S
+  title: 'CellChat Hotspot: A Targeted Approach to Cell–Cell Communication Analysis With Spatial transcriptomics Validation'
+added: '2026-11-21'
+evidence: The framework combines gene set enrichment and context-driven filtering before communication inference and was applied
+  to single-cell and spatial transcriptomics data.

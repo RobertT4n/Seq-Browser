@@ -1,0 +1,19 @@
+name: vafSOMA
+category: dry
+summary: vafSOMA uses tissue composition and sequencing data to detect plant somatic mutations fixed in cell layers and assign
+  them to layers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.02.763622
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhou M
+  last_author: Johannes F
+  title: 'vafSOMA: Detecting cell-layer-fixed somatic mutations in plants'
+added: '2026-11-21'
+evidence: vafSOMA models tissue composition to detect fixed somatic mutations, assign them to layers, and estimate mutation
+  counts.

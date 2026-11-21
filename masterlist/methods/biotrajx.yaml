@@ -1,0 +1,17 @@
+name: BioTrajX
+category: dry
+summary: R package that evaluates inferred single-cell pseudotime trajectories against prior biological knowledge.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.02.763572
+  year: 2026
+  journal: bioRxiv
+  first_author: Li TY
+  last_author: Chen S
+  title: 'BioTrajX: evaluating biological plausibility in single-cell trajectory inference'
+added: '2026-11-21'
+evidence: BioTrajX compares trajectories using directionality, marker-program order consistency, and endpoint validity.

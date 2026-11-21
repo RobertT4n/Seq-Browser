@@ -1,0 +1,18 @@
+name: brisc
+category: dry
+summary: brisc is a multithreaded CPU toolkit for analysis of large single-cell RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.03.764120
+  year: 2026
+  journal: bioRxiv
+  first_author: Arbabi K
+  last_author: Wainberg M
+  title: 'brisc: a multithreaded CPU toolkit for single-cell analysis'
+added: '2026-11-21'
+evidence: brisc spans dimensionality reduction, integration, label transfer, clustering, embedding, differential expression,
+  and plotting.

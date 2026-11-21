@@ -1,0 +1,21 @@
+name: CloneVI
+category: dry
+summary: CloneVI infers clonal structure from mitochondrial mutation counts and cell states derived from single-cell expression
+  or chromatin accessibility.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.03.764043
+  year: 2026
+  journal: bioRxiv
+  first_author: Hibi T
+  last_author: Shimamura T
+  title: 'CloneVI: A deep generative model for deciphering the relationships between cell state and mitochondrial genotype'
+added: '2026-11-21'
+evidence: CloneVI estimates per-cell clonal probabilities from latent cell state while reconstructing observed mitochondrial
+  mutation counts.

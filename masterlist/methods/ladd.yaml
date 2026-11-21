@@ -1,0 +1,21 @@
+name: LADD
+full_name: Least-Action Developmental Dynamics
+category: dry
+summary: Framework that learns developmental dynamics from time-series single-cell RNA data and calibrates comparisons between
+  observed lineage trajectories and optimal paths.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764549
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu Q
+  last_author: Wang Y
+  title: 'Calibrating developmental dynamics from single-cell atlases: lineage paths outrun least-action routes'
+added: '2026-11-21'
+evidence: LADD learns a stochastic developmental vector field, computes minimum-action and minimum-time paths, and calibrates
+  observed lineage path deviations.

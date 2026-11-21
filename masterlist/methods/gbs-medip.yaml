@@ -1,0 +1,30 @@
+name: GBS-MeDIP
+category: wet
+summary: Genotype-by-sequencing combined with methylated DNA immunoprecipitation detects genetic and methylation variation
+  in the same genomic fraction.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1002/2211-5463.70360
+  year: 2026
+  journal: FEBS Open Bio
+  first_author: Pértille F
+  last_author: Guerrero-Bosagna C
+  pmid: '43004876'
+  pmcid: PMC13749004
+  title: 'GBS-MeDIP: A method for the simultaneous identification of genetic and epigenetic variants in tumors'
+added: '2026-11-21'
+evidence: The method jointly identifies SNPs, copy number variations, and differentially methylated regions in the same genomic
+  fraction.

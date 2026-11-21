@@ -1,0 +1,23 @@
+name: SC-HGNN-Rank
+full_name: spatial-context heterogeneous graph neural network ranker
+category: dry
+summary: A graph neural network integrates regulatory, interaction and spatial information to rank natural compound-target
+  pairs in digestive system cancers.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.phrs.2026.109767
+  year: 2026
+  journal: Pharmacol Res
+  first_author: Jiang H
+  last_author: Bao Y
+  pmid: '43035199'
+  title: Graph learning guided by regulatory and spatial contexts prioritizes natural compound-target pairs in digestive system
+    cancers
+added: '2026-11-21'
+evidence: SC-HGNN-Rank integrates compound-target associations, transcriptional regulation, interaction networks, and single-cell
+  and spatial information.

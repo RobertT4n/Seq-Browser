@@ -135,7 +135,14 @@ function render() {
     l.classList.toggle("zero", c === 0 && !b.checked); b.disabled = c === 0 && !b.checked;
   });
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
-  rows.sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * (sortDir === "asc" ? 1 : -1));
+  const cmp = (x, y) => (x < y ? -1 : x > y ? 1 : 0);
+  // Year: newest first by publication date within a year (entries without a date follow, A-Z); ties on the other keys fall back to A-Z
+  rows.sort((a, b) => {
+    const s = cmp(val(a), val(b)) * (sortDir === "asc" ? 1 : -1);
+    if (s || sortKey === "name") return s;
+    if (sortKey === "year") { const d = cmp(b.date || "", a.date || "") * (sortDir === "desc" ? 1 : -1); if (d) return d; }
+    return cmp(a.name.toLowerCase(), b.name.toLowerCase());
+  });
   document.querySelectorAll("th.sort").forEach(th => th.dataset.dir = th.dataset.key === sortKey ? sortDir : "");
   const queryWords = q.split(/\s+/).filter(Boolean), suggestsReadouts = queryWords.length === 2 && queryWords.includes("rna") && queryWords.includes("atac");
   document.getElementById("count").innerHTML = `${rows.length} of ${pool.length} methods` + (hiddenDry ? ` · <button type="button" class="showdry" id="showdry">${hiddenDry} computational tool${hiddenDry > 1 ? "s" : ""} also match: show</button>` : "") + (suggestsReadouts ? ' · <button type="button" class="showdry" id="readout-suggestion">Filter for RNA + chromatin accessibility</button>' : "");

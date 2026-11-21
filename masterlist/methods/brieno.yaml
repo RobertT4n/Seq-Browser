@@ -1,0 +1,25 @@
+name: Brieno
+category: dry
+summary: Learns representations of raw nanopore signals for downstream tasks including basecalling, species identification,
+  and base-modification detection.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.05.764536
+  year: 2026
+  journal: bioRxiv
+  first_author: Cheng G
+  last_author: Pitkänen E
+  title: Towards a foundation model for raw nanopore signal through discrete tokenization
+added: '2026-11-21'
+evidence: Brieno pretrains a Transformer on raw nanopore signals and supports species classification, basecalling, and methylation
+  detection.

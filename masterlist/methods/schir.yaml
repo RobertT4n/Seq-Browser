@@ -1,0 +1,20 @@
+name: scHiR
+category: dry
+summary: Variational autoencoder framework that learns joint cellular representations from paired single-cell gene expression
+  and chromatin contact data.
+readouts:
+- rna
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.06.764816
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhao Y
+  last_author: Li M
+  title: scHiR learns joint cellular representations from paired single-cell transcriptome and 3D genome data
+added: '2026-11-21'
+evidence: scHiR learns co-embeddings from paired gene-expression profiles and chromatin contact maps and reconstructs both
+  modalities.

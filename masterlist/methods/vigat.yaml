@@ -1,0 +1,18 @@
+name: VIGAT
+category: dry
+summary: Uses vision-language interpretation of ATAC coverage plots to select regions for gene activity quantification.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.16.759698
+  year: 2026
+  journal: bioRxiv
+  first_author: Ji B
+  last_author: Ji Z
+  title: 'VIGAT: VLM-guided gene activity quantification from single-cell ATAC-seq'
+added: '2026-11-21'
+evidence: VIGAT selects gene-specific regions enriched for cluster-discriminative accessibility and generates a gene-by-cell
+  activity matrix.

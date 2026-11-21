@@ -1,0 +1,20 @@
+name: scCircaSim
+category: dry
+summary: Simulator that generates circadian single-cell and spatial transcriptomic data with known ground truth from a single-time-point
+  reference.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764753
+  year: 2026
+  journal: bioRxiv
+  first_author: Li C
+  last_author: Sun P
+  title: 'scCircaSim: A Circadian Simulator for Single-Cell and Spatial Transcriptomics'
+added: '2026-11-21'
+evidence: scCircaSim combines phase progression, network propagation of anchor gene rhythms, and spatial neighborhood effects
+  to generate simulated data.

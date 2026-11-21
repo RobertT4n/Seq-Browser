@@ -1,0 +1,19 @@
+name: FitNMF
+category: dry
+summary: Model that jointly infers viral variant signatures, relative abundances, and fitness advantages from longitudinal
+  wastewater sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.06.26367358
+  year: 2026
+  journal: medRxiv
+  first_author: Rimaite A
+  last_author: Beerenwinkel N
+  title: Inferring viral variants and fitness advantages from longitudinal wastewater sequencing data
+added: '2026-11-21'
+evidence: FitNMF combines viral dynamics and non-negative matrix factorization to infer emerging variants directly from wastewater
+  sequencing data.

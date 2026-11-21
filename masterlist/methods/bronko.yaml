@@ -1,0 +1,19 @@
+name: bronko
+category: dry
+summary: An alignment-free framework detects viral sequence variation directly from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.282104.126
+  year: 2026
+  journal: Genome Res
+  first_author: Doughty RD
+  last_author: Treangen TJ
+  pmid: '43009286'
+  title: Ultrafast alignment-free detection of viral genome variation with bronko
+added: '2026-11-21'
+evidence: bronko combines SNP detection, k-mer pseudo-mapping, assembly and noise estimation to identify viral variants without
+  alignment.

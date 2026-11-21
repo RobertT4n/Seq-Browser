@@ -1,0 +1,19 @@
+name: irAEGIS
+category: dry
+summary: Pathway-guided model that predicts patient-level immune-related adverse event risk from pretreatment single-cell
+  RNA profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.01.763453
+  year: 2026
+  journal: bioRxiv
+  first_author: Budhkar A
+  last_author: Song Q
+  title: 'irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events'
+added: '2026-11-21'
+evidence: irAEGIS aggregates pathway activities within cell types and integrates cell-type-specific risk signals in a hierarchical
+  prediction framework.

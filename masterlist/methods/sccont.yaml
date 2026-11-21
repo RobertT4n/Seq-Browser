@@ -1,0 +1,18 @@
+name: scCont
+category: dry
+summary: Learns interpretable low-dimensional representations and gene programs associated with single-cell state transitions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764599
+  year: 2026
+  journal: bioRxiv
+  first_author: Kewalramani N
+  last_author: Crovella M
+  title: 'scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions'
+added: '2026-11-21'
+evidence: scCont uses contrastive learning and Shapley attribution to map latent dimensions to functional gene programs in
+  scRNA-seq data.

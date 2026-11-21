@@ -1,0 +1,17 @@
+name: ScarX
+category: dry
+summary: Compares organ-resolved bulk RNA-seq results to identify directional overlap and conserved human-mouse fibrosis signals.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.13.766356
+  year: 2026
+  journal: bioRxiv
+  first_author: Di Carmine S
+  last_author: Mylonas KJ
+  title: A conserved matrix-centred core links fibrosis across human organs and mouse models
+added: '2026-11-21'
+evidence: ScarX analyzes organ-resolved bulk RNA sequencing and ranks conserved signals while retaining organ-restricted results.

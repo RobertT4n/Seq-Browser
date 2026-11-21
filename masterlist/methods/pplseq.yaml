@@ -1,0 +1,25 @@
+name: PPLseq
+full_name: pooled plasmid library sequencing
+category: wet
+summary: Barcode-free deep sequencing characterizes ORF identities, sequence variation, and coverage in pooled plasmid libraries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+species:
+- human
+validated_system: []
+reference:
+  doi: 10.1016/j.crmeth.2026.101648
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: T Sabapathy R
+  last_author: Janovjak H
+  pmid: '42971210'
+  title: Gene library deep sequencing for protein superfamily profiling
+added: '2026-11-21'
+evidence: PPLseq validated ORF identities and revealed sequence and coverage variation in a library of more than 300 human
+  GPCRs.
+chemistry_unknown: not stated in abstract

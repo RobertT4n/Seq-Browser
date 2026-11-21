@@ -1,0 +1,30 @@
+name: Live D-seq
+full_name: Live Droplet single-cell RNA sequencing
+category: wet
+summary: Repeated intracellular sampling and particle-templated emulsification profile gene expression in the same living
+  cells over time.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- particle-templated-emulsion
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+input_sample:
+- live-cells
+temporal:
+- longitudinal-sampling
+reference:
+  doi: 10.64898/2026.11.03.763484
+  year: 2026
+  journal: bioRxiv
+  first_author: Reynolds DE
+  last_author: Ko J
+  title: Live Droplet Single-Cell RNA Sequencing
+added: '2026-11-21'
+evidence: Longitudinal sampling of barcoded live cells links repeated transcriptome measurements across time points.

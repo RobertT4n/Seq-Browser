@@ -1,0 +1,18 @@
+name: ExPert
+full_name: Extracting Perturbations
+category: dry
+summary: Ranks candidate perturbations that could have produced an observed single-cell state.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.02.762549
+  year: 2026
+  journal: bioRxiv
+  first_author: Schwartz L
+  last_author: Goyal Y
+  title: ExPert infers causal perturbations from cell states across biological and clinical contexts
+added: '2026-11-21'
+evidence: ExPert learns perturbation prototypes across cellular contexts and ranks candidate genes for a query cell state.

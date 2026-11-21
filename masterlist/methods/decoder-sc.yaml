@@ -1,0 +1,20 @@
+name: DECODER-SC
+category: dry
+summary: Quantifies discordance between inferred transcription factor activity and target-gene expression in single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2026.111339
+  year: 2026
+  journal: Genomics
+  first_author: Haider A
+  last_author: Li C
+  pmid: '42998717'
+  title: 'DECODER-SC: A single-cell algorithm for quantifying transcription factor-target regulatory discordance'
+added: '2026-11-21'
+evidence: DECODER-SC combines activation and repression annotations with weighted scoring and permutation-based inference
+  to calculate regulatory discordance.

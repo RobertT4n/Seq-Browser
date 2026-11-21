@@ -1,0 +1,26 @@
+name: NanoPAMDA
+full_name: Nanopore high-throughput PAM determination assay
+category: wet
+summary: Nanopore sequencing-based adaptation of a high-throughput assay profiles Cas9 PAM preferences and kinetics across
+  multiple effectors.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species: []
+validated_system: []
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.04.764188
+  year: 2026
+  journal: bioRxiv
+  first_author: Genel I
+  last_author: Kurt IC
+  title: NanoPAMDA enables rapid PAM characterization of metagenome-derived Cas9 effectors
+added: '2026-11-21'
+evidence: The assay enables time-resolved kinetic PAM profiling across many Cas9 candidates in parallel.

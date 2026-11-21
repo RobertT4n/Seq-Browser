@@ -1,0 +1,19 @@
+name: Hicberg
+category: dry
+summary: A statistical method infers chromatin contacts involving repetitive elements from paired omic data such as Hi-C.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281770.125
+  year: 2026
+  journal: Genome Res
+  first_author: Gradit S
+  last_author: Cournac A
+  pmid: '42869661'
+  pmcid: PMC13739011
+  title: Reconstruction of contact signals from repeated elements with Hicberg
+added: '2026-11-21'
+evidence: Hicberg uses statistical inference to recover missing 3D contacts of repetitive elements from paired omic data.

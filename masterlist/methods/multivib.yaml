@@ -1,0 +1,21 @@
+name: multiVIB
+category: dry
+summary: Integrates heterogeneous single-cell multi-omics datasets using a variational information bottleneck and probabilistic
+  contrastive learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101664
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Xu Y
+  last_author: Huo BX
+  pmid: '43020067'
+  title: 'multiVIB: A unified probabilistic contrastive learning framework for atlas-scale integration of single-cell multi-omics
+    data'
+added: '2026-11-21'
+evidence: multiVIB supports horizontal, vertical, and mosaic integration and was applied to nine molecular modalities and
+  cross-species transcriptomes.

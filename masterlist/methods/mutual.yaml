@@ -1,0 +1,21 @@
+name: MUTUAL
+full_name: MUltiome Transfer in a Unified Aligned Latent space
+category: dry
+summary: MUTUAL learns a shared single-cell RNA and chromatin accessibility representation for cross-modality matching and
+  annotation.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.762297
+  year: 2026
+  journal: bioRxiv
+  first_author: Bao X
+  last_author: Liu J
+  title: A single-cell multimodal foundation model enables cross modality analysis between transcriptome and chromatin
+added: '2026-11-21'
+evidence: MUTUAL learns a shared RNA–ATAC space from 3.0 million paired cells and matches profiles and annotates ATAC-only
+  cells.

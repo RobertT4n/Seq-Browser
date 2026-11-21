@@ -1,0 +1,28 @@
+name: mp-tNGS
+full_name: multiplex PCR-based targeted next-generation sequencing
+category: wet
+summary: A multiplex PCR sequencing panel detects DNA and RNA pathogens in respiratory samples with SNP-based contamination
+  control.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.1515/cclm-2026-0540
+  year: 2026
+  journal: Clin Chem Lab Med
+  first_author: Long J
+  last_author: Zhang J
+  pmid: '43015262'
+  title: 'Development and clinical validation of a multiplex PCR-based targeted next-generation sequencing panel for simultaneous
+    DNA/RNA pathogen detection in respiratory tract infections: a comprehensive performance evaluation'
+added: '2026-11-21'
+evidence: The panel targets 277 pathogens and integrates DNA and RNA detection with SNP-based contamination control.

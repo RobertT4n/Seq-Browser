@@ -1,0 +1,19 @@
+name: QUEST
+category: dry
+summary: QUEST predicts spatial protein marker expression from H&E histology using protein markers as semantic queries.
+readouts:
+- protein
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.64898/2026.11.02.763811
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu Y
+  last_author: Wu Z
+  title: Generalizable virtual staining from histopathology to spatial proteomics across biological scales
+added: '2026-11-21'
+evidence: QUEST was trained on paired H&E and multiplex immunofluorescence images and reconstructed protein marker intensities
+  across tissues.

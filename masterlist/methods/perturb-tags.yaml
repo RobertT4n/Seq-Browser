@@ -1,0 +1,29 @@
+name: Perturb-Tags
+category: wet
+summary: Spatial barcoding enables joint measurement of nuclear gene expression, guide RNAs, chromatin accessibility, and
+  position in pooled CRISPR screens.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system: []
+input_sample:
+- nuclei
+reference:
+  doi: 10.64898/2026.11.12.766149
+  year: 2026
+  journal: bioRxiv
+  first_author: Ghaemmaghami J
+  last_author: Welch JD
+  title: Spatial multi-omic profiling of non-autonomous transcriptomic and epigenomic responses to genetic perturbation
+added: '2026-11-21'
+evidence: Spatially barcoded nuclei allow joint measurement of single-nucleus gene expression, guide RNAs, chromatin accessibility,
+  and positions in intact tissue.
+chemistry_unknown: not stated in abstract
+partition_unknown: not stated in the abstract

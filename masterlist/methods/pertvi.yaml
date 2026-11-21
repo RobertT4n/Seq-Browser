@@ -1,0 +1,18 @@
+name: PertVI
+full_name: Disentangled Variational Inference for Perturbation Response
+category: dry
+summary: Separates treatment-induced single-cell changes from baseline state, cell-cycle, batch, and anomalous variation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.07.765083
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang Y
+  last_author: Yang D
+  title: Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states
+added: '2026-11-21'
+evidence: PertVI quantifies treatment-induced changes in cell-state composition and infers state-gated transcriptional responses.

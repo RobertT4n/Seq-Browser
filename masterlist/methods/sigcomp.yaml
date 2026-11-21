@@ -1,0 +1,22 @@
+name: SigComp
+category: dry
+summary: A quantized neural network compresses raw nanopore signal data losslessly.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btag835
+  year: 2026
+  journal: Bioinformatics
+  first_author: Xie S
+  last_author: Zhu Z
+  pmid: '43023420'
+  title: Integer quantized multilayer perceptron neural network for lossless compression of nanopore signal
+added: '2026-11-21'
+evidence: SigComp is a learned lossless compressor evaluated on nanopore DNA and RNA signal data.

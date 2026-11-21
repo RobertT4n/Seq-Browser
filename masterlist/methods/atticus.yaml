@@ -1,0 +1,20 @@
+name: ATTICUS
+category: dry
+summary: Model that predicts cell-type-specific gene expression from personalized sequences with uncertainty estimates for
+  association testing.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.06.764604
+  year: 2026
+  journal: bioRxiv
+  first_author: Styll P
+  last_author: Cai N
+  title: Uncertainty-Aware Personalised Gene Expression Prediction Improves Cell-Type-Specific Association Testing
+added: '2026-11-21'
+evidence: ATTICUS combines personalized sequence representations with uncertainty-aware expression prediction and enables
+  transcriptome-wide association studies.

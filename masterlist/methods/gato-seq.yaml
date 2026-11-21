@@ -1,0 +1,27 @@
+name: GATO-seq
+full_name: gene-specific analysis of transcriptional output
+category: wet
+summary: Temporally resolved reconstituted transcription and direct RNA sequencing map nascent transcript ends across a gene
+  library.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+validated_system: []
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.molcel.2026.10.021
+  year: 2026
+  journal: Mol Cell
+  first_author: Vazquez Nunez RJ
+  last_author: Vos SM
+  pmid: '43014322'
+  title: A sequence-encoded promoter-proximal super pause stabilizes an offline RNA polymerase II state
+added: '2026-11-21'
+evidence: The assay uses direct RNA sequencing to map 3′ ends of nascent transcripts from a library of human genes.

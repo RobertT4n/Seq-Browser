@@ -1,0 +1,23 @@
+name: scICER
+full_name: single-cell Inconsistency Clustering Estimator in R
+category: dry
+summary: An R implementation assesses the stability of clustering on user-provided graphs from single-cell and integrated
+  analyses.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag334
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Yu B
+  last_author: Cao X
+  pmid: '43036760'
+  pmcid: PMC13770477
+  title: 'scICER: clustering stability assessment for integrated single-cell analyses'
+added: '2026-11-21'
+evidence: scICER evaluates clustering stability on user-provided graphs stored in Seurat objects from standard or integrated
+  workflows.

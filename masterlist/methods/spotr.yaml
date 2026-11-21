@@ -1,0 +1,20 @@
+name: SpOTr
+category: dry
+summary: SpOTr integrates single-cell and spatial transcriptomics with evolutionary trees to map tumor clones to spatial spots.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.11.765961
+  year: 2026
+  journal: bioRxiv
+  first_author: Ferreira PF
+  last_author: Lagergren J
+  title: Phylospatial optimal transport for single-cell and spatial transcriptomics data integration
+added: '2026-11-21'
+evidence: SpOTr combines spot deconvolution with optimal transport and mapped copy-number clones from dissociated cells to
+  spatial spots.

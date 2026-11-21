@@ -1,0 +1,19 @@
+name: Graph-guided Flow Matching
+category: dry
+summary: Graph-guided Flow Matching predicts post-perturbation single-cell transcriptomes using biological knowledge graphs
+  and latent flow matching.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.12.766125
+  year: 2026
+  journal: bioRxiv
+  first_author: Liou H
+  last_author: Kim J
+  title: Graph-guided flow matching enables biologically informed prediction at single-cell resolution
+added: '2026-11-21'
+evidence: GFM integrates biological knowledge graphs with latent flow matching to predict single-cell transcriptomes after
+  unseen perturbations.

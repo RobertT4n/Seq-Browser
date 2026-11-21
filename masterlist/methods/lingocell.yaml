@@ -1,0 +1,20 @@
+name: LingoCell
+category: dry
+summary: Foundation model that connects single-cell and spatial transcriptomics with language to annotate cells and interpret
+  in silico perturbations and tissue niches.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.08.765157
+  year: 2026
+  journal: bioRxiv
+  first_author: Yang Y
+  last_author: Nakai K
+  title: LingoCell interprets gene perturbations through natural language and tissue niches
+added: '2026-11-21'
+evidence: LingoCell aligns cell representations with language while keeping gene expression editable and supports spatial
+  in silico perturbation.

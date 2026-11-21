@@ -1,0 +1,18 @@
+name: ARCADE
+category: dry
+summary: Separates cell-type abundance from continuous within-type transcriptional state in spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.762703
+  year: 2026
+  journal: bioRxiv
+  first_author: Su Q
+  last_author: Su Q
+  title: ARCADE disentangles cell abundance from continuous transcriptional state in spatial transcriptomics
+added: '2026-11-21'
+evidence: ARCADE estimates cell-type composition before modeling continuous intratype transcriptional programs around that
+  compositional anchor.

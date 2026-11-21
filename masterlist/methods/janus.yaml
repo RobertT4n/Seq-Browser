@@ -1,0 +1,22 @@
+name: JANUS
+category: dry
+summary: Discovers somatic structural variants directly in a personal pangenome graph built from matched tumor and normal
+  long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.64898/2026.11.05.764632
+  year: 2026
+  journal: bioRxiv
+  first_author: Kara M
+  last_author: Alkan C
+  title: Somatic structural variation discovery on cancer pangenome graphs
+added: '2026-11-21'
+evidence: JANUS identifies candidate structural variant sites traversed exclusively by tumor reads in a graph built from matched
+  PacBio HiFi reads.

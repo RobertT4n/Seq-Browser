@@ -1,0 +1,21 @@
+name: Tracel
+category: dry
+summary: Tracel assigns spatial transcript observations to cells using optimal transport and a matched single-cell RNA-seq
+  reference.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.03.764126
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang J
+  last_author: Chen H
+  title: Unified cell segmentation for spatial transcriptomics via transcript reassignment
+added: '2026-11-21'
+evidence: Tracel aligns reference cells to spatial cells and then assigns imaging-based transcripts or sequencing-based bin
+  counts to cells.

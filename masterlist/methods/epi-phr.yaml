@@ -1,0 +1,28 @@
+name: Epi-PHR
+full_name: epigenetic proximity hybridization reaction
+category: wet
+summary: Image-based proximity hybridization detects combinations of epigenetic marks at targeted loci in single cells while
+  preserving nuclear organization.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species: []
+validated_system: []
+reference:
+  doi: 10.1038/s41592-026-03253-0
+  year: 2026
+  journal: Nat Methods
+  first_author: Chen Y
+  last_author: Wang S
+  pmid: '42988903'
+  pmcid: PMC13739745
+  title: Nondisruptive 3D profiling of combinations of epigenetic marks in single cells
+added: '2026-11-21'
+evidence: Epi-PHR detects combinations of epigenetic marks at hundreds of gene targets in situ while preserving 3D genome
+  organization.
+partition_unknown: not stated in the abstract

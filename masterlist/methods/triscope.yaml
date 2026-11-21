@@ -1,0 +1,21 @@
+name: TriSCOPE
+category: dry
+summary: A framework combines predictive modeling, differential expression and pseudotime inference to identify cell-type-specific
+  Alzheimer's disease programs.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-77651-5
+  year: 2026
+  journal: Nat Commun
+  first_author: Madduri AV
+  last_author: Patel CJ
+  pmid: '43003833'
+  pmcid: PMC13748584
+  title: Single-cell machine learning uncovers genetically anchored, cell-type specific programs of Alzheimer's disease
+added: '2026-11-21'
+evidence: TriSCOPE integrates multivariate predictive modeling, donor-aware differential expression and pseudotime inference
+  across six Alzheimer's disease snRNA-seq datasets.

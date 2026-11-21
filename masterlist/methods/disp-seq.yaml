@@ -1,0 +1,24 @@
+name: DisP-seq
+full_name: disordered protein precipitation followed by DNA sequencing
+category: wet
+summary: Maps endogenous DNA-associated disordered proteins using micrococcal nuclease and biotinylated isoxazole precipitation.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+chemistry_unknown: Biotinylated isoxazole precipitation lacks a specific taxonomy tag.
+reference:
+  doi: 10.1038/s41587-023-01737-4
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Xing YH
+  last_author: Rivera MN
+  pmid: '37037903'
+  pmcid: PMC10791585
+  title: DisP-seq reveals the genome-wide functional organization of DNA-associated disordered proteins
+links: {}
+added: '2026-11-17'
+evidence: Here we describe DisP-seq (disordered protein precipitation followed by DNA sequencing)

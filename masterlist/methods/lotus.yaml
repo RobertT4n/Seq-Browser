@@ -1,0 +1,22 @@
+name: LOTUS
+full_name: Lineage-aware optimal transport for unbalanced single-cell dynamics
+category: dry
+summary: LOTUS integrates time-resolved single-cell transcriptomes and clonal information to reconstruct continuous cell-fate
+  dynamics.
+readouts:
+- rna
+- lineage
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.28.762359
+  year: 2026
+  journal: bioRxiv
+  first_author: Lu J
+  last_author: Zhou P
+  title: 'LOTUS: lineage-aware optimal transport reconstructs continuous clonal fate dynamics'
+added: '2026-11-21'
+evidence: LOTUS combines transcriptomic snapshots with engineered lineage barcodes or endogenous T-cell receptor clonotypes
+  to model state change and clonal propagation.

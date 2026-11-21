@@ -1,0 +1,21 @@
+name: REGA-perturb
+category: dry
+summary: Method that combines perturbation responses with reference epigenome scaffolds to infer regulatory paths and perturbation-specific
+  rewiring.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+perturbation:
+- crispr-interference
+reference:
+  doi: 10.64898/2026.11.02.763749
+  year: 2026
+  journal: bioRxiv
+  first_author: Ren L
+  last_author: Duren Z
+  title: Resolving how genetic perturbations act through gene regulatory paths
+added: '2026-11-21'
+evidence: REGA-perturb uses reference epigenomes to define possible TF-regulatory element-gene paths and perturbation responses
+  to infer their use.

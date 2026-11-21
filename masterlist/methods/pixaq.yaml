@@ -1,0 +1,20 @@
+name: PixAQ
+category: dry
+summary: Method that improves single-cell imaging mass cytometry protein quantification by attributing pixels to cells separately
+  for each marker.
+readouts:
+- protein
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.64898/2026.11.03.763929
+  year: 2026
+  journal: bioRxiv
+  first_author: Zha Y
+  last_author: Yu R
+  title: Marker-specific pixel attribution for single-cell protein quantification with PixAQ
+added: '2026-11-21'
+evidence: PixAQ combines spatial proximity and anchor-group intensity models to assign pixel-marker observations among neighboring
+  cells and a residual component.

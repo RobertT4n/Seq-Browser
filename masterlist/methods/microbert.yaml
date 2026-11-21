@@ -1,0 +1,20 @@
+name: MicrobeRT
+category: dry
+summary: MicrobeRT fine-tunes genomic language models to classify metagenomic reads by taxonomy, antibiotic resistance, and
+  pathogenicity.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.03.763945
+  year: 2026
+  journal: bioRxiv
+  first_author: Narayan V
+  last_author: Gallagher ME
+  title: 'MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences'
+added: '2026-11-21'
+evidence: MicrobeRT classifies metagenomic sequencing reads for species identification, antibiotic resistance gene detection,
+  and pathogenicity assessment.

@@ -1,0 +1,19 @@
+name: CytoBridge
+category: dry
+summary: Reconstructs continuous virtual cell-state and spatial dynamics from discrete spatial transcriptomic observations.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.04.764438
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang Z
+  last_author: Zhou P
+  title: Virtual dynamics of spatiotemporal single-cell interactions
+added: '2026-11-21'
+evidence: CytoBridge learns trajectories of cell states, positions, and population sizes while incorporating cell-cell interactions
+  as a dynamical driver.

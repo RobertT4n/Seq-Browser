@@ -1,0 +1,25 @@
+name: HiSpoT
+full_name: High-throughput Spoligotyping by Targeted next generation sequencing
+category: wet
+summary: A one-tube dual-barcode PCR assay prepares targeted sequencing libraries for Mycobacterium tuberculosis complex spoligotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+validated_system: []
+reference:
+  doi: 10.64898/2026.11.04.764218
+  year: 2026
+  journal: bioRxiv
+  first_author: Freidlin PJ
+  last_author: Nissan I
+  title: 'HiSpoT: a novel one-tube dual-barcode PCR method for NGS spoligotyping amplicon library preparation in  <i>Mycobacterium
+    tuberculosis</i>  complex'
+added: '2026-11-21'
+evidence: The assay targets 43 spacer oligonucleotides in the CRISPR direct repeat region and multiplexes samples with dual-barcode
+  primers.

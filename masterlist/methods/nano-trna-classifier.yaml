@@ -1,0 +1,24 @@
+name: nano tRNA classifier
+category: dry
+summary: A deep learning classifier uses nanopore direct RNA signals to identify and quantify tRNAs and detect specific modifications.
+readouts:
+- rna
+- rna-modification
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-026-78563-0
+  year: 2026
+  journal: Nat Commun
+  first_author: Ueda H
+  last_author: Suzuki T
+  pmid: '43003864'
+  pmcid: PMC13748594
+  title: Absolute quantification and profiling of cellular tRNAs by nanopore sequencing and a deep learning classifier
+added: '2026-11-21'
+evidence: The model classifies tRNAs directly from nanopore ionic current signals and includes binary classifiers for specific
+  tRNA modifications.

@@ -1,0 +1,20 @@
+name: C-Fetch
+full_name: Chromatin Fetch
+category: dry
+summary: C-Fetch retrieves chromatin contact-map patterns at candidate coordinates using examples of a desired feature and
+  a contrasting class.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.10.31.763357
+  year: 2026
+  journal: bioRxiv
+  first_author: Moran S
+  last_author: Liu J
+  title: Reference-Guided De Novo Retrieval of 3D Chromatin Organizational Features with Representation Learning
+added: '2026-11-21'
+evidence: C-Fetch ranks and assigns Hi-C and Micro-C contact-map patches at provided candidate coordinates using example-guided
+  representations.

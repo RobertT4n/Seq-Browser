@@ -1,0 +1,21 @@
+name: DeepCPS
+category: dry
+summary: Uses deep learning to recognize sparsely supported polyadenylation sites and predict cleavage positions in single-cell
+  and spatial transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764757
+  year: 2026
+  journal: bioRxiv
+  first_author: Yang J
+  last_author: Wen J
+  title: scPolyA enables efficient, interactive and agent-guided alternative polyadenylation analysis in single-cell and spatial
+    transcriptomes
+added: '2026-11-21'
+evidence: DeepCPS is an integrated scPolyA module that improves recognition of sparsely supported poly(A) sites and predicts
+  cleavage positions at nucleotide resolution.

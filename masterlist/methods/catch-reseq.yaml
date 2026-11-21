@@ -1,0 +1,23 @@
+name: Catch*ReSeq
+category: wet
+summary: Enriches targeted splice isoforms from existing single-cell cDNA libraries while linking them to host transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+chemistry_unknown: Target-enrichment chemistry requires verification against the full preprint.
+reference:
+  doi: 10.64898/2026.11.12.763766
+  year: 2026
+  date: '2026-11-16'
+  journal: bioRxiv
+  first_author: Grody EI
+  last_author: Goyal Y
+  title: Catch*ReSeq resolves rare splice isoforms and their host cell states at single-cell resolution
+links: {}
+added: '2026-11-19'
+evidence: Here, we present Catch*ReSeq, a targeted enrichment method that yields isoform-resolved readouts linked to host transcriptomes from standard single-cell libraries

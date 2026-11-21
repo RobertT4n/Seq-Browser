@@ -1,0 +1,26 @@
+name: NPlasmid-seq
+category: wet
+summary: Cas9-guided nanopore sequencing uses terminal signatures to identify plasmid samples and detect structural heterogeneity
+  and contamination.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species: []
+validated_system: []
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.02.763549
+  year: 2026
+  journal: bioRxiv
+  first_author: Xu Y
+  last_author: Zhang J
+  title: 'NPlasmid-seq: Cas9-encoded terminal signatures enable molecule-level nanopore quality control of vector and IVT-template
+    plasmids'
+added: '2026-11-21'
+evidence: Cas9 cleavage at predefined backbone positions generates paired terminal signatures for sample identity.

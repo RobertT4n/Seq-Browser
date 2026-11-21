@@ -1,0 +1,18 @@
+name: MorphoANOVA
+category: dry
+summary: Gene-wise statistical framework that characterizes spatial relationships between tissue morphology and gene expression.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764699
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen P
+  last_author: Li JJ
+  title: 'MorphoANOVA: Dissecting Histology–Gene Expression Relationships in Spatial Transcriptomics'
+added: '2026-11-21'
+evidence: MorphoANOVA uses spatially varying coefficient models and sequential ANOVA to assess morphology-expression associations
+  and remaining spatial variation.

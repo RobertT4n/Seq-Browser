@@ -1,0 +1,19 @@
+name: Mola
+category: dry
+summary: Sequence-to-distribution model that predicts the distribution of single-molecule chromatin accessibility states from
+  DNA sequence.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.29.762992
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang R
+  last_author: Zhou J
+  title: Predicting single-molecule chromatin distribution from DNA sequence
+added: '2026-11-21'
+evidence: Mola models single-molecule chromatin accessibility and is used for joint prediction of DNA methylation and accessibility.

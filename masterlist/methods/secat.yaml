@@ -1,0 +1,20 @@
+name: SeCAT
+full_name: Sequence Consensus Amplicon Trimming
+category: dry
+summary: SeCAT harmonizes 16S rRNA metabarcoding datasets by identifying and validating a shared amplicon window across studies.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.11.03.763908
+  year: 2026
+  journal: bioRxiv
+  first_author: Terrey D
+  last_author: Metz S
+  title: 'SeCAT (Sequence Consensus Amplicon Trimming): a simulation-informed Nextflow pipeline for cross-study harmonisation
+    of 16S rRNA metabarcoding datasets'
+added: '2026-11-21'
+evidence: SeCAT maps variants to a full-length 16S reference alignment, identifies a shared window, and simulates the effects
+  of trimming before merging datasets.

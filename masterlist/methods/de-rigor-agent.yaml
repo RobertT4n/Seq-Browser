@@ -1,0 +1,19 @@
+name: DE-Rigor-Agent
+category: dry
+summary: DE-Rigor-Agent selects and executes bulk RNA-seq differential expression methods using dataset diagnostics and expert-curated
+  criteria.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.09.765522
+  year: 2026
+  journal: bioRxiv
+  first_author: Rong Z
+  last_author: Li JJ
+  title: 'DE-Rigor-Agent: An Agentic Workflow for Assumption-Aware Differential Expression Analysis of Bulk RNA-seq Data'
+added: '2026-11-21'
+evidence: The agent standardizes inputs, filters six differential expression methods for compatibility, and executes the retained
+  methods.

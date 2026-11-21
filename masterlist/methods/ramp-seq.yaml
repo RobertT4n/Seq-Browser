@@ -1,0 +1,29 @@
+name: RAMP-Seq
+full_name: Rapid AMR Profiling by Sequencing
+category: wet
+summary: A multiplex PCR and nanopore workflow profiles bacterial taxa and resistance genes together in one library.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+validated_system: []
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.12.766053
+  year: 2026
+  journal: bioRxiv
+  first_author: Pathak D
+  last_author: Roy R
+  title: 'RAMP-Seq: a single-tube nanopore workflow for co-amplifying full-length 16S rRNA and antimicrobial resistance genes
+    for integrated taxonomic and resistance profiling'
+added: '2026-11-21'
+evidence: The workflow co-amplifies full-length 16S rRNA genes and eight resistance determinants in a single multiplex PCR.

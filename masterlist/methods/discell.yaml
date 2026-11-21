@@ -1,0 +1,19 @@
+name: DisCell
+category: dry
+summary: Models intrinsic cell state, niche response, and transcript spillover jointly in spatial single-cell expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.04.764463
+  year: 2026
+  journal: bioRxiv
+  first_author: Molén R
+  last_author: Lagergren J
+  title: 'DisCell: Separating Spillover from Niche Response in Spatial Transcriptomics'
+added: '2026-11-21'
+evidence: DisCell models gene expression with intrinsic and niche-response variables plus a separate spillover term and tests
+  findings across spillover levels.

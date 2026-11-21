@@ -1,0 +1,23 @@
+name: CODEC
+full_name: Concatenating Original Duplex for Error Correction
+category: wet
+summary: Links both strands of a DNA duplex for sequencing-based error correction and sensitive mutation detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1038/s41588-023-01376-0
+  year: 2023
+  journal: Nat Genet
+  first_author: Bae JH
+  last_author: Adalsteinsson VA
+  pmid: '37106072'
+  pmcid: PMC10181940
+  title: Single duplex DNA sequencing with CODEC detects mutations with high sensitivity
+links: {}
+added: '2026-11-17'
+evidence: Single duplex DNA sequencing with CODEC detects mutations with high sensitivity

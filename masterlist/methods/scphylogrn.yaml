@@ -1,0 +1,22 @@
+name: scPhyloGRN
+category: dry
+summary: A supervised framework combines single-cell gene expression and cell phylogeny to prioritize directed transcription
+  factor-target relationships.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag807
+  year: 2026
+  journal: Bioinformatics
+  first_author: Meng R
+  last_author: Zhou D
+  pmid: '42989552'
+  pmcid: PMC13784639
+  title: 'scPhyloGRN: gene regulatory network inference guided by lineage topology in single-cell developmental data'
+added: '2026-11-21'
+evidence: scPhyloGRN integrates single-cell gene expression with cellular phylogeny to prioritize directed transcription factor-target
+  candidates.

@@ -1,0 +1,22 @@
+name: virCHap
+category: dry
+summary: A reference-based algorithm reconstructs viral haplotypes from long-read sequencing data using graph partitioning
+  and cluster merging.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.281975.126
+  year: 2026
+  journal: Genome Res
+  first_author: Gao Y
+  last_author: Yu T
+  pmid: '42778298'
+  title: Viral haplotype reconstruction from long reads with virCHap
+added: '2026-11-21'
+evidence: virCHap applies graph partitioning followed by iteratively quantifiable cluster merging to phase viral haplotypes
+  from long reads.

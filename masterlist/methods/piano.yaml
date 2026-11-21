@@ -1,0 +1,21 @@
+name: PIANO
+full_name: probabilistic inference autoencoder networks for multi-omics
+category: dry
+summary: Integrates single-cell and spatial transcriptomic datasets using a generative model of gene expression.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2026.101661
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Wang N
+  last_author: Krienen FM
+  pmid: '43020064'
+  title: PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells
+added: '2026-11-21'
+evidence: PIANO models gene expression and integrates data across species and across single-cell and spatial transcriptomics
+  modalities.

@@ -1,0 +1,22 @@
+name: scMINA
+full_name: single-cell Multimodal Integration and Network Attribution
+category: dry
+summary: Integrates paired single-cell RNA and chromatin accessibility data and prioritizes candidate regulatory features.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag140
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Zhang S
+  last_author: Ren Y
+  pmid: '43011234'
+  pmcid: PMC13748873
+  title: 'scMINA: an interpretable workflow for paired scRNA-scATAC multiome integration and regulatory prioritization'
+added: '2026-11-21'
+evidence: scMINA combines multimodal integration and covariate correction with attribution-based prioritization of genes and
+  transcription factors.

@@ -1,0 +1,19 @@
+name: spSheaf
+category: dry
+summary: Segmentation-free method that infers spatial transcriptomic domains using alignment-adjusted disagreement between
+  neighboring regions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: targeted
+reference:
+  doi: 10.64898/2026.11.09.765244
+  year: 2026
+  journal: bioRxiv
+  first_author: Paluzo-Hidalgo E
+  last_author: Imoto Y
+  title: 'spSheaf: sheaf-theoretic spatial domain inference from raw molecules without cell segmentation'
+added: '2026-11-21'
+evidence: spSheaf quantifies disagreement in local expression subspaces and attenuates transitions between programs during
+  clustering.

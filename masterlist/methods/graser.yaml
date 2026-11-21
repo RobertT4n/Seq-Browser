@@ -1,0 +1,17 @@
+name: GRASER
+category: dry
+summary: GRASER assigns graph-aligned short reads to individual haplotypes without converting alignments to a linear reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.13.766454
+  year: 2026
+  journal: bioRxiv
+  first_author: Garza JE
+  last_author: Wang T
+  title: 'GRASER: haplotype assignment of graph-aligned short reads'
+added: '2026-11-21'
+evidence: GRASER uses edges unique to one haplotype path to phase reads directly from graph alignments.

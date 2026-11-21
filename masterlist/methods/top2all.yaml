@@ -1,0 +1,19 @@
+name: Top2All
+category: dry
+summary: Top2All reconstructs transcriptome-wide expression from sparse inputs of highly expressed genes using a Mouse-Geneformer-based
+  framework.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.31.763361
+  year: 2026
+  journal: bioRxiv
+  first_author: Nishio Y
+  last_author: Baba T
+  title: 'Top2All: Benchmarking sparse-to-transcriptome reconstruction from high-expression profiles across sex- and sex-steroid-defined
+    conditions'
+added: '2026-11-21'
+evidence: Top2All was evaluated using 24 cell-number-normalized RNA-seq profiles of mouse adrenal zona fasciculata cells.

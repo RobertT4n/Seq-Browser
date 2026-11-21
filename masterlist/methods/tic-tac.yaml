@@ -1,0 +1,27 @@
+name: TIC-TaC
+full_name: TEV Induced Cleavage of Nuclei Tagged in Specific Cell Types
+category: wet
+summary: TEV-cleavable nuclear tagging enables isolation of selected cell types for downstream CUT&RUN or CUT&Tag profiling.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- nuclei
+reference:
+  doi: 10.64898/2026.11.12.766233
+  year: 2026
+  journal: bioRxiv
+  first_author: Lukasak BJ
+  last_author: Korb E
+  title: TEV Induced Cleavage of Nuclei Tagged in Specific Cell Types (TIC-TaC) reveals histone profiles of activated neurons
+added: '2026-11-21'
+evidence: Tagged nuclei are purified by immunoprecipitation and released with TEV protease for downstream CUT&RUN or CUT&Tag.

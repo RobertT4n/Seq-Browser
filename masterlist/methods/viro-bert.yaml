@@ -1,0 +1,18 @@
+name: Viro-BERT
+category: dry
+summary: A deep learning model classifies viral genomes using predictions from overlapping sequence windows across the genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.virusres.2026.199838
+  year: 2026
+  journal: Virus Res
+  first_author: Dhahbi S
+  last_author: Morsy H
+  pmid: '43033921'
+  title: 'Viro-BERT: Whole-Genome Attention for Robust Viral Pathogen Classification from Next-Generation Sequencing Data'
+added: '2026-11-21'
+evidence: Viro-BERT encodes overlapping genome windows and averages their class probabilities to classify viral genomes.

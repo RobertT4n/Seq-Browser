@@ -1,0 +1,20 @@
+name: RIDGE
+full_name: Regional Integration of Deconvolution with Guided Estimation
+category: dry
+summary: Deconvolution framework that combines regional references with continuous cortical transcriptomic maps to infer spatial
+  cell-type distributions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.10.765231
+  year: 2026
+  journal: bioRxiv
+  first_author: Lei W
+  last_author: Liu B
+  title: A spatially continuous cell-type atlas reveals multiscale organization of the human cortex
+added: '2026-11-21'
+evidence: RIDGE anchors regional references to continuous cortex-wide transcriptomic maps and reconstructs distributions of
+  24 major cortical cell types.

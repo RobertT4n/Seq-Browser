@@ -1,0 +1,23 @@
+name: ModBERT
+category: dry
+summary: ModBERT is a DNA language model that incorporates genetic variation and 5mC methylation to make person-specific functional
+  genomic predictions.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.12.766258
+  year: 2026
+  journal: bioRxiv
+  first_author: Bolzan D
+  last_author: Ay F
+  title: 'ModBERT: a DNA modification and genetic variant-aware DNA large language model'
+added: '2026-11-21'
+evidence: ModBERT encodes allele frequencies and CpG methylation in a five-letter probabilistic genome representation and
+  predicts histone-mark and transcription-factor ChIP-seq peaks.

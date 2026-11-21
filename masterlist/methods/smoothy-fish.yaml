@@ -1,0 +1,28 @@
+name: SMOOTHY-FISH
+category: wet
+summary: A bright single-probe FISH strategy maps short RNA motifs, including isoform junctions, microRNAs, and structural
+  conformations.
+readouts:
+- rna
+- rna-structure
+resolution:
+- spatial
+- subcellular
+- single-molecule
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.11.02.763225
+  year: 2026
+  journal: bioRxiv
+  first_author: Liang G
+  last_author: Ding F
+  title: Single-probe, high-yield spatial mapping of diverse short RNA motifs
+added: '2026-11-21'
+evidence: A single approximately 20-nucleotide probe visualizes short RNA motifs at single-molecule resolution in cells and
+  mouse brain tissue.

@@ -1,0 +1,19 @@
+name: SCOUBI
+category: dry
+summary: Maps axon-dendrite interfaces from extrasomatic RNA in spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.10.765731
+  year: 2026
+  journal: bioRxiv
+  first_author: Aggarwal B
+  last_author: Sinha S
+  title: Revealing the transcriptomic organization of extrasomatic interfaces using SCOUBI
+added: '2026-11-21'
+evidence: SCOUBI partitions extrasomatic space into axon- and dendrite-enriched compartments and identifies interfaces where
+  they converge.

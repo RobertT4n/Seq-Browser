@@ -1,0 +1,32 @@
+name: ICC-NanoporeSeq
+full_name: integrated cell culture-nanopore sequencing
+category: wet
+summary: Cell culture amplification and targeted nanopore sequencing detect enterovirus types and estimate type-specific infectious
+  concentrations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+species:
+- microbe
+validated_system:
+- cell-line
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1128/aem.01830-26
+  year: 2026
+  journal: Appl Environ Microbiol
+  first_author: Astorch-Cardona A
+  last_author: Kohn T
+  pmid: '42986112'
+  title: An integrated cell culture-nanopore sequencing (ICC-NanoporeSeq) method for the simultaneous detection of multiple
+    enterovirus types and quantification of infectious Enterovirus B
+added: '2026-11-21'
+evidence: Short-term cell culture amplification and nanopore sequencing of VP1 enabled type-resolved detection and infectious
+  concentration estimates.

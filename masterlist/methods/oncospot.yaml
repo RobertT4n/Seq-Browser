@@ -1,0 +1,20 @@
+name: OncoSpot
+category: dry
+summary: OncoSpot simulates spot-based cancer spatial transcriptomics data with known clonal and copy-number profiles for
+  benchmarking.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.01.763496
+  year: 2026
+  journal: bioRxiv
+  first_author: Bhattarai P
+  last_author: Mallory X
+  title: OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes
+added: '2026-11-21'
+evidence: OncoSpot aggregates simulated cells into Visium-like spots with known malignant fractions, subclones, and copy-number
+  profiles.

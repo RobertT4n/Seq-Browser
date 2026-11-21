@@ -1,0 +1,21 @@
+name: XpressO-Lung
+category: dry
+summary: A deep learning model predicts spatial gene expression patterns in lung adenocarcinoma from diagnostic histology
+  images.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajpath.2026.10.009
+  year: 2026
+  journal: Am J Pathol
+  first_author: Rao VR
+  last_author: Sukhadia SS
+  pmid: '43020427'
+  title: Interpreting and Validating a Deep Learning Model Predictive of Spatial Morphologic-Molecular Patterns in Lung Adenocarcinoma,
+    Using Ground Truth Immunohistochemistry Images
+added: '2026-11-21'
+evidence: XpressO-Lung predicts spatial gene expression heterogeneity on whole-slide images by learning associations with
+  bulk-transcriptomic data.

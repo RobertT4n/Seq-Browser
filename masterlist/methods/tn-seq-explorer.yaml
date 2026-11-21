@@ -1,0 +1,25 @@
+name: Tn-seq Explorer
+category: dry
+summary: Analyzes transposon-insertion sequencing data to explore insertion density and identify candidate essential or advantageous genes.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+perturbation:
+- transposon-insertion
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0126070
+  year: 2015
+  journal: PLoS One
+  first_author: Solaimanpour S
+  last_author: Mrazek J
+  pmid: '25938432'
+  pmcid: PMC4418687
+  title: 'Tn-seq explorer: a tool for analysis of high-throughput sequencing data of transposon mutant libraries'
+links:
+  code: https://github.com/sina-cb/Tn-seqExplorer
+added: '2026-11-17'
+evidence: We designed the Tn-seq Explorer as an alternative to existing software to help biologists explore and analyze Tn-seq data

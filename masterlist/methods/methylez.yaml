@@ -1,0 +1,22 @@
+name: methylEZ
+category: dry
+summary: A graphical interface prepares bisulfite sequencing preprocessing, quality control and downstream methylation analysis
+  workflows.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.21795
+  year: 2026
+  journal: PeerJ
+  first_author: Rodriguez-Sosa A
+  last_author: Das S
+  pmid: '42999589'
+  pmcid: PMC13744167
+  title: '&lt;i&gt;methylEZ&lt;/i&gt;: a graphical user interface for differential methylation analysis in bisulfite sequencing
+    data'
+added: '2026-11-21'
+evidence: methylEZ provides modules for BS-seq preprocessing, quality control assistance and downstream methylKit script templating.

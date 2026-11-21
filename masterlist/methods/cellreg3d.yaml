@@ -1,0 +1,22 @@
+name: CellReg3D
+category: dry
+summary: A multimodal deep learning framework combines DNA sequence and chromatin contacts to predict cell-type-specific epigenetic
+  marks and gene expression.
+readouts:
+- rna
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.01.763421
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang X
+  last_author: Song J
+  title: Decoding Cell-type Specific Gene Regulation with CellReg3D by Integrating DNA Large Language Models and 3D Genome
+    Structure
+added: '2026-11-21'
+evidence: CellReg3D integrates DNA language model features with Hi-C-derived interactions to predict epigenetic marks and
+  gene expression across cell types.

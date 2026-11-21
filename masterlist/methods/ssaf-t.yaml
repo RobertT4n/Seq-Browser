@@ -1,0 +1,20 @@
+name: SSAF-T
+category: dry
+summary: Segmentation-free framework that identifies cell types from spatial gene expression without predefined reference
+  datasets and supports cell segmentation.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764509
+  year: 2026
+  journal: bioRxiv
+  first_author: Jeong Y
+  last_author: Park J
+  title: Agentic AI enables cell segmentation-free cell-type inference and cell-type-guided cell segmentation in spatial transcriptomics
+added: '2026-11-21'
+evidence: SSAF-T identifies cell types directly from spatial gene expression and uses its segmentation-free mapping to produce
+  cell segmentation.

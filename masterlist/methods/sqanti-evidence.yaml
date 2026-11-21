@@ -1,0 +1,20 @@
+name: SQANTI-evidence
+category: dry
+summary: Workflow that annotates genomes using curated long-read transcripts and gene predictions at loci without read support.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.11.01.763455
+  year: 2026
+  journal: bioRxiv
+  first_author: Atienza López P
+  last_author: Conesa A
+  title: 'SQANTI-evidence: isoform-resolved, evidence-tiered structural annotation of unannotated genomes from long-read RNA-seq'
+added: '2026-11-21'
+evidence: SQANTI-evidence annotates a genome from long reads without a reference annotation or protein database, retaining
+  observed isoforms and untranslated regions.

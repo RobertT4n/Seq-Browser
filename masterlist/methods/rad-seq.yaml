@@ -1,0 +1,24 @@
+name: RAD-seq
+full_name: RNA Accessibility via Deamination sequencing
+category: wet
+summary: Adenosine deamination reports RNA accessibility shaped by RNA structure and protein occupancy.
+readouts:
+- rna-structure
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species: []
+validated_system: []
+reference:
+  doi: 10.64898/2026.11.02.763788
+  year: 2026
+  journal: bioRxiv
+  first_author: Li Y
+  last_author: He C
+  title: RNA accessibility sequencing reveals transcriptome-wide RBP binding and RNA structure
+added: '2026-11-21'
+evidence: TadA8.20-mediated deamination reports adenosine exposure, integrating base pairing, RNA folding, and RNA-binding
+  protein occupancy.

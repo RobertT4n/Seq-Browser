@@ -1,0 +1,20 @@
+name: GSET
+full_name: Gene Signals from Embedding Trajectories
+category: dry
+summary: Retrieval framework that selects dynamically informative genes from temporal transcriptomic embeddings for gene regulatory
+  network inference.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.30.763241
+  year: 2026
+  journal: bioRxiv
+  first_author: Weizmann Z
+  last_author: Ventre E
+  title: 'GSET: Gene Signals from Embedding Trajectories select compact contexts for mechanistic GRN inference'
+added: '2026-11-21'
+evidence: GSET uses optimal transport residuals and changes in local co-expression neighborhoods to retrieve genes for mechanistic
+  GRN inference.

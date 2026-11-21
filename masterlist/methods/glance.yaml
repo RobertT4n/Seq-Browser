@@ -1,0 +1,26 @@
+name: GLANCE
+full_name: Genome-wide Low-depth ANalysis for Chimerism Estimation
+category: wet
+summary: Shallow whole-genome sequencing and SNP profiling estimate donor-recipient chimerism after hematopoietic stem cell
+  transplantation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.3343/alm.2026.0068
+  year: 2026
+  journal: Ann Lab Med
+  first_author: Lee S
+  last_author: Lee ST
+  pmid: '43010790'
+  title: Chimerism Analysis Through Shallow Whole-Genome Sequencing and Single-Nucleotide Polymorphism Profiling
+added: '2026-11-21'
+evidence: GLANCE uses SNP profiles from whole-genome sequencing data for transplant recipients and donors.
+chemistry_unknown: not stated in abstract

@@ -1,0 +1,20 @@
+name: ORBIS
+category: dry
+summary: ORBIS generates three-dimensional tissue organization from single-cell gene expression without a spatial reference
+  at inference.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.05.764656
+  year: 2026
+  journal: bioRxiv
+  first_author: Azim E
+  last_author: Zhang W
+  title: Generative 3D Spatial Reconstruction of Cellular Organization from Single-Cell Expression
+added: '2026-11-21'
+evidence: ORBIS learns spatial organization from tissue training views and jointly generates cell positions in whole three-dimensional
+  specimens.

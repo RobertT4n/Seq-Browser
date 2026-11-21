@@ -1,0 +1,18 @@
+name: Yruler
+category: dry
+summary: Alignment-free method that uses pangenome assemblies and sequencing reads to estimate human Y chromosome satellite
+  array properties.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.64898/2026.11.04.764422
+  year: 2026
+  journal: bioRxiv
+  first_author: Ortigas-Vasquez A
+  last_author: Guarracino A
+  title: Measuring satellite arrays of the human Y chromosome from sequencing reads
+added: '2026-11-21'
+evidence: Yruler measures satellite lengths, composition, and Y dosage from sequencing reads without alignment.

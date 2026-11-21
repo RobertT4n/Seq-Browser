@@ -1,0 +1,18 @@
+name: TileScope
+category: dry
+summary: Framework that analyzes spatial gene expression within tissue regions and at their boundaries.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.29.762851
+  year: 2026
+  journal: bioRxiv
+  first_author: Arrieta-Lobo M
+  last_author: Nikolski M
+  title: TileScope quantifies spatial gene expression relationships beyond colocalization
+added: '2026-11-21'
+evidence: TileScope combines regional enrichment, within-region correlation, cross-correlation over distance, and expression
+  differences near boundaries.

@@ -1,0 +1,21 @@
+name: IDC
+full_name: Identification of Disease-associated Cells
+category: dry
+summary: Method that contrasts within-donor gene covariance to identify disease-associated cells and expression programs in
+  case-control single-cell studies.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.06.764894
+  year: 2026
+  journal: bioRxiv
+  first_author: Chang F
+  last_author: Duren Z
+  title: Contrasting within-donor gene covariation identifies disease-associated cells and genes in case–control single-cell
+    studies
+added: '2026-11-21'
+evidence: IDC contrasts within-donor gene-gene covariance between patients and controls and scores each cell's disease-like
+  state.

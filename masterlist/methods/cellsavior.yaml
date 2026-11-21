@@ -1,0 +1,19 @@
+name: CellSavior
+category: dry
+summary: Calls cells from targeted single-cell DNA sequencing data using ensemble clustering and confidence-weighted merging.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btag808
+  year: 2026
+  journal: Bioinformatics
+  first_author: Kim T
+  last_author: Kim S
+  pmid: '43006921'
+  title: 'CellSavior: an open-source framework for improved cell calling in targeted single-cell DNA sequencing'
+added: '2026-11-21'
+evidence: CellSavior combines clustering across multiple distance metrics into a consensus cell classification and supplies
+  a downstream pipeline.

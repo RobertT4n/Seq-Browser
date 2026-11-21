@@ -1,0 +1,24 @@
+name: CIMERA-seq
+category: wet
+summary: Profiles small noncoding RNA–target RNA interactions by sequencing chimeras ligated within Argonaute complexes.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1016/j.crmeth.2024.100836
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Li X
+  last_author: Meffert MK
+  pmid: '39127045'
+  pmcid: PMC11384083
+  title: 'Genome-wide and cell-type-selective profiling of in vivo small noncoding RNA:target RNA interactions by chimeric RNA sequencing'
+links: {}
+added: '2026-11-17'
+evidence: We present CIMERA-seq, a robust strategy incorporating covalent ligation of sncRNAs to their target RNAs

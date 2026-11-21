@@ -1,0 +1,22 @@
+name: HiFiTaxa
+category: dry
+summary: HiFiTaxa is a reproducible pipeline for taxonomic profiling of PacBio HiFi 16S rRNA gene and fungal ITS amplicons.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.64898/2026.11.03.763332
+  year: 2026
+  journal: bioRxiv
+  first_author: Garritano AN
+  last_author: Warren C
+  title: 'HiFiTaxa: a reproducible analysis pipeline for full length 16S rRNA gene and ITS amplicon sequencing from PacBio
+    reads'
+added: '2026-11-21'
+evidence: HiFiTaxa processes PacBio HiFi 16S rRNA gene and fungal ITS amplicons using versioned references and multiple taxonomic
+  classifiers.
