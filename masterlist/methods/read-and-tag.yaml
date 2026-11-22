@@ -1,0 +1,27 @@
+name: Read&Tag
+full_name: "Read&Tag: antibody-independent chromatin profiling with reader-domain-Tn5 fusions"
+category: wet
+summary: Chromatin reader domains or intrabodies fused directly to Tn5 tagment targeted chromatin in situ without antibodies, profiling histone marks, DNA methylation and elongating Pol II. Dual-specificity readers require two marks on the same fragment (e.g. H3K4me3 with H3K27me3), and primer-timed signal augmentation measures four features in one reaction.
+readouts:
+- histone-modification
+- dna-methylation
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+variant_of:
+- cut-and-tag
+builds_on:
+- cut-and-tag
+reference:
+  doi: 10.64898/2026.11.19.763725
+  year: 2026
+  journal: bioRxiv
+  first_author: Schneider M
+  last_author: Villasenor R
+  title: Read&Tag enables antibody-independent combinatorial and multifactorial chromatin profiling
+links: {}
+added: '2026-11-22'
+evidence: Here, we introduce Read&Tag, in which engineered chromatin reader domains or intrabodies are fused directly to the Tn5 transposase to target specific chromatin features in situ.
