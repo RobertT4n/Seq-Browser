@@ -1,0 +1,19 @@
+name: SERGIO
+category: dry
+summary: A simulator generates single-cell expression data guided by a user-provided gene regulatory network.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2020.08.003
+  year: 2020
+  journal: Cell Systems
+  first_author: Dibaeinia P
+  last_author: Sinha S
+  title: 'SERGIO: A Single-Cell Expression Simulator Guided by Gene Regulatory Networks'
+links: {}
+added: '2026-11-21'
+evidence: SERGIO models stochastic transcription and regulation by multiple transcription factors to simulate steady-state
+  or differentiating cells.

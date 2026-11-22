@@ -1,0 +1,19 @@
+name: ATACgraph
+category: dry
+summary: ATACgraph analyzes and visualizes ATAC-seq data, profiling accessible regions and identifying differential accessibility.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.618478
+  year: 2021
+  journal: Frontiers in Genetics
+  first_author: Lu RJH
+  last_author: Chen PY
+  title: 'ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq'
+links: {}
+added: '2026-11-21'
+evidence: ATACgraph profiles accessible chromatin regions, defines nucleosome-free and nucleosome-occupied regions, and identifies
+  differentially accessible regions.

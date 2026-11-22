@@ -1,0 +1,20 @@
+name: smsMap
+category: dry
+summary: A mapping tool aligns long single-molecule sequencing reads to a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s12859-020-03698-w
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Wei ZG
+  last_author: Liu F
+  title: 'smsMap: mapping single molecule sequencing reads by locating the alignment starting positions'
+links: {}
+added: '2026-11-21'
+evidence: smsMap is specifically designed to map long single-molecule sequencing reads to a reference genome.

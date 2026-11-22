@@ -1,0 +1,18 @@
+name: GenAPI
+category: dry
+summary: A command-line tool for comparing bacterial gene content across fragmented genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03657-5
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Gabrielaite M
+  last_author: Marvig RL
+  title: 'GenAPI: a tool for gene absence-presence identification in fragmented bacterial genome sequences'
+links: {}
+added: '2026-11-21'
+evidence: GenAPI compares gene content while accounting for genes that are only partly assembled or split across contigs.

@@ -1,0 +1,20 @@
+name: scPADGRN
+category: dry
+summary: A method that reconstructs dynamic gene regulatory networks from time-series single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007471
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Zheng X
+  last_author: Zou X
+  title: 'scPADGRN: A preconditioned ADMM approach for reconstructing dynamic gene regulatory network using single-cell RNA
+    sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: scPADGRN combines a preconditioned alternating direction method of multipliers with cell clustering for dynamic
+  gene regulatory network reconstruction.

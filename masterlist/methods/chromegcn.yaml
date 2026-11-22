@@ -1,0 +1,21 @@
+name: ChromeGCN
+category: dry
+summary: Graph convolutional network that predicts chromatin profiles by combining local DNA sequence with long-range 3D genome
+  information.
+readouts:
+- protein-dna-binding
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa793
+  year: 2020
+  journal: Bioinformatics
+  first_author: Lanchantin J
+  last_author: Qi Y
+  title: Graph convolutional networks for epigenetic state prediction using both sequence and 3D genome data
+links: {}
+added: '2026-11-21'
+evidence: ChromeGCN predicts chromatin profiles by fusing local sequence and long-range 3D genome information.

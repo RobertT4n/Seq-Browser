@@ -1,0 +1,24 @@
+name: Cas-16S-seq
+category: wet
+summary: Cas-16S-seq uses targeted Cas9 cleavage to reduce host contamination in bacterial 16S amplicon sequencing.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+- microbe
+reference:
+  doi: 10.1186/s40168-020-00859-0
+  year: 2020
+  journal: Microbiome
+  first_author: Song L
+  last_author: Xie K
+  title: Engineering CRISPR/Cas9 to mitigate abundant host contamination for 16S rRNA gene-based amplicon sequencing
+links: {}
+added: '2026-11-21'
+evidence: Cas9 and guide RNAs cut host 16S targets during library construction, reducing rice-derived sequences in plant microbiota
+  profiling.

@@ -1,0 +1,19 @@
+name: CHOmics
+category: dry
+summary: Provides RNA sequencing analysis and interactive multi-omics comparison and visualization for CHO cell lines.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008498
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Lin D
+  last_author: Zhang B
+  title: 'CHOmics: A web-based tool for multi-omics data analysis and interactive visualization in CHO cell lines'
+links: {}
+added: '2026-11-21'
+evidence: CHOmics includes an RNA sequencing processing pipeline and supports comparison and visualization of other omics
+  data at gene and pathway levels.

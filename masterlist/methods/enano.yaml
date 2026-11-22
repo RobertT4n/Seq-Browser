@@ -1,0 +1,22 @@
+name: ENANO
+full_name: Encoder for NANOpore
+category: dry
+summary: A lossless compression algorithm reduces the size of nanopore sequencing FASTQ files.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btaa551
+  year: 2020
+  journal: Bioinformatics
+  first_author: Dufort y Álvarez G
+  last_author: Martín Á
+  title: 'ENANO: Encoder for NANOpore FASTQ files'
+links: {}
+added: '2026-11-21'
+evidence: ENANO is designed for nanopore FASTQ files and focuses particularly on compressing quality scores.

@@ -1,0 +1,19 @@
+name: DeepSELEX
+category: dry
+summary: Deep neural network that infers transcription factor DNA-binding preferences from changes in sequences across HT-SELEX
+  cycles.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa789
+  year: 2020
+  journal: Bioinformatics
+  first_author: Asif M
+  last_author: Orenstein Y
+  title: 'DeepSELEX: inferring DNA-binding preferences from HT-SELEX data using multi-class CNNs'
+links: {}
+added: '2026-11-21'
+evidence: DeepSELEX learns DNA-binding preferences by observing sequence changes through experimental enrichment cycles.

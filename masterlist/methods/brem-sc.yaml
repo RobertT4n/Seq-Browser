@@ -1,0 +1,21 @@
+name: BREM-SC
+full_name: Bayesian Random Effects Mixture model for Single Cell multi-omics data
+category: dry
+summary: Jointly clusters paired single-cell transcriptomic and proteomic measurements using a Bayesian mixture model.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa314
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Wang X
+  last_author: Chen W
+  title: 'BREM-SC: a bayesian random effects mixture model for joint clustering single cell multi-omics data'
+  preprint_doi: 10.1101/2020.01.18.911461
+links: {}
+added: '2026-11-21'
+evidence: BREM-SC jointly clusters paired single-cell transcriptomic and proteomic data and quantifies clustering uncertainty.

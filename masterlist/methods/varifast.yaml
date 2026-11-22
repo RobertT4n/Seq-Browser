@@ -1,0 +1,19 @@
+name: VariFAST
+full_name: Variant Filter by Automated Scoring based on Tagged-signature
+category: dry
+summary: Scores and tags candidate variants to identify likely false positives in sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3226-2
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Zhang H
+  last_author: Shi Y
+  title: 'VariFAST: a variant filter by automated scoring based on tagged-signatures'
+links: {}
+added: '2026-11-21'
+evidence: VariFAST calculates a weighted score and tags each variant using BAM and VCF files to support variant filtering.

@@ -1,0 +1,19 @@
+name: IsoXpressor
+category: dry
+summary: Tool for analyzing transcriptional activity within genomic isochores using RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gbe/evaa171
+  year: 2020
+  journal: Genome Biology and Evolution
+  first_author: Ayad LAK
+  last_author: Pissis SP
+  title: 'IsoXpressor: A Tool to Assess Transcriptional Activity within Isochores'
+links: {}
+added: '2026-11-21'
+evidence: IsoXpressor processes RNA-seq data in relation to isochores, with a proof of concept in human and rhesus monkey
+  preimplantation.

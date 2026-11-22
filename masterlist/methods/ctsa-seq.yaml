@@ -1,0 +1,24 @@
+name: cTSA-seq
+full_name: chromatin pull down-based TSA-seq
+category: wet
+summary: A chromatin pull-down adaptation of TSA-seq maps genomic regions at or near the nuclear lamina from low cell inputs.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/2021.01.03.425156
+  year: 2021
+  journal: bioRxiv
+  first_author: Tran
+  last_author: Y
+  title: Dynamic nuclear lamina-chromatin interactions during G1 progression
+links: {}
+added: '2026-11-21'
+evidence: cTSA-seq maps chromatin regions at or near the nuclear lamina from as few as 50,000 cells.

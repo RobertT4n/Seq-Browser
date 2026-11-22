@@ -1,0 +1,27 @@
+name: LoxTnSeq
+category: wet
+summary: LoxTnSeq generates and sequences libraries of bacterial genome reduction mutants using transposon-integrated lox
+  sites and Cre recombinase.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1111/1751-7915.13714
+  year: 2020
+  journal: Microbial Biotechnology
+  first_author: Shaw D
+  last_author: Lluch‐Senar M
+  title: 'LoxTnSeq: random transposon insertions combined with cre/lox recombination and counterselection to generate large
+    random genome reductions'
+  preprint_doi: 10.1101/2020.05.25.114405
+links: {}
+added: '2026-11-21'
+evidence: In Mycoplasma pneumoniae, the method produced a pool containing 285 unique deletions catalogued by deep sequencing.

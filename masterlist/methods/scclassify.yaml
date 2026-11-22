@@ -1,0 +1,19 @@
+name: scClassify
+category: dry
+summary: Ensemble learning framework for hierarchical cell type classification using one or more annotated single-cell RNA-seq
+  references.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.20199389
+  year: 2020
+  journal: Molecular Systems Biology
+  first_author: Lin Y
+  last_author: Yang JYH
+  title: 'scClassify: sample size estimation and multiscale classification of cells using single and multiple reference'
+links: {}
+added: '2026-11-21'
+evidence: scClassify classifies cells using cell type hierarchies constructed from annotated reference datasets.

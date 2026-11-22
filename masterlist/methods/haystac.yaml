@@ -1,0 +1,20 @@
+name: HAYSTAC
+full_name: High-AccuracY and Scalable Taxonomic Assignment of MetagenomiC data
+category: dry
+summary: Bayesian framework for estimating species presence and abundance and classifying reads in metagenomic data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010493
+  year: 2022
+  journal: PLOS Computational Biology
+  first_author: Dimopoulos EA
+  last_author: Irving-Pease EK
+  title: 'HAYSTAC: A Bayesian framework for robust and rapid species identification in high-throughput sequencing data'
+  preprint_doi: 10.1101/2020.12.16.419085
+links: {}
+added: '2026-11-21'
+evidence: HAYSTAC infers species abundance and statistical support and provides per-read species classification.

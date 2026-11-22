@@ -1,0 +1,24 @@
+name: hmTOP-seq
+full_name: 5hmC-specific tethered oligonucleotide-primed sequencing
+category: wet
+summary: Covalently tethered oligonucleotides prime sequencing directly at 5hmC sites for single-nucleotide mapping.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+species:
+- mouse
+reference:
+  doi: 10.1371/journal.pbio.3000684
+  year: 2020
+  journal: PLOS Biology
+  first_author: Gibas P
+  last_author: Kriukienė E
+  title: Precise genomic mapping of 5-hydroxymethylcytosine via covalent tether-directed sequencing
+links: {}
+added: '2026-11-21'
+evidence: hmTOP-seq generated single-nucleotide 5hmC maps in a model genome and mouse embryonic stem cells.

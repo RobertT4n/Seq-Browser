@@ -1,0 +1,19 @@
+name: DEBKS
+category: dry
+summary: Software for detecting differential circular RNA back-splicing between RNA-seq sample groups.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2021.01.003
+  year: 2021
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Liu Z
+  last_author: Yang E
+  title: 'DEBKS: A Tool to Detect Differentially Expressed Circular RNAs'
+  preprint_doi: 10.1101/2020.10.14.336982
+links: {}
+added: '2026-11-21'
+evidence: DEBKS identifies differential back-splicing between paired or unpaired rRNA-depleted RNA-seq sample groups.

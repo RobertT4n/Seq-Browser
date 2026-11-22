@@ -1,0 +1,22 @@
+name: NGSpeciesID
+category: dry
+summary: NGSpeciesID clusters and polishes long-read amplicon data to generate consensus sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1002/ece3.7146
+  year: 2021
+  journal: Ecology and Evolution
+  first_author: Sahlin K
+  last_author: Prost S
+  title: 'NGSpeciesID: DNA barcode and amplicon consensus generation from long‐read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NGSpeciesID generates consensus sequences from long-read amplicons using read clustering and platform-specific polishing.

@@ -1,0 +1,19 @@
+name: metabolisHMM
+category: dry
+summary: Annotates microbial genome sequences with hidden Markov models to explore metabolic markers and phylogenies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2019.12.20.884627
+  year: 2019
+  journal: bioRxiv
+  first_author: McDaniel
+  last_author: K
+  title: 'metabolisHMM: Phylogenomic analysis for exploration of microbial phylogenies and metabolic pathways'
+links: {}
+added: '2026-11-21'
+evidence: metabolisHMM annotates sequences with curated or user-defined models to construct phylogenies and summarize metabolic
+  pathway markers.

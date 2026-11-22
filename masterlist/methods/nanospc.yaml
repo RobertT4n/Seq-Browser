@@ -1,0 +1,24 @@
+name: NanoSPC
+category: dry
+summary: A portable pipeline for identifying pathogens, detecting variants and assembling consensus genomes from nanopore
+  metagenomic sequencing data.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaa413
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Xu Y
+  last_author: Crook D
+  title: 'NanoSPC: a scalable, portable, cloud compatible viral nanopore metagenomic data processing pipeline'
+links: {}
+added: '2026-11-21'
+evidence: NanoSPC identifies potentially pathogenic viruses and bacteria, detects single nucleotide variants and assembles
+  consensus genomes.

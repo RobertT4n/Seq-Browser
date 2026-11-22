@@ -1,0 +1,22 @@
+name: EPISCORE
+category: dry
+summary: A computational method uses single-cell RNA-seq to construct a reference for deconvolving bulk tissue DNA methylation
+  data.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02126-9
+  year: 2020
+  journal: Genome Biology
+  first_author: Teschendorff AE
+  last_author: Beck S
+  title: 'EPISCORE: cell type deconvolution of bulk tissue DNA methylomes from single-cell RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: EPISCORE generates a tissue-specific methylation reference from a single-cell RNA-seq atlas to estimate cell proportions
+  and cell-type-specific differential methylation.

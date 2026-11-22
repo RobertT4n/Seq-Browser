@@ -1,0 +1,21 @@
+name: MG-MLST
+full_name: metagenomic multi-locus sequence typing
+category: dry
+summary: MG-MLST determines strain-level microbial community composition from sequencing data using multi-locus sequence typing.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/microorganisms8050684
+  year: 2020
+  journal: Microorganisms
+  first_author: Bangayan NJ
+  last_author: Li H
+  title: 'MG-MLST: Characterizing the Microbiome at the Strain Level in Metagenomic Data'
+links: {}
+added: '2026-11-21'
+evidence: MG-MLST was validated using MLST gene amplicon libraries and metagenomic shotgun sequencing data from clinical skin
+  samples.

@@ -1,0 +1,21 @@
+name: NanoVar
+category: dry
+summary: Structural variant caller designed for low-depth whole-genome nanopore sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-020-01968-7
+  year: 2020
+  journal: Genome Biology
+  first_author: Tham CY
+  last_author: Benoukraf T
+  title: 'NanoVar: accurate characterization of patients’ genomic structural variants using low-depth nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: NanoVar calls structural variants from low-depth whole-genome Oxford Nanopore sequencing data.

@@ -1,0 +1,18 @@
+name: RNA-Bloom
+category: dry
+summary: An assembly algorithm reconstructs cell-specific transcript isoforms from multiple single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.260174.119
+  year: 2020
+  journal: Genome Research
+  first_author: Nip KM
+  last_author: Birol I
+  title: RNA-Bloom enables reference-free and reference-guided sequence assembly for single-cell transcriptomes
+links: {}
+added: '2026-11-21'
+evidence: RNA-Bloom supports reference-free and reference-guided assembly to reconstruct cell-specific isoforms.

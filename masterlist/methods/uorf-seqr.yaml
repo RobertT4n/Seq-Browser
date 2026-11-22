@@ -1,0 +1,20 @@
+name: uORF-seqr
+category: dry
+summary: uORF-seqr uses ribosome profiling and RNA-seq data to identify upstream open reading frames.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/978-1-0716-1150-0_15
+  year: 2021
+  journal: Methods in Molecular Biology
+  first_author: Spealman P
+  last_author: McManus J
+  title: 'uORF-seqr: A Machine Learning-Based Approach to the Identification of Upstream Open Reading Frames in Yeast'
+links: {}
+added: '2026-11-21'
+evidence: uORF-seqr uses ribosome profiling, RNA-seq, and transcript-aware genome annotations to identify statistically significant
+  upstream open reading frames.

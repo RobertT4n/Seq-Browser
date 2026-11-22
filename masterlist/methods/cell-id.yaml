@@ -1,0 +1,20 @@
+name: Cell-ID
+category: dry
+summary: A clustering-free statistical method that extracts per-cell gene signatures for cell identity recognition.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-00896-6
+  year: 2021
+  journal: Nature Biotechnology
+  first_author: Cortal A
+  last_author: Rausell A
+  title: Gene signature extraction and cell identity recognition at the single-cell level with Cell-ID
+  preprint_doi: 10.1101/2020.07.23.215525
+links: {}
+added: '2026-11-21'
+evidence: Cell-ID extracts per-cell gene signatures and uses them for cell identity recognition across donors, tissues, organisms
+  and single-cell omics technologies.

@@ -1,0 +1,18 @@
+name: PyClone-VI
+category: dry
+summary: Bayesian statistical method for inferring cancer clonal population structure from bulk sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03919-2
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Gillis S
+  last_author: Roth A
+  title: 'PyClone-VI: scalable inference of clonal population structures using whole genome data'
+links: {}
+added: '2026-11-21'
+evidence: PyClone-VI infers the clonal population structure of cancers from bulk sequencing data.

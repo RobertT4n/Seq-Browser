@@ -1,0 +1,20 @@
+name: SPICEMIX
+category: dry
+summary: Probabilistic latent-variable model that jointly analyzes spatial transcriptome information and gene expression to
+  infer cell identities.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.11.29.383067
+  year: 2020
+  journal: bioRxiv
+  first_author: Chidester
+  last_author: J
+  title: 'SPICEMIX: Integrative single-cell spatial modeling for inferring cell identity'
+links: {}
+added: '2026-11-21'
+evidence: The method jointly models spatial information and gene expression to infer cell types and their spatial patterns.

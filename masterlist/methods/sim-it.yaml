@@ -1,0 +1,19 @@
+name: Sim-it
+category: dry
+summary: Tool for simulating structural variation and long-read sequencing data to benchmark variant detection methods.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02551-4
+  year: 2021
+  journal: Genome Biology
+  first_author: Dierckxsens N
+  last_author: Xie Z
+  title: A benchmark of structural variation detection by long reads through a realistic simulated model
+  preprint_doi: 10.1101/2020.12.25.424397
+links: {}
+added: '2026-11-21'
+evidence: Sim-it simulates both structural variation and long-read data.

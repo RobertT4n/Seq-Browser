@@ -1,0 +1,18 @@
+name: SoupX
+category: dry
+summary: Method for estimating and removing ambient RNA contamination from droplet-based single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaa151
+  year: 2020
+  journal: GigaScience
+  first_author: Young MD
+  last_author: Behjati S
+  title: SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: SoupX quantifies cell-free RNA contamination and estimates background-corrected cell expression profiles.

@@ -1,0 +1,20 @@
+name: SAKEIMA
+full_name: Sampling Algorithm for K-mErs approxIMAtion
+category: dry
+summary: Uses sampling to approximate frequent k-mers and their frequencies in sequencing datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2019.0314
+  year: 2020
+  journal: Journal of Computational Biology
+  first_author: Pellegrina L
+  last_author: Vandin F
+  title: "Fast Approximation of Frequent\n                    <i>k</i>\n                    -Mers and Applications to Metagenomics"
+links: {}
+added: '2026-11-21'
+evidence: SAKEIMA approximates frequent k-mers and their frequencies in high-throughput sequencing data with guarantees on
+  approximation quality.

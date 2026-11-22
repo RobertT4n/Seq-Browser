@@ -1,0 +1,19 @@
+name: GLaMST
+full_name: Grow Lineages along Minimum Spanning Tree
+category: dry
+summary: An algorithm reconstructs B-cell receptor sequence lineage trees from partially observed sequences.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12864-020-06936-w
+  year: 2020
+  journal: BMC Genomics
+  first_author: Yang X
+  last_author: Qiu P
+  title: 'GLaMST: grow lineages along minimum spanning tree for b cell receptor sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: GLaMST reconstructs a lineage tree from observed B-cell receptor sequences representing a subset of its nodes.

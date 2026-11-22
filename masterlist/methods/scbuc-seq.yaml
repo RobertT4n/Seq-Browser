@@ -1,0 +1,27 @@
+name: scBUC-seq
+full_name: single-cell Barcode UMI Correction sequencing
+category: wet
+summary: Dimer-encoded barcode and UMI correction enables direct nanopore sequencing of single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-021-00965-w
+  year: 2021
+  journal: Nature Biotechnology
+  first_author: Philpott M
+  last_author: Cribbs AP
+  title: Nanopore sequencing of single-cell transcriptomes with scCOLOR-seq
+  preprint_doi: 10.1101/2021.01.18.427145
+links: {}
+added: '2026-11-21'
+evidence: scBUC-seq corrects dimer-encoded barcode and UMI sequences to permit direct single-cell nanopore sequencing.

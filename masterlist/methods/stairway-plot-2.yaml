@@ -1,0 +1,20 @@
+name: Stairway Plot 2
+category: dry
+summary: Infers population demographic history from SNP frequency spectra, including folded spectra with unknown ancestral
+  alleles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02196-9
+  year: 2020
+  journal: Genome Biology
+  first_author: Liu X
+  last_author: Fu YX
+  title: 'Stairway Plot 2: demographic history inference with folded SNP frequency spectra'
+links: {}
+added: '2026-11-21'
+evidence: Stairway Plot 2 infers demographic histories using SNP frequency spectra and can handle folded spectra from thousands
+  of samples.

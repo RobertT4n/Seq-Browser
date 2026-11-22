@@ -1,0 +1,19 @@
+name: Cell BLAST
+category: dry
+summary: A neural network-based cell-querying method that uses scRNA-seq reference data to annotate cells and identify novel
+  cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-17281-7
+  year: 2020
+  journal: Nature Communications
+  first_author: Cao ZJ
+  last_author: Gao G
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+links: {}
+added: '2026-11-21'
+evidence: Cell BLAST uses a generative model and a cell-to-cell similarity metric to query and annotate scRNA-seq cells.

@@ -1,0 +1,20 @@
+name: cfSNV
+category: dry
+summary: Calls somatic single-nucleotide variants from cell-free DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24457-2
+  year: 2021
+  journal: Nature Communications
+  first_author: Li S
+  last_author: Zhou XJ
+  title: Sensitive detection of tumor mutations from blood and its application to immunotherapy prognosis
+  preprint_doi: 10.1101/2019.12.31.19016253
+links: {}
+added: '2026-11-21'
+evidence: cfSNV uses multiple error-suppression techniques to detect somatic SNVs in cell-free DNA, including low-frequency
+  variants.

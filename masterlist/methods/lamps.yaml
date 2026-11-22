@@ -1,0 +1,21 @@
+name: LAMPS
+full_name: Ligation-mediated Amplified, Multiplexed Primer-pair Sequence
+category: dry
+summary: Pipeline for processing multiplexed ligation-mediated amplification reads and assessing primer-pair performance.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13104-020-05106-1
+  year: 2020
+  journal: BMC Research Notes
+  first_author: Cameron CJF
+  last_author: Blanchette M
+  title: 'LAMPS: an analysis pipeline for sequence-specific ligation-mediated amplification reads'
+links: {}
+added: '2026-11-21'
+evidence: LAMPS processes multiplexed ligation-mediated amplification data and assesses library parameters such as primer-pair
+  efficiency.

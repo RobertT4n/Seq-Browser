@@ -1,0 +1,20 @@
+name: abismal
+category: dry
+summary: Whole-genome bisulfite read mapper that uses a two-letter purine and pyrimidine encoding to filter candidate alignments.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab115
+  year: 2021
+  journal: NAR Genomics and Bioinformatics
+  first_author: de Sena Brandine G
+  last_author: Smith AD
+  title: Fast and memory-efficient mapping of short bisulfite sequencing reads using a two-letter alphabet
+  preprint_doi: 10.1101/2020.12.21.423849
+links: {}
+added: '2026-11-21'
+evidence: abismal maps whole-genome bisulfite sequencing reads using a two-letter DNA encoding.

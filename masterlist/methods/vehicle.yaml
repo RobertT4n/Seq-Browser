@@ -1,0 +1,20 @@
+name: VEHiCLE
+full_name: Variationally Encoded Hi-C Loss Enhancement algorithm
+category: dry
+summary: Deep learning algorithm that enhances the resolution of Hi-C contact maps and can generate synthetic Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-021-88115-9
+  year: 2021
+  journal: Scientific Reports
+  first_author: Highsmith M
+  last_author: Cheng J
+  title: 'VEHiCLE: a Variationally Encoded Hi-C Loss Enhancement algorithm for improving and generating Hi-C data'
+  preprint_doi: 10.1101/2020.12.07.413559
+links: {}
+added: '2026-11-21'
+evidence: VEHiCLE uses a variational autoencoder and adversarial training to enhance Hi-C contact maps.

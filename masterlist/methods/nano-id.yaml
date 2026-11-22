@@ -1,0 +1,33 @@
+name: nano-ID
+full_name: nanopore sequencing-based isoform dynamics
+category: wet
+summary: Metabolic labeling and native RNA nanopore sequencing measure the synthesis and stability of RNA isoforms.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+- single-molecule
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.257857.119
+  year: 2020
+  journal: Genome Res
+  first_author: Maier KC
+  last_author: Schwalb B
+  pmid: '32887688'
+  pmcid: PMC7545145
+  title: Native molecule sequencing by nano-ID reveals synthesis and stability of RNA isoforms
+links: {}
+added: '2026-11-21'
+evidence: Nano-ID combines metabolic RNA labeling and native RNA nanopore sequencing to detect newly synthesized isoforms
+  and estimate their stability.

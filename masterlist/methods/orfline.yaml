@@ -1,0 +1,21 @@
+name: ORFLine
+category: dry
+summary: ORFLine identifies small open reading frames and classifies them by their position within transcripts.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab339
+  year: 2021
+  journal: Bioinformatics
+  first_author: Hu F
+  last_author: Turner M
+  title: 'ORFLine: a bioinformatic pipeline to prioritize small open reading frames identifies candidate secreted small proteins
+    from lymphocytes'
+  preprint_doi: 10.1101/2021.01.21.426789
+links: {}
+added: '2026-11-21'
+evidence: ORFLine stringently identifies small open reading frames and classifies them according to their position within
+  transcripts.

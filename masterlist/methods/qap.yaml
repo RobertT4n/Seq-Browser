@@ -1,0 +1,19 @@
+name: QAP
+full_name: Quasispecies Analysis Package
+category: dry
+summary: QAP analyzes and visualizes viral community sequencing data to characterize viral quasispecies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-6744-4
+  year: 2020
+  journal: BMC Genomics
+  first_author: Wang M
+  last_author: Zhang X
+  title: An integrated software for virus community sequencing data analysis
+links: {}
+added: '2026-11-21'
+evidence: QAP supports viral community analyses and was evaluated on sequencing data from several viruses.

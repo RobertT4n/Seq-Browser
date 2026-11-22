@@ -1,0 +1,19 @@
+name: Metabolic Allele Classifier
+category: dry
+summary: The Metabolic Allele Classifier uses flux balance analysis and genomic alleles to predict antimicrobial resistance
+  with biochemical interpretation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-16310-9
+  year: 2020
+  journal: Nature Communications
+  first_author: Kavvas ES
+  last_author: Palsson BO
+  title: A biochemically-interpretable machine learning classifier for microbial GWAS
+links: {}
+added: '2026-11-21'
+evidence: The classifier uses flux balance analysis to estimate biochemical effects of alleles and predict antimicrobial resistance.

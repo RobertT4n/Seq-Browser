@@ -1,0 +1,22 @@
+name: HISAT-3N
+full_name: hierarchical indexing for spliced alignment of transcripts - 3 nucleotides
+category: dry
+summary: Aligns sequences containing nucleotide conversions from technologies such as bisulfite-seq and SLAM-seq.
+readouts:
+- dna-methylation
+- dna-5mc
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.275193.120
+  year: 2021
+  journal: Genome Research
+  first_author: Zhang Y
+  last_author: Kim D
+  title: Rapid and accurate alignment of nucleotide conversion sequencing reads with HISAT-3N
+  preprint_doi: 10.1101/2020.12.15.422906
+links: {}
+added: '2026-11-21'
+evidence: HISAT-3N aligns sequences containing nucleotide conversions from technologies including bisulfite-seq and SLAM-seq.

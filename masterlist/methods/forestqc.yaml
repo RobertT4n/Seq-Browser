@@ -1,0 +1,18 @@
+name: ForestQC
+category: dry
+summary: Combines filtering and machine learning to identify likely false-positive genetic variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007556
+  year: 2019
+  journal: PLOS Computational Biology
+  first_author: Li J
+  last_author: Sul JH
+  title: 'ForestQC: Quality control on genetic variants from next-generation sequencing data using random forest'
+links: {}
+added: '2026-11-21'
+evidence: ForestQC uses sequencing quality information to predict whether a variant is likely to be false-positive.

@@ -1,0 +1,18 @@
+name: RHtyper
+category: dry
+summary: An algorithm determines RH genotypes from whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1182/bloodadvances.2020002148
+  year: 2020
+  journal: Blood Advances
+  first_author: Chang TC
+  last_author: Zheng Y
+  title: A novel algorithm comprehensively characterizes human RH genes using whole-genome sequencing data
+links: {}
+added: '2026-11-21'
+evidence: RHtyper genotypes RHD and RHCE using existing whole-genome sequencing data.

@@ -1,0 +1,27 @@
+name: M-CREATE
+full_name: Multiplexed-CREATE
+category: wet
+summary: Multiplexed positive and negative selection with sequencing identifies AAV capsid variants targeting distinct cell
+  types.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-020-0799-7
+  year: 2020
+  journal: Nature Methods
+  first_author: Ravindra Kumar S
+  last_author: Gradinaru V
+  title: Multiplexed Cre-dependent selection yields systemic AAVs for targeting distinct brain cell types
+links: {}
+added: '2026-11-21'
+evidence: M-CREATE combines synthetic libraries, sequencing and analysis to identify capsid variants across multiple selection
+  criteria.

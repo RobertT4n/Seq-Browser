@@ -1,0 +1,18 @@
+name: CircMiner
+category: dry
+summary: Circular RNA detection method that filters linear reads and identifies back-splice junctions using pseudo-alignment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa232
+  year: 2020
+  journal: Bioinformatics
+  first_author: Asghari H
+  last_author: Hach F
+  title: 'CircMiner: accurate and rapid detection of circular RNA through splice-aware pseudo-alignment scheme'
+links: {}
+added: '2026-11-21'
+evidence: CircMiner filters linear RNA sequencing reads and detects circular RNAs through back-splice junctions.

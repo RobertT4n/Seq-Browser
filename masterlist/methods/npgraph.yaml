@@ -1,0 +1,22 @@
+name: npGraph
+category: dry
+summary: Streaming hybrid assembly tool that uses long reads to resolve paths through a short-read assembly graph.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pcbi.1008586
+  year: 2021
+  journal: PLOS Computational Biology
+  first_author: Nguyen SH
+  last_author: Coin LJM
+  title: Real-time resolution of short-read assembly graph using ONT long reads
+  preprint_doi: 10.1101/2020.02.17.953539
+links: {}
+added: '2026-11-21'
+evidence: npGraph resolves paths in an assembly graph using long reads as a guide and was applied to bacterial isolate genomes.

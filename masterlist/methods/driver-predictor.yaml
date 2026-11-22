@@ -1,0 +1,20 @@
+name: driver-predictor
+category: dry
+summary: RNA-seq comparison tool that scores transcriptional similarity to reveal differentiation bias and genes underlying
+  cell type changes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz789
+  year: 2019
+  journal: Bioinformatics
+  first_author: Steffens S
+  last_author: Hutchins AP
+  title: 'DPre: computational identification of differentiation bias and genes underlying cell type conversions'
+links: {}
+added: '2026-11-21'
+evidence: driver-predictor compares per-gene transcriptional similarity against cell type libraries or a target expression
+  profile to reveal directional differentiation bias.

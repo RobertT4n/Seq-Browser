@@ -1,0 +1,21 @@
+name: TBwDM
+category: dry
+summary: Clinical metagenomics pipeline that jointly identifies pathogens and antibiotic resistance genes in bronchoalveolar
+  lavage samples.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.02.26.966309
+  year: 2020
+  journal: bioRxiv
+  first_author: Tournoud
+  last_author: J
+  title: Clinical metagenomics bioinformatics pipeline for the identification of hospital-acquired pneumonia pathogens antibiotic
+    resistance genes from bronchoalveolar lavage samples
+links: {}
+added: '2026-11-21'
+evidence: TBwDM maps reads against an antibiotic resistance gene database in parallel with taxonomic binning and joint assembly.

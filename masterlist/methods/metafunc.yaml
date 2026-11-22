@@ -1,0 +1,21 @@
+name: MetaFunc
+category: dry
+summary: Workflow for identifying microbiome species and associating them with functional annotations from sequencing reads.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1017/gmb.2022.12
+  year: 2023
+  journal: Gut Microbiome
+  first_author: Sulit AK
+  last_author: Schmeier S
+  title: 'MetaFunc: taxonomic and functional analyses of high throughput sequencing for microbiomes'
+  preprint_doi: 10.1101/2020.09.02.271098
+links: {}
+added: '2026-11-21'
+evidence: MetaFunc identifies species and associated gene ontology annotations and was demonstrated on metatranscriptomic
+  colorectal cancer datasets.

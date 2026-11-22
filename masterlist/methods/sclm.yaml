@@ -1,0 +1,19 @@
+name: scLM
+category: dry
+summary: Detects clusters of co-expressed genes across one or multiple single-cell datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2020.09.002
+  year: 2020
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Song Q
+  last_author: Zhang W
+  title: 'scLM: Automatic Detection of Consensus Gene Clusters Across Multiple Single-Cell Datasets'
+  preprint_doi: 10.1101/2020.04.22.055822
+links: {}
+added: '2026-11-21'
+evidence: scLM clusters co-expressed genes across multiple single-cell datasets while preserving biological variation.

@@ -1,0 +1,19 @@
+name: Episo
+category: dry
+summary: Quantifies RNA 5-methylcytosine at the transcript isoform level from RNA bisulfite sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz900
+  year: 2019
+  journal: Bioinformatics
+  first_author: Liu J
+  last_author: Zhang Z
+  title: 'Episo: quantitative estimation of RNA 5-methylcytosine at isoform level by high-throughput sequencing of RNA treated
+    with bisulfite'
+links: {}
+added: '2026-11-21'
+evidence: Episo maps, quantifies and simulates RNA-BisSeq data to quantify RNA m5C at the transcript isoform level.

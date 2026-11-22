@@ -1,0 +1,19 @@
+name: 2DImpute
+category: dry
+summary: Imputation method that identifies and corrects false zeros in single-cell RNA-seq expression matrices using gene
+  and cell relationships.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa148
+  year: 2020
+  journal: Bioinformatics
+  first_author: Zhu K
+  last_author: Anastassiou D
+  title: '2DImpute: imputation in single-cell RNA-seq data from correlations in two dimensions'
+links: {}
+added: '2026-11-21'
+evidence: 2DImpute predicts false zeros and imputes their values using relationships between genes and cells.

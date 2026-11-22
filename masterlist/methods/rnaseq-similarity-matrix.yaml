@@ -1,0 +1,20 @@
+name: RNASeq_similarity_matrix
+category: dry
+summary: Generates a sequence similarity matrix from RNA-seq data to help identify sample mix-ups and contamination.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz821
+  year: 2019
+  journal: Bioinformatics
+  first_author: Kist NC
+  last_author: Malki K
+  title: 'RNASeq_similarity_matrix: visually identify sample mix-ups in RNASeq data using a ‘genomic’ sequence similarity
+    matrix'
+links: {}
+added: '2026-11-21'
+evidence: The automated tool generates a sequence similarity matrix from RNA-seq data for visual identification of sample
+  mix-ups.

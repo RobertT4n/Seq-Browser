@@ -1,0 +1,21 @@
+name: MethCP
+category: dry
+summary: Change-point method for detecting differentially methylated regions in whole-genome bisulfite sequencing data across
+  varied experimental designs.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2019.0326
+  year: 2020
+  journal: Journal of Computational Biology
+  first_author: Gong B
+  last_author: Purdom E
+  title: 'MethCP: Differentially Methylated Region Detection with Change Point Models'
+links: {}
+added: '2026-11-21'
+evidence: MethCP segments the genome by change-point detection and performs region-level differential methylation analysis,
+  including for time-course data.

@@ -1,0 +1,20 @@
+name: CarDEC
+category: dry
+summary: Joint deep learning model that corrects batch effects, denoises and clusters single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.271874.120
+  year: 2021
+  journal: Genome Research
+  first_author: Lakkis J
+  last_author: Li M
+  title: A joint deep learning model enables simultaneous batch effect correction, denoising, and clustering in single-cell
+    transcriptomics
+  preprint_doi: 10.1101/2020.09.23.310003
+links: {}
+added: '2026-11-21'
+evidence: CarDEC corrects batch effects in both embedding and gene expression spaces while clustering and denoising.

@@ -1,0 +1,18 @@
+name: scHLAcount
+category: dry
+summary: Single-cell RNA-seq workflow that counts allele-specific HLA transcripts using a personalized reference.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa264
+  year: 2020
+  journal: Bioinformatics
+  first_author: Darby CA
+  last_author: Fiddes IT
+  title: 'scHLAcount: allele-specific HLA expression from single-cell gene expression data'
+links: {}
+added: '2026-11-21'
+evidence: scHLAcount computes allele-specific HLA molecule counts from single-cell RNA-seq data and sample HLA genotypes.

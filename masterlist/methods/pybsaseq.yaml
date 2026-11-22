@@ -1,0 +1,20 @@
+name: PyBSASeq
+category: dry
+summary: Bulked segregant analysis algorithm that uses significant SNP proportions across genomic intervals to identify trait-associated
+  regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3435-8
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Zhang J
+  last_author: Panthee DR
+  title: 'PyBSASeq: a simple and effective algorithm for bulked segregant analysis with whole-genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PyBSASeq identifies significant SNPs using Fisher's exact test and uses their ratio within chromosomal intervals
+  to detect trait-associated regions.

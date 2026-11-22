@@ -1,0 +1,20 @@
+name: SCSA
+category: dry
+summary: Automatically annotates cell types in single-cell RNA-seq data using differentially expressed genes and marker confidence.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.00490
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Cao Y
+  last_author: Peng G
+  title: 'SCSA: A Cell Type Annotation Tool for Single-Cell RNA-seq Data'
+  preprint_doi: 10.1101/2019.12.22.886481
+links: {}
+added: '2026-11-21'
+evidence: SCSA combines differentially expressed genes with confidence levels of known and user-defined cell markers to annotate
+  cell types.

@@ -1,0 +1,19 @@
+name: RNAIndel
+category: dry
+summary: Machine-learning tool that classifies indels in tumor RNA-seq data as somatic, germline or artifacts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz753
+  year: 2019
+  journal: Bioinformatics
+  first_author: Hagiwara K
+  last_author: Zhang J
+  title: 'RNAIndel: discovering somatic coding indels from tumor RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: RNAIndel predicts somatic, germline and artifact indels from tumor RNA-seq using sequence-context and biological-effect
+  features.

@@ -1,0 +1,22 @@
+name: EpiNano version 1.2
+category: dry
+summary: EpiNano version 1.2 predicts RNA m6A modifications from direct nanopore RNA sequencing data.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1007/978-1-0716-1374-0_3
+  year: 2021
+  journal: Methods in Molecular Biology
+  first_author: Liu H
+  last_author: Novoa EM
+  title: 'EpiNano: Detection of m6A RNA Modifications Using Oxford Nanopore Direct RNA Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: EpiNano version 1.2 predicts m6A modifications from direct RNA sequencing datasets and can train models using base-called
+  and raw nanopore data.

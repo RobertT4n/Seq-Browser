@@ -1,0 +1,18 @@
+name: Sc-GPE
+category: dry
+summary: Cluster ensemble method that combines five graph partitioning approaches for single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.604790
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Zhu X
+  last_author: Wang J
+  title: 'Sc-GPE: A Graph Partitioning-Based Cluster Ensemble Method for Single-Cell'
+links: {}
+added: '2026-11-21'
+evidence: Sc-GPE constructs a consensus matrix from five single-cell clustering solutions.

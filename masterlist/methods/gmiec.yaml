@@ -1,0 +1,22 @@
+name: GMIEC
+full_name: Genomic Modules Identification et Characterization
+category: dry
+summary: A web application integrates patient-level multi-omics data to identify groups of genes and corresponding drugs.
+readouts:
+- rna
+- genome-sequence
+- dna-methylation
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-06996-y
+  year: 2020
+  journal: BMC Genomics
+  first_author: Malagoli Tagliazucchi G
+  last_author: Taccioli C
+  title: 'GMIEC: a shiny application for the identification of gene-targeted drugs for precision medicine'
+links: {}
+added: '2026-11-21'
+evidence: GMIEC integrates two or more omics datasets at the sample level to identify gene groups and corresponding drugs.

@@ -1,0 +1,20 @@
+name: ASEP
+category: dry
+summary: ASEP detects gene-level allele-specific expression across individuals and differential allele-specific expression
+  between conditions from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1008786
+  year: 2020
+  journal: PLOS Genetics
+  first_author: Fan J
+  last_author: Li M
+  title: 'ASEP: Gene-based detection of allele-specific expression across individuals in a population by RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ASEP uses a mixture model with subject-specific random effects to detect gene-level allele-specific expression across
+  individuals.

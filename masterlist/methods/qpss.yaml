@@ -1,0 +1,20 @@
+name: QPSS
+full_name: Quantitative Phenotype Scan Statistic
+category: dry
+summary: QPSS identifies genomic regions containing clusters of rare variants associated with continuous phenotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12881-020-01046-6
+  year: 2020
+  journal: BMC Medical Genetics
+  first_author: Katsumata Y
+  last_author: Fardo DW
+  title: Quantitative phenotype scan statistic (QPSS) reveals rare variant associations with Alzheimer’s disease endophenotypes
+links: {}
+added: '2026-11-21'
+evidence: QPSS extends a scan statistic to continuous outcomes to identify regions where rare phenotype-associated variants
+  cluster.

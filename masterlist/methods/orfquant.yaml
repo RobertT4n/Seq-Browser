@@ -1,0 +1,19 @@
+name: ORFquant
+category: dry
+summary: Ribo-seq analysis method that annotates and quantifies translation of individual open reading frames across transcript
+  isoforms.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41594-020-0450-4
+  year: 2020
+  journal: Nature Structural &amp; Molecular Biology
+  first_author: Calviello L
+  last_author: Ohler U
+  title: Quantification of translation uncovers the functions of the alternative transcriptome
+links: {}
+added: '2026-11-21'
+evidence: ORFquant annotates and quantifies translation at the level of single open reading frames using Ribo-seq data.

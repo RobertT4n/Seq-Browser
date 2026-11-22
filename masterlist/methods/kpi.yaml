@@ -1,0 +1,19 @@
+name: KPI
+full_name: in silico KIR probe interpretation
+category: dry
+summary: Infers individual KIR genes and haplotype pairs from sequencing reads using synthetic k-mer probes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fimmu.2020.583013
+  year: 2020
+  journal: Frontiers in Immunology
+  first_author: Roe D
+  last_author: Kuang R
+  title: Accurate and Efficient KIR Gene and Haplotype Inference From Genome Sequencing Reads With Novel K-mer Signatures
+links: {}
+added: '2026-11-21'
+evidence: KPI interprets KIR genes and haplotype pairs from sequencing reads using synthetic 25-base probes.

@@ -1,0 +1,18 @@
+name: IgGeneUsage
+category: dry
+summary: Bayesian tool for analyzing differential immunoglobulin gene usage across biological conditions.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa174
+  year: 2020
+  journal: Bioinformatics
+  first_author: Kitanovski S
+  last_author: Hoffmann D
+  title: 'IgGeneUsage: differential gene usage in immune repertoires'
+links: {}
+added: '2026-11-21'
+evidence: IgGeneUsage uses hierarchical Bayesian models to quantify differential immunoglobulin gene usage.

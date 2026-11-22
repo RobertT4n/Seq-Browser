@@ -1,0 +1,20 @@
+name: GAIN-GTEx
+category: dry
+summary: Generative adversarial imputation method that infers missing gene expression values using reference transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.624128
+  year: 2021
+  journal: Frontiers in Genetics
+  first_author: Viñas R
+  last_author: Liò P
+  title: Deep Learning Enables Fast and Accurate Imputation of Gene Expression
+  preprint_doi: 10.1101/2020.06.09.141689
+links: {}
+added: '2026-11-21'
+evidence: GAIN-GTEx uses generative adversarial imputation networks and GTEx transcriptomes to recover missing expression
+  values.

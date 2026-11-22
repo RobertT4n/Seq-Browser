@@ -1,0 +1,28 @@
+name: tagHi-C
+full_name: low-input tagmentation-based Hi-C
+category: wet
+summary: Low-input tagmentation-based Hi-C maps three-dimensional chromatin architecture from hundreds of cells.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- mouse
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.celrep.2020.108206
+  year: 2020
+  journal: Cell Rep
+  first_author: Zhang C
+  last_author: Cheng H
+  pmid: '32997998'
+  title: tagHi-C Reveals 3D Chromatin Architecture Dynamics during Mouse Hematopoiesis
+links: {}
+added: '2026-11-21'
+evidence: tagHi-C captured chromatin structures from hundreds of cells and mapped primary mouse bone marrow populations.

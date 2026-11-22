@@ -1,0 +1,19 @@
+name: BRAKER2
+category: dry
+summary: An automated pipeline predicts eukaryotic gene structures using protein sequences aligned to the genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa108
+  year: 2021
+  journal: NAR Genomics and Bioinformatics
+  first_author: Brůna T
+  last_author: Borodovsky M
+  title: 'BRAKER2: automatic eukaryotic genome annotation with GeneMark-EP+ and AUGUSTUS supported by a protein database'
+  preprint_doi: 10.1101/2020.08.10.245134
+links: {}
+added: '2026-11-21'
+evidence: BRAKER2 combines GeneMark-EP+ and AUGUSTUS with cross-species protein sequences to annotate novel eukaryotic genomes.

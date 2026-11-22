@@ -1,0 +1,19 @@
+name: performance-weighted-voting model
+category: dry
+summary: Ensemble machine learning model that classifies cancer types using per-gene somatic mutation counts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s40484-020-0226-1
+  year: 2020
+  journal: Quantitative Biology
+  first_author: Li Y
+  last_author: Luo Y
+  title: 'Performance‐weighted‐voting model: An ensemble machine learning method for cancer type classification using whole‐exome
+    sequencing mutation'
+links: {}
+added: '2026-11-21'
+evidence: The model combines five classifiers weighted by predictive performance and uses somatic mutation counts per gene.

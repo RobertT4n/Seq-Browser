@@ -1,0 +1,22 @@
+name: ItClust
+full_name: Iterative Transfer learning algorithm with neural network for scRNA-seq Clustering
+category: dry
+summary: Transfer learning algorithm that clusters and classifies single cells using annotated source data and information
+  from the target dataset.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-020-00233-7
+  year: 2020
+  journal: Nature Machine Intelligence
+  first_author: Hu J
+  last_author: Li M
+  title: Iterative transfer learning with neural network for clustering and cell type classification in single-cell RNA-seq
+    analysis
+  preprint_doi: 10.1101/2020.02.02.931139
+links: {}
+added: '2026-11-21'
+evidence: ItClust learns cell type knowledge from annotated source data while leveraging information in the target data.

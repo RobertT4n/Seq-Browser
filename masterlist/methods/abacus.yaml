@@ -1,0 +1,20 @@
+name: ABACUS
+category: dry
+summary: Counts intronic and exonic UMIs to improve gene expression quantification and nucleus identification in single-nucleus
+  RNA sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.11.13.381624
+  year: 2020
+  journal: bioRxiv
+  first_author: Xi
+  last_author: M
+  title: 'ABACUS: A flexible UMI counter that leverages intronic reads for single-nucleus RNAseq analysis'
+links: {}
+added: '2026-11-21'
+evidence: ABACUS incorporates intronic reads into gene expression quantification and separately counts forward intronic, reverse
+  intronic and exonic UMIs.

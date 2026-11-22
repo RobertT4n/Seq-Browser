@@ -1,0 +1,22 @@
+name: SpaGE
+full_name: Spatial Gene Enhancement using scRNA-seq
+category: dry
+summary: SpaGE integrates spatial transcriptomics and single-cell RNA-seq to predict transcriptome-wide expression in spatial
+  configurations.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa740
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Abdelaal T
+  last_author: Reinders MJT
+  title: 'SpaGE: Spatial Gene Enhancement using scRNA-seq'
+  preprint_doi: 10.1101/2020.05.08.084392
+links: {}
+added: '2026-11-21'
+evidence: SpaGE integrates spatial and scRNA-seq datasets to predict whole-transcriptome expression in spatial configuration.

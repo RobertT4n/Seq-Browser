@@ -1,0 +1,19 @@
+name: DECENT
+full_name: differential expression with capture efficiency adjustmeNT
+category: dry
+summary: Tests differential expression in single-cell RNA-seq data while modeling molecule capture and dropout.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz453
+  year: 2019
+  journal: Bioinformatics
+  first_author: Ye C
+  last_author: Salim A
+  title: 'DECENT: differential expression with capture efficiency adjustmeNT for single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: DECENT performs differential expression analysis while explicitly modeling the molecule capture process.

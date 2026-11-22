@@ -1,0 +1,22 @@
+name: WellMeth
+category: dry
+summary: Pipeline for quantifying cytosine methylation and identifying differentially methylated sites and regions in reduced
+  representation bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/tpg2.20049
+  year: 2020
+  journal: The Plant Genome
+  first_author: Malinowska M
+  last_author: Asp T
+  title: The cytosine methylation landscape of spring barley revealed by a new reduced representation bisulfite sequencing
+    pipeline, WellMeth
+links: {}
+added: '2026-11-21'
+evidence: WellMeth quantified context-specific methylation at single-base resolution and identified differentially methylated
+  sites and regions.

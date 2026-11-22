@@ -1,0 +1,20 @@
+name: MAnorm2
+category: dry
+summary: Normalizes and compares groups of ChIP-seq samples to identify differential binding events.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.262675.120
+  year: 2020
+  journal: Genome Research
+  first_author: Tu S
+  last_author: Shao Z
+  title: MAnorm2 for quantitatively comparing groups of ChIP-seq samples
+  preprint_doi: 10.1101/2020.01.07.896894
+links: {}
+added: '2026-11-21'
+evidence: MAnorm2 normalizes ChIP-seq data and assesses differential signals using within-group variability under an empirical
+  Bayes framework.

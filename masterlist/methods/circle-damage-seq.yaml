@@ -1,0 +1,22 @@
+name: circle-damage-seq
+full_name: circle damage sequencing
+category: wet
+summary: circle-damage-seq maps DNA damage genome-wide by selectively cleaving circularized damage-containing DNA molecules
+  before sequencing.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1101/2020.06.28.176388
+  year: 2020
+  journal: bioRxiv
+  first_author: Jin
+  last_author: G. P
+  title: Mapping of DNA damage genome-wide at nucleotide resolution by circle damage sequencing (CD-seq)
+links: {}
+added: '2026-11-21'
+evidence: Proof-of-principle experiments mapped UVB-induced cyclobutane pyrimidine dimers at nucleotide resolution.

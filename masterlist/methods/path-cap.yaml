@@ -1,0 +1,28 @@
+name: PatH-Cap
+full_name: Pathogen Hybrid Capture
+category: wet
+summary: Transcriptome-specific probes enrich bacterial mRNA and deplete bacterial rRNA to support paired host-pathogen transcriptional
+  profiling.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: targeted
+chemistry:
+- oligo-capture
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- microbe
+reference:
+  doi: 10.1038/s41598-019-55633-6
+  year: 2019
+  journal: Scientific Reports
+  first_author: Betin V
+  last_author: Hung DT
+  title: Hybridization-based capture of pathogen mRNA enables paired host-pathogen transcriptional analysis
+links: {}
+added: '2026-11-21'
+evidence: PatH-Cap enabled analysis of low-input samples including single eukaryotic cells infected by one to three Pseudomonas
+  aeruginosa bacteria.

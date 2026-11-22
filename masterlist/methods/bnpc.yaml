@@ -1,0 +1,20 @@
+name: BnpC
+category: dry
+summary: Clusters single cells into clones and infers their genotypes from noisy mutation profiles.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa599
+  year: 2020
+  journal: Bioinformatics
+  first_author: Borgsmüller N
+  last_author: Beerenwinkel N
+  title: 'BnpC: Bayesian non-parametric clustering of single-cell mutation profiles'
+  preprint_doi: 10.1101/2020.01.15.907345
+links: {}
+added: '2026-11-21'
+evidence: BnpC uses a non-parametric mixture model to infer clones and genotypes from single-cell mutation profiles.

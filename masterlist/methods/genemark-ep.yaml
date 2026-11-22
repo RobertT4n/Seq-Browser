@@ -1,0 +1,18 @@
+name: GeneMark-EP
+category: dry
+summary: GeneMark-EP predicts eukaryotic genes using protein-derived hints to improve its model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa026
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Brůna T
+  last_author: Borodovsky M
+  title: 'GeneMark-EP+: eukaryotic gene prediction with self-training in the space of genes and proteins'
+links: {}
+added: '2026-11-21'
+evidence: GeneMark-EP uses hints extracted from protein mapping to improve gene model parameter estimates.

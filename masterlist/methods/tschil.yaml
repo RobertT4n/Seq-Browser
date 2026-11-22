@@ -1,0 +1,24 @@
+name: tsChIL
+category: wet
+summary: Epigenomic profiling of single tissue sections supports analysis of tissue cell-population dynamics.
+readouts:
+- protein-dna-binding
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.15252/msb.202110323
+  year: 2021
+  journal: Molecular Systems Biology
+  first_author: Maehara K
+  last_author: Ohkawa Y
+  title: Modeling population size independent tissue epigenomes by ChIL‐seq with single thin sections
+  preprint_doi: 10.1101/2020.12.18.423434
+links: {}
+added: '2026-11-21'
+evidence: tsChIL profiles single tissue sections and uses RNA polymerase II distribution on gene loci to analyze regenerating
+  skeletal muscle.

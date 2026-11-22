@@ -1,0 +1,20 @@
+name: cis-X
+category: dry
+summary: A computational method that integrates whole-genome and transcriptome sequencing to discover candidate regulatory
+  noncoding variants in individual cancer samples.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-020-0659-5
+  year: 2020
+  journal: Nature Genetics
+  first_author: Liu Y
+  last_author: Zhang J
+  title: Discovery of regulatory noncoding variants in individual cancer genomes by using cis-X
+links: {}
+added: '2026-11-21'
+evidence: cis-X finds aberrantly cis-activated genes and searches for noncoding variants that may cause their activation.

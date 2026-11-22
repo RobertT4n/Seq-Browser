@@ -1,0 +1,20 @@
+name: bMIND
+category: dry
+summary: A Bayesian method integrates bulk and single-cell RNA-seq data to estimate sample-level cell-type-specific expression.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.268722.120
+  year: 2021
+  journal: Genome Research
+  first_author: Wang J
+  last_author: Devlin B
+  title: Bayesian estimation of cell type–specific gene expression with prior derived from single-cell data
+  preprint_doi: 10.1101/2020.08.05.238949
+links: {}
+added: '2026-11-21'
+evidence: bMIND uses a prior derived from scRNA-seq data to estimate cell-type-specific expression for individual bulk samples.

@@ -1,0 +1,27 @@
+name: BARseq2
+category: wet
+summary: BARseq2 uses in situ sequencing to map neuronal projections and multiplexed gene expression in the same cells.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2020.08.25.266460
+  year: 2020
+  journal: bioRxiv
+  first_author: Sun
+  last_author: A. M
+  title: Integrating barcoded neuroanatomy with spatial transcriptional profiling reveals cadherin correlates of projections
+    shared across the cortex
+links: {}
+added: '2026-11-21'
+evidence: The method measured gene expression and projections in cells from mouse motor and auditory cortex.

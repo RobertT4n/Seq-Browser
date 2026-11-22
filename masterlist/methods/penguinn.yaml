@@ -1,0 +1,20 @@
+name: PENGUINN
+full_name: Precise Exploration of Nuclear G-quadruplexes Using Interpretable Neural Networks
+category: dry
+summary: Convolutional neural network that predicts G-quadruplex potential from sequence.
+readouts:
+- dna-secondary-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.568546
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Klimentova E
+  last_author: Alexiou P
+  title: 'PENGUINN: Precise Exploration of Nuclear G-Quadruplexes Using Interpretable Neural Networks'
+  preprint_doi: 10.1101/2020.06.02.129072
+links: {}
+added: '2026-11-21'
+evidence: PENGUINN learns characteristics of G4 sequences and predicts G4s from input sequences.

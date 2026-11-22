@@ -1,0 +1,25 @@
+name: MEBarcoding
+full_name: Microfluidic Enrichment Barcoding
+category: wet
+summary: Microfluidic multiplex PCR generates plant DNA barcodes for high-throughput species identification.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- microfluidic-chip
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1038/s41598-020-64919-z
+  year: 2020
+  journal: Scientific Reports
+  first_author: Gostel MR
+  last_author: Puente-Lelievre C
+  title: 'Microfluidic Enrichment Barcoding (MEBarcoding): a new method for high throughput plant DNA barcoding'
+links: {}
+added: '2026-11-21'
+evidence: MEBarcoding used the Fluidigm Access Array to amplify targeted regions from 48 DNA samples with hundreds of primer
+  pairs.

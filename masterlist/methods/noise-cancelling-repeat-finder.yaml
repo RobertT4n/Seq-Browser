@@ -1,0 +1,22 @@
+name: Noise-Cancelling Repeat Finder
+category: dry
+summary: Locates putative tandem repeats of specified motifs in error-prone long sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btz484
+  year: 2019
+  journal: Bioinformatics
+  first_author: Harris RS
+  last_author: Makova KD
+  title: 'Noise-cancelling repeat finder: uncovering tandem repeats in error-prone long-read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NCRF uncovers putative tandem repeats of specified motifs in noisy PacBio and Oxford Nanopore reads.

@@ -1,0 +1,19 @@
+name: Shiny-SoSV
+category: dry
+summary: A web calculator predicts somatic structural variant detection performance for proposed sequencing study designs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0238108
+  year: 2020
+  journal: PLOS ONE
+  first_author: Gong T
+  last_author: Chan EKF
+  title: 'Shiny-SoSV: A web-based performance calculator for somatic structural variant detection'
+links: {}
+added: '2026-11-21'
+evidence: Shiny-SoSV models sensitivity, precision and F1 score using factors including sequencing depth, variant allele fraction
+  and detection tool.

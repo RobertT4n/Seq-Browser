@@ -1,0 +1,20 @@
+name: TOP
+full_name: Transcription Orientation Pipeline
+category: dry
+summary: Determines the transcription direction of selected sequences from transcriptome reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.01.15.903914
+  year: 2020
+  journal: bioRxiv
+  first_author: Houenoussi
+  last_author: C
+  title: 'TOP the Transcription Orientation Pipeline and its use to investigate the transcription of non-coding regions: assessment
+    with CRISPR direct repeats and intergenic sequences'
+links: {}
+added: '2026-11-21'
+evidence: TOP retrieves transcriptome reads corresponding to a selected sequence and determines its transcription direction.

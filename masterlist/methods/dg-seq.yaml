@@ -1,0 +1,19 @@
+name: DG-seq
+category: dry
+summary: A computational pipeline detects and quantifies defective viral genomes from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.077529.120
+  year: 2020
+  journal: RNA
+  first_author: Boussier J
+  last_author: Naffakh N
+  title: RNA-seq accuracy and reproducibility for the mapping and quantification of influenza defective viral genomes
+links: {}
+added: '2026-11-21'
+evidence: DG-seq detects and quantifies influenza defective viral genomes, alongside biological controls for assessing the
+  sequencing workflow.

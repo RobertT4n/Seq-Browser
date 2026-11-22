@@ -1,0 +1,24 @@
+name: ISSRseq
+category: wet
+summary: PCR amplification of inter-simple-sequence-repeat regions enables reduced-representation sequencing and genome-scale
+  variant discovery.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1111/2041-210X.13784
+  year: 2021
+  journal: Methods in Ecology and Evolution
+  first_author: Sinn BT
+  last_author: Barrett CF
+  title: 'ISSRseq: An extensible method for reduced representation sequencing'
+  preprint_doi: 10.1101/2020.12.21.423774
+links: {}
+added: '2026-11-21'
+evidence: ISSRseq amplifies inter-simple-sequence-repeat regions and was demonstrated in three angiosperm species.

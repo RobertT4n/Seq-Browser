@@ -1,0 +1,27 @@
+name: TFNseq
+full_name: transformation transposon insertion mutant sequencing
+category: wet
+summary: TFNseq tracks transposon insertion mutants after bacterial transformation to measure how rapidly disruption of essential
+  processes inhibits growth.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1073/pnas.2001507117
+  year: 2020
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Gallagher LA
+  last_author: Manoil C
+  title: Ranking essential bacterial processes by speed of mutant death
+links: {}
+added: '2026-11-21'
+evidence: Saturation-level mutant libraries allowed insertions in essential genes to be detected after transformation and
+  their loss followed during growth.

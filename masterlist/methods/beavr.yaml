@@ -1,0 +1,19 @@
+name: BEAVR
+full_name: Browser-based tool for the Exploration And Visualization of RNA-seq data
+category: dry
+summary: BEAVR provides interactive differential expression analysis and visualization of RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03549-8
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Perampalam P
+  last_author: Dick FA
+  title: 'BEAVR: a browser-based tool for the exploration and visualization of RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: BEAVR uses DESeq2 for differential expression analysis and visualizes results in graphs, plots and heatmaps.

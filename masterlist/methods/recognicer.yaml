@@ -1,0 +1,20 @@
+name: RECOGNICER
+full_name: Recursive coarse-graining identification for ChIP-seq enriched regions
+category: dry
+summary: Identifies enriched ChIP-seq domains across multiple length scales using recursive coarse-graining.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s40484-020-0225-2
+  year: 2020
+  journal: Quantitative Biology
+  first_author: Zang C
+  last_author: Peng W
+  title: 'RECOGNICER: A coarse‐graining approach for identifying broad domains from ChIP‐seq data'
+links: {}
+added: '2026-11-21'
+evidence: RECOGNICER uses recursive block transformations to identify ChIP-seq enriched domains across a large range of scales.

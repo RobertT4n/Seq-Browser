@@ -1,0 +1,24 @@
+name: PhenoMIP
+category: wet
+summary: Molecular inversion probes measure the relative fitness of pooled sequenced C. elegans strains.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- invertebrate
+reference:
+  doi: 10.1534/g3.120.401656
+  year: 2020
+  journal: G3 Genes|Genomes|Genetics
+  first_author: Mok C
+  last_author: Waterston RH
+  title: "PhenoMIP: High-Throughput Phenotyping of Diverse\n                    <i>Caenorhabditis elegans</i>\n          \
+    \          Populations via Molecular Inversion Probes"
+  preprint_doi: 10.1101/857854
+links: {}
+added: '2026-11-21'
+evidence: The authors used a pooled competitive fitness approach to phenotype 217 mutant strains on multiple food sources.

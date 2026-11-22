@@ -1,0 +1,21 @@
+name: MinYS
+full_name: Mine Your Symbiont
+category: dry
+summary: Assembles a selected genome from metagenomic reads using reference-guided backbone contigs followed by de novo extension.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nargab/lqaa047
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Guyomar C
+  last_author: Lemaitre C
+  title: 'MinYS: mine your symbiont by targeted genome assembly in symbiotic communities'
+  preprint_doi: 10.1101/2019.12.13.875021
+links: {}
+added: '2026-11-21'
+evidence: MinYS assembles one genome of interest from metagenomic data and outputs a genome graph that can distinguish strains
+  and structural variants.

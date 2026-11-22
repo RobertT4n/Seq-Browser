@@ -1,0 +1,18 @@
+name: VirHostMatcher-Net
+category: dry
+summary: Network-based framework that predicts virus-prokaryote host interactions using integrated sequence features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa044
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Wang W
+  last_author: Ahlgren NA
+  title: A network-based integrated framework for predicting virus–prokaryote interactions
+links: {}
+added: '2026-11-21'
+evidence: VirHostMatcher-Net predicts virus-prokaryote interactions using CRISPR sequences and alignment-free similarity measures.

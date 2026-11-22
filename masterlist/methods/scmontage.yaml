@@ -1,0 +1,19 @@
+name: scMontage
+category: dry
+summary: A similarity search tool compares query gene expression profiles with single-cell RNA-seq samples.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.08.30.271395
+  year: 2020
+  journal: bioRxiv
+  first_author: Mori
+  last_author: W
+  title: 'scMontage: Fast and Robust Gene Expression Similarity Search for Massive Single-cell Data'
+links: {}
+added: '2026-11-21'
+evidence: scMontage compares a query with thousands of scRNA-seq samples using rank correlation and links results to a human
+  cell database.

@@ -1,0 +1,21 @@
+name: pulseTD
+category: dry
+summary: An R package that infers continuous RNA transcription, maturation and degradation dynamics from 4sU-seq and RNA-seq
+  time courses.
+readouts:
+- nascent-rna
+- rna
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.9371
+  year: 2020
+  journal: PeerJ
+  first_author: Wang X
+  last_author: Wang Z
+  title: 'pulseTD: RNA life cycle dynamics analysis based on pulse model of 4sU-seq time course sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: pulseTD integrates 4sU-seq and RNA-seq data to capture continuous changes in RNA life-cycle rates.

@@ -1,0 +1,20 @@
+name: HELLO
+category: dry
+summary: Hybrid variant caller that combines short and long sequencing reads using an ensemble of neural networks.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2020.03.23.004473
+  year: 2020
+  journal: bioRxiv
+  first_author: Ramachandran
+  last_author: D
+  title: 'HELLO: A hybrid variant calling approach'
+links: {}
+added: '2026-11-21'
+evidence: HELLO integrates next-generation and third-generation sequencing reads to call small variants.

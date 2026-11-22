@@ -1,0 +1,19 @@
+name: intePareto
+category: dry
+summary: Integrative analysis tool that prioritizes genes with consistent RNA-seq and ChIP-seq changes using Pareto optimization.
+readouts:
+- rna
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-07205-6
+  year: 2020
+  journal: BMC Genomics
+  first_author: Cao Y
+  last_author: Hoffmann D
+  title: 'intePareto: an R package for integrative analyses of RNA-Seq and ChIP-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: intePareto matches RNA-seq and ChIP-seq data at genes and prioritizes consistent changes between conditions.

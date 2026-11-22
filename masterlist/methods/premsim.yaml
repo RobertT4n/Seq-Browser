@@ -1,0 +1,19 @@
+name: PreMSIm
+category: dry
+summary: Algorithm that predicts microsatellite instability in cancer from expression of a 15-gene panel.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.csbj.2020.03.007
+  year: 2020
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Li L
+  last_author: Wang X
+  title: 'PreMSIm: An R package for predicting microsatellite instability from the expression profiling of a gene panel in
+    cancer'
+links: {}
+added: '2026-11-21'
+evidence: PreMSIm predicts microsatellite instability using expression profiles of a 15-gene panel.

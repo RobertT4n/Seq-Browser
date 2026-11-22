@@ -1,0 +1,19 @@
+name: Batch-Corrected Distance
+category: dry
+summary: Distance metric that uses temporal and spatial locality to mitigate batch effects in single-cell clustering and visualization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.10.08.332080
+  year: 2020
+  journal: bioRxiv
+  first_author: Liang
+  last_author: K
+  title: Batch-Corrected Distance Mitigates Temporal and Spatial Variability for Clustering and Visualization of Single-Cell
+    Gene Expression Data
+links: {}
+added: '2026-11-21'
+evidence: The metric controls batch effects associated with samples collected at different times and locations.

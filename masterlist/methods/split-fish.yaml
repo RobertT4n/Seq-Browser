@@ -1,0 +1,27 @@
+name: split-FISH
+category: wet
+summary: split-FISH uses split fluorescence in situ hybridization probes to image multiple RNAs with enhanced specificity
+  in tissues.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-020-0858-0
+  year: 2020
+  journal: Nature Methods
+  first_author: Goh JJL
+  last_author: Chen KH
+  title: Highly specific multiplexed RNA imaging in tissues with split-FISH
+links: {}
+added: '2026-11-21'
+evidence: The authors quantified the distribution and abundance of 317 genes in single cells across mouse tissues.

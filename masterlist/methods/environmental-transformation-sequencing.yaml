@@ -1,0 +1,26 @@
+name: Environmental Transformation Sequencing
+category: wet
+summary: Environmental Transformation Sequencing maps and quantifies transposon integrations to identify genetically tractable
+  bacteria within microbial communities.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1038/s41564-021-01014-7
+  year: 2021
+  journal: Nature Microbiology
+  first_author: Rubin BE
+  last_author: Doudna JA
+  title: Species- and site-specific genome editing in complex bacterial communities
+  preprint_doi: 10.1101/2020.07.17.209189
+links: {}
+added: '2026-11-21'
+evidence: ET-Seq mapped non-targeted integrations following community delivery in synthetic and bioremediation microbial communities.

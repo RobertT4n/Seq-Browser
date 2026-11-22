@@ -1,0 +1,23 @@
+name: ImmuCellAI
+full_name: Immune Cell Abundance Identifier
+category: dry
+summary: Estimates immune cell and T-cell subset abundances from gene expression signatures and supports prediction of immunotherapy
+  response.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.201902880
+  year: 2020
+  journal: Advanced Science
+  first_author: Miao Y
+  last_author: Guo A
+  title: 'ImmuCellAI: A Unique Method for Comprehensive T‐Cell Subsets Abundance Prediction and its Application in Cancer
+    Immunotherapy'
+  preprint_doi: 10.1101/872184
+links: {}
+added: '2026-11-21'
+evidence: ImmuCellAI estimates 24 immune cell types from gene expression data and was used to build an immunotherapy response
+  model.

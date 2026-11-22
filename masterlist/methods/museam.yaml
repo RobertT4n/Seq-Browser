@@ -1,0 +1,22 @@
+name: MuSeAM
+full_name: Multinomial CNNs for Sequence Activity Modeling
+category: dry
+summary: A convolutional neural network that models sequence motifs and enhancer activity from massively parallel reporter
+  assay data.
+readouts:
+- functional-screen
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.07.28.224212
+  year: 2020
+  journal: bioRxiv
+  first_author: Park
+  last_author: M. A. H
+  title: Multinomial Convolutions for Joint Modeling of Sequence Motifs and Enhancer Activities
+links: {}
+added: '2026-11-21'
+evidence: MuSeAM models sequence-specific protein-DNA binding motifs, fits MPRA data and predicts chromatin accessibility.

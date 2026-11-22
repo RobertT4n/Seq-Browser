@@ -1,0 +1,20 @@
+name: sideRETRO
+category: dry
+summary: Pipeline that detects and genotypes retrocopy insertions and characterizes their genomic context.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa689
+  year: 2020
+  journal: Bioinformatics
+  first_author: Miller TLA
+  last_author: Galante PAF
+  title: 'sideRETRO: a pipeline for identifying somatic and polymorphic insertions of processed pseudogenes or retrocopies'
+  preprint_doi: 10.1101/2020.03.09.983858
+links: {}
+added: '2026-11-21'
+evidence: sideRETRO detects retrocopy insertions in whole-genome or whole-exome sequencing data and classifies them as somatic
+  or dimorphic.

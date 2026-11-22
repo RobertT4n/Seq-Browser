@@ -1,0 +1,20 @@
+name: spage2vec
+category: dry
+summary: Unsupervised, segmentation-free graph representation method for identifying spatial gene expression patterns in tissues.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.02.12.945345
+  year: 2020
+  journal: bioRxiv
+  first_author: Partel
+  last_author: C
+  title: 'Spage2vec: Unsupervised detection of spatial gene expression constellations'
+links: {}
+added: '2026-11-21'
+evidence: spage2vec creates lower-dimensional representations of local spatial gene expression and was applied to mouse brain
+  data.

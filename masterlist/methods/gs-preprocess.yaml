@@ -1,0 +1,19 @@
+name: GS-Preprocess
+category: dry
+summary: Preprocesses standard Illumina output for GUIDE-seq off-target profiling.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.01.26.914861
+  year: 2020
+  journal: bioRxiv
+  first_author: Rodriguez
+  last_author: L. J
+  title: 'GS-Preprocess: Containerized GUIDE-seq Data Analysis Tools with Diverse Sequencer Compatibility'
+links: {}
+added: '2026-11-21'
+evidence: GS-Preprocess performs demultiplexing, adapter trimming, alignment and UMI reference construction for GUIDE-seq
+  analysis.

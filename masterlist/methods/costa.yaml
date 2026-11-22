@@ -1,0 +1,20 @@
+name: CoSTA
+category: dry
+summary: CoSTA uses convolutional neural network clustering to compare spatial patterns of gene expression.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04314-1
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Xu Y
+  last_author: McCord RP
+  title: 'CoSTA: unsupervised convolutional neural network learning for spatial transcriptomics analysis'
+  preprint_doi: 10.1101/2021.01.12.426400
+links: {}
+added: '2026-11-21'
+evidence: CoSTA learns spatial similarities between gene expression matrices and quantifies similarities between pairs of
+  genes by their spatial patterns.

@@ -1,0 +1,18 @@
+name: B-GEX
+category: dry
+summary: Bayesian ridge regression method that infers gene expression in multiple tissues from blood expression profiles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa239
+  year: 2020
+  journal: Bioinformatics
+  first_author: Xu W
+  last_author: Li W
+  title: Blood-based multi-tissue gene expression inference with Bayesian ridge regression
+links: {}
+added: '2026-11-21'
+evidence: B-GEX uses blood gene expression profiles to infer expression profiles of multiple tissues.

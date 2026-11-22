@@ -1,0 +1,23 @@
+name: LIQA
+full_name: Long-read Isoform Quantification and Analysis
+category: dry
+summary: Statistical method for quantifying isoform expression and detecting differential alternative splicing from long-read
+  RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s13059-021-02399-8
+  year: 2021
+  journal: Genome Biology
+  first_author: Hu Y
+  last_author: Wang K
+  title: 'LIQA: long-read isoform quantification and analysis'
+  preprint_doi: 10.1101/2020.09.09.289793
+links: {}
+added: '2026-11-21'
+evidence: LIQA uses read quality and isoform-specific read length to estimate isoform expression and differential splicing.

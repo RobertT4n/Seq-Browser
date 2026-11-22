@@ -1,0 +1,20 @@
+name: CPCA
+full_name: Combined Principal Component Alignment
+category: dry
+summary: Aligns principal components across single-cell RNA-seq samples using nearest-neighbor cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.03.31.019109
+  year: 2020
+  journal: bioRxiv
+  first_author: Khodadadi-Jamayran
+  last_author: A
+  title: 'iCellR: Combined Coverage Correction and Principal Component Alignment for Batch Alignment in Single-Cell Sequencing
+    Analysis'
+links: {}
+added: '2026-11-21'
+evidence: CPCA uses k nearest neighbors to align principal components from neighboring cells in multiple samples.

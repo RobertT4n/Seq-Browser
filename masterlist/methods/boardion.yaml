@@ -1,0 +1,22 @@
+name: BoardION
+category: dry
+summary: Interactive application for real-time monitoring and comparison of Oxford Nanopore sequencing metrics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12859-021-04161-0
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Bruno A
+  last_author: Engelen S
+  title: 'BoardION: real-time monitoring of Oxford Nanopore sequencing instruments'
+  preprint_doi: 10.1101/2020.06.09.142273
+links: {}
+added: '2026-11-21'
+evidence: BoardION explores sequencing metrics during experiments and compares flowcells.

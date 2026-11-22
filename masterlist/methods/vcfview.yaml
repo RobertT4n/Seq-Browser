@@ -1,0 +1,19 @@
+name: vcfView
+category: dry
+summary: Interactively explores somatic variant calls and the effects of analytical filters on cancer sequencing results.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1177/1176935120972377
+  year: 2020
+  journal: Cancer Informatics
+  first_author: O’Sullivan B
+  last_author: Seoighe C
+  title: 'vcfView: An Extensible Data Visualization and Quality Assurance Platform for Integrated Somatic Variant Analysis'
+links: {}
+added: '2026-11-21'
+evidence: vcfView accepts a VCF file and lets researchers explore filter effects on allele frequencies, mutational signatures
+  and annotated somatic variants.

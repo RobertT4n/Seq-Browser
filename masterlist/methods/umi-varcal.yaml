@@ -1,0 +1,19 @@
+name: UMI-VarCal
+category: dry
+summary: UMI-VarCal calls low-frequency variants in targeted sequencing data using unique molecular identifiers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa053
+  year: 2020
+  journal: Bioinformatics
+  first_author: Sater V
+  last_author: Jardin F
+  title: 'UMI-VarCal: a new UMI-based variant caller that efficiently improves low-frequency variant detection in paired-end
+    sequencing NGS libraries'
+links: {}
+added: '2026-11-21'
+evidence: UMI-VarCal is a UMI-based variant caller for targeted sequencing data.

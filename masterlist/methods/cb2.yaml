@@ -1,0 +1,18 @@
+name: CB2
+category: dry
+summary: Uses clustering to distinguish cell-associated barcodes from background barcodes in 10x Genomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/832535
+  year: 2019
+  journal: bioRxiv
+  first_author: Ni
+  last_author: C
+  title: CB2 distinguishes cells from background barcodes in 10x Genomics data
+links: {}
+added: '2026-11-21'
+evidence: CB2 is a cluster-based approach for distinguishing real cells from background barcodes.

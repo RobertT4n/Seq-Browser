@@ -1,0 +1,19 @@
+name: Mustache
+category: dry
+summary: Scale-space method for detecting chromatin loops across multiple genomic distances in Hi-C and Micro-C contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02167-0
+  year: 2020
+  journal: Genome Biology
+  first_author: Roayaei Ardakany A
+  last_author: Ay F
+  title: 'Mustache: multi-scale detection of chromatin loops from Hi-C and Micro-C maps using scale-space representation'
+  preprint_doi: 10.1101/2020.02.24.963579
+links: {}
+added: '2026-11-21'
+evidence: Mustache detects blob-shaped objects in multi-scale representations of chromatin contact maps.

@@ -1,0 +1,19 @@
+name: 3DeFDR
+category: dry
+summary: A statistical tool identifies and classifies chromatin loops that differ across biological conditions in 5C and Hi-C
+  data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02061-9
+  year: 2020
+  journal: Genome Biology
+  first_author: Fernandez LR
+  last_author: Phillips-Cremins JE
+  title: '3DeFDR: statistical methods for identifying cell type-specific looping interactions in 5C and Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: 3DeFDR detects cell-type-specific looping interactions across conditions using 5C and Hi-C data.

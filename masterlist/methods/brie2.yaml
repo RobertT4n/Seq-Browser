@@ -1,0 +1,21 @@
+name: BRIE2
+category: dry
+summary: Identifies alternative splicing events associated with cell-level features and genes that capture heterogeneity in
+  transcriptional kinetics.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02461-5
+  year: 2021
+  journal: Genome Biology
+  first_author: Huang Y
+  last_author: Sanguinetti G
+  title: 'BRIE2: computational identification of splicing phenotypes from single-cell transcriptomic experiments'
+  preprint_doi: 10.1101/2020.11.04.368019
+links: {}
+added: '2026-11-21'
+evidence: BRIE2 regresses single-cell transcriptomic data against cell-level features to identify differential alternative
+  splicing and differential momentum genes.

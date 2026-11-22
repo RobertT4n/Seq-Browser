@@ -1,0 +1,23 @@
+name: DeepSignal
+category: dry
+summary: Uses deep learning to detect DNA 5mC and 6mA methylation states from Nanopore reads.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btz276
+  year: 2019
+  journal: Bioinformatics
+  first_author: Ni P
+  last_author: Wang J
+  title: 'DeepSignal: detecting DNA methylation state from Nanopore sequencing reads using deep-learning'
+links: {}
+added: '2026-11-21'
+evidence: DeepSignal detects 6mA and 5mC methylation states from Nanopore reads at read and genome levels.

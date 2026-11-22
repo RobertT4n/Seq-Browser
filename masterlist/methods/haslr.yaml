@@ -1,0 +1,21 @@
+name: HASLR
+category: dry
+summary: Assembles genomes using a combination of short and long sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.isci.2020.101389
+  year: 2020
+  journal: iScience
+  first_author: Haghshenas E
+  last_author: Hach F
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+  preprint_doi: 10.1101/2020.01.27.921817
+links: {}
+added: '2026-11-21'
+evidence: HASLR is a hybrid assembler that uses second- and third-generation sequencing reads to generate genome assemblies.

@@ -1,0 +1,22 @@
+name: SCPPIN
+category: dry
+summary: Integrates single-cell RNA sequencing with protein interaction networks to identify active modules in transcriptional
+  states.
+readouts:
+- rna
+- protein-protein-interaction
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-07144-2
+  year: 2020
+  journal: BMC Genomics
+  first_author: Klimm F
+  last_author: Reinert G
+  title: Functional module detection through integration of single-cell RNA sequencing data with protein–protein interaction
+    networks
+links: {}
+added: '2026-11-21'
+evidence: SCPPIN integrates single-cell RNA sequencing data with protein-protein interaction networks to detect active modules
+  in different transcriptional states.

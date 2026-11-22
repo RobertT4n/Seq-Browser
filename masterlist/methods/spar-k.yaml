@@ -1,0 +1,20 @@
+name: SPar-K
+full_name: Signal Partitioning with K-means
+category: dry
+summary: Partitions genomic regions by chromatin signal profiles to identify recurring chromatin architectures.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz416
+  year: 2019
+  journal: Bioinformatics
+  first_author: Groux R
+  last_author: Bucher P
+  title: 'SPar-K: a method to partition NGS signal data'
+links: {}
+added: '2026-11-21'
+evidence: SPar-K partitions genomic regions characterized by chromatin signal profiles around ChIP-seq peaks and other functional
+  sites.

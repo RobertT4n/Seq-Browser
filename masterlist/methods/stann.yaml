@@ -1,0 +1,20 @@
+name: STANN
+category: dry
+summary: A neural network transfers cell-type assignments from single-cell RNA-seq to spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.09.09.290064
+  year: 2020
+  journal: bioRxiv
+  first_author: Grisanti Canozo
+  last_author: M. A. H
+  title: Integrative Analysis of Spatial and Single-Cell Transcriptomics Reveals Principles of Tissue Organization and Intercellular
+    Communication in Mouse Olfactory Bulb
+links: {}
+added: '2026-11-21'
+evidence: STANN trains on genes shared between single-cell and spatial datasets and assigns cell types to the spatial data.

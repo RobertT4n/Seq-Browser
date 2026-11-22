@@ -1,0 +1,21 @@
+name: FIST
+full_name: Fast Imputation of Spatially-resolved transcriptomes by graph-regularized Tensor completion
+category: dry
+summary: A graph-regularized tensor completion model imputes missing expression values in spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008218
+  year: 2021
+  journal: PLOS Computational Biology
+  first_author: Li Z
+  last_author: Kuang R
+  title: Imputation of spatially-resolved transcriptomes by graph-regularized tensor completion
+  preprint_doi: 10.1101/2020.08.05.237560
+links: {}
+added: '2026-11-21'
+evidence: FIST uses a spatial graph and a protein-protein interaction network as prior information for imputing spatial expression
+  data.

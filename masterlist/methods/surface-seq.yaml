@@ -1,0 +1,26 @@
+name: Surface-seq
+category: wet
+summary: Surface-seq selectively sequences membrane-associated extracellular RNAs exposed on the cell surface.
+readouts:
+- rna
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1186/s13059-020-02145-6
+  year: 2020
+  journal: Genome Biology
+  first_author: Huang N
+  last_author: Zhong S
+  title: Natural display of nuclear-encoded RNA on the cell surface and its impact on cell interaction
+links: {}
+added: '2026-11-21'
+evidence: Surface-seq identified membrane-associated extracellular RNAs, two of which were validated by RNA fluorescence in
+  situ hybridization.

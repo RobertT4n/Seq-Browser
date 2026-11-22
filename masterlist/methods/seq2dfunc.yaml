@@ -1,0 +1,20 @@
+name: Seq2DFunc
+category: dry
+summary: Uses a convolutional neural network on graph representations of nucleic acid sequences to predict their functions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2019.12.22.886085
+  year: 2019
+  journal: bioRxiv
+  first_author: Guo
+  last_author: A. B
+  title: 'Seq2DFunc: 2-dimensional convolutional neural network on graph representation of synthetic sequences from massive-throughput
+    assay'
+links: {}
+added: '2026-11-21'
+evidence: Seq2DFunc was trained on an ordered graph representation of sequences to predict their functions in a CRISPR RNA
+  processing assay.

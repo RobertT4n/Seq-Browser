@@ -1,0 +1,20 @@
+name: DeepMosaic
+category: dry
+summary: Detects mosaic single-nucleotide variants using image-based visualization and convolutional neural network classification.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01559-w
+  year: 2023
+  journal: Nature Biotechnology
+  first_author: Yang X
+  last_author: Gleeson JG
+  title: Control-independent mosaic single nucleotide variant detection with DeepMosaic
+  preprint_doi: 10.1101/2020.11.14.382473
+links: {}
+added: '2026-11-21'
+evidence: DeepMosaic combines an image-based visualization module and a convolutional neural network classification module
+  for control-independent mosaic variant detection.

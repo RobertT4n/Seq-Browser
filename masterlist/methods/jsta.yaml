@@ -1,0 +1,22 @@
+name: JSTA
+full_name: Joint cell Segmentation and cell Type Annotation
+category: dry
+summary: A computational framework jointly segments cells and annotates cell types in RNA hybridization-based spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.15252/msb.202010108
+  year: 2021
+  journal: Molecular Systems Biology
+  first_author: Littman R
+  last_author: Wollman R
+  title: Joint cell segmentation and cell type annotation for spatial transcriptomics
+  preprint_doi: 10.1101/2020.09.18.304147
+links: {}
+added: '2026-11-21'
+evidence: JSTA uses prior cell-type-specific expression knowledge to improve RNA assignment and classify cells in spatial
+  data.

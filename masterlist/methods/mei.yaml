@@ -1,0 +1,19 @@
+name: MEI
+full_name: matched change characterization for exons and introns
+category: dry
+summary: A method jointly analyzes exon and intron RNA-seq data to identify differential expression and variability changes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-020-72482-w
+  year: 2020
+  journal: Scientific Reports
+  first_author: Eghbalnia HR
+  last_author: Chomczynski P
+  title: Coordinated analysis of exon and intron data reveals novel differential gene expression changes
+links: {}
+added: '2026-11-21'
+evidence: MEI examines coordinated exon and intron changes in expression and variability across conditions.

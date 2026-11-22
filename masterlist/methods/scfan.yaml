@@ -1,0 +1,21 @@
+name: scFAN
+full_name: Single Cell Factor Analysis Network
+category: dry
+summary: Predicts genome-wide transcription factor binding profiles in individual cells using single-cell ATAC-seq.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.aba9031
+  year: 2020
+  journal: Science Advances
+  first_author: Fu L
+  last_author: Xie X
+  title: Predicting transcription factor binding in single cells through deep learning
+  preprint_doi: 10.1101/2020.01.14.905232
+links: {}
+added: '2026-11-21'
+evidence: scFAN is pretrained on bulk ATAC-seq, DNA sequence and ChIP-seq data and predicts binding from single-cell ATAC-seq.

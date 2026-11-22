@@ -1,0 +1,20 @@
+name: Y2H-SCORES
+category: dry
+summary: Statistical framework that ranks candidate protein interaction partners from high-throughput yeast two-hybrid sequencing
+  screens.
+readouts:
+- protein-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.09.08.288365
+  year: 2020
+  journal: bioRxiv
+  first_author: Velasquez-Zapata
+  last_author: R. P
+  title: 'Y2H-SCORES: A statistical framework to infer protein-protein interactions from next-generation yeast-two-hybrid
+    sequence data'
+links: {}
+added: '2026-11-21'
+evidence: The framework scores selection enrichment, interaction specificity and in-frame interactors to identify partners.

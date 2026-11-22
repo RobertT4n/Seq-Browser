@@ -1,0 +1,19 @@
+name: scCapsNet-mask
+category: dry
+summary: Automates capsule-network cell-type classification and extraction of cell-type-related genes from single-cell RNA
+  sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.11.02.365346
+  year: 2020
+  journal: bioRxiv
+  first_author: Wang
+  last_author: J
+  title: 'scCapsNet-mask: an automatic version of scCapsNet'
+links: {}
+added: '2026-11-21'
+evidence: scCapsNet-mask uses a mask to automate scCapsNet and extract cell-type-related genes without manual inspection.

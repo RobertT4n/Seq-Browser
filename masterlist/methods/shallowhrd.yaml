@@ -1,0 +1,20 @@
+name: shallowHRD
+category: dry
+summary: Tool for detecting tumor homologous recombination deficiency from copy number profiles derived from shallow whole-genome
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa261
+  year: 2020
+  journal: Bioinformatics
+  first_author: Eeckhoutte A
+  last_author: Popova T
+  title: 'ShallowHRD: detection of homologous recombination deficiency from shallow whole genome sequencing'
+links: {}
+added: '2026-11-21'
+evidence: shallowHRD evaluates tumor homologous recombination deficiency by mining copy number alteration profiles from shallow
+  whole-genome sequencing.

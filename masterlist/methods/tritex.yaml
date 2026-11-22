@@ -1,0 +1,21 @@
+name: TRITEX
+category: dry
+summary: Assembles chromosome-scale genome sequences by combining several sequencing data types with chromosome conformation
+  capture data.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1899-5
+  year: 2019
+  journal: Genome Biology
+  first_author: Monat C
+  last_author: Mascher M
+  title: 'TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools'
+links: {}
+added: '2026-11-21'
+evidence: TRITEX combines paired-end, mate-pair, linked-read and chromosome conformation capture data to construct chromosomal
+  pseudomolecules.

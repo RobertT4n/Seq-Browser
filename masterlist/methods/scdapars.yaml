@@ -1,0 +1,21 @@
+name: scDaPars
+category: dry
+summary: Algorithm for quantifying alternative polyadenylation events from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.271346.120
+  year: 2021
+  journal: Genome Research
+  first_author: Gao Y
+  last_author: Li W
+  title: Analysis of alternative polyadenylation from single-cell RNA-seq using scDaPars reveals cell subpopulations invisible
+    to gene expression
+  preprint_doi: 10.1101/2020.09.23.310649
+links: {}
+added: '2026-11-21'
+evidence: scDaPars quantifies alternative polyadenylation at single-cell and single-gene resolution using standard scRNA-seq
+  data.

@@ -1,0 +1,22 @@
+name: PIWAS
+full_name: Protein-based Immunome Wide Association Study
+category: dry
+summary: Proteome-wide association method that identifies candidate antibody-antigen epitopes enriched in cases relative to
+  controls using SERA data.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2021.625311
+  year: 2021
+  journal: Frontiers in Immunology
+  first_author: Haynes WA
+  last_author: Shon JC
+  title: Protein-Based Immunome Wide Association Studies (PIWAS) for the Discovery of Significant Disease-Associated Antigens
+  preprint_doi: 10.1101/2020.03.18.997759
+links: {}
+added: '2026-11-21'
+evidence: PIWAS uses proteome-based signals from a sequencing-based peptide display assay to find candidate antibody-antigen
+  epitopes elevated in cases.

@@ -1,0 +1,18 @@
+name: BAdabouM
+category: dry
+summary: Detects structural variants in whole-genome resequencing data using multiple read-alignment signatures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.04.01.018127
+  year: 2020
+  journal: bioRxiv
+  first_author: Cumer
+  last_author: F
+  title: 'BAdabouM: a genomic structural variations discovery tool for polymorphism analyses'
+links: {}
+added: '2026-11-21'
+evidence: BAdabouM uses split reads, discordant read pairs and uneven coverage to detect several classes of structural variation.

@@ -1,0 +1,20 @@
+name: HAPHPIPE
+full_name: HAplotype PHylodynamics PIPEline
+category: dry
+summary: A pipeline for viral consensus genome assembly and reconstruction of intra-host sequence haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v12070758
+  year: 2020
+  journal: Viruses
+  first_author: Gibson KM
+  last_author: Crandall KA
+  title: Validation of Variant Assembly Using HAPHPIPE with Next-Generation Sequence Data from Viruses
+links: {}
+added: '2026-11-21'
+evidence: HAPHPIPE supports de novo and reference-based viral sequence assembly and quantifies intra-host variation through
+  haplotype reconstruction.

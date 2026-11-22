@@ -1,0 +1,22 @@
+name: gNOMO
+category: dry
+summary: A pipeline that integrates host and microbiome metagenomic, metatranscriptomic and metaproteomic data from non-model
+  organisms.
+readouts:
+- microbial-composition
+- genome-sequence
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa058
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Muñoz-Benavent M
+  last_author: Muth T
+  title: 'gNOMO: a multi-omics pipeline for integrated host and microbiome analysis of non-model organisms'
+links: {}
+added: '2026-11-21'
+evidence: gNOMO processes up to three meta-omics levels and supports taxonomic, functional and expression-ratio analyses.

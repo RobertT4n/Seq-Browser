@@ -1,0 +1,21 @@
+name: ChIC
+category: dry
+summary: ChIC assesses ChIP-seq data quality by combining enrichment profile shape and other metrics into a machine-learning
+  score.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.05.19.103887
+  year: 2020
+  journal: bioRxiv
+  first_author: Livi
+  last_author: F
+  title: A ChIC solution for ChIP-seq quality assessment
+links: {}
+added: '2026-11-21'
+evidence: ChIC combines quality-control metrics into a score and considers enrichment profile shape for sharp and broad ChIP
+  peaks.

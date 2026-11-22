@@ -1,0 +1,19 @@
+name: scIntegral
+category: dry
+summary: Semi-supervised method that integrates donor scRNA-seq data and identifies cell types using marker lists.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.09.17.301911
+  year: 2020
+  journal: bioRxiv
+  first_author: Lee
+  last_author: B
+  title: Integrating scRNA-seq data of multiple donors increases cell-type identification accuracy
+links: {}
+added: '2026-11-21'
+evidence: scIntegral probabilistically identifies cell types using marker priors and integrates data from donors with heterogeneity
+  and batch effects.

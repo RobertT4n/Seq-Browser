@@ -1,0 +1,22 @@
+name: ProSolo
+category: dry
+summary: Calls single-nucleotide variants in amplified single-cell DNA by jointly modeling single-cell and bulk sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26938-w
+  year: 2021
+  journal: Nature Communications
+  first_author: Lähnemann D
+  last_author: Schönhuth A
+  title: Accurate and scalable variant calling from single cell DNA sequencing data with ProSolo
+  preprint_doi: 10.1101/2020.04.27.064071
+links: {}
+added: '2026-11-21'
+evidence: ProSolo models amplification bias and errors and jointly analyzes a single cell with a bulk sample from the same
+  population.

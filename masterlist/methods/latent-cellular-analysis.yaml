@@ -1,0 +1,19 @@
+name: Latent Cellular Analysis
+category: dry
+summary: Combines latent cellular state similarity with graph clustering to identify heterogeneous populations in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz826
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Cheng C
+  last_author: Chen X
+  title: Latent cellular analysis robustly reveals subtle diversity in large-scale single-cell RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: LCA combines cosine similarity measured through latent cellular states with a graph-based clustering algorithm.

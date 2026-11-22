@@ -1,0 +1,24 @@
+name: RI-SEC-seq
+category: wet
+summary: Sequencing size-exclusion chromatography fractions treated with RNase inhibitors profiles nonvesicular extracellular
+  RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkaa674
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Tosar JP
+  last_author: Cayota A
+  title: Fragmentation of extracellular ribosomes and tRNAs shapes the extracellular RNAome
+  preprint_doi: 10.1101/2020.01.29.923714
+links: {}
+added: '2026-11-21'
+evidence: RI-SEC-seq revealed changes in extracellular RNA composition when enzymatic RNA degradation was inhibited.

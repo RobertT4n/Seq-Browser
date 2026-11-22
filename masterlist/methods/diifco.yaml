@@ -1,0 +1,27 @@
+name: DIIFCO
+full_name: diagnosing in situ immunofluorescence-labelled cleared oncosamples
+category: wet
+summary: DIIFCO images RNA and protein expression in intact tumour volumes and organoids at single-cell resolution.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+validated_system:
+- tissue-in-vivo
+- organoid
+reference:
+  doi: 10.1038/s41551-020-0576-z
+  year: 2020
+  journal: Nature Biomedical Engineering
+  first_author: Tanaka N
+  last_author: Uhlén P
+  title: Three-dimensional single-cell imaging for the analysis of RNA and protein expression in intact tumour biopsies
+links: {}
+added: '2026-11-21'
+evidence: Volumetric imaging was used to spatially profile coding and non-coding RNAs in single cells across cancer tissues.

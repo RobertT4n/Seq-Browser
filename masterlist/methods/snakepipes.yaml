@@ -1,0 +1,25 @@
+name: snakePipes
+category: dry
+summary: Provides configurable workflows for processing and downstream analysis of several epigenomic and transcriptomic assays.
+readouts:
+- protein-dna-binding
+- histone-modification
+- rna
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz436
+  year: 2019
+  journal: Bioinformatics
+  first_author: Bhardwaj V
+  last_author: Manke T
+  title: 'snakePipes: facilitating flexible, scalable and integrative epigenomic analysis'
+links: {}
+added: '2026-11-21'
+evidence: snakePipes provides workflows for ChIP-seq, RNA-seq, bisulfite-seq, ATAC-seq, Hi-C and single-cell RNA-seq.

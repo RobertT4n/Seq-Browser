@@ -1,0 +1,20 @@
+name: AUSPP
+full_name: A universal short-read pre-processing package
+category: dry
+summary: Provides a pipeline for quality control, preprocessing and mapping of short sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720019500379
+  year: 2019
+  journal: Journal of Bioinformatics and Computational Biology
+  first_author: Gao L
+  last_author: Liu L
+  title: 'AUSPP: A universal short-read pre-processing package'
+links: {}
+added: '2026-11-21'
+evidence: AUSPP includes quality control, adapter trimming, read collapsing, structural RNA removal, length selection and
+  read mapping.

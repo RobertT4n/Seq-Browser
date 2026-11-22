@@ -1,0 +1,20 @@
+name: miRDetect
+category: dry
+summary: miRDetect identifies novel plant microRNA precursors from expressed sequence tag data using homology and machine
+  learning.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2020.05.002
+  year: 2020
+  journal: Genomics
+  first_author: Ayachit G
+  last_author: Das J
+  title: 'miRDetect: A combinatorial approach for automated detection of novel miRNA precursors from plant EST data using
+    homology and Random Forest classification'
+links: {}
+added: '2026-11-21'
+evidence: miRDetect detects novel miRNA precursors from plant EST data using homology and a machine-learning approach.

@@ -1,0 +1,20 @@
+name: MaREA4Galaxy
+category: dry
+summary: Estimates metabolic reaction activity from RNA-seq expression data and compares or clusters samples by their metabolic
+  profiles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.04.008
+  year: 2020
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Damiani C
+  last_author: Mauri G
+  title: 'MaREA4Galaxy: Metabolic reaction enrichment analysis and visualization of RNA-seq data within Galaxy'
+links: {}
+added: '2026-11-21'
+evidence: MaREA4Galaxy computes reaction activity scores from enzyme gene expression and uses them for group comparisons and
+  sample clustering.

@@ -1,0 +1,20 @@
+name: TranSuite
+category: dry
+summary: Pipeline that translates and characterizes transcript open reading frames and identifies potential nonsense-mediated
+  decay substrates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.12.15.422989
+  year: 2020
+  journal: bioRxiv
+  first_author: Entizne
+  last_author: J. W
+  title: 'TranSuite: a software suite for accurate translation and characterization of transcripts'
+links: {}
+added: '2026-11-21'
+evidence: TranSuite performs translations, characterizes alternative open reading frames, and identifies NMD and other transcript
+  features.

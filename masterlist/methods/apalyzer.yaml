@@ -1,0 +1,18 @@
+name: APAlyzer
+category: dry
+summary: RNA-seq analysis package for examining alternative polyadenylation isoforms and gene expression changes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa266
+  year: 2020
+  journal: Bioinformatics
+  first_author: Wang R
+  last_author: Tian B
+  title: 'APAlyzer: a bioinformatics package for analysis of alternative polyadenylation isoforms'
+links: {}
+added: '2026-11-21'
+evidence: APAlyzer examines 3' UTR and intronic alternative polyadenylation and gene expression changes using RNA-seq data.

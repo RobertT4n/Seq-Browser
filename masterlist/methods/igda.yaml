@@ -1,0 +1,25 @@
+name: iGDA
+category: dry
+summary: Tool for detecting and phasing minor single-nucleotide variants and reconstructing haplotypes from long-read sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1038/s41467-021-23289-4
+  year: 2021
+  journal: Nature Communications
+  first_author: Feng Z
+  last_author: Schadt EE
+  title: Detecting and phasing minor single-nucleotide variants from long-read sequencing data
+  preprint_doi: 10.1101/2020.09.25.314252
+links: {}
+added: '2026-11-21'
+evidence: iGDA detects and phases minor variants from raw long reads and reconstructs closely related strain haplotypes in
+  metagenomic data.

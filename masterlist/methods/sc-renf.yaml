@@ -1,0 +1,18 @@
+name: sc-REnF
+category: dry
+summary: Entropy-based gene selection method for robust clustering of single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.10.10.334573
+  year: 2020
+  journal: bioRxiv
+  first_author: Lall
+  last_author: S
+  title: 'sc-REnF: An entropy guided robust feature selection for clustering of single-cell rna-seq data'
+links: {}
+added: '2026-11-21'
+evidence: sc-REnF uses Rényi and Tsallis entropy for gene selection to support single-cell clustering.

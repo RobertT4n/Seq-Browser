@@ -1,0 +1,19 @@
+name: NeoFuse
+category: dry
+summary: Predicts fusion-derived neoantigens from tumor RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz879
+  year: 2019
+  journal: Bioinformatics
+  first_author: Fotakis G
+  last_author: Finotello F
+  title: 'NeoFuse: predicting fusion neoantigens from RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NeoFuse predicts fusion transcripts, translated peptides, HLA types and peptide-HLA binding affinity from tumor
+  RNA-seq data.

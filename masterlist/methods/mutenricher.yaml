@@ -1,0 +1,20 @@
+name: MutEnricher
+category: dry
+summary: A toolset for testing somatic mutation enrichment in coding and non-coding regions using whole-genome sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03695-z
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Soltis AR
+  last_author: Wilkerson MD
+  title: 'MutEnricher: a flexible toolset for somatic mutation enrichment analysis of tumor whole genomes'
+links: {}
+added: '2026-11-21'
+evidence: MutEnricher calculates feature-level and local somatic mutation enrichment statistics from whole-genome sequencing
+  data.

@@ -1,0 +1,25 @@
+name: FLAIR
+full_name: Full-Length Alternative Isoform analysis of RNA
+category: dry
+summary: Computational workflow for identifying high-confidence transcripts and analyzing differential splicing and isoform
+  abundance from full-length reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-020-15171-6
+  year: 2020
+  journal: Nature Communications
+  first_author: Tang AD
+  last_author: Brooks AN
+  title: Full-length transcript characterization of SF3B1 mutation in chronic lymphocytic leukemia reveals downregulation
+    of retained introns
+links: {}
+added: '2026-11-21'
+evidence: FLAIR identifies high-confidence transcripts and performs differential splicing event and isoform analysis on nanopore
+  reads.

@@ -1,0 +1,20 @@
+name: PRESCIENT
+full_name: Potential eneRgy undErlying Single Cell gradIENTs
+category: dry
+summary: A generative model learns differentiation landscapes from single-cell expression time series and simulates cell trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.08.26.269332
+  year: 2020
+  journal: bioRxiv
+  first_author: Yeo
+  last_author: D. K
+  title: Generative modeling of single-cell population time series for inferring cell differentiation landscapes
+links: {}
+added: '2026-11-21'
+evidence: PRESCIENT learns a differentiation landscape from single-cell time-series gene expression data and simulates trajectories
+  from arbitrary progenitor states.

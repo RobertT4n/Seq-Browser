@@ -1,0 +1,21 @@
+name: DISC
+category: dry
+summary: A semi-supervised deep learning method that infers gene expression and structure obscured by dropout in single-cell
+  transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02083-3
+  year: 2020
+  journal: Genome Biology
+  first_author: He Y
+  last_author: Xie Z
+  title: 'DISC: a highly scalable and accurate inference of gene expression and structure for single-cell transcriptomes using
+    semi-supervised deep learning'
+links: {}
+added: '2026-11-21'
+evidence: DISC uses semi-supervised learning to recover gene expression and improve cell type identification in sparse scRNA-seq
+  data.

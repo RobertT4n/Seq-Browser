@@ -1,0 +1,25 @@
+name: sMETASeq
+full_name: small RNA Metagenomics by Sequencing
+category: wet
+summary: sMETASeq sequences small RNAs to profile microbial composition alongside host and bacterial small RNA expression.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- microbe
+reference:
+  doi: 10.1016/j.isci.2020.101131
+  year: 2020
+  journal: iScience
+  first_author: Mjelle R
+  last_author: Sætrom P
+  title: 'sMETASeq: Combined Profiling of Microbiota and Host Small RNAs'
+links: {}
+added: '2026-11-21'
+evidence: The method was evaluated on a mock bacterial community and human samples including cancer tissues and biofluids.

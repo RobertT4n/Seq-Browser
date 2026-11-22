@@ -1,0 +1,22 @@
+name: seed-embed-extend
+full_name: seed-embed-extend
+category: dry
+summary: A sequence mapping and alignment methodology that embeds reads and reference sequences to identify candidate alignments
+  using Hamming distance.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04162-z
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Yan Y
+  last_author: Appuswamy R
+  title: 'Accel-Align: a fast sequence mapper and aligner based on the seed–embed–extend method'
+  preprint_doi: 10.1101/2020.07.20.211888
+links: {}
+added: '2026-11-21'
+evidence: The seed-embed-extend methodology transforms read and reference strings into an embedded space and uses Hamming
+  distance to identify candidates.

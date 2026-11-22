@@ -1,0 +1,20 @@
+name: VBCALAVD
+full_name: Virtual Barcode-based Calling Algorithm for Low Allelic Variant Detection
+category: dry
+summary: Calls low-allele-fraction variants across capture panels using virtual read families and background-noise filters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-020-3412-2
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Wu L
+  last_author: Li YX
+  title: A novel virtual barcode strategy for accurate panel-wide variant calling in circulating tumor DNA
+links: {}
+added: '2026-11-21'
+evidence: VBCALAVD clusters sequencing reads into virtual families to reduce errors in panel-wide circulating tumor DNA variant
+  calling.

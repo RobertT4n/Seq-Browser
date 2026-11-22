@@ -1,0 +1,19 @@
+name: SRHiC
+full_name: super-resolution Hi-C
+category: dry
+summary: Uses deep learning to predict higher-resolution Hi-C data from low-coverage contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.00353
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Li Z
+  last_author: Dai Z
+  title: 'SRHiC: A Deep Learning Model to Enhance the Resolution of Hi-C Data'
+links: {}
+added: '2026-11-21'
+evidence: SRHiC enhances the resolution of Hi-C data using a deep learning model.

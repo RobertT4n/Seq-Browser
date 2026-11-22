@@ -1,0 +1,29 @@
+name: isoCirc
+category: wet
+summary: Rolling circle amplification and nanopore sequencing characterize full-length circular RNA isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+species:
+- human
+validated_system:
+- tissue-in-vivo
+- cell-line
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-020-20459-8
+  year: 2021
+  journal: Nature Communications
+  first_author: Xin R
+  last_author: Xing Y
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+links: {}
+added: '2026-11-21'
+evidence: isoCirc uses rolling circle amplification followed by nanopore sequencing to catalog full-length circular RNA isoforms.

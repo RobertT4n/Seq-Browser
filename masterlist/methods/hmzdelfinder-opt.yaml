@@ -1,0 +1,21 @@
+name: HMZDelFinder_opt
+category: dry
+summary: An approach for detecting homozygous and hemizygous deletions, including partial exon deletions, in whole-exome sequencing
+  cohorts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nargab/lqab037
+  year: 2021
+  journal: NAR Genomics and Bioinformatics
+  first_author: Bigio B
+  last_author: Cobat A
+  title: Detection of homozygous and hemizygous complete or partial exon deletions by whole-exome sequencing
+  preprint_doi: 10.1101/2020.07.23.217976
+links: {}
+added: '2026-11-21'
+evidence: An optimized reference control set and sliding window approach improve detection of homozygous and hemizygous deletions
+  in whole-exome data.

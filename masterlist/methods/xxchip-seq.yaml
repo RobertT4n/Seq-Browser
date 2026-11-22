@@ -1,0 +1,22 @@
+name: xxChIP-seq
+category: wet
+summary: xxChIP-seq binds antibodies to fixed intact chromatin before a second fixation and immunoprecipitation to map exposed
+  chromatin epitopes.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1186/s13072-020-00345-9
+  year: 2020
+  journal: Epigenetics &amp; Chromatin
+  first_author: Teif VB
+  last_author: Olins DE
+  title: Linker histone epitopes are hidden by in situ higher-order chromatin structure
+links: {}
+added: '2026-11-21'
+evidence: Antibody binding precedes the second fixation, sonication and immunoprecipitation to preserve information about
+  epitopes exposed in intact chromatin.

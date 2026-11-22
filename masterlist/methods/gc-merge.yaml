@@ -1,0 +1,23 @@
+name: GC-MERGE
+full_name: Graph Convolutional Model for Epigenetic Regulation of Gene Expression
+category: dry
+summary: Graph convolutional model that predicts gene expression using long-range genomic interactions and histone modifications.
+readouts:
+- rna
+- 3d-genome
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2021.0316
+  year: 2022
+  journal: Journal of Computational Biology
+  first_author: Bigness J
+  last_author: Singh R
+  title: Integrating Long-Range Regulatory Interactions to Predict Gene Expression Using Graph Convolutional Networks
+  preprint_doi: 10.1101/2020.11.23.394478
+links: {}
+added: '2026-11-21'
+evidence: GC-MERGE integrates spatial genomic organization and histone modifications to predict gene expression and quantify
+  regulatory factor importance.

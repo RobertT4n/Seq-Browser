@@ -1,0 +1,21 @@
+name: Single-Cell Virtual Cytometer
+category: dry
+summary: Enables flow cytometry-like visualization and integrated exploration of multimodal single-cell datasets.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa025
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Pont F
+  last_author: Fournié JJ
+  title: Single-Cell Virtual Cytometer allows user-friendly and versatile analysis and visualization of multimodal single
+    cell RNAseq datasets
+  preprint_doi: 10.1101/843946
+links: {}
+added: '2026-11-21'
+evidence: The software was illustrated using CITE-seq data to analyze transcriptomes and immunophenotypes together.

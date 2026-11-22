@@ -1,0 +1,19 @@
+name: MetaCNV
+category: dry
+summary: Consensus copy number caller that combines multiple callers to infer genome-wide copy numbers, including from low-coverage
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-020-00731-y
+  year: 2020
+  journal: BMC Medical Genomics
+  first_author: Friedrich S
+  last_author: Sonnhammer ELL
+  title: MetaCNV - a consensus approach to infer accurate copy numbers from low coverage data
+links: {}
+added: '2026-11-21'
+evidence: MetaCNV integrates multiple copy number callers to infer absolute copy numbers across the human genome.

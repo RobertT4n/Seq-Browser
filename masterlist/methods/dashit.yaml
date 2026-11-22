@@ -1,0 +1,18 @@
+name: DASHit
+category: dry
+summary: Designs targets for depletion of abundant sequences from sequencing libraries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.01.12.891176
+  year: 2020
+  journal: bioRxiv
+  first_author: Dynerman
+  last_author: E. D
+  title: Designing and implementing programmable depletion in sequencing libraries with DASHit
+links: {}
+added: '2026-11-21'
+evidence: DASHit outputs an optimal DASH target set given a sequencing dataset.

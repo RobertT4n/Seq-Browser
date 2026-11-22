@@ -1,0 +1,19 @@
+name: aScan
+category: dry
+summary: Method for identifying allele-specific expression from matched individual genomic and RNA sequencing data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2021.166829
+  year: 2021
+  journal: Journal of Molecular Biology
+  first_author: Zambelli F
+  last_author: Pesole G
+  title: 'aScan: A Novel Method for the Study of Allele Specific Expression in Single Individuals'
+links: {}
+added: '2026-11-21'
+evidence: aScan identifies allele-specific expression by analyzing matched individual genomic and RNA sequencing data.

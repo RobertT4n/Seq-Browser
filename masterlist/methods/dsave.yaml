@@ -1,0 +1,19 @@
+name: DSAVE
+full_name: Down-SAmpling based Variation Estimation
+category: dry
+summary: Method that evaluates single-cell transcriptome cluster purity and identifies potentially misclassified cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0243360
+  year: 2020
+  journal: PLOS ONE
+  first_author: Gustafsson J
+  last_author: Nielsen J
+  title: 'DSAVE: Detection of misclassified cells in single-cell RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: DSAVE uses down-sampling and a log-likelihood metric to assess cluster purity and identify misclassified cells.

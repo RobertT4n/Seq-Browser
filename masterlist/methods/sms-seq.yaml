@@ -1,0 +1,25 @@
+name: SMS-seq
+full_name: Single-Molecule Structure sequencing
+category: wet
+summary: Structural probing and native RNA sequencing profile structural features and dependencies in individual RNA molecules.
+readouts:
+- rna-structure
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1093/nar/gkac775
+  year: 2022
+  journal: Nucleic Acids Research
+  first_author: Bizuayehu TT
+  last_author: Valen E
+  title: Long-read single-molecule RNA structure sequencing using nanopore
+  preprint_doi: 10.1101/2020.05.18.101402
+links: {}
+added: '2026-11-21'
+evidence: SMS-seq combines structural probing with native RNA sequencing to produce non-amplified structural profiles of individual
+  molecules.

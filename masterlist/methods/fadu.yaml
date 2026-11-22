@@ -1,0 +1,20 @@
+name: FADU
+full_name: Feature Aggregate Depth Utility
+category: dry
+summary: FADU quantifies prokaryotic RNA-seq features by assigning fragment counts in proportion to their overlap with each
+  feature.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.00917-20
+  year: 2021
+  journal: mSystems
+  first_author: Chung M
+  last_author: Dunning Hotopp JC
+  title: 'FADU: a Quantification Tool for Prokaryotic Transcriptomic Analyses'
+links: {}
+added: '2026-11-21'
+evidence: FADU assigns partial count values proportional to the length of each fragment overlapping the target feature.

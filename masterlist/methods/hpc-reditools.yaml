@@ -1,0 +1,19 @@
+name: HPC-REDItools
+category: dry
+summary: Detects RNA-editing events in large RNA-seq datasets using a parallel implementation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03562-x
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Flati T
+  last_author: Castrignanò T
+  title: 'HPC-REDItools: a novel HPC-aware tool for improved large scale RNA-editing analysis'
+  preprint_doi: 10.1101/2020.04.30.069732
+links: {}
+added: '2026-11-21'
+evidence: HPC-REDItools discovers RNA-editing events from large datasets using an MPI-based implementation.

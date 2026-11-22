@@ -1,0 +1,18 @@
+name: Haplotracker
+category: dry
+summary: Estimates mitochondrial haplogroups from short control-region sequence fragments and identifies variants for follow-up.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.04.23.057646
+  year: 2020
+  journal: bioRxiv
+  first_author: Kim
+  last_author: K.-y
+  title: 'Haplotracker: a web application for simple and accurate mitochondrial haplogrouping using short DNA fragments'
+links: {}
+added: '2026-11-21'
+evidence: Haplotracker estimates probable haplogroups from control-region sequences using Phylotree and a haplotype database.

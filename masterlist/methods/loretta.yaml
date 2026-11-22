@@ -1,0 +1,23 @@
+name: LoReTTA
+full_name: Long Read Template-Targeted Assembler
+category: dry
+summary: LoReTTA uses a reference genome to guide assembly of PacBio long reads from viral genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/ve/veab042
+  year: 2021
+  journal: Virus Evolution
+  first_author: Al Qaffas A
+  last_author: Camiolo S
+  title: LoReTTA, a user-friendly tool for assembling viral genomes from PacBio sequence data
+links: {}
+added: '2026-11-21'
+evidence: LoReTTA assembles long reads generated from viral genomes on the PacBio platform using a reference genome to guide
+  assembly.

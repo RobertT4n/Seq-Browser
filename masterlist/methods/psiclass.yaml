@@ -1,0 +1,18 @@
+name: PsiCLASS
+category: dry
+summary: Assembles transcripts by jointly analyzing multiple RNA-seq samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12990-0
+  year: 2019
+  journal: Nature Communications
+  first_author: Song L
+  last_author: Florea L
+  title: A multi-sample approach increases the accuracy of transcript assembly
+links: {}
+added: '2026-11-21'
+evidence: PsiCLASS simultaneously analyzes multiple RNA-seq samples for transcript assembly.

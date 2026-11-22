@@ -1,0 +1,22 @@
+name: IgCaller
+category: dry
+summary: An algorithm that reconstructs immunoglobulin gene rearrangements and oncogenic translocations from short-read whole-genome
+  sequencing data.
+readouts:
+- genome-sequence
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41467-020-17095-7
+  year: 2020
+  journal: Nature Communications
+  first_author: Nadeu F
+  last_author: Campo E
+  title: IgCaller for reconstructing immunoglobulin gene rearrangements and oncogenic translocations from whole-genome sequencing
+    in lymphoid neoplasms
+links: {}
+added: '2026-11-21'
+evidence: IgCaller characterizes heavy and light chain rearrangements, somatic mutations, class switch recombination and oncogenic
+  immunoglobulin translocations.

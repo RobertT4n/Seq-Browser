@@ -1,0 +1,20 @@
+name: AIDE
+full_name: annotation-assisted isoform discovery
+category: dry
+summary: Discovers and quantifies full-length mRNA isoforms from RNA-seq data using annotation and testing-based model selection.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.251108.119
+  year: 2019
+  journal: Genome Research
+  first_author: Li WV
+  last_author: Li JJ
+  title: 'AIDE: annotation-assisted isoform discovery with high precision'
+links: {}
+added: '2026-11-21'
+evidence: AIDE prioritizes annotated isoforms and identifies novel isoforms that significantly improve the explanation of
+  RNA-seq reads.

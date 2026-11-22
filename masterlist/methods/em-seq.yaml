@@ -1,0 +1,25 @@
+name: EM-seq
+full_name: Enzymatic Methyl-seq
+category: wet
+summary: An enzymatic conversion approach profiles DNA methylation at single-base resolution from low-input DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/gr.266551.120
+  year: 2021
+  journal: Genome Research
+  first_author: Vaisvila R
+  last_author: Davis TB
+  title: Enzymatic methyl sequencing detects DNA methylation at single-base resolution from picograms of DNA
+  preprint_doi: 10.1101/2019.12.20.884692
+links: {}
+added: '2026-11-21'
+evidence: EM-seq uses an enzymatic approach with as little as 100 pg of DNA and was compared with whole-genome bisulfite sequencing.

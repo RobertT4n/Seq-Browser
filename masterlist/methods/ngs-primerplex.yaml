@@ -1,0 +1,19 @@
+name: NGS-PrimerPlex
+category: dry
+summary: Designs multiplex PCR primers for targeted sequencing panels while considering primer interactions and genomic variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1008468
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Kechin A
+  last_author: Filipenko M
+  title: 'NGS-PrimerPlex: High-throughput primer design for multiplex polymerase chain reactions'
+links: {}
+added: '2026-11-21'
+evidence: NGS-PrimerPlex designs primers for amplicon-based genome target enrichment and was used to create a panel for LRRK2
+  coding regions.

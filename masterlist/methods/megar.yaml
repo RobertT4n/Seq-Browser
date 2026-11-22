@@ -1,0 +1,19 @@
+name: MegaR
+category: dry
+summary: MegaR builds machine-learning models from microbial taxonomic profiles to classify samples and predict phenotypes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03933-4
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Dhungel E
+  last_author: Ahn TH
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles
+    and machine learning'
+links: {}
+added: '2026-11-21'
+evidence: MegaR uses taxonomic profiles from whole-metagenome or 16S rRNA sequencing to classify samples into categories.

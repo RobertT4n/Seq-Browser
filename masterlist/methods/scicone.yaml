@@ -1,0 +1,20 @@
+name: SCICoNE
+category: dry
+summary: Infers single-cell copy-number profiles and reconstructs copy-number event histories from shallow whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf072
+  year: 2025
+  journal: Bioinformatics
+  first_author: Kuipers J
+  last_author: Beerenwinkel N
+  title: Single-cell copy number calling and event history reconstruction
+  preprint_doi: 10.1101/2020.04.28.065755
+links: {}
+added: '2026-11-21'
+evidence: SCICoNE reconstructs tumor copy-number event histories and uses the inferred relationships to identify individual
+  cell profiles.

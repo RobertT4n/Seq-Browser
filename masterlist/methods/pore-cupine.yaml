@@ -1,0 +1,27 @@
+name: PORE-cupine
+category: wet
+summary: PORE-cupine combines chemical probing and nanopore direct RNA sequencing to map structures on near full-length RNA
+  isoforms.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2020.06.11.147223
+  year: 2020
+  journal: bioRxiv
+  first_author: Aw
+  last_author: Y
+  title: Direct RNA sequencing reveals structural differences between transcript isoforms
+links: {}
+added: '2026-11-21'
+evidence: NAI-N3 probing, nanopore direct RNA sequencing and a one-class support vector machine detected RNA secondary structures
+  in human embryonic stem cells.

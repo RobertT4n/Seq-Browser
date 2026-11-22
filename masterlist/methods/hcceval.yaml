@@ -1,0 +1,19 @@
+name: HCCeval
+category: dry
+summary: Identifies thresholds for assigning genome assemblies to cohesive HierCC clusters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab234
+  year: 2021
+  journal: Bioinformatics
+  first_author: Zhou Z
+  last_author: Achtman M
+  title: 'HierCC: a multi-level clustering scheme for population assignments based on core genome MLST'
+  preprint_doi: 10.1101/2020.11.25.397539
+links: {}
+added: '2026-11-21'
+evidence: HCCeval identifies optimal thresholds for assigning genomes to cohesive HierCC clusters.

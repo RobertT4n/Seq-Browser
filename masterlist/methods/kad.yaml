@@ -1,0 +1,21 @@
+name: KAD
+full_name: k-mer abundance difference
+category: dry
+summary: A k-mer comparison method evaluates genome assemblies and identifies potential base errors and structural discrepancies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa075
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: He C
+  last_author: Liu S
+  title: Factorial estimating assembly base errors using k-mer abundance difference (KAD) between short reads and genome assembled
+    sequences
+links: {}
+added: '2026-11-21'
+evidence: KAD compares k-mer copy numbers inferred from short reads with those observed in an assembly to identify errors
+  and estimate error rates.

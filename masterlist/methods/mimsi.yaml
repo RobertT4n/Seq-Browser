@@ -1,0 +1,19 @@
+name: MiMSI
+category: dry
+summary: Deep multiple instance learning classifier for microsatellite instability in tumor sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.09.16.299925
+  year: 2020
+  journal: bioRxiv
+  first_author: Ziegler
+  last_author: A
+  title: MiMSI - a deep multiple instance learning framework improves microsatellite instability detection from tumor next-generation
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: MiMSI was trained on cases including low tumor purity and evaluated using targeted MSK-IMPACT sequencing data.

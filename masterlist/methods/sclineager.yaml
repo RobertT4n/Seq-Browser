@@ -1,0 +1,19 @@
+name: SClineager
+category: dry
+summary: SClineager reconstructs genetic lineages from single-cell RNA-seq data while accounting for expression dropouts.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2020.108589
+  year: 2021
+  journal: Cell Reports
+  first_author: Lu T
+  last_author: Wang T
+  title: Overcoming Expressional Drop-outs in Lineage Reconstruction from Single-Cell RNA-Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: SClineager infers evolutionary lineages from scRNA-seq data by borrowing information from related cells to overcome
+  expressional dropouts.

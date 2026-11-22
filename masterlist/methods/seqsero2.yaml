@@ -1,0 +1,19 @@
+name: SeqSero2
+category: dry
+summary: Predicts Salmonella serotypes from whole-genome sequencing reads or assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/aem.01746-19
+  year: 2019
+  journal: Applied and Environmental Microbiology
+  first_author: Zhang S
+  last_author: Deng X
+  title: "SeqSero2: Rapid and Improved\n                    <i>Salmonella</i>\n                    Serotype Determination\
+    \ Using Whole-Genome Sequencing Data"
+links: {}
+added: '2026-11-21'
+evidence: SeqSero2 uses sequence markers, k-mers and targeted assembly of serotype determinants for serotype prediction.

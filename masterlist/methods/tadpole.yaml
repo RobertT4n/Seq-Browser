@@ -1,0 +1,19 @@
+name: TADpole
+category: dry
+summary: Identifies hierarchical topologically associating domains in intrachromosomal interaction matrices.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa087
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Soler-Vila P
+  last_author: Marti-Renom MA
+  title: Hierarchical chromatin organization detected by TADpole
+links: {}
+added: '2026-11-21'
+evidence: TADpole combines principal component analysis and constrained hierarchical clustering to identify hierarchical chromatin
+  levels.

@@ -1,0 +1,19 @@
+name: PEPPRO
+category: dry
+summary: Workflow for processing and assessing the quality of nascent RNA profiling data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02349-4
+  year: 2021
+  journal: Genome Biology
+  first_author: Smith JP
+  last_author: Sheffield NC
+  title: 'PEPPRO: quality control and processing of nascent RNA profiling data'
+  preprint_doi: 10.1101/2020.02.27.956110
+links: {}
+added: '2026-11-21'
+evidence: PEPPRO processes GRO-seq, PRO-seq and ChRO-seq data and assesses several library and run-on quality metrics.

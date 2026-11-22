@@ -1,0 +1,18 @@
+name: GiniQC
+category: dry
+summary: GiniQC measures noise in single-cell Hi-C data from the unevenness of interchromosomal contact reads.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa048
+  year: 2020
+  journal: Bioinformatics
+  first_author: Horton CA
+  last_author: Park PJ
+  title: 'GiniQC: a measure for quantifying noise in single-cell Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: GiniQC quantifies unevenness in interchromosomal reads in the single-cell Hi-C contact matrix.

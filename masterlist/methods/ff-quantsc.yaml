@@ -1,0 +1,19 @@
+name: FF-QuantSC
+full_name: Quantification of Fetal Fraction with Shallow-Coverage sequencing of maternal plasma DNA
+category: dry
+summary: Estimates fetal fraction from shallow-coverage sequencing of maternal plasma DNA using a neural network.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/mgg3.1232
+  year: 2020
+  journal: Molecular Genetics &amp; Genomic Medicine
+  first_author: Yuan Y
+  last_author: Wang W
+  title: 'FF‐QuantSC: accurate quantification of fetal fraction by a neural network model'
+links: {}
+added: '2026-11-21'
+evidence: FF-QuantSC uses differential genomic patterns between fetal and maternal genomes to quantify fetal fraction.

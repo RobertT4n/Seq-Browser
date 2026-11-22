@@ -1,0 +1,18 @@
+name: MASSIF
+category: dry
+summary: Method that improves links between DNA-binding motifs and transcription factors using DNA-binding domain similarity.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz855
+  year: 2019
+  journal: Bioinformatics
+  first_author: Baumgarten N
+  last_author: Schulz MH
+  title: Improved linking of motifs to their TFs using domain information
+links: {}
+added: '2026-11-21'
+evidence: MASSIF evaluates whether a linked motif and transcription factor are associated with similar DNA-binding domains.

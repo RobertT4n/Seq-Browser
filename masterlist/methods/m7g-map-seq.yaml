@@ -1,0 +1,26 @@
+name: m7G-MaP-seq
+full_name: m7G Mutational Profiling sequencing
+category: wet
+summary: Sodium borohydride treatment and mutational profiling detect internal m7G RNA modifications at nucleotide resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+- plant
+- microbe
+reference:
+  doi: 10.1093/nar/gkz736
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Enroth C
+  last_author: Vinther J
+  title: Detection of internal N7-methylguanosine (m7G) RNA modifications by mutational profiling sequencing
+links: {}
+added: '2026-11-21'
+evidence: The method detects known rRNA modifications and identifies m7G modifications in budding yeast, human and Arabidopsis
+  tRNAs.

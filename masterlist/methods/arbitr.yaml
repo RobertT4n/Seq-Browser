@@ -1,0 +1,19 @@
+name: ARBitR
+category: dry
+summary: Scaffolds draft genome assemblies with linked reads while resolving overlaps between linked contigs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa975
+  year: 2020
+  journal: Bioinformatics
+  first_author: Hiltunen M
+  last_author: Johannesson H
+  title: 'ARBitR: an overlap-aware genome assembly scaffolder for linked reads'
+  preprint_doi: 10.1101/2020.04.29.065847
+links: {}
+added: '2026-11-21'
+evidence: ARBitR incorporates an overlap-layout-consensus step to resolve junctions between linked contigs.

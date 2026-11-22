@@ -1,0 +1,22 @@
+name: PhyDOSE
+category: dry
+summary: Uses candidate tumor phylogenies and clonal prevalence from bulk sequencing to design follow-up single-cell sequencing
+  experiments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1008240
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Weber LL
+  last_author: El-Kebir M
+  title: 'PhyDOSE: Design of follow-up single-cell sequencing experiments of tumors'
+  preprint_doi: 10.1101/2020.03.30.016410
+links: {}
+added: '2026-11-21'
+evidence: PhyDOSE uses candidate phylogenies and clonal prevalence to infer how many cells to sequence to resolve tumor tree
+  ambiguity.

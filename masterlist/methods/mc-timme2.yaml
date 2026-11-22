@@ -1,0 +1,22 @@
+name: MC-TIMME2
+full_name: Microbial Counts Trajectories Infinite Mixture Model Engine 2.0
+category: dry
+summary: A Bayesian tool that infers perturbation-associated temporal patterns and groups of microbes sharing those patterns
+  from microbiome time-series data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-020-00758-x
+  year: 2020
+  journal: Genome Medicine
+  first_author: Creswell R
+  last_author: Gerber GK
+  title: High-resolution temporal profiling of the human gut microbiome reveals consistent and cascading alterations in response
+    to dietary glycans
+links: {}
+added: '2026-11-21'
+evidence: MC-TIMME2 uses nonparametric Bayesian methods to infer temporal patterns induced by perturbations and groups of
+  microbes sharing them.

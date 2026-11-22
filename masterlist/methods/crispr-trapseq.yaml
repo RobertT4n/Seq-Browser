@@ -1,0 +1,25 @@
+name: CRISPR TRAPseq
+category: wet
+summary: A viral approach combines cell-type-specific gene knockout with translational profiling in vivo.
+readouts:
+- translation
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2020.03.13.991224
+  year: 2020
+  journal: bioRxiv
+  first_author: Sakers
+  last_author: J
+  title: CRISPR-TRAPSeq identifies the QKI RNA binding protein as important for astrocytic maturation and control of thalamocortical
+    synapses
+links: {}
+added: '2026-11-21'
+evidence: CRISPR TRAPseq enabled translational profiling of QKI-deleted astrocytes in an otherwise normal brain.

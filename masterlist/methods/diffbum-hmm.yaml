@@ -1,0 +1,22 @@
+name: diffBUM-HMM
+category: dry
+summary: A noise-aware statistical model for detecting RNA flexibility and conformational changes from structure-probing sequencing
+  data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02379-y
+  year: 2021
+  journal: Genome Biology
+  first_author: Marangio P
+  last_author: Granneman S
+  title: 'diffBUM-HMM: a robust statistical modeling approach for detecting RNA flexibility changes in high-throughput structure
+    probing data'
+  preprint_doi: 10.1101/2020.07.30.229179
+links: {}
+added: '2026-11-21'
+evidence: diffBUM-HMM detects RNA structural changes while accounting for biological variation, sequence coverage and representation
+  biases.

@@ -1,0 +1,18 @@
+name: scMatch
+category: dry
+summary: Annotates individual cells by matching their gene expression profiles to reference datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz292
+  year: 2019
+  journal: Bioinformatics
+  first_author: Hou R
+  last_author: Forrest ARR
+  title: 'scMatch: a single-cell gene expression profile annotation tool using reference datasets'
+links: {}
+added: '2026-11-21'
+evidence: scMatch directly annotates single cells by identifying their closest match in large reference datasets.

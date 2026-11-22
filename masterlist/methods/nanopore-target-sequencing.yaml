@@ -1,0 +1,24 @@
+name: nanopore target sequencing
+category: wet
+summary: Target amplification and nanopore sequencing detect SARS-CoV-2 and other respiratory viruses in parallel.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1002/smll.202002169
+  year: 2020
+  journal: Small
+  first_author: Wang M
+  last_author: Liu T
+  title: Nanopore Targeted Sequencing for the Accurate and Comprehensive Detection of SARS‐CoV‐2 and Other Respiratory Viruses
+  preprint_doi: 10.1101/2020.03.04.20029538
+links: {}
+added: '2026-11-21'
+evidence: Nanopore target sequencing combines target amplification with long-read sequencing to detect respiratory viruses.

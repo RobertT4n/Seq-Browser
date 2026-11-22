@@ -1,0 +1,21 @@
+name: PSI-Sigma
+category: dry
+summary: Detects alternative splicing using a percent-spliced-in index in short-read and long-read RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btz438
+  year: 2019
+  journal: Bioinformatics
+  first_author: Lin KT
+  last_author: Krainer AR
+  title: 'PSI-Sigma: a comprehensive splicing-detection method for short-read and long-read RNA-seq analysis'
+links: {}
+added: '2026-11-21'
+evidence: PSI-Sigma uses a new PSI index and was briefly evaluated on nanopore long-read RNA-seq data.

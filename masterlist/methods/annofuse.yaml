@@ -1,0 +1,19 @@
+name: annoFuse
+category: dry
+summary: Annotates, filters and prioritizes expressed gene fusions for interactive exploration after fusion calling.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03922-7
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Gaonkar KS
+  last_author: Rokita JL
+  title: 'annoFuse: an R Package to annotate, prioritize, and interactively explore putative oncogenic RNA fusions'
+links: {}
+added: '2026-11-21'
+evidence: annoFuse annotates and prioritizes expressed gene fusions downstream of fusion calling and filters non-oncogenic
+  or artifactual events.

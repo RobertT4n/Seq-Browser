@@ -1,0 +1,21 @@
+name: ACTIVA
+full_name: Automated Cell-Type-informed Introspective Variational Autoencoder
+category: dry
+summary: ACTIVA generates synthetic single-cell RNA-seq data conditioned on cell-type information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac095
+  year: 2022
+  journal: Bioinformatics
+  first_author: Heydari AA
+  last_author: Sindi SS
+  title: "<i>ACTIVA</i>\n                    : realistic single-cell RNA-seq generation with automatic cell-type identification\
+    \ using introspective variational autoencoders"
+  preprint_doi: 10.1101/2021.01.28.428725
+links: {}
+added: '2026-11-21'
+evidence: ACTIVA generates synthetic data representative of an entire cell population or specific subpopulations on demand.

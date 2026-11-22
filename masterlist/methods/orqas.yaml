@@ -1,0 +1,19 @@
+name: ORQAS
+full_name: ORF quantification pipeline for alternative splicing
+category: dry
+summary: Quantifies translation of individual transcript isoforms from ribosome profiling data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-15634-w
+  year: 2020
+  journal: Nature Communications
+  first_author: Reixachs-Solé M
+  last_author: Eyras E
+  title: Ribosome profiling at isoform level reveals evolutionary conserved impacts of differential splicing on the proteome
+links: {}
+added: '2026-11-21'
+evidence: ORQAS quantifies translation of individual transcript isoforms using ribosome-protected mRNA fragments.

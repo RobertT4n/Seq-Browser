@@ -1,0 +1,25 @@
+name: DR2S
+category: dry
+summary: Reconstructs fully phased, full-length haplotype sequences by combining short-read accuracy with long-read sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1186/s12859-021-04153-0
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Klasberg S
+  last_author: Schöfl G
+  title: 'DR2S: an integrated algorithm providing reference-grade haplotype sequences from heterozygous samples'
+  preprint_doi: 10.1101/2020.11.09.374140
+links: {}
+added: '2026-11-21'
+evidence: DR2S combines next-generation sequencing with third-generation sequencing to reconstruct fully phased full-length
+  haplotypes and is optimized for HLA and KIR genes.

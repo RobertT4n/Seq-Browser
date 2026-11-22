@@ -1,0 +1,25 @@
+name: LUCS
+full_name: Long-molecule UMI-driven Consensus Sequencing
+category: wet
+summary: Molecule-specific UMIs group long reads into accurate consensus sequences and help detect chimeras.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- long-read-sequencing
+partition_unknown: not stated in the abstract
+platform:
+- long-read
+reference:
+  doi: 10.18632/aging.103171
+  year: 2020
+  journal: Aging
+  first_author: Annis S
+  last_author: Khrapko K
+  title: 'LUCS: a high-resolution nucleic acid sequencing tool for accurate long-read analysis of individual DNA molecules'
+links: {}
+added: '2026-11-21'
+evidence: LUCS was applied to mitochondrial genomes in complex mixtures from single cells, with a reported error rate of 1
+  × 10⁻⁴ errors per nucleotide.

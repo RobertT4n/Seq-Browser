@@ -1,0 +1,19 @@
+name: ISEPPI
+full_name: Inferring Sequences via Efficiency Projection and Primer Incorporation
+category: dry
+summary: Algorithm that links T-cell receptor CDR3 sequences to their associated variable genes.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.ebiom.2020.102972
+  year: 2020
+  journal: eBioMedicine
+  first_author: Montagne JM
+  last_author: Larman HB
+  title: Ultra-efficient sequencing of T Cell receptor repertoires reveals shared responses in muscle from patients with Myositis
+links: {}
+added: '2026-11-21'
+evidence: ISEPPI links CDR3s to their associated variable genes in T-cell receptor repertoire sequencing.

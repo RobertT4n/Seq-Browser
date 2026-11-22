@@ -1,0 +1,21 @@
+name: BayesPrism
+category: dry
+summary: Uses single-cell RNA-seq as prior information to infer cell composition and cell-type-specific expression from bulk
+  RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.01.07.897900
+  year: 2020
+  journal: bioRxiv
+  first_author: Chu
+  last_author: C. G
+  title: Bayesian Inference of Cell Composition and Gene Expression Reveals Tumor-Microenvironment Interactions
+links: {}
+added: '2026-11-21'
+evidence: BayesPrism jointly predicts cellular composition and gene expression in each cell type from bulk RNA-seq using scRNA-seq
+  priors.

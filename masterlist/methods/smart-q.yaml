@@ -1,0 +1,23 @@
+name: SMART-Q
+full_name: Single-Molecule Automatic RNA Transcription Quantification
+category: dry
+summary: Quantifies transcripts by cell type from single-molecule FISH and immunostaining images.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0228760
+  year: 2020
+  journal: PLOS ONE
+  first_author: Yang X
+  last_author: Shen Y
+  title: SMART-Q:  An Integrative Pipeline Quantifying Cell Type-Specific RNA Transcription
+  preprint_doi: 10.1101/2020.01.24.917872
+links: {}
+added: '2026-11-21'
+evidence: SMART-Q infers cell identity from multiplexed immunostaining and quantifies cell-type-specific transcripts using
+  3D Gaussian fitting.

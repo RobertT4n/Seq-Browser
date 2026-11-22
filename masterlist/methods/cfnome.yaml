@@ -1,0 +1,22 @@
+name: cfNOMe
+category: wet
+summary: cfNOMe uses enzymatic cytosine conversion to measure methylation and nucleosome occupancy in cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1186/s13073-020-00750-5
+  year: 2020
+  journal: Genome Medicine
+  first_author: Erger F
+  last_author: Altmüller J
+  title: cfNOMe — A single assay for comprehensive epigenetic analyses of cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: The assay measures cfDNA cytosine methylation and nucleosome occupancy using non-disruptive enzymatic conversion.

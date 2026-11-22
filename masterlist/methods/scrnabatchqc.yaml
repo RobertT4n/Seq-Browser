@@ -1,0 +1,19 @@
+name: scRNABatchQC
+category: dry
+summary: Compares single-cell RNA-seq sample sets to characterize variability, biases and outliers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz601
+  year: 2019
+  journal: Bioinformatics
+  first_author: Liu Q
+  last_author: Shyr Y
+  title: 'scRNABatchQC: multi-samples quality control for single cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: scRNABatchQC compares multiple sample sets across technical and biological features to help distinguish artifacts
+  from biological variation.

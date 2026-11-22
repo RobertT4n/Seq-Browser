@@ -1,0 +1,21 @@
+name: bindSC
+category: dry
+summary: Single-cell integration tool that aligns rows and columns of multiomics matrices to generate multimodal co-embeddings.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.12.11.422014
+  year: 2020
+  journal: bioRxiv
+  first_author: DOU
+  last_author: K
+  title: Unbiased integration of single cell multi-omics data
+links: {}
+added: '2026-11-21'
+evidence: bindSC integrates single-cell RNA sequencing and chromatin accessibility data and also integrates single-cell RNA
+  sequencing with spatial data.

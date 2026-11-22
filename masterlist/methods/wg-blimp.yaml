@@ -1,0 +1,21 @@
+name: wg-blimp
+full_name: whole genome bisulfite sequencing methylation analysis pipeline
+category: dry
+summary: wg-blimp provides an end-to-end workflow for analyzing whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3470-5
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Wöste M
+  last_author: Schröder C
+  title: 'wg-blimp: an end-to-end analysis pipeline for whole genome bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline integrates alignment, quality control, methylation calling, differential methylation analysis and methylome
+  segmentation.

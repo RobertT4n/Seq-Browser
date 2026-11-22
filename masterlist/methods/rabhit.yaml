@@ -1,0 +1,19 @@
+name: RAbHIT
+full_name: R Haplotype Antibody Inference Tool
+category: dry
+summary: Infers antibody V(D)J haplotypes and gene deletions from rearranged receptor sequences using a Bayesian framework.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btz481
+  year: 2019
+  journal: Bioinformatics
+  first_author: Peres A
+  last_author: Yaari G
+  title: 'RAbHIT: R Antibody Haplotype Inference Tool'
+links: {}
+added: '2026-11-21'
+evidence: RAbHIT infers V(D)J haplotypes and gene deletions from repertoires of rearranged V(D)J sequences.

@@ -1,0 +1,22 @@
+name: Trans-NanoSim
+category: dry
+summary: Simulator of nanopore RNA-sequencing reads with technical and transcriptome-specific features learned from sequencing
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/giaa061
+  year: 2020
+  journal: GigaScience
+  first_author: Hafezqorani S
+  last_author: Birol I
+  title: Trans-NanoSim characterizes and simulates nanopore RNA-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: Trans-NanoSim simulates reads using features learned from direct RNA and complementary DNA nanopore datasets.

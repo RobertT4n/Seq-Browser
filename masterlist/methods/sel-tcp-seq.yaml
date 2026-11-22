@@ -1,0 +1,27 @@
+name: Sel-TCP-seq
+full_name: selective translation complex profile sequencing
+category: wet
+summary: Sel-TCP-seq profiles translation complexes associated with immuno-targeted factors in yeast and human cells.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+species:
+- human
+- microbe
+reference:
+  doi: 10.1016/j.molcel.2020.06.004
+  year: 2020
+  journal: Molecular Cell
+  first_author: Wagner S
+  last_author: Valášek LS
+  title: Selective Translation Complex Profiling Reveals Staged Initiation and Co-translational Assembly of Initiation Factor
+    Complexes
+links: {}
+added: '2026-11-21'
+evidence: The method selects 40S and 80S complexes associated with immuno-targeted factors and reveals their distributions
+  along transcripts.

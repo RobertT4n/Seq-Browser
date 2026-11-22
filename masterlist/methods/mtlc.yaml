@@ -1,0 +1,20 @@
+name: MTLC
+full_name: Microbiome Taxonomic Longitudinal Correlation
+category: dry
+summary: Two-part generalized estimating equation model for predictor effects and taxonomic correlations in longitudinal microbiome
+  data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1008108
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Chen B
+  last_author: Xu W
+  title: Generalized estimating equation modeling on correlated microbiome sequencing data with longitudinal measures
+links: {}
+added: '2026-11-21'
+evidence: MTLC models multivariate zero-inflated operational taxonomic unit outcomes and repeated measures.

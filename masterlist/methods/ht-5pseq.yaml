@@ -1,0 +1,23 @@
+name: HT-5Pseq
+full_name: high-throughput 5P degradome RNA sequencing
+category: wet
+summary: HT-5Pseq sequences the 5-prime-phosphorylated RNA degradome to investigate decay-associated ribosome stalls.
+readouts:
+- rna-degradation
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.crmeth.2021.100001
+  year: 2021
+  journal: Cell Reports Methods
+  first_author: Zhang Y
+  last_author: Pelechano V
+  title: High-throughput 5′P sequencing enables the study of degradation-associated ribosome stalls
+  preprint_doi: 10.1101/2020.06.22.165134
+links: {}
+added: '2026-11-21'
+evidence: The authors used the 5P degradome to capture ribosome stalls associated with mRNA decay.

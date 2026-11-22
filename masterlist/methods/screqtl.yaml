@@ -1,0 +1,22 @@
+name: scReQTL
+category: dry
+summary: An approach that associates expressed variant allele fractions with gene expression across cells to identify regulatory
+  variants in an individual.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-07334-y
+  year: 2021
+  journal: BMC Genomics
+  first_author: Liu H
+  last_author: Horvath A
+  title: 'scReQTL: an approach to correlate SNVs to gene expression from individual scRNA-seq datasets'
+  preprint_doi: 10.1101/2020.07.13.200956
+links: {}
+added: '2026-11-21'
+evidence: scReQTL substitutes expressed variant allele fractions at heterozygous SNVs for genotypes to assess rare variants
+  in a single individual.

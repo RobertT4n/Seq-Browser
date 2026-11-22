@@ -1,0 +1,19 @@
+name: CNV Radar
+category: dry
+summary: Software that infers somatic copy number status from whole-exome sequencing read depth and variant allele frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3397-x
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Soong D
+  last_author: Schaffer M
+  title: 'CNV Radar: an improved method for somatic copy number alteration characterization in oncology'
+links: {}
+added: '2026-11-21'
+evidence: CNV Radar uses read depth and variant allele frequency patterns to infer copy number status of genes and genomic
+  regions.

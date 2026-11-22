@@ -1,0 +1,21 @@
+name: GCNG
+full_name: Graph Convolutional Neural network approach for Genes
+category: dry
+summary: Uses spatial gene expression and graph convolutional networks to infer interactions between genes in different cells.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2019.12.23.887133
+  year: 2019
+  journal: bioRxiv
+  first_author: Yuan
+  last_author: Z
+  title: 'GCNG: Graph convolutional networks for inferring cell-cell interactions'
+links: {}
+added: '2026-11-21'
+evidence: GCNG combines spatial information encoded as a graph with expression data to propose extracellular interacting gene
+  pairs.

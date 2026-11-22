@@ -1,0 +1,19 @@
+name: PRISM 4
+category: dry
+summary: Predicts the chemical structures and likely biological activities of antibiotics encoded in microbial genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-19986-1
+  year: 2020
+  journal: Nature Communications
+  first_author: Skinnider MA
+  last_author: Magarvey NA
+  title: Comprehensive prediction of secondary metabolite structure and biological activity from microbial genome sequences
+links: {}
+added: '2026-11-21'
+evidence: PRISM 4 predicts chemical structures of genomically encoded antibiotics and uses machine learning to predict their
+  likely biological activity.

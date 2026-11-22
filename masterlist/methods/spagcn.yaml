@@ -1,0 +1,21 @@
+name: SpaGCN
+category: dry
+summary: Graph convolutional network that integrates spatial gene expression, location, and histology to identify spatial
+  domains and enriched genes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.11.30.405118
+  year: 2020
+  journal: bioRxiv
+  first_author: Hu
+  last_author: M
+  title: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes
+    by graph convolutional network
+links: {}
+added: '2026-11-21'
+evidence: SpaGCN integrates gene expression, spatial location, and histology to identify spatial domains and their enriched
+  genes.

@@ -1,0 +1,20 @@
+name: MULAN
+full_name: MUtability LANdscape inference
+category: dry
+summary: Infers mutation rates of cancer subclones and tumor evolutionary history from single-cell sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008454
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Tsyvina V
+  last_author: Skums P
+  title: Inference of mutability landscapes of tumors from single cell sequencing data
+links: {}
+added: '2026-11-21'
+evidence: MULAN uses cancer mutation trees and single-cell sequencing data to infer subclone mutation rates and tumor evolutionary
+  history.

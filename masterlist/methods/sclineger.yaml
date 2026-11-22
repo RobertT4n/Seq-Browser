@@ -1,0 +1,20 @@
+name: SClineger
+category: dry
+summary: Reconstructs cell lineages from single-cell RNA-seq-derived variants while accounting for genetic dropouts.
+readouts:
+- lineage
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.01.01.892562
+  year: 2020
+  journal: bioRxiv
+  first_author: Lu
+  last_author: T
+  title: Overcoming Genetic Drop-outs in Variants-based Lineage Tracing from Single-cell RNA Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: SClineger uses a Bayesian hierarchical model to correct genetic dropouts in whole-genome variants derived from scRNA-seq
+  for lineage tracing.

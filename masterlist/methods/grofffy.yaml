@@ -1,0 +1,20 @@
+name: GROFFFY
+category: dry
+summary: Filters whole-genome variants using biologically validated functional regions to prioritize coding and noncoding
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.03.30.20047209
+  year: 2020
+  journal: medRxiv
+  first_author: Xiao
+  last_author: C. L
+  title: Harnessing the 100,000 Genomes Project whole genome sequencing data - an unbiased systematic tool to filter by biologically
+    validated regions of functionality
+links: {}
+added: '2026-11-21'
+evidence: GROFFFY prioritizes intergenic, intronic and coding variants in whole-genome sequencing data.

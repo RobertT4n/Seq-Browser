@@ -1,0 +1,19 @@
+name: CHISEL
+category: dry
+summary: Infers allele- and haplotype-specific copy numbers in single cells by aggregating sparse sequencing signals.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-020-0661-6
+  year: 2020
+  journal: Nature Biotechnology
+  first_author: Zaccaria S
+  last_author: Raphael BJ
+  title: Characterizing allele- and haplotype-specific copy numbers in single cells with CHISEL
+  preprint_doi: 10.1101/837195
+links: {}
+added: '2026-11-21'
+evidence: CHISEL infers allele- and haplotype-specific copy numbers by aggregating sparse signal across thousands of cells.

@@ -1,0 +1,20 @@
+name: DUGMO
+category: dry
+summary: A sequencing analysis pipeline for detecting known and unknown genetically modified bacteria in pure bacterial samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03611-5
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Hurel J
+  last_author: Touzain F
+  title: 'DUGMO: tool for the detection of unknown genetically modified organisms with high-throughput sequencing data for
+    pure bacterial samples'
+links: {}
+added: '2026-11-21'
+evidence: DUGMO analyzes paired-end sequencing data to detect genetically modified bacteria, including those with previously
+  undescribed transgenes.

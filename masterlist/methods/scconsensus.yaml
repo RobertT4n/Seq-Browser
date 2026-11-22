@@ -1,0 +1,21 @@
+name: scConsensus
+category: dry
+summary: Framework that combines supervised and unsupervised clustering results to identify and annotate single-cell populations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04028-4
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Ranjan B
+  last_author: Prabhakar S
+  title: 'scConsensus: combining supervised and unsupervised clustering for cell type identification in single-cell RNA sequencing
+    data'
+  preprint_doi: 10.1101/2020.04.22.056473
+links: {}
+added: '2026-11-21'
+evidence: scConsensus integrates supervised and unsupervised clustering results and refines consensus clusters using differentially
+  expressed genes.

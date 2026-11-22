@@ -1,0 +1,18 @@
+name: DeepShape
+category: dry
+summary: Estimates isoform-level ribosome abundance and profiles from Ribo-seq data without RNA-seq.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3244-0
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Cui H
+  last_author: Chen T
+  title: 'DeepShape: estimating isoform-level ribosome abundance and distribution with Ribo-seq data'
+links: {}
+added: '2026-11-21'
+evidence: DeepShape uses a deep learning model to estimate isoform ribosome abundance and compute ribosome profiles.

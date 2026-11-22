@@ -1,0 +1,20 @@
+name: AutoTax
+category: dry
+summary: Sequence identity-based approach for assigning seven-rank taxonomy to reference sequences.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/mbio.01557-20
+  year: 2020
+  journal: mBio
+  first_author: Dueholm MS
+  last_author: Nielsen PH
+  title: Generation of Comprehensive Ecosystem-Specific Reference Databases with Species-Level Resolution by High-Throughput
+    Full-Length 16S rRNA Gene Sequencing and Automated Taxonomy Assignment (AutoTax)
+links: {}
+added: '2026-11-21'
+evidence: AutoTax assigns a complete taxonomy to reference sequences using SILVA as a backbone and placeholders for unclassified
+  taxa.

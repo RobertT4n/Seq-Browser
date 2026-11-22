@@ -1,0 +1,19 @@
+name: geaR
+category: dry
+summary: An R package supports population and evolutionary analysis of genome-wide genotype data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.08.06.240754
+  year: 2020
+  journal: bioRxiv
+  first_author: Ward
+  last_author: S. W
+  title: Genomic evolutionary analysis in R with geaR
+links: {}
+added: '2026-11-21'
+evidence: geaR calculates genetic diversity and admixture statistics and builds trees from partitions of genome-wide genotype
+  data.

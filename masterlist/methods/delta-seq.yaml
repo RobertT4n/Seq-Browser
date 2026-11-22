@@ -1,0 +1,29 @@
+name: DeLTa-Seq
+full_name: Direct-Lysate reverse transcription and Targeted RNA-Seq
+category: wet
+summary: Direct reverse transcription from crude tissue lysates enables targeted sequencing-based quantification of hundreds
+  of genes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- plant
+- microbe
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s13007-022-00930-x
+  year: 2022
+  journal: Plant Methods
+  first_author: Kashima M
+  last_author: Nagano AJ
+  title: 'DeLTa-Seq: direct-lysate targeted RNA-Seq from crude tissue lysate'
+  preprint_doi: 10.1101/2020.09.15.299180
+links: {}
+added: '2026-11-21'
+evidence: Direct reverse transcription was demonstrated in lysates of plant tissues, yeast, and zebrafish larvae.

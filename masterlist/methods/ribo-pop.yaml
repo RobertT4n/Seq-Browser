@@ -1,0 +1,23 @@
+name: Ribo-Pop
+full_name: ribosomal RNA depletion for popular use
+category: wet
+summary: Ribo-Pop uses antisense oligonucleotides to deplete ribosomal RNA before transcriptome sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1261/rna.076562.120
+  year: 2020
+  journal: RNA
+  first_author: Thompson MK
+  last_author: Davis I
+  title: 'Ribo-Pop: simple, cost-effective, and widely applicable ribosomal RNA depletion'
+  preprint_doi: 10.1101/2020.05.19.102293
+links: {}
+added: '2026-11-21'
+evidence: The workflow and antisense oligo design strategy deplete ribosomal RNA across a wide input range for full transcriptome
+  sequencing.

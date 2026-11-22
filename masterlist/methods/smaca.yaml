@@ -1,0 +1,20 @@
+name: SMAca
+category: dry
+summary: Estimates SMN1 copy number and identifies spinal muscular atrophy carriers from next-generation sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1002/humu.24120
+  year: 2020
+  journal: Human Mutation
+  first_author: Lopez‐Lopez D
+  last_author: Dopazo J
+  title: "<i>SMN1</i>\n                    copy‐number and sequence variant analysis from next‐generation sequencing data"
+  preprint_doi: 10.1101/2020.03.31.014589
+links: {}
+added: '2026-11-21'
+evidence: SMAca estimates absolute SMN1 copy number and uses variants associated with SMN1 duplication to identify silent
+  carriers.

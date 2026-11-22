@@ -1,0 +1,20 @@
+name: metabaR
+category: dry
+summary: An R package helps curate DNA metabarcoding data and assess filtering quality using experimental controls and visualization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1111/2041-210X.13552
+  year: 2021
+  journal: Methods in Ecology and Evolution
+  first_author: Zinger L
+  last_author: Boyer F
+  title: "metabaR: An\n                    <scp>r</scp>\n                    package for the evaluation and improvement of\
+    \ DNA metabarcoding data quality"
+  preprint_doi: 10.1101/2020.08.28.271817
+links: {}
+added: '2026-11-21'
+evidence: metabaR uses positive and negative controls to identify artefactual sequences such as contaminants and tag-jumps.

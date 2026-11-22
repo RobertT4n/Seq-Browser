@@ -1,0 +1,21 @@
+name: ReorientExpress
+category: dry
+summary: Predicts the orientation of transcriptomic long reads without a reference genome using deep learning.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-019-1884-z
+  year: 2019
+  journal: Genome Biology
+  first_author: Ruiz-Reche A
+  last_author: Eyras E
+  title: 'ReorientExpress: reference-free orientation of nanopore cDNA reads with deep learning'
+links: {}
+added: '2026-11-21'
+evidence: ReorientExpress performs reference-free orientation of transcriptomic long sequencing reads using deep learning.

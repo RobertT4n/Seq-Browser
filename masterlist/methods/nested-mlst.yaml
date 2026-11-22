@@ -1,0 +1,27 @@
+name: nested-MLST
+full_name: Nested-MultiLocus Sequence Typing
+category: wet
+summary: nested-MLST identifies Xylella fastidiosa subspecies from extracted plant DNA by sequencing seven housekeeping loci.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+- plant
+- invertebrate
+reference:
+  doi: 10.3390/agronomy10081099
+  year: 2020
+  journal: Agronomy
+  first_author: Cesbron S
+  last_author: Jacques MA
+  title: Development of A Nested-MultiLocus Sequence Typing Approach for A Highly Sensitive and Specific Identification of
+    Xylella fastidiosa Subspecies Directly from Plant Samples
+  preprint_doi: 10.1101/2020.06.08.140194
+links: {}
+added: '2026-11-21'
+evidence: Nested primers targeted seven housekeeping gene loci for sequence comparison against PubMLST.

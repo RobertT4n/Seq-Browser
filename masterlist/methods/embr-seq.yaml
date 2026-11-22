@@ -1,0 +1,24 @@
+name: EMBR-seq
+full_name: Enrichment of mRNA by Blocked rRNA
+category: wet
+summary: EMBR-seq enriches bacterial mRNA for sequencing by using primers that block amplification of ribosomal RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1186/s12864-020-07134-4
+  year: 2020
+  journal: BMC Genomics
+  first_author: Wangsanuwat C
+  last_author: Dey SS
+  title: Efficient and cost-effective bacterial mRNA sequencing from low input samples through ribosomal RNA depletion
+  preprint_doi: 10.1101/2020.06.19.162412
+links: {}
+added: '2026-11-21'
+evidence: Blocking primers depleted 5S, 16S and 23S rRNA, yielding more than 80% mRNA reads from an E. coli culture.

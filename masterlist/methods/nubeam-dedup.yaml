@@ -1,0 +1,18 @@
+name: Nubeam-dedup
+category: dry
+summary: Nubeam-dedup removes duplicate sequencing reads without mapping them to a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa112
+  year: 2020
+  journal: Bioinformatics
+  first_author: Dai H
+  last_author: Guan Y
+  title: '<i>Nubeam-dedup</i>: a fast and RAM-efficient tool to de-duplicate sequencing reads without mapping'
+links: {}
+added: '2026-11-21'
+evidence: Nubeam-dedup uses matrix representations and a hash function to remove duplicate reads without a reference genome.

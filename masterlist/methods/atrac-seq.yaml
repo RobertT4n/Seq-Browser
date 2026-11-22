@@ -1,0 +1,23 @@
+name: ATRAC-seq
+category: wet
+summary: Tn5 tagmentation of RNA-DNA hybrids enables rapid one-tube RNA sequencing library construction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.7554/eLife.54919
+  year: 2020
+  journal: eLife
+  first_author: Lu B
+  last_author: Yi C
+  title: Transposase-assisted tagmentation of RNA/DNA hybrid duplexes
+  preprint_doi: 10.1101/2020.01.29.926105
+links: {}
+added: '2026-11-21'
+evidence: ATRAC-seq produced results comparable to traditional RNA-seq for gene number, gene body coverage and expression
+  analysis.

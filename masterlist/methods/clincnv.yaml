@@ -1,0 +1,19 @@
+name: ClinCNV
+category: dry
+summary: Detects allele-specific somatic copy-number alterations from paired tumor and normal sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/837971
+  year: 2019
+  journal: bioRxiv
+  first_author: Demidov
+  last_author: S
+  title: 'ClinCNV: novel method for allele-specific somatic copy-number alterations detection'
+links: {}
+added: '2026-11-21'
+evidence: ClinCNV uses read depth and B-allele frequency for multi-sample detection of copy-number changes and was evaluated
+  on exome and targeted-panel data.

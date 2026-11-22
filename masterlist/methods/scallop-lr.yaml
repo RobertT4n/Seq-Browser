@@ -1,0 +1,21 @@
+name: Scallop-LR
+category: dry
+summary: Assembles transcripts from long reads using a reference genome and long-read-specific optimizations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s13059-019-1883-0
+  year: 2019
+  journal: Genome Biology
+  first_author: Tung LH
+  last_author: Kingsford C
+  title: Quantifying the benefit offered by transcript assembly with Scallop-LR on single-molecule long reads
+links: {}
+added: '2026-11-21'
+evidence: Scallop-LR is a reference-based long-read transcript assembler evaluated on 26 PacBio samples.

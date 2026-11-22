@@ -1,0 +1,19 @@
+name: ADFinder
+full_name: Accurate Deletion Finder
+category: dry
+summary: Sequencing analysis tool that detects programmed DNA elimination events and estimates their frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa226
+  year: 2020
+  journal: Bioinformatics
+  first_author: Zheng W
+  last_author: Yan Y
+  title: 'ADFinder: accurate detection of programmed DNA elimination using NGS high-throughput sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: ADFinder predicts programmed DNA elimination events and calculates the frequency of each event.

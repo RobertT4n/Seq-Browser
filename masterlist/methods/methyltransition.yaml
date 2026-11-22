@@ -1,0 +1,20 @@
+name: MethylTransition
+category: dry
+summary: Models changes in single-cell DNA methylation states over one or a few cell cycles.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02189-8
+  year: 2020
+  journal: Genome Biology
+  first_author: Zhao C
+  last_author: Zhang Y
+  title: A DNA methylation state transition model reveals the programmed epigenetic heterogeneity in human pre-implantation
+    embryos
+links: {}
+added: '2026-11-21'
+evidence: MethylTransition uses a transition matrix to link methylation states before and after a cell cycle and was applied
+  to single-cell DNA methylome data.

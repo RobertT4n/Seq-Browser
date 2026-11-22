@@ -1,0 +1,21 @@
+name: anonymizeBAM
+category: dry
+summary: Tool that anonymizes genetic variant information in sequencing data to support data sharing.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26152-8
+  year: 2021
+  journal: Nature Communications
+  first_author: Ziegenhain C
+  last_author: Sandberg R
+  title: BAMboozle removes genetic variation from human sequence data for open data sharing
+  preprint_doi: 10.1101/2021.01.11.426206
+links: {}
+added: '2026-11-21'
+evidence: anonymizeBAM removed donor-related genetic information from single-cell RNA-seq and ATAC-seq datasets.

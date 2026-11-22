@@ -1,0 +1,27 @@
+name: uPRO
+full_name: ultrafast Precision Run On
+category: wet
+summary: A streamlined nascent RNA sequencing procedure profiles genome-wide transcription in blood-derived samples.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/836841
+  year: 2019
+  journal: bioRxiv
+  first_author: Kim
+  last_author: H
+  title: Nascent RNA sequencing of peripheral blood leukocytes reveal gene expression diversity
+links: {}
+added: '2026-11-21'
+evidence: The authors generated genome-wide nascent transcription profiles from human blood-derived cell lines and whole blood.

@@ -1,0 +1,19 @@
+name: SCCNV
+category: dry
+summary: Calls copy-number variants from single-cell whole-genome sequencing read depth while adjusting for amplification
+  bias.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.505441
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Dong X
+  last_author: Vijg J
+  title: 'SCCNV: A Software Tool for Identifying Copy Number Variation From Single-Cell Whole-Genome Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: SCCNV detects CNVs from whole-genome-amplified single cells using read depth adjusted for amplification bias.

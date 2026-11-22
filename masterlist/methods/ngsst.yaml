@@ -1,0 +1,26 @@
+name: NGSST
+full_name: next-generation sequencing-based sterility test
+category: wet
+summary: Whole-genome amplification and sequencing detect and identify microbial contaminants in biological products.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2020.12.27.424516
+  year: 2020
+  journal: bioRxiv
+  first_author: Yue
+  last_author: X
+  title: Development of next-generation sequencing-based sterility test
+links: {}
+added: '2026-11-21'
+evidence: NGSST combines multiple displacement amplification and sequencing and identified microorganisms in primary umbilical
+  cord mesenchymal stem cell samples.

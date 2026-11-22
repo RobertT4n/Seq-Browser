@@ -1,0 +1,26 @@
+name: DDAT
+full_name: degraded DNA adaptor tagging
+category: wet
+summary: Two rounds of random primer extension recover single- and double-stranded DNA for whole-genome sequencing of degraded
+  samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+input_sample:
+- ffpe-archival
+- low-input
+reference:
+  doi: 10.1093/nargab/lqz017
+  year: 2019
+  journal: NAR Genomics and Bioinformatics
+  first_author: Saunderson EA
+  last_author: Ficz G
+  title: A novel use of random priming-based single-strand library preparation for whole genome sequencing of formalin-fixed
+    paraffin-embedded tissue samples
+links: {}
+added: '2026-11-21'
+evidence: DDAT generated whole-genome sequencing data from FFPE samples using as little as 2 ng of highly degraded DNA.

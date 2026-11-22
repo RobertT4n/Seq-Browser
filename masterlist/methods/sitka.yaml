@@ -1,0 +1,21 @@
+name: sitka
+category: dry
+summary: sitka reconstructs phylogenetic trees from single-cell whole-genome copy-number data and calls point mutations using
+  the inferred trees.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.24072/pcjournal.292
+  year: 2023
+  journal: Peer Community Journal
+  first_author: Salehi S
+  last_author: Bouchard-Côté A
+  title: Cancer phylogenetic tree inference at scale from 1000s of single cell genomes
+  preprint_doi: 10.1101/2020.05.06.058180
+links: {}
+added: '2026-11-21'
+evidence: sitka uses a copy-number encoding for scalable phylogenetic inference and incorporates copy number and the tree
+  into point mutation calling.

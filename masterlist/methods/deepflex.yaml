@@ -1,0 +1,20 @@
+name: DeepFLEX
+category: dry
+summary: Single-cell multiplex image analysis pipeline that segments cells and nuclei and addresses imaging artifacts.
+readouts:
+- protein
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1101/2020.09.30.321539
+  year: 2020
+  journal: bioRxiv
+  first_author: Lazic
+  last_author: S
+  title: Single-cell landscape of bone marrow metastases in human neuroblastoma unraveled by deep multiplex imaging
+links: {}
+added: '2026-11-21'
+evidence: DeepFLEX analyzes MELC images using deep learning-based segmentation and addresses autofluorescence and unspecific
+  antibody binding.

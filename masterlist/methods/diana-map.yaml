@@ -1,0 +1,20 @@
+name: DIANA-mAP
+full_name: DIANA-microRNA-Analysis-Pipeline
+category: dry
+summary: Automated pipeline for processing small RNA sequencing data through microRNA quantification and differential expression
+  analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12010046
+  year: 2020
+  journal: Genes
+  first_author: Alexiou A
+  last_author: Hatzigeorgiou AG
+  title: 'DIANA-mAP: Analyzing miRNA from Raw NGS Data to Quantification'
+links: {}
+added: '2026-11-21'
+evidence: DIANA-mAP analyzes raw small RNA sequencing libraries through quantification and differential expression analysis.

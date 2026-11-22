@@ -1,0 +1,24 @@
+name: Fate-seq
+category: wet
+summary: Fate-seq screens virus-derived RNA fragments for their ability to stabilize a GFP reporter RNA.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1016/j.bbrc.2020.05.008
+  year: 2020
+  journal: Biochemical and Biophysical Research Communications
+  first_author: Wakida H
+  last_author: Akimitsu N
+  title: Stability of RNA sequences derived from the coronavirus genome in human cells
+links: {}
+added: '2026-11-21'
+evidence: The authors sequenced GFP reporter RNAs fused to 5,924 fragments from 26 viruses to identify stabilizing sequences.

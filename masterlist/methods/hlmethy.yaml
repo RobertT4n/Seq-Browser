@@ -1,0 +1,18 @@
+name: HLMethy
+category: dry
+summary: Uses multiple instance learning to classify candidate RNA m6A sites from noisy m6A-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s11103-019-00930-x
+  year: 2019
+  journal: Plant Molecular Biology
+  first_author: Liu Z
+  last_author: He Z
+  title: 'HLMethy: a machine learning-based model to identify the hidden labels of m6A candidates'
+links: {}
+added: '2026-11-21'
+evidence: HLMethy assigns labels to m6A candidates from noisy m6A-seq data using a multiple instance learning framework.

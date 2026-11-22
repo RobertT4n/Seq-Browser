@@ -1,0 +1,21 @@
+name: TOBIAS
+category: dry
+summary: Analyzes ATAC-seq footprints to investigate transcription factor binding dynamics genome-wide.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-18035-1
+  year: 2020
+  journal: Nature Communications
+  first_author: Bentsen M
+  last_author: Looso M
+  title: ATAC-seq footprinting unravels kinetics of transcription factor binding during zygotic genome activation
+  preprint_doi: 10.1101/869560
+links: {}
+added: '2026-11-21'
+evidence: TOBIAS is a footprinting framework for genome-wide investigation of binding dynamics for hundreds of transcription
+  factors.

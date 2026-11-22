@@ -1,0 +1,26 @@
+name: SARSeq
+full_name: saliva analysis by RNA sequencing
+category: wet
+summary: Multiplexed RT-PCR and sequencing detect SARS-CoV-2 and other respiratory viruses across many samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-021-22664-5
+  year: 2021
+  journal: Nature Communications
+  first_author: Yelagandula R
+  last_author: Elling U
+  title: Multiplexed detection of SARS-CoV-2 and other respiratory infections in high throughput by SARSeq
+  preprint_doi: 10.1101/2020.10.28.20217778
+links: {}
+added: '2026-11-21'
+evidence: SARSeq sequences multiple amplicons generated in a multiplexed RT-PCR reaction and was applied to hundreds of patient
+  samples.

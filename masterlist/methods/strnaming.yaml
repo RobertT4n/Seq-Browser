@@ -1,0 +1,18 @@
+name: STRNaming
+category: dry
+summary: STRNaming automatically assigns human-readable, sequence-descriptive names to sequenced short tandem repeat alleles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.fsigen.2021.102473
+  year: 2021
+  journal: 'Forensic Science International: Genetics'
+  first_author: Hoogenboom J
+  last_author: van der Gaag KJ
+  title: 'STRNaming: Generating simple, informative names for sequenced STR alleles in a standardised and automated manner'
+links: {}
+added: '2026-11-21'
+evidence: STRNaming uses a reference sequence at each locus to assign a unique name describing the sequenced STR allele.

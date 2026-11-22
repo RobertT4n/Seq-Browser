@@ -1,0 +1,18 @@
+name: iPAC
+category: dry
+summary: iPAC reconstructs transcript isoforms from RNA-seq data using a genome-guided phasing graph.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa052
+  year: 2020
+  journal: Bioinformatics
+  first_author: Yu T
+  last_author: Li G
+  title: 'iPAC: a genome-guided assembler of isoforms via phasing and combing paths'
+links: {}
+added: '2026-11-21'
+evidence: iPAC reconstructs isoforms by using paired-end and sequencing-depth information in a phasing graph.

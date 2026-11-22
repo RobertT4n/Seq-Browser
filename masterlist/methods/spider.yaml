@@ -1,0 +1,19 @@
+name: SPIDER
+category: dry
+summary: Message-passing framework that incorporates DNase-seq data to estimate gene regulatory networks.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41540-021-00208-3
+  year: 2021
+  journal: npj Systems Biology and Applications
+  first_author: Sonawane AR
+  last_author: Glass K
+  title: Constructing gene regulatory networks using epigenetic data
+  preprint_doi: 10.1101/2020.10.19.345827
+links: {}
+added: '2026-11-21'
+evidence: SPIDER incorporates DNase-seq into a message-passing framework and validates predictions using ENCODE ChIP-seq data.

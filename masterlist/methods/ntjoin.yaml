@@ -1,0 +1,19 @@
+name: ntJoin
+category: dry
+summary: Scaffolds and corrects draft genome assemblies using structural synteny with reference sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa253
+  year: 2020
+  journal: Bioinformatics
+  first_author: Coombe L
+  last_author: Warren RL
+  title: 'ntJoin: Fast and lightweight assembly-guided scaffolding using minimizer graphs'
+  preprint_doi: 10.1101/2020.01.13.905240
+links: {}
+added: '2026-11-21'
+evidence: ntJoin uses a graph built from ordered minimizer sketches to improve a draft assembly using reference sequences.

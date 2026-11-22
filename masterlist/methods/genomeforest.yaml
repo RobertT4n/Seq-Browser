@@ -1,0 +1,21 @@
+name: GenomeForest
+category: dry
+summary: GenomeForest uses an ensemble of classifiers based on chromosomal partitioning to distinguish endometriosis patients from controls.
+readouts:
+- rna
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  url: https://pubmed.ncbi.nlm.nih.gov/32477621/
+  year: 2020
+  journal: AMIA Jt Summits Transl Sci Proc
+  first_author: Akter S
+  last_author: Joshi T
+  pmid: '32477621'
+  pmcid: PMC7233069
+  title: 'GenomeForest: An Ensemble Machine Learning Classifier for Endometriosis'
+links: {}
+added: '2026-11-21'
+evidence: The classifier was applied to RNA-seq and enrichment-based DNA-methylation datasets to classify endometriosis versus controls.

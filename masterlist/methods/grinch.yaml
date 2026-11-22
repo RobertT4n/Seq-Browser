@@ -1,0 +1,22 @@
+name: GRiNCH
+category: dry
+summary: A matrix-factorization method that jointly discovers topologically associating domains and smooths chromosome contact
+  matrices.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02378-z
+  year: 2021
+  journal: Genome Biology
+  first_author: Lee DI
+  last_author: Roy S
+  title: 'GRiNCH: simultaneous smoothing and detection of topological units of genome organization from sparse chromatin contact
+    count matrices with matrix factorization'
+  preprint_doi: 10.1101/2020.08.17.254615
+links: {}
+added: '2026-11-21'
+evidence: GRiNCH simultaneously discovers TADs and smooths contact count matrices from high-throughput chromosome conformation
+  capture data.

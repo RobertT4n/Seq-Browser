@@ -1,0 +1,21 @@
+name: PhiMRF
+full_name: Poisson hierarchical Markov Random Field
+category: dry
+summary: Integrates RNA-seq and Hi-C data to estimate spatial dependency of gene expression in the 3D genome.
+readouts:
+- rna
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2019.12.16.878371
+  year: 2019
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: M. S
+  title: Hierarchical Markov Random Field model captures spatial dependency in gene expression, demonstrating regulation via
+    the 3D genome
+links: {}
+added: '2026-11-21'
+evidence: PhiMRF integrates RNA-seq and Hi-C data to estimate how gene expression depends on spatial genomic locations.

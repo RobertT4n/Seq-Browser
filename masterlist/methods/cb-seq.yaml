@@ -1,0 +1,24 @@
+name: CB-seq
+full_name: Microfluidic Cell Barcoding and Sequencing
+category: wet
+summary: Addressable barcoded microfluidic chambers link high-resolution imaging with single-cell RNA sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+reference:
+  doi: 10.1039/D0LC00169D
+  year: 2020
+  journal: Lab on a Chip
+  first_author: Chen TN
+  last_author: Streets A
+  title: 'μCB-seq: microfluidic cell barcoding and sequencing for high-resolution imaging and sequencing of single cells'
+  preprint_doi: 10.1101/2020.02.18.954974
+links: {}
+added: '2026-11-21'
+evidence: CB-seq combines imaging and sequencing of single cells using known barcode primers preloaded in addressable reaction
+  chambers.

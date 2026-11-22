@@ -1,0 +1,21 @@
+name: TimelessFlex
+category: dry
+summary: TimelessFlex uses Hi-C interactions to pair promoters with enhancers and cluster their chromatin-state trajectories.
+readouts:
+- histone-modification
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-021-07373-z
+  year: 2021
+  journal: BMC Genomics
+  first_author: Miko H
+  last_author: Ohler U
+  title: Inferring time series chromatin states for promoter-enhancer pairs based on Hi-C data
+links: {}
+added: '2026-11-21'
+evidence: TimelessFlex assigns promoters and enhancers using Hi-C interactions and jointly clusters their chromatin-state
+  trajectories.

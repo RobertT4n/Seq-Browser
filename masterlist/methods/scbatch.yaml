@@ -1,0 +1,19 @@
+name: scBatch
+category: dry
+summary: scBatch corrects batch effects in bulk and single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa097
+  year: 2020
+  journal: Bioinformatics
+  first_author: Fei T
+  last_author: Yu T
+  title: 'scBatch: batch-effect correction of RNA-seq data through sample distance matrix adjustment'
+links: {}
+added: '2026-11-21'
+evidence: scBatch is a numerical algorithm for batch-effect correction on bulk and single-cell RNA-seq data.

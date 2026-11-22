@@ -1,0 +1,18 @@
+name: FilTar
+category: dry
+summary: Uses RNA-seq evidence to reannotate transcript ends and filter microRNA target predictions for a specific sample.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa007
+  year: 2020
+  journal: Bioinformatics
+  first_author: Bradley T
+  last_author: Moxon S
+  title: 'FilTar: using RNA-Seq data to improve microRNA target prediction accuracy in animals'
+links: {}
+added: '2026-11-21'
+evidence: FilTar reannotates 3′ UTRs using RNA-seq reads and filters predicted targets by transcript expression.

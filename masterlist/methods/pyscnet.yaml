@@ -1,0 +1,19 @@
+name: PySCNet
+category: dry
+summary: Toolkit for reconstructing and analyzing gene regulatory networks from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.12.18.423482
+  year: 2020
+  journal: bioRxiv
+  first_author: Wu
+  last_author: D
+  title: 'PySCNet: A tool for reconstructing and analyzing gene regulatory network from single-cell RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: PySCNet reconstructs cell-specific or trajectory-specific regulatory networks and supports co-expression module
+  detection.

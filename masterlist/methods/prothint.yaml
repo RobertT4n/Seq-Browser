@@ -1,0 +1,20 @@
+name: ProtHint
+category: dry
+summary: Maps proteins to a genome to provide splice-site and translation-boundary hints for gene prediction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa026
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Brůna T
+  last_author: Borodovsky M
+  title: 'GeneMark-EP+: eukaryotic gene prediction with self-training in the space of genes and proteins'
+  preprint_doi: 10.1101/2019.12.31.891218
+links: {}
+added: '2026-11-21'
+evidence: ProtHint maps proteins to the genome and extracts hints for splice sites and translation start and stop sites of
+  potential genes.
