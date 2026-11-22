@@ -1,0 +1,19 @@
+name: PypeAmplicon
+category: dry
+summary: Processes targeted amplicon sequencing reads to produce individual genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/772384
+  year: 2019
+  journal: bioRxiv
+  first_author: Pavinato VAC
+  last_author: Michel AP
+  title: 'Leveraging targeted sequencing for non-model species: a step-by-step guide to obtain a reduced SNP set and a pipeline
+    to automate data processing in the Antarctic Midge,  <i>Belgica antarctica</i>'
+links: {}
+added: '2026-11-21'
+evidence: PypeAmplicon processed multiplexed PCR and sequencing data to genotype targeted SNPs in the Antarctic midge.

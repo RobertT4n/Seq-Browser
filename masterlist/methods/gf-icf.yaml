@@ -1,0 +1,20 @@
+name: gf-icf
+full_name: gene frequency-inverse cell frequency
+category: dry
+summary: gf-icf normalizes single-cell RNA-seq counts and performs feature selection and dimensionality reduction for visualization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.00734
+  year: 2019
+  journal: Frontiers in Genetics
+  first_author: Gambardella G
+  last_author: di Bernardo D
+  title: A Tool for Visualization and Analysis of Single-Cell RNA-Seq Data Based on Text Mining
+links: {}
+added: '2026-11-21'
+evidence: The pipeline uses a text-mining-inspired transformation for normalization, feature selection and dimensionality
+  reduction of scRNA-seq data.

@@ -1,0 +1,23 @@
+name: MuSiC
+category: dry
+summary: Uses cell-type-specific single-cell RNA-seq expression references to estimate cell-type composition in bulk tissues.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-08023-x
+  year: 2019
+  journal: Nat Commun
+  first_author: Wang X
+  last_author: Li M
+  pmid: '30670690'
+  pmcid: PMC6342984
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+  preprint_doi: 10.1101/354944
+links: {}
+added: '2026-11-21'
+evidence: MuSiC uses cell-type-specific expression from single-cell RNA-seq to characterize cell-type composition in bulk
+  RNA-seq data.

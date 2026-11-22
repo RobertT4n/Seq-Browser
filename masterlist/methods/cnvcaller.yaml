@@ -1,0 +1,18 @@
+name: CNVcaller
+category: dry
+summary: Detects copy number variations in population sequencing data using read depth.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/gix115
+  year: 2017
+  journal: GigaScience
+  first_author: Wang X
+  last_author: Jiang Y
+  title: 'CNVcaller: highly efficient and widely applicable software for detecting copy number variations in large populations'
+links: {}
+added: '2026-11-21'
+evidence: CNVcaller is a read-depth method for discovering copy number variations in population sequencing data.

@@ -1,0 +1,22 @@
+name: RnaSeqSampleSize
+category: dry
+summary: Estimates sample size and statistical power for RNA-seq experiments using count and dispersion distributions from
+  reference datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2191-5
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zhao S
+  last_author: Shyr Y
+  pmid: '29843589'
+  pmcid: PMC5975570
+  title: 'RnaSeqSampleSize: real data based sample size estimation for RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: RnaSeqSampleSize estimates power and sample size using gene average read-count and dispersion distributions from
+  real RNA-seq data.

@@ -1,0 +1,21 @@
+name: ToTem
+category: dry
+summary: Web application that generates, executes and benchmarks variant-calling pipeline settings for optimization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2227-x
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Tom N
+  last_author: Pospisilova S
+  pmid: '29940847'
+  pmcid: PMC6020218
+  title: 'ToTem: a tool for variant calling pipeline optimization'
+links: {}
+added: '2026-11-21'
+evidence: ToTem benchmarks variant-calling pipeline settings and was used on targeted gene sequencing and whole-genome sequencing
+  data.

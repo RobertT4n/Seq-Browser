@@ -1,0 +1,21 @@
+name: Gene Cascade Finder
+category: dry
+summary: Builds gene regulatory cascades from mutant and wild-type RNA-seq data and additional interaction and timing information.
+readouts:
+- rna
+- protein-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0215187
+  year: 2019
+  journal: PLOS ONE
+  first_author: Nomoto Y
+  last_author: Ito M
+  title: 'Gene Cascade Finder: A tool for identification of gene cascades and its application in Caenorhabditis elegans'
+  preprint_doi: 10.1101/593400
+links: {}
+added: '2026-11-21'
+evidence: Gene Cascade Finder compares mutant and wild-type RNA-seq data alongside protein interactions, expression timing,
+  and domains to build gene cascades.

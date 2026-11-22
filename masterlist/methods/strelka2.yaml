@@ -1,0 +1,19 @@
+name: Strelka2
+category: dry
+summary: Calls germline and somatic small variants using sample-specific error estimation and haplotype modeling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0051-x
+  year: 2018
+  journal: Nature Methods
+  first_author: Kim S
+  last_author: Saunders CT
+  title: 'Strelka2: fast and accurate calling of germline and somatic variants'
+  preprint_doi: 10.1101/192872
+links: {}
+added: '2026-11-21'
+evidence: Strelka2 is a small-variant caller for clinical germline and somatic sequencing applications.

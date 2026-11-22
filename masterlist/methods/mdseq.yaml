@@ -1,0 +1,19 @@
+name: MDSeq
+category: dry
+summary: A statistical method models gene expression means and variability in large RNA-seq studies.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx456
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Ran D
+  last_author: Daye ZJ
+  title: Gene expression variability and the analysis of large-scale RNA-seq studies with the MDSeq
+links: {}
+added: '2026-11-21'
+evidence: MDSeq uses negative binomial generalized linear models to analyze expression means and dispersion and evaluate differential
+  expression.

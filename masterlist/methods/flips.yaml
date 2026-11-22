@@ -1,0 +1,27 @@
+name: FLIPS
+full_name: Full-Length Individual Proviral Sequencing
+category: wet
+summary: Amplification and sequencing of near-full-length HIV-1 proviruses characterize their genetic integrity in CD4-positive
+  T-cell subsets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.celrep.2017.09.081
+  year: 2017
+  journal: Cell Reports
+  first_author: Hiener B
+  last_author: Palmer S
+  title: Identification of Genetically Intact HIV-1 Proviruses in Specific CD4+ T Cells from Effectively Treated Participants
+links: {}
+added: '2026-11-21'
+evidence: FLIPS amplifies and sequences approximately 9 kb HIV-1 proviral genomes to assess potential replication competency.

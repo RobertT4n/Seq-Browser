@@ -1,0 +1,18 @@
+name: TSAS
+category: dry
+summary: Analyzes transposon sequencing data to identify genes essential under particular growth conditions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.00015-17
+  year: 2017
+  journal: mSystems
+  first_author: Burger BT
+  last_author: Donohue TJ
+  title: Combining Genome-Scale Experimental and Computational Methods To Identify Essential Genes in Rhodobacter sphaeroides
+links: {}
+added: '2026-11-21'
+evidence: The authors used TSAS to identify essential genes from a large transposon mutant library under several growth conditions.

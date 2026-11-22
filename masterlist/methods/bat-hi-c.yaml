@@ -1,0 +1,28 @@
+name: BAT Hi-C
+full_name: Bridge linker-Alul-Tn5 Hi-C
+category: wet
+summary: Restriction digestion, linker-mediated proximity ligation and Tn5 tagmentation map genome-wide chromatin contacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- tn5
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.ymeth.2019.08.004
+  year: 2020
+  journal: Methods
+  first_author: Huang J
+  last_author: Ji X
+  title: BAT Hi-C maps global chromatin interactions in an efficient and economical way
+links: {}
+added: '2026-11-21'
+evidence: BAT Hi-C uses AluI fragmentation and biotinylated linker-mediated proximity ligation to map chromatin interactions
+  in mouse embryonic stem cells.

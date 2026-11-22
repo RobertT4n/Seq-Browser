@@ -1,0 +1,18 @@
+name: SGVar
+category: dry
+summary: A de novo assembly workflow for haplotype-based variant discovery from whole-exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbx037
+  year: 2017
+  journal: Briefings in Bioinformatics
+  first_author: Tian S
+  last_author: Slager SL
+  title: Comparative analysis of de novo assemblers for variation discovery in personal genomes
+links: {}
+added: '2026-11-21'
+evidence: SGVar performs haplotype-based variant discovery from whole-exome sequencing using de novo assembly.

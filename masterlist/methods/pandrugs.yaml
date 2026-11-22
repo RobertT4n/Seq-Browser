@@ -1,0 +1,21 @@
+name: PanDrugs
+category: dry
+summary: Prioritizes anticancer therapies using genomic alteration lists and evidence about genes and drug targets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-018-0546-1
+  year: 2018
+  journal: Genome Med
+  first_author: Piñeiro-Yáñez E
+  last_author: Al-Shahrour F
+  pmid: '29848362'
+  pmcid: PMC5977747
+  title: 'PanDrugs: a novel method to prioritize anticancer drug treatments according to individual genomic data'
+links: {}
+added: '2026-11-21'
+evidence: PanDrugs interprets genomic alterations from genome-wide sequencing and provides a prioritized list of anticancer
+  therapies.

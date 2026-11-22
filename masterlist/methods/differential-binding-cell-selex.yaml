@@ -1,0 +1,22 @@
+name: differential binding cell-SELEX
+full_name: differential binding cell-systematic evolution of ligands by exponential enrichment
+category: dry
+summary: A computational workflow that uses differential binding analysis to identify cell-specific aptamers from sequencing
+  data.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41598-019-44654-w
+  year: 2019
+  journal: Scientific Reports
+  first_author: Pleiko K
+  last_author: Riekstina U
+  title: Differential binding cell-SELEX method to identify cell-specific aptamers using high-throughput sequencing
+  preprint_doi: 10.1101/466722
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): cell-SELEX aptamer analysis; binding targets unspecified and no fitting readout tag. Curated out pending a scope decision (same as AptamerRunner).'
+added: '2026-11-21'
+evidence: The workflow adapts FASTAptamer and edgeR to obtain more informative metrics from cell-SELEX selection.

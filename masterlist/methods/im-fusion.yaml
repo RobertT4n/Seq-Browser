@@ -1,0 +1,22 @@
+name: IM-Fusion
+category: dry
+summary: An RNA-seq analysis method identifies transposon insertion sites and assesses their effects on target gene expression.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx461
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: de Ruiter JR
+  last_author: Jonkers J
+  title: Identifying transposon insertions and their effects from RNA-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: IM-Fusion identifies insertion sites from gene-transposon fusions and combines them with expression quantification
+  to assess their effects.

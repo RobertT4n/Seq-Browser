@@ -1,0 +1,21 @@
+name: phyloFlash
+category: dry
+summary: Profiles microbial taxa and assembles SSU rRNA sequences from metagenomic data.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/msystems.00920-20
+  year: 2020
+  journal: mSystems
+  first_author: Gruber-Vodicka HR
+  last_author: Pruesse E
+  title: 'phyloFlash: Rapid Small-Subunit rRNA Profiling and Targeted Assembly from Metagenomes'
+  preprint_doi: 10.1101/521922
+links: {}
+added: '2026-11-21'
+evidence: phyloFlash performs SSU rRNA-centered taxonomic classification, targeted assembly and graph-based binning of metagenomic
+  assemblies.

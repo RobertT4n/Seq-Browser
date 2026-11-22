@@ -1,0 +1,29 @@
+name: SMRF-seq
+full_name: single-molecule R-loop footprinting
+category: wet
+summary: Non-denaturing bisulfite treatment and long-read sequencing map R-loop footprints on individual DNA molecules.
+readouts:
+- r-loop
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1016/j.jmb.2020.02.014
+  year: 2020
+  journal: J Mol Biol
+  first_author: Malig M
+  last_author: Chedin F
+  pmid: '32105733'
+  pmcid: PMC7669280
+  title: Ultra-deep Coverage Single-molecule R-loop Footprinting Reveals Principles of R-loop Formation
+  preprint_doi: 10.1101/640094
+links: {}
+added: '2026-11-21'
+evidence: Non-denaturing sodium bisulfite tags unpaired cytosines, and PacBio sequencing identifies strand-specific R-loop
+  footprints on single DNA molecules.

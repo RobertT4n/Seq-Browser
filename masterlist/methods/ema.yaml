@@ -1,0 +1,19 @@
+name: EMA
+category: dry
+summary: Aligns barcoded sequencing reads using a statistical model that assigns reads to read clouds and positions within
+  them.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2018.07.005
+  year: 2018
+  journal: Cell Systems
+  first_author: Shajii A
+  last_author: Berger B
+  title: Statistical Binning for Barcoded Reads Improves Downstream Analyses
+links: {}
+added: '2026-11-21'
+evidence: EMA probabilistically maps reads to read clouds and then within clouds using non-uniform read densities.

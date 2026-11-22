@@ -1,0 +1,20 @@
+name: DeepATAC
+category: dry
+summary: A deep-learning model predicts regulatory factor binding locations from DNA sequence and ATAC-seq accessibility signals.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/172767
+  year: 2017
+  journal: bioRxiv
+  first_author: Hiranuma
+  last_author: S.-I
+  title: 'DeepATAC: A deep-learning method to predict regulatory factor binding activity from ATAC-seq signals'
+links: {}
+added: '2026-11-21'
+evidence: DeepATAC uses DNA sequence and chromatin accessibility to impute regulatory factor binding locations.

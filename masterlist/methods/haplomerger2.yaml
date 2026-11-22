@@ -1,0 +1,19 @@
+name: HaploMerger2
+category: dry
+summary: Rebuilds haploid subassemblies from diploid genome assemblies using error detection, scaffolding and gap closing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx220
+  year: 2017
+  journal: Bioinformatics
+  first_author: Huang S
+  last_author: Xu A
+  title: 'HaploMerger2: rebuilding both haploid sub-assemblies from high-heterozygosity diploid genome assembly'
+links: {}
+added: '2026-11-21'
+evidence: HaploMerger2 is an automated pipeline for rebuilding both haploid subassemblies from a polymorphic diploid genome
+  assembly.

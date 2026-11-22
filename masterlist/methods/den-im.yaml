@@ -1,0 +1,20 @@
+name: DEN-IM
+category: dry
+summary: DEN-IM analyzes shotgun or targeted dengue virus sequencing data to infer coding sequences, classify viruses, and
+  reconstruct phylogeny.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/628073
+  year: 2019
+  journal: bioRxiv
+  first_author: Mendes
+  last_author: J. A
+  title: 'DEN-IM: Dengue Virus identification from shotgun and targeted metagenomics'
+links: {}
+added: '2026-11-21'
+evidence: DEN-IM infers dengue coding sequence, identifies serotype and genotype, and generates a phylogenetic tree from shotgun
+  or targeted data.

@@ -1,0 +1,20 @@
+name: ASGAL
+full_name: Alternative Splicing Graph ALigner
+category: dry
+summary: A tool aligns RNA-seq reads directly to a splicing graph to detect novel alternative splicing events.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2436-3
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Denti L
+  last_author: Bonizzoni P
+  title: 'ASGAL: aligning RNA-Seq data to a splicing graph to detect novel alternative splicing events'
+  preprint_doi: 10.1101/260372
+links: {}
+added: '2026-11-21'
+evidence: ASGAL takes annotated transcripts and an RNA-seq sample and returns spliced alignments and novel events.

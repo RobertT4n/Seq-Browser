@@ -1,0 +1,20 @@
+name: CAMITAX
+category: dry
+summary: Assigns taxonomic labels to microbial genomes using an ensemble of sequence-based and phylogenetic methods.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz154
+  year: 2020
+  journal: GigaScience
+  first_author: Bremges A
+  last_author: McHardy AC
+  title: 'CAMITAX: Taxon labels for microbial genomes'
+  preprint_doi: 10.1101/532473
+links: {}
+added: '2026-11-21'
+evidence: CAMITAX labels microbial genomes from isolates, single cells and metagenomes by combining several taxonomic assignment
+  methods.

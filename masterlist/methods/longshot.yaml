@@ -1,0 +1,20 @@
+name: Longshot
+category: dry
+summary: Calls and phases single-nucleotide variants in diploid genomes using long-read haplotype information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12493-y
+  year: 2019
+  journal: Nat Commun
+  first_author: Edge P
+  last_author: Bansal V
+  pmid: '31604920'
+  pmcid: PMC6788989
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+links: {}
+added: '2026-11-21'
+evidence: Longshot detects and phases SNVs using haplotype information in single-molecule long reads.

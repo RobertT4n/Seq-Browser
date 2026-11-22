@@ -1,0 +1,27 @@
+name: next-generation copy number alteration assay
+category: wet
+summary: Targeted postligation amplification sequencing estimates copy number alterations at sites used to calculate prostate
+  cancer metastasis potential.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.jmoldx.2018.07.007
+  year: 2019
+  journal: J Mol Diagn
+  first_author: Fofanov VY
+  last_author: Ostrer H
+  pmid: '30553750'
+  pmcid: PMC6334266
+  title: Rapid Next-Generation Sequencing Method for Prediction of Prostate Cancer Risks
+links: {}
+added: '2026-11-21'
+evidence: The assay interrogates 902 genomic sites in 194 regions used in the metastasis potential score.

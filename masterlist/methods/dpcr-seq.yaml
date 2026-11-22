@@ -1,0 +1,24 @@
+name: dPCR-SEQ
+category: wet
+summary: Digital PCR target enrichment followed by sequencing detects plasma DNA mutations in three breast cancer genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1038/s41523-018-0093-3
+  year: 2018
+  journal: NPJ Breast Cancer
+  first_author: Kumar S
+  last_author: Gupta GP
+  pmid: '30534596'
+  pmcid: PMC6281679
+  title: Tracking plasma DNA mutation dynamics in estrogen receptor positive metastatic breast cancer with dPCR-SEQ
+links: {}
+added: '2026-11-21'
+evidence: dPCR-SEQ uses digital PCR-based target enrichment and sequencing to analyze ESR1, PIK3CA, and TP53 plasma DNA mutations.

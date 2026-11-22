@@ -1,0 +1,20 @@
+name: TEsmall
+category: dry
+summary: Pipeline that processes multiple classes of small RNA sequencing reads and produces count tables for differential
+  expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2018.00461
+  year: 2018
+  journal: Frontiers in Genetics
+  first_author: O’Neill K
+  last_author: Hammell MG
+  title: TEsmall Identifies Small RNAs Associated With Targeted Inhibitor Resistance in Melanoma
+  preprint_doi: 10.1101/359471
+links: {}
+added: '2026-11-21'
+evidence: TEsmall processes small RNAs from each annotated class in one workflow, from raw FASTQ reads to count tables.

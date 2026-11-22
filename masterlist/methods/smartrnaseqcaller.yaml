@@ -1,0 +1,18 @@
+name: SmartRNASeqCaller
+category: dry
+summary: Uses machine learning to reduce false-positive germline variant calls from RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/684993
+  year: 2019
+  journal: bioRxiv
+  first_author: Bosio
+  last_author: S
+  title: 'SmartRNASeqCaller: improving germline variant calling from RNAseq'
+links: {}
+added: '2026-11-21'
+evidence: SmartRNASeqCaller is a machine-learning system designed to reduce false-positive germline variant calls from RNA-seq.

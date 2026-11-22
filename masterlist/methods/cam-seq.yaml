@@ -1,0 +1,28 @@
+name: CAM-Seq
+full_name: chemical-assisted mismatch sequencing
+category: wet
+summary: Chemical oxidation and labeling convert 5hmC into a sequence mismatch for base-resolution mapping.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1039/c8sc04272a
+  year: 2019
+  journal: Chem Sci
+  first_author: Wang Y
+  last_author: Zhou X
+  pmid: '30746092'
+  pmcid: PMC6335847
+  title: Bisulfite-free, single base-resolution analysis of 5-hydroxymethylcytosine in genomic DNA by chemical-mediated mismatch
+links: {}
+added: '2026-11-21'
+evidence: CAM-Seq oxidizes 5hmC to 5fC and chemically labels it to induce a C-to-T change during PCR.

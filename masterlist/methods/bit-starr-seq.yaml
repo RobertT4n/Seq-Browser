@@ -1,0 +1,25 @@
+name: BiT-STARR-seq
+full_name: Biallelic Targeted STARR-seq
+category: wet
+summary: Uses a high-throughput reporter assay to identify allele-specific expression while accounting for PCR duplicates
+  with unique molecular identifiers.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1101/gr.237354.118
+  year: 2018
+  journal: Genome Research
+  first_author: Kalita CA
+  last_author: Luca F
+  title: High-throughput characterization of genetic effects on DNA–protein binding and gene transcription
+  preprint_doi: 10.1101/270991
+links: {}
+added: '2026-11-21'
+evidence: BiT-STARR-seq tested 75,501 oligos and identified SNPs with significant allele-specific expression.

@@ -1,0 +1,18 @@
+name: GLnexus
+category: dry
+summary: Joint variant calling system that scales genotype analysis to large sequencing cohorts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/343970
+  year: 2018
+  journal: bioRxiv
+  first_author: Lin
+  last_author: J. G
+  title: 'GLnexus: joint variant calling for large cohort sequencing'
+links: {}
+added: '2026-11-21'
+evidence: GLnexus combines scalable joint calling algorithms with a persistent database and was validated using 50,000 exomes.

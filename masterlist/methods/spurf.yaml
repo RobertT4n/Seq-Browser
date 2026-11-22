@@ -1,0 +1,19 @@
+name: SPURF
+full_name: Substitution Profiles Using Related Families
+category: dry
+summary: A regression framework that predicts B cell receptor clonal-family substitution profiles from public repertoire data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1006388
+  year: 2018
+  journal: PLOS Computational Biology
+  first_author: Dhar A
+  last_author: Minin VN
+  title: Predicting B cell receptor substitution profiles using public repertoire data
+links: {}
+added: '2026-11-21'
+evidence: SPURF integrates repertoire datasets to predict a clonal-family-specific substitution profile for an input sequence.

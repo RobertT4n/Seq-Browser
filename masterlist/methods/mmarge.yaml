@@ -1,0 +1,21 @@
+name: MMARGE
+full_name: Motif Mutation Analysis of Regulatory Genomic Elements
+category: dry
+summary: Integrates genetic variation with epigenetic data to identify collaborative transcription factor pairs.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky491
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Link VM
+  last_author: Glass CK
+  title: 'MMARGE: Motif Mutation Analysis for Regulatory Genomic Elements'
+links: {}
+added: '2026-11-21'
+evidence: MMARGE integrates genome-wide genetic variation with accessibility or transcription factor binding data.

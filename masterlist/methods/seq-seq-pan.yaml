@@ -1,0 +1,18 @@
+name: seq-seq-pan
+category: dry
+summary: A framework constructs and dynamically updates a whole-genome alignment for a set of genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-017-4401-3
+  year: 2018
+  journal: BMC Genomics
+  first_author: Jandrasits C
+  last_author: Renard BY
+  title: 'seq-seq-pan: building a computational pan-genome data structure on whole genome alignment'
+links: {}
+added: '2026-11-21'
+evidence: The framework adds or removes genomes from an aligned set and optimizes a representative linear presentation.

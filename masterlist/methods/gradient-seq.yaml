@@ -1,0 +1,23 @@
+name: gradient-seq
+category: wet
+summary: Uses resistance to sonication to map heterochromatin and distinguish subtypes of histone-marked domains genome-wide.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.molcel.2017.11.030
+  year: 2017
+  journal: Molecular Cell
+  first_author: Becker JS
+  last_author: Zaret KS
+  title: Genomic and Proteomic Resolution of Heterochromatin and Its Restriction of Alternate Fate Genes
+links: {}
+added: '2026-11-21'
+evidence: Gradient-seq discriminates H3K9me3 and H3K27me3 domains in sonication-resistant heterochromatin from those in euchromatin.
+targets:
+- H3K9me3
+- H3K27me3

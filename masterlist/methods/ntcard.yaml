@@ -1,0 +1,19 @@
+name: ntCard
+category: dry
+summary: Estimates k-mer frequency distributions from streamed genomic sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw832
+  year: 2017
+  journal: Bioinformatics
+  first_author: Mohamadi H
+  last_author: Birol I
+  title: 'ntCard: a streaming algorithm for cardinality estimation in genomics data'
+links: {}
+added: '2026-11-21'
+evidence: ntCard samples hashes of streamed sequences and reconstructs the population k-mer frequency distribution using a
+  statistical model.

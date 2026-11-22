@@ -1,0 +1,19 @@
+name: bayNorm
+category: dry
+summary: Bayesian method for normalizing single-cell RNA-seq counts, imputing missing values, and recovering expression estimates.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz726
+  year: 2019
+  journal: Bioinformatics
+  first_author: Tang W
+  last_author: Shahrezaei V
+  title: 'bayNorm: Bayesian gene expression recovery, imputation and normalization for single-cell RNA-sequencing data'
+  preprint_doi: 10.1101/384586
+links: {}
+added: '2026-11-21'
+evidence: bayNorm uses a binomial model of mRNA capture and empirical Bayes priors for scaling, imputation, and count recovery.

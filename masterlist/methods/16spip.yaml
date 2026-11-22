@@ -1,0 +1,20 @@
+name: 16SPIP
+category: dry
+summary: Processes clinical 16S metagenomic sequencing data to identify pathogens and generate reports.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1975-3
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Miao J
+  last_author: Zhang W
+  title: '16SPIP: a comprehensive analysis pipeline for rapid pathogen detection in clinical samples based on 16S metagenomic
+    sequencing'
+links: {}
+added: '2026-11-21'
+evidence: 16SPIP includes quality control, paired-read merging, alignment, and pathogen identification in fast and sensitive
+  modes.

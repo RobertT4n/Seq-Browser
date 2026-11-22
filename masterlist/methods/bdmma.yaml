@@ -1,0 +1,19 @@
+name: BDMMA
+full_name: Bayesian Dirichlet-multinomial regression meta-analysis
+category: dry
+summary: Models batch effects and detects phenotype-associated microbial taxa in microbiome data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty729
+  year: 2018
+  journal: Bioinformatics
+  first_author: Dai Z
+  last_author: Wei Y
+  title: Batch effects correction for microbiome data with Dirichlet-multinomial regression
+links: {}
+added: '2026-11-21'
+evidence: BDMMA simultaneously models batch effects and detects microbial taxa associated with phenotypes.

@@ -1,0 +1,19 @@
+name: SOBDetector
+full_name: Strand Orientation Bias Detector
+category: dry
+summary: Filters formalin-induced artifacts from variant lists using a Bayesian logistic regression model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/386417
+  year: 2018
+  journal: bioRxiv
+  first_author: Diossy
+  last_author: Z
+  title: Strand Orientation Bias Detector (SOBDetector) to remove artifacts from sequencing data of formalin fixed samples
+links: {}
+added: '2026-11-21'
+evidence: SOBDetector removes formalin-induced artifacts from variant lists using a model trained on TCGA whole exomes.

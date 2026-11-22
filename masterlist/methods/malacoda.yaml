@@ -1,0 +1,21 @@
+name: malacoda
+category: dry
+summary: Uses a Bayesian model to analyze sequencing-based functional screens such as massively parallel reporter assays.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1007504
+  year: 2020
+  journal: PLoS Comput Biol
+  first_author: Ghazi AR
+  last_author: Shaw CA
+  pmid: '32692749'
+  pmcid: PMC7394446
+  title: Bayesian modelling of high-throughput sequencing assays with malacoda
+  preprint_doi: 10.1101/819466
+links: {}
+added: '2026-11-21'
+evidence: malacoda implements a probabilistic model for screen data, including counts from reporter assays.

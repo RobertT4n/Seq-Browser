@@ -1,0 +1,20 @@
+name: SAVER
+full_name: Single-cell Analysis Via Expression Recovery
+category: dry
+summary: Recovers single-cell gene expression estimates by borrowing information across genes and cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-018-0033-z
+  year: 2018
+  journal: Nature Methods
+  first_author: Huang M
+  last_author: Zhang NR
+  title: 'SAVER: gene expression recovery for single-cell RNA sequencing'
+  preprint_doi: 10.1101/138677
+links: {}
+added: '2026-11-21'
+evidence: SAVER imputes zeros and improves expression estimates for all genes in scRNA-seq data.

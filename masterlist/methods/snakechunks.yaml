@@ -1,0 +1,19 @@
+name: SnakeChunks
+category: dry
+summary: A collection of modular Snakemake rules supports configurable workflows for sequencing data analysis.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/165191
+  year: 2017
+  journal: bioRxiv
+  first_author: Rioualen
+  last_author: J
+  title: 'SnakeChunks: modular blocks to build Snakemakeworkflows for reproducible NGS analyses'
+links: {}
+added: '2026-11-21'
+evidence: SnakeChunks provides configurable workflows illustrated with RNA-seq and ChIP-seq analyses.

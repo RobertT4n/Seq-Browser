@@ -1,0 +1,19 @@
+name: HiCRep
+category: dry
+summary: Assesses Hi-C data reproducibility using a correlation measure that accounts for contact-map spatial structure and
+  distance dependence.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.220640.117
+  year: 2017
+  journal: Genome Research
+  first_author: Yang T
+  last_author: Li Q
+  title: 'HiCRep: assessing the reproducibility of Hi-C data using a stratum-adjusted correlation coefficient'
+links: {}
+added: '2026-11-21'
+evidence: HiCRep uses a stratum-adjusted correlation coefficient to quantify similarity between Hi-C interaction matrices.

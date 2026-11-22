@@ -1,0 +1,19 @@
+name: ICR142 Benchmarker
+category: dry
+summary: A tool that benchmarks germline variant calling using the ICR142 exome validation series.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.12688/wellcomeopenres.14754.2
+  year: 2018
+  journal: Wellcome Open Research
+  first_author: Ruark E
+  last_author: Rahman N
+  title: 'ICR142 Benchmarker: evaluating, optimising and benchmarking variant calling performance using the ICR142 NGS validation
+    series'
+links: {}
+added: '2026-11-21'
+evidence: ICR142 Benchmarker assesses base substitution and indel calling sensitivity, specificity, and false detection rates.

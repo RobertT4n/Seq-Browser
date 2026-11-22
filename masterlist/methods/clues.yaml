@@ -1,0 +1,21 @@
+name: CLUES
+full_name: Clustering-Local-Unique-Enriched-Signals
+category: dry
+summary: An adaptive-window method that identifies enriched ChIP-seq regions and clusters them into broad enrichment signals.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0206844
+  year: 2018
+  journal: PLOS ONE
+  first_author: Wu C
+  last_author: Jia J
+  title: Clustering-local-unique-enriched-signals (CLUES) promotes identification of novel regulators of ES cell self-renewal
+    and pluripotency
+links: {}
+added: '2026-11-21'
+evidence: CLUES identifies enriched regions with adaptive-size windows and clusters them into broad signals.

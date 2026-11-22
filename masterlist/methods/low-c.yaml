@@ -1,0 +1,29 @@
+name: Low-C
+category: wet
+summary: A low-input Hi-C method maps chromatin conformation in scarce cell populations.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+species:
+- human
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41467-018-06961-0
+  year: 2018
+  journal: Nat Commun
+  first_author: Díaz N
+  last_author: Vaquerizas JM
+  pmid: '30498195'
+  pmcid: PMC6265268
+  title: Chromatin conformation analysis of primary patient tissue using a low input Hi-C method
+  preprint_doi: 10.1101/372789
+links: {}
+added: '2026-11-21'
+evidence: Low-C produced chromatin conformation maps from primary B cells of a diffuse large B-cell lymphoma patient.

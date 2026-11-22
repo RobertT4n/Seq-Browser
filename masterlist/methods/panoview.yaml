@@ -1,0 +1,20 @@
+name: PanoView
+full_name: Panoramic View
+category: dry
+summary: Iteratively clusters single-cell RNA-seq data using density-based clustering and data-driven parameter estimation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007040
+  year: 2019
+  journal: PLOS Computational Biology
+  first_author: Hu MW
+  last_author: Qian J
+  title: 'PanoView: An iterative clustering method for single-cell RNA sequencing data'
+  preprint_doi: 10.1101/616862
+links: {}
+added: '2026-11-21'
+evidence: PanoView repeatedly identifies confident clusters and reclusters remaining cells in a new PCA space.

@@ -1,0 +1,24 @@
+name: nanoClust
+category: dry
+summary: An algorithm clusters nanopore reads and calls within-cluster consensus sequences for full-length 16S rRNA genes.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/giy140
+  year: 2018
+  journal: GigaScience
+  first_author: Calus ST
+  last_author: Pinto AJ
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+  preprint_doi: 10.1101/244517
+links: {}
+added: '2026-11-21'
+evidence: nanoClust performs read partitioning-based de novo clustering and consensus calling to obtain full-length 16S rRNA
+  gene sequences.

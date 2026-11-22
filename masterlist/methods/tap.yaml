@@ -1,0 +1,20 @@
+name: TAP
+full_name: Targeted Assembly Pipeline
+category: dry
+summary: A targeted RNA-seq assembly pipeline that detects structural and splicing variants in transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12920-018-0402-6
+  year: 2018
+  journal: BMC Medical Genomics
+  first_author: Chiu R
+  last_author: Birol I
+  title: 'TAP: a targeted clinical genomics pipeline for detecting transcript variants using RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: TAP classifies RNA-seq reads by gene, assembles individual targets, aligns contigs, and detects structural and splicing
+  variants.

@@ -1,0 +1,19 @@
+name: TREDPARSE
+category: dry
+summary: Infers short tandem repeat sizes at genetic loci from sequencing alignments and paired-end distances.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.ajhg.2017.09.013
+  year: 2017
+  journal: The American Journal of Human Genetics
+  first_author: Tang H
+  last_author: Telenti A
+  title: Profiling of Short-Tandem-Repeat Disease Alleles in 12,632 Human Whole Genomes
+links: {}
+added: '2026-11-21'
+evidence: TREDPARSE combines alignment, paired-end distance, and stutter information to infer repeat sizes at 30 known disease
+  loci.

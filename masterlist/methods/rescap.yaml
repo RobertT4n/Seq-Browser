@@ -1,0 +1,22 @@
+name: ResCap
+category: wet
+summary: Captures resistance and plasmid-marker gene sequences for quantitative and qualitative analysis of microbial resistomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- microbe
+reference:
+  doi: 10.1186/s40168-017-0387-y
+  year: 2018
+  journal: Microbiome
+  first_author: Lanza VF
+  last_author: Coque TM
+  title: In-depth resistome analysis by targeted metagenomics
+links: {}
+added: '2026-11-21'
+evidence: ResCap uses in-solution probes targeting resistance genes, relaxase genes and homologous sequences.

@@ -1,0 +1,25 @@
+name: OCEAN-C
+full_name: open chromatin enrichment and network Hi-C
+category: wet
+summary: Combines FAIRE-seq and Hi-C to map genome-wide interactions among open chromatin regions.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- organic-extraction
+- proximity-ligation
+species:
+- human
+reference:
+  doi: 10.1186/s13059-018-1430-4
+  year: 2018
+  journal: Genome Biology
+  first_author: Li T
+  last_author: Li C
+  title: 'OCEAN-C: mapping hubs of open chromatin interactions across the genome reveals gene regulatory networks'
+links: {}
+added: '2026-11-21'
+evidence: OCEAN-C integrates FAIRE-seq and Hi-C to detect open chromatin interactions enriched for active cis-regulatory elements.

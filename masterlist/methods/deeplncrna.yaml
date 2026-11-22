@@ -1,0 +1,18 @@
+name: DeepLncRNA
+category: dry
+summary: A deep learning method that predicts lncRNA subcellular localization from transcript sequence features.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-018-34708-w
+  year: 2018
+  journal: Scientific Reports
+  first_author: Gudenas BL
+  last_author: Wang L
+  title: Prediction of LncRNA Subcellular Localization with Deep Learning from Sequence Features
+links: {}
+added: '2026-11-21'
+evidence: DeepLncRNA predicts lncRNA localization directly from transcript sequences.

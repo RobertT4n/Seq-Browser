@@ -1,0 +1,19 @@
+name: FitHiChIP
+category: dry
+summary: Identifies significant chromatin contacts and differential contacts from HiChIP or PLAC-seq data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-11950-y
+  year: 2019
+  journal: Nature Communications
+  first_author: Bhattacharyya S
+  last_author: Ay F
+  title: Identification of significant chromatin contacts from HiChIP data by FitHiChIP
+  preprint_doi: 10.1101/412833
+links: {}
+added: '2026-11-21'
+evidence: FitHiChIP models HiChIP coverage and genomic distance to recover contacts genome-wide.

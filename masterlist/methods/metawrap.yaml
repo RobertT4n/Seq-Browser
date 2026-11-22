@@ -1,0 +1,20 @@
+name: metaWRAP
+category: dry
+summary: Modular pipeline for processing shotgun metagenomic reads and extracting, refining, and analyzing microbial genome
+  bins.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-018-0541-1
+  year: 2018
+  journal: Microbiome
+  first_author: Uritskiy GV
+  last_author: Taylor J
+  title: MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis
+  preprint_doi: 10.1101/277442
+links: {}
+added: '2026-11-21'
+evidence: metaWRAP processes raw metagenomic reads into bins and refines them through consolidation and reassembly.

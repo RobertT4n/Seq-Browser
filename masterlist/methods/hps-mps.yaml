@@ -1,0 +1,24 @@
+name: HPS-MPS
+category: wet
+summary: Two massively parallel sequencing assays genotype 41 DNA variants used by the HIrisPlex-S system to predict eye,
+  hair and skin color.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.fsigen.2019.102152
+  year: 2019
+  journal: 'Forensic Science International: Genetics'
+  first_author: Breslin K
+  last_author: Kayser M
+  title: 'HIrisPlex-S system for eye, hair, and skin color prediction from DNA: Massively parallel sequencing solutions for
+    two common forensically used platforms'
+links: {}
+added: '2026-11-21'
+evidence: The Ion Torrent and MiSeq assays each cover all 41 HIrisPlex-S DNA variants in a single assay.

@@ -1,0 +1,22 @@
+name: ScType
+category: dry
+summary: Automatically identifies cell types from single-cell RNA-seq data using a cell marker database.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-28803-w
+  year: 2022
+  journal: Nat Commun
+  first_author: Ianevski A
+  last_author: Aittokallio T
+  pmid: '35273156'
+  pmcid: PMC8913782
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic
+    data
+  preprint_doi: 10.1101/812131
+links: {}
+added: '2026-11-21'
+evidence: ScType uses positive and negative marker specificity to annotate cell types in single-cell transcriptomic datasets.

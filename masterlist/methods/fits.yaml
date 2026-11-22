@@ -1,0 +1,20 @@
+name: FITS
+full_name: Flexible Inference from Time-Series
+category: dry
+summary: A framework that infers mutation fitness, mutation rate, or population size from genomic sequencing time series.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/ve/vez011
+  year: 2019
+  journal: Virus Evolution
+  first_author: Zinger T
+  last_author: Stern A
+  title: Inferring population genetics parameters of evolving viruses using time-series data
+  preprint_doi: 10.1101/437483
+links: {}
+added: '2026-11-21'
+evidence: FITS infers fitness, mutation rates, or population size from genomic time-series sequencing data.

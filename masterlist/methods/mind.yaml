@@ -1,0 +1,21 @@
+name: MIND
+category: dry
+summary: Empirical Bayes method that estimates subject- and cell-type-specific gene expression from multiple tissue measurements
+  per subject.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz619
+  year: 2019
+  journal: Bioinformatics
+  first_author: Wang J
+  last_author: Roeder K
+  title: Using multiple measurements of tissue to estimate subject- and cell-type-specific gene expression
+  preprint_doi: 10.1101/379099
+links: {}
+added: '2026-11-21'
+evidence: MIND borrows information across multiple measurements of the same tissue per subject to estimate cell-type-specific
+  expression.

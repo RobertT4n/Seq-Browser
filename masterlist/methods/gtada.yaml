@@ -1,0 +1,18 @@
+name: gTADA
+category: dry
+summary: Prioritizes disease risk genes by integrating gene-set membership with rare variant counts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/410100
+  year: 2018
+  journal: bioRxiv
+  first_author: Nguyen
+  last_author: E. A
+  title: Prioritizing risk genes for neurodevelopmental disorders using pathway information
+links: {}
+added: '2026-11-21'
+evidence: gTADA combines gene-set information with de novo and inherited case-control variant counts to prioritize risk genes.

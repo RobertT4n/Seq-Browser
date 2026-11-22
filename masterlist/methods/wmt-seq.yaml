@@ -1,0 +1,26 @@
+name: wmt-seq
+category: wet
+summary: Multiplex PCR and ultra-deep sequencing characterize the whole mitochondrial genome from low-quality tissue DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1038/s41598-017-11345-3
+  year: 2017
+  journal: Scientific Reports
+  first_author: Amer W
+  last_author: Odenthal M
+  title: Evolution analysis of heterogeneous non-small cell lung carcinoma by ultra-deep sequencing of the mitochondrial genome
+links: {}
+added: '2026-11-21'
+evidence: wmt-seq uses multiplex PCR to sequence the whole mitochondrial genome from formalin-fixed paraffin-embedded tissues.

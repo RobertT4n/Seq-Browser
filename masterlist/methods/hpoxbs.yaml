@@ -1,0 +1,30 @@
+name: HPoxBS
+full_name: hairpin oxidative bisulfite sequencing
+category: wet
+summary: Hairpin and oxidative bisulfite sequencing determine strand-specific 5mC and 5hmC distributions at base resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gky422
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Giehr P
+  last_author: Walter J
+  pmid: '29912476'
+  pmcid: PMC6125676
+  title: 'Two are better than one: HPoxBS - hairpin oxidative bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: HPoxBS combines hairpin bisulfite and oxidative bisulfite sequencing to display strand-specific 5mC and 5hmC at
+  single-base resolution.

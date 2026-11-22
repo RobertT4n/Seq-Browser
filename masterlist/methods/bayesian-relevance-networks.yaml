@@ -1,0 +1,19 @@
+name: Bayesian Relevance Networks
+category: dry
+summary: Constructs co-expression networks using uncertainty-aware correlations between expression measurements across sample
+  groups.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0183103
+  year: 2017
+  journal: PLOS ONE
+  first_author: Ramachandran P
+  last_author: Perkins TJ
+  title: Uncovering robust patterns of microRNA co-expression across cancers using Bayesian Relevance Networks
+links: {}
+added: '2026-11-21'
+evidence: The algorithm computes uncertainty-moderated cross-group correlations and uses permutation testing to assess significance.

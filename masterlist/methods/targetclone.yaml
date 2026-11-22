@@ -1,0 +1,20 @@
+name: TargetClone
+category: dry
+summary: A method that reconstructs tumor subclonal evolution and infers copy numbers, alleles and tumor fractions from targeted
+  sequencing measurements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0208002
+  year: 2018
+  journal: PLOS ONE
+  first_author: Nieboer MM
+  last_author: de Ridder J
+  title: 'TargetClone: A multi-sample approach for reconstructing subclonal evolution of tumors'
+links: {}
+added: '2026-11-21'
+evidence: TargetClone reconstructs subclonal trees from SNP allele frequencies and somatic SNV measurements in microdissected
+  samples.

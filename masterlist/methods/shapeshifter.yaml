@@ -1,0 +1,18 @@
+name: ShapeShifter
+category: dry
+summary: Method that identifies and quantifies stable intronic lariats from RNA-seq read coverage patterns.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s40484-018-0141-x
+  year: 2018
+  journal: Quantitative Biology
+  first_author: Taggart AJ
+  last_author: Fairbrother WG
+  title: 'ShapeShifter: a novel approach for identifying and quantifying stable lariat intronic species in RNAseq data'
+links: {}
+added: '2026-11-21'
+evidence: ShapeShifter learns a characteristic lariat coverage curve and estimates stable intron abundances from RNA-seq data.

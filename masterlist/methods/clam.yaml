@@ -1,0 +1,22 @@
+name: CLAM
+full_name: CLIP-seq Analysis of Multi-mapped reads
+category: dry
+summary: Assigns multi-mapped CLIP-seq and RIP-seq reads and calls RNA regulatory peaks using both uniquely and multiply mapped
+  reads.
+readouts:
+- rna-protein-interaction
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx646
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Zhang Z
+  last_author: Xing Y
+  title: CLIP-seq analysis of multi-mapped reads discovers novel functional RNA regulatory sites in the human transcriptome
+links: {}
+added: '2026-11-21'
+evidence: CLAM uses an expectation-maximization algorithm to assign multi-mapped reads and calls peaks combining uniquely
+  and multi-mapped reads.

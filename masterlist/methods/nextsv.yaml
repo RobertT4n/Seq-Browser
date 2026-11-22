@@ -1,0 +1,23 @@
+name: NextSV
+category: dry
+summary: Structural variant meta-caller that integrates aligners and callers for low-coverage long-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12859-018-2207-1
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Fang L
+  last_author: Wang K
+  pmid: '29792160'
+  pmcid: PMC5966861
+  title: 'NextSV: a meta-caller for structural variants from low-coverage long-read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NextSV integrates three aligners and three structural variant callers and was evaluated at different PacBio coverages.

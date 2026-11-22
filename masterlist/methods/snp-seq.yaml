@@ -1,0 +1,23 @@
+name: SNP-seq
+category: wet
+summary: High-throughput restriction-based screening identifies noncoding variants that alter regulatory protein binding.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1038/s41588-018-0159-z
+  year: 2018
+  journal: Nat Genet
+  first_author: Li G
+  last_author: Nigrovic PA
+  pmid: '30013183'
+  pmcid: PMC6072570
+  title: High-throughput identification of noncoding functional SNPs via type IIS enzyme restriction
+links: {}
+added: '2026-11-21'
+evidence: SNP-seq uses type IIS enzymatic restriction to identify functional SNPs that allelically modulate regulatory protein
+  binding.

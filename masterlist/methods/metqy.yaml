@@ -1,0 +1,19 @@
+name: MetQy
+category: dry
+summary: Queries metabolic functional units in genomes, metagenomes or gene sets using KEGG data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty447
+  year: 2018
+  journal: Bioinformatics
+  first_author: Martinez-Vernon AS
+  last_author: Soyer OS
+  title: MetQy—an R package to query metabolic functions of genes and genomes
+  preprint_doi: 10.1101/215525
+links: {}
+added: '2026-11-21'
+evidence: MetQy uses KEGG to query functional units in genomes, metagenomes and sets of genes.

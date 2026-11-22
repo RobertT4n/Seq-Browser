@@ -1,0 +1,19 @@
+name: B-SCITE
+category: dry
+summary: Infers tumour phylogenies and subclonal architecture by combining single-cell and bulk sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-10737-5
+  year: 2019
+  journal: Nature Communications
+  first_author: Malikic S
+  last_author: Beerenwinkel N
+  title: Integrative inference of subclonal tumour evolution from single-cell and bulk sequencing data
+links: {}
+added: '2026-11-21'
+evidence: B-SCITE infers tumour phylogenies from combined single-cell and bulk sequencing data.

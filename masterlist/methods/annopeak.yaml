@@ -1,0 +1,18 @@
+name: annoPeak
+category: dry
+summary: Annotates, visualizes and compares predicted protein-binding regions from ChIP-seq and ChIP-exo-seq experiments.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx016
+  year: 2017
+  journal: Bioinformatics
+  first_author: Tang X
+  last_author: Leone G
+  title: 'annoPeak: a web application to annotate and visualize peaks from ChIP-seq/ChIP-exo-seq'
+links: {}
+added: '2026-11-21'
+evidence: annoPeak annotates uploaded peak regions with biological context and helps compare binding profiles.

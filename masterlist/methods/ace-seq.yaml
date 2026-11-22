@@ -1,0 +1,28 @@
+name: ACE-seq
+full_name: APOBEC-coupled epigenetic sequencing
+category: wet
+summary: Enzymatic deamination enables low-input, base-resolution mapping of genomic 5hmC.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- primary-cells
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/nbt.4204
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Schutsky EK
+  last_author: Kohli RM
+  pmid: '30295673'
+  pmcid: PMC6453757
+  title: Nondestructive, base-resolution sequencing of 5-hydroxymethylcytosine using a DNA deaminase
+links: {}
+added: '2026-11-21'
+evidence: ACE-seq generated a whole-genome, base-resolution 5hmC map from tissue-derived cortical excitatory neurons.

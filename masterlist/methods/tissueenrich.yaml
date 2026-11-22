@@ -1,0 +1,19 @@
+name: TissueEnrich
+category: dry
+summary: Calculates tissue-specific gene enrichment in input gene sets to help assign tissue identities.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty890
+  year: 2018
+  journal: Bioinformatics
+  first_author: Jain A
+  last_author: Tuteja G
+  title: 'TissueEnrich: Tissue-specific gene enrichment analysis'
+links: {}
+added: '2026-11-21'
+evidence: TissueEnrich calculates enrichment of tissue-specific genes and was demonstrated on single-cell clusters and differentiated
+  embryonic stem cells.

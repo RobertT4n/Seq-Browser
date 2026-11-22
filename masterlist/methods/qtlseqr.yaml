@@ -1,0 +1,21 @@
+name: QTLseqr
+category: dry
+summary: Identifies quantitative trait loci from next-generation sequencing bulk segregant analysis using QTL-seq and smoothed
+  G statistics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3835/plantgenome2018.01.0006
+  year: 2018
+  journal: The Plant Genome
+  first_author: Mansfeld BN
+  last_author: Grumet R
+  title: 'QTLseqr: An R Package for Bulk Segregant Analysis with Next‐Generation Sequencing'
+  preprint_doi: 10.1101/208140
+links: {}
+added: '2026-11-21'
+evidence: QTLseqr imports and filters SNP data and uses QTL-seq and G approaches to identify and assess the significance of
+  QTL.

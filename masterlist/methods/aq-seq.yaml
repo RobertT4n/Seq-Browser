@@ -1,0 +1,23 @@
+name: AQ-seq
+full_name: accurate quantification by sequencing
+category: wet
+summary: Uses degenerate adapter ends and polyethylene glycol to reduce ligation bias when sequencing miRNAs and their variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.1093/nar/gky1293
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Kim H
+  last_author: Kim VN
+  title: Bias-minimized quantification of microRNA reveals widespread alternative processing and 3′ end modification
+  preprint_doi: 10.1101/339606
+links: {}
+added: '2026-11-21'
+evidence: AQ-seq uses adapters with terminal degenerate sequences and high polyethylene glycol concentration to improve miRNA
+  quantification.

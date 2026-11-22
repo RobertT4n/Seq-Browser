@@ -1,0 +1,19 @@
+name: FunChIP
+category: dry
+summary: Clusters ChIP-seq peaks by their signal profiles using functional representations and alignment.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx201
+  year: 2017
+  journal: Bioinformatics
+  first_author: Parodi ACL
+  last_author: Morelli MJ
+  title: 'FunChIP: an R/Bioconductor package for functional classification of ChIP-seq shapes'
+links: {}
+added: '2026-11-21'
+evidence: FunChIP approximates peak profiles with cubic B-splines and clusters them according to functional distance.

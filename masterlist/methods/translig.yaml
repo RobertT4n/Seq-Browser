@@ -1,0 +1,19 @@
+name: TransLiG
+category: dry
+summary: Assembles transcriptomes de novo from RNA-seq data using sequence depth, paired-end information, and iterative line
+  graphs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1690-7
+  year: 2019
+  journal: Genome Biology
+  first_author: Liu J
+  last_author: Li G
+  title: 'TransLiG: a de novo transcriptome assembler that uses line graph iteration'
+links: {}
+added: '2026-11-21'
+evidence: TransLiG assembles transcripts by phasing paths and iteratively constructing line graphs from splicing graphs.

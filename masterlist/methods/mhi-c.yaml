@@ -1,0 +1,18 @@
+name: mHi-C
+category: dry
+summary: Probabilistic method for allocating multi-mapping Hi-C reads to recover chromatin contact signals.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/301705
+  year: 2018
+  journal: bioRxiv
+  first_author: Zheng
+  last_author: S
+  title: 'mHi-C: robust leveraging of multi-mapping reads in Hi-C analysis'
+links: {}
+added: '2026-11-21'
+evidence: mHi-C probabilistically allocates Hi-C multi-reads and improves contact matrix reproducibility.

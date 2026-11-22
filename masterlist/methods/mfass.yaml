@@ -1,0 +1,27 @@
+name: MFASS
+full_name: Multiplexed Functional Assay of Splicing using Sort-seq
+category: wet
+summary: A multiplexed functional assay measures exon inclusion across thousands of human exon and intronic sequence variants.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+perturbation:
+- minigene-reporter
+scope: targeted
+chemistry:
+- facs-sorting
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1101/199927
+  year: 2017
+  journal: bioRxiv
+  first_author: Cheung
+  last_author: S
+  title: Large-scale screening of rare genetic variants in humans reveals frequent splicing disruptions
+links: {}
+added: '2026-11-21'
+evidence: MFASS measured exon inclusion for 27,733 variants within or adjacent to 2,339 human exons.

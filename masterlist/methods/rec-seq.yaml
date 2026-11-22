@@ -1,0 +1,26 @@
+name: Rec-seq
+category: wet
+summary: Rec-seq profiles site-specific recombinase DNA specificity at single-nucleotide resolution to identify potential
+  off-target substrates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41467-019-09987-0
+  year: 2019
+  journal: Nat Commun
+  first_author: Bessen JL
+  last_author: Liu DR
+  pmid: '31028261'
+  pmcid: PMC6486577
+  title: High-resolution specificity profiling and off-target prediction for site-specific DNA recombinases
+links: {}
+added: '2026-11-21'
+evidence: Rec-seq specificity profiles predicted off-target substrates of Tre and Brec1, including human genomic sequences
+  confirmed to recombine in human cells.

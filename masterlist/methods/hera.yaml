@@ -1,0 +1,27 @@
+name: HERA
+full_name: Highly Efficient Repeat Assembly
+category: dry
+summary: Genome assembly method that resolves repeats using long reads and can integrate genome maps and Hi-C data to assemble
+  chromosome-scale contigs.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-019-13355-3
+  year: 2019
+  journal: Nat Commun
+  first_author: Du H
+  last_author: Liang C
+  pmid: '31767853'
+  pmcid: PMC6877557
+  title: Assembly of chromosome-scale contigs by efficiently resolving repetitive sequences with long reads
+  preprint_doi: 10.1101/345983
+links: {}
+added: '2026-11-21'
+evidence: HERA resolves repeats using single-molecule sequencing data and integrates genome maps and Hi-C data to assemble
+  chromosome-scale contigs.

@@ -1,0 +1,26 @@
+name: ViroFind
+category: wet
+summary: Enriches selected viral sequences from clinical samples with an in-solution probe panel for deep sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0186945
+  year: 2018
+  journal: PLOS ONE
+  first_author: Chalkias S
+  last_author: Koralnik IJ
+  title: 'ViroFind: A novel target-enrichment deep-sequencing platform reveals a complex JC virus population in the brain
+    of PML patients'
+links: {}
+added: '2026-11-21'
+evidence: A panel of 165,433 probes covering 535 selected viruses enriched viral sequences from clinical samples for deep
+  sequencing.

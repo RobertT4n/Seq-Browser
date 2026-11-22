@@ -1,0 +1,27 @@
+name: UTR-seq
+category: wet
+summary: Combines massively parallel reporter assays and regression models to study how 3' UTR sequences affect mRNA decay
+  during zebrafish embryogenesis.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.molcel.2017.11.014
+  year: 2017
+  journal: Molecular Cell
+  first_author: Rabani M
+  last_author: Schier AF
+  title: A Massively Parallel Reporter Assay of 3′ UTR Sequences Identifies In Vivo Rules for mRNA Degradation
+links: {}
+added: '2026-11-21'
+evidence: UTR-seq surveys the dynamics of tens of thousands of 3' UTR sequences during early zebrafish embryogenesis.

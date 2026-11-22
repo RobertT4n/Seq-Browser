@@ -1,0 +1,20 @@
+name: scCancer
+category: dry
+summary: Processes and analyzes single-cell RNA-seq data to characterize cancer cells and their microenvironment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa127
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Guo W
+  last_author: Gu J
+  pmid: '34020534'
+  title: 'scCancer: a package for automated processing of single-cell RNA-seq data in cancer'
+  preprint_doi: 10.1101/800490
+links: {}
+added: '2026-11-21'
+evidence: scCancer provides quality control, cell population identification, malignancy scoring, and analysis of tumor heterogeneity.

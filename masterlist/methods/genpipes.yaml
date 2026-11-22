@@ -1,0 +1,28 @@
+name: GenPipes
+category: dry
+summary: A framework for developing and deploying scalable genomic analysis workflows across high-performance computing and
+  cloud resources.
+readouts:
+- genome-sequence
+- rna
+- protein-dna-binding
+- histone-modification
+- dna-methylation
+- dna-5mc
+- 3d-genome
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz037
+  year: 2019
+  journal: GigaScience
+  first_author: Bourgey M
+  last_author: Bourque G
+  title: 'GenPipes: an open-source framework for distributed and scalable genomic analyses'
+  preprint_doi: 10.1101/459552
+links: {}
+added: '2026-11-21'
+evidence: GenPipes implements pipelines for RNA-seq, ChIP-seq, DNA-seq, methylation sequencing, Hi-C, metagenomics and long-read
+  assembly.

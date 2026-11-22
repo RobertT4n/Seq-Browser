@@ -1,0 +1,19 @@
+name: DeepMicrobes
+category: dry
+summary: DeepMicrobes uses deep learning to predict the species of origin of metagenomic shotgun sequencing reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa009
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Liang Q
+  last_author: Wei L
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+  preprint_doi: 10.1101/694851
+links: {}
+added: '2026-11-21'
+evidence: The framework predicts the species of origin of whole metagenome shotgun sequencing reads.

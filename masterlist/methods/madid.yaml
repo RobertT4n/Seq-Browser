@@ -1,0 +1,26 @@
+name: MadID
+category: wet
+summary: Proximity labeling with M.EcoGII maps protein-DNA interactions across the genome without restriction to GATC motifs.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1016/j.celrep.2018.11.027
+  year: 2018
+  journal: Cell Rep
+  first_author: Sobecki M
+  last_author: Crabbe L
+  pmid: '30517874'
+  pmcid: PMC6293860
+  title: MadID, a Versatile Approach to Map Protein-DNA Interactions, Highlights Telomere-Nuclear Envelope Contact Sites in
+    Human Cells
+links: {}
+added: '2026-11-21'
+evidence: MadID uses M.EcoGII DNA methylation, 6mA-specific immunoprecipitation, and sequencing to identify genome-wide protein-DNA
+  interactions.

@@ -1,0 +1,20 @@
+name: IGIA
+category: dry
+summary: Reconstructs gene structures by integrating complementary RNA sequencing and transcript-end datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12575-x
+  year: 2019
+  journal: Nat Commun
+  first_author: Wang K
+  last_author: Zhu Y
+  pmid: '31624240'
+  pmcid: PMC6797763
+  title: Multi-strategic RNA-seq analysis reveals a high-resolution transcriptional landscape in cotton
+links: {}
+added: '2026-11-21'
+evidence: IGIA integrates Iso-seq, strand-specific RNA-seq, CAGE-seq, and PolyA-seq to reconstruct gene structures.

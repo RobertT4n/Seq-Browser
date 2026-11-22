@@ -1,0 +1,19 @@
+name: MetaOthello
+category: dry
+summary: A probabilistic hashing classifier assigns metagenomic sequencing reads to taxa using k-mer signatures.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx432
+  year: 2017
+  journal: Bioinformatics
+  first_author: Liu X
+  last_author: Liu J
+  title: A novel data structure to support ultra-fast taxonomic classification of metagenomic sequences with <i>k</i>-mer
+    signatures
+links: {}
+added: '2026-11-21'
+evidence: MetaOthello classifies metagenomic reads using a data structure that supports taxon queries by k-mer signatures.

@@ -1,0 +1,22 @@
+name: ProteomeGenerator
+category: dry
+summary: Builds sample-specific proteogenomic databases from transcriptome sequencing and mass spectrometry to identify protein
+  isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jproteome.8b00295
+  year: 2018
+  journal: Journal of Proteome Research
+  first_author: Cifani P
+  last_author: Kentsis A
+  title: 'ProteomeGenerator: A Framework for Comprehensive Proteomics Based on de Novo Transcriptome Assembly and High-Accuracy
+    Peptide Mass Spectral Matching'
+  preprint_doi: 10.1101/236844
+links: {}
+added: '2026-11-21'
+evidence: ProteomeGenerator combines sample-specific transcriptome sequencing with mass spectrometry to identify non-canonical
+  protein isoforms.

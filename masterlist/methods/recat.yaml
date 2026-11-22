@@ -1,0 +1,19 @@
+name: reCAT
+category: dry
+summary: Reconstructs cell-cycle pseudotime and identifies cell-cycle stages from unsynchronized single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-017-00039-z
+  year: 2017
+  journal: Nature Communications
+  first_author: Liu Z
+  last_author: Chen T
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+links: {}
+added: '2026-11-21'
+evidence: reCAT uses a traveling salesman problem and a hidden Markov model to recover cell-cycle progression from single-cell
+  transcriptome data.

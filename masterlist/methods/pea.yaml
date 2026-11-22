@@ -1,0 +1,19 @@
+name: PEA
+category: dry
+summary: Analyzes and predicts RNA chemical modifications in plant epitranscriptome sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty421
+  year: 2018
+  journal: Bioinformatics
+  first_author: Zhai J
+  last_author: Ma C
+  title: 'PEA: an integrated R toolkit for plant epitranscriptome analysis'
+  preprint_doi: 10.1101/240887
+links: {}
+added: '2026-11-21'
+evidence: PEA includes read mapping, modification calling, motif analysis, and transcriptome-scale modification prediction.

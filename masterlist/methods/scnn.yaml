@@ -1,0 +1,22 @@
+name: χ-SCNN
+category: dry
+summary: χ-SCNN integrates Hi-C, ChIP-seq, and DNase-seq data to predict high-resolution sources of chromatin interactions.
+readouts:
+- 3d-genome
+- protein-dna-binding
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz843
+  year: 2019
+  journal: Bioinformatics
+  first_author: Jaroszewicz A
+  last_author: Ernst J
+  title: An integrative approach for fine-mapping chromatin interactions
+  preprint_doi: 10.1101/605576
+links: {}
+added: '2026-11-21'
+evidence: A Siamese convolutional neural network and feature attribution predict the high-resolution source of each Hi-C interaction.

@@ -1,0 +1,20 @@
+name: SAMSA2
+category: dry
+summary: Analyzes large metatranscriptomic RNA-seq datasets using a cluster-based pipeline and customizable local reference
+  databases.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2189-z
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Westreich ST
+  last_author: Lemay DG
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+  preprint_doi: 10.1101/195826
+links: {}
+added: '2026-11-21'
+evidence: SAMSA2 is a metatranscriptome pipeline for analyzing large paired-end RNA-seq datasets on a supercomputing cluster.

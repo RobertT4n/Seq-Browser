@@ -1,0 +1,23 @@
+name: ARIseq
+full_name: All-RNA-Information sequencing
+category: dry
+summary: A mapping-based pipeline analyzes microbial community composition and gene expression from total RNA sequencing.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/159293
+  year: 2017
+  journal: bioRxiv
+  first_author: Tsuboi
+  last_author: S
+  title: Mapping-based all-RNA-information sequencing analysis (ARIseq) pipeline simultaneously revealed taxonomic composition,
+    gene expression, and their correlation in an acidic stream ecosystem
+links: {}
+added: '2026-11-21'
+evidence: ARIseq analyzes rRNA as a taxonomic marker and mRNA as a functional marker and can correlate taxa with expressed
+  genes.
+=== FILE: ar iseq.yaml ===

@@ -1,0 +1,20 @@
+name: MDTS
+full_name: Minimum Distance for Targeted Sequencing
+category: dry
+summary: A method identifies de novo copy-number deletions in parent-offspring trios from targeted sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bty677
+  year: 2018
+  journal: Bioinformatics
+  first_author: Fu JM
+  last_author: Ruczinski I
+  title: Detection of de novo copy number deletions from targeted sequencing of trios
+  preprint_doi: 10.1101/252833
+links: {}
+added: '2026-11-21'
+evidence: MDTS identifies de novo deletions in trios from capture-based sequencing platforms.

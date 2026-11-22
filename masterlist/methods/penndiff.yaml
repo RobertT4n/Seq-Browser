@@ -1,0 +1,19 @@
+name: PennDiff
+category: dry
+summary: Statistical method that detects differential alternative splicing and transcription from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty097
+  year: 2018
+  journal: Bioinformatics
+  first_author: Hu Y
+  last_author: Li M
+  title: 'PennDiff: detecting differential alternative splicing and transcription by RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: PennDiff uses gene structures and pre-estimated isoform relative abundances to detect differential alternative splicing
+  and transcription.

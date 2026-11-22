@@ -1,0 +1,20 @@
+name: FateID
+category: dry
+summary: Infers probabilistic cell fate biases and differentiation trajectories from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4662
+  year: 2018
+  journal: Nature Methods
+  first_author: Herman JS
+  last_author: Grün D
+  title: FateID infers cell fate bias in multipotent progenitors from single-cell RNA-seq data
+  preprint_doi: 10.1101/218115
+links: {}
+added: '2026-11-21'
+evidence: FateID uses iterative supervised learning to quantify fate bias and derive differentiation trajectories in progenitor
+  populations.

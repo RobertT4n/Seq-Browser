@@ -1,0 +1,19 @@
+name: FaStore
+category: dry
+summary: A reference-free compressor reduces the storage size of FASTQ sequencing data using selectable compression modes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty205
+  year: 2018
+  journal: Bioinformatics
+  first_author: Roguski Ł
+  last_author: Deorowicz S
+  title: 'FaStore: a space-saving solution for raw sequencing data'
+  preprint_doi: 10.1101/168096
+links: {}
+added: '2026-11-21'
+evidence: FaStore compresses FASTQ files without a reference sequence and offers several lossy modes.

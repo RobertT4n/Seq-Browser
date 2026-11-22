@@ -1,0 +1,19 @@
+name: FuSeq
+category: dry
+summary: A method for detecting fusion genes from paired-end RNA-seq data using quasi-mapping and statistical filtering.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-5156-1
+  year: 2018
+  journal: BMC Genomics
+  first_author: Vu TN
+  last_author: Pawitan Y
+  title: A fast detection of fusion genes from paired-end RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: FuSeq extracts fusion candidates from split reads and mapped-read equivalence classes before filtering and testing
+  them.

@@ -1,0 +1,19 @@
+name: MAJIQ-SPEL
+category: dry
+summary: Visualizes and quantifies isoforms associated with local splicing variations and suggests validation primers.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx565
+  year: 2017
+  journal: Bioinformatics
+  first_author: Green CJ
+  last_author: Barash Y
+  title: 'MAJIQ-SPEL: web-tool to interrogate classical and complex splicing variations from RNA-Seq data'
+  preprint_doi: 10.1101/136077
+links: {}
+added: '2026-11-21'
+evidence: MAJIQ-SPEL takes quantified local splicing variations as input and visualizes associated gene isoforms.

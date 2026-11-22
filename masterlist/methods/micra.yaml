@@ -1,0 +1,19 @@
+name: MICRA
+category: dry
+summary: An automated pipeline identifies and characterizes microbes from sequencing reads using iterative reference mapping.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1367-z
+  year: 2017
+  journal: Genome Biology
+  first_author: Caboche S
+  last_author: Hot D
+  title: 'MICRA: an automatic pipeline for fast characterization of microbial genomes from high-throughput sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: MICRA identifies microbes and uses iterative mapping against reference genomes to identify genes and variations.

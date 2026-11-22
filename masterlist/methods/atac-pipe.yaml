@@ -1,0 +1,19 @@
+name: ATAC-pipe
+category: dry
+summary: Provides a pipeline for quality assessment and analysis of genome-wide chromatin accessibility data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bby056
+  year: 2019
+  journal: Brief Bioinform
+  first_author: Zuo Z
+  last_author: Qu K
+  pmid: '29982337'
+  title: 'ATAC-pipe: general analysis of genome-wide chromatin accessibility'
+links: {}
+added: '2026-11-21'
+evidence: ATAC-pipe analyzes ATAC-seq quality, differential peaks, transcription factor occupancy, and nucleosome positions.

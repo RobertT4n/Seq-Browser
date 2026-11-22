@@ -1,0 +1,18 @@
+name: TADbit
+category: dry
+summary: A computational framework processes 3C-based sequencing data and models chromatin domains in three dimensions.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1005665
+  year: 2017
+  journal: PLOS Computational Biology
+  first_author: Serra F
+  last_author: Marti-Renom MA
+  title: Automatic analysis and 3D-modelling of Hi-C data using TADbit reveals structural features of the fly chromatin colors
+links: {}
+added: '2026-11-21'
+evidence: TADbit processes reads and interaction matrices and builds three-dimensional models of selected genomic domains.

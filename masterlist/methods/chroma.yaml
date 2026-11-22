@@ -1,0 +1,20 @@
+name: ChromA
+category: dry
+summary: Uses a Bayesian model to produce denoised chromatin accessibility annotations from bulk and single-cell ATAC-seq
+  data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/567669
+  year: 2019
+  journal: bioRxiv
+  first_author: Gabitto
+  last_author: R
+  title: Characterizing the epigenetic landscape of cellular populations from bulk and single-cell ATAC-seq information
+links: {}
+added: '2026-11-21'
+evidence: ChromA integrates information from replicates to produce a consensus denoised annotation of chromatin accessibility.

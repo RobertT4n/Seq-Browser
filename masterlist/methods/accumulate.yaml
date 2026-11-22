@@ -1,0 +1,19 @@
+name: accuMUlate
+category: dry
+summary: Detects mutations in mutation accumulation experiments using a probabilistic model and filtering statistics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty165
+  year: 2018
+  journal: Bioinformatics
+  first_author: Winter DJ
+  last_author: Cartwright RA
+  title: 'accuMUlate: a mutation caller designed for mutation accumulation experiments'
+  preprint_doi: 10.1101/182956
+links: {}
+added: '2026-11-21'
+evidence: accuMUlate models mutation accumulation experiments and calculates statistics for filtering potential false positives.

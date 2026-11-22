@@ -1,0 +1,20 @@
+name: cluster signatures
+category: dry
+summary: A method that identifies sequencing targets using subsequences matching exclusively a group of sequences.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-018-2363-3
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zahariev M
+  last_author: Lévesque CA
+  title: Cluster oligonucleotide signatures for rapid identification by sequencing
+links: {}
+added: '2026-11-21'
+evidence: Cluster signatures are subsequences that match perfectly and exclusively a group of sequences and can identify HTS
+  targets.

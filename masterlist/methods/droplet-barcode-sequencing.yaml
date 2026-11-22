@@ -1,0 +1,23 @@
+name: Droplet Barcode Sequencing
+category: wet
+summary: Emulsion-based barcoding creates linked reads from individual DNA molecules for targeted haplotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkx436
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Redin D
+  last_author: Ahmadian A
+  title: Droplet Barcode Sequencing for targeted linked-read haplotyping of single DNA molecules
+links: {}
+added: '2026-11-21'
+evidence: The method barcodes individual DNA molecules in emulsion droplets and was applied to phase loci covering human HLA-A
+  exons.

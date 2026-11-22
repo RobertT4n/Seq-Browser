@@ -1,0 +1,28 @@
+name: ID-seq
+full_name: Immuno-Detection by sequencing
+category: wet
+summary: DNA-tagged antibodies and sequencing quantify multiple proteins across samples for cellular phenotyping and compound
+  screening.
+readouts:
+- protein
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41467-018-04761-0
+  year: 2018
+  journal: Nature Communications
+  first_author: van Buggenum JAG
+  last_author: Mulder KW
+  title: Immuno-detection by sequencing enables large-scale high-dimensional phenotyping in cells
+  preprint_doi: 10.1101/158139
+links: {}
+added: '2026-11-21'
+evidence: ID-seq measured 84 proteins and phosphoproteins across hundreds of samples and screened kinase inhibitors in primary
+  human epidermal stem cells.

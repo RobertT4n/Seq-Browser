@@ -1,0 +1,21 @@
+name: BEHST
+full_name: Biological Enrichment of Hidden Sequence Targets
+category: dry
+summary: Finds functional terms enriched in genomic regions by linking regions to gene annotations through long-range chromatin
+  interactions.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/168427
+  year: 2019
+  journal: bioRxiv
+  first_author: Chicco
+  last_author: M. M
+  title: 'BEHST: genomic set enrichment analysis enhanced through integration of chromatin long-range interactions'
+links: {}
+added: '2026-11-21'
+evidence: BEHST uses long-range chromatin interaction data to link genomic regions to annotations and find enriched Gene Ontology
+  terms.

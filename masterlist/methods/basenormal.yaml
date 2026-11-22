@@ -1,0 +1,20 @@
+name: BaseNormal
+category: dry
+summary: Corrects capture bias in DNase-capture data to recover transcription factor protection profiles.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0187046
+  year: 2017
+  journal: PLOS ONE
+  first_author: Kang D
+  last_author: Gifford D
+  title: DNase-capture reveals differential transcription factor binding modalities
+links: {}
+added: '2026-11-21'
+evidence: BaseNormal compensates for capture bias and enables recovery of transcription factor protection profiles at selected
+  genomic regions.

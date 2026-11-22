@@ -1,0 +1,24 @@
+name: MOSim
+full_name: Multi-Omics Simulation in R
+category: dry
+summary: Simulates bulk and single-cell transcriptomic data with additional regulatory omics layers for method testing.
+readouts:
+- rna
+- chromatin-accessibility
+- dna-methylation
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf110
+  year: 2025
+  journal: Briefings in Bioinformatics
+  first_author: Monzó C
+  last_author: Tarazona S
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+  preprint_doi: 10.1101/421834
+links: {}
+added: '2026-11-21'
+evidence: MOSim simulates bulk RNA-seq and regulatory layers and single-cell RNA-seq with scATAC-seq and transcription factors.

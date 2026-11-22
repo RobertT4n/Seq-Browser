@@ -1,0 +1,19 @@
+name: scEGMM
+category: dry
+summary: Classifies single-cell transcriptomes using transcriptome entropy followed by a Gaussian mixture model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1142/s1793048020500010
+  year: 2020
+  journal: Biophysical Reviews and Letters
+  first_author: Liu J
+  last_author: Lei J
+  title: Single-Cell Entropy to Quantify the Cellular Order Parameter from Single-Cell RNA-Seq Data
+  preprint_doi: 10.1101/678557
+links: {}
+added: '2026-11-21'
+evidence: scEGMM performs unsupervised cell-type classification using single-cell entropy followed by a Gaussian mixture model.

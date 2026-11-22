@@ -1,0 +1,18 @@
+name: TiSAn
+category: dry
+summary: Uses machine learning and multiple genome-scale data sources to predict tissue-relevant variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty301
+  year: 2018
+  journal: Bioinformatics
+  first_author: Vervier K
+  last_author: Michaelson JJ
+  title: 'TiSAn: estimating tissue-specific effects of coding and non-coding variants'
+links: {}
+added: '2026-11-21'
+evidence: TiSAn integrates genome-scale data to discriminate variants relevant to a tissue and makes genome-wide predictions.

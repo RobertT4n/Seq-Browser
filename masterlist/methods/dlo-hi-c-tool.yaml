@@ -1,0 +1,21 @@
+name: DLO Hi-C Tool
+category: dry
+summary: Processes DLO Hi-C sequencing reads into normalized contact maps with quality controls.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes11030289
+  year: 2020
+  journal: Genes (Basel)
+  first_author: Hong P
+  last_author: Li G
+  pmid: '32164155'
+  pmcid: PMC7140825
+  title: The DLO Hi-C Tool for Digestion-Ligation-Only Hi-C Chromosome Conformation Capture Data Analysis
+  preprint_doi: 10.1101/764332
+links: {}
+added: '2026-11-21'
+evidence: The pipeline processes raw DLO Hi-C reads to normalized contact maps and provides quality controls.

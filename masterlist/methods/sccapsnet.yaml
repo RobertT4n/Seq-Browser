@@ -1,0 +1,21 @@
+name: scCapsNet
+category: dry
+summary: Uses an interpretable deep learning model to classify single cells and relate extracted gene features to cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-020-00244-4
+  year: 2020
+  journal: Nature Machine Intelligence
+  first_author: Wang L
+  last_author: Cai J
+  title: An interpretable deep-learning architecture of capsule networks for identifying cell-type gene expression programs
+    from single-cell RNA-sequencing data
+  preprint_doi: 10.1101/506642
+links: {}
+added: '2026-11-21'
+evidence: Applied to scRNA-seq data, scCapsNet classifies cells and provides the contribution of extracted features to cell-type
+  recognition.

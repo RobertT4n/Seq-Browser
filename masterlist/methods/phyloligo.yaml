@@ -1,0 +1,18 @@
+name: PhylOligo
+category: dry
+summary: Identifies and extracts organism-specific sequences in genome assemblies using DNA compositional characteristics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx396
+  year: 2017
+  journal: Bioinformatics
+  first_author: Mallet L
+  last_author: Chiapello H
+  title: 'PhylOligo: a package to identify contaminant or untargeted organism sequences in genome assemblies'
+links: {}
+added: '2026-11-21'
+evidence: PhylOligo explores, identifies and extracts organism-specific sequences in a genome assembly using DNA composition.

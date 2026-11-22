@@ -1,0 +1,21 @@
+name: gemBS
+category: dry
+summary: Processes large-scale bisulfite sequencing data to estimate methylation and call genotypes.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty690
+  year: 2018
+  journal: Bioinformatics
+  first_author: Merkel A
+  last_author: Heath SC
+  title: 'gemBS: high throughput processing for DNA methylation data from bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: gemBS combines a bisulfite-sequence mapper and variant caller to provide genotype information and methylation estimates
+  for genomic cytosines.

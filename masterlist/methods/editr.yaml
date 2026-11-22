@@ -1,0 +1,19 @@
+name: EditR
+category: dry
+summary: Quantifies the position, type and efficiency of base edits from Sanger sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1089/crispr.2018.0014
+  year: 2018
+  journal: The CRISPR Journal
+  first_author: Kluesner MG
+  last_author: Moriarity BS
+  title: 'EditR: A Method to Quantify Base Editing from Sanger Sequencing'
+  preprint_doi: 10.1101/213496
+links: {}
+added: '2026-11-21'
+evidence: EditR measures base editing efficiency using a Sanger sequencing file and guide RNA sequence.

@@ -1,0 +1,22 @@
+name: HmmUFOtu
+category: dry
+summary: Assigns taxonomy and clusters microbiome amplicon reads into operational taxonomic units using phylogenetic placement.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-018-1450-0
+  year: 2018
+  journal: Genome Biol
+  first_author: Zheng Q
+  last_author: Grice EA
+  pmid: '29950165'
+  pmcid: PMC6020470
+  title: 'HmmUFOtu: An HMM and phylogenetic placement based ultra-fast taxonomic assignment and OTU picking tool for microbiome
+    amplicon sequencing studies'
+links: {}
+added: '2026-11-21'
+evidence: HmmUFOtu performs per-read phylogenetic placement followed by phylogenetically informed clustering and taxonomy
+  assignment.

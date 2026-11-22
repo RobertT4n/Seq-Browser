@@ -1,0 +1,28 @@
+name: PLISH
+full_name: proximity ligation in situ hybridization
+category: wet
+summary: Uses multiplexed in situ hybridization to profile RNA in single cells and map cell types in intact tissue.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- proximity-ligation
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.7554/elife.30510
+  year: 2018
+  journal: eLife
+  first_author: Nagendran M
+  last_author: Desai TJ
+  title: Automated cell-type classification in intact tissues by single-cell molecular profiling
+links: {}
+added: '2026-11-21'
+evidence: PLISH uses barcoded probes and repeated imaging cycles to profile approximately 2,900 cells in intact mouse lung.

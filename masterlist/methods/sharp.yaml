@@ -1,0 +1,20 @@
+name: SHARP
+full_name: Single-cell RNA-seq Hyper-fast and Accurate Processing via Ensemble Random Projection
+category: dry
+summary: An ensemble random projection algorithm for scalable clustering of single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.254557.119
+  year: 2020
+  journal: Genome Research
+  first_author: Wan S
+  last_author: Won KJ
+  title: 'SHARP: hyperfast and accurate processing of single-cell RNA-seq data via ensemble random projection'
+  preprint_doi: 10.1101/461640
+links: {}
+added: '2026-11-21'
+evidence: SHARP uses ensemble random projection and scales to clustering 10 million cells.

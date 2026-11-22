@@ -1,0 +1,19 @@
+name: DeepMetabolism
+category: dry
+summary: Predicts cell phenotypes from transcriptomics data using biology-guided deep learning.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/135574
+  year: 2017
+  journal: bioRxiv
+  first_author: Guo
+  last_author: X
+  title: 'DeepMetabolism: A Deep Learning System To Predict Phenotype From Genome Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: DeepMetabolism integrates unsupervised pre-training with supervised training to predict cell phenotypes from transcriptomics
+  data.

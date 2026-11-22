@@ -1,0 +1,20 @@
+name: fastNGSadmix
+category: dry
+summary: Estimates an individual's admixture proportions and principal components from sequencing genotype likelihoods and
+  reference populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx474
+  year: 2017
+  journal: Bioinformatics
+  first_author: Jørsboe E
+  last_author: Albrechtsen A
+  title: 'fastNGSadmix: admixture proportions and principal component analysis of a single NGS sample'
+links: {}
+added: '2026-11-21'
+evidence: fastNGSadmix estimates admixture proportions and performs PCA from a single individual's sequencing data using genotype
+  likelihoods and reference populations.

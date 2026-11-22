@@ -1,0 +1,18 @@
+name: absSimSeq
+category: dry
+summary: Simulates compositional RNA-seq read data for evaluating RNA-seq analysis methods.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/564955
+  year: 2019
+  journal: bioRxiv
+  first_author: McGee
+  last_author: J. Y
+  title: Compositional Data Analysis is necessary for simulating and analyzing RNA-Seq data
+links: {}
+added: '2026-11-21'
+evidence: absSimSeq is an R package that simulates compositional data in the form of RNA-seq reads.

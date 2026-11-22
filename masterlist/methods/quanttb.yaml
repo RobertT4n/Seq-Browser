@@ -1,0 +1,21 @@
+name: QuantTB
+category: dry
+summary: Identifies and quantifies Mycobacterium tuberculosis strains and predicts resistance-associated mutations from whole-genome
+  sequencing data.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-6486-3
+  year: 2020
+  journal: BMC Genomics
+  first_author: Anyansi C
+  last_author: Abeel T
+  title: QuantTB – a method to classify mixed Mycobacterium tuberculosis infections within whole genome sequencing data
+  preprint_doi: 10.1101/676296
+links: {}
+added: '2026-11-21'
+evidence: QuantTB uses SNP markers to identify strains and estimate their relative abundances and resistance-associated mutations.

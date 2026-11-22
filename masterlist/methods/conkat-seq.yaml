@@ -1,0 +1,25 @@
+name: CONKAT-seq
+full_name: co-occurrence network analysis of targeted sequences
+category: wet
+summary: Targeted amplification and subpool co-occurrence analysis identify physically clustered biosynthetic domains in metagenomic
+  libraries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-019-11658-z
+  year: 2019
+  journal: Nature Communications
+  first_author: Libis V
+  last_author: Brady SF
+  title: Uncovering the biosynthetic potential of rare metagenomic DNA using co-occurrence network analysis of targeted sequences
+links: {}
+added: '2026-11-21'
+evidence: Conserved biosynthetic domains are amplified from partitioned metagenomic libraries and their co-occurrence across
+  subpools identifies clustered domains.

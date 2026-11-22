@@ -1,0 +1,23 @@
+name: PaSS
+full_name: PacBio Sequencing Simulator
+category: dry
+summary: Simulates PacBio sequencing reads using learned read-length, error-rate and context-specific error patterns.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12859-019-2901-7
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Zhang W
+  last_author: Wei C
+  title: 'PaSS: a sequencing simulator for PacBio sequencing'
+links: {}
+added: '2026-11-21'
+evidence: PaSS learns patterns from PacBio data and incorporates read-length distributions, error rates and a context-specific
+  sequencing error model.

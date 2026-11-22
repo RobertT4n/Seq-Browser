@@ -1,0 +1,19 @@
+name: ngsRelateV2
+category: dry
+summary: ngsRelateV2 estimates genetic relatedness from sequencing data while accounting for inbreeding.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz034
+  year: 2019
+  journal: GigaScience
+  first_author: Hanghøj K
+  last_author: Korneliussen TS
+  title: Fast and accurate relatedness estimation from high-throughput sequencing data in the presence of inbreeding
+links: {}
+added: '2026-11-21'
+evidence: The revised program estimates nine condensed Jacquard coefficients and other relatedness statistics for potentially
+  inbred individuals.

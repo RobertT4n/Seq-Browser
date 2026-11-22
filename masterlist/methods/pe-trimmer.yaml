@@ -1,0 +1,18 @@
+name: PE-Trimmer
+category: dry
+summary: Trims low-quality regions and removes technical sequences from paired-end sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2019.2897558
+  year: 2020
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Liao X
+  last_author: Wang J
+  title: An Efficient Trimming Algorithm based on Multi-Feature Fusion Scoring Model for NGS Data
+links: {}
+added: '2026-11-21'
+evidence: PE-Trimmer uses quality statistics and a scoring model to trim low-quality reads and remove adapter residues.

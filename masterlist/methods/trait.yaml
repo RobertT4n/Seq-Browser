@@ -1,0 +1,20 @@
+name: TRaIT
+category: dry
+summary: Infers tumor mutational evolution graphs from single-cell or multi-region sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2795-4
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Ramazzotti D
+  last_author: Caravagna G
+  title: Learning mutational graphs of individual tumour evolution from single-cell and multi-region sequencing data
+links: {}
+added: '2026-11-21'
+evidence: TRaIT supports single-cell and multi-region sequencing data to infer graphs of accumulating somatic alterations.

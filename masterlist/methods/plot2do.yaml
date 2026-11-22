@@ -1,0 +1,20 @@
+name: plot2DO
+category: dry
+summary: Creates two-dimensional occupancy plots to assess MNase-seq quality and visualize nucleosome distributions around
+  genomic features.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/189449
+  year: 2017
+  journal: bioRxiv
+  first_author: Chereji
+  last_author: R. V
+  title: 'plot2DO: a tool to assess the quality and distribution of genomic data'
+links: {}
+added: '2026-11-21'
+evidence: plot2DO creates occupancy plots for evaluating MNase-seq data and visualizing nucleosomes near functional genomic
+  regions.

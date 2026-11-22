@@ -1,0 +1,26 @@
+name: SLHC-seq
+full_name: single-strand library preparation and hybrid-capture-based cfDNA sequencing
+category: wet
+summary: Single-strand library preparation and hybrid capture enable sequencing of degraded cell-free DNA fragments for mutation
+  profiling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1016/j.ebiom.2019.02.010
+  year: 2019
+  journal: EBioMedicine
+  first_author: Liu X
+  last_author: Wang X
+  pmid: '30857943'
+  pmcid: PMC6442234
+  title: Enrichment of short mutant cell-free DNA fragments enhanced detection of pancreatic cancer
+links: {}
+added: '2026-11-21'
+evidence: SLHC-seq was used to profile cfDNA in 112 pancreatic cancer patients and detected cancer-specific mutations in plasma.

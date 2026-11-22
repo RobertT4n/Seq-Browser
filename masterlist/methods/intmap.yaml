@@ -1,0 +1,20 @@
+name: IntMAP
+category: dry
+summary: Algorithm that integrates RNA-seq and PolyA Site sequencing data to characterize alternative polyadenylation events.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky340
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Chang JW
+  last_author: Yong J
+  title: An integrative model for alternative polyadenylation, IntMAP, delineates mTOR-modulated endoplasmic reticulum stress
+    response
+links: {}
+added: '2026-11-21'
+evidence: IntMAP integrates RNA-seq and PAS-seq data and identified alternative polyadenylation events missed by either method
+  alone.

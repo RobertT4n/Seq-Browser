@@ -1,0 +1,20 @@
+name: DaisyGPS
+category: dry
+summary: DaisyGPS identifies candidate donor and acceptor references for horizontal gene transfer events from sequencing reads.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007208
+  year: 2019
+  journal: PLOS Computational Biology
+  first_author: Seiler E
+  last_author: Renard BY
+  title: 'Where did you come from, where did you go: Refining metagenomic analysis tools for horizontal gene transfer characterisation'
+links: {}
+added: '2026-11-21'
+evidence: DaisyGPS is a mapping-based pipeline that identifies acceptor and donor reference candidates of a horizontal gene
+  transfer event.

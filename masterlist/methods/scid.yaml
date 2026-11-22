@@ -1,0 +1,20 @@
+name: scID
+full_name: Single Cell IDentification
+category: dry
+summary: A linear discriminant analysis method that identifies transcriptionally related cell types across single-cell RNA-seq
+  datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/470203
+  year: 2018
+  journal: bioRxiv
+  first_author: Boufea
+  last_author: N. N
+  title: Mapping transcriptionally equivalent populations across single cell RNA-seq datasets
+links: {}
+added: '2026-11-21'
+evidence: scID uses Fisher's linear discriminant analysis to identify related cell types between datasets.

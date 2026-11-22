@@ -1,0 +1,22 @@
+name: SV2
+category: dry
+summary: Machine-learning algorithm that integrates structural variant calls to genotype deletions and duplications and detect
+  de novo mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx813
+  year: 2018
+  journal: Bioinformatics
+  first_author: Antaki D
+  last_author: Sebat J
+  pmid: '29300834'
+  pmcid: PMC5946924
+  title: 'SV2: accurate structural variation genotyping and de novo mutation detection from whole genomes'
+links: {}
+added: '2026-11-21'
+evidence: SV2 genotypes deletions and duplications from paired-end sequencing data and integrates calls from multiple discovery
+  algorithms.

@@ -1,0 +1,21 @@
+name: scPECLR
+category: dry
+summary: scPECLR uses single-cell 5-hydroxymethylcytosine data to infer lineage trees at individual cell-division resolution.
+readouts:
+- dna-methylation
+- dna-5hmc
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/739300
+  year: 2019
+  journal: bioRxiv
+  first_author: Wangsanuwat
+  last_author: S. S
+  title: A probabilistic framework for cellular lineage reconstruction using single-cell 5-hydroxymethylcytosine sequencing
+links: {}
+added: '2026-11-21'
+evidence: scPECLR probabilistically reconstructs lineage trees using 5-hydroxymethylcytosine and was applied to eight-cell
+  mouse embryos.

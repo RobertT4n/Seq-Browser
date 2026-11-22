@@ -1,0 +1,23 @@
+name: HG-CoLoR
+category: dry
+summary: A hybrid error correction method that uses short reads and a variable-order de Bruijn graph to correct noisy long
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/bty521
+  year: 2018
+  journal: Bioinformatics
+  first_author: Morisse P
+  last_author: Lefebvre A
+  title: Hybrid correction of highly noisy long reads using a variable-order de Bruijn graph
+links: {}
+added: '2026-11-21'
+evidence: HG-CoLoR aligns short reads to long reads and traverses a graph built from the short reads to correct errors.

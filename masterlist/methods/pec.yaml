@@ -1,0 +1,20 @@
+name: PEC
+full_name: PCR Error Correction
+category: dry
+summary: PEC identifies and corrects short-read sequencing errors using redundancy from PCR amplification.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty1004
+  year: 2018
+  journal: Bioinformatics
+  first_author: Kim CS
+  last_author: Miller C
+  title: <i>In silico</i> error correction improves cfDNA mutation calling
+links: {}
+added: '2026-11-21'
+evidence: PEC exploits redundancy from multiple rounds of PCR and improves mutation calling accuracy in circulating tumour
+  DNA.

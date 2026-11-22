@@ -1,0 +1,23 @@
+name: sppIDer
+category: dry
+summary: Pipeline that maps sequencing reads to combined reference genomes to characterize species and parental contributions
+  in hybrid genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msy166
+  year: 2018
+  journal: Mol Biol Evol
+  first_author: Langdon QK
+  last_author: Hittinger CT
+  pmid: '30184140'
+  pmcid: PMC6231485
+  title: 'sppIDer: A Species Identification Tool to Investigate Hybrid Genomes with High-Throughput Sequencing'
+  preprint_doi: 10.1101/333815
+links: {}
+added: '2026-11-21'
+evidence: sppIDer assesses genomic contribution and relative ploidy of parental species by mapping short reads to a combined
+  reference genome.

@@ -1,0 +1,20 @@
+name: CDSeq
+full_name: Complete Deconvolution
+category: dry
+summary: Estimates cell-type proportions and cell-type-specific expression profiles simultaneously from bulk RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/496596
+  year: 2018
+  journal: bioRxiv
+  first_author: Kang
+  last_author: L
+  title: A novel computational complete deconvolution method using RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: CDSeq estimates sample-specific cell-type proportions and cell-type-specific gene expression profiles using bulk
+  RNA-seq data only.

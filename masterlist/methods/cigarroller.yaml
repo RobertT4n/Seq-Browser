@@ -1,0 +1,23 @@
+name: CigarRoller
+category: dry
+summary: Software attachment that corrects CIGAR strings to improve usable sequencing depth in low-coverage regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/360370
+  year: 2018
+  journal: bioRxiv
+  first_author: Ramirez-Busby
+  last_author: F
+  title: 'PBHoover and CigarRoller: a method for confident haploid variant calling on Pacific Biosciences data and its application
+    to heterogeneous population analysis'
+links: {}
+added: '2026-11-21'
+evidence: CigarRoller improves sequencing depth in low-coverage regions through CIGAR-string correction.
+=== FILE: cigarroll er.yaml ===

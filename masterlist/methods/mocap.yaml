@@ -1,0 +1,21 @@
+name: Mocap
+category: dry
+summary: Predicts transcription factor binding sites using chromatin accessibility and other genomic features in condition-specific
+  classifiers.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx174
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Chen X
+  last_author: Bonneau R
+  title: 'Mocap: large-scale inference of transcription factor binding sites from chromatin accessibility'
+links: {}
+added: '2026-11-21'
+evidence: Mocap integrates accessibility, motif scores, footprints and other features in an ensemble of transcription factor
+  and cell type-specific classifiers.

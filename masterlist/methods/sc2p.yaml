@@ -1,0 +1,18 @@
+name: SC2P
+category: dry
+summary: A single-cell RNA-seq method that distinguishes expression phase transitions from changes in expression magnitude.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty329
+  year: 2018
+  journal: Bioinformatics
+  first_author: Wu Z
+  last_author: Wu H
+  title: Two-phase differential expression analysis for single cell RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: SC2P identifies expression phases and two forms of transcriptional regulation, phase transition and magnitude tuning.

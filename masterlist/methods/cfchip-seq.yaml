@@ -1,0 +1,26 @@
+name: cfChIP-seq
+full_name: cell-free chromatin immunoprecipitation followed by sequencing
+category: wet
+summary: Chromatin immunoprecipitation of plasma cell-free nucleosomes profiles active histone marks across the genome.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1038/s41587-020-00775-6
+  year: 2021
+  journal: Nat Biotechnol
+  first_author: Sadeh R
+  last_author: Friedman N
+  pmid: '33432199'
+  pmcid: PMC7610786
+  title: ChIP-seq of plasma cell-free nucleosomes identifies gene expression programs of the cells of origin
+  preprint_doi: 10.1101/638643
+links: {}
+added: '2026-11-21'
+evidence: The authors applied cfChIP-seq to cell-free nucleosomes carrying active chromatin marks and report genome-wide information.

@@ -1,0 +1,20 @@
+name: BayCount
+category: dry
+summary: Decomposes bulk RNA-seq counts to estimate tumor subclone numbers, proportions and expression profiles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1214/17-AOAS1123
+  year: 2018
+  journal: The Annals of Applied Statistics
+  first_author: Xie F
+  last_author: Xu Y
+  title: 'BayCount: A Bayesian decomposition method for inferring tumor heterogeneity using RNA-Seq counts'
+  preprint_doi: 10.1101/218511
+links: {}
+added: '2026-11-21'
+evidence: BayCount uses negative binomial factor analysis to infer subclone numbers, proportions and gene expression profiles
+  from RNA sequencing counts.

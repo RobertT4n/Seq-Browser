@@ -1,0 +1,19 @@
+name: HashClone
+category: dry
+summary: Assesses B-cell clonality and monitors minimal residual disease over time from sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1923-2
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Beccuti M
+  last_author: Cordero F
+  title: 'HashClone: a new tool to quantify the minimal residual disease in B-cell lymphoma from deep sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HashClone analyzes next-generation sequencing data for B-cell clonality assessment and minimal residual disease
+  monitoring.

@@ -1,0 +1,22 @@
+name: DRUID
+full_name: Determination of Rates Using Intron Dynamics
+category: dry
+summary: A computational pipeline uses endogenous introns to normalize metabolic-labeling time courses and estimate mRNA half-lives.
+readouts:
+- rna-degradation
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+reference:
+  doi: 10.1101/149195
+  year: 2017
+  journal: bioRxiv
+  first_author: Lugowski
+  last_author: O. S
+  title: 'DRUID: A pipeline for reproducible transcriptome-wide measurements of mRNA stability'
+links: {}
+added: '2026-11-21'
+evidence: DRUID uses endogenous introns to normalize time course data and yields reproducible mRNA half-lives.

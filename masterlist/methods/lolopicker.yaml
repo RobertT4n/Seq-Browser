@@ -1,0 +1,20 @@
+name: LoLoPicker
+category: dry
+summary: Calls somatic variants, including low-allelic-fraction variants, from tumor sequencing data using matched and additional
+  normal controls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.18632/oncotarget.16144
+  year: 2017
+  journal: Oncotarget
+  first_author: Carrot-Zhang J
+  last_author: Majewski J
+  title: 'LoLoPicker: detecting low allelic-fraction variants from low-quality cancer samples'
+links: {}
+added: '2026-11-21'
+evidence: LoLoPicker uses a matched normal sample and a user-defined normal control panel to estimate background error rates
+  for somatic variant calling.

@@ -1,0 +1,19 @@
+name: ISVASE
+category: dry
+summary: Identifies sequence variants associated with known or novel splicing events from RNA-seq data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1732-7
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Aljohi HA
+  last_author: Hu S
+  title: 'ISVASE: identification of sequence variant associated with splicing event using RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: ISVASE uses RNA-seq split reads to identify sequence variants associated with splicing events.

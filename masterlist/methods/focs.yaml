@@ -1,0 +1,21 @@
+name: FOCS
+category: dry
+summary: Infers enhancer-promoter links from correlated enhancer and gene activity across samples.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-018-1432-2
+  year: 2018
+  journal: Genome Biology
+  first_author: Hait TA
+  last_author: Elkon R
+  title: 'FOCS: a novel method for analyzing enhancer and gene activity patterns infers an extensive enhancer–promoter map'
+  preprint_doi: 10.1101/190231
+links: {}
+added: '2026-11-21'
+evidence: FOCS infers enhancer-promoter links from correlated activity patterns and was applied to enhancer RNA and gene expression
+  profiles.

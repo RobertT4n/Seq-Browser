@@ -1,0 +1,20 @@
+name: CRISPR-DAV
+full_name: CRISPR Data Analysis and Visualization
+category: dry
+summary: A pipeline detects and visualizes small and large indels in CRISPR sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btx518
+  year: 2017
+  journal: Bioinformatics
+  first_author: Wang X
+  last_author: Kirov S
+  title: 'CRISPR-DAV: CRISPR NGS data analysis and visualization pipeline'
+links: {}
+added: '2026-11-21'
+evidence: CRISPR-DAV uses alignment and assembly-based realignment for indel detection and presents charts and interactive
+  alignments.

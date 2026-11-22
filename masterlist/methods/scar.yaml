@@ -1,0 +1,20 @@
+name: ScaR
+category: dry
+summary: Detects known fusion transcripts sensitively in RNA-seq data using scaffold realignment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nargab/lqz025
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Zhao S
+  last_author: Skotheim RI
+  title: 'ScaR—a tool for sensitive detection of known fusion transcripts: establishing prevalence of fusions in testicular
+    germ cell tumors'
+  preprint_doi: 10.1101/518316
+links: {}
+added: '2026-11-21'
+evidence: ScaR uses scaffold realignment to detect known fusion transcripts in RNA-seq datasets.

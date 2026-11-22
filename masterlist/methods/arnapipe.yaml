@@ -1,0 +1,22 @@
+name: aRNApipe
+category: dry
+summary: A modular pipeline processes RNA-seq data in high-performance computing environments.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx023
+  year: 2017
+  journal: Bioinformatics
+  first_author: Alonso A
+  last_author: Myers RM
+  title: 'aRNApipe: a balanced, efficient and distributed pipeline for processing RNA-seq data in high-performance computing
+    environments'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline includes quality control, transcript alignment, count generation, fusion identification, alternative
+  splicing and variant calling.
+=== FILE: arnap ipe.yaml ===

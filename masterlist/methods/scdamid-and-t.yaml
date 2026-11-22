@@ -1,0 +1,27 @@
+name: scDamID&T
+category: wet
+summary: Single-cell DamID and transcriptomics jointly measure protein-DNA contacts and gene expression.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1038/s41587-019-0150-y
+  year: 2019
+  journal: Nat Biotechnol
+  first_author: Rooijers K
+  last_author: Kind J
+  pmid: '31209373'
+  pmcid: PMC6609448
+  title: Simultaneous quantification of protein-DNA contacts and transcriptomes in single cells
+  preprint_doi: 10.1101/529388
+links: {}
+added: '2026-11-21'
+evidence: scDamID&T simultaneously quantifies protein-DNA contacts and transcriptomes in the same single cells.

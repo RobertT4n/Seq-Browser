@@ -1,0 +1,20 @@
+name: rFASTCORMICS
+full_name: FASTCORMICS RNA-seq workflow
+category: dry
+summary: rFASTCORMICS reconstructs metabolic models from RNA-seq data to identify potential cancer drug targets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ebiom.2019.04.046
+  year: 2019
+  journal: EBioMedicine
+  first_author: Pacheco MP
+  last_author: Sauter T
+  title: Identifying and targeting cancer-specific metabolism with network-based drug target prediction
+links: {}
+added: '2026-11-21'
+evidence: The workflow reconstructed metabolic models from RNA-seq data and predicted drug targets and drugs for colorectal
+  cancer.

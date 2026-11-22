@@ -1,0 +1,19 @@
+name: NeatSeq-Flow
+category: dry
+summary: A workflow platform lets users design, execute and monitor high-throughput sequencing analyses using reusable modules.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/173005
+  year: 2017
+  journal: bioRxiv
+  first_author: Sklarz
+  last_author: V
+  title: 'NeatSeq-Flow: A Lightweight Software for Efficient Execution of High Throughput Sequencing Workflows'
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): generic sequencing workflow manager; no supported readout. Curated out (below the bar for a catalogue entry).'
+added: '2026-11-21'
+evidence: NeatSeq-Flow uses pre-built modules and parallel execution to support reproducible sequencing workflows.

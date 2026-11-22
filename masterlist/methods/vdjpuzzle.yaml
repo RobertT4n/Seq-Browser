@@ -1,0 +1,19 @@
+name: VDJPuzzle
+category: dry
+summary: Reconstructs paired full-length B-cell receptor chains and extracts VDJ-region somatic mutations from single-cell
+  RNA-seq.
+readouts:
+- immune-repertoire
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bty203
+  year: 2018
+  journal: Bioinformatics
+  first_author: Rizzetto S
+  last_author: Luciani F
+  title: B-cell receptor reconstruction from single-cell RNA-seq with VDJPuzzle
+links: {}
+added: '2026-11-21'
+evidence: VDJPuzzle reconstructs productive full-length B-cell receptor heavy and light chains and extracts somatic mutations.

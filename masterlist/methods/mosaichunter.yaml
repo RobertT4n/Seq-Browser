@@ -1,0 +1,20 @@
+name: MosaicHunter
+category: dry
+summary: Detects postzygotic single-nucleotide mosaicism from sequencing data with or without matched controls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx024
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Huang AY
+  last_author: Wei L
+  title: 'MosaicHunter: accurate detection of postzygotic single-nucleotide mosaicism through next-generation sequencing of
+    unpaired, trio, and paired samples'
+links: {}
+added: '2026-11-21'
+evidence: MosaicHunter identifies single-nucleotide mosaicisms in whole-genome and whole-exome data from unpaired samples
+  using Bayesian genotypers.

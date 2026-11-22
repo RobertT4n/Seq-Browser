@@ -1,0 +1,21 @@
+name: AptCompare
+category: dry
+summary: A program that combines six analytical approaches to rank candidate RNA aptamer motifs from HTS-SELEX data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa054
+  year: 2020
+  journal: Bioinformatics
+  first_author: Shieh KR
+  last_author: Golden A
+  title: "AptCompare: optimized\n                    <i>de novo</i>\n                    motif discovery of RNA aptamers via\
+    \ HTS-SELEX"
+  preprint_doi: 10.1101/413757
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): aptamer motif discovery; input is selected aptamer sequences, no fitting readout tag. Curated out pending a scope decision (same as AptamerRunner).'
+added: '2026-11-21'
+evidence: AptCompare combines six aptamer detection approaches and uses weighted ranking to order candidate aptamers.

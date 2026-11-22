@@ -1,0 +1,18 @@
+name: DeepBound
+category: dry
+summary: A deep convolutional neural field identifies expressed transcript boundaries from RNA-seq read alignments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx267
+  year: 2017
+  journal: Bioinformatics
+  first_author: Shao M
+  last_author: Wang S
+  title: 'DeepBound: accurate identification of transcript boundaries via deep convolutional neural fields'
+links: {}
+added: '2026-11-21'
+evidence: DeepBound learns distributions and patterns of transcript boundaries from RNA-seq alignments.

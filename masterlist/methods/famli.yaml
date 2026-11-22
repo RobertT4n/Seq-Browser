@@ -1,0 +1,22 @@
+name: FAMLI
+full_name: Functional Analysis of Metagenomes by Likelihood Inference
+category: dry
+summary: Expectation-maximization approach that improves identification of protein-coding sequences from metagenomic short
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03802-0
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Golob JL
+  last_author: Minot SS
+  title: In silico benchmarking of metagenomic tools for coding sequence detection reveals the limits of sensitivity and precision
+  preprint_doi: 10.1101/295352
+links: {}
+added: '2026-11-21'
+evidence: An iterative expectation-maximization approach improved the positive predictive value of a mapping-based method
+  for identifying metagenomic coding sequences.

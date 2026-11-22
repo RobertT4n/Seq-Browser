@@ -1,0 +1,19 @@
+name: SCIDDO
+category: dry
+summary: A statistical method for detecting differential chromatin domains from chromatin state maps.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa960
+  year: 2020
+  journal: Bioinformatics
+  first_author: Ebert P
+  last_author: Schulz MH
+  title: Fast detection of differential chromatin domains with SCIDDO
+  preprint_doi: 10.1101/441766
+links: {}
+added: '2026-11-21'
+evidence: SCIDDO detects differential chromatin domains from chromatin state maps derived from histone ChIP-seq data.

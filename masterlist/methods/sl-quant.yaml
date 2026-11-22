@@ -1,0 +1,19 @@
+name: SL-quant
+category: dry
+summary: RNA-seq pipeline that identifies and quantifies spliced leader trans-splicing events.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giy084
+  year: 2018
+  journal: GigaScience
+  first_author: Yague-Sanz C
+  last_author: Hermand D
+  title: 'SL-quant: a fast and flexible pipeline to quantify spliced leader trans-splicing events from RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: SL-quant identifies and trims spliced leader sequences from unmapped reads, then remaps and quantifies them at splice
+  sites or genes.

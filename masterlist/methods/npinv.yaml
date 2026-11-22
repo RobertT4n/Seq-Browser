@@ -1,0 +1,21 @@
+name: npInv
+category: dry
+summary: Detects and genotypes inversions mediated by non-allelic homologous recombination using long-read sub-alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s12859-018-2252-9
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Shao H
+  last_author: Coin LJM
+  title: 'npInv: accurate detection and genotyping of inversions using long read sub-alignment'
+  preprint_doi: 10.1101/178103
+links: {}
+added: '2026-11-21'
+evidence: npInv detects and genotypes non-allelic homologous recombination inversions using long-read sequencing data.

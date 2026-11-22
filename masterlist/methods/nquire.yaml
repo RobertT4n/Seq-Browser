@@ -1,0 +1,19 @@
+name: nQuire
+category: dry
+summary: Statistical framework that estimates sample ploidy from base-frequency distributions at variable sites in sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2128-z
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Weiß CL
+  last_author: Burbano HA
+  title: 'nQuire: a statistical framework for ploidy estimation using next generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: nQuire uses a Gaussian mixture model and maximum likelihood to distinguish diploid, triploid, and tetraploid samples.

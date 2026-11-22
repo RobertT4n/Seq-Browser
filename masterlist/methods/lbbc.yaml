@@ -1,0 +1,22 @@
+name: LBBC
+full_name: Low Biomass Background Correction
+category: dry
+summary: LBBC filters noise in metagenomic cell-free DNA sequencing using microbial genome coverage uniformity and batch abundance
+  variation.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-020-0793-4
+  year: 2020
+  journal: Microbiome
+  first_author: Burnham P
+  last_author: De Vlaminck I
+  title: Separating the signal from the noise in metagenomic cell-free DNA sequencing
+  preprint_doi: 10.1101/734756
+links: {}
+added: '2026-11-21'
+evidence: LBBC reduced false positives in a cell-free DNA test for urinary tract infection while minimally affecting the true
+  positive rate.

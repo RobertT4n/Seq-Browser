@@ -1,0 +1,27 @@
+name: CAS-seq
+category: wet
+summary: Single-cell small RNA sequencing profiles small RNAs in oocytes and embryos.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41467-019-11312-8
+  year: 2019
+  journal: Nat Commun
+  first_author: Yang Q
+  last_author: Wu L
+  pmid: '31358756'
+  pmcid: PMC6662892
+  title: Single-cell CAS-seq reveals a class of short PIWI-interacting RNAs in human oocytes
+links: {}
+added: '2026-11-21'
+evidence: CAS-seq profiles small RNAs in human oocytes and embryos and identifies a class of short PIWI-interacting RNAs.

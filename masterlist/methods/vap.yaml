@@ -1,0 +1,20 @@
+name: VAP
+full_name: Variant Analysis Pipeline
+category: dry
+summary: VAP uses multiple splice-aware aligners to call SNPs from RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0216838
+  year: 2019
+  journal: PLOS ONE
+  first_author: Adetunji MO
+  last_author: Schmidt CJ
+  title: Variant analysis pipeline for accurate detection of genomic variants from transcriptome sequencing data
+  preprint_doi: 10.1101/625020
+links: {}
+added: '2026-11-21'
+evidence: VAP combines RNA-seq splice-aware aligners to call SNPs in non-human models using RNA-seq data.

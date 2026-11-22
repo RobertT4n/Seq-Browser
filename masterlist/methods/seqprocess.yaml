@@ -1,0 +1,21 @@
+name: SEQprocess
+category: dry
+summary: Provides modular, customizable pipelines for processing sequencing data, including variant calling and RNA abundance
+  estimation.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2676-x
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Joo T
+  last_author: Woo HG
+  title: 'SEQprocess: a modularized and customizable pipeline framework for NGS processing in R package'
+links: {}
+added: '2026-11-21'
+evidence: SEQprocess provides customizable pipelines for variant calling, allele frequency, RNA abundance and DNA copy number
+  analysis.

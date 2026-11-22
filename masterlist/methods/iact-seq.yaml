@@ -1,0 +1,26 @@
+name: iACT-seq
+category: wet
+summary: Indexed antibody-guided chromatin tagmentation profiles chromatin-associated marks and proteins in single cells.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-019-11559-1
+  year: 2019
+  journal: Nat Commun
+  first_author: Carter B
+  last_author: Zhao K
+  pmid: '31431618'
+  pmcid: PMC6702168
+  title: Mapping histone modifications in low cell number and single cells using antibody-guided chromatin tagmentation (ACT-seq)
+  preprint_doi: 10.1101/571208
+links: {}
+added: '2026-11-21'
+evidence: iACT-seq uses antibody-targeted protein A–Tn5 and index multiplexing to construct thousands of single-cell libraries.

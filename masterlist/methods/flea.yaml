@@ -1,0 +1,23 @@
+name: FLEA
+full_name: Full-Length Envelope Analyzer
+category: dry
+summary: Analyzes and visualizes long-read viral amplicons through consensus construction, alignment, and evolutionary analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1371/journal.pcbi.1006498
+  year: 2018
+  journal: PLOS Computational Biology
+  first_author: Eren K
+  last_author: Murrell B
+  title: 'Full-Length Envelope Analyzer (FLEA): A tool for longitudinal analysis of viral amplicons'
+  preprint_doi: 10.1101/230474
+links: {}
+added: '2026-11-21'
+evidence: FLEA generates high-quality consensus sequences and codon-aware alignments used to infer phylogenies, selection
+  pressure, and evolutionary dynamics.

@@ -1,0 +1,19 @@
+name: Ribo-TISH
+category: dry
+summary: Detects and compares translation initiation sites and predicts open reading frames from ribosome profiling data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-017-01981-8
+  year: 2017
+  journal: Nature Communications
+  first_author: Zhang P
+  last_author: Chen Y
+  title: Genome-wide identification and differential analysis of translational initiation
+links: {}
+added: '2026-11-21'
+evidence: Ribo-TISH detects and quantitatively compares translation initiation sites from TI-seq and predicts open reading
+  frames from regular ribosome profiling data.

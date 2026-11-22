@@ -1,0 +1,22 @@
+name: TranSeq
+category: wet
+summary: Provides high-throughput 3' end sequencing for transcriptome profiling and gene model refinement in plants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- plant
+reference:
+  doi: 10.1111/tpj.14015
+  year: 2018
+  journal: The Plant Journal
+  first_author: Tzfadia O
+  last_author: Aharoni A
+  title: The ‘TranSeq’ 3′‐end sequencing method for high‐throughput transcriptomics and gene space refinement in plant genomes
+links: {}
+added: '2026-11-21'
+evidence: TranSeq produced transcriptome profiles and its reads helped improve gene models in the tomato reference genome.

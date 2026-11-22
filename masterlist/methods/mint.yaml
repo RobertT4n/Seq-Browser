@@ -1,0 +1,23 @@
+name: mint
+full_name: Methylation INTegration
+category: dry
+summary: Analyzes and integrates DNA methylation and hydroxymethylation data from bisulfite conversion and immunoprecipitation
+  assays.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1158/0008-5472.can-17-0330
+  year: 2017
+  journal: Cancer Research
+  first_author: Cavalcante RG
+  last_author: Sartor MA
+  title: Integrating DNA Methylation and Hydroxymethylation Data with the Mint Pipeline
+links: {}
+added: '2026-11-21'
+evidence: The mint pipeline supports analysis, integration, visualization, and interpretation of methylation and hydroxymethylation
+  assays.

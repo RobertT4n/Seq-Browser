@@ -1,0 +1,18 @@
+name: MetaBinG2
+category: dry
+summary: Classifies metagenomic sequences by composition, including in samples with many unknown organisms.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13062-018-0220-y
+  year: 2018
+  journal: Biology Direct
+  first_author: Qiao Y
+  last_author: Wei C
+  title: 'MetaBinG2: a fast and accurate metagenomic sequence classification system for samples with many unknown organisms'
+links: {}
+added: '2026-11-21'
+evidence: MetaBinG2 uses sequence composition for metagenomic sequence classification and GPU acceleration.

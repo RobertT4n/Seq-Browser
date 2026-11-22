@@ -1,0 +1,19 @@
+name: GangSTR
+category: dry
+summary: Algorithm that estimates normal and expanded tandem repeat lengths genome-wide from paired-end sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz501
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Mousavi N
+  last_author: Gymrek M
+  title: Profiling the genome-wide landscape of tandem repeat expansions
+  preprint_doi: 10.1101/361162
+links: {}
+added: '2026-11-21'
+evidence: GangSTR uses information from paired-end reads in a unified model to estimate tandem repeat lengths.

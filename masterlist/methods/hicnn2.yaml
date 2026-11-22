@@ -1,0 +1,20 @@
+name: HiCNN2
+category: dry
+summary: Enhances the resolution of Hi-C interaction matrices using convolutional neural networks.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes10110862
+  year: 2019
+  journal: Genes (Basel)
+  first_author: Liu T
+  last_author: Wang Z
+  pmid: '31671634'
+  pmcid: PMC6896157
+  title: 'HiCNN2: Enhancing the Resolution of Hi-C Data Using an Ensemble of Convolutional Neural Networks'
+links: {}
+added: '2026-11-21'
+evidence: HiCNN2 learns mappings between low-resolution and high-resolution Hi-C data using three network architectures.

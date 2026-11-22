@@ -1,0 +1,19 @@
+name: VINSSRM
+category: dry
+summary: Identifies HIV-1 proviral integration sites with intact or aberrant ends from paired-end sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jviromet.2019.03.004
+  year: 2019
+  journal: Journal of Virological Methods
+  first_author: Ode H
+  last_author: Iwatani Y
+  title: Identifying integration sites of the HIV-1 genome with intact and aberrant ends through deep sequencing
+links: {}
+added: '2026-11-21'
+evidence: VINSSRM uses split-read mapping and paired-end read merging to find integration sites of proviral DNA with intact
+  and aberrant LTR ends.

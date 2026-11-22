@@ -1,0 +1,25 @@
+name: cf-RRBS
+full_name: circulating cell-free DNA reduced representation bisulfite sequencing
+category: wet
+summary: Reduced representation bisulfite sequencing profiles methylation in fragmented plasma cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+reference:
+  doi: 10.1101/663195
+  year: 2019
+  journal: bioRxiv
+  first_author: De Koker A
+  last_author: Callewaert N
+  title: Development of circulating cell-free DNA reduced representation bisulfite sequencing for clinical methylomics diagnostics
+links: {}
+added: '2026-11-21'
+evidence: cf-RRBS enriches CpG-rich target regions by enzymatically degrading off-target DNA and is demonstrated for lung
+  cancer subtyping.

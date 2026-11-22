@@ -1,0 +1,18 @@
+name: riboWaltz
+category: dry
+summary: Estimates ribosome P-site offsets and supports diagnostic analysis and visualization of ribosome profiling data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1006169
+  year: 2018
+  journal: PLOS Computational Biology
+  first_author: Lauria F
+  last_author: Viero G
+  title: 'riboWaltz: Optimization of ribosome P-site positioning in ribosome profiling data'
+links: {}
+added: '2026-11-21'
+evidence: riboWaltz calculates optimal P-site offsets to position ribosomes within protected fragments.

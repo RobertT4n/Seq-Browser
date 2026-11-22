@@ -1,0 +1,20 @@
+name: METHimpute
+category: dry
+summary: Imputes cytosine methylation status and levels across genomes from whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4641-x
+  year: 2018
+  journal: BMC Genomics
+  first_author: Taudt A
+  last_author: Colomé-Tatché M
+  title: 'METHimpute: imputation-guided construction of complete methylomes from WGBS data'
+  preprint_doi: 10.1101/190223
+links: {}
+added: '2026-11-21'
+evidence: METHimpute uses a hidden Markov model to infer cytosine methylation regardless of sequencing coverage.

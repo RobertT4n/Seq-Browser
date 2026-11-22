@@ -1,0 +1,25 @@
+name: csRNA-seq
+full_name: capped-small RNA-seq
+category: wet
+summary: Sequencing capped small RNAs from total RNA identifies transcription start sites of stable and unstable transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- plant
+- microbe
+reference:
+  doi: 10.1101/gr.253492.119
+  year: 2019
+  journal: Genome Research
+  first_author: Duttke SH
+  last_author: Benner C
+  title: Identification and dynamic quantification of regulatory elements using total RNA
+links: {}
+added: '2026-11-21'
+evidence: csRNA-seq detects transcription start sites at single-nucleotide resolution using total RNA from diverse eukaryotic
+  species.

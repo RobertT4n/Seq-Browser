@@ -1,0 +1,25 @@
+name: MREBS
+full_name: methylation-sensitive restriction enzyme bisulfite sequencing
+category: wet
+summary: Restriction enzyme digestion and bisulfite sequencing combine read counts and cytosine conversion information to
+  estimate DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1371/journal.pone.0214368
+  year: 2019
+  journal: PLOS ONE
+  first_author: Bonora G
+  last_author: Pellegrini M
+  title: DNA methylation estimation using methylation-sensitive restriction enzyme bisulfite sequencing (MREBS)
+  preprint_doi: 10.1101/217208
+links: {}
+added: '2026-11-21'
+evidence: MREBS combines locus read counts and single-cytosine bisulfite conversion ratios to estimate differential methylation.

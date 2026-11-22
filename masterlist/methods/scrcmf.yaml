@@ -1,0 +1,18 @@
+name: scRCMF
+category: dry
+summary: scRCMF identifies stable cell states and transition cells from single-cell transcriptome matrices.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tbme.2019.2937228
+  year: 2020
+  journal: IEEE Transactions on Biomedical Engineering
+  first_author: Zheng X
+  last_author: Zou X
+  title: 'scRCMF: Identification of Cell Subpopulations and Transition States From Single-Cell Transcriptomes'
+links: {}
+added: '2026-11-21'
+evidence: scRCMF infers latent substructures from a gene-cell matrix and quantifies each cell's transition capability.

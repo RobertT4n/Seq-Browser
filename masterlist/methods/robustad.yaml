@@ -1,0 +1,18 @@
+name: RobusTAD
+category: dry
+summary: Tool for scoring topologically associating domain boundaries robustly across heterogeneous Hi-C datasets.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/293175
+  year: 2018
+  journal: bioRxiv
+  first_author: Dali
+  last_author: M
+  title: 'RobusTAD: A Tool for Robust Annotation ofTopologically Associating Domain Boundaries'
+links: {}
+added: '2026-11-21'
+evidence: RobusTAD scores TAD boundaries robustly across differences in coverage, resolution, and noise.

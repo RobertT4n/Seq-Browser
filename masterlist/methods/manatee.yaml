@@ -1,0 +1,20 @@
+name: Manatee
+category: dry
+summary: Quantifies small RNA classes and detects uncharacterized expressed non-coding loci in sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-020-57495-9
+  year: 2020
+  journal: Scientific Reports
+  first_author: Handzlik JE
+  last_author: Hatzigeorgiou AG
+  title: 'Manatee: detection and quantification of small non-coding RNAs from next-generation sequencing data'
+  preprint_doi: 10.1101/662007
+links: {}
+added: '2026-11-21'
+evidence: Manatee estimates small RNA abundance using annotations and alignment density and identifies unannotated expressed
+  loci.

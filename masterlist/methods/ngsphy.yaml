@@ -1,0 +1,21 @@
+name: NGSphy
+category: dry
+summary: Simulates next-generation sequencing reads and read counts from individual genomes evolving under a common species
+  tree.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty146
+  year: 2018
+  journal: Bioinformatics
+  first_author: Escalona M
+  last_author: Posada D
+  title: 'NGSphy: phylogenomic simulation of next-generation sequencing data'
+  preprint_doi: 10.1101/197715
+links: {}
+added: '2026-11-21'
+evidence: NGSphy simulates Illumina reads or read counts from haploid or diploid genomes with gene families evolving under
+  a common species tree.

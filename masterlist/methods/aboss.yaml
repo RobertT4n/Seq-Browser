@@ -1,0 +1,20 @@
+name: ABOSS
+full_name: Ab Sequence Selector
+category: dry
+summary: A tool that filters immunoglobulin repertoire sequences using predicted structural viability and estimates sequencing
+  error rates.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.4049/jimmunol.1800669
+  year: 2018
+  journal: The Journal of Immunology
+  first_author: Kovaltsuk A
+  last_author: Deane CM
+  title: Filtering Next-Generation Sequencing of the Ig Gene Repertoire Data Using Antibody Structural Information
+links: {}
+added: '2026-11-21'
+evidence: ABOSS uses the presence or absence of a variable-chain disulfide bridge to identify structurally viable sequences.

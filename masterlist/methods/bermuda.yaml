@@ -1,0 +1,21 @@
+name: BERMUDA
+full_name: Batch-Effect ReMoval Using Deep Autoencoders
+category: dry
+summary: BERMUDA uses transfer learning to correct batch effects in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1764-6
+  year: 2019
+  journal: Genome Biology
+  first_author: Wang T
+  last_author: Huang K
+  title: 'BERMUDA: a novel deep transfer learning method for single-cell RNA sequencing batch correction reveals hidden high-resolution
+    cellular subtypes'
+  preprint_doi: 10.1101/641191
+links: {}
+added: '2026-11-21'
+evidence: BERMUDA combines batches with different cell population compositions and transfers information among them.

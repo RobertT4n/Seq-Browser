@@ -1,0 +1,25 @@
+name: RiboFACSeq
+category: wet
+summary: Combines a riboswitch sensor, fluorescence-activated cell sorting and sequencing to identify bacterial genes associated
+  with metabolic and transport pathways.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0188399
+  year: 2017
+  journal: PLOS ONE
+  first_author: Ghazi Z
+  last_author: Li Y
+  title: 'RiboFACSeq: A new method for investigating metabolic and transport pathways in bacterial cells by combining a riboswitch-based
+    sensor, fluorescence-activated cell sorting and next-generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: A riboswitch sensor detects its cognate molecule, FACS isolates cells with disrupted pathways, and sequencing identifies
+  genes in the sorted populations.

@@ -1,0 +1,18 @@
+name: AFS
+category: dry
+summary: Estimates species proportions in food from shotgun metagenomic sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw822
+  year: 2017
+  journal: Bioinformatics
+  first_author: Liu Y
+  last_author: Hankeln T
+  title: 'AFS: identification and quantification of species composition by metagenomic sequencing'
+links: {}
+added: '2026-11-21'
+evidence: AFS uses metagenomic shotgun sequencing and read counts to infer species proportions in food.

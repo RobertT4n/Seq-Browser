@@ -1,0 +1,21 @@
+name: PACE
+full_name: pattern analysis of conditional essentiality
+category: dry
+summary: Analyzes time-series transposon insertion sequencing data to estimate mutant fitness dynamics and group related fitness
+  profiles.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/mbio.01581-17
+  year: 2017
+  journal: mBio
+  first_author: Yang G
+  last_author: Waldor MK
+  title: Time-Resolved Transposon Insertion Sequencing Reveals Genome-Wide Fitness Dynamics during Infection
+links: {}
+added: '2026-11-21'
+evidence: PACE derives a quantitative assessment of each mutant's fitness over a temporal series of transposon insertion sequencing
+  data.

@@ -1,0 +1,19 @@
+name: VISPA2
+full_name: Vector Integration Site Parallel Analysis, version 2
+category: dry
+summary: Identifies, filters, and annotates viral vector integration sites from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1937-9
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Spinozzi G
+  last_author: Montini E
+  title: 'VISPA2: a scalable pipeline for high-throughput identification and annotation of vector integration sites'
+links: {}
+added: '2026-11-21'
+evidence: VISPA2 processes paired-end reads, filters false-positive integration sites, and classifies and annotates sites.

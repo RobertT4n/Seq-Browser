@@ -1,0 +1,19 @@
+name: SPhyR
+full_name: Single-cell Phylogeny Reconstruction
+category: dry
+summary: A method that reconstructs tumor phylogenies from single-cell sequencing data while allowing mutation loss.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty589
+  year: 2018
+  journal: Bioinformatics
+  first_author: El-Kebir M
+  last_author: El-Kebir M
+  title: 'SPhyR: tumor phylogeny estimation from single-cell sequencing data under loss and error'
+links: {}
+added: '2026-11-21'
+evidence: SPhyR estimates tumor phylogeny using a model in which a mutation can be gained once and lost multiple times.

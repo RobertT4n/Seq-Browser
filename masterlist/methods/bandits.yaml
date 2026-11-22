@@ -1,0 +1,20 @@
+name: BANDITS
+category: dry
+summary: BANDITS performs Bayesian differential splicing analysis while modeling sample variability and uncertainty in read
+  allocation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-01967-8
+  year: 2020
+  journal: Genome Biology
+  first_author: Tiberi S
+  last_author: Robinson MD
+  title: 'BANDITS: Bayesian differential splicing accounting for sample-to-sample variability and mapping uncertainty'
+  preprint_doi: 10.1101/750018
+links: {}
+added: '2026-11-21'
+evidence: BANDITS performs gene- and transcript-level differential splicing analysis using a Bayesian hierarchical model.

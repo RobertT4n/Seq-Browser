@@ -1,0 +1,21 @@
+name: iSeqQC
+category: dry
+summary: Detects expression outliers associated with batch effects or differences within phenotypic groups in RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3399-8
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Kumar G
+  last_author: Fortina P
+  pmid: '32054449'
+  pmcid: PMC7020508
+  title: 'iSeqQC: a tool for expression-based quality control in RNA sequencing'
+  preprint_doi: 10.1101/768101
+links: {}
+added: '2026-11-21'
+evidence: iSeqQC uses clustering and correlation coefficients to identify expression-based outliers.

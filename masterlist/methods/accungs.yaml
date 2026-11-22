@@ -1,0 +1,23 @@
+name: AccuNGS
+category: wet
+summary: Detects ultra-rare sequence variants in viral populations from clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1371/journal.ppat.1009029
+  year: 2020
+  journal: PLOS Pathogens
+  first_author: Gelbart M
+  last_author: Stern A
+  title: Drivers of within-host genetic diversity in acute infections of viruses
+  preprint_doi: 10.1101/349498
+links: {}
+added: '2026-11-21'
+evidence: AccuNGS detected variants as rare as 1 in 10,000 and was applied to HIV, RSV and CMV clinical samples.

@@ -1,0 +1,28 @@
+name: GCLiPP
+category: wet
+summary: A biochemical assay maps RNA-binding protein occupancy across the transcriptome.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/448654
+  year: 2018
+  journal: bioRxiv
+  first_author: Litterman AJ
+  last_author: Ansel KM
+  title: A global map of RNA binding protein occupancy guides functional dissection of post-transcriptional regulation of
+    the T cell transcriptome
+links: {}
+added: '2026-11-21'
+evidence: GCLiPP detects transcriptome-wide RNA-binding protein occupancy and was applied to human Jurkat and mouse primary
+  T cells.

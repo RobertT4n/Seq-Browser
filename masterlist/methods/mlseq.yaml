@@ -1,0 +1,18 @@
+name: MLSeq
+category: dry
+summary: MLSeq preprocesses and classifies RNA-seq data using a collection of machine learning approaches.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cmpb.2019.04.007
+  year: 2019
+  journal: Computer Methods and Programs in Biomedicine
+  first_author: Goksuluk D
+  last_author: Karaagaoglu AE
+  title: 'MLSeq: Machine learning interface for RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: Researchers can normalize, filter, transform, and classify raw RNA-seq data with the package.

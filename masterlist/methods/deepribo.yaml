@@ -1,0 +1,25 @@
+name: DeepRibo
+category: dry
+summary: Neural network that uses ribosome profiling and sequence information to delineate and annotate expressed genes in
+  prokaryotes.
+readouts:
+- translation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz061
+  year: 2019
+  journal: Nucleic Acids Res
+  first_author: Clauwaert J
+  last_author: Waegeman W
+  pmid: '30753697'
+  pmcid: PMC6451124
+  title: 'DeepRibo: a neural network for precise gene annotation of prokaryotes by combining ribosome profiling signal and
+    binding site patterns'
+  preprint_doi: 10.1101/317180
+links: {}
+added: '2026-11-21'
+evidence: DeepRibo combines ribosome profiling data and Shine-Dalgarno region information to delineate and annotate expressed
+  genes.

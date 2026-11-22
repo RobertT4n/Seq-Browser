@@ -1,0 +1,20 @@
+name: ASJA
+full_name: Assembling Splice Junctions Analysis
+category: dry
+summary: ASJA identifies, quantifies and characterizes splice junctions from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2019.08.001
+  year: 2019
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Zhao J
+  last_author: Huang S
+  title: 'ASJA: A Program for Assembling Splice Junctions Analysis'
+links: {}
+added: '2026-11-21'
+evidence: ASJA processes assembled transcripts and chimeric alignments to report junction positions and normalized expression
+  levels.

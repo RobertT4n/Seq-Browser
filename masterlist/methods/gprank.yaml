@@ -1,0 +1,21 @@
+name: GPrank
+category: dry
+summary: A Gaussian process method that ranks genomic elements by their dynamics in sequencing time series.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2370-4
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Topa H
+  last_author: Honkela A
+  title: 'GPrank: an R package for detecting dynamic elements from genome-wide time series'
+links: {}
+added: '2026-11-21'
+evidence: GPrank compares time-dependent and time-independent Gaussian process models to rank dynamic genomic elements.

@@ -1,0 +1,19 @@
+name: CODEX2
+category: dry
+summary: Profiles common and rare copy number variants in sequencing data with or without negative control samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-018-1578-y
+  year: 2018
+  journal: Genome Biology
+  first_author: Jiang Y
+  last_author: Zhang NR
+  title: 'CODEX2: full-spectrum copy number variation detection by high-throughput DNA sequencing'
+  preprint_doi: 10.1101/211698
+links: {}
+added: '2026-11-21'
+evidence: CODEX2 is a statistical framework for CNV profiling demonstrated on whole-exome and targeted sequencing data.

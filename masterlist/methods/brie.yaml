@@ -1,0 +1,19 @@
+name: BRIE
+full_name: Bayesian regression for isoform estimation
+category: dry
+summary: Estimates splicing and differential isoform usage in single-cell RNA-seq data using a Bayesian hierarchical model.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1248-5
+  year: 2017
+  journal: Genome Biology
+  first_author: Huang Y
+  last_author: Sanguinetti G
+  title: 'BRIE: transcriptome-wide splicing quantification in single cells'
+links: {}
+added: '2026-11-21'
+evidence: BRIE learns an informative prior from sequence features and estimates exon inclusion ratios in single cells.

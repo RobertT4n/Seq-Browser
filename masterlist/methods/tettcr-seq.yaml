@@ -1,0 +1,25 @@
+name: TetTCR-seq
+full_name: tetramer-associated T-cell receptor sequencing
+category: wet
+summary: DNA-barcoded antigen tetramers link T-cell receptor sequences to antigen specificity in single cells.
+readouts:
+- receptor-ligand
+- immune-repertoire
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/nbt.4282
+  year: 2018
+  journal: Nat Biotechnol
+  first_author: Zhang SQ
+  last_author: Jiang N
+  pmid: '30418433'
+  pmcid: PMC6728224
+  title: High-throughput determination of the antigen specificities of T cell receptors in single cells
+links: {}
+added: '2026-11-21'
+evidence: TetTCR-seq links TCR sequences to their cognate antigens in single cells using DNA-barcoded antigen tetramers.

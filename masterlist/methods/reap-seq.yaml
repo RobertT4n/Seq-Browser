@@ -1,0 +1,27 @@
+name: REAP-seq
+full_name: RNA expression and protein sequencing assay
+category: wet
+summary: DNA-labeled antibodies and droplet microfluidics jointly quantify proteins and transcripts in single cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/nbt.3973
+  year: 2017
+  journal: Nature Biotechnology
+  first_author: Peterson VM
+  last_author: Klappenbach JA
+  title: Multiplexed quantification of proteins and transcripts in single cells
+links: {}
+added: '2026-11-21'
+evidence: REAP-seq quantified proteins with 82 barcoded antibodies and more than 20,000 genes in a single workflow.

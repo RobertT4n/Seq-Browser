@@ -1,0 +1,21 @@
+name: DiNAMO
+full_name: DNA MOtif
+category: dry
+summary: Software that uses an exhaustive algorithm to discover degenerate DNA motifs in sequencing datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-018-2215-1
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Saad C
+  last_author: Figeac M
+  pmid: '29890948'
+  pmcid: PMC5996464
+  title: 'DiNAMO: highly sensitive DNA motif discovery in high-throughput sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: DiNAMO discovers IUPAC motifs and was evaluated on ChIP-seq peaks and systematic sequencing error analysis.

@@ -1,0 +1,23 @@
+name: MEA
+full_name: Methylomic and Epigenomic Allele-specific analysis
+category: dry
+summary: INDEL-aware pipeline for allele-specific analysis and integration of methylation, RNA and ChIP-seq datasets.
+readouts:
+- dna-methylation
+- rna
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4835-2
+  year: 2018
+  journal: BMC Genomics
+  first_author: Richard Albert J
+  last_author: Lorincz MC
+  pmid: '29907088'
+  pmcid: PMC6003194
+  title: Development and application of an integrated allele-specific pipeline for methylomic and epigenomic analysis (MEA)
+links: {}
+added: '2026-11-21'
+evidence: MEA generates allele-specific DNA methylation maps and integrates methylation data with RNA- and ChIP-seq datasets.

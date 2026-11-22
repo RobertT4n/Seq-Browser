@@ -1,0 +1,21 @@
+name: NGSCheckMate
+category: dry
+summary: Verifies sample identities across sequencing datasets by comparing allele read fractions at known SNPs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkx193
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Lee S
+  last_author: Park PJ
+  title: 'NGSCheckMate: software for validating sample identity in next-generation sequencing studies within and across data
+    types'
+links: {}
+added: '2026-11-21'
+evidence: NGSCheckMate compares allele read fractions at known single-nucleotide polymorphisms across multiple sequencing
+  data types.

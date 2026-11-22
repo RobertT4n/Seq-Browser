@@ -1,0 +1,21 @@
+name: MERIT
+full_name: Mutation Error Rate Identification Toolkit
+category: dry
+summary: Quantifies sequencing substitution and indel errors in ultra-deep sequencing data, including their genomic context.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-018-2223-1
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Hadigol M
+  last_author: Khiabanian H
+  title: MERIT reveals the impact of genomic context on sequencing error rate in ultra-deep applications
+  preprint_doi: 10.1101/184291
+links: {}
+added: '2026-11-21'
+evidence: MERIT profiles erroneous substitutions and small indels and assesses polymerase fidelity at clinically relevant
+  loci.

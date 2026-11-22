@@ -1,0 +1,22 @@
+name: SCRAT
+full_name: Single-Cell Regulome Analysis Toolbox
+category: dry
+summary: Analyzes single-cell regulome data to identify cell subpopulations and summarize their regulatory activities.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx315
+  year: 2017
+  journal: Bioinformatics
+  first_author: Ji Z
+  last_author: Ji H
+  title: Single-cell regulome data analysis by SCRAT
+links: {}
+added: '2026-11-21'
+evidence: SCRAT summarizes regulatory activities by features such as gene sets and transcription factor motif sites to identify
+  subpopulations and distinguishing features.

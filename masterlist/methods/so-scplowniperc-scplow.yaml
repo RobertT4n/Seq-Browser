@@ -1,0 +1,20 @@
+name: SO_SCPLOWNIPERC_SCPLOW
+category: dry
+summary: An autoencoder and classifier approach that infers chromatin subcompartments from moderate-coverage Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12954-4
+  year: 2019
+  journal: Nature Communications
+  first_author: Xiong K
+  last_author: Ma J
+  title: Revealing Hi-C subcompartments by imputing inter-chromosomal chromatin interactions
+  preprint_doi: 10.1101/505503
+links: {}
+added: '2026-11-21'
+evidence: The approach uses an autoencoder and multilayer perceptron classifier to infer subcompartments from typical Hi-C
+  datasets.

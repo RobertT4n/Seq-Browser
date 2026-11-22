@@ -1,0 +1,20 @@
+name: TNER
+full_name: Tri-Nucleotide Error Reducer
+category: dry
+summary: Estimates background sequencing noise to improve detection of low-frequency circulating tumor DNA mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2428-3
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Deng S
+  last_author: Xie T
+  title: 'TNER: a novel background error suppression method for mutation detection in circulating tumor DNA'
+  preprint_doi: 10.1101/214379
+links: {}
+added: '2026-11-21'
+evidence: TNER estimates background noise to distinguish low-frequency ctDNA mutations from sequencing errors.

@@ -1,0 +1,19 @@
+name: ShigaTyper
+category: dry
+summary: Determines Shigella serotypes from paired-end whole-genome sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/aem.00165-19
+  year: 2019
+  journal: Applied and Environmental Microbiology
+  first_author: Wu Y
+  last_author: Payne J
+  title: "<i>In Silico</i>\n                    Serotyping Based on Whole-Genome Sequencing Improves the Accuracy of\n   \
+    \                 <i>Shigella</i>\n                    Identification"
+links: {}
+added: '2026-11-21'
+evidence: ShigaTyper uses whole-genome sequencing reads and a curated reference database to determine 59 Shigella serotypes.

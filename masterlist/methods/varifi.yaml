@@ -1,0 +1,19 @@
+name: VARIFI
+category: dry
+summary: Calls, filters and annotates variants from amplicon sequencing data using agreement between analysis methods.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3390/jpm9010010
+  year: 2019
+  journal: Journal of Personalized Medicine
+  first_author: Krunic M
+  last_author: von Haeseler A
+  title: VARIFI—Web-Based Automatic Variant Identification, Filtering and Annotation of Amplicon Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: VARIFI combines variant analysis methods, assigns confidence scores based on their concordance and filters sequencing-associated
+  biases.

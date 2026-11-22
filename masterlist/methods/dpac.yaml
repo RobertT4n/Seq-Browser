@@ -1,0 +1,20 @@
+name: DPAC
+full_name: Differential Poly(A)-Clustering
+category: dry
+summary: Processes poly(A)-targeted RNA-seq data to identify poly(A) clusters and test their differential usage.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/g3.119.400273
+  year: 2019
+  journal: G3 Genes|Genomes|Genetics
+  first_author: Routh A
+  last_author: Routh A
+  title: 'DPAC: A Tool for Differential Poly(A)–Cluster Usage from Poly(A)–Targeted RNAseq Data'
+links: {}
+added: '2026-11-21'
+evidence: DPAC maps and clusters poly(A) sites and determines differential poly(A)-cluster usage, gene expression and terminal
+  exon usage.

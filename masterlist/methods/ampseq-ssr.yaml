@@ -1,0 +1,22 @@
+name: AmpSeq-SSR
+category: wet
+summary: Multiplex PCR and targeted deep sequencing genotype large numbers of simple sequence repeats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1093/nar/gkx093
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Li L
+  last_author: Peng H
+  title: An accurate and efficient method for large-scale SSR genotyping and applications
+links: {}
+added: '2026-11-21'
+evidence: AmpSeq-SSR combined multiplex PCR and targeted deep sequencing to genotype 3,105 SSRs in eight rice varieties.

@@ -1,0 +1,19 @@
+name: HMCan-diff
+category: dry
+summary: Detects differential histone modifications in ChIP-seq data while correcting for copy number and other biases.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw1319
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Ashoor H
+  last_author: Boeva V
+  title: 'HMCan-diff: a method to detect changes in histone modifications in cells with different genetic characteristics'
+links: {}
+added: '2026-11-21'
+evidence: HMCan-diff detects changes in histone modifications between samples with different genetic backgrounds and explicitly
+  corrects for copy number bias.

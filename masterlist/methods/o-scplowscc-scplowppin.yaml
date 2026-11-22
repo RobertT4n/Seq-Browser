@@ -1,0 +1,23 @@
+name: O_SCPLOWSCC_SCPLOWPPIN
+category: dry
+summary: O_SCPLOWSCC_SCPLOWPPIN integrates single-cell RNA-seq with protein interaction networks to identify active modules
+  in different transcriptional states.
+readouts:
+- rna
+- protein-protein-interaction
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-07144-2
+  year: 2020
+  journal: BMC Genomics
+  first_author: Klimm F
+  last_author: Reinert G
+  title: Functional module detection through integration of single-cell RNA sequencing data with protein–protein interaction
+    networks
+  preprint_doi: 10.1101/698647
+links: {}
+added: '2026-11-21'
+evidence: The method clusters single-cell RNA-seq data and finds maximum-weight connected subgraphs in node-weighted protein
+  interaction networks.

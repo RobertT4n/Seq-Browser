@@ -1,0 +1,18 @@
+name: FusionScan
+category: dry
+summary: FusionScan predicts fusion transcripts from RNA-seq data using split reads and filtering strategies.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.5808/gi.2019.17.3.e26
+  year: 2019
+  journal: Genomics &amp; Informatics
+  first_author: Kim P
+  last_author: Lee S
+  title: 'FusionScan: accurate prediction of fusion genes from RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: FusionScan searches for split reads composed of intact exons at fusion boundaries and filters false positives.

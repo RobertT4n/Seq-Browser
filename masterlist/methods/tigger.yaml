@@ -1,0 +1,19 @@
+name: TIgGER
+category: dry
+summary: Infers subject-specific immunoglobulin V gene genotypes and novel alleles from expressed B-cell receptor repertoire
+  sequences.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fimmu.2019.00129
+  year: 2019
+  journal: Frontiers in Immunology
+  first_author: Gadala-Maria D
+  last_author: Kleinstein SH
+  title: Identification of Subject-Specific Immunoglobulin Alleles From Expressed Repertoire Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: The improved TIgGER algorithm detects V gene alleles differing by any number of SNPs from the nearest database allele.

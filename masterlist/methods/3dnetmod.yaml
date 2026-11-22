@@ -1,0 +1,18 @@
+name: 3DNetMod
+category: dry
+summary: A graph-based method detects hierarchical chromatin domains across length scales in Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4560
+  year: 2018
+  journal: Nature Methods
+  first_author: Norton HK
+  last_author: Phillips-Cremins JE
+  title: Detecting hierarchical genome folding with network modularity
+links: {}
+added: '2026-11-21'
+evidence: 3DNetMod identifies nested and partially overlapping domains genome-wide by optimizing network modularity.

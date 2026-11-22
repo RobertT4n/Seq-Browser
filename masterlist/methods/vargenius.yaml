@@ -1,0 +1,20 @@
+name: VarGenius
+category: dry
+summary: Runs customizable cohort-level variant calling and annotation pipelines for targeted resequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-018-2532-4
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: TUDP
+  last_author: Nigro V
+  title: VarGenius executes cohort-level DNA-seq variant calling and annotation and allows to manage the resulting data through
+    a PostgreSQL database
+links: {}
+added: '2026-11-21'
+evidence: VarGenius executes pipelines for multiple targeted resequencing datasets and stores variant annotations and sample
+  information in a database.

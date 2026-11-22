@@ -1,0 +1,20 @@
+name: SeqOthello
+category: dry
+summary: An indexing structure enables sequence queries across large collections of RNA-seq experiments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-018-1535-9
+  year: 2018
+  journal: Genome Biology
+  first_author: Yu Y
+  last_author: Liu J
+  title: 'SeqOthello: querying RNA-seq experiments at scale'
+  preprint_doi: 10.1101/258772
+links: {}
+added: '2026-11-21'
+evidence: SeqOthello supports arbitrary sequence queries against collections of RNA-seq experiments and was used to survey
+  fusion events.

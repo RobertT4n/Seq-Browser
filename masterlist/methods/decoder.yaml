@@ -1,0 +1,22 @@
+name: DECODER
+full_name: De novo compartment deconvolution and weight estimation of tumor samples
+category: dry
+summary: Deconvolves tumor samples to estimate compartment-specific signals and weights from RNA-seq or other data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12517-7
+  year: 2019
+  journal: Nature Communications
+  first_author: Peng XL
+  last_author: Yeh JJ
+  title: De novo compartment deconvolution and weight estimation of tumor samples using DECODER
+  preprint_doi: 10.1101/561647
+links: {}
+added: '2026-11-21'
+evidence: DECODER performs de novo compartment deconvolution and weight estimation for a single sample and can also be applied
+  to ATAC-seq data.

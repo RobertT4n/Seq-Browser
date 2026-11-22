@@ -1,0 +1,20 @@
+name: TICA
+full_name: Transcriptional Interaction and Coregulation Analyzer
+category: dry
+summary: A method that predicts physical interactions between transcription factors from the spatial distribution of ChIP-seq
+  binding sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2018.05.004
+  year: 2018
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Perna S
+  last_author: Wong L
+  title: 'TICA: Transcriptional Interaction and Coregulation Analyzer'
+links: {}
+added: '2026-11-21'
+evidence: TICA predicts transcription factor interactions using distances between paired binding sites in promoter regions.

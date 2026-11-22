@@ -1,0 +1,20 @@
+name: Genome U-Plot
+category: dry
+summary: Two-dimensional chromosome layout for visualizing structural variants in whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx829
+  year: 2018
+  journal: Bioinformatics
+  first_author: Gaitatzes A
+  last_author: Vasmatzis G
+  pmid: '29281001'
+  title: 'Genome U-Plot: a whole genome visualization'
+links: {}
+added: '2026-11-21'
+evidence: The Genome U-Plot spreads chromosomes across a two-dimensional surface to visualize structural variants including
+  deletions and amplifications.

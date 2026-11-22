@@ -1,0 +1,23 @@
+name: TideHunter
+category: dry
+summary: TideHunter detects tandem repeats and calls consensus sequences from noisy amplified long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btz376
+  year: 2019
+  journal: Bioinformatics
+  first_author: Gao Y
+  last_author: Xing Y
+  title: 'TideHunter: efficient and sensitive tandem repeat detection from noisy long-reads using seed-and-chain'
+links: {}
+added: '2026-11-21'
+evidence: TideHunter discovers tandem repeat patterns and generates consensus sequences from amplified tandemly repeated PacBio
+  and ONT reads.

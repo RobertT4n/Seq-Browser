@@ -1,0 +1,19 @@
+name: HiCtool
+category: dry
+summary: A Python library processes and visualizes Hi-C data and analyzes topologically associated domains.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2018.06.006
+  year: 2018
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Calandrelli R
+  last_author: Zhong S
+  title: 'GITAR: An Open Source Tool for Analysis and Visualization of Hi-C Data'
+  preprint_doi: 10.1101/259515
+links: {}
+added: '2026-11-21'
+evidence: HiCtool processes raw Hi-C data into contact matrices and topological domain coordinates for visualization and storage.

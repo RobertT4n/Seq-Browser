@@ -1,0 +1,23 @@
+name: DC3
+full_name: De-Convolution and Coupled-Clustering
+category: dry
+summary: Joint analysis method that clusters single cells and deconvolves bulk genomics data into subpopulation-specific profiles.
+readouts:
+- 3d-genome
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-12547-1
+  year: 2019
+  journal: Nature Communications
+  first_author: Zeng W
+  last_author: Wong WH
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+links: {}
+added: '2026-11-21'
+evidence: DC3 jointly analyzes bulk and single-cell data to identify subpopulations and derive expression, accessibility and
+  enhancer-promoter contact profiles.

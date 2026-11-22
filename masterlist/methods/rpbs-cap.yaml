@@ -1,0 +1,23 @@
+name: RPBS-Cap
+full_name: capture of protein binding sites on RNAs
+category: wet
+summary: Antibody-free capture and sequencing identifies protein-binding sites on RNAs transcriptome-wide.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+- reverse-transcription
+reference:
+  doi: 10.1016/j.bbrc.2018.11.184
+  year: 2019
+  journal: Biochem Biophys Res Commun
+  first_author: Liu F
+  last_author: Zhang Y
+  pmid: '30545631'
+  title: Genome-wide identification of protein binding sites on RNAs in mammalian cells
+links: {}
+added: '2026-11-21'
+evidence: RPBS-Cap uses a double-click strategy to capture and sequence RNA elements associated with UV-crosslinked proteins.

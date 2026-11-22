@@ -1,0 +1,20 @@
+name: ALSgeneScanner
+category: dry
+summary: Pipeline that annotates and reports variants in a list of ALS-associated genes from genome or exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1080/21678421.2018.1562553
+  year: 2019
+  journal: Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration
+  first_author: Iacoangeli A
+  last_author: Al-Chalabi A
+  title: 'ALSgeneScanner: a pipeline for the analysis and interpretation of DNA sequencing data of ALS patients'
+  preprint_doi: 10.1101/378158
+links: {}
+added: '2026-11-21'
+evidence: ALSgeneScanner provides an automatic annotated report on a list of ALS genes from whole-genome or whole-exome sequence
+  data.

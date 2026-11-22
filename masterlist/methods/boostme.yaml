@@ -1,0 +1,22 @@
+name: BoostMe
+category: dry
+summary: Imputes low-coverage DNA methylation values in whole-genome bisulfite sequencing data using gradient boosting and
+  information from related samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4766-y
+  year: 2018
+  journal: BMC Genomics
+  first_author: The McDonnell Genome Institute
+  last_author: Didion JP
+  title: BoostMe accurately predicts DNA methylation values in whole-genome bisulfite sequencing of multiple human tissues
+  preprint_doi: 10.1101/207506
+links: {}
+added: '2026-11-21'
+evidence: BoostMe imputes methylation values in WGBS data using gradient boosting and information from multiple samples in
+  the same tissue and disease state.

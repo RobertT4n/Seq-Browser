@@ -1,0 +1,20 @@
+name: MAPseq
+category: dry
+summary: Classifies microbial rRNA sequences against reference taxonomies and maps them to hierarchical operational taxonomic
+  units.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btx517
+  year: 2017
+  journal: Bioinformatics
+  first_author: Matias Rodrigues JF
+  last_author: von Mering C
+  title: 'MAPseq: highly efficient k-mer search with confidence estimates, for rRNA sequence analysis'
+links: {}
+added: '2026-11-21'
+evidence: MAPseq provides multiple taxonomy classifications and hierarchical operational taxonomic unit mappings for rRNA
+  sequences.

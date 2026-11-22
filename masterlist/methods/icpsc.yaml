@@ -1,0 +1,21 @@
+name: iCpSc
+category: dry
+summary: Infers single-cell differentiation time and developmental trajectories using temporally matched population RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-017-01860-2
+  year: 2017
+  journal: Nature Communications
+  first_author: Sun N
+  last_author: Han JDJ
+  title: Inference of differentiation time for single cell transcriptomes using cell population reference data
+links: {}
+added: '2026-11-21'
+evidence: The package builds a reference model of biological differentiation time from cell population data and applies it
+  to single-cell data.

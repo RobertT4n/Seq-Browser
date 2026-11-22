@@ -1,0 +1,19 @@
+name: StrainSifter
+category: dry
+summary: Pipeline that compares bacterial isolates with stool metagenomes using nucleotide variants to identify matching strains.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41591-018-0202-8
+  year: 2018
+  journal: Nature Medicine
+  first_author: Tamburini FB
+  last_author: Bhatt AS
+  title: Precision identification of diverse bloodstream pathogens in the gut microbiome
+  preprint_doi: 10.1101/310441
+links: {}
+added: '2026-11-21'
+evidence: StrainSifter identifies single nucleotide variants between isolate and metagenomic short reads for strain comparison.

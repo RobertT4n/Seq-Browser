@@ -1,0 +1,20 @@
+name: MiStrVar
+category: dry
+summary: An algorithm identifies micro structural variants in genomic sequencing data for an integrative proteogenomic framework.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx807
+  year: 2017
+  journal: Bioinformatics
+  first_author: Lin YY
+  last_author: Sahinalp SC
+  title: Computational identification of micro-structural variations and their proteogenomic consequences in cancer
+  preprint_doi: 10.1101/168377
+links: {}
+added: '2026-11-21'
+evidence: MiStrVar identifies micro structural variants from genomic sequencing data, with breakpoints used in a framework
+  integrating transcriptomic and proteomic data.

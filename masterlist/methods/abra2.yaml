@@ -1,0 +1,20 @@
+name: ABRA2
+category: dry
+summary: Realigns DNA and RNA short reads to improve indel detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz033
+  year: 2019
+  journal: Bioinformatics
+  first_author: Mose LE
+  last_author: Parker JS
+  pmid: '30649250'
+  pmcid: PMC6735753
+  title: Improved indel detection in DNA and RNA via realignment with ABRA2
+links: {}
+added: '2026-11-21'
+evidence: ABRA2 supports realignment of RNA and DNA short reads and improves indel detection across several data types.

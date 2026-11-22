@@ -1,0 +1,20 @@
+name: Magic-BLAST
+category: dry
+summary: Aligns short and long DNA or RNA sequencing reads, including spliced RNA alignments.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2996-x
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Boratyn GM
+  last_author: Madden TL
+  title: Magic-BLAST, an accurate RNA-seq aligner for long and short reads
+  preprint_doi: 10.1101/390013
+links: {}
+added: '2026-11-21'
+evidence: Magic-BLAST maps short or long sequences and discovers introns in RNA-seq data.

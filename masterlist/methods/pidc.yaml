@@ -1,0 +1,18 @@
+name: PIDC
+category: dry
+summary: Infers putative gene regulatory relationships from single-cell expression data using multivariate information theory.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2017.08.014
+  year: 2017
+  journal: Cell Systems
+  first_author: Chan TE
+  last_author: Babtie AC
+  title: Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures
+links: {}
+added: '2026-11-21'
+evidence: PIDC uses partial information decomposition to identify regulatory relationships between genes in single-cell datasets.

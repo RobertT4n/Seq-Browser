@@ -1,0 +1,22 @@
+name: dCATCH-Seq
+category: wet
+summary: Two rounds of solution hybridization enrich large continuous genomic targets for sequencing and variant analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1186/s12864-017-4159-7
+  year: 2017
+  journal: BMC Genomics
+  first_author: Zhang Y
+  last_author: Absher D
+  title: 'dCATCH-Seq: improved sequencing of large continuous genomic targets with double-hybridization'
+links: {}
+added: '2026-11-21'
+evidence: Double hybridization captured human MHC and chromosome 11 regions with approximately 95% capture specificity.

@@ -1,0 +1,20 @@
+name: spVCF
+full_name: Sparse Project VCF
+category: dry
+summary: spVCF compresses population genotype matrices while retaining efficient interoperability with VCF.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa1004
+  year: 2020
+  journal: Bioinformatics
+  first_author: Lin MF
+  last_author: Reid JG
+  title: 'Sparse Project VCF: efficient encoding of population genotype matrices'
+  preprint_doi: 10.1101/611954
+links: {}
+added: '2026-11-21'
+evidence: spVCF uses entropy reduction and run-length encoding to reduce the size of population genotype data.

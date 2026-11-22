@@ -1,0 +1,21 @@
+name: Short-Pair
+category: dry
+summary: Uses paired-end fragment lengths and alignment scores to improve profile homology searches and protein-domain identification
+  in short reads.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1826-2
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Techa-Angkoon P
+  last_author: Lei J
+  title: A sensitive short read homology search tool for paired-end read sequencing data
+links: {}
+added: '2026-11-21'
+evidence: Short-Pair uses an approximate Bayesian approach with fragment-length distributions and alignment scores to retrieve
+  missing read ends and determine domains.

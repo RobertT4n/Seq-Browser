@@ -1,0 +1,24 @@
+name: NanoPack
+category: dry
+summary: Provides tools for processing and visualizing long-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/bty149
+  year: 2018
+  journal: Bioinformatics
+  first_author: De Coster W
+  last_author: Van Broeckhoven C
+  title: 'NanoPack: visualizing and processing long-read sequencing data'
+  preprint_doi: 10.1101/237180
+links: {}
+added: '2026-11-21'
+evidence: NanoPack is a set of tools for visualization and processing of Oxford Nanopore and Pacific Biosciences long-read
+  sequencing data.

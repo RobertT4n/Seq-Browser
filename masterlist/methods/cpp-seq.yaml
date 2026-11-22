@@ -1,0 +1,25 @@
+name: CPP-seq
+full_name: circular permutation profiling with DNA sequencing
+category: wet
+summary: Combines transposon-generated circular permutation libraries, functional selection and sequencing to assess a protein's
+  tolerance to circular permutation.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1093/nar/gky255
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Atkinson JT
+  last_author: Silberg JJ
+  title: Circular permutation profiling by deep sequencing libraries created using transposon mutagenesis
+links: {}
+added: '2026-11-21'
+evidence: CPP-seq combines one-step transposon mutagenesis, functional selection and deep sequencing to profile circularly
+  permuted genes.

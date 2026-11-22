@@ -1,0 +1,21 @@
+name: Deep Feature Interaction Maps
+category: dry
+summary: Method for estimating pairwise interactions between features in DNA sequence models of regulatory activity.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bty575
+  year: 2018
+  journal: Bioinformatics
+  first_author: Greenside P
+  last_author: Kundaje A
+  title: Discovering epistatic feature interactions from neural network models of regulatory DNA sequences
+  preprint_doi: 10.1101/302711
+links: {}
+added: '2026-11-21'
+evidence: DFIM estimates interactions between pairs of DNA sequence features in neural network models of transcription factor
+  binding and chromatin accessibility.

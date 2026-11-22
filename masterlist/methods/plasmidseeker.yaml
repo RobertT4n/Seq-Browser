@@ -1,0 +1,18 @@
+name: PlasmidSeeker
+category: dry
+summary: Tool that identifies known plasmids from bacterial whole-genome sequencing reads using k-mer abundance.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.4588
+  year: 2018
+  journal: PeerJ
+  first_author: Roosaare M
+  last_author: Remm M
+  title: 'PlasmidSeeker: identification of known plasmids from bacterial whole genome sequencing reads'
+links: {}
+added: '2026-11-21'
+evidence: PlasmidSeeker detects known plasmids from bacterial whole-genome reads without assembly.

@@ -1,0 +1,21 @@
+name: OPERA-MS
+category: dry
+summary: A hybrid metagenomic assembler that combines short and long sequencing reads with clustering and scaffolding.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/456905
+  year: 2018
+  journal: bioRxiv
+  first_author: Bertrand
+  last_author: N
+  title: Nanopore sequencing enables high-resolution analysis of resistance determinants and mobile elements in the human
+    gut microbiome
+links: {}
+added: '2026-11-21'
+evidence: OPERA-MS combines short and long reads and integrates metagenome clustering with a scaffolding algorithm.

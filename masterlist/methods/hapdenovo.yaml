@@ -1,0 +1,20 @@
+name: HAPDeNovo
+category: dry
+summary: Filters false-positive candidate de novo mutations using haplotype information from linked-read sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4867-7
+  year: 2018
+  journal: BMC Genomics
+  first_author: Zhou X
+  last_author: Zhang L
+  title: 'HAPDeNovo: a haplotype-based approach for filtering and phasing de novo mutations in linked read sequencing data'
+  preprint_doi: 10.1101/220830
+links: {}
+added: '2026-11-21'
+evidence: HAPDeNovo allocates reads to haplotypes and removes candidate de novo variants called as heterozygous within one
+  haplotype.

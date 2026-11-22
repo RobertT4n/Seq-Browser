@@ -1,0 +1,21 @@
+name: SCINET
+full_name: Single-Cell Imputation and NETwork construction
+category: dry
+summary: Reconstructs cell-type-specific interactomes by integrating a reference interactome with single-cell gene expression.
+readouts:
+- rna
+- protein-protein-interaction
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/586859
+  year: 2019
+  journal: bioRxiv
+  first_author: Mohammadi
+  last_author: M
+  title: Single-cell interactomes of the human brain reveal cell-type specific convergence of brain disorders
+links: {}
+added: '2026-11-21'
+evidence: SCINET combines a global reference interactome with single-cell gene expression to compute cell-level interaction
+  probabilities and group-level interaction strengths.

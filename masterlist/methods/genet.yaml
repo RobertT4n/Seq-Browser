@@ -1,0 +1,19 @@
+name: GeNet
+category: dry
+summary: Classifies shotgun metagenomic DNA sequences using learned representations and hierarchical taxonomic labels.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/537795
+  year: 2019
+  journal: bioRxiv
+  first_author: Rojas-Carulla
+  last_author: B
+  title: 'GeNet: Deep Representations for Metagenomics'
+links: {}
+added: '2026-11-21'
+evidence: GeNet performs shotgun metagenomic classification from raw DNA sequences using the hierarchical structure between
+  labels.

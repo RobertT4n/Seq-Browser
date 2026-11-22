@@ -1,0 +1,19 @@
+name: projectR
+category: dry
+summary: projectR transfers learned latent spaces to independent datasets to compare cellular features across measurements.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2019.04.004
+  year: 2019
+  journal: Cell Systems
+  first_author: Stein-O’Brien GL
+  last_author: Fertig EJ
+  title: Decomposing Cell Identity for Transfer Learning across Cellular Measurements, Platforms, Tissues, and Species
+links: {}
+added: '2026-11-21'
+evidence: projectR evaluates latent spaces learned from a source single-cell RNA-seq dataset in independent target datasets.

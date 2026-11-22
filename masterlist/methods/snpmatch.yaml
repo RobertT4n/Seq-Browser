@@ -1,0 +1,19 @@
+name: SNPmatch
+category: dry
+summary: Identifies strains or accessions by matching sequencing-derived variants to an SNP database.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/sdata.2017.184
+  year: 2017
+  journal: Scientific Data
+  first_author: Pisupati R
+  last_author: Nordborg M
+  title: Verification of Arabidopsis stock collections using SNPmatch, a tool for genotyping high-plexed samples
+links: {}
+added: '2026-11-21'
+evidence: SNPmatch matched low-coverage resequencing data to an SNP database to genotype Arabidopsis strains and identify
+  parents of F1 or F2 individuals.

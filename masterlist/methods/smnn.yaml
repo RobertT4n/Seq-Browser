@@ -1,0 +1,19 @@
+name: SMNN
+category: dry
+summary: Corrects batch effects in single-cell RNA-seq data using supervised mutual nearest neighbour detection.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa097
+  year: 2020
+  journal: Briefings in Bioinformatics
+  first_author: Yang Y
+  last_author: Li Y
+  title: 'SMNN: batch effect correction for single-cell RNA-seq data via supervised mutual nearest neighbor detection'
+  preprint_doi: 10.1101/672261
+links: {}
+added: '2026-11-21'
+evidence: SMNN uses cell-cluster label information and supervised mutual nearest neighbour detection for batch correction.

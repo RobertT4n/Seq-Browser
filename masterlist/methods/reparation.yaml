@@ -1,0 +1,19 @@
+name: REPARATION
+full_name: RibosomeE Profiling Assisted (re-)AnnotaTION
+category: dry
+summary: Uses ribosome profiling evidence to identify translated bacterial open reading frames independently of existing annotations.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx758
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Ndah E
+  last_author: Van Damme P
+  title: 'REPARATION: ribosome profiling assisted (re-)annotation of bacterial genomes'
+links: {}
+added: '2026-11-21'
+evidence: REPARATION evaluates possible open reading frames using experimental protein synthesis evidence from ribosome profiling.

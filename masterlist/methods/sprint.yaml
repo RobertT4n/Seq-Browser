@@ -1,0 +1,19 @@
+name: SPRINT
+category: dry
+summary: Identifies RNA editing sites from RNA-seq data without filtering variants against an SNP database.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx473
+  year: 2017
+  journal: Bioinformatics
+  first_author: Zhang F
+  last_author: Tian W
+  title: 'SPRINT: an SNP-free toolkit for identifying RNA editing sites'
+links: {}
+added: '2026-11-21'
+evidence: SPRINT identifies RNA editing sites without SNP database filtering and also detects hyper-edited sites from remapped
+  reads.

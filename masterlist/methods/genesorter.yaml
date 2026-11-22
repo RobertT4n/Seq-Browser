@@ -1,0 +1,19 @@
+name: genesorteR
+category: dry
+summary: Ranks features as cell-type markers in clustered single-cell RNA-seq or ATAC-seq data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/676379
+  year: 2019
+  journal: bioRxiv
+  first_author: Ibrahim
+  last_author: R
+  title: 'genesorteR: Feature Ranking in Clustered Single Cell Data'
+links: {}
+added: '2026-11-21'
+evidence: genesorteR ranks features in single-cell data and is applicable to both single-cell RNA-seq and ATAC-seq.

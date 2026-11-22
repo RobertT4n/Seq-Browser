@@ -1,0 +1,18 @@
+name: BRCA-analyzer
+category: dry
+summary: An automated workflow for identifying variants in targeted BRCA1 and BRCA2 sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.compbiolchem.2018.10.012
+  year: 2018
+  journal: Computational Biology and Chemistry
+  first_author: Kechin A
+  last_author: Filipenko M
+  title: 'BRCA-analyzer: Automatic workflow for processing NGS reads of BRCA1 and BRCA2 genes'
+links: {}
+added: '2026-11-21'
+evidence: BRCA-analyzer processes NGS data from BRCA1 and BRCA2, detecting pathogenic variants confirmed by Sanger sequencing.

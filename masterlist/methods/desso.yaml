@@ -1,0 +1,19 @@
+name: DESSO
+category: dry
+summary: A deep learning method for predicting transcription factor binding sites and regulatory motifs from ChIP-seq data.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz672
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Yang J
+  last_author: Ma Q
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+  preprint_doi: 10.1101/417378
+links: {}
+added: '2026-11-21'
+evidence: DESSO uses a deep neural network and binomial distribution to optimize motif prediction from human ChIP-seq datasets.

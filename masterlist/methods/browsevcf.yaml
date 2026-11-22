@@ -1,0 +1,18 @@
+name: BrowseVCF
+category: dry
+summary: Enables interactive browsing and filtering of variants to prioritize candidates for disease causation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbw054
+  year: 2016
+  journal: Briefings in Bioinformatics
+  first_author: Salatino S
+  last_author: Ramraj V
+  title: 'BrowseVCF: a web-based application and workflow to quickly prioritize disease-causative variants in VCF files'
+links: {}
+added: '2026-11-21'
+evidence: BrowseVCF browses and filters millions of variants and supports data from exome, whole-genome and amplicon sequencing.

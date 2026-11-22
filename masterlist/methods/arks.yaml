@@ -1,0 +1,19 @@
+name: ARKS
+category: dry
+summary: Alignment-free genome scaffolding method that uses k-mer mapping of linked reads to organize draft assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2243-x
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Coombe L
+  last_author: Warren RL
+  title: 'ARKS: chromosome-scale scaffolding of human genome drafts with linked read kmers'
+  preprint_doi: 10.1101/306902
+links: {}
+added: '2026-11-21'
+evidence: ARKS uses a k-mer-based mapping approach to scaffold genome assemblies with linked reads.

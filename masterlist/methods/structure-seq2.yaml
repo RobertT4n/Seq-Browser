@@ -1,0 +1,22 @@
+name: Structure-seq2
+category: wet
+summary: An optimized sequencing protocol profiles RNA structure in vivo and genome-wide at nucleotide resolution.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- plant
+reference:
+  doi: 10.1093/nar/gkx533
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Ritchey LE
+  last_author: Bevilacqua PC
+  title: 'Structure-seq2: sensitive and accurate genome-wide profiling of RNA structure in vivo'
+links: {}
+added: '2026-11-21'
+evidence: Structure-seq2 provides genome-wide RNA structural information and was benchmarked on rice mRNA and rRNA.

@@ -1,0 +1,24 @@
+name: TUC-seq
+category: wet
+summary: Osmium-mediated conversion of 4-thiouridine enables sequencing-based detection of newly labeled RNA without affinity
+  purification.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: targeted
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1002/anie.201707465
+  year: 2017
+  journal: Angewandte Chemie International Edition
+  first_author: Riml C
+  last_author: Micura R
+  title: Osmium‐Mediated Transformation of 4‐Thiouridine to Cytidine as Key To Study RNA Dynamics by Sequencing
+links: {}
+added: '2026-11-21'
+evidence: TUC-seq converts 4sU to cytosine and was used to detect pulse-labeled mRNA from seven selected genes.

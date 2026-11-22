@@ -1,0 +1,28 @@
+name: ChOR-seq
+full_name: chromatin occupancy after replication
+category: wet
+summary: ChOR-seq measures histone modification occupancy immediately after DNA replication and across the cell cycle.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.molcel.2018.08.010
+  year: 2018
+  journal: Mol Cell
+  first_author: Reverón-Gómez N
+  last_author: Groth A
+  pmid: '30146316'
+  pmcid: PMC6202308
+  title: Accurate Recycling of Parental Histones Reproduces the Histone Modification Landscape during DNA Replication
+links: {}
+added: '2026-11-21'
+evidence: ChOR-seq determines histone PTM occupancy immediately after DNA replication and across the cell cycle.
+targets:
+- H3K4me3
+- H3K36me3
+- H3K79me3
+- H3K27me3

@@ -1,0 +1,19 @@
+name: pTuneos
+category: dry
+summary: Computational pipeline that prioritizes tumor neoantigens from sequencing data by predicting their presentation,
+  T-cell recognition and immunogenicity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-019-0679-x
+  year: 2019
+  journal: Genome Medicine
+  first_author: Zhou C
+  last_author: Liu Q
+  title: 'pTuneos: prioritizing tumor neoantigens from next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: pTuneos predicts MHC presentation, T-cell recognition and immunogenicity of candidate SNV-based neopeptides.

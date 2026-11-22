@@ -1,0 +1,25 @@
+name: FR3AK-seq
+full_name: Framework Region 3 AmplifiKation sequencing
+category: wet
+summary: Multiplex PCR and short-read sequencing characterize T-cell receptor CDR3 repertoires.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/494062
+  year: 2018
+  journal: bioRxiv
+  first_author: Montagne JM
+  last_author: Larman HB
+  title: Ultra-Efficient Short Read Sequencing of T Cell Receptor Repertoires
+links: {}
+added: '2026-11-21'
+evidence: FR3AK-seq uses minimal primer sets near CDR3 to generate amplicons for TCR repertoire analysis.

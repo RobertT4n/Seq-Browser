@@ -1,0 +1,26 @@
+name: sFISH
+category: wet
+summary: A single-probe fluorescence in situ hybridization protocol detects target mRNAs in individual budding yeast cells
+  using one fluorophore per probe.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkx568
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Wadsworth GM
+  last_author: Kim HD
+  title: mRNA detection in budding yeast with single fluorophores
+  preprint_doi: 10.1101/155143
+links: {}
+added: '2026-11-21'
+evidence: sFISH uses a single DNA probe labeled with a single fluorophore to detect mRNA in budding yeast.

@@ -1,0 +1,23 @@
+name: DeepTACT
+category: dry
+summary: Bootstrapping deep learning model that predicts chromatin contacts among regulatory elements from genome sequence
+  and chromatin accessibility data.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz167
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Li W
+  last_author: Jiang R
+  title: 'DeepTACT: predicting 3D chromatin contacts via bootstrapping deep learning'
+  preprint_doi: 10.1101/353284
+links: {}
+added: '2026-11-21'
+evidence: DeepTACT integrates genome sequences and chromatin accessibility data to predict chromatin contacts among regulatory
+  elements.

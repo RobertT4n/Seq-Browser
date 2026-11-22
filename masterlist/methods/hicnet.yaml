@@ -1,0 +1,19 @@
+name: HiCNet
+category: dry
+summary: Reconstructs chromosome 3D structure by inferring spatial distances from the topology of a Hi-C contact network.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2464-z
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Liu T
+  last_author: Wang Z
+  title: Reconstructing high-resolution chromosome three-dimensional structures by Hi-C complex networks
+links: {}
+added: '2026-11-21'
+evidence: HiCNet infers a contact-to-distance conversion parameter and pairwise Euclidean distances from the topology of a
+  Hi-C complex network.

@@ -1,0 +1,28 @@
+name: MCSeEd
+full_name: massive active enhancer sequencing
+category: wet
+summary: A fluorescent reporter library and cell sorting identify active enhancer sequences from random DNA libraries.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- facs-sorting
+reference:
+  doi: 10.1038/s41598-019-51423-2
+  year: 2019
+  journal: Sci Rep
+  first_author: Marconi G
+  last_author: Albertini E
+  pmid: '31619715'
+  pmcid: PMC6795852
+  title: 'Methylation content sensitive enzyme ddRAD (MCSeEd): a reference-free, whole genome profiling system to address
+    cytosine/adenine methylation changes'
+  preprint_doi: 10.1101/616532
+links: {}
+added: '2026-11-21'
+evidence: Random 25-base DNA sequences are inserted into a fluorescent reporter vector, and positive transfected cells are
+  sorted for sequencing.

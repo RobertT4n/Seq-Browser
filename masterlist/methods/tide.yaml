@@ -1,0 +1,18 @@
+name: TIDE
+category: dry
+summary: Predicts immune checkpoint blockade response from tumor expression profiles by modeling T-cell dysfunction and exclusion.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41591-018-0136-1
+  year: 2018
+  journal: Nature Medicine
+  first_author: Jiang P
+  last_author: Liu XS
+  title: Signatures of T cell dysfunction and exclusion predict cancer immunotherapy response
+links: {}
+added: '2026-11-21'
+evidence: TIDE used pretreatment RNA-seq or NanoString expression profiles to predict immunotherapy outcomes.

@@ -1,0 +1,21 @@
+name: SAAP-RS
+full_name: Significance Analysis of Alternative Polyadenylation using RNA-seq
+category: dry
+summary: Analyzes alternative cleavage and polyadenylation using RNA-seq data and a polyadenylation-site database.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s40484-018-0148-3
+  year: 2018
+  journal: Quantitative Biology
+  first_author: Guvenek A
+  last_author: Tian B
+  title: Analysis of alternative cleavage and polyadenylation in mature and differentiating neurons using RNA‐seq data
+links: {}
+added: '2026-11-21'
+evidence: SAAP-RS examines alternative polyadenylation, and the study corroborated brain-cell 3' UTR diversity with single-cell
+  sequencing data.

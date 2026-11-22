@@ -1,0 +1,18 @@
+name: myVCF
+category: dry
+summary: Manages and explores annotated variant and genotype data from multiple sequencing projects.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx475
+  year: 2017
+  journal: Bioinformatics
+  first_author: Pietrelli A
+  last_author: Valenti L
+  title: 'myVCF: a desktop application for high-throughput mutations data management'
+links: {}
+added: '2026-11-21'
+evidence: myVCF stores annotated VCF variants and genotypes, supports searches, and reports mutation distributions.

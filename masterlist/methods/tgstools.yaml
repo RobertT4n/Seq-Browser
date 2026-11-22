@@ -1,0 +1,23 @@
+name: TGStools
+category: dry
+summary: Analyzes long-read transcriptomes to characterize full-length transcripts, alternative splicing and long noncoding
+  RNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.3390/genes10070519
+  year: 2019
+  journal: Genes
+  first_author: Chen D
+  last_author: Xu J
+  title: 'TGStools: A Bioinformatics Suit to Facilitate Transcriptome Analysis of Long Reads from Third Generation Sequencing
+    Platform'
+links: {}
+added: '2026-11-21'
+evidence: TGStools characterizes full-length transcripts, detects alternative splicing and identifies long noncoding RNAs
+  in long-read transcriptome data.

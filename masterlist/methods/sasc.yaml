@@ -1,0 +1,20 @@
+name: SASC
+full_name: Simulated Annealing Single-Cell inference
+category: dry
+summary: A simulated-annealing method infers cancer progression from single-cell sequencing while allowing mutation losses.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa722
+  year: 2020
+  journal: Bioinformatics
+  first_author: Ciccolella S
+  last_author: Della Vedova G
+  title: Inferring cancer progression from Single-Cell Sequencing while allowing mutation losses
+  preprint_doi: 10.1101/268243
+links: {}
+added: '2026-11-21'
+evidence: SASC infers tumor evolutionary histories using a model that allows a limited number of back mutations.

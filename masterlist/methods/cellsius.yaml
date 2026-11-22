@@ -1,0 +1,20 @@
+name: CellSIUS
+full_name: Cell Subtype Identification from Upregulated gene Sets
+category: dry
+summary: Identifies rare cell populations and their transcriptomic signatures in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1739-7
+  year: 2019
+  journal: Genome Biology
+  first_author: Wegmann R
+  last_author: Keller CG
+  title: CellSIUS provides sensitive and specific detection of rare cell populations from complex single-cell RNA-seq data
+  preprint_doi: 10.1101/514950
+links: {}
+added: '2026-11-21'
+evidence: CellSIUS identifies rare cell populations while revealing transcriptomic signatures indicative of their function.

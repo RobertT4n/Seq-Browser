@@ -1,0 +1,20 @@
+name: ASA3P
+category: dry
+summary: ASA3P assembles, annotates, and characterizes bacterial genomes from sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007134
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Schwengers O
+  last_author: Goesmann A
+  title: 'ASA3P: An automatic and scalable pipeline for the assembly, annotation and higher-level analysis of closely related
+    bacterial isolates'
+  preprint_doi: 10.1101/654319
+links: {}
+added: '2026-11-21'
+evidence: The pipeline performs read quality clipping, assembly, scaffolding, annotation, and bacterial genome characterization.

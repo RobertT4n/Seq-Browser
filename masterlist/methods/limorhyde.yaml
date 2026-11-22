@@ -1,0 +1,21 @@
+name: LimoRhyde
+full_name: linear models for rhythmicity, design
+category: dry
+summary: Linear modeling approach for detecting differential rhythmicity and expression in circadian transcriptome data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1177/0748730418813785
+  year: 2018
+  journal: Journal of Biological Rhythms
+  first_author: Singer JM
+  last_author: Hughey JJ
+  title: 'LimoRhyde: A Flexible Approach for Differential Analysis of Rhythmic Transcriptome Data'
+  preprint_doi: 10.1101/283622
+links: {}
+added: '2026-11-21'
+evidence: LimoRhyde fits linear models to gene expression to detect differential rhythmicity and differential expression across
+  conditions.

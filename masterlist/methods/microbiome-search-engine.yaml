@@ -1,0 +1,18 @@
+name: Microbiome Search Engine
+category: dry
+summary: A search engine that compares query microbiome samples with a reference database by whole-microbiome taxonomic similarity.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/mbio.02099-18
+  year: 2018
+  journal: mBio
+  first_author: Su X
+  last_author: Xu J
+  title: Identifying and Predicting Novelty in Microbiome Studies
+links: {}
+added: '2026-11-21'
+evidence: MSE searches query samples against a reference microbiome database organized by taxonomic similarity.

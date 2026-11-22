@@ -1,0 +1,19 @@
+name: SuperDCA
+category: dry
+summary: Infers genome-wide epistatic interactions and selection signals from population sequence variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000184
+  year: 2018
+  journal: Microbial Genomics
+  first_author: Puranen S
+  last_author: Corander J
+  title: SuperDCA for genome-wide epistasis analysis
+  preprint_doi: 10.1101/182527
+links: {}
+added: '2026-11-21'
+evidence: SuperDCA scales direct coupling analysis to up to 100,000 polymorphisms and uncovers selection signals.

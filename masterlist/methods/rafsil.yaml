@@ -1,0 +1,19 @@
+name: RAFSIL
+category: dry
+summary: A random-forest approach learns cell-cell similarities from single-cell RNA-seq data for exploratory analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty260
+  year: 2018
+  journal: Bioinformatics
+  first_author: Pouyan MB
+  last_author: Kostka D
+  title: Random forest based similarity learning for single cell RNA sequencing data
+  preprint_doi: 10.1101/258699
+links: {}
+added: '2026-11-21'
+evidence: RAFSIL constructs features and learns similarities usable for dimension reduction, visualization and clustering.

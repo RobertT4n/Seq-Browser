@@ -1,0 +1,22 @@
+name: DDIP-seq
+full_name: Damaged DNA Immunoprecipitation and next generation sequencing
+category: wet
+summary: Immunoprecipitation and sequencing map DNA damage across nuclear and mitochondrial genomes.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.3390/ijms20205112
+  year: 2019
+  journal: International Journal of Molecular Sciences
+  first_author: Alhegaili AS
+  last_author: Cooke MS
+  title: Genome-Wide Adductomics Analysis Reveals Heterogeneity in the Induction and Loss of Cyclobutane Thymine Dimers across
+    Both the Nuclear and Mitochondrial Genomes
+links: {}
+added: '2026-11-21'
+evidence: DDIP-seq generated a genome-wide map of cyclobutane thymine dimer location and intensity after solar-simulated radiation.

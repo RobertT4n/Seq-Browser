@@ -1,0 +1,19 @@
+name: CircMarker
+category: dry
+summary: Detects circular RNAs using k-mers derived from transcriptome annotations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4926-0
+  year: 2018
+  journal: BMC Genomics
+  first_author: Li X
+  last_author: Wu Y
+  title: 'CircMarker: a fast and accurate algorithm for circular RNA detection'
+  preprint_doi: 10.1101/134411
+links: {}
+added: '2026-11-21'
+evidence: CircMarker uses a k-mer table created from transcriptome annotation files for circular RNA detection.

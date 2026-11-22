@@ -1,0 +1,19 @@
+name: MIXTURE
+category: dry
+summary: MIXTURE estimates immune cell-type proportions in bulk tumor samples from gene expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/726562
+  year: 2019
+  journal: bioRxiv
+  first_author: Fernandez
+  last_author: M. R
+  title: 'MIXTURE: an improved algorithm for immune tumor microenvironment estimation based on gene expression data'
+links: {}
+added: '2026-11-21'
+evidence: MIXTURE uses noise-constrained recursive feature selection and support vector regression to deconvolve tumor immune
+  cell proportions.

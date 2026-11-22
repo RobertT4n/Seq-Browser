@@ -1,0 +1,22 @@
+name: RWMG
+full_name: multi-graphic random walk
+category: dry
+summary: Uses a heterogeneous network random walk to prioritize lncRNAs associated with alternative splicing in hepatocellular
+  carcinoma.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.00659
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Wang J
+  last_author: Zhou Y
+  title: Comprehensive Network Analysis Reveals Alternative Splicing-Related lncRNAs in Hepatocellular Carcinoma
+  preprint_doi: 10.1101/548263
+links: {}
+added: '2026-11-21'
+evidence: RWMG models integrated co-expression and epigenetic interaction networks to prioritize lncRNAs associated with alternative
+  splicing.

@@ -1,0 +1,18 @@
+name: TrUC
+category: dry
+summary: Predicts transcription units from RNA-seq data mapped to a reference genome for gene annotation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-017-3887-z
+  year: 2017
+  journal: BMC Genomics
+  first_author: Arnaiz O
+  last_author: Sperling L
+  title: 'Improved methods and resources for paramecium genomics: transcription units, gene annotation and gene expression'
+links: {}
+added: '2026-11-21'
+evidence: TrUC predicts transcription units for the Paramecium annotation pipeline in conjunction with TopHat RNA-seq mapping.

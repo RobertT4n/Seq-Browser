@@ -1,0 +1,26 @@
+name: HAM-TBS
+full_name: high accuracy methylation measurements via targeted bisulfite sequencing
+category: wet
+summary: Targeted bisulfite sequencing with triplicate conversions and pooled PCR enrichment measures DNA methylation at selected
+  loci.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1186/s13072-018-0209-x
+  year: 2018
+  journal: Epigenetics &amp; Chromatin
+  first_author: Roeh S
+  last_author: Provençal N
+  title: 'HAM-TBS: high-accuracy methylation measurements via targeted bisulfite sequencing'
+  preprint_doi: 10.1101/163535
+links: {}
+added: '2026-11-21'
+evidence: HAM-TBS uses triplicate bisulfite conversion and pooled PCR enrichment to assay a targeted region of approximately
+  10 kb.

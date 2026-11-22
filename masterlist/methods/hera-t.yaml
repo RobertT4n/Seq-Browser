@@ -1,0 +1,19 @@
+name: Hera-T
+category: dry
+summary: Estimates gene abundance in 10X-Chromium single-cell RNA-seq data using transcriptome and genome references.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/530501
+  year: 2019
+  journal: bioRxiv
+  first_author: Tran
+  last_author: S
+  title: 'Hera-T: an efficient and accurate approach for quantifying gene abundances from 10X-Chromium data with high rates
+    of non-exonic reads'
+links: {}
+added: '2026-11-21'
+evidence: Hera-T estimates gene abundances by aligning reads to both transcriptome and genome references.

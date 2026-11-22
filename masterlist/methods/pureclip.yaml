@@ -1,0 +1,20 @@
+name: PureCLIP
+category: dry
+summary: A hidden Markov model identifies protein-RNA crosslink sites and peaks in iCLIP and eCLIP data.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1364-2
+  year: 2017
+  journal: Genome Biology
+  first_author: Krakau S
+  last_author: Marsico A
+  title: 'PureCLIP: capturing target-specific protein–RNA interaction footprints from single-nucleotide CLIP-seq data'
+  preprint_doi: 10.1101/146704
+links: {}
+added: '2026-11-21'
+evidence: PureCLIP simultaneously performs peak calling and individual crosslink site detection while accounting for RNA abundance
+  and sequence biases.

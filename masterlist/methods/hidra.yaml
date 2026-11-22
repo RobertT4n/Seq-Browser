@@ -1,0 +1,31 @@
+name: HiDRA
+full_name: High-resolution Dissection of Regulatory Activity
+category: wet
+summary: Accessible DNA fragments in self-transcribing reporters are screened and analyzed to identify regulatory regions
+  and driver nucleotides.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-018-07746-1
+  year: 2018
+  journal: Nat Commun
+  first_author: Wang X
+  last_author: Kellis M
+  pmid: '30568279'
+  pmcid: PMC6300699
+  title: High-resolution genome-wide functional dissection of transcriptional regulatory regions and nucleotides in human
+links: {}
+added: '2026-11-21'
+evidence: HiDRA couples accessible chromatin extraction with self-transcribing episomal reporters to test approximately seven
+  million DNA fragments.

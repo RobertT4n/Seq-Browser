@@ -1,0 +1,20 @@
+name: methylInheritance
+category: dry
+summary: Uses Monte Carlo sampling to assess whether differentially methylated sites conserved across generations reflect
+  an inherited treatment effect.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky362
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Belleau P
+  last_author: Droit A
+  title: Inferring and modeling inheritance of differentially methylated changes across multiple generations
+links: {}
+added: '2026-11-21'
+evidence: methylInheritance evaluates whether conserved differentially methylated sites across generations are associated
+  with an inherited treatment effect.

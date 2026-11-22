@@ -1,0 +1,19 @@
+name: RACE-SEQ bioinformatic pipeline
+category: dry
+summary: Analyzes RACE-SEQ data to semiquantitatively assess how target mismatches affect RNA interference and Argonaute 2
+  slicing.
+readouts:
+- rna-degradation
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.omtn.2017.08.010
+  year: 2017
+  journal: Molecular Therapy - Nucleic Acids
+  first_author: Theotokis PI
+  last_author: Moschos SA
+  title: Profiling the Mismatch Tolerance of Argonaute 2 through Deep Sequencing of Sliced Polymorphic Viral RNAs
+links: {}
+added: '2026-11-21'
+evidence: The pipeline semiquantitatively reports the impact of RNAi hybridization-site mismatches from the target perspective.

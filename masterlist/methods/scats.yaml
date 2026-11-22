@@ -1,0 +1,21 @@
+name: SCATS
+full_name: Single-Cell Analysis of Transcript Splicing
+category: dry
+summary: SCATS detects differential alternative splicing in single-cell RNA-seq data with or without unique molecular identifiers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1007925
+  year: 2020
+  journal: PLOS Computational Biology
+  first_author: Hu Y
+  last_author: Li M
+  title: Detecting differential alternative splicing events in scRNA-seq with or without Unique Molecular Identifiers
+  preprint_doi: 10.1101/738997
+links: {}
+added: '2026-11-21'
+evidence: SCATS models technical noise and groups exons originating from the same isoforms to detect differential alternative
+  splicing.

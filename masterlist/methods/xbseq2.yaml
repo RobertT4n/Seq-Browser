@@ -1,0 +1,19 @@
+name: XBSeq2
+category: dry
+summary: Analyzes RNA-seq data for differential gene expression and differential alternative polyadenylation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1803-9
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Liu Y
+  last_author: Chen Y
+  title: 'XBSeq2: a fast and accurate quantification of differential expression and differential polyadenylation'
+links: {}
+added: '2026-11-21'
+evidence: XBSeq2 adds statistical testing and parameter estimation for differentially expressed genes, alignment-file processing
+  and tests for differential polyadenylation.

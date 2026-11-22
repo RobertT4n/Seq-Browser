@@ -1,0 +1,27 @@
+name: RAISIN RNA-seq
+category: wet
+summary: RAISIN RNA-seq captures intact single nuclei together with ribosome-bound mRNA for single-cell transcriptome profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/746743
+  year: 2019
+  journal: bioRxiv
+  first_author: Drokhlyansky
+  last_author: A
+  title: The enteric nervous system of the human and mouse colon at a single-cell resolution
+links: {}
+added: '2026-11-21'
+evidence: The method captures intact single nuclei along with ribosome-bound mRNA and was used to profile adult human and
+  mouse colon.

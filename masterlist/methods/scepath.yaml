@@ -1,0 +1,20 @@
+name: scEpath
+category: dry
+summary: Algorithm that reconstructs cellular trajectories and transition probabilities from single-cell transcriptomic data
+  using energy landscapes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty058
+  year: 2018
+  journal: Bioinformatics
+  first_author: Jin S
+  last_author: Nie Q
+  title: 'scEpath: energy landscape-based inference of transition probabilities and cellular trajectories from single-cell
+    transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: scEpath calculates energy landscapes and probabilistic directed graphs to reconstruct developmental trajectories.

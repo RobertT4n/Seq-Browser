@@ -1,0 +1,20 @@
+name: Fragsifier
+category: dry
+summary: Detects and extracts short tandem repeat alleles from massively parallel sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.fsigen.2019.102194
+  year: 2020
+  journal: Forensic Sci Int Genet
+  first_author: Liu YY
+  last_author: Harbison S
+  pmid: '31698330'
+  title: Forensic STR allele extraction using a machine learning paradigm
+links: {}
+added: '2026-11-21'
+evidence: Fragsifier locates repeat stretches, predicts loci using a machine learning sequence model, and aligns flanking
+  sequences.

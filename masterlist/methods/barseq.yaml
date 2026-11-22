@@ -1,0 +1,27 @@
+name: BARseq
+category: wet
+summary: Uses RNA barcoding and in situ barcode sequencing to map projections of spatially resolved neurons.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.cell.2019.09.023
+  year: 2019
+  journal: Cell
+  first_author: Chen X
+  last_author: Zador AM
+  title: High-Throughput Mapping of Long-Range Neuronal Projection Using In Situ Sequencing
+  preprint_doi: 10.1101/294637
+links: {}
+added: '2026-11-21'
+evidence: BARseq mapped projections of 3,579 spatially resolved neurons in mouse auditory cortex to 11 areas.

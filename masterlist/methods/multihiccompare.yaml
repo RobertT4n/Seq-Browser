@@ -1,0 +1,20 @@
+name: multiHiCcompare
+category: dry
+summary: Jointly normalizes and compares multiple Hi-C datasets while accounting for distance-dependent interaction frequency.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz048
+  year: 2019
+  journal: Bioinformatics
+  first_author: Stansfield JC
+  last_author: Dozmorov MG
+  pmid: '30668639'
+  pmcid: PMC6736119
+  title: 'multiHiCcompare: joint normalization and comparative analysis of complex Hi-C experiments'
+links: {}
+added: '2026-11-21'
+evidence: multiHiCcompare uses cyclic loess normalization and a general linear model to compare multiple Hi-C datasets.

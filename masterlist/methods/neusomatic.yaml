@@ -1,0 +1,19 @@
+name: NeuSomatic
+category: dry
+summary: Detects somatic mutations from sequence alignments using a convolutional neural network.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-09027-x
+  year: 2019
+  journal: Nature Communications
+  first_author: Sahraeian SME
+  last_author: Lam HYK
+  title: Deep convolutional neural networks for accurate somatic mutation detection
+  preprint_doi: 10.1101/393801
+links: {}
+added: '2026-11-21'
+evidence: NeuSomatic summarizes sequence alignments into matrices and uses features to capture somatic mutation signals.

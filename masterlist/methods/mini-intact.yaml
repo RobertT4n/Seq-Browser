@@ -1,0 +1,30 @@
+name: mini-INTACT
+category: wet
+summary: A modified INTACT method purifies Drosophila dopaminergic nuclei for cell-type-specific ChIP-seq analysis.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+input_sample:
+- nuclei
+reference:
+  doi: 10.1186/s12915-019-0646-4
+  year: 2019
+  journal: BMC Biol
+  first_author: Agrawal P
+  last_author: Kent C
+  pmid: '30967153'
+  pmcid: PMC6456965
+  title: 'Enabling cell-type-specific behavioral epigenetics in Drosophila: a modified high-yield INTACT method reveals the
+    impact of social environment on the epigenetic landscape in dopaminergic neurons'
+  preprint_doi: 10.1101/443226
+links: {}
+added: '2026-11-21'
+evidence: ChIP-seq on mini-INTACT-purified dopaminergic nuclei identified epigenetic signatures in Drosophila males.

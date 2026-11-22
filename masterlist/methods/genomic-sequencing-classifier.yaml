@@ -1,0 +1,21 @@
+name: Genomic Sequencing Classifier
+category: dry
+summary: The Genomic Sequencing Classifier uses transcriptome sequencing features to classify Hürthle cell lesions as benign
+  or malignant.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12918-019-0693-z
+  year: 2019
+  journal: BMC Systems Biology
+  first_author: Hao Y
+  last_author: Kennedy GC
+  title: 'Identification of Hürthle cell cancers: solving a clinical challenge with genomic sequencing and a trio of machine
+    learning algorithms'
+links: {}
+added: '2026-11-21'
+evidence: The classifier uses whole-transcriptome RNA sequencing, mitochondrial expression, and loss-of-heterozygosity features.

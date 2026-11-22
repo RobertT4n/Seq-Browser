@@ -1,0 +1,23 @@
+name: DynaMO
+full_name: dynamic motif occupancy analysis
+category: dry
+summary: A computational method infers dynamic transcription-factor binding activities and key regulators from chromatin profiles
+  across conditions.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx905
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Kuang Z
+  last_author: Ji H
+  title: Dynamic motif occupancy (DynaMO) analysis identifies transcription factors and their binding sites driving dynamic
+    biological processes
+links: {}
+added: '2026-11-21'
+evidence: DynaMO predicts transcription-factor binding sites and infers their dynamic activities using local chromatin profiles
+  across conditions.

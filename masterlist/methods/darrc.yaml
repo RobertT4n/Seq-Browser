@@ -1,0 +1,21 @@
+name: DARRC
+full_name: Dynamic Alignment-Free and Reference-Free Read Compression
+category: dry
+summary: Alignment-free, reference-free compression method that encodes pangenome read sequences in an incrementally updatable
+  archive.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2018.0068
+  year: 2018
+  journal: Journal of Computational Biology
+  first_author: Holley G
+  last_author: Hach F
+  title: Dynamic Alignment-Free and Reference-Free Read Compression
+links: {}
+added: '2026-11-21'
+evidence: DARRC encodes pangenome sequences as a guided de Bruijn graph and can add genomes without fully decompressing the
+  archive.

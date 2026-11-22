@@ -1,0 +1,24 @@
+name: CIE
+full_name: Causal Inference Engine
+category: dry
+summary: CIE infers active transcriptional regulatory mechanisms from differential gene expression using a regulatory network
+  constructed from ChIP-seq and RNA-seq data.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz1046
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Farahmand S
+  last_author: Zarringhalam K
+  title: 'Causal Inference Engine: a platform for directional gene set enrichment analysis and inference of active transcriptional
+    regulators'
+  preprint_doi: 10.1101/698852
+links: {}
+added: '2026-11-21'
+evidence: CIE integrates ChIP-seq experiments and tissue-specific RNA-seq data to construct a transcriptional regulatory network
+  for causal inference.

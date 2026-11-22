@@ -1,0 +1,26 @@
+name: PenSeq
+full_name: Pathogen enrichment sequencing
+category: wet
+summary: Targeted enrichment sequencing characterizes sequence diversity and presence or absence of pathogen effector genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1111/nph.15441
+  year: 2019
+  journal: New Phytol
+  first_author: Thilliez GJA
+  last_author: Hein I
+  pmid: '30288743'
+  pmcid: PMC6492278
+  title: Pathogen enrichment sequencing (PenSeq) enables population genomic studies in oomycetes
+links: {}
+added: '2026-11-21'
+evidence: PenSeq enriches pathogenicity determinant genes and identifies sequence polymorphisms and presence or absence variation
+  in Phytophthora.

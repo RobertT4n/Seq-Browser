@@ -1,0 +1,18 @@
+name: HybPhyloMaker
+category: dry
+summary: A pipeline analyzes target-enrichment sequencing data from raw reads through species-tree reconstruction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1177/1176934317742613
+  year: 2018
+  journal: Evolutionary Bioinformatics
+  first_author: Fér T
+  last_author: Schmickl RE
+  title: 'HybPhyloMaker: Target Enrichment Data Analysis From Raw Reads to Species Trees'
+links: {}
+added: '2026-11-21'
+evidence: HybPhyloMaker processes target-enrichment data and implements several species-tree reconstruction methods.

@@ -1,0 +1,26 @@
+name: ChRO-seq
+full_name: chromatin run-on and sequencing
+category: wet
+summary: Chromatin run-on sequencing maps nascent transcription and RNA polymerase locations, including in samples with degraded
+  RNA.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/185991
+  year: 2017
+  journal: bioRxiv
+  first_author: Chu
+  last_author: C
+  title: Chromatin run-on reveals nascent RNAs that differentiate normal and malignant brain tissue
+links: {}
+added: '2026-11-21'
+evidence: ChRO-seq mapped nascent transcription in primary human glioblastoma brain tumors.

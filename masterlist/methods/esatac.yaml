@@ -1,0 +1,18 @@
+name: esATAC
+category: dry
+summary: Provides an integrated pipeline for ATAC-seq processing, quality control and downstream analysis.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty141
+  year: 2018
+  journal: Bioinformatics
+  first_author: Wei Z
+  last_author: Wang X
+  title: 'esATAC: an easy-to-use systematic pipeline for ATAC-seq data analysis'
+links: {}
+added: '2026-11-21'
+evidence: esATAC covers raw data processing, quality control, peak calling, enrichment analysis and transcription factor footprinting.

@@ -1,0 +1,19 @@
+name: CoverView
+category: dry
+summary: Sequencing quality evaluation tool that reports coverage and quality metrics and flags regions below specified thresholds.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.12688/wellcomeopenres.14306.1
+  year: 2018
+  journal: Wellcome Open Research
+  first_author: Münz M
+  last_author: Rahman N
+  title: 'CoverView: a sequence quality evaluation tool for next generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CoverView reports depth, base quality, and mapping quality for user-specified regions and flags regions failing
+  quality requirements.

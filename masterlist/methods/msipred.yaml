@@ -1,0 +1,19 @@
+name: MSIpred
+category: dry
+summary: A support vector machine that classifies tumor microsatellite instability from somatic mutation data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41598-018-35682-z
+  year: 2018
+  journal: Scientific Reports
+  first_author: Wang C
+  last_author: Liang C
+  title: 'MSIpred: a python package for tumor microsatellite instability classification from tumor mutation annotation data
+    using a support vector machine'
+links: {}
+added: '2026-11-21'
+evidence: MSIpred computes 22 mutational-load features from paired tumor-normal exome data to predict MSI status.

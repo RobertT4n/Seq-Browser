@@ -1,0 +1,22 @@
+name: MAXX
+full_name: Mutation Allelic Expression Extractor
+category: dry
+summary: Categorizes single-nucleotide variants and small insertions and deletions by their allelic expression in RNA-seq
+  data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-019-48967-8
+  year: 2019
+  journal: Scientific Reports
+  first_author: Grant AD
+  last_author: Knudsen ES
+  title: Interrogating Mutant Allele Expression via Customized Reference Genomes to Define Influential Cancer Mutations
+  preprint_doi: 10.1101/394627
+links: {}
+added: '2026-11-21'
+evidence: MAXX delineates allelic expression of single-nucleotide variants and small insertions and deletions.

@@ -1,0 +1,21 @@
+name: TranscriptAchilles
+category: dry
+summary: TranscriptAchilles integrates RNA interference screens and transcriptome profiles to predict isoform biomarkers of
+  gene essentiality in cancer.
+readouts:
+- rna
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz021
+  year: 2019
+  journal: GigaScience
+  first_author: Carazo F
+  last_author: Rubio A
+  title: 'TranscriptAchilles: a genome-wide platform to predict isoform biomarkers of gene essentiality in cancer'
+links: {}
+added: '2026-11-21'
+evidence: The tool integrates 412 loss-of-function RNA interference screens with corresponding whole-transcriptome expression
+  profiles.

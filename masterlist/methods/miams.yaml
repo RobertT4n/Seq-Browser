@@ -1,0 +1,19 @@
+name: MIAmS
+category: dry
+summary: Determines tumor microsatellite instability status from amplicon sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btz797
+  year: 2019
+  journal: Bioinformatics
+  first_author: Escudié F
+  last_author: Selves J
+  pmid: '31647522'
+  title: 'MIAmS: microsatellite instability detection on NGS amplicons data'
+links: {}
+added: '2026-11-21'
+evidence: MIAmS assigns microsatellite status from tumor amplicon sequencing without requiring paired normal tissue.

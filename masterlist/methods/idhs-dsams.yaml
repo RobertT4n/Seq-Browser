@@ -1,0 +1,20 @@
+name: iDHS-DSAMS
+category: dry
+summary: iDHS-DSAMS predicts DNase I hypersensitive sites from DNA sequence features using an ensemble classifier.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2019.07.017
+  year: 2020
+  journal: Genomics
+  first_author: Zhang S
+  last_author: Jiang S
+  title: 'iDHS-DSAMS: Identifying DNase I hypersensitive sites based on the dinucleotide property matrix and ensemble bagged
+    tree'
+links: {}
+added: '2026-11-21'
+evidence: The predictor uses dinucleotide-based spatial autocorrelation features and an ensemble bagged tree to identify DNase
+  I hypersensitive sites.

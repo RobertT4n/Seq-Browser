@@ -1,0 +1,20 @@
+name: HMMRATAC
+full_name: Hidden Markov ModeleR for ATAC-seq
+category: dry
+summary: Semi-supervised method that uses nucleosome-free and nucleosome-enriched ATAC-seq signals to predict accessible regions.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz533
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Tarbell ED
+  last_author: Liu T
+  title: 'HMMRATAC: a Hidden Markov ModeleR for ATAC-seq'
+  preprint_doi: 10.1101/306621
+links: {}
+added: '2026-11-21'
+evidence: HMMRATAC separates ATAC-seq signals by nucleosome enrichment and predicts accessible regions across the genome.

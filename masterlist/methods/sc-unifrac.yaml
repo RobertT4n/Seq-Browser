@@ -1,0 +1,23 @@
+name: sc-UniFrac
+category: dry
+summary: Framework that statistically quantifies differences in cell population composition between single-cell transcriptome
+  datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pbio.2006687
+  year: 2018
+  journal: PLoS Biol
+  first_author: Liu Q
+  last_author: Lau KS
+  pmid: '30346945'
+  pmcid: PMC6211764
+  title: Quantitative assessment of cell population diversity in single-cell landscapes
+  preprint_doi: 10.1101/333393
+links: {}
+added: '2026-11-21'
+evidence: sc-UniFrac quantifies compositional diversity between single-cell transcriptome landscapes in terms of population
+  identity and quantity.

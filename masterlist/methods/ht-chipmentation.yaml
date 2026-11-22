@@ -1,0 +1,29 @@
+name: HT-ChIPmentation
+full_name: high-throughput ChIPmentation
+category: wet
+summary: A rapid, scalable ChIPmentation workflow profiles chromatin from very low cell numbers.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- tn5
+- facs-sorting
+input_sample:
+- low-input
+reference:
+  doi: 10.1186/s12864-018-5299-0
+  year: 2019
+  journal: BMC Genomics
+  first_author: Gustafsson C
+  last_author: Månsson R
+  pmid: '30658577'
+  pmcid: PMC6339279
+  title: 'High-throughput ChIPmentation: freely scalable, single day ChIPseq data generation from very low cell-numbers'
+  preprint_doi: 10.1101/426957
+links: {}
+added: '2026-11-21'
+evidence: HT-ChIPmentation is compatible with very low numbers of FACS-sorted cells and high-throughput, single-day data generation.

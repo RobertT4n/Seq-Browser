@@ -1,0 +1,24 @@
+name: Dram-seq
+full_name: Dice randomized pre-miRNA pool and seq
+category: wet
+summary: Measures the length distributions of miRNAs produced from thousands of pre-miRNA variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+- invertebrate
+reference:
+  doi: 10.1093/nar/gky043
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Zhu L
+  last_author: Fukunaga R
+  title: Dicer partner protein tunes the length of miRNAs using base-mismatch in the pre-miRNA stem
+links: {}
+added: '2026-11-21'
+evidence: Dram-seq studies miRNA length distributions generated from thousands of different pre-miRNA variants.

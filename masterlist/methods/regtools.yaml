@@ -1,0 +1,22 @@
+name: RegTools
+category: dry
+summary: A software package that integrates genomic variants and transcriptomic splice junctions to identify variants associated
+  with aberrant splicing.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-37266-6
+  year: 2023
+  journal: Nature Communications
+  first_author: Cotto KC
+  last_author: Griffith M
+  title: Integrated analysis of genomic and transcriptomic data for the discovery of splice-associated variants in cancer
+  preprint_doi: 10.1101/436634
+links: {}
+added: '2026-11-21'
+evidence: RegTools integrates somatic variants with splice junctions from bulk or single-cell transcriptomic data.

@@ -1,0 +1,18 @@
+name: hla-mapper
+category: dry
+summary: Read-mapping application that assigns sequencing read pairs to their most likely HLA genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.humimm.2018.06.010
+  year: 2018
+  journal: Human Immunology
+  first_author: Castelli EC
+  last_author: Mendes-Junior CT
+  title: 'Hla-mapper: An application to optimize the mapping of HLA sequences produced by massively parallel sequencing procedures'
+links: {}
+added: '2026-11-21'
+evidence: hla-mapper uses known HLA sequences and a scoring system to assign each read pair to the most likely HLA gene.

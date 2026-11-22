@@ -1,0 +1,19 @@
+name: DEEPEST
+category: dry
+summary: Uses statistical modelling to detect gene fusions in RNA-seq data while reducing false positives.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1900391116
+  year: 2019
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Dehghannasiri R
+  last_author: Salzman J
+  title: Improved detection of gene fusions by applying statistical methods reveals oncogenic RNA cancer drivers
+  preprint_doi: 10.1101/659078
+links: {}
+added: '2026-11-21'
+evidence: DEEPEST uses statistical modelling to minimize false positives while increasing fusion detection sensitivity.

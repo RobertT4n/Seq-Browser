@@ -1,0 +1,24 @@
+name: NET-CAGE
+category: wet
+summary: NET-CAGE globally maps the 5′ ends of nascent RNAs to detect transcription from promoters and enhancers.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+reference:
+  doi: 10.1101/689968
+  year: 2019
+  journal: bioRxiv
+  first_author: Hirabayashi S
+  last_author: Murakawa Y
+  title: Dynamics and Topology of Human Transcribed  <i>Cis</i>  -regulatory Elements
+links: {}
+added: '2026-11-21'
+evidence: NET-CAGE globally determines nascent RNA 5′ ends and sensitively detects unstable transcripts including enhancer-derived
+  RNAs.

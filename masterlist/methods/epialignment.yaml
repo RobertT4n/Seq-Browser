@@ -1,0 +1,22 @@
+name: EpiAlignment
+category: dry
+summary: Aligns genomic regions between species using both DNA sequence and epigenomic profiles.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkz426
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Lu J
+  last_author: Zhong S
+  title: 'EpiAlignment: alignment with both DNA sequence and epigenomic data'
+  preprint_doi: 10.1101/562199
+links: {}
+added: '2026-11-21'
+evidence: EpiAlignment aligns genomic regions using DNA sequence and ChIP-seq, DNase-seq or ATAC-seq profiles from two species.

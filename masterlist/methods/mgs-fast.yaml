@@ -1,0 +1,18 @@
+name: MGS-Fast
+category: dry
+summary: MGS-Fast aligns shotgun metagenomic reads to a microbial gene catalog to assign functional annotations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz020
+  year: 2019
+  journal: GigaScience
+  first_author: Brown SM
+  last_author: Krampis K
+  title: 'MGS-Fast: Metagenomic shotgun data fast annotation using microbial gene catalogs'
+links: {}
+added: '2026-11-21'
+evidence: The workflow uses DNA-DNA alignment to match metagenomic reads to genes with annotated functions.

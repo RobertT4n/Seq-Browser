@@ -1,0 +1,19 @@
+name: DARTS
+category: dry
+summary: Integrates deep-learning predictions with RNA-seq evidence to infer differential alternative splicing between samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-019-0351-9
+  year: 2019
+  journal: Nature Methods
+  first_author: Zhang Z
+  last_author: Xing Y
+  title: Deep-learning augmented RNA-seq analysis of transcript splicing
+links: {}
+added: '2026-11-21'
+evidence: DARTS combines deep-learning-based predictions with empirical RNA-seq evidence to infer differential alternative
+  splicing.

@@ -1,0 +1,21 @@
+name: MAGOS
+full_name: model-based adaptive grouping of subclones
+category: dry
+summary: Computational method that infers tumor subclonal composition from single-nucleotide and copy-number variants at standard
+  sequencing depths.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/790386
+  year: 2019
+  journal: bioRxiv
+  first_author: Ahmadinejad
+  last_author: L
+  title: 'MAGOS: Discovering Subclones in Tumors Sequenced at Standard Depths'
+links: {}
+added: '2026-11-21'
+evidence: MAGOS supports subclone analysis using single-nucleotide and copy-number variants from one or more samples of an
+  individual tumor.

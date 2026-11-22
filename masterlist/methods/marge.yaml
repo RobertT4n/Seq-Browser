@@ -1,0 +1,24 @@
+name: MARGE
+full_name: Mutation Analysis of Regulatory Genomic Elements
+category: dry
+summary: A software suite integrates genetic variation with chromatin data to identify collaborating transcription-factor
+  pairs.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky491
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Link VM
+  last_author: Glass CK
+  title: 'MMARGE: Motif Mutation Analysis for Regulatory Genomic Elements'
+  preprint_doi: 10.1101/268839
+links: {}
+added: '2026-11-21'
+evidence: MARGE integrates genome-wide genetic variation with chromatin accessibility or transcription-factor binding data
+  to identify collaborative transcription factors.

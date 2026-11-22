@@ -1,0 +1,20 @@
+name: CellBIC
+full_name: single Cell BImodal Clustering
+category: dry
+summary: A top-down hierarchical clustering method for single-cell RNA-seq data based on gene expression distribution modality.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky698
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Kim J
+  last_author: Won KJ
+  title: 'CellBIC: bimodality-based top-down clustering of single-cell RNA sequencing data reveals hierarchical structure
+    of the cell type'
+links: {}
+added: '2026-11-21'
+evidence: CellBIC clusters scRNA-seq data using modality in gene expression distributions.

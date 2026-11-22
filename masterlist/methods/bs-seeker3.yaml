@@ -1,0 +1,19 @@
+name: BS-Seeker3
+category: dry
+summary: Pipeline for aligning bisulfite-converted sequencing reads and processing methylation data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2120-7
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Huang KYY
+  last_author: Chen PY
+  title: 'BS-Seeker3: ultrafast pipeline for bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: BS-Seeker3 performs fast alignments of bisulfite-converted reads and links to downstream methylation analyses.

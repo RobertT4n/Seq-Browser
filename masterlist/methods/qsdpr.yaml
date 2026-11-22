@@ -1,0 +1,19 @@
+name: QSdpR
+category: dry
+summary: A correlation-clustering method reconstructs viral quasispecies and estimates their frequencies from short sequencing
+  reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2017.12.007
+  year: 2018
+  journal: Genomics
+  first_author: Barik S
+  last_author: Vikalo H
+  title: 'QSdpR: Viral quasispecies reconstruction via correlation clustering'
+links: {}
+added: '2026-11-21'
+evidence: QSdpR reconstructs quasispecies by clustering a read-similarity graph and estimates subspecies frequencies.

@@ -1,0 +1,20 @@
+name: smCounter2
+category: dry
+summary: Calls low-frequency variants in targeted sequencing data using unique molecular identifiers and a background error
+  model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bty790
+  year: 2018
+  journal: Bioinformatics
+  first_author: Xu C
+  last_author: Wang Y
+  title: 'smCounter2: an accurate low-frequency variant caller for targeted sequencing data with unique molecular identifiers'
+links: {}
+added: '2026-11-21'
+evidence: smCounter2 tests whether a putative variant's allele frequency is significantly above the modeled background error
+  rate.

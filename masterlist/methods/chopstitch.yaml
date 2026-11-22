@@ -1,0 +1,23 @@
+name: ChopStitch
+category: dry
+summary: Identifies putative exons and constructs splice graphs from assembled transcriptomes and whole-genome shotgun sequencing
+  data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx839
+  year: 2018
+  journal: Bioinformatics
+  first_author: Khan H
+  last_author: Birol I
+  pmid: '29300846'
+  pmcid: PMC5946899
+  title: 'ChopStitch: exon annotation and splice graph construction using transcriptome assembly and whole genome sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: ChopStitch identifies exon boundaries in assembled RNA-seq data using a k-mer spectrum of whole-genome shotgun reads.

@@ -1,0 +1,20 @@
+name: RISC
+full_name: robust integration of single-cell RNA-seq datasets
+category: dry
+summary: A principal component regression method for integrating single-cell RNA-seq datasets with differing cell cluster
+  overlap.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/483297
+  year: 2018
+  journal: bioRxiv
+  first_author: Liu
+  last_author: D
+  title: 'RISC: robust integration of single-cell RNA-seq datasets with different extents of cell cluster overlap'
+links: {}
+added: '2026-11-21'
+evidence: RISC uses principal component regression to integrate datasets while avoiding over-integration.

@@ -1,0 +1,19 @@
+name: SEG
+category: dry
+summary: Detects somatic copy-number alterations in cancer whole-genome sequencing data using tumor-normal read density and
+  segmentation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2018.09.001
+  year: 2018
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Zhang M
+  last_author: Zhao S
+  title: SEG - A Software Program for Finding Somatic Copy Number Alterations in Whole Genome Sequencing Data of Cancer
+links: {}
+added: '2026-11-21'
+evidence: SEG normalizes tumor density against matching normal density and identifies segments with copy-number alterations.

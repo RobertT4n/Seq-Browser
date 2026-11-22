@@ -1,0 +1,20 @@
+name: ChIPdig
+category: dry
+summary: Provides a ChIP-seq analysis application for read mapping, peak calling and annotation of genomic regions.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.20027.1
+  year: 2019
+  journal: F1000Research
+  first_author: Esse R
+  last_author: Esse R
+  title: 'ChIPdig: a comprehensive user-friendly tool for mining multi-sample ChIP-seq data'
+  preprint_doi: 10.1101/220079
+links: {}
+added: '2026-11-21'
+evidence: ChIPdig performs analyses including read mapping, peak calling and annotation of regions based on reference coordinates.

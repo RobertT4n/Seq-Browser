@@ -1,0 +1,24 @@
+name: Epi-Decoder
+category: wet
+summary: A tag-based ChIP and barcode sequencing method identifies and quantifies proteins associated with an individual genomic
+  locus.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pbio.2005542
+  year: 2018
+  journal: PLOS Biology
+  first_author: Korthout T
+  last_author: van Leeuwen F
+  title: Decoding the chromatin proteome of a single genomic locus by DNA sequencing
+  preprint_doi: 10.1101/229955
+links: {}
+added: '2026-11-21'
+evidence: Epi-Decoder uses Tag-ChIP-Barcode-Seq in budding yeast to quantify the proteome of an individual genomic locus.

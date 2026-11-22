@@ -1,0 +1,20 @@
+name: MATCHER
+category: dry
+summary: Manifold alignment integrates transcriptomic and epigenetic measurements from different single cells to infer multi-omic
+  profiles.
+readouts:
+- rna
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1269-0
+  year: 2017
+  journal: Genome Biology
+  first_author: Welch JD
+  last_author: Prins JF
+  title: 'MATCHER: manifold alignment reveals correspondence between single cell transcriptome and epigenome dynamics'
+links: {}
+added: '2026-11-21'
+evidence: MATCHER aligns measurements from different cells and predicts correlations between DNA methylation and gene expression.

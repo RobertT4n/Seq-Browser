@@ -1,0 +1,22 @@
+name: GADO
+full_name: GeneNetwork Assisted Diagnostic Optimization
+category: dry
+summary: Tool that combines gene-phenotype predictions from RNA-seq data with patient phenotypes to prioritize candidate variants.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-10649-4
+  year: 2019
+  journal: Nature Communications
+  first_author: Deelen P
+  last_author: Franke L
+  title: Improving the diagnostic yield of exome- sequencing by predicting gene–phenotype associations using large-scale gene
+    expression analysis
+  preprint_doi: 10.1101/375766
+links: {}
+added: '2026-11-21'
+evidence: GADO combines predictions derived from 31,499 RNA-seq samples with patient phenotype terms to prioritize variants.

@@ -1,0 +1,18 @@
+name: ampvis2
+category: dry
+summary: R package for analyzing and visualizing microbial community data in operational taxonomic unit tables.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/299537
+  year: 2018
+  journal: bioRxiv
+  first_author: Skytte Andersen
+  last_author: M
+  title: 'ampvis2: an R package to analyse and visualise 16S rRNA amplicon data'
+links: {}
+added: '2026-11-21'
+evidence: ampvis2 analyzes microbial community data in OTU-table format and provides heatmaps and ordination.

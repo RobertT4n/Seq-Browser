@@ -1,0 +1,18 @@
+name: RO_SCPCAPANKC_SCPCAPCO_SCPCAPORRC_SCPCAP
+category: dry
+summary: Selects markers for multiple classes in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/679761
+  year: 2019
+  journal: bioRxiv
+  first_author: Vargo
+  last_author: A. C
+  title: Comparison of marker selection methods for high throughput scRNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: The authors introduce the method as a fast marker selection approach for scRNA-seq UMI count data.

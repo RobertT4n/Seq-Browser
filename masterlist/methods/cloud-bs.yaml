@@ -1,0 +1,19 @@
+name: Cloud-BS
+category: dry
+summary: A distributed MapReduce aligner for bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720018400280
+  year: 2018
+  journal: Journal of Bioinformatics and Computational Biology
+  first_author: Choi J
+  last_author: Chae H
+  title: 'Cloud-BS: A MapReduce-based bisulfite sequencing aligner on cloud'
+links: {}
+added: '2026-11-21'
+evidence: Cloud-BS splits bisulfite sequencing reads into blocks and aligns them in a distributed environment.

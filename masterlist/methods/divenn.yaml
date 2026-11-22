@@ -1,0 +1,20 @@
+name: DiVenn
+full_name: Dive into the Venn diagram and create a force directed graph
+category: dry
+summary: DiVenn visualizes and compares gene lists from RNA-seq experiments with expression levels and pathway annotations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.00421
+  year: 2019
+  journal: Frontiers in Genetics
+  first_author: Sun L
+  last_author: Mehta P
+  title: 'DiVenn: An Interactive and Integrated Web-Based Visualization Tool for Comparing Gene Lists'
+links: {}
+added: '2026-11-21'
+evidence: DiVenn compares gene lists in an interactive force-directed graph with expression levels, pathways, and gene ontology
+  annotations.

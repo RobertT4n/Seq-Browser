@@ -1,0 +1,20 @@
+name: SIDEseq
+category: dry
+summary: Computes cell-to-cell similarity from shared information about putative differentially expressed genes in scRNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12561-017-9194-z
+  year: 2017
+  journal: Statistics in Biosciences
+  first_author: Schiffman C
+  last_author: Huang H
+  title: 'SIDEseq: A Cell Similarity Measure Defined by Shared Identified Differentially Expressed Genes for Single-Cell RNA
+    sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: SIDEseq integrates putative differentially expressed gene lists from all cell pairs to build a similarity measure.

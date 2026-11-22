@@ -1,0 +1,19 @@
+name: DeepM6ASeq
+category: dry
+summary: Predicts m6A-containing sequences and characterizes surrounding biological features using deep learning.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2516-4
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zhang Y
+  last_author: Hamada M
+  title: 'DeepM6ASeq: prediction and characterization of m6A-containing sequences using deep learning'
+links: {}
+added: '2026-11-21'
+evidence: DeepM6ASeq predicts m6A-containing sequences and characterizes surrounding features using a model based on miCLIP-seq
+  data.

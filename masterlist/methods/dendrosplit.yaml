@@ -1,0 +1,19 @@
+name: DendroSplit
+category: dry
+summary: Clusters single-cell RNA-seq datasets using feature selection to reveal interpretable populations at multiple levels.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2092-7
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zhang JM
+  last_author: Tse DN
+  title: An interpretable framework for clustering single-cell RNA-Seq datasets
+  preprint_doi: 10.1101/191254
+links: {}
+added: '2026-11-21'
+evidence: DendroSplit uses feature selection to uncover multiple levels of biologically meaningful cell populations.

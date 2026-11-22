@@ -1,0 +1,21 @@
+name: ASV-ID
+full_name: alternative splicing variants identification
+category: dry
+summary: A proteogenomic workflow that uses RNA-seq-supported protein databases to identify protein splice isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jproteome.8b00548
+  year: 2018
+  journal: Journal of Proteome Research
+  first_author: Jeong SK
+  last_author: Paik YK
+  title: ASV-ID, a Proteogenomic Workflow To Predict Candidate Protein Isoforms on the Basis of Transcript Evidence
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): primary readout is protein isoform identification by mass spectrometry; RNA is only supporting evidence. Not a sequencing method.'
+added: '2026-11-21'
+evidence: ASV-ID identifies alternative splice variants using a cell type-specific protein sequence database supported by
+  RNA-seq data.

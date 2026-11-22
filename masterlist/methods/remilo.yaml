@@ -1,0 +1,21 @@
+name: ReMILO
+category: dry
+summary: A reference-assisted algorithm detects genome assembly errors using short reads and PacBio long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btx524
+  year: 2017
+  journal: Bioinformatics
+  first_author: Bao E
+  last_author: Lan L
+  title: 'ReMILO: reference assisted misassembly detection algorithm using short and long reads'
+links: {}
+added: '2026-11-21'
+evidence: ReMILO uses a related reference genome, short reads and PacBio SMRT long reads to detect misassemblies.

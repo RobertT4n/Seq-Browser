@@ -1,0 +1,26 @@
+name: NiCE chip
+full_name: nitrogen cycle evaluation chip
+category: wet
+summary: Uses a microfluidic qPCR chip to quantify and sequence multiple nitrogen-cycle functional genes and taxonomic markers
+  across samples.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1128/aem.02615-17
+  year: 2018
+  journal: Applied and Environmental Microbiology
+  first_author: Oshiki M
+  last_author: Ishii S
+  title: Nitrogen Cycle Evaluation (NiCE) Chip for Simultaneous Analysis of Multiple N Cycle-Associated Genes
+links: {}
+added: '2026-11-21'
+evidence: The NiCE chip simultaneously quantifies and prepares amplicon libraries for nitrogen-cycle genes and taxon-specific
+  16S rRNA gene markers.

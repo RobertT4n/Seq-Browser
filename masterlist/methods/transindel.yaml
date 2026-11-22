@@ -1,0 +1,19 @@
+name: transIndel
+category: dry
+summary: Splice-aware algorithm that reconstructs insertions and deletions from split-read alignments in DNA-seq or RNA-seq
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-4671-4
+  year: 2018
+  journal: BMC Genomics
+  first_author: Yang R
+  last_author: Dehm SM
+  title: Indel detection from DNA and RNA sequencing data with transIndel
+links: {}
+added: '2026-11-21'
+evidence: transIndel reconstructs mid-sized insertions and large deletions from split reads while accounting for splicing.

@@ -1,0 +1,22 @@
+name: PaSD-qc
+full_name: Power Spectral Density-qc
+category: dry
+summary: A statistical method evaluates amplification uniformity and other quality characteristics of single-cell whole-genome
+  sequencing libraries.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx1195
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Sherman MA
+  last_author: Park PJ
+  title: 'PaSD-qc: quality control for single cell whole-genome sequencing data using power spectral density estimation'
+  preprint_doi: 10.1101/166637
+links: {}
+added: '2026-11-21'
+evidence: PaSD-qc uses modified power spectral density to assess amplification characteristics and identify aberrantly amplified
+  chromosomes.

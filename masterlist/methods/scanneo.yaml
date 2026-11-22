@@ -1,0 +1,19 @@
+name: ScanNeo
+category: dry
+summary: Predicts indel-derived neoepitopes from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz193
+  year: 2019
+  journal: Bioinformatics
+  first_author: Wang TY
+  last_author: Yang R
+  pmid: '30887025'
+  title: 'ScanNeo: identifying indel-derived neoantigens using RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: ScanNeo analyzes RNA-seq to predict neoepitopes derived from small to large indels.

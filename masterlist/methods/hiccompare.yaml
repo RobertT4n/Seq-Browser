@@ -1,0 +1,19 @@
+name: HiCcompare
+category: dry
+summary: Jointly normalizes Hi-C datasets and detects differential chromatin interactions.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2288-x
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Stansfield JC
+  last_author: Dozmorov MG
+  title: 'HiCcompare: an R-package for joint normalization and comparison of HI-C datasets'
+  preprint_doi: 10.1101/147850
+links: {}
+added: '2026-11-21'
+evidence: HiCcompare uses loess for data-driven normalization and identifies region-specific chromatin interaction changes.

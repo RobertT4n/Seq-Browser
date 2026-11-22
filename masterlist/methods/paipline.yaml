@@ -1,0 +1,18 @@
+name: PAIPline
+category: dry
+summary: Processes metagenomic and clinical sequencing data to identify pathogens.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty595
+  year: 2018
+  journal: Bioinformatics
+  first_author: Andrusch A
+  last_author: Nitsche A
+  title: 'PAIPline: pathogen identification in metagenomic and clinical next generation sequencing samples'
+links: {}
+added: '2026-11-21'
+evidence: PAIPline combines preprocessing, ambiguous-read resolution, filtering and visualization for pathogen detection.

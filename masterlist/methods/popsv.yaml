@@ -1,0 +1,19 @@
+name: PopSV
+category: dry
+summary: Detects copy number variants using multiple samples to control technical variation in sequencing coverage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1007285
+  year: 2018
+  journal: PLOS Genetics
+  first_author: Monlong J
+  last_author: Cossette P
+  title: Global characterization of copy number variants in epilepsy patients from whole genome sequencing
+  preprint_doi: 10.1101/199224
+links: {}
+added: '2026-11-21'
+evidence: PopSV uses multiple samples to control technical variation and enable robust CNV detection in whole-genome sequencing.

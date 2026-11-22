@@ -1,0 +1,19 @@
+name: CoCo
+category: dry
+summary: An RNA-seq read assignment pipeline that corrects quantification for nested genes and multimapped reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz433
+  year: 2019
+  journal: Bioinformatics
+  first_author: Deschamps-Francoeur G
+  last_author: Scott MS
+  title: 'CoCo: RNA-seq read assignment correction for nested genes and multimapped reads'
+  preprint_doi: 10.1101/477869
+links: {}
+added: '2026-11-21'
+evidence: CoCo highlights nested genes in a modified annotation and distributes multimapped reads among repeated sequences.

@@ -1,0 +1,20 @@
+name: APEC
+full_name: accessibility pattern-based epigenomic clustering
+category: dry
+summary: APEC analyzes single-cell chromatin accessibility using groups of regions with coordinated accessibility patterns.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02034-y
+  year: 2020
+  journal: Genome Biology
+  first_author: Li B
+  last_author: Qu K
+  title: 'APEC: an accesson-based method for single-cell chromatin accessibility analysis'
+  preprint_doi: 10.1101/646331
+links: {}
+added: '2026-11-21'
+evidence: APEC classifies cells using groups of accessible regions with synergistic signal patterns called accessons.

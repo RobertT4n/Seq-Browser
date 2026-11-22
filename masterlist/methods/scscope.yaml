@@ -1,0 +1,18 @@
+name: scScope
+category: dry
+summary: Scalable deep-learning method that identifies cell-type composition from noisy single-cell gene-expression profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/315556
+  year: 2018
+  journal: bioRxiv
+  first_author: Deng Y
+  last_author: Altschuler SJ
+  title: Massive single-cell RNA-seq analysis and imputation via deep learning
+links: {}
+added: '2026-11-21'
+evidence: scScope identifies cell-type composition from millions of noisy single-cell gene-expression profiles.

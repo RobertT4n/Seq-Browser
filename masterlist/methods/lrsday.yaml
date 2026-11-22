@@ -1,0 +1,23 @@
+name: LRSDAY
+full_name: Long-read sequencing data analysis for yeasts
+category: dry
+summary: Produces genome assemblies and annotations from long-read sequencing data, with a workflow tailored to budding yeast.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/nprot.2018.025
+  year: 2018
+  journal: Nature Protocols
+  first_author: Yue JX
+  last_author: Liti G
+  title: Long-read sequencing data analysis for yeasts
+  preprint_doi: 10.1101/184572
+links: {}
+added: '2026-11-21'
+evidence: LRSDAY produces chromosome-level genome assemblies and annotations and was applied to yeast PacBio reads.

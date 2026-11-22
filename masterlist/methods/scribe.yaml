@@ -1,0 +1,19 @@
+name: SCRIBE
+full_name: Single-Cell Recovery Imputation with Batch Effects
+category: dry
+summary: Simultaneously imputes dropout events and corrects batch effects in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/793463
+  year: 2019
+  journal: bioRxiv
+  first_author: Zhang Y
+  last_author: Zhao H
+  title: 'SCRIBE: a new approach to dropout imputation and batch effects correction for single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: SCRIBE recovers cell-specific expression patterns while removing batch effects and retaining biological variation.

@@ -1,0 +1,21 @@
+name: eRD-GWAS
+category: dry
+summary: Uses RNA-seq transcript accumulation as an explanatory variable in genome-wide association studies of phenotypic
+  traits.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1328-6
+  year: 2017
+  journal: Genome Biology
+  first_author: Lin Hy
+  last_author: Schnable PS
+  title: Substantial contribution of genetic variation in the expression of transcription factors to phenotypic variation
+    revealed by eRD-GWAS
+links: {}
+added: '2026-11-21'
+evidence: The Bayesian-based eRD-GWAS method uses RNA-seq measures of transcript accumulation as explanatory variables to
+  associate expression variation with phenotypic diversity.

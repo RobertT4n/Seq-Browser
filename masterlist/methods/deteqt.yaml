@@ -1,0 +1,19 @@
+name: DETEQT
+full_name: Diagnostic targETEd seQuencing adjudicaTion
+category: dry
+summary: A pipeline that interprets targeted infectious disease sequencing panels and assigns diagnostic determinations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jmoldx.2018.08.008
+  year: 2019
+  journal: The Journal of Molecular Diagnostics
+  first_author: Conrad TA
+  last_author: Minogue TD
+  title: Diagnostic targETEd seQuencing adjudicaTion (DETEQT)
+links: {}
+added: '2026-11-21'
+evidence: DETEQT translates raw sequencing data into positive, negative, and indeterminate diagnostic determinations.

@@ -1,0 +1,22 @@
+name: GUST
+full_name: genes under selection in tumors
+category: dry
+summary: Classifies cancer driver genes as oncogenes or tumour suppressors in specific cancer contexts using exome sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz851
+  year: 2019
+  journal: Bioinformatics
+  first_author: Chandrashekar P
+  last_author: Liu L
+  title: Somatic selection distinguishes oncogenes and tumor suppressor genes
+  preprint_doi: 10.1101/715508
+links: {}
+added: '2026-11-21'
+evidence: GUST combines somatic selection, ratiometric and conservation measures to categorize oncogenes and tumour suppressor
+  genes from exome data.

@@ -1,0 +1,21 @@
+name: epiScanpy
+category: dry
+summary: epiScanpy provides analysis workflows for single-cell DNA methylation and chromatin accessibility data.
+readouts:
+- dna-methylation
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-25131-3
+  year: 2021
+  journal: Nature Communications
+  first_author: Danese A
+  last_author: Colomé-Tatché M
+  title: 'EpiScanpy: integrated single-cell epigenomic analysis'
+  preprint_doi: 10.1101/648097
+links: {}
+added: '2026-11-21'
+evidence: The framework supports feature construction, clustering, dimension reduction, and trajectory learning for single-cell
+  epigenomic data.

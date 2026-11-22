@@ -1,0 +1,23 @@
+name: RIFRAF
+category: dry
+summary: Infers an accurate in-frame consensus sequence from error-prone long reads and a reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/bty426
+  year: 2018
+  journal: Bioinformatics
+  first_author: Eren K
+  last_author: Murrell B
+  title: 'RIFRAF: a frame-resolving consensus algorithm'
+  preprint_doi: 10.1101/227520
+links: {}
+added: '2026-11-21'
+evidence: RIFRAF optimizes consensus agreement with noisy reads and a reference while penalizing frame-destroying insertions
+  and deletions.

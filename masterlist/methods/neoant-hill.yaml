@@ -1,0 +1,22 @@
+name: neoANT-HILL
+category: dry
+summary: Integrates immunogenomic analyses to predict potential cancer neoantigens from somatic mutation calls and RNA-seq
+  data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-020-0694-1
+  year: 2020
+  journal: BMC Medical Genomics
+  first_author: Coelho ACMF
+  last_author: de Souza SJ
+  title: 'neoANT-HILL: an integrated tool for identification of potential neoantigens'
+  preprint_doi: 10.1101/603670
+links: {}
+added: '2026-11-21'
+evidence: neoANT-HILL accepts somatic mutation calls and/or RNA-seq data and predicted potential neoantigens in a melanoma
+  dataset.

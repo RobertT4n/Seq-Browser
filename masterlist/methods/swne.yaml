@@ -1,0 +1,21 @@
+name: SWNE
+full_name: Similarity Weighted Nonnegative Embedding
+category: dry
+summary: An embedding method visualizes single-cell expression data with cells, genes and factors together in two dimensions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2018.10.015
+  year: 2018
+  journal: Cell Systems
+  first_author: Wu Y
+  last_author: Zhang K
+  title: Visualizing and Interpreting Single-Cell Gene Expression Datasets with Similarity Weighted Nonnegative Embedding
+  preprint_doi: 10.1101/276261
+links: {}
+added: '2026-11-21'
+evidence: SWNE uses nonnegative matrix factorization and a similarity matrix to embed cells, genes and factors in a two-dimensional
+  visualization.

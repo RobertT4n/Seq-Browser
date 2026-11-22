@@ -1,0 +1,20 @@
+name: RNATracker
+category: dry
+summary: Predicts the distribution of mRNA transcripts across subcellular compartments from sequence and optional secondary
+  structure information.
+readouts:
+- rna
+resolution:
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz337
+  year: 2019
+  journal: Bioinformatics
+  first_author: Yan Z
+  last_author: Blanchette M
+  title: Prediction of mRNA subcellular localization using deep recurrent neural networks
+links: {}
+added: '2026-11-21'
+evidence: RNATracker predicts mRNA distributions over predefined subcellular compartments from sequence and can use secondary
+  structure information.

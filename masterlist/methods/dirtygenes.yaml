@@ -1,0 +1,20 @@
+name: DirtyGenes
+category: dry
+summary: Tests whether differences in bacterial community or gene composition between samples are statistically significant.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/204321
+  year: 2017
+  journal: bioRxiv
+  first_author: Shaw
+  last_author: D. J
+  title: 'DirtyGenes: significance testing for gene or bacterial population composition changes using the Dirichlet distribution'
+links: {}
+added: '2026-11-21'
+evidence: DirtyGenes tests differences in bacterial populations or their genes using shotgun metagenomics, 16S characterization
+  or qPCR data.

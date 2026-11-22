@@ -1,0 +1,22 @@
+name: Poly-Enrich
+category: dry
+summary: A gene set enrichment method that models the number of genomic peaks assigned to each gene while adjusting for locus
+  length.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqaa006
+  year: 2020
+  journal: NAR Genomics and Bioinformatics
+  first_author: Lee CT
+  last_author: Sartor MA
+  title: 'Poly-Enrich: count-based methods for gene set enrichment testing with genomic regions'
+  preprint_doi: 10.1101/488734
+links: {}
+added: '2026-11-21'
+evidence: Poly-Enrich uses a negative binomial generalized additive model to test gene set enrichment while adjusting for
+  gene locus length.

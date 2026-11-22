@@ -1,0 +1,20 @@
+name: SCIFIL
+category: dry
+summary: A computational tool that infers fitness landscapes and selective advantages of cancer clones from single-cell sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz392
+  year: 2019
+  journal: Bioinformatics
+  first_author: Skums P
+  last_author: Zelikovsky A
+  title: Inference of clonal selection in cancer populations using single-cell sequencing data
+  preprint_doi: 10.1101/465211
+links: {}
+added: '2026-11-21'
+evidence: SCIFIL fits an evolutionary model to tumor phylogeny to estimate clone fitness and order of appearance.

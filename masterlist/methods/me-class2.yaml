@@ -1,0 +1,23 @@
+name: ME-Class2
+category: dry
+summary: Machine-learning tool that integrates DNA methylation, hydroxymethylation and gene expression data to study their
+  relationships.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/318808
+  year: 2018
+  journal: bioRxiv
+  first_author: Schlosberg CE
+  last_author: Edwards JR
+  title: Integrative analysis of 5-methyl- and 5-hydroxymethylcytosine indicates a role for 5-hydroxymethylcytosine as a repressive
+    epigenetic mark
+links: {}
+added: '2026-11-21'
+evidence: ME-Class2 performs integrative 5mCG, 5hmCG and expression analysis using whole-genome single-base resolution datasets.

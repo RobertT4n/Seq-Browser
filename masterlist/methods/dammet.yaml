@@ -1,0 +1,21 @@
+name: DamMet
+category: dry
+summary: Estimates regional CpG methylation from ancient DNA while accounting for post-mortem damage, sequencing errors, and
+  genotypes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giz025
+  year: 2019
+  journal: GigaScience
+  first_author: Hanghøj K
+  last_author: Orlando L
+  title: 'DamMet: ancient methylome mapping accounting for errors, true variants, and post-mortem DNA damage'
+links: {}
+added: '2026-11-21'
+evidence: DamMet estimates regional CpG methylation using a model of post-mortem DNA damage that accounts for sequencing errors
+  and genotypes.

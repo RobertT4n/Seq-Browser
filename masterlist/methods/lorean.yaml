@@ -1,0 +1,25 @@
+name: LoReAn
+full_name: Long Read Annotation
+category: dry
+summary: Annotates eukaryotic genomes using short- and long-read cDNA sequencing, protein evidence, and ab initio predictions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1104/pp.18.00848
+  year: 2018
+  journal: Plant Physiology
+  first_author: Cook DE
+  last_author: Faino L
+  title: 'Long-Read Annotation: Automated Eukaryotic Genome Annotation Based on Long-Read cDNA Sequencing'
+  preprint_doi: 10.1101/230359
+links: {}
+added: '2026-11-21'
+evidence: LoReAn integrates long-read cDNA data from PacBio or MinION with other evidence to predict gene structures and alternative
+  splice forms.

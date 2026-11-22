@@ -1,0 +1,20 @@
+name: NGS-FC
+full_name: Next-Generation Sequencing Format Converter
+category: dry
+summary: An extensible framework converts next-generation sequencing data between multiple formats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2017.2722442
+  year: 2018
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Yu C
+  last_author: Shen B
+  title: 'NGS-FC: A Next-Generation Sequencing Data Format Converter'
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): generic sequencing file-format conversion utility; no supported readout. Curated out (below the bar for a catalogue entry).'
+added: '2026-11-21'
+evidence: NGS-FC supports conversion among 14 sequencing data formats and provides interfaces for additional converters.

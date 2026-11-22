@@ -1,0 +1,18 @@
+name: InSilicoSeq
+category: dry
+summary: Simulates Illumina metagenomic sequencing data for benchmarking and experimental design.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty630
+  year: 2018
+  journal: Bioinformatics
+  first_author: Gourlé H
+  last_author: Bongcam-Rudloff E
+  title: Simulating Illumina metagenomic data with InSilicoSeq
+links: {}
+added: '2026-11-21'
+evidence: InSilicoSeq simulates realistic Illumina metagenomic data in parallel.

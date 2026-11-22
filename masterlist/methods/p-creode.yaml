@@ -1,0 +1,21 @@
+name: p-Creode
+category: dry
+summary: Infers branching developmental trajectories from single-cell measurements using unsupervised graph analysis.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2017.10.012
+  year: 2018
+  journal: Cell Systems
+  first_author: Herring CA
+  last_author: Lau KS
+  title: Unsupervised Trajectory Analysis of Single-Cell RNA-Seq and Imaging Data Reveals Alternative Tuft Cell Origins in
+    the Gut
+links: {}
+added: '2026-11-21'
+evidence: p-Creode produces and compares branching graphs to infer cell-state transitions from single-cell RNA-seq, mass cytometry,
+  and multiplex immunofluorescence data.

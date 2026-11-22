@@ -1,0 +1,24 @@
+name: tXR-seq
+full_name: translesion excision repair-sequencing
+category: wet
+summary: Translesion synthesis and sequencing of damage-containing excision products generate genome-wide DNA repair maps.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1073/pnas.1706021114
+  year: 2017
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Li W
+  last_author: Sancar A
+  title: Human genome-wide repair map of DNA damage caused by the cigarette smoke carcinogen benzo[a]pyrene
+links: {}
+added: '2026-11-21'
+evidence: Damage-specific immunoprecipitation and translesion synthesis of excised oligonucleotides produced human genome-wide
+  repair maps.

@@ -1,0 +1,22 @@
+name: PLAIDOH
+full_name: Predicting LncRNA Activity through Integrative Data-driven 'Omics and Heuristics
+category: dry
+summary: Integrates multiple omics datasets to rank predicted functional connections between lncRNAs, genes, and proteins.
+readouts:
+- rna
+- 3d-genome
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-019-5497-4
+  year: 2019
+  journal: BMC Genomics
+  first_author: Pyfrom SC
+  last_author: Payton JE
+  title: 'PLAIDOH: a novel method for functional prediction of long non-coding RNAs identifies cancer-specific LncRNA activities'
+links: {}
+added: '2026-11-21'
+evidence: PLAIDOH integrates transcriptome, subcellular localization, enhancer, genome architecture, chromatin interaction,
+  and RNA-binding data to rank functional connections.

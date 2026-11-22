@@ -1,0 +1,24 @@
+name: SIDR
+full_name: simultaneous isolation of genomic DNA and total RNA
+category: wet
+summary: Separates genomic DNA and total RNA from the same single cell for parallel genome and transcriptome sequencing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/gr.223263.117
+  year: 2017
+  journal: Genome Research
+  first_author: Han KY
+  last_author: Park WY
+  title: 'SIDR: simultaneous isolation and parallel sequencing of genomic DNA and total RNA from single cells'
+links: {}
+added: '2026-11-21'
+evidence: Hypotonic lysis and antibody-conjugated magnetic microbeads separate genomic DNA and total RNA suitable for single-cell
+  sequencing.

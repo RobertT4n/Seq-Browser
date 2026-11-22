@@ -1,0 +1,21 @@
+name: PinAPL-Py
+full_name: Platform-independent Analysis of Pooled Screens using Python
+category: dry
+summary: Analyzes pooled CRISPR screen sequencing data through quality control, guide counting, enrichment analysis, and gene
+  ranking.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-017-16193-9
+  year: 2017
+  journal: Scientific Reports
+  first_author: Spahn PN
+  last_author: Harismendy O
+  title: 'PinAPL-Py: A comprehensive web-application for the analysis of CRISPR/Cas9 screens'
+links: {}
+added: '2026-11-21'
+evidence: The workflow includes sequence quality control, sgRNA extraction and alignment, enrichment or depletion analysis,
+  and gene ranking.

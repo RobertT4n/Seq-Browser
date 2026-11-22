@@ -1,0 +1,20 @@
+name: GenePy
+category: dry
+summary: Scores gene-level pathogenicity burden per individual using variant frequency, zygosity and a user-defined deleteriousness
+  metric.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2877-3
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Mossotto E
+  last_author: Ennis S
+  title: GenePy - a score for estimating gene pathogenicity in individuals using next-generation sequencing data
+links: {}
+added: '2026-11-21'
+evidence: GenePy transforms per-individual next-generation sequencing data from variant-level to gene-level scores using allele
+  frequency, zygosity and a deleteriousness metric.

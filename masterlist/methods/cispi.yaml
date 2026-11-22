@@ -1,0 +1,18 @@
+name: CisPi
+category: dry
+summary: Scores associations between lincRNA and local gene expression to identify candidate cis-acting regulatory transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty574
+  year: 2018
+  journal: Bioinformatics
+  first_author: Wang Z
+  last_author: Yang XH
+  title: 'CisPi: a transcriptomic score for disclosing cis-acting disease-associated lincRNAs'
+links: {}
+added: '2026-11-21'
+evidence: CisPi quantifies mutual information between lincRNAs and local gene expression in response to perturbation.

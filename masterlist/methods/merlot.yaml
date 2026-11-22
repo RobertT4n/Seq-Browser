@@ -1,0 +1,20 @@
+name: MERLoT
+category: dry
+summary: A tool reconstructs complex cell differentiation trees and imputes temporal expression profiles from single-cell
+  transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz706
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Parra RG
+  last_author: Soeding J
+  title: Reconstructing complex lineage trees from scRNA-seq data using MERLoT
+  preprint_doi: 10.1101/261768
+links: {}
+added: '2026-11-21'
+evidence: MERLoT reconstructs lineage trees from single-cell transcriptomics and imputes expression profiles along them.

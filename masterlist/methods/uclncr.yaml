@@ -1,0 +1,20 @@
+name: UClncR
+full_name: Ultrafast and Comprehensive lncRNA detection pipeline
+category: dry
+summary: Assembles transcripts and predicts, quantifies and annotates known and novel long noncoding RNAs from RNA-seq alignments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-017-14595-3
+  year: 2017
+  journal: Scientific Reports
+  first_author: Sun Z
+  last_author: Kocher JP
+  title: 'UClncR: Ultrafast and comprehensive long non-coding RNA detection from RNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: UClncR takes RNA-seq alignment files, assembles transcripts, predicts lncRNA candidates and quantifies and annotates
+  known and novel candidates.

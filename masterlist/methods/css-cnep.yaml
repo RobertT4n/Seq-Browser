@@ -1,0 +1,23 @@
+name: CSS-CNEP
+full_name: Conservation Signature Score by CNEP
+category: dry
+summary: CSS-CNEP uses conservation and constrained-element annotations to predict constrained non-exonic bases that are poorly
+  predicted by CNEP.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-020-19962-9
+  year: 2020
+  journal: Nature Communications
+  first_author: Grujic O
+  last_author: Ernst J
+  title: Identification and characterization of constrained non-exonic bases lacking predictive epigenomic and transcription
+    factor binding annotations
+  preprint_doi: 10.1101/722876
+links: {}
+added: '2026-11-21'
+evidence: CSS-CNEP uses conservation state and constrained element annotations to predict constrained non-exonic bases with
+  low CNEP scores.

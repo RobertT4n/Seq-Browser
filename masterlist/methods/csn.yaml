@@ -1,0 +1,21 @@
+name: CSN
+full_name: cell-specific network
+category: dry
+summary: Constructs gene-association networks for individual cells from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkz172
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Dai H
+  last_author: Chen L
+  title: Cell-specific network constructed by single-cell RNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: CSN constructs one gene-association network per cell and can also construct networks for individual bulk RNA-seq
+  samples.

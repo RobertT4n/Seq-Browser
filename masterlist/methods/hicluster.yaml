@@ -1,0 +1,18 @@
+name: HiCluster
+category: dry
+summary: Clusters single-cell Hi-C contact matrices after imputation using convolution and random walk.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/506717
+  year: 2018
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: J
+  title: 'HiCluster: A Robust Single-Cell Hi-C Clustering Method Based on Convolution and Random Walk'
+links: {}
+added: '2026-11-21'
+evidence: HiCluster clusters sparse single-cell Hi-C data using imputations based on linear convolution and random walk.

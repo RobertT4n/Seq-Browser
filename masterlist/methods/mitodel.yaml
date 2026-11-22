@@ -1,0 +1,18 @@
+name: MitoDel
+category: dry
+summary: Detects mitochondrial DNA deletions and quantifies their heteroplasmy from next-generation sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1821-7
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Bosworth CM
+  last_author: LaFramboise T
+  title: Detection and quantification of mitochondrial DNA deletions from next-generation sequence data
+links: {}
+added: '2026-11-21'
+evidence: MitoDel detects mitochondrial deletions, including the common deletion at heteroplasmy levels well below 1%.

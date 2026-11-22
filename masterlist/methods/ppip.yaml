@@ -1,0 +1,20 @@
+name: PPIP
+category: dry
+summary: A peptidogenomics pipeline that combines RNA-seq and peptidomics data to identify endogenous peptides.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jproteome.8b00718
+  year: 2018
+  journal: Journal of Proteome Research
+  first_author: Rong M
+  last_author: Liu Z
+  title: 'PPIP: Automated Software for Identification of Bioactive Endogenous Peptides'
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): primary output is peptide identification from mass spectrometry; RNA only supplies the reference. Not a sequencing method.'
+added: '2026-11-21'
+evidence: PPIP assembles transcripts from RNA-seq, constructs a protein reference and identifies peptides using peptidomics
+  data.

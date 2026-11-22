@@ -1,0 +1,22 @@
+name: MapRRCon
+full_name: mapping repeat reads to a consensus
+category: dry
+summary: Maps ChIP-seq reads to transposable element consensus sequences to identify proteins binding repetitive DNA.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1722565115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Sun X
+  last_author: Boeke JD
+  pmid: '29802231'
+  pmcid: PMC6004460
+  title: Transcription factor profiling reveals molecular choreography and key regulators of human retrotransposon expression
+links: {}
+added: '2026-11-21'
+evidence: MapRRCon maps ChIP-seq reads to transposable element consensus sequences after whole-genome alignment to identify
+  binding proteins.

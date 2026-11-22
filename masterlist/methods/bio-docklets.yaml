@@ -1,0 +1,19 @@
+name: Bio-Docklets
+category: dry
+summary: Containerized pipelines simplify execution and visualization of RNA-seq and ChIP-seq analyses.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/gix048
+  year: 2017
+  journal: GigaScience
+  first_author: Kim B
+  last_author: Krampis K
+  title: 'Bio-Docklets: virtualization containers for single-step execution of NGS pipelines'
+links: {}
+added: '2026-11-21'
+evidence: Bio-Docklets packages RNA sequencing and ChIP-seq pipelines in Docker containers with single input and output endpoints.

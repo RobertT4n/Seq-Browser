@@ -1,0 +1,20 @@
+name: PREDICTD
+full_name: PaRallel Epigenomics Data Imputation with Cloud-based Tensor Decomposition
+category: dry
+summary: Tensor decomposition method that imputes missing epigenomic experiments across cell types.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-018-03635-9
+  year: 2018
+  journal: Nature Communications
+  first_author: Durham TJ
+  last_author: Noble WS
+  title: PREDICTD PaRallel Epigenomics Data Imputation with Cloud-based Tensor Decomposition
+links: {}
+added: '2026-11-21'
+evidence: PREDICTD uses tensor decomposition to impute missing epigenomic experiments simultaneously.

@@ -1,0 +1,18 @@
+name: HSRA
+category: dry
+summary: Distributed RNA-seq spliced read aligner that extends HISAT2 using Hadoop MapReduce.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0201483
+  year: 2018
+  journal: PLOS ONE
+  first_author: Expósito RR
+  last_author: Touriño J
+  title: 'HSRA: Hadoop-based spliced read aligner for RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HSRA extends a spliced read aligner for RNA-seq data to distributed memory systems using Hadoop MapReduce.

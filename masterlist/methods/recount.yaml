@@ -1,0 +1,23 @@
+name: REcount
+category: wet
+summary: PCR-free sequencing directly counts DNA tags associated with engineered genetic constructs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+reference:
+  doi: 10.1186/s13059-019-1691-6
+  year: 2019
+  journal: Genome Biol
+  first_author: Gohl DM
+  last_author: Beckman KB
+  pmid: '31036053'
+  pmcid: PMC6489363
+  title: 'Measuring sequencer size bias using REcount: a novel method for highly accurate Illumina sequencing-based quantification'
+  preprint_doi: 10.1101/388108
+links: {}
+added: '2026-11-21'
+evidence: REcount is a PCR-free direct counting method for sequencing-based quantification of engineered genetic constructs.

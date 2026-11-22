@@ -1,0 +1,19 @@
+name: toaSTR
+category: dry
+summary: Web application for forensic short tandem repeat genotyping and interpretation of massively parallel sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.fsigen.2018.07.006
+  year: 2018
+  journal: 'Forensic Science International: Genetics'
+  first_author: Ganschow S
+  last_author: Tiemann C
+  title: 'toaSTR: A web application for forensic STR genotyping by massively parallel sequencing'
+links: {}
+added: '2026-11-21'
+evidence: toaSTR supports multiplex PCR kits and uses a sequence-based stutter model to distinguish biological alleles from
+  artifacts.

@@ -1,0 +1,19 @@
+name: netSmooth
+category: dry
+summary: Smooths single-cell RNA-seq expression values using network-derived covariance priors.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.13511.1
+  year: 2018
+  journal: F1000Research
+  first_author: Ronen J
+  last_author: Akalin A
+  title: 'netSmooth: Network-smoothing based imputation for single cell RNA-seq'
+  preprint_doi: 10.1101/234021
+links: {}
+added: '2026-11-21'
+evidence: netSmooth uses network diffusion and expression covariance priors to smooth scRNA-seq data and improve clustering.

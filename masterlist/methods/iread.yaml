@@ -1,0 +1,20 @@
+name: iREAD
+full_name: intron REtention Analysis and Detector
+category: dry
+summary: Detects intron retention events genome-wide from RNA-seq read coverage and distribution.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-6541-0
+  year: 2020
+  journal: BMC Genomics
+  first_author: Li HD
+  last_author: Price ND
+  title: 'iREAD: a tool for intron retention detection from RNA-seq data'
+  preprint_doi: 10.1101/135624
+links: {}
+added: '2026-11-21'
+evidence: iREAD counts reads overlapping introns and analyzes their depth and distribution to detect retained introns.

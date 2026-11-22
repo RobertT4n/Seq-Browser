@@ -1,0 +1,22 @@
+name: Graphmap2
+category: dry
+summary: Graphmap2 maps long RNA-seq reads with awareness of splice junctions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1101/720458
+  year: 2019
+  journal: bioRxiv
+  first_author: Maric
+  last_author: M
+  title: Graphmap2 - splice-aware RNA-seq mapper for long reads
+links: {}
+added: '2026-11-21'
+evidence: Graphmap2 is a splice-aware mapper tailored to long reads produced by PacBio and Oxford Nanopore devices.

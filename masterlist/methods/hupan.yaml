@@ -1,0 +1,20 @@
+name: HUPAN
+full_name: HUman Pan-genome ANalysis
+category: dry
+summary: HUPAN builds a human pan-genome from sequenced and assembled genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1751-y
+  year: 2019
+  journal: Genome Biology
+  first_author: Duan Z
+  last_author: Wei C
+  title: 'HUPAN: a pan-genome analysis pipeline for human genomes'
+links: {}
+added: '2026-11-21'
+evidence: HUPAN was applied to deep sequencing and assembled Han Chinese genomes to identify sequences absent from the human
+  reference.

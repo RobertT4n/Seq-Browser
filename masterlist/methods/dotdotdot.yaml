@@ -1,0 +1,23 @@
+name: dotdotdot
+category: dry
+summary: Quantifies transcripts in multiplex smFISH images and supports differential expression analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkaa312
+  year: 2020
+  journal: Nucleic Acids Res
+  first_author: Maynard KR
+  last_author: Martinowich K
+  pmid: '32383753'
+  pmcid: PMC7293004
+  title: 'dotdotdot: an automated approach to quantify multiplex single molecule fluorescent in situ hybridization (smFISH)
+    images in complex tissues'
+  preprint_doi: 10.1101/781559
+links: {}
+added: '2026-11-21'
+evidence: dotdotdot quantifies RNA transcripts in single nuclei and was used to analyze spatial gene expression in human cortex.

@@ -1,0 +1,21 @@
+name: SURPI+
+category: dry
+summary: Clinical bioinformatics pipeline that analyzes metagenomic sequencing data and reports detected pathogens.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.238170.118
+  year: 2019
+  journal: Genome Res
+  first_author: Miller S
+  last_author: Chiu CY
+  pmid: '30992304'
+  pmcid: PMC6499319
+  title: Laboratory validation of a clinical metagenomic sequencing assay for pathogen detection in cerebrospinal fluid
+  preprint_doi: 10.1101/330381
+links: {}
+added: '2026-11-21'
+evidence: SURPI+ rapidly analyzes metagenomic sequencing data and automatically reports detected pathogens.

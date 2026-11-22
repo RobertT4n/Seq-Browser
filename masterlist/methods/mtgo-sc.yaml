@@ -1,0 +1,20 @@
+name: MTGO-SC
+category: dry
+summary: Network module detection method for single-cell RNA-seq that combines gene interaction topology with external functional
+  annotations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.00953
+  year: 2019
+  journal: Frontiers in Genetics
+  first_author: Nazzicari N
+  last_author: Marini S
+  title: MTGO-SC, A Tool to Explore Gene Modules in Single-Cell RNA Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: MTGO-SC identifies gene functional modules using network topology and annotations and can analyze a separate network
+  for each cell cluster.

@@ -1,0 +1,29 @@
+name: TGBS
+full_name: targeted gene bisulfite sequencing
+category: wet
+summary: Uses two-stage PCR and bisulfite sequencing to measure DNA methylation at selected loci across samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- human
+- other-vertebrate
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/291732
+  year: 2018
+  journal: bioRxiv
+  first_author: Cummings
+  last_author: L. H
+  title: Targeted Gene Bisulfite Sequencing Identifies Differential Methylation in p21
+links: {}
+added: '2026-11-21'
+evidence: TGBS assessed site-specific p21 methylation in human and rat kidney cells using a two-stage PCR approach.

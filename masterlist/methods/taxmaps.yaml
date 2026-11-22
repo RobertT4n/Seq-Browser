@@ -1,0 +1,19 @@
+name: taxMaps
+category: dry
+summary: Classifies metagenomic short reads taxonomically against comprehensive sequence databases.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.225276.117
+  year: 2018
+  journal: Genome Research
+  first_author: Corvelo A
+  last_author: Zody MC
+  title: 'taxMaps: comprehensive and highly accurate taxonomic classification of short-read data in reasonable time'
+  preprint_doi: 10.1101/134023
+links: {}
+added: '2026-11-21'
+evidence: taxMaps is a scalable taxonomic classification tool for metagenomic reads.

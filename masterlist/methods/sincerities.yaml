@@ -1,0 +1,20 @@
+name: SINCERITIES
+full_name: SINgle CEll Regularized Inference using TIme-stamped Expression profileS
+category: dry
+summary: A method infers directed gene regulatory relationships from time-stamped single-cell expression profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx575
+  year: 2017
+  journal: Bioinformatics
+  first_author: Papili Gao N
+  last_author: Gunawan R
+  title: 'SINCERITIES: inferring gene regulatory networks from time-stamped single cell transcriptional expression profiles'
+links: {}
+added: '2026-11-21'
+evidence: SINCERITIES uses temporal changes in expression distributions and regularized regression to recover directed regulatory
+  relationships.

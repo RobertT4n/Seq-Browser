@@ -1,0 +1,24 @@
+name: mSTARR-seq
+category: wet
+summary: A high-throughput assay quantifies how DNA methylation affects regulatory element activity.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1101/146829
+  year: 2017
+  journal: bioRxiv
+  first_author: Lea
+  last_author: J
+  title: Genome-wide quantification of the effects of DNA methylation on human gene regulation
+links: {}
+added: '2026-11-21'
+evidence: mSTARR-seq assayed methylation-dependent regulatory activity in 14% of the euchromatic human genome.

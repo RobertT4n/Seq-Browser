@@ -1,0 +1,19 @@
+name: scMerge
+category: dry
+summary: Integrates single-cell RNA-seq datasets using factor analysis, stably expressed genes, and pseudoreplicates.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1820006116
+  year: 2019
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Lin Y
+  last_author: Yang JYH
+  title: scMerge leverages factor analysis, stable expression, and pseudoreplication to merge multiple single-cell RNA-seq
+    datasets
+links: {}
+added: '2026-11-21'
+evidence: scMerge integrates multiple single-cell RNA-seq datasets using factor analysis of stably expressed genes and pseudoreplicates.

@@ -1,0 +1,19 @@
+name: EAGLE
+full_name: Explicit Alternative Genome Likelihood Evaluator
+category: dry
+summary: Method that evaluates sequencing support for candidate genomic variants using explicit genome hypotheses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12920-018-0342-1
+  year: 2018
+  journal: BMC Medical Genomics
+  first_author: Kuo T
+  last_author: Horton P
+  title: 'EAGLE: Explicit Alternative Genome Likelihood Evaluator'
+links: {}
+added: '2026-11-21'
+evidence: EAGLE computes the probability of observed sequencing reads under hypotheses incorporating candidate variants.

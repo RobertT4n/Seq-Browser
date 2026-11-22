@@ -1,0 +1,25 @@
+name: MeTRS
+full_name: meta-total RNA sequencing
+category: wet
+summary: Profiles microbial communities by shotgun sequencing of total RNA.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1038/s41522-017-0046-x
+  year: 2018
+  journal: npj Biofilms and Microbiomes
+  first_author: Cottier F
+  last_author: Pavelka N
+  title: Advantages of meta-total RNA sequencing (MeTRS) over shotgun metagenomics and amplicon-based sequencing in the profiling
+    of complex microbial communities
+links: {}
+added: '2026-11-21'
+evidence: MeTRS was benchmarked on human stool spiked with known abundances of bacterial and fungal cells.

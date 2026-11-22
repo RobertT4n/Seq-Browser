@@ -1,0 +1,23 @@
+name: LR-LCH
+category: wet
+summary: Uses capture hybridization of long DNA fragments to enrich divergent target sequences for high-throughput sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- other-vertebrate
+reference:
+  doi: 10.1007/978-1-4939-7717-8_3
+  year: 2018
+  journal: Methods in Molecular Biology
+  first_author: Chen X
+  last_author: Zhang YP
+  title: Capture Hybridization of Long-Range DNA Fragments for High-Throughput Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Capture of 2 kb libraries from three amphibian samples improved sensitivity and efficiency compared with 480 bp
+  libraries.

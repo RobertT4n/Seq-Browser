@@ -1,0 +1,21 @@
+name: NeST
+full_name: NGS-analysis Toolkit
+category: dry
+summary: Modular framework that combines variant callers to produce consensus variant calls from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/323535
+  year: 2018
+  journal: bioRxiv
+  first_author: Ravishankar S
+  last_author: Vannberg F
+  title: 'Next-generation Sequence-analysis Toolkit (NeST): A standardized bioinformatics framework for analyzing Single Nucleotide
+    Polymorphisms in next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NeST combines variant callers and was validated using targeted-amplicon sequencing data from Plasmodium falciparum
+  isolates.

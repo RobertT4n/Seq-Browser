@@ -1,0 +1,20 @@
+name: mountainClimber
+category: dry
+summary: Identifies alternative transcription start and polyadenylation sites as change points in RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2019.07.011
+  year: 2019
+  journal: Cell Syst
+  first_author: Cass AA
+  last_author: Xiao X
+  pmid: '31542416'
+  pmcid: PMC6813887
+  title: mountainClimber Identifies Alternative Transcription Start and Polyadenylation Sites in RNA-Seq
+links: {}
+added: '2026-11-21'
+evidence: The cumulative-sum-based approach identifies multiple alternative start or polyadenylation sites from a single sample.

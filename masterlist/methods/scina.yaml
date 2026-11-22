@@ -1,0 +1,21 @@
+name: SCINA
+full_name: Semi-supervised Category Identification and Assignment
+category: dry
+summary: Uses established gene signatures to classify single-cell and bulk expression profiles with a semi-supervised model.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes10070531
+  year: 2019
+  journal: Genes
+  first_author: Zhang Z
+  last_author: Wang T
+  title: 'SCINA: A Semi-Supervised Subtyping Algorithm of Single Cells and Bulk Samples'
+links: {}
+added: '2026-11-21'
+evidence: SCINA uses established gene signatures in an expectation-maximization model and was applied to single-cell and bulk
+  gene expression data.

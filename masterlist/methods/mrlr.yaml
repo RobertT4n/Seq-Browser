@@ -1,0 +1,21 @@
+name: MRLR
+full_name: Meiotic Recombination identification by Linked-Read sequencing
+category: dry
+summary: Pipeline that reconstructs gamete genomes from linked-read haplotypes and trio pedigrees to identify meiotic recombination
+  events.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/363341
+  year: 2018
+  journal: bioRxiv
+  first_author: Xu
+  last_author: Z
+  title: Identification of meiotic recombination through gamete genome reconstruction using whole genome linked-reads
+links: {}
+added: '2026-11-21'
+evidence: MRLR uses trio pedigree information and whole-genome linked-read haplotypes to reconstruct gamete genomes and identify
+  haplotype exchanges.

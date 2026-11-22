@@ -1,0 +1,27 @@
+name: MICDDRP
+full_name: multiplex immunofluorescent cell-based detection of DNA, RNA and Protein
+category: wet
+summary: Combines branched DNA in situ hybridization and immunofluorescence to visualize HIV nucleic acids and protein in
+  individual cells.
+readouts:
+- rna
+- genome-sequence
+- protein
+resolution:
+- single-cell
+- subcellular
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-017-01693-z
+  year: 2017
+  journal: Nature Communications
+  first_author: Puray-Chavez M
+  last_author: Sarafianos SG
+  title: Multiplex single-cell visualization of nucleic acids and protein during HIV infection
+links: {}
+added: '2026-11-21'
+evidence: MICDDRP simultaneously visualizes HIV spliced and unspliced RNA, cytoplasmic and nuclear DNA, and Gag in single
+  cells.

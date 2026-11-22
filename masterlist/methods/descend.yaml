@@ -1,0 +1,20 @@
+name: DESCEND
+category: dry
+summary: Deconvolves cross-cell gene expression distributions from noisy single-cell RNA-seq counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1721085115
+  year: 2018
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Wang J
+  last_author: Zhang NR
+  title: Gene expression distribution deconvolution in single-cell RNA sequencing
+  preprint_doi: 10.1101/227033
+links: {}
+added: '2026-11-21'
+evidence: DESCEND estimates expression distribution properties including dispersion and burstiness and can adjust for cell-level
+  covariates.

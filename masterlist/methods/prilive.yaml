@@ -1,0 +1,18 @@
+name: PriLive
+category: dry
+summary: Tool that filters sensitive human sequence information during sequencing to support privacy protection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty128
+  year: 2018
+  journal: Bioinformatics
+  first_author: Loka TP
+  last_author: Renard BY
+  title: 'PriLive: privacy-preserving real-time filtering for next-generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: PriLive detects and removes human sequence information while the sequencing machine is running.

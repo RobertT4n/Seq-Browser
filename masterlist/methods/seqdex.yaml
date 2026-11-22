@@ -1,0 +1,21 @@
+name: SeqDex
+category: dry
+summary: Assigns assembled contigs from mixed-organism sequencing data to their likely source organisms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.00853
+  year: 2019
+  journal: Front Genet
+  first_author: Chiodi A
+  last_author: Brilli M
+  pmid: '31608107'
+  pmcid: PMC6761303
+  title: 'SeqDeχ: A Sequence Deconvolution Tool for Genome Separation of Endosymbionts From Mixed Sequencing Samples'
+links: {}
+added: '2026-11-21'
+evidence: SeqDex uses partial taxonomic affiliations and compositional analysis to predict the origins of contigs in mixed
+  assemblies.

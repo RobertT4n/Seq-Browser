@@ -1,0 +1,20 @@
+name: NBGLM-LBC
+category: dry
+summary: NBGLM-LBC corrects gene-dependent library biases in multiplexed RNA-seq expression profiles.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3017-9
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Katayama S
+  last_author: Kere J
+  title: Guide for library design and bias correction for large-scale transcriptome studies using highly multiplexed RNAseq
+    methods
+links: {}
+added: '2026-11-21'
+evidence: The authors present NBGLM-LBC to correct gene-dependent library biases observed in STRT RNA-seq libraries.
