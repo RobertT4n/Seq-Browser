@@ -8,7 +8,7 @@ A browser for sequencing assays: a curated, continuously updated catalogue of se
 
 ![Seq-Browser flow](docs/brand/seqbrowser-workflow.svg)
 
-## Rationale
+## Rationale and purpose
 
 Frederick Sanger's invention of DNA sequencing in the 1970s allowed scientists to "read" the genome. This method, Sanger sequencing, utilized the concept of dideoxy chain termination to sequence DNA, leading to the sequencing of the entire human genome in 2003, costing $3B USD.
 
@@ -18,7 +18,7 @@ In recent years, there has been a remarkable explosion of different sequencing a
 
 Seq-Browser catalogues them and keeps the list up to date automatically.
 
-## How it works
+## Autonomous method retrieval
 
 ```
 Fetch      bioRxiv/medRxiv + Europe PMC (PubMed journals), etc:
@@ -39,14 +39,14 @@ Masterlist masterlist/methods/*.yaml: one file per method
 ```
 
 
-## Labels
+## Method labelling
 
 Each method is tagged on independent axes; allowed values live in [`taxonomy.yaml`](taxonomy.yaml):
 **category** (wet / dry), **readouts** (3d-genome, rna, histone-modification, ...), **resolution** (bulk / single-cell / spatial / subcellular), **scope** (genome-wide / targeted), **chemistry** (proximity-ligation, mnase, tn5, droplet-microfluidics, ...), plus **variant_of** links to parent methods (e.g. RCMC -> Micro-C).
 
 Computational (dry) methods are collected but kept "under construction" until curated.
 
-## Submitting a method
+## Contributing to the database
 
 Use the **[Submit page](https://robertt4n.github.io/Seq-Browser/submit.html)**, which opens a pre-filled submission issue. 
 Submissions by this approach are added to the weekly trawl with priority. If you have suggestions to improve this resource, please please contact me on [Twitter](https://x.com/RobertT4n) or [LinkedIn](https://www.linkedin.com/in/robert-tan-597a57147/). Thank you :).
