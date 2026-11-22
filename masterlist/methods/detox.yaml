@@ -1,0 +1,21 @@
+name: DeTox
+category: dry
+summary: Detects candidate toxins in transcriptomes using complementary sequence similarity and structural approaches.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae094
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Ringeval A
+  last_author: Puillandre N
+  pmid: '38493344'
+  pmcid: PMC10944572
+  title: 'DeTox: a pipeline for the detection of toxins in venomous organisms'
+links: {}
+added: '2026-11-21'
+evidence: DeTox was tested on published transcriptomes from gastropod mollusks, cnidarians, and snakes to identify putative
+  toxins.

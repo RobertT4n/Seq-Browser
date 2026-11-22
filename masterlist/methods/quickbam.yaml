@@ -1,0 +1,20 @@
+name: quickBAM
+category: dry
+summary: Software library that accelerates access to sequencing data in BAM files using parallel storage input and output.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad463
+  year: 2023
+  journal: Bioinformatics
+  first_author: Pitman A
+  last_author: Qiao Y
+  pmid: '37498562'
+  pmcid: PMC10412403
+  title: 'quickBAM: a parallelized BAM file access API for high-throughput sequence analysis informatics'
+links: {}
+added: '2026-11-21'
+evidence: quickBAM accelerates sequencing data access by exploiting parallelism in commodity storage hardware.

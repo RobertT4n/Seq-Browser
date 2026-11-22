@@ -1,0 +1,22 @@
+name: Dip3D
+category: dry
+summary: Reconstructs haplotype-specific diploid 3D genome structures from Pore-C data.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.08.29.555243
+  year: 2023
+  journal: bioRxiv
+  first_author: Chen Y
+  last_author: Xiao C
+  title: High-resolution diploid 3D genome reconstruction using Pore-C data
+links: {}
+added: '2026-11-21'
+evidence: Dip3D uses Pore-C data for genome-wide SNV calling, haplotype imputation, and haplotype-specific 3D structure discovery.

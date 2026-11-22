@@ -1,0 +1,22 @@
+name: NEUROeSTIMator
+category: dry
+summary: Estimates neuronal activation from single-cell and spatial transcriptomic signals using deep learning.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-44503-5
+  year: 2024
+  journal: Nat Commun
+  first_author: Bahl E
+  last_author: Michaelson JJ
+  pmid: '38278804'
+  pmcid: PMC10817898
+  title: Using deep learning to quantify neuronal activation from single-cell and spatial transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: NEUROeSTIMator integrates transcriptomic signals to estimate neuronal activation and was applied to spatial transcriptomic
+  data.

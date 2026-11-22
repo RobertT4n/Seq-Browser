@@ -1,0 +1,31 @@
+name: ICEBERG
+full_name: Increased Capture of Enrichment By Exhaustive Replicate aGgregation
+category: wet
+summary: An experimental and analytical pipeline aggregates many CUT&RUN replicates to map a spectrum of chromatin enrichment
+  events.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2023.06.29.547050
+  year: 2023
+  journal: bioRxiv
+  first_author: Nordin A
+  last_author: Cantù C
+  title: Exhaustive identification of genome-wide binding events of transcriptional regulators with ICEBERG
+links: {}
+added: '2026-11-21'
+evidence: ICEBERG aggregates CUT&RUN replicates to map H3K4me3-marked regions and beta-catenin targets in human colorectal
+  cancer cells.
+targets:
+- H3K4me3
+- beta-catenin

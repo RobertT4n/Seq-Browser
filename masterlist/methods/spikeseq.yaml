@@ -1,0 +1,26 @@
+name: SpikeSeq
+category: wet
+summary: A targeted amplicon sequencing method profiles the SARS-CoV-2 spike gene.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1128/spectrum.02982-23
+  year: 2024
+  journal: Microbiol Spectr
+  first_author: Keller MW
+  last_author: Barnes JR
+  pmid: '38084972'
+  pmcid: PMC10783008
+  title: Targeted amplification and genetic sequencing of the severe acute respiratory syndrome coronavirus 2 surface glycoprotein
+  preprint_doi: 10.1101/2023.07.28.551051
+links: {}
+added: '2026-11-21'
+evidence: SpikeSeq amplifies and sequences the SARS-CoV-2 S-gene and was compared with whole-genome data for 321 matching
+  samples.

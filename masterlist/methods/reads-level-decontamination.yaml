@@ -1,0 +1,21 @@
+name: Reads Level Decontamination
+category: dry
+summary: Reads Level Decontamination denoises 2bRAD-M sequencing data for microbial profiling.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fcimb.2023.1169101
+  year: 2023
+  journal: Front Cell Infect Microbiol
+  first_author: Hou Y
+  last_author: Liu X
+  pmid: '37674578'
+  pmcid: PMC10477713
+  title: Microbial signatures of neonatal bacterial meningitis from multiple body sites
+links: {}
+added: '2026-11-21'
+evidence: The authors developed RLD to decontaminate 2bRAD-M reads and identify microbial abundance differences in neonatal
+  samples.

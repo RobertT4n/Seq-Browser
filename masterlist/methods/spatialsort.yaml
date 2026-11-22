@@ -1,0 +1,22 @@
+name: SpatialSort
+category: dry
+summary: Uses spatial context and prior biological knowledge to cluster and annotate cells in spatial proteomics data.
+readouts:
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad242
+  year: 2023
+  journal: Bioinformatics
+  first_author: Lee E
+  last_author: Roth A
+  pmid: '37387130'
+  pmcid: PMC10311307
+  title: 'SpatialSort: a Bayesian model for clustering and cell population annotation of spatial proteomics data'
+links: {}
+added: '2026-11-21'
+evidence: SpatialSort accounts for the spatial affinities of cell types and prior information to improve clustering and automate
+  annotation.

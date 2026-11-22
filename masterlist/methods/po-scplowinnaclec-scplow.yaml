@@ -1,0 +1,24 @@
+name: PO_SCPLOWINNACLEC_SCPLOW
+category: dry
+summary: PO_SCPLOWINNACLEC_SCPLOW learns context-aware protein representations from protein interaction networks and a multi-organ
+  single-cell atlas.
+readouts:
+- protein-protein-interaction
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02341-3
+  year: 2024
+  journal: Nat Methods
+  first_author: Li MM
+  last_author: Zitnik M
+  pmid: '39039335'
+  pmcid: PMC11310085
+  title: Contextual AI models for single-cell protein biology
+  preprint_doi: 10.1101/2023.07.18.549602
+links: {}
+added: '2026-11-21'
+evidence: The approach learns protein representations on contextualized interaction networks using a multi-organ single-cell
+  atlas.

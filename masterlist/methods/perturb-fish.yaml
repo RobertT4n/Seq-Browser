@@ -1,0 +1,31 @@
+name: Perturb-FISH
+category: wet
+summary: Imaging-based spatial transcriptomics and optical guide detection link pooled perturbations to single-cell transcriptional
+  phenotypes.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+validated_system:
+- primary-cells
+- cell-line
+reference:
+  doi: 10.1016/j.cell.2025.02.012
+  year: 2025
+  journal: Cell
+  first_author: Binan L
+  last_author: Farhi SL
+  pmid: '40081369'
+  pmcid: PMC12135205
+  title: Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional
+    circuits
+  preprint_doi: 10.1101/2023.11.30.569494
+links: {}
+added: '2026-11-21'
+evidence: Perturb-FISH combines imaging spatial transcriptomics with parallel optical detection of in situ amplified guide
+  RNAs.

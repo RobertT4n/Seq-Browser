@@ -1,0 +1,22 @@
+name: DelSIEVE
+category: dry
+summary: A statistical method jointly infers single-nucleotide variants, somatic deletions, and cell phylogeny from single-cell
+  DNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03738-9
+  year: 2025
+  journal: Genome Biol
+  first_author: Kang S
+  last_author: Szczurek E
+  pmid: '40855447'
+  pmcid: PMC12376439
+  title: 'DelSIEVE: cell phylogeny modeling of single nucleotide variants and deletions from single-cell DNA sequencing data'
+  preprint_doi: 10.1101/2023.09.09.556903
+links: {}
+added: '2026-11-21'
+evidence: DelSIEVE distinguishes deletions from mutations and artifacts while inferring variants and cell phylogeny.

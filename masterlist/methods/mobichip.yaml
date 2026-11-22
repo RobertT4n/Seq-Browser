@@ -1,0 +1,29 @@
+name: MobiChIP
+category: wet
+summary: Constructs single-cell ChIP-seq libraries from tagmented nuclei to profile histone modifications.
+readouts:
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-pull-down
+- droplet-microfluidics
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1039/D4MO00111G
+  year: 2025
+  journal: Mol Omics
+  first_author: Yu X
+  last_author: Pei H
+  pmid: '39513632'
+  title: 'MobiChIP: a compatible library construction method of single-cell ChIP-seq based droplets'
+  preprint_doi: 10.1101/2023.12.31.573755
+links: {}
+added: '2026-11-21'
+evidence: The droplet-based single-cell ChIP-seq method profiles H3K27ac and H3K27me3 in peripheral blood mononuclear cells.
+targets:
+- H3K27ac
+- H3K27me3

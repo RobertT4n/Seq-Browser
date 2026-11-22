@@ -1,0 +1,31 @@
+name: iSCORED
+category: wet
+summary: Random genomic DNA reconstruction and nanopore sequencing rapidly quantify copy number variation and support tumor
+  methylation classification.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.10.17.23297170
+  year: 2023
+  journal: medRxiv
+  first_author: Emiliani FE
+  last_author: Lin C
+  title: 'iSCORED: nanopore-based random genomic sampling for intraoperative molecular diagnosis'
+links: {}
+added: '2026-11-21'
+evidence: iSCORED reconstructs random genomic DNA for nanopore sequencing and detected CNVs while allowing concurrent brain
+  tumor methylation classification.

@@ -1,0 +1,19 @@
+name: scANNA
+category: dry
+summary: Uses neural attention to learn gene associations from single-cell RNA sequencing data for marker selection and cell-type
+  classification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.05.29.542760
+  year: 2023
+  journal: bioRxiv
+  first_author: Davalos OA
+  last_author: Hoyer KK
+  title: Boosting Single-Cell RNA Sequencing Analysis with Simple Neural Attention
+links: {}
+added: '2026-11-21'
+evidence: Learned gene importance is used for downstream analyses including global marker selection and cell-type classification.

@@ -1,0 +1,20 @@
+name: pyHiM
+category: dry
+summary: A software toolbox reconstructs single-cell chromatin traces from sequential multiplexed DNA-FISH images.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: targeted
+reference:
+  doi: 10.1101/2023.09.19.558412
+  year: 2023
+  journal: bioRxiv
+  first_author: Xavier D
+  last_author: Marcelo N
+  title: pyHiM, a new open-source, multi-platform software package for spatial genomics based on multiplexed DNA-FISH imaging
+links: {}
+added: '2026-11-21'
+evidence: pyHiM reconstructs chromatin traces in individual cells from raw multicolor spatial genomics images.

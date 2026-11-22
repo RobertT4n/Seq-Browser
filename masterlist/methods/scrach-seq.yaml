@@ -1,0 +1,36 @@
+name: scRaCH-seq
+full_name: single-cell Rapid Capture Hybridization sequencing
+category: wet
+summary: Captures targeted transcripts from indexed single-cell cDNA for long-read analysis of isoforms and mutations.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- oligo-capture
+- long-read-sequencing
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.279322.124
+  year: 2025
+  journal: Genome Res
+  first_author: Peng H
+  last_author: Thijssen R
+  pmid: '39794120'
+  pmcid: PMC12047256
+  title: Single-cell Rapid Capture Hybridization sequencing reliably detects isoform usage and coding mutations in targeted
+    genes
+  preprint_doi: 10.1101/2024.01.30.577942
+links: {}
+added: '2026-11-21'
+evidence: The method captures targeted transcripts from stored and indexed single-cell cDNA using a probe panel and Oxford
+  Nanopore sequencing.

@@ -1,0 +1,21 @@
+name: CEFCON
+category: dry
+summary: Infers lineage-specific gene regulatory networks from single-cell RNA-seq and identifies regulators of cell fate.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-44103-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Wang P
+  last_author: Zeng J
+  pmid: '38123534'
+  pmcid: PMC10733330
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+links: {}
+added: '2026-11-21'
+evidence: CEFCON infers a cell-lineage-specific gene regulatory network and uses network control theory to identify driver
+  regulators.

@@ -1,0 +1,22 @@
+name: hdWGCNA
+category: dry
+summary: Framework infers and analyzes gene and isoform co-expression networks in high-dimensional single-cell and spatial
+  transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2023.100498
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Morabito S
+  last_author: Swarup V
+  pmid: '37426759'
+  pmcid: PMC10326379
+  title: hdWGCNA identifies co-expression networks in high-dimensional transcriptomics data
+links: {}
+added: '2026-11-21'
+evidence: hdWGCNA provides network inference, gene module identification, enrichment analysis, statistical tests, and visualization.

@@ -1,0 +1,21 @@
+name: PfaSTer
+category: dry
+summary: A machine learning classifier predicts pneumococcal serotypes from assembled genome sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.001033
+  year: 2023
+  journal: Microb Genom
+  first_author: Lee JT
+  last_author: Hao L
+  pmid: '37279053'
+  pmcid: PMC10327508
+  title: 'PfaSTer: a machine learning-powered serotype caller for <i>Streptococcus pneumoniae</i> genomes'
+links: {}
+added: '2026-11-21'
+evidence: PfaSTer uses k-mer dimensionality reduction and a random forest to identify 65 prevalent serotypes from assembled
+  pneumococcal genomes.

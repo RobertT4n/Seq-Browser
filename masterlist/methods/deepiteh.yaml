@@ -1,0 +1,23 @@
+name: DeepITEH
+category: dry
+summary: A deep learning framework integrates sequence and histone modification features to identify tissue-specific enhancer
+  RNAs.
+readouts:
+- rna
+- histone-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad375
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zhang T
+  last_author: Wang G
+  pmid: '37294799'
+  pmcid: PMC10281860
+  title: 'DeepITEH: a deep learning framework for identifying tissue-specific eRNAs from the human genome'
+links: {}
+added: '2026-11-21'
+evidence: DeepITEH uses RNA-seq and histone modification data across samples of the same tissue to improve enhancer RNA identification.

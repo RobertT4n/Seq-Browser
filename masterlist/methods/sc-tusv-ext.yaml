@@ -1,0 +1,21 @@
+name: Sc-TUSV-ext
+category: dry
+summary: Reconstructs tumour clonal lineages from single-cell DNA sequencing using single-nucleotide, copy-number and structural
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.07.570724
+  year: 2023
+  journal: bioRxiv
+  first_author: Bristy NA
+  last_author: Schwartz R
+  title: 'Sc-TUSV-ext: Single-cell clonal lineage inference from single nucleotide variants (SNV), copy number alterations
+    (CNA) and structural variants (SV)'
+links: {}
+added: '2026-11-21'
+evidence: Sc-TUSV-ext uses integer linear programming to integrate SNVs, CNAs and structural variations into clonal lineage
+  reconstruction.

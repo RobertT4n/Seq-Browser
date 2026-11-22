@@ -1,0 +1,22 @@
+name: LIDER
+full_name: celL embeddIng based Deep nEural netwoRk classifier
+category: dry
+summary: Supervised deep learning method that uses cell embeddings to identify cell types in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.15862
+  year: 2023
+  journal: PeerJ
+  first_author: Tang Y
+  last_author: Shi M
+  pmid: '37601262'
+  pmcid: PMC10439717
+  title: 'LIDER: cell embedding based deep neural network classifier for supervised cell type identification'
+links: {}
+added: '2026-11-21'
+evidence: LIDER combines embeddings learned by a stacked denoising autoencoder with a neural network classifier for cell-type
+  identification.

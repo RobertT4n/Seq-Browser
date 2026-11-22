@@ -1,0 +1,19 @@
+name: AtaCNV
+category: dry
+summary: AtaCNV detects high-resolution copy number variations from single-cell chromatin accessibility sequencing data.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.15.562383
+  year: 2023
+  journal: bioRxiv
+  first_author: Wang X
+  last_author: Xi R
+  title: Detecting copy number variations from single-cell chromatin sequencing data by AtaCNV
+links: {}
+added: '2026-11-21'
+evidence: AtaCNV detects copy number variations from scATAC-seq data and identifies tumor subclones.

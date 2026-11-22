@@ -1,0 +1,21 @@
+name: BLR
+full_name: Barcode Linked Reads
+category: dry
+summary: Performs haplotype phasing using data from multiple linked-read sequencing technologies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad1010
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Höjer P
+  last_author: Ahmadian A
+  pmid: '37941142'
+  pmcid: PMC10711428
+  title: 'BLR: a flexible pipeline for haplotype analysis of multiple linked-read technologies'
+links: {}
+added: '2026-11-21'
+evidence: BLR is a haplotyping pipeline that handles data from DBS, 10x Genomics, TELL-seq and stLFR.

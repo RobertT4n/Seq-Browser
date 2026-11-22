@@ -1,0 +1,19 @@
+name: scGCC
+category: dry
+summary: scGCC learns denoised cell embeddings using graph contrastive learning and clusters single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2023.3319551
+  year: 2023
+  journal: IEEE J Biomed Health Inform
+  first_author: Tian SW
+  last_author: Ji CM
+  pmid: '37751336'
+  title: 'scGCC: Graph Contrastive Clustering With Neighborhood Augmentations for scRNA-Seq Data Analysis'
+links: {}
+added: '2026-11-21'
+evidence: scGCC combines a graph attention representation-learning module with a clustering module and neighborhood augmentations.

@@ -1,0 +1,26 @@
+name: HYPPA
+full_name: HYbrid and Poly-polish Phage Assembly
+category: dry
+summary: HYPPA combines long-read assemblies and short-read sequencing to resolve phage terminal repeats and correct assembly
+  errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1099/mgen.0.001065
+  year: 2023
+  journal: Microb Genom
+  first_author: Elek CKA
+  last_author: Adriaenssens EM
+  pmid: '37463032'
+  pmcid: PMC10438801
+  title: 'A hybrid and poly-polish workflow for the complete and accurate assembly of phage genomes: a case study of ten przondoviruses'
+links: {}
+added: '2026-11-21'
+evidence: The workflow uses long-read assemblies with short-read sequencing to resolve direct terminal repeats and correct
+  errors.

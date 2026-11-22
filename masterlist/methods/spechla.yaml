@@ -1,0 +1,25 @@
+name: SpecHLA
+category: dry
+summary: A typing method reconstructs diploid HLA sequences from several sequencing data types using read binning and local
+  assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1016/j.crmeth.2023.100589
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Wang S
+  last_author: Li SC
+  pmid: '37714157'
+  pmcid: PMC10545945
+  title: SpecHLA enables full-resolution HLA typing from sequencing data
+links: {}
+added: '2026-11-21'
+evidence: SpecHLA performs full-resolution HLA typing and accepts data including PacBio and Oxford Nanopore reads.

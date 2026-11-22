@@ -1,0 +1,24 @@
+name: AD-seq
+full_name: adenosine deamination sequencing
+category: wet
+summary: Selective adenosine deamination enables single-base detection of N6-methyladenosine in RNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1021/acs.analchem.3c00502
+  year: 2023
+  journal: Anal Chem
+  first_author: Shao WX
+  last_author: Yuan BF
+  pmid: '37402148'
+  title: Single-Base Resolution Detection of <i>N</i><sup>6</sup>-Methyladenosine in RNA by Adenosine Deamination Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Adenosine is deaminated and read as guanosine, while m6A resists deamination and remains read as adenosine.

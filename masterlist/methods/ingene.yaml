@@ -1,0 +1,18 @@
+name: InGene
+category: dry
+summary: An unsupervised method scores genes by their influence on nonlinear single-cell RNA-seq embeddings.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.19.545592
+  year: 2023
+  journal: bioRxiv
+  first_author: Goswami C
+  last_author: Sengupta D
+  title: 'InGene: Finding influential genes from embeddings of nonlinear dimension reduction techniques'
+links: {}
+added: '2026-11-21'
+evidence: InGene assigns expressed genes importance scores based on their contribution to a low-dimensional map.

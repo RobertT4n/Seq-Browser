@@ -1,0 +1,20 @@
+name: scGeneRhythm
+category: dry
+summary: scGeneRhythm uses deep learning and Fourier transformation to cluster genes by expression patterns in the time and
+  frequency domains.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.26.568761
+  year: 2023
+  journal: bioRxiv
+  first_author: Jia Y
+  last_author: Ding J
+  title: 'scGeneRythm: Using Neural Networks and Fourier Transformation to Cluster Genes by Time-Frequency Patterns in Single-Cell
+    Data'
+links: {}
+added: '2026-11-21'
+evidence: The approach captures gene expression from both time and frequency domains to identify gene clusters.

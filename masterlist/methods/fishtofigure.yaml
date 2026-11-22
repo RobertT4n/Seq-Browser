@@ -1,0 +1,21 @@
+name: FISHtoFigure
+category: dry
+summary: Analyzes mRNA abundance, co-expression and spatial distribution in quantified multi-label smFISH data.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1101/2023.06.28.546871
+  year: 2023
+  journal: bioRxiv
+  first_author: Bentley-Abbot C
+  last_author: MacLeod A
+  title: 'FISHtoFigure: An easy-to-use tool for rapid, multi-target partitioning and analysis of sub-cellular mRNA transcripts
+    in smFISH data'
+links: {}
+added: '2026-11-21'
+evidence: FISHtoFigure analyzes mRNA abundance and co-expression in QuPath-quantified, multi-labelled smFISH data.

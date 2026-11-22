@@ -1,0 +1,19 @@
+name: DeepInverton
+category: dry
+summary: A deep learning model that identifies invertible promoter sequences in microbial genomic and metagenomic datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.25.564076
+  year: 2023
+  journal: bioRxiv
+  first_author: Wen J
+  last_author: Ning K
+  title: Deep Learning enables reliable and comprehensive profiling of invertible promoters in microbes
+links: {}
+added: '2026-11-21'
+evidence: DeepInverton identifies novel inverton sequences without sequencing reads and profiles them in genomic and metagenomic
+  datasets.

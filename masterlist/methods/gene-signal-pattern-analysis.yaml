@@ -1,0 +1,23 @@
+name: gene signal pattern analysis
+category: dry
+summary: Gene signal pattern analysis learns gene representations from single-cell data using diffusion wavelets on a cell-cell
+  graph.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-024-00734-0
+  year: 2024
+  journal: Nat Comput Sci
+  first_author: Venkat A
+  last_author: Krishnaswamy S
+  pmid: '39706866'
+  pmcid: PMC12327385
+  title: Mapping the gene space at single-cell resolution with gene signal pattern analysis
+  preprint_doi: 10.1101/2023.11.26.568492
+links: {}
+added: '2026-11-21'
+evidence: GSPA characterizes genes by their patterning on the cellular manifold and captures coexpression modules and perturbation-specific
+  interactions.

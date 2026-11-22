@@ -1,0 +1,20 @@
+name: GEFMAP
+full_name: Gene Expression-based Flux Mapping and Metabolic Pathway Prediction
+category: dry
+summary: Predicts metabolic reaction flux from transcriptomic data using geometric deep learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.05.570153
+  year: 2023
+  journal: bioRxiv
+  first_author: Steach H
+  last_author: Krishnaswamy S
+  title: Inferring Metabolic States from Single Cell Transcriptomic Data via Geometric Deep Learning
+links: {}
+added: '2026-11-21'
+evidence: GEFMAP predicts flux through reactions in a global metabolic network using transcriptomics data and is applied to
+  scRNA-seq.

@@ -1,0 +1,24 @@
+name: JTK
+category: dry
+summary: Assembles and phases two haplotypes at selected genomic regions using chunks sampled from long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btad398
+  year: 2023
+  journal: Bioinformatics
+  first_author: Masutani B
+  last_author: Morishita S
+  pmid: '37354526'
+  pmcid: PMC10320103
+  title: 'JTK: targeted diploid genome assembler'
+links: {}
+added: '2026-11-21'
+evidence: JTK samples chunks from long reads, phases variants on them and assembled two haplotypes of selected regions from
+  ONT reads.

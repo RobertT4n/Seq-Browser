@@ -1,0 +1,21 @@
+name: PyDESeq2
+category: dry
+summary: A Python implementation of the DESeq2 workflow for differential expression analysis of bulk RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad547
+  year: 2023
+  journal: Bioinformatics
+  first_author: Muzellec B
+  last_author: Andreux M
+  pmid: '37669147'
+  pmcid: PMC10502239
+  title: 'PyDESeq2: a python package for bulk RNA-seq differential expression analysis'
+links: {}
+added: '2026-11-21'
+evidence: PyDESeq2 implements the DESeq2 differential expression workflow in Python and produces similar but not identical
+  results.

@@ -1,0 +1,29 @@
+name: KaryoTap
+category: wet
+summary: Targeted single-cell DNA sequencing and a Bayesian model detect chromosome-scale and arm-scale aneuploidy alongside
+  integrated guides and barcodes.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2023.09.08.555746
+  year: 2023
+  journal: bioRxiv
+  first_author: Mays JC
+  last_author: Davoli T
+  title: KaryoTap Enables Cost-Effective High-Throughput Single-Cell Aneuploidy Profiling and Reveals How Positive and Negative
+    Selection Shapes Cancer Genomes
+links: {}
+added: '2026-11-21'
+evidence: KaryoTap combines custom targeted panels for the Tapestri platform with a Bayesian model to detect aneuploidy in
+  thousands of single cells.
+throughput: 1e4-1e5

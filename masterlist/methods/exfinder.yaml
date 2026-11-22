@@ -1,0 +1,21 @@
+name: exFINDER
+category: dry
+summary: Infers external signals received by cells and their signal-to-target networks from single-cell transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad262
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: He C
+  last_author: Nie Q
+  pmid: '37026478'
+  pmcid: PMC10250247
+  title: 'exFINDER: identify external communication signals using single-cell transcriptomics data'
+links: {}
+added: '2026-11-21'
+evidence: exFINDER uses prior signaling-pathway knowledge to identify external signals that activate target genes and infer
+  their networks.

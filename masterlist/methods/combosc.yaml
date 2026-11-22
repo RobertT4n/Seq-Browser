@@ -1,0 +1,21 @@
+name: comboSC
+category: dry
+summary: comboSC uses single-cell transcriptomes and cellular drug-response data to prioritize personalized cancer combination
+  therapies.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-023-01256-6
+  year: 2023
+  journal: Genome Med
+  first_author: Tang C
+  last_author: Liu Q
+  pmid: '38041202'
+  pmcid: PMC10691165
+  title: Personalized tumor combination therapy optimization using the single-cell transcriptome
+links: {}
+added: '2026-11-21'
+evidence: comboSC evaluates patient immune microenvironments and uses graph optimization to prioritize drug combinations.

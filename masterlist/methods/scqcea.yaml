@@ -1,0 +1,22 @@
+name: scQCEA
+full_name: single-cell RNA sequencing Quality Control and Enrichment Analysis
+category: dry
+summary: scQCEA generates quality-control reports and annotates cell types in single-cell RNA-seq data using differential
+  gene expression patterns.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-023-09447-6
+  year: 2023
+  journal: BMC Genomics
+  first_author: Nassiri I
+  last_author: Piazza P
+  pmid: '37415108'
+  pmcid: PMC10327311
+  title: 'scQCEA: a framework for annotation and quality control report of single-cell RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: scQCEA provides interactive QC reports and automated cell-type annotation for expression-based quality control.

@@ -1,0 +1,32 @@
+name: ST-FFPE
+category: wet
+summary: Spatial transcriptomics of laser-microdissected FFPE tissue compartments uses RNA capture and sequencing to characterize
+  their cellular composition.
+readouts:
+- rna
+- immune-repertoire
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- oligo-capture
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1002/ijc.34620
+  year: 2023
+  journal: Int J Cancer
+  first_author: Romanens L
+  last_author: Labidi-Galy SI
+  pmid: '37306359'
+  title: Clonal expansion of intra-epithelial T cells in breast cancer revealed by spatial transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: RNA from laser-capture microdissected tumor compartments underwent exome capture and sequencing to study breast
+  tumor microenvironments.

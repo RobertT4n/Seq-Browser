@@ -1,0 +1,23 @@
+name: ExplaiNN
+category: dry
+summary: An interpretable neural network predicts transcription factor binding and chromatin accessibility from genomic sequences.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02985-y
+  year: 2023
+  journal: Genome Biol
+  first_author: Novakovsky G
+  last_author: Wasserman WW
+  pmid: '37370113'
+  pmcid: PMC10303849
+  title: 'ExplaiNN: interpretable and transparent neural networks for genomics'
+links: {}
+added: '2026-11-21'
+evidence: ExplaiNN predicts transcription factor binding, chromatin accessibility, and de novo motifs while providing interpretable
+  insights.

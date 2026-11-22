@@ -1,0 +1,24 @@
+name: GAPF-seq
+full_name: Genome-wide Analysis of Palindrome Formation
+category: wet
+summary: Sequencing of palindrome-enriched DNA profiles structural variants across the genome in tumor DNA and plasma.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1101/2023.10.25.564058
+  year: 2023
+  journal: bioRxiv
+  first_author: Murata MM
+  last_author: Tanaka H
+  title: A Practical Approach for Targeting Structural Variants Genome-wide in Plasma Cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: GAPF-seq uses low-coverage sequencing of palindrome-enriched DNA to profile a type of structural variant that often
+  marks gene amplification.

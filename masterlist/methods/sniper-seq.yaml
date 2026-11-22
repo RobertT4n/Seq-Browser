@@ -1,0 +1,26 @@
+name: SNIPER-seq
+category: wet
+summary: Metabolic labeling and structure-dependent chemical probing map RNA structural dynamics across the transcriptome.
+readouts:
+- rna-structure
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1101/2023.09.28.560059
+  year: 2023
+  journal: bioRxiv
+  first_author: Wang D
+  last_author: Kleiner RE
+  title: Transcriptome-wide RNA structure probing with temporal resolution
+links: {}
+added: '2026-11-21'
+evidence: SNIPER-seq combines metabolic labeling with structure-dependent reaction and RNA sequencing to map transcript-age-dependent
+  structural dynamics.

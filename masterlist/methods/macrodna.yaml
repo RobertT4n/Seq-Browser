@@ -1,0 +1,21 @@
+name: MaCroDNA
+category: dry
+summary: Matches cells across single-cell DNA and RNA sequencing datasets using per-gene read counts.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-44014-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Edrisi M
+  last_author: Nakhleh L
+  pmid: '38092737'
+  pmcid: PMC10719311
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+links: {}
+added: '2026-11-21'
+evidence: MaCroDNA uses maximum weighted bipartite matching of per-gene read counts from single-cell DNA and RNA-seq data.

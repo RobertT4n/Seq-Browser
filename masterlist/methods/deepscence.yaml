@@ -1,0 +1,24 @@
+name: DeepScence
+category: dry
+summary: DeepScence identifies senescent cells in single-cell and spatial transcriptomics data using a neural network and
+  a curated gene set.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2025.101035
+  year: 2025
+  journal: Cell Genom
+  first_author: Qu Y
+  last_author: Ji Z
+  pmid: '41061702'
+  pmcid: PMC12802646
+  title: Single-cell and spatial detection of senescent cells using DeepScence
+  preprint_doi: 10.1101/2023.11.21.568150
+links: {}
+added: '2026-11-21'
+evidence: DeepScence uses the curated CoreScence gene set to identify senescent cells in single-cell and spatial transcriptomics
+  data.

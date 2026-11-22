@@ -1,0 +1,21 @@
+name: mbQTL
+category: dry
+summary: An R package identifies associations between host genetic variants and microbial abundance.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad565
+  year: 2023
+  journal: Bioinformatics
+  first_author: Movassagh M
+  last_author: Paulson JN
+  pmid: '37707523'
+  pmcid: PMC10516520
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+links: {}
+added: '2026-11-21'
+evidence: mbQTL integrates 16S rRNA sequencing and SNV or SNP data to identify microbe-variant pairs.

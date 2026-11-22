@@ -1,0 +1,21 @@
+name: ChIPr
+full_name: Chromatin Interaction Predictor
+category: dry
+summary: Predicts cohesin-mediated chromatin interaction strength between genomic loci from chromatin features.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03158-7
+  year: 2024
+  journal: Genome Biol
+  first_author: Abbas A
+  last_author: Mani RS
+  pmid: '38217027'
+  pmcid: PMC10785520
+  title: 'ChIPr: accurate prediction of cohesin-mediated 3D genome organization from 2D chromatin features'
+links: {}
+added: '2026-11-21'
+evidence: ChIPr predicts cohesin-mediated interaction strength between any two loci using models trained on chromatin features.

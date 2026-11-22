@@ -1,0 +1,23 @@
+name: DMCTHM
+category: dry
+summary: Identifies differentially methylated cytosines in bisulfite sequencing data using a trans-dimensional Markov chain
+  Monte Carlo and hidden Markov model.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/jrsssc/qlaf059
+  year: 2026
+  journal: J R Stat Soc Ser C Appl Stat
+  first_author: Shokoohi F
+  last_author: Khaniki SH
+  pmid: '42389235'
+  pmcid: PMC13322287
+  title: Uncovering alterations in cancer epigenetics via trans-dimensional Markov chain Monte Carlo and hidden Markov models
+  preprint_doi: 10.1101/2023.06.15.545168
+links: {}
+added: '2026-11-21'
+evidence: DMCTHM uses bisulfite sequencing data to identify differentially methylated cytosines in cancer epigenetic studies.

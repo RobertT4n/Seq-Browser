@@ -1,0 +1,19 @@
+name: FastDE
+category: dry
+summary: Accelerates single-cell differential gene expression and marker identification using a C++ implementation of the
+  Wilcoxon rank-sum test.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.15.545003
+  year: 2023
+  journal: bioRxiv
+  first_author: Connolly E
+  last_author: Pan T
+  title: Acceleration of Large-Scale Single Cell Differential Gene Expression Analysis with FastDE
+links: {}
+added: '2026-11-21'
+evidence: FastDE implements the Wilcoxon rank-sum test in C++ for accelerated identification of cell-cluster marker genes.

@@ -1,0 +1,24 @@
+name: GLASS
+full_name: Gene-Level Amino-acid Score Shift
+category: dry
+summary: Quantifies gene-level selection by comparing predicted effects of observed amino acid changes with expectations in
+  the absence of selection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2304177120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Vigué L
+  last_author: Tenaillon O
+  pmid: '37487088'
+  pmcid: PMC10401003
+  title: Predicting the effect of mutations to investigate recent events of selection across 60,472 <i>Escherichia coli</i>
+    strains
+links: {}
+added: '2026-11-21'
+evidence: GLASS compares the distribution of predicted mutation effects in a gene with the expectation without selection and
+  was applied to Escherichia coli strains.

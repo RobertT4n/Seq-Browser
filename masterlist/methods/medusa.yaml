@@ -1,0 +1,22 @@
+name: MeDuSA
+full_name: Mixed model-based deconvolution of cell-state abundances
+category: dry
+summary: Estimates cell-state abundances along a one-dimensional trajectory in bulk RNA-seq data using a single-cell reference.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-023-00487-2
+  year: 2023
+  journal: Nat Comput Sci
+  first_author: Song L
+  last_author: Yang J
+  pmid: '38177744'
+  pmcid: PMC10766563
+  title: Mixed model-based deconvolution of cell-state abundances (MeDuSA) along a one-dimensional trajectory
+links: {}
+added: '2026-11-21'
+evidence: MeDuSA uses single-cell RNA-seq as a reference to estimate cell-state abundances along a one-dimensional trajectory
+  in bulk RNA-seq data.

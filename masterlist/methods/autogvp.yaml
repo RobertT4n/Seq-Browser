@@ -1,0 +1,23 @@
+name: AutoGVP
+full_name: Automated Germline Variant Pathogenicity
+category: dry
+summary: Integrates ClinVar annotations and modified InterVar classifications to classify germline sequence variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae114
+  year: 2024
+  journal: Bioinformatics
+  first_author: Kim J
+  last_author: Diskin SJ
+  pmid: '38426335'
+  pmcid: PMC10955249
+  title: 'AutoGVP: a dockerized workflow integrating ClinVar and InterVar germline sequence variant classification'
+  preprint_doi: 10.1101/2023.11.29.569103
+links: {}
+added: '2026-11-21'
+evidence: AutoGVP integrates ClinVar germline variant pathogenicity annotations with classifications from a modified version
+  of InterVar.

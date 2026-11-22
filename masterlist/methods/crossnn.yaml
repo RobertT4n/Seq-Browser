@@ -1,0 +1,23 @@
+name: crossNN
+category: dry
+summary: Classifies tumor entities from DNA methylation profiles generated on different platforms.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43018-025-00976-5
+  year: 2025
+  journal: Nat Cancer
+  first_author: Yuan D
+  last_author: Euskirchen P
+  pmid: '40481322'
+  pmcid: PMC12296554
+  title: crossNN is an explainable framework for cross-platform DNA methylation-based classification of tumors
+  preprint_doi: 10.1101/2024.01.22.24301523
+links: {}
+added: '2026-11-21'
+evidence: crossNN classifies tumors using methylation profiles with differing platform coverage and sequencing depth, including
+  targeted bisulfite data.

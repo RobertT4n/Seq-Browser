@@ -1,0 +1,26 @@
+name: ccsmethphase
+category: dry
+summary: ccsmethphase is a Nextflow pipeline for detecting haplotype-aware DNA methylation from PacBio circular consensus
+  sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41467-023-39784-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Ni P
+  last_author: Wang J
+  pmid: '37422489'
+  pmcid: PMC10329642
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+links: {}
+added: '2026-11-21'
+evidence: The authors developed ccsmethphase to detect haplotype-aware methylation using CCS reads and validated it on a family
+  trio.

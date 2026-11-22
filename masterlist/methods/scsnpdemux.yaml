@@ -1,0 +1,23 @@
+name: scSNPdemux
+category: dry
+summary: Demultiplexes pooled single-cell RNA-seq samples using natural genetic variation and sample genotypes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05440-8
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Wong JKL
+  last_author: Zapatka M
+  pmid: '37653401'
+  pmcid: PMC10469441
+  title: 'scSNPdemux: a sensitive demultiplexing pipeline using single nucleotide polymorphisms for improved pooled single-cell
+    RNA sequencing analysis'
+links: {}
+added: '2026-11-21'
+evidence: scSNPdemux uses natural genetic variation and sparse SNP genotypes for sample identification in single-cell RNA-seq
+  data.

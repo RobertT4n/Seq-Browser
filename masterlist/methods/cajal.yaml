@@ -1,0 +1,22 @@
+name: CAJAL
+category: dry
+summary: A metric geometry framework analyzes single-cell morphology and integrates it with other single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-39424-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Govek KW
+  last_author: Camara PG
+  pmid: '37339989'
+  pmcid: PMC10282047
+  title: CAJAL enables analysis and integration of single-cell morphological data using metric geometry
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): primary data are single-cell morphology; sequencing is only an integration example; taxonomy has no morphology readout. Curated out pending a scope decision.'
+added: '2026-11-21'
+evidence: CAJAL constructs cell morphology spaces and relates them to other data, including single-cell transcriptomics.

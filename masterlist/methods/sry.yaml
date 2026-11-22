@@ -1,0 +1,23 @@
+name: SRY
+full_name: Sorting long Reads of Y or other sex-limited chromosome
+category: dry
+summary: Sorts long reads from sex-limited chromosomes to improve their assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+reference:
+  doi: 10.1093/gigascience/giae015
+  year: 2024
+  journal: Gigascience
+  first_author: Wang XB
+  last_author: Ruan J
+  pmid: '38626722'
+  pmcid: PMC11020242
+  title: An effective strategy for assembling the sex-limited chromosome
+links: {}
+added: '2026-11-21'
+evidence: SRY improves assembly of sex-limited chromosomes, including their heterochromatic regions.

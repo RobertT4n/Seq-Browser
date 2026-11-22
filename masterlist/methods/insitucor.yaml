@@ -1,0 +1,19 @@
+name: InSituCor
+category: dry
+summary: A toolkit that discovers spatially correlated gene modules after accounting for obvious factors such as cell-type
+  landscapes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.19.558514
+  year: 2023
+  journal: bioRxiv
+  first_author: Danaher P
+  last_author: Beechem JM
+  title: 'InSituCor: a toolkit for discovering non-trivial spatial correlations in spatial transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: InSituCor discovers spatial gene correlations and can evaluate ligand-receptor pairs for spatial co-regulation.

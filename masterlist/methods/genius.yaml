@@ -1,0 +1,24 @@
+name: GENIUS
+full_name: GEnome traNsformatIon and spatial representation of mUltiomicS data
+category: dry
+summary: A framework that transforms multi-omics data into genome-ordered images for analysis with deep learning models.
+readouts:
+- genome-sequence
+- rna
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7554/elife.87133
+  year: 2023
+  journal: Elife
+  first_author: Sokač M
+  last_author: Birkbak NJ
+  pmid: '37669321'
+  pmcid: PMC10479962
+  title: Spatial transformation of multi-omics data unlocks novel insights into cancer biology
+links: {}
+added: '2026-11-21'
+evidence: GENIUS represents genes as spatially connected pixels and applies image-analysis models to integrated multi-omics
+  data.

@@ -1,0 +1,23 @@
+name: minimap2-fpga
+category: dry
+summary: FPGA-accelerated chaining speeds up reference-based long-read sequence mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1101/2023.05.30.542681
+  year: 2023
+  journal: bioRxiv
+  first_author: Liyanage K
+  last_author: Gamaarachchi H
+  title: '<i>minimap2-fpga</i>  : Integrating hardware-accelerated chaining for efficient end-to-end long-read sequence mapping'
+links: {}
+added: '2026-11-21'
+evidence: An FPGA chaining kernel accelerated mapping of Oxford Nanopore and PacBio datasets with near-identical accuracy
+  to minimap2.

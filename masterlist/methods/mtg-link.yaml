@@ -1,0 +1,21 @@
+name: MTG-Link
+category: dry
+summary: Assembles selected genomic loci from linked reads using barcode information to subsample reads mapped to flanking
+  regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-023-05395-w
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Guichard A
+  last_author: Lemaitre C
+  pmid: '37452278'
+  title: 'MTG-Link: leveraging barcode information from linked-reads to assemble specific loci'
+links: {}
+added: '2026-11-21'
+evidence: MTG-Link uses barcode information in linked reads mapped to flanking regions to improve local assembly of specific
+  loci.

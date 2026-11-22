@@ -1,0 +1,31 @@
+name: STAM-seq
+full_name: single-molecule targeted accessibility and methylation sequencing
+category: wet
+summary: Enzymatic accessibility labeling and nanopore adaptive sampling profile chromatin accessibility and DNA methylation
+  in targeted repetitive regions.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- nucleotide-labeling
+- long-read-sequencing
+species:
+- plant
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41477-023-01498-7
+  year: 2023
+  journal: Nat Plants
+  first_author: Mo W
+  last_author: Zhai J
+  pmid: '37599304'
+  title: Single-molecule targeted accessibility and methylation sequencing of centromeres, telomeres and rDNAs in Arabidopsis
+links: {}
+added: '2026-11-21'
+evidence: STAM-seq combines long-read sequencing, enzymatic labeling of open chromatin and nanopore adaptive sampling in Arabidopsis.

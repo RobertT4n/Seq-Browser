@@ -1,0 +1,21 @@
+name: epiAneufinder
+category: dry
+summary: An algorithm infers genome-wide copy number alterations in individual cells from single-cell ATAC-seq read counts.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-41076-1
+  year: 2023
+  journal: Nat Commun
+  first_author: Ramakrishnan A
+  last_author: Colomé-Tatché M
+  pmid: '37730813'
+  pmcid: PMC10511508
+  title: epiAneufinder identifies copy number alterations from single-cell ATAC-seq data
+links: {}
+added: '2026-11-21'
+evidence: epiAneufinder extracts single-cell copy number alterations from scATAC-seq read count information.

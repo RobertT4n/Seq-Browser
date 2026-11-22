@@ -1,0 +1,24 @@
+name: RNAsky
+category: wet
+summary: Automated targeted rolling circle amplification and iterative staining detect RNA spatially in tissue sections.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2023.10.27.564191
+  year: 2023
+  journal: bioRxiv
+  first_author: Neil E
+  last_author: Bosio A
+  title: Spatial protein and RNA analysis on the same tissue section using MICS technology
+links: {}
+added: '2026-11-21'
+evidence: RNAsky uses targeted rolling circle amplification and iterative staining and was combined with protein imaging on
+  the same tissue section.

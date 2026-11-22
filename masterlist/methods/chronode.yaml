@@ -1,0 +1,23 @@
+name: chronODE
+category: dry
+summary: chronODE models temporal gene expression and chromatin kinetics and predicts changes across modalities.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-61921-9
+  year: 2025
+  journal: Nat Commun
+  first_author: Borsari B
+  last_author: Gerstein M
+  pmid: '40830112'
+  pmcid: PMC12365117
+  title: The chronODE framework for modelling multi-omic time series with ordinary differential equations and machine learning
+  preprint_doi: 10.1101/2023.12.13.571513
+links: {}
+added: '2026-11-21'
+evidence: The framework models gene expression and chromatin features over time and integrates single-cell ATAC-seq data.

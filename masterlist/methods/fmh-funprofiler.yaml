@@ -1,0 +1,18 @@
+name: fmh-funprofiler
+category: dry
+summary: fmh-funprofiler uses FracMinHash sketches to profile the functional capabilities of metagenomic samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.06.565843
+  year: 2023
+  journal: bioRxiv
+  first_author: Rahman Hera M
+  last_author: Koslicki D
+  title: Fast, lightweight, and accurate metagenomic functional profiling using FracMinHash sketches
+links: {}
+added: '2026-11-21'
+evidence: The pipeline combines sourmash components and FracMinHash sketches to obtain functional profiles of metagenome samples.

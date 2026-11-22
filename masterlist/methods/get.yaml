@@ -1,0 +1,25 @@
+name: GET
+category: dry
+summary: A foundation model predicts gene expression and infers transcriptional regulation across cell types from chromatin
+  accessibility and sequence data.
+readouts:
+- rna
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-024-08391-z
+  year: 2025
+  journal: Nature
+  first_author: Fu X
+  last_author: Rabadan R
+  pmid: '39779852'
+  pmcid: PMC11754112
+  title: A foundation model of transcription across human cell types
+  preprint_doi: 10.1101/2023.09.24.559168
+links: {}
+added: '2026-11-21'
+evidence: GET uses chromatin accessibility and sequence information to predict gene expression and infer regulatory elements
+  and transcription factor networks.

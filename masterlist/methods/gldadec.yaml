@@ -1,0 +1,19 @@
+name: GLDADec
+full_name: Guided LDA Deconvolution
+category: dry
+summary: Estimates cell-type proportions from bulk expression data using topic modelling guided by cell-type marker genes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.08.574749
+  year: 2024
+  journal: bioRxiv
+  first_author: Azuma I
+  last_author: Kusuhara H
+  title: 'GLDADec: marker-gene guided LDA modelling for bulk gene expression deconvolution'
+links: {}
+added: '2026-11-21'
+evidence: GLDADec guides topics using cell type-specific marker gene names to estimate topic distributions for bulk samples.

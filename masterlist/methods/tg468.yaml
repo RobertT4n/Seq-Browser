@@ -1,0 +1,22 @@
+name: TG468
+category: dry
+summary: Predicts response to immune checkpoint inhibitor therapy from exome sequencing data using a text graph convolutional
+  network.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbae017
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Wang K
+  last_author: Zheng M
+  pmid: '38390990'
+  pmcid: PMC10886443
+  title: 'TG468: a text graph convolutional network for predicting clinical response to immune checkpoint inhibitor therapy'
+links: {}
+added: '2026-11-21'
+evidence: TG468 applies a text graph convolutional network to sparse, high-dimensional exome sequencing data for immune checkpoint
+  inhibitor response prediction.

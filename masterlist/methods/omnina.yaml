@@ -1,0 +1,18 @@
+name: OmniNA
+category: dry
+summary: Learns nucleotide sequence representations and supports downstream nucleotide sequence analysis tasks.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.14.575543
+  year: 2024
+  journal: bioRxiv
+  first_author: Shen X
+  last_author: Li X
+  title: 'OmniNA: A foundation model for nucleotide sequences'
+links: {}
+added: '2026-11-21'
+evidence: OmniNA is a generative foundation model pretrained on nucleotide sequences and annotations across multiple species.

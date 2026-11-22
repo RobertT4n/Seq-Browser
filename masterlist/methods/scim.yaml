@@ -1,0 +1,22 @@
+name: SCIM
+full_name: single cell information manifolds
+category: dry
+summary: SCIM uses information geometry to quantify cell phenotype transition manifolds and their dynamics from single-cell
+  expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2026.101564
+  year: 2026
+  journal: Cell Syst
+  first_author: Huang M
+  last_author: Wang W
+  pmid: '41903532'
+  title: Geometric quantification of cell phenotype transition manifolds with information geometry
+  preprint_doi: 10.1101/2023.12.28.573500
+links: {}
+added: '2026-11-21'
+evidence: SCIM embeds gene expression profiles as Gaussian distributions and calculates curvature and information velocity.

@@ -1,0 +1,21 @@
+name: SSAE
+full_name: Sparse supervised autoencoder
+category: dry
+summary: Detects subtle transcriptomic perturbations in single-cell CRISPR screens by selecting relevant genes and perturbed
+  cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.07.11.548494
+  year: 2023
+  journal: bioRxiv
+  first_author: Truchi M
+  last_author: Mari B
+  title: Detecting subtle transcriptomic perturbations induced by lncRNAs Knock-Down in single-cell CRISPRi screening using
+    a new sparse supervised autoencoder neural network
+links: {}
+added: '2026-11-21'
+evidence: SSAE selects relevant genes and perturbed cells and was applied to a single-cell CRISPRi transcriptome screen.

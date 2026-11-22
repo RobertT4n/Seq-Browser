@@ -1,0 +1,20 @@
+name: SCPRO-HI
+category: dry
+summary: Integrates antibody-based single-cell proteomic datasets and corrects batch effects in protein abundances.
+readouts:
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/pmic.202300282
+  year: 2024
+  journal: Proteomics
+  first_author: Koca MB
+  last_author: Sevilgen FE
+  pmid: '38135888'
+  title: Integration of single-cell proteomic datasets through distinctive proteins in cell clusters
+links: {}
+added: '2026-11-21'
+evidence: SCPRO-HI uses hierarchical cell anchoring and a variational autoencoder to integrate datasets and correct batch
+  effects.

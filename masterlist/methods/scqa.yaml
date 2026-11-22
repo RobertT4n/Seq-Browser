@@ -1,0 +1,21 @@
+name: scQA
+category: dry
+summary: Identifies cell types and their associated key genes through qualitative and quantitative analysis of single-cell
+  transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2023.12.021
+  year: 2024
+  journal: Comput Struct Biotechnol J
+  first_author: Li D
+  last_author: Li G
+  pmid: '38235363'
+  pmcid: PMC10791572
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+links: {}
+added: '2026-11-21'
+evidence: scQA identifies cell types and cell type-specific key genes using qualitative and quantitative perspectives.

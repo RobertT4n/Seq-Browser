@@ -1,0 +1,22 @@
+name: GenKI
+full_name: Gene Knockout Inference
+category: dry
+summary: GenKI uses a variational graph autoencoder and a gene regulatory network derived from wild-type single-cell RNA-seq
+  data to infer virtual knockout effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad450
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Yang Y
+  last_author: Cai JJ
+  pmid: '37246643'
+  pmcid: PMC10359630
+  title: Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks
+links: {}
+added: '2026-11-21'
+evidence: GenKI generates virtual knockout data by removing the knockout gene's edges from a single-cell gene regulatory network.

@@ -1,0 +1,21 @@
+name: GRITIC
+category: dry
+summary: GRITIC infers the timing of genomic copy number gains from single-sample bulk whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1158/2159-8290.CD-23-1249
+  year: 2024
+  journal: Cancer Discov
+  first_author: Baker TM
+  last_author: Van Loo P
+  pmid: '38943574'
+  pmcid: PMC7616501
+  title: The History of Chromosomal Instability in Genome-Doubled Tumors
+  preprint_doi: 10.1101/2023.10.22.563273
+links: {}
+added: '2026-11-21'
+evidence: GRITIC times genomic gains leading to complex copy number states using single-sample bulk whole-genome sequencing.

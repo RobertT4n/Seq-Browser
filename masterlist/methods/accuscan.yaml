@@ -1,0 +1,25 @@
+name: AccuScan
+category: wet
+summary: Uses single-read error correction in cell-free DNA whole-genome sequencing to detect molecular residual disease.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s44321-024-00115-0
+  year: 2024
+  journal: EMBO Mol Med
+  first_author: Li X
+  last_author: Hu Z
+  pmid: '39164471'
+  pmcid: PMC11393307
+  title: Ultra-sensitive molecular residual disease detection through whole genome sequencing with single-read error correction
+  preprint_doi: 10.1101/2024.01.13.24301070
+links: {}
+added: '2026-11-21'
+evidence: AccuScan enables genome-wide error correction at the single-read level for cell-free DNA whole-genome sequencing.

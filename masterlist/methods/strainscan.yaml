@@ -1,0 +1,21 @@
+name: StrainScan
+category: dry
+summary: Identifies microbial strains and estimates strain-level composition from short sequencing reads using a tree-based
+  k-mer index.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-023-01615-w
+  year: 2023
+  journal: Microbiome
+  first_author: Liao H
+  last_author: Sun Y
+  pmid: '37587527'
+  pmcid: PMC10433603
+  title: High-resolution strain-level microbiome composition analysis from short reads
+links: {}
+added: '2026-11-21'
+evidence: StrainScan uses a tree-based k-mer indexing structure for strain-level microbiome composition analysis.

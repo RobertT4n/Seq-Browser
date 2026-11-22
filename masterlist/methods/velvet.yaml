@@ -1,0 +1,21 @@
+name: velvet
+category: dry
+summary: Models single-cell gene expression dynamics and trajectory distributions using a neural stochastic differential equation
+  within a variational autoencoder.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.07.06.547989
+  year: 2023
+  journal: bioRxiv
+  first_author: Maizels RJ
+  last_author: Briscoe J
+  title: Deep dynamical modelling of developmental trajectories with temporal transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: velvet models gene expression dynamics beyond instantaneous velocity estimation and was applied to metabolically
+  labelled single-cell data.

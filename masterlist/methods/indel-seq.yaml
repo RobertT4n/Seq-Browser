@@ -1,0 +1,26 @@
+name: Indel-seq
+full_name: insertion and deletion sequencing
+category: wet
+summary: A sequencing assay monitors insertions and deletions at the TRIM37 acceptor locus arising from genome instability.
+readouts:
+- genome-sequence
+- dna-damage
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.molcel.2023.06.016
+  year: 2023
+  journal: Mol Cell
+  first_author: Min J
+  last_author: Gautier J
+  pmid: '37402370'
+  pmcid: PMC10527084
+  title: Mechanisms of insertions at a DNA double-strand break
+links: {}
+added: '2026-11-21'
+evidence: Indel-seq monitors rearrangements at the human TRIM37 acceptor locus caused by induced and spontaneous genome instability.

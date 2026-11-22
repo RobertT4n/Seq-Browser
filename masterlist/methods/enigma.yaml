@@ -1,0 +1,23 @@
+name: ENIGMA
+full_name: Deconvolution based on Regularized Matrix Completion
+category: dry
+summary: A matrix-completion method deconvolves bulk RNA-seq using single-cell data to estimate cell-type proportions and
+  transcriptomes.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad273
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Wang W
+  last_author: Ni T
+  pmid: '37529921'
+  title: Approximate estimation of cell-type resolution transcriptome in bulk tissue through matrix completion
+links: {}
+added: '2026-11-21'
+evidence: ENIGMA uses scRNA-seq information to reconstruct cell-type-specific transcriptomes and quantify cell-type proportions
+  in bulk tissue.

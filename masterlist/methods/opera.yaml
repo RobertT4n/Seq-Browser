@@ -1,0 +1,27 @@
+name: OPERA
+full_name: One-PrimER Amplification
+category: wet
+summary: A targeted amplification system detects rare mutations in short DNA fragments, including circulating tumor DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.bios.2023.115548
+  year: 2023
+  journal: Biosens Bioelectron
+  first_author: Wang L
+  last_author: Lou J
+  pmid: '37542979'
+  title: An ultrasensitive method for detecting mutations from short and rare cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: OPERA detected low-frequency single-nucleotide variants and insertions or deletions in short DNA fragments and patient
+  plasma.

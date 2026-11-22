@@ -1,0 +1,20 @@
+name: XVir
+category: dry
+summary: Transformer-based pipeline that identifies viral DNA in human tumor sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2025.0075
+  year: 2025
+  journal: J Comput Biol
+  first_author: Consul S
+  last_author: Vikalo H
+  pmid: '40392695'
+  title: 'XVir: A Transformer-Based Architecture for Identifying Viral Reads from Cancer Samples'
+  preprint_doi: 10.1101/2023.08.28.555020
+links: {}
+added: '2026-11-21'
+evidence: XVir uses a transformer-based architecture trained on viral and human genomic reads to identify viral DNA in tumors.

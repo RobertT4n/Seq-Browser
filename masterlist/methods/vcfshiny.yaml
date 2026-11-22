@@ -1,0 +1,20 @@
+name: VCFshiny
+category: dry
+summary: VCFshiny provides an interactive interface for annotating, analyzing and visualizing variants in VCF files.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad107
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Chen T
+  last_author: Lai L
+  pmid: '37701675'
+  pmcid: PMC10493178
+  title: 'VCFshiny: an R/Shiny application for interactively analyzing and visualizing genetic variants'
+links: {}
+added: '2026-11-21'
+evidence: VCFshiny annotates VCF variants and visualizes summaries including variant distributions and mutational signatures.

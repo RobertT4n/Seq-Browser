@@ -1,0 +1,30 @@
+name: RASAM
+full_name: Replication-Aware Single-molecule Accessibility Mapping
+category: wet
+summary: Long-read sequencing maps chromatin accessibility and replication status on individual chromatin fibers.
+readouts:
+- chromatin-accessibility
+- replication-dynamics
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- human
+- mouse
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.cell.2024.10.039
+  year: 2025
+  journal: Cell
+  first_author: Ostrowski MS
+  last_author: Ramani V
+  pmid: '39549698'
+  pmcid: PMC12176082
+  title: The single-molecule accessibility landscape of newly replicated mammalian chromatin
+  preprint_doi: 10.1101/2023.10.09.561582
+links: {}
+added: '2026-11-21'
+evidence: RASAM measures genome-wide replication status and protein-DNA interactions simultaneously on intact chromatin templates.

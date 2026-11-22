@@ -1,0 +1,21 @@
+name: SCGP
+full_name: Spatial Cellular Graph Partitioning
+category: dry
+summary: An unsupervised method identifies tissue structures from spatial transcriptomic and proteomic measurements.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.05.556133
+  year: 2023
+  journal: bioRxiv
+  first_author: Wu Z
+  last_author: Trevino AE
+  title: Characterizing Tissue Structures from Spatial Omics with Spatial Cellular Graph Partition
+links: {}
+added: '2026-11-21'
+evidence: SCGP partitions spatial transcriptomics and proteomics datasets into tissue structures and extends reference structures
+  to new samples.

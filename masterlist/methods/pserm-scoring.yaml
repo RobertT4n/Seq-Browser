@@ -1,0 +1,23 @@
+name: PSERM scoring
+full_name: Position-Specific Enrichment Ratio Matrix scoring
+category: dry
+summary: Scores protein variants using position-specific enrichment ratios from pre-selection and post-selection deep sequencing
+  datasets.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad446
+  year: 2023
+  journal: Bioinformatics
+  first_author: Smith MD
+  last_author: Tessier PM
+  pmid: '37478351'
+  pmcid: PMC10477941
+  title: Position-Specific Enrichment Ratio Matrix scores predict antibody variant properties from deep sequencing data
+  preprint_doi: 10.1101/2023.07.10.548448
+links: {}
+added: '2026-11-21'
+evidence: PSERM scores sum site-specific enrichment ratios at mutated positions and correlate with measured antibody properties.

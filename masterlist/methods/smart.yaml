@@ -1,0 +1,19 @@
+name: SMART
+category: dry
+summary: Deconvolves spatial transcriptomics spots using marker genes to infer cell-type composition and expression profiles.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.20.545793
+  year: 2023
+  journal: bioRxiv
+  first_author: Yang C
+  last_author: Ng R
+  title: 'SMART: reference-free deconvolution for spatial transcriptomics using marker-gene-assisted topic models'
+links: {}
+added: '2026-11-21'
+evidence: SMART uses marker gene symbols as prior knowledge to infer cell-type-specific expression and cellular composition
+  at each spot.

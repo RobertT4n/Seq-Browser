@@ -1,0 +1,21 @@
+name: SpatialAnno
+category: dry
+summary: SpatialAnno assigns cell or domain types to spatial transcriptomics data using marker information and spatial smoothness.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad1023
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Shi X
+  last_author: Liu J
+  pmid: '37941153'
+  pmcid: PMC10711557
+  title: Probabilistic cell/domain-type assignment of spatial transcriptomics data with SpatialAnno
+links: {}
+added: '2026-11-21'
+evidence: SpatialAnno uses a factor model for non-marker genes and a Potts model to encourage smoothness among neighboring
+  spots.

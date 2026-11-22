@@ -1,0 +1,21 @@
+name: KombOver
+category: dry
+summary: Characterizes microbial genome dynamics and perturbations in metagenomic cohorts using graph-based analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/9789811286421_0039
+  year: 2024
+  journal: Pac Symp Biocomput
+  first_author: Sapoval N
+  last_author: Treangen TJ
+  pmid: '38160303'
+  pmcid: PMC10764071
+  title: 'KombOver: Efficient k-core and K-truss based characterization of perturbations within the human gut microbiome'
+links: {}
+added: '2026-11-21'
+evidence: KombOver extends a tool for identifying metagenomic copy number variations with k-core and K-truss analyses and
+  cohort scaling.

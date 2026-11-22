@@ -1,0 +1,28 @@
+name: O6-MeG-seq
+category: wet
+summary: Immunoprecipitation and polymerase stalling map temozolomide-induced O6-methylguanine across the genome.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkae1320
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Kubitschek J
+  last_author: Sturla SJ
+  pmid: '39831306'
+  pmcid: PMC11744188
+  title: Single-nucleotide-resolution genomic maps of O6-methylguanine from the glioblastoma drug temozolomide
+  preprint_doi: 10.1101/2023.12.12.571283
+links: {}
+added: '2026-11-21'
+evidence: O6-MeG-seq locates O6-methylguanine across the genome at single-nucleotide resolution and was applied to glioblastoma-derived
+  cell lines.

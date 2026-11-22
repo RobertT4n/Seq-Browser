@@ -1,0 +1,24 @@
+name: LyRic
+category: dry
+summary: Processes long-read RNA sequencing data to derive transcript models.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1038/s41467-024-49523-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Carbonell-Sala S
+  last_author: Guigó R
+  pmid: '38937428'
+  title: 'CapTrap-seq: a platform-agnostic and quantitative approach for high-fidelity full-length RNA sequencing'
+  preprint_doi: 10.1101/2023.06.16.543444
+links: {}
+added: '2026-11-21'
+evidence: Up to 90% of transcript models derived by LyRic from CapTrap-seq reads were full-length.

@@ -1,0 +1,20 @@
+name: BIDCell
+category: dry
+summary: Segments cells in subcellular spatial transcriptomics data using gene expression, morphology and cell-type information.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.13.544733
+  year: 2023
+  journal: bioRxiv
+  first_author: Fu X
+  last_author: Yang JY
+  title: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data
+links: {}
+added: '2026-11-21'
+evidence: BIDCell uses biologically informed loss functions to learn relationships between spatial gene expression and cell
+  morphology.

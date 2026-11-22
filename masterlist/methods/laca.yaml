@@ -1,0 +1,24 @@
+name: LACA
+full_name: long amplicon consensus analysis
+category: dry
+summary: LACA clusters long amplicon reads by sequence dissimilarity to correct sequences and support microbiome phylogenetic
+  analysis.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.1101/2023.11.26.568539
+  year: 2023
+  journal: bioRxiv
+  first_author: Hui Y
+  last_author: Krych L
+  title: <i>De novo</i>  clustering of long-read amplicons improves phylogenetic insight into microbiome data
+links: {}
+added: '2026-11-21'
+evidence: LACA uses de novo clustering to correct 16S and 16–23S rRNA amplicons and preserve phylogenetic fidelity.

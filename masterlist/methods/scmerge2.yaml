@@ -1,0 +1,22 @@
+name: scMerge2
+category: dry
+summary: Integrates large multi-sample, multi-condition single-cell datasets while removing dataset variability.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-39923-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Lin Y
+  last_author: Yang JYH
+  pmid: '37460600'
+  pmcid: PMC10352351
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+links: {}
+added: '2026-11-21'
+evidence: scMerge2 integrates multi-cohort scRNA-seq data and removes dataset variability in CyTOF, imaging mass cytometry
+  and CITE-seq experiments.

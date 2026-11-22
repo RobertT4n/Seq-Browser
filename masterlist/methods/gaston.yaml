@@ -1,0 +1,21 @@
+name: GASTON
+category: dry
+summary: An interpretable deep learning method that maps spatial domains and gene expression gradients in tissue slices.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02503-3
+  year: 2025
+  journal: Nat Methods
+  first_author: Chitra U
+  last_author: Raphael BJ
+  pmid: '39849132'
+  pmcid: PMC12370209
+  title: Mapping the topography of spatial gene expression with interpretable deep learning
+  preprint_doi: 10.1101/2023.10.10.561757
+links: {}
+added: '2026-11-21'
+evidence: GASTON learns an isodepth map alongside spatial expression gradients and functions describing gene expression.

@@ -1,0 +1,22 @@
+name: CNAqc
+category: dry
+summary: Predicts unmeasured genes in imaging-based spatial transcriptomics using single-cell RNA-seq reference datasets.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s13059-024-03170-5
+  year: 2024
+  journal: Genome Biol
+  first_author: Antonello A
+  last_author: Caravagna G
+  pmid: '38297376'
+  pmcid: PMC10832148
+  title: Computational validation of clonal and subclonal copy number alterations from bulk tumor sequencing using CNAqc
+links: {}
+added: '2026-11-21'
+evidence: ENGEP predicts unmeasured gene expression in spatial transcriptomics data using multiple single-cell RNA-seq datasets
+  as references.

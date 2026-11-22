@@ -1,0 +1,21 @@
+name: GSC
+full_name: Genotype Sparse Compression
+category: dry
+summary: Compresses VCF files losslessly while supporting fast queries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae046
+  year: 2024
+  journal: Gigascience
+  first_author: Luo X
+  last_author: Zhu Z
+  pmid: '39028587'
+  pmcid: PMC11258903
+  title: 'GSC: efficient lossless compression of VCF files with fast query'
+links: {}
+added: '2026-11-21'
+evidence: GSC is a specialized lossless compression tool for VCF files containing genotype data.

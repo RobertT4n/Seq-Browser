@@ -1,0 +1,23 @@
+name: ASB-analyzer
+full_name: Allele-specific binding analyzer
+category: dry
+summary: ASB-analyzer identifies and annotates allele-specific binding SNPs from sequencing data.
+readouts:
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05604-6
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Li Y
+  last_author: Lu A
+  pmid: '38066439'
+  pmcid: PMC10709849
+  title: Allele-specific binding (ASB) analyzer for annotation of allele-specific binding SNPs
+links: {}
+added: '2026-11-21'
+evidence: The pipeline combines allele-specific binding SNP identification with biological annotation, motif analysis, phenotype
+  associations, and reporting.

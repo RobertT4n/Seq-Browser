@@ -1,0 +1,22 @@
+name: NeoHunter
+category: dry
+summary: Detects and prioritizes neoantigens arising from genomic variants, gene fusions, and aberrant splicing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/qub2.28
+  year: 2024
+  journal: Quant Biol
+  first_author: Ma T
+  last_author: Zhang X
+  pmid: '41676021'
+  pmcid: PMC12806199
+  title: 'NeoHunter: Flexible software for systematically detecting neoantigens from sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NeoHunter detects and prioritizes SNV-, indel-, fusion-, and aberrant splicing-derived neoantigens from sequencing
+  data.

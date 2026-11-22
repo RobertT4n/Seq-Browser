@@ -1,0 +1,20 @@
+name: INSurVeyor
+category: dry
+summary: A method detects genomic insertions from paired-end short-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-38870-2
+  year: 2023
+  journal: Nat Commun
+  first_author: Rajaby R
+  last_author: Sung WK
+  pmid: '37277343'
+  pmcid: PMC10241795
+  title: 'INSurVeyor: improving insertion calling from short read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: INSurVeyor detects insertions from paired-end sequencing data and was evaluated on human and non-human benchmarks.

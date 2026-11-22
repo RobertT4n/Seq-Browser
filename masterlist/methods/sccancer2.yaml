@@ -1,0 +1,24 @@
+name: scCancer2
+category: dry
+summary: scCancer2 annotates tumor microenvironment cell subtypes and identifies malignant cells using supervised classifiers
+  trained on single-cell and bulk gene expression datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae028
+  year: 2024
+  journal: Bioinformatics
+  first_author: Chen Z
+  last_author: Gu J
+  pmid: '38243719'
+  pmcid: PMC10868330
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+  preprint_doi: 10.1101/2023.08.22.554137
+links: {}
+added: '2026-11-21'
+evidence: scCancer2 uses classifiers trained on annotated tumor datasets to transfer cell subtype labels and identify malignant
+  cells.

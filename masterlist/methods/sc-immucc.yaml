@@ -1,0 +1,20 @@
+name: sc-ImmuCC
+category: dry
+summary: Hierarchically annotates immune cell types and subtypes in single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2023.1223471
+  year: 2023
+  journal: Front Immunol
+  first_author: Jiang Y
+  last_author: Wu A
+  pmid: '37545533'
+  pmcid: PMC10399579
+  title: 'sc-ImmuCC: hierarchical annotation for immune cell types in single-cell RNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: sc-ImmuCC uses optimized gene sets and ssGSEA to annotate nine major immune cell types and 29 subtypes.

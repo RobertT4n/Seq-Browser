@@ -1,0 +1,24 @@
+name: NanopoReaTA
+category: dry
+summary: NanopoReaTA provides interactive real-time processing and differential transcriptome analysis of nanopore RNA sequencing
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btad492
+  year: 2023
+  journal: Bioinformatics
+  first_author: Wierczeiko A
+  last_author: Gerber S
+  pmid: '37549052'
+  pmcid: PMC10435370
+  title: 'NanopoReaTA: a user-friendly tool for nanopore-seq real-time transcriptional analysis'
+links: {}
+added: '2026-11-21'
+evidence: NanopoReaTA processes running or completed ONT RNA-seq experiments for whole-transcriptome or gene-specific analyses.

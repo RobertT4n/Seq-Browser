@@ -1,0 +1,23 @@
+name: IMPALA
+full_name: Integrated Mapping and Profiling of Allelically-expressed Loci with Annotations
+category: dry
+summary: Pipeline that detects allele-specific expression from RNA-seq and relates it to optional genomic and methylation
+  data.
+readouts:
+- rna
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.11.555771
+  year: 2023
+  journal: bioRxiv
+  first_author: Chang G
+  last_author: Jones SJM
+  title: 'IMPALA: A Comprehensive Pipeline for Detecting and Elucidating Mechanisms of Allele Specific Expression in Cancer'
+links: {}
+added: '2026-11-21'
+evidence: IMPALA uses RNA-seq and optionally phased variants, copy number, allelic methylation, and mutation data to identify
+  allele-specific expression and investigate regulatory mechanisms.

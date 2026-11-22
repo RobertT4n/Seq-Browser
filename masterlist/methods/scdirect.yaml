@@ -1,0 +1,20 @@
+name: scDirect
+category: dry
+summary: Identifies transcription factors that can direct cell-state transitions using single-cell RNA-seq and ATAC-seq data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.08.574757
+  year: 2024
+  journal: bioRxiv
+  first_author: Li C
+  last_author: Zhang X
+  title: 'scDirect: key transcription factor identification for directing cell state transitions based on single-cell multi-omics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: scDirect identifies key transcription factors from single-cell RNA-seq and ATAC-seq using gene regulatory networks.

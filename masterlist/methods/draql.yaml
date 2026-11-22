@@ -1,0 +1,31 @@
+name: DRaqL
+full_name: direct RNA recovery and quenching for laser capture microdissection
+category: wet
+summary: Direct RNA recovery from laser-captured tissue sections enables spatially resolved single-cell transcriptome profiling.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- fixed-cells
+reference:
+  doi: 10.26508/lsa.202301929
+  year: 2023
+  journal: Life Sci Alliance
+  first_author: Ikeda H
+  last_author: Kurimoto K
+  pmid: '37722727'
+  pmcid: PMC10507249
+  title: High-quality single-cell transcriptomics from ovarian histological sections during folliculogenesis
+links: {}
+added: '2026-11-21'
+evidence: DRaqL enabled single-cell RNA sequencing from fixed tissue sections and was applied to mouse ovarian sections.

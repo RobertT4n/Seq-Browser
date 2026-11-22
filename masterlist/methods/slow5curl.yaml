@@ -1,0 +1,22 @@
+name: slow5curl
+category: dry
+summary: slow5curl retrieves indexed reads from remotely stored raw nanopore datasets without downloading entire files.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.11.28.569128
+  year: 2023
+  journal: bioRxiv
+  first_author: Wong B
+  last_author: Deveson IW
+  title: Streamlining remote nanopore data access with  <i>slow5curl</i>
+links: {}
+added: '2026-11-21'
+evidence: slow5curl fetches specified reads from remote SLOW5 or BLOW5 files and was demonstrated on reads corresponding to
+  target genes.

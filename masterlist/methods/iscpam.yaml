@@ -1,0 +1,21 @@
+name: IscPAM
+category: dry
+summary: Attention-based deep learning method that predicts transcription factor binding in single cells using chromatin accessibility
+  data.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2023.107923
+  year: 2023
+  journal: Comput Biol Chem
+  first_author: Gong M
+  last_author: Ding C
+  pmid: '37598467'
+  title: Interpretable single-cell transcription factor prediction based on deep learning with attention mechanism
+links: {}
+added: '2026-11-21'
+evidence: IscPAM uses single-cell ATAC-seq data to predict transcription factor binding in a given cell.

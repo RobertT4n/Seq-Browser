@@ -1,0 +1,20 @@
+name: scShift
+category: dry
+summary: scShift learns representations of cell types and biological states while disentangling batch effects in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.11.566161
+  year: 2023
+  journal: bioRxiv
+  first_author: Dong M
+  last_author: Kluger Y
+  title: Scaling deep identifiable models enables zero-shot characterization of single-cell biological states
+links: {}
+added: '2026-11-21'
+evidence: scShift is a deep variational inference framework trained on scRNA-seq atlases that separates batch-dependent and
+  independent variation.

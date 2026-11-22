@@ -1,0 +1,25 @@
+name: ASCETIC
+full_name: Agony-baSed Cancer EvoluTion InferenCe
+category: dry
+summary: Extracts cancer evolutionary signatures describing recurrent trajectories of driver mutation acquisition from sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-41670-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Fontana D
+  last_author: Ramazzotti D
+  pmid: '37749078'
+  pmcid: PMC10519956
+  title: Evolutionary signatures of human cancers revealed via genomic analysis of over 35,000 patients
+  preprint_doi: 10.1101/2023.07.27.550506
+links: {}
+added: '2026-11-21'
+evidence: ASCETIC extracts cancer evolutionary signatures from bulk and single-cell sequencing data and was applied to whole-exome,
+  whole-genome and targeted datasets.

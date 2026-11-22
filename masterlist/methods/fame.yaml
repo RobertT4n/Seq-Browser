@@ -1,0 +1,23 @@
+name: FAME
+full_name: FAst MEthylation calling
+category: dry
+summary: Quantifies CpG methylation directly from bulk or single-cell whole-genome bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad386
+  year: 2023
+  journal: Bioinformatics
+  first_author: Fischer J
+  last_author: Schulz MH
+  pmid: '37326968'
+  pmcid: PMC10310462
+  title: Efficiently quantifying DNA methylation for bulk- and single-cell bisulfite data
+links: {}
+added: '2026-11-21'
+evidence: FAME quantifies CpG methylation directly from bulk or single-cell WGBS reads without intermediate output files.

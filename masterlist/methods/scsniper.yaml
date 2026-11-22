@@ -1,0 +1,20 @@
+name: scSniper
+category: dry
+summary: scSniper identifies single-cell multiomic biomarkers using a neural network with multimodal alignment and sensitivity-based
+  feature selection.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.22.568389
+  year: 2023
+  journal: bioRxiv
+  first_author: Li M
+  last_author: Ding J
+  title: 'scSniper: Single-cell Deep Neural Network-based Identification of Prominent Biomarkers'
+links: {}
+added: '2026-11-21'
+evidence: scSniper detects biomarkers in single-cell multiomic data and was evaluated on CITE-seq and scRNA-seq datasets.

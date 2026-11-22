@@ -1,0 +1,21 @@
+name: geNomad
+category: dry
+summary: A framework that identifies and annotates plasmid and viral sequences and detects integrated proviruses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01953-y
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Camargo AP
+  last_author: Kyrpides NC
+  pmid: '37735266'
+  pmcid: PMC11324519
+  title: Identification of mobile genetic elements with geNomad
+links: {}
+added: '2026-11-21'
+evidence: geNomad combines gene content and a neural network to identify plasmids and viruses and uses a conditional random
+  field to detect proviruses.

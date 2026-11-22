@@ -1,0 +1,24 @@
+name: scPagwas
+category: dry
+summary: Integrates pathway-transformed single-cell RNA-seq data with GWAS summary statistics to identify trait-relevant genes
+  and cell populations.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2023.100383
+  year: 2023
+  journal: Cell Genom
+  first_author: Ma Y
+  last_author: Su J
+  pmid: '37719150'
+  pmcid: PMC10504677
+  title: Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell
+    RNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: scPagwas integrates pathway activation transformation of scRNA-seq data and GWAS summary statistics to prioritize
+  trait-relevant genes and cell types.

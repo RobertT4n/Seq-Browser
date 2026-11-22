@@ -1,0 +1,21 @@
+name: PyMEGABASE
+category: dry
+summary: A maximum-entropy neural network predicts chromosome compartment and subcompartment annotations from local epigenomic
+  signals.
+readouts:
+- histone-modification
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2023.168180
+  year: 2023
+  journal: J Mol Biol
+  first_author: Dodero-Rojas E
+  last_author: Onuchic JN
+  pmid: '37302549'
+  title: 'PyMEGABASE: Predicting Cell-Type-Specific Structural Annotations of Chromosomes Using the Epigenome'
+links: {}
+added: '2026-11-21'
+evidence: PyMEGABASE predicts locus compartment annotations from local epigenome data such as histone modification ChIP-seq.

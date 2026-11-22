@@ -1,0 +1,21 @@
+name: ROAST
+category: dry
+summary: Uses paired-end RNA-seq alignment signatures to identify and correct errors in supertranscriptome assemblies without
+  a reference.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05614-4
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Shabbir M
+  last_author: Mithani A
+  pmid: '38166712'
+  pmcid: PMC10763045
+  title: 'Roast: a tool for reference-free optimization of supertranscriptome assemblies'
+links: {}
+added: '2026-11-21'
+evidence: ROAST iteratively identifies and fixes supertranscriptome assembly errors using paired-end RNA-seq alignment signatures.

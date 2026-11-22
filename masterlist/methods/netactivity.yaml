@@ -1,0 +1,23 @@
+name: NetActivity
+category: dry
+summary: NetActivity uses a sparsely connected autoencoder to derive interpretable gene-set activity scores from gene expression
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae197
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Ruiz-Arenas C
+  last_author: Hernaez M
+  pmid: '38597610'
+  pmcid: PMC11109970
+  title: NetActivity enhances transcriptional signals by combining gene expression into robust gene set activity scores through
+    interpretable autoencoders
+  preprint_doi: 10.1101/2023.07.31.551238
+links: {}
+added: '2026-11-21'
+evidence: NetActivity was trained on gene sets and GTEx samples and was applied to bulk RNA-seq and microarray datasets.

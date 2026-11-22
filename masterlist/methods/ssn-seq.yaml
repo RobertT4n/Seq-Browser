@@ -1,0 +1,32 @@
+name: SSN-seq
+full_name: shielded-small-nucleotide-based scRNA-seq
+category: wet
+summary: Expressed small-RNA barcodes enable multiplexed tracking of cell identity and transcriptional states by single-cell
+  RNA sequencing.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41551-023-01085-3
+  year: 2023
+  journal: Nat Biomed Eng
+  first_author: Lu X
+  last_author: Mazur PK
+  pmid: '37652986'
+  title: Multiplexed transcriptomic profiling of the fate of human CAR T cells in vivo via genetic barcoding with shielded
+    small nucleotides
+links: {}
+added: '2026-11-21'
+evidence: Small-RNA barcodes recorded CAR T-cell identity from infusion to isolation during profiling in a mouse leukemia
+  model.

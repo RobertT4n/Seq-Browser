@@ -1,0 +1,20 @@
+name: CAPTUS
+category: dry
+summary: CAPTUS assembles mixed sequencing data and produces paralog-filtered alignments for phylogenomic analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/sysbio/syag046
+  year: 2026
+  journal: Syst Biol
+  first_author: Ortiz EM
+  last_author: Schaefer H
+  pmid: '42417730'
+  title: A novel phylogenomics pipeline reveals extensive topological conflict in the evolution of the angiosperm order Cucurbitales
+  preprint_doi: 10.1101/2023.10.27.564367
+links: {}
+added: '2026-11-21'
+evidence: CAPTUS assembles mixed sequencing data, searches for loci of interest, and produces paralog-filtered alignments.

@@ -1,0 +1,24 @@
+name: DANGER analysis
+full_name: Deleterious and ANticipatable Guides Evaluated by RNA-sequencing analysis
+category: dry
+summary: DANGER analysis uses RNA-seq data to identify potential CRISPR on- and off-target sites in transcribed regions and
+  assess their phenotypic risk.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbad114
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Nakamae K
+  last_author: Bono H
+  pmid: '37661945'
+  pmcid: PMC10469126
+  title: 'DANGER analysis: risk-averse on/off-target assessment for CRISPR editing without a reference genome'
+links: {}
+added: '2026-11-21'
+evidence: DANGER uses de novo transcriptome assembly to assess on- and off-target sites and their potential contribution to
+  expression phenotypes without a reference genome.

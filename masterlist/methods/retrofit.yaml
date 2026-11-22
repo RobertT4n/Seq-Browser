@@ -1,0 +1,22 @@
+name: RETROFIT
+category: dry
+summary: A Bayesian framework deconvolves cell-type mixtures in spatial transcriptomics data without a reference.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-026-74928-7
+  year: 2026
+  journal: Nat Commun
+  first_author: Singh R
+  last_author: Li Q
+  pmid: '42642366'
+  pmcid: PMC13507089
+  title: 'RETROFIT: Reference-free deconvolution of cell-type mixtures in spatial transcriptomics'
+  preprint_doi: 10.1101/2023.06.07.544126
+links: {}
+added: '2026-11-21'
+evidence: RETROFIT operates directly on spatial sequencing measurements and recovers spatial patterns without single-cell
+  references or marker genes.

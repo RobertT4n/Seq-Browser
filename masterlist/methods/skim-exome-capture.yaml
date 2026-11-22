@@ -1,0 +1,26 @@
+name: skim exome capture
+category: wet
+summary: Low-coverage sequencing of tagmented and exome-enriched libraries enables targeted genotyping in wheat.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- tn5
+- oligo-capture
+species:
+- plant
+reference:
+  doi: 10.1002/tpg2.20381
+  year: 2023
+  journal: Plant Genome
+  first_author: Wang H
+  last_author: Jordan KW
+  pmid: '37604795'
+  pmcid: PMC12806957
+  title: Skim exome capture genotyping in wheat
+links: {}
+added: '2026-11-21'
+evidence: Wheat genomic DNA was fragmented by tagmentation, enriched with exome baits and multiplexed to obtain targeted genotyping
+  data.

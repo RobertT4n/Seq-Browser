@@ -1,0 +1,20 @@
+name: TRAFICA
+category: dry
+summary: TRAFICA predicts transcription factor DNA binding affinity using an open chromatin language model and in vitro binding
+  profiles.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.02.565416
+  year: 2023
+  journal: bioRxiv
+  first_author: Xu Y
+  last_author: Zhang L
+  title: 'TRAFICA: An Open Chromatin Language Model to Improve Transcription Factor Binding Affinity Prediction'
+links: {}
+added: '2026-11-21'
+evidence: TRAFICA is pretrained on ATAC-seq peak sequences and fine-tuned on in vitro transcription factor binding profiles.

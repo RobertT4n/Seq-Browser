@@ -1,0 +1,18 @@
+name: RENGE
+category: dry
+summary: RENGE infers gene regulatory networks from time-series single-cell RNA-seq data with CRISPR perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.08.23.554254
+  year: 2023
+  journal: bioRxiv
+  first_author: Ishikawa M
+  last_author: Mochizuki A
+  title: Inference of gene regulatory networks using time-series single-cell RNA-seq data with CRISPR perturbations
+links: {}
+added: '2026-11-21'
+evidence: RENGE models the propagation of knockout effects over time and distinguishes direct from indirect regulation.

@@ -1,0 +1,29 @@
+name: AVENGERS
+full_name: Analysis of Variant Effects using NGs to Enhance BRCA2 Stratification
+category: wet
+summary: Saturation genome editing and sequencing measure the functional effects of BRCA2 variants in a humanized mouse cell
+  line.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- saturation-editing
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2023.12.14.571713
+  year: 2023
+  journal: bioRxiv
+  first_author: Sahu S
+  last_author: Sharan SK
+  title: 'AVENGERS: Analysis of Variant Effects using Next Generation sequencing to Enhance  <i>BRCA2</i>  Stratification'
+links: {}
+added: '2026-11-21'
+evidence: AVENGERS uses CRISPR-Cas9 saturation genome editing in a humanized mouse embryonic stem cell line to score BRCA2
+  variants.

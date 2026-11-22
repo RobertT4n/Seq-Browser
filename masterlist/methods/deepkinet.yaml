@@ -1,0 +1,22 @@
+name: DeepKINET
+category: dry
+summary: DeepKINET estimates RNA splicing and degradation rates at single-cell resolution from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03367-8
+  year: 2024
+  journal: Genome Biol
+  first_author: Mizukoshi C
+  last_author: Shimamura T
+  pmid: '39237934'
+  pmcid: PMC11378460
+  title: 'DeepKINET: a deep generative model for estimating single-cell RNA splicing and degradation rates'
+  preprint_doi: 10.1101/2023.11.25.568659
+links: {}
+added: '2026-11-21'
+evidence: DeepKINET is a deep generative model that estimates splicing and degradation rates from scRNA-seq data at single-cell
+  resolution.

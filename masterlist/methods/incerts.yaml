@@ -1,0 +1,29 @@
+name: INCERTS
+full_name: INtraCEllular Reverse Transcription with Sorting and sequencing
+category: wet
+summary: Intracellular receptor indexing and cell sorting associate T-cell receptor sequences with cellular phenotypes.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- facs-sorting
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.crmeth.2023.100600
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Jayaraman S
+  last_author: Larman HB
+  pmid: '37776855'
+  pmcid: PMC10626196
+  title: Barcoding intracellular reverse transcription enables high-throughput phenotype-coupled T cell receptor analyses
+links: {}
+added: '2026-11-21'
+evidence: INCERTS indexes receptor repertoires within intact cells and sorts pooled human PBMC samples while retaining associations
+  between TCR sequences and phenotypes.

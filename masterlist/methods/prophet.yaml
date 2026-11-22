@@ -1,0 +1,26 @@
+name: PROPHET
+full_name: Patient-specific pROgnostic and Potential tHErapeutic marker Tracking
+category: wet
+summary: Personalized deep sequencing of tumor-informed variants detects molecular residual disease in circulating tumor DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.ccell.2023.08.010
+  year: 2023
+  journal: Cancer Cell
+  first_author: Chen K
+  last_author: Wang J
+  pmid: '37683638'
+  title: Individualized tumor-informed circulating tumor DNA analysis for postoperative monitoring of non-small cell lung
+    cancer
+links: {}
+added: '2026-11-21'
+evidence: PROPHET uses deep sequencing of 50 patient-specific variants and was applied to plasma samples from patients with
+  early-stage non-small cell lung cancer.

@@ -1,0 +1,26 @@
+name: CuReSim-LoRM
+full_name: customized read simulator to generate long reads for metabarcoding
+category: dry
+summary: A simulator generates long metabarcoding reads with varying error rates and length distributions for benchmarking
+  analysis workflows.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/ijms241814005
+  year: 2023
+  journal: Int J Mol Sci
+  first_author: Mesloub Y
+  last_author: Caboche S
+  pmid: '37762307'
+  pmcid: PMC10531135
+  title: 'CuReSim-LoRM: A Tool to Simulate Metabarcoding Long Reads'
+links: {}
+added: '2026-11-21'
+evidence: CuReSim-LoRM simulates long metabarcoding reads to benchmark analysis processes while mimicking error rates and
+  read lengths.

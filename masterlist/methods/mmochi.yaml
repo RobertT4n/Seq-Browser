@@ -1,0 +1,23 @@
+name: MMoCHi
+full_name: MultiModal Classifier Hierarchy
+category: dry
+summary: Classifies single-cell types and states by combining gene and surface protein expression in a marker-based hierarchy.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100938
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Caron DP
+  last_author: Sims PA
+  pmid: '39814026'
+  pmcid: PMC11840950
+  title: Multimodal hierarchical classification of CITE-seq data delineates immune cell states across lineages and tissues
+  preprint_doi: 10.1101/2023.07.06.547944
+links: {}
+added: '2026-11-21'
+evidence: MMoCHi reconciles gene and protein expression to classify cells without relying on reference atlases.

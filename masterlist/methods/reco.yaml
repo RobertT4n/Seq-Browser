@@ -1,0 +1,21 @@
+name: ReCo
+category: dry
+summary: ReCo converts sequencing reads from single and combinatorial CRISPR libraries and screens into guide RNA read-count
+  tables.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad448
+  year: 2023
+  journal: Bioinformatics
+  first_author: Wegner M
+  last_author: Kaulich M
+  pmid: '37481709'
+  pmcid: PMC10400375
+  title: 'ReCo: automated NGS read-counting of single and combinatorial CRISPR gRNAs'
+links: {}
+added: '2026-11-21'
+evidence: ReCo automates read-count table generation from CRISPR library and screen sequencing data.

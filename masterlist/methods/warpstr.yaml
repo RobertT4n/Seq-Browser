@@ -1,0 +1,24 @@
+name: WarpSTR
+category: dry
+summary: A finite-state and dynamic-time-warping-like method estimates tandem repeat lengths directly from raw nanopore signals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btad388
+  year: 2023
+  journal: Bioinformatics
+  first_author: Sitarčík J
+  last_author: Lucká M
+  pmid: '37326967'
+  pmcid: PMC10307940
+  title: 'WarpSTR: determining tandem repeat lengths using raw nanopore signals'
+links: {}
+added: '2026-11-21'
+evidence: WarpSTR characterized simple and complex tandem repeats directly from raw nanopore signals and estimated lengths
+  of 241 STRs.

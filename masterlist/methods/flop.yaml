@@ -1,0 +1,22 @@
+name: FLOP
+full_name: FunctionaL Omics Processing
+category: dry
+summary: A workflow for preprocessing transcriptomic count data and performing downstream gene-set enrichment analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae552
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Paton V
+  last_author: Saez-Rodriguez J
+  pmid: '38943333'
+  pmcid: PMC11317128
+  title: Assessing the impact of transcriptomics data analysis pipelines on downstream functional enrichment results
+  preprint_doi: 10.1101/2023.09.13.557538
+links: {}
+added: '2026-11-21'
+evidence: FLOP combines preprocessing and enrichment methods for end-to-end analysis of transcriptomic count data.

@@ -1,0 +1,22 @@
+name: BayesTME
+category: dry
+summary: Analyzes spatial transcriptomics data to deconvolve spots into cell phenotypes and identify spatial transcriptional
+  programs.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2023.06.003
+  year: 2023
+  journal: Cell Syst
+  first_author: Zhang H
+  last_author: Tansey W
+  pmid: '37473731'
+  pmcid: PMC10368078
+  title: 'BayesTME: An end-to-end method for multiscale spatial transcriptional profiling of the tissue microenvironment'
+links: {}
+added: '2026-11-21'
+evidence: BayesTME deconvolves spatial transcriptomics spots without paired single-cell RNA-seq and identifies spatial expression
+  patterns within phenotypes.

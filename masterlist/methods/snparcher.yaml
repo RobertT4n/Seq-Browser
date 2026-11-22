@@ -1,0 +1,21 @@
+name: snpArcher
+category: dry
+summary: Provides a reproducible variant-calling workflow for genomic resequencing data from non-model organisms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msad270
+  year: 2024
+  journal: Mol Biol Evol
+  first_author: Mirchandani CD
+  last_author: Sackton TB
+  pmid: '38069903'
+  pmcid: PMC10764099
+  title: A Fast, Reproducible, High-throughput Variant Calling Workflow for Population Genomics
+  preprint_doi: 10.1101/2023.06.22.546168
+links: {}
+added: '2026-11-21'
+evidence: snpArcher provides variant calling, quality control, visualization, filtering and downstream analysis modules.

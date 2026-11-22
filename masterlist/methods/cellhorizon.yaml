@@ -1,0 +1,18 @@
+name: CellHorizon
+category: dry
+summary: CellHorizon clusters single-cell RNA-seq data with a probabilistic generative model that accounts for dropouts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.12.571199
+  year: 2023
+  journal: bioRxiv
+  first_author: Saha J
+  last_author: Rahman A
+  title: Probabilistic clustering of cells using single-cell RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: CellHorizon handles expression dropouts and clusters cells without prior marker gene information.

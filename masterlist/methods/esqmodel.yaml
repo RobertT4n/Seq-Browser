@@ -1,0 +1,23 @@
+name: ESQmodel
+category: dry
+summary: ESQmodel evaluates single-cell segmentation in multiplexed tissue images using expression profiles and prior cell-composition
+  information.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad783
+  year: 2024
+  journal: Bioinformatics
+  first_author: Lee E
+  last_author: Roth A
+  pmid: '38152895'
+  pmcid: PMC10783950
+  title: 'ESQmodel: biologically informed evaluation of 2-D cell segmentation quality in multiplexed tissue images'
+  preprint_doi: 10.1101/2023.07.06.547438
+links: {}
+added: '2026-11-21'
+evidence: ESQmodel computes per-cell entropy to assess consistency between cellular expression profiles and cell-type expectations.

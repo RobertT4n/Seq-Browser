@@ -1,0 +1,22 @@
+name: scBiG
+category: dry
+summary: Learns cell and gene embeddings from single-cell expression data using a bipartite graph and graph convolutional
+  network.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqae004
+  year: 2024
+  journal: NAR Genom Bioinform
+  first_author: Li T
+  last_author: Li H
+  pmid: '38288376'
+  pmcid: PMC10823585
+  title: scBiG for representation learning of single-cell gene expression data based on bipartite graph embedding
+links: {}
+added: '2026-11-21'
+evidence: scBiG connects cells and expressed genes in a bipartite graph and learns cell and gene embeddings with a multilayer
+  graph convolutional network.

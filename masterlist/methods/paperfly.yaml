@@ -1,0 +1,23 @@
+name: PAPerFly
+full_name: Partial Assembly-based Peak Finder
+category: dry
+summary: PAPerFly reconstructs enriched transcription factor binding sites and their sequence context without a reference
+  genome.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05613-5
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Faltejsková K
+  last_author: Vondrášek J
+  pmid: '38114921'
+  pmcid: PMC10731698
+  title: 'PAPerFly: Partial Assembly-based Peak Finder for ab initio binding site reconstruction'
+links: {}
+added: '2026-11-21'
+evidence: PAPerFly reconstructs enriched sequences from a de Bruijn graph and identifies peaks in their enrichment using ChIP-seq
+  data.

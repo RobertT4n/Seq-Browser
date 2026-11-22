@@ -1,0 +1,22 @@
+name: ALLCatchR
+category: dry
+summary: ALLCatchR classifies B-cell precursor acute lymphoblastic leukemia samples into molecular subtypes using RNA-seq
+  gene expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1097/hs9.0000000000000939
+  year: 2023
+  journal: Hemasphere
+  first_author: Beder T
+  last_author: Bastian L
+  pmid: '37645423'
+  pmcid: PMC10461941
+  title: The Gene Expression Classifier ALLCatchR Identifies B-cell Precursor ALL Subtypes and Underlying Developmental Trajectories
+    Across Age
+links: {}
+added: '2026-11-21'
+evidence: ALLCatchR uses RNA-seq gene expression to allocate samples to 21 gene expression-defined molecular subtypes.

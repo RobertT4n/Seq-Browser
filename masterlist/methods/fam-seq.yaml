@@ -1,0 +1,27 @@
+name: FAM-seq
+full_name: fluorine-assisted metabolic sequencing
+category: wet
+summary: Antibody-free metabolic sequencing maps RNA N4-acetylcytidine across the transcriptome.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1021/jacs.3c08483
+  year: 2023
+  journal: J Am Chem Soc
+  first_author: Yan S
+  last_author: Zhou X
+  pmid: '37772932'
+  title: Antibody-Free Fluorine-Assisted Metabolic Sequencing of RNA &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;4&lt;/sup&gt;-Acetylcytidine
+links: {}
+added: '2026-11-21'
+evidence: FAM-seq was used to profile ac4C landscapes in human 293T, HeLa, and MDA cell lines.

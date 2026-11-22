@@ -1,0 +1,27 @@
+name: PB_FLIC-Seq
+full_name: PacBio Full-Length Isoform Concatemer Sequencing
+category: wet
+summary: Concatenates full-length isoforms for PacBio sequencing to improve detection of unique transcript isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12864-024-10021-x
+  year: 2024
+  journal: BMC Genomics
+  first_author: Wijeratne S
+  last_author: Miller AR
+  pmid: '38287261'
+  pmcid: PMC10823626
+  title: Full-length isoform concatenation sequencing to resolve cancer transcriptome complexity
+links: {}
+added: '2026-11-21'
+evidence: The concatenation workflow is designed to increase the number of unique sequenced PacBio long reads and improve
+  unique isoform detection.

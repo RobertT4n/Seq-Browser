@@ -1,0 +1,23 @@
+name: scPharm
+category: dry
+summary: scPharm integrates pharmacogenomics and single-cell RNA-seq data to identify tumor subpopulations and prioritize
+  drugs.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.202412419
+  year: 2025
+  journal: Adv Sci (Weinh)
+  first_author: Tian P
+  last_author: Wang H
+  pmid: '39560158'
+  pmcid: PMC11727242
+  title: 'scPharm: Identifying Pharmacological Subpopulations of Single Cells for Precision Medicine in Cancers'
+  preprint_doi: 10.1101/2023.12.11.571182
+links: {}
+added: '2026-11-21'
+evidence: scPharm integrates bulk pharmacological profiles with single-cell expression data to identify pharmacological subpopulations.

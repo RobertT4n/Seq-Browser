@@ -1,0 +1,19 @@
+name: Cell2Sentence
+category: dry
+summary: A method converts single-cell gene expression profiles into cell sentences for language-model fine-tuning and downstream
+  biological tasks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.11.557287
+  year: 2023
+  journal: bioRxiv
+  first_author: Levine D
+  last_author: van Dijk D
+  title: 'Cell2Sentence: Teaching Large Language Models the Language of Biology'
+links: {}
+added: '2026-11-21'
+evidence: Cell2Sentence transforms gene expression data into cell sentences used for cell generation and cell-type annotation.

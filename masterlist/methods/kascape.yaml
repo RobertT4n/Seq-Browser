@@ -1,0 +1,27 @@
+name: KaScape
+category: wet
+summary: Sequencing bound and unbound randomized DNA pools measures the relative affinities of transcription factors for DNA
+  sequences.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- plant
+reference:
+  doi: 10.1038/s41598-023-43426-x
+  year: 2023
+  journal: Sci Rep
+  first_author: Chen H
+  last_author: Su XD
+  pmid: '37789131'
+  pmcid: PMC10547764
+  title: 'KaScape: a sequencing-based method for global characterization of protein‒DNA binding affinity'
+  preprint_doi: 10.1101/2023.06.19.545523
+links: {}
+added: '2026-11-21'
+evidence: The authors separated bound from unbound randomized double-stranded DNA and sequenced the pools to characterize
+  binding affinities of plant WRKY proteins.

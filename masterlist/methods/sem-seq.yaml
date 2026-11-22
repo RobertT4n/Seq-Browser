@@ -1,0 +1,28 @@
+name: SEM-seq
+full_name: single-enzyme 5-methylcytosine sequencing
+category: wet
+summary: A modification-sensitive DNA deaminase enables nondestructive, base-resolution methylome sequencing from low-input
+  DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.molcel.2024.01.027
+  year: 2024
+  journal: Mol Cell
+  first_author: Vaisvila R
+  last_author: Sun Z
+  pmid: '38402612'
+  title: Discovery of cytosine deaminases enables base-resolution methylome mapping using a single enzyme
+  preprint_doi: 10.1101/2023.06.29.547047
+links: {}
+added: '2026-11-21'
+evidence: SEM-seq uses a modification-sensitive double-stranded DNA deaminase to map methylomes from material including cell-free
+  DNA and 10 pg inputs.

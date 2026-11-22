@@ -1,0 +1,23 @@
+name: ExAD-GNN
+full_name: Explainable Graph Neural Network
+category: dry
+summary: ExAD-GNN predicts Alzheimer's disease status from single-cell expression profiles and identifies cell-type-specific
+  marker genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1561/116.00000239
+  year: 2023
+  journal: APSIPA Trans Signal Inf Process
+  first_author: Duan Z
+  last_author: Zhang J
+  pmid: '41584071'
+  pmcid: PMC12829548
+  title: 'ExAD-GNN: Explainable Graph Neural Network for Alzheimer''s Disease State Prediction from Single-cell Data'
+links: {}
+added: '2026-11-21'
+evidence: ExAD-GNN uses graphs derived from single-cell expression profiles and a learnable gene importance metric to predict
+  disease status.

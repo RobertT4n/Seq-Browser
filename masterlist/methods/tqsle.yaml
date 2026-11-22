@@ -1,0 +1,20 @@
+name: TQSLE
+category: dry
+summary: An alignment-free method estimates RNA-seq transcript abundances by solving a linear equation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad298
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Yi H
+  last_author: Jin W
+  pmid: '37595963'
+  title: A fast and globally optimal solution for RNA-seq quantification
+links: {}
+added: '2026-11-21'
+evidence: TQSLE constructs k-mer frequency representations of a reference transcriptome and RNA-seq reads to estimate transcript
+  abundances.

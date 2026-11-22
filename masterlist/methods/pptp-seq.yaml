@@ -1,0 +1,28 @@
+name: PPTP-seq
+full_name: pooled promoter responses to TF perturbation sequencing
+category: wet
+summary: A pooled CRISPR interference assay measures promoter activity across transcription factor knockdowns in E. coli.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-023-41572-4
+  year: 2023
+  journal: Nat Commun
+  first_author: Han Y
+  last_author: Zhang F
+  pmid: '37717013'
+  pmcid: PMC10505187
+  title: Genome-wide promoter responses to CRISPR perturbations of regulators reveal regulatory networks in Escherichia coli
+links: {}
+added: '2026-11-21'
+evidence: PPTP-seq measured the activity of 1,372 E. coli promoters under individual knockdown of 183 transcription factor
+  genes.

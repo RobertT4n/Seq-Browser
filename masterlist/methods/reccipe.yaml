@@ -1,0 +1,22 @@
+name: RECCIPE
+category: dry
+summary: Identifies cell signaling interactions and associated gene expression changes in multicellular spatial transcriptomic
+  data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2024.1322886
+  year: 2024
+  journal: Front Genet
+  first_author: Ma W
+  last_author: Wang P
+  pmid: '38327830'
+  pmcid: PMC10847567
+  title: 'RECCIPE: A new framework assessing localized cell-cell interaction on gene expression in multicellular ST data'
+links: {}
+added: '2026-11-21'
+evidence: RECCIPE combines gene expression, spatial information and cell type composition in a regression framework to screen
+  for expression changes attributed to cell-cell interactions.

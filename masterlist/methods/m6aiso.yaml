@@ -1,0 +1,23 @@
+name: m6Aiso
+category: dry
+summary: Uses a deep residual neural network to identify and quantify m6A modifications on individual direct RNA sequencing
+  reads.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.01.30.577990
+  year: 2024
+  journal: bioRxiv
+  first_author: Guo W
+  last_author: Wang J
+  title: Endogenous labeling empowers accurate detection of m  <sup>6</sup>  A from single long reads of direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: m6Aiso uses a deep residual neural network trained with endogenously labeled direct RNA sequencing data to identify
+  and quantify m6A sites on single reads.

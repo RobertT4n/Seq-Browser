@@ -1,0 +1,29 @@
+name: scMRD
+full_name: single-cell measurable residual disease
+category: wet
+summary: Single-cell DNA sequencing and immunophenotyping characterize residual leukemia clones and their phenotypes.
+readouts:
+- genome-sequence
+- protein
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1126/sciadv.adg0488
+  year: 2023
+  journal: Sci Adv
+  first_author: Robinson TM
+  last_author: Xiao W
+  pmid: '37729414'
+  pmcid: PMC10881057
+  title: Single-cell genotypic and phenotypic analysis of measurable residual disease in acute myeloid leukemia
+links: {}
+added: '2026-11-21'
+evidence: scMRD combines flow cytometric enrichment of precursor or blast populations with integrated single-cell DNA sequencing
+  and immunophenotyping.

@@ -1,0 +1,24 @@
+name: RNAkinet
+category: dry
+summary: RNAkinet identifies 5EU-labeled nascent RNA molecules from nanopore signals to quantify RNA kinetic parameters.
+readouts:
+- nascent-rna
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nargab/lqae116
+  year: 2024
+  journal: NAR Genom Bioinform
+  first_author: Martinek V
+  last_author: Maragkakis M
+  pmid: '39211330'
+  pmcid: PMC11358824
+  title: Deep learning and direct sequencing of labeled RNA captures transcriptome dynamics
+  preprint_doi: 10.1101/2023.11.17.567581
+links: {}
+added: '2026-11-21'
+evidence: RNAkinet processes nanopore electrical signals to identify 5EU-labeled nascent RNA molecules and quantify RNA kinetics.

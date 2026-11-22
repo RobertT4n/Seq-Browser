@@ -1,0 +1,18 @@
+name: BINARY
+category: dry
+summary: BINARY delineates spatial domains from binarized spatial transcriptomics data using a graph convolutional network.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.15.562443
+  year: 2023
+  journal: bioRxiv
+  first_author: Lin S
+  last_author: Yuan Z
+  title: Spatially Resolved Gene Expression is Not Necessary for Identifying Spatial Domains
+links: {}
+added: '2026-11-21'
+evidence: BINARY relies exclusively on binarized spatially resolved transcriptomics data to delineate spatial domains.

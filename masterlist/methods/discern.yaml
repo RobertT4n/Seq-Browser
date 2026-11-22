@@ -1,0 +1,22 @@
+name: DISCERN
+category: dry
+summary: Deep generative network that reconstructs missing single-cell gene expression from a reference dataset to improve
+  clustering and cell-state detection.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03049-x
+  year: 2023
+  journal: Genome Biol
+  first_author: Hausmann F
+  last_author: Bonn S
+  pmid: '37730638'
+  pmcid: PMC10510283
+  title: 'DISCERN: deep single-cell expression reconstruction for improved cell clustering and cell subtype and state detection'
+links: {}
+added: '2026-11-21'
+evidence: DISCERN reconstructs missing single-cell gene expression using a reference dataset and improves cell clustering
+  and cell-type detection.

@@ -1,0 +1,20 @@
+name: Universal Cell Embedding
+category: dry
+summary: Universal Cell Embedding is a self-supervised foundation model that maps cells from diverse tissues and species into
+  a shared representation space.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.28.568918
+  year: 2023
+  journal: bioRxiv
+  first_author: Rosen Y
+  last_author: Leskovec J
+  title: 'Universal Cell Embeddings: A Foundation Model for Cell Biology'
+links: {}
+added: '2026-11-21'
+evidence: UCE was trained on cell atlas data and maps new cells into a unified biological latent space without additional
+  training or labeling.

@@ -1,0 +1,23 @@
+name: ChroKit
+full_name: Chromatin toolKit
+category: dry
+summary: Provides interactive analysis, integration and visualization of genomic regions and sequencing enrichment signals.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad345
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Croci O
+  last_author: Campaner S
+  pmid: '37144464'
+  pmcid: PMC10320144
+  title: 'ChroKit: a Shiny-based framework for interactive analysis, visualization and integration of genomic data'
+links: {}
+added: '2026-11-21'
+evidence: ChroKit explores preprocessed ChIP-seq, DNase-seq and other sequencing data that report read enrichment over genomic
+  regions.

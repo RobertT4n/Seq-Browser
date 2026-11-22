@@ -1,0 +1,21 @@
+name: BacSeq
+category: dry
+summary: Automates bacterial genome assembly, annotation and comparative analysis from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/microorganisms11071769
+  year: 2023
+  journal: Microorganisms
+  first_author: Chukamnerd A
+  last_author: Surachat K
+  pmid: '37512941'
+  pmcid: PMC10385524
+  title: 'BacSeq: A User-Friendly Automated Pipeline for Whole-Genome Sequence Analysis of Bacterial Genomes'
+links: {}
+added: '2026-11-21'
+evidence: BacSeq assembles and annotates bacterial genomes, identifies resistance and virulence genes and plasmids, and compares
+  isolates.

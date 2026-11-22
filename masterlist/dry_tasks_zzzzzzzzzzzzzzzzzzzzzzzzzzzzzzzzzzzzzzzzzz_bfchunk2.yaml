@@ -1,0 +1,679 @@
+accrispr:
+- perturbation-modelling
+acid:
+- disease-classification
+airrtm:
+- sequence-to-function
+- disease-classification
+aiteq:
+- disease-classification
+aknno:
+- clustering-annotation
+- spatial-analysis
+alignstatplot:
+- genome-visualization
+- population-genetics
+allcatchr:
+- disease-classification
+- phenotype-prediction
+annotator-rnator:
+- differential-analysis
+- population-genetics
+asb-analyzer:
+- regulatory-networks
+- variants-clones
+ascetic:
+- variants-clones
+- population-genetics
+atacannor:
+- clustering-annotation
+atacnv:
+- variants-clones
+autogvp:
+- variants-clones
+autohic:
+- genome-assembly
+autotunex:
+- transcript-quantification
+autscore:
+- variants-clones
+bacseq:
+- genome-assembly
+- variants-clones
+bamquery:
+- transcript-quantification
+- disease-classification
+bartools:
+- variants-clones
+- dimensionality-visualization
+bayesdeep:
+- spatial-analysis
+bayestme:
+- spatial-analysis
+berlin:
+- benchmark-infrastructure
+- trajectory-velocity
+bidcell:
+- spatial-analysis
+binary:
+- spatial-analysis
+blr:
+- population-genetics
+cajal:
+- dimensionality-visualization
+- multimodal-integration
+captus:
+- genome-assembly
+- population-genetics
+ccsmethphase:
+- modification-calling
+- population-genetics
+cefcon:
+- regulatory-networks
+- trajectory-velocity
+celery:
+- spatial-analysis
+- integration
+cell2sentence:
+- foundation-model
+- clustering-annotation
+cellagentchat:
+- cell-communication
+- spatial-analysis
+cellbrf:
+- clustering-annotation
+cellchat-v2:
+- cell-communication
+- spatial-analysis
+cellcounts:
+- transcript-quantification
+- read-alignment
+celldemux:
+- preprocessing-qc
+- variants-clones
+cellhorizon:
+- clustering-annotation
+cellpie:
+- spatial-analysis
+- multimodal-integration
+cellpolaris:
+- regulatory-networks
+- perturbation-modelling
+checkm2:
+- preprocessing-qc
+chipr:
+- 3d-genome-analysis
+chrokit:
+- genome-visualization
+- peak-calling-signal
+chronode:
+- multimodal-integration
+- regulatory-networks
+clrdv:
+- differential-analysis
+cnaqc:
+- preprocessing-qc
+- variants-clones
+com-2seq:
+- differential-analysis
+- integration
+combosc:
+- perturbation-modelling
+comse:
+- clustering-annotation
+- integration
+conspas:
+- spatial-analysis
+cosia:
+- dimensionality-visualization
+crawdad:
+- spatial-analysis
+crfe:
+- differential-analysis
+crossnn:
+- disease-classification
+curesim-lorm:
+- benchmark-infrastructure
+cytosimplex:
+- trajectory-velocity
+- dimensionality-visualization
+danger-analysis:
+- variants-clones
+- perturbation-modelling
+deconv:
+- clustering-annotation
+deepddr:
+- variants-clones
+- modification-calling
+deepinverton:
+- sequence-to-function
+deepiteh:
+- transcript-quantification
+- regulatory-networks
+deepkinet:
+- transcript-quantification
+deepscena:
+- clustering-annotation
+- dimensionality-visualization
+deepscence:
+- clustering-annotation
+deloop:
+- 3d-genome-analysis
+delsieve:
+- variants-clones
+- population-genetics
+derrick:
+- preprocessing-qc
+detox:
+- sequence-to-function
+dip3d:
+- 3d-genome-analysis
+- variants-clones
+discern:
+- preprocessing-qc
+- clustering-annotation
+diseasegps:
+- disease-classification
+- variants-clones
+dmcthm:
+- differential-analysis
+dreamit:
+- regulatory-networks
+- trajectory-velocity
+dreep:
+- perturbation-modelling
+dsrid:
+- modification-calling
+eaglec-explorer:
+- 3d-genome-analysis
+- variants-clones
+emo:
+- sequence-to-function
+- perturbation-modelling
+emobject:
+- benchmark-infrastructure
+enigma:
+- clustering-annotation
+- transcript-quantification
+epianeufinder:
+- variants-clones
+erna-id:
+- transcript-quantification
+esearch3d:
+- regulatory-networks
+- 3d-genome-analysis
+esgq:
+- transcript-quantification
+esqmodel:
+- preprocessing-qc
+- spatial-analysis
+exad-gnn:
+- disease-classification
+exfinder:
+- cell-communication
+- regulatory-networks
+explainn:
+- sequence-to-function
+- regulatory-networks
+factorfinder:
+- peak-calling-signal
+fame:
+- modification-calling
+fastde:
+- differential-analysis
+fatecompass:
+- regulatory-networks
+- trajectory-velocity
+finaleme:
+- modification-calling
+findadapt:
+- preprocessing-qc
+fishtofigure:
+- spatial-analysis
+flop:
+- benchmark-infrastructure
+- differential-analysis
+fmh-funprofiler:
+- benchmark-infrastructure
+gaston:
+- spatial-analysis
+gbmdeconvoluter:
+- clustering-annotation
+gefmap:
+- metabolic-modelling
+gene-signal-pattern-analysis:
+- dimensionality-visualization
+- regulatory-networks
+genecompass:
+- foundation-model
+- regulatory-networks
+generalized-binary-covariance-decomposition:
+- dimensionality-visualization
+genius:
+- multimodal-integration
+genki:
+- perturbation-modelling
+- regulatory-networks
+genomad:
+- metagenomics-taxonomy
+get:
+- foundation-model
+- regulatory-networks
+giotto-suite:
+- spatial-analysis
+- multimodal-integration
+glass:
+- population-genetics
+gldadec:
+- clustering-annotation
+gnomo2:
+- multimodal-integration
+- metagenomics-taxonomy
+gplas2:
+- genome-assembly
+gprint:
+- clustering-annotation
+- integration
+gritic:
+- variants-clones
+gsc:
+- benchmark-infrastructure
+gsdensity:
+- regulatory-networks
+- spatial-analysis
+hat:
+- variants-clones
+hdwgcna:
+- regulatory-networks
+hi-bdisco:
+- 3d-genome-analysis
+hiclift:
+- 3d-genome-analysis
+homologyseeker:
+- integration
+- trajectory-velocity
+hyppa:
+- genome-assembly
+immunic:
+- clustering-annotation
+impala:
+- differential-analysis
+inclust:
+- multimodal-integration
+- clustering-annotation
+inclust-plus:
+- multimodal-integration
+- clustering-annotation
+ingene:
+- dimensionality-visualization
+insitucor:
+- spatial-analysis
+insurveyor:
+- variants-clones
+ischia:
+- spatial-analysis
+- cell-communication
+iscpam:
+- regulatory-networks
+istar:
+- spatial-analysis
+- multimodal-integration
+jointly:
+- clustering-annotation
+- integration
+jtk:
+- genome-assembly
+- population-genetics
+kombover:
+- variants-clones
+laca:
+- metagenomics-taxonomy
+- preprocessing-qc
+latentvelo:
+- trajectory-velocity
+- integration
+lider:
+- clustering-annotation
+- dimensionality-visualization
+lrtk:
+- metagenomics-taxonomy
+- genome-assembly
+lyric:
+- transcript-quantification
+m5umcb:
+- sequence-to-function
+m6abasecaller:
+- modification-calling
+m6aiso:
+- modification-calling
+macrodna:
+- multimodal-integration
+map2b:
+- metagenomics-taxonomy
+mapinsights:
+- preprocessing-qc
+- variants-clones
+mbqtl:
+- differential-analysis
+- metagenomics-taxonomy
+medusa:
+- trajectory-velocity
+meti:
+- spatial-analysis
+- multimodal-integration
+minimap2-fpga:
+- read-alignment
+miostone:
+- phenotype-prediction
+- differential-analysis
+mmochi:
+- clustering-annotation
+- multimodal-integration
+motif:
+- phenotype-prediction
+motif-search:
+- preprocessing-qc
+mtb-vcf:
+- variants-clones
+mtg-link:
+- genome-assembly
+nanoporeata:
+- differential-analysis
+- transcript-quantification
+neohunter:
+- variants-clones
+- transcript-quantification
+netactivity:
+- dimensionality-visualization
+neuroestimator:
+- phenotype-prediction
+nf-core-taxprofiler:
+- metagenomics-taxonomy
+- preprocessing-qc
+omnina:
+- foundation-model
+- sequence-to-function
+ovaprint:
+- disease-classification
+pacsi:
+- differential-analysis
+- spatial-analysis
+paperfly:
+- peak-calling-signal
+pfaster:
+- phenotype-prediction
+phfinder:
+- variants-clones
+phylovelo:
+- trajectory-velocity
+plasbin-flow:
+- genome-assembly
+po-scplowinnaclec-scplow:
+- dimensionality-visualization
+- perturbation-modelling
+predict:
+- phenotype-prediction
+proteomegenerator2:
+- benchmark-infrastructure
+pserm-scoring:
+- perturbation-modelling
+ptato:
+- variants-clones
+pydeseq2:
+- differential-analysis
+pyhim:
+- 3d-genome-analysis
+- spatial-analysis
+pymegabase:
+- 3d-genome-analysis
+quickbam:
+- benchmark-infrastructure
+raptcr:
+- dimensionality-visualization
+reads-level-decontamination:
+- preprocessing-qc
+- metagenomics-taxonomy
+reccipe:
+- cell-communication
+- spatial-analysis
+reco:
+- preprocessing-qc
+redis:
+- metagenomics-taxonomy
+reelgene:
+- genome-assembly
+- sequence-to-function
+refhic-sr:
+- 3d-genome-analysis
+regcfinder:
+- differential-analysis
+renge:
+- regulatory-networks
+- perturbation-modelling
+repairnatrix:
+- preprocessing-qc
+retrofit:
+- spatial-analysis
+riddler:
+- variants-clones
+rlsuite:
+- preprocessing-qc
+- benchmark-infrastructure
+rna-strain-match:
+- preprocessing-qc
+- variants-clones
+rnakinet:
+- transcript-quantification
+roast:
+- transcript-quantification
+sahmi:
+- metagenomics-taxonomy
+- preprocessing-qc
+sc-immucc:
+- clustering-annotation
+sc-tusv-ext:
+- variants-clones
+scace:
+- clustering-annotation
+- dimensionality-visualization
+scada:
+- differential-analysis
+scanna:
+- clustering-annotation
+- differential-analysis
+scape:
+- cell-communication
+scbig:
+- dimensionality-visualization
+sccancer2:
+- clustering-annotation
+- integration
+scdirect:
+- regulatory-networks
+- multimodal-integration
+scdisinfact:
+- integration
+- perturbation-modelling
+scdot:
+- spatial-analysis
+- multimodal-integration
+scfed:
+- preprocessing-qc
+- clustering-annotation
+scgcc:
+- clustering-annotation
+- dimensionality-visualization
+scgem:
+- dimensionality-visualization
+scgenerhythm:
+- clustering-annotation
+scgp:
+- spatial-analysis
+- clustering-annotation
+scgraph2vec:
+- dimensionality-visualization
+schime:
+- modification-calling
+- 3d-genome-analysis
+scim:
+- trajectory-velocity
+- dimensionality-visualization
+scinfovae:
+- dimensionality-visualization
+- clustering-annotation
+scmerge2:
+- integration
+scomatic:
+- variants-clones
+scpagwas:
+- differential-analysis
+- clustering-annotation
+scpharm:
+- perturbation-modelling
+- clustering-annotation
+scpro-hi:
+- integration
+scprojection:
+- integration
+- spatial-analysis
+scqa:
+- clustering-annotation
+scqcea:
+- preprocessing-qc
+- clustering-annotation
+scshift:
+- integration
+- dimensionality-visualization
+scsniper:
+- differential-analysis
+- multimodal-integration
+scsnpdemux:
+- preprocessing-qc
+- variants-clones
+sctherapy:
+- perturbation-modelling
+selina:
+- clustering-annotation
+- integration
+senpred:
+- phenotype-prediction
+sift:
+- preprocessing-qc
+- dimensionality-visualization
+sincmat:
+- regulatory-networks
+singlemod:
+- modification-calling
+slow5curl:
+- benchmark-infrastructure
+smart:
+- spatial-analysis
+- differential-analysis
+snaf:
+- transcript-quantification
+- phenotype-prediction
+snparcher:
+- variants-clones
+- benchmark-infrastructure
+snucconv:
+- clustering-annotation
+sparx:
+- perturbation-modelling
+- spatial-analysis
+spatial-live:
+- spatial-analysis
+- dimensionality-visualization
+spatialanno:
+- spatial-analysis
+- clustering-annotation
+spatialddls:
+- spatial-analysis
+spatialsort:
+- clustering-annotation
+- spatial-analysis
+spechla:
+- variants-clones
+- genome-assembly
+sper:
+- spatial-analysis
+- cell-communication
+spottedpy:
+- spatial-analysis
+sqanti-sim:
+- benchmark-infrastructure
+srnafrag:
+- transcript-quantification
+sry:
+- genome-assembly
+ssae:
+- perturbation-modelling
+star-pluswasp:
+- read-alignment
+- transcript-quantification
+stavia:
+- trajectory-velocity
+- dimensionality-visualization
+stie:
+- spatial-analysis
+- clustering-annotation
+stoat:
+- transcript-quantification
+strainscan:
+- metagenomics-taxonomy
+strastivevi:
+- dimensionality-visualization
+suma:
+- clustering-annotation
+superst:
+- spatial-analysis
+suspect:
+- sequence-to-function
+- variants-clones
+taget:
+- transcript-quantification
+- read-alignment
+taxa4meta:
+- metagenomics-taxonomy
+- disease-classification
+tg468:
+- phenotype-prediction
+timetalk:
+- cell-communication
+- trajectory-velocity
+tqsle:
+- transcript-quantification
+tracetrack:
+- read-alignment
+- genome-visualization
+trafica:
+- sequence-to-function
+- regulatory-networks
+transcriptomics-to-activity-transformer:
+- perturbation-modelling
+transformerst:
+- spatial-analysis
+- multimodal-integration
+treeprofiler:
+- population-genetics
+- genome-visualization
+trevixmbd:
+- multimodal-integration
+- regulatory-networks
+unified-multi-caller-ensemble:
+- variants-clones
+universal-cell-embedding:
+- foundation-model
+- dimensionality-visualization
+vcfshiny:
+- genome-visualization
+- variants-clones
+velvet:
+- trajectory-velocity
+vibe:
+- dimensionality-visualization
+virify:
+- metagenomics-taxonomy
+warpstr:
+- variants-clones
+xvir:
+- metagenomics-taxonomy

@@ -1,0 +1,20 @@
+name: FindAdapt
+category: dry
+summary: Detects adapter patterns in small RNA sequencing reads without prior adapter information.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011786
+  year: 2024
+  journal: PLoS Comput Biol
+  first_author: Chen HC
+  last_author: Liu Q
+  pmid: '38252662'
+  pmcid: PMC10833567
+  title: 'FindAdapt: A python package for fast and accurate adapter detection in small RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: FindAdapt detects adapter patterns without relying on prior information, including in datasets with randomized adapters.

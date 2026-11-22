@@ -1,0 +1,21 @@
+name: Mapinsights
+category: dry
+summary: Mapinsights analyzes sequence alignments for quality issues, sequencing artifacts and low-confidence variant sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad539
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Das S
+  last_author: Basu A
+  pmid: '37378434'
+  pmcid: PMC10415152
+  title: 'Mapinsights: deep exploration of quality issues and error profiles in high-throughput sequence data'
+links: {}
+added: '2026-11-21'
+evidence: Mapinsights clusters alignment-derived QC features to detect outliers and uses those features to identify low-confidence
+  variant sites.

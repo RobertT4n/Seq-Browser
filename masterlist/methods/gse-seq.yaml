@@ -1,0 +1,30 @@
+name: GSE-Seq
+full_name: Generic Single Entity Sequencing
+category: wet
+summary: A droplet-based platform combines hydrogel processing and whole-genome amplification for high-throughput sequencing
+  of individual biological entities.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- hydrogel-compartmentalization
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1002/imt2.70087
+  year: 2025
+  journal: Imeta
+  first_author: Wang G
+  last_author: Yu J
+  pmid: '41472846'
+  pmcid: PMC12747555
+  title: High-throughput generic single-entity sequencing using droplet microfluidics
+  preprint_doi: 10.1101/2023.08.15.549386
+links: {}
+added: '2026-11-21'
+evidence: The workflow uses degradable hydrogels for in situ processing and whole-genome amplification with integrated in-drop
+  library preparation.

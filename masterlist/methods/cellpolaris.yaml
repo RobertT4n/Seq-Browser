@@ -1,0 +1,19 @@
+name: CellPolaris
+category: dry
+summary: A transfer-learning system that infers cell-type-specific gene regulatory networks from transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.09.25.559244
+  year: 2023
+  journal: bioRxiv
+  first_author: Feng G
+  last_author: Li X
+  title: 'CellPolaris: Decoding Cell Fate through Generalization Transfer Learning of Gene Regulatory Networks'
+links: {}
+added: '2026-11-21'
+evidence: CellPolaris trains on high-confidence regulatory networks and uses transcriptomic data to generate cell-type-specific
+  networks.

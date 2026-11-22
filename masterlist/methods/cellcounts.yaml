@@ -1,0 +1,20 @@
+name: cellCounts
+category: dry
+summary: Aligns and quantifies 10x Chromium single-cell RNA-seq reads by assigning collapsed UMIs to genes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad439
+  year: 2023
+  journal: Bioinformatics
+  first_author: Liao Y
+  last_author: Shi W
+  pmid: '37462540'
+  pmcid: PMC10365925
+  title: 'cellCounts: an R function for quantifying 10x Chromium single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: cellCounts aligns reads to a reference genome, collapses reads to UMIs and assigns UMIs to genes.

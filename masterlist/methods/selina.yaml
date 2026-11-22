@@ -1,0 +1,22 @@
+name: SELINA
+full_name: single-cell identity navigator
+category: dry
+summary: Reference-based framework for automatic cell-type annotation of human single-cell RNA-seq data using adversarial
+  domain adaptation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2023.100577
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Ren P
+  last_author: Wang C
+  pmid: '37751689'
+  pmcid: PMC10545911
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+links: {}
+added: '2026-11-21'
+evidence: SELINA uses a pre-curated reference atlas and multiple-adversarial domain adaptation to annotate cell types.

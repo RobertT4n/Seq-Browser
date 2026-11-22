@@ -1,0 +1,23 @@
+name: scDisInFact
+category: dry
+summary: Disentangles batch and condition effects in single-cell RNA-seq for integration, gene detection and perturbation
+  prediction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-45227-w
+  year: 2024
+  journal: Nat Commun
+  first_author: Zhang Z
+  last_author: Zhang X
+  pmid: '38291052'
+  pmcid: PMC10827746
+  title: 'scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: scDisInFact learns latent factors that separate condition effects from batch effects for batch removal, key gene
+  detection and perturbation prediction.

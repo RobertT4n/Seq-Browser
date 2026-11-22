@@ -1,0 +1,24 @@
+name: SQANTI-SIM
+category: dry
+summary: Simulation utility that controls transcript novelty in long-read RNA-seq data for benchmarking transcriptome reconstruction.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s13059-023-03127-0
+  year: 2023
+  journal: Genome Biol
+  first_author: Mestre-Tomás J
+  last_author: Conesa A
+  pmid: '38082294'
+  pmcid: PMC10712166
+  title: 'SQANTI-SIM: a simulator of controlled transcript novelty for lrRNA-seq benchmark'
+  preprint_doi: 10.1101/2023.08.23.554392
+links: {}
+added: '2026-11-21'
+evidence: SQANTI-SIM wraps long-read simulators and controls transcript novelty by selectively excluding transcripts from
+  a reference dataset.

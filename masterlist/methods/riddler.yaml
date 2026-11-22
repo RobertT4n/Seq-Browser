@@ -1,0 +1,20 @@
+name: RIDDLER
+category: dry
+summary: An unsupervised method that detects single-cell copy number variants from ATAC-seq data using robust generalized
+  linear models.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.04.560975
+  year: 2023
+  journal: bioRxiv
+  first_author: Moore TW
+  last_author: Yardımcı GG
+  title: Robust CNV detection using single-cell ATAC-seq
+links: {}
+added: '2026-11-21'
+evidence: RIDDLER detects single-cell CNVs from scATAC-seq and distinguishes likely dropout from genomic deletion.

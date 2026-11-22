@@ -1,0 +1,25 @@
+name: m6ABasecaller
+category: dry
+summary: m6ABasecaller calls m6A modifications from raw nanopore signals in individual RNA molecules.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-025-03498-6
+  year: 2025
+  journal: Genome Biol
+  first_author: Cruciani S
+  last_author: Novoa EM
+  pmid: '40001217'
+  pmcid: PMC11853310
+  title: De novo basecalling of RNA modifications at single molecule and nucleotide resolution
+  preprint_doi: 10.1101/2023.11.13.566801
+links: {}
+added: '2026-11-21'
+evidence: m6ABasecaller predicts m6A from raw nanopore signals at single-nucleotide and single-molecule resolution without
+  paired controls.

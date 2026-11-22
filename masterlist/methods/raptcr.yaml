@@ -1,0 +1,19 @@
+name: RapTCR
+category: dry
+summary: A tool embeds T-cell receptor sequences and visualizes their nearest-neighbor network for repertoire exploration.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2023.09.13.557604
+  year: 2023
+  journal: bioRxiv
+  first_author: Van Deuren VM
+  last_author: Meysman P
+  title: 'RapTCR: Rapid exploration and visualization of T-cell receptor repertoires'
+links: {}
+added: '2026-11-21'
+evidence: RapTCR represents TCR amino acid sequences as vectors that retain pairwise alignment similarity and visualizes their
+  network.

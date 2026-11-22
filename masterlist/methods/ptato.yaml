@@ -1,0 +1,23 @@
+name: PTATO
+full_name: PTA Analysis Toolbox
+category: dry
+summary: Bioinformatic workflow that distinguishes amplification artifacts from somatic substitutions, indels, and structural
+  variants in single-cell PTA whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2023.100389
+  year: 2023
+  journal: Cell Genom
+  first_author: Middelkamp S
+  last_author: van Boxtel R
+  pmid: '37719152'
+  pmcid: PMC10504672
+  title: Comprehensive single-cell genome analysis at nucleotide resolution using the PTA Analysis Toolbox
+links: {}
+added: '2026-11-21'
+evidence: PTATO detects substitutions, indels, and structural variants in PTA-based whole-genome sequencing data using machine
+  learning and recurrence filtering.

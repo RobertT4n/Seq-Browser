@@ -1,0 +1,21 @@
+name: eRNA-ID
+category: dry
+summary: Identifies enhancer RNAs from de novo assembled transcriptomes using configurable combinations of enhancer markers.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzae059
+  year: 2024
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Zhang Y
+  last_author: Liao Q
+  pmid: '39178387'
+  pmcid: PMC11514848
+  title: 'eRNA-IDO: A One-stop Platform for Identification, Interactome Discovery, and Functional Annotation of Enhancer RNAs'
+  preprint_doi: 10.1101/2023.12.19.572028
+links: {}
+added: '2026-11-21'
+evidence: eRNA-ID identifies eRNAs from de novo assembled transcriptomes using combinations of eight kinds of enhancer markers.

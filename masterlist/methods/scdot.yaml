@@ -1,0 +1,23 @@
+name: scDOT
+category: dry
+summary: Combines spatial transcriptomics and single-cell RNA-seq using optimal transport and deconvolution to infer spatial
+  cell placements.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03426-0
+  year: 2024
+  journal: Genome Biol
+  first_author: Nguyen ND
+  last_author: Bar-Joseph Z
+  pmid: '39516853'
+  pmcid: PMC11546560
+  title: 'scDOT: optimal transport for mapping senescent cells in spatial transcriptomics'
+  preprint_doi: 10.1101/2023.08.16.553591
+links: {}
+added: '2026-11-21'
+evidence: scDOT combines spatial transcriptomics and scRNA-seq to reconstruct single-cell-resolved spatial maps.

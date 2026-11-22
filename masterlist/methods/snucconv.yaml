@@ -1,0 +1,25 @@
+name: sNucConv
+category: dry
+summary: Uses single-nucleus RNA sequencing data to estimate cell-type composition from bulk RNA sequencing of human adipose
+  tissue.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2024.110368
+  year: 2024
+  journal: iScience
+  first_author: Sorek G
+  last_author: Levin L
+  pmid: '39071890'
+  pmcid: PMC11277759
+  title: 'sNucConv: A bulk RNA-seq deconvolution method trained on single-nucleus RNA-seq data to estimate cell-type composition
+    of human adipose tissues'
+  preprint_doi: 10.1101/2023.07.16.549187
+links: {}
+added: '2026-11-21'
+evidence: The study describes a deconvolution method for human visceral and subcutaneous adipose tissue using single-nucleus
+  RNA sequencing.

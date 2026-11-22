@@ -1,0 +1,23 @@
+name: CeLEry
+full_name: Cell Location recovEry
+category: dry
+summary: CeLEry uses relationships learned from spatial transcriptomics to infer the spatial origins of cells in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-39895-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhang Q
+  last_author: Li M
+  pmid: '37422469'
+  pmcid: PMC10329686
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+links: {}
+added: '2026-11-21'
+evidence: CeLEry recovers cell locations and spatial domains from scRNA-seq data and provides uncertainty estimates.

@@ -1,0 +1,22 @@
+name: scAce
+category: dry
+summary: A variational autoencoder jointly learns cell embeddings and adaptive cluster assignments from single-cell gene expression
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad546
+  year: 2023
+  journal: Bioinformatics
+  first_author: He X
+  last_author: Li WV
+  pmid: '37672035'
+  pmcid: PMC10500084
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+links: {}
+added: '2026-11-21'
+evidence: scAce learns embeddings and cluster assignments together and adaptively merges clusters without a preset cluster
+  count.

@@ -1,0 +1,24 @@
+name: GeneCompass
+category: dry
+summary: A knowledge-informed cross-species foundation model pretrained on human and mouse single-cell transcriptomes to study
+  gene regulation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41422-024-01034-y
+  year: 2024
+  journal: Cell Res
+  first_author: Yang X
+  last_author: Li X
+  pmid: '39375485'
+  pmcid: PMC11615217
+  title: 'GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation
+    model'
+  preprint_doi: 10.1101/2023.09.26.559542
+links: {}
+added: '2026-11-21'
+evidence: GeneCompass integrates four types of biological prior knowledge during pretraining on over 120 million single-cell
+  transcriptomes.

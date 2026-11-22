@@ -1,0 +1,22 @@
+name: AITeQ
+full_name: Alzheimers Identification Tool using RNA-Seq
+category: dry
+summary: A random forest model uses a five-gene RNA-seq signature to identify Alzheimer's disease.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbae291
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Ahammad I
+  last_author: Salimullah M
+  pmid: '38877887'
+  pmcid: PMC11179120
+  title: 'AITeQ: a machine learning framework for Alzheimer''s prediction using a distinctive five-gene signature'
+  preprint_doi: 10.1101/2023.09.16.558056
+links: {}
+added: '2026-11-21'
+evidence: AITeQ uses an optimized random forest and five selected genes to identify Alzheimer's disease from RNA-seq data.

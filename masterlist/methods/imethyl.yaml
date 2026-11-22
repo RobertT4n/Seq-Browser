@@ -1,0 +1,29 @@
+name: iMethyl
+category: wet
+summary: Deep targeted sequencing of young LINE-1 elements estimates genomic hypomethylation in cell-free DNA and tissue.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41598-023-49639-4
+  year: 2023
+  journal: Sci Rep
+  first_author: Kim K
+  last_author: Choi JK
+  pmid: '38110532'
+  pmcid: PMC10728099
+  title: Genomic hypomethylation in cell-free DNA predicts responses to checkpoint blockade in lung and breast cancer
+  preprint_doi: 10.1101/2023.10.31.565052
+links: {}
+added: '2026-11-21'
+evidence: iMethyl estimates genomic hypomethylation from cell-free DNA and tissue by deep targeted sequencing of young LINE-1
+  elements.

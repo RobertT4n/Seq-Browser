@@ -1,0 +1,25 @@
+name: QUENCH
+category: wet
+summary: A bespoke sequencing assay quantifies CTNNB1 variants in circulating tumor DNA from patients with hepatoblastoma.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.3390/cancers16010012
+  year: 2023
+  journal: Cancers (Basel)
+  first_author: Kahana-Edwin S
+  last_author: Karpelowsky J
+  pmid: '38201440'
+  pmcid: PMC10778269
+  title: 'Quantitative ctDNA Detection in Hepatoblastoma: Implications for Precision Medicine'
+links: {}
+added: '2026-11-21'
+evidence: QUENCH identified CTNNB1 single nucleotide variants and deletions in circulating tumor DNA down to a variant allele
+  frequency of 0.3%.

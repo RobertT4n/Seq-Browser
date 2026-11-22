@@ -1,0 +1,20 @@
+name: scFED
+category: dry
+summary: scFED selects and denoises features from single-cell RNA-seq data to support clustering and cell-type identification.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-023-00574-y
+  year: 2023
+  journal: Interdiscip Sci
+  first_author: Liu Y
+  last_author: Ge D
+  pmid: '37402002'
+  title: 'scFED: Clustering Identifying Cell Types of scRNA-Seq Data Based on Feature Engineering Denoising'
+links: {}
+added: '2026-11-21'
+evidence: scFED identifies feature sets, incorporates a tissue-specific cellular taxonomy reference and reconstructs data
+  to reduce noise.

@@ -1,0 +1,29 @@
+name: XCI-ONT
+category: wet
+summary: Cas9 enrichment and nanopore sequencing quantify X-chromosome inactivation through methylation at targeted genes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41598-023-34413-3
+  year: 2023
+  journal: Sci Rep
+  first_author: Johansson J
+  last_author: Wilbe M
+  pmid: '37553382'
+  pmcid: PMC10409790
+  title: A novel quantitative targeted analysis of X-chromosome inactivation (XCI) using nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: XCI-ONT uses amplification-free Cas9 enrichment and nanopore sequencing to measure methylation at CpGs in AR and
+  RP2.

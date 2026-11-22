@@ -1,0 +1,21 @@
+name: SiFT
+category: dry
+summary: Filters biological signals from single-cell gene expression data to reveal underlying biological processes.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-44757-7
+  year: 2024
+  journal: Nat Commun
+  first_author: Piran Z
+  last_author: Nitzan M
+  pmid: '38278815'
+  pmcid: PMC10817921
+  title: 'SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data'
+links: {}
+added: '2026-11-21'
+evidence: SiFT is a kernel-based projection method that filters signals at the gene expression level.

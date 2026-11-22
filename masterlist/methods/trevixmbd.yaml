@@ -1,0 +1,23 @@
+name: TREVIXMBD
+full_name: Transcriptional REgulation-driven Variational Inference
+category: dry
+summary: TREVIXMBD integrates single-cell RNA-seq and ATAC-seq data with a gene regulation model to infer cellular regulatory
+  factors.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.22.568363
+  year: 2023
+  journal: bioRxiv
+  first_author: Cao L
+  last_author: Wang Y
+  title: 'TREVI  <sup>XMBD</sup>  : A Transcriptional Regulation-driven Variational Inference Model to Speculate Gene Expression
+    Mechanism with Integration of Single-cell Multi-omics'
+links: {}
+added: '2026-11-21'
+evidence: TREVIXMBD integrates scRNA-seq and scATAC-seq data to model gene expression using regulatory accessibility, transcription
+  factor activity, and regulatory weights.

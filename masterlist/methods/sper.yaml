@@ -1,0 +1,24 @@
+name: SPER
+full_name: Spatial Paired Expression Ratio
+category: dry
+summary: A computational approach identifies candidate paracrine regulators by testing spatial relationships between transcript
+  abundance and cell-type proportions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag011
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Zhao T
+  last_author: Haber AL
+  pmid: '41695264'
+  pmcid: PMC12895071
+  title: Discovering paracrine regulators of cell type composition from spatial transcriptomics using SPER
+  preprint_doi: 10.1101/2023.09.27.559863
+links: {}
+added: '2026-11-21'
+evidence: SPER evaluates spatial dependence between transcript abundance and cell-type proportions in spatial transcriptomics
+  data.

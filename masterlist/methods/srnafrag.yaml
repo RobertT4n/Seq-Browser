@@ -1,0 +1,21 @@
+name: sRNAfrag
+category: dry
+summary: Workflow and script suite for quantifying and analyzing small RNA fragmentation across RNA biotypes.
+readouts:
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad515
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Nakatsu K
+  last_author: Deng Y
+  pmid: '38243693'
+  pmcid: PMC10796253
+  title: 'sRNAfrag: a pipeline and suite of tools to analyze fragmentation in small RNA sequencing data'
+  preprint_doi: 10.1101/2023.08.19.553943
+links: {}
+added: '2026-11-21'
+evidence: sRNAfrag quantifies and analyzes small RNA fragmentation of any biotype.

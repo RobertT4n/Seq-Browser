@@ -1,0 +1,20 @@
+name: BayesDeep
+category: dry
+summary: BayesDeep reconstructs single-cell spatial gene expression from spot-based transcriptomics and paired histology images.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.07.570715
+  year: 2023
+  journal: bioRxiv
+  first_author: Jiang X
+  last_author: Li Q
+  title: Reconstructing Spatial Transcriptomics at the Single-cell Resolution with BayesDeep
+links: {}
+added: '2026-11-21'
+evidence: The Bayesian hierarchical model incorporates cell types and nuclear shape from histology images to reconstruct spatial
+  transcriptomics at single-cell resolution.

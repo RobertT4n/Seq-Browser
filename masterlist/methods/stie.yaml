@@ -1,0 +1,22 @@
+name: STIE
+category: dry
+summary: STIE aligns spatial transcriptomics with nuclear morphology to reconstruct and cluster expression at the single-cell
+  level.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.17.572084
+  year: 2023
+  journal: bioRxiv
+  first_author: Zhu S
+  last_author: Hoshida Y
+  title: 'STIE: Single-cell level deconvolution, convolution, and clustering in spatial transcriptomics by aligning spot level
+    transcriptome to nuclear morphology'
+links: {}
+added: '2026-11-21'
+evidence: STIE uses an expectation-maximization algorithm and histology-based nuclear morphology to deconvolve spot-level
+  transcriptomes and recover missing cells.

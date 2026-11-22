@@ -1,0 +1,27 @@
+name: TACS-TOPO
+category: wet
+summary: Sequential adaptor tagging prepares sequencing libraries from low-input single-stranded DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41598-023-40890-3
+  year: 2023
+  journal: Sci Rep
+  first_author: Miura F
+  last_author: Ito T
+  pmid: '37626096'
+  pmcid: PMC10457334
+  title: A highly efficient scheme for library preparation from single-stranded DNA
+links: {}
+added: '2026-11-21'
+evidence: TACS-TOPO uses TdT-assisted adaptor tagging followed by topoisomerase-based adaptor ligation and was applied to
+  human serum and ancient bone DNA.

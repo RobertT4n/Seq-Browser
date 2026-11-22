@@ -1,0 +1,19 @@
+name: AIRRTM
+category: dry
+summary: A generative model identifies and generates disease-associated adaptive immune receptors using repertoire-level labels.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2023.09.24.558823
+  year: 2023
+  journal: bioRxiv
+  first_author: Slabodkin A
+  last_author: Greiff V
+  title: Weakly supervised identification and generation of adaptive immune receptor sequences associated with immune disease
+    status
+links: {}
+added: '2026-11-21'
+evidence: AIRRTM uses repertoire-labeled immune receptor sequencing data to identify and generate disease-associated receptors.

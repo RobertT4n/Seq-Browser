@@ -1,0 +1,23 @@
+name: ACID
+full_name: Affordable Cancer Interception and Diagnostics
+category: dry
+summary: Uses an autoregressive language model to classify cancer from raw cell-free DNA sequencing reads.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae053
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Shen H
+  last_author: Li X
+  pmid: '38385880'
+  pmcid: PMC10883418
+  title: Language model enables end-to-end accurate detection of cancer from cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: ACID classifies cancer from raw cfDNA reads and was evaluated on whole-genome and bisulfite sequencing data.

@@ -1,0 +1,25 @@
+name: AutoTuneX
+category: dry
+summary: Uses graphs of adjacent cells in spatial molecular profiles to predict sample phenotypes and identify associated
+  patterns.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04085-z
+  year: 2026
+  journal: Genome Biol
+  first_author: Shen Y
+  last_author: Kingsford C
+  pmid: '42116171'
+  pmcid: PMC13335200
+  title: Data-driven AI system for learning how to run transcript assemblers
+  preprint_doi: 10.1101/2024.01.25.577290
+links: {}
+added: '2026-11-21'
+evidence: SORBET models tissues as graphs of adjacent cells and uses graph convolutional networks to infer phenotypes such
+  as immunotherapy response.

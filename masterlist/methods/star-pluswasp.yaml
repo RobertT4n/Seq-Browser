@@ -1,0 +1,19 @@
+name: STAR+WASP
+category: dry
+summary: Reduces reference mapping bias in RNA-seq reads to improve allele-specific expression analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.21.576391
+  year: 2024
+  journal: bioRxiv
+  first_author: Asiimwe R
+  last_author: Alexander D
+  title: STAR+WASP reduces reference bias in the allele-specific mapping of RNA-seq reads
+links: {}
+added: '2026-11-21'
+evidence: STAR+WASP reimplements WASP within STAR and reduces reference bias while providing similar allele-specific expression
+  estimates.

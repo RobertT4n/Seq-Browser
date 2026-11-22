@@ -1,0 +1,20 @@
+name: iStar
+category: dry
+summary: Integrates spatial transcriptomics and histology images to predict gene expression at super-resolution.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-02019-9
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Zhang D
+  last_author: Li M
+  pmid: '38168986'
+  pmcid: PMC11260191
+  title: Inferring super-resolution tissue architecture by integrating spatial transcriptomics with histology
+links: {}
+added: '2026-11-21'
+evidence: iStar predicts spatial gene expression at near-single-cell resolution and in sections with histology images alone.

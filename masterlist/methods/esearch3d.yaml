@@ -1,0 +1,22 @@
+name: Esearch3D
+category: dry
+summary: Network-based analysis propagates gene expression across 3D genome contacts to predict active enhancers.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad229
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Heer M
+  last_author: Rico D
+  pmid: '37021559'
+  pmcid: PMC10250221
+  title: 'Esearch3D: propagating gene expression in chromatin networks to illuminate active enhancers'
+links: {}
+added: '2026-11-21'
+evidence: Esearch3D predicts enhancer activity in intergenic regions by propagating transcription levels across 3D genome
+  networks.

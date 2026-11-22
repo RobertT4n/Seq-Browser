@@ -1,0 +1,18 @@
+name: MIOSTONE
+category: dry
+summary: MIOSTONE models microbiome-trait associations with a neural network that encodes relationships among microbial taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.04.565596
+  year: 2023
+  journal: bioRxiv
+  first_author: Jiang Y
+  last_author: Lu Y
+  title: 'MIOSTONE: Modeling microbiome-trait associations with taxonomy-adaptive neural networks'
+links: {}
+added: '2026-11-21'
+evidence: MIOSTONE links variations in microbial taxa abundance to host traits using a taxonomy-encoding neural network.

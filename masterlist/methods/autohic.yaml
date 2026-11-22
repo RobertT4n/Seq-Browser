@@ -1,0 +1,19 @@
+name: AutoHiC
+category: dry
+summary: Deep learning workflow that uses Hi-C data to identify and iteratively correct chromosome-level genome assembly errors.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.08.27.555031
+  year: 2023
+  journal: bioRxiv
+  first_author: Jiang Z
+  last_author: Wang Y
+  title: 'AutoHiC: a deep-learning method for automatic and accurate chromosome-level genome assembly'
+links: {}
+added: '2026-11-21'
+evidence: AutoHiC uses Hi-C data in an automated workflow with iterative error correction to improve genome assemblies.

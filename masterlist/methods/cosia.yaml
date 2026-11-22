@@ -1,0 +1,23 @@
+name: CoSIA
+full_name: Cross-Species Investigation and Analysis
+category: dry
+summary: Compares gene expression across tissues and species using visualizations of transcriptomic variability, diversity
+  and specificity.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad759
+  year: 2023
+  journal: Bioinformatics
+  first_author: Haldar A
+  last_author: Lasseigne BN
+  pmid: '38109675'
+  pmcid: PMC10749757
+  title: 'CoSIA: an R Bioconductor package for CrOss Species Investigation and Analysis'
+links: {}
+added: '2026-11-21'
+evidence: CoSIA compares non-diseased wild-type RNA-seq gene expression data across tissues and species using variability,
+  diversity and specificity metrics.

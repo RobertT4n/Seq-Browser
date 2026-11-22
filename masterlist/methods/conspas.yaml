@@ -1,0 +1,19 @@
+name: ConSpaS
+category: dry
+summary: Contrastive learning framework that integrates spatial and gene expression similarities to identify spatial domains.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad395
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Wu S
+  last_author: Cheng X
+  pmid: '37965808'
+  title: 'ConSpaS: a contrastive learning framework for identifying spatial domains by integrating local and global similarities'
+links: {}
+added: '2026-11-21'
+evidence: ConSpaS integrates local spatial similarity and global gene expression similarity to identify spatial domains.

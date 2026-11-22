@@ -1,0 +1,22 @@
+name: PhyloVelo
+category: dry
+summary: Estimates transcriptomic velocity fields and lineage trajectories from single-cell expression and lineage data using
+  monotonically expressed genes.
+readouts:
+- rna
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01887-5
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Wang K
+  last_author: Hu Z
+  pmid: '37524958'
+  title: PhyloVelo enhances transcriptomic velocity field mapping using monotonically expressed genes
+links: {}
+added: '2026-11-21'
+evidence: PhyloVelo integrates scRNA-seq data with lineage information to identify monotonically expressed genes and reconstruct
+  a transcriptomic velocity field.

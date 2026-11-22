@@ -1,0 +1,22 @@
+name: CellChat v2
+category: dry
+summary: CellChat v2 infers and analyzes cell-cell communication from single-cell and spatial transcriptomics, optionally
+  incorporating cell locations.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41596-024-01045-4
+  year: 2025
+  journal: Nat Protoc
+  first_author: Jin S
+  last_author: Nie Q
+  pmid: '39289562'
+  title: CellChat for systematic analysis of cell-cell communication from single-cell transcriptomics
+  preprint_doi: 10.1101/2023.11.05.565674
+links: {}
+added: '2026-11-21'
+evidence: CellChat v2 incorporates spatial locations when available to infer spatially proximal cell-cell communication.

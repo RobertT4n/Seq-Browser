@@ -1,0 +1,23 @@
+name: DREEP
+full_name: Drug Response Estimation from single-cell Expression Profiles
+category: dry
+summary: Drug sensitivity is predicted from single-cell expression profiles using pharmacogenomic screens and functional enrichment.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12916-023-03182-1
+  year: 2023
+  journal: BMC Med
+  first_author: Pellecchia S
+  last_author: Gambardella G
+  pmid: '38041118'
+  pmcid: PMC10693176
+  title: Predicting drug response from single-cell expression profiles of tumours
+  preprint_doi: 10.1101/2023.06.01.543212
+links: {}
+added: '2026-11-21'
+evidence: DREEP predicts single-cell drug sensitivity from transcriptomic data and was validated using independent datasets
+  from cancer cell lines.

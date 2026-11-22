@@ -1,0 +1,22 @@
+name: DeepScena
+category: dry
+summary: A self-supervised hierarchical clustering method identifies cell populations, including rare populations, in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad335
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Lei T
+  last_author: Chen Y
+  pmid: '37769630'
+  pmcid: PMC10539043
+  title: Self-supervised deep clustering of single-cell RNA-seq data to hierarchically detect rare cell populations
+links: {}
+added: '2026-11-21'
+evidence: DeepScena combines nonlinear dimension reduction, a convolutional autoencoder, and self-supervision for hierarchical
+  clustering.

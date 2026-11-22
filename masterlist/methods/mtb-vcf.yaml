@@ -1,0 +1,19 @@
+name: MTB-VCF
+category: dry
+summary: Calls sequence variants in selected Mycobacterium tuberculosis genes from whole-genome sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2023.07.24.550283
+  year: 2023
+  journal: bioRxiv
+  first_author: Razzak SA
+  last_author: Hasan R
+  title: A Versatile Tool for Precise Variant Calling in Mycobacterium tuberculosis Genetic Polymorphisms
+links: {}
+added: '2026-11-21'
+evidence: MTB-VCF compares reads against a reference genome for genes of interest and was demonstrated on genes associated
+  with drug resistance.

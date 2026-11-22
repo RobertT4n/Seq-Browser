@@ -1,0 +1,22 @@
+name: CellPie
+category: dry
+summary: An unsupervised method that jointly factorizes spatial transcriptomics and histological image features to discover
+  tissue factors.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf251
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Georgaka S
+  last_author: Rattray M
+  pmid: '40167331'
+  pmcid: PMC12086691
+  title: 'CellPie: a scalable spatial transcriptomics factor discovery method via joint non-negative matrix factorization'
+  preprint_doi: 10.1101/2023.09.29.560213
+links: {}
+added: '2026-11-21'
+evidence: CellPie uses joint non-negative matrix factorization of spatial RNA transcripts and histological image features.

@@ -1,0 +1,23 @@
+name: SingleMod
+category: dry
+summary: SingleMod maps m6A modifications on individual RNA molecules from direct RNA sequencing data.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-025-60447-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Xie YY
+  last_author: Luo GZ
+  pmid: '40456740'
+  pmcid: PMC12130510
+  title: Single-molecule direct RNA sequencing reveals the shaping of epitranscriptome across multiple species
+  preprint_doi: 10.1101/2023.11.16.567334
+links: {}
+added: '2026-11-21'
+evidence: SingleMod is a deep learning model for mapping m6A on individual RNA molecules from direct RNA sequencing data.

@@ -1,0 +1,22 @@
+name: CellDemux
+category: dry
+summary: Demultiplexes genetically multiplexed single-cell and single-nucleus sequencing libraries across modalities.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.18.576186
+  year: 2024
+  journal: bioRxiv
+  first_author: Zoodsma M
+  last_author: Li Y
+  title: <i>CellDemux:</i>  coherent genetic demultiplexing in single-cell and single-nuclei experiments
+links: {}
+added: '2026-11-21'
+evidence: CellDemux identifies non-empty droplets and singlets and assigns them to donors across single-cell, single-nucleus
+  and paired multiome measurements.

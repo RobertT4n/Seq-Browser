@@ -1,0 +1,27 @@
+name: CRISPRi-TnSeq
+category: wet
+summary: CRISPR interference combined with transposon-mutant screening maps interactions between essential and nonessential
+  bacterial genes.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-interference
+- transposon-insertion
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/2023.05.31.543074
+  year: 2023
+  journal: bioRxiv
+  first_author: Jana B
+  last_author: van Opijnen T
+  title: 'CRISPRi-TnSeq: A genome-wide high-throughput tool for bacterial essential-nonessential genetic interaction mapping'
+links: {}
+added: '2026-11-21'
+evidence: The authors combined knockdown of essential genes with transposon-mutant libraries in Streptococcus pneumoniae to
+  screen gene-gene pairs.

@@ -1,0 +1,22 @@
+name: TimeTalk
+category: dry
+summary: A computational framework uses time-course single-cell RNA-seq data to study ligand-receptor communication during
+  early embryo development.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-023-05283-2
+  year: 2023
+  journal: Commun Biol
+  first_author: Wang L
+  last_author: Chen H
+  pmid: '37660148'
+  pmcid: PMC10475079
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+links: {}
+added: '2026-11-21'
+evidence: TimeTalk uses integrated mouse scRNA-seq time courses and interpolation to investigate ligand-receptor pairs and
+  paracrine communication.

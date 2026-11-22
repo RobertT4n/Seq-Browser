@@ -1,0 +1,23 @@
+name: dsRID
+full_name: double-stranded RNA identifier
+category: dry
+summary: Predicts double-stranded RNA regions from long-read RNA sequencing data using machine learning.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2023.06.02.543466
+  year: 2023
+  journal: bioRxiv
+  first_author: Yamamoto R
+  last_author: Xiao X
+  title: 'dsRID: Editing-free in silico identification of dsRNA region using long-read RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: dsRID predicts double-stranded RNA regions using long-read RNA sequencing and molecular traits of double-stranded
+  RNAs.

@@ -1,0 +1,22 @@
+name: Transcriptomics-to-Activity Transformer
+category: dry
+summary: Transcriptomics-to-Activity Transformer models use dose-dependent gene-expression profiles to predict compound activity
+  in other assays.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1021/acs.jcim.3c01855
+  year: 2024
+  journal: J Chem Inf Model
+  first_author: Godinez WJ
+  last_author: Skewes-Cox P
+  pmid: '38293736'
+  title: Compound Activity Prediction with Dose-Dependent Transcriptomic Profiles and Deep Learning
+  preprint_doi: 10.1101/2023.08.03.551883
+links: {}
+added: '2026-11-21'
+evidence: TAT models use gene-expression profiles measured across compound concentrations to predict activity in biochemical
+  or cellular assays.

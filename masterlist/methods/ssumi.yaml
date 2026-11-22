@@ -1,0 +1,28 @@
+name: ssUMI
+category: wet
+summary: A UMI-based Nanopore workflow corrects errors in near-full-length small-subunit rRNA gene amplicons for microbial
+  profiling.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.06.19.544637
+  year: 2023
+  journal: bioRxiv
+  first_author: Lin X
+  last_author: Ziels RM
+  title: High-accuracy meets high-throughput for microbiome profiling with near full-length 16S rRNA amplicon sequencing on
+    the Nanopore platform
+links: {}
+added: '2026-11-21'
+evidence: The workflow generated corrected 16S rRNA gene consensus sequences from two synthetic microbial community standards.

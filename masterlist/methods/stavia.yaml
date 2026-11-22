@@ -1,0 +1,24 @@
+name: StaVia
+category: dry
+summary: Integrates spatial and temporal single-cell data with higher-order random walks to reconstruct and visualize cell
+  lineages.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03347-y
+  year: 2024
+  journal: Genome Biol
+  first_author: Stassen SV
+  last_author: Tsia KK
+  pmid: '39152459'
+  pmcid: PMC11328412
+  title: 'StaVia: spatially and temporally aware cartography with higher-order random walks for cell atlases'
+  preprint_doi: 10.1101/2024.01.29.577871
+links: {}
+added: '2026-11-21'
+evidence: StaVia combines time-series data, spatial gene expression and RNA velocity with higher-order random walks and an
+  Atlas View visualization.

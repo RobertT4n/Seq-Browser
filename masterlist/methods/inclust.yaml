@@ -1,0 +1,25 @@
+name: inClust
+full_name: integrated clustering
+category: dry
+summary: Deep generative framework for integrating and decomposing single-cell data, transferring labels, and identifying
+  spatial domains.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2023.100558
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Wang L
+  last_author: Cai J
+  pmid: '37671019'
+  pmcid: PMC10475846
+  title: A deep generative framework with embedded vector arithmetic and classifier for sample generation, label transfer,
+    and clustering of single-cell data
+links: {}
+added: '2026-11-21'
+evidence: inClust supports data integration, label transfer, and spatial domain identification in supervised, semi-supervised,
+  or unsupervised modes.

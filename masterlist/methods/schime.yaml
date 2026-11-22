@@ -1,0 +1,21 @@
+name: scHiMe
+category: dry
+summary: Predicts base-pair-specific single-cell DNA methylation levels from single-cell Hi-C data and DNA sequence.
+readouts:
+- dna-methylation
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad223
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Zhu H
+  last_author: Wang Z
+  pmid: '37302805'
+  pmcid: PMC10359091
+  title: 'scHiMe: predicting single-cell DNA methylation levels based on single-cell Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: scHiMe uses a graph transformer to predict methylation levels from single-cell Hi-C data and nucleotide sequences.

@@ -1,0 +1,18 @@
+name: Com-2seq
+category: dry
+summary: Gradient boosting predicts read-specific ribosomal P-site offsets from ribosome profiling data.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.27.546795
+  year: 2023
+  journal: bioRxiv
+  first_author: Yue Y
+  last_author: Hu Y
+  title: Integrative analysis of microbial 16S gene and shotgun metagenomic sequencing data improves statistical efficiency
+links: {}
+added: '2026-11-21'
+evidence: PSite infers read-specific offsets and improved reading-frame assignment and translated ORF prediction.

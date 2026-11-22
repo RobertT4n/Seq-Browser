@@ -1,0 +1,23 @@
+name: OvaPrint
+category: dry
+summary: OvaPrint classifies cell-free DNA methylation profiles to distinguish high-grade serous ovarian carcinoma from benign
+  pelvic masses.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1158/1078-0432.ccr-23-1197
+  year: 2023
+  journal: Clin Cancer Res
+  first_author: Buckley DN
+  last_author: Salhia B
+  pmid: '37812492'
+  pmcid: PMC10722131
+  title: OvaPrint-A Cell-free DNA Methylation Liquid Biopsy for the Risk Assessment of High-grade Serous Ovarian Cancer
+links: {}
+added: '2026-11-21'
+evidence: The classifier was constructed using cell-free DNA samples with hybridization probe capture of 1,677 differentially
+  methylated regions.

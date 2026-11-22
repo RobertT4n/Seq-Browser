@@ -1,0 +1,20 @@
+name: LatentVelo
+category: dry
+summary: A deep-learning method models single-cell gene expression dynamics to infer velocities and developmental trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2023.100581
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Farrell S
+  last_author: Goyal S
+  pmid: '37708894'
+  pmcid: PMC10545944
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+links: {}
+added: '2026-11-21'
+evidence: LatentVelo uses a variational autoencoder and neural ordinary differential equations to model differentiation dynamics.

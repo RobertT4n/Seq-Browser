@@ -1,0 +1,21 @@
+name: CRFE
+full_name: Concise Ranked Functional Enrichment
+category: dry
+summary: Identifies a non-redundant set of specific functional categories enriched among highly ranked genes in expression
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.30.547164
+  year: 2023
+  journal: bioRxiv
+  first_author: Jia X
+  last_author: Kadelka C
+  title: Concise functional enrichment of ranked gene lists
+links: {}
+added: '2026-11-21'
+evidence: CRFE uses gene ranking information to compute non-redundant functional categories enriched for highly ranked genes
+  and was evaluated on treatment-control RNA-seq datasets.

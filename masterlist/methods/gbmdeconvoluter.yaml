@@ -1,0 +1,22 @@
+name: GBMdeconvoluteR
+category: dry
+summary: Estimates immune and neoplastic cell population proportions in bulk glioblastoma transcriptomes using tissue-specific
+  markers.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/neuonc/noad021
+  year: 2023
+  journal: Neuro Oncol
+  first_author: Ajaib S
+  last_author: Stead LF
+  pmid: '36689332'
+  pmcid: PMC10326489
+  title: GBMdeconvoluteR accurately infers proportions of neoplastic and immune cell populations from bulk glioblastoma transcriptomics
+    data
+links: {}
+added: '2026-11-21'
+evidence: GBMdeconvoluteR packages marker-based deconvolution of immune and cancer cells from bulk GBM RNA-seq data.

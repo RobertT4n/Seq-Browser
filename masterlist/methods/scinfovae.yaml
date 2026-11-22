@@ -1,0 +1,23 @@
+name: ScInfoVAE
+category: dry
+summary: An information-regularized variational autoencoder learns low-dimensional representations of single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13040-023-00333-1
+  year: 2023
+  journal: BioData Min
+  first_author: Pan W
+  last_author: Pan J
+  pmid: '37301826'
+  pmcid: PMC10257850
+  title: 'ScInfoVAE: interpretable dimensional reduction of single cell transcription data with variational autoencoders and
+    extended mutual information regularization'
+links: {}
+added: '2026-11-21'
+evidence: ScInfoVAE learns low-dimensional representations and was evaluated for clustering across 15 single-cell RNA-seq
+  datasets.

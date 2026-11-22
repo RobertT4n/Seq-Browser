@@ -1,0 +1,22 @@
+name: SNAF
+full_name: Splicing Neo Antigen Finder
+category: dry
+summary: Predicts and ranks splicing-derived neoantigens from patient RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/scitranslmed.ade2886
+  year: 2024
+  journal: Sci Transl Med
+  first_author: Li G
+  last_author: Salomonis N
+  pmid: '38232136'
+  pmcid: PMC11517820
+  title: Splicing neoantigen discovery with SNAF reveals shared targets for cancer immunotherapy
+links: {}
+added: '2026-11-21'
+evidence: SNAF predicts splicing-derived immunogenic MHC-bound peptides and transmembrane proteins with altered extracellular
+  epitopes.

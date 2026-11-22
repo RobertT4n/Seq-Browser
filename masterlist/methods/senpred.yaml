@@ -1,0 +1,20 @@
+name: SenPred
+category: dry
+summary: A machine-learning pipeline that classifies senescent cells using single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.23.563515
+  year: 2023
+  journal: bioRxiv
+  first_author: Hughes BK
+  last_author: Bishop CL
+  title: 'SenPred: A single-cell RNA sequencing-based machine learning pipeline to classify senescent cells for the detection
+    of an  <i>in vivo</i>  senescent cell burden'
+links: {}
+added: '2026-11-21'
+evidence: SenPred uses single-cell transcriptomes of senescent fibroblasts to predict fibroblast senescence and detect senescent
+  cells in vivo.

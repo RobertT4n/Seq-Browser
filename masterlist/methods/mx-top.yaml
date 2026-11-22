@@ -1,0 +1,28 @@
+name: Mx-TOP
+category: wet
+summary: Chemo-enzymatic tagging and sequencing jointly profile chromatin accessibility, DNA modification, and 5-hydroxymethylcytosine
+  from one library.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+reference:
+  doi: 10.1016/j.chembiol.2023.12.003
+  year: 2024
+  journal: Cell Chem Biol
+  first_author: Skardžiūtė K
+  last_author: Kriukienė E
+  pmid: '38154461'
+  pmcid: PMC10962225
+  title: One-pot trimodal mapping of unmethylated, hydroxymethylated, and open chromatin sites unveils distinctive 5hmC roles
+    at dynamic chromatin loci
+links: {}
+added: '2026-11-21'
+evidence: Mx-TOP tags unmodified CG sites, hydroxymethylated cytosine, and GC sites in chromatin for sequencing from a single
+  library.

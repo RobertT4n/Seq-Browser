@@ -1,0 +1,22 @@
+name: RNA Strain-Match
+category: dry
+summary: Matches RNA sequencing alignment data to corresponding genotypes to identify sample mismatches.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.07.14.548847
+  year: 2023
+  journal: bioRxiv
+  first_author: Willcox JAL
+  last_author: Kaczorowski CC
+  title: 'RNA Strain-Match: A tool for matching single-nucleus, single-cell, or bulk RNA-sequencing alignment data to its
+    corresponding genotype'
+links: {}
+added: '2026-11-21'
+evidence: RNA Strain-Match matches RNA sequence alignment files to their corresponding genotype and identified sample mismatches
+  in two recombinant inbred mouse models.

@@ -1,0 +1,22 @@
+name: FateCompass
+category: dry
+summary: Estimates transition probabilities and transcription factor activities to identify lineage-specific regulators during
+  differentiation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2023.100512
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Jiménez S
+  last_author: Molina N
+  pmid: '37533652'
+  pmcid: PMC10391345
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+links: {}
+added: '2026-11-21'
+evidence: FateCompass combines RNA velocities or differentiation potential with a gene regulation model to identify lineage-specific
+  transcription factors.

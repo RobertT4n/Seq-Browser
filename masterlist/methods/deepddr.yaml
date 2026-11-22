@@ -1,0 +1,19 @@
+name: DeepDDR
+category: dry
+summary: DeepDDR distinguishes expressed DNA mutations from RNA mutations in mapped RNA-seq data.
+readouts:
+- genome-sequence
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.17.562625
+  year: 2023
+  journal: bioRxiv
+  first_author: Fu Z
+  last_author: Yang L
+  title: A deep learning model embedded framework to distinguish DNA and RNA mutations directly from RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: DeepDDR separates expressed DNA mutations from RNA mutations after RNA-seq read mapping and pileup.

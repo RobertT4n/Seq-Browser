@@ -1,0 +1,24 @@
+name: gNOMO2
+category: dry
+summary: gNOMO2 is a modular pipeline for integrating and analyzing combinations of microbiome omics data.
+readouts:
+- microbial-composition
+- genome-sequence
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae038
+  year: 2024
+  journal: Gigascience
+  first_author: Arikan M
+  last_author: Muth T
+  pmid: '38995144'
+  pmcid: PMC11240238
+  title: 'gNOMO2: a comprehensive and modular pipeline for integrated multi-omics analyses of microbiomes'
+  preprint_doi: 10.1101/2023.12.03.569767
+links: {}
+added: '2026-11-21'
+evidence: gNOMO2 handles combinations of 16S amplicon sequencing, metagenomics, metatranscriptomics, and metaproteomics.

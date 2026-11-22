@@ -1,0 +1,21 @@
+name: RepairNatrix
+category: dry
+summary: RepairNatrix preprocesses DNA storage sequencing reads and heuristically repairs sequences that violate encoding
+  constraints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbad117
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Schwarz PM
+  last_author: Freisleben B
+  pmid: '38496344'
+  pmcid: PMC10941317
+  title: 'RepairNatrix: a Snakemake workflow for processing DNA sequencing data for DNA storage'
+links: {}
+added: '2026-11-21'
+evidence: RepairNatrix flags and repairs constraint-violating sequences to improve recovery of encoded data.

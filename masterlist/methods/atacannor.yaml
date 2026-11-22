@@ -1,0 +1,20 @@
+name: AtacAnnoR
+category: dry
+summary: A two-round method that annotates single-cell ATAC-seq data using annotated single-cell RNA-seq references.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad268
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Tian L
+  last_author: Tian W
+  pmid: '37497729'
+  title: 'AtacAnnoR: a reference-based annotation tool for single cell ATAC-seq data'
+links: {}
+added: '2026-11-21'
+evidence: AtacAnnoR uses annotated scRNA-seq references and can combine annotations from multiple references.

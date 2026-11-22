@@ -1,0 +1,21 @@
+name: scGraph2Vec
+category: dry
+summary: Generates gene embeddings by integrating single-cell datasets with gene interaction networks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae108
+  year: 2024
+  journal: Gigascience
+  first_author: Lin S
+  last_author: Jia P
+  pmid: '39704704'
+  pmcid: PMC11659981
+  title: 'scGraph2Vec: a deep generative model for gene embedding augmented by graph neural network and single-cell omics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: scGraph2Vec integrates single-cell datasets and gene-gene interaction networks to generate interpretable gene embeddings.

@@ -1,0 +1,25 @@
+name: CellAgentChat
+category: dry
+summary: Agent-based model that analyzes cell-cell signaling and interaction dynamics using single-cell RNA-seq and spatial
+  transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.279771.124
+  year: 2025
+  journal: Genome Res
+  first_author: Raghavan V
+  last_author: Ding J
+  pmid: '40316422'
+  pmcid: PMC12212354
+  title: Harnessing agent-based frameworks in CellAgentChat to unravel cell-cell interactions from single-cell and spatial
+    transcriptomics
+  preprint_doi: 10.1101/2023.08.23.554489
+links: {}
+added: '2026-11-21'
+evidence: CellAgentChat models cell-cell interactions using single-cell RNA-seq and spatial transcriptomics and detects signaling
+  events across cell populations.

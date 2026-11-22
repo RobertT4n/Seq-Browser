@@ -1,0 +1,29 @@
+name: DCL-seq
+full_name: dual chemical labeling-assisted sequencing
+category: wet
+summary: Dual chemical labeling enriches DNA lesions for single-nucleotide mapping of abasic sites and other damage.
+readouts:
+- dna-damage
+resolution:
+- bulk
+- subcellular
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkad502
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Liu C
+  last_author: Zhao L
+  pmid: '37293974'
+  pmcid: PMC10359467
+  title: Dual chemical labeling enables nucleotide-resolution mapping of DNA abasic sites and common alkylation damage in
+    human mitochondrial DNA
+links: {}
+added: '2026-11-21'
+evidence: The method mapped abasic sites in mitochondrial DNA from HeLa cells and was also applied to alkylation damage.

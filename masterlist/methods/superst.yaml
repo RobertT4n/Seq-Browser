@@ -1,0 +1,18 @@
+name: SuperST
+category: dry
+summary: Reconstructs dense spatial gene expression image matrices from low-resolution spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.06.26.546529
+  year: 2023
+  journal: bioRxiv
+  first_author: Park J
+  last_author: Choi H
+  title: Generation of Super-resolution Images from Barcode-based Spatial Transcriptomics Using Deep Image Prior
+links: {}
+added: '2026-11-21'
+evidence: SuperST uses a deep image prior to reconstruct spatial gene expression patterns as dense image matrices.

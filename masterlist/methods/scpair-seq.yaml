@@ -1,0 +1,31 @@
+name: scPAIR-seq
+category: wet
+summary: Single-cell RNA sequencing captures host transcriptomes together with barcodes identifying intracellular bacterial
+  mutants.
+readouts:
+- rna
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- microbe
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1073/pnas.2218812120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Heyman O
+  last_author: Avraham R
+  pmid: '37399397'
+  pmcid: PMC10334762
+  title: Paired single-cell host profiling with multiplex-tagged bacterial mutants reveals intracellular virulence-immune
+    networks
+links: {}
+added: '2026-11-21'
+evidence: Infected macrophages and intracellular Salmonella mutant barcodes were captured to analyze mutant-dependent host
+  transcriptomes.

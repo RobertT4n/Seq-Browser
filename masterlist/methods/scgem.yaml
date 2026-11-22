@@ -1,0 +1,20 @@
+name: scGEM
+category: dry
+summary: scGEM uses a nested Bayesian model to identify gene co-expression modules in single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/cancers15174277
+  year: 2023
+  journal: Cancers (Basel)
+  first_author: Zhang H
+  last_author: Chen L
+  pmid: '37686554'
+  pmcid: PMC10486867
+  title: 'scGEM: Unveiling the Nested Tree-Structured Gene Co-Expressing Modules in Single Cell Transcriptome Data'
+links: {}
+added: '2026-11-21'
+evidence: scGEM reveals shared and specialized transcriptomic signals across cell types through gene co-expression modules.

@@ -1,0 +1,21 @@
+name: SpaRx
+category: dry
+summary: Graph-based domain adaptation model that transfers pharmacogenomic knowledge to spatial transcriptomics to predict
+  variation in cellular drug responses.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.08.03.551911
+  year: 2023
+  journal: bioRxiv
+  first_author: Tang Z
+  last_author: Song Q
+  title: 'SpaRx: Elucidate single-cell spatial heterogeneity of drug responses for personalized treatment'
+links: {}
+added: '2026-11-21'
+evidence: SpaRx transfers pharmacogenomics profiles to single-cell spatial transcriptomics data to reveal spatial heterogeneity
+  in drug response.

@@ -1,0 +1,31 @@
+name: PACLseq
+full_name: Partial Anchored Capture and Long-Read Sequencing
+category: wet
+summary: A targeted nanopore sequencing approach identifies fusion transcripts from low-input RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+species:
+- human
+input_sample:
+- low-input
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.08.19.23294152
+  year: 2023
+  journal: medRxiv
+  first_author: Zhang H
+  last_author: Xie D
+  title: Partial Anchored Capture and Long-Read Sequencing (PACLseq) Enable a Stand-alone Diagnostic Method for Ph-like Acute
+    Lymphoblastic Leukemia
+links: {}
+added: '2026-11-21'
+evidence: PACLseq identifies fusion genes using nanopore sequencing with 10 ng of input RNA and was tested on 47 clinical
+  samples.

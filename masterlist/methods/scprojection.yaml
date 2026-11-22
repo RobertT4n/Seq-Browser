@@ -1,0 +1,23 @@
+name: scProjection
+category: dry
+summary: Maps multimodal RNA measurements to deeply sequenced single-cell atlases to extract cell-type-specific expression
+  profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-40744-6
+  year: 2023
+  journal: Nat Commun
+  first_author: Johansen N
+  last_author: Quon G
+  pmid: '37626024'
+  pmcid: PMC10457395
+  title: Projecting RNA measurements onto single cell atlases to extract cell type-specific expression profiles using scProjection
+links: {}
+added: '2026-11-21'
+evidence: scProjection maps multimodal RNA measurements to scRNA-seq atlases and can impute unmeasured genes and distinguish
+  contributions from neighboring cells.

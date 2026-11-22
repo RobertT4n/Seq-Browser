@@ -1,0 +1,27 @@
+name: SNAPseq
+full_name: Scalable noninvasive amplicon-based precision sequencing
+category: wet
+summary: An extraction-free, single-amplicon sequencing assay screens the HBB gene for variants associated with beta-hemoglobinopathies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.3389/fmolb.2023.1244244
+  year: 2023
+  journal: Front Mol Biosci
+  first_author: Gupta P
+  last_author: Ramalingam S
+  pmid: '38152111'
+  pmcid: PMC10751313
+  title: Scalable noninvasive amplicon-based precision sequencing (SNAPseq) for genetic diagnosis and screening of β-thalassemia
+    and sickle cell disease using a next-generation sequencing platform
+  preprint_doi: 10.1101/2023.06.05.23290958
+links: {}
+added: '2026-11-21'
+evidence: The assay screens the entire beta-globin gene by direct amplification from buccal swabs and finger-prick blood.

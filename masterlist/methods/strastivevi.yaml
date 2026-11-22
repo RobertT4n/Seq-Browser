@@ -1,0 +1,20 @@
+name: StrastiveVI
+full_name: Structured Contrastive Variational Inference
+category: dry
+summary: A model that separates covariate-associated variation from other dominant signals in single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.06.561320
+  year: 2023
+  journal: bioRxiv
+  first_author: Qiu W
+  last_author: Lee S
+  title: Isolating structured salient variations in single-cell transcriptomic data with StrastiveVI
+links: {}
+added: '2026-11-21'
+evidence: StrastiveVI isolates aging and Alzheimer's disease-associated patterns from variation associated with sex, tissue,
+  and cell type.

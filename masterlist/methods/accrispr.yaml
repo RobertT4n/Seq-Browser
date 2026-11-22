@@ -1,0 +1,23 @@
+name: acCRISPR
+category: dry
+summary: A pipeline corrects pooled CRISPR screen outcomes for guide cutting efficiency to estimate gene fitness effects.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- crispr-knockout
+scope: targeted
+reference:
+  doi: 10.1038/s42003-023-04996-8
+  year: 2023
+  journal: Commun Biol
+  first_author: Ramesh A
+  last_author: Wheeldon I
+  pmid: '37291233'
+  pmcid: PMC10250353
+  title: 'acCRISPR: an activity-correction method for improving the accuracy of CRISPR screens'
+links: {}
+added: '2026-11-21'
+evidence: acCRISPR uses guide read counts and experimentally measured cutting efficiencies to identify essential genes in
+  pooled screens.

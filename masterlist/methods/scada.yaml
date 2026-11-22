@@ -1,0 +1,19 @@
+name: scaDA
+category: dry
+summary: Tests for differential chromatin accessibility distributions across single cells using a zero-inflated negative binomial
+  model.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.21.576570
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhao F
+  last_author: Chen L
+  title: 'scaDA: A Novel Statistical Method for Differential Analysis of Single-Cell Chromatin Accessibility Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: scaDA jointly tests abundance, prevalence and dispersion for differential accessibility analysis of scATAC-seq data.

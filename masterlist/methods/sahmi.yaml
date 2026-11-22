@@ -1,0 +1,23 @@
+name: SAHMI
+category: dry
+summary: A computational resource that identifies microbial nucleic acids and filters contaminants and false-positive taxonomic
+  assignments in sequencing data.
+readouts:
+- microbial-composition
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-023-00507-1
+  year: 2023
+  journal: Nat Comput Sci
+  first_author: Ghaddar B
+  last_author: De S
+  pmid: '37946872'
+  pmcid: PMC10634611
+  title: Denoising sparse microbial signals from single-cell sequencing of mammalian host tissues
+links: {}
+added: '2026-11-21'
+evidence: SAHMI identifies microbial signals from mammalian tissue transcriptomics and can be applied to single-cell and spatial
+  data.

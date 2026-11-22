@@ -1,0 +1,23 @@
+name: VIRify
+category: dry
+summary: Pipeline that identifies, annotates, and taxonomically classifies viral sequences in metagenomic assemblies.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011422
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Rangel-Pineros G
+  last_author: Finn RD
+  pmid: '37639475'
+  pmcid: PMC10491390
+  title: 'VIRify: An integrated detection, annotation and taxonomic classification pipeline using virus-specific protein profile
+    hidden Markov models'
+links: {}
+added: '2026-11-21'
+evidence: VIRify identifies viral contigs and prophages from metagenomic assemblies and classifies them using viral profile
+  hidden Markov models.

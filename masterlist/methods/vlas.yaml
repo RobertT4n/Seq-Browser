@@ -1,0 +1,26 @@
+name: vLAS
+full_name: very long amplicon sequencing
+category: wet
+summary: Long-range PCR followed by short-read sequencing analyzes genes with many exons in a limited genomic region.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.7759/cureus.50482
+  year: 2023
+  journal: Cureus
+  first_author: Niida Y
+  last_author: Ura H
+  pmid: '38226081'
+  pmcid: PMC10788244
+  title: Streamlining Genetic Diagnosis With Long-Range Polymerase Chain Reaction (PCR)-Based Next-Generation Sequencing for
+    Type I and Type II Collagenopathies
+links: {}
+added: '2026-11-21'
+evidence: vLAS uses approximately 20 kb PCR products and short-read sequencing and was demonstrated in patients with collagenopathies.

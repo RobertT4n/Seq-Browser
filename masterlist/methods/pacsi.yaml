@@ -1,0 +1,22 @@
+name: PACSI
+category: dry
+summary: PACSI uses biological network proximity to identify cell subpopulations associated with disease phenotypes in single-cell
+  or spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12915-023-01658-3
+  year: 2023
+  journal: BMC Biol
+  first_author: Liu C
+  last_author: Wang G
+  pmid: '37468850'
+  pmcid: PMC10354926
+  title: Identification of cell subpopulations associated with disease phenotypes from scRNA-seq data using PACSI
+links: {}
+added: '2026-11-21'
+evidence: PACSI quantifies the correlation between each cell and a disease phenotype using a proximity-based measure.

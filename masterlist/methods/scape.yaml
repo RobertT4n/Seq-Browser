@@ -1,0 +1,19 @@
+name: SCAPE
+full_name: Single cell transcriptomics-level Cytokine Activity Prediction and Estimation
+category: dry
+summary: A method that estimates cell-level cytokine activity from single-cell RNA-seq using cytokine-specific gene sets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.10.17.562739
+  year: 2023
+  journal: bioRxiv
+  first_author: Javaid A
+  last_author: Frost HR
+  title: Single cell transcriptomics-level Cytokine Activity Prediction and Estimation (SCAPE)
+links: {}
+added: '2026-11-21'
+evidence: SCAPE scores cytokine-specific gene sets with a modified variance-adjusted Mahalanobis method.

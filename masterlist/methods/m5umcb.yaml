@@ -1,0 +1,21 @@
+name: m5UMCB
+category: dry
+summary: m5UMCB predicts RNA 5-methyluridine sites from sequence using a multiscale convolutional network and bidirectional
+  LSTM.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2023.107793
+  year: 2024
+  journal: Comput Biol Med
+  first_author: Ji Y
+  last_author: Chen W
+  pmid: '38048661'
+  title: 'm5UMCB: Prediction of RNA 5-methyluridine sites using multi-scale convolutional neural network with BiLSTM'
+links: {}
+added: '2026-11-21'
+evidence: The method encodes RNA sequence fragments and uses convolutional and recurrent layers to recognize 5-methyluridine
+  sites.

@@ -1,0 +1,25 @@
+name: TAGET
+category: dry
+summary: A toolkit analyzes long-read full-length transcripts through alignment, annotation, fusion detection, and expression
+  and isoform quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41467-023-41649-0
+  year: 2023
+  journal: Nat Commun
+  first_author: Xia Y
+  last_author: Xi R
+  pmid: '37741817'
+  pmcid: PMC10518008
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+links: {}
+added: '2026-11-21'
+evidence: TAGET analyzes PacBio Iso-seq data, including transcript alignment, annotation, gene fusions, and differential isoform
+  usage.

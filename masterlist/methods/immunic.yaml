@@ -1,0 +1,23 @@
+name: ImmunIC
+full_name: Immune cell identifier and classifier
+category: dry
+summary: Identifies immune cells and classifies immune cell types from single-cell transcriptomes using marker genes and machine
+  learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-023-39282-4
+  year: 2023
+  journal: Sci Rep
+  first_author: Park SY
+  last_author: Lee HY
+  pmid: '37495649'
+  pmcid: PMC10372073
+  title: Immune cell identifier and classifier (ImmunIC) for single cell transcriptomic readouts
+links: {}
+added: '2026-11-21'
+evidence: ImmunIC combines marker genes with a machine learning method to identify immune cells and categorize them into ten
+  immune cell types.

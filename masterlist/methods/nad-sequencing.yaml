@@ -1,0 +1,30 @@
+name: NAD sequencing
+full_name: Noise-Augmented Direct sequencing
+category: wet
+summary: Noise DNA and nanopore adaptive sampling enable direct sequencing of low-input target DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+input_sample:
+- low-input
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.12688/f1000research.163516.1
+  year: 2025
+  journal: F1000Res
+  first_author: Shim H
+  last_author: Shim H
+  title: 'NAD: Noise-augmented direct sequencing of target nucleic acids by augmenting with noise and selective sampling'
+  preprint_doi: 10.1101/2023.12.14.571721
+links: {}
+added: '2026-11-21'
+evidence: NAD sequencing augmented low-input bacterial DNA with lambda phage DNA and used adaptive sampling to enrich target
+  reads.

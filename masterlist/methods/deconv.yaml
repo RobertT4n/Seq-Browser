@@ -1,0 +1,19 @@
+name: DeconV
+category: dry
+summary: Estimates cell-type proportions in bulk RNA-seq samples using single-cell RNA-seq reference data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.12.07.570524
+  year: 2023
+  journal: bioRxiv
+  first_author: Gynter A
+  last_author: Kilpinen H
+  title: 'DeconV: Probabilistic Cell Type Deconvolution from Bulk RNA-sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: DeconV is a probabilistic cell-type deconvolution framework that uses scRNA-seq data as a reference and provides
+  confidence intervals.

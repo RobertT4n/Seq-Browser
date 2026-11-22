@@ -1,0 +1,20 @@
+name: RefHiC-SR
+category: dry
+summary: Enhances Hi-C contact map resolution using an attention-based model and a reference panel of Hi-C datasets.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad266
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zhang Y
+  last_author: Blanchette M
+  pmid: '37387127'
+  pmcid: PMC10311349
+  title: Reference panel-guided super-resolution inference of Hi-C data
+links: {}
+added: '2026-11-21'
+evidence: RefHiC-SR uses a reference panel to enhance Hi-C data resolution and support mapping of loops and domains.

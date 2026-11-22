@@ -1,0 +1,23 @@
+name: CytoSimplex
+category: dry
+summary: CytoSimplex places single cells in a simplex to quantify and visualize cell fate commitment and potential.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf119
+  year: 2025
+  journal: Bioinformatics
+  first_author: Liu J
+  last_author: Welch J
+  pmid: '40119904'
+  pmcid: PMC11992338
+  title: 'CytoSimplex: visualizing single-cell fates and transitions on a simplex'
+  preprint_doi: 10.1101/2023.12.07.570655
+links: {}
+added: '2026-11-21'
+evidence: CytoSimplex visualizes cell differentiation in simplex plots whose vertices correspond to terminally differentiated
+  cell types.

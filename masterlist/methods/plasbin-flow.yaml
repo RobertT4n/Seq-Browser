@@ -1,0 +1,20 @@
+name: PlasBin-flow
+category: dry
+summary: A mixed integer linear programming model bins plasmid contigs as subgraphs of bacterial short-read assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad250
+  year: 2023
+  journal: Bioinformatics
+  first_author: Mane A
+  last_author: Chauve C
+  pmid: '37387134'
+  pmcid: PMC10311310
+  title: 'PlasBin-flow: a flow-based MILP algorithm for plasmid contigs binning'
+links: {}
+added: '2026-11-21'
+evidence: PlasBin-flow identifies plasmid subgraphs in an assembly graph using a network-flow-based optimization model.

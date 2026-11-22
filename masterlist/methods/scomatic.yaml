@@ -1,0 +1,22 @@
+name: SComatic
+category: dry
+summary: Detects somatic mutations directly from single-cell transcriptomic and chromatin-accessibility sequencing data.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01863-z
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Muyas F
+  last_author: Cortés-Ciriano I
+  pmid: '37414936'
+  pmcid: PMC11098751
+  title: De novo detection of somatic mutations in high-throughput single-cell profiling data sets
+links: {}
+added: '2026-11-21'
+evidence: SComatic detects somatic mutations in single-cell RNA-seq and ATAC-seq datasets without matched DNA sequencing.

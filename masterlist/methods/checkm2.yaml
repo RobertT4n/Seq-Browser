@@ -1,0 +1,19 @@
+name: CheckM2
+category: dry
+summary: Predicts the quality of metagenome-assembled microbial genomes using machine learning.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-01940-w
+  year: 2023
+  journal: Nat Methods
+  first_author: Chklovski A
+  last_author: Tyson GW
+  pmid: '37500759'
+  title: 'CheckM2: a rapid, scalable and accurate tool for assessing microbial genome quality using machine learning'
+links: {}
+added: '2026-11-21'
+evidence: CheckM2 predicts genome quality for metagenome-assembled genomes across bacterial and archaeal lineages.

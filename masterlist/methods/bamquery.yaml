@@ -1,0 +1,22 @@
+name: BamQuery
+category: dry
+summary: BamQuery attributes RNA expression to MHC-I-associated peptides from bulk and single-cell RNA-seq data to help prioritize
+  tumor antigens.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03029-1
+  year: 2023
+  journal: Genome Biol
+  first_author: Cuevas MVR
+  last_author: Ehx G
+  pmid: '37582761'
+  pmcid: PMC10426134
+  title: 'BamQuery: a proteogenomic tool to explore the immunopeptidome and prioritize actionable tumor antigens'
+links: {}
+added: '2026-11-21'
+evidence: BamQuery attributes RNA expression to MHC-I-associated peptides of any origin and can predict their immunogenicity.

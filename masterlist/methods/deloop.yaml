@@ -1,0 +1,19 @@
+name: DeLoop
+category: dry
+summary: DeLoop predicts CTCF-mediated chromatin loops from sparse ATAC-seq data and DNA sequence features.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.01.564594
+  year: 2023
+  journal: bioRxiv
+  first_author: Luo Y
+  last_author: Zhang Z
+  title: 'DeLoop: a deep learning model for chromatin loop prediction from sparse ATAC-seq data'
+links: {}
+added: '2026-11-21'
+evidence: DeLoop predicts chromatin loops using sparse ATAC-seq data and DNA sequence features.

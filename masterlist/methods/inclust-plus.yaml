@@ -1,0 +1,25 @@
+name: inClust+
+category: dry
+summary: Integrates single-cell multimodal datasets and supports imputation, label transfer, and generation of missing modalities.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05656-2
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Wang L
+  last_author: Cai J
+  pmid: '38267858'
+  pmcid: PMC10809631
+  title: 'InClust+: the deep generative framework with mask modules for multimodal data integration, imputation, and cross-modal
+    generation'
+links: {}
+added: '2026-11-21'
+evidence: inClust+ integrates datasets including gene expression, chromatin accessibility, and protein abundance and can generate
+  missing protein abundance.

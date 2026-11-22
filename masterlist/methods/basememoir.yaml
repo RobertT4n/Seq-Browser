@@ -1,0 +1,30 @@
+name: baseMEMOIR
+category: wet
+summary: Combines base editing and sequential hybridization imaging to reconstruct cell lineages and state dynamics in spatial
+  context.
+readouts:
+- lineage
+resolution:
+- single-cell
+- spatial
+temporal:
+- molecular-recording
+perturbation:
+- base-editing
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2024.01.03.573434
+  year: 2024
+  journal: bioRxiv
+  first_author: Chadly DM
+  last_author: Elowitz MB
+  title: Reconstructing cell histories in space with image-readable base editor recording
+links: {}
+added: '2026-11-21'
+evidence: BaseMEMOIR records edits in genomically integrated dinucleotide arrays and reads them by sequential hybridization
+  imaging to reconstruct lineage trees.

@@ -1,0 +1,22 @@
+name: LRTK
+full_name: Linked-Read ToolKit
+category: dry
+summary: Processes linked-read sequencing data for human genomic and metagenomic analyses across platforms.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giae028
+  year: 2024
+  journal: Gigascience
+  first_author: Yang C
+  last_author: Zhang L
+  pmid: '38869148'
+  pmcid: PMC11170215
+  title: 'LRTK: a platform agnostic toolkit for linked-read analysis of both human genome and metagenome'
+links: {}
+added: '2026-11-21'
+evidence: LRTK supports linked-read alignment, metagenome assembly, taxonomic profiling, variant calling, and phasing.

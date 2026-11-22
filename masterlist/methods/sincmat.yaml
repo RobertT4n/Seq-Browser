@@ -1,0 +1,21 @@
+name: SinCMat
+category: dry
+summary: Predicts transcription factors involved in functional cell maturation from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.stemcr.2023.12.006
+  year: 2024
+  journal: Stem Cell Reports
+  first_author: Barvaux S
+  last_author: Del Sol A
+  pmid: '38215756'
+  pmcid: PMC10874865
+  title: 'SinCMat: A single-cell-based method for predicting functional maturation transcription factors'
+links: {}
+added: '2026-11-21'
+evidence: SinCMat identifies pairs of identity and signal-dependent transcription factors that co-target genes driving functional
+  maturation.

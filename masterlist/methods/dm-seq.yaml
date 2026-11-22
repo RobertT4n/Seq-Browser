@@ -1,0 +1,28 @@
+name: DM-Seq
+full_name: direct methylation sequencing
+category: wet
+summary: An enzymatic sequencing method directly detects DNA 5-methylcytosine at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41589-023-01318-1
+  year: 2023
+  journal: Nat Chem Biol
+  first_author: Wang T
+  last_author: Kohli RM
+  pmid: '37322153'
+  pmcid: PMC10763687
+  title: Direct enzymatic sequencing of 5-methylcytosine at single-base resolution
+links: {}
+added: '2026-11-21'
+evidence: DM-Seq uses a DNA methyltransferase and deaminase to detect 5mC without confounding it with 5-hydroxymethylcytosine.

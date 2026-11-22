@@ -1,0 +1,21 @@
+name: MOTIF
+full_name: modulator of TMB-associated immune infiltration
+category: dry
+summary: Uses an RNA expression signature to predict CD8-positive T-cell infiltration and immune checkpoint inhibitor efficacy.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.scib.2024.01.025
+  year: 2024
+  journal: Sci Bull (Beijing)
+  first_author: Qian ZY
+  last_author: Xu RH
+  pmid: '38320897'
+  title: Modulator of TMB-associated immune infiltration (MOTIF) predicts immunotherapy response and guides combination therapy
+links: {}
+added: '2026-11-21'
+evidence: MOTIF was developed from bulk RNA-seq and validated for predicting CD8-positive T-cell infiltration and immune checkpoint
+  inhibitor efficacy.

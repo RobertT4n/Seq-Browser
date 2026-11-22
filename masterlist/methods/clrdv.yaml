@@ -1,0 +1,20 @@
+name: clrDV
+category: dry
+summary: A statistical method detects genes whose expression variability differs between two populations in RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.16126
+  year: 2023
+  journal: PeerJ
+  first_author: Li H
+  last_author: Khang TF
+  pmid: '37790621'
+  pmcid: PMC10544356
+  title: 'clrDV: a differential variability test for RNA-Seq data based on the skew-normal distribution'
+links: {}
+added: '2026-11-21'
+evidence: clrDV models centered log-ratio transformed RNA-seq data to test for differential gene expression variability.

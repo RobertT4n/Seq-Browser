@@ -1,0 +1,23 @@
+name: TransformerST
+category: dry
+summary: Integrates histology images and spatial gene expression to infer spatial transcriptomics data at single-cell granularity.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae052
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Zhao C
+  last_author: Chen W
+  pmid: '38436557'
+  pmcid: PMC10939304
+  title: 'Innovative super-resolution in spatial transcriptomics: a transformer model exploiting histology images and spatial
+    gene expression'
+links: {}
+added: '2026-11-21'
+evidence: TransformerST uses image-gene expression representations and spatial correlations to raise Visium data to single-cell
+  granularity.

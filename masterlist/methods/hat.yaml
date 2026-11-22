@@ -1,0 +1,21 @@
+name: HAT
+full_name: Hare And Tortoise
+category: dry
+summary: Detects de novo variants from aligned sequencing reads of parent-child trios.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad775
+  year: 2024
+  journal: Bioinformatics
+  first_author: Ng JK
+  last_author: Turner TN
+  pmid: '38175776'
+  pmcid: PMC10777354
+  title: 'HAT: de novo variant calling for highly accurate short-read and long-read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HAT starts with aligned trio reads and detects de novo variants in whole-exome and whole-genome sequencing data.

@@ -1,0 +1,18 @@
+name: ReDis
+category: dry
+summary: Metagenomic profiling method that aligns reads and statistically assigns ambiguous reads to estimate microbial abundances.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.08.29.555244
+  year: 2023
+  journal: bioRxiv
+  first_author: Song C
+  last_author: Liu J
+  title: 'ReDis: efficient metagenomic profiling via assigning ambiguous reads'
+links: {}
+added: '2026-11-21'
+evidence: ReDis combines Kraken2 and Minimap2 with a statistical model for assigning ambiguous reads and estimating abundances.

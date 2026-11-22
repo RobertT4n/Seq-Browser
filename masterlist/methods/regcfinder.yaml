@@ -1,0 +1,21 @@
+name: RegCFinder
+category: dry
+summary: Identifies subregions of selected genomic windows with differential sequencing read density between conditions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbad085
+  year: 2023
+  journal: Bioinform Adv
+  first_author: Weiß E
+  last_author: Friedel CC
+  pmid: '37456509'
+  pmcid: PMC10343947
+  title: 'RegCFinder: targeted discovery of genomic subregions with differential read density'
+links: {}
+added: '2026-11-21'
+evidence: RegCFinder identifies subregions of user-defined input windows with differences in read density and can use any
+  type of sequencing assay.
