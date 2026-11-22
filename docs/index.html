@@ -7,7 +7,7 @@
 <meta name="description" content="A curated, continuously updated catalogue of sequencing assays and analysis tools.">
 <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md" title="LLM-readable masterlist">
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=20261112-0440">
+<link rel="stylesheet" href="style.css?v=20261122-more">
 <style>
 @media (min-width:641px) {
   main > table { table-layout:fixed; }
@@ -58,6 +58,7 @@
     </tr></thead>
     <tbody id="rows"><tr><td class="loading" colspan="8">Loading methods…</td></tr></tbody>
   </table>
+  <div id="more" class="more" hidden></div>
   <div class="llm" id="upd"></div>
   <div class="llm">Using an LLM? Point it at the <a href="https://raw.githubusercontent.com/RobertT4n/Seq-Browser/main/METHODS.md">Markdown masterlist</a> (the whole database in one file) or <a href="methods.json">methods.json</a>. Also: <a href="llms.txt">llms.txt</a>, <a href="methods.csv" download>full CSV</a>. Citation counts indicate literature attention, not experimental quality; counts come from Crossref and may have different refresh dates.</div>
 </main>
@@ -80,6 +81,7 @@ const searchMatches = (m, q) => q.trim().toLowerCase().split(/\s+/).filter(Boole
 const hasTag = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t || PARENT[t] === v);
 const scopeMatches = (scope, selected, candidate) => (!selected.size && candidate == null) || selected.has(scope) || (candidate != null && scope === candidate);
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
+const PAGE = 100; let limit = PAGE, viewKey = "";   // table shows the first 100 rows; "Show more" adds 100. Any new search/filter/sort starts again at 100
 
 fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
   data = j.methods; window._upd = j.updated; { const u = document.getElementById("upd"); if (u && j.updated) u.textContent = "Last updated " + j.updated + ". Entries are found by automated paper scans, then classified and curated; each one links to its source paper."; }   // wet and dry; the "Include computational tools" switch decides what is shown
@@ -151,13 +153,19 @@ function render() {
   document.querySelector(".drytog").classList.toggle("hint", hiddenDry > 0);
   { const b = document.getElementById("dl"); if (b) b.textContent = `Download CSV (${rows.length})`; }
   const tags = s => split(s).map(t => `<span class="tag">${esc(t)}</span>`).join("");
-  document.getElementById("rows").innerHTML = rows.map(m => `
+  { const key = JSON.stringify([q, kind, sortKey, sortDir, FACETS.map(([k]) => [...on[k]].sort())]); if (key !== viewKey) { viewKey = key; limit = PAGE; } }
+  { const i = open ? rows.findIndex(m => m.id === open) : -1; if (i >= limit) limit = Math.ceil((i + 1) / PAGE) * PAGE; }   // an opened or linked method is never hidden below the cutoff
+  const shown = rows.slice(0, limit);
+  document.getElementById("rows").innerHTML = shown.map(m => `
     <tr class="row${open === m.id ? ' sel' : ''}" data-id="${m.id}"><td class="name">${esc(m.name)}${m.preprint ? '<span class="pre">preprint</span>' : ""}${m.category === "dry" ? '<span class="pre comp">computational</span>' : (document.getElementById("kind").value === "all" ? '<span class="pre exp">experimental</span>' : "")}${m.full_name ? `<small>${esc(m.full_name)}</small>` : ""}</td>
     <td class="reads">${tags(m.readouts)}</td><td>${tags(m.resolution)}${tags(m.temporal)}${tags(m.perturbation)}</td><td class="hide-sm">${esc(m.scope)}</td><td class="hide-sm chem">${m.category === "dry" ? tags(m.task) : tags(m.chemistry)}</td>
     <td class="hide-sm doi">${m.doi ? `<a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(m.doi)}</a>` : m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">product page</a>` : ""}</td>
     <td class="num">${m.citations != null ? m.citations.toLocaleString() : "–"}</td><td class="num">${m.year ?? ""}</td></tr>
 `).join("") || '<tr><td colspan="8">No matching methods. Try fewer search words, remove a filter, or <button type="button" class="showdry" id="empty-clear">clear search and filters</button>.</td></tr>';
   { const b = document.getElementById("empty-clear"); if (b) b.onclick = () => document.getElementById("clear").click(); }
+  { const mo = document.getElementById("more"), left = rows.length - shown.length;
+    mo.hidden = left <= 0;
+    if (left > 0) { mo.innerHTML = `<span>Showing ${shown.length.toLocaleString()} of ${rows.length.toLocaleString()}</span><button class="btn" id="moreb" type="button">Show ${Math.min(PAGE, left)} more</button>`; document.getElementById("moreb").onclick = () => { limit += PAGE; render(); }; } }
   { const k2 = FACETS.reduce((a, [k]) => a + on[k].size, 0); document.getElementById("fcount").textContent = k2 ? "· " + k2 + " active" : ""; }
   DDS.forEach((d, i) => { const sel = d.keys.flatMap(k => [...on[k]]), n = document.getElementById("n-" + i); n.textContent = sel.length ? (sel.length === 1 ? sel[0] : sel.length + " selected") : "Any"; n.classList.toggle("on", sel.length > 0); n.closest("details").classList.toggle("has", sel.length > 0); });
   document.getElementById("active").innerHTML = FACETS.flatMap(([k]) => [...on[k]].map(v => `<button class="chip" data-rk="${k}" data-rv="${esc(v)}" type="button">${esc(DISP[v] || v)} ×</button>`)).join("");
