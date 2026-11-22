@@ -1,0 +1,25 @@
+name: FiT-seq
+full_name: fixed-tissue chromatin immunoprecipitation sequencing
+category: wet
+summary: Extracts chromatin from formalin-fixed paraffin-embedded tissue for sequencing-based histone modification profiling.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nm.4085
+  year: 2016
+  journal: Nat Med
+  first_author: Cejas P
+  last_author: Long HW
+  pmid: '27111282'
+  title: Chromatin immunoprecipitation from fixed clinical tissues reveals tumor-specific enhancer profiles
+links: {}
+added: '2026-11-21'
+evidence: FiT-seq enables extraction of soluble chromatin from FFPE samples and detection of histone marks concordant with
+  fresh-frozen tumor data.

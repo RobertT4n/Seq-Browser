@@ -1,0 +1,23 @@
+name: miTRAP
+full_name: miRNA trapping by RNA in vitro affinity purification
+category: wet
+summary: miTRAP affinity-purifies microRNAs that interact with an RNA of interest in cell lysates for identification by sequencing.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gku127
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Braun J
+  last_author: Hüttelmaier S
+  pmid: '24510096'
+  pmcid: PMC4005655
+  title: Rapid identification of regulatory microRNAs by miTRAP (miRNA trapping by RNA in vitro affinity purification)
+links: {}
+added: '2026-11-21'
+evidence: miTRAP identified microRNAs targeting in vitro-transcribed RNAs in cell lysates and was combined with miRNA sequencing.

@@ -1,0 +1,21 @@
+name: HiC-spector
+category: dry
+summary: Analyzes Hi-C contact maps with matrix methods and quantifies their reproducibility using spectral decomposition.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx152
+  year: 2017
+  journal: Bioinformatics
+  first_author: Yan KK
+  last_author: Gerstein M
+  pmid: '28369339'
+  pmcid: PMC5870694
+  title: 'HiC-spector: a matrix library for spectral and reproducibility analysis of Hi-C contact maps'
+  preprint_doi: 10.1101/088922
+links: {}
+added: '2026-11-21'
+evidence: HiC-spector provides matrix functions and a spectral metric for similarity between Hi-C contact maps.

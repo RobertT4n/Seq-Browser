@@ -1,0 +1,20 @@
+name: TACO
+category: dry
+summary: Reconstructs a consensus transcriptome from multiple RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4078
+  year: 2017
+  journal: Nat Methods
+  first_author: Niknafs YS
+  last_author: Iyer MK
+  pmid: '27869815'
+  pmcid: PMC5199618
+  title: TACO produces robust multisample transcriptome assemblies from RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: TACO uses change-point detection to demarcate transcript start and end sites in multisample transcriptome assembly.

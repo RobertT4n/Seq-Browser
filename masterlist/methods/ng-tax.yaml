@@ -1,0 +1,20 @@
+name: NG-Tax
+category: dry
+summary: Analyzes 16S rRNA gene amplicon sequences to characterize microbial composition.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.12688/f1000research.9227.2
+  year: 2016
+  journal: F1000Res
+  first_author: Ramiro-Garcia J
+  last_author: Smidt H
+  pmid: '30918626'
+  pmcid: PMC6419982
+  title: NG-Tax, a highly accurate and validated pipeline for analysis of 16S rRNA amplicons from complex biomes
+links: {}
+added: '2026-11-21'
+evidence: NG-Tax is a 16S rRNA gene amplicon analysis pipeline validated using mock microbial communities.

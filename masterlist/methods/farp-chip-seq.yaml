@@ -1,0 +1,30 @@
+name: FARP-ChIP-seq
+full_name: favored amplification recovery via protection ChIP-seq
+category: wet
+summary: Maps histone modifications reproducibly from low numbers of cells using a modified ChIP-seq protocol.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.celrep.2015.10.004
+  year: 2015
+  journal: Cell Rep
+  first_author: Zheng X
+  last_author: Zheng Y
+  pmid: '26549448'
+  pmcid: PMC5466415
+  title: Low-Cell-Number Epigenome Profiling Aids the Study of Lens Aging and Hematopoiesis
+links: {}
+added: '2026-11-21'
+evidence: FARP-ChIP-seq maps H3K4me3 and H3K27me3 in hematopoietic stem and progenitor cells from one mouse.
+targets:
+- H3K4me3
+- H3K27me3

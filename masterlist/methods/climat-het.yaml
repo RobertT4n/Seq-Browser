@@ -1,0 +1,22 @@
+name: CLImAT-HET
+category: dry
+summary: Infers tumor subclonal diversity in copy number alterations and loss of heterozygosity from whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-017-0255-4
+  year: 2017
+  journal: BMC Med Genomics
+  first_author: Yu Z
+  last_author: Wang M
+  pmid: '28298214'
+  pmcid: PMC5351278
+  title: 'CLImAT-HET: detecting subclonal copy number alterations and loss of heterozygosity in heterogeneous tumor samples
+    from whole-genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CLImAT-HET captures clonal diversity in copy number alteration and loss-of-heterozygosity dimensions without a matched
+  normal sample.

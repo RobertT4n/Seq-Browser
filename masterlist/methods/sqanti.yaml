@@ -1,0 +1,26 @@
+name: SQANTI
+category: dry
+summary: Classifies long-read transcripts and computes descriptors for assessing transcript and preprocessing quality.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/gr.222976.117
+  year: 2018
+  journal: Genome Res
+  first_author: Tardaguila M
+  last_author: Conesa A
+  pmid: '29440222'
+  pmcid: PMC5848618
+  title: 'SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome
+    identification and quantification'
+  preprint_doi: 10.1101/118083
+links: {}
+added: '2026-11-21'
+evidence: SQANTI computes 47 descriptors for long-read transcripts and was applied to a mouse transcriptome sequenced with
+  PacBio.

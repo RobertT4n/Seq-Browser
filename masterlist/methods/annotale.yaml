@@ -1,0 +1,24 @@
+name: AnnoTALE
+category: dry
+summary: Suite for annotating Xanthomonas TALE genes and grouping similar effectors into classes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/srep21077
+  year: 2016
+  journal: Sci Rep
+  first_author: Grau J
+  last_author: Boch J
+  pmid: '26876161'
+  pmcid: PMC4753510
+  title: 'AnnoTALE: bioinformatics tools for identification, annotation, and nomenclature of TALEs from Xanthomonas genomic
+    sequences'
+links: {}
+added: '2026-11-21'
+evidence: AnnoTALE analyzes and annotates TALE genes from Xanthomonas genomes and groups similar TALEs into classes.

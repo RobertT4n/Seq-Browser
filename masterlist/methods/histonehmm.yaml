@@ -1,0 +1,20 @@
+name: histoneHMM
+category: dry
+summary: Identifies regions with differential histone modification between samples using a bivariate hidden Markov model.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0491-6
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Heinig M
+  last_author: Johannes F
+  pmid: '25884684'
+  pmcid: PMC4347972
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+links: {}
+added: '2026-11-21'
+evidence: histoneHMM classifies genomic regions as modified in both samples, unmodified in both, or differentially modified.

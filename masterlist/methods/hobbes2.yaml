@@ -1,0 +1,20 @@
+name: Hobbes2
+category: dry
+summary: Aligns sequencing reads to a reference genome while identifying all candidate mapping locations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-42
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Kim J
+  last_author: Xie X
+  pmid: '24499321'
+  pmcid: PMC3927682
+  title: Improving read mapping using additional prefix grams
+links: {}
+added: '2026-11-21'
+evidence: Hobbes2 uses additional prefix q-grams to efficiently identify all mapping locations of reads.

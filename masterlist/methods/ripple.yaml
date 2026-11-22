@@ -1,0 +1,21 @@
+name: RIPPLE
+full_name: Regulatory Interaction Prediction for Promoters and Long-range Enhancers
+category: dry
+summary: Predicts cell-line-specific enhancer-promoter interactions by integrating 3C and regulatory genomic datasets.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv865
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Roy S
+  last_author: Sridharan R
+  pmid: '26338778'
+  pmcid: PMC4605315
+  title: A predictive modeling approach for cell line-specific long-range regulatory interactions
+links: {}
+added: '2026-11-21'
+evidence: An ensemble version of RIPPLE generated genome-wide interaction maps for five human cell lines.

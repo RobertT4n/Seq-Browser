@@ -1,0 +1,21 @@
+name: PopAlu
+category: dry
+summary: Detects and genotypes polymorphic Alu insertions and deletions across multiple individuals from paired-end sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.1269
+  year: 2015
+  journal: PeerJ
+  first_author: Qian Y
+  last_author: Halldórsson BV
+  pmid: '26417547'
+  pmcid: PMC4582951
+  title: 'PopAlu: population-scale detection of Alu polymorphisms'
+links: {}
+added: '2026-11-21'
+evidence: PopAlu uses read-pair distance and orientation and split reads to locate polymorphic Alus and call genotypes.

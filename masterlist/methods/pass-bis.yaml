@@ -1,0 +1,21 @@
+name: PASS-bis
+category: dry
+summary: Aligns bisulfite sequencing reads from Illumina or SOLiD and calls methylated and unmethylated cytosines.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts675
+  year: 2013
+  journal: Bioinformatics
+  first_author: Campagna D
+  last_author: Valle G
+  pmid: '23162053'
+  title: 'PASS-bis: a bisulfite aligner suitable for whole methylome analysis of Illumina and SOLiD reads'
+links: {}
+added: '2026-11-21'
+evidence: The algorithm aligns bisulfite-treated reads, and an accompanying caller creates a genomic view of methylated and
+  unmethylated cytosines.

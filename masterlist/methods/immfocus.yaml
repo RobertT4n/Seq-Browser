@@ -1,0 +1,21 @@
+name: immFocus
+category: dry
+summary: Extracts immune expression signals from tumor RNA-seq profiles by normalizing expression with an immune index.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.18632/oncotarget.5052
+  year: 2015
+  journal: Oncotarget
+  first_author: Teltsh O
+  last_author: Rubin E
+  pmid: '26384298'
+  pmcid: PMC4741758
+  title: 'Extracting tumor tissue immune status from expression profiles: correlating renal cancer prognosis with tumor-associated
+    immunome'
+links: {}
+added: '2026-11-21'
+evidence: immFocus reduces variation introduced by biopsy preparation in apparent immune-gene expression levels.

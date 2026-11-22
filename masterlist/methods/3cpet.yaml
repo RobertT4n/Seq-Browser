@@ -1,0 +1,23 @@
+name: 3CPET
+category: dry
+summary: Integrates ChIA-PET, transcription factor binding sites and protein interactions to infer complexes involved in chromatin
+  interactions.
+readouts:
+- 3d-genome
+- protein-dna-binding
+- protein-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-015-0851-6
+  year: 2015
+  journal: Genome Biol
+  first_author: Djekidel MN
+  last_author: Zhang MQ
+  pmid: '26694485'
+  pmcid: PMC4716632
+  title: '3CPET: finding co-factor complexes from ChIA-PET data using a hierarchical Dirichlet process'
+links: {}
+added: '2026-11-21'
+evidence: 3CPET combines ChIA-PET, transcription factor binding sites and protein interactions to infer probable protein complexes.

@@ -1,0 +1,20 @@
+name: Broad-Enrich
+category: dry
+summary: Tests functional enrichment of broad genomic regions using the proportion of each gene locus covered by peaks.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu444
+  year: 2014
+  journal: Bioinformatics
+  first_author: Cavalcante RG
+  last_author: Sartor MA
+  pmid: '25161225'
+  pmcid: PMC4147897
+  title: 'Broad-Enrich: functional interpretation of large sets of broad genomic regions'
+links: {}
+added: '2026-11-21'
+evidence: Broad-Enrich uses gene-locus coverage by peaks to perform enrichment testing on broad ChIP-seq domains.

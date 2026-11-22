@@ -1,0 +1,20 @@
+name: DeepGene
+category: dry
+summary: DeepGene uses a deep neural network to classify cancer types from somatic point mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1334-9
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Yuan Y
+  last_author: Feng DD
+  pmid: '28155641'
+  pmcid: PMC5259816
+  title: 'DeepGene: an advanced cancer type classifier based on deep learning and somatic point mutations'
+links: {}
+added: '2026-11-21'
+evidence: DeepGene filters and transforms mutation data before applying a deep neural network classifier for cancer classification.

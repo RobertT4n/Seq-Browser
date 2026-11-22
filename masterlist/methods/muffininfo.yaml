@@ -1,0 +1,20 @@
+name: MuffinInfo
+category: dry
+summary: Extracts and displays sequencing data statistics including read lengths, base distributions, quality scores and k-mer
+  histograms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2016.0031
+  year: 2016
+  journal: J Comput Biol
+  first_author: Alic AS
+  last_author: Blanquer I
+  pmid: '27606794'
+  title: 'MuffinInfo: HTML5-Based Statistics Extractor from Next-Generation Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: MuffinInfo extracts statistics from FASTQ, FASTA and SAM data and supports saving results as a navigable file.

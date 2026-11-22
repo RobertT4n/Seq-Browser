@@ -1,0 +1,27 @@
+name: HuluFISH
+category: wet
+summary: Enzymatically labeled smFISH probes use combinatorial colors to visualize multiple RNA species in a single hybridization
+  step.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/127373
+  year: 2017
+  journal: bioRxiv
+  first_author: Cheng Y
+  last_author: Liu H
+  title: Autonomous combinatorial color barcoding for multiplexing single molecule RNA visualization
+links: {}
+added: '2026-11-21'
+evidence: HuluFISH detected cellular heterogeneity in embryonic mouse brain at single-cell level.

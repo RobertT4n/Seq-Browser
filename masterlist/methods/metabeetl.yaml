@@ -1,0 +1,21 @@
+name: metaBEETL
+category: dry
+summary: Classifies environmental shotgun sequences taxonomically using indexed reads and microbial reference sequences.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s5-s2
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Ander C
+  last_author: Cox AJ
+  pmid: '23734710'
+  pmcid: PMC3622627
+  title: 'metaBEETL: high-throughput analysis of heterogeneous microbial populations from shotgun DNA sequences'
+links: {}
+added: '2026-11-21'
+evidence: metaBEETL is a taxonomic classifier for environmental shotgun sequences that can assign reads to higher phylogenetic
+  orders.

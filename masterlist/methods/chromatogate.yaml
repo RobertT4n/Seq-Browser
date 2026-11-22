@@ -1,0 +1,22 @@
+name: ChromatoGate
+category: dry
+summary: Guides semi-automatic chromatogram inspection to identify potential sequencing errors in multiple sequence alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.5936/csbj.201303001
+  year: 2013
+  journal: Comput Struct Biotechnol J
+  first_author: Alachiotis N
+  last_author: Stamatakis A
+  pmid: '24688709'
+  pmcid: PMC3962156
+  title: 'ChromatoGate: A Tool for Detecting Base Mis-Calls in Multiple Sequence Alignments by Semi-Automatic Chromatogram
+    Inspection'
+links: {}
+added: '2026-11-21'
+evidence: ChromatoGate scans multiple sequence alignments for potential errors and assists inspection of chromatogram peaks
+  from bidirectional sequencing runs.

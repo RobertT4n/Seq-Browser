@@ -1,0 +1,20 @@
+name: BioGranat-IG
+category: dry
+summary: Uses biological networks and exome variants to identify candidate disease-causing genes despite genetic heterogeneity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btt045
+  year: 2013
+  journal: Bioinformatics
+  first_author: Dand N
+  last_author: Schlitt T
+  pmid: '23361329'
+  title: 'BioGranat-IG: a network analysis tool to suggest mechanisms of genetic heterogeneity from exome-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: BioGranat-IG labels network nodes by individuals carrying variants and identifies subnetworks linked to most or
+  all individuals.

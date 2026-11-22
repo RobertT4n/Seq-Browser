@@ -1,0 +1,24 @@
+name: PAtCh-Cap
+full_name: protein attached chromatin capture
+category: wet
+summary: Nonspecific capture of chromatin-bound proteins produces input controls for ChIP methods with bead-bound processing
+  steps.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1093/nar/gkw741
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Terooatea TW
+  last_author: Buck-Koehntop BA
+  pmid: '27550178'
+  pmcid: PMC5137431
+  title: 'PAtCh-Cap: input strategy for improving analysis of ChIP-exo data sets and beyond'
+links: {}
+added: '2026-11-21'
+evidence: The input strategy enhanced artifact removal from ChIP-exo data and enabled discovery of a CTCF binding motif.

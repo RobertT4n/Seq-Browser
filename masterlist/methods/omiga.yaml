@@ -1,0 +1,21 @@
+name: OMIGA
+full_name: Optimized Maker-Based Insect Genome Annotation
+category: dry
+summary: Annotates protein-coding genes in insect genomes by integrating RNA-seq, gene prediction, and protein alignment.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s00438-014-0831-7
+  year: 2014
+  journal: Mol Genet Genomics
+  first_author: Liu J
+  last_author: Li F
+  pmid: '24609470'
+  title: 'OMIGA: Optimized Maker-Based Insect Genome Annotation'
+links: {}
+added: '2026-11-21'
+evidence: OMIGA integrates RNA-seq, de novo gene prediction, and protein alignment to produce an insect gene set.

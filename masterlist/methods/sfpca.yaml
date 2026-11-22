@@ -1,0 +1,22 @@
+name: SFPCA
+full_name: smoothed functional principal component analysis
+category: dry
+summary: Tests associations between pathways and rare or common sequence variants while accounting for gametic phase disequilibrium.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ejhg.2014.121
+  year: 2015
+  journal: Eur J Hum Genet
+  first_author: Zhao J
+  last_author: Xiong M
+  pmid: '24986826'
+  pmcid: PMC4666565
+  title: Pathway analysis with next-generation sequencing data
+links: {}
+added: '2026-11-21'
+evidence: The SFPCA-based statistic captures position-level variant information and accounts for gametic phase disequilibrium
+  in pathway association tests.

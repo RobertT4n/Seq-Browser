@@ -1,0 +1,21 @@
+name: GINDEL
+category: dry
+summary: Uses machine learning to call insertion and deletion genotypes from sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0113324
+  year: 2014
+  journal: PLoS One
+  first_author: Chu C
+  last_author: Wu Y
+  pmid: '25423315'
+  pmcid: PMC4244156
+  title: 'GINDEL: accurate genotype calling of insertions and deletions from low coverage population sequence reads'
+links: {}
+added: '2026-11-21'
+evidence: GINDEL combines features extracted from sequencing data to genotype insertions and deletions, including in low-coverage
+  data.

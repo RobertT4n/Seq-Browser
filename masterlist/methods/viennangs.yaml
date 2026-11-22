@@ -1,0 +1,21 @@
+name: ViennaNGS
+category: dry
+summary: Provides reusable software components for building sequencing analysis pipelines, including RNA abundance and splice-junction
+  analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.6157.1
+  year: 2015
+  journal: F1000Research
+  first_author: Wolfinger MT
+  last_author: Amman F
+  title: 'ViennaNGS: A toolbox for building efficient next- generation sequencing analysis pipelines'
+  preprint_doi: 10.1101/013011
+links: {}
+added: '2026-11-21'
+evidence: ViennaNGS includes modules for read mapping statistics, RNA abundance normalization, splice-junction analysis and
+  genome browser track hubs.

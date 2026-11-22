@@ -1,0 +1,22 @@
+name: ROVER
+full_name: Read Overlap PCR-MPS variant caller
+category: dry
+summary: Calls variants in targeted PCR sequencing data using overlapping paired-end reads to filter sequencing errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1751-0473-9-3
+  year: 2014
+  journal: Source Code Biol Med
+  first_author: Pope BJ
+  last_author: Park DJ
+  pmid: '24461215'
+  pmcid: PMC3904415
+  title: 'ROVER variant caller: read-pair overlap considerate variant-calling software applied to PCR-based massively parallel
+    sequencing datasets'
+links: {}
+added: '2026-11-21'
+evidence: ROVER identifies variants from PCR-targeted, overlapping paired-end massively parallel sequencing datasets.

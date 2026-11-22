@@ -1,0 +1,22 @@
+name: SCell
+category: dry
+summary: Integrated software for quality filtering, normalization, dimensionality reduction and analysis of single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw201
+  year: 2016
+  journal: Bioinformatics
+  first_author: Diaz A
+  last_author: Kriegstein A
+  pmid: '27153637'
+  pmcid: PMC4937196
+  title: 'SCell: integrated analysis of single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: SCell supports quality filtering, normalization, feature selection, dimensionality reduction, clustering and gene-expression
+  gradient estimation.

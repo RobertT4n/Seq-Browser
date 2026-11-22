@@ -1,0 +1,23 @@
+name: MToolBox
+category: dry
+summary: Reconstructs and analyzes human mitochondrial genomes, including heteroplasmy, haplogroup assignment and variant
+  prioritization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu483
+  year: 2014
+  journal: Bioinformatics
+  first_author: Calabrese C
+  last_author: Attimonelli M
+  pmid: '25028726'
+  pmcid: PMC4201154
+  title: 'MToolBox: a highly automated pipeline for heteroplasmy annotation and prioritization analysis of human mitochondrial
+    variants in high-throughput sequencing'
+links: {}
+added: '2026-11-21'
+evidence: MToolBox assembles mitochondrial genomes, assigns haplogroups and produces allele-specific heteroplasmy and prioritized
+  variant annotations.

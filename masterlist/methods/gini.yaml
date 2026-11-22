@@ -1,0 +1,21 @@
+name: GINI
+category: dry
+summary: Infers gene interaction networks from spatial gene expression patterns in Drosophila embryonic in situ hybridization
+  images.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003227
+  year: 2013
+  journal: PLoS Comput Biol
+  first_author: Puniyani K
+  last_author: Xing EP
+  pmid: '24130465'
+  pmcid: PMC3794902
+  title: 'GINI: from ISH images to gene interaction networks'
+links: {}
+added: '2026-11-21'
+evidence: GINI uses spatial gene expression patterns in embryonic ISH images to learn a sparse gene interaction network.

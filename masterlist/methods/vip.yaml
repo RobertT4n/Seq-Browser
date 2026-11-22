@@ -1,0 +1,23 @@
+name: VIP
+full_name: Virus Identification Pipeline
+category: dry
+summary: Pipeline for identifying and discovering viruses in metagenomic sequencing data through read classification, assembly
+  and phylogenetic analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep23774
+  year: 2016
+  journal: Sci Rep
+  first_author: Li Y
+  last_author: Ma X
+  pmid: '27026381'
+  pmcid: PMC4824449
+  title: 'VIP: an integrated pipeline for metagenomics of virus identification and discovery'
+links: {}
+added: '2026-11-21'
+evidence: VIP identifies and discovers viruses from metagenomic NGS data using classification, de novo assembly and phylogenetic
+  analysis.

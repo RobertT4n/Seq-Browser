@@ -1,0 +1,24 @@
+name: MIME
+full_name: mutational interference mapping experiment
+category: wet
+summary: Random mutagenesis and functional selection identify RNA sequence and structural features important for function.
+readouts:
+- functional-screen
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1038/nmeth.3490
+  year: 2015
+  journal: Nat Methods
+  first_author: Smyth RP
+  last_author: Marquet R
+  pmid: '26237229'
+  title: Mutational interference mapping experiment (MIME) for studying RNA structure and function
+links: {}
+added: '2026-11-21'
+evidence: MIME combines random mutagenesis of an RNA target, functional selection and sequencing to identify base-pairing
+  partners and recover binding parameters.

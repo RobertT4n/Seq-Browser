@@ -1,0 +1,22 @@
+name: IMPre
+full_name: Immune Germline Prediction
+category: dry
+summary: Predicts T-cell and B-cell receptor germline V and J genes and alleles from rearranged repertoire sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fimmu.2016.00457
+  year: 2016
+  journal: Front Immunol
+  first_author: Zhang W
+  last_author: Liu X
+  pmid: '27867380'
+  pmcid: PMC5095119
+  title: 'IMPre: An Accurate and Efficient Software for Prediction of T- and B-Cell Receptor Germline Genes and Alleles from
+    Rearranged Repertoire Data'
+links: {}
+added: '2026-11-21'
+evidence: IMPre predicts germline V and J genes and alleles using deep sequencing data from TCR and BCR repertoires.

@@ -1,0 +1,22 @@
+name: MICCA
+category: dry
+summary: Processes amplicon metagenomic datasets through quality filtering, OTU clustering, taxonomy assignment and phylogenetic
+  inference.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/srep09743
+  year: 2015
+  journal: Sci Rep
+  first_author: Albanese D
+  last_author: Donati C
+  pmid: '25988396'
+  pmcid: PMC4649890
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: MICCA combines quality filtering, OTU clustering, taxonomy assignment and phylogenetic tree inference for amplicon
+  metagenomic datasets.

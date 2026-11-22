@@ -1,0 +1,26 @@
+name: cSMART
+full_name: circulating single-molecule amplification and resequencing technology
+category: wet
+summary: Barcoding, circularization and targeted inverse PCR count plasma alleles to infer fetal genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1373/clinchem.2014.229328
+  year: 2015
+  journal: Clin Chem
+  first_author: Lv W
+  last_author: Wu L
+  pmid: '25376582'
+  title: Noninvasive prenatal testing for Wilson disease by use of circulating single-molecule amplification and resequencing
+    technology (cSMART)
+links: {}
+added: '2026-11-21'
+evidence: Single plasma molecules were uniquely barcoded and circularized before targeted inverse PCR and sequencing to count
+  alleles.

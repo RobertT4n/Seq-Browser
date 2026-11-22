@@ -1,0 +1,18 @@
+name: BALAUR
+category: dry
+summary: Privacy-preserving read mapper that uses encrypted k-mer voting to outsource genomic alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/046920
+  year: 2016
+  journal: bioRxiv
+  first_author: Popic V
+  last_author: Batzoglou S
+  title: Privacy-Preserving Read Mapping Using Locality Sensitive Hashing and Secure Kmer Voting
+links: {}
+added: '2026-11-21'
+evidence: BALAUR formulates read alignment as a voting scheme between encrypted read and reference k-mers.

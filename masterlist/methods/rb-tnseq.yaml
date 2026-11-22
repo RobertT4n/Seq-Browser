@@ -1,0 +1,28 @@
+name: RB-TnSeq
+full_name: random bar code transposon-site sequencing
+category: wet
+summary: Sequencing random transposon barcodes measures mutant fitness across bacterial libraries.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1128/mbio.00306-15
+  year: 2015
+  journal: mBio
+  first_author: Wetmore KM
+  last_author: Deutschbauer A
+  pmid: '25968644'
+  pmcid: PMC4436071
+  title: Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons
+links: {}
+added: '2026-11-21'
+evidence: RB-TnSeq incorporates random barcodes into transposons and uses barcode sequencing to assay mutant fitness in diverse
+  bacteria.

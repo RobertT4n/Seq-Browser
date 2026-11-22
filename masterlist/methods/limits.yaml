@@ -1,0 +1,22 @@
+name: LIMITS
+full_name: Learning Interactions from MIcrobial Time Series
+category: dry
+summary: Infers ecological interactions among microbes from metagenomic abundance time series using sparse regression.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0102451
+  year: 2014
+  journal: PLoS One
+  first_author: Fisher CK
+  last_author: Mehta P
+  pmid: '25054627'
+  pmcid: PMC4108331
+  title: Identifying keystone species in the human gut microbiome from metagenomic timeseries using sparse linear regression
+links: {}
+added: '2026-11-21'
+evidence: LIMITS uses sparse linear regression with bootstrap aggregation to infer a discrete-time Lotka-Volterra model of
+  microbial dynamics.

@@ -1,0 +1,22 @@
+name: GBSA
+full_name: Genome Bisulfite Sequencing Analyser
+category: dry
+summary: Analyzes whole-genome bisulfite sequencing data for quality assessment, methylation scoring and genomic visualization.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gks1281
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Benoukraf T
+  last_author: Soong R
+  pmid: '23268441'
+  pmcid: PMC3575794
+  title: 'GBSA: a comprehensive software for analysing whole genome bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: GBSA analyzes whole-genome bisulfite sequencing data with gene-centric or gene-independent focus and scores methylation.

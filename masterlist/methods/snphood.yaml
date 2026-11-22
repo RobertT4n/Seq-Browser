@@ -1,0 +1,22 @@
+name: SNPhood
+category: dry
+summary: R package for quantifying and visualizing chromatin marks and transcription factor binding around sets of SNPs.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btw127
+  year: 2016
+  journal: Bioinformatics
+  first_author: Arnold C
+  last_author: Zaugg JB
+  pmid: '27153574'
+  pmcid: PMC4965630
+  title: 'SNPhood: investigate, quantify and visualise the epigenomic neighbourhood of SNPs using NGS data'
+links: {}
+added: '2026-11-21'
+evidence: SNPhood investigates the local epigenetic neighborhood of SNPs in terms of chromatin marks or transcription factor
+  binding using NGS data.

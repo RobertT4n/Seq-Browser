@@ -1,0 +1,21 @@
+name: V-Phaser 2
+category: dry
+summary: Infers low-frequency phased variants and length polymorphisms in viral populations from deep sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-674
+  year: 2013
+  journal: BMC Genomics
+  first_author: Yang X
+  last_author: Zody MC
+  pmid: '24088188'
+  pmcid: PMC3907024
+  title: 'V-Phaser 2: variant inference for viral populations'
+links: {}
+added: '2026-11-21'
+evidence: V-Phaser 2 uses paired-end reads to call phased variants, infer length polymorphisms, and filter systematic sequencing
+  artifacts.

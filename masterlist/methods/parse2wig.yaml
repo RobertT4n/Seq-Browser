@@ -1,0 +1,21 @@
+name: parse2wig
+category: dry
+summary: Preprocesses ChIP-seq read-map files for downstream peak calling.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/gtc.12058
+  year: 2013
+  journal: Genes Cells
+  first_author: Nakato R
+  last_author: Shirahige K
+  pmid: '23672187'
+  pmcid: PMC3738949
+  title: 'DROMPA: easy-to-handle peak calling and visualization software for the computational analysis and validation of
+    ChIP-seq data'
+links: {}
+added: '2026-11-21'
+evidence: The ChIP-seq analysis protocol uses parse2wig to preprocess read-map files before DROMPA peak calling.

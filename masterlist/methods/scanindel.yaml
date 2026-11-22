@@ -1,0 +1,20 @@
+name: ScanIndel
+category: dry
+summary: Detects insertions and deletions using gapped alignment, split reads and de novo assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-015-0251-2
+  year: 2015
+  journal: Genome Med
+  first_author: Yang R
+  last_author: Silverstein KA
+  pmid: '26643039'
+  pmcid: PMC4671222
+  title: 'ScanIndel: a hybrid framework for indel detection via gapped alignment, split reads and de novo assembly'
+links: {}
+added: '2026-11-21'
+evidence: ScanIndel was evaluated on targeted tumor resequencing and whole-genome sequencing data.

@@ -1,0 +1,23 @@
+name: PopSizeABC
+category: dry
+summary: Estimates historical effective population size from genome-wide SNP summaries using approximate Bayesian computation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1005877
+  year: 2016
+  journal: PLoS Genet
+  first_author: Boitard S
+  last_author: Austerlitz F
+  pmid: '26943927'
+  pmcid: PMC4778914
+  title: Inferring Population Size History from Large Samples of Genome-Wide Molecular Data - An Approximate Bayesian Computation
+    Approach
+  preprint_doi: 10.1101/036178
+links: {}
+added: '2026-11-21'
+evidence: PopSizeABC estimates population size history using allele frequency spectra and linkage disequilibrium from unphased
+  SNP data.

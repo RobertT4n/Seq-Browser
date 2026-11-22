@@ -1,0 +1,27 @@
+name: E-ice-COLD-PCR
+full_name: Enhanced-ice-COLD-PCR
+category: wet
+summary: E-ice-COLD-PCR enriches KRAS mutant sequences using a wild-type blocker before pyrosequencing identifies the mutated
+  base.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1002/humu.22427
+  year: 2013
+  journal: Hum Mutat
+  first_author: How Kit A
+  last_author: Tost J
+  pmid: '24038839'
+  title: Sensitive detection of KRAS mutations using enhanced-ice-COLD-PCR mutation enrichment and direct sequence identification
+links: {}
+added: '2026-11-21'
+evidence: A chemically modified blocker enriched mutant KRAS sequences, followed by pyrosequencing of the amplification product.

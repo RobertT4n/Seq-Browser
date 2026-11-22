@@ -1,0 +1,26 @@
+name: ChlaMmeSeq
+full_name: Chlamydomonas MmeI-based insertion site Sequencing
+category: wet
+summary: ChlaMmeSeq maps mutagenic insertion sites at scale in Chlamydomonas.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+reference:
+  doi: 10.1105/tpc.114.124099
+  year: 2014
+  journal: Plant Cell
+  first_author: Zhang R
+  last_author: Jonikas MC
+  pmid: '24706510'
+  title: High-Throughput Genotyping of Green Algal Mutants Reveals Random Distribution of Mutagenic Insertion Sites and Endonucleolytic
+    Cleavage of Transforming DNA
+links: {}
+added: '2026-11-21'
+evidence: ChlaMmeSeq mapped 11,478 insertions in a mutant pool, covering 39% of annotated protein-coding genes.
+=== FILE: chlammes eq.yaml ===

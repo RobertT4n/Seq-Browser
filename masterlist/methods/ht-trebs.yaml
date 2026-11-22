@@ -1,0 +1,29 @@
+name: HT-TREBS
+full_name: High-Throughput Targeted Repeat Element Bisulfite Sequencing
+category: wet
+summary: HT-TREBS measures DNA methylation at individual loci belonging to targeted repeat families.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0101683
+  year: 2014
+  journal: PLoS One
+  first_author: Ekram MB
+  last_author: Kim J
+  pmid: '25003790'
+  pmcid: PMC4086960
+  title: 'High-throughput targeted repeat element bisulfite sequencing (HT-TREBS): genome-wide DNA methylation analysis of
+    IAP LTR retrotransposon'
+links: {}
+added: '2026-11-21'
+evidence: HT-TREBS generated CpG methylation data for 5,233 IAP LTR loci across mouse brain, liver and kidney samples.

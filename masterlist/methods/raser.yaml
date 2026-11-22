@@ -1,0 +1,22 @@
+name: RASER
+full_name: reads aligner for SNPs and editing sites of RNA
+category: dry
+summary: Aligns RNA-seq reads to improve identification of SNPs and RNA editing sites in similar genomic regions.
+readouts:
+- genome-sequence
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv505
+  year: 2015
+  journal: Bioinformatics
+  first_author: Ahn J
+  last_author: Xiao X
+  pmid: '26323713'
+  pmcid: PMC4692970
+  title: 'RASER: reads aligner for SNPs and editing sites of RNA'
+links: {}
+added: '2026-11-21'
+evidence: RASER uses mapping schemes and an index tree to reduce false-positive mappings and improve SNP and RNA editing identification.

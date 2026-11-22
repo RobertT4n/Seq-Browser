@@ -1,0 +1,21 @@
+name: seqenv
+category: dry
+summary: seqenv links sequences and taxa to previously observed environments by mining metadata from nucleotide database matches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.2690
+  year: 2016
+  journal: PeerJ
+  first_author: Sinclair L
+  last_author: Pafilis E
+  pmid: '28028456'
+  pmcid: PMC5178346
+  title: 'Seqenv: linking sequences to environments through text mining'
+links: {}
+added: '2026-11-21'
+evidence: seqenv searches short sequences against the NCBI nucleotide database and mines isolation-source metadata for Environmental
+  Ontology terms.

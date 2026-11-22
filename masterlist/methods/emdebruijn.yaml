@@ -1,0 +1,20 @@
+name: EMDeBruijn
+category: dry
+summary: Compares microbial communities without a reference by applying Earth Mover's Distance to sequencing-derived de Bruijn
+  graphs.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/055020
+  year: 2016
+  journal: bioRxiv
+  first_author: Mangul S
+  last_author: Koslicki D
+  title: Reference-free comparison of microbial communities via de Bruijn graphs
+links: {}
+added: '2026-11-21'
+evidence: EMDeBruijn condenses sequencing data into de Bruijn graphs and uses Earth Mover's Distance to compare microbial
+  communities.

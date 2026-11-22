@@ -1,0 +1,20 @@
+name: PROmiRNA
+category: dry
+summary: Annotates miRNA promoters using a semi-supervised model trained on deepCAGE data and sequence features.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2013-14-8-r84
+  year: 2013
+  journal: Genome Biol
+  first_author: Marsico A
+  last_author: Vingron M
+  pmid: '23958307'
+  pmcid: PMC4053815
+  title: 'PROmiRNA: a new miRNA promoter recognition method uncovers the complex regulation of intronic miRNAs'
+links: {}
+added: '2026-11-21'
+evidence: PROmiRNA uses deepCAGE data and sequence features to annotate miRNA promoters, including intronic promoters.

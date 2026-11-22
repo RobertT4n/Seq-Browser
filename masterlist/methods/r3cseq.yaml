@@ -1,0 +1,21 @@
+name: r3Cseq
+category: dry
+summary: Normalizes, visualizes and detects significant chromatin interactions in viewpoint-based 3C-seq data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkt373
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Thongjuea S
+  last_author: Lenhard B
+  pmid: '23671339'
+  pmcid: PMC3711450
+  title: 'r3Cseq: an R/Bioconductor package for the discovery of long-range genomic interactions from chromosome conformation
+    capture and next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: r3Cseq analyzes 3C-seq data from a chosen genomic viewpoint and detects statistically significant chromatin interactions.

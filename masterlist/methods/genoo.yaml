@@ -1,0 +1,20 @@
+name: GenOO
+category: dry
+summary: Provides an object-oriented Perl framework for building high-throughput sequencing analysis tools and pipelines.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/019265
+  year: 2015
+  journal: bioRxiv
+  first_author: Maragkakis M
+  last_author: Mourelatos Z
+  title: 'GenOO: A Modern Perl Framework for High Throughput Sequencing analysis'
+links: {}
+added: '2026-11-21'
+evidence: GenOO models biological entities such as genes and transcripts as Perl objects and supports construction of sequencing
+  analysis pipelines.

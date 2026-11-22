@@ -1,0 +1,20 @@
+name: NeatFreq
+category: dry
+summary: Reduces sequencing datasets to more uniform coverage by selecting reads based on k-mer frequency and uniqueness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-014-0357-3
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: McCorrison JM
+  last_author: Methé BA
+  pmid: '25407910'
+  pmcid: PMC4245761
+  title: 'NeatFreq: reference-free data reduction and coverage normalization for De Novo sequence assembly'
+links: {}
+added: '2026-11-21'
+evidence: NeatFreq clusters and selects reads by median k-mer frequency and uniqueness to produce more uniform coverage.

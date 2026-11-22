@@ -1,0 +1,20 @@
+name: DGW
+category: dry
+summary: DGW aligns and clusters genomic regions by the shapes of their epigenomic mark profiles using dynamic time warping.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1306-0
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Lukauskas S
+  last_author: Schweikert GB
+  pmid: '28105912'
+  pmcid: PMC5249015
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+links: {}
+added: '2026-11-21'
+evidence: DGW simultaneously aligns and clusters multiple epigenomic marks and recognizes genomic features from histone marks.

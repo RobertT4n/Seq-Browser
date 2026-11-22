@@ -1,0 +1,21 @@
+name: INSPIIRED
+full_name: integration site pipeline for paired-end reads
+category: dry
+summary: INSPIIRED analyzes and quantifies distributions of new DNA integration sites in cellular genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.omtm.2016.11.002
+  year: 2017
+  journal: Mol Ther Methods Clin Dev
+  first_author: Sherman E
+  last_author: Bushman FD
+  pmid: '28344990'
+  pmcid: PMC5363316
+  title: 'INSPIIRED: A Pipeline for Quantitative Analysis of Sites of New DNA Integration in Cellular Genomes'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline aligns and manages integration site sequences and quantifies integration sites in repeated sequences.

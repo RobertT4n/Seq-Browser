@@ -1,0 +1,20 @@
+name: SomVarIUS
+category: dry
+summary: Detects somatic variants from sequencing data when matched normal tissue is unavailable.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btv685
+  year: 2016
+  journal: Bioinformatics
+  first_author: Smith KS
+  last_author: De S
+  pmid: '26589277'
+  title: 'SomVarIUS: somatic variant identification from unpaired tissue samples'
+links: {}
+added: '2026-11-21'
+evidence: SomVarIUS was evaluated on exome sequencing and used to track oncogenic mutations in targeted leukemia sequencing
+  data.

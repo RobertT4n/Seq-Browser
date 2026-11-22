@@ -1,0 +1,26 @@
+name: methylation-assisted bisulfite sequencing
+category: wet
+summary: Bisulfite sequencing maps and quantifies 5-formylcytosine and 5-carboxylcytosine genome-wide at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5fc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.celrep.2015.01.008
+  year: 2015
+  journal: Cell Rep
+  first_author: Neri F
+  last_author: Oliviero S
+  pmid: '25660018'
+  title: Single-Base Resolution Analysis of 5-Formyl and 5-Carboxyl Cytosine Reveals Promoter DNA Methylation Dynamics
+links: {}
+added: '2026-11-21'
+evidence: MAB-seq mapped 5fC and 5caC at single-base resolution in mouse embryonic stem cells.

@@ -1,0 +1,20 @@
+name: BreaKmer
+category: dry
+summary: Detects structural variants by assembling misaligned reads from targeted sequencing data using k-mers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gku1211
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Abo RP
+  last_author: MacConaill LE
+  pmid: '25428359'
+  pmcid: PMC4330340
+  title: 'BreaKmer: detection of structural variation in targeted massively parallel sequencing data using kmers'
+links: {}
+added: '2026-11-21'
+evidence: BreaKmer assembles misaligned reads to predict insertions, deletions, inversions, tandem duplications and translocations.

@@ -1,0 +1,20 @@
+name: P3BSseq
+category: dry
+summary: Processes bisulfite sequencing reads through trimming, alignment, quality assessment and methylome generation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw633
+  year: 2017
+  journal: Bioinformatics
+  first_author: Luu PL
+  last_author: Araúzo-Bravo MJ
+  pmid: '28172520'
+  title: 'P3BSseq: parallel processing pipeline software for automatic analysis of bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: P3BSseq analyzes whole-genome and reduced-representation bisulfite sequencing reads and generates methylome files.

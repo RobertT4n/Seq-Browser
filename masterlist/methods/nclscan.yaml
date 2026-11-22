@@ -1,0 +1,21 @@
+name: NCLscan
+category: dry
+summary: Identifies and distinguishes fusion, trans-spliced and circular transcripts from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv1013
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Chuang TJ
+  last_author: Yang MY
+  pmid: '26442529'
+  pmcid: PMC4756807
+  title: 'NCLscan: accurate identification of non-co-linear transcripts (fusion, trans-splicing and circular RNA) with a good
+    balance between sensitivity and precision'
+links: {}
+added: '2026-11-21'
+evidence: NCLscan uses stepwise alignment to detect non-co-linear transcripts and distinguish their types.

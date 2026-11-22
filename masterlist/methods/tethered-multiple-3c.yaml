@@ -1,0 +1,28 @@
+name: tethered multiple 3C
+category: wet
+summary: Restriction digestion and religation on agarose beads map genome-wide contacts among two or more chromatin loci.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1186/s12864-015-1236-7
+  year: 2015
+  journal: BMC Genomics
+  first_author: Ay F
+  last_author: Noble WS
+  pmid: '25887659'
+  pmcid: PMC4369351
+  title: Identifying multi-locus chromatin contacts in human cells using tethered multiple 3C
+links: {}
+added: '2026-11-21'
+evidence: TM3C maps genome-wide contacts using restriction digestion, religation on agarose beads and paired-end sequencing.

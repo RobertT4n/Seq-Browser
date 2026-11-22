@@ -1,0 +1,21 @@
+name: FrameBot
+category: dry
+summary: Corrects sequencing-induced frameshifts and classifies sequences against nearest reference proteins.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/mbio.00592-13
+  year: 2013
+  journal: mBio
+  first_author: Wang Q
+  last_author: Cole JR
+  pmid: '24045641'
+  pmcid: PMC3781835
+  title: Ecological patterns of nifH genes in four terrestrial climatic zones explored with targeted metagenomics using FrameBot,
+    a new informatics tool
+links: {}
+added: '2026-11-21'
+evidence: FrameBot performs frameshift correction and nearest-neighbor classification on targeted nifH amplicon sequences.

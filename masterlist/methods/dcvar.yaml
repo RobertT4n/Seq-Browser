@@ -1,0 +1,22 @@
+name: dcVar
+category: dry
+summary: Identifies variants associated with changes in transcript co-expression from expression and genotype data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2015.00312
+  year: 2015
+  journal: Front Genet
+  first_author: Lareau CA
+  last_author: McKinney BA
+  pmid: '26539209'
+  pmcid: PMC4609883
+  title: 'dcVar: a method for identifying common variants that modulate differential correlation structures in gene expression
+    data'
+links: {}
+added: '2026-11-21'
+evidence: dcVar identifies transcript pairs whose correlation structure differs according to variant genotypes.

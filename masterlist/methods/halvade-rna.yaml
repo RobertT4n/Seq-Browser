@@ -1,0 +1,20 @@
+name: Halvade-RNA
+category: dry
+summary: Parallelizes variant calling from RNA-seq data across multiple computing nodes using MapReduce.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0174575
+  year: 2017
+  journal: PLoS One
+  first_author: Decap D
+  last_author: Fostier J
+  pmid: '28358893'
+  pmcid: PMC5373595
+  title: 'Halvade-RNA: Parallel variant calling from transcriptomic data using MapReduce'
+links: {}
+added: '2026-11-21'
+evidence: Halvade-RNA is a parallel multi-node RNA-seq variant-calling pipeline based on GATK Best Practices.

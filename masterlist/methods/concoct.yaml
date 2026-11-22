@@ -1,0 +1,19 @@
+name: CONCOCT
+category: dry
+summary: Clusters metagenomic contigs into genomes using sequence composition and coverage across samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3103
+  year: 2014
+  journal: Nat Methods
+  first_author: Alneberg J
+  last_author: Quince C
+  pmid: '25218180'
+  title: Binning metagenomic contigs by coverage and composition
+links: {}
+added: '2026-11-21'
+evidence: CONCOCT combines sequence composition and coverage across multiple samples to cluster contigs into genomes.

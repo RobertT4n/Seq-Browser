@@ -1,0 +1,22 @@
+name: BayMeth
+category: dry
+summary: Estimates regional DNA methylation levels from affinity-capture sequencing counts using an empirical Bayes model
+  and a fully methylated control.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2014-15-2-r35
+  year: 2014
+  journal: Genome Biol
+  first_author: Riebler A
+  last_author: Robinson MD
+  pmid: '24517713'
+  pmcid: PMC4053803
+  title: 'BayMeth: improved DNA methylation quantification for affinity capture sequencing data using a flexible Bayesian
+    approach'
+links: {}
+added: '2026-11-21'
+evidence: BayMeth uses a fully methylated control to transform affinity-capture read counts into regional methylation levels.

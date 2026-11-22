@@ -1,0 +1,27 @@
+name: RASQUAL
+full_name: Robust Allele Specific QUAntitation and quality controL
+category: dry
+summary: Maps cellular quantitative trait loci by jointly modeling genetic effects and sequencing biases using population
+  and allele-specific signals.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ng.3467
+  year: 2016
+  journal: Nat Genet
+  first_author: Kumasaka N
+  last_author: Gaffney DJ
+  pmid: '26656845'
+  pmcid: PMC5098600
+  title: Fine-mapping cellular QTLs with RASQUAL and ATAC-seq
+  preprint_doi: 10.1101/018788
+links: {}
+added: '2026-11-21'
+evidence: RASQUAL improves association detection in RNA-seq, DNaseI-seq, and ChIP-seq and was used to map chromatin accessibility
+  QTLs with ATAC-seq.

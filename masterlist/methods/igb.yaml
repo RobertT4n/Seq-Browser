@@ -1,0 +1,25 @@
+name: IGB
+full_name: Integrated Genome Browser
+category: dry
+summary: Interactive genome browser for visualizing and analyzing genome-scale datasets alongside reference annotations.
+readouts:
+- rna
+- histone-modification
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw069
+  year: 2016
+  journal: Bioinformatics
+  first_author: Freese NH
+  last_author: Loraine AE
+  pmid: '27153568'
+  pmcid: PMC4937187
+  title: 'Integrated genome browser: visual analytics platform for genomics'
+links: {}
+added: '2026-11-21'
+evidence: The paper describes IGB visualizations and analyses of RNA-seq, ChIP-seq and bisulfite sequencing datasets.

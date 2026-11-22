@@ -1,0 +1,32 @@
+name: CARD-SGS
+full_name: cell-associated HIV RNA and DNA single-genome sequencing
+category: wet
+summary: Single-cell sequencing measures HIV RNA expression and proviral sequences in infected blood cells.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+- microbe
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1073/pnas.1617961114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wiegand A
+  last_author: Kearney MF
+  pmid: '28416661'
+  pmcid: PMC5422779
+  title: Single-cell analysis of HIV-1 transcriptional activity reveals expression of proviruses in expanded clones during
+    ART
+links: {}
+added: '2026-11-21'
+evidence: CARD-SGS measured HIV RNA expression in single infected cells from blood samples and detected a single cell expressing
+  HIV RNA.

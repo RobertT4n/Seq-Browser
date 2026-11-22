@@ -1,0 +1,24 @@
+name: BisQC
+category: wet
+summary: BisQC provides a multiplexed bisulfite sequencing library preparation and quality-control pipeline for DNA methylation
+  analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1186/1471-2164-15-290
+  year: 2014
+  journal: BMC Genomics
+  first_author: Chen GG
+  last_author: Ernst C
+  pmid: '24734894'
+  pmcid: PMC4234473
+  title: 'BisQC: an operational pipeline for multiplexed bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: BisQC describes bisulfite-converted DNA library construction, pooling, spike-in content and bioinformatics.

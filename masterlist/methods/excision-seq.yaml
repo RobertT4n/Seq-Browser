@@ -1,0 +1,24 @@
+name: Excision-seq
+category: wet
+summary: Excision-seq combines nucleobase excision with sequencing to map modified DNA bases and UV-induced lesions.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+species:
+- microbe
+reference:
+  doi: 10.1101/gr.174052.114
+  year: 2014
+  journal: Genome Res
+  first_author: Bryan DS
+  last_author: Hesselberth JR
+  pmid: '25015380'
+  pmcid: PMC4158761
+  title: High resolution mapping of modified DNA nucleobases using excision repair enzymes
+links: {}
+added: '2026-11-21'
+evidence: Excision-seq mapped uracil in E. coli and budding yeast and identified UV-induced pyrimidine dimers.

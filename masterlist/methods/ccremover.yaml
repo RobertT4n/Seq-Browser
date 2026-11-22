@@ -1,0 +1,20 @@
+name: ccRemover
+category: dry
+summary: Identifies and removes cell-cycle effects from single-cell RNA-seq data while preserving other biological signals.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/srep33892
+  year: 2016
+  journal: Sci Rep
+  first_author: Barron M
+  last_author: Li J
+  pmid: '27670849'
+  pmcid: PMC5037372
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+links: {}
+added: '2026-11-21'
+evidence: ccRemover removes the cell-cycle effect as a preprocessing step for single-cell RNA-seq analysis.

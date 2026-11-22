@@ -1,0 +1,20 @@
+name: HECTOR
+category: dry
+summary: Corrects homopolymer-length errors in 454 sequencing reads using a multistage homopolymer spectrum approach.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-131
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Wirawan A
+  last_author: Schröder J
+  pmid: '24885381'
+  pmcid: PMC4023493
+  title: 'HECTOR: a parallel multistage homopolymer spectrum based error corrector for 454 sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HECTOR uses a homopolymer spectrum to address insertions and deletions in 454 pyrosequencing reads.

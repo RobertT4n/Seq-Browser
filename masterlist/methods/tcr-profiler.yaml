@@ -1,0 +1,22 @@
+name: TCR profiler
+category: dry
+summary: Analyzes T-cell receptor sequencing data and integrates CDR3 features into a repertoire complexity score.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3324/haematol.2012.069708
+  year: 2013
+  journal: Haematologica
+  first_author: Krell PF
+  last_author: Borkhardt A
+  pmid: '23716544'
+  pmcid: PMC3762095
+  title: Next-generation-sequencing-spectratyping reveals public T-cell receptor repertoires in pediatric very severe aplastic
+    anemia and identifies a β chain CDR3 sequence associated with hepatitis-induced pathogenesis
+links: {}
+added: '2026-11-21'
+evidence: TCR profiler automates analysis of receptor gene usage, CDR3 length, amino acid sequence and diversity, integrating
+  them into a complexity score.

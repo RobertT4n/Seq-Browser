@@ -1,0 +1,21 @@
+name: LaSSO
+full_name: Lariat Sequence Site Origin
+category: dry
+summary: Maps intronic lariats and splicing branch points genome-wide from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.166819.113
+  year: 2014
+  journal: Genome Res
+  first_author: Bitton DA
+  last_author: Bähler J
+  pmid: '24709818'
+  pmcid: PMC4079972
+  title: LaSSO, a strategy for genome-wide mapping of intronic lariats and branch points using RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: LaSSO uses RNA-seq data to identify canonical and exon-skipping branch points on a genomic scale.

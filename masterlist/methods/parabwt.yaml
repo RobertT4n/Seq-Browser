@@ -1,0 +1,19 @@
+name: ParaBWT
+category: dry
+summary: Parallel algorithm that constructs Burrows-Wheeler transforms and suffix arrays for large genome sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2015.2430314
+  year: 2016
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Liu Y
+  last_author: Schmidt B
+  pmid: '27295644'
+  title: Parallel and Space-Efficient Construction of Burrows-Wheeler Transform and Suffix Array for Big Genome Data
+links: {}
+added: '2026-11-21'
+evidence: ParaBWT parallelizes construction of the Burrows-Wheeler transform and then constructs a suffix array.

@@ -1,0 +1,25 @@
+name: SORTCERY
+category: wet
+summary: Sorting and sequencing a yeast-displayed peptide library ranks peptides by affinity for a target interaction partner.
+readouts:
+- protein-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1016/j.jmb.2014.09.025
+  year: 2015
+  journal: J Mol Biol
+  first_author: Reich LL
+  last_author: Keating AE
+  pmid: '25311858'
+  pmcid: PMC4394037
+  title: SORTCERY-A High-Throughput Method to Affinity Rank Peptide Ligands
+links: {}
+added: '2026-11-21'
+evidence: SORTCERY ranked 1,026 yeast-displayed BH3 peptides by affinity for Bcl-xL using sorting, sequencing and computational
+  analysis.

@@ -1,0 +1,22 @@
+name: Junction Usage Model
+category: dry
+summary: Identifies and quantifies global alternative splicing patterns from RNA-seq without prior transcript annotations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.1806018115
+  year: 2018
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wang Q
+  last_author: Rio DC
+  pmid: '30104386'
+  pmcid: PMC6126775
+  title: JUM is a computational method for comprehensive annotation-free analysis of alternative pre-mRNA splicing patterns
+  preprint_doi: 10.1101/116863
+links: {}
+added: '2026-11-21'
+evidence: JUM uses a bottom-up approach to identify, analyze and quantify global alternative splicing profiles without prior
+  transcriptome annotations.

@@ -1,0 +1,27 @@
+name: Persister-FACSeq
+category: wet
+summary: Combines cell sorting, antibiotic tolerance assays and sequencing of reporter libraries to study bacterial persister
+  physiology.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1038/srep25100
+  year: 2016
+  journal: Sci Rep
+  first_author: Henry TC
+  last_author: Brynildsen MP
+  pmid: '27142337'
+  pmcid: PMC4855238
+  title: 'Development of Persister-FACSeq: a method to massively parallelize quantification of persister physiology and its
+    heterogeneity'
+links: {}
+added: '2026-11-21'
+evidence: Persister-FACSeq was applied to a reporter library to study gene expression distributions in non-growing E. coli
+  and their relationship to antibiotic persistence.

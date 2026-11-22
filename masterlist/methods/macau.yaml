@@ -1,0 +1,25 @@
+name: MACAU
+full_name: Mixed model association for count data via data augmentation
+category: dry
+summary: Tests for differential DNA methylation in bisulfite sequencing data using a binomial mixed model that accounts for
+  genetic relatedness.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1005650
+  year: 2015
+  journal: PLoS Genet
+  first_author: Lea AJ
+  last_author: Zhou X
+  pmid: '26599596'
+  pmcid: PMC4657956
+  title: A Flexible, Efficient Binomial Mixed Model for Identifying Differential DNA Methylation in Bisulfite Sequencing Data
+  preprint_doi: 10.1101/019562
+links: {}
+added: '2026-11-21'
+evidence: MACAU models overdispersed bisulfite sequencing counts and genetic relatedness to detect differentially methylated
+  sites.

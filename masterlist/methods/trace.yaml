@@ -1,0 +1,29 @@
+name: TRACE
+full_name: tracking combinatorial engineered libraries
+category: wet
+summary: Sequencing constructs assembled from distal genomic sites tracks combinatorial mutations at single-cell resolution.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- microbe
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/nbt.3177
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Zeitoun RI
+  last_author: Gill RT
+  pmid: '25798935'
+  title: Multiplexed tracking of combinatorial genomic mutations in engineered cell populations
+links: {}
+added: '2026-11-21'
+evidence: TRACE mapped combinatorially engineered genomes at single-cell resolution in E. coli libraries and a human ovarian
+  carcinoma cell line.

@@ -1,0 +1,21 @@
+name: CASTIN
+full_name: CAncer-STromal INteractome analysis
+category: dry
+summary: Evaluates cancer-stromal ligand-receptor interactions using RNA-seq expression profiles from cancer xenograft models.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-3207-z
+  year: 2016
+  journal: BMC Genomics
+  first_author: Komura D
+  last_author: Ishikawa S
+  pmid: '27829362'
+  pmcid: PMC5103609
+  title: 'CASTIN: a system for comprehensive analysis of cancer-stromal interactome'
+links: {}
+added: '2026-11-21'
+evidence: CASTIN summarizes cancer and stromal gene expression into indices for curated ligand-receptor interactions.

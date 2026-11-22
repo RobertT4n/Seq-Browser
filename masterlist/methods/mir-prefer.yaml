@@ -1,0 +1,20 @@
+name: miR-PREFeR
+full_name: miRNA PREdiction From small RNA-Seq data
+category: dry
+summary: Predicts plant microRNAs from small RNA-seq expression patterns using plant microRNA annotation criteria.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu380
+  year: 2014
+  journal: Bioinformatics
+  first_author: Lei J
+  last_author: Sun Y
+  pmid: '24930140'
+  title: 'miR-PREFeR: an accurate, fast and easy-to-use plant miRNA prediction tool using small RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: miR-PREFeR uses expression patterns from one or more small RNA-seq samples to predict plant microRNAs.

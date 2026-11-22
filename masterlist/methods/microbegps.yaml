@@ -1,0 +1,21 @@
+name: MicrobeGPS
+category: dry
+summary: Profiles microbial communities and estimates the genomic distance of detected organisms from reference genomes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0117711
+  year: 2015
+  journal: PLoS One
+  first_author: Lindner MS
+  last_author: Renard BY
+  pmid: '25643362'
+  pmcid: PMC4314203
+  title: Metagenomic profiling of known and unknown microbes with microbeGPS
+links: {}
+added: '2026-11-21'
+evidence: MicrobeGPS identifies microbiota and estimates their genomic distances to known reference genomes, highlighting
+  potentially inaccurate identifications.

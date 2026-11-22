@@ -1,0 +1,23 @@
+name: RiboMeth-seq
+category: wet
+summary: Sequencing maps ribose methylation and a subset of other RNA modifications in ribosomes.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1002/anie.201408362
+  year: 2015
+  journal: Angew Chem Int Ed Engl
+  first_author: Birkedal U
+  last_author: Nielsen H
+  pmid: '25417815'
+  title: Profiling of ribose methylations in RNA by high-throughput sequencing
+links: {}
+added: '2026-11-21'
+evidence: RiboMeth-seq detected known and new ribose modifications in yeast ribosomes, including partially modified sites.

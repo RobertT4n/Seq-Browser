@@ -1,0 +1,29 @@
+name: RNAscope
+category: wet
+summary: RNAscope uses automated quantitative in situ hybridization to measure RNA in individual cells.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.jmoldx.2012.10.003
+  year: 2013
+  journal: J Mol Diagn
+  first_author: Wang Z
+  last_author: Tubbs RR
+  pmid: '23305906'
+  title: Automated quantitative RNA in situ hybridization for resolution of equivocal and heterogeneous ERBB2 (HER2) status
+    in invasive breast carcinoma
+links: {}
+added: '2026-11-21'
+evidence: The automated bright-field in situ hybridization assay quantified single-cell HER2 mRNA levels in 132 invasive breast
+  carcinomas.

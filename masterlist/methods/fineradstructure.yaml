@@ -1,0 +1,22 @@
+name: fineRADstructure
+category: dry
+summary: Infers population structure from RADseq data using coancestry estimates and clustering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msy023
+  year: 2018
+  journal: Mol Biol Evol
+  first_author: Malinsky M
+  last_author: Falush D
+  pmid: '29474601'
+  pmcid: PMC5913677
+  title: 'RADpainter and fineRADstructure: Population Inference from RADseq Data'
+  preprint_doi: 10.1101/057711
+links: {}
+added: '2026-11-21'
+evidence: fineRADstructure combines RADpainter's coancestry matrix with a previously published MCMC clustering algorithm for
+  population inference.

@@ -1,0 +1,20 @@
+name: riboFrame
+category: dry
+summary: Profiles microbial taxa in shotgun metagenomes by identifying and classifying 16S rDNA reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2015.00329
+  year: 2015
+  journal: Front Genet
+  first_author: Ramazzotti M
+  last_author: Cavalieri D
+  pmid: '26635865'
+  pmcid: PMC4646959
+  title: 'riboFrame: An Improved Method for Microbial Taxonomy Profiling from Non-Targeted Metagenomics'
+links: {}
+added: '2026-11-21'
+evidence: riboFrame identifies 16S rDNA reads with hidden Markov models and assigns taxonomy using naive Bayesian classification.

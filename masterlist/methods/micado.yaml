@@ -1,0 +1,25 @@
+name: MICADo
+category: dry
+summary: MICADo uses a de Bruijn graph and cohort context to distinguish patient-specific mutations in targeted sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.3389/fgene.2016.00214
+  year: 2016
+  journal: Front Genet
+  first_author: Rudewicz J
+  last_author: Nikolski M
+  pmid: '28008336'
+  pmcid: PMC5143680
+  title: 'MICADo - Looking for Mutations in Targeted PacBio Cancer Data: An Alignment-Free Method'
+links: {}
+added: '2026-11-21'
+evidence: MICADo distinguishes patient-specific mutations from other alterations in targeted sequencing and was validated
+  on PacBio datasets.

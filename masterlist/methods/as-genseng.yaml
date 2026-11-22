@@ -1,0 +1,21 @@
+name: AS-GENSENG
+category: dry
+summary: Detects copy-number variants and estimates allele-specific copy number from whole-genome or whole-exome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv319
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Wang W
+  last_author: Szatkiewicz JP
+  pmid: '25883151'
+  pmcid: PMC4538801
+  title: Allele-specific copy-number discovery from whole-genome and whole-exome sequencing
+links: {}
+added: '2026-11-21'
+evidence: AS-GENSENG uses total and allele-specific read counts to call copy-number variants and estimate allele-specific
+  copy number.

@@ -1,0 +1,19 @@
+name: FastMotif
+category: dry
+summary: Discovers sequence motifs in large sequencing datasets using a spectral method of moments.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btv208
+  year: 2015
+  journal: Bioinformatics
+  first_author: Colombo N
+  last_author: Vlassis N
+  pmid: '25886979'
+  title: 'FastMotif: spectral sequence motif discovery'
+links: {}
+added: '2026-11-21'
+evidence: FastMotif extracts motif profiles from HT-SELEX data using spectral decompositions.

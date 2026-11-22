@@ -1,0 +1,23 @@
+name: ALTRE
+full_name: ALTered Regulatory Elements
+category: dry
+summary: Performs genome-wide differential analysis of regulatory elements using chromatin accessibility data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw688
+  year: 2017
+  journal: Bioinformatics
+  first_author: Baskin E
+  last_author: Mathé EA
+  pmid: '28011773'
+  pmcid: PMC5408819
+  title: 'ALTRE: workflow for defining ALTered Regulatory Elements using chromatin accessibility data'
+  preprint_doi: 10.1101/080564
+links: {}
+added: '2026-11-21'
+evidence: ALTRE is an R package and Shiny app for differential analysis of regulatory elements using data such as DNase-seq
+  and ATAC-seq.

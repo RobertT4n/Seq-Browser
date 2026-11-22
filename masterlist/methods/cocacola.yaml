@@ -1,0 +1,22 @@
+name: COCACOLA
+category: dry
+summary: Bins metagenomic contigs into operational taxonomic units using sequence composition, coverage and optional supporting
+  information.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw290
+  year: 2017
+  journal: Bioinformatics
+  first_author: Lu YY
+  last_author: Sun F
+  pmid: '27256312'
+  title: 'COCACOLA: binning metagenomic contigs using sequence COmposition, read CoverAge, CO-alignment and paired-end read
+    LinkAge'
+links: {}
+added: '2026-11-21'
+evidence: COCACOLA automatically bins contigs into operational taxonomic units based on sequence composition and coverage
+  across samples.

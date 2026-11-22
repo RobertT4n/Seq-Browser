@@ -1,0 +1,20 @@
+name: BamHash
+category: dry
+summary: Uses checksums to verify that read pairs in FASTQ files match those stored in BAM files regardless of read order.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv539
+  year: 2016
+  journal: Bioinformatics
+  first_author: Óskarsdóttir A
+  last_author: Melsted P
+  pmid: '26363028'
+  title: 'BamHash: a checksum program for verifying the integrity of sequence data'
+  preprint_doi: 10.1101/015867
+links: {}
+added: '2026-11-21'
+evidence: BamHash checks whether read pairs in FASTQ files match those in BAM files and detects discrepancies.

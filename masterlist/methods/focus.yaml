@@ -1,0 +1,20 @@
+name: FOCUS
+category: dry
+summary: Identifies organisms and estimates their abundances in metagenomic samples using a composition-based model.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.425
+  year: 2014
+  journal: PeerJ
+  first_author: Silva GG
+  last_author: Edwards RA
+  pmid: '24949242'
+  pmcid: PMC4060023
+  title: 'FOCUS: an alignment-free model to identify organisms in metagenomes using non-negative least squares'
+links: {}
+added: '2026-11-21'
+evidence: FOCUS uses non-negative least squares to report organisms and profile their abundances in metagenomic samples.

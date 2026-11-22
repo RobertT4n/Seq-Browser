@@ -1,0 +1,24 @@
+name: CapSeq
+category: wet
+summary: CapSeq uses enzymatic 5'-anchored RNA profiling to identify candidate transcription start sites.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- invertebrate
+reference:
+  doi: 10.1016/j.cell.2012.11.023
+  year: 2012
+  journal: Cell
+  first_author: Gu W
+  last_author: Mello CC
+  pmid: '23260138'
+  pmcid: PMC3581324
+  title: CapSeq and CIP-TAP identify Pol II start sites and reveal capped small RNAs as C. elegans piRNA precursors
+links: {}
+added: '2026-11-21'
+evidence: CapSeq identified candidate transcription start sites for more than half of annotated Pol II loci in C. elegans.

@@ -1,0 +1,20 @@
+name: SeqCNV
+category: dry
+summary: Calls copy number variants from targeted capture sequencing using read depth and penalized likelihood estimation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-017-1566-3
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Chen Y
+  last_author: Chen R
+  pmid: '28253855'
+  pmcid: PMC5335817
+  title: 'SeqCNV: a novel method for identification of copy number variations in targeted next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SeqCNV uses read depth and a maximum penalized likelihood model to identify copy number ratios and variant boundaries.

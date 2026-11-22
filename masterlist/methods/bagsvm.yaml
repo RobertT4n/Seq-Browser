@@ -1,0 +1,20 @@
+name: bagSVM
+full_name: bagging support vector machines
+category: dry
+summary: Classifies RNA-seq expression data using an ensemble of support vector machines combined by majority vote.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/007526
+  year: 2014
+  journal: bioRxiv
+  first_author: Zararsiz G
+  last_author: Unver T
+  title: Classification of RNA-Seq Data via Bagging Support Vector Machines
+links: {}
+added: '2026-11-21'
+evidence: bagSVM trains separate support vector machines on bootstrap samples and combines their classifications by majority
+  voting.

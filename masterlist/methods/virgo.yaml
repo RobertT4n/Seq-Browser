@@ -1,0 +1,20 @@
+name: VIRGO
+category: dry
+summary: Maps genomic and expressed sequence mismatches as candidate A-to-I RNA editing sites and displays supporting data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s7-s5
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Distefano R
+  last_author: Ferro A
+  pmid: '23815474'
+  pmcid: PMC3837470
+  title: 'VIRGO: visualization of A-to-I RNA editing sites in genomic sequences'
+links: {}
+added: '2026-11-21'
+evidence: VIRGO maps A-to-G mismatches between genomic and EST sequences as candidate A-to-I editing sites.

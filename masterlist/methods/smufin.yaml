@@ -1,0 +1,20 @@
+name: SMUFIN
+full_name: somatic mutation finder
+category: dry
+summary: Compares tumor and normal sequencing reads directly to identify somatic variants from SNVs to large structural variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.3027
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Moncunill V
+  last_author: Torrents D
+  pmid: '25344728'
+  title: Comprehensive characterization of complex structural variations in cancer by directly comparing genome sequence reads
+links: {}
+added: '2026-11-21'
+evidence: SMUFIN directly compares sequence reads from normal and tumor genomes to characterize somatic sequence variation.

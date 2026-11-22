@@ -1,0 +1,21 @@
+name: InteMAP
+full_name: Integrated metagenomic assembly pipeline
+category: dry
+summary: Integrates three de novo assemblers to assemble metagenomic short reads with uneven sequencing coverage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0686-x
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Lai B
+  last_author: Zhu H
+  pmid: '26250558'
+  pmcid: PMC4545859
+  title: 'InteMAP: Integrated metagenomic assembly pipeline for NGS short reads'
+links: {}
+added: '2026-11-21'
+evidence: InteMAP selects assembling approaches using per-read coverage estimates and integrates ABySS, IDBA-UD and CABOG.

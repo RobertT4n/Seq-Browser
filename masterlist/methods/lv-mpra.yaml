@@ -1,0 +1,31 @@
+name: LV-MPRA
+category: wet
+summary: A lentiviral massively parallel reporter assay measures the activity of genome-integrated regulatory sequences in
+  mammalian cells.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1093/nar/gkw942
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Maricque BB
+  last_author: Cohen BA
+  pmid: '28204611'
+  pmcid: PMC5389540
+  title: A genome-integrated massively parallel reporter assay reveals DNA sequence determinants of cis-regulatory activity
+    in neural cells
+links: {}
+added: '2026-11-21'
+evidence: LV-MPRA measured the activity of 2,600 sequences in U87 glioblastoma cells and human neural progenitor cells.

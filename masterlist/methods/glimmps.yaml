@@ -1,0 +1,22 @@
+name: GLiMMPS
+category: dry
+summary: Detects splicing quantitative trait loci from RNA-seq data while accounting for coverage variation and noise.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2013-14-7-r74
+  year: 2013
+  journal: Genome Biol
+  first_author: Zhao K
+  last_author: Xing Y
+  pmid: '23876401'
+  pmcid: PMC4054007
+  title: 'GLiMMPS: robust statistical model for regulatory variation of alternative splicing using RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: GLiMMPS detects splicing quantitative trait loci while accounting for individual variation in sequencing coverage
+  and RNA-seq noise.

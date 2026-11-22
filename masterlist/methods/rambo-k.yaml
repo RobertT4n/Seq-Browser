@@ -1,0 +1,21 @@
+name: RAMBO-K
+full_name: Read Assignment Method Based On K-mers
+category: dry
+summary: Separates sequencing reads from different species to remove unwanted host sequences from mixed datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0137896
+  year: 2015
+  journal: PLoS One
+  first_author: Tausch SH
+  last_author: Dabrowski PW
+  pmid: '26379285'
+  pmcid: PMC4574938
+  title: 'RAMBO-K: Rapid and Sensitive Removal of Background Sequences from Next Generation Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: RAMBO-K removes unwanted host sequences and separates reads from different species without data preprocessing.

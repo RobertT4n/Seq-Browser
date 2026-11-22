@@ -1,0 +1,25 @@
+name: RESTseq
+full_name: RESTriction Fragment SEQuencing
+category: wet
+summary: RESTseq enriches fragments from digested genomic DNA for sequencing-based SNP discovery and genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- invertebrate
+reference:
+  doi: 10.1371/journal.pone.0063960
+  year: 2013
+  journal: PLoS One
+  first_author: Stolle E
+  last_author: Moritz RF
+  pmid: '23691128'
+  pmcid: PMC3656931
+  title: RESTseq--efficient benchtop population genomics with RESTriction Fragment SEQuencing
+links: {}
+added: '2026-11-21'
+evidence: RESTseq enriched fragments from digested genomic DNA and was demonstrated using honeybee and stingless bee samples.

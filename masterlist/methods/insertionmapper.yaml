@@ -1,0 +1,21 @@
+name: InsertionMapper
+category: dry
+summary: Identifies targeted sequences from multidimensionally pooled high-throughput sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2164-14-679
+  year: 2013
+  journal: BMC Genomics
+  first_author: Xiong W
+  last_author: Du C
+  pmid: '24090499'
+  pmcid: PMC3850689
+  title: 'InsertionMapper: a pipeline tool for the identification of targeted sequences from multidimensional high throughput
+    sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: InsertionMapper preprocesses data, deconvolves pooling dimensions, and maps elements in targeted sequencing data.

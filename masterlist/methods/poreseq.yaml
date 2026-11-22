@@ -1,0 +1,23 @@
+name: PoreSeq
+category: dry
+summary: Corrects nanopore sequencing errors to improve de novo genome assembly and identify sequence variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/nbt.3360
+  year: 2015
+  journal: Nat Biotechnol
+  first_author: Szalay T
+  last_author: Golovchenko JA
+  pmid: '26352647'
+  pmcid: PMC4877053
+  title: De novo sequencing and variant calling with nanopores using PoreSeq
+links: {}
+added: '2026-11-21'
+evidence: PoreSeq models uncertainty in nanopore reads and finds the sequence that best explains multiple reads of a region.

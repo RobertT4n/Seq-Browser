@@ -1,0 +1,20 @@
+name: DNApi
+category: dry
+summary: Predicts 3-prime adapter sequences de novo and cleans small RNA sequencing reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0164228
+  year: 2016
+  journal: PLoS One
+  first_author: Tsuji J
+  last_author: Weng Z
+  pmid: '27736901'
+  pmcid: PMC5063419
+  title: 'DNApi: A De Novo Adapter Prediction Algorithm for Small RNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: DNApi predicts the 3-prime adapter sequence and provides cleansed small RNA sequences for downstream analysis.

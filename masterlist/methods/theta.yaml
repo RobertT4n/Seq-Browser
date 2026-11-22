@@ -1,0 +1,21 @@
+name: THetA
+full_name: Tumor Heterogeneity Analysis
+category: dry
+summary: Infers tumor subpopulation genomes and their proportions from copy number aberrations in sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2013-14-7-r80
+  year: 2013
+  journal: Genome Biol
+  first_author: Oesper L
+  last_author: Raphael BJ
+  pmid: '23895164'
+  pmcid: PMC4054893
+  title: 'THetA: inferring intra-tumor heterogeneity from high-throughput DNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: THetA estimates normal admixture and recovers clonal and subclonal copy number aberrations.

@@ -1,0 +1,22 @@
+name: LB-Impute
+full_name: Low-Coverage Biallelic Impute
+category: dry
+summary: Imputes missing genotypes from low-coverage sequencing using a hidden Markov model that incorporates marker read
+  coverage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/genetics.115.182071
+  year: 2016
+  journal: Genetics
+  first_author: Fragoso CA
+  last_author: Dellaporta SL
+  pmid: '26715670'
+  pmcid: PMC4788230
+  title: Imputing Genotypes in Biallelic Populations from Low-Coverage Sequence Data
+links: {}
+added: '2026-11-21'
+evidence: LB-Impute uses marker read coverage to determine variable emission probabilities in a hidden Markov model.

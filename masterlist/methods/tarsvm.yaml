@@ -1,0 +1,24 @@
+name: tarSVM
+full_name: targeted sequencing support vector machine
+category: dry
+summary: Filters variants from microfluidic PCR-based targeted sequencing using a support vector machine and normalized allele
+  dosage score.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-016-1108-4
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Gillies CE
+  last_author: Sampson MG
+  pmid: '27287006'
+  pmcid: PMC4902911
+  title: 'tarSVM: Improving the accuracy of variant calls derived from microfluidic PCR-based targeted next generation sequencing
+    using a support vector machine'
+links: {}
+added: '2026-11-21'
+evidence: tarSVM uses a support vector machine and a normalized allele dosage test to identify high-quality variants from
+  microfluidic PCR data.

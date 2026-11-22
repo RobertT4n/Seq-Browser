@@ -1,0 +1,22 @@
+name: OPAR
+full_name: Optimistic Protein Assembly from Reads
+category: dry
+summary: OPAR uses protein sequence conservation to help recover divergent microbial coding regions from sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep40447
+  year: 2017
+  journal: Sci Rep
+  first_author: Gonzalez G
+  last_author: Ito K
+  pmid: '28071766'
+  pmcid: PMC5223137
+  title: An optimistic protein assembly from sequence reads salvaged an uncharacterized segment of mouse picobirnavirus
+links: {}
+added: '2026-11-21'
+evidence: OPAR assumes protein sequences can be more conserved than their encoding nucleotide sequences and identified mouse
+  picobirnavirus coding regions.

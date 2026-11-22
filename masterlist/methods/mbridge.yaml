@@ -1,0 +1,29 @@
+name: MBridge
+category: wet
+summary: Modified adapters, bisulfite treatment and ridge regression extend MeDIP-seq to estimate CpG methylation levels.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/jmcb/mjv037
+  year: 2015
+  journal: J Mol Cell Biol
+  first_author: Cai W
+  last_author: Sun ZS
+  pmid: '26078362'
+  pmcid: PMC4542811
+  title: 'MBRidge: an accurate and cost-effective method for profiling DNA methylome at single-base resolution'
+links: {}
+added: '2026-11-21'
+evidence: MBridge introduced hydroxymethylated adapters and bisulfite treatment into MeDIP-seq and used ridge regression to
+  profile human ovarian cell lines.

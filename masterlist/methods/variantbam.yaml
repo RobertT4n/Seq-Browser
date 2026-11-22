@@ -1,0 +1,22 @@
+name: VariantBam
+category: dry
+summary: Read filtering and profiling tool that applies configurable rules to sequencing alignments at genomic intervals or
+  variant sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btw111
+  year: 2016
+  journal: Bioinformatics
+  first_author: Wala J
+  last_author: Beroukhim R
+  pmid: '27153727'
+  pmcid: PMC4920121
+  title: 'VariantBam: filtering and profiling of next-generational sequencing data using region-specific rules'
+links: {}
+added: '2026-11-21'
+evidence: VariantBam extracts reads or read pairs satisfying combinations of rules defined by genomic intervals or variant
+  sites.

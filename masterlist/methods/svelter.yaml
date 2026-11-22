@@ -1,0 +1,22 @@
+name: SVelter
+category: dry
+summary: Reconstructs complex genomic rearrangements by scoring randomized local genome structures against sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-0993-1
+  year: 2016
+  journal: Genome Biol
+  first_author: Zhao X
+  last_author: Mills RE
+  pmid: '27287201'
+  pmcid: PMC4901421
+  title: Resolving complex structural genomic rearrangements using a randomized approach
+  preprint_doi: 10.1101/028217
+links: {}
+added: '2026-11-21'
+evidence: SVelter identifies suspected complex-event regions and iteratively rearranges their local structures to match observed
+  sequencing data.

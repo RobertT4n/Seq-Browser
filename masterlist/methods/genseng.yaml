@@ -1,0 +1,21 @@
+name: GENSENG
+category: dry
+summary: Detects copy-number changes from sequencing read depth while simultaneously correcting for experimental biases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gks1363
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Szatkiewicz JP
+  last_author: Sun W
+  pmid: '23275535'
+  pmcid: PMC3561969
+  title: Improving detection of copy-number variation by simultaneous bias correction and read-depth segmentation
+links: {}
+added: '2026-11-21'
+evidence: GENSENG combines a hidden Markov model and negative binomial regression to identify copy-number changes while accounting
+  for confounders.

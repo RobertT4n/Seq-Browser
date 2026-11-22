@@ -1,0 +1,21 @@
+name: Training Distribution Matching
+category: dry
+summary: Normalization method that transforms RNA-seq expression data for use with machine learning models trained on legacy
+  platforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.1621
+  year: 2016
+  journal: PeerJ
+  first_author: Thompson JA
+  last_author: Greene CS
+  pmid: '26844019'
+  pmcid: PMC4736986
+  title: Cross-platform normalization of microarray and RNA-seq data for machine learning applications
+links: {}
+added: '2026-11-21'
+evidence: TDM transforms RNA-seq data for use with models constructed from legacy platforms.

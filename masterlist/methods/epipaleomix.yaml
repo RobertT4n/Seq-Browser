@@ -1,0 +1,22 @@
+name: epiPALEOMIX
+category: dry
+summary: Reconstructs ancient methylomes and nucleosome positioning maps from post-mortem DNA degradation patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msw184
+  year: 2016
+  journal: Mol Biol Evol
+  first_author: Hanghøj K
+  last_author: Orlando L
+  pmid: '27624717'
+  pmcid: PMC5100044
+  title: Fast, Accurate and Automatic Ancient Nucleosome and Methylation Maps with epiPALEOMIX
+links: {}
+added: '2026-11-21'
+evidence: epiPALEOMIX reconstructs ancient methylation and nucleosome maps from shotgun or capture-enrichment data.

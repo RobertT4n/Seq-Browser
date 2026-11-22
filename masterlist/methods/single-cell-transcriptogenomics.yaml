@@ -1,0 +1,28 @@
+name: single-cell transcriptogenomics
+category: wet
+summary: Concurrent whole-exome sequencing and RNA-seq track genomic variants into the transcriptome of individual cells.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.mrfmmm.2015.01.002
+  year: 2015
+  journal: Mutat Res
+  first_author: Li W
+  last_author: Vijg J
+  pmid: '25733965'
+  pmcid: PMC4342853
+  title: Single-cell transcriptogenomics reveals transcriptional exclusion of ENU-mutated alleles
+links: {}
+added: '2026-11-21'
+evidence: SCTG combines whole-exome sequencing and RNA-seq in single cells and was applied to mouse embryonic fibroblasts.

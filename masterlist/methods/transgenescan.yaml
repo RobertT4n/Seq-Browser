@@ -1,0 +1,21 @@
+name: TransGeneScan
+category: dry
+summary: Predicts genes and antisense transcripts in assembled metatranscriptomic sequences.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s9-s8
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Ismail WM
+  last_author: Tang H
+  pmid: '25253067'
+  pmcid: PMC4168707
+  title: Gene finding in metatranscriptomic sequences
+links: {}
+added: '2026-11-21'
+evidence: TransGeneScan uses a hidden Markov model incorporating metatranscriptomic features to predict sense and antisense
+  transcripts.

@@ -1,0 +1,22 @@
+name: RNAprof
+full_name: RNA profile analysis
+category: dry
+summary: Detects differential RNA processing events by comparing normalized RNA-seq coverage profiles.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1080/15476286.2015.1118604
+  year: 2016
+  journal: RNA Biol
+  first_author: Tran Vdu T
+  last_author: Gautheret D
+  pmid: '26849165'
+  pmcid: PMC4829270
+  title: Detection of generic differential RNA processing events from RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: RNAprof compares RNA-seq coverage at nucleotide resolution to detect significant differences independently of splice
+  sites.

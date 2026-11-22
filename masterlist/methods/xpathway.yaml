@@ -1,0 +1,20 @@
+name: XPathway
+category: dry
+summary: Compares metabolic pathway activity using contigs assembled from RNA-seq reads and pathway graph properties.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-2823-y
+  year: 2016
+  journal: BMC Genomics
+  first_author: Temate-Tiagueu Y
+  last_author: Zelikovsky A
+  pmid: '27585456'
+  pmcid: PMC5009525
+  title: Inferring metabolic pathway activity levels from RNA-Seq data
+links: {}
+added: '2026-11-21'
+evidence: XPathway analyzes the mapping of RNA-seq-derived contigs to KEGG pathways to compare pathway activity.

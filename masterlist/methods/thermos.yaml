@@ -1,0 +1,21 @@
+name: TherMos
+full_name: Thermodynamic Modeling of ChIP-seq
+category: dry
+summary: Estimates transcription factor DNA-binding energy matrices directly from ChIP-seq or ChIP-exo tag profiles.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt250
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Sun W
+  last_author: Prabhakar S
+  pmid: '23595148'
+  pmcid: PMC3675472
+  title: 'TherMos: Estimating protein-DNA binding energies from in vivo binding profiles'
+links: {}
+added: '2026-11-21'
+evidence: TherMos estimates position-specific binding energy matrices from ChIP-seq or ChIP-exo tag profiles.

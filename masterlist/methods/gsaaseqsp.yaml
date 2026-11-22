@@ -1,0 +1,21 @@
+name: GSAASeqSP
+category: dry
+summary: Tests genome-wide associations of gene sets using RNA-seq count data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep06347
+  year: 2014
+  journal: Sci Rep
+  first_author: Xiong Q
+  last_author: Furey TS
+  pmid: '25213199'
+  pmcid: PMC4161965
+  title: 'GSAASeqSP: a toolset for gene set association analysis of RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: GSAASeqSP offers combinations of gene-level and gene-set-level statistics for gene set association analysis of sequence
+  counts.

@@ -1,0 +1,21 @@
+name: Alt Event Finder
+category: dry
+summary: Identifies novel alternative splicing events from data-driven transcript annotations derived from RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-13-s8-s10
+  year: 2012
+  journal: BMC Genomics
+  first_author: Zhou A
+  last_author: Liu Y
+  pmid: '23281921'
+  pmcid: PMC3535697
+  title: 'Alt Event Finder: a tool for extracting alternative splicing events from RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: Alt Event Finder identifies novel splicing events using transcript annotations from genome-guided reconstruction
+  tools.

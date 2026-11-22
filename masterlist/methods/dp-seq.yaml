@@ -1,0 +1,27 @@
+name: DP-seq
+full_name: Designed Primer-based RNA-sequencing
+category: wet
+summary: DP-seq amplifies transcripts from small amounts of mRNA using defined heptamer primers while preserving relative
+  abundance.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/srep01740
+  year: 2013
+  journal: Sci Rep
+  first_author: Bhargava V
+  last_author: Subramaniam S
+  pmid: '23624976'
+  pmcid: PMC3638165
+  title: Quantitative transcriptomics using designed primer-based amplification
+links: {}
+added: '2026-11-21'
+evidence: A defined set of heptamer primers amplified the majority of expressed transcripts from as little as 50 picograms
+  of mRNA.

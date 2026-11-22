@@ -1,0 +1,19 @@
+name: MinVar
+category: dry
+summary: Detects HIV-1 drug resistance mutations and insertions or deletions from deep sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jviromet.2016.11.008
+  year: 2017
+  journal: J Virol Methods
+  first_author: Huber M
+  last_author: Zagordi O
+  pmid: '27867045'
+  title: 'MinVar: A rapid and versatile tool for HIV-1 drug resistance genotyping by deep sequencing'
+links: {}
+added: '2026-11-21'
+evidence: MinVar automatically detects drug resistance mutations and indels and was evaluated using amplicon sequencing data.

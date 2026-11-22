@@ -1,0 +1,20 @@
+name: novoBreak
+category: dry
+summary: Detects structural variation breakpoints in whole-genome sequencing data through local assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4084
+  year: 2017
+  journal: Nat Methods
+  first_author: Chong Z
+  last_author: Chen K
+  pmid: '27892959'
+  pmcid: PMC5199621
+  title: 'novoBreak: local assembly for breakpoint detection in cancer genomes'
+links: {}
+added: '2026-11-21'
+evidence: novoBreak discovers somatic and germline structural variation breakpoints and identifies short insertions and deletions.

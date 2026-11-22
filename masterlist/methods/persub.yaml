@@ -1,0 +1,21 @@
+name: PerSub
+category: dry
+summary: PerSub detects disease-associated perturbed subpathways using differential expression and co-expression from RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/978-3-319-56246-9_17
+  year: 2017
+  journal: Adv Exp Med Biol
+  first_author: Vrahatis AG
+  last_author: Tsakalidis A
+  pmid: '28971401'
+  title: 'PerSubs: A Graph-Based Algorithm for the Identification of Perturbed Subpathways Caused by Complex Diseases'
+links: {}
+added: '2026-11-21'
+evidence: PerSub detects subpathways perturbed by complex disease using differentially expressed and co-expressed subpathways
+  recorded by RNA-seq.

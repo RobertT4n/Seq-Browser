@@ -1,0 +1,20 @@
+name: ARDEN
+full_name: artificial reference driven estimation of false positives in next-generation sequencing data
+category: dry
+summary: Estimates dataset-specific read mapping error rates using experimental reads and an artificial reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt255
+  year: 2014
+  journal: Bioinformatics
+  first_author: Giese SH
+  last_author: Renard BY
+  pmid: '23685787'
+  title: Specificity control for read alignments using an artificial reference genome-guided false discovery rate
+links: {}
+added: '2026-11-21'
+evidence: ARDEN estimates read mapper error rates from real experimental reads using an additional artificial reference genome.

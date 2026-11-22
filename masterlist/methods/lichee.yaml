@@ -1,0 +1,23 @@
+name: LICHeE
+full_name: Lineage Inference for Cancer Heterogeneity and Evolution
+category: dry
+summary: Reconstructs cancer lineage trees and subclonal composition from somatic variant allele frequencies across samples.
+readouts:
+- lineage
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-015-0647-8
+  year: 2015
+  journal: Genome Biol
+  first_author: Popic V
+  last_author: Batzoglou S
+  pmid: '25944252'
+  pmcid: PMC4501097
+  title: Fast and scalable inference of multi-sample cancer lineages
+links: {}
+added: '2026-11-21'
+evidence: LICHeE uses variant allele frequencies of somatic single nucleotide variants to reconstruct multi-sample cell lineage
+  trees and infer subclonal composition.

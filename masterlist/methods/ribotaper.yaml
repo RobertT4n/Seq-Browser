@@ -1,0 +1,20 @@
+name: RiboTaper
+category: dry
+summary: Uses spectral analysis of ribosome profiling periodicity to identify actively translated open reading frames.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3688
+  year: 2016
+  journal: Nat Methods
+  first_author: Calviello L
+  last_author: Ohler U
+  pmid: '26657557'
+  title: Detecting actively translated open reading frames in ribosome profiling data
+  preprint_doi: 10.1101/031625
+links: {}
+added: '2026-11-21'
+evidence: RiboTaper quantifies the significance of periodic Ribo-seq reads using spectral analysis methods.

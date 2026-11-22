@@ -1,0 +1,25 @@
+name: MutMap+
+category: wet
+summary: MutMap+ identifies candidate causal mutations by comparing SNP frequencies in pooled mutant and wild-type progeny.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- plant
+reference:
+  doi: 10.1371/journal.pone.0068529
+  year: 2013
+  journal: PLoS One
+  first_author: Fekih R
+  last_author: Terauchi R
+  pmid: '23874658'
+  pmcid: PMC3707850
+  title: 'MutMap+: genetic mapping and mutant identification without crossing in rice'
+links: {}
+added: '2026-11-21'
+evidence: MutMap+ compares SNP frequencies in bulked DNA from mutant and wild-type M3 rice progeny without requiring artificial
+  crosses.

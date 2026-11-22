@@ -1,0 +1,19 @@
+name: DIAMOND
+category: dry
+summary: Aligns sequencing reads against protein reference databases using a double-indexing algorithm.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3176
+  year: 2015
+  journal: Nat Methods
+  first_author: Buchfink B
+  last_author: Huson DH
+  pmid: '25402007'
+  title: Fast and sensitive protein alignment using DIAMOND
+links: {}
+added: '2026-11-21'
+evidence: DIAMOND aligns sequencing reads against a protein reference database using double indexing.

@@ -1,0 +1,22 @@
+name: TRISECT
+category: dry
+summary: Identifies heterogeneous transcription-factor binding rules within and across cell types using an ensemble approach.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.199166.115
+  year: 2016
+  journal: Genome Res
+  first_author: Sharmin M
+  last_author: Hannenhalli S
+  pmid: '27311443'
+  pmcid: PMC4971765
+  title: Heterogeneity of transcription factor binding specificity models within and across cell lines
+  preprint_doi: 10.1101/028787
+links: {}
+added: '2026-11-21'
+evidence: TRISECT analyzed ChIP-seq data for 23 transcription factors across 4–12 cell types each to identify heterogeneous
+  binding rules.

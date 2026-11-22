@@ -1,0 +1,20 @@
+name: OptiType
+category: dry
+summary: Infers HLA genotypes from next-generation sequencing data using integer linear programming.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu548
+  year: 2014
+  journal: Bioinformatics
+  first_author: Szolek A
+  last_author: Kohlbacher O
+  pmid: '25143287'
+  pmcid: PMC4441069
+  title: 'OptiType: precision HLA typing from next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: OptiType predicts HLA genotypes from sequencing data that need not be specifically enriched for the HLA cluster.

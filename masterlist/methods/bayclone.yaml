@@ -1,0 +1,21 @@
+name: Bayclone
+category: dry
+summary: Infers tumor subclone numbers, genotypes and proportions from sequencing data using a Bayesian feature-allocation
+  model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/9789814644730_0044
+  year: 2015
+  journal: Pac Symp Biocomput
+  first_author: Sengupta S
+  last_author: Ji Y
+  pmid: '25592605'
+  title: 'Bayclone: Bayesian nonparametric inference of tumor subclones using NGS data'
+links: {}
+added: '2026-11-21'
+evidence: Bayesian inference estimates the number, genotypes and proportions of subclones while allowing mutations to be shared
+  across subclones.

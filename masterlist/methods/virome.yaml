@@ -1,0 +1,20 @@
+name: viRome
+category: dry
+summary: Produces plots and reports for analysis of aligned viral small RNA sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt297
+  year: 2013
+  journal: Bioinformatics
+  first_author: Watson M
+  last_author: Kohl A
+  pmid: '23709497'
+  pmcid: PMC3712215
+  title: 'viRome: an R package for the visualization and analysis of viral small RNA sequence datasets'
+links: {}
+added: '2026-11-21'
+evidence: viRome takes aligned viral small RNA sequence data and produces plots and reports.

@@ -1,0 +1,22 @@
+name: NucHunter
+category: dry
+summary: Infers positioned nucleosomes and their histone modification intensities from histone ChIP-seq data.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt449
+  year: 2013
+  journal: Bioinformatics
+  first_author: Mammana A
+  last_author: Chung HR
+  pmid: '23981350'
+  pmcid: PMC3789549
+  title: Inferring nucleosome positions with their histone mark annotation from ChIP data
+links: {}
+added: '2026-11-21'
+evidence: NucHunter uses ChIP-seq data for multiple histone modifications to infer positioned nucleosomes and annotate their
+  modification intensities.

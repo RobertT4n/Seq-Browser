@@ -1,0 +1,19 @@
+name: MetaFlow
+category: dry
+summary: Metagenomic profiling method that estimates species and their abundances using whole-genome coverage and min-cost
+  flows.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/038208
+  year: 2016
+  journal: bioRxiv
+  first_author: Sobih A
+  last_author: Mäkinen V
+  title: 'MetaFlow: Metagenomic profiling based on whole-genome coverage analysis with min-cost flows'
+links: {}
+added: '2026-11-21'
+evidence: MetaFlow discovers species and their abundances in metagenomic samples using coverage analysis across entire genomes.

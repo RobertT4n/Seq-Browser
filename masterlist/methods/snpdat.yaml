@@ -1,0 +1,20 @@
+name: SNPdat
+category: dry
+summary: Annotates known and novel SNPs in organisms with a draft genome sequence and annotation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-45
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Doran AG
+  last_author: Creevey CJ
+  pmid: '23390980'
+  pmcid: PMC3574845
+  title: 'Snpdat: easy and rapid annotation of results from de novo snp discovery projects for model and non-model organisms'
+links: {}
+added: '2026-11-21'
+evidence: SNPdat provides annotation of novel and known SNPs for any organism with a draft sequence and annotation.

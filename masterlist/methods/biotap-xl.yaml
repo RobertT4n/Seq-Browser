@@ -1,0 +1,27 @@
+name: BioTAP-XL
+category: wet
+summary: BioTAP-XL combines cross-linking and tandem affinity purification to study chromatin-associated protein interactions
+  and DNA targets.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1073/pnas.1400648111
+  year: 2014
+  journal: Proc Natl Acad Sci U S A
+  first_author: Alekseyenko AA
+  last_author: Kuroda MI
+  pmid: '24550272'
+  pmcid: PMC3932854
+  title: Reciprocal interactions of human C10orf12 and C17orf96 with PRC2 revealed by BioTAP-XL cross-linking and affinity
+    purification
+links: {}
+added: '2026-11-21'
+evidence: Cross-linking preserved protein interactions and allowed analysis of DNA targets under the same tandem affinity
+  purification regimen.

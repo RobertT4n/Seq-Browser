@@ -1,0 +1,21 @@
+name: metaMix
+category: dry
+summary: Uses a Bayesian mixture model to identify species contributing to complex metagenomic sequencing samples.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv317
+  year: 2015
+  journal: Bioinformatics
+  first_author: Morfopoulou S
+  last_author: Plagnol V
+  pmid: '26002885'
+  pmcid: PMC4565032
+  title: Bayesian mixture analysis for metagenomic community profiling
+links: {}
+added: '2026-11-21'
+evidence: metaMix uses parallel Markov chain Monte Carlo exploration to identify species likely to contribute to a metagenomic
+  mixture.

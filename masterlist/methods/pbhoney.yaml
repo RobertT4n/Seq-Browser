@@ -1,0 +1,23 @@
+name: PBHoney
+category: dry
+summary: Detects structural variants using discordance within long reads and their soft-clipped tails.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/1471-2105-15-180
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: English AC
+  last_author: Reid JG
+  pmid: '24915764'
+  pmcid: PMC4082283
+  title: 'PBHoney: identifying genomic variants via long-read discordance and interrupted mapping'
+links: {}
+added: '2026-11-21'
+evidence: PBHoney identifies structural variants using intra-read discordance and soft-clipped tails of long reads.

@@ -1,0 +1,21 @@
+name: JPGM
+full_name: joint Poisson-gamma mixture
+category: dry
+summary: Jointly models multiple RNase footprint sequencing profiles to infer RNA base-pairing states.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv950
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Zou C
+  last_author: Ouyang Z
+  pmid: '26400167'
+  pmcid: PMC4627092
+  title: Joint modeling of RNase footprint sequencing profiles for genome-wide inference of RNA structure
+links: {}
+added: '2026-11-21'
+evidence: JPGM combined with a hidden Markov model inferred RNA structure states from yeast RNase V1 and S1 profiles.

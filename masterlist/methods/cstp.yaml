@@ -1,0 +1,22 @@
+name: CSTP
+full_name: condition-specific target prediction
+category: dry
+summary: Predicts condition-specific transcription factor targets from gene co-expression and regulatory information.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu066
+  year: 2014
+  journal: Bioinformatics
+  first_author: Meng G
+  last_author: Vingron M
+  pmid: '24532727'
+  title: Condition-specific target prediction from motifs and expression
+links: {}
+added: '2026-11-21'
+evidence: CSTP predicts condition-specific transcription factor targets from microarray or RNA-seq expression data by recovering
+  regulators of co-expressed genes.

@@ -1,0 +1,23 @@
+name: HiT-StARTS
+full_name: High Throughput Structure-Activity Relationships Through Sequencing
+category: dry
+summary: Scores the affinity and selectivity of RNA motif–small molecule interactions by comparing input and selected library
+  sequences.
+readouts:
+- small-molecule-rna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1021/acscentsci.7b00009
+  year: 2017
+  journal: ACS Cent Sci
+  first_author: Velagapudi SP
+  last_author: Disney MD
+  pmid: '28386598'
+  pmcid: PMC5364451
+  title: Defining RNA-Small Molecule Affinity Landscapes Enables Design of a Small Molecule Inhibitor of an Oncogenic Noncoding
+    RNA
+links: {}
+added: '2026-11-21'
+evidence: HiT-StARTS statistically compares input nucleic acid sequences with selected library members that bind a ligand.

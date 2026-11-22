@@ -1,0 +1,21 @@
+name: BlockClust
+category: dry
+summary: Clusters and classifies noncoding RNA transcripts by their small RNA-seq processing patterns.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu270
+  year: 2014
+  journal: Bioinformatics
+  first_author: Videm P
+  last_author: Backofen R
+  pmid: '24931994'
+  pmcid: PMC4058930
+  title: 'BlockClust: efficient clustering and classification of non-coding RNAs from short read RNA-seq profiles'
+links: {}
+added: '2026-11-21'
+evidence: BlockClust encodes expression profiles and uses graph-kernel techniques to cluster transcripts with similar processing
+  patterns.

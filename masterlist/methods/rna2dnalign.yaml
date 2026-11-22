@@ -1,0 +1,23 @@
+name: RNA2DNAlign
+category: dry
+summary: Quantifies allele counts in paired RNA and DNA sequencing data to identify differential allelic distributions.
+readouts:
+- rna
+- genome-sequence
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw757
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Movassagh M
+  last_author: Horvath A
+  pmid: '27576531'
+  pmcid: PMC5159535
+  title: 'RNA2DNAlign: nucleotide resolution allele asymmetries through quantitative assessment of RNA and DNA paired sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: RNA2DNAlign compares variant and reference counts across paired RNA and DNA datasets to identify allelic asymmetries.

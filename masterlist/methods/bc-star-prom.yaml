@@ -1,0 +1,28 @@
+name: BC-STAR-PROM
+full_name: barcorded synthetic tandem repeat promoter screening
+category: wet
+summary: Barcoded synthetic promoter reporters identify signal-activated transcription factors by sequencing reporter mRNAs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+- chemical-perturbation
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/gad.284828.116
+  year: 2016
+  journal: Genes Dev
+  first_author: Gosselin P
+  last_author: Schibler U
+  pmid: '27601530'
+  pmcid: PMC5024686
+  title: Unbiased identification of signal-activated transcription factors by barcoded synthetic tandem repeat promoter screening
+    (BC-STAR-PROM)
+links: {}
+added: '2026-11-21'
+evidence: Sequencing barcodes in reporter mRNAs tracks the activity of approximately 3,000 synthetic promoters after cells
+  are exposed to a signal.

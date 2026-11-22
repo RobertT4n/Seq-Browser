@@ -1,0 +1,22 @@
+name: EasyCluster2
+category: dry
+summary: Groups genome-aligned transcriptome reads into gene-oriented clusters to support transcript assembly and splice-isoform
+  detection.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s15-s7
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Bevilacqua V
+  last_author: Picardi E
+  pmid: '25474441'
+  pmcid: PMC4271567
+  title: 'EasyCluster2: an improved tool for clustering and assembling long transcriptome reads'
+links: {}
+added: '2026-11-21'
+evidence: EasyCluster2 clusters genome-mapped EST-like reads and facilitates full-length transcript assembly and detection
+  of splicing isoforms.

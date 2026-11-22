@@ -1,0 +1,20 @@
+name: VennBLAST
+category: dry
+summary: Compares whole-transcriptome alignments and displays matching sequences across organisms as Venn diagrams.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2014.12.004
+  year: 2015
+  journal: Genomics
+  first_author: Zahavi T
+  last_author: Salmon-Divon M
+  pmid: '25535680'
+  title: VennBLAST—whole transcriptome comparison and visualization tool
+links: {}
+added: '2026-11-21'
+evidence: VennBLAST combines BLAST filtering with Venn diagrams to compare whole-transcriptomic alignments and identify transcriptome
+  conservation.

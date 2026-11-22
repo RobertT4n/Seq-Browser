@@ -1,0 +1,23 @@
+name: CROP-IT
+full_name: CRISPR/Cas9 Off-target Prediction and Identification Tool
+category: dry
+summary: Predicts and ranks CRISPR-Cas9 off-target binding and cleavage sites using sequence and genome-wide biological information.
+readouts:
+- protein-dna-binding
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv575
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Singh R
+  last_author: Adli M
+  pmid: '26032770'
+  pmcid: PMC4605288
+  title: Cas9-chromatin binding information enables more accurate CRISPR off-target prediction
+links: {}
+added: '2026-11-21'
+evidence: CROP-IT integrates Cas9 binding and cleavage datasets and chromatin-state information to predict off-target binding
+  and cleavage sites.

@@ -1,0 +1,21 @@
+name: InteractionSet
+category: dry
+summary: Bioconductor infrastructure for representing, storing and manipulating genomic interaction data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.8759.2
+  year: 2016
+  journal: F1000Res
+  first_author: Lun AT
+  last_author: Ing-Simmons E
+  pmid: '27303634'
+  pmcid: PMC4890298
+  title: 'Infrastructure for genomic interactions: Bioconductor classes for Hi-C, ChIA-PET and related experiments'
+links: {}
+added: '2026-11-21'
+evidence: InteractionSet provides classes and low-level methods for genomic interactions and their associated experimental
+  data.

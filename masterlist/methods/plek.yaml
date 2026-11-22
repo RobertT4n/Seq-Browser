@@ -1,0 +1,22 @@
+name: PLEK
+full_name: predictor of long non-coding RNAs and messenger RNAs based on an improved k-mer scheme
+category: dry
+summary: Distinguishes long non-coding RNAs from messenger RNAs using k-mer features and a support vector machine.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-311
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Li A
+  last_author: Zhou Z
+  pmid: '25239089'
+  pmcid: PMC4177586
+  title: 'PLEK: a tool for predicting long non-coding RNAs and messenger RNAs based on an improved k-mer scheme'
+links: {}
+added: '2026-11-21'
+evidence: PLEK classifies transcripts without requiring genomic sequences or annotations and was tested on de novo transcriptome
+  datasets.

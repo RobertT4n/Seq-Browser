@@ -1,0 +1,22 @@
+name: OncoRep
+category: dry
+summary: Generates individualized breast cancer reports from RNA-seq analyses and drug database information.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-015-0095-z
+  year: 2015
+  journal: BMC Med Genomics
+  first_author: Meißner T
+  last_author: Su AI
+  pmid: '25989980'
+  pmcid: PMC4494802
+  title: 'OncoRep: an n-of-1 reporting tool to support genome-guided treatment for breast cancer patients using RNA-sequencing'
+  preprint_doi: 10.1101/008748
+links: {}
+added: '2026-11-21'
+evidence: OncoRep reports molecular classification, altered genes and pathways, fusions, actionable mutations and drug recommendations.

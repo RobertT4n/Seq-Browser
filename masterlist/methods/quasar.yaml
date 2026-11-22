@@ -1,0 +1,23 @@
+name: QuASAR
+full_name: quantitative allele-specific analysis of reads
+category: dry
+summary: Jointly infers heterozygous genotypes and allele-specific expression while accounting for genotype uncertainty.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu802
+  year: 2015
+  journal: Bioinformatics
+  first_author: Harvey CT
+  last_author: Pique-Regi R
+  pmid: '25480375'
+  pmcid: PMC4393517
+  title: 'QuASAR: quantitative allele-specific analysis of reads'
+links: {}
+added: '2026-11-21'
+evidence: QuASAR jointly detects heterozygous genotypes and infers allele-specific expression while considering uncertainty
+  in genotype calls.

@@ -1,0 +1,24 @@
+name: ProbHap
+category: dry
+summary: Uses a probabilistic model to phase an individual's genome from long-read sequencing data and score confidence at
+  phased positions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btu484
+  year: 2014
+  journal: Bioinformatics
+  first_author: Kuleshov V
+  last_author: Kuleshov V
+  pmid: '25161223'
+  pmcid: PMC4147930
+  title: Probabilistic single-individual haplotyping
+links: {}
+added: '2026-11-21'
+evidence: ProbHap is a haplotyping algorithm targeted at long-read technologies that provides confidence scores at phased
+  positions.

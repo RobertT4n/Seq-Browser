@@ -1,0 +1,20 @@
+name: ContextMap 2
+category: dry
+summary: Maps RNA-seq reads using sequence context, including reads spanning multiple exons and indels.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0557-5
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Bonfert T
+  last_author: Friedel CC
+  pmid: '25928589'
+  pmcid: PMC4411664
+  title: 'ContextMap 2: fast and accurate context-based RNA-seq mapping'
+links: {}
+added: '2026-11-21'
+evidence: ContextMap 2 identifies indels and maps reads spanning an arbitrary number of exons and indels.

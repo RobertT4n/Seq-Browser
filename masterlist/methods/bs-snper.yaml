@@ -1,0 +1,20 @@
+name: BS-SNPer
+category: dry
+summary: Calls single nucleotide polymorphisms from bisulfite-sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv507
+  year: 2015
+  journal: Bioinformatics
+  first_author: Gao S
+  last_author: Bolund L
+  pmid: '26319221'
+  pmcid: PMC4673977
+  title: 'BS-SNPer: SNP calling in bisulfite-seq data'
+links: {}
+added: '2026-11-21'
+evidence: BS-SNPer is a fast, memory-efficient package for identifying SNP sites in bisulfite-sequencing data.

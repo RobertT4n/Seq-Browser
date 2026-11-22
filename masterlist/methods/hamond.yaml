@@ -1,0 +1,19 @@
+name: HAMOND
+category: dry
+summary: Parallelizes DIAMOND protein sequence alignments using Apache Hadoop for scalable comparative genomics analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jbiotec.2017.02.020
+  year: 2017
+  journal: J Biotechnol
+  first_author: Yu J
+  last_author: Goesmann A
+  pmid: '28232083'
+  title: 'Rapid protein alignment in the cloud: HAMOND combines fast DIAMOND alignments with Hadoop parallelism'
+links: {}
+added: '2026-11-21'
+evidence: HAMOND uses Apache Hadoop to parallelize DIAMOND computation and was tested in comparative genomics analyses.

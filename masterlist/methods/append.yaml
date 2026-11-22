@@ -1,0 +1,22 @@
+name: AppEnD
+category: dry
+summary: Analyzes sequencing data to identify RNA 3′ ends, including nontemplated additions and degradation intermediates.
+readouts:
+- rna-degradation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.048785.114
+  year: 2015
+  journal: RNA
+  first_author: Welch JD
+  last_author: Marzluff WF
+  pmid: '26015596'
+  pmcid: PMC4478355
+  title: 'EnD-Seq and AppEnD: sequencing 3'' ends to identify nontemplated tails and degradation intermediates'
+links: {}
+added: '2026-11-21'
+evidence: AppEnD analyzes RNA 3′ ends, including nontemplated additions, and was used with EnD-Seq to identify degradation
+  intermediates.

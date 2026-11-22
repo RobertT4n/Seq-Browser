@@ -1,0 +1,23 @@
+name: OncoCis
+category: dry
+summary: Identifies potential cancer cis-regulatory mutations using cell-type-specific genomic, epigenomic, and gene-expression
+  data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-014-0485-0
+  year: 2014
+  journal: Genome Biol
+  first_author: Perera D
+  last_author: Wong JW
+  pmid: '25298093'
+  pmcid: PMC4224696
+  title: 'OncoCis: annotation of cis-regulatory mutations in  cancer'
+links: {}
+added: '2026-11-21'
+evidence: OncoCis identifies potential cis-regulatory mutations using cell-type-specific genome and epigenome datasets and
+  matching gene expression.

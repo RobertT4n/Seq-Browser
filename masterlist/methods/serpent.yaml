@@ -1,0 +1,24 @@
+name: SeRPeNT
+category: dry
+summary: Unsupervised method that identifies and characterizes small non-coding RNAs using reproducible RNA-sequencing read
+  profiles.
+readouts:
+- rna
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx1115
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Pagès A
+  last_author: Eyras E
+  pmid: '29155959'
+  pmcid: PMC5814818
+  title: The discovery potential of RNA processing profiles
+  preprint_doi: 10.1101/049809
+links: {}
+added: '2026-11-21'
+evidence: SeRPeNT uses dynamic time warping and density-based clustering to characterize small non-coding RNAs and compare
+  processing between cell compartments.

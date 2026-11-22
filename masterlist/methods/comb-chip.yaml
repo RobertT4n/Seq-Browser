@@ -1,0 +1,28 @@
+name: comb-ChIP
+full_name: indexed Combinatorial ChIP
+category: wet
+summary: Determines genome-wide co-occurrence of histone marks on individual nucleosomes by combinatorial immunoprecipitation.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/j.molcel.2016.07.023
+  year: 2016
+  journal: Mol Cell
+  first_author: Sadeh R
+  last_author: Friedman N
+  pmid: '27496019'
+  pmcid: PMC5031555
+  title: Elucidating Combinatorial Chromatin States at Single-Nucleosome Resolution
+  preprint_doi: 10.1101/060962
+links: {}
+added: '2026-11-21'
+evidence: comb-ChIP determines histone mark co-occurrence at single-nucleosome resolution across the genome.
+targets:
+- H3K36me3
+- H3K79me3
+- H3K4me3

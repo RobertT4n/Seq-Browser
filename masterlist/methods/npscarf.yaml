@@ -1,0 +1,23 @@
+name: npScarf
+category: dry
+summary: npScarf scaffolds and completes short-read genome assemblies while nanopore sequencing is in progress.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/ncomms14515
+  year: 2017
+  journal: Nat Commun
+  first_author: Cao MD
+  last_author: Coin LJ
+  pmid: '28218240'
+  pmcid: PMC5321748
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: npScarf scaffolds short-read assemblies during long-read sequencing and reports assembly metrics in real time.

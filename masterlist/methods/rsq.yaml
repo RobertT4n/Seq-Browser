@@ -1,0 +1,20 @@
+name: RSQ
+full_name: RNA structurome quantification
+category: dry
+summary: Quantifies isoform-specific RNA structures by modeling reads across isoforms and RNA conformations.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/043232
+  year: 2016
+  journal: bioRxiv
+  first_author: Wang Y
+  last_author: Xuan Z
+  title: 'RSQ: a statistical method for quantification of isoform-specific structurome using transcriptome-wide structural
+    profiling data'
+links: {}
+added: '2026-11-21'
+evidence: RSQ models the distribution of reads over isoforms and RNA conformations to quantify the isoform-specific structurome.

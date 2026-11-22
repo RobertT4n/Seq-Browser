@@ -1,0 +1,28 @@
+name: GlobinLock
+category: wet
+summary: Globin-specific oligonucleotides reduce globin mRNA during cDNA synthesis for whole-blood transcriptome sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+- other-vertebrate
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/srep31584
+  year: 2016
+  journal: Sci Rep
+  first_author: Krjutškov K
+  last_author: Kere J
+  pmid: '27515369'
+  pmcid: PMC4981843
+  title: Globin mRNA reduction for whole-blood transcriptome sequencing
+links: {}
+added: '2026-11-21'
+evidence: GlobinLock uses globin mRNA-specific oligonucleotides and is effective in human, mouse and rat samples.

@@ -1,0 +1,22 @@
+name: SVScore
+category: dry
+summary: Predicts structural variant impact by aggregating per-base pathogenicity scores across affected genomic intervals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw789
+  year: 2017
+  journal: Bioinformatics
+  first_author: Ganel L
+  last_author: Hall IM
+  pmid: '28031184'
+  pmcid: PMC5408916
+  title: 'SVScore: an impact prediction tool for structural variation'
+  preprint_doi: 10.1101/073833
+links: {}
+added: '2026-11-21'
+evidence: SVScore aggregates single-nucleotide pathogenicity scores while considering variant type, gene features and breakpoint
+  uncertainty.

@@ -1,0 +1,20 @@
+name: OLego
+category: dry
+summary: Maps spliced mRNA-seq reads to a reference genome and exon junctions using a small-seed strategy.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt216
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Wu J
+  last_author: Zhang C
+  pmid: '23571760'
+  pmcid: PMC3664805
+  title: 'OLego: fast and sensitive mapping of spliced mRNA-Seq reads using small seeds'
+links: {}
+added: '2026-11-21'
+evidence: OLego uses a multiple-seed-and-extend scheme for de novo mapping of spliced mRNA-seq reads.

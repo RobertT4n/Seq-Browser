@@ -1,0 +1,21 @@
+name: meRanTK
+full_name: methylated RNA analysis ToolKit
+category: dry
+summary: Maps reads and calls and compares RNA cytosine methylation from RNA-BSseq or Aza-IP data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv647
+  year: 2016
+  journal: Bioinformatics
+  first_author: Rieder D
+  last_author: Trajanoski Z
+  pmid: '26543174'
+  title: 'meRanTK: methylated RNA analysis ToolKit'
+links: {}
+added: '2026-11-21'
+evidence: meRanTK provides splice-aware bisulfite read mapping, methylation calling and identification of differentially methylated
+  cytosines.

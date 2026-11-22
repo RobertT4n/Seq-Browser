@@ -1,0 +1,21 @@
+name: ShatterProof
+category: dry
+summary: Detects and quantifies chromothriptic events from structural variant calls using statistical tests.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-78
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Govind SK
+  last_author: Boutros PC
+  pmid: '24646301'
+  pmcid: PMC3999944
+  title: 'ShatterProof: operational detection and quantification of chromothripsis'
+links: {}
+added: '2026-11-21'
+evidence: ShatterProof uses structural variation calls and statistical tests to predict the presence and location of chromothriptic
+  events.

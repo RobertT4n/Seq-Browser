@@ -1,0 +1,23 @@
+name: GraphMap
+category: dry
+summary: Maps error-prone nanopore sequencing reads using progressive alignment refinement and graph traversal.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/ncomms11307
+  year: 2016
+  journal: Nat Commun
+  first_author: Sović I
+  last_author: Nagarajan N
+  pmid: '27079541'
+  pmcid: PMC4835549
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+links: {}
+added: '2026-11-21'
+evidence: GraphMap was designed for nanopore reads and enabled variant calling and pathogen identification from MinION data.

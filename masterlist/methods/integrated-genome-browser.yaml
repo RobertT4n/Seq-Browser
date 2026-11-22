@@ -1,0 +1,26 @@
+name: Integrated Genome Browser
+category: dry
+summary: Provides an interactive desktop genome browser for visualizing and analyzing genomic annotations and sequencing datasets.
+readouts:
+- genome-sequence
+- rna
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw069
+  year: 2016
+  journal: Bioinformatics
+  first_author: Freese NH
+  last_author: Loraine AE
+  pmid: '27153568'
+  pmcid: PMC4937187
+  title: 'Integrated genome browser: visual analytics platform for genomics'
+  preprint_doi: 10.1101/026351
+links: {}
+added: '2026-11-21'
+evidence: Integrated Genome Browser supports interactive visualization of RNA-seq, ChIP-seq and bisulfite-sequencing data
+  alongside reference genome annotations.

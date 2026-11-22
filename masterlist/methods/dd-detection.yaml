@@ -1,0 +1,20 @@
+name: DD_DETECTION
+category: dry
+summary: Detects dispersed duplications from paired-end read alignments without a database of known duplication elements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv621
+  year: 2016
+  journal: Bioinformatics
+  first_author: Kroon M
+  last_author: Ye K
+  pmid: '26508759'
+  title: Detecting dispersed duplications in high-throughput sequencing data using a database-free approach
+links: {}
+added: '2026-11-21'
+evidence: DD_DETECTION finds dispersed duplications from paired-end alignments and identified novel duplication types in a
+  human DNA sample.

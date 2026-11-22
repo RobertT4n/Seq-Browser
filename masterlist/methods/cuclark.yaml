@@ -1,0 +1,20 @@
+name: cuCLARK
+category: dry
+summary: cuCLARK classifies metagenomic reads by taxon using reduced k-mers on CUDA-enabled GPUs.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1434-6
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Kobus R
+  last_author: Schmidt B
+  pmid: '28049411'
+  pmcid: PMC5209836
+  title: Accelerating metagenomic read classification on CUDA-enabled GPUs
+links: {}
+added: '2026-11-21'
+evidence: cuCLARK is a GPU-based read-level classifier for metagenomic sequences using reduced k-mers.

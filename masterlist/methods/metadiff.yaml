@@ -1,0 +1,22 @@
+name: MetaDiff
+category: dry
+summary: Tests for differential isoform expression using random-effects meta-regression that accounts for estimation uncertainty
+  and covariates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0623-z
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Jia C
+  last_author: Li C
+  pmid: '26134005'
+  pmcid: PMC4489045
+  title: 'MetaDiff: differential isoform expression analysis using random-effects meta-regression'
+links: {}
+added: '2026-11-21'
+evidence: MetaDiff uses random-effects meta-regression for differential isoform expression analysis while allowing adjustment
+  for covariates.

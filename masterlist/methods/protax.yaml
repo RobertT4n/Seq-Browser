@@ -1,0 +1,21 @@
+name: PROTAX
+full_name: probabilistic method for taxonomical classification
+category: dry
+summary: Assigns probabilistic taxonomic classifications to DNA sequences while accounting for missing and mislabeled references.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btw346
+  year: 2016
+  journal: Bioinformatics
+  first_author: Somervuo P
+  last_author: Ovaskainen O
+  pmid: '27296980'
+  title: Unbiased probabilistic taxonomic classification for DNA barcoding
+links: {}
+added: '2026-11-21'
+evidence: PROTAX classifies DNA sequences using a partially populated taxonomic tree and accounts for unknown taxa and missing
+  or mislabeled reference sequences.

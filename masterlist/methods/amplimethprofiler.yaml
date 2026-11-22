@@ -1,0 +1,22 @@
+name: ampliMethProfiler
+category: dry
+summary: Extracts and statistically analyzes epihaplotype profiles from targeted deep bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-016-1380-3
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Scala G
+  last_author: Cocozza S
+  pmid: '27884103'
+  pmcid: PMC5123276
+  title: 'ampliMethProfiler: a pipeline for the analysis of CpG methylation profiles of targeted deep bisulfite sequenced
+    amplicons'
+links: {}
+added: '2026-11-21'
+evidence: ampliMethProfiler extracts and analyzes epihaplotype composition from reads of targeted bisulfite-sequenced amplicons.

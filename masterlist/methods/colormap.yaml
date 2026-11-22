@@ -1,0 +1,23 @@
+name: CoLoRMap
+full_name: Correcting Long Reads by Mapping short reads
+category: dry
+summary: Corrects noisy long reads using high-quality paired-end short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btw463
+  year: 2016
+  journal: Bioinformatics
+  first_author: Haghshenas E
+  last_author: Chauve C
+  pmid: '27587673'
+  title: 'CoLoRMap: Correcting Long Reads by Mapping short reads'
+links: {}
+added: '2026-11-21'
+evidence: CoLoRMap corrects long reads using mapped Illumina reads and local assembly of unmapped mates.

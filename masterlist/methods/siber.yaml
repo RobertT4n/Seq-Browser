@@ -1,0 +1,22 @@
+name: SIBER
+full_name: systematic identification of bimodally expressed genes using RNAseq data
+category: dry
+summary: Identifies bimodally expressed genes from RNA-seq count data using a lognormal mixture model.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts713
+  year: 2013
+  journal: Bioinformatics
+  first_author: Tong P
+  last_author: Coombes KR
+  pmid: '23303507'
+  pmcid: PMC3582265
+  title: 'SIBER: systematic identification of bimodally expressed genes using RNAseq data'
+links: {}
+added: '2026-11-21'
+evidence: SIBER identifies bimodally expressed genes from RNA-seq data, with a lognormal mixture model performing best among
+  evaluated models.

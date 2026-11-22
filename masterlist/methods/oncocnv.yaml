@@ -1,0 +1,21 @@
+name: ONCOCNV
+category: dry
+summary: Detects large copy number changes in targeted amplicon sequencing data using multifactor normalization and annotation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu436
+  year: 2014
+  journal: Bioinformatics
+  first_author: Boeva V
+  last_author: Laes JF
+  pmid: '25016581'
+  pmcid: PMC4253825
+  title: Multi-factor data normalization enables the detection of copy number aberrations in amplicon sequencing data
+links: {}
+added: '2026-11-21'
+evidence: ONCOCNV uses multifactor normalization and annotation to detect large copy number changes from amplicon sequencing
+  data.

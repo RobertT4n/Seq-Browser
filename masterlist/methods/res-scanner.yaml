@@ -1,0 +1,21 @@
+name: RES-Scanner
+category: dry
+summary: Detects and annotates RNA-editing sites using matched RNA-seq and DNA-seq data.
+readouts:
+- rna-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13742-016-0143-4
+  year: 2016
+  journal: Gigascience
+  first_author: Wang Z
+  last_author: Zhang G
+  pmid: '27538485'
+  pmcid: PMC4989487
+  title: 'RES-Scanner: a software package for genome-wide identification of RNA-editing sites'
+links: {}
+added: '2026-11-21'
+evidence: RES-Scanner identifies RNA-editing sites while filtering genetic variants and sequencing or mapping errors.

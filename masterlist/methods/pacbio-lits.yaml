@@ -1,0 +1,31 @@
+name: PacBio-LITS
+category: wet
+summary: Oligonucleotide capture and PacBio large-insert sequencing characterize structural variants at selected chromosomal
+  regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12864-015-1370-2
+  year: 2015
+  journal: BMC Genomics
+  first_author: Wang M
+  last_author: Gibbs RA
+  pmid: '25887218'
+  pmcid: PMC4376517
+  title: 'PacBio-LITS: a large-insert targeted sequencing method for characterization of human disease-associated chromosomal
+    structural variations'
+links: {}
+added: '2026-11-21'
+evidence: PacBio-LITS combines oligonucleotide target capture with PacBio large-insert libraries to delineate structural variant
+  breakpoints.

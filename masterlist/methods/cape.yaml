@@ -1,0 +1,20 @@
+name: CAPE
+category: dry
+summary: Predicts whether genetic variants deactivate enhancers by disrupting transcription factor binding in a cellular context.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw1263
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Li S
+  last_author: Ovcharenko I
+  pmid: '27980060'
+  pmcid: PMC5389506
+  title: Quantifying deleterious effects of regulatory variants
+links: {}
+added: '2026-11-21'
+evidence: CAPE learns enhancer sequence signatures and models their change upon a single nucleotide substitution.

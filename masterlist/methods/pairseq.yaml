@@ -1,0 +1,23 @@
+name: pairSEQ
+category: wet
+summary: Pairs T cell receptor alpha and beta chain sequences at high throughput using repertoire diversity.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1126/scitranslmed.aac5624
+  year: 2015
+  journal: Sci Transl Med
+  first_author: Howie B
+  last_author: Robins HS
+  pmid: '26290413'
+  title: High-throughput pairing of T cell receptor α and β sequences
+links: {}
+added: '2026-11-21'
+evidence: pairSEQ accurately pairs hundreds of thousands of TCRA and TCRB sequences without single-cell technologies.

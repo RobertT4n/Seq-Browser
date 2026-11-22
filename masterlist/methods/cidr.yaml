@@ -1,0 +1,24 @@
+name: CIDR
+full_name: Clustering through Imputation and Dimensionality Reduction
+category: dry
+summary: Clusters single-cell RNA-seq data using implicit imputation and dimensionality reduction to reduce the impact of
+  dropouts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1188-0
+  year: 2017
+  journal: Genome Biol
+  first_author: Lin P
+  last_author: Ho JW
+  pmid: '28351406'
+  pmcid: PMC5371246
+  title: 'CIDR: Ultrafast and accurate clustering through imputation for single-cell RNA-seq data'
+  preprint_doi: 10.1101/068775
+links: {}
+added: '2026-11-21'
+evidence: CIDR uses implicit imputation to alleviate the impact of dropouts and improves clustering accuracy in simulated
+  and real single-cell data.

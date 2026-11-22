@@ -1,0 +1,24 @@
+name: CisMapper
+category: dry
+summary: CisMapper predicts transcription factor regulatory targets by correlating histone marks at bound sites with gene
+  expression across tissues.
+readouts:
+- protein-dna-binding
+- histone-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw956
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: O'Connor T
+  last_author: Bailey TL
+  pmid: '28204599'
+  pmcid: PMC5389714
+  title: 'CisMapper: predicting regulatory interactions from transcription factor ChIP-seq data'
+links: {}
+added: '2026-11-21'
+evidence: CisMapper predicts TF target genes using correlations between a histone mark at TF-bound sites and gene expression
+  across tissues.

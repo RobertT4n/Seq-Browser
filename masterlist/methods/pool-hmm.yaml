@@ -1,0 +1,21 @@
+name: Pool-hmm
+category: dry
+summary: Estimates allele frequencies and detects selective sweeps from pooled sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.12063
+  year: 2013
+  journal: Mol Ecol Resour
+  first_author: Boitard S
+  last_author: Futschik A
+  pmid: '23311589'
+  pmcid: PMC3592992
+  title: 'Pool-hmm: a Python program for estimating the allele frequency spectrum and detecting selective sweeps from next
+    generation sequencing of pooled samples'
+links: {}
+added: '2026-11-21'
+evidence: Pool-hmm estimates allele frequencies and detects selective sweeps in a Pool-Seq sample.

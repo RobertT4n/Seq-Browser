@@ -1,0 +1,22 @@
+name: Amplicon Indel Hunter
+category: dry
+summary: Detects large somatic insertions and deletions in targeted paired-end amplicon sequencing data without relying on
+  a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jmoldx.2015.06.005
+  year: 2015
+  journal: J Mol Diagn
+  first_author: Kadri S
+  last_author: Segal JP
+  pmid: '26319364'
+  title: Amplicon Indel Hunter Is a Novel Bioinformatics Tool to Detect Large Somatic Insertion/Deletion Mutations in Amplicon-Based
+    Next-Generation Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: Amplicon Indel Hunter detects somatic indels larger than five base pairs in amplicon-based paired-end sequencing
+  data.

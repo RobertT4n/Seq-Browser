@@ -1,0 +1,22 @@
+name: DASAF
+full_name: detection of autosomal abnormalities for fetus
+category: dry
+summary: Identifies fetal whole-chromosome and subchromosome abnormalities from maternal cell-free DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1155/2016/2714341
+  year: 2016
+  journal: Biomed Res Int
+  first_author: Liu B
+  last_author: Ding G
+  pmid: '27437397'
+  pmcid: PMC4942598
+  title: 'DASAF: An R Package for Deep Sequencing-Based Detection of Fetal Autosomal Abnormalities from Maternal Cell-Free
+    DNA'
+links: {}
+added: '2026-11-21'
+evidence: DASAF implements three trisomy detection methods and a subchromosome abnormality identification method.

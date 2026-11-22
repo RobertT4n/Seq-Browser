@@ -1,0 +1,28 @@
+name: 2OMe-seq
+category: wet
+summary: High-throughput sequencing maps and relatively quantifies RNA 2′-O-methylated residues at single-base resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkw810
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Incarnato D
+  last_author: Oliviero S
+  pmid: '28180324'
+  pmcid: PMC5388417
+  title: High-throughput single-base resolution mapping of RNA 2΄-O-methylated residues
+links: {}
+added: '2026-11-21'
+evidence: 2OMe-seq recovered annotated rRNA modification sites in HeLa cells and detected changes in mouse embryonic stem
+  cells.

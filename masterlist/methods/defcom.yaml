@@ -1,0 +1,23 @@
+name: DeFCoM
+full_name: Detecting Footprints Containing Motifs
+category: dry
+summary: Uses supervised learning to identify transcription factor binding at motif sites from chromatin accessibility footprints.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw740
+  year: 2017
+  journal: Bioinformatics
+  first_author: Quach B
+  last_author: Furey TS
+  pmid: '27993786'
+  pmcid: PMC6075477
+  title: 'DeFCoM: analysis and modeling of transcription factor binding sites using a motif-centric genomic footprinter'
+links: {}
+added: '2026-11-21'
+evidence: DeFCoM is a supervised learning footprinter that models variability in DNase-seq signals across transcription factor
+  motif sites.

@@ -1,0 +1,20 @@
+name: PennSeq
+category: dry
+summary: Estimates isoform-specific expression from RNA-seq data using empirical non-uniform read distributions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt1304
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Hu Y
+  last_author: Li M
+  pmid: '24362841'
+  pmcid: PMC3919567
+  title: 'PennSeq: accurate isoform-specific gene expression quantification in RNA-Seq by modeling non-uniform read distribution'
+links: {}
+added: '2026-11-21'
+evidence: PennSeq uses a non-parametric approach that allows each isoform to have its own non-uniform read distribution.

@@ -1,0 +1,22 @@
+name: NEAT
+full_name: NExt-generation sequencing Analysis Toolkit
+category: dry
+summary: Simulates sequencing reads from tunable mutation and sequencing models and provides variant comparison and evaluation
+  tools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0167047
+  year: 2016
+  journal: PLoS One
+  first_author: Stephens ZD
+  last_author: Iyer RK
+  pmid: '27893777'
+  pmcid: PMC5125660
+  title: Simulating Next-Generation Sequencing Datasets from Empirical Mutation and Sequencing Models
+links: {}
+added: '2026-11-21'
+evidence: NEAT includes a read simulator and scripts for variant comparison and tool evaluation using tunable models.

@@ -1,0 +1,20 @@
+name: Sequence Bloom Trees
+category: dry
+summary: Indexing method for searching large collections of short-read sequencing experiments for a given sequence.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/nbt.3442
+  year: 2016
+  journal: Nat Biotechnol
+  first_author: Solomon B
+  last_author: Kingsford C
+  pmid: '26854477'
+  pmcid: PMC4804353
+  title: Fast search of thousands of short-read sequencing experiments
+links: {}
+added: '2026-11-21'
+evidence: Sequence Bloom Trees were used to search thousands of RNA-seq experiments for known transcripts.

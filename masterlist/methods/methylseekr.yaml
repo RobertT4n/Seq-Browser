@@ -1,0 +1,22 @@
+name: MethylSeekR
+category: dry
+summary: Identifies active regulatory regions from reduced methylation footprints in bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt599
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Burger L
+  last_author: Stadler MB
+  pmid: '23828043'
+  pmcid: PMC3763559
+  title: Identification of active regulatory regions from DNA methylation data
+links: {}
+added: '2026-11-21'
+evidence: MethylSeekR identifies reduced DNA methylation footprints associated with transcription factor binding from bisulfite
+  sequencing data.

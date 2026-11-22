@@ -1,0 +1,21 @@
+name: GVAR
+full_name: Graph-regularized Vector Autoregressive model
+category: dry
+summary: Infers temporal relationships among microbial entities using a vector autoregressive model with graph regularization.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2014.2338298
+  year: 2015
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Jiang X
+  last_author: Park EK
+  pmid: '26357214'
+  title: Predicting Microbial Interactions Using Vector Autoregressive Model with Graph Regularization
+links: {}
+added: '2026-11-21'
+evidence: GVAR incorporates similarity information to infer microbial interactions and was applied to a human gut microbiome
+  time series.

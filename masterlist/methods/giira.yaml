@@ -1,0 +1,20 @@
+name: GIIRA
+full_name: Gene Identification Incorporating RNA-Seq data and Ambiguous reads
+category: dry
+summary: Identifies expressed genes from RNA-seq mappings while reassigning ambiguous reads to their most likely origin.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt577
+  year: 2014
+  journal: Bioinformatics
+  first_author: Zickmann F
+  last_author: Renard BY
+  pmid: '24123675'
+  title: GIIRA--RNA-Seq driven gene finding incorporating ambiguous reads
+links: {}
+added: '2026-11-21'
+evidence: GIIRA identifies genes from RNA-seq mappings and uses a maximum-flow approach to reassign ambiguous reads.

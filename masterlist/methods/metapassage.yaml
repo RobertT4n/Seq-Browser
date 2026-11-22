@@ -1,0 +1,22 @@
+name: MetaPASSAGE
+category: dry
+summary: Simulates bacterial communities and gene-family reads to evaluate phylogenetic reconstruction from shotgun metagenomic
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2164-14-419
+  year: 2013
+  journal: BMC Genomics
+  first_author: Riesenfeld SJ
+  last_author: Pollard KS
+  pmid: '23799973'
+  pmcid: PMC3701559
+  title: 'Beyond classification: gene-family phylogenies from shotgun metagenomic reads enable accurate community analysis'
+links: {}
+added: '2026-11-21'
+evidence: MetaPASSAGE generates simulated communities and gene-family reads and prepares alignments for building and evaluating
+  phylogenetic trees.

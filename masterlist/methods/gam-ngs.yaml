@@ -1,0 +1,21 @@
+name: GAM-NGS
+full_name: Genomic Assemblies Merger for Next Generation Sequencing
+category: dry
+summary: Merges multiple genome assemblies using read alignments to improve assembly contiguity and correctness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s7-s6
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Vicedomini R
+  last_author: Policriti A
+  pmid: '23815503'
+  pmcid: PMC3633056
+  title: 'GAM-NGS: genomic assemblies merger for next generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: GAM-NGS merges two or more assemblies using a weighted graph of blocks identified through read alignments.

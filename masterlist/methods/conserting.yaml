@@ -1,0 +1,22 @@
+name: CONSERTING
+full_name: Copy Number Segmentation by Regression Tree in Next Generation Sequencing
+category: dry
+summary: Detects somatic copy-number alterations from whole-genome sequencing by combining read-depth segmentation with structural-variation
+  detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3394
+  year: 2015
+  journal: Nat Methods
+  first_author: Chen X
+  last_author: Zhang J
+  pmid: '25938371'
+  pmcid: PMC4591043
+  title: 'CONSERTING: integrating copy-number analysis with structural-variation detection'
+links: {}
+added: '2026-11-21'
+evidence: CONSERTING detects somatic copy-number alterations using whole-genome sequencing data and localized structural variations.

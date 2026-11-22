@@ -1,0 +1,21 @@
+name: WU-SEQ
+full_name: Weighted U Sequencing test
+category: dry
+summary: Tests associations between sequencing variants and phenotypes using a nonparametric weighted U-statistic.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/gepi.21864
+  year: 2014
+  journal: Genet Epidemiol
+  first_author: Wei C
+  last_author: Lu Q
+  pmid: '25331574'
+  pmcid: PMC4236269
+  title: A weighted U-statistic for genetic association analyses of sequencing data
+links: {}
+added: '2026-11-21'
+evidence: WU-SEQ performs high-dimensional association analysis without assuming a disease model or phenotype distribution.

@@ -1,0 +1,23 @@
+name: MOABS
+category: dry
+summary: Analyzes bisulfite sequencing data for differential methylation and can be extended to differential 5hmC analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2014-15-2-r38
+  year: 2014
+  journal: Genome Biol
+  first_author: Sun D
+  last_author: Li W
+  pmid: '24565500'
+  pmcid: PMC4054608
+  title: 'MOABS: model based analysis of bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: MOABS detects differential methylation at single-CpG resolution and can be extended to differential 5hmC analysis
+  using RRBS and oxBS-seq.

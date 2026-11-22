@@ -1,0 +1,24 @@
+name: HapIso
+full_name: Haplotype-specific Isoform Reconstruction
+category: dry
+summary: Reconstructs haplotype-specific isoforms by partitioning long RNA reads into parental alleles.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1109/TNB.2017.2675981
+  year: 2017
+  journal: IEEE Trans Nanobioscience
+  first_author: Mangul S
+  last_author: Eskin E
+  pmid: '28328508'
+  title: 'HapIso: An Accurate Method for the Haplotype- Specific Isoforms Reconstruction From Long Single-Molecule Reads'
+  preprint_doi: 10.1101/050906
+links: {}
+added: '2026-11-21'
+evidence: HapIso clusters long isoform reads into parental haplotypes while tolerating sequencing errors.

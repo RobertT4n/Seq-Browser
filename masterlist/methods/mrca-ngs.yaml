@@ -1,0 +1,29 @@
+name: mRCA-NGS
+full_name: modified rolling circular amplification with adaptor ligation - next generation sequencing
+category: wet
+summary: Combines RNA enrichment, adaptor ligation, reverse transcription and rolling circular amplification for whole-genome
+  sequencing of RNA viruses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1038/srep16517
+  year: 2015
+  journal: Sci Rep
+  first_author: Singh H
+  last_author: Saijo M
+  pmid: '26558341'
+  pmcid: PMC4642344
+  title: Rapid whole genome sequencing of Miyazaki-Bali/2007 Pteropine orthoreovirus by modified rolling circular amplification
+    with adaptor ligation - next generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: The method combines viral RNA purification and enrichment, adaptor ligation, reverse transcription, cDNA circularization
+  and amplification with sequencing.

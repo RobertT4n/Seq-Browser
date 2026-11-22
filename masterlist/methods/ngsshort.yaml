@@ -1,0 +1,22 @@
+name: ngsShoRT
+full_name: next-generation sequencing Short Reads Trimmer
+category: dry
+summary: Preprocesses and trims short sequencing reads using configurable algorithms and parallel processing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1751-0473-9-8
+  year: 2014
+  journal: Source Code Biol Med
+  first_author: Chen C
+  last_author: Wu CH
+  pmid: '24955109'
+  pmcid: PMC4064128
+  title: Software for pre-processing Illumina next-generation sequencing short read sequences
+links: {}
+added: '2026-11-21'
+evidence: ngsShoRT provides algorithms for preprocessing next-generation sequencing short reads and was evaluated using genome
+  assembly datasets.

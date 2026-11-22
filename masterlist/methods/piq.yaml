@@ -1,0 +1,24 @@
+name: PIQ
+full_name: protein interaction quantitation
+category: dry
+summary: Models DNase-seq profile magnitude and shape to identify transcription factor binding sites and characterize pioneer
+  activity.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2798
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Sherwood RI
+  last_author: Gifford DK
+  pmid: '24441470'
+  pmcid: PMC3951735
+  title: Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and
+    shape
+links: {}
+added: '2026-11-21'
+evidence: PIQ models genome-wide DNase I hypersensitivity profiles to identify transcription factor binding sites.

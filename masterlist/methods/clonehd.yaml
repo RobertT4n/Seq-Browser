@@ -1,0 +1,20 @@
+name: cloneHD
+category: dry
+summary: Reconstructs cancer subclonal composition from DNA sequencing read depth, allelic counts and somatic mutation counts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2014.04.055
+  year: 2014
+  journal: Cell Rep
+  first_author: Fischer A
+  last_author: Mustonen V
+  pmid: '24882004'
+  pmcid: PMC4062932
+  title: High-definition reconstruction of clonal composition in cancer
+links: {}
+added: '2026-11-21'
+evidence: cloneHD reconstructs subclones from DNA sequencing data and can use correlated longitudinal or multiregion samples.

@@ -1,0 +1,25 @@
+name: HySeMaFi
+full_name: hybrid sequencing and map finding
+category: dry
+summary: Combines long and short RNA-seq reads to identify splicing patterns and quantify isoforms without a reference genome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/srep43793
+  year: 2017
+  journal: Sci Rep
+  first_author: Ning G
+  last_author: Bao M
+  pmid: '28272530'
+  pmcid: PMC5341560
+  title: 'Hybrid sequencing and map finding (HySeMaFi): optional strategies for extensively deciphering gene splicing and
+    expression in organisms without reference genome'
+links: {}
+added: '2026-11-21'
+evidence: HySeMaFi combines PacBio and Illumina sequencing to detect splicing patterns and estimate isoform abundance.

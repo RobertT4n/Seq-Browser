@@ -1,0 +1,20 @@
+name: SDM
+full_name: SNP Distribution Method
+category: dry
+summary: Identifies genomic fragments carrying causal mutations in forward genetic screens without a reference genome by ordering
+  fragments using SNP distributions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/026856
+  year: 2015
+  journal: bioRxiv
+  first_author: Corredor-Moreno P
+  last_author: MacLean D
+  title: Identification of Genomic Regions Carrying a Causal Mutation in Unordered Genomes
+links: {}
+added: '2026-11-21'
+evidence: SDM orders reads or contigs using distributions of homozygous SNPs linked to a phenotype-altering SNP.

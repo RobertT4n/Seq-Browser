@@ -1,0 +1,24 @@
+name: GobyWeb
+category: dry
+summary: Manages sequencing projects and supports RNA expression, DNA methylation and pathogen analyses through a web interface.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0069666
+  year: 2013
+  journal: PLoS One
+  first_author: Dorff KC
+  last_author: Campagne F
+  pmid: '23936070'
+  pmcid: PMC3720652
+  title: 'GobyWeb: simplified management and analysis of gene expression and DNA methylation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: GobyWeb supports messenger and small RNA quantification, bisulfite sequencing methylation estimation and pathogen
+  detection.

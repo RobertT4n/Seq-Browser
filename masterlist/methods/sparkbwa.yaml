@@ -1,0 +1,20 @@
+name: SparkBWA
+category: dry
+summary: Uses Spark to parallelize BWA alignment of high-throughput DNA sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0155461
+  year: 2016
+  journal: PLoS One
+  first_author: Abuín JM
+  last_author: Amigo J
+  pmid: '27182962'
+  pmcid: PMC4868289
+  title: 'SparkBWA: Speeding Up the Alignment of High-Throughput DNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: SparkBWA uses Spark to improve the performance and scalability of the Burrows-Wheeler Aligner.

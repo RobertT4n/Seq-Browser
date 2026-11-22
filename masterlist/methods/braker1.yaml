@@ -1,0 +1,20 @@
+name: BRAKER1
+category: dry
+summary: Combines GeneMark-ET and AUGUSTUS for unsupervised RNA-seq-based genome annotation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv661
+  year: 2016
+  journal: Bioinformatics
+  first_author: Hoff KJ
+  last_author: Stanke M
+  pmid: '26559507'
+  pmcid: PMC6078167
+  title: 'BRAKER1: Unsupervised RNA-Seq-Based Genome Annotation with GeneMark-ET and AUGUSTUS'
+links: {}
+added: '2026-11-21'
+evidence: BRAKER1 uses a genome assembly and spliced RNA-seq alignments to train and predict gene structures.

@@ -1,0 +1,23 @@
+name: MixTaR
+category: dry
+summary: Detects and reconstructs tandem repeats de novo by combining short and long sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/1755-8794-8-s3-s5
+  year: 2015
+  journal: BMC Med Genomics
+  first_author: Fertin G
+  last_author: Rusu I
+  pmid: '26399998'
+  pmcid: PMC4582210
+  title: Hybrid de novo tandem repeat detection using short and long reads
+links: {}
+added: '2026-11-21'
+evidence: MixTaR finds repeat patterns in short reads, validates them with long reads and reconstructs repeat sequences by
+  local assembly.

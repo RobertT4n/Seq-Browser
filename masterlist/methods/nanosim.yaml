@@ -1,0 +1,24 @@
+name: NanoSim
+category: dry
+summary: Simulator that generates nanopore reads with technology-specific characteristics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/gix010
+  year: 2017
+  journal: Gigascience
+  first_author: Yang C
+  last_author: Birol I
+  pmid: '28327957'
+  pmcid: PMC5530317
+  title: 'NanoSim: nanopore sequence read simulator based on statistical characterization'
+  preprint_doi: 10.1101/044545
+links: {}
+added: '2026-11-21'
+evidence: NanoSim is a read simulator that captures the technology-specific features of Oxford Nanopore data.

@@ -1,0 +1,21 @@
+name: AlignGraph
+category: dry
+summary: Extends and joins de novo genome contigs or scaffolds using paired-end reads and a closely related reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu291
+  year: 2014
+  journal: Bioinformatics
+  first_author: Bao E
+  last_author: Girke T
+  pmid: '24932000'
+  pmcid: PMC4058956
+  title: 'AlignGraph: algorithm for secondary de novo genome assembly guided by closely related references'
+links: {}
+added: '2026-11-21'
+evidence: AlignGraph uses alignments of paired-end reads and preassembled contigs or scaffolds to a close reference to improve
+  assemblies.

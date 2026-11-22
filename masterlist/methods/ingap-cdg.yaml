@@ -1,0 +1,21 @@
+name: inGAP-CDG
+category: dry
+summary: Constructs nonredundant coding sequences from unassembled transcriptomes using a codon-based de Bruijn graph.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-1094-x
+  year: 2016
+  journal: Genome Biol
+  first_author: Peng G
+  last_author: Zhao F
+  pmid: '27855707'
+  pmcid: PMC5114782
+  title: A novel codon-based de Bruijn graph algorithm for gene construction from unassembled transcriptomes
+links: {}
+added: '2026-11-21'
+evidence: inGAP-CDG constructs full-length coding sequences from unassembled transcriptomes and uses machine learning to filter
+  false positives.

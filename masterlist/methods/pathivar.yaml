@@ -1,0 +1,23 @@
+name: PATHiVar
+category: dry
+summary: Integrates genomic variants and tissue gene expression with Boolean pathway models to assess potential effects on
+  signaling.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv349
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Hernansaiz-Ballesteros RD
+  last_author: Dopazo J
+  pmid: '25883139'
+  pmcid: PMC4489259
+  title: Assessing the impact of mutations found in next generation sequencing data over human signaling pathways
+links: {}
+added: '2026-11-21'
+evidence: PATHiVar combines genomic variation with tissue expression information and models mutation effects in signaling
+  pathways.

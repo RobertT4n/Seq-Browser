@@ -1,0 +1,20 @@
+name: Single Cell Genotyper
+category: dry
+summary: Statistical method that infers clonal genotypes from noisy single-cell tumour sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/nmeth.3867
+  year: 2016
+  journal: Nat Methods
+  first_author: Roth A
+  last_author: Shah SP
+  pmid: '27183439'
+  title: Clonal genotype and population structure inference from single-cell tumor sequencing
+links: {}
+added: '2026-11-21'
+evidence: Single Cell Genotyper uses a statistical model and variational inference to infer clonal genotypes despite missing
+  and biased measurements.

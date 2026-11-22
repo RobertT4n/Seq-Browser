@@ -1,0 +1,20 @@
+name: SeqGSA
+category: dry
+summary: SeqGSA performs gene set analysis on RNA-seq data while adjusting for gene length bias.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13040-017-0125-9
+  year: 2017
+  journal: BioData Min
+  first_author: Ren X
+  last_author: Miecznikowski JC
+  pmid: '28184252'
+  pmcid: PMC5294840
+  title: Gene set analysis controlling for length bias in RNA-seq experiments
+links: {}
+added: '2026-11-21'
+evidence: SeqGSA uses weighted sampling to adjust for gene length bias when identifying significant gene sets in RNA-seq experiments.

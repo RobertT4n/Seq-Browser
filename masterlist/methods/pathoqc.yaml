@@ -1,0 +1,21 @@
+name: PathoQC
+category: dry
+summary: Preprocesses high-throughput sequencing reads and removes technical artifacts through a configurable quality-control
+  workflow.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.4137/cin.s13890
+  year: 2014
+  journal: Cancer Inform
+  first_author: Hong C
+  last_author: Johnson WE
+  pmid: '25983538'
+  pmcid: PMC4429651
+  title: 'PathoQC: Computationally Efficient Read Preprocessing and Quality Control for High-Throughput Sequencing Data Sets'
+links: {}
+added: '2026-11-21'
+evidence: PathoQC combines quality-control approaches for preprocessing sequencing data and removing technical artifacts.

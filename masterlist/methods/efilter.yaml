@@ -1,0 +1,20 @@
+name: EFilter
+category: dry
+summary: Estimates mRNA levels from histone modification profiles using signal processing methods.
+readouts:
+- rna
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2596
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Kumar V
+  last_author: Prabhakar S
+  pmid: '23770639'
+  title: Uniform, optimal signal processing of mapped deep-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: EFilter is an estimation algorithm that predicts mRNA levels from as few as one or two histone profiles.

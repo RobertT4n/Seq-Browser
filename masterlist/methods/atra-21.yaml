@@ -1,0 +1,20 @@
+name: ATRA-21
+category: dry
+summary: Predicts tumor sensitivity to all-trans-retinoic acid using a network-guided model of gene expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/annonc/mdw660
+  year: 2017
+  journal: Ann Oncol
+  first_author: Bolis M
+  last_author: Fratelli M
+  pmid: '27993792'
+  pmcid: PMC5834014
+  title: Network-guided modeling allows tumor-type independent prediction of sensitivity to all-trans-retinoic acid
+links: {}
+added: '2026-11-21'
+evidence: ATRA-21 was developed from basal gene expression and drug sensitivity data and generalized across tumor types.

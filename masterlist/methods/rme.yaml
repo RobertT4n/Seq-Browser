@@ -1,0 +1,24 @@
+name: RME
+full_name: restrained MaxExpect
+category: dry
+summary: Predicts RNA secondary structure using a free-energy model constrained by probabilities derived from experimental
+  probing data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv706
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Wu Y
+  last_author: Lu ZJ
+  pmid: '26170232'
+  pmcid: PMC4551937
+  title: Improved prediction of RNA secondary structure by integrating the free energy model with restraints derived from
+    experimental probing data
+links: {}
+added: '2026-11-21'
+evidence: RME incorporates multiple types of experimental RNA structure-probing data as restraints in a free-energy and maximum-expected-accuracy
+  model.

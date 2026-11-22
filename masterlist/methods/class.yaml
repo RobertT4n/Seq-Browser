@@ -1,0 +1,18 @@
+name: CLASS
+category: dry
+summary: Assembles transcript models and splice variants from RNA sequencing reads using a genome-guided splice graph.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/011718
+  year: 2014
+  journal: bioRxiv
+  first_author: Song L
+  last_author: Florea L
+  title: 'CLASS: Accurate and Efficient Splice Variant Annotation from RNA-seq Reads'
+links: {}
+added: '2026-11-21'
+evidence: CLASS performs genome-guided transcriptome assembly using splice graphs and transcript selection algorithms.

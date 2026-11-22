@@ -1,0 +1,22 @@
+name: KOIN
+full_name: knockout implemented normalization
+category: dry
+summary: Uses transcription factor knockout controls to reduce noise and false-positive signals in ChIP-seq maps.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku1078
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Krebs W
+  last_author: Schultze JL
+  pmid: '25378309'
+  pmcid: PMC4245947
+  title: Optimization of transcription factor binding map accuracy utilizing knockout-mouse models
+links: {}
+added: '2026-11-21'
+evidence: KOIN uses transcription factor knockout mice as controls to improve ChIP-seq signal specificity and identify hyper-ChIPable
+  regions.

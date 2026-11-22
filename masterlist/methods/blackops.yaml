@@ -1,0 +1,21 @@
+name: BlackOPs
+category: dry
+summary: Generates experiment-specific blacklists of apparent variants caused by read mismapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkt692
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Cabanski CR
+  last_author: Hayes DN
+  pmid: '23935067'
+  pmcid: PMC3799449
+  title: 'BlackOPs: increasing confidence in variant detection through mappability filtering'
+links: {}
+added: '2026-11-21'
+evidence: BlackOPs simulates reads from a reference, aligns them and outputs positions and alleles that appear as variants
+  because of mismapping.

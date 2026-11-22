@@ -1,0 +1,21 @@
+name: ImmunediveRity
+category: dry
+summary: Reconstructs and analyzes B-cell repertoires from high-throughput antibody sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1080/19420862.2015.1026502
+  year: 2015
+  journal: MAbs
+  first_author: Cortina-Ceballos B
+  last_author: Martínez-Barnetche J
+  pmid: '25875140'
+  pmcid: PMC4622655
+  title: Reconstructing and mining the B cell repertoire with ImmunediveRsity
+links: {}
+added: '2026-11-21'
+evidence: The pipeline performs quality filtering, sequencing noise correction and repertoire reconstruction using V, D and
+  J segment assignment.

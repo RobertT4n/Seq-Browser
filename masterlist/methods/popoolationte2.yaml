@@ -1,0 +1,22 @@
+name: PoPoolationTE2
+category: dry
+summary: Tool for comparing transposable element insertion positions and frequencies across pooled sequencing samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/molbev/msw137
+  year: 2016
+  journal: Mol Biol Evol
+  first_author: Kofler R
+  last_author: Schlötterer C
+  pmid: '27486221'
+  pmcid: PMC5026257
+  title: 'PoPoolationTE2: Comparative Population Genomics of Transposable Elements Using Pool-Seq'
+  preprint_doi: 10.1101/038745
+links: {}
+added: '2026-11-21'
+evidence: PoPoolationTE2 recovers TE insertion frequencies and positions and supports comparisons between pooled population
+  samples.

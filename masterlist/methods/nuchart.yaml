@@ -1,0 +1,21 @@
+name: NuChart
+category: dry
+summary: Builds gene-centered chromatin neighborhood graphs from Hi-C reads for annotation and statistical analysis.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0075146
+  year: 2013
+  journal: PLoS One
+  first_author: Merelli I
+  last_author: Milanesi L
+  pmid: '24069388'
+  pmcid: PMC3777921
+  title: 'NuChart: an R package to study gene spatial neighbourhoods with multi-omics annotations'
+links: {}
+added: '2026-11-21'
+evidence: NuChart identifies Hi-C fragments from sequenced reads and creates gene-centric neighborhood graphs onto which multi-omics
+  features can be mapped.

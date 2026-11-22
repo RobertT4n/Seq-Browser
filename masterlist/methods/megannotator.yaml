@@ -1,0 +1,20 @@
+name: MEGAnnotator
+full_name: Multithreaded Enhanced prokaryotic Genome Annotator
+category: dry
+summary: Pipeline for assembling and annotating microbial genomes from shotgun sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/femsle/fnw049
+  year: 2016
+  journal: FEMS Microbiol Lett
+  first_author: Lugli GA
+  last_author: Ventura M
+  pmid: '26936607'
+  title: 'MEGAnnotator: a user-friendly pipeline for microbial genomes assembly and annotation'
+links: {}
+added: '2026-11-21'
+evidence: MEGAnnotator coordinates software for microbial genome assembly and annotation from DNA shotgun sequencing reads.

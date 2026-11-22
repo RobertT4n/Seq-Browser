@@ -1,0 +1,20 @@
+name: CrossMap
+category: dry
+summary: Converts genomic coordinates between reference assemblies across multiple sequencing and annotation file formats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt730
+  year: 2014
+  journal: Bioinformatics
+  first_author: Zhao H
+  last_author: Wang L
+  pmid: '24351709'
+  pmcid: PMC3967108
+  title: 'CrossMap: a versatile tool for coordinate conversion between genome assemblies'
+links: {}
+added: '2026-11-21'
+evidence: CrossMap converts coordinates between assemblies for formats including BAM, BigWig, BED, and VCF.

@@ -1,0 +1,20 @@
+name: BigQ
+category: dry
+summary: Integrates clinical phenotypes with genomic variant profiles and supports filtered cohort queries.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0861-0
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Gabetta M
+  last_author: Bellazzi R
+  pmid: '26714792'
+  pmcid: PMC4696314
+  title: 'BigQ: a NoSQL based framework to handle genomic variants in i2b2'
+links: {}
+added: '2026-11-21'
+evidence: BigQ extends i2b2 to integrate patient clinical phenotypes with sequencing-derived genomic variant profiles.

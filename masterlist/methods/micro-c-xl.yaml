@@ -1,0 +1,23 @@
+name: Micro-C XL
+category: wet
+summary: A long-crosslinker Micro-C protocol maps chromosome folding from nucleosome to genome scale with improved signal-to-noise.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+- proximity-ligation
+species:
+- microbe
+reference:
+  doi: 10.1101/071357
+  year: 2016
+  journal: bioRxiv
+  first_author: Hsieh TS
+  last_author: Rando OJ
+  title: 'Micro-C XL: assaying chromosome conformation at length scales from the nucleosome to the entire genome'
+links: {}
+added: '2026-11-21'
+evidence: Micro-C XL uses long crosslinkers and maps folding in budding and fission yeast genomes with improved signal-to-noise.

@@ -1,0 +1,25 @@
+name: GERV
+full_name: Generative Evaluation of Regulatory Variants
+category: dry
+summary: Predicts variants affecting transcription factor binding using a sequence model learned from ChIP-seq and DNase-seq
+  data.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv565
+  year: 2016
+  journal: Bioinformatics
+  first_author: Zeng H
+  last_author: Gifford DK
+  pmid: '26476779'
+  pmcid: PMC5860000
+  title: 'GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding'
+  preprint_doi: 10.1101/017392
+links: {}
+added: '2026-11-21'
+evidence: GERV scores variants by the predicted change in ChIP-seq reads between reference and alternate alleles.

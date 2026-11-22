@@ -1,0 +1,22 @@
+name: FunPat
+category: dry
+summary: Integrates gene selection, clustering and functional annotation to identify shared dynamic expression patterns in
+  RNA-seq time series.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-16-s6-s2
+  year: 2015
+  journal: BMC Genomics
+  first_author: Sanavia T
+  last_author: Di Camillo B
+  pmid: '26046293'
+  pmcid: PMC4460925
+  title: 'FunPat: function-based pattern analysis on RNA-seq time series data'
+links: {}
+added: '2026-11-21'
+evidence: FunPat integrates selection and clustering for functional terms to find differentially expressed genes sharing a
+  dynamic expression profile.

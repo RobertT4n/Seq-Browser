@@ -1,0 +1,21 @@
+name: SSUsearch
+category: dry
+summary: Identifies ribosomal gene fragments in shotgun metagenomes for microbial community analysis and classification.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/aem.02772-15
+  year: 2016
+  journal: Appl Environ Microbiol
+  first_author: Guo J
+  last_author: Tiedje JM
+  pmid: '26475107'
+  pmcid: PMC4702641
+  title: Microbial Community Analysis with Ribosomal Gene Fragments from Shotgun Metagenomes
+links: {}
+added: '2026-11-21'
+evidence: SSUsearch identifies small-subunit rRNA gene fragments in shotgun data and supports classification and copy-number
+  correction.

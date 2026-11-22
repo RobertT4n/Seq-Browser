@@ -1,0 +1,22 @@
+name: PINCAGE
+full_name: Probabilistic INtegration of CAncer GEnomics data
+category: dry
+summary: Integrates RNA-seq expression and DNA methylation measurements to identify perturbed genes and classify cancer samples.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv758
+  year: 2016
+  journal: Bioinformatics
+  first_author: Świtnicki MP
+  last_author: Pedersen JS
+  pmid: '26740525'
+  title: 'PINCAGE: probabilistic integration of cancer genomics data for perturbed gene identification and sample classification'
+links: {}
+added: '2026-11-21'
+evidence: PINCAGE models dependence between RNA-seq expression and promoter and gene-body methylation measurements.

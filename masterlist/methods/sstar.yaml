@@ -1,0 +1,22 @@
+name: SSTAR
+full_name: Sequence Search Tool for Antimicrobial Resistance
+category: dry
+summary: Searches genomic data against a customizable database to identify antimicrobial resistance genes and flag potential
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msphere.00050-15
+  year: 2016
+  journal: mSphere
+  first_author: de Man TJ
+  last_author: Limbago BM
+  pmid: '27303709'
+  pmcid: PMC4863618
+  title: SSTAR, a Stand-Alone Easy-To-Use Antimicrobial Resistance Gene Predictor
+links: {}
+added: '2026-11-21'
+evidence: SSTAR uses BLASTN against a customizable database to identify antimicrobial resistance genes and potential new alleles.

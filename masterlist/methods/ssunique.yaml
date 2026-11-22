@@ -1,0 +1,21 @@
+name: SSUnique
+category: dry
+summary: Identifies and characterizes phylogenetically novel sequences in small-subunit rRNA gene libraries.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/msystems.00133-16
+  year: 2016
+  journal: mSystems
+  first_author: Lynch MD
+  last_author: Neufeld JD
+  pmid: '28028549'
+  pmcid: PMC5183599
+  title: 'SSUnique: Detecting Sequence Novelty in Microbiome Surveys'
+links: {}
+added: '2026-11-21'
+evidence: SSUnique filters unclassified or rare operational taxonomic units from 16S rRNA gene libraries and infers their
+  phylogenetic positions.

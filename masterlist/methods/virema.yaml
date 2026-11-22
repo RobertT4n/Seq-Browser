@@ -1,0 +1,22 @@
+name: ViReMa
+full_name: Viral-Recombination-Mapper
+category: dry
+summary: Detects viral recombination junctions and other sequence changes from next-generation sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt916
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Routh A
+  last_author: Johnson JE
+  pmid: '24137010'
+  pmcid: PMC3902915
+  title: Discovery of functional genomic motifs in viruses with ViReMa-a Virus Recombination Mapper-for analysis of next-generation
+    sequencing data
+links: {}
+added: '2026-11-21'
+evidence: ViReMa dynamically generates read segments to detect viral recombination junctions at nucleotide resolution.

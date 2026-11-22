@@ -1,0 +1,27 @@
+name: SCL-exo
+full_name: selective chemical labeling and exonuclease digestion
+category: wet
+summary: Maps genomic 5-hydroxymethylcytosine at single-CpG resolution using selective chemical labeling and exonuclease digestion.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+reference:
+  doi: 10.1186/s13059-016-0919-y
+  year: 2016
+  journal: Genome Biol
+  first_author: Sérandour AA
+  last_author: Salbert G
+  pmid: '27025842'
+  pmcid: PMC4810514
+  title: Single-CpG resolution mapping of 5-hydroxymethylcytosine by chemical labeling and exonuclease digestion identifies
+    evolutionarily unconserved CpGs as TET targets
+links: {}
+added: '2026-11-21'
+evidence: SCL-exo combines selective chemical labeling of 5hmC with exonuclease digestion of bead-trapped DNA molecules.

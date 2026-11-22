@@ -1,0 +1,22 @@
+name: BSeQC
+category: dry
+summary: Evaluates bisulfite sequencing quality and trims nucleotides with potential technical biases.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt548
+  year: 2013
+  journal: Bioinformatics
+  first_author: Lin X
+  last_author: Li W
+  pmid: '24064417'
+  pmcid: PMC3842756
+  title: 'BSeQC: quality control of bisulfite sequencing experiments'
+links: {}
+added: '2026-11-21'
+evidence: BSeQC evaluates BS-seq experiments and trims nucleotides with potential technical biases that may lead to inaccurate
+  methylation estimates.

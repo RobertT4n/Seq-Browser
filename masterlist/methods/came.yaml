@@ -1,0 +1,21 @@
+name: CAME
+full_name: Chromatin Accessibility and Methylation
+category: dry
+summary: Identifies chromatin accessibility from NOMe-seq data using a seed-extension approach.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw785
+  year: 2017
+  journal: Bioinformatics
+  first_author: Piao Y
+  last_author: Choi JH
+  pmid: '28035030'
+  pmcid: PMC6041946
+  title: 'CAME: identification of chromatin accessibility from nucleosome occupancy and methylome sequencing'
+links: {}
+added: '2026-11-21'
+evidence: CAME is a seed-extension based approach that identifies chromatin accessibility from NOMe-seq.

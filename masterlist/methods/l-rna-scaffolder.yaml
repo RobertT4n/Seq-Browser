@@ -1,0 +1,21 @@
+name: L_RNA_scaffolder
+category: dry
+summary: Uses long transcriptome reads to order, orient, and join genomic fragments into scaffolds.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-604
+  year: 2013
+  journal: BMC Genomics
+  first_author: Xue W
+  last_author: Sun XW
+  pmid: '24010822'
+  pmcid: PMC3846640
+  title: 'L_RNA_scaffolder: scaffolding genomes with transcripts'
+links: {}
+added: '2026-11-21'
+evidence: L_RNA_scaffolder uses long transcriptome reads to order, orient, and combine genomic fragments into larger sequences.

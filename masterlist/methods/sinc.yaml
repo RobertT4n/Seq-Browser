@@ -1,0 +1,22 @@
+name: SInC
+full_name: Snp, Indel and Cnv
+category: dry
+summary: Simulates SNPs, indels, and copy-number variants and generates short reads using a sequencing error model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-40
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Pattnaik S
+  last_author: Panda B
+  pmid: '24495296'
+  pmcid: PMC3926339
+  title: 'SInC: an accurate and fast error-model based simulator for SNPs, Indels and CNVs coupled with a read generator for
+    short-read sequence data'
+links: {}
+added: '2026-11-21'
+evidence: SInC simulates the three types of variants and generates reads using a distribution of base quality scores.

@@ -1,0 +1,20 @@
+name: MIGEC
+full_name: molecular identifier groups-based error correction
+category: dry
+summary: Corrects PCR and sequencing errors in immune repertoire sequencing data while preserving repertoire diversity.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/nmeth.2960
+  year: 2014
+  journal: Nat Methods
+  first_author: Shugay M
+  last_author: Chudakov DM
+  pmid: '24793455'
+  title: Towards error-free profiling of immune repertoires
+links: {}
+added: '2026-11-21'
+evidence: MIGEC provides error correction while preserving the natural diversity of antibody and T cell-receptor repertoires.

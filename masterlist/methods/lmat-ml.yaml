@@ -1,0 +1,19 @@
+name: LMAT-ML
+full_name: Livermore Metagenomics Analysis Toolkit-Marker Library
+category: dry
+summary: Profiles microbes in metagenomic sequence data using a memory-efficient marker library.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/036681
+  year: 2016
+  journal: bioRxiv
+  first_author: Gardner SN
+  last_author: Allen JE
+  title: Searching more genomic sequence with less memory for fast and accurate metagenomic profiling
+links: {}
+added: '2026-11-21'
+evidence: LMAT-ML provides microbial profiling of metagenomic sequence data using 24 GB of memory or less with flash storage.

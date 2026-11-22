@@ -1,0 +1,19 @@
+name: npReader
+category: dry
+summary: Streams MinION sequence reads to analysis pipelines and displays run statistics in real time.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv658
+  year: 2016
+  journal: Bioinformatics
+  first_author: Cao MD
+  last_author: Coin LJ
+  pmid: '26556383'
+  title: Realtime analysis and visualization of MinION sequencing data with npReader
+links: {}
+added: '2026-11-21'
+evidence: npReader extracts and streams sequence reads during MinION sequencing while displaying run statistics.

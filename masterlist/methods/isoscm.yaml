@@ -1,0 +1,21 @@
+name: IsoSCM
+full_name: Isoform Structural Change Model
+category: dry
+summary: Uses change-point analysis to assemble transcripts and improve annotation of 3′ UTR isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.046037.114
+  year: 2015
+  journal: RNA
+  first_author: Shenker S
+  last_author: Lai EC
+  pmid: '25406361'
+  pmcid: PMC4274634
+  title: 'IsoSCM: improved and alternative 3'' UTR annotation using multiple change-point inference'
+links: {}
+added: '2026-11-21'
+evidence: IsoSCM incorporates change-point analysis into transcript assembly to improve 3′ UTR annotation.

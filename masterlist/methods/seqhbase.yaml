@@ -1,0 +1,20 @@
+name: SeqHBase
+category: dry
+summary: Uses distributed computing to analyze family sequencing data and identify candidate disease-associated variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1136/jmedgenet-2014-102907
+  year: 2015
+  journal: J Med Genet
+  first_author: He M
+  last_author: Wang K
+  pmid: '25587064'
+  pmcid: PMC4382803
+  title: 'SeqHBase: a big data toolset for family based sequencing data analysis'
+links: {}
+added: '2026-11-21'
+evidence: SeqHBase analyzes family sequencing data for de novo, inherited homozygous and compound heterozygous mutations.

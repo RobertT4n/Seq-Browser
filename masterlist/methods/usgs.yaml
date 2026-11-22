@@ -1,0 +1,28 @@
+name: uSGS
+full_name: ultrasensitive Single-Genome Sequencing
+category: wet
+summary: Primer ID tagging and targeted sequencing generate accurate HIV-1 single-genome sequences while reducing PCR errors
+  and recombinants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1186/s12977-016-0321-6
+  year: 2016
+  journal: Retrovirology
+  first_author: Boltz VF
+  last_author: Coffin JM
+  pmid: '27998286'
+  pmcid: PMC5175307
+  title: 'Ultrasensitive single-genome sequencing: accurate, targeted, next generation sequencing of HIV-1 RNA'
+links: {}
+added: '2026-11-21'
+evidence: uSGS uses Primer ID-tagged cDNA to generate HIV-1 single-genome sequences with more than 100-fold greater depth
+  than the conventional assay.

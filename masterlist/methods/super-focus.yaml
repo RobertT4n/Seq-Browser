@@ -1,0 +1,21 @@
+name: SUPER-FOCUS
+full_name: SUbsystems Profile by databasE Reduction using FOCUS
+category: dry
+summary: Uses a reduced reference database to profile functional subsystems and their abundances in shotgun metagenomic data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv584
+  year: 2016
+  journal: Bioinformatics
+  first_author: Silva GG
+  last_author: Edwards RA
+  pmid: '26454280'
+  pmcid: PMC4734042
+  title: 'SUPER-FOCUS: a tool for agile functional analysis of shotgun metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: SUPER-FOCUS uses a homology-based approach to report subsystems and their abundances in metagenomic datasets.

@@ -1,0 +1,21 @@
+name: ConPADE
+full_name: Contig Ploidy and Allele Dosage Estimation
+category: dry
+summary: Estimates contig or scaffold ploidy from allele proportions in whole-genome shotgun sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1004229
+  year: 2015
+  journal: PLoS Comput Biol
+  first_author: Margarido GR
+  last_author: Heckerman D
+  pmid: '25880203'
+  pmcid: PMC4400156
+  title: 'ConPADE: genome assembly ploidy estimation from next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: ConPADE is a probabilistic method that estimates the ploidy of a contig or scaffold from its allele proportions.

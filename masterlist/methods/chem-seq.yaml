@@ -1,0 +1,28 @@
+name: Chem-seq
+category: wet
+summary: Chem-seq combines ligand-affinity capture with DNA sequencing to map sites associated with small molecules across
+  the genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/nbt.2776
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Anders L
+  last_author: Young RA
+  pmid: '24336317'
+  pmcid: PMC4189815
+  title: Genome-wide localization of small molecules
+links: {}
+added: '2026-11-21'
+evidence: Ligand-affinity capture and massively parallel DNA sequencing identified sites bound by small chemical molecules
+  throughout the human genome.

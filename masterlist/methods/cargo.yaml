@@ -1,0 +1,21 @@
+name: CARGO
+full_name: Compressed ARchiving for GenOmics
+category: dry
+summary: Framework for generating software that compresses collections of genomic data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw318
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Roguski Ł
+  last_author: Ribeca P
+  pmid: '27131376'
+  pmcid: PMC4937321
+  title: 'CARGO: effective format-free compressed storage of genomic information'
+links: {}
+added: '2026-11-21'
+evidence: CARGO generates compressed-storage systems for arbitrary genomic data collections, including FASTQ and SAM archives.

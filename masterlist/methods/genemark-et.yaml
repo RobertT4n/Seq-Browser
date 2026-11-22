@@ -1,0 +1,21 @@
+name: GeneMark-ET
+category: dry
+summary: Detects somatic mutations by integrating patient-matched RNA-seq and DNA whole-exome sequencing.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gku557
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Lomsadze A
+  last_author: Borodovsky M
+  pmid: '24990371'
+  pmcid: PMC4150757
+  title: Integration of mapped RNA-Seq reads into automatic training of eukaryotic gene finding algorithm
+links: {}
+added: '2026-11-21'
+evidence: UNCeqR integrates RNA-seq and DNA-WES to improve somatic mutation detection, particularly in low-purity tumors.

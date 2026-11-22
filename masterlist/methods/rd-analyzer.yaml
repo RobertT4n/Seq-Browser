@@ -1,0 +1,20 @@
+name: RD-Analyzer
+category: dry
+summary: Infers Mycobacterium tuberculosis complex species and lineages from regions of difference in sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12864-016-3213-1
+  year: 2016
+  journal: BMC Genomics
+  first_author: Faksri K
+  last_author: Ong RT
+  pmid: '27806686'
+  pmcid: PMC5093977
+  title: In silico region of difference (RD) analysis of Mycobacterium tuberculosis complex from sequence reads using RD-Analyzer
+links: {}
+added: '2026-11-21'
+evidence: RD-Analyzer infers species and lineage from the presence or absence of a set of 31 regions of difference.

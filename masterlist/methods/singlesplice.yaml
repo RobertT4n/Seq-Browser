@@ -1,0 +1,21 @@
+name: SingleSplice
+category: dry
+summary: Statistical method for detecting biological variation in isoform usage across single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv1525
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Welch JD
+  last_author: Prins JF
+  pmid: '26740580'
+  pmcid: PMC4856971
+  title: Robust detection of alternative splicing in a population of single cells
+links: {}
+added: '2026-11-21'
+evidence: SingleSplice detects genes whose isoform usage varies biologically beyond technical noise in a population of single
+  cells.

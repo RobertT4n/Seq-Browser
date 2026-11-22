@@ -1,0 +1,21 @@
+name: MapDisto 2.0
+category: dry
+summary: Constructs genetic linkage maps from experimental population genotypes and supports imputation and QTL detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx177
+  year: 2017
+  journal: Bioinformatics
+  first_author: Heffelfinger C
+  last_author: Lorieux M
+  pmid: '28369214'
+  pmcid: PMC5870660
+  title: Constructing linkage maps in the genomics era with MapDisto 2.0
+  preprint_doi: 10.1101/089177
+links: {}
+added: '2026-11-21'
+evidence: MapDisto 2.0 constructs linkage maps, handles large genotyping datasets, and includes VCF imputation and a QTL interface.

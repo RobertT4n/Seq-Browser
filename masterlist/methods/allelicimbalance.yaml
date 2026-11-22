@@ -1,0 +1,22 @@
+name: AllelicImbalance
+category: dry
+summary: Detects, manages and visualizes allele-specific expression imbalance in aligned RNA-sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0620-2
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Gådin JR
+  last_author: Folkersen L
+  pmid: '26066318'
+  pmcid: PMC4465016
+  title: 'AllelicImbalance: an R/bioconductor package for detecting, managing, and visualizing allele expression imbalance
+    data from RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The software provides a framework for allelic imbalance analysis of aligned RNA-sequencing data, from detection
+  to visualization.

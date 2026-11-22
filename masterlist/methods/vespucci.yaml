@@ -1,0 +1,21 @@
+name: Vespucci
+category: dry
+summary: Identifies nascent transcript regions de novo from GRO-seq data and stores them with reference annotations.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt1237
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Allison KA
+  last_author: Glass CK
+  pmid: '24304890'
+  pmcid: PMC3936758
+  title: 'Vespucci: a system for building annotated databases of nascent transcripts'
+links: {}
+added: '2026-11-21'
+evidence: Vespucci identifies transcriptional units from GRO-seq reads, stores transcript regions, and associates them with
+  known annotations.

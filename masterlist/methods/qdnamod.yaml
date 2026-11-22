@@ -1,0 +1,27 @@
+name: qDNAmod
+category: dry
+summary: Estimates intercellular heterogeneity of DNA modifications from SMRT sequencing data.
+readouts:
+- dna-methylation
+- dna-6ma
+- dna-4mc
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/nar/gku1097
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Feng Z
+  last_author: Zhang X
+  pmid: '25404133'
+  pmcid: PMC4267614
+  title: 'qDNAmod: a statistical model-based tool to reveal intercellular heterogeneity of DNA modification from SMRT sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: qDNAmod profiles intercellular heterogeneity of DNA modification genome-wide from SMRT sequencing data.

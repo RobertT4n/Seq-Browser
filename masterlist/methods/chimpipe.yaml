@@ -1,0 +1,21 @@
+name: ChimPipe
+category: dry
+summary: Identifies chimeric transcripts from paired-end RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-3404-9
+  year: 2017
+  journal: BMC Genomics
+  first_author: Rodríguez-Martín B
+  last_author: Djebali S
+  pmid: '28049418'
+  pmcid: PMC5209911
+  title: 'ChimPipe: accurate detection of fusion genes and transcription-induced chimeras from RNA-seq data'
+  preprint_doi: 10.1101/070888
+links: {}
+added: '2026-11-21'
+evidence: ChimPipe identifies chimeras from paired-end Illumina RNA-seq data.

@@ -1,0 +1,24 @@
+name: epiGBS
+category: wet
+summary: Uses reduced-representation bisulfite sequencing and de novo analysis to compare DNA methylation and genetic variation.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/nmeth.3763
+  year: 2016
+  journal: Nat Methods
+  first_author: van Gurp TP
+  last_author: Verhoeven KJ
+  pmid: '26855363'
+  title: 'epiGBS: reference-free reduced representation bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: epiGBS combines genotyping by sequencing of bisulfite-converted DNA with de novo reference construction and distinction
+  of SNPs from methylation variation.

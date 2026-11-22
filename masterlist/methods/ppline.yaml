@@ -1,0 +1,22 @@
+name: PPLine
+category: dry
+summary: Discovers sequence and splice variants and predicts proteotypic peptides from transcriptome and exome sequencing
+  data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jproteome.5b00490
+  year: 2015
+  journal: J Proteome Res
+  first_author: Krasnov GS
+  last_author: Ponomarenko EA
+  pmid: '26147802'
+  title: 'PPLine: An Automated Pipeline for SNP, SAP, and Splice Variant Detection in the Context of Proteogenomics'
+links: {}
+added: '2026-11-21'
+evidence: PPLine automates discovery of single-amino-acid polymorphisms, indels and alternative splice variants and predicts
+  proteotypic peptides.

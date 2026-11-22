@@ -1,0 +1,27 @@
+name: SMORE-seq
+full_name: simultaneous mapping of RNA ends by sequencing
+category: wet
+summary: SMORE-seq simultaneously maps transcript start and polyadenylation sites at single-nucleotide resolution.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkt1366
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Park D
+  last_author: Iyer VR
+  pmid: '24413663'
+  pmcid: PMC3973313
+  title: Simultaneous mapping of transcript ends at single-nucleotide resolution and identification of widespread promoter-associated
+    non-coding RNA governed by TATA elements
+links: {}
+added: '2026-11-21'
+evidence: SMORE-seq simultaneously identified the strongest transcription start sites for 5,207 genes and polyadenylation
+  sites for 5,277 genes.

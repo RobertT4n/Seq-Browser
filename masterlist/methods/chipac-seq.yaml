@@ -1,0 +1,25 @@
+name: ChIPac-seq
+full_name: chromatin immunoprecipitation of acetylated chromatin followed by sequencing
+category: wet
+summary: Uses immunoprecipitation of acetylated chromatin and sequencing to identify regions with cleaved histone H3 N-terminal
+  tails.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/gad.268714.115
+  year: 2016
+  journal: Genes Dev
+  first_author: Kim K
+  last_author: An W
+  pmid: '26744418'
+  title: MMP-9 facilitates selective proteolysis of the histone H3 tail at genes necessary for proficient osteoclastogenesis
+links: {}
+added: '2026-11-21'
+evidence: ChIPac-seq was used in a cell model of osteoclast differentiation to identify H3 N-terminal tail-cleaved regions.

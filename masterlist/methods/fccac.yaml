@@ -1,0 +1,21 @@
+name: fCCAC
+category: dry
+summary: Uses functional canonical correlation analysis to assess covariance between nucleic acid sequencing datasets.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw724
+  year: 2017
+  journal: Bioinformatics
+  first_author: Madrigal P
+  last_author: Madrigal P
+  pmid: '27993776'
+  pmcid: PMC5408813
+  title: 'fCCAC: functional canonical correlation analysis to evaluate covariance between nucleic acid sequencing datasets'
+links: {}
+added: '2026-11-21'
+evidence: fCCAC revealed shared covariance between histone modifications and DNA-binding proteins in sequencing datasets.

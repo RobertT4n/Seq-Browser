@@ -1,0 +1,21 @@
+name: ParsSNP
+category: dry
+summary: Prioritizes cancer driver mutations using an unsupervised, parsimony-guided functional impact model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ng.3658
+  year: 2016
+  journal: Nat Genet
+  first_author: Kumar RD
+  last_author: Bose R
+  pmid: '27618449'
+  pmcid: PMC5328615
+  title: Unsupervised detection of cancer driver mutations with parsimony-guided learning
+links: {}
+added: '2026-11-21'
+evidence: ParsSNP uses an expectation-maximization framework to find mutations that broadly explain tumor incidence without
+  predefined training labels.

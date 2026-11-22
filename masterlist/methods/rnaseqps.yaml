@@ -1,0 +1,20 @@
+name: RNAseqPS
+category: dry
+summary: Calculates sample size and statistical power for RNA sequencing experiments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.4137/cin.s17688
+  year: 2014
+  journal: Cancer Inform
+  first_author: Guo Y
+  last_author: Shyr Y
+  pmid: '25374457'
+  pmcid: PMC4213196
+  title: 'RNAseqPS: A Web Tool for Estimating Sample Size and Power for RNAseq Experiment'
+links: {}
+added: '2026-11-21'
+evidence: RNAseqPS is an online RNA-seq power and sample size calculator based on Poisson and negative binomial distributions.

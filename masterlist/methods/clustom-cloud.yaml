@@ -1,0 +1,20 @@
+name: CLUSTOM-CLOUD
+category: dry
+summary: Distributed software for clustering 16S rRNA sequencing reads into operational taxonomic units.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0151064
+  year: 2016
+  journal: PLoS One
+  first_author: Oh J
+  last_author: Kim KM
+  pmid: '26954507'
+  pmcid: PMC4783016
+  title: 'CLUSTOM-CLOUD: In-Memory Data Grid-Based Software for Clustering 16S rRNA Sequence Data in the Cloud Environment'
+links: {}
+added: '2026-11-21'
+evidence: CLUSTOM-CLOUD clusters 16S rRNA reads using a distributed in-memory data grid.

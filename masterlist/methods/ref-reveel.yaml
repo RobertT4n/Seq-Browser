@@ -1,0 +1,19 @@
+name: Ref-Reveel
+category: dry
+summary: Calls population genotypes from low-coverage whole-genome sequencing data and can use a reference genotype panel.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/085936
+  year: 2016
+  journal: bioRxiv
+  first_author: Huang L
+  last_author: Batzoglou S
+  title: Population Genotype Calling from Low-coverage Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: Ref-Reveel performs large-scale population genotyping and uses resulting genotype panels as references for newly
+  sequenced genomes.

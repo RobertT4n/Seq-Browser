@@ -1,0 +1,23 @@
+name: GAVIN
+full_name: Gene-Aware Variant INterpretation
+category: dry
+summary: Classifies variants for molecular diagnostics using gene-specific calibrations of allele frequency, effect impact
+  and deleteriousness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-016-1141-7
+  year: 2017
+  journal: Genome Biol
+  first_author: van der Velde KJ
+  last_author: Swertz MA
+  pmid: '28093075'
+  pmcid: PMC5240400
+  title: 'GAVIN: Gene-Aware Variant INterpretation for medical sequencing'
+  preprint_doi: 10.1101/072330
+links: {}
+added: '2026-11-21'
+evidence: GAVIN uses gene-specific calibrations for more than 3,000 genes to classify variants.

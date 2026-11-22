@@ -1,0 +1,22 @@
+name: CLImAT
+full_name: CNA and LOH Assessment in Impure and Aneuploid Tumors
+category: dry
+summary: Identifies copy number alterations and loss of heterozygosity in impure, aneuploid tumors from whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu346
+  year: 2014
+  journal: Bioinformatics
+  first_author: Yu Z
+  last_author: Li A
+  pmid: '24845652'
+  pmcid: PMC4155249
+  title: 'CLImAT: accurate detection of copy number alteration and loss of heterozygosity in impure and aneuploid tumor samples
+    using whole-genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CLImAT integrates read depth and allelic frequency to identify genomic aberrations without a matched normal sample.

@@ -1,0 +1,21 @@
+name: CGES
+full_name: Consensus Genotyper for Exome Sequencing
+category: dry
+summary: Combines calls from multiple variant-calling algorithms to improve exome variant genotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu591
+  year: 2015
+  journal: Bioinformatics
+  first_author: Trubetskoy V
+  last_author: Davis LK
+  pmid: '25270638'
+  pmcid: PMC4287941
+  title: 'Consensus Genotyper for Exome Sequencing (CGES): improving the quality of exome variant genotypes'
+links: {}
+added: '2026-11-21'
+evidence: CGES uses a two-stage voting scheme among variant-calling algorithm implementations.

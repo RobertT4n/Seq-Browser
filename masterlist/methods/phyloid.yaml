@@ -1,0 +1,22 @@
+name: PhyloID
+category: dry
+summary: Assembles sequencing reads and assigns taxonomic origins to sequences in heterogeneous samples using phylogenomic
+  comparisons.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.5731/pdajpst.2014.01023
+  year: 2014
+  journal: PDA J Pharm Sci Technol
+  first_author: Charlebois RL
+  last_author: Mallet L
+  pmid: '25475635'
+  title: 'Cataloguing the taxonomic origins of sequences from a heterogeneous sample using phylogenomics: applications in
+    adventitious agent detection'
+links: {}
+added: '2026-11-21'
+evidence: PhyloID assembles reads into contigs and identifies the taxonomic origins of contigs and singletons using phylogenomic
+  distance matrices.

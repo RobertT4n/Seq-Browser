@@ -1,0 +1,22 @@
+name: SEECER
+full_name: SEquencing Error CorrEction in Rna-seq data
+category: dry
+summary: Corrects RNA-seq read errors using hidden Markov models that account for abundance variation, polymorphisms and alternative
+  splicing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt215
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Le HS
+  last_author: Bar-Joseph Z
+  pmid: '23558750'
+  pmcid: PMC3664804
+  title: Probabilistic error correction for RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: SEECER learns hidden Markov models to correct RNA-seq errors and improve read alignment and transcript assembly.

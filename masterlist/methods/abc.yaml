@@ -1,0 +1,21 @@
+name: ABC
+category: dry
+summary: Identifies allele-specific transcription factor binding at heterozygous variants from aligned ChIP-seq reads.
+readouts:
+- protein-dna-binding
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv321
+  year: 2015
+  journal: Bioinformatics
+  first_author: Bailey SD
+  last_author: Lupien M
+  pmid: '25995231'
+  pmcid: PMC4668780
+  title: 'ABC: a tool to identify SNVs causing allele-specific transcription factor binding from ChIP-Seq experiments'
+links: {}
+added: '2026-11-21'
+evidence: ABC detects allelic binding imbalances at heterozygous SNVs while controlling for biases associated with short reads.

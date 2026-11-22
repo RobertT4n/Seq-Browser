@@ -1,0 +1,22 @@
+name: Amplicon Pyrosequence Denoising Program
+category: dry
+summary: Denoises environmental amplicon sequencing datasets to distinguish biological sequence diversity from PCR and sequencing
+  errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0071974
+  year: 2013
+  journal: PLoS One
+  first_author: Morgan MJ
+  last_author: Hardy CM
+  pmid: '23991013'
+  pmcid: PMC3753314
+  title: Improved inference of taxonomic richness from environmental DNA
+links: {}
+added: '2026-11-21'
+evidence: The pipeline uses sequence abundance and diversity within and across samples to produce validated sequences from
+  raw datasets.

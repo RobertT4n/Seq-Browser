@@ -1,0 +1,22 @@
+name: CMT
+full_name: Constrained Multi-level Thresholding
+category: dry
+summary: Detects enriched regions in ChIP-seq data using constrained multilevel thresholding.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0093873
+  year: 2014
+  journal: PLoS One
+  first_author: Rezaeian I
+  last_author: Rueda L
+  pmid: '24736605'
+  pmcid: PMC3988018
+  title: 'CMT: a constrained multi-level thresholding approach for ChIP-Seq data analysis'
+links: {}
+added: '2026-11-21'
+evidence: CMT detects enriched ChIP-seq regions and was tested on transcription factor and H3K4ac datasets.

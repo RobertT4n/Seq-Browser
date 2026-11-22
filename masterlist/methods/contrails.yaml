@@ -1,0 +1,23 @@
+name: CONTRAILS
+full_name: Characterization of Transgene Insertion Locations with Sequencing
+category: dry
+summary: Identifies transgene insertion sites using low-coverage paired-end sequencing and traditional PCR.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gdata.2015.09.001
+  year: 2015
+  journal: Genom Data
+  first_author: Lambirth KC
+  last_author: Piller KJ
+  pmid: '26697366'
+  pmcid: PMC4664744
+  title: 'CONTRAILS: A tool for rapid identification of transgene integration sites in complex, repetitive genomes using low-coverage
+    paired-end sequencing'
+links: {}
+added: '2026-11-21'
+evidence: CONTRAILS identified a single T-DNA insertion in transgenic soybean to single-base resolution using whole-genome
+  sequencing.

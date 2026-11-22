@@ -1,0 +1,22 @@
+name: HiC-bench
+category: dry
+summary: Provides a configurable platform for processing and analyzing Hi-C data with quality assessment and parameter exploration.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-016-3387-6
+  year: 2017
+  journal: BMC Genomics
+  first_author: Lazaris C
+  last_author: Tsirigos A
+  pmid: '28056762'
+  pmcid: PMC5217551
+  title: 'HiC-bench: comprehensive and reproducible Hi-C data analysis designed for parameter exploration and benchmarking'
+  preprint_doi: 10.1101/084954
+links: {}
+added: '2026-11-21'
+evidence: HiC-bench performs Hi-C analysis tasks including alignment, filtering, contact matrix normalization, and topological
+  domain identification.

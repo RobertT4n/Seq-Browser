@@ -1,0 +1,24 @@
+name: Organelle-PBA
+category: dry
+summary: Organelle-PBA assembles chloroplast and mitochondrial genomes from PacBio sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12864-016-3412-9
+  year: 2017
+  journal: BMC Genomics
+  first_author: Soorni A
+  last_author: Bombarely A
+  pmid: '28061749'
+  pmcid: PMC5219736
+  title: Organelle_PBA, a pipeline for assembling chloroplast and mitochondrial genomes from PacBio DNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: Organelle-PBA selects organelle reads and performs correction, assembly and scaffolding to reconstruct organelle
+  genomes.

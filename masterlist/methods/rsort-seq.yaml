@@ -1,0 +1,25 @@
+name: RSort-Seq
+category: wet
+summary: Combines saturating mutagenesis, cell sorting and sequencing to map nucleotides important for regulatory RNA function.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1073/pnas.1518958112
+  year: 2015
+  journal: Proc Natl Acad Sci U S A
+  first_author: Rutherford ST
+  last_author: Bassler BL
+  pmid: '26483489'
+  pmcid: PMC4640798
+  title: Comprehensive analysis reveals how single nucleotides contribute to noncoding RNA function in bacterial quorum sensing
+links: {}
+added: '2026-11-21'
+evidence: RSort-Seq combines saturating mutagenesis, fluorescence-activated cell sorting, sequencing and mutual information
+  analysis to study Qrr4 regulation.

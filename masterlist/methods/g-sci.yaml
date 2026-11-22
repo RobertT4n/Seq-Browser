@@ -1,0 +1,22 @@
+name: G-SCI
+full_name: genotype-independent signal correlation and imbalance
+category: dry
+summary: Detects regulatory quantitative trait loci from ChIP-seq data by jointly testing signal correlation and allelic imbalance.
+readouts:
+- histone-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3326
+  year: 2015
+  journal: Nat Methods
+  first_author: del Rosario RC
+  last_author: Prabhakar S
+  pmid: '25799442'
+  title: Sensitive detection of chromatin-altering polymorphisms reveals autoimmune disease mechanisms
+links: {}
+added: '2026-11-21'
+evidence: The G-SCI test simultaneously scores peak height correlation and allelic imbalance to detect regulatory QTLs without
+  separate genotyping.

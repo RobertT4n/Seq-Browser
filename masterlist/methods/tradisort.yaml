@@ -1,0 +1,29 @@
+name: TraDISort
+category: wet
+summary: Fluorescence-activated sorting and transposon insertion sequencing identify genes affecting antimicrobial accumulation.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+- chemical-perturbation
+scope: genome-wide
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1128/mbio.01200-16
+  year: 2016
+  journal: mBio
+  first_author: Hassan KA
+  last_author: Paulsen IT
+  pmid: '27601573'
+  pmcid: PMC5013296
+  title: Fluorescence-Based Flow Sorting in Parallel with Transposon Insertion Site Sequencing Identifies Multidrug Efflux
+    Systems in Acinetobacter baumannii
+links: {}
+added: '2026-11-21'
+evidence: Ethidium-treated Acinetobacter baumannii transposon mutants were sorted by fluorescence and their insertion locations
+  sequenced.

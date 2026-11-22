@@ -1,0 +1,27 @@
+name: SMALR
+full_name: single-molecule modification analysis of long reads
+category: dry
+summary: Detects and phases bacterial DNA methylation at the single-molecule level using long-read sequencing.
+readouts:
+- dna-methylation
+- dna-6ma
+- dna-4mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/ncomms8438
+  year: 2015
+  journal: Nat Commun
+  first_author: Beaulaurier J
+  last_author: Fang G
+  pmid: '26074426'
+  pmcid: PMC4490391
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+links: {}
+added: '2026-11-21'
+evidence: SMALR is a framework for single-molecule detection and phasing of DNA methylation demonstrated in seven bacterial
+  strains using SMRT sequencing.

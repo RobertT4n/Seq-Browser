@@ -1,0 +1,22 @@
+name: FMAP
+full_name: Functional Mapping and Analysis Pipeline
+category: dry
+summary: Aligns metagenomic and metatranscriptomic reads and analyzes gene family, operon, and pathway abundance.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1278-0
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Kim J
+  last_author: Zhan X
+  pmid: '27724866'
+  pmcid: PMC5057277
+  title: 'FMAP: Functional Mapping and Analysis Pipeline for metagenomics and metatranscriptomics studies'
+links: {}
+added: '2026-11-21'
+evidence: FMAP performs alignment, gene family abundance calculations, and statistical analysis of genes, operons, and pathways.

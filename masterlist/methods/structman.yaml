@@ -1,0 +1,21 @@
+name: StructMAn
+category: dry
+summary: Annotates non-synonymous variants in the context of available three-dimensional protein structures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw364
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Gress A
+  last_author: Kalinina OV
+  pmid: '27150811'
+  pmcid: PMC4987916
+  title: 'StructMAn: annotation of single-nucleotide polymorphisms in the structural context'
+links: {}
+added: '2026-11-21'
+evidence: StructMAn analyzes the position of residues affected by non-synonymous variants relative to proteins, nucleic acids
+  and ligands.

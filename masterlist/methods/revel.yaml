@@ -1,0 +1,21 @@
+name: REVEL
+full_name: rare exome variant ensemble learner
+category: dry
+summary: Predicts the pathogenicity of rare missense variants using an ensemble of individual prediction tools.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.ajhg.2016.08.016
+  year: 2016
+  journal: Am J Hum Genet
+  first_author: Ioannidis NM
+  last_author: Sieh W
+  pmid: '27666373'
+  pmcid: PMC5065685
+  title: 'REVEL: An Ensemble Method for Predicting the Pathogenicity of Rare Missense Variants'
+links: {}
+added: '2026-11-21'
+evidence: REVEL combines predictions from individual tools to assess missense variant pathogenicity.

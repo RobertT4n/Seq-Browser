@@ -1,0 +1,23 @@
+name: SEQualyzer
+category: dry
+summary: SEQualyzer provides interactive quality control and exploratory analysis for sequencing-based RNA structure profiling
+  data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw627
+  year: 2017
+  journal: Bioinformatics
+  first_author: Choudhary K
+  last_author: Aviran S
+  pmid: '28172632'
+  pmcid: PMC6075182
+  title: 'SEQualyzer: interactive tool for quality control and exploratory analysis of high-throughput RNA structural profiling
+    data'
+links: {}
+added: '2026-11-21'
+evidence: SEQualyzer gauges data quality, screens transcripts for high-quality information and identifies discordant replicates
+  in structure profiling experiments.

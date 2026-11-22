@@ -1,0 +1,20 @@
+name: PlantMirnaT
+category: dry
+summary: Integrates plant miRNA and mRNA sequencing data to infer regulatory relationships between miRNAs and their targets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2015.04.003
+  year: 2015
+  journal: Methods
+  first_author: Rhee S
+  last_author: Kim S
+  pmid: '25863133'
+  title: 'PlantMirnaT: miRNA and mRNA integrated analysis fully utilizing characteristics of plant sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PlantMirnaT uses miRNA expression and its distribution on target mRNAs in an integrated analysis of plant sequencing
+  data.

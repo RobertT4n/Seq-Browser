@@ -1,0 +1,21 @@
+name: ASEQ
+category: dry
+summary: Performs gene-level allele-specific expression analysis using paired genomic and transcriptomic sequencing data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-015-0084-2
+  year: 2015
+  journal: BMC Med Genomics
+  first_author: Romanel A
+  last_author: Demichelis F
+  pmid: '25889339'
+  pmcid: PMC4363342
+  title: 'ASEQ: fast allele-specific studies from next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: ASEQ analyzes allele-specific expression without requiring paternal and maternal genome data.

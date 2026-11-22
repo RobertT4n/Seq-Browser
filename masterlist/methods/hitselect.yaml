@@ -1,0 +1,22 @@
+name: HiTSelect
+category: dry
+summary: Analyzes pooled genetic screens to select hits and identify relevant genes and pathways while accounting for noise
+  and biases.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku1197
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Diaz AA
+  last_author: Song JS
+  pmid: '25428347'
+  pmcid: PMC4330337
+  title: 'HiTSelect: a comprehensive tool for high-complexity-pooled screen analysis'
+links: {}
+added: '2026-11-21'
+evidence: HiTSelect analyzes genome-wide RNAi and CRISPR screens while addressing off-target effects and variation in silencing
+  and sequencing depth.

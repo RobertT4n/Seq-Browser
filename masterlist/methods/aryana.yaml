@@ -1,0 +1,21 @@
+name: ARYANA
+full_name: Aligning Reads by Yet Another Approach
+category: dry
+summary: Aligns sequencing reads using a gapped seed-and-extend algorithm.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s9-s12
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Gholami M
+  last_author: Sadeghi M
+  pmid: '25252881'
+  pmcid: PMC4168712
+  title: 'ARYANA: Aligning Reads by Yet Another Approach'
+links: {}
+added: '2026-11-21'
+evidence: ARYANA is a gapped read aligner using dynamic seed selection, bidirectional extension and gap-filling dynamic programming.

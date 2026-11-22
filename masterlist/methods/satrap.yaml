@@ -1,0 +1,21 @@
+name: SATRAP
+full_name: SOLiD Assembler TRAnslation Program
+category: dry
+summary: Translates de novo assembled SOLiD color-space sequences into base-space sequences.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0137436
+  year: 2015
+  journal: PLoS One
+  first_author: Campagna D
+  last_author: Valle G
+  pmid: '26368549'
+  pmcid: PMC4569514
+  title: 'SATRAP: SOLiD Assembler TRAnslation Program'
+links: {}
+added: '2026-11-21'
+evidence: SATRAP was validated with simulated and real transcriptomic data and can be integrated into RNA-seq assembly pipelines.

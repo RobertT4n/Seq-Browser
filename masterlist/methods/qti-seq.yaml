@@ -1,0 +1,27 @@
+name: QTI-seq
+full_name: quantitative translation initiation sequencing
+category: wet
+summary: Sequencing profiles initiating ribosomes and translation initiation rates at single-nucleotide resolution.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/nmeth.3208
+  year: 2015
+  journal: Nat Methods
+  first_author: Gao X
+  last_author: Qian SB
+  pmid: '25486063'
+  pmcid: PMC4344187
+  title: Quantitative profiling of initiating ribosomes in vivo
+links: {}
+added: '2026-11-21'
+evidence: QTI-seq profiled initiating ribosomes and enabled tissue-specific profiling in RiboTag mice.

@@ -1,0 +1,28 @@
+name: Cos-Seq
+full_name: Cosmid Sequencing
+category: wet
+summary: Couples functional cloning and sequencing to identify loci enriched by antimicrobial drug selection.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- chemical-perturbation
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1073/pnas.1520693113
+  year: 2016
+  journal: Proc Natl Acad Sci U S A
+  first_author: Gazanion É
+  last_author: Ouellette M
+  pmid: '27162331'
+  pmcid: PMC4889358
+  title: Cos-Seq for high-throughput identification of drug target and resistance mechanisms in the protozoan parasite Leishmania
+links: {}
+added: '2026-11-21'
+evidence: Cos-Seq identified more than 60 Leishmania loci enriched after selection with methotrexate and five antileishmanial
+  drugs.

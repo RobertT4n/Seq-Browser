@@ -1,0 +1,21 @@
+name: FEATnotator
+category: dry
+summary: Integrates genomic datasets and reports overlaps and proximity between sequence features and variation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2015.04.028
+  year: 2015
+  journal: Methods
+  first_author: Podicheti R
+  last_author: Mockaitis K
+  pmid: '25934264'
+  title: 'FEATnotator: A tool for integrated annotation of sequence features and variation, facilitating interpretation in
+    genomics experiments'
+links: {}
+added: '2026-11-21'
+evidence: FEATnotator reports overlap and proximity in genomic information from user-defined datasets, including sequencing
+  results.

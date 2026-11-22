@@ -1,0 +1,20 @@
+name: Viral Genome Assembler (VGA)
+category: dry
+summary: Assembles viral population variants and estimates their abundances from high-fidelity, deep sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu295
+  year: 2014
+  journal: Bioinformatics
+  first_author: Mangul S
+  last_author: Eskin E
+  pmid: '24932001'
+  pmcid: PMC4058922
+  title: Accurate viral population assembly from ultra-deep sequencing data
+links: {}
+added: '2026-11-21'
+evidence: VGA uses an expectation-maximization algorithm to estimate the abundances of assembled viral variants.

@@ -1,0 +1,26 @@
+name: LibSeq
+full_name: Library Sequencing
+category: wet
+summary: Sequencing reporter transcripts measures the regulatory effects of thousands of short RNA sequences.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkv759
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Rukov JL
+  last_author: Vinther J
+  pmid: '26220183'
+  pmcid: PMC4787823
+  title: Dissecting the target specificity of RNase H recruiting oligonucleotides using massively parallel reporter analysis
+    of short RNA motifs
+links: {}
+added: '2026-11-21'
+evidence: LibSeq sequenced cDNA from a reporter library differing in a 7-mer subsequence to measure regulatory effects.

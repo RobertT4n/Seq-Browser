@@ -1,0 +1,20 @@
+name: HSA
+category: dry
+summary: Tool that jointly analyzes multiple Hi-C contact maps to infer genome-scale three-dimensional chromatin structure.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-0896-1
+  year: 2016
+  journal: Genome Biol
+  first_author: Zou C
+  last_author: Ouyang Z
+  pmid: '26936376'
+  pmcid: PMC4774023
+  title: 'HSA: integrating multi-track Hi-C data for genome-scale reconstruction of 3D chromatin structure'
+links: {}
+added: '2026-11-21'
+evidence: HSA jointly analyzes multiple contact maps to infer 3D chromatin structure at the genome scale.

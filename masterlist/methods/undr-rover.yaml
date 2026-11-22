@@ -1,0 +1,21 @@
+name: UNDR ROVER
+full_name: Unmapped primer-Directed ROVER
+category: dry
+summary: Calls variants from targeted DNA sequencing reads without a separate mapping stage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-016-1014-9
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Park DJ
+  last_author: Pope BJ
+  pmid: '27083325'
+  pmcid: PMC4833922
+  title: UNDR ROVER - a fast and accurate variant caller for targeted DNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: UNDR ROVER accepts FASTQ data and exploits the location-specific nature of PCR-targeted sequencing.

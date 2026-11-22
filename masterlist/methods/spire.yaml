@@ -1,0 +1,23 @@
+name: SPIRE
+full_name: Software for Polymorphism Identification Regulating Expression
+category: dry
+summary: Integrates genotype and expression data for scalable cis and trans expression quantitative trait locus analysis.
+readouts:
+- rna
+- genome-sequence
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1039/c6mb00453a
+  year: 2016
+  journal: Mol Biosyst
+  first_author: Kel I
+  last_author: Merelli I
+  pmid: '27722582'
+  title: SPIRE, a modular pipeline for eQTL analysis of RNA-Seq data, reveals a regulatory hotspot controlling miRNA expression
+    in C. elegans
+links: {}
+added: '2026-11-21'
+evidence: SPIRE is a modular eQTL pipeline that supports cis and trans mapping and identification of regulatory hotspots.

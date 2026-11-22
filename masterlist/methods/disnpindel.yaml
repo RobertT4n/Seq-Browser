@@ -1,0 +1,21 @@
+name: DiSNPindel
+category: dry
+summary: Detects intra-individual SNPs and insertions or deletions from direct sequencing of diploid amplicons.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-015-0790-y
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Deng J
+  last_author: Gan S
+  pmid: '26498606'
+  pmcid: PMC4619477
+  title: 'DiSNPindel: improved intra-individual SNP and InDel detection in direct amplicon sequencing of a diploid'
+links: {}
+added: '2026-11-21'
+evidence: DiSNPindel detects SNPs and indels in diploid amplicon sequencing without requiring a reference sequence or additional
+  sample.

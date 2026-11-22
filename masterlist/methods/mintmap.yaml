@@ -1,0 +1,21 @@
+name: MINTmap
+full_name: MItochondrial and Nuclear TRF mapping
+category: dry
+summary: MINTmap identifies and quantifies nuclear and mitochondrial tRNA fragments in short RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/srep41184
+  year: 2017
+  journal: Sci Rep
+  first_author: Loher P
+  last_author: Rigoutsos I
+  pmid: '28220888'
+  pmcid: PMC5318995
+  title: 'MINTmap: fast and exhaustive profiling of nuclear and mitochondrial tRNA fragments from short RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: MINTmap identifies tRNA fragments, reports raw and normalized abundances, and flags potential false positives.

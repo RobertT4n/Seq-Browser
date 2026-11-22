@@ -1,0 +1,21 @@
+name: EXTREME
+category: dry
+summary: Discovers DNA-binding motifs in large ChIP-seq and DNase-seq datasets using online expectation maximization.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu093
+  year: 2014
+  journal: Bioinformatics
+  first_author: Quang D
+  last_author: Xie X
+  pmid: '24532725'
+  pmcid: PMC4058924
+  title: 'EXTREME: an online EM algorithm for motif discovery'
+links: {}
+added: '2026-11-21'
+evidence: EXTREME discovers DNA-binding motifs in ChIP-seq and DNase-seq data using an online expectation-maximization algorithm.

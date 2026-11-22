@@ -1,0 +1,24 @@
+name: MuSE
+full_name: mutation calling using a Markov substitution model for evolution
+category: dry
+summary: Calls tumor mutations using an evolutionary model and a sample-specific error model that accounts for tumor heterogeneity.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-1029-6
+  year: 2016
+  journal: Genome Biol
+  first_author: Fan Y
+  last_author: Wang W
+  pmid: '27557938'
+  pmcid: PMC4995747
+  title: 'MuSE: accounting for tumor heterogeneity using a sample-specific error model improves sensitivity and specificity
+    in mutation calling from sequencing data'
+  preprint_doi: 10.1101/055467
+links: {}
+added: '2026-11-21'
+evidence: MuSE models tumor and normal allelic composition at each reference base and calls subclonal mutations from whole-exome
+  and whole-genome data.

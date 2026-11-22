@@ -1,0 +1,19 @@
+name: base-PER
+category: dry
+summary: Detects circulating tumor DNA mutations by comparing minor-allele frequencies with measured base-position error rates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1373/clinchem.2016.258236
+  year: 2016
+  journal: Clin Chem
+  first_author: Pécuchet N
+  last_author: Laurent-Puig P
+  pmid: '27624137'
+  title: Analysis of Base-Position Error Rate of Next-Generation Sequencing to Detect Tumor Mutations in Circulating DNA
+links: {}
+added: '2026-11-21'
+evidence: base-PER uses a binomial test to compare minor-allele frequency with the error rate at each base position.

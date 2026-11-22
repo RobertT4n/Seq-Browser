@@ -1,0 +1,19 @@
+name: KMMMs
+full_name: K-mer motif multinomial mixtures
+category: dry
+summary: Bayesian multinomial mixture models identify multiple motifs in sequence sets using k-mer tables.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/096735
+  year: 2016
+  journal: bioRxiv
+  first_author: Trippe BL
+  last_author: Bussemaker HJ
+  title: K-mer Motif Multinomial Mixtures, a scalable framework for multiple motif discovery
+links: {}
+added: '2026-11-21'
+evidence: KMMMs identify multiple motifs in sequence sets and were applied to DNase hypersensitive sites and ChIP-seq peaks.

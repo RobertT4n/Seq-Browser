@@ -1,0 +1,22 @@
+name: TRUP
+full_name: Tumor-specimen suited RNA-seq Unified Pipeline
+category: dry
+summary: Combines read-based analysis and de novo assembly to identify chimeric transcripts in cancer RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-014-0558-0
+  year: 2015
+  journal: Genome Biol
+  first_author: Fernandez-Cuesta L
+  last_author: Thomas RK
+  pmid: '25650807'
+  pmcid: PMC4300615
+  title: Identification of novel fusion genes in lung cancer using breakpoint assembly of transcriptome sequencing data
+links: {}
+added: '2026-11-21'
+evidence: TRUP combines split-read and read-pair analysis with de novo assembly to identify chimeric transcripts in cancer
+  specimens.

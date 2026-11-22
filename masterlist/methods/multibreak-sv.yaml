@@ -1,0 +1,24 @@
+name: MultiBreak-SV
+category: dry
+summary: Detects structural variants using single-molecule sequencing, paired-read sequencing or combined datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btu714
+  year: 2014
+  journal: Bioinformatics
+  first_author: Ritz A
+  last_author: Raphael BJ
+  pmid: '25355789'
+  pmcid: PMC4253835
+  title: Characterization of structural variants with single molecule and hybrid sequencing approaches
+links: {}
+added: '2026-11-21'
+evidence: MultiBreak-SV detects structural variants from single-molecule or paired-read data and was applied to whole-genome
+  PacBio data.

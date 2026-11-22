@@ -1,0 +1,25 @@
+name: droplet MDA
+category: wet
+summary: Compartmentalizes DNA fragments from a lysed single cell in microfluidic droplets for lower-bias whole-genome amplification.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0138733
+  year: 2015
+  journal: PLoS One
+  first_author: Nishikawa Y
+  last_author: Takeyama H
+  pmid: '26389587'
+  pmcid: PMC4577099
+  title: Monodisperse Picoliter Droplets for Low-Bias and Contamination-Free Reactions in Single-Cell Whole Genome Amplification
+links: {}
+added: '2026-11-21'
+evidence: DNA fragments from a lysed cell are divided into picoliter droplets for amplification, improving genome recovery
+  from single E. coli cells.

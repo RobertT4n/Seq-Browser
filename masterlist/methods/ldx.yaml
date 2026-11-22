@@ -1,0 +1,21 @@
+name: LDx
+category: dry
+summary: Estimates linkage disequilibrium between SNP pairs from pooled resequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0048588
+  year: 2012
+  journal: PLoS One
+  first_author: Feder AF
+  last_author: Bergland AO
+  pmid: '23152785'
+  pmcid: PMC3494690
+  title: 'LDx: estimation of linkage disequilibrium from high-throughput pooled resequencing data'
+links: {}
+added: '2026-11-21'
+evidence: LDx uses approximate maximum likelihood to estimate linkage disequilibrium between SNP pairs observed in pooled
+  reads.

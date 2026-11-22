@@ -1,0 +1,21 @@
+name: deML
+category: dry
+summary: Demultiplexes Illumina sequencing reads using a likelihood model and assigns a quality score to each sample assignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu719
+  year: 2015
+  journal: Bioinformatics
+  first_author: Renaud G
+  last_author: Kelso J
+  pmid: '25359895'
+  pmcid: PMC4341068
+  title: 'deML: robust demultiplexing of Illumina sequences using a likelihood-based approach'
+links: {}
+added: '2026-11-21'
+evidence: deML computes the likelihood that an observed index sequence came from a specified sample and assigns a quality
+  score.

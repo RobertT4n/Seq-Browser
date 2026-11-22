@@ -1,0 +1,20 @@
+name: MyNCList
+category: dry
+summary: Stores and retrieves range-based genomic annotations in a relational database using nested containment lists.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/database/bat056
+  year: 2013
+  journal: Database (Oxford)
+  first_author: Wiley LK
+  last_author: Bush WS
+  pmid: '23894185'
+  pmcid: PMC3724366
+  title: Rapid storage and retrieval of genomic intervals from a relational database system using nested containment lists
+links: {}
+added: '2026-11-21'
+evidence: MyNCList implements the NCList data structure in MySQL for storage, updating and rapid retrieval of genomic annotations.

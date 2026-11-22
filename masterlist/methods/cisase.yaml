@@ -1,0 +1,22 @@
+name: cisASE
+category: dry
+summary: Detects putative cis-regulated allele-specific expression using RNA sequencing and, when available, matched DNA sequencing.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw416
+  year: 2016
+  journal: Bioinformatics
+  first_author: Liu Z
+  last_author: Li Y
+  pmid: '27412088'
+  title: 'cisASE: a likelihood-based method for detecting putative cis-regulated allele-specific expression in RNA sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: cisASE detects allele-specific expression at SNV, exon and gene levels and uses matched DNA sequencing to control
+  technical bias and copy-number variation.

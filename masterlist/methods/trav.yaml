@@ -1,0 +1,22 @@
+name: TraV
+category: dry
+summary: Visualizes and analyzes multiple prokaryotic RNA-seq experiments using nucleotide-level activity derived from read
+  mappings.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0093677
+  year: 2014
+  journal: PLoS One
+  first_author: Dietrich S
+  last_author: Liesegang H
+  pmid: '24709941'
+  pmcid: PMC3977867
+  title: 'TraV: a genome context sensitive transcriptome browser'
+links: {}
+added: '2026-11-21'
+evidence: TraV calculates single-nucleotide activities from mapping information to visualize and analyze multiple transcriptome
+  sequencing experiments.

@@ -1,0 +1,22 @@
+name: ARCS
+full_name: Assembly Roundup by Chromium Scaffolding
+category: dry
+summary: ARCS uses linked-read barcode information to scaffold draft genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx675
+  year: 2018
+  journal: Bioinformatics
+  first_author: Yeo S
+  last_author: Birol I
+  pmid: '29069293'
+  pmcid: PMC6030987
+  title: 'ARCS: scaffolding genome drafts with linked reads'
+  preprint_doi: 10.1101/100750
+links: {}
+added: '2026-11-21'
+evidence: ARCS uses barcoding information in linked reads to organize draft genomes into more contiguous assemblies.

@@ -1,0 +1,23 @@
+name: ssHMM
+category: dry
+summary: Finds joint RNA sequence and structure motifs associated with RNA-binding protein binding in high-throughput data.
+readouts:
+- rna-protein-interaction
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx756
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Heller D
+  last_author: Marsico A
+  pmid: '28977546'
+  pmcid: PMC5737366
+  title: 'ssHMM: extracting intuitive sequence-structure motifs from high-throughput RNA-binding protein data'
+  preprint_doi: 10.1101/076034
+links: {}
+added: '2026-11-21'
+evidence: ssHMM combines a hidden Markov model with Gibbs sampling to learn RNA-binding protein sequence and structure preferences
+  from data such as CLIP-seq sequences.

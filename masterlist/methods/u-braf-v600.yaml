@@ -1,0 +1,29 @@
+name: U-BRAF(V600)
+category: wet
+summary: U-BRAF(V600) detects and identifies BRAF activation-segment mutations in a single pyrosequencing assay.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1371/journal.pone.0059221
+  year: 2013
+  journal: PLoS One
+  first_author: Skorokhod A
+  last_author: Penzel R
+  pmid: '23555633'
+  pmcid: PMC3608589
+  title: Automated universal BRAF state detection within the activation segment in skin metastases by pyrosequencing-based
+    assay U-BRAF(V600)
+links: {}
+added: '2026-11-21'
+evidence: The assay identified five BRAF mutations in FFPE cutaneous melanoma metastasis samples.

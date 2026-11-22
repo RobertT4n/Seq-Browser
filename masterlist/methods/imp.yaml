@@ -1,0 +1,25 @@
+name: IMP
+category: dry
+summary: Pipeline for integrated metagenomic and metatranscriptomic assembly and analysis of microbial community structure
+  and function.
+readouts:
+- microbial-composition
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-1116-8
+  year: 2016
+  journal: Genome Biol
+  first_author: Narayanasamy S
+  last_author: Wilmes P
+  pmid: '27986083'
+  pmcid: PMC5159968
+  title: 'IMP: a pipeline for reproducible reference-independent integrated metagenomic and metatranscriptomic analyses'
+  preprint_doi: 10.1101/039263
+links: {}
+added: '2026-11-21'
+evidence: IMP combines iterative co-assembly with analyses of microbial community structure and function using coupled metagenomic
+  and metatranscriptomic data.

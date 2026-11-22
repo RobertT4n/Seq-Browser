@@ -1,0 +1,24 @@
+name: scMAB-seq
+full_name: single-cell MAB-seq
+category: wet
+summary: Single-cell methylase-assisted bisulfite sequencing profiles 5fC and 5caC and maps sister chromatid exchange.
+readouts:
+- dna-methylation
+- dna-5fc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/gad.294843.116
+  year: 2017
+  journal: Genes Dev
+  first_author: Wu X
+  last_author: Zhang Y
+  pmid: '28360182'
+  title: Simultaneous mapping of active DNA demethylation and sister chromatid exchange in single cells
+links: {}
+added: '2026-11-21'
+evidence: scMAB-seq profiles 5fC and 5caC at genome scale in single cells and maps sister chromatid exchange.

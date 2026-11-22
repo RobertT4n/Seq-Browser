@@ -1,0 +1,26 @@
+name: BLESS
+full_name: direct in situ breaks labeling, enrichment on streptavidin and next-generation sequencing
+category: wet
+summary: BLESS labels and sequences DNA double-strand breaks for genome-wide mapping at nucleotide resolution.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+- mouse
+reference:
+  doi: 10.1038/nmeth.2408
+  year: 2013
+  journal: Nat Methods
+  first_author: Crosetto N
+  last_author: Dikic I
+  pmid: '23503052'
+  pmcid: PMC3651036
+  title: Nucleotide-resolution DNA double-strand break mapping by next-generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: BLESS mapped DNA double-strand breaks genome-wide at nucleotide resolution and was tested in human and mouse cells.

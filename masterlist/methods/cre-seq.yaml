@@ -1,0 +1,25 @@
+name: CRE-seq
+full_name: CRE analysis by sequencing
+category: wet
+summary: CRE-seq tests the regulatory activity of large numbers of reporter constructs carrying cis-regulatory sequence variants.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1073/pnas.1210678109
+  year: 2012
+  journal: Proc Natl Acad Sci U S A
+  first_author: Kwasnieski JC
+  last_author: Cohen BA
+  pmid: '23129659'
+  pmcid: PMC3511131
+  title: Complex effects of nucleotide variants in a mammalian cis-regulatory element
+links: {}
+added: '2026-11-21'
+evidence: CRE-seq tested over 1,000 single and double nucleotide mutations in a 52-bp Rhodopsin promoter element.

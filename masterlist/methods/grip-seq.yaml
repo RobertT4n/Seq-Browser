@@ -1,0 +1,28 @@
+name: GRIP-seq
+full_name: genome-wide regulatory element immunoprecipitation
+category: wet
+summary: Enriches and sequences active cis-regulatory elements associated with basal transcriptional machinery using a modified
+  chromosome capture approach.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1387/ijdb.160108jb
+  year: 2016
+  journal: Int J Dev Biol
+  first_author: Tulin S
+  last_author: Smith J
+  pmid: '27389984'
+  title: Genome-wide identification of enhancer elements
+links: {}
+added: '2026-11-21'
+evidence: GRIP-seq combines chromosome conformation capture, chromatin immunoprecipitation and paired-end sequencing to enrich
+  active regulatory elements associated with basal transcriptional machinery.

@@ -1,0 +1,31 @@
+name: SMRT-BS
+full_name: single-molecule real-time bisulfite sequencing
+category: wet
+summary: Long-read bisulfite sequencing of PCR amplicons quantifies methylation at targeted CpG sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12864-015-1572-7
+  year: 2015
+  journal: BMC Genomics
+  first_author: Yang Y
+  last_author: Scott SA
+  pmid: '25943404'
+  pmcid: PMC4422326
+  title: Quantitative and multiplexed DNA methylation analysis using long-read single-molecule real-time bisulfite sequencing
+    (SMRT-BS)
+links: {}
+added: '2026-11-21'
+evidence: SMRT-BS used bisulfite conversion and PCR to profile targeted CpG methylation in amplicons up to approximately 1.5
+  kb.

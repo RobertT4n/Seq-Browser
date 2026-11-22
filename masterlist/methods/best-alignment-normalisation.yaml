@@ -1,0 +1,21 @@
+name: Best Alignment Normalisation
+category: dry
+summary: Normalizes variant representations by reconstructing a sample genome and realigning it to the reference for more
+  accurate VCF comparisons.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw748
+  year: 2017
+  journal: Bioinformatics
+  first_author: Bayat A
+  last_author: Parameswaran S
+  pmid: '27993787'
+  title: Improved VCF normalization for accurate VCF comparison
+links: {}
+added: '2026-11-21'
+evidence: BAN applies VCF variants to a reference genome and recalls them by aligning the resulting sample genome back to
+  the reference.

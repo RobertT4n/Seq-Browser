@@ -1,0 +1,21 @@
+name: FACETS
+category: dry
+summary: Estimates allele-specific copy number and clonal heterogeneity from whole-genome, exome or targeted sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw520
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Shen R
+  last_author: Seshan VE
+  pmid: '27270079'
+  pmcid: PMC5027494
+  title: 'FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: FACETS segments total and allele-specific read counts and calls copy number while accounting for tumor purity, ploidy
+  and clonal heterogeneity.

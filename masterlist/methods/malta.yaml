@@ -1,0 +1,20 @@
+name: MaLTA
+category: dry
+summary: Simultaneously assembles and quantifies transcripts from Ion Torrent RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-s5-s7
+  year: 2014
+  journal: BMC Genomics
+  first_author: Mangul S
+  last_author: Zelikovsky A
+  pmid: '25082147'
+  pmcid: PMC4120146
+  title: Transcriptome assembly and quantification from Ion Torrent RNA-Seq data
+links: {}
+added: '2026-11-21'
+evidence: MaLTA incorporates a maximum likelihood model into transcriptome assembly and quantification.

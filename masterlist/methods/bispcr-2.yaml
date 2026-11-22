@@ -1,0 +1,27 @@
+name: BisPCR(2)
+category: wet
+summary: Targeted bisulfite sequencing uses two rounds of PCR for target enrichment and sample barcoding to quantify DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1186/s13072-015-0020-x
+  year: 2015
+  journal: Epigenetics Chromatin
+  first_author: Bernstein DL
+  last_author: Kaestner KH
+  pmid: '26236400'
+  pmcid: PMC4522100
+  title: The BisPCR(2) method for targeted bisulfite sequencing
+links: {}
+added: '2026-11-21'
+evidence: Libraries are prepared after sodium bisulfite conversion and two rounds of PCR for target enrichment and sample
+  barcoding.

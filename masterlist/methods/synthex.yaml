@@ -1,0 +1,21 @@
+name: SynthEx
+category: dry
+summary: Detects copy number alterations from whole-exome or whole-genome sequencing using a synthetic-normal strategy.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1193-3
+  year: 2017
+  journal: Genome Biol
+  first_author: Silva GO
+  last_author: Chen M
+  pmid: '28390427'
+  pmcid: PMC5385048
+  title: 'SynthEx: a synthetic-normal-based DNA sequencing tool for copy number alteration detection and tumor heterogeneity
+    profiling'
+links: {}
+added: '2026-11-21'
+evidence: SynthEx identifies copy number alterations from sequencing data without matched normal specimens.

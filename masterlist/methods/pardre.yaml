@@ -1,0 +1,19 @@
+name: ParDRe
+category: dry
+summary: Removes duplicate and near-duplicate sequencing reads by parallel clustering of single-end or paired-end sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw038
+  year: 2016
+  journal: Bioinformatics
+  first_author: González-Domínguez J
+  last_author: Schmidt B
+  pmid: '26803159'
+  title: 'ParDRe: faster parallel duplicated reads removal tool for sequencing studies'
+links: {}
+added: '2026-11-21'
+evidence: ParDRe clusters FASTA or FASTQ sequences to remove duplicated and near-duplicated reads.

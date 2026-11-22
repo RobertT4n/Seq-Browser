@@ -1,0 +1,21 @@
+name: MOHCA-seq
+category: wet
+summary: MOHCA-seq combines multiplexed hydroxyl-radical cleavage analysis with sequencing to map RNA structural proximities.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/004556
+  year: 2014
+  journal: bioRxiv
+  first_author: Cheng C
+  last_author: Das R
+  title: 'MOHCA-seq: RNA 3D models from single multiplexed proximity-mapping experiments'
+links: {}
+added: '2026-11-21'
+evidence: Integrating multiplexed hydroxyl-radical cleavage analysis with deep sequencing produced nucleotide-resolution RNA
+  proximity maps.

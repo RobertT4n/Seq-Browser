@@ -1,0 +1,20 @@
+name: cmDetect
+category: dry
+summary: Identifies circulating tumor DNA mutations from paired tumor and peripheral blood whole-exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1158/0008-5472.can-15-3457
+  year: 2016
+  journal: Cancer Res
+  first_author: Fu Y
+  last_author: Lefebvre C
+  pmid: '27535334'
+  title: Improving the Performance of Somatic Mutation Identification by Recovering Circulating Tumor DNA Mutations
+links: {}
+added: '2026-11-21'
+evidence: cmDetect systematically identifies circulating tumor DNA mutations using whole-exome sequencing of tumor and corresponding
+  blood samples.

@@ -1,0 +1,21 @@
+name: HMCan
+full_name: Histone modifications in cancer
+category: dry
+summary: Detects histone modification signals in cancer ChIP-seq data while correcting GC-content and copy-number biases.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt524
+  year: 2013
+  journal: Bioinformatics
+  first_author: Ashoor H
+  last_author: Boeva V
+  pmid: '24021381'
+  pmcid: PMC3834794
+  title: 'HMCan: a method for detecting chromatin modifications in cancer samples using ChIP-seq data'
+links: {}
+added: '2026-11-21'
+evidence: HMCan corrects GC-content and copy-number bias and applies hidden Markov models to detect histone modification signals.

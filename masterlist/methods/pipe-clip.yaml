@@ -1,0 +1,20 @@
+name: PIPE-CLIP
+category: dry
+summary: Processes and statistically analyzes CLIP-seq data to identify candidate RNA–protein cross-linking regions.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2014-15-1-r18
+  year: 2014
+  journal: Genome Biol
+  first_author: Chen B
+  last_author: Xie Y
+  pmid: '24451213'
+  pmcid: PMC4054095
+  title: 'PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis'
+links: {}
+added: '2026-11-21'
+evidence: PIPE-CLIP analyzes HITS-CLIP, PAR-CLIP, and iCLIP data to determine candidate cross-linking regions.

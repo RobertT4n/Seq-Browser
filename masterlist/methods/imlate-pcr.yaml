@@ -1,0 +1,25 @@
+name: imLATE-PCR
+full_name: improved linear-after-the-exponential-PCR
+category: wet
+summary: imLATE-PCR couples amplification on a modified glass slide with pyrosequencing to genotype single cells.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- amplicon-pcr
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1039/c3an00821e
+  year: 2013
+  journal: Analyst
+  first_author: Song Q
+  last_author: Zhou G
+  pmid: '23817386'
+  title: Improvement of LATE-PCR to allow single-cell analysis by pyrosequencing
+links: {}
+added: '2026-11-21'
+evidence: The assay detected mitochondrial 1555A>G and genomic BRCA1 2731C>T variants using single cells as starting material.

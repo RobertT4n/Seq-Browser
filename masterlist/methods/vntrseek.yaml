@@ -1,0 +1,20 @@
+name: VNTRseek
+category: dry
+summary: Discovers minisatellite variable-number tandem repeats from whole-genome sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku642
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Gelfand Y
+  last_author: Benson G
+  pmid: '25056320'
+  pmcid: PMC4132751
+  title: VNTRseek-a computational tool to detect tandem repeat variants in high-throughput sequencing data
+links: {}
+added: '2026-11-21'
+evidence: VNTRseek maps reads to reference tandem repeats and identifies putative VNTRs from copy-number discrepancies.

@@ -1,0 +1,24 @@
+name: PASP
+full_name: poly(A) tail sequencing protocol
+category: wet
+summary: Measures transcriptome-wide poly(A) tail lengths by sequencing cDNA derived from G-tailed poly(A)-selected RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1101/060004
+  year: 2016
+  journal: bioRxiv
+  first_author: Sipos B
+  last_author: Goldman N
+  title: PASP — a whole-transcriptome poly(A) tail length determination assay for the Illumina platform
+links: {}
+added: '2026-11-21'
+evidence: PASP sequences cDNA fragments obtained by G-tailing poly(A)-selected mRNA, fragmentation and reverse transcription
+  to estimate tail lengths.

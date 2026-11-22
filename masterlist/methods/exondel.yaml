@@ -1,0 +1,21 @@
+name: ExonDel
+category: dry
+summary: Detects homozygous internal exon deletions in exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2105-15-332
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Guo Y
+  last_author: Shyr Y
+  pmid: '25322818'
+  pmcid: PMC4288651
+  title: Detection of internal exon deletion with exon Del
+links: {}
+added: '2026-11-21'
+evidence: ExonDel was designed to detect homozygous exon deletions and tested on exome sequencing data from breast cancer
+  cell lines.

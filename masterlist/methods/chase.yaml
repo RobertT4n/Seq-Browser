@@ -1,0 +1,21 @@
+name: ChAsE
+full_name: chromatin analysis and exploration tool
+category: dry
+summary: Provides interactive visualization, exploration and clustering of epigenomic data such as ChIP-seq.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw382
+  year: 2016
+  journal: Bioinformatics
+  first_author: Younesy H
+  last_author: Möller T
+  pmid: '27378294'
+  pmcid: PMC5079470
+  title: 'ChAsE: chromatin analysis and exploration tool'
+links: {}
+added: '2026-11-21'
+evidence: ChAsE supports interactive heat maps, profile plots, k-means clustering and set operations on epigenomic data.

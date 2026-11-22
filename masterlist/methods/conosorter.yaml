@@ -1,0 +1,21 @@
+name: ConoSorter
+category: dry
+summary: Classifies cDNA or protein sequences into conopeptide superfamilies and catalogs their sequence characteristics.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-708
+  year: 2013
+  journal: BMC Genomics
+  first_author: Lavergne V
+  last_author: Alewood PF
+  pmid: '24131469'
+  pmcid: PMC3853152
+  title: Systematic interrogation of the Conus marmoreus venom duct transcriptome with ConoSorter reveals 158 novel conotoxins
+    and 13 new gene superfamilies
+links: {}
+added: '2026-11-21'
+evidence: ConoSorter categorizes cDNA or protein sequences based on signal, pro-, and mature-region sequence composition.

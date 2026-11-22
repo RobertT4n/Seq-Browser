@@ -1,0 +1,20 @@
+name: tcR
+category: dry
+summary: Analyzes T cell receptor repertoires using diversity measures, shared sequences, and gene usage statistics.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-015-0613-1
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Nazarov VI
+  last_author: Mamedov IZ
+  pmid: '26017500'
+  pmcid: PMC4445501
+  title: 'tcR: an R package for T cell receptor repertoire advanced data analysis'
+links: {}
+added: '2026-11-21'
+evidence: tcR analyzes T cell receptor repertoires after primary receptor sequences have been extracted from sequencing reads.

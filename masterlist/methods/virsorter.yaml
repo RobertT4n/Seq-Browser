@@ -1,0 +1,21 @@
+name: VirSorter
+category: dry
+summary: Detects viral sequences in microbial genomic data using reference-dependent and reference-independent approaches.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.985
+  year: 2015
+  journal: PeerJ
+  first_author: Roux S
+  last_author: Sullivan MB
+  pmid: '26038737'
+  pmcid: PMC4451026
+  title: 'VirSorter: mining viral signal from microbial genomic data'
+links: {}
+added: '2026-11-21'
+evidence: VirSorter detects viral signal in microbial sequence data, including single-cell amplified genomes and assembled
+  metagenomic fragments.

@@ -1,0 +1,21 @@
+name: XSAnno
+category: dry
+summary: Builds ortholog annotations with filters that improve cross-species RNA-seq comparisons.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-343
+  year: 2014
+  journal: BMC Genomics
+  first_author: Zhu Y
+  last_author: Sestan N
+  pmid: '24884593'
+  pmcid: PMC4035071
+  title: 'XSAnno: a framework for building ortholog models in cross-species transcriptome comparisons'
+links: {}
+added: '2026-11-21'
+evidence: XSAnno reduced false discoveries of differentially expressed genes in comparisons of human, chimpanzee and rhesus
+  macaque brain transcriptomes.

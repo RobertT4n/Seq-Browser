@@ -1,0 +1,21 @@
+name: TRUST
+category: dry
+summary: Calls T-cell receptor CDR3 regions from unselected solid-tissue RNA-seq data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ng.3820
+  year: 2017
+  journal: Nat Genet
+  first_author: Li B
+  last_author: Liu XS
+  pmid: '28358132'
+  pmcid: PMC6959004
+  title: Ultrasensitive detection of TCR hypervariable-region sequences in solid-tissue RNA-seq data
+  preprint_doi: 10.1101/073395
+links: {}
+added: '2026-11-21'
+evidence: TRUST calls TCR transcript hypervariable CDR3 regions using unselected RNA-seq data from solid tissues.

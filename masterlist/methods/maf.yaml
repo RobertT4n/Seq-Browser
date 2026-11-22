@@ -1,0 +1,27 @@
+name: MAF
+full_name: molecular amplification fingerprinting
+category: wet
+summary: Uses molecular identifiers and bias correction to improve antibody repertoire frequency and diversity measurements.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- amplicon-pcr
+species:
+- mouse
+reference:
+  doi: 10.1126/sciadv.1501371
+  year: 2016
+  journal: Sci Adv
+  first_author: Khan TA
+  last_author: Reddy ST
+  pmid: '26998518'
+  pmcid: PMC4795664
+  title: Accurate and predictive antibody repertoire profiling by molecular amplification fingerprinting
+links: {}
+added: '2026-11-21'
+evidence: MAF tags transcripts with unique molecular identifiers before and during multiplex PCR and uses a computational
+  pipeline to correct bias and errors.

@@ -1,0 +1,24 @@
+name: TRACE-RRBS
+full_name: Targeted Alignment and Artificial Cytosine Elimination for RRBS
+category: dry
+summary: RRBS analysis method that aligns bisulfite reads to a digitally digested reference and removes artificial end-repair
+  cytosines.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12864-016-2494-8
+  year: 2016
+  journal: BMC Genomics
+  first_author: Baheti S
+  last_author: Sun Z
+  pmid: '26922377'
+  pmcid: PMC4769831
+  title: Targeted alignment and end repair elimination increase alignment and methylation measure accuracy for reduced representation
+    bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: TRACE-RRBS aligns bisulfite sequence reads to an MSP1 digitally digested reference and removes end-repair cytosines.

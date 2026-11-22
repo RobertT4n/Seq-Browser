@@ -1,0 +1,20 @@
+name: SNPiR
+category: dry
+summary: Identifies single-nucleotide polymorphisms in expressed regions from RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2013.08.008
+  year: 2013
+  journal: Am J Hum Genet
+  first_author: Piskol R
+  last_author: Li JB
+  pmid: '24075185'
+  pmcid: PMC3791257
+  title: Reliable identification of genomic variants from RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: SNPiR identifies SNPs from RNA-seq data but is limited to detecting variants in expressed regions.

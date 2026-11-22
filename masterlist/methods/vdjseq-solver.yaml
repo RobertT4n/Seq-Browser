@@ -1,0 +1,21 @@
+name: VDJSeq-Solver
+category: dry
+summary: Identifies the dominant clonal lymphocyte population and its V(D)J sequence from paired-end RNA-seq reads.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0118192
+  year: 2015
+  journal: PLoS One
+  first_author: Paciello G
+  last_author: Ficarra E
+  pmid: '25799103'
+  pmcid: PMC4370828
+  title: 'VDJSeq-Solver: in silico V(D)J recombination detection tool'
+links: {}
+added: '2026-11-21'
+evidence: The tool identifies the main clone by recognizing the most abundant V(D)J rearrangement in neoplastic-cell RNA-seq
+  data.

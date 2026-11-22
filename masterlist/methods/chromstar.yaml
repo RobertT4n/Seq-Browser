@@ -1,0 +1,20 @@
+name: chromstaR
+category: dry
+summary: Multivariate hidden Markov model for inferring combinatorial chromatin states and their differences across conditions
+  from ChIP-seq data.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/038612
+  year: 2016
+  journal: bioRxiv
+  first_author: Taudt A
+  last_author: Colomé-Tatché M
+  title: 'chromstaR: Tracking combinatorial chromatin state dynamics in space and time'
+links: {}
+added: '2026-11-21'
+evidence: chromstaR uses multiple ChIP-seq experiments to assign genomic regions to combinatorial chromatin states across
+  conditions.

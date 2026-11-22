@@ -1,0 +1,21 @@
+name: VirGA
+full_name: viral genome assembly
+category: dry
+summary: Combines de novo assembly, alignment, and annotation to generate draft genomes of large DNA viruses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/mbio.02213-14
+  year: 2015
+  journal: mBio
+  first_author: Parsons LR
+  last_author: Szpara ML
+  pmid: '25827418'
+  pmcid: PMC4453532
+  title: Rapid genome assembly and comparison decode intrastrain variation in human alphaherpesviruses
+links: {}
+added: '2026-11-21'
+evidence: VirGA automates draft viral genome generation and was applied to compare clonal derivatives of an HSV-1 stock.

@@ -1,0 +1,22 @@
+name: WEVOTE
+full_name: WEighted VOting Taxonomic idEntification
+category: dry
+summary: Classifies metagenomic shotgun reads using a weighted ensemble of taxonomic identification methods.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0163527
+  year: 2016
+  journal: PLoS One
+  first_author: Metwally AA
+  last_author: Perkins DL
+  pmid: '27683082'
+  pmcid: PMC5040256
+  title: 'WEVOTE: Weighted Voting Taxonomic Identification Method of Microbial Sequences'
+  preprint_doi: 10.1101/054205
+links: {}
+added: '2026-11-21'
+evidence: WEVOTE combines existing methods to classify metagenomic reads and produce microbial profiles.

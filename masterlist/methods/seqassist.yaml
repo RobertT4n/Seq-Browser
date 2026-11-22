@@ -1,0 +1,22 @@
+name: SeqAssist
+full_name: Sequencing Assistant
+category: dry
+summary: Provides preliminary statistics, reference coverage estimates and comparisons for next-generation sequencing datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s11-s10
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Peng Y
+  last_author: Gong P
+  pmid: '25349885'
+  pmcid: PMC4251038
+  title: 'SeqAssist: a novel toolkit for preliminary analysis of next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SeqAssist accepts FASTQ files and reports read statistics, genome-wide reference coverage and overlap between sequencing
+  runs.

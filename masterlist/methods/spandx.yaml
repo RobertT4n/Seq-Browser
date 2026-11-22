@@ -1,0 +1,22 @@
+name: SPANDx
+full_name: Synergised Pipeline for Analysis of NGS Data in Linux
+category: dry
+summary: Integrates alignment, variant calling and comparative analysis of haploid whole-genome resequencing datasets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1756-0500-7-618
+  year: 2014
+  journal: BMC Res Notes
+  first_author: Sarovich DS
+  last_author: Price EP
+  pmid: '25201145'
+  pmcid: PMC4169827
+  title: 'SPANDx: a genomics pipeline for comparative analysis of large haploid whole genome re-sequencing datasets'
+links: {}
+added: '2026-11-21'
+evidence: SPANDx combines reference or pan-genome alignment, variant calling and annotation, and locus presence or absence
+  analysis.

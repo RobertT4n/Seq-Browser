@@ -1,0 +1,20 @@
+name: Multi-Species Annotation
+category: dry
+summary: Annotates reconstructed transcripts using information from well-annotated related species.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-846
+  year: 2014
+  journal: BMC Genomics
+  first_author: Lee A
+  last_author: Rabadan R
+  pmid: '25277458'
+  pmcid: PMC4194418
+  title: Transcriptome reconstruction and annotation of cynomolgus and African green monkey
+links: {}
+added: '2026-11-21'
+evidence: The Multi-Species Annotation pipeline uses well-annotated primate species to annotate reconstructed transcripts.

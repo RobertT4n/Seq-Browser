@@ -1,0 +1,21 @@
+name: TIPseqHunter
+category: dry
+summary: TIPseqHunter uses machine learning to identify LINE-1 insertion sites from transposon insertion profiling data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1073/pnas.1619797114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Tang Z
+  last_author: Burns KH
+  pmid: '28096347'
+  pmcid: PMC5293032
+  title: 'Human transposon insertion profiling: Analysis, visualization and identification of somatic LINE-1 insertions in
+    ovarian cancer'
+links: {}
+added: '2026-11-21'
+evidence: TIPseqHunter identifies insertion sites from sequencing that selectively profiles LINE-1 insertions.

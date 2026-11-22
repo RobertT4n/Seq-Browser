@@ -1,0 +1,20 @@
+name: OncoPhase
+category: dry
+summary: Method for estimating the cellular prevalence of somatic point mutations in heterogeneous tumors using nearby phased
+  germline variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/046631
+  year: 2016
+  journal: bioRxiv
+  first_author: Chedom-Fotso D
+  last_author: Yau C
+  title: 'OncoPhase: Quantification of somatic mutation cellular prevalence using phase information'
+links: {}
+added: '2026-11-21'
+evidence: OncoPhase computes somatic mutation prevalence from tumor genome sequencing by combining information from nearby
+  phased germline variants.

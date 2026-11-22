@@ -1,0 +1,21 @@
+name: lncSeeker
+category: dry
+summary: Identifies high-confidence long noncoding RNAs from deep-sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv1273
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Zheng LL
+  last_author: Qu LH
+  pmid: '26590255'
+  pmcid: PMC4702900
+  title: 'deepBase v2.0: identification, expression, evolution and function of small RNAs, LncRNAs and circular RNAs from
+    deep-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: The authors developed lncSeeker to identify 176,680 high-confidence lncRNAs from 14 species.

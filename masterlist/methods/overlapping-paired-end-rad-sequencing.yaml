@@ -1,0 +1,26 @@
+name: overlapping paired-end RAD sequencing
+category: wet
+summary: Overlapping paired-end RAD sequencing produces longer RAD contigs for SNP discovery and genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- other-vertebrate
+reference:
+  doi: 10.1111/mec.12239
+  year: 2013
+  journal: Mol Ecol
+  first_author: Hohenlohe PA
+  last_author: Luikart G
+  pmid: '23432212'
+  pmcid: PMC3664261
+  title: Genomic patterns of introgression in rainbow and westslope cutthroat trout illuminated by overlapping paired-end
+    RAD sequencing
+links: {}
+added: '2026-11-21'
+evidence: The approach generated RAD contigs longer than 300–400 bp and was applied to populations of westslope cutthroat
+  trout.

@@ -1,0 +1,26 @@
+name: PSI-seq
+full_name: pseudouridine site identification sequencing
+category: wet
+summary: CMCT treatment and reverse transcription identify pseudouridylation sites transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0110799
+  year: 2014
+  journal: PLoS One
+  first_author: Lovejoy AF
+  last_author: Brown PO
+  pmid: '25353621'
+  pmcid: PMC4212993
+  title: 'Transcriptome-wide mapping of pseudouridines: pseudouridine synthases modify specific mRNAs in S. cerevisiae'
+links: {}
+added: '2026-11-21'
+evidence: PSI-seq maps pseudouridylation sites in cellular RNAs at single-base resolution using reverse transcription termination
+  following CMCT treatment.

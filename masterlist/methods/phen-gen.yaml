@@ -1,0 +1,19 @@
+name: Phen-Gen
+category: dry
+summary: Combines patient symptoms, sequencing data and prior knowledge to prioritize causative genes for rare disorders.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3046
+  year: 2014
+  journal: Nat Methods
+  first_author: Javed A
+  last_author: Ng PC
+  pmid: '25086502'
+  title: 'Phen-Gen: combining phenotype and genotype to analyze rare disorders'
+links: {}
+added: '2026-11-21'
+evidence: Phen-Gen combines disease symptoms and sequencing data with prior domain knowledge to identify causative genes.

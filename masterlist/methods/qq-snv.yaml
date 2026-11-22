@@ -1,0 +1,21 @@
+name: QQ-SNV
+category: dry
+summary: Uses quality-score quantiles in a logistic regression classifier to distinguish low-frequency single nucleotide variants
+  from sequencing errors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0812-9
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Van der Borght K
+  last_author: Aerssens J
+  pmid: '26554718'
+  pmcid: PMC4641353
+  title: 'QQ-SNV: single nucleotide variant detection at low frequency by comparing the quality quantiles'
+links: {}
+added: '2026-11-21'
+evidence: QQ-SNV uses quality-score quantiles to distinguish true single nucleotide variants from sequencing errors.

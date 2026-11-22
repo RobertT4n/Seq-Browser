@@ -1,0 +1,24 @@
+name: MAB-seq
+full_name: M.SssI methylase-assisted bisulfite sequencing
+category: wet
+summary: Methylase-assisted bisulfite sequencing maps 5-formylcytosine and 5-carboxylcytosine genome-wide at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5fc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/nbt.3073
+  year: 2014
+  journal: Nat Biotechnol
+  first_author: Wu H
+  last_author: Zhang Y
+  pmid: '25362244'
+  pmcid: PMC4269366
+  title: Single-base resolution analysis of active DNA demethylation using methylase-assisted bisulfite sequencing
+links: {}
+added: '2026-11-21'
+evidence: Genome-wide MAB-seq directly maps 5fC and 5caC at single-base resolution in Tdg-depleted embryonic stem cells.

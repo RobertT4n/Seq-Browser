@@ -1,0 +1,22 @@
+name: ECLAIR
+full_name: Ensemble Cell Lineage Analysis with Improved Robustness
+category: dry
+summary: Infers cell lineage relationships from single-cell gene expression using an ensemble approach that estimates branching
+  uncertainty.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw452
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Giecold G
+  last_author: Yuan GC
+  pmid: '27207878'
+  pmcid: PMC5001598
+  title: Robust lineage reconstruction from high-dimensional single-cell data
+links: {}
+added: '2026-11-21'
+evidence: ECLAIR infers cell lineage relationships from single-cell gene expression and estimates uncertainty in lineage branchings.

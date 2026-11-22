@@ -1,0 +1,21 @@
+name: MethPipe
+category: dry
+summary: Analyzes and compares methylomes derived from whole-genome bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0081148
+  year: 2013
+  journal: PLoS One
+  first_author: Song Q
+  last_author: Smith AD
+  pmid: '24324667'
+  pmcid: PMC3855694
+  title: A reference methylome database and analysis pipeline to facilitate integrative and comparative epigenomics
+links: {}
+added: '2026-11-21'
+evidence: MethPipe provides low- and high-level methylome analysis and supports comparison with public methylomes.

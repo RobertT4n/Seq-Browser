@@ -1,0 +1,20 @@
+name: COSMOS
+category: dry
+summary: Manages parallel sequencing workflows through pipeline definitions, job partitioning and progress tracking.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu385
+  year: 2014
+  journal: Bioinformatics
+  first_author: Gafni E
+  last_author: Tonellato PJ
+  pmid: '24982428'
+  pmcid: PMC4184253
+  title: 'COSMOS: Python library for massively parallel workflows'
+links: {}
+added: '2026-11-21'
+evidence: COSMOS is a Python workflow management library for sequencing pipelines on computing clusters and cloud services.

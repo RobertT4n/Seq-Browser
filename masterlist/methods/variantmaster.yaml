@@ -1,0 +1,23 @@
+name: VariantMaster
+category: dry
+summary: Prioritizes familial, de novo, and somatic variants using sequencing data, inheritance models, and phenotype and
+  genotype information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.163832.113
+  year: 2014
+  journal: Genome Res
+  first_author: Santoni FA
+  last_author: Antonarakis SE
+  pmid: '24389049'
+  pmcid: PMC3912425
+  title: Simultaneous identification and prioritization of variants in familial, de novo, and somatic genetic disorders with
+    VariantMaster
+links: {}
+added: '2026-11-21'
+evidence: VariantMaster estimates familial segregation, de novo, and somatic probabilities and integrates phenotypes and genotypes
+  to reduce candidate variants.

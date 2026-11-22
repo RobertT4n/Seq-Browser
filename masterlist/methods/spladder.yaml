@@ -1,0 +1,22 @@
+name: SplAdder
+category: dry
+summary: Identifies, quantifies, and tests alternative splicing events using RNA-seq alignments and transcript annotations.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw076
+  year: 2016
+  journal: Bioinformatics
+  first_author: Kahles A
+  last_author: Rätsch G
+  pmid: '26873928'
+  pmcid: PMC4908322
+  title: 'SplAdder: identification, quantification and testing of alternative splicing events from RNA-Seq data'
+  preprint_doi: 10.1101/017095
+links: {}
+added: '2026-11-21'
+evidence: SplAdder augments annotations with RNA-seq evidence, identifies and quantifies alternative splicing events, and
+  tests differences between samples.

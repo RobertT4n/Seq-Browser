@@ -1,0 +1,20 @@
+name: TransComb
+category: dry
+summary: Reconstructs full-length transcripts from RNA-seq data using a genome-guided junction graph.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-016-1074-1
+  year: 2016
+  journal: Genome Biol
+  first_author: Liu J
+  last_author: Li G
+  pmid: '27760567'
+  pmcid: PMC5069867
+  title: 'TransComb: genome-guided transcriptome assembly via combing junctions in splicing graphs'
+links: {}
+added: '2026-11-21'
+evidence: TransComb uses weighted junction graphs and paired-end information to extract paths representing expressed transcripts.

@@ -1,0 +1,20 @@
+name: JACUSA
+category: dry
+summary: JACUSA identifies site-specific RNA editing events by comparing replicate RNA and DNA sequencing samples.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1432-8
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Piechotta M
+  last_author: Dieterich C
+  pmid: '28049429'
+  pmcid: PMC5210316
+  title: 'JACUSA: site-specific identification of RNA editing events from replicate sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: JACUSA detects single-nucleotide variant positions through RNA-DNA and RNA-RNA sequencing comparisons.

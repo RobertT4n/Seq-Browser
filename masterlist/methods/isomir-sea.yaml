@@ -1,0 +1,22 @@
+name: isomiR-SEA
+category: dry
+summary: RNA-seq analysis tool for quantifying miRNAs and classifying isomiRs and conserved miRNA-mRNA interaction sites.
+readouts:
+- rna
+- rna-rna-interaction
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-016-0958-0
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Urgese G
+  last_author: Ficarra E
+  pmid: '27036505'
+  pmcid: PMC4815201
+  title: 'isomiR-SEA: an RNA-Seq analysis tool for miRNAs/isomiRs expression level profiling and miRNA-mRNA interaction sites
+    evaluation'
+links: {}
+added: '2026-11-21'
+evidence: isomiR-SEA maps tags to known miRNAs to estimate expression and classify isomiRs and conserved interaction sites.

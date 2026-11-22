@@ -1,0 +1,22 @@
+name: FocalScan
+category: dry
+summary: Ranks candidate cancer drivers and suppressors using coordinated focal copy-number and RNA expression changes.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw674
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Karlsson J
+  last_author: Larsson E
+  pmid: '27474725'
+  pmcid: PMC5100559
+  title: 'FocalScan: Scanning for altered genes in cancer based on coordinated DNA and RNA change'
+links: {}
+added: '2026-11-21'
+evidence: FocalScan scans for focal copy-number alterations and coordinated expression changes and ranks tentative cancer
+  drivers or suppressors.

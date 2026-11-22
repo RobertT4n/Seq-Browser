@@ -1,0 +1,34 @@
+name: CLS
+full_name: RNA Capture Long Seq
+category: wet
+summary: Targeted RNA capture and long-read sequencing generate full-length transcript models for lncRNA annotation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- reverse-transcription
+- long-read-sequencing
+species:
+- human
+- mouse
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+reference:
+  doi: 10.1038/ng.3988
+  year: 2017
+  journal: Nat Genet
+  first_author: Lagarde J
+  last_author: Johnson R
+  pmid: '29106417'
+  pmcid: PMC5709232
+  title: High-throughput annotation of full-length long noncoding RNAs with capture long-read sequencing
+  preprint_doi: 10.1101/105064
+links: {}
+added: '2026-11-21'
+evidence: CLS combines targeted RNA capture with third-generation long-read sequencing and was applied to matched human and
+  mouse tissues.

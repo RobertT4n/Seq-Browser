@@ -1,0 +1,19 @@
+name: DICEseq
+category: dry
+summary: Quantifies RNA isoforms across correlated experiments by modeling relationships among RNA-seq samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw364
+  year: 2016
+  journal: Bioinformatics
+  first_author: Huang Y
+  last_author: Sanguinetti G
+  pmid: '27318208'
+  title: Statistical modeling of isoform splicing dynamics from RNA-seq time series data
+links: {}
+added: '2026-11-21'
+evidence: DICEseq models correlations between RNA-seq experiments to improve isoform quantification.

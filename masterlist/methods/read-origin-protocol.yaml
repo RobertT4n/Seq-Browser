@@ -1,0 +1,24 @@
+name: Read Origin Protocol
+category: dry
+summary: Identifies sources of RNA-seq reads including complex RNA molecules, immune receptors and microbial communities.
+readouts:
+- rna
+- immune-repertoire
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-018-1403-7
+  year: 2018
+  journal: Genome Biol
+  first_author: Mangul S
+  last_author: Zaitlen N
+  pmid: '29548336'
+  pmcid: PMC5857127
+  title: 'ROP: dumpster diving in RNA-sequencing to find the source of 1 trillion reads across diverse adult human tissues'
+  preprint_doi: 10.1101/053041
+links: {}
+added: '2026-11-21'
+evidence: Read Origin Protocol discovers reads originating from complex RNAs, recombinant T and B cell receptors, and microbial
+  communities.

@@ -1,0 +1,21 @@
+name: BEAR
+full_name: Better Emulation for Artificial Reads
+category: dry
+summary: Simulates sequencing reads with lengths and quality values modeled on empirical metagenomic data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-s9-s14
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Johnson S
+  last_author: Kusalik A
+  pmid: '25253095'
+  pmcid: PMC4168713
+  title: A better sequence-read simulator program for metagenomics
+links: {}
+added: '2026-11-21'
+evidence: BEAR uses a machine-learning approach to generate reads matching empirically derived length and quality distributions.

@@ -1,0 +1,22 @@
+name: SWAN
+category: dry
+summary: Detects genomic structural variants, including mid-range insertions and deletions, using multiple types of sequencing
+  evidence.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw481
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Xia LC
+  last_author: Zhang NR
+  pmid: '27325742'
+  pmcid: PMC5009736
+  title: A genome-wide approach for detecting novel insertion-deletion variants of mid-range size
+links: {}
+added: '2026-11-21'
+evidence: SWAN combines read-pair, read-depth and one-end-mapped evidence with split-read remapping to detect variants and
+  determine their boundaries.

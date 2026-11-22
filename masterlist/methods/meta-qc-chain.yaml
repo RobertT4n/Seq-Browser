@@ -1,0 +1,21 @@
+name: Meta-QC-Chain
+category: dry
+summary: Performs quality checks, read trimming, and contamination screening on metagenomic sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2014.01.002
+  year: 2014
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Zhou Q
+  last_author: Ning K
+  pmid: '24508279'
+  pmcid: PMC4411374
+  title: 'Meta-QC-Chain: comprehensive and fast quality control method for metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: Meta-QC-Chain combines technical tests, quality trimming, and screening for higher-eukaryote contamination in metagenomic
+  data.

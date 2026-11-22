@@ -1,0 +1,22 @@
+name: iDEAR
+full_name: iDamlDseq Enrichment Analysis with R
+category: dry
+summary: Analyzes iDamIDseq data to determine genome-wide protein-DNA interactions.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1242/dev.139261
+  year: 2016
+  journal: Development
+  first_author: Gutierrez-Triana JA
+  last_author: Wittbrodt J
+  pmid: '27707796'
+  pmcid: PMC5117216
+  title: 'iDamIDseq and iDEAR: an improved method and computational pipeline to profile chromatin-binding proteins'
+  preprint_doi: 10.1101/062208
+links: {}
+added: '2026-11-21'
+evidence: iDEAR is an analysis tool for determining protein-DNA interactions genome-wide from iDamIDseq data.

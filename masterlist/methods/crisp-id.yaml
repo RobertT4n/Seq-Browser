@@ -1,0 +1,20 @@
+name: CRISP-ID
+category: dry
+summary: Genotypes up to three alleles from a Sanger sequencing trace to identify CRISPR-mediated indels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/srep28973
+  year: 2016
+  journal: Sci Rep
+  first_author: Dehairs J
+  last_author: Swinnen JV
+  pmid: '27363488'
+  pmcid: PMC4929496
+  title: 'CRISP-ID: decoding CRISPR mediated indels by Sanger sequencing'
+links: {}
+added: '2026-11-21'
+evidence: CRISP-ID uses a single Sanger sequencing trace to genotype up to three alleles and identify indels.

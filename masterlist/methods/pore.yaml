@@ -1,0 +1,24 @@
+name: poRe
+category: dry
+summary: Organizes, summarizes and visualizes Oxford Nanopore MinION sequencing data in R.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btu590
+  year: 2015
+  journal: Bioinformatics
+  first_author: Watson M
+  last_author: Blaxter M
+  pmid: '25173419'
+  pmcid: PMC4271141
+  title: 'poRe: an R package for the visualization and analysis of nanopore sequencing data'
+  preprint_doi: 10.1101/007567
+links: {}
+added: '2026-11-21'
+evidence: poRe enables users to manipulate, organize, summarize and visualize MinION sequencing data.

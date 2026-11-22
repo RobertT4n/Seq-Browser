@@ -1,0 +1,19 @@
+name: MALT
+full_name: MEGAN ALignment Tool
+category: dry
+summary: Aligns metagenomic DNA reads and assigns them to bacterial taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/050559
+  year: 2016
+  journal: bioRxiv
+  first_author: Herbig A
+  last_author: Huson DH
+  title: 'MALT: Fast alignment and analysis of metagenomic DNA sequence data applied to the Tyrolean Iceman'
+links: {}
+added: '2026-11-21'
+evidence: MALT aligns metagenomic sequencing reads and implements taxonomic binning to assign reads to bacterial species.

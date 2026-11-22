@@ -1,0 +1,21 @@
+name: SUPPA
+category: dry
+summary: Calculates relative inclusion values for alternative splicing events from transcript quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.051557.115
+  year: 2015
+  journal: RNA
+  first_author: Alamancos GP
+  last_author: Eyras E
+  pmid: '26179515'
+  pmcid: PMC4536314
+  title: Leveraging transcript quantification for fast computation of alternative splicing profiles
+  preprint_doi: 10.1101/008763
+links: {}
+added: '2026-11-21'
+evidence: SUPPA computes alternative splicing event inclusion values by exploiting fast transcript quantification.

@@ -1,0 +1,21 @@
+name: FRAMA
+category: dry
+summary: Annotates and improves de novo mRNA assemblies through redundancy reduction, correction, scaffolding and coding sequence
+  identification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-015-2349-8
+  year: 2016
+  journal: BMC Genomics
+  first_author: Bens M
+  last_author: Szafranski K
+  pmid: '26763976'
+  pmcid: PMC4712544
+  title: 'FRAMA: from RNA-seq data to annotated mRNA assemblies'
+links: {}
+added: '2026-11-21'
+evidence: FRAMA performs post-assembly tasks including transcript correction, scaffolding and coding sequence identification.

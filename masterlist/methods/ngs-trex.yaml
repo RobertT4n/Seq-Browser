@@ -1,0 +1,21 @@
+name: NGS-Trex
+full_name: NGS Transcriptome profile explorer
+category: dry
+summary: Provides a web-based automated workflow for characterizing transcriptome profiles from raw sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s7-s10
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Boria I
+  last_author: Mignone F
+  pmid: '23815181'
+  pmcid: PMC3633008
+  title: 'NGS-Trex: Next Generation Sequencing Transcriptome profile explorer'
+links: {}
+added: '2026-11-21'
+evidence: NGS-Trex accepts raw sequences and provides transcriptome profile characterization through a web interface.

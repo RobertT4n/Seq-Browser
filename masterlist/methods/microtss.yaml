@@ -1,0 +1,22 @@
+name: microTSS
+category: dry
+summary: Integrates RNA sequencing and chromatin profiling data to predict intergenic microRNA transcription start sites.
+readouts:
+- rna
+- histone-modification
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms6700
+  year: 2014
+  journal: Nat Commun
+  first_author: Georgakilas G
+  last_author: Hatzigeorgiou AG
+  pmid: '25492647'
+  title: 'microTSS: accurate microRNA transcription start site identification reveals a significant number of divergent pri-miRNAs'
+links: {}
+added: '2026-11-21'
+evidence: microTSS integrates high-resolution RNA sequencing with chromatin immunoprecipitation and DNase sequencing to predict
+  intergenic miRNA transcription start sites.

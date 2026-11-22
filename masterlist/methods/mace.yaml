@@ -1,0 +1,22 @@
+name: MACE
+full_name: model-based analysis of ChIP-exo
+category: dry
+summary: Analyzes ChIP-exo data to identify transcription factor binding-site boundaries.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku846
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Wang L
+  last_author: Li W
+  pmid: '25249628'
+  pmcid: PMC4227761
+  title: 'MACE: model based analysis of ChIP-exo'
+links: {}
+added: '2026-11-21'
+evidence: MACE normalizes ChIP-exo data, reduces noise, detects border peaks and matches borders to define transcription factor
+  binding sites.

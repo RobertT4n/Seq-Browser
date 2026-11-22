@@ -1,0 +1,20 @@
+name: SeqPurge
+category: dry
+summary: Trims adapter sequences from paired-end Illumina reads using probabilistic overlap detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-016-1069-7
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Sturm M
+  last_author: Bauer P
+  pmid: '27161244'
+  pmcid: PMC4862148
+  title: 'SeqPurge: highly-sensitive adapter trimming for paired-end NGS data'
+links: {}
+added: '2026-11-21'
+evidence: SeqPurge detects paired-end read overlaps to trim adapter sequences, including adapters as short as one base.

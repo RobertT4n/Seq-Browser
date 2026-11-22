@@ -1,0 +1,20 @@
+name: ATHLATES
+category: dry
+summary: Infers HLA alleles and allelic pairs from whole-exome sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkt481
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Liu C
+  last_author: Pfeifer JD
+  pmid: '23748956'
+  pmcid: PMC3737559
+  title: 'ATHLATES: accurate typing of human leukocyte antigen through exome sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ATHLATES applies assembly, allele identification and allelic pair inference to short reads for HLA typing.

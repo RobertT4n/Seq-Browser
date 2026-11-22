@@ -1,0 +1,23 @@
+name: CRAFTT
+category: dry
+summary: Combines ChIP-seq and drug-induced expression profiles to identify small molecules that perturb transcription factor
+  activity.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.celrep.2016.05.037
+  year: 2016
+  journal: Cell Rep
+  first_author: Gayvert KM
+  last_author: Elemento O
+  pmid: '27264179'
+  pmcid: PMC4912004
+  title: A Computational Drug Repositioning Approach for Targeting Oncogenic Transcription Factors
+links: {}
+added: '2026-11-21'
+evidence: CRAFTT combines ChIP-seq with drug-induced expression profiling to identify small molecules that specifically perturb
+  transcription factor activity.

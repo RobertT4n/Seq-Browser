@@ -1,0 +1,23 @@
+name: mPUMA
+full_name: microbial Profiling Using Metagenomic Assembly
+category: dry
+summary: Assembles protein-coding barcode sequences into microbial operational taxonomic units and tracks their abundance.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/2049-2618-1-23
+  year: 2013
+  journal: Microbiome
+  first_author: Links MG
+  last_author: Hill JE
+  pmid: '24451012'
+  pmcid: PMC3971603
+  title: 'mPUMA: a computational approach to microbiota analysis by de novo assembly of operational taxonomic units based
+    on protein-coding barcode sequences'
+links: {}
+added: '2026-11-21'
+evidence: mPUMA forms operational taxonomic units by assembling microbial barcode sequences without external reference sequences
+  and tracks their abundance.

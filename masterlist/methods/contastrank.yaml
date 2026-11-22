@@ -1,0 +1,20 @@
+name: ContastRank
+category: dry
+summary: Prioritizes putative cancer driver genes from variant distributions and discriminates tumor from normal samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu466
+  year: 2014
+  journal: Bioinformatics
+  first_author: Tian R
+  last_author: Capriotti E
+  pmid: '25161249'
+  pmcid: PMC4147919
+  title: 'ContrastRank: a new method for ranking putative cancer driver genes and classification of tumor samples'
+links: {}
+added: '2026-11-21'
+evidence: ContastRank compares putative defective rates for each gene in tumor, normal and 1000 Genomes samples.

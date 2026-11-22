@@ -1,0 +1,20 @@
+name: HMZDelFinder
+category: dry
+summary: Detects rare intragenic homozygous and hemizygous deletions from whole-exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkw1237
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Gambin T
+  last_author: Lupski JR
+  pmid: '27980096'
+  pmcid: PMC5389578
+  title: Homozygous and hemizygous CNV detection from exome sequencing data in a Mendelian disease cohort
+links: {}
+added: '2026-11-21'
+evidence: HMZDelFinder uses whole-exome sequencing data to identify rare intragenic homozygous and hemizygous deletions.

@@ -1,0 +1,22 @@
+name: SimRAD
+category: dry
+summary: Simulates restriction digestion and fragment selection to predict the number of loci recovered by RAD-seq and related
+  protocols.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1111/1755-0998.12273
+  year: 2014
+  journal: Mol Ecol Resour
+  first_author: Lepais O
+  last_author: Weir JT
+  pmid: '24806844'
+  title: 'SimRAD: an R package for simulation-based prediction of the number of loci expected in RADseq and similar genotyping
+    by sequencing approaches'
+links: {}
+added: '2026-11-21'
+evidence: SimRAD performs in silico restriction digests and fragment size selection to predict the number of loci under alternative
+  protocols.

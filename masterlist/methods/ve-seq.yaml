@@ -1,0 +1,25 @@
+name: ve-SEQ
+category: wet
+summary: Uses sequence-specific probe capture to enrich and sequence diverse whole-virus genomes and intra-host variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- microbe
+reference:
+  doi: 10.12688/f1000research.7111.1
+  year: 2015
+  journal: F1000Res
+  first_author: Bonsall D
+  last_author: Bowden R
+  pmid: '27092241'
+  pmcid: PMC4821293
+  title: 've-SEQ: Robust, unbiased enrichment for streamlined detection and whole-genome sequencing of HCV and other highly
+    diverse pathogens'
+links: {}
+added: '2026-11-21'
+evidence: ve-SEQ uses oligonucleotide probe panels to capture diverse HCV genomes, including mixtures and intra-host variants.

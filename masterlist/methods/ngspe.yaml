@@ -1,0 +1,22 @@
+name: NGSPE
+category: dry
+summary: Provides an end-to-end pipeline for alignment, variant discovery, genotyping and annotation of paired-end DNA sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2013.05.025
+  year: 2013
+  journal: Comput Biol Med
+  first_author: Huang K
+  last_author: Dinu V
+  pmid: '23930810'
+  pmcid: PMC8923040
+  title: 'NGSPE: A pipeline for end-to-end analysis of DNA sequencing data and comparison between different platforms'
+links: {}
+added: '2026-11-21'
+evidence: NGSPE combines short-read alignment, genotype calling and functional variation annotation with installation and
+  execution scripts.

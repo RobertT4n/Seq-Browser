@@ -1,0 +1,22 @@
+name: EXPLoRA
+full_name: EXtraction of over-rePresented aLleles in BSA
+category: dry
+summary: Maps trait-linked regions in bulk segregant sequencing data using a hidden Markov model of neighboring markers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-207
+  year: 2014
+  journal: BMC Genomics
+  first_author: Duitama J
+  last_author: Marchal K
+  pmid: '24640961'
+  pmcid: PMC4003806
+  title: Improved linkage analysis of Quantitative Trait Loci using bulk segregants unveils a novel determinant of high ethanol
+    tolerance in yeast
+links: {}
+added: '2026-11-21'
+evidence: EXPLoRA models linkage disequilibrium between neighboring markers to identify QTLs in bulk segregant analysis.

@@ -1,0 +1,20 @@
+name: BRAT-nova
+category: dry
+summary: Maps bisulfite-treated sequencing reads efficiently and accurately.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw226
+  year: 2016
+  journal: Bioinformatics
+  first_author: Harris EY
+  last_author: Lonardi S
+  pmid: '27153660'
+  title: 'BRAT-nova: fast and accurate mapping of bisulfite-treated reads'
+links: {}
+added: '2026-11-21'
+evidence: BRAT-nova is an improved implementation of BRAT-BW for mapping bisulfite-treated reads.

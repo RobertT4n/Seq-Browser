@@ -1,0 +1,21 @@
+name: TEMP
+category: dry
+summary: Detects transposable element insertions and excisions and estimates their frequencies in heterogeneous populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku323
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Zhuang J
+  last_author: Weng Z
+  pmid: '24753423'
+  pmcid: PMC4066757
+  title: 'TEMP: a computational method for analyzing transposable element polymorphism in populations'
+links: {}
+added: '2026-11-21'
+evidence: TEMP combines paired-end and split reads to identify transposable element insertions and their absence and estimate
+  event frequencies.

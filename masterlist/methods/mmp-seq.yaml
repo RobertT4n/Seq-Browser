@@ -1,0 +1,29 @@
+name: MMP-seq
+category: wet
+summary: MMP-seq uses multiplexed PCR and sequencing to profile a panel of cancer genes in archived samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1158/1078-0432.ccr-13-3114
+  year: 2014
+  journal: Clin Cancer Res
+  first_author: Bourgon R
+  last_author: Wang Y
+  pmid: '24573554'
+  title: High-throughput detection of clinically relevant mutations in archived tumor samples by multiplexed PCR and next-generation
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: MMP-seq simultaneously profiled 88 cancer genes in 48 samples and detected variants at frequencies as low as 0.4%.

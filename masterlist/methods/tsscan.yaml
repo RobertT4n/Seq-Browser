@@ -1,0 +1,22 @@
+name: TSscan
+category: dry
+summary: Integrates long- and short-read transcriptome sequencing data to detect trans-splicing while reducing false positives.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.159483.113
+  year: 2014
+  journal: Genome Res
+  first_author: Wu CS
+  last_author: Chuang TJ
+  pmid: '24131564'
+  pmcid: PMC3875859
+  title: Integrative transcriptome sequencing identifies trans-splicing events with important roles in human embryonic stem
+    cell pluripotency
+links: {}
+added: '2026-11-21'
+evidence: TSscan integrates different types of long- and short-read transcriptome sequencing to minimize false positives when
+  detecting trans-splicing.

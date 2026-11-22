@@ -1,0 +1,20 @@
+name: SRST2
+category: dry
+summary: Detects genes, alleles and multilocus sequence types from bacterial whole-genome sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13073-014-0090-6
+  year: 2014
+  journal: Genome Med
+  first_author: Inouye M
+  last_author: Holt KE
+  pmid: '25422674'
+  pmcid: PMC4237778
+  title: 'SRST2: Rapid genomic surveillance for public health and hospital microbiology labs'
+links: {}
+added: '2026-11-21'
+evidence: SRST2 uses read mapping to detect genes, alleles and multilocus sequence types from whole-genome sequencing data.

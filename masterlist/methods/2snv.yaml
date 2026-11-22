@@ -1,0 +1,23 @@
+name: 2SNV
+category: dry
+summary: Reconstructs closely related viral mutant variants from error-prone long reads using linkage between single nucleotide
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2016.0146
+  year: 2017
+  journal: J Comput Biol
+  first_author: Artyomenko A
+  last_author: Zelikovsky A
+  pmid: '27901586'
+  pmcid: PMC5467126
+  title: Long Single-Molecule Reads Can Resolve the Complexity of the Influenza Virus Composed of Rare, Closely Related Mutant
+    Variants
+  preprint_doi: 10.1101/036392
+links: {}
+added: '2026-11-21'
+evidence: 2SNV uses linkage between single nucleotide variations to distinguish viral variants from read errors.

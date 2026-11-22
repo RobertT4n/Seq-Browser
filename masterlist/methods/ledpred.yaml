@@ -1,0 +1,20 @@
+name: LedPred
+category: dry
+summary: Uses a support vector machine workflow with heterogeneous features to predict regulatory sequences.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv705
+  year: 2016
+  journal: Bioinformatics
+  first_author: Seyres D
+  last_author: González A
+  pmid: '26628586'
+  title: 'LedPred: an R/bioconductor package to predict regulatory sequences using support vector machines'
+links: {}
+added: '2026-11-21'
+evidence: LedPred predicts new regulatory sequences from known cis-regulatory modules and feature types including ChIP-seq
+  data.

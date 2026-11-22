@@ -1,0 +1,21 @@
+name: SHARAKU
+category: dry
+summary: Aligns and clusters noncoding RNA read mapping profiles to identify common RNA processing patterns.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw273
+  year: 2016
+  journal: Bioinformatics
+  first_author: Tsuchiya M
+  last_author: Sakakibara Y
+  pmid: '27307639'
+  pmcid: PMC4908357
+  title: 'SHARAKU: an algorithm for aligning and clustering read mapping profiles of deep sequencing in non-coding RNA processing'
+links: {}
+added: '2026-11-21'
+evidence: SHARAKU incorporates primary and secondary sequence structures into alignments of read mapping profiles to detect
+  common processing patterns.

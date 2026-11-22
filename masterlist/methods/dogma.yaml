@@ -1,0 +1,19 @@
+name: DOGMA
+category: dry
+summary: Assesses transcriptome and proteome completeness using conserved protein domains.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw231
+  year: 2016
+  journal: Bioinformatics
+  first_author: Dohmen E
+  last_author: Kemena C
+  pmid: '27153665'
+  title: 'DOGMA: domain-based transcriptome and proteome quality assessment'
+links: {}
+added: '2026-11-21'
+evidence: DOGMA measures transcriptome or proteome completeness and provides information about domain content.

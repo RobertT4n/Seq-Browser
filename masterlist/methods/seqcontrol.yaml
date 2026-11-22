@@ -1,0 +1,19 @@
+name: SeqControl
+category: dry
+summary: Predicts sequencing quality and coverage from sequencing metrics to support process control.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3094
+  year: 2014
+  journal: Nat Methods
+  first_author: Chong LC
+  last_author: Boutros PC
+  pmid: '25173705'
+  title: 'SeqControl: process control for DNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: SeqControl uses 15 coverage and quality metrics to predict sequencing quality and depth.

@@ -1,0 +1,21 @@
+name: ARTIST
+category: dry
+summary: Analyzes transposon-insertion sequencing data to map fitness-linked loci and identify essential regions.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1004782
+  year: 2014
+  journal: PLoS Genet
+  first_author: Pritchard JR
+  last_author: Waldor MK
+  pmid: '25375795'
+  pmcid: PMC4222735
+  title: 'ARTIST: high-resolution genome-wide assessment of fitness using transposon-insertion sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ARTIST uses simulation-based normalization and a hidden Markov model to produce annotation-independent maps of fitness-linked
+  loci.

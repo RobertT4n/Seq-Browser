@@ -1,0 +1,21 @@
+name: HEPeak
+category: dry
+summary: Uses a hidden Markov model to identify transcriptome methylation peaks in MeRIP-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-16-s4-s2
+  year: 2015
+  journal: BMC Genomics
+  first_author: Cui X
+  last_author: Huang Y
+  pmid: '25917296'
+  pmcid: PMC4416174
+  title: 'HEPeak: an HMM-based exome peak-finding package for RNA epigenome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HEPeak models correlations between adjacent bins in m6A peak regions and predicts methylation sites from MeRIP-seq
+  data.

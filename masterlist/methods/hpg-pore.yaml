@@ -1,0 +1,23 @@
+name: HPG Pore
+category: dry
+summary: Scalable toolkit for exploring and analyzing nanopore sequencing data on individual computers or distributed systems.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12859-016-0966-0
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Tarraga J
+  last_author: Dopazo J
+  pmid: '26921234'
+  pmcid: PMC4769497
+  title: 'HPG pore: an efficient and scalable framework for nanopore sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HPG Pore analyzes nanopore sequencing data on individual computers and in the Hadoop distributed computing framework.

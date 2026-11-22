@@ -1,0 +1,21 @@
+name: ABySS 2.0
+category: dry
+summary: Assembles genomes using a Bloom filter representation of a de Bruijn graph to reduce memory requirements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.214346.116
+  year: 2017
+  journal: Genome Res
+  first_author: Jackman SD
+  last_author: Birol I
+  pmid: '28232478'
+  pmcid: PMC5411771
+  title: 'ABySS 2.0: resource-efficient assembly of large genomes using a Bloom filter'
+  preprint_doi: 10.1101/068338
+links: {}
+added: '2026-11-21'
+evidence: The redesign uses a Bloom filter to represent a de Bruijn graph and reduce memory requirements for assembly.

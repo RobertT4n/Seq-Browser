@@ -1,0 +1,20 @@
+name: VarDict
+category: dry
+summary: Calls multiple classes of genetic variants from DNA- and RNA-sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw227
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Lai Z
+  last_author: Dry JR
+  pmid: '27060149'
+  pmcid: PMC4914105
+  title: 'VarDict: a novel and versatile variant caller for next-generation sequencing in cancer research'
+links: {}
+added: '2026-11-21'
+evidence: VarDict calls SNVs, MNVs, indels, complex variants and structural variants and supports targeted amplicon sequencing.

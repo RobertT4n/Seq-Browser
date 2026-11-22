@@ -1,0 +1,25 @@
+name: RimSeq
+category: wet
+summary: Uses a high-throughput reverse-transcriptase-based approach to identify 2′-O-methyl modifications in RNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkw386
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Jorjani H
+  last_author: Gruber AR
+  pmid: '27174936'
+  pmcid: PMC4914119
+  title: An updated human snoRNAome
+links: {}
+added: '2026-11-21'
+evidence: RimSeq is a high-throughput variant of a reverse-transcriptase-based method for identifying 2′-O-methyl modifications
+  in RNA.

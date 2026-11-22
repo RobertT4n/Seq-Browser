@@ -1,0 +1,22 @@
+name: hiddenDomains
+category: dry
+summary: Method for identifying both narrow peaks and broad domains in ChIP-seq data.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-0991-z
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: Starmer J
+  last_author: Magnuson T
+  pmid: '27009150'
+  pmcid: PMC4806451
+  title: Detecting broad domains and narrow peaks in ChIP-seq data with hiddenDomains
+links: {}
+added: '2026-11-21'
+evidence: hiddenDomains identifies peaks and domains and was evaluated on histone modification and transcription factor ChIP-seq
+  datasets.

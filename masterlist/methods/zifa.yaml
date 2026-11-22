@@ -1,0 +1,22 @@
+name: ZIFA
+full_name: Zero Inflated Factor Analysis
+category: dry
+summary: Reduces the dimensionality of single-cell RNA-seq data while explicitly modeling dropout events.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-015-0805-z
+  year: 2015
+  journal: Genome Biol
+  first_author: Pierson E
+  last_author: Yau C
+  pmid: '26527291'
+  pmcid: PMC4630968
+  title: 'ZIFA: Dimensionality reduction for zero-inflated single-cell gene expression analysis'
+  preprint_doi: 10.1101/019141
+links: {}
+added: '2026-11-21'
+evidence: ZIFA models the dropout characteristics of zero-inflated single-cell expression data for dimensionality reduction.

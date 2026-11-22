@@ -1,0 +1,19 @@
+name: VirusDetect
+category: dry
+summary: Identifies known and novel viruses by assembling and analyzing small RNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.virol.2016.10.017
+  year: 2017
+  journal: Virology
+  first_author: Zheng Y
+  last_author: Fei Z
+  pmid: '27825033'
+  title: 'VirusDetect: An automated pipeline for efficient virus discovery using deep sequencing of small RNAs'
+links: {}
+added: '2026-11-21'
+evidence: VirusDetect uses reference-guided and de novo small RNA assembly to identify known and novel viruses.

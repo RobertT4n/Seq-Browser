@@ -1,0 +1,21 @@
+name: BAIT
+category: dry
+summary: Analyzes single-cell Strand-seq data to assign templates, locate sister chromatid exchanges, and improve genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/gm486
+  year: 2013
+  journal: Genome Med
+  first_author: Hills M
+  last_author: Lansdorp PM
+  pmid: '24028793'
+  pmcid: PMC3971352
+  title: 'BAIT: Organizing genomes and mapping rearrangements in single cells'
+links: {}
+added: '2026-11-21'
+evidence: BAIT assigns templates and identifies and localizes sister chromatid exchanges, and was used to refine reference
+  assemblies.

@@ -1,0 +1,22 @@
+name: NIKS
+full_name: needle in the k-stack
+category: dry
+summary: Compares k-mers in mutant and wild-type whole-genome sequencing data to discover homozygous mutations without a reference
+  genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt.2515
+  year: 2013
+  journal: Nat Biotechnol
+  first_author: Nordström KJ
+  last_author: Schneeberger K
+  pmid: '23475072'
+  title: Mutation identification by direct comparison of whole-genome sequencing data from mutant and wild-type individuals
+    using k-mers
+links: {}
+added: '2026-11-21'
+evidence: NIKS is a reference-free algorithm that compares k-mers in whole-genome sequencing data to discover homozygous mutations.

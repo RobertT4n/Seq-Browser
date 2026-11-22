@@ -1,0 +1,19 @@
+name: CTPsingle
+category: dry
+summary: CTPsingle infers tumor purity and subclonal composition from low-coverage sequencing of a single tumor sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2016.0148
+  year: 2017
+  journal: J Comput Biol
+  first_author: Donmez N
+  last_author: Sahinalp SC
+  pmid: '28056180'
+  title: Clonality Inference from Single Tumor Samples Using Low-Coverage Sequence Data
+links: {}
+added: '2026-11-21'
+evidence: CTPsingle infers the purity and clonality of single-sample tumors using low-coverage sequence data.

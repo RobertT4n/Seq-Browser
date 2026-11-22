@@ -1,0 +1,20 @@
+name: OncoNEM
+category: dry
+summary: Probabilistic method that infers tumour subpopulation genotypes and evolutionary trees from single-cell variants.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s13059-016-0929-9
+  year: 2016
+  journal: Genome Biol
+  first_author: Ross EM
+  last_author: Markowetz F
+  pmid: '27083415'
+  pmcid: PMC4832472
+  title: 'OncoNEM: inferring tumor evolution from single-cell sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: OncoNEM infers intra-tumour evolutionary lineage trees from somatic single nucleotide variants of single cells.

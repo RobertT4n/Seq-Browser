@@ -1,0 +1,22 @@
+name: PanFP
+full_name: pangenome-based functional profiles
+category: dry
+summary: Infers microbial community functional profiles from bacterial and archaeal 16S rRNA gene surveys using pangenome
+  reconstruction.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13104-015-1462-8
+  year: 2015
+  journal: BMC Res Notes
+  first_author: Jun SR
+  last_author: Gorin AA
+  pmid: '26409790'
+  pmcid: PMC4584126
+  title: 'PanFP: pangenome-based functional profiles for microbial communities'
+links: {}
+added: '2026-11-21'
+evidence: PanFP infers functional profiles of microbial communities from 16S rRNA gene survey data.

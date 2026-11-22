@@ -1,0 +1,20 @@
+name: NxRepair
+category: dry
+summary: Identifies and corrects large-scale errors in de novo genome assemblies using Nextera mate-pair sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.996
+  year: 2015
+  journal: PeerJ
+  first_author: Murphy RR
+  last_author: Schulz-Trieglaff O
+  pmid: '26056623'
+  pmcid: PMC4458127
+  title: 'NxRepair: error correction in de novo sequence assembly using Nextera mate pairs'
+links: {}
+added: '2026-11-21'
+evidence: NxRepair uses Nextera mate-pair libraries to identify and correct large scaffolding errors without a reference sequence.

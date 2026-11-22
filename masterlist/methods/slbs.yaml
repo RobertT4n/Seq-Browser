@@ -1,0 +1,29 @@
+name: SLBS
+full_name: single-cell, locus-specific bisulfite sequencing
+category: wet
+summary: Locus-specific bisulfite sequencing detects variation in DNA methylation patterns between individual cells.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1093/nar/gkv366
+  year: 2015
+  journal: Nucleic Acids Res
+  first_author: Gravina S
+  last_author: Vijg J
+  pmid: '25897117'
+  pmcid: PMC4538804
+  title: Single-cell, locus-specific bisulfite sequencing (SLBS) for direct detection of epimutations in DNA methylation patterns
+links: {}
+added: '2026-11-21'
+evidence: SLBS detected epimutations in DNA methylation patterns within promoter regions of mouse hepatocytes.

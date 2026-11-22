@@ -1,0 +1,30 @@
+name: SIF-seq
+full_name: site-specific integration fluorescence-activated cell sorting followed by sequencing
+category: wet
+summary: SIF-seq couples site-specific reporter integration, flow cytometry and sequencing to screen DNA sequences for enhancer
+  activity.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- reporter-assay
+scope: targeted
+chemistry:
+- facs-sorting
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/nmeth.2886
+  year: 2014
+  journal: Nat Methods
+  first_author: Dickel DE
+  last_author: Pennacchio LA
+  pmid: '24658141'
+  pmcid: PMC4008384
+  title: Function-based identification of mammalian enhancers using site-specific integration
+links: {}
+added: '2026-11-21'
+evidence: SIF-seq functionally interrogated more than 500 kb of mouse and human sequence in mouse embryonic stem cells.

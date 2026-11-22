@@ -1,0 +1,20 @@
+name: smallWig
+category: dry
+summary: Losslessly compresses RNA-seq WIG data while supporting random access, visualization, summary statistics and queries.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv561
+  year: 2016
+  journal: Bioinformatics
+  first_author: Wang Z
+  last_author: Milenkovic O
+  pmid: '26424856'
+  pmcid: PMC6078172
+  title: 'smallWig: parallel compression of RNA-seq WIG files'
+links: {}
+added: '2026-11-21'
+evidence: smallWig compresses RNA-seq WIG files and provides random access to compressed data.

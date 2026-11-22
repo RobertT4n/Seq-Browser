@@ -1,0 +1,24 @@
+name: BunDLE-seq
+category: wet
+summary: An in vitro binding assay quantitatively measures transcription factor binding to thousands of designed DNA sequences.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/gr.185033.114
+  year: 2015
+  journal: Genome Res
+  first_author: Levo M
+  last_author: Segal E
+  pmid: '25762553'
+  pmcid: PMC4484385
+  title: Unraveling determinants of transcription factor binding outside the core binding site
+links: {}
+added: '2026-11-21'
+evidence: BunDLE-seq measured binding of two yeast transcription factors to thousands of designed 200-base-pair sequences.

@@ -1,0 +1,20 @@
+name: KmerStream
+category: dry
+summary: Computes streaming k-mer frequency statistics to estimate sequencing error rates and genome size.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu713
+  year: 2014
+  journal: Bioinformatics
+  first_author: Melsted P
+  last_author: Halldórsson BV
+  pmid: '25355787'
+  title: 'KmerStream: streaming algorithms for k-mer abundance estimation'
+  preprint_doi: 10.1101/003962
+links: {}
+added: '2026-11-21'
+evidence: KmerStream estimates sequencing error rate and genome size from aggregate k-mer statistics.

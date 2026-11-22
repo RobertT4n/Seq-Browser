@@ -1,0 +1,24 @@
+name: DEEPN
+full_name: dynamic enrichment for evaluation of protein networks
+category: wet
+summary: A sequencing-based yeast two-hybrid screen tracks competing plasmids to identify and compare protein interactions.
+readouts:
+- protein-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.celrep.2016.08.095
+  year: 2016
+  journal: Cell Rep
+  first_author: Pashkova N
+  last_author: Piper RC
+  pmid: '27681439'
+  pmcid: PMC5594928
+  title: DEEPN as an Approach for Batch Processing of Yeast 2-Hybrid Interactions
+links: {}
+added: '2026-11-21'
+evidence: DEEPN uses sequencing to follow plasmids encoding interacting partners and compare candidate interactors across
+  bait proteins.

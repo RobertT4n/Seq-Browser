@@ -1,0 +1,23 @@
+name: MiRTrans
+full_name: Prediction of MiRNA targets by Trans-omics data
+category: dry
+summary: Predicts miRNA targets by combining sequence characteristics with miRNA expression, transcript expression, and degradome
+  data.
+readouts:
+- rna
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fpls.2017.00495
+  year: 2017
+  journal: Front Plant Sci
+  first_author: Zhang L
+  last_author: Li SC
+  pmid: '28443105'
+  pmcid: PMC5385386
+  title: Identification of MicroRNA Targets of <i>Capsicum</i> spp. Using MiRTrans-a Trans-Omics Approach
+links: {}
+added: '2026-11-21'
+evidence: MiRTrans combines miRNA sequencing, transcriptome sequencing, and degradome sequencing to identify miRNA targets.

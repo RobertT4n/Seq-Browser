@@ -1,0 +1,21 @@
+name: HBS-tools
+category: dry
+summary: Preprocesses and maps hairpin bisulfite sequencing reads and calls methylation on both DNA strands.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1155/2015/760423
+  year: 2015
+  journal: Adv Bioinformatics
+  first_author: Sun MA
+  last_author: Xie H
+  pmid: '26798339'
+  pmcid: PMC4698518
+  title: HBS-Tools for Hairpin Bisulfite Sequencing Data Processing and Analysis
+links: {}
+added: '2026-11-21'
+evidence: HBS-tools processes genome-wide hairpin-BS-Seq data and calls cytosine methylation statuses on both strands.

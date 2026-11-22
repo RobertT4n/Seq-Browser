@@ -1,0 +1,21 @@
+name: miRdentify
+category: dry
+summary: Identifies animal microRNAs from high-throughput sequencing data using a stringent prediction pipeline.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gku598
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Hansen TB
+  last_author: Damgaard CK
+  pmid: '25053842'
+  pmcid: PMC4176371
+  title: 'miRdentify: high stringency miRNA predictor identifies several novel animal miRNAs'
+links: {}
+added: '2026-11-21'
+evidence: The authors describe miRdentify as a pipeline for confident animal miRNA identification and report novel predictions
+  in several animals.

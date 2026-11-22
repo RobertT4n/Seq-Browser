@@ -1,0 +1,21 @@
+name: PyroHMMsnp
+category: dry
+summary: Calls SNPs from Ion Torrent and 454 data by realigning reads around homopolymers using a sequencing error model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt372
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Zeng F
+  last_author: Chen T
+  pmid: '23700313'
+  pmcid: PMC3711422
+  title: 'PyroHMMsnp: an SNP caller for Ion Torrent and 454 sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PyroHMMsnp realigns reads around homopolymers according to a hidden Markov error model and infers genotypes using
+  a Bayesian approach.

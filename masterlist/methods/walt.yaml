@@ -1,0 +1,21 @@
+name: WALT
+category: dry
+summary: Maps whole-genome bisulfite sequencing reads using hashed periodic spaced seeds.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw490
+  year: 2016
+  journal: Bioinformatics
+  first_author: Chen H
+  last_author: Chen T
+  pmid: '27466624'
+  pmcid: PMC5181568
+  title: 'WALT: fast and accurate read mapping for bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: WALT maps whole-genome bisulfite sequencing reads using a strategy based on hashing periodic spaced seeds.

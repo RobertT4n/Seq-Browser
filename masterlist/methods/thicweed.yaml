@@ -1,0 +1,22 @@
+name: THiCweed
+category: dry
+summary: THiCweed clusters ChIP-seq bound regions by sequence similarity to discover mixtures of transcription factor binding
+  motifs.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx1251
+  year: 2018
+  journal: Nucleic Acids Res
+  first_author: Agrawal A
+  last_author: Siddharthan R
+  pmid: '29267972'
+  pmcid: PMC5861420
+  title: 'THiCweed: fast, sensitive detection of sequence features by clustering big datasets'
+  preprint_doi: 10.1101/104109
+links: {}
+added: '2026-11-21'
+evidence: THiCweed clusters ChIP-seq bound regions by sequence similarity and recovers motifs, including secondary motifs.

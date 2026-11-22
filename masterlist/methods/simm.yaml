@@ -1,0 +1,25 @@
+name: SIMM
+full_name: Simultaneous Identification of Multiple Causal Mutations
+category: wet
+summary: A pooled sequencing analysis compares independent mutants to identify causal mutations while reducing background
+  and sequencing noise.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.3389/fpls.2016.02055
+  year: 2016
+  journal: Front Plant Sci
+  first_author: Yan W
+  last_author: Tang X
+  pmid: '28144247'
+  pmcid: PMC5239786
+  title: Simultaneous Identification of Multiple Causal Mutations in Rice
+links: {}
+added: '2026-11-21'
+evidence: SIMM compares SNPs among pooled rice mutants using allele index and Euclidean distance and identified seven new
+  mutant alleles.

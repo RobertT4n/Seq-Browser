@@ -1,0 +1,27 @@
+name: MEBS
+full_name: DNA-enrichment-bisulfite-sequencing
+category: wet
+summary: Methylation enrichment and bisulfite sequencing profile DNA methylation at nucleotide resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- other-vertebrate
+reference:
+  doi: 10.1186/1471-2164-15-1036
+  year: 2014
+  journal: BMC Genomics
+  first_author: Weyrich A
+  last_author: Fickel J
+  pmid: '25429894'
+  pmcid: PMC4302102
+  title: Whole genome sequencing and methylome analysis of the wild guinea pig
+links: {}
+added: '2026-11-21'
+evidence: MEBS combined methylation enrichment with bisulfite-treated libraries to investigate wild guinea pig DNA methylation
+  at nucleotide-specific resolution.

@@ -1,0 +1,21 @@
+name: MultiGPS
+category: dry
+summary: Jointly models related ChIP-seq experiments to discover binding events and differential binding across conditions.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003501
+  year: 2014
+  journal: PLoS Comput Biol
+  first_author: Mahony S
+  last_author: Gifford DK
+  pmid: '24675637'
+  pmcid: PMC3967921
+  title: An integrated model of multiple-condition ChIP-Seq data reveals predeterminants of Cdx2 binding
+links: {}
+added: '2026-11-21'
+evidence: MultiGPS shares information across ChIP-seq experiments to discover binding events and detect differential binding
+  enrichment.

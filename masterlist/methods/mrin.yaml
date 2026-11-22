@@ -1,0 +1,20 @@
+name: mRIN
+category: dry
+summary: Assesses mRNA integrity at sample and individual-gene levels from RNA-sequencing data.
+readouts:
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/ncomms8816
+  year: 2015
+  journal: Nat Commun
+  first_author: Feng H
+  last_author: Zhang C
+  pmid: '26234653'
+  pmcid: PMC4523900
+  title: mRIN for direct assessment of genome-wide and gene-specific mRNA integrity from large-scale RNA-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: mRIN directly assesses mRNA integrity from RNA-seq data and identifies samples with different levels of mRNA degradation.

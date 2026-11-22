@@ -1,0 +1,21 @@
+name: eXtasy
+category: dry
+summary: Prioritizes nonsynonymous variants in exome sequencing data using variant impact, haploinsufficiency, and phenotype-specific
+  gene predictions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/nmeth.2656
+  year: 2013
+  journal: Nat Methods
+  first_author: Sifrim A
+  last_author: Moreau Y
+  pmid: '24076761'
+  title: 'eXtasy: variant prioritization by genomic data fusion'
+links: {}
+added: '2026-11-21'
+evidence: eXtasy integrates variant impact prediction, haploinsufficiency prediction, and phenotype-specific gene prioritization
+  to prioritize nonsynonymous variants.

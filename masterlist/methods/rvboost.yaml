@@ -1,0 +1,21 @@
+name: RVboost
+category: dry
+summary: Prioritizes and calls variants in RNA-seq data using a trained boosting model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu577
+  year: 2014
+  journal: Bioinformatics
+  first_author: Wang C
+  last_author: Asmann YW
+  pmid: '25170027'
+  pmcid: PMC4296157
+  title: 'RVboost: RNA-seq variants prioritization using a boosting method'
+links: {}
+added: '2026-11-21'
+evidence: RVboost uses RNA-seq-specific attributes and a boosting model trained on common HapMap variants to prioritize and
+  call RNA variants.

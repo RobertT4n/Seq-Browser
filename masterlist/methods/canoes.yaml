@@ -1,0 +1,21 @@
+name: CANOES
+category: dry
+summary: Detects rare copy number variants in exome sequencing data using a negative binomial model of read counts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gku345
+  year: 2014
+  journal: Nucleic Acids Res
+  first_author: Backenroth D
+  last_author: Shen Y
+  pmid: '24771342'
+  pmcid: PMC4081054
+  title: 'CANOES: detecting rare copy number variants from whole exome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CANOES detects rare copy number variants from exome sequencing data using selected reference samples to estimate
+  read-count variance.

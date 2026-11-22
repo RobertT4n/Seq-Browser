@@ -1,0 +1,23 @@
+name: CSSP
+full_name: ChIP-seq Statistical Power
+category: dry
+summary: Estimates ChIP-seq statistical power and required sequencing depth from pilot data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt200
+  year: 2014
+  journal: Bioinformatics
+  first_author: Zuo C
+  last_author: Keleş S
+  pmid: '23665773'
+  pmcid: PMC3957067
+  title: A statistical framework for power calculations in ChIP-seq experiments
+links: {}
+added: '2026-11-21'
+evidence: CSSP uses a local Poisson model to estimate power at different sequencing depths and calculate depth for a targeted
+  power.

@@ -1,0 +1,19 @@
+name: FlaiMapper
+category: dry
+summary: Detects and annotates small noncoding RNA-derived fragments from small RNA sequencing alignments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu696
+  year: 2015
+  journal: Bioinformatics
+  first_author: Hoogstrate Y
+  last_author: Martens-Uzunova ES
+  pmid: '25338717'
+  title: 'FlaiMapper: computational annotation of small ncRNA-derived fragments using RNA-seq high-throughput data'
+links: {}
+added: '2026-11-21'
+evidence: FlaiMapper annotates fragments using peaks in read start and end position densities followed by filtering and reconstruction.

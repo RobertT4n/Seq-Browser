@@ -1,0 +1,22 @@
+name: OSG-GEM
+full_name: Open Science Grid Gene Expression Matrix
+category: dry
+summary: Processes sequencing datasets into gene expression matrices using a scalable computational workflow.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.4137/bbi.s38193
+  year: 2016
+  journal: Bioinform Biol Insights
+  first_author: Poehlman WL
+  last_author: Feltus FA
+  pmid: '27499617'
+  pmcid: PMC4972127
+  title: 'OSG-GEM: Gene Expression Matrix Construction Using the Open Science Grid'
+links: {}
+added: '2026-11-21'
+evidence: OSG-GEM is a Pegasus workflow for processing sequencing datasets into a gene expression matrix using Open Science
+  Grid resources.

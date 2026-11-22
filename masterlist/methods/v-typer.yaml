@@ -1,0 +1,21 @@
+name: V-Typer
+category: dry
+summary: V-Typer identifies Shiga toxin subtypes by mapping raw sequencing reads to known subtype sequence variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.4315/0362-028x.jfp-16-228
+  year: 2016
+  journal: J Food Prot
+  first_author: Carrillo CD
+  last_author: Blais BW
+  pmid: '28221953'
+  title: Comparative Evaluation of Genomic and Laboratory Approaches for Determination of Shiga Toxin Subtypes in Escherichia
+    coli
+links: {}
+added: '2026-11-21'
+evidence: V-Typer is an assembly-independent routine that maps raw sequencing results to a database of known Shiga toxin subtype
+  variants.

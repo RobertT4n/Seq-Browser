@@ -1,0 +1,21 @@
+name: miRspring
+full_name: miRNA Sequence Profiling
+category: dry
+summary: Compresses, visualizes and reports miRNA sequencing data to examine expression and processing variants.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkt485
+  year: 2013
+  journal: Nucleic Acids Res
+  first_author: Humphreys DT
+  last_author: Suter CM
+  pmid: '23775795'
+  pmcid: PMC3753622
+  title: 'miRspring: a compact standalone research tool for analyzing miRNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: miRspring produces a portable document for assessing quality parameters, miRNA cluster expression and miRNA processing.

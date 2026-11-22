@@ -1,0 +1,23 @@
+name: WBSA
+full_name: Web Service for Bisulfite Sequencing Data Analysis
+category: dry
+summary: Analyzes whole-genome and reduced-representation bisulfite sequencing data and identifies differentially methylated
+  regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0086707
+  year: 2014
+  journal: PLoS One
+  first_author: Liang F
+  last_author: Li R
+  pmid: '24497972'
+  pmcid: PMC3907392
+  title: 'WBSA: web service for bisulfite sequencing data analysis'
+links: {}
+added: '2026-11-21'
+evidence: WBSA provides WGBS, RRBS, and differentially methylated region analysis modules.

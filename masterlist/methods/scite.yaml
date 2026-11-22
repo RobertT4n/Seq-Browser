@@ -1,0 +1,21 @@
+name: SCITE
+category: dry
+summary: Stochastic search algorithm that infers tumour mutation histories from noisy single-cell mutation profiles.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s13059-016-0936-x
+  year: 2016
+  journal: Genome Biol
+  first_author: Jahn K
+  last_author: Beerenwinkel N
+  pmid: '27149953'
+  pmcid: PMC4858868
+  title: Tree inference for single-cell data
+  preprint_doi: 10.1101/047795
+links: {}
+added: '2026-11-21'
+evidence: SCITE uses MCMC to infer evolutionary histories from noisy and incomplete mutation profiles of single cells.

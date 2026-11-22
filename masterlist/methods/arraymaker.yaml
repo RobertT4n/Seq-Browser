@@ -1,0 +1,20 @@
+name: ArrayMaker
+category: dry
+summary: Extracts SNP genotypes at predefined loci from whole-genome alignments in a standard genotyping format.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btu691
+  year: 2015
+  journal: Bioinformatics
+  first_author: Willet CE
+  last_author: Wade CM
+  pmid: '25336502'
+  pmcid: PMC4325546
+  title: Simple, rapid and accurate genotyping-by-sequencing from aligned whole genomes with ArrayMaker
+links: {}
+added: '2026-11-21'
+evidence: ArrayMaker extracts single-nucleotide polymorphism genotypes at predefined loci from whole-genome alignments.

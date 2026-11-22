@@ -1,0 +1,21 @@
+name: GSVA
+full_name: Gene Set Variation Analysis
+category: dry
+summary: Estimates variation in pathway activity across samples from gene expression profiles in an unsupervised manner.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-7
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Hänzelmann S
+  last_author: Guinney J
+  pmid: '23323831'
+  pmcid: PMC3618321
+  title: 'GSVA: gene set variation analysis for microarray and RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: GSVA estimates variation of pathway activity over a sample population and works with microarray and RNA-seq data.

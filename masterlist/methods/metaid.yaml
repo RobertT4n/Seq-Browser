@@ -1,0 +1,20 @@
+name: MetaID
+category: dry
+summary: Identifies microorganisms at strain level and estimates their abundance from metagenomic sequencing data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-s8-s4
+  year: 2013
+  journal: BMC Genomics
+  first_author: Srinivasan SM
+  last_author: Guda C
+  pmid: '24564518'
+  pmcid: PMC4042266
+  title: 'MetaID: a novel method for identification and quantification of metagenomic samples'
+links: {}
+added: '2026-11-21'
+evidence: MetaID uses an alignment-free n-gram approach to identify microorganisms at strain level and estimate their abundance.

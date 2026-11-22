@@ -1,0 +1,24 @@
+name: proovread
+category: dry
+summary: Corrects PacBio SMRT long reads using iterative consensus from high-accuracy short reads.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btu392
+  year: 2014
+  journal: Bioinformatics
+  first_author: Hackl T
+  last_author: Förster F
+  pmid: '25015988'
+  pmcid: PMC4609002
+  title: 'proovread: large-scale high-accuracy PacBio correction through iterative short read consensus'
+links: {}
+added: '2026-11-21'
+evidence: proovread is a hybrid correction pipeline for SMRT reads tested on genomic and transcriptomic data.

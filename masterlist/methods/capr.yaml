@@ -1,0 +1,22 @@
+name: CapR
+category: dry
+summary: Calculates RNA secondary-structure context probabilities to investigate structural preferences of RNA-binding proteins.
+readouts:
+- rna-structure
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2014-15-1-r16
+  year: 2014
+  journal: Genome Biol
+  first_author: Fukunaga T
+  last_author: Kiryu H
+  pmid: '24447569'
+  pmcid: PMC4053987
+  title: 'CapR: revealing structural specificities of RNA-binding protein target recognition using CLIP-seq data'
+links: {}
+added: '2026-11-21'
+evidence: CapR calculates the probability that each RNA base occupies each secondary structural context to reveal RBP interaction
+  preferences.

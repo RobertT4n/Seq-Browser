@@ -1,0 +1,21 @@
+name: cellTree
+category: dry
+summary: Infers hierarchical relationships between single-cell RNA-seq samples and identifies latent gene groups.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-016-1175-6
+  year: 2016
+  journal: BMC Bioinformatics
+  first_author: duVerle DA
+  last_author: Tsuda K
+  pmid: '27620863'
+  pmcid: PMC5020541
+  title: 'CellTree: an R/bioconductor package to infer the hierarchical structure of cell populations from single-cell RNA-seq
+    data'
+links: {}
+added: '2026-11-21'
+evidence: cellTree uses a statistical approach based on document analysis to produce trees of single-cell relationships.

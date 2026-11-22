@@ -1,0 +1,25 @@
+name: BFG-Y2H
+full_name: Barcode Fusion Genetics-Yeast Two-Hybrid
+category: wet
+summary: Screens pooled matrices of protein pairs using yeast two-hybrid assays and sequencing of fused protein-pair barcodes.
+readouts:
+- protein-protein-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.15252/msb.20156660
+  year: 2016
+  journal: Mol Syst Biol
+  first_author: Yachie N
+  last_author: Roth FP
+  pmid: '27107012'
+  pmcid: PMC4848762
+  title: Pooled-matrix protein interaction screens using Barcode Fusion Genetics
+links: {}
+added: '2026-11-21'
+evidence: BFG-Y2H uses Cre recombination to fuse plasmid barcodes into protein-pair barcodes quantified by sequencing.

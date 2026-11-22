@@ -1,0 +1,23 @@
+name: SAVE
+full_name: Screening Analysis Visual Explorer
+category: dry
+summary: SAVE provides a cloud-based pipeline for processing and analyzing pooled sequencing-based screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btx335
+  year: 2017
+  journal: Bioinformatics
+  first_author: Jeong HH
+  last_author: Liu Z
+  pmid: '28541456'
+  pmcid: PMC5870715
+  title: 'CRISPRcloud: a secure cloud-based pipeline for CRISPR pooled screen deconvolution'
+  preprint_doi: 10.1101/110262
+links: {}
+added: '2026-11-21'
+evidence: SAVE extracts, clusters and analyzes sequencing files from pooled screens and supports reanalysis of pooled CRISPR
+  screens.

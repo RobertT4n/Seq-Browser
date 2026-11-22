@@ -1,0 +1,21 @@
+name: COPAR
+full_name: ChIP-Seq Optimal Peak Analyzer
+category: dry
+summary: Assesses peak alignment and genomic features of ChIP-seq profiles for quality control.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1155/2017/5346793
+  year: 2017
+  journal: Biomed Res Int
+  first_author: Tang B
+  last_author: Jin VX
+  pmid: '28357402'
+  pmcid: PMC5357551
+  title: 'COPAR: A ChIP-Seq Optimal Peak Analyzer'
+links: {}
+added: '2026-11-21'
+evidence: COPAR statistically investigates and visualizes peak alignment and genomic features using mapped ChIP-seq reads.

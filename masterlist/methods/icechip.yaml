@@ -1,0 +1,24 @@
+name: ICeChIP
+full_name: Internal Standard Calibrated ChIP
+category: wet
+summary: Barcoded nucleosomal internal standards calibrate ChIP-seq measurements of local histone modification density.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1016/j.molcel.2015.04.022
+  year: 2015
+  journal: Mol Cell
+  first_author: Grzybowski AT
+  last_author: Ruthenburg AJ
+  pmid: '26004229'
+  pmcid: PMC4458216
+  title: Calibrating ChIP-Seq with Nucleosomal Internal Standards to Measure Histone Modification Density Genome Wide
+links: {}
+added: '2026-11-21'
+evidence: ICeChIP spikes native chromatin with barcoded nucleosomes before immunoprecipitation to measure local histone modification
+  densities.

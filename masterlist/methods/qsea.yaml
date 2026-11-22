@@ -1,0 +1,21 @@
+name: QSEA
+full_name: Quantitative Sequence Enrichment Analysis
+category: dry
+summary: Models MeDIP-seq enrichment counts to estimate absolute DNA methylation levels.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkw1193
+  year: 2017
+  journal: Nucleic Acids Res
+  first_author: Lienhard M
+  last_author: Herwig R
+  pmid: '27913729'
+  pmcid: PMC5389680
+  title: QSEA-modelling of genome-wide DNA methylation from sequencing enrichment experiments
+links: {}
+added: '2026-11-21'
+evidence: QSEA uses a Bayesian model to transform MeDIP-seq enrichment read counts into absolute methylation levels.

@@ -1,0 +1,23 @@
+name: RUbioSeq+
+category: dry
+summary: Runs automated parallel workflows for DNA-seq, copy-number, bisulfite-seq, and ChIP-seq data.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cmpb.2016.10.008
+  year: 2017
+  journal: Comput Methods Programs Biomed
+  first_author: Rubio-Camarillo M
+  last_author: Glez-Peña D
+  pmid: '27886717'
+  title: 'RUbioSeq+: A multiplatform application that executes parallelized pipelines to analyse next-generation sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: RUbioSeq+ provides workflows for DNA-seq variants, CNA-seq, bisulfite-seq, and ChIP-seq experiments.

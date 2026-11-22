@@ -1,0 +1,21 @@
+name: DFI
+full_name: Differential Feature Index
+category: dry
+summary: Identifies differential gene expression features across multiple RNA-seq experiments without inter-sample normalization.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-13-s8-s11
+  year: 2012
+  journal: BMC Genomics
+  first_author: Ozer HG
+  last_author: Huang K
+  pmid: '23281963'
+  pmcid: PMC3535702
+  title: 'DFI: gene feature discovery in RNA-seq experiments from multiple sources'
+links: {}
+added: '2026-11-21'
+evidence: DFI is a non-parametric method for characterizing distinctive gene features across diverse RNA-seq experiments.

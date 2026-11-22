@@ -1,0 +1,20 @@
+name: bamchop
+category: dry
+summary: Summarizes sequencing quality and alignment statistics from BAM files in a formatted report.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-s11-s3
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Zhang Z
+  last_author: White PS
+  pmid: '24564231'
+  pmcid: PMC3846741
+  title: Efficient digest of high-throughput sequencing data in a reproducible report
+links: {}
+added: '2026-11-21'
+evidence: bamchop reports sequencing quality, reference mapping, sequencing coverage, and base frequency from BAM files.

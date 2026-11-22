@@ -1,0 +1,19 @@
+name: BroadPeak
+category: dry
+summary: Identifies broad enrichment peaks in diffuse histone modification ChIP-seq datasets.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts722
+  year: 2013
+  journal: Bioinformatics
+  first_author: Wang J
+  last_author: Jordan IK
+  pmid: '23300134'
+  title: 'BroadPeak: a novel algorithm for identifying broad peaks in diffuse ChIP-seq datasets'
+links: {}
+added: '2026-11-21'
+evidence: BroadPeak identifies broad peaks from diffuse ChIP-seq datasets and was validated on histone modification data.

@@ -1,0 +1,20 @@
+name: MethFlow
+category: dry
+summary: Profiles DNA methylation levels and performs differential methylation analysis on bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/066795
+  year: 2016
+  journal: bioRxiv
+  first_author: Lebrón R
+  last_author: Hackenberg M
+  title: 'MethFlow  <sup>VM</sup>  : a virtual machine for the integral analysis of bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: MethFlow permits both methylation profiling and differential methylation analysis and is also provided in a virtual
+  machine.
