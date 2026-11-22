@@ -1,0 +1,21 @@
+name: scMinerva
+category: dry
+summary: Integrates single-cell multi-omics data using a heterogeneous graph and random walks to classify cell types and stages.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.28.493838
+  year: 2022
+  journal: bioRxiv
+  first_author: Yu T
+  last_author: Li Y
+  title: 'scMinerva: an Unsupervised Graph Learning Framework with Label-efficient Fine-tuning for Single-cell Multi-omics
+    Integrated Analysis'
+links: {}
+added: '2026-11-21'
+evidence: scMinerva learns embeddings from single-cell multi-omics data that enable integrated classification of cell types
+  and stages.

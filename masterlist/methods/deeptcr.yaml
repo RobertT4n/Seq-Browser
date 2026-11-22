@@ -1,0 +1,19 @@
+name: DeepTCR
+category: dry
+summary: Uses supervised and unsupervised deep learning to model T-cell receptor sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1038/s41467-021-21879-w
+  year: 2021
+  journal: Nature Communications
+  first_author: Sidhom JW
+  last_author: Baras AS
+  title: DeepTCR is a deep learning framework for revealing sequence concepts within T-cell repertoires
+links: {}
+added: '2026-11-21'
+evidence: DeepTCR learns representations from TCR CDR3 sequences and V/D/J gene usage and identifies antigen-specific receptors.

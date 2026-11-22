@@ -1,0 +1,21 @@
+name: SPOROS
+category: dry
+summary: Analyzes small RNA sequencing data to compare 6mer seed toxicity between samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010022
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Bartom ET
+  last_author: Peter ME
+  pmid: '35358200'
+  pmcid: PMC9004739
+  title: 'SPOROS: A pipeline to analyze DISE/6mer seed toxicity'
+  preprint_doi: 10.1101/2021.07.01.450720
+links: {}
+added: '2026-11-21'
+evidence: SPOROS compares 6mer seed toxicity of cellular small RNAs using the sequence at positions 2–7.

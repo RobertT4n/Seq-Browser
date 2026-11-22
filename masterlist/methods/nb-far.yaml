@@ -1,0 +1,24 @@
+name: NB-FAR
+full_name: Negative Binomial co-sparse factor regression
+category: dry
+summary: Estimates sparse associations between host features and amplicon-derived microbial taxa using negative binomial factor
+  regression.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1002/sim.9384
+  year: 2022
+  journal: Stat Med
+  first_author: Mishra AK
+  last_author: Müller CL
+  pmid: '35466418'
+  pmcid: PMC9325477
+  title: Negative binomial factor regression with application to microbiome data analysis
+  preprint_doi: 10.1101/2021.11.29.470304
+links: {}
+added: '2026-11-21'
+evidence: NB-FAR models associations between host-related features and amplicon-derived microbial taxa using a sparse singular
+  value decomposition.

@@ -1,0 +1,26 @@
+name: st16S-seq
+full_name: semi-targeted 16S rRNA sequencing
+category: wet
+summary: Sequences bacterial 16S rRNA gene regions together with their upstream genomic context to profile microbial communities.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1099/mgen.0.000624
+  year: 2021
+  journal: Microb Genom
+  first_author: Kapustina Ž
+  last_author: Lubys A
+  pmid: '34473015'
+  pmcid: PMC8715429
+  title: High-resolution microbiome analysis enabled by linking of 16S rRNA gene sequences with adjacent genomic contexts
+links: {}
+added: '2026-11-21'
+evidence: Sequencing the V1-V2 regions and upstream locus enabled species-level taxonomic resolution in mock communities and
+  soil samples.

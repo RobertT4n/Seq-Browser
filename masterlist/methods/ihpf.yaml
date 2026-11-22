@@ -1,0 +1,20 @@
+name: IHPF
+full_name: Integrative Hierarchical Poisson Factorisation
+category: dry
+summary: Integrates batches of single-cell RNA-seq data and produces interpretable latent factors for clustering and visualization.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.07.08.451664
+  year: 2021
+  journal: bioRxiv
+  first_author: Wong T
+  last_author: Barahona M
+  title: Dimensionality reduction and data integration for scRNA-seq data based on integrative hierarchical Poisson factorisation
+links: {}
+added: '2026-11-21'
+evidence: IHPF tunes variability attributed to batches versus biological sources and produces latent factors for clustering
+  and visualization.

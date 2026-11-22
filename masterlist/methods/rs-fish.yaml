@@ -1,0 +1,22 @@
+name: RS-FISH
+full_name: Radial Symmetry-FISH
+category: dry
+summary: Detects and localizes single-molecule spots in two- and three-dimensional FISH images.
+readouts:
+- rna
+resolution:
+- spatial
+- subcellular
+scope: targeted
+reference:
+  doi: 10.1038/s41592-022-01669-y
+  year: 2022
+  journal: Nature Methods
+  first_author: Bahry E
+  last_author: Preibisch S
+  title: 'RS-FISH: precise, interactive, fast, and scalable FISH spot detection'
+  preprint_doi: 10.1101/2021.03.09.434205
+links: {}
+added: '2026-11-21'
+evidence: RS-FISH detects single-molecule spots in two and three dimensions and is applicable to smFISH, spatial transcriptomics,
+  and spatial genomics.

@@ -1,0 +1,20 @@
+name: LDFF
+full_name: Linkage Disequilibrium information-based cell-free Fetal DNA Fraction
+category: dry
+summary: Estimates the fetal DNA fraction in maternal plasma from linkage disequilibrium information in shallow whole-genome
+  sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41525-021-00247-z
+  year: 2021
+  journal: npj Genomic Medicine
+  first_author: Ju J
+  last_author: Jin X
+  title: Estimation of cell-free fetal DNA fraction from maternal plasma based on linkage disequilibrium information
+links: {}
+added: '2026-11-21'
+evidence: LDFF estimates fetal DNA fraction from discrepancies between observed and linkage-disequilibrium-inferred genotypes.

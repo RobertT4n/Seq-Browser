@@ -1,0 +1,18 @@
+name: Halvade Somatic
+category: dry
+summary: Runs a parallelized somatic variant calling workflow on tumor and matched normal DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giab094
+  year: 2022
+  journal: GigaScience
+  first_author: Decap D
+  last_author: Fostier J
+  title: 'Halvade somatic: Somatic variant calling with Apache Spark'
+links: {}
+added: '2026-11-21'
+evidence: Halvade Somatic uses Apache Spark to parallelize alignment, preprocessing, and somatic variant calling.

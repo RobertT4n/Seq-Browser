@@ -1,0 +1,23 @@
+name: Sciviewer
+full_name: Single-cell Interactive Viewer
+category: dry
+summary: Enables interactive exploration of single-cell RNA-seq embeddings within Python, including differential and local
+  gene-expression analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab689
+  year: 2021
+  journal: Bioinformatics
+  first_author: Kotliar D
+  last_author: Colubri A
+  pmid: '34601589'
+  pmcid: PMC10186091
+  title: Sciviewer enables interactive visual interrogation of single-cell RNA-Seq data from the Python programming environment
+  preprint_doi: 10.1101/2021.08.12.455997
+links: {}
+added: '2026-11-21'
+evidence: Sciviewer enables interactive interrogation of embeddings and identifies genes varying along user-specified directions.

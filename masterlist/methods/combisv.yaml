@@ -1,0 +1,18 @@
+name: combiSV
+category: dry
+summary: Combines structural variant calls from multiple callers into a consolidated call set.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02551-4
+  year: 2021
+  journal: Genome Biology
+  first_author: Dierckxsens N
+  last_author: Xie Z
+  title: A benchmark of structural variation detection by long reads through a realistic simulated model
+links: {}
+added: '2026-11-21'
+evidence: combiSV combines results from structural variation callers to improve recall and precision.

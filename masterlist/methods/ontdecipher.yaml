@@ -1,0 +1,23 @@
+name: ONTdeCIPHER
+category: dry
+summary: Analyzes amplicon-based nanopore sequencing data to reconstruct pathogen genomes, identify variants, and infer lineages.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btac043
+  year: 2022
+  journal: Bioinformatics
+  first_author: Cherif E
+  last_author: Combe M
+  pmid: '35080622'
+  title: 'ONTdeCIPHER: an amplicon-based nanopore sequencing pipeline for tracking pathogen variants'
+  preprint_doi: 10.1101/2021.10.13.464242
+links: {}
+added: '2026-11-21'
+evidence: The pipeline reconstructs consensus genomes, identifies variants and their effects, and performs phylogenetic analyses.

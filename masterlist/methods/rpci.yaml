@@ -1,0 +1,20 @@
+name: RPCI
+full_name: Reference Principal Component Integration
+category: dry
+summary: Integrates single-cell RNA-seq datasets using gene eigenvectors from a reference dataset.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-00859-x
+  year: 2021
+  journal: Nature Biotechnology
+  first_author: Liu Y
+  last_author: Zheng D
+  title: Robust integration of multiple single-cell RNA sequencing datasets using a single reference space
+links: {}
+added: '2026-11-21'
+evidence: RPCI establishes a global integration frame from reference gene eigenvectors while preserving cross-sample expression
+  differences.

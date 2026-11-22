@@ -1,0 +1,24 @@
+name: OP-Strand-seq
+full_name: one-pot Strand-seq
+category: wet
+summary: Prepares single-cell Strand-seq libraries in nanoliter volumes using cumulative reagent addition.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.crmeth.2021.100150
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Hanlon VCT
+  last_author: Lansdorp PM
+  pmid: '35474869'
+  pmcid: PMC9017222
+  title: Construction of Strand-seq libraries in open nanoliter arrays
+links: {}
+added: '2026-11-21'
+evidence: One-pot libraries captured 10% to 25% of the genome from a single cell.

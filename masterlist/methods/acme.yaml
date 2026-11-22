@@ -1,0 +1,26 @@
+name: ACME
+full_name: Affinity-based Cas9 Mediated Enrichment
+category: wet
+summary: Enriches selected genomic regions for nanopore sequencing to detect variants and obtain long reads spanning targets.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+validated_system:
+- cell-line
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2022.02.03.478550
+  year: 2022
+  journal: bioRxiv
+  first_author: Iyer SV
+  last_author: McCombie WR
+  title: 'ACME: an Affinity-based Cas9 Mediated Enrichment method for targeted nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ACME enriched targeted genes in two cell lines and identified previously called structural variants and SNPs.

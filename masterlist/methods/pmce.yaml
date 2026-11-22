@@ -1,0 +1,19 @@
+name: PMCE
+category: dry
+summary: A framework infers probabilistic models of cancer evolution from cross-sectional mutational profiles.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab717
+  year: 2021
+  journal: Bioinformatics
+  first_author: Angaroni F
+  last_author: Ramazzotti D
+  title: 'PMCE: efficient inference of expressive models of cancer evolution with high prognostic power'
+links: {}
+added: '2026-11-21'
+evidence: PMCE infers cancer evolution models with logical formulas from mutational profiles, and predicted paths correlated
+  with survival in seven tumor types.

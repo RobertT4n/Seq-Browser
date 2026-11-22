@@ -1,0 +1,22 @@
+name: CoDaCoRe
+category: dry
+summary: Learning algorithm that identifies sparse predictive log-ratio biomarkers in sequencing and other compositional data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab645
+  year: 2021
+  journal: Bioinformatics
+  first_author: Gordon-Rodriguez E
+  last_author: Cunningham JP
+  pmid: '34498030'
+  pmcid: PMC8696089
+  title: Learning sparse log-ratios for high-throughput sequencing data
+  preprint_doi: 10.1101/2021.02.11.430695
+links: {}
+added: '2026-11-21'
+evidence: CoDaCoRe uses a continuous relaxation to identify sparse, interpretable, predictive log-ratio biomarkers and was
+  evaluated on microbiome data.

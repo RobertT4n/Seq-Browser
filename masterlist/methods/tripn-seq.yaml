@@ -1,0 +1,34 @@
+name: TRIPn-Seq
+full_name: transcription-replication immunoprecipitation on nascent DNA sequencing
+category: wet
+summary: Maps genomic loci prone to transcription-replication interactions by enriching RNA polymerase II-associated nascent
+  DNA.
+readouts:
+- protein-dna-binding
+- replication-dynamics
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- nucleotide-labeling
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1093/nar/gkac035
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: St Germain CP
+  last_author: Barlow JH
+  pmid: '35100392'
+  pmcid: PMC8887484
+  title: Genomic patterns of transcription-replication interactions in mouse primary B cells
+  preprint_doi: 10.1101/2021.04.13.439211
+links: {}
+added: '2026-11-21'
+evidence: Sequential immunoprecipitation of serine-5-phosphorylated RNA polymerase II and enrichment of BrdU-labeled nascent
+  DNA mapped interactions in mouse primary B cells.
+targets:
+- RNAP2s5

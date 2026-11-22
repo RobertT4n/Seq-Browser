@@ -1,0 +1,21 @@
+name: MALVIRUS
+category: dry
+summary: An application for cataloging, genotyping, and annotating viral variants and assigning SARS-CoV-2 lineages.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04668-0
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Ciccolella S
+  last_author: Previtali M
+  pmid: '35439933'
+  pmcid: PMC9017741
+  title: 'MALVIRUS: an integrated application for viral variant analysis'
+links: {}
+added: '2026-11-21'
+evidence: MALVIRUS constructs variant catalogs, genotypes and annotates variants from reads, and assigns SARS-CoV-2 samples
+  to Pango lineages.

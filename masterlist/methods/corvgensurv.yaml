@@ -1,0 +1,26 @@
+name: CorvGenSurv
+full_name: Coronavirus Genomic Surveillance
+category: wet
+summary: Long-read sequencing of three amplified segments produces SARS-CoV-2 whole-genome sequences for surveillance.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41598-021-93145-4
+  year: 2021
+  journal: Sci Rep
+  first_author: Park SY
+  last_author: Lee HY
+  pmid: '34211026'
+  pmcid: PMC8249533
+  title: High-precision and cost-efficient sequencing for real-time COVID-19 surveillance
+links: {}
+added: '2026-11-21'
+evidence: Viral RNA from patient swabs was amplified and the SARS-CoV-2 genome sequenced in three segments using long reads.

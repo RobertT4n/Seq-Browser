@@ -1,0 +1,24 @@
+name: MTAS-seq
+full_name: mRNA sequencing via terminator-assisted synthesis
+category: wet
+summary: Enriches mRNA 3-prime termini during reverse transcription to estimate transcript abundance.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1080/15476286.2022.2078093
+  year: 2022
+  journal: RNA Biol
+  first_author: Kapustina Ž
+  last_author: Lubys A
+  pmid: '35653374'
+  pmcid: PMC9191874
+  title: Sensitive and accurate analysis of gene expression signatures enabled by oligonucleotide-labelled cDNA
+links: {}
+added: '2026-11-21'
+evidence: Oligonucleotide-modified dideoxynucleotides generate molecularly barcoded cDNA libraries enriched for 3-prime terminal
+  regions.

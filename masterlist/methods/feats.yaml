@@ -1,0 +1,19 @@
+name: FEATS
+category: dry
+summary: Clusters single-cell RNA-seq data using a feature selection approach and estimates the number of clusters.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa306
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Vans E
+  last_author: Sharma A
+  pmid: '33285568'
+  title: 'FEATS: feature selection-based clustering of single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: FEATS selects informative features for clustering and also supports outlier detection and data integration.

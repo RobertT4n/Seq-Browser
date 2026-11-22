@@ -1,0 +1,18 @@
+name: FusionAI
+category: dry
+summary: A deep-learning model predicts gene fusion breakpoints from primary DNA sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2021.103164
+  year: 2021
+  journal: iScience
+  first_author: Kim P
+  last_author: Zhou X
+  title: 'FusionAI: Predicting fusion breakpoint from DNA sequence with deep learning'
+links: {}
+added: '2026-11-21'
+evidence: FusionAI uses known fusion breakpoints to train a model that predicts breakpoints from genomic sequences.

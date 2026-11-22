@@ -1,0 +1,21 @@
+name: ECCsplorer
+category: dry
+summary: Detects extrachromosomal circular DNA candidates from next-generation sequencing data using mapping and reference-free
+  read clustering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04545-2
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Mann L
+  last_author: Heitkam T
+  title: 'ECCsplorer: a pipeline to detect extrachromosomal circular DNA (eccDNA) from next-generation sequencing data'
+  preprint_doi: 10.1101/2021.06.08.447410
+links: {}
+added: '2026-11-21'
+evidence: ECCsplorer combines informative read mapping patterns with comparisons of amplified circular DNA read clusters against
+  controls.

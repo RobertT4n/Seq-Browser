@@ -1,0 +1,21 @@
+name: NeoSplice
+category: dry
+summary: A computational method predicts splice variant neoantigens from tumor RNA sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbac032
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Chai S
+  last_author: Vincent BG
+  pmid: '35669345'
+  pmcid: PMC9154024
+  title: 'NeoSplice: a bioinformatics method for prediction of splice variant neoantigens'
+links: {}
+added: '2026-11-21'
+evidence: NeoSplice identifies tumor-specific RNA-seq k-mers, aligns them to a splice graph and predicts MHC binding for inferred
+  variant transcripts.

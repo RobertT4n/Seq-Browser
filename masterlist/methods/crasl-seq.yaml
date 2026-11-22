@@ -1,0 +1,25 @@
+name: cRASL-seq
+full_name: capture RASL-seq
+category: wet
+summary: Uses multiplexed probe annealing and ligation with sequencing to detect pathogens and genotype selected viral polymorphisms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+reference:
+  doi: 10.1038/s41379-020-00730-5
+  year: 2021
+  journal: Mod Pathol
+  first_author: Credle JJ
+  last_author: Larman HB
+  pmid: '33536572'
+  pmcid: PMC7856856
+  title: Highly multiplexed oligonucleotide probe-ligation testing enables efficient extraction-free SARS-CoV-2 detection
+    and viral genotyping
+links: {}
+added: '2026-11-21'
+evidence: cRASL-seq detects pathogens and genotypes selected SARS-CoV-2 polymorphisms without nucleic acid purification or
+  reverse transcription.

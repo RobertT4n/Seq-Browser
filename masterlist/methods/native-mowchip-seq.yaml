@@ -1,0 +1,31 @@
+name: native MOWChIP-seq
+category: wet
+summary: Low-input ChIP-seq profiles genome-wide binding of transcription factors, RNA polymerase II, and enzymes.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/2021.07.11.451963
+  year: 2021
+  journal: bioRxiv
+  first_author: Liu Z
+  last_author: Lu C
+  title: 'Native MOWChIP-seq: Genome-wide profiles of key protein bindings reveal functional differences among various brain
+    regions'
+links: {}
+added: '2026-11-21'
+evidence: Native MOWChIP-seq produced binding profiles from 1,000–50,000 cells and was applied to mouse brain regions.
+targets:
+- Pol II
+- EGR1
+- MEF2C

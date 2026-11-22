@@ -1,0 +1,23 @@
+name: CONGAS
+category: dry
+summary: A Bayesian method that combines bulk DNA and single-cell RNA measurements to identify tumor subclones and their expression
+  profiles.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac143
+  year: 2022
+  journal: Bioinformatics
+  first_author: Milite S
+  last_author: Caravagna G
+  pmid: '35298589'
+  title: A Bayesian method to cluster single-cell RNA sequencing data using copy number alterations
+links: {}
+added: '2026-11-21'
+evidence: CONGAS jointly identifies clusters of single cells with subclonal copy number alterations and differences in RNA
+  expression.

@@ -1,0 +1,22 @@
+name: LI-Seq
+category: wet
+summary: Low-input DNA library preparation enables whole-genome sequencing of low-quality samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+input_sample:
+- low-input
+reference:
+  doi: 10.1101/2021.07.06.451326
+  year: 2021
+  journal: bioRxiv
+  first_author: Schweizer TM
+  last_author: Ruegg KC
+  title: 'LI-Seq: A Cost-Effective, Low Input DNA method for Whole Genome Library Preparation'
+links: {}
+added: '2026-11-21'
+evidence: LI-Seq produced libraries from low-quality DNA with input as low as 0.48 ng.

@@ -1,0 +1,18 @@
+name: SIGNET
+category: dry
+summary: Predicts gene regulatory networks from single-cell RNA-seq using a deep learning framework.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab547
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Luo Q
+  last_author: Lan X
+  title: 'SIGNET: single-cell RNA-seq-based gene regulatory network prediction using multiple-layer perceptron bagging'
+links: {}
+added: '2026-11-21'
+evidence: SIGNET captures regulatory relationships using transcription factor expression as a predictor of target gene expression.

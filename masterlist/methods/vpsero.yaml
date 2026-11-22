@@ -1,0 +1,23 @@
+name: VPsero
+category: dry
+summary: An in silico method that predicts Vibrio parahaemolyticus serotypes from assembled genomes using serogroup-specific
+  genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmicb.2021.620224
+  year: 2021
+  journal: Front Microbiol
+  first_author: Bian S
+  last_author: Li L
+  pmid: '34539587'
+  pmcid: PMC8443796
+  title: 'VPsero: Rapid Serotyping of <i>Vibrio parahaemolyticus</i> Using Serogroup-Specific Genes Based on Whole-Genome
+    Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: VPsero uses serogroup-specific markers to predict serotypes from assembled draft genomes and recognize possible
+  novel serogroups.

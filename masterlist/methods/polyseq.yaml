@@ -1,0 +1,29 @@
+name: POLYseq
+category: wet
+summary: A polymer-based labeling system delivers sample-distinguishing DNA barcodes to cells for pooled single-cell sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.stemcr.2021.07.020
+  year: 2021
+  journal: Stem Cell Reports
+  first_author: Dunn A
+  last_author: Takebe T
+  pmid: '34450040'
+  pmcid: PMC8452539
+  title: 'POLYseq: A poly(β-amino ester)-based vector for multifunctional cellular barcoding'
+links: {}
+added: '2026-11-21'
+evidence: POLYseq delivered sample-distinguishing DNA barcodes and identified human and mouse cultured cell lines in a pooled
+  single-cell RNA-seq experiment.

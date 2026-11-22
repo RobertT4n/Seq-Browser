@@ -1,0 +1,21 @@
+name: CloneSig
+category: dry
+summary: A computational method that jointly infers tumor clonal heterogeneity and mutational signature activity from bulk
+  sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24992-y
+  year: 2021
+  journal: Nat Commun
+  first_author: Abécassis J
+  last_author: Vert JP
+  pmid: '34504064'
+  pmcid: PMC8429716
+  title: CloneSig can jointly infer intra-tumor heterogeneity and mutational signature activity in bulk tumor sequencing data
+links: {}
+added: '2026-11-21'
+evidence: CloneSig jointly infers intratumor heterogeneity and mutational processes from bulk tumor sequencing data.

@@ -1,0 +1,24 @@
+name: QBDA
+full_name: Quantitative Blocker Displacement Amplification
+category: wet
+summary: Combines sequence-selective variant enrichment with molecular identifiers to quantify rare mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1038/s41467-021-26308-6
+  year: 2021
+  journal: Nat Commun
+  first_author: Dai P
+  last_author: Zhang DY
+  pmid: '34675197'
+  pmcid: PMC8531361
+  title: Calibration-free NGS quantitation of mutations below 0.01% VAF
+links: {}
+added: '2026-11-21'
+evidence: A 20-gene acute myeloid leukemia panel quantified substitutions and indels down to 0.001% variant allele frequency
+  at a single locus.

@@ -1,0 +1,25 @@
+name: Domain-Scan
+category: wet
+summary: Phage-displayed epitope arrays and sequencing measure serum antibody binding for machine-learning-based infectious
+  disease classification.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.3389/fimmu.2020.619896
+  year: 2020
+  journal: Front Immunol
+  first_author: Hada-Neeman S
+  last_author: Gershoni JM
+  pmid: '33643301'
+  pmcid: PMC7902724
+  title: 'Domain-Scan: Combinatorial Sero-Diagnosis of Infectious Diseases Using Machine Learning'
+links: {}
+added: '2026-11-21'
+evidence: Sequencing measures serum binding to dozens of HIV-1 and HCV epitopes, and a trained model classifies samples.

@@ -1,0 +1,20 @@
+name: kASA
+category: dry
+summary: Profiles the taxonomy of metagenomic sequences using amino acid-like k-mer encoding.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab200
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Weging S
+  last_author: Grosse I
+  pmid: '33784400'
+  pmcid: PMC8266618
+  title: Taxonomic analysis of metagenomic data with kASA
+links: {}
+added: '2026-11-21'
+evidence: kASA identifies and profiles metagenomic DNA or protein sequences using multiple k-mer sizes.

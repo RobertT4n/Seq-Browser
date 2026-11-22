@@ -1,0 +1,24 @@
+name: TASPERT
+full_name: TArget-SPecific Reverse Transcript pool
+category: wet
+summary: Pathogen-specific reverse primer pools enrich selected RNA viruses during cDNA synthesis for sequencing-based diagnostics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.3390/v13071223
+  year: 2021
+  journal: Viruses
+  first_author: Espindola AS
+  last_author: Cardwell KF
+  pmid: '34202758'
+  pmcid: PMC8310100
+  title: 'TASPERT: Target-Specific Reverse Transcript Pools to Improve HTS Plant Virus Diagnostics'
+links: {}
+added: '2026-11-21'
+evidence: Pathogen-specific reverse primers targeting RNA viruses of interest are pooled and used in double-stranded cDNA
+  synthesis.

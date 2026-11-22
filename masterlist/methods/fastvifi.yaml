@@ -1,0 +1,22 @@
+name: FastViFi
+category: dry
+summary: A two-stage filtering method for detecting viral DNA and human–viral hybrid transcripts in sequencing data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqac032
+  year: 2022
+  journal: NAR Genom Bioinform
+  first_author: Javadzadeh S
+  last_author: Bafna V
+  pmid: '35493723'
+  pmcid: PMC9041341
+  title: 'FastViFi: Fast and accurate detection of (Hybrid) Viral DNA and RNA'
+links: {}
+added: '2026-11-21'
+evidence: FastViFi reduces the computational burden of viral sequence detection and was used to identify human–viral hybrid
+  transcripts in cancer RNA-seq data.

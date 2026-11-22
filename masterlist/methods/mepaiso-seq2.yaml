@@ -1,0 +1,31 @@
+name: MePAIso-seq2
+full_name: m6A and poly(A) inclusive RNA isoform sequencing 2
+category: wet
+summary: m6A immunoprecipitation and full-length RNA sequencing characterize modified transcripts, splicing, and poly(A) tails.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+- long-read-sequencing
+species:
+- mouse
+validated_system:
+- cell-line
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2021.08.29.458071
+  year: 2021
+  journal: bioRxiv
+  first_author: Liu Y
+  last_author: Wang J
+  title: Interactions between RNA m  <sup>6</sup>  A modification, alternative splicing, and poly(A) tail revealed by MePAIso-seq2
+links: {}
+added: '2026-11-21'
+evidence: The method combines m6A-specific RNA immunoprecipitation with PacBio-based tail-included full-length RNA sequencing.

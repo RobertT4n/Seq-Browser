@@ -1,0 +1,22 @@
+name: BaseQTL
+category: dry
+summary: BaseQTL uses allele-specific expression to map molecular quantitative trait loci from RNA-seq reads with or without
+  genotypes.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-021-00087-y
+  year: 2021
+  journal: Nat Comput Sci
+  first_author: Vigorito E
+  last_author: Wallace C
+  pmid: '34993494'
+  pmcid: PMC7612174
+  title: Detection of quantitative trait loci from RNA-seq data with or without genotypes using BaseQTL
+links: {}
+added: '2026-11-21'
+evidence: BaseQTL exploits allele-specific expression to map eQTL even when genotypes are unavailable.

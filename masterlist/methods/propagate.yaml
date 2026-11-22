@@ -1,0 +1,21 @@
+name: PropagAtE
+full_name: Prophage Activity Estimator
+category: dry
+summary: PropagAtE estimates prophage activity from prophage-to-host sequencing read coverage ratios.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.00084-22
+  year: 2022
+  journal: mSystems
+  first_author: Kieft K
+  last_author: Anantharaman K
+  pmid: '35323045'
+  pmcid: PMC9040807
+  title: Deciphering Active Prophages from Metagenomes
+links: {}
+added: '2026-11-21'
+evidence: PropagAtE uses prophage-to-host read coverage ratios to identify actively replicating prophages.

@@ -1,0 +1,19 @@
+name: scCancerDx
+category: dry
+summary: Classifies suspicious cells from body fluids as malignant using single-cell copy number alteration profiles.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.analchem.1c04968
+  year: 2022
+  journal: Analytical Chemistry
+  first_author: Wang Z
+  last_author: Shi Q
+  title: Single-Cell Genomics-Based Molecular Algorithm for Early Cancer Detection
+links: {}
+added: '2026-11-21'
+evidence: scCancerDx confirms cell malignancy based on single-cell copy number alteration profiles of suspicious cells from
+  body fluids.

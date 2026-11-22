@@ -1,0 +1,20 @@
+name: ASTool
+category: dry
+summary: An exon-based tool for detecting alternative splicing events in plant RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms23084079
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Qi H
+  last_author: Zhang Z
+  pmid: '35456896'
+  pmcid: PMC9031537
+  title: 'ASTool: An Easy-to-Use Tool to Accurately Identify Alternative Splicing Events from Plant RNA-Seq Data'
+links: {}
+added: '2026-11-21'
+evidence: ASTool detects intron retention, exon skipping, and alternative 5′ and 3′ splice sites.

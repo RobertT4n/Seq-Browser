@@ -1,0 +1,20 @@
+name: PERHAPS
+full_name: Paired-End short Reads-based HAPlotyping from next-generation Sequencing data
+category: dry
+summary: Calls haplotypes directly from paired-end short-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbaa320
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Huang J
+  last_author: Napolioni V
+  pmid: '33285565'
+  title: 'PERHAPS: Paired-End short Reads-based HAPlotyping from next-generation Sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PERHAPS pieces together paired-end reads using their FASTQ labels to call haplotypes and individual diplotypes.

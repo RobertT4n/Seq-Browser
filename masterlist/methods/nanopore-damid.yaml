@@ -1,0 +1,30 @@
+name: Nanopore-DamID
+category: wet
+summary: Selective nanopore sequencing of adenine-labelled DNA profiles DNA-protein interactions and cytosine methylation
+  on single molecules.
+readouts:
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2021.08.09.455753
+  year: 2021
+  journal: bioRxiv
+  first_author: Cheetham SW
+  last_author: Faulkner GJ
+  title: Single-molecule simultaneous profiling of DNA methylation and DNA-protein interactions with Nanopore-DamID
+links: {}
+added: '2026-11-21'
+evidence: Nanopore-DamID simultaneously detects cytosine methylation and protein-DNA interactions from single molecules via
+  selective sequencing of adenine-labelled DNA.
+targets:
+- LaminB1
+- CTCF

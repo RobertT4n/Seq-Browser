@@ -1,0 +1,23 @@
+name: HyPro-seq
+category: wet
+summary: Uses hybridization-proximity labeling to discover transcripts associated with RNAs of interest.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.molcel.2021.10.009
+  year: 2022
+  journal: Mol Cell
+  first_author: Yap K
+  last_author: Makeyev EV
+  pmid: '34741808'
+  pmcid: PMC8791277
+  title: Hybridization-proximity labeling reveals spatially ordered interactions of nuclear RNA compartments
+links: {}
+added: '2026-11-21'
+evidence: HyPro-seq identified transcripts that are spatial neighbors of the noncoding RNAs 45S, NEAT1, and PNCTR.

@@ -1,0 +1,23 @@
+name: SiLi
+full_name: statistical inference-based synthetic lethality identification
+category: dry
+summary: A computational pipeline that uses sequencing datasets and multiple inference procedures to identify liver cancer-specific
+  synthetic lethal interactions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7150/thno.63416
+  year: 2021
+  journal: Theranostics
+  first_author: Yang C
+  last_author: Zhang D
+  pmid: '34522226'
+  pmcid: PMC8419043
+  title: Mapping the landscape of synthetic lethal interactions in liver cancer
+links: {}
+added: '2026-11-21'
+evidence: SiLi incorporates five inference procedures and was applied to large-scale sequencing datasets to identify synthetic
+  lethal interactions in liver cancer.

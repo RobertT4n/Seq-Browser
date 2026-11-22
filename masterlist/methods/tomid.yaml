@@ -1,0 +1,20 @@
+name: TOMiD
+full_name: Target-Oriented miRNA Discovery
+category: dry
+summary: Identifies Drosha-independent microRNAs from Argonaute crosslinking and sequencing of hybrids data.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.078694.121
+  year: 2021
+  journal: RNA
+  first_author: Stribling D
+  last_author: Xie M
+  title: A noncanonical microRNA derived from the snaR-A noncoding RNA targets a metastasis inhibitor
+  preprint_doi: 10.1101/2021.03.20.436234
+links: {}
+added: '2026-11-21'
+evidence: TOMiD identifies Drosha-independent miRNAs from Ago-CLASH datasets.

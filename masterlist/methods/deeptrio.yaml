@@ -1,0 +1,22 @@
+name: DeepTrio
+category: dry
+summary: Calls genomic variants in child-mother-father trios using a model trained on their joint sequence information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2021.04.05.438434
+  year: 2021
+  journal: bioRxiv
+  first_author: Kolesnikov
+  last_author: A
+  title: 'DeepTrio: Variant Calling in Families Using Deep Learning'
+links: {}
+added: '2026-11-21'
+evidence: DeepTrio analyzes trio sequence information and includes pretrained models for Illumina whole-genome and exome data
+  and PacBio HiFi data.

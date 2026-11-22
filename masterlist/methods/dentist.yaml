@@ -1,0 +1,24 @@
+name: DENTIST
+category: dry
+summary: Pipeline that uses long reads to close gaps in short-read genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/gigascience/giab100
+  year: 2022
+  journal: Gigascience
+  first_author: Ludwig A
+  last_author: Hiller M
+  pmid: '35077539'
+  pmcid: PMC8848313
+  title: DENTIST-using long reads for closing assembly gaps at high accuracy
+  preprint_doi: 10.1101/2021.02.26.432990
+links: {}
+added: '2026-11-21'
+evidence: DENTIST closes assembly gaps using long reads, computes consensus sequences and validates the closed gaps.

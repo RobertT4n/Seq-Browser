@@ -1,0 +1,20 @@
+name: mCNA
+full_name: molecular Copy Number Alteration
+category: dry
+summary: Detects copy number changes in targeted sequencing data using unique molecular identifier counts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-021-04060-4
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Viailly PJ
+  last_author: Jardin F
+  title: Improving high-resolution copy number variation analysis from next generation sequencing using unique molecular identifiers
+links: {}
+added: '2026-11-21'
+evidence: mCNA constructs UMI count matrices and uses a pseudo-reference, log-ratios, segmentation, and statistical inference
+  to detect copy number changes.

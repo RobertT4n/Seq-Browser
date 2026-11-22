@@ -1,0 +1,19 @@
+name: contrastiveVI
+full_name: Contrastive Variational Inference
+category: dry
+summary: Separates shared and treatment-specific variation in treatment-control single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.12.21.473757
+  year: 2021
+  journal: bioRxiv
+  first_author: Weinberger
+  last_author: S.-I
+  title: Isolating salient variations of interest in single-cell transcriptomic data with contrastiveVI
+links: {}
+added: '2026-11-21'
+evidence: The framework disentangles treatment-control scRNA-seq data into shared and treatment-specific latent variables.

@@ -1,0 +1,22 @@
+name: QUOD
+full_name: reference-based QUantification Of gene Dispensability
+category: dry
+summary: Quantifies gene dispensability across a lineage using normalized coverage from genome read mappings.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13007-021-00718-5
+  year: 2021
+  journal: Plant Methods
+  first_author: Sielemann K
+  last_author: Pucker B
+  pmid: '33563309'
+  pmcid: PMC7871624
+  title: Reference-based QUantification Of gene Dispensability (QUOD)
+links: {}
+added: '2026-11-21'
+evidence: QUOD calculated gene-specific dispensability scores from normalized read-mapping coverage across 966 Arabidopsis
+  accessions.

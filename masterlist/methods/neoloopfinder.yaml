@@ -1,0 +1,23 @@
+name: NeoLoopFinder
+category: dry
+summary: NeoLoopFinder identifies structural variation-induced chromatin interactions and enhancer-hijacking events from Hi-C
+  data.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01164-w
+  year: 2021
+  journal: Nat Methods
+  first_author: Wang X
+  last_author: Yue F
+  pmid: '34092790'
+  pmcid: PMC8191102
+  title: Genome-wide detection of enhancer-hijacking events from chromatin interaction data in rearranged genomes
+links: {}
+added: '2026-11-21'
+evidence: NeoLoopFinder resolves complex structural variants, reconstructs local Hi-C maps, and predicts chromatin loops induced
+  by those variants.

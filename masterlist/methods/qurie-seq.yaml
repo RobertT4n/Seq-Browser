@@ -1,0 +1,27 @@
+name: QuRIE-seq
+full_name: quantification of RNA and intracellular epitopes by sequencing
+category: wet
+summary: Quantifies RNA and intra- and extracellular phosphoproteins and other proteins together in single cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.crmeth.2021.100070
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Rivello F
+  last_author: Huck WTS
+  pmid: '35474668'
+  pmcid: PMC9017125
+  title: Single-cell intracellular epitope and transcript detection reveals signal transduction dynamics
+links: {}
+added: '2026-11-21'
+evidence: The droplet-based platform was applied to signaling and transcriptome changes in Burkitt lymphoma cells.

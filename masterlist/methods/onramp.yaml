@@ -1,0 +1,27 @@
+name: OnRamp
+full_name: Oxford nanopore-based Rapid Analysis of Multiplexed Plasmids
+category: wet
+summary: Combines plasmid preparation protocols and a web-based analysis pipeline for multiplexed nanopore plasmid validation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.277369.122
+  year: 2023
+  journal: Genome Res
+  first_author: Mumm C
+  last_author: Boyle AP
+  pmid: '37156622'
+  pmcid: PMC10317119
+  title: Multiplexed long-read plasmid validation and analysis using OnRamp
+  preprint_doi: 10.1101/2022.03.15.484480
+links: {}
+added: '2026-11-21'
+evidence: OnRamp combines customized plasmid preparation protocols with a pipeline for analysis of nanopore sequencing reads.

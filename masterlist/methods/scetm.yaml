@@ -1,0 +1,21 @@
+name: scETM
+full_name: single-cell Embedded Topic Model
+category: dry
+summary: A topic model learns interpretable cell and gene embeddings while accounting for batch effects across single-cell
+  transcriptomic datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-25534-2
+  year: 2021
+  journal: Nature Communications
+  first_author: Zhao Y
+  last_author: Li Y
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: scETM jointly learns a cell type mixture encoder, gene and topic embeddings, and batch-effect intercepts from multiple
+  scRNA-seq datasets.

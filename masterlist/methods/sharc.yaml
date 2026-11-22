@@ -1,0 +1,27 @@
+name: SHARC
+full_name: Spatial 2-Hydroxyl Acylation Reversible Crosslinking
+category: wet
+summary: Uses defined-length chemical crosslinkers and sequencing to map RNA tertiary contacts and constrain three-dimensional
+  structures.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-022-28602-3
+  year: 2022
+  journal: Nat Commun
+  first_author: Van Damme R
+  last_author: Velema WA
+  pmid: '35177610'
+  pmcid: PMC8854666
+  title: Chemical reversible crosslinking enables measurement of RNA 3D distances and alternative conformations in cells
+  preprint_doi: 10.1101/2021.11.19.469208
+links: {}
+added: '2026-11-21'
+evidence: Crosslinking, exonuclease trimming, proximity ligation, and sequencing produce transcriptome-wide RNA tertiary structure
+  contact maps.

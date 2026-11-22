@@ -1,0 +1,21 @@
+name: PhyliCS
+category: dry
+summary: Estimates spatial mixing or separation of tumor subclones from single-cell copy number profiles across tumor samples.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04277-3
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Montemurro M
+  last_author: Urgese G
+  pmid: '34217219'
+  pmcid: PMC8254361
+  title: 'PhyliCS: a Python library to explore scCNA data and quantify spatial tumor heterogeneity'
+links: {}
+added: '2026-11-21'
+evidence: PhyliCS computes a spatial heterogeneity score from single-cell copy number data across samples from the same tumor.

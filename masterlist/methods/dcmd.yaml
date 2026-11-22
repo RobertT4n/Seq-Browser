@@ -1,0 +1,19 @@
+name: DCMD
+full_name: distance-based classification using mixture distributions
+category: dry
+summary: Classifies microbiome community data using distances between distributions that model uncertainty in sparse counts.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1008799
+  year: 2021
+  journal: PLOS Computational Biology
+  first_author: Shestopaloff K
+  last_author: Xu W
+  title: 'DCMD: Distance-based classification using mixture distributions on microbiome data'
+links: {}
+added: '2026-11-21'
+evidence: DCMD models sparse microbiome counts as distributions and uses them for distance-based classification.

@@ -1,0 +1,22 @@
+name: RepExpress
+category: dry
+summary: An RNA-seq pipeline for quantifying transposable element expression at individual loci and characterizing its genomic
+  context.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/cpz1.206
+  year: 2021
+  journal: Curr Protoc
+  first_author: Stockwell PA
+  last_author: Eccles MR
+  pmid: '34387946'
+  title: 'RepExpress: A Novel Pipeline for the Quantification and Characterization of Transposable Element Expression from
+    RNA-seq Data'
+links: {}
+added: '2026-11-21'
+evidence: RepExpress quantifies transposable elements and genes from RNA-seq and characterizes expressed repeats in their
+  genomic context.

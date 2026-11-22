@@ -1,0 +1,19 @@
+name: Circm6A
+category: dry
+summary: Identifies m6A-modified circular RNAs from m6A-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-021-01002-w
+  year: 2021
+  journal: Genome Medicine
+  first_author: Ye Y
+  last_author: Zheng J
+  title: Genome-wide identification and characterization of circular RNA m6A modification in pancreatic cancer
+links: {}
+added: '2026-11-21'
+evidence: Circm6A was developed to detect m6A modifications in circRNAs and applied to m6A-seq data from pancreatic tissue
+  samples.

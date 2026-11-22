@@ -1,0 +1,19 @@
+name: scRegulocity
+category: dry
+summary: Detects and annotates local RNA velocity switching patterns in single-cell embeddings.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.06.01.446674
+  year: 2021
+  journal: bioRxiv
+  first_author: Serin Harmanci
+  last_author: A. J
+  title: 'scRegulocity: Detection of local RNA velocity patterns in embeddings of single cell RNA-Seq data'
+links: {}
+added: '2026-11-21'
+evidence: scRegulocity combines RNA velocity estimates with embedding coordinates to identify abrupt local changes and annotate
+  them with genes and pathways.

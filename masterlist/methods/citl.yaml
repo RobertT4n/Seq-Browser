@@ -1,0 +1,23 @@
+name: CITL
+full_name: causal inference with time-lagged information
+category: dry
+summary: Infers time-lagged causal relationships between genes from single-cell expression and RNA velocity.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms23063348
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Wei H
+  last_author: Zhao H
+  pmid: '35328768'
+  pmcid: PMC8948830
+  title: Inferring Time-Lagged Causality Using the Derivative of Single-Cell Expression
+  preprint_doi: 10.1101/2021.02.03.429525
+links: {}
+added: '2026-11-21'
+evidence: CITL assesses conditional independence between current and changing gene expression levels, estimating the latter
+  using RNA velocity.

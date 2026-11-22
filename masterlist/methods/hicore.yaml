@@ -1,0 +1,19 @@
+name: HiCORE
+category: dry
+summary: Integrates shifted layers of Hi-C bins to identify chromatin looping regions at higher resolution.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.14348/molcells.2021.0014
+  year: 2021
+  journal: Molecules and Cells
+  first_author: Lee H
+  last_author: Seo PJ
+  title: 'HiCORE: Hi-C Analysis for Identification of Core Chromatin Looping Regions with Higher Resolution'
+links: {}
+added: '2026-11-21'
+evidence: HiCORE integrates interacting bins across multiple shifted binning layers to infer narrower chromatin interaction
+  regions.

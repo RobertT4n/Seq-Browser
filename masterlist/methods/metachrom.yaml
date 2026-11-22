@@ -1,0 +1,19 @@
+name: MetaChrom
+category: dry
+summary: Uses deep transfer learning to predict epigenomic features in cell types relevant to particular phenotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.02.02.429064
+  year: 2021
+  journal: bioRxiv
+  first_author: Lai
+  last_author: X
+  title: Predicting Epigenomic Functions of Genetic Variants in the Context of Neurodevelopment via Deep Transfer Learning
+links: {}
+added: '2026-11-21'
+evidence: MetaChrom combines a reference epigenomic compendium with profiles of phenotype-relevant cell types to predict epigenomic
+  features.

@@ -1,0 +1,19 @@
+name: VarGenius-HZD
+category: dry
+summary: Detects rare homozygous and hemizygous single-exon deletions in targeted sequencing using breadth of coverage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3390/genes12121979
+  year: 2021
+  journal: Genes
+  first_author: Musacchia F
+  last_author: Banfi S
+  title: VarGenius-HZD Allows Accurate Detection of Rare Homozygous or Hemizygous Deletions in Targeted Sequencing Leveraging
+    Breadth of Coverage
+links: {}
+added: '2026-11-21'
+evidence: VarGenius-HZD uses breadth of coverage to detect rare homozygous and hemizygous single-exon deletions.

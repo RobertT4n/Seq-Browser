@@ -1,0 +1,19 @@
+name: MetaProFi
+category: dry
+summary: Stores and queries nucleotide, amino acid, and translated nucleotide sequences using a compressed Bloom filter.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.08.12.456081
+  year: 2021
+  journal: bioRxiv
+  first_author: Srikakulam SK
+  last_author: Kalinina OV
+  title: 'MetaProFi: A protein-based Bloom filter for storing and querying sequence data for accurate identification of functionally
+    relevant genetic variants'
+links: {}
+added: '2026-11-21'
+evidence: MetaProFi supports sequence searches and was demonstrated on UniProtKB, Tara Oceans, and human RNA-seq datasets.

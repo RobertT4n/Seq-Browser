@@ -1,0 +1,20 @@
+name: cFIT
+full_name: common factor integration and transfer learning
+category: dry
+summary: Integrates single-cell transcriptome datasets and transfers information between them using a shared factor space.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2024383118
+  year: 2021
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Peng M
+  last_author: Roeder K
+  title: Integration and transfer learning of single-cell transcriptomes via cFIT
+links: {}
+added: '2026-11-21'
+evidence: cFIT models shared information across datasets in a common factor space while allowing batch-specific shifts and
+  distortions in gene expression.

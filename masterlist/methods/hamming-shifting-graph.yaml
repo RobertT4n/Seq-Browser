@@ -1,0 +1,21 @@
+name: Hamming-Shifting graph
+category: dry
+summary: Represents similar genomic short reads in a graph to compress sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009229
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Liu Y
+  last_author: Li J
+  pmid: '34280186'
+  pmcid: PMC8321399
+  title: 'Hamming-shifting graph of genomic short reads: Efficient construction and its application for compression'
+links: {}
+added: '2026-11-21'
+evidence: The graph links reads with small Hamming distances or shifting offsets and supports compression through a minimum
+  spanning forest.

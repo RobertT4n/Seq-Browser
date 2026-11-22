@@ -1,0 +1,23 @@
+name: RoboCOP
+category: dry
+summary: A multivariate state space model that combines chromatin accessibility and DNA sequence to infer genome-wide nucleosome
+  and transcription factor occupancy.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab553
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Mitra S
+  last_author: Hartemink AJ
+  pmid: '34255854'
+  pmcid: PMC8373080
+  title: 'RoboCOP: jointly computing chromatin occupancy profiles for numerous factors from chromatin accessibility data'
+links: {}
+added: '2026-11-21'
+evidence: RoboCOP integrates accessibility data with nucleotide sequence to compute genome-wide probabilistic nucleosome and
+  transcription factor occupancy scores.

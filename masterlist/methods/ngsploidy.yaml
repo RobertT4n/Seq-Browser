@@ -1,0 +1,18 @@
+name: ngsPloidy
+category: dry
+summary: Analyzes sequencing data from polyploid genomes for population genetic inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.104368.3
+  year: 2023
+  journal: F1000Research
+  first_author: Mas-Sandoval A
+  last_author: Fumagalli M
+  title: 'ngsJulia: population genetic analysis of next-generation DNA sequencing data with Julia language'
+links: {}
+added: '2026-11-21'
+evidence: ngsPloidy is an ngsJulia implementation for analyzing polyploid genomes and estimating population genetic parameters.

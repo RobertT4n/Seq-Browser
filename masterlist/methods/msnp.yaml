@@ -1,0 +1,28 @@
+name: mSNP
+full_name: multiple single-nucleotide polymorphism
+category: wet
+summary: Target sequencing with capture in solution genotypes multiple SNPs and haplotypes from individual amplicons.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1016/j.xplc.2021.100230
+  year: 2021
+  journal: Plant Commun
+  first_author: Guo Z
+  last_author: Xu Y
+  pmid: '34778746'
+  pmcid: PMC8577115
+  title: Development of high-resolution multiple-SNP arrays for genetic analyses and molecular breeding through genotyping
+    by target sequencing and liquid chip
+links: {}
+added: '2026-11-21'
+evidence: The approach combines genotyping by target sequencing and capture in solution to obtain multiple SNPs from a single
+  amplicon in maize.

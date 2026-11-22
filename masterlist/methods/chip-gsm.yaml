@@ -1,0 +1,23 @@
+name: ChIP-GSM
+full_name: ChIP-seq data-driven Gibbs Sampler to infer Modules
+category: dry
+summary: Infers transcription factor modules from ChIP-seq profiles and uses their inferred binding to predict active regulatory
+  elements.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009203
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Chen X
+  last_author: Xuan J
+  pmid: '34292930'
+  pmcid: PMC8330942
+  title: 'ChIP-GSM: Inferring active transcription factor modules to predict functional regulatory elements'
+links: {}
+added: '2026-11-21'
+evidence: ChIP-GSM integrates ChIP-seq profiles of multiple transcription factors in a Bayesian framework and predicts active
+  regulatory elements.

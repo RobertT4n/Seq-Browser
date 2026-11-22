@@ -1,0 +1,22 @@
+name: RecombineX
+category: dry
+summary: Automates marker identification, gamete genotyping, and tetrad-based recombination profiling.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1010047
+  year: 2022
+  journal: PLoS Genet
+  first_author: Li J
+  last_author: Yue JX
+  pmid: '35533184'
+  pmcid: PMC9119626
+  title: 'RecombineX: A generalized computational framework for automatic high-throughput gamete genotyping and tetrad-based
+    recombination analysis'
+links: {}
+added: '2026-11-21'
+evidence: RecombineX automates gamete genotyping and tetrad-based recombination profiling and can also profile copy number
+  variation.

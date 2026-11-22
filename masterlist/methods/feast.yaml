@@ -1,0 +1,19 @@
+name: FEAST
+full_name: FEAture SelecTion
+category: dry
+summary: A feature selection algorithm identifies representative genes for downstream single-cell RNA-seq clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab034
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Su K
+  last_author: Wu H
+  title: Accurate feature selection improves single-cell RNA-seq cell clustering
+links: {}
+added: '2026-11-21'
+evidence: Features selected by FEAST improved clustering accuracy with existing tools across 12 public scRNA-seq datasets.

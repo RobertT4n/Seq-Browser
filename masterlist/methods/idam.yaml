@@ -1,0 +1,20 @@
+name: IDAM
+category: dry
+summary: A graph-based method infers disease-associated microbial gene modules from metagenomic and metatranscriptomic data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2023.107458
+  year: 2023
+  journal: Computers in Biology and Medicine
+  first_author: Liu Z
+  last_author: Liu B
+  title: Inference of disease-associated microbial gene modules based on metagenomic and metatranscriptomic data
+  preprint_doi: 10.1101/2021.09.13.460160
+links: {}
+added: '2026-11-21'
+evidence: IDAM combines gene context conservation and co-expression patterns to infer phenotype-associated gene modules.

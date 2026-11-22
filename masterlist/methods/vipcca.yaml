@@ -1,0 +1,19 @@
+name: VIPCCA
+category: dry
+summary: A nonlinear canonical correlation framework aligns single-cell datasets across samples, platforms and data types.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1147
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Hu J
+  last_author: Zhou X
+  title: Effective and scalable single-cell data alignment with non-linear canonical correlation analysis
+links: {}
+added: '2026-11-21'
+evidence: VIPCCA aligns multiple single-cell datasets, including RNA-seq and ATAC-seq data.

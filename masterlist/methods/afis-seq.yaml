@@ -1,0 +1,27 @@
+name: AFIS-Seq
+full_name: Amplification-free Integration Site sequencing
+category: wet
+summary: Enriches chromosomal DNA with Cas9 for amplification-free nanopore mapping of lentiviral integration sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaa1152
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: van Haasteren J
+  last_author: Hyde SC
+  pmid: '33290561'
+  pmcid: PMC7897500
+  title: Genome-wide integration site detection using Cas9 enriched amplification-free long-range sequencing
+links: {}
+added: '2026-11-21'
+evidence: Cas9-mediated enrichment of high-molecular-weight chromosomal DNA enables long-read mapping of lentiviral integration
+  sites in cell models.

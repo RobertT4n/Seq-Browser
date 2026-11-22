@@ -1,0 +1,26 @@
+name: INSPIRE-seq
+category: wet
+summary: Sequences a selected nanobody library to identify clones that bind immune cells in complex tumor environments.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-023-43038-z
+  year: 2023
+  journal: Nat Commun
+  first_author: Sekar TV
+  last_author: Aguilera TA
+  pmid: '37978291'
+  pmcid: PMC10656474
+  title: Simultaneous selection of nanobodies for accessible epitopes on immune cells in the tumor microenvironment
+  preprint_doi: 10.1101/2021.05.26.445719
+links: {}
+added: '2026-11-21'
+evidence: INSPIRE-seq uses a nanobody library and sequencing to identify immune cell-binding nanobodies enriched in the tumor
+  microenvironment.

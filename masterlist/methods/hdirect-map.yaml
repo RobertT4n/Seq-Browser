@@ -1,0 +1,22 @@
+name: hDirect-MAP
+category: dry
+summary: hDirect-MAP models T cells in a shared expression space to identify response-specific phenotypes and predict immunotherapy
+  response.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab575
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Lu Y
+  last_author: Jin G
+  pmid: '35037026'
+  pmcid: PMC8921624
+  title: 'hDirect-MAP: projection-free single-cell modeling of response to checkpoint immunotherapy'
+links: {}
+added: '2026-11-21'
+evidence: hDirect-MAP identified response-specific T-cell subpopulations in single-cell RNA-seq or mass cytometry datasets.

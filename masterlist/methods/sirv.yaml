@@ -1,0 +1,20 @@
+name: SIRV
+category: dry
+summary: Infers spatial RNA velocities and differentiation trajectories at single-cell resolution by combining spatial transcriptomics
+  with reference scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.07.26.453774
+  year: 2021
+  journal: bioRxiv
+  first_author: Abdelaal T
+  last_author: Mahfouz A
+  title: 'SIRV: Spatial inference of RNA velocity at the single-cell resolution'
+links: {}
+added: '2026-11-21'
+evidence: SIRV enriches spatial transcriptomics data with spliced and unspliced mRNA expression from reference scRNA-seq data.

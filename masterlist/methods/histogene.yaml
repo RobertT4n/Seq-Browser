@@ -1,0 +1,20 @@
+name: HisToGene
+category: dry
+summary: Predicts spatial gene expression, including super-resolution expression, from histology images.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.28.470212
+  year: 2021
+  journal: bioRxiv
+  first_author: Pang M
+  last_author: Li M
+  title: Leveraging information in spatial transcriptomics to predict super-resolution gene expression from histology images
+    in tumors
+links: {}
+added: '2026-11-21'
+evidence: HisToGene uses a vision transformer to predict gene expression from histology images while accounting for spatial
+  dependencies between spots.

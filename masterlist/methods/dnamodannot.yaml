@@ -1,0 +1,25 @@
+name: DNAModAnnot
+full_name: DNA Modification Annotation
+category: dry
+summary: An R toolbox filters, annotates, and visualizes genome-wide DNA modification patterns from long-read sequencing data.
+readouts:
+- dna-methylation
+- dna-6ma
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btab032
+  year: 2021
+  journal: Bioinformatics
+  first_author: Hardy A
+  last_author: Defrance M
+  title: 'DNAModAnnot: a R toolbox for DNA modification filtering and annotation'
+links: {}
+added: '2026-11-21'
+evidence: DNAModAnnot was tested on PacBio 6mA data from Paramecium and nanopore 5mC data from human lymphoblastoid cells.

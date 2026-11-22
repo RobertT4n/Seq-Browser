@@ -1,0 +1,20 @@
+name: ASCETS
+category: dry
+summary: A method for quantifying chromosome-arm and chromosome-level copy-number changes from targeted sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa980
+  year: 2021
+  journal: Bioinformatics
+  first_author: Spurr LF
+  last_author: Beroukhim R
+  pmid: '33247715'
+  pmcid: PMC8388019
+  title: Quantification of aneuploidy in targeted sequencing data using ASCETS
+links: {}
+added: '2026-11-21'
+evidence: ASCETS quantifies arm and chromosome-level copy-number changes from targeted sequencing data.

@@ -1,0 +1,29 @@
+name: CASMA
+full_name: comprehensive analysis of SMA
+category: wet
+summary: Uses long-range PCR and third-generation sequencing to assess SMN1 and SMN2 copy number and mutations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.jmoldx.2022.05.001
+  year: 2022
+  journal: J Mol Diagn
+  first_author: Li S
+  last_author: Wang Y
+  pmid: '35659528'
+  title: 'Comprehensive Analysis of Spinal Muscular Atrophy: SMN1 Copy Number, Intragenic Mutation, and 2 + 0 Carrier Analysis
+    by Third-Generation Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: CASMA sequences full-length and downstream SMN1/2 regions to identify copy number, intragenic mutations, and potential
+  silent carriers.

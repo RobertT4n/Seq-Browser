@@ -1,0 +1,21 @@
+name: FilterFFPE
+category: dry
+summary: A filtering algorithm removes artifact chimeric reads from FFPE sequencing data to improve structural variant calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1093/gigascience/giab065
+  year: 2021
+  journal: GigaScience
+  first_author: Wei L
+  last_author: Sandmann S
+  title: 'SimFFPE and FilterFFPE: improving structural variant calling in FFPE samples'
+links: {}
+added: '2026-11-21'
+evidence: FilterFFPE removes artifact chimeric reads while retaining real chimeric reads and improved positive predictive
+  value in the reported evaluations.

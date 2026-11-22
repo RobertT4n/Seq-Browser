@@ -1,0 +1,21 @@
+name: peaks2utr
+category: dry
+summary: Annotates 3-prime untranslated regions using enrichment in single-cell transcriptomic data and a canonical annotation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad112
+  year: 2023
+  journal: Bioinformatics
+  first_author: Haese-Hill W
+  last_author: Otto TD
+  pmid: '36864613'
+  pmcid: PMC10008064
+  title: 'peaks2utr: a robust Python tool for the annotation of 3'' UTRs'
+  preprint_doi: 10.1101/2022.05.26.493605
+links: {}
+added: '2026-11-21'
+evidence: peaks2utr uses the UTR enrichment of single-cell technologies to annotate 3-prime UTRs for a given canonical annotation.

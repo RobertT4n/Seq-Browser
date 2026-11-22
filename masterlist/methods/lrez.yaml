@@ -1,0 +1,19 @@
+name: LRez
+category: dry
+summary: A C++ API and toolkit indexes, queries, and processes barcodes in linked-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbab022
+  year: 2021
+  journal: Bioinformatics Advances
+  first_author: Morisse P
+  last_author: Legeai F
+  title: 'LRez: a C++ API and toolkit for analyzing and managing Linked-Reads data'
+links: {}
+added: '2026-11-21'
+evidence: LRez extracts barcodes from BAM files and indexes and queries sequencing files to retrieve reads or alignments with
+  a given barcode.

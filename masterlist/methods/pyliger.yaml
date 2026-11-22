@@ -1,0 +1,20 @@
+name: PyLiger
+category: dry
+summary: Detects viruses and microorganisms in Illumina sequencing data using unique k-mers and multicore processing.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac190
+  year: 2022
+  journal: Bioinformatics
+  first_author: Lu L
+  last_author: Welch JD
+  pmid: '35561174'
+  pmcid: PMC9306758
+  title: 'PyLiger: scalable single-cell multi-omic data integration in Python'
+links: {}
+added: '2026-11-21'
+evidence: RabbitV identifies viruses and microorganisms in sequencing datasets using unique k-mers.

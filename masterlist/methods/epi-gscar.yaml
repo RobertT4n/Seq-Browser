@@ -1,0 +1,29 @@
+name: epi-gSCAR
+full_name: epigenomics and genomics of single cells analyzed by restriction
+category: wet
+summary: Uses methylation-sensitive restriction to profile DNA methylation and genetic variants simultaneously in single cells.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s42003-021-01661-w
+  year: 2021
+  journal: Commun Biol
+  first_author: Niemöller C
+  last_author: Becker H
+  pmid: '33526904'
+  pmcid: PMC7851132
+  title: Bisulfite-free epigenomics and genomics of single cells through methylation-sensitive restriction
+links: {}
+added: '2026-11-21'
+evidence: The bisulfite-free method analyzes DNA methylation and genetic variants genome-wide in single cells using methylation-sensitive
+  restriction.

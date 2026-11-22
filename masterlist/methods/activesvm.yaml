@@ -1,0 +1,20 @@
+name: ActiveSVM
+category: dry
+summary: Active feature selection identifies minimal gene sets for classifying cell types and other states in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.06.15.448478
+  year: 2021
+  journal: bioRxiv
+  first_author: Chen X
+  last_author: Thomson M
+  title: Active feature selection discovers minimal gene sets for classifying cell types and disease states with single-cell
+    mRNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: ActiveSVM iteratively examines misclassified cells to identify informative genes for cell-type classification.

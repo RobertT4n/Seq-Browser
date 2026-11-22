@@ -1,0 +1,29 @@
+name: scMAT-seq
+category: wet
+summary: Quantifies DNA methylation, chromatin accessibility, and RNA in the same single cell.
+readouts:
+- dna-methylation
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- organoid
+reference:
+  doi: 10.1101/2022.02.10.479957
+  year: 2022
+  journal: bioRxiv
+  first_author: Chialastri A
+  last_author: Dey SS
+  title: Integrated single-cell sequencing reveals principles of epigenetic regulation of human gastrulation and germ cell
+    development in a 3D organoid model
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes a one-pot single-cell technology measuring DNA methylation, DNA accessibility, and the transcriptome
+  in human gastruloids.

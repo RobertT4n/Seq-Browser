@@ -1,0 +1,18 @@
+name: VirStrain
+category: dry
+summary: A tool identifies RNA virus strain composition from short sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02609-x
+  year: 2022
+  journal: Genome Biology
+  first_author: Liao H
+  last_author: Sun Y
+  title: 'VirStrain: a strain identification tool for RNA viruses'
+links: {}
+added: '2026-11-21'
+evidence: VirStrain takes short reads as input and reports viral strain composition.

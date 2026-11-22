@@ -1,0 +1,21 @@
+name: ENVIM
+full_name: method for predicting metabolites using microbiome data
+category: dry
+summary: Predicts metabolites from microbiome data using an elastic net model with variable importance scores.
+readouts:
+- microbial-composition
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fcimb.2021.734416
+  year: 2021
+  journal: Frontiers in Cellular and Infection Microbiology
+  first_author: Xie J
+  last_author: Wu D
+  title: Improved Metabolite Prediction Using Microbiome Data-Based Elastic Net Models
+links: {}
+added: '2026-11-21'
+evidence: ENVIM predicts metabolites from metagenomic and metatranscriptomic data using elastic net models and variable importance
+  scores.

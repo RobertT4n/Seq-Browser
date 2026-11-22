@@ -1,0 +1,22 @@
+name: BLADE
+full_name: Bayesian Log-normAl Deconvolution
+category: dry
+summary: Uses a Bayesian framework to estimate cell composition and cell-type-specific expression profiles from bulk gene
+  expression data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26328-2
+  year: 2021
+  journal: Nature Communications
+  first_author: Andrade Barbosa B
+  last_author: Kim Y
+  title: Bayesian log-normal deconvolution for enhanced in silico microdissection of bulk gene expression data
+links: {}
+added: '2026-11-21'
+evidence: BLADE estimates both cellular composition and gene expression profiles for each cell type using prior knowledge
+  obtainable from single-cell RNA sequencing.

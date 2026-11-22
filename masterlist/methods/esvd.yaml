@@ -1,0 +1,21 @@
+name: eSVD
+full_name: exponential-family SVD
+category: dry
+summary: Nonlinear embedding method that jointly represents cells and genes for single-cell analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1080/01621459.2021.1886106
+  year: 2021
+  journal: J Am Stat Assoc
+  first_author: Lin KZ
+  last_author: Roeder K
+  pmid: '34354320'
+  pmcid: PMC8336573
+  title: Exponential-Family Embedding With Application to Cell Developmental Trajectories for Single-Cell RNA-Seq Data
+links: {}
+added: '2026-11-21'
+evidence: eSVD jointly embeds cells and genes and was applied to investigate oligodendrocyte developmental trajectories.

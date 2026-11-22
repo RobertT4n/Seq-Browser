@@ -1,0 +1,23 @@
+name: SNU-seq
+full_name: Single-Nucleotide resolution Uracil Sequencing
+category: wet
+summary: Maps uracil in DNA at single-nucleotide resolution using uracil excision by UdgX.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- lesion-excision
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2021.06.14.448445
+  year: 2021
+  journal: bioRxiv
+  first_author: Jiang L
+  last_author: Chen Y
+  title: Sequencing uracil in DNA at single-nucleotide resolution
+links: {}
+added: '2026-11-21'
+evidence: UdgX specifically excises uracil and forms a covalent bond with the resulting deoxyribose for uracil mapping.

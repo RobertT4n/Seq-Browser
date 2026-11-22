@@ -1,0 +1,19 @@
+name: SIGMA
+category: dry
+summary: Measures clusterability in single-cell transcriptomics data to identify cell clusters with non-random substructure.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02590-x
+  year: 2022
+  journal: Genome Biology
+  first_author: Mircea M
+  last_author: Semrau S
+  title: 'Phiclust: a clusterability measure for single-cell transcriptomics reveals phenotypic subpopulations'
+  preprint_doi: 10.1101/2021.05.11.443685
+links: {}
+added: '2026-11-21'
+evidence: SIGMA uses a random matrix theory-derived measure to identify clusters that may contain previously overlooked phenotypes.

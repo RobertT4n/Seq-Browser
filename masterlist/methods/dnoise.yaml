@@ -1,0 +1,24 @@
+name: DnoisE
+full_name: Distance denoising by Entropy
+category: dry
+summary: Denoises coding-barcode sequencing data by detecting erroneous reads and merging them with correct reads using codon-position
+  entropy.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7717/peerj.12758
+  year: 2022
+  journal: PeerJ
+  first_author: Antich A
+  last_author: Wangensteen OS
+  pmid: '35111399'
+  pmcid: PMC8783565
+  title: 'DnoisE: distance denoising by entropy. An open-source parallelizable alternative for denoising sequence datasets'
+  preprint_doi: 10.1101/2021.07.07.451520
+links: {}
+added: '2026-11-21'
+evidence: DnoisE uses natural variability associated with each codon position to detect erroneous reads and merge them with
+  correct ones.

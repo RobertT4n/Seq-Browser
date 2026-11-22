@@ -1,0 +1,20 @@
+name: ScregSeg
+full_name: single-cell regulatory landscape segmentation
+category: dry
+summary: Segments single-cell chromatin accessibility data to identify cell-type-specific regulatory programs and candidate
+  regulatory elements.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2021.100083
+  year: 2022
+  journal: Cell Genomics
+  first_author: McGarvey AC
+  last_author: Lacadie SA
+  title: Single-cell-resolved dynamics of chromatin architecture delineate cell and regulatory states in zebrafish embryos
+links: {}
+added: '2026-11-21'
+evidence: ScregSeg defines regulatory programs and candidate cis-regulatory elements specific to one or more cell types.

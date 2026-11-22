@@ -1,0 +1,20 @@
+name: deTOKI
+category: dry
+summary: Identifies TAD-like chromatin domains in single-cell Hi-C data using non-negative matrix factorization.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02435-7
+  year: 2021
+  journal: Genome Biol
+  first_author: Li X
+  last_author: Zhang Z
+  pmid: '34311744'
+  pmcid: PMC8314462
+  title: DeTOKI identifies and characterizes the dynamics of chromatin TAD-like domains in a single cell
+links: {}
+added: '2026-11-21'
+evidence: deTOKI decodes TAD-like domains from single-cell Hi-C data by seeking regions that insulate the genome into blocks.

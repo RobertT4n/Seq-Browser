@@ -1,0 +1,22 @@
+name: ORFik
+category: dry
+summary: ORFik processes and analyzes sequencing data to quantify and characterize translation.
+readouts:
+- translation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04254-w
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Tjeldnes H
+  last_author: Valen E
+  pmid: '34147079'
+  pmcid: PMC8214792
+  title: 'ORFik: a comprehensive R toolkit for the analysis of translation'
+links: {}
+added: '2026-11-21'
+evidence: ORFik accepts ribosome profiling and RCP-seq or TCP-seq data to quantify elongation and scanning, and RNA-seq to
+  assess translation relative to RNA abundance.

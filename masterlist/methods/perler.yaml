@@ -1,0 +1,21 @@
+name: Perler
+category: dry
+summary: Perler integrates single-cell RNA-seq and reference in situ hybridization data to reconstruct spatial gene expression.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24014-x
+  year: 2021
+  journal: Nat Commun
+  first_author: Okochi Y
+  last_author: Naoki H
+  pmid: '34140477'
+  pmcid: PMC8211835
+  title: Model-based prediction of spatial gene expression via generative linear mapping
+links: {}
+added: '2026-11-21'
+evidence: Perler uses a generative linear mapping model to integrate scRNA-seq with reference in situ hybridization data.

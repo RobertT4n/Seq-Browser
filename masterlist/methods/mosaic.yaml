@@ -1,0 +1,21 @@
+name: MOSAIC
+full_name: MOdularity and Singular vAlue decomposition-based Identification of Compartments
+category: dry
+summary: Detects chromatin compartment states, including fine-scale micro-compartments, from Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fcell.2022.845118
+  year: 2022
+  journal: Front Cell Dev Biol
+  first_author: Wen Z
+  last_author: Li L
+  pmid: '35517497'
+  pmcid: PMC9062080
+  title: Extensive Chromatin Structure-Function Associations Revealed by Accurate 3D Compartmentalization Characterization
+links: {}
+added: '2026-11-21'
+evidence: MOSAIC identifies two additional compartmental states in regions ambiguous under the A/B compartment scheme.

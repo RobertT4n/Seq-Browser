@@ -1,0 +1,23 @@
+name: BBUM model
+full_name: bi-beta-uniform mixture model
+category: dry
+summary: A statistical mixture model separates primary from background signals in differential expression data to identify
+  candidate miRNA degradation substrates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05306-z
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Wang PY
+  last_author: Bartel DP
+  title: A statistical approach for identifying primary substrates of ZSWIM8-mediated microRNA degradation in small-RNA sequencing
+    data
+  preprint_doi: 10.1101/2022.02.17.480958
+links: {}
+added: '2026-11-21'
+evidence: The BBUM model separates primary and background components using the expectation that primary substrates are upregulated
+  upon loss of ZSWIM8.

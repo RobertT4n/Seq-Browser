@@ -1,0 +1,22 @@
+name: ClinSV
+category: dry
+summary: Framework for detecting, annotating, prioritizing and visualizing structural and copy number variants from whole-genome
+  sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-021-00841-x
+  year: 2021
+  journal: Genome Med
+  first_author: Minoche AE
+  last_author: Cowley MJ
+  pmid: '33632298'
+  pmcid: PMC7908648
+  title: 'ClinSV: clinical grade structural and copy number variant detection from whole genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: ClinSV integrates and annotates structural variants from whole-genome sequencing and identified reportable variants
+  in clinical samples.

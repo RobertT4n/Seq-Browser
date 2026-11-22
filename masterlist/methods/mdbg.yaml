@@ -1,0 +1,22 @@
+name: mdBG
+full_name: minimizer-dBG
+category: dry
+summary: Represents sequencing data as minimizer-space de Bruijn graphs for genome and metagenome assembly and pangenome representation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2021.06.09.447586
+  year: 2021
+  journal: bioRxiv
+  first_author: Ekim
+  last_author: R
+  title: Minimizer-space de Bruijn graphs
+links: {}
+added: '2026-11-21'
+evidence: mdBG projects DNA sequences into minimizer tokens and was implemented for assembly of PacBio HiFi reads.

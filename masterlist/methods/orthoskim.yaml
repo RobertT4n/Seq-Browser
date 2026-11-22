@@ -1,0 +1,19 @@
+name: ORTHOSKIM
+category: dry
+summary: A pipeline captures targeted sequences in silico from genomic and transcriptomic libraries for phylogenomic analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1111/1755-0998.13584
+  year: 2022
+  journal: Molecular Ecology Resources
+  first_author: Pouchon C
+  last_author: Lavergne S
+  title: 'ORTHOSKIM: In silico sequence capture from genomic and transcriptomic libraries for phylogenomic and barcoding applications'
+links: {}
+added: '2026-11-21'
+evidence: ORTHOSKIM assembles sequences, maps them against references and extracts targets without assembling whole organelle
+  genomes.

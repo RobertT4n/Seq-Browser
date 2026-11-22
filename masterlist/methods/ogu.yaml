@@ -1,0 +1,20 @@
+name: OGU
+full_name: Operational Genomic Unit
+category: dry
+summary: Profiles microbial community composition using sequence alignments to individual reference genomes and a phylogenomic
+  hierarchy.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.04.04.438427
+  year: 2021
+  journal: bioRxiv
+  first_author: Zhu
+  last_author: R
+  title: OGUs enable effective, phylogeny-aware analysis of even shallow metagenome community structures
+links: {}
+added: '2026-11-21'
+evidence: OGU uses alignment hits to individual reference genomes as units for assessing microbial community diversity.

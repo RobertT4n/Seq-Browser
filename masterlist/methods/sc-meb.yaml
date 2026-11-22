@@ -1,0 +1,21 @@
+name: SC-MEB
+full_name: spatial clustering with hidden Markov random field using empirical Bayes
+category: dry
+summary: Clusters spatial transcriptomics data using an empirical Bayes model that incorporates spatial information.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab466
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Yang Y
+  last_author: Liu J
+  title: 'SC-MEB: spatial clustering with hidden Markov random field using empirical Bayes'
+  preprint_doi: 10.1101/2021.06.05.447181
+links: {}
+added: '2026-11-21'
+evidence: SC-MEB performs spatial clustering with a hidden Markov random field and selects the smoothness parameter and number
+  of clusters.

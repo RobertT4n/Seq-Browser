@@ -1,0 +1,19 @@
+name: LEVIATHAN
+category: dry
+summary: Calls structural variants from linked-read sequencing using shared barcode information between genomic regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.03.25.437002
+  year: 2021
+  journal: bioRxiv
+  first_author: Morisse
+  last_author: C
+  title: 'LEVIATHAN: efficient discovery of large structural variants by leveraging long-range information from Linked-Reads
+    data'
+links: {}
+added: '2026-11-21'
+evidence: LEVIATHAN indexes barcodes to find region pairs that may represent structural variants.

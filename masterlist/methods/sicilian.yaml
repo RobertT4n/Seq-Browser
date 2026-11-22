@@ -1,0 +1,21 @@
+name: SICILIAN
+category: dry
+summary: Assigns statistical confidence to splice junction calls from bulk or single-cell RNA-seq alignments.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02434-8
+  year: 2021
+  journal: Genome Biol
+  first_author: Dehghannasiri R
+  last_author: Salzman J
+  pmid: '34353340'
+  pmcid: PMC8339681
+  title: Specific splice junction detection in single cells with SICILIAN
+links: {}
+added: '2026-11-21'
+evidence: SICILIAN improves splice junction precision by assigning confidence to junctions reported by a spliced aligner.

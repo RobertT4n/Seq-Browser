@@ -1,0 +1,36 @@
+name: CUT&Tag-BS
+category: wet
+summary: CUT&Tag combined with bisulfite sequencing profiles histone modifications and methylation of the underlying DNA in
+  the same experiment.
+readouts:
+- histone-modification
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.crmeth.2021.100118
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Li R
+  last_author: Wade PA
+  pmid: '35028637'
+  pmcid: PMC8754398
+  title: CUT&amp;Tag-BS for simultaneous profiling of histone modification and DNA methylation with high efficiency and low
+    cost
+  preprint_doi: 10.1101/2021.07.19.452967
+links: {}
+added: '2026-11-21'
+evidence: The method integrates CUT&Tag with tagmentation-based bisulfite sequencing and was demonstrated using mouse embryonic
+  stem cells.
+targets:
+- H3K4me1

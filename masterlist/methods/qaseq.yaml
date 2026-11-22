@@ -1,0 +1,27 @@
+name: QASeq
+full_name: quantitative amplicon sequencing
+category: wet
+summary: Barcodes individual target molecules for absolute quantitation of DNA copy number and targeted RNA expression.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1038/s41467-022-29487-y
+  year: 2022
+  journal: Nat Commun
+  first_author: Wu LR
+  last_author: Zhang DY
+  pmid: '35379811'
+  pmcid: PMC8979981
+  title: Ensemble of nucleic acid absolute quantitation modules for copy number variation detection and RNA profiling
+links: {}
+added: '2026-11-21'
+evidence: QASeq uses PCR-based molecular barcoding for absolute molecule counts, CNV detection, and a targeted RNA expression
+  panel.

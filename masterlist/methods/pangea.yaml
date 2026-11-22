@@ -1,0 +1,24 @@
+name: PANGEA
+full_name: Phased ANalysis of Genome Editing Amplicons
+category: dry
+summary: A bioinformatics pipeline analyzes nanopore amplicon sequencing data to characterize plant gene targeting outcomes
+  and conversion tracts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/ijms22189723
+  year: 2021
+  journal: International Journal of Molecular Sciences
+  first_author: Atkins PAP
+  last_author: Voytas DF
+  title: Analyzing Plant Gene Targeting Outcomes and Conversion Tracts with Nanopore Sequencing
+links: {}
+added: '2026-11-21'
+evidence: PANGEA reduced nanopore amplicon sequencing error effects and captured gene targeting events and conversion tracts
+  at three plant loci.

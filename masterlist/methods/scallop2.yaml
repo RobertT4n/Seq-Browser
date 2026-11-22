@@ -1,0 +1,19 @@
+name: Scallop2
+category: dry
+summary: A reference-based transcript assembler reconstructs expressed transcripts from paired-end or multiple-end RNA-seq
+  reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.09.03.458862
+  year: 2021
+  journal: bioRxiv
+  first_author: Zhang
+  last_author: M
+  title: Scallop2 enables accurate assembly of multiple-end RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: Scallop2 bridges multiple-end phasing paths and uses them to guide transcript reconstruction from a splice graph.

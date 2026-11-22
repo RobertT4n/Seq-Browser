@@ -1,0 +1,23 @@
+name: DddA-sequencing (3D-seq)
+category: wet
+summary: A DNA-binding protein fused to the cytosine deaminase DddA enables genome-wide mapping of its binding sites by sequencing.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/2021.08.01.454665
+  year: 2021
+  journal: bioRxiv
+  first_author: Gallagher LA
+  last_author: Mougous JD
+  title: Genome-wide protein-DNA interaction site mapping using a double strand DNA-specific cytosine deaminase
+links: {}
+added: '2026-11-21'
+evidence: DddA fusions were applied to three Pseudomonas aeruginosa transcription factors to detect genome-wide protein-DNA
+  interactions.

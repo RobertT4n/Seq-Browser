@@ -1,0 +1,23 @@
+name: SNVoter
+category: dry
+summary: Post-processes nanopore single-nucleotide variant calls to improve accuracy in low-coverage regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-021-02283-5
+  year: 2021
+  journal: Genome Biol
+  first_author: Akbari V
+  last_author: Jones SJM
+  pmid: '33618748'
+  pmcid: PMC7898412
+  title: Megabase-scale methylation phasing using nanopore long reads and NanoMethPhase
+links: {}
+added: '2026-11-21'
+evidence: SNVoter post-processes nanopore SNV calls to improve accuracy in low-coverage regions.

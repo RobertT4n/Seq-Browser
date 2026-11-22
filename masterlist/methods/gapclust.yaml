@@ -1,0 +1,20 @@
+name: GapClust
+category: dry
+summary: Detects rare cell types in large single-cell RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24489-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Fa B
+  last_author: Yu Z
+  pmid: '34234139'
+  pmcid: PMC8263561
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+links: {}
+added: '2026-11-21'
+evidence: GapClust identified tuft cells and a previously unrecognised monocyte subtype in single-cell expression datasets.

@@ -1,0 +1,22 @@
+name: scPOST
+full_name: single-cell POwer Simulation Tool
+category: dry
+summary: Simulates multi-sample single-cell datasets to estimate power for detecting differential cell-state abundance.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2021.100120
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Millard N
+  last_author: Raychaudhuri S
+  pmid: '35005693'
+  pmcid: PMC8740883
+  title: Maximizing statistical power to detect differentially abundant cell states with scPOST
+links: {}
+added: '2026-11-21'
+evidence: scPOST simulates multi-sample single-cell datasets with inter-sample variation to explore how study design affects
+  power to detect differential abundance.

@@ -1,0 +1,20 @@
+name: SeqATU
+category: dry
+summary: Predicts genome-scale alternative transcription units in bacteria from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab162
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Wang Q
+  last_author: Liu B
+  pmid: '33957668'
+  title: A novel computational framework for genome-scale alternative transcription units prediction
+links: {}
+added: '2026-11-21'
+evidence: SeqATU uses a convex quadratic programming model to predict alternative transcription units from next-generation
+  RNA-seq data.

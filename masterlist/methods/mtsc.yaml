@@ -1,0 +1,20 @@
+name: mtSC
+category: dry
+summary: Assigns single-cell types by integrating multiple reference datasets with multitask deep metric learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab380
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Duan B
+  last_author: Liu Q
+  pmid: '34037791'
+  pmcid: PMC8373058
+  title: Integrating multiple references for single-cell assignment
+links: {}
+added: '2026-11-21'
+evidence: mtSC integrates multiple single-cell sequencing references for cell type identification in tissues.

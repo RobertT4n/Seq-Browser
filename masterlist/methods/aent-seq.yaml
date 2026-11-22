@@ -1,0 +1,25 @@
+name: AENT-seq
+full_name: addition-elimination mechanism-activated nucleotide transition sequencing
+category: wet
+summary: Uses 4sU labeling and chemical conversion to profile nascent RNA dynamics transcriptome-wide.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+temporal:
+- metabolic-labeling
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.1c03361
+  year: 2021
+  journal: Anal Chem
+  first_author: Su L
+  last_author: Zhao Y
+  pmid: '34612623'
+  title: Addition-Elimination Mechanism-Activated Nucleotide Transition Sequencing for RNA Dynamics Profiling
+links: {}
+added: '2026-11-21'
+evidence: Chemical conversion of metabolically incorporated 4sU marks nascent transcripts for sequencing analysis.

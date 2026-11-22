@@ -1,0 +1,20 @@
+name: StrainGE
+full_name: Strain Genome Explorer
+category: dry
+summary: Deconvolves microbial strain mixtures and characterizes their component strains from short-read metagenomic sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02630-0
+  year: 2022
+  journal: Genome Biology
+  first_author: van Dijk LR
+  last_author: Earl AM
+  title: 'StrainGE: a toolkit to track and characterize low-abundance strains in complex microbial communities'
+  preprint_doi: 10.1101/2021.02.14.431013
+links: {}
+added: '2026-11-21'
+evidence: StrainGE identifies references and variants for multiple conspecific strains in metagenomic samples.

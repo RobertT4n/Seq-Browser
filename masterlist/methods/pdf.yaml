@@ -1,0 +1,26 @@
+name: PDF
+full_name: pre-treatment DNase and filtration
+category: wet
+summary: Uses DNase pretreatment and filtration to enrich bacterial DNA for direct sequencing from Asian citrus psyllids.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- dnase-digestion
+species:
+- microbe
+- invertebrate
+reference:
+  doi: 10.1101/2022.01.28.478250
+  year: 2022
+  journal: bioRxiv
+  first_author: Higgins SA
+  last_author: Heck M
+  title: Direct DNA sequencing of ‘  <i>Candidatus</i>  Liberibacter asiaticus’ from  <i>Diaphorina citri</i>  , the Asian
+    citrus psyllid, and its implications for citrus greening disease management
+links: {}
+added: '2026-11-21'
+evidence: The protocol enabled direct sequencing of Candidatus Liberibacter asiaticus and the psyllid microbiome.

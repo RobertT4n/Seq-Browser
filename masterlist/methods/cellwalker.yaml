@@ -1,0 +1,24 @@
+name: CellWalker
+category: dry
+summary: Integrates single-cell open chromatin and gene expression with bulk data to label cells and assign regulatory elements
+  to cell types.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02279-1
+  year: 2021
+  journal: Genome Biol
+  first_author: Przytycki PF
+  last_author: Pollard KS
+  pmid: '33583425'
+  pmcid: PMC7883575
+  title: CellWalker integrates single-cell and bulk data to resolve regulatory elements across cell types in complex tissues
+links: {}
+added: '2026-11-21'
+evidence: CellWalker integrates scATAC-seq with RNA-seq and other data to improve cell labeling and annotate cell type-specific
+  regulatory elements.

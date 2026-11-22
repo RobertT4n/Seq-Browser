@@ -1,0 +1,24 @@
+name: ARAMIS
+full_name: Accurate long-Reads Assembly correction Method for Indel errorS
+category: dry
+summary: Corrects indel errors in long-read genome assemblies using accurate short reads and a combined correction pipeline.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bib/bbab170
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Sacristán-Horcajada E
+  last_author: Aguado B
+  pmid: '34013348'
+  pmcid: PMC8574707
+  title: 'ARAMIS: From systematic errors of NGS long reads to accurate assemblies'
+links: {}
+added: '2026-11-21'
+evidence: ARAMIS combines correction software in one pipeline using short reads and was demonstrated on PacBio-assembled genomes.

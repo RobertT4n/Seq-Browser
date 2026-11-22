@@ -1,0 +1,19 @@
+name: scMelody
+category: dry
+summary: A consensus clustering method reconstructs cell-to-cell methylation similarity to identify single-cell subpopulations.
+readouts:
+- dna-methylation
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fbioe.2022.842019
+  year: 2022
+  journal: Frontiers in Bioengineering and Biotechnology
+  first_author: Tian Q
+  last_author: Fan S
+  title: 'scMelody: An Enhanced Consensus-Based Clustering Model for Single-Cell Methylation Data by Reconstructing Cell-to-Cell
+    Similarity'
+links: {}
+added: '2026-11-21'
+evidence: scMelody combines multiple similarity measures to reconstruct cell-to-cell methylation patterns and identify subpopulations.

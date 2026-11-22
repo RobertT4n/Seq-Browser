@@ -1,0 +1,25 @@
+name: COV-ID
+category: wet
+summary: Combines RT-LAMP and deep sequencing to detect multiple viral targets in saliva.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.7554/eLife.69949
+  year: 2022
+  journal: Elife
+  first_author: Warneford-Thomson R
+  last_author: Bonasio R
+  pmid: '35532013'
+  pmcid: PMC9084890
+  title: A LAMP sequencing approach for high-throughput co-detection of SARS-CoV-2 and influenza virus in human saliva
+  preprint_doi: 10.1101/2021.04.23.21255523
+links: {}
+added: '2026-11-21'
+evidence: COV-ID combines RT-LAMP with sequencing and detected SARS-CoV-2 and influenza A amplicons in saliva.

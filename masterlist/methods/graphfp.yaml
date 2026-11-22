@@ -1,0 +1,20 @@
+name: GraphFP
+category: dry
+summary: Infers cell-state transition dynamics and potential energy landscapes from time-series single-cell transcriptomic
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009821
+  year: 2022
+  journal: PLOS Computational Biology
+  first_author: Jiang Q
+  last_author: Wan L
+  title: Dynamic inference of cell developmental complex energy landscape from time series single-cell transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: GraphFP reconstructs a cell-state transition potential energy landscape from time-series single-cell transcriptomic
+  data.

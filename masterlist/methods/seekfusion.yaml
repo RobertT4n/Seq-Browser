@@ -1,0 +1,19 @@
+name: SeekFusion
+category: dry
+summary: Detects fusion transcripts from targeted PCR-based next-generation sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fgene.2021.739054
+  year: 2021
+  journal: Frontiers in Genetics
+  first_author: Balan J
+  last_author: Klee EW
+  title: SeekFusion - A Clinically Validated Fusion Transcript Detection Pipeline for PCR-Based Next-Generation Sequencing
+    of RNA
+links: {}
+added: '2026-11-21'
+evidence: SeekFusion is a pipeline for identifying gene fusions from PCR-based sequencing chemistries.

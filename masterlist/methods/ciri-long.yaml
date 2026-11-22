@@ -1,0 +1,23 @@
+name: CIRI-long
+full_name: circRNA identifier using long-read sequencing data
+category: dry
+summary: Reconstructs full-length circular RNA isoform sequences from nanopore long reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-021-00842-6
+  year: 2021
+  journal: Nature Biotechnology
+  first_author: Zhang J
+  last_author: Zhao F
+  title: Comprehensive profiling of circular RNAs with nanopore sequencing and CIRI-long
+links: {}
+added: '2026-11-21'
+evidence: CIRI-long reconstructs circRNA sequences from nanopore long reads and was used to profile circRNAs in adult mouse
+  brain.

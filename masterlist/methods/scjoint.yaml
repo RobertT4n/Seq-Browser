@@ -1,0 +1,20 @@
+name: scJoint
+category: dry
+summary: Integrates single-cell RNA-seq and ATAC-seq datasets using transfer learning for cell-type label transfer and joint
+  visualization.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-01161-6
+  year: 2022
+  journal: Nature Biotechnology
+  first_author: Lin Y
+  last_author: Wang YXR
+  title: scJoint integrates atlas-scale single-cell RNA-seq and ATAC-seq data with transfer learning
+links: {}
+added: '2026-11-21'
+evidence: scJoint integrates atlas-scale scRNA-seq and scATAC-seq data and enables label transfer and joint visualization.

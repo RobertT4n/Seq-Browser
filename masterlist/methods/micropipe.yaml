@@ -1,0 +1,24 @@
+name: MicroPIPE
+category: dry
+summary: Reproducible pipeline for constructing bacterial genomes from Oxford Nanopore and Illumina sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12864-021-07767-z
+  year: 2021
+  journal: BMC Genomics
+  first_author: Murigneux V
+  last_author: Beatson SA
+  pmid: '34172000'
+  pmcid: PMC8235852
+  title: 'MicroPIPE: validating an end-to-end workflow for high-quality complete bacterial genome construction'
+  preprint_doi: 10.1101/2021.02.02.429319
+links: {}
+added: '2026-11-21'
+evidence: MicroPIPE is an end-to-end bacterial genome assembly pipeline for Oxford Nanopore and Illumina sequencing.

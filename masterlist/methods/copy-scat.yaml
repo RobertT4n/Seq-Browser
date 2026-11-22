@@ -1,0 +1,19 @@
+name: Copy-scAT
+category: dry
+summary: Infers copy number variants from single-cell epigenomic data to identify cancer cells and genetic subclones.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abg6045
+  year: 2021
+  journal: Science Advances
+  first_author: Nikolic A
+  last_author: Gallo M
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+links: {}
+added: '2026-11-21'
+evidence: Copy-scAT uses single-cell epigenomic data to infer copy number variants that define cancer cells.

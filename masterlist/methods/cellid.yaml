@@ -1,0 +1,18 @@
+name: CELLiD
+category: dry
+summary: Identifies cell types automatically by mapping single-cell RNA-seq data to an atlas.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1020
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Li M
+  last_author: Chen J
+  title: 'DISCO: a database of Deeply Integrated human Single-Cell Omics data'
+links: {}
+added: '2026-11-21'
+evidence: CELLiD is an atlas-guided automatic cell type identification tool for uploaded single-cell RNA-seq data.

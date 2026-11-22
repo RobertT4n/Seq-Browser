@@ -1,0 +1,27 @@
+name: MSK-ACCESS
+full_name: Memorial Sloan Kettering - Analysis of Circulating cfDNA to Examine Somatic Status
+category: wet
+summary: Profiles low-frequency somatic alterations in 129 genes from cell-free DNA with matched normal sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41467-021-24109-5
+  year: 2021
+  journal: Nat Commun
+  first_author: Rose Brannon A
+  last_author: Benayed R
+  pmid: '34145282'
+  pmcid: PMC8213710
+  title: Enhanced specificity of clinical high-sensitivity tumor mutation profiling in cell-free DNA via paired normal sequencing
+    using MSK-ACCESS
+links: {}
+added: '2026-11-21'
+evidence: The assay detects low-frequency somatic alterations in 129 genes and uses matched normal sequencing to remove germline
+  and clonal hematopoiesis variants.

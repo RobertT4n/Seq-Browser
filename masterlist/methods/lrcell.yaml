@@ -1,0 +1,22 @@
+name: LRcell
+category: dry
+summary: Identifies cell subtypes likely to drive differential expression observed in bulk RNA-seq experiments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac063
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Ma W
+  last_author: Qin ZS
+  pmid: '35272348'
+  pmcid: PMC9116223
+  title: 'LRcell: detecting the source of differential expression at the sub-cell-type level from bulk RNA-seq data'
+  preprint_doi: 10.1101/2021.08.10.455821
+links: {}
+added: '2026-11-21'
+evidence: LRcell aims to identify subtypes driving changes in bulk RNA-seq and offers marker genes computed from single-cell
+  experiments.

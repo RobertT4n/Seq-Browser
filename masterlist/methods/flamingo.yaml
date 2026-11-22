@@ -1,0 +1,20 @@
+name: FLAMINGO
+category: dry
+summary: Reconstructs high-resolution three-dimensional genome structures from Hi-C contact maps using low-rank matrix completion.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-30270-2
+  year: 2022
+  journal: Nat Commun
+  first_author: Wang H
+  last_author: Wang J
+  pmid: '35551182'
+  pmcid: PMC9098643
+  title: Reconstruct high-resolution 3D genome structures for diverse cell-types using FLAMINGO
+links: {}
+added: '2026-11-21'
+evidence: FLAMINGO compresses interdependent Hi-C interactions to reconstruct spatial chromosome conformations.

@@ -1,0 +1,23 @@
+name: FBA
+full_name: feature barcoding analysis
+category: dry
+summary: Performs quality control, quantification, demultiplexing, multiplet detection, clustering, and visualization for
+  single-cell feature barcoding assays.
+readouts:
+- protein
+- rna
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab375
+  year: 2021
+  journal: Bioinformatics
+  first_author: Duan J
+  last_author: Hon GC
+  title: 'FBA: feature barcoding analysis for single cell RNA-Seq'
+links: {}
+added: '2026-11-21'
+evidence: FBA analyzes feature barcoding assays that detect features including cell-surface proteins and genomic perturbations
+  alongside transcriptomes.

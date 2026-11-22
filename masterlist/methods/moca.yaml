@@ -1,0 +1,22 @@
+name: MOCA
+full_name: Multi-Omics Concordance Analysis
+category: dry
+summary: MOCA jointly analyzes gene expression and genetic variation in single-cell RNA sequencing profiles.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.831040
+  year: 2022
+  journal: Front Genet
+  first_author: Huzar J
+  last_author: Miura S
+  pmid: '35432484'
+  pmcid: PMC9009314
+  title: MOCA for Integrated Analysis of Gene Expression and Genetic Variation in Single Cells
+links: {}
+added: '2026-11-21'
+evidence: MOCA outputs cells and genes showing convergent and divergent gene expression patterns.

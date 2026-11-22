@@ -1,0 +1,20 @@
+name: PACIFIC
+category: dry
+summary: Deep-learning classifier that detects SARS-CoV-2 and other respiratory RNA viruses in RNA-seq data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-021-82043-4
+  year: 2021
+  journal: Sci Rep
+  first_author: Acera Mateos P
+  last_author: Patel HR
+  pmid: '33547380'
+  pmcid: PMC7864945
+  title: 'PACIFIC: a lightweight deep-learning classifier of SARS-CoV-2 and co-infecting RNA viruses'
+links: {}
+added: '2026-11-21'
+evidence: PACIFIC detects SARS-CoV-2 and other common RNA respiratory viruses and estimates their relative concentrations.

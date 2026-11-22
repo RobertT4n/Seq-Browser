@@ -1,0 +1,24 @@
+name: TSEBRA
+full_name: transcript selector for BRAKER
+category: dry
+summary: Selects gene predictions from BRAKER outputs using RNA-seq and homologous protein evidence.
+readouts:
+- genome-sequence
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04482-0
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Gabriel L
+  last_author: Stanke M
+  pmid: '34823473'
+  pmcid: PMC8620231
+  title: 'TSEBRA: transcript selector for BRAKER'
+links: {}
+added: '2026-11-21'
+evidence: TSEBRA compares overlapping transcript predictions from BRAKER1 and BRAKER2 using RNA-seq and homologous protein
+  support.

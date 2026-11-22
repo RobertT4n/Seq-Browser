@@ -1,0 +1,20 @@
+name: DNAcycP
+category: dry
+summary: A deep learning tool trained on loop-seq data to predict intrinsic DNA cyclizability.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac162
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Li K
+  last_author: Wang JP
+  pmid: '35288750'
+  pmcid: PMC8989542
+  title: 'DNAcycP: a deep learning tool for DNA cyclizability prediction'
+links: {}
+added: '2026-11-21'
+evidence: DNAcycP predicts the intrinsic cyclizability of DNA fragments using a deep learning model trained on loop-seq data.

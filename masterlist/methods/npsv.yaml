@@ -1,0 +1,21 @@
+name: NPSV
+category: dry
+summary: Genotypes previously discovered structural variants using simulated sequencing data to model sample and variant biases.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giab046
+  year: 2021
+  journal: Gigascience
+  first_author: Linderman MD
+  last_author: Gelb BD
+  pmid: '34195837'
+  pmcid: PMC8246072
+  title: 'NPSV: A simulation-driven approach to genotyping structural variants in whole-genome sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NPSV uses next-generation sequencing simulation to model genomic region, sequencer, and alignment pipeline effects
+  on structural variant evidence.

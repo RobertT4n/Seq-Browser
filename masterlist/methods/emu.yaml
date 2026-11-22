@@ -1,0 +1,20 @@
+name: EMU
+category: dry
+summary: Infers population structure from genetic data with extensive non-random missingness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab027
+  year: 2021
+  journal: Bioinformatics
+  first_author: Meisner J
+  last_author: Albrechtsen A
+  pmid: '33459779'
+  title: Large-scale inference of population structure in presence of missingness using PCA
+links: {}
+added: '2026-11-21'
+evidence: EMU inferred population structure from approximately 100,000 shallowly sequenced individuals despite missing genotype
+  information.

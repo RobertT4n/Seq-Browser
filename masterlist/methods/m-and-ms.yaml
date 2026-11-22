@@ -1,0 +1,20 @@
+name: M&Ms
+category: dry
+summary: M&Ms generates simulated 16S rDNA sequence datasets for microbial communities with user-controlled ecological parameters.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btab882
+  year: 2022
+  journal: Bioinformatics
+  first_author: García-García N
+  last_author: Puente-Sánchez F
+  pmid: '35022654'
+  title: 'M&Ms: a versatile software for building microbial mock communities'
+links: {}
+added: '2026-11-21'
+evidence: M&Ms creates in silico microbial community sequence libraries with controlled richness, evenness, microdiversity,
+  and source environment.

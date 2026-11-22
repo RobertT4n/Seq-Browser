@@ -1,0 +1,20 @@
+name: T7-RAPseq
+category: wet
+summary: Profiles RNA binding sites to distinguish m6A-dependent and m6A-independent binding by an RNA-binding protein.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1101/2021.11.08.467743
+  year: 2021
+  journal: bioRxiv
+  first_author: Atanasoai I
+  last_author: Kutter C
+  title: Large-scale identification of RBP-RNA interactions by RAPseq refines essentials of post-transcriptional gene regulation
+links: {}
+added: '2026-11-21'
+evidence: T7-RAPseq was developed to discern m6A-dependent and independent RNA binding sites of YTHDF1.

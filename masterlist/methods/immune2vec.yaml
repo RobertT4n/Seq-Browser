@@ -1,0 +1,20 @@
+name: Immune2vec
+category: dry
+summary: Embeds immune receptor sequences in a low-dimensional vector space for feature extraction and exploratory analysis.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fimmu.2021.680687
+  year: 2021
+  journal: Front Immunol
+  first_author: Ostrovsky-Berman M
+  last_author: Yaari G
+  pmid: '34367141'
+  pmcid: PMC8340020
+  title: 'Immune2vec: Embedding B/T Cell Receptor Sequences in ℝ <i><sup>N</sup></i> Using Natural Language Processing'
+links: {}
+added: '2026-11-21'
+evidence: Immune2vec adapts a natural language processing embedding technique to B-cell receptor repertoire sequencing data.

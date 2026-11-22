@@ -1,0 +1,19 @@
+name: m6A-express
+category: dry
+summary: Predicts condition-specific regulation of gene expression by m6A from limited MeRIP-seq data.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab714
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Zhang T
+  last_author: Huang Y
+  title: '<i>m6A-express</i>: uncovering complex and condition-specific m6A regulation of gene expression'
+links: {}
+added: '2026-11-21'
+evidence: The algorithm predicts condition-specific m6A regulation of gene expression from limited MeRIP-seq data.

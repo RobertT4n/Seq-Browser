@@ -1,0 +1,21 @@
+name: Motifizer
+category: dry
+summary: A computational pipeline for processing ChIP-seq and RNA-seq data and comparing transcription factor binding sites.
+readouts:
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.04.03.486862
+  year: 2022
+  journal: bioRxiv
+  first_author: Khan S
+  last_author: Gaglani Y
+  title: 'Motifizer: a tool for parsing high-throughput sequencing datasets and quantitative comparative analyses of transcription
+    factor-binding sites'
+links: {}
+added: '2026-11-21'
+evidence: Motifizer performs peak calling, de novo motif analysis, differential gene expression analysis, and comparisons
+  of transcription factor binding sites.

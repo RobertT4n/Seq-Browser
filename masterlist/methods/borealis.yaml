@@ -1,0 +1,20 @@
+name: BOREALIS
+full_name: Bisulfite-seq OutlieR MEthylation At SingLe-SIte ReSolution
+category: dry
+summary: Identifies outlier DNA methylation at individual CpG sites from bisulfite sequencing data using a beta-binomial model.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.19.492700
+  year: 2022
+  journal: bioRxiv
+  first_author: Oliver GR
+  last_author: Klee EW
+  title: Detection of outlier methylation from bisulfite sequencing data with novel Bioconductor package BOREALIS
+links: {}
+added: '2026-11-21'
+evidence: BOREALIS uses a beta-binomial model to identify outlier methylation at single CpG site resolution.

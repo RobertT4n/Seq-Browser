@@ -1,0 +1,19 @@
+name: VisVariant
+category: dry
+summary: Visualization tool for inspecting genetic variants and overlapping sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2021.02.12.431037
+  year: 2021
+  journal: bioRxiv
+  first_author: Lau KW
+  last_author: Lorincz A
+  title: 'VisVariant: A java program to visualise genetic variants in next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: VisVariant creates figures showing overlapping sequence information for individual reads spanning a variant and
+  its flanking regions.

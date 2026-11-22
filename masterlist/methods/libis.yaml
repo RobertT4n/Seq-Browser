@@ -1,0 +1,21 @@
+name: LiBis
+full_name: Low-input Bisulfite Sequencing
+category: dry
+summary: Improves low-input whole-genome bisulfite sequencing alignment by clipping and remapping initially unmapped reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa332
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Yin Y
+  last_author: Sun D
+  pmid: '33316060'
+  title: 'LiBis: an ultrasensitive alignment augmentation for low-input bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: LiBis dynamically clips initially unmapped reads and remaps fragments to increase informative CpG coverage.

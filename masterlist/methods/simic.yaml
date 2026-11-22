@@ -1,0 +1,21 @@
+name: SimiC
+category: dry
+summary: A single-cell gene regulatory inference framework that jointly estimates distinct but related regulatory networks
+  across cell phenotypes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-022-03319-7
+  year: 2022
+  journal: Commun Biol
+  first_author: Peng J
+  last_author: Hernaez M
+  pmid: '35414121'
+  pmcid: PMC9005655
+  title: SimiC enables the inference of complex gene regulatory dynamics across cell phenotypes
+links: {}
+added: '2026-11-21'
+evidence: SimiC jointly infers regulatory dynamics per phenotype from single-cell RNA-sequencing data.

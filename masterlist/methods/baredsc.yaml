@@ -1,0 +1,21 @@
+name: baredSC
+full_name: Bayesian Approach to Retrieve Expression Distribution of Single-Cell
+category: dry
+summary: Uses a Bayesian Gaussian mixture model to infer intrinsic single-cell gene expression distributions and correlations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04507-8
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Lopez-Delisle L
+  last_author: Delisle JB
+  title: 'baredSC: Bayesian approach to retrieve expression distribution of single-cell data'
+  preprint_doi: 10.1101/2021.05.26.445740
+links: {}
+added: '2026-11-21'
+evidence: baredSC estimates one-dimensional gene expression distributions and two-dimensional distributions for pairs of genes
+  from sparse single-cell data.

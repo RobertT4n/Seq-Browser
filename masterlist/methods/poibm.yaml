@@ -1,0 +1,20 @@
+name: POIBM
+category: dry
+summary: An RNA-seq batch correction method that learns virtual reference samples without requiring phenotype labels.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac124
+  year: 2022
+  journal: Bioinformatics
+  first_author: Holmström S
+  last_author: Häkkinen A
+  pmid: '35199138'
+  pmcid: PMC9048693
+  title: 'POIBM: batch correction of heterogeneous RNA-seq datasets through latent sample matching'
+links: {}
+added: '2026-11-21'
+evidence: POIBM learns virtual reference samples directly from RNA-seq data and corrects batch effects while blind to phenotypes.

@@ -1,0 +1,21 @@
+name: GENEVA
+full_name: GENe Expression Variance Analysis
+category: dry
+summary: Explores large collections of RNA-seq datasets to identify experimental conditions associated with gene expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02589-4
+  year: 2022
+  journal: Genome Biology
+  first_author: Kaur N
+  last_author: Hu Z
+  title: Systematic identification of ACE2 expression modulators reveals cardiomyopathy as a risk factor for mortality in
+    COVID-19 patients
+links: {}
+added: '2026-11-21'
+evidence: GENEVA analyzed public RNA-seq samples to identify diseases, drugs, and genetic perturbations associated with ACE2
+  expression.

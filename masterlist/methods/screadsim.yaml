@@ -1,0 +1,22 @@
+name: scReadSim
+category: dry
+summary: Simulates single-cell RNA-seq and ATAC-seq reads with user-specified ground truths.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-43162-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Yan G
+  last_author: Li JJ
+  pmid: '37980428'
+  pmcid: PMC10657386
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+  preprint_doi: 10.1101/2022.05.29.493924
+links: {}
+added: '2026-11-21'
+evidence: scReadSim generates synthetic RNA-seq and ATAC-seq reads while mimicking real single-cell data.

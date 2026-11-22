@@ -1,0 +1,24 @@
+name: AMGT-TS
+full_name: accurate microsatellite genotyping tool based on targeted sequencing
+category: dry
+summary: A targeted sequencing analysis strategy for microsatellite genotyping that accommodates nucleotide variation in repeats
+  and their flanking regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-021-04351-w
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Huo Y
+  last_author: Wang F
+  pmid: '34496768'
+  pmcid: PMC8424866
+  title: An integrated strategy for target SSR genotyping with toleration of nucleotide variations in the SSRs and flanking
+    regions
+links: {}
+added: '2026-11-21'
+evidence: AMGT-TS uses a broad matching algorithm to type simple sequence repeats despite nucleotide variations in the repeats
+  or flanking regions.

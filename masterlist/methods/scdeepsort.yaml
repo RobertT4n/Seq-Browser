@@ -1,0 +1,19 @@
+name: scDeepSort
+category: dry
+summary: Annotates cell types in single-cell transcriptomic data using a pretrained weighted graph neural network.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab775
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Shao X
+  last_author: Fan X
+  title: 'scDeepSort: a pre-trained cell-type annotation method for single-cell transcriptomics using deep learning with a
+    weighted graph neural network'
+links: {}
+added: '2026-11-21'
+evidence: scDeepSort uses a pretrained weighted graph neural network to label cell types in human and mouse scRNA-seq data.

@@ -1,0 +1,19 @@
+name: AB12PHYLO
+category: dry
+summary: Provides an integrated pipeline from Sanger sequencing traces to phylogenetic inference and visualization.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1094/PHYTOFR-08-21-0055-A
+  year: 2022
+  journal: PhytoFrontiers™
+  first_author: Kaindl L
+  last_author: Stam R
+  title: 'AB12PHYLO: An Integrated Pipeline for Maximum Likelihood Phylogenetic Inference from ABI Trace Data'
+  preprint_doi: 10.1101/2021.03.01.433007
+links: {}
+added: '2026-11-21'
+evidence: AB12PHYLO wraps tools for processing raw Sanger data, aligning sequences, and constructing and visualizing phylogenies.

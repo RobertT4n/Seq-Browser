@@ -1,0 +1,20 @@
+name: CRISPRroots
+category: dry
+summary: A method uses RNA-seq data and Cas9 binding properties to identify potential on-target and off-target edits.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1131
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Corsi GI
+  last_author: Seemann SE
+  title: '<tt>CRISPRroots</tt>: on- and off-target assessment of RNA-seq data in CRISPR–Cas9 edited cells'
+links: {}
+added: '2026-11-21'
+evidence: CRISPRroots combines Cas9 and guide RNA binding properties, expression changes and sequence variants to discover
+  potential off-targets.

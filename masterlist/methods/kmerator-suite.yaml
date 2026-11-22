@@ -1,0 +1,22 @@
+name: Kmerator Suite
+category: dry
+summary: Designs gene-specific k-mer signatures and quantifies them in RNA-seq datasets to characterize expression and infer
+  metadata.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab058
+  year: 2021
+  journal: NAR Genomics and Bioinformatics
+  first_author: Riquier S
+  last_author: Commes T
+  title: "Kmerator Suite: design of specific\n                    <i>k</i>\n                    -mer signatures and automatic\
+    \ metadata discovery in large RNA-seq datasets"
+  preprint_doi: 10.1101/2021.05.20.444982
+links: {}
+added: '2026-11-21'
+evidence: The suite extracts specific k-mers, quantifies them in RNA-seq datasets and uses predictor signatures to infer sample
+  metadata.

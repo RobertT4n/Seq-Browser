@@ -1,0 +1,20 @@
+name: 2-kupl
+category: dry
+summary: 2-kupl uses k-mers to detect variants between two DNA-seq samples without reference mapping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04185-6
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Wang Y
+  last_author: Gautheret D
+  pmid: '34090332'
+  pmcid: PMC8180056
+  title: '2-kupl: mapping-free variant detection from DNA-seq data of matched samples'
+links: {}
+added: '2026-11-21'
+evidence: 2-kupl is a mapping-free protocol for variant calling between matched DNA-seq samples.

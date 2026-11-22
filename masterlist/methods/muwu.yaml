@@ -1,0 +1,19 @@
+name: MuWU
+full_name: Mutant-seq workflow utility
+category: dry
+summary: Processes Mutant-seq reads to identify and annotate insertion sites and tagged genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab679
+  year: 2021
+  journal: Bioinformatics
+  first_author: Stöcker T
+  last_author: Schoof H
+  title: 'MuWU: Mutant-seq library analysis and annotation'
+links: {}
+added: '2026-11-21'
+evidence: MuWU processes Mutant-seq reads to identify tagged genes and distinguish germinal from somatic insertions.

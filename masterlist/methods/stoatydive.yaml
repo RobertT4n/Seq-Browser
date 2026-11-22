@@ -1,0 +1,20 @@
+name: StoatyDive
+category: dry
+summary: StoatyDive evaluates, classifies, and filters sequencing peak profiles by shape.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giab045
+  year: 2021
+  journal: Gigascience
+  first_author: Heyl F
+  last_author: Backofen R
+  pmid: '34143874'
+  pmcid: PMC8212874
+  title: 'StoatyDive: Evaluation and classification of peak profiles for sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: StoatyDive classifies peak profile shapes from CLIP-seq data and can be used for quality control and filtering.

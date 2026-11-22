@@ -1,0 +1,22 @@
+name: TumorDecon
+category: dry
+summary: A digital cytometry package that applies deconvolution methods to estimate cell frequencies from bulk gene expression
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.softx.2022.101072
+  year: 2022
+  journal: SoftwareX
+  first_author: Aronow RA
+  last_author: Shahriyari L
+  pmid: '35782394'
+  pmcid: PMC9248989
+  title: 'TumorDecon: A digital cytometry software'
+links: {}
+added: '2026-11-21'
+evidence: TumorDecon includes four deconvolution methods, gene sets, signature matrices, and functions to generate custom
+  signature matrices.

@@ -1,0 +1,22 @@
+name: DeepVelo
+category: dry
+summary: A neural ordinary differential equation model learns nonlinear single-cell transcriptome dynamics and continuous
+  expression changes over time.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abq3745
+  year: 2022
+  journal: Science Advances
+  first_author: Chen Z
+  last_author: Zhang J
+  title: "<i>DeepVelo</i>\n                    : Single-cell transcriptomic deep velocity field learning with neural ordinary\
+    \ differential equations"
+  preprint_doi: 10.1101/2022.02.15.480564
+links: {}
+added: '2026-11-21'
+evidence: DeepVelo models single-cell transcriptome dynamics and improved velocity field representation accuracy in out-of-sample
+  cells.

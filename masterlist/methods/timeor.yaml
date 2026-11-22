@@ -1,0 +1,23 @@
+name: TIMEOR
+full_name: Trajectory Inference and Mechanism Exploration with Omics data in R
+category: dry
+summary: Integrates time-series RNA-seq and other molecular data to infer temporal gene regulatory mechanisms.
+readouts:
+- rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab384
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Conard AM
+  last_author: Larschan E
+  pmid: '34125906'
+  pmcid: PMC8262710
+  title: 'TIMEOR: a web-based tool to uncover temporal regulatory mechanisms from multi-omics data'
+links: {}
+added: '2026-11-21'
+evidence: TIMEOR uses time-series RNA-seq, motif analysis, protein-DNA binding data, and protein-protein interaction networks
+  to infer regulatory relationships.

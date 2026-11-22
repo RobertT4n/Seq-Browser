@@ -1,0 +1,22 @@
+name: svMIL2
+category: dry
+summary: Predicts pathogenic non-coding structural variants that disrupt chromatin domain boundaries or loops in cancer genomes.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-021-93917-y
+  year: 2021
+  journal: Sci Rep
+  first_author: Nieboer MM
+  last_author: de Ridder J
+  pmid: '34257393'
+  pmcid: PMC8277903
+  title: Predicting pathogenic non-coding SVs disrupting the 3D genome in 1646 whole cancer genomes using multiple instance
+    learning
+links: {}
+added: '2026-11-21'
+evidence: svMIL2 prioritizes somatic non-coding structural variants disrupting TAD boundaries and CTCF loops.

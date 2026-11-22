@@ -1,0 +1,22 @@
+name: GraphPred
+category: dry
+summary: Predicts transcription factor binding sites and motifs from ATAC-seq data using a graph neural network and k-mer
+  coexistence probabilities.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.02.490240
+  year: 2022
+  journal: bioRxiv
+  first_author: Zhang S
+  last_author: Wang Y
+  title: 'GraphPred: An approach to predict multiple DNA motifs from ATAC-seq data using graph neural network and coexisting
+    probability'
+links: {}
+added: '2026-11-21'
+evidence: GraphPred predicts transcription factor binding sites and finds multiple motifs using ATAC-seq data and k-mer coexistence
+  probabilities.

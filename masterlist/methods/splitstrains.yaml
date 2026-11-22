@@ -1,0 +1,24 @@
+name: SplitStrains
+category: dry
+summary: Statistical method for identifying bacterial strains and estimating their proportions in mixed infections from whole-genome
+  sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000607
+  year: 2021
+  journal: Microb Genom
+  first_author: Gabbassov E
+  last_author: Chindelevitch L
+  pmid: '34165419'
+  pmcid: PMC8461467
+  title: SplitStrains, a tool to identify and separate mixed &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; infections from
+    WGS data
+  preprint_doi: 10.1101/2021.02.07.21250981
+links: {}
+added: '2026-11-21'
+evidence: SplitStrains estimates proportions and identifies underlying strains in mixed bacterial infections using whole-genome
+  sequencing data.

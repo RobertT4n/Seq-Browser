@@ -1,0 +1,20 @@
+name: HPTT
+full_name: H. pylori Typing Tool
+category: dry
+summary: Types Helicobacter pylori genomes geographically using whole-genome SNP profiles and a reference database.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmicb.2021.687259
+  year: 2021
+  journal: Frontiers in Microbiology
+  first_author: Jiang X
+  last_author: Tan H
+  title: 'Whole-Genome-Based Helicobacter pylori Geographic Surveillance: A Visualized and Expandable Webtool'
+  preprint_doi: 10.1101/2021.03.29.437451
+links: {}
+added: '2026-11-21'
+evidence: HPTT uses whole-genome SNP profiles to assign genomic types at continent and country scales.

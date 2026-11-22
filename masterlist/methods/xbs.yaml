@@ -1,0 +1,22 @@
+name: XBS
+full_name: compleX Bacterial Samples
+category: dry
+summary: A pipeline uses joint calling and machine-learning-based filtering to identify variants in challenging Mycobacterium
+  tuberculosis sequencing samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000689
+  year: 2021
+  journal: Microbial Genomics
+  first_author: Heupink TH
+  last_author: Van Rie A
+  title: Comprehensive and accurate genetic variant identification from contaminated and low-coverage Mycobacterium tuberculosis
+    whole genome sequencing data
+  preprint_doi: 10.1101/2021.09.16.460612
+links: {}
+added: '2026-11-21'
+evidence: XBS improves variant detection in samples with low coverage, contamination, or complex genomic regions.

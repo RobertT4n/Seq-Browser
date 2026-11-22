@@ -1,0 +1,29 @@
+name: DNA-capture-seq
+category: wet
+summary: Enriches DNA sequences with probes to characterize bovine leukemia virus genomes and integration sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- other-vertebrate
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41598-021-83909-3
+  year: 2021
+  journal: Sci Rep
+  first_author: Ohnuki N
+  last_author: Satou Y
+  pmid: '33633166'
+  pmcid: PMC7907107
+  title: A target enrichment high throughput sequencing system for characterization of BLV whole genome sequence, integration
+    sites, clonality and host SNP
+links: {}
+added: '2026-11-21'
+evidence: DNA probes enrich target reads, including host–provirus chimeric reads that reveal integration sites and clonal
+  expansion.

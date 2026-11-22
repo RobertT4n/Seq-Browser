@@ -1,0 +1,23 @@
+name: VaSP
+full_name: Variations of Splicing in Population
+category: dry
+summary: Quantifies RNA splicing variants and identifies genotype-specific splicing events for association studies.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/nph.17189
+  year: 2021
+  journal: New Phytol
+  first_author: Yu H
+  last_author: Zhang C
+  pmid: '33453070'
+  pmcid: PMC8048671
+  title: Genome-wide discovery of natural variation in pre-mRNA splicing and prioritising causal alternative splicing to salt
+    stress response in rice
+links: {}
+added: '2026-11-21'
+evidence: VaSP quantifies splicing variants from short-read RNA-seq data and discovers genotype-specific splicing events for
+  GWAS.

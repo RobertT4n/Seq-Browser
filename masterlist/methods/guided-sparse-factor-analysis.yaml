@@ -1,0 +1,21 @@
+name: Guided Sparse Factor Analysis
+category: dry
+summary: A factor analysis method identifies gene modules and estimates genetic perturbation effects on individual genes in
+  single-cell CRISPR screens.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.02.13.480282
+  year: 2022
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: X
+  title: A novel Bayesian factor analysis method improves detection of genes and biological processes affected by perturbations
+    in single-cell CRISPR screening
+links: {}
+added: '2026-11-21'
+evidence: GSFA infers latent factors representing co-regulated genes and uses them to infer perturbation effects on individual
+  genes.

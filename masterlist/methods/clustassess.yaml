@@ -1,0 +1,19 @@
+name: ClustAssess
+category: dry
+summary: A suite of tools quantifies the robustness of single-cell clustering within and across methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.01.31.478592
+  year: 2022
+  journal: bioRxiv
+  first_author: Shahsavari
+  last_author: I
+  title: 'ClustAssess: tools for assessing the robustness of single-cell clustering'
+links: {}
+added: '2026-11-21'
+evidence: ClustAssess assesses cluster numbers, similarities across methods and parameter ranges, with case studies including
+  scRNA-seq datasets.

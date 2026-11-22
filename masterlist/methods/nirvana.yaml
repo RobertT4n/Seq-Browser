@@ -1,0 +1,28 @@
+name: NIRVANA
+full_name: nanopore sequencing of isothermal rapid viral amplification for near real-time analysis
+category: wet
+summary: Combines multiplex isothermal amplification and nanopore sequencing for detection and mutation surveillance of respiratory
+  viruses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.medj.2021.03.015
+  year: 2021
+  journal: Med
+  first_author: Bi C
+  last_author: Li M
+  pmid: '33821249'
+  pmcid: PMC8011639
+  title: Simultaneous detection and mutation surveillance of SARS-CoV-2 and multiple respiratory viruses by rapid field-deployable
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: NIRVANA simultaneously detects several respiratory viruses and monitors mutations in up to 96 samples in real time.

@@ -1,0 +1,18 @@
+name: BioRank
+category: dry
+summary: Assesses similarity between single-cell transcriptomes using annotated gene sets and gene ranks.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2019.2931582
+  year: 2021
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Xu Y
+  last_author: Wang J
+  title: A Gene Rank Based Approach for Single Cell Similarity Assessment and Clustering
+links: {}
+added: '2026-11-21'
+evidence: BioRank calculates cell similarities using annotated gene sets and gene ranks for clustering.

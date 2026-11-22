@@ -1,0 +1,20 @@
+name: DEEPsc
+category: dry
+summary: Uses a spatial reference atlas and deep learning to infer spatial information for single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.636743
+  year: 2021
+  journal: Frontiers in Genetics
+  first_author: Maseda F
+  last_author: Nie Q
+  title: 'DEEPsc: A Deep Learning-Based Map Connecting Single-Cell Transcriptomics and Spatial Imaging Data'
+links: {}
+added: '2026-11-21'
+evidence: DEEPsc connects single-cell RNA-seq and spatial imaging datasets by imputing spatial information from a reference
+  atlas.

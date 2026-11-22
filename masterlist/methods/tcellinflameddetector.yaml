@@ -1,0 +1,22 @@
+name: TcellInflamedDetector
+category: dry
+summary: TcellInflamedDetector distinguishes T-cell-inflamed from non-T-cell-inflamed tumour samples using bulk RNA sequencing
+  expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.5808/gi.22005
+  year: 2022
+  journal: Genomics Inform
+  first_author: Yang SD
+  last_author: Park HS
+  pmid: '35399012'
+  pmcid: PMC9001994
+  title: 'TcellInflamedDetector: an R package to distinguish T cell inflamed tumor types from non-T cell inflamed tumor types'
+links: {}
+added: '2026-11-21'
+evidence: The R package distinguishes T-cell-inflamed and non-T-cell-inflamed samples using cancer gene expression data from
+  bulk RNA sequencing.

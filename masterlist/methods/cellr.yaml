@@ -1,0 +1,23 @@
+name: CellR
+category: dry
+summary: CellR estimates cellular composition and cell type-specific expression profiles from bulk RNA-seq using external
+  prior information.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab056
+  year: 2021
+  journal: NAR Genom Bioinform
+  first_author: Doostparast Torshizi A
+  last_author: Wang K
+  pmid: '34169279'
+  pmcid: PMC8219045
+  title: A computational method for direct imputation of cell type-specific expression profiles and cellular compositions
+    from bulk-tissue RNA-Seq in brain disorders
+links: {}
+added: '2026-11-21'
+evidence: CellR uses cell-specific gene markers and a linear programming model to estimate cellular composition and cell type-specific
+  expression.

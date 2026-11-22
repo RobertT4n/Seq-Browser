@@ -1,0 +1,28 @@
+name: rGRIL-seq
+category: wet
+summary: Captures and sequences ligated small RNA–mRNA pairs to identify small RNA regulators of a chosen mRNA.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- proximity-ligation
+- oligo-capture
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1128/mbio.03608-20
+  year: 2021
+  journal: mBio
+  first_author: Han K
+  last_author: Lory S
+  pmid: '33622723'
+  pmcid: PMC8545128
+  title: 'Toward a Comprehensive Analysis of Posttranscriptional Regulatory Networks: a New Tool for the Identification of
+    Small RNA Regulators of Specific mRNAs'
+links: {}
+added: '2026-11-21'
+evidence: Intracellular RNA ligase links base-paired small RNAs and mRNAs, and oligonucleotides complementary to the mRNA
+  capture the chimeras.

@@ -1,0 +1,21 @@
+name: liquidCNA
+category: dry
+summary: liquidCNA tracks tumor subclonal evolution from somatic copy number alterations in longitudinal cell-free DNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2021.102889
+  year: 2021
+  journal: iScience
+  first_author: Lakatos E
+  last_author: Graham TA
+  pmid: '34401670'
+  pmcid: PMC8350516
+  title: 'LiquidCNA: Tracking subclonal evolution from longitudinal liquid biopsies using somatic copy number alterations'
+links: {}
+added: '2026-11-21'
+evidence: liquidCNA uses somatic copy number alterations in low-pass whole-genome sequencing to genotype and quantify the
+  dominant subclone.

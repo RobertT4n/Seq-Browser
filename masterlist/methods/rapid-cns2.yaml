@@ -1,0 +1,33 @@
+name: RAPID-CNS2
+category: wet
+summary: Adaptive nanopore sequencing profiles mutations, copy number, and methylation in CNS tumours using selectable targets.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+validated_system:
+- tissue-in-vivo
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1007/s00401-022-02415-6
+  year: 2022
+  journal: Acta Neuropathol
+  first_author: Patel A
+  last_author: Sahm F
+  pmid: '35357562'
+  pmcid: PMC9038836
+  title: 'Rapid-CNS<sup>2</sup>: rapid comprehensive adaptive nanopore-sequencing of CNS tumors, a proof-of-concept study'
+  preprint_doi: 10.1101/2021.08.09.21261784
+links: {}
+added: '2026-11-21'
+evidence: The pipeline sequenced glioma DNA with adaptive targets comprising a brain tumour panel and selected CpG sites for
+  methylation classification.

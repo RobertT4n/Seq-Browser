@@ -1,0 +1,23 @@
+name: Mal-Seq
+category: wet
+summary: Chemically labels RNA 5-formylcytosine so that it can be identified by sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1021/acschembio.1c00707
+  year: 2022
+  journal: ACS Chem Biol
+  first_author: Li A
+  last_author: Kleiner RE
+  pmid: '35212224'
+  pmcid: PMC9357364
+  title: Chemical Method to Sequence 5-Formylcytosine on RNA
+  preprint_doi: 10.1101/2021.11.23.469780
+links: {}
+added: '2026-11-21'
+evidence: Malononitrile labels RNA 5-formylcytosine residues to produce C-to-T mutations after reverse transcription and amplification.

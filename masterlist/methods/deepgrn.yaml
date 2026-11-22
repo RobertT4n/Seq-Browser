@@ -1,0 +1,20 @@
+name: DeepGRN
+category: dry
+summary: Attention-based deep neural network for predicting transcription factor binding sites across cell types.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03952-1
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Chen C
+  last_author: Cheng J
+  pmid: '33522898'
+  pmcid: PMC7852092
+  title: 'DeepGRN: prediction of transcription factor binding site across cell-types using attention-based deep neural networks'
+links: {}
+added: '2026-11-21'
+evidence: DeepGRN predicts transcription factor binding sites using single and pairwise attention modules.

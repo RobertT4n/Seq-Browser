@@ -1,0 +1,21 @@
+name: PHi-C2
+category: dry
+summary: Converts Hi-C matrices into polymer-model dynamics, structural conformations, and rheological features.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac613
+  year: 2022
+  journal: Bioinformatics
+  first_author: Shinkai S
+  last_author: Onami S
+  pmid: '36087002'
+  pmcid: PMC9620818
+  title: 'PHi-C2: interpreting Hi-C data as the dynamic 3D genome state'
+  preprint_doi: 10.1101/2022.05.06.490994
+links: {}
+added: '2026-11-21'
+evidence: PHi-C2 converts input Hi-C matrix data into polymer dynamics, structural conformations, and rheological features.

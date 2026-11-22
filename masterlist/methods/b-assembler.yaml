@@ -1,0 +1,23 @@
+name: B-assembler
+category: dry
+summary: Assembles circular bacterial genomes using long reads alone or in combination with short reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1186/s12864-022-08577-7
+  year: 2022
+  journal: BMC Genomics
+  first_author: Huang F
+  last_author: Chong Z
+  pmid: '35546658'
+  pmcid: PMC9092672
+  title: 'B-assembler: a circular bacterial genome assembler'
+links: {}
+added: '2026-11-21'
+evidence: B-assembler uses a two-round assembly procedure and optimized error correction to produce circularized bacterial
+  genome assemblies.

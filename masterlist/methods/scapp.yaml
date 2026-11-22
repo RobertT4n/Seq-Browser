@@ -1,0 +1,21 @@
+name: SCAPP
+full_name: Sequence Contents-Aware Plasmid Peeler
+category: dry
+summary: SCAPP assembles plasmid sequences from metagenomic sequencing data using biological knowledge about plasmids.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-021-01068-z
+  year: 2021
+  journal: Microbiome
+  first_author: Pellow D
+  last_author: Shamir R
+  pmid: '34172093'
+  pmcid: PMC8228940
+  title: 'SCAPP: an algorithm for improved plasmid assembly in metagenomes'
+links: {}
+added: '2026-11-21'
+evidence: SCAPP integrates biological knowledge about plasmids to improve plasmid assembly from metagenomic sequencing.

@@ -1,0 +1,23 @@
+name: Phertilizer
+category: dry
+summary: A probabilistic method that infers tumor clonal trees and genotypes from ultra-low-coverage single-cell DNA sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011544
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Weber LL
+  last_author: El-Kebir M
+  pmid: '37819942'
+  pmcid: PMC10593221
+  title: 'Phertilizer: Growing a clonal tree from ultra-low coverage single-cell DNA sequencing of tumors'
+  preprint_doi: 10.1101/2022.04.18.488655
+links: {}
+added: '2026-11-21'
+evidence: The method recursively partitions single-cell DNA sequencing data using evolutionary events and copy number signal
+  to infer clonal structure.

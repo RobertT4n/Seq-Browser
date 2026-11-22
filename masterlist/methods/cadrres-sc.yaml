@@ -1,0 +1,19 @@
+name: CaDRReS-Sc
+category: dry
+summary: Uses single-cell gene-expression signatures and a recommender system to predict clone-specific drug vulnerabilities.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-021-01000-y
+  year: 2021
+  journal: Genome Medicine
+  first_author: Suphavilai C
+  last_author: Nagarajan N
+  title: Predicting heterogeneity in clone-specific therapeutic vulnerabilities using single-cell transcriptomic signatures
+links: {}
+added: '2026-11-21'
+evidence: CaDRReS-Sc uses scRNA-seq and a recommender system to predict drug responses from heterogeneous gene-expression
+  signatures.

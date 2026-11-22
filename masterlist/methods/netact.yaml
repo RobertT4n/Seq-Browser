@@ -1,0 +1,21 @@
+name: NetAct
+category: dry
+summary: Constructs core transcription factor regulatory networks from transcriptomics and transcription factor-target databases.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02835-3
+  year: 2022
+  journal: Genome Biol
+  first_author: Su K
+  last_author: Lu M
+  pmid: '36575445'
+  pmcid: PMC9793520
+  title: 'NetAct: a computational platform to construct core transcription factor regulatory networks using gene activity'
+  preprint_doi: 10.1101/2022.05.06.487898
+links: {}
+added: '2026-11-21'
+evidence: NetAct infers regulator activity from target expression and constructs networks based on transcriptional activity.

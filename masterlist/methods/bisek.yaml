@@ -1,0 +1,20 @@
+name: BiSEK
+full_name: Biological Sequence Expression Kit
+category: dry
+summary: Graphical platform that checks model design against RNA-seq data and analyzes differential gene and pathway expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.02.22.432271
+  year: 2021
+  journal: bioRxiv
+  first_author: Haas R
+  last_author: Lamm AT
+  title: 'BiSEK: a platform for a reliable differential expression analysis'
+links: {}
+added: '2026-11-21'
+evidence: BiSEK tracks discrepancies between data and statistical model design and analyzes differential expression of groups
+  of genes.

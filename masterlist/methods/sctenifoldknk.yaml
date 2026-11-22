@@ -1,0 +1,22 @@
+name: scTenifoldKnk
+category: dry
+summary: Predicts cell-type-specific gene knockout effects using regulatory networks inferred from wild-type single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.patter.2022.100434
+  year: 2022
+  journal: Patterns
+  first_author: Osorio D
+  last_author: Cai JJ
+  title: 'scTenifoldKnk: An efficient virtual knockout tool for gene function predictions via single-cell gene regulatory
+    network perturbation'
+  preprint_doi: 10.1101/2021.03.22.436484
+links: {}
+added: '2026-11-21'
+evidence: scTenifoldKnk performs virtual knockout experiments using wild-type single-cell RNA-seq data without requiring knockout
+  samples.

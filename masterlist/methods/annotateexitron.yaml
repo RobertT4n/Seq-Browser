@@ -1,0 +1,23 @@
+name: AnnotateExitron
+category: dry
+summary: AnnotateExitron annotates exitron splicing events with predicted transcript and protein consequences.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btac626
+  year: 2022
+  journal: Bioinformatics
+  first_author: Fry J
+  last_author: Yang R
+  pmid: '36099042'
+  pmcid: PMC9620817
+  title: 'ScanExitronLR: characterization and quantification of exitron splicing events in long-read RNA-seq data'
+  preprint_doi: 10.1101/2022.03.25.485864
+links: {}
+added: '2026-11-21'
+evidence: AnnotateExitron reports annotations including frameshift type, nonsense-mediated decay status, and Pfam domain interruptions.

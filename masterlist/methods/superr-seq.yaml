@@ -1,0 +1,25 @@
+name: SuPERR-seq
+category: dry
+summary: SuPERR-seq integrates single-cell transcriptomic, proteomic, and receptor information to improve immune-cell clustering
+  and classification.
+readouts:
+- rna
+- protein
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2022.105123
+  year: 2022
+  journal: iScience
+  first_author: Xu C
+  last_author: Ghosn EEB
+  pmid: '36185375'
+  pmcid: PMC9523353
+  title: Comprehensive multi-omics single-cell data integration reveals greater heterogeneity in the human immune system
+  preprint_doi: 10.1101/2021.07.25.453651
+links: {}
+added: '2026-11-21'
+evidence: SuPERR-seq incorporates cell-surface protein and immunoglobulin transcript counts to remove doublets and improve
+  cell-type identification.

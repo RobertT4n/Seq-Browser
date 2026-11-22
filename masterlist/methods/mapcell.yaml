@@ -1,0 +1,22 @@
+name: MapCell
+category: dry
+summary: Learns a cell-type distance metric from scRNA-seq data to transfer annotations across experiments.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fcell.2021.767897
+  year: 2021
+  journal: Front Cell Dev Biol
+  first_author: Koh W
+  last_author: Hoon S
+  pmid: '34796179'
+  pmcid: PMC8593221
+  title: 'MapCell: Learning a Comparative Cell Type Distance Metric With Siamese Neural Nets With Applications Toward Cell-Type
+    Identification Across Experimental Datasets'
+links: {}
+added: '2026-11-21'
+evidence: MapCell uses few-shot training with Siamese neural networks to learn a distance metric for transferring cell-type
+  annotations across scRNA-seq experiments.

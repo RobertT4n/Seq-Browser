@@ -1,0 +1,32 @@
+name: PIC
+full_name: photo-isolation chemistry
+category: wet
+summary: Photo-isolation chemistry profiles transcripts in photo-irradiated regions at spatial, single-cell, and subcellular
+  scales.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-021-24691-8
+  year: 2021
+  journal: Nat Commun
+  first_author: Honda M
+  last_author: Ohkawa Y
+  pmid: '34285220'
+  pmcid: PMC8292322
+  title: High-depth spatial transcriptome analysis by photo-isolation chemistry
+links: {}
+added: '2026-11-21'
+evidence: Photo-caged oligodeoxynucleotides enable in situ reverse transcription in irradiated regions, including single cells
+  and subcellular structures.

@@ -1,0 +1,20 @@
+name: FLAME
+category: dry
+summary: Python package for characterizing full-length RNA splicing using sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2021.02.07.430139
+  year: 2021
+  journal: bioRxiv
+  first_author: Holmqvist I
+  last_author: Tang K
+  title: Epstein-Barr virus long non-coding RNA  <i>RPMS1</i>  full-length spliceome in transformed epithelial tissue
+links: {}
+added: '2026-11-21'
+evidence: FLAME generates high-resolution characterization of full-length RNA splicing and was used to analyze the RPMS1 spliceome.

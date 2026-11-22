@@ -1,0 +1,20 @@
+name: isoMiRmap
+category: dry
+summary: Identifies and quantifies microRNA isoforms directly from short RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab016
+  year: 2021
+  journal: Bioinformatics
+  first_author: Loher P
+  last_author: Rigoutsos I
+  pmid: '33471076'
+  pmcid: PMC8317110
+  title: 'IsoMiRmap: fast, deterministic and exhaustive mining of isomiRs from short RNA-seq datasets'
+links: {}
+added: '2026-11-21'
+evidence: IsoMiRmap deterministically reports and quantifies isomiRs from deep sequencing datasets.

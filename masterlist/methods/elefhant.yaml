@@ -1,0 +1,20 @@
+name: ELeFHAnt
+full_name: Ensemble learning for harmonization and annotation of single cells
+category: dry
+summary: An ensemble learning package that annotates single cells and harmonizes labels across reference datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.09.07.459342
+  year: 2021
+  journal: bioRxiv
+  first_author: Thorner K
+  last_author: Chaturvedi P
+  title: 'ELeFHAnt: A supervised machine learning approach for label harmonization and annotation of single cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: ELeFHAnt uses support vector machines and random forests for cell type annotation, label harmonization, and comparison
+  of annotations.

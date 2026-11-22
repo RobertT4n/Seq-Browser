@@ -1,0 +1,20 @@
+name: CCPE
+full_name: Cell Cycle Pseudotime Estimation
+category: dry
+summary: Estimates cell cycle pseudotime and phases from single-cell RNA-seq data using a discriminative helix.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1236
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Liu J
+  last_author: Zhou X
+  title: 'CCPE: cell cycle pseudotime estimation for single cell RNA-seq data'
+  preprint_doi: 10.1101/2021.06.13.448263
+links: {}
+added: '2026-11-21'
+evidence: CCPE uses a discriminative helix to characterize the circular cell cycle and estimate pseudotime.

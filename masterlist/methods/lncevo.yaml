@@ -1,0 +1,21 @@
+name: lncEvo
+category: dry
+summary: Pipeline for assembling transcriptomes, predicting long noncoding RNAs and studying their conservation between species.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-03991-2
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Bryzghalov O
+  last_author: Szcześniak MW
+  pmid: '33563213'
+  pmcid: PMC7871587
+  title: 'lncEvo: automated identification and conservation study of long noncoding RNAs'
+links: {}
+added: '2026-11-21'
+evidence: lncEvo combines RNA-seq transcriptome assembly, lncRNA prediction and genome-wide comparison of lncRNA transcriptomes
+  between species.

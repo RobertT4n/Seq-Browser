@@ -1,0 +1,22 @@
+name: PhyloHerb
+category: dry
+summary: A phylogenomic pipeline extracts orthologous sequences from genome skimming data and prepares datasets for phylogeny
+  inference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/aps3.11475
+  year: 2022
+  journal: Appl Plant Sci
+  first_author: Cai L
+  last_author: Davis CC
+  pmid: '35774988'
+  pmcid: PMC9215275
+  title: 'PhyloHerb: A high-throughput phylogenomic pipeline for processing genome skimming data'
+links: {}
+added: '2026-11-21'
+evidence: PhyloHerb extracts orthologous sequences from plastid, mitochondrial and nuclear genomes and provides utilities
+  for phylogeny inference.

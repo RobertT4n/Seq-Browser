@@ -1,0 +1,21 @@
+name: Monorail
+category: dry
+summary: Uniformly processes RNA-seq datasets to produce expression and splicing summaries that can be compared with recount3
+  studies.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02533-6
+  year: 2021
+  journal: Genome Biology
+  first_author: Wilks C
+  last_author: Langmead B
+  title: 'recount3: summaries and queries for large-scale RNA-seq expression and splicing'
+  preprint_doi: 10.1101/2021.05.21.445138
+links: {}
+added: '2026-11-21'
+evidence: Monorail uniformly processed over 750,000 public human and mouse RNA-seq samples and can also process local or private
+  data.

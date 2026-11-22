@@ -1,0 +1,21 @@
+name: ASpli
+category: dry
+summary: An RNA-seq analysis suite that identifies changes in annotated and novel alternative splicing events across experimental
+  designs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab141
+  year: 2021
+  journal: Bioinformatics
+  first_author: Mancini E
+  last_author: Chernomoretz A
+  pmid: '33677494'
+  title: 'ASpli: integrative analysis of splicing landscapes through RNA-Seq assays'
+links: {}
+added: '2026-11-21'
+evidence: ASpli combines signals from reads and junctions to identify changes in annotated and novel splicing events in simple,
+  multifactor, or paired designs.

@@ -1,0 +1,21 @@
+name: T cell ExTRECT
+full_name: T cell exome TREC tool
+category: dry
+summary: A method that estimates T cell fraction from whole-exome sequencing using T cell receptor excision circle loss.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-021-03894-5
+  year: 2021
+  journal: Nature
+  first_author: Bentham R
+  last_author: McGranahan N
+  pmid: '34497419'
+  title: Using DNA sequencing data to quantify T cell fraction and therapy response
+links: {}
+added: '2026-11-21'
+evidence: T cell ExTRECT estimates T cell fraction in whole-exome sequencing samples from the signal of T cell receptor excision
+  circle loss.

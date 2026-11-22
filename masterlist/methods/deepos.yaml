@@ -1,0 +1,18 @@
+name: DeepOS
+category: dry
+summary: Predicts overall survival across cancer types from RNA-seq data using a deep learning model.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.07.10.21260300
+  year: 2021
+  journal: medRxiv
+  first_author: Pavageau M
+  last_author: Verlingue L
+  title: 'DeepOS: pan-cancer prognosis estimation from RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: DeepOS predicts overall survival from pan-cancer RNA-seq data across 33 TCGA tumor types.

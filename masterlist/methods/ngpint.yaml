@@ -1,0 +1,20 @@
+name: NGPINT
+category: dry
+summary: Identifies putative protein interactors from sequencing-based yeast-two-hybrid assays.
+readouts:
+- protein-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa351
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Banerjee S
+  last_author: Wise RP
+  pmid: '33367498'
+  title: 'NGPINT: a next-generation protein-protein interaction software'
+links: {}
+added: '2026-11-21'
+evidence: NGPINT aligns reads, reconstructs prey fragments, and evaluates fusion reads to identify putative interactors in
+  batch yeast-two-hybrid data.

@@ -1,0 +1,21 @@
+name: elPrep 5
+category: dry
+summary: Parallelized pipeline for processing sequencing alignments and calling genomic variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0244471
+  year: 2021
+  journal: PLoS One
+  first_author: Herzeel C
+  last_author: Verachtert W
+  pmid: '33539352'
+  pmcid: PMC7861424
+  title: Multithreaded variant calling in elPrep 5
+links: {}
+added: '2026-11-21'
+evidence: elPrep 5 runs duplicate marking, sorting, base quality score recalibration and haplotype-based variant calling on
+  whole-exome and whole-genome data.

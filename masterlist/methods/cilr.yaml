@@ -1,0 +1,20 @@
+name: cILR
+category: dry
+summary: A log-ratio method produces sample-specific enrichment scores for sets of microbiome taxa.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010091
+  year: 2022
+  journal: PLOS Computational Biology
+  first_author: Nguyen QP
+  last_author: Frost HR
+  title: 'CBEA: Competitive balances for taxonomic enrichment analysis'
+  preprint_doi: 10.1101/2021.09.07.459294
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes a single-sample taxon enrichment method based on a competitive log-ratio formulation for
+  sequencing-derived taxonomic count tables.

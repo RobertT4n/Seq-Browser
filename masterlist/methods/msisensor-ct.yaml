@@ -1,0 +1,18 @@
+name: MSIsensor-ct
+category: dry
+summary: A machine-learning tool detects microsatellite instability status from circulating cell-free DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa402
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Han X
+  last_author: Niu B
+  title: 'MSIsensor-ct: microsatellite instability detection using cfDNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: MSIsensor-ct detects MSI status using cfDNA sequencing data and requires BAM files as input.

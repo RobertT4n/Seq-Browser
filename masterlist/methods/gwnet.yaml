@@ -1,0 +1,22 @@
+name: GWNet
+category: dry
+summary: Uses graph wavelet filters to improve gene regulatory network inference from single-cell expression profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa360
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Mishra S
+  last_author: Kumar V
+  pmid: '33381809'
+  pmcid: PMC7799288
+  title: Improving gene network inference with graph wavelets and making insights about ageing-associated regulatory changes
+    in lungs
+links: {}
+added: '2026-11-21'
+evidence: GWNet improved consistency of gene regulatory network predictions from single-cell transcriptomes in the presence
+  of batch effects.

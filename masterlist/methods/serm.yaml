@@ -1,0 +1,20 @@
+name: SERM
+full_name: self-consistent expression recovery machine
+category: dry
+summary: Imputes missing single-cell gene expression using a deep-learning framework with a self-consistency constraint.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.01.18.476789
+  year: 2022
+  journal: bioRxiv
+  first_author: Islam
+  last_author: L
+  title: 'SERM: a self-consistent deep learning solution forrapid and accurate gene expression recovery'
+links: {}
+added: '2026-11-21'
+evidence: SERM learns from noisy expression data and uses self-consistency across the expression matrix to recover missing
+  expression.

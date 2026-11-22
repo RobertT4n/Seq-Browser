@@ -1,0 +1,19 @@
+name: VeloAE
+category: dry
+summary: Learns a low-dimensional representation of RNA velocity to estimate cell transitions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2105859118
+  year: 2021
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Qiao C
+  last_author: Huang Y
+  title: Representation learning of RNA velocity reveals robust cell transitions
+  preprint_doi: 10.1101/2021.03.19.436127
+links: {}
+added: '2026-11-21'
+evidence: VeloAE learns a low-dimensional RNA velocity representation on which cell transitions can be estimated.

@@ -1,0 +1,20 @@
+name: IPAFinder
+category: dry
+summary: A method identifies intronic polyadenylation sites and their dynamic changes from standard RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.271627.120
+  year: 2021
+  journal: Genome Research
+  first_author: Zhao Z
+  last_author: Ni T
+  title: Cancer-associated dynamics and potential regulators of intronic polyadenylation revealed by IPAFinder using standard
+    RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: IPAFinder enables de novo identification and characterization of intronic polyadenylation from standard RNA-seq
+  data.

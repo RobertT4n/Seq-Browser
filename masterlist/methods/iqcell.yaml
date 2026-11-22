@@ -1,0 +1,22 @@
+name: IQCELL
+category: dry
+summary: Infers and simulates executable gene regulatory networks from single-cell RNA-seq data to study developmental trajectories
+  and perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009907
+  year: 2022
+  journal: PLOS Computational Biology
+  first_author: Heydari T
+  last_author: Zandstra PW
+  title: 'IQCELL: A platform for predicting the effect of gene perturbations on developmental trajectories using single-cell
+    RNA-seq data'
+  preprint_doi: 10.1101/2021.04.01.438014
+links: {}
+added: '2026-11-21'
+evidence: Dynamic simulations of the inferred network qualitatively recapitulated known gene perturbation effects on mouse
+  T-cell development.

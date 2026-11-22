@@ -1,0 +1,19 @@
+name: UVC
+category: dry
+summary: Calls small germline and somatic variants while modeling sequencing biases using Bayes-factor-adjusted odds ratios.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab458
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Zhao X
+  last_author: Wang X
+  title: Calling small variants using universality with Bayes-factor-adjusted odds ratios
+links: {}
+added: '2026-11-21'
+evidence: UVC calls small variants of germline or somatic origin and models sequencing biases with Bayes-factor-adjusted odds
+  ratios.

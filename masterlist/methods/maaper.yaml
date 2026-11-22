@@ -1,0 +1,22 @@
+name: MAAPER
+full_name: model-based analysis of alternative polyadenylation using 3 end-linked reads
+category: dry
+summary: Predicts polyadenylation sites and analyzes alternative polyadenylation from reads near those sites.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02429-5
+  year: 2021
+  journal: Genome Biology
+  first_author: Li WV
+  last_author: Tian B
+  title: 'MAAPER: model-based analysis of alternative polyadenylation using 3′ end-linked reads'
+  preprint_doi: 10.1101/2021.03.21.436343
+links: {}
+added: '2026-11-21'
+evidence: MAAPER uses a probabilistic model to predict polyadenylation sites from nearSite reads and analyze alternative polyadenylation
+  events.

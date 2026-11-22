@@ -1,0 +1,27 @@
+name: REAP
+full_name: Rapid Extracellular Antigen Profiling
+category: wet
+summary: Identifies autoantibody targets using a barcoded yeast-displayed extracellular protein library and sequencing.
+readouts:
+- receptor-ligand
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.crmeth.2022.100172
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Wang EY
+  last_author: Ring AM
+  pmid: '35360706'
+  pmcid: PMC8967185
+  title: High-throughput identification of autoantibodies that target the human exoproteome
+  preprint_doi: 10.1101/2021.02.11.430703
+links: {}
+added: '2026-11-21'
+evidence: Patient samples are applied to a barcoded library of 2,688 human extracellular proteins, and sequencing identifies
+  antibody-bound antigens.

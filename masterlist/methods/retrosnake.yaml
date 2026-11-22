@@ -1,0 +1,20 @@
+name: RetroSnake
+category: dry
+summary: A modular pipeline for discovering and annotating human endogenous retrovirus insertions in short-read sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.04.08.487607
+  year: 2022
+  journal: bioRxiv
+  first_author: Kabiljo R
+  last_author: Iacoangeli A
+  title: 'RetroSnake: a Modular End-to-End Pipeline for Detection of Human Endogenous Retrovirus (HERV) Transposable Elements
+    in Next Generation Sequencing (NGS) Data'
+links: {}
+added: '2026-11-21'
+evidence: RetroSnake is an end-to-end pipeline for HERV discovery in short-read NGS data that produces annotated insertions.

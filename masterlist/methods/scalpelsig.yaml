@@ -1,0 +1,19 @@
+name: ScalpelSig
+category: dry
+summary: Designs targeted genomic panels optimized to detect specified mutational signatures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1089/cmb.2021.0453
+  year: 2022
+  journal: Journal of Computational Biology
+  first_author: Franzese N
+  last_author: Leiserson MD
+  title: "<scp>ScalpelSig</scp>\n                    Designs Targeted Genomic Panels from Data to Detect Activity of Mutational\
+    \ Signatures"
+links: {}
+added: '2026-11-21'
+evidence: ScalpelSig learns from genomic data to select regions indicative of a given mutational signature.

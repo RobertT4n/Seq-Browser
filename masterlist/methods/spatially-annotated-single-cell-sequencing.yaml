@@ -1,0 +1,25 @@
+name: spatially annotated single cell sequencing
+category: wet
+summary: Spatially annotates cells for deep single-cell RNA sequencing using the FUNseq technique.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.3389/fbioe.2022.829509
+  year: 2022
+  journal: Front Bioeng Biotechnol
+  first_author: Smit MM
+  last_author: Chien MP
+  pmid: '35273957'
+  pmcid: PMC8902076
+  title: Spatially Annotated Single Cell Sequencing for Unraveling Intratumor Heterogeneity
+links: {}
+added: '2026-11-21'
+evidence: The authors profiled cells in concentric bands at different distances from the center of a two-dimensional epithelial
+  cell mass.

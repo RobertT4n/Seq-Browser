@@ -1,0 +1,21 @@
+name: CliPP
+full_name: Clonal structure identification through Pairwise Penalization
+category: dry
+summary: Reconstructs tumor subclonal architecture from bulk DNA sequencing using penalized likelihood.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.03.31.437383
+  year: 2021
+  journal: bioRxiv
+  first_author: Jiang
+  last_author: W
+  title: 'CliP: subclonal architecture reconstruction of cancer cells in DNA sequencing data using a penalized likelihood
+    model'
+links: {}
+added: '2026-11-21'
+evidence: CliPP estimates mutation cellular prevalence and clusters compatible estimates without prespecifying the number
+  of clusters.

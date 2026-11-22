@@ -1,0 +1,23 @@
+name: scAAnet
+category: dry
+summary: A nonlinear archetypal analysis autoencoder that identifies gene expression programs and their relative activities
+  across single cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010025
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Wang Y
+  last_author: Zhao H
+  pmid: '35363784'
+  pmcid: PMC9007392
+  title: Non-linear archetypal analysis of single-cell RNA-seq data by deep autoencoders
+  preprint_doi: 10.1101/2021.09.17.460824
+links: {}
+added: '2026-11-21'
+evidence: scAAnet uses an autoencoder with an archetypal constraint to identify gene expression programs and infer their activity
+  across cells.

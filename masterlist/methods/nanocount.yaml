@@ -1,0 +1,23 @@
+name: NanoCount
+category: dry
+summary: NanoCount quantifies transcript isoform expression from nanopore direct RNA sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkab1129
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Gleeson J
+  last_author: Clark MB
+  pmid: '34850115'
+  pmcid: PMC8886870
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+links: {}
+added: '2026-11-21'
+evidence: NanoCount was developed for fast, accurate transcript isoform quantification in direct RNA sequencing.

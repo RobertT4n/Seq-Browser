@@ -1,0 +1,24 @@
+name: BANKSY
+category: dry
+summary: A spatial omics algorithm that combines cell and neighborhood transcriptomes to cluster cell types and segment tissue
+  domains.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-024-01664-3
+  year: 2024
+  journal: Nat Genet
+  first_author: Singhal V
+  last_author: Prabhakar S
+  pmid: '38413725'
+  pmcid: PMC10937399
+  title: BANKSY unifies cell typing and tissue domain segmentation for scalable spatial omics data analysis
+  preprint_doi: 10.1101/2022.04.14.488259
+links: {}
+added: '2026-11-21'
+evidence: BANKSY constructs a product space of cell and neighborhood transcriptomes and was tested on FISH-based and sequencing-based
+  spatial omics data.

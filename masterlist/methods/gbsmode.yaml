@@ -1,0 +1,19 @@
+name: GBSmode
+category: dry
+summary: A genotyping-by-sequencing pipeline that calls DNA variants using whole-read information and population features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2021.09.20.461130
+  year: 2021
+  journal: bioRxiv
+  first_author: Yates S
+  last_author: Studer B
+  title: 'GBSmode: a pipeline for haplotype-aware analysis of genotyping-by-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: GBSmode calls variants from genotyping-by-sequencing reads and filters false positives using ploidy and possible
+  allele counts.

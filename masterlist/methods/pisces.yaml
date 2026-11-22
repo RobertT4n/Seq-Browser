@@ -1,0 +1,21 @@
+name: PISCES
+full_name: Pipeline for the Systematic, Protein Activity-based Analysis of Single Cell RNA Sequencing Data
+category: dry
+summary: Infers regulatory and signaling protein activity from single-cell gene expression to identify cell states and their
+  regulators.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.05.20.445002
+  year: 2021
+  journal: bioRxiv
+  first_author: Vlahos
+  last_author: A
+  title: 'PISCES: A pipeline for the Systematic, Protein Activity-based Analysis of Single Cell RNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: PISCES estimates regulatory and signaling protein contributions to cell states from expression of their lineage-specific
+  transcriptional targets.

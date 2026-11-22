@@ -1,0 +1,19 @@
+name: CellPhy
+category: dry
+summary: Infers single-cell phylogenetic trees from somatic single-nucleotide variants while modeling sequencing errors.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-021-02583-w
+  year: 2022
+  journal: Genome Biology
+  first_author: Kozlov A
+  last_author: Posada D
+  title: 'CellPhy: accurate and fast probabilistic inference of single-cell phylogenies from scDNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: CellPhy infers phylogenetic trees from somatic single-cell variants while accounting for amplification error and
+  allelic dropout.

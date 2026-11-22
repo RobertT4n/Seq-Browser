@@ -1,0 +1,25 @@
+name: CCDA-seq
+full_name: sequencing of enzyme-accessible chromatin in circular DNA
+category: wet
+summary: Labels accessible chromatin and enriches extrachromosomal circular DNA for single-molecule nanopore sequencing.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2021.03.31.437970
+  year: 2021
+  journal: bioRxiv
+  first_author: Chen W
+  last_author: Tang C
+  title: Sequencing of methylase-accessible regions in integral circular extrachromosomal DNA reveals differences in chromatin
+    structure
+links: {}
+added: '2026-11-21'
+evidence: Methylase labels open chromatin without fragmentation, and exonuclease enriches ecDNA before nanopore sequencing.

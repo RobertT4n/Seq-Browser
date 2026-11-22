@@ -1,0 +1,23 @@
+name: noisyR
+category: dry
+summary: A noise filter that derives sample-specific thresholds and filtered expression matrices to reduce technical variation
+  in sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab433
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Moutsopoulos I
+  last_author: Mohorianu II
+  pmid: '34076236'
+  pmcid: PMC8373073
+  title: 'noisyR: enhancing biological signal in sequencing datasets by characterizing random technical noise'
+links: {}
+added: '2026-11-21'
+evidence: noisyR outputs sample-specific signal-to-noise thresholds and filtered expression matrices and was applied to bulk
+  and single-cell sequencing datasets.

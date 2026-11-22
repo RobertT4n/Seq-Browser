@@ -1,0 +1,24 @@
+name: CARD
+full_name: conditional autoregressive-based deconvolution
+category: dry
+summary: A spatially informed deconvolution method estimates cell-type composition and imputes expression at unmeasured tissue
+  locations.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01273-7
+  year: 2022
+  journal: Nat Biotechnol
+  first_author: Ma Y
+  last_author: Zhou X
+  pmid: '35501392'
+  pmcid: PMC9464662
+  title: Spatially informed cell-type deconvolution for spatial transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: CARD combines cell-type-specific expression from single-cell RNA sequencing with spatial correlation in cell-type
+  composition.

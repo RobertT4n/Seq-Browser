@@ -1,0 +1,21 @@
+name: SMAGLinker
+category: dry
+summary: Integrates single-cell amplified genomes with metagenome-assembled genomes to reconstruct strain-resolved microbial
+  genomes.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-021-01152-4
+  year: 2021
+  journal: Microbiome
+  first_author: Arikawa K
+  last_author: Hosokawa M
+  title: Recovery of strain-resolved genomes from human microbiome through an integration framework of single-cell genomics
+    and metagenomics
+links: {}
+added: '2026-11-21'
+evidence: SMAGLinker uses single-cell amplified genomes as binning guides and integrates them with metagenome-assembled genomes.

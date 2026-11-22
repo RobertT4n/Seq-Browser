@@ -1,0 +1,19 @@
+name: ChIPflow
+category: dry
+summary: Processes ChIP-seq data from raw reads through quality control, peak calling, and differential analysis.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.02.02.429342
+  year: 2021
+  journal: bioRxiv
+  first_author: Daunesse
+  last_author: C
+  title: 'ChIPuana: from raw data to epigenomic dynamics'
+links: {}
+added: '2026-11-21'
+evidence: ChIPflow analyzes chromatin factors profiled by ChIP-seq, including histone modifications and transcription factors.

@@ -1,0 +1,27 @@
+name: Biop-C
+category: wet
+summary: A modified in situ Hi-C method profiles three-dimensional genome organization in solid cancer needle biopsies.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.3389/fgene.2021.673530
+  year: 2021
+  journal: Front Genet
+  first_author: Animesh S
+  last_author: Fullwood MJ
+  pmid: '34539729'
+  pmcid: PMC8446523
+  title: Profiling of 3D Genome Organization in Nasopharyngeal Cancer Needle Biopsy Patient Samples by a Modified Hi-C Approach
+links: {}
+added: '2026-11-21'
+evidence: Biop-C was applied to three nasopharyngeal cancer needle biopsies to identify domains, chromatin loops, and frequently
+  interacting regions.

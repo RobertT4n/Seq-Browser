@@ -1,0 +1,20 @@
+name: eDICE
+category: dry
+summary: An attention-based deep-learning model imputes epigenomic tracks, including individual- and cell-type-specific patterns.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-40211-2
+  year: 2023
+  journal: Nature Communications
+  first_author: Hawkins-Hooker A
+  last_author: Schweikert G
+  title: 'Getting personal with epigenetics: towards individual-specific epigenomic imputation with machine learning'
+  preprint_doi: 10.1101/2022.02.11.479115
+links: {}
+added: '2026-11-21'
+evidence: eDICE imputes epigenomic tracks and predicted individual- and cell-type-specific epigenetic patterns in a proof
+  of concept.

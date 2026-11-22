@@ -1,0 +1,22 @@
+name: WLL
+full_name: weighted locally linear
+category: dry
+summary: Clusters cells in single-cell multi-omics datasets using spectral analysis of multilayer graphs.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac378
+  year: 2022
+  journal: Bioinformatics
+  first_author: Zhang S
+  last_author: Song JS
+  title: Spectral clustering of single-cell multi-omics data on multilayer graphs
+  preprint_doi: 10.1101/2022.01.24.477443
+links: {}
+added: '2026-11-21'
+evidence: The weighted locally linear method clusters multi-omic single-cell sequencing data and was applied to a CITE-seq
+  dataset.

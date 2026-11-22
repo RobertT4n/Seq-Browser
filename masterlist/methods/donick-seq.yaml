@@ -1,0 +1,31 @@
+name: DoNick-seq
+category: wet
+summary: Uses re-engineered constructs for pooled single-cell CRISPR screening to profile genomic perturbations and transcriptomes
+  in the same cells.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1007/s10565-021-09586-0
+  year: 2022
+  journal: Cell Biol Toxicol
+  first_author: Tang Y
+  last_author: Tan B
+  pmid: '33586084'
+  title: Advanced single-cell pooled CRISPR screening identifies C19orf53 required for cell proliferation based on mTORC1
+    regulators
+links: {}
+added: '2026-11-21'
+evidence: DoNick-seq obtained genomic perturbation and transcriptome profiles from the same cells and analyzed more than 20,000
+  cells from two cell lines.
+throughput: 1e4-1e5

@@ -1,0 +1,28 @@
+name: MAESTRO
+full_name: minor-allele-enriched sequencing through recognition oligonucleotides
+category: wet
+summary: Enriches thousands of selected low-frequency mutations for accurate tracking by duplex sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41551-022-00855-9
+  year: 2022
+  journal: Nat Biomed Eng
+  first_author: Gydush G
+  last_author: Adalsteinsson VA
+  pmid: '35301450'
+  pmcid: PMC9089460
+  title: Massively parallel enrichment of low-frequency alleles enables duplex sequencing at low depth
+links: {}
+added: '2026-11-21'
+evidence: MAESTRO combines mutation enrichment with duplex sequencing to track up to 10,000 low-frequency mutations.

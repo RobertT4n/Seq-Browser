@@ -1,0 +1,20 @@
+name: MuTrans
+category: dry
+summary: Infers cell-state transitions and trajectory likelihoods from snapshot single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-25548-w
+  year: 2021
+  journal: Nature Communications
+  first_author: Zhou P
+  last_author: Nie Q
+  title: Dissecting transition cells from single-cell transcriptome data through multiscale stochastic dynamics
+  preprint_doi: 10.1101/2021.03.07.434281
+links: {}
+added: '2026-11-21'
+evidence: MuTrans constructs a cell-fate dynamical manifold, distinguishes transition cells, and quantifies possible trajectories
+  between states.

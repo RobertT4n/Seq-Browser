@@ -1,0 +1,21 @@
+name: RENANO
+category: dry
+summary: Losslessly compresses nanopore FASTQ files using a reference genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btab437
+  year: 2021
+  journal: Bioinformatics
+  first_author: Dufort y Álvarez G
+  last_author: Martín Á
+  title: 'RENANO: a REference-based compressor for NANOpore FASTQ files'
+links: {}
+added: '2026-11-21'
+evidence: RENANO is a reference-based lossless compressor tailored to nanopore FASTQ files.

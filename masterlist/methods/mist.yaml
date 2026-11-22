@@ -1,0 +1,22 @@
+name: MIST
+full_name: metagenomic intra-species typing
+category: dry
+summary: MIST estimates strain-level microbial composition from metagenomic sequencing data.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac004
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Ruan Z
+  last_author: Feng Y
+  pmid: '35108376'
+  title: Toward accurate diagnosis and surveillance of bacterial infections using enhanced strain-level metagenomic next-generation
+    sequencing of infected body fluids
+links: {}
+added: '2026-11-21'
+evidence: MIST organizes reference genomes by average nucleotide identity and estimates strain-level compositional abundance.

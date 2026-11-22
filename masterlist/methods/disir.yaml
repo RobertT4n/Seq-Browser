@@ -1,0 +1,19 @@
+name: DiSiR
+category: dry
+summary: DiSiR infers ligand-receptor interactions at subunit level from single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.03.25.485741
+  year: 2022
+  journal: bioRxiv
+  first_author: Vahid MR
+  last_author: Savova V
+  title: 'DiSiR: a software framework to identify ligand-receptor interactions at subunit level from single-cell RNA-sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: DiSiR analyzes signaling pathways of multi-subunit ligand-activated receptors from scRNA-seq data.

@@ -1,0 +1,30 @@
+name: ONT-cappable-seq
+category: wet
+summary: Sequences primary prokaryotic transcripts end to end using nanopore sequencing to map transcript boundaries and operon
+  structures.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.csbj.2022.05.034
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Putzeys L
+  last_author: Lavigne R
+  pmid: '35685363'
+  pmcid: PMC9163698
+  title: Development of ONT-cappable-seq to unravel the transcriptional landscape of <i>Pseudomonas</i> phages
+  preprint_doi: 10.1101/2022.03.18.484859
+links: {}
+added: '2026-11-21'
+evidence: ONT-cappable-seq produced a genome-wide map of transcription start sites, terminators, and operon structures in
+  a Pseudomonas phage.

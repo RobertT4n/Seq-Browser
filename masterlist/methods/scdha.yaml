@@ -1,0 +1,22 @@
+name: scDHA
+full_name: single-cell Decomposition using Hierarchical Autoencoder
+category: dry
+summary: Hierarchical autoencoder framework for extracting low-dimensional representations from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-21312-2
+  year: 2021
+  journal: Nat Commun
+  first_author: Tran D
+  last_author: Nguyen T
+  pmid: '33589635'
+  pmcid: PMC7884436
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+links: {}
+added: '2026-11-21'
+evidence: scDHA combines a non-negative kernel autoencoder and a stacked Bayesian autoencoder for single-cell analyses including
+  clustering and visualization.

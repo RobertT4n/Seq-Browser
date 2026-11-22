@@ -1,0 +1,22 @@
+name: TCRpower
+category: dry
+summary: TCRpower estimates the statistical detection power of T-cell receptor sequencing methods.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbab566
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Dahal-Koirala S
+  last_author: Sandve GK
+  pmid: '35062022'
+  pmcid: PMC8921636
+  title: 'TCRpower: quantifying the detection power of T-cell receptor sequencing with a novel computational pipeline calibrated
+    by spike-in sequences'
+links: {}
+added: '2026-11-21'
+evidence: TCRpower calculates the probability of detecting a TCR sequence from its frequency, sample count, sequencing depth,
+  and read cutoff.

@@ -1,0 +1,27 @@
+name: HiTS
+full_name: high-throughput split-protein profiling
+category: wet
+summary: Uses transposon mutagenesis and regulated protein interactions to identify functional split positions in proteins
+  by deep sequencing.
+readouts:
+- functional-screen
+resolution:
+- bulk
+perturbation:
+- transposon-insertion
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.ijbiomac.2022.01.173
+  year: 2022
+  journal: Int J Biol Macromol
+  first_author: Zhou K
+  last_author: Zhan J
+  pmid: '35120933'
+  title: High-throughput split-protein profiling by combining transposon mutagenesis and regulated protein-protein interactions
+    with deep sequencing
+links: {}
+added: '2026-11-21'
+evidence: HiTS profiles self- and assisted-complementary positions using transposon mutagenesis, a rapamycin-regulated interaction
+  pair, and deep sequencing.

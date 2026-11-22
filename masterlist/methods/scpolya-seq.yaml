@@ -1,0 +1,28 @@
+name: scPolyA-seq
+full_name: single cell polyadenylation sequencing
+category: wet
+summary: Sequences transcript 3-prime ends to map alternative polyadenylation site use in individual cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+reference:
+  doi: 10.1073/pnas.2113504119
+  year: 2022
+  journal: Proc Natl Acad Sci U S A
+  first_author: Wang J
+  last_author: Jin W
+  pmid: '36454750'
+  pmcid: PMC9894249
+  title: Comprehensive mapping of alternative polyadenylation site usage and its dynamics at single-cell resolution
+  preprint_doi: 10.1101/2021.12.02.471022
+links: {}
+added: '2026-11-21'
+evidence: The strand-specific approach was used to analyze polyadenylation site usage in several cell lines at single-cell
+  resolution.

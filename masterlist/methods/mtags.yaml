@@ -1,0 +1,19 @@
+name: mTAGs
+category: dry
+summary: Profiles microbial community taxonomy by aligning metagenomic reads to degenerate consensus ribosomal RNA gene references.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btab465
+  year: 2021
+  journal: Bioinformatics
+  first_author: Salazar G
+  last_author: Sunagawa S
+  title: 'mTAGs: taxonomic profiling using degenerate consensus reference sequences of ribosomal RNA genes'
+links: {}
+added: '2026-11-21'
+evidence: mTAGs aligns metagenomic reads to small subunit ribosomal RNA gene references and reports relative abundance at
+  multiple taxonomic ranks.

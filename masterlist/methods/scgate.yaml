@@ -1,0 +1,20 @@
+name: scGate
+category: dry
+summary: Purifies cell populations from heterogeneous single-cell RNA-seq datasets using hierarchical marker sets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac141
+  year: 2022
+  journal: Bioinformatics
+  first_author: Andreatta M
+  last_author: Carmona SJ
+  title: 'scGate: marker-based purification of cell types from heterogeneous single-cell RNA-seq datasets'
+  preprint_doi: 10.1101/2021.11.08.467740
+links: {}
+added: '2026-11-21'
+evidence: scGate uses hierarchically organized markers to purify specific cell populations without training data or reference
+  profiles.

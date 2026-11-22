@@ -1,0 +1,21 @@
+name: PEPMAN
+full_name: polymerase II elongation pausing modeling through attention-based deep neural network
+category: dry
+summary: Deep-learning model that predicts RNA polymerase II pausing sites using native elongating transcript sequencing data.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2007450118
+  year: 2021
+  journal: Proc Natl Acad Sci U S A
+  first_author: Feng P
+  last_author: Zeng J
+  pmid: '33526657'
+  pmcid: PMC8017690
+  title: A machine learning-based framework for modeling transcription elongation
+links: {}
+added: '2026-11-21'
+evidence: PEPMAN predicts Pol II pausing sites based on NET-seq data and identifies sequence features underlying pausing.

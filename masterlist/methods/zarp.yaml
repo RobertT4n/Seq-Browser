@@ -1,0 +1,18 @@
+name: ZARP
+category: dry
+summary: Provides a general-purpose automated workflow for processing and analyzing RNA-seq datasets.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.18.469017
+  year: 2021
+  journal: bioRxiv
+  first_author: Katsantoni M
+  last_author: Kanitz A
+  title: 'ZARP: An automated workflow for processing of RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: ZARP is a Snakemake workflow that brings together existing software to facilitate RNA-seq analysis.

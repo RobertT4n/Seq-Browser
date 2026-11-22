@@ -1,0 +1,23 @@
+name: scREG
+category: dry
+summary: A dimensionality reduction method uses single-cell gene expression and chromatin accessibility to construct subpopulation-specific
+  cis-regulatory networks.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02682-2
+  year: 2022
+  journal: Genome Biol
+  first_author: Duren Z
+  last_author: Wong WH
+  pmid: '35578363'
+  pmcid: PMC9109353
+  title: Regulatory analysis of single cell multiome gene expression and chromatin accessibility data with scREG
+links: {}
+added: '2026-11-21'
+evidence: scREG uses cis-regulatory potential for dimension reduction and construction of subpopulation-specific cis-regulatory
+  networks from single-cell multiome data.

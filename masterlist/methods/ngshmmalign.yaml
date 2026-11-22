@@ -1,0 +1,21 @@
+name: ngshmmalign
+category: dry
+summary: Aligns sequencing reads from small, highly diverse viral genomes using profile hidden Markov models.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab015
+  year: 2021
+  journal: Bioinformatics
+  first_author: Posada-Céspedes S
+  last_author: Beerenwinkel N
+  pmid: '33471068'
+  pmcid: PMC8289377
+  title: 'V-pipe: a computational pipeline for assessing viral genetic diversity from high-throughput data'
+links: {}
+added: '2026-11-21'
+evidence: ngshmmalign is a profile hidden Markov model method tailored to high-quality alignment of small and highly diverse
+  viral genomes.

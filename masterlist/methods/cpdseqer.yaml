@@ -1,0 +1,19 @@
+name: CPDSeqer
+category: dry
+summary: Processes and analyzes CPD-Seq data to study UV-induced DNA damage across genomes or selected regions.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41596-021-00496-3
+  year: 2021
+  journal: Nature Protocols
+  first_author: Sheng Q
+  last_author: Guo Y
+  title: A streamlined solution for processing, elucidating and quality control of cyclobutane pyrimidine dimer sequencing
+    data
+links: {}
+added: '2026-11-21'
+evidence: CPDSeqer supports single- and multiple-sample CPD-Seq processing and genome-wide or regional analyses.

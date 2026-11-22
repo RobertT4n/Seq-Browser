@@ -1,0 +1,21 @@
+name: scDEAL
+category: dry
+summary: Predicts single-cell cancer drug responses by transferring relationships learned from bulk cell-line expression and
+  drug screening data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.08.01.454654
+  year: 2021
+  journal: bioRxiv
+  first_author: Chen J
+  last_author: Ma Q
+  title: Deep Transfer Learning of Drug Responses by Integrating Bulk and Single-cell RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: scDEAL learns relationships between bulk gene expression and drug responses and transfers them to predict responses
+  in single-cell RNA-seq data.

@@ -1,0 +1,19 @@
+name: ATAV
+category: dry
+summary: Stores and queries population-scale sequencing variants and coverage data for diagnostic and rare-variant association
+  analyses.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04071-1
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Ren Z
+  last_author: Goldstein DB
+  title: 'ATAV: a comprehensive platform for population-scale genomic analyses'
+links: {}
+added: '2026-11-21'
+evidence: ATAV supports diagnostic analyses for trios and singletons and rare-variant collapsing analyses for disease associations.

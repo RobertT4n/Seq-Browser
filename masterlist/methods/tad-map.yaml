@@ -1,0 +1,22 @@
+name: TAD Map
+category: dry
+summary: Uses a species-level bag-of-genes representation to infer topologically associating domain architectures in cell
+  and tissue types with limited Hi-C data.
+readouts:
+- 3d-genome
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.10.28.466333
+  year: 2021
+  journal: bioRxiv
+  first_author: Singh
+  last_author: B
+  title: Deciphering the species-level structure of topologically associating domains
+links: {}
+added: '2026-11-21'
+evidence: The TAD Map is a bag-of-genes representation used to impute TAD architectures and analyze gene coexpression in bulk
+  and single-cell assays.

@@ -1,0 +1,24 @@
+name: RSMU_exome
+category: wet
+summary: Pools libraries before capture and enriches exomes with Agilent probes for sequencing on MGI platforms.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1038/s41598-021-04526-8
+  year: 2022
+  journal: Sci Rep
+  first_author: Belova V
+  last_author: Korostin D
+  pmid: '35022470'
+  pmcid: PMC8755732
+  title: System analysis of the sequencing quality of human whole exome samples on BGI NGS platform
+links: {}
+added: '2026-11-21'
+evidence: The protocol was evaluated using human Platinum Genome benchmark samples and identified SNVs and indels.

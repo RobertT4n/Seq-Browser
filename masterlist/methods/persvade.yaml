@@ -1,0 +1,20 @@
+name: perSVade
+full_name: personalized Structural Variation Detection
+category: dry
+summary: Calls structural variants from short reads using simulation-optimized parameters for each input sample.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.23.469703
+  year: 2021
+  journal: bioRxiv
+  first_author: Schikora-Tamarit MÀ
+  last_author: Gabaldón T
+  title: 'PerSVade: Personalized Structural Variation detection in your species of interest'
+links: {}
+added: '2026-11-21'
+evidence: perSVade uses reference-genome simulations to select structural-variant calling parameters and can also call small
+  variants and copy-number variants.

@@ -1,0 +1,21 @@
+name: D-SSCA
+full_name: Deep Convolution Attention network combining Sequence and Shape
+category: dry
+summary: A deep convolutional attention model predicts transcription factor binding sites from DNA sequence and shape features.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab525
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Zhang Y
+  last_author: Zou Q
+  title: A novel convolution attention model for predicting transcription factor binding sites by combination of sequence
+    and shape
+links: {}
+added: '2026-11-21'
+evidence: D-SSCA combines sequence and shape to predict transcription factor binding sites and was evaluated on 165 ENCODE
+  ChIP-seq datasets.

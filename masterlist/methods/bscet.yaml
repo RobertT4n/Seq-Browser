@@ -1,0 +1,21 @@
+name: BSCET
+category: dry
+summary: Estimates cell-type-specific allelic expression imbalance in bulk RNA-seq using cell composition inferred from single-cell
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1009080
+  year: 2021
+  journal: PLOS Genetics
+  first_author: Fan J
+  last_author: Li M
+  title: Detecting cell-type-specific allelic expression imbalance by integrative analysis of bulk and single-cell RNA sequencing
+    data
+links: {}
+added: '2026-11-21'
+evidence: BSCET integrates bulk RNA-seq with cell-type composition inferred from a small set of single-cell RNA-seq samples.

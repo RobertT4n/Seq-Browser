@@ -1,0 +1,21 @@
+name: CNVfilteR
+category: dry
+summary: Uses single-nucleotide variant calls to identify false-positive germline copy-number variant calls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab356
+  year: 2021
+  journal: Bioinformatics
+  first_author: Moreno-Cabrera JM
+  last_author: Gel B
+  pmid: '33983414'
+  pmcid: PMC9502136
+  title: 'CNVfilteR: an R/Bioconductor package to identify false positives produced by germline NGS CNV detection tools'
+links: {}
+added: '2026-11-21'
+evidence: CNVfilteR detects false deletions and duplications using germline single-nucleotide variant calls and was evaluated
+  on whole-genome and panel samples.

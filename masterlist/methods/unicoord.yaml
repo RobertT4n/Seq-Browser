@@ -1,0 +1,20 @@
+name: UniCoord
+category: dry
+summary: A joint variational autoencoder that represents single-cell transcriptomes in an interpretable latent space and can
+  generate transcriptomic profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.09.09.459281
+  year: 2021
+  journal: bioRxiv
+  first_author: Gao H
+  last_author: Zhang X
+  title: Building a learnable universal coordinate system for single-cell atlas with a joint-VAE model
+links: {}
+added: '2026-11-21'
+evidence: UniCoord represents single-cell transcriptomic data in a lower-dimensional latent space and can regenerate profiles
+  or generate pseudo cells.

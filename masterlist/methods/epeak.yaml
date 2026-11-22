@@ -1,0 +1,23 @@
+name: ePeak
+category: dry
+summary: A pipeline identifies reproducible peaks and analyzes differential marking and binding in replicated chromatin profiling
+  data.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqac041
+  year: 2022
+  journal: NAR Genom Bioinform
+  first_author: Daunesse M
+  last_author: Chica C
+  pmid: '35664802'
+  pmcid: PMC9154330
+  title: 'ePeak: from replicated chromatin profiling data to epigenomic dynamics'
+links: {}
+added: '2026-11-21'
+evidence: ePeak identifies reproducible peaks from ChIP-seq, CUT&RUN and CUT&Tag data and performs differential marking and
+  binding analysis.

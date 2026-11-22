@@ -1,0 +1,19 @@
+name: HiCArch
+category: dry
+summary: Predicts Hi-C contact matrices and topologically associated domains from one-dimensional epigenomic features.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.26.470146
+  year: 2021
+  journal: bioRxiv
+  first_author: Zheng X
+  last_author: Wang C
+  title: 'HiCArch: A Deep Learning-based Hi-C Data Predictor'
+links: {}
+added: '2026-11-21'
+evidence: HiCArch is a deep neural network that predicts Hi-C contact matrices from 11 epigenomic features and identifies
+  domains at 10 kb resolution.

@@ -1,0 +1,20 @@
+name: InvertypeR
+category: dry
+summary: Genotypes and phases genomic inversions at specified coordinates using single-cell Strand-seq data.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: targeted
+reference:
+  doi: 10.1186/s12864-021-07892-9
+  year: 2021
+  journal: BMC Genomics
+  first_author: Hanlon VCT
+  last_author: Lansdorp PM
+  pmid: '34332539'
+  pmcid: PMC8325862
+  title: 'InvertypeR: Bayesian inversion genotyping with Strand-seq data'
+links: {}
+added: '2026-11-21'
+evidence: InvertypeR uses a Bayesian binomial model to genotype inversions at fixed genomic coordinates.

@@ -1,0 +1,19 @@
+name: SCRAMBLER
+category: dry
+summary: Assembles prokaryotic CRISPR arrays from short sequencing reads to support analysis of microbial lineages and strains.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1089/crispr.2021.0012
+  year: 2021
+  journal: The CRISPR Journal
+  first_author: Rykachevsky A
+  last_author: Savitskaya E
+  title: "SCRAMBLER: A Tool for\n                    <i>De Novo</i>\n                    CRISPR Array Reconstruction and Its\
+    \ Application for Analysis of the Structure of Prokaryotic Populations"
+links: {}
+added: '2026-11-21'
+evidence: SCRAMBLER includes pipelines for assembling CRISPR arrays from high-throughput short-read sequencing data.

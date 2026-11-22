@@ -1,0 +1,18 @@
+name: DANSR
+category: dry
+summary: Detects and quantifies annotated and novel small RNAs from sequencing reads of variable lengths.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ncrna8010009
+  year: 2022
+  journal: Non-Coding RNA
+  first_author: Zhang J
+  last_author: Maher CA
+  title: 'DANSR: A Tool for the Detection of Annotated and Novel Small RNAs'
+links: {}
+added: '2026-11-21'
+evidence: DANSR detects annotated and novel small RNAs using reads ranging from 17 to 200 nucleotides.

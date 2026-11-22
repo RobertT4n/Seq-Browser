@@ -1,0 +1,20 @@
+name: MNHN-Tree-Tools
+category: dry
+summary: Builds nested sequence clusters and infers sequence trees without multiple sequence alignment.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btab430
+  year: 2021
+  journal: Bioinformatics
+  first_author: Haschka T
+  last_author: Mozziconacci J
+  pmid: '34100911'
+  title: 'MNHN-Tree-Tools: a toolbox for tree inference using multi-scale clustering of a set of sequences'
+links: {}
+added: '2026-11-21'
+evidence: The toolbox builds multi-scale nested clusters from FASTA sequences and was applied to alpha-satellite repeats and
+  16S/18S rDNA sequences.

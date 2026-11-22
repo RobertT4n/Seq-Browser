@@ -1,0 +1,22 @@
+name: TransCUPtomics
+full_name: Integrative Fine-Mapping
+category: dry
+summary: TransCUPtomics uses RNA-seq and a variational autoencoder to predict the tissue of origin of cancers of unknown primary.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmoldx.2021.07.009
+  year: 2021
+  journal: J Mol Diagn
+  first_author: Vibert J
+  last_author: Watson S
+  pmid: '34325056'
+  title: Identification of Tissue of Origin and Guided Therapeutic Applications in Cancers of Unknown Primary Using Deep Learning
+    and RNA Sequencing (TransCUPtomics)
+links: {}
+added: '2026-11-21'
+evidence: The classifier was trained on RNA-seq samples spanning cancer types and normal tissues to predict tissue of origin.
+=== FILE: transcup tomics.yaml ===

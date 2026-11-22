@@ -1,0 +1,24 @@
+name: IReNA
+full_name: Integrated Regulatory Network Analysis
+category: dry
+summary: Integrates scRNA-seq and scATAC-seq data to infer and simplify regulatory networks.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2022.105359
+  year: 2022
+  journal: iScience
+  first_author: Jiang J
+  last_author: Wang J
+  pmid: '36325073'
+  pmcid: PMC9619378
+  title: 'IReNA: Integrated regulatory network analysis of single-cell transcriptomes and chromatin accessibility profiles'
+  preprint_doi: 10.1101/2021.11.22.469628
+links: {}
+added: '2026-11-21'
+evidence: IReNA integrates scRNA-seq and scATAC-seq for network inference, modularization, transcription-factor enrichment
+  and intermodular network construction.

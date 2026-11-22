@@ -1,0 +1,20 @@
+name: RDAClone
+category: dry
+summary: Denoises single-cell genotype matrices, clusters tumor cells into subclones and infers their evolutionary relationships.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12121847
+  year: 2021
+  journal: Genes (Basel)
+  first_author: Xia J
+  last_author: Chen L
+  pmid: '34946794'
+  pmcid: PMC8701080
+  title: 'RDAClone: Deciphering Tumor Heterozygosity through Single-Cell Genomics Data Analysis with Robust Deep Autoencoder'
+links: {}
+added: '2026-11-21'
+evidence: RDAClone uses a robust deep autoencoder to recover genotype matrices before subclone clustering and tree inference.

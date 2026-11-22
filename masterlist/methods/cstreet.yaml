@@ -1,0 +1,20 @@
+name: CStreet
+full_name: computed Cell State trajectory inference method
+category: dry
+summary: Infers and visualizes cell-state trajectories from time-series scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab488
+  year: 2021
+  journal: Bioinformatics
+  first_author: Zhao C
+  last_author: Zhang Y
+  pmid: '34196686'
+  title: 'CStreet: a computed Cell State trajectory inference method for time-series single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CStreet uses time-series cell connections to estimate cell-state connection probabilities and visualize trajectories.

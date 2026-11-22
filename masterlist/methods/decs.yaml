@@ -1,0 +1,23 @@
+name: deCS
+full_name: decoding Cell type-Specificity
+category: dry
+summary: An automatic annotation method uses human cell-type expression profiles and marker genes to label single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2022.04.001
+  year: 2022
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Pei G
+  last_author: Zhao Z
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data\
+    \ Among Human Tissues"
+  preprint_doi: 10.1101/2021.09.19.460993
+links: {}
+added: '2026-11-21'
+evidence: deCS uses a collection of human cell-type expression profiles and marker genes to annotate scRNA-seq data from various
+  tissues.

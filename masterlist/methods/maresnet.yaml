@@ -1,0 +1,21 @@
+name: MAResNet
+category: dry
+summary: A deep-learning model combines multiscale attention and a residual network to predict transcription factor binding
+  sites.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab445
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Han K
+  last_author: Yu DJ
+  title: 'MAResNet: predicting transcription factor binding sites by combining multi-scale bottom-up and top-down attention
+    and residual network'
+links: {}
+added: '2026-11-21'
+evidence: MAResNet predicts transcription factor binding sites using attention mechanisms and a residual network on 690 ChIP-seq
+  datasets.

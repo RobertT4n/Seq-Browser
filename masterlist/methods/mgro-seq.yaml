@@ -1,0 +1,25 @@
+name: mGRO-seq
+full_name: mutation-based and enrichment-free global chromatin run-on sequencing
+category: wet
+summary: Maps active RNA polymerase II sites genome-wide by detecting mutations introduced at labeled nascent RNA positions.
+readouts:
+- nascent-rna
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1021/acschembio.1c00951
+  year: 2022
+  journal: ACS Chem Biol
+  first_author: Gao M
+  last_author: Liu J
+  pmid: '35302367'
+  title: New Chromatin Run-On Reaction Enables Global Mapping of Active RNA Polymerase Locations in an Enrichment-free Manner
+links: {}
+added: '2026-11-21'
+evidence: An ATP analog is incorporated into run-on RNA and converted into detectable mismatches to locate active RNA polymerase
+  II.

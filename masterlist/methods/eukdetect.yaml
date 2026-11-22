@@ -1,0 +1,18 @@
+name: EukDetect
+category: dry
+summary: Identifies microbial eukaryotes in shotgun metagenomic sequencing data using conserved marker genes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-021-01015-y
+  year: 2021
+  journal: Microbiome
+  first_author: Lind AL
+  last_author: Pollard KS
+  title: Accurate and sensitive detection of microbial eukaryotes from whole metagenome shotgun sequencing
+links: {}
+added: '2026-11-21'
+evidence: EukDetect identifies eukaryotes in shotgun metagenomic data using a database of universal marker genes.

@@ -1,0 +1,24 @@
+name: PRLS assay
+category: wet
+summary: Sequences long regions of plasma-derived HIV-1 RNA to characterize viral genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1128/jvi.02011-21
+  year: 2022
+  journal: J Virol
+  first_author: Fisher K
+  last_author: Palmer S
+  pmid: '35201897'
+  pmcid: PMC8941922
+  title: Plasma-Derived HIV-1 Virions Contain Considerable Levels of Defective Genomes
+links: {}
+added: '2026-11-21'
+evidence: The PRLS assay sequenced plasma-derived HIV-1 RNA over regions from gag or integrase to the genome's 3-prime end.

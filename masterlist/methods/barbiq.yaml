@@ -1,0 +1,27 @@
+name: BarBIQ
+full_name: Barcoding Bacteria for Identification and Quantification
+category: wet
+summary: Classifies and counts individual bacterial cells using cellularly barcoded 16S rRNA sequences.
+readouts:
+- microbial-composition
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- microbe
+reference:
+  doi: 10.1038/s41467-022-28426-1
+  year: 2022
+  journal: Nat Commun
+  first_author: Jin J
+  last_author: Shiroguchi K
+  pmid: '35194029'
+  pmcid: PMC8863893
+  title: High-throughput identification and quantification of single bacterial cells in the microbiota
+links: {}
+added: '2026-11-21'
+evidence: BarBIQ classifies single bacterial cells into taxa using cellularly barcoded 16S rRNA sequences and quantifies their
+  cell numbers.

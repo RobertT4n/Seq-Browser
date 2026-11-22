@@ -1,0 +1,19 @@
+name: Putative Paralogs Detection
+category: dry
+summary: A pipeline identifies putative paralogs in target enrichment data using sequence similarity and heterozygous sites.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/sysbio/syab044
+  year: 2021
+  journal: Systematic Biology
+  first_author: Zhou W
+  last_author: Xiang QY(
+  title: A New Pipeline for Removing Paralogs in Target Enrichment Data
+links: {}
+added: '2026-11-21'
+evidence: PPD applies sequence identity and heterozygous-site thresholds at each locus to identify putative paralogs in enrichment
+  data.

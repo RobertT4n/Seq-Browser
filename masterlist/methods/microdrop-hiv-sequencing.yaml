@@ -1,0 +1,26 @@
+name: microdrop HIV sequencing
+category: wet
+summary: Amplifies HIV envelope and pol sequences in microdroplets for long-read surveillance of infection and drug resistance.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1093/infdis/jiab060
+  year: 2021
+  journal: J Infect Dis
+  first_author: Park SY
+  last_author: Lee HY
+  pmid: '33517458'
+  pmcid: PMC8448441
+  title: Microdrop Human Immunodeficiency Virus Sequencing for Incidence and Drug Resistance Surveillance
+links: {}
+added: '2026-11-21'
+evidence: Full-length HIV envelope and pol sequences were amplified in microdroplets and sequenced with long reads.

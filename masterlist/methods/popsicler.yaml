@@ -1,0 +1,19 @@
+name: popsicleR
+category: dry
+summary: popsicleR guides preprocessing and quality control of single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2022.167560
+  year: 2022
+  journal: J Mol Biol
+  first_author: Grandi F
+  last_author: Bicciato S
+  pmid: '35662457'
+  title: 'popsicleR: A R Package for Pre-processing and Quality Control Analysis of Single Cell RNA-seq Data'
+links: {}
+added: '2026-11-21'
+evidence: The package integrates QC metrics, low-quality cell filtering, normalization, and bias removal.

@@ -1,0 +1,18 @@
+name: pHierCC
+category: dry
+summary: Assigns genome assemblies to hierarchical population clusters using core genome multilocus typing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab234
+  year: 2021
+  journal: Bioinformatics
+  first_author: Zhou Z
+  last_author: Achtman M
+  title: 'HierCC: a multi-level clustering scheme for population assignments based on core genome MLST'
+links: {}
+added: '2026-11-21'
+evidence: pHierCC defines a scalable clustering scheme based on core genome multilocus typing for incremental population assignments.

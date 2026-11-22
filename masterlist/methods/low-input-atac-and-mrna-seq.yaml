@@ -1,0 +1,27 @@
+name: low-input ATAC&mRNA-seq
+category: wet
+summary: Profiles chromatin accessibility and mRNA simultaneously from low-input bulk samples containing thousands of cells.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.1016/j.crmeth.2021.100041
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Li R
+  last_author: Wade PA
+  pmid: '34414388'
+  pmcid: PMC8372970
+  title: A simple and robust method for simultaneous dual-omics profiling with limited numbers of cells
+  preprint_doi: 10.1101/2021.02.25.432879
+links: {}
+added: '2026-11-21'
+evidence: The method obtains ATAC-seq and mRNA-seq data simultaneously from the same cells with just thousands of cells.

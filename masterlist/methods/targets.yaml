@@ -1,0 +1,21 @@
+name: TARGETS
+full_name: TreAtment Response Generalized Elastic-neT Signatures
+category: dry
+summary: Elastic-net models use DNA and RNA sequencing features to predict cancer drug response.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41525-021-00239-z
+  year: 2021
+  journal: npj Genomic Medicine
+  first_author: Rydzewski NR
+  last_author: Zhao SG
+  title: Predicting cancer drug TARGETS - TreAtment Response Generalized Elastic-neT Signatures
+links: {}
+added: '2026-11-21'
+evidence: TARGETS models were trained using in vitro DNA and RNA sequencing and drug response data and evaluated on independent
+  datasets.

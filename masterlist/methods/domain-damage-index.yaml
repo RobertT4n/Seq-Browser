@@ -1,0 +1,22 @@
+name: domain damage index
+category: dry
+summary: A metric based on depletion of rare missense variants in protein domains that helps prioritize potentially pathogenic
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/humu.24269
+  year: 2021
+  journal: Hum Mutat
+  first_author: Chen HC
+  last_author: Shyr Y
+  pmid: '34350656'
+  pmcid: PMC8511099
+  title: A domain damage index to prioritizing the pathogenicity of missense variants
+links: {}
+added: '2026-11-21'
+evidence: The domain damage index identifies protein domains depleted of rare missense variants and uses this information
+  to prioritize variants.

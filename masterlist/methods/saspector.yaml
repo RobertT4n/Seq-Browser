@@ -1,0 +1,20 @@
+name: SASpector
+category: dry
+summary: Compares draft prokaryotic genome assemblies with closed assemblies to extract and analyze missing regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac208
+  year: 2022
+  journal: Bioinformatics
+  first_author: Lood C
+  last_author: Noort VV
+  pmid: '35561201'
+  pmcid: PMC9113259
+  title: 'SASpector: analysis of missing genomic regions in draft genomes of prokaryotes'
+links: {}
+added: '2026-11-21'
+evidence: SASpector compares short-read draft genomes with corresponding closed assemblies and analyzes missing regions.

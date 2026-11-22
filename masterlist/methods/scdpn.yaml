@@ -1,0 +1,28 @@
+name: scDPN
+full_name: single-cell DNA library preparation method without preamplification in nanolitre scale
+category: wet
+summary: Prepares single-cell DNA libraries without preamplification for high-throughput copy-number profiling.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.gpb.2021.03.008
+  year: 2021
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Wu L
+  last_author: Liu S
+  pmid: '34280548'
+  pmcid: PMC8864190
+  title: scDPN for High-throughput Single-cell CNV Detection to Uncover Clonal Evolution During HCC Recurrence
+links: {}
+added: '2026-11-21'
+evidence: scDPN achieved up to 1,800 cells per run for copy-number detection and was evaluated on cell lines and tumor tissue.
+throughput: 1e3-1e4

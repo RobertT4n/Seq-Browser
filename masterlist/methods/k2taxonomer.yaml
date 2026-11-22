@@ -1,0 +1,23 @@
+name: K2Taxonomer
+category: dry
+summary: An unsupervised recursive partitioning algorithm that identifies robust molecular subgroups in bulk and single-cell
+  transcriptomics data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab552
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Reed ER
+  last_author: Monti S
+  pmid: '34226941'
+  pmcid: PMC8464061
+  title: Multi-resolution characterization of molecular taxonomies in bulk and single-cell transcriptomics data
+links: {}
+added: '2026-11-21'
+evidence: K2Taxonomer uses ensemble learning to identify robust subgroups in a taxonomy-like structure for bulk and single-cell
+  transcriptomics.

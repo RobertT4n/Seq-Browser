@@ -1,0 +1,22 @@
+name: DeepSignal-plant
+category: dry
+summary: Uses deep learning to detect plant DNA 5-methylcytosine in three sequence contexts from nanopore reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-021-26278-9
+  year: 2021
+  journal: Nature Communications
+  first_author: Ni P
+  last_author: Wang J
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+links: {}
+added: '2026-11-21'
+evidence: DeepSignal-plant detects genome-wide 5mCs in CpG, CHG, and CHH contexts from nanopore reads.

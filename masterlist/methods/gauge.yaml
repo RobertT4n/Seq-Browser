@@ -1,0 +1,20 @@
+name: GAUGE
+full_name: general annotation using text/data group ensembles
+category: dry
+summary: Automatically assigns sample-group annotations to microbial transcriptomic datasets for reanalysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/msystems.01305-20
+  year: 2021
+  journal: mSystems
+  first_author: Li Z
+  last_author: Hampton TH
+  title: GAUGE-Annotated Microbial Transcriptomic Data Facilitate Parallel Mining and High-Throughput Reanalysis To Form Data-Driven
+    Hypotheses
+links: {}
+added: '2026-11-21'
+evidence: GAUGE automatically annotates GEO microbial microarray and RNA-seq datasets with sample groups.

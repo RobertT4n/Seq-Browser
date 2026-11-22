@@ -1,0 +1,23 @@
+name: VIA
+category: dry
+summary: Scalable algorithm for inferring complex cellular trajectories from single-cell omics data.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-25773-3
+  year: 2021
+  journal: Nat Commun
+  first_author: Stassen SV
+  last_author: Tsia KK
+  pmid: '34545085'
+  pmcid: PMC8452770
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+  preprint_doi: 10.1101/2021.02.10.430705
+links: {}
+added: '2026-11-21'
+evidence: VIA uses lazy-teleporting random walks to reconstruct complex trajectories and was applied to transcriptomic, proteomic,
+  epigenomic, multi-omics and morphological datasets.

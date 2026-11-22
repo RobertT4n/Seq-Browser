@@ -1,0 +1,20 @@
+name: TSSr
+category: dry
+summary: Identifies transcription start sites and characterizes core-promoter structure and activity from TSS sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab108
+  year: 2021
+  journal: NAR Genom Bioinform
+  first_author: Lu Z
+  last_author: Lin Z
+  pmid: '34805991'
+  pmcid: PMC8598296
+  title: 'TSSr: an R package for comprehensive analyses of TSS sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: TSSr identifies transcription start sites from mapped reads and infers core promoters from TSS sequencing data.

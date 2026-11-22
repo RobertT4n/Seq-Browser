@@ -1,0 +1,22 @@
+name: BWASP/R
+category: dry
+summary: Provides a reproducible workflow for quality control and analysis of DNA methylation sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/1755-0998.13566
+  year: 2022
+  journal: Mol Ecol Resour
+  first_author: Morandin C
+  last_author: Brendel VP
+  pmid: '34861105'
+  title: Tools and applications for integrative analysis of DNA methylation in social insects
+  preprint_doi: 10.1101/2021.08.19.457008
+links: {}
+added: '2026-11-21'
+evidence: BWASP/R reanalysed social insect whole-genome bisulfite sequencing datasets using consistent quality-control filters
+  and parameters.

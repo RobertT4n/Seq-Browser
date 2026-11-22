@@ -1,0 +1,20 @@
+name: EnTSSR
+category: dry
+summary: Imputes scRNA-seq dropout events by combining results from multiple imputation methods with weighted ensemble learning.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2021.3110850
+  year: 2021
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Lu F
+  last_author: Ou-Yang L
+  pmid: '34495837'
+  title: 'EnTSSR: A Weighted Ensemble Learning Method to Impute Single-Cell RNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: EnTSSR uses a multi-view sparse self-representation framework and a weighted ensemble strategy to impute scRNA-seq
+  dropout events.

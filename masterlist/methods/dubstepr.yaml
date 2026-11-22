@@ -1,0 +1,20 @@
+name: DUBStepR
+full_name: Determining the Underlying Basis using Stepwise Regression
+category: dry
+summary: Selects features using gene-gene correlations to improve clustering of single-cell data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-26085-2
+  year: 2021
+  journal: Nature Communications
+  first_author: Ranjan B
+  last_author: Prabhakar S
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+links: {}
+added: '2026-11-21'
+evidence: DUBStepR uses gene-gene correlations for feature selection and can also be applied to data such as single-cell ATAC-seq.

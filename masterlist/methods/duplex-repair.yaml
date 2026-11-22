@@ -1,0 +1,23 @@
+name: Duplex-Repair
+category: wet
+summary: Reduces DNA strand resynthesis during library preparation to improve duplex sequencing accuracy in damaged samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1093/nar/gkab855
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Xiong K
+  last_author: Adalsteinsson VA
+  pmid: '34591958'
+  pmcid: PMC8755016
+  title: Duplex-Repair enables highly accurate sequencing, despite DNA damage
+  preprint_doi: 10.1101/2021.05.21.445162
+links: {}
+added: '2026-11-21'
+evidence: Duplex-Repair limits interior duplex base-pair resynthesis and affords up to 8.9-fold more accurate duplex sequencing.

@@ -1,0 +1,25 @@
+name: CiRNAseq
+full_name: circular probe-based RNA sequencing
+category: wet
+summary: Uses circular probes and RNA sequencing to profile and quantify species in the cervicovaginal microbiome.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1186/s12915-021-01204-z
+  year: 2021
+  journal: BMC Biol
+  first_author: Andralojc KM
+  last_author: Melchers WJG
+  pmid: '34915863'
+  pmcid: PMC8680041
+  title: Novel high-resolution targeted sequencing of the cervicovaginal microbiome
+links: {}
+added: '2026-11-21'
+evidence: In vitro and in silico validation showed species discrimination and abundance estimation in a mock microbial mixture.

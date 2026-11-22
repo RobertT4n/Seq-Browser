@@ -1,0 +1,26 @@
+name: FindIT2
+full_name: Find Influential TFs and Targets
+category: dry
+summary: An R package for annotating sequencing peaks, identifying transcription factor targets, and inferring influential
+  transcription factors from multi-omics data.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08506-8
+  year: 2022
+  journal: BMC Genomics
+  first_author: Shang GD
+  last_author: Wang JW
+  pmid: '35392802'
+  pmcid: PMC8988339
+  title: 'FindIT2: an R/Bioconductor package to identify influential transcription factor and targets based on multi-omics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: FindIT2 annotates ChIP-seq and ATAC-seq peaks and combines ChIP-seq with RNA-seq to identify transcription factor
+  targets.

@@ -1,0 +1,21 @@
+name: Si-C
+full_name: Single-Cell Chromosome Conformation Calculator
+category: dry
+summary: Reconstructs genome-wide three-dimensional structures from sparse single-cell Hi-C data using a Bayesian framework.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24662-z
+  year: 2021
+  journal: Nat Commun
+  first_author: Meng L
+  last_author: Luo Q
+  pmid: '34272403'
+  pmcid: PMC8285481
+  title: Si-C is a method for inferring super-resolution intact genome structure from single-cell Hi-C data
+links: {}
+added: '2026-11-21'
+evidence: Si-C reconstructed intact genome structures from single-cell Hi-C data at 100-kb and 10-kb resolution.

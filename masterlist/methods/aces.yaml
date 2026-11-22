@@ -1,0 +1,23 @@
+name: ACES
+full_name: Analysis of Conservation with an Extensive list of Species
+category: dry
+summary: Queries selected sequences against reference genomes and generates alignments and phylogenetic files for conservation
+  analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btab684
+  year: 2021
+  journal: Bioinformatics
+  first_author: Padhi EM
+  last_author: Turner TN
+  pmid: '34601580'
+  pmcid: PMC8570785
+  title: 'ACES: Analysis of Conservation with an Extensive list of Species'
+links: {}
+added: '2026-11-21'
+evidence: ACES queries sequences such as enhancers, promoters and exons against reference genomes and produces BLAST hits,
+  alignments and phylogenetic trees.

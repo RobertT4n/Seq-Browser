@@ -1,0 +1,22 @@
+name: LoopViz
+category: dry
+summary: Quantifies and visualizes plasmid assembly reactions using long-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2021.02.01.427927
+  year: 2021
+  journal: bioRxiv
+  first_author: Lensink
+  last_author: T
+  title: 'LoopViz: A uLoop Assembly Clone Verification Tool for Nanopore Sequencing Reads'
+links: {}
+added: '2026-11-21'
+evidence: LoopViz identifies full-length plasmid reads, visualizes their component fragments, and provides quality-control
+  statistics.

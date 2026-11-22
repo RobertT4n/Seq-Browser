@@ -1,0 +1,26 @@
+name: CCSAS
+full_name: CRISPR-Cas Selective Amplicon Sequencing
+category: wet
+summary: Depletes host 18S rRNA gene amplicons with Cas9 to improve sequencing of eukaryotic microbiomes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1186/s40168-021-01180-0
+  year: 2021
+  journal: Microbiome
+  first_author: Zhong KX
+  last_author: Suttle CA
+  pmid: '34823604'
+  pmcid: PMC8620255
+  title: Revealing the composition of the eukaryotic microbiome of oyster spat by CRISPR-Cas Selective Amplicon Sequencing
+    (CCSAS)
+links: {}
+added: '2026-11-21'
+evidence: Host 18S amplicons were selectively cleaved while protist and fungal sequences remained intact.

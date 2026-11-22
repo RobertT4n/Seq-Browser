@@ -1,0 +1,24 @@
+name: scREMOTE
+category: dry
+summary: Models cell reprogramming from single-cell multiomics data by inferring regulatory relationships and transcription
+  factor perturbation effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqac023
+  year: 2022
+  journal: NAR Genom Bioinform
+  first_author: Tran A
+  last_author: Ormerod JT
+  pmid: '35300460'
+  pmcid: PMC8923006
+  title: 'scREMOTE: Using multimodal single cell data to predict regulatory gene relationships and to build a computational
+    cell reprogramming model'
+  preprint_doi: 10.1101/2021.10.11.463798
+links: {}
+added: '2026-11-21'
+evidence: scREMOTE identifies regulatory relationships and estimates the effects of transcription factor perturbations using
+  single-cell multiomics data.

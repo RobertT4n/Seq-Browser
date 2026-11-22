@@ -1,0 +1,23 @@
+name: M-Seq
+full_name: multi-region sequencing
+category: dry
+summary: A statistical mechanical theory quantifies intratumor heterogeneity using genetic mutations from multiple tumor regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.02.19.481164
+  year: 2022
+  journal: bioRxiv
+  first_author: Sinha
+  last_author: D
+  title: 'Statistical Mechanical theory for spatio-temporal evolution of Intra-tumor heterogeneity in cancers: Analysis of
+    Multiregion sequencing data'
+links: {}
+rejected: 'Audit 2026-11-21 (Codex): M-Seq here is just multi-region sequencing; the paper contributes an unnamed statistical-mechanical theory, so there is no named method. Curated out.'
+added: '2026-11-21'
+evidence: The theory uses Hamming distances between mutations in distinct tumor regions and was applied to multiregion sequencing
+  data.

@@ -1,0 +1,21 @@
+name: NewWave
+category: dry
+summary: A scalable R package for dimensionality reduction and batch effect removal in single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac149
+  year: 2022
+  journal: Bioinformatics
+  first_author: Agostinis F
+  last_author: Risso D
+  pmid: '35266509'
+  pmcid: PMC9048694
+  title: 'NewWave: a scalable R/Bioconductor package for the dimensionality reduction and batch effect removal of single-cell
+    RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: NewWave uses mini-batch optimization and supports out-of-memory data to analyze datasets with millions of cells.

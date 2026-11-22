@@ -1,0 +1,22 @@
+name: FunRes
+category: dry
+summary: Identifies tissue-specific functional cell states by reconstructing cell-cell communication networks from scRNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa283
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Jung S
+  last_author: Del Sol A
+  pmid: '33179736'
+  pmcid: PMC8293827
+  title: 'FunRes: resolving tissue-specific functional cell states based on a cell-cell communication network model'
+links: {}
+added: '2026-11-21'
+evidence: FunRes reconstructs a functional cell-cell communication network and uses it to partition cell types into functional
+  states.

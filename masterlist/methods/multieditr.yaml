@@ -1,0 +1,22 @@
+name: MultiEditR
+full_name: Multiple Edit Deconvolution by Inference of Traces in R
+category: dry
+summary: Detects and quantifies RNA editing from Sanger sequencing traces.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.omtn.2021.07.008
+  year: 2021
+  journal: Mol Ther Nucleic Acids
+  first_author: Kluesner MG
+  last_author: Pecori R
+  pmid: '34589274'
+  pmcid: PMC8463291
+  title: 'MultiEditR: The first tool for the detection and quantification of RNA editing from Sanger sequencing demonstrates
+    comparable fidelity to RNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: MultiEditR detects and quantifies endogenous and programmable RNA editing from Sanger sequencing.

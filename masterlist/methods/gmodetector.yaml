@@ -1,0 +1,22 @@
+name: GmoDetector
+category: wet
+summary: Target enrichment and sequencing detect transgenic elements and GMO-specific events while excluding donor organism
+  contamination.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.foodres.2021.110662
+  year: 2021
+  journal: Food Res Int
+  first_author: Chen L
+  last_author: Peng H
+  pmid: '34600664'
+  title: 'GmoDetector: An accurate and efficient GMO identification approach and its applications'
+links: {}
+added: '2026-11-21'
+evidence: GmoDetector targets 64 transgenic elements and 76 GMO-specific events using sequencing and target enrichment.

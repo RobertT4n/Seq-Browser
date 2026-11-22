@@ -1,0 +1,19 @@
+name: HD-AE
+category: dry
+summary: Learns transferable low-dimensional representations of single-cell RNA-seq data across datasets and experimental
+  conditions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.04.13.439707
+  year: 2021
+  journal: bioRxiv
+  first_author: Weinberger
+  last_author: S.-I
+  title: Transferable representations of single-cell transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: HD-AE representations transfer to new query datasets without retraining and can be compared with reference embeddings.

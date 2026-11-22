@@ -1,0 +1,22 @@
+name: MLR-OOD
+category: dry
+summary: A likelihood-ratio method that detects metagenomic sequences outside the classes represented in a classification
+  model's training data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2022.167586
+  year: 2022
+  journal: J Mol Biol
+  first_author: Bai X
+  last_author: Sun F
+  pmid: '35427634'
+  pmcid: PMC10433695
+  title: 'MLR-OOD: A Markov Chain Based Likelihood Ratio Method for Out-Of-Distribution Detection of Genomic Sequences'
+links: {}
+added: '2026-11-21'
+evidence: MLR-OOD compares in-distribution class likelihoods with a Markov-chain likelihood to detect out-of-distribution
+  sequences.

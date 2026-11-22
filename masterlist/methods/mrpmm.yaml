@@ -1,0 +1,20 @@
+name: MRPMM
+full_name: Multiple Rarevariants and Phenotypes Mixture Model
+category: dry
+summary: Clusters rare variants by their effects across multiple phenotypes using a Bayesian mixture model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.08.03.454967
+  year: 2021
+  journal: bioRxiv
+  first_author: Venkataraman GR
+  last_author: Rivas MA
+  title: Bayesian mixture model for clustering rare-variant effects in human genetic studies
+links: {}
+added: '2026-11-21'
+evidence: MRPMM clusters rare variants by multivariate phenotype effects and makes inferences about the mixture of genetic
+  effects.

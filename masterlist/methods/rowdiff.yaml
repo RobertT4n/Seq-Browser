@@ -1,0 +1,20 @@
+name: RowDiff
+category: dry
+summary: Compresses annotations of labeled de Bruijn graphs by exploiting similarities between adjacent vertices.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab330
+  year: 2021
+  journal: Bioinformatics
+  first_author: Danciu D
+  last_author: Rätsch G
+  pmid: '34252940'
+  pmcid: PMC8346655
+  title: Topology-based sparsification of graph annotations
+links: {}
+added: '2026-11-21'
+evidence: RowDiff compacted graph labels in experiments on 10,000 RNA-seq datasets.

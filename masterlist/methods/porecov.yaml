@@ -1,0 +1,22 @@
+name: poreCov
+category: dry
+summary: Processes nanopore sequencing data for SARS-CoV-2 genotyping and reference-based genome reconstruction.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3389/fgene.2021.711437
+  year: 2021
+  journal: Frontiers in Genetics
+  first_author: Brandt C
+  last_author: Hölzer M
+  title: poreCov-An Easy to Use, Fast, and Robust Workflow for SARS-CoV-2 Genome Reconstruction via Nanopore Sequencing
+  preprint_doi: 10.1101/2021.05.07.443089
+links: {}
+added: '2026-11-21'
+evidence: poreCov combines long-read tools and settings in a parallel workflow for SARS-CoV-2 genotyping and genome reconstruction.

@@ -1,0 +1,20 @@
+name: SCATrEx
+category: dry
+summary: Maps single-cell gene expression data onto tumor copy-number evolutionary trees and identifies clone-specific clusters.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.11.04.467244
+  year: 2021
+  journal: bioRxiv
+  first_author: Ferreira PF
+  last_author: Beerenwinkel N
+  title: Mapping single-cell transcriptomes to copy number evolutionary trees
+links: {}
+added: '2026-11-21'
+evidence: SCATrEx assigns scRNA-seq cells to copy-number profiles arranged in an aberration tree and augments the tree with
+  clone-specific clusters.

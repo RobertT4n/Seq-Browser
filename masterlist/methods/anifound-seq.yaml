@@ -1,0 +1,23 @@
+name: aniFOUND-seq
+category: wet
+summary: Maps unscheduled DNA repair synthesis genome-wide by capturing nascent chromatin synthesized outside S phase.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+reference:
+  doi: 10.1093/nar/gkab144
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Stefos GC
+  last_author: Fousteri M
+  pmid: '33693861'
+  pmcid: PMC8216468
+  title: 'aniFOUND: analysing the associated proteome and genomic landscape of the repaired nascent non-replicative chromatin'
+links: {}
+added: '2026-11-21'
+evidence: aniFOUND-seq maps unscheduled DNA synthesis activity to monitor the genome-wide landscape of UVC repair-synthesis
+  events.

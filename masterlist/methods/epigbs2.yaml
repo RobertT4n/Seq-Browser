@@ -1,0 +1,29 @@
+name: epiGBS2
+category: wet
+summary: Combines a reduced-representation bisulfite sequencing protocol with a pipeline for methylation analysis and SNP
+  calling.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+species:
+- plant
+- other-vertebrate
+reference:
+  doi: 10.1111/1755-0998.13597
+  year: 2022
+  journal: Mol Ecol Resour
+  first_author: Gawehns F
+  last_author: Verhoeven KJF
+  pmid: '35178872'
+  pmcid: PMC9311447
+  title: 'epiGBS2: Improvements and evaluation of highly multiplexed, epiGBS-based reduced representation bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The protocol uses flexible restriction enzyme digestion and was evaluated using Arabidopsis and great tit data.

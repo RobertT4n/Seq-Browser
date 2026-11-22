@@ -1,0 +1,22 @@
+name: GRMT
+full_name: Generative Reconstruction of Mutation Tree from scratch
+category: dry
+summary: GRMT reconstructs tumor mutation trees from single-cell sequencing data using a k-Dollo parsimony model.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.692964
+  year: 2021
+  journal: Front Genet
+  first_author: Yu Z
+  last_author: Tang X
+  pmid: '34149820'
+  pmcid: PMC8212059
+  title: 'GRMT: Generative Reconstruction of Mutation Tree From Scratch Using Single-Cell Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: GRMT builds a mutation tree iteratively under a model that allows each mutation to be gained once and lost at most
+  k times.

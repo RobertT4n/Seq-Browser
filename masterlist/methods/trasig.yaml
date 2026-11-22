@@ -1,0 +1,18 @@
+name: TraSig
+category: dry
+summary: Uses single-cell RNA-seq pseudotime trajectories to infer ligand-receptor interactions between cell clusters.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.07.28.454054
+  year: 2021
+  journal: bioRxiv
+  first_author: Li D
+  last_author: Bar-Joseph Z
+  title: Inferring cell-cell interactions from pseudotime ordering of scRNA-Seq data
+links: {}
+added: '2026-11-21'
+evidence: TraSig identifies ligand-receptor pairs with similar trajectories and uses them to score interacting cell clusters.

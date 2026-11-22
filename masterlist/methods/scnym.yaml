@@ -1,0 +1,20 @@
+name: scNym
+category: dry
+summary: Semisupervised adversarial neural network that transfers single-cell identity annotations between experiments.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.268581.120
+  year: 2021
+  journal: Genome Res
+  first_author: Kimmel JC
+  last_author: Kelley DR
+  pmid: '33627475'
+  pmcid: PMC8494222
+  title: Semisupervised adversarial neural networks for single-cell classification
+links: {}
+added: '2026-11-21'
+evidence: scNym uses labeled and unlabeled datasets to learn representations that enable cell identity annotation transfer.

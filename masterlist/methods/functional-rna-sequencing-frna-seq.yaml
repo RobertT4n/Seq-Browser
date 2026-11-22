@@ -1,0 +1,31 @@
+name: functional RNA-sequencing (fRNA-seq)
+full_name: functional RNA-sequencing
+category: wet
+summary: Integrates cellular function and TCR clonotype at single-cell resolution following differential stimulation.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41590-023-01575-1
+  year: 2023
+  journal: Nat Immunol
+  first_author: Garner LC
+  last_author: Klenerman P
+  pmid: '37580605'
+  pmcid: PMC10457204
+  title: Single-cell analysis of human MAIT cell transcriptional, functional and clonal diversity
+  preprint_doi: 10.1101/2022.02.26.482031
+links: {}
+added: '2026-11-21'
+evidence: The authors developed fRNA-seq to integrate cellular function and TCR clonotype after stimulation of human MAIT
+  cells.

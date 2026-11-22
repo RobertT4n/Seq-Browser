@@ -1,0 +1,22 @@
+name: GenomicDistributions
+category: dry
+summary: An R package for summarizing and visualizing properties of genomic interval sets.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08467-y
+  year: 2022
+  journal: BMC Genomics
+  first_author: Kupkova K
+  last_author: Sheffield NC
+  pmid: '35413804'
+  pmcid: PMC9003978
+  title: 'GenomicDistributions: fast analysis of genomic intervals with Bioconductor'
+links: {}
+added: '2026-11-21'
+evidence: GenomicDistributions calculates properties such as feature distances and genomic partition overlaps for region sets
+  from assays including ChIP-seq and ATAC-seq.

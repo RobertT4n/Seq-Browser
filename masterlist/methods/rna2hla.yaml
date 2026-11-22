@@ -1,0 +1,20 @@
+name: RNA2HLA
+category: dry
+summary: An RNA-seq quality control tool that types HLA alleles to identify samples originating from the same individual.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbab055
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Chelysheva I
+  last_author: O'Connor D
+  pmid: '33758920'
+  pmcid: PMC8425422
+  title: 'RNA2HLA: HLA-based quality control of RNA-seq datasets'
+links: {}
+added: '2026-11-21'
+evidence: RNA2HLA performs study-wide HLA typing from RNA-seq data to group samples by source and identify misassigned samples.

@@ -1,0 +1,23 @@
+name: DeepCOLOR
+category: dry
+summary: A deep generative framework that integrates single-cell and spatial transcriptomes to infer cellular colocalization
+  and candidate interactions.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2024.01.007
+  year: 2024
+  journal: Cell Syst
+  first_author: Kojima Y
+  last_author: Shimamura T
+  pmid: '38387441'
+  title: Single-cell colocalization analysis using a deep generative model
+  preprint_doi: 10.1101/2022.04.10.487815
+links: {}
+added: '2026-11-21'
+evidence: DeepCOLOR recovers intercellular colocalization networks at single-cell resolution by integrating single-cell and
+  spatial transcriptomes.

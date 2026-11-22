@@ -1,0 +1,25 @@
+name: SPACE-GM
+full_name: SPAtial CEllular Graphical Modeling
+category: dry
+summary: Models spatial cellular graphs from multiplex protein imaging to identify tumor microenvironments associated with
+  patient outcomes.
+readouts:
+- protein
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: targeted
+reference:
+  doi: 10.1038/s41551-022-00951-w
+  year: 2022
+  journal: Nat Biomed Eng
+  first_author: Wu Z
+  last_author: Zou J
+  pmid: '36357512'
+  title: Graph deep learning for the characterization of tumour microenvironments from spatial protein profiles in tissue
+    specimens
+  preprint_doi: 10.1101/2022.05.12.491707
+links: {}
+added: '2026-11-21'
+evidence: SPACE-GM models tumor microenvironments as cellular graphs using 40-plex immunofluorescence imaging.

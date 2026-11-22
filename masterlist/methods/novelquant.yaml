@@ -1,0 +1,22 @@
+name: NovelQuant
+category: dry
+summary: Quantifies long-read-assembled novel transcripts using short-read RNA sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/cas.15058
+  year: 2021
+  journal: Cancer Sci
+  first_author: Fang Y
+  last_author: Liu X
+  pmid: '34255396'
+  pmcid: PMC8409408
+  title: Accurate transcriptome assembly by Nanopore RNA sequencing reveals novel functional transcripts in hepatocellular
+    carcinoma
+links: {}
+added: '2026-11-21'
+evidence: NovelQuant quantified novel transcripts in Illumina RNA-seq data using a transcriptome reconstructed with Nanopore
+  direct RNA sequencing.

@@ -1,0 +1,20 @@
+name: 4DMax
+category: dry
+summary: A method uses time-series Hi-C data to predict dynamic chromosome conformation and contact maps at intermediate time
+  points.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms22189785
+  year: 2021
+  journal: International Journal of Molecular Sciences
+  first_author: Highsmith M
+  last_author: Cheng J
+  title: Four-Dimensional Chromosome Structure Prediction
+links: {}
+added: '2026-11-21'
+evidence: 4DMax constructs smooth four-dimensional chromosome models from time-series Hi-C data and interpolates chromatin
+  positions across time.

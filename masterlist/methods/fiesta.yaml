@@ -1,0 +1,22 @@
+name: FIESTA
+full_name: Factorization-based Imputation of Expression in Single-cell Transcriptomic Analysis
+category: dry
+summary: Uses non-negative matrix factorization to impute likely inaccurate and false-negative expression values in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.04.29.441691
+  year: 2021
+  journal: bioRxiv
+  first_author: Mirzaei Mehrabad
+  last_author: B. T
+  title: Factorization-based Imputation of Expression in Single-cell Transcriptomic Analysis (FIESTA) recovers Gene-Cell-State
+    Relationships
+links: {}
+added: '2026-11-21'
+evidence: Factor matrices are multiplied to generate completed model datasets and recommend replacements for likely inaccurate
+  measurements and false negatives.

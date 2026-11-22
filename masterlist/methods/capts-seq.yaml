@@ -1,0 +1,28 @@
+name: CapTS-seq
+category: wet
+summary: Combines chemical capping and template-switching reverse transcription to sequence small RNAs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1093/nar/gkab861
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Wulf MG
+  last_author: Corrêa IR
+  pmid: '34581823'
+  pmcid: PMC8754658
+  title: Chemical capping improves template switching and enhances sequencing of small RNAs
+links: {}
+added: '2026-11-21'
+evidence: CapTS-seq improved miRNA library quality for synthetic miRNAs and human brain and liver FFPE RNA.

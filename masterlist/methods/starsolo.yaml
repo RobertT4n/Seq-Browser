@@ -1,0 +1,19 @@
+name: STARsolo
+category: dry
+summary: Maps and quantifies single-cell and single-nucleus RNA-seq data, including gene expression and alternative splicing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.05.05.442755
+  year: 2021
+  journal: bioRxiv
+  first_author: Kaminow
+  last_author: A
+  title: 'STARsolo: accurate, fast and versatile mapping/quantification of single-cell and single-nucleus RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: STARsolo is built into the STAR aligner and quantifies gene expression and other transcriptomic features, including
+  alternative splicing.

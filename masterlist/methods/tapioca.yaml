@@ -1,0 +1,20 @@
+name: TAPIOCA
+full_name: Topological Attention and Predictive Inference of Chromatin Arrangement Using Epigenetic Features
+category: dry
+summary: Predicts chromatin topology and topologically associated domains from epigenetic feature tracks using a self-attention
+  transformer.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.05.16.444378
+  year: 2021
+  journal: bioRxiv
+  first_author: Highsmith
+  last_author: J
+  title: 'TAPIOCA: Topological Attention and Predictive Inference of Chromatin Arrangement Using Epigenetic Features'
+links: {}
+added: '2026-11-21'
+evidence: TAPIOCA predicts chromatin conformation organization from epigenetic features without labeled Hi-C data.

@@ -1,0 +1,20 @@
+name: HiCmapTools
+category: dry
+summary: HiCmapTools queries and analyzes Hi-C contact maps to quantify contact frequencies and features.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04589-y
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Chang JM
+  last_author: Cavalli G
+  pmid: '35144531'
+  pmcid: PMC8832839
+  title: 'HiCmapTools: a tool to access HiC contact maps'
+links: {}
+added: '2026-11-21'
+evidence: The tool provides multiple query modes and was applied to TAD loops and intra-TAD density.

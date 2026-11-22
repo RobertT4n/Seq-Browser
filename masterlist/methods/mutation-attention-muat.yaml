@@ -1,0 +1,21 @@
+name: Mutation-Attention (MuAt)
+category: dry
+summary: Mutation-Attention learns representations of somatic alterations to predict tumour types and subtypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-023-01204-4
+  year: 2023
+  journal: Genome Med
+  first_author: Sanjaya P
+  last_author: Pitkänen E
+  pmid: '37420249'
+  pmcid: PMC10326961
+  title: 'Mutation-Attention (MuAt): deep representation learning of somatic mutations for tumour typing and subtyping'
+  preprint_doi: 10.1101/2022.03.15.483816
+links: {}
+added: '2026-11-21'
+evidence: MuAt uses a deep neural network to learn representations of simple and complex somatic alterations for tumour typing.

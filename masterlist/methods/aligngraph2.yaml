@@ -1,0 +1,22 @@
+name: AlignGraph2
+category: dry
+summary: A similar-genome-assisted reassembly pipeline refines PacBio long-read contigs using alignments to a related genome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bib/bbab022
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Huang S
+  last_author: Bao E
+  title: 'AlignGraph2: similar genome-assisted reassembly pipeline for PacBio long reads'
+links: {}
+added: '2026-11-21'
+evidence: AlignGraph2 aligns reads and preassembled contigs to a similar genome and uses the aligned reads to extend and refine
+  contigs.

@@ -1,0 +1,26 @@
+name: PNA-LNA dual-PCR
+full_name: peptide nucleic acid-LNA dual-PCR
+category: wet
+summary: Enriches mutant DNA using a wild-type peptide nucleic acid oligomer for probe-based detection or sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1002/cam4.4330
+  year: 2021
+  journal: Cancer Med
+  first_author: Fujita K
+  last_author: Hagiwara K
+  pmid: '34617674'
+  pmcid: PMC8633228
+  title: Highly sensitive detection of driver mutations from cytological samples and cfDNA in lung cancer
+links: {}
+added: '2026-11-21'
+evidence: The method amplified mutant sequences in the presence of a wild-type PNA oligomer and detected mutations by LNA
+  probes or sequencing.

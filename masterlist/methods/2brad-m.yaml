@@ -1,0 +1,28 @@
+name: 2bRAD-M
+category: wet
+summary: Sequences a highly reduced fraction of metagenomes to profile microbial species in low-biomass or degraded samples.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+input_sample:
+- low-input
+- ffpe-archival
+reference:
+  doi: 10.1186/s13059-021-02576-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Sun Z
+  last_author: Xu J
+  pmid: '35078506'
+  pmcid: PMC8789378
+  title: Species-resolved sequencing of low-biomass or degraded microbiomes using 2bRAD-M
+links: {}
+added: '2026-11-21'
+evidence: Sequencing approximately 1% of the metagenome produced bacterial, archaeal, and fungal species profiles from challenging
+  samples.

@@ -1,0 +1,22 @@
+name: Variant Enrichment Analysis
+category: dry
+summary: Variant Enrichment Analysis compares numbers of genetic variants in pathways against a reference dataset.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms23042278
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Brandão LAC
+  last_author: Crovella S
+  pmid: '35216413'
+  pmcid: PMC8877088
+  title: Variant Enrichment Analysis to Explore Pathways Functionality in Complex Autoinflammatory Skin Disorders through
+    Whole Exome Sequencing Analysis
+links: {}
+added: '2026-11-21'
+evidence: The VEA workflow identifies differences in pathway variant counts from whole-exome sequencing data relative to a
+  reference dataset.

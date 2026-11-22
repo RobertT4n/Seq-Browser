@@ -1,0 +1,18 @@
+name: PipeOne
+category: dry
+summary: Integrates features extracted from RNA-seq data to prioritize disease-associated features and stratify patients.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12121865
+  year: 2021
+  journal: Genes
+  first_author: Nong B
+  last_author: Xiong Y
+  title: Comprehensive Analysis of Large-Scale Transcriptomes from Multiple Cancer Types
+links: {}
+added: '2026-11-21'
+evidence: PipeOne extracts multiple types of information from RNA-seq and uses random forests to study and stratify patients.

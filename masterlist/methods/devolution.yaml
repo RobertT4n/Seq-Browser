@@ -1,0 +1,19 @@
+name: DEVOLUTION
+category: dry
+summary: An algorithm deconvolves tumor subclones and reconstructs their phylogeny from multiregional bulk genotyping data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-021-02637-6
+  year: 2021
+  journal: Communications Biology
+  first_author: Andersson N
+  last_author: Gisselsson D
+  title: DEVOLUTION—A method for phylogenetic reconstruction of aneuploid cancers based on multiregional genotyping data
+links: {}
+added: '2026-11-21'
+evidence: DEVOLUTION integrates copy number and sequencing information across multiple tumor regions for subclonal deconvolution
+  and phylogenetic reconstruction.

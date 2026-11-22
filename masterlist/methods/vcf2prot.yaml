@@ -1,0 +1,18 @@
+name: VCF2Prot
+category: dry
+summary: Generates personalized protein sequences from consequence-called genomic variants and a reference proteome.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.01.21.477084
+  year: 2022
+  journal: bioRxiv
+  first_author: ElAbd
+  last_author: M
+  title: 'VCF2Prot: An Efficient and Parallel Tool for Generating Personalized Proteomes from VCF Files'
+links: {}
+added: '2026-11-21'
+evidence: VCF2Prot generates personalized proteomes in FASTA format from consequence-called genomic alterations in VCF files.

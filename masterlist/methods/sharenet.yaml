@@ -1,0 +1,21 @@
+name: ShareNet
+category: dry
+summary: Improves cell type-specific gene regulatory network inference by sharing information across related cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab269
+  year: 2021
+  journal: Bioinformatics
+  first_author: Wu AP
+  last_author: Cho H
+  pmid: '34252956'
+  pmcid: PMC8275330
+  title: Bayesian information sharing enhances detection of regulatory associations in rare cell types
+links: {}
+added: '2026-11-21'
+evidence: ShareNet adaptively optimizes an information-sharing structure to improve regulatory network inference from single-cell
+  datasets.

@@ -1,0 +1,23 @@
+name: MetaPro
+category: dry
+summary: Pipeline for processing metatranscriptomic reads and profiling microbial gene expression and taxonomy.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40168-023-01562-6
+  year: 2023
+  journal: Microbiome
+  first_author: Taj B
+  last_author: Parkinson J
+  pmid: '37370188'
+  pmcid: PMC10294448
+  title: 'MetaPro: a scalable and reproducible data processing and analysis pipeline for metatranscriptomic investigation
+    of microbial communities'
+  preprint_doi: 10.1101/2021.02.23.432558
+links: {}
+added: '2026-11-21'
+evidence: MetaPro filters, assembles and annotates reads to report bacterial gene expression and a taxonomic breakdown.

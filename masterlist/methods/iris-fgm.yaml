@@ -1,0 +1,21 @@
+name: IRIS-FGM
+full_name: Integrative scRNA-Seq Interpretation System for Functional Gene Module analysis
+category: dry
+summary: An R package identifies condition-specific functional gene modules and supports cell clustering and downstream analysis
+  of single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab108
+  year: 2021
+  journal: Bioinformatics
+  first_author: Chang Y
+  last_author: Ma Q
+  title: 'IRIS-FGM: an integrative single-cell RNA-Seq interpretation system for functional gene module analysis'
+links: {}
+added: '2026-11-21'
+evidence: IRIS-FGM identifies functional gene modules, predicts cell types or clusters, and uncovers differentially expressed
+  genes from scRNA-seq data.

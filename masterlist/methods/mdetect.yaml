@@ -1,0 +1,28 @@
+name: mDETECT
+full_name: methylation DETEction of Circulating Tumour DNA
+category: wet
+summary: Targeted methylation sequencing assay for detecting and monitoring circulating tumour DNA in metastatic triple-negative
+  breast cancer.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1038/s41698-021-00198-9
+  year: 2021
+  journal: NPJ Precis Oncol
+  first_author: Cristall K
+  last_author: Mueller CR
+  pmid: '34135468'
+  pmcid: PMC8209161
+  title: A DNA methylation-based liquid biopsy for triple-negative breast cancer
+links: {}
+added: '2026-11-21'
+evidence: The methylation-based blood test uses 53 amplicons from 47 regions to detect and monitor metastatic triple-negative
+  breast cancer.

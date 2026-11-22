@@ -1,0 +1,18 @@
+name: eXNVerify
+category: dry
+summary: Evaluates sequencing coverage at clinically relevant variant loci and visualizes coverage for selected genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2021.12.16.473078
+  year: 2021
+  journal: bioRxiv
+  first_author: Porebski
+  last_author: T
+  title: 'eXNVerify: coverage analysis for long and short-read sequencing data in clinical context'
+links: {}
+added: '2026-11-21'
+evidence: eXNVerify calculates coverage at loci with pathogenic variants reported in ClinVar and visualizes user-defined genes.

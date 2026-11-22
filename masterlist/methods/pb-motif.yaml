@@ -1,0 +1,23 @@
+name: PB-Motif
+category: dry
+summary: Identifies rearrangements between highly homologous genomic regions using PacBio long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.3389/fgene.2021.716586
+  year: 2021
+  journal: Front Genet
+  first_author: Stephens Z
+  last_author: Kocher JA
+  pmid: '34394200'
+  pmcid: PMC8355628
+  title: 'PB-Motif-A Method for Identifying Gene/Pseudogene Rearrangements With Long Reads: An Application to CYP21A2 Genotyping'
+links: {}
+added: '2026-11-21'
+evidence: PB-Motif identifies rearrangements between two highly homologous genomic regions using PacBio long reads.

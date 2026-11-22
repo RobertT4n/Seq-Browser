@@ -1,0 +1,20 @@
+name: doubletD
+category: dry
+summary: Detects doublets in single-cell DNA sequencing data using a maximum likelihood approach.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab266
+  year: 2021
+  journal: Bioinformatics
+  first_author: Weber LL
+  last_author: El-Kebir M
+  pmid: '34252961'
+  pmcid: PMC8275324
+  title: 'doubletD: detecting doublets in single-cell DNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: doubletD is a standalone method for detecting doublets in scDNA-seq data.

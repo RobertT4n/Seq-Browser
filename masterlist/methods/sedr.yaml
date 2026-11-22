@@ -1,0 +1,19 @@
+name: SEDR
+full_name: Spatial Embedded Deep Representation
+category: dry
+summary: Learns a low-dimensional representation of spatial transcriptomics by embedding gene expression with spatial information.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.06.15.448542
+  year: 2021
+  journal: bioRxiv
+  first_author: Fu
+  last_author: J
+  title: Unsupervised Spatial Embedded Deep Representation of Spatial Transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: SEDR combines a gene expression autoencoder with a variational graph autoencoder that incorporates spatial information.

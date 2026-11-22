@@ -1,0 +1,20 @@
+name: MITGARD
+category: dry
+summary: An automated pipeline that assembles mitochondrial genomes from RNA-seq reads using a phylogenetically related reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbaa429
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Nachtigall PG
+  last_author: Junqueira-de-Azevedo ILM
+  pmid: '33515000'
+  title: 'MITGARD: an automated pipeline for mitochondrial genome assembly in eukaryotic species using RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: MITGARD identifies mitochondrial reads, assembles them into contigs, and extracts mitochondrial genomes from RNA-seq
+  data.

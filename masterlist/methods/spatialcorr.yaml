@@ -1,0 +1,18 @@
+name: SpatialCorr
+category: dry
+summary: A method tests predefined gene sets for spatial changes in their expression correlation structure.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.02.04.479191
+  year: 2022
+  journal: bioRxiv
+  first_author: Bernstein
+  last_author: C
+  title: 'SpatialCorr: Identifying Gene Sets with Spatially Varying Correlation Structure'
+links: {}
+added: '2026-11-21'
+evidence: SpatialCorr tests for spatially induced differences in gene-set correlations within and between tissue regions.

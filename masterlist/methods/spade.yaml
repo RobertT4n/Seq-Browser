@@ -1,0 +1,23 @@
+name: SPADE
+full_name: spatial gene expression patterns by deep learning of tissue images
+category: dry
+summary: SPADE combines spatial transcriptomics with tissue-image features to identify genes associated with morphological
+  contexts.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab095
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Bae S
+  last_author: Lee DS
+  pmid: '33619564'
+  pmcid: PMC8191797
+  title: Discovery of molecular features underlying the morphological landscape by integrating spatial transcriptomic data
+    with deep features of tissue images
+links: {}
+added: '2026-11-21'
+evidence: SPADE identifies molecular profiles correlated with deep learning-derived features of coregistered tissue images.

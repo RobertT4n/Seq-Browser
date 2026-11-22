@@ -1,0 +1,22 @@
+name: MetaNet
+category: dry
+summary: Integrates clinical and sequencing data to assess metastatic risk and organ-specific metastatic propensity in primary
+  tumors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-27017-w
+  year: 2021
+  journal: Nat Commun
+  first_author: Jiang B
+  last_author: Wang J
+  pmid: '34795255'
+  pmcid: PMC8602327
+  title: Machine learning of genomic features in organotropic metastases stratifies progression risk of primary tumors
+links: {}
+added: '2026-11-21'
+evidence: MetaNet integrates clinical and sequencing data to identify primary tumors with metastasis-associated genomic features
+  and stratify metastatic risk.

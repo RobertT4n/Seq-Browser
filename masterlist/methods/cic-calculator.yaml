@@ -1,0 +1,22 @@
+name: CIC Calculator
+full_name: Clone-Initiating Cell Calculator
+category: dry
+summary: Analyzes barcode-based clonal tracking data to estimate clone-initiating cell number, frequency, size, and distribution.
+readouts:
+- lineage
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/narcan/zcac022
+  year: 2022
+  journal: NAR Cancer
+  first_author: Aalam SMM
+  last_author: Kannan N
+  title: DNA barcoded competitive clone-initiating cell analysis reveals novel features of metastatic growth in a cancer xenograft
+    model
+  preprint_doi: 10.1101/2021.04.08.439098
+links: {}
+added: '2026-11-21'
+evidence: The CIC Calculator is a computational pipeline integrated with DNA barcode sequencing for clonal tracking and analysis
+  of metastatic spread.

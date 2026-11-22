@@ -1,0 +1,28 @@
+name: scH&G-seq
+category: wet
+summary: Single-cell sequencing profiles 5-hydroxymethylcytosine and genomic DNA from the same cell to support lineage reconstruction.
+readouts:
+- dna-methylation
+- dna-5hmc
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+reference:
+  doi: 10.1016/j.crmeth.2021.100060
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Wangsanuwat C
+  last_author: Dey SS
+  pmid: '34590075'
+  pmcid: PMC8478284
+  title: A probabilistic framework for cellular lineage reconstruction using integrated single-cell 5-hydroxymethylcytosine
+    and genomic DNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: The authors developed scH&G-seq to sequence both 5hmC and genomic DNA from the same cell.

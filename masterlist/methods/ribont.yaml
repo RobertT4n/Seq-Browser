@@ -1,0 +1,20 @@
+name: RiboNT
+category: dry
+summary: Predicts translated open reading frames from ribosome-protected footprints, including datasets with poor periodicity.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/life11070701
+  year: 2021
+  journal: Life (Basel)
+  first_author: Song B
+  last_author: Gao L
+  pmid: '34357073'
+  pmcid: PMC8307163
+  title: 'RiboNT: A Noise-Tolerant Predictor of Open Reading Frames from Ribosome-Protected Footprints'
+links: {}
+added: '2026-11-21'
+evidence: RiboNT combines ribosome-protected footprint periodicity and codon usage to identify translated open reading frames.

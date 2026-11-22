@@ -1,0 +1,19 @@
+name: SpatialDecon
+category: dry
+summary: Estimates spatially resolved cell population abundances by deconvolving spatial gene expression data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-28020-5
+  year: 2022
+  journal: Nature Communications
+  first_author: Danaher P
+  last_author: Beechem JM
+  title: Advances in mixed cell deconvolution enable quantification of cell types in spatial transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: SpatialDecon quantifies cell populations defined by single-cell sequencing within regions of spatial gene expression
+  studies.

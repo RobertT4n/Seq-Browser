@@ -1,0 +1,20 @@
+name: InVERT
+full_name: Influenza Virus Enumerator of RNA Transcripts
+category: dry
+summary: Quantifies influenza viral mRNA, cRNA, and vRNA from total stranded RNA-seq data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/jvi.02102-20
+  year: 2021
+  journal: Journal of Virology
+  first_author: Phan T
+  last_author: Langlois RA
+  title: Segment-Specific Kinetics of mRNA, cRNA, and vRNA Accumulation during Influenza Virus Infection
+links: {}
+added: '2026-11-21'
+evidence: InVERT simultaneously quantifies the three RNA species produced for influenza A virus genome segments.

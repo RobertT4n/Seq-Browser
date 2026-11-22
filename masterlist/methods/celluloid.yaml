@@ -1,0 +1,19 @@
+name: celluloid
+category: dry
+summary: Clusters mutations in single-cell sequencing data to reduce the size of instances used for tumor phylogeny inference.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2021.3081380
+  year: 2021
+  journal: IEEE J Biomed Health Inform
+  first_author: Ciccolella S
+  last_author: Della Vedova G
+  pmid: '34003758'
+  title: Effective Clustering for Single Cell Sequencing Cancer Data
+links: {}
+added: '2026-11-21'
+evidence: celluloid clusters categorical mutation data to produce a reduced instance for downstream phylogeny inference.

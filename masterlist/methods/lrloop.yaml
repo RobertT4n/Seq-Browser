@@ -1,0 +1,20 @@
+name: LRLoop
+category: dry
+summary: A method predicts bidirectional ligand-receptor feedback loops between cell populations from gene expression data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.02.04.479174
+  year: 2022
+  journal: bioRxiv
+  first_author: Xin
+  last_author: J
+  title: 'LRLoop: Feedback loops as a design principle of cell-cell communication'
+links: {}
+added: '2026-11-21'
+evidence: LRLoop identifies two responsive ligand-receptor interactions that form a closed feedback loop and was assessed
+  on bulk and single-cell datasets.

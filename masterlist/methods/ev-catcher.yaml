@@ -1,0 +1,28 @@
+name: EV-CATCHER
+full_name: Extracellular Vesicle Capture by AnTibody of CHoice and Enzymatic Release
+category: wet
+summary: Selectively captures extracellular vesicles for sequencing of their small RNA cargo.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+species:
+- human
+- mouse
+reference:
+  doi: 10.1002/jev2.12110
+  year: 2021
+  journal: J Extracell Vesicles
+  first_author: Mitchell MI
+  last_author: Loudig O
+  pmid: '34122779'
+  pmcid: PMC8173589
+  title: 'Extracellular Vesicle Capture by AnTibody of CHoice and Enzymatic Release (EV-CATCHER): A customizable purification
+    assay designed for small-RNA biomarker identification and evaluation of circulating small-EVs'
+links: {}
+added: '2026-11-21'
+evidence: EV-CATCHER isolated and sequenced small RNAs from mouse extracellular vesicles spiked into human plasma.

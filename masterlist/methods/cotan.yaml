@@ -1,0 +1,21 @@
+name: COTAN
+category: dry
+summary: Analyzes single-cell gene co-expression and differential expression using the distribution of zero UMI counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab072
+  year: 2021
+  journal: NAR Genom Bioinform
+  first_author: Galfrè SG
+  last_author: Helmer-Citterich M
+  pmid: '34396096'
+  pmcid: PMC8356963
+  title: 'COTAN: scRNA-seq data analysis based on gene co-expression'
+links: {}
+added: '2026-11-21'
+evidence: COTAN assesses correlated or anti-correlated gene expression and differential expression using a generalized contingency
+  table framework.

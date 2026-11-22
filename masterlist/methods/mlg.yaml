@@ -1,0 +1,20 @@
+name: MLG
+full_name: Multi Layer Graph Clustering
+category: dry
+summary: Integrates dimensionality reductions from multi-condition single-cell RNA-seq data into a multilayer graph for clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab823
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Lu S
+  last_author: Keleş S
+  title: 'MLG: multilayer graph clustering for multi-condition scRNA-seq data'
+  preprint_doi: 10.1101/2021.03.26.437231
+links: {}
+added: '2026-11-21'
+evidence: MLG generates a multilayer shared nearest-neighbor cell graph to identify fine-grained subpopulations across conditions.

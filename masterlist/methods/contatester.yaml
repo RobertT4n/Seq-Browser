@@ -1,0 +1,20 @@
+name: ContaTester
+category: dry
+summary: A regression-based tool estimates cross-contamination and identifies contaminants in human sequencing cohorts using
+  VCF allele balances.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.10.01.461647
+  year: 2021
+  journal: bioRxiv
+  first_author: Delafoy
+  last_author: V
+  title: 'ContaTester: Fast cross-contamination estimation and identification for large human sequencing cohorts'
+links: {}
+added: '2026-11-21'
+evidence: ContaTester uses allele balance information from VCF files to estimate contamination and identify contaminants across
+  cohorts.

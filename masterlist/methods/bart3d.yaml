@@ -1,0 +1,23 @@
+name: BART3D
+category: dry
+summary: A computational method that infers transcriptional regulators associated with differential chromatin interactions
+  between two Hi-C states.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab173
+  year: 2021
+  journal: Bioinformatics
+  first_author: Wang Z
+  last_author: Zang C
+  pmid: '33720325'
+  pmcid: PMC8479658
+  title: 'BART3D: inferring transcriptional regulators associated with differential chromatin interactions from Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: BART3D compares Hi-C maps from two states and uses public ChIP-seq data to infer regulators associated with differential
+  chromatin interactions.

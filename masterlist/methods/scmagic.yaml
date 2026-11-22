@@ -1,0 +1,21 @@
+name: scMAGIC
+full_name: Single Cell annotation using MArker Genes Identification and two rounds of reference-based Classification
+category: dry
+summary: A two-round reference-based classifier annotates single-cell RNA sequencing data while addressing batch effects.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab1275
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Zhang Y
+  last_author: Tian W
+  pmid: '34986249'
+  pmcid: PMC9071478
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+links: {}
+added: '2026-11-21'
+evidence: scMAGIC uses confidently classified query cells as a new reference for a second round of classification.

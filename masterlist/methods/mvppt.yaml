@@ -1,0 +1,21 @@
+name: mvPPT
+full_name: Pathogenicity Prediction Tool for missense variants
+category: dry
+summary: Predicts the pathogenicity of missense variants using gradient boosting and variant-level features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2022.07.005
+  year: 2022
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Tong SY
+  last_author: Yu YC
+  title: 'mvPPT: A Highly Efficient and Sensitive Pathogenicity Prediction Tool for Missense Variants'
+  preprint_doi: 10.1101/2022.01.05.475156
+links: {}
+added: '2026-11-21'
+evidence: mvPPT classifies missense variants using features including existing prediction scores, frequencies, and genomic
+  context.

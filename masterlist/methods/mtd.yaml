@@ -1,0 +1,23 @@
+name: MTD
+full_name: Meta-Transcriptome Detector
+category: dry
+summary: Quantifies microbial and host transcriptomes from bulk and single-cell RNA-seq data and analyzes their relationships.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac111
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Wu F
+  last_author: Ling B
+  title: 'MTD: a unique pipeline for host and meta-transcriptome joint and integrative analyses of RNA-seq data'
+  preprint_doi: 10.1101/2021.11.16.468881
+links: {}
+added: '2026-11-21'
+evidence: MTD identifies and quantifies microbiome components in bulk and single-cell RNA-seq data and correlates them with
+  the host transcriptome.

@@ -1,0 +1,20 @@
+name: ChromWave
+category: dry
+summary: Predicts transcription factor and nucleosome occupancy profiles from DNA sequence using deep learning.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.03.19.436198
+  year: 2021
+  journal: bioRxiv
+  first_author: Cakiroglu
+  last_author: N. M
+  title: 'ChromWave: Deciphering the DNA-encoded competition between transcription factors and nucleosomes with deep neural
+    networks'
+links: {}
+added: '2026-11-21'
+evidence: ChromWave predicts competing transcription factor and nucleosome occupancy profiles from sequence patterns.

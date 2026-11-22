@@ -1,0 +1,24 @@
+name: RESEPT
+category: dry
+summary: Infers and visualizes tissue architecture from spatial transcriptomics using neural network embeddings and image
+  segmentation.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.08.029
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Chang Y
+  last_author: Ma Q
+  pmid: '36090815'
+  pmcid: PMC9440291
+  title: Define and visualize pathological architectures of human tissues from spatially resolved transcriptomics using deep
+    learning
+  preprint_doi: 10.1101/2021.07.08.451210
+links: {}
+added: '2026-11-21'
+evidence: RESEPT learns a spatially retained embedding from gene expression or RNA velocity and segments its visualization
+  to characterize tissue architecture.

@@ -1,0 +1,21 @@
+name: ModTect
+category: dry
+summary: A statistical framework that discovers RNA modifications from deletion and misincorporation signals in standard RNA-seq
+  data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abd2605
+  year: 2021
+  journal: Sci Adv
+  first_author: Tan KT
+  last_author: Yang H
+  pmid: '34348892'
+  pmcid: PMC8336963
+  title: Repurposing RNA sequencing for discovery of RNA modifications in clinical cohorts
+links: {}
+added: '2026-11-21'
+evidence: ModTect identifies RNA modifications de novo at nucleotide resolution using standard RNA-sequencing signals.

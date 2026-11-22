@@ -1,0 +1,18 @@
+name: SkewC
+category: dry
+summary: Identifies low-quality cells in single-cell RNA-seq data using skewness of gene body coverage.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2022.103777
+  year: 2022
+  journal: iScience
+  first_author: Abugessaisa I
+  last_author: Kasukawa T
+  title: 'SkewC: Identifying cells with skewed gene body coverage in single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SkewC assesses gene coverage for each cell and uses its skewness as a quality measure.

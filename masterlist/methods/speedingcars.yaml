@@ -1,0 +1,27 @@
+name: speedingCARs
+category: wet
+summary: Pooled CAR variant engineering and single-cell sequencing screen cellular responses to shuffled signaling domains.
+readouts:
+- rna
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2021.08.23.457342
+  year: 2021
+  journal: bioRxiv
+  first_author: Di Roberto RB
+  last_author: Reddy ST
+  title: 'speedingCARs: accelerating the engineering of CAR T cells by signaling domain shuffling and single-cell sequencing'
+links: {}
+added: '2026-11-21'
+evidence: A library of 180 CAR variants was integrated into primary human T cells and screened using single-cell RNA and CAR
+  sequencing.

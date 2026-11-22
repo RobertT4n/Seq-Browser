@@ -1,0 +1,22 @@
+name: MAECI
+category: dry
+summary: A pipeline that combines multiple nanopore assemblies and error correction to produce bacterial genome consensus
+  sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2022.04.04.487014
+  year: 2022
+  journal: bioRxiv
+  first_author: Lang J
+  last_author: Lang J
+  title: 'MAECI: A Pipeline For Generating Consensus Sequence With Nanopore Sequencing Long-read Assembly and Error Correction'
+links: {}
+added: '2026-11-21'
+evidence: MAECI generates consensus sequences from multiple assemblies of the same nanopore data and applies error correction.

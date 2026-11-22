@@ -1,0 +1,22 @@
+name: NetCoMi
+full_name: Network Construction and comparison for Microbiome data
+category: dry
+summary: NetCoMi provides a workflow for constructing, analyzing, and comparing microbial association networks from sequencing
+  data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa290
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Peschel S
+  last_author: Depner M
+  pmid: '33264391'
+  pmcid: PMC8293835
+  title: 'NetCoMi: network construction and comparison for microbiome data in R'
+links: {}
+added: '2026-11-21'
+evidence: NetCoMi integrates methods for constructing microbial association networks and quantifying differences between networks.

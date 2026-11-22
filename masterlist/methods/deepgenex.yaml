@@ -1,0 +1,22 @@
+name: DeepGeneX
+category: dry
+summary: A deep neural network framework that selects single-cell RNA-seq features to predict response to immune checkpoint
+  therapy and discover biomarkers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2022.104228
+  year: 2022
+  journal: iScience
+  first_author: Kang Y
+  last_author: Gujral TS
+  pmid: '35494249'
+  pmcid: PMC9044175
+  title: Deep neural network modeling identifies biomarkers of response to immune-checkpoint therapy
+links: {}
+added: '2026-11-21'
+evidence: DeepGeneX uses neural network modeling and feature elimination to identify six genes predictive of immunotherapy
+  response.

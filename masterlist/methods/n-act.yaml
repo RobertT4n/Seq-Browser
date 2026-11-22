@@ -1,0 +1,19 @@
+name: N-ACT
+full_name: Neural-Attention for Cell Type identification
+category: dry
+summary: An interpretable neural network identifies cell types and salient genes from single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.12.491682
+  year: 2022
+  journal: bioRxiv
+  first_author: Heydari AA
+  last_author: Sindi SS
+  title: 'N-ACT: An Interpretable Deep Learning Model for Automatic Cell Type and Salient Gene Identification'
+links: {}
+added: '2026-11-21'
+evidence: N-ACT uses neural attention to identify cell types and salient genes in single-cell RNA sequencing data.

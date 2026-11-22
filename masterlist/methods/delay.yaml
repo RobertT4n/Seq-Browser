@@ -1,0 +1,22 @@
+name: DELAY
+category: dry
+summary: A convolutional neural network that infers gene regulatory relationships from pseudotime-ordered single-cell trajectories.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/pnasnexus/pgad113
+  year: 2023
+  journal: PNAS Nexus
+  first_author: Reagor CC
+  last_author: Hudspeth AJ
+  pmid: '37113980'
+  pmcid: PMC10129065
+  title: Depicting pseudotime-lagged causality across single-cell trajectories for accurate gene-regulatory inference
+  preprint_doi: 10.1101/2022.04.25.489377
+links: {}
+added: '2026-11-21'
+evidence: DELAY uses pseudotime-lagged trajectories to predict regulatory networks from scRNA-seq and scATAC-seq data.

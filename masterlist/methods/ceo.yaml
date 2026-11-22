@@ -1,0 +1,33 @@
+name: CEO
+full_name: Cpf1-based enrichment combined with ONT sequencing
+category: wet
+summary: Cpf1-targeted enrichment and nanopore sequencing characterize long, repetitive genomic sequences.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- long-read-sequencing
+species:
+- invertebrate
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/insects12090832
+  year: 2021
+  journal: Insects
+  first_author: Lu W
+  last_author: Xia Q
+  pmid: '34564273'
+  pmcid: PMC8467315
+  title: Precise Characterization of <i>Bombyx mori Fibroin Heavy Chain</i> Gene Using Cpf1-Based Enrichment and Oxford Nanopore
+    Technologies
+links: {}
+added: '2026-11-21'
+evidence: Cpf1 cleavage, adapter ligation, and nanopore sequencing resolved the repetitive Bombyx mori FibH gene and detected
+  methylated CG sites.

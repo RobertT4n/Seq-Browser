@@ -1,0 +1,20 @@
+name: SmMIP-tools
+category: dry
+summary: Processes targeted smMIP sequencing reads and calls single-nucleotide variants and short insertions and deletions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac081
+  year: 2022
+  journal: Bioinformatics
+  first_author: Medeiros JJF
+  last_author: Abelson S
+  title: 'SmMIP-tools: a computational toolset for processing and analysis of single-molecule molecular inversion probes-derived
+    data'
+  preprint_doi: 10.1101/2021.06.03.446993
+links: {}
+added: '2026-11-21'
+evidence: The toolset includes read quality control and molecular tag retrieval alongside an error-aware SNV and indel caller.

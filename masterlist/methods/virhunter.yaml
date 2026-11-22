@@ -1,0 +1,20 @@
+name: VirHunter
+category: dry
+summary: Uses a convolutional neural network to detect known and novel RNA viruses in sequencing assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2022.867111
+  year: 2022
+  journal: Front Bioinform
+  first_author: Sukhorukov G
+  last_author: Nikolski M
+  pmid: '36304258'
+  pmcid: PMC9580956
+  title: 'VirHunter: A Deep Learning-Based Method for Detection of Novel RNA Viruses in Plant Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: VirHunter detects viruses in sequencing assemblies and was trained and evaluated for plant RNA viruses.

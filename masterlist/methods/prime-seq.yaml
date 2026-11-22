@@ -1,0 +1,26 @@
+name: prime-seq
+category: wet
+summary: Early barcoding enables cost-efficient bulk RNA sequencing from samples containing as few as 1,000 cells.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+input_sample:
+- low-input
+reference:
+  doi: 10.1186/s13059-022-02660-8
+  year: 2022
+  journal: Genome Biol
+  first_author: Janjic A
+  last_author: Enard W
+  pmid: '35361256'
+  pmcid: PMC8969310
+  title: Prime-seq, efficient and powerful bulk RNA sequencing
+  preprint_doi: 10.1101/2021.09.27.459575
+links: {}
+added: '2026-11-21'
+evidence: The authors validated prime-seq as a bulk RNA-seq method with early barcoding and optimal performance using 1,000
+  cells as input.

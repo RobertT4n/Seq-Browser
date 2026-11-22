@@ -1,0 +1,23 @@
+name: Entropy Sorting
+category: dry
+summary: An unsupervised feature-selection framework that identifies genes indicative of cell identity in single-cell expression
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.stemcr.2022.09.007
+  year: 2023
+  journal: Stem Cell Reports
+  first_author: Radley A
+  last_author: Dunn SJ
+  pmid: '36240776'
+  pmcid: PMC9859930
+  title: Entropy sorting of single-cell RNA sequencing data reveals the inner cell mass in the human pre-implantation embryo
+  preprint_doi: 10.1101/2022.04.08.487653
+links: {}
+added: '2026-11-21'
+evidence: Entropy Sorting assesses whether correlations between features are more likely due to chance or a dependent relationship
+  and was applied to human embryo scRNA-seq data.

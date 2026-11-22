@@ -1,0 +1,19 @@
+name: PACeR
+category: dry
+summary: Processes and aligns chimeric RNA sequencing reads and performs peak calling and motif analysis.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.05.25.493487
+  year: 2022
+  journal: bioRxiv
+  first_author: Mills WT
+  last_author: Meffert MK
+  title: 'PACeR: a bioinformatic pipeline for the analysis of chimeric RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: PACeR analyzes chimeric RNA sequencing data with read processing and alignment followed by peak calling and motif
+  analysis.

@@ -1,0 +1,19 @@
+name: SVRare
+category: dry
+summary: Aggregates structural variants called by other tools and annotates rare variants to aid discovery of disease-causing
+  variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.10.15.21265069
+  year: 2021
+  journal: medRxiv
+  first_author: Yu
+  last_author: Genomics England Research Consortium
+  title: 'SVRare: discovering disease-causing structural variants in the 100K Genomes Project'
+links: {}
+added: '2026-11-21'
+evidence: SVRare aggregates structural variants and efficiently annotates rare variants from whole-genome sequencing data.

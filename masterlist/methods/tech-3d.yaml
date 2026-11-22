@@ -1,0 +1,19 @@
+name: TECH-3D
+full_name: Transfer learning Encoder for CHromatin 3D structure prediction
+category: dry
+summary: Reconstructs three-dimensional chromatin structure from Hi-C data using transfer learning.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.12.15.472387
+  year: 2021
+  journal: bioRxiv
+  first_author: Meynier Georges
+  last_author: M. A
+  title: Modeling the Three-Dimensional Chromatin Structure from Hi-C Data with Transfer Learning
+links: {}
+added: '2026-11-21'
+evidence: TECH-3D combines transfer learning and data generation procedures to reconstruct chromatin structure from Hi-C data.

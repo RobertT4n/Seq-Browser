@@ -1,0 +1,24 @@
+name: circfull
+category: dry
+summary: Identifies full-length circular RNA sequences from rolling circular nanopore reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.7554/elife.69457
+  year: 2021
+  journal: Elife
+  first_author: Liu Z
+  last_author: Yang E
+  pmid: '34647522'
+  pmcid: PMC8550772
+  title: circFL-seq reveals full-length circular RNAs with rolling circular reverse transcription and nanopore sequencing
+  preprint_doi: 10.1101/2021.07.05.451107
+links: {}
+added: '2026-11-21'
+evidence: The customized circfull pipeline directly identifies full-length circRNA sequences from rolling circular reads.

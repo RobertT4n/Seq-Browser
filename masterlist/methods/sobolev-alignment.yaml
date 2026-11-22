@@ -1,0 +1,21 @@
+name: Sobolev Alignment
+category: dry
+summary: Sobolev Alignment uses deep generative models and kernel methods to identify shared processes across single-cell
+  RNA sequencing datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.03.08.483431
+  year: 2022
+  journal: bioRxiv
+  first_author: Mourragui SM
+  last_author: Wessels LF
+  title: Identifying commonalities between cell lines and tumors at the single cell level using Sobolev Alignment of deep
+    generative models
+links: {}
+added: '2026-11-21'
+evidence: The framework captures nonlinear processes in single-cell RNA-seq data and aligns them to compare cell lines and
+  tumours.

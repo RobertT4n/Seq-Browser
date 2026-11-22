@@ -1,0 +1,28 @@
+name: CoronaHiT
+category: wet
+summary: Sequences SARS-CoV-2 genomes using transposase-based library preparation of ARTIC PCR products.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- tn5
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13073-021-00839-5
+  year: 2021
+  journal: Genome Med
+  first_author: Baker DJ
+  last_author: O'Grady J
+  pmid: '33563320'
+  pmcid: PMC7871948
+  title: 'CoronaHiT: high-throughput sequencing of SARS-CoV-2 genomes'
+links: {}
+added: '2026-11-21'
+evidence: CoronaHiT uses transposase-based preparation of ARTIC PCR products and was demonstrated on nanopore and Illumina
+  platforms.

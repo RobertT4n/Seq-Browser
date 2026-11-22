@@ -1,0 +1,18 @@
+name: Fast-HBR
+category: dry
+summary: A reference-free tool removes duplicate sequencing reads using hash tables.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.6026/97320630018036
+  year: 2022
+  journal: Bioinformation
+  first_author: Department of Computer Science
+  last_author: Altayyar S
+  title: 'Fast-HBR: Fast hash based duplicate read remover'
+links: {}
+added: '2026-11-21'
+evidence: Fast-HBR removes duplicate reads without a reference genome and uses hash tables to reduce memory usage.

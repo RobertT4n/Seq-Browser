@@ -1,0 +1,20 @@
+name: SavvyCNV
+category: dry
+summary: SavvyCNV calls germline copy number variants genome-wide using off-target reads from exome or targeted sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009940
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Laver TW
+  last_author: Wakeling MN
+  pmid: '35294448'
+  pmcid: PMC8959187
+  title: 'SavvyCNV: Genome-wide CNV calling from off-target reads'
+links: {}
+added: '2026-11-21'
+evidence: SavvyCNV exploits off-target reads from exome and targeted sequencing to call germline CNVs across the genome.

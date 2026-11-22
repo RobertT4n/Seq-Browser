@@ -1,0 +1,19 @@
+name: SOMDE
+category: dry
+summary: Identifies spatially variable genes by combining self-organizing maps with Gaussian process modeling.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab471
+  year: 2021
+  journal: Bioinformatics
+  first_author: Hao M
+  last_author: Zhang X
+  title: 'SOMDE: a scalable method for identifying spatially variable genes with self-organizing map'
+links: {}
+added: '2026-11-21'
+evidence: SOMDE clusters neighboring cells into nodes and models node-level spatial gene expression to identify spatially
+  variable genes.

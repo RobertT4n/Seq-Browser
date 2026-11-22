@@ -1,0 +1,22 @@
+name: Multi-GBS
+category: wet
+summary: Provides massively multiplexed genotyping-by-sequencing optimized for large, repetitive conifer genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- plant
+reference:
+  doi: 10.1101/2022.01.10.475685
+  year: 2022
+  journal: bioRxiv
+  first_author: Vallebueno-Estrada M
+  last_author: Swarts K
+  title: 'Multi-GBS: A massively multiplexed GBS-based protocol optimized for large, repetitive conifer genomes'
+links: {}
+added: '2026-11-21'
+evidence: The method yielded over a million variant calls across 32 Norway spruce genotypes.

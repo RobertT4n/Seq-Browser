@@ -1,0 +1,23 @@
+name: BleTIES
+category: dry
+summary: Detects, assembles and analyzes internally eliminated DNA sequences in ciliates using mapped long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btab613
+  year: 2021
+  journal: Bioinformatics
+  first_author: Seah BKB
+  last_author: Swart EC
+  title: 'BleTIES: annotation of natural genome editing in ciliates using long read sequencing'
+  preprint_doi: 10.1101/2021.05.18.444610
+links: {}
+added: '2026-11-21'
+evidence: BleTIES is a toolkit for detecting, assembling and analyzing internally eliminated sequences using mapped long reads.

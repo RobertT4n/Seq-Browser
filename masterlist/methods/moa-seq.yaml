@@ -1,0 +1,27 @@
+name: MOA-seq
+full_name: MNase-defined cistrome-Occupancy Analysis
+category: wet
+summary: MNase-defined footprints identify putative transcription factor binding sites genome-wide.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+species:
+- plant
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pgen.1009689
+  year: 2021
+  journal: PLoS Genet
+  first_author: Savadel SD
+  last_author: Bass HW
+  pmid: '34383745'
+  pmcid: PMC8360572
+  title: The native cistrome and sequence motif families of the maize ear
+links: {}
+added: '2026-11-21'
+evidence: MOA-seq identified 145,000 footprints in developing maize ears as putative transcription factor binding sites.

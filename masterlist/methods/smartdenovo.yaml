@@ -1,0 +1,21 @@
+name: SMARTdenovo
+category: dry
+summary: Assembles genomes from noisy single-molecule long reads using an overlap-layout-consensus approach.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.46471/gigabyte.15
+  year: 2021
+  journal: Gigabyte
+  first_author: Liu H
+  last_author: Ruan J
+  title: 'SMARTdenovo: a de novo assembler using long noisy reads'
+links: {}
+added: '2026-11-21'
+evidence: SMARTdenovo is a single-molecule sequencing assembler that follows the overlap-layout-consensus paradigm and does
+  not require highly accurate raw reads for error correction.

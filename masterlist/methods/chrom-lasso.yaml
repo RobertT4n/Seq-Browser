@@ -1,0 +1,21 @@
+name: Chrom-Lasso
+category: dry
+summary: Detects functional chromatin interactions from Hi-C data using lasso regression to correct biases and combine local
+  read information.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab181
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Lu J
+  last_author: Lan X
+  pmid: '34013331'
+  pmcid: PMC8574949
+  title: 'Chrom-Lasso: a lasso regression-based model to detect functional interactions using Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: Chrom-Lasso removes complex biases and identifies interacting loci using the local distribution of Hi-C reads.

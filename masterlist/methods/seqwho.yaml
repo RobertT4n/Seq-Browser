@@ -1,0 +1,19 @@
+name: SeqWho
+category: dry
+summary: Classifies the organism and sequencing protocol of sequence files using k-mer and repeat-sequence information.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.03.10.434827
+  year: 2021
+  journal: bioRxiv
+  first_author: Bennett
+  last_author: D
+  title: 'SeqWho: Reliable, rapid determination of sequence file identity using k-mer frequencies'
+links: {}
+added: '2026-11-21'
+evidence: SeqWho uses an alignment-free random forest classifier to distinguish organisms and sequencing technologies from
+  sequence-file biases.

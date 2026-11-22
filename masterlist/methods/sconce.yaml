@@ -1,0 +1,20 @@
+name: SCONCE
+category: dry
+summary: A hidden Markov model uses tumor evolutionary history to call copy number alterations from low-coverage single-cell
+  whole-genome sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac041
+  year: 2022
+  journal: Bioinformatics
+  first_author: Hui S
+  last_author: Nielsen R
+  title: 'SCONCE: a method for profiling copy number alterations in cancer evolution using single-cell whole genome sequencing'
+  preprint_doi: 10.1101/2021.09.23.461581
+links: {}
+added: '2026-11-21'
+evidence: SCONCE analyzes single-cell tumor read depth with matched normal controls to decode copy number profiles.

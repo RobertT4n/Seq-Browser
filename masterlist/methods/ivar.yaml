@@ -1,0 +1,19 @@
+name: iVar
+category: dry
+summary: Manages variant annotations and their revision history to support interpretation and identification of affected patients.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12030384
+  year: 2021
+  journal: Genes
+  first_author: Castellano S
+  last_author: Tagliafico E
+  title: iVar, an Interpretation-Oriented Tool to Manage the Update and Revision of Variant Annotation and Classification
+links: {}
+added: '2026-11-21'
+evidence: iVar imports variant and annotation files, tracks updated attributes, and identifies patients carrying a selected
+  variant.

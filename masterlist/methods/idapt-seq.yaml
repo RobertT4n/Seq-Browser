@@ -1,0 +1,22 @@
+name: iDAPT-seq
+category: wet
+summary: Uses a dual transposase-peroxidase approach to sequence DNA associated with accessible chromatin.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.1038/s41592-021-01077-8
+  year: 2021
+  journal: Nat Methods
+  first_author: Lee JD
+  last_author: Pandolfi PP
+  pmid: '33649590'
+  pmcid: PMC8272231
+  title: Dual DNA and protein tagging of open chromatin unveils dynamics of epigenomic landscapes in leukemia
+links: {}
+added: '2026-11-21'
+evidence: The iDAPT platform detects DNA by iDAPT-seq and protein by iDAPT-MS associated with accessible chromatin.

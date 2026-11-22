@@ -1,0 +1,22 @@
+name: LinQ-View
+category: dry
+summary: Integrates single-cell transcript and surface protein profiles for visualization, clustering, and cluster purity
+  assessment.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2021.100056
+  year: 2021
+  journal: Cell Rep Methods
+  first_author: Li L
+  last_author: Wilson PC
+  pmid: '35475142'
+  pmcid: PMC9017149
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+links: {}
+added: '2026-11-21'
+evidence: LinQ-View integrates transcriptional and cell surface protein expression data and provides a cluster purity metric.

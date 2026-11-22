@@ -1,0 +1,28 @@
+name: OCEANS
+full_name: Oncogene Concatenated Enriched Amplicon Nanopore Sequencing
+category: wet
+summary: Amplifies and concatenates mutation-containing amplicons for sensitive nanopore sequencing of targeted cancer panels.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-021-02449-1
+  year: 2021
+  journal: Genome Biol
+  first_author: Thirunavukarasu D
+  last_author: Zhang DY
+  pmid: '34482832'
+  pmcid: PMC8419911
+  title: Oncogene Concatenated Enriched Amplicon Nanopore Sequencing for rapid, accurate, and affordable somatic mutation
+    detection
+links: {}
+added: '2026-11-21'
+evidence: Four multigene panels targeting recurrent cancer mutations were validated on clinical samples.

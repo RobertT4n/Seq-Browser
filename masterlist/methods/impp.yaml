@@ -1,0 +1,24 @@
+name: iMPP
+full_name: integrated Metagenomic Protein Predictor
+category: dry
+summary: A metagenomic workflow that combines assembly graph generation, gene calling, and peptide assembly to recover protein-coding
+  sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqad023
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Thippabhotla S
+  last_author: Zhong C
+  pmid: '36915411'
+  pmcid: PMC10006731
+  title: Integrated <i>de novo</i> gene prediction and peptide assembly of metagenomic sequencing data
+  preprint_doi: 10.1101/2021.09.20.461079
+links: {}
+added: '2026-11-21'
+evidence: iMPP integrates a hybrid assembly graph, graph-based gene calling, and peptide assembly-based refinement for de
+  novo metagenomic functional analysis.

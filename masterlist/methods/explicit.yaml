@@ -1,0 +1,22 @@
+name: EXPLICIT
+full_name: Expression Prediction via Log-linear Combination of Transcription Factors
+category: dry
+summary: EXPLICIT predicts Arabidopsis gene expression from transcription factor activities and supports inference of transcriptional
+  regulators.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/tpj.15315
+  year: 2021
+  journal: Plant J
+  first_author: Geng H
+  last_author: Ma S
+  pmid: '33974299'
+  title: An Arabidopsis expression predictor enables inference of transcriptional regulators for gene modules
+links: {}
+added: '2026-11-21'
+evidence: EXPLICIT predicts expression of non-TF genes using transcription factors and enables inference of regulators for
+  genes and gene modules.

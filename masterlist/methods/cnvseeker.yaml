@@ -1,0 +1,24 @@
+name: CNVSeeker
+category: dry
+summary: Analyzes sequencing data to call copy number variants and produce variant interpretation reports.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btag034
+  year: 2022
+  journal: Bioinformatics
+  first_author: Xiang X
+  last_author: Li J
+  title: Enhancing interpretation of clinical disease-associated copy number variations from multiple sequencing strategies
+    with CNVSeeker
+links: {}
+added: '2026-11-21'
+evidence: CNVSeeker analyzes raw sequencing data through variant interpretation and supports short reads, PacBio HiFi, and
+  Oxford Nanopore data.

@@ -1,0 +1,23 @@
+name: UniPath
+category: dry
+summary: Transforms single-cell gene expression or open-chromatin profiles into pathway and gene-set enrichment scores.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaa1138
+  year: 2021
+  journal: Nucleic Acids Res
+  first_author: Chawla S
+  last_author: Kumar V
+  pmid: '33275158'
+  pmcid: PMC7897496
+  title: 'UniPath: a uniform approach for pathway and gene-set based analysis of heterogeneity in single-cell epigenome and
+    transcriptome profiles'
+links: {}
+added: '2026-11-21'
+evidence: UniPath represents single cells using pathway and gene-set enrichment scores derived from their open-chromatin or
+  gene-expression profiles.

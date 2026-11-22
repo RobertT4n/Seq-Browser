@@ -1,0 +1,22 @@
+name: Uphyloplot2
+category: dry
+summary: Uphyloplot2 generates phylogenetic plots depicting tumor clonality from inferred RNA-seq data or Newick dendrograms.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-021-07739-3
+  year: 2021
+  journal: BMC Genomics
+  first_author: Kurtenbach S
+  last_author: Harbour JW
+  pmid: '34090344'
+  pmcid: PMC8180062
+  title: 'Uphyloplot2: visualizing phylogenetic trees from single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: Uphyloplot2 generates phylogenetic plots directly from inferred RNA-seq data or Newick formatted dendrogram files.

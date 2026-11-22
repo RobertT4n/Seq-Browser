@@ -1,0 +1,28 @@
+name: pAC-Seq
+full_name: poly-adenine CRISPR gRNA-based single-cell RNA-sequencing
+category: wet
+summary: Detects guide RNAs in single-cell RNA-seq to assess transcriptomic effects of CRISPR alterations to cis-regulatory
+  regions.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- crispr-knockout
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1371/journal.pcbi.1008789
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Yeo GHT
+  last_author: Gifford DK
+  pmid: '33711017'
+  pmcid: PMC8011753
+  title: Detection of gene cis-regulatory element perturbations in single-cell transcriptomes
+links: {}
+added: '2026-11-21'
+evidence: pAC-Seq directly observes guide RNAs in scRNA-seq and assesses consequences of CRISPR/Cas9 alterations of cis-regulatory
+  regions.

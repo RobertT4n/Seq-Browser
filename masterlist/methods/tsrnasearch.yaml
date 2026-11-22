@@ -1,0 +1,20 @@
+name: tsRNAsearch
+category: dry
+summary: Identifies differentially abundant tRNA fragments and other noncoding RNAs in small RNA-sequencing datasets.
+readouts:
+- rna-degradation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab515
+  year: 2021
+  journal: Bioinformatics
+  first_author: Donovan PD
+  last_author: Prehn JHM
+  title: 'tsRNAsearch: a pipeline for the identification of tRNA and ncRNA fragments from small RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: tsRNAsearch compares groups of small RNA-seq datasets to identify differentially abundant tRNA fragments and other
+  noncoding RNAs.

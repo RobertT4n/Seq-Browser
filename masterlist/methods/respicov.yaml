@@ -1,0 +1,30 @@
+name: RespiCoV
+category: wet
+summary: Screens for respiratory viruses and bacteria using multiplex PCR and nanopore sequencing.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pone.0264855
+  year: 2022
+  journal: PLoS One
+  first_author: Brinkmann A
+  last_author: Nitsche A
+  pmid: '35263362'
+  pmcid: PMC8906600
+  title: 'RespiCoV: Simultaneous identification of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) and 46 respiratory
+    tract viruses and bacteria by amplicon-based Oxford-Nanopore MinION sequencing'
+links: {}
+added: '2026-11-21'
+evidence: RespiCoV combines multiplex PCR and MinION sequencing to screen for 41 viral and five bacterial respiratory agents.

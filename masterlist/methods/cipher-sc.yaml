@@ -1,0 +1,21 @@
+name: CIPHER-SC
+category: dry
+summary: CIPHER-SC uses graph convolution and a context-aware network incorporating single-cell transcriptomes to infer disease-gene
+  associations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2020.3017547
+  year: 2022
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Zhang Y
+  last_author: Li S
+  pmid: '32809944'
+  title: 'CIPHER-SC: Disease-Gene Association Inference Using Graph Convolution on a Context-Aware Network With Single-Cell
+    Data'
+links: {}
+added: '2026-11-21'
+evidence: CIPHER-SC integrates single-cell transcriptome data into a context-aware network for disease-gene association inference.

@@ -1,0 +1,21 @@
+name: UMGAP
+full_name: Unipept MetaGenomics Analysis Pipeline
+category: dry
+summary: Profiles taxa in shotgun metagenomes using protein coding regions identified in short reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08542-4
+  year: 2022
+  journal: BMC Genomics
+  first_author: Van der Jeugt F
+  last_author: Mesuere B
+  title: 'UMGAP: the Unipept MetaGenomics Analysis Pipeline'
+  preprint_doi: 10.1101/2021.05.18.444604
+links: {}
+added: '2026-11-21'
+evidence: UMGAP uses protein coding regions in short reads and an index covering archaea, bacteria, eukaryotes and viruses
+  for taxonomic profiling.

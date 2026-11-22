@@ -1,0 +1,23 @@
+name: DeepMAPS
+full_name: Deep learning-based Multi-omics Analysis Platform for Single-cell data
+category: dry
+summary: Uses a heterogeneous graph transformer to infer biological networks and cell relationships from single-cell multi-omics
+  data.
+readouts:
+- rna
+- chromatin-accessibility
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.10.31.466658
+  year: 2021
+  journal: bioRxiv
+  first_author: Ma A
+  last_author: Ma Q
+  title: 'DeepMAPS: Single-cell biological network inference using heterogeneous graph transformer'
+links: {}
+added: '2026-11-21'
+evidence: DeepMAPS infers cell-cell, cell-gene and gene-gene relations and was applied to CITE-seq and matched scRNA-seq and
+  scATAC-seq data.

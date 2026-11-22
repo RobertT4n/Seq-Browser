@@ -1,0 +1,21 @@
+name: CytoSig
+full_name: Cytokine Signaling Analyzer
+category: dry
+summary: A database and predictive model infer cytokine signaling activity from bulk or single-cell transcriptomic profiles.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01274-5
+  year: 2021
+  journal: Nature Methods
+  first_author: Jiang P
+  last_author: Wucherpfennig KW
+  title: Systematic investigation of cytokine signaling activity at the tissue and single-cell levels
+links: {}
+added: '2026-11-21'
+evidence: CytoSig uses transcriptional patterns induced by cytokines to predict signaling activity in bulk and single-cell
+  transcriptomic data.

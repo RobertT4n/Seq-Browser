@@ -1,0 +1,22 @@
+name: SLOW5
+category: dry
+summary: Provides a nanopore sequencing data format designed for efficient parallel analysis.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-021-01147-4
+  year: 2022
+  journal: Nature Biotechnology
+  first_author: Gamaarachchi H
+  last_author: Deveson IW
+  title: Fast nanopore sequencing data analysis with SLOW5
+links: {}
+added: '2026-11-21'
+evidence: SLOW5 is an alternative nanopore data format engineered for parallelization and demonstrated using human genome
+  methylation profiling.

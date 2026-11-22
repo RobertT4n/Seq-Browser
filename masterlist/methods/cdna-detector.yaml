@@ -1,0 +1,21 @@
+name: cDNA-detector
+category: dry
+summary: Detects and removes exogenous cDNA contamination from DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04529-2
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Qi M
+  last_author: Rheinbay E
+  pmid: '34952565'
+  pmcid: PMC8709999
+  title: 'cDNA-detector: detection and removal of cDNA contamination in DNA sequencing libraries'
+  preprint_doi: 10.1101/2021.08.11.455962
+links: {}
+added: '2026-11-21'
+evidence: cDNA-detector identifies and removes exogenous cDNA contamination that can produce misleading coverage peaks.
