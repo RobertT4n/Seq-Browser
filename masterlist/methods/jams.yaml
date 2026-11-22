@@ -1,0 +1,23 @@
+name: JAMS
+full_name: joint accessibility-methylation-sequence
+category: dry
+summary: Models transcription-factor occupancy using accessibility, methylation and DNA sequence to identify associations
+  with intra-motif methylation.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02713-y
+  year: 2022
+  journal: Genome Biology
+  first_author: Hernandez-Corchado A
+  last_author: Najafabadi HS
+  title: Toward a base-resolution panorama of the in vivo impact of cytosine methylation on transcription factor binding
+links: {}
+added: '2026-11-21'
+evidence: JAMS connects ChIP-seq binding signal to accessibility, regional methylation, DNA sequence and base-resolution cytosine
+  methylation.

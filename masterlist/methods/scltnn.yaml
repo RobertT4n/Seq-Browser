@@ -1,0 +1,19 @@
+name: scLTNN
+category: dry
+summary: Infers origin and end cell states and developmental trajectories from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.09.28.510020
+  year: 2022
+  journal: bioRxiv
+  first_author: Zeng Z
+  last_author: Du H
+  title: Identify the origin and end cells and infer the trajectory of cellular fate automatically
+links: {}
+added: '2026-11-21'
+evidence: scLTNN automatically infers origin and end cell states and calculates developmental trajectories and differentiation
+  directions.

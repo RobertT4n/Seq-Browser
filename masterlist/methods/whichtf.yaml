@@ -1,0 +1,20 @@
+name: WhichTF
+category: dry
+summary: Ranks functionally important transcription factors by combining chromatin accessibility with predicted binding sites
+  and gene-regulatory models.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010378
+  year: 2022
+  journal: PLOS Computational Biology
+  first_author: Tanigawa Y
+  last_author: Bejerano G
+  title: WhichTF is functionally important in your open chromatin data?
+links: {}
+added: '2026-11-21'
+evidence: WhichTF integrates accessibility measurements, conservation-aware transcription factor binding sites, and putative
+  gene-regulatory models to rank transcription factors.

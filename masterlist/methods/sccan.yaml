@@ -1,0 +1,21 @@
+name: scCAN
+full_name: single-cell Clustering using Autoencoder and Network fusion
+category: dry
+summary: scCAN clusters large, sparse single-cell RNA-seq datasets using an autoencoder and network fusion.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-022-14218-6
+  year: 2022
+  journal: Sci Rep
+  first_author: Tran B
+  last_author: Nguyen T
+  pmid: '35715568'
+  pmcid: PMC9206025
+  title: 'scCAN: single-cell clustering using autoencoder and network fusion'
+links: {}
+added: '2026-11-21'
+evidence: scCAN estimates the number of cell types and separates cells in large, sparse scRNA-seq datasets.

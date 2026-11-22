@@ -1,0 +1,23 @@
+name: genomeSidekick
+category: dry
+summary: Provides a graphical interface for differential analysis and visualization of transcriptomic and epigenomic datasets.
+readouts:
+- rna
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2022.831025
+  year: 2022
+  journal: Front Bioinform
+  first_author: Chen J
+  last_author: Chapski DJ
+  pmid: '36304311'
+  pmcid: PMC9580848
+  title: 'genomeSidekick: A user-friendly epigenomics data analysis tool'
+links: {}
+added: '2026-11-21'
+evidence: genomeSidekick analyzes transcriptomic, chromatin accessibility and chromatin immunoprecipitation data and outputs
+  differential features.

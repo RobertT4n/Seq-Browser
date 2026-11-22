@@ -1,0 +1,20 @@
+name: DeepCI
+category: dry
+summary: DeepCI uses autoencoders to learn cell and gene embeddings for clustering and recovering gene expression in single-cell
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2022.06.010
+  year: 2022
+  journal: Methods
+  first_author: Liang Z
+  last_author: Li M
+  pmid: '35777719'
+  title: A deep matrix factorization based approach for single-cell RNA-seq data clustering
+links: {}
+added: '2026-11-21'
+evidence: DeepCI simultaneously learns cell representations and clusters and recovers gene expression from cell and gene embeddings.

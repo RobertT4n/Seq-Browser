@@ -1,0 +1,24 @@
+name: PRECAST
+full_name: Probabilistic embedding and clustering with alignment for spatial transcriptomics data integration
+category: dry
+summary: PRECAST integrates spatial transcriptomics datasets across tissue slides using spatial factor analysis, clustering
+  and embedding alignment.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-35947-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Liu W
+  last_author: Liu J
+  pmid: '36653349'
+  pmcid: PMC9849443
+  title: Probabilistic embedding, clustering, and alignment for integrating spatial transcriptomics data with PRECAST
+  preprint_doi: 10.1101/2022.06.26.497672
+links: {}
+added: '2026-11-21'
+evidence: PRECAST integrates multiple spatial transcriptomics datasets while allowing only partially shared cell or domain
+  clusters.

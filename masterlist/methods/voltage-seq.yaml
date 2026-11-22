@@ -1,0 +1,28 @@
+name: Voltage-Seq
+category: wet
+summary: Optical voltage imaging guides the selection of neurons by postsynaptic response for single-cell RNA sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-023-01965-1
+  year: 2023
+  journal: Nat Methods
+  first_author: Csillag V
+  last_author: Fuzik J
+  pmid: '37474808'
+  pmcid: PMC10482676
+  title: 'Voltage-Seq: all-optical postsynaptic connectome-guided single-cell transcriptomics'
+  preprint_doi: 10.1101/2022.11.09.515875
+links: {}
+added: '2026-11-21'
+evidence: Voltage-Seq uses optical voltage imaging and response classification to guide soma harvesting for subsequent single-cell
+  RNA sequencing.

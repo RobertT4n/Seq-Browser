@@ -1,0 +1,24 @@
+name: MeStudio
+category: dry
+summary: Pipeline that combines genome-wide DNA methylation profiles with coding and noncoding genomic features.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.3390/ijms24010159
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Riccardi C
+  last_author: Mengoni A
+  pmid: '36613603'
+  pmcid: PMC9820200
+  title: 'Crossing Bacterial Genomic Features and Methylation Patterns with MeStudio: An Epigenomic Analysis Tool'
+links: {}
+added: '2026-11-21'
+evidence: MeStudio reports DNA methylation in coding sequences and noncoding regions and was applied to bacterial single-molecule
+  real-time sequencing data.

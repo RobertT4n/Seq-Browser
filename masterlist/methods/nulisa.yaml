@@ -1,0 +1,27 @@
+name: NULISA
+full_name: NUcleic acid Linked Immuno-Sandwich Assay
+category: wet
+summary: Uses DNA-conjugated antibody pairs and immunocomplex purification to measure multiplexed proteins by sequencing.
+readouts:
+- protein
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41467-023-42834-x
+  year: 2023
+  journal: Nat Commun
+  first_author: Feng W
+  last_author: Ma XJ
+  pmid: '37945559'
+  pmcid: PMC10636041
+  title: 'NULISA: a proteomic liquid biopsy platform with attomolar sensitivity and high multiplexing'
+  preprint_doi: 10.1101/2023.04.09.536130
+links: {}
+added: '2026-11-21'
+evidence: NULISA uses pairs of DNA-conjugated antibodies to generate target- and sample-barcoded reporter DNA for a multiplexed
+  sequencing readout.

@@ -1,0 +1,19 @@
+name: ERStruct
+category: dry
+summary: Estimates informative principal components for inferring population structure from whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.08.15.503962
+  year: 2022
+  journal: bioRxiv
+  first_author: Yang
+  last_author: Z
+  title: 'ERStruct: A Python Package for Inferring the Number of Top Principal Components from Whole Genome Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: ERStruct estimates the number of top informative principal components that capture population structure from whole-genome
+  sequencing data.

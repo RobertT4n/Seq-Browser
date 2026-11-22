@@ -1,0 +1,27 @@
+name: mFISH3D
+category: wet
+summary: Multiplexed staining and imaging visualize mRNAs from more than ten genes at cellular resolution in large brain samples.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2022.11.23.517711
+  year: 2022
+  journal: bioRxiv
+  first_author: Murakami TC
+  last_author: Heintz N
+  title: Multiplexed and scalable cellular phenotyping toward the standardized three-dimensional human neuroanatomy
+links: {}
+added: '2026-11-21'
+evidence: mFISH3D enables single-cell-resolution imaging of mRNAs from more than ten genes and was applied to postmortem human
+  cerebral cortex.

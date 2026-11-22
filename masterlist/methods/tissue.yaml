@@ -1,0 +1,22 @@
+name: TISSUE
+full_name: Transcript Imputation with Spatial Single-cell Uncertainty Estimation
+category: dry
+summary: Estimates uncertainty in predicted spatial gene expression and incorporates it into downstream analyses.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02184-y
+  year: 2024
+  journal: Nat Methods
+  first_author: Sun ED
+  last_author: Zou J
+  pmid: '38347138'
+  title: 'TISSUE: uncertainty-calibrated prediction of single-cell spatial transcriptomics improves downstream analyses'
+  preprint_doi: 10.1101/2023.04.25.538326
+links: {}
+added: '2026-11-21'
+evidence: TISSUE provides prediction intervals for spatial gene expression predictions and uncertainty-aware downstream inference.

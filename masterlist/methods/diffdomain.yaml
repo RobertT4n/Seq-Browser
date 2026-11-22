@@ -1,0 +1,24 @@
+name: DiffDomain
+category: dry
+summary: Algorithm using random matrix theory to identify structurally reorganized topologically associating domains from
+  chromatin contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-44782-6
+  year: 2024
+  journal: Nat Commun
+  first_author: Hua D
+  last_author: Tian D
+  pmid: '38218905'
+  pmcid: PMC10787792
+  title: DiffDomain enables identification of structurally reorganized topologically associating domains
+  preprint_doi: 10.1101/2022.12.05.519135
+links: {}
+added: '2026-11-21'
+evidence: DiffDomain identifies reorganized domains in Hi-C data, including pseudobulk maps constructed from single-cell Hi-C
+  data.

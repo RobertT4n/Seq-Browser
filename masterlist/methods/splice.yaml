@@ -1,0 +1,24 @@
+name: SPLICE
+category: dry
+summary: SPLICE analyzes long-read cDNA sequences to characterize transcripts and their differential expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pgen.1010342
+  year: 2022
+  journal: PLoS Genet
+  first_author: Kiyose H
+  last_author: Fujimoto A
+  pmid: '35926060'
+  pmcid: PMC9380957
+  title: Comprehensive analysis of full-length transcripts reveals novel splicing abnormalities and oncogenic transcripts
+    in liver cancer
+links: {}
+added: '2026-11-21'
+evidence: SPLICE was used to analyze nanopore cDNA sequences from hepatocellular carcinomas and matched non-cancerous livers.

@@ -1,0 +1,19 @@
+name: dsCellNet
+category: dry
+summary: Infers cell-cell communication networks across developmental time series from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.07.047
+  year: 2022
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Song Z
+  last_author: Wu H
+  title: 'dsCellNet: A new computational tool to infer cell–cell communication networks in the developing and aging brain'
+links: {}
+added: '2026-11-21'
+evidence: dsCellNet infers cell-cell interactions from developmental series RNA-seq data using protein localization and dynamic
+  time warping.

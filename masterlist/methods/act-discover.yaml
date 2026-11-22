@@ -1,0 +1,22 @@
+name: ACT-Discover
+full_name: Aneuploidy in Circulating Tumour DNA
+category: dry
+summary: Uses phased tumour or xenograft haplotypes to identify somatic copy number alterations in circulating tumour DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-023-01171-w
+  year: 2023
+  journal: Genome Med
+  first_author: Huebner A
+  last_author: Toledo RA
+  pmid: '37081523'
+  pmcid: PMC10120117
+  title: 'ACT-Discover: identifying karyotype heterogeneity in pancreatic cancer evolution using ctDNA'
+links: {}
+added: '2026-11-21'
+evidence: ACT-Discover leverages haplotype phasing of paired tumour biopsies or patient-derived xenografts to identify copy
+  number alterations in cell-free DNA.

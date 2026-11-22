@@ -1,0 +1,26 @@
+name: Amp-NGS
+full_name: amplicon-based next-generation sequencing
+category: wet
+summary: Sequences selected marker gene fragments to identify sand flies and Leishmania parasites together.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- invertebrate
+- microbe
+reference:
+  doi: 10.1186/s13071-022-05388-3
+  year: 2022
+  journal: Parasit Vectors
+  first_author: Nasereddin A
+  last_author: Abdeen Z
+  pmid: '35869485'
+  pmcid: PMC9308317
+  title: Concurrent molecular characterization of sand flies and Leishmania parasites by amplicon-based next-generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: Amp-NGS targets partial 18S rDNA and ITS1 fragments to characterize sand flies and Leishmania parasites, respectively.

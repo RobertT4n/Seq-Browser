@@ -1,0 +1,24 @@
+name: slow5tools
+category: dry
+summary: slow5tools converts and manages nanopore raw signal data in SLOW5 and FAST5 formats.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-023-02910-3
+  year: 2023
+  journal: Genome Biol
+  first_author: Samarakoon H
+  last_author: Deveson IW
+  pmid: '37024927'
+  pmcid: PMC10080837
+  title: Flexible and efficient handling of nanopore sequencing signal data with slow5tools
+  preprint_doi: 10.1101/2022.06.19.496732
+links: {}
+added: '2026-11-21'
+evidence: slow5tools supports lossless FAST5-to-SLOW5 conversion and indexing, viewing and querying of SLOW5 files.

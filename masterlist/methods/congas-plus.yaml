@@ -1,0 +1,21 @@
+name: CONGAS+
+category: dry
+summary: Uses a Bayesian model to infer copy-number clones and map single-cell RNA and ATAC profiles to them.
+readouts:
+- genome-sequence
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011557
+  year: 2023
+  journal: PLOS Computational Biology
+  first_author: Patruno L
+  last_author: Caravagna G
+  title: A Bayesian method to infer copy number clones from single-cell RNA and ATAC sequencing
+  preprint_doi: 10.1101/2023.04.01.535197
+links: {}
+added: '2026-11-21'
+evidence: CONGAS+ maps single-cell RNA and ATAC profiles from independent or multimodal assays onto copy-number clones.

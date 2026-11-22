@@ -1,0 +1,20 @@
+name: scTite
+category: dry
+summary: Uses transition entropy to identify intermediate cell states and reconstruct trajectories from single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac225
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Gan Y
+  last_author: Zou G
+  pmid: '35696651'
+  title: Entropy-based inference of transition states and cellular trajectory for single-cell transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: scTite measures uncertainty in cluster membership to identify transition cells and infer a detailed cell trajectory.

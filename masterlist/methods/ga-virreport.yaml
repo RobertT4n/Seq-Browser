@@ -1,0 +1,19 @@
+name: GA-VirReport
+category: dry
+summary: Detects plant viruses and viroids from host small-RNA sequencing data through web-based workflows.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v14071480
+  year: 2022
+  journal: Viruses
+  first_author: Lelwala RV
+  last_author: Barrero RA
+  title: Implementation of GA-VirReport, a Web-Based Bioinformatics Toolkit for Post-Entry Quarantine Screening of Virus and
+    Viroids in Plants
+links: {}
+added: '2026-11-21'
+evidence: GA-VirReport provides Galaxy workflows for detecting viruses and viroids from host plant small-RNA extracts.

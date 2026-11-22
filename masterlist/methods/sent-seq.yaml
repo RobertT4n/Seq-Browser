@@ -1,0 +1,28 @@
+name: SENT-seq
+full_name: single-cell nanoparticle targeting-sequencing
+category: wet
+summary: Quantifies nanoparticle-delivered DNA barcodes and mRNA, subsequent protein production, and the transcriptome in
+  individual cells.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41565-022-01146-9
+  year: 2022
+  journal: Nat Nanotechnol
+  first_author: Dobrowolski C
+  last_author: Dahlman JE
+  pmid: '35768613'
+  pmcid: PMC11784293
+  title: Nanoparticle single-cell multiomic readouts reveal that cell heterogeneity influences lipid nanoparticle-mediated
+    messenger RNA delivery
+links: {}
+added: '2026-11-21'
+evidence: SENT-seq quantifies delivery of DNA barcodes and mRNA by dozens of lipid nanoparticles alongside protein production
+  and the transcriptome at single-cell resolution.

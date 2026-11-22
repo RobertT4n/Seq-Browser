@@ -1,0 +1,22 @@
+name: STitch3D
+category: dry
+summary: Integrates spatial transcriptomic slices and single-cell expression profiles to reconstruct three-dimensional tissue
+  architecture.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-023-00734-1
+  year: 2023
+  journal: Nature Machine Intelligence
+  first_author: Wang G
+  last_author: Yang C
+  title: Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks
+  preprint_doi: 10.1101/2023.02.02.526814
+links: {}
+added: '2026-11-21'
+evidence: STitch3D jointly models multiple tissue slices and single-cell RNA-seq profiles to identify 3D spatial regions and
+  cell-type distributions.

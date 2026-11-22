@@ -1,0 +1,19 @@
+name: MitoSort
+category: dry
+summary: Uses germline mitochondrial variants to assign pooled single cells to donors and detect cross-genotype doublets.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gpbjnl/qzae073
+  year: 2024
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: Tang Z
+  last_author: Xu J
+  title: 'MitoSort: Robust Demultiplexing of Pooled Single-cell Genomic Data Using Endogenous Mitochondrial Variants'
+  preprint_doi: 10.1101/2023.04.26.538392
+links: {}
+added: '2026-11-21'
+evidence: MitoSort uses mitochondrial germline variants for donor assignment and cross-genotype doublet identification.

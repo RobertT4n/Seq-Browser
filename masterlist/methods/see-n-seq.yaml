@@ -1,0 +1,25 @@
+name: See-N-Seq
+category: wet
+summary: Uses imaging and a micropatterned hydrogel to select individual cells for RNA extraction and sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- hydrogel-compartmentalization
+- imaging-guided-selection
+- reverse-transcription
+reference:
+  doi: 10.1038/s42003-022-03703-3
+  year: 2022
+  journal: Commun Biol
+  first_author: Lee JH
+  last_author: Ma H
+  pmid: '35908100'
+  pmcid: PMC9338959
+  title: 'See-N-Seq: RNA sequencing of target single cells identified by microscopy via micropatterning of hydrogel porosity'
+links: {}
+added: '2026-11-21'
+evidence: Cells are encapsulated in a hydrogel with spatially varying porosity, allowing selected single cells to be exposed
+  for RNA extraction.

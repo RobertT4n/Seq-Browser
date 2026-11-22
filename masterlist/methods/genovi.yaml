@@ -1,0 +1,21 @@
+name: GenoVi
+category: dry
+summary: Creates customizable circular representations of microbial genomes and their annotated sequence features.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010998
+  year: 2023
+  journal: PLoS Comput Biol
+  first_author: Cumsille A
+  last_author: Buil-Aranda C
+  pmid: '37014908'
+  pmcid: PMC10104344
+  title: GenoVi, an open-source automated circular genome visualizer for bacteria and archaea
+links: {}
+added: '2026-11-21'
+evidence: GenoVi creates circular representations from complete or draft microbial genomes and visualizes features from GenBank
+  annotations.

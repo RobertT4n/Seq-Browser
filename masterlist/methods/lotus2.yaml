@@ -1,0 +1,22 @@
+name: LotuS2
+full_name: less OTU scripts 2
+category: dry
+summary: Pipeline for preprocessing, clustering, and taxonomic analysis of microbiome amplicon sequencing data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s40168-022-01365-1
+  year: 2022
+  journal: Microbiome
+  first_author: Özkurt E
+  last_author: Hildebrand F
+  pmid: '36258257'
+  pmcid: PMC9580208
+  title: 'LotuS2: an ultrafast and highly accurate tool for amplicon sequencing analysis'
+links: {}
+added: '2026-11-21'
+evidence: LotuS2 analyzes raw amplicon sequences with clustering and pre- and post-processing options and was benchmarked
+  on microbiome datasets.

@@ -1,0 +1,22 @@
+name: scDREAMER
+category: dry
+summary: Integrates single-cell datasets and removes batch effects using an adversarial variational autoencoder and batch
+  classifier.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-43590-8
+  year: 2023
+  journal: Nature Communications
+  first_author: Shree A
+  last_author: Zafar H
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial
+    classifier
+  preprint_doi: 10.1101/2022.07.12.499846
+links: {}
+added: '2026-11-21'
+evidence: scDREAMER learns lower-dimensional cellular embeddings and removes batch effects with an adversarial variational
+  autoencoder and a batch classifier.

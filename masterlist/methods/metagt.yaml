@@ -1,0 +1,21 @@
+name: MetaGT
+category: dry
+summary: Assembles metatranscriptomes using metatranscriptomic and metagenomic data from the same sample.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmicb.2022.981458
+  year: 2022
+  journal: Front Microbiol
+  first_author: Shafranskaya D
+  last_author: Prjibelski AD
+  pmid: '36386613'
+  pmcid: PMC9651917
+  title: 'MetaGT: A pipeline for <i>de novo</i> assembly of metatranscriptomes with the aid of metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: MetaGT assembles metatranscriptomic contigs and fills missing regions using alignments to a metagenome assembly.

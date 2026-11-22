@@ -1,0 +1,32 @@
+name: msRRBS
+full_name: multiplex scalable single-cell reduced representation bisulfite sequencing
+category: wet
+summary: Single-cell reduced-representation bisulfite sequencing method that pools cell-barcoded DNA fragments before conversion.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkad892
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Mai L
+  last_author: Pan X
+  pmid: '37870443'
+  pmcid: PMC10681715
+  title: Shortcut barcoding and early pooling for scalable multiplex single-cell reduced-representation CpG methylation sequencing
+    at single nucleotide resolution
+  preprint_doi: 10.1101/2023.05.22.541674
+links: {}
+added: '2026-11-21'
+evidence: Cell-specific barcoded DNA fragments are pooled before bisulfite conversion to profile reduced-representation CpG
+  methylation in single cells.

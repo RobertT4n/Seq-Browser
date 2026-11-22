@@ -1,0 +1,21 @@
+name: BIRDMAn
+full_name: Bayesian Inferential Regression for Differential Microbiome Analysis
+category: dry
+summary: Models differential microbial taxon abundance while accounting for microbiome data characteristics and varied study
+  designs.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.01.30.526328
+  year: 2023
+  journal: bioRxiv
+  first_author: Rahman
+  last_author: R
+  title: 'BIRDMAn: A Bayesian differential abundance framework that enables robust inference of host-microbe associations'
+links: {}
+added: '2026-11-21'
+evidence: BIRDMAn analyzes differential taxon abundance while accounting for compositionality, sparsity and designs such as
+  repeated measures.

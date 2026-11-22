@@ -1,0 +1,20 @@
+name: StripeDiff
+category: dry
+summary: Statistical tool for detecting differences in chromatin stripes between samples.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abk2246
+  year: 2022
+  journal: Sci Adv
+  first_author: Gupta K
+  last_author: Chen K
+  pmid: '36475785'
+  pmcid: PMC9728969
+  title: 'StripeDiff: Model-based algorithm for differential analysis of chromatin stripe'
+links: {}
+added: '2026-11-21'
+evidence: StripeDiff detects differential stripes between samples and was evaluated on simulated and real Hi-C data.

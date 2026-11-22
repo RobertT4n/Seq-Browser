@@ -1,0 +1,24 @@
+name: HARU
+full_name: Hardware Accelerated Read Until
+category: dry
+summary: Hardware-software method that accelerates real-time nanopore read selection for targeted sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/giad046
+  year: 2022
+  journal: Gigascience
+  first_author: Shih PJ
+  last_author: Gamaarachchi H
+  pmid: '37395631'
+  pmcid: PMC10316692
+  title: Efficient real-time selective genome sequencing on resource-constrained devices
+links: {}
+added: '2026-11-21'
+evidence: HARU accelerates the Read Until algorithm on a heterogeneous system with on-chip field-programmable gate arrays.

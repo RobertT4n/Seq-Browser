@@ -1,0 +1,30 @@
+name: CASPR
+category: wet
+summary: Chemically ablates 3′ RNA ends to enrich coding transcripts for full-length nanopore cDNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkac516
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Gallardo CM
+  last_author: Torbett BE
+  pmid: '35736235'
+  pmcid: PMC9508845
+  title: Selective ablation of 3' RNA ends and processive RTs facilitate direct cDNA sequencing of full-length host cell and
+    viral transcripts
+links: {}
+added: '2026-11-21'
+evidence: CASPR couples chemical ablation of 3′ RNA ends with processive reverse transcription to profile full-length host
+  and viral transcripts.

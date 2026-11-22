@@ -1,0 +1,23 @@
+name: minimap2-accelerated
+category: dry
+summary: minimap2-accelerated speeds up long-read sequence mapping and alignment by running minimap2's chaining step on a
+  GPU.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.26502/jbb.2642-91280067
+  year: 2023
+  journal: J Biotechnol Biomed
+  first_author: Sadasivan H
+  last_author: Narayanasamy S
+  pmid: '36937168'
+  pmcid: PMC10018915
+  title: Accelerating Minimap2 for Accurate Long Read Alignment on GPUs
+links: {}
+added: '2026-11-21'
+evidence: The method accelerates minimap2's chaining step on a GPU while retaining mapping accuracy.

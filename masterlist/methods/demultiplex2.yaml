@@ -1,0 +1,21 @@
+name: deMULTIplex2
+category: dry
+summary: Assigns multiplexed single-cell RNA-seq cells to samples using a model of sample-tag cross-contamination.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03177-y
+  year: 2024
+  journal: Genome Biol
+  first_author: Zhu Q
+  last_author: Gartner ZJ
+  pmid: '38291503'
+  pmcid: PMC10829271
+  title: 'deMULTIplex2: robust sample demultiplexing for scRNA-seq'
+  preprint_doi: 10.1101/2023.04.11.536275
+links: {}
+added: '2026-11-21'
+evidence: deMULTIplex2 models tag read counts to infer each cell's sample identity and classify singlets.

@@ -1,0 +1,23 @@
+name: HILARy
+full_name: High-precision Inference of Lineages in Antibody Repertoires
+category: dry
+summary: Method combining probabilistic models and clustering to identify B-cell clonal families from antibody repertoire
+  sequencing data.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7554/elife.86181
+  year: 2024
+  journal: Elife
+  first_author: Spisak N
+  last_author: Walczak AM
+  pmid: '39120133'
+  pmcid: PMC11441979
+  title: Combining mutation and recombination statistics to infer clonal families in antibody repertoires
+  preprint_doi: 10.1101/2022.12.22.521661
+links: {}
+added: '2026-11-21'
+evidence: HILARy identifies clonal families using receptor generation and selection statistics and shared mutation signals.

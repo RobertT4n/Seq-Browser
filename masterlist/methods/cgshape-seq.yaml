@@ -1,0 +1,27 @@
+name: cgSHAPE-seq
+full_name: chemical-guided SHAPE sequencing
+category: wet
+summary: Maps small-molecule binding sites on RNA by directing an acylating probe to the ligand-binding site and detecting
+  reverse-transcription mutations.
+readouts:
+- small-molecule-rna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/s41467-024-55608-w
+  year: 2025
+  journal: Nat Commun
+  first_author: Tang Z
+  last_author: Wang J
+  pmid: '39779694'
+  pmcid: PMC11711761
+  title: Chemical-guided SHAPE sequencing (cgSHAPE-seq) informs the binding site of RNA-degrading chimeras targeting SARS-CoV-2
+    5' untranslated region
+  preprint_doi: 10.1101/2023.04.03.535453
+links: {}
+added: '2026-11-21'
+evidence: A ligand-directed acylating probe produced reverse-transcription mutations that identified the C30 binding site
+  in the SARS-CoV-2 5′ UTR.

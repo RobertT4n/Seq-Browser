@@ -1,0 +1,26 @@
+name: GALA
+full_name: Gap-free long-read Assembly tool
+category: dry
+summary: GALA separates long-read data into chromosome-scale groups for independent de novo genome assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1038/s41467-022-35670-y
+  year: 2023
+  journal: Nat Commun
+  first_author: Awad M
+  last_author: Gan X
+  pmid: '36639368'
+  pmcid: PMC9839709
+  title: 'GALA: a computational framework for de novo chromosome-by-chromosome assembly with long reads'
+links: {}
+added: '2026-11-21'
+evidence: GALA uses a multilayer graph to partition sequencing data into chromosome-scale scaffolding groups and was demonstrated
+  with PacBio and Nanopore data.

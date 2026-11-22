@@ -1,0 +1,20 @@
+name: miWords
+category: dry
+summary: Identifies plant pre-miRNA regions using a sequence-based transformer and an optional small-RNA-seq module.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.14.500029
+  year: 2022
+  journal: bioRxiv
+  first_author: Gupta
+  last_author: R
+  title: 'Sentences, Words, Attention: A "Transforming" Aphorism of miRNA Discovery'
+links: {}
+added: '2026-11-21'
+evidence: miWords combines an attention-based genomic language transformer with an optional small-RNA-seq-guided module to
+  identify pre-miRNA regions in plant genomes.

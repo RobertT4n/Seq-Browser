@@ -1,0 +1,22 @@
+name: sciPENN
+category: dry
+summary: Integrates CITE-seq and single-cell RNA-seq data to predict and impute protein expression and transfer cell labels.
+readouts:
+- protein
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42256-022-00545-w
+  year: 2022
+  journal: Nat Mach Intell
+  first_author: Lakkis J
+  last_author: Li M
+  pmid: '36873621'
+  pmcid: PMC9979929
+  title: A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein
+    prediction and imputation
+links: {}
+added: '2026-11-21'
+evidence: sciPENN supports CITE-seq and scRNA-seq integration, protein prediction and imputation, and cell type label transfer.

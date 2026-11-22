@@ -1,0 +1,29 @@
+name: sci-Plex-GxE
+full_name: sci-Plex-Gene-by-Environment
+category: wet
+summary: Combines genetic and chemical screens with single-cell transcriptomics to study gene-by-environment responses.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- chemical-perturbation
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1016/j.xgen.2023.100487
+  year: 2024
+  journal: Cell Genom
+  first_author: McFaline-Figueroa JL
+  last_author: Trapnell C
+  pmid: '38278156'
+  pmcid: PMC10879025
+  title: Multiplex single-cell chemical genomics reveals the kinase dependence of the response to targeted therapy
+  preprint_doi: 10.1101/2023.03.10.531983
+links: {}
+added: '2026-11-21'
+evidence: The platform probed 14,121 gene-by-environment combinations across 1,052,205 single-cell transcriptomes.

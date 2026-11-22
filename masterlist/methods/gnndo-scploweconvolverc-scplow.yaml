@@ -1,0 +1,20 @@
+name: GNNDO_SCPLOWECONVOLVERC_SCPLOW
+category: dry
+summary: Uses spatial information from reference samples and a graph neural network to deconvolve cell types in spatial transcriptomic
+  spots.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.04.11.536333
+  year: 2023
+  journal: bioRxiv
+  first_author: Ding J
+  last_author: Tang J
+  title: 'SpatialCTD: a large-scale TME spatial transcriptomic dataset to evaluate cell type deconvolution for immuno-oncology'
+links: {}
+added: '2026-11-21'
+evidence: The graph neural network method uses spatial information from reference samples for cell-type deconvolution without
+  requiring scRNA-seq data.

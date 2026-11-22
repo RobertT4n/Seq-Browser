@@ -1,0 +1,24 @@
+name: CMOT
+full_name: Cross-Modality Optimal Transport
+category: dry
+summary: Uses optimal transport to infer missing single-cell modalities from multimodal data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02989-8
+  year: 2023
+  journal: Genome Biol
+  first_author: Alatkar SA
+  last_author: Wang D
+  pmid: '37434182'
+  pmcid: PMC10334579
+  title: 'CMOT: Cross-Modality Optimal Transport for multimodal inference'
+  preprint_doi: 10.1101/2022.10.15.512387
+links: {}
+added: '2026-11-21'
+evidence: CMOT aligns cells in multimodal data to a common latent space and uses optimal transport to map cells with a single
+  modality.

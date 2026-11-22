@@ -1,0 +1,21 @@
+name: INSISTC
+category: dry
+summary: Classifies single-cell types while identifying cell-type-specific gene regulatory mechanisms using network structure
+  information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2022.110480
+  year: 2022
+  journal: Genomics
+  first_author: Zheng H
+  last_author: Hu H
+  pmid: '36075505'
+  title: 'INSISTC: Incorporating network structure information for single-cell type classification'
+links: {}
+added: '2026-11-21'
+evidence: INSISTC incorporates gene regulatory network structure for single-cell type classification and identifies cell-type-specific
+  regulatory mechanisms.

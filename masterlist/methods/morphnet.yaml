@@ -1,0 +1,20 @@
+name: MorphNet
+category: dry
+summary: Predicts nuclear or whole-cell morphology images from single-cell gene expression profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.10.21.513201
+  year: 2022
+  journal: bioRxiv
+  first_author: Lee H
+  last_author: Welch JD
+  title: MorphNet Predicts Cell Morphology from Single-Cell Gene Expression
+links: {}
+added: '2026-11-21'
+evidence: MorphNet uses paired morphology and molecular data to train a neural network that predicts nuclear or whole-cell
+  morphology from gene expression.

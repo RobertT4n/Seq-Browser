@@ -1,0 +1,23 @@
+name: BECLEAN
+full_name: background elimination and correction by library concentration-normalized
+category: dry
+summary: Filters laboratory contamination from clinical metagenomic sequencing data using a library concentration-normalized
+  background model.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/spectrum.01779-22
+  year: 2022
+  journal: Microbiol Spectr
+  first_author: Du J
+  last_author: Yang Q
+  pmid: '36135379'
+  pmcid: PMC9603461
+  title: Background Filtering of Clinical Metagenomic Sequencing with a Library Concentration-Normalized Model
+links: {}
+added: '2026-11-21'
+evidence: BECLEAN uses a pretrained profile of common laboratory contaminants and the inverse relationship between microbial
+  reads and sample library concentration.

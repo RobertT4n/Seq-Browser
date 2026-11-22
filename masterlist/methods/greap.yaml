@@ -1,0 +1,22 @@
+name: GREAP
+full_name: Genomic Region sets Enrichment Analysis Platform
+category: dry
+summary: GREAP annotates genomic regions and tests their enrichment against reference region sets.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac329
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Yang Y
+  last_author: Li C
+  pmid: '35959979'
+  title: 'GREAP: a comprehensive enrichment analysis software for human genomic regions'
+links: {}
+added: '2026-11-21'
+evidence: GREAP provides annotation and enrichment analysis using reference sets that include transcription factors and accessible
+  chromatin.

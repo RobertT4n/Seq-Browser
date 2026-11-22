@@ -1,0 +1,29 @@
+name: MISAR-seq
+full_name: microfluidic indexing-based spatial assay for transposase-accessible chromatin and RNA-sequencing
+category: wet
+summary: Microfluidic indexing method for spatially resolved joint profiling of chromatin accessibility and gene expression.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-023-01884-1
+  year: 2023
+  journal: Nat Methods
+  first_author: Jiang F
+  last_author: Peng G
+  pmid: '37231265'
+  title: Simultaneous profiling of spatial gene expression and chromatin accessibility during mouse brain development
+links: {}
+added: '2026-11-21'
+evidence: MISAR-seq jointly profiles chromatin accessibility and gene expression with spatial resolution and was applied to
+  developing mouse brain.

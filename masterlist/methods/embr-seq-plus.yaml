@@ -1,0 +1,27 @@
+name: EMBR-seq+
+category: wet
+summary: RNA sequencing preparation method combining blocking primers and RNase H-mediated rRNA depletion to enable bacterial
+  transcriptome profiling.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1128/msystems.00281-23
+  year: 2023
+  journal: mSystems
+  first_author: Heom KA
+  last_author: Dey SS
+  pmid: '37855606'
+  pmcid: PMC10734481
+  title: Targeted rRNA depletion enables efficient mRNA sequencing in diverse bacterial species and complex co-cultures
+  preprint_doi: 10.1101/2023.05.04.539346
+links: {}
+added: '2026-11-21'
+evidence: EMBR-seq+ combines rRNA blocking primers with RNase H-mediated depletion and achieved up to 99% rRNA removal in
+  diverse bacterial species.

@@ -1,0 +1,21 @@
+name: scGCO
+category: dry
+summary: Identifies spatially variable genes using graph-cut optimization of hidden Markov random fields.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-33182-3
+  year: 2022
+  journal: Nat Commun
+  first_author: Zhang K
+  last_author: Wang P
+  pmid: '36123336'
+  pmcid: PMC9485129
+  title: Identification of spatially variable genes with graph cuts
+links: {}
+added: '2026-11-21'
+evidence: scGCO identifies spatially variable genes in single-cell gene expression data with positional information.

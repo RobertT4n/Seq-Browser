@@ -1,0 +1,30 @@
+name: MetaGut
+category: wet
+summary: Combines long-read shotgun metagenomics and custom bioinformatics to profile gut microbiome composition and antibiotic
+  resistance genes.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41598-024-53506-1
+  year: 2024
+  journal: Sci Rep
+  first_author: Spohr P
+  last_author: Pfeffer K
+  pmid: '38374282'
+  pmcid: PMC10876974
+  title: Insights into gut microbiomes in stem cell transplantation by comprehensive shotgun long-read sequencing
+  preprint_doi: 10.1101/2023.03.10.531901
+links: {}
+added: '2026-11-21'
+evidence: MetaGut uses optimized long-read shotgun metagenomics and custom bioinformatics to interrogate gut microbial domains,
+  DNA viruses and antibiotic resistance genes.

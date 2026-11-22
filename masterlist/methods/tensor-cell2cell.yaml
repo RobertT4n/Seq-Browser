@@ -1,0 +1,22 @@
+name: Tensor-cell2cell
+category: dry
+summary: Tensor-cell2cell uses tensor decomposition to identify cell-cell communication patterns associated with different
+  cellular contexts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-31369-2
+  year: 2022
+  journal: Nat Commun
+  first_author: Armingol E
+  last_author: Lewis NE
+  pmid: '35760817'
+  pmcid: PMC9237099
+  title: Context-aware deconvolution of cell-cell communication with Tensor-cell2cell
+links: {}
+added: '2026-11-21'
+evidence: Tensor-cell2cell identifies context-driven communication patterns involving combinations of cell types and ligand-receptor
+  pairs.

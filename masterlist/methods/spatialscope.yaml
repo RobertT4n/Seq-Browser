@@ -1,0 +1,22 @@
+name: SpatialScope
+category: dry
+summary: Integrates single-cell and spatial transcriptomics with deep generative models to infer transcriptome-wide expression
+  at single-cell spatial resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.14.532529
+  year: 2023
+  journal: bioRxiv
+  first_author: Wan
+  last_author: C
+  title: 'SpatialScope: A unified approach for integrating spatial and single-cell transcriptomics data using deep generative
+    models'
+links: {}
+added: '2026-11-21'
+evidence: SpatialScope integrates scRNA-seq reference and spatial transcriptomics data to provide transcriptome-wide single-cell
+  spatial characterization.

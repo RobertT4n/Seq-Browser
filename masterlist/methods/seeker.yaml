@@ -1,0 +1,21 @@
+name: seeker
+category: dry
+summary: Wraps existing tools to fetch and process transcriptome data through a standard R interface.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.14372
+  year: 2022
+  journal: PeerJ
+  first_author: Schoenbachler JL
+  last_author: Hughey JJ
+  pmid: '36389425'
+  pmcid: PMC9648347
+  title: 'The seeker R package: simplified fetching and processing of transcriptome data'
+  preprint_doi: 10.1101/2022.08.30.505820
+links: {}
+added: '2026-11-21'
+evidence: seeker fetches and processes RNA-seq and microarray data and outputs sample metadata and gene expression values.

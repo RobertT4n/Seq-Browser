@@ -1,0 +1,24 @@
+name: LoMA
+full_name: localized assembly method
+category: dry
+summary: Localized long-read assembly method that constructs consensus sequences and distinguishes diploid haplotypes using
+  structural variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2022.12.02.518938
+  year: 2022
+  journal: bioRxiv
+  first_author: Ikemoto K
+  last_author: Fujimoto A
+  title: Localized assembly for long reads enables genome-wide analysis of repetitive regions at single-base resolution in
+    human genomes
+links: {}
+added: '2026-11-21'
+evidence: LoMA constructs consensus sequences from long reads and was used to catalogue insertions across two human genomes.

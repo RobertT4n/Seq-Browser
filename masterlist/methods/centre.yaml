@@ -1,0 +1,25 @@
+name: CENTRE
+full_name: Cell-type-specific ENhancer-Target pREdiction
+category: dry
+summary: Predicts cell-type-specific enhancer-target interactions using gene expression and ChIP-seq data for three histone
+  modifications.
+readouts:
+- histone-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad687
+  year: 2023
+  journal: Bioinformatics
+  first_author: Rapakoulia T
+  last_author: Vingron M
+  pmid: '37982748'
+  pmcid: PMC10666202
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+  preprint_doi: 10.1101/2023.05.16.541035
+links: {}
+added: '2026-11-21'
+evidence: CENTRE predicts enhancer-target interactions using gene expression and ChIP-seq data for three histone modifications
+  in the cell type of interest.

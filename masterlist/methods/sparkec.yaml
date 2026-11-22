@@ -1,0 +1,21 @@
+name: SparkEC
+category: dry
+summary: Parallel error-correction tool that uses Apache Spark to correct sequencing errors in DNA reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05013-1
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Expósito RR
+  last_author: Touriño J
+  pmid: '36344928'
+  pmcid: PMC9639292
+  title: "\uFEFFSparkEC: speeding up alignment-based DNA error correction tools"
+links: {}
+added: '2026-11-21'
+evidence: SparkEC optimizes CloudEC algorithms using Apache Spark and memory-efficient data structures to correct sequencing
+  errors.

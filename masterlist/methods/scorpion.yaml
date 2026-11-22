@@ -1,0 +1,22 @@
+name: SCORPION
+category: dry
+summary: Tool using message passing to reconstruct comparable gene regulatory networks from single-cell or single-nucleus
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-024-00597-5
+  year: 2024
+  journal: Nat Comput Sci
+  first_author: Osorio D
+  last_author: Kuijjer ML
+  pmid: '38438786'
+  pmcid: PMC10965443
+  title: Population-level comparisons of gene regulatory networks modeled on high-throughput single-cell transcriptomics data
+  preprint_doi: 10.1101/2023.01.20.524974
+links: {}
+added: '2026-11-21'
+evidence: SCORPION uses shared baseline priors to reconstruct networks suitable for population-level comparisons.

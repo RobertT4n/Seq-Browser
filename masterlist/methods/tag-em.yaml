@@ -1,0 +1,28 @@
+name: TaG-EM
+full_name: Targeted Genetically-Encoded Multiplexing
+category: wet
+summary: Genetically barcodes defined Drosophila cell populations for identification during single-cell transcriptomic sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.7554/elife.88334.3
+  year: 2025
+  journal: eLife
+  first_author: Blanco Mendana J
+  last_author: Gohl DM
+  title: Deterministic genetic barcoding for multiplexed behavioral and single-cell transcriptomic studies
+  preprint_doi: 10.1101/2023.03.29.534817
+links: {}
+added: '2026-11-21'
+evidence: TaG-EM inserts a DNA barcode into a Gal4-inducible UAS-GFP construct so that the barcode is read during single-cell
+  sequencing.

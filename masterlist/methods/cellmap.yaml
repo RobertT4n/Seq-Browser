@@ -1,0 +1,23 @@
+name: CellMap
+category: dry
+summary: Computational tool that uses single-cell and single-nucleus reference profiles to infer cell types in bulk RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-022-22115-1
+  year: 2022
+  journal: Sci Rep
+  first_author: Ouyang Z
+  last_author: Zavodszky MI
+  pmid: '36253414'
+  pmcid: PMC9576729
+  title: Characterizing the composition of iPSC derived cells from bulk transcriptomics data with CellMap
+links: {}
+added: '2026-11-21'
+evidence: CellMap derives cell type profiles from public single-cell and single-nucleus datasets to infer cell types in bulk
+  RNA-seq data from iPSC-derived cell lines.

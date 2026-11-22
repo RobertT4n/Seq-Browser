@@ -1,0 +1,20 @@
+name: LymphPlex
+category: dry
+summary: Classifies diffuse large B-cell lymphoma into genetic subtypes using mutations and rearrangements in 38 genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41392-023-01358-y
+  year: 2023
+  journal: Signal Transduct Target Ther
+  first_author: Shen R
+  last_author: Zhao WL
+  pmid: '37032379'
+  pmcid: PMC10083170
+  title: Simplified algorithm for genetic subtyping in diffuse large B-cell lymphoma
+links: {}
+added: '2026-11-21'
+evidence: The 38-gene algorithm uses mutations in 35 genes and rearrangements in three genes to identify genetic subtypes.

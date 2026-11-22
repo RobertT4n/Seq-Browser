@@ -1,0 +1,22 @@
+name: scHiCEmbed
+category: dry
+summary: Learns bin-specific embeddings of single-cell Hi-C matrices for three-dimensional genome reconstruction and domain
+  detection.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/genes13061048
+  year: 2022
+  journal: Genes (Basel)
+  first_author: Liu T
+  last_author: Wang Z
+  pmid: '35741810'
+  pmcid: PMC9222580
+  title: 'scHiCEmbed: Bin-Specific Embeddings of Single-Cell Hi-C Data Using Graph Auto-Encoders'
+links: {}
+added: '2026-11-21'
+evidence: scHiCEmbed uses graph auto-encoders to embed bins and applies the embeddings to genome structure reconstruction
+  and TAD detection.

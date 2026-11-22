@@ -1,0 +1,24 @@
+name: EagleC
+category: dry
+summary: EagleC uses deep learning and ensemble learning to detect structural variants from chromatin contact maps.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abn9215
+  year: 2022
+  journal: Sci Adv
+  first_author: Wang X
+  last_author: Yue F
+  pmid: '35704579'
+  pmcid: PMC9200291
+  title: 'EagleC: A deep-learning framework for detecting a full range of structural variations from bulk and single-cell
+    contact maps'
+links: {}
+added: '2026-11-21'
+evidence: EagleC predicts structural variants from Hi-C and other chromatin interaction data and can also analyze single-cell
+  Hi-C.

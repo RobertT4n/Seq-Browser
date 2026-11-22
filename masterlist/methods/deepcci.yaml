@@ -1,0 +1,18 @@
+name: DeepCCI
+category: dry
+summary: Deep learning framework that predicts cell-cell interactions from single-cell RNA sequencing data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.11.516061
+  year: 2022
+  journal: bioRxiv
+  first_author: Yang W
+  last_author: Jiang Q
+  title: 'DeepCCI: a deep learning framework for identifying cell-cell interactions from single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: DeepCCI identifies meaningful cell-cell interactions from scRNA-seq data.

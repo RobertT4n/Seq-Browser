@@ -1,0 +1,21 @@
+name: MPASS
+full_name: Metagenomic Phylogeny by Average Sequence Similarity
+category: dry
+summary: Compares proteomes inferred from metagenomic shotgun sequencing to construct trees of relationships between metagenomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0281288
+  year: 2023
+  journal: PLOS ONE
+  first_author: Satoh S
+  last_author: Tanaka A
+  title: Phylogeny analysis of whole protein-coding genes in metagenomic data detected an environmental gradient for the microbiota
+  preprint_doi: 10.1101/2022.07.04.498637
+links: {}
+added: '2026-11-21'
+evidence: MPASS compares whole proteomes deduced from metagenomic shotgun sequencing and displays their phylogenetic relationships
+  as metagenomic trees.

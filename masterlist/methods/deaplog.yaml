@@ -1,0 +1,19 @@
+name: DEAPLOG
+category: dry
+summary: Method for differential expression analysis and pseudotemporal ordering of genes in single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.12.21.521359
+  year: 2022
+  journal: bioRxiv
+  first_author: Zhang B
+  last_author: Zhang H
+  title: A method for differential expression analysis and pseudo-temporal locating and ordering of genes in single-cell transcriptomic
+    data
+links: {}
+added: '2026-11-21'
+evidence: DEAPLOG identifies differentially expressed genes and infers pseudotime and embedding coordinates of genes.

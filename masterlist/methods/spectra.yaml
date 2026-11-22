@@ -1,0 +1,21 @@
+name: SPECTRA
+category: dry
+summary: Derives quantitative variables capturing variation in tissue gene expression for descriptive and predictive modelling.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1158/1055-9965.epi-22-0798
+  year: 2023
+  journal: Cancer Epidemiol Biomarkers Prev
+  first_author: Griffin R
+  last_author: Camp NJ
+  pmid: '36857768'
+  pmcid: PMC10150248
+  title: Deep Transcriptome Profiling of Multiple Myeloma Using Quantitative Phenotypes
+links: {}
+added: '2026-11-21'
+evidence: SPECTRA derived 39 expression variables from bulk RNA sequencing of myeloma cells and used them to model clinical
+  outcomes.

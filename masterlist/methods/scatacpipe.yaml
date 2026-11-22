@@ -1,0 +1,21 @@
+name: scATACpipe
+category: dry
+summary: scATACpipe provides an end-to-end pipeline for quality control and downstream analysis of single-cell ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fcell.2022.981859
+  year: 2022
+  journal: Front Cell Dev Biol
+  first_author: Hu K
+  last_author: Zhu LJ
+  pmid: '36238687'
+  pmcid: PMC9551270
+  title: 'scATACpipe: A nextflow pipeline for comprehensive and reproducible analyses of single cell ATAC-seq data'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline includes preprocessing, clustering, peak calling, differential accessibility, and other scATAC-seq
+  analyses.

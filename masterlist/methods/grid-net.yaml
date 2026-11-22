@@ -1,0 +1,22 @@
+name: GrID-Net
+category: dry
+summary: Applies graph neural networks and Granger causal inference to predict locus-gene associations from single-cell multimodal
+  data.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-61337-5
+  year: 2025
+  journal: Nature Communications
+  first_author: Wu AP
+  last_author: Berger B
+  title: Unveiling causal regulatory mechanisms through cell-state parallax
+  preprint_doi: 10.1101/2023.03.02.530529
+links: {}
+added: '2026-11-21'
+evidence: GrID-Net generalizes Granger causal inference to detect locus-gene associations in graph-structured systems such
+  as single-cell trajectories.

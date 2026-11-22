@@ -1,0 +1,23 @@
+name: SCExecute
+category: dry
+summary: SCExecute runs user-provided commands on alignments extracted by cell barcode from pooled single-cell sequencing
+  data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac768
+  year: 2023
+  journal: Bioinformatics
+  first_author: Edwards N
+  last_author: Horvath A
+  pmid: '36448703'
+  pmcid: PMC9825775
+  title: 'SCExecute: custom cell barcode-stratified analyses of scRNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: SCExecute extracts alignments for each cell barcode and runs commands on the resulting single-cell BAM files; it
+  was demonstrated on expressed variants in droplet scRNA-seq data.

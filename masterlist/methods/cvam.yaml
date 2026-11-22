@@ -1,0 +1,21 @@
+name: CVAM
+category: dry
+summary: Infers copy number alteration profiles from spatial transcriptomic expression and spatial information.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.3390/biom13050767
+  year: 2023
+  journal: Biomolecules
+  first_author: Ma J
+  last_author: Zhou X
+  pmid: '37238637'
+  pmcid: PMC10216626
+  title: 'CVAM: CNA Profile Inference of the Spatial Transcriptome Based on the VGAE and HMM'
+links: {}
+added: '2026-11-21'
+evidence: CVAM integrates spot gene expression and spatial information to infer copy number alteration events.

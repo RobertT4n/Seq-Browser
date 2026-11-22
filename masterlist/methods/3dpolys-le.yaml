@@ -1,0 +1,20 @@
+name: 3DPolyS-LE
+category: dry
+summary: Polymer simulation framework for modeling how loop extruders and boundary elements affect chromosome structure.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac705
+  year: 2022
+  journal: Bioinformatics
+  first_author: Gitchev T
+  last_author: Jost D
+  pmid: '36355469'
+  pmcid: PMC9750120
+  title: '3DPolyS-LE: an accessible simulation framework to model the interplay between chromatin and loop extrusion'
+links: {}
+added: '2026-11-21'
+evidence: 3DPolyS-LE simulates chromatin and loop extrusion and provides algorithms for comparing predictions with Hi-C data.

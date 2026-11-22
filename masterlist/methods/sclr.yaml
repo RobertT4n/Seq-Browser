@@ -1,0 +1,20 @@
+name: scLR
+category: dry
+summary: Identifies ligand-receptor interactions that differ between conditions using single-cell transcriptomic profiles.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac294
+  year: 2022
+  journal: Bioinformatics
+  first_author: Liu Q
+  last_author: Shyr Y
+  pmid: '35482476'
+  pmcid: PMC9191214
+  title: Dysregulated ligand-receptor interactions from single-cell transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: scLR models ligand and receptor expression to examine dysregulated interactions between two conditions.

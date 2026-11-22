@@ -1,0 +1,27 @@
+name: SR-Cat-Seq
+category: wet
+summary: Rolling-circle reverse transcription converts small RNAs into concatemeric cDNA for consensus sequencing on nanopore.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pone.0275471
+  year: 2022
+  journal: PLoS One
+  first_author: Maguire S
+  last_author: Guan S
+  pmid: '36215256'
+  pmcid: PMC9550094
+  title: Rolling circle reverse transcription enables high fidelity nanopore sequencing of small RNA
+links: {}
+added: '2026-11-21'
+evidence: Small RNAs are ligated to an adapter, circularized and reverse transcribed into concatemers whose repeats yield
+  consensus sequences.

@@ -1,0 +1,31 @@
+name: SHInE
+full_name: simultaneous HCR, immunohistochemistry and EdU labeling
+category: wet
+summary: A combined staining protocol visualizes transcripts, proteins and proliferating cells in cleared tissues.
+readouts:
+- rna
+- protein
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+- nucleotide-labeling
+species:
+- invertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/icb/icad007
+  year: 2023
+  journal: Integr Comp Biol
+  first_author: Ćorić A
+  last_author: Raible F
+  pmid: '36866518'
+  pmcid: PMC10445416
+  title: A Fast And Versatile Method for Simultaneous HCR, Immunohistochemistry And Edu Labeling (SHInE)
+  preprint_doi: 10.1101/2022.10.13.512152
+links: {}
+added: '2026-11-21'
+evidence: The protocol combines hybridization chain reaction, immunohistochemistry and EdU labeling to analyze bristleworm
+  gene expression, protein localization and cell proliferation.

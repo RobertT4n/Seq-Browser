@@ -1,0 +1,20 @@
+name: cellDancer
+category: dry
+summary: Infers cell-specific RNA velocity and kinetic rates using a neural network that models local cell neighborhoods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-023-01728-5
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Li S
+  last_author: Wang G
+  pmid: '37012448'
+  pmcid: PMC10545816
+  title: A relay velocity model infers cell-dependent RNA velocity
+links: {}
+added: '2026-11-21'
+evidence: cellDancer locally infers velocity for each cell from its neighbors and relays local velocities to infer kinetics.

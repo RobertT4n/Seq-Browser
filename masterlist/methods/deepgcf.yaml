@@ -1,0 +1,24 @@
+name: DeepGCF
+full_name: Deep learning-based approach to learn the Genomic Conservation at the Functional level
+category: dry
+summary: DeepGCF integrates human and pig epigenome and transcriptome profiles to predict functional genomic conservation
+  between species.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2023.100390
+  year: 2023
+  journal: Cell Genom
+  first_author: Li J
+  last_author: Cheng H
+  pmid: '37868039'
+  pmcid: PMC10589632
+  title: Learning functional conservation between human and pig to decipher evolutionary mechanisms underlying gene expression
+    and complex traits
+  preprint_doi: 10.1101/2023.01.13.523857
+links: {}
+added: '2026-11-21'
+evidence: DeepGCF integrates 386 human and 374 pig epigenome and transcriptome profiles to learn functional conservation.

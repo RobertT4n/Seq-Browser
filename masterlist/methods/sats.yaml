@@ -1,0 +1,19 @@
+name: SATS
+category: dry
+summary: Analyzes tumor mutational signatures in targeted sequencing data using a panel-calibrated framework.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2023.05.18.23290188
+  year: 2023
+  journal: medRxiv
+  first_author: Lee D
+  last_author: Zhu B
+  title: A real-world pan-cancer catalogue of mutational signatures from 111,711 tumors
+links: {}
+added: '2026-11-21'
+evidence: SATS is designed for mutational signature analysis in targeted sequencing data and was applied to a large pan-cancer
+  cohort.

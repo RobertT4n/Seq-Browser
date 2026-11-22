@@ -1,0 +1,22 @@
+name: EpiStatProfiler
+category: dry
+summary: R package for extracting and statistically analyzing CpG and non-CpG epialleles from bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.10.027
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Sarnataro A
+  last_author: Scala G
+  pmid: '36382198'
+  pmcid: PMC9636440
+  title: A novel workflow for the qualitative analysis of DNA methylation data
+links: {}
+added: '2026-11-21'
+evidence: EpiStatProfiler analyzes CpG and non-CpG epialleles from bisulfite sequencing data using extraction functions and
+  statistical tests.

@@ -1,0 +1,22 @@
+name: DeepConsensus
+category: dry
+summary: Uses a gap-aware transformer to correct PacBio circular consensus sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41587-022-01435-7
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Baid G
+  last_author: Carroll A
+  pmid: '36050551'
+  title: DeepConsensus improves the accuracy of sequences with a gap-aware sequence transformer
+links: {}
+added: '2026-11-21'
+evidence: DeepConsensus uses an alignment-based loss to train a gap-aware transformer-encoder for sequence correction.

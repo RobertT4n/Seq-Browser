@@ -1,0 +1,32 @@
+name: CAPTORs
+full_name: Control Library Adaptors
+category: wet
+summary: Library adapters containing reference controls assess sequencing accuracy and quantitative reliability in RNA and
+  DNA libraries.
+readouts:
+- genome-sequence
+- rna
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-022-34028-8
+  year: 2022
+  journal: Nat Commun
+  first_author: Gunter HM
+  last_author: Mercer TR
+  pmid: '36307482'
+  pmcid: PMC9616880
+  title: Library adaptors with integrated reference controls improve the accuracy and reliability of nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: CAPTORs encode controls in library adapters to measure nanopore accuracy and assess metagenomic and RNA sequencing
+  performance.

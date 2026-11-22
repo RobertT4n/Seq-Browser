@@ -1,0 +1,22 @@
+name: PneumoKITy
+full_name: Pneumococcal K-mer Integrated Typing
+category: dry
+summary: K-mer screening tool for determining pneumococcal serotypes and detecting mixed serotypes from sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1099/mgen.0.000904
+  year: 2022
+  journal: Microb Genom
+  first_author: Sheppard CL
+  last_author: Fry NK
+  pmid: '36748701'
+  pmcid: PMC9837567
+  title: 'PneumoKITy: A fast, flexible, specific, and sensitive tool for <i>Streptococcus pneumoniae</i> serotype screening
+    and mixed serotype detection from genome sequence data'
+links: {}
+added: '2026-11-21'
+evidence: PneumoKITy uses Mash k-mer screening to determine pneumococcal serotypes and detect mixed serotypes.

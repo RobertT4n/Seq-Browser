@@ -1,0 +1,22 @@
+name: PolyAtailor
+category: dry
+summary: Identifies and analyzes RNA poly(A) tails from PacBio long reads or short-read sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bib/bbac271
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Liu M
+  last_author: Wu X
+  title: 'PolyAtailor: measuring poly(A) tail length from short-read and long-read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: PolyAtailor measures tail position, length, sequence and type from PacBio or short-read data, with or without a
+  reference genome.

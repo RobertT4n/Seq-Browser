@@ -1,0 +1,28 @@
+name: Methyl-SNP-seq
+category: wet
+summary: Links cytosine methylation and original DNA sequence information from complementary strands of the same molecule.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+reference:
+  doi: 10.1101/gr.277080.122
+  year: 2022
+  journal: Genome Res
+  first_author: Yan B
+  last_author: Ettwiller L
+  pmid: '36332968'
+  pmcid: PMC9808626
+  title: Methyl-SNP-seq reveals dual readouts of methylome and variome at molecule resolution while enabling target enrichment
+  preprint_doi: 10.1101/2022.06.28.498010
+links: {}
+added: '2026-11-21'
+evidence: One DNA strand undergoes bisulfite conversion while the other retains its original sequence, with both readouts
+  linked on a paired-end read.

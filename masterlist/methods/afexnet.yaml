@@ -1,0 +1,20 @@
+name: AFExNet
+category: dry
+summary: Uses an adversarial autoencoder to extract features for distinguishing breast cancer subtypes from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2021.3066086
+  year: 2022
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Mondol RK
+  last_author: Kavehei O
+  title: 'AFExNet: An Adversarial Autoencoder for Differentiating Breast Cancer Sub-Types and Extracting Biologically Relevant
+    Genes'
+links: {}
+added: '2026-11-21'
+evidence: AFExNet extracts features from high-dimensional genetic data and was evaluated with classifiers on a public breast
+  cancer RNA-seq dataset.

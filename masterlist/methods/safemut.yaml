@@ -1,0 +1,20 @@
+name: SafeMut
+category: dry
+summary: Simulates small variants in sequencing reads while accounting for unique molecular identifiers and allele-fraction
+  overdispersion.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.imu.2023.101307
+  year: 2023
+  journal: Informatics in Medicine Unlocked
+  first_author: Zhao X
+  last_author: Wang S
+  title: 'SafeMut: UMI-aware variant simulator incorporating allele-fraction overdispersion in read editing'
+  preprint_doi: 10.1101/2023.03.14.532524
+links: {}
+added: '2026-11-21'
+evidence: SafeMut is a UMI-aware small-variant simulator that considers allele-fraction overdispersion.

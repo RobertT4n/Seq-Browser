@@ -1,0 +1,18 @@
+name: k2v
+category: dry
+summary: Containerized workflow that converts Kintelligence targeted sequencing output into standard VCF files.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2022.11.21.517402
+  year: 2022
+  journal: bioRxiv
+  first_author: Turner SD
+  last_author: Peck MA
+  title: 'k2v: A Containerized Workflow for Creating VCF Files from Kintelligence Targeted Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: k2v creates specification-compliant VCF files from Kintelligence Universal Analysis Software output.

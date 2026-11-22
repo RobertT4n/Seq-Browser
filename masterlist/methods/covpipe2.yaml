@@ -1,0 +1,22 @@
+name: CoVpipe2
+category: dry
+summary: CoVpipe2 reconstructs SARS-CoV-2 genomes from short-read sequencing data while addressing amplicon-specific challenges.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.136683.2
+  year: 2023
+  journal: F1000Res
+  first_author: Lataretu M
+  last_author: Fuchs S
+  pmid: '38716230'
+  pmcid: PMC11074694
+  title: 'Lessons learned: overcoming common challenges in reconstructing the SARS-CoV-2 genome from short-read sequencing
+    data via CoVpipe2'
+links: {}
+added: '2026-11-21'
+evidence: CoVpipe2 performs quality control, mapping, variant calling and consensus generation, with features to help detect
+  mixed samples and recombinants.

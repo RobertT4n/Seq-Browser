@@ -1,0 +1,24 @@
+name: scISA-Tools
+category: dry
+summary: scISA-Tools demultiplexes concatenated HIT-scISOseq reads into single-cell cDNA reads.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1038/s41467-023-38324-9
+  year: 2023
+  journal: Nat Commun
+  first_author: Shi ZX
+  last_author: Liu YZ
+  pmid: '37149708'
+  pmcid: PMC10164132
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+links: {}
+added: '2026-11-21'
+evidence: scISA-Tools demultiplexes HIT-scISOseq concatenated reads into single-cell cDNA reads with greater than 99.99% accuracy
+  and specificity.

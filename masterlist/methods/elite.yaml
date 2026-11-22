@@ -1,0 +1,19 @@
+name: ELITE
+full_name: Expression deconvoLution using lInear optimizaTion in bulk transcriptomics mixturEs
+category: dry
+summary: Uses linear programming to estimate cell-type composition from bulk transcriptomic mixtures and reference signatures.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.06.531002
+  year: 2023
+  journal: bioRxiv
+  first_author: Antoranz
+  last_author: J
+  title: 'ELITE: Expression deconvoLution using lInear optimizaTion in bulk transcriptomics mixturEs'
+links: {}
+added: '2026-11-21'
+evidence: ELITE uses a bulk mixture matrix and a cell-type signature matrix to solve the deconvolution problem.

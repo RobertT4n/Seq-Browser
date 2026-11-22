@@ -1,0 +1,28 @@
+name: Dyad-seq
+category: wet
+summary: Method combining enzymatic detection and nucleobase conversion to quantify cytosine modification states at individual
+  CpG dyads.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1038/s41594-024-01291-w
+  year: 2024
+  journal: Nat Struct Mol Biol
+  first_author: Chialastri A
+  last_author: Dey SS
+  pmid: '38671229'
+  pmcid: PMC12551665
+  title: Combinatorial quantification of 5mC and 5hmC at individual CpG dyads and the transcriptome in single cells reveals
+    modulators of DNA methylation maintenance fidelity
+  preprint_doi: 10.1101/2023.05.06.539708
+links: {}
+added: '2026-11-21'
+evidence: Dyad-seq quantifies genome-wide cytosine methylation at individual CpG dinucleotides and was extended to distinguish
+  combinations of 5mC and 5hmC at CpG dyads.

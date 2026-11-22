@@ -1,0 +1,26 @@
+name: Nano ICE-Seq
+category: wet
+summary: Chemical probing and nanopore sequencing detect RNA inosine modifications while addressing the low coverage of direct
+  RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1021/acschembio.2c00221
+  year: 2022
+  journal: ACS Chem Biol
+  first_author: Ramasamy S
+  last_author: Pandian GN
+  pmid: '36190780'
+  title: Chemical Probe-Based Nanopore Sequencing to Selectively Assess the RNA Modifications
+links: {}
+added: '2026-11-21'
+evidence: Acrylonitrile selectively reacts with inosine, altering nanopore read parameters, and Nano ICE-Seq addresses low
+  direct RNA sequencing coverage.

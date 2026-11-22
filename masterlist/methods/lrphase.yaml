@@ -1,0 +1,23 @@
+name: LRphase
+category: dry
+summary: LRphase assigns long sequencing reads to known haplotypes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1371/journal.pone.0298688
+  year: 2024
+  journal: PLoS One
+  first_author: Holmes MJ
+  last_author: Boyle AP
+  pmid: '38478504'
+  pmcid: PMC10936807
+  title: 'HaplotagLR: An efficient and configurable utility for haplotagging long reads'
+  preprint_doi: 10.1101/2023.01.18.524565
+links: {}
+added: '2026-11-21'
+evidence: LRphase is a standalone utility for phasing long sequencing reads based on known haplotypes.

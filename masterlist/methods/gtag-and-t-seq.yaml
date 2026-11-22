@@ -1,0 +1,31 @@
+name: Gtag&T-seq
+category: wet
+summary: Profiles the genome and transcriptome of the same single cells using direct genomic tagmentation without whole-genome
+  amplification.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/nar/gkaf173
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Theunis K
+  last_author: Voet T
+  pmid: '40138718'
+  pmcid: PMC11941470
+  title: Single-cell genome and transcriptome sequencing without upfront whole-genome amplification reveals cell state plasticity
+    of melanoma subclones
+  preprint_doi: 10.1101/2023.01.13.521174
+links: {}
+added: '2026-11-21'
+evidence: Gtag&T-seq uses direct genomic tagmentation in place of whole-genome amplification to sequence the genome and transcriptome
+  of the same single cells.

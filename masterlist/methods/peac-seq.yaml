@@ -1,0 +1,26 @@
+name: PEAC-seq
+category: wet
+summary: Uses prime-editor insertion of a sequence tag and sequencing enrichment to identify CRISPR off-target sites and DNA
+  translocations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-022-35086-8
+  year: 2022
+  journal: Nat Commun
+  first_author: Yu Z
+  last_author: Ma L
+  pmid: '36509752'
+  pmcid: PMC9744820
+  title: PEAC-seq adopts Prime Editor to detect CRISPR off-target and DNA translocation
+links: {}
+added: '2026-11-21'
+evidence: PEAC-seq inserts a tag at editing sites, enriches tagged regions with site-specific primers, and identifies off-target
+  sites and translocations.

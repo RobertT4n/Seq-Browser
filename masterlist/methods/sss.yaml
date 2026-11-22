@@ -1,0 +1,26 @@
+name: SSS
+full_name: short signature sequencing
+category: wet
+summary: Uses pyrosequencing of short rpoB signatures to distinguish closely related mycobacterial species.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1128/spectrum.02534-21
+  year: 2022
+  journal: Microbiol Spectr
+  first_author: Bao JR
+  last_author: Clark RB
+  pmid: '35950771'
+  pmcid: PMC9431568
+  title: Short Signature <i>rpoB</i> Gene Sequence to Differentiate Species in Mycobacterium abscessus Group
+links: {}
+added: '2026-11-21'
+evidence: Short signatures at a hypervariable rpoB site differentiated 111 Mycobacterium chelonae-abscessus complex isolates
+  to species level.

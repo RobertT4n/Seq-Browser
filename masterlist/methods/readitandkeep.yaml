@@ -1,0 +1,20 @@
+name: ReadItAndKeep
+category: dry
+summary: Filters sequencing reads to retain those matching the SARS-CoV-2 genome and remove host contamination.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac311
+  year: 2022
+  journal: Bioinformatics
+  first_author: Hunt M
+  last_author: Iqbal Z
+  pmid: '35551365'
+  pmcid: PMC9191204
+  title: 'ReadItAndKeep: rapid decontamination of SARS-CoV-2 sequencing reads'
+links: {}
+added: '2026-11-21'
+evidence: ReadItAndKeep only keeps reads matching the SARS-CoV-2 genome.

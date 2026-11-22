@@ -1,0 +1,24 @@
+name: MINE
+full_name: MultI-modal NEtwork
+category: dry
+summary: Integrates chromatin contact, accessibility and histone data to detect, quantify and visualize regulatory chromatin
+  interactions.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2022.100386
+  year: 2023
+  journal: Cell Reports Methods
+  first_author: Gong H
+  last_author: Chen Y
+  title: MINE is a method for detecting spatial density of regulatory chromatin interactions based on a multi-modal network
+  preprint_doi: 10.1101/2022.07.11.499656
+links: {}
+added: '2026-11-21'
+evidence: MINE-Loop integrates Hi-C, ATAC-seq and histone ChIP-seq to detect regulatory chromatin interactions, while MINE-Density
+  quantifies their spatial density.

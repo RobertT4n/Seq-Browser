@@ -1,0 +1,24 @@
+name: DeepSelectNet
+category: dry
+summary: Deep neural network method for real-time species classification during selective nanopore sequencing.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12859-023-05151-0
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Senanayake A
+  last_author: Ragel R
+  pmid: '36709261'
+  pmcid: PMC9883605
+  title: 'DeepSelectNet: deep neural network based selective sequencing for oxford nanopore sequencing'
+  preprint_doi: 10.1101/2022.10.24.513498
+links: {}
+added: '2026-11-21'
+evidence: DeepSelectNet enables real-time species classification using selective nanopore sequencing.

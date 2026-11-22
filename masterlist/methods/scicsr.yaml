@@ -1,0 +1,23 @@
+name: sciCSR
+full_name: single-cell inference of class switch recombination
+category: dry
+summary: Infers B-cell class-switch recombination dynamics and state transitions from single-cell RNA-seq data.
+readouts:
+- immune-repertoire
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-02060-1
+  year: 2023
+  journal: Nature Methods
+  first_author: Ng JCF
+  last_author: Fraternali F
+  title: sciCSR infers B cell state transition and predicts class-switch recombination dynamics using single-cell transcriptomic
+    data
+  preprint_doi: 10.1101/2023.02.02.526789
+links: {}
+added: '2026-11-21'
+evidence: sciCSR distinguishes productive immunoglobulin transcripts from germline transcripts and builds a Markov state model
+  to infer class-switch dynamics.

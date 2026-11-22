@@ -1,0 +1,24 @@
+name: tau-Fisher
+category: dry
+summary: Predicts circadian time from a single bulk or single-cell transcriptomic sample using correlations among rhythmic
+  genes.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-48041-6
+  year: 2024
+  journal: Nat Commun
+  first_author: Duan J
+  last_author: Andersen B
+  pmid: '38714698'
+  pmcid: PMC11076472
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+  preprint_doi: 10.1101/2023.04.04.535473
+links: {}
+added: '2026-11-21'
+evidence: tau-Fisher predicts circadian time from a single transcriptomic sample and was demonstrated on bulk and single-cell
+  data.

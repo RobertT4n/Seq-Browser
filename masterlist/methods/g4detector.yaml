@@ -1,0 +1,19 @@
+name: G4detector
+category: dry
+summary: Predicts DNA G-quadruplex formation from sequence using a convolutional neural network.
+readouts:
+- dna-secondary-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2021.3073595
+  year: 2022
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Barshai M
+  last_author: Orenstein Y
+  title: 'G4detector: Convolutional Neural Network to Predict DNA G-Quadruplexes'
+links: {}
+added: '2026-11-21'
+evidence: G4detector predicts G-quadruplexes from DNA sequences and was trained and tested using G4-seq benchmarks across
+  multiple species.

@@ -1,0 +1,18 @@
+name: GNN-C2L
+category: dry
+summary: GNN-C2L estimates spatial cell-type composition by propagating information between neighboring transcriptomics spots.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.05.19.541474
+  year: 2023
+  journal: bioRxiv
+  first_author: Viñas R
+  last_author: Liò P
+  title: Spatio-relational inductive biases in spatial cell-type deconvolution
+links: {}
+added: '2026-11-21'
+evidence: GNN-C2L is a spatial deconvolution approach that propagates information along adjacent spots.

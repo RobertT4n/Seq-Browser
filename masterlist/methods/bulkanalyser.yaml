@@ -1,0 +1,20 @@
+name: bulkAnalyseR
+category: dry
+summary: Provides interactive quality control, differential expression, interpretation and regulatory network analysis for
+  bulk sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac591
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Moutsopoulos I
+  last_author: Mohorianu II
+  title: 'bulkAnalyseR: an accessible, interactive pipeline for analysing and sharing bulk multi-modal sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: bulkAnalyseR starts from an expression matrix and provides interactive quality checking, differential expression
+  analysis and regulatory interaction inference.

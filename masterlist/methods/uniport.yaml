@@ -1,0 +1,23 @@
+name: uniPort
+category: dry
+summary: Framework combining a coupled variational autoencoder and optimal transport to integrate single-cell multi-omics
+  and spatial transcriptomic data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-35094-8
+  year: 2022
+  journal: Nat Commun
+  first_author: Cao K
+  last_author: Wan L
+  pmid: '36456571'
+  pmcid: PMC9715710
+  title: A unified computational framework for single-cell data integration with optimal transport
+links: {}
+added: '2026-11-21'
+evidence: uniPort jointly embeds heterogeneous single-cell multi-omics datasets and deconvolutes spatial transcriptomic data.

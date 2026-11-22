@@ -1,0 +1,23 @@
+name: scEvoNet
+category: dry
+summary: Single-cell RNA-seq tool that identifies shared gene signatures to study cell-state evolution across species or in
+  cancer.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05213-3
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Kotov A
+  last_author: Monsoro-Burq AH
+  pmid: '36879200'
+  pmcid: PMC9990205
+  title: 'scEvoNet: a gradient boosting-based method for prediction of cell state evolution'
+  preprint_doi: 10.1101/2022.12.07.519467
+links: {}
+added: '2026-11-21'
+evidence: scEvoNet constructs a cell-state confusion matrix and a gene-to-cell-state network to identify shared signatures.
+=== FILE: scev onet.yaml ===

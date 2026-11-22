@@ -1,0 +1,25 @@
+name: KARGAMobile
+category: dry
+summary: Identifies antibiotic resistance genes from nanopore sequencing data on mobile devices.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3389/fbioe.2022.1016408
+  year: 2022
+  journal: Front Bioeng Biotechnol
+  first_author: Barquero A
+  last_author: Prosperi M
+  pmid: '36324897'
+  pmcid: PMC9618647
+  title: 'KARGAMobile: Android app for portable, real-time, easily interpretable analysis of antibiotic resistance genes &lt;i&gt;via&lt;/i&gt;
+    nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: KARGAMobile ports the KARGA antibiotic resistance gene identification algorithm to mobile devices using a compressed
+  reference database.

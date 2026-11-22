@@ -1,0 +1,23 @@
+name: UCseek
+category: dry
+summary: Classifies urothelial carcinoma from copy number and methylation information in genome-wide sequencing of urinary
+  sediment DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ebiom.2023.104437
+  year: 2023
+  journal: eBioMedicine
+  first_author: Wang P
+  last_author: Li X
+  title: 'UCseek: ultrasensitive early detection and recurrence monitoring of urothelial carcinoma by shallow-depth genome-wide
+    bisulfite sequencing of urinary sediment DNA'
+links: {}
+added: '2026-11-21'
+evidence: UCseek combines copy number variations and methylation values in a support vector machine classifier for urothelial
+  carcinoma.

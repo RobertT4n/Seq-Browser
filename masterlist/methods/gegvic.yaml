@@ -1,0 +1,21 @@
+name: GEGVIC
+category: dry
+summary: Provides a modular workflow for gene expression, genomic variation, and immune composition analysis in cancer sequencing
+  data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.04.05.535678
+  year: 2023
+  journal: bioRxiv
+  first_author: Arques
+  last_author: L
+  title: 'GEGVIC: A workflow to analyze Gene Expression, Genetic Variations and Immune cell Composition of tumor samples using
+    Next Generation Sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: GEGVIC includes differential gene expression, genomic mutation exploration, and immune cell deconvolution modules.

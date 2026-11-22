@@ -1,0 +1,21 @@
+name: scRegClust
+full_name: single-cell Regulatory-driven Clustering
+category: dry
+summary: Reconstructs cellular regulatory programs from single-cell RNA-seq data and predicts associated transcription factors
+  and kinases.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-53954-3
+  year: 2024
+  journal: Nature Communications
+  first_author: Larsson I
+  last_author: Nelander S
+  title: Reconstructing the regulatory programs underlying the phenotypic plasticity of neural cancers
+  preprint_doi: 10.1101/2023.03.10.532041
+links: {}
+added: '2026-11-21'
+evidence: scRegClust predicts essential kinases and transcription factors from collections of single-cell RNA-seq data.

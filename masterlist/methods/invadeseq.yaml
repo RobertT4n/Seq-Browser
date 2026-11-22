@@ -1,0 +1,31 @@
+name: INVADEseq
+full_name: invasion-adhesion-directed expression sequencing
+category: wet
+summary: Single-cell RNA sequencing identifies cell-associated bacteria alongside host-cell transcriptional profiles in tumors.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+- microbe
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41586-022-05435-0
+  year: 2022
+  journal: Nature
+  first_author: Galeano Niño JL
+  last_author: Bullman S
+  pmid: '36385528'
+  pmcid: PMC9684076
+  title: Effect of the intratumoral microbiota on spatial and cellular heterogeneity in cancer
+links: {}
+added: '2026-11-21'
+evidence: INVADEseq identifies cell-associated bacteria and their host cells in patient tumors while revealing altered transcriptional
+  pathways.

@@ -1,0 +1,21 @@
+name: FastRNA
+category: dry
+summary: Efficiently computes PCA of single-cell RNA-seq data using a count model that accounts for batches and cell size
+  factors.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ajhg.2022.09.008
+  year: 2022
+  journal: Am J Hum Genet
+  first_author: Lee H
+  last_author: Han B
+  pmid: '36206757'
+  pmcid: PMC9674949
+  title: 'FastRNA: An efficient solution for PCA of single-cell RNA-sequencing data based on a batch-accounting count model'
+links: {}
+added: '2026-11-21'
+evidence: FastRNA avoids forming a large dense residual matrix when computing count-model-based PCA.

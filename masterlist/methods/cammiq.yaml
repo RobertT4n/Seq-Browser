@@ -1,0 +1,23 @@
+name: CAMMiQ
+category: dry
+summary: Combinatorial optimization framework that identifies and quantifies database-specified microbial genomes in metagenomic
+  data.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-33869-7
+  year: 2022
+  journal: Nat Commun
+  first_author: Zhu K
+  last_author: Sahinalp SC
+  pmid: '36307411'
+  pmcid: PMC9616933
+  title: Strain level microbial detection and quantification with applications to single cell metagenomics
+links: {}
+added: '2026-11-21'
+evidence: CAMMiQ distinguished closely related bacterial strains in simulated metagenomic and real single-cell metatranscriptomic
+  data.

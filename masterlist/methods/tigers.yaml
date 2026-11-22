@@ -1,0 +1,22 @@
+name: TIGERS
+full_name: tensor-based imputation of gene-expression data at the single-cell level
+category: dry
+summary: Tensor imputation method that predicts missing drug-induced single-cell expression profiles and analyzes regulated
+  pathway trajectories.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-022-00352-8
+  year: 2022
+  journal: Nat Comput Sci
+  first_author: Iwata M
+  last_author: Yamanishi Y
+  pmid: '38177364'
+  pmcid: PMC10768635
+  title: Pathway trajectory analysis with tensor imputation reveals drug-induced single-cell transcriptomic landscape
+links: {}
+added: '2026-11-21'
+evidence: TIGERS predicts missing drug-induced single-cell gene-expression data and identifies trajectories of regulated pathways.

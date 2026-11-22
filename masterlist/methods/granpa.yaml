@@ -1,0 +1,21 @@
+name: GRaNPA
+full_name: Gene Regulatory Network Performance Analysis
+category: dry
+summary: Evaluates gene regulatory networks by their ability to predict cell-type-specific differential expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.202311627
+  year: 2023
+  journal: Mol Syst Biol
+  first_author: Kamal A
+  last_author: Zaugg JB
+  pmid: '37073532'
+  pmcid: PMC10258561
+  title: 'GRaNIE and GRaNPA: inference and evaluation of enhancer-mediated gene regulatory networks'
+links: {}
+added: '2026-11-21'
+evidence: GRaNPA assesses the performance of gene regulatory networks in predicting cell-type-specific differential expression.

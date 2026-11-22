@@ -1,0 +1,30 @@
+name: HGE-scSeq
+full_name: HBV genome enriched single cell sequencing
+category: wet
+summary: Enriches HBV genomes in single-cell sequencing to identify viral integration sites and infer copy number variation
+  in tumors.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s12920-022-01264-2
+  year: 2022
+  journal: BMC Med Genomics
+  first_author: Wang W
+  last_author: Zhu J
+  pmid: '35710421'
+  pmcid: PMC9205089
+  title: HBV genome-enriched single cell sequencing revealed heterogeneity in HBV-driven hepatocellular carcinoma (HCC)
+links: {}
+added: '2026-11-21'
+evidence: HGE-scSeq identified HBV integration sites and inferred copy number variations in 269 cells from an HBV-associated
+  hepatocellular carcinoma patient.

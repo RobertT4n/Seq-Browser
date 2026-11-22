@@ -1,0 +1,19 @@
+name: DeepBend
+category: dry
+summary: Predicts DNA bendability from sequence and interprets the motifs and their arrangements that influence it.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2023.105945
+  year: 2023
+  journal: iScience
+  first_author: Khan SR
+  last_author: Samee MAH
+  title: 'DeepBend: An interpretable model of DNA bendability'
+  preprint_doi: 10.1101/2022.07.06.499067
+links: {}
+added: '2026-11-21'
+evidence: DeepBend uses a convolutional neural network to capture motifs underlying DNA bendability and their spatial arrangements.

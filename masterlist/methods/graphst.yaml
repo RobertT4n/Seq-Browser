@@ -1,0 +1,23 @@
+name: GraphST
+category: dry
+summary: GraphST combines spatial location and gene expression to cluster, integrate, and deconvolve spatial transcriptomics
+  data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-36796-3
+  year: 2023
+  journal: Nat Commun
+  first_author: Long Y
+  last_author: Chen J
+  pmid: '36859400'
+  pmcid: PMC9977836
+  title: Spatially informed clustering, integration, and deconvolution of spatial transcriptomics with GraphST
+  preprint_doi: 10.1101/2022.08.02.502407
+links: {}
+added: '2026-11-21'
+evidence: GraphST uses graph self-supervised contrastive learning for spatial clustering, multi-sample integration, and cell-type
+  deconvolution.

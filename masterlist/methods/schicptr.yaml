@@ -1,0 +1,20 @@
+name: scHiCPTR
+category: dry
+summary: Unsupervised graph-based pipeline that infers developmental pseudotime from single-cell Hi-C contact matrices.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac670
+  year: 2022
+  journal: Bioinformatics
+  first_author: Lyu H
+  last_author: Yin X
+  pmid: '36205615'
+  title: 'scHiCPTR: unsupervised pseudotime inference through dual graph refinement for single-cell Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: scHiCPTR infers pseudotime from single-cell Hi-C matrices using imputation, embedding, graph refinement, and pseudotime
+  calculation.

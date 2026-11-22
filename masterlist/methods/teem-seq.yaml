@@ -1,0 +1,31 @@
+name: TEEM-Seq
+full_name: target-enriched enzymatic methyl sequencing
+category: wet
+summary: Combines enzymatic methyl sequencing with custom hybridization capture to quantify methylation in selected genomic
+  regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- oligo-capture
+species:
+- other-vertebrate
+reference:
+  doi: 10.1371/journal.pone.0282672
+  year: 2023
+  journal: PLoS One
+  first_author: Rubenstein DR
+  last_author: Solomon J
+  pmid: '36893162'
+  pmcid: PMC9997987
+  title: 'Target-enriched enzymatic methyl sequencing: Flexible, scalable and inexpensive hybridization capture for quantifying
+    DNA methylation'
+  preprint_doi: 10.1101/2022.08.26.505457
+links: {}
+added: '2026-11-21'
+evidence: TEEM-Seq combines enzymatic methyl sequencing with custom capture baits and was demonstrated using DNA from the
+  superb starling.

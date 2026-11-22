@@ -1,0 +1,21 @@
+name: 16S-FASAS
+full_name: 16S full-length amplicon sequencing data analysis software
+category: dry
+summary: 16S-FASAS processes synthetic full-length 16S rRNA gene sequencing data for microbiome taxonomic analysis.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7717/peerj.14043
+  year: 2022
+  journal: PeerJ
+  first_author: Zhang K
+  last_author: Zhang Z
+  pmid: '36172503'
+  pmcid: PMC9511998
+  title: '16S-FASAS: an integrated pipeline for synthetic full-length 16S rRNA gene sequencing data analysis'
+links: {}
+added: '2026-11-21'
+evidence: 16S-FASAS includes quality control, de novo assembly, annotation, and visualization for 16S-FAS-NGS data.

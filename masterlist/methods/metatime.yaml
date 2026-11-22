@@ -1,0 +1,22 @@
+name: MetaTiME
+full_name: Meta-components of the Tumor Immune Microenvironment
+category: dry
+summary: Learns interpretable gene-expression components to annotate cell states and signaling activities in tumor microenvironment
+  single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-38333-8
+  year: 2023
+  journal: Nature Communications
+  first_author: Zhang Y
+  last_author: Meyer CA
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+  preprint_doi: 10.1101/2022.08.05.502989
+links: {}
+added: '2026-11-21'
+evidence: MetaTiME learns expression meta-components across tumor cells and projects single-cell data into that space to annotate
+  cell states.

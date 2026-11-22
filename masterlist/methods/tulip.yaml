@@ -1,0 +1,20 @@
+name: TULIP
+category: dry
+summary: Convolutional neural network models that classify primary tumor types from RNA-seq expression counts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1177/11769351221139491
+  year: 2022
+  journal: Cancer Inform
+  first_author: Jones S
+  last_author: Ranganathan Ganakammal S
+  pmid: '36507076'
+  pmcid: PMC9729992
+  title: 'TULIP: An RNA-seq-based Primary Tumor Type Prediction Tool Using Convolutional Neural Networks'
+links: {}
+added: '2026-11-21'
+evidence: The authors developed CNN models to classify RNA-seq count data into 17 or 32 primary tumor types.

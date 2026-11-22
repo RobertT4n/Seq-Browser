@@ -1,0 +1,20 @@
+name: bmVAE
+category: dry
+summary: bmVAE clusters cells and estimates their genotypes from single-cell binary mutation data using a variational autoencoder.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac790
+  year: 2023
+  journal: Bioinformatics
+  first_author: Yan J
+  last_author: Yu Z
+  pmid: '36478203'
+  pmcid: PMC9825778
+  title: 'bmVAE: a variational autoencoder method for clustering single-cell mutation data'
+links: {}
+added: '2026-11-21'
+evidence: bmVAE takes single-cell binary mutation data as input and outputs inferred cell subpopulations and their genotypes.

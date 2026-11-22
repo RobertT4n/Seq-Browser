@@ -1,0 +1,20 @@
+name: HUNTRESS
+category: dry
+summary: Infers mutational intratumor heterogeneity and tumor progression histories from single-cell genotype matrices.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s43588-022-00298-x
+  year: 2022
+  journal: Nat Comput Sci
+  first_author: Kızılkale C
+  last_author: Malikić S
+  pmid: '38177468'
+  pmcid: PMC10765963
+  title: Fast intratumor heterogeneity inference from single-cell sequencing data
+links: {}
+added: '2026-11-21'
+evidence: HUNTRESS infers intratumor heterogeneity from noisy genotype matrices derived from single-cell sequencing data.

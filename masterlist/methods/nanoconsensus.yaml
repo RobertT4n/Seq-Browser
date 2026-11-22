@@ -1,0 +1,23 @@
+name: NanoConsensus
+category: dry
+summary: Integrates RNA modification detection algorithms to identify differentially modified rRNA sites from native nanopore
+  sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-54368-x
+  year: 2024
+  journal: Nature Communications
+  first_author: Delgado-Tejedor A
+  last_author: Novoa EM
+  title: Native RNA nanopore sequencing reveals antibiotic-induced loss of rRNA modifications in the A- and P-sites
+  preprint_doi: 10.1101/2023.03.21.533606
+links: {}
+added: '2026-11-21'
+evidence: NanoConsensus integrates estimates from multiple algorithms to predict differentially modified rRNA sites.

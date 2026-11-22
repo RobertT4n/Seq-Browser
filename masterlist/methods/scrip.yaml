@@ -1,0 +1,24 @@
+name: SCRIP
+category: dry
+summary: Integrative method that infers single-cell transcription regulator activity and targets from scATAC-seq and a ChIP-seq
+  reference.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac819
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Dong X
+  last_author: Wang C
+  pmid: '36155797'
+  pmcid: PMC9756951
+  title: Single-cell gene regulation network inference by large-scale data integration
+links: {}
+added: '2026-11-21'
+evidence: SCRIP integrates scATAC-seq with a large-scale transcription regulator ChIP-seq reference to infer regulator activity,
+  targets, and gene regulatory networks.

@@ -1,0 +1,24 @@
+name: GoldRush
+category: dry
+summary: De novo genome assembler with linear time complexity in the number of input long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-023-38716-x
+  year: 2023
+  journal: Nat Commun
+  first_author: Wong J
+  last_author: Birol I
+  pmid: '37217507'
+  pmcid: PMC10202940
+  title: Linear time complexity de novo long read genome assembly with GoldRush
+  preprint_doi: 10.1101/2022.10.25.513734
+links: {}
+added: '2026-11-21'
+evidence: GoldRush assembled human, rice, and tomato genomes from Oxford Nanopore datasets.

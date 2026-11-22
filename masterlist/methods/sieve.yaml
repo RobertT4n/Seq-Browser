@@ -1,0 +1,20 @@
+name: SIEVE
+category: dry
+summary: Statistical method that jointly infers somatic variants and cell phylogeny from single-cell DNA sequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02813-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Kang S
+  last_author: Szczurek E
+  pmid: '36451239'
+  pmcid: PMC9714196
+  title: 'SIEVE: joint inference of single-nucleotide variants and cell phylogeny from single-cell DNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SIEVE jointly infers somatic variants and cell phylogeny using raw nucleotide read counts from single-cell DNA sequencing.

@@ -1,0 +1,24 @@
+name: GP-age
+category: dry
+summary: GP-age predicts chronological age from 30 blood DNA methylation sites using a nonlinear cohort-based model.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.crmeth.2023.100567
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Varshavsky M
+  last_author: Kaplan T
+  pmid: '37751697'
+  pmcid: PMC10545910
+  title: Accurate age prediction from blood using a small set of DNA methylation sites and a cohort-based machine learning
+    algorithm
+  preprint_doi: 10.1101/2023.01.20.524874
+links: {}
+added: '2026-11-21'
+evidence: GP-age uses 30 CpG sites and a model trained on 11,910 blood methylomes to predict age from array or sequencing
+  data.

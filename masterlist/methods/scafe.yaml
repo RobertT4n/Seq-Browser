@@ -1,0 +1,23 @@
+name: SCAFE
+full_name: Single-Cell Analysis of Five-prime Ends
+category: dry
+summary: Software suite that identifies transcription start site clusters and annotates transcribed cis-regulatory elements
+  from single-cell RNA 5′-end sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac644
+  year: 2022
+  journal: Bioinformatics
+  first_author: Moody J
+  last_author: Hon CC
+  pmid: '36173306'
+  pmcid: PMC9665856
+  title: 'SCAFE: a software suite for analysis of transcribed cis-regulatory elements in single cells'
+links: {}
+added: '2026-11-21'
+evidence: SCAFE identifies transcription start site clusters, annotates transcribed cis-regulatory elements, and generates
+  a regulatory-element-by-cell count matrix.

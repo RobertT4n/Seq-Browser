@@ -1,0 +1,22 @@
+name: IAMSAM
+full_name: Image-based Analysis of Molecular signatures using the Segment-Anything Model
+category: dry
+summary: IAMSAM segments tissue images to select morphologically defined regions for spatial transcriptomics analysis.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03380-x
+  year: 2024
+  journal: Genome Biol
+  first_author: Lee D
+  last_author: Choi H
+  pmid: '39529142'
+  pmcid: PMC11552325
+  title: 'IAMSAM: image-based analysis of molecular signatures using the Segment Anything Model'
+  preprint_doi: 10.1101/2023.05.25.542052
+links: {}
+added: '2026-11-21'
+evidence: IAMSAM segments tissue images and analyzes selected regions for differential expression, enrichment and cell types.

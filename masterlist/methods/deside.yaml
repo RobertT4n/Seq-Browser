@@ -1,0 +1,24 @@
+name: DeSide
+category: dry
+summary: DeSide uses single-cell reference data and deep learning to estimate cell-type proportions in bulk solid tumor RNA-seq
+  samples.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1073/pnas.2407096121
+  year: 2024
+  journal: Proc Natl Acad Sci U S A
+  first_author: Xiong X
+  last_author: Li X
+  pmid: '39514318'
+  pmcid: PMC11573681
+  title: 'DeSide: A unified deep learning approach for cellular deconvolution of tumor microenvironment'
+  preprint_doi: 10.1101/2023.05.11.540466
+links: {}
+added: '2026-11-21'
+evidence: DeSide estimates tumor cell-type proportions using a neural network trained with non-cancerous cells and scRNA-seq
+  data from three cancer types.

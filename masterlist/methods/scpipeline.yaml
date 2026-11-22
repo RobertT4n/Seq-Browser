@@ -1,0 +1,22 @@
+name: scPipeline
+category: dry
+summary: Modular toolbox for single-cell transcriptome analysis, cellular annotation, differential expression, and gene program
+  discovery.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-022-04093-2
+  year: 2022
+  journal: Commun Biol
+  first_author: Mikolajewicz N
+  last_author: Han H
+  pmid: '36307536'
+  pmcid: PMC9616830
+  title: Multi-level cellular and functional annotation of single-cell transcriptomes using scPipeline
+links: {}
+added: '2026-11-21'
+evidence: scPipeline provides modular workflows for multi-level cellular annotation, including differential expression and
+  marker-based cell-type annotation.

@@ -1,0 +1,25 @@
+name: EAC-seq
+full_name: engineered A3C sequencing
+category: wet
+summary: Uses engineered A3C deamination to map DNA 5-methylcytosine quantitatively at single-base resolution without bisulfite.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acs.analchem.2c04616
+  year: 2023
+  journal: Anal Chem
+  first_author: Wang M
+  last_author: Yuan BF
+  pmid: '36563112'
+  title: Engineered APOBEC3C Sequencing Enables Bisulfite-Free and Direct Detection of DNA Methylation at a Single-Base Resolution
+links: {}
+added: '2026-11-21'
+evidence: Engineered A3C deaminates cytosine but not 5mC and was used to quantify 5mC in lung cancer tissue genomic DNA.

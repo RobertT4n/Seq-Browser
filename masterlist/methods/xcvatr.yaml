@@ -1,0 +1,26 @@
+name: XCVATR
+full_name: eXpressed Clusters of Variant Alleles in Transcriptome pRofiles
+category: dry
+summary: Method that identifies expressed variants and their local enrichment in embeddings of single-cell and bulk RNA-seq
+  data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-09004-7
+  year: 2022
+  journal: BMC Genomics
+  first_author: Harmanci A
+  last_author: Patel AJ
+  pmid: '36539717'
+  pmcid: PMC9764736
+  title: 'XCVATR: detection and characterization of variant impact on the Embeddings of single -cell and bulk RNA-sequencing
+    samples'
+links: {}
+added: '2026-11-21'
+evidence: XCVATR identifies variants and detects local enrichment of expressed variants within embeddings of samples and cells.
+=== FILE: xc vatr.yaml ===

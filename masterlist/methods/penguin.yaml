@@ -1,0 +1,25 @@
+name: PENGUIN
+full_name: Promoter-ENhancer-GUided Interaction Networks
+category: dry
+summary: Integrates HiChIP and protein interaction data to reconstruct protein interaction networks at enhancer-promoter contacts.
+readouts:
+- protein-protein-interaction
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-43767-1
+  year: 2023
+  journal: Nat Commun
+  first_author: Armaos A
+  last_author: Tartaglia GG
+  pmid: '38057321'
+  pmcid: PMC10700545
+  title: The PENGUIN approach to reconstruct protein interactions at enhancer-promoter regions and its application to prostate
+    cancer
+  preprint_doi: 10.1101/2022.10.20.512998
+links: {}
+added: '2026-11-21'
+evidence: PENGUIN integrates H3K27ac-HiChIP data and tissue-specific protein interaction information to identify enhancer-promoter
+  interaction networks.

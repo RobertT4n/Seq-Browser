@@ -1,0 +1,23 @@
+name: SPEER
+full_name: Splice Effect Event Resolver
+category: dry
+summary: Detects abnormal mRNA splicing, identifies potentially responsible DNA variants, and assesses their effects on transcripts.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jmoldx.2022.12.002
+  year: 2023
+  journal: The Journal of Molecular Diagnostics
+  first_author: Kamps-Hughes N
+  last_author: Nykamp K
+  title: A Systematic Method for Detecting Abnormal mRNA Splicing and Assessing Its Clinical Impact in Individuals Undergoing
+    Genetic Testing for Hereditary Cancer Syndromes
+  preprint_doi: 10.1101/2022.07.12.499782
+links: {}
+added: '2026-11-21'
+evidence: SPEER uses mRNA sequencing to identify splicing deviations and potentially responsible variants and was applied
+  to RNA encoding 63 hereditary cancer genes.

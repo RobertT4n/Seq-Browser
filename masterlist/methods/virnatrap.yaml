@@ -1,0 +1,23 @@
+name: viRNAtrap
+category: dry
+summary: viRNAtrap identifies viral RNA-seq reads with a deep learning model and assembles them into viral contigs.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-36336-z
+  year: 2023
+  journal: Nat Commun
+  first_author: Elbasir A
+  last_author: Auslander N
+  pmid: '36774364'
+  pmcid: PMC9922274
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+  preprint_doi: 10.1101/2022.06.26.497658
+links: {}
+added: '2026-11-21'
+evidence: viRNAtrap uses an alignment-free pipeline to identify viral reads and assemble viral contigs from tumor RNA-seq
+  data.

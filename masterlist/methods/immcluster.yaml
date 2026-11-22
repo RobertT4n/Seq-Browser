@@ -1,0 +1,20 @@
+name: ImmCluster
+category: dry
+summary: ImmCluster clusters and annotates immune cells using curated markers, context-specific references and an ensemble
+  of methods.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac922
+  year: 2022
+  journal: Nucleic Acids Research
+  first_author: Jiang T
+  last_author: Li Y
+  title: 'ImmCluster: an ensemble resource for immunology cell type clustering and annotations in normal and cancerous tissues'
+links: {}
+added: '2026-11-21'
+evidence: ImmCluster integrates immune-cell transcriptomes and curated marker genes to provide reference-based and marker-based
+  clustering and annotation.

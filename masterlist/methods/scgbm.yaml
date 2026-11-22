@@ -1,0 +1,21 @@
+name: scGBM
+category: dry
+summary: Uses a Poisson bilinear model to produce low-dimensional single-cell RNA-seq embeddings with uncertainty estimates.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/biostatistics/kxaf024
+  year: 2025
+  journal: Biostatistics
+  first_author: Nicol PB
+  last_author: Miller JW
+  pmid: '40795862'
+  pmcid: PMC12342792
+  title: Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models
+  preprint_doi: 10.1101/2023.04.21.537881
+links: {}
+added: '2026-11-21'
+evidence: scGBM models scRNA-seq counts for dimensionality reduction and quantifies uncertainty in each cell's latent position.

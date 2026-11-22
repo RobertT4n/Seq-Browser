@@ -1,0 +1,20 @@
+name: SLRRSC
+category: dry
+summary: Clusters single-cell RNA-seq data using low-rank representation with graph regularization and similarity constraints.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2022.3148286
+  year: 2022
+  journal: IEEE J Biomed Health Inform
+  first_author: Zhang NN
+  last_author: Wang J
+  pmid: '35120014'
+  title: 'SLRRSC: Single-Cell Type Recognition Method Based on Similarity and Graph Regularization Constraints'
+links: {}
+added: '2026-11-21'
+evidence: SLRRSC combines low-rank representation, manifold-based graph regularization and similarity constraints for single-cell
+  clustering.

@@ -1,0 +1,28 @@
+name: GenCap-Seq
+full_name: genome capture sequencing
+category: wet
+summary: Hybridization probes made from genomic DNA or PCR amplicons enrich bacterial DNA for measurement of intrastrain allele
+  frequencies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- microbe
+reference:
+  doi: 10.1128/mbio.01424-22
+  year: 2022
+  journal: mBio
+  first_author: Hayden HS
+  last_author: Salipante SJ
+  pmid: '36121157'
+  pmcid: PMC9601202
+  title: Genome Capture Sequencing Selectively Enriches Bacterial DNA and Enables Genome-Wide Measurement of Intrastrain Genetic
+    Diversity in Human Infections
+links: {}
+added: '2026-11-21'
+evidence: GenCap-Seq selectively enriches targeted bacterial DNA and measures allele frequencies from individual genes to
+  entire genomes.

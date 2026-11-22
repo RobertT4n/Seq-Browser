@@ -1,0 +1,31 @@
+name: scHi-HOST
+full_name: single-cell high-throughput human in vitro susceptibility testing
+category: wet
+summary: Single-cell RNA sequencing of mixed cell-line infections links host genetic variants to viral burden and gene expression.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.xgen.2022.100207
+  year: 2022
+  journal: Cell Genom
+  first_author: Schott BH
+  last_author: Ko DC
+  pmid: '36465279'
+  pmcid: PMC9718543
+  title: Single-cell genome-wide association reveals that a nonsynonymous variant in <i>ERAP1</i> confers increased susceptibility
+    to influenza virus
+links: {}
+added: '2026-11-21'
+evidence: scHi-HOST uses single-cell RNA sequencing to assign genetic identity, associate variants with influenza burden and
+  identify expression quantitative trait loci.

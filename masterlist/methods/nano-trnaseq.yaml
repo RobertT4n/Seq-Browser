@@ -1,0 +1,29 @@
+name: Nano-tRNAseq
+category: wet
+summary: Uses nanopore sequencing and raw signal reprocessing to quantify native tRNA abundance and modification dynamics.
+readouts:
+- rna
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-023-01743-6
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Lucas MC
+  last_author: Novoa EM
+  pmid: '37024678'
+  pmcid: PMC10791586
+  title: Quantitative analysis of tRNA abundance and modifications by nanopore RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: Nano-tRNAseq sequences native tRNA populations and estimates both tRNA abundances and modification dynamics, including
+  in Saccharomyces cerevisiae.

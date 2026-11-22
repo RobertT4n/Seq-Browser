@@ -1,0 +1,28 @@
+name: Photoselective Sequencing
+category: wet
+summary: Uses imaging-guided illumination to select regions of a fixed specimen for spatially informed genomic profiling.
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+- subcellular
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-023-01845-8
+  year: 2023
+  journal: Nat Methods
+  first_author: Mangiameli SM
+  last_author: Chen F
+  pmid: '37106232'
+  title: 'Photoselective sequencing: microscopically guided genomic measurements with subcellular resolution'
+  preprint_doi: 10.1101/2022.09.12.507600
+links: {}
+added: '2026-11-21'
+evidence: Fluorescence-guided illumination selects regions for sequencing, and the method profiles chromatin openness in labeled
+  cell types in mouse brain.

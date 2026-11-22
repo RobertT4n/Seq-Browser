@@ -1,0 +1,23 @@
+name: ECHO
+category: dry
+summary: Predicts chromatin features and characterizes transcription factor collaboration using DNA sequence and three-dimensional
+  chromatin contacts.
+readouts:
+- protein-dna-binding
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010162
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Zhang Z
+  last_author: Liu J
+  pmid: '35666736'
+  pmcid: PMC9203014
+  title: Characterizing collaborative transcription regulation with a graph-based deep learning approach
+links: {}
+added: '2026-11-21'
+evidence: ECHO predicts chromatin features using Micro-C contact maps, and its sequence attributions identify transcription
+  factor binding motifs.

@@ -1,0 +1,21 @@
+name: TOSICA
+full_name: Transformer for one stop interpretable cell type annotation
+category: dry
+summary: TOSICA uses a transformer model with biological entities such as pathways to annotate cell types and integrate single-cell
+  datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-35923-4
+  year: 2023
+  journal: Nature Communications
+  first_author: Chen J
+  last_author: Han JDJ
+  title: Transformer for one stop interpretable cell type annotation
+links: {}
+added: '2026-11-21'
+evidence: TOSICA provides interpretable cell-type annotation and batch-insensitive integration and was demonstrated on scRNA-seq
+  data.

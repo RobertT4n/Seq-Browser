@@ -1,0 +1,29 @@
+name: LDBSP
+full_name: limiting dilution bisulfite pyrosequencing
+category: wet
+summary: Laser-capture microdissection and limiting-dilution bisulfite pyrosequencing profile targeted DNA methylation in
+  individual neurons.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- imaging-guided-selection
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.3390/ijms232415571
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Riemens RJM
+  last_author: van den Hove DLA
+  pmid: '36555213'
+  pmcid: PMC9779089
+  title: Targeted Methylation Profiling of Single Laser-Capture Microdissected Post-Mortem Brain Cells by Adapted Limiting
+    Dilution Bisulfite Pyrosequencing (LDBSP)
+links: {}
+added: '2026-11-21'
+evidence: The approach measured CpG methylation in alleles from 50 neurons isolated from unfixed postmortem brain tissue.

@@ -1,0 +1,22 @@
+name: NanoSpring
+category: dry
+summary: Compresses nanopore sequencing read sequences without a reference using an approximate assembly approach.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41598-023-29267-8
+  year: 2023
+  journal: Scientific Reports
+  first_author: Meng Q
+  last_author: Weissman T
+  title: Reference-free lossless compression of nanopore sequencing reads using an approximate assembly approach
+links: {}
+added: '2026-11-21'
+evidence: NanoSpring is a reference-free compressor for nanopore sequencing reads that focuses on base sequences in FASTQ
+  files.

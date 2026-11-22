@@ -1,0 +1,23 @@
+name: scPSD
+category: dry
+summary: scPSD extracts features inspired by power spectral density analysis to improve cell subtype separation in single-cell
+  omics data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac436
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Zandavi SM
+  last_author: Vafaee F
+  pmid: '35639509'
+  pmcid: PMC9178020
+  title: Disentangling single-cell omics representation with a power spectral density-based feature extraction
+links: {}
+added: '2026-11-21'
+evidence: scPSD preprocessing improves cell-type separation and was applied to transcriptomic and chromatin accessibility
+  atlases.

@@ -1,0 +1,18 @@
+name: scART
+category: dry
+summary: Identifies cell identities and reconstructs cell-state trajectories from single-cell chromatin accessibility data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.04.08.536108
+  year: 2023
+  journal: bioRxiv
+  first_author: Guo
+  last_author: L
+  title: 'scART: recognizing cell clusters and constructing trajectory from single-cell epigenomic data'
+links: {}
+added: '2026-11-21'
+evidence: scART analyzes sparse scATAC-seq data to identify cell identities and construct cellular trajectories.

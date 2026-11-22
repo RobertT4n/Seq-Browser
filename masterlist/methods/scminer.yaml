@@ -1,0 +1,20 @@
+name: scMINER
+category: dry
+summary: Mutual information-based framework for clustering cells and inferring cell-type-specific networks and regulatory
+  drivers from single-cell RNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.01.26.523391
+  year: 2023
+  journal: bioRxiv
+  first_author: Ding L
+  last_author: Yu J
+  title: 'scMINER: a mutual information-based framework for identifying hidden drivers from single-cell omics data'
+links: {}
+added: '2026-11-21'
+evidence: scMINER infers intracellular networks, hidden drivers and network rewiring while capturing nonlinear cell-cell and
+  gene-gene relationships.

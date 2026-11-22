@@ -1,0 +1,23 @@
+name: SuPERR
+category: dry
+summary: Integrates single-cell transcriptomic and protein information to improve clustering and cell-type classification.
+readouts:
+- rna
+- protein
+- immune-repertoire
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2022.105123
+  year: 2022
+  journal: iScience
+  first_author: Xu C
+  last_author: Ghosn EEB
+  pmid: '36185375'
+  pmcid: PMC9523353
+  title: Comprehensive multi-omics single-cell data integration reveals greater heterogeneity in the human immune system
+links: {}
+added: '2026-11-21'
+evidence: SuPERR incorporates cell-surface protein and immunoglobulin transcript counts to improve clustering and remove cell
+  doublets.

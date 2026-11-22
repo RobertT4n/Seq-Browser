@@ -1,0 +1,24 @@
+name: SignalingProfiler
+category: dry
+summary: Strategy that integrates phosphoproteomics, RNA sequencing and literature-derived signaling networks to generate
+  genotype-specific predictive models.
+readouts:
+- protein
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41375-022-01785-w
+  year: 2023
+  journal: Leukemia
+  first_author: Massacci G
+  last_author: Sacco F
+  pmid: '36509894'
+  pmcid: PMC9898030
+  title: A key role of the WEE1-CDK1 axis in mediating TKI-therapy resistance in FLT3-ITD positive acute myeloid leukemia
+    patients
+links: {}
+added: '2026-11-21'
+evidence: SignalingProfiler integrated mass spectrometry-based proteomics and RNA-seq with signaling networks to generate
+  FLT3-ITD genotype-specific models.

@@ -1,0 +1,21 @@
+name: nf-core/hgtseq
+category: dry
+summary: Automated pipeline for analyzing horizontal gene transfer from exome and whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms232314512
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Carpanzano S
+  last_author: Lescai F
+  pmid: '36498841'
+  pmcid: PMC9738810
+  title: 'hgtseq: A Standard Pipeline to Study Horizontal Gene Transfer'
+  preprint_doi: 10.1101/2022.10.24.513588
+links: {}
+added: '2026-11-21'
+evidence: nf-core/hgtseq accepts exome and whole-genome sequencing data to facilitate horizontal gene transfer analysis.

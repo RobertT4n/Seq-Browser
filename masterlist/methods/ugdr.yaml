@@ -1,0 +1,20 @@
+name: UGDR
+category: dry
+summary: Pipeline for genotyping polymorphisms and detecting recombination events in complex hybrid yeast genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05113-y
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Bedrat A
+  last_author: Bedrat A
+  pmid: '36544090'
+  pmcid: PMC9773435
+  title: 'UGDR: a generic pipeline to detect recombined regions in polyploid and complex hybrid yeast genomes'
+links: {}
+added: '2026-11-21'
+evidence: UGDR uses read mapping, allelic ratio variation and read depth to detect and plot recombination events.

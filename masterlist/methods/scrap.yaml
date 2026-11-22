@@ -1,0 +1,21 @@
+name: SCRAP
+full_name: small chimeric RNA analysis pipeline
+category: dry
+summary: Pipeline for processing and analyzing chimeric small RNA sequencing reads to identify RNA interactions.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.079240.122
+  year: 2022
+  journal: RNA
+  first_author: Mills WT
+  last_author: Meffert MK
+  pmid: '36316086'
+  pmcid: PMC9808574
+  title: 'SCRAP: a bioinformatic pipeline for the analysis of small chimeric RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: SCRAP processes and aligns chimeric small RNA reads, then performs peak calling and annotation.

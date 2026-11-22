@@ -1,0 +1,20 @@
+name: RBPamp
+category: dry
+summary: Biophysical model that infers RNA-binding protein affinity spectra from RNA Bind-n-Seq data and predicts binding
+  along transcripts.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.08.515616
+  year: 2022
+  journal: bioRxiv
+  first_author: Jens M
+  last_author: Burge CB
+  title: 'RBPamp: Quantitative Modeling of Protein-RNA Interactions  <i>in vitro</i>  Predicts  <i>in vivo</i>  Binding'
+links: {}
+added: '2026-11-21'
+evidence: RBPamp inferred affinity spectra for 79 human RNA-binding proteins from RBNS data, and its predicted affinities
+  were associated with eCLIP density.

@@ -1,0 +1,21 @@
+name: RefTM
+full_name: Reference-guided Topic Modeling of single-cell chromatin accessibility data
+category: dry
+summary: RefTM uses reference-guided topic modeling to analyze single-cell chromatin accessibility data.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac540
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Zhang Z
+  last_author: Lin Z
+  pmid: '36513377'
+  title: 'RefTM: reference-guided topic modeling of single-cell chromatin accessibility data'
+links: {}
+added: '2026-11-21'
+evidence: RefTM models shared and target-specific biological variation using bulk and annotated single-cell chromatin accessibility
+  reference data.

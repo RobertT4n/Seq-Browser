@@ -1,0 +1,23 @@
+name: LCAT
+full_name: long-read error correction algorithm for transcriptome sequencing data
+category: dry
+summary: LCAT corrects transcriptome long reads while preserving isoform diversity.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.3389/fgene.2023.1166975
+  year: 2023
+  journal: Front Genet
+  first_author: Zhu W
+  last_author: Liao X
+  pmid: '37292144'
+  pmcid: PMC10245045
+  title: 'LCAT: an isoform-sensitive error correction for transcriptome sequencing long reads'
+links: {}
+added: '2026-11-21'
+evidence: LCAT wraps MECAT to improve transcriptome long-read quality while reducing loss of isoform diversity.

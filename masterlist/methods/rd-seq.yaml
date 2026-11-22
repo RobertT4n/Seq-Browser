@@ -1,0 +1,26 @@
+name: RD-seq
+full_name: repressive-domain sequencing
+category: wet
+summary: Screens complex DNA-fragment libraries by sequencing to identify transcriptional repressive domains.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- invertebrate
+reference:
+  doi: 10.15252/embj.2022112100
+  year: 2023
+  journal: EMBO J
+  first_author: Klaus L
+  last_author: Stark A
+  pmid: '36545802'
+  pmcid: PMC9890238
+  title: Systematic identification and characterization of repressive domains in Drosophila transcription factors
+links: {}
+added: '2026-11-21'
+evidence: RD-seq screened more than 200,000 fragments covering Drosophila transcription-related proteins and identified 195
+  repressive domains.

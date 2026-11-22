@@ -1,0 +1,21 @@
+name: FIRM
+category: dry
+summary: Integrates single-cell RNA-seq datasets across tissues, platforms, and batches using a rescaling algorithm.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac167
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Ming J
+  last_author: Wu AR
+  pmid: '35561293'
+  pmcid: PMC9487597
+  title: 'FIRM: Flexible integration of single-cell RNA-sequencing data for large-scale multi-tissue cell atlas datasets'
+links: {}
+added: '2026-11-21'
+evidence: FIRM accounts for cell-type composition effects to integrate datasets across tissue types, platforms, and experimental
+  batches.

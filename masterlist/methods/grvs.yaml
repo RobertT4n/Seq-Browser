@@ -1,0 +1,22 @@
+name: GRVS
+full_name: genome-wide rare variant score
+category: dry
+summary: Patient-level score that weights rare variants in morphology-associated coding and non-coding regions by their effect
+  sizes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-34112-z
+  year: 2022
+  journal: Nat Commun
+  first_author: Chan AJS
+  last_author: Scherer SW
+  pmid: '36309498'
+  pmcid: PMC9617891
+  title: Genome-wide rare variant score associates with morphological subtypes of autism spectrum disorder
+links: {}
+added: '2026-11-21'
+evidence: GRVS sums variants in morphology-associated regions from whole-genome sequencing data, weighted by effect size.

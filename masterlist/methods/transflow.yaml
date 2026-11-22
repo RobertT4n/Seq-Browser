@@ -1,0 +1,22 @@
+name: TransFlow
+full_name: Transmission Workflow
+category: dry
+summary: TransFlow processes Mycobacterium tuberculosis whole-genome sequencing data to analyze transmission clusters, networks
+  and risk factors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac785
+  year: 2022
+  journal: Bioinformatics
+  first_author: Pan J
+  last_author: Gao J
+  title: 'TransFlow: a Snakemake workflow for transmission analysis of<i>Mycobacterium tuberculosis</i>whole-genome sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: TransFlow takes raw sequencing data through quality control, alignment and variant calling to transmission clustering
+  and network reconstruction.

@@ -1,0 +1,29 @@
+name: SPG
+full_name: spatial proteogenomic assay
+category: wet
+summary: Spatial proteogenomic assay quantifying proteins and whole-transcriptome RNA from a single FFPE tissue section.
+readouts:
+- protein
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1158/2767-9764.crc-22-0396
+  year: 2023
+  journal: Cancer Res Commun
+  first_author: Bonnett SA
+  last_author: Beechem JM
+  pmid: '37377888'
+  pmcid: PMC10155752
+  title: Ultra High-plex Spatial Proteogenomic Investigation of Giant Cell Glioblastoma Multiforme Immune Infiltrates Reveals
+    Distinct Protein and RNA Expression Profiles
+links: {}
+added: '2026-11-21'
+evidence: The assay quantifies more than 100 proteins and whole-transcriptome RNA from a single FFPE sample with spatial resolution.

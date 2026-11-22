@@ -1,0 +1,19 @@
+name: SPRUCE
+category: dry
+summary: Identifies cellular subpopulations in spatial transcriptomics data using a Bayesian spatial mixture model.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1111/biom.13727
+  year: 2022
+  journal: Biometrics
+  first_author: Allen C
+  last_author: Chung D
+  title: A Bayesian Multivariate Mixture Model for High Throughput Spatial Transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: SPRUCE models spatially correlated mixture membership to identify distinct cellular subpopulations in spatial transcriptomics
+  data.

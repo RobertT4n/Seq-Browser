@@ -1,0 +1,20 @@
+name: Visual Microhap
+category: dry
+summary: Extracts SNP-based microhaplotype calls from targeted sequencing data in a web browser.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.fsigen.2022.102778
+  year: 2022
+  journal: Forensic Sci Int Genet
+  first_author: Kwon YL
+  last_author: Shin KJ
+  pmid: '36166997'
+  title: Application of a custom haplotype caller to analyze sequence-based data of 56 microhaplotypes
+links: {}
+added: '2026-11-21'
+evidence: Visual Microhap provides four analysis options to extract SNP-based haplotypes from sequence data obtained by STRait
+  Razor 3.0.

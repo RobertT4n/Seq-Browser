@@ -1,0 +1,26 @@
+name: SAVEMONEY
+full_name: Simple Algorithm for Very Efficient Multiplexing of Oxford Nanopore Experiments for You
+category: dry
+summary: Designs plasmid mixtures and demultiplexes nanopore reads to produce consensus plasmid sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.7554/elife.88794
+  year: 2025
+  journal: Elife
+  first_author: Uematsu M
+  last_author: Baskin JM
+  pmid: '40277466'
+  pmcid: PMC12029211
+  title: Barcode-free multiplex plasmid sequencing using Bayesian analysis and nanopore sequencing
+  preprint_doi: 10.1101/2023.04.12.536413
+links: {}
+added: '2026-11-21'
+evidence: SAVEMONEY selects plasmid mixtures and performs sequence classification, alignment and Bayesian consensus determination
+  after nanopore sequencing.

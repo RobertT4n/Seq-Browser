@@ -1,0 +1,22 @@
+name: SeXY
+category: dry
+summary: SeXY identifies the sex of an individual from low-coverage shotgun sequencing without a conspecific sex-chromosome
+  assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/ece3.9185
+  year: 2022
+  journal: Ecol Evol
+  first_author: Cabrera AA
+  last_author: Lorenzen ED
+  pmid: '36035270'
+  pmcid: PMC9405501
+  title: 'How low can you go? Introducing SeXY: sex identification from low-quantity sequencing data despite lacking assembled
+    sex chromosomes'
+links: {}
+added: '2026-11-21'
+evidence: SeXY is a sex-identification pipeline for very low-coverage shotgun sequencing data from a single individual.

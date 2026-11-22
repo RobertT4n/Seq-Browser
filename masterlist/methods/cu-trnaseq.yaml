@@ -1,0 +1,26 @@
+name: Cu-tRNAseq
+full_name: copper sulfate-based tRNA sequencing
+category: wet
+summary: Profiles peptidyl tRNAs to study their turnover in Mycobacterium tuberculosis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1128/mbio.03469-22
+  year: 2023
+  journal: mBio
+  first_author: Tomasi FG
+  last_author: Rubin EJ
+  pmid: '36695586'
+  pmcid: PMC9973355
+  title: Peptidyl tRNA Hydrolase Is Required for Robust Prolyl-tRNA Turnover in Mycobacterium tuberculosis
+links: {}
+added: '2026-11-21'
+evidence: Cu-tRNAseq profiles peptidyl tRNAs and revealed enrichment of peptidyl prolyl-tRNA when peptidyl tRNA hydrolase
+  expression was impaired.

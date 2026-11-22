@@ -1,0 +1,24 @@
+name: GuiltyTargets-COVID-19
+category: dry
+summary: GuiltyTargets-COVID-19 uses RNA-seq data and a protein interaction network to prioritize candidate COVID-19 drug
+  targets.
+readouts:
+- rna
+- protein-protein-interaction
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-023-34287-5
+  year: 2023
+  journal: Sci Rep
+  first_author: Schultz B
+  last_author: Fröhlich H
+  pmid: '37137934'
+  pmcid: PMC10156718
+  title: A machine learning method for the identification and characterization of novel COVID-19 drug targets
+links: {}
+added: '2026-11-21'
+evidence: The tool combines bulk and single-cell RNA-seq datasets with a lung-specific protein interaction network to prioritize
+  and characterize candidate targets.

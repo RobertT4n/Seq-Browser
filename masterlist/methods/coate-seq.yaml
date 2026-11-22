@@ -1,0 +1,28 @@
+name: COATE-seq
+full_name: coordinative allele-aware target enrichment sequencing
+category: wet
+summary: Allele-aware target enrichment and genomic analysis separate fetal variants from maternal cell-free DNA in prenatal
+  screening.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41421-022-00457-4
+  year: 2022
+  journal: Cell Discov
+  first_author: Xu C
+  last_author: Zhang J
+  pmid: '36229437'
+  pmcid: PMC9562363
+  title: Genetic deconvolution of fetal and maternal cell-free DNA in maternal plasma enables next-generation non-invasive
+    prenatal screening
+links: {}
+added: '2026-11-21'
+evidence: COATE-seq uses target enrichment and read-depth, allelic-fraction and linked-SNP analyses to separate the fetal
+  genome from the maternal background.

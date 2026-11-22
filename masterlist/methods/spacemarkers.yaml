@@ -1,0 +1,22 @@
+name: SpaceMarkers
+category: dry
+summary: SpaceMarkers uses latent space analysis of spatial transcriptomics data to infer molecular changes associated with
+  cell-cell interactions.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2023.03.004
+  year: 2023
+  journal: Cell Syst
+  first_author: Deshpande A
+  last_author: Fertig EJ
+  pmid: '37080163'
+  pmcid: PMC10236356
+  title: Uncovering the spatial landscape of molecular interactions within the tumor microenvironment through latent spaces
+  preprint_doi: 10.1101/2022.06.02.490672
+links: {}
+added: '2026-11-21'
+evidence: SpaceMarkers infers molecular changes from cell-cell interactions in spatial transcriptomics data.

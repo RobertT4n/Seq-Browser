@@ -1,0 +1,21 @@
+name: LocusMasterTE
+category: dry
+summary: Integrates long-read and short-read RNA-seq to improve locus-specific quantification of transposable element expression.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2023.03.21.533716
+  year: 2023
+  journal: bioRxiv
+  first_author: Lee
+  last_author: J. W. H
+  title: Integrating long-read RNA sequencing improves locus-specific quantification of transposable element expression
+links: {}
+added: '2026-11-21'
+evidence: LocusMasterTE incorporates long-read transcript estimates into an expectation-maximization algorithm to reassign
+  multimapped short reads.

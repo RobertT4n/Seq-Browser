@@ -1,0 +1,20 @@
+name: AbLang
+category: dry
+summary: Uses an antibody language model to restore missing residues in antibody sequences.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbac046
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Olsen TH
+  last_author: Deane CM
+  pmid: '36699403'
+  pmcid: PMC9710568
+  title: 'AbLang: an antibody language model for completing antibody sequences'
+links: {}
+added: '2026-11-21'
+evidence: AbLang was trained on antibody sequences and restores missing residues in antibody sequence data.

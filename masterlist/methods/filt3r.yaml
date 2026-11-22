@@ -1,0 +1,21 @@
+name: FiLT3r
+category: dry
+summary: Uses k-mers to identify, size and quantify FLT3 internal tandem duplications in sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s12859-022-04983-6
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Boudry A
+  last_author: Salson M
+  pmid: '36307762'
+  pmcid: PMC9617311
+  title: Frugal alignment-free identification of FLT3-internal tandem duplications with FiLT3r
+  preprint_doi: 10.1101/2022.06.27.496265
+links: {}
+added: '2026-11-21'
+evidence: FiLT3r uses k-mers from reads covering FLT3 exons 14 and 15 to detect and quantify FLT3-ITDs.

@@ -1,0 +1,22 @@
+name: UNIFAN
+category: dry
+summary: Simultaneously clusters and annotates single cells using gene representations and cell-specific gene-set activity
+  scores.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276609.122
+  year: 2022
+  journal: Genome Res
+  first_author: Li D
+  last_author: Bar-Joseph Z
+  pmid: '35764397'
+  pmcid: PMC9528981
+  title: Unsupervised cell functional annotation for single-cell RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: UNIFAN combines a low-dimensional representation for all genes with cell-specific gene-set activity scores to determine
+  clustering.

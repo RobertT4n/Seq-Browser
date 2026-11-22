@@ -1,0 +1,20 @@
+name: epiConv
+category: dry
+summary: Integrates single-cell ATAC-seq datasets by correcting technical variation while retaining biological information.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04858-w
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Lin L
+  last_author: Zhang L
+  pmid: '35906531'
+  pmcid: PMC9338487
+  title: Joint analysis of scATAC-seq datasets using epiConv
+links: {}
+added: '2026-11-21'
+evidence: epiConv corrects batch effects and aligns scATAC-seq data from multiple sources and biological conditions.

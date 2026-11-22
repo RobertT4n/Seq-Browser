@@ -1,0 +1,22 @@
+name: RatesTools
+category: dry
+summary: Identifies candidate de novo mutations and estimates mutation rates from whole-genome sequencing of parent-offspring
+  trios.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac784
+  year: 2022
+  journal: Bioinformatics
+  first_author: Armstrong EE
+  last_author: Campana MG
+  title: "RatesTools: a Nextflow pipeline for detecting\n                    <i>de novo</i>\n                    germline\
+    \ mutations in pedigree sequence data"
+  preprint_doi: 10.1101/2022.07.18.500472
+links: {}
+added: '2026-11-21'
+evidence: RatesTools uses a reference genome and high-coverage whole-genome resequencing data from a sire, dam and offspring
+  to identify candidate de novo mutations and calculate a putative mutation rate.

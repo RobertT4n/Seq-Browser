@@ -1,0 +1,23 @@
+name: nf-core/isoseq
+category: dry
+summary: nf-core/isoseq automates read processing and genome annotation for PacBio Iso-Seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioinformatics/btad150
+  year: 2023
+  journal: Bioinformatics
+  first_author: Guizard S
+  last_author: Watson M
+  pmid: '36961337'
+  pmcid: PMC10199315
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline automates the processing and annotation steps needed for long-read Iso-Seq data.

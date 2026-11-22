@@ -1,0 +1,29 @@
+name: ALL-tRNAseq
+category: wet
+summary: Profiles tRNA expression and fragmentation using RNA demethylation, processive reverse transcription and randomized
+  adapter ligation.
+readouts:
+- rna
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1101/gad.350233.122
+  year: 2023
+  journal: Genes Dev
+  first_author: Scheepbouwer C
+  last_author: Koppers-Lalic D
+  pmid: '36810209'
+  pmcid: PMC10111867
+  title: ALL-tRNAseq enables robust tRNA profiling in tissue samples
+links: {}
+added: '2026-11-21'
+evidence: ALL-tRNAseq combines MarathonRT and RNA demethylation with randomized adapter ligation to assess tRNA expression
+  and fragmentation in cell lines and tissues.

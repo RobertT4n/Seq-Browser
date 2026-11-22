@@ -1,0 +1,25 @@
+name: DeBreak
+category: dry
+summary: DeBreak discovers structural variants and their breakpoints from aligned long sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1038/s41467-023-35996-1
+  year: 2023
+  journal: Nat Commun
+  first_author: Chen Y
+  last_author: Chong Z
+  pmid: '36650186'
+  pmcid: PMC9845341
+  title: Deciphering the exact breakpoints of structural variations using long sequencing reads with DeBreak
+links: {}
+added: '2026-11-21'
+evidence: DeBreak clusters structural variant candidates, assembles long insertions and reports precise breakpoints from PacBio
+  and Nanopore reads.

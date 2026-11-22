@@ -1,0 +1,20 @@
+name: scWMC
+category: dry
+summary: Imputes dropout values in single-cell RNA-seq data using weighted matrix completion and prior subspace information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac570
+  year: 2022
+  journal: Bioinformatics
+  first_author: Su Y
+  last_author: Li X
+  pmid: '35984287'
+  title: 'scWMC: weighted matrix completion-based imputation of scRNA-seq data via prior subspace information'
+links: {}
+added: '2026-11-21'
+evidence: scWMC estimates an underlying prior subspace from imperfect information and embeds it in a low-rank matrix completion
+  framework.

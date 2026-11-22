@@ -1,0 +1,22 @@
+name: TOSCA
+full_name: Tumor Only Somatic CAlling
+category: dry
+summary: Performs an automated tumor-only somatic variant calling workflow for whole-exome and targeted panel sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioadv/vbac070
+  year: 2022
+  journal: Bioinform Adv
+  first_author: Del Corvo M
+  last_author: Pileri SA
+  pmid: '36699358'
+  pmcid: PMC9710689
+  title: 'TOSCA: an automated Tumor Only Somatic CAlling workflow for somatic mutation detection without matched normal samples'
+links: {}
+added: '2026-11-21'
+evidence: TOSCA processes raw reads through quality checks, alignment, variant calling, annotation, filtering, and variant
+  classification without a matched normal sample.

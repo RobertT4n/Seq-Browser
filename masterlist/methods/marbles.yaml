@@ -1,0 +1,21 @@
+name: MARBLES
+category: dry
+summary: Detects cell-type-specific differential expression across conditions using a Markov random field and pseudobulk counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac166
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Zhu B
+  last_author: Zhao H
+  pmid: '35514182'
+  pmcid: PMC9487630
+  title: A Markov random field model-based approach for differentially expressed gene detection from single-cell RNA-seq data
+links: {}
+added: '2026-11-21'
+evidence: MARBLES borrows information across similar cell types and uses cell-type-specific pseudobulk counts to account for
+  sample-level variability.

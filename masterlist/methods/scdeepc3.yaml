@@ -1,0 +1,19 @@
+name: scDeepC3
+full_name: scRNA-seq Deep Clustering by A Skip AutoEncoder Network with Clustering Consistency
+category: dry
+summary: scDeepC3 clusters single-cell RNA-seq data using a skip autoencoder and a clustering consistency objective.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.06.05.494891
+  year: 2022
+  journal: bioRxiv
+  first_author: Wu G
+  last_author: Liu X
+  title: 'scDeepC3: scRNA-seq Deep Clustering by A Skip AutoEncoder Network with Clustering Consistency'
+links: {}
+added: '2026-11-21'
+evidence: scDeepC3 introduces an adaptive shortcut connection and a stable loss function for scRNA-seq clustering.

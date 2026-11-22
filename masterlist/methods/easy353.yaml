@@ -1,0 +1,20 @@
+name: Easy353
+category: dry
+summary: Reference-guided assembly tool for recovering Angiosperms353 genes from high-throughput sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/molbev/msac261
+  year: 2022
+  journal: Mol Biol Evol
+  first_author: Zhang Z
+  last_author: Yu Y
+  pmid: '36458838'
+  pmcid: PMC9757696
+  title: 'Easy353: A Tool to Get Angiosperms353 Genes for Phylogenomic Research'
+links: {}
+added: '2026-11-21'
+evidence: Easy353 recovers the 353-gene set from data including genome skimming, RNA-seq and target enrichment.

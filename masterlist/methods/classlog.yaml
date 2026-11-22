@@ -1,0 +1,20 @@
+name: classLog
+category: dry
+summary: Classifies genetic sequences using a customizable logistic regression pipeline.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fviro.2023.1215012
+  year: 2023
+  journal: Frontiers in Virology
+  first_author: Zeller MA
+  last_author: Anderson TK
+  title: 'classLog: Logistic regression for the classification of genetic sequences'
+  preprint_doi: 10.1101/2022.08.15.503907
+links: {}
+added: '2026-11-21'
+evidence: The logistic regression pipeline assigns classifications to genetic sequence data and was benchmarked on two virus
+  datasets.

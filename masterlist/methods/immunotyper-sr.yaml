@@ -1,0 +1,23 @@
+name: ImmunoTyper-SR
+category: dry
+summary: Genotypes germline immunoglobulin heavy chain variable genes and analyzes their copy number from short-read whole-genome
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.cels.2022.08.008
+  year: 2022
+  journal: Cell Syst
+  first_author: Ford MKB
+  last_author: Sahinalp SC
+  pmid: '36265467'
+  pmcid: PMC10084889
+  title: 'ImmunoTyper-SR: A computational approach for genotyping immunoglobulin heavy chain variable genes using short-read
+    data'
+links: {}
+added: '2026-11-21'
+evidence: ImmunoTyper-SR performs germline IGHV genotyping and copy-number analysis using Illumina whole-genome sequencing
+  data.

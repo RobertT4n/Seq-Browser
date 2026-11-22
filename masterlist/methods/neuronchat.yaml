@@ -1,0 +1,24 @@
+name: NeuronChat
+category: dry
+summary: NeuronChat infers and visualizes neural communication networks between predefined cell groups from single-cell or
+  spatial expression data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-36800-w
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhao W
+  last_author: Nie Q
+  pmid: '36854676'
+  pmcid: PMC9974942
+  title: Inferring neuron-neuron communications from single-cell transcriptomics through NeuronChat
+  preprint_doi: 10.1101/2023.01.12.523826
+links: {}
+added: '2026-11-21'
+evidence: NeuronChat uses single-cell expression data and a curated neural signaling interaction database to infer communication
+  networks, and also supports spatial transcriptomics.

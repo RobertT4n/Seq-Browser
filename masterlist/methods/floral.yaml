@@ -1,0 +1,23 @@
+name: FLORAL
+category: dry
+summary: Uses log-ratio lasso regression to select microbial features associated with clinical outcomes, including longitudinal
+  and survival outcomes.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100899
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Fei T
+  last_author: van den Brink MRM
+  pmid: '39515336'
+  pmcid: PMC11705925
+  title: Scalable log-ratio lasso regression for enhanced microbial feature selection with FLORAL
+  preprint_doi: 10.1101/2023.05.02.538599
+links: {}
+added: '2026-11-21'
+evidence: FLORAL performs microbial feature selection for continuous, binary, time-to-event and competing-risk outcomes and
+  supports longitudinal data.

@@ -1,0 +1,24 @@
+name: Clair3-Trio
+category: dry
+summary: Calls variants jointly in family trios from nanopore long-read sequencing data using a trio-to-trio neural network.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbac301
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Su J
+  last_author: Luo R
+  pmid: '35849103'
+  pmcid: PMC9487642
+  title: 'Clair3-trio: high-performance Nanopore long-read variant calling in family trios with trio-to-trio deep neural networks'
+links: {}
+added: '2026-11-21'
+evidence: Clair3-Trio inputs sequencing information from a child-mother-father trio and predicts all three individuals' variants
+  within one model.

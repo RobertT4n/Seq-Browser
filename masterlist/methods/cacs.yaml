@@ -1,0 +1,29 @@
+name: CACS
+full_name: Cas9-assisted cloning and SMRT sequencing
+category: wet
+summary: Combines Cas9 cleavage, cloning and PacBio sequencing to characterize targeted long repetitive genomic sequences.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- invertebrate
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1016/j.actbio.2022.12.063
+  year: 2023
+  journal: Acta Biomater
+  first_author: Lu W
+  last_author: Xia Q
+  pmid: '36603730'
+  title: Combined CRISPR toolkits reveal the domestication landscape and function of the ultra-long and highly repetitive
+    silk genes
+links: {}
+added: '2026-11-21'
+evidence: CACS combines Cas9-mediated target cleavage, Gibson assembly cloning and PacBio SMRT sequencing and was applied
+  to silkworm FibH genes.

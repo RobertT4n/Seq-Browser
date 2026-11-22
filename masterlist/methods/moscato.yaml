@@ -1,0 +1,21 @@
+name: MOSCATO
+category: dry
+summary: Selects features associated with clinical outcomes across multimodal single-cell datasets using regularized tensor
+  regression.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08759-3
+  year: 2022
+  journal: BMC Genomics
+  first_author: Towle-Miller LM
+  last_author: Miecznikowski JC
+  title: 'MOSCATO: a supervised approach for analyzing multi-Omic single-Cell data'
+links: {}
+added: '2026-11-21'
+evidence: MOSCATO selects clinically associated features across multimodal single-cell datasets and was applied to CITE-seq
+  data.

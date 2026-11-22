@@ -1,0 +1,23 @@
+name: MWNB
+full_name: mixed-weight neural bagging
+category: dry
+summary: Identifies m6A RNA modifications from Nanopore direct RNA sequencing data using an ensemble model.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1109/tbme.2022.3150420
+  year: 2022
+  journal: IEEE Transactions on Biomedical Engineering
+  first_author: Liu R
+  last_author: Feng DD
+  title: Mixed-Weight Neural Bagging for Detecting $m^6A$ Modifications in SARS-CoV-2 RNA Sequencing
+links: {}
+added: '2026-11-21'
+evidence: MWNB was trained on synthetic direct RNA sequencing data containing modified and unmodified bases and applied to
+  a COVID-19 dataset.

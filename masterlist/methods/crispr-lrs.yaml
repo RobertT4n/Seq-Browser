@@ -1,0 +1,28 @@
+name: CRISPR-LRS
+full_name: CRISPR-Cas9 Long-Read Sequencing
+category: wet
+summary: Uses CRISPR-Cas9 long-read sequencing to map transgene integration loci and associated genome rearrangements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- mouse
+platform:
+- long-read
+reference:
+  doi: 10.1089/crispr.2022.0099
+  year: 2023
+  journal: CRISPR J
+  first_author: Bryant WB
+  last_author: Miano JM
+  pmid: '37071672'
+  pmcid: PMC10123806
+  title: CRISPR-Cas9 Long-Read Sequencing for Mapping Transgenes in the Mouse Genome
+links: {}
+added: '2026-11-21'
+evidence: CRISPR-LRS mapped transgenes across a wide size range in the mouse genome and revealed transgene-induced host genome
+  rearrangements.

@@ -1,0 +1,25 @@
+name: Mx-MeDIP-Seq
+full_name: Multiplexed Methylated DNA Immunoprecipitation Sequencing
+category: wet
+summary: Barcodes and pools DNA samples before methylated DNA immunoprecipitation to profile multiple samples in parallel.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.3390/dna4040028
+  year: 2024
+  journal: DNA
+  first_author: Ridha I
+  last_author: Murugan V
+  title: Multiplexed Methylated DNA Immunoprecipitation Sequencing (Mx-MeDIP-Seq) to Study DNA Methylation Using Low Amounts
+    of DNA
+  preprint_doi: 10.1101/2023.01.09.523163
+links: {}
+added: '2026-11-21'
+evidence: Ten fragmented, purified and barcoded DNA samples were pooled before immunoprecipitation, with results highly correlated
+  with individual MeDIP-seq.

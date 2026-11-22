@@ -1,0 +1,23 @@
+name: omicsGAT
+category: dry
+summary: omicsGAT uses a graph attention network to analyze RNA-seq data for cancer subtype analysis.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms231810220
+  year: 2022
+  journal: Int J Mol Sci
+  first_author: Baul S
+  last_author: Zhang W
+  pmid: '36142140'
+  pmcid: PMC9499656
+  title: 'omicsGAT: Graph Attention Network for Cancer Subtype Analyses'
+  preprint_doi: 10.1101/2022.06.08.495390
+links: {}
+added: '2026-11-21'
+evidence: omicsGAT was evaluated on bulk RNA-seq from breast and bladder cancers and single-cell RNA-seq from primary diffuse
+  gliomas.

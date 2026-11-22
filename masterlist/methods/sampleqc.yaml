@@ -1,0 +1,19 @@
+name: SampleQC
+category: dry
+summary: Performs multivariate quality control across samples and cell types in single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02859-3
+  year: 2023
+  journal: Genome Biology
+  first_author: Macnair W
+  last_author: Robinson M
+  title: 'SampleQC: robust multivariate, multi-cell type, multi-sample quality control for single-cell data'
+links: {}
+added: '2026-11-21'
+evidence: SampleQC fits a Gaussian mixture model across multiple samples to reduce biased exclusion of rare cell types during
+  quality control.

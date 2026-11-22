@@ -1,0 +1,20 @@
+name: Hist2ST
+category: dry
+summary: Predicts spatial gene expression from histology images using convolutional, transformer, and graph neural network
+  modules.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac297
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Zeng Y
+  last_author: Yang Y
+  pmid: '35849101'
+  title: Spatial transcriptomics prediction from histology jointly through Transformer and graph neural networks
+links: {}
+added: '2026-11-21'
+evidence: Hist2ST learns image features and spatial relationships between spots to predict RNA-seq expression.

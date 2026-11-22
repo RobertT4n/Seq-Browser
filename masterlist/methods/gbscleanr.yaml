@@ -1,0 +1,22 @@
+name: GBScleanR
+category: dry
+summary: GBScleanR corrects reduced-representation sequencing genotype errors using a hidden Markov model with marker-specific
+  error rates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/genetics/iyad055
+  year: 2023
+  journal: Genetics
+  first_author: Furuta T
+  last_author: Ashikari M
+  pmid: '36988327'
+  pmcid: PMC10213493
+  title: 'GBScleanR: robust genotyping error correction using a hidden Markov model with error pattern recognition'
+links: {}
+added: '2026-11-21'
+evidence: GBScleanR incorporates marker-specific error rates into an HMM to correct noisy reduced-representation genotype
+  data.

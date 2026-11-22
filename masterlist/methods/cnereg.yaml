@@ -1,0 +1,22 @@
+name: CNEReg
+category: dry
+summary: Method integrating developmental expression and chromatin accessibility data into gene regulatory networks to interpret
+  conserved non-coding elements.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2022.11.007
+  year: 2023
+  journal: Genomics Proteomics Bioinformatics
+  first_author: Pan X
+  last_author: Wang Y
+  pmid: '36494035'
+  pmcid: PMC10787174
+  title: CNEReg Interprets Ruminant-specific Conserved Non-coding Elements by Developmental Gene Regulatory Network
+links: {}
+added: '2026-11-21'
+evidence: CNEReg integrates multi-omics data into a gene regulatory network to investigate ruminant stomach development.

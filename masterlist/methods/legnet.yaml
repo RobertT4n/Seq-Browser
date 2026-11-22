@@ -1,0 +1,22 @@
+name: LegNet
+category: dry
+summary: Convolutional network that predicts expression and variant effects from short regulatory DNA sequences.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad457
+  year: 2023
+  journal: Bioinformatics
+  first_author: Penzar D
+  last_author: Kulakovskiy IV
+  pmid: '37490428'
+  pmcid: PMC10400376
+  title: 'LegNet: a best-in-class deep learning model for short DNA regulatory regions'
+  preprint_doi: 10.1101/2022.12.22.521582
+links: {}
+added: '2026-11-21'
+evidence: LegNet models short regulatory regions and predicts expression and single-nucleotide variant effects using parallel
+  reporter assay data.

@@ -1,0 +1,19 @@
+name: PorinPredict
+category: dry
+summary: Predicts loss of the Pseudomonas aeruginosa porin OprD from whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1128/spectrum.03588-22
+  year: 2023
+  journal: Microbiology Spectrum
+  first_author: Biggel M
+  last_author: Seth-Smith HMB
+  title: "PorinPredict:\n            <i>In Silico</i>\n            Identification of OprD Loss from WGS Data for Improved\
+    \ Genotype-Phenotype Predictions of P. aeruginosa Carbapenem Resistance"
+links: {}
+added: '2026-11-21'
+evidence: PorinPredict reports inactivating mutations in the OprD coding or promoter region using a database of intact variants.

@@ -1,0 +1,20 @@
+name: CDR-g
+full_name: Concatenate-Decompose-Rotate genomics
+category: dry
+summary: Uses spectral factorization of gene coexpression matrices to identify condition-specific changes in single-cell states
+  and pathways.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.12.532317
+  year: 2023
+  journal: bioRxiv
+  first_author: Chin
+  last_author: T
+  title: Spectral detection of condition-specific biological pathways in single-cell gene expression data
+links: {}
+added: '2026-11-21'
+evidence: CDR-g detects subtle changes in gene coexpression across biological states in multi-condition single-cell data.

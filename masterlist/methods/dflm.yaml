@@ -1,0 +1,22 @@
+name: DFLM
+full_name: DNA Fine-tuned Language Model
+category: dry
+summary: DFLM predicts DNA-binding protein sequence specificities using a language model trained on genomic sequences and
+  fine-tuned on ChIP-seq data.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2022.3165592
+  year: 2023
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: He Y
+  last_author: Huang DS
+  title: Predicting the Sequence Specificities of DNA-Binding Proteins by DNA Fine-Tuned Language Model With Decaying Learning
+    Rates
+links: {}
+added: '2026-11-21'
+evidence: DFLM learns sequence dependencies from human genomic data and fine-tunes features for DNA-binding protein tasks
+  using ChIP-seq datasets.

@@ -1,0 +1,19 @@
+name: scBalance
+category: dry
+summary: scBalance uses a sparse neural network with adaptive sampling and dropout to annotate cell types, including rare
+  populations, in single-cell transcriptomes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.06.22.497193
+  year: 2022
+  journal: bioRxiv
+  first_author: Cheng Y
+  last_author: Li Y
+  title: A scalable sparse neural network framework for rare cell type annotation of single-cell transcriptome data
+links: {}
+added: '2026-11-21'
+evidence: scBalance was evaluated for intra-dataset and inter-dataset annotation, including rare cell types.

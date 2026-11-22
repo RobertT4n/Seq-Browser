@@ -1,0 +1,21 @@
+name: stepRNA
+category: dry
+summary: Computational tool that identifies Dicer cleavage signatures and passenger strand lengths from small RNA sequences.
+readouts:
+- rna-degradation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbinf.2022.994871
+  year: 2022
+  journal: Front Bioinform
+  first_author: Murcott B
+  last_author: Hunt VL
+  pmid: '36478706'
+  pmcid: PMC9720893
+  title: 'stepRNA: Identification of Dicer cleavage signatures and passenger strand lengths in small RNA sequences'
+links: {}
+added: '2026-11-21'
+evidence: stepRNA detects overhang signatures indicative of Dicer cleavage and estimates passenger strand length in small
+  RNA duplexes.

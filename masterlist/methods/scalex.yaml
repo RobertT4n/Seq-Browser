@@ -1,0 +1,23 @@
+name: SCALEX
+category: dry
+summary: Deep learning method that integrates single-cell datasets by projecting cells into a batch-invariant embedding without
+  retraining for new data.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-33758-z
+  year: 2022
+  journal: Nat Commun
+  first_author: Xiong L
+  last_author: Zhang QC
+  pmid: '36253379'
+  pmcid: PMC9574176
+  title: Online single-cell data integration through projecting heterogeneous datasets into a common cell-embedding space
+links: {}
+added: '2026-11-21'
+evidence: SCALEX integrates single-cell data in a common cell-embedding space and was benchmarked on RNA-seq and ATAC-seq
+  datasets.

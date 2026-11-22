@@ -1,0 +1,26 @@
+name: TAMC
+full_name: Transcriptional factor binding prediction from ATAC-seq profile at Motif-predicted binding sites using Convolutional
+  neural networks
+category: dry
+summary: Predicts motif-centric transcription factor binding activity from paired-end ATAC-seq profiles using a convolutional
+  neural network.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1009921
+  year: 2022
+  journal: PLoS Comput Biol
+  first_author: Yang T
+  last_author: Henao R
+  pmid: '36094959'
+  pmcid: PMC9499209
+  title: 'TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq
+    profile'
+links: {}
+added: '2026-11-21'
+evidence: TAMC predicts motif-centric transcription factor binding activity from paired-end ATAC-seq data using footprint
+  and non-footprint features.

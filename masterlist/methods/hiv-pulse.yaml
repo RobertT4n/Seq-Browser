@@ -1,0 +1,33 @@
+name: HIV-PULSE
+full_name: HIV Proviral UMI-mediated Long-read Sequencing
+category: wet
+summary: Uses molecular identifiers and long-range PCR with long-read sequencing to characterize near full-length HIV-1 proviral
+  genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+platform:
+- long-read
+reference:
+  doi: 10.1093/nar/gkad790
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Lambrechts L
+  last_author: Vandekerckhove L
+  pmid: '37819007'
+  pmcid: PMC10639044
+  title: 'HIV-PULSE: a long-read sequencing assay for high-throughput near full-length HIV-1 proviral genome characterization'
+  preprint_doi: 10.1101/2023.01.18.524396
+links: {}
+added: '2026-11-21'
+evidence: HIV-PULSE tags individual HIV-1 genomes with UMIs and amplifies many near full-length genomes in a single PCR reaction.

@@ -1,0 +1,23 @@
+name: scFAST-seq
+full_name: single cell Full-length RNA Sequence Transcriptome sequencing
+category: wet
+summary: Generates full-length single-cell RNA libraries using semi-random priming, template switching and rRNA removal.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2023.03.19.533382
+  year: 2023
+  journal: bioRxiv
+  first_author: Sang G
+  last_author: Jiao S
+  title: High throughput detection of variation in single-cell whole transcriptome through streamlined scFAST-seq
+links: {}
+added: '2026-11-21'
+evidence: scFAST-seq uses semi-random primers, template switching and rRNA removal to construct full-length RNA libraries
+  for up to 12,000 cells.

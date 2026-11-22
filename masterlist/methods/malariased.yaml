@@ -1,0 +1,23 @@
+name: MalariaSED
+category: dry
+summary: Predicts chromatin profiles from malaria parasite DNA sequences to study regulatory effects of noncoding variants.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03063-z
+  year: 2023
+  journal: Genome Biol
+  first_author: Wang C
+  last_author: Liu X
+  pmid: '37845769'
+  pmcid: PMC10577899
+  title: 'MalariaSED: a deep learning framework to decipher the regulatory contributions of noncoding variants in malaria
+    parasites'
+  preprint_doi: 10.1101/2022.09.21.508539
+links: {}
+added: '2026-11-21'
+evidence: MalariaSED is a sequence-based deep learning framework for predicting chromatin profiles, including accessibility
+  changes in Plasmodium falciparum rings.

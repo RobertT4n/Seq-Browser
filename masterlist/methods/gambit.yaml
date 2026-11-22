@@ -1,0 +1,22 @@
+name: GAMBIT
+full_name: Genomic Approximation Method for Bacterial Identification and Tracking
+category: dry
+summary: Identifies bacterial isolates from whole-genome sequencing reads using k-mer strategies and a curated genome database.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0277575
+  year: 2023
+  journal: PLOS ONE
+  first_author: Lumpe J
+  last_author: Pandori M
+  title: 'GAMBIT (Genomic Approximation Method for Bacterial Identification and Tracking): A methodology to rapidly leverage
+    whole genome sequencing of bacterial isolates for clinical identification'
+links: {}
+added: '2026-11-21'
+evidence: GAMBIT uses k-mer-based strategies and a curated database of genomes to identify bacteria from whole-genome sequencing
+  reads.

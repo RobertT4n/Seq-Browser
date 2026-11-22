@@ -1,0 +1,28 @@
+name: SEALigHTS
+full_name: splice and expression analyses by exon ligation and high-throughput sequencing
+category: wet
+summary: Assesses circular and messenger RNAs together to study backsplicing and linear splicing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.3390/cancers15072176
+  year: 2023
+  journal: Cancers (Basel)
+  first_author: Levacher C
+  last_author: Houdayer C
+  pmid: '37046838'
+  pmcid: PMC10093293
+  title: Disequilibrium between <i>BRCA1</i> and <i>BRCA2</i> Circular and Messenger RNAs Plays a Role in Breast Cancer
+links: {}
+added: '2026-11-21'
+evidence: SEALigHTS was validated for BRCA1 and BRCA2 and used to compare circular-to-messenger RNA ratios in paired breast
+  tissues.

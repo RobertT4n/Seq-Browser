@@ -1,0 +1,22 @@
+name: scTagger
+category: dry
+summary: scTagger matches cell barcodes between short-read and long-read single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1016/j.isci.2022.104530
+  year: 2022
+  journal: iScience
+  first_author: Ebrahimi G
+  last_author: Hach F
+  pmid: '35747387'
+  pmcid: PMC9209721
+  title: Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments
+links: {}
+added: '2026-11-21'
+evidence: scTagger matches erroneous long-read cellular barcodes to barcodes detected in short reads.

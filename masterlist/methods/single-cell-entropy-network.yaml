@@ -1,0 +1,21 @@
+name: Single-Cell Entropy Network
+category: dry
+summary: Single-Cell Entropy Network analyzes gene associations in single-cell RNA-seq data to characterize immune-cell heterogeneity
+  and identify cell types.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.06.056
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Jin Q
+  last_author: Chen L
+  pmid: '35860411'
+  pmcid: PMC9287362
+  title: Single-cell entropy network detects the activity of immune cells based on ribosomal protein genes
+links: {}
+added: '2026-11-21'
+evidence: The method calculates association entropy for each gene and cell from single-cell gene co-expression networks.

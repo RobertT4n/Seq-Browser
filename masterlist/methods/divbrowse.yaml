@@ -1,0 +1,21 @@
+name: DivBrowse
+category: dry
+summary: Web application for interactive visualization and exploratory analysis of genomic diversity data in VCF files.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giad025
+  year: 2022
+  journal: Gigascience
+  first_author: König P
+  last_author: Scholz U
+  pmid: '37083938'
+  pmcid: PMC10120423
+  title: DivBrowse-interactive visualization and exploratory data analysis of variant call matrices
+links: {}
+added: '2026-11-21'
+evidence: DivBrowse combines BLAST with interactive analysis features including principal component analysis of genomic diversity
+  data.

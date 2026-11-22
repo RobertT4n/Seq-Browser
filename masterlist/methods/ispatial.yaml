@@ -1,0 +1,23 @@
+name: iSpatial
+category: dry
+summary: iSpatial integrates spatial transcriptomics and single-cell RNA-seq to infer genome-wide spatial expression at single-cell
+  resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abq0990
+  year: 2022
+  journal: Sci Adv
+  first_author: Zhang C
+  last_author: Zhang Y
+  pmid: '36026447'
+  pmcid: PMC9417177
+  title: Accurate inference of genome-wide spatial expression with iSpatial
+links: {}
+added: '2026-11-21'
+evidence: iSpatial derives the spatial pattern of the entire transcriptome by integrating spatial transcriptomic and single-cell
+  RNA-seq datasets.

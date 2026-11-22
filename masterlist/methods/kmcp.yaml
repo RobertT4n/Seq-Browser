@@ -1,0 +1,22 @@
+name: KMCP
+full_name: K-mer-based Metagenomic Classification and Profiling
+category: dry
+summary: KMCP profiles prokaryotic and viral populations using k-mer similarity and reference-genome coverage.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac845
+  year: 2023
+  journal: Bioinformatics
+  first_author: Shen W
+  last_author: Ren H
+  pmid: '36579886'
+  pmcid: PMC9828150
+  title: 'KMCP: accurate metagenomic profiling of both prokaryotic and viral populations by pseudo-mapping'
+links: {}
+added: '2026-11-21'
+evidence: KMCP combines k-mer similarity and genome coverage to improve taxonomic classification and profiling of prokaryotic
+  and viral populations.

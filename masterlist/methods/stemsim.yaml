@@ -1,0 +1,21 @@
+name: STEMSIM
+category: dry
+summary: STEMSIM simulates short-term within-strain evolutionary mutations in longitudinal metagenomic sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad302
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zhou B
+  last_author: Li H
+  pmid: '37154701'
+  pmcid: PMC10188296
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: STEMSIM modifies simulated longitudinal microbial sequencing reads with within-strain evolutionary mutations for
+  evaluating analysis tools.

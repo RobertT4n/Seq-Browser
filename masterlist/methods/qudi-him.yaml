@@ -1,0 +1,22 @@
+name: Qudi-HiM
+category: dry
+summary: Automates image acquisition and device handling for highly multiplexed sequential and combinatorial microscopy.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+- spatial
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.12688/openreseurope.14641.2
+  year: 2022
+  journal: Open Research Europe
+  first_author: Barho F
+  last_author: Nollmann M
+  title: 'Qudi-HiM: an open-source acquisition software package for highly multiplexed sequential and combinatorial optical
+    imaging'
+links: {}
+added: '2026-11-21'
+evidence: Qudi-HiM was developed to enable Hi-M sequential imaging of spatial chromatin organization and automates acquisition
+  of three-dimensional multicolor images.

@@ -1,0 +1,18 @@
+name: miRador
+category: dry
+summary: Identifies and annotates plant miRNAs from small RNA sequencing libraries using community-established criteria.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/plphys/kiac538
+  year: 2022
+  journal: Plant Physiology
+  first_author: Hammond RK
+  last_author: Meyers BC
+  title: 'miRador: a fast and precise tool for the prediction of plant miRNAs'
+links: {}
+added: '2026-11-21'
+evidence: miRador uses community-established criteria to identify miRNAs in plant small RNA sequencing libraries.

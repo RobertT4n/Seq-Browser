@@ -1,0 +1,21 @@
+name: ChromTransfer
+category: dry
+summary: Transfer learning predicts cell-type-specific chromatin accessibility from regulatory DNA sequences.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqad026
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Salvatore M
+  last_author: Andersson R
+  pmid: '37007588'
+  pmcid: PMC10052367
+  title: Transfer learning identifies sequence determinants of cell-type specific regulatory element accessibility
+  preprint_doi: 10.1101/2022.08.05.502903
+links: {}
+added: '2026-11-21'
+evidence: ChromTransfer fine-tunes a pretrained open-chromatin model to learn cell-type-specific accessibility from sequence.

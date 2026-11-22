@@ -1,0 +1,25 @@
+name: CoLoRGen
+full_name: comprehensive long read genotyping
+category: dry
+summary: Generates allele-specific consensus sequences and calls variants to assign star alleles in complex regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pgen.1010176
+  year: 2022
+  journal: PLoS Genet
+  first_author: Rubben K
+  last_author: Van Nieuwerburgh F
+  pmid: '36149915'
+  pmcid: PMC9534437
+  title: Cas9 targeted nanopore sequencing with enhanced variant calling improves CYP2D6-CYP2D7 hybrid allele genotyping
+links: {}
+added: '2026-11-21'
+evidence: The CoLoRGen pipeline generates consensus sequences of both alleles and determines large structural and small variants
+  to assign star alleles.

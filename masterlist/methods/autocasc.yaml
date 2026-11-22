@@ -1,0 +1,20 @@
+name: AutoCaSc
+category: dry
+summary: Scores and prioritizes candidate variants and genes for neurodevelopmental disorders from exome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1002/humu.24451
+  year: 2022
+  journal: Hum Mutat
+  first_author: Lieberwirth JK
+  last_author: Abou Jamra R
+  pmid: '35998261'
+  title: 'AutoCaSc: Prioritizing candidate genes for neurodevelopmental disorders'
+links: {}
+added: '2026-11-21'
+evidence: AutoCaSc scored relevant variants in novel neurodevelopmental disorder genes among the top three ranks in 94.5%
+  of cases.

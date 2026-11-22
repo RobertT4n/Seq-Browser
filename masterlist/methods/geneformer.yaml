@@ -1,0 +1,21 @@
+name: Geneformer
+category: dry
+summary: Geneformer is a pretrained attention-based model of single-cell transcriptomes for predictions in network biology.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41586-023-06139-9
+  year: 2023
+  journal: Nature
+  first_author: Theodoris CV
+  last_author: Ellinor PT
+  pmid: '37258680'
+  pmcid: PMC10949956
+  title: Transfer learning enables predictions in network biology
+links: {}
+added: '2026-11-21'
+evidence: Geneformer was pretrained on approximately 30 million single-cell transcriptomes and fine-tuned for tasks relevant
+  to chromatin and network dynamics.

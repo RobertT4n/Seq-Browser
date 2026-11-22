@@ -1,0 +1,21 @@
+name: HiSV
+full_name: Hi-C for Structural Variation
+category: dry
+summary: HiSV detects large-scale structural variants from a Hi-C sample without a control.
+readouts:
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1010760
+  year: 2023
+  journal: PLOS Computational Biology
+  first_author: Li J
+  last_author: Ye Y
+  title: 'HiSV: A control-free method for structural variation detection from Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: HiSV constructs a saliency map of Hi-C interaction frequencies and extracts segments corresponding to large-scale
+  structural variants.

@@ -1,0 +1,21 @@
+name: SPEAR
+full_name: Systematic ProtEin AnnotatoR
+category: dry
+summary: Annotates and scores SARS-CoV-2 variants to identify mutations potentially contributing to immune escape and ACE2
+  binding.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac391
+  year: 2022
+  journal: Bioinformatics
+  first_author: Crown M
+  last_author: Bashton M
+  title: 'SPEAR: Systematic ProtEin AnnotatoR'
+links: {}
+added: '2026-11-21'
+evidence: SPEAR is a SARS-CoV-2 variant annotation and scoring tool for identifying mutations contributing to potential immune
+  escape and transmissibility.

@@ -1,0 +1,19 @@
+name: GoPeaks
+category: dry
+summary: Calls histone modification peaks from genome-wide CUT&Tag data.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02707-w
+  year: 2022
+  journal: Genome Biology
+  first_author: Yashar WM
+  last_author: Braun TP
+  title: 'GoPeaks: histone modification peak calling for CUT&amp;Tag'
+links: {}
+added: '2026-11-21'
+evidence: GoPeaks is a peak caller designed for histone modification CUT&Tag data and detects genome-wide histone modification
+  peaks.

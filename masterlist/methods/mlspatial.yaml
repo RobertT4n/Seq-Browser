@@ -1,0 +1,22 @@
+name: MLSpatial
+category: dry
+summary: Predicts cell-to-cell distance distributions from single-cell gene expression using learned spatial features.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2023.106873
+  year: 2023
+  journal: Comput Biol Med
+  first_author: Zhu M
+  last_author: Yang J
+  pmid: '37105115'
+  title: 'MLSpatial: A machine-learning method to reconstruct the spatial distribution of cells from scRNA-seq by extracting
+    spatial features'
+links: {}
+added: '2026-11-21'
+evidence: MLSpatial learns relationships between gene expression patterns and cell locations to predict cell-to-cell distances
+  from scRNA-seq data.

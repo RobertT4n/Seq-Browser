@@ -1,0 +1,21 @@
+name: RATTLE
+category: dry
+summary: Reconstructs and quantifies transcripts directly from Nanopore reads without a reference genome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-022-02715-w
+  year: 2022
+  journal: Genome Biology
+  first_author: de la Rubia I
+  last_author: Eyras E
+  title: 'RATTLE: reference-free reconstruction and quantification of transcriptomes from Nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: RATTLE performs reference-free reconstruction and quantification of transcripts using only Nanopore reads.

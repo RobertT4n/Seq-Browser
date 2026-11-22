@@ -1,0 +1,20 @@
+name: PIE
+full_name: Prophage Induction Estimator
+category: dry
+summary: Identifies induced phages from genomic and metagenomic sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v15020420
+  year: 2023
+  journal: Viruses
+  first_author: Miller-Ensminger T
+  last_author: Putonti C
+  title: 'When Plaquing Is Not Possible: Computational Methods for Detecting Induced Phages'
+links: {}
+added: '2026-11-21'
+evidence: PIE uses sequencing reads and predicted phage sequences to calculate abundance and completeness and predict induced
+  phages.

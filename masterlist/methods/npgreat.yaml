@@ -1,0 +1,25 @@
+name: NPGREAT
+full_name: NanoPore Guided REgional Assembly Tool
+category: dry
+summary: Hybrid assembly method that combines linked reads and ultralong nanopore reads to assemble human subtelomeric regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s12859-022-05081-3
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Adam E
+  last_author: Riethman H
+  pmid: '36526983'
+  pmcid: PMC9758922
+  title: 'NPGREAT: assembly of human subtelomere regions with the use of ultralong nanopore reads and linked-reads'
+links: {}
+added: '2026-11-21'
+evidence: NPGREAT uses linked-read assemblies and mapped ultralong nanopore reads to provide contiguity and orientation across
+  subtelomeric duplications.

@@ -1,0 +1,19 @@
+name: CEMIG
+category: dry
+summary: CEMIG predicts transcription factor binding motifs from ATAC-seq data using graph models.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.05.26.542440
+  year: 2023
+  journal: bioRxiv
+  first_author: Wang Y
+  last_author: Liu B
+  title: 'CEMIG: Prediction of the  <i>cis</i>  -regulatory motif using the De Bruijn graph from ATAC-seq'
+links: {}
+added: '2026-11-21'
+evidence: CEMIG predicts and characterizes transcription factor binding sites using De Bruijn and Hamming distance graph models
+  on ATAC-seq datasets.

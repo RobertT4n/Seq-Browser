@@ -1,0 +1,22 @@
+name: PICALO
+full_name: Principal Interaction Component Analysis through Likelihood Optimization
+category: dry
+summary: Identifies known and hidden contexts that influence eQTL effects using latent interaction components.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.28.501849
+  year: 2022
+  journal: bioRxiv
+  first_author: Vochteloo
+  last_author: L
+  title: Unbiased identification of unknown cellular and environmental factors that mediate eQTLs using principal interaction
+    component analysis
+links: {}
+added: '2026-11-21'
+evidence: PICALO identifies latent components that interact with genotypes to maximize explained eQTL effect sizes in bulk
+  RNA-seq datasets.

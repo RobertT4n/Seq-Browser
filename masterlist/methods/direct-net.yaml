@@ -1,0 +1,24 @@
+name: DIRECT-NET
+category: dry
+summary: DIRECT-NET predicts cis-regulatory elements and their target-gene relationships from single-cell chromatin accessibility
+  data, with or without gene expression data.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abl7393
+  year: 2022
+  journal: Sci Adv
+  first_author: Zhang L
+  last_author: Nie Q
+  pmid: '35648859'
+  pmcid: PMC9159696
+  title: 'DIRECT-NET: An efficient method to discover cis-regulatory elements and construct regulatory networks from single-cell
+    multiomics data'
+links: {}
+added: '2026-11-21'
+evidence: DIRECT-NET identifies genome-wide cis-regulatory elements and their target genes from parallel expression and accessibility
+  data or accessibility alone.

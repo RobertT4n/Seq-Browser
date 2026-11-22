@@ -1,0 +1,33 @@
+name: RAPTER
+full_name: Rapid TCR:Epitope Ranker
+category: wet
+summary: Single-cell assay pairing T cell epitope reactivity with TCR sequences and optional phenotypic information.
+readouts:
+- receptor-ligand
+- immune-repertoire
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41598-023-35710-7
+  year: 2023
+  journal: Sci Rep
+  first_author: Deering RP
+  last_author: Thurston G
+  pmid: '37231180'
+  pmcid: PMC10212918
+  title: 'Rapid TCR:Epitope Ranker (RAPTER): a primary human T cell reactivity screening assay pairing epitope and TCR at
+    single cell resolution'
+links: {}
+added: '2026-11-21'
+evidence: RAPTER uses oligonucleotide coding and activation-induced markers to pair epitope specificity with TCR sequence
+  and can include RNA and protein phenotype information.

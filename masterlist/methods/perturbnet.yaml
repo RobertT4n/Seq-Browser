@@ -1,0 +1,22 @@
+name: PerturbNet
+category: dry
+summary: Predicts distributions of gene expression states induced by unseen chemical and genetic perturbations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s44320-025-00131-3
+  year: 2025
+  journal: Mol Syst Biol
+  first_author: Yu H
+  last_author: Welch JD
+  pmid: '40640612'
+  pmcid: PMC12322087
+  title: PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations
+  preprint_doi: 10.1101/2022.07.20.500854
+links: {}
+added: '2026-11-21'
+evidence: PerturbNet learns a mapping between perturbations and cell states to predict responses to unseen small molecules
+  and genetic perturbations.

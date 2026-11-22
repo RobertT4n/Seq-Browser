@@ -1,0 +1,21 @@
+name: scAnno
+full_name: scRNA-seq data annotation
+category: dry
+summary: scAnno annotates single-cell RNA-seq clusters using deconvolution and logistic regression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad179
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Liu H
+  last_author: Liu H
+  pmid: '37183449'
+  title: 'scAnno: a deconvolution strategy-based automatic cell type annotation tool for single-cell RNA-sequencing data sets'
+links: {}
+added: '2026-11-21'
+evidence: scAnno is an automated annotation tool for scRNA-seq datasets based primarily on cluster-level deconvolution and
+  logistic regression.

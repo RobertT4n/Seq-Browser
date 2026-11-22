@@ -1,0 +1,23 @@
+name: SiRCle
+full_name: Signature Regulatory Clustering
+category: dry
+summary: Integrates DNA methylation, RNA-seq and proteomics data to identify regulatory differences between patient subsets.
+readouts:
+- dna-methylation
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-024-01415-3
+  year: 2024
+  journal: Genome Medicine
+  first_author: Mora A
+  last_author: Bodén M
+  title: SiRCle (Signature Regulatory Clustering) model integration reveals mechanisms of phenotype regulation in renal cancer
+  preprint_doi: 10.1101/2022.07.02.498058
+links: {}
+added: '2026-11-21'
+evidence: SiRCle uses a variational autoencoder to integrate methylation, transcriptomic and proteomic data, followed by comparisons
+  in the integrated space.

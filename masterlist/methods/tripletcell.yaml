@@ -1,0 +1,21 @@
+name: TripletCell
+category: dry
+summary: TripletCell uses deep metric learning to annotate cell types across species, protocols and samples.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad132
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Liu Y
+  last_author: Yu DJ
+  pmid: '37080771'
+  pmcid: PMC10199768
+  title: 'TripletCell: a deep metric learning framework for accurate annotation of cell types at the single-cell level'
+links: {}
+added: '2026-11-21'
+evidence: TripletCell learns relationships between reference gene expression matrices and query cells for cross-species, cross-protocol
+  and cross-sample annotation.

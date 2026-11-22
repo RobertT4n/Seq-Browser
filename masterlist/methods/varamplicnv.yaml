@@ -1,0 +1,19 @@
+name: varAmpliCNV
+category: dry
+summary: Detects copy number variants in amplicon-based targeted resequencing data without matched controls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac756
+  year: 2022
+  journal: Bioinformatics
+  first_author: Kumar AA
+  last_author: Alaerts M
+  title: 'varAmpliCNV: analyzing variance of amplicons to detect CNVs in targeted NGS data'
+links: {}
+added: '2026-11-21'
+evidence: varAmpliCNV controls variation in amplicon-associated read counts to detect CNVs in targeted Haloplex resequencing
+  data.

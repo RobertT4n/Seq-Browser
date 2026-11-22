@@ -1,0 +1,18 @@
+name: conliga
+category: dry
+summary: Infers somatic copy-number alteration profiles from FAST-SeqS data using a probabilistic model.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-08681-8
+  year: 2022
+  journal: BMC Genomics
+  first_author: Abujudeh S
+  last_author: Lynch AG
+  title: Low-cost and clinically applicable copy number profiling using repeat DNA
+links: {}
+added: '2026-11-21'
+evidence: conliga infers somatic copy-number alteration profiles from the FAST-SeqS assay.

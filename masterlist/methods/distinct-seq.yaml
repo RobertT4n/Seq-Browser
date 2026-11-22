@@ -1,0 +1,27 @@
+name: DIStinct-seq
+full_name: detection of the integration sites in a time-efficient manner, quantifying clonal size using tagmentation sequencing
+category: wet
+summary: Tagmentation-based sequencing method for genome-wide vector integration site analysis and clonal size quantification.
+readouts:
+- genome-sequence
+- lineage
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.omto.2023.05.004
+  year: 2023
+  journal: Mol Ther Oncolytics
+  first_author: Kim J
+  last_author: Kang HJ
+  pmid: '37360944'
+  pmcid: PMC10285042
+  title: Tagmentation-based analysis reveals the clonal behavior of CAR-T cells in association with lentivector integration
+    sites
+links: {}
+added: '2026-11-21'
+evidence: A bead-linked Tn5 transposome enables genome-wide integration site analysis and quantification of clonal size.

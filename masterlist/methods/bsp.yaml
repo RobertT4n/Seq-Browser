@@ -1,0 +1,20 @@
+name: BSP
+full_name: big-small patch
+category: dry
+summary: Identifies spatially variable genes in two- or three-dimensional spatial transcriptomics data using a nonparametric
+  model.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.21.533713
+  year: 2023
+  journal: bioRxiv
+  first_author: Wang
+  last_author: D
+  title: Dimension-agnostic and granularity-based spatially variable gene identification
+links: {}
+added: '2026-11-21'
+evidence: BSP is a spatial granularity-guided model for identifying spatially variable genes in two or three dimensions.

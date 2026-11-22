@@ -1,0 +1,21 @@
+name: scDEF
+full_name: single-cell Deep Exponential Families
+category: dry
+summary: Bayesian matrix factorization model that identifies hierarchical cell states, gene signatures, and integrated representations
+  from single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.10.15.512383
+  year: 2022
+  journal: bioRxiv
+  first_author: Ferreira PF
+  last_author: Beerenwinkel N
+  title: Identifying hierarchical cell states and gene signatures with deep exponential families for single-cell transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: scDEF identifies cell-state hierarchies and supports dimension reduction, gene signature identification, and batch
+  integration.

@@ -1,0 +1,19 @@
+name: TIDES
+full_name: trio-based inference of dominance and selection
+category: dry
+summary: Infers the mode and strength of natural selection within a single generation from large numbers of family trios.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276386.121
+  year: 2023
+  journal: Genome Research
+  first_author: Barroso GV
+  last_author: Lohmueller KE
+  title: Inferring the mode and strength of ongoing selection
+links: {}
+added: '2026-11-21'
+evidence: TIDES uses data from tens of thousands of family trios to infer selection acting in a single generation.

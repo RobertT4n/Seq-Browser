@@ -1,0 +1,20 @@
+name: CAPG
+full_name: Comprehensive Allopolyploid Genotyper
+category: dry
+summary: Genotypes individual allopolyploids from whole-genome resequencing data using alignments to subgenomic references.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac729
+  year: 2022
+  journal: Bioinformatics
+  first_author: Kulkarni R
+  last_author: Dorman KS
+  title: 'CAPG: comprehensive allopolyploid genotyper'
+links: {}
+added: '2026-11-21'
+evidence: CAPG uses an explicit likelihood to weight read alignments against both subgenomic references and genotype individual
+  allopolyploids.

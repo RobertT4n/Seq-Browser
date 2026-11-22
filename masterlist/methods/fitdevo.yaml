@@ -1,0 +1,21 @@
+name: FitDevo
+category: dry
+summary: Infers developmental potential from single-cell RNA-seq using sample-specific gene weights.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac293
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Zhang F
+  last_author: Li L
+  pmid: '35870444'
+  pmcid: PMC9487676
+  title: 'FitDevo: accurate inference of single-cell developmental potential using sample-specific gene weight'
+links: {}
+added: '2026-11-21'
+evidence: FitDevo infers developmental potential by calculating the correlation between sample-specific gene weights and gene
+  expression.

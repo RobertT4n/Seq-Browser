@@ -1,0 +1,27 @@
+name: Heatrich-BS
+full_name: heat enrichment of CpG-rich regions for bisulfite sequencing
+category: wet
+summary: Enriches CpG-rich DNA using heat before bisulfite sequencing to profile cell-free DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+reference:
+  doi: 10.1126/sciadv.abn4030
+  year: 2022
+  journal: Sci Adv
+  first_author: Cheruba E
+  last_author: Cheow LF
+  pmid: '36083902'
+  pmcid: PMC9462700
+  title: Heat selection enables highly scalable methylome profiling in cell-free DNA for noninvasive monitoring of cancer
+    patients
+links: {}
+added: '2026-11-21'
+evidence: Heat enrichment focuses bisulfite sequencing on CpG-rich regions and supports monitoring of colorectal cancer patients.

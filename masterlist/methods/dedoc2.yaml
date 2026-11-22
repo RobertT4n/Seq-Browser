@@ -1,0 +1,21 @@
+name: deDoc2
+category: dry
+summary: deDoc2 detects hierarchical chromatin domains from single-cell contact matrices.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.202300366
+  year: 2023
+  journal: Adv Sci (Weinh)
+  first_author: Li A
+  last_author: Zhang Z
+  pmid: '37162225'
+  pmcid: PMC10369259
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD-Like Domains in the Single Cells
+  preprint_doi: 10.1101/2022.08.23.505046
+links: {}
+added: '2026-11-21'
+evidence: deDoc2 identifies the hierarchy of TAD-like domains in single cells using whole and local contact matrices.

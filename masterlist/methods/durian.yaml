@@ -1,0 +1,24 @@
+name: DURIAN
+full_name: Deconvolution and mUltitask-Regression-based ImputAtioN
+category: dry
+summary: Integrates deconvolution and multitask regression to recover gene expression in single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac223
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Karikomi M
+  last_author: Nie Q
+  pmid: '35709795'
+  pmcid: PMC9294432
+  title: 'DURIAN: an integrative deconvolution and imputation method for robust signaling analysis of single-cell transcriptomics
+    data'
+links: {}
+added: '2026-11-21'
+evidence: DURIAN recovers single-cell gene expression and improves clustering, embeddings and intercellular signaling network
+  recovery.

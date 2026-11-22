@@ -1,0 +1,22 @@
+name: VICOS
+full_name: Viral COinfection Surveillance
+category: dry
+summary: Variant-calling and statistical analysis pipeline for identifying samples with mixed SARS-CoV-2 populations.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.virusres.2022.199035
+  year: 2023
+  journal: Virus Res
+  first_author: Goya S
+  last_author: Viegas M
+  pmid: '36586487'
+  pmcid: PMC9795804
+  title: Assessing the hidden diversity underlying consensus sequences of SARS-CoV-2 using VICOS, a novel bioinformatic pipeline
+    for identification of mixed viral populations
+links: {}
+added: '2026-11-21'
+evidence: VICOS uses variant calling, filtering and statistical analysis to identify suspected mixed viral populations.

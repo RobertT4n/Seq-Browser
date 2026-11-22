@@ -1,0 +1,25 @@
+name: Rockfish
+category: dry
+summary: Deep learning algorithm that predicts read-level DNA 5-methylcytosine from nanopore sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-49847-0
+  year: 2024
+  journal: Nat Commun
+  first_author: Stanojević D
+  last_author: Šikić M
+  pmid: '38961062'
+  pmcid: PMC11222435
+  title: 'Rockfish: A transformer-based model for accurate 5-methylcytosine prediction from nanopore sequencing'
+  preprint_doi: 10.1101/2022.11.11.513492
+links: {}
+added: '2026-11-21'
+evidence: Rockfish improves read-level 5mC detection using nanopore sequencing.

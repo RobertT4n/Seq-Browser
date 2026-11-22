@@ -1,0 +1,19 @@
+name: nucMACC
+full_name: nucleosome-based MNase accessibility
+category: dry
+summary: MNase-seq analysis pipeline for measuring nucleosome accessibility and stability across the genome.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.12.29.521985
+  year: 2022
+  journal: bioRxiv
+  first_author: Sara W
+  last_author: Uwe S
+  title: 'nucMACC: A MNase-seq pipeline to identify structurally altered nucleosomes in the genome'
+links: {}
+added: '2026-11-21'
+evidence: nucMACC detects unstable nucleosomes and characterizes regulatory nucleosomal landscapes genome-wide.

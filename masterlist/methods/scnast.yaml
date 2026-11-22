@@ -1,0 +1,25 @@
+name: scNaST
+full_name: Single-cell Nanopore Spatial Transcriptomics
+category: dry
+summary: Analyzes spatial gene expression and long-read transcript isoforms using spatial capture barcodes.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3389/fgene.2022.912572
+  year: 2022
+  journal: Front Genet
+  first_author: Boileau E
+  last_author: Dieterich C
+  pmid: '35937994'
+  pmcid: PMC9354982
+  title: Full-Length Spatial Transcriptomics Reveals the Unexplored Isoform Diversity of the Myocardium Post-MI
+links: {}
+added: '2026-11-21'
+evidence: scNaST adapts barcode assignment to spatial capture data and was used to construct a de novo transcriptome and assign
+  transcript isoforms.

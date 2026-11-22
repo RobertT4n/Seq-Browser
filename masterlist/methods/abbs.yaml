@@ -1,0 +1,28 @@
+name: ABBS
+full_name: Anchor-Based Bisulfite Sequencing
+category: wet
+summary: Profiles DNA methylation across the genome using anchor-based bisulfite sequencing with fewer reads than whole-genome
+  bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- microbe
+reference:
+  doi: 10.1038/s42003-022-03543-1
+  year: 2022
+  journal: Commun Biol
+  first_author: Chapin N
+  last_author: Delatte B
+  pmid: '35710818'
+  pmcid: PMC9203462
+  title: Anchor-based bisulfite sequencing determines genome-wide DNA methylation
+links: {}
+added: '2026-11-21'
+evidence: ABBS interrogates the entire genome and captures methylation information in Escherichia coli and mammals with up
+  to tenfold fewer reads than WGBS.

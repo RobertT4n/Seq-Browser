@@ -1,0 +1,20 @@
+name: iROAR
+full_name: immune Repertoire Over Amplification Removal
+category: dry
+summary: Evaluates and corrects multiplex PCR amplification bias in adaptive immune receptor repertoire frequencies.
+readouts:
+- immune-repertoire
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7554/elife.69157
+  year: 2023
+  journal: eLife
+  first_author: Smirnova AO
+  last_author: Komkov A
+  title: The use of non-functional clonotypes as a natural calibrator for quantitative bias correction in adaptive immune
+    receptor repertoire profiling
+links: {}
+added: '2026-11-21'
+evidence: iROAR uses the over amplification rate concept to evaluate and correct multiplex PCR-specific bias in immune repertoires.

@@ -1,0 +1,21 @@
+name: SIMS
+full_name: Scalable, Interpretable Machine Learning for Single-Cell
+category: dry
+summary: Transfers cell labels to single-cell datasets using a data-efficient machine learning classification pipeline.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xgen.2024.100581
+  year: 2024
+  journal: Cell Genomics
+  first_author: Gonzalez-Ferrer J
+  last_author: Mostajo-Radji MA
+  title: 'SIMS: A deep-learning label transfer tool for single-cell RNA sequencing analysis'
+  preprint_doi: 10.1101/2023.02.28.529615
+links: {}
+added: '2026-11-21'
+evidence: SIMS is a machine learning pipeline for discrete classification of single-cell data and was evaluated against label-transfer
+  tools.

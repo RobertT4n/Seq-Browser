@@ -1,0 +1,19 @@
+name: STdGCN
+category: dry
+summary: Uses a graph neural network and single-cell references to deconvolve cell types in spatial transcriptomics data.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.10.532112
+  year: 2023
+  journal: bioRxiv
+  first_author: Li
+  last_author: Y
+  title: 'STdGCN: accurate cell-type deconvolution using graph convolutional networks in spatial transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: STdGCN combines single-cell expression profiles and spatial localization information for cell-type deconvolution.

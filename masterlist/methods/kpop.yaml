@@ -1,0 +1,22 @@
+name: KPop
+category: dry
+summary: KPop compares assembled or unassembled microbial genomes by transforming their full k-mer spectra into a low-dimensional
+  space.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-025-03585-8
+  year: 2025
+  journal: Genome Biol
+  first_author: Didelot X
+  last_author: Ribeca P
+  pmid: '40533801'
+  pmcid: PMC12175428
+  title: 'KPop: accurate and scalable comparative analysis of microbial genomes by sequence embeddings'
+  preprint_doi: 10.1101/2022.06.22.497172
+links: {}
+added: '2026-11-21'
+evidence: KPop separated viral and bacterial sequences at species and subspecies levels in simulated and real datasets.

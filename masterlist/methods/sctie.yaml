@@ -1,0 +1,23 @@
+name: scTIE
+category: dry
+summary: Integrates temporal single-cell multimodal data and infers regulatory relationships associated with cell state changes.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277960.123
+  year: 2024
+  journal: Genome Res
+  first_author: Lin Y
+  last_author: Wang YXR
+  pmid: '38190633'
+  pmcid: PMC10903952
+  title: Data integration and inference of gene regulation using single-cell temporal multimodal data with scTIE
+  preprint_doi: 10.1101/2023.05.18.541381
+links: {}
+added: '2026-11-21'
+evidence: scTIE embeds cells across time points in a common space and identifies regulatory elements predictive of cell transition
+  probabilities.

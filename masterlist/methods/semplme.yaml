@@ -1,0 +1,22 @@
+name: SEMplMe
+category: dry
+summary: SEMplMe predicts how methylation at positions within transcription factor motifs affects binding strength.
+readouts:
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04865-x
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Nishizaki SS
+  last_author: Boyle AP
+  pmid: '35927613'
+  pmcid: PMC9351228
+  title: 'SEMplMe: a tool for integrating DNA methylation effects in transcription factor binding affinity predictions'
+links: {}
+added: '2026-11-21'
+evidence: SEMplMe uses ChIP-seq and whole-genome bisulfite sequencing to predict methylation effects within binding sites.

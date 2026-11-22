@@ -1,0 +1,20 @@
+name: DEGRE
+full_name: Differentially Expressed Genes with Random Effects
+category: dry
+summary: Identifies differentially expressed genes in RNA-seq data using generalized linear mixed models with fixed and random
+  effects.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.15145
+  year: 2023
+  journal: PeerJ
+  first_author: Terra Machado D
+  last_author: Ribeiro de Vasconcelos AT
+  title: Inference of differentially expressed genes using generalized linear mixed models in a pairwise fashion
+links: {}
+added: '2026-11-21'
+evidence: DEGRE fits generalized linear mixed models to genes and analyzes regression coefficients with a Wald test.

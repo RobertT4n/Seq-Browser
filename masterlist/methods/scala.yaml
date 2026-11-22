@@ -1,0 +1,20 @@
+name: SCALA
+category: dry
+summary: Web application for analysis and visualization of single-cell RNA-seq and chromatin accessibility datasets.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.24.517826
+  year: 2022
+  journal: bioRxiv
+  first_author: Tzaferis C
+  last_author: Konstantopoulos D
+  title: 'SCALA: A web application for multimodal analysis of single cell next generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SCALA combines analyses from quality control through cell population identification and offers trajectory, ligand-receptor,
+  and regulatory network analyses.

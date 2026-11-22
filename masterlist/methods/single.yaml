@@ -1,0 +1,26 @@
+name: SINGLe
+full_name: SNPs In Nanopore reads of Gene Libraries
+category: dry
+summary: Error-correction method that uses position-specific nanopore error patterns to improve consensus calls for variant-containing
+  amplicons.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/giac102
+  year: 2022
+  journal: Gigascience
+  first_author: Espada R
+  last_author: Rondelez Y
+  pmid: '36352541'
+  pmcid: PMC9646519
+  title: Accurate gene consensus at low nanopore coverage
+links: {}
+added: '2026-11-21'
+evidence: SINGLe uses experimentally characterized systematic sequencing errors to reweight variant nucleotides in amplicon
+  consensus calculations.

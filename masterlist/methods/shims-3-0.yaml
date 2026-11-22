@@ -1,0 +1,29 @@
+name: SHIMS 3.0
+full_name: Single-Haplotype Iterative Mapping and Sequencing 3.0
+category: wet
+summary: Uses ultra-long nanopore reads to resolve repetitive structures in clone-based assemblies of complex genomic regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- other-vertebrate
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1371/journal.pone.0269692
+  year: 2022
+  journal: PLoS One
+  first_author: Bellott DW
+  last_author: Page DC
+  pmid: '35700171'
+  pmcid: PMC9197060
+  title: 'SHIMS 3.0: Highly efficient single-haplotype iterative mapping and sequencing using ultra-long nanopore reads'
+links: {}
+added: '2026-11-21'
+evidence: Ultra-long nanopore reads augment Illumina assemblies to resolve internally repetitive clones, including chimpanzee
+  and rhesus macaque X chromosome palindromes.

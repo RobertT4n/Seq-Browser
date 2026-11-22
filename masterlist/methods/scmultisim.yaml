@@ -1,0 +1,22 @@
+name: scMultiSim
+category: dry
+summary: Simulator that generates multimodal single-cell data while modeling regulatory networks, cell-cell interactions,
+  and technical noise.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.10.15.512320
+  year: 2022
+  journal: bioRxiv
+  first_author: Li H
+  last_author: Zhang X
+  title: 'scMultiSim: simulation of multi-modality single cell data guided by cell-cell interactions and gene regulatory networks'
+links: {}
+added: '2026-11-21'
+evidence: scMultiSim generates gene expression, chromatin accessibility, RNA velocity, and spatial cell locations while accounting
+  for relationships between modalities.

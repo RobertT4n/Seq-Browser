@@ -1,0 +1,28 @@
+name: CP-seq
+full_name: combinatorial perturbation sequencing
+category: wet
+summary: Pairs drug-containing droplets with single cells to profile transcriptomic responses to combinations of treatments.
+readouts:
+- rna
+resolution:
+- single-cell
+perturbation:
+- chemical-perturbation
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- microwell-array
+- reverse-transcription
+reference:
+  doi: 10.1016/j.bios.2022.114913
+  year: 2023
+  journal: Biosens Bioelectron
+  first_author: Xie R
+  last_author: Li Z
+  pmid: '36395729'
+  title: Combinatorial perturbation sequencing on single cells using microwell-based droplet random pairing
+  preprint_doi: 10.1101/2022.08.03.502265
+links: {}
+added: '2026-11-21'
+evidence: Cell droplets are randomly paired with two drug droplets on a microwell chip, and single-cell RNA sequencing detects
+  transcriptomes and drug barcodes.

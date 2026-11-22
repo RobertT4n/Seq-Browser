@@ -1,0 +1,21 @@
+name: GBC
+category: dry
+summary: Compresses and provides rapid access to large-scale genotype data using parallel byte-encoded blocks.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-02906-z
+  year: 2023
+  journal: Genome Biol
+  first_author: Zhang L
+  last_author: Li M
+  pmid: '37069653'
+  pmcid: PMC10108510
+  title: 'GBC: a parallel toolkit based on highly addressable byte-encoding blocks for extremely large-scale genotypes of
+    species'
+links: {}
+added: '2026-11-21'
+evidence: GBC compresses large-scale genotypes into highly addressable byte-encoding blocks under a parallel framework.

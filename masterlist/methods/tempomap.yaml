@@ -1,0 +1,34 @@
+name: TEMPOmap
+category: wet
+summary: Pulse-chase labeling and multiplexed in situ sequencing map RNA age and subcellular location in individual cells.
+readouts:
+- rna
+- nascent-rna
+resolution:
+- single-cell
+- spatial
+- subcellular
+temporal:
+- metabolic-labeling
+scope: targeted
+chemistry:
+- nucleotide-labeling
+- imaging-guided-selection
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41592-023-01829-8
+  year: 2023
+  journal: Nat Methods
+  first_author: Ren J
+  last_author: Wang X
+  pmid: '37038000'
+  pmcid: PMC10172111
+  title: Spatiotemporally resolved transcriptomics reveals the subcellular RNA kinetic landscape
+  preprint_doi: 10.1101/2022.09.27.509606
+links: {}
+added: '2026-11-21'
+evidence: TEMPOmap combines pulse-chase metabolic labeling with multiplexed 3D in situ sequencing to profile the age and location
+  of RNA molecules.

@@ -1,0 +1,20 @@
+name: DNA-DDA
+category: dry
+summary: Predicts genome-wide A and B chromatin compartments from nucleotide sequence using a chaos theory-based model.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad198
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Lainscsek X
+  last_author: Taher L
+  pmid: '37264486'
+  title: Predicting chromosomal compartments directly from the nucleotide sequence with DNA-DDA
+  preprint_doi: 10.1101/2022.09.12.507578
+links: {}
+added: '2026-11-21'
+evidence: DNA-DDA is a purely sequence-based method that predicts genome-wide compartmentalization at a scale of 100 kb.

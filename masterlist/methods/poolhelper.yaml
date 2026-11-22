@@ -1,0 +1,21 @@
+name: poolHelper
+category: dry
+summary: R package for simulating Pool-seq study designs and assessing errors in allele-frequency estimates.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/2041-210X.14185
+  year: 2023
+  journal: Methods in Ecology and Evolution
+  first_author: Carvalho J
+  last_author: Sousa VC
+  title: "<scp>poolHelper</scp>\n                    : An R package to help in designing\n                    <scp>Pool‐Seq</scp>\n\
+    \                    studies"
+  preprint_doi: 10.1101/2023.01.20.524733
+links: {}
+added: '2026-11-21'
+evidence: poolHelper simulates combinations of pool size, sequencing depth and number of pools while accounting for unequal
+  contributions and sequencing errors.

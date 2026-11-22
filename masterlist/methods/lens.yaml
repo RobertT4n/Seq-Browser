@@ -1,0 +1,23 @@
+name: LENS
+full_name: Landscape of Effective Neoantigens Software
+category: dry
+summary: Predicts tumor-specific and tumor-associated antigens from multiple genomic sources using DNA and RNA sequencing
+  data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad322
+  year: 2023
+  journal: Bioinformatics
+  first_author: Vensko SP
+  last_author: Vincent BG
+  pmid: '37184881'
+  pmcid: PMC10246587
+  title: 'LENS: Landscape of Effective Neoantigens Software'
+links: {}
+added: '2026-11-21'
+evidence: LENS predicts antigens from variants, fusions, splice variants, overexpressed genes, viruses and other genomic sources.

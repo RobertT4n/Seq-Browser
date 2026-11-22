@@ -1,0 +1,21 @@
+name: scSELpy
+category: dry
+summary: Enables manual selection and downstream analysis of cells from single-cell transcriptomic datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2023.1027346
+  year: 2023
+  journal: Front Immunol
+  first_author: Dedden M
+  last_author: Zundler S
+  pmid: '37180117'
+  pmcid: PMC10166880
+  title: Manual cell selection in single cell transcriptomics using scSELpy supports the analysis of immune cell subsets
+links: {}
+added: '2026-11-21'
+evidence: scSELpy allows cells to be selected by drawing polygons on data representations and supports analysis of the selected
+  cells.

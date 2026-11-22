@@ -1,0 +1,19 @@
+name: LAPA
+category: dry
+summary: Computational toolkit for detecting and testing alternative polyadenylation from long-read RNA-seq and short-read
+  3′ sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.08.515683
+  year: 2022
+  journal: bioRxiv
+  first_author: Çelik MH
+  last_author: Mortazavi A
+  title: Analysis of alternative polyadenylation from long-read or short-read RNA-seq with LAPA
+links: {}
+added: '2026-11-21'
+evidence: LAPA detects poly(A) sites by clustering reads with poly(A) tails and tests for differential alternative polyadenylation.

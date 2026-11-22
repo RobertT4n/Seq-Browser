@@ -1,0 +1,29 @@
+name: CLASSIC
+category: wet
+summary: Combines long- and short-read sequencing to measure expression profiles across pools of multikilobase genetic circuit
+  designs.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+- reverse-transcription
+species:
+- human
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41586-025-09933-9
+  year: 2026
+  journal: Nature
+  first_author: Rai K
+  last_author: Bashor CJ
+  pmid: '41535463'
+  title: Ultra-high-throughput mapping of genetic design space
+  preprint_doi: 10.1101/2023.03.16.532704
+links: {}
+added: '2026-11-21'
+evidence: CLASSIC measured expression profiles of more than 100,000 gene circuit designs of 5–20 kb in a single experiment
+  in human cells.

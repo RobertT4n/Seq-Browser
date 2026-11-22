@@ -1,0 +1,20 @@
+name: Lazypipe 2
+category: dry
+summary: Provides an integrated metagenomic sequencing pipeline for detecting and annotating viruses.
+readouts:
+- microbial-composition
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/v15020431
+  year: 2023
+  journal: Viruses
+  first_author: Plyusnin I
+  last_author: Smura T
+  title: Enhanced Viral Metagenomics with Lazypipe 2
+links: {}
+added: '2026-11-21'
+evidence: Lazypipe 2 is an updated metagenomic pipeline benchmarked for virus detection using nucleotide- and amino-acid-based
+  annotation.

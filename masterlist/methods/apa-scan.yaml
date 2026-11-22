@@ -1,0 +1,22 @@
+name: APA-Scan
+category: dry
+summary: APA-Scan identifies and visualizes alternative polyadenylation events in 3′ untranslated regions using RNA-seq and
+  polyadenylation site references.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04939-w
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Fahmi NA
+  last_author: Zhang W
+  pmid: '36171568'
+  pmcid: PMC9520800
+  title: 'APA-Scan: detection and visualization of 3''-UTR alternative polyadenylation with RNA-seq and 3''-end-seq data'
+links: {}
+added: '2026-11-21'
+evidence: APA-Scan identifies 3′-UTR alternative polyadenylation events and quantifies long and short transcripts using reference
+  polyadenylation sites.

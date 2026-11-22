@@ -1,0 +1,20 @@
+name: unCTC
+category: dry
+summary: R package for identifying and characterizing circulating tumor cells from single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276600.122
+  year: 2023
+  journal: Genome Res
+  first_author: Poonia S
+  last_author: Sengupta D
+  pmid: '36414416'
+  pmcid: PMC9977151
+  title: Marker-free characterization of full-length transcriptomes of single live circulating tumor cells
+links: {}
+added: '2026-11-21'
+evidence: unCTC includes single-cell clustering, expression-based copy number inference, and marker-based verification modules.

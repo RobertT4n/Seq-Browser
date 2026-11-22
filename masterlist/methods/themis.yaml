@@ -1,0 +1,21 @@
+name: THEMIS
+category: dry
+summary: Integrates plasma cell-free DNA methylation, fragmentation and copy-number features to classify cancer.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.04.498641
+  year: 2022
+  journal: bioRxiv
+  first_author: Bie
+  last_author: S
+  title: Noninvasive cancer detection by extracting and integrating multi-modal data from whole-methylome sequencing of plasma
+    cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: THEMIS integrates methylation, fragmentation size, copy-number alteration and fragment-end motifs from plasma whole-methylome
+  sequencing into a cancer classifier.

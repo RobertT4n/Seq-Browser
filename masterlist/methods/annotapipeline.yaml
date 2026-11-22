@@ -1,0 +1,23 @@
+name: AnnotaPipeline
+category: dry
+summary: Proteogenomic workflow that uses transcriptomic and proteomic evidence to annotate predicted features in genomic
+  sequences.
+readouts:
+- genome-sequence
+- rna
+- protein
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.1020100
+  year: 2022
+  journal: Front Genet
+  first_author: Maia GA
+  last_author: Wagner G
+  pmid: '36482896'
+  pmcid: PMC9723129
+  title: 'AnnotaPipeline: An integrated tool to annotate eukaryotic proteins using multi-omics data'
+links: {}
+added: '2026-11-21'
+evidence: AnnotaPipeline uses RNA-seq and MS/MS data to corroborate annotations and validate gene predictions.

@@ -1,0 +1,26 @@
+name: EPIC
+full_name: cEll tyPe enrIChment
+category: dry
+summary: EPIC combines GWAS summary statistics and single-cell gene expression to prioritize cell types relevant to complex
+  traits.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pgen.1010251
+  year: 2022
+  journal: PLoS Genet
+  first_author: Wang R
+  last_author: Jiang Y
+  pmid: '35709291'
+  pmcid: PMC9242467
+  title: 'EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell
+    RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: EPIC relates GWAS summary statistics to cell-type-specific expression and tests enrichment to prioritize trait-relevant
+  cell types.

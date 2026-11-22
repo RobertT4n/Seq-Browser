@@ -1,0 +1,22 @@
+name: spliceJAC
+category: dry
+summary: Method that uses spliced and unspliced single-cell RNA counts to infer state-specific gene regulation and candidate
+  transition drivers.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.15252/msb.202211176
+  year: 2022
+  journal: Mol Syst Biol
+  first_author: Bocci F
+  last_author: Nie Q
+  pmid: '36321549'
+  pmcid: PMC9627675
+  title: 'spliceJAC: transition genes and state-specific gene regulation from single-cell transcriptome data'
+links: {}
+added: '2026-11-21'
+evidence: spliceJAC constructs cell state-specific gene regulatory interactions and uses stability analysis to predict genes
+  driving state transitions.

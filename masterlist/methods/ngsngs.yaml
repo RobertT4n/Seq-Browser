@@ -1,0 +1,21 @@
+name: NGSNGS
+full_name: next-generation simulator for next-generation sequencing data
+category: dry
+summary: NGSNGS simulates sequencing reads from reference DNA genomes with platform-specific quality profiles and optional
+  post-mortem damage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad041
+  year: 2023
+  journal: Bioinformatics
+  first_author: Henriksen RA
+  last_author: Korneliussen TS
+  title: 'NGSNGS: next-generation simulator for next-generation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: NGSNGS samples simulated reads from reference genomes and can include known variable sites and a post-mortem damage
+  model.

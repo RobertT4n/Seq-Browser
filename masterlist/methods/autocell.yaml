@@ -1,0 +1,23 @@
+name: autoCell
+category: dry
+summary: autoCell uses a graph-embedding variational autoencoder to impute dropout and extract features from single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2022.100382
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Xu J
+  last_author: Cheng F
+  pmid: '36814845'
+  pmcid: PMC9939381
+  title: Graph embedding and Gaussian mixture variational autoencoder network for end-to-end analysis of single-cell RNA sequencing
+    data
+links: {}
+added: '2026-11-21'
+evidence: autoCell combines graph embedding and a Gaussian mixture model for scRNA-seq imputation, visualization, clustering
+  and gene network analysis.

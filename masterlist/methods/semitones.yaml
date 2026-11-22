@@ -1,0 +1,23 @@
+name: SEMITONES
+category: dry
+summary: Identifies cell identity marker genes and regulatory regions without requiring cell clusters.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac639
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Vlot AHC
+  last_author: Ohler U
+  pmid: '35909238'
+  pmcid: PMC9561473
+  title: Cluster-independent marker feature identification from single-cell omics data using SEMITONES
+links: {}
+added: '2026-11-21'
+evidence: SEMITONES identifies marker genes and regulatory regions from single-cell data and can annotate cells using known
+  markers.

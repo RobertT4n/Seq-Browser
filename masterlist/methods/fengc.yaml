@@ -1,0 +1,38 @@
+name: FENGC
+full_name: flap-enabled next-generation capture
+category: wet
+summary: Target sequences assembled into flaps are excised and enriched for profiling genetic variants, methylation and chromatin
+  features.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+- single-molecule
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- primary-cells
+platform:
+- long-read
+reference:
+  doi: 10.1101/2022.11.08.515732
+  year: 2022
+  journal: bioRxiv
+  first_author: Zhou M
+  last_author: Kladde MP
+  title: 'Flap-enabled next-generation capture (FENGC): precision targeted single-molecule profiling of epigenetic heterogeneity,
+    chromatin dynamics, and genetic variation'
+links: {}
+added: '2026-11-21'
+evidence: FENGC enriches target sequences for variant detection and, with methyltransferase treatment and enzymatic methyl
+  sequencing, profiles methylation, nucleosome repositioning and transcription factor binding.

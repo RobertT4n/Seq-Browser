@@ -1,0 +1,22 @@
+name: NGSEP
+full_name: Next-Generation Sequencing Experience Platform
+category: dry
+summary: NGSEP provides homology-based transposable element annotation for genome assemblies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/aps3.11520
+  year: 2023
+  journal: Appl Plant Sci
+  first_author: Gonzalez-García LN
+  last_author: Duitama J
+  pmid: '37601317'
+  pmcid: PMC10439823
+  title: Efficient homology-based annotation of transposable elements using minimizers
+links: {}
+added: '2026-11-21'
+evidence: The new NGSEP functionality maps reference-library sequences to a genome assembly and assigns hierarchical transposable
+  element annotations by homology.

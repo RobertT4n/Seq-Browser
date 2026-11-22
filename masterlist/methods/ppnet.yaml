@@ -1,0 +1,19 @@
+name: PPNet
+category: dry
+summary: Uses phylogenetic profiles from prokaryotic genomes to infer bacterial functional gene association networks.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/spectrum.03871-22
+  year: 2023
+  journal: Microbiology Spectrum
+  first_author: Li Y
+  last_author: Jin H
+  title: 'PPNet: Identifying Functional Association Networks by Phylogenetic Profiling of Prokaryotic Genomes'
+links: {}
+added: '2026-11-21'
+evidence: PPNet analyzes genome-derived phylogenetic profiles to construct large-scale bacterial gene association networks
+  for a single species.

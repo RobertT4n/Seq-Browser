@@ -1,0 +1,23 @@
+name: HaploDMF
+category: dry
+summary: Deep matrix factorization tool that reconstructs viral haplotypes by clustering aligned long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btac708
+  year: 2022
+  journal: Bioinformatics
+  first_author: Cai D
+  last_author: Sun Y
+  pmid: '36308467'
+  pmcid: PMC9750122
+  title: 'HaploDMF: viral haplotype reconstruction from long reads via deep matrix factorization'
+links: {}
+added: '2026-11-21'
+evidence: HaploDMF learns latent features from aligned third-generation sequencing reads and clusters reads from the same
+  haplotype.

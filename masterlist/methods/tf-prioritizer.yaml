@@ -1,0 +1,23 @@
+name: TF-Prioritizer
+category: dry
+summary: Automated pipeline that integrates chromatin and expression data to prioritize condition-specific transcription factors.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giad026
+  year: 2022
+  journal: Gigascience
+  first_author: Hoffmann M
+  last_author: List M
+  pmid: '37132521'
+  pmcid: PMC10155229
+  title: 'TF-Prioritizer: a Java pipeline to prioritize condition-specific transcription factors'
+links: {}
+added: '2026-11-21'
+evidence: TF-Prioritizer prioritizes condition-specific transcription factors from multimodal data and generates an interactive
+  web report.

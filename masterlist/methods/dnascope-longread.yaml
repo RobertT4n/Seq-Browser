@@ -1,0 +1,22 @@
+name: DNAscope LongRead
+category: dry
+summary: Calls germline variants from PacBio HiFi sequencing reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/2022.06.01.494452
+  year: 2022
+  journal: bioRxiv
+  first_author: Freed D
+  last_author: Li Z
+  title: Sentieon DNAscope LongRead – A highly Accurate, Fast, and Efficient Pipeline for Germline Variant Calling from PacBio
+    HiFi reads
+links: {}
+added: '2026-11-21'
+evidence: DNAscope LongRead is a pipeline for germline variant calling from PacBio HiFi reads.

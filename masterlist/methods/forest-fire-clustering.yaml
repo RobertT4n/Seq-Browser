@@ -1,0 +1,23 @@
+name: Forest Fire Clustering
+category: dry
+summary: Forest Fire Clustering discovers cell types in single-cell sequencing data and estimates a probability distribution
+  over labels for each cell.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-31107-8
+  year: 2022
+  journal: Nat Commun
+  first_author: Chen Z
+  last_author: Gerstein M
+  pmid: '35725981'
+  pmcid: PMC9209427
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo
+    simulations
+links: {}
+added: '2026-11-21'
+evidence: The method calculates non-parametric posterior probabilities for cell-type labels and highlights transitions using
+  label entropy.

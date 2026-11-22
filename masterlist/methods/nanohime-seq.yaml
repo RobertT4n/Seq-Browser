@@ -1,0 +1,29 @@
+name: nanoHiMe-seq
+category: wet
+summary: Profiles histone modifications and DNA methylation together on individual nanopore reads using antibody-directed
+  adenine labeling.
+readouts:
+- histone-modification
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-022-35650-2
+  year: 2022
+  journal: Nat Commun
+  first_author: Yue X
+  last_author: Yin Y
+  pmid: '36566265'
+  pmcid: PMC9789962
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: A methyltransferase labels adenines near antibody-targeted modified nucleosomes, and nanopore reads report these
+  labels alongside endogenous methylated CpGs.

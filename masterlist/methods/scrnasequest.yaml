@@ -1,0 +1,20 @@
+name: scRNASequest
+category: dry
+summary: scRNASequest provides a semi-automated workflow for single-cell RNA-seq analysis, visualization and publishing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-023-09332-2
+  year: 2023
+  journal: BMC Genomics
+  first_author: Li K
+  last_author: Zhang B
+  pmid: '37131143'
+  pmcid: PMC10155351
+  title: 'scRNASequest: an ecosystem of scRNA-seq analysis, visualization, and publishing'
+links: {}
+added: '2026-11-21'
+evidence: The workflow supports preprocessing, harmonization, reference label transfer, differential expression and visualization.

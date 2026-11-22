@@ -1,0 +1,22 @@
+name: SCS
+category: dry
+summary: SCS combines imaging and spatial transcriptomics data to assign spots to cells and improve cell segmentation.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-023-01939-3
+  year: 2023
+  journal: Nat Methods
+  first_author: Chen H
+  last_author: Bar-Joseph Z
+  pmid: '37429992'
+  title: 'SCS: cell segmentation for high-resolution spatial transcriptomics'
+  preprint_doi: 10.1101/2023.01.11.523658
+links: {}
+added: '2026-11-21'
+evidence: SCS uses a transformer to assign spots to cells and was tested on two subcellular spatial transcriptomics technologies.

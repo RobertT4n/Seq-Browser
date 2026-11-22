@@ -1,0 +1,22 @@
+name: scSTEM
+full_name: single-cell STEM
+category: dry
+summary: Clusters dynamic gene expression profiles along trajectories inferred from pseudotime-ordered single-cell RNA-seq
+  data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02716-9
+  year: 2022
+  journal: Genome Biol
+  first_author: Song Q
+  last_author: Bar-Joseph Z
+  pmid: '35799304'
+  pmcid: PMC9264648
+  title: 'scSTEM: clustering pseudotime ordered single-cell data'
+links: {}
+added: '2026-11-21'
+evidence: scSTEM clusters gene profiles along inferred trajectories and assigns p-values to identify significant profiles.

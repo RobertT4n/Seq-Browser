@@ -1,0 +1,23 @@
+name: RIP-SIR
+full_name: RNA Immunoprecipitation and Sequencing of Isolated RNAs
+category: wet
+summary: Identifies interactions between endogenous microRNAs and their RNA targets across the genome.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+reference:
+  doi: 10.1101/2022.08.22.504764
+  year: 2022
+  journal: bioRxiv
+  first_author: Wells J
+  last_author: Bult CJ
+  title: RNA Immunoprecipitation and Sequencing of Isolated RNAs (RIP-SIR) Identifies Endogenous miRNA-Target Interactions
+links: {}
+added: '2026-11-21'
+evidence: RIP-SIR is described as an unbiased genome-wide method for identifying interactions between endogenous miRNAs and
+  their targets.

@@ -1,0 +1,23 @@
+name: NanoTRF
+category: dry
+summary: Identifies and characterizes tandem repeats and assembles consensus monomer sequences from raw nanopore genome reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/plants11162103
+  year: 2022
+  journal: Plants
+  first_author: Kirov I
+  last_author: Muravenko OV
+  title: A Pipeline NanoTRF as a New Tool for De Novo Satellite DNA Identification in the Raw Nanopore Sequencing Reads of
+    Plant Genomes
+links: {}
+added: '2026-11-21'
+evidence: NanoTRF identifies tandem repeats and assembles consensus monomers using raw nanopore reads from low-depth genome
+  sequencing.

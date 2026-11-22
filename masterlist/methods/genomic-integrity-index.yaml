@@ -1,0 +1,20 @@
+name: Genomic Integrity Index
+category: dry
+summary: Uses a convolutional neural network on low-pass whole-genome sequencing data to distinguish homologous recombination
+  deficiency status.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.06.498851
+  year: 2022
+  journal: bioRxiv
+  first_author: Andre
+  last_author: Z
+  title: A deep learning approach for improved detection of homologous recombination deficiency from shallow genomic profiles
+links: {}
+added: '2026-11-21'
+evidence: The Genomic Integrity Index uses features from low-pass whole-genome sequencing to distinguish HRD-positive and
+  HRD-negative samples.

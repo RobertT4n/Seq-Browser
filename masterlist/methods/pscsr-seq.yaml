@@ -1,0 +1,28 @@
+name: PSCSR-seq
+full_name: parallel single-cell small RNA sequencing
+category: wet
+summary: High-throughput sequencing method for profiling small RNA expression in individual cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- primary-cells
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41598-023-34390-7
+  year: 2023
+  journal: Sci Rep
+  first_author: Li J
+  last_author: Cai T
+  pmid: '37160973'
+  pmcid: PMC10170110
+  title: Small RNA transcriptome analysis using parallel single-cell small RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: PSCSR-seq enables high-throughput small RNA expression profiling of individual cells and was applied to PBMCs and
+  lung cancer biopsies.

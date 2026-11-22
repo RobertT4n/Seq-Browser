@@ -1,0 +1,21 @@
+name: UMIAnalyzer
+category: dry
+summary: Graphical interface for exploring and interpreting variants from UMI-containing sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/clinchem/hvac136
+  year: 2022
+  journal: Clin Chem
+  first_author: Österlund T
+  last_author: Ståhlberg A
+  pmid: '36031761'
+  title: 'UMIErrorCorrect and UMIAnalyzer: Software for Consensus Read Generation, Error Correction, and Visualization Using
+    Unique Molecular Identifiers'
+links: {}
+added: '2026-11-21'
+evidence: UMIAnalyzer provides data mining, visualization, variant interpretation, report generation, and adjustable analysis
+  parameters.

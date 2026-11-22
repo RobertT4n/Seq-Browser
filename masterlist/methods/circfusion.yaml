@@ -1,0 +1,18 @@
+name: CircFusion
+category: dry
+summary: Detects linear fusion transcripts and fusion circular RNAs from RNA-seq data with or without known breakpoints.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac589
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Dal Molin A
+  last_author: Bortoluzzi S
+  title: Discovery of fusion circular RNAs in leukemia with <i>KMT2A::AFF1</i> rearrangements by the new software CircFusion
+links: {}
+added: '2026-11-21'
+evidence: CircFusion detects linear fusion transcripts and fusion circular RNAs in RNA-seq samples with known or unknown breakpoints.

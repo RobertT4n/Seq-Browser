@@ -1,0 +1,20 @@
+name: StrainXpress
+category: dry
+summary: Reconstructs strain-specific genomes from metagenomic short-read sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac543
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Kang X
+  last_author: Schönhuth A
+  pmid: '35776122'
+  pmcid: PMC9508831
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+links: {}
+added: '2026-11-21'
+evidence: StrainXpress reconstructs strain-specific genomes from metagenomes containing up to more than 1000 strains.

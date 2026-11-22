@@ -1,0 +1,25 @@
+name: uscfDNA-seq
+category: wet
+summary: Sequences ultrashort single-stranded cell-free DNA revealed in human plasma.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.isci.2022.104554
+  year: 2022
+  journal: iScience
+  first_author: Cheng J
+  last_author: Wong DTW
+  pmid: '35800774'
+  pmcid: PMC9254344
+  title: Plasma contains ultrashort single-stranded DNA in addition to nucleosomal cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: The pipeline revealed a population of primarily single-stranded cell-free DNA with a modal size of 50 nucleotides
+  in human plasma.

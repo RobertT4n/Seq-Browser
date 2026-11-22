@@ -1,0 +1,22 @@
+name: pTADbit
+full_name: probabilistic TADbit
+category: dry
+summary: Combines deep learning and restraint-based modelling to infer ensembles of three-dimensional genome structures from
+  Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.09.19.508575
+  year: 2022
+  journal: bioRxiv
+  first_author: Castillo D
+  last_author: Marti-Renom MA
+  title: Probabilistic 3D-modelling of genomes and genomic domains by integrating high-throughput imaging and Hi-C using machine
+    learning
+links: {}
+added: '2026-11-21'
+evidence: pTADbit uses microscopy-derived distances to train a model that predicts spatial distance distributions from Hi-C
+  interaction frequencies.

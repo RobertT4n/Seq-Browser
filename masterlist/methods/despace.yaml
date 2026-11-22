@@ -1,0 +1,23 @@
+name: DESpace
+category: dry
+summary: Identifies spatially variable genes by testing differential expression between spatial clusters while modelling biological
+  replicates.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae027
+  year: 2024
+  journal: Bioinformatics
+  first_author: Cai P
+  last_author: Tiberi S
+  pmid: '38243704'
+  pmcid: PMC10868334
+  title: 'DESpace: spatially variable gene detection via differential expression testing of spatial clusters'
+  preprint_doi: 10.1101/2023.04.17.537189
+links: {}
+added: '2026-11-21'
+evidence: DESpace summarizes spatial information via clusters and tests gene expression differences between them, with joint
+  modelling of multiple samples.

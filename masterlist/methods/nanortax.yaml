@@ -1,0 +1,24 @@
+name: NanoRTax
+category: dry
+summary: NanoRTax performs taxonomic and diversity analysis of nanopore 16S rRNA gene amplicon data with real-time capability.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.csbj.2022.09.024
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Rodríguez-Pérez H
+  last_author: Flores C
+  pmid: '36212537'
+  pmcid: PMC9522874
+  title: NanoRTax, a real-time pipeline for taxonomic and diversity analysis of nanopore 16S rRNA amplicon sequencing data
+links: {}
+added: '2026-11-21'
+evidence: NanoRTax is a Nextflow pipeline for nanopore 16S rRNA gene amplicon data with taxonomic classification and real-time
+  capability.

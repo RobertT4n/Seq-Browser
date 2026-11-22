@@ -1,0 +1,33 @@
+name: nano-CUT&Tag
+category: wet
+summary: Nanobody-Tn5 fusion proteins simultaneously profile multiple chromatin modalities in single cells.
+readouts:
+- histone-modification
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41587-022-01535-4
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Bartosovic M
+  last_author: Castelo-Branco G
+  pmid: '36536148'
+  pmcid: PMC10264246
+  title: Multimodal chromatin profiling using nanobody-based single-cell CUT&Tag
+links: {}
+added: '2026-11-21'
+evidence: Nano-CUT&Tag simultaneously profiled chromatin accessibility, H3K27ac and H3K27me3 in single cells from juvenile
+  mouse brain.
+targets:
+- H3K27ac
+- H3K27me3

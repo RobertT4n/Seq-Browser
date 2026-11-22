@@ -1,0 +1,23 @@
+name: SQANTI3
+category: dry
+summary: SQANTI3 assesses and curates transcript models reconstructed from long-read RNA sequencing.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41592-024-02229-2
+  year: 2024
+  journal: Nat Methods
+  first_author: Pardo-Palacios FJ
+  last_author: Conesa A
+  pmid: '38509328'
+  pmcid: PMC11093726
+  title: 'SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms'
+  preprint_doi: 10.1101/2023.05.17.541248
+links: {}
+added: '2026-11-21'
+evidence: SQANTI3 characterizes transcript model structure, filters potential artifacts and rescues supported known transcripts.

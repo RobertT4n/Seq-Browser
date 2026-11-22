@@ -1,0 +1,26 @@
+name: AAQSP
+full_name: Association Analysis of QTL-seq on Semi-homologous Populations
+category: wet
+summary: Combines bulked segregant sequencing across multiple parental genetic backgrounds to identify stable quantitative
+  trait loci.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- plant
+reference:
+  doi: 10.1007/s00122-022-04181-1
+  year: 2022
+  journal: Theor Appl Genet
+  first_author: Wang X
+  last_author: Yuan Y
+  pmid: '35904626'
+  title: AAQSP increases mapping resolution of stable QTLs through applying NGS-BSA in multiple genetic backgrounds
+links: {}
+added: '2026-11-21'
+evidence: AAQSP combines construction of bulked segregant samples with sequencing analysis in two or more parental backgrounds
+  to isolate stable QTLs.

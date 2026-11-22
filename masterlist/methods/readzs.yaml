@@ -1,0 +1,20 @@
+name: ReadZS
+category: dry
+summary: Identifies regulated RNA processing in single cells without relying on existing annotations.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02795-8
+  year: 2022
+  journal: Genome Biol
+  first_author: Meyer E
+  last_author: Salzman J
+  pmid: '36284317'
+  pmcid: PMC9594907
+  title: ReadZS detects cell type-specific and developmentally regulated RNA processing programs in single-cell RNA-seq
+links: {}
+added: '2026-11-21'
+evidence: ReadZS detects cell type-specific and developmentally regulated RNA processing, including changes in 3' UTR length.

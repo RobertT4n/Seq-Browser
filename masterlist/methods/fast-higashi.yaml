@@ -1,0 +1,22 @@
+name: Fast-Higashi
+category: dry
+summary: Tensor decomposition method that jointly identifies cell identities and chromatin meta-interactions from sparse single-cell
+  Hi-C data.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2022.09.004
+  year: 2022
+  journal: Cell Syst
+  first_author: Zhang R
+  last_author: Ma J
+  pmid: '36265466'
+  pmcid: PMC9867958
+  title: Ultrafast and interpretable single-cell 3D genome analysis with Fast-Higashi
+links: {}
+added: '2026-11-21'
+evidence: Fast-Higashi uses tensor decomposition and partial random walk with restart to identify cell identities and chromatin
+  meta-interactions.

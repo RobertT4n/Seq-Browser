@@ -1,0 +1,21 @@
+name: SimBu
+category: dry
+summary: Simulates pseudo-bulk RNA-seq samples with controlled cell-type proportions to assess deconvolution methods.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac499
+  year: 2022
+  journal: Bioinformatics
+  first_author: Dietrich A
+  last_author: List M
+  pmid: '36124800'
+  title: 'SimBu: bias-aware simulation of bulk RNA-seq data with variable cell-type composition'
+links: {}
+added: '2026-11-21'
+evidence: SimBu aggregates single-cell expression profiles into simulated bulk samples and models cell-type-specific mRNA
+  bias.

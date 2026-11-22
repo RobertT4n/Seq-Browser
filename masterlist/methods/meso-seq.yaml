@@ -1,0 +1,29 @@
+name: Meso-seq
+category: wet
+summary: Profiles gene expression from ultra-low numbers of FACS-purified neuronal nuclei.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- facs-sorting
+- reverse-transcription
+species:
+- mouse
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.crmeth.2022.100259
+  year: 2022
+  journal: Cell Rep Methods
+  first_author: Apelblat D
+  last_author: Spiegel I
+  pmid: '36046622'
+  pmcid: PMC9421536
+  title: Meso-seq for in-depth transcriptomics in ultra-low amounts of FACS-purified neuronal nuclei
+links: {}
+added: '2026-11-21'
+evidence: Meso-seq identifies more than 10,000 robustly expressed genes from as few as 50 sorted neuronal nuclei and was demonstrated
+  in mouse and non-human primate neurons.

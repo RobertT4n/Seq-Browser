@@ -1,0 +1,21 @@
+name: MultiVelo
+category: dry
+summary: Models chromatin accessibility and gene expression dynamics together to improve single-cell fate prediction.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-022-01476-y
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Li C
+  last_author: Welch JD
+  pmid: '36229609'
+  pmcid: PMC10246490
+  title: Multi-omic single-cell velocity models epigenome-transcriptome interactions and improves cell fate prediction
+links: {}
+added: '2026-11-21'
+evidence: MultiVelo extends RNA velocity with epigenomic data and estimates chromatin accessibility and gene expression dynamics.

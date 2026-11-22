@@ -1,0 +1,22 @@
+name: ChEAP
+full_name: ChIP-exo Analysis Pipeline
+category: dry
+summary: Pipeline for processing and visualizing ChIP-exo data from raw sequencing reads.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.11.053
+  year: 2023
+  journal: Comput Struct Biotechnol J
+  first_author: Bang I
+  last_author: Kim D
+  pmid: '36544470'
+  pmcid: PMC9735260
+  title: 'ChEAP: ChIP-exo analysis pipeline and the investigation of <i>Escherichia coli</i> RpoN protein-DNA interactions'
+links: {}
+added: '2026-11-21'
+evidence: ChEAP processes ChIP-exo data from trimming and alignment through visualization and was demonstrated on E. coli
+  RpoN data.

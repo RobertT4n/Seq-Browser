@@ -1,0 +1,25 @@
+name: INTERSTELLAR
+full_name: interpretation, scalable transformation, and emulation of large-scale sequencing reads
+category: dry
+summary: INTERSTELLAR decodes structured sequencing reads and translates them into read structures compatible with other analysis
+  tools.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.add2793
+  year: 2023
+  journal: Sci Adv
+  first_author: Kijima Y
+  last_author: Yachie N
+  pmid: '36598975'
+  pmcid: PMC9812397
+  title: A universal sequencing read interpreter
+links: {}
+added: '2026-11-21'
+evidence: INTERSTELLAR translated single-cell RNA-seq, single-cell ATAC-seq and spatial transcriptomics reads for analysis
+  by different software tools.

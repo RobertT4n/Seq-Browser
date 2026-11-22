@@ -1,0 +1,21 @@
+name: WebCSEA
+category: dry
+summary: Identifies ribosomal RNA reads in sequencing data using a bidirectional long short-term memory network.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkac392
+  year: 2022
+  journal: Nucleic Acids Res
+  first_author: Dai Y
+  last_author: Zhao Z
+  pmid: '35610053'
+  pmcid: PMC10359109
+  title: 'WebCSEA: web-based cell-type-specific enrichment analysis of genes'
+links: {}
+added: '2026-11-21'
+evidence: RiboDetector identifies rRNA reads from transcriptomic, metagenomic, metatranscriptomic, noncoding RNA and ribosome
+  profiling data.

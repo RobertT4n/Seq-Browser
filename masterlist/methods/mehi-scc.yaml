@@ -1,0 +1,18 @@
+name: MeHi-SCC
+category: dry
+summary: Uses meta-learning across single-cell RNA-seq datasets to support hierarchical cell subclustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.09.06.506784
+  year: 2022
+  journal: bioRxiv
+  first_author: Pan Z
+  last_author: Yang Y
+  title: A Meta-learning based Graph-Hierarchical Clustering Method for Single Cell RNA-Seq Data
+links: {}
+added: '2026-11-21'
+evidence: MeHi-SCC uses information from multiple scRNA-seq datasets to assist graph-based hierarchical subclustering.

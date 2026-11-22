@@ -1,0 +1,22 @@
+name: dcHiC
+category: dry
+summary: Method that detects differential chromatin compartmentalization across multiple Hi-C contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-34626-6
+  year: 2022
+  journal: Nat Commun
+  first_author: Chakraborty A
+  last_author: Ay F
+  pmid: '36369226'
+  pmcid: PMC9652325
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+links: {}
+added: '2026-11-21'
+evidence: dcHiC uses a multivariate distance measure to identify significant compartment changes among bulk and single-cell
+  contact maps.

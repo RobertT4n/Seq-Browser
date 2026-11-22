@@ -1,0 +1,21 @@
+name: scViewer
+category: dry
+summary: scViewer visualizes single-cell gene expression and supports co-expression and differential expression analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.3390/cells12111489
+  year: 2023
+  journal: Cells
+  first_author: Patil AR
+  last_author: Warren L
+  pmid: '37296611'
+  pmcid: PMC10253102
+  title: 'scViewer: An Interactive Single-Cell Gene Expression Visualization Tool'
+links: {}
+added: '2026-11-21'
+evidence: scViewer is an R/Shiny application for exploring cell-type-specific expression, gene co-expression and differential
+  expression.

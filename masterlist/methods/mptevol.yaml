@@ -1,0 +1,20 @@
+name: MPTevol
+category: dry
+summary: Analyzes multiregion sequencing data to reconstruct clonal evolution and metastatic history in multiple primary tumors.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbac175
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Chen Q
+  last_author: Zhao Q
+  pmid: '35598328'
+  title: Deciphering clonal dynamics and metastatic routines in a rare patient of synchronous triple-primary tumors and multiple
+    metastases with MPTevol
+links: {}
+added: '2026-11-21'
+evidence: MPTevol compares genomic profiles across samples and detects clonal evolutionary history and metastatic routes.

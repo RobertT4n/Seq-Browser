@@ -1,0 +1,22 @@
+name: TESLA
+category: dry
+summary: Machine learning framework that combines spatial gene expression and histology for multi-level tissue annotation.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cels.2023.03.008
+  year: 2023
+  journal: Cell Syst
+  first_author: Hu J
+  last_author: Li M
+  pmid: '37164011'
+  pmcid: PMC10246692
+  title: Deciphering tumor ecosystems at super resolution from spatial transcriptomics with TESLA
+  preprint_doi: 10.1101/2022.11.05.515256
+links: {}
+added: '2026-11-21'
+evidence: TESLA integrates histological information and gene expression to annotate cells and detect tissue structures and
+  differential transcriptome programs.

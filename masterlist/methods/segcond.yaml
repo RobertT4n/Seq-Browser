@@ -1,0 +1,20 @@
+name: SEGCOND
+category: dry
+summary: Integrates genomic and Hi-C data to identify putative transcriptional condensate-associated regions.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac742
+  year: 2022
+  journal: Bioinformatics
+  first_author: Klonizakis A
+  last_author: Graf T
+  title: SEGCOND predicts putative transcriptional condensate-associated genomic regions by integrating multi-omics data
+links: {}
+added: '2026-11-21'
+evidence: SEGCOND combines enhancer activity and chromatin accessibility datasets with Hi-C data to identify domains where
+  enhancer elements coalesce in 3D space.

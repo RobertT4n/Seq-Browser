@@ -1,0 +1,19 @@
+name: PTerm
+full_name: Promoter profiling classifier for preterm prediction
+category: dry
+summary: Predicts preterm birth from promoter read-depth profiles in plasma cell-free DNA sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.09.20.22280143
+  year: 2022
+  journal: medRxiv
+  first_author: Guo Z
+  last_author: Tang J
+  title: Whole-Genome Promoter Profiling of Plasma Cell-Free DNA Exhibits Predictive Value for Preterm Birth
+links: {}
+added: '2026-11-21'
+evidence: PTerm uses promoter profiling from whole-genome sequencing of plasma cell-free DNA to predict preterm delivery.

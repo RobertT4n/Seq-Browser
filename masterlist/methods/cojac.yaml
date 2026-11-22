@@ -1,0 +1,20 @@
+name: COJAC
+full_name: Co-Occurrence adJusted Analysis and Calling
+category: dry
+summary: Detects low-frequency SARS-CoV-2 variants in wastewater using co-occurring signature mutations in sequencing read
+  pairs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41564-022-01185-x
+  year: 2022
+  journal: Nature Microbiology
+  first_author: Jahn K
+  last_author: Beerenwinkel N
+  title: Early detection and surveillance of SARS-CoV-2 genomic variants in wastewater using COJAC
+links: {}
+added: '2026-11-21'
+evidence: COJAC uses read pairs carrying multiple variant-specific signature mutations as an indicator of low-frequency variants.

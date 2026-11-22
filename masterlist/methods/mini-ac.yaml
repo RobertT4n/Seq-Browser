@@ -1,0 +1,24 @@
+name: MINI-AC
+full_name: Motif-Informed Network Inference based on Accessible Chromatin
+category: dry
+summary: MINI-AC combines accessible chromatin profiles and transcription factor binding information to infer plant gene regulatory
+  networks.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1111/tpj.16483
+  year: 2024
+  journal: Plant J
+  first_author: Manosalva Pérez N
+  last_author: Vandepoele K
+  pmid: '37788349'
+  title: 'MINI-AC: inference of plant gene regulatory networks using bulk or single-cell accessible chromatin profiles'
+  preprint_doi: 10.1101/2023.05.26.542269
+links: {}
+added: '2026-11-21'
+evidence: MINI-AC combines bulk or single-cell accessible chromatin data with transcription factor binding site information
+  to learn plant regulatory networks.

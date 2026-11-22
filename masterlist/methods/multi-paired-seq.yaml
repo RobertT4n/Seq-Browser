@@ -1,0 +1,25 @@
+name: multi-Paired-seq
+category: wet
+summary: Profiles mRNA and membrane proteins together in individual cells using paired picoliter chambers.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+validated_system:
+- cell-line
+reference:
+  doi: 10.1021/acs.analchem.1c05312
+  year: 2022
+  journal: Anal Chem
+  first_author: Xu X
+  last_author: Yang C
+  pmid: '35650660'
+  title: Decoding Expression Dynamics of Protein and Transcriptome at the Single-Cell Level in Paired Picoliter Chambers
+links: {}
+added: '2026-11-21'
+evidence: Picoliter reaction chambers detect mRNA transcripts and membrane protein copies in individual cells, distinguishing
+  breast cancer cell types.

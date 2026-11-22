@@ -1,0 +1,19 @@
+name: BISC
+category: dry
+summary: Bayesian method that infers transcriptional bursting parameters from noisy single-cell transcriptomic data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac464
+  year: 2022
+  journal: Brief Bioinform
+  first_author: Luo X
+  last_author: Cai G
+  pmid: '36326081'
+  title: 'BISC: accurate inference of transcriptional bursting kinetics from single-cell transcriptomic data'
+links: {}
+added: '2026-11-21'
+evidence: BISC uses a beta-gamma-Poisson model to estimate bursting parameters from single-cell transcriptomic data.

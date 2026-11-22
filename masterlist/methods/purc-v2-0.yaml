@@ -1,0 +1,22 @@
+name: PURC v2.0
+category: dry
+summary: Pipeline that combines amplicon sequence variant inference and operational taxonomic unit clustering to infer sequences
+  from amplicon mixtures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1007/978-1-0716-2561-3_10
+  year: 2023
+  journal: Methods Mol Biol
+  first_author: Schafran P
+  last_author: Rothfels CJ
+  pmid: '36720814'
+  title: PURC Provides Improved Sequence Inference for Polyploid Phylogenetics and Other Manifestations of the Multiple-Copy
+    Problem
+links: {}
+added: '2026-11-21'
+evidence: PURC v2.0 incorporates amplicon sequence variant inference alongside clustering to help infer homeologs in polyploid
+  organisms.

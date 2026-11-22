@@ -1,0 +1,19 @@
+name: TiC2D
+category: dry
+summary: Infers single-cell RNA-seq trajectories using consensus clustering.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2021.3061720
+  year: 2022
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Gan Y
+  last_author: Zhou S
+  pmid: '33630737'
+  title: 'TiC2D: Trajectory Inference From Single-Cell RNA-Seq Data Using Consensus Clustering'
+links: {}
+added: '2026-11-21'
+evidence: TiC2D uses consensus clustering to infer developmental trajectories from single-cell transcriptomes.

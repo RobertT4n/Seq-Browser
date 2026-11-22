@@ -1,0 +1,30 @@
+name: RANS
+full_name: rapid amplicon nanopore sequencing
+category: wet
+summary: Sequences diagnostic amplicons on a nanopore platform to distinguish monkeypox virus and other vesicle-forming pathogens.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3390/v14081817
+  year: 2022
+  journal: Viruses
+  first_author: Israeli O
+  last_author: Beth-Din A
+  pmid: '36016439'
+  pmcid: PMC9416277
+  title: Rapid Amplicon Nanopore Sequencing (RANS) for the Differential Diagnosis of Monkeypox Virus and Other Vesicle-Forming
+    Pathogens
+links: {}
+added: '2026-11-21'
+evidence: RANS uses diagnostic regions with conserved boundaries and internal diagnostic SNPs to discriminate pathogens.

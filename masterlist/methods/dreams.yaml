@@ -1,0 +1,21 @@
+name: DREAMS
+full_name: Deep Read-level Modelling of Sequencing-errors
+category: dry
+summary: Models sequencing errors at individual read positions to support variant calling and cancer detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2022.09.27.509150
+  year: 2022
+  journal: bioRxiv
+  first_author: Christensen MH
+  last_author: Pedersen JS
+  title: 'DREAMS: Deep Read-level Error Model for Sequencing data applied to low-frequency variant calling and circulating
+    tumor DNA detection'
+links: {}
+added: '2026-11-21'
+evidence: DREAMS estimates error rates of individual read positions and was evaluated using targeted sequencing of tumor and
+  plasma DNA.

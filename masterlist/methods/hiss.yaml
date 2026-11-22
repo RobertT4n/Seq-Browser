@@ -1,0 +1,26 @@
+name: HISS
+category: dry
+summary: Workflow suite that analyzes RenSeq reads to identify candidate plant disease resistance genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s12859-023-05335-8
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Adams TM
+  last_author: Hein I
+  pmid: '37198529'
+  pmcid: PMC10193785
+  title: 'HISS: Snakemake-based workflows for performing SMRT-RenSeq assembly, AgRenSeq and dRenSeq for the discovery of novel
+    plant disease resistance genes'
+  preprint_doi: 10.1101/2022.11.01.514708
+links: {}
+added: '2026-11-21'
+evidence: HISS provides workflows from raw RenSeq reads to resistance-gene candidates, including assembly of enriched HiFi
+  reads.

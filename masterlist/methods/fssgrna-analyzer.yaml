@@ -1,0 +1,23 @@
+name: FSsgRNA-Analyzer
+category: dry
+summary: FSsgRNA-Analyzer processes sequencing data for CRISPR functional screens and identifies candidate genes through sgRNA
+  enrichment analysis.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abq2157
+  year: 2022
+  journal: Sci Adv
+  first_author: Liu Y
+  last_author: Wang M
+  pmid: '36044571'
+  pmcid: PMC9432829
+  title: Base editor enables rational genome-scale functional screening for enhanced industrial phenotypes in <i>Corynebacterium
+    glutamicum</i>
+links: {}
+added: '2026-11-21'
+evidence: The authors developed a data processing procedure using statistical sgRNA enrichment analysis and provided FSsgRNA-Analyzer
+  for CRISPR screening data.

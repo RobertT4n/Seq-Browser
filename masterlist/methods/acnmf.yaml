@@ -1,0 +1,23 @@
+name: acNMF
+full_name: automatic consensus nonnegative matrix factorization
+category: dry
+summary: Uses unsupervised consensus nonnegative matrix factorization to compare gene expression programs across neuroblastoma
+  models and tumors.
+readouts:
+- rna
+resolution:
+- single-cell
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03309-4
+  year: 2024
+  journal: Genome Biology
+  first_author: Chapple RH
+  last_author: Geeleher P
+  title: An integrated single-cell RNA-seq map of human neuroblastoma tumors and preclinical models uncovers divergent mesenchymal-like
+    gene expression programs
+  preprint_doi: 10.1101/2023.04.13.536639
+links: {}
+added: '2026-11-21'
+evidence: acNMF was developed to compare gene expression programs in preclinical models with those in a patient tumor cohort.

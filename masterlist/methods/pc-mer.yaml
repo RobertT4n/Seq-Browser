@@ -1,0 +1,21 @@
+name: PC-mer
+category: dry
+summary: PC-mer encodes DNA sequences using k-mers and nucleotide physicochemical properties for classification and comparison.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-023-09373-7
+  year: 2023
+  journal: BMC Genomics
+  first_author: Akbari Rokn Abadi S
+  last_author: Koohi S
+  pmid: '37202721'
+  pmcid: PMC10193333
+  title: A new profiling approach for DNA sequences based on the nucleotides' physicochemical features for accurate analysis
+    of SARS-CoV-2 genomes
+links: {}
+added: '2026-11-21'
+evidence: PC-mer was used to build a coronavirus classification tool and an alignment-free sequence comparison tool.

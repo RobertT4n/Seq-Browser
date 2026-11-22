@@ -1,0 +1,24 @@
+name: Aldy 4
+category: dry
+summary: Aldy 4 uses combinatorial optimization to genotype pharmacogenes and call star alleles across sequencing technologies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1101/gr.277075.122
+  year: 2023
+  journal: Genome Res
+  first_author: Hari A
+  last_author: Numanagić I
+  pmid: '36657977'
+  pmcid: PMC9977157
+  title: An efficient genotyper and star-allele caller for pharmacogenomics
+  preprint_doi: 10.1101/2022.08.11.503701
+links: {}
+added: '2026-11-21'
+evidence: Aldy 4 supports long reads and improved phasing, copy number, and variant calling models for pharmacogene genotyping.

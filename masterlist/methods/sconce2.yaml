@@ -1,0 +1,20 @@
+name: SCONCE2
+category: dry
+summary: SCONCE2 jointly calls single-cell copy number alterations and estimates distances for tumor phylogeny inference.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04890-w
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Hui S
+  last_author: Nielsen R
+  pmid: '35986254'
+  pmcid: PMC9392257
+  title: 'SCONCE2: jointly inferring single cell copy number profiles and tumor evolutionary distances'
+links: {}
+added: '2026-11-21'
+evidence: SCONCE2 jointly estimates copy number profiles and a distance metric from single-cell whole-genome tumor sequencing.

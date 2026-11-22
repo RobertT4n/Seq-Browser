@@ -1,0 +1,23 @@
+name: ChimeraTE
+category: dry
+summary: Identifies gene-transposable element chimeric transcripts from paired-end RNA-seq reads with or without a reference
+  genome.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad671
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Oliveira DS
+  last_author: Vieira C
+  pmid: '37615575'
+  pmcid: PMC10570057
+  title: 'ChimeraTE: a pipeline to detect chimeric transcripts derived from genes and transposable elements'
+  preprint_doi: 10.1101/2022.09.05.505575
+links: {}
+added: '2026-11-21'
+evidence: ChimeraTE uses paired-end RNA-seq reads to identify chimeric transcripts through reference-guided and reference-free
+  modes.

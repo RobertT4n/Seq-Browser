@@ -1,0 +1,21 @@
+name: SpaGene
+category: dry
+summary: Detects spatial molecular patterns and colocalization in spatial omics data.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276851.122
+  year: 2022
+  journal: Genome Res
+  first_author: Liu Q
+  last_author: Shyr Y
+  pmid: '36223499'
+  pmcid: PMC9528978
+  title: Scalable and model-free detection of spatial patterns and colocalization
+links: {}
+added: '2026-11-21'
+evidence: SpaGene discovers spatial patterns in spatially resolved transcriptomics data and ligand-receptor interactions through
+  colocalization.

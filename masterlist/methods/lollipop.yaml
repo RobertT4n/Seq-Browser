@@ -1,0 +1,18 @@
+name: LolliPop
+category: dry
+summary: Computational method that estimates genomic variant abundances from wastewater sequencing time series.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.11.02.22281825
+  year: 2022
+  journal: medRxiv
+  first_author: Dreifuss D
+  last_author: Beerenwinkel N
+  title: Tracking SARS-CoV-2 genomic variants in wastewater sequencing data with  <i>LolliPop</i>
+links: {}
+added: '2026-11-21'
+evidence: LolliPop estimates relative abundances of genomic variants in mixed wastewater samples using temporal regularization.

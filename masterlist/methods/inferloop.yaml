@@ -1,0 +1,23 @@
+name: InferLoop
+category: dry
+summary: InferLoop infers chromatin interaction strengths from single-cell or spatial chromatin accessibility data.
+readouts:
+- chromatin-accessibility
+- 3d-genome
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad166
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Zhang F
+  last_author: Li L
+  pmid: '37139553'
+  pmcid: PMC10199765
+  title: 'InferLoop: leveraging single-cell chromatin accessibility for the signal of chromatin loop'
+links: {}
+added: '2026-11-21'
+evidence: InferLoop uses single-cell chromatin accessibility signals to infer loop strength and can predict loop signals in
+  spatial spots.

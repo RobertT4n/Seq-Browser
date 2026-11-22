@@ -1,0 +1,20 @@
+name: MetaWise
+category: dry
+summary: Deep neural network that classifies metastatic and primary tumors using mutation signatures derived from sequencing
+  data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2022.09.29.510207
+  year: 2022
+  journal: bioRxiv
+  first_author: Zheng W
+  last_author: Zhang Y
+  title: Deep Learning model accurately classifies metastatic tumors from primary tumors based on mutational signatures
+links: {}
+added: '2026-11-21'
+evidence: MetaWise classified metastatic versus primary tumors using mutation signatures calculated from whole-exome sequencing
+  data.

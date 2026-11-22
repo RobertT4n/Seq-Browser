@@ -1,0 +1,24 @@
+name: BOSS-RUNS
+category: dry
+summary: Adaptive nanopore sequencing framework that updates molecule selection decisions to increase information gain.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41587-022-01580-z
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Weilguny L
+  last_author: Goldman N
+  pmid: '36593407'
+  pmcid: PMC10344778
+  title: Dynamic, adaptive sampling during nanopore sequencing using Bayesian experimental design
+links: {}
+added: '2026-11-21'
+evidence: BOSS-RUNS updates uncertainty from observed data and decides whether sequencing each DNA fragment is expected to
+  reduce it sufficiently.

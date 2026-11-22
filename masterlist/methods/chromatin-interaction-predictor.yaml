@@ -1,0 +1,23 @@
+name: Chromatin Interaction Predictor
+category: dry
+summary: Suite of regression models that predicts cohesin-mediated chromatin interaction strength from chromatin features.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03158-7
+  year: 2024
+  journal: Genome Biol
+  first_author: Abbas A
+  last_author: Mani RS
+  pmid: '38217027'
+  pmcid: PMC10785520
+  title: 'ChIPr: accurate prediction of cohesin-mediated 3D genome organization from 2D chromatin features'
+  preprint_doi: 10.1101/2022.11.23.517572
+links: {}
+added: '2026-11-21'
+evidence: Chromatin Interaction Predictor uses regression models to predict cohesin-mediated interaction strength between
+  genomic loci and captures cell-type-dependent loops.

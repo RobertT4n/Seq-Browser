@@ -1,0 +1,23 @@
+name: ILMM
+full_name: interaction-integrated linear mixed model
+category: dry
+summary: Integrates prior genetic interaction information into a linear mixed model for genotype-phenotype and expression
+  QTL analysis.
+readouts:
+- genome-sequence
+- 3d-genome
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2023.110575
+  year: 2023
+  journal: Genomics
+  first_author: Li Q
+  last_author: Long Q
+  title: Interaction-integrated linear mixed model reveals 3D-genetic basis underlying Autism
+links: {}
+added: '2026-11-21'
+evidence: ILMM integrated Hi-C interactions with whole-genome sequencing and brain transcriptome data to investigate autism
+  and expression QTLs.

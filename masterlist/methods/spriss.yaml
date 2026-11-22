@@ -1,0 +1,20 @@
+name: SPRISS
+category: dry
+summary: CURC uses GPU acceleration to compress sequencing reads in FASTQ files without a reference.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac180
+  year: 2022
+  journal: Bioinformatics
+  first_author: Santoro D
+  last_author: Vandin F
+  pmid: '35583271'
+  pmcid: PMC9237683
+  title: 'SPRISS: approximating frequent k-mers by sampling reads, and applications'
+links: {}
+added: '2026-11-21'
+evidence: CURC performs lossless compression of DNA streams using a GPU-CPU parallel scheme.

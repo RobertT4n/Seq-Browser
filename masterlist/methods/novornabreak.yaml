@@ -1,0 +1,21 @@
+name: novoRNABreak
+category: dry
+summary: Local assembly framework for detecting novel splice junctions and fusion transcripts in RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.26502/jbsb.5107050
+  year: 2023
+  journal: J Bioinform Syst Biol
+  first_author: Tan Y
+  last_author: Chen K
+  pmid: '39301431'
+  pmcid: PMC11412692
+  title: 'Novornabreak: Local Assembly for Novel Splice Junction and Fusion Transcript Detection from RNA-Seq Data'
+  preprint_doi: 10.1101/2022.12.16.520791
+links: {}
+added: '2026-11-21'
+evidence: novoRNABreak uses local assembly to detect novel splice junctions and fusion transcripts in cancer RNA-seq data.

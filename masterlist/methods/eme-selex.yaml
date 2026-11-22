@@ -1,0 +1,21 @@
+name: eme_selex
+category: dry
+summary: Analyzes enrichment of k-mers in HT-SELEX data to detect promiscuous DNA binding.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.xpro.2022.101490
+  year: 2022
+  journal: STAR Protoc
+  first_author: Pantier R
+  last_author: Bird A
+  pmid: '35776646'
+  pmcid: PMC9243297
+  title: High-throughput sequencing SELEX for the determination of DNA-binding protein specificities in vitro
+links: {}
+added: '2026-11-21'
+evidence: The eme_selex pipeline facilitates detection of promiscuous DNA binding by analyzing enrichment of all possible
+  k-mers.

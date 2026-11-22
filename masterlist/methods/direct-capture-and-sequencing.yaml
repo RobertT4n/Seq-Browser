@@ -1,0 +1,25 @@
+name: direct capture and sequencing
+category: wet
+summary: Captures ultrashort single-stranded DNA from biofluids with short degenerate probes for sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+species:
+- human
+- plant
+reference:
+  doi: 10.1016/j.isci.2022.105046
+  year: 2022
+  journal: iScience
+  first_author: Cheng LY
+  last_author: Zhang DY
+  pmid: '36147958'
+  pmcid: PMC9486625
+  title: Direct capture and sequencing reveal ultra-short single-stranded DNA in biofluids
+links: {}
+added: '2026-11-21'
+evidence: DCS directly captures short single-stranded fragments with degenerate probes before library preparation and sequencing.

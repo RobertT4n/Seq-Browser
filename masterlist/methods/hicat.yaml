@@ -1,0 +1,22 @@
+name: HiCAT
+category: dry
+summary: Annotates cell types and immune-cell subsets in single-cell RNA-seq data using a hierarchical marker-based scoring
+  approach.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad006
+  year: 2023
+  journal: Briefings in Bioinformatics
+  first_author: Lee J
+  last_author: Yoon S
+  title: Hierarchical cell-type identifier accurately distinguishes immune-cell subtypes enabling precise profiling of tissue
+    microenvironment with single-cell RNA-sequencing
+  preprint_doi: 10.1101/2022.07.27.501701
+links: {}
+added: '2026-11-21'
+evidence: HiCAT scores markers using gene set analysis and identifies major cell types, minor types and subsets through a
+  three-level taxonomy.

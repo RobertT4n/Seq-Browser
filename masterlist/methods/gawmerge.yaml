@@ -1,0 +1,22 @@
+name: GAWMerge
+full_name: Genotyping Array-WGS Merge
+category: dry
+summary: GAWMerge combines array and whole-genome sequencing genotypes through phasing, imputation, and filtering for association
+  studies.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-022-03738-6
+  year: 2022
+  journal: Commun Biol
+  first_author: Mathur R
+  last_author: Johnson EO
+  pmid: '35953715'
+  pmcid: PMC9372058
+  title: GAWMerge expands GWAS sample size and diversity by combining array-based genotyping and whole-genome sequencing
+links: {}
+added: '2026-11-21'
+evidence: GAWMerge combines genotypes from arrays and whole-genome sequencing to provide complete variant overlap across samples.

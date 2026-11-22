@@ -1,0 +1,22 @@
+name: KARGVA
+full_name: K-mer Antibiotic Resistance Gene Variant Analyzer
+category: dry
+summary: KARGVA searches high-throughput sequencing data for antibiotic resistance gene variants using k-mers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3389/fmicb.2023.1060891
+  year: 2023
+  journal: Front Microbiol
+  first_author: Marini S
+  last_author: Prosperi M
+  pmid: '36960290'
+  pmcid: PMC10027697
+  title: The &lt;i&gt;K&lt;/i&gt;-mer antibiotic resistance gene variant analyzer (KARGVA)
+  preprint_doi: 10.1101/2022.08.12.503773
+links: {}
+added: '2026-11-21'
+evidence: KARGVA provides an antibiotic resistance gene variant database and a hash-based k-mer search for sequencing data.

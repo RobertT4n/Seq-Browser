@@ -1,0 +1,21 @@
+name: ReConPlot
+full_name: REarrangement and COpy Number PLOT
+category: dry
+summary: Visualizes somatic copy number aberrations and structural variants together to support interpretation of complex
+  genome rearrangements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad719
+  year: 2023
+  journal: Bioinformatics
+  first_author: Espejo Valle-Inclán J
+  last_author: Cortés-Ciriano I
+  title: 'ReConPlot: an R package for the visualization and interpretation of genomic rearrangements'
+  preprint_doi: 10.1101/2023.02.24.529890
+links: {}
+added: '2026-11-21'
+evidence: ReConPlot jointly visualizes somatic copy number aberrations and structural variants across one or multiple chromosomes.

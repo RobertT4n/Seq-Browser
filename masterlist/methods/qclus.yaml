@@ -1,0 +1,22 @@
+name: QClus
+category: dry
+summary: Droplet-filtering algorithm that clusters nuclei and removes empty or highly contaminated droplets from single-nucleus
+  RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae1145
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Schmauch E
+  last_author: Linna-Kuosmanen S
+  pmid: '39656909'
+  pmcid: PMC11724311
+  title: 'QClus: a droplet filtering algorithm for enhanced snRNA-seq data quality in challenging samples'
+  preprint_doi: 10.1101/2022.10.21.513315
+links: {}
+added: '2026-11-21'
+evidence: QClus uses metrics including cell-type-specific marker expression to filter empty and highly contaminated droplets.

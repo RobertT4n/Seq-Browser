@@ -1,0 +1,21 @@
+name: scAllele
+category: dry
+summary: Detects nucleotide variants and their allelic linkage with splicing patterns in single-cell RNA-seq data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.abn6398
+  year: 2022
+  journal: Sci Adv
+  first_author: Quinones-Valdez G
+  last_author: Xiao X
+  pmid: '36054357'
+  pmcid: PMC11636672
+  title: 'scAllele: A versatile tool for the detection and analysis of variants in scRNA-seq'
+links: {}
+added: '2026-11-21'
+evidence: scAllele detects single-nucleotide variants, insertions, deletions, and their allelic linkage with splicing patterns.

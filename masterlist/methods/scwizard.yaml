@@ -1,0 +1,20 @@
+name: scWizard
+category: dry
+summary: Provides automated cell classification and annotation with downstream analysis for cancer single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.08.028
+  year: 2022
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Wei J
+  last_author: Du H
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell
+    RNA-seq data in cancers'
+links: {}
+added: '2026-11-21'
+evidence: scWizard uses a hierarchical deep neural network trained on a cancer reference dataset to annotate major cell types
+  and subtypes.

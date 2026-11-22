@@ -1,0 +1,22 @@
+name: SNIKT
+category: dry
+summary: Supports sequence-independent visual identification and input-assisted removal of adapters from long-read shotgun
+  sequencing data.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btac389
+  year: 2022
+  journal: Bioinformatics
+  first_author: Ranjan P
+  last_author: Dickson RP
+  title: 'SNIKT: sequence-independent adapter identification and removal in long-read shotgun sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: SNIKT identifies and removes adapter contamination in whole-genome or metagenomic shotgun long-read DNA or RNA data.

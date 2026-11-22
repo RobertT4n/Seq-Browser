@@ -1,0 +1,21 @@
+name: SIMPA
+category: dry
+summary: Imputes missing single-cell ChIP-seq regions using predictive information from bulk data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0270043
+  year: 2022
+  journal: PLoS One
+  first_author: Albrecht S
+  last_author: Fontaine JF
+  pmid: '35776722'
+  pmcid: PMC9249201
+  title: Single-cell specific and interpretable machine learning models for sparse scChIP-seq data imputation
+links: {}
+added: '2026-11-21'
+evidence: SIMPA uses bulk ENCODE data to impute undetected regions for histone marks or transcription factors in scChIP-seq.

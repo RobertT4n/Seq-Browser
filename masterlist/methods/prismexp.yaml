@@ -1,0 +1,20 @@
+name: PrismEXP
+full_name: PRediction of gene Insights from Stratified Mammalian gene co-EXPression
+category: dry
+summary: Predicts gene annotations using stratified RNA-seq gene co-expression data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.14927
+  year: 2023
+  journal: PeerJ
+  first_author: Lachmann A
+  last_author: Ma’ayan A
+  title: 'PrismEXP: gene annotation prediction from stratified gene-gene co-expression matrices'
+links: {}
+added: '2026-11-21'
+evidence: PrismEXP uses RNA-seq gene-gene co-expression data to predict annotations including pathway membership, Gene Ontology
+  terms and phenotypes.

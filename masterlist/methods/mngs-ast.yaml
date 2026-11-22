@@ -1,0 +1,20 @@
+name: mNGS-AST
+category: dry
+summary: Predicts antimicrobial susceptibility of Acinetobacter baumannii from metagenomic sequencing data using resistance-associated
+  genetic signatures.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/jcm.01805-22
+  year: 2023
+  journal: Journal of Clinical Microbiology
+  first_author: Hu X
+  last_author: Gu B
+  title: Novel Clinical mNGS-Based Machine Learning Model for Rapid Antimicrobial Susceptibility Testing of Acinetobacter
+    baumannii
+links: {}
+added: '2026-11-21'
+evidence: The mNGS-AST models use genetic features associated with antimicrobial resistance to classify antibacterial phenotypes.

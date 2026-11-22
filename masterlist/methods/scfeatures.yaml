@@ -1,0 +1,23 @@
+name: scFeatures
+category: dry
+summary: Method that constructs interpretable sample-level representations from single-cell and spatial data for disease outcome
+  analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac590
+  year: 2022
+  journal: Bioinformatics
+  first_author: Cao Y
+  last_author: Yang JYH
+  pmid: '36040148'
+  pmcid: PMC9563679
+  title: 'scFeatures: multi-view representations of single-cell and spatial data for disease outcome prediction'
+links: {}
+added: '2026-11-21'
+evidence: scFeatures creates sample-level cellular and molecular representations of single-cell and spatial data and uses
+  them to classify disease status.

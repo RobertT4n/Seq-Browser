@@ -1,0 +1,23 @@
+name: GReNaDIne
+full_name: Gene Regulatory Network Data-driven Inference
+category: dry
+summary: Python library providing multiple machine-learning methods for inferring gene regulatory networks from gene expression
+  data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes14020269
+  year: 2023
+  journal: Genes (Basel)
+  first_author: Schmitt P
+  last_author: Peignier S
+  pmid: '36833196'
+  pmcid: PMC9957546
+  title: 'GReNaDIne: A Data-Driven Python Library to Infer Gene Regulatory Networks from Gene Expression Data'
+links: {}
+added: '2026-11-21'
+evidence: GReNaDIne implements 18 gene regulatory network inference methods along with preprocessing, normalization and ensemble
+  options.

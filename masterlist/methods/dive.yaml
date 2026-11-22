@@ -1,0 +1,21 @@
+name: DIVE
+category: dry
+summary: DIVE uses sequencing reads without a reference to discover diversity-generating and mobile genetic elements.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-023-03038-0
+  year: 2023
+  journal: Genome Biol
+  first_author: Abante J
+  last_author: Salzman J
+  pmid: '37864197'
+  pmcid: PMC10589994
+  title: 'DIVE: a reference-free statistical approach to diversity-generating and mobile genetic element discovery'
+  preprint_doi: 10.1101/2022.06.13.495703
+links: {}
+added: '2026-11-21'
+evidence: DIVE uses information in sequencing reads to discover hypervariable hotspots and mobile genetic elements.

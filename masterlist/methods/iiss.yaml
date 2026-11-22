@@ -1,0 +1,30 @@
+name: IISS
+full_name: improved in situ sequencing
+category: wet
+summary: Improved probe barcoding and image analysis support targeted spatial gene-expression profiling in tissue sections.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: targeted
+chemistry:
+- in-situ-hybridization
+partition_unknown: not stated in the abstract
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1016/j.jgg.2023.02.004
+  year: 2023
+  journal: J Genet Genomics
+  first_author: Tang X
+  last_author: Ke R
+  pmid: '36796537'
+  title: Improved in situ sequencing for high-resolution targeted spatial transcriptomic analysis in tissue sections
+  preprint_doi: 10.1101/2022.10.16.512401
+links: {}
+added: '2026-11-21'
+evidence: IISS uses improved probe anchor ligation and two-base barcode encoding for single-cell-level spatial expression
+  analysis in frozen and FFPE sections.

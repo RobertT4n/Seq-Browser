@@ -1,0 +1,22 @@
+name: FLAIR3
+category: dry
+summary: FLAIR3 integrates variant, gene fusion, and alternative splicing analysis from long-read RNA sequencing.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1101/2022.08.01.502364
+  year: 2022
+  journal: bioRxiv
+  first_author: Felton C
+  last_author: Brooks AN
+  title: Fully integrated SNV, fusion, and isoform analysis of cancer drivers with FLAIR3 for improved functional interpretation
+links: {}
+added: '2026-11-21'
+evidence: FLAIR3 analyzes SNVs, indels, gene fusions, and alternative splicing and predicts their combined impact on amino
+  acid sequence.

@@ -1,0 +1,21 @@
+name: Top-Down Crawl
+category: dry
+summary: Tool that aligns ranked k-mer binding measurements without requiring a position weight matrix.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac653
+  year: 2022
+  journal: Bioinformatics
+  first_author: Cooper BH
+  last_author: Rohs R
+  pmid: '36179084'
+  pmcid: PMC9665867
+  title: 'Top-Down Crawl: a method for the ultra-rapid and motif-free alignment of sequences with associated binding metrics'
+links: {}
+added: '2026-11-21'
+evidence: Top-Down Crawl aligns k-mer-level protein-DNA binding data using the rank of the input independently of a position
+  weight matrix.

@@ -1,0 +1,20 @@
+name: SpaDecon
+category: dry
+summary: Deconvolves cell types in spatial transcriptomics data using gene expression, spatial location and histology.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-023-04761-x
+  year: 2023
+  journal: Communications Biology
+  first_author: Coleman K
+  last_author: Li M
+  title: 'SpaDecon: cell-type deconvolution in spatial transcriptomics with semi-supervised learning'
+  preprint_doi: 10.1101/2023.02.12.528038
+links: {}
+added: '2026-11-21'
+evidence: SpaDecon uses semi-supervised learning with gene expression, spatial location and histology information for cell-type
+  deconvolution.

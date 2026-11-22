@@ -1,0 +1,21 @@
+name: TransMeta
+category: dry
+summary: Simultaneously assembles RNA-seq reads from multiple samples into transcripts.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.276434.121
+  year: 2022
+  journal: Genome Res
+  first_author: Yu T
+  last_author: Li G
+  pmid: '35858749'
+  pmcid: PMC9341511
+  title: TransMeta simultaneously assembles multisample RNA-seq reads
+links: {}
+added: '2026-11-21'
+evidence: TransMeta assembles reads from multiple samples using a vector-weighted splicing graph to reconstruct a consensus
+  transcriptome.

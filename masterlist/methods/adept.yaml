@@ -1,0 +1,22 @@
+name: ADEPT
+full_name: Autoencoder with differentially expressed genes and imputation
+category: dry
+summary: ADEPT combines spatial context and gene expression in a graph-based framework for spatial transcriptomics clustering.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2023.106792
+  year: 2023
+  journal: iScience
+  first_author: Hu Y
+  last_author: Zhou XM
+  pmid: '37235055'
+  pmcid: PMC10205785
+  title: 'ADEPT: Autoencoder with differentially expressed genes and imputation for robust spatial transcriptomics clustering'
+links: {}
+added: '2026-11-21'
+evidence: ADEPT uses a graph autoencoder and iterative clustering on imputed differentially expressed gene matrices to identify
+  spatial domains.

@@ -1,0 +1,22 @@
+name: MINI-EX
+full_name: Motif-Informed Network Inference based on single-cell Expression data
+category: dry
+summary: Infers plant cell-type-specific gene regulatory networks by combining single-cell expression and transcription-factor
+  motif information.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.molp.2022.10.016
+  year: 2022
+  journal: Molecular Plant
+  first_author: Ferrari C
+  last_author: Vandepoele K
+  title: 'MINI-EX: Integrative inference of single-cell gene regulatory networks in plants'
+  preprint_doi: 10.1101/2022.07.01.498402
+links: {}
+added: '2026-11-21'
+evidence: MINI-EX constructs expression-based networks from single-cell transcriptomic data and filters inferred regulons
+  using transcription-factor motifs.

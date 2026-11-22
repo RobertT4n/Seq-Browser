@@ -1,0 +1,27 @@
+name: EP-Seq
+full_name: Enzyme Proximity Sequencing
+category: wet
+summary: Uses peroxidase-mediated labeling and deep mutational scanning to measure enzyme variant stability and catalytic
+  activity.
+readouts:
+- functional-screen
+resolution:
+- single-cell
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-024-45630-3
+  year: 2024
+  journal: Nat Commun
+  first_author: Vanella R
+  last_author: Nash MA
+  pmid: '38418512'
+  pmcid: PMC10902396
+  title: Understanding activity-stability tradeoffs in biocatalysts by enzyme proximity sequencing
+  preprint_doi: 10.1101/2023.02.24.529916
+links: {}
+added: '2026-11-21'
+evidence: EP-Seq uses peroxidase-mediated radical labeling with single-cell fidelity to assess the stability and activity
+  effects of thousands of enzyme mutations.

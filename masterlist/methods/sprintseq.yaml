@@ -1,0 +1,33 @@
+name: SPRINTseq
+full_name: Spatially Resolved and signal-diluted Next-generation Targeted sequencing
+category: wet
+summary: Hybrid block coding and molecular dilution enable rapid targeted in situ transcript sequencing at cellular and subcellular
+  resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+- subcellular
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1073/pnas.2309227120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Chang T
+  last_author: Huang Y
+  pmid: '37963245'
+  pmcid: PMC10666108
+  title: Rapid and signal crowdedness-robust in situ sequencing through hybrid block coding
+  preprint_doi: 10.1101/2022.11.16.516714
+links: {}
+added: '2026-11-21'
+evidence: SPRINTseq recovered transcripts from a 108-gene panel in cells across four mouse brain slices and examined subcellular
+  mRNA distribution.

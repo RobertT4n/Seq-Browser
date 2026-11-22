@@ -1,0 +1,23 @@
+name: SRGS
+full_name: SPLS-based recursive gene selection
+category: dry
+summary: Sparse partial least squares method that recursively selects genes to infer regulatory networks from bulk or single-cell
+  expression data.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-022-09020-7
+  year: 2022
+  journal: BMC Genomics
+  first_author: Guan J
+  last_author: Ji G
+  pmid: '36451086'
+  pmcid: PMC9710113
+  title: 'SRGS: sparse partial least squares-based recursive gene selection for gene regulatory network inference'
+links: {}
+added: '2026-11-21'
+evidence: SRGS recursively selects and scores potential regulators of each target gene using sparse partial least squares.

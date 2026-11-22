@@ -1,0 +1,22 @@
+name: SCEA
+category: dry
+summary: SCEA uses neural and graph attention autoencoders to embed and cluster single-cell RNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-023-09344-y
+  year: 2023
+  journal: BMC Genomics
+  first_author: Abadi SAR
+  last_author: Koohi S
+  pmid: '37127578'
+  pmcid: PMC10152777
+  title: An optimized graph-based structure for single-cell RNA-seq cell-type classification based on non-linear dimension
+    reduction
+links: {}
+added: '2026-11-21'
+evidence: SCEA uses an MLP encoder and a graph attention autoencoder to obtain cell and gene embeddings for representation
+  and clustering.

@@ -1,0 +1,20 @@
+name: RabbitVar
+category: dry
+summary: RabbitVar calls small somatic variants from paired tumor and normal sequencing data using candidate detection and
+  machine-learning filtering.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.future.2026.108480
+  year: 2026
+  journal: Future Generation Computer Systems
+  first_author: Zhang H
+  last_author: Liu W
+  title: 'RabbitVar: Ultra-fast and accurate somatic small-variant calling on multi-core architectures'
+  preprint_doi: 10.1101/2023.01.06.522980
+links: {}
+added: '2026-11-21'
+evidence: RabbitVar detects small somatic variants from paired tumor and normal NGS data on multi-core CPUs.

@@ -1,0 +1,21 @@
+name: nf-core/circrna
+category: dry
+summary: Analyzes circular RNAs in RNA-seq data through quantification, miRNA target prediction and differential expression
+  analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-05125-8
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Digby B
+  last_author: Ó Broin P
+  title: 'nf-core/circrna: a portable workflow for the quantification, miRNA target prediction and differential expression
+    analysis of circular RNAs'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline includes modules for circRNA quantification and annotation, miRNA target prediction and differential
+  expression analysis.

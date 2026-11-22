@@ -1,0 +1,28 @@
+name: Lexo-circSeq
+category: wet
+summary: Profiles up to 110 selected circular RNAs and their corresponding linear transcripts in a single experiment.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- primary-cells
+- tissue-in-vivo
+reference:
+  doi: 10.3389/fmolb.2022.875805
+  year: 2022
+  journal: Front Mol Biosci
+  first_author: Naarmann-de Vries IS
+  last_author: Dieterich C
+  pmid: '35755822'
+  pmcid: PMC9214859
+  title: Targeted Analysis of circRNA Expression in Patient Samples by Lexo-circSeq
+links: {}
+added: '2026-11-21'
+evidence: Lexo-circSeq profiles up to 110 circRNAs and corresponding linear transcripts and was applied to human heart RNA
+  and patient biopsies.

@@ -1,0 +1,19 @@
+name: ChromDMM
+category: dry
+summary: Clusters genomic regions by multiple chromatin features while accounting for positional and strand-orientation uncertainty.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btac444
+  year: 2022
+  journal: Bioinformatics
+  first_author: Osmala M
+  last_author: Lähdesmäki H
+  title: 'ChromDMM: a Dirichlet-multinomial mixture model for clustering heterogeneous epigenetic data'
+links: {}
+added: '2026-11-21'
+evidence: ChromDMM clusters genomic regions characterized by multiple chromatin features and was demonstrated on human enhancer
+  regions.

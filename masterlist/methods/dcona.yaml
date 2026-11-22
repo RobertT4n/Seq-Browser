@@ -1,0 +1,19 @@
+name: DCoNA
+full_name: Differential Co-expression Network Analysis
+category: dry
+summary: Identifies gene pairs whose expression correlations change significantly between conditions.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad051
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zhiyanov A
+  last_author: Tonevitsky A
+  title: Differential co-expression network analysis with DCoNA reveals isomiR targeting aberrations in prostate cancer
+links: {}
+added: '2026-11-21'
+evidence: DCoNA identifies pair interactions whose correlation significantly changes between two conditions.

@@ -1,0 +1,21 @@
+name: Phylovar
+category: dry
+summary: SPRISS samples sequencing reads to approximate frequent k-mers and their frequencies for downstream analysis.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac254
+  year: 2022
+  journal: Bioinformatics
+  first_author: Edrisi M
+  last_author: Nakhleh L
+  pmid: '35758771'
+  pmcid: PMC9235480
+  title: 'Phylovar: toward scalable phylogeny-aware inference of single-nucleotide variations from single-cell DNA sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: SPRISS samples reads to approximate frequent k-mers and their frequencies in next-generation sequencing data.

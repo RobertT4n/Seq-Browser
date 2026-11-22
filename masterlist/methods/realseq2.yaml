@@ -1,0 +1,22 @@
+name: RealSeq2
+category: dry
+summary: RealSeq2 preprocesses UMI sequencing reads with error correction and stores 5-methylcytosine information alongside
+  mutation data.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.05.16.539668
+  year: 2023
+  journal: bioRxiv
+  first_author: Wang K
+  last_author: Yi X
+  title: 'RealSeq2: a software integrated with UMI identification, error correction, and methylation modifications storing'
+links: {}
+added: '2026-11-21'
+evidence: RealSeq2 performs UMI identification and consensus-read error correction and supports bisulfite-free 5-methylcytosine
+  data.

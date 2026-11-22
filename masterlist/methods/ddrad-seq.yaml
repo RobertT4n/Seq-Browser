@@ -1,0 +1,28 @@
+name: ddRAD-Seq
+full_name: double digest restriction-site associated DNA sequencing
+category: wet
+summary: An improved restriction-digest sequencing protocol identifies SNPs using size-selected genomic fragments and streamlined
+  library preparation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+reference:
+  doi: 10.1016/j.ab.2022.115001
+  year: 2023
+  journal: Anal Biochem
+  first_author: Magbanua ZV
+  last_author: Peterson DG
+  pmid: '36481242'
+  title: Innovations in double digest restriction-site associated DNA sequencing (ddRAD-Seq) method for more efficient SNP
+    identification
+  preprint_doi: 10.1101/2022.09.06.506835
+links: {}
+added: '2026-11-21'
+evidence: The protocol identifies SNPs from optimally sized restriction fragments and was compared with whole-genome resequencing
+  in two Gossypium species.

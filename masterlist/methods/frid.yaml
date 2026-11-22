@@ -1,0 +1,21 @@
+name: FRID
+full_name: Functional RNA Identification
+category: dry
+summary: Identifies candidate functional RNA elements by comparing conserved secondary and pseudoknot structures across sequences.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.04.03.535424
+  year: 2023
+  journal: bioRxiv
+  first_author: Forstmeier PC
+  last_author: Bevilacqua PC
+  title: 'The Functional RNA Identification (FRID) Pipeline: Identification of Potential Pseudoknot-Containing RNA Elements
+    as Therapeutic Targets for SARS-CoV-2'
+links: {}
+added: '2026-11-21'
+evidence: The FRID pipeline compares genomic isolates to identify functional RNA elements with conserved secondary and pseudoknot
+  structures.

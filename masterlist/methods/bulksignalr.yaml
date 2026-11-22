@@ -1,0 +1,23 @@
+name: BulkSignalR
+category: dry
+summary: R package that infers ligand-receptor networks from bulk and spatial transcriptomic data.
+readouts:
+- rna
+resolution:
+- bulk
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkad352
+  year: 2023
+  journal: Nucleic Acids Res
+  first_author: Villemin JP
+  last_author: Colinge J
+  pmid: '37144485'
+  pmcid: PMC10250239
+  title: Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic datasets with BulkSignalR
+  preprint_doi: 10.1101/2022.11.17.516911
+links: {}
+added: '2026-11-21'
+evidence: BulkSignalR integrates ligand-receptor interactions with downstream pathways and provides visualization functions
+  for spatial data.

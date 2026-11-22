@@ -1,0 +1,24 @@
+name: Bulk2Space
+category: dry
+summary: Deep learning framework that deconvolves bulk RNA-seq data into spatial and cellular patterns using single-cell and
+  spatial transcriptomics references.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-34271-z
+  year: 2022
+  journal: Nat Commun
+  first_author: Liao J
+  last_author: Fan X
+  pmid: '36310179'
+  pmcid: PMC9618574
+  title: De novo analysis of bulk RNA-seq data at spatially resolved single-cell resolution
+links: {}
+added: '2026-11-21'
+evidence: Bulk2Space uses existing single-cell and spatial transcriptomics references to disclose spatial and cellular heterogeneity
+  in bulk RNA-seq data.

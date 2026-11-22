@@ -1,0 +1,23 @@
+name: betAS
+category: dry
+summary: Pipeline using beta distributions to compare alternative splicing between groups while accounting for read coverage
+  and uncertainty.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1261/rna.079764.123
+  year: 2024
+  journal: RNA
+  first_author: Ascensão-Ferreira M
+  last_author: Barbosa-Morais NL
+  pmid: '38278530'
+  pmcid: PMC10946425
+  title: 'betAS: intuitive analysis and visualization of differential alternative splicing using beta distributions'
+  preprint_doi: 10.1101/2022.12.26.521935
+links: {}
+added: '2026-11-21'
+evidence: The pipeline models percent spliced-in values and their precision to quantitatively and visually compare alternative
+  splicing between sample groups.

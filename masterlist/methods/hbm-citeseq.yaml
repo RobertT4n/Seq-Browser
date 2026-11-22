@@ -1,0 +1,20 @@
+name: HBM-CITEseq
+category: dry
+summary: Workflow for uniformly processing multimodal CITE-seq datasets.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.12.19.521058
+  year: 2022
+  journal: bioRxiv
+  first_author: Lu X
+  last_author: Ruffalo M
+  title: 'HBM-CITEseq: a uniform CITE-seq processing pipeline for the HuBMAP Consortium'
+links: {}
+added: '2026-11-21'
+evidence: HBM-CITEseq is a CWL workflow for processing CITE-seq datasets, with transcriptomic outputs matching those of the
+  HuBMAP RNA-seq pipeline.

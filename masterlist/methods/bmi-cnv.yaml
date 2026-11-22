@@ -1,0 +1,21 @@
+name: BMI-CNV
+full_name: Bayesian Multisample and Integrative CNV
+category: dry
+summary: Bayesian method that integrates whole-exome sequencing and microarray data across samples to detect copy number variants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/genetics/iyac147
+  year: 2022
+  journal: Genetics
+  first_author: Luo X
+  last_author: Xiao F
+  pmid: '36171678'
+  pmcid: PMC9713397
+  title: 'BMI-CNV: a Bayesian framework for multiple genotyping platforms detection of copy number variants'
+links: {}
+added: '2026-11-21'
+evidence: BMI-CNV profiles copy number variants by integrating multisample whole-exome sequencing and microarray data.

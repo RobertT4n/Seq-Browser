@@ -1,0 +1,30 @@
+name: Region Capture Micro-C
+category: wet
+summary: Combines MNase-based chromosome conformation capture with tiled region capture to resolve fine-scale chromatin contacts.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- mnase
+- proximity-ligation
+- oligo-capture
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41588-023-01391-1
+  year: 2023
+  journal: Nat Genet
+  first_author: Goel VY
+  last_author: Hansen AS
+  pmid: '37157000'
+  pmcid: PMC10424778
+  title: Region Capture Micro-C reveals coalescence of enhancers and promoters into nested microcompartments
+  preprint_doi: 10.1101/2022.07.12.499637
+links: {}
+added: '2026-11-21'
+evidence: Region Capture Micro-C combines MNase-based 3C and tiled capture and revealed nested microcompartments in mouse
+  embryonic stem cells.

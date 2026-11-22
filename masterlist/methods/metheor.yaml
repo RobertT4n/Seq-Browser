@@ -1,0 +1,19 @@
+name: Metheor
+category: dry
+summary: Calculates DNA methylation heterogeneity measures from bisulfite sequencing read alignments.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.20.500893
+  year: 2022
+  journal: bioRxiv
+  first_author: Lee
+  last_author: S
+  title: 'Metheor: Ultrafast DNA methylation heterogeneity calculation from bisulfite read alignments'
+links: {}
+added: '2026-11-21'
+evidence: Metheor computes measures of heterogeneity from phased DNA methylation states within bisulfite sequencing reads.

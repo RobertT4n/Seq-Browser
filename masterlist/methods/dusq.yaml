@@ -1,0 +1,28 @@
+name: DUSQ
+full_name: DNA ultra-sensitive quantification
+category: wet
+summary: Combines linker-mediated PCR, molecular barcodes and sequencing to quantify rare unintegrated linear HIV DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.crmeth.2023.100443
+  year: 2023
+  journal: Cell Rep Methods
+  first_author: Roux HM
+  last_author: Dutrieux J
+  pmid: '37159665'
+  pmcid: PMC10162948
+  title: DNA ultra-sensitive quantification, a technology for studying HIV unintegrated linear DNA
+links: {}
+added: '2026-11-21'
+evidence: DUSQ combines linker-mediated PCR and sequencing with molecular barcodes and quantified unintegrated linear DNA
+  in samples from people with HIV-1.

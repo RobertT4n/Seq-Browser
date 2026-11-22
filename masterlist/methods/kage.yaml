@@ -1,0 +1,20 @@
+name: KAGE
+category: dry
+summary: Alignment-free graph-based genotyper for SNPs and short indels that uses a population pan-genome representation.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-022-02771-2
+  year: 2022
+  journal: Genome Biol
+  first_author: Grytten I
+  last_author: Sandve GK
+  pmid: '36195962'
+  pmcid: PMC9531401
+  title: 'KAGE: fast alignment-free graph-based genotyping of SNPs and short indels'
+links: {}
+added: '2026-11-21'
+evidence: KAGE predicts genotypes using a pan-genome representation, a Bayesian model, and correlations between variants.

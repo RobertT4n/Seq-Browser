@@ -1,0 +1,25 @@
+name: BLAZE
+full_name: Barcode identification from long-reads for AnalyZing single-cell gene Expression
+category: dry
+summary: BLAZE identifies 10x cell barcodes from nanopore single-cell RNA sequencing reads without matched short-read data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-023-02907-y
+  year: 2023
+  journal: Genome Biol
+  first_author: You Y
+  last_author: Clark MB
+  pmid: '37024980'
+  pmcid: PMC10077662
+  title: Identification of cell barcodes from long-read single-cell RNA-seq with BLAZE
+  preprint_doi: 10.1101/2022.08.16.504056
+links: {}
+added: '2026-11-21'
+evidence: BLAZE identifies 10x cell barcodes using only nanopore long-read single-cell RNA-seq data.

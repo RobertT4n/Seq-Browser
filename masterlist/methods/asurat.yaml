@@ -1,0 +1,22 @@
+name: ASURAT
+category: dry
+summary: Performs unsupervised clustering and functional annotation of single-cell transcriptomes using functional gene sets.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac541
+  year: 2022
+  journal: Bioinformatics
+  first_author: Iida K
+  last_author: Okada M
+  pmid: '35924984'
+  pmcid: PMC9477531
+  title: 'ASURAT: functional annotation-driven unsupervised clustering of single-cell transcriptomes'
+links: {}
+added: '2026-11-21'
+evidence: ASURAT uses correlation graph decomposition of genes in database-derived functional terms and was applied to single-cell
+  and spatial transcriptome datasets.

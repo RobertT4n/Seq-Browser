@@ -1,0 +1,22 @@
+name: SpaceFlow
+category: dry
+summary: Generates spatially informed transcriptomic embeddings to identify spatial domains and spatiotemporal patterns.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-022-31739-w
+  year: 2022
+  journal: Nat Commun
+  first_author: Ren H
+  last_author: Nie Q
+  pmid: '35835774'
+  pmcid: PMC9283532
+  title: Identifying multicellular spatiotemporal organization of cells with SpaceFlow
+links: {}
+added: '2026-11-21'
+evidence: SpaceFlow combines expression similarity and spatial information and was evaluated on spatial transcriptomic datasets
+  at spot and single-cell resolutions.

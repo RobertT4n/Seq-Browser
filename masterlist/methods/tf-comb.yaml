@@ -1,0 +1,24 @@
+name: TF-COMB
+full_name: Transcription Factor Co-Occurrence using Market Basket analysis
+category: dry
+summary: Analyzes transcription factor co-occurrence and binding grammar within regulatory regions.
+readouts:
+- protein-dna-binding
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2022.07.025
+  year: 2022
+  journal: Comput Struct Biotechnol J
+  first_author: Bentsen M
+  last_author: Looso M
+  pmid: '35983231'
+  pmcid: PMC9358416
+  title: TF-COMB - Discovering grammar of transcription factor binding sites
+  preprint_doi: 10.1101/2022.06.21.496953
+links: {}
+added: '2026-11-21'
+evidence: TF-COMB identifies co-occurring transcription factors from ChIP-seq and analyzes their orientation and distance
+  using ATAC-seq footprints and motifs.

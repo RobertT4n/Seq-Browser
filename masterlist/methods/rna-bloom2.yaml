@@ -1,0 +1,21 @@
+name: RNA-Bloom2
+category: dry
+summary: Assembles transcriptomes without a reference genome from long-read transcriptome sequencing data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1038/s41467-023-38553-y
+  year: 2023
+  journal: Nature Communications
+  first_author: Nip KM
+  last_author: Birol I
+  title: Reference-free assembly of long-read transcriptome sequencing data with RNA-Bloom2
+  preprint_doi: 10.1101/2022.08.07.503110
+links: {}
+added: '2026-11-21'
+evidence: RNA-Bloom2 is a reference-free assembly method for long-read transcriptome sequencing data.
