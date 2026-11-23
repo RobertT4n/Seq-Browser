@@ -64,12 +64,12 @@
 </main>
 <script>
 // _bar / _chem split the chemistry tags: how cells are kept apart (barcoding) vs. what is done to the molecules (chemistry)
-const PART = new Set(["combinatorial-indexing","split-pool-barcoding","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","particle-templated-emulsion","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
+const PART = new Set(["combinatorial-indexing","droplet-microfluidics","facs-sorting","hydrogel-compartmentalization","particle-templated-emulsion","imaging-guided-selection","microfluidic-chip","microwell-array","plate-based","spatial-barcode-array"]);
 const FACETS = [["readouts","Readout"],["perturbation","Perturbation"],["resolution","Resolution"],["temporal","Over time"],["scope","Scope"],["_bar","Barcoding"],["_chem","Chemistry"],["platform","Platform"],["task","Task"]];
 // dropdowns on screen: resolution, over-time and scope share one panel with section headings
 const DDS = [{label:"Readout",keys:["readouts"]},{label:"Perturbation",keys:["perturbation"]},{label:"Resolution",keys:["resolution","temporal","scope"]},{label:"Barcoding",keys:["_bar"]},{label:"Chemistry",keys:["_chem"]},{label:"Platform",keys:["platform"]},{label:"Computational task",keys:["task"]}];
 // combinatorial indexing and split-pool barcoding are the same strategy; filtering by one should find both
-const SAME = {"combinatorial-indexing":"split-pool-barcoding","split-pool-barcoding":"combinatorial-indexing"};
+const SAME = {};
 // platform sub-filters: PacBio and Nanopore sit under Long-read (Illumina/Ultima are standard short-read, so no tag)
 const PARENT = {pacbio:"long-read", nanopore:"long-read", "dna-5mc":"dna-methylation", "dna-5hmc":"dna-methylation", "dna-5fc":"dna-methylation", "dna-6ma":"dna-methylation"}, DISP = {"spatial-position":"Spatial position (barcode-reconstructed, no imaging)","long-read":"Long-read (any)", pacbio:"PacBio", nanopore:"Nanopore", "dna-methylation":"DNA methylation (any)", "dna-5mc":"5mC", "dna-5hmc":"5hmC", "dna-5fc":"5fC", "dna-6ma":"6mA"};
 const orderVals = v => [...v.filter(t => !PARENT[t]).flatMap(t => [t, ...v.filter(c => PARENT[c] === t)])];

@@ -106,8 +106,7 @@ chemistry:           # key molecular steps; an assay usually has several
   - bisulfite-or-enzymatic-conversion
   - nucleotide-labeling     # EdU, 4sU, ...
   - bioorthogonal-conjugation  # acylation / click chemistry attaches barcodes directly onto RNA or DNA (BOB-seq)
-  - split-pool-barcoding
-  - combinatorial-indexing
+  - combinatorial-indexing   # a.k.a. split-pool barcoding: cells/nuclei or molecules split across wells, indexed, pooled, repeated (sci-*, SPLiT-seq, SHARE-seq, SPRITE)
   - droplet-microfluidics
   - plate-based
   - cryosectioning
