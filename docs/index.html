@@ -53,7 +53,7 @@
   <table>
     <thead><tr>
       <th class="sort" data-key="name">Method</th><th>Readouts</th><th>Resolution</th>
-      <th class="hide-sm">Scope</th><th class="hide-sm" id="chemhead">Chemistry</th><th class="hide-sm">DOI</th>
+      <th class="hide-sm">Scope</th><th class="hide-sm" id="chemhead">Chemistry/barcoding</th><th class="hide-sm">DOI</th>
       <th class="sort num" data-key="citations">Citations</th><th class="sort num" data-key="year">Year</th>
     </tr></thead>
     <tbody id="rows"><tr><td class="loading" colspan="8">Loading methods…</td></tr></tbody>
@@ -124,7 +124,7 @@ function render() {
   const has = hasTag;
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? scopeMatches(m.scope, on[k], k === xk ? xv : null) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) && searchMatches(m, q);
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
-  document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry / task" : "Chemistry";   // the beta bubble belongs to the computational view only
+  document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry/barcoding/task" : "Chemistry/barcoding";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
   { const g = document.querySelectorAll("#facets .fg"); if (g[6]) g[6].hidden = !dryOn; [3,4,5].forEach(i => { if (g[i]) g[i].hidden = kind === "dry"; }); }   // barcoding, chemistry, platform have no meaning for computational-only view   // the Task filter only exists for computational tools
   const rows = pool.filter(m => pass(m)); window._rows = rows;
