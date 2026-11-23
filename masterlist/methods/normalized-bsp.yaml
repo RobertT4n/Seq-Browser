@@ -1,0 +1,29 @@
+name: normalized-BSP
+category: wet
+summary: normalized-BSP uses tailed primers and signal normalization to estimate locus-specific DNA methylation from bisulfite
+  PCR sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+input_sample:
+- ffpe-archival
+reference:
+  doi: 10.1186/s12885-015-1646-6
+  year: 2015
+  journal: BMC Cancer
+  first_author: Brisotto G
+  last_author: Santarosa M
+  title: An improved sequencing-based strategy to estimate locus-specific DNA methylation
+links: {}
+added: '2026-11-21'
+evidence: Tailed C-balanced primers and C/T ratio normalization reduce noise in bisulfite sequencing of amplified DNA.

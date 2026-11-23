@@ -1,0 +1,20 @@
+name: MethylInsight
+category: dry
+summary: Enables CNS tumor classification from whole-genome methylation sequencing by converting signals to array-compatible
+  values.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.09.18.25335800
+  year: 2025
+  journal: medRxiv
+  first_author: Lee
+  last_author: Y
+  title: Enabling whole-genome DNA methylation-based classification of central nervous system tumors
+links: {}
+added: '2026-11-21'
+evidence: MethylInsight converts WGBS and EM-seq signals into array-compatible beta values for established classifiers.

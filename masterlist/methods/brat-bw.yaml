@@ -1,0 +1,20 @@
+name: BRAT-BW
+category: dry
+summary: Maps bisulfite-treated short reads to a reference genome using an FM-index.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts264
+  year: 2012
+  journal: Bioinformatics
+  first_author: Harris EY
+  last_author: Lonardi S
+  title: 'BRAT-BW: efficient and accurate mapping of bisulfite-treated reads'
+links: {}
+added: '2026-11-21'
+evidence: BRAT-BW maps bisulfite-treated short reads using the FM-index and is part of a genome-wide methylation analysis
+  suite.

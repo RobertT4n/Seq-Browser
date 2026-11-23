@@ -1,0 +1,24 @@
+name: NOseq
+category: wet
+summary: Chemical deamination and amplicon sequencing detect m6A at defined RNA sites through its resistance to deamination.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+species:
+- human
+- invertebrate
+reference:
+  doi: 10.1093/nar/gkaa1173
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Werner S
+  last_author: Helm M
+  title: 'NOseq: amplicon sequencing evaluation method for RNA m6A sites after chemical deamination'
+links: {}
+added: '2026-11-21'
+evidence: NOseq detected known m6A sites in human rRNA and MALAT1 and validated candidate sites in Drosophila.

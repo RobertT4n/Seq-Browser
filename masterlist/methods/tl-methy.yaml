@@ -1,0 +1,20 @@
+name: TL-Methy
+category: dry
+summary: A two-level ensemble predictor uses nucleic acid sequence features to identify m6A sites across genomes.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1080/07391102.2020.1821778
+  year: 2020
+  journal: Journal of Biomolecular Structure and Dynamics
+  first_author: Zhang Z
+  last_author: Wang L
+  title: Using Chou’s 5-steps rule to identify N<sup>6</sup>-methyladenine sites by ensemble learning combined with multiple
+    feature extraction methods
+links: {}
+added: '2026-11-21'
+evidence: TL-Methy combines a support vector machine and nucleic acid features to identify m6A sites across the genome.

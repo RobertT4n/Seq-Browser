@@ -1,0 +1,22 @@
+name: EpiDiverse Toolkit
+category: dry
+summary: Provides pipelines for mapping, methylation calling and downstream genetic and epigenetic analyses of plant whole-genome
+  bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqab106
+  year: 2021
+  journal: NAR Genomics and Bioinformatics
+  first_author: Nunn A
+  last_author: Langenberger D
+  title: 'EpiDiverse Toolkit: a pipeline suite for the analysis of bisulfite sequencing data in ecological plant epigenetics'
+links: {}
+added: '2026-11-21'
+evidence: The toolkit includes pipelines for mapping, methylation calling, differential methylation, epigenome-wide association
+  and variant calling.

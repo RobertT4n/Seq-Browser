@@ -1,0 +1,21 @@
+name: GIMMEcpg
+full_name: Global Imputation of Mean cpg MEthylation
+category: dry
+summary: An imputation tool estimates missing CpG methylation values from neighboring sites within a dataset.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.03.17.643746
+  year: 2025
+  journal: bioRxiv
+  first_author: Moghul
+  last_author: S
+  title: 'GIMMEcpg: Global Imputation of Mean CpG MEthylation in Real-time'
+links: {}
+added: '2026-11-21'
+evidence: GIMMEcpg imputes missing values using the distance-weighted mean of the two immediately neighboring CpG methylation
+  values.

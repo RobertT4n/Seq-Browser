@@ -1,0 +1,19 @@
+name: methrix
+category: dry
+summary: R package for aggregating, quality-filtering and analyzing whole-genome bisulfite sequencing methylation data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa1048
+  year: 2020
+  journal: Bioinformatics
+  first_author: Mayakonda A
+  last_author: Toth R
+  title: 'Methrix: an R/Bioconductor package for systematic aggregation and analysis of bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: methrix summarizes methylation calls using reference indices and provides quality filtering, subsetting and visualization.

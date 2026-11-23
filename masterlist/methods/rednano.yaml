@@ -1,0 +1,21 @@
+name: RedNano
+category: dry
+summary: Detects RNA m6A from nanopore direct RNA sequencing reads using raw current signals and basecalling errors.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btae375
+  year: 2024
+  journal: Bioinformatics
+  first_author: Ni P
+  last_author: Wang J
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+links: {}
+added: '2026-11-21'
+evidence: RedNano uses raw signals and basecalling errors to detect m6A in nanopore direct RNA sequencing reads.

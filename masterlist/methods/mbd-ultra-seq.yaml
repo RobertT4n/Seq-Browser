@@ -1,0 +1,28 @@
+name: MBD Ultra-Seq
+full_name: Methyl CpG Binding Domain Ultra-Sequencing
+category: wet
+summary: MBD Ultra-Seq combines cell sorting and sample barcoding to profile cell-type-specific CpG methylation in individual
+  brain regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- facs-sorting
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1111/gbb.12150
+  year: 2014
+  journal: Genes, Brain and Behavior
+  first_author: Li X
+  last_author: Bredy TW
+  title: 'Methyl CpG Binding Domain Ultra‐Sequencing: a novel method for identifying inter‐individual and cell‐type‐specific
+    variation in <scp>DNA</scp> methylation'
+links: {}
+added: '2026-11-21'
+evidence: The method characterized 5mC differences between neurons and non-neurons in individual mouse prefrontal cortices.

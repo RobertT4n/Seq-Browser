@@ -1,0 +1,23 @@
+name: CircRM
+category: dry
+summary: CircRM profiles circular RNA modifications at single-base and single-molecule resolution from nanopore direct RNA
+  sequencing.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbaf726
+  year: 2026
+  journal: Briefings in Bioinformatics
+  first_author: Li J
+  last_author: Zhang Y
+  title: 'CircRM: profiling circular RNA modifications from nanopore direct RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: CircRM integrates circRNA detection, read-level modification detection and methylation rate quantification for m5C,
+  m6A and m1A.

@@ -1,0 +1,18 @@
+name: Definer
+category: dry
+summary: Deep learning model that predicts RNA pseudouridine sites from sequence features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0320077
+  year: 2025
+  journal: PLOS One
+  first_author: Han B
+  last_author: Xin R
+  title: 'Definer: A computational method for accurate identification of RNA pseudouridine sites based on deep learning'
+links: {}
+added: '2026-11-21'
+evidence: Definer uses sequence encoding and a CNN, GRU and attention model to identify pseudouridine loci in three species.

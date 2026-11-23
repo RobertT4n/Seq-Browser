@@ -1,0 +1,19 @@
+name: ME-Plot
+category: dry
+summary: A quality-control package detects bisulfite sequencing mapping errors and trims low-quality read portions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/033696
+  year: 2015
+  journal: bioRxiv
+  first_author: Bong-Hyun Kim
+  last_author: Bong-Hyun Kim
+  title: 'ME-plot: A QC package for bisulfite sequencing reads'
+links: {}
+added: '2026-11-21'
+evidence: ME-Plot detects errors in bisulfite sequencing mapping data and suggests post-processing to reduce them.

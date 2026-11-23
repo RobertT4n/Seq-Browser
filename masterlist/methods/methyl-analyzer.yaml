@@ -1,0 +1,20 @@
+name: Methyl-Analyzer
+category: dry
+summary: Integrates methylated and unmethylated sequencing compartments from Methyl-MAPS to estimate genome-wide CpG methylation
+  probabilities.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr356
+  year: 2011
+  journal: Bioinformatics
+  first_author: Xin Y
+  last_author: Haghighi FG
+  title: Methyl-Analyzer—whole genome DNA methylation profiling
+links: {}
+added: '2026-11-21'
+evidence: Methyl-Analyzer integrates reads from methylated and unmethylated compartments and estimates CpG methylation probabilities.

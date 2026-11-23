@@ -1,0 +1,23 @@
+name: MethylSense
+category: dry
+summary: Uses host cell-free DNA methylation and machine learning to classify Aspergillus fumigatus infection in chickens.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1128/jcm.01054-25
+  year: 2026
+  journal: Journal of Clinical Microbiology
+  first_author: Drag MH
+  last_author: Bojesen AM
+  title: "MethylSense: high accuracy machine learning-based diagnostics for\n                    <i>Aspergillus fumigatus</i>\n\
+    \                    infection in chickens using host cell-free DNA methylation and Nanopore sequencing"
+links: {}
+added: '2026-11-21'
+evidence: MethylSense classifiers use differentially methylated regions detected by nanopore sequencing of chicken serum cfDNA.

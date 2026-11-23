@@ -1,0 +1,27 @@
+name: EpiMethylTag
+category: wet
+summary: ATAC-seq or ChIP-seq combined with bisulfite conversion measures chromatin accessibility or transcription factor
+  binding alongside DNA methylation on the same DNA.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1186/s13059-019-1853-6
+  year: 2019
+  journal: Genome Biology
+  first_author: Lhoumaud P
+  last_author: Skok J
+  title: 'EpiMethylTag: simultaneous detection of ATAC-seq or ChIP-seq signals with DNA methylation'
+links: {}
+added: '2026-11-21'
+evidence: EpiMethylTag combines ATAC-seq or ChIP-seq with bisulfite conversion to examine accessibility or TF binding and
+  methylation on the same DNA.

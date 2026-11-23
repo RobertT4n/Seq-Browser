@@ -1,0 +1,24 @@
+name: BiSeqS
+category: wet
+summary: BiSeqS uses bisulfite conversion to distinguish barcoded DNA strands and improve the specificity of rare mutation
+  detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1073/pnas.1701382114
+  year: 2017
+  journal: Proc Natl Acad Sci U S A
+  first_author: Mattox AK
+  last_author: Papadopoulos N
+  pmid: '28416672'
+  pmcid: PMC5422780
+  title: Bisulfite-converted duplexes for the strand-specific detection and quantification of rare mutations
+links: {}
+added: '2026-11-21'
+evidence: BiSeqS distinguishes the two strands of molecularly barcoded DNA and requires a mutation to be present in both strands.

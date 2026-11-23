@@ -1,0 +1,19 @@
+name: m5CStack
+category: dry
+summary: Stacked ensemble framework that predicts RNA m5C sites from multiple feature encodings.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2025.05.004
+  year: 2025
+  journal: Computational and Structural Biotechnology Journal
+  first_author: He X
+  last_author: Chiang YC
+  title: 'm5CStack: An integrated framework for m5C site prediction using multi-feature stacking'
+links: {}
+added: '2026-11-21'
+evidence: m5CStack integrates multiple feature encodings and machine learning models through a stacking architecture and was
+  evaluated on RNA datasets from several species.

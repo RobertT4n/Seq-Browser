@@ -1,0 +1,18 @@
+name: RNASequel
+category: dry
+summary: Corrects RNA-seq alignment artifacts using splice junction information and fragment size estimates.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkv594
+  year: 2015
+  journal: Nucleic Acids Research
+  first_author: Wilson GW
+  last_author: Stein LD
+  title: 'RNASequel: accurate and repeat tolerant realignment of RNA-seq reads'
+links: {}
+added: '2026-11-21'
+evidence: RNASequel post-processes RNA-seq alignments and improves identification of adenosine-to-inosine RNA editing sites.

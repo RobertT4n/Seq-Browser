@@ -1,0 +1,18 @@
+name: PseU-ST
+category: dry
+summary: Uses stacked ensemble learning and RNA sequence features to predict pseudouridine sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2023.1121694
+  year: 2023
+  journal: Frontiers in Genetics
+  first_author: Zhang X
+  last_author: Zhu Y
+  title: 'PseU-ST: A new stacked ensemble-learning method for identifying RNA pseudouridine sites'
+links: {}
+added: '2026-11-21'
+evidence: PseU-ST uses a stacking strategy to predict pseudouridine sites in human, yeast, and mouse RNA sequences.

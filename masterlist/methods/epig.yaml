@@ -1,0 +1,20 @@
+name: epiG
+category: dry
+summary: epiG infers methylated epi-allelic haplotypes from WGBS data and nucleosome occupancy from NOMe-seq data.
+readouts:
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1168-4
+  year: 2017
+  journal: Genome Biology
+  first_author: Vincent M
+  last_author: Wiuf C
+  title: 'epiG: statistical inference and profiling of DNA methylation from whole-genome bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: epiG infers CpG methylation and DNA polymorphism haplotypes from WGBS and nucleosome occupancy from NOMe-seq.

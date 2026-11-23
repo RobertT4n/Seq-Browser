@@ -1,0 +1,21 @@
+name: WattmaMod
+category: dry
+summary: A deep learning framework detects multiple RNA modification types from nanopore direct RNA sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.07.02.735990
+  year: 2026
+  journal: bioRxiv
+  first_author: Han
+  last_author: G
+  title: WattmaMod enables high-resolution and extensible RNA modification profiling for nanopore direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: WattmaMod combines representation learning and raw signal analysis to detect multiple RNA modification types.

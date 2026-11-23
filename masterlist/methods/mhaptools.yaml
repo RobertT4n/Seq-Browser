@@ -1,0 +1,19 @@
+name: mHapTools
+category: dry
+summary: mHapTools converts sequencing alignments into the mHap format and post-processes DNA methylation haplotypes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab458
+  year: 2021
+  journal: Bioinformatics
+  first_author: Zhang Z
+  last_author: Shi J
+  title: The DNA methylation haplotype (mHap) format and mHapTools
+links: {}
+added: '2026-11-21'
+evidence: mHapTools converts BAM or SAM files to mHap files and post-processes methylation data in that format.

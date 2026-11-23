@@ -1,0 +1,20 @@
+name: SINBAD
+category: dry
+summary: A computational pipeline preprocesses and analyzes single-cell DNA methylation sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2021.10.23.465577
+  year: 2021
+  journal: bioRxiv
+  first_author: Tan
+  last_author: W
+  title: 'SINBAD: a flexible tool for single cell DNA methylation data'
+links: {}
+added: '2026-11-21'
+evidence: SINBAD includes preprocessing, read mapping, methylation quantification, multivariate analysis, and gene signature
+  profiling.

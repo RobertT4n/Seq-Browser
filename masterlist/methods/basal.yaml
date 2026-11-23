@@ -1,0 +1,24 @@
+name: BASAL
+full_name: BAse-conversion Sequencing ALigner
+category: dry
+summary: A universal base-conversion aligner supports diverse RNA and DNA modification sequencing strategies.
+readouts:
+- rna-modification
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae1201
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Xu M
+  last_author: Shi J
+  pmid: '39658059'
+  pmcid: PMC11754667
+  title: 'BASAL: a universal mapping algorithm for nucleotide base-conversion sequencing'
+links: {}
+added: '2026-11-21'
+evidence: BASAL supports multiple base-conversion strategies and was applied to single-cell m6A analysis.

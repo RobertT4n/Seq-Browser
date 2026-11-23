@@ -1,0 +1,19 @@
+name: PseU-FKeERF
+category: dry
+summary: A fuzzy kernel evidence random forest predicts pseudouridine sites using combined RNA sequence features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae169
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Chen M
+  last_author: Ding Y
+  title: Fuzzy kernel evidence Random Forest for identifying pseudouridine sites
+links: {}
+added: '2026-11-21'
+evidence: PseU-FKeERF combines four RNA feature coding schemes and uses fuzzy logic and kernel methods to classify pseudouridine
+  sites.

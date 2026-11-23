@@ -1,0 +1,19 @@
+name: MST-m6A
+category: dry
+summary: A multi-scale transformer predicts RNA m6A modification sites from sequence across cellular contexts.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jmb.2024.168856
+  year: 2025
+  journal: Journal of Molecular Biology
+  first_author: Su Q
+  last_author: Manavalan B
+  title: 'MST-m6A: A Novel Multi-Scale Transformer-based Framework for Accurate Prediction of m6A Modification Sites Across
+    Diverse Cellular Contexts'
+links: {}
+added: '2026-11-21'
+evidence: MST-m6A uses dual k-mer tokenization and a multi-scale transformer to identify m6A sites across cell lines and tissues.

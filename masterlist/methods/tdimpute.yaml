@@ -1,0 +1,21 @@
+name: TDimpute
+category: dry
+summary: Imputes missing gene expression data from DNA methylation using a transfer-learning neural network.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaa076
+  year: 2020
+  journal: GigaScience
+  first_author: Zhou X
+  last_author: Yang Y
+  title: Imputing missing RNA-sequencing data from DNA methylation by using a transfer learning–based neural network
+links: {}
+added: '2026-11-21'
+evidence: TDimpute trains a general model on pan-cancer data and fine-tunes it on a specific cancer dataset to impute gene
+  expression.

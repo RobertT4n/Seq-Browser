@@ -1,0 +1,21 @@
+name: pum6a
+category: dry
+summary: Attention-based positive-unlabeled learning detects RNA m6A sites from nanopore direct RNA sequencing signals.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-025-56173-6
+  year: 2025
+  journal: Nature Communications
+  first_author: Liu C
+  last_author: Wan G
+  title: Decoding the m6A epitranscriptomic landscape for biotechnological applications using a direct RNA sequencing approach
+links: {}
+added: '2026-11-21'
+evidence: pum6a combines electrical signal features and base alignment data to detect m6A, including at low-coverage loci.

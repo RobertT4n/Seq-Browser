@@ -1,0 +1,28 @@
+name: RB-dRNAseq
+category: wet
+summary: RNA-barcoded adapters enable multiplexed nanopore direct RNA sequencing for expression, isoform and modification
+  profiling.
+readouts:
+- rna
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+species:
+- mouse
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.05.14.725048
+  year: 2026
+  journal: bioRxiv
+  first_author: Shi
+  last_author: X.-Y
+  title: Multiplexed direct RNA sequencing using RB-dRNAseq with RNA barcodes
+links: {}
+added: '2026-11-21'
+evidence: RNA-barcoded reverse transcription adapters enabled sample demultiplexing and profiling of gene expression and RNA
+  modifications.

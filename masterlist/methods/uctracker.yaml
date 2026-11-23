@@ -1,0 +1,22 @@
+name: UCtracker
+category: dry
+summary: A deep learning model uses urine DNA methylation profiles to detect urothelial carcinoma and monitor postoperative
+  recurrence.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/advs.76710
+  year: 2026
+  journal: Advanced Science
+  first_author: Xiong S
+  last_author: Zhou L
+  title: 'UCtracker: A Deep Learning–Based DNA Methylation Model for Noninvasive Diagnosis and Recurrence Surveillance of
+    Urothelial Carcinoma in a Prospective Study'
+links: {}
+added: '2026-11-21'
+evidence: UCtracker was constructed using 2,000 hypomethylated regions and prospectively evaluated for cancer detection and
+  recurrence monitoring.

@@ -1,0 +1,23 @@
+name: HOMED
+full_name: Hierarchically Optimized Methylation Deconvolution
+category: dry
+summary: A hierarchical framework uses RNA-guided deconvolution and paired bulk data to optimize DNA methylation signatures
+  for cell-type deconvolution.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.06.08.730896
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu
+  last_author: L
+  title: HOMED enables hierarchical and multimodal optimization of DNA methylation deconvolution across tissues
+links: {}
+added: '2026-11-21'
+evidence: HOMED integrates cell-type hierarchy, scRNA-seq-guided deconvolution, and paired bulk RNA-seq and DNA methylation
+  data for CpG signature optimization.

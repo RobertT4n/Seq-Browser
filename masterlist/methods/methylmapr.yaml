@@ -1,0 +1,21 @@
+name: methylMapR
+category: dry
+summary: Generates functional prokaryotic methylomes from PacBio long-read sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1128/mra.01240-24
+  year: 2025
+  journal: Microbiology Resource Announcements
+  first_author: Morrissey C
+  last_author: Sethuraman A
+  title: methylMapR—an R package to generate the functional prokaryotic methylome
+links: {}
+added: '2026-11-21'
+evidence: methylMapR captures the functional methylome from long-read sequencing of prokaryotic genomes using PacBio.

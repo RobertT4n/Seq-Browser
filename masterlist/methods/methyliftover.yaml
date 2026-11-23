@@ -1,0 +1,21 @@
+name: methyLiftover
+category: dry
+summary: Maps bisulfite sequencing methylation data to CpG sites measured by Illumina methylation bead arrays for cross-platform
+  comparison.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btw180
+  year: 2016
+  journal: Bioinformatics
+  first_author: Titus AJ
+  last_author: Christensen BC
+  title: 'methyLiftover: cross-platform DNA methylation data integration'
+links: {}
+added: '2026-11-21'
+evidence: The method maps DNA methylation data from bisulfite sequencing to CpG sites measured by Illumina methylation bead-array
+  platforms.

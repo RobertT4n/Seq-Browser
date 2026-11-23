@@ -1,0 +1,19 @@
+name: methylation status calling
+category: dry
+summary: Calls binary DNA methylation status from bisulfite sequencing data using a mixture-of-binomial classification model.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt674
+  year: 2013
+  journal: Bioinformatics
+  first_author: Cheng L
+  last_author: Zhu Y
+  title: A classification approach for DNA methylation profiling with bisulfite next-generation sequencing data
+links: {}
+added: '2026-11-21'
+evidence: The methylation status calling procedure uses a mixture of binomial models to make binary methylation status calls.

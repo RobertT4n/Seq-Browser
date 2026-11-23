@@ -1,0 +1,29 @@
+name: DIRECT
+full_name: Digital Microfluidics for Isolation-Free Shared Library Construction of Single-Cell DNA Methylome and Transcriptome
+category: wet
+summary: DIRECT uses digital microfluidics to jointly profile DNA methylation and gene expression from single cells in one
+  library.
+readouts:
+- dna-methylation
+- dna-5mc
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+species:
+- mouse
+reference:
+  doi: 10.1002/smtd.202301075
+  year: 2023
+  journal: Small Methods
+  first_author: Zeng X
+  last_author: Yang C
+  title: 'DIRECT: Digital Microfluidics for Isolation‐Free Shared Library Construction of Single‐Cell DNA Methylome and Transcriptome'
+links: {}
+added: '2026-11-21'
+evidence: DIRECT uses digital microfluidics for single-cell isolation and simultaneous methylome and transcriptome analysis;
+  CpG coverage also supports copy number analysis.

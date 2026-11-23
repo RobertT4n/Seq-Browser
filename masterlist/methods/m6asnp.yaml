@@ -1,0 +1,19 @@
+name: m6ASNP
+category: dry
+summary: A web server predicts and annotates genetic variants that may alter RNA m6A modification sites.
+readouts:
+- rna-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giy035
+  year: 2018
+  journal: GigaScience
+  first_author: Jiang S
+  last_author: Ren J
+  title: 'm6ASNP: a tool for annotating genetic variants by m6A function'
+links: {}
+added: '2026-11-21'
+evidence: m6ASNP uses a random forest model to predict whether variants surrounding an m6A site alter its methylation status.

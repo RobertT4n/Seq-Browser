@@ -1,0 +1,24 @@
+name: SIMON
+full_name: Simple Inference for Methylome based On NGS
+category: wet
+summary: Targeted bisulfite PCR sequencing and computational fragment analysis measure DNA methylation patterns at single-nucleotide
+  resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.5511/plantbiotechnology.19.0822a
+  year: 2019
+  journal: Plant Biotechnology
+  first_author: Vial-Pradel S
+  last_author: Takahashi H
+  title: 'SIMON: Simple methods for analyzing DNA methylation by targeted bisulfite next-generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: SIMON combines PCR-amplification-based bisulfite sequencing with NGS and in silico fragment size and primer matching.

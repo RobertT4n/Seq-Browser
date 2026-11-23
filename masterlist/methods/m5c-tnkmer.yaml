@@ -1,0 +1,19 @@
+name: m5C-TNkmer
+category: dry
+summary: Predicts human RNA 5-methylcytosine sites using sequence k-mer features and supervised machine learning.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.22541/au.172217286.61464837/v1
+  year: 2024
+  journal: bioRxiv
+  first_author: Shahid
+  last_author: Tahir M
+  title: 'm 5 C-TNKmer: Identification of 5-methylated base Cytosine of Ribonucleic Acid using Supervised Machine Learning
+    Techniques'
+links: {}
+added: '2026-11-21'
+evidence: The computational model uses k-mer feature extraction to help identify human RNA m5C sites.

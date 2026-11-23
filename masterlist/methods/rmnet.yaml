@@ -1,0 +1,22 @@
+name: RMNet
+category: dry
+summary: Detects RNA m6A sites across species from nanopore signal and alignment features using a shared model.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.2174/0113894501405283250627072052
+  year: 2025
+  journal: Current Drug Targets
+  first_author: Li Q
+  last_author: Lou J
+  title: 'RMNet: An RNA m6A Cross-species Methylation Detection Method for Nanopore Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: RMNet integrates nanopore signal and alignment features and was tested on synthesized RNA, Arabidopsis and human
+  datasets.

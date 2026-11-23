@@ -1,0 +1,23 @@
+name: m6A-ORL-Seq
+category: wet
+summary: m6A-ORL-Seq uses chemical pulldown and a reverse-transcription signature to map m6A transcriptome-wide.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1039/d2sc03181g
+  year: 2022
+  journal: Chemical Science
+  first_author: Xie Y
+  last_author: Zhou X
+  title: "Transcriptome-wide profiling of\n                    <i>N</i>\n                    <sup>6</sup>\n              \
+    \      -methyladenosine\n                    <i>via</i>\n                    a selective chemical labeling method"
+links: {}
+added: '2026-11-21'
+evidence: Chemical labeling enables m6A pulldown and produces a specific reverse-transcription truncation signature.

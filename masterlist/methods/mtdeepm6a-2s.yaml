@@ -1,0 +1,20 @@
+name: MTDeepM6A-2S
+category: dry
+summary: Two-stage deep learning model that predicts yeast RNA m6A sites from sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fmicb.2022.999506
+  year: 2022
+  journal: Frontiers in Microbiology
+  first_author: Wang H
+  last_author: Zhu X
+  title: 'MTDeepM6A-2S: A two-stage multi-task deep learning method for predicting RNA N6-methyladenosine sites of Saccharomyces
+    cerevisiae'
+links: {}
+added: '2026-11-21'
+evidence: MTDeepM6A-2S uses a multitask model and transfer learning to predict Saccharomyces cerevisiae RNA m6A sites from
+  sequence information.

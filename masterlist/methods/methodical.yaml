@@ -1,0 +1,23 @@
+name: Methodical
+category: dry
+summary: A computational method combines RNA-seq and whole-genome bisulfite sequencing to identify regions where methylation
+  correlates with transcription.
+readouts:
+- dna-methylation
+- dna-5mc
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf949
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Heery R
+  last_author: Schaefer MH
+  title: Systematic identification of regions where DNA methylation is correlated with transcription refines regulatory logic
+    in normal and tumour tissues
+links: {}
+added: '2026-11-21'
+evidence: Methodical identifies transcript-proximal methylation-associated regulatory sites by correlating WGBS methylation
+  with RNA-seq transcriptional activity.

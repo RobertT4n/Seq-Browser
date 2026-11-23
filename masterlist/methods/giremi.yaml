@@ -1,0 +1,19 @@
+name: GIREMI
+full_name: genome-independent identification of RNA editing by mutual information
+category: dry
+summary: GIREMI predicts adenosine-to-inosine RNA editing sites from a single RNA-seq dataset without matched genomic sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.3314
+  year: 2015
+  journal: Nature Methods
+  first_author: Zhang Q
+  last_author: Xiao X
+  title: Genome sequence–independent identification of RNA editing sites
+links: {}
+added: '2026-11-21'
+evidence: GIREMI predicts adenosine-to-inosine editing from a single RNA-seq dataset of modest sequencing depth.

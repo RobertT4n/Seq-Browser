@@ -1,0 +1,23 @@
+name: MoDorado
+category: dry
+summary: Algorithm that detects tRNA modifications by comparing predictions from pretrained nanopore modification callers
+  between modified and unmodified samples.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaf795
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Rübsam FNM
+  last_author: Ehrenhofer-Murray AE
+  title: 'MoDorado: enhanced detection of tRNA modifications in nanopore sequencing by off-label use of modification callers'
+links: {}
+added: '2026-11-21'
+evidence: MoDorado repurposes modification-specific models to detect additional tRNA modifications by comparing modified and
+  nonmodified samples.

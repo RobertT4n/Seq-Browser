@@ -1,0 +1,18 @@
+name: ELMo4m6A
+category: dry
+summary: A contextual language embedding and hybrid neural network predict RNA m6A sites from sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2022.3173323
+  year: 2023
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Fan Y
+  last_author: Pan X
+  title: 'ELMo4m6A: A Contextual Language Embedding-Based Predictor for Detecting RNA N6-Methyladenosine Sites'
+links: {}
+added: '2026-11-21'
+evidence: ELMo4m6A learns RNA sequence embeddings with ELMo and uses a CNN and LSTM to identify m6A sites.

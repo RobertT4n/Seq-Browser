@@ -1,0 +1,22 @@
+name: Nanom6A
+category: dry
+summary: An XGBoost-based pipeline identifies and quantifies RNA m6A at single-base resolution from nanopore direct RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-020-02241-7
+  year: 2021
+  journal: Genome Biology
+  first_author: Gao Y
+  last_author: Gu L
+  title: Quantitative profiling of N6-methyladenosine at single-base resolution in stem-differentiating xylem of Populus trichocarpa
+    using Nanopore direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: Nanom6A identifies and quantifies m6A at single-base resolution using nanopore direct RNA sequencing.

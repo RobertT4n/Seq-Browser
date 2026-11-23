@@ -1,0 +1,21 @@
+name: TRAmaHap
+category: dry
+summary: Predicts gene expression from DNA methylation haplotypes in proximal promoters and distal enhancers.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbad214
+  year: 2023
+  journal: Briefings in Bioinformatics
+  first_author: Gao S
+  last_author: Shi J
+  title: 'TRAmHap: accurate prediction of transcriptional activity from DNA methylation haplotypes in bisulfite-sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: TRAmaHap predicts gene expression using methylation haplotype characteristics in proximal promoters and distal enhancers.

@@ -1,0 +1,19 @@
+name: m6Astorm
+category: dry
+summary: m6Astorm identifies RNA m6A at single-molecule resolution while preserving site-level stoichiometry.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag132
+  year: 2026
+  journal: Briefings in Bioinformatics
+  first_author: Wang F
+  last_author: Zou M
+  title: Stoichiometry-preserving and stochasticity-aware identification of m6A from direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: m6Astorm uses signal features and sequence context to classify molecular methylation states and reduce stoichiometry
+  bias.

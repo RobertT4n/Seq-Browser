@@ -1,0 +1,26 @@
+name: LEMONmethyl-seq
+full_name: Locus-Enriched Mapping Of Nucleotide methylation
+category: wet
+summary: Locus-specific amplification and long-read sequencing profile DNA methylation at single-nucleotide resolution.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.02.24.707761
+  year: 2026
+  journal: bioRxiv
+  first_author: Christenson
+  last_author: J. K
+  title: 'LEMONmethyl-seq: Targeted long-read DNA methylation profiling reveals dynamics of CRISPR epigenome editing and endogenous
+    DNA methylation patterns'
+links: {}
+added: '2026-11-21'
+evidence: LEMONmethyl-seq uses locus-specific amplification and long-read DNA sequencing to profile methylation at selected
+  loci.

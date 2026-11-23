@@ -1,0 +1,29 @@
+name: RREM-seq
+full_name: reduced representation EM-seq
+category: wet
+summary: Reduced-representation enzymatic methylation sequencing profiles DNA methylation at single-nucleotide resolution
+  from low-input samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1093/nar/gkaf558
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Liu Q
+  last_author: Singer BD
+  title: Novel enzyme-based reduced representation method for DNA methylation profiling with low inputs
+links: {}
+added: '2026-11-21'
+evidence: RREM-seq detected methylation differences in mouse CD4+ T cell populations and T cells from patients with severe
+  SARS-CoV-2 pneumonia.

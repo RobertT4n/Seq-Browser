@@ -1,0 +1,30 @@
+name: NanoRibolyzer
+category: wet
+summary: Long-read nanopore sequencing identifies and quantifies precursor rRNAs, their processing sites and pseudouridine
+  modifications.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+- subcellular
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-026-71164-x
+  year: 2026
+  journal: Nature Communications
+  first_author: Pastore S
+  last_author: Butto T
+  title: Mapping human pre-rRNA processing and modification at single nucleotide resolution using long read nanopore sequencing
+  preprint_doi: 10.1101/2025.03.01.640970
+links: {}
+added: '2026-11-21'
+evidence: NanoRibolyzer identifies pre-rRNA species and cleavage sites, maps pseudouridine, and uses fractionation to separate
+  nuclear and cytoplasmic pre-rRNAs.

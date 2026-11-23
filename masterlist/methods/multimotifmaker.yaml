@@ -1,0 +1,23 @@
+name: MultiMotifMaker
+category: dry
+summary: Uses multithreading to identify DNA methylation motifs from PacBio reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1109/tcbb.2018.2861399
+  year: 2020
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Li T
+  last_author: Wang J
+  title: 'MultiMotifMaker: A Multi-Thread Tool for Identifying DNA Methylation Motifs from Pacbio Reads'
+links: {}
+added: '2026-11-21'
+evidence: MultiMotifMaker implements a multithreaded motif-finding algorithm to identify methylation motifs from PacBio reads
+  in large genomes.

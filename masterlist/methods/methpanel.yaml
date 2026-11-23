@@ -1,0 +1,20 @@
+name: MethPanel
+category: dry
+summary: An interactive pipeline aligns multiplex bisulfite PCR sequencing reads and calls DNA methylation across amplicons.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btaa1060
+  year: 2020
+  journal: Bioinformatics
+  first_author: Luu PL
+  last_author: Clark SJ
+  title: 'MethPanel: a parallel pipeline and interactive analysis tool for multiplex bisulphite PCR sequencing to assess DNA
+    methylation biomarker panels for disease detection'
+links: {}
+added: '2026-11-21'
+evidence: MethPanel provides a workflow from genomic alignment to methylation calling, with PCR bias correction and visualization.

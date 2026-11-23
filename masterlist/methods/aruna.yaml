@@ -1,0 +1,19 @@
+name: ARUNA
+category: dry
+summary: ARUNA uses a self-supervised autoencoder to impute genome-wide CpG methylation from sparse methylation measurements.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.01.29.702677
+  year: 2026
+  journal: bioRxiv
+  first_author: Singh J
+  last_author: Yao V
+  title: 'ARUNA: Slice-based self-supervised imputation for upscaling DNA methylation sequencing assays'
+links: {}
+added: '2026-11-21'
+evidence: ARUNA predicts genome-wide CpG-level methylation from a small subset of observed methylation values and CpG coordinates.

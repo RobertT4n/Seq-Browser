@@ -1,0 +1,21 @@
+name: CAMDAC
+full_name: Copy number-Aware Methylation Deconvolution Analysis of Cancers
+category: dry
+summary: Deconvolves tumor methylation profiles while estimating tumor purity and allele-specific copy number.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.11.03.366252
+  year: 2020
+  journal: bioRxiv
+  first_author: Larose Cadieux
+  last_author: P
+  title: Copy number-aware deconvolution of tumor-normal DNA methylation profiles
+links: {}
+added: '2026-11-21'
+evidence: CAMDAC outputs tumor purity, allele-specific copy number, and deconvolved methylation estimates from tumor data.

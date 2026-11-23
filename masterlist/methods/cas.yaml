@@ -1,0 +1,23 @@
+name: CAS
+full_name: Contextual Activity Score
+category: dry
+summary: CAS infers ADAR-associated transcriptional activity from gene expression signatures across bulk, single-cell and
+  spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1016/j.cmpb.2026.109563
+  year: 2026
+  journal: Computer Methods and Programs in Biomedicine
+  first_author: Marino FA
+  last_author: Calura E
+  title: A contextual activity score (CAS) for inferring ADAR-associated transcriptional activity across RNA-seq, single-cell,
+    and spatial transcriptomics
+links: {}
+added: '2026-11-21'
+evidence: CAS uses regulon-based enrichment of ADAR perturbation signatures in normalized gene expression matrices.

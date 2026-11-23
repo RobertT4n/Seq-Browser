@@ -1,0 +1,23 @@
+name: JACUSA2
+category: dry
+summary: JACUSA2 detects RNA modifications from Illumina or nanopore sequencing assays while integrating multiple experiments
+  and library types.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1186/s13059-022-02676-0
+  year: 2022
+  journal: Genome Biology
+  first_author: Piechotta M
+  last_author: Dieterich C
+  title: RNA modification mapping with JACUSA2
+links: {}
+added: '2026-11-21'
+evidence: JACUSA2 supports RNA modification detection assays on Illumina and nanopore data, including m6A and pseudouridine
+  workflows.

@@ -1,0 +1,21 @@
+name: LuxHMM
+category: dry
+summary: LuxHMM segments the genome and uses Bayesian regression to infer differentially methylated regions from bisulfite
+  sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05174-7
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Malonzo MH
+  last_author: Lähdesmäki H
+  title: 'LuxHMM: DNA methylation analysis with genome segmentation via hidden Markov model'
+links: {}
+added: '2026-11-21'
+evidence: LuxHMM combines hidden Markov model genome segmentation with Bayesian regression for differential methylation of
+  regions.

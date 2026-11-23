@@ -1,0 +1,20 @@
+name: MeConcord
+category: dry
+summary: MeConcord quantifies local DNA methylation concordance across reads and CpG sites to distinguish methylation patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac248
+  year: 2022
+  journal: Bioinformatics
+  first_author: Zhang X
+  last_author: Wang X
+  title: 'MeConcord: a new metric to quantitatively characterize DNA methylation heterogeneity across reads and CpG sites'
+links: {}
+added: '2026-11-21'
+evidence: MeConcord measures local methylation concordance across reads and CpG sites and can analyze whole genomes or regions
+  of interest.

@@ -1,0 +1,20 @@
+name: GM-tECA
+full_name: Geometric Mean of tRNA Expression-Codon Adaptation
+category: dry
+summary: A computational pipeline measures codon adaptation to the corresponding tRNA abundance pool.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/mbio.01622-25
+  year: 2025
+  journal: mBio
+  first_author: Silva HGS
+  last_author: da Cunha JPC
+  title: "Integrating tRNA gene epigenomics and expression with codon usage unravels an intricate connection with translatome\
+    \ dynamics in\n                    <i>Trypanosoma cruzi</i>"
+links: {}
+added: '2026-11-21'
+evidence: GM-tECA measures the adaptation of codons to their corresponding tRNA abundance pool.

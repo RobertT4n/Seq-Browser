@@ -1,0 +1,19 @@
+name: scEpiAge
+category: dry
+summary: A DNA methylation age predictor estimates age from single-cell and sparse methylation datasets.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.01.30.526343
+  year: 2023
+  journal: bioRxiv
+  first_author: Bonder
+  last_author: F
+  title: Single cell DNA methylation ageing in mouse blood
+links: {}
+added: '2026-11-21'
+evidence: scEpiAge predicts age in single cells and across publicly available datasets, including very sparse data.

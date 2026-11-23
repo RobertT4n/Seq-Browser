@@ -1,0 +1,20 @@
+name: methylGrapher
+category: dry
+summary: Maps whole-genome bisulfite sequencing data to genome graphs to reconstruct DNA methylation patterns along haplotype
+  paths.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkaf028
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Zhang W
+  last_author: Wang T
+  title: 'methylGrapher: genome-graph-based processing of DNA methylation data from whole genome bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: methylGrapher maps WGBS data to a genome graph and reconstructs methylation patterns along haplotype paths.

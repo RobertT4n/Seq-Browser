@@ -1,0 +1,22 @@
+name: RT-KTq I614Y
+category: wet
+summary: Uses an engineered reverse transcription-active polymerase to identify pseudouridine and queuosine sites in untreated
+  RNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkad177
+  year: 2023
+  journal: Nucleic Acids Research
+  first_author: Huber LB
+  last_author: Marx A
+  title: A dual-purpose polymerase engineered for direct sequencing of pseudouridine and queuosine
+links: {}
+added: '2026-11-21'
+evidence: The polymerase produces reverse transcription error signatures specific for pseudouridine or queuosine without prior
+  chemical treatment.

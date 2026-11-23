@@ -1,0 +1,25 @@
+name: Guide Positioning Sequencing
+category: wet
+summary: Guide Positioning Sequencing profiles whole-genome DNA methylation and genomic variation.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1101/gr.240606.118
+  year: 2019
+  journal: Genome Research
+  first_author: Li J
+  last_author: Yu W
+  title: Guide Positioning Sequencing identifies aberrant DNA methylation patterns that alter cell identity and tumor-immune
+    surveillance networks
+links: {}
+added: '2026-11-21'
+evidence: GPS detects genome-wide DNA methylation and genomic variation, with cytosine coverage reported as high as 96%.

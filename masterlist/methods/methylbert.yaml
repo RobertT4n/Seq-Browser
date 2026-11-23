@@ -1,0 +1,22 @@
+name: MethylBERT
+category: dry
+summary: Classifies tumor-derived reads from methylation patterns and genomic sequence to estimate tumor fractions in bulk
+  samples.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-55920-z
+  year: 2025
+  journal: Nature Communications
+  first_author: Jeong Y
+  last_author: Lutsik P
+  title: MethylBERT enables read-level DNA methylation pattern identification and tumour deconvolution using a Transformer-based
+    model
+  preprint_doi: 10.1101/2023.10.29.564590
+links: {}
+added: '2026-11-21'
+evidence: MethylBERT identifies tumor-derived reads from their methylation patterns and sequence and estimates tumor cell
+  fractions.

@@ -1,0 +1,20 @@
+name: RUbioSeq
+category: dry
+summary: RUbioSeq provides parallel pipelines for exome variant detection and bisulfite sequencing analysis.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt203
+  year: 2013
+  journal: Bioinformatics
+  first_author: Rubio-Camarillo M
+  last_author: Pisano DG
+  title: 'RUbioSeq: a suite of parallelized pipelines to automate exome variation and bisulfite-seq analyses'
+links: {}
+added: '2026-11-21'
+evidence: RUbioSeq automates exome SNV and copy-number variant detection alongside bisulfite-seq analysis.

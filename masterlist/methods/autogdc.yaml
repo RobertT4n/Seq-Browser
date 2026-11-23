@@ -1,0 +1,21 @@
+name: autogdc
+category: dry
+summary: Python package that combines curation, preprocessing and meta-analysis of DNA methylation and RNA-seq data from the
+  Genomic Data Commons.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.04.14.589445
+  year: 2024
+  journal: bioRxiv
+  first_author: Brown CA
+  last_author: Wren JD
+  title: 'AutoGDC: A Python Package for DNA Methylation and Transcription Meta-Analyses'
+links: {}
+added: '2026-11-21'
+evidence: autogdc integrates data curation and preprocessing with meta-analysis of GDC DNA methylation and RNA sequencing
+  datasets.

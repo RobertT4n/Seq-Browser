@@ -1,0 +1,26 @@
+name: G-NaVI
+category: wet
+summary: G-NaVI enriches viral fragments to analyze the structure and methylation of integrated viral genomes.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/gr.175240.114
+  year: 2015
+  journal: Genome Research
+  first_author: Watanabe Y
+  last_author: Itoh F
+  title: DNA methylation at hepatitis B viral integrants is associated with methylation at flanking human genomic sequences
+links: {}
+added: '2026-11-21'
+evidence: G-NaVI uses HBV sequence-based baits to enrich viral fragments and analyze methylation of integrated viral genomes.

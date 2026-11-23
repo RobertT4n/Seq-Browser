@@ -1,0 +1,24 @@
+name: DNB_SPLATseq
+category: wet
+summary: DNB_SPLATseq is a whole-genome bisulfite sequencing library preparation method optimized for DNBSEQ-Tx.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.heliyon.2023.e16571
+  year: 2023
+  journal: Heliyon
+  first_author: Cao B
+  last_author: Lin C
+  title: The performance of whole genome bisulfite sequencing on DNBSEQ-Tx platform examined by different library preparation
+    strategies
+links: {}
+added: '2026-11-21'
+evidence: DNB_SPLATseq was one of two WGBS library construction methods tested on DNBSEQ-Tx using DNA from four cell lines.

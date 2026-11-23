@@ -1,0 +1,20 @@
+name: MethylC-analyzer
+category: dry
+summary: Analyzes and visualizes post-alignment genome-wide methylation data at CG and non-CG sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s40529-022-00366-5
+  year: 2023
+  journal: Botanical Studies
+  first_author: Lu RJH
+  last_author: Chen PY
+  title: 'MethylC-analyzer: a comprehensive downstream pipeline for the analysis of genome-wide DNA methylation'
+links: {}
+added: '2026-11-21'
+evidence: MethylC-analyzer processes aligned WGBS, RRBS and EM-seq data to generate genome-wide and region-specific views
+  of methylation.

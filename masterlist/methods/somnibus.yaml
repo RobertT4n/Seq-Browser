@@ -1,0 +1,20 @@
+name: SOMNiBUS
+category: dry
+summary: SOMNiBUS models covariate effects on bisulfite sequencing methylation measurements while accounting for experimental
+  errors and cell mixtures.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1111/biom.13307
+  year: 2020
+  journal: Biometrics
+  first_author: Zhao K
+  last_author: Greenwood CM
+  title: A novel statistical method for modeling covariate effects in bisulfite sequencing derived measures of DNA methylation
+links: {}
+added: '2026-11-21'
+evidence: A hierarchical regression model estimates covariate effects that vary smoothly along genomic positions.

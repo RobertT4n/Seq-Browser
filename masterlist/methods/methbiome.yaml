@@ -1,0 +1,22 @@
+name: methbiome
+category: dry
+summary: Profiles DNA methylation in long-read microbiome data using a reference-based pipeline.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.64898/2026.03.28.714822
+  year: 2026
+  journal: bioRxiv
+  first_author: Costeira
+  last_author: J. T
+  title: 'methbiome: reference-based DNA methylation profiling of long-read metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: methbiome processes Oxford Nanopore and PacBio reads to compare DNA methylation signals in whole microbiomes.

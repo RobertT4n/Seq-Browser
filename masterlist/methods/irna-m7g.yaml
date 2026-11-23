@@ -1,0 +1,18 @@
+name: iRNA-m7G
+category: dry
+summary: Predicts human RNA m7G sites by combining sequence-based and structure-based features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.omtn.2019.08.022
+  year: 2019
+  journal: Molecular Therapy Nucleic Acids
+  first_author: Chen W
+  last_author: Lin H
+  title: 'iRNA-m7G: Identifying N7-methylguanosine Sites by Fusing Multiple Features'
+links: {}
+added: '2026-11-21'
+evidence: iRNA-m7G uses a feature fusion strategy to identify m7G sites in the human transcriptome.

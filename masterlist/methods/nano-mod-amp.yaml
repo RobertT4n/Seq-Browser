@@ -1,0 +1,23 @@
+name: Nano-Mod-Amp
+category: wet
+summary: Nano-Mod-Amp uses targeted nanopore sequencing to detect pseudouridine and investigate features governing PUS7 activity.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.xgen.2026.101332
+  year: 2026
+  journal: Cell Genomics
+  first_author: Rodell R
+  last_author: Martinez NM
+  title: PUS7 mRNA pseudouridylation is driven by RNA sequence, structure, and cell-type-specific features
+links: {}
+added: '2026-11-21'
+evidence: Nano-Mod-Amp is described as a targeted, high-throughput nanopore pseudouridine detection method.

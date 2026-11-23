@@ -1,0 +1,18 @@
+name: m6Aminer
+category: dry
+summary: Predicts mRNA m6Am sites using sequence-derived features and a CatBoost classifier.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms24097878
+  year: 2023
+  journal: International Journal of Molecular Sciences
+  first_author: Liu Z
+  last_author: Liu T
+  title: 'm6Aminer: Predicting the m6Am Sites on mRNA by Fusing Multiple Sequence-Derived Features into a CatBoost-Based Classifier'
+links: {}
+added: '2026-11-21'
+evidence: m6Aminer uses nine sequence feature-encoding schemes and selects features for a CatBoost-based classifier.

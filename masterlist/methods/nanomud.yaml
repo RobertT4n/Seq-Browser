@@ -1,0 +1,23 @@
+name: NanoMUD
+category: dry
+summary: A neural network predicts pseudouridine and N1-methylpseudouridine from nanopore direct RNA sequencing signals at
+  single-molecule resolution.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.ijbiomac.2024.132433
+  year: 2024
+  journal: International Journal of Biological Macromolecules
+  first_author: Zhang Y
+  last_author: Ying B
+  title: 'NanoMUD: Profiling of pseudouridine and N1-methylpseudouridine using Oxford Nanopore direct RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: NanoMUD feeds electrical signal features into a bidirectional LSTM and aggregates read-level predictions to estimate
+  site stoichiometry.

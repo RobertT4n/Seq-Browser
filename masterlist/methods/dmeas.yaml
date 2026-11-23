@@ -1,0 +1,21 @@
+name: DMEAS
+full_name: DNA methylation entropy analysis software
+category: dry
+summary: Quantifies methylation heterogeneity by extracting CpG patterns and calculating methylation entropy from bisulfite
+  sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt332
+  year: 2013
+  journal: Bioinformatics
+  first_author: He J
+  last_author: Xie H
+  title: 'DMEAS: DNA methylation entropy analysis software'
+links: {}
+added: '2026-11-21'
+evidence: DMEAS extracts contiguous CpG methylation patterns and calculates methylation entropy for genomic segments.

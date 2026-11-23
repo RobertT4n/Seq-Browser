@@ -1,0 +1,19 @@
+name: BS-clock
+category: dry
+summary: BS-clock predicts human age from DNA methylation measured by bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae656
+  year: 2024
+  journal: Bioinformatics
+  first_author: Hu C
+  last_author: Zheng X
+  title: BS-clock, advancing epigenetic age prediction with high-resolution DNA methylation bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: BS-clock is a human aging clock based on bisulfite sequencing data from 529 samples across four tissues.

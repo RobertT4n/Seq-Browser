@@ -1,0 +1,21 @@
+name: scDMV
+category: dry
+summary: Uses a zero-one inflated beta mixture model to detect methylation differences in single-cell bisulfite sequencing
+  data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad772
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zhou Y
+  last_author: Xu J
+  title: 'scDMV: a zero–one inflated beta mixture model for DNA methylation variability with scBS-seq data'
+links: {}
+added: '2026-11-21'
+evidence: scDMV analyzes methylation differences in single-cell bisulfite sequencing data while handling excess zeros and
+  ones.

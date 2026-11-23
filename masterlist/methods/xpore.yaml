@@ -1,0 +1,20 @@
+name: xPore
+category: dry
+summary: Computational method for identifying and quantifying differential RNA modifications from direct RNA sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41587-021-00949-w
+  year: 2021
+  journal: Nature Biotechnology
+  first_author: Pratanwanich PN
+  last_author: Göke J
+  title: Identification of differential RNA modifications from nanopore direct RNA sequencing with xPore
+  preprint_doi: 10.1101/2020.06.18.160010
+links: {}
+added: '2026-11-21'
+evidence: xPore identifies m6A sites, estimates modified RNA fractions and quantifies differences in modification rates across
+  conditions.

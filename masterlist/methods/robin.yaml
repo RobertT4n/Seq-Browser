@@ -1,0 +1,25 @@
+name: ROBIN
+category: dry
+summary: A nanopore sequencing analysis tool provides intraoperative methylome classification and subsequent tumor molecular
+  profiling.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/neuonc/noaf103
+  year: 2025
+  journal: Neuro-Oncology
+  first_author: Deacon S
+  last_author: Loose M
+  title: 'ROBIN: A unified nanopore-based assay integrating intraoperative methylome classification and next-day comprehensive
+    profiling for ultra-rapid tumor diagnosis'
+links: {}
+added: '2026-11-21'
+evidence: ROBIN uses PromethION sequencing and three methylation classifiers for intraoperative classification and comprehensive
+  molecular profiling.

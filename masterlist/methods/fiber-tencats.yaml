@@ -1,0 +1,29 @@
+name: Fiber-TEnCATS
+category: wet
+summary: Profiles haplotype-specific DNA methylation and chromatin accessibility across human L1HS loci with targeted long-read
+  sequencing.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+validated_system:
+- cell-line
+platform:
+- long-read
+reference:
+  doi: 10.64898/2026.06.26.734832
+  year: 2026
+  journal: bioRxiv
+  first_author: Pavlovic
+  last_author: A. P
+  title: Fiber-TEnCATS reveals haplotype-specific chromatin accessibility and DNA methylation at human L1HS loci
+links: {}
+added: '2026-11-21'
+evidence: The method profiles individual haplotypes for DNA methylation and chromatin accessibility across L1HS loci in a
+  healthy human cell line trio.

@@ -1,0 +1,30 @@
+name: SuBLiME
+full_name: streptavidin bisulfite ligand methylation enrichment
+category: wet
+summary: SuBLiME enriches methylated cytosines in bisulfite-treated DNA using a biotin-labeled ligand and streptavidin capture.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.4161/epi.23330
+  year: 2013
+  journal: Epigenetics
+  first_author: Ross JP
+  last_author: Molloy PL
+  title: Identification of differentially methylated regions using streptavidin bisulfite ligand methylation enrichment (SuBLiME),
+    a new method to enrich for methylated DNA prior to deep bisulfite genomic sequencing
+links: {}
+added: '2026-11-21'
+evidence: The authors enriched methylated DNA from complexity-reduced colorectal cancer cell line and normal blood leukocyte
+  genomes.

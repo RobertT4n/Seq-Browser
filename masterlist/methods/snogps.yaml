@@ -1,0 +1,18 @@
+name: snoGPS
+category: dry
+summary: A computational program screens genomic sequences for H/ACA guide snoRNA genes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkh768
+  year: 2004
+  journal: Nucleic Acids Research
+  first_author: Schattner P
+  last_author: Schattner P
+  title: 'Genome-wide searching for pseudouridylation guide snoRNAs: analysis of the Saccharomyces cerevisiae genome'
+links: {}
+added: '2026-11-21'
+evidence: snoGPS combines deterministic screening with a probabilistic model to score H/ACA guide snoRNA gene candidates.

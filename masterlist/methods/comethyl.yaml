@@ -1,0 +1,20 @@
+name: Comethyl
+category: dry
+summary: Network analysis package that groups comethylated genomic regions and tests their associations with sample traits.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab554
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Mordaunt CE
+  last_author: LaSalle JM
+  title: 'Comethyl: a network-based methylome approach to investigate the multivariate nature of health and disease'
+links: {}
+added: '2026-11-21'
+evidence: Comethyl builds correlation networks of user-defined regions and tests comethylated modules for associations with
+  experimental metadata.

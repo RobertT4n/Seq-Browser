@@ -1,0 +1,26 @@
+name: ImprintSeq
+category: wet
+summary: A targeted methylation sequencing panel interrogates imprinted differentially methylated regions to detect imprinting
+  disturbances.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.gim.2021.10.011
+  year: 2022
+  journal: Genetics in Medicine
+  first_author: Ochoa E
+  last_author: Maher ER
+  title: ImprintSeq, a novel tool to interrogate DNA methylation at human imprinted regions and diagnose multilocus imprinting
+    disturbance
+links: {}
+added: '2026-11-21'
+evidence: A custom targeted methylation sequencing panel covered 63 imprinted differentially methylated regions and was tested
+  in healthy controls and individuals with congenital imprinting disorders.

@@ -1,0 +1,20 @@
+name: m6Acomet
+category: dry
+summary: An RNA co-methylation network associates individual m6A sites with putative biological functions.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-2840-3
+  year: 2019
+  journal: BMC Bioinformatics
+  first_author: Wu X
+  last_author: Meng J
+  title: 'm6Acomet: large-scale functional prediction of individual m6A RNA methylation sites from an RNA co-methylation network'
+links: {}
+added: '2026-11-21'
+evidence: m6Acomet annotates human m6A sites using a co-methylation network constructed from MeRIP-seq datasets across 32
+  conditions.
+rejected: Functional annotation resource built from public data, not a new method (audit 2026-11-23)

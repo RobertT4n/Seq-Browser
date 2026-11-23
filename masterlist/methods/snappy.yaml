@@ -1,0 +1,19 @@
+name: Snappy
+category: dry
+summary: Graph-based method that combines nanopore basecalling data and enrichment analysis to identify bacterial DNA methylation
+  motifs.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbaf296
+  year: 2024
+  journal: Bioinformatics Advances
+  first_author: Konanov DN
+  last_author: Ilina EN
+  title: 'Snappy: fast identification of DNA methylation motifs based on oxford nanopore reads'
+links: {}
+added: '2026-11-21'
+evidence: Snappy combines basecalling data processing with a graph-based enrichment algorithm to identify methylation motifs.

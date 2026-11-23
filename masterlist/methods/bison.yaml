@@ -1,0 +1,19 @@
+name: Bison
+category: dry
+summary: Cluster-scalable aligner for bisulfite-converted short reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-15-337
+  year: 2014
+  journal: BMC Bioinformatics
+  first_author: Ryan DP
+  last_author: Ehninger D
+  title: 'Bison: bisulfite alignment on nodes of a cluster'
+links: {}
+added: '2026-11-21'
+evidence: Bison is a bisulfite sequencing aligner that uses multiple cluster nodes and includes quality-control helper programs.

@@ -1,0 +1,21 @@
+name: Xron
+category: dry
+summary: Xron uses a neural network basecaller to detect m6A directly from nanopore RNA sequencing signals.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/gr.278960.124
+  year: 2024
+  journal: Genome Research
+  first_author: Teng H
+  last_author: Kingsford C
+  title: Detecting m6A RNA modification from nanopore sequencing using a semisupervised learning framework
+links: {}
+added: '2026-11-21'
+evidence: Xron is an end-to-end m6A-distinguishing basecaller that detects methylated bases directly from raw sequencing signals.

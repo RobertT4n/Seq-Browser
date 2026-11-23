@@ -1,0 +1,23 @@
+name: CpelNano
+category: dry
+summary: Models 5mC methylation landscapes from nanopore signals and tests for differential methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41598-021-00781-x
+  year: 2021
+  journal: Scientific Reports
+  first_author: Abante J
+  last_author: Goutsias J
+  title: Estimating DNA methylation potential energy landscapes from nanopore sequencing data
+links: {}
+added: '2026-11-21'
+evidence: CpelNano models noisy nanopore signals to estimate 5mC methylation potential energy landscapes and performs differential
+  methylation analysis.

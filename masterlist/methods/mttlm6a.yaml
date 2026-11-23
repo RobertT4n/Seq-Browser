@@ -1,0 +1,19 @@
+name: MTTLm6A
+category: dry
+summary: Uses multitask transfer learning and RNA sequence to predict base-resolution RNA modification sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3934/mbe.2024013
+  year: 2023
+  journal: Mathematical Biosciences and Engineering
+  first_author: Wang H
+  last_author: Zhang L
+  title: 'MTTLm&lt;sup&gt;6&lt;/sup&gt;A: A multi-task transfer learning approach for base-resolution mRNA m&lt;sup&gt;6&lt;/sup&gt;A
+    site prediction based on an improved transformer'
+links: {}
+added: '2026-11-21'
+evidence: MTTLm6A uses an improved transformer and transfer learning to predict base-resolution m6A sites from RNA sequence.

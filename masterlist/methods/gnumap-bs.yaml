@@ -1,0 +1,19 @@
+name: GNUMAP-bs
+category: dry
+summary: Probabilistically aligns bisulfite sequencing reads while accounting for read and mapping quality.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-337
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Hong C
+  last_author: Johnson WE
+  title: Probabilistic alignment leads to improved accuracy and read coverage for bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: GNUMAP-bs integrates uncertainty from read and mapping qualities to align bisulfite sequencing data.

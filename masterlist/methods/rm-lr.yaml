@@ -1,0 +1,18 @@
+name: Rm-LR
+category: dry
+summary: Rm-LR uses pretrained RNA language models and deep learning to predict multiple RNA modification types from RNA sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiomed.2023.107238
+  year: 2023
+  journal: Computers in Biology and Medicine
+  first_author: Liang S
+  last_author: Wei L
+  title: 'Rm-LR: A long-range-based deep learning model for predicting multiple types of RNA modifications'
+links: {}
+added: '2026-11-21'
+evidence: Rm-LR predicts ten RNA modification types using RNA sequences and two pretrained RNA language models.

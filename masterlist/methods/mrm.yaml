@@ -1,0 +1,21 @@
+name: MRM
+full_name: mixture regression model
+category: dry
+summary: Imputes methylation at unmeasured CpG sites using neighboring sites and shared local methylation patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03865-z
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Yu F
+  last_author: Shen H
+  title: A novel computational strategy for DNA methylation imputation using mixture regression model (MRM)
+links: {}
+added: '2026-11-21'
+evidence: MRM uses radial basis functions and information across neighboring CpGs, subjects and genomic regions to impute
+  methylation values.

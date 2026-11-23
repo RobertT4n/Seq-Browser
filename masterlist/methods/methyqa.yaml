@@ -1,0 +1,19 @@
+name: MethyQA
+category: dry
+summary: Pipeline for quality assessment of bisulfite-treated methylation sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-14-259
+  year: 2013
+  journal: BMC Bioinformatics
+  first_author: Sun S
+  last_author: Yu X
+  title: 'MethyQA: a pipeline for bisulfite-treated methylation sequencing quality assessment'
+links: {}
+added: '2026-11-21'
+evidence: MethyQA combines existing and custom software to assess the quality of bisulfite methylation sequencing data.

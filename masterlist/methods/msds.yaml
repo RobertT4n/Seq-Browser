@@ -1,0 +1,26 @@
+name: MSDS
+full_name: methylation-specific digital sequencing
+category: wet
+summary: MSDS uses methylation-sensitive restriction enzymes and sequencing to profile DNA methylation on a genomic scale.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.ygeno.2011.07.003
+  year: 2011
+  journal: Genomics
+  first_author: Ogoshi K
+  last_author: Matsushima K
+  title: Genome-wide profiling of DNA methylation in human cancer cells
+links: {}
+added: '2026-11-21'
+evidence: MSDS measured DNA methylation in the HT29 and HCT116 colon cancer cell lines.

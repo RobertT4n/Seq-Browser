@@ -1,0 +1,18 @@
+name: RNAEditor
+category: dry
+summary: RNAEditor detects RNA editing events and clusters them into editing islands.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbw087
+  year: 2016
+  journal: Briefings in Bioinformatics
+  first_author: John D
+  last_author: Uchida S
+  title: 'RNAEditor: easy detection of RNA editing events and the introduction of editing islands'
+links: {}
+added: '2026-11-21'
+evidence: RNAEditor detects RNA editing events and includes a clustering algorithm to find editing islands.

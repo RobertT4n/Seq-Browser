@@ -1,0 +1,20 @@
+name: SAAP-RRBS
+full_name: Streamlined Analysis and Annotation Pipeline for RRBS data
+category: dry
+summary: SAAP-RRBS processes reduced representation bisulfite sequencing reads into annotated methylation reports.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bts337
+  year: 2012
+  journal: Bioinformatics
+  first_author: Sun Z
+  last_author: Kocher JPA
+  title: 'SAAP-RRBS: streamlined analysis and annotation pipeline for reduced representation bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline integrates read quality assessment, alignment, methylation extraction, annotation, reporting and visualization.

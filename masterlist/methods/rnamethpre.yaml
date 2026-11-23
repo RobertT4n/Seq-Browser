@@ -1,0 +1,19 @@
+name: RNAMethPre
+category: dry
+summary: A web server predicts mammalian mRNA m6A sites using sequence, local structure, and position features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0162707
+  year: 2016
+  journal: PLOS ONE
+  first_author: Xiang S
+  last_author: Sun Z
+  title: 'RNAMethPre: A Web Server for the Prediction and Query of mRNA m6A Sites'
+links: {}
+added: '2026-11-21'
+evidence: RNAMethPre trains an SVM classifier on mRNA features to predict m6A sites and provides predicted transcriptome-wide
+  sites.

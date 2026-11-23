@@ -1,0 +1,21 @@
+name: Bismark
+category: dry
+summary: Maps bisulfite sequencing reads and calls methylation in CpG, CHG and CHH contexts.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr167
+  year: 2011
+  journal: Bioinformatics
+  first_author: Krueger F
+  last_author: Andrews SR
+  pmid: '21493656'
+  pmcid: PMC3102221
+  title: 'Bismark: a flexible aligner and methylation caller for Bisulfite-Seq applications'
+links: {}
+added: '2026-11-21'
+evidence: Bismark performs read mapping and methylation calling and distinguishes CpG, CHG and CHH contexts.

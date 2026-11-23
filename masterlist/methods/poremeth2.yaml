@@ -1,0 +1,22 @@
+name: PoreMeth2
+category: dry
+summary: PoreMeth2 combines epiallelic diversity and methylation frequency changes to identify differentially methylated regions
+  in nanopore data.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.10.03.616449
+  year: 2024
+  journal: bioRxiv
+  first_author: Mattei
+  last_author: A
+  title: 'PoreMeth2: decoding the evolution of methylome alterations with Nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: PoreMeth2 identifies DMRs, assesses their formation mechanisms and annotates them to genic and regulatory elements.

@@ -1,0 +1,24 @@
+name: Bacmethy
+category: dry
+summary: A bioinformatics tool characterizes bacterial DNA methylation patterns and predicts their transcriptional regulation
+  effects.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/imt2.186
+  year: 2024
+  journal: Imeta
+  first_author: Liu JH
+  last_author: Liu Y
+  pmid: '38898993'
+  pmcid: PMC11183182
+  title: 'Bacmethy: A novel and convenient tool for investigating bacterial DNA methylation pattern and their transcriptional
+    regulation effects'
+links: {}
+added: '2026-11-21'
+evidence: Bacmethy uses SMRT-seq data to classify methylation sites and identify regulatory-region methylation and potential
+  interactions.

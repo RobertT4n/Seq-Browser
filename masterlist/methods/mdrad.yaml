@@ -1,0 +1,25 @@
+name: mdRAD
+full_name: methylation-dependent restriction site-associated DNA sequencing
+category: wet
+summary: mdRAD measures genome-wide DNA methylation variation using a modified MethylRAD approach.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- invertebrate
+reference:
+  doi: 10.1111/1755-0998.13282
+  year: 2020
+  journal: Molecular Ecology Resources
+  first_author: Dixon G
+  last_author: Matz M
+  title: Benchmarking DNA methylation assays in a reef‐building coral
+links: {}
+added: '2026-11-21'
+evidence: A modified MethylRAD assay was evaluated for methylation variation across the genome in the reef-building coral
+  Acropora millepora.

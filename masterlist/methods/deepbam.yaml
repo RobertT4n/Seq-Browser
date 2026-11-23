@@ -1,0 +1,21 @@
+name: DeepBAM
+category: dry
+summary: Uses deep neural networks to detect single-molecule CpG methylation from nanopore sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae413
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Bai X
+  last_author: Xiao CL
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: DeepBAM detects CpG methylation in nanopore data and enables analysis of allele-specific methylation patterns.

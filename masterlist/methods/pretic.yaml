@@ -1,0 +1,31 @@
+name: PreTIC
+full_name: pre-tagmentation in situ conversion
+category: wet
+summary: PreTIC enables whole-methylome profiling of single cells on a commercial droplet platform.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- droplet-microfluidics
+species:
+- human
+validated_system:
+- primary-cells
+input_sample:
+- fixed-cells
+reference:
+  doi: 10.64898/2026.04.15.718726
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang
+  last_author: S.-Y
+  title: Droplet-compatible single-cell DNA methylation sequencing with PreTIC
+links: {}
+added: '2026-11-21'
+evidence: PreTIC produced over 13,000 single-cell methylomes from fixed frozen cells and resolved variation in human peripheral
+  blood mononuclear cells.
+throughput: 1e4-1e5

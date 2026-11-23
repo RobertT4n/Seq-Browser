@@ -1,0 +1,24 @@
+name: muSeq
+full_name: mutational sequencing
+category: wet
+summary: muSeq marks template molecules with random bisulfite-induced mutation patterns to support molecule counting and long-range
+  assembly.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/nar/gkx1054
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Kumar V
+  last_author: Levy D
+  title: Partial bisulfite conversion for unique template sequencing
+links: {}
+added: '2026-11-21'
+evidence: Partial bisulfite conversion gives initial templates mutation signatures that enable read clustering, copy number
+  inference, and transcript assembly.

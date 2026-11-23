@@ -1,0 +1,24 @@
+name: Nanoident
+category: dry
+summary: Nanoident uses a multiscale neural network to detect bacterial DNA methylation types and positions from nanopore
+  data.
+readouts:
+- dna-methylation
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btaf397
+  year: 2025
+  journal: Bioinformatics
+  first_author: Chen Z
+  last_author: Wang J
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale
+    neural network
+links: {}
+added: '2026-11-21'
+evidence: Nanoident detects DNA methylation types and positions using features from nanopore signals and basecalls for each
+  targeted motif.

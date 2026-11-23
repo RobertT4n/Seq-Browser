@@ -1,0 +1,19 @@
+name: SRBrowse
+category: dry
+summary: Provides a genome browser for visualizing and analyzing methylome sequencing data at single-read resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02099-9
+  year: 2020
+  journal: Genome Biology
+  first_author: Harris KD
+  last_author: Zemach A
+  title: Contiguous and stochastic CHH methylation patterns of plant DRM2 and CMT2 revealed by single-read methylome analysis
+links: {}
+added: '2026-11-21'
+evidence: SRBrowse is a genome browser optimized for visualizing and analyzing sequencing data at single-read resolution.

@@ -1,0 +1,27 @@
+name: IL-AD
+category: dry
+summary: Incremental learning and anomaly detection adapt nanopore basecallers to identify nucleotide modifications at individual
+  molecules.
+readouts:
+- rna-modification
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-51639-5
+  year: 2024
+  journal: Nat Commun
+  first_author: Wang Z
+  last_author: Ding H
+  pmid: '39169028'
+  pmcid: PMC11339354
+  title: Adapting nanopore sequencing basecalling models for modification detection via incremental learning and anomaly detection
+  preprint_doi: 10.1101/2023.12.19.572431
+links: {}
+added: '2026-11-21'
+evidence: IL-AD uses incremental learning for basecalling and anomaly detection to determine individual nucleotide modification
+  status, including in RNA and genomic DNA.

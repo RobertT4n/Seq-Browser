@@ -1,0 +1,20 @@
+name: MethylTree
+category: dry
+summary: Reconstructs single-cell lineage histories from DNA methylation epimutations.
+readouts:
+- lineage
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02567-1
+  year: 2025
+  journal: Nature Methods
+  first_author: Chen M
+  last_author: Wang SW
+  title: High-resolution, noninvasive single-cell lineage tracing in mice and humans based on DNA methylation epimutations
+links: {}
+added: '2026-11-21'
+evidence: MethylTree reconstructed lineage histories using single-cell genome-wide DNA methylation datasets.

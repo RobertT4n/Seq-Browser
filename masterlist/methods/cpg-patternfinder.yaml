@@ -1,0 +1,20 @@
+name: CpG PatternFinder
+category: dry
+summary: Analyzes aligned bisulfite sequencing sample files to identify CpG methylation status.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.2144/000112537
+  year: 2007
+  journal: BioTechniques
+  first_author: Xu YH
+  last_author: Pitot HC
+  title: 'CpG PatternFinder: A Windows®-Based Utility Program for Easy and Rapid Identification of the CpG Methylation Status
+    of DNA'
+links: {}
+added: '2026-11-21'
+evidence: CpG PatternFinder was developed to find the methylation status of each CpG in bisulfite-treated sample sequences.

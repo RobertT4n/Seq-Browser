@@ -1,0 +1,22 @@
+name: ModiDeC
+category: dry
+summary: Uses deep learning to identify and distinguish multiple RNA modifications from direct nanopore RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/nar/gkaf673
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Alagna N
+  last_author: Gerber S
+  title: 'ModiDeC: a multi-RNA modification classifier for direct nanopore sequencing'
+links: {}
+added: '2026-11-21'
+evidence: ModiDeC distinguishes five RNA modifications using direct RNA sequencing, including in synthetic data, HEK293T cells,
+  and human blood samples.

@@ -1,0 +1,21 @@
+name: NanoNm
+category: dry
+summary: Machine learning method that identifies mRNA 2'-O-methylation sites from nanopore sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.molcel.2024.04.011
+  year: 2024
+  journal: Molecular Cell
+  first_author: Li Y
+  last_author: Chen K
+  title: 2′-O-methylation at internal sites on mRNA promotes mRNA stability
+links: {}
+added: '2026-11-21'
+evidence: NanoNm combined with nanopore sequencing identified thousands of mRNA Nm sites at single-base resolution.

@@ -1,0 +1,24 @@
+name: MultiNano
+category: dry
+summary: A multi-view deep learning framework detects and quantifies RNA m6A from nanopore direct RNA sequencing signals and
+  basecalling features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2025.08.04.668591
+  year: 2025
+  journal: bioRxiv
+  first_author: Zhang
+  last_author: L
+  title: Accurate detection and quantification of single-base m6A RNA modification using nanopore signals with multi-view
+    deep learning
+links: {}
+added: '2026-11-21'
+evidence: MultiNano integrates raw signal and basecalling features for transcriptome-wide m6A detection and modification rate
+  estimation.

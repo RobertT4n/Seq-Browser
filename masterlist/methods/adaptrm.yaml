@@ -1,0 +1,21 @@
+name: AdaptRM
+category: dry
+summary: Predicts RNA modifications across tissues, modification types and species using multitask learning from epitranscriptome
+  datasets.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad105
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Song Y
+  last_author: Meng J
+  pmid: '36932656'
+  title: Multi-task adaptive pooling enabled synergetic learning of RNA modification across tissue, type and species from
+    low-resolution epitranscriptomes
+links: {}
+added: '2026-11-21'
+evidence: AdaptRM uses adaptive pooling and multitask learning with high- and low-resolution epitranscriptome datasets.

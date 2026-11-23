@@ -1,0 +1,20 @@
+name: AStruct
+category: dry
+summary: AStruct detects allele-specific RNA secondary structure from RT-stop-based structuromic probing data.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05704-x
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Xu Q
+  last_author: Hu K
+  pmid: '38429654'
+  pmcid: PMC11264973
+  title: 'AStruct: detection of allele-specific RNA secondary structure in structuromic probing data'
+links: {}
+added: '2026-11-21'
+evidence: AStruct detects allele-specific RNA secondary structure and was evaluated on simulated and public icSHAPE datasets.

@@ -1,0 +1,21 @@
+name: BCREval
+category: dry
+summary: Quality-control method that estimates bisulfite conversion efficiency in whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-019-3334-z
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Zhou J
+  last_author: He Q
+  pmid: '32005131'
+  pmcid: PMC6995172
+  title: 'BCREval: a computational method to estimate the bisulfite conversion ratio in WGBS'
+links: {}
+added: '2026-11-21'
+evidence: BCREval estimates the unconverted rate using telomeric repetitive DNA as a native spike-in control.

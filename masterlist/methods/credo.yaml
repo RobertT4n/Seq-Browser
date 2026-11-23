@@ -1,0 +1,20 @@
+name: CREDO
+category: dry
+summary: Discovers A-to-I RNA editing by integrating matched tumor-normal DNA and RNA sequencing data.
+readouts:
+- rna-modification
+- genome-sequence
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-019-41294-y
+  year: 2019
+  journal: Scientific Reports
+  first_author: Hwang W
+  last_author: Lee Y
+  title: 'CREDO: Highly confident disease-relevant A-to-I RNA-editing discovery in breast cancer'
+links: {}
+added: '2026-11-21'
+evidence: CREDO uses statistical filtering and matched tumor-normal DNA and RNA sequencing to discover RNA editing.

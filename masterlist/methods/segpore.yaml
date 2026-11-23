@@ -1,0 +1,22 @@
+name: SegPore
+category: dry
+summary: Model that segments nanopore direct RNA sequencing signals to improve RNA modification identification.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.7554/eLife.104618.4
+  year: 2026
+  journal: eLife
+  first_author: Cheng G
+  last_author: Cheng L
+  title: Raw signal segmentation for estimating RNA modification from Nanopore direct RNA sequencing data
+  preprint_doi: 10.1101/2024.01.11.575207
+links: {}
+added: '2026-11-21'
+evidence: SegPore improves raw signal segmentation and enables m6A identification at site and single-molecule levels.

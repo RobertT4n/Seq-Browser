@@ -1,0 +1,24 @@
+name: eRREMS
+full_name: enhanced Reduced Representation Enzymatic Methylation Sequencing
+category: wet
+summary: Enzymatic reduced-representation methylation sequencing expands coverage of regulatory CpGs using two restriction
+  enzymes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.64898/2026.08.03.740891
+  year: 2026
+  journal: bioRxiv
+  first_author: Lazcano
+  last_author: I
+  title: eRREMS expands regulatory CpG coverage in reduced representation methylome sequencing
+links: {}
+added: '2026-11-21'
+evidence: eRREMS combines MspI and HaeIII digestion with enzymatic cytosine conversion to increase regulatory CpG recovery.

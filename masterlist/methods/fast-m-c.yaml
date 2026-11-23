@@ -1,0 +1,21 @@
+name: FAST(m)C
+category: dry
+summary: Estimates context-specific DNA methylation levels from small numbers of whole-genome bisulfite sequencing reads without
+  a reference genome.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1534/g3.115.025668
+  year: 2016
+  journal: G3 Genes|Genomes|Genetics
+  first_author: Bewick AJ
+  last_author: Schmitz RJ
+  title: "<i>FASTmC</i>\n                    : A Suite of Predictive Models for Nonreference-Based Estimations of DNA Methylation"
+links: {}
+added: '2026-11-21'
+evidence: FAST(m)C estimates DNA methylation levels from as few as several thousand whole-genome bisulfite sequencing reads.
+rejected: duplicate of fast-mc (same paper)

@@ -1,0 +1,24 @@
+name: Magnipore
+category: dry
+summary: A tool compares nanopore signals between related samples to identify mutations and potential differential RNA modifications.
+readouts:
+- rna-modification
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.03.17.533105
+  year: 2023
+  journal: bioRxiv
+  first_author: Spangenberg
+  last_author: M
+  title: 'Magnipore: Prediction of differential single nucleotide changes in the Oxford Nanopore Technologies sequencing signal
+    of SARS-CoV-2 samples'
+links: {}
+added: '2026-11-21'
+evidence: Magnipore finds significant nanopore signal shifts between samples and classifies them as mutations or potential
+  modifications.

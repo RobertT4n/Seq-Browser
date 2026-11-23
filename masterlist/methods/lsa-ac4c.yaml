@@ -1,0 +1,19 @@
+name: LSA-ac4C
+category: dry
+summary: A hybrid neural network combines double-layer LSTM and self-attention to predict ac4C sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ijbiomac.2023.126837
+  year: 2023
+  journal: International Journal of Biological Macromolecules
+  first_author: Lai FL
+  last_author: Gao F
+  title: 'LSA-ac4C: A hybrid neural network incorporating double-layer LSTM and self-attention mechanism for the prediction
+    of N4-acetylcytidine sites in human mRNA'
+links: {}
+added: '2026-11-21'
+evidence: LSA-ac4C combines a double-layer LSTM and self-attention mechanism for ac4C site prediction.

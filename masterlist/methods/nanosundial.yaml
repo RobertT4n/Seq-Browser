@@ -1,0 +1,24 @@
+name: nanoSundial
+category: dry
+summary: A comparative method uses nanopore current signals from native and in vitro-transcribed RNA to detect multiple RNA
+  modification types.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.crmeth.2025.101168
+  year: 2025
+  journal: Cell Reports Methods
+  first_author: Guo Z
+  last_author: Li R
+  title: Enhanced detection of RNA modifications in Escherichia coli utilizing direct RNA sequencing
+  preprint_doi: 10.1101/2025.01.16.633309
+links: {}
+added: '2026-11-21'
+evidence: nanoSundial compares raw current features from wild-type and in vitro-transcribed samples and was optimized on rRNA
+  sites and validated with tRNA modifications.

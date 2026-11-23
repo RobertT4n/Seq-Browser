@@ -1,0 +1,28 @@
+name: m7G miCLIP-seq
+full_name: m7G individual-nucleotide-resolution cross-linking and immunoprecipitation with sequencing
+category: wet
+summary: m7G miCLIP-seq maps internal mRNA m7G modifications across the transcriptome.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41422-019-0230-z
+  year: 2019
+  journal: Cell Research
+  first_author: Malbec L
+  last_author: Yang YG
+  title: Dynamic methylome of internal mRNA N7-methylguanosine and its regulatory role in translation
+links: {}
+added: '2026-11-21'
+evidence: The authors established the method to specifically detect internal mRNA m7G in human and mouse cell lines and mouse
+  tissues.

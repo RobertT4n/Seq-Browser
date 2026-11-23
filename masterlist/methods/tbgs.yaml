@@ -1,0 +1,18 @@
+name: tBGS
+full_name: tag-modified bisulfite genomic sequencing
+category: wet
+summary: tBGS uses GC-tagged primers and direct sequencing of bisulfite PCR products to evaluate DNA methylation sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: PAT:US2007054295
+links: {}
+added: '2026-11-21'
+evidence: Bisulfite-modified genomic DNA undergoes a second PCR with GC-tagged primers before direct sequencing.

@@ -1,0 +1,21 @@
+name: AIMER
+category: dry
+summary: Detects imprinting-like allelic methylated regions from DNA methylome data without relying on SNPs.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2023.12.038
+  year: 2024
+  journal: Comput Struct Biotechnol J
+  first_author: Luo Y
+  last_author: Zhao Q
+  pmid: '38274999'
+  pmcid: PMC10809074
+  title: 'AIMER: A SNP-independent software for identifying imprinting-like allelic methylated regions from DNA methylome'
+links: {}
+added: '2026-11-21'
+evidence: AIMER is a SNP-independent statistical approach for detecting imprinting-like allelic methylated regions.

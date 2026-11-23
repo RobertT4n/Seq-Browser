@@ -1,0 +1,30 @@
+name: panhandle
+category: wet
+summary: The panhandle modification enables more robust multiplex PCR of long bisulfite amplicons for targeted methylation
+  analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1186/s13148-018-0565-1
+  year: 2018
+  journal: Clinical Epigenetics
+  first_author: Kondratyev N
+  last_author: Golimbet V
+  title: Prediction of smoking by multiplex bisulfite PCR with long amplicons considering allele-specific effects on DNA methylation
+links: {}
+added: '2026-11-21'
+evidence: The modification of PacBio sequencing of long bisulfite PCR products permits more robust PCR with multiple targets.

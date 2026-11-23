@@ -1,0 +1,21 @@
+name: BSviewer
+category: dry
+summary: BSviewer visualizes bisulfite sequencing data at nucleotide resolution while preserving genotype information.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx505
+  year: 2017
+  journal: Bioinformatics
+  first_author: Sun K
+  last_author: Sun H
+  title: 'BSviewer: a genotype-preserving, nucleotide-level visualizer for bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: BSviewer visualizes nucleotide-level methylation status and retains genotype information useful for interpreting
+  allele-specific methylation.

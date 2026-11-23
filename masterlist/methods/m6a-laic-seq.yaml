@@ -1,0 +1,23 @@
+name: m6A-LAIC-seq
+full_name: m6A-level and isoform-characterization sequencing
+category: wet
+summary: Quantifies m6A-modified transcript levels and characterizes their RNA isoforms.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1038/nmeth.3898
+  year: 2016
+  journal: Nature Methods
+  first_author: Molinie B
+  last_author: Giallourakis CC
+  title: m6A-LAIC-seq reveals the census and complexity of the m6A epitranscriptome
+links: {}
+added: '2026-11-21'
+evidence: m6A-LAIC-seq measures the fraction of transcript copies modified by m6A and characterizes methylated and nonmethylated
+  isoforms.

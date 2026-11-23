@@ -1,0 +1,19 @@
+name: CpGtools
+category: dry
+summary: CpGtools analyzes, annotates and visualizes DNA methylation data from bisulfite sequencing and methylation arrays.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz916
+  year: 2019
+  journal: Bioinformatics
+  first_author: Wei T
+  last_author: Wang L
+  title: 'CpGtools: a python package for DNA methylation analysis'
+links: {}
+added: '2026-11-21'
+evidence: CpGtools includes modules for CpG positions, methylation signals and differential CpG analysis.

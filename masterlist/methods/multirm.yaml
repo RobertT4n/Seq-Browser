@@ -1,0 +1,20 @@
+name: MultiRM
+category: dry
+summary: An attention-based multi-label model predicts and interprets twelve RNA modification types from RNA sequences.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-021-24313-3
+  year: 2021
+  journal: Nature Communications
+  first_author: Song Z
+  last_author: Meng J
+  title: Attention-based multi-label neural networks for integrated prediction and interpretation of twelve widely occurring
+    RNA modifications
+links: {}
+added: '2026-11-21'
+evidence: MultiRM predicts putative sites of twelve RNA modifications and identifies sequence contents contributing to positive
+  predictions.

@@ -1,0 +1,19 @@
+name: NanoFM
+category: dry
+summary: Deep learning method that predicts RNA m6A modifications from nanopore signals and RNA structural model embeddings.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ijbiomac.2026.152629
+  year: 2026
+  journal: International Journal of Biological Macromolecules
+  first_author: Zhang J
+  last_author: Yan Z
+  title: Achieving precise m6A RNA modification prediction from nanopore signals through integration with pre-trained foundation
+    model
+links: {}
+added: '2026-11-21'
+evidence: NanoFM fuses foundation model embeddings with raw nanopore signal features for transcriptome-wide methylation prediction.

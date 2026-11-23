@@ -1,0 +1,22 @@
+name: MHMM
+full_name: Methylation Hidden Markov Model
+category: dry
+summary: A hidden Markov model estimates historical germline CpG methylation signatures from population genetic variation.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.03.24.534151
+  year: 2023
+  journal: bioRxiv
+  first_author: Si
+  last_author: S
+  title: Inferring CpG methylation signatures accumulated along human history from genetic variation catalogs
+links: {}
+added: '2026-11-21'
+evidence: MHMM jointly uses allele frequencies of neighboring CpGs and methylation-associated C-to-T mutation rates to infer
+  historical methylation.

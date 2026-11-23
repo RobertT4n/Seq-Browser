@@ -1,0 +1,21 @@
+name: Methyl-IT
+category: dry
+summary: A methylome analysis method uses information thermodynamics and signal detection to distinguish regulatory methylation
+  changes from background variation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms20215343
+  year: 2019
+  journal: International Journal of Molecular Sciences
+  first_author: Sanchez R
+  last_author: Mackenzie SA
+  title: Discrimination of DNA Methylation Signal from Background Variation for Clinical Diagnostics
+  preprint_doi: 10.1101/252106
+links: {}
+added: '2026-11-21'
+evidence: Methyl-IT uses a signal detection step and Hellinger divergence to discriminate methylation signal between groups.

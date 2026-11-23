@@ -1,0 +1,20 @@
+name: scBS-map
+category: dry
+summary: Performs quality control and local alignment of single-cell bisulfite reads while identifying chimeric molecules
+  and removing microhomology regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz125
+  year: 2019
+  journal: Bioinformatics
+  first_author: Wu P
+  last_author: Zhu P
+  title: Using local alignment to enhance single-cell bisulfite sequencing data efficiency
+links: {}
+added: '2026-11-21'
+evidence: scBS-map performs quality control, local alignment, chimeric molecule determination and microhomology-region removal.

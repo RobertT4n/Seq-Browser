@@ -1,0 +1,21 @@
+name: EpiClass
+category: dry
+summary: Uses methylation density distributions to select thresholds for binary sample classification and evaluate methylation
+  biomarkers.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13148-020-00939-w
+  year: 2020
+  journal: Clinical Epigenetics
+  first_author: Miller BF
+  last_author: Elnitski L
+  title: Leveraging locus-specific epigenetic heterogeneity to improve the performance of blood-based DNA methylation biomarkers
+links: {}
+added: '2026-11-21'
+evidence: EpiClass uses single-molecule methylation density distributions to identify sample-classification thresholds and
+  assess biomarkers.

@@ -1,0 +1,24 @@
+name: XmaI-RRBS
+full_name: XmaI-reduced representation bisulfite sequencing
+category: wet
+summary: XmaI-based reduced representation bisulfite sequencing profiles DNA methylation across the genome.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.2217/epi-2017-0031
+  year: 2017
+  journal: Epigenomics
+  first_author: Tanas AS
+  last_author: Strelnikov VV
+  title: Rapid and Affordable Genome-Wide Bisulfite DNA Sequencing by XmaI-Reduced Representation Bisulfite Sequencing
+links: {}
+added: '2026-11-21'
+evidence: XmaI digestion is followed by adapter ligation, bisulfite conversion, size selection, and sequencing for genome-wide
+  methylation analysis.

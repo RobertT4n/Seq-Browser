@@ -1,0 +1,20 @@
+name: PrEMeR-CG
+category: dry
+summary: A computational method infers nucleotide-resolution DNA methylation values from capture-based sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu583
+  year: 2014
+  journal: Bioinformatics
+  first_author: Frankhouser DE
+  last_author: Bundschuh R
+  title: 'PrEMeR-CG: inferring nucleotide level DNA methylation values from MethylCap-seq data'
+links: {}
+added: '2026-11-21'
+evidence: The method incorporates fragment length profiles to compute nucleotide-resolution methylation values from capture-based
+  data.

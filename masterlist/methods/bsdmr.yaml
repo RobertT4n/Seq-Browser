@@ -1,0 +1,20 @@
+name: BSDMR
+category: dry
+summary: A Bayesian hidden Markov model detects differentially methylated regions in paired bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2020.09.009
+  year: 2021
+  journal: Methods
+  first_author: Chen Y
+  last_author: Fan X
+  title: Detect differentially methylated regions using non-homogeneous hidden Markov model for bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: BSDMR models spatial correlation between CpG sites and relationships between paired normal and disease methylation
+  signals.

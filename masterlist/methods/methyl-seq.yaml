@@ -1,0 +1,27 @@
+name: Methyl-seq
+category: wet
+summary: Methyl-seq assays DNA methylation at more than 90,000 regions across the genome.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- primary-cells
+- tissue-in-vivo
+reference:
+  doi: 10.1101/gr.088773.108
+  year: 2009
+  journal: Genome Research
+  first_author: Brunner AL
+  last_author: Myers RM
+  title: Distinct DNA methylation patterns characterize differentiated human embryonic stem cells and developing human fetal
+    liver
+links: {}
+added: '2026-11-21'
+evidence: The method was applied to human embryonic stem cells, their derivatives, and human tissues.

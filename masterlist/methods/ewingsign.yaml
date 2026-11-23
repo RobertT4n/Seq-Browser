@@ -1,0 +1,20 @@
+name: EwingSign
+category: dry
+summary: A machine learning model analyzes cell-free DNA methylome and fragmentome data to detect Ewing and CIC-rearranged
+  sarcomas.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.04.25.25325254
+  year: 2025
+  journal: medRxiv
+  first_author: Richardson
+  last_author: F
+  title: Cell-free DNA methylome and fragmentome analysis for disease relapse monitoring in patients with Ewing Sarcoma
+links: {}
+added: '2026-11-21'
+evidence: EwingSign uses cfDNA methylome and fragmentome analysis to identify Ewing sarcoma or CIC-rearranged sarcoma.

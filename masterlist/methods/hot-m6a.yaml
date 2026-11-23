@@ -1,0 +1,21 @@
+name: Hot-m6A
+category: dry
+summary: Prioritizes functionally significant m6A-regulated genes and associated diseases using interaction and gene-disease
+  networks.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1006663
+  year: 2019
+  journal: PLOS Computational Biology
+  first_author: Zhang SY
+  last_author: Huang Y
+  title: Global analysis of N6-methyladenosine functions and its disease association using deep learning and network-based
+    methods
+links: {}
+added: '2026-11-21'
+evidence: Hot-m6A uses protein-protein interaction and gene-disease heterogeneous networks to prioritize m6A genes and associated
+  diseases.

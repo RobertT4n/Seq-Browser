@@ -1,0 +1,26 @@
+name: MiGS
+full_name: MBD-isolated Genome Sequencing
+category: wet
+summary: Enriches methylated DNA with the MBD2 methyl-CpG binding domain for genome-scale sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkp992
+  year: 2009
+  journal: Nucleic Acids Research
+  first_author: Serre D
+  last_author: Ting AH
+  title: MBD-isolated Genome Sequencing provides a high-throughput and comprehensive survey of DNA methylation in the human
+    genome
+links: {}
+added: '2026-11-21'
+evidence: MiGS combines precipitation of methylated DNA by recombinant MBD2 methyl-CpG binding domain with massively parallel
+  sequencing.

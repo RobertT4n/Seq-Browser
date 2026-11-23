@@ -1,0 +1,22 @@
+name: ModkitOpt
+category: dry
+summary: ModkitOpt optimizes modkit filtering thresholds and stoichiometry cutoffs for nanopore RNA modification site calling.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2025.12.19.695383
+  year: 2025
+  journal: bioRxiv
+  first_author: Sneddon
+  last_author: E
+  title: 'ModkitOpt: Systematic optimisation of modkit parameters for accurate nanopore-based RNA modification detection'
+links: {}
+added: '2026-11-21'
+evidence: ModkitOpt uses orthogonally validated modification sites to optimize parameters and reports settings for m6A and
+  pseudouridine.

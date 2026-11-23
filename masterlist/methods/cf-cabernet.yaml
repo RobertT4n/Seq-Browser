@@ -1,0 +1,22 @@
+name: cf-Cabernet
+category: wet
+summary: cf-Cabernet repairs DNA nicks before end repair to preserve methylation information in cell-free DNA sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.64898/2026.07.14.738208
+  year: 2026
+  journal: bioRxiv
+  first_author: Yuan
+  last_author: Y
+  title: 'cf-Cabernet: Nick Repair Prior to End Repair Preserves Endogenous DNA Methylation Information in Cell-Free DNA Methylation
+    Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: cf-Cabernet adds Taq DNA ligase-mediated nick repair before end repair to an enzymatic methylation sequencing workflow.

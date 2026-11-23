@@ -1,0 +1,23 @@
+name: BELIVE
+full_name: beta value-based linear support vector
+category: dry
+summary: Predicts the primary site of metastatic cancer from reduced representation bisulfite sequencing methylation profiles.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-41015-0
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhang S
+  last_author: Gu H
+  pmid: '37709764'
+  pmcid: PMC10502058
+  title: DNA methylation profiling to determine the primary sites of metastatic cancers using formalin-fixed paraffin-embedded
+    tissues
+links: {}
+added: '2026-11-21'
+evidence: BELIVE was the best-performing evaluated classifier for identifying primary cancer sites from RRBS methylation data.

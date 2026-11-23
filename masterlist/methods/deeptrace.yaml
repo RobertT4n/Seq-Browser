@@ -1,0 +1,21 @@
+name: DeepTrace
+category: dry
+summary: DeepTrace uses a pretrained neural network to identify hepatocellular carcinoma-derived reads in methylation sequencing
+  data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-023-01238-8
+  year: 2023
+  journal: Genome Medicine
+  first_author: Deng Z
+  last_author: Wang K
+  title: Early detection of hepatocellular carcinoma via no end-repair enzymatic methylation sequencing of cell-free DNA and
+    pre-trained neural network
+links: {}
+added: '2026-11-21'
+evidence: DeepTrace was pretrained on NEEM-seq reads and fine-tuned to identify HCC-derived sequencing reads.

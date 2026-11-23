@@ -1,0 +1,20 @@
+name: MethTools
+category: dry
+summary: Analyzes and visualizes bisulfite sequencing methylation patterns and estimates experimental error.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/28.5.1053
+  year: 2000
+  journal: Nucleic Acids Research
+  first_author: Grunau C
+  last_author: Grunau C
+  title: MethTools--a toolbox to visualize and analyze DNA methylation data
+links: {}
+added: '2026-11-21'
+evidence: MethTools compares bisulfite-converted and untreated sequences, graphs methylation patterns and searches for conserved
+  patterns.

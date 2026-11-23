@@ -1,0 +1,29 @@
+name: sn-m6A-CT
+full_name: single-nucleus m6A-CUT&Tag
+category: wet
+summary: sn-m6A-CT jointly profiles m6A-marked RNA and the transcriptome in individual nuclei.
+readouts:
+- rna-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- droplet-microfluidics
+- reverse-transcription
+species:
+- mouse
+input_sample:
+- nuclei
+reference:
+  doi: 10.1016/j.molcel.2023.08.010
+  year: 2023
+  journal: Molecular Cell
+  first_author: Hamashima K
+  last_author: Loh YH
+  title: Single-nucleus multiomic mapping of m6A methylomes and transcriptomes in native populations of cells with sn-m6A-CT
+links: {}
+added: '2026-11-21'
+evidence: The authors adapted m6A-CUT&Tag to a droplet-based platform for simultaneous methylome and transcriptome profiling
+  in single nuclei.

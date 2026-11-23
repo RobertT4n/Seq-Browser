@@ -1,0 +1,19 @@
+name: DGA-5mC
+category: dry
+summary: Deep learning model that predicts DNA 5-methylcytosine sites in promoter regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.3934/mbe.2023428
+  year: 2023
+  journal: Mathematical Biosciences and Engineering
+  first_author: Jia J
+  last_author: Lei R
+  title: 'DGA-5mC: A 5-methylcytosine site prediction model based on an improved DenseNet and bidirectional GRU method'
+links: {}
+added: '2026-11-21'
+evidence: DGA-5mC identifies 5mC modification sites in promoter regions using an improved DenseNet and bidirectional GRU.

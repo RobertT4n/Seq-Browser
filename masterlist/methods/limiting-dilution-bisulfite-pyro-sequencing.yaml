@@ -1,0 +1,27 @@
+name: Limiting dilution bisulfite (pyro)sequencing
+category: wet
+summary: Limiting dilution of bisulfite-treated DNA and multiplex PCR measure parent-specific methylation at selected genes
+  in individual embryos.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- mouse
+reference:
+  doi: 10.4161/epi.6.10.17202
+  year: 2011
+  journal: Epigenetics
+  first_author: El Hajj N
+  last_author: Haaf T
+  title: Limiting dilution bisulfite (pyro)sequencing reveals parent-specific methylation patterns in single early mouse embryos
+    and bovine oocytes
+links: {}
+added: '2026-11-21'
+evidence: Limiting dilution of bisulfite-treated DNA was combined with independent multiplex PCRs of single target molecules
+  to measure methylation in individual mouse embryos.

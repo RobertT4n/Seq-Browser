@@ -1,0 +1,19 @@
+name: TriTower-m6Am
+category: dry
+summary: A triple-tower model combines semantic, sequential, and structural RNA representations to predict m6Am sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.08.13.744628
+  year: 2026
+  journal: bioRxiv
+  first_author: Xiong
+  last_author: J
+  title: 'TriTower-m6Am: a triple-tower heterogeneous deep learning architecture integrating semantic, sequential, and structural
+    information for N6,2-O-dimethyladenosine site prediction'
+links: {}
+added: '2026-11-21'
+evidence: TriTower-m6Am combines RNA-FM, a one-hot BiLSTM, and a relational graph convolutional network for m6Am prediction.

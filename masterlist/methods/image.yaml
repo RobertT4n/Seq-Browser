@@ -1,0 +1,21 @@
+name: IMAGE
+category: dry
+summary: Maps methylation quantitative trait loci using bisulfite sequencing counts and allele-specific methylation patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-019-1813-1
+  year: 2019
+  journal: Genome Biology
+  first_author: Fan Y
+  last_author: Zhou X
+  title: 'IMAGE: high-powered detection of genetic effects on DNA methylation using integrated methylation QTL mapping and
+    allele-specific analysis'
+links: {}
+added: '2026-11-21'
+evidence: IMAGE accounts for bisulfite sequencing counts and incorporates allele-specific methylation to improve mQTL discovery.

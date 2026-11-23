@@ -1,0 +1,20 @@
+name: DMtools
+category: dry
+summary: Processes indexed DNA methylation data for rapid access, profile computation and differential methylation analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2023.11.27.568779
+  year: 2023
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: G
+  title: DNA Methylation (DM) data format and DMtools for efficient DNA methylation data storage and analysis
+links: {}
+added: '2026-11-21'
+evidence: DMtools provides random access, gene-level methylation profiles and differential methylation analysis for compressed
+  DM files.

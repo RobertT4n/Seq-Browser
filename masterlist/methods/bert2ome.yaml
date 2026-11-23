@@ -1,0 +1,20 @@
+name: Bert2Ome
+category: dry
+summary: BERT and convolutional neural network model that predicts RNA 2'-O-methylation sites from sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2023.3237769
+  year: 2023
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Soylu NN
+  last_author: Sefer E
+  pmid: '37819796'
+  title: 'BERT2OME: Prediction of 2''-O-Methylation Modifications From RNA Sequence by Transformer Architecture Based on BERT'
+links: {}
+added: '2026-11-21'
+evidence: Bert2Ome combines a BERT-based model with convolutional neural networks to infer modification sites from RNA sequence
+  content.

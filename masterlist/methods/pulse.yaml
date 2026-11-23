@@ -1,0 +1,20 @@
+name: PULSE
+full_name: PseudoUridyLation Site Estimator
+category: dry
+summary: Uses a convolutional neural network to predict RNA pseudouridylation sites and characterize their sequence context.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.gpb.2019.11.015
+  year: 2021
+  journal: Genomics, Proteomics &amp; Bioinformatics
+  first_author: He X
+  last_author: Zeng J
+  title: Characterizing RNA Pseudouridylation by Convolutional Neural Networks
+links: {}
+added: '2026-11-21'
+evidence: PULSE learns pseudouridylation patterns from local RNA sequence information to predict transcriptome-wide pseudouridine
+  sites.

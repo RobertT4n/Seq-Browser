@@ -1,0 +1,21 @@
+name: WGBSSuite
+category: dry
+summary: A stochastic simulator generates genome-wide DNA methylation data for benchmarking differential methylation methods.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btv114
+  year: 2015
+  journal: Bioinformatics
+  first_author: Rackham OJL
+  last_author: Bottolo L
+  title: 'WGBSSuite: simulating whole-genome bisulphite sequencing data and benchmarking differential DNA methylation analysis
+    tools'
+links: {}
+added: '2026-11-21'
+evidence: WGBSSuite generates single-base resolution DNA methylation data genome-wide using parameters that can be derived
+  from real datasets.

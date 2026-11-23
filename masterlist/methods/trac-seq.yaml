@@ -1,0 +1,26 @@
+name: TRAC-seq
+full_name: tRNA reduction and cleavage sequencing
+category: wet
+summary: TRAC-seq maps the m7G tRNA methylome.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.molcel.2018.06.001
+  year: 2018
+  journal: Molecular Cell
+  first_author: Lin S
+  last_author: Gregory RI
+  title: Mettl1/Wdr4-Mediated m7G tRNA Methylome Is Required for Normal mRNA Translation and Embryonic Stem Cell Self-Renewal
+    and Differentiation
+links: {}
+added: '2026-11-21'
+evidence: TRAC-seq was developed to reveal the m7G tRNA methylome in mouse embryonic stem cells.

@@ -1,0 +1,23 @@
+name: DiffMethylTools
+category: dry
+summary: Toolbox for detecting, annotating and visualizing differential DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.26508/lsa.202603765
+  year: 2026
+  journal: Life Science Alliance
+  first_author: Derbel H
+  last_author: Liu Q
+  title: 'DiffMethylTools: a toolbox for the detection, annotation, and visualization of differential methylation'
+  preprint_doi: 10.1101/2025.07.01.662655
+links: {}
+added: '2026-11-21'
+evidence: DiffMethylTools integrates differential methylation detection, annotation and visualization and was compared on
+  six datasets including three long-read methylomes.

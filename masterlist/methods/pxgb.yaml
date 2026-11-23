@@ -1,0 +1,19 @@
+name: PXGB
+category: dry
+summary: Predicts RNA m6A sites using sequence features and particle-swarm-optimized extreme gradient boosting.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.jtbi.2019.01.035
+  year: 2019
+  journal: Journal of Theoretical Biology
+  first_author: Zhao X
+  last_author: Yin M
+  title: Identifying N6-methyladenosine sites using extreme gradient boosting system optimized by particle swarm optimizer
+links: {}
+added: '2026-11-21'
+evidence: PXGB combines sequence features with extreme gradient boosting optimized by particle swarm optimization to predict
+  m6A sites.

@@ -1,0 +1,26 @@
+name: ChIP-BA
+full_name: chromatin immunoprecipitation and bisulfite genomic sequencing analysis
+category: wet
+summary: ChIP-BA combines chromatin immunoprecipitation and bisulfite sequencing to examine methylation patterns associated
+  with protein binding at selected genomic regions.
+readouts:
+- dna-methylation
+- dna-5mc
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.2144/04374dd02
+  year: 2004
+  journal: BioTechniques
+  first_author: Matarazzo MR
+  last_author: Chiariotti L
+  title: 'In Vivo Analysis of DNA Methylation Patterns Recognized by Specific Proteins: Coupling ChIP and Bisulfite Analysis'
+links: {}
+added: '2026-11-21'
+evidence: ChIP-BA identifies methylation patterns associated with binding of a methyl-CpG binding protein at given genomic
+  regions.

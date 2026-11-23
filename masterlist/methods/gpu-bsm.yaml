@@ -1,0 +1,19 @@
+name: GPU-BSM
+category: dry
+summary: Uses graphics processors to align bisulfite-treated sequencing reads and estimate DNA methylation levels.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0097277
+  year: 2014
+  journal: PLoS ONE
+  first_author: Manconi A
+  last_author: Milanesi L
+  title: 'GPU-BSM: A GPU-Based Tool to Map Bisulfite-Treated Reads'
+links: {}
+added: '2026-11-21'
+evidence: GPU-BSM maps reads from whole-genome and reduced-representation bisulfite sequencing and estimates methylation levels.

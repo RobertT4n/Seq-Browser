@@ -1,0 +1,21 @@
+name: bicycle
+category: dry
+summary: Provides an integrated pipeline for whole-genome, targeted and hydroxymethylation bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx778
+  year: 2018
+  journal: Bioinformatics
+  first_author: Graña O
+  last_author: Glez-Peña D
+  pmid: '29211825'
+  title: 'Bicycle: a bioinformatics pipeline to analyze bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: Bicycle analyzes whole-genome bisulfite sequencing, targeted bisulfite sequencing and hydroxymethylation data.

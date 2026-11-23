@@ -1,0 +1,25 @@
+name: EpiPlex RNA modification profiling
+category: wet
+summary: A bead-based proximity barcoding assay profiles multiple RNA modifications simultaneously with relative quantification.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2024.10.09.617509
+  year: 2024
+  journal: bioRxiv
+  first_author: Sendinc
+  last_author: G
+  title: Mapping multiple RNA modifications simultaneously by proximity barcode sequencing
+links: {}
+added: '2026-11-21'
+evidence: The assay uses bead-based proximity barcoding and sequencing to detect multiple RNA modification targets and was
+  applied to HEK293T cells.

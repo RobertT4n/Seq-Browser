@@ -1,0 +1,23 @@
+name: PoreFormer
+category: dry
+summary: Uses clustered nanopore current signals and a Transformer-based model to identify diverse DNA methylation sites.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bib/bbae596
+  year: 2024
+  journal: Briefings in Bioinformatics
+  first_author: Dai Q
+  last_author: Shi ZX
+  title: Precision DNA methylation typing via hierarchical clustering of Nanopore current signals and attention-based neural
+    network
+links: {}
+added: '2026-11-21'
+evidence: PoreFormer uses current signal clustering and an attention mechanism to identify DNA methylation sites in nanopore
+  sequencing data.

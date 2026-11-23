@@ -1,0 +1,23 @@
+name: digital bisulfite genomic DNA sequencing
+category: wet
+summary: Uses digital PCR on bisulfite-converted DNA to determine single-base methylation patterns on individual DNA templates.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1093/nar/gkn455
+  year: 2008
+  journal: Nucleic Acids Research
+  first_author: Weisenberger DJ
+  last_author: Laird PW
+  title: DNA methylation analysis by digital bisulfite genomic sequencing and digital MethyLight
+links: {}
+added: '2026-11-21'
+evidence: Digital bisulfite genomic DNA sequencing determines single-basepair methylation patterns on single-molecule DNA
+  templates without interim cloning.

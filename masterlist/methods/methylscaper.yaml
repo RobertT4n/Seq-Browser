@@ -1,0 +1,25 @@
+name: methylscaper
+category: dry
+summary: A visualization framework jointly analyzes DNA methylation and chromatin accessibility in single-molecule and single-cell
+  datasets.
+readouts:
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- single-molecule
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab438
+  year: 2021
+  journal: Bioinformatics
+  first_author: Knight P
+  last_author: Bacher R
+  title: 'Methylscaper: an R/Shiny app for joint visualization of DNA methylation and nucleosome occupancy in single-molecule
+    and single-cell data'
+  preprint_doi: 10.1101/2020.11.13.382465
+links: {}
+added: '2026-11-21'
+evidence: methylscaper orders sequencing reads to reveal nucleosome positioning, transcription factor occupancy and DNA methylation
+  patterns.

@@ -1,0 +1,18 @@
+name: M6Allele
+category: dry
+summary: Hierarchical Bayesian pipeline for detecting allele-specific RNA m6A modification signals in MeRIP-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaf040
+  year: 2025
+  journal: GigaScience
+  first_author: Zhang Y
+  last_author: Luo X
+  title: 'M6Allele: a toolkit for detection of allele-specific RNA <i>N</i>6-methyladenosine modifications'
+links: {}
+added: '2026-11-21'
+evidence: M6Allele uses hierarchical Bayesian models to detect allele-specific m6A events at the peak level.

@@ -1,0 +1,18 @@
+name: RNAm5Cfinder
+category: dry
+summary: Predicts RNA 5-methylcytosine sites from sequence features using machine learning.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-018-35502-4
+  year: 2018
+  journal: Scientific Reports
+  first_author: Li J
+  last_author: Zhou Y
+  title: 'RNAm5Cfinder: A Web-server for Predicting RNA 5-methylcytosine (m5C) Sites Based on Random Forest'
+links: {}
+added: '2026-11-21'
+evidence: The web server predicts RNA m5C sites in eight mouse and human tissue or cell types using RNA sequence features.

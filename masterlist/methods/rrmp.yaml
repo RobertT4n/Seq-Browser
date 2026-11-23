@@ -1,0 +1,26 @@
+name: RRMP
+full_name: reduced representative methylome profiling
+category: wet
+summary: Enriches CG-rich DNA by restriction enzyme depletion of AT-rich sequences for reduced representation methylome profiling.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1186/s13148-024-01641-x
+  year: 2024
+  journal: Clinical Epigenetics
+  first_author: Yang Q
+  last_author: Chen H
+  title: Reduced representative methylome profiling of cell-free DNA for breast cancer detection
+links: {}
+added: '2026-11-21'
+evidence: RRMP uses a restriction enzyme to deplete AT-rich sequences and enrich CG-rich sequences for deep sequencing.

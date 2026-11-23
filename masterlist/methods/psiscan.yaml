@@ -1,0 +1,20 @@
+name: Psiscan
+category: dry
+summary: A computational tool scans trypanosome genomes for H/ACA-like non-coding RNA genes using sequence, conservation,
+  and structural constraints.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-9-471
+  year: 2008
+  journal: BMC Bioinformatics
+  first_author: Myslyuk I
+  last_author: Unger R
+  title: 'Psiscan: a computational approach to identify H/ACA-like and AGA-like non-coding RNA in trypanosomatid genomes'
+links: {}
+added: '2026-11-21'
+evidence: Psiscan scans trypanosome genomes for conserved sequences satisfying constraints derived from known H/ACA-like molecules.
+rejected: "Noncoding RNA gene finder, no fitting readout tag (MISSING_TAG), outside current taxonomy (audit 2026-11-23)"

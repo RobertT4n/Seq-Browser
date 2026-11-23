@@ -1,0 +1,19 @@
+name: IPAseek
+category: dry
+summary: Dynamic programming framework that identifies intronic polyadenylation events de novo from bulk RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281044.125
+  year: 2026
+  journal: Genome Research
+  first_author: Rashmi R
+  last_author: Singh I
+  title: Dynamics of intronic polyadenylation in the hematopoietic lineage and its regulation by DNA methylation
+links: {}
+added: '2026-11-21'
+evidence: IPAseek uses changepoint analysis to detect composite and skipped intronic polyadenylation isoforms in bulk RNA-seq
+  data.

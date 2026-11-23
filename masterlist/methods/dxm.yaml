@@ -1,0 +1,21 @@
+name: DXM
+category: dry
+summary: Deconvolves methylation profiles of major allelic subpopulations from bisulfite sequencing of heterogeneous samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab516
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Fong J
+  last_author: Edwards JR
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+  preprint_doi: 10.1101/2020.10.12.333153
+links: {}
+added: '2026-11-21'
+evidence: DXM infers allelic subpopulation methylation profiles without prior knowledge of the number of subpopulations or
+  cell types.

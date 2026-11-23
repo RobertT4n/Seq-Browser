@@ -1,0 +1,20 @@
+name: MR/MN
+category: dry
+summary: A metric compares regulatory and nonregulatory CpG hypermethylation rates to identify candidate driver genes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41588-025-02307-x
+  year: 2025
+  journal: Nature Genetics
+  first_author: Gimeno-Valiente F
+  last_author: Kanu N
+  title: DNA methylation cooperates with genomic alterations during non-small cell lung cancer evolution
+links: {}
+added: '2026-11-21'
+evidence: MR/MN classifies genes by their rates of hypermethylation at regulatory versus nonregulatory CpGs to identify recurrent
+  functional hypermethylation.

@@ -1,0 +1,23 @@
+name: IndoC
+category: dry
+summary: Detects RNA modifications in nanopore direct RNA sequencing by comparing sites with similar sequence contexts on
+  the same molecule.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1016/j.ygeno.2022.110372
+  year: 2022
+  journal: Genomics
+  first_author: Ramasamy S
+  last_author: Pandian GN
+  title: An informatics approach to distinguish RNA modifications in nanopore direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: IndoC compares trace and current signal features of potentially modified sites with similar contexts on the same
+  RNA molecule.

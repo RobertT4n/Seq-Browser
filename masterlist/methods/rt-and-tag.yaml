@@ -1,0 +1,29 @@
+name: RT&Tag
+full_name: Reverse Transcribe & Tagment
+category: wet
+summary: Profiles RNAs associated with chromatin epitopes using antibody-targeted reverse transcription and tagmentation.
+readouts:
+- rna-chromatin-interaction
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+- reverse-transcription
+species:
+- invertebrate
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41592-022-01618-9
+  year: 2022
+  journal: Nature Methods
+  first_author: Khyzha N
+  last_author: Ahmad K
+  title: Profiling RNA at chromatin targets in situ by antibody-targeted tagmentation
+  preprint_doi: 10.1101/2022.05.02.490302
+links: {}
+added: '2026-11-21'
+evidence: An antibody and protein A-Tn5 target chromatin-associated RNAs, whose RNA-cDNA hybrids are tagmented for sequencing.

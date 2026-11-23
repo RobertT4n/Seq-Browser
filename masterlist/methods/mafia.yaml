@@ -1,0 +1,22 @@
+name: mAFiA
+full_name: m6A Finding Algorithm
+category: dry
+summary: Detects m6A in individual RNA molecules and estimates site-level modification stoichiometry from direct RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-024-47661-2
+  year: 2024
+  journal: Nature Communications
+  first_author: Chan A
+  last_author: Dieterich C
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+links: {}
+added: '2026-11-21'
+evidence: mAFiA detects individual m6A nucleotides at the single-read level and measures site-level m6A stoichiometry.

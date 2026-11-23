@@ -1,0 +1,21 @@
+name: Arioc
+category: dry
+summary: GPU-accelerated short-read aligner with integrated support for bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty167
+  year: 2018
+  journal: Bioinformatics
+  first_author: Wilton R
+  last_author: Szalay AS
+  pmid: '29554207'
+  pmcid: PMC6061805
+  title: 'Arioc: GPU-accelerated alignment of short bisulfite-treated reads'
+links: {}
+added: '2026-11-21'
+evidence: Arioc integrates bisulfite sequencing alignment logic into GPU and CPU code to accelerate short-read alignment.

@@ -1,0 +1,19 @@
+name: ViewBS
+category: dry
+summary: Extracts and visualizes DNA methylome data from bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx633
+  year: 2017
+  journal: Bioinformatics
+  first_author: Huang X
+  last_author: Xie S
+  title: 'ViewBS: a powerful toolkit for visualization of high-throughput bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: ViewBS generates methylome visualizations including meta-plots, heat maps and violin-boxplots.

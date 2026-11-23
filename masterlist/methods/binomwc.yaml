@@ -1,0 +1,22 @@
+name: BinomWC
+category: dry
+summary: BinomWC calls heterozygous SNVs from bisulfite sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx595
+  year: 2018
+  journal: Bioinformatics
+  first_author: Guo W
+  last_author: Ni Z
+  pmid: '28968643'
+  pmcid: PMC6454434
+  title: CGmapTools improves the precision of heterozygous SNV calls and supports allele-specific methylation detection and
+    visualization in bisulfite-sequencing data
+links: {}
+added: '2026-11-21'
+evidence: BinomWC and BayesWC improved the precision of heterozygous SNV calls from partially converted bisulfite sequencing
+  data.

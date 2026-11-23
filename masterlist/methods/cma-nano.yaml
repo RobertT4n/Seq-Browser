@@ -1,0 +1,23 @@
+name: CMA-Nano
+category: dry
+summary: A cross-modal attention model detects DNA methylation from nanopore sequences, signal statistics and raw current
+  signals.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1021/acsomega.6c04504
+  year: 2026
+  journal: ACS Omega
+  first_author: Shi H
+  last_author: Wei L
+  title: 'CMA-Nano: A DNA Methylation Detection Method for Nanopore Sequencing Data Based on a Cross-Modal Attention Mechanism'
+links: {}
+added: '2026-11-21'
+evidence: CMA-Nano integrates DNA sequences, nanopore signal statistics and raw current signals for methylation detection.

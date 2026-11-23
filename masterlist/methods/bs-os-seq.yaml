@@ -1,0 +1,27 @@
+name: Bs-OS-seq
+full_name: bisulfite oligonucleotide-selective sequencing
+category: wet
+summary: Bs-OS-seq quantitatively profiles DNA methylation at selected loci.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1186/s13148-021-01093-7
+  year: 2021
+  journal: Clinical Epigenetics
+  first_author: Söderhäll C
+  last_author: Kere J
+  title: High-resolution targeted bisulfite sequencing reveals blood cell type-specific DNA methylation patterns in IL13 and
+    ORMDL3
+links: {}
+added: '2026-11-21'
+evidence: The authors assessed methylation at IL13 and ORMDL3 in blood samples and fractionated white blood cell types.

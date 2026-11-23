@@ -1,0 +1,19 @@
+name: nanodisco
+category: dry
+summary: Nanopore analysis method for discovering and mapping multiple types of bacterial DNA methylation.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-021-01109-3
+  year: 2021
+  journal: Nature Methods
+  first_author: Tourancheau A
+  last_author: Fang G
+  title: Discovering multiple types of DNA methylation from bacteria and microbiome using nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: nanodisco couples identification and fine mapping of three forms of methylation in a multi-label classification
+  framework.

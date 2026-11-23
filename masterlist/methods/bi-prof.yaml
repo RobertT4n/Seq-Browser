@@ -1,0 +1,27 @@
+name: Bi-PROF
+category: wet
+summary: Bi-PROF profiles methylation in targeted amplicons using bisulfite sequencing and a bioinformatics pipeline.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.4161/epi.25242
+  year: 2013
+  journal: Epigenetics
+  first_author: Gries J
+  last_author: Tierling S
+  pmid: '23803588'
+  pmcid: PMC3781196
+  title: 'Bi-PROF: bisulfite profiling of target regions using 454 GS FLX Titanium technology'
+links: {}
+added: '2026-11-21'
+evidence: Bi-PROF was illustrated on 68 epigenetic marker amplicons in patient-derived colorectal cancer xenografts and healthy
+  colon epithelium.

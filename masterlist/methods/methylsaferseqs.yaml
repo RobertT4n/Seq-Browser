@@ -1,0 +1,25 @@
+name: MethylSaferSeqS
+category: wet
+summary: MethylSaferSeqS measures methylation, mutations, and copy number alterations from the same template DNA molecules.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1101/2022.12.06.22283116
+  year: 2022
+  journal: medRxiv
+  first_author: Wang
+  last_author: B
+  title: Detection of rare mutations, copy number variation, and DNA methylation in the same template DNA molecules
+links: {}
+added: '2026-11-21'
+evidence: Original DNA strands retain 5-methylcytosine while copied strands permit genetic alterations to be read from the
+  same molecules.

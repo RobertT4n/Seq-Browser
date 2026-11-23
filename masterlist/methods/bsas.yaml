@@ -1,0 +1,25 @@
+name: BSAS
+full_name: BiSulfite Amplicon Sequencing
+category: wet
+summary: Targeted bisulfite PCR and transposome-mediated library construction quantify DNA methylation at selected genomic
+  regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+- tn5
+reference:
+  doi: 10.1186/1756-8935-6-33
+  year: 2013
+  journal: Epigenetics &amp; Chromatin
+  first_author: Masser DR
+  last_author: Freeman WM
+  title: Focused, high accuracy 5-methylcytosine quantitation with base resolution by benchtop next-generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: BSAS uses PCR enrichment of targeted regions from bisulfite-converted DNA and transposome-mediated library construction.

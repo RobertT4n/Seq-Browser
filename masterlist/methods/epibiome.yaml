@@ -1,0 +1,21 @@
+name: EpiBiome
+category: dry
+summary: Predicts DNA methylation-based biological aging measures from gut microbial composition.
+readouts:
+- microbial-composition
+- dna-methylation
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41598-026-52974-x
+  year: 2026
+  journal: Scientific Reports
+  first_author: Kunihiro BP
+  last_author: Maunakea AK
+  title: Gut microbiome signatures associate with DNA methylation-based biological aging
+links: {}
+added: '2026-11-21'
+evidence: EpiBiome models used paired 16S rRNA gene sequencing and DNA methylation data to predict epigenetic age acceleration
+  and DunedinPACE.
+rejected: Cohort association study with predictive models, not a new method (audit 2026-11-23)

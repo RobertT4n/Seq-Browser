@@ -1,0 +1,26 @@
+name: MAPit-patch
+category: wet
+summary: Targeted amplification and bisulfite sequencing jointly map chromatin accessibility and DNA methylation on individual
+  DNA molecules.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1101/gr.161737.113
+  year: 2013
+  journal: Genome Research
+  first_author: Nabilsi NH
+  last_author: Kladde MP
+  title: Multiplex mapping of chromatin accessibility and DNA methylation within targeted single molecules identifies epigenetic
+    heterogeneity in neural stem cells and glioblastoma
+links: {}
+added: '2026-11-21'
+evidence: MAPit-patch uses multiplexed amplification and bisulfite sequencing to map accessibility and methylation on targeted
+  single molecules.

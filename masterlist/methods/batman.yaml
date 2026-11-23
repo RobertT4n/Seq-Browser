@@ -1,0 +1,22 @@
+name: Batman
+full_name: Bayesian tool for methylation analysis
+category: dry
+summary: Bayesian deconvolution estimates absolute DNA methylation levels from MeDIP-chip or MeDIP-seq profiles.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/nbt1414
+  year: 2008
+  journal: Nat Biotechnol
+  first_author: Down TA
+  last_author: Beck S
+  pmid: '18612301'
+  pmcid: PMC2644410
+  title: A Bayesian deconvolution strategy for immunoprecipitation-based DNA methylome analysis
+links: {}
+added: '2026-11-21'
+evidence: Batman analyzes MeDIP profiles from arrays or sequencing to estimate absolute methylation levels.

@@ -1,0 +1,22 @@
+name: nanoDoc
+category: dry
+summary: A deep one-class classification method detects RNA post-transcriptional modifications from nanopore direct RNA sequencing
+  signals.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2020.09.13.295089
+  year: 2020
+  journal: bioRxiv
+  first_author: Ueda
+  last_author: H
+  title: 'nanoDoc: RNA modification detection using Nanopore raw reads with Deep One-Class Classification'
+links: {}
+added: '2026-11-21'
+evidence: nanoDoc analyzes current signal deviations caused by RNA modifications using a convolutional neural network.

@@ -1,0 +1,22 @@
+name: ABSP
+full_name: analysis of bisulfite sequencing PCR
+category: dry
+summary: ABSP computes and compares regional CpG methylation percentages from bisulfite sequencing PCR traces.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/btad008
+  year: 2023
+  journal: Bioinformatics
+  first_author: Denoulet M
+  last_author: Lagadec C
+  pmid: '36629453'
+  pmcid: PMC9846423
+  title: 'ABSP: an automated R tool to efficiently analyze region-specific CpG methylation from bisulfite sequencing PCR'
+links: {}
+added: '2026-11-21'
+evidence: ABSP analyzes raw sequencing trace files from direct-BSP and cloning-BSP experiments.

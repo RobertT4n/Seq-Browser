@@ -1,0 +1,20 @@
+name: RcWGBS
+category: dry
+summary: Uses a convolutional neural network to impute missing or low-coverage DNA methylation values from neighboring WGBS
+  sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011205
+  year: 2023
+  journal: PLOS Computational Biology
+  first_author: Luo X
+  last_author: Xu L
+  title: Recall DNA methylation levels at low coverage sites using a CNN model in WGBS
+links: {}
+added: '2026-11-21'
+evidence: RcWGBS predicts methylation levels at missing or low-coverage sites using methylation levels at adjacent sites.

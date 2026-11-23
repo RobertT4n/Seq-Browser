@@ -1,0 +1,21 @@
+name: diffmer
+category: dry
+summary: An optimization method detects differentially methylated regions between two sample classes using whole-genome bisulfite
+  sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7287/peerj.preprints.1287v3
+  year: 2015
+  journal: bioRxiv
+  first_author: Hesse N
+  last_author: Rahmann S
+  title: An optimization approach to detect differentially methylated regions from Whole Genome Bisulfite Sequencing data
+links: {}
+added: '2026-11-21'
+evidence: diffmer uses a Bayesian-derived optimization problem and dynamic programming to estimate methylation differences
+  between two classes.

@@ -1,0 +1,28 @@
+name: multiple restriction enzyme digestion
+category: wet
+summary: Restriction digestion removes PCR products from unconverted DNA to improve targeted bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- restriction-digest
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1007/s12575-009-9010-3
+  year: 2009
+  journal: Biological Procedures Online
+  first_author: Pappas JJ
+  last_author: Bradley WEC
+  title: A Modified Protocol for Bisulfite Genomic Sequencing of Difficult Samples
+links: {}
+added: '2026-11-21'
+evidence: A single-step multiple restriction enzyme digestion preferentially digests PCR products from unconverted DNA while
+  leaving converted products intact.

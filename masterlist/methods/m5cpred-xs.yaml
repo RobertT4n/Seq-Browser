@@ -1,0 +1,18 @@
+name: m5Cpred-XS
+category: dry
+summary: A sequence-feature model uses SHAP feature selection and XGBoost to predict RNA m5C sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.853258
+  year: 2022
+  journal: Frontiers in Genetics
+  first_author: Liu Y
+  last_author: Zhu X
+  title: 'm5Cpred-XS: A New Method for Predicting RNA m5C Sites Based on XGBoost and SHAP'
+links: {}
+added: '2026-11-21'
+evidence: m5Cpred-XS predicts m5C sites in human, mouse, and Arabidopsis using sequence-based features.

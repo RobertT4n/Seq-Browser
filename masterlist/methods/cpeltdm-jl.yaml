@@ -1,0 +1,20 @@
+name: CpelTdm.jl
+category: dry
+summary: Tests for differences in DNA methylation stochasticity between sample groups within user-specified genomic regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2020.10.17.343020
+  year: 2020
+  journal: bioRxiv
+  first_author: Abante
+  last_author: J
+  title: 'CpelTdm.jl: a Julia package for targeted differential DNA methylation analysis'
+links: {}
+added: '2026-11-21'
+evidence: CpelTdm.jl analyzes methylation patterns in user-specified regions while accounting for correlations between CpG
+  sites.

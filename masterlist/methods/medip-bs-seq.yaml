@@ -1,0 +1,28 @@
+name: MeDIP-BS-seq
+category: wet
+summary: MeDIP-BS-seq combines methylated DNA immunoprecipitation and bisulfite conversion to examine local DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- bisulfite-or-enzymatic-conversion
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.3390/ani13010117
+  year: 2022
+  journal: Animals
+  first_author: Mizoguchi BA
+  last_author: Valenzuela N
+  title: 'A Cautionary Tale of Sexing by Methylation: Hybrid Bisulfite-Conversion Sequencing of Immunoprecipitated Methylated
+    DNA in Chrysemys picta Turtles with Temperature-Dependent Sex Determination Reveals Contrasting Patterns of Somatic and
+    Gonadal Methylation, but No Unobtrusive Sex Diagnostic'
+links: {}
+added: '2026-11-21'
+evidence: The authors sequenced immunoprecipitated and bisulfite-converted DNA from painted turtle hatchling tail clips.

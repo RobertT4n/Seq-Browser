@@ -1,0 +1,22 @@
+name: BisHash
+category: dry
+summary: Bisulfite sequencing read alignment method using multi-metric locality-sensitive hashing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbaf144
+  year: 2025
+  journal: Bioinform Adv
+  first_author: Nikaein H
+  last_author: Sharifi-Zarchi A
+  pmid: '40831761'
+  pmcid: PMC12360834
+  title: 'Multi-metric locality sensitive hashing enhances alignment accuracy of bisulfite sequencing reads: BisHash'
+links: {}
+added: '2026-11-21'
+evidence: BisHash applies multi-metric locality-sensitive hashing to bisulfite sequencing and improves alignment accuracy
+  in challenging settings.

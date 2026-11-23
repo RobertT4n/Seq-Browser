@@ -1,0 +1,28 @@
+name: LCM-RRBS
+full_name: laser capture microdissection-reduced representation bisulfite sequencing
+category: wet
+summary: Profiles DNA methylation in microdissected tissue using reduced representation bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/nar/gkt230
+  year: 2013
+  journal: Nucleic Acids Research
+  first_author: Schillebeeckx M
+  last_author: Mitra RD
+  title: Laser capture microdissection–reduced representation bisulfite sequencing (LCM-RRBS) maps changes in DNA methylation
+    associated with gonadectomy-induced adrenocortical neoplasia in the mouse
+links: {}
+added: '2026-11-21'
+evidence: LCM-RRBS profiles genome-wide methylation in microdissected fresh frozen or formalin-fixed paraffin-embedded tissue.

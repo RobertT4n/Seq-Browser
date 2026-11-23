@@ -1,0 +1,18 @@
+name: TS-m6A-DL
+category: dry
+summary: Uses a deep neural network and RNA sequence features to classify m6A sites across several tissues.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2021.08.014
+  year: 2021
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Abbas Z
+  last_author: Chong KT
+  title: 'TS-m6A-DL: Tissue-specific identification of N6-methyladenosine sites using a universal deep learning model'
+links: {}
+added: '2026-11-21'
+evidence: TS-m6A-DL classifies m6A sites in several human, mouse and rat tissues using one-hot-encoded RNA sequences.

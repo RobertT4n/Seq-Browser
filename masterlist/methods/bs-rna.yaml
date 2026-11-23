@@ -1,0 +1,18 @@
+name: BS-RNA
+category: dry
+summary: Maps and annotates RNA bisulfite sequencing reads to analyze RNA cytosine methylation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2016.09.003
+  year: 2016
+  journal: Computational Biology and Chemistry
+  first_author: Liang F
+  last_author: Li R
+  title: 'BS-RNA: An efficient mapping and annotation tool for RNA bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: BS-RNA maps RNA bisulfite sequencing reads and reports methylation levels of covered cytosine sites.

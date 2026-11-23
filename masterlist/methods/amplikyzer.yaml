@@ -1,0 +1,20 @@
+name: amplikyzer
+category: dry
+summary: Analyzes locus-specific bisulfite amplicon sequencing by aligning flowgram intensities to amplicon references.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.7287/peerj.preprints.122v2
+  year: 2013
+  journal: PeerJ Preprints
+  first_author: Rahmann S
+  last_author: Buiting K
+  title: 'Amplikyzer: Automated methylation analysis of amplicons from bisulfite flowgram sequencing'
+links: {}
+added: '2026-11-21'
+evidence: amplikyzer directly aligns flowgram intensity sequences to amplicon references and handles long homopolymers in
+  bisulfite-converted reads.

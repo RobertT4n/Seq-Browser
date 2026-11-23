@@ -1,0 +1,20 @@
+name: BiQ Analyzer
+category: dry
+summary: BiQ Analyzer supports alignment, quality control, basic statistics and visualization of bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bioinformatics/bti652
+  year: 2005
+  journal: Bioinformatics
+  first_author: Bock C
+  last_author: Lengauer T
+  pmid: '16141249'
+  title: 'BiQ Analyzer: visualization and quality control for DNA methylation data from bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The tool imports and aligns sequence files, assesses data quality, performs basic statistics and produces diagrams.

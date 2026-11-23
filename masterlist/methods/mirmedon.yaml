@@ -1,0 +1,20 @@
+name: miRmedon
+category: dry
+summary: Detects A-to-I microRNA editing from small RNA sequencing data using variation information and alignment comparisons.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1101/2022.12.23.521716
+  year: 2022
+  journal: bioRxiv
+  first_author: Mordechai
+  last_author: A
+  title: Detection of A-to-I microRNA editing with miRmedon reveals widespread co-editing of mature microRNA in the human
+    brain
+links: {}
+added: '2026-11-21'
+evidence: miRmedon uses human variation data, local and global alignments, and inferred editing and error distributions to
+  detect miRNA editing.

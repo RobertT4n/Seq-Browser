@@ -1,0 +1,22 @@
+name: COHCAP
+full_name: City of Hope CpG Island Analysis Pipeline
+category: dry
+summary: An integrative pipeline identifies differentially methylated CpG islands and relates their methylation to gene expression.
+readouts:
+- dna-methylation
+- dna-5mc
+- rna
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkt242
+  year: 2013
+  journal: Nucleic Acids Research
+  first_author: Warden CD
+  last_author: Yuan YC
+  title: 'COHCAP: an integrative genomic pipeline for single-nucleotide resolution DNA methylation analysis'
+links: {}
+added: '2026-11-21'
+evidence: COHCAP analyzes methylation arrays or targeted bisulfite sequencing and integrates gene expression to identify potentially
+  regulatory CpG islands.

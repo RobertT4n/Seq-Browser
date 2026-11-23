@@ -1,0 +1,21 @@
+name: GSM-pipeline
+full_name: GENE-SWitCH pipeline
+category: dry
+summary: GSM-pipeline extends nf-core methylseq to process, visualize and summarize bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.21203/rs.3.rs-2984574/v1
+  year: 2023
+  journal: bioRxiv
+  first_author: de Vos J
+  last_author: Madsen O
+  title: 'GSM-pipeline: GENE-SWitCH pipeline for comprehensive bisulfite sequencing analysis'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline uses nf-core methylseq as a foundation and adds methylation calling, genome-wide visualization and
+  statistics.

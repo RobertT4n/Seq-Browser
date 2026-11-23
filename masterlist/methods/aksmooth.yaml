@@ -1,0 +1,22 @@
+name: AKSmooth
+full_name: Ajusted Local Kernel Smoother
+category: dry
+summary: Uses kernel smoothing to reconstruct CpG methylation estimates from low-coverage bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720014420050
+  year: 2014
+  journal: J Bioinform Comput Biol
+  first_author: Chen J
+  last_author: Helms V
+  pmid: '25553811'
+  title: 'AKSmooth: enhancing low-coverage bisulfite sequencing data via kernel-based smoothing'
+links: {}
+added: '2026-11-21'
+evidence: AKSmooth reconstructs single-CpG methylation estimates across the methylome from low-coverage bisulfite sequencing
+  data.

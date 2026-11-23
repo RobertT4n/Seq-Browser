@@ -1,0 +1,20 @@
+name: TKSM
+category: dry
+summary: A modular simulator generates transcriptomic long-read sequencing data for benchmarking analysis tools.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+reference:
+  doi: 10.1093/bioinformatics/btae051
+  year: 2024
+  journal: Bioinformatics
+  first_author: Karaoğlanoğlu F
+  last_author: Hach F
+  title: 'TKSM: highly modular, user-customizable, and scalable transcriptomic sequencing long-read simulator'
+links: {}
+added: '2026-11-21'
+evidence: TKSM combines modules representing RNA processing steps to emulate a chosen sequencing design.

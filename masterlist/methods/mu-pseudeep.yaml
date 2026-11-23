@@ -1,0 +1,19 @@
+name: MU-PseUDeep
+category: dry
+summary: Deep learning model that predicts pseudouridine sites from RNA sequence and predicted secondary structure.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.07.010
+  year: 2020
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Khan SM
+  last_author: Xu D
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+links: {}
+added: '2026-11-21'
+evidence: MU-PseUDeep inputs RNA sequence and predicted secondary structure into convolutional neural networks and was used
+  to scan the human transcriptome.

@@ -1,0 +1,20 @@
+name: BS Seeker
+full_name: whole genome bisulfite sequence MAPping program
+category: dry
+summary: Maps bisulfite sequencing reads to a reference genome using genome hashing and bitwise masking.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2105-11-203
+  year: 2010
+  journal: BMC Bioinformatics
+  first_author: Chen PY
+  last_author: Pellegrini M
+  title: 'BS Seeker: precise mapping for bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: BSMAP combines genome hashing and bitwise masking to map bisulfite reads at whole-genome level.

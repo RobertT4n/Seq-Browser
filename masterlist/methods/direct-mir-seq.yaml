@@ -1,0 +1,28 @@
+name: Direct-miR-seq
+category: wet
+summary: A nanopore direct RNA sequencing method uses adapter ligation to quantify full-length miRNAs and their modifications.
+readouts:
+- rna
+- rna-modification
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- adapter-ligation
+- long-read-sequencing
+species:
+- human
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1021/jacs.5c02808
+  year: 2025
+  journal: Journal of the American Chemical Society
+  first_author: Shi C
+  last_author: Wang P
+  title: Quantitative and Multiplexing Analysis of MicroRNAs by Direct Full-Length Sequencing in Nanopores
+links: {}
+added: '2026-11-21'
+evidence: Direct-miR-seq selectively captured approximately 100 miRNAs of known sequence and measured their abundance and
+  m6A at single-molecule resolution.

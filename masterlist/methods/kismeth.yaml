@@ -1,0 +1,19 @@
+name: Kismeth
+category: dry
+summary: Analyzes plant bisulfite sequencing data for cytosine methylation across CG, CHG and CHH contexts.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2105-9-371
+  year: 2008
+  journal: BMC Bioinformatics
+  first_author: Gruntman E
+  last_author: Sachidanandam R
+  title: 'Kismeth: Analyzer of plant methylation states through bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: Kismeth analyzes bisulfite sequencing in plants while considering cytosine methylation in multiple sequence contexts.

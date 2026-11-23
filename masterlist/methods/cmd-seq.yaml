@@ -1,0 +1,23 @@
+name: CMD-seq
+full_name: engineered DNA methyltransferase-mediated carboxymethylation deamination sequencing
+category: wet
+summary: An engineered methyltransferase and deamination enable single-nucleotide detection of 5mC at CG sites.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1039/d5sc01211b
+  year: 2025
+  journal: Chemical Science
+  first_author: Liu W
+  last_author: Yuan BF
+  title: Direct single-nucleotide resolution sequencing of DNA 5-methylcytosine using engineered DNA methyltransferase-mediated
+    CMD-seq
+links: {}
+added: '2026-11-21'
+evidence: CMD-seq uses engineered M.MedI-N377K and APOBEC3A deamination for stoichiometric detection of 5mC.

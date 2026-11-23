@@ -1,0 +1,20 @@
+name: Xengsort
+category: dry
+summary: Sorts xenograft sequencing reads by species using an alignment-free approach that supports cytosine-converted data.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.10.06.756952
+  year: 2026
+  journal: bioRxiv
+  first_author: Altendorfer
+  last_author: S
+  title: High-performance xenograft read-sorting for DNA methylation analysis
+links: {}
+added: '2026-11-21'
+evidence: The enhanced Xengsort supports cytosine-converted whole-genome and reduced-representation data for xenograft profiling.

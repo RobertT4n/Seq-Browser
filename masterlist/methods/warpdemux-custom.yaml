@@ -1,0 +1,23 @@
+name: WarpDemuX-custom
+category: dry
+summary: Provides sequence-specific demultiplexing for targeted nanopore direct RNA sequencing.
+readouts:
+- rna
+- rna-modification
+resolution:
+- single-molecule
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.10.09.757944
+  year: 2026
+  journal: bioRxiv
+  first_author: Naarmann-de Vries
+  last_author: C
+  title: WarpDemuX-custom - Multiplexed sequence-specific direct RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: An expanded WarpDemuX toolbox supports flexible sequence-specific demultiplexing alongside a targeted direct RNA
+  sequencing protocol.

@@ -1,0 +1,21 @@
+name: LuxRep
+category: dry
+summary: Probabilistic method that accounts for technical replicates and their bisulfite conversion rates when estimating
+  methylation and differential methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04546-1
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Malonzo MH
+  last_author: Lähdesmäki H
+  title: 'LuxRep: a technical replicate-aware method for bisulfite sequencing data analysis'
+links: {}
+added: '2026-11-21'
+evidence: LuxRep models technical replicate libraries with different bisulfite conversion rates to improve methylation estimates
+  and differential detection.

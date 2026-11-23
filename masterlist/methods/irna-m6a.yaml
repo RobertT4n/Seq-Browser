@@ -1,0 +1,19 @@
+name: iRNA-m6A
+category: dry
+summary: An ensemble predictor identifies RNA N6-methyladenosine sites in multiple mammalian tissues using sequence features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.04.015
+  year: 2020
+  journal: Computational and Structural Biotechnology Journal
+  first_author: Dao FY
+  last_author: Lin H
+  title: Computational identification of N6-methyladenosine sites in multiple tissues of mammals
+links: {}
+added: '2026-11-21'
+evidence: iRNA-m6A uses encoded RNA sequence features and support vector machine models to identify m6A sites in human, mouse,
+  and rat tissues.

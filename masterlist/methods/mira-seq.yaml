@@ -1,0 +1,22 @@
+name: MIRA-seq
+category: wet
+summary: MIRA-seq enriches methylated DNA with a methyl-CpG-binding protein complex for genome-scale sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.2217/epi.15.33
+  year: 2015
+  journal: Epigenomics
+  first_author: Jung M
+  last_author: Pfeifer GP
+  title: MIRA-Seq for DNA Methylation Analysis of CpG Islands
+links: {}
+added: '2026-11-21'
+evidence: MIRA-seq combines sequencing with enrichment based on the affinity of the MBD2b-MBD3L1 complex for CpG-methylated
+  DNA.

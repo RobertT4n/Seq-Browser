@@ -1,0 +1,22 @@
+name: pWGBSSimla
+full_name: profile-based whole-genome bisulfite sequencing data simulator
+category: dry
+summary: pWGBSSimla simulates bisulfite sequencing data with methylation QTLs, allele-specific methylation and differentially
+  methylated regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz635
+  year: 2019
+  journal: Bioinformatics
+  first_author: Chung RH
+  last_author: Kang CY
+  title: 'pWGBSSimla: a profile-based whole-genome bisulfite sequencing data simulator incorporating methylation QTLs, allele-specific
+    methylations and differentially methylated regions'
+links: {}
+added: '2026-11-21'
+evidence: The simulator generates WGBS, RRBS and oxidative bisulfite sequencing data based on real data.

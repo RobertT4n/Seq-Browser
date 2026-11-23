@@ -1,0 +1,27 @@
+name: DRAP3R
+full_name: Direct Read and Analysis of Polymerase III transcribed RNAs
+category: wet
+summary: DRAP3R uses modified direct RNA nanopore sequencing and analysis to profile Pol III transcripts and their RNA modifications.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-025-68230-1
+  year: 2026
+  journal: Nature Communications
+  first_author: Verstraten R
+  last_author: Depledge DP
+  title: Defining expansions and perturbations to the RNA polymerase III transcriptome and epitranscriptome by modified direct
+    RNA nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: DRAP3R captures Pol III transcripts and distinguishes RNA modifications including pseudouridine and m6A at single-nucleotide
+  resolution.

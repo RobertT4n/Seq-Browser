@@ -1,0 +1,24 @@
+name: ModQuant
+category: dry
+summary: ModQuant uses supervised models and synthetic RNA controls to quantify site-specific pseudouridine occupancy from
+  nanopore signals.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41598-024-72994-9
+  year: 2024
+  journal: Scientific Reports
+  first_author: Makhamreh A
+  last_author: Wanunu M
+  title: 'Nanopore signal deviations from pseudouridine modifications in RNA are sequence-specific: quantification requires
+    dedicated synthetic controls'
+links: {}
+added: '2026-11-21'
+evidence: Models trained using synthetic RNAs with site-specific modifications quantified pseudouridine occupancy at five
+  mRNA sites.

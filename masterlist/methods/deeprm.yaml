@@ -1,0 +1,23 @@
+name: DeepRM
+full_name: Deep learning for RNA Modification
+category: dry
+summary: Deep learning framework that detects RNA modification sites and estimates their stoichiometry from nanopore sequencing.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-025-67417-w
+  year: 2025
+  journal: Nature Communications
+  first_author: Kang G
+  last_author: Baek D
+  title: Comprehensive discovery of m6A sites in the human transcriptome at single-molecule resolution
+links: {}
+added: '2026-11-21'
+evidence: DeepRM detects RNA modification sites and stoichiometries and was used to construct a human m6A atlas at single-molecule
+  resolution.

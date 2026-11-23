@@ -1,0 +1,21 @@
+name: BoRed-seq
+full_name: Borohydride Reduction sequencing
+category: wet
+summary: BoRed-seq uses chemical reactivity to detect internal m7G modification in microRNAs.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1016/j.molcel.2019.03.040
+  year: 2019
+  journal: Molecular Cell
+  first_author: Pandolfini L
+  last_author: Kouzarides T
+  title: METTL1 Promotes let-7 MicroRNA Processing via m7G Methylation
+links: {}
+added: '2026-11-21'
+evidence: The authors adapted a chemical reactivity assay to detect internal m7G in miRNAs.

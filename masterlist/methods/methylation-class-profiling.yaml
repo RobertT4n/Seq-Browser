@@ -1,0 +1,21 @@
+name: Methylation Class profiling
+category: dry
+summary: Profiles genome-wide DNA methylation heterogeneity by grouping bisulfite sequencing molecules according to their
+  number of methylated cytosines.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.07.06.498979
+  year: 2022
+  journal: bioRxiv
+  first_author: De Riso
+  last_author: S
+  title: 'MC profiling: a novel approach to analyze DNA methylation heterogeneity in genome-wide bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: Methylation classes group DNA molecules sharing the same number of methylated cytosines in bulk bisulfite sequencing
+  data.

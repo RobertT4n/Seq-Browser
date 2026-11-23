@@ -1,0 +1,25 @@
+name: Uli-epic
+category: wet
+summary: Uli-epic enables transcriptome-wide RNA modification profiling from ultra-low RNA input.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+input_sample:
+- low-input
+reference:
+  doi: 10.1186/s13059-025-03857-3
+  year: 2025
+  journal: Genome Biology
+  first_author: He W
+  last_author: Hu L
+  title: 'Uli-epic: profiling RNA modifications from ultra-low input samples'
+links: {}
+added: '2026-11-21'
+evidence: Uli-epic enables profiling of RNA modifications with 100 pg to 1 ng of RNA and was applied to pseudouridine and
+  m6A in mouse samples.

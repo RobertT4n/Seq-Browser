@@ -1,0 +1,19 @@
+name: Methpat
+category: dry
+summary: A program summarizes and visualizes DNA methylation patterns and read counts from bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13742-015-0098-x
+  year: 2015
+  journal: Gigascience
+  first_author: Wong NC
+  last_author: Dobrovic A
+  title: Exemplary multiplex bisulfite amplicon data used to demonstrate the utility of Methpat
+links: {}
+added: '2026-11-21'
+evidence: Methpat produces tabular and visual summaries of methylation patterns and read counts for each amplicon.

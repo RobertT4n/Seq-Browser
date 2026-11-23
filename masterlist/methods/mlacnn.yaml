@@ -1,0 +1,19 @@
+name: MLACNN
+category: dry
+summary: Predicts genome-wide DNA methylation from nucleotide sequences using an attention-based deep network.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s12064-023-00402-3
+  year: 2023
+  journal: Theory in Biosciences
+  first_author: Bai J
+  last_author: Wu C
+  title: 'MLACNN: an attention mechanism-based CNN architecture for predicting genome-wide DNA methylation'
+links: {}
+added: '2026-11-21'
+evidence: MLACNN encodes DNA sequence in three ways and uses attention-based feature fusion to predict methylation.

@@ -1,0 +1,18 @@
+name: RNAElectra
+category: dry
+summary: Pretrains a nucleotide-resolution RNA foundation model for sequence-based regulatory inference.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.03.15.711950
+  year: 2026
+  journal: bioRxiv
+  first_author: Ding
+  last_author: J
+  title: 'RNAElectra: An ELECTRA-Style RNA Foundation Model for RNA Regulatory Inference'
+links: {}
+added: '2026-11-21'
+evidence: RNAElectra is pretrained on diverse noncoding RNAs using replaced-token detection for sequence-to-function fine-tuning.

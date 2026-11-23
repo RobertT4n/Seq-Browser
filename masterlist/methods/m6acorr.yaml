@@ -1,0 +1,18 @@
+name: m6Acorr
+category: dry
+summary: Corrects laboratory bias in RNA m6A profiles and supports profile comparison and functional analysis.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-3380-6
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Li J
+  last_author: Zhou Y
+  title: 'm6Acorr: an online tool for the correction and comparison of m6A methylation profiles'
+links: {}
+added: '2026-11-21'
+evidence: The pipeline uses quantile normalization and empirical Bayes batch regression to correct m6A profiles.

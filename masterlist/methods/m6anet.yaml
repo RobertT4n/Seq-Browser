@@ -1,0 +1,22 @@
+name: m6Anet
+category: dry
+summary: m6Anet uses multiple instance learning to identify and quantify RNA m6A from nanopore direct RNA sequencing.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41592-022-01666-1
+  year: 2022
+  journal: Nature Methods
+  first_author: Hendra C
+  last_author: Göke J
+  title: Detection of m6A from direct RNA sequencing using a multiple instance learning framework
+links: {}
+added: '2026-11-21'
+evidence: m6Anet handles missing read-level labels in site-level training data and captures underlying read-level modification
+  stoichiometry.

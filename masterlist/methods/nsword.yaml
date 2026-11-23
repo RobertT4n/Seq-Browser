@@ -1,0 +1,22 @@
+name: NSWord
+category: dry
+summary: Integrates transcript sequence and nanopore direct RNA sequencing signals with a transformer to predict RNA modification
+  sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.21203/rs.3.rs-4244803/v1
+  year: 2024
+  journal: bioRxiv
+  first_author: Xiong Y
+  last_author: Zhu M
+  title: RNA Modification Detection using Nanopore Direct RNA Sequencing via improved Transformer
+links: {}
+added: '2026-11-21'
+evidence: NSWord integrates transcript sequence and signal reads to produce site-level RNA modification predictions.

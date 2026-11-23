@@ -1,0 +1,23 @@
+name: MethylScan
+category: wet
+summary: MethylScan profiles cell-free DNA methylation for applications including cancer detection and disease classification.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1073/pnas.2518347123
+  year: 2026
+  journal: Proceedings of the National Academy of Sciences
+  first_author: Zeng W
+  last_author: Zhou XJ
+  title: Toward the simultaneous detection of multiple diseases with a highly cost-effective cell-free DNA methylome test
+links: {}
+added: '2026-11-21'
+evidence: MethylScan is a cost-effective cfDNA methylome sequencing approach evaluated in a cohort of 1,061 individuals.

@@ -1,0 +1,19 @@
+name: m6Aboost
+category: dry
+summary: m6Aboost uses machine learning to identify genuine m6A sites in miCLIP2 data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkab485
+  year: 2021
+  journal: Nucleic Acids Research
+  first_author: Körtel N
+  last_author: Zarnack K
+  title: Deep and accurate detection of m6A RNA modifications using miCLIP2 and m6Aboost machine learning
+  preprint_doi: 10.1101/2020.12.20.423675
+links: {}
+added: '2026-11-21'
+evidence: m6Aboost predicts m6A sites from miCLIP2 data without DRACH motif filtering or Mettl3 depletion.

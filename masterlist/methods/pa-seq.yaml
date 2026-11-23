@@ -1,0 +1,27 @@
+name: PA-Ψ-seq
+full_name: photo-crosslinking assisted Ψ sequencing
+category: wet
+summary: PA-Ψ-seq uses an antibody-based approach to map pseudouridine in cellular and viral RNAs.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+- microbe
+validated_system:
+- cell-line
+reference:
+  doi: 10.1261/rna.078940.121
+  year: 2021
+  journal: RNA
+  first_author: Martinez Campos C
+  last_author: Cullen BR
+  title: Mapping of pseudouridine residues on cellular and viral transcripts using a novel antibody-based technique
+  preprint_doi: 10.1101/2021.05.01.442255
+links: {}
+added: '2026-11-21'
+evidence: The authors used PA-Ψ-seq to map pseudouridine in cellular RNAs and HIV-1 mRNAs and genomic RNA.

@@ -1,0 +1,23 @@
+name: MeinteR
+category: dry
+summary: A computational framework prioritizes DNA methylation aberrations using cis-regulatory elements and DNA conformational
+  features.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-019-55453-8
+  year: 2019
+  journal: Scientific Reports
+  first_author: Malousi A
+  last_author: Stamatopoulos K
+  title: 'MeinteR: A framework to prioritize DNA methylation aberrations based on conformational and cis-regulatory element
+    enrichment'
+links: {}
+added: '2026-11-21'
+evidence: MeinteR incorporates features including transcription factor binding sites, tentative splice sites, G-quadruplexes,
+  and palindromes to prioritize methylation events.
+=== FILE: meinst er.yaml ===

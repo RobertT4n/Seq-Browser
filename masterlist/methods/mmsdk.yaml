@@ -1,0 +1,28 @@
+name: MMSDK
+full_name: modified methylation-specific digital karyotyping
+category: wet
+summary: MMSDK uses tandem restriction digestion and massively parallel sequencing for genome-wide DNA methylation mapping.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1186/1471-2164-10-223
+  year: 2009
+  journal: BMC Genomics
+  first_author: Li J
+  last_author: Bolund L
+  title: An improved method for genome wide DNA methylation profiling correlated to transcription and genomic instability
+    in two breast cancer cell lines
+links: {}
+added: '2026-11-21'
+evidence: Genomic DNA is digested with a methylation-sensitive mapping enzyme and a fragmenting enzyme before sequencing short
+  tags.

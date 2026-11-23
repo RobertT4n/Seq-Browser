@@ -1,0 +1,24 @@
+name: PBAT
+full_name: Post-Bisulfite Adaptor Tagging
+category: wet
+summary: Bisulfite treatment followed by random primer extension and adaptor tagging enables low-input, amplification-free
+  whole-genome methylation sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/nar/gks454
+  year: 2012
+  journal: Nucleic Acids Research
+  first_author: Miura F
+  last_author: Ito T
+  title: Amplification-free whole-genome bisulfite sequencing by post-bisulfite adaptor tagging
+links: {}
+added: '2026-11-21'
+evidence: PBAT performs bisulfite treatment before adaptor tagging and can generate unamplified reads from subnanogram DNA
+  quantities.

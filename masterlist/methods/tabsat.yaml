@@ -1,0 +1,19 @@
+name: TABSAT
+category: dry
+summary: TABSAT analyzes and visualizes targeted bisulfite sequencing data generated on Ion Torrent sequencers.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pone.0160227
+  year: 2016
+  journal: PLOS ONE
+  first_author: Pabinger S
+  last_author: Weinhaeusel A
+  title: Analysis and Visualization Tool for Targeted Amplicon Bisulfite Sequencing on Ion Torrent Sequencers
+links: {}
+added: '2026-11-21'
+evidence: The workflow assesses quality, maps reads, visualizes methylation patterns and compares profiles between samples.

@@ -1,0 +1,22 @@
+name: MethHaplo
+category: dry
+summary: Identifies methylation haplotype regions using allele-specific methylation and SNPs from whole-genome bisulfite sequencing,
+  optionally integrating Hi-C data.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03798-7
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Zhou Q
+  last_author: Li G
+  title: 'MethHaplo: combining allele-specific DNA methylation and SNPs for haplotype region identification'
+links: {}
+added: '2026-11-21'
+evidence: MethHaplo identifies methylation haplotype regions from WGBS and can integrate Hi-C data to call longer haplotypes.

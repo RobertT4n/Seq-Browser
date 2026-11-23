@@ -1,0 +1,20 @@
+name: Bycom
+category: dry
+summary: Bayesian method for calling methylcytosines from bisulfite sequencing data while accounting for heterogeneity and
+  technical errors.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1003853
+  year: 2014
+  journal: PLoS Computational Biology
+  first_author: Xie Q
+  last_author: Wu J
+  title: A Bayesian Framework to Identify Methylcytosines from High-Throughput Bisulfite Sequencing Data
+links: {}
+added: '2026-11-21'
+evidence: Bycom considers cell heterozygosis, sequencing errors and bisulfite conversion efficiency when calling methylcytosines.

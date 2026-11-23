@@ -1,0 +1,26 @@
+name: GLORI 3.0
+category: wet
+summary: GLORI 3.0 uses carrier RNA to enable absolute m6A quantification from low-input samples.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+input_sample:
+- low-input
+reference:
+  doi: 10.1038/s41592-025-02680-9
+  year: 2025
+  journal: Nature Methods
+  first_author: Sun H
+  last_author: Yi C
+  title: Mild and ultrafast GLORI enables absolute quantification of m6A methylome from low-input samples
+links: {}
+added: '2026-11-21'
+evidence: A reverse transcription-silent carrier RNA enables m6A quantification from as few as 500–1,000 cells.

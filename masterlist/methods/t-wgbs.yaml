@@ -1,0 +1,28 @@
+name: T-WGBS
+category: wet
+summary: T-WGBS uses tagmentation-based whole-genome bisulfite sequencing to profile methylation from ultra-low DNA input.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- bisulfite-or-enzymatic-conversion
+species:
+- plant
+- other-vertebrate
+input_sample:
+- low-input
+reference:
+  doi: 10.2217/epi.14.76
+  year: 2015
+  journal: Epigenomics
+  first_author: Lu H
+  last_author: Gao F
+  title: Improved tagmentation-based whole-genome bisulfite sequencing for input DNA from less than 100 mammalian cells
+links: {}
+added: '2026-11-21'
+evidence: The modified T-WGBS workflow was tested on a rice strain and rhesus monkey pre-implantation embryos using as little
+  as 0.5 ng of input DNA.

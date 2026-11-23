@@ -1,0 +1,22 @@
+name: B-SOLANA
+category: dry
+summary: Analyzes SOLiD colorspace bisulfite sequencing data by aligning reads and determining methylation levels in CpG and
+  non-CpG contexts.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr660
+  year: 2012
+  journal: Bioinformatics
+  first_author: Kreck B
+  last_author: Franke A
+  pmid: '22155865'
+  pmcid: PMC3268236
+  title: 'B-SOLANA: an approach for the analysis of two-base encoding bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: B-SOLANA aligns two-base encoding bisulfite sequences and determines methylation levels in CpG and non-CpG contexts.

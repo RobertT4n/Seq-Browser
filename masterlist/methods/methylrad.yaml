@@ -1,0 +1,25 @@
+name: MethylRAD
+category: wet
+summary: Profiles DNA methylation genome-wide by sequencing methylated DNA fragments collected with Mrr-like restriction enzymes.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- plant
+- invertebrate
+reference:
+  doi: 10.1098/rsob.150130
+  year: 2015
+  journal: Open Biology
+  first_author: Wang S
+  last_author: Bao Z
+  title: 'MethylRAD: a simple and scalable method for genome-wide DNA methylation profiling using methylation-dependent restriction
+    enzymes'
+links: {}
+added: '2026-11-21'
+evidence: MethylRAD uses Mrr-like enzymes to collect methylated DNA fragments and was validated in Arabidopsis and scallop.

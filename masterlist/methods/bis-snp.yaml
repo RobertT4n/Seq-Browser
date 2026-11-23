@@ -1,0 +1,22 @@
+name: Bis-SNP
+category: dry
+summary: Calls SNPs from bisulfite sequencing data to improve methylation estimates.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/gb-2012-13-7-r61
+  year: 2012
+  journal: Genome Biol
+  first_author: Liu Y
+  last_author: Berman BP
+  pmid: '22784381'
+  pmcid: PMC3491382
+  title: 'Bis-SNP: combined DNA methylation and SNP calling for Bisulfite-seq data'
+links: {}
+added: '2026-11-21'
+evidence: Bis-SNP is a model-based bisulfite SNP caller that improves SNP calls and methylation estimates.

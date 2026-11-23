@@ -1,0 +1,20 @@
+name: SOCS-B
+category: dry
+summary: SOCS-B aligns SOLiD bisulfite sequencing reads to a reference while tolerating conversion-induced substitutions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btq291
+  year: 2010
+  journal: Bioinformatics
+  first_author: Ondov BD
+  last_author: Bergman NH
+  title: An alignment algorithm for bisulfite sequencing using the Applied Biosystems SOLiD System
+links: {}
+added: '2026-11-21'
+evidence: SOCS-B is an ungapped reference alignment algorithm for SOLiD reads that tolerates bisulfite-induced substitutions
+  and sequencing errors.

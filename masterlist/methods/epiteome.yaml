@@ -1,0 +1,20 @@
+name: epiTEome
+category: dry
+summary: Detects transposable element insertions and their DNA methylation states from a single MethylC-seq dataset.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-017-1232-0
+  year: 2017
+  journal: Genome Biology
+  first_author: Daron J
+  last_author: Slotkin RK
+  title: 'EpiTEome: Simultaneous detection of transposable element insertion sites and their DNA methylation levels'
+links: {}
+added: '2026-11-21'
+evidence: epiTEome detects new transposable element insertion sites and their methylation states from one MethylC-seq dataset.

@@ -1,0 +1,24 @@
+name: Methyl-Micro-C
+category: wet
+summary: Methyl-Micro-C simultaneously profiles chromatin interactions, accessibility, and DNA methylation in the same sample.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- mnase
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1093/nargab/lqaf060
+  year: 2025
+  journal: NAR Genomics and Bioinformatics
+  first_author: Gonzalez-Smith L
+  last_author: Rhie SK
+  title: 'Methyl-Micro-C: simultaneous characterization of chromatin accessibility, interactions, and DNA methylation'
+links: {}
+added: '2026-11-21'
+evidence: The method combines MNase-mediated fragmentation with enzymatic conversion to profile the three epigenetic signatures.

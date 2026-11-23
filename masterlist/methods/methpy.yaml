@@ -1,0 +1,20 @@
+name: MethPy
+category: dry
+summary: Automates analysis of non-CpG methylation by comparing bisulfite-modified Sanger sequences with genomic reference
+  sequences.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1038/s41598-025-26089-8
+  year: 2025
+  journal: Scientific Reports
+  first_author: Roiati M
+  last_author: Fuso A
+  title: 'MethPy: a new software for analyzing non-CpG methylation after bisulfite assay and Sanger sequencing'
+links: {}
+added: '2026-11-21'
+evidence: MethPy compares bisulfite-modified sequences with their genomic counterparts to analyze non-CpG methylation profiles.

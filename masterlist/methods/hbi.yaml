@@ -1,0 +1,23 @@
+name: HBI
+full_name: hierarchical Bayesian interaction model
+category: dry
+summary: A hierarchical Bayesian model estimates cell-type-specific methylation quantitative trait loci using bulk and cell-type-specific
+  methylation data.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-024-03411-7
+  year: 2024
+  journal: Genome Biology
+  first_author: Cheng Y
+  last_author: Zhao H
+  title: 'HBI: a hierarchical Bayesian interaction model to estimate cell-type-specific methylation quantitative trait loci
+    incorporating priors from cell-sorted bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: HBI integrates large-scale bulk methylation data with smaller cell-type-specific methylation datasets to infer cell-type-specific
+  meQTLs.

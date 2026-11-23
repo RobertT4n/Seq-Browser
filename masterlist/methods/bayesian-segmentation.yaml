@@ -1,0 +1,22 @@
+name: Bayesian Segmentation
+category: dry
+summary: Identifies bisulfite-accessible single-stranded DNA regions using a hidden Markov model.
+readouts:
+- dna-secondary-structure
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1371/journal.pcbi.1009323
+  year: 2021
+  journal: PLoS Comput Biol
+  first_author: Yu G
+  last_author: MacCarthy T
+  pmid: '34491985'
+  pmcid: PMC8462741
+  title: A Bayesian model based computational analysis of the relationship between bisulfite accessible single-stranded DNA
+    in chromatin and somatic hypermutation of immunoglobulin genes
+links: {}
+added: '2026-11-21'
+evidence: The Bayesian Segmentation algorithm characterized single-stranded DNA regions in the IGHV4-34 gene using deep sequencing
+  data.

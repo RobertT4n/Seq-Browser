@@ -1,0 +1,22 @@
+name: ME-Class
+full_name: Methylation-based Gene Expression Classification
+category: dry
+summary: Integrative model that identifies promoter methylation patterns associated with differential gene expression.
+readouts:
+- dna-methylation
+- dna-5mc
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkx078
+  year: 2017
+  journal: Nucleic Acids Research
+  first_author: Schlosberg CE
+  last_author: Edwards JR
+  title: Modeling complex patterns of differential DNA methylation that associate with gene expression changes
+links: {}
+added: '2026-11-21'
+evidence: ME-Class uses whole-genome bisulfite sequencing and RNA-seq data to predict differential expression from promoter
+  methylation changes.

@@ -1,0 +1,23 @@
+name: BS-Seq
+category: wet
+summary: BS-Seq combines bisulfite treatment and sequencing to map DNA methylation genome-wide at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- plant
+reference:
+  doi: 10.1038/nature06745
+  year: 2008
+  journal: Nature
+  first_author: Cokus SJ
+  last_author: Jacobsen SE
+  title: Shotgun bisulphite sequencing of the Arabidopsis genome reveals DNA methylation patterning
+links: {}
+added: '2026-11-21'
+evidence: The authors combined bisulfite treatment and sequencing to map methylated cytosines across the Arabidopsis genome.

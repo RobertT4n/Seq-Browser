@@ -1,0 +1,22 @@
+name: BEAT
+full_name: BS-Seq Epimutation Analysis Toolkit
+category: dry
+summary: R package for quantitative analysis of bisulfite sequencing methylation patterns and regional epimutation events.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btu142
+  year: 2014
+  journal: Bioinformatics
+  first_author: Akman K
+  last_author: Tresch A
+  pmid: '24618468'
+  pmcid: PMC4071208
+  title: Genome-wide quantitative analysis of DNA methylation from bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: BEAT uses a binomial mixture model to aggregate methylation counts and detect regional methylation gains or losses.

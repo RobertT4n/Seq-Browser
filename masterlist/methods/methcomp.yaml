@@ -1,0 +1,19 @@
+name: METHCOMP
+category: dry
+summary: A compression scheme tailored to bedMethyl files supports random access to DNA methylation data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty143
+  year: 2018
+  journal: Bioinformatics
+  first_author: Peng J
+  last_author: Ochoa I
+  title: 'METHCOMP: a special purpose compression platform for DNA methylation data'
+links: {}
+added: '2026-11-21'
+evidence: METHCOMP compresses bedMethyl files and supports random access.

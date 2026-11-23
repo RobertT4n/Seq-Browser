@@ -1,0 +1,21 @@
+name: OBOE
+full_name: foundation-model-based prediction of 8-oxoguanine sites
+category: dry
+summary: Fine-tunes pretrained language models to predict 8-oxoguanine RNA modification sites from sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.omtn.2026.102951
+  year: 2026
+  journal: Molecular Therapy Nucleic Acids
+  first_author: Xia R
+  last_author: Song B
+  title: Sequence determinant and functional relevance of 8-oxoguanine RNA modification unveiled from foundation-model-based
+    predictor
+links: {}
+added: '2026-11-21'
+evidence: OBOE predicts 8-oxoguanine sites using fine-tuned pretrained language models and identifies associated sequence
+  motifs.

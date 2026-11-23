@@ -1,0 +1,22 @@
+name: EndoVIPER-seq
+full_name: Endonuclease V inosine precipitation enrichment sequencing
+category: wet
+summary: Enriches A-to-I edited transcripts before RNA sequencing using inosine binding by Escherichia coli Endonuclease V.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1021/jacs.9b13406
+  year: 2020
+  journal: Journal of the American Chemical Society
+  first_author: Knutson SD
+  last_author: Heemstra JM
+  title: Selective Enrichment of A-to-I Edited Transcripts from Cellular RNA Using Endonuclease V
+links: {}
+added: '2026-11-21'
+evidence: The method uses eEndoV to capture inosine-containing RNA and increases coverage and detection of identified editing
+  sites.

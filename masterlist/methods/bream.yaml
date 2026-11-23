@@ -1,0 +1,20 @@
+name: Bream
+category: dry
+summary: Deep learning framework for simultaneous nanopore basecalling and DNA methylation detection.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2026.1743148
+  year: 2026
+  journal: Frontiers in Genetics
+  first_author: Yao HC
+  last_author: Xiao CL
+  title: 'Bream: an open-source deep learning framework for simultaneous base calling and DNA methylation detection on novel
+    nanopore sequencing platforms'
+links: {}
+added: '2026-11-21'
+evidence: Bream combines neural networks for basecalling and methylation detection and was evaluated on data from three species.

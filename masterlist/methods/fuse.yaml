@@ -1,0 +1,20 @@
+name: FUSE
+category: dry
+summary: FUSE segments WGBS data into shared methylation blocks by jointly analyzing multiple samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag201
+  year: 2026
+  journal: Bioinformatics
+  first_author: Holmström S
+  last_author: Lahtinen A
+  title: 'FUSE: data-driven functional segmentation of DNA methylation data'
+links: {}
+added: '2026-11-21'
+evidence: FUSE identifies spatially homogeneous methylation blocks shared across a cohort while allowing different methylation
+  states across samples.

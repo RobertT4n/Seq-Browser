@@ -1,0 +1,21 @@
+name: hEndoV-seq
+full_name: hEndoV-mediated sequencing
+category: wet
+summary: Detects A-to-I RNA editing sites at single-base resolution using human endonuclease V cleavage.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1021/acs.analchem.2c01226
+  year: 2022
+  journal: Analytical Chemistry
+  first_author: Chen JJ
+  last_author: Feng YQ
+  title: Single-Base Resolution Detection of Adenosine-to-Inosine RNA Editing by Endonuclease-Mediated Sequencing
+links: {}
+added: '2026-11-21'
+evidence: hEndoV cleavage at inosine sites produces new RNA 3′OH termini that are identified by sequencing.

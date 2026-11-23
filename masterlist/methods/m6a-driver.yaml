@@ -1,0 +1,20 @@
+name: m6A-Driver
+category: dry
+summary: Predicts condition-specific m6A-driven genes and interaction networks by integrating differential RNA methylation
+  sites with a protein interaction network.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1005287
+  year: 2016
+  journal: PLOS Computational Biology
+  first_author: Zhang SY
+  last_author: Huang Y
+  title: 'm6A-Driver: Identifying Context-Specific mRNA m6A Methylation-Driven Gene Interaction Networks'
+links: {}
+added: '2026-11-21'
+evidence: m6A-Driver integrates predicted differential MeRIP-seq methylation sites and a protein interaction network to construct
+  context-specific m6A-driven networks.

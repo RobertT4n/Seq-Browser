@@ -1,0 +1,23 @@
+name: GeneASM
+category: dry
+summary: Identifies allele-specific DNA methylation from bisulfite sequencing and heterozygous variants without prior haplotype
+  information.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.2217/epi-2019-0023
+  year: 2019
+  journal: Epigenomics
+  first_author: Zhu J
+  last_author: Zhang Y
+  title: Development of a Method for Identifying and Functionally Analyzing Allele-Specific DNA Methylation Based on BS-Seq
+    Data
+links: {}
+added: '2026-11-21'
+evidence: GeneASM identifies allele-specific methylation using high-throughput bisulfite sequencing and heterozygous single-nucleotide
+  polymorphisms.

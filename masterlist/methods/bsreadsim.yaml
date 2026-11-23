@@ -1,0 +1,21 @@
+name: BSReadSim
+category: dry
+summary: A simulator generates bisulfite sequencing reads using reference variants, methylation profiles and sequencing error
+  models.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.12.24.627620
+  year: 2024
+  journal: bioRxiv
+  first_author: Guo
+  last_author: M
+  title: 'BSReadSim: a versatile and efficient simulator to generate realistic bisulfite sequencing reads'
+links: {}
+added: '2026-11-21'
+evidence: BSReadSim models methylation patterns, sampling biases and sequencing errors for WGBS, RRBS and targeted bisulfite
+  sequencing.

@@ -1,0 +1,20 @@
+name: Hi-Meth
+full_name: High-throughput Detection of DNA Methylation
+category: wet
+summary: Detects site-specific DNA methylation using bisulfite treatment followed by one round of PCR amplification.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.13345/j.cjb.220190
+links: {}
+added: '2026-11-21'
+evidence: Hi-Meth uses bisulfite-treated DNA and one round of PCR to analyse site-specific methylation, demonstrated at two rice promoter regions.

@@ -1,0 +1,20 @@
+name: DeepMRMP
+full_name: Multiple Types RNA Modification Sites Predictor
+category: dry
+summary: A bidirectional gated recurrent unit and transfer learning predict multiple types of RNA modification sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3934/mbe.2019310
+  year: 2019
+  journal: Mathematical Biosciences and Engineering
+  first_author: Sun P
+  last_author: China
+  title: 'DeepMRMP: A new predictor for multiple types of RNA modification sites using deep learning'
+links: {}
+added: '2026-11-21'
+evidence: DeepMRMP predicts m1A, pseudouridine, and m5C sites using RNA modification data and correlations among modification
+  types.

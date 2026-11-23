@@ -1,0 +1,18 @@
+name: Feadm5C
+category: dry
+summary: Predicts RNA m5C sites by combining molecular graph features with sequence information.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ygeno.2025.111037
+  year: 2025
+  journal: Genomics
+  first_author: Jiang D
+  last_author: Yu L
+  title: 'Feadm5C: Enhancing prediction of RNA 5-Methylcytosine modification sites with physicochemical molecular graph features'
+links: {}
+added: '2026-11-21'
+evidence: Feadm5C predicts m5C by fusing molecular graph features and sequencing information.

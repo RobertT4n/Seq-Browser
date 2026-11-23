@@ -1,0 +1,22 @@
+name: NanoFreeLunch
+category: dry
+summary: A method estimates DNA methylation from nanopore base quality values and sequencing errors without raw signals.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/gigascience/giaf113
+  year: 2025
+  journal: GigaScience
+  first_author: Feng Z
+  last_author: Feng H
+  title: Quantitative detection of DNA methylation from nanopore sequencing data without raw signals
+links: {}
+added: '2026-11-21'
+evidence: NanoFreeLunch quantitatively detects DNA methylation by modeling base quality values and sequencing error patterns.

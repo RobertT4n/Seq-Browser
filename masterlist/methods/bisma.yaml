@@ -1,0 +1,22 @@
+name: BISMA
+full_name: Bisulfite Sequencing DNA Methylation Analysis
+category: dry
+summary: Software processes and displays methylation patterns from targeted bisulfite sequencing of individual clones.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/1471-2105-11-230
+  year: 2010
+  journal: BMC Bioinformatics
+  first_author: Rohde C
+  last_author: Jeltsch A
+  pmid: '20459626'
+  pmcid: PMC2877691
+  title: BISMA--fast and accurate bisulfite sequencing data analysis of individual clones from unique and repetitive sequences
+links: {}
+added: '2026-11-21'
+evidence: BISMA performs sequencing data extraction, quality control and methylation analysis for unique and repetitive sequences.

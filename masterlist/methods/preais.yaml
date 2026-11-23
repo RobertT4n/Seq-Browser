@@ -1,0 +1,18 @@
+name: PreAIS
+category: dry
+summary: Predicts A-to-I RNA editing sites using k-mer features and deep neural and convolutional networks.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2025.108612
+  year: 2025
+  journal: Computational Biology and Chemistry
+  first_author: Fang X
+  last_author: Deng Z
+  title: 'PreAIS: Prediction of A-to-I editing sites based on DNN-CNN deep learning models'
+links: {}
+added: '2026-11-21'
+evidence: PreAIS extracts k-mer features and uses a DNN-CNN model to identify A-to-I editing sites.

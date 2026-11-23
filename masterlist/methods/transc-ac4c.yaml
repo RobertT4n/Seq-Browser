@@ -1,0 +1,18 @@
+name: TransC-ac4C
+category: dry
+summary: Predicts mRNA N4-acetylcytidine sites using combined convolutional and Transformer models.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3386972
+  year: 2024
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Liu D
+  last_author: Yu DJ
+  title: 'TransC-ac4C: Identification of N4-Acetylcytidine (ac4C) Sites in mRNA Using Deep Learning'
+links: {}
+added: '2026-11-21'
+evidence: TransC-ac4C combines CNN and Transformer models to identify ac4C sites from encoded mRNA sequences.

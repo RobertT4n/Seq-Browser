@@ -1,0 +1,28 @@
+name: scDEEP-mC
+full_name: single-cell Deep and Efficient Epigenomic Profiling of methyl-C
+category: wet
+summary: Single-cell methylation profiling yields high-coverage promoter and allele-resolved methylation calls and detects
+  copy number alterations.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-025-61589-1
+  year: 2025
+  journal: Nature Communications
+  first_author: Spix NJ
+  last_author: Laird PW
+  title: High-coverage allele-resolved single-cell DNA methylation profiling reveals cell lineage, X-inactivation state, and
+    replication dynamics
+  preprint_doi: 10.1101/2024.10.01.616139
+links: {}
+added: '2026-11-21'
+evidence: scDEEP-mC provides high-coverage promoter methylation and allele-resolved calls and profiles single-cell copy number
+  alterations.

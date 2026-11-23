@@ -1,0 +1,25 @@
+name: PP2PG
+full_name: phasing pipeline for hybrid rice based on two parental genomes
+category: dry
+summary: Phasing pipeline that supports allele-specific analysis of hybrid rice transcriptomes and DNA methylation using parental
+  genomes.
+readouts:
+- rna
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.xplc.2021.100185
+  year: 2021
+  journal: Plant Communications
+  first_author: Feng JW
+  last_author: Chen LL
+  title: Phasing analysis of the transcriptome and epigenome in a rice hybrid reveals the inheritance and difference in DNA
+    methylation and allelic transcription regulation
+links: {}
+added: '2026-11-21'
+evidence: PP2PG phases Iso-Seq, RNA-seq and bisulfite sequencing data to analyze allele-specific transcription, splicing and
+  DNA methylation.

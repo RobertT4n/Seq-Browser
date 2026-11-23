@@ -1,0 +1,20 @@
+name: Mquant
+category: dry
+summary: Quantifies methylation at individual CpG sites from bisulfite sequencing electropherograms.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkn210
+  year: 2008
+  journal: Nucleic Acids Research
+  first_author: Leakey TI
+  last_author: Cooney CA
+  title: A simple algorithm for quantifying DNA methylation levels on multiple independent CpG sites in bisulfite genomic
+    sequencing electropherograms
+links: {}
+added: '2026-11-21'
+evidence: Mquant analyzes conventional four-dye sequencing traces to quantify DNA methylation at specific CpG sites.

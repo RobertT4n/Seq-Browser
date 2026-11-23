@@ -1,0 +1,23 @@
+name: m1A-ID-seq
+category: wet
+summary: m1A-ID-seq profiles m1A across transcripts using immunoprecipitation and reverse-transcription stalling.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1038/nchembio.2040
+  year: 2016
+  journal: Nature Chemical Biology
+  first_author: Li X
+  last_author: Yi C
+  title: Transcriptome-wide mapping reveals reversible and dynamic N1-methyladenosine methylome
+links: {}
+added: '2026-11-21'
+evidence: m1A-ID-seq combines m1A immunoprecipitation with the ability of m1A to stall reverse transcription.

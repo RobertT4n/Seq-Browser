@@ -1,0 +1,20 @@
+name: EBBM
+full_name: enhanced beta-binomial distribution biclustering algorithm
+category: dry
+summary: Mines RNA m6A co-methylation patterns with a beta-binomial biclustering model and data screening.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014430
+  year: 2026
+  journal: PLOS Computational Biology
+  first_author: Liu Z
+  last_author: Xia K
+  title: A novel biclustering algorithm for mining m6A co-methylation patterns based on beta-binomial distribution and data
+    screening strategy
+links: {}
+added: '2026-11-21'
+evidence: EBBM uses Bayesian inference, Gibbs sampling and data screening to reduce the influence of low signal-to-noise data.

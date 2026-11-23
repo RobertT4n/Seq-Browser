@@ -1,0 +1,27 @@
+name: tRAM-seq
+category: wet
+summary: Combines an experimental protocol and analysis pipeline to investigate tRNA expression and modification.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/nar/gkae595
+  year: 2024
+  journal: Nucleic Acids Research
+  first_author: Rappol T
+  last_author: Vilardo E
+  title: tRNA expression and modification landscapes, and their dynamics during zebrafish embryo development
+  preprint_doi: 10.1101/2024.01.30.575011
+links: {}
+added: '2026-11-21'
+evidence: tRAM-seq was used to analyse nucleo-cytoplasmic and mitochondrial tRNA expression and modification during zebrafish
+  embryonic development.

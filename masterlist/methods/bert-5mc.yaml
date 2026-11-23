@@ -1,0 +1,21 @@
+name: BERT-5mC
+category: dry
+summary: A domain-specific BERT model predicts DNA 5-methylcytosine sites from sequence.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.16600
+  year: 2023
+  journal: PeerJ
+  first_author: Wang S
+  last_author: Zhu X
+  pmid: '38089911'
+  pmcid: PMC10712318
+  title: 'BERT-5mC: an interpretable model for predicting 5-methylcytosine sites of DNA based on BERT'
+links: {}
+added: '2026-11-21'
+evidence: A BERT model pretrained on human promoter sequences was fine-tuned on a 5mC training dataset.

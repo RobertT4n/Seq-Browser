@@ -1,0 +1,22 @@
+name: m6Am-seq
+category: wet
+summary: m6Am-seq maps m6Am and 5'-UTR m6A across the human transcriptome using selective demethylation and RNA immunoprecipitation.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+reference:
+  doi: 10.1038/s41467-021-25105-5
+  year: 2021
+  journal: Nature Communications
+  first_author: Sun H
+  last_author: Yi C
+  title: m6Am-seq reveals the dynamic m6Am methylation in the human transcriptome
+links: {}
+added: '2026-11-21'
+evidence: m6Am-seq uses selective in vitro demethylation and RNA immunoprecipitation to distinguish m6Am from 5'-UTR m6A.

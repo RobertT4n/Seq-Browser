@@ -1,0 +1,18 @@
+name: m7GRegpred
+category: dry
+summary: A bioinformatics framework predicts RNA targets of m7G methyltransferases and reader proteins.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2024.1469011
+  year: 2024
+  journal: Frontiers in Genetics
+  first_author: Zheng Y
+  last_author: Lin S
+  title: 'm7GRegpred: substrate prediction of N7-methylguanosine (m7G) writers and readers based on sequencing features'
+links: {}
+added: '2026-11-21'
+evidence: m7GRegpred forecasts targets of METTL1, WDR4, QKI5, QKI6, and QKI7.

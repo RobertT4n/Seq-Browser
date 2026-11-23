@@ -1,0 +1,22 @@
+name: INTERACT
+category: dry
+summary: A transformer model predicts brain cell type-specific DNA methylation profiles and regulatory variant effects.
+readouts:
+- dna-methylation
+- genome-sequence
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/2024.01.18.576319
+  year: 2024
+  journal: bioRxiv
+  first_author: Zhou
+  last_author: S
+  title: Deep learning predicts DNA methylation regulatory variants in specific brain cell types and enhances fine mapping
+    for brain disorders
+links: {}
+added: '2026-11-21'
+evidence: INTERACT uses human brain single-nucleus methylation data to predict cell type-specific methylation profiles and
+  regulatory variants.

@@ -1,0 +1,22 @@
+name: NOMePlot
+category: dry
+summary: Extracts locus-specific single-molecule DNA methylation and nucleosome occupancy information from genome-wide NOMe-seq
+  data.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-019-44597-2
+  year: 2019
+  journal: Scientific Reports
+  first_author: Requena F
+  last_author: Landeira D
+  title: 'NOMePlot: analysis of DNA methylation and nucleosome occupancy at the single molecule'
+links: {}
+added: '2026-11-21'
+evidence: NOMePlot obtains locus-specific single-molecule information from genome-wide NOMe-seq datasets generated from bulk
+  populations.

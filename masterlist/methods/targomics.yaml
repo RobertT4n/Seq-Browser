@@ -1,0 +1,22 @@
+name: TARGOMICs
+category: dry
+summary: Calls chromosome alterations and computes cytosine methylation proportions from targeted sequencing data.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.jmoldx.2017.06.005
+  year: 2017
+  journal: The Journal of Molecular Diagnostics
+  first_author: Garinet S
+  last_author: Assié G
+  title: Calling Chromosome Alterations, DNA Methylation Statuses, and Mutations in Tumors by Simple Targeted Next-Generation
+    Sequencing
+links: {}
+added: '2026-11-21'
+evidence: TARGOMICs combines allelic ratios and read counts to detect chromosome alterations and computes methylated cytosine
+  proportions.

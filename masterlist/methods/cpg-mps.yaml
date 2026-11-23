@@ -1,0 +1,20 @@
+name: CpG_MPs
+category: dry
+summary: Tool for identifying and comparing regional CpG methylation patterns in bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gks829
+  year: 2012
+  journal: Nucleic Acids Research
+  first_author: Su J
+  last_author: Zhang Y
+  title: 'CpG_MPs: identification of CpG methylation patterns of genomic regions from high-throughput bisulfite sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: CpG_MPs identifies methylated and unmethylated regions and compares methylation patterns across samples.

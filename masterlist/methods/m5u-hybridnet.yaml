@@ -1,0 +1,19 @@
+name: m5U-HybridNet
+category: dry
+summary: Predicts RNA 5-methyluridine sites using features from an RNA foundation model and a convolutional neural network.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jcim.5c01237
+  year: 2025
+  journal: Journal of Chemical Information and Modeling
+  first_author: Li X
+  last_author: Cui F
+  title: 'm5U-HybridNet: Integrating an RNA Foundation Model with CNN Features for Accurate Prediction of 5-Methyluridine
+    Modification Sites'
+links: {}
+added: '2026-11-21'
+evidence: m5U-HybridNet integrates RNA-FM semantic features with convolutional neural network features to identify m5U sites.

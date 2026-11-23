@@ -1,0 +1,19 @@
+name: RRBSsim
+category: dry
+summary: A simulator generates reduced representation bisulfite sequencing data for benchmarking analysis methods.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty174
+  year: 2018
+  journal: Bioinformatics
+  first_author: Sun X
+  last_author: Liu P
+  title: A comprehensive evaluation of alignment software for reduced representation bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: RRBSsim was developed for benchmarking analysis of reduced representation bisulfite sequencing data.

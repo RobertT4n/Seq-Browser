@@ -1,0 +1,22 @@
+name: Epilect
+category: dry
+summary: Assigns nanopore reads to closely related bacterial strains using strain-specific DNA methylation profiles.
+readouts:
+- dna-methylation
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.09.765334
+  year: 2026
+  journal: bioRxiv
+  first_author: Kakabra
+  last_author: M. J
+  title: DNA methylation assigns sequencing reads to closely related bacterial strains when their sequence cannot
+links: {}
+added: '2026-11-21'
+evidence: Epilect assigns single nanopore reads to strains from basecaller methylation calls and declines uncertain assignments.

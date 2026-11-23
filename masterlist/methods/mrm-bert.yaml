@@ -1,0 +1,19 @@
+name: MRM-BERT
+category: dry
+summary: Fine-tunes a language model on RNA sequences to predict multiple types of RNA modification.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2023.3283985
+  year: 2023
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Zhang Y
+  last_author: Yu DJ
+  title: Prediction of Multiple Types of RNA Modifications via Biological Language Model
+links: {}
+added: '2026-11-21'
+evidence: MRM-BERT predicts multiple RNA modifications, including pseudouridine, m6A, m5C, and m1A, using task-specific sequences
+  and BERT fine-tuning.

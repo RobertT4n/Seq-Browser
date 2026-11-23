@@ -1,0 +1,20 @@
+name: EM-MUL
+category: dry
+summary: Method that resolves ambiguously mapped bisulfite-treated reads using coverage and base-level alignment information.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04204-6
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Liu M
+  last_author: Xu Y
+  title: An effective method to resolve ambiguous bisulfite-treated reads
+links: {}
+added: '2026-11-21'
+evidence: EM-MUL uses overall coverage and base-level alignment to resolve multireads, including those without overlapping
+  uniquely mapped reads.

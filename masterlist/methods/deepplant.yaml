@@ -1,0 +1,22 @@
+name: DeepPlant
+category: dry
+summary: DeepPlant uses deep learning to detect plant DNA 5mC from nanopore sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.21203/rs.3.rs-5187157/v1
+  year: 2024
+  journal: bioRxiv
+  first_author: Xiao CL
+  last_author: Cheng L
+  title: 'DeepPlant: An Accurate Cross-Species 5mC Detection Tool for Oxford Nanopore Sequencing in Plants'
+links: {}
+added: '2026-11-21'
+evidence: DeepPlant improves CHH methylation detection and also performs well for CpG and CHG motifs across plant species.

@@ -1,0 +1,22 @@
+name: RNANO
+category: dry
+summary: Uses deep learning to predict sites and states of multiple RNA modifications from nanopore direct RNA sequencing
+  data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2025.03.01.640267
+  year: 2025
+  journal: bioRxiv
+  first_author: Wang
+  last_author: Y
+  title: Accurate prediction of multiple RNA modifications from nanopore direct RNA sequencing data with RNANO
+links: {}
+added: '2026-11-21'
+evidence: RNANO predicts RNA modification sites and states and detects seven modification types in direct RNA sequencing data.

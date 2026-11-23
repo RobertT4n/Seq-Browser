@@ -1,0 +1,21 @@
+name: MethGET
+full_name: Methylation and Gene Expression Teller
+category: dry
+summary: MethGET analyzes associations between genome-wide DNA methylation and gene expression using user-supplied data.
+readouts:
+- dna-methylation
+- dna-5mc
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-020-6722-x
+  year: 2020
+  journal: BMC Genomics
+  first_author: Teng CS
+  last_author: Chen PY
+  title: 'MethGET: web-based bioinformatics software for correlating genome-wide DNA methylation and gene expression'
+links: {}
+added: '2026-11-21'
+evidence: MethGET correlates gene expression with CG, CHG, and CHH methylation based on whole-genome bisulfite sequencing.

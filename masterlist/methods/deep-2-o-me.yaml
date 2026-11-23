@@ -1,0 +1,18 @@
+name: Deep-2'-O-Me
+category: dry
+summary: A convolutional neural network predicts RNA 2'-O-methylation sites from embedded pre-mRNA sequences.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/embc.2018.8512780
+  year: 2018
+  journal: 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+  first_author: Mostavi M
+  last_author: Huang Y
+  title: 'Deep-2''-O-Me: Predicting 2''-O-methylation sites by Convolutional Neural Networks'
+links: {}
+added: '2026-11-21'
+evidence: The model uses sequence embeddings and a convolutional neural network and was trained on Nm-seq data.

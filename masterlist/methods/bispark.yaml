@@ -1,0 +1,19 @@
+name: BiSpark
+category: dry
+summary: A distributed aligner for scalable processing of bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2498-2
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Soe S
+  last_author: Chae H
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: BiSpark is a scalable bisulfite aligner built on Apache Spark for processing large methylome datasets.

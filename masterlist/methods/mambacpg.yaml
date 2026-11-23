@@ -1,0 +1,20 @@
+name: MambaCpG
+category: dry
+summary: Imputes sparse single-cell CpG methylation states using methylation data, DNA sequence context, and bidirectional
+  Mamba blocks.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf360
+  year: 2025
+  journal: Briefings in Bioinformatics
+  first_author: Zhao Q
+  last_author: Fan X
+  title: 'MambaCpG: an accurate model for single-cell DNA methylation status imputation using mamba'
+links: {}
+added: '2026-11-21'
+evidence: MambaCpG integrates a methylation matrix and DNA sequence context to impute single-cell methylation states.

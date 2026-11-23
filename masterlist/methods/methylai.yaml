@@ -1,0 +1,20 @@
+name: MethylAI
+category: dry
+summary: Predicts single-CpG DNA methylation states from genomic sequence using a cross-species pretrained deep learning framework.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.11.20.689274
+  year: 2025
+  journal: bioRxiv
+  first_author: Chen
+  last_author: F
+  title: Dissecting sequence determinants of DNA methylation and in silico perturbation
+links: {}
+added: '2026-11-21'
+evidence: MethylAI predicts single-CpG methylation states directly from genomic sequence and identifies methylation-associated
+  motifs.

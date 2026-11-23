@@ -1,0 +1,23 @@
+name: HydraPsiSeq
+category: wet
+summary: Quantitatively maps pseudouridine in RNA using protection from hydrazine and aniline cleavage.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkaa769
+  year: 2020
+  journal: Nucleic Acids Research
+  first_author: Marchand V
+  last_author: Motorin Y
+  title: 'HydraPsiSeq: a method for systematic and quantitative mapping of pseudouridines in RNA'
+links: {}
+added: '2026-11-21'
+evidence: HydraPsiSeq relies on pseudouridine-specific protection from hydrazine and aniline cleavage, with signal reflecting
+  modification level.

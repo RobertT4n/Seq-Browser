@@ -1,0 +1,20 @@
+name: LuxHS
+category: dry
+summary: LuxHS models differential DNA methylation while allowing individual cytosines to deviate from local spatial correlation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.01.21.913640
+  year: 2020
+  journal: bioRxiv
+  first_author: Halla-aho
+  last_author: H
+  title: 'LuxHS: DNA methylation analysis with spatially varying correlation structure'
+links: {}
+added: '2026-11-21'
+evidence: A sparsity-promoting prior allows cytosines to deviate from the spatial correlation pattern in bisulfite sequencing
+  data.

@@ -1,0 +1,28 @@
+name: CmeCUT&Tag
+category: wet
+summary: Methylation-binding domain fusion proteins direct Tn5 adapter insertion to methylated DNA for genome-wide profiling.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+- other-vertebrate
+validated_system:
+- organoid
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-026-73325-4
+  year: 2026
+  journal: Nature Communications
+  first_author: Hu H
+  last_author: Zenk F
+  title: A scalable Tn5-based method for genome-wide DNA methylation profiling in development and disease
+links: {}
+added: '2026-11-21'
+evidence: CmeCUT&Tag targets methylated DNA with methylation-binding domain fusion proteins and optionally uses cytosine conversion
+  for base-pair resolution.

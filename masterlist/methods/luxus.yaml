@@ -1,0 +1,20 @@
+name: LuxUS
+category: dry
+summary: Generalized linear mixed model that uses correlations between neighboring cytosines to analyze differential DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa539
+  year: 2020
+  journal: Bioinformatics
+  first_author: Halla-aho V
+  last_author: Lähdesmäki H
+  title: 'LuxUS: DNA methylation analysis using generalized linear mixed model with spatial correlation'
+links: {}
+added: '2026-11-21'
+evidence: LuxUS models bisulfite sequencing data with experimental variation, covariates, random effects and spatial correlation
+  between cytosines.

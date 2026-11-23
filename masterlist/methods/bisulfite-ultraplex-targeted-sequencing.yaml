@@ -1,0 +1,26 @@
+name: Bisulfite ULtrapLEx Targeted Sequencing
+category: wet
+summary: A deep, region-specific bisulfite sequencing method measures DNA methylation at selected regions.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1161/hypertensionaha.121.18584
+  year: 2022
+  journal: Hypertension
+  first_author: Roberts ML
+  last_author: Liang M
+  title: Unique Associations of DNA Methylation Regions With 24-Hour Blood Pressure Phenotypes in Black Participants
+links: {}
+added: '2026-11-21'
+evidence: The authors developed a deep, region-specific methylation sequencing method to validate findings from whole blood
+  in a separate cohort.

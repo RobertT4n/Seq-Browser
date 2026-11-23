@@ -1,0 +1,18 @@
+name: Moss-m7G
+category: dry
+summary: A motif-based interpretable deep learning method predicts RNA N7-methylguanosine sites from sequence.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jcim.4c00802
+  year: 2024
+  journal: Journal of Chemical Information and Modeling
+  first_author: Zhao Y
+  last_author: Wei L
+  title: 'Moss-m7G: A Motif-Based Interpretable Deep Learning Method for RNA N7-Methlguanosine Site Prediction'
+links: {}
+added: '2026-11-21'
+evidence: Moss-m7G extracts motif information from RNA sequences and uses a Transformer to predict m7G modification sites.

@@ -1,0 +1,25 @@
+name: BAT
+full_name: Bisulfite Analysis Toolkit
+category: dry
+summary: BAT provides a modular workflow for processing and analyzing bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.12688/f1000research.12302.1
+  year: 2017
+  journal: F1000Res
+  first_author: Kretzmer H
+  last_author: Hoffmann S
+  pmid: '28979767'
+  pmcid: PMC5590080
+  title: 'BAT: Bisulfite Analysis Toolkit: BAT is a toolkit to analyze DNA methylation sequencing data accurately and reproducibly.
+    It covers standard processing and analysis steps from raw read mapping up to annotation data integration and calculation
+    of correlating DMRs'
+links: {}
+added: '2026-11-21'
+evidence: BAT covers read alignment, quality control, methylation extraction, differential methylation calling and downstream
+  data integration.

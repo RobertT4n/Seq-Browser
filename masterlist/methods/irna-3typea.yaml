@@ -1,0 +1,18 @@
+name: iRNA-3typeA
+category: dry
+summary: Predicts RNA m1A, m6A and A-to-I modification sites simultaneously from RNA sequences.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.omtn.2018.03.012
+  year: 2018
+  journal: Molecular Therapy Nucleic Acids
+  first_author: Chen W
+  last_author: Chou KC
+  title: 'iRNA-3typeA: Identifying Three Types of Modification at RNA’s Adenosine Sites'
+links: {}
+added: '2026-11-21'
+evidence: iRNA-3typeA simultaneously identifies m1A, m6A and A-to-I sites in RNA sequences.

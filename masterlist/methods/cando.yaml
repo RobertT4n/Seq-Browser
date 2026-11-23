@@ -1,0 +1,19 @@
+name: CanDo
+category: dry
+summary: A deep neural network classifies lung tumors using targeted DNA methylation features from bronchial washing fluid.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.isci.2024.110079
+  year: 2024
+  journal: iScience
+  first_author: Yu Z
+  last_author: Zhang X
+  title: Lung tumor discrimination by deep neural network model CanDo via DNA methylation in bronchial lavage
+links: {}
+added: '2026-11-21'
+evidence: CanDo incorporates 11 methylation features from a targeted sequencing panel to discriminate lung tumors.

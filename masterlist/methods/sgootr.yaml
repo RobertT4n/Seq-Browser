@@ -1,0 +1,22 @@
+name: Sgootr
+category: dry
+summary: Infers tumor cell lineage trees and lineage-informative CpG sites from single-cell DNA methylation data.
+readouts:
+- dna-methylation
+- dna-5mc
+- lineage
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.277608.122
+  year: 2023
+  journal: Genome Research
+  first_author: Liu Y
+  last_author: Sahinalp SC
+  title: Single-cell methylation sequencing data reveal succinct metastatic migration histories and tumor progression models
+  preprint_doi: 10.1101/2021.03.22.436475
+links: {}
+added: '2026-11-21'
+evidence: Sgootr reconstructs single-cell methylation lineage trees and identifies CpG sites whose methylation changes are
+  retained along lineages.

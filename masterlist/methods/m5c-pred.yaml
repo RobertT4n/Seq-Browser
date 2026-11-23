@@ -1,0 +1,19 @@
+name: m5C-pred
+category: dry
+summary: Sequence-based XGBoost model that predicts RNA m5C sites across five species.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymthe.2023.05.016
+  year: 2023
+  journal: Molecular Therapy
+  first_author: Abbas Z
+  last_author: Chong KT
+  title: XGBoost framework with feature selection for the prediction of RNA N5-methylcytosine sites
+links: {}
+added: '2026-11-21'
+evidence: m5C-pred combines RNA sequence feature encodings, SHAP feature selection and an XGBoost classifier to identify m5C
+  sites.

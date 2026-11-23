@@ -1,0 +1,27 @@
+name: TARS
+full_name: TadA8.20-assisted N6-methyladenosine RNA imaging at single-base resolution
+category: wet
+summary: TARS visualizes and quantifies modified and unmodified adenine at selected RNA sites within single cells.
+readouts:
+- rna-modification
+resolution:
+- single-cell
+- spatial
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1002/anie.202420977
+  year: 2024
+  journal: Angewandte Chemie International Edition
+  first_author: Zhang Q
+  last_author: Li J
+  title: "Visualization and Quantification of Single‐Base m\n                    <sup>6</sup>\n                    A Methylation"
+links: {}
+added: '2026-11-21'
+evidence: TARS visualized and quantified A and m6A at specific RNA sites in single cells, including MALAT1 in HeLa cells.

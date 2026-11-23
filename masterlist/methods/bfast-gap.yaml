@@ -1,0 +1,18 @@
+name: BFAST-Gap
+category: dry
+summary: A modified aligner adjusts gap penalties for homopolymer-associated errors in Ion Torrent reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/284596
+  year: 2018
+  journal: bioRxiv
+  first_author: Porter J
+  last_author: Zhang L
+  title: 'BisPin and BFAST-Gap: Mapping Bisulfite-Treated Reads'
+links: {}
+added: '2026-11-21'
+evidence: BFAST-Gap uses homopolymer run length to set gap open and extension penalties and also works with Illumina reads.

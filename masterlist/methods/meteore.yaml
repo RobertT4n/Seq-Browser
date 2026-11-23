@@ -1,0 +1,22 @@
+name: METEORE
+category: dry
+summary: Combines predictions from multiple nanopore methylation callers to improve CpG methylation detection.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-021-23778-6
+  year: 2021
+  journal: Nature Communications
+  first_author: Yuen ZWS
+  last_author: Eyras E
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: METEORE combines predictions from two or more tools and improves accuracy over individual tools.

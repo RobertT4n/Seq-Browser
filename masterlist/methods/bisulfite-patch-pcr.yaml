@@ -1,0 +1,24 @@
+name: Bisulfite Patch PCR
+category: wet
+summary: Highly multiplexed bisulfite PCR and sample barcoding enable sequencing of methylation at selected promoters across
+  samples.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+reference:
+  doi: 10.1101/gr.101212.109
+  year: 2010
+  journal: Genome Research
+  first_author: Varley KE
+  last_author: Mitra RD
+  title: Bisulfite Patch PCR enables multiplexed sequencing of promoter methylation across cancer samples
+links: {}
+added: '2026-11-21'
+evidence: The method simultaneously amplified 94 targeted gene promoters and used sample-specific barcodes to analyze 48 samples
+  in one run.

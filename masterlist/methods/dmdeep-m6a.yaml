@@ -1,0 +1,18 @@
+name: DMDeep-m6A
+category: dry
+summary: DMDeep-m6A combines deep learning and statistical testing to identify differential m6A sites from MeRIP-seq data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz316
+  year: 2019
+  journal: Bioinformatics
+  first_author: Zhang SY
+  last_author: Huang Y
+  title: 'FunDMDeep-m6A: identification and prioritization of functional differential m6A methylation genes'
+links: {}
+added: '2026-11-21'
+evidence: DMDeep-m6A identifies differential m6A methylation sites from MeRIP-seq data at single-base resolution.

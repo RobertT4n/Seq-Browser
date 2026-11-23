@@ -1,0 +1,23 @@
+name: MasterOfPores
+category: dry
+summary: MasterOfPores processes nanopore direct RNA sequencing data and predicts RNA modifications and polyA tail lengths.
+readouts:
+- rna-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.3389/fgene.2020.00211
+  year: 2020
+  journal: Frontiers in Genetics
+  first_author: Cozzuto L
+  last_author: Novoa EM
+  title: 'MasterOfPores: A Workflow for the Analysis of Oxford Nanopore Direct RNA Sequencing Datasets'
+links: {}
+added: '2026-11-21'
+evidence: The workflow performs base calling, mapping and quality control, followed by modification prediction and polyA tail
+  length estimation.

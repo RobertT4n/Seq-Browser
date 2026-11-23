@@ -1,0 +1,21 @@
+name: HBCR_DMR
+category: dry
+summary: A hybrid Bayesian and ranking method identifies differentially methylated CpG sites and regions between sample groups.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/jpm14040361
+  year: 2024
+  journal: Journal of Personalized Medicine
+  first_author: Yassi M
+  last_author: Kerachian MA
+  title: 'HBCR_DMR: A Hybrid Method Based on Beta-Binomial Bayesian Hierarchical Model and Combination of Ranking Method to
+    Detect Differential Methylation Regions in Bisulfite Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: HBCR_DMR models CpG methylation proportions with a beta-binomial hierarchy and combines rankings of differential
+  sites.

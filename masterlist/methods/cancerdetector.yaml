@@ -1,0 +1,21 @@
+name: CancerDetector
+category: dry
+summary: Probabilistic method that detects tumor-derived cell-free DNA from joint methylation patterns on individual sequencing
+  reads.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gky423
+  year: 2018
+  journal: Nucleic Acids Research
+  first_author: Li W
+  last_author: Zhou XJ
+  title: 'CancerDetector: ultrasensitive and non-invasive cancer detection at the resolution of individual reads using cell-free
+    DNA methylation sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: CancerDetector models the joint methylation states of adjacent CpG sites on individual reads to identify tumor DNA
+  in plasma.

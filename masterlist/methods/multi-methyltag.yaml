@@ -1,0 +1,29 @@
+name: Multi-MethylTag
+category: wet
+summary: Multi-MethylTag profiles histone modifications and DNA methylation using Tn5 with methylated adapters and postbisulfite
+  library preparation.
+readouts:
+- histone-modification
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1021/jacsau.5c01492
+  year: 2026
+  journal: JACS Au
+  first_author: Liu J
+  last_author: Weng X
+  title: Nanobody-Tethered Transposition for Dual Profiling of Histone Modification and DNA Methylation
+links: {}
+added: '2026-11-21'
+evidence: The methods integrate Tn5 with methylated adapters and were validated in human and mouse cell lines.

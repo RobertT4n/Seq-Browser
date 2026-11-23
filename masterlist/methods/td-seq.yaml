@@ -1,0 +1,25 @@
+name: tD-seq
+category: wet
+summary: Detects dihydrouridine sites in tRNAs through chemically induced disruptions to reverse transcription.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/nar/gkag736
+  year: 2026
+  journal: Nucleic Acids Research
+  first_author: Reinsch JL
+  last_author: Garcia DM
+  title: Toward a comprehensive modification landscape of yeast mitochondrial tRNAs using Nanopore direct RNA sequencing and
+    dihydrouridine sequencing
+  preprint_doi: 10.1101/2025.05.09.653160
+links: {}
+added: '2026-11-21'
+evidence: Chemical reduction of dihydrouridine causes disruptions to reverse transcription, enabling detection of dihydrouridine
+  sites in tRNAs.

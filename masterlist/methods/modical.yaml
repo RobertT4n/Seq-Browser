@@ -1,0 +1,26 @@
+name: ModiCal
+category: wet
+summary: A targeted calibration workflow uses synthetic and in vitro transcribed RNA signals to improve nanopore detection
+  of known RNA modification sites.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1021/acschembio.6c00009
+  year: 2026
+  journal: ACS Chemical Biology
+  first_author: Özrendeci Z
+  last_author: Helm M
+  title: "ModiCal: A Targeted Calibration Workflow for Site-Specific m\n                    <sup>5</sup>\n               \
+    \     C Validation by Nanopore Direct RNA Sequencing"
+links: {}
+added: '2026-11-21'
+evidence: Iterative retraining with unmodified in vitro transcribed signals eliminated off-target predictions while retaining
+  detection of a known m5C site.

@@ -1,0 +1,18 @@
+name: m7G-DPP
+category: dry
+summary: Predicts RNA N7-methylguanosine sites using dinucleotide physicochemical properties and a support vector machine.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.bpc.2021.106697
+  year: 2021
+  journal: Biophysical Chemistry
+  first_author: Zou H
+  last_author: Yin Z
+  title: 'm7G-DPP: Identifying N7-methylguanosine sites based on dinucleotide physicochemical properties of RNA'
+links: {}
+added: '2026-11-21'
+evidence: m7G-DPP encodes RNA sequences using dinucleotide physicochemical properties and selects features for an SVM.

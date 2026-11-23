@@ -1,0 +1,22 @@
+name: DiffuCpG
+category: dry
+summary: Uses a generative diffusion model with sequence and local and long-range interactions to impute missing methylation
+  data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.adt4152
+  year: 2025
+  journal: Science Advances
+  first_author: Yan F
+  last_author: Guo Y
+  title: Genome-wide methylome modeling via generative AI incorporating long- and short-range interactions
+links: {}
+added: '2026-11-21'
+evidence: DiffuCpG models missing methylation data using local DNA sequence, nearby CpGs, and long-range interactions across
+  multiple methylation technologies.

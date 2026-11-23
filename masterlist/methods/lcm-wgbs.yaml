@@ -1,0 +1,28 @@
+name: LCM-µWGBS
+category: wet
+summary: Combines laser capture microdissection and low-input whole-genome bisulfite sequencing to profile circulating tumor
+  cell DNA methylation.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41388-021-01657-0
+  year: 2021
+  journal: Oncogene
+  first_author: Zhao L
+  last_author: Dong D
+  title: DNA methylome profiling of circulating tumor cells in lung cancer at single base-pair resolution
+links: {}
+added: '2026-11-21'
+evidence: LCM-µWGBS combines laser capture of circulating tumor cells with whole-genome bisulfite sequencing of very small
+  cell populations.

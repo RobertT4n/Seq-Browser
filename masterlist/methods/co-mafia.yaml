@@ -1,0 +1,21 @@
+name: Ψ-co-mAFiA
+category: dry
+summary: Ψ-co-mAFiA detects pseudouridine and m6A modifications concurrently in individual RNA molecules from nanopore sequencing.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btaf536
+  year: 2025
+  journal: Bioinformatics
+  first_author: Chan A
+  last_author: Dieterich C
+  title: 'Ψ-co-mAFiA: concurrent detection of pseudouridine and m6A in single RNA molecules'
+links: {}
+added: '2026-11-21'
+evidence: The updated method identifies pseudouridine sites and covers all 18 DRACH m6A contexts in direct RNA sequencing.

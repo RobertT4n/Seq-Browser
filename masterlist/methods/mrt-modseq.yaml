@@ -1,0 +1,22 @@
+name: MRT-ModSeq
+category: wet
+summary: MarathonRT generates cofactor-dependent mutation profiles that support detection and identification of RNA modifications
+  in transcripts of interest.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1016/j.jmb.2023.168299
+  year: 2023
+  journal: Journal of Molecular Biology
+  first_author: Araujo Tavares RdC
+  last_author: Pyle AM
+  title: MRT-ModSeq – Rapid Detection of RNA Modifications with MarathonRT
+  preprint_doi: 10.1101/2023.05.25.542276
+links: {}
+added: '2026-11-21'
+evidence: MRT-ModSeq uses distinct divalent cofactors to generate mutation profiles and detect multiple RNA modification types.

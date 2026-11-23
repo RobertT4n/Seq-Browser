@@ -1,0 +1,24 @@
+name: MASTER-seq
+category: wet
+summary: MASTER-seq uses methylation-sensitive RNA cleavage to quantitatively profile a subset of m6A sites at single-nucleotide
+  resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1016/j.cell.2019.06.013
+  year: 2019
+  journal: Cell
+  first_author: Garcia-Campos MA
+  last_author: Schwartz S
+  title: Deciphering the “m6A Code” via Antibody-Independent Quantitative Profiling
+  preprint_doi: 10.1101/571679
+links: {}
+added: '2026-11-21'
+evidence: MASTER-seq uses RNase MazF, which cleaves unmethylated RNA sites, to quantify m6A sites and track their dynamics.

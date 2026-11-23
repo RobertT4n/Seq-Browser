@@ -1,0 +1,25 @@
+name: MLAD-seq
+full_name: methyltransferase-directed labeling with APOBEC3A deamination sequencing
+category: wet
+summary: Methyltransferase-directed labeling and deamination distinguish 5mC from unmodified cytosine at CG sites at single-base
+  resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1021/acs.analchem.2c03808
+  year: 2022
+  journal: Analytical Chemistry
+  first_author: Xiong J
+  last_author: Yuan BF
+  title: Bisulfite-Free and Single-Base Resolution Detection of Epigenetic DNA Modification of 5-Methylcytosine by Methyltransferase-Directed
+    Labeling with APOBEC3A Deamination Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Differential sequencing readouts after methyltransferase labeling and APOBEC3A treatment enable single-base mapping
+  of 5mC at CG sites.

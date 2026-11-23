@@ -1,0 +1,18 @@
+name: im7G-DCT
+category: dry
+summary: Predicts mRNA m7G sites using a two-branch deep-learning model that extracts local and global sequence features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2025.108473
+  year: 2025
+  journal: Computational Biology and Chemistry
+  first_author: Lei R
+  last_author: Qin L
+  title: 'im7G-DCT: A two-branch strategy model based on improved DenseNet and transformer for m7G site prediction'
+links: {}
+added: '2026-11-21'
+evidence: im7G-DCT combines an improved DenseNet and a transformer to extract features from m7G locus sequences.

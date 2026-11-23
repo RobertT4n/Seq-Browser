@@ -1,0 +1,23 @@
+name: scDeconv
+category: dry
+summary: An R package uses single-cell RNA and paired bulk RNA and DNA methylation data to estimate cell-type proportions
+  in bulk methylation samples.
+readouts:
+- dna-methylation
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac150
+  year: 2022
+  journal: Briefings in Bioinformatics
+  first_author: Liu Y
+  last_author: Liu Y
+  title: '<i>scDeconv</i>: an R package to deconvolve bulk DNA methylation data with scRNA-seq data and paired bulk RNA–DNA
+    methylation data'
+links: {}
+added: '2026-11-21'
+evidence: scDeconv transfers cell-content information from scRNA-seq and paired bulk RNA data to paired DNA methylation samples
+  and trains an ensemble model.

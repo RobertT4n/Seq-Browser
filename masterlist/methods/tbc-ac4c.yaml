@@ -1,0 +1,19 @@
+name: TBC-ac4C
+category: dry
+summary: A deep learning model predicts RNA N4-acetylcytidine sites using attention and parallel sequence-feature extraction.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2025.108849
+  year: 2026
+  journal: Computational Biology and Chemistry
+  first_author: Zhang S
+  last_author: Zhang X
+  title: 'TBC-ac4C: Identiﬁcation of N4-acetylcytidine sites by incorporating TCN and BiGRU based on multi-head cross-attention
+    mechanism'
+links: {}
+added: '2026-11-21'
+evidence: TBC-ac4C identifies ac4C sites and was evaluated on a benchmark derived from acRIP-seq data.

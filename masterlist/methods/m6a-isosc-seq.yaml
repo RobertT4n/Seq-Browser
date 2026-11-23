@@ -1,0 +1,29 @@
+name: m6A-isoSC-seq
+category: wet
+summary: Single-cell cDNA sequencing with APOBEC1-YTH-induced mutations profiles m6A across RNA isoforms.
+readouts:
+- rna-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- long-read-sequencing
+validated_system:
+- cell-line
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-025-60869-0
+  year: 2025
+  journal: Nature Communications
+  first_author: Ren Z
+  last_author: Cun Y
+  title: Isoform characterization of m6A in single cells identifies its role in RNA surveillance
+links: {}
+added: '2026-11-21'
+evidence: The method sequences the same 10x Genomics single-cell cDNA library with nanopore and Illumina platforms after APOBEC1-YTH-induced
+  mutations near m6A sites.

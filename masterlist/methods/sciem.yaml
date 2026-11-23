@@ -1,0 +1,28 @@
+name: sciEM
+category: wet
+summary: sciEM combines combinatorial indexing and enzymatic conversion to profile DNA methylation in single cells.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1186/s13578-022-00938-9
+  year: 2023
+  journal: Cell &amp; Bioscience
+  first_author: Chatterton Z
+  last_author: Kwok JB
+  title: Single-cell DNA methylation sequencing by combinatorial indexing and enzymatic DNA methylation conversion
+  preprint_doi: 10.1101/2022.10.09.511389
+links: {}
+added: '2026-11-21'
+evidence: sciEM couples single-cell combinatorial indexing with enzymatic conversion of unmethylated cytosines and was applied
+  to human brain regions.

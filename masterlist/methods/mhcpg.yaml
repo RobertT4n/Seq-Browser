@@ -1,0 +1,22 @@
+name: MHCpG
+category: dry
+summary: Predicts CpG methylation states using a deep-learning model combining DNA sequence, MeDIP-seq and histone modification
+  information.
+readouts:
+- dna-methylation
+- histone-modification
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2019.2909237
+  year: 2020
+  journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
+  first_author: Fu L
+  last_author: Chai L
+  title: Predicting DNA Methylation States with Hybrid Information Based Deep-Learning Model
+links: {}
+added: '2026-11-21'
+evidence: MHCpG combines MeDIP-seq data and histone modification data with sequence information to predict methylated CpG
+  states.

@@ -1,0 +1,20 @@
+name: EPIC-TABSAT
+category: dry
+summary: A web application analyzes targeted bisulfite sequencing data and can integrate array-based methylation results.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/nar/gkz398
+  year: 2019
+  journal: Nucleic Acids Research
+  first_author: Krainer J
+  last_author: Pabinger S
+  title: 'EPIC-TABSAT: analysis tool for targeted bisulfite sequencing experiments and array-based methylation studies'
+links: {}
+added: '2026-11-21'
+evidence: EPIC-TABSAT covers targeted sequencing analysis from quality metrics and methylation calling to interactive presentation
+  and target-specific epialleles.

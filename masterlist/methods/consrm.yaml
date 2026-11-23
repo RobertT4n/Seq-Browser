@@ -1,0 +1,20 @@
+name: ConsRM
+category: dry
+summary: Scores the evolutionary conservation of individual RNA m6A sites using multiple information sources and positive-unlabeled
+  learning.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbab088
+  year: 2021
+  journal: Briefings in Bioinformatics
+  first_author: Song B
+  last_author: Meng J
+  title: 'ConsRM: collection and large-scale prediction of the evolutionarily conserved RNA methylation sites, with implications
+    for the functional epitranscriptome'
+links: {}
+added: '2026-11-21'
+evidence: ConsRM quantitatively measures conservation of individual m6A sites using genomic and sequence features.

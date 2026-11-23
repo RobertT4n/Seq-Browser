@@ -1,0 +1,18 @@
+name: m5CPred-SVM
+category: dry
+summary: Predicts RNA 5-methylcytosine sites using sequence features and a support vector machine.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03828-4
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Chen X
+  last_author: Zhu X
+  title: 'm5CPred-SVM: a novel method for predicting m5C sites of RNA'
+links: {}
+added: '2026-11-21'
+evidence: The method uses selected features from RNA segments to identify m5C sites in three species.

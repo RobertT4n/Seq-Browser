@@ -1,0 +1,18 @@
+name: m5C-iEnsem
+category: dry
+summary: Identifies RNA 5-methylcytosine sites using a bagging ensemble predictor.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae722
+  year: 2024
+  journal: Bioinformatics
+  first_author: Bilal A
+  last_author: Long H
+  title: 'm5c-iEnsem: 5-methylcytosine sites identification through ensemble models'
+links: {}
+added: '2026-11-21'
+evidence: The bagging ensemble-based m5C-iEnsem predictor was evaluated against existing m5C prediction tools.

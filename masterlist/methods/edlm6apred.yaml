@@ -1,0 +1,19 @@
+name: EDLm6APred
+category: dry
+summary: Ensemble deep learning approach that predicts mRNA m6A sites using sequence representations.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04206-4
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Zhang L
+  last_author: Liu H
+  title: 'EDLm6APred: ensemble deep learning approach for mRNA m6A site prediction'
+links: {}
+added: '2026-11-21'
+evidence: The approach uses one-hot, RNA word embedding and Word2vec representations to identify m6A sites with upstream and
+  downstream sequence context.

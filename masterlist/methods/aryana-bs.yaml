@@ -1,0 +1,22 @@
+name: ARYANA-BS
+category: dry
+summary: A context-aware aligner maps bisulfite sequencing reads using reference indexes and penalties for base alterations.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06182-5
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Nikaein H
+  last_author: Kunde-Ramamoorthy G
+  pmid: '40691759'
+  pmcid: PMC12281798
+  title: 'Aryana-bs: context-aware alignment of bisulfite-sequencing reads'
+  preprint_doi: 10.1101/2024.01.20.576080
+links: {}
+added: '2026-11-21'
+evidence: ARYANA-BS considers base alterations within its alignment engine and selects the hit with the minimum penalty.

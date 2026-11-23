@@ -1,0 +1,22 @@
+name: MethSCAn
+category: dry
+summary: Quantifies informative methylation regions and detects differential methylation between groups of cells in single-cell
+  bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41592-024-02347-x
+  year: 2024
+  journal: Nature Methods
+  first_author: Kremer LPM
+  last_author: Anders S
+  title: Analyzing single-cell bisulfite sequencing data with MethSCAn
+  preprint_doi: 10.1101/2022.06.15.496318
+links: {}
+added: '2026-11-21'
+evidence: MethSCAn implements strategies for informative region selection, methylation quantification, and differential methylation
+  detection in single-cell bisulfite sequencing.

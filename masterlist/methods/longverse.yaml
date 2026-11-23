@@ -1,0 +1,23 @@
+name: LongVerse
+category: dry
+summary: Agent-based pipeline that produces haplotype-resolved DNA methylation calls from nanopore or PacBio reads.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+- pacbio
+reference:
+  doi: 10.64898/2026.10.13.758965
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu
+  last_author: S
+  title: 'LongVerse: verified AI agents for Nanopore and PacBio DNA methylation analysis'
+links: {}
+added: '2026-11-21'
+evidence: LongVerse uses agents to supply arguments to a pinned pipeline for haplotype-resolved methylation analysis of nanopore
+  or PacBio reads.

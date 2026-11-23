@@ -1,0 +1,19 @@
+name: trumpet
+category: dry
+summary: trumpet assesses the quality of m6A-seq and other fragmented RNA immunoprecipitation sequencing data.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2266-3
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zhang T
+  last_author: Meng J
+  title: 'trumpet: transcriptome-guided quality assessment of m6A-seq data'
+links: {}
+added: '2026-11-21'
+evidence: trumpet combines quality metrics from ChIP-seq and RNA-seq to produce a report from aligned m6A-seq data and transcriptome
+  information.

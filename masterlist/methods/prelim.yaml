@@ -1,0 +1,21 @@
+name: PReLIM
+full_name: Precise Read-Level Imputation of Methylation
+category: dry
+summary: Machine learning method that imputes CpG methylation states on individual whole-genome bisulfite sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-02065-5
+  year: 2020
+  journal: Genome Biology
+  first_author: Scott CA
+  last_author: Waterland RA
+  title: Identification of cell type-specific methylation signals in bulk whole genome bisulfite sequencing data
+links: {}
+added: '2026-11-21'
+evidence: PReLIM increases coverage of whole-genome bisulfite sequencing datasets by imputing CpG methylation states on individual
+  reads.

@@ -1,0 +1,21 @@
+name: BiSS
+full_name: Bisufite Sequencing Scorer
+category: dry
+summary: A bisulfite sequencing analysis method aligns reads and estimates cytosine methylation while accounting for multiple
+  error sources.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0041528
+  year: 2012
+  journal: PLoS ONE
+  first_author: Dinh HQ
+  last_author: von Haeseler A
+  title: 'Advanced Methylome Analysis after Bisulfite Deep Sequencing: An Example in Arabidopsis'
+links: {}
+added: '2026-11-21'
+evidence: BiSS uses Smith-Waterman alignment and an adaptive error estimate to predict cytosine methylation status and degree.

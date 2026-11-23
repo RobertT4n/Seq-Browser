@@ -1,0 +1,27 @@
+name: NOMe-HiC
+full_name: single-cell m6A sequencing
+category: wet
+summary: Simultaneously profiles the m6A methylome and transcriptome in single oocytes and embryonic blastomeres.
+readouts:
+- rna-modification
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2022.03.29.486102
+  year: 2022
+  journal: bioRxiv
+  first_author: Fu
+  last_author: Y
+  title: 'GTAGMe-seq: joint profiling of genetic variants, DNA methylation, GpC methyltransferase footprints, and 3D genome
+    in the same DNA molecules'
+links: {}
+added: '2026-11-21'
+evidence: scm6A-seq simultaneously profiles the m6A methylome and transcriptome in single oocytes and cleavage-stage blastomeres.
+rejected: Entry name and summary do not match the paper abstract (m6A single-cell vs NOMe-HiC); needs manual review (audit 2026-11-23)

@@ -1,0 +1,21 @@
+name: methylFlow
+category: dry
+summary: A network flow approach reconstructs cell-specific methylation patterns from bisulfite sequencing reads in heterogeneous
+  populations.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw287
+  year: 2016
+  journal: Bioinformatics
+  first_author: Dorri F
+  last_author: Corrada Bravo H
+  title: 'methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: The method reconstructs heterogeneous cell populations by assembling cell-specific methylation patterns from sequencing
+  reads.

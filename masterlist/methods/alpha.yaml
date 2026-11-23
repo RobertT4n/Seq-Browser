@@ -1,0 +1,23 @@
+name: Alpha
+category: dry
+summary: A read-level methylation deconvolution method identifies low-frequency cell-type signals and supports circulating
+  tumor DNA detection.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1093/bib/bbaf551
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Qi T
+  last_author: Ge Q
+  pmid: '41115210'
+  pmcid: PMC12536878
+  title: Read-level DNA methylation deconvolution enhances circulating tumor DNA detection
+links: {}
+added: '2026-11-21'
+evidence: Alpha combines segmentation with read-level identification of low-frequency methylation signals and was applied
+  to targeted colon cancer plasma data.

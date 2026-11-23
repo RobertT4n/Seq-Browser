@@ -1,0 +1,19 @@
+name: VAliBS
+category: dry
+summary: A visual aligner maps bisulfite-converted sequencing reads to a reference genome and displays individual alignments.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-017-1827-1
+  year: 2017
+  journal: BMC Bioinformatics
+  first_author: Li M
+  last_author: Wu FX
+  title: 'VAliBS: a visual aligner for bisulfite sequences'
+links: {}
+added: '2026-11-21'
+evidence: VAliBS maps bisulfite-converted reads and shows alignment results with colored marks.

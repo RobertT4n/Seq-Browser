@@ -1,0 +1,24 @@
+name: MINT-Seq
+category: wet
+summary: Profiles m6A modification on nascent RNA in human cells.
+readouts:
+- rna-modification
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1038/s41422-021-00515-8
+  year: 2021
+  journal: Cell Research
+  first_author: Xiong F
+  last_author: Li W
+  title: RNA m6A modification orchestrates a LINE-1–host interaction that facilitates retrotransposition and contributes to
+    long gene vulnerability
+links: {}
+added: '2026-11-21'
+evidence: MINT-Seq was developed to profile m6A deposition on nascent RNAs in human cells.

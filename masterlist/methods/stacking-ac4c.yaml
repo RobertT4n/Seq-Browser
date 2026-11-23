@@ -1,0 +1,19 @@
+name: Stacking-ac4C
+full_name: Stacking-based heterogeneous integrated ac4C model
+category: dry
+summary: An ensemble learning model combines sequence-derived features to identify ac4C sites in mRNA.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fimmu.2023.1267755
+  year: 2023
+  journal: Frontiers in Immunology
+  first_author: Lou LL
+  last_author: Huang SF
+  title: 'Stacking-ac4C: an ensemble model using mixed features for identifying n4-acetylcytidine in mRNA'
+links: {}
+added: '2026-11-21'
+evidence: Stacking-ac4C identifies ac4C sites using Kmer, PseEIIP, and PseKNC features.

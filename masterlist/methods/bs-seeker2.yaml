@@ -1,0 +1,20 @@
+name: BS-Seeker2
+category: dry
+summary: Maps bisulfite sequencing reads and generates DNA methylomes, including from whole-genome and reduced-representation
+  libraries.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-774
+  year: 2013
+  journal: BMC Genomics
+  first_author: Guo W
+  last_author: Pellegrini M
+  title: 'BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: BS-Seeker2 maps bisulfite sequencing data, generates DNA methylomes and filters reads with incomplete conversion.

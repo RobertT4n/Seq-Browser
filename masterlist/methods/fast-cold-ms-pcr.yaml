@@ -1,0 +1,27 @@
+name: fast-COLD-MS-PCR
+category: wet
+summary: fast-COLD-MS-PCR enriches unmethylated DNA during PCR of bisulfite-converted DNA for melting analysis or sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1371/journal.pone.0094103
+  year: 2014
+  journal: PLoS ONE
+  first_author: Castellanos-Rizaldos E
+  last_author: Merewood A
+  title: COLD-PCR Amplification of Bisulfite-Converted DNA Allows the Enrichment and Sequencing of Rare Un-Methylated Genomic
+    Regions
+links: {}
+added: '2026-11-21'
+evidence: An appropriate PCR denaturation temperature enriches unmethylated sequences in bisulfite-converted DNA.

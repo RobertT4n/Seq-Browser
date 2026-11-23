@@ -1,0 +1,19 @@
+name: iRNA-ac4C
+category: dry
+summary: A gradient boosting model predicts ac4C sites in human mRNA using nucleotide-derived features.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ijbiomac.2022.11.299
+  year: 2023
+  journal: International Journal of Biological Macromolecules
+  first_author: Su W
+  last_author: Li YW
+  title: 'iRNA-ac4C: A novel computational method for effectively detecting N4-acetylcytidine sites in human mRNA'
+links: {}
+added: '2026-11-21'
+evidence: iRNA-ac4C identifies ac4C sites in human mRNA using nucleotide composition, chemical properties, and accumulated
+  nucleotide frequency.

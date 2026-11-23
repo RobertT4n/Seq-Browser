@@ -1,0 +1,22 @@
+name: MPCI
+full_name: Methylation Pattern Consistency Index
+category: dry
+summary: MPCI quantifies consistent regional DNA methylation patterns across sequencing reads using methylated and unmethylated
+  CpG blocks.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1014076
+  year: 2026
+  journal: PLOS Computational Biology
+  first_author: Nazer N
+  last_author: Mehrmohamadi M
+  title: 'MPCI: A novel metric for quantifying DNA methylation patterns in NGS data'
+links: {}
+added: '2026-11-21'
+evidence: MPCI captures consistent methylation patterns across reads, accounting for both methylated and unmethylated blocks
+  of CpGs.

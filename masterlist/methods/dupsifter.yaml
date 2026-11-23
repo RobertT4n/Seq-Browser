@@ -1,0 +1,20 @@
+name: Dupsifter
+category: dry
+summary: Aligner-agnostic tool for marking duplicate fragments in whole-genome bisulfite sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad729
+  year: 2023
+  journal: Bioinformatics
+  first_author: Morrison J
+  last_author: Shen H
+  title: 'Dupsifter: a lightweight duplicate marking tool for whole genome bisulfite sequencing'
+links: {}
+added: '2026-11-21'
+evidence: Dupsifter marks duplicates while accounting for fragment relationships specific to whole-genome bisulfite sequencing
+  libraries.

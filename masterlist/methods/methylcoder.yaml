@@ -1,0 +1,20 @@
+name: MethylCoder
+category: dry
+summary: Bisulfite sequencing pipeline that generates per-base methylation data using existing short-read aligners.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btr394
+  year: 2011
+  journal: Bioinformatics
+  first_author: Pedersen B
+  last_author: Fischer RL
+  title: 'MethylCoder: software pipeline for bisulfite-treated sequences'
+links: {}
+added: '2026-11-21'
+evidence: MethylCoder generates per-base methylation data from bisulfite-treated reads and accounts for overlapping paired-end
+  reads.

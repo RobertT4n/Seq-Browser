@@ -1,0 +1,24 @@
+name: LAFITE
+full_name: Low-abundance Aware Full-length Isoform clusTEr
+category: dry
+summary: LAFITE identifies full-length transcript isoforms from nanopore direct RNA sequencing data, including low-abundance
+  isoforms.
+readouts:
+- rna
+resolution:
+- bulk
+- subcellular
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1002/advs.202203480
+  year: 2022
+  journal: Advanced Science
+  first_author: Zhang J
+  last_author: Chan T
+  title: LAFITE Reveals the Complexity of Transcript Isoforms in Subcellular Fractions
+links: {}
+added: '2026-11-21'
+evidence: LAFITE was coupled with direct RNA sequencing of nuclear and cytoplasmic fractions to detect full-length transcripts.

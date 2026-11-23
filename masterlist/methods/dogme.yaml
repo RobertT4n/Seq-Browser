@@ -1,0 +1,23 @@
+name: Dogme
+category: dry
+summary: Automates nanopore basecalling, alignment, modification detection and transcript quantification for RNA and DNA data.
+readouts:
+- rna-modification
+- dna-methylation
+- rna
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1093/bioinformatics/btag066
+  year: 2026
+  journal: Bioinformatics
+  first_author: Abdollahzadeh E
+  last_author: Mortazavi A
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+links: {}
+added: '2026-11-21'
+evidence: Dogme reprocesses nanopore data for RNA and DNA modification detection and full-length transcript isoform quantification.

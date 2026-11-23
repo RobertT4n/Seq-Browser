@@ -1,0 +1,26 @@
+name: NANOME
+full_name: NANOpore Methylation
+category: dry
+summary: A consensus model combines nanopore methylation caller outputs for DNA methylation detection and haplotype-aware
+  analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2025.06.29.662079
+  year: 2025
+  journal: bioRxiv
+  first_author: Liu
+  last_author: S
+  title: 'NANOME: A Nextflow pipeline for haplotype-aware allele-specific consensus DNA methylation detection by nanopore
+    long-read sequencing'
+links: {}
+added: '2026-11-21'
+evidence: NANOME integrates outputs from Megalodon, Nanopolish and DeepSignal and combines variant calling with long-read
+  phasing.

@@ -1,0 +1,21 @@
+name: EpiMOLAS
+category: dry
+summary: A containerized and web-based framework processes whole-genome bisulfite sequencing data and supports downstream
+  methylation analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-019-6404-8
+  year: 2020
+  journal: BMC Genomics
+  first_author: Su SY
+  last_author: Lin CY
+  title: 'EpiMOLAS: an intuitive web-based framework for genome-wide DNA methylation analysis'
+links: {}
+added: '2026-11-21'
+evidence: EpiMOLAS combines workflows that calculate methylation levels from raw WGBS data with a web server for retrieval
+  and analysis.

@@ -1,0 +1,19 @@
+name: PDclust
+category: dry
+summary: An analytical strategy compares single-CpG methylation measurements to define single-cell DNA methylation states.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.stemcr.2018.07.003
+  year: 2018
+  journal: Stem Cell Reports
+  first_author: Hui T
+  last_author: Hirst M
+  title: High-Resolution Single-Cell DNA Methylation Measurements Reveal Epigenetically Distinct Hematopoietic Stem Cell Subpopulations
+links: {}
+added: '2026-11-21'
+evidence: PDclust defines single-cell DNA methylation states through pairwise comparisons of single-CpG measurements.

@@ -1,0 +1,18 @@
+name: m5UPred
+category: dry
+summary: Predicts RNA 5-methyluridine sites from primary RNA sequences using a support vector machine.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.omtn.2020.09.031
+  year: 2020
+  journal: Molecular Therapy Nucleic Acids
+  first_author: Jiang J
+  last_author: Meng J
+  title: 'm5UPred: A Web Server for the Prediction of RNA 5-Methyluridine Sites from Sequences'
+links: {}
+added: '2026-11-21'
+evidence: m5UPred identifies m5U sites from primary RNA sequences using an SVM and biochemical encoding.

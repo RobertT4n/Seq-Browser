@@ -1,0 +1,18 @@
+name: Deepm6A-MT
+category: dry
+summary: A neural network combining a bidirectional gated recurrent unit and convolutional layers predicts RNA m6A sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2024.03.004
+  year: 2024
+  journal: Methods
+  first_author: Huang G
+  last_author: Jiang J
+  title: 'Deepm6A-MT: A deep learning-based method for identifying RNA N6-methyladenosine sites in multiple tissues'
+links: {}
+added: '2026-11-21'
+evidence: Deepm6A-MT predicts m6A modification sites using Bi-GRU and CNN components and was tested across tissues and species.

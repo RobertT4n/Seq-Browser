@@ -1,0 +1,20 @@
+name: P-Hint-Hunt
+category: dry
+summary: A parallelized computational tool detects genome-wide DNA methylation from bisulfite-treated sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-017-3497-9
+  year: 2017
+  journal: BMC Genomics
+  first_author: Peng S
+  last_author: Yu W
+  title: 'P-Hint-Hunt: a deep parallelized whole genome DNA methylation detection tool'
+links: {}
+added: '2026-11-21'
+evidence: P-Hint-Hunt was designed to parallelize DNA methylation detection and address the speed and efficiency limitations
+  of Hint-Hunt.

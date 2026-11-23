@@ -1,0 +1,20 @@
+name: MEDCNN
+category: dry
+summary: A convolutional neural network predicts DNA methylation sites using multidimensional sequence features.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pcbi.1011370
+  year: 2023
+  journal: PLOS Computational Biology
+  first_author: Hu W
+  last_author: Li M
+  title: Prediction of DNA Methylation based on Multi-dimensional feature encoding and double convolutional fully connected
+    convolutional neural network
+links: {}
+added: '2026-11-21'
+evidence: MEDCNN extracts positional, biological, and chemical features from gene sequences to predict DNA methylation sites.

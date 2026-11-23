@@ -1,0 +1,20 @@
+name: BRAT
+full_name: bisulfite-treated reads analysis tool
+category: dry
+summary: Short-read mapping tool for single-end and paired-end bisulfite-treated sequencing reads.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btp706
+  year: 2009
+  journal: Bioinformatics
+  first_author: Harris EY
+  last_author: Lonardi S
+  title: 'BRAT: bisulfite-treated reads analysis tool'
+links: {}
+added: '2026-11-21'
+evidence: BRAT maps short reads obtained after sodium bisulfite conversion and supports single and paired-end reads.

@@ -1,0 +1,21 @@
+name: mHapTk
+category: dry
+summary: Toolkit that calculates DNA methylation haplotype statistics, identifies haplotype blocks and visualizes methylation
+  patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac650
+  year: 2022
+  journal: Bioinformatics
+  first_author: Ding Y
+  last_author: Shi J
+  title: 'mHapTk: a comprehensive toolkit for the analysis of DNA methylation haplotypes'
+links: {}
+added: '2026-11-21'
+evidence: mHapTk calculates eight haplotype-level statistics in predefined regions or genome-wide and identifies correlated
+  methylation haplotype blocks.

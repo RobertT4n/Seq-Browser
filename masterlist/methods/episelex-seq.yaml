@@ -1,0 +1,23 @@
+name: EpiSELEX-seq
+category: wet
+summary: Uses massively parallel sequencing to measure how DNA modifications affect transcription factor binding in vitro.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1016/j.celrep.2017.05.069
+  year: 2017
+  journal: Cell Reports
+  first_author: Kribelbauer JF
+  last_author: Bussemaker HJ
+  title: Quantitative Analysis of the DNA Methylation Sensitivity of Transcription Factor Complexes
+links: {}
+added: '2026-11-21'
+evidence: EpiSELEX-seq probes transcription factor binding sensitivity to DNA modification and quantifies position-specific
+  effects of 5mC on binding free energy.

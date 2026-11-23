@@ -1,0 +1,32 @@
+name: ChromSMF
+full_name: Chromatin-informed Single Molecule Footprinting
+category: wet
+summary: Antibody-guided methyltransferase tethering, DNA footprinting and nanopore sequencing jointly profile chromatin features
+  and methylation on individual DNA molecules.
+readouts:
+- histone-modification
+- protein-dna-binding
+- chromatin-accessibility
+- dna-methylation
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.03.11.710921
+  year: 2026
+  journal: bioRxiv
+  first_author: Palamin
+  last_author: A
+  title: 'ChromSMF: integrated profiling of histone modifications, protein-DNA interactions and DNA methylation on multi-kilobase
+    DNA molecules'
+links: {}
+added: '2026-11-21'
+evidence: ChromSMF measures histone modifications, transcription factor binding, nucleosome occupancy, DNA methylation and
+  sequence variation on the same multi-kilobase molecules.

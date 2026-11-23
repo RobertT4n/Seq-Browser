@@ -1,0 +1,24 @@
+name: cfMethyl-Seq
+category: wet
+summary: A cell-free DNA methylome sequencing assay enriches CpG islands for cancer detection and tissue-of-origin analysis.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41467-022-32995-6
+  year: 2022
+  journal: Nature Communications
+  first_author: Stackpole ML
+  last_author: Zhou XJ
+  title: Cost-effective methylome sequencing of cell-free DNA for accurately detecting and locating cancer
+links: {}
+added: '2026-11-21'
+evidence: cfMethyl-Seq sequenced cell-free DNA methylomes with more than 12-fold CpG island enrichment over whole-genome bisulfite
+  sequencing.

@@ -1,0 +1,24 @@
+name: CHEUI
+full_name: CH3 (methylation) Estimation Using Ionic current
+category: dry
+summary: Predicts m6A and m5C in individual RNA molecules and estimates site stoichiometry and differential methylation from
+  nanopore signals.
+readouts:
+- rna-modification
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2022.03.14.484124
+  year: 2022
+  journal: bioRxiv
+  first_author: Acera Mateos
+  last_author: E
+  title: Identification of m6A and m5C RNA modifications at single-molecule resolution from Nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: CHEUI predicts m6A and m5C in individual molecules, transcript-site stoichiometry, and differential methylation
+  between conditions.

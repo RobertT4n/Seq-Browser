@@ -1,0 +1,22 @@
+name: scDART-seq
+category: wet
+summary: scDART-seq identifies transcriptome-wide m6A sites in individual cells.
+readouts:
+- rna-modification
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1016/j.molcel.2021.12.038
+  year: 2022
+  journal: Molecular Cell
+  first_author: Tegowski M
+  last_author: Meyer KD
+  title: scDART-seq reveals distinct m6A signatures and mRNA methylation heterogeneity in single cells
+links: {}
+added: '2026-11-21'
+evidence: The authors developed a method to identify m6A sites transcriptome-wide in single cells and observed methylation
+  heterogeneity.

@@ -1,0 +1,25 @@
+name: EMox-seq
+category: wet
+summary: Maps 5-methylcytosine using Tet3 oxidation and single-molecule real-time sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1002/anie.202418500
+  year: 2024
+  journal: Angewandte Chemie International Edition
+  first_author: Sahin H
+  last_author: Carell T
+  title: Robust Bisulfite‐Free Single‐Molecule Real‐Time Sequencing of Methyldeoxycytidine Based on a Novel hpTet3 Enzyme
+links: {}
+added: '2026-11-21'
+evidence: A Tet3 enzyme oxidizes methylated cytidine to 5-carboxycytidine, which is read by SMRT sequencing.

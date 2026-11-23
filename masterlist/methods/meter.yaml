@@ -1,0 +1,21 @@
+name: METER
+category: dry
+summary: Detects, quantifies, and subtypes circulating tumor DNA using low-pass plasma whole-methylome sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13073-026-01603-3
+  year: 2026
+  journal: Genome Medicine
+  first_author: Paoli M
+  last_author: Benelli M
+  title: A computational framework for sensitive tumor detection and accurate subtyping using shallow cell-free DNA methylome
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: METER uses tumor-type-specific DNA methylation patterns to estimate tumor content and subtype from plasma whole-methylome
+  sequencing.

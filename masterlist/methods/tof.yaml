@@ -1,0 +1,22 @@
+name: TOF
+full_name: Tumor Originated Fragment
+category: dry
+summary: Classifies lung cancer using plasma cell-free DNA methylation and fragmentomic signatures.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1016/j.mcp.2022.101873
+  year: 2022
+  journal: Molecular and Cellular Probes
+  first_author: Kim YJ
+  last_author: Oh IJ
+  title: A method for early diagnosis of lung cancer from tumor originated DNA fragments using plasma cfDNA methylome and
+    fragmentome profiles
+links: {}
+added: '2026-11-21'
+evidence: TOF combines methylation density at 6,243 lung-tumor-specific CpG markers with short-fragment ratios and 5-prime
+  end motifs.
