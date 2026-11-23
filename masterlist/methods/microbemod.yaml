@@ -1,0 +1,26 @@
+name: MicrobeMod
+category: dry
+summary: A computational toolkit identifies prokaryotic DNA methylation motifs and restriction-modification systems from nanopore
+  sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2023.11.13.566931
+  year: 2023
+  journal: bioRxiv
+  first_author: Crits-Christoph A
+  last_author: Ostrov N
+  title: 'MicrobeMod: A computational toolkit for identifying prokaryotic methylation and restriction-modification with nanopore
+    sequencing'
+links: {}
+added: '2026-11-21'
+evidence: MicrobeMod identifies 5mC and 6mA motifs and restriction-modification systems in bacterial genomes using native
+  DNA nanopore sequencing.

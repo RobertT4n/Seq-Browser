@@ -1,0 +1,23 @@
+name: 6mAPred-FO
+category: dry
+summary: A sequence-based predictor identifies DNA 6mA sites using fused and optimised sequence features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbioe.2020.00502
+  year: 2020
+  journal: Front Bioeng Biotechnol
+  first_author: Cai J
+  last_author: Wei L
+  pmid: '32582654'
+  pmcid: PMC7287168
+  title: A Bioinformatics Tool for the Prediction of DNA N6-Methyladenine Modifications Based on Feature Fusion and Optimization
+    Protocol
+links: {}
+added: '2026-11-21'
+evidence: 6mAPred-FO combines sequence-order and nucleotide positional specificity information with feature optimisation for
+  sequence-only prediction.

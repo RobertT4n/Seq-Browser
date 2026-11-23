@@ -1,0 +1,27 @@
+name: 4mC-AMD-seq
+full_name: APOBEC3A-mediated deamination sequencing
+category: wet
+summary: Maps DNA 4mC genome-wide at single-base resolution using selective enzymatic deamination.
+readouts:
+- dna-4mc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- microbe
+reference:
+  doi: 10.1039/d2sc02446b
+  year: 2022
+  journal: Chem Sci
+  first_author: Xiong J
+  last_author: Yuan BF
+  pmid: '36128236'
+  pmcid: PMC9430668
+  title: Genome-wide mapping of <i>N</i> <sup>4</sup>-methylcytosine at single-base resolution by APOBEC3A-mediated deamination
+    sequencing
+links: {}
+added: '2026-11-21'
+evidence: APOBEC3A deaminates cytosine and 5mC, while 4mC resists deamination and is read as cytosine.

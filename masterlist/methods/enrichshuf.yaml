@@ -1,0 +1,27 @@
+name: EnrichShuf
+category: dry
+summary: An analysis tool compares DNA 6mA profiles with chromatin accessibility, histone marks and RNA data to annotate their
+  functional relationships.
+readouts:
+- dna-methylation
+- dna-6ma
+- chromatin-accessibility
+- histone-modification
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkae1152
+  year: 2024
+  journal: Nucleic Acids Res
+  first_author: Lai JC
+  last_author: Wu KJ
+  pmid: '39565191'
+  pmcid: PMC11662659
+  title: Interrogation of the interplay between DNA N6-methyladenosine (6mA) and hypoxia-induced chromatin accessibility by
+    a randomized empirical model (EnrichShuf)
+links: {}
+added: '2026-11-21'
+evidence: EnrichShuf compares 6mA-ChIP-exo-5.1-seq, ATAC-seq, ChIP-seq and RNA-seq to annotate the functional relevance of
+  6mA.

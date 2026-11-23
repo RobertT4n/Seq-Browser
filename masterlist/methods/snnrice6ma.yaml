@@ -1,0 +1,21 @@
+name: SNNRice6mA
+category: dry
+summary: A lightweight deep learning model predicts DNA 6mA sites in the rice genome.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.01071
+  year: 2019
+  journal: Front Genet
+  first_author: Yu H
+  last_author: Dai Z
+  pmid: '31681441'
+  pmcid: PMC6797597
+  title: 'SNNRice6mA: A Deep Learning Method for Predicting DNA N6-Methyladenine Sites in Rice Genome'
+links: {}
+added: '2026-11-21'
+evidence: The model was built on two rice 6mA benchmark datasets without manually crafted sequence features.

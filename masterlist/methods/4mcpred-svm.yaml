@@ -1,0 +1,20 @@
+name: 4mcPred-SVM
+category: dry
+summary: 4mcPred-SVM uses optimized sequence features and support vector machines to predict DNA N4-methylcytosine sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty824
+  year: 2019
+  journal: Bioinformatics
+  first_author: Wei L
+  last_author: Zou Q
+  pmid: '30239627'
+  title: Exploring sequence-based features for the improved prediction of DNA N4-methylcytosine sites in multiple species
+links: {}
+added: '2026-11-21'
+evidence: 4mcPred-SVM uses sequence-based features and support vector machines for genome-wide detection of DNA 4mC sites.

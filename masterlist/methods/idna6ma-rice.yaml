@@ -1,0 +1,21 @@
+name: iDNA6mA-Rice
+category: dry
+summary: A random forest classifier predicts DNA 6mA sites in the rice genome from nucleotide-encoded sequences.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2019.00793
+  year: 2019
+  journal: Front Genet
+  first_author: Lv H
+  last_author: Lin H
+  pmid: '31552096'
+  pmcid: PMC6746913
+  title: 'iDNA6mA-Rice: A Computational Tool for Detecting N6-Methyladenine Sites in Rice'
+links: {}
+added: '2026-11-21'
+evidence: iDNA6mA-Rice uses mononucleotide binary encoding and a random forest to classify rice 6mA sites.

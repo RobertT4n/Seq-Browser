@@ -1,0 +1,21 @@
+name: Deep6mAPred
+category: dry
+summary: Parallel convolutional and bidirectional LSTM networks with attention predict DNA 6mA sites across plant species.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2022.04.011
+  year: 2022
+  journal: Methods
+  first_author: Tang X
+  last_author: Huang G
+  pmid: '35477057'
+  title: 'Deep6mAPred: A CNN and Bi-LSTM-based deep learning method for predicting DNA N6-methyladenosine sites across plant
+    species'
+links: {}
+added: '2026-11-21'
+evidence: Deep6mAPred uses parallel CNN and Bi-LSTM components with attention and was tested across plant species.

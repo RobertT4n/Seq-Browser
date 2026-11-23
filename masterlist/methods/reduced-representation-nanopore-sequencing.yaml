@@ -1,0 +1,26 @@
+name: Reduced Representation Nanopore Sequencing
+category: wet
+summary: Enriches CpG-rich genomic regions for targeted nanopore DNA methylation profiling.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- long-read-sequencing
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.21203/rs.3.rs-10688178/v1
+  year: 2026
+  journal: Research Square
+  first_author: Hasegawa K
+  last_author: Saito Y
+  title: 'Reduced Representation Nanopore Sequencing: A Cost-Effective Workflow for Accurate and High-Throughput Targeted
+    DNA Methylation Profiling'
+links: {}
+added: '2026-11-21'
+evidence: RRNS combines MspI digestion, multiplex nanopore sequencing and direct detection of DNA modifications.

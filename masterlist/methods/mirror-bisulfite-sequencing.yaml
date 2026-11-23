@@ -1,0 +1,26 @@
+name: mirror bisulfite sequencing
+category: wet
+summary: A synthesized mirror strand and bisulfite conversion enable single-CpG detection of 5hmC.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acs.analchem.8b02832
+  year: 2018
+  journal: Anal Chem
+  first_author: Tan D
+  last_author: Jia XY
+  pmid: '30345735'
+  title: 'Mirror Bisulfite Sequencing: A Method for Single-Base Resolution of Hydroxymethylcytosine'
+links: {}
+added: '2026-11-21'
+evidence: A thymine in the converted mirror strand indicates parental 5hmCpG, and human tissue 5hmC levels were mapped genome-wide.

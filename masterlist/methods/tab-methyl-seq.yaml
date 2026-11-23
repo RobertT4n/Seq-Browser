@@ -1,0 +1,28 @@
+name: TAB-Methyl-SEQ
+category: wet
+summary: Targeted sequencing profiles 5hmC and 5mC at single-base resolution in selected genes.
+readouts:
+- dna-5hmc
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1093/nar/gkw316
+  year: 2016
+  journal: Nucleic Acids Res
+  first_author: Ivanov M
+  last_author: Ingelman-Sundberg M
+  pmid: '27131363'
+  pmcid: PMC5001587
+  title: 'Single base resolution analysis of 5-hydroxymethylcytosine in 188 human genes: implications for hepatic gene expression'
+links: {}
+added: '2026-11-21'
+evidence: TAB-Methyl-SEQ analyzed 5mC and 5hmC at 109,454 CpG sites in 188 genes from 20 adult human livers.

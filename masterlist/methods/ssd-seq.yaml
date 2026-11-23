@@ -1,0 +1,29 @@
+name: SSD-seq
+full_name: single-step deamination sequencing
+category: wet
+summary: Maps DNA 5hmC genome-wide at single-base resolution using an engineered cytosine deaminase.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acscentsci.3c01131
+  year: 2023
+  journal: ACS Cent Sci
+  first_author: Xie NB
+  last_author: Yuan BF
+  pmid: '38161361'
+  pmcid: PMC10755730
+  title: Whole-Genome Sequencing of 5-Hydroxymethylcytosine at Base Resolution by Bisulfite-Free Single-Step Deamination with
+    Engineered Cytosine Deaminase
+links: {}
+added: '2026-11-21'
+evidence: Engineered A3A selectively deaminates cytosine and 5mC but leaves 5hmC unchanged.

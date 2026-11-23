@@ -1,0 +1,21 @@
+name: SDBA
+full_name: Score Domain-Based Attention
+category: dry
+summary: SDBA uses an attention-based ensemble of sequence features to predict DNA N4-methylcytosine sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jcim.3c00688
+  year: 2024
+  journal: J Chem Inf Model
+  first_author: Xin R
+  last_author: Feng X
+  pmid: '37646411'
+  title: 'SDBA: Score Domain-Based Attention for DNA N4-Methylcytosine Site Prediction from Multiperspectives'
+links: {}
+added: '2026-11-21'
+evidence: SDBA dynamically ensembles features from different perspectives and was evaluated on DNA 4mC site prediction benchmarks.

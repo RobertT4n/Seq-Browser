@@ -1,0 +1,30 @@
+name: CIL-seq
+category: wet
+summary: Combines immunohistochemistry, laser capture microdissection and sequencing to profile genetic and DNA methylation
+  changes in selected tissue cells.
+readouts:
+- genome-sequence
+- dna-methylation
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.3389/fcell.2022.810687
+  year: 2022
+  journal: Front Cell Dev Biol
+  first_author: Liu D
+  last_author: He Y
+  pmid: '35223840'
+  pmcid: PMC8863946
+  title: Spatial Multiomics Analysis Reveals Only Minor Genetic and Epigenetic Changes in Human Liver Cancer Stem-Like Cells
+    Compared With Other Tumor Parenchymal Cells
+links: {}
+added: '2026-11-21'
+evidence: CIL-seq combines immunohistochemistry, laser capture microdissection and genome sequencing with ultra-low-input
+  cells.

@@ -1,0 +1,20 @@
+name: iDNA6mA-MDL
+category: dry
+summary: A multiscale DNA language model predicts DNA 6mA sites from sequence context.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2024.108129
+  year: 2024
+  journal: Comput Biol Chem
+  first_author: Hou A
+  last_author: Ding P
+  pmid: '39067351'
+  title: Multi-scale DNA language model improves 6 mA binding sites prediction
+links: {}
+added: '2026-11-21'
+evidence: iDNA6mA-MDL integrates multiple k-mers and nucleotide features and uses DNABERT at the prediction stage.

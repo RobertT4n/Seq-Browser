@@ -1,0 +1,24 @@
+name: CLED-seq
+full_name: chemical labeling enrichment and deamination sequencing
+category: wet
+summary: Enriches and maps DNA 5fC genome-wide at single-base resolution using selective labeling and enzymatic deamination.
+readouts:
+- dna-5fc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1021/acs.analchem.4c00425
+  year: 2024
+  journal: Anal Chem
+  first_author: Ding JH
+  last_author: Yuan BF
+  pmid: '38450632'
+  title: Whole-Genome Mapping of Epigenetic Modification of 5-Formylcytosine at Single-Base Resolution by Chemical Labeling
+    Enrichment and Deamination Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Selective labeling and enrichment of 5fC-containing fragments precede APOBEC3A-mediated deamination and sequencing.

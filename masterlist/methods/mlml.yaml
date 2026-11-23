@@ -1,0 +1,23 @@
+name: MLML
+category: dry
+summary: MLML jointly models bisulfite sequencing read counts to produce consistent estimates of DNA 5mC and 5hmC levels.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt459
+  year: 2013
+  journal: Bioinformatics
+  first_author: Qu J
+  last_author: Smith AD
+  pmid: '23969133'
+  pmcid: PMC3789553
+  title: 'MLML: consistent simultaneous estimates of DNA methylation and hydroxymethylation'
+links: {}
+added: '2026-11-21'
+evidence: MLML jointly models read counts from bisulfite, oxidative bisulfite and TET-assisted bisulfite sequencing to estimate
+  5hmC and 5mC.

@@ -1,0 +1,23 @@
+name: oxBS-MLE
+category: dry
+summary: oxBS-MLE uses binomial modeling of paired bisulfite and oxidative bisulfite data to estimate DNA 5mC and 5hmC levels.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw527
+  year: 2016
+  journal: Bioinformatics
+  first_author: Xu Z
+  last_author: Niu L
+  pmid: '27522082'
+  pmcid: PMC5181539
+  title: 'oxBS-MLE: an efficient method to estimate 5-methylcytosine and 5-hydroxymethylcytosine in paired bisulfite and oxidative
+    bisulfite treated DNA'
+links: {}
+added: '2026-11-21'
+evidence: oxBS-MLE models paired bisulfite and oxidative bisulfite sequencing or array data to estimate 5mC and 5hmC.

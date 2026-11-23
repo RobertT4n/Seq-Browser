@@ -1,0 +1,22 @@
+name: HD-6mAPred
+category: dry
+summary: A hybrid deep learning model predicts DNA 6mA sites using sequence encodings, recurrent and convolutional networks,
+  and attention.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.19463
+  year: 2025
+  journal: PeerJ
+  first_author: Li H
+  last_author: Guo X
+  pmid: '40386224'
+  pmcid: PMC12085883
+  title: 'HD-6mAPred: a hybrid deep learning approach for accurate prediction of N6-methyladenine sites in plant species'
+links: {}
+added: '2026-11-21'
+evidence: HD-6mAPred combines BiGRU, CNN and attention components and was tested on Rosaceae, rice and Arabidopsis datasets.

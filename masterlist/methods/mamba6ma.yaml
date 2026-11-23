@@ -1,0 +1,21 @@
+name: Mamba6mA
+category: dry
+summary: A Mamba-based model predicts DNA 6mA sites using position-specific layers and multiscale features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag060
+  year: 2026
+  journal: Bioinformatics
+  first_author: Zhao Q
+  last_author: Fan X
+  pmid: '41645436'
+  pmcid: PMC12960908
+  title: 'Mamba6mA: a Mamba-based DNA N6-methyladenine site prediction model'
+links: {}
+added: '2026-11-21'
+evidence: Mamba6mA combines position-specific linear layers with features captured by sliding windows at different scales.

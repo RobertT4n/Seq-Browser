@@ -1,0 +1,21 @@
+name: EM-DeepSD
+category: dry
+summary: EM-DeepSD decomposes cell-free DNA end-motif profiles and uses machine learning to distinguish cancer patients from
+  controls.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/diagnostics15091156
+  year: 2025
+  journal: Diagnostics (Basel)
+  first_author: Zhao ZY
+  last_author: Jia WH
+  pmid: '40361973'
+  pmcid: PMC12071254
+  title: 'EM-DeepSD: A Deep Neural Network Model Based on Cell-Free DNA End-Motif Signal Decomposition for Cancer Diagnosis'
+links: {}
+added: '2026-11-21'
+evidence: EM-DeepSD decomposes and reconstructs cfDNA end-motif profiles for cancer diagnosis.

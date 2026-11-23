@@ -1,0 +1,30 @@
+name: MM-seq
+full_name: modification-induced mismatch sequencing
+category: wet
+summary: Maps DNA 6mA genome-wide using antibody-stabilized modified sites and nuclease-mediated marking.
+readouts:
+- dna-6ma
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+- human
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41421-022-00484-1
+  year: 2022
+  journal: Cell Discov
+  first_author: Chen LQ
+  last_author: Luo GZ
+  pmid: '36575183'
+  pmcid: PMC9794812
+  title: High-precision mapping reveals rare N<sup>6</sup>-deoxyadenosine methylation in the mammalian genome
+links: {}
+added: '2026-11-21'
+evidence: Antibody-stabilized mismatch-like structures at modified bases are recognized by nucleases that mark sites for sequencing.

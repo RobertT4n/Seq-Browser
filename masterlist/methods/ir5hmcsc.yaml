@@ -1,0 +1,20 @@
+name: iR5hmcSC
+category: dry
+summary: iR5hmcSC uses sequence features and stacking learning to predict RNA 5-hydroxymethylcytosine sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2021.107583
+  year: 2021
+  journal: Comput Biol Chem
+  first_author: Zhang S
+  last_author: Shi H
+  pmid: '34562726'
+  title: 'iR5hmcSC: Identifying RNA 5-hydroxymethylcytosine with multiple features based on stacking learning'
+links: {}
+added: '2026-11-21'
+evidence: iR5hmcSC extracts sequence features and uses an ensemble of machine learning methods to recognize 5hmC and non-5hmC
+  sites.

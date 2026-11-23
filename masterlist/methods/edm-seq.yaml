@@ -1,0 +1,27 @@
+name: EDM-seq
+full_name: engineered deaminase-mediated sequencing
+category: wet
+summary: Engineered A3A selectively deaminates cytosine and 5mC to quantify DNA 5hmC at single-nucleotide resolution.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1039/d2sc01052f
+  year: 2022
+  journal: Chem Sci
+  first_author: Xie NB
+  last_author: Feng YQ
+  pmid: '35774177'
+  pmcid: PMC9200132
+  title: Bisulfite-free and single-nucleotide resolution sequencing of DNA epigenetic modification of 5-hydroxymethylcytosine
+    using engineered deaminase
+links: {}
+added: '2026-11-21'
+evidence: EDM-seq leaves 5hmC unchanged during deamination and quantitatively detected it in lung cancer tissue DNA.

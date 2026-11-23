@@ -1,0 +1,26 @@
+name: OMA-seq
+full_name: orthologous mammalian A3A-mediated sequencing
+category: wet
+summary: Quantifies DNA 5hmC at single-nucleotide resolution using two mammalian A3A deaminases.
+readouts:
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1039/d4sc08660k
+  year: 2025
+  journal: Chem Sci
+  first_author: Guo X
+  last_author: Yuan BF
+  pmid: '39906385'
+  pmcid: PMC11788818
+  title: Orthologous mammalian A3A-mediated single-nucleotide resolution sequencing of DNA epigenetic modification 5-hydroxymethylcytosine
+links: {}
+added: '2026-11-21'
+evidence: Green monkey and dog A3A deaminate cytosine and 5mC while leaving 5hmC unchanged.

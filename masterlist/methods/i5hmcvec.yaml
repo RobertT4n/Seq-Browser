@@ -1,0 +1,20 @@
+name: i5hmCVec
+category: dry
+summary: i5hmCVec uses RNA sequence embeddings and machine learning to identify RNA 5-hydroxymethylcytosine-modified regions.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2022.896925
+  year: 2022
+  journal: Front Genet
+  first_author: Liu HY
+  last_author: Du PF
+  pmid: '35591855'
+  pmcid: PMC9110757
+  title: 'i5hmCVec: Identifying 5-Hydroxymethylcytosine Sites of <i>Drosophila</i> RNA Using Sequence Feature Embeddings'
+links: {}
+added: '2026-11-21'
+evidence: The method represents RNA sequences using a dna2vec-based embedding to identify 5hmC-modified regions.

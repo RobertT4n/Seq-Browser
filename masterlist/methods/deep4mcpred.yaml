@@ -1,0 +1,21 @@
+name: Deep4mcPred
+category: dry
+summary: Deep4mcPred combines residual and recurrent neural networks to predict DNA N4-methylcytosine sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fbioe.2020.00274
+  year: 2020
+  journal: Front Bioeng Biotechnol
+  first_author: Zeng R
+  last_author: Liao M
+  pmid: '32373597'
+  pmcid: PMC7186498
+  title: Developing a Multi-Layer Deep Learning Based Predictive Model to Identify DNA N4-Methylcytosine Modifications
+links: {}
+added: '2026-11-21'
+evidence: Deep4mcPred integrates a residual network and a recurrent neural network to distinguish 4mC sites from non-4mC sites.

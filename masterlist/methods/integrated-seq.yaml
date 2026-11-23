@@ -1,0 +1,28 @@
+name: Integrated-Seq
+full_name: Integrated Sequencing
+category: wet
+summary: Preserves four-base genetic information while profiling DNA modifications in single DNA molecules.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1021/jacs.5c18450
+  year: 2026
+  journal: J Am Chem Soc
+  first_author: Loo CE
+  last_author: Kohli RM
+  pmid: '41812666'
+  pmcid: PMC13022856
+  title: Unnatural Cytosine Analogs Potentiate a Customizable, Enzymatic Method for Integrated Epigenetic and Four-Base Genetic
+    Sequencing
+links: {}
+added: '2026-11-21'
+evidence: Integrated-Seq preserves the original four-base genetic code and supports customizable 5mC and 5hmC readouts in
+  targeted regions.

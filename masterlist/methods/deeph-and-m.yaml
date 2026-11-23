@@ -1,0 +1,25 @@
+name: DeepH&M
+category: dry
+summary: DeepH&M integrates enrichment and restriction enzyme sequencing data to estimate DNA 5hmC and 5mC levels at individual
+  CpGs.
+readouts:
+- dna-methylation
+- dna-5hmc
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1126/sciadv.aba0521
+  year: 2020
+  journal: Sci Adv
+  first_author: He Y
+  last_author: Wang T
+  pmid: '32937429'
+  pmcid: PMC7458459
+  title: 'DeepH&amp;M: Estimating single-CpG hydroxymethylation and methylation levels from enrichment and restriction enzyme
+    sequencing methods'
+links: {}
+added: '2026-11-21'
+evidence: DeepH&M integrates enrichment and restriction enzyme sequencing methods to estimate absolute hydroxymethylation
+  and methylation levels at single-CpG resolution.

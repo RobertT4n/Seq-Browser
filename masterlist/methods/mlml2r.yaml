@@ -1,0 +1,23 @@
+name: MLML2R
+category: dry
+summary: MLML2R provides maximum likelihood estimates of DNA 5mC and 5hmC proportions from combinations of bisulfite-based
+  measurements.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1515/sagmb-2018-0031
+  year: 2019
+  journal: Stat Appl Genet Mol Biol
+  first_author: Kiihl SF
+  last_author: Tellez-Plaza M
+  pmid: '30653470'
+  title: 'MLML2R: an R package for maximum likelihood estimation of DNA methylation and hydroxymethylation proportions'
+links: {}
+added: '2026-11-21'
+evidence: MLML2R estimates 5mC and 5hmC proportions from combinations of traditional, oxidative and TET-assisted bisulfite
+  conversion data.

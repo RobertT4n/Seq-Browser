@@ -1,0 +1,25 @@
+name: Lux
+category: dry
+summary: Lux jointly quantifies cytosine modifications and experimental parameters from combinations of bisulfite sequencing
+  approaches.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- dna-5fc
+- dna-5cac
+resolution:
+- bulk
+scope: targeted
+reference:
+  doi: 10.1186/s13059-016-0911-6
+  year: 2016
+  journal: Genome Biol
+  first_author: Äijö T
+  last_author: Lähdesmäki H
+  pmid: '26975309'
+  pmcid: PMC4792102
+  title: A probabilistic generative model for quantification of DNA modifications enables analysis of demethylation pathways
+links: {}
+added: '2026-11-21'
+evidence: Lux models 5mC, 5hmC, 5fC and 5caC simultaneously and was applied to targeted data.

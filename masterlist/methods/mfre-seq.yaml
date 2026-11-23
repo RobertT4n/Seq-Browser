@@ -1,0 +1,28 @@
+name: MFRE-Seq
+category: wet
+summary: Identifies prokaryotic 5mC methylation motifs by sequencing fragments cleaved with methylation-dependent restriction
+  enzymes.
+readouts:
+- dna-5mc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0247541
+  year: 2021
+  journal: PLoS One
+  first_author: Anton BP
+  last_author: Roberts RJ
+  pmid: '33974631'
+  pmcid: PMC8112702
+  title: Genome-wide identification of 5-methylcytosine sites in bacterial genomes by high-throughput sequencing of MspJI
+    restriction fragments
+links: {}
+added: '2026-11-21'
+evidence: MspJI-family restriction enzymes excise fully methylated fragments, enabling identification of bacterial and archaeal
+  methylation motifs.

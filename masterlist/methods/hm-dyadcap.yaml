@@ -1,0 +1,28 @@
+name: HM-DyadCap
+category: wet
+summary: Captures and maps DNA fragments containing 5hmC/5mC CpG dyads using an evolved methyl-CpG-binding domain.
+readouts:
+- dna-5hmc
+- dna-5mc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nar/gkag389
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Engelhard L
+  last_author: Summerer D
+  pmid: '42023651'
+  pmcid: PMC13103736
+  title: HM-DyadCap - capture and mapping of 5-hydroxymethylcytosine/5-methylcytosine CpG dyads in mammalian DNA
+links: {}
+added: '2026-11-21'
+evidence: An evolved MECP2 methyl-CpG-binding domain captures and sequences fragments containing hmC/mC CpG dyads.

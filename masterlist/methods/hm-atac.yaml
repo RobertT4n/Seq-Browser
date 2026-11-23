@@ -1,0 +1,27 @@
+name: hM-ATAC
+category: wet
+summary: Uses a tagmentation-based approach to assess chromatin accessibility alongside DNA 5hmC.
+readouts:
+- dna-5hmc
+- dna-methylation
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.06.12.731885
+  year: 2026
+  journal: bioRxiv
+  first_author: Morales-Franco M
+  last_author: Greenberg MV
+  title: Dual profiling of DNA modifications with enhancer features during the exit of naive pluripotency
+links: {}
+added: '2026-11-21'
+evidence: The authors modified a tagmentation-based technique to interrogate 5hmC dynamics during mouse embryonic stem cell
+  transitions.

@@ -1,0 +1,26 @@
+name: MASQC
+full_name: MeDIP-seq assists SMRT-seq for quality control in 6mA identification
+category: dry
+summary: A quality-control method uses MeDIP-seq to help identify false-positive DNA 6mA calls from SMRT sequencing.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.3389/fgene.2020.00269
+  year: 2020
+  journal: Front Genet
+  first_author: Yang S
+  last_author: Dai Q
+  pmid: '32269589'
+  pmcid: PMC7109398
+  title: 'MASQC: Next Generation Sequencing Assists Third Generation Sequencing for Quality Control in N6-Methyladenine DNA
+    Identification'
+links: {}
+added: '2026-11-21'
+evidence: MASQC was assessed on two eukaryotic and six bacterial genomes for quality control of false-positive 6mA identification.

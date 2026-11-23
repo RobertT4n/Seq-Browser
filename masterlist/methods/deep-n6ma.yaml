@@ -1,0 +1,21 @@
+name: Deep-N6mA
+category: dry
+summary: A deep neural network predicts DNA 6mA sites using sequence-derived features and principal component analysis.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12920-025-02131-6
+  year: 2025
+  journal: BMC Med Genomics
+  first_author: Khan S
+  last_author: Ahmad N
+  pmid: '40158097'
+  pmcid: PMC11955129
+  title: N6-methyladenine identification using deep learning and discriminative feature integration
+links: {}
+added: '2026-11-21'
+evidence: Deep-N6mA extracts multiple DNA sequence features and uses PCA to select informative features for 6mA identification.

@@ -1,0 +1,28 @@
+name: fibertools
+category: dry
+summary: A toolkit calls exogenously placed DNA 6mA and integrates genetic and epigenetic information from long reads.
+readouts:
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+- nanopore
+reference:
+  doi: 10.1101/gr.279095.124
+  year: 2024
+  journal: Genome Res
+  first_author: Jha A
+  last_author: Vollger MR
+  pmid: '38849157'
+  pmcid: PMC11610455
+  title: DNA-m6A calling and integrated long-read epigenetic and genetic analysis with &lt;i&gt;fibertools&lt;/i&gt;
+links: {}
+added: '2026-11-21'
+evidence: fibertools identifies m6A-marked bases in PacBio reads and coprocesses genetic and epigenetic data from PacBio or
+  nanopore sequencing.

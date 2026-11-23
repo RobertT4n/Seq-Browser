@@ -1,0 +1,25 @@
+name: Methylartist
+category: dry
+summary: A suite for processing, visualising and analysing nanopore modified-base data.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2021.07.22.453313
+  year: 2021
+  journal: bioRxiv
+  first_author: Cheetham SW
+  last_author: Ewing AD
+  title: 'Methylartist: Tools for Visualising Modified Bases from Nanopore Sequence Data'
+links: {}
+added: '2026-11-21'
+evidence: The suite processes, visualises and analyses nanopore methylation data from modified basecalling methods, including
+  5mCpG, 5hmC and 6mA.

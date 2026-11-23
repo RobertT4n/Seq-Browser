@@ -1,0 +1,23 @@
+name: iDNA-MS
+category: dry
+summary: A random forest predicts DNA 5hmC, 6mA and 4mC sites from encoded nucleotide sequences.
+readouts:
+- dna-methylation
+- dna-5hmc
+- dna-6ma
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.isci.2020.100991
+  year: 2020
+  journal: iScience
+  first_author: Lv H
+  last_author: Lin H
+  pmid: '32240948'
+  pmcid: PMC7115099
+  title: 'iDNA-MS: An Integrated Computational Tool for Detecting DNA Modification Sites in Multiple Genomes'
+links: {}
+added: '2026-11-21'
+evidence: iDNA-MS uses nucleotide encoding schemes and a random forest to identify 5hmC, 6mA and 4mC sites.

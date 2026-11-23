@@ -1,0 +1,21 @@
+name: i4mC-Deep
+category: dry
+summary: A convolutional neural network predicts DNA 4mC sites from nucleotide chemical properties and density.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12081117
+  year: 2021
+  journal: Genes (Basel)
+  first_author: Alam W
+  last_author: Chong KT
+  pmid: '34440291'
+  pmcid: PMC8393747
+  title: 'i4mC-Deep: An Intelligent Predictor of N4-Methylcytosine Sites Using a Deep Learning Approach with Chemical Properties'
+links: {}
+added: '2026-11-21'
+evidence: i4mC-Deep uses nucleotide chemical properties and density as inputs to a CNN that predicts 4mC modification sites.

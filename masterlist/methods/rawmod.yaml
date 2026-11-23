@@ -1,0 +1,23 @@
+name: RawMod
+category: dry
+summary: A transformer detects modified genomic sites from nanopore signal pileups without requiring a control or specifying
+  the modification type.
+readouts:
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2026.11.10.765445
+  year: 2026
+  journal: bioRxiv
+  first_author: Srinivasan B
+  last_author: Firtina C
+  title: 'RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups'
+links: {}
+added: '2026-11-21'
+evidence: RawMod compares signals from many reads at each site with an unmodified reference sequence to detect modifications
+  as one class.

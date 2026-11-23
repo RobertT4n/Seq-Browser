@@ -1,0 +1,20 @@
+name: 4mCPred
+category: dry
+summary: 4mCPred uses machine learning models to predict DNA N4-methylcytosine sites in six species.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty668
+  year: 2019
+  journal: Bioinformatics
+  first_author: He W
+  last_author: Zou Q
+  pmid: '30052767'
+  title: '4mCPred: machine learning methods for DNA N4-methylcytosine sites prediction'
+links: {}
+added: '2026-11-21'
+evidence: 4mCPred predicts 4mC sites using two independent models for each of six species.

@@ -1,0 +1,20 @@
+name: 4mCFSNet
+category: dry
+summary: A multiscale deep learning model predicts DNA 4mC sites across species from one-hot encoded sequences.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3233/shti230878
+  year: 2023
+  journal: Stud Health Technol Inform
+  first_author: Li W
+  last_author: Yang X
+  pmid: '38007778'
+  title: '4mCFSNet: A Feature Fusion-Based Multi-Scale Representations for Predicting DNA N4-Methylcytosine Sites'
+links: {}
+added: '2026-11-21'
+evidence: 4mCFSNet uses one-hot sequence encoding and multiscale fusion modules for multispecies 4mC classification.

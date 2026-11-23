@@ -1,0 +1,24 @@
+name: eNAPS
+full_name: engineered NTET-assisted pyridine borane sequencing
+category: wet
+summary: Quantitatively maps DNA 5mC at single-base resolution using engineered NTET oxidation and pyridine borane reduction.
+readouts:
+- dna-5mc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+reference:
+  doi: 10.1039/d5sc03634h
+  year: 2025
+  journal: Chem Sci
+  first_author: Zhang S
+  last_author: Yuan BF
+  pmid: '40687699'
+  pmcid: PMC12273497
+  title: Direct sequencing of DNA 5-methylcytosine by engineered dioxygenase NTET-assisted eNAPS
+links: {}
+added: '2026-11-21'
+evidence: eNTET oxidizes 5mC to 5fC and 5caC, which are reduced and read as thymine during sequencing.

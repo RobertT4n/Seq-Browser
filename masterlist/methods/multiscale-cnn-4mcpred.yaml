@@ -1,0 +1,23 @@
+name: MultiScale-CNN-4mCPred
+category: dry
+summary: An adaptive embedding and multiscale neural network predicts DNA 4mC sites in the mouse genome.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-023-05135-0
+  year: 2023
+  journal: BMC Bioinformatics
+  first_author: Zheng P
+  last_author: Huang G
+  pmid: '36653789'
+  pmcid: PMC9847203
+  title: 'MultiScale-CNN-4mCPred: a multi-scale CNN and adaptive embedding-based method for mouse genome DNA N4-methylcytosine
+    prediction'
+links: {}
+added: '2026-11-21'
+evidence: MultiScale-CNN-4mCPred uses adaptive nucleotide embedding, multiscale CNNs and long short-term memory to predict
+  mouse 4mC sites.

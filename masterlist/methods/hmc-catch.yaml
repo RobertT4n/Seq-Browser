@@ -1,0 +1,29 @@
+name: hmC-CATCH
+category: wet
+summary: Selective oxidation and chemical labeling enable bisulfite-free, base-resolution genome-wide detection of 5hmC from
+  nanoscale DNA inputs.
+readouts:
+- dna-methylation
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+input_sample:
+- low-input
+reference:
+  doi: 10.1021/jacs.8b08297
+  year: 2018
+  journal: J Am Chem Soc
+  first_author: Zeng H
+  last_author: Yi C
+  pmid: '30278133'
+  pmcid: PMC6423965
+  title: Bisulfite-Free, Nanoscale Analysis of 5-Hydroxymethylcytosine at Single Base Resolution
+links: {}
+added: '2026-11-21'
+evidence: hmC-CATCH uses selective 5hmC oxidation, chemical labeling and a C-to-T transition during PCR to profile human embryonic
+  stem-cell and cell-free DNA.

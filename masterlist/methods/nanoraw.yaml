@@ -1,0 +1,24 @@
+name: nanoraw
+category: dry
+summary: A nanopore signal-processing algorithm discovers modified DNA bases without prior training data.
+readouts:
+- dna-methylation
+- dna-4mc
+- dna-5mc
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/094672
+  year: 2016
+  journal: bioRxiv
+  first_author: Stoiber M
+  last_author: Brown J
+  title: <i>De novo</i>  Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing
+links: {}
+added: '2026-11-21'
+evidence: nanoraw assigns raw nanopore signal to genomic positions and identified 4mC, 5mC and 6mA in ground-truth case studies.

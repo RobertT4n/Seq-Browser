@@ -1,0 +1,22 @@
+name: i4mC-Mouse
+category: dry
+summary: i4mC-Mouse combines random forest models trained on sequence encodings to predict DNA N4-methylcytosine sites in
+  the mouse genome.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2020.04.001
+  year: 2020
+  journal: Comput Struct Biotechnol J
+  first_author: Hasan MM
+  last_author: Kurata H
+  pmid: '32322372'
+  pmcid: PMC7168350
+  title: 'i4mC-Mouse: Improved identification of DNA N4-methylcytosine sites in the mouse genome using multiple encoding schemes'
+links: {}
+added: '2026-11-21'
+evidence: i4mC-Mouse linearly combines probability scores from random forest-based encoding models to identify mouse 4mC sites.

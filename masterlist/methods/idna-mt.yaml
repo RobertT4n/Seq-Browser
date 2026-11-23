@@ -1,0 +1,24 @@
+name: iDNA-MT
+category: dry
+summary: A multitask neural network predicts DNA 4mC and 6mA sites across multiple species from primary sequences.
+readouts:
+- dna-methylation
+- dna-4mc
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.663572
+  year: 2021
+  journal: Front Genet
+  first_author: Yang X
+  last_author: Wei L
+  pmid: '33868390'
+  pmcid: PMC8044371
+  title: 'iDNA-MT: Identification DNA Modification Sites in Multiple Species by Using Multi-Task Learning Based a Neural Network
+    Tool'
+links: {}
+added: '2026-11-21'
+evidence: iDNA-MT uses multitask learning and bidirectional gated recurrent units to identify 4mC and 6mA sites in multiple
+  species.

@@ -1,0 +1,22 @@
+name: 4mC-w2vec
+category: dry
+summary: A word-embedding and convolutional neural network model predicts DNA 4mC sites in Rosaceae genomes.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2021.03.015
+  year: 2021
+  journal: Comput Struct Biotechnol J
+  first_author: Khanal J
+  last_author: Chong KT
+  pmid: '33868598'
+  pmcid: PMC8042287
+  title: Identifying DNA N4-methylcytosine sites in the rosaceae genome with a deep learning model relying on distributed
+    feature representation
+links: {}
+added: '2026-11-21'
+evidence: 4mC-w2vec uses word2vec embeddings and a two-layer CNN to classify sequences containing 4mC sites in Rosaceae genomes.

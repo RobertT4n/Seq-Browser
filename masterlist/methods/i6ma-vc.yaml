@@ -1,0 +1,21 @@
+name: i6mA-VC
+category: dry
+summary: A voting classifier predicts DNA 6mA sites using selected sequence-derived features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-021-00429-4
+  year: 2021
+  journal: Interdiscip Sci
+  first_author: Xue T
+  last_author: Qiao H
+  pmid: '33834381'
+  title: 'i6mA-VC: A Multi-Classifier Voting Method for the Computational Identification of DNA N6-methyladenine Sites'
+links: {}
+added: '2026-11-21'
+evidence: i6mA-VC combines selected DNA sequence features with a voting classifier comprising GBDT, LightGBM and a multilayer
+  perceptron.

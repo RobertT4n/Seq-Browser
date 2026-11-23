@@ -1,0 +1,21 @@
+name: DS6mA
+category: dry
+summary: A dual-branch contrastive neural network predicts DNA 6mA sites from sequence features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jcim.5c01058
+  year: 2025
+  journal: J Chem Inf Model
+  first_author: Sun Y
+  last_author: Yu DJ
+  pmid: '40558076'
+  title: Dual-Branch Contrastive Network with Deep Separable Convolution for Enhanced 6mA Site Identification
+links: {}
+added: '2026-11-21'
+evidence: DS6mA uses a dual-branch contrastive network and deep separable convolution to extract positional information from
+  DNA sequences.

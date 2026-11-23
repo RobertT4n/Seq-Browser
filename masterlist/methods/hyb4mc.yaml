@@ -1,0 +1,22 @@
+name: Hyb4mC
+category: dry
+summary: A DNA2vec-based deep learning framework predicts DNA 4mC sites using alternative neural network submodels.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-022-04789-6
+  year: 2022
+  journal: BMC Bioinformatics
+  first_author: Liang Y
+  last_author: Tang J
+  pmid: '35768759'
+  pmcid: PMC9241225
+  title: 'Hyb4mC: a hybrid DNA2vec-based model for DNA N4-methylcytosine sites prediction'
+links: {}
+added: '2026-11-21'
+evidence: Hyb4mC uses DNA2vec sequence embedding followed by either a capsule network or an attention-equipped convolutional
+  network.

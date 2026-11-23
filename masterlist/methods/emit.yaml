@@ -1,0 +1,21 @@
+name: EMIT
+full_name: end-motif inspection via transformer
+category: dry
+summary: EMIT learns representations of cell-free DNA end-motifs to distinguish individuals with and without cancer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41698-024-00635-5
+  year: 2024
+  journal: NPJ Precis Oncol
+  first_author: Shen H
+  last_author: Li X
+  pmid: '39068267'
+  pmcid: PMC11283569
+  title: Development of a deep learning model for cancer diagnosis by inspecting cell-free DNA end-motifs
+links: {}
+added: '2026-11-21'
+evidence: EMIT is a self-supervised model that learns cfDNA end-motif rankings for cancer classification.

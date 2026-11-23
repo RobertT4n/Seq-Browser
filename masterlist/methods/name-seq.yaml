@@ -1,0 +1,24 @@
+name: NAME-seq
+full_name: Nitrite-assisted Amino MEthylation sequencing
+category: wet
+summary: Chemically converts DNA 6mA to enable genome-wide mapping and quantification at single-base resolution.
+readouts:
+- dna-6ma
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry_unknown: Nitrite-based chemical deamination of unmodified adenine has no matching chemistry tag
+species:
+- microbe
+- human
+reference:
+  doi: 10.21203/rs.3.rs-2286301/v1
+  year: 2022
+  journal: Research Square
+  first_author: Li X
+  last_author: Wu T
+  title: Quantitative profiling of DNA 6mA at single-base resolution using NAME-seq
+links: {}
+added: '2026-11-21'
+evidence: NAME-seq converts 6mA to nitrosylated 6mA and induces a 6mA-to-T transversion for quantitative mapping.

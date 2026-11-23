@@ -1,0 +1,23 @@
+name: EnDeep4mC
+category: dry
+summary: A species-adaptive deep ensemble predicts DNA 4mC sites using optimised feature encodings.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.280977.125
+  year: 2026
+  journal: Genome Res
+  first_author: Zhang S
+  last_author: Luo X
+  pmid: '41702707'
+  pmcid: PMC12951953
+  title: EnDeep4mC predicts DNA &lt;i&gt;N&lt;/i&gt; &lt;sup&gt;4&lt;/sup&gt;-methylcytosine sites using a dual-adaptive feature
+    encoding framework in deep ensembles
+links: {}
+added: '2026-11-21'
+evidence: EnDeep4mC integrates species-specific modelling and ensemble deep learning to optimise feature encoding for 4mC
+  prediction.

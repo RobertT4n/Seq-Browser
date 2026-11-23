@@ -1,0 +1,22 @@
+name: LapRSRC
+full_name: Laplacian Regularized Sparse Representation based Classifier
+category: dry
+summary: A Laplacian-regularised sparse representation classifier predicts DNA 4mC sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2021.3133309
+  year: 2023
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Ding Y
+  last_author: Guo F
+  pmid: '34882559'
+  title: Laplacian Regularized Sparse Representation Based Classifier for Identifying DNA N4-Methylcytosine Sites via L<sub>2,1/2</sub>-Matrix
+    Norm
+links: {}
+added: '2026-11-21'
+evidence: LapRSRC uses an L2,1/2 matrix norm and was evaluated on six 4mC benchmark datasets.

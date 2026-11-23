@@ -1,0 +1,24 @@
+name: nitrite sequencing
+category: wet
+summary: Uses nitrite deamination to identify N6-adenine methylation sites in DNA and RNA at single-nucleotide resolution.
+readouts:
+- dna-6ma
+- dna-methylation
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.1039/d0sc03509b
+  year: 2020
+  journal: Chem Sci
+  first_author: Mahdavi-Amiri Y
+  last_author: Hili R
+  pmid: '34163791'
+  pmcid: PMC8179008
+  title: Single-nucleotide resolution of <i>N</i> <sup>6</sup>-adenine methylation sites in DNA and RNA by nitrite sequencing
+links: {}
+added: '2026-11-21'
+evidence: Unmethylated adenines are deaminated and read as guanine, while N6-methylated adenines resist deamination.

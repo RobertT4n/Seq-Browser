@@ -1,0 +1,25 @@
+name: MuLan-Methyl
+category: dry
+summary: MuLan-Methyl combines transformer-based language models to predict DNA 6mA, 4mC and 5hmC sites.
+readouts:
+- dna-methylation
+- dna-6ma
+- dna-4mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giad054
+  year: 2022
+  journal: Gigascience
+  first_author: Zeng W
+  last_author: Huson DH
+  pmid: '37489753'
+  pmcid: PMC10367125
+  title: MuLan-Methyl-multiple transformer-based language models for accurate DNA methylation prediction
+  preprint_doi: 10.1101/2023.01.04.522704
+links: {}
+added: '2026-11-21'
+evidence: MuLan-Methyl uses five transformer-based language models to predict N6-adenine, N4-cytosine and 5-hydroxymethylcytosine
+  methylation sites.

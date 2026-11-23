@@ -1,0 +1,21 @@
+name: CG6mA
+full_name: multi-scale convolutional model based on global response normalization
+category: dry
+summary: A multiscale convolutional model with global response normalization predicts DNA 6mA sites.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.ymeth.2024.07.012
+  year: 2024
+  journal: Methods
+  first_author: Han K
+  last_author: Zou Q
+  pmid: '39097179'
+  title: Deep learning based method for predicting DNA N6-methyladenosine sites
+links: {}
+added: '2026-11-21'
+evidence: CG6mA is a deep learning model proposed for 6mA site prediction and tested on three benchmark datasets.

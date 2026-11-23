@@ -1,0 +1,25 @@
+name: ZIP-seq
+category: wet
+summary: Profiles Z-DNA genome-wide using anti-Z-DNA immunoprecipitation followed by sequencing.
+readouts:
+- dna-secondary-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- plant
+reference:
+  doi: 10.1111/pbi.14585
+  year: 2025
+  journal: Plant Biotechnol J
+  first_author: He Z
+  last_author: Zhang W
+  pmid: '39968963'
+  pmcid: PMC11933839
+  title: Global identification and functional characterization of Z-DNA in rice
+links: {}
+added: '2026-11-21'
+evidence: The authors developed anti-Z-DNA antibody-based immunoprecipitation followed by sequencing to characterize Z-DNA
+  in rice.

@@ -1,0 +1,29 @@
+name: 6-Letter sequencing
+category: wet
+summary: A nondestructive sequencing workflow reads genetic bases together with 5mC and 5hmC at single-base resolution.
+readouts:
+- genome-sequence
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41587-022-01652-0
+  year: 2023
+  journal: Nat Biotechnol
+  first_author: Füllgrabe J
+  last_author: Balasubramanian S
+  pmid: '36747096'
+  pmcid: PMC10567558
+  title: Simultaneous sequencing of genetic and epigenetic bases in DNA
+  preprint_doi: 10.1101/2022.07.08.499285
+links: {}
+added: '2026-11-21'
+evidence: The method simultaneously sequences G, C, T, A, 5mC and 5hmC and was demonstrated on human genomic and cell-free
+  DNA.

@@ -1,0 +1,22 @@
+name: I-DNAN6mA
+category: dry
+summary: A three-stage deep learning model predicts DNA 6mA sites using base-pairing rules and paired inputs.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1021/acs.jcim.2c01465
+  year: 2023
+  journal: J Chem Inf Model
+  first_author: Fan XQ
+  last_author: Guo ZY
+  pmid: '36722621'
+  title: 'I-DNAN6mA: Accurate Identification of DNA N<sup>6</sup>-Methyladenine Sites Using the Base-Pairing Map and Deep
+    Learning'
+links: {}
+added: '2026-11-21'
+evidence: I-DNAN6mA identifies 6mA sites by leveraging base-pairing rules and a three-stage deep learning model with pairwise
+  inputs.

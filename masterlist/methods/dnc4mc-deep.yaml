@@ -1,0 +1,23 @@
+name: DNC4mC-Deep
+category: dry
+summary: DNC4mC-Deep combines sequence encoding schemes and deep learning to predict DNA N4-methylcytosine sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/cells9081756
+  year: 2020
+  journal: Cells
+  first_author: Wahab A
+  last_author: Chong KT
+  pmid: '32707969'
+  pmcid: PMC7465362
+  title: 'DNC4mC-Deep: Identification and Analysis of DNA N4-Methylcytosine Sites Based on Different Encoding Schemes By Using
+    Deep Learning'
+links: {}
+added: '2026-11-21'
+evidence: DNC4mC-Deep uses six encoding techniques and a deep learning model to predict 4mC sites in F. vesca, R. chinensis
+  and a cross-species dataset.

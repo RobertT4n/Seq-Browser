@@ -1,0 +1,23 @@
+name: 6mA-seq
+category: wet
+summary: Identifies bacterial adenine methylation patterns at GATC sites.
+readouts:
+- dna-6ma
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1101/2021.02.08.430217
+  year: 2021
+  journal: bioRxiv
+  first_author: Spurbeck RR
+  last_author: Albrecht KM
+  title: Whole genome 6-methyladenosine sequencing (6-mA-Seq) enables bacterial epigenomics studies
+links: {}
+added: '2026-11-21'
+evidence: The method identifies methylation patterns in bacteria that methylate adenines at GATC sites.

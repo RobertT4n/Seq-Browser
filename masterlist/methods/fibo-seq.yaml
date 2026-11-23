@@ -1,0 +1,26 @@
+name: FIBo-seq
+category: wet
+summary: Detects RNA 5-formylcytidine with improved specificity and sensitivity.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-025-66090-3
+  year: 2025
+  journal: Nat Commun
+  first_author: Dehnen JA
+  last_author: Niehrs C
+  pmid: '41219180'
+  pmcid: PMC12606350
+  title: 5-Formylcytosine is not a prevalent RNA modification in mammalian cells
+links: {}
+added: '2026-11-21'
+evidence: FIBo-seq was developed for more specific and sensitive f5C sequencing in mouse embryonic stem cells.

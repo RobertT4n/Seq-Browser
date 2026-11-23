@@ -1,0 +1,20 @@
+name: SOMM4mC
+category: dry
+summary: SOMM4mC predicts DNA N4-methylcytosine sites using a second-order Markov model of adjacent nucleotide transitions.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa507
+  year: 2020
+  journal: Bioinformatics
+  first_author: Yang J
+  last_author: Pian C
+  pmid: '32413127'
+  title: 'SOMM4mC: a second-order Markov model for DNA N4-methylcytosine site prediction in six species'
+links: {}
+added: '2026-11-21'
+evidence: SOMM4mC uses transition probabilities between adjacent nucleotides to identify 4mC sites.

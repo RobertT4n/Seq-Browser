@@ -1,0 +1,25 @@
+name: DeepMod
+category: dry
+summary: A recurrent neural network detects DNA base modifications from raw nanopore electrical signals.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1038/s41467-019-10168-2
+  year: 2019
+  journal: Nat Commun
+  first_author: Liu Q
+  last_author: Wang K
+  pmid: '31164644'
+  pmcid: PMC6547721
+  title: Detection of DNA base modifications by deep recurrent neural network on Oxford Nanopore sequencing data
+links: {}
+added: '2026-11-21'
+evidence: DeepMod uses raw nanopore signals and was evaluated for 5mC and 6mA detection in multiple genomes.

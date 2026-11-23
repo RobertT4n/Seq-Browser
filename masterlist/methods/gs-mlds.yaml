@@ -1,0 +1,23 @@
+name: GS-MLDS
+full_name: grid search-based multi-layer dynamic ensemble system
+category: dry
+summary: A dynamic ensemble using word2vec and convolutional neural networks predicts DNA 4mC sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes14030582
+  year: 2023
+  journal: Genes (Basel)
+  first_author: Halder RK
+  last_author: Alazab A
+  pmid: '36980853'
+  pmcid: PMC10048346
+  title: A Grid Search-Based Multilayer Dynamic Ensemble System to Identify DNA N4-Methylcytosine Using Deep Learning Approach
+links: {}
+added: '2026-11-21'
+evidence: GS-MLDS uses word2vec and a multi-configured one-dimensional CNN with grid-search-based weight selection to predict
+  4mC sites.

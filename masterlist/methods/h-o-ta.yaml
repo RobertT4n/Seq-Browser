@@ -1,0 +1,22 @@
+name: H(O)TA
+category: dry
+summary: H(O)TA uses stochastic modeling of hairpin bisulfite sequencing time courses to estimate DNA methylation and hydroxymethylation
+  levels.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx042
+  year: 2017
+  journal: Bioinformatics
+  first_author: Kyriakopoulos C
+  last_author: Wolf V
+  pmid: '28130236'
+  title: 'H(O)TA: estimation of DNA methylation and hydroxylation levels and efficiencies from time course data'
+links: {}
+added: '2026-11-21'
+evidence: H(O)TA simultaneously analyzes time course data from hairpin bisulfite and hairpin oxidative bisulfite sequencing.

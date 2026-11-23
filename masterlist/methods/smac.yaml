@@ -1,0 +1,25 @@
+name: SMAC
+full_name: single-molecule 6mA analysis of CCS reads
+category: dry
+summary: A framework detects DNA 6mA on individual molecules using SMRT circular consensus sequencing kinetics.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bib/bbaf153
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Li H
+  last_author: Gao S
+  pmid: '40205850'
+  pmcid: PMC11980416
+  title: 'SMAC: identifying DNA N6-methyladenine (6mA) at the single-molecule level using SMRT CCS data'
+links: {}
+added: '2026-11-21'
+evidence: SMAC uses kinetic indicators from single DNA molecules to detect 6mA in SMRT CCS data.

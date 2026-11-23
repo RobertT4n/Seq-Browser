@@ -1,0 +1,28 @@
+name: Click-IP-Seq
+category: wet
+summary: Uses click-coupled IgG and Protein A/G to enrich modified DNA and map 8-oxo-dG genome-wide.
+readouts:
+- dna-damage
+- dna-5hmc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bioorthogonal-conjugation
+species:
+- human
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acs.analchem.5c06134
+  year: 2026
+  journal: Anal Chem
+  first_author: Zhai J
+  last_author: Liu C
+  pmid: '41693615'
+  title: Universal Enrichment and Sequencing of DNA Modifications Using a Click-Coupled IgG-Protein A/G System
+links: {}
+added: '2026-11-21'
+evidence: Click-IP-Seq enriched 8-oxo-dG and 5hmC in model DNA and mapped 8-oxo-dG in cultured cells and human tissues.

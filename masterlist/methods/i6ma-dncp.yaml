@@ -1,0 +1,23 @@
+name: i6mA-DNCP
+category: dry
+summary: A bagging classifier predicts rice DNA 6mA sites using selected dinucleotide-based features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes10100828
+  year: 2019
+  journal: Genes (Basel)
+  first_author: Kong L
+  last_author: Zhang L
+  pmid: '31635172'
+  pmcid: PMC6826501
+  title: 'i6mA-DNCP: Computational Identification of DNA <i>N</i><sup>6</sup>-Methyladenine Sites in the Rice Genome Using
+    Optimized Dinucleotide-Based Features'
+links: {}
+added: '2026-11-21'
+evidence: i6mA-DNCP uses dinucleotide composition and DNA properties with a bagging classifier to identify 6mA sites in the
+  rice genome.

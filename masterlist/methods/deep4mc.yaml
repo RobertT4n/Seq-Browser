@@ -1,0 +1,22 @@
+name: Deep4mC
+category: dry
+summary: Deep4mC uses convolutional neural networks and sequence features to predict DNA N4-methylcytosine sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaa099
+  year: 2021
+  journal: Brief Bioinform
+  first_author: Xu H
+  last_author: Zhao Z
+  pmid: '32578842'
+  pmcid: PMC8138820
+  title: 'Deep4mC: systematic assessment and computational prediction for DNA N4-methylcytosine sites by deep learning'
+links: {}
+added: '2026-11-21'
+evidence: Deep4mC is a deep learning-based 4mC site predictor using convolutional neural networks with four representative
+  features.

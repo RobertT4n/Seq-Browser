@@ -1,0 +1,25 @@
+name: modFDR
+category: dry
+summary: A framework evaluates nanopore DNA modification calls using false discovery rates and designed negative controls.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.1101/2024.11.19.624260
+  year: 2024
+  journal: bioRxiv
+  first_author: Kong Y
+  last_author: Fang G
+  title: Incorporating FDR into the assessment of nanopore sequencing for the reliable detection of DNA modifications in real
+    applications
+links: {}
+added: '2026-11-21'
+evidence: modFDR emphasizes false discovery rates with negative controls that capture background and confounding modifications.

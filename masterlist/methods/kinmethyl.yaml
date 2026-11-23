@@ -1,0 +1,28 @@
+name: KinMethyl
+category: dry
+summary: A deep learning framework combines sequence and kinetic signals to detect DNA methylation in prokaryotic SMRT sequencing
+  data.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-6ma
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+platform:
+- long-read
+- pacbio
+reference:
+  doi: 10.1093/bioadv/vbaf249
+  year: 2025
+  journal: Bioinform Adv
+  first_author: Zhang J
+  last_author: Saito Y
+  pmid: '41141336'
+  pmcid: PMC12552093
+  title: 'KinMethyl: robust methylation detection in prokaryotic SMRT sequencing via kinetic signal modeling and deep feature
+    integration'
+links: {}
+added: '2026-11-21'
+evidence: KinMethyl integrates sequence and kinetic signals and detects 5mC, 6mA and 4mC across bacterial genomes.

@@ -1,0 +1,25 @@
+name: DIRECTION
+category: dry
+summary: A supervised learning framework predicts genome-wide DNA methylation and hydroxymethylation at CpG sites and imputes
+  missing or low-quality sequencing data.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx316
+  year: 2017
+  journal: Bioinformatics
+  first_author: Pavlovic M
+  last_author: Zhang MQ
+  pmid: '28505334'
+  pmcid: PMC5870843
+  title: 'DIRECTION: a machine learning framework for predicting and characterizing DNA methylation and hydroxymethylation
+    in mammalian genomes'
+links: {}
+added: '2026-11-21'
+evidence: The abstract describes whole-genome methylation and hydroxymethylation prediction at CpG dinucleotides and imputation
+  of missing or low-quality sequencing data.

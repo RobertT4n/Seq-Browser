@@ -1,0 +1,21 @@
+name: 4mCPred-CNN
+category: dry
+summary: A convolutional neural network predicts mouse DNA 4mC sites from one-hot encoded sequences.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/genes12020296
+  year: 2021
+  journal: Genes (Basel)
+  first_author: Abbas Z
+  last_author: Chong KT
+  pmid: '33672576'
+  pmcid: PMC7924022
+  title: 4mCPred-CNN-Prediction of DNA N4-Methylcytosine in the Mouse Genome Using a Convolutional Neural Network
+links: {}
+added: '2026-11-21'
+evidence: 4mCPred-CNN uses one-hot encoding and a CNN to classify 4mC locations in the mouse genome.

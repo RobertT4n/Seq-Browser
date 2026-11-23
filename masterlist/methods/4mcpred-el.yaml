@@ -1,0 +1,22 @@
+name: 4mCpred-EL
+category: dry
+summary: 4mCpred-EL uses ensemble learning and sequence features to predict DNA N4-methylcytosine sites in the mouse genome.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/cells8111332
+  year: 2019
+  journal: Cells
+  first_author: Manavalan B
+  last_author: Lee G
+  pmid: '31661923'
+  pmcid: PMC6912380
+  title: '4mCpred-EL: An Ensemble Learning Framework for Identification of DNA <i>N</i><sup>4</sup>-methylcytosine Sites in
+    the Mouse Genome'
+links: {}
+added: '2026-11-21'
+evidence: 4mCpred-EL integrates machine learning models and feature encodings to identify 4mC sites in the mouse genome.

@@ -1,0 +1,27 @@
+name: oxBS-Pyroseq
+full_name: oxidative bisulfite pyrosequencing
+category: wet
+summary: Selective oxidation combined with bisulfite pyrosequencing quantifies 5mC and 5hmC at selected promoter CpG sites.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+validated_system:
+- cell-line
+- tissue-in-vivo
+reference:
+  doi: 10.1166/jbn.2015.2092
+  year: 2015
+  journal: J Biomed Nanotechnol
+  first_author: Qui Y
+  last_author: Hou P
+  pmid: '26353591'
+  title: A Strategy for Accurate Quantification of 5-Methylcytosine and 5-Hydroxymethylcytosine at CpG Sites Within Gene Promoter
+links: {}
+added: '2026-11-21'
+evidence: The combined strategy quantified 5mC and 5hmC at CpG sites in four gene promoters in cell lines and clinical samples.

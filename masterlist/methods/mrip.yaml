@@ -1,0 +1,23 @@
+name: MrIP
+full_name: multiple-round immunoprecipitation
+category: wet
+summary: Enriches 6mA-containing DNA fragments through multiple rounds of immunoprecipitation for genome-wide sequencing.
+readouts:
+- dna-6ma
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.1021/acs.analchem.8b01087
+  year: 2018
+  journal: Anal Chem
+  first_author: Liu X
+  last_author: Wang H
+  pmid: '29652489'
+  title: Predominance of N<sup>6</sup>-Methyladenine-Specific DNA Fragments Enriched by Multiple Immunoprecipitation
+links: {}
+added: '2026-11-21'
+evidence: Multiple-round immunoprecipitation enriched 6mA-containing fragments over 9100-fold.

@@ -1,0 +1,26 @@
+name: caCLEAR
+category: wet
+summary: Maps genomic 5caC in CpG sites using enzymatic decarboxylation and sequencing.
+readouts:
+- dna-5cac
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.celrep.2020.108155
+  year: 2020
+  journal: Cell Rep
+  first_author: Ličytė J
+  last_author: Kriukienė E
+  pmid: '32937122'
+  title: A Bisulfite-free Approach for Base-Resolution Analysis of Genomic 5-Carboxylcytosine
+links: {}
+added: '2026-11-21'
+evidence: eM.SssI removes the carboxyl group from 5caC, generating unmodified CGs localized by uTOP-seq.

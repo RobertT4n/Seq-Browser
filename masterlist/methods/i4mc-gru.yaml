@@ -1,0 +1,23 @@
+name: i4mC-GRU
+category: dry
+summary: A gated recurrent neural network predicts mouse DNA 4mC sites using duplet sequence-embedded features.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2023.05.014
+  year: 2023
+  journal: Comput Struct Biotechnol J
+  first_author: Nguyen-Vo TH
+  last_author: Nguyen BP
+  pmid: '37273848'
+  pmcid: PMC10238585
+  title: 'i4mC-GRU: Identifying DNA N<sup>4</sup>-Methylcytosine sites in mouse genomes using bidirectional gated recurrent
+    unit and sequence-embedded features'
+links: {}
+added: '2026-11-21'
+evidence: i4mC-GRU uses a gated recurrent unit and duplet sequence-embedded features to predict potential 4mC sites in mouse
+  genomes.

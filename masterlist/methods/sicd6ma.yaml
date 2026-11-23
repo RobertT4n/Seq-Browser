@@ -1,0 +1,20 @@
+name: SICD6mA
+category: dry
+summary: A deep learning classifier with a memory mechanism predicts DNA 6mA sites.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/2020.02.02.930776
+  year: 2020
+  journal: bioRxiv
+  first_author: Liu W
+  last_author: Li H
+  title: 'SICD6mA: Identifying 6mA Sites using Deep Memory Network'
+links: {}
+added: '2026-11-21'
+evidence: SICD6mA is a deep learning classification method based on a memory mechanism, evaluated on human and rice benchmark
+  datasets.

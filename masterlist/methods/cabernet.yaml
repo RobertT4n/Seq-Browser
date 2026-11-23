@@ -1,0 +1,30 @@
+name: Cabernet
+category: wet
+summary: A bisulfite-free single-cell sequencing method profiles 5mC, 5hmC and hemi-methylation across the genome.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1073/pnas.2310367120
+  year: 2023
+  journal: Proc Natl Acad Sci U S A
+  first_author: Cao Y
+  last_author: Xie XS
+  pmid: '38011566'
+  pmcid: PMC10710054
+  title: Single-cell bisulfite-free 5mC and 5hmC sequencing with high sensitivity and scalability
+links: {}
+added: '2026-11-21'
+evidence: Cabernet uses Tn5 fragmentation to profile single-cell 5mC and 5hmC and was applied to mouse cortical neurons and
+  embryos.

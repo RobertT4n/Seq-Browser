@@ -1,0 +1,21 @@
+name: p6mA
+category: dry
+summary: A sequence-feature and gradient-boosting predictor estimates the methylation status of DNA adenines.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13072-020-00330-2
+  year: 2020
+  journal: Epigenetics Chromatin
+  first_author: Wang HT
+  last_author: Kong QP
+  pmid: '32093759'
+  pmcid: PMC7038560
+  title: Identification of DNA N<sup>6</sup>-methyladenine sites by integration of sequence features
+links: {}
+added: '2026-11-21'
+evidence: p6mA uses selected sequence features and XGBoost to predict adenine methylation from sequence files.

@@ -1,0 +1,29 @@
+name: CT-seq
+full_name: CMD1-TET bisulfite sequencing
+category: wet
+summary: Detects DNA 5mC independently at base resolution using CMD1-TET bisulfite sequencing.
+readouts:
+- dna-5mc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1002/advs.202507843
+  year: 2025
+  journal: Adv Sci (Weinh)
+  first_author: Wang ZX
+  last_author: Xue JH
+  pmid: '40671244'
+  pmcid: PMC12520568
+  title: Direct Sequencing of 5-Methylcytosine and 5-Hydroxymethylcytosine at Single-Base Resolution Unravels Their Distinct
+    Roles in Alzheimer's Disease
+links: {}
+added: '2026-11-21'
+evidence: CT-seq enables direct, independent detection of 5mC and was applied to hippocampal tissue from AD model mice.

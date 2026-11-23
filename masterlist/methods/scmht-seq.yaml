@@ -1,0 +1,30 @@
+name: scMHT-seq
+category: wet
+summary: Jointly profiles DNA 5mC, 5hmC and the transcriptome genome-wide in individual cells.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1101/2025.04.01.646736
+  year: 2025
+  journal: bioRxiv
+  first_author: Chialastri A
+  last_author: Dey SS
+  title: Joint profiling of 5mC, 5hmC, and the transcriptome in single cells identifies factors responsible for genome-wide
+    DNA methylation erasure in human primordial germ cell maturation
+links: {}
+added: '2026-11-21'
+evidence: scMHT-seq jointly profiles 5mC, 5hmC and the transcriptome from individual cells.

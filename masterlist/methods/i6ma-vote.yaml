@@ -1,0 +1,22 @@
+name: i6mA-vote
+category: dry
+summary: An ensemble of classifiers predicts plant DNA 6mA sites from dinucleotide one-hot sequence features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fpls.2022.845835
+  year: 2022
+  journal: Front Plant Sci
+  first_author: Teng Z
+  last_author: Wang G
+  pmid: '35237293'
+  pmcid: PMC8882731
+  title: 'i6mA-Vote: Cross-Species Identification of DNA N6-Methyladenine Sites in Plant Genomes Based on Ensemble Learning
+    With Voting'
+links: {}
+added: '2026-11-21'
+evidence: i6mA-vote combines five classifiers by majority vote and was evaluated on Rosaceae, rice and Arabidopsis sequences.

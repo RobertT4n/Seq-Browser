@@ -1,0 +1,20 @@
+name: 4mC-CGRU
+category: dry
+summary: A convolutional and gated recurrent neural network predicts DNA 4mC sites in Rosaceae genomes.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1016/j.compbiolchem.2023.107974
+  year: 2023
+  journal: Comput Biol Chem
+  first_author: Sultana A
+  last_author: Aryal S
+  pmid: '37944386'
+  title: '4mC-CGRU: Identification of N4-Methylcytosine (4mC) sites using convolution gated recurrent unit in Rosaceae genome'
+links: {}
+added: '2026-11-21'
+evidence: 4mC-CGRU uses a CNN and gated recurrent unit to identify 4mC sites from Rosa chinensis and Fragaria vesca DNA sequences.

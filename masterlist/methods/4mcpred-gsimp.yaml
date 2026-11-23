@@ -1,0 +1,22 @@
+name: 4mCPred-GSIMP
+category: dry
+summary: A multiscale deep learning model predicts DNA 4mC sites in the mouse genome.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3934/mbe.2024012
+  year: 2024
+  journal: Math Biosci Eng
+  first_author: Jia J
+  last_author: Zhu Y
+  pmid: '38303422'
+  title: '4mCPred-GSIMP: Predicting DNA N4-methylcytosine sites in the mouse genome with multi-Scale adaptive features extraction
+    and fusion'
+links: {}
+added: '2026-11-21'
+evidence: 4mCPred-GSIMP combines four sequence encodings with multiscale and selective kernel convolutions to predict mouse
+  4mC sites.

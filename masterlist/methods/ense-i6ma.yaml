@@ -1,0 +1,22 @@
+name: Ense-i6mA
+category: dry
+summary: An ensemble of classifiers predicts DNA 6mA sites using selected sequence features.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3421228
+  year: 2024
+  journal: IEEE/ACM Trans Comput Biol Bioinform
+  first_author: Fan X
+  last_author: Guo Z
+  pmid: '38949938'
+  title: 'Ense-i6mA: Identification of DNA N&lt;sup&gt;6&lt;/sup&gt;-Methyladenine Sites Using XGB-RFE Feature Selection and
+    Ensemble Machine Learning'
+links: {}
+added: '2026-11-21'
+evidence: Ense-i6mA selects encoded sequence features with XGBoost and recursive feature elimination before averaging classifier
+  predictions.

@@ -1,0 +1,23 @@
+name: 4mcDeep-CBI
+category: dry
+summary: 4mcDeep-CBI combines convolutional and bidirectional long short-term memory networks to predict DNA N4-methylcytosine
+  sites.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2020.00209
+  year: 2020
+  journal: Front Genet
+  first_author: Zeng F
+  last_author: Yao L
+  pmid: '32211035'
+  pmcid: PMC7067889
+  title: A Deep Neural Network for Identifying DNA N4-Methylcytosine Sites
+links: {}
+added: '2026-11-21'
+evidence: 4mcDeep-CBI inputs extracted features into CNN and bidirectional long short-term memory networks to identify 4mC
+  sites.

@@ -1,0 +1,21 @@
+name: 6mA-Pred
+category: dry
+summary: A deep learning method identifies DNA 6mA sites across multiple species.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.7717/peerj.10813
+  year: 2021
+  journal: PeerJ
+  first_author: Huang Q
+  last_author: Zhang L
+  pmid: '33604189'
+  pmcid: PMC7866889
+  title: '6mA-Pred: identifying DNA N6-methyladenine sites based on deep learning'
+links: {}
+added: '2026-11-21'
+evidence: The method was evaluated for 6mA site identification in genes from rice, mouse and human.

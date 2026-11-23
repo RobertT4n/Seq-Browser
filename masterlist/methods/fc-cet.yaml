@@ -1,0 +1,23 @@
+name: fC-CET
+category: wet
+summary: Maps DNA 5fC across the genome at base resolution using selective chemical labeling.
+readouts:
+- dna-5fc
+- dna-methylation
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+reference:
+  doi: 10.1038/nmeth.3569
+  year: 2015
+  journal: Nat Methods
+  first_author: Xia B
+  last_author: Yi C
+  pmid: '26344045'
+  pmcid: PMC4626315
+  title: Bisulfite-free, base-resolution analysis of 5-formylcytosine at the genome scale
+links: {}
+added: '2026-11-21'
+evidence: Selective chemical labeling of 5fC produces a subsequent C-to-T transition during PCR.

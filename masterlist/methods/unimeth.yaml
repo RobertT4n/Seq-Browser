@@ -1,0 +1,24 @@
+name: Unimeth
+category: dry
+summary: A transformer combines nanopore signals and basecalled sequences to predict DNA methylation across modification types
+  and species.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-6ma
+resolution:
+- single-molecule
+scope: genome-wide
+platform:
+- long-read
+- nanopore
+reference:
+  doi: 10.64898/2025.12.05.692231
+  year: 2025
+  journal: bioRxiv
+  first_author: Wang S
+  last_author: Wang J
+  title: 'Unimeth: a unified transformer framework for accurate DNA methylation detection from nanopore reads'
+links: {}
+added: '2026-11-21'
+evidence: Unimeth predicts methylation at target sites within read patches and was evaluated for 5mC and 6mA detection.

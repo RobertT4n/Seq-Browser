@@ -1,0 +1,26 @@
+name: methyl HTM-seq
+full_name: methyl homopolymer tail mediated sequencing
+category: wet
+summary: Identifies undermethylated adenine and cytosine sites genome-wide in bacteria.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.1128/jb.02112-12
+  year: 2013
+  journal: J Bacteriol
+  first_author: Dalia AB
+  last_author: Camilli A
+  pmid: '23504020'
+  pmcid: PMC3650525
+  title: Characterization of undermethylated sites in Vibrio cholerae
+links: {}
+added: '2026-11-21'
+evidence: Methyl HTM-seq identified undermethylated sites for adenine and cytosine methyltransferases in Vibrio cholerae.

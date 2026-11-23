@@ -1,0 +1,27 @@
+name: LuxGLM
+category: dry
+summary: LuxGLM uses a probabilistic covariate model to quantify oxidized DNA methylcytosine modifications from bisulfite-based
+  sequencing with complex experimental designs.
+readouts:
+- dna-methylation
+- dna-5hmc
+- dna-5fc
+- dna-5cac
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw468
+  year: 2016
+  journal: Bioinformatics
+  first_author: Äijö T
+  last_author: Lähdesmäki H
+  pmid: '27587669'
+  pmcid: PMC5013920
+  title: 'LuxGLM: a probabilistic covariate model for quantification of DNA methylation modifications with complex experimental
+    designs'
+links: {}
+added: '2026-11-21'
+evidence: LuxGLM quantifies oxidized methylcytosine species with arbitrary covariate structures from bisulfite-based sequencing
+  data.

@@ -1,0 +1,22 @@
+name: HMCVelo
+full_name: hydroxymethylation velocity
+category: dry
+summary: HMCVelo models single-cell methylation dynamics to infer hydroxymethylation velocity and cellular trajectories.
+readouts:
+- dna-methylation
+- dna-5hmc
+- dna-5mc
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.04.20.719607
+  year: 2026
+  journal: bioRxiv
+  first_author: Mishra P
+  last_author: Mishra P
+  title: 'HMCVelo: A Deterministic Model for Hydroxymethylation Velocity in Single Cells'
+links: {}
+added: '2026-11-21'
+evidence: HMCVelo computes the time derivative of hydroxymethylation state for individual cells and genes using joint single-cell
+  5hmC and 5mC data.

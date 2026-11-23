@@ -1,0 +1,21 @@
+name: iRNA5hmC-HOC
+category: dry
+summary: iRNA5hmC-HOC uses RNA sequence physicochemical properties and a support vector machine to predict RNA 5-hydroxymethylcytosine
+  sites.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1142/s0219720022500172
+  year: 2022
+  journal: J Bioinform Comput Biol
+  first_author: Zou H
+  last_author: Zou H
+  pmid: '35918795'
+  title: 'iRNA5hmC-HOC: High-order correlation information for identifying RNA 5-hydroxymethylcytosine modification'
+links: {}
+added: '2026-11-21'
+evidence: The predictor represents RNA sequences with dinucleotide physicochemical properties and selects features to identify
+  5hmC sites.

@@ -1,0 +1,21 @@
+name: MSNet-4mC
+category: dry
+summary: A sequence-encoding and deep forest approach predicts DNA modification sites across multiple species.
+readouts:
+- dna-methylation
+- dna-4mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac671
+  year: 2022
+  journal: Bioinformatics
+  first_author: Liu C
+  last_author: Akutsu T
+  pmid: '36205602'
+  title: 'MSNet-4mC: learning effective multi-scale representations for identifying DNA N4-methylcytosine sites'
+links: {}
+added: '2026-11-21'
+evidence: DNA-MP uses position-specific nucleotide distributions and a deep forest classifier to predict three DNA modifications
+  across multiple species.

@@ -1,0 +1,21 @@
+name: iRice6mA-LMXGB
+category: dry
+summary: A fine-tuned language model and XGBoost classifier predict DNA 6mA sites from rice sequences.
+readouts:
+- dna-methylation
+- dna-6ma
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fpls.2025.1626539
+  year: 2025
+  journal: Front Plant Sci
+  first_author: Zhang Y
+  last_author: Lv Z
+  pmid: '40636005'
+  pmcid: PMC12239757
+  title: Identification of DNA N6-methyladenine modifications in the rice genome with a fine-tuned large language model
+links: {}
+added: '2026-11-21'
+evidence: A fine-tuned DNABERT-2 model extracts sequence features that XGBoost uses to classify rice 6mA sites.

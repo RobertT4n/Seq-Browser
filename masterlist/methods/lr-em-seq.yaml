@@ -1,0 +1,29 @@
+name: LR-EM-seq
+full_name: long-read enzymatic modification sequencing
+category: wet
+summary: Enzymatic deamination preserves long DNA molecules for phased profiling of 5mC and 5hmC at single-base resolution.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+platform:
+- long-read
+reference:
+  doi: 10.1101/gr.265306.120
+  year: 2021
+  journal: Genome Res
+  first_author: Sun Z
+  last_author: Ettwiller LM
+  pmid: '33468551'
+  pmcid: PMC7849414
+  title: Nondestructive enzymatic deamination enables single-molecule long-read amplicon sequencing for the determination
+    of 5-methylcytosine and 5-hydroxymethylcytosine at single-base resolution
+links: {}
+added: '2026-11-21'
+evidence: LR-EM-seq profiles 5mC and 5hmC over multikilobase genomic DNA and phases known differentially methylated regions.
