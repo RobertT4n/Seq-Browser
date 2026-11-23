@@ -22,8 +22,9 @@ readouts:            # WHAT molecular quantity the assay measures -> its domain.
   dna-5mc: epigenome                    # 5-methylcytosine; STRICT: tag only if the method is designed to report it. Bisulfite/RRBS/WGBS/EM-seq/TAPS (combined 5mC+5hmC signal, read as "methylation") -> dna-5mc ONLY
   dna-5hmc: epigenome                   # 5-hydroxymethylcytosine
 
-  dna-6ma: epigenome                    # N6-methyladenine on DNA (sub-filter of dna-methylation)
-  dna-5fc: epigenome                    # 5-formylcytosine on DNA (sub-filter of dna-methylation; CLEVER-seq)
+  dna-6ma: epigenome                    # N6-methyladenine on DNA (sub-filter of dna-methylation): methods that map the sample's OWN 6mA (6mA-DIP, 6mACE-seq, DR-6mA-seq, SMRT/nanopore 6mA calling). 6mA laid down by an added methyltransferase as a reporter (Fiber-seq, SAMOSA, DiMeLo-seq, DamID) is chromatin-accessibility / protein-dna-binding, not dna-6ma, unless the paper also maps endogenous 6mA
+  dna-5fc: epigenome                    # 5-formylcytosine on DNA (sub-filter of dna-methylation; CLEVER-seq, fC-seal)
+  dna-5cac: epigenome                   # 5-carboxylcytosine on DNA (sub-filter of dna-methylation; CAB-seq)
   histone-turnover: epigenome           # nucleosome / histone exchange and turnover kinetics (CATCH-IT)
   chromatin-condensability: epigenome   # how readily native nucleosomes condense (Condense-seq); a biophysical property, not accessibility
   r-loop: epigenome                     # DNA:RNA hybrids / R-loops mapped by sequencing (DRIP-seq, R-ChIP, bisDRIP-seq)
