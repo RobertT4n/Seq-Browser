@@ -1,0 +1,21 @@
+name: Bis-class
+category: dry
+summary: Classifies methylation status from MethylC-seq using a Bayes classifier and local methylation patterns.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-15-608
+  year: 2014
+  journal: BMC Genomics
+  first_author: Huh I
+  last_author: Yi SV
+  pmid: '25037738'
+  pmcid: PMC4117951
+  title: 'Bis-class: a new classification tool of methylation status using bayes classifier and local methylation information'
+links: {}
+added: '2026-11-21'
+evidence: 'Bis-class: a new classification tool of methylation status using bayes classifier and local methylation information.'

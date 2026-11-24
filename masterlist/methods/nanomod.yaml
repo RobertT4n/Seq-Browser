@@ -1,0 +1,20 @@
+name: NanoMod
+category: dry
+summary: Detects DNA modifications from nanopore long-read sequencing data.
+readouts:
+- dna-methylation
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-018-5372-8
+  year: 2019
+  journal: BMC Genomics
+  first_author: Liu Q
+  last_author: Wang K
+  pmid: '30712508'
+  pmcid: PMC6360650
+  title: 'NanoMod: a computational tool to detect DNA modifications using Nanopore long-read sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: 'NanoMod: a computational tool to detect DNA modifications using Nanopore long-read sequencing data.'
