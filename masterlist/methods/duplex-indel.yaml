@@ -1,0 +1,20 @@
+name: Duplex-Indel
+category: dry
+summary: Snakemake workflow for calling somatic indels from Tn5-based duplex sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag205
+  year: 2026
+  journal: Bioinformatics
+  first_author: Dong G
+  last_author: Lee EA
+  pmid: '42046229'
+  pmcid: PMC13171174
+  title: 'Duplex-Indel: a Snakemake pipeline for somatic Indel calling in Tn5 transposase-based duplex sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: a novel Snakemake workflow for detecting somatic small insertions and deletions

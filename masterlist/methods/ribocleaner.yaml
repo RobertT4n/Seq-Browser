@@ -1,0 +1,20 @@
+name: riboCleaner
+category: dry
+summary: Pipeline that identifies and quantifies ribosomal RNA contamination or errors in reference annotations to improve
+  gene-expression quantification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac402
+  year: 2022
+  journal: Bioinformatics
+  first_author: Huang P
+  last_author: Cameron HJ
+  pmid: '35731209'
+  title: 'riboCleaner: a pipeline to identify and quantify rRNA read contamination from RNA-seq data in plants'
+links: {}
+added: '2026-11-21'
+evidence: 'riboCleaner: a pipeline to identify and quantify rRNA read contamination from RNA-seq data in plants.'
