@@ -1,0 +1,29 @@
+name: scNT-seq2
+category: wet
+summary: Single-cell time-resolved RNA-seq with optimized second-strand synthesis that separates newly synthesized from pre-existing
+  RNA by 4sU labeling.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+- droplet-microfluidics
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2025.06.03.657745
+  year: 2025
+  journal: bioRxiv
+  first_author: Qiu Q
+  last_author: Wu H
+  title: Highly sensitive and scalable time-resolved RNA sequencing in single cells with scNT-seq2
+links: {}
+added: '2026-11-21'
+evidence: a highly sensitive and scalable method for time-resolved single-cell RNA sequencing; benchmarking in 4sU-labeled
+  K562 cells

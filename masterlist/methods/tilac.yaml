@@ -1,0 +1,24 @@
+name: TILAC
+full_name: Transcript Regulation Identified by Labeling with Nucleoside Analogues in Cell Culture
+category: wet
+summary: Metabolic labeling with 4-thiouridine and 6-thioguanosine to label two RNA populations in cells and compare them
+  within one sequencing library.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkac693
+  year: 2022
+  journal: Nucleic Acids Research
+  first_author: Courvan MCS
+  last_author: Simon MD
+  title: Internally controlled RNA sequencing comparisons using nucleoside recoding chemistry
+links: {}
+added: '2026-11-21'
+evidence: TILAC uses two metabolic labels, 4-thiouridine (s4U) and 6-thioguanosine (s6G), to differentially label RNAs in
+  cells

@@ -1,0 +1,28 @@
+name: Targeted TELL-Seq
+full_name: Targeted Transposase Enzyme Linked Long-read Sequencing
+category: wet
+summary: Single-tube bead-barcoded linked-read library that phases targeted 2-200 kb DNA fragments on a short-read sequencer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41598-024-58733-0
+  year: 2024
+  journal: Sci Rep
+  first_author: Mikhaylova V
+  last_author: Chen Z
+  pmid: '38580715'
+  pmcid: PMC10997766
+  title: Targeted phasing of 2-200 kilobase DNA fragments with a short-read sequencer and a single-tube linked-read library
+    method
+  preprint_doi: 10.1101/2023.03.05.531179
+links: {}
+added: '2026-11-21'
+evidence: TELL-Seq is a library preparation method based on millions of barcoded micro-sized beads that enables instrument-free
+  phasing in a single PCR tube; targeted phasing of 2-200 kb fragments

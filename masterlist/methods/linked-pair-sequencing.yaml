@@ -1,0 +1,22 @@
+name: linked-pair sequencing
+category: wet
+summary: CRISPR-Cas9 nickase fragmentation of targeted long DNA molecules that keeps linkage between adjacent fragments for
+  long-read targeted resequencing.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1101/2023.10.26.564243
+  year: 2023
+  journal: bioRxiv
+  first_author: Uppuluri
+  last_author: M
+  title: Linked-Pair Long-Read Sequencing Strategy for Targeted Resequencing and Enrichment
+links: {}
+added: '2026-11-21'
+evidence: a long-read sequencing library such that adjacent fragments are linked with end-terminal duplications, using CRISPR-Cas9
+  nickase and a pool of sgRNAs

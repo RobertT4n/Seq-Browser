@@ -1,0 +1,23 @@
+name: cta-seq
+category: wet
+summary: Cell-targeted PCR amplification approach used to validate Good-Turing expression estimates in scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- amplicon-pcr
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1093/gigascience/giaf084
+  year: 2025
+  journal: Gigascience
+  first_author: Fahrenberger M
+  last_author: von Haeseler A
+  pmid: '41159548'
+  pmcid: PMC12569601
+  title: 'GTestimate: improving relative gene expression estimation in scRNA-seq using the Good-Turing estimator'
+links: {}
+added: '2026-11-21'
+evidence: to validate GTestimate, we developed a novel cell-targeted PCR amplification approach (cta-seq)

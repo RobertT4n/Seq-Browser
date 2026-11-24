@@ -1,0 +1,25 @@
+name: DRB/TTchem-seq2
+category: wet
+summary: Modified TT-chem-seq with DRB release that measures gene-specific Pol II elongation rates kinetically.
+readouts:
+- nascent-rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+species:
+- human
+reference:
+  doi: 10.1101/gr.280852.125
+  year: 2025
+  journal: Genome Res
+  first_author: Liu H
+  last_author: Gregersen LH
+  pmid: '41125442'
+  pmcid: PMC12581951
+  title: Kinetic measurement of gene-specific RNA polymerase II transcription elongation rates
+links: {}
+added: '2026-11-21'
+evidence: DRB/TTchem-seq2, a modified version of DRB/TT-seq to measure gene-specific RNA polymerase II elongation rates

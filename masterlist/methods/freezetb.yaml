@@ -1,0 +1,28 @@
+name: FreezeTB
+full_name: Fast, Reliable, Economical Evaluation tool to Zap Endemic Tuberculosis
+category: wet
+summary: Targeted nanopore sequencing of 22 resistance gene loci in Mycobacterium tuberculosis for drug-resistance and lineage
+  typing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.1128/spectrum.02335-25
+  year: 2026
+  journal: Microbiol Spectr
+  first_author: Inman B
+  last_author: Ness TE
+  pmid: '41247050'
+  pmcid: PMC12772309
+  title: Application of FreezeTB, a targeted nanopore sequencing assay, for identification of drug resistance and lineages
+    among pulmonary tuberculosis cases in Alaska
+links: {}
+added: '2026-11-21'
+evidence: FreezeTB amplifies 22 gene loci associated with resistance using targeted next-generation sequencing

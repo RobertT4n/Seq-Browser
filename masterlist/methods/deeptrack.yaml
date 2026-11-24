@@ -1,0 +1,29 @@
+name: DeepTrack
+category: wet
+summary: Mouse lineage-tracing model with in situ cellular barcoding and single-cell multi-omics that profiles clonal fate,
+  transcriptome and chromatin accessibility.
+readouts:
+- lineage
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.29.748052
+  year: 2026
+  journal: bioRxiv
+  first_author: Guo
+  last_author: W
+  title: In vivo multimodal lineage tracing of mammalian development by DeepTrack barcoding
+links: {}
+added: '2026-11-21'
+evidence: DeepTrack, a lineage tracing mouse model that integrates in situ cellular barcoding with high-throughput single-cell
+  multi-omics

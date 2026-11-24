@@ -1,0 +1,26 @@
+name: scMet-Seq
+category: wet
+summary: Single-cell low-pass whole-genome sequencing with metabolic-function-based enrichment to detect circulating tumor
+  cells for multi-cancer diagnosis.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1038/s41698-024-00520-1
+  year: 2024
+  journal: npj Precision Oncology
+  first_author: Shen X
+  last_author: Shi Q
+  title: Single-cell low-pass whole genome sequencing accurately detects circulating tumor cells for liquid biopsy-based multi-cancer
+    diagnosis
+links: {}
+added: '2026-11-21'
+evidence: a single-cell low-pass WGS-based protocol (scMet-Seq) for sensitive and accurate CTC detection by combining a metabolic
+  function-based enrichment

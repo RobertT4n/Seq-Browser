@@ -1,0 +1,24 @@
+name: DoBSeq
+category: wet
+summary: Two-dimensional DNA pooling from dried blood spots with a 582-gene panel and a probabilistic model to assign rare
+  pathogenic variants to individuals.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.64898/2026.07.07.26357001
+  year: 2026
+  journal: medRxiv
+  first_author: Nielsen MC
+  last_author: Rasmussen S
+  title: Low-cost rare variant detection for population scale genetic screening
+links: {}
+added: '2026-11-21'
+evidence: a low-cost, high-throughput screening framework including automation of two-dimensional DNA pooling and high-depth
+  targeted sequencing using a 582-gene custom panel

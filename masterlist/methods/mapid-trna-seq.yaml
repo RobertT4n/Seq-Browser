@@ -1,0 +1,24 @@
+name: MapID-tRNA-seq
+category: wet
+summary: tRNA sequencing with an evolved reverse transcriptase and de-redundant MapID references for quantitative modification
+  mapping and expression.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1016/j.chembiol.2025.04.003
+  year: 2025
+  journal: Cell Chemical Biology
+  first_author: Tepe ML
+  last_author: Zhou H
+  title: MapID-based quantitative mapping of chemical modifications and expression of human transfer RNA
+links: {}
+added: '2026-11-21'
+evidence: MapID-tRNA-seq deploys an evolved reverse transcriptase (RT-1306) into tRNA-seq and develops MapIDs that reduce
+  redundancy of the human tRNA genome

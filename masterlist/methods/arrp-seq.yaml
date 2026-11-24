@@ -1,0 +1,26 @@
+name: ARRP-seq
+full_name: Anchored random reverse primer sequencing
+category: wet
+summary: Anchored random reverse primers during PCR library construction to detect novel gene fusions with unknown partners,
+  capturing mutations and splice variants.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+reference:
+  doi: 10.1038/s41551-025-01564-9
+  year: 2026
+  journal: Nat Biomed Eng
+  first_author: Xiu X
+  last_author: Song P
+  pmid: '41482592'
+  title: Anchored random reverse primer sequencing for quantitative detection of novel gene fusions
+links: {}
+added: '2026-11-21'
+evidence: a method for detecting potentially novel gene fusions using anchored random reverse primers (ARRP) during PCR-based
+  library construction

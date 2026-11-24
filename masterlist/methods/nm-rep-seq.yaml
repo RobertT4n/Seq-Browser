@@ -1,0 +1,29 @@
+name: Nm-REP-seq
+full_name: exoribonuclease-enriched chemical mapping of Nm
+category: wet
+summary: Exoribonuclease plus periodate oxidation to remove 2'-OH nucleosides and enrich 2'-O-methylation sites for single-base
+  mapping.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- chemical-cleavage
+- reverse-transcription
+species:
+- human
+- mouse
+- invertebrate
+reference:
+  doi: 10.1007/s11427-022-2210-0
+  year: 2023
+  journal: Sci China Life Sci
+  first_author: Zhang P
+  last_author: Yang J
+  pmid: '36323972'
+  title: Single-base resolution mapping of 2'-O-methylation sites by an exoribonuclease-enriched chemical method
+links: {}
+added: '2026-11-21'
+evidence: enriching Nm sites using RNA exoribonuclease and periodate oxidation reactivity to eliminate 2'-hydroxylated nucleosides,
+  coupled with sequencing

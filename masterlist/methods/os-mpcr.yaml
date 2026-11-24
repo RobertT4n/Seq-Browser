@@ -1,0 +1,25 @@
+name: OS-MPCR
+full_name: One-Step Multiplex PCR
+category: wet
+summary: One-step closed-tube multiplex PCR that merges adapter ligation and library amplification for NGS library construction
+  in cancer.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1371/journal.pone.0357776
+  year: 2026
+  journal: PLOS One
+  first_author: Feng H
+  last_author: Zhou P
+  title: A novel one-step multiplex PCR method (OS-MPCR) for efficient NGS library preparation in cancer
+links: {}
+added: '2026-11-21'
+evidence: the OS-MPCR method integrates adapter ligation and library amplification into a single, closed-tube reaction

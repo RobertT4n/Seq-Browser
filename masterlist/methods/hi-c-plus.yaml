@@ -1,0 +1,27 @@
+name: Hi-C+
+category: wet
+summary: Hi-C combined with enrichment of plasmid-specific DNA to find the hosts of rare plasmids in microbiomes.
+readouts:
+- 3d-genome
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- proximity-ligation
+- oligo-capture
+species:
+- microbe
+reference:
+  doi: 10.1093/ismeco/ycae161
+  year: 2025
+  journal: ISME Commun
+  first_author: Castañeda-Barba S
+  last_author: Stalder T
+  pmid: '40161467'
+  pmcid: PMC11950669
+  title: Detection of rare plasmid hosts using a targeted Hi-C approach
+links: {}
+added: '2026-11-21'
+evidence: Hi-C+, combining Hi-C, a proximity ligation method, with enrichment for plasmid-specific DNA to identify rare plasmid
+  hosts

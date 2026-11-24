@@ -1,0 +1,29 @@
+name: liCHi-C
+category: wet
+summary: Low-input capture Hi-C that maps promoter-enhancer interactomes at high resolution from rare clinical cell populations.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- proximity-ligation
+- restriction-digest
+- oligo-capture
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s41467-023-35911-8
+  year: 2023
+  journal: Nat Commun
+  first_author: Tomás-Daza L
+  last_author: Javierre BM
+  pmid: '36650138'
+  pmcid: PMC9845235
+  title: Low input capture Hi-C (liCHi-C) identifies promoter-enhancer interactions at high-resolution
+links: {}
+added: '2026-11-21'
+evidence: low input capture Hi-C (liCHi-C) as a cost-effective, flexible method to map and robustly compare promoter interactomes
+  at high resolution

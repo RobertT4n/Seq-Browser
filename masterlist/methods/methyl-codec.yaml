@@ -1,0 +1,28 @@
+name: Methyl-CODEC
+category: wet
+summary: CODEC duplex sequencing extended with enzymatic deamination so that methylation and duplex-consensus variant calls
+  come from the same read pair.
+readouts:
+- dna-methylation
+- dna-5mc
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkaf482
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Liu R
+  last_author: Adalsteinsson VA
+  title: Methyl-CODEC enables simultaneous methylation and duplex sequencing
+  preprint_doi: 10.1101/2024.12.23.630102
+links: {}
+added: '2026-11-21'
+evidence: Methyl-CODEC links an enzymatically deaminated sense strand to the reverse complement of the antisense strand, protected
+  from conversion using conversion-resistant dCTPs

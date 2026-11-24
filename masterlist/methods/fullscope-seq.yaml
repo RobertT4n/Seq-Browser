@@ -1,0 +1,31 @@
+name: Fullscope-seq
+category: wet
+summary: Full-length single-molecule spatial transcriptomics at single-cell resolution using programmed cDNA concatenation
+  for long-read platforms.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+- reverse-transcription
+- long-read-sequencing
+species:
+- other-vertebrate
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-026-03174-y
+  year: 2026
+  journal: Nat Methods
+  first_author: Liu H
+  last_author: Wei W
+  pmid: '42498883'
+  title: Full-length single-cell spatial transcriptomics reveals spatial and cell-type-specific transcript isoforms in the
+    primate brain
+links: {}
+added: '2026-11-21'
+evidence: a full-length single-molecule large field-of-view spatial transcriptomics sequencing method at single-cell resolution,
+  based on programmed concatenation cDNA

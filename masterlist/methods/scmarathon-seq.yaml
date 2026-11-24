@@ -1,0 +1,23 @@
+name: scMarathon-seq
+category: wet
+summary: Single-cell RNA-seq that replaces the MMLV reverse transcriptase with a group II intron RT (UltraMarathonRT) to expand
+  the detected transcriptome.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1101/2025.10.06.680646
+  year: 2025
+  journal: bioRxiv
+  first_author: Chou C
+  last_author: Saliba A
+  title: Single-cell RNA-seq using UltraMarathonRT expands the known transcriptome
+links: {}
+added: '2026-11-21'
+evidence: we introduce a group II intron reverse transcriptase, UltraMarathonRT, to perform scRNA-seq, a protocol we coined
+  scMarathon-seq

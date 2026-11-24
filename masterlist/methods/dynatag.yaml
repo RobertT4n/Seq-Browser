@@ -1,0 +1,27 @@
+name: DynaTag
+full_name: cleavage under Dynamic targets and Tagmentation
+category: wet
+summary: CUT&Tag variant using physiological salt buffers that maps TF-DNA binding in low-input samples and single cells.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-025-61797-9
+  year: 2025
+  journal: Nat Commun
+  first_author: Hunold P
+  last_author: Hänsel-Hertsch R
+  pmid: '40721574'
+  pmcid: PMC12304361
+  title: DynaTag for efficient mapping of transcription factors in low-input samples and at single-cell resolution
+links: {}
+added: '2026-11-21'
+evidence: cleavage under Dynamic targets and Tagmentation (DynaTag) enables robust mapping of TF-DNA interactions using a
+  physiological salt solution

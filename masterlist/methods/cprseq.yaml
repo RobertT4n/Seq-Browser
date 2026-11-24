@@ -1,0 +1,25 @@
+name: CPRSeq
+full_name: Custom-Primed Rolling Circle amplicon sequencing
+category: wet
+summary: Sequence-specific primers for long, less branched rolling-circle amplicons whose repeats give consensus-accurate
+  nanopore reads.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.1002/smtd.202401416
+  year: 2025
+  journal: Small Methods
+  first_author: Zhang J
+  last_author: Wei B
+  pmid: '40025906'
+  title: Custom-Primed Rolling Circle Amplicons for Highly Accurate Nanopore Sequencing
+links: {}
+added: '2026-11-21'
+evidence: an enhanced RCA protocol using sequence-specific primers to produce longer and less branched amplicons for consensus
+  calling in nanopore sequencing

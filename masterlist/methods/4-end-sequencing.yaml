@@ -1,0 +1,26 @@
+name: 4-end sequencing
+category: wet
+summary: Single-stranded library preparation that reads native 5' and 3' ends of cfDNA, plus pre-end and post-end motifs,
+  as fragmentomics biomarkers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1016/j.xgen.2026.101142
+  year: 2026
+  journal: Cell Genom
+  first_author: Jiang P
+  last_author: Lo YMD
+  pmid: '41653917'
+  pmcid: PMC12985390
+  title: Holistic determination of ends of cfDNA molecules
+links: {}
+added: '2026-11-21'
+evidence: single-stranded library preparation to assess the native 5' and 3' end motifs of cfDNA, plus pre-end motifs (PREMs)
+  and post-end motifs (POEMs)

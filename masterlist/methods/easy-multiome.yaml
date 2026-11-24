@@ -1,0 +1,29 @@
+name: easy-Multiome
+category: wet
+summary: Single in situ reverse-transcription step added to droplet scATAC-seq for joint expression and chromatin-accessibility
+  profiling of plant nuclei.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- tn5
+- reverse-transcription
+species:
+- plant
+reference:
+  doi: 10.64898/2026.07.15.738754
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang X
+  last_author: Schmitz RJ
+  title: Easy-Multiome enables joint profiling of gene expression and chromatin accessibility in single cells
+links: {}
+added: '2026-11-21'
+evidence: a streamlined single-cell multiomic workflow that integrates a single in situ reverse transcription step into the
+  standard droplet-based scATAC-seq protocol
+aliases:
+- easy-Multiome

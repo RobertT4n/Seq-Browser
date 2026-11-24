@@ -1,0 +1,27 @@
+name: sm16S rDNA PCR/sequencing
+category: wet
+summary: Bisulfite extension of 16S rDNA sequencing that reads 5mC in bacterial 16S regions, using multiple displacement pre-amplification
+  of single-stranded DNA.
+readouts:
+- microbial-composition
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- bisulfite-or-enzymatic-conversion
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1038/s41598-023-28706-w
+  year: 2023
+  journal: Scientific Reports
+  first_author: Nishimura M
+  last_author: Matsushita K
+  title: Extension of bacterial rDNA sequencing for simultaneous methylation detection and its application in microflora analysis
+links: {}
+added: '2026-11-21'
+evidence: a simple extension for bisulfite sequencing to investigate 5-methylcytosine residues in the bacterial 16S rDNA region
+  from clinical isolates or flora

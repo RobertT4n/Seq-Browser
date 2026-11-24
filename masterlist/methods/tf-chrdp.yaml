@@ -1,0 +1,23 @@
+name: TF-chRDP
+full_name: Transcription Factor binding Chromatin-associated RNA, DNA, and Protein
+category: wet
+summary: Simultaneous capture of chromatin-associated RNA, DNA and protein bound by a transcription factor in one experiment.
+readouts:
+- protein-dna-binding
+- rna-chromatin-interaction
+- protein-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.3389/fcell.2025.1561540
+  year: 2025
+  journal: Frontiers in Cell and Developmental Biology
+  first_author: Ning D
+  last_author: Zheng M
+  title: 'TF-chRDP: a method for simultaneously capturing transcription factor binding chromatin-associated RNA, DNA and protein'
+links: {}
+added: '2026-11-21'
+evidence: TF-chRDP allows the concurrent capture of TF-bound chromatin-associated RNA, DNA and protein in a single experiment

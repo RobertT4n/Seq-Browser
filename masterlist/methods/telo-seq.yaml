@@ -1,0 +1,27 @@
+name: Telo-seq
+category: wet
+summary: Native long-read nanopore sequencing that resolves bulk, chromosome-arm-specific and allele-specific human telomere
+  lengths.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1038/s41467-024-48917-7
+  year: 2024
+  journal: Nat Commun
+  first_author: Schmidt TT
+  last_author: Karlseder J
+  pmid: '38890299'
+  pmcid: PMC11189484
+  title: High resolution long-read telomere sequencing reveals dynamic mechanisms in aging and cancer
+  preprint_doi: 10.1101/2023.11.28.569082
+links: {}
+added: '2026-11-21'
+evidence: Telo-seq to resolve bulk, chromosome arm-specific and allele-specific human telomere lengths using Oxford Nanopore
+  Technologies native long-read sequencing

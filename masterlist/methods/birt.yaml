@@ -1,0 +1,23 @@
+name: BIRT
+full_name: Barcode-Integrated Reverse Transcription
+category: wet
+summary: Hairpin primer carrying a sample barcode that starts reverse transcription at RNA 3' ends, enabling low-input total
+  RNA-seq with early pooling.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.07.15.738812
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen W
+  last_author: Zhang DY
+  title: Barcode-integrated reverse transcription for accurate, complete, and low-input RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: BIRT (Barcode-Integrated Reverse Transcription), a hairpin primer that carries a sample barcode and begins reverse
+  transcription preferentially at RNA 3' ends

@@ -1,0 +1,29 @@
+name: UDI-UMI-STARR-seq
+category: wet
+summary: STARR-seq with dual indexes and UMIs, paired with RNA-seq, to quantify how TF deletions change enhancer activity
+  and expression.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.celrep.2026.118131
+  year: 2026
+  journal: Cell Rep
+  first_author: Das M
+  last_author: Girirajan S
+  pmid: '42867989'
+  pmcid: PMC13767728
+  title: Quantifying the impact of genetic mutations on enhancer dynamics
+links: {}
+added: '2026-11-21'
+evidence: UDI-UMI-STARR-seq integrates dual indexes and unique molecular identifiers and is combined with RNA-seq to profile
+  perturbation-associated changes in enhancer activity and gene expression

@@ -1,0 +1,25 @@
+name: TBAS
+full_name: Trio-barcoded ONT Adaptive Sampling
+category: wet
+summary: Trio-barcoded Oxford Nanopore adaptive sampling that sequences a rare-disease trio on one flow cell with phasing
+  and methylation retained.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1101/2025.10.21.25338483
+  year: 2025
+  journal: medRxiv
+  first_author: Fu Y
+  last_author: Sedlazeck FJ
+  title: Enriching for Answers in Rare Diseases
+links: {}
+added: '2026-11-21'
+evidence: a cost-efficient long-read sequencing strategy combining sample barcoding and adaptive enrichment to sequence rare-disease
+  trios on a single PromethION flow cell

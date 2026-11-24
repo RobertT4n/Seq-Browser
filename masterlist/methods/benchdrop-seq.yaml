@@ -1,0 +1,23 @@
+name: BenchDrop-seq
+category: wet
+summary: Microfluidics-free single-cell long-read RNA-seq using particle-templated partitioning and Oxford Nanopore sequencing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- particle-templated-emulsion
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.03.12.706999
+  year: 2026
+  journal: bioRxiv
+  first_author: Bregman J
+  last_author: Srivastava A
+  title: 'BenchDrop-seq: a microfluidics-free platform for benchtop single-cell long-read RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: a benchtop platform for single-cell long-read transcriptomics that leverages particle-templated partitioning for
+  single-cell molecular barcoding

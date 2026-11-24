@@ -1,0 +1,24 @@
+name: ampliRAD
+category: wet
+summary: Multiplex PCR that appends restriction sites onto target loci, combining amplicon and RAD sequencing to genotype
+  chosen loci together with genome-wide SNPs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1002/ece3.72990
+  year: 2026
+  journal: Ecology and Evolution
+  first_author: Thompson TQ
+  last_author: Sloat MR
+  title: "AmpliRAD: A New Method Combining Amplicon and\n                    <scp>RAD</scp>\n                    Sequencing"
+links: {}
+added: '2026-11-21'
+evidence: ampliRAD uses an initial multiplex PCR step to amplify target loci and append restriction enzyme recognition sites
+  onto them

@@ -1,0 +1,24 @@
+name: HiFiRe3
+full_name: High-fidelity Reduced representation via Restriction enzyme Ends
+category: wet
+summary: Error-minimized reduced-representation sequencing using restriction-enzyme ends and artifact-aware library design
+  to detect rare structural variants on long- and short-read platforms.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- restriction-digest
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.06.24.734375
+  year: 2026
+  journal: bioRxiv
+  first_author: Stewart
+  last_author: T. E
+  title: High-fidelity rare structural variant detection with HiFiRE3 reduced representation via restriction enzyme ends
+links: {}
+added: '2026-11-21'
+evidence: an error-minimized sequencing framework that combines artifact-aware library design with error suppression and correction
+  strategies to enable rare SV detection

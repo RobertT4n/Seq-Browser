@@ -1,0 +1,27 @@
+name: SpaceBar
+category: wet
+summary: Library of 96 synthetic barcodes detectable by seqFISH to label cells combinatorially and trace clones together with
+  spatial gene expression.
+readouts:
+- lineage
+- rna
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- in-situ-hybridization
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1101/2025.02.10.637514
+  year: 2025
+  journal: bioRxiv
+  first_author: Kinsler G
+  last_author: Heyman Y
+  title: SpaceBar enables clone tracing in spatial transcriptomic data
+links: {}
+added: '2026-11-21'
+evidence: a cellular barcoding strategy that enables simultaneous clone tracing and spatial transcriptomics profiling using
+  96 synthetic barcode sequences detected by seqFISH

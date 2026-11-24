@@ -1,0 +1,28 @@
+name: HOMES-seq
+full_name: HOst MicrobE Spatial-seq
+category: wet
+summary: Visium-based workflow for joint spatial profiling of microbial species and the host transcriptome in FFPE colorectal
+  tumours, with contaminant filtering.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.07.02.735997
+  year: 2026
+  journal: bioRxiv
+  first_author: Wan
+  last_author: M
+  title: Accessible spatial host-microbe profiling in tumour tissues
+links: {}
+added: '2026-11-21'
+evidence: HOst MicrobE Spatial-seq (HOMES-seq), a Visium-based workflow for joint spatial profiling of microbial species and
+  the host transcriptome in FFPE colorectal tumours

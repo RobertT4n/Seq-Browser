@@ -1,0 +1,25 @@
+name: BOLT-seq
+full_name: Bulk transcriptOme profiling of cell Lysate in a single poT
+category: wet
+summary: Single-tube 3'-end mRNA library from unpurified crude lysate by tagmenting RNA/DNA hybrids, ready in about 2 h hands-on.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1038/s12276-024-01164-8
+  year: 2024
+  journal: Exp Mol Med
+  first_author: Choi J
+  last_author: Bang D
+  pmid: '38413820'
+  pmcid: PMC10907608
+  title: Cost and time-efficient construction of a 3'-end mRNA library from unpurified bulk RNA in a single tube
+links: {}
+added: '2026-11-21'
+evidence: RNA/DNA hybrids are directly subjected to tagmentation, and second-strand cDNA synthesis and RNA purification are
+  omitted

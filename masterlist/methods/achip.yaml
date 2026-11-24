@@ -1,0 +1,27 @@
+name: aChIP
+full_name: advanced ChIP
+category: wet
+summary: ChIP-seq protocol that isolates chromatin from tough plant organs such as seeds, fruits and flowers, profiling histone
+  marks and TFs.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- plant
+reference:
+  doi: 10.1038/s41477-024-01743-7
+  year: 2024
+  journal: Nat Plants
+  first_author: Zhang Q
+  last_author: Zhao L
+  pmid: '39179701'
+  title: aChIP is an efficient and sensitive ChIP-seq technique for economically important plant organs
+links: {}
+added: '2026-11-21'
+evidence: advanced ChIP (aChIP), an optimized method that efficiently isolates chromatin from plant tissues while simultaneously
+  removing cell walls and cellular constituents

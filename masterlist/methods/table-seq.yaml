@@ -1,0 +1,24 @@
+name: TABLE-seq
+category: wet
+summary: Tn5 transposition of oligos onto single-stranded DNA enabling tagmentation- and ligation-based strand-specific RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- adapter-ligation
+reference:
+  doi: 10.1101/gr.277213.122
+  year: 2023
+  journal: Genome Res
+  first_author: Zhang Y
+  last_author: Fang D
+  pmid: '36958795'
+  pmcid: PMC10078286
+  title: Tn5 tagments and transposes oligos to single-stranded DNA for strand-specific RNA sequencing
+links: {}
+added: '2026-11-21'
+evidence: Tn5 can transpose oligos into the 5' end of single-stranded DNA longer than 140 nucleotides; TABLE-seq, a tagmentation-based
+  and ligation-enabled single-stranded DNA sequencing method

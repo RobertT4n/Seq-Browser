@@ -1,0 +1,23 @@
+name: SpaCir-VDJ
+category: wet
+summary: Multiplex-PCR enrichment plus library circularization that reads spatial barcodes and V(D)J CDR3 regions together
+  on standard short-read sequencers for spatial immune repertoire profiling.
+readouts:
+- immune-repertoire
+resolution:
+- spatial
+scope: targeted
+chemistry:
+- amplicon-pcr
+- spatial-barcode-array
+reference:
+  doi: 10.64898/2026.04.26.720528
+  year: 2026
+  journal: bioRxiv
+  first_author: Hu Z
+  last_author: Liu X
+  title: 'SpaCir-VDJ: a broadly compatible circularization strategy for spatial immune repertoire profiling'
+links: {}
+added: '2026-11-21'
+evidence: an approach that utilizes a multiplex PCR enrichment plus library circularization strategy to integrate spatial
+  barcodes and V(D)J CDR3 regions into a compact circular template

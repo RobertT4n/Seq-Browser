@@ -1,0 +1,29 @@
+name: scMAPIT-seq
+category: wet
+summary: Antibody-directed RNA editing that maps in situ RBP-RNA interactions together with the transcriptome in single cells
+  and tissues.
+readouts:
+- rna-protein-interaction
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41592-025-02774-4
+  year: 2025
+  journal: Nat Methods
+  first_author: Cheng QX
+  last_author: Wang Y
+  pmid: '40784921'
+  pmcid: PMC12446063
+  title: Co-profiling of in situ RNA-protein interactions and transcriptome in single cells and tissues
+links: {}
+added: '2026-11-21'
+evidence: MAPIT-seq uses an antibody-directed editing strategy to map genome-wide in situ RBP-RNA interactions and gene expression
+  concurrently
+aliases:
+- MAPIT-seq

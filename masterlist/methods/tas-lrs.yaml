@@ -1,0 +1,25 @@
+name: TAS-LRS
+full_name: Targeted Adaptive Sampling-Long Read Sequencing
+category: wet
+summary: Targeted adaptive-sampling long-read workflow for clinical pharmacogenomics, with a CYP2D6 caller and three-sample
+  multiplexing per flow cell.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1101/2025.05.05.25326970
+  year: 2025
+  journal: medRxiv
+  first_author: Gan Hui Peng
+  last_author: M
+  title: Targeted adaptive sampling enables clinical pharmacogenomics testing and genome-wide genotyping
+links: {}
+added: '2026-11-21'
+evidence: an end-to-end PGx workflow based on Targeted Adaptive Sampling-Long Read Sequencing (TAS-LRS), using three-sample
+  multiplexing on a single PromethION flow cell

@@ -1,0 +1,27 @@
+name: CiFi
+category: wet
+summary: Chromosome conformation capture coupled to PacBio HiFi reads so each long read holds several concatenated interacting
+  segments, working from about 60,000 cells.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- restriction-digest
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41467-025-66918-y
+  year: 2025
+  journal: Nat Commun
+  first_author: McGinty SP
+  last_author: Dennis MY
+  pmid: '41360792'
+  pmcid: PMC12780124
+  title: 'CiFi: accurate long-read chromosome conformation capture with low-input requirements'
+  preprint_doi: 10.1101/2025.01.31.635566
+links: {}
+added: '2026-11-21'
+evidence: coupling chromosome conformation capture (3C) with PacBio HiFi long-read sequencing, here we develop a method (CiFi)
+  that enables analysis of genomic interactions across repetitive regions

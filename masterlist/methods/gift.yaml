@@ -1,0 +1,27 @@
+name: GIFT
+full_name: Genotyping in Fixed Transcriptomes
+category: wet
+summary: Gapfill ligation between adjacent ssDNA probes in fixed cells that barcodes native transcript sequence for targeted
+  mutation detection together with the whole transcriptome.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- oligo-capture
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.64898/2026.04.11.717967
+  year: 2026
+  journal: bioRxiv
+  first_author: Blattman SB
+  last_author: Lareau CA
+  title: Scalable genotyping in fixed transcriptomes resolves clonal heterogeneity via single-cell sequencing
+links: {}
+added: '2026-11-21'
+evidence: Genotyping in Fixed Transcriptomes (GIFT) simultaneously detects targeted genetic variants with whole transcriptome
+  profiles, using a gapfilling reaction between adjacent ssDNA probes

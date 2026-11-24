@@ -1,0 +1,27 @@
+name: TEAL-seq
+full_name: Targeted Expression Analysis Sequencing
+category: wet
+summary: Probe-pool capture for species-specific expression analysis of about 1,700 Staphylococcus genes within host-rich
+  or low-biomass samples.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1128/msphere.00984-24
+  year: 2025
+  journal: mSphere
+  first_author: Doing G
+  last_author: Adams MD
+  title: 'TEAL-Seq: targeted expression analysis sequencing'
+  preprint_doi: 10.1101/2024.11.26.625462
+links: {}
+added: '2026-11-21'
+evidence: targeted expression analysis sequencing, enabling sensitive species-specific analyses of gene expression using highly
+  multiplexed custom probe pools

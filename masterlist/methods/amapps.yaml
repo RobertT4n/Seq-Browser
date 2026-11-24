@@ -1,0 +1,29 @@
+name: aMAPPs
+full_name: adaptor-anchored methylation amplification via proximity primers
+category: wet
+summary: Adapter-anchored proximity primers for PCR enrichment of CpG-rich differentially methylated regions, for cancer detection
+  in samples with excess normal DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkag056
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Darbeheshti F
+  last_author: Makrigiorgos GM
+  pmid: '41614298'
+  pmcid: PMC12856212
+  title: Genome-wide extraction of differentially methylated DNA regions using adapter-anchored proximity primers
+links: {}
+added: '2026-11-21'
+evidence: adaptor-anchored methylation amplification via proximity primers (aMAPPs), a versatile PCR-based enrichment method
+  for CpG islands

@@ -1,0 +1,26 @@
+name: RIP-PEN-seq
+category: wet
+summary: RNA immunoprecipitation with full-length sequencing of RNAs bound by the K-turn binding protein 15.5K, finding backward
+  K-turn RNAs.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+- mouse
+reference:
+  doi: 10.1038/s41587-023-01749-0
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Li B
+  last_author: Yang J
+  pmid: '37037902'
+  pmcid: PMC12657104
+  title: RIP-PEN-seq identifies a class of kink-turn RNAs as splicing regulators
+links: {}
+added: '2026-11-21'
+evidence: the RIP-PEN-seq method to identify the full-length sequences of RNAs bound by the K-turn binding protein 15.5K

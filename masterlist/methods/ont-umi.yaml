@@ -1,0 +1,23 @@
+name: ONT-UMI
+category: wet
+summary: Nanopore Q20+ sequencing with dual UMIs to monitor enrichment and diversity through antibody phage-display selections.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.1016/j.nbt.2024.02.001
+  year: 2024
+  journal: N Biotechnol
+  first_author: Mejias-Gomez O
+  last_author: Goletz S
+  pmid: '38354946'
+  title: Deep mining of antibody phage-display selections using Oxford Nanopore Technologies and Dual Unique Molecular Identifiers
+links: {}
+added: '2026-11-21'
+evidence: a high accuracy long-read sequencing method based on ONT Q20+ chemistry in combination with dual unique molecular
+  identifiers to monitor selections

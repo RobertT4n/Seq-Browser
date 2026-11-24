@@ -1,0 +1,24 @@
+name: LevSeq
+full_name: Long-read every variant Sequencing
+category: wet
+summary: Dual barcoding with nanopore sequencing to give sequence-function data for every variant of a protein-coding gene
+  in directed evolution.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.1021/acssynbio.4c00625
+  year: 2025
+  journal: ACS Synth Biol
+  first_author: Long Y
+  last_author: Arnold FH
+  pmid: '39719062'
+  title: 'LevSeq: Rapid Generation of Sequence-Function Data for Directed Evolution and Machine Learning'
+links: {}
+added: '2026-11-21'
+evidence: Long-read every variant Sequencing (LevSeq), a pipeline that combines a dual barcoding strategy with nanopore sequencing

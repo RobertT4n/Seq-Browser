@@ -1,0 +1,26 @@
+name: sc-STM-seq
+category: wet
+summary: Simultaneous single-cell tRNA and mRNA sequencing that maps tRNA expression and splicing across human hematopoiesis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.08.14.744819
+  year: 2026
+  journal: bioRxiv
+  first_author: Külp
+  last_author: M. A
+  title: Single-Cell Mapping of tRNA Expression Dynamics Across Human Hematopoiesis
+links: {}
+added: '2026-11-21'
+evidence: simultaneous single-cell tRNA and mRNA sequencing (sc-STM-seq), a scalable, high-throughput approach for profiling
+  tRNAs alongside mRNA transcriptomes in individual cells

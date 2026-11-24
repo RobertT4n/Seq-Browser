@@ -1,0 +1,25 @@
+name: T-RHEX-RNAseq
+category: wet
+summary: Tagmentation-based, rRNA-blocked, random-hexamer-primed stranded RNA-seq from very few FACS-sorted cells without
+  RNA purification.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+- facs-sorting
+reference:
+  doi: 10.1186/s12864-023-09279-4
+  year: 2023
+  journal: BMC Genomics
+  first_author: Gustafsson C
+  last_author: Månsson R
+  title: T-RHEX-RNAseq – a tagmentation-based, rRNA blocked, random hexamer primed RNAseq method for generating stranded RNAseq
+    libraries directly from very low numbers of lysed cells
+links: {}
+added: '2026-11-21'
+evidence: a tagmentation-based, rRNA blocked, random hexamer primed RNAseq approach (T-RHEX-RNAseq) for stranded libraries
+  from very low numbers of FACS sorted cells

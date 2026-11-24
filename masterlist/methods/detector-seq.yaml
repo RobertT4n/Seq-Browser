@@ -1,0 +1,30 @@
+name: DETECTOR-seq
+full_name: depletion-assisted multiplexed cell-free total RNA sequencing
+category: wet
+summary: Cost-effective cell-free total RNA-seq that depletes fragmented rRNA and mtRNA with custom guide RNAs and barcodes
+  early to cut plasma input.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1002/ctm2.1760
+  year: 2024
+  journal: Clin Transl Med
+  first_author: Wang H
+  last_author: Lu ZJ
+  pmid: '39031987'
+  pmcid: PMC11259601
+  title: Depletion-assisted multiplexed cell-free RNA sequencing reveals distinct human and microbial signatures in plasma
+    versus extracellular vesicles
+  preprint_doi: 10.1101/2023.01.31.526408
+links: {}
+added: '2026-11-21'
+evidence: depletion-assisted multiplexed cell-free total RNA sequencing using customized guide RNAs to remove unwanted RNAs
+  in human plasma, with early barcoding

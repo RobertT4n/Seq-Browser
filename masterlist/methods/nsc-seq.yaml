@@ -1,0 +1,25 @@
+name: NSC-seq
+full_name: Native sgRNA Capture and sequencing
+category: wet
+summary: Direct capture of native sgRNAs for single-cell CRISPR screens with ordinary knockout plasmid libraries.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- oligo-capture
+- reverse-transcription
+reference:
+  doi: 10.1101/2024.02.01.578192
+  year: 2024
+  journal: bioRxiv
+  first_author: Islam
+  last_author: K
+  title: Scalable single-cell pooled CRISPR screens with conventional knockout vector libraries
+links: {}
+added: '2026-11-21'
+evidence: a direct sgRNA capture platform called Native sgRNA Capture and sequencing (NSC-seq) that enables single-cell CRISPR
+  screens using common knockout plasmid libraries

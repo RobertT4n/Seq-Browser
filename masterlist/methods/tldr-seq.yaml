@@ -1,0 +1,26 @@
+name: TLDR-seq
+full_name: True Length of Diverse capped RNA sequencing
+category: wet
+summary: Cap trapping with 3'-end adapter ligation to long-read-sequence capped RNAs between exact 5' and 3' ends regardless
+  of polyadenylation.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1093/nar/gkaf240
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Auxillos J
+  last_author: Sandelin A
+  title: 'True length of diverse capped RNA sequencing (TLDR-seq): 5′–3′-end sequencing of capped RNAs regardless of 3′-end
+    status'
+links: {}
+added: '2026-11-21'
+evidence: utilizing cap trapping and 3'-end adapter ligation, sequences transcripts between their exact 5' and 3' ends regardless
+  of polyadenylation status

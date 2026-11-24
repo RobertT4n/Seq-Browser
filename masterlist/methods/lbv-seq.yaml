@@ -1,0 +1,25 @@
+name: LBV-Seq
+full_name: Low Biomass Viral Sequencing
+category: wet
+summary: Low-input viral sample handling plus modified primary template-directed amplification and short- or long-read sequencing
+  for de novo assembly of DNA and RNA viral genomes from ultra-low-biomass samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.64898/2026.05.28.728558
+  year: 2026
+  journal: bioRxiv
+  first_author: Wu-Woods NJ
+  last_author: Ismagilov RF
+  title: Ultra-low biomass sequencing workflow (LBV-Seq) enables de novo metagenomic reconstruction of DNA and RNA viral genomes
+links: {}
+added: '2026-11-21'
+evidence: a workflow that couples low-input viral sample handling with modified primary template-directed amplification and
+  short- or long-read sequencing

@@ -1,0 +1,25 @@
+name: fMEM
+full_name: fungal Microbial Enrichment Method
+category: wet
+summary: Fungal extension of a microbial enrichment method that depletes host DNA to allow fungal metagenomics and genome
+  assembly directly from clinical samples.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.64898/2026.07.16.738568
+  year: 2026
+  journal: bioRxiv
+  first_author: Porter MK
+  last_author: Ismagilov RF
+  title: Fungal microbial enrichment method enables fungal metagenomics directly from human clinical samples
+links: {}
+added: '2026-11-21'
+evidence: extend a recently described microbial enrichment method to fungi (fMEM) and test the method in bronchoalveolar lavage
+  samples

@@ -1,0 +1,27 @@
+name: Transcript-Capture Seq
+category: wet
+summary: Biotinylated-probe enrichment of Mycobacterium tuberculosis mRNA from host samples, giving over 200-fold more bacterial
+  reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- oligo-capture
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/narmme/ugaf045
+  year: 2026
+  journal: NAR Mol Med
+  first_author: Lamont EI
+  last_author: Sherman DR
+  pmid: '41522880'
+  pmcid: PMC12783040
+  title: Transcript-Capture sequencing enriches mRNA of &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; from host samples
+links: {}
+added: '2026-11-21'
+evidence: Transcript-Capture Seq uses customizable biotinylated probes generated in-house to enrich bacteria-specific RNA
+  from host samples before NGS

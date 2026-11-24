@@ -1,0 +1,28 @@
+name: EMCap
+category: wet
+summary: Capture methyl-seq with pre-pooling of libraries before hybridization capture and TET2/APOBEC enzymatic conversion
+  to cut cost and DNA input.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- bisulfite-or-enzymatic-conversion
+species:
+- human
+reference:
+  doi: 10.1186/s13104-023-06401-3
+  year: 2023
+  journal: BMC Res Notes
+  first_author: Hasegawa K
+  last_author: Tanaka M
+  pmid: '37415255'
+  pmcid: PMC10326935
+  title: A capture methyl-seq protocol with improved efficiency and cost-effectiveness using pre-pooling and enzymatic conversion
+links: {}
+added: '2026-11-21'
+evidence: EMCap adopts pre-pooling of multiple libraries before hybridization capture and TET2/APOBEC-mediated conversion
+  of unmethylated cytosine to thymine

@@ -1,0 +1,24 @@
+name: BIND&MODIFY
+category: wet
+summary: Recombinant protein A-M.EcoGII tethered to antibody-bound sites to methylate neighboring DNA, read by long-read sequencing
+  to map histone marks and TFs on single fibers.
+readouts:
+- histone-modification
+- protein-dna-binding
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- long-read-sequencing
+reference:
+  doi: 10.1186/s13059-023-02896-y
+  year: 2023
+  journal: Genome Biology
+  first_author: Weng Z
+  last_author: Tang C
+  title: 'BIND&amp;MODIFY: a long-range method for single-molecule mapping of chromatin modifications in eukaryotes'
+links: {}
+added: '2026-11-21'
+evidence: BIND&MODIFY uses recombinant fused protein A-M.EcoGII to tether methyltransferase M.EcoGII to protein binding sites
+  to label neighboring regions by methylation

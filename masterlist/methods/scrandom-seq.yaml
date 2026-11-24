@@ -1,0 +1,28 @@
+name: scRandom-seq
+category: wet
+summary: Cross-species dual scRNA-seq with random primers that captures eukaryotic and bacterial RNA from the same infected
+  cells.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- microbe
+- human
+reference:
+  doi: 10.1002/anie.202400538
+  year: 2024
+  journal: Angew Chem Int Ed Engl
+  first_author: Meng H
+  last_author: Wang Y
+  pmid: '38419141'
+  title: High-Throughput Host-Microbe Single-Cell RNA Sequencing Reveals Ferroptosis-Associated Heterogeneity during Acinetobacter
+    baumannii Infection
+links: {}
+added: '2026-11-21'
+evidence: a high-throughput cross-species dual scRNA-seq technology using random primers to simultaneously capture both eukaryotic
+  and bacterial RNAs (scRandom-seq)

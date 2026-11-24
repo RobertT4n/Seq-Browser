@@ -1,0 +1,28 @@
+name: snHiChew
+category: wet
+summary: Hi-C variant with efficient sticky-end ligation and post-PCR methylation-based enrichment, reaching about 50% valid
+  pairs, with a single-nucleus version.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- restriction-digest
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1186/s13059-026-04059-1
+  year: 2026
+  journal: Genome Biol
+  first_author: Chen Z
+  last_author: Tang C
+  pmid: '42036683'
+  pmcid: PMC13112749
+  title: Highly efficient chromatin conformation capture with post-enrichment in single cells by HiChew
+links: {}
+added: '2026-11-21'
+evidence: HiChew combines efficient sticky-end ligation with post-PCR methylation-based enrichment; its single-cell implementation
+  snHiChew achieves 45-50% valid pair ratios
+aliases:
+- HiChew

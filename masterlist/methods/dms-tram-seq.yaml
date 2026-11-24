@@ -1,0 +1,26 @@
+name: DMS-TRAM-seq
+full_name: Dimethyl Sulfate-Transcriptome-wide RNA Accessibility Mapping by sequencing
+category: wet
+summary: Dimethyl-sulfate probing across nearly the whole transcriptome to predict RNA secondary structure and find structured
+  elements and stress-driven rearrangements.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1101/2025.06.05.658101
+  year: 2025
+  journal: bioRxiv
+  first_author: Farenhem K
+  last_author: Jain A
+  title: Transcriptome-wide RNA accessibility mapping reveals structured RNA elements and pervasive conformational rearrangements
+    under stress
+links: {}
+added: '2026-11-21'
+evidence: DMS-TRAM-seq probes RNA structure across nearly the entire transcriptome, generating secondary structure predictions
+  for over 9,000 human transcripts

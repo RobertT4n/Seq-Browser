@@ -1,0 +1,24 @@
+name: Nano-DMS-MaP
+category: wet
+summary: Nanopore dimethyl-sulfate mutational profiling that gives isoform-resolved RNA structure probing from long reads.
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+reference:
+  doi: 10.1038/s41592-023-01862-7
+  year: 2023
+  journal: Nat Methods
+  first_author: Bohn P
+  last_author: Smyth RP
+  pmid: '37106231'
+  pmcid: PMC10250195
+  title: Nano-DMS-MaP allows isoform-specific RNA structure determination
+links: {}
+added: '2026-11-21'
+evidence: nanopore dimethylsulfate mutational profiling (Nano-DMS-MaP)-a method that exploits long-read sequencing to provide
+  isoform-resolved structural information

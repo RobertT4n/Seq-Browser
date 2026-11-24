@@ -1,0 +1,29 @@
+name: scDyna-seq
+category: wet
+summary: In vivo time-resolved scRNA-seq using 4sU labeling to track nascent RNA, including across the blood-brain barrier.
+readouts:
+- nascent-rna
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1021/acs.analchem.4c05648
+  year: 2025
+  journal: Anal Chem
+  first_author: Zhu W
+  last_author: Tian T
+  pmid: '39908452'
+  title: In Vivo Time-Resolved Single-Cell RNA-Seq Reveals Chemotherapy-Induced Transcriptional Dynamics in Tumor Infiltrating
+    Lymphocytes
+links: {}
+added: '2026-11-21'
+evidence: scDyna-seq, a time-resolved scRNA-seq method for in vivo applications using 4-thiouridine (4sU) labeling

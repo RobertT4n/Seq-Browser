@@ -1,0 +1,27 @@
+name: Archimap
+category: wet
+summary: Spatial transcriptomics platform that profiles transcriptomes, TCR/BCR repertoires and microbiota together from FFPE
+  tissue at single-cell resolution.
+readouts:
+- rna
+- immune-repertoire
+- microbial-composition
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.11.744176
+  year: 2026
+  journal: bioRxiv
+  first_author: Zhang H
+  last_author: Zeng Z
+  title: In situ Discovery of Immune Repertoire Reveals Antitumor Immunity and Therapeutic Antibodies
+links: {}
+added: '2026-11-21'
+evidence: a spatial transcriptomic platform that simultaneously profiles spatial transcriptomes, immune repertoires, and microbiota
+  from formalin-fixed paraffin-embedded (FFPE) tissues

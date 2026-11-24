@@ -1,0 +1,27 @@
+name: ARMS DNAseq
+full_name: Adaptive Resolution Multiscale Spatial DNA sequencing
+category: wet
+summary: 'Adaptive Resolution Multiscale Spatial DNA sequencing: ultra-low-coverage whole-genome sequencing from archival
+  tissue to map copy-number subclones at sub-millimetre resolution.'
+readouts:
+- genome-sequence
+resolution:
+- spatial
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.24.746226
+  year: 2026
+  journal: bioRxiv
+  first_author: Soitu C
+  last_author: Rao S
+  title: Scalable spatial DNA sequencing from archival tissue maps copy number subclones
+links: {}
+added: '2026-11-21'
+evidence: derived CNA profiles from ultra-low coverage whole genome sequencing at sub-millimetre resolution from archival
+  samples using a novel method called Adaptive Resolution Multiscale Spatial DNA seq

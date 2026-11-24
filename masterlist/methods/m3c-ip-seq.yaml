@@ -1,0 +1,28 @@
+name: m3C-IP-seq
+full_name: m3C immunoprecipitation and sequencing
+category: wet
+summary: Antibody enrichment of m3C-containing RNA to map N3-methylcytidine in tRNAs, mRNAs and lncRNAs at single-nucleotide
+  resolution.
+readouts:
+- rna-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- reverse-transcription
+species:
+- human
+reference:
+  doi: 10.1093/nar/gkaf153
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Gao Y
+  last_author: Gao X
+  pmid: '40071931'
+  pmcid: PMC11897884
+  title: Transcriptome-wide mapping of N3-methylcytidine modification at single-base resolution
+links: {}
+added: '2026-11-21'
+evidence: m3C immunoprecipitation and sequencing (m3C-IP-seq), utilizing antibody enrichment to profile the m3C methylome
+  at single-nucleotide resolution

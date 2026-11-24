@@ -1,0 +1,26 @@
+name: nAECATS
+category: wet
+summary: Cas9-targeted nanopore sequencing of native, unamplified DNA with a bead-based poly(T) capture step for ultra-deep
+  coverage of selected regions.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.1016/j.crmeth.2026.101410
+  year: 2026
+  journal: Cell Rep Methods
+  first_author: Vereecke N
+  last_author: Dekker JP
+  pmid: '42019502'
+  pmcid: PMC13198105
+  title: Improved Cas9-targeted nanopore sequencing facilitates ultra-deep analysis of genomic variation
+links: {}
+added: '2026-11-21'
+evidence: nanopore adapter-enriched Cas9-targeted sequencing permitting inexpensive, ultra-deep, selective long-read sequencing
+  of targeted regions in native, unamplified DNA

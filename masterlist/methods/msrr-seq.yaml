@@ -1,0 +1,27 @@
+name: MsRR-Seq
+category: wet
+summary: Enzymatic depletion of transposable-element-derived DNA from sequencing libraries to cut the cost of genotyping CRISPR-edited
+  plants.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- adapter-ligation
+species:
+- plant
+reference:
+  doi: 10.1111/tpj.70501
+  year: 2025
+  journal: Plant J
+  first_author: Thomson G
+  last_author: Jacob Y
+  pmid: '41045024'
+  title: Enzymatic depletion of transposable elements in sequencing libraries and its application for genotyping multiplexed
+    CRISPR-edited plants
+links: {}
+added: '2026-11-21'
+evidence: strategies that enrich DNA coding for the protein-coding genes prior to sequencing can lower the cost; development
+  of MsRR-Seq

@@ -1,0 +1,27 @@
+name: HPVPool-Seq
+category: wet
+summary: Genotype-guided pooling that uses HPV genotypes as natural barcodes so many cervical samples share one targeted NGS
+  run for integration detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1128/spectrum.01399-25
+  year: 2025
+  journal: Microbiol Spectr
+  first_author: Guan W
+  last_author: Li J
+  pmid: '40827881'
+  pmcid: PMC12502606
+  title: 'HPVPool-Seq: a genotype-guided pooling strategy for cost-effective next-generation sequencing detection of HPV integration
+    in cervical samples'
+links: {}
+added: '2026-11-21'
+evidence: an innovative pooling strategy that leverages the inherent diversity of HPV genotypes as natural barcodes, enabling
+  cost-effective, scalable integration detection

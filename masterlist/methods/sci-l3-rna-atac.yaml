@@ -1,0 +1,26 @@
+name: sci-L3-RNA/ATAC
+category: wet
+summary: sci-L3 extended to joint single-cell RNA and chromatin accessibility, with linear amplification and three-level barcoding;
+  the paper also adds template-strand sequencing and Hi-C versions.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1093/nar/gkaf101
+  year: 2025
+  journal: Nucleic Acids Research
+  first_author: Chovanec P
+  last_author: Yin Y
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand
+    sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+links: {}
+added: '2026-11-21'
+evidence: extending sci-L3 to template strand sequencing (sci-L3-Strand-seq), genome conformation capture (sci-L3-Hi-C), and
+  the joint profiling of RNA and chromatin accessibility (sci-L3-RNA/ATAC)

@@ -1,0 +1,29 @@
+name: BARe-seq
+full_name: Bulk Allele Resolution Sequencing
+category: wet
+summary: Allele-resolved massively parallel reporter assay that infers transcriptional burst size and frequency from bulk
+  sequencing of 1000 promoters and 1000 enhancers.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+species:
+- invertebrate
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.08.19.745405
+  year: 2026
+  journal: bioRxiv
+  first_author: Lorbeer
+  last_author: A
+  title: BARe-seq enables high-throughput dissection of cis-regulatory control of transcriptional bursting
+links: {}
+added: '2026-11-21'
+evidence: Bulk Allele Resolution Sequencing (BARe-seq), an allele-resolved massively parallel reporter assay enabling inference
+  of transcriptional burst parameters from bulk sequencing

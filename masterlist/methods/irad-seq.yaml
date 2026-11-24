@@ -1,0 +1,25 @@
+name: iRAD-seq
+full_name: inverse RAD-seq
+category: wet
+summary: Inverse RAD-seq that prepares the library first and then selects fragments away from restriction sites for whole-genome
+  genotyping.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.1186/s12915-025-02330-8
+  year: 2025
+  journal: BMC Biol
+  first_author: Chen P
+  last_author: Chang Y
+  pmid: '41163131'
+  pmcid: PMC12573827
+  title: A novel method for effectively selecting fragments not associated with restriction sites for whole-genome genotyping
+links: {}
+added: '2026-11-21'
+evidence: we developed inverse RAD-seq (iRAD-seq), a novel method that employs a prepare library first, then select approach

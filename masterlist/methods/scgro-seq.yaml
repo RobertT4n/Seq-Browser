@@ -1,0 +1,26 @@
+name: scGRO-seq
+category: wet
+summary: Single-cell nascent RNA sequencing using click chemistry to profile transcription of genes and enhancers in individual
+  cells.
+readouts:
+- nascent-rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41586-024-07517-7
+  year: 2024
+  journal: Nature
+  first_author: Mahat DB
+  last_author: Sharp PA
+  pmid: '38839954'
+  pmcid: PMC11222150
+  title: Single-cell nascent RNA sequencing unveils coordinated global transcription
+links: {}
+added: '2026-11-21'
+evidence: scGRO-seq, a new single-cell nascent RNA sequencing assay that uses click chemistry

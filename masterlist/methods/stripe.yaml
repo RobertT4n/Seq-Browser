@@ -1,0 +1,29 @@
+name: STRIPE
+full_name: Sequencing Targeted RNAs Identifies Pathogenic Events
+category: wet
+summary: Targeted long-read RNA-seq on customized disease-gene panels to find pathogenic splicing events for rare disease
+  diagnosis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- reverse-transcription
+- oligo-capture
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1126/sciadv.ady9895
+  year: 2026
+  journal: Sci Adv
+  first_author: Wang R
+  last_author: Xing Y
+  pmid: '41984969'
+  pmcid: PMC13082330
+  title: Targeted long-read RNA sequencing for rare disease diagnosis and variant interpretation
+links: {}
+added: '2026-11-21'
+evidence: a targeted long-read RNA-seq-based strategy for rare disease diagnosis; deep sequencing of full-length transcripts
+  for any customized disease-specific gene panel

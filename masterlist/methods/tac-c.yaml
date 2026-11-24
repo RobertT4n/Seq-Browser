@@ -1,0 +1,30 @@
+name: TAC-C
+full_name: Transposase-Accessible Chromosome Conformation Capture
+category: wet
+summary: Transposase-accessible chromosome conformation capture combining ATAC-seq and Hi-C to map fine-scale open-chromatin
+  interactions in crops.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- proximity-ligation
+species:
+- plant
+reference:
+  doi: 10.1126/sciadv.adu6565
+  year: 2025
+  journal: Sci Adv
+  first_author: Kang J
+  last_author: Xiao J
+  pmid: '40446043'
+  pmcid: PMC12124369
+  title: TAC-C uncovers open chromatin interaction in crops and SPL-mediated photosynthesis regulation
+  preprint_doi: 10.1101/2025.02.10.637364
+links: {}
+added: '2026-11-21'
+evidence: 'a method integrating ATAC-seq and Hi-C to capture fine-scale chromatin interactions in four major crops: rice,
+  sorghum, maize, and wheat'

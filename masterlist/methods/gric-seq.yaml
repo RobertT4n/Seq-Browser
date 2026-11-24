@@ -1,0 +1,24 @@
+name: GRIC-seq
+category: wet
+summary: RIC-seq RNA-RNA interactomes analysed with a circRNA target-mapping framework to find circRNA-mRNA interactions and
+  P-body-mediated repression.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+species:
+- human
+reference:
+  doi: 10.1016/j.molcel.2026.01.018
+  year: 2026
+  journal: Molecular Cell
+  first_author: Li P
+  last_author: Xue Y
+  title: Global mapping of circRNA-target RNA interactions reveal P-body-mediated translational repression
+links: {}
+added: '2026-11-21'
+evidence: circTargetMap, a computational framework for globally mapping circRNA targets using RNA-RNA interactomes obtained
+  via RNA in situ conformation sequencing (RIC-seq)

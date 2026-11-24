@@ -1,0 +1,31 @@
+name: GoT-Multi
+full_name: Genotyping of Transcriptomes for multiple targets and sample types
+category: wet
+summary: FFPE-compatible single-cell multi-omics that co-detects multiple somatic genotypes and whole transcriptomes.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- amplicon-pcr
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1016/j.xgen.2025.101036
+  year: 2026
+  journal: Cell Genom
+  first_author: Pak M
+  last_author: Nam AS
+  pmid: '41075791'
+  pmcid: PMC12926217
+  title: Co-mapping clonal and transcriptional heterogeneity in somatic evolution via GoT-Multi
+links: {}
+added: '2026-11-21'
+evidence: Genotyping of Transcriptomes for multiple targets and sample types (GoT-Multi), a high-throughput, FFPE tissue-compatible
+  single-cell multi-omics for co-detection of multiple somatic genotypes and whole transcriptomes

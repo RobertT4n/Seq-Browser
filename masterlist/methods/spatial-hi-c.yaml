@@ -1,0 +1,28 @@
+name: spatial Hi-C
+category: wet
+summary: Hi-C performed directly in tissue sections that resolves 3D chromatin structure with spatial context in mouse embryos
+  and brain.
+readouts:
+- 3d-genome
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- spatial-barcode-array
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41592-026-03218-3
+  year: 2026
+  journal: Nat Methods
+  first_author: Chen Z
+  last_author: Chen X
+  pmid: '42791404'
+  title: Spatially resolved chromatin architectures in mammalian brain tissues
+links: {}
+added: '2026-11-21'
+evidence: spatial high-throughput chromosome conformation capture (Hi-C), a technology that resolves genome-wide chromatin
+  structures directly within tissue sections

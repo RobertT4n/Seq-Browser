@@ -1,0 +1,22 @@
+name: Negative nanopore sequencing
+category: wet
+summary: Mapping protein-bound or strand-broken sites on DNA from unaligned gaps (negative peaks) in nanopore alignment profiles.
+readouts:
+- protein-dna-binding
+- dna-damage
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+reference:
+  doi: 10.1039/d3cc02112b
+  year: 2023
+  journal: Chemical Communications
+  first_author: Kim Y
+  last_author: Jo K
+  title: Negative nanopore sequencing for mapping biochemical processes on DNA molecules
+links: {}
+added: '2026-11-21'
+evidence: Protein-bound DNA and single-strand broken DNA cannot pass through nanopores, resulting in unaligned regions in
+  the genome MAP

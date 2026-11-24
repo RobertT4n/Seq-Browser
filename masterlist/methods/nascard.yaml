@@ -1,0 +1,27 @@
+name: NASCarD
+full_name: Nanopore Adaptive Sampling with Carrier DNA
+category: wet
+summary: PCR-free nanopore adaptive sampling with carrier DNA to enrich SARS-CoV-2 from low-input clinical samples.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.3390/pathogens13010061
+  year: 2024
+  journal: Pathogens
+  first_author: Terrazos Miani MA
+  last_author: Ramette A
+  pmid: '38251368'
+  pmcid: PMC10818518
+  title: 'NASCarD (Nanopore Adaptive Sampling with Carrier DNA): A Rapid, PCR-Free Method for SARS-CoV-2 Whole-Genome Sequencing
+    in Clinical Samples'
+links: {}
+added: '2026-11-21'
+evidence: Nanopore Adaptive Sampling with Carrier DNA, which allows a low amount of nucleic acids to be sequenced while selectively
+  enriching for sequences of interest

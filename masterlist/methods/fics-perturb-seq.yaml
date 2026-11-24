@@ -1,0 +1,29 @@
+name: FiCS Perturb-seq
+full_name: Fix-Cryopreserve-ScRNAseq Perturb-seq
+category: wet
+summary: Fix-cryopreserve single-cell Perturb-seq platform for scalable genome-wide perturbation data generation.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+- sample-preservation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2025.06.11.659105
+  year: 2025
+  journal: bioRxiv
+  first_author: Huang AC
+  last_author: Chu C
+  title: 'X-Atlas/Orion: Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent
+    Biological Foundation Models'
+links: {}
+added: '2026-11-21'
+evidence: Fix-Cryopreserve-ScRNAseq (FiCS) Perturb-seq, an industrialized platform for scalable Perturb-seq data generation

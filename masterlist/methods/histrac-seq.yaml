@@ -1,0 +1,26 @@
+name: HisTrac-seq
+full_name: History Tracing-sequencing
+category: wet
+summary: Enzymatic labeling of genomic DNA adenine to bookmark regulatory states, then profiling transcriptome and epigenome
+  of the same cells at later time points.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+reference:
+  doi: 10.1101/2025.08.12.669973
+  year: 2025
+  journal: bioRxiv
+  first_author: Kawamura YK
+  last_author: Kitazawa T
+  title: Whole-genome single-cell multimodal history tracing to reveal cell identity transition
+links: {}
+added: '2026-11-21'
+evidence: the History Tracing-sequencing platform enzymatically labels genomic DNA adenine to bookmark gene regulatory statuses

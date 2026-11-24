@@ -1,0 +1,29 @@
+name: Superb-seq
+category: wet
+summary: Joint single-cell readout of Cas9 edit sites (via T7 transcription) and transcriptomes, revealing off-target edits
+  and their expression effects.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2025.02.07.636966
+  year: 2025
+  journal: bioRxiv
+  first_author: Lorenzini
+  last_author: G
+  title: Joint single-cell profiling of CRISPR-Cas9 edits and transcriptomes reveals widespread off-target events and their
+    effects on gene expression
+links: {}
+added: '2026-11-21'
+evidence: Superb-seq captures single-cell edits and measures their effects on the transcriptome by integrating Cas9 editing,
+  T7 transcription, and single-cell RNA sequencing

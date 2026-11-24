@@ -1,0 +1,26 @@
+name: Terminal Mapping
+category: wet
+summary: Restriction- and ligation-free mapping of host-insert junctions by linear amplification from a known terminal sequence,
+  ssDNA enrichment and poly-A tailing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.06.11.731714
+  year: 2026
+  journal: bioRxiv
+  first_author: Kabi M
+  last_author: Filion GJ
+  title: A novel High-Throughput Ligase-Independent Mapping method to detect Viral Integration Sites
+links: {}
+added: '2026-11-21'
+evidence: identifies host-insert junctions without restriction enzymes or DNA ligation; linear amplification from a known
+  terminal sequence, terminal transferase-mediated poly-A tailing, and PCR amplification

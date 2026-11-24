@@ -1,0 +1,32 @@
+name: DARESOME
+full_name: DNA analysis by restriction enzyme for simultaneous detection of multiple epigenomic states
+category: wet
+summary: Modification-sensitive restriction digest and sequential tag ligation to measure 5mC and 5hmC concurrently in single
+  cells and cell-free DNA.
+readouts:
+- dna-methylation
+- dna-5mc
+- dna-5hmc
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+partition_unknown: not stated in the abstract
+species:
+- human
+reference:
+  doi: 10.1126/sciadv.adi0197
+  year: 2023
+  journal: Sci Adv
+  first_author: Viswanathan R
+  last_author: Cheow LF
+  pmid: '37713482'
+  pmcid: PMC10881072
+  title: DARESOME enables concurrent profiling of multiple DNA modifications with restriction enzymes in single cells and
+    cell-free DNA
+links: {}
+added: '2026-11-21'
+evidence: an assay based on modification-sensitive restriction digest and sequential tag ligation that can concurrently detect
+  multiple epigenomic states

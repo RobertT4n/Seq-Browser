@@ -1,0 +1,26 @@
+name: Shred-seq
+category: wet
+summary: Type I-C CRISPR-Cas3 deletions with phage-polymerase genotyping to scan the human genome for essential regions in
+  gigabase-scale deletion screens.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.05.29.728882
+  year: 2026
+  journal: bioRxiv
+  first_author: Koeppel J
+  last_author: Pinglay S
+  title: Gigabase-scale deletion scanning of the human genome
+links: {}
+added: '2026-11-21'
+evidence: Shred-seq couples Type I-C CRISPR-Cas3-mediated deletions with phage polymerase-based genotyping to enable large-scale
+  deletion scans of the human genome

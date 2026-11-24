@@ -1,0 +1,25 @@
+name: UDSeq
+full_name: Universal Duplex Sequencing
+category: wet
+summary: Duplex sequencing with random fragmentation and efficient UMI ligation giving near-complete genome representation
+  from 100 pg DNA and about 2.5e-9 error per base.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- adapter-ligation
+species:
+- human
+reference:
+  doi: 10.1101/2025.09.14.676103
+  year: 2025
+  journal: bioRxiv
+  first_author: Nandi S
+  last_author: Alexandrov LB
+  title: A Universal Duplex Sequencing Approach for Accurate Detection of Somatic Mutations
+links: {}
+added: '2026-11-21'
+evidence: UDSeq, a duplex sequencing protocol combining random fragmentation, efficient UMI ligation, and quantitative input
+  control

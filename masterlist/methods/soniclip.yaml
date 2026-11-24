@@ -1,0 +1,21 @@
+name: soniCLIP
+category: wet
+summary: CLIP variant that improves signal-to-noise for RNA targets of non-canonical RBPs lacking classical RNA-binding domains.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+reference:
+  doi: 10.64898/2026.08.17.745202
+  year: 2026
+  journal: bioRxiv
+  first_author: Sommerkamp
+  last_author: M. W
+  title: Identification of RNA Targets of Classical and Non-Canonical RNA-binding Proteins by soniCLIP
+links: {}
+added: '2026-11-21'
+evidence: CLIP-seq is limited for non-canonical RBPs with low or transient RNA occupancy; soniCLIP identifies RNA targets
+  of classical and non-canonical RBPs

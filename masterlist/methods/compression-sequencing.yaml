@@ -1,0 +1,23 @@
+name: Compression Sequencing
+category: wet
+summary: Logarithmic compression of molecule counts before sequencing to raise scRNA-seq sequencing power over 100-fold and
+  detect rare transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.09.01.748706
+  year: 2026
+  journal: bioRxiv
+  first_author: Yan Y
+  last_author: Dai M
+  title: Compression Sequencing enables ultra-sensitive and scalable scRNA-seq
+links: {}
+added: '2026-11-21'
+evidence: an information science-inspired method, Compression Sequencing, that enables highly improved (>100x) sequencing
+  power

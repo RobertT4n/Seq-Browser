@@ -1,0 +1,30 @@
+name: dATAC
+full_name: double ATAC
+category: wet
+summary: One-pot double tagmentation that labels open chromatin and then the whole genome, giving whole-genome sequencing
+  and accessibility from the same single cells.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1101/2025.04.15.648959
+  year: 2025
+  journal: bioRxiv
+  first_author: Mossner M
+  last_author: Graham TA
+  title: Single cell multi-omic whole genome sequencing and chromatin accessibility profiling reveals genome-epigenome coevolution
+    in colorectal cancer
+links: {}
+added: '2026-11-21'
+evidence: double ATAC (dATAC) uses two rounds of tagmentation to sequentially label open chromatin regions and then the whole
+  genome

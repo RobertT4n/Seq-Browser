@@ -1,0 +1,28 @@
+name: MAESTRO-Pool
+full_name: Minor Allele Enriched Sequencing Through Recognition Oligonucleotides
+category: wet
+summary: Mutation-specific oligonucleotide probes pooled across patients to enrich cfDNA libraries for tumor mutations in
+  MRD detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- human
+reference:
+  doi: 10.1093/clinchem/hvad203
+  year: 2024
+  journal: Clin Chem
+  first_author: Blewett T
+  last_author: Adalsteinsson VA
+  pmid: '38069911'
+  pmcid: PMC10847667
+  title: MAESTRO-Pool Enables Highly Parallel and Specific Mutation-Enrichment Sequencing for Minimal Residual Disease Detection
+    in Cohort Studies
+links: {}
+added: '2026-11-21'
+evidence: MAESTRO uses mutation-specific oligonucleotide probes to enrich cfDNA libraries for tumor mutations; MAESTRO-Pool
+  pools MAESTRO probes

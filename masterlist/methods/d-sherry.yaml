@@ -1,0 +1,25 @@
+name: d-SHERRY
+full_name: directional SHERRY
+category: wet
+summary: Strand-specific RNA-seq that uses Tn5 transposase on RNA/DNA hybrids to skip second-strand synthesis, with over 95%
+  strand specificity from 100 pg RNA.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+reference:
+  doi: 10.1021/acs.analchem.5c03784
+  year: 2025
+  journal: Anal Chem
+  first_author: Zhao S
+  last_author: Zheng C
+  pmid: '41030076'
+  title: Transposase Acting on an RNA/DNA Hybrid in Strand-Specific Sequencing
+links: {}
+added: '2026-11-21'
+evidence: leverages Tn5 transposase activity on RNA/DNA hybrids to eliminate second-strand cDNA synthesis while preserving
+  strand-of-origin information

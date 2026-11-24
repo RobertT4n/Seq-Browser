@@ -1,0 +1,23 @@
+name: Footprint-seq
+category: wet
+summary: In vitro mapping of protein-DNA interactions genome-wide by measuring local protection from Tn5 transposition.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- microbe
+reference:
+  doi: 10.64898/2026.01.16.700004
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang AJ
+  last_author: Wade JT
+  title: 'Footprint-seq: a simple method to quantitatively map  <i>in vitro</i>  protein-DNA interactions on a genome-wide
+    scale at high spatial resolution'
+links: {}
+added: '2026-11-21'
+evidence: Footprint-seq measures local protection from transposition in the presence of a DNA-binding protein

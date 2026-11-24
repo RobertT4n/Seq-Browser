@@ -1,0 +1,27 @@
+name: IP-SNPs-seq
+category: wet
+summary: Immunoprecipitation-coupled SNPs-seq screening candidate regulatory variants for allele-specific, TF-resolved binding.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1007/s00018-025-05964-7
+  year: 2025
+  journal: Cell Mol Life Sci
+  first_author: Xu W
+  last_author: Zhang P
+  pmid: '41359169'
+  pmcid: PMC12686227
+  title: IP-SNPs-seq links noncoding risk alleles to lineage transcription factor programs in prostate cancer
+links: {}
+added: '2026-11-21'
+evidence: immunoprecipitation-coupled SNPs-seq (IP-SNPs-seq), enabling high-throughput, allele-specific, TF-resolved interrogation
+  of candidate regulatory variants

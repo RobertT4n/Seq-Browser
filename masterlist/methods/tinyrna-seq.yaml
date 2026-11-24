@@ -1,0 +1,22 @@
+name: tinyRNA-seq
+category: wet
+summary: Small-RNA library preparation with degenerate adaptor ends and UMIs that reduces length and sequence bias down to
+  2-nt fragments.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+reference:
+  doi: 10.64898/2026.08.06.743385
+  year: 2026
+  journal: bioRxiv
+  first_author: Colville BW
+  last_author: Szostak JW
+  title: 'tinyRNA-seq: An optimized approach to sequencing tiny RNAs and primitive RNA genomes'
+links: {}
+added: '2026-11-21'
+evidence: an optimized library preparation method designed to minimize length- and sequence-dependent capture bias enabling
+  the sequencing of RNA fragments as short as 2 nucleotides

@@ -1,0 +1,31 @@
+name: SCITO-seq2
+category: wet
+summary: Ultra-high-throughput single-cell assay joining probe-based RNA detection with protein profiling via shared pool
+  barcoding, with cell hashing.
+readouts:
+- rna
+- protein
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- combinatorial-indexing
+- oligo-capture
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1186/s13059-026-03954-x
+  year: 2026
+  journal: Genome Biol
+  first_author: Lee SH
+  last_author: Hwang B
+  pmid: '41593779'
+  pmcid: PMC12918474
+  title: 'SCITO-seq2: ultra-high-throughput single-cell transcriptome and epitope sequencing'
+links: {}
+added: '2026-11-21'
+evidence: SCITO-seq2 integrates probe-based RNA detection with ultra-high-throughput protein profiling across more than 100,000
+  cells with a shared pool barcoding strategy

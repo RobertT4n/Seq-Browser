@@ -1,0 +1,24 @@
+name: Omega-seq
+category: wet
+summary: RNA-seq library preparation that restricts UMI incorporation to reverse transcription with uracil-excisable template-switching
+  oligos, removing phantom UMIs.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+reference:
+  doi: 10.64898/2026.03.12.711386
+  year: 2026
+  journal: bioRxiv
+  first_author: Chen H
+  last_author: Sugino K
+  title: 'Omega-seq: ultra-low-background RNA sequencing with faithful molecular counting and precise transcript-end capture'
+links: {}
+added: '2026-11-21'
+evidence: Omega-seq restricts UMI incorporation to reverse transcription using uracil-containing, USER-excisable template-switching
+  oligonucleotides and a uracil-intolerant polymerase
+aliases:
+- ESPeR-seq

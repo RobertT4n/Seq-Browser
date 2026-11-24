@@ -1,0 +1,22 @@
+name: Multi-kb level capture-seq
+category: wet
+summary: Multiplex kb-scale PCR capture plus nested-PCR library construction for genotyping SNPs in homologous regions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+reference:
+  doi: 10.1007/s00438-024-02192-9
+  year: 2024
+  journal: Mol Genet Genomics
+  first_author: Lu M
+  last_author: Xiao J
+  pmid: '39460824'
+  title: Genotyping single nucleotide polymorphisms in homologous regions using multiplex kb level amplicon capture sequencing
+links: {}
+added: '2026-11-21'
+evidence: combination of multiplex kb level PCR (PCR size 2.5k-3.5 kb) for capturing targeted regions and multiplex nested
+  PCR library construction for next-generation sequencing

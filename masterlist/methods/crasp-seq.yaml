@@ -1,0 +1,31 @@
+name: CRASP-seq
+full_name: CRISPR-based identification of regulators of alternative splicing with phenotypic sequencing
+category: wet
+summary: Pooled CRISPR perturbation with deep sequencing of splicing reporters to measure each gene's effect on alternative
+  splicing from one RNA sample.
+readouts:
+- functional-screen
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.molcel.2025.12.003
+  year: 2026
+  journal: Mol Cell
+  first_author: Behera AK
+  last_author: Gonatopoulos-Pournatzis T
+  pmid: '41475346'
+  pmcid: PMC12952242
+  title: RNA-coupled CRISPR screens reveal ZNF207 as a regulator of LMNA aberrant splicing in progeria
+links: {}
+added: '2026-11-21'
+evidence: integrates pooled CRISPR-based genetic perturbations with deep sequencing of splicing reporters, to quantitatively
+  assess the impact of all human genes on alternative splicing

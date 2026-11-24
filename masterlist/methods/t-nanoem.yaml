@@ -1,0 +1,29 @@
+name: t-nanoEM
+category: wet
+summary: Hybridization capture added to a long-read enzymatic methyl-seq library for targeted, haplotype-aware nanopore methylation
+  analysis of clinical specimens.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- oligo-capture
+- bisulfite-or-enzymatic-conversion
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.1016/j.crmeth.2025.101215
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Kunigo K
+  last_author: Seki M
+  pmid: '41187747'
+  pmcid: PMC12664885
+  title: Targeted long-read methylation analysis using hybridization capture suitable for clinical specimens
+links: {}
+added: '2026-11-21'
+evidence: t-nanoEM integrates a hybridization-based capture step into a long-read enzymatic methyl (EM)-seq library for nanopore
+  sequencing

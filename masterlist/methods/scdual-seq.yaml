@@ -1,0 +1,28 @@
+name: scDUAL-seq
+category: wet
+summary: Double nucleoside-analog pulse-pulse labeling with chemical conversion to measure RNA synthesis and degradation rates
+  together in single cells.
+readouts:
+- nascent-rna
+- rna-degradation
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- nucleotide-labeling
+- bioorthogonal-conjugation
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1002/anie.202510939
+  year: 2025
+  journal: Angew Chem Int Ed Engl
+  first_author: Wang S
+  last_author: Yang C
+  pmid: '41017207'
+  title: Simultaneous Measurement of RNA Synthesis and Degradation Rates in Single Cells Unveils the Regulatory Mechanisms
+    of Temporal RNA Dynamics
+links: {}
+added: '2026-11-21'
+evidence: scDUAL-seq integrates double nucleoside analogs pulse-pulse labeling, chemical nucleoside conversion, and single-cell
+  RNA sequencing

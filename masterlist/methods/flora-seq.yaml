@@ -1,0 +1,28 @@
+name: FLORA-seq
+category: wet
+summary: Low-input profiling of tRNAs, tRNA-derived RNAs and their modifications from as few as 5-20 cells.
+readouts:
+- rna
+- rna-modification
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.04.14.718460
+  year: 2026
+  journal: bioRxiv
+  first_author: Li H
+  last_author: Liu R
+  title: Ultra-sensitive FLORA-seq links cell-type-specific tRNAome dynamics to differentiation trajectories guiding therapeutic
+    suppressor tRNA candidate selection
+links: {}
+added: '2026-11-21'
+evidence: a method for simultaneous, low-input profiling of tRNAs, tRNA-derived RNAs (tdRs) and their modifications from as
+  few as 5-20 cells

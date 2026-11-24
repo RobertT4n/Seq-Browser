@@ -1,0 +1,26 @@
+name: Ouro-Seq
+category: wet
+summary: Single-cell long-read RNA-seq framework with a mechanism to remove reverse-transcription artifacts for full-length
+  isoform analysis.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+- long-read-sequencing
+partition_unknown: not stated in the abstract
+species:
+- mouse
+reference:
+  doi: 10.1101/2025.01.17.633678
+  year: 2025
+  journal: bioRxiv
+  first_author: An H
+  last_author: Park J
+  title: Mouse Single-Cell Long-Read Splicing Atlas by Ouro-Seq
+links: {}
+added: '2026-11-21'
+evidence: a novel single-cell long-read sequencing framework with a versatile artifact removal mechanism for characterizing
+  full-length mRNA species expressed by individual cells

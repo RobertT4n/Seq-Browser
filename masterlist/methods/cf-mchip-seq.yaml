@@ -1,0 +1,29 @@
+name: cf-mChIP-seq
+category: wet
+summary: Multiplexed ChIP-seq with sample indexing in one reaction and pool-and-split immunoprecipitation, for cells and circulating
+  nucleosomes.
+readouts:
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.04.27.721226
+  year: 2026
+  journal: bioRxiv
+  first_author: Sun C
+  last_author: Xu W
+  title: mChIP-seq for Multiplex and Multifactorial Epigenomic Profiling Uncovers Cancer-specific Histone Features in Cellular
+    and Circulating Nucleosomes
+links: {}
+added: '2026-11-21'
+evidence: mChIP-seq combines sample indexing in a single reaction with a pool-and-split strategy for immunoprecipitation;
+  profiled H2A.Z and 10 histone modifications in cell lines
+aliases:
+- mChIP-seq

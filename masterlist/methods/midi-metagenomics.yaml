@@ -1,0 +1,27 @@
+name: midi-metagenomics
+category: wet
+summary: Cell sorting for targeted enrichment and depletion of cell types to create low-diversity pools, giving high-quality
+  genomes from environmental samples without whole-genome amplification.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- facs-sorting
+species:
+- microbe
+reference:
+  doi: 10.1101/gr.280099.124
+  year: 2026
+  journal: Genome Res
+  first_author: Vollmers J
+  last_author: Kaster AK
+  pmid: '42140665'
+  pmcid: PMC13322193
+  title: Cultivation-independent high-quality microbial genome reconstruction from environmental samples with midi-metagenomics
+links: {}
+added: '2026-11-21'
+evidence: a novel approach for genome reconstructions that utilizes cell sorting for targeted enrichment and depletion of
+  different cell types to create diversity-reduced pools

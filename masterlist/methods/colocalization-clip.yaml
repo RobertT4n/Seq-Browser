@@ -1,0 +1,26 @@
+name: colocalization CLIP
+category: wet
+summary: CLIP combined with proximity labeling to map HuR-RNA interactions in the nucleus, cytosol and stress granules.
+readouts:
+- rna-protein-interaction
+resolution:
+- subcellular
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1261/rna.079890.123
+  year: 2024
+  journal: RNA
+  first_author: Yi S
+  last_author: Luna JM
+  title: Mapping RNA-Protein Interactions with Subcellular Resolution Using Colocalization CLIP
+  preprint_doi: 10.1101/2023.10.26.563984
+links: {}
+added: '2026-11-21'
+evidence: colocalization CLIP combines CrossLinking and ImmunoPrecipitation (CLIP) with proximity labeling to explore subcellular
+  RNA interactions of HuR

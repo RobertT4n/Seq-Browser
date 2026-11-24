@@ -1,0 +1,27 @@
+name: CoSMIC
+full_name: Comprehensive Small Ribosomal Subunit Mapping and Identification of Communities
+category: wet
+summary: 'Hybrid 16S profiling: long-read full-length 16S with LNA primers on pooled samples, then multi-region short-read
+  amplification for large-scale species-level community profiling.'
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0340349
+  year: 2026
+  journal: PLOS One
+  first_author: Knafo M
+  last_author: Shental N
+  title: 'CoSMIC: A hybrid approach for large-scale, high-resolution microbial profiling of novel niches'
+  preprint_doi: 10.1101/2023.09.03.556087
+links: {}
+added: '2026-11-21'
+evidence: CoSMIC begins with long-read sequencing of the full-length 16S gene amplified by generic Locked Nucleic Acid primers,
+  then amplifies multiple non-consecutive variable regions for short-read sequencing

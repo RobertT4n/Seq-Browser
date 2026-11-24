@@ -1,0 +1,26 @@
+name: IT-scATAC-seq
+category: wet
+summary: Semi-automated single-cell ATAC-seq using indexed Tn5 transposomes and three-round barcoding, about $0.01 per cell.
+readouts:
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- combinatorial-indexing
+- plate-based
+reference:
+  doi: 10.1038/s41467-025-57931-2
+  year: 2025
+  journal: Nat Commun
+  first_author: Jin W
+  last_author: Zhou Z
+  pmid: '40097444'
+  pmcid: PMC11914533
+  title: Semi-automated IT-scATAC-seq profiles cell-specific chromatin accessibility in differentiation and peripheral blood
+    populations
+links: {}
+added: '2026-11-21'
+evidence: indexed Tn5 tagmentation-based scATAC-seq (IT-scATAC-seq), a semi-automated, cost-effective, and scalable approach
+  that leverages indexed Tn5 transposomes and a three-round barcoding strategy

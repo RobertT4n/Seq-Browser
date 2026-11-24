@@ -1,0 +1,27 @@
+name: long-read epicPCR
+category: wet
+summary: epicPCR extended with primers spanning 16S V4-V9 (about 1 kb) to link antibiotic resistance genes to hosts at species
+  level.
+readouts:
+- microbial-composition
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- amplicon-pcr
+- long-read-sequencing
+species:
+- microbe
+reference:
+  doi: 10.1016/j.envint.2025.109337
+  year: 2025
+  journal: Environment International
+  first_author: Liu S
+  last_author: Yang M
+  title: Long-read epicPCR enhances species-level host identification of clinically relevant antibiotic resistance genes in
+    environmental microbial communities
+links: {}
+added: '2026-11-21'
+evidence: long-read epicPCR links target genes to 16S segments spanning the V4-V9 regions (~1000 bp) by refining primer pairing
+  strategies

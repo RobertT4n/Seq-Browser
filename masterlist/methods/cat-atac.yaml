@@ -1,0 +1,34 @@
+name: CAT-ATAC
+full_name: CRISPR and transcriptomics-assay for transposase-accessible chromatin
+category: wet
+summary: 10x Multiome with added CRISPR guide capture, giving transcriptome, chromatin accessibility and perturbation identity
+  from the same cells.
+readouts:
+- rna
+- chromatin-accessibility
+- functional-screen
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- tn5
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.crmeth.2025.101222
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Shevade K
+  last_author: Przybyla L
+  pmid: '41218606'
+  pmcid: PMC12859477
+  title: Simultaneous capture of single cell RNA-seq, ATAC-seq, and CRISPR perturbation enables multiomic screens to identify
+    gene regulatory relationships
+links: {}
+added: '2026-11-21'
+evidence: CRISPR and transcriptomics-assay for transposase-accessible chromatin (CAT-ATAC), a technique that adds CRISPR guide
+  RNA capture to the existing 10x Genomics Multiome assay

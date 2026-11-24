@@ -1,0 +1,23 @@
+name: NinjaSeq
+category: wet
+summary: Type IIS restriction-enzyme library preparation that builds adapter-compatible overhangs in primer flanks, for random-access
+  readout of DNA data storage.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- adapter-ligation
+reference:
+  doi: 10.64898/2026.06.11.730843
+  year: 2026
+  journal: bioRxiv
+  first_author: Galminas I
+  last_author: Juzenas S
+  title: 'NinjaSeq: programmable restriction enzyme-based sequencing library preparation with random access for DNA data storage'
+links: {}
+added: '2026-11-21'
+evidence: a type IIS restriction endonuclease library-preparation strategy that incorporates recognition sites into primer
+  flanks, enabling digestion to generate adapter-compatible overhangs

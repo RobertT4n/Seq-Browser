@@ -1,0 +1,30 @@
+name: scCHyMErA-Seq
+category: wet
+summary: CRISPR exon-deletion screening with 10x single-cell transcriptomic readout that captures guides and transcripts in
+  the same cell.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-026-68774-w
+  year: 2026
+  journal: Nat Commun
+  first_author: Kumari B
+  last_author: Gonatopoulos-Pournatzis T
+  pmid: '41633991'
+  pmcid: PMC12868714
+  title: Single-cell exon deletion profiling reveals splicing events that shape gene expression and cell state dynamics
+links: {}
+added: '2026-11-21'
+evidence: a scalable CRISPR-based exon deletion screening platform integrated with 10x Genomics single-cell transcriptomic
+  readouts

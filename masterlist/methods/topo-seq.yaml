@@ -1,0 +1,24 @@
+name: TOPO-seq
+category: wet
+summary: High-throughput detection of Cas9 and base-editor off-target cleavage that accounts for DNA topology.
+readouts:
+- dna-damage
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+reference:
+  doi: 10.1038/s41589-025-01867-7
+  year: 2025
+  journal: Nat Chem Biol
+  first_author: Duan M
+  last_author: Zhang Y
+  pmid: '40175512'
+  title: TOPO-seq reveals DNA topology-induced off-target activity by Cas9 and base editors
+links: {}
+added: '2026-11-21'
+evidence: TOPO-seq, a high-throughput and sensitive method that identifies genome-wide off-target effects of Cas9 and base
+  editors while accounting for DNA topology

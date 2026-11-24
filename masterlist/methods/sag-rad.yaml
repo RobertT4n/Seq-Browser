@@ -1,0 +1,25 @@
+name: SAG-RAD
+category: wet
+summary: Single amplified genomes followed by RAD sequencing for population genomics of unicellular eukaryotes without culturing.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- restriction-digest
+- adapter-ligation
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1093/molbev/msad095
+  year: 2023
+  journal: Mol Biol Evol
+  first_author: Gollnisch R
+  last_author: Rengefors K
+  pmid: '37079883'
+  pmcid: PMC10202595
+  title: 'SAG-RAD: A Method for Single-Cell Population Genomics of Unicellular Eukaryotes'
+links: {}
+added: '2026-11-21'
+evidence: analysis of single amplified genomes followed by restriction-site-associated DNA sequencing to bypass culturing
+  in population genomic studies of unicellular eukaryotes

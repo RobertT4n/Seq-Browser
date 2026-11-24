@@ -1,0 +1,27 @@
+name: SURRO-seq
+category: wet
+summary: Pooled lentiviral libraries of off-target sites read by deep sequencing to evaluate thousands of therapeutic CRISPR
+  off-targets in cells.
+readouts:
+- functional-screen
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-022-31543-6
+  year: 2022
+  journal: Nat Commun
+  first_author: Pan X
+  last_author: Luo Y
+  pmid: '35831290'
+  pmcid: PMC9279339
+  title: Massively targeted evaluation of therapeutic CRISPR off-targets in cells
+links: {}
+added: '2026-11-21'
+evidence: SURRO-seq captures RGN-induced indels in cells by pooled lentiviral off-target libraries and deep sequencing

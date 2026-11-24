@@ -1,0 +1,29 @@
+name: miR-Space
+category: wet
+summary: In situ barcoded extension of individual miRNAs into uniquely barcoded molecules read by in situ sequencing for spatial
+  miRNA profiling.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- mouse
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.12.744364
+  year: 2026
+  journal: bioRxiv
+  first_author: Robles-Remacho A
+  last_author: Nilsson M
+  title: Spatial microRNA profiling at single-cell resolution by in situ barcoded extension
+links: {}
+added: '2026-11-21'
+evidence: a method that converts individual miRNAs into extended, uniquely barcoded molecules directly in tissue, enabling
+  their spatial detection by in situ sequencing

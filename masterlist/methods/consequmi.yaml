@@ -1,0 +1,27 @@
+name: ConSeqUMI
+category: wet
+summary: Experimental and analytical nanopore pipeline using UMIs to build error-free consensus sequences of individual molecules
+  from heterogeneous samples.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+reference:
+  doi: 10.1093/nar/gkaf1304
+  year: 2025
+  journal: Nucleic Acids Res
+  first_author: Zahm AM
+  last_author: English JG
+  pmid: '41385323'
+  pmcid: PMC12700093
+  title: ConSeqUMI, an error-free nanopore sequencing pipeline to identify and extract individual nucleic acid molecules from
+    heterogeneous samples
+  preprint_doi: 10.1101/2025.04.03.647077
+links: {}
+added: '2026-11-21'
+evidence: an innovative experimental and analytical pipeline designed to address long-read sequencing errors; identifies and
+  extracts individual nucleic acid molecules from heterogeneous samples

@@ -1,0 +1,26 @@
+name: sgDNase
+category: wet
+summary: DNase I guided by phosphorothioated ssDNA (sgDNase) excises wild-type sequences to enrich low-frequency mutations
+  in genomic and cell-free DNA.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- dnase-digestion
+species:
+- human
+reference:
+  doi: 10.1038/s41551-023-01072-8
+  year: 2023
+  journal: Nat Biomed Eng
+  first_author: Chen W
+  last_author: Zhao M
+  pmid: '37500748'
+  title: Detection of low-frequency mutations in clinical samples by increasing mutation abundance via the excision of wild-type
+    sequences
+links: {}
+added: '2026-11-21'
+evidence: a DNA-excision method based on a competitive DNA-binding-and-digestion mechanism, effected by DNase I guided by
+  single-stranded phosphorothioated DNA (sgDNase)

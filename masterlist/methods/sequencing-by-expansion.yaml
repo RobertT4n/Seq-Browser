@@ -1,0 +1,23 @@
+name: sequencing-by-expansion
+category: wet
+summary: Sequencing-by-expansion chemistry adapted to high-throughput single-cell RNA isoform profiling at million-cell scale.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.07.15.738809
+  year: 2026
+  journal: bioRxiv
+  first_author: Georgescu CH
+  last_author: Al’Khafaji AM
+  title: Scalable single-cell isoform profiling with sequencing-by-expansion
+links: {}
+added: '2026-11-21'
+evidence: we developed and optimized sequencing-by-expansion (SBX) chemistry for high-throughput single-cell RNA isoform profiling
+aliases:
+- SBX

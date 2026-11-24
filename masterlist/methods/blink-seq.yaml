@@ -1,0 +1,22 @@
+name: BLink-seq
+category: wet
+summary: Haplotagging-based linked-read method for population-scale haplotypes and structural variants in non-model species
+  without long reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+reference:
+  doi: 10.64898/2026.08.03.742036
+  year: 2026
+  journal: bioRxiv
+  first_author: Iqbal AR
+  last_author: Grenier JK
+  title: 'BLink-seq delivers population-scale haplotypes without long reads: a scalable framework for non-model genomics'
+links: {}
+added: '2026-11-21'
+evidence: BLink-seq, a novel Haplotagging method that barcodes sequencing reads to reconstruct long molecules encoding haplotype
+  information

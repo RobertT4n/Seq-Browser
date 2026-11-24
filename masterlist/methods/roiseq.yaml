@@ -1,0 +1,27 @@
+name: ROIseq
+full_name: Robust Capture of Key transcripts and Regions Of Interest
+category: wet
+summary: Single-cell RNA-seq workflow with targeted capture of key transcripts (RoCKseq) and region-specific sequencing (ROIseq)
+  to cut non-detection of chosen transcripts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- oligo-capture
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1038/s41467-025-66248-z
+  year: 2025
+  journal: Nat Commun
+  first_author: Moro G
+  last_author: Basler K
+  pmid: '41372142'
+  pmcid: PMC12695968
+  title: 'RoCK and ROI: single-cell transcriptomics with multiplexed enrichment of selected transcripts and region-specific
+    sequencing'
+links: {}
+added: '2026-11-21'
+evidence: RoCK and ROI, a scRNA-seq workflow encompassing two techniques; RoCKseq uses targeted capture to enrich for key
+  transcripts

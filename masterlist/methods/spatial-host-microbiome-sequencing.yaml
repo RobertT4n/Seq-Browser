@@ -1,0 +1,29 @@
+name: spatial host-microbiome sequencing
+category: wet
+summary: All-sequencing spatial approach that captures histology, polyadenylated RNA and bacterial 16S sequences directly
+  from tissue.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- spatial-barcode-array
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41587-023-01988-1
+  year: 2024
+  journal: Nat Biotechnol
+  first_author: Lötstedt B
+  last_author: Vickovic S
+  pmid: '37985876'
+  pmcid: PMC11392810
+  title: Spatial host-microbiome sequencing reveals niches in the mouse gut
+  preprint_doi: 10.1101/2022.07.18.500470
+links: {}
+rejected: "duplicate of shm-seq (same published paper, preprint 10.1101/2022.07.18.500470)"
+added: '2026-11-21'
+evidence: spatial host-microbiome sequencing, an all-sequencing based approach that captures tissue histology, polyadenylated
+  RNAs and bacterial 16S sequences directly from tissues

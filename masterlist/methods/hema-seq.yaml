@@ -1,0 +1,26 @@
+name: Hema-seq
+category: wet
+summary: Workflow that picks cells from Wright-stained and fluorescent-probe-stained slides for whole-genome sequencing to
+  map clonal changes across hematopoietic lineages.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- imaging-guided-selection
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.crmeth.2023.100617
+  year: 2023
+  journal: Cell Reports Methods
+  first_author: Jeong D
+  last_author: Lee DS
+  title: Hema-seq reveals genomic aberrations in a rare simultaneous occurrence of hematological malignancies
+links: {}
+added: '2026-11-21'
+evidence: Hema-seq selects cells from Wright-stained slides and fluorescent probe-stained slides for sequencing, integrating
+  WGS, copy-number variation, cell morphology and cytogenetics

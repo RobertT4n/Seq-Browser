@@ -1,0 +1,26 @@
+name: scGTP-seq
+category: wet
+summary: Single-cell long-read multi-omics that detects ecDNA and structural variants together with gene expression in cancer
+  cells.
+readouts:
+- genome-sequence
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- long-read-sequencing
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.1002/ctm2.1351
+  year: 2023
+  journal: Clin Transl Med
+  first_author: Chang L
+  last_author: Fan X
+  pmid: '37517066'
+  pmcid: PMC10387328
+  title: Single-cell third-generation sequencing-based multi-omics uncovers gene expression changes governed by ecDNA and
+    structural variants in cancer cells
+links: {}
+added: '2026-11-21'
+evidence: a single-cell multi-omics sequencing method, scGTP-seq, to analyse ecDNA and SVs using long-read sequencing technologies

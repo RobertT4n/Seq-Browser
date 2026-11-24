@@ -1,0 +1,25 @@
+name: E. coli PanSelect
+category: wet
+summary: Pan-genome hybrid selection that captures E. coli genomes and transcripts from low-abundance gut communities.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+species:
+- microbe
+reference:
+  doi: 10.1101/2024.02.29.582780
+  year: 2024
+  journal: bioRxiv
+  first_author: Young MG
+  last_author: Earl AM
+  title: Distinct  <i>Escherichia coli</i>  transcriptional profiles in the guts of recurrent UTI sufferers revealed by pangenome
+    hybrid selection
+links: {}
+added: '2026-11-21'
+evidence: pan-genome hybrid selection to sensitively explore the genomes and transcriptomes of diverse E. coli strains present
+  at below 1% relative abundance

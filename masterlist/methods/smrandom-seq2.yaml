@@ -1,0 +1,27 @@
+name: smRandom-seq2
+category: wet
+summary: High-throughput single-microbe RNA-seq that links transcriptional states and host-phage activity in gut microbiomes.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.1093/procel/pwae027
+  year: 2025
+  journal: Protein Cell
+  first_author: Shen Y
+  last_author: Wang Y
+  pmid: '38779805'
+  pmcid: PMC11891138
+  title: High-throughput single-microbe RNA sequencing reveals adaptive state heterogeneity and host-phage activity associations
+    in human gut microbiome
+links: {}
+added: '2026-11-21'
+evidence: development of smRandom-seq2, a high-throughput single-microbe RNA sequencing method for complex gut microbial communities

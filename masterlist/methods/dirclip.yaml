@@ -1,0 +1,25 @@
+name: dirCLIP
+category: wet
+summary: UV-crosslinking immunoprecipitation read by amplification-free direct nanopore sequencing to assign RBP binding sites
+  to full-length RNA variants.
+readouts:
+- rna-protein-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+- long-read-sequencing
+species:
+- human
+reference:
+  doi: 10.64898/2026.01.22.701028
+  year: 2026
+  journal: bioRxiv
+  first_author: Bahrudeen M
+  last_author: Änkö M
+  title: dirCLIP profiles variant-specific RNA-protein interactions via nanopore long-read sequencing
+links: {}
+added: '2026-11-21'
+evidence: dirCLIP combines UV crosslinking and immunoprecipitation (CLIP) with amplification-free direct nanopore long-read
+  sequencing preserving full-length transcripts

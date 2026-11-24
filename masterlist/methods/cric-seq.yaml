@@ -1,0 +1,30 @@
+name: CRIC-seq
+full_name: Capture RIC-seq
+category: wet
+summary: Capture of specific RBP-associated in situ proximal RNA-RNA fragments to map RNA loops of hnRNPA1, SRSF1 and PTBP1
+  and their splicing effects.
+readouts:
+- rna-rna-interaction
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- antibody-pull-down
+- oligo-capture
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1016/j.molcel.2023.03.001
+  year: 2023
+  journal: Mol Cell
+  first_author: Ye R
+  last_author: Xue Y
+  pmid: '36958328'
+  title: Capture RIC-seq reveals positional rules of PTBP1-associated RNA loops in splicing regulation
+links: {}
+added: '2026-11-21'
+evidence: a capture RIC-seq (CRIC-seq) method to enrich specific RBP-associated in situ proximal RNA-RNA fragments for deep
+  sequencing

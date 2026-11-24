@@ -1,0 +1,28 @@
+name: SCIENCE-seq
+category: wet
+summary: Multimodal single-cell platform detecting RNA-RNA interactions and chromatin DNA-DNA contacts in the same cell, applied
+  to primary glioma.
+readouts:
+- rna-rna-interaction
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- proximity-ligation
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.12.744478
+  year: 2026
+  journal: bioRxiv
+  first_author: Deforzh E
+  last_author: Krichevsky AM
+  title: Integrated single-cell profiling of RNA and DNA interactomes reveals targetable chromatin architectures in cancer
+links: {}
+added: '2026-11-21'
+evidence: a multimodal single-cell interactomics platform enabling simultaneous detection of RNA-RNA interactions and chromatin
+  DNA-DNA contacts within individual cells

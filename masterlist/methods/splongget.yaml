@@ -1,0 +1,28 @@
+name: SPLONGGET
+full_name: Single-cell Profiling of LONG-read Genome, Epigenome, and Transcriptome
+category: wet
+summary: Single-cell long-read method that combines 10x barcoding with Oxford Nanopore sequencing to profile genome, chromatin
+  accessibility and full-length transcriptomes in the same cells.
+readouts:
+- genome-sequence
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- droplet-microfluidics
+- long-read-sequencing
+- reverse-transcription
+reference:
+  doi: 10.1101/2025.09.08.674950
+  year: 2025
+  journal: bioRxiv
+  first_author: Pančíková A
+  last_author: Demeulemeester J
+  title: Long-read single-cell genome, transcriptome and open chromatin profiling links genotype to phenotypes
+links: {}
+added: '2026-11-21'
+evidence: integrates 10X Genomics barcoding with Oxford Nanopore sequencing to simultaneously profile genome, chromatin accessibility,
+  and full-length transcriptomes in thousands of single cells

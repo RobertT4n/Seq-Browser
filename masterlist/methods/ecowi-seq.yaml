@@ -1,0 +1,27 @@
+name: EcoWI-seq
+category: wet
+summary: Modification-dependent restriction digestion with EcoWI to map phosphorothioate backbone modifications genome-wide
+  at base resolution in bacteria.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- restriction-digest
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pgen.1010389
+  year: 2022
+  journal: PLoS Genet
+  first_author: Yang W
+  last_author: Ettwiller L
+  pmid: '36121836'
+  pmcid: PMC9521924
+  title: High-throughput sequencing of EcoWI restriction fragments maps the genome-wide landscape of phosphorothioate modification
+    at base resolution
+links: {}
+added: '2026-11-21'
+evidence: EcoWI-seq, a technique based on a modification-dependent restriction endonuclease to identify genomic positions
+  of PT modifications

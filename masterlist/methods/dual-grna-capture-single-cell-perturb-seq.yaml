@@ -1,0 +1,28 @@
+name: dual-gRNA-capture single-cell Perturb-seq
+category: wet
+summary: Single-cell Perturb-seq that captures two guide RNAs per cell to apply CRISPRa and CRISPRi simultaneously and study
+  genetic interactions.
+readouts:
+- functional-screen
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41587-024-02213-3
+  year: 2024
+  journal: Nature Biotechnology
+  first_author: Pacalin NM
+  last_author: Chang HY
+  title: Bidirectional epigenetic editing reveals hierarchies in gene regulation
+  preprint_doi: 10.1101/2022.11.15.516658
+links: {}
+added: '2026-11-21'
+evidence: bidirectional epigenetic editing (CRISPRai) read out by dual-gRNA-capture single-cell Perturb-seq

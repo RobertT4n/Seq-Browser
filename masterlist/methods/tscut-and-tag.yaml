@@ -1,0 +1,29 @@
+name: tsCUT&Tag
+full_name: transient and simplified CUT&Tag
+category: wet
+summary: Transient TF expression in protoplasts with a simplified CUT&Tag lacking nucleus extraction for low-cost TF binding
+  profiling in plants.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- tn5
+species:
+- plant
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1111/jipb.13354
+  year: 2022
+  journal: J Integr Plant Biol
+  first_author: Wu L
+  last_author: Li L
+  pmid: '36047457'
+  title: A cost-effective tsCUT&Tag method for profiling transcription factor binding landscape
+links: {}
+added: '2026-11-21'
+evidence: a transient and simplified cleavage under targets and tagmentation (tsCUT&Tag) that combines transient expression
+  of transcription factor proteins in protoplasts with a simplified CUT&Tag

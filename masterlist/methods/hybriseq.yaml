@@ -1,0 +1,29 @@
+name: HybriSeq
+category: wet
+summary: Probe-based single-cell RNA profiling using in situ hybridization of multiple probes per target followed by split-pool
+  barcoding, with no device needed.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: targeted
+chemistry:
+- in-situ-hybridization
+- combinatorial-indexing
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1038/s42003-025-08702-8
+  year: 2025
+  journal: Commun Biol
+  first_author: Foyt D
+  last_author: Huang B
+  pmid: '40830572'
+  pmcid: PMC12365068
+  title: 'HybriSeq: probe-based device-free single-cell RNA profiling'
+links: {}
+added: '2026-11-21'
+evidence: HybriSeq utilizes in situ hybridization of multiple probes for targeted transcripts, followed by split-pool barcoding
+  and sequencing analysis of the probes

@@ -1,0 +1,28 @@
+name: nanoCAM-seq
+category: wet
+summary: Single-molecule nanopore profiling of higher-order chromatin contacts, chromatin accessibility and endogenous CpG
+  methylation on the same reads.
+readouts:
+- 3d-genome
+- chromatin-accessibility
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- long-read-sequencing
+reference:
+  doi: 10.1016/j.jgg.2025.09.011
+  year: 2026
+  journal: J Genet Genomics
+  first_author: Liu LR
+  last_author: Niu L
+  pmid: '41072791'
+  title: Single-molecule chromatin profiling reveals cell type-specific A/B compartment alteration and multi-enhancer transcriptional
+    coordination
+links: {}
+added: '2026-11-21'
+evidence: a single-molecule sequencing technique designed to simultaneously profile higher-order chromatin interactions, chromatin
+  accessibility, and endogenous CpG methylation

@@ -1,0 +1,26 @@
+name: L3R-seq
+full_name: Long-read 3' RACE-seq
+category: wet
+summary: Long-read 3'RACE with UMI-bearing adapters ligated before reverse transcription, giving per-molecule consensus reads
+  for quantitative RNA-processing analysis.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- adapter-ligation
+- reverse-transcription
+- amplicon-pcr
+- long-read-sequencing
+reference:
+  doi: 10.64898/2026.05.20.726719
+  year: 2026
+  journal: bioRxiv
+  first_author: Mamiya A
+  last_author: Sugiyama M
+  title: 'L3R-seq: A long-read 3’RACE approach for deep quantitative analysis of RNA processing'
+links: {}
+added: '2026-11-21'
+evidence: a targeted long-read sequencing method that ligates a unique molecular identifier (UMI)-containing adapter to the
+  3' end of RNA molecules prior to reverse transcription and PCR amplification

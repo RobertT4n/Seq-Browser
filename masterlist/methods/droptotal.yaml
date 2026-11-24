@@ -1,0 +1,27 @@
+name: dropTotal
+category: wet
+summary: Droplet total-RNA-seq with dU-modified primers and droplet-merge barcoding that detects coding and non-coding transcripts
+  in fresh, frozen, fixed and FFPE tissue.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- droplet-microfluidics
+- reverse-transcription
+species:
+- human
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.08.25.747146
+  year: 2026
+  journal: bioRxiv
+  first_author: Liu
+  last_author: Q
+  title: 'Decoding the Transcriptome Dark Matter: Construction of Single-Cell Whole-Transcriptome Regulatory Atlas by dropTotal'
+links: {}
+added: '2026-11-21'
+evidence: dropTotal, a high-throughput droplet-based total RNA-seq method that uses dU-modified GAT primer with droplet merge
+  barcoding to co-detect coding and non-coding transcripts

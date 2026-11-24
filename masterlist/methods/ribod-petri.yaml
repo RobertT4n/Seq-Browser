@@ -1,0 +1,25 @@
+name: RiboD-PETRI
+full_name: ribosomal RNA-derived cDNA depletion integrated into PETRI-seq
+category: wet
+summary: Bacterial single-cell RNA-seq that adds ribosomal-RNA-derived cDNA depletion to PETRI-seq, raising mRNA detection
+  to about 92%.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- combinatorial-indexing
+- reverse-transcription
+species:
+- microbe
+reference:
+  doi: 10.7554/elife.97543
+  year: 2024
+  journal: eLife
+  first_author: Yan X
+  last_author: Pu Y
+  title: An improved bacterial single-cell RNA-seq reveals biofilm heterogeneity
+links: {}
+added: '2026-11-21'
+evidence: ribosomal RNA-derived cDNA depletion (RiboD), seamlessly integrated into the PETRI-seq technique, yielding RiboD-PETRI

@@ -1,0 +1,31 @@
+name: svCapture
+category: wet
+summary: Duplex-sequencing-based probe capture that removes chimeric-PCR artefacts to detect very low frequency structural-variant
+  junctions.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- oligo-capture
+- adapter-ligation
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1093/nargab/lqad042
+  year: 2023
+  journal: NAR Genom Bioinform
+  first_author: Wilson TE
+  last_author: Glover TW
+  pmid: '37181851'
+  pmcid: PMC10167630
+  title: 'svCapture: efficient and specific detection of very low frequency structural variant junctions by error-minimized
+    capture sequencing'
+  preprint_doi: 10.1101/2022.07.07.497948
+links: {}
+added: '2026-11-21'
+evidence: Duplex Sequencing, which demands confirmation of variants on both strands of a source DNA molecule, eliminates false
+  SV junctions arising from chimeric PCR; probe-based capture

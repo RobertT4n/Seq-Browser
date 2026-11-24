@@ -1,0 +1,29 @@
+name: single-cell structure probing of RNA transcripts
+category: wet
+summary: SHAPE-inspired probing that measures transcript secondary structure and abundance in single cells.
+readouts:
+- rna-structure
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41592-023-02128-y
+  year: 2024
+  journal: Nat Methods
+  first_author: Wang J
+  last_author: Wan Y
+  pmid: '38177506'
+  pmcid: PMC10927541
+  title: RNA structure profiling at single-cell resolution reveals new determinants of cell identity
+links: {}
+added: '2026-11-21'
+evidence: a SHAPE-inspired method called single-cell structure probing of RNA transcripts that enables simultaneous determination
+  of transcript secondary structure and abundance at single-cell resolution

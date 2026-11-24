@@ -1,0 +1,27 @@
+name: stilPCR
+full_name: single-tube Illumina long read PCR
+category: wet
+summary: Single-tube hemi-nested PCR that adds Illumina indexes and adapters to extend the effective read length of targeted
+  amplicon sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- microbe
+reference:
+  doi: 10.1371/journal.pone.0314265
+  year: 2024
+  journal: PLoS One
+  first_author: Limberis JD
+  last_author: Metcalfe JZ
+  pmid: '39652558'
+  pmcid: PMC11627403
+  title: stilPCR increases the effective sequencing length of Illumina targeted next-generation sequencing
+links: {}
+added: '2026-11-21'
+evidence: stilPCR (single-tube Illumina long read PCR) allows the generation of hemi-nested amplicons in a single tube, with
+  Illumina indexes and adapters

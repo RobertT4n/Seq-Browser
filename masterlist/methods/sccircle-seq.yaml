@@ -1,0 +1,26 @@
+name: scCircle-seq
+category: wet
+summary: Single-cell profiling of extrachromosomal circular DNAs showing that eccDNAs vary between cells and are stochastically
+  inherited.
+readouts:
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.1038/s41467-024-45972-y
+  year: 2024
+  journal: Nature Communications
+  first_author: Chen JP
+  last_author: Crosetto N
+  title: scCircle-seq unveils the diversity and complexity of extrachromosomal circular DNAs in single cells
+links: {}
+added: '2026-11-21'
+evidence: scCircle-seq, a method for profiling eccDNAs and unraveling their diversity and complexity in single cells

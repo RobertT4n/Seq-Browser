@@ -1,0 +1,29 @@
+name: nanoRibo-seq
+category: wet
+summary: Optimized ribosome profiling using 100-1,000-fold less input, quantifying ribosome-protected fragments from about
+  1,000 cells.
+readouts:
+- translation
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- mouse
+validated_system:
+- primary-cells
+reference:
+  doi: 10.1016/j.celrep.2023.112995
+  year: 2023
+  journal: Cell Rep
+  first_author: Froberg JE
+  last_author: Macklis JD
+  pmid: '37624698'
+  pmcid: PMC10591829
+  title: Development of nanoRibo-seq enables study of regulated translation by cortical neuron subtypes, showing uORF translation
+    in synaptic-axonal genes
+links: {}
+added: '2026-11-21'
+evidence: nanoRibo-seq, an optimized approach using 10^2- to 10^3-fold less input material than bulk approaches, quantifying
+  ribosome protected fragments with as few as 1,000 cells

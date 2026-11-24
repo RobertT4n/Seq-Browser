@@ -1,0 +1,27 @@
+name: EC-SNV-Seq
+full_name: Enzymatic Cleavage-directed Single Nucleotide Variant Sequencing
+category: wet
+summary: Argonaute-mediated cleavage with stem-loop cascade PCR to detect cfDNA single-nucleotide variants at 0.01% allele
+  frequency for multi-cancer early detection.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- amplicon-pcr
+species:
+- human
+reference:
+  doi: 10.1038/s41467-025-66893-4
+  year: 2025
+  journal: Nat Commun
+  first_author: Guo C
+  last_author: Liu C
+  pmid: '41339622'
+  pmcid: PMC12780039
+  title: Programmable Argonaute-mediated single-nucleotide variant sequencing of cell-free DNA for multi-cancer early detection
+links: {}
+added: '2026-11-21'
+evidence: the EC-SNV-Seq assay integrates Argonaute-mediated cleavage and stem-loop DNA-initiated cascade-PCR amplification,
+  achieving a sensitivity of 0.01% variant allele frequency

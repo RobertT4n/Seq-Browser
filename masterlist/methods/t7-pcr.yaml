@@ -1,0 +1,25 @@
+name: T7-PCR
+category: wet
+summary: T7 in vitro transcription of junction fragments to map transgene integration sites with higher signal-to-noise than
+  current methods.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- amplicon-pcr
+species:
+- plant
+reference:
+  doi: 10.1111/tpj.70403
+  year: 2025
+  journal: Plant J
+  first_author: Li A
+  last_author: Xia FN
+  pmid: '40782381'
+  title: Genome-wide profiling the integration patterns with T7-PCR
+links: {}
+added: '2026-11-21'
+evidence: mapping integration sites, leveraging T7 polymerase-mediated in vitro transcription (T7-IVT) to capture the junction
+  fragments surrounding integration loci

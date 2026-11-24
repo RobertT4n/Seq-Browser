@@ -1,0 +1,27 @@
+name: ViBE-Seq
+full_name: Viral Bona Fide End Sequencing
+category: wet
+summary: Low-input 5'-terminal sequencing of filovirus RNA to recover the genome ends containing replication and transcription
+  promoters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: targeted
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- microbe
+reference:
+  doi: 10.3390/v16071064
+  year: 2024
+  journal: Viruses
+  first_author: Ross SJ
+  last_author: Cifuentes D
+  pmid: '39066227'
+  pmcid: PMC11281615
+  title: Low-Input, High-Resolution 5' Terminal Filovirus RNA Sequencing with ViBE-Seq
+links: {}
+added: '2026-11-21'
+evidence: a novel method termed ViBE-Seq (Viral Bona Fide End Sequencing) for the high-resolution sequencing of viral RNA
+  genome ends

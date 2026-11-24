@@ -1,0 +1,25 @@
+name: FBI-seq
+full_name: foreground and background integrated genotyping by sequencing
+category: wet
+summary: Integrated foreground and background genotyping using one specific primer and genome-wide primer-template mismatched
+  annealing in adapter-mediated PCR.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- adapter-ligation
+- amplicon-pcr
+reference:
+  doi: 10.1111/jipb.13395
+  year: 2023
+  journal: J Integr Plant Biol
+  first_author: Zhao S
+  last_author: Chang Y
+  pmid: '36269601'
+  title: A prolific and robust whole-genome genotyping method using PCR amplification via primer-template mismatched annealing
+links: {}
+added: '2026-11-21'
+evidence: foreground and background integrated genotyping by sequencing (FBI-seq) using one specific primer, exploiting amplification
+  by primer-template mismatched annealing
