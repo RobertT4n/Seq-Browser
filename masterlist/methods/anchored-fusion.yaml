@@ -1,0 +1,22 @@
+name: Anchored-fusion
+category: dry
+summary: Targeted fusion-gene search that anchors a gene of interest and recovers non-unique short-read matches, with a deep-learning
+  filter for false-positive chimeras, for bulk and single-cell RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2024.100733
+  year: 2024
+  journal: Cell Rep Methods
+  first_author: Yuan X
+  last_author: Shen N
+  pmid: '38503288'
+  pmcid: PMC10985232
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+links: {}
+added: '2026-11-21'
+evidence: a highly sensitive fusion gene detection tool. It anchors a gene of interest

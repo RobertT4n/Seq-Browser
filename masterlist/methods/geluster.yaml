@@ -1,0 +1,20 @@
+name: GeLuster
+category: dry
+summary: Algorithm for clustering long RNA-seq reads by gene family of origin with low compute demands.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae059
+  year: 2024
+  journal: Bioinformatics
+  first_author: Ma J
+  last_author: Li G
+  pmid: '38310330'
+  pmcid: PMC10881092
+  title: Highly efficient clustering of long-read transcriptomic data with GeLuster
+links: {}
+added: '2026-11-21'
+evidence: a new algorithm GeLuster for clustering long RNA-seq reads

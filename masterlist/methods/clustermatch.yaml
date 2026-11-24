@@ -1,0 +1,20 @@
+name: ClusterMatch
+category: dry
+summary: Aligns scRNA-seq datasets by matching clusters across multiple clustering resolutions.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae480
+  year: 2024
+  journal: Bioinformatics
+  first_author: Ba T
+  last_author: Wang Y
+  pmid: '39073888'
+  pmcid: PMC11520419
+  title: ClusterMatch aligns single-cell RNA-sequencing data at the multi-scale cluster level via stable matching
+links: {}
+added: '2026-11-21'
+evidence: ClusterMatch aligns single-cell RNA-sequencing data

@@ -1,0 +1,22 @@
+name: CrossFilt
+category: dry
+summary: Cross-species read filter that keeps only reads mapping equivalently across species to remove alignment bias in comparative
+  functional genomics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04082-2
+  year: 2026
+  journal: Genome Biol
+  first_author: Barr KA
+  last_author: Gilad Y
+  pmid: '42026616'
+  pmcid: PMC13238019
+  title: 'CrossFilt: a cross-species filtering tool that eliminates alignment bias in comparative genomics studies of primates'
+  preprint_doi: 10.1101/2025.06.05.654938
+links: {}
+added: '2026-11-21'
+evidence: a filtering strategy that retains only s

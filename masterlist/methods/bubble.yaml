@@ -1,0 +1,19 @@
+name: Bubble
+category: dry
+summary: Fast autoencoder-based imputation of sparse scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbac580
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Chen S
+  last_author: Li M
+  pmid: '36567258'
+  title: 'Bubble: a fast single-cell RNA-seq imputation using an autoencoder constrained by bulk RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: a fast single-cell RNA-seq imputation using an autoencoder
