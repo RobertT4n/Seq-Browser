@@ -8,6 +8,11 @@
 <link rel="icon" href="brand/seqbrowser-icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css?v=20261112-0440">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Seq-Browser"><meta property="og:title" content="Seq-Browser Analysis"><meta property="og:description" content="Overview of the Seq-Browser database: methods over time, publication status, readouts and resolution."><meta property="og:url" content="https://robertt4n.github.io/Seq-Browser/analysis.html"><meta property="og:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png"><meta property="og:image:width" content="600"><meta property="og:image:height" content="600"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://robertt4n.github.io/Seq-Browser/brand/seqbrowser-og.png">
+<style>
+/* "What they measure" has ~50 bars: cap the card at the height of "Methods over time" (set in JS) and scroll the list inside it */
+.card.capped { display:flex; flex-direction:column; min-height:0; }
+.card.capped > #c-readout { flex:1 1 auto; min-height:0; overflow-y:auto; overflow-x:hidden; scrollbar-gutter:stable; overscroll-behavior:contain; }
+</style>
 </head>
 <body>
 <header>
@@ -19,7 +24,7 @@
   <div class="tiles" id="tiles"></div>
   <div class="grid">
     <div class="card"><h2>Methods over time</h2><p class="sub">Cumulative number of methods by publication date</p><div id="c-time"></div></div>
-    <div class="card"><h2>What they measure</h2><p class="sub">Methods per readout (a method can have several)</p><div id="c-readout"></div></div>
+    <div class="card capped" id="card-readout"><h2>What they measure</h2><p class="sub">Methods per readout (a method can have several)</p><div id="c-readout"></div></div>
     <div class="card"><h2>Resolution</h2><p class="sub">Methods per resolution level</p><div id="c-res"></div></div>
     <div class="card"><h2>Most cited</h2><p class="sub">Top 10 by Crossref citations; literature attention, not experimental quality</p><div id="c-cites"></div></div>
   </div>
@@ -81,6 +86,13 @@ function cumulative(el, years) {  // smooth cumulative curve; each year's method
   hover(el);
 }
 
+function capReadout() {  // readout card = same height as the time-series card when they share a row; fixed 420px cap when stacked (phone)
+  const t = document.getElementById("c-time").parentElement, r = document.getElementById("card-readout");
+  r.style.maxHeight = "";
+  const prev = t.style.alignSelf; t.style.alignSelf = "start"; const h = t.offsetHeight; t.style.alignSelf = prev;
+  r.style.maxHeight = (t.offsetTop === r.offsetTop ? h : 420) + "px";
+}
+
 fetch("methods.json").then(r => r.json()).then(j => {
   const d = j.methods.filter(m => m.category === "wet");
   const count = key => { const c = {}; d.forEach(m => split(m[key]).forEach(v => c[v] = (c[v] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
@@ -92,6 +104,7 @@ fetch("methods.json").then(r => r.json()).then(j => {
   const years = {}; d.forEach(m => m.year && (years[m.year] = (years[m.year] || 0) + 1));
   cumulative(document.getElementById("c-time"), years);
   bars(document.getElementById("c-readout"), count("readouts"));
+  capReadout(); addEventListener("resize", () => { clearTimeout(capReadout.t); capReadout.t = setTimeout(capReadout, 120); });
   bars(document.getElementById("c-res"), count("resolution"));
   bars(document.getElementById("c-cites"), d.filter(m => m.citations != null).sort((a, b) => b.citations - a.citations).slice(0, 10).map(m => [m.name, m.citations]), v => v.toLocaleString());
 });
