@@ -1,0 +1,21 @@
+name: PSQAN
+category: dry
+summary: Pipeline that prioritizes high-confidence, biologically relevant novel transcripts from long-read RNA-seq.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbaf293
+  year: 2025
+  journal: Bioinform Adv
+  first_author: Sethi S
+  last_author: Ryten M
+  pmid: '41394080'
+  pmcid: PMC12701792
+  title: 'PSQAN: a pipeline to prioritize novel and biologically relevant transcripts from long-read RNA sequencing'
+links: {}
+added: '2026-11-21'
+evidence: a workflow to help researchers prioritize high-confidence and potentially biologically relevant transcripts from
+  long-read RNA sequencing

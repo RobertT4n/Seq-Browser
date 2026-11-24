@@ -1,0 +1,21 @@
+name: oCELLoc
+category: dry
+summary: Regression-based selection of the most suitable reference cell types from a large atlas for cell-type assignment
+  in scRNA-seq and spatial data.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.64898/2025.12.11.693812
+  year: 2025
+  journal: bioRxiv
+  first_author: Zainab A
+  last_author: Vandenbon A
+  title: 'oCELLoc: Automated Cell Type Assignment in Transcriptomics Data Using Reference Filtering'
+links: {}
+added: '2026-11-21'
+evidence: a regression-based method that selects the most appropriate reference cell types from a large atlas and tailors
+  the reference

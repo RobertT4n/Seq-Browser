@@ -1,0 +1,20 @@
+name: DeepMobilome
+category: dry
+summary: Deep learning predictor of mobile genetic elements from microbiome sequencing reads.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf450
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Cho Y
+  last_author: Rho M
+  pmid: '40914968'
+  pmcid: PMC12414478
+  title: 'DeepMobilome: predicting mobile genetic elements using sequencing reads of microbiomes'
+links: {}
+added: '2026-11-21'
+evidence: a convolutional neural network trained on read alignment data for identifying target MGEs within the microbiome

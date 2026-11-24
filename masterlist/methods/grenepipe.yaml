@@ -1,0 +1,21 @@
+name: grenepipe
+category: dry
+summary: All-in-one Snakemake workflow from raw sequencing reads to genotype variant calls, scalable on clusters.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac600
+  year: 2022
+  journal: Bioinformatics
+  first_author: Czech L
+  last_author: Exposito-Alonso M
+  pmid: '36053180'
+  pmcid: PMC10424805
+  title: 'grenepipe: a flexible, scalable and reproducible pipeline to automate variant calling from sequence reads'
+links: {}
+added: '2026-11-21'
+evidence: an all-in-one Snakemake workflow to streamline the data processing from raw sequencing data of individuals or populations
+  to genotype variant calls

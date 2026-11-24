@@ -1,0 +1,21 @@
+name: ANOMALY
+category: dry
+summary: Snakemake workflow that detects nuclear mitochondrial DNA segments (NuMTs) from long-read data.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/nargab/lqag014
+  year: 2026
+  journal: NAR Genom Bioinform
+  first_author: Mahar NS
+  last_author: Ramdas S
+  pmid: '41647924'
+  pmcid: PMC12869244
+  title: 'ANOMALY: a Snakemake pipeline for identifying NuMTs from long-read sequencing data'
+  preprint_doi: 10.1101/2025.04.08.647704
+links: {}
+added: '2026-11-21'
+evidence: a novel, easy-to-use workflow for detecting NuMTs from long-read sequencing data

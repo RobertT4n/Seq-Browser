@@ -1,0 +1,21 @@
+name: MacroHapCaller
+category: dry
+summary: Pipeline that haplotypes and phases macrohaplotypes in long reads from polyploid samples and DNA mixtures for forensics.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1002/elps.202300143
+  year: 2024
+  journal: Electrophoresis
+  first_author: Wang X
+  last_author: Ge J
+  pmid: '38196015'
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples
+    and a multi-source DNA mixture
+links: {}
+added: '2026-11-21'
+evidence: a bioinformatics software in which targeted loci are genotyped and phased into macrohaplotypes in long sequencing
+  reads

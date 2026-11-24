@@ -1,0 +1,20 @@
+name: R4ST
+category: dry
+summary: Reference-guided graph-generative model that completes sparse spatial transcriptomic profiles.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag228
+  year: 2026
+  journal: Bioinformatics
+  first_author: Wei M
+  last_author: Liu ZP
+  pmid: '42412818'
+  pmcid: PMC13340175
+  title: 'R4ST: a reference-guided graph-generative model for robust reconstruction of spatial transcriptomic profiles'
+links: {}
+added: '2026-11-21'
+evidence: an end-to-end framework designed to complete ST data, leveraging scRNA-seq data as a reference

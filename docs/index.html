@@ -77,8 +77,10 @@ const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 // Each search word may occur in a different field. ATAC is also a common name for the accessibility readout.
 const searchText = m => [m.name, m.full_name, m.aliases, m.summary, m.title, m.first_author, m.last_author, m.doi, m.accession, m.readouts, m.resolution, m.chemistry, m.perturbation, m.temporal, m.scope, m.platform, m.task].join(" ").toLowerCase();
-const searchMatches = (m, q) => q.trim().toLowerCase().split(/\s+/).filter(Boolean).every(t => m._search.includes(t) || (t === "atac" && split(m.readouts).includes("chromatin-accessibility")));
-const hasTag = (m, k, v) => split(m[k]).some(t => t === v || SAME[t] === v || SAME[v] === t || PARENT[t] === v);
+let _qs = null, _qt = [];   // search terms are split once per query, not once per row
+const searchMatches = (m, q) => { if (q !== _qs) { _qs = q; _qt = q.trim().toLowerCase().split(/\s+/).filter(Boolean); } return _qt.every(t => m._search.includes(t) || (t === "atac" && split(m.readouts).includes("chromatin-accessibility"))); };
+const hasTag = (m, k, v) => ((m._c ||= {})[k] ||= split(m[k])).some(t => t === v || SAME[t] === v || SAME[v] === t || PARENT[t] === v);   // per-row split cached: the live option counts call this ~1M times per keystroke
+const baseCount = {};   // number of rows carrying each option (independent of search), cached per Show setting
 const scopeMatches = (scope, selected, candidate) => (!selected.size && candidate == null) || selected.has(scope) || (candidate != null && scope === candidate);
 let data = [], on = {}, open = null, sortKey = "name", sortDir = "asc";
 const PAGE = 100; let limit = PAGE, viewKey = "";   // table shows the first 100 rows; "Show more" adds 100. Any new search/filter/sort starts again at 100
@@ -106,7 +108,7 @@ fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
     sortDir = sortKey === k && sortDir === (k === "name" ? "asc" : "desc") ? (k === "name" ? "desc" : "asc") : (k === "name" ? "asc" : "desc");
     sortKey = k; render();
   });
-  document.getElementById("q").oninput = render;
+  { let qtimer; document.getElementById("q").oninput = () => { clearTimeout(qtimer); qtimer = setTimeout(render, 140); }; }   // debounce: one render after typing pauses, not one per keystroke
   document.getElementById("dl").onclick = () => {   // export what is on screen: current search, filters and Show setting
     const cols = Object.keys(data[0]).filter(k => !k.startsWith("_")), q = v => { v = v == null ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
     const csv = [cols.join(","), ...(window._rows || []).map(m => cols.map(k => q(m[k])).join(","))].join("\n");
@@ -122,7 +124,8 @@ function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   // within a facet: entry must have every selected value; scope is single-valued, so selected scopes are OR'd
   const has = hasTag;
-  const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? scopeMatches(m.scope, on[k], k === xk ? xv : null) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) && searchMatches(m, q);
+  const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? scopeMatches(m.scope, on[k], k === xk ? xv : null) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) && m._sq;
+  for (const m of data) m._sq = searchMatches(m, q);   // search match computed once per row per render, reused by every option count below
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
   document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry/barcoding/task" : "Chemistry/barcoding";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
@@ -132,7 +135,7 @@ function render() {
   // live option counts: how many methods you would have if you also picked this option, given everything else selected
   document.querySelectorAll("#facets label").forEach(l => {
     const b = l.querySelector("input"), k = b.dataset.k, v = b.dataset.v, n = l.querySelector(".n");
-    const c = b.checked ? rows.length : pool.filter(m => pass(m, k, v)).length, base = pool.filter(m => has(m, k, v)).length;
+    const c = b.checked ? rows.length : k === "scope" ? pool.filter(m => pass(m, k, v)).length : rows.filter(m => has(m, k, v)).length, base = baseCount[kind + "|" + k + "|" + v] ??= pool.filter(m => has(m, k, v)).length;
     n.textContent = c; n.classList.toggle("ghost", c < base && c > 0); n.title = c < base ? `${c} of ${base} with current filters` : "";
     l.classList.toggle("zero", c === 0 && !b.checked); b.disabled = c === 0 && !b.checked;
   });

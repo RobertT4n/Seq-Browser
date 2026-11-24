@@ -1,0 +1,21 @@
+name: ViralCC
+category: dry
+summary: Recovery of complete viral genomes and virus-host pairs from metagenomic Hi-C data.
+readouts:
+- microbial-composition
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-023-35945-y
+  year: 2023
+  journal: Nat Commun
+  first_author: Du Y
+  last_author: Sun F
+  pmid: '36720887'
+  pmcid: PMC9889337
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+links: {}
+added: '2026-11-21'
+evidence: a publicly available tool to recover complete viral genomes and detect virus-host pairs using Hi-C data

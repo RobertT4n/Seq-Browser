@@ -1,0 +1,21 @@
+name: HiDT
+category: dry
+summary: Graph neural network that finds differential TADs from low-depth and pseudobulk chromatin contact maps.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/gr.281535.125
+  year: 2026
+  journal: Genome Res
+  first_author: Li J
+  last_author: Gao L
+  pmid: '42665445'
+  pmcid: PMC13629692
+  title: Identification of differential topologically associating domains from low sequencing depth and pseudobulk chromatin
+    contact maps
+links: {}
+added: '2026-11-21'
+evidence: a graph neural network-based algorithm with an attention-based, edge-enhanced layer to identify differential TADs

@@ -1,0 +1,21 @@
+name: SpaIM
+category: dry
+summary: Style-transfer model that uses scRNA-seq to predict unmeasured gene expression in spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-025-63185-9
+  year: 2025
+  journal: Nat Commun
+  first_author: Li B
+  last_author: Song Q
+  pmid: '40849313'
+  pmcid: PMC12375071
+  title: 'SpaIM: single-cell spatial transcriptomics imputation via style transfer'
+links: {}
+added: '2026-11-21'
+evidence: a style transfer learning model that leverages scRNA-seq data to predict unmeasured gene expressions in ST profiles

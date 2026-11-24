@@ -1,0 +1,24 @@
+name: DeepTalk
+category: dry
+summary: Subgraph-based graph attention network inferring cell-cell communication at single-cell resolution from scRNA-seq
+  plus spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-51329-2
+  year: 2024
+  journal: Nat Commun
+  first_author: Yang W
+  last_author: Jiang Q
+  pmid: '39155292'
+  pmcid: PMC11330978
+  title: Deciphering cell-cell communication at single-cell resolution for spatial transcriptomics with subgraph-based graph
+    attention network
+links: {}
+added: '2026-11-21'
+evidence: DeepTalk infers spatial cell-cell communication at single-cell resolution by integrating scRNA-seq and ST data with
+  graph attention networks

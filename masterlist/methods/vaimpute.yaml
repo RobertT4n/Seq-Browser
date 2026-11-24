@@ -1,0 +1,19 @@
+name: VAImpute
+category: dry
+summary: Variational graph autoencoder imputation of scRNA-seq dropouts using copula correlation.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbb.2024.3492384
+  year: 2025
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Lall S
+  last_author: Bandyopadhyay S
+  pmid: '39504287'
+  title: Enhancing Single-Cell RNA-Seq Data Completeness With a Graph Learning Framework
+links: {}
+added: '2026-11-21'
+evidence: a variational graph autoencoder based imputation technique leveraging copula correlation among cells and genes

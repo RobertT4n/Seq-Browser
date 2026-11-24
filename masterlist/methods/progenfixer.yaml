@@ -1,0 +1,21 @@
+name: ProGenFixer
+category: dry
+summary: Mapping-free correction of prokaryotic genomes by comparing k-mer profiles with sequencing reads, then local assembly.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.34133/csbj.0183
+  year: 2026
+  journal: Comput Struct Biotechnol J
+  first_author: Song L
+  last_author: Ma Y
+  pmid: '42643463'
+  pmcid: PMC13504041
+  title: 'ProGenFixer: An Ultrafast and Accurate Tool for Correcting Prokaryotic Genome Sequences Using a Mapping-Free Algorithm'
+links: {}
+added: '2026-11-21'
+evidence: a mapping-free tool that identifies and corrects errors in prokaryotic genomes by comparing k-mer profiles between
+  a genome and sequencing reads

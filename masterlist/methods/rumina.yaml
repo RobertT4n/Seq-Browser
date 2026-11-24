@@ -1,0 +1,22 @@
+name: RUMINA
+category: dry
+summary: Rust pipeline for UMI-aware deduplication and error correction of amplicon and whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag097
+  year: 2026
+  journal: Bioinformatics
+  first_author: Piliper E
+  last_author: Greninger AL
+  pmid: '41734278'
+  pmcid: PMC12975283
+  title: 'RUMINA: high-throughput deduplication of unique molecular identifiers for amplicon and whole-genome sequencing with
+    enhanced error correction'
+links: {}
+added: '2026-11-21'
+evidence: a Rust-based pipeline for UMI-aware deduplication and error correction, optimized for both amplicon and shotgun
+  sequencing

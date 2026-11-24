@@ -1,0 +1,20 @@
+name: CAREx
+category: dry
+summary: Context-aware extension of paired-end Illumina reads into pseudo-long reads using repeated multiple-sequence alignments.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05802-w
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Kallenborn F
+  last_author: Schmidt B
+  pmid: '38730374'
+  pmcid: PMC11088031
+  title: 'CAREx: context-aware read extension of paired-end sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: an algorithm for the generation of pseudo-long reads from paired-end short-read Illumina data

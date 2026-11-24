@@ -1,0 +1,21 @@
+name: Winnow-KAN
+category: dry
+summary: Kolmogorov-Arnold network that recovers scRNA-seq cell locations from small-gene-set spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06243-9
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Zhang Y
+  last_author: Zhang Q
+  pmid: '40797190'
+  pmcid: PMC12341082
+  title: 'Winnow-KAN: single-cell RNA-seq location recovery with small-gene-set spatial transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: scRNA-seq location recovery with small-gene-set spatial transcriptomics using a Kolmogorov-Arnold network

@@ -1,0 +1,22 @@
+name: ZILLNB
+category: dry
+summary: Zero-inflated negative binomial regression embedded in a deep generative model that denoises and imputes scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06296-w
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Luo Q
+  last_author: Wang T
+  pmid: '41257571'
+  pmcid: PMC12629073
+  title: Denoising single-cell RNA-seq data with a deep learning-embedded statistical framework
+  preprint_doi: 10.1101/2025.05.20.655104
+links: {}
+added: '2026-11-21'
+evidence: a computational framework that integrates zero-inflated negative binomial regression with deep generative modeling
+  to denoise and impute scRNA-seq data

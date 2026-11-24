@@ -1,0 +1,20 @@
+name: NanoSNP
+category: dry
+summary: Progressive, haplotype-aware deep learning SNP caller for low-coverage nanopore data.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac824
+  year: 2023
+  journal: Bioinformatics
+  first_author: Huang N
+  last_author: Wang J
+  pmid: '36548365'
+  pmcid: PMC9822538
+  title: 'NanoSNP: a progressive and haplotype-aware SNP caller on low-coverage nanopore sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: a deep learning-based SNP calling method for low-coverage nanopore sequencing data

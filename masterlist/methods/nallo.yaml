@@ -1,0 +1,22 @@
+name: Nallo
+category: dry
+summary: 'Nextflow pipeline for human long-read genome analysis: variants, assembly and rare-disease reporting for PacBio
+  and Nanopore data.'
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag086
+  year: 2026
+  journal: Bioinformatics
+  first_author: Lenner F
+  last_author: Feuk L
+  pmid: '41712762'
+  pmcid: PMC12988770
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+links: {}
+added: '2026-11-21'
+evidence: a Nextflow pipeline for analysis of PacBio and Oxford Nanopore data; detects a wide range of genetic variants and
+  performs genome assembly

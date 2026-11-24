@@ -1,0 +1,22 @@
+name: SpaDC
+category: dry
+summary: Graph-regularized CNN that integrates spatial location, accessibility and DNA sequence for spatial ATAC-seq analysis
+  and regulatory inference.
+readouts:
+- chromatin-accessibility
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1038/s42003-026-10462-y
+  year: 2026
+  journal: Commun Biol
+  first_author: Ma C
+  last_author: Zhang L
+  pmid: '42251185'
+  pmcid: PMC13575232
+  title: SpaDC enables sequence-based integrative analysis and regulatory inference of spatial chromatin accessibility data
+links: {}
+added: '2026-11-21'
+evidence: a graph-regularized convolutional neural network that integrates spatial location, chromatin accessibility, and
+  DNA sequence

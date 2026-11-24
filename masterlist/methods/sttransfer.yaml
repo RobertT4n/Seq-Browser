@@ -1,0 +1,22 @@
+name: stTransfer
+category: dry
+summary: Graph autoencoder with transfer learning that transfers single-cell annotations onto spatial transcriptomics at single-cell
+  resolution.
+readouts:
+- rna
+resolution:
+- spatial
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.crmeth.2025.101205
+  year: 2025
+  journal: Cell Rep Methods
+  first_author: Zhou T
+  last_author: Liu S
+  pmid: '41101315'
+  pmcid: PMC12664899
+  title: stTransfer enables transfer of single-cell annotations to spatial transcriptomics with single-cell resolution
+links: {}
+added: '2026-11-21'
+evidence: a method that integrates reference scRNA-seq data with ST context using a graph autoencoder and transfer learning

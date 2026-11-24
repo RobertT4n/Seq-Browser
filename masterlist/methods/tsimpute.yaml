@@ -1,0 +1,20 @@
+name: tsImpute
+category: dry
+summary: Two-step imputation of scRNA-seq dropouts using zero-inflated modelling.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btad731
+  year: 2023
+  journal: Bioinformatics
+  first_author: Zheng W
+  last_author: Wang S
+  pmid: '38039139'
+  pmcid: PMC10724850
+  title: 'TsImpute: an accurate two-step imputation method for single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: a two-step imputation method called tsImpute to impute scRNA-seq data

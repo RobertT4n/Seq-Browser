@@ -1,0 +1,22 @@
+name: DeepMod2
+category: dry
+summary: Deep-learning framework detecting DNA methylation from Nanopore ionic-current signal, including adaptive-sampling
+  reduced-representation data.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-024-45778-y
+  year: 2024
+  journal: Nat Commun
+  first_author: Ahsan MU
+  last_author: Wang K
+  pmid: '38365920'
+  pmcid: PMC10873387
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+links: {}
+added: '2026-11-21'
+evidence: a comprehensive deep-learning framework for methylation detection using ionic current signal from Nanopore sequencing

@@ -1,0 +1,22 @@
+name: scDAC
+category: dry
+summary: Deep adaptive clustering of scRNA-seq coupling an autoencoder with a Dirichlet process mixture to infer cluster number.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae198
+  year: 2024
+  journal: Bioinformatics
+  first_author: An S
+  last_author: Ying X
+  pmid: '38603616'
+  pmcid: PMC11256937
+  title: 'scDAC: deep adaptive clustering of single-cell transcriptomic data with coupled autoencoder and Dirichlet process
+    mixture model'
+links: {}
+added: '2026-11-21'
+evidence: a single-cell Deep Adaptive Clustering (scDAC) model coupling the Autoencoder and the Dirichlet process mixture
+  model

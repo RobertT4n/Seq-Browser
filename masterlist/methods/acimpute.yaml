@@ -1,0 +1,20 @@
+name: AcImpute
+category: dry
+summary: Constraint-enhanced smoothing approach for scRNA-seq imputation that limits over-smoothing.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae711
+  year: 2025
+  journal: Bioinformatics
+  first_author: Zhang W
+  last_author: Li Y
+  pmid: '40037523'
+  pmcid: PMC11890269
+  title: 'AcImpute: a constraint-enhancing smooth-based approach for imputing single-cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: an unsupervised method that enhances imputation accuracy by constraining smoothing

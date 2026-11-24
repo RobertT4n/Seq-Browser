@@ -1,0 +1,20 @@
+name: GCNgene
+category: dry
+summary: Graph convolutional network that imputes genes missing from spatial transcriptomics using scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1109/tcbbio.2025.3605719
+  year: 2025
+  journal: IEEE Trans Comput Biol Bioinform
+  first_author: Zhang Y
+  last_author: Yu DJ
+  pmid: '40892650'
+  title: Integrating Graph Convolutional Networks for Missing Gene Expression Imputation
+links: {}
+added: '2026-11-21'
+evidence: integrating graph convolutional networks for missing gene expression imputation in spatial transcriptomics

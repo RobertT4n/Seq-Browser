@@ -1,0 +1,20 @@
+name: GNNLink
+category: dry
+summary: Graph neural network that predicts gene regulatory links from scRNA-seq using known TF-DNA binding data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbad414
+  year: 2023
+  journal: Brief Bioinform
+  first_author: Mao G
+  last_author: Liu J
+  pmid: '37985457'
+  pmcid: PMC10661972
+  title: Predicting gene regulatory links from single-cell RNA-seq data using graph neural networks
+links: {}
+added: '2026-11-21'
+evidence: predicting gene regulatory links from single-cell RNA-seq data using graph neural networks

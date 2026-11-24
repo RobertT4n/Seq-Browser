@@ -1,0 +1,21 @@
+name: CoverM
+category: dry
+summary: Read alignment statistics and per-genome coverage for metagenomics, supporting binning and community composition
+  estimates.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf147
+  year: 2025
+  journal: Bioinformatics
+  first_author: Aroney STN
+  last_author: Woodcroft BJ
+  pmid: '40193404'
+  pmcid: PMC11993303
+  title: 'CoverM: read alignment statistics for metagenomics'
+links: {}
+added: '2026-11-21'
+evidence: read alignment statistics for metagenomics, calculating read coverage for contigs or genomes

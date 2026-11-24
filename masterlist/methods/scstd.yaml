@@ -1,0 +1,19 @@
+name: scSTD
+category: dry
+summary: Swin-Transformer diffusion model that recovers dropout and noise in scRNA-seq expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2025.3570265
+  year: 2025
+  journal: IEEE J Biomed Health Inform
+  first_author: Li Y
+  last_author: Yu Z
+  pmid: '40366848'
+  title: 'scSTD: A Swin Transformer-Based Diffusion Model for Recovering scRNA-Seq Data'
+links: {}
+added: '2026-11-21'
+evidence: a novel imputation and denoising framework that combines the Swin Transformer with a diffusion model

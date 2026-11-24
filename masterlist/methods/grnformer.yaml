@@ -1,0 +1,22 @@
+name: GRNFormer
+category: dry
+summary: Graph transformer for gene regulatory network inference from single-cell data across species and platforms without
+  annotations or priors.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag144
+  year: 2026
+  journal: Bioinformatics
+  first_author: Hegde A
+  last_author: Cheng J
+  pmid: '41883144'
+  pmcid: PMC13069479
+  title: 'GRNFormer: accurate gene regulatory network inference using graph transformer'
+links: {}
+added: '2026-11-21'
+evidence: a generalizable graph transformer framework for accurate GRN inference from transcriptomics data across species,
+  cell types, and platforms

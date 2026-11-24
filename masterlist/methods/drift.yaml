@@ -1,0 +1,21 @@
+name: DRIFT
+category: dry
+summary: Diffusion on spatial graphs to inject spatial context into inputs of single-cell foundation models for spatial transcriptomics.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btag259
+  year: 2026
+  journal: Bioinformatics
+  first_author: Jain A
+  last_author: Singh R
+  pmid: '42412816'
+  pmcid: PMC13340259
+  title: Diffusion-based representation integration for foundation models improves spatial transcriptomics analysis
+links: {}
+added: '2026-11-21'
+evidence: a framework that integrates spatial context into the input representations for foundation models by leveraging diffusion
+  on spatial graphs

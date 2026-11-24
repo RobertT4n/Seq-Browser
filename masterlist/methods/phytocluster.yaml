@@ -1,0 +1,20 @@
+name: PhytoCluster
+category: dry
+summary: Generative deep clustering model for plant scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s42994-025-00196-6
+  year: 2025
+  journal: aBIOTECH
+  first_author: Wang H
+  last_author: Yan S
+  pmid: '40641652'
+  pmcid: PMC12237842
+  title: 'PhytoCluster: a generative deep learning model for clustering plant single-cell RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: an unsupervised deep learning algorithm to cluster plant scRNA-seq data by extracting latent features

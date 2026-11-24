@@ -1,0 +1,22 @@
+name: CluVar
+category: dry
+summary: Autoencoder clustering of variants to infer cancer subclones from scRNA-seq data.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbaf603
+  year: 2025
+  journal: Brief Bioinform
+  first_author: Kim CW
+  last_author: Kim J
+  pmid: '41240059'
+  pmcid: PMC12619534
+  title: 'CluVar: clustering of variants using autoencoder for inferring cancer subclones from single cell RNA sequencing
+    data'
+links: {}
+added: '2026-11-21'
+evidence: clustering of variants using autoencoder for inferring cancer subclones from single cell RNA sequencing data

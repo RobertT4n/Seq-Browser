@@ -1,0 +1,23 @@
+name: CIA
+full_name: Cluster Independent Annotation
+category: dry
+summary: Cluster-independent cell-type annotation for scRNA-seq across datasets.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-025-06320-z
+  year: 2025
+  journal: BMC Bioinformatics
+  first_author: Ferrari I
+  last_author: Galeota E
+  pmid: '41408153'
+  pmcid: PMC12875040
+  title: 'CIA: unveiling cellular identities with cluster-independent annotation in single-cell RNA sequencing data for comprehensive
+    cell type characterization and exploration'
+links: {}
+added: '2026-11-21'
+evidence: Cluster Independent Annotation, a tool that identifies cell types across datasets without requiring a fully annotated
+  reference

@@ -1,0 +1,21 @@
+name: scPAS
+category: dry
+summary: Network-regularized sparse regression that links bulk phenotype data to cell subpopulations in single-cell data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbae655
+  year: 2024
+  journal: Brief Bioinform
+  first_author: Xie A
+  last_author: Xu Y
+  pmid: '39681325'
+  pmcid: PMC11649301
+  title: 'scPAS: single-cell phenotype-associated subpopulation identifier'
+links: {}
+added: '2026-11-21'
+evidence: a bioinformatics tool integrating bulk data to identify phenotype-associated cell subpopulations within single-cell
+  data

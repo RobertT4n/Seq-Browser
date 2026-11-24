@@ -1,0 +1,20 @@
+name: MMGraph
+category: dry
+summary: Graph neural network predicting multiple co-occurring transcription factor binding motifs from ATAC-seq data.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btac572
+  year: 2022
+  journal: Bioinformatics
+  first_author: Zhang S
+  last_author: Wang Y
+  pmid: '35997564'
+  pmcid: PMC9524997
+  title: 'MMGraph: a multiple motif predictor based on graph neural network and coexisting probability for ATAC-seq data'
+links: {}
+added: '2026-11-21'
+evidence: a multiple motif predictor based on graph neural network and coexisting probability for ATAC-seq data
