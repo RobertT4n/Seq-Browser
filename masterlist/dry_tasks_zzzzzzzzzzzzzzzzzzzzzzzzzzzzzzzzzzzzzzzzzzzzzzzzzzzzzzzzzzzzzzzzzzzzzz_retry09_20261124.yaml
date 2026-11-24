@@ -1,0 +1,89 @@
+a5-miseq:
+- genome-assembly
+alfred:
+- preprocessing-qc
+- genome-visualization
+atropos:
+- preprocessing-qc
+bfc:
+- preprocessing-qc
+callr:
+- clustering-annotation
+cascabel:
+- metagenomics-taxonomy
+- preprocessing-qc
+clast:
+- metagenomics-taxonomy
+- read-alignment
+clustom:
+- metagenomics-taxonomy
+db2:
+- variants-clones
+deepssv:
+- variants-clones
+desamba:
+- metagenomics-taxonomy
+distmap:
+- read-alignment
+dix-seq:
+- metagenomics-taxonomy
+ganon:
+- metagenomics-taxonomy
+garfield-ngs:
+- variants-clones
+gmata:
+- variants-clones
+- population-genetics
+gmpr:
+- preprocessing-qc
+- differential-analysis
+heap:
+- variants-clones
+helmsman:
+- variants-clones
+heron:
+- peak-calling-signal
+kboost:
+- regulatory-networks
+lordec:
+- preprocessing-qc
+lvq-knn:
+- metagenomics-taxonomy
+mcimpute:
+- preprocessing-qc
+metacon:
+- metagenomics-taxonomy
+- genome-assembly
+panisa:
+- variants-clones
+polycat:
+- read-alignment
+- population-genetics
+pong:
+- population-genetics
+- dimensionality-visualization
+pvaas:
+- variants-clones
+- transcript-quantification
+re-searcher:
+- variants-clones
+rmfilter:
+- variants-clones
+- preprocessing-qc
+scavenger:
+- read-alignment
+scdeephash:
+- clustering-annotation
+scgslc:
+- clustering-annotation
+selfish:
+- 3d-genome-analysis
+- differential-analysis
+svants:
+- variants-clones
+teffectr:
+- regulatory-networks
+- differential-analysis
+yanocomp:
+- modification-calling
+- differential-analysis

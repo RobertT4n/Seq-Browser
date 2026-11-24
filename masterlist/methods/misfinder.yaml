@@ -1,0 +1,20 @@
+name: misFinder
+category: dry
+summary: Identifies mis-assemblies using a reference and paired-end reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-015-0818-3
+  year: 2015
+  journal: BMC Bioinformatics
+  first_author: Zhu X
+  last_author: Wang Y
+  pmid: '26573684'
+  pmcid: PMC4647709
+  title: 'misFinder: identify mis-assemblies in an unbiased manner using reference and paired-end reads'
+links: {}
+added: '2026-11-21'
+evidence: 'misFinder: identify mis-assemblies in an unbiased manner using reference and paired-end reads.'

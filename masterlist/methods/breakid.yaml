@@ -1,0 +1,19 @@
+name: BreakID
+category: dry
+summary: Detects gene fusion breakpoints from targeted sequencing using discordant pairs and split reads.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty1070
+  year: 2019
+  journal: Bioinformatics
+  first_author: Jin L
+  last_author: Huang B
+  pmid: '30601940'
+  title: 'BreakID: genomics breakpoints identification to detect gene fusion events using discordant pairs and split reads'
+links: {}
+added: '2026-11-21'
+evidence: 'BreakID: genomics breakpoints identification to detect gene fusion events using discordant pairs and split reads.'
