@@ -1,0 +1,99 @@
+autoimpute:
+- preprocessing-qc
+basic:
+- genome-assembly
+chipwig:
+- preprocessing-qc
+- benchmark-infrastructure
+dittoseq:
+- dimensionality-visualization
+fcirc:
+- variants-clones
+- transcript-quantification
+flexbar-3-0:
+- preprocessing-qc
+fourcseq:
+- 3d-genome-analysis
+- peak-calling-signal
+fuma:
+- variants-clones
+- benchmark-infrastructure
+grom-rd:
+- variants-clones
+haplotypo:
+- variants-clones
+heuraa:
+- read-alignment
+- variants-clones
+hitea:
+- variants-clones
+- 3d-genome-analysis
+kart:
+- read-alignment
+lep-map3:
+- population-genetics
+- variants-clones
+mapcaller:
+- read-alignment
+- variants-clones
+medestrand:
+- differential-analysis
+- modification-calling
+metamvgl:
+- metagenomics-taxonomy
+- genome-assembly
+mobster:
+- variants-clones
+nextgenmap:
+- read-alignment
+orfm:
+- metagenomics-taxonomy
+- sequence-to-function
+pairmotifchip:
+- regulatory-networks
+- peak-calling-signal
+pheniqs-2-0:
+- preprocessing-qc
+reliablegenome:
+- variants-clones
+- benchmark-infrastructure
+relocate2:
+- variants-clones
+- population-genetics
+rmats-dvr:
+- differential-analysis
+- variants-clones
+rnaseqviewer:
+- genome-visualization
+rvd2:
+- variants-clones
+scapatrap:
+- transcript-quantification
+- differential-analysis
+scl:
+- 3d-genome-analysis
+sctim:
+- clustering-annotation
+sgtk:
+- genome-assembly
+- genome-visualization
+shouji:
+- read-alignment
+simples:
+- preprocessing-qc
+strainpro:
+- metagenomics-taxonomy
+strainseeker:
+- metagenomics-taxonomy
+struo:
+- metagenomics-taxonomy
+- benchmark-infrastructure
+svachra:
+- variants-clones
+tamock:
+- benchmark-infrastructure
+varben:
+- benchmark-infrastructure
+- variants-clones
+visnormsc:
+- preprocessing-qc

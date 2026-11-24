@@ -1,0 +1,19 @@
+name: Whisper
+category: dry
+summary: Read mapper for DNA sequencing data that sorts reads before mapping for speed and robustness.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/bty927
+  year: 2019
+  journal: Bioinformatics
+  first_author: Deorowicz S
+  last_author: Grabowski S
+  pmid: '30407485'
+  title: 'Whisper: read sorting allows robust mapping of DNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: 'Whisper: read sorting allows robust mapping of DNA sequencing data.'

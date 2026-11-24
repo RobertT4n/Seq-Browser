@@ -1,0 +1,20 @@
+name: Cake
+category: dry
+summary: Pipeline that integrates four somatic variant callers to raise sensitivity and specificity for SNVs in cancer genomes.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt371
+  year: 2013
+  journal: Bioinformatics
+  first_author: Rashid M
+  last_author: Adams DJ
+  pmid: '23803469'
+  pmcid: PMC3740632
+  title: 'Cake: a bioinformatics pipeline for the integrated analysis of somatic variants in cancer genomes'
+links: {}
+added: '2026-11-21'
+evidence: 'Cake: a bioinformatics pipeline for the integrated analysis of somatic variants in cancer genomes.'

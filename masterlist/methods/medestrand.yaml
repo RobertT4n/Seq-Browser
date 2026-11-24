@@ -1,0 +1,21 @@
+name: MeDEStrand
+category: dry
+summary: Infers genome-wide absolute DNA methylation levels from enrichment-based data such as MeDIP-seq, strand-aware.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2574-7
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Xu J
+  last_author: Dai Y
+  pmid: '30577750'
+  pmcid: PMC6303941
+  title: 'MeDEStrand: an improved method to infer genome-wide absolute methylation levels from DNA enrichment data'
+links: {}
+added: '2026-11-21'
+evidence: 'MeDEStrand: an improved method to infer genome-wide absolute methylation levels from DNA enrichment data.'

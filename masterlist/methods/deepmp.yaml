@@ -1,0 +1,21 @@
+name: DeepMP
+category: dry
+summary: Deep-learning detection of DNA base modifications (methylation) from nanopore sequencing signals.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab745
+  year: 2022
+  journal: Bioinformatics
+  first_author: Bonet J
+  last_author: Lagergren J
+  pmid: '34718417'
+  pmcid: PMC8826383
+  title: 'DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: 'DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data.'

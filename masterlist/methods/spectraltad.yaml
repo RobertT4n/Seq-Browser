@@ -1,0 +1,20 @@
+name: SpectralTAD
+category: dry
+summary: R package that defines hierarchical topologically associating domains from Hi-C using spectral clustering.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-020-03652-w
+  year: 2020
+  journal: BMC Bioinformatics
+  first_author: Cresswell KG
+  last_author: Dozmorov MG
+  pmid: '32689928'
+  pmcid: PMC7372752
+  title: 'SpectralTAD: an R package for defining a hierarchy of topologically associated domains using spectral clustering'
+links: {}
+added: '2026-11-21'
+evidence: 'SpectralTAD: an R package for defining a hierarchy of topologically associated domains using spectral clustering.'

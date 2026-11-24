@@ -1,0 +1,21 @@
+name: Mutascope
+category: dry
+summary: Pipeline for detecting low-allelic-fraction somatic variants from deep amplicon sequencing of matched tumour-normal
+  samples.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btt305
+  year: 2013
+  journal: Bioinformatics
+  first_author: Yost SE
+  last_author: Harismendy O
+  pmid: '23712659'
+  pmcid: PMC3712217
+  title: 'Mutascope: sensitive detection of somatic mutations from deep amplicon sequencing'
+links: {}
+added: '2026-11-21'
+evidence: 'Mutascope: sensitive detection of somatic mutations from deep amplicon sequencing.'

@@ -1,0 +1,22 @@
+name: Romulus
+category: dry
+summary: Identifies individual transcription-factor binding sites from genome sequence and DNase-seq data with a multi-state
+  model.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw209
+  year: 2016
+  journal: Bioinformatics
+  first_author: Jankowski A
+  last_author: Prabhakar S
+  pmid: '27153645'
+  pmcid: PMC4978937
+  title: 'Romulus: robust multi-state identification of transcription factor binding sites from DNase-seq data'
+links: {}
+added: '2026-11-21'
+evidence: 'Romulus: robust multi-state identification of transcription factor binding sites from DNase-seq data.'

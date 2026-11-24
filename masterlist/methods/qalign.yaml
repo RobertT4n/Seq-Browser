@@ -1,0 +1,20 @@
+name: QAlign
+category: dry
+summary: Aligns nanopore reads using current-level (signal) modelling for higher accuracy.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa875
+  year: 2021
+  journal: Bioinformatics
+  first_author: Joshi D
+  last_author: Diggavi S
+  pmid: '33051648'
+  pmcid: PMC8097683
+  title: 'QAlign: aligning nanopore reads accurately using current-level modeling'
+links: {}
+added: '2026-11-21'
+evidence: 'QAlign: aligning nanopore reads accurately using current-level modeling.'

@@ -1,0 +1,20 @@
+name: SMuRF
+category: dry
+summary: Random-forest ensemble that integrates multiple somatic mutation callers.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz018
+  year: 2019
+  journal: Bioinformatics
+  first_author: Huang W
+  last_author: Jacobsen Skanderup A
+  pmid: '30649191'
+  pmcid: PMC6735703
+  title: 'SMuRF: portable and accurate ensemble prediction of somatic mutations'
+links: {}
+added: '2026-11-21'
+evidence: 'SMuRF: portable and accurate ensemble prediction of somatic mutations.'

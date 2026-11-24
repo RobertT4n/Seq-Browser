@@ -1,0 +1,21 @@
+name: HiNT
+category: dry
+summary: Detects copy-number variations and translocations from Hi-C data.
+readouts:
+- 3d-genome
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-020-01986-5
+  year: 2020
+  journal: Genome Biol
+  first_author: Wang S
+  last_author: Park PJ
+  pmid: '32293513'
+  pmcid: PMC7087379
+  title: 'HiNT: a computational method for detecting copy number variations and translocations from Hi-C data'
+links: {}
+added: '2026-11-21'
+evidence: 'HiNT: a computational method for detecting copy number variations and translocations from Hi-C data.'

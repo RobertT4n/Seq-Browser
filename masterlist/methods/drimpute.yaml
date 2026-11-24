@@ -1,0 +1,20 @@
+name: DrImpute
+category: dry
+summary: Imputes dropout events in scRNA-seq by clustering cells and averaging expression.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2226-y
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Gong W
+  last_author: Garry DJ
+  pmid: '29884114'
+  pmcid: PMC5994079
+  title: 'DrImpute: imputing dropout events in single cell RNA sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: 'DrImpute: imputing dropout events in single cell RNA sequencing data.'

@@ -1,0 +1,21 @@
+name: SCnorm
+category: dry
+summary: Quantile-regression normalisation of scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1038/nmeth.4263
+  year: 2017
+  journal: Nat Methods
+  first_author: Bacher R
+  last_author: Kendziorski C
+  pmid: '28418000'
+  pmcid: PMC5473255
+  title: 'SCnorm: robust normalization of single-cell RNA-seq data'
+  preprint_doi: 10.1101/090167
+links: {}
+added: '2026-11-21'
+evidence: 'SCnorm: A quantile-regression based approach for robust normalization of single-cell RNA-seq data'

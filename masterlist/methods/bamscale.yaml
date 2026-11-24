@@ -1,0 +1,21 @@
+name: BAMscale
+category: dry
+summary: Quantifies NGS peaks and generates scaled coverage tracks from chromatin and expression data.
+readouts:
+- chromatin-accessibility
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s13072-020-00343-x
+  year: 2020
+  journal: Epigenetics Chromatin
+  first_author: Pongor LS
+  last_author: Pommier Y
+  pmid: '32321568'
+  pmcid: PMC7175505
+  title: 'BAMscale: quantification of next-generation sequencing peaks and generation of scaled coverage tracks'
+links: {}
+added: '2026-11-21'
+evidence: 'BAMscale: quantification of next-generation sequencing peaks and generation of scaled coverage tracks.'
