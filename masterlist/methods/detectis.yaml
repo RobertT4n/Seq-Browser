@@ -1,0 +1,20 @@
+name: DetectIS
+category: dry
+summary: Pipeline that rapidly detects exogenous DNA integration sites from DNA or RNA paired-end sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab366
+  year: 2021
+  journal: Bioinformatics
+  first_author: Grassi L
+  last_author: Hatton D
+  pmid: '33978747'
+  pmcid: PMC9502153
+  title: 'DetectIS: a pipeline to rapidly detect exogenous DNA integration sites using DNA or RNA paired-end sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: 'DetectIS: a pipeline to rapidly detect exogenous DNA integration sites using DNA or RNA paired-end sequencing data.'

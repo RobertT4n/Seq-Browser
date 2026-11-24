@@ -1,0 +1,19 @@
+name: scHinter
+category: dry
+summary: Imputation of scRNA-seq dropout events for datasets with limited sample size.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz627
+  year: 2020
+  journal: Bioinformatics
+  first_author: Ye P
+  last_author: Wu X
+  pmid: '31392316'
+  title: 'scHinter: imputing dropout events for single-cell RNA-seq data with limited sample size'
+links: {}
+added: '2026-11-21'
+evidence: 'scHinter: imputing dropout events for single-cell RNA-seq data with limited sample size.'
