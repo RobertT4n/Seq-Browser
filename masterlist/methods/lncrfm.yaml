@@ -1,0 +1,19 @@
+name: LncRFM
+category: dry
+summary: Long non-coding RNA foundation model with a hybrid bidirectional state-space encoder and structure-guided masking,
+  released with a pretraining corpus and benchmark suite.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.20.768117
+  year: 2026
+  journal: bioRxiv
+  first_author: Chang
+  last_author: S. K
+  title: An open long non-coding RNA foundation model for generalizable prediction
+links: {}
+added: '2026-11-21'
+evidence: a dedicated lncRNA foundation model, supported by the LncCorpus pretraining data and the LncBench evaluation suite

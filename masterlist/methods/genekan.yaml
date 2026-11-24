@@ -1,0 +1,21 @@
+name: GeneKAN
+category: dry
+summary: Hierarchical KAN-augmented graph convolutional model that infers cell-type-specific gene regulation from scRNA-seq.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1007/s12539-026-00890-z
+  year: 2026
+  journal: Interdiscip Sci
+  first_author: Tang B
+  last_author: Zhou F
+  pmid: '43062791'
+  title: A Hierarchical KAN-Augmented Graph Convolutional Model for Inferring Cell-Type-Specific Gene Regulations in Single-Cell
+    Omics
+links: {}
+added: '2026-11-21'
+evidence: a novel deep learning framework that integrates multi-scale graph convolution with Kolmogorov-Arnold networks to
+  infer GRNs

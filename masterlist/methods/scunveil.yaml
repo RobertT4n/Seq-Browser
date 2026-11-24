@@ -1,0 +1,19 @@
+name: scUNVEIL
+category: dry
+summary: Self-supervised scRNA-seq model trained by next-UMI prediction to learn cell embeddings that estimate what a measurement
+  would show at greater depth.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.17.767296
+  year: 2026
+  journal: bioRxiv
+  first_author: Honzík T
+  last_author: Georgiev D
+  title: 'scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment'
+links: {}
+added: '2026-11-21'
+evidence: a self-supervised model trained through next-UMI prediction

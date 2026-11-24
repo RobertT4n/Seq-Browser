@@ -1,0 +1,19 @@
+name: Hi-Compass
+category: dry
+summary: Deep model predicting cell-type chromatin interactions from single-cell and spatial ATAC-seq.
+readouts:
+- 3d-genome
+resolution:
+- single-cell
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1101/2025.05.14.654019
+  year: 2025
+  journal: bioRxiv
+  first_author: Sun Y
+  last_author: Wu H
+  title: Hi-Compass resolves cell-type chromatin interactions by single-cell and spatial ATAC-seq data across biological scales
+links: {}
+added: '2026-11-21'
+evidence: a generalizable deep learning model that accurately predicts chromatin organization across diverse biological scales

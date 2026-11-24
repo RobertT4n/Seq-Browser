@@ -1,0 +1,26 @@
+name: Siphon-seq
+category: wet
+summary: RNA-seq for platelets that overloads independently barcoded single-cell partitions to boost RNA input, then removes
+  partitions carrying contaminating leukocyte or erythrocyte RNA computationally.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+chemistry: []
+chemistry_unknown: chemistry not stated in the abstract; to check in the full text
+species:
+- human
+validated_system:
+- primary-cells
+reference:
+  doi: 10.64898/2026.11.16.767104
+  year: 2026
+  journal: bioRxiv
+  first_author: Moser
+  last_author: M. R
+  title: 'Revealing the platelet transcriptome using Siphon-seq: a sensitive, purity-aware method for RNA-sequencing'
+links: {}
+added: '2026-11-21'
+evidence: deliberately overloads independently barcoded single-cell partitions to increase aggregate platelet RNA input, then
+  computationally identifies and removes partitions containing contaminating RNA after sequencing

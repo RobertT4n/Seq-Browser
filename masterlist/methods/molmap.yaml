@@ -1,0 +1,27 @@
+name: MolMap
+full_name: chromatin-small Molecule Mapping
+category: wet
+summary: 'Sequencing-based chromatin-small-molecule mapping: compounds are added to isolated native nuclei and Tn5 accessibility
+  changes reveal genome-wide immediate chromatin responses.'
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- tn5
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.11.16.766766
+  year: 2026
+  journal: bioRxiv
+  first_author: piazza
+  last_author: M
+  title: MolMap resolves functional chromatin responses to small-molecule perturbation
+links: {}
+added: '2026-11-21'
+evidence: profiles genome-wide chromatin responses to chemically unmodified compounds in isolated, non-crosslinked nuclei;
+  quantifying changes in Tn5 accessibility

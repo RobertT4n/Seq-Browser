@@ -1,0 +1,30 @@
+name: ChIMe-seq
+full_name: Chromatin Immuno-Methylation sequencing
+category: wet
+summary: Multimodal profiling of histone modifications, DNA methylation and nucleosome positioning on long single DNA molecules
+  and in single cells, using a methyltransferase that deposits exogenous marks near histone modifications.
+readouts:
+- histone-modification
+- dna-methylation
+- dna-5mc
+- chromatin-accessibility
+resolution:
+- single-molecule
+- single-cell
+scope: genome-wide
+chemistry:
+- antibody-tethered-enzyme
+- long-read-sequencing
+- bisulfite-or-enzymatic-conversion
+partition_unknown: not stated in the abstract
+reference:
+  doi: 10.64898/2026.11.17.767085
+  year: 2026
+  journal: bioRxiv
+  first_author: Verity-Legg
+  last_author: A
+  title: ChIMe-seq enables multimodal epigenetic profiling in single molecules and single cells
+links: {}
+added: '2026-11-21'
+evidence: simultaneously profiles histone modifications, DNA methylation, and nucleosome positioning genome-wide in single
+  molecules and single cells

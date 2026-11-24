@@ -1,0 +1,20 @@
+name: MitoArc
+category: dry
+summary: Nextflow workflow for human mitochondrial genome analysis from short reads with circular-coordinate and NUMT-aware
+  handling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.19.767817
+  year: 2026
+  journal: bioRxiv
+  first_author: Galgale S
+  last_author: Haldar A
+  title: 'MitoArc: A Reproducible Short-Read Workflow for Human Mitochondrial Genome Analysis with Circular-Coordinate and
+    NUMT-Aware Evaluation'
+links: {}
+added: '2026-11-21'
+evidence: a Nextflow workflow that accepts paired-end FASTQ files or pre-aligned BAM and CRAM files

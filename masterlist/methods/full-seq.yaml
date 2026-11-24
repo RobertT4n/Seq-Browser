@@ -1,0 +1,29 @@
+name: FULL-seq
+category: wet
+summary: Single-cell multiome method that jointly profiles chromatin accessibility and full-length transcript coverage from
+  the same cell, linking regulatory elements to alternative first-exon usage.
+readouts:
+- chromatin-accessibility
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+chemistry:
+- tn5
+- reverse-transcription
+partition_unknown: not stated in the abstract
+species:
+- human
+validated_system:
+- cell-line
+reference:
+  doi: 10.64898/2026.11.17.767299
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang
+  last_author: J
+  title: FULL-seq reveals isoform-specific regulatory architecture in single cells
+links: {}
+added: '2026-11-21'
+evidence: a scalable single-cell multiomic platform that jointly profiles chromatin accessibility and full-length transcript
+  coverage from the same cell

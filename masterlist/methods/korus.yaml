@@ -1,0 +1,20 @@
+name: KORUS
+category: dry
+summary: Probabilistic ancestry inference from sequencing-derived k-mer representations of ancestry-informative variants in
+  Bloom filters, without variant calling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.16.767070
+  year: 2026
+  journal: bioRxiv
+  first_author: Warren RL
+  last_author: Birol I
+  title: 'KORUS: probabilistic ancestry inference beyond variant calls'
+links: {}
+added: '2026-11-21'
+evidence: infers ancestry from sequencing-derived k-mer representations constructed using ancestry-informative reference variants
+  and encoded in Bloom filters

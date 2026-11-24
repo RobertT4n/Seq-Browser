@@ -1,0 +1,19 @@
+name: nf-core/pairgenomealign
+category: dry
+summary: Nextflow workflow that automates pairwise whole-genome alignment with the LAST suite and produces standard alignment
+  and visualisation outputs.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.18.767494
+  year: 2026
+  journal: bioRxiv
+  first_author: Plessy
+  last_author: N. M
+  title: 'nf-core/pairgenomealign: a scalable pipeline for pairwise whole-genome alignment'
+links: {}
+added: '2026-11-21'
+evidence: a Nextflow workflow that automates pairwise genome alignment using the LAST software suite

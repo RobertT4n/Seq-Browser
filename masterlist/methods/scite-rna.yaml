@@ -1,0 +1,21 @@
+name: SCITE-RNA
+category: dry
+summary: Maximum-likelihood phylogenetic tree inference from scRNA-seq SNV read counts.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s13059-026-04123-w
+  year: 2026
+  journal: Genome Biol
+  first_author: Zimmermann N
+  last_author: Beerenwinkel N
+  pmid: '42298641'
+  pmcid: PMC13270743
+  title: Phylogenetic tree inference from single-cell RNA sequencing data with SCITE-RNA
+links: {}
+added: '2026-11-21'
+evidence: a novel phylogenetic tree inference method designed for single-cell RNA sequencing data which takes reference and
+  alternative read counts of SNVs as input

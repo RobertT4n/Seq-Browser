@@ -1,0 +1,21 @@
+name: scCluster
+category: dry
+summary: Deep clustering that integrates scRNA-seq expression with expressed variants to find cancer subpopulations.
+readouts:
+- rna
+- genome-sequence
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.fmre.2025.01.001
+  year: 2026
+  journal: Fundam Res
+  first_author: Wang T
+  last_author: Shang X
+  pmid: '41647537'
+  pmcid: PMC12869734
+  title: Enhancing cell subpopulation discovery in cancer by integrating single-cell transcriptome and expressed variants
+links: {}
+added: '2026-11-21'
+evidence: an end-to-end deep clustering model that integrates single-cell gene expression profiles and expressed variants

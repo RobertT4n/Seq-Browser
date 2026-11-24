@@ -1,0 +1,22 @@
+name: gAIRR Suite
+category: dry
+summary: Germline T-cell receptor reference expansion and genotyping suite that calls alleles only when the assembly supports
+  the allele core and both flanks; v2 works with AVITI libraries.
+readouts:
+- immune-repertoire
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.14.766613
+  year: 2026
+  journal: bioRxiv
+  first_author: Yang Y
+  last_author: Chen P
+  title: Expanding the human T cell receptor germline reference through population-scale pangenome analysis using the gAIRR
+    Suite version 2
+links: {}
+added: '2026-11-21'
+evidence: gAIRR Suite version 2, in which each gAIRR-annotate query carries 50 bp of germline sequence on either side of the
+  allele core

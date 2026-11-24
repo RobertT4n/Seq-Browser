@@ -1,0 +1,21 @@
+name: Mora
+category: dry
+summary: Abundance-aware re-assignment of metagenomic reads to disentangle similar strains.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-024-05768-9
+  year: 2024
+  journal: BMC Bioinformatics
+  first_author: Zheng A
+  last_author: Yu YW
+  pmid: '38649836'
+  pmcid: PMC11035124
+  title: 'Mora: abundance aware metagenomic read re-assignment for disentangling similar strains'
+links: {}
+added: '2026-11-21'
+evidence: a MetagenOmic read Re-Assignment algorithm capable of assigning short and long metagenomic reads with high precision,
+  even at the strain level

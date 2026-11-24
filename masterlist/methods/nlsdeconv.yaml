@@ -1,0 +1,20 @@
+name: NLSDeconv
+category: dry
+summary: Non-negative least squares cell-type deconvolution of spatial transcriptomics with a Python package.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btae747
+  year: 2024
+  journal: Bioinformatics
+  first_author: Chen Y
+  last_author: Wang JP
+  pmid: '39705170'
+  pmcid: PMC11696698
+  title: 'NLSDeconv: an efficient cell-type deconvolution method for spatial transcriptomics data'
+links: {}
+added: '2026-11-21'
+evidence: a novel cell-type deconvolution method based on non-negative least squares, along with an accompanying Python package

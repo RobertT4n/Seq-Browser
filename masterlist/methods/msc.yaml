@@ -1,0 +1,21 @@
+name: MSC
+category: dry
+summary: Multiscale clustering based on a sparse cell-cell correlation network to identify hierarchical cell types and subtypes.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/gigascience/giaf111
+  year: 2025
+  journal: Gigascience
+  first_author: Song WM
+  last_author: Zhang B
+  pmid: '41066207'
+  pmcid: PMC12509883
+  title: Unsupervised multiscale clustering of single-cell transcriptomes to identify hierarchical structures of cell subtypes
+links: {}
+added: '2026-11-21'
+evidence: a multiscale clustering (MSC) approach that constructs a sparse cell-cell correlation network for unsupervised identification
+  of cell types and subtypes

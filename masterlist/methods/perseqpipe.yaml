@@ -1,0 +1,20 @@
+name: PerSeqPIPE
+category: dry
+summary: Nextflow workflow for sequence-centric, per-sequence analysis of small RNA-seq data that keeps multi-mapping reads.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioadv/vbag294
+  year: 2026
+  journal: Bioinform Adv
+  first_author: Trachtová K
+  last_author: Slabý O
+  pmid: '42893276'
+  title: 'PerSeqPIPE: Nextflow workflow for per-sequence analysis of small RNA-sequencing data'
+links: {}
+added: '2026-11-21'
+evidence: a modular, fully containerized Nextflow pipeline implementing a sequence-centric approach that quantifies each unique
+  read sequence

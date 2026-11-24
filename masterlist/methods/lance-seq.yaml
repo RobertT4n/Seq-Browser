@@ -1,0 +1,31 @@
+name: LANCE-seq
+full_name: Live-tissue Analysis via Needle-encoded Capture Extraction sequencing
+category: wet
+summary: Live-tissue spatial transcriptomics using encoded microneedle arrays with dendrimer-functionalised capture, allowing
+  repeated sampling of the same living animal over time.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- microfluidic-chip
+- spatial-barcode-array
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.11.14.766625
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang W
+  last_author: Zhao X
+  title: 'LANCE-seq: Live-tissue Analysis via Needle-encoded Capture Extraction for Spatial Transcriptomics'
+links: {}
+added: '2026-11-21'
+evidence: a live-tissue spatial transcriptomics platform based on encoded microneedle arrays that enables high-density spatial
+  RNA capture through poly(amidoamine) (PAMAM) dendrimer-functionalized interfaces and microfluidic orthogonal combinatorial
+  encoding

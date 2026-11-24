@@ -1,0 +1,29 @@
+name: LIFE-seq (living tissue)
+full_name: Living-tissue in situ nanoforest extraction for spatiotemporal transcriptomic mapping
+category: wet
+summary: 'Minimally invasive spatial transcriptomics of living tissue: nanoforest arrays sample RNA that is transferred onto
+  spatially barcoded capture chips, enabling longitudinal profiling of the same mouse.'
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- oligo-capture
+- spatial-barcode-array
+- reverse-transcription
+species:
+- mouse
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.64898/2026.11.13.766339
+  year: 2026
+  journal: bioRxiv
+  first_author: Wang W
+  last_author: Zhao X
+  title: 'LIFE-seq: longitudinal spatial transcriptomics of living tissue'
+links: {}
+added: '2026-11-21'
+evidence: combines high-density nanoforest arrays for molecular sampling with directed transfer onto spatially barcoded messenger
+  RNA (mRNA) capture chips

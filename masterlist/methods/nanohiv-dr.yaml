@@ -1,0 +1,19 @@
+name: NanoHIV-DR
+category: dry
+summary: Nextflow workflow for consensus and read-level HIV-1 drug-resistance genotyping from Oxford Nanopore data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.64898/2026.11.20.768148
+  year: 2026
+  journal: bioRxiv
+  first_author: Lule D
+  last_author: Tully DC
+  title: 'NanoHIV-DR: a Nextflow workflow for consensus and read level HIV-1 drug resistance profiling from Oxford Nanopore
+    sequencing'
+links: {}
+added: '2026-11-21'
+evidence: a Nextflow-based workflow that streamlines the analysis of Oxford Nanopore HIV-1 drug resistance data

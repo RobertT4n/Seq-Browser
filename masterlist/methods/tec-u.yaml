@@ -1,0 +1,21 @@
+name: TEC-U
+category: dry
+summary: Topology-entropy graph partitioning for TAD identification and single-cell clustering.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1016/j.csbj.2025.04.037
+  year: 2025
+  journal: Comput Struct Biotechnol J
+  first_author: Liang Q
+  last_author: Li SC
+  pmid: '40487196'
+  pmcid: PMC12141873
+  title: 'Topology entropy: Enhancing graph partitioning for TAD identification and single-cell clustering'
+links: {}
+added: '2026-11-21'
+evidence: two methods, TEC-O and TEC-U, for partitioning ordered and unordered biological graphs using topology entropy

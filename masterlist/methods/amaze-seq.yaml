@@ -1,0 +1,27 @@
+name: AMAZE-seq
+category: wet
+summary: 'Fine-scale Z-RNA profiling: a Z-alpha domain fused to APOBEC1 edits Z-RNA-forming regions, which are then read out
+  by sequencing.'
+readouts:
+- rna-structure
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- reverse-transcription
+species:
+- human
+validated_system:
+- cell-line
+- primary-cells
+reference:
+  doi: 10.1016/j.jgg.2026.11.006
+  year: 2026
+  journal: Journal of Genetics and Genomics
+  first_author: Xu H
+  last_author: Chen JY
+  title: Z-RNome profiling uncovers dysregulated Z-RNA with implications in systemic lupus erythematosus pathogenesis
+links: {}
+added: '2026-11-21'
+evidence: leverages the Zα domain for specific recognition of Z-RNA and a fused APOBEC1 enzyme to edit Z-RNA regions for subsequent
+  detection

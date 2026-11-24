@@ -1,0 +1,21 @@
+name: Eukfinder
+category: dry
+summary: Pipeline that retrieves microbial eukaryote genomes from shotgun metagenomes, with a complementary binning workflow.
+readouts:
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1128/mbio.00699-25
+  year: 2025
+  journal: mBio
+  first_author: Zhao D
+  last_author: Roger AJ
+  pmid: '40207938'
+  pmcid: PMC12077102
+  title: 'Eukfinder: a pipeline to retrieve microbial eukaryote genome sequences from metagenomic data'
+links: {}
+added: '2026-11-21'
+evidence: a bioinformatics pipeline that identifies potential eukaryotic sequences from WGS metagenomic data, with a complementary
+  binning workflow

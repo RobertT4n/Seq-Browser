@@ -1,0 +1,20 @@
+name: SpaJoint
+category: dry
+summary: Transfer-learning deconvolution of spatial transcriptomics spots using single-cell references.
+readouts:
+- rna
+resolution:
+- spatial
+scope: genome-wide
+reference:
+  doi: 10.1093/bib/bbag158
+  year: 2026
+  journal: Brief Bioinform
+  first_author: Li Z
+  last_author: Xu X
+  pmid: '41955028'
+  pmcid: PMC13069903
+  title: 'SpaJoint: a transfer learning method for spatial transcriptomics deconvolution'
+links: {}
+added: '2026-11-21'
+evidence: a deconvolution method based on transfer learning that integrates gene expression derived from single-cell data

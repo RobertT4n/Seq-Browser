@@ -1,0 +1,21 @@
+name: scMGCL
+category: dry
+summary: Graph contrastive learning that integrates scATAC-seq and scRNA-seq via cross-modality cell similarity graphs.
+readouts:
+- rna
+- chromatin-accessibility
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaf392
+  year: 2025
+  journal: Bioinformatics
+  first_author: Cheng Z
+  last_author: Zhang S
+  pmid: '40632608'
+  pmcid: PMC12308176
+  title: 'scMGCL: accurate and efficient integration representation of single-cell multi-omics data'
+links: {}
+added: '2026-11-21'
+evidence: a graph contrastive learning framework for robust integration of single-cell ATAC-seq and RNA-seq data

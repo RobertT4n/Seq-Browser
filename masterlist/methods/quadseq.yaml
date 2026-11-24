@@ -1,0 +1,23 @@
+name: QuadSeq
+category: wet
+summary: Duplicated-duplex DNA synthesis that turns a linear amplicon into a molecule with two forward and two reverse copies,
+  giving intramolecular consensus nanopore reads up to Q31 without circularisation.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: targeted
+chemistry:
+- long-read-sequencing
+- amplicon-pcr
+reference:
+  doi: 10.64898/2026.11.17.767292
+  year: 2026
+  journal: bioRxiv
+  first_author: Waneskog
+  last_author: E
+  title: 'QuadSeq: A duplicated-duplex DNA-synthesis technology for high-fidelity nanopore sequencing of linear DNA amplicons'
+links: {}
+added: '2026-11-21'
+evidence: a three-step DNA-synthesis technology that can convert linear DNA amplicons into duplicated DNA duplexes that encode
+  two forward and two reverse strand copies of a sequence-of-interest

@@ -1,0 +1,20 @@
+name: scGAMNN
+category: dry
+summary: Graph-autoencoder integration of scRNA-seq datasets using mutual nearest neighbors for batch correction.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1109/jbhi.2023.3311340
+  year: 2023
+  journal: IEEE J Biomed Health Inform
+  first_author: Zhang B
+  last_author: Gao J
+  pmid: '37656653'
+  title: 'scGAMNN: Graph Antoencoder-Based Single-Cell RNA Sequencing Data Integration Algorithm Using Mutual Nearest Neighbors'
+links: {}
+added: '2026-11-21'
+evidence: a deep learning model based on graph autoencoder to simultaneously achieve batch correction and topology-preserving
+  dimensionality reduction
