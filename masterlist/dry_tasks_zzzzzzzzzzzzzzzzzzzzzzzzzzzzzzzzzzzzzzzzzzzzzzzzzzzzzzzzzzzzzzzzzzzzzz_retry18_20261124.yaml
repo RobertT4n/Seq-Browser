@@ -1,0 +1,88 @@
+airvf:
+- variants-clones
+- preprocessing-qc
+args-oap:
+- metagenomics-taxonomy
+- sequence-to-function
+bayespi-bar2:
+- variants-clones
+- sequence-to-function
+clinker:
+- variants-clones
+- genome-visualization
+cnvem:
+- variants-clones
+concur:
+- transcript-quantification
+deepebv:
+- sequence-to-function
+- variants-clones
+degnorm:
+- preprocessing-qc
+- differential-analysis
+diego:
+- differential-analysis
+- transcript-quantification
+earrings:
+- preprocessing-qc
+graphbin:
+- metagenomics-taxonomy
+- genome-assembly
+icopydav:
+- variants-clones
+- genome-visualization
+meirlop:
+- regulatory-networks
+- sequence-to-function
+microbiomeexplorer:
+- metagenomics-taxonomy
+- genome-visualization
+miniscrub:
+- preprocessing-qc
+- genome-assembly
+mirdeep:
+- transcript-quantification
+mirmod:
+- transcript-quantification
+- modification-calling
+mutspot:
+- variants-clones
+ngs-plot:
+- genome-visualization
+- peak-calling-signal
+parallel-meta-2-0:
+- metagenomics-taxonomy
+- sequence-to-function
+pear:
+- preprocessing-qc
+pesv-fisher:
+- variants-clones
+quasr:
+- preprocessing-qc
+- transcript-quantification
+ribotagger:
+- metagenomics-taxonomy
+ritornello:
+- peak-calling-signal
+rna-code:
+- transcript-quantification
+- sequence-to-function
+rnaseqgui:
+- differential-analysis
+sdimpute:
+- preprocessing-qc
+shimmer:
+- variants-clones
+simlord:
+- benchmark-infrastructure
+simuscop:
+- benchmark-infrastructure
+timesvector:
+- clustering-annotation
+- differential-analysis
+uicpc:
+- clustering-annotation
+vechat:
+- preprocessing-qc
+vef:
+- variants-clones
