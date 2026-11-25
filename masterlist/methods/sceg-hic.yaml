@@ -1,0 +1,22 @@
+name: SCEG-HiC
+category: dry
+summary: Predicts enhancer-gene links from single-cell multi-omics data integrating chromatin interaction information.
+readouts:
+- chromatin-accessibility
+- rna
+- 3d-genome
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1093/nar/gkag437
+  year: 2026
+  journal: Nucleic Acids Res
+  first_author: Liang X
+  last_author: Wang Z
+  pmid: '42100854'
+  pmcid: PMC13229940
+  title: Predicting enhancer-gene links from single-cell multi-omics data by integrating prior Hi-C information
+links: {}
+added: '2026-11-21'
+evidence: Predicting enhancer-gene links from single-cell multi-omics data by integrating prior Hi-C information.
