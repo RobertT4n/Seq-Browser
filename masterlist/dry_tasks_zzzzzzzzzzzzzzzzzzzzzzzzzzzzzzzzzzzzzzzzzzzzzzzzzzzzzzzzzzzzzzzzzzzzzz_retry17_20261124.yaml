@@ -1,0 +1,84 @@
+abpoa:
+- read-alignment
+- preprocessing-qc
+afterqc:
+- preprocessing-qc
+astarix:
+- read-alignment
+boost-hic:
+- 3d-genome-analysis
+- preprocessing-qc
+clinqc:
+- preprocessing-qc
+denovocnn:
+- variants-clones
+diffgr:
+- 3d-genome-analysis
+- differential-analysis
+divis:
+- variants-clones
+ervcaller:
+- variants-clones
+exutr:
+- transcript-quantification
+fbb:
+- read-alignment
+frogs:
+- metagenomics-taxonomy
+gphase:
+- population-genetics
+- variants-clones
+halvade:
+- read-alignment
+- variants-clones
+hicenterprise:
+- 3d-genome-analysis
+immquant:
+- clustering-annotation
+itd-assembler:
+- variants-clones
+karyoploter:
+- genome-visualization
+linkimputer:
+- variants-clones
+- population-genetics
+metacell:
+- clustering-annotation
+- dimensionality-visualization
+mirnovo:
+- transcript-quantification
+- phenotype-prediction
+nrgc:
+- preprocessing-qc
+paprbag:
+- metagenomics-taxonomy
+- phenotype-prediction
+parallel-meta-3:
+- metagenomics-taxonomy
+- sequence-to-function
+pathofact:
+- metagenomics-taxonomy
+- sequence-to-function
+seroba:
+- variants-clones
+- phenotype-prediction
+siomics:
+- peak-calling-signal
+- regulatory-networks
+sonar:
+- variants-clones
+- clustering-annotation
+tempora:
+- dimensionality-visualization
+- clustering-annotation
+time:
+- genome-assembly
+ultraplex:
+- preprocessing-qc
+vcf-explorer:
+- variants-clones
+vcfshark:
+- preprocessing-qc
+vulcan:
+- read-alignment
+- variants-clones
