@@ -1,0 +1,19 @@
+name: ReadBouncer
+category: dry
+summary: Adaptive sampling for nanopore sequencing that rejects off-target molecules from individual pores.
+readouts:
+- genome-sequence
+- microbial-composition
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1101/2022.02.01.478636
+  year: 2022
+  journal: bioRxiv
+  first_author: Ulrich J
+  last_author: Renard BY
+  title: 'ReadBouncer: Precise and Scalable Adaptive Sampling for Nanopore Sequencing'
+links: {}
+added: '2026-11-21'
+evidence: 'ReadBouncer: Precise and Scalable Adaptive Sampling for Nanopore Sequencing'

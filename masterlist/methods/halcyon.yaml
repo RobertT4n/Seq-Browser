@@ -1,0 +1,20 @@
+name: Halcyon
+category: dry
+summary: Basecaller for nanopore sequencing using an encoder-decoder model with monotonic attention.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btaa953
+  year: 2021
+  journal: Bioinformatics
+  first_author: Konishi H
+  last_author: Imoto S
+  pmid: '33165508'
+  pmcid: PMC8189681
+  title: 'Halcyon: an accurate basecaller exploiting an encoder-decoder model with monotonic attention'
+links: {}
+added: '2026-11-21'
+evidence: 'Halcyon: an accurate basecaller exploiting an encoder-decoder model with monotonic attention.'

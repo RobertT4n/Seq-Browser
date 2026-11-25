@@ -83,10 +83,11 @@ const searchText = m => [m.name, m.full_name, m.aliases, m.summary, m.title, m.f
 // Search is by WORD START, not substring: "nome" must not hit "genome", and "nome-seq" must not hit "genome-sequence" (2026-11-24, NOMe-seq was buried under 638 such rows).
 // Hyphens/dots/case are ignored ("NOMe-seq" = "nome seq"), and a name also matches with its separators dropped ("nomeseq", "chipseq" find ChIP-seq).
 const norm = s => String(s ?? "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-const wordTails = s => { const w = norm(s).split(" ").filter(Boolean); return w.map((_, i) => w.slice(i).join("")); };   // "nano nome seq" -> nanonomeseq, nomeseq, seq
+// Names are also split at camelCase joins, so a glued prefix does not hide the part people search for: iNOMe-seq, cfNOMe, nanoNOMe, scATAC-seq, snRNA-seq all expose "nome"/"atac"/"rna".
+const wordTails = s => { const w = norm(String(s ?? "").replace(/([a-z])([A-Z])/g, "$1 $2")).split(" ").filter(Boolean); return w.map((_, i) => w.slice(i).join("")); };   // "nano NOMe seq" -> nanonomeseq, nomeseq, seq
 let _qs = null, _qt = [];   // search terms are split once per query, not once per row
 const searchMatches = (m, q) => { if (q !== _qs) { _qs = q; _qt = q.trim().split(/\s+/).map(t => [norm(t), norm(t).replace(/ /g, "")]).filter(t => t[0]); }
-  return _qt.every(([t, c]) => m._search.includes(" " + t) || (c.length >= 3 && m._tails.some(n => n.startsWith(c))) || (t === "atac" && split(m.readouts).includes("chromatin-accessibility"))); };
+  return _qt.every(([t, c]) => m._search.includes(" " + t) || (c.length >= 3 && m._tails.some(n => n.startsWith(c))) || m._ntails[0] === c || (t === "atac" && split(m.readouts).includes("chromatin-accessibility"))); };
 // Relevance when a search is typed (default A-Z order only): name equals query < name starts with it < a word of the name starts with it < alias/full name < other fields.
 const relevance = (m, c) => { if (!c) return 0; const n = m._ntails; if (n[0] === c) return 0; if (n[0].startsWith(c)) return 1; if (n.some(x => x.startsWith(c))) return 2; if (n[0].includes(c)) return 3; if (m._tails.some(x => x.startsWith(c))) return 4; return 5; };
 const hasTag = (m, k, v) => ((m._c ||= {})[k] ||= split(m[k])).some(t => t === v || SAME[t] === v || SAME[v] === t || PARENT[t] === v);   // per-row split cached: the live option counts call this ~1M times per keystroke
@@ -136,6 +137,9 @@ function render() {
   const has = hasTag;
   const pass = (m, xk, xv) => FACETS.every(([k]) => (k === "scope" ? scopeMatches(m.scope, on[k], k === xk ? xv : null) : [...on[k]].every(v => has(m, k, v))) && (k !== xk || k === "scope" || has(m, k, xv))) && m._sq;
   for (const m of data) m._sq = searchMatches(m, q);   // search match computed once per row per render, reused by every option count below
+  // Safety net: if the strict (word-start) search finds fewer than 5 rows, also accept the query anywhere inside a method NAME or alias
+  // (e.g. a lower-case "digenome-seq" for "genome"), ranked last. Strict results stay clean whenever there are enough of them.
+  if (q && data.reduce((n, m) => n + m._sq, 0) < 5) { const toks = q.split(/\s+/).map(t => norm(t).replace(/ /g, "")).filter(Boolean); for (const m of data) if (!m._sq) m._sq = toks.every(c => c.length >= 3 && m._tails.some(x => x.includes(c))); }
   const kind = document.getElementById("kind").value, dryOn = kind !== "wet", pool = data.filter(m => kind === "all" || m.category === (kind === "dry" ? "dry" : "wet"));
   document.getElementById("betab").hidden = kind !== "dry"; document.getElementById("chemhead").textContent = kind === "dry" ? "Task" : kind === "all" ? "Chemistry/barcoding/task" : "Chemistry/barcoding";   // the beta bubble belongs to the computational view only
   if (!dryOn && on.task.size) { on.task.clear(); document.querySelectorAll('#facets input[data-k="task"]').forEach(b => b.checked = false); }
