@@ -77,6 +77,8 @@ resolution:
   - bulk
   - single-cell
   - spatial
+  - spatial-imaging     # sub-filter of spatial: positions come from optical imaging; molecules decoded in situ (MERFISH, seqFISH, chromatin tracing, MINA, ISS/FISSEQ, CODEX)
+  - spatial-barcoded    # sub-filter of spatial: positions come from molecular tagging (barcoded array/beads/microfluidics/photo-tags), then sequencing (Visium, Slide-seq, DBiT-seq, Slide-tags)
   - subcellular
   - single-molecule   # each read is one molecule held in place or tracked (SPIN-Seq)
 

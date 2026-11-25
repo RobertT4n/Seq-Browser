@@ -1,0 +1,30 @@
+name: microDBiT
+category: wet
+summary: Spatial transcriptomics platform that profiles host and bacterial RNA, including mRNA and rRNA, together in tissue
+  sections such as the mouse gut.
+readouts:
+- rna
+- microbial-composition
+resolution:
+- spatial
+scope: genome-wide
+chemistry:
+- microfluidic-chip
+- reverse-transcription
+validated_system:
+- tissue-in-vivo
+reference:
+  doi: 10.1038/s41467-026-78852-8
+  year: 2026
+  journal: Nat Commun
+  first_author: Tao B
+  last_author: Liu Y
+  pmid: '43052278'
+  pmcid: PMC13782489
+  title: Spatially resolved host and microbiota RNA profiling in the mouse gut using microDBiT
+links: {}
+added: '2026-11-25'
+evidence: microDBiT, a spatial transcriptomic platform that enables simultaneous, high-resolution profiling of host and bacterial
+  RNAs, including both mRNA and rRNA
+variant_of:
+- dbit-seq

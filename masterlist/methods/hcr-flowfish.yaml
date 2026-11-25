@@ -1,0 +1,28 @@
+name: HCR-FlowFISH
+full_name: hybridization chain reaction fluorescent in situ hybridization coupled with flow cytometry
+category: wet
+summary: CRISPR screening readout that quantifies native transcripts in their endogenous loci by HCR-FISH and flow sorting
+  after perturbing regulatory elements, to map cis-regulatory elements to target genes.
+readouts:
+- rna
+resolution:
+- bulk
+scope: targeted
+perturbation:
+- crispr-interference
+chemistry:
+- in-situ-hybridization
+- facs-sorting
+validated_system:
+- cell-line
+reference:
+  doi: 10.1101/2020.05.11.078675
+  year: 2020
+  journal: bioRxiv
+  first_author: Reilly S
+  last_author: Tewhey R
+  title: 'HCR-FlowFISH: A flexible CRISPR screening method to identify cis-regulatory elements and their target genes'
+links: {}
+added: '2026-11-25'
+evidence: HCR-FlowFISH (Hybridization Chain Reaction Fluorescent In-Situ Hybridization coupled with Flow Cytometry), which
+  directly quantifies native transcripts within their endogenous loci following CRISPR perturbations of regulatory elements
