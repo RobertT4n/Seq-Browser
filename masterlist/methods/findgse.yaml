@@ -1,0 +1,19 @@
+name: findGSE
+category: dry
+summary: Estimates genome size variation from k-mer frequencies in whole-genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btx637
+  year: 2018
+  journal: Bioinformatics
+  first_author: Sun H
+  last_author: Schneeberger K
+  pmid: '29444236'
+  title: 'findGSE: estimating genome size variation within human and Arabidopsis using k-mer frequencies'
+links: {}
+added: '2026-11-21'
+evidence: 'findGSE: estimating genome size variation within human and Arabidopsis using k-mer frequencies.'
