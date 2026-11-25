@@ -1,0 +1,20 @@
+name: BAMixChecker
+category: dry
+summary: Automated check of matched sample pairs in NGS cohorts to detect mislabeling.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btz479
+  year: 2019
+  journal: Bioinformatics
+  first_author: Chun H
+  last_author: Kim S
+  pmid: '31197312'
+  pmcid: PMC6853765
+  title: 'BAMixChecker: an automated checkup tool for matched sample pairs in NGS cohort'
+links: {}
+added: '2026-11-21'
+evidence: 'BAMixChecker: an automated checkup tool for matched sample pairs in NGS cohort.'
