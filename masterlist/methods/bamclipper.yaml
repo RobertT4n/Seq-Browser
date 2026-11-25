@@ -1,0 +1,20 @@
+name: BAMClipper
+category: dry
+summary: Removes primers from alignments to minimise false-negative mutations in amplicon sequencing.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1038/s41598-017-01703-6
+  year: 2017
+  journal: Sci Rep
+  first_author: Au CH
+  last_author: Ma ESK
+  pmid: '28484262'
+  pmcid: PMC5431517
+  title: 'BAMClipper: removing primers from alignments to minimize false-negative mutations in amplicon next-generation sequencing'
+links: {}
+added: '2026-11-21'
+evidence: 'BAMClipper: removing primers from alignments to minimize false-negative mutations in amplicon next-generation sequencing.'
