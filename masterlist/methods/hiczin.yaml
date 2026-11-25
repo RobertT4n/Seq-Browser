@@ -1,0 +1,23 @@
+name: HiCzin
+category: dry
+summary: Normalises metagenomic Hi-C data and detects spurious contacts with a zero-inflated negative binomial model.
+readouts:
+- 3d-genome
+- microbial-composition
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1089/cmb.2021.0439
+  year: 2022
+  journal: J Comput Biol
+  first_author: Du Y
+  last_author: Sun F
+  pmid: '35020412'
+  pmcid: PMC8892984
+  title: Normalizing Metagenomic Hi-C Data and Detecting Spurious Contacts Using Zero-Inflated Negative Binomial Regression
+  preprint_doi: 10.1101/2021.03.01.433489
+links: {}
+added: '2026-11-21'
+evidence: 'HiCzin: Normalizing metagenomic Hi-C data and detecting spurious contacts using zero-inflated negative binomial
+  regression'

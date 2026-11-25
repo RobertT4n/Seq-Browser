@@ -1,0 +1,19 @@
+name: LR-DNase
+category: dry
+summary: Predicts transcription factor binding from DNase-seq data with logistic regression.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1101/082594
+  year: 2016
+  journal: bioRxiv
+  first_author: van der Velde A
+  last_author: Weng Z
+  title: 'LR-DNase: Predicting TF binding from DNase-seq data'
+links: {}
+added: '2026-11-21'
+evidence: 'LR-DNase: Predicting TF binding from DNase-seq data'

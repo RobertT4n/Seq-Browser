@@ -1,0 +1,21 @@
+name: SMARTcleaner
+category: dry
+summary: Identifies and cleans off-target signals in SMART ChIP-seq data.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-018-2577-4
+  year: 2018
+  journal: BMC Bioinformatics
+  first_author: Zhao D
+  last_author: Zheng D
+  pmid: '30587107'
+  pmcid: PMC6307164
+  title: 'SMARTcleaner: identify and clean off-target signals in SMART ChIP-seq analysis'
+links: {}
+added: '2026-11-21'
+evidence: 'SMARTcleaner: identify and clean off-target signals in SMART ChIP-seq analysis.'

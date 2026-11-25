@@ -1,0 +1,21 @@
+name: OCRDetector
+category: dry
+summary: Detects open chromatin regions from plasma cell-free DNA sequencing data.
+readouts:
+- chromatin-accessibility
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3390/ijms22115802
+  year: 2021
+  journal: Int J Mol Sci
+  first_author: Wang J
+  last_author: Zheng T
+  pmid: '34071577'
+  pmcid: PMC8198695
+  title: 'OCRDetector: Accurately Detecting Open Chromatin Regions via Plasma Cell-Free DNA Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: 'OCRDetector: Accurately Detecting Open Chromatin Regions via Plasma Cell-Free DNA Sequencing Data.'

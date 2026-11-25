@@ -1,0 +1,24 @@
+name: msCentipede
+category: dry
+summary: Models heterogeneity across genomic sites to infer transcription factor binding from accessibility data.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0138030
+  year: 2015
+  journal: PLoS One
+  first_author: Raj A
+  last_author: Stephens M
+  pmid: '26406244'
+  pmcid: PMC4583425
+  title: 'msCentipede: Modeling Heterogeneity across Genomic Sites and Replicates Improves Accuracy in the Inference of Transcription
+    Factor Binding'
+  preprint_doi: 10.1101/012013
+links: {}
+added: '2026-11-21'
+evidence: 'msCentipede: Modeling heterogeneity across genomic sites improves accuracy in the inference of transcription factor
+  binding'
