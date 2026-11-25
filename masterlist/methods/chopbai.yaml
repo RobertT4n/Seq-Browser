@@ -1,0 +1,19 @@
+name: chopBAI
+category: dry
+summary: BAM index reduction that removes I/O bottlenecks in joint analysis of large sequencing cohorts.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btw149
+  year: 2016
+  journal: Bioinformatics
+  first_author: Kehr B
+  last_author: Melsted P
+  pmid: '27153590'
+  title: 'chopBAI: BAM index reduction solves I/O bottlenecks in the joint analysis of large sequencing cohorts'
+links: {}
+added: '2026-11-21'
+evidence: 'chopBAI: BAM index reduction solves I/O bottlenecks in the joint analysis of large sequencing cohorts.'
