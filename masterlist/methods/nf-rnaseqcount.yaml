@@ -1,0 +1,20 @@
+name: nf-rnaSeqCount
+category: dry
+summary: Nextflow pipeline for obtaining raw read counts from RNA-seq data.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.18489/sacj.v33i2.830
+  year: 2021
+  journal: S Afr Comput J
+  first_author: Mpangase PT
+  last_author: Hazelhurst S
+  pmid: '35574063'
+  pmcid: PMC9097006
+  title: 'nf-rnaSeqCount: A Nextflow pipeline for obtaining raw read counts from RNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: 'nf-rnaSeqCount: A Nextflow pipeline for obtaining raw read counts from RNA-seq data.'

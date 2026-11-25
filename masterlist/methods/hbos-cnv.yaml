@@ -1,0 +1,20 @@
+name: HBOS-CNV
+category: dry
+summary: Detects copy number variations from next-generation sequencing data with a histogram-based outlier score.
+readouts:
+- genome-sequence
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.3389/fgene.2021.642473
+  year: 2021
+  journal: Front Genet
+  first_author: Guo Y
+  last_author: Yuan X
+  pmid: '34163521'
+  pmcid: PMC8215577
+  title: 'HBOS-CNV: A New Approach to Detect Copy Number Variations From Next-Generation Sequencing Data'
+links: {}
+added: '2026-11-21'
+evidence: 'HBOS-CNV: A New Approach to Detect Copy Number Variations From Next-Generation Sequencing Data.'
