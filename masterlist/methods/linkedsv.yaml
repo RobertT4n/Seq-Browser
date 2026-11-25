@@ -1,0 +1,21 @@
+name: LinkedSV
+category: dry
+summary: Detects mosaic structural variants from linked-read exome and genome sequencing data.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1038/s41467-019-13397-7
+  year: 2019
+  journal: Nat Commun
+  first_author: Fang L
+  last_author: Wang K
+  pmid: '31811119'
+  pmcid: PMC6898185
+  title: LinkedSV for detection of mosaic structural variants from linked-read exome and genome sequencing data
+  preprint_doi: 10.1101/409789
+links: {}
+added: '2026-11-21'
+evidence: 'LinkedSV: Detection of mosaic structural variants from linked-read exome and genome sequencing data'

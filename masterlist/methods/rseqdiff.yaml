@@ -1,0 +1,20 @@
+name: rSeqDiff
+category: dry
+summary: Detects differential isoform expression from RNA-seq data using hierarchical likelihood.
+readouts:
+- rna
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1371/journal.pone.0079448
+  year: 2013
+  journal: PLoS One
+  first_author: Shi Y
+  last_author: Jiang H
+  pmid: '24260225'
+  pmcid: PMC3832546
+  title: 'rSeqDiff: detecting differential isoform expression from RNA-Seq data using hierarchical likelihood ratio test'
+links: {}
+added: '2026-11-21'
+evidence: 'rSeqDiff: detecting differential isoform expression from RNA-Seq data using hierarchical likelihood ratio test.'

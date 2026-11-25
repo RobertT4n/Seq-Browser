@@ -1,0 +1,81 @@
+bcftools-csq:
+- variants-clones
+breaknet:
+- variants-clones
+consult:
+- preprocessing-qc
+deepcape:
+- sequence-to-function
+deeplasmid:
+- genome-assembly
+- sequence-to-function
+diffreps:
+- differential-analysis
+- peak-calling-signal
+epialign:
+- differential-analysis
+- sequence-to-function
+ergc:
+- preprocessing-qc
+fastmitocalc:
+- variants-clones
+gappadder:
+- genome-assembly
+geneqc:
+- preprocessing-qc
+- transcript-quantification
+ggsashimi:
+- genome-visualization
+linflow:
+- population-genetics
+- metagenomics-taxonomy
+linkedsv:
+- variants-clones
+metadegalaxy:
+- metagenomics-taxonomy
+- differential-analysis
+metagen:
+- metagenomics-taxonomy
+mirge-2-0:
+- transcript-quantification
+- preprocessing-qc
+moccs:
+- regulatory-networks
+- sequence-to-function
+msclust:
+- metagenomics-taxonomy
+neuralpolish:
+- preprocessing-qc
+- genome-assembly
+perga:
+- genome-assembly
+pipeliner:
+- preprocessing-qc
+plasforest:
+- genome-assembly
+- sequence-to-function
+ranomaly:
+- metagenomics-taxonomy
+rmats:
+- differential-analysis
+- transcript-quantification
+rna-skim:
+- transcript-quantification
+rseqdiff:
+- differential-analysis
+- transcript-quantification
+scamace:
+- integration
+- clustering-annotation
+scask:
+- clustering-annotation
+scdesign2:
+- benchmark-infrastructure
+scshapes:
+- differential-analysis
+scsnv:
+- variants-clones
+titan:
+- variants-clones
+treesapp:
+- metagenomics-taxonomy

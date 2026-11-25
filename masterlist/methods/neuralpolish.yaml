@@ -1,0 +1,19 @@
+name: NeuralPolish
+category: dry
+summary: Nanopore polishing using alignment matrix construction and orthogonal-style neural networks.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1093/bioinformatics/btab354
+  year: 2021
+  journal: Bioinformatics
+  first_author: Huang N
+  last_author: Wang J
+  pmid: '33973998'
+  title: 'NeuralPolish: a novel Nanopore polishing method based on alignment matrix construction and orthogonal Bi-GRU Networks'
+links: {}
+added: '2026-11-21'
+evidence: 'NeuralPolish: a novel Nanopore polishing method based on alignment matrix construction and orthogonal Bi-GRU Networks.'

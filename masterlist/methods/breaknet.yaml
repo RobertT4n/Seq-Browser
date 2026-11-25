@@ -1,0 +1,20 @@
+name: BreakNet
+category: dry
+summary: Detects deletions from long reads with a deep-learning approach.
+readouts:
+- genome-sequence
+resolution:
+- single-molecule
+scope: genome-wide
+reference:
+  doi: 10.1186/s12859-021-04499-5
+  year: 2021
+  journal: BMC Bioinformatics
+  first_author: Luo J
+  last_author: Luo H
+  pmid: '34856923'
+  pmcid: PMC8641175
+  title: 'BreakNet: detecting deletions using long reads and a deep learning approach'
+links: {}
+added: '2026-11-21'
+evidence: 'BreakNet: detecting deletions using long reads and a deep learning approach.'
