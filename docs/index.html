@@ -80,8 +80,15 @@ const split = s => (s || "").split("; ").filter(Boolean);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 // Each search word may occur in a different field. ATAC is also a common name for the accessibility readout.
 const searchText = m => [m.name, m.full_name, m.aliases, m.summary, m.title, m.first_author, m.last_author, m.doi, m.accession, m.readouts, m.resolution, m.chemistry, m.perturbation, m.temporal, m.scope, m.platform, m.task].join(" ").toLowerCase();
+// Search is by WORD START, not substring: "nome" must not hit "genome", and "nome-seq" must not hit "genome-sequence" (2026-11-24, NOMe-seq was buried under 638 such rows).
+// Hyphens/dots/case are ignored ("NOMe-seq" = "nome seq"), and a name also matches with its separators dropped ("nomeseq", "chipseq" find ChIP-seq).
+const norm = s => String(s ?? "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+const wordTails = s => { const w = norm(s).split(" ").filter(Boolean); return w.map((_, i) => w.slice(i).join("")); };   // "nano nome seq" -> nanonomeseq, nomeseq, seq
 let _qs = null, _qt = [];   // search terms are split once per query, not once per row
-const searchMatches = (m, q) => { if (q !== _qs) { _qs = q; _qt = q.trim().toLowerCase().split(/\s+/).filter(Boolean); } return _qt.every(t => m._search.includes(t) || (t === "atac" && split(m.readouts).includes("chromatin-accessibility"))); };
+const searchMatches = (m, q) => { if (q !== _qs) { _qs = q; _qt = q.trim().split(/\s+/).map(t => [norm(t), norm(t).replace(/ /g, "")]).filter(t => t[0]); }
+  return _qt.every(([t, c]) => m._search.includes(" " + t) || (c.length >= 3 && m._tails.some(n => n.startsWith(c))) || (t === "atac" && split(m.readouts).includes("chromatin-accessibility"))); };
+// Relevance when a search is typed (default A-Z order only): name equals query < name starts with it < a word of the name starts with it < alias/full name < other fields.
+const relevance = (m, c) => { if (!c) return 0; const n = m._ntails; if (n[0] === c) return 0; if (n[0].startsWith(c)) return 1; if (n.some(x => x.startsWith(c))) return 2; if (n[0].includes(c)) return 3; if (m._tails.some(x => x.startsWith(c))) return 4; return 5; };
 const hasTag = (m, k, v) => ((m._c ||= {})[k] ||= split(m[k])).some(t => t === v || SAME[t] === v || SAME[v] === t || PARENT[t] === v);   // per-row split cached: the live option counts call this ~1M times per keystroke
 const baseCount = {};   // number of rows carrying each option (independent of search), cached per Show setting
 const scopeMatches = (scope, selected, candidate) => (!selected.size && candidate == null) || selected.has(scope) || (candidate != null && scope === candidate);
@@ -90,7 +97,7 @@ const PAGE = 100; let limit = PAGE, viewKey = "";   // table shows the first 100
 
 fetch("methods.json", {cache: "no-cache"}).then(r => r.json()).then(j => {
   data = j.methods; window._upd = j.updated; { const u = document.getElementById("upd"); if (u && j.updated) u.textContent = "Last updated " + j.updated + ". Entries are found by automated paper scans, then classified and curated; each one links to its source paper."; }   // wet and dry; the "Include computational tools" switch decides what is shown
-  data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); m._search = searchText(m); });
+  data.forEach(m => { const c = split(m.chemistry); m._bar = c.filter(t => PART.has(t)).join("; "); m._chem = c.filter(t => !PART.has(t)).join("; "); m._search = " " + norm(searchText(m)) + " "; m._ntails = wordTails(m.name); m._tails = [...m._ntails, ...(m.aliases || "").split("; ").flatMap(wordTails), ...wordTails(m.full_name)]; });
   FACETS.forEach(([k]) => on[k] = new Set());
   const LAB = Object.fromEntries(FACETS);
   document.getElementById("facets").innerHTML = DDS.map((d, i) => {
@@ -145,7 +152,10 @@ function render() {
   const val = m => sortKey === "name" ? m.name.toLowerCase() : (m[sortKey] ?? -1);
   const cmp = (x, y) => (x < y ? -1 : x > y ? 1 : 0);
   // Year: newest first by publication date within a year (entries without a date follow, A-Z); ties on the other keys fall back to A-Z
+  const qc = norm(q).replace(/ /g, ""), byRel = !!qc && sortKey === "name" && sortDir === "asc";   // typed search + default order: best name match first
+  if (byRel) for (const m of rows) m._rel = relevance(m, qc);
   rows.sort((a, b) => {
+    if (byRel && a._rel !== b._rel) return a._rel - b._rel;
     const s = cmp(val(a), val(b)) * (sortDir === "asc" ? 1 : -1);
     if (s || sortKey === "name") return s;
     if (sortKey === "year") { const d = cmp(b.date || "", a.date || "") * (sortDir === "desc" ? 1 : -1); if (d) return d; }
