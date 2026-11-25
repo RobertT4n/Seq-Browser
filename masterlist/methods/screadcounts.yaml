@@ -1,0 +1,20 @@
+name: SCReadCounts
+category: dry
+summary: Estimates cell-level SNV expression from scRNA-seq data.
+readouts:
+- rna
+resolution:
+- single-cell
+scope: genome-wide
+reference:
+  doi: 10.1186/s12864-021-07974-8
+  year: 2021
+  journal: BMC Genomics
+  first_author: Prashant NM
+  last_author: Horvath A
+  pmid: '34551708'
+  pmcid: PMC8459565
+  title: 'SCReadCounts: estimation of cell-level SNVs expression from scRNA-seq data'
+links: {}
+added: '2026-11-21'
+evidence: 'SCReadCounts: estimation of cell-level SNVs expression from scRNA-seq data.'
