@@ -1,0 +1,21 @@
+name: NEXT-peak
+category: dry
+summary: Normal-exponential two-peak model for ChIP-seq peak calling.
+readouts:
+- protein-dna-binding
+- histone-modification
+resolution:
+- bulk
+scope: genome-wide
+reference:
+  doi: 10.1186/1471-2164-14-349
+  year: 2013
+  journal: BMC Genomics
+  first_author: Kim NK
+  last_author: Spouge JL
+  pmid: '23706083'
+  pmcid: PMC3672025
+  title: 'NEXT-peak: a normal-exponential two-peak model for peak-calling in ChIP-seq data'
+links: {}
+added: '2026-11-21'
+evidence: 'NEXT-peak: a normal-exponential two-peak model for peak-calling in ChIP-seq data.'

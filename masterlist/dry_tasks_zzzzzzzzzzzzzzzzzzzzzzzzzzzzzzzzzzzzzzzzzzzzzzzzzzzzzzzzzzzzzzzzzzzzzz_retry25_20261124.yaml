@@ -1,0 +1,79 @@
+asgart:
+- genome-assembly
+- variants-clones
+bamtocov:
+- preprocessing-qc
+baseplayer:
+- variants-clones
+beetl-fastq:
+- preprocessing-qc
+binny:
+- metagenomics-taxonomy
+- genome-assembly
+branch:
+- genome-assembly
+- transcript-quantification
+cancerdiscover:
+- phenotype-prediction
+cnefinder:
+- population-genetics
+- sequence-to-function
+desingle:
+- differential-analysis
+devicnv:
+- variants-clones
+- genome-visualization
+ecc-finder:
+- variants-clones
+epga2:
+- genome-assembly
+gapreduce:
+- genome-assembly
+hierfit:
+- clustering-annotation
+hippie:
+- 3d-genome-analysis
+- regulatory-networks
+imsa:
+- metagenomics-taxonomy
+lncrna-screen:
+- transcript-quantification
+- phenotype-prediction
+mmannot:
+- transcript-quantification
+- preprocessing-qc
+nanogalaxy:
+- genome-assembly
+- preprocessing-qc
+nanook:
+- read-alignment
+- preprocessing-qc
+next-peak:
+- peak-calling-signal
+novoplasty:
+- genome-assembly
+optifit:
+- metagenomics-taxonomy
+repdenovo:
+- genome-assembly
+resseq:
+- read-alignment
+scbert:
+- clustering-annotation
+sincell:
+- dimensionality-visualization
+- clustering-annotation
+t-lex3:
+- variants-clones
+- population-genetics
+umi-tools:
+- preprocessing-qc
+vcf-miner:
+- variants-clones
+velosim:
+- benchmark-infrastructure
+viramp:
+- genome-assembly
+vizbin:
+- metagenomics-taxonomy
+- genome-visualization
