@@ -1,0 +1,29 @@
+name: HiPore-C
+full_name: High-throughput Pore-C
+category: wet
+summary: Pore-C optimised for throughput and low input; nanopore reads of ligated concatemers give single-allele multiway
+  contact topology.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+- single-molecule
+scope: genome-wide
+chemistry:
+- restriction-digest
+- proximity-ligation
+- long-read-sequencing
+variant_of:
+- pore-c
+reference:
+  doi: 10.1038/s41467-023-36899-x
+  year: 2023
+  journal: Nat Commun
+  first_author: Zhong JY
+  last_author: Xiao CL
+  pmid: '36878904'
+  pmcid: PMC9988853
+  title: High-throughput Pore-C reveals the single-allele topology and cell type-specificity of 3D genome folding
+links: {}
+added: '2026-11-27'
+evidence: High-throughput Pore-C reveals the single-allele topology and cell type-specificity of 3D genome folding

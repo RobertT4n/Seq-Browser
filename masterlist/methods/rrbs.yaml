@@ -1,0 +1,29 @@
+name: RRBS
+full_name: Reduced representation bisulfite sequencing
+category: wet
+summary: Restriction-enzyme (MspI) digestion enriches CpG-rich fragments before bisulfite conversion, giving single-base DNA
+  methylation at a fraction of the cost of whole-genome bisulfite sequencing.
+readouts:
+- dna-methylation
+- dna-5mc
+resolution:
+- bulk
+scope: targeted
+chemistry:
+- restriction-digest
+- bisulfite-or-enzymatic-conversion
+variant_of:
+- wgbs
+reference:
+  doi: 10.1093/nar/gki901
+  year: 2005
+  journal: Nucleic Acids Res
+  first_author: Meissner A
+  last_author: Jaenisch R
+  pmid: '16224102'
+  pmcid: PMC1258174
+  title: Reduced representation bisulfite sequencing for comparative high-resolution DNA methylation analysis
+links: {}
+added: '2026-11-27'
+evidence: Reduced representation bisulfite sequencing (RRBS), a targeted variant of bisulfite sequencing, cited in Risca &
+  Greenleaf 2015 Table 1

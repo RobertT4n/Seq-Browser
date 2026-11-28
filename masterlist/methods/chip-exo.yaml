@@ -1,0 +1,27 @@
+name: ChIP-exo
+full_name: ChIP with lambda exonuclease digestion
+category: wet
+summary: ChIP-seq in which lambda exonuclease trims the immunoprecipitated DNA up to the protein-bound edge, mapping binding
+  sites to near single-nucleotide accuracy.
+readouts:
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- antibody-pull-down
+variant_of:
+- chip-seq
+reference:
+  doi: 10.1016/j.cell.2011.11.013
+  year: 2011
+  journal: Cell
+  first_author: Rhee HS
+  last_author: Pugh BF
+  pmid: '22153082'
+  pmcid: PMC3243364
+  title: Comprehensive genome-wide protein-DNA interactions detected at single-nucleotide resolution
+links: {}
+added: '2026-11-27'
+evidence: ChIP-exo employs lambda exonuclease to digest away excess free DNA, increasing the resolution of ChIP (Risca & Greenleaf
+  2015)

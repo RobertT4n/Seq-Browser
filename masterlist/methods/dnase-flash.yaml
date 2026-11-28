@@ -1,0 +1,27 @@
+name: DNase-FLASH
+full_name: DNase I fragment length analysis of sequence hypersensitivity
+category: wet
+summary: DNase-seq variant that keeps a broad range of fragment sizes to read nucleosome and transcription-factor footprints
+  in the same library.
+readouts:
+- chromatin-accessibility
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- dnase-digestion
+variant_of:
+- dnase-seq
+reference:
+  doi: 10.1038/nmeth.2713
+  year: 2014
+  journal: Nat Methods
+  first_author: Vierstra J
+  last_author: Stamatoyannopoulos JA
+  pmid: '24185839'
+  title: Coupling transcription factor occupancy to nucleosome architecture with DNase-FLASH
+links: {}
+added: '2026-11-27'
+evidence: Coupling transcription factor occupancy to nucleosome architecture with DNase-FLASH (Risca & Greenleaf 2015 ref
+  33)

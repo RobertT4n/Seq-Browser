@@ -1,0 +1,25 @@
+name: Sono-Seq
+full_name: Sonication-based mapping of accessible chromatin
+category: wet
+summary: Sequences crosslinked, sonicated chromatin without immunoprecipitation; open chromatin shears preferentially, so
+  input reads pile up at promoters and other accessible sites.
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- organic-extraction
+reference:
+  doi: 10.1073/pnas.0905443106
+  year: 2009
+  journal: Proc Natl Acad Sci U S A
+  first_author: Auerbach RK
+  last_author: Snyder M
+  pmid: '19706456'
+  pmcid: PMC2736440
+  title: Mapping accessible chromatin regions using Sono-Seq
+links: {}
+added: '2026-11-27'
+evidence: 'Sono-Seq: sonication of crosslinked chromatin without IP maps accessible chromatin (Risca & Greenleaf 2015 Table
+  1)'

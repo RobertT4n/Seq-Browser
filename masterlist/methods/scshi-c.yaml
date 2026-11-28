@@ -1,0 +1,27 @@
+name: scsHi-C
+full_name: Sister-chromatid-sensitive Hi-C
+category: wet
+summary: Hi-C on cells that incorporated a labelled nucleotide during replication, read out as base conversions, so contacts
+  between sister chromatids and within one chromatid can be told apart.
+readouts:
+- 3d-genome
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- nucleotide-labeling
+variant_of:
+- in-situ-hi-c
+reference:
+  doi: 10.1038/s41586-020-2744-4
+  year: 2020
+  journal: Nature
+  first_author: Mitter M
+  last_author: Gerlich DW
+  pmid: '32968280'
+  pmcid: PMC7116725
+  title: Conformation of sister chromatids in the replicated human genome
+links: {}
+added: '2026-11-27'
+evidence: Conformation of sister chromatids in the replicated human genome (scsHi-C; Soroczynski & Risca 2023 Table 1)

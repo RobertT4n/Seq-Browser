@@ -1,0 +1,30 @@
+name: HiCuT
+full_name: Hi-C with CUT&Tag
+category: wet
+summary: Combines in situ proximity ligation with CUT&Tag-style Tn5 tagmentation to read protein-directed chromatin interactions
+  from low-input samples.
+readouts:
+- 3d-genome
+- protein-dna-binding
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- proximity-ligation
+- antibody-tethered-enzyme
+- tn5
+variant_of:
+- in-situ-hi-c
+reference:
+  doi: 10.1371/journal.pgen.1010121
+  year: 2022
+  journal: PLoS Genet
+  first_author: Sati S
+  last_author: Leung TH
+  pmid: '35320278'
+  pmcid: PMC8979432
+  title: 'HiCuT: An efficient and low input method to identify protein-directed chromatin interactions'
+links: {}
+added: '2026-11-27'
+evidence: 'HiCuT: An efficient and low input method to identify protein-directed chromatin interactions (Soroczynski & Risca
+  2023 Table 1)'

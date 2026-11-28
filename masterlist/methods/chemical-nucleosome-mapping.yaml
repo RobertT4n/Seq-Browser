@@ -1,0 +1,27 @@
+name: Chemical nucleosome mapping
+full_name: Chemical cleavage mapping of nucleosome dyads
+category: wet
+summary: Histone H4 S47C with a thiol-reactive copper chelator cleaves DNA at the nucleosome dyad, mapping nucleosome positions
+  at base-pair resolution without enzyme bias (yeast).
+readouts:
+- chromatin-accessibility
+resolution:
+- bulk
+scope: genome-wide
+chemistry:
+- chemical-cleavage
+variant_of:
+- mnase-seq
+reference:
+  doi: 10.1038/nature11142
+  year: 2012
+  journal: Nature
+  first_author: Brogaard K
+  last_author: Widom J
+  pmid: '22722846'
+  pmcid: PMC3786739
+  title: A map of nucleosome positions in yeast at base-pair resolution
+links: {}
+added: '2026-11-27'
+evidence: A map of nucleosome positions in yeast at base-pair resolution (Risca & Greenleaf 2015 Table 1, chemical mapping
+  of nucleosomes)
